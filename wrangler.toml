@@ -4,6 +4,16 @@
 name = "typologyquiz"
 compatibility_date = "2025-07-01"
 
+# Custom domains (zone must already be in this Cloudflare account)
+# Deploy attaches DNS + certs automatically for these hostnames
+[[routes]]
+pattern = "typologyquiz.com"
+custom_domain = true
+
+[[routes]]
+pattern = "www.typologyquiz.com"
+custom_domain = true
+
 [assets]
 directory = "./out"
 # Match Next.js trailingSlash: true

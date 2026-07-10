@@ -9,13 +9,25 @@ TypologyQuiz offers free psychological self-assessments grounded in peer-reviewe
 
 ## Main pages
 - [Home](https://typologyquiz.com/): Overview and featured tests
-- [All tests](https://typologyquiz.com/tests/): Browse personality, politics, cognition, and perception quizzes
+- [All tests](https://typologyquiz.com/tests/): Browse personality, social, school, and cognition quizzes
+- [Daily](https://typologyquiz.com/daily/): Daily check-in and streaks
+- [Room](https://typologyquiz.com/room/): Friend room compare sessions
+- [Compare](https://typologyquiz.com/compare/): Paste two result links side by side
 - [About](https://typologyquiz.com/about/): Privacy-first mission and contact
 - [Credits](https://typologyquiz.com/credits/): Sources and instrument attributions
 
 ## Available tests
+- [Friend Role](https://typologyquiz.com/test/friend-role/): Your role in the friend group
+- [Social Battery](https://typologyquiz.com/test/social-battery/): How social energy drains and recharges
+- [Attachment Style](https://typologyquiz.com/test/attachment-style/): Secure, anxious, avoidant, mixed patterns
+- [Texting Style](https://typologyquiz.com/test/texting-style/): How you show up over text
+- [Class Archetype](https://typologyquiz.com/test/class-archetype/): Your role in group projects
+- [Conflict Style](https://typologyquiz.com/test/conflict-style/): How you handle arguments
+- [Study Energy](https://typologyquiz.com/test/study-energy/): How you focus and learn
+- [FOMO Style](https://typologyquiz.com/test/fomo-style/): Fear of missing out vs protecting rest
+- [Career Interests](https://typologyquiz.com/test/career-interests/): RIASEC-lite interest map
 - [Mini-IPIP / Big Five](https://typologyquiz.com/test/mini-ipip/): Short Big Five personality inventory
-- [8values](https://typologyquiz.com/test/8values/): Political values compass (economic, diplomatic, civil, societal)
+- [8values](https://typologyquiz.com/test/8values/): Political values compass
 - [CRT-7](https://typologyquiz.com/test/crt-7/): Cognitive Reflection Test (7 items)
 - [VVIQ](https://typologyquiz.com/test/vviq/): Vividness of Visual Imagery Questionnaire
 

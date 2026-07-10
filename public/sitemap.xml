@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://typologyquiz.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://typologyquiz.com/tests/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://typologyquiz.com/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://typologyquiz.com/daily/</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://typologyquiz.com/room/</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://typologyquiz.com/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://typologyquiz.com/account/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://typologyquiz.com/test/friend-role/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://typologyquiz.com/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://typologyquiz.com/credits/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://typologyquiz.com/test/mini-ipip/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://typologyquiz.com/test/attachment-style/</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://typologyquiz.com/test/social-battery/</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://typologyquiz.com/test/friend-role/</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://typologyquiz.com/test/conflict-style/</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://typologyquiz.com/test/friend-role/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://typologyquiz.com/test/social-battery/</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://typologyquiz.com/test/attachment-style/</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://typologyquiz.com/test/texting-style/</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://typologyquiz.com/test/class-archetype/</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://typologyquiz.com/test/conflict-style/</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://typologyquiz.com/test/study-energy/</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://typologyquiz.com/test/fomo-style/</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://typologyquiz.com/test/career-interests/</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://typologyquiz.com/test/mini-ipip/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://typologyquiz.com/test/8values/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://typologyquiz.com/test/crt-7/</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://typologyquiz.com/test/vviq/</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
