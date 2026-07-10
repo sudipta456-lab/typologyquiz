@@ -1,12 +1,11 @@
 # Cloudflare Workers static hosting for Next.js `output: "export"`
-# Build first: npm run build  →  publishes the `out/` folder
+# Build: npm run build  →  deploys the `out/` folder
 
 name = "typologyquiz"
 compatibility_date = "2025-07-01"
 
-# Serve the static export as the site
 [assets]
 directory = "./out"
-# Multi-page static site (not a client-side SPA router)
+# Match Next.js trailingSlash: true
 not_found_handling = "404-page"
-html_handling = "auto"
+html_handling = "force-trailing-slash"
