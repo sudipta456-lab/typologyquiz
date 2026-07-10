@@ -1,0 +1,29 @@
+# TypologyQuiz.com
+
+> Free, scientifically-backed personality and typology quizzes. No accounts, no paywalls, no data brokers. Scoring runs in your browser.
+
+Website: https://typologyquiz.com
+
+## What this site is
+TypologyQuiz offers free psychological self-assessments grounded in peer-reviewed research instruments. Users take tests privately in the browser; results are scored client-side and can be shared via link.
+
+## Main pages
+- [Home](https://typologyquiz.com/): Overview and featured tests
+- [All tests](https://typologyquiz.com/tests/): Browse personality, politics, cognition, and perception quizzes
+- [About](https://typologyquiz.com/about/): Privacy-first mission and contact
+- [Credits](https://typologyquiz.com/credits/): Sources and instrument attributions
+
+## Available tests
+- [Mini-IPIP / Big Five](https://typologyquiz.com/test/mini-ipip/): Short Big Five personality inventory
+- [8values](https://typologyquiz.com/test/8values/): Political values compass (economic, diplomatic, civil, societal)
+- [CRT-7](https://typologyquiz.com/test/crt-7/): Cognitive Reflection Test (7 items)
+- [VVIQ](https://typologyquiz.com/test/vviq/): Vividness of Visual Imagery Questionnaire
+
+## Key principles
+- Free forever for individuals
+- No signup required
+- Answers and scores stay local unless the user shares a result link
+- Not medical, diagnostic, or hiring advice — educational and self-reflection only
+
+## Contact
+hello@typologyquiz.com
