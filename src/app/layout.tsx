@@ -110,11 +110,11 @@ const jsonLd = {
   ],
 };
 
-// Google Analytics 4. The Measurement ID is public, but we read it from an env
-// var (set in .env.local at build time — see .env.example) so it's not baked
-// into git and can differ per environment. When unset, no analytics loads, so
-// dev/preview builds don't pollute the property.
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+// Google Analytics 4. The Measurement ID is public (it ships in the page), so
+// the production ID is the default here — that way Cloudflare's CI build picks
+// it up with no dashboard env config. A NEXT_PUBLIC_GA_ID env var still overrides
+// it for local/preview builds; set it empty to disable analytics entirely.
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-TZ9B8MB7SP";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
