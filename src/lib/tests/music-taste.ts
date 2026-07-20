@@ -90,7 +90,7 @@ export const musicTaste: TestDefinition = {
     description:
       "No single sound owns you — you listen across everything, from mellow to heavy to beat-driven, depending on the mood. Your playlist is impossible to predict, in the best way.",
   },
-  resultType: "radar",
+  resultType: "orbit",
   funFacts: [
     "Researchers have mapped musical taste onto a handful of broad dimensions — mellow, unpretentious, sophisticated, intense, and contemporary — and most people are a blend, not just one.",
     "Your taste isn't random: these dimensions tend to line up with things like how much you crave calm versus stimulation.",

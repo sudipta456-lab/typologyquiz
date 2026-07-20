@@ -53,7 +53,7 @@ export const empathyType: TestDefinition = {
         "Whether you tend to grasp what others feel by thinking it through, or by feeling it right along with them.",
     },
   ],
-  resultType: "spectrum",
+  resultType: "meter",
   spectrumBands: [
     {
       max: 20,

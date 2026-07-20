@@ -51,7 +51,7 @@ export const nightOwl: TestDefinition = {
         "Your natural energy clock — higher means your focus and mood peak later in the day.",
     },
   ],
-  resultType: "spectrum",
+  resultType: "meter",
   spectrumBands: [
     {
       max: 20,

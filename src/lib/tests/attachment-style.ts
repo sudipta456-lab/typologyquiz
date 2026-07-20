@@ -82,7 +82,7 @@ export const attachmentStyle: TestDefinition = {
     description:
       "No single leaning stands out for you right now — you're some mix of trusting, watchful, and independent depending on the person and the week. That's completely normal, and it's also the most likely honest answer for anyone whose friendships are still changing shape.",
   },
-  resultType: "radar",
+  resultType: "orbit",
   funFacts: [
     "Attachment patterns form early, but they shift with safe friendships and practice.",
     "Most people are a blend, not a pure type. Your top score is a leaning, not a cage.",

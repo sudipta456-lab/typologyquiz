@@ -82,7 +82,7 @@ export const humorStyle: TestDefinition = {
     description:
       "No single lane owns your humor — you shift between warm, sunny, edgy, and self-roast depending on the room. Flexible and hard to predict, in a good way.",
   },
-  resultType: "radar",
+  resultType: "orbit",
   funFacts: [
     "Psychologists split humor into styles that connect (warm, sunny) and styles that can sting (edgy, self-roast) — most people use a mix.",
     "The 'warm' and 'sunny' styles tend to track with feeling good; heavy self-roasting is the one to keep an eye on if it stops being fun.",

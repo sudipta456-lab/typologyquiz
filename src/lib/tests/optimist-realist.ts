@@ -51,7 +51,7 @@ export const optimistRealist: TestDefinition = {
         "How you expect things to turn out — lower means grounded and prepared, higher means hopeful and expecting the upside.",
     },
   ],
-  resultType: "spectrum",
+  resultType: "wave",
   spectrumBands: [
     {
       max: 20,

@@ -90,7 +90,7 @@ export const careLanguage: TestDefinition = {
     description:
       "No single lane owns how you care — you shift between hype, time, favors, little gifts, and just being there depending on the person and the moment. Flexible and easy to feel cared-for by.",
   },
-  resultType: "radar",
+  resultType: "bars",
   funFacts: [
     "The idea of different 'care languages' started as a way to explain why one person's love feels invisible to another — they're just speaking different dialects of care.",
     "How you show care and how you like to receive it aren't always the same — plenty of people give in one lane and want another.",

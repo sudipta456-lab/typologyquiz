@@ -53,7 +53,7 @@ export const howBold: TestDefinition = {
         "How readily you reach for new experiences, adventure, and speaking up — higher means more novelty-seeking and spontaneity.",
     },
   ],
-  resultType: "spectrum",
+  resultType: "wave",
   spectrumBands: [
     {
       max: 20,

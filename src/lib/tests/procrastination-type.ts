@@ -90,7 +90,7 @@ export const procrastinationType: TestDefinition = {
     description:
       "No single delay style runs the show for you — a bit of planning, a bit of last-minute push, a bit of dodging, depending on the task. You mostly find your way to the start line without one habit owning you.",
   },
-  resultType: "radar",
+  resultType: "bars",
   funFacts: [
     "Procrastination is more about managing feelings than managing time — we put off tasks that stir up stress, boredom, or self-doubt.",
     "Almost everyone does it, and 'last-minute' people often aren't lazy — they're waiting for the pressure that finally flips their focus on.",

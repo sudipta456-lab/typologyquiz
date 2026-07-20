@@ -82,7 +82,7 @@ export const gamingPersonality: TestDefinition = {
     description:
       "No single style owns you — some nights you grind, some you explore, some you're all about friends or the win. Flexible and hard to pin down, which means most games have something for you.",
   },
-  resultType: "radar",
+  resultType: "orbit",
   funFacts: [
     "Researchers have long grouped players into a handful of types — most people are a blend, not just one.",
     "Your gaming type can shift with the game itself: a chill explorer in one title can turn full competitor in another.",

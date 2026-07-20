@@ -52,7 +52,7 @@ export const growthMindset: TestDefinition = {
         "How much you see ability as buildable — higher means you treat skills as things you can grow with effort.",
     },
   ],
-  resultType: "spectrum",
+  resultType: "wave",
   spectrumBands: [
     {
       max: 20,

@@ -41,7 +41,22 @@ export interface TestDefinition {
   sourceUrl?: string;
   questions: Question[];
   axes: AxisDef[];
-  resultType: "compass" | "radar" | "dial" | "spectrum" | "percentile";
+  /**
+   * Which hero visual the results page renders.
+   * Multi-axis "type" quizzes: radar | bars | orbit.
+   * Single-axis "spectrum" quizzes: spectrum | meter | wave.
+   * compass (8values), dial (CRT) are instrument-specific.
+   */
+  resultType:
+    | "compass"
+    | "radar"
+    | "dial"
+    | "spectrum"
+    | "percentile"
+    | "bars"
+    | "orbit"
+    | "meter"
+    | "wave";
   funFacts: string[];
   disclaimer: string;
   norms?: Record<string, { mean: number; sd: number }>;

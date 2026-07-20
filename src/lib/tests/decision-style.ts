@@ -51,7 +51,7 @@ export const decisionStyle: TestDefinition = {
         "How you make choices — lower means quick and instinctive, higher means thorough and comparison-heavy.",
     },
   ],
-  resultType: "spectrum",
+  resultType: "meter",
   spectrumBands: [
     {
       max: 20,

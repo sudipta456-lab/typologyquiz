@@ -91,7 +91,7 @@ export const classArchetype: TestDefinition = {
     description:
       "You don't have one fixed role — you read the group and fill whatever's missing. Captain when nobody's leading, finisher when the work is stalling, glue when it gets tense. Underrated and very hard to replace.",
   },
-  resultType: "radar",
+  resultType: "orbit",
   funFacts: [
     "Teams do better when the roles are different, not when everyone wants to be captain.",
     "The loudest role usually gets the credit. Finishers are chronically underrated.",

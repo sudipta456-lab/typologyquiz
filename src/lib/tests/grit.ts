@@ -53,7 +53,7 @@ export const grit: TestDefinition = {
         "How much you stick with long goals and push through setbacks — higher means more perseverance and steady focus.",
     },
   ],
-  resultType: "spectrum",
+  resultType: "meter",
   spectrumBands: [
     {
       max: 20,

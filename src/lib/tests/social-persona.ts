@@ -82,7 +82,7 @@ export const socialPersona: TestDefinition = {
     description:
       "No single lane owns your online style — you lurk one day, post the next, tidy your feed, and jump into the group chat depending on your mood. Adaptable and hard to pin down, which is honestly pretty handy.",
   },
-  resultType: "radar",
+  resultType: "orbit",
   funFacts: [
     "Most people quietly lurk far more than they post — the 'silent majority' of any feed is bigger than it looks.",
     "How you show up online often shifts by app: a poster on one platform can be a total lurker on another.",

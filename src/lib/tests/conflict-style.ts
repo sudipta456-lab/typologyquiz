@@ -93,7 +93,7 @@ export const conflictStyle: TestDefinition = {
     description:
       "No single style runs the show — you read the situation and switch. Flexible and hard to pin down, which is genuinely useful. The trade-off: your friends may not know which version of you they're getting.",
   },
-  resultType: "radar",
+  resultType: "bars",
   funFacts: [
     "No style is always best. Winning a debate can cost a friendship; avoiding can cost trust later.",
     "Groups work better when people know each other's conflict style, not just who's doing which task.",

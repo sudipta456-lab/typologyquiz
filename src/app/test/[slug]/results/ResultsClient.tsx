@@ -10,6 +10,10 @@ import { RadarChart } from "@/components/RadarChart";
 import { CompassChart } from "@/components/CompassChart";
 import { DialChart } from "@/components/DialChart";
 import { SpectrumBar } from "@/components/SpectrumBar";
+import { RankedBars } from "@/components/RankedBars";
+import { OrbitChart } from "@/components/OrbitChart";
+import { ArcMeter } from "@/components/ArcMeter";
+import { WaveSpectrum } from "@/components/WaveSpectrum";
 import { ShareBlock } from "@/components/ShareBlock";
 import { InviteFriends } from "@/components/InviteFriends";
 import { ResultShareCard } from "@/components/ResultShareCard";
@@ -149,19 +153,40 @@ function ResultsContent() {
             color={accentColor}
           />
         );
-      case "spectrum": {
-        const axis = t.axes[0];
-        const scoreKey = axis?.key ?? Object.keys(result.scores)[0];
+      case "bars":
         return (
-          <SpectrumBar
-            score={result.scores[scoreKey] ?? 0}
-            label={axis?.label ?? "Score"}
-            lowLabel={axis?.lowLabel ?? "Low"}
-            highLabel={axis?.highLabel ?? "High"}
+          <RankedBars
+            scores={result.scores}
+            axes={t.axes}
             color={accentColor}
             category={category}
           />
         );
+      case "orbit":
+        return (
+          <OrbitChart
+            scores={result.scores}
+            axes={t.axes}
+            color={accentColor}
+            category={category}
+          />
+        );
+      case "spectrum":
+      case "meter":
+      case "wave": {
+        const axis = t.axes[0];
+        const scoreKey = axis?.key ?? Object.keys(result.scores)[0];
+        const spectrumProps = {
+          score: result.scores[scoreKey] ?? 0,
+          label: axis?.label ?? "Score",
+          lowLabel: axis?.lowLabel ?? "Low",
+          highLabel: axis?.highLabel ?? "High",
+          color: accentColor,
+          category,
+        };
+        if (t.resultType === "meter") return <ArcMeter {...spectrumProps} />;
+        if (t.resultType === "wave") return <WaveSpectrum {...spectrumProps} />;
+        return <SpectrumBar {...spectrumProps} />;
       }
       default:
         return null;

@@ -129,7 +129,7 @@ export const enneagramLite: TestDefinition = {
     description:
       "You don't map cleanly to one type — you're a mix of several, which is completely normal for a quick quiz like this. Real Enneagram types show up over time, not in a handful of questions.",
   },
-  resultType: "radar",
+  resultType: "bars",
   funFacts: [
     "The Enneagram sorts people into nine types arranged in a circle, each with its own core motivation — what you want, deep down.",
     "It isn't a scientifically validated personality test — it's a framework for self-reflection, so hold your result lightly and use it to think, not to box yourself in.",

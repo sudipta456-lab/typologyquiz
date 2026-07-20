@@ -91,7 +91,7 @@ export const textingStyle: TestDefinition = {
     description:
       "No single texting mode owns you — you're fast in one chat, quiet in another, chaotic in the group, careful in the DMs. Adaptable, and genuinely hard to pin down.",
   },
-  resultType: "radar",
+  resultType: "bars",
   funFacts: [
     "Texting style says almost nothing about how warm you are in person — plenty of slow repliers are the best friend in the room.",
     "Different group chats pull different styles out of the same person.",

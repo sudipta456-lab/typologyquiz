@@ -93,7 +93,7 @@ export const friendRole: TestDefinition = {
     description:
       "No single role owns you — you plan, joke, listen, or steady the ship depending on who's in the room and what it needs. Useful in basically any group, though it can mean nobody quite knows what to expect from you.",
   },
-  resultType: "radar",
+  resultType: "bars",
   funFacts: [
     "Groups work best when roles are different. Five planners argue about calendars. Five sparks forget the time.",
     "Your role can change by friend group. At home you might be the comic. At school you might be the listener.",
