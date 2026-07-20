@@ -1,5 +1,27 @@
 import type { Question, TestDefinition } from "../types";
 
+/**
+ * The questions currently in play for a given set of answers.
+ *
+ * Base questions are always included. A question carrying `showIf` is a
+ * follow-up probe: it appears only once its trigger question has been answered
+ * within the configured range. Because unanswered items are skipped by the
+ * scorers, a probe that never appears simply doesn't count toward its axis.
+ */
+export function visibleQuestions(
+  test: TestDefinition,
+  answers: Record<string, number>
+): Question[] {
+  return test.questions.filter((q) => {
+    if (!q.showIf) return true;
+    const trigger = answers[q.showIf.questionId];
+    if (trigger === undefined) return false;
+    const min = q.showIf.min ?? Number.NEGATIVE_INFINITY;
+    const max = q.showIf.max ?? Number.POSITIVE_INFINITY;
+    return trigger >= min && trigger <= max;
+  });
+}
+
 /** Score likert axes to 0-100. direction -1 reverses the item. */
 export function scoreLikertAxes(
   questions: Question[],

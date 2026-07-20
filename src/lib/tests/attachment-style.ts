@@ -34,6 +34,27 @@ const questions = [
   { id: "att_m03", text: "I swing between chasing people and pulling away.", type: "likert" as const, axis: "mixed", direction: 1 as const },
   { id: "att_m04", text: "How close I feel to my people stays pretty steady week to week.", type: "likert" as const, axis: "mixed", direction: -1 as const },
   { id: "att_m05", text: "Once I decide someone's my person, my feelings about it don't flip around.", type: "likert" as const, axis: "mixed", direction: -1 as const },
+
+  // --- Follow-up probes (only shown when an earlier answer triggers them) ---
+  //
+  // These are deliberately UNIFORM: exactly one probe per axis, every one
+  // triggered by the same polarity (min: 4 on a forward base item) and every
+  // one reverse-keyed. That symmetry matters - if some axes gained a probe that
+  // others didn't under a given answer pattern, a straight-liner would tip the
+  // ipsative ranking and get handed a definite type again. With one matched
+  // probe per axis, any constant answer shifts all four axes equally and still
+  // lands on the balanced result.
+  //
+  // Each probe is a re-verify: you leaned hard into a trait, so we ask the
+  // other side of it before taking that lean at face value.
+
+  { id: "att_b1", text: "Honestly, some friendships still feel like hard work to keep steady.", type: "likert" as const, axis: "secure", direction: -1 as const, showIf: { questionId: "att_s01", min: 4 } },
+
+  { id: "att_b2", text: "Most days I can let a slow reply go without reading into it.", type: "likert" as const, axis: "anxious", direction: -1 as const, showIf: { questionId: "att_a01", min: 4 } },
+
+  { id: "att_b3", text: "There are people I'm glad to have around even when I'm worn out.", type: "likert" as const, axis: "avoidant", direction: -1 as const, showIf: { questionId: "att_v01", min: 4 } },
+
+  { id: "att_b4", text: "Once I'm close to someone, how much space I want stays fairly steady.", type: "likert" as const, axis: "mixed", direction: -1 as const, showIf: { questionId: "att_m01", min: 4 } },
 ];
 
 export const attachmentStyle: TestDefinition = {
@@ -47,6 +68,7 @@ export const attachmentStyle: TestDefinition = {
   timeMinutes: 3,
   itemCount: 20,
   license: "Original TypologyQuiz items inspired by attachment research (for self-reflection only)",
+  hasBranching: true,
   scoreMode: "type",
   questions,
   axes: [

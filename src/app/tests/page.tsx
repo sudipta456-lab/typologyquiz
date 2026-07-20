@@ -95,7 +95,9 @@ export default function TestsPage() {
                     )}
                   </h3>
                   <span className="quiz-meta">
-                    {test.itemCount} items · ~{test.timeMinutes} min
+                    {test.itemCount}
+                    {test.hasBranching ? "+" : ""} items · ~{test.timeMinutes} min
+                    {test.hasBranching ? " · adapts" : ""}
                   </span>
                 </div>
               </div>

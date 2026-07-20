@@ -4,6 +4,18 @@ export type TestCategory = "personality" | "values" | "thinking" | "perception" 
 
 export type QuestionType = "likert" | "numeric";
 
+/**
+ * Condition for a follow-up ("branching") question. The question is only shown
+ * when the answer to `questionId` falls within [min, max] (inclusive, on the
+ * 1-5 Likert scale). Unshown questions are simply never answered, and the
+ * scorer already ignores unanswered items, so no scoring changes are needed.
+ */
+export interface ShowIf {
+  questionId: string;
+  min?: number;
+  max?: number;
+}
+
 export interface Question {
   id: string;
   text: string;
@@ -12,6 +24,8 @@ export interface Question {
   direction: 1 | -1;
   weight?: number;
   correctAnswer?: number;
+  /** Present only on follow-up probes; see ShowIf. */
+  showIf?: ShowIf;
 }
 
 export type ScoreMode = "type" | "spectrum" | "scale";
@@ -62,6 +76,8 @@ export interface TestDefinition {
   norms?: Record<string, { mean: number; sd: number }>;
   /** New (2026) quizzes render a NEW badge. */
   isNew?: boolean;
+  /** Quiz contains follow-up questions that depend on earlier answers. */
+  hasBranching?: boolean;
   /**
    * Data-driven scoring. When set, registry.scoreTest routes to the generic
    * scorer instead of a bespoke switch case:

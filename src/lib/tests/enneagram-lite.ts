@@ -50,6 +50,37 @@ const questions = [
   { id: "en_t9a", text: "I go out of my way to keep the peace and avoid drama.", type: "likert" as const, axis: "type9", direction: 1 as const },
   { id: "en_t9b", text: "I'm easygoing and can usually see everyone's side of things.", type: "likert" as const, axis: "type9", direction: 1 as const },
   { id: "en_t9c", text: "I don't mind conflict — I'll dive right into a disagreement.", type: "likert" as const, axis: "type9", direction: -1 as const },
+
+  // --- Follow-up probes (only shown when an earlier answer triggers them) ---
+  //
+  // UNIFORM BY CONSTRUCTION: exactly one probe per type, every one triggered by
+  // the same polarity (min: 4 on that type's first forward item) and every one
+  // reverse-keyed. Uneven probes are dangerous here - with 9 thin axes, giving
+  // some types an extra item and not others skews the ipsative ranking, and a
+  // straight-liner starts getting handed a real type again. (An earlier 6-probe
+  // version cleared the flat-profile threshold at all-5s and only stayed
+  // balanced because four axes happened to tie.)
+  //
+  // Each probe is a re-verify: you leaned hard into a type, so we ask the other
+  // side of it before taking that lean at face value.
+
+  { id: "en_b1", text: "Plenty of things are fine at good enough, and I can leave them there.", type: "likert" as const, axis: "type1", direction: -1 as const, showIf: { questionId: "en_t1a", min: 4 } },
+
+  { id: "en_b2", text: "I find it easy to say no when someone asks me for a favour.", type: "likert" as const, axis: "type2", direction: -1 as const, showIf: { questionId: "en_t2a", min: 4 } },
+
+  { id: "en_b3", text: "I'm just as happy coasting as I am chasing a goal.", type: "likert" as const, axis: "type3", direction: -1 as const, showIf: { questionId: "en_t3a", min: 4 } },
+
+  { id: "en_b4", text: "I'd rather fit in comfortably than stand out as different.", type: "likert" as const, axis: "type4", direction: -1 as const, showIf: { questionId: "en_t4a", min: 4 } },
+
+  { id: "en_b5", text: "I'm happy to jump into something without reading up on it first.", type: "likert" as const, axis: "type5", direction: -1 as const, showIf: { questionId: "en_t5a", min: 4 } },
+
+  { id: "en_b6", text: "I tend to assume things will work out without planning for what could go wrong.", type: "likert" as const, axis: "type6", direction: -1 as const, showIf: { questionId: "en_t6a", min: 4 } },
+
+  { id: "en_b7", text: "A quiet weekend with nothing planned sounds genuinely great to me.", type: "likert" as const, axis: "type7", direction: -1 as const, showIf: { questionId: "en_t7a", min: 4 } },
+
+  { id: "en_b8", text: "I'm comfortable letting someone else run things and just following along.", type: "likert" as const, axis: "type8", direction: -1 as const, showIf: { questionId: "en_t8a", min: 4 } },
+
+  { id: "en_b9", text: "I'll say straight out when I'd rather do something different.", type: "likert" as const, axis: "type9", direction: -1 as const, showIf: { questionId: "en_t9a", min: 4 } },
 ];
 
 export const enneagramLite: TestDefinition = {
@@ -64,6 +95,7 @@ export const enneagramLite: TestDefinition = {
   itemCount: 27,
   license: "Original TypologyQuiz items, inspired by the Enneagram framework (self-reflection only).",
   isNew: true,
+  hasBranching: true,
   scoreMode: "type",
   questions,
   axes: [

@@ -35,6 +35,23 @@ const questions = [
   { id: "cl_pr2", text: "When a friend's down, I sit close so they don't feel alone.", type: "likert" as const, axis: "presence", direction: 1 as const },
   { id: "cl_pr3", text: "Being physically there — same couch, same room — is how I comfort people.", type: "likert" as const, axis: "presence", direction: 1 as const },
   { id: "cl_pr4", text: "I keep my distance rather than offer a hug, even to close friends.", type: "likert" as const, axis: "presence", direction: -1 as const },
+
+  // --- Follow-up probes (only shown when an earlier answer triggers them) ---
+
+  // Words — go deeper on being the group-chat hype person
+  { id: "cl_b1", text: "I'll type out a whole paragraph about why someone did great, not just an emoji.", type: "likert" as const, axis: "words", direction: 1 as const, showIf: { questionId: "cl_wo2", min: 4 } },
+
+  // Time — go deeper on unhurried time together
+  { id: "cl_b2", text: "I'll happily hang out doing absolutely nothing, just because we're together.", type: "likert" as const, axis: "time", direction: 1 as const, showIf: { questionId: "cl_ti3", min: 4 } },
+
+  // Acts — re-verify a maxed-out doing-things style
+  { id: "cl_b3", text: "Honestly, I show I care with words far more often than with favors.", type: "likert" as const, axis: "acts", direction: -1 as const, showIf: { questionId: "cl_ac1", min: 5 } },
+
+  // Gifts — go deeper on the send-it-the-second-you-see-it reflex
+  { id: "cl_b4", text: "I keep a mental list of what my friends are into so I can send them stuff.", type: "likert" as const, axis: "gifts", direction: 1 as const, showIf: { questionId: "cl_gi1", min: 4 } },
+
+  // Presence — re-verify a maxed-out hug-first style
+  { id: "cl_b5", text: "I'd rather say something kind than give someone a hug.", type: "likert" as const, axis: "presence", direction: -1 as const, showIf: { questionId: "cl_pr1", min: 5 } },
 ];
 
 export const careLanguage: TestDefinition = {
@@ -49,6 +66,7 @@ export const careLanguage: TestDefinition = {
   itemCount: 20,
   license: "Original TypologyQuiz items, inspired by the love-languages idea reframed for friendship (self-reflection only).",
   isNew: true,
+  hasBranching: true,
   scoreMode: "type",
   questions,
   axes: [

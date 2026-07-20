@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { SITE } from "@/lib/site";
 import { resultNetworks, resultShareText } from "@/lib/share";
 import { useSiteOrigin } from "@/lib/use-site-origin";
@@ -13,9 +13,45 @@ interface Props {
   resultLabel?: string;
 }
 
+/**
+ * Copy that actually reports failure. navigator.clipboard is unavailable on
+ * insecure origins and can reject when permission is denied; without a fallback
+ * the tap silently did nothing and the user got no feedback at all.
+ */
+async function copyText(text: string): Promise<boolean> {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch {
+    /* fall through to the legacy path */
+  }
+  try {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand("copy");
+    document.body.removeChild(ta);
+    return ok;
+  } catch {
+    return false;
+  }
+}
+
 export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props) {
   const [status, setStatus] = useState<string | null>(null);
+  const [canNativeShare, setCanNativeShare] = useState(false);
   const origin = useSiteOrigin();
+
+  // Checked after mount so the button label can't cause a hydration mismatch.
+  useEffect(() => {
+    setCanNativeShare(typeof navigator !== "undefined" && !!navigator.share);
+  }, []);
 
   const shareUrl = useMemo(
     () => `${origin}/test/${testSlug}/results/?r=${encodeURIComponent(encoded)}`,
@@ -37,8 +73,8 @@ export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props)
     setTimeout(() => setStatus(null), 2500);
   }
 
-  function handleCopyLink() {
-    navigator.clipboard.writeText(shareUrl).then(() => flash("Link copied"));
+  async function handleCopyLink() {
+    flash((await copyText(shareUrl)) ? "Link copied" : "Couldn't copy - select the link above");
   }
 
   async function handleNativeShare() {
@@ -51,15 +87,16 @@ export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props)
         });
         return;
       } catch {
-        /* cancelled */
+        /* cancelled, or the share sheet failed - fall back to copying */
       }
     }
-    navigator.clipboard.writeText(shareText).then(() => flash("Message copied"));
+    flash((await copyText(shareText)) ? "Message copied" : "Couldn't copy - select the text above");
   }
 
-  function handleNetwork(n: (typeof networks)[number]) {
+  async function handleNetwork(n: (typeof networks)[number]) {
     if (n.copyText) {
-      navigator.clipboard.writeText(n.copyText).then(() => flash(n.hint || "Copied"));
+      const ok = await copyText(n.copyText);
+      flash(ok ? n.hint || "Copied" : "Couldn't copy - select the text above");
       return;
     }
     if (n.href) {
@@ -87,7 +124,7 @@ export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props)
           {status === "Link copied" ? "Copied" : "Copy link"}
         </button>
         <button type="button" onClick={handleNativeShare} className="btn-primary share-btn">
-          Share…
+          {canNativeShare ? "Share…" : "Copy message"}
         </button>
       </div>
 

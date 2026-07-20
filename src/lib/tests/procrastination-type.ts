@@ -35,6 +35,23 @@ const questions = [
   { id: "pr_bb2", text: "Staying \"busy\" with small stuff helps me dodge the real priority.", type: "likert" as const, axis: "busyBee", direction: 1 as const },
   { id: "pr_bb3", text: "I feel productive tidying and organising while the main task waits.", type: "likert" as const, axis: "busyBee", direction: 1 as const },
   { id: "pr_bb4", text: "I go after the most important task first, before the easy busywork.", type: "likert" as const, axis: "busyBee", direction: -1 as const },
+
+  // --- Follow-up probes (only shown when an earlier answer triggers them) ---
+
+  // Perfectionist — go deeper on waiting for the perfect setup
+  { id: "pr_b1", text: "I've spent longer picking the app, playlist, or notebook than actually working.", type: "likert" as const, axis: "perfectionist", direction: 1 as const, showIf: { questionId: "pr_pf1", min: 4 } },
+
+  // Dreamer — go deeper on the pile of unstarted ideas
+  { id: "pr_b2", text: "I've got projects I've described out loud to friends but never begun.", type: "likert" as const, axis: "dreamer", direction: 1 as const, showIf: { questionId: "pr_dr2", min: 4 } },
+
+  // Crisis-maker — re-verify a maxed-out deadline rush
+  { id: "pr_b3", text: "Plenty of my best work has come together calmly, days before it was due.", type: "likert" as const, axis: "crisisMaker", direction: -1 as const, showIf: { questionId: "pr_cr1", min: 5 } },
+
+  // Avoider — go deeper on reaching for a distraction
+  { id: "pr_b4", text: "I somehow end up on my phone the exact moment I open the hard task.", type: "likert" as const, axis: "avoider", direction: 1 as const, showIf: { questionId: "pr_av2", min: 4 } },
+
+  // Busy-bee — re-verify a maxed-out tidy-instead-of-work habit
+  { id: "pr_b5", text: "When the big task is waiting, small chores lose their appeal completely.", type: "likert" as const, axis: "busyBee", direction: -1 as const, showIf: { questionId: "pr_bb3", min: 5 } },
 ];
 
 export const procrastinationType: TestDefinition = {
@@ -49,6 +66,7 @@ export const procrastinationType: TestDefinition = {
   itemCount: 20,
   license: "Original TypologyQuiz items for self-reflection only.",
   isNew: true,
+  hasBranching: true,
   scoreMode: "type",
   questions,
   axes: [

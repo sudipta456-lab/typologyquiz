@@ -4,6 +4,7 @@ import { useParams, useRouter } from "next/navigation";
 import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { getTest, scoreTest } from "@/lib/tests/registry";
+import { visibleQuestions } from "@/lib/tests/score-utils";
 import { AnswerMap } from "@/lib/types";
 import { saveProgress, loadProgress, clearProgress, encodeResult } from "@/lib/results";
 import { loadSchoolMode } from "@/lib/settings";
@@ -61,8 +62,11 @@ function getInitialState(slug: string) {
       answers: saved.answers,
       startIndex: (() => {
         const test = getTest(slug);
-        const firstUnanswered = test?.questions.findIndex((q) => saved.answers[q.id] === undefined);
-        return firstUnanswered !== undefined && firstUnanswered >= 0 ? firstUnanswered : 0;
+        if (!test) return 0;
+        // Resume against the branch-resolved list, not the raw question array.
+        const live = visibleQuestions(test, saved.answers);
+        const firstUnanswered = live.findIndex((q) => saved.answers[q.id] === undefined);
+        return firstUnanswered >= 0 ? firstUnanswered : 0;
       })(),
     };
   }
@@ -134,20 +138,30 @@ export function TakeTestClient() {
     );
   }
 
-  const totalQuestions = test.questions.length;
-  const question = test.questions[currentIndex];
-  const progress = Math.round(((currentIndex + (answers[question.id] !== undefined ? 1 : 0)) / totalQuestions) * 100);
+  // Branch-resolved question list. Follow-up probes appear/disappear as their
+  // trigger answers change, so length and index are both dynamic.
+  const visible = visibleQuestions(test, answers);
+  const totalQuestions = visible.length;
+  // Going Back and changing an answer can collapse a branch and shrink the
+  // list out from under currentIndex, so clamp rather than index out of range.
+  const safeIndex = Math.min(currentIndex, Math.max(0, totalQuestions - 1));
+  const question = visible[safeIndex];
+  const progress = Math.round(((safeIndex + (question && answers[question.id] !== undefined ? 1 : 0)) / Math.max(1, totalQuestions)) * 100);
   const answeredCount = Object.keys(answers).length;
 
   function handleAnswer(value: number) {
-    if (transitioning) return;
+    if (transitioning || !question || !test) return;
     setTransitioning(true);
     setFlashValue(value);
-    setAnswers((prev) => ({ ...prev, [question.id]: value }));
-    const newIndex = currentIndex + 1;
+    const newAnswers: AnswerMap = { ...answers, [question.id]: value };
+    setAnswers(newAnswers);
+    // This answer may open or close a follow-up branch, so recompute the list
+    // before deciding whether the quiz is finished.
+    const nextVisible = visibleQuestions(test, newAnswers);
+    const newIndex = safeIndex + 1;
     const milestones = [0.25, 0.5, 0.75];
-    const currentPct = currentIndex / totalQuestions;
-    const newPct = newIndex / totalQuestions;
+    const currentPct = safeIndex / Math.max(1, nextVisible.length);
+    const newPct = newIndex / Math.max(1, nextVisible.length);
     const crossedMilestone = milestones.find((m) => currentPct < m && newPct >= m);
     if (crossedMilestone) {
       const msgs: Record<string, string> = {
@@ -160,13 +174,13 @@ export function TakeTestClient() {
     setTimeout(() => {
       setFlashValue(null);
       setTransitioning(false);
-      if (newIndex >= totalQuestions) finishTest();
+      if (newIndex >= nextVisible.length) finishTest(newAnswers);
       else setCurrentIndex(newIndex);
     }, 280);
   }
 
   function handleNumericSubmit() {
-    if (transitioning || submitted) return;
+    if (transitioning || submitted || !question || !test) return;
     const val = numericInput.trim();
     if (!val) return;
     let numericValue: number;
@@ -178,13 +192,15 @@ export function TakeTestClient() {
     }
     setSubmitted(true);
     setTransitioning(true);
-    setAnswers((prev) => ({ ...prev, [question.id]: numericValue }));
-    const newIndex = currentIndex + 1;
+    const newAnswers: AnswerMap = { ...answers, [question.id]: numericValue };
+    setAnswers(newAnswers);
+    const nextVisible = visibleQuestions(test, newAnswers);
+    const newIndex = safeIndex + 1;
     setTimeout(() => {
       setTransitioning(false);
       setSubmitted(false);
       setNumericInput("");
-      if (newIndex >= totalQuestions) finishTest();
+      if (newIndex >= nextVisible.length) finishTest(newAnswers);
       else setCurrentIndex(newIndex);
     }, 250);
   }
@@ -198,9 +214,9 @@ export function TakeTestClient() {
     }
   }
 
-  function finishTest() {
+  function finishTest(finalAnswers: AnswerMap = answers) {
     if (!test) return;
-    const { result, extras } = scoreTest(test, answers);
+    const { result, extras } = scoreTest(test, finalAnswers);
     const encoded = encodeResult({ ...result, completedAt: Date.now() }, extras);
     const label =
       typeof extras?.label === "string"
