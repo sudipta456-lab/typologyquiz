@@ -72,7 +72,28 @@ export default function TestsPage() {
                   {meta.emoji}
                 </div>
                 <div>
-                  <h3 className="quiz-card-title">{test.title}</h3>
+                  <h3 className="quiz-card-title">
+                    {test.title}
+                    {test.isNew && (
+                      <span
+                        style={{
+                          marginLeft: 8,
+                          verticalAlign: "middle",
+                          display: "inline-block",
+                          padding: "1px 7px",
+                          borderRadius: 999,
+                          background: "#0795EA",
+                          color: "#fff",
+                          fontSize: "0.62rem",
+                          fontWeight: 700,
+                          letterSpacing: "0.05em",
+                          fontFamily: "IBM Plex Mono, ui-monospace, monospace",
+                        }}
+                      >
+                        NEW
+                      </span>
+                    )}
+                  </h3>
                   <span className="quiz-meta">
                     {test.itemCount} items · ~{test.timeMinutes} min
                   </span>

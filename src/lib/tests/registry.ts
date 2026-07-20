@@ -3,17 +3,46 @@ import { eightValues, score8Values, getClosestIdeology } from "./8values";
 import { miniIPIP, scoreMiniIPIP } from "./mini-ipip";
 import { crt7, scoreCRT7 } from "./crt-7";
 import { vviq, scoreVVIQ, getVVIQCategory } from "./vviq";
-import { attachmentStyle, scoreAttachment } from "./attachment-style";
-import { riasecLite, scoreRiasec } from "./riasec-lite";
+import { attachmentStyle } from "./attachment-style";
+import { riasecLite } from "./riasec-lite";
 import { socialBattery, scoreSocialBattery } from "./social-battery";
-import { conflictStyle, scoreConflict } from "./conflict-style";
-import { friendRole, scoreFriendRole } from "./friend-role";
-import { classArchetype, scoreClassArchetype } from "./class-archetype";
-import { textingStyle, scoreTexting } from "./texting-style";
+import { conflictStyle } from "./conflict-style";
+import { friendRole } from "./friend-role";
+import { classArchetype } from "./class-archetype";
+import { textingStyle } from "./texting-style";
 import { studyEnergy, scoreStudyEnergy } from "./study-energy";
 import { fomoStyle, scoreFomo } from "./fomo-style";
+import { nightOwl } from "./night-owl";
+import { humorStyle } from "./humor-style";
+import { gamingPersonality } from "./gaming-personality";
+import { growthMindset } from "./growth-mindset";
+import { careLanguage } from "./care-language";
+import { empathyType } from "./empathy-type";
+import { grit } from "./grit";
+import { howBold } from "./how-bold";
+import { socialPersona } from "./social-persona";
+import { procrastinationType } from "./procrastination-type";
+import { musicTaste } from "./music-taste";
+import { decisionStyle } from "./decision-style";
+import { optimistRealist } from "./optimist-realist";
+import { enneagramLite } from "./enneagram-lite";
+import { scoreTypology, scoreSpectrum, scoreScale } from "./score-utils";
 
 export const TESTS: TestDefinition[] = [
+  nightOwl,
+  humorStyle,
+  enneagramLite,
+  gamingPersonality,
+  growthMindset,
+  careLanguage,
+  socialPersona,
+  procrastinationType,
+  musicTaste,
+  decisionStyle,
+  optimistRealist,
+  grit,
+  howBold,
+  empathyType,
   friendRole,
   socialBattery,
   attachmentStyle,
@@ -46,6 +75,30 @@ export function scoreTest(test: TestDefinition, answers: AnswerMap): ScoredResul
   };
 
   let extras: Record<string, unknown> = {};
+
+  // Data-driven scoring for new quizzes (see TestDefinition.scoreMode).
+  // Resists straight-lining; no per-quiz switch case required.
+  if (test.scoreMode === "type") {
+    const { scores, category } = scoreTypology(test, answers);
+    result.scores = scores;
+    return { result, extras: { label: category.label, description: category.description } };
+  }
+  if (test.scoreMode === "spectrum") {
+    const { scores, category } = scoreSpectrum(test, answers);
+    result.scores = scores;
+    return { result, extras: { label: category.label, description: category.description } };
+  }
+  if (test.scoreMode === "scale") {
+    result.scores = scoreScale(test, answers);
+    result.percentiles = {};
+    if (test.norms) {
+      for (const [key, norm] of Object.entries(test.norms)) {
+        const z = (result.scores[key] - norm.mean) / norm.sd;
+        result.percentiles[key] = Math.round(zToPercentile(z));
+      }
+    }
+    return { result, extras };
+  }
 
   switch (test.slug) {
     case "8values": {
@@ -108,46 +161,10 @@ export function scoreTest(test: TestDefinition, answers: AnswerMap): ScoredResul
       }
       break;
     }
-    case "attachment-style": {
-      const { scores, category } = scoreAttachment(answers);
-      result.scores = scores;
-      extras = { category, label: category.label, description: category.description };
-      break;
-    }
-    case "career-interests": {
-      const { scores, category } = scoreRiasec(answers);
-      result.scores = scores;
-      extras = { category, label: category.label, description: category.description };
-      break;
-    }
     case "social-battery": {
       const { scores, category } = scoreSocialBattery(answers);
       result.scores = scores;
       extras = { category, label: category.label, description: category.description };
-      break;
-    }
-    case "conflict-style": {
-      const { scores, category } = scoreConflict(answers);
-      result.scores = scores;
-      extras = { category, label: category.label, description: category.description };
-      break;
-    }
-    case "friend-role": {
-      const { scores, category } = scoreFriendRole(answers);
-      result.scores = scores;
-      extras = { category, label: category.label, description: category.description };
-      break;
-    }
-    case "class-archetype": {
-      const { scores, category } = scoreClassArchetype(answers);
-      result.scores = scores;
-      extras = { label: category.label, description: category.description };
-      break;
-    }
-    case "texting-style": {
-      const { scores, category } = scoreTexting(answers);
-      result.scores = scores;
-      extras = { label: category.label, description: category.description };
       break;
     }
     case "study-energy": {

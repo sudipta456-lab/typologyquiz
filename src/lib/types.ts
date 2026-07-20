@@ -14,6 +14,21 @@ export interface Question {
   correctAnswer?: number;
 }
 
+export type ScoreMode = "type" | "spectrum" | "scale";
+
+/** Copy shown for a picked type, a spectrum band, or the balanced/mixed fallback. */
+export interface TypeMeta {
+  label: string;
+  description: string;
+}
+
+/** A band on a single-axis spectrum, matched by score <= max (ascending). */
+export interface SpectrumBand {
+  max: number;
+  label: string;
+  description: string;
+}
+
 export interface TestDefinition {
   slug: string;
   title: string;
@@ -30,6 +45,22 @@ export interface TestDefinition {
   funFacts: string[];
   disclaimer: string;
   norms?: Record<string, { mean: number; sd: number }>;
+  /** New (2026) quizzes render a NEW badge. */
+  isNew?: boolean;
+  /**
+   * Data-driven scoring. When set, registry.scoreTest routes to the generic
+   * scorer instead of a bespoke switch case:
+   *  - "type": ipsative pick-top across axes, with flat-profile detection.
+   *  - "spectrum": single primary axis mapped to a band label.
+   *  - "scale": per-axis 0-100 profile (+ percentiles from norms if present).
+   */
+  scoreMode?: ScoreMode;
+  /** For scoreMode "type": label + description per axis key. */
+  typeMeta?: Record<string, TypeMeta>;
+  /** For scoreMode "type": shown when no axis clearly leads (straight-line / genuinely mixed). */
+  balanced?: TypeMeta;
+  /** For scoreMode "spectrum": bands for test.axes[0], matched by score <= max ascending. */
+  spectrumBands?: SpectrumBand[];
 }
 
 export interface AxisDef {

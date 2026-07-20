@@ -1,4 +1,4 @@
-import type { Question } from "../types";
+import type { Question, TestDefinition } from "../types";
 
 /** Score likert axes to 0-100. direction -1 reverses the item. */
 export function scoreLikertAxes(
@@ -42,4 +42,85 @@ export function topAxis(
   }
   const meta = labels[bestKey] || { label: bestKey, description: "" };
   return { key: bestKey, label: meta.label, description: meta.description, score: best };
+}
+
+// ---------------------------------------------------------------------------
+// Generic data-driven scorers (scoreMode on TestDefinition).
+// These resist straight-lining: a constant answer collapses every axis toward
+// the middle (because each axis mixes forward + reverse items) and, for "type"
+// quizzes, an ipsative flat-profile check returns a "balanced" result instead
+// of an arbitrary first-in-list winner.
+// ---------------------------------------------------------------------------
+
+/** Minimum lead (points above the person's own axis mean) for a type to "win". */
+export const FLAT_PROFILE_THRESHOLD = 8;
+
+export interface GenericScore {
+  scores: Record<string, number>;
+  category: { label: string; description: string };
+}
+
+/**
+ * scoreMode "type": ipsative pick-top with flat-profile detection.
+ * Ranks axes by how far they sit ABOVE the respondent's own average, so
+ * answering the same on everything (or genuinely being well-rounded) yields
+ * the `balanced` result rather than whichever axis happens to be listed first.
+ */
+export function scoreTypology(test: TestDefinition, answers: Record<string, number>): GenericScore {
+  const keys = test.axes.map((a) => a.key);
+  const scores = scoreLikertAxes(test.questions, answers, keys);
+
+  const values = keys.map((k) => scores[k]);
+  const mean = values.reduce((a, b) => a + b, 0) / (values.length || 1);
+
+  let bestKey = keys[0];
+  let bestDev = -Infinity;
+  let secondDev = -Infinity;
+  for (const k of keys) {
+    const dev = scores[k] - mean;
+    if (dev > bestDev) {
+      secondDev = bestDev;
+      bestDev = dev;
+      bestKey = k;
+    } else if (dev > secondDev) {
+      secondDev = dev;
+    }
+  }
+
+  // Flat profile (straight-lined or genuinely mixed), or a near-tie at the top.
+  const leadsClearly = bestDev >= FLAT_PROFILE_THRESHOLD && bestDev - secondDev >= 2;
+  if (!leadsClearly && test.balanced) {
+    return { scores, category: { ...test.balanced } };
+  }
+
+  const meta = test.typeMeta?.[bestKey] ?? { label: bestKey, description: "" };
+  return { scores, category: { label: meta.label, description: meta.description } };
+}
+
+/**
+ * scoreMode "spectrum": single primary axis (axes[0]) mapped to a band.
+ * Reverse-keyed items make a constant answer land mid-spectrum.
+ */
+export function scoreSpectrum(test: TestDefinition, answers: Record<string, number>): GenericScore {
+  const keys = test.axes.map((a) => a.key);
+  const scores = scoreLikertAxes(test.questions, answers, keys);
+  const primary = keys[0];
+  const value = scores[primary] ?? 50;
+
+  const bands = test.spectrumBands ?? [];
+  const band =
+    bands.find((b) => value <= b.max) ?? bands[bands.length - 1];
+
+  return {
+    scores,
+    category: band
+      ? { label: band.label, description: band.description }
+      : { label: test.axes[0]?.label ?? "Result", description: "" },
+  };
+}
+
+/** scoreMode "scale": per-axis 0-100 profile, no single winner (like Big Five). */
+export function scoreScale(test: TestDefinition, answers: Record<string, number>): Record<string, number> {
+  const keys = test.axes.map((a) => a.key);
+  return scoreLikertAxes(test.questions, answers, keys);
 }
