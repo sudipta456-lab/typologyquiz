@@ -42,3 +42,7 @@ next-env.d.ts
 
 # Keep the analytics env template tracked
 !.env.example
+
+# Local analytics screenshots (Cloudflare/GA captures) - keep out of the public repo
+*_traffic_*.PNG
+traffic_*.PNG
