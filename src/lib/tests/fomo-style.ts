@@ -12,7 +12,7 @@ const questions = [
   { id: "fo_08", text: "Quiet weekends can feel good, not like failure.", type: "likert" as const, axis: "fomo", direction: -1 as const },
   { id: "fo_09", text: "I keep options open until the last second.", type: "likert" as const, axis: "hop", direction: 1 as const },
   { id: "fo_10", text: "I would rather one solid plan than five maybe-plans.", type: "likert" as const, axis: "hop", direction: -1 as const },
-  { id: "fo_11", text: "Scrolling other people fun nights makes me restless.", type: "likert" as const, axis: "fomo", direction: 1 as const },
+  { id: "fo_11", text: "Scrolling past other people's fun nights doesn't really get to me.", type: "likert" as const, axis: "fomo", direction: -1 as const },
   { id: "fo_12", text: "I protect sleep even if it means missing a hang.", type: "likert" as const, axis: "fomo", direction: -1 as const },
 ];
 

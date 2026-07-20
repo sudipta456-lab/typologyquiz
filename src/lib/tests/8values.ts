@@ -176,6 +176,22 @@ export function getClosestIdeology(scores: Record<string, number>): {
   const c = scores.civil ?? 50;
   const s = scores.societal ?? 50;
 
+  // A score near 50 is "no strong lean" on that axis. Without this guard an exact
+  // 50 (what balanced OR straight-lined answering produces) made every boolean
+  // below false and fell through to the most extreme quadrant, and the Centrist
+  // result at the bottom was unreachable dead code.
+  const NEUTRAL_BAND = 8; // 42-58 counts as no clear lean
+  const clearLeanings = [e, d, c, s].filter(
+    (v) => Math.abs(v - 50) > NEUTRAL_BAND
+  ).length;
+  if (clearLeanings < 2) {
+    return {
+      label: "Centrist",
+      description:
+        "Your answers don't lean hard in any one direction - you hold a mix of positions across the spectrum. That's a real result, not a cop-out.",
+    };
+  }
+
   const econLeft = e < 50;
   const diploGlobal = d < 50;
   const civilLib = c < 50;
