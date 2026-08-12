@@ -10,7 +10,7 @@ export type ShareNetwork = {
 };
 
 export function inviteText(url: string = SITE.url): string {
-  return `Come take free typology quizzes with me on TypologyQuiz. No account needed. ${url}`;
+  return `Free typology quizzes and driving licence practice tests on TypologyQuiz. No account, no ads. ${url}`;
 }
 
 export function inviteCaptionShort(url: string = SITE.url): string {

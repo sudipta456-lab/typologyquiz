@@ -28,7 +28,7 @@ export function InviteFriends({ variant = "section" }: { variant?: Variant }) {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: `${SITE.name}: free typology quizzes`,
+          title: `${SITE.name}: free quizzes & driving practice tests`,
           text: message,
           url,
         });

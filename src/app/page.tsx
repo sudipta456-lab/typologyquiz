@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { TESTS } from "@/lib/tests/registry";
+import { JURISDICTIONS } from "@/lib/driving/jurisdictions";
 import { CATEGORY_META } from "@/lib/types";
 import { InviteFriends } from "@/components/InviteFriends";
 import { StartHere } from "@/components/StartHere";
@@ -102,6 +103,47 @@ export default function Home() {
               </Link>
             </p>
           )}
+        </div>
+      </section>
+
+      {/* Driving practice. Different promise from the quizzes - these have right
+          answers and a real exam on the other side - so it gets its own band
+          rather than being mixed into the quiz grid. */}
+      <section className="band">
+        <div className="section">
+          <p className="eyebrow">Learning to drive</p>
+          <h2 className="section-title">Driving licence practice tests</h2>
+          <p className="section-lead">
+            Real exam format, scored the way the real test is scored. Every answer
+            explains the rule behind it and links to the official handbook. Free,
+            no account, no ads.
+          </p>
+
+          <div className="card-grid" style={{ marginTop: 24 }}>
+            {JURISDICTIONS.map((j) => (
+              <Link key={j.slug} href={`/driving/${j.slug}`} className="quiz-card">
+                <div className="quiz-card-top">
+                  <div className="quiz-emoji" aria-hidden="true">
+                    {j.code}
+                  </div>
+                  <div>
+                    <h3 className="quiz-card-title">{j.name}</h3>
+                    <span className="quiz-meta">
+                      {j.licenceName} · {j.sets.length} sets ·{" "}
+                      {j.sets.reduce((n, s) => n + s.questions.length, 0)} questions
+                    </span>
+                  </div>
+                </div>
+                <p className="quiz-card-desc">{j.intro}</p>
+              </Link>
+            ))}
+          </div>
+
+          <p style={{ marginTop: 20, textAlign: "center" }}>
+            <Link href="/driving" className="text-link">
+              All driving practice tests →
+            </Link>
+          </p>
         </div>
       </section>
 

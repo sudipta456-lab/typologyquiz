@@ -42,6 +42,26 @@ export function Footer() {
               </div>
             </div>
             <div>
+              <h4 className="footer-heading">Driving tests</h4>
+              <div className="footer-links">
+                <Link href="/driving" className="footer-link">
+                  All jurisdictions
+                </Link>
+                <Link href="/driving/alberta" className="footer-link">
+                  Alberta Class 7
+                </Link>
+                <Link href="/driving/ontario" className="footer-link">
+                  Ontario G1
+                </Link>
+                <Link href="/driving/texas" className="footer-link">
+                  Texas permit
+                </Link>
+                <Link href="/driving/california" className="footer-link">
+                  California permit
+                </Link>
+              </div>
+            </div>
+            <div>
               <h4 className="footer-heading">Company</h4>
               <div className="footer-links">
                 <Link href="/about" className="footer-link">
