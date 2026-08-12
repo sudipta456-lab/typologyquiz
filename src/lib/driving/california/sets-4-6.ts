@@ -190,16 +190,17 @@ export const californiaSets4to6: DrivingTestSet[] = [
           "Overtaking on a two-lane road, when may you return to your own lane?",
         choices: [
           "As soon as your front bumper clears the other vehicle",
-          "Once you can see the vehicle you passed in your rear-view mirror",
+          "Signal and return to your original lane once you have space to do it safely - when the vehicle you passed shows fully in your rear-view mirror",
           "Once your passenger tells you it is clear",
           "After counting three seconds from starting the manoeuvre",
         ],
         correctIndex: 1,
         explanation:
-          "Seeing the whole front of the passed vehicle in your mirror means you are far enough ahead to move over without cutting in. Pulling back in on the strength of a bumper clearing leaves that driver braking to make room for you.",
+          "The handbook's own instruction is to signal and return to your original lane, and to have enough space to return before you commit to the pass. The mirror is how you tell: once the whole front of the passed vehicle shows in it, you are far enough ahead to move over without cutting in. Pulling back on the strength of a bumper clearing leaves that driver braking to make room for you.",
         context:
           "A legal pass on a two-lane road needs several things at once: a broken yellow line on your side, enough clear road to complete the manoeuvre before any oncoming vehicle arrives, adequate sight distance, and a safe return. You may not pass on a solid yellow, over a crest, on a curve, at an intersection or railroad crossing, or where a sign forbids it. Signal, check the blind spot, and return only when the passed vehicle appears fully in your mirror.",
         trap: "\"As soon as your front bumper clears\" is how impatient passes end, and cutting back in that early is what forces the other driver to brake.",
+        excerptKey: "how-to-pass",
         sourceLabel: "California Driver's Handbook — Passing",
         sourceUrl: `${H}/navigating-the-roads/`,
       },

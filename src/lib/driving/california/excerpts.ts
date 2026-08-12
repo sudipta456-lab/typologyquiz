@@ -1099,4 +1099,12 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     section: "Section 8: Safe Driving (Continued) - Child Restraint System and Safety Seats",
     url: `${HB}/safe-driving-cont1/`,
   },
+  {
+    key: "how-to-pass",
+    quote:
+      "Signal that you plan on passing. Look over your shoulder to check your blind spots. Drive into the passing lane. Speed up to pass the vehicle. Signal and return to your original lane.",
+    source: "California Driver's Handbook (dmv.ca.gov)",
+    section: "Navigating the Roads - How to Pass",
+    url: "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/",
+  },
 ];
