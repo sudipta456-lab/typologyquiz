@@ -6,7 +6,7 @@ import { useState } from "react";
 interface NavLink {
   href: string;
   label: string;
-  /** Struck-through word shown before the label, e.g. crossing out "Account". */
+  /** Struck-through word shown after the label, e.g. crossing out "Account". */
   strikeLabel?: string;
 }
 
@@ -18,7 +18,7 @@ const links: NavLink[] = [
   { href: "/daily", label: "Daily" },
   { href: "/room", label: "Rooms" },
   { href: "/compare", label: "Compare" },
-  // Rendered as a struck-through "Account" followed by "Display Name". It is a
+  // Rendered as "Display Name" followed by a struck-through "Account". It is a
   // small joke that does real work: the thing people expect to find here is an
   // account, and crossing the word out says "there isn't one" faster than any
   // reassurance copy elsewhere on the page could.
@@ -64,6 +64,7 @@ export function Navbar() {
               // label rather than "Account Display Name".
               aria-label={l.strikeLabel ? l.label : undefined}
             >
+              {l.label}
               {l.strikeLabel && (
                 <span
                   aria-hidden="true"
@@ -72,14 +73,13 @@ export function Navbar() {
                     textDecorationThickness: "2px",
                     textDecorationColor: "#f9684d",
                     opacity: 0.55,
-                    marginRight: 5,
+                    marginLeft: 5,
                     fontSize: "0.92em",
                   }}
                 >
                   {l.strikeLabel}
                 </span>
               )}
-              {l.label}
             </Link>
           ))}
           <Link href="/test/friend-role" className="btn-primary nav-cta" onClick={() => setOpen(false)}>
