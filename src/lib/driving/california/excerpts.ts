@@ -313,6 +313,32 @@ export const californiaExcerpts: HandbookExcerpt[] = [
       "Section 6: Navigating the Roads - U-TURN (list of places you may make a U-turn)",
     url: `${HB}/navigating-the-roads/`,
   },
+  {
+    key: "uturn-green-light",
+    quote:
+      "At an intersection on a green traffic light or green arrow, unless a NO U-TURN sign is posted.",
+    source: SOURCE,
+    section:
+      "Section 6: Navigating the Roads - U-TURN (list of places you may make a U-turn)",
+    url: `${HB}/navigating-the-roads/`,
+  },
+  {
+    key: "uturn-prohibited",
+    quote: "In front of a fire station. Never use a fire station driveway to turn around.",
+    source: SOURCE,
+    section:
+      "Section 6: Navigating the Roads - U-TURN (list of places to never make a U-turn)",
+    url: `${HB}/navigating-the-roads/`,
+  },
+  {
+    key: "uturn-business-exception",
+    quote:
+      "Except at an intersection, or on a divided highway where an opening has been provided.",
+    source: SOURCE,
+    section:
+      "Section 6: Navigating the Roads - U-TURN (closing item of the list of places to never make a U-turn, which includes business districts)",
+    url: `${HB}/navigating-the-roads/`,
+  },
 
   // -------------------------------------------------------- right-of-way
   {
@@ -499,6 +525,15 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     url: `${HB}/laws-and-rules-of-the-road-cont1/`,
   },
   {
+    key: "speed-too-slow",
+    quote:
+      "At the same time, you should not block normal and reasonable traffic flow by driving too slowly. If you drive faster or slower than the speed limit, you may be cited.",
+    source: SOURCE,
+    section:
+      "Section 7: Laws and Rules of the Road (Continued) - Heavy Traffic or Bad Weather",
+    url: `${HB}/laws-and-rules-of-the-road-cont1/`,
+  },
+  {
     key: "speed-alley",
     quote: "The speed limit in an alley is 15 mph.",
     source: SOURCE,
@@ -596,11 +631,28 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     url: `${HB}/introduction-to-driving/`,
   },
   {
+    key: "headlights-mountain-roads",
+    quote: "On mountain roads and tunnels (even on sunny days).",
+    source: SOURCE,
+    section:
+      "Section 5: An Introduction to Driving - Using Your Headlights (list of when to use headlights)",
+    url: `${HB}/introduction-to-driving/`,
+  },
+  {
     key: "headlights-fog",
     quote:
       "Use your low-beam headlights. High-beam headlights will reflect back and cause glare.",
     source: SOURCE,
     section: "Section 8: Safe Driving - Fog or Heavy Smoke",
+    url: `${HB}/safe-driving/`,
+  },
+  {
+    key: "headlights-glare",
+    quote:
+      "Do not look directly into the oncoming headlights. Look toward the right edge of your lane.",
+    source: SOURCE,
+    section:
+      "Section 8: Safe Driving - Darkness (if another vehicle's lights are too bright)",
     url: `${HB}/safe-driving/`,
   },
   {
@@ -625,6 +677,22 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     source: SOURCE,
     section: "Section 8: Safe Driving - Slippery Roads",
     url: `${HB}/safe-driving/`,
+  },
+  {
+    key: "stopping-behind-vehicle",
+    quote: "If stopping behind a vehicle, leave enough space to see their rear wheels.",
+    source: SOURCE,
+    section: "Section 6: Navigating the Roads - Braking",
+    url: `${HB}/navigating-the-roads/`,
+  },
+  {
+    key: "freeway-disabled",
+    quote:
+      "Exit on the right side so you are away from traffic if you must get out of the vehicle.",
+    source: SOURCE,
+    section:
+      "Section 8: Safe Driving (Continued) - If Your Vehicle Becomes Disabled on the Freeway",
+    url: `${HB}/safe-driving-cont2/`,
   },
   {
     key: "tire-blowout",
@@ -748,6 +816,22 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     url: `${HB}/navigating-the-roads-cont1/`,
   },
   {
+    key: "exit-vehicle-check",
+    quote:
+      "Before you exit your vehicle, look carefully for passing vehicles, bicycles, and motorcycles.",
+    source: SOURCE,
+    section: "Section 6: Navigating the Roads (Continued) - Parallel Parking",
+    url: `${HB}/navigating-the-roads-cont1/`,
+  },
+  {
+    key: "parking-wrong-direction-cvc",
+    quote:
+      "This subdivision does not permit a vehicle to stop or park upon a roadway in a direction opposite to that in which traffic normally moves.",
+    source: "California Vehicle Code s.22502",
+    section: "CVC 22502(b)(2) - Stopping, Standing, and Parking",
+    url: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=22502.",
+  },
+  {
     key: "parking-sidewalk-driveway",
     quote: "On a sidewalk, partially blocking a sidewalk, or in front of a driveway.",
     source: SOURCE,
@@ -770,6 +854,15 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     quote: "Enter a bike lane no more than 200 feet before starting a turn.",
     source: SOURCE,
     section: "Section 7: Laws and Rules of the Road (Continued) - Passing a Bicyclist",
+    url: `${HB}/laws-and-rules-of-the-road-cont1/`,
+  },
+  {
+    key: "light-rail-pass-left",
+    quote:
+      "Do not overtake and pass a light rail vehicle or streetcar on the left side, whether it is moving or standing, unless:",
+    source: SOURCE,
+    section:
+      "Section 7: Laws and Rules of the Road (Continued) - Buses, Streetcars, Trolleys (three exceptions are listed in the handbook immediately below this sentence)",
     url: `${HB}/laws-and-rules-of-the-road-cont1/`,
   },
   {
@@ -834,6 +927,15 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     section: "Section 8: Safe Driving (Continued) - Disabled Vehicles on Railroad Tracks",
     url: `${HB}/safe-driving-cont2/`,
   },
+  {
+    key: "railroad-stalled-no-train",
+    quote:
+      "Exit your vehicle. Dial the number located on the railroad crossing posts or metal control box near the tracks.",
+    source: SOURCE,
+    section:
+      "Section 8: Safe Driving (Continued) - Disabled Vehicles on Railroad Tracks (if you do not see a train approaching and warning lights are not flashing)",
+    url: `${HB}/safe-driving-cont2/`,
+  },
 
   // ------------------------------------------------------ alcohol and drugs
   {
@@ -880,6 +982,29 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     key: "chemical-test-refusal",
     quote:
       "If a law enforcement officer thinks you are driving while under the influence of drugs or alcohol, they have the right to ask you to take a blood or urine test. If you refuse to take one, DMV will suspend or revoke your driving privilege for one year.",
+    source: SOURCE,
+    section: "Section 9: Alcohol and Drugs",
+    url: `${HB}/alcohol-and-drugs/`,
+  },
+  {
+    key: "dui-hearing-10-days",
+    quote:
+      "You may request a DMV administrative hearing within 10 days from the date of your arrest.",
+    source: SOURCE,
+    section: "Section 9: Alcohol and Drugs - DUI Arrests",
+    url: `${HB}/alcohol-and-drugs/`,
+  },
+  {
+    key: "dui-record-10-years",
+    quote: "All DUI convictions remain on your driver's record for 10 years.",
+    source: SOURCE,
+    section: "Section 9: Alcohol and Drugs - DUI Convictions",
+    url: `${HB}/alcohol-and-drugs/`,
+  },
+  {
+    key: "drugs-prescription",
+    quote:
+      "The law does not see a difference between illegal drugs and medications you get from a doctor or pharmacy. They can all affect your ability to drive safely and react to what you see and hear.",
     source: SOURCE,
     section: "Section 9: Alcohol and Drugs",
     url: `${HB}/alcohol-and-drugs/`,

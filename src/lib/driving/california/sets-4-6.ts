@@ -220,6 +220,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "The list of prohibited parking situations is worth learning whole: on a sidewalk or crosswalk, within 20 feet of a crosswalk, within 15 feet of a fire hydrant or fire station driveway, blocking a driveway, double parked, facing against the direction of traffic, in a bike lane where parking is not permitted, and in the striped access aisle beside a disabled space. None of these are excused by a short stay or hazard lights.",
         trap: "\"Legal if you parked within a marked space\" assumes the paint on the ground overrides the direction rule, when the direction requirement applies inside marked spaces too.",
+        excerptKey: "parking-wrong-direction-cvc",
         sourceLabel: "California Driver's Handbook — Parking",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -299,6 +300,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "Speed is about matching conditions in both directions. The Basic Speed Law forbids driving faster than is safe, and driving far slower than surrounding traffic without reason creates its own hazard. On a multi-lane road, slower vehicles belong in the right-hand lanes, and where a slow vehicle is holding up five or more vehicles on a two-lane road, the driver should use a turnout to let them past.",
         trap: "\"Always the safest choice\" feels unassailable because slower sounds safer, but a large speed difference between vehicles is itself a recognised hazard.",
+        excerptKey: "speed-too-slow",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/safe-driving-cont2/`,
         commonlyMissed: true,
@@ -440,6 +442,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "The DUI framework covers alcohol, cannabis, illegal drugs, prescription medicines and over-the-counter remedies alike, because the test is impairment rather than legality. Combining any of them multiplies the effect, and adding fatigue does the same. Blood alcohol thresholds — 0.08% for adults, 0.01% under 21 or on DUI probation, 0.04% commercial — apply only to alcohol; for everything else it is the state of your driving that matters.",
         trap: "\"Legal as long as you carry the prescription\" confuses lawful possession with fitness to drive, which are two entirely separate questions.",
+        excerptKey: "drugs-prescription",
         sourceLabel: "California Driver's Handbook — Alcohol and drugs",
         sourceUrl: `${H}/alcohol-and-drugs/`,
       },
@@ -641,6 +644,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "The consequences of a DUI in California stack up across several systems. The DMV can suspend your privilege administratively, separate from any court case, with a 10-day window to request a hearing and a temporary licence of about 30 days. A conviction adds a mandatory DUI programme, an insurance proof filing such as an SR 22, and reissue fees. Refusing a chemical test brings its own suspension of about a year under implied consent. The record itself lasts 10 years.",
         trap: "Three or five years matches the retention period for lesser violations, which makes the shorter figures feel right for anyone reasoning from ordinary tickets.",
+        excerptKey: "dui-record-10-years",
         sourceLabel: "California Driver's Handbook — Alcohol and drugs",
         sourceUrl: `${H}/alcohol-and-drugs/`,
         commonlyMissed: true,
@@ -901,6 +905,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "U-turn rules change with the setting. Residential district: mid-block is permitted when no vehicle is approaching within 200 feet either way. Business district: only at an intersection or through a divided-highway opening. Divided highway generally: use a provided opening rather than crossing the barrier. Never in front of a fire station or at a railroad crossing. Any NO U-TURN sign overrides all of the above.",
         trap: "The 200-foot answer is a real California rule in the wrong district, which makes it the most convincing distractor available.",
+        excerptKey: "uturn-business-exception",
         sourceLabel: "California Driver's Handbook — U-turns",
         sourceUrl: `${H}/navigating-the-roads/`,
         commonlyMissed: true,
@@ -1153,6 +1158,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "Permitted U-turns: at an intersection on a green light with no prohibiting sign; through a provided opening in a divided highway; and mid-block in a residential district when no vehicle is approaching within 200 feet. Prohibited: in front of a fire station, at a railroad crossing, and mid-block in a business district. Everywhere, a posted NO U-TURN sign controls, and you still yield to pedestrians and oncoming traffic when making the turn.",
         trap: "\"Prohibited unless you are in a residential district\" over-applies the mid-block rule, when the intersection permission works in any district.",
+        excerptKey: "uturn-green-light",
         sourceLabel: "California Driver's Handbook — U-turns",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -1549,6 +1555,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "Night driving depends on protecting your night vision. Dim within 500 feet of oncoming traffic and within 300 feet when following. If someone fails to dim, look toward the right edge of your lane rather than into the light, and slow down. Keep the windscreen clean inside and out, because dirt scatters oncoming light, and increase following distance since you can only see as far as your beams reach.",
         trap: "Flicking your own high beams on in response feels like a fair exchange, and it removes what little vision either driver had left.",
+        excerptKey: "headlights-glare",
         sourceLabel: "California Driver's Handbook — Night driving",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -1590,6 +1597,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "Light rail vehicles have the same rights on the road as other vehicles, but they run on separate signals and cannot swerve or stop quickly. Your green light tells you nothing about theirs. Passing on the left is limited to where the tracks run along the right side, on a one-way street, or under an officer's direction. Never stop on the tracks, and give the same caution you would give a railroad crossing.",
         trap: "\"Never, under any circumstances\" is the over-cautious answer that ignores three genuine exceptions, while \"at any time\" is the under-cautious one.",
+        excerptKey: "light-rail-pass-left",
         sourceLabel: "California Driver's Handbook — Light rail vehicles",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -1631,6 +1639,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "Two versions of this emergency, with different answers. No train in sight: get out, find the blue emergency sign, call the railroad using the crossing identifier, then call 911. A train approaching: abandon the vehicle immediately and move away from the tracks at an angle toward the oncoming train, so the wreckage is thrown behind you, then call 911 from safety. Never try to restart or push the vehicle with a train coming.",
         trap: "\"Stay in the vehicle and keep trying to restart it\" is the natural response to a stall and it costs you the seconds that matter if a train appears.",
+        excerptKey: "railroad-stalled-no-train",
         sourceLabel: "California Driver's Handbook — Railroad emergencies",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },

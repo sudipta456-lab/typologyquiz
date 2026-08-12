@@ -1027,6 +1027,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Headlights in California are as much about being seen as about seeing. Beyond the sunset-to-sunrise rule, they are called for in tunnels, on mountain roads, whenever the wipers are running, and any time you cannot see clearly for 1,000 feet. Mountain driving adds its own rules: the vehicle heading uphill keeps the right-of-way on a narrow road, and the horn is a legitimate warning device on blind curves.",
         trap: "\"Use high beams continuously on every curve\" doubles down on visibility but blinds oncoming drivers, and you must drop them within 500 feet of anyone coming toward you.",
+        excerptKey: "headlights-mountain-roads",
         sourceLabel: "California Driver's Handbook — Headlights",
         sourceUrl: `${H}/introduction-to-driving/`,
       },
@@ -1227,6 +1228,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The freeway breakdown sequence is: pull as far onto the right shoulder as you can, get out on the right side away from live traffic, and call for help using 511 or a roadside call box. If you wait inside the car, keep the seat belt fastened, because a shoulder is not a safe place to be stationary. During commute hours the CHP Freeway Service Patrol provides free help — fuel, a jump start, a tyre change or a tow to an approved location.",
         trap: "Standing in front of the vehicle to be seen is the instinct, and it puts you exactly where a distracted driver drifting onto the shoulder would strike first.",
+        excerptKey: "freeway-disabled",
         sourceLabel: "California Driver's Handbook — Disabled vehicles",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },
@@ -1662,6 +1664,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Where U-turns are allowed: at an intersection on a green light with no prohibiting sign, through a provided opening in a divided highway, and mid-block in a residential district when nothing is approaching within 200 feet. Where they are banned outright: in front of a fire station, at a railroad crossing, and anywhere a NO U-TURN sign is posted. In a business district they are restricted to intersections and divided-highway openings.",
         trap: "The divided-highway opening looks like the illegal one because crossing a divided highway feels drastic, but a provided opening is exactly where the law intends you to turn.",
+        excerptKey: "uturn-prohibited",
         sourceLabel: "California Driver's Handbook — U-turns",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -1746,6 +1749,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The DMV side of a DUI runs on its own clock, separate from the criminal court case. The officer may take your licence and issue a temporary one valid for about 30 days. You have 10 days from arrest to request a DMV hearing. Refusing a chemical test triggers its own suspension or revocation of about a year under implied consent. A conviction adds a mandatory DUI programme, an insurance proof filing, and reissue fees, and stays on your record for 10 years.",
         trap: "30 days is the length of the temporary licence, which sits right next to the hearing deadline in the same paperwork and gets picked for exactly that reason.",
+        excerptKey: "dui-hearing-10-days",
         sourceLabel: "California Driver's Handbook — Alcohol and drugs",
         sourceUrl: `${H}/alcohol-and-drugs/`,
       },
@@ -1808,6 +1812,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Space management does not stop when you do. Stopped in traffic, leave enough room to see where the tyres of the car ahead touch the road, so you can steer around it if it fails to move and you are not pushed into it if you are hit from behind. If you are waiting to turn left, keep your front wheels straight for the same reason. Moving again, the three-second rule takes over, with more added for rain, night or a large vehicle ahead.",
         trap: "\"As little as possible, to discourage cutting in\" trades a real safety margin for a minor convenience, and leaves you nowhere to go if the car ahead stalls.",
+        excerptKey: "stopping-behind-vehicle",
         sourceLabel: "California Driver's Handbook — Safe driving",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -1928,6 +1933,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The shoulder check is required in more situations than most drivers realise: before changing lanes, before merging, before turning where a cyclist could be alongside, before backing up, and before opening a door into the roadway. Mirrors alone always leave a blind spot large enough to hide a bicycle or motorcycle, and a door opening is the one case where the person you cannot see has no time at all to react.",
         trap: "\"Open it quickly so you spend less time exposed\" optimises for the wrong risk — the danger is the door swinging into a cyclist's path, not how long you stand there.",
+        excerptKey: "exit-vehicle-check",
         sourceLabel: "California Driver's Handbook — Safe driving",
         sourceUrl: `${H}/safe-driving/`,
       },
