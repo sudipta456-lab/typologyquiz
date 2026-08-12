@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { JURISDICTIONS, totalQuestionCount } from "@/lib/driving/jurisdictions";
+import { drivingHubJsonLd } from "@/lib/driving/structured-data";
 import { DrivingDisclaimer } from "@/components/DrivingDisclaimer";
 import { InstallHint } from "@/components/InstallHint";
 import { SITE } from "@/lib/site";
@@ -28,6 +29,11 @@ export default function DrivingHubPage() {
   const totalSets = JURISDICTIONS.reduce((sum, j) => sum + j.sets.length, 0);
 
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(drivingHubJsonLd(JURISDICTIONS)) }}
+      />
     <div className="section">
       <p className="eyebrow" style={{ display: "block", marginBottom: 10 }}>
         Knowledge test prep
@@ -179,5 +185,6 @@ export default function DrivingHubPage() {
         </p>
       </div>
     </div>
+    </>
   );
 }

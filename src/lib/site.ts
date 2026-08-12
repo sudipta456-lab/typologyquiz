@@ -5,7 +5,7 @@ export const SITE = {
   url: "https://typologyquiz.com",
   tagline: "Discover your type",
   description:
-    "Free, scientifically-backed personality and typology quizzes. No accounts, no paywalls, no data brokers - just thoughtful questions and honest results.",
+    "Free personality quizzes and driving licence practice tests. No account, no ads, no paywall - scored in your browser, with every driving answer linked to the official handbook.",
   email: "hello@typologyquiz.com",
   locale: "en_US",
   twitterHandle: "@typologyquiz",

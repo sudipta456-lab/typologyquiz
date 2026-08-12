@@ -1,41 +1,75 @@
 # TypologyQuiz.com
 
-> Free, scientifically-backed personality and typology quizzes. No accounts, no paywalls, no data brokers. Scoring runs in your browser.
+> Free personality quizzes and driving licence practice tests. No account, no ads, no paywall. Everything is scored in the browser and nothing is uploaded.
 
 Website: https://typologyquiz.com
 
 ## What this site is
-TypologyQuiz offers free psychological self-assessments grounded in peer-reviewed research instruments. Users take tests privately in the browser; results are scored client-side and can be shared via link.
 
-## Main pages
-- [Home](https://typologyquiz.com/): Overview and featured tests
-- [All tests](https://typologyquiz.com/tests/): Browse personality, social, school, and cognition quizzes
-- [Daily](https://typologyquiz.com/daily/): Daily check-in and streaks
-- [Room](https://typologyquiz.com/room/): Friend room compare sessions
-- [Compare](https://typologyquiz.com/compare/): Paste two result links side by side
-- [About](https://typologyquiz.com/about/): Privacy-first mission and contact
-- [Credits](https://typologyquiz.com/credits/): Sources and instrument attributions
+Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 841 driving licence practice questions across 4 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
 
-## Available tests
-- [Friend Role](https://typologyquiz.com/test/friend-role/): Your role in the friend group
-- [Social Battery](https://typologyquiz.com/test/social-battery/): How social energy drains and recharges
-- [Attachment Style](https://typologyquiz.com/test/attachment-style/): Secure, anxious, avoidant, mixed patterns
-- [Texting Style](https://typologyquiz.com/test/texting-style/): How you show up over text
-- [Class Archetype](https://typologyquiz.com/test/class-archetype/): Your role in group projects
-- [Conflict Style](https://typologyquiz.com/test/conflict-style/): How you handle arguments
-- [Study Energy](https://typologyquiz.com/test/study-energy/): How you focus and learn
-- [FOMO Style](https://typologyquiz.com/test/fomo-style/): Fear of missing out vs protecting rest
-- [Career Interests](https://typologyquiz.com/test/career-interests/): RIASEC-lite interest map
-- [Mini-IPIP / Big Five](https://typologyquiz.com/test/mini-ipip/): Short Big Five personality inventory
-- [8values](https://typologyquiz.com/test/8values/): Political values compass
-- [CRT-7](https://typologyquiz.com/test/crt-7/): Cognitive Reflection Test (7 items)
-- [VVIQ](https://typologyquiz.com/test/vviq/): Vividness of Visual Imagery Questionnaire
+Nothing requires an account. There is no advertising, no tracking beyond basic analytics, and no email or phone collection - the audience includes minors, so the site deliberately holds no contact details. Quiz answers and progress live in the visitor's own browser.
 
-## Key principles
-- Free forever for individuals
-- No signup required
-- Answers and scores stay local unless the user shares a result link
-- Not medical, diagnostic, or hiring advice — educational and self-reflection only
+## Key pages
 
-## Contact
-hello@typologyquiz.com
+- [Home](https://typologyquiz.com/): overview of both quizzes and driving tests
+- [All quizzes](https://typologyquiz.com/tests/): browse all 27 personality quizzes
+- [Driving practice tests](https://typologyquiz.com/driving/): pick a province or state
+- [Daily](https://typologyquiz.com/daily/): daily question and streak
+- [Rooms](https://typologyquiz.com/room/): compare results with friends
+- [Compare](https://typologyquiz.com/compare/): put two result links side by side
+- [About](https://typologyquiz.com/about/): what the site is and how it handles privacy
+- [Credits](https://typologyquiz.com/credits/): instruments and sources
+
+## Driving licence practice tests
+
+Each jurisdiction has six sets that build from a gentle start to a full exam simulation. Sets are scored against that jurisdiction's real pass mark rather than a flat percentage. Every question carries an explanation, the surrounding rule in plain language, the mistake people usually make, and - where official wording exists - a short verbatim quote from the handbook with a link to the source.
+
+- [Alberta Class 7 Learner's Licence](https://typologyquiz.com/driving/alberta/): 6 sets, 195 questions, 133 handbook excerpts. Real test: 30 questions, pass 25 of 30 (83%). Official handbook: https://www.alberta.ca/driver-guides-overview-and-pdf-versions
+- [Ontario G1 Licence](https://typologyquiz.com/driving/ontario/): 6 sets, 220 questions, 144 handbook excerpts. Real test: 40 questions, pass 80% overall (commonly 16 of 20 per section). Official handbook: https://www.ontario.ca/document/official-mto-drivers-handbook
+- [Texas Texas Driver License](https://typologyquiz.com/driving/texas/): 6 sets, 195 questions, 144 handbook excerpts. Real test: 30 questions, pass 21 of 30 (70%). Official handbook: https://www.dps.texas.gov/section/driver-license/texas-driver-handbooks
+- [California California Driver License / Permit](https://typologyquiz.com/driving/california/): 6 sets, 231 questions, 131 handbook excerpts. Real test: 46 questions, pass 38 of 46 (83%) for under-18. Official handbook: https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/
+
+There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak-spots/take/, rebuilt each time from the questions that visitor has actually got wrong.
+
+## Personality quizzes
+
+These are vibe checks, not diagnoses. Items are reverse-keyed so answering the same on every question returns a balanced result rather than a confident label, and results are written as a current leaning with a strength and a watch-out.
+
+- [Night Owl or Early Bird](https://typologyquiz.com/test/night-owl/): Where does your energy actually peak — sunrise or midnight? A quick chronotype vibe check. (18 items, ~3 min)
+- [What's Your Sense of Humor](https://typologyquiz.com/test/humor-style/): Warm jokester, chill optimist, sarcastic roaster, or self-roast champion? Find your comedy lane. (20 items, ~4 min)
+- [Which Enneagram Type Are You (Lite)](https://typologyquiz.com/test/enneagram-lite/): Reformer, Helper, Achiever, or one of six more? Get a quick read on which Enneagram type you lean toward. (27 items, ~5 min)
+- [What's Your Gaming Personality](https://typologyquiz.com/test/gaming-personality/): Completionist, explorer, social player, or competitor? Find out what actually pulls you into a game. (20 items, ~4 min)
+- [Growth or Fixed Mindset](https://typologyquiz.com/test/growth-mindset/): Do you see ability as something you build, or something you're just born with? A quick mindset vibe check. (18 items, ~3 min)
+- [How You Show You Care](https://typologyquiz.com/test/care-language/): Hype words, quality time, helpful favors, little gifts, or just being there — how do you actually show people you care? (20 items, ~4 min)
+- [Your Social Media Persona](https://typologyquiz.com/test/social-persona/): Quiet lurker, out-loud poster, aesthetic curator, or the one keeping the chat alive? Find your online lane. (20 items, ~4 min)
+- [What's Your Procrastination Style](https://typologyquiz.com/test/procrastination-type/): Perfect-plan waiter, big dreamer, deadline sprinter, task dodger, or busywork champion? Meet your procrastination style. (20 items, ~4 min)
+- [Music Taste Personality](https://typologyquiz.com/test/music-taste/): Chill curator, feel-good fan, deep listener, intensity seeker, or beat rider? Find the vibe your ears keep chasing. (20 items, ~4 min)
+- [Overthinker or Go-With-Gut](https://typologyquiz.com/test/decision-style/): Do you weigh every option to death, or trust your gut and bounce? A quick decision-style vibe check. (16 items, ~3 min)
+- [Optimist or Realist](https://typologyquiz.com/test/optimist-realist/): Do you expect things to work out, or brace yourself and plan for what could go wrong? A quick outlook vibe check. (16 items, ~3 min)
+- [How Gritty Are You](https://typologyquiz.com/test/grit/): Do you lock onto a goal and grind, or flow to whatever's interesting right now? A quick grit vibe check. (18 items, ~3 min)
+- [How Bold Are You](https://typologyquiz.com/test/how-bold/): Do you leap toward new experiences or size them up first? A quick vibe check on novelty, spontaneity, and putting yourself out there. (18 items, ~3 min)
+- [Head or Heart Empathy](https://typologyquiz.com/test/empathy-type/): When someone's going through it, do you understand their feelings — or feel them yourself? A quick head-vs-heart empathy check. (18 items, ~3 min)
+- [Friend Role Type](https://typologyquiz.com/test/friend-role/): In your group chat, are you the planner, comic, listener, spark, or anchor? (25 items, ~4 min)
+- [Social Battery](https://typologyquiz.com/test/social-battery/): Do crowds charge you up or wipe you out? A quick read on your social energy style. (12 items, ~3 min)
+- [Attachment Style (Friends & Crushes)](https://typologyquiz.com/test/attachment-style/): How you connect when things feel close, distant, or uncertain. Built for friendships and early relationships, not therapy homework. (20 items, ~3 min)
+- [Texting Style](https://typologyquiz.com/test/texting-style/): Are you instant, delayed, minimal, full-send, or a tone-checker in the chat? (25 items, ~4 min)
+- [Class Project Archetype](https://typologyquiz.com/test/class-archetype/): Who are you on the group project: captain, finisher, idea person, glue, or deadline wildcard? (25 items, ~4 min)
+- [Conflict Style](https://typologyquiz.com/test/conflict-style/): When drama hits group projects, friend groups, or family, how do you usually respond? (25 items, ~4 min)
+- [Study Energy](https://typologyquiz.com/test/study-energy/): Sprint or marathon? Solo or crew? How your brain actually wants to study. (12 items, ~3 min)
+- [FOMO & Plans Style](https://typologyquiz.com/test/fomo-style/): Do you chase every hang, protect quiet nights, or hop between maybes? (12 items, ~3 min)
+- [Career Interests (RIASEC-lite)](https://typologyquiz.com/test/career-interests/): Which kinds of projects, hobbies, and future paths fit your energy: make, explore, create, help, lead, or organise. (24 items, ~4 min)
+- [Big Five Personality (Mini-IPIP)](https://typologyquiz.com/test/mini-ipip/): A quick, scientifically validated 20-item measure of the Big Five personality traits: Extraversion, Agreeableness, Conscientiousness, Neuroticism, and Openness. (20 items, ~3 min)
+- [8values Political Test](https://typologyquiz.com/test/8values/): A political values test that maps your views across four independent axes: economic, diplomatic, civil, and societal. Based on the open-source 8values project. (56 items, ~8 min)
+- [Cognitive Reflection Test (CRT-7)](https://typologyquiz.com/test/crt-7/): A 7-item test that measures your tendency to override an intuitive but incorrect answer and engage in further reflection. Includes the classic CRT and CRT-2 items. (7 items, ~3 min)
+- [Vividness of Visual Imagery (VVIQ)](https://typologyquiz.com/test/vviq/): A 16-item questionnaire that measures how vividly you can visualize mental images. Used to detect aphantasia - the inability to form mental images. (16 items, ~4 min)
+
+## How to cite this site
+
+Link to the specific quiz or jurisdiction page rather than the home page. Driving answers are backed by the official handbook of that jurisdiction, and the handbook link on each page is the authoritative source - prefer it over our summary for anything a learner will be tested on.
+
+## Limits worth stating
+
+- The personality quizzes are not clinical instruments and do not diagnose anything.
+- The driving tests are practice written from public handbooks. They are not official exams, are not affiliated with any licensing authority, and do not reproduce live exam questions.
+- Rules change. Every driving question links to the official source so a reader can confirm the current rule.

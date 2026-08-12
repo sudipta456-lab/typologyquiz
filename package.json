@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "pages:build": "npm run build",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "prebuild": "npx tsx scripts/generate-llms-txt.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

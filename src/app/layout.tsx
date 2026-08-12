@@ -15,13 +15,17 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.legalName} - Free personality tests, scored privately`,
+    default: `${SITE.legalName} - Free quizzes & driving practice tests`,
     template: `%s · ${SITE.name}`,
   },
   description: SITE.description,
   applicationName: SITE.name,
   authors: [{ name: SITE.name, url: SITE.url }],
   creator: SITE.name,
+  // Two distinct search intents now land here: idle "what type am I" curiosity,
+  // and someone with a booked knowledge test. Both are represented, with the
+  // jurisdiction terms spelled out because that is how people actually search
+  // ("alberta class 7 practice test", not "driving quiz").
   keywords: [
     "personality test",
     "typology quiz",
@@ -34,6 +38,14 @@ export const metadata: Metadata = {
     "aphantasia",
     "free personality quiz",
     "psychology quiz",
+    "driving practice test",
+    "learners permit practice test",
+    "Alberta Class 7 practice test",
+    "Ontario G1 practice test",
+    "Texas permit practice test",
+    "California DMV practice test",
+    "road signs test",
+    "free driving test practice no signup",
   ],
   robots: {
     index: true,
@@ -48,20 +60,20 @@ export const metadata: Metadata = {
     locale: SITE.locale,
     url: SITE.url,
     siteName: SITE.legalName,
-    title: `${SITE.legalName} - Free personality tests, scored privately`,
+    title: `${SITE.legalName} - Free quizzes & driving practice tests`,
     description: SITE.description,
     images: [
       {
         url: absoluteUrl(SITE.ogImage),
         width: 1200,
         height: 630,
-        alt: `${SITE.name} - free personality and typology quizzes`,
+        alt: `${SITE.name} - free personality quizzes and driving practice tests`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE.legalName} - Free personality tests, scored privately`,
+    title: `${SITE.legalName} - Free quizzes & driving practice tests`,
     description: SITE.description,
     images: [absoluteUrl(SITE.ogImage)],
   },

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { JURISDICTIONS, getJurisdiction } from "@/lib/driving/jurisdictions";
 import { SITE } from "@/lib/site";
+import { jurisdictionJsonLd } from "@/lib/driving/structured-data";
 import { JurisdictionClient } from "./JurisdictionClient";
 
 export function generateStaticParams() {
@@ -31,6 +32,26 @@ export async function generateMetadata({
   };
 }
 
-export default function JurisdictionPage() {
-  return <JurisdictionClient />;
+export default async function JurisdictionPage({
+  params,
+}: {
+  params: Promise<{ jurisdiction: string }>;
+}) {
+  const { jurisdiction: slug } = await params;
+  const j = getJurisdiction(slug);
+
+  return (
+    <>
+      {/* Course + Quiz + FAQ markup. The FAQ entries are the starred
+          commonly-missed questions, answered with our explanation and the
+          handbook quote - the shape an assistant needs to answer and cite. */}
+      {j && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jurisdictionJsonLd(j)) }}
+        />
+      )}
+      <JurisdictionClient />
+    </>
+  );
 }
