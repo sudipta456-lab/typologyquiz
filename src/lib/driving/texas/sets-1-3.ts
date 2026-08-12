@@ -34,6 +34,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas signs carry meaning in their shape as well as their words, so you can start reacting before you can read them. Octagon means stop, an equilateral triangle pointing down means yield, a diamond warns of a hazard, a pentagon marks schools, and a round sign is the advance warning for a railway crossing. Learning the shape set is worth more marks than memorising individual signs.",
         trap:
           "'Yield to traffic already on the road' describes the triangle, not the octagon - the two get mixed up because both involve giving way, but only one requires a full stop.",
+        excerptKey: "sign-shape-octagon-stop",
         sourceLabel: "Texas Driver Handbook (DL-7) - Signals, Signs, and Markers",
         sourceUrl: DL7,
       },
@@ -55,6 +56,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas signal colours run steady red (stop), steady yellow (stop if you safely can, otherwise clear the intersection), and steady green (go when it is safe). Flashing versions change the meaning: flashing red behaves like a stop sign, flashing yellow means slow down and stay alert. A police officer directing traffic outranks every signal, even when the instruction contradicts the light.",
         trap:
           "'Slow to a crawl and continue' is the rolling stop that gets people ticketed - Texas treats slowing as failing to stop, no matter how empty the intersection looks.",
+        excerptKey: "signal-steady-red",
         sourceLabel: "Texas Driver Handbook (DL-7) - Traffic Signals",
         sourceUrl: DL7,
       },
@@ -76,6 +78,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas sets default limits for road types so that an unposted road is never a free-for-all: 30 mph on urban district streets, 15 mph in an alley, 70 mph on state- or US-numbered highways outside an urban district, and 60 mph on rural roads that carry no state or US number. Local governments and the Transportation Commission can raise or lower any of these, so a posted sign always wins over the default.",
         trap:
           "35 mph feels right because so many Texas city arterials are posted at 35 - but that is a posted limit, not the statutory default.",
+        excerptKey: "speed-prima-facie-urban-alley",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Speed and Speed Limits",
         sourceUrl: DL7,
@@ -98,6 +101,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The school bus rule protects children crossing in front of or behind the bus, where the driver cannot see them and you cannot either. Stopping applies to traffic approaching from either direction on the same roadway. The narrow exceptions are a bus stopped on a different roadway altogether, or a loading zone on a controlled-access highway where pedestrians are not allowed to cross. Penalties start in the hundreds of dollars and climb fast for repeat offences.",
         trap:
           "'Only if you can see children' inverts the rule - the whole point is that the child you cannot see is the one at risk.",
+        excerptKey: "school-bus-flashing-red-stop",
         sourceLabel: "Texas Driver Handbook (DL-7) - Right-of-Way",
         sourceUrl: DL7,
       },
@@ -119,6 +123,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The belt rule covers cars, pickups, SUVs and trucks alike. Anyone 15 or older can be ticketed personally for riding unbelted, while the driver is fined for unbelted passengers under 17. Children under 8 need an approved child seat unless they have already reached 4 feet 9 inches in height. There is no general exemption for short trips or back seats.",
         trap:
           "'Front seats only' is the old rule from other eras and other states; an unbelted rear passenger is still an offence in Texas, and in a crash they become a projectile.",
+        excerptKey: "safety-belts-all-occupants",
         sourceLabel: "Texas Driver Handbook (DL-7) - Additional Safety Tips",
         sourceUrl: DL7,
       },
@@ -140,6 +145,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Yield means slow down, be ready to stop, and let the other traffic go - you only have to come to a full halt if that is what it takes to give way safely. It differs from a stop sign, which requires the halt every time regardless of whether anything is coming. Yield signs are also what control entry to Texas roundabouts.",
         trap:
           "The diamond is the popular wrong answer because it is the other three-or-four-sided yellow shape, but diamonds warn, they never assign right of way.",
+        excerptKey: "sign-shape-yield-triangle",
         sourceLabel: "Texas Driver Handbook (DL-7) - Signs by Shape",
         sourceUrl: DL7,
       },
@@ -161,6 +167,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The 0.08 number is only one of two ways to be intoxicated in Texas. The other is losing the normal use of your mental or physical faculties because of alcohol or any drug - and that can happen well below 0.08, which is why a driver who blows under the limit can still be charged. Anyone under 21 is held to a separate zero-tolerance standard where any detectable alcohol at all is an offence.",
         trap:
           "0.10 is the figure the United States used decades ago and it still circulates; Texas has not used it in a long time.",
+        excerptKey: "bac-008-adults",
         sourceLabel: "Texas Driver Handbook (DL-7) - Alcohol and Drug Impact",
         sourceUrl: DL7,
       },
@@ -182,6 +189,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Signalling is required for more than turns: lane changes, pulling out of a parallel parking space, slowing or stopping, entering or leaving a highway, and pulling over all call for a signal. The 100-foot minimum is a floor, not a target - at highway speed you should start much earlier. Cancel the signal afterwards, because a signal you forgot about still tells other drivers you are about to turn.",
         trap:
           "'Three seconds' sounds sensible and is the rule some other places use, but Texas states the requirement as a distance, not a time.",
+        excerptKey: "signal-100-feet",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Signaling, Passing, and Turning",
         sourceUrl: DL7,
@@ -204,6 +212,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Colour carries meaning too. Yellow warns, orange means construction or maintenance, black and white means regulation, green shows permitted movements and direction, blue points to motorist services, and brown marks parks and scenic routes. Ignoring a warning sign is not just unwise - failing to slow for the condition it flags can itself be a violation.",
         trap:
           "'A law is being enforced' describes black-and-white regulatory signs; yellow warns you about the road, white and black tells you what you must do.",
+        excerptKey: "sign-shape-diamond",
         sourceLabel: "Texas Driver Handbook (DL-7) - Warning Signs",
         sourceUrl: DL7,
       },
@@ -225,6 +234,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Only a green arrow gives a protected left, because the arrow means oncoming traffic is being held by a red. On a green ball, or on a flashing yellow arrow, the turn is permitted but you are responsible for yielding to oncoming vehicles and to pedestrians already in the crosswalk. This single scenario produces a large share of intersection crashes, particularly with motorcycles, whose speed drivers routinely misjudge.",
         trap:
           "'Whichever driver arrived first' is a first-come rule borrowed from four-way stops; arrival order has nothing to do with a signalised left turn.",
+        excerptKey: "turning-left-yield-oncoming",
         sourceLabel: "Texas Driver Handbook (DL-7) - Traffic Signals",
         sourceUrl: DL7,
       },
@@ -246,6 +256,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Because a bicycle is a vehicle, ordinary right-of-way rules apply between cars and bikes without modification. Cyclists must ride with traffic, obey signs and signals, and signal turns. They are not confined to the right edge in every situation - passing, preparing to turn left, avoiding hazards, or riding in a lane too narrow to share all allow a cyclist to take the full lane.",
         trap:
           "'Allowed only on the shoulder' is a common driver assumption, but Texas gives cyclists the travel lane and only asks them to keep right when the lane is genuinely wide enough to share.",
+        excerptKey: "bicycle-is-a-vehicle",
         sourceLabel: "Texas Driver Handbook (DL-7) - Bicycle Laws and Safety",
         sourceUrl: DL7,
       },
@@ -267,6 +278,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Above 30 mph the recommended gap doubles to four seconds, and poor weather, heavy traffic or limited visibility all call for more still. A new driver is better off using four seconds everywhere while their reactions are unpractised. Following distance matters more than braking skill, because the average driver burns about a second and a half just recognising the problem and getting on the brake.",
         trap:
           "'One second' is roughly what most traffic actually leaves, which makes it feel normal - but it is under half the recommended gap and leaves nothing for reaction time.",
+        excerptKey: "following-distance-2-and-4-seconds",
         sourceLabel: "Texas Driver Handbook (DL-7) - Speed and Speed Limits",
         sourceUrl: DL7,
       },
@@ -288,6 +300,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Work zones change the rules around you. Lanes shift, workers stand close to traffic, and equipment pulls out unexpectedly. A flag person's instruction has to be obeyed exactly as if it were a signal. Traffic fines double in a construction or maintenance zone whenever workers are present, and driving around a barricade is itself an offence.",
         trap:
           "Brown is the colour for parks and scenic routes; orange is temporary and always means something about the road has changed.",
+        excerptKey: "work-zone-orange-devices",
         sourceLabel: "Texas Driver Handbook (DL-7) - Construction and Maintenance Devices",
         sourceUrl: DL7,
       },
@@ -309,6 +322,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Flashing signals often pair a flashing red on the minor road with a flashing yellow on the main road, meaning cross traffic may not be stopping at all. So after your stop, you still have to find a gap rather than assuming the other direction is holding. A flashing yellow on its own simply means slow down and stay alert.",
         trap:
           "'Wait for green' traps people who assume every signal cycles - a flashing red stays flashing, and sitting there creates a rear-end risk.",
+        excerptKey: "signal-flashing-red",
         sourceLabel: "Texas Driver Handbook (DL-7) - Traffic Signals",
         sourceUrl: DL7,
       },
@@ -330,6 +344,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas parking clearances come as a set worth memorising together: 15 feet from a hydrant, 20 feet from a crosswalk at an intersection, 20 feet from a fire station driveway, 30 feet from a stop sign, yield sign or flashing signal, and 50 feet from the nearest rail of a railway crossing. On a two-way street your right wheels must also end up within 18 inches of the curb.",
         trap:
           "10 feet feels close enough and is the figure some other states use, but Texas asks for 15 - and 'nearly legal' is still a citation.",
+        excerptKey: "no-parking-distances",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Parking, Stopping, or Standing",
         sourceUrl: DL7,
@@ -352,6 +367,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The yield-to-the-right rule is the tie-breaker of last resort. Texas applies a ladder of tests first: a divided road or a road of three or more lanes beats a one- or two-lane road, a paved road beats an unpaved one, and traffic on a through street beats traffic on a street that ends at the intersection. Only when none of those apply does the right-hand rule decide it. And having the right of way never means taking it - confirm the other driver is actually yielding.",
         trap:
           "'Yield to the left' is the reversed version people produce under pressure; it is exactly wrong, and both drivers believing it is how these collisions happen.",
+        excerptKey: "uncontrolled-intersection-yield-right",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Right-of-Way at Intersections",
         sourceUrl: DL7,
@@ -374,6 +390,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Alleys sit alongside the other statutory defaults: 30 mph on urban streets, 15 mph in an alley, and 15 mph on beaches and county roads next to a public beach where the county has adopted that limit. All of these apply only when nothing different is posted, and all of them are ceilings - the underlying requirement is always to drive at a speed that is reasonable for the conditions in front of you.",
         trap:
           "25 mph is the figure many people carry over from residential street limits elsewhere; the Texas alley number is lower for a reason.",
+        excerptKey: "speed-prima-facie-urban-alley",
         sourceLabel: "Texas Driver Handbook (DL-7) - Speed Limits",
         sourceUrl: DL7,
       },
@@ -395,6 +412,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "School zones layer several rules at once. The reduced limit on the sign applies only while the yellow beacon is flashing or during the posted hours, and where signs say so, using a handheld wireless device inside the zone is prohibited. Children behave unpredictably near schools, so the expectation is to cover the brake, not just to slow to the number.",
         trap:
           "The pennant also has an unusual shape and also warns, but it marks the start of a no-passing zone and never appears near a school crossing.",
+        excerptKey: "sign-shape-pentagon-school",
         sourceLabel: "Texas Driver Handbook (DL-7) - Signs by Shape",
         sourceUrl: DL7,
       },
@@ -416,6 +434,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "There is a second trigger that has nothing to do with the clock: whenever people or vehicles cannot be seen clearly at 1,000 feet, headlights are required - so rain, fog, dust and heavy overcast all pull the requirement forward. Low beams are the right choice within 500 feet of an oncoming vehicle, within 300 feet behind another car, on lit roads, and in fog or heavy rain, where high beams simply bounce back at you.",
         trap:
           "'Once street lighting comes on' hands the decision to a timer somewhere; street lights and the legal requirement are unrelated.",
+        excerptKey: "headlights-30-minutes-1000-feet",
         sourceLabel: "Texas Driver Handbook (DL-7) - Headlights",
         sourceUrl: DL7,
       },
@@ -437,6 +456,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Yellow lines separate opposing traffic; white lines separate lanes moving the same way. Broken means crossing is allowed when safe, solid means it is not. Double solid yellow forbids passing from both directions, and double solid white lines may not be crossed at all. Even a broken line does not authorise a pass on a hill or curve, within 100 feet of an intersection or railway crossing, or near a bridge or tunnel.",
         trap:
           "'Either direction may pass' reads the pair of lines as a single instruction; the rule is one line per direction, and only yours applies to you.",
+        excerptKey: "solid-and-broken-yellow-lines",
         sourceLabel: "Texas Driver Handbook (DL-7) - Pavement Markings",
         sourceUrl: DL7,
       },
@@ -458,6 +478,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The under-21 rules stack. A minor may not buy, attempt to buy, possess or consume alcohol at all, and those non-driving offences carry licence suspensions of their own. Refusing to give a breath or blood specimen brings its own suspension, and providing one that shows any alcohol brings a suspension too, starting at 60 days. If the reading is 0.08 or higher, the minor faces the full adult DWI charge on top.",
         trap:
           "'Below the legal limit' assumes one limit applies to everyone; the 0.08 figure is the adult standard, and for a minor the limit is zero.",
+        excerptKey: "zero-tolerance-minors",
         sourceLabel: "Texas Driver Handbook (DL-7) - Texas Tough Alcohol-Related Laws for Minors",
         sourceUrl: DL7,
       },
@@ -479,6 +500,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "If traffic will not let you reach the right edge, slow down and leave a clear path rather than stopping in the way. Once the emergency vehicle has passed, do not tail it: you may not follow within 500 feet of a fire truck answering an alarm or an ambulance running its lights, and you must not park where you would block one arriving or leaving. A roundabout is the exception to pulling over - clear the circle first, then pull over.",
         trap:
           "'Stop where you are' feels obedient but leaves the lane blocked; the emergency vehicle needs the space beside you, not a stationary obstacle in front of it.",
+        excerptKey: "yield-to-emergency-vehicles",
         sourceLabel: "Texas Driver Handbook (DL-7) - Yield Right-of-Way to Emergency Vehicles",
         sourceUrl: DL7,
       },
@@ -521,6 +543,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Enter the centre lane only at the point where you can slow or stop and make the turn safely - not several blocks early. It is never a passing lane and never a through lane. Drivers pulling out of a driveway may also use it briefly to wait for a gap, which is another reason not to treat it as travel space.",
         trap:
           "'Through lane in heavy traffic' is what tempts drivers when the outside lanes back up, and it is the exact behaviour that produces head-on crashes in that lane.",
+        excerptKey: "center-left-turn-lane",
         sourceLabel: "Texas Driver Handbook (DL-7) - Pavement Markings",
         sourceUrl: DL7,
       },
@@ -542,6 +565,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The learner licence is Phase One of the graduated programme and has to be held at least six months before a provisional licence becomes possible at 16. While on it, a licensed adult of at least 21 with a year of driving experience must sit in the front passenger seat, awake and paying attention. A 15-year-old can only drive independently under a hardship licence, which requires a court or DPS finding of genuine need.",
         trap:
           "16 is the age people associate with driving in Texas, but that is when a provisional licence becomes available - the learner licence comes a year earlier.",
+        excerptKey: "learner-license-requirements",
         sourceLabel: "Texas Driver Handbook (DL-7) - Your License to Drive",
         sourceUrl: "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen",
       },
@@ -563,6 +587,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Once out of a child seat, the child still has to wear a belt - the driver is fined for any unbelted passenger under 17. Separately, it is an offence to carry anyone under 18 in the open bed of a pickup or flatbed trailer, with narrow exceptions for things like parades, emergencies and beaches.",
         trap:
           "'Until age 8 with no exception' catches people who remember the age but not the height release - a tall seven-year-old is legally allowed the adult belt.",
+        excerptKey: "child-passenger-safety-seat",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Safety Belts",
         sourceUrl: DL7,
@@ -585,6 +610,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Emerging traffic yields as a general principle in Texas - the same logic covers frontage road drivers giving way to vehicles entering or leaving the freeway, and vehicles on a street that ends at a T-intersection giving way to the through street. Stopping before the sidewalk rather than at the road edge matters, because that is where the person on foot is.",
         trap:
           "'Yield to vehicles only' quietly drops the pedestrian, who is the road user most likely to be hidden by a wall, hedge or parked car at a driveway.",
+        excerptKey: "yield-from-private-drive",
         sourceLabel: "Texas Driver Handbook (DL-7) - Private Roads and Driveways",
         sourceUrl: DL7,
       },
@@ -606,6 +632,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas uses several left-turn displays that mean different things. A green arrow is protected - oncoming traffic is stopped. A flashing yellow arrow permits the turn but leaves you to yield to oncoming vehicles. A green ball is the same deal as the flashing yellow arrow. Reading which one you have got is what keeps a permitted turn from becoming a head-on collision.",
         trap:
           "'Go in any direction' treats the arrow as a general green; everything outside the arrow's direction is still being held by the red.",
+        excerptKey: "signal-green-arrow-with-red",
         sourceLabel: "Texas Driver Handbook (DL-7) - Traffic Signals",
         sourceUrl: DL7,
       },
@@ -627,6 +654,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Motorcycles are hard to judge: the narrow profile makes them look further away and slower than they are, and they vanish easily into blind spots. The most common car-motorcycle crash is a driver turning left across an oncoming rider. Leave four to six seconds when following one, take a second look before turning at an intersection, and do not trust a flashing motorcycle signal, since many do not cancel themselves.",
         trap:
           "'The lane is wide enough for both' is exactly the reasoning that produces sideswipes; legal width is not the same as safe width for a rider who needs to swerve.",
+        excerptKey: "motorcycle-entitled-to-full-lane",
         sourceLabel: "Texas Driver Handbook (DL-7) - Share the Road with Motorcycles",
         sourceUrl: DL7,
       },
@@ -648,6 +676,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Two rules operate together. The posted or statutory maximum tells you the highest speed ever allowed on that road, and the basic speed rule requires you to go slower whenever conditions demand it - rain, fog, traffic, a curve, a crossing, or anything else that raises the risk. Exceeding a posted limit is treated as evidence the speed was unreasonable, but you can also be cited for driving too fast for conditions while sitting below the sign.",
         trap:
           "'55 mph, the standard wet-weather limit' invents a rule that does not exist in Texas; there is no automatic rain limit, just the duty to slow to what is safe.",
+        excerptKey: "basic-speed-law",
         sourceLabel: "Texas Driver Handbook (DL-7) - Speed and Speed Limits",
         sourceUrl: DL7,
       },
@@ -679,6 +708,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Two different signs deal with passing. The pennant is a warning that the restriction starts ahead, while a rectangular DO NOT PASS sign is the regulation itself. Alongside them, the pavement does the same job: a solid yellow line on your side of the centre means no passing there. Vertical rectangles are the general regulatory shape and horizontal rectangles are usually guide signs.",
         trap:
           "'Vertical rectangle' is tempting because DO NOT PASS signs are rectangular - but that is the regulation, not the advance warning the question asks about.",
+        excerptKey: "sign-shape-pennant-no-passing",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Signs by Shape",
         sourceUrl: DL7,
@@ -701,6 +731,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "You must stop when a signal is flashing, a gate is down, a flag person warns you, an official device tells you to, a train is within about 1,500 feet sounding its horn, or a train is simply visible and close. Stay stopped until it is genuinely safe - a second track may hide a second train. Trains cannot stop for you and always have the right of way, and you may not park within 50 feet of the nearest rail.",
         trap:
           "'Anywhere behind the crossbuck' ignores the numbers entirely; the crossbuck marks the crossing, it does not define a legal stopping distance.",
+        excerptKey: "railroad-stop-15-to-50-feet",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Railroad Grade Crossings",
         sourceUrl: DL7,
@@ -723,6 +754,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Turns on red always start with a complete stop, and they are always subject to a sign prohibiting them. A right on red is the common case; the left on red is the narrow one-way-to-one-way exception. In either case you give way to pedestrians and to anyone already lawfully in the intersection - the permission to turn is not right of way.",
         trap:
           "'Whenever nothing is coming' turns a specific geometric exception into a general licence, and it is wrong every time the street you are entering carries two-way traffic.",
+        excerptKey: "red-light-left-turn-one-way",
         sourceLabel: "Texas Driver Handbook (DL-7) - Traffic Signals",
         sourceUrl: DL7,
       },
@@ -744,6 +776,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The rural defaults split on whether the highway carries a state or US number: 70 mph if it does, 60 mph if it does not. School buses run lower - 60 mph on a numbered highway if they have passed a commercial vehicle inspection, and 50 mph otherwise. Above all of this, the Transportation Commission and local authorities can post higher limits after a study, and some Texas limited-access highways are signed at 75, 80 or even 85 mph.",
         trap:
           "75 mph is a real Texas number, but only where it has been posted after an engineering study - it is never the default you assume from an unposted road.",
+        excerptKey: "speed-prima-facie-numbered-highway",
         sourceLabel: "Texas Driver Handbook (DL-7) - Speed Limits",
         sourceUrl: DL7,
       },
@@ -765,6 +798,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Four seconds is also the recommendation for less experienced drivers at any speed, and everyone should add more in rain, heavy traffic or poor visibility. The reason the gap has to grow with speed is that stopping distance climbs much faster than speed does - roughly 109 feet at 30 mph but over 300 feet at 60 mph, on dry pavement with good brakes and tyres.",
         trap:
           "'Two seconds' is right for 30 mph and below, which is why it gets carried into highway speeds where it leaves half the room you need.",
+        excerptKey: "following-distance-2-and-4-seconds",
         sourceLabel: "Texas Driver Handbook (DL-7) - Speed and Speed Limits",
         sourceUrl: DL7,
       },
@@ -807,6 +841,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The offence attaches to the container's location, not the driver's sobriety, and carries a fine of up to $500. It also has teeth beyond the fine: if the driver is convicted of a first DWI and an open container was present, the minimum jail time rises. Sealed containers and the areas of the vehicle not accessible to occupants are what the law leaves alone.",
         trap:
           "'As long as the engine is off' is the most common misreading - stationary and switched off does not take the vehicle out of the rule.",
+        excerptKey: "open-container",
         sourceLabel: "Texas Driver Handbook (DL-7) - Open Container",
         sourceUrl: DL7,
       },
@@ -828,6 +863,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Read pavement markings as colour plus pattern. White separates lanes moving the same way, yellow separates opposing directions. Broken means you may cross when it is safe, solid means avoid crossing, and double solid means do not cross at all. Solid white also does the edge lines and shoulder markings, and drivers are told not to change lanes or turn across double white lines.",
         trap:
           "'Traffic beyond them moves the opposite way' confuses the colours - that would be a yellow line, and mistaking white for yellow at speed is how wrong-way entries happen.",
+        excerptKey: "double-solid-white-lines",
         sourceLabel: "Texas Driver Handbook (DL-7) - Pavement Markings",
         sourceUrl: DL7,
       },
@@ -849,6 +885,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas ranks intersections before falling back on the yield-to-the-right rule. Divided or multi-lane beats one or two lanes, paved beats unpaved, and a through street beats a street that terminates at the junction. Only where none of those distinctions exist does the car on the right win. The ranking matters because unsigned junctions of unequal roads are common on the edges of Texas towns.",
         trap:
           "'Whichever driver is on the right' is the rule people reach for automatically, but it only decides genuine ties between roads of equal standing.",
+        excerptKey: "yield-single-lane-to-multilane",
         sourceLabel: "Texas Driver Handbook (DL-7) - Right-of-Way at Intersections",
         sourceUrl: DL7,
       },
@@ -870,6 +907,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Two different signs mark a railway. The round yellow one warns you in advance. The white X-shaped crossbuck stands at the crossing itself and shows how many tracks you are about to cross. A blue-and-white Emergency Notification System sign carries the crossing's identification number and a railway contact number for reporting a stalled car or a broken signal.",
         trap:
           "'You are at the crossing itself' swaps the two signs; the round sign is always the advance warning and the crossbuck is always at the rails.",
+        excerptKey: "sign-shape-round-railroad",
         sourceLabel: "Texas Driver Handbook (DL-7) - Railroad Warning Signs",
         sourceUrl: DL7,
       },
@@ -891,6 +929,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Keep the Texas clearances straight as a group: 15 feet from a fire hydrant, 20 feet from a crosswalk at an intersection, 20 feet from a fire station driveway and 75 feet from it on the opposite side, 30 feet approaching a stop sign, yield sign or flashing signal, and 50 feet from the nearest rail of a crossing. Stopping momentarily to obey a sign or signal is not parking, so the distances do not bite there.",
         trap:
           "15 feet is the hydrant number, and mixing up the two distances is the single most common slip in this group.",
+        excerptKey: "no-parking-distances",
         sourceLabel: "Texas Driver Handbook (DL-7) - Parking, Stopping, or Standing",
         sourceUrl: DL7,
       },
@@ -912,6 +951,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "There is a second, shorter figure for following: dip to low beam within 300 feet of the vehicle in front, because your high beams reflect straight off their mirrors. Low beams are also the right setting on lit roads and in fog, rain, sleet, snow or dust, where high beams bounce off the airborne water and reduce what you can see. If an oncoming driver leaves their high beams on, look towards the lower right edge of your lane rather than into the glare.",
         trap:
           "200 feet is the following-distance figure for a different rule; used for oncoming traffic it leaves the other driver blinded for the last several seconds of the approach.",
+        excerptKey: "low-beam-headlights",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Headlights",
         sourceUrl: DL7,
@@ -934,6 +974,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The same 100-foot restriction applies near a bridge, viaduct or tunnel. On top of that, you may not drive left of centre where signs or markings forbid it, where there are two or more lanes in each direction, or on a hill or curve where you cannot see far enough ahead. Even where passing is legal, you must be able to finish and return before an oncoming vehicle is within 200 feet.",
         trap:
           "'Within 50 feet of a parked vehicle' sounds cautious but is invented; passing a parked car is exactly when you are expected to move left.",
+        excerptKey: "no-driving-left-side",
         sourceLabel: "Texas Driver Handbook (DL-7) - Passing",
         sourceUrl: DL7,
       },
@@ -955,6 +996,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Motorcycles also need more room laterally: they change position within the lane to avoid potholes, gravel, wet paint and crosswinds, and a gust or a truck's turbulence can move a bike across a lane. At an intersection, stop a full vehicle length back so that a car hitting you from behind does not push you into the rider. Never share a lane with one.",
         trap:
           "'Two to three seconds' is a normal car-to-car gap; behind a motorcycle it removes the extra margin the rider needs to swerve or brake hard.",
+        excerptKey: "motorcycle-following-distance",
         sourceLabel: "Texas Driver Handbook (DL-7) - Share the Road with Motorcycles",
         sourceUrl: DL7,
       },
@@ -976,6 +1018,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Wrong-way signing is deliberately layered so a driver gets several chances: DO NOT ENTER at the entrance, WRONG WAY further along, and one-way arrows pointing back at you. These signs face only the driver going the wrong way, which is why a sign nobody else seems to be reacting to is aimed squarely at you. Wrong-way entries happen most at night and at freeway frontage road ramps.",
         trap:
           "'The road ahead is closed' is what a ROAD CLOSED sign says; WRONG WAY is about your direction, and the road is perfectly open to everyone travelling the other way.",
+        excerptKey: "wrong-way-sign",
         sourceLabel: "Texas Driver Handbook (DL-7) - Regulatory and Warning Signs",
         sourceUrl: DL7,
       },
@@ -997,6 +1040,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Notify law enforcement whenever anyone is injured or killed, a vehicle cannot be moved, a driver leaves the scene, or you suspect someone is intoxicated. Where the crash is damage-only and the vehicles still drive, you are expected to move them clear of the traffic lanes. Failing to stop after an injury crash is a felony, and the penalties escalate sharply with the seriousness of the injury.",
         trap:
           "'Exchange details later by phone' skips the duty to remain at the scene, and leaving is what turns a collision into a criminal charge.",
+        excerptKey: "crash-injury-stop-immediately",
         sourceLabel: "Texas Driver Handbook (DL-7) - Motor Vehicle Crashes",
         sourceUrl: DL7,
       },
@@ -1018,6 +1062,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Alongside the licence, every driver has to be able to show evidence of financial responsibility to an officer on request or to another person involved in a crash - and an image of the insurance card on your phone counts. Driving with no proof of insurance brings a fine of $175 to $350 for a first conviction, with suspension and vehicle impoundment possible on later ones.",
         trap:
           "'A peace officer only' misses the crash obligation, which is the one that matters when the other driver needs to identify who hit them.",
+        excerptKey: "crash-show-driver-license",
         sourceLabel: "Texas Driver Handbook (DL-7) - Your License to Drive",
         sourceUrl: DL7,
       },
@@ -1039,6 +1084,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The same idea runs through Texas highway driving generally: slower traffic keeps right, the middle or left lanes are for passing or moving faster than the flow, and a driver in any lane other than the rightmost should be ready to move over for faster traffic. If you cannot or will not drive at least the minimum posted speed, you are asked not to use the highway at all.",
         trap:
           "'Stay left to keep the right clear for merging' inverts the rule; the right lane is exactly where through traffic below the flow speed should be.",
+        excerptKey: "left-lane-for-passing-only",
         sourceLabel: "Texas Driver Handbook (DL-7) - Regulatory and Warning Signs",
         sourceUrl: DL7,
       },
@@ -1060,6 +1106,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Pedestrians also keep priority where they have a WALK signal, and where there is no pedestrian signal they keep it on a green light. Someone who entered the crosswalk lawfully keeps the right of way even if the light changes while they are still crossing. Watch particularly for people using a white cane or an assistance animal - a driver must stop entirely if that is what it takes to avoid endangering them.",
         trap:
           "'Only if they have reached your lane' invents a threshold; the duty starts when they are in the crosswalk, not when they arrive in front of your bumper.",
+        excerptKey: "pedestrian-right-of-way",
         sourceLabel: "Texas Driver Handbook (DL-7) - Yield the Right-of-Way to Pedestrians",
         sourceUrl: DL7,
       },
@@ -1081,6 +1128,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas left-turn displays run in a sequence: a green arrow means protected, a flashing yellow arrow means permitted but yield, a steady yellow arrow means the permitted phase is ending, and a red arrow means stop. Learning to distinguish protected from permitted is the whole point - drivers who treat a flashing yellow arrow as a green arrow turn straight into oncoming traffic.",
         trap:
           "'Oncoming traffic is held by a red' describes the green arrow; a flashing yellow arrow specifically means nobody is holding them.",
+        excerptKey: "signal-flashing-yellow-arrow",
         sourceLabel: "Texas Driver Handbook (DL-7) - Traffic Signals",
         sourceUrl: DL7,
       },
@@ -1102,6 +1150,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Some school zones use posted hours on the sign instead of a beacon, and the principle is identical - the limit applies during the stated times. Where signs say so, using a handheld wireless device inside a school zone is also prohibited while the zone is active. Whether or not the reduced limit is running, children near a school are unpredictable enough to justify covering the brake.",
         trap:
           "'At all times' catches drivers who slow every time they pass a school - safe, but not what the sign says, and the exam is asking what the sign says.",
+        excerptKey: "school-zone-speed-when-flashing",
         sourceLabel: "Texas Driver Handbook (DL-7) - Regulatory and Warning Signs",
         sourceUrl: DL7,
       },
@@ -1123,6 +1172,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "This sits with the other statutory figures - 30 mph on urban district streets and 15 mph in an alley - all of which apply only where nothing different is posted. Texas beaches are legally roadways in many counties, which is why a driving limit exists there at all, and it is set low because there is nothing separating vehicles from people.",
         trap:
           "25 mph is the residential-feeling answer, but the beach figure is deliberately set at the same low number as an alley.",
+        excerptKey: "speed-prima-facie-beach-county-road",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Speed Limits",
         sourceUrl: DL7,
@@ -1145,6 +1195,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The numbers escalate quickly: about six inches reaches the bottom of most cars, twelve inches will float many of them, and two feet of moving water carries away pickups and SUVs. Floodwater also hides washed-out roadbed and weakened pavement that can collapse afterwards. Nearly half of flash flood deaths in the United States involve a vehicle, which is why the message is simply to turn around. Driving around a barricade at a flooded road is a criminal offence in Texas.",
         trap:
           "'Follow another vehicle that made it' assumes the road under the water is unchanged - but a heavier vehicle crossing first tells you nothing about whether the roadbed is still there.",
+        excerptKey: "flood-water-depths",
         sourceLabel: "Texas Driver Handbook (DL-7) - Floods",
         sourceUrl: DL7,
       },
@@ -1166,6 +1217,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The danger of the coffee myth is that it produces a wide-awake drunk - alert enough to be confident, still impaired in judgement, vision and reaction time. Caffeine has been studied specifically and does not improve a drinking driver's ability to operate a vehicle. Body weight, food and how quickly the drinks went down all shift the numbers, so nobody can reliably assess themselves. If someone has been drinking, the person who has not should drive.",
         trap:
           "'Restores reaction time' is the seductive version of the myth, because the person genuinely does feel sharper - feeling sharper and reacting faster are not the same thing.",
+        excerptKey: "sobering-up-myths",
         sourceLabel: "Texas Driver Handbook (DL-7) - Myths about Drinking Alcohol",
         sourceUrl: DL7,
       },
@@ -1187,6 +1239,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The correct technique on a steep descent is the opposite: select a lower gear and let the engine hold the vehicle back, keeping the brakes in reserve. The same reasoning applies to a car with a manual gearbox - riding the clutch down a hill disconnects the engine and produces the identical problem. If brakes ever do fail, downshift and apply the parking brake gently rather than yanking it.",
         trap:
           "'Yes if you stay under the limit' misses the point of the rule, which is about control and brake heat, not speed.",
+        excerptKey: "coasting-in-neutral-illegal",
         sourceLabel: "Texas Driver Handbook (DL-7) - Parking, Stopping, or Standing",
         sourceUrl: DL7,
       },
@@ -1208,6 +1261,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The warning family includes several arrow signs that look alike: a gradual curve, a sharp turn, a reverse curve bending one way then the other, and a winding road with several bends. All of them ask for the same three things - reduce speed, keep right, and do not pass. Where a small yellow advisory speed plate hangs below, that number is the highest speed at which the bend can be taken safely.",
         trap:
           "'A compulsory right turn' reads the sign as a regulation; regulatory turn signs are black on white, and a yellow diamond never commands a manoeuvre.",
+        excerptKey: "warning-signs-purpose",
         sourceLabel: "Texas Driver Handbook (DL-7) - Warning Signs",
         sourceUrl: DL7,
       },
@@ -1229,6 +1283,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "This one surprises drivers from other states, because merging traffic usually yields. The frontage road system reverses that, and the yield signs on both one-way and two-way frontage roads reflect it. The practical implication is that a driver cruising along a frontage road has to plan for vehicles crossing their path at every ramp, rather than assuming the through road wins.",
         trap:
           "'The exiting driver, who is joining your road' applies ordinary merging logic - correct almost everywhere else, and wrong here.",
+        excerptKey: "frontage-road-yield",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Enter or Leave Controlled-Access Highway",
         sourceUrl: DL7,
@@ -1251,6 +1306,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "A skid means the tyres have run out of grip, so the fix is always to reduce demand rather than add to it - no sudden braking, no sudden steering, no sudden acceleration. The same restraint applies if you drop a wheel off the pavement edge: hold the wheel firmly, come off the gas, slow down, then ease back onto the road. Prevention beats recovery, which mostly means slowing before the surface goes bad and keeping tyres in decent condition.",
         trap:
           "'Brake hard' is the instinctive move and the one that locks the wheels, taking away the steering you still needed.",
+        excerptKey: "steering-out-of-skid",
         sourceLabel: "Texas Driver Handbook (DL-7) - Controlling a Car in Special Situations",
         sourceUrl: DL7,
       },
@@ -1272,6 +1328,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Large trucks have long blind spots directly behind, along both sides and immediately in front. They also need far more room to stop - a car at 55 mph needs roughly 240 feet while a loaded tractor-trailer can need over 400. Never cut into the gap in front of a truck, never pass on the right of one that might turn right, and never cross behind a truck that is setting up to reverse.",
         trap:
           "'Correctly positioned in the blind spot' sounds like a technical answer but is self-contradictory - there is no safe way to sit somewhere the driver cannot see you.",
+        excerptKey: "truck-side-mirror-rule",
         sourceLabel: "Texas Driver Handbook (DL-7) - Share the Road with Trucks",
         sourceUrl: DL7,
       },
@@ -1293,6 +1350,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The pairing to remember is 70 on state- or US-numbered rural highways, 60 on rural roads without a number, with school buses running 60 and 50 respectively. Farm-to-market and ranch-to-market roads count as numbered highways for this purpose. Every one of these defaults yields to a posted sign and to the underlying duty to slow for conditions.",
         trap:
           "70 mph is the answer for the numbered highway right next door, and the number on the shield is the only thing separating the two.",
+        excerptKey: "speed-prima-facie-unnumbered-highway",
         sourceLabel: "Texas Driver Handbook (DL-7) - Speed Limits",
         sourceUrl: DL7,
       },
@@ -1324,6 +1382,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Three warning signs look similar and mean different things. The added lane sign says a lane is appearing and no merge is required. The merge sign says another stream is joining yours and you should make room. The lane ends sign says your lane runs out and you must move over. Reading the wrong one produces either an unnecessary swerve or a very necessary one taken too late.",
         trap:
           "'Two lanes are combining and you must merge' is the merge sign - the one situation where you do have to act, which is why people default to it.",
+        excerptKey: "added-lane-sign",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Warning Signs",
         sourceUrl: DL7,
@@ -1346,6 +1405,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "A legal pass on a two-lane road needs several things at once: no solid line on your side, clear visibility, a signal, enough power and space to complete the manoeuvre, and no intersection, railway crossing, bridge or tunnel within 100 feet. Return only once you can see the whole front of the passed vehicle in your mirror - cutting in early is what turns a completed pass into a sideswipe.",
         trap:
           "100 feet is the distance used for intersections and bridges, and borrowing it here halves the margin you need against a car closing head-on.",
+        excerptKey: "passing-return-200-feet",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - How to Pass on a Two-Lane Road",
         sourceUrl: DL7,
@@ -1368,6 +1428,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Four-way stops run on arrival order, with the vehicle on the right winning a genuine tie. Sitting underneath that is a principle that overrides everything: right of way is given, not taken, and a driver who is plainly not yielding gets let through regardless of who was technically entitled. Failing to yield and causing injury carries fines running from hundreds into thousands of dollars.",
         trap:
           "'I arrived first' is legally true and practically irrelevant once the other car is in the box - insisting on it is how people get T-boned while in the right.",
+        excerptKey: "four-way-stop-order",
         sourceLabel: "Texas Driver Handbook (DL-7) - Right-of-Way at Intersections",
         sourceUrl: DL7,
       },
@@ -1389,6 +1450,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The clock rule is 30 minutes after sunset until 30 minutes before sunrise. The visibility rule covers everything else that dims the road - rain, fog, dust, smoke, heavy cloud. Low beam is the right setting in fog or heavy rain, since high beams reflect off the water in the air. Daytime running lights often do not switch on your tail lights, which is what makes a car invisible from behind in a downpour.",
         trap:
           "'Whenever your wipers are running' is the law in several other states and sounds plausible enough that people pick it - Texas frames the requirement around visibility distance instead.",
+        excerptKey: "headlights-30-minutes-1000-feet",
         sourceLabel: "Texas Driver Handbook (DL-7) - Headlights",
         sourceUrl: DL7,
       },
@@ -1410,6 +1472,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas gives you two ways to comply: vacate the lane nearest the stopped vehicle if the road has two or more lanes going your way, or slow to at least 20 mph under the limit. Where the posted limit is below 25 mph, you slow to under 5 mph instead. The law covers law enforcement, fire, EMS, tow trucks, utility and TxDOT vehicles, and since September 2025 animal control and parking enforcement vehicles too. Fines run to four figures, and far higher if someone is hurt.",
         trap:
           "55 mph is what you get by subtracting 10 - the wrong figure, and the one drivers most often assume because it feels like a reasonable courtesy margin.",
+        excerptKey: "move-over-slow-down",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Slow Down or Move Over",
         sourceUrl: DL7,
@@ -1432,6 +1495,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "There is a near-mirror sign for the opposite change, warning that a divided section is starting and a median island will separate the directions. The two are easy to confuse because both show a split roadway symbol. What matters is which way you are travelling: one tells you protection is beginning, the other tells you it is ending, and only one of them calls for extra caution.",
         trap:
           "'A median island beginning' is the mirror-image sign; if you read it that way you relax at the exact moment two-way traffic returns.",
+        excerptKey: "divided-highway-ends-sign",
         sourceLabel: "Texas Driver Handbook (DL-7) - Warning Signs",
         sourceUrl: DL7,
       },
@@ -1453,6 +1517,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Driving in Texas carries implied consent: by driving, you have already agreed to give a specimen if lawfully arrested for intoxicated driving. Refusing draws a longer suspension than failing does - a driver who provides a specimen reading 0.08 or above faces 90 days on a first occasion, up to 365 on later ones. For drivers under 21, any detectable alcohol triggers a suspension, and refusal costs 180 days first time and two years after that.",
         trap:
           "'Refusal is a right' confuses the ability to refuse with the absence of consequences; you can decline the test, but the suspension is automatic and longer than if you had complied.",
+        excerptKey: "specimen-refusal-suspension-adult",
         sourceLabel: "Texas Driver Handbook (DL-7) - Implied Consent Laws for Adults",
         sourceUrl: DL7,
       },
@@ -1474,6 +1539,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Passing on the right generally is allowed when conditions permit it safely: on a one-way road, or where the road is wide enough for two or more lanes each way and free of obstructions. What is never allowed is leaving the paved surface to get past - dropping onto dirt costs you grip and control. Shoulders otherwise exist for breakdowns, tyre trouble, running out of fuel and other emergencies.",
         trap:
           "'Never under any circumstances' is the over-cautious answer, and it is wrong - the left-turning vehicle case is exactly what the shoulder allowance is for.",
+        excerptKey: "pass-on-paved-shoulder",
         sourceLabel: "Texas Driver Handbook (DL-7) - Passing on the Right",
         sourceUrl: DL7,
       },
@@ -1495,6 +1561,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Sorting signs into regulatory and warning does most of the work on an exam. Regulatory signs are black on white (or red and white for stop, yield and prohibitions) and tell you what you must or must not do. Warning signs are yellow, or orange in work zones, and describe a condition. Ignoring a warning sign can still be an offence if you fail to slow for the hazard it flags, but the sign itself is describing, not commanding.",
         trap:
           "'Advisory and carries no legal weight' confuses regulatory signs with the small yellow advisory speed plates below curve warnings - those are the advisory ones.",
+        excerptKey: "regulatory-signs-must-obey",
         sourceLabel: "Texas Driver Handbook (DL-7) - Regulatory and Warning Signs",
         sourceUrl: DL7,
       },
@@ -1516,6 +1583,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "It is a tie-breaker for simultaneous lane changes, and it runs opposite to the yield-to-the-right rule people carry from intersections - which is exactly why it gets missed. The practical version is to check the far side of the target lane, not just your own blind spot, before committing. The same road layout is where the far left lane is usually restricted to passing.",
         trap:
           "'The car coming from the left' is the answer produced by importing the intersection yield-to-the-right habit into a lane-change situation, where the rule is reversed.",
+        excerptKey: "lane-entry-right-yields-to-left",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Driving on Multiple-Lane Roads",
         sourceUrl: DL7,
@@ -1538,6 +1606,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The other defences are keeping your eyes moving between near and far and left and right, reading signs as they come, checking mirrors, and keeping fresh air in the car. Texas also advises against driving more than eight hours in a day. None of this makes an actually tired driver safe - if you are fatigued or unwell, the answer is not to drive at all.",
         trap:
           "'Fix your gaze on the road ahead' feels like concentration but is the behaviour that causes the problem; a static gaze is what lets the trance set in.",
+        excerptKey: "highway-hypnosis",
         sourceLabel: "Texas Driver Handbook (DL-7) - Fight Highway Hypnosis",
         sourceUrl: DL7,
       },
@@ -1559,6 +1628,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "HOV signing always pairs a restriction with a time window, so the same lane can be reserved at rush hour and open the rest of the day. Read the plate, not the diamond symbol alone. Managed and HOV lanes are often bounded by double solid white lines, which may not be crossed - so entering or leaving has to happen at a designated opening.",
         trap:
           "'All traffic may use it during those hours' inverts the sign completely, turning a restriction into a permission.",
+        excerptKey: "hov-lane-sign",
         sourceLabel: "Texas Driver Handbook (DL-7) - Regulatory and Warning Signs",
         sourceUrl: DL7,
       },
@@ -1580,6 +1650,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Leaving a vehicle unattended in Texas means switching off the engine, locking the ignition, removing the key and setting the brake - with the wheel-turning requirement added on a slope. A remote starter changes the key part but not the rest, and the key still has to be in or physically present in the vehicle before it can be driven. Also check for traffic behind you before opening the door.",
         trap:
           "'Leaving it in neutral' is the exact opposite of safe practice - neutral is what lets an unattended car roll in the first place.",
+        excerptKey: "unattended-vehicle-wheels-to-curb",
         sourceLabel: "Texas Driver Handbook (DL-7) - Unattended Motor Vehicle",
         sourceUrl: DL7,
       },
@@ -1601,6 +1672,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "There are only two narrow escapes from the school bus rule: this loading-zone case, and a bus stopped on a different roadway altogether. Everything else - including a bus facing the other way on an ordinary undivided street - requires you to stop and stay stopped until the bus moves, the lights go off, or the driver waves you on. Penalties start at $500 to $1,250 and escalate to a felony if someone is seriously hurt.",
         trap:
           "'Stop as on any other road' is the safe-sounding answer and would rarely get you in trouble in real life, but it is not what the exam is testing - the exception is a specific, examinable rule.",
+        excerptKey: "school-bus-stop-exceptions",
         sourceLabel: "Texas Driver Handbook (DL-7) - Yield Right-of-Way to School Buses",
         sourceUrl: DL7,
       },
@@ -1622,6 +1694,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The full clearance set is worth learning in one go: 15 feet from a hydrant, 20 feet from a crosswalk at an intersection, 20 feet from a fire station driveway with 75 feet on the opposite side, 30 feet approaching a stop sign, yield sign or flashing signal, and 50 feet from the nearest rail at a crossing. Separately, you may never park on a bridge, in a tunnel, on a crosswalk, within an intersection, or on railway tracks.",
         trap:
           "20 feet is the crosswalk figure and sits right next to this one in the list, which is why the two get transposed under exam pressure.",
+        excerptKey: "no-parking-distances",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - Parking, Stopping, or Standing",
         sourceUrl: DL7,
@@ -1644,6 +1717,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Advisory plates are yellow and always ride below a yellow warning sign; regulatory speed limits are black on white and stand alone. Ramp advisory signs work the same way for exit curves. Even though the plate is advisory, driving so fast that you lose control still breaches the requirement to travel at a reasonable and prudent speed - so ignoring it is not consequence-free.",
         trap:
           "'Enforceable as a posted limit' confuses yellow advisory plates with white regulatory signs; the colour is the whole tell.",
+        excerptKey: "advisory-speed-sign",
         sourceLabel: "Texas Driver Handbook (DL-7) - Regulatory and Warning Signs",
         sourceUrl: DL7,
       },
@@ -1665,6 +1739,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The pattern is that refusing costs more than failing: 180 days for a first refusal against 90 for a first failure. A reinstatement fee applies to administrative revocations. On top of this, a first adult DWI conviction can bring a fine up to $2,000, jail from 72 hours to 180 days, and a suspension of 90 to 365 days - and possessing an open container raises the minimum jail term.",
         trap:
           "'No suspension until convicted' misses that the administrative suspension is a separate track that starts long before any trial.",
+        excerptKey: "bac-failure-suspension-adult",
         sourceLabel: "Texas Driver Handbook (DL-7) - Implied Consent Laws for Adults",
         sourceUrl: DL7,
       },
@@ -1707,6 +1782,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "The escalation is worth memorising: about six inches reaches the underside of most cars and can stall them, twelve inches floats many, and two feet of moving water carries away pickups and SUVs. Water also hides missing roadbed, and pavement weakened by flooding can collapse even after the water drops. Nearly half of United States flash flood deaths involve a vehicle.",
         trap:
           "'Three feet' feels like the answer because it seems like a lot of water is needed - the real figures are far lower than most drivers assume, which is exactly why people drive in.",
+        excerptKey: "flood-water-depths",
         sourceLabel: "Texas Driver Handbook (DL-7) - Floods",
         sourceUrl: DL7,
       },
@@ -1728,6 +1804,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Roundabouts run counter-clockwise around a central island and use yield signs rather than signals: slow on approach, give way to traffic already circulating, enter on a real gap, then signal right to leave. In a multi-lane roundabout, pick your lane before entering using the advance lane sign and do not change lanes inside. Leave room for long vehicles that need more than one lane, and watch for cyclists and pedestrians at the entries and exits.",
         trap:
           "'Stop immediately' is the correct instinct anywhere else on the road, and it is the one manoeuvre that makes a roundabout impassable.",
+        excerptKey: "roundabout-emergency-vehicles",
         sourceLabel: "Texas Driver Handbook (DL-7) - Roundabouts",
         sourceUrl: DL7,
       },
@@ -1749,6 +1826,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Truck handling differs from a car's in every direction: longer stopping distances, wider turning circles, big blind spots along both sides and directly behind, and a need for space in front that disappears the moment someone cuts in. Never cross behind a truck setting up to reverse, and never race one to a lane closure. On multi-lane highways they often sit in a centre lane deliberately, to keep options open.",
         trap:
           "'The truck has left space there' reads the gap as an invitation - it is the trailer's swept path, and vehicles that fill it get crushed against the kerb.",
+        excerptKey: "truck-wide-right-turns",
         sourceLabel: "Texas Driver Handbook (DL-7) - Share the Road with Trucks",
         sourceUrl: DL7,
       },
@@ -1770,6 +1848,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "At a crossing marked only by a crossbuck, with no lights or gates, you look both ways, listen, and stop if a train is coming. Where lights are flashing or gates are down, you stop and stay stopped until the gates rise and the lights stop. Never drive around a lowered gate, and never stop on the tracks - if your car stalls there, get everyone out and away, moving towards the oncoming train and off to the side.",
         trap:
           "'The crossing is two hundred feet ahead' confuses the crossbuck at the rails with the round yellow advance warning sign further back.",
+        excerptKey: "railroad-crossbuck",
         sourceLabel: "Texas Driver Handbook (DL-7) - Railroad Warning Signs",
         sourceUrl: DL7,
       },
@@ -1791,6 +1870,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Two further layers sit on top. Every driver under 18 is barred from using any wireless communication device, hands-free included, except in an emergency - and that applies to learner licence holders too. Where signs are posted, handheld device use is prohibited in a school zone. Distraction is the underlying issue: a half-second delay in reacting roughly doubles crash risk.",
         trap:
           "'Legal at a red light' assumes the ban is about motion; being stopped in a traffic lane is still driving, and the phone still takes your attention off the intersection.",
+        excerptKey: "texting-while-driving-illegal",
         sourceLabel: "Texas Driver Handbook (DL-7) - Texting While Driving",
         sourceUrl: DL7,
       },
@@ -1812,6 +1892,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Emergency handling in Texas follows one theme: no sudden inputs. In a blowout, come off the accelerator, brake gently and steer straight to a stop. Running off the pavement, grip the wheel, ease off, slow down, then rejoin. In a skid, come off the gas and steer where the rear is heading. Switching off the ignition is a bad idea in all of them, because it can lock the steering and kills the power assistance.",
         trap:
           "'Pull the parking brake fully on at once' is the panic response, and locking the rear wheels on a descent converts a brake failure into a spin.",
+        excerptKey: "brake-failure",
         sourceLabel: "Texas Driver Handbook (DL-7) - Brake Failure",
         sourceUrl: DL7,
       },
@@ -1833,6 +1914,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Proof of coverage has to be produced for a police officer on request, for anyone involved in a crash, and when you apply for a licence, register a vehicle or have it inspected - an image on your phone counts. A first conviction for driving without it brings a fine of $175 to $350; a second adds suspension, a larger fine and a 180-day vehicle impoundment.",
         trap:
           "25/50/25 is the combination used in several neighbouring states and reads as the obvious round-number answer, but Texas sets the injury figures higher.",
+        excerptKey: "liability-insurance-minimums",
         commonlyMissed: true,
         sourceLabel: "Texas Driver Handbook (DL-7) - The Liability Insurance Law",
         sourceUrl: DL7,
@@ -1855,6 +1937,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Similar guidance appears on work-zone barricades and vertical panels, where the diagonal stripes slope down towards the side you should pass on - stripes falling to the right mean bear right. Objects close to the traffic lane also carry object markers so they show up at night. All of these exist to stop you meeting a fixed obstruction head-on.",
         trap:
           "'Turn right at the next junction' reads a lane-guidance sign as a turn instruction; nothing here is telling you to leave the road.",
+        excerptKey: "keep-right-of-sign",
         sourceLabel: "Texas Driver Handbook (DL-7) - Regulatory and Warning Signs",
         sourceUrl: DL7,
       },
@@ -1876,6 +1959,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "This is one of the ranked tests Texas applies before the yield-to-the-right tie-breaker: divided or multi-lane beats one or two lanes, paved beats unpaved, and a through street beats a terminating one. A separate warning sign shows a T ahead, which tells you a turn is coming and gives you time to slow and choose a direction.",
         trap:
           "'Give way only to traffic from your right' half-remembers the tie-breaker rule; at a T-intersection you owe the whole through road, both directions.",
+        excerptKey: "t-intersection-stop",
         sourceLabel: "Texas Driver Handbook (DL-7) - T-Intersection",
         sourceUrl: DL7,
       },
@@ -1918,6 +2002,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "A proper turn has a sequence: decide early, check mirrors and blind spots, get into the correct lane well ahead, signal at least 100 feet out, slow before you begin turning, keep both hands on the wheel, and finish in the correct lane. Where cyclists are present, merging towards the kerb before you turn is the right move - turning across a bike lane at the last moment is a classic collision.",
         trap:
           "'Middle of your lane to swing wide' is a large-truck technique; in a car it simply opens a gap on your right for someone to ride into.",
+        excerptKey: "right-turn-keep-right",
         sourceLabel: "Texas Driver Handbook (DL-7) - How to Make a Right Turn",
         sourceUrl: DL7,
       },
@@ -1939,6 +2024,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Reporting sits alongside your duties at the scene: stop, exchange names, addresses, registration and insurer details, show your licence if asked, and note witnesses and the location. Call law enforcement whenever there is injury or death, a vehicle that cannot be moved, a driver who leaves, or a driver you suspect is intoxicated. Hit-and-run damage should always be reported, since uninsured motorist cover generally depends on it.",
         trap:
           "'Nothing further once details are exchanged' is what most people actually do, and it skips a filing obligation that carries a deadline.",
+        excerptKey: "crash-written-report-10-days",
         sourceLabel: "Texas Driver Handbook (DL-7) - Motor Vehicle Crashes",
         sourceUrl: DL7,
       },
@@ -1960,6 +2046,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Lane-use control signals come in three displays: a red X means do not use the lane, a steady yellow X means prepare to leave it safely because the assignment is about to change, and a steady downward green arrow means the lane is open to you. They appear on both streets and highways, most often on reversible or managed lanes.",
         trap:
           "'Stop and wait' treats the X like a traffic signal; stopping in a live traffic lane on a highway is far more dangerous than the closure itself.",
+        excerptKey: "lane-use-control-signals",
         sourceLabel: "Texas Driver Handbook (DL-7) - Guide Signs",
         sourceUrl: DL7,
       },
@@ -1981,6 +2068,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Texas lists other situations where a cyclist may leave the right edge: overtaking another vehicle, preparing for a left turn, and avoiding hazards such as debris, potholes, parked cars or pedestrians. On a one-way road with two or more marked lanes, a cyclist rides near the left kerb instead. Drivers turning right should merge towards the kerb rather than cutting across the cyclist's path.",
         trap:
           "'Always as far right as possible' is the version most drivers believe, and acting on it is what produces the close passes cyclists are moving out to prevent.",
+        excerptKey: "bicycle-may-take-full-lane",
         sourceLabel: "Texas Driver Handbook (DL-7) - Share the Road with Bicycles",
         sourceUrl: DL7,
       },
@@ -2002,6 +2090,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Shaded stretches are the other danger, since snow and ice linger there long after the sunlit surface has cleared. Winter driving in Texas comes down to increasing your following distance, slowing before turns rather than during them, testing the brakes gently once moving to gauge grip, and clearing snow and ice off the glass before setting off. There is no speed that is automatically safe on ice.",
         trap:
           "'The middle of the traffic lane' is where tyre action usually clears water first, which makes it the least likely place for ice - the answer is exactly backwards.",
+        excerptKey: "ice-on-bridges",
         sourceLabel: "Texas Driver Handbook (DL-7) - Winter Driving",
         sourceUrl: DL7,
       },
@@ -2023,6 +2112,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Antihistamines, cold remedies, tranquillisers and sedatives are common culprits, and mixing them multiplies the effect - alcohol both amplifies other drugs and masks how affected you are. Individual response varies with body weight, timing and dose, so a medicine that had no effect last month may still catch you out. If a label or a pharmacist raises the question, ask before you drive rather than after.",
         trap:
           "'Only if combined with alcohol' is a comfortable half-truth; plenty of medicines impair driving on their own, which is why the warning is on the box.",
+        excerptKey: "over-the-counter-drugs",
         sourceLabel: "Texas Driver Handbook (DL-7) - Alcohol and Other Types of Drugs",
         sourceUrl: DL7,
       },
@@ -2044,6 +2134,7 @@ export const texasSets1to3: DrivingTestSet[] = [
           "Work zones are set up as a sequence: warning signs, then channelising devices such as cones, drums and barricades, then the flag person or an automated flagging device. Stop in your lane without veering, expect drivers who leave the lane change until the last second, and hold the reduced speed until the sign says the zone has ended. Fines double where workers are present, and driving around a barricade is an offence in itself.",
         trap:
           "'The lane looks clear' is the reasoning behind most work-zone incidents; the flag person is stopping you for something outside your field of view.",
+        excerptKey: "flag-person-instructions",
         sourceLabel: "Texas Driver Handbook (DL-7) - Construction and Maintenance Devices",
         sourceUrl: DL7,
       },

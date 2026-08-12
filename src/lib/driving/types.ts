@@ -75,6 +75,13 @@ export interface DrivingQuestion {
    * on the facts they already know.
    */
   trap?: string;
+  /**
+   * Key into the jurisdiction's handbook excerpt library, so the learner can
+   * read the actual official wording for the rule this question tests.
+   * Many questions test the same rule, so excerpts are shared rather than
+   * duplicated per question.
+   */
+  excerptKey?: string;
   /** e.g. "Alberta Driver's Guide - Traffic signs" */
   sourceLabel?: string;
   /** Deep link to the official handbook section. */
@@ -87,6 +94,37 @@ export interface DrivingQuestion {
   commonlyMissed?: boolean;
   /** Optional inline SVG name for sign-identification items. */
   sign?: string;
+}
+
+/**
+ * A short verbatim excerpt from the official handbook.
+ *
+ * Quoted rather than paraphrased so the learner sees the exact wording the
+ * exam is written from. Kept deliberately short and always shown with its
+ * source, section and a link back to the official page: a brief attributed
+ * excerpt used to teach, which points readers at the real handbook rather
+ * than replacing it, is the narrow use these are limited to.
+ *
+ * Rules:
+ *  - `quote` must be VERBATIM. Never tidy it up, modernise it, or merge
+ *    sentences from different places. If it needs editing to make sense, it
+ *    is the wrong excerpt.
+ *  - Keep it to one or two sentences - the point is the operative rule, not
+ *    the surrounding chapter.
+ *  - Our own plain-language `context` still does the teaching; this is the
+ *    receipt that backs it up.
+ */
+export interface HandbookExcerpt {
+  /** Stable key referenced by DrivingQuestion.excerptKey, e.g. "school-zone-speed". */
+  key: string;
+  /** Verbatim text from the official handbook. */
+  quote: string;
+  /** Publication, e.g. "Alberta Driver's Guide (Spring 2026)". */
+  source: string;
+  /** Where in it, e.g. "Chapter 3 - Traffic Signs and Signals". */
+  section: string;
+  /** Deep link to the official page or PDF. */
+  url: string;
 }
 
 export interface DrivingTestSet {

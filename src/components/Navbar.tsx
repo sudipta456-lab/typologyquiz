@@ -11,7 +11,9 @@ const links = [
   { href: "/daily", label: "Daily" },
   { href: "/room", label: "Rooms" },
   { href: "/compare", label: "Compare" },
-  { href: "/account", label: "Account" },
+  // "Display Name" not "Account" - there are no accounts on this site, and
+  // calling it one implies a login that does not exist.
+  { href: "/account", label: "Display Name" },
 ];
 
 export function Navbar() {

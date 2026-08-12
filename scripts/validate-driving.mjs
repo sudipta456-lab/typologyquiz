@@ -10,6 +10,31 @@
  * Run: node scripts/validate-driving.mjs
  */
 import { JURISDICTIONS } from "../src/lib/driving/jurisdictions.ts";
+import { excerptsFor, getExcerpt } from "../src/lib/driving/excerpts.ts";
+
+// Excerpts are short verbatim quotes from official handbooks. Two things keep
+// that defensible: each quote stays brief, and every one is attributed with a
+// link back to the source. Both are checked mechanically here, because "just
+// one more sentence" is exactly the kind of drift nobody notices by eye.
+const QUOTE_WARN = 320;
+const QUOTE_MAX = 600;
+// Government sources we accept a quote from. Statute and transport-department
+// sites count as much as the handbooks - several rules are only stated in the
+// legislation, and the handbook simply assumes them.
+const OFFICIAL_HOSTS = [
+  // Canada
+  "alberta.ca",
+  "gov.ab.ca",
+  "ontario.ca",
+  // Texas
+  "dps.texas.gov",
+  "txdot.gov",
+  "statutes.capitol.texas.gov",
+  // California
+  "dmv.ca.gov",
+  "dot.ca.gov",
+  "leginfo.legislature.ca.gov",
+];
 
 let errors = 0;
 let warnings = 0;
@@ -114,6 +139,56 @@ for (const j of JURISDICTIONS) {
         err(`${q.id}: question text too short`);
       }
     }
+  }
+
+  // --- Handbook excerpts -------------------------------------------------
+  const excerpts = excerptsFor(j.slug);
+  const usedKeys = new Set();
+  let wired = 0;
+  for (const set of j.sets) {
+    for (const q of set.questions) {
+      if (!q.excerptKey) continue;
+      wired++;
+      usedKeys.add(q.excerptKey);
+      if (!getExcerpt(j.slug, q.excerptKey)) {
+        err(`${q.id}: excerptKey "${q.excerptKey}" does not resolve`);
+      }
+    }
+  }
+
+  const seenExcerptKeys = new Set();
+  let quotedChars = 0;
+  for (const e of excerpts) {
+    if (seenExcerptKeys.has(e.key)) err(`duplicate excerpt key: ${e.key}`);
+    seenExcerptKeys.add(e.key);
+
+    if (!e.quote || e.quote.trim().length < 15) err(`excerpt ${e.key}: quote too short to be real`);
+    quotedChars += e.quote.length;
+
+    if (e.quote.length > QUOTE_MAX) {
+      err(`excerpt ${e.key}: quote is ${e.quote.length} chars - too long to be a brief excerpt`);
+    } else if (e.quote.length > QUOTE_WARN) {
+      warn(`excerpt ${e.key}: quote is ${e.quote.length} chars - trim toward one or two sentences`);
+    }
+
+    // Attribution is the whole basis for quoting at all.
+    if (!e.source) err(`excerpt ${e.key}: missing source`);
+    if (!e.section) warn(`excerpt ${e.key}: missing section`);
+    if (!e.url) {
+      err(`excerpt ${e.key}: missing url - a quote without a link back is not attributed`);
+    } else if (!OFFICIAL_HOSTS.some((h) => e.url.includes(h))) {
+      err(`excerpt ${e.key}: url is not on a known official domain (${e.url.slice(0, 60)})`);
+    }
+  }
+
+  const unused = excerpts.filter((e) => !usedKeys.has(e.key)).length;
+  console.log(
+    `  excerpts: ${excerpts.length} (${unused} unused), questions wired: ${wired}/${totalQ} (${Math.round(
+      (wired / Math.max(1, totalQ)) * 100
+    )}%), quoted total: ${(quotedChars / 1000).toFixed(1)}k chars`
+  );
+  if (excerpts.length > 0 && wired / Math.max(1, totalQ) < 0.6) {
+    warn(`only ${Math.round((wired / totalQ) * 100)}% of questions link to official wording`);
   }
 
   // Answer-position balance. With 4 options, a fair bank sits near 25% each;

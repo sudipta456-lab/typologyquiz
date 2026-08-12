@@ -36,6 +36,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Sign shape is a language of its own in California, and knowing it lets you answer questions where the wording is unfamiliar. Eight sides means stop and nothing else; a downward triangle means yield; a diamond warns of a hazard; five sides means a school is near; a circle warns of a railroad crossing ahead; a plain rectangle carries a rule you must obey. Where you stop matters too — at the limit line if there is one, otherwise before the crosswalk, otherwise at the edge of the intersection where you can see.",
         trap: "\"Slow and roll if nothing is coming\" feels efficient, but a stop sign has no clear-road exemption — the wheels must actually stop every single time.",
+        excerptKey: "sign-stop",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -51,6 +52,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California has a set of default limits that apply whenever no sign says otherwise: 25 mph in business and residential districts and in school zones when children are around, 15 mph in alleys, at blind intersections and near railroad crossings with poor sight lines, 55 mph on two-lane undivided highways, and 65 mph on most other highways. Learning the whole ladder means you can answer any variant, because the test likes to move the setting rather than the number.",
         trap: "35 mph is the speed people actually drive on quiet residential streets, which makes it feel right — but the legal default is 25 mph whether or not the street looks empty.",
+        excerptKey: "speed-business-residential",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -70,6 +72,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California's five curb colours come up constantly, so learn them as a set. Red is no stopping at all. Yellow is loading, for either passengers or freight, within any posted time. White is passengers or mail only — someone gets in or out and you go. Green is limited-time parking, with the limit posted. Blue is reserved for a vehicle displaying a disabled placard or plate. Notice that only green really lets you leave the car and walk away.",
         trap: "\"Stop briefly to let a passenger step out\" describes the WHITE curb, not the red one, and it is the most common mix-up because a quick passenger drop feels harmless anywhere.",
+        excerptKey: "curb-red",
         sourceLabel: "California Driver's Handbook — Colored curbs",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
         commonlyMissed: true,
@@ -91,6 +94,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Pedestrian priority in California is broader than most drivers assume. It applies at marked crosswalks and at unmarked ones — every intersection has a crossing whether or not paint is on the ground. You must give extra time to older people, parents with small children and anyone with a disability, you must never pass a vehicle stopped at a crosswalk, and you stop behind the limit line rather than creeping into the crossing.",
         trap: "\"Proceed if you can clear the crosswalk first\" turns a yield into a race, and a pedestrian who stumbles or changes pace makes you wrong instantly.",
+        excerptKey: "pedestrian-crossing",
         sourceLabel: "California Driver's Handbook — Pedestrians",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -110,6 +114,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "There are two signalling figures in California and the test likes to swap them. Turning on a street: signal at least 100 feet before the turn. Changing lanes on a freeway: signal for at least 5 seconds before you move. One is a distance and one is a time, and the freeway one is longer in practice because everyone is closing much faster. You also signal when pulling away from a curb and when slowing or stopping unexpectedly.",
         trap: "50 feet sounds plausible because it is roughly where most drivers actually signal, but half the required distance leaves the driver behind you no useful warning.",
+        excerptKey: "signal-100-feet",
         sourceLabel: "California Driver's Handbook — Signaling",
         sourceUrl: `${H}/introduction-to-driving/`,
       },
@@ -130,6 +135,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Three seconds is the baseline in good conditions, and you add to it rather than subtract. Rain, fog, darkness, a heavy load, a towed trailer, following a motorcycle or sitting behind a large truck whose mirrors cannot find you all justify more space. To measure it, watch the car ahead pass a fixed object such as a sign, then count — if you reach the object before you finish counting three, you are too close.",
         trap: "Two seconds is the figure people half-remember from other jurisdictions, and it leaves you short exactly when the car ahead brakes for something you cannot see.",
+        excerptKey: "three-second-rule",
         sourceLabel: "California Driver's Handbook — Safe driving",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -150,6 +156,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Yield and stop are different obligations, and the difference is the whole question. A stop sign requires the wheels to stop every time regardless of traffic. A yield requires you to give way — slow, look, and stop only if someone is coming. You will meet yield markings in other forms too: a row of solid white triangles painted across a lane is a yield line, and the entry to a roundabout works on exactly the same principle.",
         trap: "Choosing \"stop completely every time\" is the safe-sounding answer, but it describes a stop sign — a yield does not require a stop when the road is genuinely clear.",
+        excerptKey: "sign-yield",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -165,6 +172,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California runs four blood alcohol thresholds and the test moves between them freely. 0.08% for a driver aged 21 or over. 0.01% for anyone under 21 — effectively zero tolerance. 0.01% again for anyone on DUI probation, whatever their age. 0.04% for commercial drivers and for anyone carrying passengers for hire. Learn all four as a group, because a question naming an age or a licence class is really asking which of the four applies.",
         trap: "0.10% was the adult limit in many places years ago and still lingers in people's memory, which is why it is the most-chosen wrong answer here.",
+        excerptKey: "bac-21-and-over",
         sourceLabel: "California Driver's Handbook — Alcohol and drugs",
         sourceUrl: `${H}/alcohol-and-drugs/`,
       },
@@ -185,6 +193,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Turning on red has three parts and you need all three: no NO TURN ON RED sign posted, a complete stop at the limit line, and yielding to pedestrians and to traffic already moving through. The same permission extends to a left turn from a one-way street onto another one-way street. A red arrow is different — it forbids the movement outright, and no amount of stopping and yielding makes it legal.",
         trap: "\"Turn without stopping if the road looks empty\" is how most drivers actually behave, and it is precisely what makes the rolling right on red a common citation.",
+        excerptKey: "turn-right-on-red",
         sourceLabel: "California Driver's Handbook — Traffic signals",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -204,6 +213,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Work through the whole signal set and the variants stop being tricky. Steady red means stop, with a right turn allowed after stopping unless signed otherwise. Steady yellow warns that red follows. Steady green means go once the intersection is clear, but on an unprotected left you still yield to oncoming traffic. A green arrow is a protected movement. A red arrow bans the movement. Flashing red is a stop sign, flashing yellow means proceed with caution, and a completely dark signal is treated as a four-way stop.",
         trap: "\"Speed up so you clear the intersection\" is what a lot of drivers do, but treating yellow as an accelerator pedal is how people arrive in the intersection on red.",
+        excerptKey: "signal-yellow",
         sourceLabel: "California Driver's Handbook — Traffic signals",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -223,6 +233,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Blue is one of five curb colours: red is no stopping, yellow is loading of passengers or freight, white is passengers or mail only, green is limited-time parking, and blue is disabled parking. Disabled spaces come with a second rule that catches people out — the diagonally striped area painted beside such a space is the access aisle for a wheelchair lift or ramp, and parking or stopping in it is prohibited even briefly.",
         trap: "\"Emergency and government vehicles only\" sounds official and therefore plausible, but blue has nothing to do with official vehicles — it is entirely about the placard.",
+        excerptKey: "curb-blue",
         sourceLabel: "California Driver's Handbook — Colored curbs",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -243,6 +254,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The emergency-vehicle rules come as a package. When one approaches with lights or siren, move as far right as you safely can and stop until it has passed — unless you are in an intersection, in which case clear it first, then pull over. You may never follow within 300 feet of an emergency vehicle running its lights or siren. And where an emergency or road work vehicle is stopped at the roadside with lights flashing, the Move Over law asks you to change lanes if you can and slow down if you cannot.",
         trap: "\"Keep your speed and stay in lane\" feels considerate because you are not obstructing anything, but it denies the ambulance the clear right-hand path every other driver is creating.",
+        excerptKey: "emergency-vehicle-yield",
         sourceLabel: "California Driver's Handbook — Emergency vehicles",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -263,6 +275,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Colour sorts California's signs faster than reading them does. Yellow warns of a road condition ahead. Orange warns of temporary road work. White with black lettering states a regulation you must follow. Red means stop, yield or prohibited. Green gives directions and distances. Blue points to motorist services. Brown marks parks and recreation. Match the colour first and you have already narrowed most sign questions to one answer.",
         trap: "\"State a law you must obey\" describes the white regulatory rectangle, and it is tempting because yellow warning signs often carry a speed panel that looks like a limit.",
+        excerptKey: "sign-diamond-warning",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -282,6 +295,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The Basic Speed Law sits underneath every posted limit in California. Weather, visibility, traffic density, road surface and the presence of pedestrians or cyclists all feed into what counts as a safe speed, and any of them can push the legal maximum below the sign. It works in one direction only: conditions can make the posted number too fast, but they never entitle you to exceed it.",
         trap: "\"Faster than 55 mph anywhere in the state\" mixes up a specific default — the two-lane undivided highway limit — with the general principle the Basic Speed Law actually states.",
+        excerptKey: "basic-speed-law",
         sourceLabel: "California Driver's Handbook — Basic Speed Law",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },
@@ -301,6 +315,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "There are several separate triggers for headlights in California, and any one of them is enough: the half hour after sunset through the half hour before sunrise, any time you cannot see clearly for 1,000 feet, whenever weather has you running the wipers, and in tunnels or on mountain roads even in daylight. Once they are on, remember the dimming distances — drop the high beams within 500 feet of an oncoming vehicle and within 300 feet of one you are following.",
         trap: "\"Only when street lights are switched off\" confuses street lighting with your own visibility — street lights help you see the road but do nothing to make your car visible to others.",
+        excerptKey: "headlights-when",
         sourceLabel: "California Driver's Handbook — Headlights",
         sourceUrl: `${H}/introduction-to-driving/`,
       },
@@ -321,6 +336,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "School bus lights come in two stages. Flashing amber means the bus is about to stop — slow and prepare. Flashing red with the stop arm out means children are getting on or off, and traffic in both directions must stop on an ordinary street. The one exception is a divided highway or a road with two or more lanes in each direction, where drivers on the far side may continue. Penalties are severe: a fine reaching into four figures and a possible licence suspension.",
         trap: "\"Stop only if you are behind the bus\" imports the divided-highway exception into a plain two-lane street, where oncoming traffic must stop as well.",
+        excerptKey: "school-bus-red-lights",
         sourceLabel: "California Driver's Handbook — School buses",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
         commonlyMissed: true,
@@ -342,6 +358,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The bicycle rules cluster around a few numbers. Give at least three feet when passing, and change lanes to pass whenever you can rather than sharing. If three feet is not available, slow down and wait — passing anyway is the violation. You may not drive in a bike lane except to park where that is allowed, to enter or leave the road, or within the last 200 feet before a right turn. Cyclists may also take the full lane when it is too narrow to share safely.",
         trap: "Two feet feels close to right and is the width most drivers actually leave, which is exactly why the law had to name a specific figure.",
+        excerptKey: "bicycle-3-feet",
         sourceLabel: "California Driver's Handbook — Bicyclists",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -361,6 +378,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Shapes carry meaning independently of what is written on them, which helps when a sign is dirty or seen at an angle. Five sides means school. Eight sides means stop. A downward triangle means yield. A circle means a railroad crossing is ahead. A diamond is a general warning. A vertical rectangle usually carries a regulation, and a horizontal one usually carries guidance. School zones also bring a speed rule: 25 mph within 500 feet of a school when children are present, and some zones are posted at 15 mph.",
         trap: "Railroad crossing is the tempting pick because both signs are warnings about a specific hazard, but the round yellow sign is the railroad one — five sides is always school.",
+        excerptKey: "sign-pentagon-school",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -381,6 +399,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Intersection priority in California runs through a short sequence. Whoever arrived first goes first. If two arrive together, the one on the right goes. At a T-intersection, the road that continues through has priority over the road that ends. If you are turning left, oncoming traffic going straight goes before you. And anyone entering from a driveway, alley or private road yields to everything already on the street, including people on the sidewalk.",
         trap: "\"The driver going straight ahead\" borrows the left-turn rule and applies it to a simultaneous four-way arrival, where direction of travel does not decide anything.",
+        excerptKey: "row-same-time-right",
         sourceLabel: "California Driver's Handbook — Right-of-way rules",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
         commonlyMissed: true,
@@ -401,6 +420,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Good visual habits are a set rather than a single trick: scan about ten seconds ahead, keep the eyes moving instead of fixing on one point, check the mirrors every few seconds, and glance over the shoulder before any lane change because mirrors leave blind spots no adjustment can remove. The ten-second figure scales with speed — on a freeway it is a quarter of a mile, in town it is barely a block.",
         trap: "Checking only mirrors sounds diligent, but mirrors show you what has already happened behind while the hazard you need to plan for is up ahead.",
+        excerptKey: "scan-10-seconds",
         sourceLabel: "California Driver's Handbook — Scanning",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -421,6 +441,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Hill parking has three cases, and one question can test any of them. Facing downhill with a curb: wheels turned toward the curb. Facing uphill with a curb: wheels turned away from the curb, then let the car roll back until a tyre rests against it. Facing either way with no curb at all: wheels turned right, toward the shoulder, so a runaway car leaves the road rather than entering it. In every case you also set the parking brake and leave the vehicle in park or in gear.",
         trap: "\"Away from the curb\" is the correct answer for the UPHILL case, and swapping the two is the single most common error in California parking questions.",
+        excerptKey: "hill-downhill-curb",
         sourceLabel: "California Driver's Handbook — Parking on a hill",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
         commonlyMissed: true,
@@ -442,6 +463,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Line colour tells you about direction and line style tells you about permission. Yellow separates traffic moving in opposite directions; white separates lanes moving the same way. Broken means you may cross when it is safe; solid means you may not, though a single solid yellow can still be crossed to turn. Double solid yellow is a barrier, crossable only for a left turn or U-turn into a driveway or road where that is allowed. Double solid white separates a carpool lane from general traffic and is not to be crossed at all.",
         trap: "\"Traffic ahead is travelling the same direction\" mixes up the colours — yellow always means oncoming traffic, and white is the one that marks same-direction lanes.",
+        excerptKey: "marking-solid-yellow-single",
         sourceLabel: "California Driver's Handbook — Pavement markings",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -462,6 +484,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Railroad crossings carry their own family of markings and rules. The round yellow sign is the advance warning; the white X-shaped crossbuck sits at the crossing itself; a blue sign nearby carries an emergency number and a crossing identifier to call if a vehicle is stuck. When lights flash, gates lower, or anyone signals a train is coming, stop at least 15 feet from the nearest rail. Where you cannot see 400 feet along the track, the speed limit within 100 feet of the crossing drops to 15 mph. Never stop on the tracks, and never start across unless there is room to clear them completely.",
         trap: "A roundabout warning is a diamond with a circular arrow diagram, not a plain round sign — the shape of the sign and the shape of the hazard are easy to conflate.",
+        excerptKey: "sign-railroad-advance",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -482,6 +505,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Under-21 drivers face the strictest of California's four alcohol thresholds. The full set is 0.08% for adults 21 and over, 0.01% for anyone under 21, 0.01% for anyone on DUI probation regardless of age, and 0.04% for commercial drivers and those carrying passengers for hire. Under-21 drivers also face separate rules on carrying alcohol in the vehicle at all, and a licence suspension can follow from the DMV side even where no criminal conviction results.",
         trap: "0.08% is the adult number and the one everybody knows, which makes it the reflex answer even when the question has specifically named an under-21 driver.",
+        excerptKey: "bac-under-21",
         sourceLabel: "California Driver's Handbook — Alcohol and drugs",
         sourceUrl: `${H}/alcohol-and-drugs/`,
       },
@@ -497,6 +521,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The highway defaults are worth holding side by side. Most California highways top out at 65 mph unless a sign posts something else, and some rural stretches are posted higher. A two-lane undivided highway drops to 55 mph because there is no physical barrier between you and oncoming traffic. Towing a trailer also puts you at 55 mph, whatever the road. Underneath all of it, the Basic Speed Law can require less than any of these numbers when conditions are poor.",
         trap: "65 mph is the figure people carry from freeway driving and apply to every highway, which is exactly the confusion this rule exists to correct.",
+        excerptKey: "speed-max-highways",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/safe-driving-cont2/`,
         commonlyMissed: true,
@@ -518,6 +543,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "A complete lane change in California runs: signal, mirrors, shoulder check, then move. Blind spots exist on both sides of every vehicle no matter how the mirrors are set, and they are big enough to hide a motorcycle or a cyclist entirely. The same shoulder check applies before turning, before merging, before backing up and before opening your door into the roadway. On a freeway you also signal for at least five seconds before moving over.",
         trap: "\"Mirrors distort how far away vehicles are\" is true of convex mirrors and therefore sounds knowledgeable, but distortion is not the reason a shoulder check is required — the unseen zone is.",
+        excerptKey: "lane-change-shoulder-check",
         sourceLabel: "California Driver's Handbook — Blind spots",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -538,6 +564,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The regulatory family tells you what the law requires at that spot: speed limits, KEEP RIGHT, ONE WAY, NO TURN ON RED, lane use restrictions. Many of them use a red circle with a diagonal slash over a symbol, which always means the thing pictured is prohibited. Contrast that with yellow diamonds, which describe a hazard but impose no rule of their own, and with green and blue signs, which only give direction and service information.",
         trap: "Confusing white regulatory rectangles with yellow warning diamonds is the classic error — a warning sign cannot be violated, while a regulatory one can earn you a ticket.",
+        excerptKey: "sign-white-rectangle",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -558,6 +585,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California's yielding rules run on a simple principle: whoever is joining gives way to whoever is already there. That covers leaving a driveway, alley, parking lot or private road, entering a roundabout, merging onto a freeway, and turning left across oncoming traffic. The sidewalk step catches people out — before your bumper reaches the road you have already crossed a footway where pedestrians have priority.",
         trap: "\"If the nearest car is more than 100 feet away\" invents a distance rule that does not exist here; a gap may make the move safe, but it never transfers the right-of-way to you.",
+        excerptKey: "row-entering-traffic",
         sourceLabel: "California Driver's Handbook — Right-of-way rules",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -578,6 +606,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The centre left-turn lane is marked by a pair of yellow lines on each side where the outer line is solid and the inner one is broken, and it belongs to traffic from both directions at once. You may use it to wait for a gap before turning left, and to make a U-turn where U-turns are otherwise allowed. What you must not do is drive along it, use it to pass, or use it to accelerate before merging into traffic.",
         trap: "Reading it as a carpool lane is understandable because both are special-purpose lanes, but carpool lanes are marked with a white diamond and sit at the left of the roadway, not in the centre between opposing flows.",
+        excerptKey: "center-left-turn-lane",
         sourceLabel: "California Driver's Handbook — Lane markings",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -598,6 +627,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Sharing the road with large vehicles comes down to space and sight lines. Trucks need extra room to turn and will swing away from the direction of the turn first. They have long blind spots down both sides and directly behind, so if you cannot see the driver's face in their mirror they cannot see you. They also take much longer to stop, which is why cutting in front of one after passing is a bad idea and why you leave a bigger following gap behind one.",
         trap: "Filling the gap on the right is the intuitive city-driving move, and it is the exact position the trailer sweeps through as the turn completes.",
+        excerptKey: "truck-wide-turns",
         sourceLabel: "California Driver's Handbook — Large vehicles",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -628,6 +658,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The red-circle-and-slash convention runs across the whole regulatory family, so once you know it you can read signs you have never seen. Whatever is drawn inside is the thing you may not do: a U-turn arrow, a left-turn arrow, a truck, a bicycle, a pedestrian. Warning signs use the same symbols without the circle to mean something quite different — that the thing pictured may be present ahead.",
         trap: "\"The road bends sharply ahead\" reads the arrow as a picture of the road rather than a picture of your manoeuvre, which is the mistake the red circle is there to prevent.",
+        excerptKey: "sign-prohibition-circle",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -648,6 +679,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California gives you a distance for turns and a duration for freeway lane changes: at least 100 feet before a turn, at least 5 seconds before changing lanes on a freeway. Merging safely also means matching the speed of traffic on the acceleration lane rather than arriving slow, checking mirrors and blind spot, and moving over in one deliberate step rather than drifting.",
         trap: "One or two seconds matches what most drivers actually do, and it is exactly the habit the five-second rule was written to correct at freeway closing speeds.",
+        excerptKey: "signal-lane-change-freeway",
         sourceLabel: "California Driver's Handbook — Signaling",
         sourceUrl: `${H}/introduction-to-driving/`,
       },
@@ -667,6 +699,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Keep the five colours in a row and the differences become obvious. Red: no stopping, standing or parking at all. Yellow: loading of passengers or freight, within the posted time. White: passengers or mail only, briefly. Green: limited-time parking, with the limit posted. Blue: disabled placard or plate only. Yellow and white overlap on passengers, and the distinguishing feature is that yellow also covers freight.",
         trap: "\"Load or unload freight\" is the YELLOW curb, and the overlap with passengers between the two colours is what makes them so easy to swap.",
+        excerptKey: "curb-white",
         sourceLabel: "California Driver's Handbook — Colored curbs",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -687,6 +720,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "A roundabout in California runs on one rule with several consequences. Slow on approach and yield to anyone already circulating. Enter to the right and travel counter-clockwise, without stopping once you are inside. Pick your lane by destination — right lane for a right exit, left lane for a left exit, either for straight ahead where two lanes are provided. Signal before you exit, and if you miss your exit, go round again rather than cutting across.",
         trap: "\"Stop fully at the entry line every time\" treats the roundabout as a stop sign; unnecessary stopping in a clear roundabout is what causes rear-end collisions at the entry.",
+        excerptKey: "roundabout-yield",
         sourceLabel: "California Driver's Handbook — Roundabouts",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -702,6 +736,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The school-zone limit is 25 mph within 500 feet of a school while children are present, unless a sign posts something lower — 15 mph zones do exist and the sign overrides the default. The same 25 mph applies generally through business and residential districts. Watch for the five-sided school sign, yellow school crossing markings and crossing guards, and remember that a school bus with flashing red lights brings its own separate stopping obligation.",
         trap: "15 mph is a real California figure — it applies at blind intersections, in alleys and in some posted school zones — which makes it the most convincing wrong answer here.",
+        excerptKey: "school-zone-speed",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -722,6 +757,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Wet-weather driving in California has a few practical benchmarks. Cut roughly 5 to 10 mph off your speed on wet roads, halve it on packed snow, and crawl at about 5 mph on ice. If rain or snow drops visibility below 100 feet, do not exceed 30 mph. Turn on your headlights any time the wipers are running, increase your following distance beyond three seconds, and if the car hydroplanes, ease off the accelerator rather than braking.",
         trap: "\"After several hours of steady rain\" sounds right because the road is visibly wetter then, but by that point the oil film has washed away and grip has partly recovered.",
+        excerptKey: "rain-first-slippery",
         sourceLabel: "California Driver's Handbook — Driving in bad weather",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -742,6 +778,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Colour is the fastest way into a sign question. Orange means temporary road work. Yellow means a permanent road condition ahead. White with black text states a regulation. Red means stop, yield or prohibited. Green gives directions and distances, blue points to services, and brown marks recreational destinations. In work zones, expect reduced speed limits, flaggers directing traffic, and the Move Over obligation where maintenance vehicles are stopped with amber lights flashing.",
         trap: "Brown is the recreation colour, not orange, and the two warm colours are easy to blur when the sign is passed at speed.",
+        excerptKey: "sign-colour-orange-workzone",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -762,6 +799,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Implied consent means the agreement to be tested was made when you started driving in California, not at the roadside. After a DUI arrest the officer may take your licence and issue a temporary one lasting about 30 days, and you have 10 days to ask the DMV for a hearing. The DMV process runs separately from the criminal court case, which is why a refusal can cost you your licence even if the prosecution goes nowhere. DUI convictions stay on the record for 10 years.",
         trap: "\"No consequence unless you are later convicted\" assumes the licence follows the court case, but the DMV suspension is administrative and lands regardless of the criminal outcome.",
+        excerptKey: "implied-consent",
         sourceLabel: "California Driver's Handbook — Implied consent",
         sourceUrl: `${H}/alcohol-and-drugs/`,
         commonlyMissed: true,
@@ -783,6 +821,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Carpool lanes in California are marked with a white diamond and signs stating the occupancy requirement and the hours it applies. Where the lane is separated by double solid white lines you must enter and leave only at the designated broken-line openings. Some lanes operate around the clock and some only during posted commute hours; outside those hours an hours-limited lane is open to everyone. Motorcycles and qualifying clean-air vehicles with a valid decal may also use them.",
         trap: "\"Cross them whenever the carpool lane is empty\" confuses eligibility to use the lane with permission to cross the barrier — being allowed in the lane says nothing about where you may enter it.",
+        excerptKey: "marking-double-white",
         sourceLabel: "California Driver's Handbook — HOV lanes",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -803,6 +842,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Work the hill rule out from first principles rather than memorising it. Ask which way gravity would move the car, then aim the front wheels so that motion carries a tyre into the curb. Downhill, the car rolls forward, so the wheels point toward the curb. Uphill, it rolls back, so the wheels point away and the back edge of the front tyre catches the curb. With no curb at all, point the wheels right in both cases so the car leaves the road. Always set the parking brake and leave it in park or gear.",
         trap: "\"Turn them away from the curb and stop a foot short\" gets the direction right but skips the contact — without a tyre resting against the curb there is nothing to stop the roll.",
+        excerptKey: "hill-uphill-curb",
         sourceLabel: "California Driver's Handbook — Parking on a hill",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
         commonlyMissed: true,
@@ -824,6 +864,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The left turn is where several California rules meet. On a plain green you yield to oncoming vehicles and to pedestrians in the crosswalk you are turning into; on a green arrow the movement is protected and oncoming traffic is held. Waiting in the intersection is allowed, but keep the front wheels straight so that a rear-end shunt does not push you into oncoming traffic. Turn into the nearest lane going your direction rather than swinging wide.",
         trap: "Acting on another driver's flashed headlights feels courteous, but it is an informal signal with no legal force and you carry the fault if the gap was not really there.",
+        excerptKey: "row-turning-left",
         sourceLabel: "California Driver's Handbook — Right-of-way rules",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -843,6 +884,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Sign colour maps cleanly onto sign purpose. Green: guidance, exits, distances. Blue: motorist services such as fuel, food, lodging and hospitals. Brown: parks, campgrounds and cultural sites. Yellow: warning of a road condition. Orange: temporary road work. White with black text: a regulation. Red: stop, yield or prohibited. Learning the mapping means you can answer sign-colour questions without recalling any particular sign.",
         trap: "\"Mark rest stops and fuel services\" is the BLUE family, and the overlap is easy because green exit signs often list services on the same gantry.",
+        excerptKey: "sign-colour-green-guide",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -863,6 +905,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The common thread across California's loss-of-traction emergencies is that sudden inputs make things worse. Hydroplaning: ease off the gas, do not brake, keep the wheel steady. Tyre blowout: hold the wheel firmly with both hands, ease off the accelerator and slow gradually before pulling over. Wheels dropping onto a soft shoulder: hold straight, slow down, then steer back gently. In each case you are buying time for grip to return rather than trying to force the car back into line.",
         trap: "Braking firmly is the instinct that gets people spun, because a tyre riding on water cannot transmit braking force and locking it simply removes what little steering you had.",
+        excerptKey: "hydroplaning",
         sourceLabel: "California Driver's Handbook — Hydroplaning",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -878,6 +921,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California uses 15 mph for the three situations where you effectively cannot see what is coming: a blind intersection, an alley, and a railroad crossing within 100 feet where you cannot see 400 feet along the track. A separate 10 mph limit applies when passing a bus or streetcar stopped at a safety zone. Group the 15 mph cases together and the odd one out becomes easy to remember.",
         trap: "25 mph is the residential default and feels natural on a city street, but a blind intersection overrides it with the tighter 15 mph figure.",
+        excerptKey: "speed-blind-intersection",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
         commonlyMissed: true,
@@ -899,6 +943,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "A California right turn runs: signal at least 100 feet ahead, move close to the right edge, check the mirror and blind spot for cyclists and pedestrians, stop at the limit line if a signal or sign requires it, then turn into the lane nearest the right curb. Where a bike lane runs along the curb you may enter it within the last 200 feet before the turn, which is the correct way to close that gap rather than turning across it.",
         trap: "\"Swing left first\" copies what large trucks have to do, but a car that swings wide before turning right opens exactly the gap a cyclist rides into.",
+        excerptKey: "signal-100-feet",
         sourceLabel: "California Driver's Handbook — Turns",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -919,6 +964,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "WRONG WAY and DO NOT ENTER work as a pair at ramps and one-way streets. DO NOT ENTER sits at the entrance to warn you off before you commit; WRONG WAY sits a little further in and only becomes visible if you have already entered against the flow. Both are red and white, both are regulatory, and both demand that you stop and reverse the mistake rather than looking for a place further along to turn.",
         trap: "\"You have taken a wrong exit but may continue\" treats it as a navigation message, when it is the single most urgent stop-now sign on the road.",
+        excerptKey: "sign-wrong-way",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -939,6 +985,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California's parking distances are worth learning as a short list: at least 15 feet from a fire hydrant or a fire station driveway, and at least 20 feet from a crosswalk — 15 feet where a curb extension already pushes the crossing out. On top of the distances, you may not park on a sidewalk or crosswalk, block a driveway, double park, park on the wrong side of the street, or stop in the striped access aisle beside a disabled space.",
         trap: "20 feet is a genuine California parking figure — it is the crosswalk distance — which makes it the most convincing wrong answer to a hydrant question.",
+        excerptKey: "parking-hydrant",
         sourceLabel: "California Driver's Handbook — Parking",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -959,6 +1006,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "A pedestrian using a white cane or a guide dog has the right-of-way outright, and the practical rules follow from how they navigate. Stop back from the crosswalk so it stays clear and they are not forced around your car into the traffic lane. Do not honk, since the horn masks the engine and traffic sounds they are listening to. Take particular care reversing or moving off quietly in a hybrid or electric vehicle, where there may be almost nothing to hear.",
         trap: "Sounding the horn feels helpful and is the instinct most drivers have, but it drowns out precisely the sounds a blind pedestrian is relying on to judge the crossing.",
+        excerptKey: "pedestrian-blind",
         sourceLabel: "California Driver's Handbook — Blind pedestrians",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -999,6 +1047,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California's open container rules cover both alcohol and cannabis and apply to the driver and every passenger. Containers must be sealed, or else stored in the trunk or a cargo area out of reach; the glove compartment does not count as storage. Limited exemptions exist for passengers in buses, taxis, motorhomes and campers. A driver may be cited for a passenger's open container, so it is worth checking before you set off.",
         trap: "\"Allowed if the glove compartment is locked\" invents an exemption that does not exist — the glove compartment is specifically named as a place an open container may not be.",
+        excerptKey: "open-container",
         sourceLabel: "California Driver's Handbook — Open container laws",
         sourceUrl: `${H}/alcohol-and-drugs/`,
       },
@@ -1019,6 +1068,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The railroad numbers cluster around fifteen. Stop at least 15 feet from the nearest rail when a train is signalled. Where sight distance along the track is under 400 feet, the limit within 100 feet of the crossing drops to 15 mph. Never stop on the tracks, and never start across unless there is room to clear them completely on the far side. If your vehicle stalls on the tracks with a train coming, abandon it and run clear.",
         trap: "Stopping right at the gate arm feels precise, but gate arms sit closer to the rails than 15 feet and a train's overhang extends beyond the track itself.",
+        excerptKey: "railroad-stop-15-feet",
         sourceLabel: "California Driver's Handbook — Railroad crossings",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -1039,6 +1089,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Flashing signals split into two clear cases. Flashing red equals a stop sign: come to a complete stop, then proceed when the way is clear, using the normal first-arrival and right-hand priority rules. Flashing yellow means caution: slow, look, and continue without stopping. A signal that has gone completely dark is different again and is treated as a four-way stop by every approach.",
         trap: "\"Treat it as a yield sign\" is the near miss — a yield allows you to roll through a clear intersection, while a flashing red requires the wheels to stop first.",
+        excerptKey: "signal-flashing-red",
         sourceLabel: "California Driver's Handbook — Traffic signals",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1054,6 +1105,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Hold the highway figures together: 65 mph as the general maximum, 55 mph on two-lane undivided highways and whenever you are towing a trailer, and whatever a sign posts where one is posted — including the higher limits found on some rural stretches. Underneath every one of them, the Basic Speed Law can require a lower speed when weather, traffic or visibility make the posted number unsafe.",
         trap: "55 mph is a real California maximum, but it belongs to two-lane undivided highways and trailer towing rather than to highways in general.",
+        excerptKey: "speed-max-highways",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },
@@ -1069,6 +1121,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The weather adjustments form a ladder. Wet road: reduce by roughly 5 to 10 mph. Visibility under 100 feet from heavy rain or snow: no more than 30 mph. Packed snow: halve your speed. Ice: about 5 mph. All of these sit under the Basic Speed Law, which means driving faster than conditions allow is an offence in itself even where you are under the posted limit.",
         trap: "20 mph feels like the cautious choice and cautious answers usually score well, but the figure the handbook gives for sub-100-foot visibility is 30 mph.",
+        excerptKey: "speed-visibility-100-feet",
         sourceLabel: "California Driver's Handbook — Driving in bad weather",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -1109,6 +1162,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Mountain driving has a small set of rules of its own. The uphill vehicle has the right-of-way on a narrow road, and the downhill vehicle backs up if someone must. Headlights go on in daylight because of shade and blind curves, and the horn is a legitimate warning before a bend where you cannot see. On a long descent, use a lower gear so the brakes do not overheat, and watch for turnouts where you can let faster traffic past.",
         trap: "Picking the downhill vehicle sounds sensible because it has momentum and a clearer run, but momentum is exactly why it is the one better able to stop and reverse.",
+        excerptKey: "mountain-road-uphill",
         sourceLabel: "California Driver's Handbook — Mountain roads",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1129,6 +1183,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "A bike lane is marked by a solid white line and signs, and it is a travel lane belonging to cyclists rather than spare road. Three exceptions let a motor vehicle in: parking where parking is permitted, entering or leaving the roadway, and the final 200 feet before a right turn. Alongside that, when you pass a rider you must leave at least three feet, and where the lane is too narrow to share, a cyclist may legitimately take the whole of it.",
         trap: "\"Whenever the lane is empty of cyclists\" treats the bike lane as unused road, which is how drivers end up occupying it just as a rider arrives from behind.",
+        excerptKey: "bike-lane-200-feet",
         sourceLabel: "California Driver's Handbook — Bicycle lanes",
         sourceUrl: `${H}/navigating-the-roads/`,
         commonlyMissed: true,
@@ -1150,6 +1205,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Blue appears twice in California with unrelated meanings, which is what makes it worth a question. A blue sign points you to motorist services. A blue curb marks parking reserved for a vehicle displaying a disabled placard or plate. A blue sign at a railroad crossing carries an emergency number to call if a vehicle is stuck on the tracks. Colour alone is not enough here — you also have to notice whether you are looking at a sign, a curb or a crossing.",
         trap: "\"Distances to the next city\" belongs to the GREEN family, and the two get blurred because both usually appear overhead on the same stretch of highway.",
+        excerptKey: "sign-colour-blue-services",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1205,6 +1261,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Motorcycles need the same three-second minimum as any vehicle, and often more, because a rider can stop in a shorter distance and can change line abruptly for hazards a car simply drives over. They also disappear easily into blind spots, so shoulder-check before every lane change. In California, riders may legally travel between lanes of slower traffic, which means a motorcycle can appear beside you where no car could.",
         trap: "\"One second, since motorcycles are small\" reasons from the size of the vehicle when the relevant fact is its braking ability — a bike can stop shorter than you can.",
+        excerptKey: "motorcycle-following-distance",
         sourceLabel: "California Driver's Handbook — Motorcyclists",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -1220,6 +1277,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The four California thresholds in order: 0.01% for under-21 drivers and for anyone on DUI probation, 0.04% for commercial drivers and anyone carrying passengers for hire, and 0.08% for drivers aged 21 and over. Note that 0.04% sits between the two extremes, so questions that mention a truck, bus or ride-hire vehicle are usually pointing at that middle figure rather than at zero tolerance.",
         trap: "0.01% is tempting because it feels like commercial drivers should face the strictest rule of all, but zero tolerance is reserved for under-21 drivers and those on DUI probation.",
+        excerptKey: "bac-commercial",
         sourceLabel: "California Driver's Handbook — Alcohol and drugs",
         sourceUrl: `${H}/alcohol-and-drugs/`,
         commonlyMissed: true,
@@ -1241,6 +1299,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Three distances attach to emergency vehicles in California, and mixing them up is easy. You may not follow within 300 feet of a fire engine, police vehicle or ambulance running its lights or siren. When one approaches, pull to the right and stop until it passes. Where an emergency or road work vehicle is stopped at the roadside with lights flashing, the Move Over law asks you to change lanes if you can and to slow down if you cannot.",
         trap: "\"There is no set distance\" appeals because the rule feels like a matter of judgment, but California names a specific figure and following closer is itself an offence.",
+        excerptKey: "emergency-vehicle-300-feet",
         sourceLabel: "California Driver's Handbook — Emergency vehicles",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -1261,6 +1320,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The T-intersection is one case in California's larger yielding pattern: whoever is joining gives way to whoever is already established. First arrival decides an ordinary uncontrolled intersection, with the vehicle on the right winning a tie. Left turns yield to oncoming traffic. Vehicles leaving a driveway or alley yield to the street and to the sidewalk. And the road that ends at a T yields to the road that runs through.",
         trap: "\"Yield only to vehicles from your right\" imports the four-way tie-breaker into a T-intersection, where the through road has priority from both directions.",
+        excerptKey: "row-t-intersection",
         sourceLabel: "California Driver's Handbook — Right-of-way rules",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1281,6 +1341,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Large vehicles come with three practical hazards. Blind spots run down both sides and directly behind the trailer, and they are far bigger than a car's. Stopping distance is much longer, so cutting in front after passing steals the space the driver needs. And a truck swings away from the direction of a turn before making it, which opens a gap on the turning side that closes again as the trailer sweeps through.",
         trap: "\"Trucks must stay in the right lane\" mixes a lane-use idea into a visibility question, and even where true it would not make sitting in a blind spot any safer.",
+        excerptKey: "truck-blind-spots",
         sourceLabel: "California Driver's Handbook — Large vehicles",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -1311,6 +1372,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Speed information on California roads comes in three flavours. A white regulatory rectangle states the enforceable limit. A yellow advisory panel under a warning sign recommends a speed for a specific hazard such as a curve or ramp. And the Basic Speed Law sits under both, requiring a speed that is safe for the conditions whatever the signs say. The advisory number assumes good weather and a vehicle in good order — in rain or with a trailer, less is appropriate.",
         trap: "Treating the advisory number as the enforceable limit is understandable, but confusing yellow advisory panels with white regulatory signs also leads people to ignore them entirely.",
+        excerptKey: "sign-diamond-warning",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1331,6 +1393,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Three hill-parking cases, and the no-curb case is the one people forget. With a curb facing downhill: wheels toward the curb. With a curb facing uphill: wheels away from the curb, then roll back so a tyre rests against it. With no curb, facing either direction: wheels turned right toward the shoulder, because the only thing you can aim a runaway car at is off the road. Parking brake and park or gear apply in all three.",
         trap: "\"Whichever direction the front of the car faces\" is the trap that catches people who learned the curb rules as a pair and never learned the third case — with no curb, the answer is right regardless of which way you point.",
+        excerptKey: "hill-no-curb",
         sourceLabel: "California Driver's Handbook — Parking on a hill",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
         commonlyMissed: true,
@@ -1352,6 +1415,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The school bus rule turns on the road, not on whether you can see children. Flashing amber means the bus is preparing to stop. Flashing red with the stop arm out means traffic must stop in both directions on an ordinary undivided street. The exception applies only where the road is divided, or has two or more lanes in each direction — there, drivers on the opposite side may continue. Penalties for passing a stopped bus illegally run to a substantial fine and a possible year-long suspension.",
         trap: "\"Stop until the lights stop flashing\" is the correct answer on an ordinary street, and applying it everywhere is the safest-feeling choice — but the divided-highway exception is precisely what this question is testing.",
+        excerptKey: "school-bus-divided-highway",
         sourceLabel: "California Driver's Handbook — School buses",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
         commonlyMissed: true,
@@ -1373,6 +1437,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California's U-turn rules vary by setting. In a residential district you may turn mid-block when no vehicle is approaching within 200 feet. In a business district, turn only at an intersection or through an opening in a divided highway. On a divided highway generally, use a provided opening rather than crossing the barrier. U-turns are banned outright in front of a fire station and at railroad crossings, and any NO U-TURN sign overrides everything above.",
         trap: "100 feet is the near-miss figure because it is the signalling distance for turns; the U-turn clearance is double that.",
+        excerptKey: "uturn-residential",
         sourceLabel: "California Driver's Handbook — U-turns",
         sourceUrl: `${H}/navigating-the-roads/`,
         commonlyMissed: true,
@@ -1394,6 +1459,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Three headlight distances get tested and they are easy to confuse. Dim within 500 feet of an oncoming vehicle. Dim within 300 feet of a vehicle you are following. And use headlights at all whenever you cannot see clearly for 1,000 feet, as well as from half an hour after sunset to half an hour before sunrise, in tunnels, on mountain roads, and whenever the wipers are running.",
         trap: "300 feet is a real dimming distance, but it is the one for following another vehicle — the oncoming figure is the larger 500 feet.",
+        excerptKey: "headlights-dim-distance",
         sourceLabel: "California Driver's Handbook — Headlights",
         sourceUrl: `${H}/introduction-to-driving/`,
         commonlyMissed: true,
@@ -1415,6 +1481,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Read yellow centre lines from your own side. A broken yellow line on your side means you may pass when it is safe. A solid yellow on your side means no passing, though you may still cross it to turn left into a road or driveway. Double solid yellow acts as a barrier crossable only for a left turn or permitted U-turn. Whichever marking applies, the passing manoeuvre also has to be completed before any oncoming vehicle is close enough to matter.",
         trap: "\"Pass if you complete it before the next intersection\" invents a get-out clause; the solid line reflects the sight distance available, and an intersection ahead makes overtaking worse rather than better.",
+        excerptKey: "marking-solid-yellow-single",
         sourceLabel: "California Driver's Handbook — Pavement markings",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -1430,6 +1497,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Two of California's four thresholds sit at 0.01%: drivers under 21, and drivers of any age on DUI probation. Commercial drivers and those carrying passengers for hire are at 0.04%. Everyone else aged 21 or over is at 0.08%. A question that names a probation condition or an age under 21 is pointing at zero tolerance; a question that names a truck, bus or paying passenger is pointing at 0.04%.",
         trap: "0.08% catches people who read \"regardless of age\" as meaning the ordinary adult limit applies, when the phrase is actually signalling that probation overrides age entirely.",
+        excerptKey: "bac-dui-probation",
         sourceLabel: "California Driver's Handbook — Alcohol and drugs",
         sourceUrl: `${H}/alcohol-and-drugs/`,
       },
@@ -1450,6 +1518,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Light rail vehicles share California streets but operate under separate signals, so your green tells you nothing about theirs. They have the same rights on the road as other vehicles, and you may not pass one on the left except where the tracks run along the right side, on a one-way street, or when directed by an officer. Never stop on the tracks, and treat a light rail crossing with the same caution as a railroad crossing.",
         trap: "\"Your green light gives you priority\" is the natural reading of a green signal, and it is exactly the assumption that puts cars in front of trains at street-running crossings.",
+        excerptKey: "signal-green",
         sourceLabel: "California Driver's Handbook — Light rail vehicles",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
         commonlyMissed: true,
@@ -1466,6 +1535,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Two numbers do the work at railroad crossings: 100 feet is the zone in which the reduced limit applies, and 400 feet is the sight distance along the track that decides whether it applies at all. The reduced limit itself is 15 mph, the same as an alley or a blind intersection. Separately, when a train is signalled you stop at least 15 feet from the nearest rail.",
         trap: "10 mph is a genuine California speed rule but belongs to passing a bus or streetcar at a safety zone, not to railroad crossings.",
+        excerptKey: "speed-railroad",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -1485,6 +1555,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The five colours again, with the boundaries that matter: red is no stopping at all; yellow is loading of passengers or freight for the posted time; white is passengers or mail only, briefly; green is limited-time parking, which is the only colour where you can genuinely leave the car; blue is for a displayed disabled placard or plate. The yellow-versus-white distinction turns on freight, and the yellow-versus-green distinction turns on whether you can walk away.",
         trap: "\"Picking up and dropping off passengers only\" describes the WHITE curb and is the most common yellow-curb error, because passengers are allowed at both.",
+        excerptKey: "curb-yellow",
         sourceLabel: "California Driver's Handbook — Colored curbs",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -1505,6 +1576,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The Move Over law applies to stationary vehicles at the roadside: emergency vehicles, tow trucks and road work vehicles displaying flashing amber or emergency lights. Your obligation is to change lanes away from them where traffic permits, and to slow down where it does not. Keep it separate from two related rules — pulling right and stopping for an approaching emergency vehicle, and never following one within 300 feet while its lights or siren are on.",
         trap: "\"Reduce your speed to 15 mph but stay in your lane\" invents a specific number and drops the lane change, which is the primary thing the law asks for.",
+        excerptKey: "move-over-slow-down",
         sourceLabel: "California Driver's Handbook — Move Over law",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -1545,6 +1617,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The full colour set: red for stop, yield and prohibition; white with black text for regulations; yellow for permanent road warnings; orange for temporary work zones; green for guidance and distances; blue for motorist services; brown for recreational and cultural destinations. Colour narrows almost any sign question before you have read a word, which matters when the sign in the question is one you have never seen.",
         trap: "\"Historic routes only\" is too narrow — brown does cover historic sites, but restricting it to those misses parks, campgrounds and recreation areas.",
+        excerptKey: "sign-colour-brown-recreation",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1565,6 +1638,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "At an uncontrolled intersection the sequence is: first to arrive goes first; if arrival is simultaneous, the vehicle on the right goes; a driver turning left yields to oncoming traffic going straight; and anyone entering from a driveway, alley or private road yields to everything on the street. Nothing in the sequence depends on the size of the road, the size of the vehicle or the speed anyone is travelling.",
         trap: "\"The vehicle on the wider road\" imports an intuition from major-versus-minor road layouts, but at a genuinely uncontrolled intersection road width confers no priority.",
+        excerptKey: "row-first-arrival",
         sourceLabel: "California Driver's Handbook — Right-of-way rules",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1605,6 +1679,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Two parking distances get tested constantly and they sit close together. Twenty feet from a crosswalk, marked or unmarked, dropping to 15 feet where a curb extension has already improved sight lines. Fifteen feet from a fire hydrant or a fire station driveway. Beyond distances, you may not park on a sidewalk or crosswalk, across a driveway, alongside another parked vehicle, on the wrong side of the street, or in the striped access aisle beside a disabled space.",
         trap: "15 feet is the fire hydrant figure and the curb-extension figure, which makes it the most natural wrong answer to a plain crosswalk question.",
+        excerptKey: "parking-crosswalk",
         sourceLabel: "California Driver's Handbook — Parking",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
         commonlyMissed: true,
@@ -1646,6 +1721,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "DO NOT ENTER and WRONG WAY are a matched pair guarding one-way roads and freeway ramps. DO NOT ENTER faces you at the entrance, before you have committed. WRONG WAY appears further along and only becomes visible once you have already entered against the flow. Both are red and white regulatory signs, and both require you to stop and reverse the mistake rather than continuing to look for somewhere to turn.",
         trap: "\"Only authorised vehicles may use this ramp\" reads it as a restriction rather than a prohibition, which would leave a driver looking for an exemption that does not exist.",
+        excerptKey: "sign-wrong-way",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1686,6 +1762,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Roundabout priority runs one way: circulating traffic goes, entering traffic yields. Once inside, you keep moving counter-clockwise and do not stop for someone waiting at an entry. Choose your lane on approach by where you are heading, signal before your exit, and if you overshoot it, continue round rather than cutting across. Pedestrians on the crosswalks at each entry and exit still have priority.",
         trap: "Stopping to let someone in feels generous, but it reverses the rule the whole junction depends on and puts you at risk from the driver behind.",
+        excerptKey: "roundabout-yield",
         sourceLabel: "California Driver's Handbook — Roundabouts",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1706,6 +1783,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Turns in California finish in the nearest lane going your direction. Left turn: start from the lane nearest the centre divider or from a left-turn lane, and finish in the lane nearest the centre line of the new road. Right turn: start close to the right edge and finish in the lane nearest the right curb. Change lanes afterwards as a separate, signalled manoeuvre once you are established and have checked your mirrors and blind spot.",
         trap: "\"Either lane, whichever is clearer\" is how many people drive, and it is what causes collisions when two drivers turn left from opposite directions at the same time.",
+        excerptKey: "turn-left-complete",
         sourceLabel: "California Driver's Handbook — Turns",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -1746,6 +1824,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Shape does real work in California's sign system. The octagon means stop and nothing else. The downward triangle means yield and nothing else. Five sides means a school. The circle warns of a railroad crossing ahead. Diamonds cover the whole warning family, and rectangles cover regulations and guidance, so those two shapes tell you the category rather than the specific message.",
         trap: "The circle feels like a single-purpose shape because it has one warning meaning, but circles also appear in regulatory signs with a slash for prohibitions.",
+        excerptKey: "sign-stop",
         sourceLabel: "California Driver's Handbook — Traffic signs",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1766,6 +1845,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Across the five colours, green is the only one that permits genuine parking with the driver away from the vehicle. Red permits nothing. Yellow permits loading of passengers or freight, with the driver normally staying with the vehicle. White permits a brief passenger or mail stop. Blue permits parking but only with a disabled placard or plate. Green permits parking for whatever period is posted.",
         trap: "\"Stop only to let passengers out\" is the WHITE curb, and it gets chosen because both colours permit a short legal stop.",
+        excerptKey: "curb-green",
         sourceLabel: "California Driver's Handbook — Colored curbs",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -1786,6 +1866,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Pedestrian rules in California are built around visibility as much as priority. You yield at marked and unmarked crosswalks, you stop behind the limit line rather than in the crossing, you give extra time to older pedestrians, children and people with disabilities, and you never pass a vehicle that has stopped at a crosswalk. The last rule exists because the stopped vehicle hides exactly the person you would hit.",
         trap: "\"Pass carefully at reduced speed\" sounds like a reasonable compromise, but reduced speed does not help when the pedestrian only becomes visible as you reach them.",
+        excerptKey: "crosswalk-no-passing",
         sourceLabel: "California Driver's Handbook — Pedestrians",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1821,6 +1902,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The Basic Speed Law is the rule that makes every other speed rule conditional. It takes account of weather, visibility, traffic volume, road surface and the presence of people on foot or on bicycles. In fog specifically, use low beams rather than high beams, since high beams reflect off the fog and reduce what you can see, and if visibility drops under 100 feet the practical ceiling is 30 mph regardless of the sign.",
         trap: "\"Legal, since it matches the posted limit\" treats the sign as authorisation, which is the exact misunderstanding the Basic Speed Law exists to correct.",
+        excerptKey: "basic-speed-law",
         sourceLabel: "California Driver's Handbook — Basic Speed Law",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },
@@ -1861,6 +1943,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Malfunctioning and flashing signals each have a defined meaning so drivers do not have to improvise. A completely dark signal is treated as a four-way stop. A flashing red is treated as a stop sign for that approach. A flashing yellow means slow down and proceed with caution. Once stopped, the ordinary priority rules take over: first to arrive goes first, and the vehicle on the right wins a tie.",
         trap: "\"An uncontrolled intersection where nobody has priority\" is the reasonable-sounding inference from a dead signal, but it would have drivers rolling through without stopping at all.",
+        excerptKey: "signal-not-working",
         sourceLabel: "California Driver's Handbook — Traffic signals",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1901,6 +1984,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "An HOV or carpool lane is marked with a white diamond on the pavement and signs stating who may use it and when. Eligibility usually means a minimum number of occupants, but motorcycles and clean-air vehicles with a valid decal also qualify. Where the lane is bounded by double solid white lines, enter and leave only at the designated broken-line openings — that restriction applies whether or not you are eligible to be in the lane.",
         trap: "\"Only vehicles with two or more occupants\" applies the peak-hour rule around the clock and ignores the posted hours the question specifically mentions.",
+        excerptKey: "hov-lane-diamond",
         sourceLabel: "California Driver's Handbook — HOV lanes",
         sourceUrl: `${H}/navigating-the-roads/`,
       },
@@ -1921,6 +2005,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "A right turn on red requires three things: no sign prohibiting it, a complete stop at the limit line, and yielding to pedestrians and cross traffic. The permission is conditional throughout — if any condition fails, the red light simply means stop and wait. The same structure applies to a left turn from one one-way street onto another, and a red arrow removes the permission entirely.",
         trap: "\"Proceed if they are still on the far half\" applies a rule that exists in some jurisdictions but not as a licence to squeeze past — California asks you to let them finish.",
+        excerptKey: "turn-right-on-red",
         sourceLabel: "California Driver's Handbook — Pedestrians",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -1941,6 +2026,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California's list of places you may not park is long and worth knowing as a group: on a sidewalk or crosswalk, within 20 feet of a crosswalk or 15 feet of a fire hydrant or fire station driveway, blocking a driveway, double parked beside another vehicle, on the wrong side of the street, in a bike lane where parking is not permitted, and in the striped access aisle next to a disabled space. Hazard lights do not create an exemption to any of them.",
         trap: "\"Alongside another parked car, with hazard lights on\" is everyday behaviour in Californian cities, and the hazard lights make it feel sanctioned when double parking remains illegal.",
+        excerptKey: "parking-sidewalk-driveway",
         sourceLabel: "California Driver's Handbook — Parking",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -1981,6 +2067,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Arrows and solid signals are not interchangeable. A green arrow is a protected movement — conflicting traffic is being held. A red arrow forbids the movement outright, with no turn-on-red permission attached. A solid red allows a right turn after stopping, and a left from one one-way street onto another, unless a sign prohibits it. A yellow arrow warns that the protected phase is ending.",
         trap: "\"You may make the turn after yielding\" imports the solid-red permission into a red arrow, and it is the single most common error with arrow signals.",
+        excerptKey: "signal-red-arrow",
         sourceLabel: "California Driver's Handbook — Traffic signals",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -2001,6 +2088,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Cyclists have the same right to the roadway as drivers, with a few specific rules layered on. They may take a full lane where it is too narrow to share, when preparing to turn left, or to avoid hazards such as drain grates and opening doors. For your part: leave at least three feet when passing, change lanes to pass whenever possible, wait rather than squeeze when three feet is not available, and stay out of the bike lane except to park, to enter or leave the road, or within 200 feet of a right turn.",
         trap: "\"Cyclists must always stay as far right as possible\" is a half-remembered version of a real rule that comes with several exceptions, and this narrow-lane case is one of them.",
+        excerptKey: "bicycle-3-feet",
         sourceLabel: "California Driver's Handbook — Bicyclists",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -2021,6 +2109,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "California allows two turns on a red light, both under the same conditions. A right turn on red from any street, and a left turn on red from a one-way street onto another one-way street where traffic flows in the direction you are turning. Both require a full stop at the limit line, yielding to pedestrians and cross traffic, and the absence of a NO TURN ON RED sign. Neither is available against a red arrow.",
         trap: "\"Never permitted on a red light\" is the cautious answer and the one most drivers assume, because the one-way-to-one-way left is far less well known than the right on red.",
+        excerptKey: "turn-left-on-red-one-way",
         sourceLabel: "California Driver's Handbook — Traffic signals",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },
@@ -2041,6 +2130,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "There are two versions of the stalled-on-the-tracks situation. If a train is coming, abandon the vehicle immediately and move away from the tracks at an angle toward the approaching train, then call 911 from a safe distance. If no train is coming, get out, find the blue emergency sign at the crossing, call the number on it and quote the crossing identifier, then call 911. Never attempt to restart or push the vehicle while a train is approaching.",
         trap: "Running away from the train alongside the tracks feels like the obvious escape direction, and it puts you exactly where the wreckage is thrown when the train strikes the car.",
+        excerptKey: "railroad-stalled-train-coming",
         sourceLabel: "California Driver's Handbook — Railroad emergencies",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },
@@ -2061,6 +2151,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Two different numbers describe two different habits, and mixing them up is common. Following distance is three seconds — the gap between you and the car ahead. Scanning distance is about ten seconds — how far up the road your eyes are working. Add mirror checks every few seconds and a shoulder check before each lane change, and you have the full visual routine the handbook describes.",
         trap: "Two seconds is the answer for a following-distance question, and it gets pulled into scanning questions because both are measured in seconds.",
+        excerptKey: "scan-10-seconds",
         sourceLabel: "California Driver's Handbook — Scanning",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -2081,6 +2172,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "A stop sign asks for a stop at the limit line, but the legal stop and the useful stop are often in different places. Where a parked vehicle, hedge or building blocks your view, stop at the line as required and then edge forward until you have a genuine view of the cross street before committing. A blind intersection also carries its own 15 mph limit for traffic approaching it on the cross street.",
         trap: "\"Pull out slowly and rely on cross traffic seeing you\" transfers the responsibility to drivers who have the right-of-way and may not see you until your bumper is in their lane.",
+        excerptKey: "speed-blind-intersection",
         sourceLabel: "California Driver's Handbook — Right-of-way rules",
         sourceUrl: `${H}/laws-and-rules-of-the-road/`,
       },

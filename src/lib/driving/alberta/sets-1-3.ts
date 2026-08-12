@@ -51,6 +51,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta assigns one meaning to each regulatory shape so you can identify a sign from behind, in the dark, or under snow. The octagon is stop and nothing else; the downward triangle is yield; the diamond warns; the pentagon marks schools. After stopping you have a second job, which is deciding when it is safe to go - the stop itself never gives you the right-of-way.",
         trap:
           "\"Slow down and continue if the way looks clear\" describes a yield sign, not a stop sign - an empty road does not turn a stop into a yield.",
+        excerptKey: "stop-sign-complete-stop",
         sourceLabel: "Alberta Driver's Guide - Traffic regulatory signs",
         sourceUrl: GUIDE,
       },
@@ -67,6 +68,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta has four defaults worth carrying in your head: 50 inside an urban area, 80 on a rural road that is not a provincial highway, 80 on a provincial highway inside city limits, and 100 on a provincial highway outside an urban area. Any posted sign beats all of them, and municipalities can set their own numbers by bylaw. The absence of a sign is information, not a licence to guess.",
         trap:
           "40 km/h feels right because several Alberta cities have adopted it on residential streets - but that only applies where it is actually posted, not as a province-wide default.",
+        excerptKey: "speed-urban-50",
         sourceLabel: "Alberta Driver's Guide - Speed limit signs",
         sourceUrl: GUIDE,
       },
@@ -88,6 +90,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "An all-way stop is decided in two steps: arrival order first, and only if that ties does position break it, with the vehicle on the right going ahead. Every driver still has to stop completely first, so this is about who releases the brake, not who stops. And the rule is a convention rather than a shield - if the other driver moves out of turn, you let them, because avoiding the collision outranks being right.",
         trap:
           "\"Whoever is going straight\" borrows a rule from uncontrolled left turns - direction of travel has no bearing on priority at an all-way stop.",
+        excerptKey: "four-way-stop-courtesy",
         sourceLabel: "Alberta Driver's Guide - Intersections controlled by signs",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -110,6 +113,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta gives you a fallback chain for where to stop: the painted stop line if there is one, otherwise the marked crosswalk, otherwise the edge of the intersection itself. At an unmarked rural stop sign the rule switches to a distance - within three metres of the road you are joining. Once stopped, you may still edge forward carefully if a snowbank or parked car is blocking your view.",
         trap:
           "\"Level with the traffic light\" is how a lot of people actually drive, because they want to keep the signal in sight - but it puts the car well inside the crosswalk and is a stop-line violation.",
+        excerptKey: "red-light-stop",
         sourceLabel: "Alberta Driver's Guide - Traffic control signals",
         sourceUrl: GUIDE,
       },
@@ -131,6 +135,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Colour tells you the category before you read a word: yellow warns, orange means roadwork, white rectangles carry regulations, green gives destinations and distances, blue points to services. A warning sign never sets a limit on its own, but any speed number attached beneath one is advisory - the recommended speed for that curve or crossing in good conditions.",
         trap:
           "Calling it \"a law you can be ticketed for breaking\" confuses the warning family with the regulatory family - a curve warning tells you what is coming, it does not set the limit.",
+        excerptKey: "sign-warning-yellow-diamond",
         sourceLabel: "Alberta Driver's Guide - Sign shapes and colours",
         sourceUrl: GUIDE,
       },
@@ -152,6 +157,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Two seconds is a floor for ideal conditions, not a target. Rain, snow, gravel, night, fatigue or a heavy load all mean you add to it. Large vehicles such as motor homes are asked for a minimum of four seconds because they need much longer to shed speed. Following too closely is also a ticketable offence in Alberta and carries four demerit points.",
         trap:
           "The car-length rule sounds precise but fails in practice - nobody can judge lengths at speed, and it is why Alberta expresses the gap in seconds instead.",
+        excerptKey: "following-distance-two-seconds",
         sourceLabel: "Alberta Driver's Guide - Maintain your following time and distance",
         sourceUrl: GUIDE,
       },
@@ -173,6 +179,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Zero tolerance covers the entire graduated program: Class 7 learner and Class 5-GDL probationary alike, and it applies to drugs as well as alcohol. The penalty lands at the roadside rather than in court - an immediate 30-day licence suspension, a week-long vehicle seizure and a fine. The condition only lifts when you exit the program to a full Class 5, at which point the ordinary adult limits apply.",
         trap:
           "\"Below 50 mg\" quotes a real Alberta number, but 50 is the warn threshold for fully licensed drivers - novices have no allowance at all.",
+        excerptKey: "gdl-zero-alcohol",
         sourceLabel: "Alberta Driver's Guide - Graduated driver licensing",
         sourceUrl: CLASS7,
       },
@@ -194,6 +201,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta uses a matched pair of square white plates: a green circle means the action inside is permitted, a red circle with a bar means it is prohibited. Some carry an arrow underneath showing which direction the restriction applies in, and parking and stopping signs often add days and hours. Get into the habit of reading symbol, then ring, then any small print about time or direction.",
         trap:
           "\"Allowed at certain hours\" is true of some parking signs, but only when times are actually printed on the plate - a bare red-and-bar sign is an unconditional ban.",
+        excerptKey: "sign-prohibitive-red-circle",
         sourceLabel: "Alberta Driver's Guide - Prohibitive signs",
         sourceUrl: GUIDE,
       },
@@ -215,6 +223,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Age 16 is the line: below it the driver is accountable, at or above it the passenger is. Younger children have their own tier of rules - a child under six who weighs 18 kilograms or less must be in a proper child safety seat, and heavier children move to a booster before using the belt alone. On top of all that, a GDL driver may carry no more people than the vehicle has seat belts.",
         trap:
           "Blaming the passengers feels fair, but the law only shifts responsibility onto them once they turn 16 - below that, the ticket is yours.",
+        excerptKey: "seat-belt-driver-responsible",
         sourceLabel: "Alberta Driver's Guide - Securing passengers",
         sourceUrl: GUIDE,
       },
@@ -236,6 +245,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The single thing that decides this is whether a physical median separates the directions. On any undivided road - two lanes or four - everyone stops for flashing reds. Where a median exists, only traffic behind the bus stops and oncoming traffic may proceed carefully. Amber lights are the warning phase before the reds, and failing to stop for a school bus is a six-demerit offence with a heavy fine.",
         trap:
           "\"Only vehicles behind the bus\" is the correct answer for a divided highway - people memorise that version and apply it on an undivided road, where oncoming traffic must stop too.",
+        excerptKey: "school-bus-red-lights-20-metres",
         sourceLabel: "Alberta Driver's Guide - School buses",
         sourceUrl: GUIDE,
       },
@@ -257,6 +267,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Yield and stop are different obligations. Stop always requires the wheels to stop turning; yield requires you to give way, which may or may not involve stopping. Approach a yield slowly enough that you could stop, and if there is genuinely no traffic and nobody crossing, you may roll through. A yield sign at a merge or a roundabout entry works the same way.",
         trap:
           "The diamond is the shape most often mistaken for yield, because both are pointed - but a diamond warns you about something ahead and never assigns right-of-way.",
+        excerptKey: "yield-sign-meaning",
         sourceLabel: "Alberta Driver's Guide - Traffic regulatory signs",
         sourceUrl: GUIDE,
       },
@@ -273,6 +284,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "School zones and playground zones share the same 30 km/h default but not the same hours. School zones apply on school days in three blocks - morning arrival, the middle of the day, and afternoon dismissal - while playground zones run every day from mid-morning until after sunset. Municipalities may set different times, in which case they are printed beneath the sign. A zone ends where a sign shows a higher limit or the end of the zone.",
         trap:
           "40 km/h is the guess of drivers who assume a school zone is simply ten under the usual city 50 - the reduction is much steeper than that.",
+        excerptKey: "school-zone-speed-30",
         sourceLabel: "Alberta Driver's Guide - School zones and areas",
         sourceUrl: ZONES,
       },
@@ -294,6 +306,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Where there is no sign, no signal and no marking, the yield-to-the-right rule fills the gap. It applies at four-way crossings, at uncontrolled T-intersections, and inside parking lots, which are full of uncontrolled intersections. Because sightlines at these junctions are often blocked by hedges or parked cars, Alberta also expects you to reduce speed enough to stop easily - and to allow more room when the road is slippery.",
         trap:
           "\"I was going straight\" is the most common wrong instinct here - direction of travel decides nothing at an uncontrolled intersection, only position does.",
+        excerptKey: "uncontrolled-intersection-yield-right",
         sourceLabel: "Alberta Driver's Guide - Uncontrolled intersections",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -316,6 +329,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta allows two turns on a red light. Right on red is the everyday one, and left on red is permitted from a one-way street onto another one-way street. Both need the same three things: a complete stop at the proper point, no sign prohibiting the turn, and yielding to everyone already in the intersection or crosswalk. Turning right on red also works at a dual right-turn intersection.",
         trap:
           "\"Turn without stopping if the cross street is clear\" is how most rolling right-on-red tickets are earned - the stop is required whether or not anything is coming.",
+        excerptKey: "right-turn-on-red",
         sourceLabel: "Alberta Driver's Guide - Traffic control signals",
         sourceUrl: GUIDE,
       },
@@ -337,6 +351,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta pairs the 150-metre rule with a couple of related distances: use low beams when you are following within about 150 metres of another vehicle, and when you are within about 300 metres of oncoming traffic. Low beams are also the right choice in fog, smoke and heavy rain, since high beams bounce the light straight back at you. And never outdrive your headlights - travel at a speed that lets you stop inside the lit distance.",
         trap:
           "\"Only between sunset and sunrise\" leaves you unlit in daytime fog or a snow squall, which is exactly when being seen from behind matters most.",
+        excerptKey: "headlights-150-metres",
         sourceLabel: "Alberta Driver's Guide - Challenging conditions",
         sourceUrl: GUIDE,
       },
@@ -358,6 +373,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The pentagon shape and the fluorescent colour are reserved for schools. What varies is the attachment: with a speed sign beneath it you are entering a school zone and the reduced limit binds during posted hours, while without one you are entering a school area, which is a caution alert with no speed restriction. Playground signs follow the identical pattern - it is always the attached speed plate that creates the limit.",
         trap:
           "A hospital is signed with a blue services plate, not a pentagon - the shape is exclusive to schools in Alberta.",
+        excerptKey: "sign-school-pentagon",
         sourceLabel: "Alberta Driver's Guide - Sign shapes and colours",
         sourceUrl: ZONES,
       },
@@ -379,6 +395,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The learner stage comes with a bundle of conditions that all apply at once: a qualified supervisor in the front passenger seat, no driving between midnight and 5 am, no more passengers than seat belts, zero alcohol and drugs, and suspension at eight demerit points. You must hold the learner's licence for at least a year before the Class 5 road test, and having an unqualified supervisor is itself a two-demerit offence.",
         trap:
           "A Class 5-GDL holder is a licensed adult driver, which makes them feel like a valid supervisor - but probationary drivers are specifically barred from the role.",
+        excerptKey: "gdl-supervising-driver",
         sourceLabel: "Alberta Driver's Guide - Graduated driver licensing",
         sourceUrl: CLASS7,
       },
@@ -400,6 +417,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta requires a signal in three situations: moving away from a curb or parking lane, turning left or right, and changing lanes. Timing matters as much as the signal itself - too early and drivers think you mean the entrance before yours, too late and it announces something you are already doing. Leaving a stale signal flashing is its own hazard, because other drivers plan around it.",
         trap:
           "Slowing feels like something you should announce, and it is - but your brake lights already do that job automatically, which is why no hand or indicator signal is required.",
+        excerptKey: "signal-required",
         sourceLabel: "Alberta Driver's Guide - Signalling",
         sourceUrl: GUIDE,
       },
@@ -421,6 +439,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta treats a solid yellow as a requirement to stop at the usual point, released only when you have passed the point where stopping could be done safely. If you are already inside the intersection when it changes, your job is to clear it. Watching for a stale green - one that has been green a while - gives you warning, and the pedestrian countdown across the road is a useful tell.",
         trap:
           "\"Speed up to clear it\" is the near-universal habit and the exact opposite of the rule - it is also how drivers end up entering on red.",
+        excerptKey: "yellow-light",
         sourceLabel: "Alberta Driver's Guide - Traffic control signals",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -443,6 +462,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A yield sign hands priority to everyone who is not facing it - traffic on the other road plus anyone waiting to cross or already in the crosswalk. It obliges you to arrive slowly enough to stop, and to stop if the situation calls for it, but it never demands a stop as a formality. The same logic governs a roundabout entry, where you give way to circulating traffic and only stop if there is no gap.",
         trap:
           "Treating yield as a stop sign is a safe habit but a wrong answer - and stopping unnecessarily at a busy yield can cause a rear-end collision.",
+        excerptKey: "yield-sign-no-stop-required",
         sourceLabel: "Alberta Driver's Guide - Yield signs",
         sourceUrl: GUIDE,
       },
@@ -464,6 +484,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Five metres is Alberta's workhorse parking clearance: hydrants, stop and yield signs, marked crosswalks, and the edge of an intersecting roadway. A shorter one and a half metres applies to a driveway or garage access. On top of the distances, parking is banned outright on sidewalks, in crosswalks, inside intersections, and on bridges or their approaches.",
         trap:
           "Three metres is the number for stopping at an unmarked stop sign, not for parking clearances - the two distances get swapped constantly.",
+        excerptKey: "parking-fire-hydrant",
         sourceLabel: "Alberta Driver's Guide - Do not park here",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -486,6 +507,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta groups skids by cause - braking too hard, accelerating too hard, or cornering too fast - but the recovery is the same for all of them: get off the pedals, look where you want to go, and steer the front of the car there with small movements. Most skids come from driver input rather than the road itself, so smooth steering and early braking prevent far more than any recovery technique cures.",
         trap:
           "Braking is the reflex almost everyone has, and it is precisely what turns a small slide into a full loss of control on ice.",
+        excerptKey: "skid-recovery",
         sourceLabel: "Alberta Driver's Guide - Loss of control and skid recovery",
         sourceUrl: GUIDE,
       },
@@ -502,6 +524,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The playground default runs daily from 8:30 am until one hour after sunset, so the end time shifts with the season and is much later in June than in October. Municipalities can post their own hours beneath the sign. Passing another vehicle going the same way is prohibited while the restriction is active, and the zone ends only where a sign shows a higher limit or marks the end of the zone.",
         trap:
           "50 km/h is what you were doing before the sign and what you will do after it - drivers who assume the playground sign is only an advisory keep that speed and get ticketed.",
+        excerptKey: "playground-zone-speed-30",
         sourceLabel: "Alberta Driver's Guide - Playground zones and areas",
         sourceUrl: ZONES,
         commonlyMissed: true,
@@ -524,6 +547,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A posted speed limit is the maximum for ideal conditions, not a target you are entitled to reach. Driving at the posted number on ice, in fog or in heavy traffic can still be an offence, because any speed unsafe for the conditions is illegal in Alberta. Advisory numbers on yellow warning signs work the other way - they are recommendations for that curve or crossing, not enforceable limits.",
         trap:
           "Confusing it with a guide sign is easy because both are rectangles - the difference is the background colour, white for law and green for information.",
+        excerptKey: "sign-regulatory-white",
         sourceLabel: "Alberta Driver's Guide - Speed limit signs",
         sourceUrl: GUIDE,
       },
@@ -545,6 +569,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta's markings work on two axes at once. Colour tells you direction: yellow means opposing traffic, white means same direction. Pattern tells you permission: broken means you may cross to pass or change lanes, solid means you may not. Put them together and a broken white line is a routine lane change. Single solid yellow carries one Alberta-specific twist: outside an urban area it is a no-passing line, but within an urban area you may cross it to overtake when it is safe. Double solid yellow forbids passing anywhere.",
         trap:
           "Reserved lanes are marked with white lines and diamond symbols, not yellow - the colour never signals a bus or taxi lane.",
+        excerptKey: "yellow-line-markings",
         sourceLabel: "Alberta Driver's Guide - Pavement markings",
         sourceUrl: GUIDE,
       },
@@ -566,6 +591,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta treats fatigue as a fitness-to-drive issue alongside alcohol, drugs and medication. It builds from lack of sleep, long monotonous stretches, illness, stress and eye strain, and it is intensified by overeating or a warm cabin. The warning signs are drifting within the lane and losing track of the last few kilometres. Prevention beats recovery: start rested, keep the cabin cool and ventilated, keep your eyes moving, and stop early when it creeps in.",
         trap:
           "Cold air and loud music feel like they work, which is the problem - they buy a few alert minutes and hide how impaired you already are.",
+        excerptKey: "fatigue-effects",
         sourceLabel: "Alberta Driver's Guide - Driver fitness and fatigue",
         sourceUrl: GUIDE,
       },
@@ -587,6 +613,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A cyclist riding on the road has the rights and duties of any other driver, including the use of a proper turning lane. They are expected to keep as near the right curb as is practical, but drainage grates, gravel, ruts and debris all justify moving out. Bicycles have no brake lights, so leave extra following distance, shoulder check for them before turning right, and check for riders before opening your door at the curb.",
         trap:
           "Squeezing past inside the lane feels courteous because you are not delaying anyone - it is the manoeuvre that puts riders into the curb when they have to swerve.",
+        excerptKey: "cyclist-change-lanes-to-pass",
         sourceLabel: "Alberta Driver's Guide - Sharing the road with cyclists",
         sourceUrl: GUIDE,
       },
@@ -608,6 +635,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "You must yield to any emergency vehicle sounding a siren, no matter which direction it is coming from. On a two-way road you pull to the right curb and stop; on a one-way you move to whichever curb is nearest. Flashing green lights count too - volunteer firefighters use them in some municipalities. This is separate from the slow-down rule, which applies to emergency vehicles already stopped with lights flashing.",
         trap:
           "Stopping where you are seems obedient, but a car halted in the middle of a travel lane is a roadblock, not a yield.",
+        excerptKey: "emergency-vehicle-two-way",
         sourceLabel: "Alberta Driver's Guide - Emergency vehicles",
         sourceUrl: GUIDE,
       },
@@ -629,6 +657,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta expects all reversing to be done at a crawl, with your path checked before you start moving. Coming out of a driveway, steer into the nearest traffic lane and then drive forward - do not back across into a second lane. Reversing into an intersection or a crosswalk is illegal outright, and if you miss a turn or an exit, you carry on to the next one rather than backing up.",
         trap:
           "Trusting mirrors and a reversing camera is the modern version of this mistake - both leave a low blind area right behind the bumper that only a walk-around covers.",
+        excerptKey: "reversing-out-of-driveway",
         sourceLabel: "Alberta Driver's Guide - Reversing",
         sourceUrl: GUIDE,
       },
@@ -650,6 +679,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Permission from the paint is only half of a lane change; the other half is the procedure. Check your mirrors, shoulder check the blind spot for cars and cyclists, signal, then move across while holding your speed, and cancel the signal afterwards. Broken white lines commonly turn solid near intersections and ramps, which is the road telling you that a change there would be risky.",
         trap:
           "\"Only to overtake\" imports a rule that does not exist here - a broken white line permits any safe lane change, not just passing.",
+        excerptKey: "broken-white-line",
         sourceLabel: "Alberta Driver's Guide - Pavement markings",
         sourceUrl: GUIDE,
       },
@@ -682,6 +712,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta has three flashing signals and they mean different things. Flashing red is a stop sign. Flashing yellow lets you proceed with caution after yielding to anyone already in the intersection. Flashing green is an advance green, where opposing traffic is held on red and you may go straight or turn without waiting for a gap. Mixing up the yellow and green versions is the classic error.",
         trap:
           "Treating it as a yield lets you roll through, which is exactly the behaviour a flashing red is designed to prevent at a poorly sighted intersection.",
+        excerptKey: "flashing-red-light",
         sourceLabel: "Alberta Driver's Guide - Traffic control signals",
         sourceUrl: GUIDE,
       },
@@ -703,6 +734,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Permissive and prohibitive signs are a matched pair on identical white squares, and only the ring colour separates them. Alberta uses the same convention for a long list of symbols - turns, U-turns, trucks, bicycles, snow vehicles, dangerous goods, parking. Read the symbol to learn what the sign is about, then read the ring to learn whether the answer is yes or no.",
         trap:
           "\"Permitted only for buses\" reads a restriction into a permission - reserved-lane signs use their own symbols and diamond markings, not a green ring.",
+        excerptKey: "sign-permissive-green-circle",
         sourceLabel: "Alberta Driver's Guide - Permissive signs",
         sourceUrl: GUIDE,
       },
@@ -719,6 +751,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A provincial highway is identified by a numbered route marker; a road without one is generally a local road and carries the lower 80 default. Some divided Alberta highways are posted at 110, but that is a posted limit on specific stretches, not a default you may assume. And no default entitles you to that speed in bad weather - any speed unsafe for the conditions is illegal regardless of the sign.",
         trap:
           "110 is real on parts of Highway 2, so drivers generalise it - but 110 only applies where it is actually signed, never as an unposted default.",
+        excerptKey: "speed-highway-100",
         sourceLabel: "Alberta Driver's Guide - Speed limit signs",
         sourceUrl: GUIDE,
       },
@@ -740,6 +773,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta roundabouts and traffic circles run counterclockwise, and the rule at every entry is the same: yield to whoever is already circulating. Once inside, signal right after you pass the exit before the one you want, and never change lanes within the circle. If you miss your exit, go round again rather than cutting across. Pedestrian crossings sit back from the circle itself, so scan them on the way in and on the way out.",
         trap:
           "\"Yield to the right\" is a genuine Alberta rule for uncontrolled intersections, and applying it here points you at the wrong traffic entirely.",
+        excerptKey: "roundabout-yield-on-entry",
         sourceLabel: "Alberta Driver's Guide - Traffic circles and roundabouts",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -762,6 +796,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Perception and reaction time are fairly fixed for an alert driver, but braking distance climbs steeply with speed, so doubling your speed far more than doubles the total. Fatigue, alcohol, drugs and inexperience stretch the first two stages, while worn tyres, poor brakes and a slippery surface stretch the third. Understanding where the metres go is what makes the two-second following rule feel reasonable rather than arbitrary.",
         trap:
           "Options built around \"signalling\" or \"coasting\" sound plausible but describe things you choose to do - the three real components are all things that happen whether you like it or not.",
+        excerptKey: "stopping-distance-three-factors",
         sourceLabel: "Alberta Driver's Guide - Stopping time and distance",
         sourceUrl: GUIDE,
       },
@@ -783,6 +818,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Orange signs cover people working, flag persons, survey crews, uneven pavement, detours and where the zone ends. A posted construction limit applies whenever it is signed, workers present or not, because loose gravel, bumps and shifted lanes remain after the crew has gone home. When workers are present, speeding fines are doubled - and a flag person's directions override the signs.",
         trap:
           "School zones use a fluorescent yellow-green pentagon, not an orange diamond - the two bright non-standard colours get mixed up often.",
+        excerptKey: "sign-construction-orange",
         sourceLabel: "Alberta Driver's Guide - Construction zones",
         sourceUrl: GUIDE,
       },
@@ -804,6 +840,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta bans U-turns wherever a sign prohibits them and at any signal-controlled intersection unless a device permits it. In urban areas the ban extends to mid-block, alley intersections, and intersections where one leg is a parking lot entrance. Outside urban areas the restrictions are about sightlines - no U-turns on a curve or near a hilltop where an approaching driver within about 150 metres could not see you.",
         trap:
           "\"On a green after yielding\" mirrors how a left turn works, which makes it feel legal - but the green light does not create a U-turn permission it never had.",
+        excerptKey: "u-turn-traffic-signal",
         sourceLabel: "Alberta Driver's Guide - U-turns",
         sourceUrl: GUIDE,
       },
@@ -825,6 +862,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta's Immediate Roadside Sanctions program has several streams. The novice stream applies zero tolerance to any learner or probationary driver and delivers its penalties at the roadside. Fully licensed drivers fall into the warn tier at 50 milligrams of alcohol per 100 millilitres of blood and the fail tier at 80, with suspensions, seizures, fines and mandatory courses escalating on repeat occurrences.",
         trap:
           "The three-day suspension is a genuine Alberta penalty - but it belongs to a fully licensed driver's first warn-range reading, not to a novice, whose first offence is thirty days.",
+        excerptKey: "irs-zero-novice",
         sourceLabel: "Alberta Driver's Guide - IRS ZERO: Novice",
         sourceUrl: CLASS5,
       },
@@ -846,6 +884,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta's parking clearances cluster around five metres: stop and yield signs, fire hydrants, marked crosswalks, and the edge of an intersecting roadway unless a meter shows parking is allowed. Driveway and garage accesses need a metre and a half. Beyond distances, you may not park on a sidewalk, in a crosswalk, within an intersection, on a bridge or its approaches, or in a disabled stall without a placard.",
         trap:
           "\"As long as the sign stays visible\" sounds sensible but is unenforceable - the rule is a fixed distance precisely so it does not depend on judgement.",
+        excerptKey: "parking-stop-yield-sign",
         sourceLabel: "Alberta Driver's Guide - Do not park here",
         sourceUrl: GUIDE,
       },
@@ -867,6 +906,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta's information family splits by colour: blue squares point to services such as fuel, food, lodging, hospitals and police, while green plates carry route markers, directions and distances, and some off-road facility signs. None of them are enforceable - they exist to let you plan ahead so you are in the right lane well before an exit rather than making a last-second decision.",
         trap:
           "Distance-to-the-next-city plates are green, not blue - both are calm background colours and get swapped easily under speed.",
+        excerptKey: "sign-service-blue",
         sourceLabel: "Alberta Driver's Guide - Information and guide signs",
         sourceUrl: GUIDE,
       },
@@ -888,6 +928,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The same requirement covers exits from service roads, alleys, parking lots and private driveways: stop before the sidewalk, stop before entering the main street, and yield to people on foot throughout. Parking lots themselves are full of uncontrolled intersections where the yield-to-the-right rule applies. Nothing about leaving a lot gives you priority over traffic already on the road.",
         trap:
           "\"Yield to vehicles from your left only\" ignores half the danger - traffic can come from either direction and the sidewalk crossing is its own separate obligation.",
+        excerptKey: "exiting-driveway-parking-lot",
         sourceLabel: "Alberta Driver's Guide - Right-of-way",
         sourceUrl: GUIDE,
       },
@@ -909,6 +950,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Read every line twice: once for colour and once for pattern. White means same direction, yellow means opposing traffic; broken means crossing is allowed, solid means it is not. So solid white forbids a lane change and broken white permits one. Single solid yellow is the Alberta exception worth memorising: it bars passing outside an urban area, but inside an urban area you may cross it to overtake safely. Painted islands are a separate marking - not for travel at all, though you may cross one to reach a driveway.",
         trap:
           "\"Oncoming traffic\" mixes up the colour rule - that would be a yellow line; white always means the traffic beside you is going your way.",
+        excerptKey: "solid-white-line",
         sourceLabel: "Alberta Driver's Guide - Pavement markings",
         sourceUrl: GUIDE,
       },
@@ -930,6 +972,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta's slow-down-and-move-over rule protects anyone working at the roadside with lights flashing: police, ambulance, fire, tow operators, snowplows and maintenance vehicles. Slow to 60 or the posted limit, whichever is lower, and move over a lane when it is safe. This is a different rule from yielding to a moving emergency vehicle, which requires you to pull right and stop. Breaching it costs a fine plus three demerits.",
         trap:
           "\"The posted limit is fine if you change lanes\" is wrong on both counts - moving over does not replace slowing down, and the rule is a speed requirement first.",
+        excerptKey: "move-over-60",
         sourceLabel: "Alberta.ca - Roadside worker safety",
         sourceUrl: ROADSIDE,
         commonlyMissed: true,
@@ -952,6 +995,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Poor conditions call for three adjustments together: more following distance, less speed, and a bigger space cushion on all sides. Rain also brings the risk of hydroplaning, and cruise control should be switched off in bad weather because it will keep feeding power when the tyres lose grip. Low beams are the right choice in rain, fog and smoke - high beams reflect back and make things worse.",
         trap:
           "\"The rule works at any speed\" is a true statement about how two seconds is measured, which makes it tempting - but it says nothing about conditions, and conditions are what changed.",
+        excerptKey: "following-distance-two-seconds",
         sourceLabel: "Alberta Driver's Guide - Challenging conditions",
         sourceUrl: GUIDE,
       },
@@ -973,6 +1017,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Chevrons belong to the warning family, which also covers curves, winding road stretches, hills, bumps, narrowing lanes and slippery surfaces. Where a curve carries an advisory speed on a small plate, that number is the recommended speed in ideal conditions - not a legal limit, but a good indication of how tight the bend really is. Braking should be finished before you turn in, not during the curve.",
         trap:
           "Turning-lane signs also use arrows, which is why this one gets misread - the difference is that chevrons are mounted at the roadside pointing across your path, not overhead above a lane.",
+        excerptKey: "sign-chevron",
         sourceLabel: "Alberta Driver's Guide - Warning signs",
         sourceUrl: GUIDE,
       },
@@ -994,6 +1039,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Green arrows come in two combinations. With a red light, the arrow is the only movement permitted and you may take it without stopping. With a solid green, the arrow gives you a protected turn in the direction shown while the green still allows other movements when it is safe and legal. In both cases the arrow means the conflicting traffic is being held for you.",
         trap:
           "\"Proceed in any direction\" reads the arrow as though it were a full green - the arrow protects one movement, and the red still governs everything else.",
+        excerptKey: "green-arrow-red-light",
         sourceLabel: "Alberta Driver's Guide - Traffic control signals",
         sourceUrl: GUIDE,
       },
@@ -1015,6 +1061,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta gives you a fallback chain: stop before the painted stop line, or before the marked crosswalk if there is no line, or within three metres of the intersecting roadway if there is neither. Wherever you stop, you must not obstruct people crossing or about to cross. Approach slowly enough to stop easily, and remember the stop is only the first half - deciding when it is safe to go is the second.",
         trap:
           "\"Wherever you can see clearly\" is good practice but not the rule, and it lets a driver stop halfway into the cross road and call it compliance.",
+        excerptKey: "stop-no-line-three-metres",
         sourceLabel: "Alberta Driver's Guide - Rules for stopping at intersections",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -1037,6 +1084,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Every intersection has crosswalks whether or not they are painted, and the duty to yield applies at unmarked ones too. Once someone has entered a crosswalk you must give way, and you may not pass another vehicle that has stopped for a pedestrian. Failing to yield to a person in a crosswalk is a four-demerit offence in Alberta, and the fine is substantial.",
         trap:
           "\"You may continue if you are already close\" borrows the yellow-light exception, which has no equivalent here - proximity does not cancel the duty to yield.",
+        excerptKey: "pedestrian-indicates-crossing",
         sourceLabel: "Alberta Driver's Guide - Pedestrian safety",
         sourceUrl: GUIDE,
       },
@@ -1053,6 +1101,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "At any collision your first duties are practical: stop, help where you can, protect the scene with hazard lights and reflective triangles, and call for help if anyone is hurt. Then exchange names, contact details and insurance information, note witnesses, and record time, place and weather. Do not argue about fault at the roadside - that is for the insurers. If police attend, every driver must remain.",
         trap:
           "$2,000 is the tempting answer because that was Alberta's threshold for years - it rose to $5,000 at the start of 2024, so older study material and word of mouth both point at the wrong number.",
+        excerptKey: "collision-reporting",
         sourceLabel: "Alberta Driver's Guide - Collisions",
         sourceUrl: GUIDE,
       },
@@ -1074,6 +1123,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Crossings come in layers. A crossbuck alone requires you to yield to trains and shows the number of tracks. Add a stop sign and you must stop every time, between five and fifteen metres from the nearest rail. Flashing red lights and bells mean stop at least five metres back and stay there until they cease and the train has cleared. Gates mean stay put until they rise fully - never drive around them.",
         trap:
           "\"Nothing unless red lights are flashing\" assumes every crossing has active warning devices, and plenty of rural Alberta crossings have only the crossbuck.",
+        excerptKey: "railway-crossbuck-yield",
         sourceLabel: "Alberta Driver's Guide - Railway crossings",
         sourceUrl: GUIDE,
       },
@@ -1095,6 +1145,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A construction limit is a posted regulatory speed, not an advisory tied to whether anyone is on site. It stays in force until you pass a sign marking the end of the zone. When workers are present the fines double, and that doubling can apply even where no sign warns you of it. A flag person's directions override the signs and the signals alike.",
         trap:
           "\"No work is happening, so the normal limit applies\" is the single most common construction-zone assumption, and it is what most work-zone tickets are written for.",
+        excerptKey: "construction-zone-speed",
         sourceLabel: "Alberta Driver's Guide - Construction zones",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -1117,6 +1168,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta's distracted driving offence covers hand-held phones, texting and emailing, operating laptops, games, cameras and video screens, programming audio players or GPS units, reading, writing or sketching, and personal grooming. Hands-free calls are legal but are still discouraged, because the distraction is cognitive as much as manual. If you need to deal with a device, stop somewhere safe and legal first.",
         trap:
           "Talking to a passenger genuinely is a distraction, which makes it a tempting pick - but it is not one of the behaviours Alberta made ticketable.",
+        excerptKey: "distracted-driving-demerits",
         sourceLabel: "Alberta Driver's Guide - Cellular phones and other distractions",
         sourceUrl: DEMERITS,
       },
@@ -1138,6 +1190,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Black ice forms where moisture freezes on the surface and is often invisible, so you learn to read the places it appears first: bridge decks, overpasses, shaded stretches and intersections, where exhaust heat and spinning wheels polish the surface. A thaw can be worse than a hard freeze, since melting snow leaves a slick film. Cruise control should always be off in these conditions.",
         trap:
           "\"Brake firmly now while you still have grip\" sounds like sensible early action, but you cannot tell where the ice starts - and hard braking on the leading edge of it is what triggers the slide.",
+        excerptKey: "black-ice",
         sourceLabel: "Alberta Driver's Guide - Road surface conditions that affect traction",
         sourceUrl: GUIDE,
       },
@@ -1159,6 +1212,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta lists several situations where passing is prohibited outright: when oncoming traffic is too close, when a solid yellow line is on your side outside an urban area, in a signed no-passing zone, inside an active school or playground zone, when another vehicle has stopped for a pedestrian, and when a school bus has its red lights flashing and stop arm out. That urban qualifier is real - within an urban area a single solid yellow may be crossed to overtake safely. Approaching any crosswalk is a poor place to overtake even where it is technically legal.",
         trap:
           "\"Pass carefully, since your lane is clear\" is exactly the reasoning behind second-lane crosswalk collisions - your lane looks clear because the stopped car is hiding the person.",
+        excerptKey: "no-passing-stopped-for-pedestrian",
         sourceLabel: "Alberta Driver's Guide - When is it illegal to pass another vehicle?",
         sourceUrl: GUIDE,
       },
@@ -1180,6 +1234,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta gives a funeral procession a narrow set of privileges: with headlights on and following closely behind the vehicle ahead, participants may continue through a stop sign or red light when it is safe. Other drivers must not pass through the procession and must yield until it has gone by. Treat the whole line as a single long vehicle and you will get it right.",
         trap:
           "\"No special status\" is a reasonable guess, since most jurisdictions vary - but Alberta does grant the procession specific privileges, which is why cutting into it is unsafe.",
+        excerptKey: "funeral-procession-yield",
         sourceLabel: "Alberta Driver's Guide - Funeral processions",
         sourceUrl: GUIDE,
       },
@@ -1201,6 +1256,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta has a small family of signs mounted on vehicles rather than at the roadside: the slow-moving vehicle triangle, oversized load signs on wide loads, and dangerous goods placards. All of them are advance notice to change what you are doing - slow early for the triangle, allow extra room and time when passing an oversized load, and expect vehicles carrying dangerous goods to stop at railway crossings.",
         trap:
           "\"Exempt from speed limits\" inverts the meaning entirely - the sign says the vehicle cannot reach normal speeds, not that it is allowed to exceed them.",
+        excerptKey: "sign-slow-moving-vehicle",
         sourceLabel: "Alberta Driver's Guide - Other signs",
         sourceUrl: GUIDE,
       },
@@ -1222,6 +1278,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A motorcycle is entitled to the whole lane and you never share one with a rider. Their signals can be hard to see and do not always self-cancel, so watch the rider's body for clues - a shoulder check usually means a lane change or turn is coming. They can also stop far quicker than a car, so leave extra following distance, and take particular care judging their speed when you are turning left across their path.",
         trap:
           "Reading lane position as a turn signal is the dangerous version of this mistake - it leads drivers to pull out in front of a rider who was only positioning themselves to be seen.",
+        excerptKey: "motorcycle-lane-position",
         sourceLabel: "Alberta Driver's Guide - Motorcycles",
         sourceUrl: GUIDE,
       },
@@ -1243,6 +1300,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The two-way left turn lane exists so left-turning vehicles can wait out of the through lanes without blocking traffic. Enter it only near your turn, watch for oncoming vehicles doing the same thing from the other direction, and never use it to travel any distance or to overtake. It is one of the few places Alberta lets you cross a solid yellow line legally.",
         trap:
           "\"Passing slower traffic\" is what the lane looks like it offers - an empty middle lane - and using it that way puts you head-on with someone entering from the opposite direction.",
+        excerptKey: "two-way-left-turn-lane",
         sourceLabel: "Alberta Driver's Guide - Two-way left turn lanes",
         sourceUrl: GUIDE,
       },
@@ -1264,6 +1322,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Hydroplaning is more likely with worn tyres, under-inflation, standing water and higher speed, so the real defence is prevention: keep the tyres in good shape and slow down when water is pooling. Use low beams in rain, keep the windscreen clear, and switch cruise control off - it will keep applying power exactly when you need the car to slow. Recovery is always the same: off the pedals, steer gently, wait for grip.",
         trap:
           "Braking hard is the instinct, and it is the one input guaranteed to make things worse - the wheels lock on the water film and grab hard when contact returns.",
+        excerptKey: "hydroplaning-recovery",
         sourceLabel: "Alberta Driver's Guide - Rain and hydroplaning",
         sourceUrl: GUIDE,
       },
@@ -1285,6 +1344,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The yield-to-the-right rule covers every intersection with no sign, signal or marking, including T-shapes and parking lot aisles. Because the through-road assumption is so widespread, treat this as a place where you may have the right-of-way on paper and still need to give it up in practice. Approach slowly enough to stop, and never proceed until you can see the other driver is actually yielding.",
         trap:
           "\"The through road has priority\" feels obvious and is what the other driver probably believes - which makes it both the wrong answer and the reason to be careful here.",
+        excerptKey: "uncontrolled-t-intersection",
         sourceLabel: "Alberta Driver's Guide - Uncontrolled intersections",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -1318,6 +1378,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The three default blocks are 8:00 to 9:30, 11:30 to 1:30 and 3:00 to 4:30, on school days only. Municipalities may set different hours by bylaw, in which case they appear on a plate under the school sign - so read the sign rather than trusting the default. Playground zones use a completely different schedule: every day, from mid-morning until an hour after sunset.",
         trap:
           "\"Lunch hour falls between the periods\" is the intuitive answer, because most people picture only drop-off and pick-up - but the midday block exists precisely because children move around at lunch.",
+        excerptKey: "school-zone-hours",
         sourceLabel: "Alberta.ca - School and playground zones",
         sourceUrl: ZONES,
         commonlyMissed: true,
@@ -1340,6 +1401,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta uses flashing yellow lights on signs at school zones, playground zones, school crossings and pedestrian crossings, and the requirement is the same in each case: drop to a maximum of 30 km/h and yield or stop for people crossing. A different flashing-amber sign appears in advance of some signalised intersections - there the flashing lights warn that the traffic signal ahead is about to change or is already red.",
         trap:
           "\"Stop completely every time\" over-applies the rule - the requirement is to slow to 30 and yield, and stopping is only needed when someone is actually crossing.",
+        excerptKey: "flashing-yellow-pedestrian-lights",
         sourceLabel: "Alberta Driver's Guide - Pedestrian signals and signs",
         sourceUrl: GUIDE,
       },
@@ -1361,6 +1423,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Yellow lines separate opposing traffic and their pattern tells each driver what they personally may do. Broken on your side permits a pass. Double solid on your side never does. Single solid on your side depends on where you are: prohibited outside an urban area, permitted within one when the pass can be made safely. The paired solid-and-broken marking usually appears where sightlines are good in one direction and poor in the other, such as approaching a crest - which is exactly why an oncoming car may appear in your lane.",
         trap:
           "\"Neither driver, because one line is solid\" treats the pair as a single instruction, but each driver only reads the line on their own side.",
+        excerptKey: "solid-and-broken-yellow",
         sourceLabel: "Alberta Driver's Guide - Pavement markings",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -1383,6 +1446,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta's three flashing signals do three different jobs. Flashing red is a stop sign, and if every approach is flashing red the intersection becomes an all-way stop. Flashing yellow lets you proceed with caution after yielding to anyone already in the intersection. Flashing green is the protected advance phase. The only one that gives you priority over opposing traffic is the green.",
         trap:
           "Treating it like a flashing yellow is the standard mistake, and it costs you a protected left turn you were entitled to take without waiting.",
+        excerptKey: "flashing-green-light",
         sourceLabel: "Alberta Driver's Guide - Traffic control signals",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -1405,6 +1469,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Railway crossing rules stack by equipment: a crossbuck alone means yield to trains and stop if one is within about 500 metres, a stop sign means a full stop every time in that 5 to 15 metre window, and flashing lights or gates mean stay put until they cease or lift fully. Never start across unless you can clear the far side completely, and after one train has gone check that a second is not coming on another track.",
         trap:
           "\"Anywhere before the crossing\" satisfies the word \"stop\" but not the rule - stopping too close puts you inside the train's overhang, which is wider than the rails.",
+        excerptKey: "railway-stop-sign-distance",
         sourceLabel: "Alberta Driver's Guide - Railway crossings",
         sourceUrl: GUIDE,
       },
@@ -1426,6 +1491,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Points are counted over a rolling two-year window and drop off two years after the conviction date. Warning letters go out earlier - at four points for a GDL driver and eight for a fully licensed one. Suspensions escalate: one month for a first, three months for a second within a year, six months for a third within two years. After a suspension you come back with points still on the record rather than a clean sheet.",
         trap:
           "The \"8 and 12\" pairing gets the novice number right and the adult number wrong, which makes it the easiest option to half-remember your way into.",
+        excerptKey: "demerit-suspension-gdl",
         sourceLabel: "Alberta.ca - Demerit points",
         sourceUrl: DEMERITS,
         commonlyMissed: true,
@@ -1448,6 +1514,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A two-lane roundabout works on one principle: enter in the lane you intend to leave in, and hold it the whole way round. The right lane is for the first exit or a right turn; the left lane is for anything further round. Signal right only after passing the exit before the one you want. If you end up in the wrong lane, go round again rather than cutting across.",
         trap:
           "\"Either lane, changing as needed\" is how many drivers actually behave, and lane changes inside a circle are the cause of most two-lane roundabout collisions.",
+        excerptKey: "roundabout-lane-choice",
         sourceLabel: "Alberta Driver's Guide - Two-lane traffic circle / roundabout",
         sourceUrl: GUIDE,
       },
@@ -1469,6 +1536,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The presence of a median is what decides everything. On an undivided road, whether it has two lanes or four, traffic in both directions must stop for flashing reds and stay stopped until the lights go off and the arm folds in. Where a median divides the directions, only traffic behind the bus stops; oncoming traffic may proceed with care. Failing to stop for a school bus costs six demerits and a heavy fine.",
         trap:
           "\"Stop until the lights are off\" is the right answer on an undivided road, and drivers who learned only that version apply it here without noticing the median.",
+        excerptKey: "school-bus-divided-highway",
         sourceLabel: "Alberta Driver's Guide - School buses",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -1491,6 +1559,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Playground and school zones share the same 30 km/h default but differ on timing, and the sunset-based end time is what catches people out, since the zone can still be live well into the evening in midsummer. Municipalities may post their own hours beneath the sign. Passing another vehicle is prohibited while either zone is in effect, and both end only where a sign shows a higher limit or the end of the zone.",
         trap:
           "Matching playground hours to school hours is the natural assumption, since the signs look related - but playground zones run every day of the week, weekends included.",
+        excerptKey: "playground-zone-hours",
         sourceLabel: "Alberta.ca - School and playground zones",
         sourceUrl: ZONES,
       },
@@ -1512,6 +1581,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "There are three separate emergency-vehicle rules and they are easy to blur. Yield to one that is approaching with siren or lights - pull right and stop. Keep about 150 metres back if you end up behind one that is responding. And slow to 60 km/h or the posted limit, whichever is lower, when passing one that is stopped at the roadside with its lights flashing. Flashing green lights on a private vehicle mean a volunteer firefighter responding.",
         trap:
           "\"Whatever lets you keep it in sight\" is how drivers rationalise tucking in behind an emergency vehicle to get through traffic, and it is both dangerous and prohibited.",
+        excerptKey: "emergency-vehicle-following-distance",
         sourceLabel: "Alberta Driver's Guide - Emergency vehicles",
         sourceUrl: GUIDE,
       },
@@ -1533,6 +1603,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Guide signs matter for planning rather than compliance. Reading them early is what lets you be in the correct lane well before an exit instead of making a last-second move across two lanes. Alberta's route markers work alongside them - a numbered marker means you are on a provincial highway, which also tells you which default speed limit applies if none is posted.",
         trap:
           "White and green rectangles look alike at highway speed, so the regulatory answer is tempting - the background colour is the only reliable tell.",
+        excerptKey: "sign-guide-green",
         sourceLabel: "Alberta Driver's Guide - Information and guide signs",
         sourceUrl: GUIDE,
       },
@@ -1554,6 +1625,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Two-lane circles have two priority rules layered on each other. At the entry, everyone gives way to traffic already circulating. Once inside, the driver on the right yields to the driver on the left, which is what lets an inside-lane vehicle reach its exit. Neither rule is the ordinary yield-to-the-right you use at uncontrolled intersections - inside a roundabout, that instinct is exactly backwards.",
         trap:
           "\"The inside vehicle must wait\" applies everyday yield-to-the-right thinking, and it is the single most common misconception at Alberta's two-lane roundabouts.",
+        excerptKey: "roundabout-inside-lane-priority",
         sourceLabel: "Alberta Driver's Guide - Traffic circles and roundabouts",
         sourceUrl: GUIDE,
       },
@@ -1575,6 +1647,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Both of Alberta's turns on red require the same three conditions: a complete stop at the stop line or crosswalk, no sign at that corner prohibiting the turn, and yielding to everyone already in the intersection or crossing. Right on red is the common case and also works at dual right-turn intersections. Left on red is narrower - it needs a one-way street both before and after the turn.",
         trap:
           "\"Never permitted\" is a safe-sounding absolute, and plenty of drivers believe it - but Alberta does allow the one-way-to-one-way left on red.",
+        excerptKey: "left-turn-on-red-one-way",
         sourceLabel: "Alberta Driver's Guide - Traffic control signals",
         sourceUrl: GUIDE,
       },
@@ -1596,6 +1669,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "On the right-hand side of the road there are three cases: uphill with a curb means wheels left and roll back onto it, uphill without a curb means wheels right, and downhill means wheels right whether or not there is a curb. The logic is always the same - point the front wheels so a runaway ends up against the curb or off the road rather than out into traffic. Parking on the left-hand side reverses all of it, and in every case you set the park brake and leave an automatic in park or a manual in a low gear.",
         trap:
           "\"Toward the curb\" is the correct answer for facing downhill, and it is the version most people remember - uphill with a curb is the case that reverses it.",
+        excerptKey: "hill-parking-uphill-curb",
         sourceLabel: "Alberta Driver's Guide - Hill parking",
         sourceUrl: GUIDE,
       },
@@ -1617,6 +1691,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta draws a hard line between zones and areas. A zone has a speed sign attached and enforces a reduced limit during its hours, plus a ban on passing while it is active. An area has no speed sign and is a caution alert only. Both school and playground signs follow this pattern, so the question to ask at every one is simply whether there is a number underneath.",
         trap:
           "\"30 km/h during school hours\" is the correct reading of a school ZONE sign - the missing speed plate is the detail that changes the answer.",
+        excerptKey: "school-area-no-speed-sign",
         sourceLabel: "Alberta.ca - School and playground zones",
         sourceUrl: ZONES,
         commonlyMissed: true,
@@ -1639,6 +1714,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Total stopping distance is perception distance plus reaction distance plus braking distance. The first two are roughly fixed in time, so the ground they cover scales directly with speed, while braking distance grows faster still. Inexperience, fatigue, alcohol and drugs all stretch the first two stages, which is a large part of why a novice driver needs a bigger following gap than an experienced one.",
         trap:
           "A quarter of a second is roughly how fast people think they react, and that optimism is exactly what closes following distances to unsafe levels.",
+        excerptKey: "perception-time",
         sourceLabel: "Alberta Driver's Guide - Stopping time and distance",
         sourceUrl: GUIDE,
       },
@@ -1660,6 +1736,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A two-lane pass is one of the higher-risk things you do on a highway, so Alberta layers requirements onto it: pass only where it is permitted, keep a safe gap before pulling out, shoulder check for a vehicle already overtaking you, confirm there is no oncoming traffic for a safe distance, and return only when the passed vehicle is visible in your interior mirror. Doing all that within the speed limit is the point.",
         trap:
           "\"Exceeding briefly to shorten your time alongside\" sounds like a safety argument, and it is how most passing speeding tickets get rationalised - but no such exemption exists.",
+        excerptKey: "passing-no-speeding",
         sourceLabel: "Alberta Driver's Guide - Passing on a two-lane highway",
         sourceUrl: GUIDE,
       },
@@ -1681,6 +1758,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta groups medication with alcohol, drugs and fatigue under fitness to drive, and the roadside programs make no distinction based on where the substance came from. A 24-hour disqualification can be issued to anyone whose ability to drive is impaired by drugs, alcohol, or even a physical or medical condition. Novice drivers face the added complication that their zero-tolerance condition covers drugs as well as alcohol.",
         trap:
           "\"It was legally prescribed, so it must be safe\" is the reasoning behind a lot of medication-impaired driving - legality of the drug says nothing about its effect on you.",
+        excerptKey: "medications",
         sourceLabel: "Alberta Driver's Guide - Medications",
         sourceUrl: GUIDE,
       },
@@ -1702,6 +1780,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Large vehicles need room you would not predict. A turning truck may cross the centre line or use part of your lane, so stop back from the intersection and let it complete the manoeuvre. Their blind spots are large - if you cannot see both of the truck's mirrors, the driver cannot see you. They also need far more distance to stop, so never cut in front of one and leave extra room after passing.",
         trap:
           "\"Pass quickly while it slows\" treats the turn as an opportunity, when it is the moment the load sweeps across the widest area of road.",
+        excerptKey: "log-hauling-truck",
         sourceLabel: "Alberta Driver's Guide - Log hauling vehicles",
         sourceUrl: GUIDE,
       },
@@ -1723,6 +1802,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A solid green is a permission, not a protection. Only a green arrow or a flashing green holds the opposing traffic for you. When you enter to wait for a gap, keep your front wheels pointed straight ahead so a rear-end impact does not push you into oncoming traffic, and stay to the right of the yellow line. If there is only room for one vehicle to wait, hold behind the crosswalk instead.",
         trap:
           "\"A yellow gives waiting vehicles priority\" is folklore - the yellow tells oncoming drivers to stop, but it grants you nothing, and turning before they actually stop is how left-turn collisions happen.",
+        excerptKey: "green-light-yield",
         sourceLabel: "Alberta Driver's Guide - Left turns",
         sourceUrl: GUIDE,
       },
@@ -1744,6 +1824,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta has a small set of shared-use markings and signs: reserved bicycle lanes marked with solid white lines and a bicycle-and-diamond stencil, signs asking drivers to give cyclists space, and signs telling drivers to yield to bicycles where a turn crosses a bike lane. You may only enter a bicycle lane to turn or to reach a parking spot, and the paint usually breaks into a dashed line where that is permitted.",
         trap:
           "\"A separated bike lane begins ahead\" is the opposite message - this sign appears precisely where there is no separate space for a rider.",
+        excerptKey: "sign-shared-lane-sharrow",
         sourceLabel: "Alberta Driver's Guide - Shared-use signs",
         sourceUrl: GUIDE,
       },
@@ -1765,6 +1846,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Fifteen metres is a floor, not a plan - Alberta expects you to be reading signs and markings far earlier than that so the lane change is unhurried. On a right turn from a two-way road, stay centred in the turn and keep within about a metre of the curb through the whole manoeuvre. On a left turn from a two-way road, approach from the lane just right of the yellow line and finish right of the yellow line on the new road.",
         trap:
           "50 metres sounds like the safer answer and is good practice, but the number the guide actually gives is 15 - and questions like this are testing the published figure.",
+        excerptKey: "turning-lane-15-metres",
         sourceLabel: "Alberta Driver's Guide - Turning",
         sourceUrl: GUIDE,
       },
@@ -1786,6 +1868,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Vehicle failures each have their own response. Power brakes that fade when the engine stops need harder, steadier pedal pressure rather than pumping. Power steering failure still leaves you able to steer, just with much more effort. A flat tyre means easing off the accelerator and holding the wheel firmly rather than braking immediately. In every case, get to the shoulder, switch on the hazard lights, and set out reflective triangles behind the vehicle.",
         trap:
           "Switching off the ignition feels decisive but costs you power steering and may lock the steering column - it turns one failure into three.",
+        excerptKey: "brake-failure",
         sourceLabel: "Alberta Driver's Guide - Vehicle mechanical problems",
         sourceUrl: GUIDE,
       },
@@ -1807,6 +1890,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta expects winter drivers to carry supplies for exactly this: blankets and extra clothing, a shovel, sand or salt, a candle and matches in a deep can, an ice scraper and a flashlight. Alongside those, keep a first aid kit, reflective triangles and booster cables year-round. Have the battery, tyres, exhaust and heating checked before winter, since a leaking exhaust is what makes idling dangerous in the first place.",
         trap:
           "Running the engine continuously with the windows sealed is the comfortable choice and the genuinely lethal one - carbon monoxide is colourless, odourless and gives no warning.",
+        excerptKey: "stranded-stay-with-vehicle",
         sourceLabel: "Alberta Driver's Guide - Ice and snow",
         sourceUrl: GUIDE,
       },
@@ -1849,6 +1933,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The acceleration lane exists so you can reach highway speed before you join, so use its full length rather than trying to merge early. Signal, keep shoulder checking, and move into your chosen gap after you have passed the solid white line. Drivers already on the highway are expected to help by moving left when it is safe. Exiting is the mirror image - be in position early and do most of your slowing in the deceleration lane.",
         trap:
           "\"Traffic already on the highway has priority\" is a rule in some jurisdictions and feels like common sense - Alberta frames it as shared, which is why stopping at the end of a ramp is both wrong and dangerous.",
+        excerptKey: "merging-shared-responsibility",
         sourceLabel: "Alberta Driver's Guide - Merging",
         sourceUrl: GUIDE,
         commonlyMissed: true,
@@ -1871,6 +1956,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The emergency stopping lane sits between the edge of the roadway and the first travel lane on a primary highway, and it exists for urgent stops only. Parking on a highway shoulder outside an urban area is restricted to breakdowns, emergencies and situations the law specifically permits - and even then you need a clear passage for other traffic and to be visible for about 60 metres in both directions.",
         trap:
           "\"Yes, if you keep below the limit\" treats the shoulder as a slow lane, which is exactly how disabled vehicles parked on it get struck.",
+        excerptKey: "emergency-stopping-lane",
         sourceLabel: "Alberta Driver's Guide - Emergency stopping lane",
         sourceUrl: GUIDE,
       },
@@ -1892,6 +1978,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The warn tier starts at a first occurrence of a three-day suspension, a three-day vehicle seizure and a fine, escalating to fifteen and then thirty days with mandatory courses on repeat. The fail tier is far heavier: a 90-day period where you cannot drive at all, a further twelve-month suspension during which an ignition interlock is the only way back on the road, a 30-day vehicle seizure, a substantial fine and a required education course.",
         trap:
           "80 as the warn threshold is a common mix-up because 80 is the well-known criminal limit - in Alberta's roadside program it is where the fail tier starts, not the warn tier.",
+        excerptKey: "irs-warn-threshold",
         sourceLabel: "Alberta Driver's Guide - Immediate Roadside Sanctions",
         sourceUrl: GUIDE,
       },
@@ -1908,6 +1995,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The route marker is the practical test. A provincial highway carries a numbered marker and defaults to 100 outside urban areas, but only 80 once it runs inside a city's limits. A road identified by a name, a township number or a range number is a local road and defaults to 80 outside urban areas. Inside an urban area, anything unposted is 50. Gravel, dust and blind approaches often make 80 far too fast in practice.",
         trap:
           "100 is the number people attach to \"rural road with no signs\", but that default belongs to provincial highways - a township or range road is 80.",
+        excerptKey: "speed-rural-road-80",
         sourceLabel: "Alberta Driver's Guide - Speed limit signs",
         sourceUrl: GUIDE,
       },
@@ -1929,6 +2017,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The overtaking driver committed to the pass based on your speed, so the most dangerous thing you can do is change it. Alberta also treats impeding a passing vehicle as an offence carrying three demerits. On multi-lane highways the related habit is to keep left lanes free - slower traffic belongs in the right lane so the left stays available for passing.",
         trap:
           "Moving onto the shoulder feels generous, but it invites the other driver to squeeze back in early and puts you where debris and stopped vehicles are.",
+        excerptKey: "being-passed-two-lane",
         sourceLabel: "Alberta Driver's Guide - Passing on a two-lane highway",
         sourceUrl: GUIDE,
       },
@@ -1950,6 +2039,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Speed numbers attached to yellow warning signs are advisory throughout Alberta - the recommended speed for a curve or a crossing in ideal conditions - while numbers on white rectangles are enforceable limits. The advance warning sign is a cue to start looking and listening, and rural crossings often have an X painted on the pavement as an additional prompt.",
         trap:
           "Calling it a legal limit confuses the advisory family with the regulatory one - the giveaway is the yellow background, which never carries an enforceable speed.",
+        excerptKey: "railway-advance-warning-speed",
         sourceLabel: "Alberta Driver's Guide - Railway crossings",
         sourceUrl: GUIDE,
       },
@@ -1971,6 +2061,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "The graduated program runs in three stages: Class 7 learner from age 14, held at least a year; Class 5-GDL probationary from age 16 after passing the road test, held at least two years; and full Class 5 from 18. Leaving the program lifts the zero alcohol condition, raises your demerit threshold from 8 to 15, and lets you supervise a learner or upgrade to a commercial class - none of which a probationary driver may do.",
         trap:
           "Expecting a second test is a leftover from the old advanced road test, which Alberta removed as a requirement for exiting the GDL program.",
+        excerptKey: "gdl-probationary-two-years",
         sourceLabel: "Alberta.ca - Get a Class 5 driver's licence",
         sourceUrl: CLASS5,
       },
@@ -1992,6 +2083,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Alberta backs this up with a set of related prohibitions: you may not tow a person on skis, a toboggan, a bicycle or a motorcycle behind your vehicle, and nobody may ride inside a trailer while it is being towed. Everyone in the vehicle must be properly secured with a belt or an approved child seat, and the driver is accountable for every passenger under 16.",
         trap:
           "\"Short trips at low speed\" is how the rule gets rationalised in practice - the prohibition has no distance or speed exception attached to it.",
+        excerptKey: "riding-in-truck-box",
         sourceLabel: "Alberta Driver's Guide - Traffic laws",
         sourceUrl: GUIDE,
       },
@@ -2013,6 +2105,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "Multi-lane crosswalks fail in a predictable way: one driver stops, a second driver in the adjacent lane cannot see why, and the pedestrian steps out from behind the stopped car. Alberta addresses both halves of it - stop well back so the person stays visible, and never pass a vehicle that has stopped at a crosswalk. Crosswalks exist at every intersection whether or not they are painted.",
         trap:
           "Stopping right at the line feels like the clearest signal of your intent, and it is the exact position that hides the pedestrian from the next lane over.",
+        excerptKey: "pedestrian-stop-back",
         sourceLabel: "Alberta Driver's Guide - Pedestrian safety",
         sourceUrl: GUIDE,
       },
@@ -2034,6 +2127,7 @@ export const albertaSets1to3: DrivingTestSet[] = [
           "A school bus stop runs through two phases. Amber lights mean it is about to stop and everyone approaching from either direction on an undivided road should be preparing to stop. Red lights with the stop arm out mean stop, roughly 20 metres back, and stay stopped until the lights go off and the arm folds in. Where a median divides the road, only traffic behind the bus is bound by the red phase.",
         trap:
           "Reading amber as \"the bus is finishing up and pulling away\" gets it exactly backwards - amber comes before the stop, not after it.",
+        excerptKey: "school-bus-amber-lights",
         sourceLabel: "Alberta Driver's Guide - School buses",
         sourceUrl: GUIDE,
       },

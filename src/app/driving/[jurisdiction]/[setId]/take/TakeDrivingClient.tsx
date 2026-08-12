@@ -13,6 +13,7 @@ import { scoreDrivingSet } from "@/lib/driving/score";
 import { recordAttempt } from "@/lib/driving/progress";
 import { buildWeakSpotSet, recordOutcomes } from "@/lib/driving/adaptive";
 import { encodeDrivingResult } from "@/lib/driving/encode";
+import { getExcerpt } from "@/lib/driving/excerpts";
 import { questionChallengeText } from "@/lib/driving/share";
 import { shareDrivingText } from "@/components/DrivingShareBlock";
 import { useSiteOrigin } from "@/lib/use-site-origin";
@@ -23,6 +24,56 @@ const WEAK_SPOTS_ID = "weak-spots";
 const CORRECT = "#07ad9c";
 const WRONG = "#f9684d";
 const NEUTRAL = "#242a3b";
+
+// Kahoot-style option tiles, matching the personality quizzes.
+//
+// The colours deliberately avoid teal and coral, which are reserved for the
+// correct/wrong reveal - if an option were already green, "green means you got
+// it right" would stop meaning anything.
+const OPTION_STYLES = [
+  { color: "#0795ea", shape: "triangle" as const },
+  { color: "#a855f7", shape: "diamond" as const },
+  { color: "#f5a524", shape: "circle" as const },
+  { color: "#ec4899", shape: "square" as const },
+  { color: "#14b8a6", shape: "hex" as const },
+  { color: "#8b5cf6", shape: "circle" as const },
+];
+
+function ShapeIcon({ shape }: { shape: (typeof OPTION_STYLES)[number]["shape"] }) {
+  const common = { width: 18, height: 18, viewBox: "0 0 24 24", "aria-hidden": true as const };
+  switch (shape) {
+    case "triangle":
+      return (
+        <svg {...common}>
+          <path d="M12 4 L22 20 H2 Z" fill="currentColor" />
+        </svg>
+      );
+    case "diamond":
+      return (
+        <svg {...common}>
+          <path d="M12 2 L22 12 L12 22 L2 12 Z" fill="currentColor" />
+        </svg>
+      );
+    case "circle":
+      return (
+        <svg {...common}>
+          <circle cx="12" cy="12" r="9" fill="currentColor" />
+        </svg>
+      );
+    case "square":
+      return (
+        <svg {...common}>
+          <rect x="4" y="4" width="16" height="16" rx="2" fill="currentColor" />
+        </svg>
+      );
+    case "hex":
+      return (
+        <svg {...common}>
+          <path d="M12 2 L20 7 V17 L12 22 L4 17 V7 Z" fill="currentColor" />
+        </svg>
+      );
+  }
+}
 
 interface Saved {
   answers: DrivingAnswerMap;
@@ -240,6 +291,8 @@ export function TakeDrivingClient() {
   const progress = Math.round((answeredCount / Math.max(1, total)) * 100);
   const leftCount = Math.max(0, total - answeredCount);
   const isCorrect = selected === question.correctIndex;
+  // Official wording behind this rule, when we have a verified quote for it.
+  const excerpt = getExcerpt(jurisdiction.slug, question.excerptKey);
   const isLast = safeIndex + 1 >= total;
   const topic = TOPIC_META[question.topic];
 
@@ -326,12 +379,25 @@ export function TakeDrivingClient() {
           {question.choices.map((choice, i) => {
             const isThis = selected === i;
             const isRight = i === question.correctIndex;
-            let background = NEUTRAL;
+            const opt = OPTION_STYLES[i % OPTION_STYLES.length];
+
+            // Before answering: the tile wears its own colour, like the quizzes.
+            // After: the correct one goes teal and the one you picked (if wrong)
+            // goes coral, and everything else fades back so the answer is the
+            // only thing competing for attention.
+            let background = opt.color;
             let opacity = 1;
+            let transform = "none";
             if (revealed) {
-              if (isRight) background = CORRECT;
-              else if (isThis) background = WRONG;
-              else opacity = 0.45;
+              if (isRight) {
+                background = CORRECT;
+                transform = "scale(1.02)";
+              } else if (isThis) {
+                background = WRONG;
+              } else {
+                opacity = 0.32;
+                background = NEUTRAL;
+              }
             }
             return (
               <button
@@ -343,12 +409,21 @@ export function TakeDrivingClient() {
                 style={{
                   backgroundColor: background,
                   opacity,
-                  border: revealed && isThis ? "2px solid #fff" : "2px solid rgba(255,255,255,0.12)",
+                  transform,
+                  border:
+                    revealed && (isRight || isThis)
+                      ? "2px solid rgba(255,255,255,0.85)"
+                      : "2px solid rgba(255,255,255,0.12)",
                   cursor: revealed ? "default" : "pointer",
+                  transition: "background-color 0.25s ease, opacity 0.25s ease, transform 0.25s ease",
                 }}
                 aria-label={`${LETTERS[i]}: ${choice}`}
               >
-                <span className="kahoot-tile-shape" style={{ fontWeight: 800, fontSize: "1rem" }}>
+                <span
+                  className="kahoot-tile-shape"
+                  style={{ display: "inline-flex", alignItems: "center", gap: 6, fontWeight: 800, fontSize: "0.95rem" }}
+                >
+                  <ShapeIcon shape={opt.shape} />
                   {LETTERS[i]}
                 </span>
                 <span
@@ -475,6 +550,54 @@ export function TakeDrivingClient() {
                   {question.trap}
                 </p>
               </div>
+            )}
+
+            {excerpt && (
+              <blockquote
+                style={{
+                  margin: "14px 0 0",
+                  padding: "12px 14px",
+                  borderLeft: "3px solid rgba(255,255,255,0.35)",
+                  background: "rgba(255,255,255,0.05)",
+                  borderRadius: 6,
+                }}
+              >
+                <p
+                  style={{
+                    margin: "0 0 6px",
+                    fontSize: "0.7rem",
+                    letterSpacing: "0.06em",
+                    textTransform: "uppercase",
+                    fontFamily: "IBM Plex Mono, ui-monospace, monospace",
+                    color: "rgba(255,255,255,0.55)",
+                  }}
+                >
+                  What the handbook says
+                </p>
+                <p
+                  style={{
+                    margin: 0,
+                    fontSize: "0.92rem",
+                    lineHeight: 1.6,
+                    color: "rgba(255,255,255,0.92)",
+                    fontStyle: "italic",
+                  }}
+                >
+                  &ldquo;{excerpt.quote}&rdquo;
+                </p>
+                <cite
+                  style={{
+                    display: "block",
+                    marginTop: 8,
+                    fontSize: "0.75rem",
+                    fontStyle: "normal",
+                    color: "rgba(255,255,255,0.55)",
+                  }}
+                >
+                  {excerpt.source}
+                  {excerpt.section ? ` - ${excerpt.section}` : ""}
+                </cite>
+              </blockquote>
             )}
 
             {question.sourceUrl && (

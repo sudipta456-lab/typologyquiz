@@ -73,7 +73,7 @@ export default function AccountPage() {
   return (
     <div className="section account-page">
       <p className="eyebrow">You</p>
-      <h1 className="section-title">Your account</h1>
+      <h1 className="section-title">Your display name</h1>
       <p className="section-lead">
         No password. No email. Display name stays on this device for rooms and share cards.
       </p>

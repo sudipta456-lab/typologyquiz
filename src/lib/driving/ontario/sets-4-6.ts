@@ -41,6 +41,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Sign shape carries meaning in Ontario, independent of what is drawn on it. Octagon is stop, inverted triangle is yield, diamond is a warning, rectangle is usually regulatory or informational, and the five-sided pentagon is reserved for schools. The fluorescent yellow-green colour is a second layer of the same signal — it appears on school and pedestrian-related warnings so they stand out from ordinary yellow. Learn the shape-and-colour pairs and you can answer sign questions you have never seen the artwork for.",
         trap:
           "The hidden school bus stop warning is the tempting miss — it does involve children and schools, but it is a yellow diamond, not a yellow-green pentagon.",
+        excerptKey: "school-zone-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -62,6 +63,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "A G1 driver is never alone in the car. The person in the front passenger seat is legally part of the driving arrangement, which is why the requirements are stacked rather than optional. Time spent holding a G2 does count toward the four years of experience, but the person supervising must have progressed to a full G by now — a current G2 holder cannot supervise no matter how long they have held it. A suspended licence is not a valid licence, so length of experience becomes irrelevant.",
         trap:
           "The friend with two years on a full G looks fine because the licence class is right — but experience is a separate requirement, and two years is half of what the law asks.",
+        excerptKey: "g1-accompanying-driver",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Getting your driver's licence",
         sourceUrl: `${H}/getting-your-drivers-licence`,
@@ -83,6 +85,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Ontario shows the advance phase two ways: a flashing green ball, or a green left arrow displayed alongside a green ball. Both mean the same thing — every movement from your side of the intersection is permitted and the drivers facing you have a red. Once the flashing stops and you have a steady green, oncoming traffic is moving again and a left turn goes back to being a yield-and-wait manoeuvre. Nothing about a flashing green removes your duty to check for pedestrians already in the crosswalk.",
         trap:
           "Flashing red and flashing green look like a matched pair, so people carry the stop-first rule across. Flashing on a green ball adds permission; flashing on a red adds a stop.",
+        excerptKey: "advance-green",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
@@ -105,6 +108,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Think of an all-way stop as a queue. The first vehicle to come to a complete stop is first in line, the second is next, and so on. The right-hand rule is only a tiebreaker for the rare case where two drivers stop together. That same tiebreaker also governs an intersection with no signs or lights at all. Being the bigger vehicle, going straight, or already having your signal on gives you nothing.",
         trap:
           "Going straight feels like it should outrank turning, and at many intersections it practically does — but Ontario's rule is about position and timing, not about which way you are headed.",
+        excerptKey: "all-way-stop",
         sourceLabel: "Official MTO Driver's Handbook — Driving through intersections",
         sourceUrl: `${H}/driving-through-intersections`,
       },
@@ -125,6 +129,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Diamonds always warn, but the background tells you how long the warning lasts. Orange diamonds go up when something has changed and will change back: roadwork, a survey crew, milled pavement, a traffic control person ahead. Yellow diamonds describe the road as built: a curve, a hill, a railway crossing, a deer corridor. Reading the colour first tells you whether the hazard will still be there next month.",
         trap:
           "Construction zones do carry doubled speeding fines when workers are present, but that is a separate rectangular regulatory sign — the orange diamond itself is only a warning.",
+        excerptKey: "temporary-condition-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -141,6 +146,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Ontario runs two default limits. Inside built-up areas — cities, towns, villages — it is 50 km/h. Outside them it is 80 km/h. A posted sign overrides the default in either direction, which is how you get 40 km/h residential streets and 60 km/h arterials. Separately, every limit is a maximum for ideal conditions, not a target: rain, snow, traffic and construction all oblige you to drive slower than the number on the sign.",
         trap:
           "Plenty of city streets are posted at 40, so 40 feels like the residential default. It is only the limit where a sign says so.",
+        excerptKey: "default-speed-limits",
         sourceLabel: "Official MTO Driver's Handbook — Driving along",
         sourceUrl: `${H}/driving-along`,
       },
@@ -161,6 +167,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Railway crossings are signed in layers. A yellow diamond well back gives advance warning and shows the angle at which the tracks cut across. At the crossing itself stands the crossbuck, sometimes with flashing signals and a gate, and often a white X painted on the pavement. If a train is coming you stop at least five metres from the nearest rail or gate, and you never drive around a gate that is down, dropping or lifting.",
         trap:
           "A painted X on the road surface also appears at pedestrian crossovers, which sends people to the crossover answer. The crossbuck's shape and its red outline belong to railways only.",
+        excerptKey: "railway-crossing-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -182,6 +189,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "A time gap works at every speed because the distance it represents scales automatically — two seconds at 100 km/h is far more pavement than two seconds at 40. The two-second figure assumes everything is in your favour. Add time when the road is wet or icy, when you are behind a motorcycle or a large truck whose stopping behaviour differs from yours, when you are carrying a heavy load, and whenever your own attention is stretched.",
         trap:
           "Car-length rules feel precise and are widely taught elsewhere, but they collapse at highway speed and are not what Ontario asks you to use.",
+        excerptKey: "following-distance",
         sourceLabel: "Official MTO Driver's Handbook — Driving along",
         sourceUrl: `${H}/driving-along`,
       },
@@ -203,6 +211,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The bus signals in two stages. Flashing amber lights mean it is about to stop, so you slow and prepare. Flashing red lights with the stop arm out mean traffic stops. Behind the bus, everyone stops at 20 metres and holds until the lights stop flashing and the arm folds in. Failing to stop draws six demerit points and a fine starting at $400 on a first offence, and the registered owner can be charged when camera evidence identifies the vehicle.",
         trap:
           "Five metres is a real Ontario number, but it belongs to railway crossings. Different hazard, different distance.",
+        excerptKey: "school-bus-20-metres",
         sourceLabel: "Official MTO Driver's Handbook — Stopping",
         sourceUrl: `${H}/stopping`,
       },
@@ -224,6 +233,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The three signs form a ladder. No parking is the loosest: brief stops for people or goods are fine. No standing is tighter: you may stop for passengers, but not to load merchandise. No stopping is absolute — you may not halt there even for a second, for any reason. The signs look almost identical at a glance, which is exactly why the wording matters more than the artwork.",
         trap:
           "People read all three as the same blanket ban. Treating a no-parking sign as a no-stopping sign is the safe mistake, but it is still the wrong answer.",
+        excerptKey: "no-parking-sign",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
@@ -240,6 +250,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Ontario's parking clearances are a short list worth memorising as a set: three metres from a hydrant, nine metres from an intersection, fifteen metres from an intersection controlled by traffic lights, fifteen metres from the nearest rail of a railway crossing, six metres from the public entrance of a hotel, theatre or public hall while it is open, and no parking on or within 100 metres of a bridge. On top of the list, never park where drivers cannot see at least 125 metres in both directions.",
         trap:
           "Nine and fifteen metres both belong to intersections. Pulling one of those numbers across to the hydrant is the usual slip.",
+        excerptKey: "parking-hydrant",
         sourceLabel: "Official MTO Driver's Handbook — Parking along roadways",
         sourceUrl: `${H}/parking-along-roadways`,
       },
@@ -260,6 +271,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Read the line on your own side of the centre. Broken yellow beside your lane means passing is permitted when the way is clear. Solid yellow beside your lane means it is not. On a road where one direction can pass and the other cannot, you will see a solid line and a broken line together — and the one that applies to you is the nearer one. White lines, by contrast, separate traffic going the same way.",
         trap:
           "Judging the pass on whether you can see oncoming traffic is exactly the habit the solid line exists to override. The line is the answer, not your view.",
+        excerptKey: "solid-line-no-passing",
         sourceLabel: "Official MTO Driver's Handbook — Pavement markings",
         sourceUrl: `${H}/pavement-markings`,
       },
@@ -280,6 +292,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Right on red is permission, not priority. Cross traffic has a green and pedestrians may have a walk signal, so everyone gets to go before you do. A posted no-right-turn-on-red sign cancels the permission entirely at that approach. The same stop-then-yield logic covers the one other red-light turn Ontario allows: a left turn from a one-way road onto another one-way road.",
         trap:
           "The rolling stop is the classic answer people give from experience rather than from the rulebook. Slowing is not stopping.",
+        excerptKey: "right-turn-on-red",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -300,6 +313,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Ontario runs a zero-tolerance rule for every novice driver at G1 and G2, and separately for every driver aged 21 and under regardless of licence class. The accompanying driver beside a G1 is held to a different standard — under .05 — because they are supervising rather than driving. Breaking a graduated licensing condition brings a 30-day suspension on conviction, and repeat occurrences escalate from there.",
         trap:
           "The .05 figure is genuinely in the handbook, which makes it feel right — but it is the ceiling for the accompanying driver, not for the G1 at the wheel.",
+        excerptKey: "g1-zero-bac",
         sourceLabel: "Official MTO Driver's Handbook — Getting your driver's licence",
         sourceUrl: `${H}/getting-your-drivers-licence`,
       },
@@ -321,6 +335,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "HOV lanes on provincial highways are marked by a diamond on the pavement, diamond signs above the leftmost lane, and a striped buffer zone separating them from general traffic. You enter and leave only where the buffer breaks into a broken white line — crossing the stripes is both unsafe and an offence. A short list of vehicles may use the lane with the driver alone: buses, licensed taxis and airport limousines, emergency vehicles, motorcycles, and vehicles with green plates.",
         trap:
           "Three occupants is the rule in several other jurisdictions and gets imported by drivers who learned elsewhere. In Ontario, two is enough.",
+        excerptKey: "hov-lane-sign",
         commonlyMissed: true,
         sourceLabel: "Ontario.ca — High occupancy vehicle (HOV) lanes",
         sourceUrl: `${ON}/high-occupancy-vehicle-hov-lanes`,
@@ -342,6 +357,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Below the threshold and with nobody hurt, you are still legally obliged to exchange information with the other driver — name, address, licence, plate and insurance details — and it is sensible to photograph the scene and note witnesses. The dollar figure is an estimate of total damage across everything involved, not just your own car, which is why modest-looking collisions often clear it. Move drivable vehicles clear of traffic before sorting any of this out.",
         trap:
           "The $2,000 figure was Ontario's threshold for years and is still repeated everywhere. It has been raised, and the current number is $5,000.",
+        excerptKey: "collision-report-5000",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Dealing with emergencies",
         sourceUrl: `${H}/dealing-emergencies`,
@@ -364,6 +380,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The point of the sign is closing speed. If you are travelling at 80 km/h and the vehicle ahead is doing 20, the gap shuts far faster than your eyes estimate, and rear-end collisions with farm equipment are a real rural pattern. When you see the triangle, slow early, look well past the vehicle before considering a pass, and remember that wide equipment may need most of the road at driveways and field entrances.",
         trap:
           "Dangerous-goods placards are also bright rectangles on the back of slow vehicles, but they are diamond-shaped and numbered. Shape settles it.",
+        excerptKey: "slow-moving-vehicle-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -385,6 +402,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The principle is that traffic already established on a route keeps it. That is why you yield when entering from a driveway, a parking lot or a private road, and why the same logic governs merging onto a freeway and entering a roundabout. Sidewalks count: pedestrians crossing the mouth of the driveway have priority over you, and creeping forward until they stop walking does not transfer it.",
         trap:
           "Nosing out until the sidewalk is behind you feels like it establishes your claim. It does not — it just puts you in the pedestrians' path.",
+        excerptKey: "driveway-yield",
         sourceLabel: "Official MTO Driver's Handbook — Driving through intersections",
         sourceUrl: `${H}/driving-through-intersections`,
       },
@@ -406,6 +424,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Three displays cover the whole sequence. The walking figure means it is safe to begin. The flashing hand, with or without a countdown, means do not start but finish if you have. The steady hand means stay on the curb. For a driver, the flashing hand is the signal to expect people still in your turning path even though your own light may already be green — you wait for them regardless of what the numbers say.",
         trap:
           "Reading the countdown as time still available to begin is the common misreading, and it puts drivers turning across the crosswalk in exactly the wrong frame of mind.",
+        excerptKey: "pedestrian-signals",
         sourceLabel: "Official MTO Driver's Handbook — Pedestrian signals",
         sourceUrl: `${H}/pedestrian-signals`,
       },
@@ -421,6 +440,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The G1 curfew is absolute, unlike the G2's night rule which limits passengers rather than driving itself. The other G1 conditions run alongside it: zero blood alcohol, a qualified accompanying driver in the front passenger seat, a working seatbelt for every occupant, and no driving on 400-series highways posted above 80 km/h or on the QEW, Don Valley Parkway, Gardiner Expressway, E.C. Row Expressway or Conestoga Parkway. The highway ban lifts only when a licensed driving instructor is supervising.",
         trap:
           "Midnight to 6 a.m. is the shape most people half-remember, because curfews elsewhere often run to dawn. Ontario's ends at five.",
+        excerptKey: "g1-midnight-to-five",
         sourceLabel: "Official MTO Driver's Handbook — Getting your driver's licence",
         sourceUrl: `${H}/getting-your-drivers-licence`,
       },
@@ -442,6 +462,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "A curve is usually signed twice. A yellow diamond well before it announces the bend and often carries a smaller tab with an advisory speed. The chevrons then sit in the curve itself, one after another, giving you a continuous reference for how tightly it turns. If the chevrons keep coming, the curve keeps going — that is the information a single sign cannot give you.",
         trap:
           "Detour arrows also point the way around something, but those are orange and belong to the temporary-conditions family.",
+        excerptKey: "chevron-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -457,6 +478,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "One metre is the floor, not the goal — a cyclist may swerve for a pothole, a grate or a car door without warning, and gusts from a passing vehicle destabilise them further. If the lane is too narrow to leave a metre, the correct move is to wait behind until the road opens rather than squeeze past. Bike lanes are for cyclists; you enter one only to complete a turn, and you check your mirror and shoulder for a cyclist before opening any door on the traffic side.",
         trap:
           "Half a metre feels generous from behind the wheel because it looks like plenty of space through a windscreen. The measured requirement is double that.",
+        excerptKey: "cyclist-one-metre",
         sourceLabel: "Official MTO Driver's Handbook — Sharing the road with other road users",
         sourceUrl: `${H}/sharing-road-other-road-users`,
       },
@@ -478,6 +500,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Checkerboards and chevrons do related jobs from different positions. Chevrons run along the outside of a curve, guiding you through it. A checkerboard faces you at the point where continuing straight would take you off the road entirely — a T-junction, a sharp turn, the end of a road. Both are yellow-and-black warnings, and both mean the same practical thing: get your speed down before you arrive.",
         trap:
           "Because the sign is so emphatic, people reach for the stop answer. It is a warning about direction, not a prohibition on travel.",
+        excerptKey: "checkerboard-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -498,6 +521,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The rule exists because a one-way-to-one-way left turn crosses no opposing traffic stream, which makes it structurally the same manoeuvre as a right on red. The moment either road carries two-way traffic, you would be turning across vehicles with a green, and the permission disappears. As with any red-light turn, a posted sign can cancel it, and pedestrians in the crosswalk go first.",
         trap:
           "Turning onto a one-way road is the half of the rule people remember, so the from-any-road option reads as correct. Both roads must be one-way.",
+        excerptKey: "left-turn-on-red-one-way",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
@@ -519,6 +543,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "There is a second trigger with nothing to do with the clock: any time poor light, fog, rain or snow stops you from clearly seeing people or vehicles less than 150 metres away, headlights go on. Daytime running lights do not satisfy either rule, because they leave your tail lights dark and make you nearly invisible from behind in bad weather. Switching the headlights on brings up the parking lights, tail lights and licence plate light with them.",
         trap:
           "Sunset-to-sunrise is the intuitive answer and the one most people give. Ontario deliberately adds half an hour at each end.",
+        excerptKey: "headlights-when-required",
         sourceLabel: "Official MTO Driver's Handbook — Getting ready to drive",
         sourceUrl: `${H}/getting-ready-drive`,
       },
@@ -540,6 +565,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "This sign and its mirror image are the classic Ontario confusion pair. Divided highway begins shows one roadway opening into two, and once you are past it every vehicle beside you is going the same way as you. Divided highway ends shows two roadways closing into one, and it matters far more — from that point you are back to facing oncoming traffic, and drivers who have settled into divided-highway habits are the ones who get caught out.",
         trap:
           "The two symbols are near-identical and the eye does not register which end is which. Read the direction of travel, not the picture as a whole.",
+        excerptKey: "divided-highway-begins-sign",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
@@ -561,6 +587,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Ontario roundabouts run counter-clockwise, so every vehicle keeps the central island on its left. Choose your lane before you arrive: the right lane serves right turns and straight-through, the left lane serves left turns and straight-through. Signal right once you have passed the exit before the one you want. Give large trucks and buses room — they may need both lanes and the mountable apron — and watch for cyclists holding the centre of a lane and pedestrians at the splitter islands.",
         trap:
           "The right-hand tiebreaker from uncontrolled intersections gets applied here out of habit, but a roundabout entry is a yield, not a tie.",
+        excerptKey: "roundabout-yield-left",
         sourceLabel: "Official MTO Driver's Handbook — Changing directions",
         sourceUrl: `${H}/changing-directions`,
       },
@@ -577,6 +604,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The pair of defaults — 50 inside cities, towns and villages, 80 outside them — covers every road with no sign on it. Freeways are posted, usually at 100 km/h with some sections at 110, and those numbers come from the signs rather than from any default. None of these figures is a promise that the speed is safe: gravel shoulders, fog, wildlife and blind crests all oblige you to travel below the posted number.",
         trap:
           "Ninety is the intuitive guess because 80 feels slow for open country, and because several other provinces sit higher. Ontario's rural default is 80.",
+        excerptKey: "default-speed-limits",
         sourceLabel: "Official MTO Driver's Handbook — Driving along",
         sourceUrl: `${H}/driving-along`,
       },
@@ -597,6 +625,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The colour tells you who is on the other side and the pattern tells you whether you may go there. White means same direction, yellow means opposing direction; broken means crossing is allowed, solid discourages or prohibits it. A broken white line that becomes noticeably wider with the dashes closer together is a continuity line, warning that your lane is about to end or peel off the road.",
         trap:
           "Solid and broken get conflated when traffic is heavy and the markings are worn. The pattern under your left mirror is the one that governs.",
+        excerptKey: "broken-line-passing",
         sourceLabel: "Official MTO Driver's Handbook — Pavement markings",
         sourceUrl: `${H}/pavement-markings`,
       },
@@ -617,6 +646,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Because the clock starts at the offence, a charge that takes months to reach court has already burned part of its two years by the time the points land. Points accumulate across that window, which is what makes a run of small infractions dangerous: a novice driver reaching nine points is suspended for 60 days, while a fully licensed driver has until 15. The record itself, as distinct from the points, is kept far longer.",
         trap:
           "Dating the two years from conviction is the natural assumption, and it will have you expecting points to clear later than they actually do.",
+        excerptKey: "demerit-two-years",
         sourceLabel: "Official MTO Driver's Handbook — Keeping your driver's licence",
         sourceUrl: `${H}/keeping-your-drivers-licence`,
       },
@@ -637,6 +667,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The zone does not, by itself, change the speed limit, the passing rules or who may use the road. Those still come from the posted signs. What it changes is the cost of getting them wrong — speeding, red-light running and similar offences carry increased fines between the start and end signs. Zones commonly cover schools, parks, seniors' residences and daycares, which is a hint about what you should be watching for regardless of the fines.",
         trap:
           "It reads as a speed-limit sign because of where the zones are placed. Any lower limit inside one is posted separately on its own sign.",
+        excerptKey: "community-safety-zone",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -658,6 +689,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The instinct to accelerate is the dangerous one — you cannot outrun the vehicle, and you arrive at the next intersection faster than you can handle. Stopping in your lane is nearly as bad, because it leaves the road width unchanged. There is a separate rule for emergency and tow vehicles already stopped with lights flashing: slow down, and where the road has two or more lanes in your direction, move over to leave a lane between you and them if it is safe. Following a fire vehicle responding to an alarm within 150 metres is an offence in itself.",
         trap:
           "Pulling left seems reasonable on a road where the right shoulder is soft or occupied, but it splits traffic unpredictably and blocks the lane drivers behind you are expecting to use.",
+        excerptKey: "emergency-vehicle-pull-right",
         sourceLabel: "Official MTO Driver's Handbook — Dealing with particular situations",
         sourceUrl: `${H}/dealing-particular-situations`,
       },
@@ -679,6 +711,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Ontario draws a sharp line between an ordinary crosswalk and a pedestrian crossover. A crossover is marked with parallel lines plus a large X painted in each approaching lane, and often overhead signs and flashing beacons; it obliges you to yield and then to hold until the far curb is reached. Passing another vehicle within 30 metres of a crossover is prohibited, because the vehicle you overtake may be stopped for someone you cannot see. Failing to stop for a crossover carries four demerit points.",
         trap:
           "Rolling forward as soon as the pedestrian is past your lane feels courteous and efficient, and it is the single most common crossover violation.",
+        excerptKey: "crossover-yield",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Stopping",
         sourceUrl: `${H}/stopping`,
@@ -696,6 +729,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "These clearances exist to protect sight lines rather than to create tidy parking. A vehicle parked tight to a corner hides approaching traffic from the driver waiting to pull out, and hides a pedestrian stepping off the curb from everyone. The related figures worth holding together: three metres from a hydrant, nine from an intersection, fifteen at a signalised intersection, fifteen from the nearest rail of a railway crossing, and six from the public entrance of a hotel, theatre or public hall while it is open.",
         trap:
           "Fifteen metres is a real intersection figure, which makes it feel safe to pick — but it applies only where the intersection is signalised.",
+        excerptKey: "parking-intersection",
         sourceLabel: "Official MTO Driver's Handbook — Parking along roadways",
         sourceUrl: `${H}/parking-along-roadways`,
       },
@@ -716,6 +750,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The flashing family is worth learning as a set because each member behaves differently. Flashing red means stop, then go when safe. Flashing amber means proceed with caution without stopping. Flashing green is an advance green and gives your approach every movement while oncoming traffic holds at red. A signal showing nothing at all — a power failure, say — is treated as an all-way stop, yielding to anyone already in the intersection and to traffic on your right.",
         trap:
           "Flashing red and flashing amber often face each other across the same intersection, so drivers assume both mean the same cautious approach. Only one of them demands a stop.",
+        excerptKey: "flashing-red-light",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -736,6 +771,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "A plow's blue flashing lights are visible from about 150 metres, and its wing can reach as much as three metres out to the right — so the space that looks like an empty shoulder is often occupied by steel. Plows also throw snow that blinds anyone alongside. Add to that the fact that the surface in front of the plow is still snow-covered, and every version of passing puts you on worse footing than the one you were on.",
         trap:
           "Squeezing past on the right looks feasible because the plow sits left of centre. That is precisely where the wing is.",
+        excerptKey: "snow-plow-no-passing",
         sourceLabel: "Official MTO Driver's Handbook — Driving at night and in bad weather",
         sourceUrl: `${H}/driving-night-and-bad-weather`,
       },
@@ -756,6 +792,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Surface warnings all share the yellow diamond and all ask for the same first response, which is speed. Related members of the family cover pavement narrowing, the paved surface ending and gravel beginning, slippery-when-wet pavement, and milled or grooved pavement in work zones. Motorcyclists are affected far more than drivers by every one of them, which is worth remembering before you brake hard with a rider behind you.",
         trap:
           "Traffic-calming speed humps are marked and signed differently, and reading the symbol that way suggests a designed, gentle obstacle rather than damaged road.",
+        excerptKey: "warning-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -777,6 +814,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Streetcars come with their own small set of rules. You pass them on the right, unless you are on a one-way road. Where a stop has a raised safety island or zone, passengers are protected and you pass at a reasonable speed rather than stopping. Where there is no island, the two-metre rule applies and you hold until the doors close and everyone is clear.",
         trap:
           "Twenty metres is the school bus figure, and the situations feel parallel — people boarding and alighting into live traffic. The distances are not the same.",
+        excerptKey: "streetcar-two-metres",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Changing positions",
         sourceUrl: `${H}/changing-positions`,
@@ -799,6 +837,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Once you have stopped, you wait for the signals to stop flashing and, where there is a gate, for it to rise fully. Never drive around a gate that is down, being lowered or being raised. Avoid changing gear while you are on the tracks. A train under full emergency braking can need up to two kilometres to stop, so nothing about the crossing is negotiable on your side. Most buses must stop at crossings that lack gates, signals or a stop sign, and school buses stop at every crossing regardless of protection.",
         trap:
           "Stopping behind the crossbuck feels sufficient because the sign is the visible marker, but the sign's position has nothing to do with the five-metre requirement.",
+        excerptKey: "railway-stop-distance",
         sourceLabel: "Official MTO Driver's Handbook — Stopping",
         sourceUrl: `${H}/stopping`,
       },
@@ -820,6 +859,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The staircase below that runs: rear-facing seat for infants under 9 kg, forward-facing seat with a tether strap for toddlers between 9 and 18 kg, then a booster for children between 18 and 36 kg who are under eight and under 145 cm. The reason height matters is geometry — a belt that crosses a small child's neck and abdomen instead of the shoulder and hips does harm in a crash. The driver is legally responsible for every passenger under 16 being properly secured.",
         trap:
           "Reading the three thresholds as conditions that must all be met, rather than any one of them, is the usual error and keeps children in boosters past the point required.",
+        excerptKey: "booster-seat-required",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Getting ready to drive",
         sourceUrl: `${H}/getting-ready-drive`,
@@ -852,6 +892,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The three signs form a ladder of strictness. No parking is loosest: you may stop briefly for either passengers or merchandise, but you may not leave the vehicle parked. No standing tightens that to passengers only. No stopping is absolute — you may not bring the vehicle to a halt there for any reason, however briefly. Because the artwork differs only in wording, the sign that looks least severe may be the one that permits the most.",
         trap:
           "No parking is the tempting pick because it is the loosest of the three, and it does allow passenger drop-offs. But it also allows merchandise, so it is not the sign the question describes.",
+        excerptKey: "no-standing-sign",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
@@ -874,6 +915,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Novice conditions are enforced through escalating sanctions rather than through the demerit system alone. The escalation is triggered within a five-year window by any combination of repeat novice-condition violations, convictions carrying four or more demerit points, and court-ordered suspensions. Later occurrences move well beyond 30 days, up to losing your place in the graduated system entirely and starting over with new tests and new fees.",
         trap:
           "Expecting demerit points is the natural reading, since that is how most traffic offences work. Novice-condition breaches bypass points and hit the licence directly.",
+        excerptKey: "novice-condition-violation",
         sourceLabel: "Official MTO Driver's Handbook — Other ways to lose your licence",
         sourceUrl: `${H}/other-ways-lose-your-licence`,
       },
@@ -895,6 +937,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "An uncontrolled intersection is governed first by who was there first, and only second by position. That second layer — the driver on the left yields to the driver on the right — exists purely to break ties. The same two-layer structure governs an all-way stop, where the first vehicle to come to a complete stop leads and simultaneous arrivals are settled by the right-hand rule. Neither layer obliges you to enter an intersection you cannot cross safely.",
         trap:
           "The right-hand rule is memorable and gets applied as though it were the whole rule. It is the tiebreaker, not the default.",
+        excerptKey: "uncontrolled-intersection",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Driving through intersections",
         sourceUrl: `${H}/driving-through-intersections`,
@@ -917,6 +960,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Ontario shows a protected left three ways, and they are worth separating. A green arrow with a red ball means turn left only. A green arrow with a green ball, or a flashing green ball, is the advance green — every movement from your approach is permitted while oncoming traffic holds. Where an intersection has a fully protected left, the arrow is your only opportunity, and once it ends and the through traffic gets its green you may not begin the turn. Pedestrians in your path still go first in every one of these cases.",
         trap:
           "Treating the arrow as a general override and driving straight through on it is the dangerous misread — the through movement is still on red.",
+        excerptKey: "simultaneous-left-turn",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -937,6 +981,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The asymmetry is about how the light reaches the other driver's eyes. A vehicle coming at you takes your high beams directly, so you need to switch far earlier. A vehicle you are following takes them via its mirrors, which is still dazzling but at shorter range. The exception is the moment of a pass, when high beams are allowed to help you see the road ahead. Separately, headlights are mandatory whenever you cannot clearly see people or vehicles less than 150 metres away.",
         trap:
           "The two numbers get swapped, which produces exactly the wrong behaviour: late switching for oncoming drivers and unnecessarily early switching behind.",
+        excerptKey: "high-beam-distances",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Getting ready to drive",
         sourceUrl: `${H}/getting-ready-drive`,
@@ -960,6 +1005,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "Applying the exception on any wide multi-lane road is the costly version of this mistake. Look for a physical divider, not lane count.",
+        excerptKey: "school-bus-median",
         sourceLabel: "Official MTO Driver's Handbook — Sharing the road with other road users",
         sourceUrl: `${H}/sharing-road-other-road-users`,
       },
@@ -981,6 +1027,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Yellow diamonds describe the road as it is and will remain: curves, hills, crossings, wildlife corridors, narrow structures. Orange diamonds appear when something has been changed and will be changed back — road work ahead, survey crew working, a traffic control person, milled pavement, lane closures, detours. Neither colour sets a speed limit. Where a construction zone carries doubled fines, that is announced on its own separate rectangular sign.",
         trap:
           "Detour signs feel like a permanent-signage job because they carry navigation information, but detours are temporary by definition and wear orange.",
+        excerptKey: "temporary-condition-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1022,6 +1069,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The advance sign is a warning to reduce speed, not an instruction about lanes. Lane guidance usually comes separately, on a green information sign showing which exit each lane serves. Once you are in the roundabout, keep the central island on your left, choose the right lane for right turns and straight-through and the left lane for left turns and straight-through, and signal right only after passing the exit before yours.",
         trap:
           "An orange version would mean the roundabout is a temporary arrangement around construction. The permanent warning is yellow.",
+        excerptKey: "roundabout-ahead-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1042,6 +1090,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The full set is short enough to memorise: 3 metres from a fire hydrant, 6 metres from the public entrance of a hotel, theatre or public hall while it is open, 9 metres from an ordinary intersection, 15 metres from a signalised intersection, 15 metres from the nearest rail of a railway crossing, and no parking on or within 100 metres of a bridge. On top of those, never park where drivers approaching cannot see at least 125 metres in each direction.",
         trap:
           "Nine metres appears in the list, just attached to intersections. Numbers from this set migrate between rules more than any others on the test.",
+        excerptKey: "parking-railway",
         sourceLabel: "Official MTO Driver's Handbook — Parking along roadways",
         sourceUrl: `${H}/parking-along-roadways`,
       },
@@ -1063,6 +1112,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The marking tells the story: yellow because opposing traffic uses it, broken on the inside because you are permitted to enter, solid on the outside because through traffic is not. You move into it only to make your left turn, and only shortly before the turn — it is not a lane to travel along, and it is never a passing lane. Expect a vehicle from the opposite direction to be sitting in it a short distance ahead of you.",
         trap:
           "Reading it as a lane reserved for your direction is the misuse that causes head-on conflicts, because the driver coming the other way has exactly the same right to be there.",
+        excerptKey: "two-way-left-turn-lane",
         sourceLabel: "Official MTO Driver's Handbook — Changing directions",
         sourceUrl: `${H}/changing-directions`,
       },
@@ -1083,6 +1133,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The organising idea is sight distance. Even where a U-turn is permitted, you need a clear view of at least 150 metres in both directions before you commit, because the manoeuvre puts your vehicle broadside across the road at low speed. Signs prohibiting U-turns override all of this at particular intersections, and on a divided highway the median openings are generally not there for you to use.",
         trap:
           "A solid centre line is about passing, not turning. Assuming it also bans U-turns produces the right caution for the wrong reason and the wrong answer here.",
+        excerptKey: "u-turn-restrictions",
         sourceLabel: "Official MTO Driver's Handbook — Changing directions",
         sourceUrl: `${H}/changing-directions`,
       },
@@ -1103,6 +1154,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The two tables run in parallel but at different heights. A novice driver gets a warning letter at two points, a second letter at six, and a 60-day suspension at nine, returning at four. A fully licensed driver gets a warning letter at six, a second at nine, and a 30-day suspension at fifteen, returning at seven. Reaching the suspension threshold again risks a six-month suspension. Points sit on the record for two years from the date of the offence, so the counter never resets cleanly.",
         trap:
           "The 30-days-and-back-to-seven answer is the fully licensed driver's outcome. Novices are suspended sooner, for longer, and come back closer to the threshold.",
+        excerptKey: "novice-nine-points",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Keeping your driver's licence",
         sourceUrl: `${H}/keeping-your-drivers-licence`,
@@ -1125,6 +1177,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Warning signs come in two flavours worth telling apart. Most describe something about the road you are on — a curve, a bump, a narrowing. This one describes the state of mind of a driver you have not met yet, on a road you can see into but they cannot see out of. The response is a speed reduction and a covered brake, not a change in who yields to whom.",
         trap:
           "Assuming the sign transfers the right of way to the side road is the plausible-sounding error. Nothing about a warning sign changes right of way.",
+        excerptKey: "hidden-sideroad-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1147,6 +1200,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "Leaving tow trucks out of the rule is the common gap, because they are not emergency services. Amber flashing lights on a stopped tow truck trigger the same duty.",
+        excerptKey: "move-over-change-lane",
         sourceLabel: "Ontario.ca — Driving near emergency vehicles",
         sourceUrl: `${ON}/driving-near-emergency-vehicles`,
       },
@@ -1167,6 +1221,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Mixing tire types across an axle set gives you two ends of the car with different grip, which is how a slide starts. The related maintenance figure is tread depth: replace tires once tread falls below 1.5 mm, and below 3 mm on the front tires of vehicles over 4,500 kg. Some other provinces do mandate winter tires seasonally, which is where the December-to-March idea comes from.",
         trap:
           "The seasonal mandate is real law in Quebec and on some British Columbia routes, so drivers who have travelled assume it applies here too.",
+        excerptKey: "winter-tires",
         sourceLabel: "Official MTO Driver's Handbook — Maintaining your vehicle",
         sourceUrl: `${H}/maintaining-your-vehicle`,
       },
@@ -1187,6 +1242,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Both are yellow-and-black, both belong to the warning family, and both are about direction rather than about the surface. The practical difference is position and count. If you are seeing several arrowheads in a line, the road is bending and they are showing you how much. If you are seeing one large panel head-on, the road is turning hard or ending, and the arrow on it is your only remaining route.",
         trap:
           "Detour signs also tell you the road ahead is not available, but they are orange and temporary, which places them in a different family entirely.",
+        excerptKey: "chevron-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1208,6 +1264,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "An unprotected left is a two-stage move: enter the intersection on green, then complete the turn when a gap appears. That is different from starting the turn on an amber from behind the stop line, which you should not do if you can stop safely. Waiting through a full cycle while sitting in the middle of the intersection blocks the cross traffic that is about to get its green, which is why finishing the turn is the right answer rather than the impatient one.",
         trap:
           "Turning the moment the light changes, without confirming oncoming traffic has actually stopped, is the version of this that causes collisions — amber does not guarantee everyone stops.",
+        excerptKey: "left-turn-complete-in-intersection",
         sourceLabel: "Official MTO Driver's Handbook — Driving through intersections",
         sourceUrl: `${H}/driving-through-intersections`,
       },
@@ -1228,6 +1285,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The distinction matters because the obligations differ. At a crossover you must yield and then remain stopped until the pedestrian has crossed the entire road, and you may not pass another vehicle within 30 metres of it. Crossovers usually add overhead signs and flashing beacons and often push buttons. Failing to stop for one carries four demerit points, which is more than most moving violations.",
         trap:
           "Assuming yellow marks the more serious crossing is a reasonable guess from the line-colour convention, but yellow means opposing traffic and has nothing to do with pedestrians.",
+        excerptKey: "crossover-markings",
         sourceLabel: "Official MTO Driver's Handbook — Pavement markings",
         sourceUrl: `${H}/pavement-markings`,
       },
@@ -1243,6 +1301,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "This rule sits alongside the crossover's other obligations: yield to anyone on the crossing and stay stopped until they reach the far curb. The 30-metre buffer covers the approach from both directions. It is one of a family of sight-line rules — the same instinct governs why you may not pass on a hill or a curve, and why you keep back from a stopped school bus.",
         trap:
           "Fifteen metres feels about right because it is roughly a couple of car lengths, and because 15 appears elsewhere in the parking rules. The crossover figure is double that.",
+        excerptKey: "crossover-no-passing",
         sourceLabel: "Official MTO Driver's Handbook — Changing positions",
         sourceUrl: `${H}/changing-positions`,
       },
@@ -1263,6 +1322,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Everything about school bus stopping keys off the signals rather than the bus. Amber lights mean slow and prepare; red lights with the stop arm mean traffic in both directions stops, unless a median divides the road. In a designated loading zone the bus uses neither, because the zone is laid out so children are not crossing traffic. Drive through it slowly and expect children nearby, but you are not required to stop.",
         trap:
           "The reflex is that anything with the words school bus on it means stop. Here it means the opposite, which is what makes it a good test question.",
+        excerptKey: "school-bus-loading-zone-sign",
         commonlyMissed: true,
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
@@ -1306,6 +1366,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "The merge answer is genuinely tempting, because the symbol does show two things becoming one. But a lane merge involves traffic going your way; this involves traffic coming at you.",
+        excerptKey: "divided-highway-ends-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1326,6 +1387,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Freeway design assumes every vehicle is moving forward at roughly the same speed, and every emergency on a freeway comes from breaking that assumption. That is also why you enter using the full acceleration lane to reach traffic speed before merging, why you signal into the deceleration lane before slowing rather than slowing in the through lane, and why a vehicle in trouble goes onto the nearest shoulder rather than stopping in a driving lane.",
         trap:
           "Crossing the painted gore looks harmless when nothing is beside you, but that is exactly where a vehicle already committed to the ramp emerges at a different speed and angle.",
+        excerptKey: "freeway-missed-exit",
         sourceLabel: "Official MTO Driver's Handbook — Freeway driving",
         sourceUrl: `${H}/freeway-driving`,
       },
@@ -1347,6 +1409,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Regulatory signs of this family all work the same way: the symbol shows the movement, the slash cancels it. A slashed left arrow bans left turns, a slashed U-shaped arrow bans U-turns, a slashed straight arrow bans going through. Read the arrow first and the slash second, and each of them decodes without memorisation. They are white rectangles because they are law, not warnings.",
         trap:
           "Reading it as a do-not-enter sign is the intuitive jump, since both feel like a barrier. Do not enter uses a red circle with a horizontal bar and blocks the road entirely.",
+        excerptKey: "regulatory-circles",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1367,6 +1430,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The whole rule is about where the vehicle ends up if the brakes let go. Facing downhill, wheels go toward the curb or right shoulder in every case. Facing uphill with a curb, wheels go left so the tires roll back and catch against it. Facing uphill without a curb, wheels go sharply right so gravity carries the vehicle off the road. Whichever way you point them, set the parking brake, leave the transmission in park or in gear, and take the key.",
         trap:
           "Uphill with a curb takes the wheels to the left, and that version is the one most people memorise. Remove the curb and the answer flips.",
+        excerptKey: "parking-hill-uphill-no-curb",
         sourceLabel: "Official MTO Driver's Handbook — Parking along roadways",
         sourceUrl: `${H}/parking-along-roadways`,
       },
@@ -1388,6 +1452,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Most drivers read line colour and line pattern but never line weight, which is why this one catches people. It appears where a through lane becomes an exit-only lane on a freeway, and where a lane drops on an arterial. The instruction is not urgent — you have room — but ignoring it means being funnelled onto an exit or into a curb lane you did not want.",
         trap:
           "Reading it as an ordinary broken white line and staying put is exactly what the extra width is trying to prevent.",
+        excerptKey: "continuity-lines",
         sourceLabel: "Official MTO Driver's Handbook — Pavement markings",
         sourceUrl: `${H}/pavement-markings`,
       },
@@ -1408,6 +1473,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Emergency procedures share a logic: use the gentlest control that might work before escalating, and never do anything that costs you steering. Pumping the brakes costs you nothing. A parking brake yanked on at speed can lock the rear wheels and spin the car, so it goes on progressively. Killing the engine takes away power steering and brake assist, which is why it is not the opening move. The same principle explains lifting a stuck accelerator with your foot and shifting to neutral, and easing off the pedals in a skid rather than braking.",
         trap:
           "The parking brake sounds like the obvious backup because that is its name, and applied abruptly at speed it is how a brake failure becomes a collision.",
+        excerptKey: "brake-failure",
         sourceLabel: "Official MTO Driver's Handbook — Dealing with emergencies",
         sourceUrl: `${H}/dealing-emergencies`,
       },
@@ -1428,6 +1494,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "This is one of a small set of transit-specific rules. Separately, a transit priority signal at an intersection obliges both traffic and pedestrians to yield to public transit vehicles. Streetcars carry their own rules again: pass on the right unless the road is one-way, and stay two metres behind the rear doors while passengers are getting on or off where there is no safety island.",
         trap:
           "Reading it as a permanent yield to the bus is the over-correction; it applies at the moment the bus signals, not for the whole time you are behind it.",
+        excerptKey: "bus-yield-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1449,6 +1516,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Two separate bans are at work. The first is generic: no 400-series highway posted above 80 km/h. The second is a specific list — the QEW, the Don Valley Parkway, the Gardiner Expressway, the E.C. Row Expressway in Windsor and the Conestoga Parkway in Kitchener-Waterloo — barred by name because they are high-speed roads without 400-series numbering. Both bans lift when a licensed driving instructor is supervising, which is how G1 drivers get highway practice.",
         trap:
           "Because the general rule is phrased around 400-series numbering, drivers assume the QEW and the Gardiner escape it. They are listed separately for exactly that reason.",
+        excerptKey: "g1-400-series",
         sourceLabel: "Official MTO Driver's Handbook — Getting your driver's licence",
         sourceUrl: `${H}/getting-your-drivers-licence`,
       },
@@ -1464,6 +1532,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The distance protects two things: the crew, who will stop abruptly and step out into the road on arrival, and the drivers ahead, who are pulling right in response to the siren and will not expect a second vehicle in the fire truck's slipstream. The related rules cover pulling as far right as safely possible and stopping when any emergency vehicle approaches with lights and siren, and slowing plus moving over for emergency and tow vehicles already stopped with lights flashing.",
         trap:
           "Sixty metres reads as a sensible following gap at urban speeds, and 150 sounds excessive — until you picture where the truck stops and where its crew goes next.",
+        excerptKey: "fire-vehicle-150-metres",
         sourceLabel: "Official MTO Driver's Handbook — Dealing with particular situations",
         sourceUrl: `${H}/dealing-particular-situations`,
       },
@@ -1484,6 +1553,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Surface-condition warnings all sit in the yellow diamond family and are all answered with speed. Nearby relatives include water over road, bump or uneven pavement, pavement narrows, and paved surface ends. What separates this one is that the hazard is conditional: on a dry day the stretch behaves normally, which is precisely why drivers who know the road get caught by it after the first rain.",
         trap:
           "Water over road is the plausible neighbour, and the two get confused. That one warns of water sitting on the surface; this one warns of the surface itself.",
+        excerptKey: "warning-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1505,6 +1575,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "This is a fallback rule, and it works because every approach applies it identically — the intersection reverts to the oldest and simplest protocol available. It is the same logic that governs an uncontrolled intersection with no signs at all. What it is not is permission to keep moving because nothing is telling you to stop; the absence of a signal is a stop, not a green.",
         trap:
           "Reading a dark signal as no instruction, and therefore as no obligation, is the assumption that causes collisions during outages when two drivers make it simultaneously.",
+        excerptKey: "blank-traffic-lights",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -1526,6 +1597,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Everything not on the exempt list needs at least two people aboard, the driver included. Entry and exit happen only where the striped buffer breaks into a broken white line with diamond markings — crossing the stripes is an offence and a common source of collisions, because HOV lane speeds differ sharply from the lane beside them. Improper HOV use draws a fine and three demerit points.",
         trap:
           "A hybrid feels like it should qualify, and green-plate vehicles genuinely are exempt — but the exemption comes from the plate, not from the drivetrain.",
+        excerptKey: "hov-lane-sign",
         sourceLabel: "Ontario.ca — High occupancy vehicle (HOV) lanes",
         sourceUrl: `${ON}/high-occupancy-vehicle-hov-lanes`,
       },
@@ -1548,6 +1620,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "Because the number sits on a sign and looks exactly like a speed limit, it gets treated as one — either as a ticketable limit or, worse, as a floor you should not drop below.",
+        excerptKey: "curve-advisory-speed-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1568,6 +1641,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "A skid is a loss of grip, and every pedal input asks the tires for grip they do not currently have. Removing the demand is what lets them find the surface again. The steering half is about where you look — drivers go where their eyes go, so fixing on your intended path does most of the work. Related winter reflexes: no cruise control on snow or ice, low beams rather than high in a whiteout, and suspicion of any asphalt that looks black and glossy rather than grey-white.",
         trap:
           "Steering opposite is a garbled memory of the phrase steer into the skid, and it is the one response that makes the situation worse.",
+        excerptKey: "skid-recovery",
         sourceLabel: "Official MTO Driver's Handbook — Driving at night and in bad weather",
         sourceUrl: `${H}/driving-night-and-bad-weather`,
       },
@@ -1589,6 +1663,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Three warnings in this family look similar and mean different things. Pavement narrows means the width shrinks but the lanes remain. A narrow structure or bridge sign shows the outline of a structure and means the pinch has hard edges you can hit. A right lane ends sign means one lane genuinely disappears and somebody has to merge. Only the third involves a lane change; the other two involve holding your line more carefully.",
         trap:
           "The merge answer is the one most people pick, because narrowing and merging feel like the same event from the driver's seat. The lane count is what separates them.",
+        excerptKey: "warning-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1609,6 +1684,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "High beams in a whiteout bounce off the snow in the air and reduce what you can see rather than increasing it, which is the same reason they fail in fog. Cruise control is worse than useless on a slippery surface because it will feed power to wheels that have already lost grip. Stopping in a live lane during near-zero visibility puts you exactly where the next vehicle cannot see you in time, which is why getting fully clear of the road is the first choice rather than the last.",
         trap:
           "High beams are the instinctive response to not being able to see, and in this specific situation they actively make it worse.",
+        excerptKey: "whiteout",
         sourceLabel: "Official MTO Driver's Handbook — Driving at night and in bad weather",
         sourceUrl: `${H}/driving-night-and-bad-weather`,
       },
@@ -1629,6 +1705,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "These signals typically use a distinctive white bar display rather than the usual coloured balls, and they let transit vehicles clear the intersection ahead of general traffic so a route stays on schedule. It is one of several places where transit outranks the ordinary right-of-way sequence — the yield-to-bus sign on the back of a bus pulling out from a stop is another.",
         trap:
           "Assuming pedestrians always outrank vehicles is a sound instinct almost everywhere else, which is what makes this exception easy to miss.",
+        excerptKey: "transit-priority-signal",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -1650,6 +1727,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Large vehicles have blind areas directly behind, along both sides and immediately in front of the cab, and the right-side one is the largest. Trucks also need far more room to stop than a car and swing wide on turns, sometimes moving left before turning right. The practical response is more following distance than the two-second baseline, and passing decisively rather than lingering alongside.",
         trap:
           "A tractor-trailer has no useful interior mirror at all, so the answer about the driver spotting you in one sounds reasonable to anyone thinking in terms of a car.",
+        excerptKey: "truck-blind-spots",
         sourceLabel: "Official MTO Driver's Handbook — Sharing the road with other road users",
         sourceUrl: `${H}/sharing-road-other-road-users`,
       },
@@ -1680,6 +1758,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Shape is the first layer of information on any Ontario sign. Diamonds warn, rectangles regulate or inform, the pentagon flags school areas, the crossbuck marks railways, and the octagon means stop. Triangles are not exclusive — the inverted triangle is a yield, but the slow-moving vehicle placard is also a triangle. Colour then adds a second layer: yellow for permanent warnings, orange for temporary ones, green for direction, white for regulation.",
         trap:
           "Yield looks like the obvious second single-purpose shape, but the triangle appears elsewhere, most visibly on the back of farm equipment.",
+        excerptKey: "stop-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1695,6 +1774,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Zero tolerance is a condition of the licence rather than a criminal threshold, which is why breaching it costs you the licence directly rather than adding demerit points. Fully licensed adult drivers face a warn range starting at .05 and a criminal threshold at .08, but neither figure is available to a novice. The accompanying driver sitting beside a G1 must be under .05 — that is the only .05 in the picture.",
         trap:
           "The .05 warn range is a genuine Ontario number and gets applied to the wrong person. It belongs to the supervisor, not the learner.",
+        excerptKey: "g1-zero-bac",
         sourceLabel: "Official MTO Driver's Handbook — Getting your driver's licence",
         sourceUrl: `${H}/getting-your-drivers-licence`,
       },
@@ -1715,6 +1795,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Yield and stop differ in that a stop sign mandates the halt regardless of whether anything is coming, while a yield mandates only the outcome: traffic already in or approaching the intersection goes ahead of you. That is why yields appear on merges and ramps, where stopping would be more dangerous than blending. Arriving at a yield too fast to stop if you have to is the failure mode the sign is guarding against.",
         trap:
           "Treating a yield as a stop sign is harmless in traffic but wrong on the test; treating it as a merge with automatic priority is wrong in both places.",
+        excerptKey: "yield-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1730,6 +1811,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Two defaults cover every unposted road: 50 km/h inside built-up areas and 80 km/h outside them. Posted signs override both. The default is a legal maximum for good conditions, not an entitlement — rain, snow, heavy traffic and construction all require you to travel below it, and doing the posted number in conditions that do not support it can still be charged.",
         trap:
           "Because so many residential streets are signed at 40, that number gets treated as the default. It only applies where posted.",
+        excerptKey: "default-speed-limits",
         sourceLabel: "Official MTO Driver's Handbook — Driving along",
         sourceUrl: `${H}/driving-along`,
       },
@@ -1750,6 +1832,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The amber phase exists to clear the intersection, not to extend the green. Judging it well means deciding early: at the point where the light changes you either have room to stop comfortably or you do not, and the decision should be made once rather than revised halfway. Hard braking that risks a rear-end collision is not what the rule asks for, and neither is accelerating to beat the red.",
         trap:
           "The absolute-stop answer sounds like the responsible one and is what many drivers assume the law says, but stopping unsafely is explicitly not required.",
+        excerptKey: "yellow-light",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -1770,6 +1853,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "An all-way stop runs on two rules layered on top of each other. The primary rule is order of stopping. The secondary rule, used only when two vehicles stop together, gives the tie to the vehicle on the right. Direction of travel does not enter into it, and neither does vehicle size. If the sequence gets muddled, the safe recovery is to yield rather than to assert your turn.",
         trap:
           "Rolling up first and treating that as your place in the queue is common and wrong — the clock starts when the wheels stop.",
+        excerptKey: "all-way-stop",
         sourceLabel: "Official MTO Driver's Handbook — Driving through intersections",
         sourceUrl: `${H}/driving-through-intersections`,
       },
@@ -1790,6 +1874,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The yellow diamond family includes several animal warnings — deer, moose, and in some areas cattle or snowmobile crossings. The response is the same for all of them: reduce speed, scan the shoulders and the treeline rather than only the pavement, and remember that animals travel in groups, so a second one usually follows the first. Braking in a straight line is generally safer than swerving.",
         trap:
           "Reading it as a park or sanctuary boundary turns a hazard warning into a piece of scenery, which is exactly the frame of mind that leads to a collision.",
+        excerptKey: "warning-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1811,6 +1896,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Amber lights are the warning that the stop is coming; red lights with the stop arm are the stop itself. Traffic in both directions stops unless the road is divided by a median, in which case only vehicles behind the bus are obliged to. A first offence brings six demerit points and a fine starting at $400, and the registered owner of a vehicle can be charged on camera evidence even if they were not driving.",
         trap:
           "Going as soon as the children look clear is the tempting shortcut, but a child who has crossed can turn back for a dropped bag while the arm is still out.",
+        excerptKey: "school-bus-stop-arm",
         sourceLabel: "Official MTO Driver's Handbook — Stopping",
         sourceUrl: `${H}/stopping`,
       },
@@ -1833,6 +1919,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "The rolling stop is what most drivers actually perform, so it reads as the normal answer. Slowing is not stopping, and the distinction is the whole rule.",
+        excerptKey: "right-turn-on-red",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -1853,6 +1940,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Level Two then runs a minimum of twelve months of its own before the second road test, so the whole graduated sequence takes at least twenty months. The five-year clock is the other figure worth knowing: you have five years to finish the process, and running out means starting over. The driver-education discount applies only to the first stage.",
         trap:
           "Assuming the course shortens every stage is the natural reading. The eight-month figure applies to Level One alone.",
+        excerptKey: "g1-twelve-months",
         sourceLabel: "Official MTO Driver's Handbook — Getting your driver's licence",
         sourceUrl: `${H}/getting-your-drivers-licence`,
       },
@@ -1873,6 +1961,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Crossings are signed in sequence. A yellow diamond gives advance warning and shows the angle of the tracks. The crossbuck stands at the crossing. Where the crossing is protected, flashing red signals and a gate are added. If a train is coming you stop at least five metres from the nearest rail or gate, wait for the signals to stop and the gate to rise, and never drive around a barrier that is down or moving.",
         trap:
           "A white X is also painted on the pavement at pedestrian crossovers, and that overlap sends people to the wrong answer.",
+        excerptKey: "railway-crossing-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1894,6 +1983,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "People read the pair of lines as a unit rather than reading the nearer one, which produces the wrong answer half the time by pure chance.",
+        excerptKey: "broken-line-passing",
         sourceLabel: "Official MTO Driver's Handbook — Pavement markings",
         sourceUrl: `${H}/pavement-markings`,
       },
@@ -1914,6 +2004,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Two seconds is the floor under ideal conditions, and almost nothing about real driving is ideal. Add time on wet or icy roads, behind motorcycles and large trucks, when you are carrying a heavy load, and at night. To measure it, watch the vehicle ahead pass a fixed object and count two full seconds before your own front bumper reaches the same point.",
         trap:
           "Four seconds is not wrong as advice, and it is what several other guides teach, but the figure Ontario states as the minimum is two.",
+        excerptKey: "following-distance",
         sourceLabel: "Official MTO Driver's Handbook — Driving along",
         sourceUrl: `${H}/driving-along`,
       },
@@ -1929,6 +2020,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The metre exists because a cyclist can be pushed sideways by your slipstream, or can swerve for a pothole, a sewer grate or an opening car door. Where the lane is too narrow to give a metre, the answer is to wait rather than to squeeze. Related duties: do not drive in a bike lane except to complete a turn, and check the mirror and shoulder for an approaching cyclist before opening any door on the traffic side.",
         trap:
           "Half a metre looks like plenty from inside the car, which is precisely why the law puts a number on it instead of leaving it to judgement.",
+        excerptKey: "cyclist-one-metre",
         sourceLabel: "Official MTO Driver's Handbook — Sharing the road with other road users",
         sourceUrl: `${H}/sharing-road-other-road-users`,
       },
@@ -1950,6 +2042,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Prohibition signs are read in two parts: the symbol names the movement and the slash cancels it. Even where no sign is posted, U-turns are illegal on a curve, near a hilltop, and near a bridge, tunnel or railway crossing that blocks the view — and where one is legal you still need a clear view of at least 150 metres in both directions before committing.",
         trap:
           "The no-left-turn sign uses a similar bent arrow and gets confused with this one at a glance. The U-shape is the tell.",
+        excerptKey: "regulatory-circles",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -1964,6 +2057,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The clearances worth holding together: 3 metres from a hydrant, 6 from the public entrance of a hotel, theatre or public hall while open, 9 from an ordinary intersection, 15 from a signalised intersection, 15 from the nearest rail of a railway crossing, and none at all on or within 100 metres of a bridge. Beyond the list, never park where approaching drivers cannot see at least 125 metres in either direction.",
         trap:
           "Nine and fifteen metres both belong to intersections, and they migrate onto the hydrant rule more than any other pair of numbers here.",
+        excerptKey: "parking-hydrant",
         sourceLabel: "Official MTO Driver's Handbook — Parking along roadways",
         sourceUrl: `${H}/parking-along-roadways`,
       },
@@ -1984,6 +2078,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Colour sorts the whole system quickly. Green means direction and destination. White with black lettering means regulation, and carries the force of law. Yellow means a permanent warning, orange a temporary one. Blue marks off-road facilities and services such as hospitals, airports and carpool lots. Reading the colour first narrows what the sign can possibly be saying before you decode the symbol.",
         trap:
           "Overhead placement suggests regulation, because lane-control signs also hang above the road. Regulatory overheads are white, not green.",
+        excerptKey: "information-direction-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -2005,6 +2100,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "The old $2,000 threshold is still repeated widely, and anyone working from it will report collisions that no longer need reporting and misjudge the ones that do.",
+        excerptKey: "collision-report-5000",
         sourceLabel: "Official MTO Driver's Handbook — Dealing with emergencies",
         sourceUrl: `${H}/dealing-emergencies`,
       },
@@ -2025,6 +2121,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Lane arrows appear on the pavement and often on overhead signs before an intersection, and they exist to sort traffic before it arrives rather than at the last moment. Getting into the wrong lane is fixed by making the movement the lane requires and correcting afterward — cutting across at the stop line is both illegal and the way turning collisions happen.",
         trap:
           "Treating the arrow as advice is what produces the last-second lane change, and it is the misreading the wording of this question is built around.",
+        excerptKey: "lane-arrow",
         sourceLabel: "Official MTO Driver's Handbook — Pavement markings",
         sourceUrl: `${H}/pavement-markings`,
       },
@@ -2046,6 +2143,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Once stopped you wait for the signals to stop flashing and for any gate to rise fully. Driving around a gate that is down, lowering or lifting is prohibited outright. Avoid changing gear on the tracks. Most buses must stop at crossings without gates, signals or a stop sign, and school buses stop at every crossing regardless. A train under emergency braking can need up to two kilometres to halt, so the entire margin of safety is on your side of the equation.",
         trap:
           "Two metres sounds plausible because it resembles the streetcar figure, and it puts your bumper inside the swing of a passing train.",
+        excerptKey: "railway-stop-distance",
         sourceLabel: "Official MTO Driver's Handbook — Stopping",
         sourceUrl: `${H}/stopping`,
       },
@@ -2066,6 +2164,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The diamond appears both on overhead signs and painted on the pavement, and the lane is separated from general traffic by a striped buffer zone. You may only enter or leave where the buffer breaks into a broken white line — crossing the stripes is an offence. Buses, licensed taxis and airport limousines, emergency vehicles, motorcycles and green-plate vehicles may use the lane with the driver alone.",
         trap:
           "Treating it as a passing lane is the everyday misuse. The lane is defined by who is in the vehicle, not by what the vehicle is doing.",
+        excerptKey: "hov-lane-sign",
         sourceLabel: "Ontario.ca — High occupancy vehicle (HOV) lanes",
         sourceUrl: `${ON}/high-occupancy-vehicle-hov-lanes`,
       },
@@ -2083,6 +2182,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "Three is the correct figure for the same driver a few months later, which makes it the obvious wrong answer here — the six-month mark is what separates them.",
+        excerptKey: "g2-passenger-restriction",
         sourceLabel: "Official MTO Driver's Handbook — Getting your driver's licence",
         sourceUrl: `${H}/getting-your-drivers-licence`,
       },
@@ -2103,6 +2203,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Fluorescent yellow-green is used where the hazard is people on foot, particularly children, because it reads differently from ordinary yellow in poor light. School signs in this family include the school area warning, the school crossing warning, and signs about crossing guards. Separately, a school zone may carry a lower posted limit that applies during specified hours or while yellow lights are flashing.",
         trap:
           "Community safety zones often surround schools, and their signs sit nearby — but those are rectangular and say what they are in words.",
+        excerptKey: "school-zone-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -2123,6 +2224,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Pick your lane before you arrive: the right lane serves right turns and straight-through, the left lane serves left turns and straight-through. Signal right once you have passed the exit before the one you want. Trucks and buses may need both lanes and the mountable apron, so leave them room. Cyclists commonly hold the centre of a lane, and pedestrians cross at the splitter islands on entry and exit.",
         trap:
           "The full-stop answer is wrong in a way that causes real problems: a roundabout entry is a yield, and stopping when a gap is available backs traffic up behind you.",
+        excerptKey: "roundabout-counter-clockwise",
         sourceLabel: "Official MTO Driver's Handbook — Changing directions",
         sourceUrl: `${H}/changing-directions`,
       },
@@ -2143,6 +2245,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The flashing set is worth learning together because each member behaves differently. Flashing amber means proceed with caution. Flashing red means stop, then go when safe. Flashing green is an advance green and gives your whole approach the right of way while oncoming traffic holds. A signal showing nothing at all is treated as an all-way stop. Flashing ambers and flashing reds often face each other across the same intersection, with the flashing red facing the minor road.",
         trap:
           "Reading it as a steady amber and preparing for a red is the natural transfer, but a flashing amber never turns red — it is the intersection's permanent mode.",
+        excerptKey: "flashing-yellow-light",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -2163,6 +2266,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Signs and pavement markings work as a pair here. A no-passing sign is regulatory and white; the solid yellow line beside your lane carries the same message continuously along the road. Where the line beside you turns broken, passing becomes permitted again if the way is clear. On top of both, passing is prohibited within 30 metres of a pedestrian crossover, and moving snow plows are never to be passed.",
         trap:
           "Attaching a fixed distance to the sign feels tidy, but nothing about a no-passing sign expires on its own.",
+        excerptKey: "regulatory-signs",
         sourceLabel: "Official MTO Driver's Handbook — Changing positions",
         sourceUrl: `${H}/changing-positions`,
       },
@@ -2183,6 +2287,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Daytime running lights do not satisfy either trigger, because they leave the tail lights dark — which makes a vehicle nearly invisible from behind in rain, fog or snow. Turning the headlights on properly also brings up the parking lights, tail lights and rear licence plate light. At night, drop from high to low beams within 150 metres of an oncoming vehicle and whenever you are less than 60 metres behind a vehicle you are following.",
         trap:
           "Sunset-to-sunrise is close enough to feel right, and it is the version most drivers carry, but it leaves out the buffer the law actually specifies.",
+        excerptKey: "headlights-when-required",
         sourceLabel: "Official MTO Driver's Handbook — Getting ready to drive",
         sourceUrl: `${H}/getting-ready-drive`,
       },
@@ -2221,6 +2326,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The sign exists for a transition, not a permanent condition. It goes up where drivers might reasonably have assumed no oncoming traffic — at the end of a one-way stretch, or downstream of a divided highway ending. The response is lane discipline: stay right, reassess your passing options, and expect headlights.",
         trap:
           "The divided highway begins sign also shows two flows of traffic, and the two get swapped. This one puts them on the same roadway; that one separates them.",
+        excerptKey: "warning-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -2241,6 +2347,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Because the clock runs from the offence date, a charge that takes months to reach court arrives with part of its life already spent. Points accumulate within that two-year window, and the thresholds differ sharply by licence class: a novice driver is suspended at nine points for 60 days, while a fully licensed driver has until fifteen and is suspended for 30. The driving record itself is kept far longer than the points.",
         trap:
           "Dating it from conviction is the intuitive reading and will have you expecting the points to clear months later than they actually do.",
+        excerptKey: "demerit-two-years",
         sourceLabel: "Official MTO Driver's Handbook — Keeping your driver's licence",
         sourceUrl: `${H}/keeping-your-drivers-licence`,
       },
@@ -2262,6 +2369,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Three displays cover the cycle. The walking figure means begin. The flashing hand, with or without a countdown, means do not start but finish if you are already out there. The steady hand means remain on the curb. None of them removes a driver's obligation to yield to somebody still in the crosswalk, which is why a turning driver with a green can still be required to wait.",
         trap:
           "Assuming the walking figure guarantees a clear road is the pedestrian's version of the error; from the driver's side, assuming it does not concern you is the equivalent.",
+        excerptKey: "pedestrian-signals",
         sourceLabel: "Official MTO Driver's Handbook — Pedestrian signals",
         sourceUrl: `${H}/pedestrian-signals`,
       },
@@ -2283,6 +2391,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Streetcars carry a small set of rules of their own. You pass them on the right unless you are on a one-way road. Where a stop has a raised safety island, passengers are protected and you pass at a reasonable speed rather than stopping. Where there is none, the two-metre rule applies until the doors close and everyone is clear of the road.",
         trap:
           "Twenty metres is the school bus figure and the two scenarios feel identical — people stepping into live traffic — but the distances are set differently.",
+        excerptKey: "streetcar-two-metres",
         sourceLabel: "Official MTO Driver's Handbook — Changing positions",
         sourceUrl: `${H}/changing-positions`,
       },
@@ -2305,6 +2414,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "Being over 18 kg only means the child has outgrown the forward-facing seat and moved into a booster. It is the bottom of the booster range, not the top.",
+        excerptKey: "booster-seat-required",
         sourceLabel: "Official MTO Driver's Handbook — Getting ready to drive",
         sourceUrl: `${H}/getting-ready-drive`,
       },
@@ -2325,6 +2435,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Advance warnings of this kind appear wherever a control might be hard to see in time — a stop sign after a curve or a crest, traffic lights over a rise, a railway crossing behind trees. All of them are yellow diamonds, all of them ask for the same thing, and none of them is itself the control. The instruction is to lose speed early rather than late.",
         trap:
           "Stopping at the warning sign is the over-reaction, and it produces exactly the rear-end situation the advance warning was designed to prevent.",
+        excerptKey: "stop-ahead-sign",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -2346,6 +2457,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Regulatory signs are the ones that carry legal force, and they are generally white rectangles or squares with black and red markings. This family includes keep right, keep right except to pass, one-way, do not enter, the turn prohibitions and lane-use arrows. Warning signs, by contrast, are yellow diamonds and never dictate a manoeuvre — they only describe what is ahead.",
         trap:
           "Because the sign is about how to get around an obstacle, it reads as advice. Anything that specifies which side of a divider you use is regulation.",
+        excerptKey: "regulatory-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -2366,6 +2478,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "A freeway entrance has two parts: the ramp and the acceleration lane. Exits mirror it — a deceleration lane, then the ramp, then usually an intersection with a stop, yield or signal. You signal into the deceleration lane and slow down once you are in it, not in the through lane. Drivers already on the freeway should move over where it is safe to make room, but the obligation to arrive at the right speed sits with the merging driver.",
         trap:
           "Stopping at the end of the acceleration lane to wait for a gap is the instinct of a nervous driver, and it leaves you accelerating from zero into 100 km/h traffic.",
+        excerptKey: "acceleration-lane",
         sourceLabel: "Official MTO Driver's Handbook — Freeway driving",
         sourceUrl: `${H}/freeway-driving`,
       },
@@ -2386,6 +2499,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "These signals typically show a distinctive white bar rather than the usual coloured balls, which is a hint that the ordinary sequence is not in force. Transit gets priority in a few other places too: the yield-to-bus sign on the back of a bus signalling its way out of a stop, and reserved transit lanes marked by their own signs.",
         trap:
           "Pedestrians outrank vehicles nearly everywhere else, which makes their inclusion in the yield here the detail most people get wrong.",
+        excerptKey: "transit-priority-signal",
         sourceLabel: "Official MTO Driver's Handbook — Traffic lights",
         sourceUrl: `${H}/traffic-lights`,
       },
@@ -2406,6 +2520,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "Novices sit on a tighter scale than fully licensed drivers throughout: a warning letter at two points, a second at six, and suspension at nine. Fully licensed drivers get their first letter at six, a second at nine, and a 30-day suspension at fifteen, returning at seven. Hitting the threshold a second time risks a six-month suspension. Points last two years from the date of the offence, so a novice returning at four is not far from the line.",
         trap:
           "The 30-day-and-back-to-seven answer is the fully licensed driver's outcome, and it is the version most people have heard because it applies to most drivers.",
+        excerptKey: "novice-nine-points",
         sourceLabel: "Official MTO Driver's Handbook — Keeping your driver's licence",
         sourceUrl: `${H}/keeping-your-drivers-licence`,
       },
@@ -2426,6 +2541,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The temporary family covers a lot of ground: construction ahead, road work, a traffic control person directing traffic, milled or grooved pavement, lane closures with merge arrows, and detour markers with flashing directional arrows. Where a construction zone carries doubled speeding fines while workers are present, that is announced on a separate sign rather than being implied by the orange.",
         trap:
           "Attaching the doubled-fine rule to the colour itself is the plausible overreach — the fine increase comes from its own posted sign, not from the background.",
+        excerptKey: "temporary-condition-signs",
         sourceLabel: "Official MTO Driver's Handbook — Signs",
         sourceUrl: `${H}/signs`,
       },
@@ -2447,6 +2563,7 @@ export const ontarioSets4to6: DrivingTestSet[] = [
           "The rule covers emergency vehicles and tow trucks stopped with their lights flashing, and the reason for both halves is the officer or operator working beside the vehicle in traffic. A first offence brings a fine of $400 to $2,000 and three demerit points, with a possible suspension of up to two years. A separate rule governs what to do when an emergency vehicle approaches you from behind: pull as far right as you safely can and stop.",
         trap:
           "Doing one half of the duty and calling it done is the usual failure — most drivers change lanes without slowing, and the law asks for both.",
+        excerptKey: "move-over-change-lane",
         sourceLabel: "Ontario.ca — Driving near emergency vehicles",
         sourceUrl: `${ON}/driving-near-emergency-vehicles`,
       },
