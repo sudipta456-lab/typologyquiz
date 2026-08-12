@@ -2101,6 +2101,7 @@ export const ontarioSets1to3: DrivingTestSet[] = [
           "HOV lanes on 400-series highways require at least two occupants including the driver, with buses, licensed taxis, airport limousines, emergency vehicles, motorcycles and green-plate vehicles admitted whatever their occupancy. Large trucks are excluded no matter what. Access is only at designated openings marked with broken white lines and diamonds, and misuse draws a fine plus three demerit points.",
         trap:
           "Counting the three occupants and stopping there is the trap the question is built around - the occupancy test is necessary but not sufficient, and the vehicle-type exclusion overrides it.",
+        excerptKey: "hov-large-trucks",
         ...src.freeway,
       },
       {

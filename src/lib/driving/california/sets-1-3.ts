@@ -1142,6 +1142,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Every time you leave a vehicle in California: set the parking brake and leave it in park, or in gear if it is a manual. On a slope, add the wheel-turning step — toward the curb facing downhill, away from the curb and rolled back to touch facing uphill, and toward the shoulder in either direction where there is no curb. Turning the wheels on the level is harmless but is not what the rule asks for.",
         trap: "\"Turn the wheels sharply left toward the road\" applies a hill technique in the wrong place and in the wrong direction — pointing wheels into the roadway is never the safe default.",
+        excerptKey: "parking-brake",
         sourceLabel: "California Driver's Handbook — Parking",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -1241,6 +1242,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The 15 mph group covers alleys, blind intersections, and railroad crossings within 100 feet where you cannot see 400 feet along the track. What links them is that you cannot see far enough to plan, so the law substitutes a speed from which you can stop almost immediately. The separate 10 mph rule applies when passing a bus or streetcar stopped at a safety zone.",
         trap: "10 mph is a genuine California limit, but it belongs to passing a stopped bus or streetcar at a safety zone rather than to alleys.",
+        excerptKey: "speed-alley",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -1597,6 +1599,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Emergency handling in California follows one principle: no sudden inputs while traction is compromised. Blowout — both hands on the wheel, hold your line, ease off the gas, slow gradually, then pull off. Wheels onto a soft shoulder — hold straight, ease off, brake gently, then steer back once slowed. Hydroplaning — lift off the accelerator without braking. In each case you are steadying the car while speed comes off, rather than fighting it.",
         trap: "Braking hard is the reflex, and on a blown front tyre it amplifies the pull to one side at the exact moment you have least control.",
+        excerptKey: "tire-blowout",
         sourceLabel: "California Driver's Handbook — Emergencies",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },
@@ -1701,6 +1704,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "The weather ladder, from mildest to worst: wet road, take 5 to 10 mph off; visibility under 100 feet in heavy rain or snow, no faster than 30 mph; packed snow, halve your speed; ice, about 5 mph. Each of these is an application of the Basic Speed Law rather than a separate posted limit, which means driving faster than the conditions allow is an offence even under the posted number.",
         trap: "\"5 mph\" is a real figure in this ladder, but it belongs to sheet ice — on packed snow the adjustment is proportional, not a fixed subtraction.",
+        excerptKey: "speed-packed-snow",
         sourceLabel: "California Driver's Handbook — Driving in bad weather",
         sourceUrl: `${H}/safe-driving/`,
       },
@@ -1882,6 +1886,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "A safety zone is the marked area in the roadway where transit passengers wait or board, and it is protected by two rules: you may not drive through it at all, and you may not exceed 10 mph passing a bus or streetcar stopped at one. Ten is the odd figure among California's low limits — 15 mph covers alleys, blind intersections and poor-sight railroad crossings, and 25 mph covers business, residential and school areas.",
         trap: "15 mph is the low limit people remember best because it covers three separate situations, which makes it the automatic answer to any \"low speed\" question.",
+        excerptKey: "speed-safety-zone",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/laws-and-rules-of-the-road-cont1/`,
       },
@@ -2047,6 +2052,7 @@ export const californiaSets1to3: DrivingTestSet[] = [
         context:
           "Running off the pavement is one of California's named emergencies and follows the same pattern as a blowout or a hydroplane: hold the wheel firmly, take your foot off the accelerator, brake gently if at all, and only make a steering correction once the speed has come down. The height difference between the shoulder and the pavement is what catches a tyre and flips a car when someone yanks the wheel at speed.",
         trap: "Steering back immediately is the instinctive correction, and at speed it is the one that catches the tyre on the pavement edge and throws the car across the road.",
+        excerptKey: "off-pavement",
         sourceLabel: "California Driver's Handbook — Emergencies",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },

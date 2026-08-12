@@ -1187,4 +1187,12 @@ export const ontarioExcerpts: HandbookExcerpt[] = [
     section: "Other ways to lose your licence - Impaired driving",
     url: `${HB}/other-ways-lose-your-licence`,
   },
+  {
+    key: "hov-large-trucks",
+    quote:
+      "Commercial motor vehicles must have two or more people in the vehicle and be less than 6.5 metres in total length to be in the HOV lane. Large trucks are not permitted on the HOV lanes, regardless of the number of occupants.",
+    source: "Official MTO Truck Handbook (ontario.ca)",
+    section: "High Occupancy Vehicle (HOV) Lanes",
+    url: "https://www.ontario.ca/document/official-ministry-transportation-mto-truck-handbook/high-occupancy-vehicle-hov-lanes",
+  },
 ];

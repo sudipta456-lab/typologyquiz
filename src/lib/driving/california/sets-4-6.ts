@@ -562,6 +562,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "Disabled parking in California comes with two rules rather than one. The blue-marked space itself requires a valid placard or special plate on display. The striped access aisle beside it must be kept completely clear — no parking and no stopping, placard or not. Blue curbs work the same way, and the placard belongs to the person rather than to the car.",
         trap: "\"Extra space for larger vehicles\" is the intuitive reading of an empty striped area, and acting on it is how access aisles get blocked.",
+        excerptKey: "parking-crosshatch-disabled",
         sourceLabel: "California Driver's Handbook — Parking",
         sourceUrl: `${H}/navigating-the-roads-cont1/`,
       },
@@ -661,6 +662,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "Speed management runs in both directions in California. Never drive faster than is safe for conditions, and do not create a hazard by moving far slower than surrounding traffic without reason. On two-lane roads, a driver holding up five or more vehicles should use a turnout or pull over safely to let them past. On multi-lane roads, slower traffic keeps to the right-hand lanes.",
         trap: "\"Maintain your speed — they may pass when it is safe\" is technically legal reasoning that ignores the queue's actual behaviour: frustration produces passes that are not safe.",
+        excerptKey: "turnout-five-vehicles",
         sourceLabel: "California Driver's Handbook — Speed limits",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },
@@ -719,6 +721,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "California's financial responsibility minimums come as a set of three: $30,000 for injury or death of one person, $60,000 for injury or death of more than one person in the same collision, and $15,000 for property damage. You must be able to show evidence of insurance when asked and after any collision, and driving without it can cost you your registration and your driving privilege.",
         trap: "$25,000 is the property damage minimum in several other states and gets carried across by anyone who learned to drive elsewhere.",
+        excerptKey: "insurance-minimums",
         sourceLabel: "California Driver's Handbook — Financial responsibility",
         sourceUrl: `${H}/financial-responsibility-insurance-requirements-and-collisions/`,
       },
@@ -760,6 +763,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "Carbon monoxide sits alongside fatigue and impairment as a threat to alertness, and it works the same way — degrading judgment before the driver realises anything is wrong. Keep the exhaust system in good order, never run the engine in a closed garage, and if you feel drowsy or headachy on a drive, open the windows and stop to get fresh air rather than pushing on.",
         trap: "\"Only accumulates in vehicles over ten years old\" makes it someone else's problem, when an exhaust leak or an enclosed space can affect any vehicle.",
+        excerptKey: "carbon-monoxide",
         sourceLabel: "California Driver's Handbook — Safe driving",
         sourceUrl: `${H}/safe-driving-cont2/`,
       },
@@ -801,6 +805,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "After any California collision you must stop. If anyone is hurt, call 911, and notify law enforcement within 24 hours where there is injury or death. Exchange driver's licence, registration and insurance details with the other parties. Where the other vehicle is unattended, leave a note with your details. File an SR 1 with the DMV within 10 days if anyone was injured or killed or if property damage exceeds $1,000, whatever the fault.",
         trap: "\"Report it only if the damage is visible\" makes your own assessment the test, when the obligation attaches to the collision rather than to how bad it looks.",
+        excerptKey: "collision-parked-car",
         sourceLabel: "California Driver's Handbook — Collisions",
         sourceUrl: `${H}/financial-responsibility-insurance-requirements-and-collisions/`,
       },
@@ -1163,6 +1168,7 @@ export const californiaSets4to6: DrivingTestSet[] = [
         context:
           "The weather ladder in order: wet road, take 5 to 10 mph off the posted limit; heavy rain or snow with visibility under 100 feet, no more than 30 mph; packed snow, halve your speed; ice, about 5 mph. Each of these is the Basic Speed Law in action, which means driving faster than conditions allow is an offence even under the posted number.",
         trap: "\"Half the posted limit\" is a genuine California adjustment for packed snow, and applying it to ice leaves you travelling far too fast for the available grip.",
+        excerptKey: "speed-ice",
         sourceLabel: "California Driver's Handbook — Driving in bad weather",
         sourceUrl: `${H}/safe-driving/`,
       },

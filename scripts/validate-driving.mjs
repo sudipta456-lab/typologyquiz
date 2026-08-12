@@ -26,6 +26,7 @@ const OFFICIAL_HOSTS = [
   "alberta.ca",
   "gov.ab.ca",
   "ontario.ca",
+  "news.ontario.ca",
   // Texas
   "dps.texas.gov",
   "txdot.gov",

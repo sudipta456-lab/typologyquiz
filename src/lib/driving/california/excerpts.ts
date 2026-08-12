@@ -111,9 +111,9 @@ export const californiaExcerpts: HandbookExcerpt[] = [
   {
     key: "sign-colour-orange-workzone",
     quote:
-      "Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange (or fluorescent orange) background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow (or fluorescent yellow) background.",
+      "Except as provided in Sections 6F.01 and 6H.01, other warning signs that are used in TTC zones shall have black legends and borders on an orange background.",
     source: "California MUTCD 2026 Edition (dot.ca.gov)",
-    section: "Chapter 6H - TTC Zone Warning Signs, Section 6H.01",
+    section: "Chapter 6H - TTC Zone Warning Signs, Section 6H.38 Other Warning Signs",
     url: "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/2026-camutcd-2026-6h-a11y.pdf",
   },
   {
@@ -499,6 +499,13 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     url: `${HB}/laws-and-rules-of-the-road-cont1/`,
   },
   {
+    key: "speed-alley",
+    quote: "The speed limit in an alley is 15 mph.",
+    source: SOURCE,
+    section: "Section 7: Laws and Rules of the Road (Continued) - Alleys",
+    url: `${HB}/laws-and-rules-of-the-road-cont1/`,
+  },
+  {
     key: "speed-railroad",
     quote:
       "The speed limit is 15 mph within 100 feet of a railroad crossing and you cannot see the tracks for 400 feet in both directions. You may drive faster than 15 mph if the crossing is controlled by gates, a warning signal, or a flagman.",
@@ -514,6 +521,37 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     source: SOURCE,
     section: "Section 8: Safe Driving - Slippery Roads",
     url: `${HB}/safe-driving/`,
+  },
+  {
+    key: "speed-packed-snow",
+    quote: "Packed snow: Reduce your speed by half.",
+    source: SOURCE,
+    section: "Section 8: Safe Driving - Slippery Roads (adjust your speed for conditions)",
+    url: `${HB}/safe-driving/`,
+  },
+  {
+    key: "speed-ice",
+    quote: "Ice: Reduce your speed to no more than 5 mph.",
+    source: SOURCE,
+    section: "Section 8: Safe Driving - Slippery Roads (adjust your speed for conditions)",
+    url: `${HB}/safe-driving/`,
+  },
+  {
+    key: "speed-safety-zone",
+    quote:
+      "When a bus, streetcar, or trolley is stopped at a safety zone or traffic light, you may pass at no more than 10 mph.",
+    source: SOURCE,
+    section:
+      "Section 7: Laws and Rules of the Road (Continued) - Buses, Streetcars, Trolleys",
+    url: `${HB}/laws-and-rules-of-the-road-cont1/`,
+  },
+  {
+    key: "turnout-five-vehicles",
+    quote:
+      "You must use a turnout area or lane to let other vehicles pass when you are driving slowly on a two-lane road, where passing is unsafe, and there are five or more vehicles following you.",
+    source: SOURCE,
+    section: "Section 6: Navigating the Roads - Turnout Areas or Lanes",
+    url: `${HB}/navigating-the-roads/`,
   },
 
   // --------------------------------------------------------- safe driving
@@ -587,6 +625,30 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     source: SOURCE,
     section: "Section 8: Safe Driving - Slippery Roads",
     url: `${HB}/safe-driving/`,
+  },
+  {
+    key: "tire-blowout",
+    quote: "Hold the steering wheel with both hands.",
+    source: SOURCE,
+    section:
+      "Section 8: Safe Driving (Continued) - Tire Blowout (steps recommended by the National Highway Traffic Safety Administration)",
+    url: `${HB}/safe-driving-cont2/`,
+  },
+  {
+    key: "off-pavement",
+    quote: "Grip the steering wheel firmly. Remove your foot from the accelerator.",
+    source: SOURCE,
+    section:
+      "Section 8: Safe Driving (Continued) - Driving Off the Pavement (if your wheels drift off the pavement)",
+    url: `${HB}/safe-driving-cont2/`,
+  },
+  {
+    key: "carbon-monoxide",
+    quote:
+      "Carbon monoxide is a deadly odorless gas released from a vehicle's exhaust pipe. Never start your vehicle inside the garage with the door closed.",
+    source: SOURCE,
+    section: "Section 8: Safe Driving (Continued) - Be Aware of Carbon Monoxide",
+    url: `${HB}/safe-driving-cont2/`,
   },
 
   // -------------------------------------------------------------- parking
@@ -667,6 +729,22 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     source: SOURCE,
     section:
       "Section 6: Navigating the Roads (Continued) - Illegal Parking (never park or leave your vehicle)",
+    url: `${HB}/navigating-the-roads-cont1/`,
+  },
+  {
+    key: "parking-crosshatch-disabled",
+    quote:
+      "In the crosshatched (diagonal lines) area next to a designated disabled parking space.",
+    source: SOURCE,
+    section:
+      "Section 6: Navigating the Roads (Continued) - Illegal Parking (never park or leave your vehicle)",
+    url: `${HB}/navigating-the-roads-cont1/`,
+  },
+  {
+    key: "parking-brake",
+    quote: "Turn off your vehicle and set the parking brake.",
+    source: SOURCE,
+    section: "Section 6: Navigating the Roads (Continued) - Parallel Parking",
     url: `${HB}/navigating-the-roads-cont1/`,
   },
   {
@@ -850,6 +928,15 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     url: `${HB}/safe-driving-cont2/`,
   },
 
+  {
+    key: "insurance-minimums",
+    quote: "$15,000 for property damage.",
+    source: SOURCE,
+    section:
+      "Section 10: Financial Responsibility, Insurance Requirements, and Collisions - Insurance Requirements (your insurance must cover at least)",
+    url: `${HB}/financial-responsibility-insurance-requirements-and-collisions/`,
+  },
+
   // ------------------------------------------------------------ collisions
   {
     key: "collision-report-sr1",
@@ -858,6 +945,16 @@ export const californiaExcerpts: HandbookExcerpt[] = [
     source: SOURCE,
     section:
       "Section 10: Financial Responsibility, Insurance Requirements, and Collisions - Reporting a Collision",
+    url: `${HB}/financial-responsibility-insurance-requirements-and-collisions/`,
+  },
+
+  {
+    key: "collision-parked-car",
+    quote:
+      "Try to find the owner if your vehicle hits or rolls into a parked car or other property. If you cannot find the owner, leave a note with your name, phone number, and address.",
+    source: SOURCE,
+    section:
+      "Section 10: Financial Responsibility, Insurance Requirements, and Collisions - What to Do if You Are in a Collision",
     url: `${HB}/financial-responsibility-insurance-requirements-and-collisions/`,
   },
 
