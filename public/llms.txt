@@ -6,7 +6,7 @@ Website: https://typologyquiz.com
 
 ## What this site is
 
-Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 841 driving licence practice questions across 4 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
+Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 1231 driving licence practice questions across 6 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
 
 Nothing requires an account. There is no advertising, no tracking beyond basic analytics, and no email or phone collection - the audience includes minors, so the site deliberately holds no contact details. Quiz answers and progress live in the visitor's own browser.
 
@@ -28,6 +28,8 @@ Each jurisdiction has six sets that build from a gentle start to a full exam sim
 - [Alberta Class 7 Learner's Licence](https://typologyquiz.com/driving/alberta/): 6 sets, 195 questions, 133 handbook excerpts. Real test: 30 questions, pass 25 of 30 (83%). Official handbook: https://www.alberta.ca/driver-guides-overview-and-pdf-versions
 - [Ontario G1 Licence](https://typologyquiz.com/driving/ontario/): 6 sets, 220 questions, 144 handbook excerpts. Real test: 40 questions, pass 80% overall (commonly 16 of 20 per section). Official handbook: https://www.ontario.ca/document/official-mto-drivers-handbook
 - [Texas Texas Driver License](https://typologyquiz.com/driving/texas/): 6 sets, 195 questions, 144 handbook excerpts. Real test: 30 questions, pass 21 of 30 (70%). Official handbook: https://www.dps.texas.gov/section/driver-license/texas-driver-handbooks
+- [Florida Class E Learner License](https://typologyquiz.com/driving/florida/): 6 sets, 195 questions, 171 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%). Official handbook: https://www.flhsmv.gov/driver-licenses-id-cards/education-course-requirements/florida-driver-license-handbook/
+- [New York Learner Permit](https://typologyquiz.com/driving/newyork/): 6 sets, 195 questions, 183 handbook excerpts. Real test: 20 questions, pass 14 of 20 (70%), including 2 of 4 road sign questions. Official handbook: https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests
 - [California California Driver License / Permit](https://typologyquiz.com/driving/california/): 6 sets, 231 questions, 131 handbook excerpts. Real test: 46 questions, pass 38 of 46 (83%) for under-18. Official handbook: https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/
 
 There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak-spots/take/, rebuilt each time from the questions that visitor has actually got wrong.

@@ -9,7 +9,6 @@ import type { DrivingTestSet } from "../types";
 const M = "https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests";
 const CH1 = `${M}/chapter-1-driver-licenses`;
 const CH2 = `${M}/chapter-2-how-keep-your-license`;
-const CH3 = `${M}/chapter-3-owning-vehicle`;
 const CH4 = `${M}/chapter-4-traffic-control`;
 const CH5 = `${M}/chapter-5-intersections-and-turns`;
 const CH6 = `${M}/chapter-6-passing`;
@@ -1753,7 +1752,7 @@ export const newyorkSets1to3: DrivingTestSet[] = [
         explanation:
           "The test is 20 questions. You need at least 14 correct overall, and you must also get at least two of the four road sign questions right.",
         context:
-          "The sign requirement is a separate hurdle, not part of the overall total: 14 correct answers still fails if three or four of the sign questions were wrong. The test covers rules of the road, safe driving technique, road signs and the alcohol and drug laws, and it is drawn from Chapters 4 through 11 of the manual plus the road signs section. Parts 1 to 3 of the manual - licensing, keeping your licence and owning a vehicle - are not covered on the permit test.",
+          "The sign requirement is a separate hurdle, not part of the overall total: 14 correct answers still fails if three or four of the sign questions were wrong. The test covers rules of the road, safe driving technique, road signs and the alcohol and drug laws, and it is drawn from Chapters 4 through 11 of the manual plus the road signs section. Part 1 of the manual - licensing, keeping your licence and owning a vehicle - is not covered on the permit written test.",
         trap: "'20 questions, 16 correct to pass' is the score a lot of people quote, and it both overstates the overall mark and drops the sign rule entirely.",
         excerptKey: "written-test-pass-mark",
         commonlyMissed: true,

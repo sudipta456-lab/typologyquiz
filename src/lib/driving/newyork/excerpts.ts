@@ -2,8 +2,8 @@ import type { HandbookExcerpt } from "../types";
 
 // Short verbatim excerpts from the New York State Driver's Manual (MV-21), as
 // published in HTML chapter by chapter on dmv.ny.gov, plus the DMV's own pages
-// for the Graduated License Law, learner permit restrictions and insurance
-// requirements where those state a rule the manual only summarises.
+// for the Graduated License Law and learner permit restrictions where those
+// state a rule the manual only summarises.
 //
 // Every `quote` below was located as a literal substring of the fetched page
 // text and verified mechanically. Nothing here is paraphrased, tidied, merged
@@ -36,8 +36,6 @@ const GDL = "NYS DMV - The Graduated License Law and Restrictions for Drivers Un
 const GDL_URL = "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law";
 const PERMITS = "NYS DMV - Learner Permit Restrictions";
 const PERMITS_URL = "https://dmv.ny.gov/driver-license/learner-permit-restrictions";
-const INSURANCE = "NYS DMV - New York State Insurance Requirements";
-const INSURANCE_URL = "https://dmv.ny.gov/insurance/insurance-requirements";
 
 export const newyorkExcerpts: HandbookExcerpt[] = [
   // ------------------------------------------------- Chapter 4: signs
@@ -142,7 +140,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 4: Traffic Control - Yield Sign",
     url: CH4,
   },
-
   // --------------------------------------------- Chapter 4: signals
   {
     key: "signal-out-of-service",
@@ -267,7 +264,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 4: Traffic Control - Lane Use Control Lights",
     url: CH4,
   },
-
   // ------------------------------------ Chapter 4: pavement markings
   {
     key: "edge-line-illegal-to-cross",
@@ -281,14 +277,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     key: "edge-line-angles-in",
     quote:
       "An edge line that angles toward the center of the road shows that the road is narrower ahead.",
-    source: MANUAL,
-    section: "Chapter 4: Traffic Control - Edge and Lane Lines",
-    url: CH4,
-  },
-  {
-    key: "lane-lines-white",
-    quote:
-      "Lines that separate lanes of traffic that moves in the same direction are white.",
     source: MANUAL,
     section: "Chapter 4: Traffic Control - Edge and Lane Lines",
     url: CH4,
@@ -333,14 +321,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH4,
   },
   {
-    key: "stop-line-crosswalk",
-    quote:
-      "When required to stop because of a sign or light, you must stop before you reach the stop line, if there is one, or the crosswalk.",
-    source: MANUAL,
-    section: "Chapter 4: Traffic Control - Stop and Crosswalk Lines",
-    url: CH4,
-  },
-  {
     key: "lane-arrows",
     quote:
       "You must be in the correct lane before you reach the solid line that separates the lanes.",
@@ -372,7 +352,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 4: Traffic Control - Traffic Officers",
     url: CH4,
   },
-
   // ----------------------------------- Chapter 5: right of way, turns
   {
     key: "row-traffic-in-intersection",
@@ -486,14 +465,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH5,
   },
   {
-    key: "blue-green-lights",
-    quote:
-      "Personal vehicles driven by volunteer fire fighters responding to alarms are allowed to display blue lights and those driven by volunteer ambulance or rescue squad members can display green lights.",
-    source: MANUAL,
-    section: "Chapter 5: Intersections and Turns - Blue, Green and Amber Lights",
-    url: CH5,
-  },
-  {
     key: "blue-green-not-authorized",
     quote:
       "The vehicles that display blue, green or amber lights are not authorized emergency vehicles. Their drivers must obey all traffic laws.",
@@ -510,54 +481,11 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH5,
   },
   {
-    key: "turn-wheels-straight",
-    quote:
-      "Keep your wheels straight until you actually begin to make your turn. If your wheels are turned and you are hit from behind, your vehicle could be pushed into the oncoming lane of traffic.",
-    source: MANUAL,
-    section: "Chapter 5: Intersections and Turns - Turns",
-    url: CH5,
-  },
-  {
     key: "turn-right-position",
     quote:
       "As you prepare to turn, get as far to the right as possible. Do not make wide, sweeping turns. Unless signs direct you to do otherwise, turn into the right lane of the road you enter.",
     source: MANUAL,
     section: "Chapter 5: Intersections and Turns - Right Turn",
-    url: CH5,
-  },
-  {
-    key: "turn-left-one-way-to-one-way",
-    quote:
-      "Move into the left lane when you prepare to turn. If the road you enter has two lanes, you must turn into its left lane.",
-    source: MANUAL,
-    section:
-      "Chapter 5: Intersections and Turns - Left Turn From One-Way Road Into One-Way Road",
-    url: CH5,
-  },
-  {
-    key: "turn-left-two-way-to-one-way",
-    quote:
-      "Approach the turn from the right half of the roadway closest to the center. Make the turn before you reach the center of the intersection and turn into the left lane of the road you enter.",
-    source: MANUAL,
-    section:
-      "Chapter 5: Intersections and Turns - Left Turn From Two-Way Road Into One-Way Road",
-    url: CH5,
-  },
-  {
-    key: "turn-left-two-way-to-two-way",
-    quote:
-      "Keep to the right of the center line of the road you enter, but as close as possible to the center line.",
-    source: MANUAL,
-    section:
-      "Chapter 5: Intersections and Turns - Left Turn From Two-Way Road Into Two-Way Road",
-    url: CH5,
-  },
-  {
-    key: "uturn-definition",
-    quote:
-      "A \"U-turn\" is any turn you make so you can proceed in the opposite direction.",
-    source: MANUAL,
-    section: "Chapter 5: Intersections and Turns - U-Turns",
     url: CH5,
   },
   {
@@ -593,14 +521,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH5,
   },
   {
-    key: "uturn-school-zone",
-    quote:
-      "In addition, it is prohibited for a vehicle to make a U-turn in a school zone.",
-    source: MANUAL,
-    section: "Chapter 5: Intersections and Turns - U-Turns",
-    url: CH5,
-  },
-  {
     key: "three-point-turn",
     quote:
       "Unless prohibited, a three-point turn may be used to turn around on a narrow, two-way street.",
@@ -608,7 +528,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 5: Intersections and Turns - U-Turns",
     url: CH5,
   },
-
   // ------------------------------------- Chapter 6: passing, buses
   {
     key: "drive-right-pass-left",
@@ -621,14 +540,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
   {
     key: "no-speeding-to-pass",
     quote: "You must not exceed the speed limit to pass another vehicle.",
-    source: MANUAL,
-    section: "Chapter 6: Passing",
-    url: CH6,
-  },
-  {
-    key: "motorcycle-full-lane",
-    quote:
-      "When you pass a motorcycle, remember to give the motorcycle the same full lane width as other vehicles are allowed.",
     source: MANUAL,
     section: "Chapter 6: Passing",
     url: CH6,
@@ -689,14 +600,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH6,
   },
   {
-    key: "blind-spot-shoulder-check",
-    quote:
-      "Never depend on your mirrors when you prepare to change lanes. Even correctly adjusted mirrors will leave \"blind spots\" behind both sides of your vehicle.",
-    source: MANUAL,
-    section: "Chapter 6: Passing - How to Pass on the Left",
-    url: CH6,
-  },
-  {
     key: "return-after-passing",
     quote:
       "Before you return to the right lane, signal and look at your interior rear-view mirror and make sure you can see the front bumper of the vehicle you passed.",
@@ -729,14 +632,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH6,
   },
   {
-    key: "passed-on-right-move-over",
-    quote:
-      "If you find that you are being passed on the right by many vehicles, you should move into the right lane and allow them to pass you on the left.",
-    source: MANUAL,
-    section: "Chapter 6: Passing - Being Passed",
-    url: CH6,
-  },
-  {
     key: "school-bus-red-lights-stop",
     quote:
       "When a stopped school bus flashes its red light(s), traffic that approaches from either direction, even in front of the school and in school parking lots, must stop before it reaches the bus.",
@@ -747,14 +642,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
   {
     key: "school-bus-20-feet",
     quote: "You should stop at least 20 feet (6 m) away from the bus.",
-    source: MANUAL,
-    section: "Chapter 6: Passing - School Buses",
-    url: CH6,
-  },
-  {
-    key: "school-bus-yellow-lights",
-    quote:
-      "Before a school bus stops to load or discharge passengers, the driver will usually flash yellow warning lights which are located on the front and back of the bus near the roof.",
     source: MANUAL,
     section: "Chapter 6: Passing - School Buses",
     url: CH6,
@@ -775,31 +662,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 6: Passing - School Buses",
     url: CH6,
   },
-  {
-    key: "school-bus-fines",
-    quote:
-      "The fine when you pass a stopped school bus ranges from a minimum of $250 for a first violation to a maximum of $1,000 for three violations in three years.",
-    source: MANUAL,
-    section: "Chapter 6: Passing - School Buses",
-    url: CH6,
-  },
-  {
-    key: "school-bus-three-strikes",
-    quote:
-      "If you are convicted of three of these violations in three years, your driver license will be revoked for a minimum of six months.",
-    source: MANUAL,
-    section: "Chapter 6: Passing - School Buses",
-    url: CH6,
-  },
-  {
-    key: "school-bus-disability-vehicles",
-    quote:
-      "Remember that vehicles that transport people with disabilities can be equipped as school buses and you must stop for them as you would for other school buses.",
-    source: MANUAL,
-    section: "Chapter 6: Passing - School Buses",
-    url: CH6,
-  },
-
   // ------------------------------------ Chapter 7: parking, stopping
   {
     key: "parallel-park-one-foot",
@@ -815,14 +677,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
       "Turn the wheels toward the curb or side of the road, so they will keep your vehicle from heading into traffic.",
     source: MANUAL,
     section: "Chapter 7: Parallel Parking - How to Park on a Hill",
-    url: CH7,
-  },
-  {
-    key: "door-on-roadside",
-    quote:
-      "After parking, remember that you must not open the door on the roadside if it will interfere with bicyclists and other traffic.",
-    source: MANUAL,
-    section: "Chapter 7: Parallel Parking - How to Park",
     url: CH7,
   },
   {
@@ -933,7 +787,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 7: Parallel Parking - Reserved Parking for People with Disabilities",
     url: CH7,
   },
-
   // ---------------------------- Chapter 8: speed, space, restraints
   {
     key: "speed-55-default",
@@ -991,14 +844,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH8,
   },
   {
-    key: "belt-primary-enforcement",
-    quote:
-      "New York is a \"primary enforcement\" state. A law enforcement officer can issue a traffic ticket for failure to wear a seat belt.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Seat Belts, Child Safety Seats, and Air Bags",
-    url: CH8,
-  },
-  {
     key: "belt-16-and-older",
     quote:
       "A passenger age sixteen (16) years of age or older must be properly restrained by a seat belt, one person per belt.",
@@ -1023,40 +868,9 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH8,
   },
   {
-    key: "child-booster-four-to-seven",
-    quote:
-      "A child between the age of four (4) and seven (7) must be restrained in an appropriate federally approved child restraint system (commonly referred to as a booster seat) used with lap and shoulder belt.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Seat Belts, Child Safety Seats, and Air Bags",
-    url: CH8,
-  },
-  {
-    key: "belt-eight-to-fifteen",
-    quote:
-      "All other passengers between the ages of eight (8) and fifteen (15) must be properly restrained by a seat belt, one person per belt.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Seat Belts, Child Safety Seats, and Air Bags",
-    url: CH8,
-  },
-  {
     key: "airbag-ten-inches",
     quote:
       "You should sit with at least 10 inches between the center of your chest and the cover of the air bag.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Seat Belts, Child Safety Seats, and Air Bags",
-    url: CH8,
-  },
-  {
-    key: "airbag-no-rear-facing-front",
-    quote:
-      "NEVER PUT AN INFANT IN A REAR-FACING CHILD SAFETY SEAT IN THE FRONT SEAT OF A VEHICLE THAT HAS A PASSENGER AIR BAG.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Seat Belts, Child Safety Seats, and Air Bags",
-    url: CH8,
-  },
-  {
-    key: "airbags-work-with-belts",
-    quote: "Air bags are meant to work WITH seat belts, not to replace them.",
     source: MANUAL,
     section: "Chapter 8: Defensive Driving - Seat Belts, Child Safety Seats, and Air Bags",
     url: CH8,
@@ -1078,50 +892,11 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH8,
   },
   {
-    key: "work-zone-merge-early",
-    quote:
-      "Do not speed to the end of the closed lane and try to get into the other lane.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Work Zone Tips",
-    url: CH8,
-  },
-  {
-    key: "work-zone-until-end-sign",
-    quote:
-      "Obey the signs until you pass the one that states the work zone has ended.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Work Zone Tips",
-    url: CH8,
-  },
-  {
-    key: "roundabout-yield-at-entry",
-    quote:
-      "Roundabouts follow the \"yield-at-entry\" rule, in which approaching vehicles must wait for a gap in the circulating flow before entering the circle.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Roundabouts",
-    url: CH8,
-  },
-  {
     key: "roundabout-30-mph",
     quote:
       "Roundabouts are designed so that the speed of all vehicles is restricted to 30 mph (50 km/h) or less within the roundabout.",
     source: MANUAL,
     section: "Chapter 8: Defensive Driving - Roundabouts",
-    url: CH8,
-  },
-  {
-    key: "roundabout-look-left",
-    quote: "Look to the left. Traffic in the roundabout has the right-of-way.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - How to Navigate a Roundabout",
-    url: CH8,
-  },
-  {
-    key: "roundabout-no-passing-bicycle",
-    quote:
-      "Bicyclists are permitted to ride within the roundabout and will be riding in the lane just as other vehicles do. Please do not pass a bicycle in the roundabout.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - How to Navigate a Roundabout",
     url: CH8,
   },
   {
@@ -1141,34 +916,11 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH8,
   },
   {
-    key: "drowsy-rest-stops",
-    quote: "Schedule regular stops for every 100 miles or two hours.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Prevention",
-    url: CH8,
-  },
-  {
     key: "handheld-phone-penalty",
     quote:
       "In New York State, it is a traffic infraction to speak into or listen to a hand-held mobile telephone while driving. For a first offense you could pay a fine up to $200 and receive five license points.",
     source: MANUAL,
     section: "Chapter 8: Defensive Driving - Using a Cellular or Mobile Telephone",
-    url: CH8,
-  },
-  {
-    key: "texting-junior-suspension",
-    quote:
-      "Also, drivers with probationary and junior licenses who use a hand-held phone or text while driving will receive a 120-day suspension for a first conviction and a revocation of at least one year for subsequent convictions within six months of the time a license is restored after suspension.",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Penalties for Texting, Electronic Device Use",
-    url: CH8,
-  },
-  {
-    key: "annual-inspection",
-    quote:
-      "No person shall operate or park a vehicle on public highways unless it has been inspected at least once a year",
-    source: MANUAL,
-    section: "Chapter 8: Defensive Driving - Vehicle Condition",
     url: CH8,
   },
   {
@@ -1179,7 +931,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 8: Defensive Driving - Vehicle Condition",
     url: CH8,
   },
-
   // ------------------------------ Chapter 9: alcohol and other drugs
   {
     key: "bac-thresholds",
@@ -1230,14 +981,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH9,
   },
   {
-    key: "bac-not-drink-type",
-    quote:
-      "Your BAC does not depend on the type of beverage you drink, how fit you are or how you can \"hold your liquor.\"",
-    source: MANUAL,
-    section: "Chapter 9: Alcohol and Other Drugs - Your BAC",
-    url: CH9,
-  },
-  {
     key: "standard-drink-equivalence",
     quote:
       "These drinks contain about the same amount of alcohol - 1 1/2 ounces of liquor, 5 ounces of wine, 12 ounces of beer and 12 ounces of wine cooler.",
@@ -1246,25 +989,9 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH9,
   },
   {
-    key: "one-hour-per-drink",
-    quote:
-      "For a 150-pound male, each one of these drinks contains enough alcohol to increase his BAC by about .02 percent. On average, it takes the body approximately one hour to remove that much alcohol.",
-    source: MANUAL,
-    section: "Chapter 9: Alcohol and Other Drugs - Your BAC",
-    url: CH9,
-  },
-  {
     key: "only-time-lowers-bac",
     quote:
       "The only method to effectively reduce your BAC is to not drink over a period of time. Coffee, exercise and cold showers cannot reduce your BAC and the effects of alcohol.",
-    source: MANUAL,
-    section: "Chapter 9: Alcohol and Other Drugs - Your BAC",
-    url: CH9,
-  },
-  {
-    key: "eating-slows-absorption",
-    quote:
-      "Eating before or while you drink helps slow the absorption of alcohol somewhat, but it can not prevent intoxication or impairment if you have too much to drink.",
     source: MANUAL,
     section: "Chapter 9: Alcohol and Other Drugs - Your BAC",
     url: CH9,
@@ -1295,29 +1022,12 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH9,
   },
   {
-    key: "interlock-12-months",
-    quote:
-      "install and maintain an ignition interlock on any vehicle owned or operated by such driver for at least 12 months",
-    source: MANUAL,
-    section:
-      "Chapter 9: Alcohol and Other Drugs - The Ignition Interlock Program and Leandra's Law",
-    url: CH9,
-  },
-  {
     key: "drug-combination-danger",
     quote:
       "Never drink alcohol while you are taking other drugs. It could be dangerous, often enhancing the effects of the alcohol and the other drug.",
     source: MANUAL,
     section: "Chapter 9: Alcohol and Other Drugs - Other Drugs",
     url: CH9,
-  },
-  {
-    key: "dwi-revocation",
-    quote:
-      "Driving while intoxicated (DWI), with .08 of one percent blood alcohol content (.08 BAC): minimum six-month revocation",
-    source: MANUAL,
-    section: "Chapter 2: How to Keep Your License - Mandatory Suspension or Revocation",
-    url: CH2,
   },
   {
     key: "dwai-suspension",
@@ -1334,40 +1044,7 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 2: How to Keep Your License - Mandatory Suspension or Revocation",
     url: CH2,
   },
-
   // --------------------- Chapter 10: railroads, expressways, weather
-  {
-    key: "railroad-15-feet",
-    quote:
-      "Flashing red lights, lowered crossing gates and/or a bell at a railroad crossing indicate that you must stop, at least 15 feet (5 m) from the tracks.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Railroad Crossing Signals",
-    url: CH10,
-  },
-  {
-    key: "railroad-gates",
-    quote:
-      "Do not go across the tracks until the lights and bell have stopped and the crossing gates are completely up. Do not drive around or under a gate that is moving up or down.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Railroad Crossing Signals",
-    url: CH10,
-  },
-  {
-    key: "railroad-clear-other-side",
-    quote:
-      "Do not, under any circumstances, attempt to cross any railroad tracks unless you are certain your entire vehicle will clear all of the tracks at the crossing.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Railroad Crossing Signals",
-    url: CH10,
-  },
-  {
-    key: "railroad-buses-must-stop",
-    quote:
-      "School buses with or without passengers, other buses with passengers on board and vehicles with explosives or flammable cargo must stop at all railroad crossings.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Railroad Crossing Signals",
-    url: CH10,
-  },
   {
     key: "railroad-crossbuck",
     quote:
@@ -1385,41 +1062,9 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH10,
   },
   {
-    key: "expressway-definition",
-    quote:
-      "\"Expressway\" means any divided highway where traffic moves in one direction on two or more lanes.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Expressway Driving",
-    url: CH10,
-  },
-  {
     key: "expressway-speed",
     quote:
       "The speed limit is normally 55 mph (88 km/h), but can be posted at 65 mph (105 km/h) in some rural areas.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Expressway Driving",
-    url: CH10,
-  },
-  {
-    key: "expressway-missed-exit",
-    quote:
-      "If you enter an expressway going a different direction than you intended, or at the wrong exit, stay on the expressway until the next exit.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Expressway Driving",
-    url: CH10,
-  },
-  {
-    key: "expressway-ramp-accelerate",
-    quote:
-      "Unless there is a STOP or YIELD sign or traffic light on the entrance ramp, use the ramp to accelerate to expressway speed and blend with traffic.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Expressway Driving",
-    url: CH10,
-  },
-  {
-    key: "expressway-short-ramp",
-    quote:
-      "If the entrance lane is too short to allow acceleration to expressway speed, the safest method to enter is to stop and wait for a large space in traffic.",
     source: MANUAL,
     section: "Chapter 10: Special Driving Conditions - Expressway Driving",
     url: CH10,
@@ -1430,14 +1075,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
       "Make sure to signal your exit at least 100 feet (30 m) before you reach the exit ramp.",
     source: MANUAL,
     section: "Chapter 10: Special Driving Conditions - Expressway Driving",
-    url: CH10,
-  },
-  {
-    key: "headlight-range-350",
-    quote:
-      "Your headlights cover about 350 feet ahead. It is important that you drive at a speed that allows you to stop safely within that distance.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Night Driving",
     url: CH10,
   },
   {
@@ -1457,29 +1094,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH10,
   },
   {
-    key: "glare-look-right",
-    quote:
-      "To help avoid the glare of approaching high beams, move your eyes to the right. Use the road edge as a guide until the approaching vehicle passes by.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Night Driving",
-    url: CH10,
-  },
-  {
-    key: "daytime-running-lights",
-    quote: "\"Daytime running lights\" do not qualify as headlights.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Driving in Rain, Fog, or Snow",
-    url: CH10,
-  },
-  {
-    key: "fog-low-beam",
-    quote:
-      "Headlights on high beams reflect rain, fog and snow as it falls. This makes it even harder for you to see. For better visibility during these weather conditions, keep your headlights on low beam.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Driving in Rain, Fog, or Snow",
-    url: CH10,
-  },
-  {
     key: "hydroplaning",
     quote:
       "In heavy rain, your tires can begin to ride on the water that is on top of the road pavement. This is called \"hydroplaning\" and can cause complete loss of traction and control of steering.",
@@ -1491,14 +1105,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     key: "studded-tires-dates",
     quote:
       "Tires with metal studs can be used in New York State only from October 16 through April 30.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - How to Drive in Winter",
-    url: CH10,
-  },
-  {
-    key: "rear-wheel-skid",
-    quote:
-      "Turn the steering wheel in the direction the vehicle is trying to go. If your rear wheels slide left, steer left. If they slide right, steer right.",
     source: MANUAL,
     section: "Chapter 10: Special Driving Conditions - How to Drive in Winter",
     url: CH10,
@@ -1520,21 +1126,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH10,
   },
   {
-    key: "deer-months",
-    quote:
-      "Two-thirds of all deer-vehicle collisions occur during the months of October, November and December.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - How to Avoid Collisions with Deer",
-    url: CH10,
-  },
-  {
-    key: "deer-travel-in-groups",
-    quote: "Deer travel in groups - if you see one, expect more.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - How to Avoid Collisions with Deer",
-    url: CH10,
-  },
-  {
     key: "tire-blowout",
     quote:
       "If a tire blows out, hold the steering wheel tightly and slowly take your foot off the gas pedal.",
@@ -1546,14 +1137,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     key: "brake-failure",
     quote:
       "If your brake pedal suddenly goes to the floor, try pumping it to increase pressure.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Driving Emergencies",
-    url: CH10,
-  },
-  {
-    key: "stuck-gas-pedal",
-    quote:
-      "If not, shift into neutral and use the brake to slow your vehicle and get off the road. Do not turn off the ignition as you could lose your steering control or lock your steering wheel.",
     source: MANUAL,
     section: "Chapter 10: Special Driving Conditions - Driving Emergencies",
     url: CH10,
@@ -1590,15 +1173,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 10: Special Driving Conditions - Driving Emergencies",
     url: CH10,
   },
-  {
-    key: "vehicle-fire",
-    quote:
-      "If you see smoke come from under the hood, pull off the road and park your vehicle. Turn off the ignition. Get away from the car and call the fire department.",
-    source: MANUAL,
-    section: "Chapter 10: Special Driving Conditions - Driving Emergencies",
-    url: CH10,
-  },
-
   // ---------------------------------- Chapter 11: sharing the road
   {
     key: "blind-pedestrian-right-of-way",
@@ -1617,14 +1191,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH11,
   },
   {
-    key: "never-pass-stopped-vehicle",
-    quote:
-      "Never pass vehicles stopped at a crosswalk. There may be people crossing where you cannot see.",
-    source: MANUAL,
-    section: "Chapter 11: Sharing the Road - Tips for Drivers",
-    url: CH11,
-  },
-  {
     key: "nyc-left-turn-pedestrian",
     quote:
       "More than 35% of the NYC pedestrian injury crashes occur when a driver is attempting to make a left turn.",
@@ -1638,14 +1204,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
       "Before you back into a driveway, or out of it, get out of the vehicle and check behind your vehicle.",
     source: MANUAL,
     section: "Chapter 11: Sharing the Road - Pedestrians",
-    url: CH11,
-  },
-  {
-    key: "bicycle-position",
-    quote:
-      "Where there is none, they must remain near the right curb or edge of the road or on a right shoulder of the road, to prevent interference with other traffic.",
-    source: MANUAL,
-    section: "Chapter 11: Sharing the Road - Bicyclists",
     url: CH11,
   },
   {
@@ -1679,22 +1237,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH11,
   },
   {
-    key: "bicycle-infant-passenger",
-    quote:
-      "Never carry an infant under a year old as a passenger. It is against the law. Child passengers ages 1 - 4 years old must ride in attached bicycle safety seats.",
-    source: MANUAL,
-    section: "Chapter 11: Sharing the Road - Bicyclists",
-    url: CH11,
-  },
-  {
-    key: "right-on-red-check-for-cyclist",
-    quote:
-      "Drivers turning right on red should look to the right and behind to avoid hitting a bicyclist approaching from the right rear. Stop completely and look left-right-left and behind before turning right on red.",
-    source: MANUAL,
-    section: "Chapter 11: Sharing the Road - Tips for Drivers",
-    url: CH11,
-  },
-  {
     key: "motorcycle-two-abreast",
     quote:
       "In addition to using the full lane, two motorcyclists are allowed to ride side-by-side in a single lane, but a motorcyclist cannot pass or share a lane with another motor vehicle that is not a motorcycle.",
@@ -1706,14 +1248,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     key: "motorcycle-signal-not-self-cancelling",
     quote:
       "Additionally, on most motorcycles, the directional signal does not turn off automatically after a turn, so their turn signal may be on inadvertently when the motorcyclist has no intention of turning.",
-    source: MANUAL,
-    section: "Chapter 11: Sharing the Road - Motorcyclists",
-    url: CH11,
-  },
-  {
-    key: "motorcycle-railroad-crossing",
-    quote:
-      "When approaching a railroad crossing, a motorcyclist may decrease speed and rise off the seat to cushion the rough crossing and change direction to go across the tracks at a right angle.",
     source: MANUAL,
     section: "Chapter 11: Sharing the Road - Motorcyclists",
     url: CH11,
@@ -1759,22 +1293,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH11,
   },
   {
-    key: "truck-pass-see-whole-front",
-    quote:
-      "Make sure you can see the whole front of the vehicle before you return to your lane after you pass.",
-    source: MANUAL,
-    section: "Chapter 11: Sharing the Road - When You Pass",
-    url: CH11,
-  },
-  {
-    key: "truck-stop-behind-uphill",
-    quote:
-      "Always leave space when you stop in back of a truck or bus at a traffic light or stop sign, especially when you face up a hill.",
-    source: MANUAL,
-    section: "Chapter 11: Sharing the Road - When You Stop behind a Truck",
-    url: CH11,
-  },
-  {
     key: "slow-moving-vehicle-emblem",
     quote:
       "The \"slow-moving vehicle\" symbol, a reflective orange triangle, must be displayed on the back of vehicles drawn by animals, most farm vehicles, and construction equipment.",
@@ -1797,15 +1315,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 11: Sharing the Road - Horse Riders",
     url: CH11,
   },
-  {
-    key: "horse-single-file",
-    quote:
-      "They also must ride single file near the right curb or road edge, or on a right shoulder, lane or path that can be used.",
-    source: MANUAL,
-    section: "Chapter 11: Sharing the Road - Horse Riders",
-    url: CH11,
-  },
-
   // -------------------------------------------- Chapter 12: crashes
   {
     key: "crash-must-stop",
@@ -1818,22 +1327,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     key: "crash-leaving-scene",
     quote:
       "It is a traffic violation to leave the scene of an incident, like a traffic crash that involves property damage. It is a criminal violation to leave the scene of an incident that involves a fatality or personal injury.",
-    source: MANUAL,
-    section: "Chapter 12: If You Are in a Traffic Crash - At the Scene",
-    url: CH12,
-  },
-  {
-    key: "crash-exchange-information",
-    quote:
-      "Give your name, address, driver license number, vehicle registration, and insurance information.",
-    source: MANUAL,
-    section: "Chapter 12: If You Are in a Traffic Crash - At the Scene",
-    url: CH12,
-  },
-  {
-    key: "crash-parked-vehicle",
-    quote:
-      "If a parked vehicle or property different from a vehicle is damaged or if a domestic animal is injured, you must try to find the owner or notify the police.",
     source: MANUAL,
     section: "Chapter 12: If You Are in a Traffic Crash - At the Scene",
     url: CH12,
@@ -1870,7 +1363,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 12: If You Are in a Traffic Crash - Emergency First-Aid",
     url: CH12,
   },
-
   // ----------------------------- Chapters 1-3: licensing, documents
   {
     key: "written-test-pass-mark",
@@ -1886,14 +1378,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
       "To pass the vision test, you must have 20/40 vision in at least one eye with or without corrective lenses.",
     source: MANUAL,
     section: "Chapter 1: Driver Licenses - Vision and Knowledge Tests",
-    url: CH1,
-  },
-  {
-    key: "permit-supervising-driver",
-    quote:
-      "When you practice, you must be supervised by a licensed driver who is at least 21 years old, has a license valid for the type of vehicle you are driving, and is seated in the front seat with you when you are driving.",
-    source: MANUAL,
-    section: "Chapter 1: Driver Licenses - The Learner Permit",
     url: CH1,
   },
   {
@@ -1921,22 +1405,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH1,
   },
   {
-    key: "junior-permit-front-seat",
-    quote:
-      "If you hold a junior permit, the only passenger allowed in the front seat is your supervising driver.",
-    source: MANUAL,
-    section: "Chapter 1: Driver Licenses - Driving with a Junior Learner Permit",
-    url: CH1,
-  },
-  {
-    key: "permit-nyc-parks-bridges",
-    quote:
-      "On any street within a park in New York City or any bridge or tunnel under the jurisdiction of the Triborough Bridge and Tunnel Authority.",
-    source: MANUAL,
-    section: "Chapter 1: Driver Licenses - General Rules for All Drivers with Learner Permits",
-    url: CH1,
-  },
-  {
     key: "permit-westchester-parkways",
     quote:
       "On the Cross County, Hutchinson River, Saw Mill River, or Taconic State parkways in Westchester County.",
@@ -1953,52 +1421,11 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH1,
   },
   {
-    key: "under-16-cannot-drive",
-    quote:
-      "However, even if you are licensed somewhere else, people under age 16 cannot drive in New York State.",
-    source: MANUAL,
-    section: "Chapter 1: Driver Licenses",
-    url: CH1,
-  },
-  {
-    key: "senior-license-at-17",
-    quote:
-      "If you are 17, you are eligible for a senior driver license (Class D or M) if you have a junior driver license and have completed a state-approved high school or college driver education course.",
-    source: MANUAL,
-    section: "Chapter 1: Driver Licenses - Driver Education",
-    url: CH1,
-  },
-  {
-    key: "pirp-four-points",
-    quote:
-      "If you are eligible for point reduction, as many as four (4) points can be reduced from your driving record.",
-    source: MANUAL,
-    section: "Chapter 1: Driver Licenses - After the Road Test",
-    url: CH1,
-  },
-  {
     key: "points-11-in-24-months",
     quote:
       "If you get 11 or more points within 24 months, you will be notified by mail that your driver license will be suspended.",
     source: MANUAL,
     section: "Chapter 2: How to Keep Your License - The Point System",
-    url: CH2,
-  },
-  {
-    key: "points-date-of-violation",
-    quote:
-      "The point values charged against your record are from the date you commit the violation, not the date you are convicted.",
-    source: MANUAL,
-    section: "Chapter 2: How to Keep Your License - The Point System",
-    url: CH2,
-  },
-  {
-    key: "junior-60-day-suspension",
-    quote:
-      "For example, your permit, license or privileges will be suspended for 60 days if you are convicted of a serious traffic violation (three points or more) or two other violations.",
-    source: MANUAL,
-    section:
-      "Chapter 2: How to Keep Your License - Special Rules for Drivers with Junior Permits and Licenses",
     url: CH2,
   },
   {
@@ -2027,22 +1454,6 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH2,
   },
   {
-    key: "no-insurance-revocation",
-    quote:
-      "Your driver license will be revoked for at least one year if you operate or allow another person to operate your uninsured vehicle, or if the DMV receives evidence that you were involved in a traffic crash without being insured.",
-    source: MANUAL,
-    section: "Chapter 2: How to Keep Your License - No Insurance",
-    url: CH2,
-  },
-  {
-    key: "driver-responsibility-assessment",
-    quote:
-      "If you are convicted of one or more traffic violations resulting in six points in any 18-month period, you will be required to pay $100 each year for the next three years.",
-    source: MANUAL,
-    section: "Chapter 2: How to Keep Your License - Driver Responsibility Assessments",
-    url: CH2,
-  },
-  {
     key: "insurance-minimums",
     quote:
       "Minimum liability coverage is required of $50,000 against the death of one person and $100,000 against the death of two or more persons, $25,000 against injury to one person and $50,000 against injury to two or more persons and $10,000 against property damage.",
@@ -2050,77 +1461,13 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     section: "Chapter 3: Owning a Vehicle - Insurance",
     url: CH3,
   },
-  {
-    key: "insurance-while-registered",
-    quote:
-      "Your vehicle must be covered by liability insurance as long as it is registered, even if you do not drive it.",
-    source: MANUAL,
-    section: "Chapter 3: Owning a Vehicle - Insurance",
-    url: CH3,
-  },
-  {
-    key: "insurance-90-days",
-    quote:
-      "If your vehicle is not insured for 90 days, unless you have turned in your vehicle plates, your driver license will also be suspended.",
-    source: MANUAL,
-    section: "Chapter 3: Owning a Vehicle - Insurance",
-    url: CH3,
-  },
-  {
-    key: "insurance-must-be-new-york",
-    quote:
-      "The New York State DMV does not accept out-of-state insurance.",
-    source: INSURANCE,
-    section: "Insurance Liability Coverage in New York State",
-    url: INSURANCE_URL,
-  },
-  {
-    key: "register-at-16",
-    quote: "You must be at least 16 to register a vehicle. You can title a vehicle at any age.",
-    source: MANUAL,
-    section: "Chapter 3: Owning a Vehicle - Registration and Title",
-    url: CH3,
-  },
-  {
-    key: "inspection-10-days-private-sale",
-    quote:
-      "If you purchase a vehicle from someone who is not a New York State dealer, you must have the vehicle inspected within 10 days after you register it.",
-    source: MANUAL,
-    section: "Chapter 3: Owning a Vehicle - Inspection",
-    url: CH3,
-  },
-
   // --------------------------- Graduated licensing (regional rules)
-  {
-    key: "gdl-three-regions",
-    quote:
-      "Upstate New York (which is defined as any county north of the NYC border) New York City (which is defined by the five Boroughs) Long Island (which includes Nassau and Suffolk County)",
-    source: GDL,
-    section: "The Graduated License Law - About",
-    url: GDL_URL,
-  },
   {
     key: "gdl-nyc-junior-licence-banned",
     quote:
       "If you have a Class DJ or MJ junior license, you cannot drive within the five boroughs of New York City under any circumstances",
     source: GDL,
     section: "The Graduated License Law - New York City GDL Restrictions",
-    url: GDL_URL,
-  },
-  {
-    key: "gdl-nyc-17-exception",
-    quote:
-      "This prohibition does not apply to 17-year-old drivers who have completed a State Education Department-approved Driver and Traffic Safety Education Course (and submitted to DMV their Student Certificate of Completion (MV-285)) and received their Class D, adult license.",
-    source: GDL,
-    section: "The Graduated License Law - New York City GDL Restrictions",
-    url: GDL_URL,
-  },
-  {
-    key: "gdl-upstate-day",
-    quote:
-      "you may drive in upstate New York without a supervising driver between the hours of 5 AM and 9 PM",
-    source: GDL,
-    section: "The Graduated License Law - Upstate New York GDL Restrictions",
     url: GDL_URL,
   },
   {
@@ -2139,73 +1486,11 @@ export const newyorkExcerpts: HandbookExcerpt[] = [
     url: CH1,
   },
   {
-    key: "gdl-long-island-night",
-    quote:
-      "You may drive alone only directly between your home and a work-study program, a course at a college, university, or registered evening high school, a driver education course, or while engaged in farm employment.",
-    source: MANUAL,
-    section: "Chapter 1: Driver Licenses - Regional Restrictions for a Junior License",
-    url: CH1,
-  },
-  {
-    key: "gdl-employment-certificate",
-    quote:
-      "You can drive by yourself between home and your employment, which can include farm work, if you carry the correct proof of employment.",
-    source: MANUAL,
-    section: "Chapter 1: Driver Licenses - Driving Alone with a Junior License",
-    url: CH1,
-  },
-  {
-    key: "gdl-serious-violation-definition",
-    quote:
-      "A \"serious traffic violation\" is normally a violation that carries three or more driver violation points",
-    source: GDL,
-    section: "The Graduated License Law - Penalties",
-    url: GDL_URL,
-  },
-  {
     key: "permit-supervisor-21",
     quote:
       "No matter what age you are, if you hold a learner permit, you may not drive unless accompanied by a supervising driver age 21 or older who has a valid license to operate the vehicle you are driving.",
     source: PERMITS,
     section: "Learner Permit Restrictions - Restrictions for All Permit Holders",
-    url: PERMITS_URL,
-  },
-  {
-    key: "permit-nyc-dual-controls",
-    quote: "the vehicle being driven has dual controls (dual brakes)",
-    source: PERMITS,
-    section: "Learner Permit Restrictions - New York City Permit Restrictions",
-    url: PERMITS_URL,
-  },
-  {
-    key: "permit-nyc-night-ban",
-    quote:
-      "If you have a junior learner permit, you cannot drive in any of the five boroughs in New York City between the hours of 9 PM and 5 AM under any circumstances.",
-    source: PERMITS,
-    section: "Learner Permit Restrictions - New York City Permit Restrictions",
-    url: PERMITS_URL,
-  },
-  {
-    key: "permit-long-island-night-ban",
-    quote:
-      "You cannot drive in Nassau and Suffolk Counties under any circumstances between the hours of 9 PM and 5 AM.",
-    source: PERMITS,
-    section: "Learner Permit Restrictions - Long Island (Nassau & Suffolk) Permit Restrictions",
-    url: PERMITS_URL,
-  },
-  {
-    key: "permit-long-island-written-designee",
-    quote:
-      "a person authorized to be your supervising driver by your parent, guardian, or person in a position of \"in loco parentis\" in writing",
-    source: PERMITS,
-    section: "Learner Permit Restrictions - Long Island (Nassau & Suffolk) Permit Restrictions",
-    url: PERMITS_URL,
-  },
-  {
-    key: "permit-motorcycle-quarter-mile",
-    quote: "remain within one-quarter mile of you, keeping you in sight at all times",
-    source: PERMITS,
-    section: "Learner Permit Restrictions - Motorcycle Permits",
     url: PERMITS_URL,
   },
 ];

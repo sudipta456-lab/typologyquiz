@@ -1,0 +1,890 @@
+{
+  "abs-braking": {
+    "height": 188,
+    "page": 86,
+    "src": "/handbook/florida/abs-braking.png",
+    "width": 395
+  },
+  "address-change-30-days": {
+    "height": 164,
+    "page": 20,
+    "src": "/handbook/florida/address-change-30-days.png",
+    "width": 391
+  },
+  "advisory-speed-sign": {
+    "height": 236,
+    "page": 57,
+    "src": "/handbook/florida/advisory-speed-sign.png",
+    "width": 277
+  },
+  "all-way-stop-tie": {
+    "height": 212,
+    "page": 55,
+    "src": "/handbook/florida/all-way-stop-tie.png",
+    "width": 291
+  },
+  "animal-crossing-sign": {
+    "height": 236,
+    "page": 58,
+    "src": "/handbook/florida/animal-crossing-sign.png",
+    "width": 287
+  },
+  "begin-right-turn-lane-sign": {
+    "height": 236,
+    "page": 55,
+    "src": "/handbook/florida/begin-right-turn-lane-sign.png",
+    "width": 288
+  },
+  "bicycle-is-vehicle": {
+    "height": 164,
+    "page": 89,
+    "src": "/handbook/florida/bicycle-is-vehicle.png",
+    "width": 730
+  },
+  "bicycle-three-feet": {
+    "height": 162,
+    "page": 89,
+    "src": "/handbook/florida/bicycle-three-feet.png",
+    "width": 729
+  },
+  "bike-assume-straight": {
+    "height": 138,
+    "page": 89,
+    "src": "/handbook/florida/bike-assume-straight.png",
+    "width": 702
+  },
+  "bike-helmet-under-16": {
+    "height": 184,
+    "page": 90,
+    "src": "/handbook/florida/bike-helmet-under-16.png",
+    "width": 371
+  },
+  "bike-lights-night": {
+    "height": 230,
+    "page": 90,
+    "src": "/handbook/florida/bike-lights-night.png",
+    "width": 372
+  },
+  "blind-spots-definition": {
+    "height": 164,
+    "page": 68,
+    "src": "/handbook/florida/blind-spots-definition.png",
+    "width": 533
+  },
+  "braking-distance-50": {
+    "height": 116,
+    "page": 68,
+    "src": "/handbook/florida/braking-distance-50.png",
+    "width": 733
+  },
+  "broken-white-line": {
+    "height": 139,
+    "page": 51,
+    "src": "/handbook/florida/broken-white-line.png",
+    "width": 513
+  },
+  "broken-yellow-line": {
+    "height": 161,
+    "page": 51,
+    "src": "/handbook/florida/broken-yellow-line.png",
+    "width": 538
+  },
+  "child-restraint-ages": {
+    "height": 184,
+    "page": 36,
+    "src": "/handbook/florida/child-restraint-ages.png",
+    "width": 373
+  },
+  "cmv-pass-left": {
+    "height": 138,
+    "page": 92,
+    "src": "/handbook/florida/cmv-pass-left.png",
+    "width": 371
+  },
+  "cmv-right-turn-swing": {
+    "height": 184,
+    "page": 92,
+    "src": "/handbook/florida/cmv-right-turn-swing.png",
+    "width": 368
+  },
+  "countdown-signal": {
+    "height": 140,
+    "page": 63,
+    "src": "/handbook/florida/countdown-signal.png",
+    "width": 588
+  },
+  "crash-report-10-days": {
+    "height": 211,
+    "page": 85,
+    "src": "/handbook/florida/crash-report-10-days.png",
+    "width": 390
+  },
+  "crash-unattended-vehicle": {
+    "height": 187,
+    "page": 85,
+    "src": "/handbook/florida/crash-unattended-vehicle.png",
+    "width": 393
+  },
+  "crossbuck-sign": {
+    "height": 116,
+    "page": 64,
+    "src": "/handbook/florida/crossbuck-sign.png",
+    "width": 600
+  },
+  "crosswalk-yield": {
+    "height": 139,
+    "page": 53,
+    "src": "/handbook/florida/crosswalk-yield.png",
+    "width": 562
+  },
+  "curfew-16": {
+    "height": 207,
+    "page": 33,
+    "src": "/handbook/florida/curfew-16.png",
+    "width": 375
+  },
+  "curfew-17": {
+    "height": 207,
+    "page": 33,
+    "src": "/handbook/florida/curfew-17.png",
+    "width": 373
+  },
+  "disabled-permit-misuse": {
+    "height": 139,
+    "page": 33,
+    "src": "/handbook/florida/disabled-permit-misuse.png",
+    "width": 392
+  },
+  "disabled-vehicle-four-wheels": {
+    "height": 161,
+    "page": 86,
+    "src": "/handbook/florida/disabled-vehicle-four-wheels.png",
+    "width": 375
+  },
+  "divided-highway-ends": {
+    "height": 236,
+    "page": 57,
+    "src": "/handbook/florida/divided-highway-ends.png",
+    "width": 276
+  },
+  "do-not-enter-sign": {
+    "height": 164,
+    "page": 55,
+    "src": "/handbook/florida/do-not-enter-sign.png",
+    "width": 291
+  },
+  "do-not-move-injured": {
+    "height": 140,
+    "page": 86,
+    "src": "/handbook/florida/do-not-move-injured.png",
+    "width": 381
+  },
+  "double-solid-yellow": {
+    "height": 138,
+    "page": 52,
+    "src": "/handbook/florida/double-solid-yellow.png",
+    "width": 718
+  },
+  "driver-charged-under-18": {
+    "height": 163,
+    "page": 36,
+    "src": "/handbook/florida/driver-charged-under-18.png",
+    "width": 386
+  },
+  "driveway-yield": {
+    "height": 140,
+    "page": 70,
+    "src": "/handbook/florida/driveway-yield.png",
+    "width": 387
+  },
+  "driving-too-slowly": {
+    "height": 188,
+    "page": 76,
+    "src": "/handbook/florida/driving-too-slowly.png",
+    "width": 393
+  },
+  "drug-conviction-suspension": {
+    "height": 207,
+    "page": 34,
+    "src": "/handbook/florida/drug-conviction-suspension.png",
+    "width": 343
+  },
+  "drugged-driving-same-penalty": {
+    "height": 164,
+    "page": 44,
+    "src": "/handbook/florida/drugged-driving-same-penalty.png",
+    "width": 394
+  },
+  "dui-08-suspension": {
+    "height": 212,
+    "page": 33,
+    "src": "/handbook/florida/dui-08-suspension.png",
+    "width": 394
+  },
+  "dui-75-years": {
+    "height": 164,
+    "page": 43,
+    "src": "/handbook/florida/dui-75-years.png",
+    "width": 383
+  },
+  "dui-blood-test-required": {
+    "height": 164,
+    "page": 34,
+    "src": "/handbook/florida/dui-blood-test-required.png",
+    "width": 393
+  },
+  "dui-definition": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/florida/dui-definition.png",
+    "width": 385
+  },
+  "dui-higher-coverage": {
+    "height": 212,
+    "page": 32,
+    "src": "/handbook/florida/dui-higher-coverage.png",
+    "width": 394
+  },
+  "dynamic-envelope": {
+    "height": 116,
+    "page": 64,
+    "src": "/handbook/florida/dynamic-envelope.png",
+    "width": 613
+  },
+  "emergency-vehicles-yield": {
+    "height": 211,
+    "page": 92,
+    "src": "/handbook/florida/emergency-vehicles-yield.png",
+    "width": 392
+  },
+  "exit-speed-sign": {
+    "height": 212,
+    "page": 55,
+    "src": "/handbook/florida/exit-speed-sign.png",
+    "width": 276
+  },
+  "fine-50-over": {
+    "height": 187,
+    "page": 37,
+    "src": "/handbook/florida/fine-50-over.png",
+    "width": 377
+  },
+  "fines-doubled-zones": {
+    "height": 230,
+    "page": 37,
+    "src": "/handbook/florida/fines-doubled-zones.png",
+    "width": 369
+  },
+  "fire-truck-500-feet": {
+    "height": 184,
+    "page": 70,
+    "src": "/handbook/florida/fire-truck-500-feet.png",
+    "width": 338
+  },
+  "flashing-red-light": {
+    "height": 170,
+    "page": 60,
+    "src": "/handbook/florida/flashing-red-light.png",
+    "width": 596
+  },
+  "flooded-roadway": {
+    "height": 140,
+    "page": 80,
+    "src": "/handbook/florida/flooded-roadway.png",
+    "width": 711
+  },
+  "following-four-seconds": {
+    "height": 139,
+    "page": 28,
+    "src": "/handbook/florida/following-four-seconds.png",
+    "width": 369
+  },
+  "funeral-procession": {
+    "height": 164,
+    "page": 92,
+    "src": "/handbook/florida/funeral-procession.png",
+    "width": 383
+  },
+  "golf-cart-age": {
+    "height": 207,
+    "page": 93,
+    "src": "/handbook/florida/golf-cart-age.png",
+    "width": 372
+  },
+  "golf-cart-crossing": {
+    "height": 184,
+    "page": 93,
+    "src": "/handbook/florida/golf-cart-crossing.png",
+    "width": 344
+  },
+  "hand-signals-left-side": {
+    "height": 138,
+    "page": 77,
+    "src": "/handbook/florida/hand-signals-left-side.png",
+    "width": 354
+  },
+  "handheld-school-work-zone": {
+    "height": 145,
+    "page": 42,
+    "src": "/handbook/florida/handheld-school-work-zone.png",
+    "width": 740
+  },
+  "headlights-sunset-sunrise": {
+    "height": 116,
+    "page": 81,
+    "src": "/handbook/florida/headlights-sunset-sunrise.png",
+    "width": 544
+  },
+  "high-beam-500-oncoming": {
+    "height": 138,
+    "page": 81,
+    "src": "/handbook/florida/high-beam-500-oncoming.png",
+    "width": 718
+  },
+  "hit-and-run-death": {
+    "height": 139,
+    "page": 85,
+    "src": "/handbook/florida/hit-and-run-death.png",
+    "width": 377
+  },
+  "hold-learner-12-months": {
+    "height": 161,
+    "page": 16,
+    "src": "/handbook/florida/hold-learner-12-months.png",
+    "width": 370
+  },
+  "hydroplaning-def": {
+    "height": 139,
+    "page": 80,
+    "src": "/handbook/florida/hydroplaning-def.png",
+    "width": 747
+  },
+  "implied-consent-refusal": {
+    "height": 245,
+    "page": 34,
+    "src": "/handbook/florida/implied-consent-refusal.png",
+    "width": 389
+  },
+  "insurance-suspension-three-years": {
+    "height": 164,
+    "page": 31,
+    "src": "/handbook/florida/insurance-suspension-three-years.png",
+    "width": 742
+  },
+  "judgment-affected-first": {
+    "height": 164,
+    "page": 43,
+    "src": "/handbook/florida/judgment-affected-first.png",
+    "width": 390
+  },
+  "lane-signal-red-x": {
+    "height": 116,
+    "page": 61,
+    "src": "/handbook/florida/lane-signal-red-x.png",
+    "width": 416
+  },
+  "lane-signal-yellow-x": {
+    "height": 116,
+    "page": 61,
+    "src": "/handbook/florida/lane-signal-yellow-x.png",
+    "width": 427
+  },
+  "learner-15-years-old": {
+    "height": 149,
+    "page": 16,
+    "src": "/handbook/florida/learner-15-years-old.png",
+    "width": 386
+  },
+  "learner-curfew": {
+    "height": 230,
+    "page": 33,
+    "src": "/handbook/florida/learner-curfew.png",
+    "width": 390
+  },
+  "leaving-scene-illegal": {
+    "height": 140,
+    "page": 85,
+    "src": "/handbook/florida/leaving-scene-illegal.png",
+    "width": 388
+  },
+  "left-turn-on-red-one-way": {
+    "height": 139,
+    "page": 59,
+    "src": "/handbook/florida/left-turn-on-red-one-way.png",
+    "width": 592
+  },
+  "limited-access-prohibited": {
+    "height": 211,
+    "page": 71,
+    "src": "/handbook/florida/limited-access-prohibited.png",
+    "width": 392
+  },
+  "low-clearance-sign": {
+    "height": 188,
+    "page": 58,
+    "src": "/handbook/florida/low-clearance-sign.png",
+    "width": 286
+  },
+  "low-visibility-low-beam": {
+    "height": 138,
+    "page": 79,
+    "src": "/handbook/florida/low-visibility-low-beam.png",
+    "width": 704
+  },
+  "merge-yield-highway": {
+    "height": 184,
+    "page": 71,
+    "src": "/handbook/florida/merge-yield-highway.png",
+    "width": 364
+  },
+  "minimum-speed-50": {
+    "height": 164,
+    "page": 76,
+    "src": "/handbook/florida/minimum-speed-50.png",
+    "width": 393
+  },
+  "minor-six-points": {
+    "height": 115,
+    "page": 37,
+    "src": "/handbook/florida/minor-six-points.png",
+    "width": 385
+  },
+  "missed-exit": {
+    "height": 161,
+    "page": 72,
+    "src": "/handbook/florida/missed-exit.png",
+    "width": 372
+  },
+  "moped-class-e": {
+    "height": 161,
+    "page": 95,
+    "src": "/handbook/florida/moped-class-e.png",
+    "width": 374
+  },
+  "motorcycle-buffer": {
+    "height": 161,
+    "page": 95,
+    "src": "/handbook/florida/motorcycle-buffer.png",
+    "width": 373
+  },
+  "motorcycle-full-lane": {
+    "height": 161,
+    "page": 93,
+    "src": "/handbook/florida/motorcycle-full-lane.png",
+    "width": 375
+  },
+  "motorcycle-helmet-21": {
+    "height": 230,
+    "page": 95,
+    "src": "/handbook/florida/motorcycle-helmet-21.png",
+    "width": 358
+  },
+  "move-over-multi-lane": {
+    "height": 161,
+    "page": 73,
+    "src": "/handbook/florida/move-over-multi-lane.png",
+    "width": 376
+  },
+  "move-over-who": {
+    "height": 115,
+    "page": 73,
+    "src": "/handbook/florida/move-over-who.png",
+    "width": 391
+  },
+  "no-fault-minimums": {
+    "height": 115,
+    "page": 31,
+    "src": "/handbook/florida/no-fault-minimums.png",
+    "width": 718
+  },
+  "no-pass-zones": {
+    "height": 138,
+    "page": 75,
+    "src": "/handbook/florida/no-pass-zones.png",
+    "width": 360
+  },
+  "no-turn-on-red-sign": {
+    "height": 188,
+    "page": 56,
+    "src": "/handbook/florida/no-turn-on-red-sign.png",
+    "width": 284
+  },
+  "one-lane-bridge-sign": {
+    "height": 236,
+    "page": 58,
+    "src": "/handbook/florida/one-lane-bridge-sign.png",
+    "width": 292
+  },
+  "open-intersection-yield": {
+    "height": 163,
+    "page": 70,
+    "src": "/handbook/florida/open-intersection-yield.png",
+    "width": 391
+  },
+  "parking-check-before-door": {
+    "height": 187,
+    "page": 73,
+    "src": "/handbook/florida/parking-check-before-door.png",
+    "width": 391
+  },
+  "parking-distances": {
+    "height": 115,
+    "page": 74,
+    "src": "/handbook/florida/parking-distances.png",
+    "width": 270
+  },
+  "parking-hills-wheels": {
+    "height": 138,
+    "page": 74,
+    "src": "/handbook/florida/parking-hills-wheels.png",
+    "width": 702
+  },
+  "parking-illegal-places": {
+    "height": 123,
+    "page": 74,
+    "src": "/handbook/florida/parking-illegal-places.png",
+    "width": 358
+  },
+  "parking-take-keys": {
+    "height": 163,
+    "page": 73,
+    "src": "/handbook/florida/parking-take-keys.png",
+    "width": 394
+  },
+  "pass-with-care-sign": {
+    "height": 164,
+    "page": 56,
+    "src": "/handbook/florida/pass-with-care-sign.png",
+    "width": 273
+  },
+  "passengers-18-charged": {
+    "height": 163,
+    "page": 36,
+    "src": "/handbook/florida/passengers-18-charged.png",
+    "width": 386
+  },
+  "passing-200-feet": {
+    "height": 184,
+    "page": 75,
+    "src": "/handbook/florida/passing-200-feet.png",
+    "width": 363
+  },
+  "passing-on-right": {
+    "height": 140,
+    "page": 75,
+    "src": "/handbook/florida/passing-on-right.png",
+    "width": 382
+  },
+  "ped-no-block-crosswalk": {
+    "height": 184,
+    "page": 96,
+    "src": "/handbook/florida/ped-no-block-crosswalk.png",
+    "width": 375
+  },
+  "ped-no-pass-stopped-vehicle": {
+    "height": 139,
+    "page": 96,
+    "src": "/handbook/florida/ped-no-pass-stopped-vehicle.png",
+    "width": 377
+  },
+  "ped-right-on-red-stop": {
+    "height": 161,
+    "page": 96,
+    "src": "/handbook/florida/ped-right-on-red-stop.png",
+    "width": 358
+  },
+  "pip-pdl-what-they-cover": {
+    "height": 163,
+    "page": 31,
+    "src": "/handbook/florida/pip-pdl-what-they-cover.png",
+    "width": 738
+  },
+  "points-out-of-state": {
+    "height": 164,
+    "page": 37,
+    "src": "/handbook/florida/points-out-of-state.png",
+    "width": 385
+  },
+  "power-outage-four-way": {
+    "height": 164,
+    "page": 87,
+    "src": "/handbook/florida/power-outage-four-way.png",
+    "width": 390
+  },
+  "red-reflectors": {
+    "height": 163,
+    "page": 77,
+    "src": "/handbook/florida/red-reflectors.png",
+    "width": 392
+  },
+  "reduction-of-lanes-sign": {
+    "height": 212,
+    "page": 57,
+    "src": "/handbook/florida/reduction-of-lanes-sign.png",
+    "width": 276
+  },
+  "restricted-lane-ahead-sign": {
+    "height": 236,
+    "page": 56,
+    "src": "/handbook/florida/restricted-lane-ahead-sign.png",
+    "width": 291
+  },
+  "right-turn-on-red": {
+    "height": 138,
+    "page": 59,
+    "src": "/handbook/florida/right-turn-on-red.png",
+    "width": 597
+  },
+  "right-wheels-off-pavement": {
+    "height": 237,
+    "page": 87,
+    "src": "/handbook/florida/right-wheels-off-pavement.png",
+    "width": 391
+  },
+  "rr-20-seconds": {
+    "height": 140,
+    "page": 87,
+    "src": "/handbook/florida/rr-20-seconds.png",
+    "width": 387
+  },
+  "safety-belt-law": {
+    "height": 161,
+    "page": 36,
+    "src": "/handbook/florida/safety-belt-law.png",
+    "width": 375
+  },
+  "school-bus-divided": {
+    "height": 236,
+    "page": 97,
+    "src": "/handbook/florida/school-bus-divided.png",
+    "width": 391
+  },
+  "school-bus-same-direction": {
+    "height": 188,
+    "page": 97,
+    "src": "/handbook/florida/school-bus-same-direction.png",
+    "width": 391
+  },
+  "school-bus-stop-ahead-sign": {
+    "height": 116,
+    "page": 65,
+    "src": "/handbook/florida/school-bus-stop-ahead-sign.png",
+    "width": 592
+  },
+  "school-bus-two-way": {
+    "height": 187,
+    "page": 97,
+    "src": "/handbook/florida/school-bus-two-way.png",
+    "width": 379
+  },
+  "school-sign": {
+    "height": 140,
+    "page": 65,
+    "src": "/handbook/florida/school-sign.png",
+    "width": 606
+  },
+  "sign-color-fluorescent-green": {
+    "height": 140,
+    "page": 54,
+    "src": "/handbook/florida/sign-color-fluorescent-green.png",
+    "width": 350
+  },
+  "sign-colors-brown": {
+    "height": 140,
+    "page": 54,
+    "src": "/handbook/florida/sign-colors-brown.png",
+    "width": 343
+  },
+  "sign-colors-red": {
+    "height": 140,
+    "page": 54,
+    "src": "/handbook/florida/sign-colors-red.png",
+    "width": 355
+  },
+  "signal-100-feet": {
+    "height": 138,
+    "page": 77,
+    "src": "/handbook/florida/signal-100-feet.png",
+    "width": 370
+  },
+  "signal-not-invite-pass": {
+    "height": 162,
+    "page": 77,
+    "src": "/handbook/florida/signal-not-invite-pass.png",
+    "width": 350
+  },
+  "signal-out-of-order": {
+    "height": 164,
+    "page": 59,
+    "src": "/handbook/florida/signal-out-of-order.png",
+    "width": 613
+  },
+  "skid-steer-direction": {
+    "height": 161,
+    "page": 87,
+    "src": "/handbook/florida/skid-steer-direction.png",
+    "width": 375
+  },
+  "slow-moving-vehicle-sign": {
+    "height": 188,
+    "page": 97,
+    "src": "/handbook/florida/slow-moving-vehicle-sign.png",
+    "width": 393
+  },
+  "soft-shoulder-sign": {
+    "height": 188,
+    "page": 58,
+    "src": "/handbook/florida/soft-shoulder-sign.png",
+    "width": 289
+  },
+  "solid-white-line": {
+    "height": 162,
+    "page": 51,
+    "src": "/handbook/florida/solid-white-line.png",
+    "width": 537
+  },
+  "speed-force-of-impact": {
+    "height": 138,
+    "page": 76,
+    "src": "/handbook/florida/speed-force-of-impact.png",
+    "width": 375
+  },
+  "speed-limits-favorable": {
+    "height": 211,
+    "page": 76,
+    "src": "/handbook/florida/speed-limits-favorable.png",
+    "width": 388
+  },
+  "speed-never-higher-70": {
+    "height": 163,
+    "page": 36,
+    "src": "/handbook/florida/speed-never-higher-70.png",
+    "width": 384
+  },
+  "stop-sign": {
+    "height": 164,
+    "page": 55,
+    "src": "/handbook/florida/stop-sign.png",
+    "width": 283
+  },
+  "straight-in-parking": {
+    "height": 187,
+    "page": 74,
+    "src": "/handbook/florida/straight-in-parking.png",
+    "width": 381
+  },
+  "submerged-vehicle": {
+    "height": 140,
+    "page": 88,
+    "src": "/handbook/florida/submerged-vehicle.png",
+    "width": 394
+  },
+  "three-lane-center": {
+    "height": 161,
+    "page": 77,
+    "src": "/handbook/florida/three-lane-center.png",
+    "width": 359
+  },
+  "three-point-turn-where-not": {
+    "height": 164,
+    "page": 78,
+    "src": "/handbook/florida/three-point-turn-where-not.png",
+    "width": 401
+  },
+  "tire-blowout": {
+    "height": 236,
+    "page": 88,
+    "src": "/handbook/florida/tire-blowout.png",
+    "width": 383
+  },
+  "tlsae-required": {
+    "height": 139,
+    "page": 25,
+    "src": "/handbook/florida/tlsae-required.png",
+    "width": 744
+  },
+  "total-stopping-distance-50": {
+    "height": 139,
+    "page": 68,
+    "src": "/handbook/florida/total-stopping-distance-50.png",
+    "width": 728
+  },
+  "transit-bus-yield": {
+    "height": 211,
+    "page": 96,
+    "src": "/handbook/florida/transit-bus-yield.png",
+    "width": 385
+  },
+  "truck-300-feet": {
+    "height": 187,
+    "page": 70,
+    "src": "/handbook/florida/truck-300-feet.png",
+    "width": 388
+  },
+  "turn-lane-only-arrow": {
+    "height": 116,
+    "page": 53,
+    "src": "/handbook/florida/turn-lane-only-arrow.png",
+    "width": 504
+  },
+  "turn-signals-required-lane-change": {
+    "height": 162,
+    "page": 77,
+    "src": "/handbook/florida/turn-signals-required-lane-change.png",
+    "width": 373
+  },
+  "two-way-stop-turning-yields": {
+    "height": 164,
+    "page": 70,
+    "src": "/handbook/florida/two-way-stop-turning-yields.png",
+    "width": 395
+  },
+  "under-21-05-course": {
+    "height": 163,
+    "page": 34,
+    "src": "/handbook/florida/under-21-05-course.png",
+    "width": 386
+  },
+  "vision-20-40": {
+    "height": 184,
+    "page": 27,
+    "src": "/handbook/florida/vision-20-40.png",
+    "width": 367
+  },
+  "warning-signs-yellow-diamond": {
+    "height": 116,
+    "page": 57,
+    "src": "/handbook/florida/warning-signs-yellow-diamond.png",
+    "width": 744
+  },
+  "white-cane": {
+    "height": 184,
+    "page": 96,
+    "src": "/handbook/florida/white-cane.png",
+    "width": 325
+  },
+  "wipers-headlights": {
+    "height": 116,
+    "page": 79,
+    "src": "/handbook/florida/wipers-headlights.png",
+    "width": 623
+  },
+  "wrong-way-sign": {
+    "height": 164,
+    "page": 55,
+    "src": "/handbook/florida/wrong-way-sign.png",
+    "width": 289
+  },
+  "yield-sign": {
+    "height": 212,
+    "page": 55,
+    "src": "/handbook/florida/yield-sign.png",
+    "width": 291
+  },
+  "zero-tolerance-02": {
+    "height": 211,
+    "page": 34,
+    "src": "/handbook/florida/zero-tolerance-02.png",
+    "width": 377
+  }
+}

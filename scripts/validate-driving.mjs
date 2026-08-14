@@ -35,6 +35,15 @@ const OFFICIAL_HOSTS = [
   "dmv.ca.gov",
   "dot.ca.gov",
   "leginfo.legislature.ca.gov",
+  // Florida
+  "flhsmv.gov",
+  "fdot.gov",
+  "leg.state.fl.us",
+  "flsenate.gov",
+  // New York
+  "dmv.ny.gov",
+  "dot.ny.gov",
+  "nysenate.gov",
 ];
 
 let errors = 0;

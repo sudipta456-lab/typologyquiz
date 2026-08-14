@@ -3,6 +3,10 @@ import { albertaSets1to3 } from "./alberta/sets-1-3";
 import { albertaSets4to6 } from "./alberta/sets-4-6";
 import { ontarioSets1to3 } from "./ontario/sets-1-3";
 import { ontarioSets4to6 } from "./ontario/sets-4-6";
+import { newyorkSets1to3 } from "./newyork/sets-1-3";
+import { newyorkSets4to6 } from "./newyork/sets-4-6";
+import { floridaSets1to3 } from "./florida/sets-1-3";
+import { floridaSets4to6 } from "./florida/sets-4-6";
 import { texasSets1to3 } from "./texas/sets-1-3";
 import { texasSets4to6 } from "./texas/sets-4-6";
 import { californiaSets1to3 } from "./california/sets-1-3";
@@ -119,6 +123,68 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "Move Over / Slow Down applies to more vehicle types than people expect.",
     ],
     sets: [...texasSets1to3, ...texasSets4to6].sort(byNumber),
+  },
+  {
+    slug: "florida",
+    name: "Florida",
+    code: "FL",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Class E Learner License",
+    intro:
+      "Florida asks 50 questions and wants 40 right. The insurance rules catch people out - it is a no-fault state, so the minimums it tests are not the ones most drivers expect.",
+    officialTest: {
+      questionCount: 50,
+      passCount: 40,
+      passLabel: "40 of 50 (80%)",
+      notes: [
+        "50 multiple-choice questions on Florida traffic laws, safe driving practices and traffic controls.",
+        "You need 40 correct - 80 percent.",
+        "Applicants under 18 may take it online through an approved third party administrator; everyone else takes it at a service centre.",
+      ],
+    },
+    handbookName: "Official Florida Driver License Handbook",
+    handbookUrl: "https://www.flhsmv.gov/driver-licenses-id-cards/education-course-requirements/florida-driver-license-handbook/",
+    officialInfoUrl: "https://www.flhsmv.gov/driver-licenses-id-cards/",
+    localGotchas: [
+      "Florida is a no-fault state - the PIP and PDL minimums it tests are not the liability figures people expect.",
+      "Move Over now covers disabled vehicles too, and there is a 5 mph floor when you cannot change lanes.",
+      "The under-18 curfew splits at 16 and 17 - the hours are different for each.",
+    ],
+    sets: [...floridaSets1to3, ...floridaSets4to6].sort(byNumber),
+  },
+  {
+    slug: "newyork",
+    name: "New York",
+    code: "NY",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Learner Permit",
+    intro:
+      "New York has a second hurdle most people miss: 14 of 20 passes, but miss three of the four road-sign questions and you fail anyway.",
+    officialTest: {
+      questionCount: 20,
+      passCount: 14,
+      passLabel: "14 of 20 (70%), including 2 of 4 road sign questions",
+      // Deliberately NOT scored with sectionedBy. Our scorer splits a set into
+      // equal halves, so New York's 4-and-16 split would ask for 20% of the
+      // sign questions instead of 50% - a LOOSER bar than the real test, which
+      // is the wrong direction to be wrong in.
+      notes: [
+        "20 questions. You need at least 14 correct.",
+        "Separately, you must get at least 2 of the 4 road sign questions right - 14 correct still fails if you miss three signs.",
+        "Questions come from Chapters 4 to 11 of the manual plus the road signs section. Licensing and vehicle-ownership chapters are not tested.",
+      ],
+    },
+    handbookName: "New York State Driver's Manual (MV-21)",
+    handbookUrl: "https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests",
+    officialInfoUrl: "https://dmv.ny.gov/",
+    localGotchas: [
+      "Junior licence rules differ sharply between New York City, Long Island and upstate - and a junior permit is stricter again than a junior licence.",
+      "Right turn on red is prohibited in New York City unless a sign allows it - the opposite of the rest of the state.",
+      "Passing the written test needs 2 of the 4 sign questions, on top of 14 of 20 overall.",
+    ],
+    sets: [...newyorkSets1to3, ...newyorkSets4to6].sort(byNumber),
   },
   {
     slug: "california",

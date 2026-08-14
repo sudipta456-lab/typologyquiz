@@ -2,6 +2,8 @@ import type { HandbookExcerpt } from "./types";
 import { albertaExcerpts } from "./alberta/excerpts";
 import { ontarioExcerpts } from "./ontario/excerpts";
 import { texasExcerpts } from "./texas/excerpts";
+import { floridaExcerpts } from "./florida/excerpts";
+import { newyorkExcerpts } from "./newyork/excerpts";
 import { californiaExcerpts } from "./california/excerpts";
 
 // Handbook excerpt library, keyed by jurisdiction then rule.
@@ -15,6 +17,8 @@ const BY_JURISDICTION: Record<string, HandbookExcerpt[]> = {
   alberta: albertaExcerpts,
   ontario: ontarioExcerpts,
   texas: texasExcerpts,
+  florida: floridaExcerpts,
+  newyork: newyorkExcerpts,
   california: californiaExcerpts,
 };
 

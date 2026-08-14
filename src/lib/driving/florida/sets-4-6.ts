@@ -71,12 +71,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A pedestrian carrying a white cane with a red tip is stepping into the road ahead of you. What must you do?",
         choices: [
+          "Yield only if they are within a marked crosswalk",
           "Sound your horn to make your presence known",
           "Slow and pass behind them",
           "Come to a complete stop and yield the right-of-way",
-          "Yield only if they are within a marked crosswalk",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "Florida requires a complete stop, yielding the right-of-way, and extra caution for a visually impaired pedestrian using a white cane with a red tip or a guide animal.",
         context:
@@ -93,12 +93,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are driving well under the limit on a clear road and a queue has built up behind you. What is your position under Florida law?",
         choices: [
-          "You are safe, because you are under the posted limit",
           "You may be breaking the law by blocking or delaying traffic moving at normal, safe speeds",
           "You are required to pull over every mile to let traffic pass",
           "You are legal as long as you are not in the left lane",
+          "You are safe, because you are under the posted limit",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "Driving too slowly is against Florida law. You must not drive so slowly that you block or delay traffic that is moving at normal, safe speeds.",
         context:
@@ -114,12 +114,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "parking",
         question: "How close to a stop sign or traffic signal may you park in Florida?",
         choices: [
-          "No closer than 20 feet",
-          "No closer than 50 feet",
           "No closer than 30 feet",
           "No closer than 15 feet",
+          "No closer than 20 feet",
+          "No closer than 50 feet",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "Thirty feet is the required clearance from any flashing signal, stop sign or traffic signal, so a parked vehicle cannot hide the control from approaching drivers.",
         context:
@@ -158,12 +158,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A 20-year-old driver registers a breath alcohol level of .06. Beyond the suspension, what else does Florida require?",
         choices: [
+          "Fifty hours of community service",
           "Attendance at a substance abuse course",
           "Twelve hours of DUI school",
           "An ignition interlock device for six months",
-          "Fifty hours of community service",
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation:
           "Any driver under 21 with a level of .05 or higher is required to attend a substance abuse course, on top of the six-month suspension that .02 already triggers.",
         context:
@@ -181,12 +181,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A semi-truck ahead of you swings out to the left before turning right at a junction. What should you do?",
         choices: [
-          "Move into the gap on its right to keep traffic flowing",
-          "Overtake on the left while the truck is committed to the turn",
           "Stay back; do not drive between the truck and the kerb",
           "Sound your horn to warn the driver you are alongside",
+          "Move into the gap on its right to keep traffic flowing",
+          "Overtake on the left while the truck is committed to the turn",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "Commercial vehicles have to swing wide to the left in order to bring the trailer round a right turn. You must not drive into the gap between the truck and the kerb, because the driver cannot see you there.",
         context:
@@ -202,12 +202,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "emergencies",
         question: "A front tyre blows out at highway speed. What is the first thing you should do?",
         choices: [
-          "Brake firmly to bring the speed down quickly",
           "Take your foot off the gas and stay off the brakes",
           "Steer hard toward the shoulder immediately",
           "Apply the parking brake to slow the car evenly",
+          "Brake firmly to bring the speed down quickly",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "Come off the accelerator and leave the brakes alone. Concentrate on steering, let the speed fall away gradually, brake softly once the car is under control, then pull completely off the road.",
         context:
@@ -244,12 +244,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "safety",
         question: "Where does the Florida handbook say children under 13 should sit?",
         choices: [
-          "In the front seat where the driver can supervise them",
           "In the rear seat",
           "In any seat, provided they are belted",
           "In the rear seat only until they reach 80 pounds",
+          "In the front seat where the driver can supervise them",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "Children under 13 should be in the rear seat, because a deploying front airbag can injure or kill a young child.",
         context:
@@ -266,12 +266,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "White markings shaped like connected X's are painted around a railroad crossing. What are they for?",
         choices: [
-          "They mark a pedestrian route across the tracks",
-          "They show where the crossing gates come down",
           "They highlight the zone where you must never stop",
           "They indicate a crossing with more than one track",
+          "They mark a pedestrian route across the tracks",
+          "They show where the crossing gates come down",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "That marking is the dynamic envelope. It highlights the danger zone a train sweeps through, and anything stopped inside it can be struck.",
         context:
@@ -279,7 +279,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "The number of tracks is shown on a small sign under the crossbuck, not by the pavement marking.",
         excerptKey: "dynamic-envelope",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Railroad Crossing Signs & Signals",
         sourceUrl: HB,
       },
@@ -288,12 +287,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "rules",
         question: "How close to an intersection or a bridge does Florida forbid passing?",
         choices: [
-          "Within 50 feet",
           "Within 200 feet",
           "Within 100 feet",
           "Within 500 feet",
+          "Within 50 feet",
         ],
-        correctIndex: 2,
+        correctIndex: 1,
         explanation:
           "Passing is prohibited within 100 feet of an intersection, bridge, viaduct, tunnel or railroad crossing.",
         context:
@@ -301,7 +300,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "Five hundred feet is the sight-distance figure for hills and curves. Applying it here makes the rule far broader than it is.",
         excerptKey: "no-pass-zones",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Passing",
         sourceUrl: HB,
       },
@@ -311,12 +309,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are in the acceleration lane joining a Florida expressway. Who has the right-of-way?",
         choices: [
-          "You do, because merging traffic has priority",
-          "Traffic already on the highway",
           "Whichever vehicle is travelling faster",
           "Traffic in the right-hand highway lane must move over for you",
+          "You do, because merging traffic has priority",
+          "Traffic already on the highway",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "You yield to traffic already on the highway and merge when you can do so safely. The acceleration lane exists so you can match speed while you look for the gap.",
         context:
@@ -376,12 +374,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You have never held a driver licence anywhere. What course must you complete before applying in Florida?",
         choices: [
-          "A basic driver improvement course",
           "An advanced driver improvement course",
           "The Traffic Law and Substance Abuse Education course",
           "A defensive driving course approved by your insurer",
+          "A basic driver improvement course",
         ],
-        correctIndex: 2,
+        correctIndex: 1,
         explanation:
           "The Traffic Law and Substance Abuse Education course is required before you apply, if you have never held or do not have in your possession a driver licence from any state, country or jurisdiction.",
         context:
@@ -398,12 +396,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "Someone is convicted of possessing a controlled substance in a case with no vehicle involved at all. What happens to their Florida driver licence?",
         choices: [
-          "Nothing, because driving was not involved",
           "Points are added but the licence continues",
           "It must be suspended",
           "It is suspended only if they are under 21",
+          "Nothing, because driving was not involved",
         ],
-        correctIndex: 2,
+        correctIndex: 1,
         explanation:
           "Florida law requires the driver licence to be suspended on conviction for possessing, selling or trafficking in drugs, including marijuana. No vehicle needs to have been involved.",
         context:
@@ -420,12 +418,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "sharing",
         question: "Which motorcycle riders may legally ride without a helmet in Florida?",
         choices: [
-          "Riders 18 or over on roads posted at 35 mph or less",
-          "Riders 21 or over who carry at least $10,000 in medical benefits coverage",
           "Riders 21 or over, with no further condition",
           "No one; helmets are mandatory for all riders",
+          "Riders 18 or over on roads posted at 35 mph or less",
+          "Riders 21 or over who carry at least $10,000 in medical benefits coverage",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "A motorcycle operator must wear a helmet unless they are 21 or older and carry a medical insurance policy providing at least $10,000 in medical benefits for injuries. Both conditions have to be met.",
         context:
@@ -463,12 +461,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "signals",
         question: "A signal on the entrance ramp to a Florida expressway shows red. What must you do?",
         choices: [
+          "Treat it as a stop sign and proceed after stopping",
           "Wait for the green signal before entering the expressway",
           "Treat it as a yield and merge when there is a gap",
           "Stop only if traffic is queueing on the ramp",
-          "Treat it as a stop sign and proceed after stopping",
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation:
           "Ramp signals alternate between red and green to control how fast vehicles enter the expressway. You wait for the green before entering.",
         context:
@@ -484,12 +482,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "signs",
         question: "A sign reads PASS WITH CARE. What is it telling you?",
         choices: [
+          "Passing is permitted only on the right",
           "Passing is prohibited from this point",
           "You are leaving a no-passing zone and may pass, cautiously",
           "You may pass only vehicles travelling under 35 mph",
-          "Passing is permitted only on the right",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "PASS WITH CARE tells you passing is allowed here and asks you to do it carefully. It typically marks the end of a stretch where passing was not permitted.",
         context:
@@ -506,12 +504,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are in the right-hand lane of a four-lane road and a police car is stopped ahead on the shoulder with its lights flashing. Traffic makes it impossible to change lanes safely. What does the Move Over law require?",
         choices: [
+          "Slow to 5 mph and pass in the same lane",
           "Stop until the lane beside the police car is clear",
           "Continue at the posted limit, since you cannot move over",
           "Slow to 20 mph below the posted speed limit",
-          "Slow to 5 mph and pass in the same lane",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "On a multi-lane road you must vacate the lane closest to the stopped vehicle. Where that cannot be done safely, you must slow to 20 mph below the posted limit instead.",
         context:
@@ -529,12 +527,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "The car ahead of you in the next lane has stopped at a crosswalk to let someone cross, though you cannot see anyone. What may you do?",
         choices: [
-          "Pass, since your lane is clear",
           "Pass slowly with your horn ready",
           "You may not overtake it; assume a pedestrian is crossing",
           "Pass only if the crosswalk is unmarked",
+          "Pass, since your lane is clear",
         ],
-        correctIndex: 2,
+        correctIndex: 1,
         explanation:
           "You may not overtake or pass a vehicle that has stopped at a crosswalk to let a pedestrian cross. A driver approaching from behind must assume someone is crossing even when nobody is visible.",
         context:
@@ -551,12 +549,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "safety",
         question: "Florida groups driver distraction into three categories. What are they?",
         choices: [
-          "Visual, manual and cognitive",
           "Internal, external and mechanical",
           "Auditory, visual and emotional",
           "Physical, chemical and emotional",
+          "Visual, manual and cognitive",
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation:
           "Distraction is visual, taking your eyes off the road; manual, taking your hands off the wheel; and cognitive, thinking about anything other than driving.",
         context:
@@ -593,12 +591,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "speed",
         question: "A small square panel showing 30 hangs beneath a curve warning sign. What is that number?",
         choices: [
-          "The fastest safe speed for the curve",
-          "The legal speed limit through the curve",
           "The minimum speed for the curve",
           "The distance in yards to the curve",
+          "The fastest safe speed for the curve",
+          "The legal speed limit through the curve",
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation:
           "An advisory speed panel gives the fastest safe speed for the hazard ahead. It can be attached to any warning sign.",
         context:
@@ -615,12 +613,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "Someone parks in a disabled space using a permit belonging to a relative who is not in the car. What can follow?",
         choices: [
-          "A parking fine only",
           "A warning for a first offence",
           "A second degree misdemeanour charge, a fine or jail, towing and loss of the permit",
           "Nothing, since the permit itself is valid",
+          "A parking fine only",
         ],
-        correctIndex: 2,
+        correctIndex: 1,
         explanation:
           "Using a permit that does not belong to you is a second degree misdemeanour, punishable by a $500 fine or up to six months in jail, and the vehicle can be towed and the permit confiscated.",
         context:
@@ -637,12 +635,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "What vision standard clears a Florida applicant without referral to an eye specialist?",
         choices: [
+          "20/70 combined across both eyes",
           "20/20 in at least one eye",
           "20/40 or better in each eye, with or without corrective lenses",
           "20/50 or better in each eye",
-          "20/70 combined across both eyes",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "20/40 or better in each eye, with or without corrective lenses, meets the state requirement with no referral.",
         context:
@@ -658,12 +656,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "sharing",
         question: "What is a low-speed vehicle in Florida?",
         choices: [
+          "A three-wheeled vehicle limited to 30 mph",
           "Any vehicle that cannot exceed 35 mph",
           "A golf cart used off a golf course",
           "A four-wheeled vehicle with a top speed of 21 to 25 mph",
-          "A three-wheeled vehicle limited to 30 mph",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "A low-speed vehicle is a four-wheeled vehicle with a top speed of 21 to 25 mph. A golf cart can be converted into one.",
         context:
@@ -680,12 +678,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You reach a crash and a passenger is conscious but complaining of neck pain. What should you do?",
         choices: [
-          "Move them to the roadside so they are away from traffic",
-          "Sit them upright and give them water",
           "Leave them where they are and do not move them",
           "Remove any helmet so you can check their airway",
+          "Move them to the roadside so they are away from traffic",
+          "Sit them upright and give them water",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "Do not move an injured person who may have a neck or spinal injury, and do not remove the helmet of an injured motorcycle or bicycle rider.",
         context:
@@ -701,12 +699,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "signals",
         question: "You see red reflectors facing you on the lane lines. What have you got wrong?",
         choices: [
-          "You are in a lane reserved for high occupancy vehicles",
           "You are facing traffic the wrong way and risk a head-on collision",
           "You are approaching a toll plaza",
           "You are in a lane that is closed ahead",
+          "You are in a lane reserved for high occupancy vehicles",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "Red reflectors on the lane lines always mean you are facing traffic the wrong way. You turn around or get into the correct lane immediately.",
         context:
@@ -723,12 +721,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "rules",
         question: "If you have to use hand signals, where must they be given from?",
         choices: [
-          "The left side of the vehicle",
           "Whichever side matches the direction of the turn",
           "The right side, so oncoming traffic can see them",
           "Through the windscreen, above the dashboard",
+          "The left side of the vehicle",
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation:
           "Hand signals must be given from the left side of the vehicle, which is the side drivers behind you and oncoming traffic can actually see.",
         context:
@@ -765,12 +763,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "safety",
         question: "What exactly is hydroplaning?",
         choices: [
-          "Losing traction because the road surface has been polished smooth",
-          "Sliding on a thin layer of water between the tyres and the road",
           "The pull to one side that happens when brakes get wet",
           "Aquaplaning caused only by standing water deeper than two inches",
+          "Losing traction because the road surface has been polished smooth",
+          "Sliding on a thin layer of water between the tyres and the road",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "Hydroplaning is the tyres riding up on a thin film of water so they are no longer touching the road. With no contact there is no grip, so you can lose control and skid.",
         context:
@@ -797,12 +795,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are on a two-lane road posted at 15 mph and a tow truck is stopped ahead with warning lights on. What does the Move Over law require?",
         choices: [
-          "Slow to 20 mph below the limit",
           "Stop until you can pass without coming near it",
           "Travel at 5 mph",
           "Maintain 15 mph, since you cannot go 20 mph below it",
+          "Slow to 20 mph below the limit",
         ],
-        correctIndex: 2,
+        correctIndex: 1,
         explanation:
           "On a two-lane road you slow to 20 mph below the posted limit, and where the limit is 20 mph or less you travel at 5 mph. At a 15 mph limit that means 5 mph.",
         context:
@@ -820,12 +818,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are entering a right turn lane marked with a BEGIN RIGHT TURN LANE sign and a cyclist is riding straight on. Who has priority?",
         choices: [
-          "You do, because you are already in the turn lane",
           "The cyclist; you must yield",
           "Whoever reaches the junction first",
           "The cyclist, but only if they are in a marked bike lane",
+          "You do, because you are already in the turn lane",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "The sign exists because you may meet cyclists travelling straight where you are turning across their path. You must yield to them.",
         context:
@@ -833,7 +831,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "Being established in the turn lane feels like priority and is not. The cyclist going straight is the through movement here.",
         excerptKey: "begin-right-turn-lane-sign",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Regulatory Signs",
         sourceUrl: HB,
       },
@@ -866,12 +863,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You turn off a highway into an unposted business district in a Florida town. What limit applies?",
         choices: [
-          "20 mph",
           "25 mph",
           "35 mph",
           "30 mph",
+          "20 mph",
         ],
-        correctIndex: 3,
+        correctIndex: 2,
         explanation:
           "Municipal, business and residential areas share one standard figure in Florida: 30 mph where nothing is posted.",
         context:
@@ -889,12 +886,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You want to park beside a rural mailbox on a state highway at 2 pm. What does Florida require?",
         choices: [
-          "Keep 20 feet clear at all times",
-          "Keep 30 feet clear between 8 am and 6 pm",
           "Keep 15 feet clear during postal delivery hours",
           "There is no restriction outside city limits",
+          "Keep 20 feet clear at all times",
+          "Keep 30 feet clear between 8 am and 6 pm",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "You must stay 30 feet from a rural mailbox on a state highway between 8 am and 6 pm, which is the only parking clearance in Florida that carries a time window.",
         context:
@@ -902,7 +899,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "Missing the time window is the usual error, in both directions: people either apply it around the clock or assume it does not exist.",
         excerptKey: "parking-distances",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Parking",
         sourceUrl: HB,
       },
@@ -912,12 +908,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A 17-year-old driver picks up 6 points inside a 12-month period. What happens?",
         choices: [
-          "A 30-day suspension, as for any driver",
           "A written warning and mandatory driver improvement course",
           "Nothing until 12 points are reached",
           "A one-year restriction to Business Purposes Only driving",
+          "A 30-day suspension, as for any driver",
         ],
-        correctIndex: 3,
+        correctIndex: 2,
         explanation:
           "Any driver under 18 who accumulates 6 or more points within 12 months is automatically restricted for one year to driving for Business Purposes Only.",
         context:
@@ -958,12 +954,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are driving a golf cart in a community where they are permitted and need to cross a state road. When is that allowed?",
         choices: [
-          "Where the posted limit is 45 mph or less, at an intersection with a traffic control device",
           "Anywhere the sightlines are clear for 500 feet",
           "Where the posted limit is 35 mph or less, at any point",
           "Only where a signed golf cart crossing exists",
+          "Where the posted limit is 45 mph or less, at an intersection with a traffic control device",
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation:
           "A golf cart may cross a state road where the posted speed limit is 45 mph or less, and only at an intersection that has a traffic control device.",
         context:
@@ -971,7 +967,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "The 35 mph figure belongs to low-speed vehicles, which are a different category with a different rule.",
         excerptKey: "golf-cart-crossing",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Golf Carts",
         sourceUrl: HB,
       },
@@ -980,12 +975,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "emergencies",
         question: "Your car breaks down in a live lane on a Florida highway. What does the law require?",
         choices: [
-          "Leave it where it is with the hazards on until help arrives",
           "Move it so all four wheels are out of the traffic lanes as soon as possible",
           "Move it onto the median where it is out of the way",
           "Push it to the nearest exit ramp",
+          "Leave it where it is with the hazards on until help arrives",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "You must move the vehicle so that all four wheels are out of the traffic lanes as soon as possible, and if you cannot move it yourself you must have it moved.",
         context:
@@ -993,7 +988,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "The median looks like a safe refuge and is explicitly off limits on a limited access highway.",
         excerptKey: "disabled-vehicle-four-wheels",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Breakdowns/Disabled Vehicles",
         sourceUrl: HB,
       },
@@ -1024,12 +1018,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "safety",
         question: "How far back must you stay from a fire truck responding to an emergency?",
         choices: [
+          "1,000 feet",
           "300 feet",
           "500 feet",
           "200 feet",
-          "1,000 feet",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "Following a fire truck responding to an emergency closer than 500 feet is against the law in Florida.",
         context:
@@ -1037,7 +1031,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "300 feet is the truck-behind-truck figure. Swapping the two is the standard error in this part of the handbook.",
         excerptKey: "fire-truck-500-feet",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Following Distances",
         sourceUrl: HB,
       },
@@ -1059,7 +1052,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "The exact figures are the point of the question. Everything else in that sentence is intuitive, so the exam tests the part that is not.",
         excerptKey: "divided-highway-ends",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Warning Signs",
         sourceUrl: HB,
       },
@@ -1069,12 +1061,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are behind a slow vehicle approaching a crest. How far ahead must you be able to see before passing is allowed?",
         choices: [
-          "200 feet",
           "300 feet",
           "1,000 feet",
           "500 feet",
+          "200 feet",
         ],
-        correctIndex: 3,
+        correctIndex: 2,
         explanation:
           "You must not pass on a hill or curve where you cannot see at least 500 feet ahead. Below that, the manoeuvre is prohibited regardless of the markings.",
         context:
@@ -1082,7 +1074,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "200 feet is the return-to-lane figure and 100 feet is the intersection clearance. All three numbers live in the same paragraph and get shuffled.",
         excerptKey: "no-pass-zones",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Passing",
         sourceUrl: HB,
       },
@@ -1092,12 +1083,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are travelling the same direction as a school bus on a highway divided by a five-foot unpaved median. The bus stops and puts out its stop signal. What must you do?",
         choices: [
+          "Stop only if you are within 100 feet of the bus",
           "Continue with caution, since the road is divided",
           "Slow to 20 mph and pass when clear",
           "Stop, and stay stopped until the stop signal is withdrawn",
-          "Stop only if you are within 100 feet of the bus",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "The divided highway exception only ever helps traffic moving the opposite way to the bus. Moving the same direction, you always stop and stay stopped until the stop signal is withdrawn.",
         context:
@@ -1115,12 +1106,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "What is the lowest speed you may legally travel on a Florida highway posted at 70 mph?",
         choices: [
+          "There is no minimum, only a maximum",
           "45 mph",
           "40 mph",
           "50 mph",
-          "There is no minimum, only a maximum",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "Where the posted limit is 70 mph, the minimum speed is 50 mph. Anything slower obstructs traffic and can be cited.",
         context:
@@ -1137,12 +1128,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "parking",
         question: "How close to a railroad crossing may you park?",
         choices: [
+          "No closer than 50 feet",
           "No closer than 15 feet",
           "No closer than 30 feet",
           "No closer than 100 feet",
-          "No closer than 50 feet",
         ],
-        correctIndex: 3,
+        correctIndex: 0,
         explanation:
           "Fifty feet is the required clearance from a railroad crossing, and it is the largest of Florida's standard parking distances.",
         context:
@@ -1150,7 +1141,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "The 15-foot figure is real but belongs to stopping on the approach, and importing it here shortens the parking clearance by more than two thirds.",
         excerptKey: "parking-distances",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Parking",
         sourceUrl: HB,
       },
@@ -1160,12 +1150,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A Florida licence holder is convicted of a moving violation in another state. What happens to their Florida points?",
         choices: [
-          "No points, since the offence happened elsewhere",
-          "The same number of points is applied as if it happened in Florida",
           "Half the Florida value is applied",
           "Points are applied only for offences committed in bordering states",
+          "No points, since the offence happened elsewhere",
+          "The same number of points is applied as if it happened in Florida",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "An out-of-state or federal conviction earns the same number of points it would have earned in Florida. Crossing a state line does not clear the record.",
         context:
@@ -1183,12 +1173,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "After a DUI conviction, what insurance limits must a Florida driver carry, and for how long?",
         choices: [
+          "$30,000 combined single limit for five years",
           "$10,000 bodily injury and $10,000 property damage for one year",
           "$50,000 bodily injury and $25,000 property damage for two years",
           "$100,000 per person and $300,000 per crash bodily injury, plus $50,000 property damage, for three years",
-          "$30,000 combined single limit for five years",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "A DUI conviction forces coverage of at least $100,000 bodily injury liability for one person, $300,000 for two or more, and $50,000 property damage liability, held for three years.",
         context:
@@ -1205,12 +1195,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "sharing",
         question: "What is a bicycle's legal status on Florida public roads?",
         choices: [
+          "A vehicle only when the rider is 16 or over",
           "A vehicle with the same rights and responsibilities as a car, except on limited access highways",
           "A pedestrian conveyance in all circumstances",
           "A vehicle only when ridden in a marked bike lane",
-          "A vehicle only when the rider is 16 or over",
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation:
           "A bicycle is legally defined as a vehicle in Florida, with all the privileges, rights and responsibilities of a motor vehicle on public roads, except limited access highways where bicycles are not allowed.",
         context:
@@ -1227,12 +1217,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "The lights at a railroad crossing start flashing. How much time does that typically give you before a train reaches the crossing?",
         choices: [
+          "It varies too much to state",
           "About 5 seconds",
           "About 20 seconds",
           "About one minute",
-          "It varies too much to state",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "Twenty seconds is the minimum time it takes a train to reach the crossing after the warning lights begin flashing. That is the whole margin you have.",
         context:
@@ -1240,7 +1230,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "Twenty seconds sounds long enough to try something. It is not enough time to restart a stalled car and clear the tracks.",
         excerptKey: "rr-20-seconds",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Stalled on Railroad Tracks",
         sourceUrl: HB,
       },
@@ -1270,12 +1259,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "signs",
         question: "What does a RESTRICTED LANE AHEAD sign tell you?",
         choices: [
+          "The lane narrows and cannot take large vehicles",
           "The lane will be closed for roadworks",
           "A lane is reserved for certain purposes or vehicles, such as buses or carpools",
           "The lane is restricted to vehicles under a set weight",
-          "The lane narrows and cannot take large vehicles",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "It means a lane ahead is reserved for a specific purpose or class of vehicle, such as buses or carpool vehicles at rush hour. It is also used with bike lanes.",
         context:
@@ -1305,7 +1294,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "It is a genuine courtesy in some countries, which is exactly how the habit reaches Florida roads.",
         excerptKey: "signal-not-invite-pass",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Turning",
         sourceUrl: HB,
       },
@@ -1315,12 +1303,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A cyclist is approaching an intersection ahead of you and has given no signal. What should you assume?",
         choices: [
-          "That they will stop and let you go",
-          "That they intend to travel straight ahead",
           "That they will turn right toward the kerb",
           "That they will dismount and cross as a pedestrian",
+          "That they will stop and let you go",
+          "That they intend to travel straight ahead",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "At intersections you assume cyclists are travelling straight unless they signal otherwise, and you yield to them as you would to any other vehicle.",
         context:
@@ -1350,7 +1338,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "158 feet is the braking component alone, and treating it as the whole stop underestimates the gap you need by more than a hundred feet.",
         excerptKey: "total-stopping-distance-50",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Braking Distance",
         sourceUrl: HB,
       },
@@ -1402,12 +1389,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A 16-year-old has held a Florida learner's licence for eight months. When can they take the driving skills test?",
         choices: [
-          "Straight away, since they are already 16",
           "After the learner's licence has been held for 12 months, or on their 18th birthday if that comes first",
           "After 10 months, provided they have 50 hours of experience",
           "After a further six months regardless of age",
+          "Straight away, since they are already 16",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "The learner's licence must be held for 12 months, or until the 18th birthday, whichever comes first. At 16 with eight months elapsed, four months remain.",
         context:
@@ -1424,12 +1411,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A crash involving suspected impairment causes serious injury and the driver refuses a blood test. What happens?",
         choices: [
+          "The test is deferred until a warrant is obtained the next day",
           "No sample can be taken without consent",
           "A blood test will be required with or without consent",
           "A breath test is substituted",
-          "The test is deferred until a warrant is obtained the next day",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "In DUI cases involving death or serious injury, a blood test is required with or without the driver's consent. It must be drawn by a doctor, nurse or other health professional, and blood may be drawn from an unconscious person.",
         context:
@@ -1437,7 +1424,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "The right to refuse under implied consent is real for ordinary stops and does not survive a crash causing death or serious injury.",
         excerptKey: "dui-blood-test-required",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Implied Consent Law",
         sourceUrl: HB,
       },
@@ -1447,12 +1433,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "An orange triangle with a dark border is fixed to the back of a vehicle ahead of you. What does it tell you?",
         choices: [
+          "The vehicle is towing a trailer over 3,000 pounds",
           "The vehicle is carrying a wide or projecting load",
           "The vehicle is designed to operate at less than 25 mph",
           "The vehicle is a low-speed vehicle limited to 21 to 25 mph",
-          "The vehicle is towing a trailer over 3,000 pounds",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "The slow moving vehicle emblem is required on farm vehicles designed to operate at speeds under 25 mph when they use public highways.",
         context:
@@ -1469,12 +1455,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A driver leaves the scene of a crash in which someone is killed. What does Florida law provide?",
         choices: [
-          "A second degree felony",
-          "A third degree felony",
           "A first degree misdemeanour with a mandatory fine",
           "A first degree felony with a minimum four-year prison term",
+          "A second degree felony",
+          "A third degree felony",
         ],
-        correctIndex: 3,
+        correctIndex: 1,
         explanation:
           "Leaving the scene of a crash that results in death is a first degree felony carrying a minimum four-year prison term.",
         context:
@@ -1482,7 +1468,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "Second and third degree felonies are the real penalties for the injury cases, which is why they read as plausible answers for the fatal one.",
         excerptKey: "hit-and-run-death",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Stay at the Scene",
         sourceUrl: HB,
       },
@@ -1513,12 +1498,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "rules",
         question: "Which of these is not allowed on a Florida limited access highway?",
         choices: [
-          "A motorcycle with an engine over 150 cubic centimetres",
-          "A vehicle towing a trailer",
           "A motor scooter of 150 cubic centimetres or less",
           "A low emission vehicle with an HOV decal",
+          "A motorcycle with an engine over 150 cubic centimetres",
+          "A vehicle towing a trailer",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "Motor-driven cycles and motor scooters of 150 cubic centimetres displacement or less are barred from limited access highways, along with pedestrians, hitchhikers, bicycles and animal-drawn vehicles.",
         context:
@@ -1535,12 +1520,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "signs",
         question: "A yellow sign warns ONE LANE BRIDGE. What does it require of you?",
         choices: [
-          "Stay in your lane; there is very little clearance",
-          "Reduce speed to 20 mph before the bridge",
           "Make sure the bridge is clear of oncoming traffic before you cross",
           "Give way to any vehicle already on the approach",
+          "Stay in your lane; there is very little clearance",
+          "Reduce speed to 20 mph before the bridge",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "Only one vehicle can be on the bridge at a time, so you check it is clear of oncoming traffic before you start across.",
         context:
@@ -1548,7 +1533,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "'Stay in your lane' is the narrow bridge answer, and on a one lane bridge it would put you head-on with whatever is already crossing.",
         excerptKey: "one-lane-bridge-sign",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Warning Signs",
         sourceUrl: HB,
       },
@@ -1558,12 +1542,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A 22-year-old passenger in the back seat is not wearing a safety belt during a stop. Who is charged?",
         choices: [
-          "The driver, who is responsible for all occupants",
-          "The passenger, who is 18 or older",
           "Nobody, because rear seat adults are exempt",
           "The vehicle's registered owner",
+          "The driver, who is responsible for all occupants",
+          "The passenger, who is 18 or older",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "Passengers 18 or older are charged personally when they fail to wear a belt where the law requires it. The driver is charged only when a passenger under 18 is unrestrained.",
         context:
@@ -1590,12 +1574,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "signs",
         question: "You see a WRONG WAY sign directly ahead of you. What has happened?",
         choices: [
+          "You have left the state highway system",
           "You are entering a one-way street from the correct end",
           "You are travelling against the flow and must turn around immediately",
           "The road ahead is closed to through traffic",
-          "You have left the state highway system",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "WRONG WAY means you are already travelling against the flow of traffic. You turn around immediately rather than looking for somewhere convenient to do it.",
         context:
@@ -1612,12 +1596,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "There is no NO TURN ON RED sign, the light is red and the way is clear. What must happen before you turn right?",
         choices: [
-          "You must come to a complete stop",
-          "You must wait for a gap of at least five seconds",
           "You must signal for 100 feet before the junction",
           "You must wait for the light to show a green arrow",
+          "You must come to a complete stop",
+          "You must wait for a gap of at least five seconds",
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation:
           "Right on red is permitted only after a complete stop. Florida also expects you to look both ways for pedestrians in the crosswalk before you go.",
         context:
@@ -1633,12 +1617,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "speed",
         question: "What is the maximum speed limit on a Florida limited access highway?",
         choices: [
+          "55 mph",
           "65 mph",
           "75 mph",
           "70 mph",
-          "55 mph",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "Seventy miles per hour is the standard maximum on limited access highways, and Florida never posts higher than that anywhere.",
         context:
@@ -1655,12 +1639,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "Three cars reach a four-way stop, one clearly first and two others at the same moment. How is the order settled?",
         choices: [
-          "The first to arrive goes first, then the driver on the right of the remaining pair",
-          "The first to arrive goes first, then the driver on the left of the remaining pair",
           "The vehicle going straight goes first regardless of arrival",
           "The driver who signals first among the remaining pair goes next",
+          "The first to arrive goes first, then the driver on the right of the remaining pair",
+          "The first to arrive goes first, then the driver on the left of the remaining pair",
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation:
           "Vehicles proceed in the order they arrived, so the first car goes first. Where two arrive at about the same time, each driver yields to the driver on their right.",
         context:
@@ -1689,7 +1673,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "'Toward the kerb' is the downhill answer. The two hill cases are mirror images and swapping them is the classic error.",
         excerptKey: "parking-hills-wheels",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Parking on Hills",
         sourceUrl: HB,
       },
@@ -1698,12 +1681,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "licensing",
         question: "What does personal injury protection cover under Florida's no-fault law?",
         choices: [
+          "Repairs to your own vehicle",
           "Damage you cause to other people's property",
           "Your own injuries in a crash, whoever caused it",
           "Injuries to other people that you cause",
-          "Repairs to your own vehicle",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "Personal injury protection covers your own injuries in a crash no matter who caused it. That is what makes Florida a no-fault state.",
         context:
@@ -1720,12 +1703,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "impairment",
         question: "What can Florida charge you with driving under the influence of?",
         choices: [
+          "Any substance, but only where the level exceeds a published threshold",
           "Alcohol and illegal drugs only",
           "Alcohol only, unless a drug test is administered at the scene",
           "Alcohol, controlled substances, prescriptions and over-the-counter medications",
-          "Any substance, but only where the level exceeds a published threshold",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "The Florida DUI definition covers alcoholic beverages, controlled substances, prescriptions and over-the-counter medications alike, and applies whether you are driving or in physical control of the vehicle.",
         context:
@@ -1742,12 +1725,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are about to pass a cyclist on a narrow two-lane road with oncoming traffic approaching. What should you do?",
         choices: [
-          "Pass now, keeping as far left in your lane as possible",
-          "Sound your horn so the cyclist moves closer to the kerb",
           "Wait until you can pass safely with at least three feet of clearance",
           "Pass at low speed with less clearance, since low speed makes it safe",
+          "Pass now, keeping as far left in your lane as possible",
+          "Sound your horn so the cyclist moves closer to the kerb",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "Florida requires a minimum of three feet of clearance when passing a bicycle. On a two-lane road you treat a cyclist like a slow-moving vehicle and pass only when it is safe.",
         context:
@@ -1764,12 +1747,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You hit a parked car in a car park and cannot find the owner. What must you do?",
         choices: [
-          "Wait 30 minutes and then leave if nobody appears",
           "Report it to your insurer within 10 days",
           "Leave a note with your name, contact details and licence plate number, and notify law enforcement",
           "Leave only if the damage is superficial",
+          "Wait 30 minutes and then leave if nobody appears",
         ],
-        correctIndex: 2,
+        correctIndex: 1,
         explanation:
           "You must make every attempt to find the owner and notify law enforcement. If the owner cannot be found, you leave a note with your name, contact information and licence plate number.",
         context:
@@ -1785,12 +1768,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "signals",
         question: "How should you treat a flashing red signal?",
         choices: [
-          "As a stop sign",
           "As a yield sign",
           "As a caution to slow down without stopping",
           "As a signal failure requiring you to wait",
+          "As a stop sign",
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation:
           "A flashing red is used at dangerous intersections and is treated exactly like a stop sign: stop, then proceed when it is safe.",
         context:
@@ -1807,12 +1790,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "Conditions are good. What is the minimum following distance the Florida handbook expects?",
         choices: [
-          "Two seconds",
-          "Three seconds",
           "Four seconds",
           "Five seconds",
+          "Two seconds",
+          "Three seconds",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "Four seconds is the minimum in favourable weather and traffic. You count from the moment the vehicle ahead passes a fixed marker until you reach the same point.",
         context:
@@ -1820,7 +1803,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "Two and three seconds are the figures used in other handbooks, and they are the ones Florida drivers usually quote from memory.",
         excerptKey: "following-four-seconds",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Following Distances",
         sourceUrl: HB,
       },
@@ -1850,12 +1832,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "rules",
         question: "Which vehicles does Florida's Move Over law protect?",
         choices: [
-          "Marked law enforcement vehicles only",
-          "Emergency vehicles and tow trucks only",
           "Any vehicle stopped on the shoulder for any reason",
           "Law enforcement, emergency, tow, sanitation, utility and road maintenance vehicles with warning lights, plus disabled vehicles showing hazard lights or with people visibly present",
+          "Marked law enforcement vehicles only",
+          "Emergency vehicles and tow trucks only",
         ],
-        correctIndex: 3,
+        correctIndex: 1,
         explanation:
           "The law covers law enforcement officers, emergency workers, tow truck drivers, sanitation workers, utility workers and road and bridge maintenance or construction vehicles displaying warning lights, and it extends to disabled vehicles stopped with hazard lights, flares or signage, or where people are visibly present.",
         context:
@@ -1917,12 +1899,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "signals",
         question: "A single broken yellow line runs down the centre of the road. What does it allow?",
         choices: [
-          "Passing from either direction whenever it is safe",
           "Passing only when a PASS WITH CARE sign is posted",
           "No passing from either direction",
           "Passing only for vehicles turning left",
+          "Passing from either direction whenever it is safe",
         ],
-        correctIndex: 0,
+        correctIndex: 3,
         explanation:
           "A single broken yellow line means you stay to the right of it normally, and you may cross it to pass a vehicle ahead when it is safe to do so.",
         context:
@@ -1939,12 +1921,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A 15-year-old passenger in your back seat is not wearing a safety belt. Who is charged?",
         choices: [
-          "The passenger, since they are old enough to know",
-          "Nobody, since rear seats are exempt",
           "The driver",
           "The vehicle's registered owner",
+          "The passenger, since they are old enough to know",
+          "Nobody, since rear seats are exempt",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "The driver is charged with a safety belt or child restraint violation whenever any passenger under 18 is not properly restrained.",
         context:
@@ -1962,12 +1944,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A learner's licence holder has held the licence for four months. When may they drive?",
         choices: [
+          "At any hour, provided a licensed adult is in the vehicle",
           "Daylight hours only, with a licensed driver 21 or over",
           "Until 10 pm, with a licensed driver 21 or over",
           "Until 11 pm, unaccompanied",
-          "At any hour, provided a licensed adult is in the vehicle",
         ],
-        correctIndex: 1,
+        correctIndex: 2,
         explanation:
           "For the first three months a learner drives daylight hours only. After three months the limit extends to 10 pm, and a licensed driver aged 21 or over must always be in the seat closest to the right of the driver.",
         context:
@@ -1985,12 +1967,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "What is the consequence of a first refusal to take a breath, blood or urine test in Florida?",
         choices: [
-          "An automatic one-year licence suspension",
-          "A six-month suspension",
           "No consequence unless a court convicts you",
           "An 18-month suspension and a misdemeanour charge",
+          "An automatic one-year licence suspension",
+          "A six-month suspension",
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation:
           "A first refusal brings an automatic one-year suspension under implied consent. A second refusal is 18 months plus a first degree misdemeanour.",
         context:
@@ -1998,7 +1980,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "The six-month figure belongs to the under-21 zero tolerance rule, and the 18-month figure to the second refusal.",
         excerptKey: "implied-consent-refusal",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Implied Consent Law",
         sourceUrl: HB,
       },
@@ -2008,12 +1989,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are following a motorcycle on a wet Florida road. What buffer does the handbook ask for?",
         choices: [
-          "The same four seconds as any other vehicle",
           "More than a four-second buffer, increased further in these conditions",
           "Two seconds, since motorcycles stop faster",
           "Three feet of lateral clearance",
+          "The same four seconds as any other vehicle",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "Florida asks for more than a four-second buffer behind a motorcycle, and for more space again in bad weather, gusty winds, on wet roads, or over potholes, gravel and railway crossings.",
         context:
@@ -2029,12 +2010,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "emergencies",
         question: "Your rear wheels start to slide sideways. What should you do first?",
         choices: [
+          "Steer sharply in the opposite direction",
           "Take your foot off the gas and avoid using the brakes",
           "Brake steadily to bring the car back into line",
           "Apply the parking brake to stop the rotation",
-          "Steer sharply in the opposite direction",
         ],
-        correctIndex: 0,
+        correctIndex: 1,
         explanation:
           "Come off the accelerator, keep off the brakes if you can, and turn the front tyres in the direction you want the car to go.",
         context:
@@ -2071,12 +2052,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "rules",
         question: "When must you use a turn signal in Florida?",
         choices: [
+          "When turning, and when slowing without braking",
           "Only when turning at an intersection",
           "Only when other traffic is present",
           "When turning, and also when changing lanes or overtaking",
-          "When turning, and when slowing without braking",
         ],
-        correctIndex: 2,
+        correctIndex: 3,
         explanation:
           "Turn signals are required by law when changing lanes or overtaking as well as when turning, and the signal must be given at least 100 feet before a turn.",
         context:
@@ -2093,12 +2074,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are stopped at a red light intending to turn right, and a pedestrian steps into the crosswalk on the road you want to enter. What must you do?",
         choices: [
-          "Complete the turn quickly ahead of them",
-          "Edge forward into the crosswalk to signal your intention",
           "Yield to the pedestrian and wait until they have crossed",
           "Sound your horn and proceed once they have seen you",
+          "Complete the turn quickly ahead of them",
+          "Edge forward into the crosswalk to signal your intention",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "You must yield the right-of-way to pedestrians in the crosswalk before making a turn on red, and Florida also tells you to stop first and look both ways for people on foot.",
         context:
@@ -2114,12 +2095,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "parking",
         question: "Which of these parking clearances is correct in Florida?",
         choices: [
-          "30 feet from a fire hydrant",
           "15 feet from a fire hydrant",
           "50 feet from an intersection",
           "10 feet from a railroad crossing",
+          "30 feet from a fire hydrant",
         ],
-        correctIndex: 1,
+        correctIndex: 0,
         explanation:
           "Fifteen feet is the clearance required from a fire hydrant. Thirty feet applies to signals, stop signs and rural mailboxes on state highways, and fifty feet applies to railroad crossings.",
         context:
@@ -2127,7 +2108,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "Every wrong option here is a real Florida distance attached to the wrong feature, which is exactly how the exam builds these items.",
         excerptKey: "parking-distances",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Parking",
         sourceUrl: HB,
       },
@@ -2158,12 +2138,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are approaching a signal on green, travelling at the limit. What does the handbook expect of your speed?",
         choices: [
-          "Maintain it, since the light is green",
-          "Approach at a speed that lets you stop if the light changes",
           "Accelerate slightly to be sure of clearing the junction",
           "Slow to half the limit at every signalled intersection",
+          "Maintain it, since the light is green",
+          "Approach at a speed that lets you stop if the light changes",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "Approach a green at a speed that will let you slow down if the light changes. That is what makes the yellow-light decision straightforward rather than a gamble.",
         context:
@@ -2180,12 +2160,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "You are overtaking a semi-truck on a Florida interstate. When may you move back into its lane?",
         choices: [
-          "As soon as your rear bumper clears the truck's cab",
-          "Once you can see the truck's cab in your rear-view mirror",
           "Once you are two car lengths ahead of the trailer",
           "As soon as the truck flashes its headlights",
+          "As soon as your rear bumper clears the truck's cab",
+          "Once you can see the truck's cab in your rear-view mirror",
         ],
-        correctIndex: 1,
+        correctIndex: 3,
         explanation:
           "Wait until you can see the cab in your rear-view mirror before completing the pass. Cutting in early puts you inside the truck's forward blind spot with far less stopping distance behind you than the truck needs.",
         context:
@@ -2201,12 +2181,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         topic: "licensing",
         question: "How many multiple-choice questions are on the Florida Class E Knowledge Exam, and how many must you answer correctly?",
         choices: [
-          "40 questions, 32 correct",
-          "50 questions, 45 correct",
           "50 questions, 40 correct",
           "30 questions, 24 correct",
+          "40 questions, 32 correct",
+          "50 questions, 45 correct",
         ],
-        correctIndex: 2,
+        correctIndex: 0,
         explanation:
           "The Class E Knowledge Exam is 50 multiple-choice questions and you must answer 40 of them correctly, which is 80 percent.",
         context:
@@ -2223,12 +2203,12 @@ export const floridaSets4to6: DrivingTestSet[] = [
         question:
           "A hurricane has knocked out power and the traffic signals at a busy junction are dark. How do you proceed?",
         choices: [
-          "Treat the junction as a four-way stop, moving off in arrival order",
-          "Give priority to the larger road",
           "Proceed without stopping if the way is clear",
           "Wait for a police officer before crossing",
+          "Treat the junction as a four-way stop, moving off in arrival order",
+          "Give priority to the larger road",
         ],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation:
           "With the power out and the signals inactive, you treat the intersection as a four-way stop. Vehicles move through in the order they arrived, and where several arrive together the driver on the left yields to the driver on the right.",
         context:
@@ -2236,7 +2216,6 @@ export const floridaSets4to6: DrivingTestSet[] = [
         trap:
           "Giving the bigger road priority is what most drivers actually do at a dark signal, and it has no basis in Florida law.",
         excerptKey: "power-outage-four-way",
-        commonlyMissed: true,
         sourceLabel: "Official Florida Driver License Handbook - Power Outage",
         sourceUrl: HB,
       },
