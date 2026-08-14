@@ -1,0 +1,1100 @@
+{
+  "abs-braking": {
+    "src": "/handbook/newyork/abs-braking.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "agg-dwi-revocation": {
+    "src": "/handbook/newyork/agg-dwi-revocation.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "airbag-ten-inches": {
+    "src": "/handbook/newyork/airbag-ten-inches.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "alcohol-night-vision": {
+    "src": "/handbook/newyork/alcohol-night-vision.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "atv-snowmobile-crossing": {
+    "src": "/handbook/newyork/atv-snowmobile-crossing.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "bac-thresholds": {
+    "src": "/handbook/newyork/bac-thresholds.png",
+    "page": 0,
+    "width": 802,
+    "height": 294
+  },
+  "back-up-get-out-and-check": {
+    "src": "/handbook/newyork/back-up-get-out-and-check.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "being-passed-on-left": {
+    "src": "/handbook/newyork/being-passed-on-left.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "belt-16-and-older": {
+    "src": "/handbook/newyork/belt-16-and-older.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "belt-driver-responsible-under-16": {
+    "src": "/handbook/newyork/belt-driver-responsible-under-16.png",
+    "page": 0,
+    "width": 802,
+    "height": 254
+  },
+  "bicycle-brakes-and-bell": {
+    "src": "/handbook/newyork/bicycle-brakes-and-bell.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "bicycle-helmet-1-to-13": {
+    "src": "/handbook/newyork/bicycle-helmet-1-to-13.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "bicycle-lights": {
+    "src": "/handbook/newyork/bicycle-lights.png",
+    "page": 0,
+    "width": 802,
+    "height": 194
+  },
+  "bicycle-two-abreast": {
+    "src": "/handbook/newyork/bicycle-two-abreast.png",
+    "page": 0,
+    "width": 802,
+    "height": 114
+  },
+  "blind-pedestrian-right-of-way": {
+    "src": "/handbook/newyork/blind-pedestrian-right-of-way.png",
+    "page": 0,
+    "width": 802,
+    "height": 303
+  },
+  "blue-green-not-authorized": {
+    "src": "/handbook/newyork/blue-green-not-authorized.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "brake-failure": {
+    "src": "/handbook/newyork/brake-failure.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "bridges-freeze-first": {
+    "src": "/handbook/newyork/bridges-freeze-first.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "child-rear-facing-until-two": {
+    "src": "/handbook/newyork/child-rear-facing-until-two.png",
+    "page": 0,
+    "width": 802,
+    "height": 240
+  },
+  "conviction-without-test": {
+    "src": "/handbook/newyork/conviction-without-test.png",
+    "page": 0,
+    "width": 802,
+    "height": 301
+  },
+  "crash-do-not-move-injured": {
+    "src": "/handbook/newyork/crash-do-not-move-injured.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "crash-downed-wires": {
+    "src": "/handbook/newyork/crash-downed-wires.png",
+    "page": 0,
+    "width": 802,
+    "height": 161
+  },
+  "crash-leaving-scene": {
+    "src": "/handbook/newyork/crash-leaving-scene.png",
+    "page": 0,
+    "width": 802,
+    "height": 294
+  },
+  "crash-must-stop": {
+    "src": "/handbook/newyork/crash-must-stop.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "crash-report-10-days": {
+    "src": "/handbook/newyork/crash-report-10-days.png",
+    "page": 0,
+    "width": 802,
+    "height": 296
+  },
+  "crash-report-1000-dollars": {
+    "src": "/handbook/newyork/crash-report-1000-dollars.png",
+    "page": 0,
+    "width": 802,
+    "height": 247
+  },
+  "diamond-lane": {
+    "src": "/handbook/newyork/diamond-lane.png",
+    "page": 0,
+    "width": 802,
+    "height": 289
+  },
+  "disabled-parking-permit": {
+    "src": "/handbook/newyork/disabled-parking-permit.png",
+    "page": 0,
+    "width": 802,
+    "height": 247
+  },
+  "disabled-parking-striped-area": {
+    "src": "/handbook/newyork/disabled-parking-striped-area.png",
+    "page": 0,
+    "width": 802,
+    "height": 145
+  },
+  "drive-right-pass-left": {
+    "src": "/handbook/newyork/drive-right-pass-left.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "drowsy-nap": {
+    "src": "/handbook/newyork/drowsy-nap.png",
+    "page": 0,
+    "width": 802,
+    "height": 114
+  },
+  "drowsy-no-tricks": {
+    "src": "/handbook/newyork/drowsy-no-tricks.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "drug-combination-danger": {
+    "src": "/handbook/newyork/drug-combination-danger.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "dwai-suspension": {
+    "src": "/handbook/newyork/dwai-suspension.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "edge-line-angles-in": {
+    "src": "/handbook/newyork/edge-line-angles-in.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "edge-line-illegal-to-cross": {
+    "src": "/handbook/newyork/edge-line-illegal-to-cross.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "emergency-clear-intersection": {
+    "src": "/handbook/newyork/emergency-clear-intersection.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "emergency-opposite-lane": {
+    "src": "/handbook/newyork/emergency-opposite-lane.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "emergency-pull-right-stop": {
+    "src": "/handbook/newyork/emergency-pull-right-stop.png",
+    "page": 0,
+    "width": 802,
+    "height": 240
+  },
+  "emergency-siren-unseen": {
+    "src": "/handbook/newyork/emergency-siren-unseen.png",
+    "page": 0,
+    "width": 802,
+    "height": 208
+  },
+  "expressway-exit-signal": {
+    "src": "/handbook/newyork/expressway-exit-signal.png",
+    "page": 0,
+    "width": 802,
+    "height": 145
+  },
+  "expressway-speed": {
+    "src": "/handbook/newyork/expressway-speed.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "flagger-authority": {
+    "src": "/handbook/newyork/flagger-authority.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "gdl-long-island-day": {
+    "src": "/handbook/newyork/gdl-long-island-day.png",
+    "page": 0,
+    "width": 802,
+    "height": 207
+  },
+  "gdl-nyc-junior-licence-banned": {
+    "src": "/handbook/newyork/gdl-nyc-junior-licence-banned.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "gdl-upstate-night": {
+    "src": "/handbook/newyork/gdl-upstate-night.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "going-into-water": {
+    "src": "/handbook/newyork/going-into-water.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "handheld-phone-penalty": {
+    "src": "/handbook/newyork/handheld-phone-penalty.png",
+    "page": 0,
+    "width": 802,
+    "height": 294
+  },
+  "head-on-approach": {
+    "src": "/handbook/newyork/head-on-approach.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "headlight-law": {
+    "src": "/handbook/newyork/headlight-law.png",
+    "page": 0,
+    "width": 802,
+    "height": 249
+  },
+  "horse-no-horn": {
+    "src": "/handbook/newyork/horse-no-horn.png",
+    "page": 0,
+    "width": 802,
+    "height": 151
+  },
+  "hydroplaning": {
+    "src": "/handbook/newyork/hydroplaning.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "implied-consent": {
+    "src": "/handbook/newyork/implied-consent.png",
+    "page": 0,
+    "width": 802,
+    "height": 247
+  },
+  "insurance-minimums": {
+    "src": "/handbook/newyork/insurance-minimums.png",
+    "page": 0,
+    "width": 802,
+    "height": 249
+  },
+  "junior-passenger-limit": {
+    "src": "/handbook/newyork/junior-passenger-limit.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "junior-texting-120-days": {
+    "src": "/handbook/newyork/junior-texting-120-days.png",
+    "page": 0,
+    "width": 802,
+    "height": 161
+  },
+  "lane-arrows": {
+    "src": "/handbook/newyork/lane-arrows.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "lane-change-signal-100-feet": {
+    "src": "/handbook/newyork/lane-change-signal-100-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "lane-control-flashing-yellow-x": {
+    "src": "/handbook/newyork/lane-control-flashing-yellow-x.png",
+    "page": 0,
+    "width": 802,
+    "height": 114
+  },
+  "lane-control-red-x": {
+    "src": "/handbook/newyork/lane-control-red-x.png",
+    "page": 0,
+    "width": 802,
+    "height": 72
+  },
+  "lane-control-yellow-x": {
+    "src": "/handbook/newyork/lane-control-yellow-x.png",
+    "page": 0,
+    "width": 802,
+    "height": 72
+  },
+  "lane-lines-yellow": {
+    "src": "/handbook/newyork/lane-lines-yellow.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "leandras-law": {
+    "src": "/handbook/newyork/leandras-law.png",
+    "page": 0,
+    "width": 802,
+    "height": 208
+  },
+  "left-turn-on-red": {
+    "src": "/handbook/newyork/left-turn-on-red.png",
+    "page": 0,
+    "width": 802,
+    "height": 294
+  },
+  "line-double-solid": {
+    "src": "/handbook/newyork/line-double-solid.png",
+    "page": 0,
+    "width": 802,
+    "height": 72
+  },
+  "line-one-broken": {
+    "src": "/handbook/newyork/line-one-broken.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "line-one-solid": {
+    "src": "/handbook/newyork/line-one-solid.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "line-solid-with-broken": {
+    "src": "/handbook/newyork/line-solid-with-broken.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "low-beam-500-200": {
+    "src": "/handbook/newyork/low-beam-500-200.png",
+    "page": 0,
+    "width": 802,
+    "height": 247
+  },
+  "moped-class-b-and-c": {
+    "src": "/handbook/newyork/moped-class-b-and-c.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "moped-not-on-expressway": {
+    "src": "/handbook/newyork/moped-not-on-expressway.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "motorcycle-signal-not-self-cancelling": {
+    "src": "/handbook/newyork/motorcycle-signal-not-self-cancelling.png",
+    "page": 0,
+    "width": 802,
+    "height": 247
+  },
+  "motorcycle-two-abreast": {
+    "src": "/handbook/newyork/motorcycle-two-abreast.png",
+    "page": 0,
+    "width": 802,
+    "height": 240
+  },
+  "move-over-all-stopped": {
+    "src": "/handbook/newyork/move-over-all-stopped.png",
+    "page": 0,
+    "width": 802,
+    "height": 242
+  },
+  "move-over-law": {
+    "src": "/handbook/newyork/move-over-law.png",
+    "page": 0,
+    "width": 802,
+    "height": 334
+  },
+  "never-pass-stopped-at-crosswalk": {
+    "src": "/handbook/newyork/never-pass-stopped-at-crosswalk.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "new-resident-30-days": {
+    "src": "/handbook/newyork/new-resident-30-days.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "no-driving-on-shoulder": {
+    "src": "/handbook/newyork/no-driving-on-shoulder.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "no-parking-sign": {
+    "src": "/handbook/newyork/no-parking-sign.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "no-pass-bridge-tunnel": {
+    "src": "/handbook/newyork/no-pass-bridge-tunnel.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "no-pass-hill-curve": {
+    "src": "/handbook/newyork/no-pass-hill-curve.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "no-pass-oncoming-200-feet": {
+    "src": "/handbook/newyork/no-pass-oncoming-200-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "no-pass-railroad-100-feet": {
+    "src": "/handbook/newyork/no-pass-railroad-100-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "no-speeding-to-pass": {
+    "src": "/handbook/newyork/no-speeding-to-pass.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "no-standing-sign": {
+    "src": "/handbook/newyork/no-standing-sign.png",
+    "page": 0,
+    "width": 802,
+    "height": 161
+  },
+  "no-stopping-sign": {
+    "src": "/handbook/newyork/no-stopping-sign.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "nyc-left-turn-pedestrian": {
+    "src": "/handbook/newyork/nyc-left-turn-pedestrian.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "nyc-no-turn-on-red": {
+    "src": "/handbook/newyork/nyc-no-turn-on-red.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "off-the-pavement": {
+    "src": "/handbook/newyork/off-the-pavement.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "only-time-lowers-bac": {
+    "src": "/handbook/newyork/only-time-lowers-bac.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "open-container": {
+    "src": "/handbook/newyork/open-container.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "parallel-park-one-foot": {
+    "src": "/handbook/newyork/parallel-park-one-foot.png",
+    "page": 0,
+    "width": 802,
+    "height": 205
+  },
+  "park-bridge-tunnel-tracks": {
+    "src": "/handbook/newyork/park-bridge-tunnel-tracks.png",
+    "page": 0,
+    "width": 802,
+    "height": 72
+  },
+  "park-crosswalk-20-feet": {
+    "src": "/handbook/newyork/park-crosswalk-20-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 72
+  },
+  "park-double-parking": {
+    "src": "/handbook/newyork/park-double-parking.png",
+    "page": 0,
+    "width": 802,
+    "height": 72
+  },
+  "park-fire-station-20-75": {
+    "src": "/handbook/newyork/park-fire-station-20-75.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "park-hydrant-15-feet": {
+    "src": "/handbook/newyork/park-hydrant-15-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "park-on-hill-wheels": {
+    "src": "/handbook/newyork/park-on-hill-wheels.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "park-railroad-50-feet": {
+    "src": "/handbook/newyork/park-railroad-50-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 114
+  },
+  "park-safety-area-30-feet": {
+    "src": "/handbook/newyork/park-safety-area-30-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 114
+  },
+  "park-signal-stop-yield-30-feet": {
+    "src": "/handbook/newyork/park-signal-stop-yield-30-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 114
+  },
+  "parking-definition": {
+    "src": "/handbook/newyork/parking-definition.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "pass-bicycle-on-left": {
+    "src": "/handbook/newyork/pass-bicycle-on-left.png",
+    "page": 0,
+    "width": 802,
+    "height": 207
+  },
+  "pass-right-only-when-listed": {
+    "src": "/handbook/newyork/pass-right-only-when-listed.png",
+    "page": 0,
+    "width": 802,
+    "height": 198
+  },
+  "pedestrian-face-traffic": {
+    "src": "/handbook/newyork/pedestrian-face-traffic.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "permit-six-months": {
+    "src": "/handbook/newyork/permit-six-months.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "permit-supervisor-21": {
+    "src": "/handbook/newyork/permit-supervisor-21.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "permit-westchester-parkways": {
+    "src": "/handbook/newyork/permit-westchester-parkways.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "points-11-in-24-months": {
+    "src": "/handbook/newyork/points-11-in-24-months.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "practice-50-hours": {
+    "src": "/handbook/newyork/practice-50-hours.png",
+    "page": 0,
+    "width": 802,
+    "height": 198
+  },
+  "probation-six-months": {
+    "src": "/handbook/newyork/probation-six-months.png",
+    "page": 0,
+    "width": 802,
+    "height": 161
+  },
+  "railroad-crossbuck": {
+    "src": "/handbook/newyork/railroad-crossbuck.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "railroad-stall-run-toward-train": {
+    "src": "/handbook/newyork/railroad-stall-run-toward-train.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "refusal-revocation": {
+    "src": "/handbook/newyork/refusal-revocation.png",
+    "page": 0,
+    "width": 802,
+    "height": 240
+  },
+  "return-after-passing": {
+    "src": "/handbook/newyork/return-after-passing.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "right-turn-on-red": {
+    "src": "/handbook/newyork/right-turn-on-red.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "roundabout-30-mph": {
+    "src": "/handbook/newyork/roundabout-30-mph.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "row-do-not-block": {
+    "src": "/handbook/newyork/row-do-not-block.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "row-driver-on-left-yields": {
+    "src": "/handbook/newyork/row-driver-on-left-yields.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "row-from-driveway": {
+    "src": "/handbook/newyork/row-from-driveway.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "row-left-into-driveway": {
+    "src": "/handbook/newyork/row-left-into-driveway.png",
+    "page": 0,
+    "width": 802,
+    "height": 194
+  },
+  "row-left-turn-yields": {
+    "src": "/handbook/newyork/row-left-turn-yields.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "row-pedestrians-crosswalk": {
+    "src": "/handbook/newyork/row-pedestrians-crosswalk.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "row-traffic-circle": {
+    "src": "/handbook/newyork/row-traffic-circle.png",
+    "page": 0,
+    "width": 802,
+    "height": 107
+  },
+  "row-traffic-in-intersection": {
+    "src": "/handbook/newyork/row-traffic-in-intersection.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "school-bus-20-feet": {
+    "src": "/handbook/newyork/school-bus-20-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 145
+  },
+  "school-bus-divided-highway": {
+    "src": "/handbook/newyork/school-bus-divided-highway.png",
+    "page": 0,
+    "width": 802,
+    "height": 247
+  },
+  "school-bus-no-right-on-red": {
+    "src": "/handbook/newyork/school-bus-no-right-on-red.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "school-bus-red-lights-stop": {
+    "src": "/handbook/newyork/school-bus-red-lights-stop.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "school-bus-when-to-proceed": {
+    "src": "/handbook/newyork/school-bus-when-to-proceed.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "sign-destination-green": {
+    "src": "/handbook/newyork/sign-destination-green.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "sign-red-circle-slash": {
+    "src": "/handbook/newyork/sign-red-circle-slash.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "sign-regulation-shape": {
+    "src": "/handbook/newyork/sign-regulation-shape.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "sign-route-shape": {
+    "src": "/handbook/newyork/sign-route-shape.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "sign-service-blue": {
+    "src": "/handbook/newyork/sign-service-blue.png",
+    "page": 0,
+    "width": 802,
+    "height": 72
+  },
+  "sign-warning-meaning": {
+    "src": "/handbook/newyork/sign-warning-meaning.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "sign-warning-shape": {
+    "src": "/handbook/newyork/sign-warning-shape.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "sign-work-area-orange": {
+    "src": "/handbook/newyork/sign-work-area-orange.png",
+    "page": 0,
+    "width": 802,
+    "height": 294
+  },
+  "signal-100-feet": {
+    "src": "/handbook/newyork/signal-100-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "signal-flashing-red": {
+    "src": "/handbook/newyork/signal-flashing-red.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "signal-flashing-yellow": {
+    "src": "/handbook/newyork/signal-flashing-yellow.png",
+    "page": 0,
+    "width": 802,
+    "height": 72
+  },
+  "signal-green-arrow": {
+    "src": "/handbook/newyork/signal-green-arrow.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "signal-out-of-service": {
+    "src": "/handbook/newyork/signal-out-of-service.png",
+    "page": 0,
+    "width": 802,
+    "height": 242
+  },
+  "signal-red-arrow": {
+    "src": "/handbook/newyork/signal-red-arrow.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "signal-steady-green": {
+    "src": "/handbook/newyork/signal-steady-green.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "signal-steady-red": {
+    "src": "/handbook/newyork/signal-steady-red.png",
+    "page": 0,
+    "width": 802,
+    "height": 161
+  },
+  "signal-steady-yellow": {
+    "src": "/handbook/newyork/signal-steady-yellow.png",
+    "page": 0,
+    "width": 802,
+    "height": 112
+  },
+  "signal-yellow-arrow": {
+    "src": "/handbook/newyork/signal-yellow-arrow.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "slow-moving-vehicle-emblem": {
+    "src": "/handbook/newyork/slow-moving-vehicle-emblem.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "speed-55-default": {
+    "src": "/handbook/newyork/speed-55-default.png",
+    "page": 0,
+    "width": 802,
+    "height": 107
+  },
+  "speed-minimum-limits": {
+    "src": "/handbook/newyork/speed-minimum-limits.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "speed-not-reasonable": {
+    "src": "/handbook/newyork/speed-not-reasonable.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "speed-nyc-25": {
+    "src": "/handbook/newyork/speed-nyc-25.png",
+    "page": 0,
+    "width": 802,
+    "height": 207
+  },
+  "standard-drink-equivalence": {
+    "src": "/handbook/newyork/standard-drink-equivalence.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "steering-failure": {
+    "src": "/handbook/newyork/steering-failure.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "stop-sign-meaning": {
+    "src": "/handbook/newyork/stop-sign-meaning.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "stop-sign-no-line": {
+    "src": "/handbook/newyork/stop-sign-no-line.png",
+    "page": 0,
+    "width": 802,
+    "height": 249
+  },
+  "stop-sign-where": {
+    "src": "/handbook/newyork/stop-sign-where.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "studded-tires-dates": {
+    "src": "/handbook/newyork/studded-tires-dates.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "tailgated-response": {
+    "src": "/handbook/newyork/tailgated-response.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "three-point-turn": {
+    "src": "/handbook/newyork/three-point-turn.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "three-speeding-18-months": {
+    "src": "/handbook/newyork/three-speeding-18-months.png",
+    "page": 0,
+    "width": 802,
+    "height": 159
+  },
+  "tire-blowout": {
+    "src": "/handbook/newyork/tire-blowout.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "tire-tread-depth": {
+    "src": "/handbook/newyork/tire-tread-depth.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "traffic-officer-precedence": {
+    "src": "/handbook/newyork/traffic-officer-precedence.png",
+    "page": 0,
+    "width": 802,
+    "height": 105
+  },
+  "traffic-officer-who": {
+    "src": "/handbook/newyork/traffic-officer-who.png",
+    "page": 0,
+    "width": 802,
+    "height": 161
+  },
+  "truck-crash-responsibility": {
+    "src": "/handbook/newyork/truck-crash-responsibility.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "truck-front-blind-spot": {
+    "src": "/handbook/newyork/truck-front-blind-spot.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "truck-wide-right-turn": {
+    "src": "/handbook/newyork/truck-wide-right-turn.png",
+    "page": 0,
+    "width": 802,
+    "height": 161
+  },
+  "turn-right-position": {
+    "src": "/handbook/newyork/turn-right-position.png",
+    "page": 0,
+    "width": 802,
+    "height": 208
+  },
+  "two-second-rule": {
+    "src": "/handbook/newyork/two-second-rule.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "two-second-rule-bad-weather": {
+    "src": "/handbook/newyork/two-second-rule-bad-weather.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  },
+  "uturn-500-feet": {
+    "src": "/handbook/newyork/uturn-500-feet.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "uturn-expressway": {
+    "src": "/handbook/newyork/uturn-expressway.png",
+    "page": 0,
+    "width": 802,
+    "height": 242
+  },
+  "uturn-lane-position": {
+    "src": "/handbook/newyork/uturn-lane-position.png",
+    "page": 0,
+    "width": 802,
+    "height": 154
+  },
+  "uturn-nyc-business-district": {
+    "src": "/handbook/newyork/uturn-nyc-business-district.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "vision-test-2040": {
+    "src": "/handbook/newyork/vision-test-2040.png",
+    "page": 0,
+    "width": 802,
+    "height": 107
+  },
+  "work-zone-fines-double": {
+    "src": "/handbook/newyork/work-zone-fines-double.png",
+    "page": 0,
+    "width": 802,
+    "height": 200
+  },
+  "written-test-pass-mark": {
+    "src": "/handbook/newyork/written-test-pass-mark.png",
+    "page": 0,
+    "width": 802,
+    "height": 240
+  },
+  "yield-sign-full-stop": {
+    "src": "/handbook/newyork/yield-sign-full-stop.png",
+    "page": 0,
+    "width": 802,
+    "height": 193
+  },
+  "yield-sign-meaning": {
+    "src": "/handbook/newyork/yield-sign-meaning.png",
+    "page": 0,
+    "width": 802,
+    "height": 152
+  },
+  "zero-tolerance": {
+    "src": "/handbook/newyork/zero-tolerance.png",
+    "page": 0,
+    "width": 802,
+    "height": 341
+  },
+  "zero-tolerance-second": {
+    "src": "/handbook/newyork/zero-tolerance-second.png",
+    "page": 0,
+    "width": 802,
+    "height": 201
+  }
+}

@@ -60,6 +60,9 @@ import californiaSnippets from "./california/snippets.json";
 // scripts/build-ontario-snippets.mjs (a real browser screenshot of the
 // highlighted passage) and carry page: 0 - there are no page numbers to cite.
 import ontarioSnippets from "./ontario/snippets.json";
+// New York's MV-21 is HTML-only too (the mv21.pdf link is a 4-page stub), so it
+// goes through the same browser pipeline and also carries page: 0.
+import newyorkSnippets from "./newyork/snippets.json";
 
 export interface HandbookSnippet {
   src: string;
@@ -73,6 +76,7 @@ const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
   texas: texasSnippets as Record<string, HandbookSnippet>,
   california: californiaSnippets as Record<string, HandbookSnippet>,
   ontario: ontarioSnippets as Record<string, HandbookSnippet>,
+  newyork: newyorkSnippets as Record<string, HandbookSnippet>,
 };
 
 export function getSnippet(
