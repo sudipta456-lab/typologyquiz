@@ -21,7 +21,7 @@
  *   npx tsx scripts/build-ontario-snippets.mjs [--only key1,key2]
  */
 import { chromium } from "playwright";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -109,38 +109,56 @@ function highlightInPage({ quote, padX, padAbove, padBelow, maxBand }) {
   }
 
   const target = fold(quote).replace(/\s+/g, " ").trim();
-  const words = target.split(" ");
-  const attempts = [target];
-  if (words.length > 14) attempts.push(words.slice(0, 14).join(" "));
-  if (words.length > 8) attempts.push(words.slice(0, 8).join(" "));
-
-  let start = -1;
-  let used = null;
   const hay = text.toLowerCase();
-  for (const a of attempts) {
-    const idx = hay.indexOf(a.toLowerCase());
-    if (idx > -1) {
-      start = idx;
-      used = a;
-      break;
+  const hits = [];
+  let partial = false;
+
+  const whole = hay.indexOf(target.toLowerCase());
+  if (whole > -1) {
+    hits.push([whole, whole + target.length]);
+  } else {
+    // The quote is verbatim, but the page may split it across two paragraphs or
+    // a list, so it isn't one contiguous run of rendered text. Fall back to
+    // matching sentence by sentence and highlight each piece where it lands.
+    partial = true;
+    const sentences = target
+      .split(/(?<=[.:!?])\s+/)
+      .filter((s) => s.split(" ").length >= 4);
+    let cursor = 0;
+    for (const s of sentences) {
+      const i = hay.indexOf(s.toLowerCase(), cursor);
+      if (i < 0) continue;
+      hits.push([i, i + s.length]);
+      cursor = i + s.length;
+    }
+    if (!hits.length) {
+      // Last resort: the opening clause, which still anchors the passage.
+      const words = target.split(" ");
+      for (const n of [14, 8]) {
+        if (words.length <= n) continue;
+        const i = hay.indexOf(words.slice(0, n).join(" ").toLowerCase());
+        if (i > -1) {
+          hits.push([i, i + words.slice(0, n).join(" ").length]);
+          break;
+        }
+      }
     }
   }
-  if (start < 0) return { ok: false, reason: "quote-not-found" };
-
-  const end = start + used.length; // exclusive
-  const partial = used !== target;
+  if (!hits.length) return { ok: false, reason: "quote-not-found" };
 
   // Group the matched characters by their owning text node so each node is
   // split exactly once (splitting invalidates offsets within that node only).
   const byNode = new Map();
-  for (let i = start; i < end; i++) {
-    const m = map[i];
-    if (!m) continue;
-    const cur = byNode.get(m.node);
-    if (!cur) byNode.set(m.node, { from: m.offset, to: m.offset });
-    else {
-      cur.from = Math.min(cur.from, m.offset);
-      cur.to = Math.max(cur.to, m.offset);
+  for (const [from, to] of hits) {
+    for (let i = from; i < to; i++) {
+      const m = map[i];
+      if (!m) continue;
+      const cur = byNode.get(m.node);
+      if (!cur) byNode.set(m.node, { from: m.offset, to: m.offset });
+      else {
+        cur.from = Math.min(cur.from, m.offset);
+        cur.to = Math.max(cur.to, m.offset);
+      }
     }
   }
 
@@ -275,7 +293,6 @@ function highlightInPage({ quote, padX, padAbove, padBelow, maxBand }) {
   return {
     ok: true,
     partial,
-    matched: used,
     box: {
       x: Math.max(0, colL - padX),
       y: top,
@@ -299,6 +316,43 @@ function placeOverlay(box) {
   document.body.appendChild(d);
 }
 
+/**
+ * Chromium writes 24-bit PNGs. These crops are black text, one yellow and a
+ * white ground, so a 128-colour palette is visually identical and roughly
+ * halves the bytes - which is what keeps the Ontario folder in the same weight
+ * class as the PDF-derived ones. Dimensions are untouched, so the manifest
+ * stays correct. Skipped with a warning if Pillow isn't around.
+ */
+async function shrinkPngs() {
+  const py = `
+import sys, os, glob
+from PIL import Image
+before = after = 0
+for p in glob.glob(os.path.join(sys.argv[1], "*.png")):
+    before += os.path.getsize(p)
+    im = Image.open(p).convert("RGB")
+    im.quantize(colors=128, method=Image.MEDIANCUT, dither=Image.NONE).save(
+        p, "PNG", optimize=True
+    )
+    after += os.path.getsize(p)
+print("  %.1f MB -> %.1f MB" % (before / 1e6, after / 1e6))
+`;
+  const { spawn } = await import("node:child_process");
+  await new Promise((resolve) => {
+    const p = spawn("python", ["-c", py, OUT_DIR], { stdio: ["ignore", "inherit", "pipe"] });
+    let err = "";
+    p.stderr.on("data", (d) => (err += d));
+    p.on("error", () => {
+      process.stdout.write("  (skipped: python not found)\n");
+      resolve();
+    });
+    p.on("close", (code) => {
+      if (code) process.stdout.write(`  (skipped: ${err.trim().split("\n").pop()})\n`);
+      resolve();
+    });
+  });
+}
+
 /* ----------------------------------------------------------------- main --- */
 async function main() {
   const items = ontarioExcerpts.filter((e) => !only || only.has(e.key));
@@ -320,6 +374,7 @@ async function main() {
 
   const manifest = {};
   const failures = [];
+  const partials = [];
   let urlNo = 0;
 
   for (const [url, group] of byUrl) {
@@ -369,6 +424,7 @@ async function main() {
           width: buf.readUInt32BE(16),
           height: buf.readUInt32BE(20),
         };
+        if (res.partial) partials.push(e.key);
         process.stdout.write(
           `  ok   ${e.key} ${manifest[e.key].width}x${manifest[e.key].height}${res.partial ? " (opening clause only)" : ""}\n`
         );
@@ -381,14 +437,28 @@ async function main() {
 
   await browser.close();
 
+  // A --only run patches the manifest instead of replacing it, so re-rendering
+  // one snippet can't quietly delete the other 143.
+  let merged = manifest;
+  if (only) {
+    try {
+      merged = { ...JSON.parse(await readFile(MANIFEST, "utf-8")), ...manifest };
+    } catch {
+      /* no manifest yet */
+    }
+  }
   const sorted = {};
-  for (const k of Object.keys(manifest).sort()) sorted[k] = manifest[k];
+  for (const k of Object.keys(merged).sort()) sorted[k] = merged[k];
   await writeFile(MANIFEST, JSON.stringify(sorted, null, 2) + "\n", "utf-8");
 
+  process.stdout.write("\nshrinking PNGs\n");
+  await shrinkPngs();
+
   process.stdout.write(
-    `\nontario: ${Object.keys(manifest).length} snippets rendered, ${failures.length} not located\n`
+    `\nontario: ${Object.keys(manifest).length} snippets rendered, ${failures.length} not located, ${partials.length} highlighted on the opening clause only\n`
   );
   for (const f of failures) process.stdout.write(`  - ${f.key}: ${f.reason}\n`);
+  for (const p of partials) process.stdout.write(`  ~ ${p}\n`);
 }
 
 main().catch((e) => {

@@ -52,6 +52,10 @@ export function excerptCount(): number {
 import albertaSnippets from "./alberta/snippets.json";
 import texasSnippets from "./texas/snippets.json";
 import californiaSnippets from "./california/snippets.json";
+// Ontario's handbook is HTML-only on ontario.ca, so its snippets come from
+// scripts/build-ontario-snippets.mjs (a real browser screenshot of the
+// highlighted passage) and carry page: 0 - there are no page numbers to cite.
+import ontarioSnippets from "./ontario/snippets.json";
 
 export interface HandbookSnippet {
   src: string;
@@ -64,6 +68,7 @@ const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
   alberta: albertaSnippets as Record<string, HandbookSnippet>,
   texas: texasSnippets as Record<string, HandbookSnippet>,
   california: californiaSnippets as Record<string, HandbookSnippet>,
+  ontario: ontarioSnippets as Record<string, HandbookSnippet>,
 };
 
 export function getSnippet(

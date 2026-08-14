@@ -1,771 +1,771 @@
 {
   "acceleration-lane": {
-    "src": "/handbook/ontario/acceleration-lane.png",
+    "height": 235,
     "page": 0,
-    "width": 802,
-    "height": 235
+    "src": "/handbook/ontario/acceleration-lane.png",
+    "width": 802
   },
   "advance-green": {
-    "src": "/handbook/ontario/advance-green.png",
+    "height": 243,
     "page": 0,
-    "width": 802,
-    "height": 243
+    "src": "/handbook/ontario/advance-green.png",
+    "width": 802
   },
   "all-way-stop": {
-    "src": "/handbook/ontario/all-way-stop.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/all-way-stop.png",
+    "width": 802
   },
   "bike-lanes": {
-    "src": "/handbook/ontario/bike-lanes.png",
+    "height": 102,
     "page": 0,
-    "width": 802,
-    "height": 102
+    "src": "/handbook/ontario/bike-lanes.png",
+    "width": 802
   },
   "blank-traffic-lights": {
-    "src": "/handbook/ontario/blank-traffic-lights.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/blank-traffic-lights.png",
+    "width": 802
   },
   "booster-seat-required": {
-    "src": "/handbook/ontario/booster-seat-required.png",
+    "height": 324,
     "page": 0,
-    "width": 802,
-    "height": 324
+    "src": "/handbook/ontario/booster-seat-required.png",
+    "width": 802
   },
   "brake-failure": {
-    "src": "/handbook/ontario/brake-failure.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/brake-failure.png",
+    "width": 802
   },
   "broken-line-passing": {
-    "src": "/handbook/ontario/broken-line-passing.png",
+    "height": 102,
     "page": 0,
-    "width": 802,
-    "height": 102
+    "src": "/handbook/ontario/broken-line-passing.png",
+    "width": 802
   },
   "bus-bay-yield": {
-    "src": "/handbook/ontario/bus-bay-yield.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/bus-bay-yield.png",
+    "width": 802
   },
   "bus-yield-sign": {
-    "src": "/handbook/ontario/bus-yield-sign.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/bus-yield-sign.png",
+    "width": 802
   },
   "checkerboard-sign": {
-    "src": "/handbook/ontario/checkerboard-sign.png",
+    "height": 102,
     "page": 0,
-    "width": 802,
-    "height": 102
+    "src": "/handbook/ontario/checkerboard-sign.png",
+    "width": 802
   },
   "chevron-sign": {
-    "src": "/handbook/ontario/chevron-sign.png",
+    "height": 110,
     "page": 0,
-    "width": 802,
-    "height": 110
+    "src": "/handbook/ontario/chevron-sign.png",
+    "width": 802
   },
   "child-rear-facing-seat": {
-    "src": "/handbook/ontario/child-rear-facing-seat.png",
+    "height": 193,
     "page": 0,
-    "width": 802,
-    "height": 193
+    "src": "/handbook/ontario/child-rear-facing-seat.png",
+    "width": 802
   },
   "collision-move-vehicles": {
-    "src": "/handbook/ontario/collision-move-vehicles.png",
+    "height": 145,
     "page": 0,
-    "width": 753,
-    "height": 145
+    "src": "/handbook/ontario/collision-move-vehicles.png",
+    "width": 753
   },
   "collision-report-5000": {
-    "src": "/handbook/ontario/collision-report-5000.png",
+    "height": 200,
     "page": 0,
-    "width": 746,
-    "height": 200
+    "src": "/handbook/ontario/collision-report-5000.png",
+    "width": 746
   },
   "collision-under-5000": {
-    "src": "/handbook/ontario/collision-under-5000.png",
+    "height": 198,
     "page": 0,
-    "width": 753,
-    "height": 198
+    "src": "/handbook/ontario/collision-under-5000.png",
+    "width": 753
   },
   "community-safety-zone": {
-    "src": "/handbook/ontario/community-safety-zone.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/community-safety-zone.png",
+    "width": 802
   },
   "continuity-lines": {
-    "src": "/handbook/ontario/continuity-lines.png",
+    "height": 278,
     "page": 0,
-    "width": 802,
-    "height": 278
+    "src": "/handbook/ontario/continuity-lines.png",
+    "width": 802
   },
   "crossing-guard-whole-roadway": {
-    "src": "/handbook/ontario/crossing-guard-whole-roadway.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/crossing-guard-whole-roadway.png",
+    "width": 802
   },
   "crossover-markings": {
-    "src": "/handbook/ontario/crossover-markings.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/crossover-markings.png",
+    "width": 802
   },
   "crossover-no-passing": {
-    "src": "/handbook/ontario/crossover-no-passing.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/crossover-no-passing.png",
+    "width": 802
   },
   "crossover-yield": {
-    "src": "/handbook/ontario/crossover-yield.png",
+    "height": 271,
     "page": 0,
-    "width": 802,
-    "height": 271
+    "src": "/handbook/ontario/crossover-yield.png",
+    "width": 802
   },
   "crosswalk-markings": {
-    "src": "/handbook/ontario/crosswalk-markings.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/crosswalk-markings.png",
+    "width": 802
   },
   "curve-advisory-speed-sign": {
-    "src": "/handbook/ontario/curve-advisory-speed-sign.png",
+    "height": 109,
     "page": 0,
-    "width": 802,
-    "height": 109
+    "src": "/handbook/ontario/curve-advisory-speed-sign.png",
+    "width": 802
   },
   "cyclist-one-metre": {
-    "src": "/handbook/ontario/cyclist-one-metre.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/cyclist-one-metre.png",
+    "width": 802
   },
   "cyclist-passing-penalty": {
-    "src": "/handbook/ontario/cyclist-passing-penalty.png",
+    "height": 235,
     "page": 0,
-    "width": 802,
-    "height": 235
+    "src": "/handbook/ontario/cyclist-passing-penalty.png",
+    "width": 802
   },
   "cyclist-position": {
-    "src": "/handbook/ontario/cyclist-position.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/cyclist-position.png",
+    "width": 802
   },
   "default-speed-limits": {
-    "src": "/handbook/ontario/default-speed-limits.png",
+    "height": 158,
     "page": 0,
-    "width": 802,
-    "height": 158
+    "src": "/handbook/ontario/default-speed-limits.png",
+    "width": 802
   },
   "demerit-two-years": {
-    "src": "/handbook/ontario/demerit-two-years.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/demerit-two-years.png",
+    "width": 802
   },
   "distracted-driving-holding": {
-    "src": "/handbook/ontario/distracted-driving-holding.png",
+    "height": 109,
     "page": 0,
-    "width": 924,
-    "height": 109
+    "src": "/handbook/ontario/distracted-driving-holding.png",
+    "width": 924
   },
   "distracted-driving-scope": {
-    "src": "/handbook/ontario/distracted-driving-scope.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/distracted-driving-scope.png",
+    "width": 802
   },
   "distracted-novice-penalty": {
-    "src": "/handbook/ontario/distracted-novice-penalty.png",
+    "height": 154,
     "page": 0,
-    "width": 924,
-    "height": 154
+    "src": "/handbook/ontario/distracted-novice-penalty.png",
+    "width": 924
   },
   "divided-highway-begins-sign": {
-    "src": "/handbook/ontario/divided-highway-begins-sign.png",
+    "height": 100,
     "page": 0,
-    "width": 802,
-    "height": 100
+    "src": "/handbook/ontario/divided-highway-begins-sign.png",
+    "width": 802
   },
   "divided-highway-ends-sign": {
-    "src": "/handbook/ontario/divided-highway-ends-sign.png",
+    "height": 110,
     "page": 0,
-    "width": 802,
-    "height": 110
+    "src": "/handbook/ontario/divided-highway-ends-sign.png",
+    "width": 802
   },
   "driveway-yield": {
-    "src": "/handbook/ontario/driveway-yield.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/driveway-yield.png",
+    "width": 802
   },
   "emergency-vehicle-approaching": {
-    "src": "/handbook/ontario/emergency-vehicle-approaching.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/emergency-vehicle-approaching.png",
+    "width": 802
   },
   "emergency-vehicle-pull-right": {
-    "src": "/handbook/ontario/emergency-vehicle-pull-right.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/emergency-vehicle-pull-right.png",
+    "width": 802
   },
   "fire-vehicle-150-metres": {
-    "src": "/handbook/ontario/fire-vehicle-150-metres.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/fire-vehicle-150-metres.png",
+    "width": 802
   },
   "flashing-red-light": {
-    "src": "/handbook/ontario/flashing-red-light.png",
+    "height": 110,
     "page": 0,
-    "width": 802,
-    "height": 110
+    "src": "/handbook/ontario/flashing-red-light.png",
+    "width": 802
   },
   "flashing-yellow-light": {
-    "src": "/handbook/ontario/flashing-yellow-light.png",
+    "height": 156,
     "page": 0,
-    "width": 802,
-    "height": 156
+    "src": "/handbook/ontario/flashing-yellow-light.png",
+    "width": 802
   },
   "fog-low-beams": {
-    "src": "/handbook/ontario/fog-low-beams.png",
+    "height": 154,
     "page": 0,
-    "width": 746,
-    "height": 154
+    "src": "/handbook/ontario/fog-low-beams.png",
+    "width": 746
   },
   "following-distance": {
-    "src": "/handbook/ontario/following-distance.png",
+    "height": 242,
     "page": 0,
-    "width": 802,
-    "height": 242
+    "src": "/handbook/ontario/following-distance.png",
+    "width": 802
   },
   "freeway-deceleration-lane": {
-    "src": "/handbook/ontario/freeway-deceleration-lane.png",
+    "height": 271,
     "page": 0,
-    "width": 802,
-    "height": 271
+    "src": "/handbook/ontario/freeway-deceleration-lane.png",
+    "width": 802
   },
   "freeway-left-lane": {
-    "src": "/handbook/ontario/freeway-left-lane.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/freeway-left-lane.png",
+    "width": 802
   },
   "freeway-missed-exit": {
-    "src": "/handbook/ontario/freeway-missed-exit.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/freeway-missed-exit.png",
+    "width": 802
   },
   "full-licence-fifteen-points": {
-    "src": "/handbook/ontario/full-licence-fifteen-points.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/full-licence-fifteen-points.png",
+    "width": 802
   },
   "fully-protected-left-turn": {
-    "src": "/handbook/ontario/fully-protected-left-turn.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/fully-protected-left-turn.png",
+    "width": 802
   },
   "g1-400-series": {
-    "src": "/handbook/ontario/g1-400-series.png",
+    "height": 326,
     "page": 0,
-    "width": 746,
-    "height": 326
+    "src": "/handbook/ontario/g1-400-series.png",
+    "width": 746
   },
   "g1-accompanying-driver": {
-    "src": "/handbook/ontario/g1-accompanying-driver.png",
+    "height": 226,
     "page": 0,
-    "width": 746,
-    "height": 226
+    "src": "/handbook/ontario/g1-accompanying-driver.png",
+    "width": 746
   },
   "g1-eight-months-with-course": {
-    "src": "/handbook/ontario/g1-eight-months-with-course.png",
+    "height": 137,
     "page": 0,
-    "width": 802,
-    "height": 137
+    "src": "/handbook/ontario/g1-eight-months-with-course.png",
+    "width": 802
   },
   "g1-freeway-instructor": {
-    "src": "/handbook/ontario/g1-freeway-instructor.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/g1-freeway-instructor.png",
+    "width": 802
   },
   "g1-midnight-to-five": {
-    "src": "/handbook/ontario/g1-midnight-to-five.png",
+    "height": 72,
     "page": 0,
-    "width": 746,
-    "height": 72
+    "src": "/handbook/ontario/g1-midnight-to-five.png",
+    "width": 746
   },
   "g1-no-driving-alone": {
-    "src": "/handbook/ontario/g1-no-driving-alone.png",
+    "height": 193,
     "page": 0,
-    "width": 746,
-    "height": 193
+    "src": "/handbook/ontario/g1-no-driving-alone.png",
+    "width": 746
   },
   "g1-twelve-months": {
-    "src": "/handbook/ontario/g1-twelve-months.png",
+    "height": 72,
     "page": 0,
-    "width": 802,
-    "height": 72
+    "src": "/handbook/ontario/g1-twelve-months.png",
+    "width": 802
   },
   "g1-zero-bac": {
-    "src": "/handbook/ontario/g1-zero-bac.png",
+    "height": 110,
     "page": 0,
-    "width": 746,
-    "height": 110
+    "src": "/handbook/ontario/g1-zero-bac.png",
+    "width": 746
   },
   "g2-passenger-restriction": {
-    "src": "/handbook/ontario/g2-passenger-restriction.png",
+    "height": 156,
     "page": 0,
-    "width": 746,
-    "height": 156
+    "src": "/handbook/ontario/g2-passenger-restriction.png",
+    "width": 746
   },
   "green-light": {
-    "src": "/handbook/ontario/green-light.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/green-light.png",
+    "width": 802
   },
   "headlights-when-required": {
-    "src": "/handbook/ontario/headlights-when-required.png",
+    "height": 280,
     "page": 0,
-    "width": 802,
-    "height": 280
+    "src": "/handbook/ontario/headlights-when-required.png",
+    "width": 802
   },
   "hidden-sideroad-sign": {
-    "src": "/handbook/ontario/hidden-sideroad-sign.png",
+    "height": 110,
     "page": 0,
-    "width": 802,
-    "height": 110
+    "src": "/handbook/ontario/hidden-sideroad-sign.png",
+    "width": 802
   },
   "high-beam-distances": {
-    "src": "/handbook/ontario/high-beam-distances.png",
+    "height": 271,
     "page": 0,
-    "width": 802,
-    "height": 271
+    "src": "/handbook/ontario/high-beam-distances.png",
+    "width": 802
   },
   "hov-lane-sign": {
-    "src": "/handbook/ontario/hov-lane-sign.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/hov-lane-sign.png",
+    "width": 802
   },
   "hov-large-trucks": {
-    "src": "/handbook/ontario/hov-large-trucks.png",
+    "height": 193,
     "page": 0,
-    "width": 746,
-    "height": 102
+    "src": "/handbook/ontario/hov-large-trucks.png",
+    "width": 746
   },
   "hov-no-lane-change-sign": {
-    "src": "/handbook/ontario/hov-no-lane-change-sign.png",
+    "height": 109,
     "page": 0,
-    "width": 802,
-    "height": 109
+    "src": "/handbook/ontario/hov-no-lane-change-sign.png",
+    "width": 802
   },
   "hydroplaning": {
-    "src": "/handbook/ontario/hydroplaning.png",
+    "height": 182,
     "page": 0,
-    "width": 802,
-    "height": 182
+    "src": "/handbook/ontario/hydroplaning.png",
+    "width": 802
   },
   "impaired-is-a-crime": {
-    "src": "/handbook/ontario/impaired-is-a-crime.png",
+    "height": 198,
     "page": 0,
-    "width": 802,
-    "height": 198
+    "src": "/handbook/ontario/impaired-is-a-crime.png",
+    "width": 802
   },
   "information-direction-signs": {
-    "src": "/handbook/ontario/information-direction-signs.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/information-direction-signs.png",
+    "width": 802
   },
   "keep-right": {
-    "src": "/handbook/ontario/keep-right.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/keep-right.png",
+    "width": 802
   },
   "lane-arrow": {
-    "src": "/handbook/ontario/lane-arrow.png",
+    "height": 109,
     "page": 0,
-    "width": 802,
-    "height": 109
+    "src": "/handbook/ontario/lane-arrow.png",
+    "width": 802
   },
   "left-turn-complete-in-intersection": {
-    "src": "/handbook/ontario/left-turn-complete-in-intersection.png",
+    "height": 198,
     "page": 0,
-    "width": 802,
-    "height": 198
+    "src": "/handbook/ontario/left-turn-complete-in-intersection.png",
+    "width": 802
   },
   "left-turn-on-red-one-way": {
-    "src": "/handbook/ontario/left-turn-on-red-one-way.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/left-turn-on-red-one-way.png",
+    "width": 802
   },
   "left-turn-position": {
-    "src": "/handbook/ontario/left-turn-position.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/left-turn-position.png",
+    "width": 802
   },
   "left-turn-wheels-straight": {
-    "src": "/handbook/ontario/left-turn-wheels-straight.png",
+    "height": 245,
     "page": 0,
-    "width": 802,
-    "height": 245
+    "src": "/handbook/ontario/left-turn-wheels-straight.png",
+    "width": 802
   },
   "left-turn-yield": {
-    "src": "/handbook/ontario/left-turn-yield.png",
+    "height": 189,
     "page": 0,
-    "width": 802,
-    "height": 189
+    "src": "/handbook/ontario/left-turn-yield.png",
+    "width": 802
   },
   "line-colours": {
-    "src": "/handbook/ontario/line-colours.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/line-colours.png",
+    "width": 802
   },
   "motorcycles-full-lane": {
-    "src": "/handbook/ontario/motorcycles-full-lane.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/motorcycles-full-lane.png",
+    "width": 802
   },
   "move-over-change-lane": {
-    "src": "/handbook/ontario/move-over-change-lane.png",
+    "height": 235,
     "page": 0,
-    "width": 802,
-    "height": 235
+    "src": "/handbook/ontario/move-over-change-lane.png",
+    "width": 802
   },
   "move-over-stopped-vehicle": {
-    "src": "/handbook/ontario/move-over-stopped-vehicle.png",
+    "height": 236,
     "page": 0,
-    "width": 802,
-    "height": 236
+    "src": "/handbook/ontario/move-over-stopped-vehicle.png",
+    "width": 802
   },
   "no-parking-sign": {
-    "src": "/handbook/ontario/no-parking-sign.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/no-parking-sign.png",
+    "width": 802
   },
   "no-standing-sign": {
-    "src": "/handbook/ontario/no-standing-sign.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/no-standing-sign.png",
+    "width": 802
   },
   "novice-condition-violation": {
-    "src": "/handbook/ontario/novice-condition-violation.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/novice-condition-violation.png",
+    "width": 802
   },
   "novice-nine-points": {
-    "src": "/handbook/ontario/novice-nine-points.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/novice-nine-points.png",
+    "width": 802
   },
   "overdriving-headlights": {
-    "src": "/handbook/ontario/overdriving-headlights.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/overdriving-headlights.png",
+    "width": 802
   },
   "parking-hill-downhill": {
-    "src": "/handbook/ontario/parking-hill-downhill.png",
+    "height": 102,
     "page": 0,
-    "width": 802,
-    "height": 102
+    "src": "/handbook/ontario/parking-hill-downhill.png",
+    "width": 802
   },
   "parking-hill-uphill-no-curb": {
-    "src": "/handbook/ontario/parking-hill-uphill-no-curb.png",
+    "height": 102,
     "page": 0,
-    "width": 802,
-    "height": 102
+    "src": "/handbook/ontario/parking-hill-uphill-no-curb.png",
+    "width": 802
   },
   "parking-hydrant": {
-    "src": "/handbook/ontario/parking-hydrant.png",
+    "height": 200,
     "page": 0,
-    "width": 746,
-    "height": 200
+    "src": "/handbook/ontario/parking-hydrant.png",
+    "width": 746
   },
   "parking-intersection": {
-    "src": "/handbook/ontario/parking-intersection.png",
+    "height": 109,
     "page": 0,
-    "width": 746,
-    "height": 109
+    "src": "/handbook/ontario/parking-intersection.png",
+    "width": 746
   },
   "parking-railway": {
-    "src": "/handbook/ontario/parking-railway.png",
+    "height": 109,
     "page": 0,
-    "width": 746,
-    "height": 109
+    "src": "/handbook/ontario/parking-railway.png",
+    "width": 746
   },
   "passing-30-metres": {
-    "src": "/handbook/ontario/passing-30-metres.png",
+    "height": 147,
     "page": 0,
-    "width": 802,
-    "height": 147
+    "src": "/handbook/ontario/passing-30-metres.png",
+    "width": 802
   },
   "passing-right": {
-    "src": "/handbook/ontario/passing-right.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/passing-right.png",
+    "width": 802
   },
   "pedestrian-already-crossing": {
-    "src": "/handbook/ontario/pedestrian-already-crossing.png",
+    "height": 287,
     "page": 0,
-    "width": 802,
-    "height": 287
+    "src": "/handbook/ontario/pedestrian-already-crossing.png",
+    "width": 802
   },
   "pedestrian-signals": {
-    "src": "/handbook/ontario/pedestrian-signals.png",
+    "height": 198,
     "page": 0,
-    "width": 802,
-    "height": 198
+    "src": "/handbook/ontario/pedestrian-signals.png",
+    "width": 802
   },
   "railway-crossing-sign": {
-    "src": "/handbook/ontario/railway-crossing-sign.png",
+    "height": 147,
     "page": 0,
-    "width": 802,
-    "height": 147
+    "src": "/handbook/ontario/railway-crossing-sign.png",
+    "width": 802
   },
   "railway-gate": {
-    "src": "/handbook/ontario/railway-gate.png",
+    "height": 154,
     "page": 0,
-    "width": 746,
-    "height": 154
+    "src": "/handbook/ontario/railway-gate.png",
+    "width": 746
   },
   "railway-stop-distance": {
-    "src": "/handbook/ontario/railway-stop-distance.png",
+    "height": 154,
     "page": 0,
-    "width": 746,
-    "height": 154
+    "src": "/handbook/ontario/railway-stop-distance.png",
+    "width": 746
   },
   "red-light": {
-    "src": "/handbook/ontario/red-light.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/red-light.png",
+    "width": 802
   },
   "regulatory-circles": {
-    "src": "/handbook/ontario/regulatory-circles.png",
+    "height": 235,
     "page": 0,
-    "width": 802,
-    "height": 235
+    "src": "/handbook/ontario/regulatory-circles.png",
+    "width": 802
   },
   "regulatory-signs": {
-    "src": "/handbook/ontario/regulatory-signs.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/regulatory-signs.png",
+    "width": 802
   },
   "right-turn-on-red": {
-    "src": "/handbook/ontario/right-turn-on-red.png",
+    "height": 147,
     "page": 0,
-    "width": 802,
-    "height": 147
+    "src": "/handbook/ontario/right-turn-on-red.png",
+    "width": 802
   },
   "roundabout-ahead-sign": {
-    "src": "/handbook/ontario/roundabout-ahead-sign.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/roundabout-ahead-sign.png",
+    "width": 802
   },
   "roundabout-counter-clockwise": {
-    "src": "/handbook/ontario/roundabout-counter-clockwise.png",
+    "height": 156,
     "page": 0,
-    "width": 746,
-    "height": 156
+    "src": "/handbook/ontario/roundabout-counter-clockwise.png",
+    "width": 746
   },
   "roundabout-emergency-vehicle": {
-    "src": "/handbook/ontario/roundabout-emergency-vehicle.png",
+    "height": 147,
     "page": 0,
-    "width": 802,
-    "height": 147
+    "src": "/handbook/ontario/roundabout-emergency-vehicle.png",
+    "width": 802
   },
   "roundabout-keep-moving": {
-    "src": "/handbook/ontario/roundabout-keep-moving.png",
+    "height": 191,
     "page": 0,
-    "width": 746,
-    "height": 191
+    "src": "/handbook/ontario/roundabout-keep-moving.png",
+    "width": 746
   },
   "roundabout-lane-choice": {
-    "src": "/handbook/ontario/roundabout-lane-choice.png",
+    "height": 138,
     "page": 0,
-    "width": 746,
-    "height": 138
+    "src": "/handbook/ontario/roundabout-lane-choice.png",
+    "width": 746
   },
   "roundabout-yield-left": {
-    "src": "/handbook/ontario/roundabout-yield-left.png",
+    "height": 145,
     "page": 0,
-    "width": 746,
-    "height": 145
+    "src": "/handbook/ontario/roundabout-yield-left.png",
+    "width": 746
   },
   "school-bus-20-metres": {
-    "src": "/handbook/ontario/school-bus-20-metres.png",
+    "height": 235,
     "page": 0,
-    "width": 802,
-    "height": 235
+    "src": "/handbook/ontario/school-bus-20-metres.png",
+    "width": 802
   },
   "school-bus-amber-lights": {
-    "src": "/handbook/ontario/school-bus-amber-lights.png",
+    "height": 145,
     "page": 0,
-    "width": 924,
-    "height": 145
+    "src": "/handbook/ontario/school-bus-amber-lights.png",
+    "width": 924
   },
   "school-bus-any-road": {
-    "src": "/handbook/ontario/school-bus-any-road.png",
+    "height": 198,
     "page": 0,
-    "width": 802,
-    "height": 198
+    "src": "/handbook/ontario/school-bus-any-road.png",
+    "width": 802
   },
   "school-bus-divided-highway-sign": {
-    "src": "/handbook/ontario/school-bus-divided-highway-sign.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/school-bus-divided-highway-sign.png",
+    "width": 802
   },
   "school-bus-loading-zone-sign": {
-    "src": "/handbook/ontario/school-bus-loading-zone-sign.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/school-bus-loading-zone-sign.png",
+    "width": 802
   },
   "school-bus-median": {
-    "src": "/handbook/ontario/school-bus-median.png",
+    "height": 100,
     "page": 0,
-    "width": 802,
-    "height": 100
+    "src": "/handbook/ontario/school-bus-median.png",
+    "width": 802
   },
   "school-bus-penalty": {
-    "src": "/handbook/ontario/school-bus-penalty.png",
+    "height": 147,
     "page": 0,
-    "width": 802,
-    "height": 147
+    "src": "/handbook/ontario/school-bus-penalty.png",
+    "width": 802
   },
   "school-bus-red-lights": {
-    "src": "/handbook/ontario/school-bus-red-lights.png",
+    "height": 193,
     "page": 0,
-    "width": 802,
-    "height": 193
+    "src": "/handbook/ontario/school-bus-red-lights.png",
+    "width": 802
   },
   "school-bus-stop-arm": {
-    "src": "/handbook/ontario/school-bus-stop-arm.png",
+    "height": 235,
     "page": 0,
-    "width": 802,
-    "height": 235
+    "src": "/handbook/ontario/school-bus-stop-arm.png",
+    "width": 802
   },
   "school-crossing-guard": {
-    "src": "/handbook/ontario/school-crossing-guard.png",
+    "height": 236,
     "page": 0,
-    "width": 802,
-    "height": 236
+    "src": "/handbook/ontario/school-crossing-guard.png",
+    "width": 802
   },
   "school-zone-sign": {
-    "src": "/handbook/ontario/school-zone-sign.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/school-zone-sign.png",
+    "width": 802
   },
   "seatbelt-required": {
-    "src": "/handbook/ontario/seatbelt-required.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/seatbelt-required.png",
+    "width": 802
   },
   "seatbelt-under-16": {
-    "src": "/handbook/ontario/seatbelt-under-16.png",
+    "height": 233,
     "page": 0,
-    "width": 802,
-    "height": 233
+    "src": "/handbook/ontario/seatbelt-under-16.png",
+    "width": 802
   },
   "signalling-not-right-of-way": {
-    "src": "/handbook/ontario/signalling-not-right-of-way.png",
+    "height": 110,
     "page": 0,
-    "width": 802,
-    "height": 110
+    "src": "/handbook/ontario/signalling-not-right-of-way.png",
+    "width": 802
   },
   "signs-other-colours": {
-    "src": "/handbook/ontario/signs-other-colours.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/signs-other-colours.png",
+    "width": 802
   },
   "simultaneous-left-turn": {
-    "src": "/handbook/ontario/simultaneous-left-turn.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/simultaneous-left-turn.png",
+    "width": 802
   },
   "skid-causes": {
-    "src": "/handbook/ontario/skid-causes.png",
+    "height": 233,
     "page": 0,
-    "width": 802,
-    "height": 233
+    "src": "/handbook/ontario/skid-causes.png",
+    "width": 802
   },
   "skid-recovery": {
-    "src": "/handbook/ontario/skid-recovery.png",
+    "height": 235,
     "page": 0,
-    "width": 802,
-    "height": 235
+    "src": "/handbook/ontario/skid-recovery.png",
+    "width": 802
   },
   "slow-moving-vehicle-sign": {
-    "src": "/handbook/ontario/slow-moving-vehicle-sign.png",
+    "height": 147,
     "page": 0,
-    "width": 802,
-    "height": 147
+    "src": "/handbook/ontario/slow-moving-vehicle-sign.png",
+    "width": 802
   },
   "snow-plow-no-passing": {
-    "src": "/handbook/ontario/snow-plow-no-passing.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/snow-plow-no-passing.png",
+    "width": 802
   },
   "solid-line-no-passing": {
-    "src": "/handbook/ontario/solid-line-no-passing.png",
+    "height": 110,
     "page": 0,
-    "width": 802,
-    "height": 110
+    "src": "/handbook/ontario/solid-line-no-passing.png",
+    "width": 802
   },
   "speed-limit-conditions": {
-    "src": "/handbook/ontario/speed-limit-conditions.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/speed-limit-conditions.png",
+    "width": 802
   },
   "stop-ahead-sign": {
-    "src": "/handbook/ontario/stop-ahead-sign.png",
+    "height": 72,
     "page": 0,
-    "width": 802,
-    "height": 72
+    "src": "/handbook/ontario/stop-ahead-sign.png",
+    "width": 802
   },
   "stop-line": {
-    "src": "/handbook/ontario/stop-line.png",
+    "height": 100,
     "page": 0,
-    "width": 802,
-    "height": 100
+    "src": "/handbook/ontario/stop-line.png",
+    "width": 802
   },
   "stop-sign": {
     "src": "/handbook/ontario/stop-sign.png",
@@ -774,93 +774,93 @@
     "height": 102
   },
   "stop-sign-position": {
-    "src": "/handbook/ontario/stop-sign-position.png",
+    "height": 137,
     "page": 0,
-    "width": 802,
-    "height": 137
+    "src": "/handbook/ontario/stop-sign-position.png",
+    "width": 802
   },
   "streetcar-two-metres": {
-    "src": "/handbook/ontario/streetcar-two-metres.png",
+    "height": 102,
     "page": 0,
-    "width": 802,
-    "height": 102
+    "src": "/handbook/ontario/streetcar-two-metres.png",
+    "width": 802
   },
   "temporary-condition-signs": {
-    "src": "/handbook/ontario/temporary-condition-signs.png",
+    "height": 243,
     "page": 0,
-    "width": 802,
-    "height": 243
+    "src": "/handbook/ontario/temporary-condition-signs.png",
+    "width": 802
   },
   "transit-priority-signal": {
-    "src": "/handbook/ontario/transit-priority-signal.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/transit-priority-signal.png",
+    "width": 802
   },
   "truck-blind-spots": {
-    "src": "/handbook/ontario/truck-blind-spots.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/truck-blind-spots.png",
+    "width": 802
   },
   "two-way-left-turn-lane": {
-    "src": "/handbook/ontario/two-way-left-turn-lane.png",
+    "height": 189,
     "page": 0,
-    "width": 802,
-    "height": 189
+    "src": "/handbook/ontario/two-way-left-turn-lane.png",
+    "width": 802
   },
   "u-turn-restrictions": {
-    "src": "/handbook/ontario/u-turn-restrictions.png",
+    "height": 287,
     "page": 0,
-    "width": 802,
-    "height": 287
+    "src": "/handbook/ontario/u-turn-restrictions.png",
+    "width": 802
   },
   "uncontrolled-intersection": {
-    "src": "/handbook/ontario/uncontrolled-intersection.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/uncontrolled-intersection.png",
+    "width": 802
   },
   "warn-range-suspension": {
-    "src": "/handbook/ontario/warn-range-suspension.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/warn-range-suspension.png",
+    "width": 802
   },
   "warning-signs": {
-    "src": "/handbook/ontario/warning-signs.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/warning-signs.png",
+    "width": 802
   },
   "whiteout": {
-    "src": "/handbook/ontario/whiteout.png",
+    "height": 200,
     "page": 0,
-    "width": 802,
-    "height": 200
+    "src": "/handbook/ontario/whiteout.png",
+    "width": 802
   },
   "winter-tires": {
-    "src": "/handbook/ontario/winter-tires.png",
+    "height": 200,
     "page": 0,
-    "width": 746,
-    "height": 200
+    "src": "/handbook/ontario/winter-tires.png",
+    "width": 746
   },
   "yellow-light": {
-    "src": "/handbook/ontario/yellow-light.png",
+    "height": 154,
     "page": 0,
-    "width": 802,
-    "height": 154
+    "src": "/handbook/ontario/yellow-light.png",
+    "width": 802
   },
   "yield-sign": {
-    "src": "/handbook/ontario/yield-sign.png",
+    "height": 145,
     "page": 0,
-    "width": 802,
-    "height": 145
+    "src": "/handbook/ontario/yield-sign.png",
+    "width": 802
   },
   "young-driver-zero-bac": {
-    "src": "/handbook/ontario/young-driver-zero-bac.png",
+    "height": 191,
     "page": 0,
-    "width": 802,
-    "height": 191
+    "src": "/handbook/ontario/young-driver-zero-bac.png",
+    "width": 802
   }
 }
