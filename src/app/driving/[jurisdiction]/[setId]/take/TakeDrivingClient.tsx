@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useParams, useRouter } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useParams, useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { getJurisdiction } from "@/lib/driving/jurisdictions";
 import {
   TOPIC_META,
@@ -11,15 +11,22 @@ import {
 } from "@/lib/driving/types";
 import { scoreDrivingSet } from "@/lib/driving/score";
 import { recordAttempt } from "@/lib/driving/progress";
-import { buildWeakSpotSet, recordOutcomes } from "@/lib/driving/adaptive";
+import {
+  buildRetryMissedSet,
+  buildWeakSpotSet,
+  recordOutcomes,
+} from "@/lib/driving/adaptive";
+import { parseShuffleSeed, seedToParam, shuffleDrivingSet } from "@/lib/driving/shuffle";
 import { encodeDrivingResult } from "@/lib/driving/encode";
-import { getExcerpt } from "@/lib/driving/excerpts";
+import { getExcerpt, getSnippet } from "@/lib/driving/excerpts";
 import { questionChallengeText } from "@/lib/driving/share";
 import { shareDrivingText } from "@/components/DrivingShareBlock";
+import { ReportQuestionError } from "@/components/ReportQuestionError";
 import { useSiteOrigin } from "@/lib/use-site-origin";
 
 const LETTERS = ["A", "B", "C", "D", "E", "F"];
 const WEAK_SPOTS_ID = "weak-spots";
+const RETRY_MISSED_ID = "retry-missed";
 
 const CORRECT = "#07ad9c";
 const WRONG = "#f9684d";
@@ -80,8 +87,19 @@ interface Saved {
   index: number;
 }
 
-function storageKey(jurisdictionSlug: string, setId: string): string {
-  return `tq_driving_take_v1:${jurisdictionSlug}:${setId}`;
+/**
+ * Saved answers are keyed by the SHUFFLE too. A shuffled retake is a different
+ * paper - the indexes stored against a question no longer mean the same option
+ * - so resuming one into the other would silently rewrite the learner's
+ * answers. Different seed, different drawer.
+ */
+function storageKey(
+  jurisdictionSlug: string,
+  setId: string,
+  seed: number | null
+): string {
+  const base = `tq_driving_take_v1:${jurisdictionSlug}:${setId}`;
+  return seed === null ? base : `${base}:s${seedToParam(seed)}`;
 }
 
 function loadSaved(key: string): Saved | null {
@@ -102,14 +120,28 @@ function loadSaved(key: string): Saved | null {
   }
 }
 
-export function TakeDrivingClient() {
+function TakeDrivingInner() {
   const params = useParams();
   const router = useRouter();
+  const searchParams = useSearchParams();
   const jurisdictionSlug = typeof params.jurisdiction === "string" ? params.jurisdiction : "";
   const setId = typeof params.setId === "string" ? params.setId : "";
   const jurisdiction = getJurisdiction(jurisdictionSlug);
   const isWeakSpots = setId === WEAK_SPOTS_ID;
+  const isRetryMissed = setId === RETRY_MISSED_ID;
+  const isSynthetic = isWeakSpots || isRetryMissed;
   const staticSet = jurisdiction?.sets.find((s) => s.id === setId);
+
+  // A retake can be randomised: `?shuffle=<seed>` reorders the questions and the
+  // options inside them. No param means the original order, so every existing
+  // link and every first run is untouched.
+  const seed = useMemo(
+    () => parseShuffleSeed(searchParams.get("shuffle")),
+    [searchParams]
+  );
+  // "Retry the ones you missed" carries its question ids in the URL, because
+  // there is nowhere else to put them on a static site.
+  const idsParam = searchParams.get("ids") ?? "";
 
   const [answers, setAnswers] = useState<DrivingAnswerMap>({});
   const [index, setIndex] = useState(0);
@@ -128,20 +160,34 @@ export function TakeDrivingClient() {
       setHydrated(true);
       return;
     }
-    const active = isWeakSpots ? buildWeakSpotSet(jurisdiction) : staticSet ?? null;
-    if (isWeakSpots) setBuiltSet(active);
+
+    let base: DrivingTestSet | null;
+    if (isWeakSpots) {
+      base = buildWeakSpotSet(jurisdiction);
+    } else if (isRetryMissed) {
+      base = buildRetryMissedSet(
+        jurisdiction,
+        idsParam.split(",").filter((id) => id.length > 0)
+      );
+    } else {
+      base = staticSet ?? null;
+    }
+
+    const active = base && seed !== null ? shuffleDrivingSet(base, seed) : base;
+    setBuiltSet(active);
+
     if (active) {
-      const saved = loadSaved(storageKey(jurisdiction.slug, active.id));
+      const saved = loadSaved(storageKey(jurisdiction.slug, active.id, seed));
       if (saved) {
         setAnswers(saved.answers);
         setIndex(saved.index);
       }
     }
     setHydrated(true);
-  }, [jurisdiction, isWeakSpots, staticSet]);
+  }, [jurisdiction, isWeakSpots, isRetryMissed, idsParam, staticSet, seed]);
 
-  const set = isWeakSpots ? builtSet : staticSet ?? null;
-  const key = jurisdiction && set ? storageKey(jurisdiction.slug, set.id) : "";
+  const set = builtSet;
+  const key = jurisdiction && set ? storageKey(jurisdiction.slug, set.id, seed) : "";
 
   useEffect(() => {
     if (!hydrated || !key) return;
@@ -171,21 +217,28 @@ export function TakeDrivingClient() {
       const rightIds = set.questions.map((q) => q.id).filter((id) => !wrong.has(id));
       recordOutcomes(jurisdiction.slug, result.wrongIds, rightIds);
 
-      // The weak-spot drill is rebuilt every time, so it isn't one of the
+      // The synthetic drills are rebuilt every time, so they aren't one of the
       // numbered sets and must not count toward "sets passed".
-      if (set.id !== WEAK_SPOTS_ID) recordAttempt(result);
+      if (set.id !== WEAK_SPOTS_ID && set.id !== RETRY_MISSED_ID) recordAttempt(result);
 
       try {
-        localStorage.removeItem(storageKey(jurisdiction.slug, set.id));
+        if (key) localStorage.removeItem(key);
       } catch {
         /* ignore */
       }
-      const encoded = encodeDrivingResult(result);
-      router.push(
-        `/driving/${jurisdiction.slug}/${set.id}/results/?r=${encodeURIComponent(encoded)}`
-      );
+
+      // The results page rebuilds this paper so the mistake review shows the
+      // letters the learner actually saw. Both halves have to travel with the
+      // score: the seed, and - for the drills, which aren't in the question
+      // banks - the ids of the questions that were on it.
+      const query = new URLSearchParams({ r: encodeDrivingResult(result) });
+      if (seed !== null) query.set("shuffle", seedToParam(seed));
+      if (isSynthetic) {
+        query.set("ids", set.questions.map((q) => q.id).join(","));
+      }
+      router.push(`/driving/${jurisdiction.slug}/${set.id}/results/?${query.toString()}`);
     },
-    [jurisdiction, set, router]
+    [jurisdiction, set, router, key, seed, isSynthetic]
   );
 
   const handleSelect = useCallback(
@@ -243,7 +296,7 @@ export function TakeDrivingClient() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [handleKeyDown]);
 
-  if (!jurisdiction || (!isWeakSpots && !staticSet)) {
+  if (!jurisdiction || (!isSynthetic && !staticSet)) {
     return (
       <div className="test-shell">
         <h1 className="font-display" style={{ fontSize: "1.5rem", marginBottom: 12 }}>
@@ -260,9 +313,15 @@ export function TakeDrivingClient() {
     return (
       <div className="kahoot-shell">
         <section className="kahoot-board">
-          <p className="kahoot-q-label">{isWeakSpots ? "Your weak spots" : staticSet?.title}</p>
+          <p className="kahoot-q-label">
+            {isWeakSpots
+              ? "Your weak spots"
+              : isRetryMissed
+                ? "The ones you missed"
+                : staticSet?.title}
+          </p>
           <p style={{ margin: 0, color: "rgba(255,255,255,0.6)" }}>
-            {isWeakSpots ? "Building your drill…" : "Loading…"}
+            {isSynthetic ? "Building your drill…" : "Loading…"}
           </p>
         </section>
       </div>
@@ -277,8 +336,9 @@ export function TakeDrivingClient() {
           Nothing to drill yet
         </h1>
         <p className="section-lead">
-          Your weak-spot set is built from questions you&apos;ve actually missed. Finish one
-          of the numbered {jurisdiction.name} sets and it will fill itself in.
+          {isRetryMissed
+            ? `This drill is built from the questions you got wrong on a specific attempt, and the link didn't carry any. Finish a ${jurisdiction.name} set and the button will appear on your results.`
+            : `Your weak-spot set is built from questions you've actually missed. Finish one of the numbered ${jurisdiction.name} sets and it will fill itself in.`}
         </p>
         <Link href={`/driving/${jurisdiction.slug}/`} className="btn-primary">
           Pick a {jurisdiction.name} set
@@ -293,6 +353,7 @@ export function TakeDrivingClient() {
   const isCorrect = selected === question.correctIndex;
   // Official wording behind this rule, when we have a verified quote for it.
   const excerpt = getExcerpt(jurisdiction.slug, question.excerptKey);
+  const snippet = getSnippet(jurisdiction.slug, question.excerptKey);
   const isLast = safeIndex + 1 >= total;
   const topic = TOPIC_META[question.topic];
 
@@ -585,6 +646,26 @@ export function TakeDrivingClient() {
                 >
                   &ldquo;{excerpt.quote}&rdquo;
                 </p>
+                {snippet && (
+                  // The passage as it appears in the handbook, highlighted.
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={snippet.src}
+                    alt={`Highlighted passage from ${excerpt.source}, page ${snippet.page}`}
+                    width={snippet.width}
+                    height={snippet.height}
+                    loading="lazy"
+                    style={{
+                      display: "block",
+                      width: "100%",
+                      height: "auto",
+                      marginTop: 10,
+                      borderRadius: 4,
+                      background: "#fff",
+                      border: "1px solid rgba(255,255,255,0.15)",
+                    }}
+                  />
+                )}
                 <cite
                   style={{
                     display: "block",
@@ -596,6 +677,7 @@ export function TakeDrivingClient() {
                 >
                   {excerpt.source}
                   {excerpt.section ? ` - ${excerpt.section}` : ""}
+                  {snippet ? ` (p. ${snippet.page})` : ""}
                 </cite>
               </blockquote>
             )}
@@ -632,6 +714,19 @@ export function TakeDrivingClient() {
               </p>
             )}
 
+            {/* Quiet on purpose. A wrong answer key here could cost someone a
+                real test, so there has to be a way to tell us - but it is not
+                the thing to point at while they're mid-set. */}
+            <div>
+              <ReportQuestionError
+                tone="dark"
+                jurisdictionSlug={jurisdiction.slug}
+                jurisdictionName={jurisdiction.name}
+                setId={set.id}
+                question={question}
+              />
+            </div>
+
             {/* A hard question is the one thing people actually forward - the
                 recipient can answer it in the chat before they ever click. */}
             {(question.commonlyMissed || !isCorrect) && (
@@ -639,10 +734,9 @@ export function TakeDrivingClient() {
                 <button
                   type="button"
                   onClick={async () => {
-                    const url =
-                      set.id === WEAK_SPOTS_ID
-                        ? `${origin}/driving/${jurisdiction.slug}/`
-                        : `${origin}/driving/${jurisdiction.slug}/${set.id}/take/`;
+                    const url = isSynthetic
+                      ? `${origin}/driving/${jurisdiction.slug}/`
+                      : `${origin}/driving/${jurisdiction.slug}/${set.id}/take/`;
                     const outcome = await shareDrivingText(
                       "Try this driving question",
                       questionChallengeText(question, jurisdiction, url)
@@ -709,5 +803,26 @@ export function TakeDrivingClient() {
         </span>
       </footer>
     </div>
+  );
+}
+
+/**
+ * `useSearchParams` needs a Suspense boundary to be prerenderable: the static
+ * export has no query string at build time, so this subtree is emitted as the
+ * fallback and filled in on the client once the real URL is known.
+ */
+export function TakeDrivingClient() {
+  return (
+    <Suspense
+      fallback={
+        <div className="kahoot-shell">
+          <section className="kahoot-board">
+            <p style={{ margin: 0, color: "rgba(255,255,255,0.6)" }}>Loading…</p>
+          </section>
+        </div>
+      }
+    >
+      <TakeDrivingInner />
+    </Suspense>
   );
 }

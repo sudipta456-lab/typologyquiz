@@ -1,0 +1,794 @@
+{
+  "being-passed-two-lane": {
+    "height": 206,
+    "page": 74,
+    "src": "/handbook/alberta/being-passed-two-lane.png",
+    "width": 381
+  },
+  "black-ice": {
+    "height": 182,
+    "page": 84,
+    "src": "/handbook/alberta/black-ice.png",
+    "width": 385
+  },
+  "brake-failure": {
+    "height": 206,
+    "page": 82,
+    "src": "/handbook/alberta/brake-failure.png",
+    "width": 375
+  },
+  "breakdown-avoid-bridge": {
+    "height": 134,
+    "page": 82,
+    "src": "/handbook/alberta/breakdown-avoid-bridge.png",
+    "width": 373
+  },
+  "broken-white-line": {
+    "height": 127,
+    "page": 41,
+    "src": "/handbook/alberta/broken-white-line.png",
+    "width": 366
+  },
+  "child-safety-seat": {
+    "height": 182,
+    "page": 93,
+    "src": "/handbook/alberta/child-safety-seat.png",
+    "width": 385
+  },
+  "collision-reporting": {
+    "height": 134,
+    "page": 86,
+    "src": "/handbook/alberta/collision-reporting.png",
+    "width": 375
+  },
+  "construction-zone-speed": {
+    "height": 230,
+    "page": 39,
+    "src": "/handbook/alberta/construction-zone-speed.png",
+    "width": 384
+  },
+  "cruise-control-poor-conditions": {
+    "height": 214,
+    "page": 85,
+    "src": "/handbook/alberta/cruise-control-poor-conditions.png",
+    "width": 359
+  },
+  "cyclist-change-lanes-to-pass": {
+    "height": 134,
+    "page": 100,
+    "src": "/handbook/alberta/cyclist-change-lanes-to-pass.png",
+    "width": 368
+  },
+  "cyclist-helmet-under-18": {
+    "height": 158,
+    "page": 99,
+    "src": "/handbook/alberta/cyclist-helmet-under-18.png",
+    "width": 385
+  },
+  "demerit-reinstatement-gdl": {
+    "height": 206,
+    "page": 110,
+    "src": "/handbook/alberta/demerit-reinstatement-gdl.png",
+    "width": 375
+  },
+  "demerit-suspension-gdl": {
+    "height": 206,
+    "page": 110,
+    "src": "/handbook/alberta/demerit-suspension-gdl.png",
+    "width": 354
+  },
+  "diamond-lane-marking": {
+    "height": 134,
+    "page": 41,
+    "src": "/handbook/alberta/diamond-lane-marking.png",
+    "width": 375
+  },
+  "distracted-driving-demerits": {
+    "height": 207,
+    "page": 93,
+    "src": "/handbook/alberta/distracted-driving-demerits.png",
+    "width": 380
+  },
+  "emergency-stopping-lane": {
+    "height": 183,
+    "page": 75,
+    "src": "/handbook/alberta/emergency-stopping-lane.png",
+    "width": 383
+  },
+  "emergency-vehicle-following-distance": {
+    "height": 167,
+    "page": 87,
+    "src": "/handbook/alberta/emergency-vehicle-following-distance.png",
+    "width": 336
+  },
+  "emergency-vehicle-one-way": {
+    "height": 135,
+    "page": 87,
+    "src": "/handbook/alberta/emergency-vehicle-one-way.png",
+    "width": 365
+  },
+  "emergency-vehicle-two-way": {
+    "height": 134,
+    "page": 87,
+    "src": "/handbook/alberta/emergency-vehicle-two-way.png",
+    "width": 383
+  },
+  "exiting-driveway-parking-lot": {
+    "height": 134,
+    "page": 62,
+    "src": "/handbook/alberta/exiting-driveway-parking-lot.png",
+    "width": 366
+  },
+  "fatigue-effects": {
+    "height": 158,
+    "page": 109,
+    "src": "/handbook/alberta/fatigue-effects.png",
+    "width": 381
+  },
+  "fatigue-stop-for-rest": {
+    "height": 134,
+    "page": 109,
+    "src": "/handbook/alberta/fatigue-stop-for-rest.png",
+    "width": 365
+  },
+  "flashing-green-light": {
+    "height": 255,
+    "page": 25,
+    "src": "/handbook/alberta/flashing-green-light.png",
+    "width": 375
+  },
+  "flashing-red-light": {
+    "height": 206,
+    "page": 25,
+    "src": "/handbook/alberta/flashing-red-light.png",
+    "width": 379
+  },
+  "flashing-yellow-pedestrian-lights": {
+    "height": 183,
+    "page": 26,
+    "src": "/handbook/alberta/flashing-yellow-pedestrian-lights.png",
+    "width": 379
+  },
+  "following-distance-large-vehicles": {
+    "height": 182,
+    "page": 92,
+    "src": "/handbook/alberta/following-distance-large-vehicles.png",
+    "width": 381
+  },
+  "following-distance-two-seconds": {
+    "height": 206,
+    "page": 92,
+    "src": "/handbook/alberta/following-distance-two-seconds.png",
+    "width": 383
+  },
+  "four-way-stop-courtesy": {
+    "height": 206,
+    "page": 61,
+    "src": "/handbook/alberta/four-way-stop-courtesy.png",
+    "width": 385
+  },
+  "funeral-procession-participant": {
+    "height": 206,
+    "page": 107,
+    "src": "/handbook/alberta/funeral-procession-participant.png",
+    "width": 384
+  },
+  "funeral-procession-yield": {
+    "height": 158,
+    "page": 107,
+    "src": "/handbook/alberta/funeral-procession-yield.png",
+    "width": 386
+  },
+  "gdl-learner-curfew": {
+    "height": 134,
+    "page": 12,
+    "src": "/handbook/alberta/gdl-learner-curfew.png",
+    "width": 353
+  },
+  "gdl-probationary-two-years": {
+    "height": 134,
+    "page": 12,
+    "src": "/handbook/alberta/gdl-probationary-two-years.png",
+    "width": 384
+  },
+  "gdl-supervising-driver": {
+    "height": 110,
+    "page": 12,
+    "src": "/handbook/alberta/gdl-supervising-driver.png",
+    "width": 366
+  },
+  "gdl-training-course-reduction": {
+    "height": 134,
+    "page": 13,
+    "src": "/handbook/alberta/gdl-training-course-reduction.png",
+    "width": 371
+  },
+  "gdl-zero-alcohol": {
+    "height": 110,
+    "page": 12,
+    "src": "/handbook/alberta/gdl-zero-alcohol.png",
+    "width": 368
+  },
+  "green-arrow-red-light": {
+    "height": 206,
+    "page": 25,
+    "src": "/handbook/alberta/green-arrow-red-light.png",
+    "width": 373
+  },
+  "green-light-yield": {
+    "height": 230,
+    "page": 24,
+    "src": "/handbook/alberta/green-light-yield.png",
+    "width": 381
+  },
+  "headlights-150-metres": {
+    "height": 182,
+    "page": 83,
+    "src": "/handbook/alberta/headlights-150-metres.png",
+    "width": 384
+  },
+  "hill-parking-downhill": {
+    "height": 134,
+    "page": 57,
+    "src": "/handbook/alberta/hill-parking-downhill.png",
+    "width": 381
+  },
+  "hill-parking-uphill-curb": {
+    "height": 158,
+    "page": 57,
+    "src": "/handbook/alberta/hill-parking-uphill-curb.png",
+    "width": 377
+  },
+  "hydroplaning": {
+    "height": 159,
+    "page": 85,
+    "src": "/handbook/alberta/hydroplaning.png",
+    "width": 383
+  },
+  "hydroplaning-recovery": {
+    "height": 158,
+    "page": 85,
+    "src": "/handbook/alberta/hydroplaning-recovery.png",
+    "width": 385
+  },
+  "irs-fail-first-suspension": {
+    "height": 186,
+    "page": 115,
+    "src": "/handbook/alberta/irs-fail-first-suspension.png",
+    "width": 372
+  },
+  "irs-warn-first-occurrence": {
+    "height": 183,
+    "page": 114,
+    "src": "/handbook/alberta/irs-warn-first-occurrence.png",
+    "width": 369
+  },
+  "irs-warn-threshold": {
+    "height": 255,
+    "page": 114,
+    "src": "/handbook/alberta/irs-warn-threshold.png",
+    "width": 377
+  },
+  "irs-zero-novice": {
+    "height": 231,
+    "page": 114,
+    "src": "/handbook/alberta/irs-zero-novice.png",
+    "width": 373
+  },
+  "irs-zero-novice-penalties": {
+    "height": 159,
+    "page": 114,
+    "src": "/handbook/alberta/irs-zero-novice-penalties.png",
+    "width": 719
+  },
+  "keep-intersection-clear": {
+    "height": 240,
+    "page": 62,
+    "src": "/handbook/alberta/keep-intersection-clear.png",
+    "width": 375
+  },
+  "large-vehicle-right-turn": {
+    "height": 182,
+    "page": 101,
+    "src": "/handbook/alberta/large-vehicle-right-turn.png",
+    "width": 371
+  },
+  "left-turn-on-red-one-way": {
+    "height": 176,
+    "page": 24,
+    "src": "/handbook/alberta/left-turn-on-red-one-way.png",
+    "width": 379
+  },
+  "left-turn-waiting-position": {
+    "height": 206,
+    "page": 67,
+    "src": "/handbook/alberta/left-turn-waiting-position.png",
+    "width": 384
+  },
+  "load-extends-red-flag": {
+    "height": 231,
+    "page": 97,
+    "src": "/handbook/alberta/load-extends-red-flag.png",
+    "width": 346
+  },
+  "log-hauling-truck": {
+    "height": 206,
+    "page": 102,
+    "src": "/handbook/alberta/log-hauling-truck.png",
+    "width": 376
+  },
+  "low-beams-300-metres": {
+    "height": 107,
+    "page": 84,
+    "src": "/handbook/alberta/low-beams-300-metres.png",
+    "width": 625
+  },
+  "medications": {
+    "height": 206,
+    "page": 109,
+    "src": "/handbook/alberta/medications.png",
+    "width": 379
+  },
+  "merging-shared-responsibility": {
+    "height": 230,
+    "page": 75,
+    "src": "/handbook/alberta/merging-shared-responsibility.png",
+    "width": 383
+  },
+  "mirror-check-interval": {
+    "height": 158,
+    "page": 91,
+    "src": "/handbook/alberta/mirror-check-interval.png",
+    "width": 384
+  },
+  "missed-turn-continue": {
+    "height": 207,
+    "page": 92,
+    "src": "/handbook/alberta/missed-turn-continue.png",
+    "width": 383
+  },
+  "motorcycle-lane-position": {
+    "height": 158,
+    "page": 100,
+    "src": "/handbook/alberta/motorcycle-lane-position.png",
+    "width": 370
+  },
+  "move-over-60": {
+    "height": 230,
+    "page": 87,
+    "src": "/handbook/alberta/move-over-60.png",
+    "width": 385
+  },
+  "no-passing-stopped-for-pedestrian": {
+    "height": 182,
+    "page": 62,
+    "src": "/handbook/alberta/no-passing-stopped-for-pedestrian.png",
+    "width": 378
+  },
+  "painted-island": {
+    "height": 230,
+    "page": 42,
+    "src": "/handbook/alberta/painted-island.png",
+    "width": 371
+  },
+  "parking-fire-hydrant": {
+    "height": 127,
+    "page": 58,
+    "src": "/handbook/alberta/parking-fire-hydrant.png",
+    "width": 334
+  },
+  "parking-outside-urban-area": {
+    "height": 110,
+    "page": 58,
+    "src": "/handbook/alberta/parking-outside-urban-area.png",
+    "width": 351
+  },
+  "parking-stop-yield-sign": {
+    "height": 147,
+    "page": 57,
+    "src": "/handbook/alberta/parking-stop-yield-sign.png",
+    "width": 204
+  },
+  "passing-no-speeding": {
+    "height": 135,
+    "page": 74,
+    "src": "/handbook/alberta/passing-no-speeding.png",
+    "width": 356
+  },
+  "pedestrian-indicates-crossing": {
+    "height": 182,
+    "page": 99,
+    "src": "/handbook/alberta/pedestrian-indicates-crossing.png",
+    "width": 382
+  },
+  "pedestrian-stop-back": {
+    "height": 206,
+    "page": 99,
+    "src": "/handbook/alberta/pedestrian-stop-back.png",
+    "width": 378
+  },
+  "perception-time": {
+    "height": 182,
+    "page": 51,
+    "src": "/handbook/alberta/perception-time.png",
+    "width": 381
+  },
+  "playground-zone-hours": {
+    "height": 134,
+    "page": 33,
+    "src": "/handbook/alberta/playground-zone-hours.png",
+    "width": 355
+  },
+  "playground-zone-speed-30": {
+    "height": 183,
+    "page": 33,
+    "src": "/handbook/alberta/playground-zone-speed-30.png",
+    "width": 354
+  },
+  "produce-licence-on-request": {
+    "height": 206,
+    "page": 17,
+    "src": "/handbook/alberta/produce-licence-on-request.png",
+    "width": 385
+  },
+  "railway-advance-warning-speed": {
+    "height": 278,
+    "page": 105,
+    "src": "/handbook/alberta/railway-advance-warning-speed.png",
+    "width": 253
+  },
+  "railway-crossbuck-stop-when": {
+    "height": 231,
+    "page": 105,
+    "src": "/handbook/alberta/railway-crossbuck-stop-when.png",
+    "width": 386
+  },
+  "railway-crossbuck-yield": {
+    "height": 255,
+    "page": 105,
+    "src": "/handbook/alberta/railway-crossbuck-yield.png",
+    "width": 386
+  },
+  "railway-stalled-vehicle": {
+    "height": 182,
+    "page": 106,
+    "src": "/handbook/alberta/railway-stalled-vehicle.png",
+    "width": 374
+  },
+  "railway-stop-sign-distance": {
+    "height": 254,
+    "page": 105,
+    "src": "/handbook/alberta/railway-stop-sign-distance.png",
+    "width": 247
+  },
+  "red-light-stop": {
+    "height": 254,
+    "page": 24,
+    "src": "/handbook/alberta/red-light-stop.png",
+    "width": 386
+  },
+  "reflective-triangles": {
+    "height": 230,
+    "page": 82,
+    "src": "/handbook/alberta/reflective-triangles.png",
+    "width": 379
+  },
+  "reversing-out-of-driveway": {
+    "height": 182,
+    "page": 53,
+    "src": "/handbook/alberta/reversing-out-of-driveway.png",
+    "width": 381
+  },
+  "riding-in-truck-box": {
+    "height": 182,
+    "page": 97,
+    "src": "/handbook/alberta/riding-in-truck-box.png",
+    "width": 365
+  },
+  "right-of-way-still-responsible": {
+    "height": 110,
+    "page": 60,
+    "src": "/handbook/alberta/right-of-way-still-responsible.png",
+    "width": 370
+  },
+  "right-turn-on-red": {
+    "height": 207,
+    "page": 24,
+    "src": "/handbook/alberta/right-turn-on-red.png",
+    "width": 383
+  },
+  "roundabout-inside-lane-priority": {
+    "height": 134,
+    "page": 64,
+    "src": "/handbook/alberta/roundabout-inside-lane-priority.png",
+    "width": 372
+  },
+  "roundabout-lane-choice": {
+    "height": 159,
+    "page": 64,
+    "src": "/handbook/alberta/roundabout-lane-choice.png",
+    "width": 377
+  },
+  "roundabout-yield-on-entry": {
+    "height": 206,
+    "page": 63,
+    "src": "/handbook/alberta/roundabout-yield-on-entry.png",
+    "width": 383
+  },
+  "school-area-no-speed-sign": {
+    "height": 254,
+    "page": 33,
+    "src": "/handbook/alberta/school-area-no-speed-sign.png",
+    "width": 377
+  },
+  "school-bus-amber-lights": {
+    "height": 278,
+    "page": 103,
+    "src": "/handbook/alberta/school-bus-amber-lights.png",
+    "width": 380
+  },
+  "school-bus-divided-highway": {
+    "height": 182,
+    "page": 104,
+    "src": "/handbook/alberta/school-bus-divided-highway.png",
+    "width": 379
+  },
+  "school-bus-red-lights-20-metres": {
+    "height": 182,
+    "page": 103,
+    "src": "/handbook/alberta/school-bus-red-lights-20-metres.png",
+    "width": 380
+  },
+  "school-zone-speed-30": {
+    "height": 158,
+    "page": 33,
+    "src": "/handbook/alberta/school-zone-speed-30.png",
+    "width": 348
+  },
+  "seat-belt-driver-responsible": {
+    "height": 182,
+    "page": 93,
+    "src": "/handbook/alberta/seat-belt-driver-responsible.png",
+    "width": 372
+  },
+  "sign-advisory-curve-speed": {
+    "height": 147,
+    "page": 35,
+    "src": "/handbook/alberta/sign-advisory-curve-speed.png",
+    "width": 253
+  },
+  "sign-chevron": {
+    "height": 126,
+    "page": 37,
+    "src": "/handbook/alberta/sign-chevron.png",
+    "width": 266
+  },
+  "sign-construction-orange": {
+    "height": 136,
+    "page": 27,
+    "src": "/handbook/alberta/sign-construction-orange.png",
+    "width": 293
+  },
+  "sign-guide-green": {
+    "height": 128,
+    "page": 28,
+    "src": "/handbook/alberta/sign-guide-green.png",
+    "width": 311
+  },
+  "sign-no-u-turn": {
+    "height": 127,
+    "page": 69,
+    "src": "/handbook/alberta/sign-no-u-turn.png",
+    "width": 223
+  },
+  "sign-permissive-green-circle": {
+    "height": 158,
+    "page": 31,
+    "src": "/handbook/alberta/sign-permissive-green-circle.png",
+    "width": 345
+  },
+  "sign-prohibitive-red-circle": {
+    "height": 182,
+    "page": 31,
+    "src": "/handbook/alberta/sign-prohibitive-red-circle.png",
+    "width": 376
+  },
+  "sign-regulatory-white": {
+    "height": 135,
+    "page": 27,
+    "src": "/handbook/alberta/sign-regulatory-white.png",
+    "width": 314
+  },
+  "sign-school-pentagon": {
+    "height": 110,
+    "page": 27,
+    "src": "/handbook/alberta/sign-school-pentagon.png",
+    "width": 293
+  },
+  "sign-service-blue": {
+    "height": 134,
+    "page": 28,
+    "src": "/handbook/alberta/sign-service-blue.png",
+    "width": 385
+  },
+  "sign-shared-lane-sharrow": {
+    "height": 158,
+    "page": 42,
+    "src": "/handbook/alberta/sign-shared-lane-sharrow.png",
+    "width": 376
+  },
+  "sign-slow-moving-vehicle": {
+    "height": 231,
+    "page": 39,
+    "src": "/handbook/alberta/sign-slow-moving-vehicle.png",
+    "width": 378
+  },
+  "sign-warning-yellow-diamond": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/alberta/sign-warning-yellow-diamond.png",
+    "width": 328
+  },
+  "signal-required": {
+    "height": 110,
+    "page": 51,
+    "src": "/handbook/alberta/signal-required.png",
+    "width": 344
+  },
+  "single-solid-yellow-urban": {
+    "height": 166,
+    "page": 40,
+    "src": "/handbook/alberta/single-solid-yellow-urban.png",
+    "width": 365
+  },
+  "skid-recovery": {
+    "height": 182,
+    "page": 80,
+    "src": "/handbook/alberta/skid-recovery.png",
+    "width": 383
+  },
+  "snowplow-lights": {
+    "height": 158,
+    "page": 104,
+    "src": "/handbook/alberta/snowplow-lights.png",
+    "width": 366
+  },
+  "solid-and-broken-yellow": {
+    "height": 207,
+    "page": 40,
+    "src": "/handbook/alberta/solid-and-broken-yellow.png",
+    "width": 367
+  },
+  "solid-white-line": {
+    "height": 127,
+    "page": 41,
+    "src": "/handbook/alberta/solid-white-line.png",
+    "width": 353
+  },
+  "speed-highway-100": {
+    "height": 163,
+    "page": 29,
+    "src": "/handbook/alberta/speed-highway-100.png",
+    "width": 361
+  },
+  "speed-highway-in-city-80": {
+    "height": 162,
+    "page": 29,
+    "src": "/handbook/alberta/speed-highway-in-city-80.png",
+    "width": 361
+  },
+  "speed-limits-ideal-conditions": {
+    "height": 182,
+    "page": 29,
+    "src": "/handbook/alberta/speed-limits-ideal-conditions.png",
+    "width": 371
+  },
+  "speed-rural-road-80": {
+    "height": 162,
+    "page": 29,
+    "src": "/handbook/alberta/speed-rural-road-80.png",
+    "width": 338
+  },
+  "speed-urban-50": {
+    "height": 184,
+    "page": 29,
+    "src": "/handbook/alberta/speed-urban-50.png",
+    "width": 386
+  },
+  "stop-no-line-three-metres": {
+    "height": 147,
+    "page": 61,
+    "src": "/handbook/alberta/stop-no-line-three-metres.png",
+    "width": 362
+  },
+  "stop-sign-complete-stop": {
+    "height": 254,
+    "page": 60,
+    "src": "/handbook/alberta/stop-sign-complete-stop.png",
+    "width": 378
+  },
+  "stopping-distance-three-factors": {
+    "height": 134,
+    "page": 51,
+    "src": "/handbook/alberta/stopping-distance-three-factors.png",
+    "width": 375
+  },
+  "stranded-stay-with-vehicle": {
+    "height": 183,
+    "page": 85,
+    "src": "/handbook/alberta/stranded-stay-with-vehicle.png",
+    "width": 385
+  },
+  "tire-failure": {
+    "height": 111,
+    "page": 83,
+    "src": "/handbook/alberta/tire-failure.png",
+    "width": 358
+  },
+  "turning-lane-15-metres": {
+    "height": 159,
+    "page": 65,
+    "src": "/handbook/alberta/turning-lane-15-metres.png",
+    "width": 373
+  },
+  "two-way-left-turn-lane": {
+    "height": 182,
+    "page": 69,
+    "src": "/handbook/alberta/two-way-left-turn-lane.png",
+    "width": 385
+  },
+  "u-turn-rural": {
+    "height": 110,
+    "page": 69,
+    "src": "/handbook/alberta/u-turn-rural.png",
+    "width": 363
+  },
+  "u-turn-traffic-signal": {
+    "height": 134,
+    "page": 69,
+    "src": "/handbook/alberta/u-turn-traffic-signal.png",
+    "width": 379
+  },
+  "uncontrolled-intersection-yield-right": {
+    "height": 183,
+    "page": 61,
+    "src": "/handbook/alberta/uncontrolled-intersection-yield-right.png",
+    "width": 383
+  },
+  "uncontrolled-t-intersection": {
+    "height": 182,
+    "page": 62,
+    "src": "/handbook/alberta/uncontrolled-t-intersection.png",
+    "width": 369
+  },
+  "visual-lead-urban": {
+    "height": 182,
+    "page": 91,
+    "src": "/handbook/alberta/visual-lead-urban.png",
+    "width": 381
+  },
+  "yellow-light": {
+    "height": 278,
+    "page": 24,
+    "src": "/handbook/alberta/yellow-light.png",
+    "width": 373
+  },
+  "yellow-line-markings": {
+    "height": 183,
+    "page": 40,
+    "src": "/handbook/alberta/yellow-line-markings.png",
+    "width": 370
+  },
+  "yield-sign-meaning": {
+    "height": 278,
+    "page": 61,
+    "src": "/handbook/alberta/yield-sign-meaning.png",
+    "width": 387
+  },
+  "yield-sign-no-stop-required": {
+    "height": 183,
+    "page": 61,
+    "src": "/handbook/alberta/yield-sign-no-stop-required.png",
+    "width": 376
+  }
+}

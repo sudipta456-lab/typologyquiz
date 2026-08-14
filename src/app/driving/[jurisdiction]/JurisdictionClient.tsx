@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState, type CSSProperties } from "react";
 import { getJurisdiction } from "@/lib/driving/jurisdictions";
 import { DIFFICULTY_META } from "@/lib/driving/types";
@@ -13,6 +13,7 @@ import {
   missCount,
   type Readiness,
 } from "@/lib/driving/adaptive";
+import { newShuffleSeed, seedToParam } from "@/lib/driving/shuffle";
 import { DrivingDisclaimer } from "@/components/DrivingDisclaimer";
 import { DrivingReminderCard } from "@/components/DrivingReminderCard";
 import { InstallHint } from "@/components/InstallHint";
@@ -43,6 +44,7 @@ const listStyle: CSSProperties = {
 
 export function JurisdictionClient() {
   const params = useParams();
+  const router = useRouter();
   const slug = typeof params.jurisdiction === "string" ? params.jurisdiction : "";
   const jurisdiction = getJurisdiction(slug);
 
@@ -488,14 +490,22 @@ export function JurisdictionClient() {
       </p>
 
       <div className="card-grid" style={{ gridTemplateColumns: "1fr" }}>
-        {sets.map((set) => {
+        {sets.map((set, i) => {
           const diff = DIFFICULTY_META[set.difficulty];
           const attempt = attempts?.[set.id];
           return (
-            <Link
+            <div
               key={set.id}
+              style={{
+                borderBottom:
+                  i === sets.length - 1 ? "none" : "1px solid var(--line)",
+                background: "var(--white)",
+              }}
+            >
+            <Link
               href={`/driving/${jurisdiction.slug}/${set.id}/take/`}
               className="quiz-card"
+              style={{ borderRight: "none" }}
             >
               <div className="quiz-card-top">
                 <div className="quiz-emoji" aria-hidden="true">
@@ -542,6 +552,43 @@ export function JurisdictionClient() {
                 {attempt ? ` · best ${attempt.bestCorrect}/${attempt.total}` : ""}
               </p>
             </Link>
+
+            {/* Sits outside the card link on purpose - a button nested inside an
+                anchor is invalid, and this is a second destination, not a second
+                way to open the same one. The seed is minted in the click so the
+                prerendered HTML has no clock-dependent href in it. */}
+            <div
+              style={{
+                padding: "0 1.25rem 1rem",
+                display: "flex",
+                justifyContent: "flex-end",
+              }}
+            >
+              <button
+                type="button"
+                onClick={() => {
+                  const fresh = seedToParam(newShuffleSeed());
+                  router.push(
+                    `/driving/${jurisdiction.slug}/${set.id}/take/?shuffle=${fresh}`
+                  );
+                }}
+                style={{
+                  minHeight: 40,
+                  padding: "0.4rem 0.75rem",
+                  border: "1px solid var(--line)",
+                  borderRadius: "var(--radius)",
+                  background: "transparent",
+                  color: "var(--ink-mute)",
+                  fontFamily: "var(--font-mono)",
+                  fontSize: "0.72rem",
+                  fontWeight: 600,
+                  cursor: "pointer",
+                }}
+              >
+                Randomise &amp; retake →
+              </button>
+            </div>
+            </div>
           );
         })}
       </div>

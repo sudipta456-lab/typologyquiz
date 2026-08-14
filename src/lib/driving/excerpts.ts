@@ -41,3 +41,35 @@ export function excerptsFor(jurisdictionSlug: string): HandbookExcerpt[] {
 export function excerptCount(): number {
   return Object.values(BY_JURISDICTION).reduce((n, l) => n + l.length, 0);
 }
+
+// --- Handbook snippet images -------------------------------------------
+//
+// Rendered by scripts/build-excerpt-snippets.py: the excerpt's own quote is
+// located in the official PDF, highlighted, and cropped tight to the passage.
+// Keyed by excerpt key. Missing entries just mean we could not locate that
+// quote in the PDF (usually because it came from a web page instead), and the
+// UI falls back to the text quote alone.
+import albertaSnippets from "./alberta/snippets.json";
+import texasSnippets from "./texas/snippets.json";
+import californiaSnippets from "./california/snippets.json";
+
+export interface HandbookSnippet {
+  src: string;
+  page: number;
+  width: number;
+  height: number;
+}
+
+const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
+  alberta: albertaSnippets as Record<string, HandbookSnippet>,
+  texas: texasSnippets as Record<string, HandbookSnippet>,
+  california: californiaSnippets as Record<string, HandbookSnippet>,
+};
+
+export function getSnippet(
+  jurisdictionSlug: string,
+  key: string | undefined
+): HandbookSnippet | undefined {
+  if (!key) return undefined;
+  return SNIPPETS[jurisdictionSlug]?.[key];
+}

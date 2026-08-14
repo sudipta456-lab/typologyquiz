@@ -1,19 +1,33 @@
 "use client";
 
 import Link from "next/link";
-import { useParams, useSearchParams } from "next/navigation";
+import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, type CSSProperties } from "react";
 import { getJurisdiction } from "@/lib/driving/jurisdictions";
-import { TOPIC_META, type DrivingQuestion, type DrivingTopic } from "@/lib/driving/types";
+import {
+  TOPIC_META,
+  type DrivingQuestion,
+  type DrivingTestSet,
+  type DrivingTopic,
+} from "@/lib/driving/types";
 import { neededToPass, weakestTopics } from "@/lib/driving/score";
 import { decodeDrivingResult } from "@/lib/driving/encode";
+import { buildRetryMissedSet } from "@/lib/driving/adaptive";
+import {
+  newShuffleSeed,
+  parseShuffleSeed,
+  seedToParam,
+  shuffleDrivingSet,
+} from "@/lib/driving/shuffle";
 import { DrivingDisclaimer } from "@/components/DrivingDisclaimer";
 import { DrivingShareBlock } from "@/components/DrivingShareBlock";
+import { ReportQuestionError } from "@/components/ReportQuestionError";
 
 const PASS = "#07ad9c";
 const FAIL = "#f9684d";
 const LETTERS = ["A", "B", "C", "D", "E", "F"];
 const WEAK_SPOTS_ID = "weak-spots";
+const RETRY_MISSED_ID = "retry-missed";
 
 const sectionHeading: CSSProperties = {
   fontFamily: "var(--font-display)",
@@ -32,17 +46,44 @@ function topicLabel(topic: string): string {
 
 function ResultsContent() {
   const params = useParams();
+  const router = useRouter();
   const searchParams = useSearchParams();
   const jurisdictionSlug = typeof params.jurisdiction === "string" ? params.jurisdiction : "";
   const setId = typeof params.setId === "string" ? params.setId : "";
   const encoded = searchParams.get("r");
+  const seed = parseShuffleSeed(searchParams.get("shuffle"));
+  const idsParam = searchParams.get("ids") ?? "";
 
   const jurisdiction = getJurisdiction(jurisdictionSlug);
   const isWeakSpots = setId === WEAK_SPOTS_ID;
+  const isRetryMissed = setId === RETRY_MISSED_ID;
+  const isSynthetic = isWeakSpots || isRetryMissed;
   const set = jurisdiction?.sets.find((s) => s.id === setId);
   const result = useMemo(() => (encoded ? decodeDrivingResult(encoded) : null), [encoded]);
 
-  if (!jurisdiction || (!set && !isWeakSpots)) {
+  /**
+   * The paper as the learner actually saw it. A shuffled attempt reorders the
+   * options, so rebuilding it from the same seed is what keeps the letter shown
+   * against the right answer below matching the one that was on their screen.
+   *
+   * The drills aren't in the question banks, so they arrive as a list of ids in
+   * the URL. Their question ORDER is lost that way, which doesn't matter: only
+   * the per-question option order is read below, and that is derived from the
+   * seed and the question's own id, not from where it sat on the paper.
+   */
+  const attemptSet: DrivingTestSet | null = (() => {
+    if (!jurisdiction) return null;
+    const base = isSynthetic
+      ? buildRetryMissedSet(
+          jurisdiction,
+          idsParam.split(",").filter((id) => id.length > 0)
+        )
+      : (jurisdiction.sets.find((s) => s.id === setId) ?? null);
+    if (!base) return null;
+    return seed !== null ? shuffleDrivingSet(base, seed) : base;
+  })();
+
+  if (!jurisdiction || (!set && !isSynthetic)) {
     return (
       <div className="test-shell">
         <h1 className="font-display" style={{ fontSize: "1.5rem", marginBottom: 12 }}>
@@ -55,7 +96,17 @@ function ResultsContent() {
     );
   }
 
-  const setTitle = set ? set.title : "Your weak spots";
+  const setTitle = set
+    ? set.title
+    : isRetryMissed
+      ? "The ones you missed"
+      : "Your weak spots";
+
+  // Retaking this exact paper: the drill's question ids and the shuffle seed
+  // both have to survive, because there is no server holding either of them.
+  const takePath = isRetryMissed
+    ? `/driving/${jurisdiction.slug}/${RETRY_MISSED_ID}/take/?ids=${encodeURIComponent(idsParam)}`
+    : `/driving/${jurisdiction.slug}/${setId}/take/`;
 
   if (!encoded || !result) {
     return (
@@ -64,7 +115,7 @@ function ResultsContent() {
           Results not found
         </h1>
         <p className="section-lead">Take the set first and your score will appear here.</p>
-        <Link href={`/driving/${jurisdiction.slug}/${setId}/take/`} className="btn-primary">
+        <Link href={takePath} className="btn-primary">
           Start {setTitle}
         </Link>
       </div>
@@ -80,6 +131,11 @@ function ResultsContent() {
   const byId = new Map<string, DrivingQuestion>(
     jurisdiction.sets.flatMap((s) => s.questions.map((q): [string, DrivingQuestion] => [q.id, q]))
   );
+  // Where we can reconstruct the attempt, prefer its version of each question -
+  // same content, but the option order (and so the letter) the learner saw.
+  if (attemptSet) {
+    for (const q of attemptSet.questions) byId.set(q.id, q);
+  }
   const missed = result.wrongIds
     .map((id) => byId.get(id))
     .filter((q): q is DrivingQuestion => q !== undefined);
@@ -567,6 +623,15 @@ function ResultsContent() {
                     {q.sourceLabel}
                   </p>
                 ) : null}
+
+                <div>
+                  <ReportQuestionError
+                    jurisdictionSlug={jurisdiction.slug}
+                    jurisdictionName={jurisdiction.name}
+                    setId={setId}
+                    question={q}
+                  />
+                </div>
               </div>
             ))}
           </div>
@@ -588,14 +653,41 @@ function ResultsContent() {
               Rebuild my weak spots
             </Link>
           ) : (
-            <Link
-              href={`/driving/${jurisdiction.slug}/${setId}/take/`}
-              className="btn-primary"
-              style={{ width: "100%" }}
-            >
+            <Link href={takePath} className="btn-primary" style={{ width: "100%" }}>
               Retake {setTitle}
             </Link>
           )}
+
+          {/* A second run in the same order teaches position, not rules. The seed
+              is minted here, in the click - deriving it during render would give
+              the prerendered HTML and the hydrated page two different links. */}
+          <button
+            type="button"
+            onClick={() => {
+              const fresh = seedToParam(newShuffleSeed());
+              const joiner = takePath.includes("?") ? "&" : "?";
+              router.push(`${takePath}${joiner}shuffle=${fresh}`);
+            }}
+            className="btn-outline"
+            style={{ width: "100%", cursor: "pointer", font: "inherit", fontWeight: 600 }}
+          >
+            Randomise &amp; retake →
+          </button>
+
+          {/* This attempt's misses only. The all-time weak-spot drill is a
+              different, larger promise and has its own button below. */}
+          {result.wrongIds.length > 0 && (
+            <Link
+              href={`/driving/${jurisdiction.slug}/${RETRY_MISSED_ID}/take/?ids=${encodeURIComponent(
+                result.wrongIds.join(",")
+              )}`}
+              className="btn-outline"
+              style={{ width: "100%" }}
+            >
+              Retry the {result.wrongIds.length} you missed →
+            </Link>
+          )}
+
           {!isWeakSpots && (
             <Link
               href={`/driving/${jurisdiction.slug}/${WEAK_SPOTS_ID}/take/`}
@@ -632,7 +724,13 @@ function ResultsContent() {
           total={result.total}
           passed={result.passed}
           hardestQuestion={hardestQuestion}
-          setPath={`/driving/${jurisdiction.slug}/${setId}/take/`}
+          // A shared "retry-missed" link would carry someone else's misses, so
+          // that one points at the jurisdiction's sets instead.
+          setPath={
+            isRetryMissed
+              ? `/driving/${jurisdiction.slug}/`
+              : `/driving/${jurisdiction.slug}/${setId}/take/`
+          }
         />
       </div>
 

@@ -3,14 +3,16 @@ import { JURISDICTIONS, getSet } from "@/lib/driving/jurisdictions";
 import { TakeDrivingClient } from "./TakeDrivingClient";
 
 /**
- * "weak-spots" is a synthetic set built in the browser from what the learner
- * has missed, so it has no entry in the question banks - but the static export
+ * "weak-spots" and "retry-missed" are synthetic sets built in the browser - one
+ * from everything the learner has ever missed, one from the misses on a single
+ * attempt - so neither has an entry in the question banks. The static export
  * still needs the route file to exist for every jurisdiction.
  */
 export function generateStaticParams() {
   return JURISDICTIONS.flatMap((j) => [
     ...j.sets.map((set) => ({ jurisdiction: j.slug, setId: set.id })),
     { jurisdiction: j.slug, setId: "weak-spots" },
+    { jurisdiction: j.slug, setId: "retry-missed" },
   ]);
 }
 
@@ -28,6 +30,13 @@ export async function generateMetadata({
       return {
         title: `Your weak spots · ${j.name} driving practice`,
         description: `A drill rebuilt from the ${j.name} questions you've actually missed, plus the topics they came from.`,
+        robots: { index: false, follow: true },
+      };
+    }
+    if (j && setId === "retry-missed") {
+      return {
+        title: `The ones you missed · ${j.name} driving practice`,
+        description: `Retake just the ${j.name} questions you got wrong on your last attempt.`,
         robots: { index: false, follow: true },
       };
     }

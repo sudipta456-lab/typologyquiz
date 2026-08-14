@@ -1,0 +1,692 @@
+{
+  "bac-21-and-over": {
+    "height": 117,
+    "page": 79,
+    "src": "/handbook/california/bac-21-and-over.png",
+    "width": 705
+  },
+  "bac-commercial": {
+    "height": 144,
+    "page": 79,
+    "src": "/handbook/california/bac-commercial.png",
+    "width": 705
+  },
+  "bac-dui-probation": {
+    "height": 117,
+    "page": 79,
+    "src": "/handbook/california/bac-dui-probation.png",
+    "width": 705
+  },
+  "bac-under-21": {
+    "height": 117,
+    "page": 79,
+    "src": "/handbook/california/bac-under-21.png",
+    "width": 705
+  },
+  "basic-speed-law": {
+    "height": 144,
+    "page": 73,
+    "src": "/handbook/california/basic-speed-law.png",
+    "width": 706
+  },
+  "bicycle-3-feet": {
+    "height": 198,
+    "page": 54,
+    "src": "/handbook/california/bicycle-3-feet.png",
+    "width": 703
+  },
+  "bike-lane-200-feet": {
+    "height": 117,
+    "page": 54,
+    "src": "/handbook/california/bike-lane-200-feet.png",
+    "width": 703
+  },
+  "carbon-monoxide": {
+    "height": 171,
+    "page": 77,
+    "src": "/handbook/california/carbon-monoxide.png",
+    "width": 692
+  },
+  "cell-phone-handheld": {
+    "height": 144,
+    "page": 76,
+    "src": "/handbook/california/cell-phone-handheld.png",
+    "width": 707
+  },
+  "center-left-turn-lane": {
+    "height": 171,
+    "page": 22,
+    "src": "/handbook/california/center-left-turn-lane.png",
+    "width": 687
+  },
+  "chemical-test-refusal": {
+    "height": 198,
+    "page": 78,
+    "src": "/handbook/california/chemical-test-refusal.png",
+    "width": 706
+  },
+  "child-restraint": {
+    "height": 171,
+    "page": 72,
+    "src": "/handbook/california/child-restraint.png",
+    "width": 702
+  },
+  "collision-parked-car": {
+    "height": 171,
+    "page": 83,
+    "src": "/handbook/california/collision-parked-car.png",
+    "width": 676
+  },
+  "collision-report-sr1": {
+    "height": 198,
+    "page": 84,
+    "src": "/handbook/california/collision-report-sr1.png",
+    "width": 695
+  },
+  "crosswalk-no-passing": {
+    "height": 144,
+    "page": 47,
+    "src": "/handbook/california/crosswalk-no-passing.png",
+    "width": 709
+  },
+  "crosswalk-row": {
+    "height": 171,
+    "page": 47,
+    "src": "/handbook/california/crosswalk-row.png",
+    "width": 695
+  },
+  "curb-blue": {
+    "height": 171,
+    "page": 34,
+    "src": "/handbook/california/curb-blue.png",
+    "width": 700
+  },
+  "curb-green": {
+    "height": 171,
+    "page": 34,
+    "src": "/handbook/california/curb-green.png",
+    "width": 700
+  },
+  "curb-red": {
+    "height": 144,
+    "page": 34,
+    "src": "/handbook/california/curb-red.png",
+    "width": 700
+  },
+  "curb-white": {
+    "height": 144,
+    "page": 34,
+    "src": "/handbook/california/curb-white.png",
+    "width": 700
+  },
+  "curb-yellow": {
+    "height": 171,
+    "page": 34,
+    "src": "/handbook/california/curb-yellow.png",
+    "width": 700
+  },
+  "drugs-prescription": {
+    "height": 171,
+    "page": 78,
+    "src": "/handbook/california/drugs-prescription.png",
+    "width": 706
+  },
+  "dui-hearing-10-days": {
+    "height": 144,
+    "page": 80,
+    "src": "/handbook/california/dui-hearing-10-days.png",
+    "width": 700
+  },
+  "dui-record-10-years": {
+    "height": 117,
+    "page": 80,
+    "src": "/handbook/california/dui-record-10-years.png",
+    "width": 698
+  },
+  "emergency-vehicle-300-feet": {
+    "height": 171,
+    "page": 51,
+    "src": "/handbook/california/emergency-vehicle-300-feet.png",
+    "width": 705
+  },
+  "emergency-vehicle-yield": {
+    "height": 225,
+    "page": 51,
+    "src": "/handbook/california/emergency-vehicle-yield.png",
+    "width": 705
+  },
+  "exit-vehicle-check": {
+    "height": 144,
+    "page": 32,
+    "src": "/handbook/california/exit-vehicle-check.png",
+    "width": 476
+  },
+  "freeway-disabled": {
+    "height": 144,
+    "page": 75,
+    "src": "/handbook/california/freeway-disabled.png",
+    "width": 697
+  },
+  "headlights-dim-distance": {
+    "height": 171,
+    "page": 17,
+    "src": "/handbook/california/headlights-dim-distance.png",
+    "width": 699
+  },
+  "headlights-fog": {
+    "height": 144,
+    "page": 70,
+    "src": "/handbook/california/headlights-fog.png",
+    "width": 708
+  },
+  "headlights-glare": {
+    "height": 117,
+    "page": 65,
+    "src": "/handbook/california/headlights-glare.png",
+    "width": 702
+  },
+  "headlights-mountain-roads": {
+    "height": 117,
+    "page": 17,
+    "src": "/handbook/california/headlights-mountain-roads.png",
+    "width": 699
+  },
+  "hill-downhill-curb": {
+    "height": 198,
+    "page": 33,
+    "src": "/handbook/california/hill-downhill-curb.png",
+    "width": 697
+  },
+  "hill-no-curb": {
+    "height": 171,
+    "page": 33,
+    "src": "/handbook/california/hill-no-curb.png",
+    "width": 697
+  },
+  "hill-uphill-curb": {
+    "height": 118,
+    "page": 33,
+    "src": "/handbook/california/hill-uphill-curb.png",
+    "width": 697
+  },
+  "how-to-pass": {
+    "height": 117,
+    "page": 31,
+    "src": "/handbook/california/how-to-pass.png",
+    "width": 703
+  },
+  "implied-consent": {
+    "height": 144,
+    "page": 80,
+    "src": "/handbook/california/implied-consent.png",
+    "width": 700
+  },
+  "insurance-minimums": {
+    "height": 117,
+    "page": 82,
+    "src": "/handbook/california/insurance-minimums.png",
+    "width": 703
+  },
+  "lane-change-shoulder-check": {
+    "height": 144,
+    "page": 21,
+    "src": "/handbook/california/lane-change-shoulder-check.png",
+    "width": 699
+  },
+  "light-rail-pass-left": {
+    "height": 136,
+    "page": 50,
+    "src": "/handbook/california/light-rail-pass-left.png",
+    "width": 694
+  },
+  "marking-broken-yellow": {
+    "height": 144,
+    "page": 19,
+    "src": "/handbook/california/marking-broken-yellow.png",
+    "width": 683
+  },
+  "marking-double-white": {
+    "height": 171,
+    "page": 20,
+    "src": "/handbook/california/marking-double-white.png",
+    "width": 686
+  },
+  "marking-double-yellow": {
+    "height": 144,
+    "page": 19,
+    "src": "/handbook/california/marking-double-yellow.png",
+    "width": 705
+  },
+  "marking-solid-white": {
+    "height": 144,
+    "page": 19,
+    "src": "/handbook/california/marking-solid-white.png",
+    "width": 680
+  },
+  "marking-solid-yellow-single": {
+    "height": 171,
+    "page": 19,
+    "src": "/handbook/california/marking-solid-yellow-single.png",
+    "width": 691
+  },
+  "minor-cell-phone": {
+    "height": 171,
+    "page": 77,
+    "src": "/handbook/california/minor-cell-phone.png",
+    "width": 702
+  },
+  "motorcycle-following-distance": {
+    "height": 144,
+    "page": 50,
+    "src": "/handbook/california/motorcycle-following-distance.png",
+    "width": 703
+  },
+  "motorcycle-lane-splitting": {
+    "height": 144,
+    "page": 50,
+    "src": "/handbook/california/motorcycle-lane-splitting.png",
+    "width": 703
+  },
+  "mountain-road-uphill": {
+    "height": 171,
+    "page": 48,
+    "src": "/handbook/california/mountain-road-uphill.png",
+    "width": 680
+  },
+  "move-over-slow-down": {
+    "height": 144,
+    "page": 51,
+    "src": "/handbook/california/move-over-slow-down.png",
+    "width": 705
+  },
+  "parking-brake": {
+    "height": 117,
+    "page": 32,
+    "src": "/handbook/california/parking-brake.png",
+    "width": 476
+  },
+  "parking-crosshatch-disabled": {
+    "height": 144,
+    "page": 34,
+    "src": "/handbook/california/parking-crosshatch-disabled.png",
+    "width": 702
+  },
+  "parking-crosswalk": {
+    "height": 144,
+    "page": 34,
+    "src": "/handbook/california/parking-crosswalk.png",
+    "width": 702
+  },
+  "parking-hydrant": {
+    "height": 117,
+    "page": 34,
+    "src": "/handbook/california/parking-hydrant.png",
+    "width": 702
+  },
+  "parking-sidewalk-driveway": {
+    "height": 117,
+    "page": 34,
+    "src": "/handbook/california/parking-sidewalk-driveway.png",
+    "width": 702
+  },
+  "pedestrian-blind": {
+    "height": 144,
+    "page": 48,
+    "src": "/handbook/california/pedestrian-blind.png",
+    "width": 709
+  },
+  "pedestrian-crossing": {
+    "height": 171,
+    "page": 47,
+    "src": "/handbook/california/pedestrian-crossing.png",
+    "width": 709
+  },
+  "provisional-night": {
+    "height": 144,
+    "page": 10,
+    "src": "/handbook/california/provisional-night.png",
+    "width": 705
+  },
+  "provisional-passengers": {
+    "height": 171,
+    "page": 10,
+    "src": "/handbook/california/provisional-passengers.png",
+    "width": 705
+  },
+  "railroad-flashing-red": {
+    "height": 171,
+    "page": 57,
+    "src": "/handbook/california/railroad-flashing-red.png",
+    "width": 708
+  },
+  "railroad-stalled-no-train": {
+    "height": 171,
+    "page": 76,
+    "src": "/handbook/california/railroad-stalled-no-train.png",
+    "width": 692
+  },
+  "railroad-stalled-train-coming": {
+    "height": 171,
+    "page": 76,
+    "src": "/handbook/california/railroad-stalled-train-coming.png",
+    "width": 692
+  },
+  "railroad-stop-15-feet": {
+    "height": 144,
+    "page": 57,
+    "src": "/handbook/california/railroad-stop-15-feet.png",
+    "width": 708
+  },
+  "rain-first-slippery": {
+    "height": 171,
+    "page": 67,
+    "src": "/handbook/california/rain-first-slippery.png",
+    "width": 700
+  },
+  "row-entering-traffic": {
+    "height": 225,
+    "page": 45,
+    "src": "/handbook/california/row-entering-traffic.png",
+    "width": 709
+  },
+  "row-first-arrival": {
+    "height": 171,
+    "page": 45,
+    "src": "/handbook/california/row-first-arrival.png",
+    "width": 691
+  },
+  "row-same-time-right": {
+    "height": 171,
+    "page": 45,
+    "src": "/handbook/california/row-same-time-right.png",
+    "width": 709
+  },
+  "row-t-intersection": {
+    "height": 172,
+    "page": 45,
+    "src": "/handbook/california/row-t-intersection.png",
+    "width": 709
+  },
+  "row-turning-left": {
+    "height": 172,
+    "page": 45,
+    "src": "/handbook/california/row-turning-left.png",
+    "width": 709
+  },
+  "scan-10-seconds": {
+    "height": 171,
+    "page": 63,
+    "src": "/handbook/california/scan-10-seconds.png",
+    "width": 696
+  },
+  "school-bus-amber": {
+    "height": 171,
+    "page": 56,
+    "src": "/handbook/california/school-bus-amber.png",
+    "width": 701
+  },
+  "school-bus-divided-highway": {
+    "height": 171,
+    "page": 57,
+    "src": "/handbook/california/school-bus-divided-highway.png",
+    "width": 678
+  },
+  "school-bus-red-lights": {
+    "height": 163,
+    "page": 57,
+    "src": "/handbook/california/school-bus-red-lights.png",
+    "width": 678
+  },
+  "school-zone-speed": {
+    "height": 225,
+    "page": 56,
+    "src": "/handbook/california/school-zone-speed.png",
+    "width": 701
+  },
+  "seat-belts": {
+    "height": 144,
+    "page": 71,
+    "src": "/handbook/california/seat-belts.png",
+    "width": 699
+  },
+  "sign-diamond-warning": {
+    "height": 117,
+    "page": 44,
+    "src": "/handbook/california/sign-diamond-warning.png",
+    "width": 577
+  },
+  "sign-pentagon-school": {
+    "height": 144,
+    "page": 44,
+    "src": "/handbook/california/sign-pentagon-school.png",
+    "width": 609
+  },
+  "sign-prohibition-circle": {
+    "height": 144,
+    "page": 44,
+    "src": "/handbook/california/sign-prohibition-circle.png",
+    "width": 595
+  },
+  "sign-railroad-advance": {
+    "height": 144,
+    "page": 44,
+    "src": "/handbook/california/sign-railroad-advance.png",
+    "width": 605
+  },
+  "sign-stop": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/california/sign-stop.png",
+    "width": 625
+  },
+  "sign-white-rectangle": {
+    "height": 117,
+    "page": 44,
+    "src": "/handbook/california/sign-white-rectangle.png",
+    "width": 531
+  },
+  "sign-wrong-way": {
+    "height": 171,
+    "page": 44,
+    "src": "/handbook/california/sign-wrong-way.png",
+    "width": 691
+  },
+  "sign-yield": {
+    "height": 144,
+    "page": 41,
+    "src": "/handbook/california/sign-yield.png",
+    "width": 607
+  },
+  "signal-100-feet": {
+    "height": 117,
+    "page": 17,
+    "src": "/handbook/california/signal-100-feet.png",
+    "width": 661
+  },
+  "signal-flashing-red": {
+    "height": 144,
+    "page": 39,
+    "src": "/handbook/california/signal-flashing-red.png",
+    "width": 617
+  },
+  "signal-flashing-yellow": {
+    "height": 144,
+    "page": 40,
+    "src": "/handbook/california/signal-flashing-yellow.png",
+    "width": 597
+  },
+  "signal-green": {
+    "height": 144,
+    "page": 40,
+    "src": "/handbook/california/signal-green.png",
+    "width": 642
+  },
+  "signal-lane-change-freeway": {
+    "height": 117,
+    "page": 17,
+    "src": "/handbook/california/signal-lane-change-freeway.png",
+    "width": 661
+  },
+  "signal-not-working": {
+    "height": 171,
+    "page": 40,
+    "src": "/handbook/california/signal-not-working.png",
+    "width": 588
+  },
+  "signal-red": {
+    "height": 117,
+    "page": 39,
+    "src": "/handbook/california/signal-red.png",
+    "width": 643
+  },
+  "signal-red-arrow": {
+    "height": 117,
+    "page": 39,
+    "src": "/handbook/california/signal-red-arrow.png",
+    "width": 623
+  },
+  "signal-yellow": {
+    "height": 144,
+    "page": 39,
+    "src": "/handbook/california/signal-yellow.png",
+    "width": 625
+  },
+  "speed-alley": {
+    "height": 144,
+    "page": 57,
+    "src": "/handbook/california/speed-alley.png",
+    "width": 697
+  },
+  "speed-blind-intersection": {
+    "height": 144,
+    "page": 57,
+    "src": "/handbook/california/speed-blind-intersection.png",
+    "width": 702
+  },
+  "speed-business-residential": {
+    "height": 117,
+    "page": 58,
+    "src": "/handbook/california/speed-business-residential.png",
+    "width": 516
+  },
+  "speed-ice": {
+    "height": 118,
+    "page": 67,
+    "src": "/handbook/california/speed-ice.png",
+    "width": 700
+  },
+  "speed-max-highways": {
+    "height": 171,
+    "page": 73,
+    "src": "/handbook/california/speed-max-highways.png",
+    "width": 706
+  },
+  "speed-packed-snow": {
+    "height": 118,
+    "page": 67,
+    "src": "/handbook/california/speed-packed-snow.png",
+    "width": 700
+  },
+  "speed-railroad": {
+    "height": 198,
+    "page": 57,
+    "src": "/handbook/california/speed-railroad.png",
+    "width": 708
+  },
+  "speed-safety-zone": {
+    "height": 171,
+    "page": 49,
+    "src": "/handbook/california/speed-safety-zone.png",
+    "width": 414
+  },
+  "speed-too-slow": {
+    "height": 198,
+    "page": 56,
+    "src": "/handbook/california/speed-too-slow.png",
+    "width": 694
+  },
+  "speed-visibility-100-feet": {
+    "height": 190,
+    "page": 68,
+    "src": "/handbook/california/speed-visibility-100-feet.png",
+    "width": 708
+  },
+  "stopping-behind-vehicle": {
+    "height": 144,
+    "page": 28,
+    "src": "/handbook/california/stopping-behind-vehicle.png",
+    "width": 691
+  },
+  "three-second-rule": {
+    "height": 198,
+    "page": 63,
+    "src": "/handbook/california/three-second-rule.png",
+    "width": 709
+  },
+  "tire-blowout": {
+    "height": 116,
+    "page": 74,
+    "src": "/handbook/california/tire-blowout.png",
+    "width": 704
+  },
+  "truck-blind-spots": {
+    "height": 198,
+    "page": 48,
+    "src": "/handbook/california/truck-blind-spots.png",
+    "width": 496
+  },
+  "truck-wide-turns": {
+    "height": 171,
+    "page": 49,
+    "src": "/handbook/california/truck-wide-turns.png",
+    "width": 707
+  },
+  "turn-left-complete": {
+    "height": 144,
+    "page": 25,
+    "src": "/handbook/california/turn-left-complete.png",
+    "width": 706
+  },
+  "turn-left-on-red-one-way": {
+    "height": 117,
+    "page": 26,
+    "src": "/handbook/california/turn-left-on-red-one-way.png",
+    "width": 692
+  },
+  "turn-right-on-red": {
+    "height": 144,
+    "page": 24,
+    "src": "/handbook/california/turn-right-on-red.png",
+    "width": 705
+  },
+  "turnout-five-vehicles": {
+    "height": 171,
+    "page": 22,
+    "src": "/handbook/california/turnout-five-vehicles.png",
+    "width": 653
+  },
+  "uturn-business-exception": {
+    "height": 144,
+    "page": 26,
+    "src": "/handbook/california/uturn-business-exception.png",
+    "width": 707
+  },
+  "uturn-green-light": {
+    "height": 144,
+    "page": 26,
+    "src": "/handbook/california/uturn-green-light.png",
+    "width": 707
+  },
+  "uturn-prohibited": {
+    "height": 144,
+    "page": 26,
+    "src": "/handbook/california/uturn-prohibited.png",
+    "width": 707
+  },
+  "uturn-residential": {
+    "height": 144,
+    "page": 26,
+    "src": "/handbook/california/uturn-residential.png",
+    "width": 707
+  }
+}

@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { JURISDICTIONS, getSet } from "@/lib/driving/jurisdictions";
 import { ResultsDrivingClient } from "./ResultsDrivingClient";
 
-/** Mirrors the take route, including the browser-built "weak-spots" drill. */
+/** Mirrors the take route, including the browser-built synthetic drills. */
 export function generateStaticParams() {
   return JURISDICTIONS.flatMap((j) => [
     ...j.sets.map((set) => ({ jurisdiction: j.slug, setId: set.id })),
     { jurisdiction: j.slug, setId: "weak-spots" },
+    { jurisdiction: j.slug, setId: "retry-missed" },
   ]);
 }
 
@@ -20,7 +21,13 @@ export async function generateMetadata({
   const j = found?.jurisdiction ?? JURISDICTIONS.find((x) => x.slug === jurisdiction);
   if (!j) return { title: "Driving practice test results" };
 
-  const label = found ? found.set.title : setId === "weak-spots" ? "Your weak spots" : "practice";
+  const label = found
+    ? found.set.title
+    : setId === "weak-spots"
+      ? "Your weak spots"
+      : setId === "retry-missed"
+        ? "The ones you missed"
+        : "practice";
 
   return {
     title: `Your result · ${j.name} ${label}`,

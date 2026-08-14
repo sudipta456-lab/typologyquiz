@@ -1,0 +1,818 @@
+{
+  "added-lane-sign": {
+    "height": 159,
+    "page": 33,
+    "src": "/handbook/texas/added-lane-sign.png",
+    "width": 293
+  },
+  "address-change-30-days": {
+    "height": 114,
+    "page": 15,
+    "src": "/handbook/texas/address-change-30-days.png",
+    "width": 1069
+  },
+  "adjust-speed-poor-conditions": {
+    "height": 114,
+    "page": 52,
+    "src": "/handbook/texas/adjust-speed-poor-conditions.png",
+    "width": 1069
+  },
+  "advisory-speed-sign": {
+    "height": 142,
+    "page": 36,
+    "src": "/handbook/texas/advisory-speed-sign.png",
+    "width": 330
+  },
+  "alcohol-masks-other-drugs": {
+    "height": 136,
+    "page": 61,
+    "src": "/handbook/texas/alcohol-masks-other-drugs.png",
+    "width": 1069
+  },
+  "bac-008-adults": {
+    "height": 114,
+    "page": 61,
+    "src": "/handbook/texas/bac-008-adults.png",
+    "width": 1069
+  },
+  "bac-failure-suspension-adult": {
+    "height": 136,
+    "page": 64,
+    "src": "/handbook/texas/bac-failure-suspension-adult.png",
+    "width": 1069
+  },
+  "barricade-over-water-offense": {
+    "height": 137,
+    "page": 43,
+    "src": "/handbook/texas/barricade-over-water-offense.png",
+    "width": 1069
+  },
+  "barricade-stripes-direction": {
+    "height": 114,
+    "page": 42,
+    "src": "/handbook/texas/barricade-stripes-direction.png",
+    "width": 669
+  },
+  "basic-speed-law": {
+    "height": 113,
+    "page": 77,
+    "src": "/handbook/texas/basic-speed-law.png",
+    "width": 969
+  },
+  "bicycle-is-a-vehicle": {
+    "height": 114,
+    "page": 59,
+    "src": "/handbook/texas/bicycle-is-a-vehicle.png",
+    "width": 931
+  },
+  "bicycle-may-take-full-lane": {
+    "height": 136,
+    "page": 59,
+    "src": "/handbook/texas/bicycle-may-take-full-lane.png",
+    "width": 1031
+  },
+  "bicycle-night-equipment": {
+    "height": 114,
+    "page": 69,
+    "src": "/handbook/texas/bicycle-night-equipment.png",
+    "width": 503
+  },
+  "bicycle-one-way-ride-left": {
+    "height": 136,
+    "page": 68,
+    "src": "/handbook/texas/bicycle-one-way-ride-left.png",
+    "width": 1055
+  },
+  "blind-spot-when-passing": {
+    "height": 136,
+    "page": 45,
+    "src": "/handbook/texas/blind-spot-when-passing.png",
+    "width": 1069
+  },
+  "brake-failure": {
+    "height": 114,
+    "page": 55,
+    "src": "/handbook/texas/brake-failure.png",
+    "width": 1069
+  },
+  "center-left-turn-lane": {
+    "height": 137,
+    "page": 39,
+    "src": "/handbook/texas/center-left-turn-lane.png",
+    "width": 1067
+  },
+  "child-passenger-safety-seat": {
+    "height": 114,
+    "page": 70,
+    "src": "/handbook/texas/child-passenger-safety-seat.png",
+    "width": 1069
+  },
+  "coasting-in-neutral-illegal": {
+    "height": 114,
+    "page": 50,
+    "src": "/handbook/texas/coasting-in-neutral-illegal.png",
+    "width": 651
+  },
+  "crash-injury-stop-immediately": {
+    "height": 136,
+    "page": 65,
+    "src": "/handbook/texas/crash-injury-stop-immediately.png",
+    "width": 1069
+  },
+  "crash-provide-information": {
+    "height": 137,
+    "page": 65,
+    "src": "/handbook/texas/crash-provide-information.png",
+    "width": 1055
+  },
+  "crash-show-driver-license": {
+    "height": 137,
+    "page": 65,
+    "src": "/handbook/texas/crash-show-driver-license.png",
+    "width": 1055
+  },
+  "crash-unattended-vehicle": {
+    "height": 114,
+    "page": 66,
+    "src": "/handbook/texas/crash-unattended-vehicle.png",
+    "width": 1052
+  },
+  "crash-written-report-10-days": {
+    "height": 159,
+    "page": 65,
+    "src": "/handbook/texas/crash-written-report-10-days.png",
+    "width": 1069
+  },
+  "dim-headlights-behind-truck": {
+    "height": 137,
+    "page": 57,
+    "src": "/handbook/texas/dim-headlights-behind-truck.png",
+    "width": 1055
+  },
+  "double-solid-white-lines": {
+    "height": 114,
+    "page": 40,
+    "src": "/handbook/texas/double-solid-white-lines.png",
+    "width": 713
+  },
+  "entering-highway-yield": {
+    "height": 114,
+    "page": 53,
+    "src": "/handbook/texas/entering-highway-yield.png",
+    "width": 595
+  },
+  "exit-ramp-advisory-speed": {
+    "height": 124,
+    "page": 36,
+    "src": "/handbook/texas/exit-ramp-advisory-speed.png",
+    "width": 336
+  },
+  "failure-to-stop-penalty": {
+    "height": 124,
+    "page": 66,
+    "src": "/handbook/texas/failure-to-stop-penalty.png",
+    "width": 960
+  },
+  "flag-person-instructions": {
+    "height": 114,
+    "page": 42,
+    "src": "/handbook/texas/flag-person-instructions.png",
+    "width": 420
+  },
+  "flat-tire-or-blowout": {
+    "height": 114,
+    "page": 55,
+    "src": "/handbook/texas/flat-tire-or-blowout.png",
+    "width": 324
+  },
+  "flood-water-depths": {
+    "height": 114,
+    "page": 56,
+    "src": "/handbook/texas/flood-water-depths.png",
+    "width": 914
+  },
+  "follow-fire-truck-500-feet": {
+    "height": 136,
+    "page": 28,
+    "src": "/handbook/texas/follow-fire-truck-500-feet.png",
+    "width": 812
+  },
+  "following-distance-2-and-4-seconds": {
+    "height": 158,
+    "page": 51,
+    "src": "/handbook/texas/following-distance-2-and-4-seconds.png",
+    "width": 883
+  },
+  "foot-brake-25-feet": {
+    "height": 106,
+    "page": 21,
+    "src": "/handbook/texas/foot-brake-25-feet.png",
+    "width": 806
+  },
+  "four-way-stop-order": {
+    "height": 196,
+    "page": 37,
+    "src": "/handbook/texas/four-way-stop-order.png",
+    "width": 340
+  },
+  "frontage-road-yield": {
+    "height": 114,
+    "page": 27,
+    "src": "/handbook/texas/frontage-road-yield.png",
+    "width": 910
+  },
+  "gdl-phase-one": {
+    "height": 137,
+    "page": 8,
+    "src": "/handbook/texas/gdl-phase-one.png",
+    "width": 1069
+  },
+  "gdl-phase-two-restrictions": {
+    "height": 114,
+    "page": 9,
+    "src": "/handbook/texas/gdl-phase-two-restrictions.png",
+    "width": 579
+  },
+  "headlights-30-minutes-1000-feet": {
+    "height": 137,
+    "page": 53,
+    "src": "/handbook/texas/headlights-30-minutes-1000-feet.png",
+    "width": 1069
+  },
+  "highway-hypnosis": {
+    "height": 114,
+    "page": 54,
+    "src": "/handbook/texas/highway-hypnosis.png",
+    "width": 1055
+  },
+  "horn-audible-200-feet": {
+    "height": 107,
+    "page": 21,
+    "src": "/handbook/texas/horn-audible-200-feet.png",
+    "width": 655
+  },
+  "hov-lane-sign": {
+    "height": 178,
+    "page": 36,
+    "src": "/handbook/texas/hov-lane-sign.png",
+    "width": 338
+  },
+  "hydroplaning": {
+    "height": 113,
+    "page": 79,
+    "src": "/handbook/texas/hydroplaning.png",
+    "width": 765
+  },
+  "ice-on-bridges": {
+    "height": 106,
+    "page": 55,
+    "src": "/handbook/texas/ice-on-bridges.png",
+    "width": 796
+  },
+  "keep-right-of-sign": {
+    "height": 124,
+    "page": 36,
+    "src": "/handbook/texas/keep-right-of-sign.png",
+    "width": 324
+  },
+  "knowledge-exam-70-percent": {
+    "height": 114,
+    "page": 13,
+    "src": "/handbook/texas/knowledge-exam-70-percent.png",
+    "width": 642
+  },
+  "lane-entry-right-yields-to-left": {
+    "height": 137,
+    "page": 27,
+    "src": "/handbook/texas/lane-entry-right-yields-to-left.png",
+    "width": 1069
+  },
+  "lane-use-control-signals": {
+    "height": 196,
+    "page": 38,
+    "src": "/handbook/texas/lane-use-control-signals.png",
+    "width": 334
+  },
+  "learner-license-requirements": {
+    "height": 136,
+    "page": 7,
+    "src": "/handbook/texas/learner-license-requirements.png",
+    "width": 1067
+  },
+  "left-lane-for-passing-only": {
+    "height": 124,
+    "page": 37,
+    "src": "/handbook/texas/left-lane-for-passing-only.png",
+    "width": 326
+  },
+  "left-turn-on-green-yield": {
+    "height": 137,
+    "page": 31,
+    "src": "/handbook/texas/left-turn-on-green-yield.png",
+    "width": 959
+  },
+  "left-turn-onto-one-way": {
+    "height": 114,
+    "page": 47,
+    "src": "/handbook/texas/left-turn-onto-one-way.png",
+    "width": 1027
+  },
+  "liability-insurance-minimums": {
+    "height": 114,
+    "page": 24,
+    "src": "/handbook/texas/liability-insurance-minimums.png",
+    "width": 586
+  },
+  "light-rail-never-drive-around-gates": {
+    "height": 107,
+    "page": 59,
+    "src": "/handbook/texas/light-rail-never-drive-around-gates.png",
+    "width": 673
+  },
+  "low-beam-headlights": {
+    "height": 114,
+    "page": 53,
+    "src": "/handbook/texas/low-beam-headlights.png",
+    "width": 341
+  },
+  "mail-and-delivery-vehicles": {
+    "height": 137,
+    "page": 52,
+    "src": "/handbook/texas/mail-and-delivery-vehicles.png",
+    "width": 1069
+  },
+  "merge-right-before-right-turn": {
+    "height": 136,
+    "page": 59,
+    "src": "/handbook/texas/merge-right-before-right-turn.png",
+    "width": 1053
+  },
+  "mileposts": {
+    "height": 161,
+    "page": 38,
+    "src": "/handbook/texas/mileposts.png",
+    "width": 330
+  },
+  "minimum-speed-freeway": {
+    "height": 137,
+    "page": 53,
+    "src": "/handbook/texas/minimum-speed-freeway.png",
+    "width": 1069
+  },
+  "motorcycle-entitled-to-full-lane": {
+    "height": 136,
+    "page": 58,
+    "src": "/handbook/texas/motorcycle-entitled-to-full-lane.png",
+    "width": 1069
+  },
+  "motorcycle-following-distance": {
+    "height": 114,
+    "page": 59,
+    "src": "/handbook/texas/motorcycle-following-distance.png",
+    "width": 929
+  },
+  "motorcycle-signals-not-self-canceling": {
+    "height": 136,
+    "page": 58,
+    "src": "/handbook/texas/motorcycle-signals-not-self-canceling.png",
+    "width": 1069
+  },
+  "move-over-below-25-mph": {
+    "height": 114,
+    "page": 29,
+    "src": "/handbook/texas/move-over-below-25-mph.png",
+    "width": 1007
+  },
+  "move-over-slow-down": {
+    "height": 114,
+    "page": 52,
+    "src": "/handbook/texas/move-over-slow-down.png",
+    "width": 1069
+  },
+  "no-driving-left-side": {
+    "height": 114,
+    "page": 44,
+    "src": "/handbook/texas/no-driving-left-side.png",
+    "width": 404
+  },
+  "no-left-turn-sign": {
+    "height": 124,
+    "page": 36,
+    "src": "/handbook/texas/no-left-turn-sign.png",
+    "width": 325
+  },
+  "no-park-50-feet-railroad": {
+    "height": 114,
+    "page": 48,
+    "src": "/handbook/texas/no-park-50-feet-railroad.png",
+    "width": 796
+  },
+  "no-parking-distances": {
+    "height": 114,
+    "page": 48,
+    "src": "/handbook/texas/no-parking-distances.png",
+    "width": 605
+  },
+  "no-trucks-sign": {
+    "height": 142,
+    "page": 36,
+    "src": "/handbook/texas/no-trucks-sign.png",
+    "width": 316
+  },
+  "open-container": {
+    "height": 136,
+    "page": 62,
+    "src": "/handbook/texas/open-container.png",
+    "width": 1069
+  },
+  "over-the-counter-drugs": {
+    "height": 125,
+    "page": 61,
+    "src": "/handbook/texas/over-the-counter-drugs.png",
+    "width": 955
+  },
+  "parallel-park-18-inches": {
+    "height": 136,
+    "page": 50,
+    "src": "/handbook/texas/parallel-park-18-inches.png",
+    "width": 1055
+  },
+  "pass-on-paved-shoulder": {
+    "height": 136,
+    "page": 45,
+    "src": "/handbook/texas/pass-on-paved-shoulder.png",
+    "width": 1055
+  },
+  "passing-return-200-feet": {
+    "height": 136,
+    "page": 45,
+    "src": "/handbook/texas/passing-return-200-feet.png",
+    "width": 1055
+  },
+  "pedestrian-already-in-crosswalk": {
+    "height": 114,
+    "page": 29,
+    "src": "/handbook/texas/pedestrian-already-in-crosswalk.png",
+    "width": 904
+  },
+  "pedestrian-right-of-way": {
+    "height": 136,
+    "page": 29,
+    "src": "/handbook/texas/pedestrian-right-of-way.png",
+    "width": 1069
+  },
+  "railroad-crossbuck": {
+    "height": 136,
+    "page": 38,
+    "src": "/handbook/texas/railroad-crossbuck.png",
+    "width": 974
+  },
+  "railroad-stop-15-to-50-feet": {
+    "height": 114,
+    "page": 27,
+    "src": "/handbook/texas/railroad-stop-15-to-50-feet.png",
+    "width": 806
+  },
+  "reaction-time-one-and-a-half-seconds": {
+    "height": 111,
+    "page": 51,
+    "src": "/handbook/texas/reaction-time-one-and-a-half-seconds.png",
+    "width": 586
+  },
+  "red-light-left-turn-one-way": {
+    "height": 137,
+    "page": 31,
+    "src": "/handbook/texas/red-light-left-turn-one-way.png",
+    "width": 915
+  },
+  "regulatory-signs-must-obey": {
+    "height": 114,
+    "page": 36,
+    "src": "/handbook/texas/regulatory-signs-must-obey.png",
+    "width": 1069
+  },
+  "right-lane-must-turn-right": {
+    "height": 142,
+    "page": 37,
+    "src": "/handbook/texas/right-lane-must-turn-right.png",
+    "width": 337
+  },
+  "right-turn-keep-right": {
+    "height": 114,
+    "page": 46,
+    "src": "/handbook/texas/right-turn-keep-right.png",
+    "width": 492
+  },
+  "roundabout-emergency-vehicles": {
+    "height": 137,
+    "page": 56,
+    "src": "/handbook/texas/roundabout-emergency-vehicles.png",
+    "width": 1069
+  },
+  "roundabout-yield-on-entry": {
+    "height": 136,
+    "page": 56,
+    "src": "/handbook/texas/roundabout-yield-on-entry.png",
+    "width": 404
+  },
+  "running-off-pavement": {
+    "height": 114,
+    "page": 55,
+    "src": "/handbook/texas/running-off-pavement.png",
+    "width": 904
+  },
+  "safety-belts-all-occupants": {
+    "height": 137,
+    "page": 70,
+    "src": "/handbook/texas/safety-belts-all-occupants.png",
+    "width": 1069
+  },
+  "school-bus-flashing-red-stop": {
+    "height": 136,
+    "page": 29,
+    "src": "/handbook/texas/school-bus-flashing-red-stop.png",
+    "width": 1069
+  },
+  "school-bus-stop-exceptions": {
+    "height": 136,
+    "page": 29,
+    "src": "/handbook/texas/school-bus-stop-exceptions.png",
+    "width": 1069
+  },
+  "school-zone-speed-when-flashing": {
+    "height": 124,
+    "page": 37,
+    "src": "/handbook/texas/school-zone-speed-when-flashing.png",
+    "width": 334
+  },
+  "school-zone-wireless-prohibited": {
+    "height": 125,
+    "page": 37,
+    "src": "/handbook/texas/school-zone-wireless-prohibited.png",
+    "width": 313
+  },
+  "shoulder-use-restricted": {
+    "height": 124,
+    "page": 37,
+    "src": "/handbook/texas/shoulder-use-restricted.png",
+    "width": 322
+  },
+  "sign-shape-diamond": {
+    "height": 124,
+    "page": 32,
+    "src": "/handbook/texas/sign-shape-diamond.png",
+    "width": 511
+  },
+  "sign-shape-octagon-stop": {
+    "height": 107,
+    "page": 32,
+    "src": "/handbook/texas/sign-shape-octagon-stop.png",
+    "width": 280
+  },
+  "sign-shape-pennant-no-passing": {
+    "height": 106,
+    "page": 32,
+    "src": "/handbook/texas/sign-shape-pennant-no-passing.png",
+    "width": 344
+  },
+  "sign-shape-pentagon-school": {
+    "height": 106,
+    "page": 32,
+    "src": "/handbook/texas/sign-shape-pentagon-school.png",
+    "width": 401
+  },
+  "sign-shape-round-railroad": {
+    "height": 106,
+    "page": 32,
+    "src": "/handbook/texas/sign-shape-round-railroad.png",
+    "width": 316
+  },
+  "sign-shape-yield-triangle": {
+    "height": 107,
+    "page": 32,
+    "src": "/handbook/texas/sign-shape-yield-triangle.png",
+    "width": 348
+  },
+  "signal-100-feet": {
+    "height": 114,
+    "page": 44,
+    "src": "/handbook/texas/signal-100-feet.png",
+    "width": 1064
+  },
+  "signal-flashing-red": {
+    "height": 137,
+    "page": 31,
+    "src": "/handbook/texas/signal-flashing-red.png",
+    "width": 934
+  },
+  "signal-flashing-yellow": {
+    "height": 114,
+    "page": 31,
+    "src": "/handbook/texas/signal-flashing-yellow.png",
+    "width": 661
+  },
+  "signal-flashing-yellow-arrow": {
+    "height": 137,
+    "page": 31,
+    "src": "/handbook/texas/signal-flashing-yellow-arrow.png",
+    "width": 934
+  },
+  "signal-green-arrow-with-red": {
+    "height": 137,
+    "page": 31,
+    "src": "/handbook/texas/signal-green-arrow-with-red.png",
+    "width": 959
+  },
+  "signal-steady-red": {
+    "height": 114,
+    "page": 31,
+    "src": "/handbook/texas/signal-steady-red.png",
+    "width": 915
+  },
+  "signal-steady-yellow": {
+    "height": 159,
+    "page": 31,
+    "src": "/handbook/texas/signal-steady-yellow.png",
+    "width": 956
+  },
+  "slow-moving-vehicle-emblem": {
+    "height": 159,
+    "page": 43,
+    "src": "/handbook/texas/slow-moving-vehicle-emblem.png",
+    "width": 1069
+  },
+  "sobering-up-myths": {
+    "height": 136,
+    "page": 62,
+    "src": "/handbook/texas/sobering-up-myths.png",
+    "width": 1069
+  },
+  "solid-and-broken-yellow-lines": {
+    "height": 114,
+    "page": 40,
+    "src": "/handbook/texas/solid-and-broken-yellow-lines.png",
+    "width": 1069
+  },
+  "specimen-refusal-suspension-adult": {
+    "height": 137,
+    "page": 64,
+    "src": "/handbook/texas/specimen-refusal-suspension-adult.png",
+    "width": 1069
+  },
+  "standard-drink-equivalents": {
+    "height": 136,
+    "page": 64,
+    "src": "/handbook/texas/standard-drink-equivalents.png",
+    "width": 1069
+  },
+  "steering-out-of-skid": {
+    "height": 114,
+    "page": 54,
+    "src": "/handbook/texas/steering-out-of-skid.png",
+    "width": 893
+  },
+  "stop-sign-complete-stop": {
+    "height": 177,
+    "page": 36,
+    "src": "/handbook/texas/stop-sign-complete-stop.png",
+    "width": 335
+  },
+  "suspension-repeated-convictions": {
+    "height": 114,
+    "page": 17,
+    "src": "/handbook/texas/suspension-repeated-convictions.png",
+    "width": 429
+  },
+  "t-intersection-stop": {
+    "height": 136,
+    "page": 26,
+    "src": "/handbook/texas/t-intersection-stop.png",
+    "width": 878
+  },
+  "texting-while-driving-illegal": {
+    "height": 114,
+    "page": 60,
+    "src": "/handbook/texas/texting-while-driving-illegal.png",
+    "width": 1069
+  },
+  "truck-passing-signal-headlights": {
+    "height": 159,
+    "page": 57,
+    "src": "/handbook/texas/truck-passing-signal-headlights.png",
+    "width": 1055
+  },
+  "truck-passing-time": {
+    "height": 114,
+    "page": 57,
+    "src": "/handbook/texas/truck-passing-time.png",
+    "width": 1055
+  },
+  "truck-side-mirror-rule": {
+    "height": 114,
+    "page": 57,
+    "src": "/handbook/texas/truck-side-mirror-rule.png",
+    "width": 1036
+  },
+  "truck-stopping-distance": {
+    "height": 158,
+    "page": 57,
+    "src": "/handbook/texas/truck-stopping-distance.png",
+    "width": 1055
+  },
+  "truck-wide-right-turns": {
+    "height": 136,
+    "page": 57,
+    "src": "/handbook/texas/truck-wide-right-turns.png",
+    "width": 1069
+  },
+  "turning-left-yield-oncoming": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/texas/turning-left-yield-oncoming.png",
+    "width": 905
+  },
+  "unattended-vehicle-wheels-to-curb": {
+    "height": 114,
+    "page": 49,
+    "src": "/handbook/texas/unattended-vehicle-wheels-to-curb.png",
+    "width": 1069
+  },
+  "uncontrolled-intersection-yield-right": {
+    "height": 114,
+    "page": 26,
+    "src": "/handbook/texas/uncontrolled-intersection-yield-right.png",
+    "width": 905
+  },
+  "under-18-wireless-device-ban": {
+    "height": 137,
+    "page": 9,
+    "src": "/handbook/texas/under-18-wireless-device-ban.png",
+    "width": 1069
+  },
+  "vehicle-breakdown-get-clear": {
+    "height": 114,
+    "page": 54,
+    "src": "/handbook/texas/vehicle-breakdown-get-clear.png",
+    "width": 1055
+  },
+  "warning-signs-purpose": {
+    "height": 114,
+    "page": 32,
+    "src": "/handbook/texas/warning-signs-purpose.png",
+    "width": 1069
+  },
+  "work-zone-fines-double": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/texas/work-zone-fines-double.png",
+    "width": 1069
+  },
+  "work-zone-orange-devices": {
+    "height": 114,
+    "page": 41,
+    "src": "/handbook/texas/work-zone-orange-devices.png",
+    "width": 895
+  },
+  "wrong-way-sign": {
+    "height": 160,
+    "page": 36,
+    "src": "/handbook/texas/wrong-way-sign.png",
+    "width": 341
+  },
+  "yield-from-private-drive": {
+    "height": 136,
+    "page": 26,
+    "src": "/handbook/texas/yield-from-private-drive.png",
+    "width": 905
+  },
+  "yield-sign-meaning": {
+    "height": 142,
+    "page": 37,
+    "src": "/handbook/texas/yield-sign-meaning.png",
+    "width": 337
+  },
+  "yield-single-lane-to-multilane": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/texas/yield-single-lane-to-multilane.png",
+    "width": 905
+  },
+  "yield-to-emergency-vehicles": {
+    "height": 159,
+    "page": 28,
+    "src": "/handbook/texas/yield-to-emergency-vehicles.png",
+    "width": 826
+  },
+  "yield-unpaved-to-paved": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/texas/yield-unpaved-to-paved.png",
+    "width": 1069
+  },
+  "zero-tolerance-minors": {
+    "height": 114,
+    "page": 62,
+    "src": "/handbook/texas/zero-tolerance-minors.png",
+    "width": 1069
+  }
+}

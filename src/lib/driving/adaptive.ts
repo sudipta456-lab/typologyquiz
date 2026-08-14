@@ -142,6 +142,51 @@ export function buildWeakSpotSet(
   };
 }
 
+/**
+ * A drill built from ONE attempt's misses.
+ *
+ * Deliberately not the same thing as `buildWeakSpotSet`: that one is your
+ * all-time history, weighted and topped up with related questions, and it has
+ * its own button. This is the narrower, more immediate promise - the questions
+ * you just got wrong, in the order you met them, nothing added.
+ *
+ * Ids arrive from the results page (they ride in the URL, since there is no
+ * server), so unknown ids are dropped rather than trusted, and duplicates are
+ * collapsed.
+ */
+export function buildRetryMissedSet(
+  jurisdiction: Jurisdiction,
+  ids: readonly string[]
+): DrivingTestSet | null {
+  if (ids.length === 0) return null;
+
+  const byId = new Map<string, DrivingQuestion>();
+  for (const { q } of allQuestions(jurisdiction)) {
+    if (!byId.has(q.id)) byId.set(q.id, q);
+  }
+
+  const seen = new Set<string>();
+  const questions: DrivingQuestion[] = [];
+  for (const id of ids) {
+    if (seen.has(id)) continue;
+    seen.add(id);
+    const q = byId.get(id);
+    if (q) questions.push(q);
+  }
+
+  if (questions.length === 0) return null;
+
+  return {
+    id: "retry-missed",
+    setNumber: 0,
+    title: "The ones you missed",
+    difficulty: "hard",
+    description:
+      "Just the questions you got wrong on that attempt. Clear these and the same paper would have been a pass.",
+    questions,
+  };
+}
+
 export interface Readiness {
   /** Best honest estimate of a real-test score, as a percent. */
   estimate: number;
