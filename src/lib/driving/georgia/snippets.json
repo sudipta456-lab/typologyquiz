@@ -1,0 +1,1064 @@
+{
+  "aggressive-driving": {
+    "height": 203,
+    "page": 0,
+    "src": "/handbook/georgia/aggressive-driving.png",
+    "width": 802
+  },
+  "backing-up": {
+    "height": 203,
+    "page": 0,
+    "src": "/handbook/georgia/backing-up.png",
+    "width": 802
+  },
+  "bicycle-lanes": {
+    "height": 292,
+    "page": 0,
+    "src": "/handbook/georgia/bicycle-lanes.png",
+    "width": 802
+  },
+  "bicycle-three-feet": {
+    "height": 298,
+    "page": 0,
+    "src": "/handbook/georgia/bicycle-three-feet.png",
+    "width": 802
+  },
+  "bicyclists-entitled": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/bicyclists-entitled.png",
+    "width": 802
+  },
+  "bike-lane-motorists": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/bike-lane-motorists.png",
+    "width": 802
+  },
+  "blind-pedestrians": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/blind-pedestrians.png",
+    "width": 802
+  },
+  "carry-license": {
+    "height": 299,
+    "page": 0,
+    "src": "/handbook/georgia/carry-license.png",
+    "width": 802
+  },
+  "center-lines": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/center-lines.png",
+    "width": 802
+  },
+  "child-restraint": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/child-restraint.png",
+    "width": 802
+  },
+  "class-cp-conditions": {
+    "height": 347,
+    "page": 0,
+    "src": "/handbook/georgia/class-cp-conditions.png",
+    "width": 802
+  },
+  "class-d-after-a-year": {
+    "height": 203,
+    "page": 0,
+    "src": "/handbook/georgia/class-d-after-a-year.png",
+    "width": 802
+  },
+  "class-d-clean-record": {
+    "height": 252,
+    "page": 0,
+    "src": "/handbook/georgia/class-d-clean-record.png",
+    "width": 802
+  },
+  "class-d-curfew": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/class-d-curfew.png",
+    "width": 802
+  },
+  "class-d-first-six-months": {
+    "height": 151,
+    "page": 0,
+    "src": "/handbook/georgia/class-d-first-six-months.png",
+    "width": 802
+  },
+  "class-d-restrictions-by-class": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/class-d-restrictions-by-class.png",
+    "width": 718
+  },
+  "class-d-second-six-months": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/class-d-second-six-months.png",
+    "width": 802
+  },
+  "construction-signs-orange": {
+    "height": 252,
+    "page": 0,
+    "src": "/handbook/georgia/construction-signs-orange.png",
+    "width": 802
+  },
+  "crash-notify-500": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/crash-notify-500.png",
+    "width": 802
+  },
+  "crosswalks-exist": {
+    "height": 245,
+    "page": 0,
+    "src": "/handbook/georgia/crosswalks-exist.png",
+    "width": 802
+  },
+  "deer-never-swerve": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/deer-never-swerve.png",
+    "width": 802
+  },
+  "double-white-lines": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/double-white-lines.png",
+    "width": 802
+  },
+  "driver-ed-40-hours": {
+    "height": 151,
+    "page": 0,
+    "src": "/handbook/georgia/driver-ed-40-hours.png",
+    "width": 788
+  },
+  "driving-too-slowly": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/driving-too-slowly.png",
+    "width": 802
+  },
+  "dui-21-and-over": {
+    "height": 203,
+    "page": 0,
+    "src": "/handbook/georgia/dui-21-and-over.png",
+    "width": 802
+  },
+  "dui-prescription": {
+    "height": 245,
+    "page": 0,
+    "src": "/handbook/georgia/dui-prescription.png",
+    "width": 802
+  },
+  "dui-under-21": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/dui-under-21.png",
+    "width": 802
+  },
+  "exam-road-rules": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/exam-road-rules.png",
+    "width": 802
+  },
+  "exam-road-signs": {
+    "height": 245,
+    "page": 0,
+    "src": "/handbook/georgia/exam-road-signs.png",
+    "width": 802
+  },
+  "expired-license": {
+    "height": 165,
+    "page": 7,
+    "src": "/handbook/georgia/expired-license.png",
+    "width": 391
+  },
+  "expressway-no-backing": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/expressway-no-backing.png",
+    "width": 802
+  },
+  "expressway-stopping": {
+    "height": 289,
+    "page": 0,
+    "src": "/handbook/georgia/expressway-stopping.png",
+    "width": 802
+  },
+  "first-half-hour-rain": {
+    "height": 162,
+    "page": 39,
+    "src": "/handbook/georgia/first-half-hour-rain.png",
+    "width": 384
+  },
+  "following-emergency-vehicles": {
+    "height": 299,
+    "page": 0,
+    "src": "/handbook/georgia/following-emergency-vehicles.png",
+    "width": 802
+  },
+  "following-too-closely": {
+    "height": 334,
+    "page": 0,
+    "src": "/handbook/georgia/following-too-closely.png",
+    "width": 802
+  },
+  "four-or-more-lanes": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/four-or-more-lanes.png",
+    "width": 802
+  },
+  "good-samaritan": {
+    "height": 203,
+    "page": 0,
+    "src": "/handbook/georgia/good-samaritan.png",
+    "width": 802
+  },
+  "gores": {
+    "height": 292,
+    "page": 0,
+    "src": "/handbook/georgia/gores.png",
+    "width": 802
+  },
+  "guide-signs": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/guide-signs.png",
+    "width": 802
+  },
+  "habitual-violator": {
+    "height": 163,
+    "page": 0,
+    "src": "/handbook/georgia/habitual-violator.png",
+    "width": 802
+  },
+  "hands-free-law": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/hands-free-law.png",
+    "width": 802
+  },
+  "hands-free-penalties": {
+    "height": 320,
+    "page": 0,
+    "src": "/handbook/georgia/hands-free-penalties.png",
+    "width": 802
+  },
+  "hands-free-prohibited": {
+    "height": 198,
+    "page": 0,
+    "src": "/handbook/georgia/hands-free-prohibited.png",
+    "width": 802
+  },
+  "headlights-dim": {
+    "height": 389,
+    "page": 0,
+    "src": "/handbook/georgia/headlights-dim.png",
+    "width": 802
+  },
+  "headlights-when": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/headlights-when.png",
+    "width": 802
+  },
+  "headphones": {
+    "height": 198,
+    "page": 0,
+    "src": "/handbook/georgia/headphones.png",
+    "width": 802
+  },
+  "hov-lanes": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/hov-lanes.png",
+    "width": 802
+  },
+  "hydroplaning": {
+    "height": 108,
+    "page": 39,
+    "src": "/handbook/georgia/hydroplaning.png",
+    "width": 385
+  },
+  "illegal-signals": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/illegal-signals.png",
+    "width": 802
+  },
+  "implied-consent-refusal": {
+    "height": 240,
+    "page": 0,
+    "src": "/handbook/georgia/implied-consent-refusal.png",
+    "width": 802
+  },
+  "joshuas-law": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/joshuas-law.png",
+    "width": 802
+  },
+  "joshuas-law-manual": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/joshuas-law-manual.png",
+    "width": 802
+  },
+  "left-turn-no-lane-change": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/left-turn-no-lane-change.png",
+    "width": 802
+  },
+  "left-turn-on-red": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/left-turn-on-red.png",
+    "width": 802
+  },
+  "left-turn-pedestrians": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/left-turn-pedestrians.png",
+    "width": 802
+  },
+  "limited-permit": {
+    "height": 126,
+    "page": 49,
+    "src": "/handbook/georgia/limited-permit.png",
+    "width": 384
+  },
+  "litter-penalty": {
+    "height": 340,
+    "page": 0,
+    "src": "/handbook/georgia/litter-penalty.png",
+    "width": 802
+  },
+  "median-strip": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/median-strip.png",
+    "width": 802
+  },
+  "motorcycle-following-distance": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/motorcycle-following-distance.png",
+    "width": 802
+  },
+  "motorcycle-full-lane": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/motorcycle-full-lane.png",
+    "width": 802
+  },
+  "move-over-requirements": {
+    "height": 107,
+    "page": 19,
+    "src": "/handbook/georgia/move-over-requirements.png",
+    "width": 347
+  },
+  "move-vehicles-after-crash": {
+    "height": 341,
+    "page": 0,
+    "src": "/handbook/georgia/move-vehicles-after-crash.png",
+    "width": 802
+  },
+  "multilane-ten-feet": {
+    "height": 245,
+    "page": 0,
+    "src": "/handbook/georgia/multilane-ten-feet.png",
+    "width": 802
+  },
+  "new-resident-30-days": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/new-resident-30-days.png",
+    "width": 802
+  },
+  "no-passing-lines": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/no-passing-lines.png",
+    "width": 802
+  },
+  "no-zones": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/no-zones.png",
+    "width": 802
+  },
+  "opening-doors": {
+    "height": 299,
+    "page": 0,
+    "src": "/handbook/georgia/opening-doors.png",
+    "width": 802
+  },
+  "parking-distances": {
+    "height": 494,
+    "page": 0,
+    "src": "/handbook/georgia/parking-distances.png",
+    "width": 802
+  },
+  "parking-never": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/parking-never.png",
+    "width": 802
+  },
+  "parking-on-highway": {
+    "height": 250,
+    "page": 0,
+    "src": "/handbook/georgia/parking-on-highway.png",
+    "width": 802
+  },
+  "passing-bicycles": {
+    "height": 292,
+    "page": 0,
+    "src": "/handbook/georgia/passing-bicycles.png",
+    "width": 802
+  },
+  "passing-complete-200-feet": {
+    "height": 340,
+    "page": 0,
+    "src": "/handbook/georgia/passing-complete-200-feet.png",
+    "width": 802
+  },
+  "passing-motorcyclists": {
+    "height": 172,
+    "page": 20,
+    "src": "/handbook/georgia/passing-motorcyclists.png",
+    "width": 390
+  },
+  "passing-on-the-right": {
+    "height": 162,
+    "page": 20,
+    "src": "/handbook/georgia/passing-on-the-right.png",
+    "width": 384
+  },
+  "passing-prohibited-100-feet": {
+    "height": 119,
+    "page": 0,
+    "src": "/handbook/georgia/passing-prohibited-100-feet.png",
+    "width": 802
+  },
+  "passing-prohibited-other": {
+    "height": 319,
+    "page": 0,
+    "src": "/handbook/georgia/passing-prohibited-other.png",
+    "width": 802
+  },
+  "passing-stopped-cars": {
+    "height": 198,
+    "page": 20,
+    "src": "/handbook/georgia/passing-stopped-cars.png",
+    "width": 385
+  },
+  "passing-zone": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/passing-zone.png",
+    "width": 802
+  },
+  "ped-signal-flashing": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/ped-signal-flashing.png",
+    "width": 802
+  },
+  "pedestrian-half-of-roadway": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/pedestrian-half-of-roadway.png",
+    "width": 802
+  },
+  "pedestrian-stop-and-remain": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/pedestrian-stop-and-remain.png",
+    "width": 802
+  },
+  "phb-flashing-red": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/phb-flashing-red.png",
+    "width": 802
+  },
+  "points-avoidance": {
+    "height": 341,
+    "page": 0,
+    "src": "/handbook/georgia/points-avoidance.png",
+    "width": 802
+  },
+  "points-reduction": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/points-reduction.png",
+    "width": 802
+  },
+  "points-reduction-course": {
+    "height": 299,
+    "page": 0,
+    "src": "/handbook/georgia/points-reduction-course.png",
+    "width": 802
+  },
+  "points-suspension": {
+    "height": 320,
+    "page": 0,
+    "src": "/handbook/georgia/points-suspension.png",
+    "width": 802
+  },
+  "railroad-gates": {
+    "height": 151,
+    "page": 0,
+    "src": "/handbook/georgia/railroad-gates.png",
+    "width": 802
+  },
+  "railroad-no-passing": {
+    "height": 151,
+    "page": 0,
+    "src": "/handbook/georgia/railroad-no-passing.png",
+    "width": 802
+  },
+  "railroad-stop-distance": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/railroad-stop-distance.png",
+    "width": 802
+  },
+  "reckless-driving": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/reckless-driving.png",
+    "width": 802
+  },
+  "red-circle-slash": {
+    "height": 198,
+    "page": 0,
+    "src": "/handbook/georgia/red-circle-slash.png",
+    "width": 802
+  },
+  "regulatory-signs": {
+    "height": 152,
+    "page": 0,
+    "src": "/handbook/georgia/regulatory-signs.png",
+    "width": 802
+  },
+  "right-on-red-pedestrians": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/right-on-red-pedestrians.png",
+    "width": 802
+  },
+  "right-turn-bike-lane": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/right-turn-bike-lane.png",
+    "width": 802
+  },
+  "right-turn-on-red": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/right-turn-on-red.png",
+    "width": 802
+  },
+  "road-test-score": {
+    "height": 151,
+    "page": 0,
+    "src": "/handbook/georgia/road-test-score.png",
+    "width": 802
+  },
+  "roundabouts": {
+    "height": 287,
+    "page": 0,
+    "src": "/handbook/georgia/roundabouts.png",
+    "width": 802
+  },
+  "row-alley-private-road": {
+    "height": 299,
+    "page": 0,
+    "src": "/handbook/georgia/row-alley-private-road.png",
+    "width": 802
+  },
+  "row-emergency-vehicle": {
+    "height": 341,
+    "page": 0,
+    "src": "/handbook/georgia/row-emergency-vehicle.png",
+    "width": 802
+  },
+  "row-four-way-stop": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/row-four-way-stop.png",
+    "width": 802
+  },
+  "row-green-light": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/row-green-light.png",
+    "width": 802
+  },
+  "row-left-turn": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/row-left-turn.png",
+    "width": 802
+  },
+  "row-merging": {
+    "height": 198,
+    "page": 0,
+    "src": "/handbook/georgia/row-merging.png",
+    "width": 802
+  },
+  "row-uncontrolled": {
+    "height": 252,
+    "page": 0,
+    "src": "/handbook/georgia/row-uncontrolled.png",
+    "width": 802
+  },
+  "row-yield-sign": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/row-yield-sign.png",
+    "width": 802
+  },
+  "school-bus-median": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/school-bus-median.png",
+    "width": 802
+  },
+  "school-bus-red-lights": {
+    "height": 334,
+    "page": 0,
+    "src": "/handbook/georgia/school-bus-red-lights.png",
+    "width": 802
+  },
+  "school-bus-remain-stopped": {
+    "height": 245,
+    "page": 0,
+    "src": "/handbook/georgia/school-bus-remain-stopped.png",
+    "width": 802
+  },
+  "school-bus-stop-rule": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/school-bus-stop-rule.png",
+    "width": 802
+  },
+  "school-bus-yellow-lights": {
+    "height": 294,
+    "page": 0,
+    "src": "/handbook/georgia/school-bus-yellow-lights.png",
+    "width": 802
+  },
+  "seat-belts": {
+    "height": 299,
+    "page": 0,
+    "src": "/handbook/georgia/seat-belts.png",
+    "width": 802
+  },
+  "sign-advisory-plaques": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/sign-advisory-plaques.png",
+    "width": 802
+  },
+  "sign-crossbuck": {
+    "height": 299,
+    "page": 0,
+    "src": "/handbook/georgia/sign-crossbuck.png",
+    "width": 802
+  },
+  "sign-crossing-advance": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/sign-crossing-advance.png",
+    "width": 802
+  },
+  "sign-diamond": {
+    "height": 252,
+    "page": 0,
+    "src": "/handbook/georgia/sign-diamond.png",
+    "width": 802
+  },
+  "sign-dip": {
+    "height": 72,
+    "page": 0,
+    "src": "/handbook/georgia/sign-dip.png",
+    "width": 802
+  },
+  "sign-divided-highway-begins": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-divided-highway-begins.png",
+    "width": 802
+  },
+  "sign-divided-highway-ends": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-divided-highway-ends.png",
+    "width": 802
+  },
+  "sign-do-not-enter": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/sign-do-not-enter.png",
+    "width": 802
+  },
+  "sign-hill": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/sign-hill.png",
+    "width": 802
+  },
+  "sign-keep-right": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-keep-right.png",
+    "width": 802
+  },
+  "sign-lanes-reduced": {
+    "height": 72,
+    "page": 0,
+    "src": "/handbook/georgia/sign-lanes-reduced.png",
+    "width": 802
+  },
+  "sign-low-clearance": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/sign-low-clearance.png",
+    "width": 802
+  },
+  "sign-merge": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-merge.png",
+    "width": 802
+  },
+  "sign-narrow-bridge": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-narrow-bridge.png",
+    "width": 802
+  },
+  "sign-no-passing-zone": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/sign-no-passing-zone.png",
+    "width": 802
+  },
+  "sign-no-turn-on-red": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-no-turn-on-red.png",
+    "width": 802
+  },
+  "sign-no-u-turn": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-no-u-turn.png",
+    "width": 802
+  },
+  "sign-octagon": {
+    "height": 341,
+    "page": 0,
+    "src": "/handbook/georgia/sign-octagon.png",
+    "width": 802
+  },
+  "sign-one-way": {
+    "height": 72,
+    "page": 0,
+    "src": "/handbook/georgia/sign-one-way.png",
+    "width": 802
+  },
+  "sign-pedestrians-in-crosswalk": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-pedestrians-in-crosswalk.png",
+    "width": 802
+  },
+  "sign-pentagon": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/sign-pentagon.png",
+    "width": 802
+  },
+  "sign-road-ends": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/sign-road-ends.png",
+    "width": 802
+  },
+  "sign-round": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/sign-round.png",
+    "width": 802
+  },
+  "sign-school-speed-limit": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/sign-school-speed-limit.png",
+    "width": 802
+  },
+  "sign-shapes-seven": {
+    "height": 252,
+    "page": 0,
+    "src": "/handbook/georgia/sign-shapes-seven.png",
+    "width": 803
+  },
+  "sign-slippery-when-wet": {
+    "height": 110,
+    "page": 0,
+    "src": "/handbook/georgia/sign-slippery-when-wet.png",
+    "width": 802
+  },
+  "sign-slow-moving-vehicle": {
+    "height": 250,
+    "page": 0,
+    "src": "/handbook/georgia/sign-slow-moving-vehicle.png",
+    "width": 802
+  },
+  "sign-slower-traffic-keep-right": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/sign-slower-traffic-keep-right.png",
+    "width": 802
+  },
+  "sign-soft-shoulder": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-soft-shoulder.png",
+    "width": 802
+  },
+  "sign-speed-limit": {
+    "height": 110,
+    "page": 0,
+    "src": "/handbook/georgia/sign-speed-limit.png",
+    "width": 802
+  },
+  "sign-stop-ahead": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/sign-stop-ahead.png",
+    "width": 802
+  },
+  "sign-triangle": {
+    "height": 198,
+    "page": 0,
+    "src": "/handbook/georgia/sign-triangle.png",
+    "width": 802
+  },
+  "sign-two-way-traffic": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/sign-two-way-traffic.png",
+    "width": 802
+  },
+  "sign-vertical-rectangle": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/sign-vertical-rectangle.png",
+    "width": 802
+  },
+  "sign-wrong-way": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/sign-wrong-way.png",
+    "width": 802
+  },
+  "sign-yield-ahead": {
+    "height": 110,
+    "page": 0,
+    "src": "/handbook/georgia/sign-yield-ahead.png",
+    "width": 802
+  },
+  "signal-flashing-red": {
+    "height": 252,
+    "page": 0,
+    "src": "/handbook/georgia/signal-flashing-red.png",
+    "width": 802
+  },
+  "signal-flashing-yellow": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/signal-flashing-yellow.png",
+    "width": 802
+  },
+  "signal-flashing-yellow-arrow": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/signal-flashing-yellow-arrow.png",
+    "width": 802
+  },
+  "signal-green": {
+    "height": 158,
+    "page": 0,
+    "src": "/handbook/georgia/signal-green.png",
+    "width": 802
+  },
+  "signal-malfunction-flashing": {
+    "height": 334,
+    "page": 0,
+    "src": "/handbook/georgia/signal-malfunction-flashing.png",
+    "width": 802
+  },
+  "signal-not-functioning": {
+    "height": 240,
+    "page": 0,
+    "src": "/handbook/georgia/signal-not-functioning.png",
+    "width": 802
+  },
+  "signal-red": {
+    "height": 203,
+    "page": 0,
+    "src": "/handbook/georgia/signal-red.png",
+    "width": 802
+  },
+  "signal-yellow": {
+    "height": 156,
+    "page": 0,
+    "src": "/handbook/georgia/signal-yellow.png",
+    "width": 802
+  },
+  "signs-its-the-law": {
+    "height": 203,
+    "page": 0,
+    "src": "/handbook/georgia/signs-its-the-law.png",
+    "width": 802
+  },
+  "skidding": {
+    "height": 108,
+    "page": 39,
+    "src": "/handbook/georgia/skidding.png",
+    "width": 327
+  },
+  "slow-poke-exceptions": {
+    "height": 415,
+    "page": 0,
+    "src": "/handbook/georgia/slow-poke-exceptions.png",
+    "width": 802
+  },
+  "slow-poke-law": {
+    "height": 247,
+    "page": 0,
+    "src": "/handbook/georgia/slow-poke-law.png",
+    "width": 802
+  },
+  "speed-limits-general": {
+    "height": 389,
+    "page": 0,
+    "src": "/handbook/georgia/speed-limits-general.png",
+    "width": 802
+  },
+  "stop-lines": {
+    "height": 198,
+    "page": 0,
+    "src": "/handbook/georgia/stop-lines.png",
+    "width": 802
+  },
+  "super-speeder": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/super-speeder.png",
+    "width": 802
+  },
+  "super-speeder-nonpayment": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/super-speeder-nonpayment.png",
+    "width": 802
+  },
+  "tadra": {
+    "height": 336,
+    "page": 0,
+    "src": "/handbook/georgia/tadra.png",
+    "width": 718
+  },
+  "three-basic-laws": {
+    "height": 387,
+    "page": 0,
+    "src": "/handbook/georgia/three-basic-laws.png",
+    "width": 802
+  },
+  "traffic-striping": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/traffic-striping.png",
+    "width": 802
+  },
+  "truck-stopping-distance": {
+    "height": 109,
+    "page": 0,
+    "src": "/handbook/georgia/truck-stopping-distance.png",
+    "width": 802
+  },
+  "turn-lanes": {
+    "height": 245,
+    "page": 0,
+    "src": "/handbook/georgia/turn-lanes.png",
+    "width": 802
+  },
+  "turn-signal-required": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/turn-signal-required.png",
+    "width": 802
+  },
+  "u-turns": {
+    "height": 205,
+    "page": 0,
+    "src": "/handbook/georgia/u-turns.png",
+    "width": 802
+  },
+  "under-21-suspension": {
+    "height": 389,
+    "page": 0,
+    "src": "/handbook/georgia/under-21-suspension.png",
+    "width": 802
+  },
+  "under-21-suspension-offenses": {
+    "height": 341,
+    "page": 0,
+    "src": "/handbook/georgia/under-21-suspension-offenses.png",
+    "width": 802
+  },
+  "warning-signs-color": {
+    "height": 200,
+    "page": 0,
+    "src": "/handbook/georgia/warning-signs-color.png",
+    "width": 802
+  },
+  "weaving": {
+    "height": 108,
+    "page": 20,
+    "src": "/handbook/georgia/weaving.png",
+    "width": 390
+  },
+  "work-zone-amber": {
+    "height": 250,
+    "page": 0,
+    "src": "/handbook/georgia/work-zone-amber.png",
+    "width": 802
+  },
+  "work-zone-flagger": {
+    "height": 203,
+    "page": 0,
+    "src": "/handbook/georgia/work-zone-flagger.png",
+    "width": 802
+  },
+  "work-zone-speed-penalty": {
+    "height": 389,
+    "page": 0,
+    "src": "/handbook/georgia/work-zone-speed-penalty.png",
+    "width": 802
+  }
+}

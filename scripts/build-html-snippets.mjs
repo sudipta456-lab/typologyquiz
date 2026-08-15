@@ -2,9 +2,11 @@
  * Render handbook snippet images for jurisdictions whose manual is published as
  * HTML rather than as a croppable PDF.
  *
- * Ontario and New York are the two odd ones out: the MTO Driver's Handbook and
- * the NYS Driver's Manual (MV-21) are both published free as web pages, and
- * neither has a full PDF worth cropping (New York's mv21.pdf is a 4-page stub).
+ * Ontario, New York and Georgia are the odd ones out. The MTO Driver's Handbook
+ * and the NYS Driver's Manual (MV-21) are both published free as web pages and
+ * neither has a full PDF worth cropping (New York's mv21.pdf is a 4-page stub);
+ * Georgia's DDS manual does have a PDF, but every excerpt was quoted from the
+ * section pages DDS publishes on dds.georgia.gov, each with its own deep link.
  * So instead of scripts/build-excerpt-snippets.py's PDF path, we load the
  * source page in a real browser, locate the verbatim quote in the rendered
  * text, wrap it in a highlight, and screenshot a tight band around it.
@@ -19,7 +21,7 @@
  * rendered from that single load, with a delay between page loads.
  *
  * Usage:
- *   npx tsx scripts/build-html-snippets.mjs <ontario|newyork> [--only key1,key2]
+ *   npx tsx scripts/build-html-snippets.mjs <ontario|newyork|georgia> [--only key1,key2]
  */
 import { chromium } from "playwright";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
@@ -78,6 +80,43 @@ const NY_CSS = `
   caption { font-weight: 600; padding-bottom: 6px; }
 `;
 
+/**
+ * dds.georgia.gov is a Drupal site with a wide desktop grid; at a 540px
+ * viewport it drops to its single-column layout, which already gives a
+ * PDF-column measure. This sheet only trims the site chrome that would
+ * otherwise sit inside the crop and pins the text column to the same 438px
+ * measure Ontario and New York use, so all three folders crop to 802px wide.
+ * Every word inside the band is DDS's own.
+ */
+const GA_CSS = `
+  html { -webkit-font-smoothing: antialiased; }
+  .content-page__main, main.content-page__main {
+    box-sizing: border-box; max-width: 458px; margin: 0 auto; padding: 0 10px;
+    font-size: 17px; line-height: 1.6; color: #1a1a1a; background: #fff;
+  }
+  .content-page__main p, .content-page__main li, .content-page__main td,
+  .content-page__main th, .content-page__main dd, .content-page__main dt {
+    font-size: 17px; line-height: 1.6;
+  }
+  .content-page__main h2 { font-size: 23px; }
+  .content-page__main h3 { font-size: 20px; }
+  .content-page__main h4, .content-page__main h5 { font-size: 18px; }
+  /* Markers default to the list's padding, i.e. outside the LI's border box -
+     and the crop snaps to that box, so a step number gets sliced off the left.
+     Pulling them inside keeps it in the picture. */
+  .content-page__main ol, .content-page__main ul { padding-left: 0; margin-left: 0; }
+  .content-page__main li { margin: 0.35em 0; list-style-position: inside; }
+  /* Figures are sign artwork sitting mid-paragraph; the crops are text bands,
+     and a floated image only shoves the passage sideways. */
+  .content-page__main img, .content-page__main figure, .content-page__main iframe {
+    display: none !important;
+  }
+  .content-page__main table { border-collapse: collapse; width: 100%; }
+  .content-page__main td, .content-page__main th {
+    border: 1px solid #d4d4d4; padding: 6px 9px; text-align: left; vertical-align: top;
+  }
+`;
+
 const JURISDICTIONS = {
   ontario: {
     module: "../src/lib/driving/ontario/excerpts.ts",
@@ -104,7 +143,36 @@ const JURISDICTIONS = {
     // passes should not re-fetch a 320KB page each time.
     fetch: "html",
   },
+  georgia: {
+    module: "../src/lib/driving/georgia/excerpts.ts",
+    exportName: "georgiaExcerpts",
+    viewport: { width: 540, height: 1400 },
+    scale: 1.75,
+    css: GA_CSS,
+    // DDS serves the manual as ~30 short section pages, one deep link per
+    // excerpt, and it answers an ordinary browser request - so each page is
+    // loaded once, live, and every excerpt citing it is cut from that load.
+    plan: planGeorgia,
+  },
 };
+
+/**
+ * Twelve Georgia excerpts cite the manual PDF rather than a section page,
+ * because DDS's HTML edition simply omits those passages - its Section 8 jumps
+ * from Fog straight to Carbon Monoxide, skipping Hydroplaning and Skidding
+ * entirely. There is no web page to screenshot for them, so they are dropped
+ * here rather than sent to a load that could only fail.
+ */
+const GA_PDF_URL = "https://dds.georgia.gov/document/publication/ga-drivers-manual/download";
+
+async function planGeorgia(items) {
+  const web = items.filter((e) => e.url !== GA_PDF_URL);
+  const skipped = items.length - web.length;
+  if (skipped) {
+    process.stdout.write(`georgia: skipping ${skipped} excerpt(s) sourced from the PDF, not a section page\n`);
+  }
+  return groupBy(web, (e) => e.url);
+}
 
 function groupBy(items, keyOf) {
   const by = new Map();

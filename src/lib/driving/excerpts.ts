@@ -71,6 +71,11 @@ import ontarioSnippets from "./ontario/snippets.json";
 // New York's MV-21 is HTML-only too (the mv21.pdf link is a 4-page stub), so it
 // goes through the same browser pipeline and also carries page: 0.
 import newyorkSnippets from "./newyork/snippets.json";
+// Georgia's manual is published section by section on dds.georgia.gov, so most
+// of its snippets come from the same browser pipeline and carry page: 0. The
+// dozen passages DDS's web edition leaves out (Hydroplaning, Skidding, the
+// passing rules) are cut from the manual PDF instead and do carry a page.
+import georgiaSnippets from "./georgia/snippets.json";
 import floridaSnippets from "./florida/snippets.json";
 import pennsylvaniaSnippets from "./pennsylvania/snippets.json";
 import ohioSnippets from "./ohio/snippets.json";
@@ -89,6 +94,7 @@ const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
   california: californiaSnippets as Record<string, HandbookSnippet>,
   ontario: ontarioSnippets as Record<string, HandbookSnippet>,
   newyork: newyorkSnippets as Record<string, HandbookSnippet>,
+  georgia: georgiaSnippets as Record<string, HandbookSnippet>,
   florida: floridaSnippets as Record<string, HandbookSnippet>,
   pennsylvania: pennsylvaniaSnippets as Record<string, HandbookSnippet>,
   ohio: ohioSnippets as Record<string, HandbookSnippet>,
