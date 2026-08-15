@@ -4,6 +4,7 @@ import { ontarioExcerpts } from "./ontario/excerpts";
 import { texasExcerpts } from "./texas/excerpts";
 import { floridaExcerpts } from "./florida/excerpts";
 import { newyorkExcerpts } from "./newyork/excerpts";
+import { pennsylvaniaExcerpts } from "./pennsylvania/excerpts";
 import { californiaExcerpts } from "./california/excerpts";
 
 // Handbook excerpt library, keyed by jurisdiction then rule.
@@ -19,6 +20,7 @@ const BY_JURISDICTION: Record<string, HandbookExcerpt[]> = {
   texas: texasExcerpts,
   florida: floridaExcerpts,
   newyork: newyorkExcerpts,
+  pennsylvania: pennsylvaniaExcerpts,
   california: californiaExcerpts,
 };
 
@@ -63,6 +65,8 @@ import ontarioSnippets from "./ontario/snippets.json";
 // New York's MV-21 is HTML-only too (the mv21.pdf link is a 4-page stub), so it
 // goes through the same browser pipeline and also carries page: 0.
 import newyorkSnippets from "./newyork/snippets.json";
+import floridaSnippets from "./florida/snippets.json";
+import pennsylvaniaSnippets from "./pennsylvania/snippets.json";
 
 export interface HandbookSnippet {
   src: string;
@@ -77,6 +81,8 @@ const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
   california: californiaSnippets as Record<string, HandbookSnippet>,
   ontario: ontarioSnippets as Record<string, HandbookSnippet>,
   newyork: newyorkSnippets as Record<string, HandbookSnippet>,
+  florida: floridaSnippets as Record<string, HandbookSnippet>,
+  pennsylvania: pennsylvaniaSnippets as Record<string, HandbookSnippet>,
 };
 
 export function getSnippet(

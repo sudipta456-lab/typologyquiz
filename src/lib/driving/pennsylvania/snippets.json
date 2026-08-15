@@ -1,0 +1,1106 @@
+{
+  "abs-braking": {
+    "height": 133,
+    "page": 65,
+    "src": "/handbook/pennsylvania/abs-braking.png",
+    "width": 1070
+  },
+  "acceleration-lane-no-passing": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/pennsylvania/acceleration-lane-no-passing.png",
+    "width": 1071
+  },
+  "added-lane-sign": {
+    "height": 205,
+    "page": 18,
+    "src": "/handbook/pennsylvania/added-lane-sign.png",
+    "width": 376
+  },
+  "advisory-speed-sign": {
+    "height": 109,
+    "page": 18,
+    "src": "/handbook/pennsylvania/advisory-speed-sign.png",
+    "width": 886
+  },
+  "airbag-10-inches": {
+    "height": 133,
+    "page": 95,
+    "src": "/handbook/pennsylvania/airbag-10-inches.png",
+    "width": 1069
+  },
+  "bicycle-four-feet": {
+    "height": 131,
+    "page": 96,
+    "src": "/handbook/pennsylvania/bicycle-four-feet.png",
+    "width": 833
+  },
+  "bicycle-no-turn-into-path": {
+    "height": 109,
+    "page": 96,
+    "src": "/handbook/pennsylvania/bicycle-no-turn-into-path.png",
+    "width": 998
+  },
+  "bicycle-vehicle-operators": {
+    "height": 133,
+    "page": 96,
+    "src": "/handbook/pennsylvania/bicycle-vehicle-operators.png",
+    "width": 1071
+  },
+  "blind-spot-definition": {
+    "height": 133,
+    "page": 41,
+    "src": "/handbook/pennsylvania/blind-spot-definition.png",
+    "width": 1145
+  },
+  "blind-spot-turn-head": {
+    "height": 157,
+    "page": 41,
+    "src": "/handbook/pennsylvania/blind-spot-turn-head.png",
+    "width": 1145
+  },
+  "blocked-intersection": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/pennsylvania/blocked-intersection.png",
+    "width": 1071
+  },
+  "brake-warning-light": {
+    "height": 160,
+    "page": 66,
+    "src": "/handbook/pennsylvania/brake-warning-light.png",
+    "width": 1070
+  },
+  "broken-vs-solid-lines": {
+    "height": 108,
+    "page": 26,
+    "src": "/handbook/pennsylvania/broken-vs-solid-lines.png",
+    "width": 1144
+  },
+  "broken-white-lines-passing": {
+    "height": 205,
+    "page": 26,
+    "src": "/handbook/pennsylvania/broken-white-lines-passing.png",
+    "width": 661
+  },
+  "center-turn-lane-both-directions": {
+    "height": 133,
+    "page": 49,
+    "src": "/handbook/pennsylvania/center-turn-lane-both-directions.png",
+    "width": 1119
+  },
+  "chevron-signs": {
+    "height": 133,
+    "page": 17,
+    "src": "/handbook/pennsylvania/chevron-signs.png",
+    "width": 1144
+  },
+  "children-12-and-under-rear": {
+    "height": 109,
+    "page": 95,
+    "src": "/handbook/pennsylvania/children-12-and-under-rear.png",
+    "width": 1069
+  },
+  "class-c-licence": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/pennsylvania/class-c-licence.png",
+    "width": 1070
+  },
+  "crash-bumps-to-high-rate": {
+    "height": 109,
+    "page": 86,
+    "src": "/handbook/pennsylvania/crash-bumps-to-high-rate.png",
+    "width": 1064
+  },
+  "crash-call-police-tow": {
+    "height": 109,
+    "page": 85,
+    "src": "/handbook/pennsylvania/crash-call-police-tow.png",
+    "width": 535
+  },
+  "crash-report-five-days": {
+    "height": 157,
+    "page": 85,
+    "src": "/handbook/pennsylvania/crash-report-five-days.png",
+    "width": 659
+  },
+  "crossbuck-yield": {
+    "height": 133,
+    "page": 14,
+    "src": "/handbook/pennsylvania/crossbuck-yield.png",
+    "width": 1001
+  },
+  "disabled-parking-conditions": {
+    "height": 109,
+    "page": 96,
+    "src": "/handbook/pennsylvania/disabled-parking-conditions.png",
+    "width": 1076
+  },
+  "disabled-parking-fine": {
+    "height": 132,
+    "page": 96,
+    "src": "/handbook/pennsylvania/disabled-parking-fine.png",
+    "width": 1071
+  },
+  "divided-highway-sign": {
+    "height": 181,
+    "page": 15,
+    "src": "/handbook/pennsylvania/divided-highway-sign.png",
+    "width": 1133
+  },
+  "do-not-enter-wrong-way": {
+    "height": 181,
+    "page": 15,
+    "src": "/handbook/pennsylvania/do-not-enter-wrong-way.png",
+    "width": 758
+  },
+  "dui-08-adult": {
+    "height": 157,
+    "page": 85,
+    "src": "/handbook/pennsylvania/dui-08-adult.png",
+    "width": 1091
+  },
+  "dutch-reach": {
+    "height": 109,
+    "page": 97,
+    "src": "/handbook/pennsylvania/dutch-reach.png",
+    "width": 681
+  },
+  "emergency-vehicle-pull-over": {
+    "height": 109,
+    "page": 63,
+    "src": "/handbook/pennsylvania/emergency-vehicle-pull-over.png",
+    "width": 601
+  },
+  "escape-path-eight-feet": {
+    "height": 132,
+    "page": 40,
+    "src": "/handbook/pennsylvania/escape-path-eight-feet.png",
+    "width": 1070
+  },
+  "exit-only-panel": {
+    "height": 157,
+    "page": 23,
+    "src": "/handbook/pennsylvania/exit-only-panel.png",
+    "width": 1071
+  },
+  "fatigue-18-hours": {
+    "height": 109,
+    "page": 37,
+    "src": "/handbook/pennsylvania/fatigue-18-hours.png",
+    "width": 1077
+  },
+  "fatigue-24-hours": {
+    "height": 109,
+    "page": 37,
+    "src": "/handbook/pennsylvania/fatigue-24-hours.png",
+    "width": 1077
+  },
+  "flashing-red-light": {
+    "height": 205,
+    "page": 12,
+    "src": "/handbook/pennsylvania/flashing-red-light.png",
+    "width": 266
+  },
+  "flashing-yellow-arrow": {
+    "height": 205,
+    "page": 12,
+    "src": "/handbook/pennsylvania/flashing-yellow-arrow.png",
+    "width": 383
+  },
+  "flashing-yellow-light": {
+    "height": 205,
+    "page": 12,
+    "src": "/handbook/pennsylvania/flashing-yellow-light.png",
+    "width": 227
+  },
+  "flood-six-inches": {
+    "height": 134,
+    "page": 66,
+    "src": "/handbook/pennsylvania/flood-six-inches.png",
+    "width": 1073
+  },
+  "four-second-following": {
+    "height": 205,
+    "page": 39,
+    "src": "/handbook/pennsylvania/four-second-following.png",
+    "width": 1145
+  },
+  "four-way-stop": {
+    "height": 133,
+    "page": 14,
+    "src": "/handbook/pennsylvania/four-way-stop.png",
+    "width": 1001
+  },
+  "four-way-stop-tie": {
+    "height": 157,
+    "page": 14,
+    "src": "/handbook/pennsylvania/four-way-stop-tie.png",
+    "width": 1001
+  },
+  "funeral-procession-yield": {
+    "height": 133,
+    "page": 68,
+    "src": "/handbook/pennsylvania/funeral-procession-yield.png",
+    "width": 1069
+  },
+  "gap-left-turn": {
+    "height": 132,
+    "page": 53,
+    "src": "/handbook/pennsylvania/gap-left-turn.png",
+    "width": 1070
+  },
+  "gap-two-way-stop": {
+    "height": 132,
+    "page": 53,
+    "src": "/handbook/pennsylvania/gap-two-way-stop.png",
+    "width": 1070
+  },
+  "guide-signs": {
+    "height": 133,
+    "page": 23,
+    "src": "/handbook/pennsylvania/guide-signs.png",
+    "width": 1071
+  },
+  "hazard-flashers-below-40": {
+    "height": 133,
+    "page": 48,
+    "src": "/handbook/pennsylvania/hazard-flashers-below-40.png",
+    "width": 1144
+  },
+  "head-on-collision": {
+    "height": 109,
+    "page": 68,
+    "src": "/handbook/pennsylvania/head-on-collision.png",
+    "width": 1074
+  },
+  "head-restraint-adjust": {
+    "height": 129,
+    "page": 36,
+    "src": "/handbook/pennsylvania/head-restraint-adjust.png",
+    "width": 1118
+  },
+  "headlights-sunset-sunrise": {
+    "height": 109,
+    "page": 44,
+    "src": "/handbook/pennsylvania/headlights-sunset-sunrise.png",
+    "width": 348
+  },
+  "headlights-with-wipers": {
+    "height": 109,
+    "page": 44,
+    "src": "/handbook/pennsylvania/headlights-with-wipers.png",
+    "width": 921
+  },
+  "highest-rate-tier": {
+    "height": 109,
+    "page": 87,
+    "src": "/handbook/pennsylvania/highest-rate-tier.png",
+    "width": 1108
+  },
+  "highway-speed-feet-per-second": {
+    "height": 109,
+    "page": 56,
+    "src": "/handbook/pennsylvania/highway-speed-feet-per-second.png",
+    "width": 1120
+  },
+  "hydroplaning-35-mph": {
+    "height": 133,
+    "page": 45,
+    "src": "/handbook/pennsylvania/hydroplaning-35-mph.png",
+    "width": 1070
+  },
+  "implied-consent": {
+    "height": 152,
+    "page": 86,
+    "src": "/handbook/pennsylvania/implied-consent.png",
+    "width": 1070
+  },
+  "interstate-even-numbers": {
+    "height": 109,
+    "page": 24,
+    "src": "/handbook/pennsylvania/interstate-even-numbers.png",
+    "width": 1070
+  },
+  "interstate-speed-posting": {
+    "height": 109,
+    "page": 43,
+    "src": "/handbook/pennsylvania/interstate-speed-posting.png",
+    "width": 817
+  },
+  "interstate-three-digit-odd": {
+    "height": 109,
+    "page": 24,
+    "src": "/handbook/pennsylvania/interstate-three-digit-odd.png",
+    "width": 1122
+  },
+  "junior-90-day-suspension": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/pennsylvania/junior-90-day-suspension.png",
+    "width": 1144
+  },
+  "junior-curfew": {
+    "height": 133,
+    "page": 7,
+    "src": "/handbook/pennsylvania/junior-curfew.png",
+    "width": 1070
+  },
+  "junior-curfew-exception": {
+    "height": 133,
+    "page": 7,
+    "src": "/handbook/pennsylvania/junior-curfew-exception.png",
+    "width": 1050
+  },
+  "junior-passengers-first-six-months": {
+    "height": 157,
+    "page": 8,
+    "src": "/handbook/pennsylvania/junior-passengers-first-six-months.png",
+    "width": 1070
+  },
+  "junior-to-regular-licence": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/pennsylvania/junior-to-regular-licence.png",
+    "width": 1070
+  },
+  "keep-right-sign": {
+    "height": 181,
+    "page": 16,
+    "src": "/handbook/pennsylvania/keep-right-sign.png",
+    "width": 408
+  },
+  "knowledge-test-18-questions": {
+    "height": 109,
+    "page": 9,
+    "src": "/handbook/pennsylvania/knowledge-test-18-questions.png",
+    "width": 1079
+  },
+  "knowledge-test-retake-next-day": {
+    "height": 133,
+    "page": 9,
+    "src": "/handbook/pennsylvania/knowledge-test-retake-next-day.png",
+    "width": 1079
+  },
+  "lane-green-arrow": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/pennsylvania/lane-green-arrow.png",
+    "width": 1070
+  },
+  "lane-marked-turn-only-must-turn": {
+    "height": 157,
+    "page": 52,
+    "src": "/handbook/pennsylvania/lane-marked-turn-only-must-turn.png",
+    "width": 1071
+  },
+  "leaving-vehicle": {
+    "height": 133,
+    "page": 57,
+    "src": "/handbook/pennsylvania/leaving-vehicle.png",
+    "width": 1070
+  },
+  "left-right-left": {
+    "height": 109,
+    "page": 42,
+    "src": "/handbook/pennsylvania/left-right-left.png",
+    "width": 771
+  },
+  "left-turn-on-red-one-way": {
+    "height": 137,
+    "page": 11,
+    "src": "/handbook/pennsylvania/left-turn-on-red-one-way.png",
+    "width": 964
+  },
+  "littering-fine": {
+    "height": 154,
+    "page": 96,
+    "src": "/handbook/pennsylvania/littering-fine.png",
+    "width": 1071
+  },
+  "look-ahead-12-15-seconds": {
+    "height": 133,
+    "page": 41,
+    "src": "/handbook/pennsylvania/look-ahead-12-15-seconds.png",
+    "width": 532
+  },
+  "loose-items-projectiles": {
+    "height": 128,
+    "page": 35,
+    "src": "/handbook/pennsylvania/loose-items-projectiles.png",
+    "width": 1071
+  },
+  "low-beams-500-300": {
+    "height": 133,
+    "page": 44,
+    "src": "/handbook/pennsylvania/low-beams-500-300.png",
+    "width": 1070
+  },
+  "low-shoulder-sign": {
+    "height": 157,
+    "page": 20,
+    "src": "/handbook/pennsylvania/low-shoulder-sign.png",
+    "width": 1144
+  },
+  "max-speed-70": {
+    "height": 109,
+    "page": 43,
+    "src": "/handbook/pennsylvania/max-speed-70.png",
+    "width": 514
+  },
+  "merging-traffic-yield": {
+    "height": 109,
+    "page": 18,
+    "src": "/handbook/pennsylvania/merging-traffic-yield.png",
+    "width": 888
+  },
+  "motorcycle-full-lane": {
+    "height": 109,
+    "page": 60,
+    "src": "/handbook/pennsylvania/motorcycle-full-lane.png",
+    "width": 945
+  },
+  "motorcycle-turn-signal": {
+    "height": 109,
+    "page": 60,
+    "src": "/handbook/pennsylvania/motorcycle-turn-signal.png",
+    "width": 1033
+  },
+  "move-over-slow-20-below": {
+    "height": 132,
+    "page": 63,
+    "src": "/handbook/pennsylvania/move-over-slow-20-below.png",
+    "width": 1074
+  },
+  "name-address-change-15-days": {
+    "height": 133,
+    "page": 93,
+    "src": "/handbook/pennsylvania/name-address-change-15-days.png",
+    "width": 1112
+  },
+  "never-wave-pedestrian": {
+    "height": 133,
+    "page": 59,
+    "src": "/handbook/pennsylvania/never-wave-pedestrian.png",
+    "width": 1033
+  },
+  "no-cruise-control-slippery": {
+    "height": 109,
+    "page": 45,
+    "src": "/handbook/pennsylvania/no-cruise-control-slippery.png",
+    "width": 1114
+  },
+  "no-parking-bridge-tunnel": {
+    "height": 133,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-bridge-tunnel.png",
+    "width": 457
+  },
+  "no-parking-crosswalk": {
+    "height": 109,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-crosswalk.png",
+    "width": 512
+  },
+  "no-parking-divided-highway": {
+    "height": 133,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-divided-highway.png",
+    "width": 531
+  },
+  "no-parking-double-park": {
+    "height": 157,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-double-park.png",
+    "width": 562
+  },
+  "no-parking-fire-hydrant": {
+    "height": 109,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-fire-hydrant.png",
+    "width": 365
+  },
+  "no-parking-fire-station": {
+    "height": 133,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-fire-station.png",
+    "width": 489
+  },
+  "no-parking-limited-access": {
+    "height": 133,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-limited-access.png",
+    "width": 524
+  },
+  "no-parking-railroad": {
+    "height": 133,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-railroad.png",
+    "width": 482
+  },
+  "no-parking-traffic-control": {
+    "height": 157,
+    "page": 57,
+    "src": "/handbook/pennsylvania/no-parking-traffic-control.png",
+    "width": 546
+  },
+  "no-passing-100-feet-intersection": {
+    "height": 133,
+    "page": 51,
+    "src": "/handbook/pennsylvania/no-passing-100-feet-intersection.png",
+    "width": 1142
+  },
+  "no-passing-bridge-tunnel": {
+    "height": 109,
+    "page": 51,
+    "src": "/handbook/pennsylvania/no-passing-bridge-tunnel.png",
+    "width": 736
+  },
+  "no-passing-curve-hill": {
+    "height": 109,
+    "page": 51,
+    "src": "/handbook/pennsylvania/no-passing-curve-hill.png",
+    "width": 1065
+  },
+  "no-passing-pennant": {
+    "height": 133,
+    "page": 17,
+    "src": "/handbook/pennsylvania/no-passing-pennant.png",
+    "width": 1144
+  },
+  "no-u-turn-sign": {
+    "height": 181,
+    "page": 15,
+    "src": "/handbook/pennsylvania/no-u-turn-sign.png",
+    "width": 1133
+  },
+  "non-functioning-signal": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/pennsylvania/non-functioning-signal.png",
+    "width": 867
+  },
+  "object-markers": {
+    "height": 133,
+    "page": 21,
+    "src": "/handbook/pennsylvania/object-markers.png",
+    "width": 1129
+  },
+  "one-drink-definition": {
+    "height": 131,
+    "page": 38,
+    "src": "/handbook/pennsylvania/one-drink-definition.png",
+    "width": 690
+  },
+  "only-time-sobers-you": {
+    "height": 131,
+    "page": 38,
+    "src": "/handbook/pennsylvania/only-time-sobers-you.png",
+    "width": 1070
+  },
+  "open-bed-truck": {
+    "height": 155,
+    "page": 63,
+    "src": "/handbook/pennsylvania/open-bed-truck.png",
+    "width": 1069
+  },
+  "otc-drugs-driving": {
+    "height": 153,
+    "page": 38,
+    "src": "/handbook/pennsylvania/otc-drugs-driving.png",
+    "width": 1071
+  },
+  "overdrive-headlights-45": {
+    "height": 133,
+    "page": 44,
+    "src": "/handbook/pennsylvania/overdrive-headlights-45.png",
+    "width": 1070
+  },
+  "parking-12-inches": {
+    "height": 132,
+    "page": 56,
+    "src": "/handbook/pennsylvania/parking-12-inches.png",
+    "width": 1071
+  },
+  "parking-direction-of-traffic": {
+    "height": 131,
+    "page": 56,
+    "src": "/handbook/pennsylvania/parking-direction-of-traffic.png",
+    "width": 1070
+  },
+  "parking-downhill-wheels": {
+    "height": 197,
+    "page": 56,
+    "src": "/handbook/pennsylvania/parking-downhill-wheels.png",
+    "width": 1070
+  },
+  "parking-visible-500-feet": {
+    "height": 132,
+    "page": 56,
+    "src": "/handbook/pennsylvania/parking-visible-500-feet.png",
+    "width": 1070
+  },
+  "passing-10-mph-faster": {
+    "height": 109,
+    "page": 51,
+    "src": "/handbook/pennsylvania/passing-10-mph-faster.png",
+    "width": 1035
+  },
+  "passing-on-right-left-turn": {
+    "height": 133,
+    "page": 51,
+    "src": "/handbook/pennsylvania/passing-on-right-left-turn.png",
+    "width": 1065
+  },
+  "passing-quarter-mile": {
+    "height": 157,
+    "page": 51,
+    "src": "/handbook/pennsylvania/passing-quarter-mile.png",
+    "width": 737
+  },
+  "pavement-yellow-lines": {
+    "height": 130,
+    "page": 26,
+    "src": "/handbook/pennsylvania/pavement-yellow-lines.png",
+    "width": 1070
+  },
+  "pedestrian-flashing-dont-walk": {
+    "height": 171,
+    "page": 13,
+    "src": "/handbook/pennsylvania/pedestrian-flashing-dont-walk.png",
+    "width": 1145
+  },
+  "pedestrian-steady-dont-walk": {
+    "height": 215,
+    "page": 13,
+    "src": "/handbook/pennsylvania/pedestrian-steady-dont-walk.png",
+    "width": 1145
+  },
+  "permit-age-16": {
+    "height": 109,
+    "page": 5,
+    "src": "/handbook/pennsylvania/permit-age-16.png",
+    "width": 1144
+  },
+  "permit-validity": {
+    "height": 134,
+    "page": 6,
+    "src": "/handbook/pennsylvania/permit-validity.png",
+    "width": 1070
+  },
+  "point-removal-12-months": {
+    "height": 156,
+    "page": 83,
+    "src": "/handbook/pennsylvania/point-removal-12-months.png",
+    "width": 1144
+  },
+  "police-blue-only-not-police": {
+    "height": 130,
+    "page": 85,
+    "src": "/handbook/pennsylvania/police-blue-only-not-police.png",
+    "width": 1070
+  },
+  "railroad-signal-types": {
+    "height": 133,
+    "page": 13,
+    "src": "/handbook/pennsylvania/railroad-signal-types.png",
+    "width": 924
+  },
+  "ramp-meter-not-protected": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/pennsylvania/ramp-meter-not-protected.png",
+    "width": 1145
+  },
+  "rearview-mirror-objects": {
+    "height": 109,
+    "page": 35,
+    "src": "/handbook/pennsylvania/rearview-mirror-objects.png",
+    "width": 1036
+  },
+  "refusal-even-if-not-guilty": {
+    "height": 130,
+    "page": 86,
+    "src": "/handbook/pennsylvania/refusal-even-if-not-guilty.png",
+    "width": 1070
+  },
+  "refusal-restoration-fee": {
+    "height": 131,
+    "page": 86,
+    "src": "/handbook/pennsylvania/refusal-restoration-fee.png",
+    "width": 1070
+  },
+  "regulatory-signs": {
+    "height": 109,
+    "page": 14,
+    "src": "/handbook/pennsylvania/regulatory-signs.png",
+    "width": 1071
+  },
+  "return-after-passing": {
+    "height": 135,
+    "page": 51,
+    "src": "/handbook/pennsylvania/return-after-passing.png",
+    "width": 1033
+  },
+  "right-of-way-not-given": {
+    "height": 133,
+    "page": 52,
+    "src": "/handbook/pennsylvania/right-of-way-not-given.png",
+    "width": 565
+  },
+  "right-turn-on-red": {
+    "height": 136,
+    "page": 11,
+    "src": "/handbook/pennsylvania/right-turn-on-red.png",
+    "width": 964
+  },
+  "road-closure-penalty": {
+    "height": 133,
+    "page": 97,
+    "src": "/handbook/pennsylvania/road-closure-penalty.png",
+    "width": 1066
+  },
+  "road-test-documents": {
+    "height": 109,
+    "page": 9,
+    "src": "/handbook/pennsylvania/road-test-documents.png",
+    "width": 788
+  },
+  "roundabout-never-stop": {
+    "height": 133,
+    "page": 54,
+    "src": "/handbook/pennsylvania/roundabout-never-stop.png",
+    "width": 1027
+  },
+  "roundabout-pedestrians": {
+    "height": 109,
+    "page": 54,
+    "src": "/handbook/pennsylvania/roundabout-pedestrians.png",
+    "width": 1027
+  },
+  "safety-inspection-12-months": {
+    "height": 109,
+    "page": 96,
+    "src": "/handbook/pennsylvania/safety-inspection-12-months.png",
+    "width": 1122
+  },
+  "school-bus-10-feet": {
+    "height": 178,
+    "page": 62,
+    "src": "/handbook/pennsylvania/school-bus-10-feet.png",
+    "width": 1070
+  },
+  "school-bus-divided-highway": {
+    "height": 201,
+    "page": 62,
+    "src": "/handbook/pennsylvania/school-bus-divided-highway.png",
+    "width": 1070
+  },
+  "school-bus-penalty": {
+    "height": 265,
+    "page": 62,
+    "src": "/handbook/pennsylvania/school-bus-penalty.png",
+    "width": 1070
+  },
+  "school-pentagon-sign": {
+    "height": 133,
+    "page": 21,
+    "src": "/handbook/pennsylvania/school-pentagon-sign.png",
+    "width": 1129
+  },
+  "school-zone-15-mph": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/pennsylvania/school-zone-15-mph.png",
+    "width": 1070
+  },
+  "school-zone-points": {
+    "height": 133,
+    "page": 13,
+    "src": "/handbook/pennsylvania/school-zone-points.png",
+    "width": 962
+  },
+  "seat-belt-8-to-18": {
+    "height": 133,
+    "page": 93,
+    "src": "/handbook/pennsylvania/seat-belt-8-to-18.png",
+    "width": 1145
+  },
+  "seat-belt-statute-driver-under-18": {
+    "height": 134,
+    "page": 5,
+    "src": "/handbook/pennsylvania/seat-belt-statute-driver-under-18.png",
+    "width": 1051
+  },
+  "skid-steer-direction": {
+    "height": 133,
+    "page": 65,
+    "src": "/handbook/pennsylvania/skid-steer-direction.png",
+    "width": 643
+  },
+  "skill-building-65-hours": {
+    "height": 157,
+    "page": 6,
+    "src": "/handbook/pennsylvania/skill-building-65-hours.png",
+    "width": 1070
+  },
+  "slow-moving-vehicle-emblem": {
+    "height": 156,
+    "page": 48,
+    "src": "/handbook/pennsylvania/slow-moving-vehicle-emblem.png",
+    "width": 1144
+  },
+  "snow-ice-dislodged-fine": {
+    "height": 133,
+    "page": 45,
+    "src": "/handbook/pennsylvania/snow-ice-dislodged-fine.png",
+    "width": 1114
+  },
+  "snow-ice-speed-reduction": {
+    "height": 132,
+    "page": 45,
+    "src": "/handbook/pennsylvania/snow-ice-speed-reduction.png",
+    "width": 1114
+  },
+  "snow-plow-no-passing": {
+    "height": 133,
+    "page": 64,
+    "src": "/handbook/pennsylvania/snow-plow-no-passing.png",
+    "width": 1071
+  },
+  "snow-squall-caution": {
+    "height": 137,
+    "page": 47,
+    "src": "/handbook/pennsylvania/snow-squall-caution.png",
+    "width": 1079
+  },
+  "speed-limit-posting-interval": {
+    "height": 109,
+    "page": 43,
+    "src": "/handbook/pennsylvania/speed-limit-posting-interval.png",
+    "width": 938
+  },
+  "speed-limit-sign": {
+    "height": 157,
+    "page": 16,
+    "src": "/handbook/pennsylvania/speed-limit-sign.png",
+    "width": 954
+  },
+  "steady-green-arrow": {
+    "height": 109,
+    "page": 11,
+    "src": "/handbook/pennsylvania/steady-green-arrow.png",
+    "width": 964
+  },
+  "steady-red-arrow": {
+    "height": 137,
+    "page": 11,
+    "src": "/handbook/pennsylvania/steady-red-arrow.png",
+    "width": 964
+  },
+  "steady-red-light": {
+    "height": 137,
+    "page": 11,
+    "src": "/handbook/pennsylvania/steady-red-light.png",
+    "width": 964
+  },
+  "steady-yellow-arrow": {
+    "height": 136,
+    "page": 11,
+    "src": "/handbook/pennsylvania/steady-yellow-arrow.png",
+    "width": 969
+  },
+  "steer-vs-brake": {
+    "height": 133,
+    "page": 64,
+    "src": "/handbook/pennsylvania/steer-vs-brake.png",
+    "width": 1080
+  },
+  "stop-sign-complete-stop": {
+    "height": 157,
+    "page": 14,
+    "src": "/handbook/pennsylvania/stop-sign-complete-stop.png",
+    "width": 969
+  },
+  "stopped-vehicle-pedestrians": {
+    "height": 133,
+    "page": 59,
+    "src": "/handbook/pennsylvania/stopped-vehicle-pedestrians.png",
+    "width": 1033
+  },
+  "stuck-accelerator": {
+    "height": 109,
+    "page": 66,
+    "src": "/handbook/pennsylvania/stuck-accelerator.png",
+    "width": 1070
+  },
+  "texting-law": {
+    "height": 133,
+    "page": 97,
+    "src": "/handbook/pennsylvania/texting-law.png",
+    "width": 1071
+  },
+  "thrown-from-vehicle": {
+    "height": 133,
+    "page": 93,
+    "src": "/handbook/pennsylvania/thrown-from-vehicle.png",
+    "width": 1071
+  },
+  "tire-blowout": {
+    "height": 109,
+    "page": 67,
+    "src": "/handbook/pennsylvania/tire-blowout.png",
+    "width": 1070
+  },
+  "too-fast-for-conditions": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/pennsylvania/too-fast-for-conditions.png",
+    "width": 1144
+  },
+  "truck-backing": {
+    "height": 109,
+    "page": 62,
+    "src": "/handbook/pennsylvania/truck-backing.png",
+    "width": 1070
+  },
+  "truck-mirrors-blind-spot": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/pennsylvania/truck-mirrors-blind-spot.png",
+    "width": 1082
+  },
+  "truck-passing-time": {
+    "height": 133,
+    "page": 60,
+    "src": "/handbook/pennsylvania/truck-passing-time.png",
+    "width": 1132
+  },
+  "truck-stopping-distance": {
+    "height": 155,
+    "page": 62,
+    "src": "/handbook/pennsylvania/truck-stopping-distance.png",
+    "width": 1070
+  },
+  "truck-wide-turns": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/pennsylvania/truck-wide-turns.png",
+    "width": 1144
+  },
+  "turn-into-closest-lane": {
+    "height": 133,
+    "page": 49,
+    "src": "/handbook/pennsylvania/turn-into-closest-lane.png",
+    "width": 1070
+  },
+  "turn-signal-distance": {
+    "height": 229,
+    "page": 48,
+    "src": "/handbook/pennsylvania/turn-signal-distance.png",
+    "width": 478
+  },
+  "two-way-left-turn-arrow": {
+    "height": 133,
+    "page": 12,
+    "src": "/handbook/pennsylvania/two-way-left-turn-arrow.png",
+    "width": 961
+  },
+  "u-turn-500-feet": {
+    "height": 157,
+    "page": 50,
+    "src": "/handbook/pennsylvania/u-turn-500-feet.png",
+    "width": 1071
+  },
+  "u-turn-prohibited-places": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/pennsylvania/u-turn-prohibited-places.png",
+    "width": 1071
+  },
+  "under-21-bac-02": {
+    "height": 133,
+    "page": 37,
+    "src": "/handbook/pennsylvania/under-21-bac-02.png",
+    "width": 1071
+  },
+  "under-21-high-rate-penalties": {
+    "height": 109,
+    "page": 86,
+    "src": "/handbook/pennsylvania/under-21-high-rate-penalties.png",
+    "width": 1064
+  },
+  "underage-possession": {
+    "height": 133,
+    "page": 88,
+    "src": "/handbook/pennsylvania/underage-possession.png",
+    "width": 1070
+  },
+  "warning-signs-shape": {
+    "height": 133,
+    "page": 17,
+    "src": "/handbook/pennsylvania/warning-signs-shape.png",
+    "width": 1144
+  },
+  "weaving-lane-yield": {
+    "height": 132,
+    "page": 56,
+    "src": "/handbook/pennsylvania/weaving-lane-yield.png",
+    "width": 1071
+  },
+  "wet-road-speed-reduction": {
+    "height": 109,
+    "page": 45,
+    "src": "/handbook/pennsylvania/wet-road-speed-reduction.png",
+    "width": 1114
+  },
+  "work-zone-no-solid-white": {
+    "height": 109,
+    "page": 58,
+    "src": "/handbook/pennsylvania/work-zone-no-solid-white.png",
+    "width": 694
+  },
+  "work-zone-sign-color": {
+    "height": 133,
+    "page": 22,
+    "src": "/handbook/pennsylvania/work-zone-sign-color.png",
+    "width": 1070
+  },
+  "yellow-light-already-in-intersection": {
+    "height": 137,
+    "page": 11,
+    "src": "/handbook/pennsylvania/yellow-light-already-in-intersection.png",
+    "width": 1038
+  },
+  "yield-blind-pedestrian-always": {
+    "height": 133,
+    "page": 52,
+    "src": "/handbook/pennsylvania/yield-blind-pedestrian-always.png",
+    "width": 1030
+  },
+  "yield-from-driveway": {
+    "height": 133,
+    "page": 52,
+    "src": "/handbook/pennsylvania/yield-from-driveway.png",
+    "width": 1030
+  },
+  "yield-left-turn": {
+    "height": 109,
+    "page": 52,
+    "src": "/handbook/pennsylvania/yield-left-turn.png",
+    "width": 752
+  },
+  "yield-roundabout": {
+    "height": 133,
+    "page": 52,
+    "src": "/handbook/pennsylvania/yield-roundabout.png",
+    "width": 1030
+  },
+  "yield-sign": {
+    "height": 157,
+    "page": 14,
+    "src": "/handbook/pennsylvania/yield-sign.png",
+    "width": 1001
+  }
+}

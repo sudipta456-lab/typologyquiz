@@ -44,6 +44,24 @@ const OFFICIAL_HOSTS = [
   "dmv.ny.gov",
   "dot.ny.gov",
   "nysenate.gov",
+  // Illinois
+  "ilsos.gov",
+  "cyberdriveillinois.com",
+  "illinois.gov",
+  // Pennsylvania
+  "dmv.pa.gov",
+  "penndot.pa.gov",
+  "pacodeandbulletin.gov",
+  "pa.gov",
+  "legis.state.pa.us",
+  // Ohio
+  "bmv.ohio.gov",
+  "publicsafety.ohio.gov",
+  "codes.ohio.gov",
+  // Georgia
+  "dds.georgia.gov",
+  "georgia.gov",
+  "dot.ga.gov",
 ];
 
 let errors = 0;

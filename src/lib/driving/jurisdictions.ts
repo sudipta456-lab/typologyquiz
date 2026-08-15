@@ -3,6 +3,8 @@ import { albertaSets1to3 } from "./alberta/sets-1-3";
 import { albertaSets4to6 } from "./alberta/sets-4-6";
 import { ontarioSets1to3 } from "./ontario/sets-1-3";
 import { ontarioSets4to6 } from "./ontario/sets-4-6";
+import { pennsylvaniaSets1to3 } from "./pennsylvania/sets-1-3";
+import { pennsylvaniaSets4to6 } from "./pennsylvania/sets-4-6";
 import { newyorkSets1to3 } from "./newyork/sets-1-3";
 import { newyorkSets4to6 } from "./newyork/sets-4-6";
 import { floridaSets1to3 } from "./florida/sets-1-3";
@@ -185,6 +187,34 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "Passing the written test needs 2 of the 4 sign questions, on top of 14 of 20 overall.",
     ],
     sets: [...newyorkSets1to3, ...newyorkSets4to6].sort(byNumber),
+  },
+  {
+    slug: "pennsylvania",
+    name: "Pennsylvania",
+    code: "PA",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Learner's Permit",
+    intro:
+      "Pennsylvania asks only 18 questions but wants 15 right, so there is almost no room to guess - one of the tightest margins anywhere.",
+    officialTest: {
+      questionCount: 18,
+      passCount: 15,
+      passLabel: "15 of 18 (83%)",
+      notes: [
+        "18 multiple-choice questions. You need 15 correct, so you can miss only three.",
+        "Taken in person at a driver license center, no appointment needed. You may retake it the next business day, one attempt per day.",
+      ],
+    },
+    handbookName: "Pennsylvania Driver's Manual (PUB 95)",
+    handbookUrl: "https://www.pa.gov/agencies/dmv/driver-services/drivers-manuals.html",
+    officialInfoUrl: "https://www.pa.gov/agencies/dmv.html",
+    localGotchas: [
+      "Only three wrong answers fail you - the tightest margin of any state here.",
+      "The snow and ice rule changed in 2022: a flat fine for not clearing your car, and a much heavier one if dislodged ice hurts someone.",
+      "Junior licence holders face an 11pm curfew and passenger limits that tighten after a crash or conviction.",
+    ],
+    sets: [...pennsylvaniaSets1to3, ...pennsylvaniaSets4to6].sort(byNumber),
   },
   {
     slug: "california",
