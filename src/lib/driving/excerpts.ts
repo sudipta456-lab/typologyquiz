@@ -103,13 +103,13 @@ import virginiaSnippets from "./virginia/snippets.json";
 import washingtonSnippets from "./washington/snippets.json";
 import massachusettsSnippets from "./massachusetts/snippets.json";
 import tennesseeSnippets from "./tennessee/snippets.json";
-// Arizona's manifest is empty on purpose. apps.azdot.gov sits behind a
-// Cloudflare interstitial that refuses automated clients, and the Internet
-// Archive's copy of the manual - which does exist - was returning 503 from the
-// replay server when this bank shipped. Every Arizona excerpt still carries its
-// verbatim quote and a link to the official page; only the highlighted image is
-// missing, and the UI already falls back to the quote alone. Re-run
-// scripts/build-excerpt-snippets.py against the manual once it is reachable.
+// Arizona's snippets are cut from an Internet Archive capture rather than the
+// live PDF: apps.azdot.gov sits behind a Cloudflare interstitial that refuses
+// automated clients. The archived copy is byte-identical to the official file
+// and the excerpt urls still point at the live page. The replay server 503s
+// intermittently - it took seven attempts - so retry before assuming it is
+// down. The twenty unmatched excerpts are quotes from the Revised Statutes,
+// which were never in the manual to begin with.
 import arizonaSnippets from "./arizona/snippets.json";
 
 export interface HandbookSnippet {

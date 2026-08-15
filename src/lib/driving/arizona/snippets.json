@@ -1,1 +1,1040 @@
-{}
+{
+  "address-change-10-days": {
+    "height": 168,
+    "page": 6,
+    "src": "/handbook/arizona/address-change-10-days.png",
+    "width": 387
+  },
+  "aggravated-dui": {
+    "height": 253,
+    "page": 66,
+    "src": "/handbook/arizona/aggravated-dui.png",
+    "width": 404
+  },
+  "aggressive-driving-definition": {
+    "height": 268,
+    "page": 60,
+    "src": "/handbook/arizona/aggressive-driving-definition.png",
+    "width": 397
+  },
+  "alley-driveway-stop": {
+    "height": 166,
+    "page": 37,
+    "src": "/handbook/arizona/alley-driveway-stop.png",
+    "width": 404
+  },
+  "animals-no-horn": {
+    "height": 192,
+    "page": 70,
+    "src": "/handbook/arizona/animals-no-horn.png",
+    "width": 404
+  },
+  "arrow-panels": {
+    "height": 192,
+    "page": 44,
+    "src": "/handbook/arizona/arrow-panels.png",
+    "width": 398
+  },
+  "bac-008": {
+    "height": 192,
+    "page": 60,
+    "src": "/handbook/arizona/bac-008.png",
+    "width": 397
+  },
+  "backing-up-rear-window": {
+    "height": 192,
+    "page": 30,
+    "src": "/handbook/arizona/backing-up-rear-window.png",
+    "width": 380
+  },
+  "beat-the-light": {
+    "height": 141,
+    "page": 34,
+    "src": "/handbook/arizona/beat-the-light.png",
+    "width": 396
+  },
+  "bicycle-3-feet-passing": {
+    "height": 192,
+    "page": 50,
+    "src": "/handbook/arizona/bicycle-3-feet-passing.png",
+    "width": 401
+  },
+  "bicycle-night-lamp": {
+    "height": 166,
+    "page": 50,
+    "src": "/handbook/arizona/bicycle-night-lamp.png",
+    "width": 381
+  },
+  "bicycle-no-honking": {
+    "height": 192,
+    "page": 50,
+    "src": "/handbook/arizona/bicycle-no-honking.png",
+    "width": 401
+  },
+  "bicyclists-same-laws": {
+    "height": 192,
+    "page": 50,
+    "src": "/handbook/arizona/bicyclists-same-laws.png",
+    "width": 400
+  },
+  "blind-spots-definition": {
+    "height": 167,
+    "page": 26,
+    "src": "/handbook/arizona/blind-spots-definition.png",
+    "width": 397
+  },
+  "blowout-response": {
+    "height": 141,
+    "page": 68,
+    "src": "/handbook/arizona/blowout-response.png",
+    "width": 344
+  },
+  "brake-failure-pump": {
+    "height": 167,
+    "page": 69,
+    "src": "/handbook/arizona/brake-failure-pump.png",
+    "width": 341
+  },
+  "bridges-freeze": {
+    "height": 192,
+    "page": 57,
+    "src": "/handbook/arizona/bridges-freeze.png",
+    "width": 351
+  },
+  "broken-white": {
+    "height": 217,
+    "page": 45,
+    "src": "/handbook/arizona/broken-white.png",
+    "width": 404
+  },
+  "broken-yellow": {
+    "height": 243,
+    "page": 45,
+    "src": "/handbook/arizona/broken-yellow.png",
+    "width": 370
+  },
+  "chemical-test-refusal-penalty": {
+    "height": 268,
+    "page": 63,
+    "src": "/handbook/arizona/chemical-test-refusal-penalty.png",
+    "width": 369
+  },
+  "crash-exchange-info": {
+    "height": 217,
+    "page": 71,
+    "src": "/handbook/arizona/crash-exchange-info.png",
+    "width": 356
+  },
+  "crash-move-not-at-fault": {
+    "height": 268,
+    "page": 71,
+    "src": "/handbook/arizona/crash-move-not-at-fault.png",
+    "width": 405
+  },
+  "curb-red": {
+    "height": 141,
+    "page": 46,
+    "src": "/handbook/arizona/curb-red.png",
+    "width": 238
+  },
+  "curb-white": {
+    "height": 192,
+    "page": 46,
+    "src": "/handbook/arizona/curb-white.png",
+    "width": 252
+  },
+  "curb-yellow": {
+    "height": 192,
+    "page": 46,
+    "src": "/handbook/arizona/curb-yellow.png",
+    "width": 239
+  },
+  "disabled-parking-placard": {
+    "height": 268,
+    "page": 30,
+    "src": "/handbook/arizona/disabled-parking-placard.png",
+    "width": 397
+  },
+  "double-white": {
+    "height": 192,
+    "page": 46,
+    "src": "/handbook/arizona/double-white.png",
+    "width": 414
+  },
+  "double-yellow": {
+    "height": 243,
+    "page": 45,
+    "src": "/handbook/arizona/double-yellow.png",
+    "width": 369
+  },
+  "drowsy-rest-only-remedy": {
+    "height": 142,
+    "page": 61,
+    "src": "/handbook/arizona/drowsy-rest-only-remedy.png",
+    "width": 361
+  },
+  "dui-first-offense": {
+    "height": 218,
+    "page": 66,
+    "src": "/handbook/arizona/dui-first-offense.png",
+    "width": 369
+  },
+  "dui-under-21-any": {
+    "height": 192,
+    "page": 65,
+    "src": "/handbook/arizona/dui-under-21-any.png",
+    "width": 405
+  },
+  "dust-storm-lights-off": {
+    "height": 141,
+    "page": 55,
+    "src": "/handbook/arizona/dust-storm-lights-off.png",
+    "width": 378
+  },
+  "dust-storm-not-travel-lane": {
+    "height": 142,
+    "page": 55,
+    "src": "/handbook/arizona/dust-storm-not-travel-lane.png",
+    "width": 379
+  },
+  "dust-storm-off-highway": {
+    "height": 116,
+    "page": 55,
+    "src": "/handbook/arizona/dust-storm-off-highway.png",
+    "width": 139
+  },
+  "dust-storm-stay-buckled": {
+    "height": 142,
+    "page": 55,
+    "src": "/handbook/arizona/dust-storm-stay-buckled.png",
+    "width": 379
+  },
+  "emergency-vehicle-yield": {
+    "height": 141,
+    "page": 38,
+    "src": "/handbook/arizona/emergency-vehicle-yield.png",
+    "width": 404
+  },
+  "extreme-dui-015": {
+    "height": 167,
+    "page": 66,
+    "src": "/handbook/arizona/extreme-dui-015.png",
+    "width": 383
+  },
+  "failure-to-stop-damage": {
+    "height": 167,
+    "page": 72,
+    "src": "/handbook/arizona/failure-to-stop-damage.png",
+    "width": 368
+  },
+  "farm-machinery": {
+    "height": 217,
+    "page": 52,
+    "src": "/handbook/arizona/farm-machinery.png",
+    "width": 414
+  },
+  "flaggers": {
+    "height": 192,
+    "page": 44,
+    "src": "/handbook/arizona/flaggers.png",
+    "width": 400
+  },
+  "flash-floods": {
+    "height": 162,
+    "page": 56,
+    "src": "/handbook/arizona/flash-floods.png",
+    "width": 396
+  },
+  "flashing-red-light": {
+    "height": 217,
+    "page": 35,
+    "src": "/handbook/arizona/flashing-red-light.png",
+    "width": 367
+  },
+  "flashing-yellow-arrow": {
+    "height": 242,
+    "page": 35,
+    "src": "/handbook/arizona/flashing-yellow-arrow.png",
+    "width": 367
+  },
+  "flashing-yellow-light": {
+    "height": 192,
+    "page": 35,
+    "src": "/handbook/arizona/flashing-yellow-light.png",
+    "width": 367
+  },
+  "fog-low-beams": {
+    "height": 192,
+    "page": 56,
+    "src": "/handbook/arizona/fog-low-beams.png",
+    "width": 404
+  },
+  "follow-fire-500": {
+    "height": 243,
+    "page": 38,
+    "src": "/handbook/arizona/follow-fire-500.png",
+    "width": 405
+  },
+  "following-3-6-rule": {
+    "height": 193,
+    "page": 25,
+    "src": "/handbook/arizona/following-3-6-rule.png",
+    "width": 379
+  },
+  "following-3-seconds": {
+    "height": 167,
+    "page": 53,
+    "src": "/handbook/arizona/following-3-seconds.png",
+    "width": 404
+  },
+  "freeway-entering-yield": {
+    "height": 167,
+    "page": 31,
+    "src": "/handbook/arizona/freeway-entering-yield.png",
+    "width": 387
+  },
+  "freeway-no-backing": {
+    "height": 167,
+    "page": 32,
+    "src": "/handbook/arizona/freeway-no-backing.png",
+    "width": 379
+  },
+  "freeway-no-shoulder-parking": {
+    "height": 142,
+    "page": 33,
+    "src": "/handbook/arizona/freeway-no-shoulder-parking.png",
+    "width": 345
+  },
+  "funeral-procession": {
+    "height": 218,
+    "page": 39,
+    "src": "/handbook/arizona/funeral-procession.png",
+    "width": 370
+  },
+  "gore-area-illegal": {
+    "height": 142,
+    "page": 32,
+    "src": "/handbook/arizona/gore-area-illegal.png",
+    "width": 400
+  },
+  "green-arrow": {
+    "height": 166,
+    "page": 35,
+    "src": "/handbook/arizona/green-arrow.png",
+    "width": 403
+  },
+  "green-means-go": {
+    "height": 217,
+    "page": 34,
+    "src": "/handbook/arizona/green-means-go.png",
+    "width": 386
+  },
+  "green-yield-in-intersection": {
+    "height": 167,
+    "page": 34,
+    "src": "/handbook/arizona/green-yield-in-intersection.png",
+    "width": 386
+  },
+  "hawk-flashing-red": {
+    "height": 187,
+    "page": 36,
+    "src": "/handbook/arizona/hawk-flashing-red.png",
+    "width": 381
+  },
+  "hawk-flashing-yellow": {
+    "height": 141,
+    "page": 36,
+    "src": "/handbook/arizona/hawk-flashing-yellow.png",
+    "width": 381
+  },
+  "hawk-lights-blank": {
+    "height": 167,
+    "page": 37,
+    "src": "/handbook/arizona/hawk-lights-blank.png",
+    "width": 345
+  },
+  "headlights-sunset-sunrise": {
+    "height": 218,
+    "page": 57,
+    "src": "/handbook/arizona/headlights-sunset-sunrise.png",
+    "width": 406
+  },
+  "high-beams-500-feet": {
+    "height": 167,
+    "page": 57,
+    "src": "/handbook/arizona/high-beams-500-feet.png",
+    "width": 406
+  },
+  "hov-two-persons": {
+    "height": 218,
+    "page": 33,
+    "src": "/handbook/arizona/hov-two-persons.png",
+    "width": 367
+  },
+  "hydroplaning-50-mph": {
+    "height": 192,
+    "page": 55,
+    "src": "/handbook/arizona/hydroplaning-50-mph.png",
+    "width": 406
+  },
+  "hydroplaning-response": {
+    "height": 139,
+    "page": 56,
+    "src": "/handbook/arizona/hydroplaning-response.png",
+    "width": 343
+  },
+  "impeding-traffic": {
+    "height": 141,
+    "page": 40,
+    "src": "/handbook/arizona/impeding-traffic.png",
+    "width": 404
+  },
+  "inoperative-signal-4-way": {
+    "height": 192,
+    "page": 35,
+    "src": "/handbook/arizona/inoperative-signal-4-way.png",
+    "width": 404
+  },
+  "insurance-minimums": {
+    "height": 166,
+    "page": 9,
+    "src": "/handbook/arizona/insurance-minimums.png",
+    "width": 372
+  },
+  "interlock-random": {
+    "height": 186,
+    "page": 67,
+    "src": "/handbook/arizona/interlock-random.png",
+    "width": 360
+  },
+  "lane-filtering-15": {
+    "height": 166,
+    "page": 51,
+    "src": "/handbook/arizona/lane-filtering-15.png",
+    "width": 344
+  },
+  "lane-filtering-45": {
+    "height": 141,
+    "page": 51,
+    "src": "/handbook/arizona/lane-filtering-45.png",
+    "width": 345
+  },
+  "lane-use-right-half": {
+    "height": 192,
+    "page": 32,
+    "src": "/handbook/arizona/lane-use-right-half.png",
+    "width": 397
+  },
+  "left-on-red-one-way": {
+    "height": 218,
+    "page": 47,
+    "src": "/handbook/arizona/left-on-red-one-way.png",
+    "width": 404
+  },
+  "left-turn-lane-required": {
+    "height": 167,
+    "page": 47,
+    "src": "/handbook/arizona/left-turn-lane-required.png",
+    "width": 404
+  },
+  "left-turn-yield": {
+    "height": 192,
+    "page": 37,
+    "src": "/handbook/arizona/left-turn-yield.png",
+    "width": 404
+  },
+  "light-rail-red-arrow": {
+    "height": 141,
+    "page": 49,
+    "src": "/handbook/arizona/light-rail-red-arrow.png",
+    "width": 331
+  },
+  "low-beams-200-feet": {
+    "height": 167,
+    "page": 57,
+    "src": "/handbook/arizona/low-beams-200-feet.png",
+    "width": 406
+  },
+  "markings-yellow-white": {
+    "height": 167,
+    "page": 45,
+    "src": "/handbook/arizona/markings-yellow-white.png",
+    "width": 379
+  },
+  "mile-posts": {
+    "height": 218,
+    "page": 43,
+    "src": "/handbook/arizona/mile-posts.png",
+    "width": 376
+  },
+  "motorcycle-full-lane": {
+    "height": 192,
+    "page": 51,
+    "src": "/handbook/arizona/motorcycle-full-lane.png",
+    "width": 404
+  },
+  "motorcycle-permit-validity": {
+    "height": 167,
+    "page": 12,
+    "src": "/handbook/arizona/motorcycle-permit-validity.png",
+    "width": 388
+  },
+  "motorcycle-signals": {
+    "height": 192,
+    "page": 51,
+    "src": "/handbook/arizona/motorcycle-signals.png",
+    "width": 404
+  },
+  "motorcycle-size-judgment": {
+    "height": 217,
+    "page": 51,
+    "src": "/handbook/arizona/motorcycle-size-judgment.png",
+    "width": 369
+  },
+  "move-over-law": {
+    "height": 218,
+    "page": 39,
+    "src": "/handbook/arizona/move-over-law.png",
+    "width": 379
+  },
+  "never-leave-scene": {
+    "height": 141,
+    "page": 72,
+    "src": "/handbook/arizona/never-leave-scene.png",
+    "width": 396
+  },
+  "night-overdriving-lights": {
+    "height": 167,
+    "page": 57,
+    "src": "/handbook/arizona/night-overdriving-lights.png",
+    "width": 406
+  },
+  "no-pass-hill-curve": {
+    "height": 192,
+    "page": 28,
+    "src": "/handbook/arizona/no-pass-hill-curve.png",
+    "width": 367
+  },
+  "no-pass-stopped-for-pedestrian": {
+    "height": 192,
+    "page": 36,
+    "src": "/handbook/arizona/no-pass-stopped-for-pedestrian.png",
+    "width": 395
+  },
+  "no-pass-street-crossing": {
+    "height": 142,
+    "page": 28,
+    "src": "/handbook/arizona/no-pass-street-crossing.png",
+    "width": 365
+  },
+  "officer-overrides-signal": {
+    "height": 192,
+    "page": 34,
+    "src": "/handbook/arizona/officer-overrides-signal.png",
+    "width": 387
+  },
+  "one-way-center-lane": {
+    "height": 167,
+    "page": 46,
+    "src": "/handbook/arizona/one-way-center-lane.png",
+    "width": 397
+  },
+  "open-container": {
+    "height": 217,
+    "page": 59,
+    "src": "/handbook/arizona/open-container.png",
+    "width": 405
+  },
+  "open-container-trunk": {
+    "height": 192,
+    "page": 59,
+    "src": "/handbook/arizona/open-container-trunk.png",
+    "width": 405
+  },
+  "operator-license-18": {
+    "height": 242,
+    "page": 15,
+    "src": "/handbook/arizona/operator-license-18.png",
+    "width": 396
+  },
+  "overheating-radiator-cap": {
+    "height": 141,
+    "page": 68,
+    "src": "/handbook/arizona/overheating-radiator-cap.png",
+    "width": 383
+  },
+  "park-bridge-tunnel": {
+    "height": 116,
+    "page": 31,
+    "src": "/handbook/arizona/park-bridge-tunnel.png",
+    "width": 355
+  },
+  "park-crosswalk-20": {
+    "height": 166,
+    "page": 31,
+    "src": "/handbook/arizona/park-crosswalk-20.png",
+    "width": 357
+  },
+  "park-downhill": {
+    "height": 166,
+    "page": 30,
+    "src": "/handbook/arizona/park-downhill.png",
+    "width": 405
+  },
+  "park-hydrant-15": {
+    "height": 142,
+    "page": 31,
+    "src": "/handbook/arizona/park-hydrant-15.png",
+    "width": 357
+  },
+  "park-no-curb": {
+    "height": 185,
+    "page": 30,
+    "src": "/handbook/arizona/park-no-curb.png",
+    "width": 405
+  },
+  "park-railroad-50": {
+    "height": 141,
+    "page": 31,
+    "src": "/handbook/arizona/park-railroad-50.png",
+    "width": 370
+  },
+  "park-uphill-curb": {
+    "height": 192,
+    "page": 30,
+    "src": "/handbook/arizona/park-uphill-curb.png",
+    "width": 405
+  },
+  "passing-on-the-left": {
+    "height": 167,
+    "page": 27,
+    "src": "/handbook/arizona/passing-on-the-left.png",
+    "width": 387
+  },
+  "passing-return-headlights": {
+    "height": 294,
+    "page": 27,
+    "src": "/handbook/arizona/passing-return-headlights.png",
+    "width": 387
+  },
+  "passing-right-not-off-pavement": {
+    "height": 166,
+    "page": 28,
+    "src": "/handbook/arizona/passing-right-not-off-pavement.png",
+    "width": 377
+  },
+  "pedestrian-crosswalk": {
+    "height": 167,
+    "page": 36,
+    "src": "/handbook/arizona/pedestrian-crosswalk.png",
+    "width": 395
+  },
+  "pedestrian-school-crossing-stop": {
+    "height": 218,
+    "page": 36,
+    "src": "/handbook/arizona/pedestrian-school-crossing-stop.png",
+    "width": 395
+  },
+  "penny-test": {
+    "height": 192,
+    "page": 19,
+    "src": "/handbook/arizona/penny-test.png",
+    "width": 387
+  },
+  "points-8-in-12": {
+    "height": 242,
+    "page": 62,
+    "src": "/handbook/arizona/points-8-in-12.png",
+    "width": 404
+  },
+  "points-speeding-3": {
+    "height": 259,
+    "page": 63,
+    "src": "/handbook/arizona/points-speeding-3.png",
+    "width": 381
+  },
+  "quick-clearance": {
+    "height": 192,
+    "page": 71,
+    "src": "/handbook/arizona/quick-clearance.png",
+    "width": 405
+  },
+  "railroad-15-feet": {
+    "height": 243,
+    "page": 42,
+    "src": "/handbook/arizona/railroad-15-feet.png",
+    "width": 407
+  },
+  "railroad-sign-circle": {
+    "height": 192,
+    "page": 42,
+    "src": "/handbook/arizona/railroad-sign-circle.png",
+    "width": 278
+  },
+  "rain-6-seconds": {
+    "height": 192,
+    "page": 55,
+    "src": "/handbook/arizona/rain-6-seconds.png",
+    "width": 406
+  },
+  "rain-first-30-minutes": {
+    "height": 217,
+    "page": 55,
+    "src": "/handbook/arizona/rain-first-30-minutes.png",
+    "width": 406
+  },
+  "rain-wipers-smear": {
+    "height": 167,
+    "page": 55,
+    "src": "/handbook/arizona/rain-wipers-smear.png",
+    "width": 406
+  },
+  "red-arrow": {
+    "height": 217,
+    "page": 35,
+    "src": "/handbook/arizona/red-arrow.png",
+    "width": 367
+  },
+  "red-complete-stop": {
+    "height": 218,
+    "page": 34,
+    "src": "/handbook/arizona/red-complete-stop.png",
+    "width": 393
+  },
+  "red-light-tss": {
+    "height": 218,
+    "page": 38,
+    "src": "/handbook/arizona/red-light-tss.png",
+    "width": 396
+  },
+  "red-light-tss-mandatory": {
+    "height": 192,
+    "page": 38,
+    "src": "/handbook/arizona/red-light-tss-mandatory.png",
+    "width": 396
+  },
+  "refusal-12-months": {
+    "height": 268,
+    "page": 65,
+    "src": "/handbook/arizona/refusal-12-months.png",
+    "width": 405
+  },
+  "reversible-lanes": {
+    "height": 142,
+    "page": 46,
+    "src": "/handbook/arizona/reversible-lanes.png",
+    "width": 414
+  },
+  "right-of-way-never-take": {
+    "height": 162,
+    "page": 36,
+    "src": "/handbook/arizona/right-of-way-never-take.png",
+    "width": 395
+  },
+  "right-on-red": {
+    "height": 217,
+    "page": 34,
+    "src": "/handbook/arizona/right-on-red.png",
+    "width": 393
+  },
+  "right-turn-close-curb": {
+    "height": 185,
+    "page": 47,
+    "src": "/handbook/arizona/right-turn-close-curb.png",
+    "width": 370
+  },
+  "road-test-adas": {
+    "height": 217,
+    "page": 9,
+    "src": "/handbook/arizona/road-test-adas.png",
+    "width": 396
+  },
+  "roundabout-emergency-vehicle": {
+    "height": 193,
+    "page": 28,
+    "src": "/handbook/arizona/roundabout-emergency-vehicle.png",
+    "width": 403
+  },
+  "roundabout-enter-right": {
+    "height": 142,
+    "page": 28,
+    "src": "/handbook/arizona/roundabout-enter-right.png",
+    "width": 396
+  },
+  "roundabout-speed": {
+    "height": 192,
+    "page": 28,
+    "src": "/handbook/arizona/roundabout-speed.png",
+    "width": 385
+  },
+  "roundabout-yield-large-vehicles": {
+    "height": 243,
+    "page": 28,
+    "src": "/handbook/arizona/roundabout-yield-large-vehicles.png",
+    "width": 396
+  },
+  "school-bus-divided": {
+    "height": 192,
+    "page": 39,
+    "src": "/handbook/arizona/school-bus-divided.png",
+    "width": 404
+  },
+  "school-bus-stop": {
+    "height": 243,
+    "page": 39,
+    "src": "/handbook/arizona/school-bus-stop.png",
+    "width": 396
+  },
+  "school-crossing-15": {
+    "height": 166,
+    "page": 42,
+    "src": "/handbook/arizona/school-crossing-15.png",
+    "width": 399
+  },
+  "school-crossing-guard": {
+    "height": 192,
+    "page": 42,
+    "src": "/handbook/arizona/school-crossing-guard.png",
+    "width": 400
+  },
+  "school-crossing-no-passing": {
+    "height": 142,
+    "page": 42,
+    "src": "/handbook/arizona/school-crossing-no-passing.png",
+    "width": 400
+  },
+  "school-crossing-sign-shape": {
+    "height": 192,
+    "page": 42,
+    "src": "/handbook/arizona/school-crossing-sign-shape.png",
+    "width": 401
+  },
+  "seatbelt-under-16": {
+    "height": 162,
+    "page": 19,
+    "src": "/handbook/arizona/seatbelt-under-16.png",
+    "width": 387
+  },
+  "secure-loads": {
+    "height": 167,
+    "page": 21,
+    "src": "/handbook/arizona/secure-loads.png",
+    "width": 388
+  },
+  "sign-diamond": {
+    "height": 141,
+    "page": 41,
+    "src": "/handbook/arizona/sign-diamond.png",
+    "width": 404
+  },
+  "sign-octagon": {
+    "height": 167,
+    "page": 41,
+    "src": "/handbook/arizona/sign-octagon.png",
+    "width": 288
+  },
+  "sign-pennant": {
+    "height": 166,
+    "page": 41,
+    "src": "/handbook/arizona/sign-pennant.png",
+    "width": 269
+  },
+  "sign-rectangular": {
+    "height": 166,
+    "page": 41,
+    "src": "/handbook/arizona/sign-rectangular.png",
+    "width": 379
+  },
+  "sign-shapes-visibility": {
+    "height": 192,
+    "page": 40,
+    "src": "/handbook/arizona/sign-shapes-visibility.png",
+    "width": 405
+  },
+  "sign-triangle": {
+    "height": 191,
+    "page": 41,
+    "src": "/handbook/arizona/sign-triangle.png",
+    "width": 287
+  },
+  "signal-100-feet": {
+    "height": 192,
+    "page": 26,
+    "src": "/handbook/arizona/signal-100-feet.png",
+    "width": 381
+  },
+  "signal-no-right-of-way": {
+    "height": 141,
+    "page": 27,
+    "src": "/handbook/arizona/signal-no-right-of-way.png",
+    "width": 369
+  },
+  "signals-apply-to-all": {
+    "height": 166,
+    "page": 34,
+    "src": "/handbook/arizona/signals-apply-to-all.png",
+    "width": 387
+  },
+  "skid-recovery": {
+    "height": 192,
+    "page": 70,
+    "src": "/handbook/arizona/skid-recovery.png",
+    "width": 375
+  },
+  "slippery-6-seconds": {
+    "height": 243,
+    "page": 53,
+    "src": "/handbook/arizona/slippery-6-seconds.png",
+    "width": 380
+  },
+  "slow-moving-vehicle": {
+    "height": 142,
+    "page": 52,
+    "src": "/handbook/arizona/slow-moving-vehicle.png",
+    "width": 414
+  },
+  "solid-broken-yellow": {
+    "height": 243,
+    "page": 45,
+    "src": "/handbook/arizona/solid-broken-yellow.png",
+    "width": 370
+  },
+  "solid-white-edge": {
+    "height": 167,
+    "page": 46,
+    "src": "/handbook/arizona/solid-white-edge.png",
+    "width": 414
+  },
+  "speed-bad-weather": {
+    "height": 192,
+    "page": 40,
+    "src": "/handbook/arizona/speed-bad-weather.png",
+    "width": 404
+  },
+  "speed-defaults": {
+    "height": 142,
+    "page": 40,
+    "src": "/handbook/arizona/speed-defaults.png",
+    "width": 372
+  },
+  "speed-double-following": {
+    "height": 192,
+    "page": 40,
+    "src": "/handbook/arizona/speed-double-following.png",
+    "width": 381
+  },
+  "speed-orange-signs": {
+    "height": 217,
+    "page": 40,
+    "src": "/handbook/arizona/speed-orange-signs.png",
+    "width": 400
+  },
+  "speed-white-signs": {
+    "height": 192,
+    "page": 40,
+    "src": "/handbook/arizona/speed-white-signs.png",
+    "width": 400
+  },
+  "t-intersection": {
+    "height": 141,
+    "page": 35,
+    "src": "/handbook/arizona/t-intersection.png",
+    "width": 404
+  },
+  "truck-no-zone": {
+    "height": 167,
+    "page": 52,
+    "src": "/handbook/arizona/truck-no-zone.png",
+    "width": 363
+  },
+  "truck-right-turns": {
+    "height": 192,
+    "page": 52,
+    "src": "/handbook/arizona/truck-right-turns.png",
+    "width": 364
+  },
+  "truck-stopping": {
+    "height": 167,
+    "page": 52,
+    "src": "/handbook/arizona/truck-stopping.png",
+    "width": 363
+  },
+  "turn-lane-arrow": {
+    "height": 217,
+    "page": 45,
+    "src": "/handbook/arizona/turn-lane-arrow.png",
+    "width": 404
+  },
+  "turning-rules-everywhere": {
+    "height": 267,
+    "page": 47,
+    "src": "/handbook/arizona/turning-rules-everywhere.png",
+    "width": 206
+  },
+  "two-way-left-turn-lane": {
+    "height": 141,
+    "page": 48,
+    "src": "/handbook/arizona/two-way-left-turn-lane.png",
+    "width": 396
+  },
+  "two-way-left-turn-no-passing": {
+    "height": 192,
+    "page": 48,
+    "src": "/handbook/arizona/two-way-left-turn-no-passing.png",
+    "width": 364
+  },
+  "u-turn-rule": {
+    "height": 192,
+    "page": 37,
+    "src": "/handbook/arizona/u-turn-rule.png",
+    "width": 391
+  },
+  "uncontrolled-left-yields": {
+    "height": 142,
+    "page": 35,
+    "src": "/handbook/arizona/uncontrolled-left-yields.png",
+    "width": 403
+  },
+  "wet-brakes": {
+    "height": 162,
+    "page": 56,
+    "src": "/handbook/arizona/wet-brakes.png",
+    "width": 396
+  },
+  "wind-passing-truck": {
+    "height": 192,
+    "page": 55,
+    "src": "/handbook/arizona/wind-passing-truck.png",
+    "width": 360
+  },
+  "work-zone-crashes": {
+    "height": 242,
+    "page": 43,
+    "src": "/handbook/arizona/work-zone-crashes.png",
+    "width": 404
+  },
+  "work-zone-fines-double": {
+    "height": 142,
+    "page": 44,
+    "src": "/handbook/arizona/work-zone-fines-double.png",
+    "width": 396
+  },
+  "work-zone-orange": {
+    "height": 139,
+    "page": 43,
+    "src": "/handbook/arizona/work-zone-orange.png",
+    "width": 404
+  },
+  "yellow-arrow": {
+    "height": 218,
+    "page": 35,
+    "src": "/handbook/arizona/yellow-arrow.png",
+    "width": 367
+  },
+  "yellow-means-caution": {
+    "height": 217,
+    "page": 34,
+    "src": "/handbook/arizona/yellow-means-caution.png",
+    "width": 396
+  }
+}
