@@ -15,6 +15,8 @@ import { virginiaExcerpts } from "./virginia/excerpts";
 import { californiaExcerpts } from "./california/excerpts";
 import { washingtonExcerpts } from "./washington/excerpts";
 import { massachusettsExcerpts } from "./massachusetts/excerpts";
+import { tennesseeExcerpts } from "./tennessee/excerpts";
+import { arizonaExcerpts } from "./arizona/excerpts";
 
 // Handbook excerpt library, keyed by jurisdiction then rule.
 //
@@ -40,6 +42,8 @@ const BY_JURISDICTION: Record<string, HandbookExcerpt[]> = {
   california: californiaExcerpts,
   washington: washingtonExcerpts,
   massachusetts: massachusettsExcerpts,
+  tennessee: tennesseeExcerpts,
+  arizona: arizonaExcerpts,
 };
 
 const INDEX: Record<string, Record<string, HandbookExcerpt>> = Object.fromEntries(
@@ -96,6 +100,17 @@ import northcarolinaSnippets from "./northcarolina/snippets.json";
 import michiganSnippets from "./michigan/snippets.json";
 import newjerseySnippets from "./newjersey/snippets.json";
 import virginiaSnippets from "./virginia/snippets.json";
+import washingtonSnippets from "./washington/snippets.json";
+import massachusettsSnippets from "./massachusetts/snippets.json";
+import tennesseeSnippets from "./tennessee/snippets.json";
+// Arizona's manifest is empty on purpose. apps.azdot.gov sits behind a
+// Cloudflare interstitial that refuses automated clients, and the Internet
+// Archive's copy of the manual - which does exist - was returning 503 from the
+// replay server when this bank shipped. Every Arizona excerpt still carries its
+// verbatim quote and a link to the official page; only the highlighted image is
+// missing, and the UI already falls back to the quote alone. Re-run
+// scripts/build-excerpt-snippets.py against the manual once it is reachable.
+import arizonaSnippets from "./arizona/snippets.json";
 
 export interface HandbookSnippet {
   src: string;
@@ -119,6 +134,10 @@ const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
   michigan: michiganSnippets as Record<string, HandbookSnippet>,
   newjersey: newjerseySnippets as Record<string, HandbookSnippet>,
   virginia: virginiaSnippets as Record<string, HandbookSnippet>,
+  washington: washingtonSnippets as Record<string, HandbookSnippet>,
+  massachusetts: massachusettsSnippets as Record<string, HandbookSnippet>,
+  tennessee: tennesseeSnippets as Record<string, HandbookSnippet>,
+  arizona: arizonaSnippets as Record<string, HandbookSnippet>,
 };
 
 export function getSnippet(

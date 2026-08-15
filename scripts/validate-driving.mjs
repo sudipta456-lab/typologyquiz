@@ -81,6 +81,14 @@ const OFFICIAL_HOSTS = [
   // Massachusetts
   "mass.gov",
   "malegislature.gov",
+  // Tennessee. One host covers everything - the manual PDF, Driver Services,
+  // TDOT and Revenue all live on tn.gov. Tennessee Code itself is published by
+  // LexisNexis behind a sign-in, so no statutory text is quoted in that bank.
+  "tn.gov",
+  // Arizona. Substring matching means these also cover apps.azdot.gov, where
+  // the manual PDF lives, and www.azleg.gov for the Revised Statutes.
+  "azdot.gov",
+  "azleg.gov",
 ];
 
 let errors = 0;

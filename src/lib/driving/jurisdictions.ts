@@ -31,6 +31,10 @@ import { washingtonSets1to3 } from "./washington/sets-1-3";
 import { washingtonSets4to6 } from "./washington/sets-4-6";
 import { massachusettsSets1to3 } from "./massachusetts/sets-1-3";
 import { massachusettsSets4to6 } from "./massachusetts/sets-4-6";
+import { tennesseeSets1to3 } from "./tennessee/sets-1-3";
+import { tennesseeSets4to6 } from "./tennessee/sets-4-6";
+import { arizonaSets1to3 } from "./arizona/sets-1-3";
+import { arizonaSets4to6 } from "./arizona/sets-4-6";
 
 const byNumber = (a: DrivingTestSet, b: DrivingTestSet) => a.setNumber - b.setNumber;
 
@@ -567,6 +571,72 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "Unposted limits run 20/30/40/50. There is no 55 in the default list, and a hydrant is 10 feet, not the 15 most drivers bring in from elsewhere.",
     ],
     sets: [...massachusettsSets1to3, ...massachusettsSets4to6].sort(byNumber),
+  },
+  {
+    slug: "tennessee",
+    name: "Tennessee",
+    code: "TN",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Class D Learner Permit",
+    intro:
+      "Tennessee is the rare state that tells you the syllabus but not the score: the manual publishes an exact topic split and no question count at all.",
+    officialTest: {
+      // Tennessee publishes NO question count and NO pass mark for the
+      // in-office Class D knowledge test. A full-text search of the 135-page
+      // manual returns nothing for "30 questions", "passing score" or "80%".
+      // The widely-repeated "30 questions, 80%" belongs to a DIFFERENT test -
+      // the at-home proctored online exam, which is open only to applicants
+      // aged 15 to 17. The numbers below exist so our own sets have a ratio to
+      // score against; the notes say plainly that Tennessee publishes none.
+      questionCount: 30,
+      passCount: 24,
+      passLabel: "Tennessee publishes no question count or pass mark",
+      notes: [
+        "The manual states the topic split exactly - traffic signs and signals 25%, safe driving principles 25%, rules of the road 25%, drugs and alcohol 25% - but never a question count or a score.",
+        "The drugs and alcohol quarter is a statutory floor: by law at least 25 percent of the questions must cover it.",
+        "The at-home proctored online test does publish 30 questions, 60 minutes and 80% - but it is open only to applicants aged 15 to 17, so those numbers do not describe the in-office exam.",
+        "No test may be repeated the same day, and a failed knowledge test carries a mandatory one-day wait.",
+      ],
+    },
+    handbookName: "Tennessee Comprehensive Driver License Manual",
+    handbookUrl: "https://www.tn.gov/safety/driver-services/classd/dlmanual.html",
+    officialInfoUrl: "https://www.tn.gov/safety/driver-services/classd.html",
+    localGotchas: [
+      "The manual says outright that the Basic Speed Rule is not Tennessee law, then teaches it anyway.",
+      "Two interstate minimums, not one: 55 mph in the leftmost lane and 45 mph in the right lanes.",
+      "School-zone speeding is charged as reckless driving - six points on its own, which is the whole under-18 suspension threshold.",
+    ],
+    sets: [...tennesseeSets1to3, ...tennesseeSets4to6].sort(byNumber),
+  },
+  {
+    slug: "arizona",
+    name: "Arizona",
+    code: "AZ",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Instruction Permit",
+    intro:
+      "Arizona teaches two things no other manual does, and both run opposite to instinct: in a dust storm you turn your lights off, and driving around a flood barricade makes you pay for your own rescue.",
+    officialTest: {
+      questionCount: 30,
+      passCount: 24,
+      passLabel: "24 of 30 (80%)",
+      notes: [
+        "30 multiple-choice questions, 80% to pass. MVD publishes no time limit and no retake limit, so neither is stated here.",
+        "Taken on a touch-screen at any MVD office without an appointment, or at home through a parent's AZ MVD Now account if you are under 18.",
+        "Offered in eleven languages, with an audio version, and a verbal test after a second or third failure.",
+      ],
+    },
+    handbookName: "Arizona Driver License Manual (99-0117, revised March 2026)",
+    handbookUrl: "https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf",
+    officialInfoUrl: "https://azdot.gov/mvd/services/driver-license-ID/permit-test",
+    localGotchas: [
+      "Dust storm: pull well off the road, turn your lights OFF and take your foot off the brake. Any light draws blinded drivers toward you.",
+      "Drive around a flood barricade and the Stupid Motorist Law makes you liable for the rescue, up to $2,000 - and your insurer may lawfully refuse to cover it.",
+      "Seat belts are secondary enforcement with a $10 maximum penalty and no points, which the manual never mentions.",
+    ],
+    sets: [...arizonaSets1to3, ...arizonaSets4to6].sort(byNumber),
   },
 ];
 
