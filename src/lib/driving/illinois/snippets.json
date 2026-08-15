@@ -1,0 +1,944 @@
+{
+  "abandoned-removal": {
+    "height": 137,
+    "page": 48,
+    "src": "/handbook/illinois/abandoned-removal.png",
+    "width": 706
+  },
+  "aggravated-dui-list": {
+    "height": 113,
+    "page": 54,
+    "src": "/handbook/illinois/aggravated-dui-list.png",
+    "width": 706
+  },
+  "aggressive-response": {
+    "height": 113,
+    "page": 92,
+    "src": "/handbook/illinois/aggressive-response.png",
+    "width": 702
+  },
+  "airbag-distance": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/illinois/airbag-distance.png",
+    "width": 706
+  },
+  "alley-stop-sidewalk": {
+    "height": 137,
+    "page": 37,
+    "src": "/handbook/illinois/alley-stop-sidewalk.png",
+    "width": 706
+  },
+  "bac-limit": {
+    "height": 161,
+    "page": 51,
+    "src": "/handbook/illinois/bac-limit.png",
+    "width": 706
+  },
+  "being-tailgated": {
+    "height": 137,
+    "page": 86,
+    "src": "/handbook/illinois/being-tailgated.png",
+    "width": 706
+  },
+  "belt-fitting": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/illinois/belt-fitting.png",
+    "width": 706
+  },
+  "belt-law": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/illinois/belt-law.png",
+    "width": 706
+  },
+  "bike-lane-no-vehicles": {
+    "height": 161,
+    "page": 45,
+    "src": "/handbook/illinois/bike-lane-no-vehicles.png",
+    "width": 706
+  },
+  "bike-low-speed-electric": {
+    "height": 161,
+    "page": 46,
+    "src": "/handbook/illinois/bike-low-speed-electric.png",
+    "width": 706
+  },
+  "bike-pass-3-feet": {
+    "height": 161,
+    "page": 46,
+    "src": "/handbook/illinois/bike-pass-3-feet.png",
+    "width": 706
+  },
+  "bike-two-abreast": {
+    "height": 161,
+    "page": 46,
+    "src": "/handbook/illinois/bike-two-abreast.png",
+    "width": 706
+  },
+  "blood-test-cost": {
+    "height": 161,
+    "page": 52,
+    "src": "/handbook/illinois/blood-test-cost.png",
+    "width": 706
+  },
+  "bus-four-lane-exception": {
+    "height": 137,
+    "page": 35,
+    "src": "/handbook/illinois/bus-four-lane-exception.png",
+    "width": 706
+  },
+  "bus-must-stop": {
+    "height": 113,
+    "page": 36,
+    "src": "/handbook/illinois/bus-must-stop.png",
+    "width": 706
+  },
+  "bus-warning-distance": {
+    "height": 137,
+    "page": 36,
+    "src": "/handbook/illinois/bus-warning-distance.png",
+    "width": 706
+  },
+  "cannabis-container": {
+    "height": 161,
+    "page": 51,
+    "src": "/handbook/illinois/cannabis-container.png",
+    "width": 706
+  },
+  "child-restraint-under-8": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/illinois/child-restraint-under-8.png",
+    "width": 706
+  },
+  "contributing-to-dui": {
+    "height": 137,
+    "page": 55,
+    "src": "/handbook/illinois/contributing-to-dui.png",
+    "width": 706
+  },
+  "crash-first-steps": {
+    "height": 114,
+    "page": 57,
+    "src": "/handbook/illinois/crash-first-steps.png",
+    "width": 706
+  },
+  "crash-leaving-scene": {
+    "height": 161,
+    "page": 58,
+    "src": "/handbook/illinois/crash-leaving-scene.png",
+    "width": 706
+  },
+  "crash-report-30-minutes": {
+    "height": 113,
+    "page": 58,
+    "src": "/handbook/illinois/crash-report-30-minutes.png",
+    "width": 706
+  },
+  "crash-report-threshold": {
+    "height": 185,
+    "page": 57,
+    "src": "/handbook/illinois/crash-report-threshold.png",
+    "width": 706
+  },
+  "crash-school-bus-report": {
+    "height": 137,
+    "page": 57,
+    "src": "/handbook/illinois/crash-school-bus-report.png",
+    "width": 706
+  },
+  "crash-unattended-vehicle": {
+    "height": 113,
+    "page": 58,
+    "src": "/handbook/illinois/crash-unattended-vehicle.png",
+    "width": 706
+  },
+  "disabled-vehicle-lane": {
+    "height": 185,
+    "page": 48,
+    "src": "/handbook/illinois/disabled-vehicle-lane.png",
+    "width": 706
+  },
+  "distracted-single-earpiece": {
+    "height": 137,
+    "page": 25,
+    "src": "/handbook/illinois/distracted-single-earpiece.png",
+    "width": 706
+  },
+  "drowsy-driving": {
+    "height": 113,
+    "page": 87,
+    "src": "/handbook/illinois/drowsy-driving.png",
+    "width": 706
+  },
+  "dui-revocation-ladder": {
+    "height": 113,
+    "page": 53,
+    "src": "/handbook/illinois/dui-revocation-ladder.png",
+    "width": 641
+  },
+  "dui-under-21": {
+    "height": 137,
+    "page": 55,
+    "src": "/handbook/illinois/dui-under-21.png",
+    "width": 706
+  },
+  "emergency-approaching": {
+    "height": 161,
+    "page": 28,
+    "src": "/handbook/illinois/emergency-approaching.png",
+    "width": 706
+  },
+  "escooter-rules": {
+    "height": 137,
+    "page": 47,
+    "src": "/handbook/illinois/escooter-rules.png",
+    "width": 706
+  },
+  "exam-three-attempts": {
+    "height": 137,
+    "page": 16,
+    "src": "/handbook/illinois/exam-three-attempts.png",
+    "width": 706
+  },
+  "fire-hoses": {
+    "height": 137,
+    "page": 28,
+    "src": "/handbook/illinois/fire-hoses.png",
+    "width": 706
+  },
+  "fog-driving": {
+    "height": 113,
+    "page": 87,
+    "src": "/handbook/illinois/fog-driving.png",
+    "width": 706
+  },
+  "funeral-no-cutting": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/illinois/funeral-no-cutting.png",
+    "width": 706
+  },
+  "funeral-yield": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/illinois/funeral-yield.png",
+    "width": 706
+  },
+  "gdl-initial-passengers": {
+    "height": 161,
+    "page": 21,
+    "src": "/handbook/illinois/gdl-initial-passengers.png",
+    "width": 706
+  },
+  "gdl-permit-hold": {
+    "height": 161,
+    "page": 19,
+    "src": "/handbook/illinois/gdl-permit-hold.png",
+    "width": 706
+  },
+  "horse-horn": {
+    "height": 137,
+    "page": 50,
+    "src": "/handbook/illinois/horse-horn.png",
+    "width": 706
+  },
+  "implied-consent": {
+    "height": 161,
+    "page": 52,
+    "src": "/handbook/illinois/implied-consent.png",
+    "width": 706
+  },
+  "insurance-minimums": {
+    "height": 113,
+    "page": 101,
+    "src": "/handbook/illinois/insurance-minimums.png",
+    "width": 706
+  },
+  "insurance-violation-penalty": {
+    "height": 161,
+    "page": 58,
+    "src": "/handbook/illinois/insurance-violation-penalty.png",
+    "width": 706
+  },
+  "lane-door-opening": {
+    "height": 161,
+    "page": 33,
+    "src": "/handbook/illinois/lane-door-opening.png",
+    "width": 706
+  },
+  "lane-left-lane-interstate": {
+    "height": 137,
+    "page": 32,
+    "src": "/handbook/illinois/lane-left-lane-interstate.png",
+    "width": 706
+  },
+  "lane-no-backing-controlled": {
+    "height": 113,
+    "page": 33,
+    "src": "/handbook/illinois/lane-no-backing-controlled.png",
+    "width": 706
+  },
+  "lane-weaving": {
+    "height": 113,
+    "page": 32,
+    "src": "/handbook/illinois/lane-weaving.png",
+    "width": 706
+  },
+  "law-sound-system-75": {
+    "height": 137,
+    "page": 39,
+    "src": "/handbook/illinois/law-sound-system-75.png",
+    "width": 706
+  },
+  "licence-address-change": {
+    "height": 137,
+    "page": 9,
+    "src": "/handbook/illinois/licence-address-change.png",
+    "width": 706
+  },
+  "licence-medical-notify": {
+    "height": 161,
+    "page": 12,
+    "src": "/handbook/illinois/licence-medical-notify.png",
+    "width": 706
+  },
+  "licence-min-age": {
+    "height": 113,
+    "page": 7,
+    "src": "/handbook/illinois/licence-min-age.png",
+    "width": 706
+  },
+  "licence-new-resident": {
+    "height": 137,
+    "page": 8,
+    "src": "/handbook/illinois/licence-new-resident.png",
+    "width": 706
+  },
+  "licence-validity": {
+    "height": 137,
+    "page": 11,
+    "src": "/handbook/illinois/licence-validity.png",
+    "width": 706
+  },
+  "lsv-speed": {
+    "height": 113,
+    "page": 48,
+    "src": "/handbook/illinois/lsv-speed.png",
+    "width": 706
+  },
+  "mark-broken-white": {
+    "height": 137,
+    "page": 82,
+    "src": "/handbook/illinois/mark-broken-white.png",
+    "width": 706
+  },
+  "mark-broken-yellow": {
+    "height": 137,
+    "page": 82,
+    "src": "/handbook/illinois/mark-broken-yellow.png",
+    "width": 706
+  },
+  "mark-crosswalk-row": {
+    "height": 137,
+    "page": 83,
+    "src": "/handbook/illinois/mark-crosswalk-row.png",
+    "width": 706
+  },
+  "mark-double-white": {
+    "height": 137,
+    "page": 82,
+    "src": "/handbook/illinois/mark-double-white.png",
+    "width": 706
+  },
+  "mark-double-yellow": {
+    "height": 161,
+    "page": 82,
+    "src": "/handbook/illinois/mark-double-yellow.png",
+    "width": 706
+  },
+  "mark-no-passing-lines": {
+    "height": 185,
+    "page": 82,
+    "src": "/handbook/illinois/mark-no-passing-lines.png",
+    "width": 446
+  },
+  "mark-solid-and-broken": {
+    "height": 185,
+    "page": 83,
+    "src": "/handbook/illinois/mark-solid-and-broken.png",
+    "width": 453
+  },
+  "mark-stop-line": {
+    "height": 161,
+    "page": 83,
+    "src": "/handbook/illinois/mark-stop-line.png",
+    "width": 706
+  },
+  "mark-two-way-left-turn": {
+    "height": 185,
+    "page": 83,
+    "src": "/handbook/illinois/mark-two-way-left-turn.png",
+    "width": 706
+  },
+  "mddp-baiid": {
+    "height": 161,
+    "page": 53,
+    "src": "/handbook/illinois/mddp-baiid.png",
+    "width": 706
+  },
+  "moto-following-distance": {
+    "height": 137,
+    "page": 45,
+    "src": "/handbook/illinois/moto-following-distance.png",
+    "width": 706
+  },
+  "moto-full-lane": {
+    "height": 161,
+    "page": 44,
+    "src": "/handbook/illinois/moto-full-lane.png",
+    "width": 706
+  },
+  "moto-red-light-120": {
+    "height": 137,
+    "page": 44,
+    "src": "/handbook/illinois/moto-red-light-120.png",
+    "width": 706
+  },
+  "move-over-no-lane": {
+    "height": 113,
+    "page": 28,
+    "src": "/handbook/illinois/move-over-no-lane.png",
+    "width": 706
+  },
+  "move-over-stationary": {
+    "height": 113,
+    "page": 28,
+    "src": "/handbook/illinois/move-over-stationary.png",
+    "width": 706
+  },
+  "night-dim-distances": {
+    "height": 137,
+    "page": 90,
+    "src": "/handbook/illinois/night-dim-distances.png",
+    "width": 706
+  },
+  "open-container": {
+    "height": 161,
+    "page": 54,
+    "src": "/handbook/illinois/open-container.png",
+    "width": 706
+  },
+  "park-20-30-feet": {
+    "height": 113,
+    "page": 39,
+    "src": "/handbook/illinois/park-20-30-feet.png",
+    "width": 557
+  },
+  "park-direction-of-traffic": {
+    "height": 137,
+    "page": 38,
+    "src": "/handbook/illinois/park-direction-of-traffic.png",
+    "width": 706
+  },
+  "park-disability-striped": {
+    "height": 161,
+    "page": 38,
+    "src": "/handbook/illinois/park-disability-striped.png",
+    "width": 706
+  },
+  "park-emergency-200-feet": {
+    "height": 137,
+    "page": 38,
+    "src": "/handbook/illinois/park-emergency-200-feet.png",
+    "width": 706
+  },
+  "park-ev-spaces": {
+    "height": 113,
+    "page": 38,
+    "src": "/handbook/illinois/park-ev-spaces.png",
+    "width": 706
+  },
+  "park-hill-downhill": {
+    "height": 137,
+    "page": 37,
+    "src": "/handbook/illinois/park-hill-downhill.png",
+    "width": 706
+  },
+  "park-hill-no-curb": {
+    "height": 137,
+    "page": 37,
+    "src": "/handbook/illinois/park-hill-no-curb.png",
+    "width": 706
+  },
+  "park-hill-uphill": {
+    "height": 113,
+    "page": 37,
+    "src": "/handbook/illinois/park-hill-uphill.png",
+    "width": 706
+  },
+  "park-hydrant-15": {
+    "height": 113,
+    "page": 38,
+    "src": "/handbook/illinois/park-hydrant-15.png",
+    "width": 555
+  },
+  "park-night-lights": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/illinois/park-night-lights.png",
+    "width": 557
+  },
+  "park-parallel-12-inches": {
+    "height": 137,
+    "page": 38,
+    "src": "/handbook/illinois/park-parallel-12-inches.png",
+    "width": 706
+  },
+  "park-prohibited-list": {
+    "height": 113,
+    "page": 38,
+    "src": "/handbook/illinois/park-prohibited-list.png",
+    "width": 706
+  },
+  "park-rail-50-feet": {
+    "height": 113,
+    "page": 39,
+    "src": "/handbook/illinois/park-rail-50-feet.png",
+    "width": 557
+  },
+  "pass-do-pass-signal": {
+    "height": 113,
+    "page": 31,
+    "src": "/handbook/illinois/pass-do-pass-signal.png",
+    "width": 702
+  },
+  "pass-on-right": {
+    "height": 113,
+    "page": 31,
+    "src": "/handbook/illinois/pass-on-right.png",
+    "width": 706
+  },
+  "pass-prohibited-where": {
+    "height": 113,
+    "page": 32,
+    "src": "/handbook/illinois/pass-prohibited-where.png",
+    "width": 706
+  },
+  "pass-return-200-feet": {
+    "height": 137,
+    "page": 31,
+    "src": "/handbook/illinois/pass-return-200-feet.png",
+    "width": 706
+  },
+  "ped-entered-before-change": {
+    "height": 113,
+    "page": 30,
+    "src": "/handbook/illinois/ped-entered-before-change.png",
+    "width": 706
+  },
+  "ped-marked-crosswalk": {
+    "height": 113,
+    "page": 30,
+    "src": "/handbook/illinois/ped-marked-crosswalk.png",
+    "width": 655
+  },
+  "ped-signal-flashing-hand": {
+    "height": 113,
+    "page": 81,
+    "src": "/handbook/illinois/ped-signal-flashing-hand.png",
+    "width": 618
+  },
+  "ped-unmarked-crosswalk": {
+    "height": 137,
+    "page": 30,
+    "src": "/handbook/illinois/ped-unmarked-crosswalk.png",
+    "width": 706
+  },
+  "plates-two-required": {
+    "height": 161,
+    "page": 99,
+    "src": "/handbook/illinois/plates-two-required.png",
+    "width": 706
+  },
+  "power-lines": {
+    "height": 185,
+    "page": 91,
+    "src": "/handbook/illinois/power-lines.png",
+    "width": 706
+  },
+  "rail-stalled-45-degrees": {
+    "height": 161,
+    "page": 36,
+    "src": "/handbook/illinois/rail-stalled-45-degrees.png",
+    "width": 706
+  },
+  "rail-stop-15-50": {
+    "height": 137,
+    "page": 36,
+    "src": "/handbook/illinois/rail-stop-15-50.png",
+    "width": 706
+  },
+  "rain-headlights-wipers": {
+    "height": 113,
+    "page": 88,
+    "src": "/handbook/illinois/rain-headlights-wipers.png",
+    "width": 706
+  },
+  "rain-hydroplane": {
+    "height": 161,
+    "page": 88,
+    "src": "/handbook/illinois/rain-hydroplane.png",
+    "width": 706
+  },
+  "roundabout-exit-signal": {
+    "height": 137,
+    "page": 35,
+    "src": "/handbook/illinois/roundabout-exit-signal.png",
+    "width": 706
+  },
+  "roundabout-yield": {
+    "height": 137,
+    "page": 35,
+    "src": "/handbook/illinois/roundabout-yield.png",
+    "width": 706
+  },
+  "row-block-intersection": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/illinois/row-block-intersection.png",
+    "width": 706
+  },
+  "row-four-way-stop": {
+    "height": 185,
+    "page": 29,
+    "src": "/handbook/illinois/row-four-way-stop.png",
+    "width": 706
+  },
+  "row-left-turn-finish": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/illinois/row-left-turn-finish.png",
+    "width": 706
+  },
+  "row-merge-sign": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/illinois/row-merge-sign.png",
+    "width": 706
+  },
+  "row-stop-sign-position": {
+    "height": 161,
+    "page": 29,
+    "src": "/handbook/illinois/row-stop-sign-position.png",
+    "width": 706
+  },
+  "row-t-intersection": {
+    "height": 113,
+    "page": 29,
+    "src": "/handbook/illinois/row-t-intersection.png",
+    "width": 706
+  },
+  "row-uncontrolled": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/illinois/row-uncontrolled.png",
+    "width": 706
+  },
+  "school-zone-crosswalk-stop": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/illinois/school-zone-crosswalk-stop.png",
+    "width": 706
+  },
+  "scooter-licence-class": {
+    "height": 137,
+    "page": 47,
+    "src": "/handbook/illinois/scooter-licence-class.png",
+    "width": 706
+  },
+  "sign-advance-warning": {
+    "height": 233,
+    "page": 72,
+    "src": "/handbook/illinois/sign-advance-warning.png",
+    "width": 316
+  },
+  "sign-color-blue": {
+    "height": 137,
+    "page": 68,
+    "src": "/handbook/illinois/sign-color-blue.png",
+    "width": 545
+  },
+  "sign-color-green": {
+    "height": 137,
+    "page": 67,
+    "src": "/handbook/illinois/sign-color-green.png",
+    "width": 545
+  },
+  "sign-color-orange": {
+    "height": 185,
+    "page": 67,
+    "src": "/handbook/illinois/sign-color-orange.png",
+    "width": 545
+  },
+  "sign-color-pink": {
+    "height": 162,
+    "page": 68,
+    "src": "/handbook/illinois/sign-color-pink.png",
+    "width": 545
+  },
+  "sign-color-yellow-green": {
+    "height": 161,
+    "page": 67,
+    "src": "/handbook/illinois/sign-color-yellow-green.png",
+    "width": 545
+  },
+  "sign-diamond-warning": {
+    "height": 161,
+    "page": 66,
+    "src": "/handbook/illinois/sign-diamond-warning.png",
+    "width": 550
+  },
+  "sign-exit-ramp": {
+    "height": 185,
+    "page": 73,
+    "src": "/handbook/illinois/sign-exit-ramp.png",
+    "width": 541
+  },
+  "sign-hazmat-placard": {
+    "height": 137,
+    "page": 78,
+    "src": "/handbook/illinois/sign-hazmat-placard.png",
+    "width": 704
+  },
+  "sign-keep-right": {
+    "height": 161,
+    "page": 70,
+    "src": "/handbook/illinois/sign-keep-right.png",
+    "width": 549
+  },
+  "sign-minimum-speed": {
+    "height": 162,
+    "page": 69,
+    "src": "/handbook/illinois/sign-minimum-speed.png",
+    "width": 551
+  },
+  "sign-no-passing-pennant": {
+    "height": 113,
+    "page": 67,
+    "src": "/handbook/illinois/sign-no-passing-pennant.png",
+    "width": 553
+  },
+  "sign-no-turn-on-red": {
+    "height": 161,
+    "page": 70,
+    "src": "/handbook/illinois/sign-no-turn-on-red.png",
+    "width": 549
+  },
+  "sign-no-u-turn": {
+    "height": 137,
+    "page": 69,
+    "src": "/handbook/illinois/sign-no-u-turn.png",
+    "width": 551
+  },
+  "sign-pentagon-school": {
+    "height": 209,
+    "page": 67,
+    "src": "/handbook/illinois/sign-pentagon-school.png",
+    "width": 553
+  },
+  "sign-school-zone-hours": {
+    "height": 233,
+    "page": 72,
+    "src": "/handbook/illinois/sign-school-zone-hours.png",
+    "width": 446
+  },
+  "sign-slower-traffic-right": {
+    "height": 161,
+    "page": 70,
+    "src": "/handbook/illinois/sign-slower-traffic-right.png",
+    "width": 549
+  },
+  "sign-stop-octagon": {
+    "height": 209,
+    "page": 68,
+    "src": "/handbook/illinois/sign-stop-octagon.png",
+    "width": 550
+  },
+  "sign-wrong-way": {
+    "height": 161,
+    "page": 69,
+    "src": "/handbook/illinois/sign-wrong-way.png",
+    "width": 551
+  },
+  "sign-yield-triangle": {
+    "height": 161,
+    "page": 68,
+    "src": "/handbook/illinois/sign-yield-triangle.png",
+    "width": 550
+  },
+  "sign-zipper-merge": {
+    "height": 161,
+    "page": 74,
+    "src": "/handbook/illinois/sign-zipper-merge.png",
+    "width": 704
+  },
+  "signal-dark-all-way-stop": {
+    "height": 137,
+    "page": 80,
+    "src": "/handbook/illinois/signal-dark-all-way-stop.png",
+    "width": 706
+  },
+  "signal-distance": {
+    "height": 137,
+    "page": 33,
+    "src": "/handbook/illinois/signal-distance.png",
+    "width": 706
+  },
+  "signal-right-on-red": {
+    "height": 161,
+    "page": 80,
+    "src": "/handbook/illinois/signal-right-on-red.png",
+    "width": 616
+  },
+  "skid-recovery": {
+    "height": 161,
+    "page": 90,
+    "src": "/handbook/illinois/skid-recovery.png",
+    "width": 706
+  },
+  "smv-emblem": {
+    "height": 137,
+    "page": 49,
+    "src": "/handbook/illinois/smv-emblem.png",
+    "width": 706
+  },
+  "speed-doubling": {
+    "height": 137,
+    "page": 87,
+    "src": "/handbook/illinois/speed-doubling.png",
+    "width": 706
+  },
+  "speed-max-safe-only": {
+    "height": 113,
+    "page": 27,
+    "src": "/handbook/illinois/speed-max-safe-only.png",
+    "width": 706
+  },
+  "speed-minimum": {
+    "height": 161,
+    "page": 27,
+    "src": "/handbook/illinois/speed-minimum.png",
+    "width": 706
+  },
+  "speed-slow-down-when": {
+    "height": 137,
+    "page": 27,
+    "src": "/handbook/illinois/speed-slow-down-when.png",
+    "width": 706
+  },
+  "speed-standard-limits": {
+    "height": 113,
+    "page": 27,
+    "src": "/handbook/illinois/speed-standard-limits.png",
+    "width": 706
+  },
+  "stranded-high-capacity": {
+    "height": 113,
+    "page": 93,
+    "src": "/handbook/illinois/stranded-high-capacity.png",
+    "width": 706
+  },
+  "summary-suspension-fail": {
+    "height": 161,
+    "page": 52,
+    "src": "/handbook/illinois/summary-suspension-fail.png",
+    "width": 706
+  },
+  "summary-suspension-refuse": {
+    "height": 137,
+    "page": 52,
+    "src": "/handbook/illinois/summary-suspension-refuse.png",
+    "width": 706
+  },
+  "suspension-work-zone-crash": {
+    "height": 113,
+    "page": 62,
+    "src": "/handbook/illinois/suspension-work-zone-crash.png",
+    "width": 706
+  },
+  "thc-limit": {
+    "height": 185,
+    "page": 51,
+    "src": "/handbook/illinois/thc-limit.png",
+    "width": 706
+  },
+  "three-second-rule": {
+    "height": 161,
+    "page": 86,
+    "src": "/handbook/illinois/three-second-rule.png",
+    "width": 706
+  },
+  "time-only-cure": {
+    "height": 161,
+    "page": 51,
+    "src": "/handbook/illinois/time-only-cure.png",
+    "width": 706
+  },
+  "tow-drawbar": {
+    "height": 137,
+    "page": 48,
+    "src": "/handbook/illinois/tow-drawbar.png",
+    "width": 706
+  },
+  "truck-blind-spots": {
+    "height": 161,
+    "page": 48,
+    "src": "/handbook/illinois/truck-blind-spots.png",
+    "width": 706
+  },
+  "truck-wide-right": {
+    "height": 161,
+    "page": 48,
+    "src": "/handbook/illinois/truck-wide-right.png",
+    "width": 706
+  },
+  "u-turn-500-feet": {
+    "height": 137,
+    "page": 35,
+    "src": "/handbook/illinois/u-turn-500-feet.png",
+    "width": 706
+  },
+  "water-crash": {
+    "height": 161,
+    "page": 91,
+    "src": "/handbook/illinois/water-crash.png",
+    "width": 706
+  },
+  "winter-bridges-ice": {
+    "height": 137,
+    "page": 88,
+    "src": "/handbook/illinois/winter-bridges-ice.png",
+    "width": 706
+  },
+  "work-zone-24-7": {
+    "height": 137,
+    "page": 28,
+    "src": "/handbook/illinois/work-zone-24-7.png",
+    "width": 706
+  },
+  "work-zone-duties": {
+    "height": 161,
+    "page": 28,
+    "src": "/handbook/illinois/work-zone-duties.png",
+    "width": 706
+  },
+  "zero-tolerance": {
+    "height": 161,
+    "page": 55,
+    "src": "/handbook/illinois/zero-tolerance.png",
+    "width": 706
+  }
+}

@@ -3,6 +3,8 @@ import { albertaSets1to3 } from "./alberta/sets-1-3";
 import { albertaSets4to6 } from "./alberta/sets-4-6";
 import { ontarioSets1to3 } from "./ontario/sets-1-3";
 import { ontarioSets4to6 } from "./ontario/sets-4-6";
+import { illinoisSets1to3 } from "./illinois/sets-1-3";
+import { illinoisSets4to6 } from "./illinois/sets-4-6";
 import { georgiaSets1to3 } from "./georgia/sets-1-3";
 import { georgiaSets4to6 } from "./georgia/sets-4-6";
 import { ohioSets1to3 } from "./ohio/sets-1-3";
@@ -301,6 +303,37 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "Joshua's Law shapes when a 16-year-old can be licensed at all.",
     ],
     sets: [...georgiaSets1to3, ...georgiaSets4to6].sort(byNumber),
+  },
+  {
+    slug: "illinois",
+    name: "Illinois",
+    code: "IL",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Instruction Permit",
+    intro:
+      "Scott's Law is the single most-missed topic in Illinois, and the penalties are far heavier than people expect. These sets lean into it.",
+    officialTest: {
+      questionCount: 35,
+      passCount: 28,
+      passLabel: "80% correct (at least 35 questions)",
+      // No ilsos.gov page states a question count. The authority is
+      // 92 Ill. Adm. Code 1030.80(b), which sets a MINIMUM of 35 questions at
+      // 80% - so 35 is a floor and "28" is arithmetic, not a published figure.
+      notes: [
+        "The rule sets a minimum of 35 written questions with 80% correct, so the exact count can be higher.",
+        "Scott's Law, adverse conditions and warning-sign shapes are where Illinois learners measurably lose the most marks.",
+      ],
+    },
+    handbookName: "Illinois Rules of the Road",
+    handbookUrl: "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf",
+    officialInfoUrl: "https://www.ilsos.gov/departments/drivers/drivers_license/home.html",
+    localGotchas: [
+      "Scott's Law covers more than police cars, and a first offence starts at $250 and climbs steeply.",
+      "The under-19 phone ban has no hands-free exception - unlike the rest of the state's rules, it keys off 19, not 18.",
+      "Moving-violation limits differ by age: three in 12 months at 21+, but two in 24 months under 21.",
+    ],
+    sets: [...illinoisSets1to3, ...illinoisSets4to6].sort(byNumber),
   },
   {
     slug: "california",

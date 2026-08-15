@@ -298,7 +298,7 @@ export const illinoisSets1to3: DrivingTestSet[] = [
           "The Illinois school zone limit is conditional on three things at once: it must be a school day, children must be present, and the signs must be posted. The statute defines the school day as running from 6:30 a.m. to 4 p.m., so a Sunday afternoon or a July morning through the same zone is not covered. A separate rule bans wireless phone use of any kind inside a posted school speed zone, at any age.",
         trap:
           "People assume the 20 mph limit runs around the clock because the sign is always there. It runs on school days, in the posted hours, when children are present.",
-        excerptKey: "speed-standard-limits",
+        excerptKey: "speed-school-zone-20",
         commonlyMissed: true,
         sourceLabel: "Illinois Rules of the Road - Speed Limits",
         sourceUrl: HB,
@@ -1111,7 +1111,6 @@ export const illinoisSets1to3: DrivingTestSet[] = [
         trap:
           "Assuming the busier road keeps priority is how these intersections produce collisions. Nobody has priority when the lights are out.",
         excerptKey: "signal-dark-all-way-stop",
-        commonlyMissed: true,
         sourceLabel: "Illinois Rules of the Road - Traffic Signals",
         sourceUrl: HB,
       },
@@ -1219,7 +1218,6 @@ export const illinoisSets1to3: DrivingTestSet[] = [
         trap:
           "'Open it fast' is the intuitive answer and the wrong one - speed is what makes a door strike unavoidable for the rider.",
         excerptKey: "lane-door-opening",
-        commonlyMissed: true,
         sourceLabel: "Illinois Rules of the Road - Lane Usage",
         sourceUrl: HB,
       },
@@ -1565,7 +1563,6 @@ export const illinoisSets1to3: DrivingTestSet[] = [
         trap:
           "A clear view feels like it should settle the question. Near an intersection it does not - the restriction is a distance, not a judgement call.",
         excerptKey: "pass-prohibited-where",
-        commonlyMissed: true,
         sourceLabel: "Illinois Rules of the Road - Passing",
         sourceUrl: HB,
       },

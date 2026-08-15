@@ -611,7 +611,7 @@ export const illinoisSets4to6: DrivingTestSet[] = [
         commonlyMissed: true,
         trap:
           "The presence of a crossing guard is not what creates the duty, and their absence does not remove it.",
-        excerptKey: "school-zone-duties",
+        excerptKey: "school-zone-crosswalk-stop",
         sourceLabel: "Illinois Rules of the Road - School Zones",
         sourceUrl: HB,
       },
@@ -842,7 +842,6 @@ export const illinoisSets4to6: DrivingTestSet[] = [
         trap:
           "Broken lines running through a work zone read as permission. The blanket rule overrides the markings.",
         excerptKey: "pass-prohibited-where",
-        commonlyMissed: true,
         sourceLabel: "Illinois Rules of the Road - Passing",
         sourceUrl: HB,
       },
@@ -958,7 +957,6 @@ export const illinoisSets4to6: DrivingTestSet[] = [
           "Illinois bans headsets while driving but expressly allows a single-sided headset or earpiece with a phone. One ear stays open to the road.",
         context:
           "A headset here means any device other than a hearing aid that lets you hear or receive electronic communications, so music headphones are caught as much as call headsets. Motorcycle, motor-driven cycle and moped riders may use intercom helmets to talk to each other. For drivers 19 and over, hands-free and Bluetooth are allowed - but holding the phone on speaker is not hands-free and is a violation.",
-        commonlyMissed: true,
         trap:
           "The general ban is the well-known half of this rule. The single-sided exception is the half people never hear about.",
         excerptKey: "distracted-single-earpiece",
@@ -1047,7 +1045,6 @@ export const illinoisSets4to6: DrivingTestSet[] = [
           "Illinois makes it unlawful to flash turn signals as a courtesy or do-pass signal to another driver. The decision to pass has to be yours, based on what you can see.",
         context:
           "The problem is that the other driver's view is not your view, and a pass begun on someone else's say-so leaves you committed to the wrong lane with no information. Illinois also requires the driver being passed not to speed up until you have completed the manoeuvre, and requires you to be back in your own lane before you are within 200 feet of an oncoming vehicle.",
-        commonlyMissed: true,
         trap:
           "The practice is common and well-meant on rural highways. That does not make it lawful in Illinois.",
         excerptKey: "pass-do-pass-signal",
@@ -1092,7 +1089,6 @@ export const illinoisSets4to6: DrivingTestSet[] = [
           "Where any vehicle involved is uninsured, the reporting threshold falls to more than $500 in property damage. At $900, the report is required.",
         context:
           "The general threshold is more than $1,500, plus any crash involving death or bodily injury and any crash involving a school bus whatever the damage. A report is also needed if a crash within 50 feet of a school bus injures or kills someone waiting to board or who has just got off. You have 30 minutes to report, and the duty falls on the driver regardless of fault.",
-        commonlyMissed: true,
         trap:
           "The $1,500 figure sticks because it is the one people learn first. The uninsured figure is a third of it.",
         excerptKey: "crash-report-threshold",
@@ -1526,7 +1522,6 @@ export const illinoisSets4to6: DrivingTestSet[] = [
           "At least three months of lost driving privileges plus a $100 reinstatement fee, and no driving permit is available during that period.",
         context:
           "Illinois also suspends your vehicle registration and blocks plate renewal until you can show proof of cover. Three or more mandatory insurance tickets, or court supervision for one, forces you to file proof of financial responsibility - usually an SR-22 certificate lodged by your insurer directly with the Secretary of State, who then monitors the policy and suspends your licence if it lapses.",
-        commonlyMissed: true,
         trap:
           "The 'no permit available' part is the sting. Most Illinois suspensions leave some route to limited driving; this one does not.",
         excerptKey: "insurance-violation-penalty",
@@ -1744,7 +1739,6 @@ export const illinoisSets4to6: DrivingTestSet[] = [
           "Large vehicles swing wide to get round a corner, and the space that opens on the right closes as the trailer comes round. Driving into it puts you where the trailer is going.",
         context:
           "Sharing the road with trucks and buses is mostly about giving them room and staying visible: hang back far enough to see the driver in their side mirrors, watch their signals carefully, dim your headlights when following at night, and complete any pass quickly rather than sitting alongside. Size and weight change how a large vehicle manoeuvres and how long it takes to stop.",
-        commonlyMissed: false,
         trap:
           "The gap looks like an invitation, and squeezing into it is one of the most common ways cars are crushed against a kerb.",
         excerptKey: "truck-wide-right",

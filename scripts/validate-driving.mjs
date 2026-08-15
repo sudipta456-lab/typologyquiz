@@ -47,6 +47,7 @@ const OFFICIAL_HOSTS = [
   // Illinois
   "ilsos.gov",
   "cyberdriveillinois.com",
+  "ilga.gov",
   "illinois.gov",
   // Pennsylvania
   "dmv.pa.gov",

@@ -57,8 +57,7 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
       "The following speed limits apply, unless otherwise posted: * Interstates " +
       "and tollways - 70 mph. * Highways with four lanes - 65 mph. * Other " +
       "highways and rural areas - 55 mph. * City/town areas - 30 mph. * Alleys - " +
-      "15 mph. * School zones - 20 mph (on school days between 6:30 a.m. and 4 " +
-      "p.m. when children are present and signs are posted).",
+      "15 mph.",
     source: HB,
     section: "Chapter 4: Traffic Laws - Speed Limits",
     url: HB_URL,
@@ -100,9 +99,7 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
     quote:
       "You may turn right at a red light unless there is a sign prohibiting it. " +
       "You also may turn left at a red light when turning from a one-way street " +
-      "onto another one-way street that has traffic moving to the left. In both " +
-      "instances, come to a complete stop and yield the right of way to oncoming " +
-      "traffic and pedestrians before turning.",
+      "onto another one-way street that has traffic moving to the left.",
     source: HB,
     section: "Chapter 10: Traffic Signals - Steady Lights",
     url: HB_URL,
@@ -165,6 +162,15 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
+    key: "speed-school-zone-20",
+    quote:
+      "* School zones - 20 mph (on school days between 6:30 a.m. and 4 p.m. when " +
+      "children are present and signs are posted).",
+    source: HB,
+    section: "Chapter 4: Traffic Laws - Speed Limits",
+    url: HB_URL,
+  },
+  {
     key: "emergency-approaching",
     quote:
       "When being approached by an emergency vehicle using audible and visual " +
@@ -210,9 +216,7 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
     quote:
       "Use the three-second rule to determine a safe following distance. To use " +
       "the three-second rule, select a fixed object on the road ahead, such as a " +
-      "sign, tree, or overpass. When the vehicle in front of you passes the " +
-      "object, count \"one-thousand-one, one-thousand-two, etc.\" Your vehicle " +
-      "should not reach the object before the count of one-thousand-three.",
+      "sign, tree, or overpass.",
     source: HB,
     section: "Chapter 11: Safe Driving Tips - Following Distances",
     url: HB_URL,
@@ -407,8 +411,7 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
       "When approaching a stationary (non-moving) emergency/maintenance vehicle " +
       "using visual signals-by displaying blue, red, amber, white, or green " +
       "oscillating, rotating or flashing lights- or an emergency scene where " +
-      "those lights are in use, Illinois law requires motorists to yield, change " +
-      "to a lane away from the emergency workers when possible",
+      "those lights are in use, Illinois law requires motorists to yield",
     source: HB,
     section: "Chapter 4: Traffic Laws - Emergency/Maintenance Vehicles",
     url: HB_URL,
@@ -1068,9 +1071,7 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
     quote:
       "When approaching or entering a highway construction or maintenance area " +
       "(also known as work zones), Illinois law requires motorists to slow down, " +
-      "discontinue wireless/cellphone use (unless using a hands-free device that " +
-      "may include the use of a single-sided headset), yield to any authorized " +
-      "vehicles or workers in the area",
+      "discontinue wireless/cellphone use",
     source: HB,
     section: "Chapter 4: Traffic Laws - Construction Zones",
     url: HB_URL,
@@ -1106,10 +1107,9 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
   {
     key: "dui-revocation-ladder",
     quote:
-      "A DUI conviction results in a revocation of driving privileges: * A first " +
-      "conviction results in a minimum one-year revocation. * A second conviction " +
-      "within 20 years results in a minimum five-year revocation. * A third " +
-      "conviction results in a minimum 10-year revocation. * A fourth and " +
+      "A first conviction results in a minimum one-year revocation. * A second " +
+      "conviction within 20 years results in a minimum five-year revocation. * A " +
+      "third conviction results in a minimum 10-year revocation. * A fourth and " +
       "subsequent conviction results in a lifetime revocation.",
     source: HB,
     section: "Chapter 6: Driving Under the Influence - DUI Conviction",
@@ -1174,14 +1174,10 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "school-zone-duties",
+    key: "school-zone-crosswalk-stop",
     quote:
-      "When approaching a marked school zone between 6:30 a.m. and 4 p.m., on " +
-      "days when school is in operation, and children are present, a driver must " +
-      "discontinue wireless/cellphone use (unless using a hands-free device that " +
-      "may include the use of a single-sided headset), reduce speed to 20 mph, " +
-      "and stop and yield the right of way to any children or adults in the " +
-      "crosswalk area.",
+      "reduce speed to 20 mph, and stop and yield the right of way to any " +
+      "children or adults in the crosswalk area.",
     source: HB,
     section: "Chapter 4: Traffic Laws - School Zones",
     url: HB_URL,
@@ -1411,8 +1407,7 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
       "Any eligible Illinois driver who is a first-time DUI offender may apply " +
       "for a Monitoring Device Driving Permit (MDDP). An MDDP requires a Breath " +
       "Alcohol Ignition Interlock Device (BAIID) to be installed on their " +
-      "vehicle(s) at an approved installation site as a condition of driving " +
-      "relief during a statutory summary suspension period.",
+      "vehicle(s) at an approved installation site",
     source: HB,
     section: "Chapter 6: Driving Under the Influence - BAIID",
     url: HB_URL,
@@ -1453,7 +1448,7 @@ export const illinoisExcerpts: HandbookExcerpt[] = [
       "vehicles): * When you have enough room on a two-lane roadway, and when the " +
       "vehicle you are passing is making or is about to make a left turn. * On a " +
       "one-way street or on a roadway with two or more clear lanes in each " +
-      "direction. * At an intersection widened for this purpose.",
+      "direction.",
     source: HB,
     section: "Chapter 4: Traffic Laws - Passing",
     url: HB_URL,

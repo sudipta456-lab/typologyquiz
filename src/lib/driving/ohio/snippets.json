@@ -1,0 +1,836 @@
+{
+  "abbreviated-adult-course": {
+    "height": 161,
+    "page": 46,
+    "src": "/handbook/ohio/abbreviated-adult-course.png",
+    "width": 1022
+  },
+  "als-refusal-acquittal": {
+    "height": 137,
+    "page": 28,
+    "src": "/handbook/ohio/als-refusal-acquittal.png",
+    "width": 1060
+  },
+  "animal-drawn-signs": {
+    "height": 113,
+    "page": 41,
+    "src": "/handbook/ohio/animal-drawn-signs.png",
+    "width": 815
+  },
+  "assured-clear-distance": {
+    "height": 161,
+    "page": 12,
+    "src": "/handbook/ohio/assured-clear-distance.png",
+    "width": 836
+  },
+  "bac-limits": {
+    "height": 113,
+    "page": 28,
+    "src": "/handbook/ohio/bac-limits.png",
+    "width": 1069
+  },
+  "backing-up-look-behind": {
+    "height": 137,
+    "page": 19,
+    "src": "/handbook/ohio/backing-up-look-behind.png",
+    "width": 997
+  },
+  "bicycle-horn": {
+    "height": 113,
+    "page": 38,
+    "src": "/handbook/ohio/bicycle-horn.png",
+    "width": 488
+  },
+  "bicycle-is-vehicle": {
+    "height": 137,
+    "page": 38,
+    "src": "/handbook/ohio/bicycle-is-vehicle.png",
+    "width": 1016
+  },
+  "bicycle-rules": {
+    "height": 113,
+    "page": 38,
+    "src": "/handbook/ohio/bicycle-rules.png",
+    "width": 433
+  },
+  "bicycle-three-feet": {
+    "height": 137,
+    "page": 38,
+    "src": "/handbook/ohio/bicycle-three-feet.png",
+    "width": 486
+  },
+  "brake-failure": {
+    "height": 137,
+    "page": 43,
+    "src": "/handbook/ohio/brake-failure.png",
+    "width": 927
+  },
+  "braking-distance-158": {
+    "height": 137,
+    "page": 34,
+    "src": "/handbook/ohio/braking-distance-158.png",
+    "width": 1041
+  },
+  "breakdown-flares": {
+    "height": 137,
+    "page": 43,
+    "src": "/handbook/ohio/breakdown-flares.png",
+    "width": 1053
+  },
+  "cancel-signal": {
+    "height": 137,
+    "page": 35,
+    "src": "/handbook/ohio/cancel-signal.png",
+    "width": 1056
+  },
+  "child-8-to-15": {
+    "height": 137,
+    "page": 30,
+    "src": "/handbook/ohio/child-8-to-15.png",
+    "width": 1067
+  },
+  "child-booster-seat": {
+    "height": 161,
+    "page": 30,
+    "src": "/handbook/ohio/child-booster-seat.png",
+    "width": 1052
+  },
+  "cosigner-liability": {
+    "height": 185,
+    "page": 48,
+    "src": "/handbook/ohio/cosigner-liability.png",
+    "width": 843
+  },
+  "crash-injuries": {
+    "height": 112,
+    "page": 44,
+    "src": "/handbook/ohio/crash-injuries.png",
+    "width": 432
+  },
+  "crash-remain-at-scene": {
+    "height": 137,
+    "page": 44,
+    "src": "/handbook/ohio/crash-remain-at-scene.png",
+    "width": 981
+  },
+  "crash-report-six-months": {
+    "height": 137,
+    "page": 44,
+    "src": "/handbook/ohio/crash-report-six-months.png",
+    "width": 1054
+  },
+  "crash-unattended-vehicle": {
+    "height": 137,
+    "page": 44,
+    "src": "/handbook/ohio/crash-unattended-vehicle.png",
+    "width": 1000
+  },
+  "crosswalk-yield": {
+    "height": 113,
+    "page": 17,
+    "src": "/handbook/ohio/crosswalk-yield.png",
+    "width": 1066
+  },
+  "distracted-adult-law": {
+    "height": 135,
+    "page": 11,
+    "src": "/handbook/ohio/distracted-adult-law.png",
+    "width": 1076
+  },
+  "distracted-work-zone-fine": {
+    "height": 113,
+    "page": 11,
+    "src": "/handbook/ohio/distracted-work-zone-fine.png",
+    "width": 570
+  },
+  "do-not-block-intersection": {
+    "height": 113,
+    "page": 21,
+    "src": "/handbook/ohio/do-not-block-intersection.png",
+    "width": 1048
+  },
+  "drop-off-recovery": {
+    "height": 161,
+    "page": 42,
+    "src": "/handbook/ohio/drop-off-recovery.png",
+    "width": 964
+  },
+  "edge-forward": {
+    "height": 137,
+    "page": 21,
+    "src": "/handbook/ohio/edge-forward.png",
+    "width": 1032
+  },
+  "emergency-vehicle-divided": {
+    "height": 160,
+    "page": 18,
+    "src": "/handbook/ohio/emergency-vehicle-divided.png",
+    "width": 928
+  },
+  "emergency-vehicle-pull-right": {
+    "height": 113,
+    "page": 41,
+    "src": "/handbook/ohio/emergency-vehicle-pull-right.png",
+    "width": 1049
+  },
+  "exiting-missed-exit": {
+    "height": 137,
+    "page": 22,
+    "src": "/handbook/ohio/exiting-missed-exit.png",
+    "width": 1068
+  },
+  "farm-machinery-emblem": {
+    "height": 137,
+    "page": 41,
+    "src": "/handbook/ohio/farm-machinery-emblem.png",
+    "width": 972
+  },
+  "fifty-hours": {
+    "height": 137,
+    "page": 6,
+    "src": "/handbook/ohio/fifty-hours.png",
+    "width": 977
+  },
+  "fog-low-beams": {
+    "height": 113,
+    "page": 32,
+    "src": "/handbook/ohio/fog-low-beams.png",
+    "width": 1046
+  },
+  "following-distance-four-seconds": {
+    "height": 136,
+    "page": 34,
+    "src": "/handbook/ohio/following-distance-four-seconds.png",
+    "width": 1028
+  },
+  "green-light-pause": {
+    "height": 137,
+    "page": 21,
+    "src": "/handbook/ohio/green-light-pause.png",
+    "width": 1053
+  },
+  "guide-signs-services": {
+    "height": 137,
+    "page": 15,
+    "src": "/handbook/ohio/guide-signs-services.png",
+    "width": 1045
+  },
+  "guide-signs-shape": {
+    "height": 161,
+    "page": 15,
+    "src": "/handbook/ohio/guide-signs-shape.png",
+    "width": 1045
+  },
+  "hand-position": {
+    "height": 161,
+    "page": 19,
+    "src": "/handbook/ohio/hand-position.png",
+    "width": 892
+  },
+  "headlights-1000-feet": {
+    "height": 113,
+    "page": 31,
+    "src": "/handbook/ohio/headlights-1000-feet.png",
+    "width": 1015
+  },
+  "headlights-wipers": {
+    "height": 137,
+    "page": 8,
+    "src": "/handbook/ohio/headlights-wipers.png",
+    "width": 1065
+  },
+  "hold-tipic-six-months": {
+    "height": 113,
+    "page": 6,
+    "src": "/handbook/ohio/hold-tipic-six-months.png",
+    "width": 838
+  },
+  "horn-audible-200": {
+    "height": 113,
+    "page": 7,
+    "src": "/handbook/ohio/horn-audible-200.png",
+    "width": 944
+  },
+  "impairment-medication": {
+    "height": 137,
+    "page": 11,
+    "src": "/handbook/ohio/impairment-medication.png",
+    "width": 1029
+  },
+  "insurance-proof-when": {
+    "height": 113,
+    "page": 27,
+    "src": "/handbook/ohio/insurance-proof-when.png",
+    "width": 803
+  },
+  "lane-travel-four-lanes": {
+    "height": 137,
+    "page": 21,
+    "src": "/handbook/ohio/lane-travel-four-lanes.png",
+    "width": 1067
+  },
+  "lane-travel-right-half": {
+    "height": 113,
+    "page": 21,
+    "src": "/handbook/ohio/lane-travel-right-half.png",
+    "width": 546
+  },
+  "left-turn-waiting": {
+    "height": 137,
+    "page": 20,
+    "src": "/handbook/ohio/left-turn-waiting.png",
+    "width": 806
+  },
+  "look-ahead-20-30": {
+    "height": 160,
+    "page": 33,
+    "src": "/handbook/ohio/look-ahead-20-30.png",
+    "width": 379
+  },
+  "markings-double-yellow": {
+    "height": 136,
+    "page": 16,
+    "src": "/handbook/ohio/markings-double-yellow.png",
+    "width": 387
+  },
+  "markings-white": {
+    "height": 197,
+    "page": 16,
+    "src": "/handbook/ohio/markings-white.png",
+    "width": 221
+  },
+  "markings-yellow-solid": {
+    "height": 160,
+    "page": 16,
+    "src": "/handbook/ohio/markings-yellow-solid.png",
+    "width": 310
+  },
+  "minimum-age-15-6": {
+    "height": 137,
+    "page": 4,
+    "src": "/handbook/ohio/minimum-age-15-6.png",
+    "width": 977
+  },
+  "mirror-adjustment": {
+    "height": 161,
+    "page": 9,
+    "src": "/handbook/ohio/mirror-adjustment.png",
+    "width": 1021
+  },
+  "moped-license-age": {
+    "height": 113,
+    "page": 51,
+    "src": "/handbook/ohio/moped-license-age.png",
+    "width": 1057
+  },
+  "motorcycle-following": {
+    "height": 137,
+    "page": 37,
+    "src": "/handbook/ohio/motorcycle-following.png",
+    "width": 996
+  },
+  "motorcycle-full-lane": {
+    "height": 137,
+    "page": 37,
+    "src": "/handbook/ohio/motorcycle-full-lane.png",
+    "width": 992
+  },
+  "motorcycle-signal": {
+    "height": 137,
+    "page": 37,
+    "src": "/handbook/ohio/motorcycle-signal.png",
+    "width": 1035
+  },
+  "move-over-cannot-change": {
+    "height": 139,
+    "page": 41,
+    "src": "/handbook/ohio/move-over-cannot-change.png",
+    "width": 1023
+  },
+  "move-over-law": {
+    "height": 191,
+    "page": 41,
+    "src": "/handbook/ohio/move-over-law.png",
+    "width": 1062
+  },
+  "new-resident-30-days": {
+    "height": 113,
+    "page": 53,
+    "src": "/handbook/ohio/new-resident-30-days.png",
+    "width": 775
+  },
+  "ovi-habitual-registry": {
+    "height": 161,
+    "page": 28,
+    "src": "/handbook/ohio/ovi-habitual-registry.png",
+    "width": 1051
+  },
+  "ovuac": {
+    "height": 161,
+    "page": 28,
+    "src": "/handbook/ohio/ovuac.png",
+    "width": 1044
+  },
+  "parking-bicycle-sidewalk": {
+    "height": 136,
+    "page": 26,
+    "src": "/handbook/ohio/parking-bicycle-sidewalk.png",
+    "width": 1064
+  },
+  "parking-direction-12-inches": {
+    "height": 161,
+    "page": 26,
+    "src": "/handbook/ohio/parking-direction-12-inches.png",
+    "width": 837
+  },
+  "parking-disability": {
+    "height": 161,
+    "page": 26,
+    "src": "/handbook/ohio/parking-disability.png",
+    "width": 700
+  },
+  "parking-hill": {
+    "height": 113,
+    "page": 26,
+    "src": "/handbook/ohio/parking-hill.png",
+    "width": 624
+  },
+  "parking-one-way": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/ohio/parking-one-way.png",
+    "width": 837
+  },
+  "parking-prohibited-stem": {
+    "height": 160,
+    "page": 26,
+    "src": "/handbook/ohio/parking-prohibited-stem.png",
+    "width": 784
+  },
+  "passing-do-not-when": {
+    "height": 112,
+    "page": 23,
+    "src": "/handbook/ohio/passing-do-not-when.png",
+    "width": 339
+  },
+  "passing-never-shoulder": {
+    "height": 113,
+    "page": 24,
+    "src": "/handbook/ohio/passing-never-shoulder.png",
+    "width": 1042
+  },
+  "passing-return-to-lane": {
+    "height": 112,
+    "page": 23,
+    "src": "/handbook/ohio/passing-return-to-lane.png",
+    "width": 967
+  },
+  "passing-solid-in-your-lane": {
+    "height": 136,
+    "page": 24,
+    "src": "/handbook/ohio/passing-solid-in-your-lane.png",
+    "width": 1004
+  },
+  "pedestrian-white-cane": {
+    "height": 137,
+    "page": 37,
+    "src": "/handbook/ohio/pedestrian-white-cane.png",
+    "width": 818
+  },
+  "points-twelve-suspension": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/ohio/points-twelve-suspension.png",
+    "width": 1026
+  },
+  "points-values": {
+    "height": 113,
+    "page": 29,
+    "src": "/handbook/ohio/points-values.png",
+    "width": 760
+  },
+  "power-failure-steering": {
+    "height": 137,
+    "page": 43,
+    "src": "/handbook/ohio/power-failure-steering.png",
+    "width": 1055
+  },
+  "probationary-after-12-months": {
+    "height": 137,
+    "page": 50,
+    "src": "/handbook/ohio/probationary-after-12-months.png",
+    "width": 473
+  },
+  "probationary-alcohol": {
+    "height": 161,
+    "page": 50,
+    "src": "/handbook/ohio/probationary-alcohol.png",
+    "width": 467
+  },
+  "probationary-passengers": {
+    "height": 185,
+    "page": 50,
+    "src": "/handbook/ohio/probationary-passengers.png",
+    "width": 509
+  },
+  "prohibitory-signs": {
+    "height": 113,
+    "page": 14,
+    "src": "/handbook/ohio/prohibitory-signs.png",
+    "width": 1044
+  },
+  "railroad-crossbuck-only": {
+    "height": 137,
+    "page": 24,
+    "src": "/handbook/ohio/railroad-crossbuck-only.png",
+    "width": 1055
+  },
+  "railroad-crossing-sign": {
+    "height": 113,
+    "page": 24,
+    "src": "/handbook/ohio/railroad-crossing-sign.png",
+    "width": 853
+  },
+  "railroad-must-stop-vehicles": {
+    "height": 135,
+    "page": 24,
+    "src": "/handbook/ohio/railroad-must-stop-vehicles.png",
+    "width": 849
+  },
+  "railroad-stop-distance": {
+    "height": 113,
+    "page": 24,
+    "src": "/handbook/ohio/railroad-stop-distance.png",
+    "width": 1029
+  },
+  "regulatory-signs": {
+    "height": 137,
+    "page": 14,
+    "src": "/handbook/ohio/regulatory-signs.png",
+    "width": 1054
+  },
+  "right-turn-position": {
+    "height": 137,
+    "page": 20,
+    "src": "/handbook/ohio/right-turn-position.png",
+    "width": 757
+  },
+  "roundabout-no-lane-change": {
+    "height": 137,
+    "page": 21,
+    "src": "/handbook/ohio/roundabout-no-lane-change.png",
+    "width": 689
+  },
+  "roundabout-yield": {
+    "height": 113,
+    "page": 21,
+    "src": "/handbook/ohio/roundabout-yield.png",
+    "width": 643
+  },
+  "row-arrives-first": {
+    "height": 113,
+    "page": 13,
+    "src": "/handbook/ohio/row-arrives-first.png",
+    "width": 1054
+  },
+  "row-driver-on-right": {
+    "height": 137,
+    "page": 13,
+    "src": "/handbook/ohio/row-driver-on-right.png",
+    "width": 1054
+  },
+  "row-driveway": {
+    "height": 113,
+    "page": 13,
+    "src": "/handbook/ohio/row-driveway.png",
+    "width": 1054
+  },
+  "row-entrance-ramp": {
+    "height": 136,
+    "page": 13,
+    "src": "/handbook/ohio/row-entrance-ramp.png",
+    "width": 1054
+  },
+  "row-funeral": {
+    "height": 113,
+    "page": 13,
+    "src": "/handbook/ohio/row-funeral.png",
+    "width": 1054
+  },
+  "safety-belt-law": {
+    "height": 161,
+    "page": 9,
+    "src": "/handbook/ohio/safety-belt-law.png",
+    "width": 1034
+  },
+  "school-bus-fewer-than-four": {
+    "height": 161,
+    "page": 25,
+    "src": "/handbook/ohio/school-bus-fewer-than-four.png",
+    "width": 1055
+  },
+  "school-bus-four-or-more": {
+    "height": 137,
+    "page": 25,
+    "src": "/handbook/ohio/school-bus-four-or-more.png",
+    "width": 1043
+  },
+  "school-zone-slower-limit": {
+    "height": 137,
+    "page": 37,
+    "src": "/handbook/ohio/school-zone-slower-limit.png",
+    "width": 1034
+  },
+  "seat-adjustment-10-inches": {
+    "height": 160,
+    "page": 8,
+    "src": "/handbook/ohio/seat-adjustment-10-inches.png",
+    "width": 592
+  },
+  "sign-shape-color": {
+    "height": 137,
+    "page": 14,
+    "src": "/handbook/ohio/sign-shape-color.png",
+    "width": 1022
+  },
+  "signal-flashing-red": {
+    "height": 161,
+    "page": 13,
+    "src": "/handbook/ohio/signal-flashing-red.png",
+    "width": 694
+  },
+  "signal-flashing-yellow": {
+    "height": 137,
+    "page": 13,
+    "src": "/handbook/ohio/signal-flashing-yellow.png",
+    "width": 691
+  },
+  "signal-green": {
+    "height": 137,
+    "page": 13,
+    "src": "/handbook/ohio/signal-green.png",
+    "width": 719
+  },
+  "signal-green-arrow": {
+    "height": 137,
+    "page": 13,
+    "src": "/handbook/ohio/signal-green-arrow.png",
+    "width": 719
+  },
+  "signal-inoperable": {
+    "height": 137,
+    "page": 13,
+    "src": "/handbook/ohio/signal-inoperable.png",
+    "width": 720
+  },
+  "signal-outage-four-way": {
+    "height": 137,
+    "page": 42,
+    "src": "/handbook/ohio/signal-outage-four-way.png",
+    "width": 1070
+  },
+  "signal-red": {
+    "height": 161,
+    "page": 13,
+    "src": "/handbook/ohio/signal-red.png",
+    "width": 697
+  },
+  "signal-single-lights": {
+    "height": 137,
+    "page": 13,
+    "src": "/handbook/ohio/signal-single-lights.png",
+    "width": 1044
+  },
+  "signal-yellow": {
+    "height": 137,
+    "page": 13,
+    "src": "/handbook/ohio/signal-yellow.png",
+    "width": 936
+  },
+  "slow-moving-emblem": {
+    "height": 161,
+    "page": 41,
+    "src": "/handbook/ohio/slow-moving-emblem.png",
+    "width": 1067
+  },
+  "slow-vehicle-pass-half-limit": {
+    "height": 185,
+    "page": 41,
+    "src": "/handbook/ohio/slow-vehicle-pass-half-limit.png",
+    "width": 1067
+  },
+  "space-to-side": {
+    "height": 137,
+    "page": 35,
+    "src": "/handbook/ohio/space-to-side.png",
+    "width": 1053
+  },
+  "speed-by-road-type": {
+    "height": 137,
+    "page": 12,
+    "src": "/handbook/ohio/speed-by-road-type.png",
+    "width": 1041
+  },
+  "speed-less-than-ideal": {
+    "height": 161,
+    "page": 12,
+    "src": "/handbook/ohio/speed-less-than-ideal.png",
+    "width": 836
+  },
+  "speed-reasonable": {
+    "height": 161,
+    "page": 12,
+    "src": "/handbook/ohio/speed-reasonable.png",
+    "width": 836
+  },
+  "speed-stop-in-distance": {
+    "height": 137,
+    "page": 12,
+    "src": "/handbook/ohio/speed-stop-in-distance.png",
+    "width": 836
+  },
+  "sr22-definition": {
+    "height": 113,
+    "page": 29,
+    "src": "/handbook/ohio/sr22-definition.png",
+    "width": 1037
+  },
+  "stop-blocking-intersection": {
+    "height": 208,
+    "page": 18,
+    "src": "/handbook/ohio/stop-blocking-intersection.png",
+    "width": 527
+  },
+  "stop-sidewalk-driveway": {
+    "height": 232,
+    "page": 18,
+    "src": "/handbook/ohio/stop-sidewalk-driveway.png",
+    "width": 535
+  },
+  "stuck-accelerator": {
+    "height": 112,
+    "page": 43,
+    "src": "/handbook/ohio/stuck-accelerator.png",
+    "width": 894
+  },
+  "studded-tires": {
+    "height": 113,
+    "page": 8,
+    "src": "/handbook/ohio/studded-tires.png",
+    "width": 857
+  },
+  "tipic-16-to-17": {
+    "height": 160,
+    "page": 5,
+    "src": "/handbook/ohio/tipic-16-to-17.png",
+    "width": 989
+  },
+  "tipic-60-days": {
+    "height": 137,
+    "page": 5,
+    "src": "/handbook/ohio/tipic-60-days.png",
+    "width": 1039
+  },
+  "tire-blowout-response": {
+    "height": 113,
+    "page": 43,
+    "src": "/handbook/ohio/tire-blowout-response.png",
+    "width": 700
+  },
+  "traffic-stop-procedure": {
+    "height": 137,
+    "page": 31,
+    "src": "/handbook/ohio/traffic-stop-procedure.png",
+    "width": 773
+  },
+  "truck-avoid-right-lane-hills": {
+    "height": 233,
+    "page": 40,
+    "src": "/handbook/ohio/truck-avoid-right-lane-hills.png",
+    "width": 434
+  },
+  "truck-left-turn-judgement": {
+    "height": 137,
+    "page": 39,
+    "src": "/handbook/ohio/truck-left-turn-judgement.png",
+    "width": 1029
+  },
+  "truck-stopping-335": {
+    "height": 233,
+    "page": 40,
+    "src": "/handbook/ohio/truck-stopping-335.png",
+    "width": 438
+  },
+  "truck-wide-right-turn": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/ohio/truck-wide-right-turn.png",
+    "width": 1064
+  },
+  "turn-signal-100-feet": {
+    "height": 113,
+    "page": 20,
+    "src": "/handbook/ohio/turn-signal-100-feet.png",
+    "width": 1015
+  },
+  "turn-signal-100-feet-alt": {
+    "height": 137,
+    "page": 8,
+    "src": "/handbook/ohio/turn-signal-100-feet-alt.png",
+    "width": 1055
+  },
+  "two-way-left-turn-lane": {
+    "height": 137,
+    "page": 17,
+    "src": "/handbook/ohio/two-way-left-turn-lane.png",
+    "width": 933
+  },
+  "two-way-left-turn-not-passing": {
+    "height": 137,
+    "page": 24,
+    "src": "/handbook/ohio/two-way-left-turn-not-passing.png",
+    "width": 973
+  },
+  "two-way-left-turn-use": {
+    "height": 161,
+    "page": 17,
+    "src": "/handbook/ohio/two-way-left-turn-use.png",
+    "width": 915
+  },
+  "unsafe-vehicle": {
+    "height": 140,
+    "page": 7,
+    "src": "/handbook/ohio/unsafe-vehicle.png",
+    "width": 925
+  },
+  "warning-signs-shape": {
+    "height": 137,
+    "page": 14,
+    "src": "/handbook/ohio/warning-signs-shape.png",
+    "width": 1026
+  },
+  "winter-skid": {
+    "height": 161,
+    "page": 32,
+    "src": "/handbook/ohio/winter-skid.png",
+    "width": 949
+  },
+  "work-zone-flagger": {
+    "height": 139,
+    "page": 15,
+    "src": "/handbook/ohio/work-zone-flagger.png",
+    "width": 1060
+  },
+  "work-zone-reduce-speed": {
+    "height": 136,
+    "page": 32,
+    "src": "/handbook/ohio/work-zone-reduce-speed.png",
+    "width": 1033
+  },
+  "work-zone-sign-color": {
+    "height": 112,
+    "page": 32,
+    "src": "/handbook/ohio/work-zone-sign-color.png",
+    "width": 1033
+  }
+}
