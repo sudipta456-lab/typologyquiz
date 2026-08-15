@@ -27,6 +27,8 @@ import { texasSets1to3 } from "./texas/sets-1-3";
 import { texasSets4to6 } from "./texas/sets-4-6";
 import { californiaSets1to3 } from "./california/sets-1-3";
 import { californiaSets4to6 } from "./california/sets-4-6";
+import { washingtonSets1to3 } from "./washington/sets-1-3";
+import { washingtonSets4to6 } from "./washington/sets-4-6";
 
 const byNumber = (a: DrivingTestSet, b: DrivingTestSet) => a.setNumber - b.setNumber;
 
@@ -502,6 +504,37 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "The Basic Speed Law can make you unsafe at a legal speed.",
     ],
     sets: [...californiaSets1to3, ...californiaSets4to6].sort(byNumber),
+  },
+  {
+    slug: "washington",
+    name: "Washington",
+    code: "WA",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Instruction Permit",
+    intro:
+      "Washington's guide is unusually plain-spoken, which cuts both ways: it states some rules as memory aids rather than law, and it leaves out numbers the test still asks for.",
+    officialTest: {
+      questionCount: 40,
+      passCount: 32,
+      passLabel: "32 of 40 (80%)",
+      notes: [
+        "40 questions, 32 correct to pass. No section split and no published time limit.",
+        "The Driver Guide itself never states the question count or the pass mark - only the DOL website does. Studying the handbook alone, you would never meet these numbers.",
+        "A passing score stays valid for two years, and the test is offered in twelve languages.",
+      ],
+    },
+    handbookName: "Washington State Driver Guide",
+    handbookUrl:
+      "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides",
+    officialInfoUrl:
+      "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+    localGotchas: [
+      "Permit and intermediate licence holders cannot use a phone at all - hands-free included, unlike every other driver in the state.",
+      "There is no Washington wipers-on-headlights-on law. The guide offers it as a memory aid; the actual trigger is half an hour after sunset and the 1,000-foot visibility rule.",
+      "Yield when you pull onto a paved road from an unpaved one, and treat a dark signal as a four-way stop.",
+    ],
+    sets: [...washingtonSets1to3, ...washingtonSets4to6].sort(byNumber),
   },
 ];
 

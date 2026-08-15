@@ -46,3 +46,7 @@ next-env.d.ts
 # Local analytics screenshots (Cloudflare/GA captures) - keep out of the public repo
 *_traffic_*.PNG
 traffic_*.PNG
+
+# Handbook PDFs and quote extraction caches - large, regenerable from the
+# official sites, and only needed while building a jurisdiction bank.
+tmp/

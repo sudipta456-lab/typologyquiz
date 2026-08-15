@@ -75,6 +75,9 @@ const OFFICIAL_HOSTS = [
   "dds.georgia.gov",
   "georgia.gov",
   "dot.ga.gov",
+  // Washington
+  "dol.wa.gov",
+  "app.leg.wa.gov",
 ];
 
 let errors = 0;
