@@ -58,10 +58,19 @@ def find_quote(doc, quote: str):
     # only the folded form silently misses every quote containing "can't" or
     # "driver's". Alberta's guide uses straight quotes throughout, so this
     # stayed hidden until a handbook that doesn't.
+    # Both single AND double quotes need reconstructing. Fixing only the
+    # apostrophe left every quote containing a quoted phrase unfindable -
+    # Massachusetts alone lost five ("zero-tolerance" law, a STOP sign means
+    # "come to a complete halt", the "move-over law"), which is exactly the
+    # kind of passage a handbook puts in quotation marks in the first place.
     attempts = []
     for b in bases:
         attempts.append(b)
         curly = b.replace("'", "’").replace(" - ", " – ")
+        if '"' in curly:
+            # Opening quote where the mark starts a word, closing otherwise.
+            curly = re.sub(r'"(?=\w)', "“", curly)
+            curly = curly.replace('"', "”")
         if curly != b:
             attempts.append(curly)
 

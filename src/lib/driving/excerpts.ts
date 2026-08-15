@@ -14,6 +14,7 @@ import { newjerseyExcerpts } from "./newjersey/excerpts";
 import { virginiaExcerpts } from "./virginia/excerpts";
 import { californiaExcerpts } from "./california/excerpts";
 import { washingtonExcerpts } from "./washington/excerpts";
+import { massachusettsExcerpts } from "./massachusetts/excerpts";
 
 // Handbook excerpt library, keyed by jurisdiction then rule.
 //
@@ -38,6 +39,7 @@ const BY_JURISDICTION: Record<string, HandbookExcerpt[]> = {
   virginia: virginiaExcerpts,
   california: californiaExcerpts,
   washington: washingtonExcerpts,
+  massachusetts: massachusettsExcerpts,
 };
 
 const INDEX: Record<string, Record<string, HandbookExcerpt>> = Object.fromEntries(

@@ -29,6 +29,8 @@ import { californiaSets1to3 } from "./california/sets-1-3";
 import { californiaSets4to6 } from "./california/sets-4-6";
 import { washingtonSets1to3 } from "./washington/sets-1-3";
 import { washingtonSets4to6 } from "./washington/sets-4-6";
+import { massachusettsSets1to3 } from "./massachusetts/sets-1-3";
+import { massachusettsSets4to6 } from "./massachusetts/sets-4-6";
 
 const byNumber = (a: DrivingTestSet, b: DrivingTestSet) => a.setNumber - b.setNumber;
 
@@ -535,6 +537,36 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "Yield when you pull onto a paved road from an unpaved one, and treat a dark signal as a four-way stop.",
     ],
     sets: [...washingtonSets1to3, ...washingtonSets4to6].sort(byNumber),
+  },
+  {
+    slug: "massachusetts",
+    name: "Massachusetts",
+    code: "MA",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Class D Learner's Permit",
+    intro:
+      "The shortest exam on this site, and the least forgiving: 25 questions in 25 minutes, and a Junior Operator licence that punishes a single speeding ticket harder than most states punish three.",
+    officialTest: {
+      questionCount: 25,
+      passCount: 18,
+      passLabel: "18 of 25 (72%) in 25 minutes",
+      notes: [
+        "25 questions, 18 correct to pass, 25 minutes. No section split.",
+        "Taken online, the exam fails you automatically after two minutes of inactivity, on timeout, or if you leave the browser window.",
+        "Cheating costs you 60 days holding no permit or licence at all. Each attempt costs $30.",
+      ],
+    },
+    handbookName: "Massachusetts Driver's Manual (revised April 2026)",
+    handbookUrl: "https://www.mass.gov/doc/english-drivers-manual/download",
+    officialInfoUrl:
+      "https://www.mass.gov/how-to/apply-for-a-passenger-class-d-learners-permit",
+    localGotchas: [
+      "Two curfews half an hour apart: a learner's permit under 18 is midnight to 5 a.m., a Junior Operator licence is 12:30 a.m. to 5 a.m. Only a parent or guardian lifts either.",
+      "Breaking the Junior Operator night restriction is charged as operating without being licensed - a criminal matter, not a ticket.",
+      "Unposted limits run 20/30/40/50. There is no 55 in the default list, and a hydrant is 10 feet, not the 15 most drivers bring in from elsewhere.",
+    ],
+    sets: [...massachusettsSets1to3, ...massachusettsSets4to6].sort(byNumber),
   },
 ];
 

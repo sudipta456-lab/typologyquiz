@@ -78,6 +78,9 @@ const OFFICIAL_HOSTS = [
   // Washington
   "dol.wa.gov",
   "app.leg.wa.gov",
+  // Massachusetts
+  "mass.gov",
+  "malegislature.gov",
 ];
 
 let errors = 0;

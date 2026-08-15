@@ -6,7 +6,7 @@ Website: https://typologyquiz.com
 
 ## What this site is
 
-Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 2986 driving licence practice questions across 15 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
+Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 3181 driving licence practice questions across 16 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
 
 Nothing requires an account. There is no advertising, no tracking beyond basic analytics, and no email or phone collection - the audience includes minors, so the site deliberately holds no contact details. Quiz answers and progress live in the visitor's own browser.
 
@@ -40,6 +40,7 @@ Each jurisdiction has six sets that build from a gentle start to a full exam sim
 - [Virginia Learner's Permit](https://typologyquiz.com/driving/virginia/): 6 sets, 195 questions, 181 handbook excerpts. Real test: 40 questions, pass All 10 sign questions, then 24 of 30 knowledge questions. Official handbook: https://www.dmv.virginia.gov/licenses-ids/driver-manuals
 - [California California Driver License / Permit](https://typologyquiz.com/driving/california/): 6 sets, 231 questions, 131 handbook excerpts. Real test: 46 questions, pass 38 of 46 (83%) for under-18. Official handbook: https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/
 - [Washington Instruction Permit](https://typologyquiz.com/driving/washington/): 6 sets, 195 questions, 169 handbook excerpts. Real test: 40 questions, pass 32 of 40 (80%). Official handbook: https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides
+- [Massachusetts Class D Learner's Permit](https://typologyquiz.com/driving/massachusetts/): 6 sets, 195 questions, 189 handbook excerpts. Real test: 25 questions, pass 18 of 25 (72%) in 25 minutes. Official handbook: https://www.mass.gov/doc/english-drivers-manual/download
 
 There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak-spots/take/, rebuilt each time from the questions that visitor has actually got wrong.
 

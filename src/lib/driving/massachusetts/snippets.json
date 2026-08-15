@@ -1,0 +1,1034 @@
+{
+  "advisory-bike-lane": {
+    "height": 170,
+    "page": 99,
+    "src": "/handbook/massachusetts/advisory-bike-lane.png",
+    "width": 713
+  },
+  "all-way-stop-sign": {
+    "height": 194,
+    "page": 94,
+    "src": "/handbook/massachusetts/all-way-stop-sign.png",
+    "width": 706
+  },
+  "animals-stop-signal": {
+    "height": 122,
+    "page": 117,
+    "src": "/handbook/massachusetts/animals-stop-signal.png",
+    "width": 712
+  },
+  "being-passed": {
+    "height": 147,
+    "page": 111,
+    "src": "/handbook/massachusetts/being-passed.png",
+    "width": 705
+  },
+  "bicycle-box": {
+    "height": 146,
+    "page": 124,
+    "src": "/handbook/massachusetts/bicycle-box.png",
+    "width": 718
+  },
+  "bicycle-full-lane": {
+    "height": 195,
+    "page": 120,
+    "src": "/handbook/massachusetts/bicycle-full-lane.png",
+    "width": 707
+  },
+  "bicycle-helmet": {
+    "height": 171,
+    "page": 121,
+    "src": "/handbook/massachusetts/bicycle-helmet.png",
+    "width": 718
+  },
+  "bicycle-signals": {
+    "height": 218,
+    "page": 90,
+    "src": "/handbook/massachusetts/bicycle-signals.png",
+    "width": 569
+  },
+  "brake-failure": {
+    "height": 170,
+    "page": 132,
+    "src": "/handbook/massachusetts/brake-failure.png",
+    "width": 714
+  },
+  "breakdown-lane": {
+    "height": 170,
+    "page": 102,
+    "src": "/handbook/massachusetts/breakdown-lane.png",
+    "width": 717
+  },
+  "breakdown-stay-inside": {
+    "height": 194,
+    "page": 133,
+    "src": "/handbook/massachusetts/breakdown-stay-inside.png",
+    "width": 717
+  },
+  "centre-turn-lane": {
+    "height": 338,
+    "page": 106,
+    "src": "/handbook/massachusetts/centre-turn-lane.png",
+    "width": 718
+  },
+  "channelizing-island": {
+    "height": 146,
+    "page": 100,
+    "src": "/handbook/massachusetts/channelizing-island.png",
+    "width": 703
+  },
+  "child-restraint": {
+    "height": 201,
+    "page": 44,
+    "src": "/handbook/massachusetts/child-restraint.png",
+    "width": 686
+  },
+  "clear-snow": {
+    "height": 218,
+    "page": 56,
+    "src": "/handbook/massachusetts/clear-snow.png",
+    "width": 705
+  },
+  "countdown-timer": {
+    "height": 147,
+    "page": 90,
+    "src": "/handbook/massachusetts/countdown-timer.png",
+    "width": 702
+  },
+  "courtesy-crashes": {
+    "height": 171,
+    "page": 110,
+    "src": "/handbook/massachusetts/courtesy-crashes.png",
+    "width": 717
+  },
+  "crash-report-copies": {
+    "height": 209,
+    "page": 139,
+    "src": "/handbook/massachusetts/crash-report-copies.png",
+    "width": 710
+  },
+  "crash-report-threshold": {
+    "height": 170,
+    "page": 139,
+    "src": "/handbook/massachusetts/crash-report-threshold.png",
+    "width": 716
+  },
+  "crossbuck": {
+    "height": 170,
+    "page": 94,
+    "src": "/handbook/massachusetts/crossbuck.png",
+    "width": 638
+  },
+  "default-speed-limits": {
+    "height": 147,
+    "page": 87,
+    "src": "/handbook/massachusetts/default-speed-limits.png",
+    "width": 717
+  },
+  "dooring-fine": {
+    "height": 170,
+    "page": 123,
+    "src": "/handbook/massachusetts/dooring-fine.png",
+    "width": 718
+  },
+  "double-white": {
+    "height": 147,
+    "page": 98,
+    "src": "/handbook/massachusetts/double-white.png",
+    "width": 710
+  },
+  "double-yellow": {
+    "height": 170,
+    "page": 98,
+    "src": "/handbook/massachusetts/double-yellow.png",
+    "width": 720
+  },
+  "driver-removal-law": {
+    "height": 171,
+    "page": 137,
+    "src": "/handbook/massachusetts/driver-removal-law.png",
+    "width": 719
+  },
+  "driveway-stop": {
+    "height": 170,
+    "page": 108,
+    "src": "/handbook/massachusetts/driveway-stop.png",
+    "width": 703
+  },
+  "exam-cheating": {
+    "height": 170,
+    "page": 24,
+    "src": "/handbook/massachusetts/exam-cheating.png",
+    "width": 716
+  },
+  "exit-signal-500": {
+    "height": 146,
+    "page": 103,
+    "src": "/handbook/massachusetts/exit-signal-500.png",
+    "width": 707
+  },
+  "failed-test-standard": {
+    "height": 194,
+    "page": 77,
+    "src": "/handbook/massachusetts/failed-test-standard.png",
+    "width": 696
+  },
+  "failed-test-under-18": {
+    "height": 239,
+    "page": 77,
+    "src": "/handbook/massachusetts/failed-test-under-18.png",
+    "width": 695
+  },
+  "fire-800-feet": {
+    "height": 170,
+    "page": 129,
+    "src": "/handbook/massachusetts/fire-800-feet.png",
+    "width": 705
+  },
+  "flashing-red": {
+    "height": 170,
+    "page": 89,
+    "src": "/handbook/massachusetts/flashing-red.png",
+    "width": 705
+  },
+  "flashing-yellow": {
+    "height": 146,
+    "page": 89,
+    "src": "/handbook/massachusetts/flashing-yellow.png",
+    "width": 625
+  },
+  "flashing-yellow-arrow": {
+    "height": 170,
+    "page": 89,
+    "src": "/handbook/massachusetts/flashing-yellow-arrow.png",
+    "width": 699
+  },
+  "follow-300-feet": {
+    "height": 146,
+    "page": 128,
+    "src": "/handbook/massachusetts/follow-300-feet.png",
+    "width": 719
+  },
+  "four-second-motorcycle": {
+    "height": 147,
+    "page": 51,
+    "src": "/handbook/massachusetts/four-second-motorcycle.png",
+    "width": 717
+  },
+  "four-way-order": {
+    "height": 171,
+    "page": 108,
+    "src": "/handbook/massachusetts/four-way-order.png",
+    "width": 702
+  },
+  "four-way-stop": {
+    "height": 122,
+    "page": 108,
+    "src": "/handbook/massachusetts/four-way-stop.png",
+    "width": 672
+  },
+  "funeral-right-of-way": {
+    "height": 170,
+    "page": 115,
+    "src": "/handbook/massachusetts/funeral-right-of-way.png",
+    "width": 719
+  },
+  "funeral-speed": {
+    "height": 170,
+    "page": 116,
+    "src": "/handbook/massachusetts/funeral-speed.png",
+    "width": 719
+  },
+  "green-arrow": {
+    "height": 122,
+    "page": 90,
+    "src": "/handbook/massachusetts/green-arrow.png",
+    "width": 708
+  },
+  "green-light-pedestrians": {
+    "height": 147,
+    "page": 107,
+    "src": "/handbook/massachusetts/green-light-pedestrians.png",
+    "width": 715
+  },
+  "green-pavement": {
+    "height": 194,
+    "page": 99,
+    "src": "/handbook/massachusetts/green-pavement.png",
+    "width": 717
+  },
+  "habitual-offender": {
+    "height": 222,
+    "page": 70,
+    "src": "/handbook/massachusetts/habitual-offender.png",
+    "width": 512
+  },
+  "hands-free-gps": {
+    "height": 195,
+    "page": 47,
+    "src": "/handbook/massachusetts/hands-free-gps.png",
+    "width": 716
+  },
+  "hands-free-stationary": {
+    "height": 146,
+    "page": 47,
+    "src": "/handbook/massachusetts/hands-free-stationary.png",
+    "width": 716
+  },
+  "head-injury-surcharge": {
+    "height": 170,
+    "page": 65,
+    "src": "/handbook/massachusetts/head-injury-surcharge.png",
+    "width": 719
+  },
+  "headlight-rule": {
+    "height": 123,
+    "page": 53,
+    "src": "/handbook/massachusetts/headlight-rule.png",
+    "width": 718
+  },
+  "headphones-illegal": {
+    "height": 195,
+    "page": 47,
+    "src": "/handbook/massachusetts/headphones-illegal.png",
+    "width": 717
+  },
+  "high-beam-dim": {
+    "height": 170,
+    "page": 54,
+    "src": "/handbook/massachusetts/high-beam-dim.png",
+    "width": 719
+  },
+  "highway-speed-range": {
+    "height": 170,
+    "page": 87,
+    "src": "/handbook/massachusetts/highway-speed-range.png",
+    "width": 716
+  },
+  "implied-consent": {
+    "height": 171,
+    "page": 80,
+    "src": "/handbook/massachusetts/implied-consent.png",
+    "width": 714
+  },
+  "interlock-duration": {
+    "height": 147,
+    "page": 81,
+    "src": "/handbook/massachusetts/interlock-duration.png",
+    "width": 701
+  },
+  "jol-24p": {
+    "height": 291,
+    "page": 73,
+    "src": "/handbook/massachusetts/jol-24p.png",
+    "width": 704
+  },
+  "jol-curfew-criminal": {
+    "height": 154,
+    "page": 19,
+    "src": "/handbook/massachusetts/jol-curfew-criminal.png",
+    "width": 719
+  },
+  "jol-definition": {
+    "height": 146,
+    "page": 17,
+    "src": "/handbook/massachusetts/jol-definition.png",
+    "width": 703
+  },
+  "jol-passenger-restriction": {
+    "height": 243,
+    "page": 18,
+    "src": "/handbook/massachusetts/jol-passenger-restriction.png",
+    "width": 714
+  },
+  "jol-speeding-reinstate": {
+    "height": 186,
+    "page": 72,
+    "src": "/handbook/massachusetts/jol-speeding-reinstate.png",
+    "width": 297
+  },
+  "leaving-scene-duty": {
+    "height": 147,
+    "page": 138,
+    "src": "/handbook/massachusetts/leaving-scene-duty.png",
+    "width": 717
+  },
+  "leaving-scene-penalties": {
+    "height": 170,
+    "page": 138,
+    "src": "/handbook/massachusetts/leaving-scene-penalties.png",
+    "width": 719
+  },
+  "leaving-vehicle": {
+    "height": 171,
+    "page": 117,
+    "src": "/handbook/massachusetts/leaving-vehicle.png",
+    "width": 711
+  },
+  "left-on-red": {
+    "height": 170,
+    "page": 89,
+    "src": "/handbook/massachusetts/left-on-red.png",
+    "width": 711
+  },
+  "left-turn-yield": {
+    "height": 122,
+    "page": 108,
+    "src": "/handbook/massachusetts/left-turn-yield.png",
+    "width": 703
+  },
+  "legal-limit": {
+    "height": 144,
+    "page": 81,
+    "src": "/handbook/massachusetts/legal-limit.png",
+    "width": 698
+  },
+  "long-suspension-retest": {
+    "height": 147,
+    "page": 76,
+    "src": "/handbook/massachusetts/long-suspension-retest.png",
+    "width": 713
+  },
+  "marijuana-still-illegal": {
+    "height": 160,
+    "page": 83,
+    "src": "/handbook/massachusetts/marijuana-still-illegal.png",
+    "width": 715
+  },
+  "minimum-speeds": {
+    "height": 194,
+    "page": 87,
+    "src": "/handbook/massachusetts/minimum-speeds.png",
+    "width": 716
+  },
+  "moped-rules": {
+    "height": 123,
+    "page": 60,
+    "src": "/handbook/massachusetts/moped-rules.png",
+    "width": 717
+  },
+  "motorcycle-lane-share": {
+    "height": 194,
+    "page": 59,
+    "src": "/handbook/massachusetts/motorcycle-lane-share.png",
+    "width": 719
+  },
+  "motorcycle-no-weave": {
+    "height": 267,
+    "page": 59,
+    "src": "/handbook/massachusetts/motorcycle-no-weave.png",
+    "width": 719
+  },
+  "move-over-law": {
+    "height": 195,
+    "page": 128,
+    "src": "/handbook/massachusetts/move-over-law.png",
+    "width": 719
+  },
+  "moving-emergency-vehicle": {
+    "height": 170,
+    "page": 128,
+    "src": "/handbook/massachusetts/moving-emergency-vehicle.png",
+    "width": 719
+  },
+  "narrow-road-yield": {
+    "height": 170,
+    "page": 109,
+    "src": "/handbook/massachusetts/narrow-road-yield.png",
+    "width": 718
+  },
+  "negligent-phone": {
+    "height": 171,
+    "page": 48,
+    "src": "/handbook/massachusetts/negligent-phone.png",
+    "width": 689
+  },
+  "no-grace-period": {
+    "height": 171,
+    "page": 10,
+    "src": "/handbook/massachusetts/no-grace-period.png",
+    "width": 725
+  },
+  "no-lane-change-intersection": {
+    "height": 146,
+    "page": 102,
+    "src": "/handbook/massachusetts/no-lane-change-intersection.png",
+    "width": 717
+  },
+  "no-shoulder-passing": {
+    "height": 151,
+    "page": 110,
+    "src": "/handbook/massachusetts/no-shoulder-passing.png",
+    "width": 706
+  },
+  "no-sobering-up": {
+    "height": 219,
+    "page": 80,
+    "src": "/handbook/massachusetts/no-sobering-up.png",
+    "width": 719
+  },
+  "officer-overrides": {
+    "height": 146,
+    "page": 95,
+    "src": "/handbook/massachusetts/officer-overrides.png",
+    "width": 709
+  },
+  "open-container": {
+    "height": 170,
+    "page": 82,
+    "src": "/handbook/massachusetts/open-container.png",
+    "width": 695
+  },
+  "oui-escalation": {
+    "height": 219,
+    "page": 74,
+    "src": "/handbook/massachusetts/oui-escalation.png",
+    "width": 647
+  },
+  "parking-12-feet": {
+    "height": 146,
+    "page": 117,
+    "src": "/handbook/massachusetts/parking-12-feet.png",
+    "width": 711
+  },
+  "parking-12-inches": {
+    "height": 146,
+    "page": 117,
+    "src": "/handbook/massachusetts/parking-12-inches.png",
+    "width": 711
+  },
+  "parking-bike-lane": {
+    "height": 123,
+    "page": 118,
+    "src": "/handbook/massachusetts/parking-bike-lane.png",
+    "width": 718
+  },
+  "parking-bus-stop-fine": {
+    "height": 123,
+    "page": 118,
+    "src": "/handbook/massachusetts/parking-bus-stop-fine.png",
+    "width": 718
+  },
+  "parking-crosshatch": {
+    "height": 146,
+    "page": 119,
+    "src": "/handbook/massachusetts/parking-crosshatch.png",
+    "width": 698
+  },
+  "parking-hp-dv": {
+    "height": 146,
+    "page": 118,
+    "src": "/handbook/massachusetts/parking-hp-dv.png",
+    "width": 718
+  },
+  "parking-hydrant": {
+    "height": 123,
+    "page": 119,
+    "src": "/handbook/massachusetts/parking-hydrant.png",
+    "width": 698
+  },
+  "parking-misc-prohibited": {
+    "height": 122,
+    "page": 119,
+    "src": "/handbook/massachusetts/parking-misc-prohibited.png",
+    "width": 698
+  },
+  "parking-prohibited-distances": {
+    "height": 122,
+    "page": 118,
+    "src": "/handbook/massachusetts/parking-prohibited-distances.png",
+    "width": 718
+  },
+  "parking-rural": {
+    "height": 122,
+    "page": 119,
+    "src": "/handbook/massachusetts/parking-rural.png",
+    "width": 698
+  },
+  "passing-400-feet": {
+    "height": 170,
+    "page": 111,
+    "src": "/handbook/massachusetts/passing-400-feet.png",
+    "width": 575
+  },
+  "passing-on-right": {
+    "height": 122,
+    "page": 111,
+    "src": "/handbook/massachusetts/passing-on-right.png",
+    "width": 718
+  },
+  "passing-return-200": {
+    "height": 147,
+    "page": 111,
+    "src": "/handbook/massachusetts/passing-return-200.png",
+    "width": 573
+  },
+  "passing-stopped-vehicles": {
+    "height": 170,
+    "page": 112,
+    "src": "/handbook/massachusetts/passing-stopped-vehicles.png",
+    "width": 719
+  },
+  "pedestrian-hybrid-beacon": {
+    "height": 242,
+    "page": 90,
+    "src": "/handbook/massachusetts/pedestrian-hybrid-beacon.png",
+    "width": 717
+  },
+  "pedestrian-sidewalk-driveway": {
+    "height": 130,
+    "page": 108,
+    "src": "/handbook/massachusetts/pedestrian-sidewalk-driveway.png",
+    "width": 718
+  },
+  "pedestrian-speed-risk": {
+    "height": 171,
+    "page": 86,
+    "src": "/handbook/massachusetts/pedestrian-speed-risk.png",
+    "width": 717
+  },
+  "permit-age": {
+    "height": 147,
+    "page": 23,
+    "src": "/handbook/massachusetts/permit-age.png",
+    "width": 718
+  },
+  "permit-curfew": {
+    "height": 171,
+    "page": 26,
+    "src": "/handbook/massachusetts/permit-curfew.png",
+    "width": 719
+  },
+  "permit-supervisor": {
+    "height": 194,
+    "page": 26,
+    "src": "/handbook/massachusetts/permit-supervisor.png",
+    "width": 719
+  },
+  "permit-validity": {
+    "height": 123,
+    "page": 23,
+    "src": "/handbook/massachusetts/permit-validity.png",
+    "width": 718
+  },
+  "plate-visibility": {
+    "height": 194,
+    "page": 51,
+    "src": "/handbook/massachusetts/plate-visibility.png",
+    "width": 708
+  },
+  "prescription-oui": {
+    "height": 147,
+    "page": 83,
+    "src": "/handbook/massachusetts/prescription-oui.png",
+    "width": 694
+  },
+  "railroad-stop-15": {
+    "height": 170,
+    "page": 95,
+    "src": "/handbook/massachusetts/railroad-stop-15.png",
+    "width": 715
+  },
+  "reaction-time": {
+    "height": 205,
+    "page": 52,
+    "src": "/handbook/massachusetts/reaction-time.png",
+    "width": 715
+  },
+  "red-arrow": {
+    "height": 170,
+    "page": 89,
+    "src": "/handbook/massachusetts/red-arrow.png",
+    "width": 711
+  },
+  "red-light": {
+    "height": 194,
+    "page": 89,
+    "src": "/handbook/massachusetts/red-light.png",
+    "width": 711
+  },
+  "refusal-not-prior": {
+    "height": 122,
+    "page": 78,
+    "src": "/handbook/massachusetts/refusal-not-prior.png",
+    "width": 666
+  },
+  "refusal-over-21": {
+    "height": 200,
+    "page": 78,
+    "src": "/handbook/massachusetts/refusal-over-21.png",
+    "width": 579
+  },
+  "regulatory-signs": {
+    "height": 147,
+    "page": 94,
+    "src": "/handbook/massachusetts/regulatory-signs.png",
+    "width": 706
+  },
+  "right-lane-rule": {
+    "height": 107,
+    "page": 102,
+    "src": "/handbook/massachusetts/right-lane-rule.png",
+    "width": 717
+  },
+  "right-of-way-given": {
+    "height": 170,
+    "page": 107,
+    "src": "/handbook/massachusetts/right-of-way-given.png",
+    "width": 715
+  },
+  "road-test-retry": {
+    "height": 147,
+    "page": 28,
+    "src": "/handbook/massachusetts/road-test-retry.png",
+    "width": 719
+  },
+  "road-test-sponsor": {
+    "height": 123,
+    "page": 18,
+    "src": "/handbook/massachusetts/road-test-sponsor.png",
+    "width": 700
+  },
+  "rotary-lane-choice": {
+    "height": 146,
+    "page": 109,
+    "src": "/handbook/massachusetts/rotary-lane-choice.png",
+    "width": 718
+  },
+  "rotary-yield": {
+    "height": 170,
+    "page": 109,
+    "src": "/handbook/massachusetts/rotary-yield.png",
+    "width": 718
+  },
+  "rrfb": {
+    "height": 170,
+    "page": 90,
+    "src": "/handbook/massachusetts/rrfb.png",
+    "width": 606
+  },
+  "school-bus-exception": {
+    "height": 170,
+    "page": 113,
+    "src": "/handbook/massachusetts/school-bus-exception.png",
+    "width": 715
+  },
+  "school-bus-stop": {
+    "height": 291,
+    "page": 113,
+    "src": "/handbook/massachusetts/school-bus-stop.png",
+    "width": 704
+  },
+  "school-zone-speed": {
+    "height": 123,
+    "page": 88,
+    "src": "/handbook/massachusetts/school-zone-speed.png",
+    "width": 717
+  },
+  "scooter-night": {
+    "height": 122,
+    "page": 61,
+    "src": "/handbook/massachusetts/scooter-night.png",
+    "width": 709
+  },
+  "seat-belt-law": {
+    "height": 195,
+    "page": 43,
+    "src": "/handbook/massachusetts/seat-belt-law.png",
+    "width": 718
+  },
+  "separated-bike-lane": {
+    "height": 147,
+    "page": 125,
+    "src": "/handbook/massachusetts/separated-bike-lane.png",
+    "width": 708
+  },
+  "sharrows": {
+    "height": 195,
+    "page": 99,
+    "src": "/handbook/massachusetts/sharrows.png",
+    "width": 681
+  },
+  "signal-distance": {
+    "height": 147,
+    "page": 105,
+    "src": "/handbook/massachusetts/signal-distance.png",
+    "width": 717
+  },
+  "signals-dark": {
+    "height": 170,
+    "page": 90,
+    "src": "/handbook/massachusetts/signals-dark.png",
+    "width": 715
+  },
+  "skid-recovery": {
+    "height": 150,
+    "page": 131,
+    "src": "/handbook/massachusetts/skid-recovery.png",
+    "width": 538
+  },
+  "slow-moving-vehicle": {
+    "height": 170,
+    "page": 115,
+    "src": "/handbook/massachusetts/slow-moving-vehicle.png",
+    "width": 719
+  },
+  "solid-white": {
+    "height": 147,
+    "page": 98,
+    "src": "/handbook/massachusetts/solid-white.png",
+    "width": 710
+  },
+  "speeding-fine-base": {
+    "height": 242,
+    "page": 65,
+    "src": "/handbook/massachusetts/speeding-fine-base.png",
+    "width": 719
+  },
+  "speeding-fine-per-mph": {
+    "height": 194,
+    "page": 65,
+    "src": "/handbook/massachusetts/speeding-fine-per-mph.png",
+    "width": 719
+  },
+  "stalled-on-tracks": {
+    "height": 122,
+    "page": 133,
+    "src": "/handbook/massachusetts/stalled-on-tracks.png",
+    "width": 716
+  },
+  "state-route-marker": {
+    "height": 171,
+    "page": 94,
+    "src": "/handbook/massachusetts/state-route-marker.png",
+    "width": 707
+  },
+  "steady-yellow": {
+    "height": 194,
+    "page": 89,
+    "src": "/handbook/massachusetts/steady-yellow.png",
+    "width": 609
+  },
+  "stop-sign": {
+    "height": 170,
+    "page": 94,
+    "src": "/handbook/massachusetts/stop-sign.png",
+    "width": 706
+  },
+  "stopping-distance-60": {
+    "height": 122,
+    "page": 52,
+    "src": "/handbook/massachusetts/stopping-distance-60.png",
+    "width": 707
+  },
+  "tailgating-fine": {
+    "height": 170,
+    "page": 51,
+    "src": "/handbook/massachusetts/tailgating-fine.png",
+    "width": 717
+  },
+  "temp-licence": {
+    "height": 171,
+    "page": 35,
+    "src": "/handbook/massachusetts/temp-licence.png",
+    "width": 717
+  },
+  "ten-second-heavy": {
+    "height": 147,
+    "page": 51,
+    "src": "/handbook/massachusetts/ten-second-heavy.png",
+    "width": 717
+  },
+  "thickly-settled-25": {
+    "height": 171,
+    "page": 88,
+    "src": "/handbook/massachusetts/thickly-settled-25.png",
+    "width": 694
+  },
+  "thickly-settled-definition": {
+    "height": 147,
+    "page": 88,
+    "src": "/handbook/massachusetts/thickly-settled-definition.png",
+    "width": 670
+  },
+  "three-second-rule": {
+    "height": 147,
+    "page": 51,
+    "src": "/handbook/massachusetts/three-second-rule.png",
+    "width": 718
+  },
+  "three-speeding": {
+    "height": 171,
+    "page": 67,
+    "src": "/handbook/massachusetts/three-speeding.png",
+    "width": 718
+  },
+  "three-surchargeable": {
+    "height": 171,
+    "page": 67,
+    "src": "/handbook/massachusetts/three-surchargeable.png",
+    "width": 718
+  },
+  "throughway-yield": {
+    "height": 146,
+    "page": 109,
+    "src": "/handbook/massachusetts/throughway-yield.png",
+    "width": 718
+  },
+  "ticket-under-limit": {
+    "height": 147,
+    "page": 88,
+    "src": "/handbook/massachusetts/ticket-under-limit.png",
+    "width": 665
+  },
+  "tire-tread": {
+    "height": 170,
+    "page": 50,
+    "src": "/handbook/massachusetts/tire-tread.png",
+    "width": 719
+  },
+  "trolley-cannot-swerve": {
+    "height": 147,
+    "page": 115,
+    "src": "/handbook/massachusetts/trolley-cannot-swerve.png",
+    "width": 719
+  },
+  "trolley-eight-feet": {
+    "height": 146,
+    "page": 115,
+    "src": "/handbook/massachusetts/trolley-eight-feet.png",
+    "width": 719
+  },
+  "truck-lanes": {
+    "height": 171,
+    "page": 114,
+    "src": "/handbook/massachusetts/truck-lanes.png",
+    "width": 711
+  },
+  "truck-right-turn": {
+    "height": 159,
+    "page": 115,
+    "src": "/handbook/massachusetts/truck-right-turn.png",
+    "width": 719
+  },
+  "turning-yield-bicycle": {
+    "height": 170,
+    "page": 104,
+    "src": "/handbook/massachusetts/turning-yield-bicycle.png",
+    "width": 711
+  },
+  "u-turn-lane": {
+    "height": 146,
+    "page": 106,
+    "src": "/handbook/massachusetts/u-turn-lane.png",
+    "width": 718
+  },
+  "u-turn-visibility": {
+    "height": 146,
+    "page": 106,
+    "src": "/handbook/massachusetts/u-turn-visibility.png",
+    "width": 718
+  },
+  "uncontrolled-intersection": {
+    "height": 171,
+    "page": 108,
+    "src": "/handbook/massachusetts/uncontrolled-intersection.png",
+    "width": 718
+  },
+  "under-21-buying": {
+    "height": 171,
+    "page": 82,
+    "src": "/handbook/massachusetts/under-21-buying.png",
+    "width": 707
+  },
+  "under-21-court-irrelevant": {
+    "height": 192,
+    "page": 77,
+    "src": "/handbook/massachusetts/under-21-court-irrelevant.png",
+    "width": 677
+  },
+  "unpaid-parking-tickets": {
+    "height": 147,
+    "page": 119,
+    "src": "/handbook/massachusetts/unpaid-parking-tickets.png",
+    "width": 698
+  },
+  "vehicle-in-water": {
+    "height": 123,
+    "page": 135,
+    "src": "/handbook/massachusetts/vehicle-in-water.png",
+    "width": 702
+  },
+  "vision-standard": {
+    "height": 180,
+    "page": 13,
+    "src": "/handbook/massachusetts/vision-standard.png",
+    "width": 709
+  },
+  "vulnerable-road-users": {
+    "height": 219,
+    "page": 57,
+    "src": "/handbook/massachusetts/vulnerable-road-users.png",
+    "width": 706
+  },
+  "warning-triangles": {
+    "height": 123,
+    "page": 134,
+    "src": "/handbook/massachusetts/warning-triangles.png",
+    "width": 671
+  },
+  "white-cane-law": {
+    "height": 147,
+    "page": 58,
+    "src": "/handbook/massachusetts/white-cane-law.png",
+    "width": 715
+  },
+  "window-tint": {
+    "height": 170,
+    "page": 42,
+    "src": "/handbook/massachusetts/window-tint.png",
+    "width": 709
+  },
+  "wipers-headlights": {
+    "height": 171,
+    "page": 55,
+    "src": "/handbook/massachusetts/wipers-headlights.png",
+    "width": 714
+  },
+  "witness-crash": {
+    "height": 147,
+    "page": 139,
+    "src": "/handbook/massachusetts/witness-crash.png",
+    "width": 719
+  },
+  "work-zone-double": {
+    "height": 147,
+    "page": 65,
+    "src": "/handbook/massachusetts/work-zone-double.png",
+    "width": 690
+  },
+  "work-zone-first-thing": {
+    "height": 146,
+    "page": 97,
+    "src": "/handbook/massachusetts/work-zone-first-thing.png",
+    "width": 711
+  },
+  "yield-red-and-yellow": {
+    "height": 122,
+    "page": 91,
+    "src": "/handbook/massachusetts/yield-red-and-yellow.png",
+    "width": 713
+  },
+  "yield-sign": {
+    "height": 171,
+    "page": 94,
+    "src": "/handbook/massachusetts/yield-sign.png",
+    "width": 706
+  },
+  "zero-tolerance": {
+    "height": 171,
+    "page": 81,
+    "src": "/handbook/massachusetts/zero-tolerance.png",
+    "width": 698
+  }
+}
