@@ -5,6 +5,8 @@ import { texasExcerpts } from "./texas/excerpts";
 import { floridaExcerpts } from "./florida/excerpts";
 import { newyorkExcerpts } from "./newyork/excerpts";
 import { pennsylvaniaExcerpts } from "./pennsylvania/excerpts";
+import { ohioExcerpts } from "./ohio/excerpts";
+import { georgiaExcerpts } from "./georgia/excerpts";
 import { californiaExcerpts } from "./california/excerpts";
 
 // Handbook excerpt library, keyed by jurisdiction then rule.
@@ -21,6 +23,8 @@ const BY_JURISDICTION: Record<string, HandbookExcerpt[]> = {
   florida: floridaExcerpts,
   newyork: newyorkExcerpts,
   pennsylvania: pennsylvaniaExcerpts,
+  ohio: ohioExcerpts,
+  georgia: georgiaExcerpts,
   california: californiaExcerpts,
 };
 

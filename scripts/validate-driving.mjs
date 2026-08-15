@@ -55,6 +55,7 @@ const OFFICIAL_HOSTS = [
   "pa.gov",
   "legis.state.pa.us",
   // Ohio
+  "ohio.gov",
   "bmv.ohio.gov",
   "publicsafety.ohio.gov",
   "codes.ohio.gov",

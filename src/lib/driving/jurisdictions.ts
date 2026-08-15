@@ -3,6 +3,10 @@ import { albertaSets1to3 } from "./alberta/sets-1-3";
 import { albertaSets4to6 } from "./alberta/sets-4-6";
 import { ontarioSets1to3 } from "./ontario/sets-1-3";
 import { ontarioSets4to6 } from "./ontario/sets-4-6";
+import { georgiaSets1to3 } from "./georgia/sets-1-3";
+import { georgiaSets4to6 } from "./georgia/sets-4-6";
+import { ohioSets1to3 } from "./ohio/sets-1-3";
+import { ohioSets4to6 } from "./ohio/sets-4-6";
 import { pennsylvaniaSets1to3 } from "./pennsylvania/sets-1-3";
 import { pennsylvaniaSets4to6 } from "./pennsylvania/sets-4-6";
 import { newyorkSets1to3 } from "./newyork/sets-1-3";
@@ -215,6 +219,88 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "Junior licence holders face an 11pm curfew and passenger limits that tighten after a crash or conviction.",
     ],
     sets: [...pennsylvaniaSets1to3, ...pennsylvaniaSets4to6].sort(byNumber),
+  },
+  {
+    slug: "ohio",
+    name: "Ohio",
+    code: "OH",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Temporary Instruction Permit (TIPIC)",
+    intro:
+      "Ohio asks 40 questions and passes at 75%. Watch the probationary night hours - they change after your first year, not on your birthday.",
+    officialTest: {
+      questionCount: 40,
+      passCount: 30,
+      // The BMV publishes one flat 75% mark. The "20 signs + 20 rules with
+      // 16 and 15 thresholds" figure circulating on practice-test sites is not
+      // Ohio's - both bmv.ohio.gov and the manual state 40 questions at 75%.
+      passLabel: "30 of 40 (75%)",
+      notes: [
+        "40 multiple-choice questions on motor vehicle regulations and traffic signs. You need 75% correct.",
+        "There is no separate road-signs threshold - that rule belongs to other states.",
+        "Fail and you wait at least 24 hours. In person you may retake once a day; online is capped at two attempts per six months.",
+      ],
+    },
+    handbookName: "Ohio Driver Manual",
+    handbookUrl: "https://www.bmv.ohio.gov/links-handbooks.aspx",
+    officialInfoUrl: "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    localGotchas: [
+      "Probationary night limits change after 12 months of holding the licence, not when you turn 17.",
+      "Ohio calls it OVI, not DUI or DWI - the questions use the state's own term.",
+      "The manual gives following distance two ways; four seconds is the number to hold yourself to.",
+    ],
+    sets: [...ohioSets1to3, ...ohioSets4to6].sort(byNumber),
+  },
+  {
+    slug: "georgia",
+    name: "Georgia",
+    code: "GA",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Class CP Instructional Permit",
+    intro:
+      "Georgia scores road signs and road rules as two separate exams of 20, and you need 15 in each. Ace the rules and fluff the signs and you still fail.",
+    officialTest: {
+      questionCount: 40,
+      passCount: 30,
+      passLabel: "15 of 20 in EACH part (road signs and road rules)",
+      // Georgia's two parts are equal halves of 20, so the scorer's
+      // passCount / (questionCount / sections) works out to the correct 75%
+      // per section. New York's 4-and-16 split could not be expressed this way.
+      notes: [
+        "Two separate 20-question exams: road signs, and road rules. You need 15 correct in each.",
+        "Neither official source gives an aggregate score, so a strong half cannot rescue a weak one.",
+        "Retake the next day after a first failure, then 7 days after a second. $10 per attempt.",
+      ],
+      sectionedBy: [
+        { topics: ["signs", "signals"], label: "Road signs", passCount: 15 },
+        {
+          topics: [
+            "rules",
+            "rightOfWay",
+            "speed",
+            "parking",
+            "safety",
+            "impairment",
+            "sharing",
+            "emergencies",
+            "licensing",
+          ],
+          label: "Road rules",
+          passCount: 15,
+        },
+      ],
+    },
+    handbookName: "Georgia Driver's Manual",
+    handbookUrl: "https://dds.georgia.gov/georgia-drivers-manual",
+    officialInfoUrl: "https://dds.georgia.gov/section-3-testing-information",
+    localGotchas: [
+      "Signs and rules are scored separately - 15 of 20 in each, with no combined score to fall back on.",
+      "Under 21, a single 4-point conviction suspends your licence. Under 18, it takes 4 points in 12 months.",
+      "Joshua's Law shapes when a 16-year-old can be licensed at all.",
+    ],
+    sets: [...georgiaSets1to3, ...georgiaSets4to6].sort(byNumber),
   },
   {
     slug: "california",
