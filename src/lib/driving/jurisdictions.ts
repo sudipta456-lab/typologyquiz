@@ -3,6 +3,8 @@ import { albertaSets1to3 } from "./alberta/sets-1-3";
 import { albertaSets4to6 } from "./alberta/sets-4-6";
 import { ontarioSets1to3 } from "./ontario/sets-1-3";
 import { ontarioSets4to6 } from "./ontario/sets-4-6";
+import { northcarolinaSets1to3 } from "./northcarolina/sets-1-3";
+import { northcarolinaSets4to6 } from "./northcarolina/sets-4-6";
 import { illinoisSets1to3 } from "./illinois/sets-1-3";
 import { illinoisSets4to6 } from "./illinois/sets-4-6";
 import { georgiaSets1to3 } from "./georgia/sets-1-3";
@@ -334,6 +336,40 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "Moving-violation limits differ by age: three in 12 months at 21+, but two in 24 months under 21.",
     ],
     sets: [...illinoisSets1to3, ...illinoisSets4to6].sort(byNumber),
+  },
+  {
+    slug: "northcarolina",
+    name: "North Carolina",
+    code: "NC",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Learner Permit",
+    intro:
+      "North Carolina runs the signs test as a separate exam, and several of its rules are the opposite of what drivers from other states expect - the horn before overtaking, two feet of passing clearance, two seconds of following distance.",
+    officialTest: {
+      questionCount: 25,
+      passCount: 20,
+      // NCDMV publishes no question count anywhere. The administrative rule
+      // (19A NCAC 03B .0201) sets 80% on the knowledge test and, separately,
+      // nine of twelve on the road signs test - two different fractions, so
+      // this cannot go through sectionedBy. 25/20 below is only a stand-in that
+      // preserves the 80%; the notes give the rule as published.
+      passLabel: "80% on the knowledge test, plus 9 of 12 road signs",
+      notes: [
+        "The rule sets 80% correct on the knowledge test. No official source states how many questions that is.",
+        "Road signs is a SEPARATE test: identify 9 of 12 signs by colour, shape and meaning. Each test must be passed on its own.",
+        "Retake after 7 calendar days.",
+      ],
+    },
+    handbookName: "North Carolina Driver's Handbook",
+    handbookUrl: "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-handbook.aspx",
+    officialInfoUrl: "https://www.ncdot.gov/dmv/license-id/driver-licenses/Pages/driver-license-tests.aspx",
+    localGotchas: [
+      "You must sound the horn before overtaking, and the driver being passed is legally required to help you do it.",
+      "Passing clearance is two feet and following distance is two seconds - lower than most states teach.",
+      "The unposted limit inside a city or town is 35 mph, not 25.",
+    ],
+    sets: [...northcarolinaSets1to3, ...northcarolinaSets4to6].sort(byNumber),
   },
   {
     slug: "california",

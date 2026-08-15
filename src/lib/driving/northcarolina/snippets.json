@@ -1,0 +1,950 @@
+{
+  "abs-no-pumping": {
+    "height": 159,
+    "page": 68,
+    "src": "/handbook/northcarolina/abs-no-pumping.png",
+    "width": 693
+  },
+  "airbag-200-mph": {
+    "height": 138,
+    "page": 46,
+    "src": "/handbook/northcarolina/airbag-200-mph.png",
+    "width": 689
+  },
+  "appeal-30-days-superior": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/northcarolina/appeal-30-days-superior.png",
+    "width": 697
+  },
+  "bac-08": {
+    "height": 138,
+    "page": 33,
+    "src": "/handbook/northcarolina/bac-08.png",
+    "width": 707
+  },
+  "bac-restriction-restoration": {
+    "height": 160,
+    "page": 34,
+    "src": "/handbook/northcarolina/bac-restriction-restoration.png",
+    "width": 706
+  },
+  "backing-10-mph": {
+    "height": 111,
+    "page": 58,
+    "src": "/handbook/northcarolina/backing-10-mph.png",
+    "width": 629
+  },
+  "being-passed-duty": {
+    "height": 161,
+    "page": 57,
+    "src": "/handbook/northcarolina/being-passed-duty.png",
+    "width": 700
+  },
+  "belt-exemption-20-mph": {
+    "height": 152,
+    "page": 45,
+    "src": "/handbook/northcarolina/belt-exemption-20-mph.png",
+    "width": 704
+  },
+  "bicycle-full-lane": {
+    "height": 161,
+    "page": 91,
+    "src": "/handbook/northcarolina/bicycle-full-lane.png",
+    "width": 705
+  },
+  "bicycle-helmet-under-16": {
+    "height": 138,
+    "page": 92,
+    "src": "/handbook/northcarolina/bicycle-helmet-under-16.png",
+    "width": 704
+  },
+  "bicycle-lights-300-200": {
+    "height": 183,
+    "page": 92,
+    "src": "/handbook/northcarolina/bicycle-lights-300-200.png",
+    "width": 705
+  },
+  "bicycle-pass-change-lanes": {
+    "height": 160,
+    "page": 92,
+    "src": "/handbook/northcarolina/bicycle-pass-change-lanes.png",
+    "width": 705
+  },
+  "bicycles-are-vehicles": {
+    "height": 138,
+    "page": 91,
+    "src": "/handbook/northcarolina/bicycles-are-vehicles.png",
+    "width": 705
+  },
+  "blind-pedestrian-cane": {
+    "height": 160,
+    "page": 48,
+    "src": "/handbook/northcarolina/blind-pedestrian-cane.png",
+    "width": 705
+  },
+  "blowout-response": {
+    "height": 187,
+    "page": 78,
+    "src": "/handbook/northcarolina/blowout-response.png",
+    "width": 684
+  },
+  "blue-white-services": {
+    "height": 138,
+    "page": 87,
+    "src": "/handbook/northcarolina/blue-white-services.png",
+    "width": 609
+  },
+  "brake-failure-response": {
+    "height": 138,
+    "page": 77,
+    "src": "/handbook/northcarolina/brake-failure-response.png",
+    "width": 705
+  },
+  "breakdown-passenger-side": {
+    "height": 132,
+    "page": 78,
+    "src": "/handbook/northcarolina/breakdown-passenger-side.png",
+    "width": 690
+  },
+  "changing-lanes-blind-spot": {
+    "height": 217,
+    "page": 56,
+    "src": "/handbook/northcarolina/changing-lanes-blind-spot.png",
+    "width": 569
+  },
+  "child-12-and-under-rear": {
+    "height": 116,
+    "page": 47,
+    "src": "/handbook/northcarolina/child-12-and-under-rear.png",
+    "width": 703
+  },
+  "child-rear-seat-airbag": {
+    "height": 206,
+    "page": 46,
+    "src": "/handbook/northcarolina/child-rear-seat-airbag.png",
+    "width": 703
+  },
+  "child-restraint-8-and-80": {
+    "height": 161,
+    "page": 46,
+    "src": "/handbook/northcarolina/child-restraint-8-and-80.png",
+    "width": 703
+  },
+  "child-restraint-under-16": {
+    "height": 183,
+    "page": 46,
+    "src": "/handbook/northcarolina/child-restraint-under-16.png",
+    "width": 703
+  },
+  "circular-green": {
+    "height": 161,
+    "page": 82,
+    "src": "/handbook/northcarolina/circular-green.png",
+    "width": 737
+  },
+  "city-limit-35": {
+    "height": 115,
+    "page": 55,
+    "src": "/handbook/northcarolina/city-limit-35.png",
+    "width": 700
+  },
+  "crash-move-vehicles": {
+    "height": 183,
+    "page": 80,
+    "src": "/handbook/northcarolina/crash-move-vehicles.png",
+    "width": 704
+  },
+  "crash-must-stop": {
+    "height": 138,
+    "page": 80,
+    "src": "/handbook/northcarolina/crash-must-stop.png",
+    "width": 704
+  },
+  "crash-report-1000": {
+    "height": 183,
+    "page": 80,
+    "src": "/handbook/northcarolina/crash-report-1000.png",
+    "width": 704
+  },
+  "crossbuck-multiple-tracks": {
+    "height": 138,
+    "page": 86,
+    "src": "/handbook/northcarolina/crossbuck-multiple-tracks.png",
+    "width": 561
+  },
+  "dark-signal-four-way-stop": {
+    "height": 184,
+    "page": 83,
+    "src": "/handbook/northcarolina/dark-signal-four-way-stop.png",
+    "width": 698
+  },
+  "diamond-warning": {
+    "height": 206,
+    "page": 86,
+    "src": "/handbook/northcarolina/diamond-warning.png",
+    "width": 615
+  },
+  "double-solid-yellow": {
+    "height": 138,
+    "page": 90,
+    "src": "/handbook/northcarolina/double-solid-yellow.png",
+    "width": 694
+  },
+  "drive-right-side": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/northcarolina/drive-right-side.png",
+    "width": 701
+  },
+  "dwi-first-conviction": {
+    "height": 138,
+    "page": 34,
+    "src": "/handbook/northcarolina/dwi-first-conviction.png",
+    "width": 706
+  },
+  "dwi-second-conviction": {
+    "height": 161,
+    "page": 34,
+    "src": "/handbook/northcarolina/dwi-second-conviction.png",
+    "width": 706
+  },
+  "dwi-third-conviction": {
+    "height": 139,
+    "page": 34,
+    "src": "/handbook/northcarolina/dwi-third-conviction.png",
+    "width": 706
+  },
+  "dwi-two-ways": {
+    "height": 134,
+    "page": 33,
+    "src": "/handbook/northcarolina/dwi-two-ways.png",
+    "width": 684
+  },
+  "emergency-100-feet": {
+    "height": 138,
+    "page": 50,
+    "src": "/handbook/northcarolina/emergency-100-feet.png",
+    "width": 687
+  },
+  "emergency-divided-exception": {
+    "height": 177,
+    "page": 50,
+    "src": "/handbook/northcarolina/emergency-divided-exception.png",
+    "width": 695
+  },
+  "emergency-fire-hose": {
+    "height": 116,
+    "page": 50,
+    "src": "/handbook/northcarolina/emergency-fire-hose.png",
+    "width": 684
+  },
+  "emergency-pull-right-stop": {
+    "height": 138,
+    "page": 50,
+    "src": "/handbook/northcarolina/emergency-pull-right-stop.png",
+    "width": 687
+  },
+  "facing-left-turn-yields": {
+    "height": 161,
+    "page": 59,
+    "src": "/handbook/northcarolina/facing-left-turn-yields.png",
+    "width": 705
+  },
+  "farm-equipment-no-interstate": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/northcarolina/farm-equipment-no-interstate.png",
+    "width": 703
+  },
+  "farm-left-signal-mistake": {
+    "height": 138,
+    "page": 53,
+    "src": "/handbook/northcarolina/farm-left-signal-mistake.png",
+    "width": 703
+  },
+  "flashing-red-yellow": {
+    "height": 183,
+    "page": 83,
+    "src": "/handbook/northcarolina/flashing-red-yellow.png",
+    "width": 698
+  },
+  "flashing-yellow-arrow": {
+    "height": 123,
+    "page": 83,
+    "src": "/handbook/northcarolina/flashing-yellow-arrow.png",
+    "width": 375
+  },
+  "flood-six-twelve-inches": {
+    "height": 160,
+    "page": 75,
+    "src": "/handbook/northcarolina/flood-six-twelve-inches.png",
+    "width": 726
+  },
+  "funeral-green-light": {
+    "height": 183,
+    "page": 54,
+    "src": "/handbook/northcarolina/funeral-green-light.png",
+    "width": 703
+  },
+  "good-samaritan": {
+    "height": 131,
+    "page": 79,
+    "src": "/handbook/northcarolina/good-samaritan.png",
+    "width": 696
+  },
+  "green-arrow": {
+    "height": 116,
+    "page": 82,
+    "src": "/handbook/northcarolina/green-arrow.png",
+    "width": 728
+  },
+  "head-on-keep-right": {
+    "height": 194,
+    "page": 78,
+    "src": "/handbook/northcarolina/head-on-keep-right.png",
+    "width": 703
+  },
+  "headlights-sunset-400-feet": {
+    "height": 138,
+    "page": 73,
+    "src": "/handbook/northcarolina/headlights-sunset-400-feet.png",
+    "width": 707
+  },
+  "helmet-law": {
+    "height": 160,
+    "page": 47,
+    "src": "/handbook/northcarolina/helmet-law.png",
+    "width": 703
+  },
+  "high-beam-200-feet": {
+    "height": 160,
+    "page": 67,
+    "src": "/handbook/northcarolina/high-beam-200-feet.png",
+    "width": 706
+  },
+  "horn-for-pedestrian": {
+    "height": 161,
+    "page": 49,
+    "src": "/handbook/northcarolina/horn-for-pedestrian.png",
+    "width": 712
+  },
+  "hybrid-beacon-dark": {
+    "height": 139,
+    "page": 84,
+    "src": "/handbook/northcarolina/hybrid-beacon-dark.png",
+    "width": 708
+  },
+  "hybrid-beacon-flashing-red": {
+    "height": 183,
+    "page": 84,
+    "src": "/handbook/northcarolina/hybrid-beacon-flashing-red.png",
+    "width": 708
+  },
+  "hydroplane-30-mph": {
+    "height": 138,
+    "page": 74,
+    "src": "/handbook/northcarolina/hydroplane-30-mph.png",
+    "width": 724
+  },
+  "hydroplane-response": {
+    "height": 183,
+    "page": 74,
+    "src": "/handbook/northcarolina/hydroplane-response.png",
+    "width": 724
+  },
+  "ignition-interlock-015": {
+    "height": 161,
+    "page": 34,
+    "src": "/handbook/northcarolina/ignition-interlock-015.png",
+    "width": 706
+  },
+  "insurance-plate-revoked-30": {
+    "height": 160,
+    "page": 101,
+    "src": "/handbook/northcarolina/insurance-plate-revoked-30.png",
+    "width": 704
+  },
+  "level1-driving-log-60": {
+    "height": 138,
+    "page": 14,
+    "src": "/handbook/northcarolina/level1-driving-log-60.png",
+    "width": 699
+  },
+  "level1-hold-nine-months": {
+    "height": 138,
+    "page": 14,
+    "src": "/handbook/northcarolina/level1-hold-nine-months.png",
+    "width": 699
+  },
+  "level2-passenger-limit": {
+    "height": 138,
+    "page": 15,
+    "src": "/handbook/northcarolina/level2-passenger-limit.png",
+    "width": 748
+  },
+  "max-speed-table": {
+    "height": 248,
+    "page": 55,
+    "src": "/handbook/northcarolina/max-speed-table.png",
+    "width": 564
+  },
+  "median-30-feet": {
+    "height": 138,
+    "page": 59,
+    "src": "/handbook/northcarolina/median-30-feet.png",
+    "width": 550
+  },
+  "moped-age-16": {
+    "height": 138,
+    "page": 95,
+    "src": "/handbook/northcarolina/moped-age-16.png",
+    "width": 703
+  },
+  "moped-definition": {
+    "height": 183,
+    "page": 95,
+    "src": "/handbook/northcarolina/moped-definition.png",
+    "width": 703
+  },
+  "moped-dwi-applies": {
+    "height": 160,
+    "page": 95,
+    "src": "/handbook/northcarolina/moped-dwi-applies.png",
+    "width": 703
+  },
+  "motorcycle-full-lane": {
+    "height": 160,
+    "page": 94,
+    "src": "/handbook/northcarolina/motorcycle-full-lane.png",
+    "width": 702
+  },
+  "move-over-12-feet": {
+    "height": 340,
+    "page": 51,
+    "src": "/handbook/northcarolina/move-over-12-feet.png",
+    "width": 690
+  },
+  "nc-route-diamond": {
+    "height": 138,
+    "page": 87,
+    "src": "/handbook/northcarolina/nc-route-diamond.png",
+    "width": 609
+  },
+  "no-lane-change-in-intersection": {
+    "height": 138,
+    "page": 59,
+    "src": "/handbook/northcarolina/no-lane-change-in-intersection.png",
+    "width": 705
+  },
+  "off-pavement-response": {
+    "height": 192,
+    "page": 79,
+    "src": "/handbook/northcarolina/off-pavement-response.png",
+    "width": 700
+  },
+  "officer-overrides-signals": {
+    "height": 160,
+    "page": 90,
+    "src": "/handbook/northcarolina/officer-overrides-signals.png",
+    "width": 685
+  },
+  "one-way-street-lanes": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/northcarolina/one-way-street-lanes.png",
+    "width": 694
+  },
+  "only-time-sobers": {
+    "height": 138,
+    "page": 44,
+    "src": "/handbook/northcarolina/only-time-sobers.png",
+    "width": 722
+  },
+  "open-container": {
+    "height": 138,
+    "page": 33,
+    "src": "/handbook/northcarolina/open-container.png",
+    "width": 708
+  },
+  "park-15-feet-hydrant": {
+    "height": 115,
+    "page": 58,
+    "src": "/handbook/northcarolina/park-15-feet-hydrant.png",
+    "width": 683
+  },
+  "park-25-feet-intersection": {
+    "height": 138,
+    "page": 58,
+    "src": "/handbook/northcarolina/park-25-feet-intersection.png",
+    "width": 683
+  },
+  "park-double-parking": {
+    "height": 115,
+    "page": 58,
+    "src": "/handbook/northcarolina/park-double-parking.png",
+    "width": 683
+  },
+  "park-fire-block-400": {
+    "height": 138,
+    "page": 58,
+    "src": "/handbook/northcarolina/park-fire-block-400.png",
+    "width": 683
+  },
+  "park-interstate-rightofway": {
+    "height": 138,
+    "page": 58,
+    "src": "/handbook/northcarolina/park-interstate-rightofway.png",
+    "width": 683
+  },
+  "park-right-side": {
+    "height": 115,
+    "page": 58,
+    "src": "/handbook/northcarolina/park-right-side.png",
+    "width": 683
+  },
+  "park-shoulder-200-feet": {
+    "height": 115,
+    "page": 58,
+    "src": "/handbook/northcarolina/park-shoulder-200-feet.png",
+    "width": 683
+  },
+  "park-signal-before-pulling-out": {
+    "height": 160,
+    "page": 58,
+    "src": "/handbook/northcarolina/park-signal-before-pulling-out.png",
+    "width": 683
+  },
+  "passing-500-feet": {
+    "height": 115,
+    "page": 57,
+    "src": "/handbook/northcarolina/passing-500-feet.png",
+    "width": 687
+  },
+  "passing-blow-horn": {
+    "height": 192,
+    "page": 57,
+    "src": "/handbook/northcarolina/passing-blow-horn.png",
+    "width": 692
+  },
+  "passing-horn-obligation": {
+    "height": 138,
+    "page": 57,
+    "src": "/handbook/northcarolina/passing-horn-obligation.png",
+    "width": 692
+  },
+  "passing-on-right-illegal": {
+    "height": 161,
+    "page": 57,
+    "src": "/handbook/northcarolina/passing-on-right-illegal.png",
+    "width": 699
+  },
+  "passing-right-exceptions": {
+    "height": 223,
+    "page": 57,
+    "src": "/handbook/northcarolina/passing-right-exceptions.png",
+    "width": 693
+  },
+  "passing-two-feet": {
+    "height": 161,
+    "page": 57,
+    "src": "/handbook/northcarolina/passing-two-feet.png",
+    "width": 692
+  },
+  "pedestrian-complete-crossing": {
+    "height": 137,
+    "page": 48,
+    "src": "/handbook/northcarolina/pedestrian-complete-crossing.png",
+    "width": 705
+  },
+  "pedestrian-unmarked-crosswalk": {
+    "height": 160,
+    "page": 48,
+    "src": "/handbook/northcarolina/pedestrian-unmarked-crosswalk.png",
+    "width": 705
+  },
+  "pentagon-school": {
+    "height": 228,
+    "page": 87,
+    "src": "/handbook/northcarolina/pentagon-school.png",
+    "width": 582
+  },
+  "pickup-bed-fine": {
+    "height": 116,
+    "page": 48,
+    "src": "/handbook/northcarolina/pickup-bed-fine.png",
+    "width": 705
+  },
+  "points-cancelled-on-reinstatement": {
+    "height": 138,
+    "page": 36,
+    "src": "/handbook/northcarolina/points-cancelled-on-reinstatement.png",
+    "width": 695
+  },
+  "points-seven-clinic": {
+    "height": 183,
+    "page": 36,
+    "src": "/handbook/northcarolina/points-seven-clinic.png",
+    "width": 704
+  },
+  "points-twelve-suspension": {
+    "height": 184,
+    "page": 36,
+    "src": "/handbook/northcarolina/points-twelve-suspension.png",
+    "width": 704
+  },
+  "private-driveway-yield": {
+    "height": 138,
+    "page": 59,
+    "src": "/handbook/northcarolina/private-driveway-yield.png",
+    "width": 705
+  },
+  "provisional-alcohol-revocation": {
+    "height": 116,
+    "page": 16,
+    "src": "/handbook/northcarolina/provisional-alcohol-revocation.png",
+    "width": 711
+  },
+  "railroad-keep-moving": {
+    "height": 161,
+    "page": 63,
+    "src": "/handbook/northcarolina/railroad-keep-moving.png",
+    "width": 697
+  },
+  "railroad-stalled-get-out": {
+    "height": 115,
+    "page": 64,
+    "src": "/handbook/northcarolina/railroad-stalled-get-out.png",
+    "width": 706
+  },
+  "railroad-stop-50-15": {
+    "height": 161,
+    "page": 62,
+    "src": "/handbook/northcarolina/railroad-stop-50-15.png",
+    "width": 705
+  },
+  "railroad-train-priority": {
+    "height": 132,
+    "page": 62,
+    "src": "/handbook/northcarolina/railroad-train-priority.png",
+    "width": 548
+  },
+  "rain-five-to-ten-slower": {
+    "height": 138,
+    "page": 74,
+    "src": "/handbook/northcarolina/rain-five-to-ten-slower.png",
+    "width": 724
+  },
+  "ramp-meter-dark": {
+    "height": 183,
+    "page": 84,
+    "src": "/handbook/northcarolina/ramp-meter-dark.png",
+    "width": 697
+  },
+  "rear-end-about-to-be-hit": {
+    "height": 189,
+    "page": 79,
+    "src": "/handbook/northcarolina/rear-end-about-to-be-hit.png",
+    "width": 707
+  },
+  "red-arrow": {
+    "height": 115,
+    "page": 82,
+    "src": "/handbook/northcarolina/red-arrow.png",
+    "width": 728
+  },
+  "refusal-revocation": {
+    "height": 161,
+    "page": 33,
+    "src": "/handbook/northcarolina/refusal-revocation.png",
+    "width": 714
+  },
+  "restoration-fee-dwi": {
+    "height": 138,
+    "page": 41,
+    "src": "/handbook/northcarolina/restoration-fee-dwi.png",
+    "width": 696
+  },
+  "revoke-30-days-15-over": {
+    "height": 135,
+    "page": 38,
+    "src": "/handbook/northcarolina/revoke-30-days-15-over.png",
+    "width": 684
+  },
+  "right-on-red-pedestrian-fine": {
+    "height": 138,
+    "page": 82,
+    "src": "/handbook/northcarolina/right-on-red-pedestrian-fine.png",
+    "width": 737
+  },
+  "round-rr-sign": {
+    "height": 116,
+    "page": 86,
+    "src": "/handbook/northcarolina/round-rr-sign.png",
+    "width": 557
+  },
+  "roundabout-emergency-vehicle": {
+    "height": 161,
+    "page": 61,
+    "src": "/handbook/northcarolina/roundabout-emergency-vehicle.png",
+    "width": 697
+  },
+  "roundabout-speed": {
+    "height": 139,
+    "page": 60,
+    "src": "/handbook/northcarolina/roundabout-speed.png",
+    "width": 526
+  },
+  "roundabout-yield": {
+    "height": 183,
+    "page": 61,
+    "src": "/handbook/northcarolina/roundabout-yield.png",
+    "width": 696
+  },
+  "scanning-10-15-seconds": {
+    "height": 138,
+    "page": 70,
+    "src": "/handbook/northcarolina/scanning-10-15-seconds.png",
+    "width": 705
+  },
+  "school-bus-divided-median": {
+    "height": 183,
+    "page": 50,
+    "src": "/handbook/northcarolina/school-bus-divided-median.png",
+    "width": 430
+  },
+  "school-bus-four-lane-turning": {
+    "height": 183,
+    "page": 50,
+    "src": "/handbook/northcarolina/school-bus-four-lane-turning.png",
+    "width": 421
+  },
+  "school-bus-speed-45": {
+    "height": 116,
+    "page": 49,
+    "src": "/handbook/northcarolina/school-bus-speed-45.png",
+    "width": 712
+  },
+  "school-bus-stop-rule": {
+    "height": 205,
+    "page": 49,
+    "src": "/handbook/northcarolina/school-bus-stop-rule.png",
+    "width": 710
+  },
+  "school-bus-two-lane": {
+    "height": 161,
+    "page": 49,
+    "src": "/handbook/northcarolina/school-bus-two-lane.png",
+    "width": 430
+  },
+  "seat-belt-all-occupants": {
+    "height": 161,
+    "page": 45,
+    "src": "/handbook/northcarolina/seat-belt-all-occupants.png",
+    "width": 705
+  },
+  "signal-100-200-feet": {
+    "height": 138,
+    "page": 71,
+    "src": "/handbook/northcarolina/signal-100-200-feet.png",
+    "width": 713
+  },
+  "skid-steer-into": {
+    "height": 213,
+    "page": 79,
+    "src": "/handbook/northcarolina/skid-steer-into.png",
+    "width": 706
+  },
+  "slow-driver-risk": {
+    "height": 156,
+    "page": 55,
+    "src": "/handbook/northcarolina/slow-driver-risk.png",
+    "width": 672
+  },
+  "snow-halve-speed": {
+    "height": 139,
+    "page": 75,
+    "src": "/handbook/northcarolina/snow-halve-speed.png",
+    "width": 725
+  },
+  "snow-three-times-distance": {
+    "height": 111,
+    "page": 75,
+    "src": "/handbook/northcarolina/snow-three-times-distance.png",
+    "width": 705
+  },
+  "steady-red-right-turn": {
+    "height": 115,
+    "page": 82,
+    "src": "/handbook/northcarolina/steady-red-right-turn.png",
+    "width": 737
+  },
+  "stop-distance-55": {
+    "height": 138,
+    "page": 55,
+    "src": "/handbook/northcarolina/stop-distance-55.png",
+    "width": 697
+  },
+  "stop-line-no-markings": {
+    "height": 161,
+    "page": 85,
+    "src": "/handbook/northcarolina/stop-line-no-markings.png",
+    "width": 697
+  },
+  "stop-line-rule": {
+    "height": 161,
+    "page": 85,
+    "src": "/handbook/northcarolina/stop-line-rule.png",
+    "width": 697
+  },
+  "stop-sign-octagon": {
+    "height": 116,
+    "page": 85,
+    "src": "/handbook/northcarolina/stop-sign-octagon.png",
+    "width": 697
+  },
+  "stop-sign-placement": {
+    "height": 138,
+    "page": 85,
+    "src": "/handbook/northcarolina/stop-sign-placement.png",
+    "width": 697
+  },
+  "stop-sign-yield-through": {
+    "height": 138,
+    "page": 59,
+    "src": "/handbook/northcarolina/stop-sign-yield-through.png",
+    "width": 705
+  },
+  "supervising-driver-five-years": {
+    "height": 183,
+    "page": 14,
+    "src": "/handbook/northcarolina/supervising-driver-five-years.png",
+    "width": 694
+  },
+  "suspension-two-speeding": {
+    "height": 116,
+    "page": 38,
+    "src": "/handbook/northcarolina/suspension-two-speeding.png",
+    "width": 721
+  },
+  "taillights-500-feet": {
+    "height": 115,
+    "page": 67,
+    "src": "/handbook/northcarolina/taillights-500-feet.png",
+    "width": 706
+  },
+  "three-lane-passing": {
+    "height": 139,
+    "page": 57,
+    "src": "/handbook/northcarolina/three-lane-passing.png",
+    "width": 693
+  },
+  "tire-tread-1-16": {
+    "height": 161,
+    "page": 68,
+    "src": "/handbook/northcarolina/tire-tread-1-16.png",
+    "width": 698
+  },
+  "trailer-half-mile": {
+    "height": 112,
+    "page": 94,
+    "src": "/handbook/northcarolina/trailer-half-mile.png",
+    "width": 651
+  },
+  "truck-mirror-rule": {
+    "height": 139,
+    "page": 94,
+    "src": "/handbook/northcarolina/truck-mirror-rule.png",
+    "width": 693
+  },
+  "truck-no-zones": {
+    "height": 138,
+    "page": 94,
+    "src": "/handbook/northcarolina/truck-no-zones.png",
+    "width": 693
+  },
+  "two-way-left-turn-lane": {
+    "height": 138,
+    "page": 90,
+    "src": "/handbook/northcarolina/two-way-left-turn-lane.png",
+    "width": 694
+  },
+  "uncontrolled-already-in": {
+    "height": 138,
+    "page": 59,
+    "src": "/handbook/northcarolina/uncontrolled-already-in.png",
+    "width": 556
+  },
+  "uncontrolled-vehicle-right": {
+    "height": 138,
+    "page": 59,
+    "src": "/handbook/northcarolina/uncontrolled-vehicle-right.png",
+    "width": 556
+  },
+  "under-18-no-cell-phone": {
+    "height": 181,
+    "page": 43,
+    "src": "/handbook/northcarolina/under-18-no-cell-phone.png",
+    "width": 701
+  },
+  "under-21-any-amount": {
+    "height": 155,
+    "page": 35,
+    "src": "/handbook/northcarolina/under-21-any-amount.png",
+    "width": 667
+  },
+  "underage-purchase-revocation": {
+    "height": 186,
+    "page": 35,
+    "src": "/handbook/northcarolina/underage-purchase-revocation.png",
+    "width": 678
+  },
+  "us-route-shield": {
+    "height": 115,
+    "page": 87,
+    "src": "/handbook/northcarolina/us-route-shield.png",
+    "width": 609
+  },
+  "window-tint-35": {
+    "height": 138,
+    "page": 104,
+    "src": "/handbook/northcarolina/window-tint-35.png",
+    "width": 686
+  },
+  "wipers-headlights-law": {
+    "height": 138,
+    "page": 75,
+    "src": "/handbook/northcarolina/wipers-headlights-law.png",
+    "width": 726
+  },
+  "work-zone-orange": {
+    "height": 138,
+    "page": 72,
+    "src": "/handbook/northcarolina/work-zone-orange.png",
+    "width": 704
+  },
+  "work-zone-penalty-sign": {
+    "height": 183,
+    "page": 72,
+    "src": "/handbook/northcarolina/work-zone-penalty-sign.png",
+    "width": 704
+  },
+  "yellow-arrow": {
+    "height": 115,
+    "page": 82,
+    "src": "/handbook/northcarolina/yellow-arrow.png",
+    "width": 728
+  },
+  "yellow-white-lines": {
+    "height": 138,
+    "page": 90,
+    "src": "/handbook/northcarolina/yellow-white-lines.png",
+    "width": 694
+  },
+  "yield-sign": {
+    "height": 138,
+    "page": 85,
+    "src": "/handbook/northcarolina/yield-sign.png",
+    "width": 697
+  }
+}

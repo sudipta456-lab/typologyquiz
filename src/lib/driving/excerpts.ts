@@ -8,6 +8,7 @@ import { pennsylvaniaExcerpts } from "./pennsylvania/excerpts";
 import { ohioExcerpts } from "./ohio/excerpts";
 import { georgiaExcerpts } from "./georgia/excerpts";
 import { illinoisExcerpts } from "./illinois/excerpts";
+import { northcarolinaExcerpts } from "./northcarolina/excerpts";
 import { californiaExcerpts } from "./california/excerpts";
 
 // Handbook excerpt library, keyed by jurisdiction then rule.
@@ -27,6 +28,7 @@ const BY_JURISDICTION: Record<string, HandbookExcerpt[]> = {
   ohio: ohioExcerpts,
   georgia: georgiaExcerpts,
   illinois: illinoisExcerpts,
+  northcarolina: northcarolinaExcerpts,
   california: californiaExcerpts,
 };
 
@@ -80,6 +82,7 @@ import floridaSnippets from "./florida/snippets.json";
 import pennsylvaniaSnippets from "./pennsylvania/snippets.json";
 import ohioSnippets from "./ohio/snippets.json";
 import illinoisSnippets from "./illinois/snippets.json";
+import northcarolinaSnippets from "./northcarolina/snippets.json";
 
 export interface HandbookSnippet {
   src: string;
@@ -99,6 +102,7 @@ const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
   pennsylvania: pennsylvaniaSnippets as Record<string, HandbookSnippet>,
   ohio: ohioSnippets as Record<string, HandbookSnippet>,
   illinois: illinoisSnippets as Record<string, HandbookSnippet>,
+  northcarolina: northcarolinaSnippets as Record<string, HandbookSnippet>,
 };
 
 export function getSnippet(
