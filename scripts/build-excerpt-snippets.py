@@ -74,6 +74,23 @@ def find_quote(doc, quote: str):
         if curly != b:
             attempts.append(curly)
 
+    # Last resort: anchor on the longest run of plain words in the quote.
+    #
+    # search_for() matches the page's own text stream, so a phrase that crosses
+    # a table cell or a styled dash never matches contiguously even though the
+    # extracted text contains it. BC's signal chart is the clear case - "Flashing
+    # green - pedestrian-controlled light - go only if the intersection is clear"
+    # is three cells, and no amount of punctuation guessing finds it whole, but
+    # "go only if the intersection is clear" lands immediately. Splitting on the
+    # punctuation most likely to be styled and keeping the longest fragments
+    # recovered 22 of BC's 48 misses.
+    for frag in sorted(
+        re.split(r"[-–—\"“”/•]+", target), key=lambda f: -len(f.split())
+    ):
+        frag = frag.strip()
+        if len(frag.split()) >= MIN_MATCH_WORDS:
+            attempts.append(frag)
+
     for attempt in attempts:
         for pno in range(len(doc)):
             page = doc[pno]

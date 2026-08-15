@@ -35,6 +35,14 @@ import { tennesseeSets1to3 } from "./tennessee/sets-1-3";
 import { tennesseeSets4to6 } from "./tennessee/sets-4-6";
 import { arizonaSets1to3 } from "./arizona/sets-1-3";
 import { arizonaSets4to6 } from "./arizona/sets-4-6";
+import { britishcolumbiaSets1to3 } from "./britishcolumbia/sets-1-3";
+import { britishcolumbiaSets4to6 } from "./britishcolumbia/sets-4-6";
+import { indianaSets1to3 } from "./indiana/sets-1-3";
+import { indianaSets4to6 } from "./indiana/sets-4-6";
+import { missouriSets1to3 } from "./missouri/sets-1-3";
+import { missouriSets4to6 } from "./missouri/sets-4-6";
+import { marylandSets1to3 } from "./maryland/sets-1-3";
+import { marylandSets4to6 } from "./maryland/sets-4-6";
 
 const byNumber = (a: DrivingTestSet, b: DrivingTestSet) => a.setNumber - b.setNumber;
 
@@ -637,6 +645,154 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "Seat belts are secondary enforcement with a $10 maximum penalty and no points, which the manual never mentions.",
     ],
     sets: [...arizonaSets1to3, ...arizonaSets4to6].sort(byNumber),
+  },
+  {
+    slug: "britishcolumbia",
+    name: "British Columbia",
+    code: "BC",
+    country: "CA",
+    countryLabel: "Canada",
+    licenceName: "Class 7L Learner's Licence",
+    intro:
+      "A flashing green light means the opposite here to what it means in Alberta, Ontario and the Maritimes - and that single sign catches more drivers moving to BC than anything else in the guide.",
+    officialTest: {
+      questionCount: 50,
+      passCount: 40,
+      passLabel: "40 of 50 (80%) in 45 minutes",
+      // No sectioned scoring is published. Unlike Ontario there is no signs /
+      // rules split, so sectionedBy is deliberately absent rather than guessed.
+      notes: [
+        "50 multiple-choice questions, 40 correct to pass, 45 minutes. No signs-and-rules split.",
+        "The test ends early the moment you have enough right to pass or enough wrong to fail.",
+        "You may skip each question once and it returns at the end. A failed test can be retaken after one day, for the fee each time.",
+        "Roughly one question in five is about road signs, which ICBC says outright.",
+      ],
+    },
+    handbookName: "Learn to Drive Smart (ICBC)",
+    handbookUrl: "https://www.icbc.com/driver-licensing/new-drivers/Get-your-L",
+    officialInfoUrl: "https://www.icbc.com/driver-licensing/new-drivers/Get-your-L",
+    localGotchas: [
+      "A flashing green is a pedestrian-controlled light in BC, not an advance left. The advance left is a flashing green ARROW.",
+      "Two seconds is the baseline following distance here, not three - but four separate situations push it to three.",
+      "Passing distance is set by the POSTED limit, not your speed: one metre normally, 1.5 above 50 km/h, half a metre past someone on a sidewalk or in a protected cycle lane.",
+    ],
+    sets: [...britishcolumbiaSets1to3, ...britishcolumbiaSets4to6].sort(byNumber),
+  },
+  {
+    slug: "indiana",
+    name: "Indiana",
+    code: "IN",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Learner's Permit",
+    intro:
+      "Indiana words its tie-break backwards from everywhere else: at an all-way stop it is the vehicle on the LEFT that yields. Then at a dark signal it flips back.",
+    officialTest: {
+      // Indiana publishes NO question count and NO time limit for the driver
+      // knowledge exam - only that each of the two components needs 80%. The
+      // "25 questions, miss five" line in Chapter 9 belongs to the FOR-HIRE and
+      // motor driven cycle endorsement exams, not this one. The numbers here
+      // exist purely to express the 80% ratio to the scorer; the notes say
+      // plainly that Indiana publishes none.
+      questionCount: 40,
+      passCount: 32,
+      passLabel: "80% on each of the two components (Indiana publishes no count)",
+      sectionedBy: [
+        { topics: ["signs", "signals"], label: "Traffic signs", passCount: 16 },
+        {
+          topics: [
+            "rules",
+            "rightOfWay",
+            "speed",
+            "parking",
+            "safety",
+            "impairment",
+            "sharing",
+            "emergencies",
+            "licensing",
+          ],
+          label: "Traffic maneuvers and laws",
+          passCount: 16,
+        },
+      ],
+      notes: [
+        "Two separately scored components - traffic signs, and traffic maneuvers and laws. You need 80% or higher on EACH.",
+        "Neither the manual nor any BMV page states a question count or a time limit for this exam, so neither is claimed here.",
+        "A pass stays valid 180 days. A fail means waiting until the next business day, and you must arrive 30 minutes before the branch closes.",
+      ],
+    },
+    handbookName: "Indiana Driver's Manual",
+    handbookUrl: "https://www.in.gov/bmv/licenses-permits-ids/indiana-drivers-manual/",
+    officialInfoUrl: "https://www.in.gov/bmv/licenses-permits-ids/knowledge-exam/",
+    localGotchas: [
+      "At an all-way stop and at flashing reds, Indiana says the vehicle on the LEFT yields - the reverse of the usual wording. At a dark signal it reverts to yielding to the right.",
+      "Rural divided state highways are 60, not 55, and urban residential is 30, not 25.",
+      "Off a level crossing you run at 45 degrees TOWARD the oncoming train, which is the opposite of instinct.",
+    ],
+    sets: [...indianaSets1to3, ...indianaSets4to6].sort(byNumber),
+  },
+  {
+    slug: "missouri",
+    name: "Missouri",
+    code: "MO",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Class F Instruction Permit",
+    intro:
+      "The Missouri Driver Guide tells you something no other state prints: almost half of everyone who sits this test fails it the first time.",
+    officialTest: {
+      questionCount: 25,
+      passCount: 20,
+      passLabel: "20 of 25 (80%)",
+      // NOT sectioned. Missouri's four-part exam - written, vision, road sign,
+      // driving - is four SEPARATE tests, not sections of one score, so
+      // sectionedBy is deliberately absent. The road sign test's length and
+      // pass mark are published nowhere official.
+      notes: [
+        "25 multiple-choice questions, 20 correct to pass. The written test is one of four separate exams, not a sectioned single score.",
+        "The road sign test is a separate exam whose length and pass mark Missouri does not publish. The widely-repeated '80% on each section including road signs' has no official source.",
+        "Two written attempts a day are allowed. Non-commercial testing is free.",
+        "The Driver Guide states outright that almost 50 percent of all test-takers fail the first time.",
+      ],
+    },
+    handbookName: "Missouri Driver Guide",
+    handbookUrl: "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+    officialInfoUrl: "https://dor.mo.gov/driver-license/",
+    localGotchas: [
+      "The four-lane exception releasing oncoming traffic from stopping for a school bus needs no median - a divided highway and a four-lane road are two independent exceptions.",
+      "U-turns are forbidden at ANY signal-controlled intersection, not just where posted.",
+      "A moped needs a driver licence and an electric bicycle needs none, which is the opposite answer for two things that look identical at the kerb.",
+    ],
+    sets: [...missouriSets1to3, ...missouriSets4to6].sort(byNumber),
+  },
+  {
+    slug: "maryland",
+    name: "Maryland",
+    code: "MD",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Learner's Permit",
+    intro:
+      "The strictest pass mark on this site: 88%, which on a 25-question test means you may get three wrong and no more.",
+    officialTest: {
+      questionCount: 25,
+      passCount: 22,
+      passLabel: "88% - 22 of 25, in 20 minutes",
+      notes: [
+        "25 questions in 20 minutes, 88% to pass. That is three wrong answers, not four.",
+        "MVA's older Knowledge Test Appointment Instructions page still says 85%. The current Knowledge Tests page says 88%, and that stricter figure is the one used here.",
+        "A pass stays valid six months. Retest the next business day after one failure, seven calendar days after two or more.",
+      ],
+    },
+    handbookName: "Maryland Driver's Manual (DL-002, October 2025)",
+    handbookUrl: "https://mva.maryland.gov/Documents/DL-002.pdf",
+    officialInfoUrl: "https://mva.maryland.gov/Pages/Knowledge-Tests.aspx",
+    localGotchas: [
+      "There is no statewide school-zone speed limit. The manual prints none at all - counties may post 15 mph during school hours, and that is the whole rule.",
+      "Residential defaults split on the median: 30 mph undivided, 35 mph divided. Same street, different limit.",
+      "Wipers on means headlights on, and here it really is the law - along with a separate 1,000-foot visibility trigger.",
+    ],
+    sets: [...marylandSets1to3, ...marylandSets4to6].sort(byNumber),
   },
 ];
 

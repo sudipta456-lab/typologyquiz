@@ -27,6 +27,8 @@ const OFFICIAL_HOSTS = [
   "gov.ab.ca",
   "ontario.ca",
   "news.ontario.ca",
+  "icbc.com",
+  "bclaws.gov.bc.ca",
   // Texas
   "dps.texas.gov",
   "txdot.gov",
@@ -89,6 +91,15 @@ const OFFICIAL_HOSTS = [
   // the manual PDF lives, and www.azleg.gov for the Revised Statutes.
   "azdot.gov",
   "azleg.gov",
+  // Indiana. Written with the leading dot on purpose - a bare "in.gov" is a
+  // substring of "wisconsin.gov" and would quietly whitelist it.
+  ".in.gov",
+  // Missouri
+  "dor.mo.gov",
+  "mshp.dps.mo.gov",
+  "revisor.mo.gov",
+  // Maryland. Covers mva.maryland.gov and mgaleg.maryland.gov.
+  "maryland.gov",
 ];
 
 let errors = 0;

@@ -1,0 +1,842 @@
+{
+  "abs-technique": {
+    "height": 181,
+    "page": 125,
+    "src": "/handbook/britishcolumbia/abs-technique.png",
+    "width": 576
+  },
+  "acceleration-lane-solid-white": {
+    "height": 158,
+    "page": 66,
+    "src": "/handbook/britishcolumbia/acceleration-lane-solid-white.png",
+    "width": 591
+  },
+  "advance-green-ends": {
+    "height": 158,
+    "page": 56,
+    "src": "/handbook/britishcolumbia/advance-green-ends.png",
+    "width": 549
+  },
+  "airbag-25cm": {
+    "height": 158,
+    "page": 28,
+    "src": "/handbook/britishcolumbia/airbag-25cm.png",
+    "width": 571
+  },
+  "airbag-hand-position": {
+    "height": 227,
+    "page": 83,
+    "src": "/handbook/britishcolumbia/airbag-hand-position.png",
+    "width": 586
+  },
+  "animal-strike-angle": {
+    "height": 227,
+    "page": 139,
+    "src": "/handbook/britishcolumbia/animal-strike-angle.png",
+    "width": 531
+  },
+  "bac-08-six-hours": {
+    "height": 169,
+    "page": 114,
+    "src": "/handbook/britishcolumbia/bac-08-six-hours.png",
+    "width": 379
+  },
+  "backing-360-check": {
+    "height": 158,
+    "page": 94,
+    "src": "/handbook/britishcolumbia/backing-360-check.png",
+    "width": 566
+  },
+  "bdc-thc-threshold": {
+    "height": 156,
+    "page": 163,
+    "src": "/handbook/britishcolumbia/bdc-thc-threshold.png",
+    "width": 579
+  },
+  "bicycle-lane-rules": {
+    "height": 112,
+    "page": 64,
+    "src": "/handbook/britishcolumbia/bicycle-lane-rules.png",
+    "width": 423
+  },
+  "blind-spot-detectors": {
+    "height": 181,
+    "page": 72,
+    "src": "/handbook/britishcolumbia/blind-spot-detectors.png",
+    "width": 586
+  },
+  "blowout-response": {
+    "height": 158,
+    "page": 135,
+    "src": "/handbook/britishcolumbia/blowout-response.png",
+    "width": 533
+  },
+  "brake-failure-response": {
+    "height": 135,
+    "page": 136,
+    "src": "/handbook/britishcolumbia/brake-failure-response.png",
+    "width": 537
+  },
+  "bridges-ice-first": {
+    "height": 135,
+    "page": 131,
+    "src": "/handbook/britishcolumbia/bridges-ice-first.png",
+    "width": 566
+  },
+  "broken-solid-yellow": {
+    "height": 147,
+    "page": 49,
+    "src": "/handbook/britishcolumbia/broken-solid-yellow.png",
+    "width": 591
+  },
+  "car-length-behind": {
+    "height": 239,
+    "page": 83,
+    "src": "/handbook/britishcolumbia/car-length-behind.png",
+    "width": 235
+  },
+  "cellphone-50-percent": {
+    "height": 259,
+    "page": 111,
+    "src": "/handbook/britishcolumbia/cellphone-50-percent.png",
+    "width": 233
+  },
+  "centre-of-gravity-rollover": {
+    "height": 157,
+    "page": 81,
+    "src": "/handbook/britishcolumbia/centre-of-gravity-rollover.png",
+    "width": 584
+  },
+  "class5-road-test-hour": {
+    "height": 181,
+    "page": 149,
+    "src": "/handbook/britishcolumbia/class5-road-test-hour.png",
+    "width": 591
+  },
+  "coasting-illegal": {
+    "height": 135,
+    "page": 82,
+    "src": "/handbook/britishcolumbia/coasting-illegal.png",
+    "width": 551
+  },
+  "construction-signs": {
+    "height": 135,
+    "page": 46,
+    "src": "/handbook/britishcolumbia/construction-signs.png",
+    "width": 860
+  },
+  "construction-zone-24-hours": {
+    "height": 135,
+    "page": 105,
+    "src": "/handbook/britishcolumbia/construction-zone-24-hours.png",
+    "width": 562
+  },
+  "crash-exchange-info": {
+    "height": 135,
+    "page": 142,
+    "src": "/handbook/britishcolumbia/crash-exchange-info.png",
+    "width": 590
+  },
+  "crash-no-smoking": {
+    "height": 135,
+    "page": 141,
+    "src": "/handbook/britishcolumbia/crash-no-smoking.png",
+    "width": 501
+  },
+  "cross-single-yellow-for-cyclist": {
+    "height": 135,
+    "page": 97,
+    "src": "/handbook/britishcolumbia/cross-single-yellow-for-cyclist.png",
+    "width": 591
+  },
+  "crosswalk-check-even-on-green": {
+    "height": 227,
+    "page": 93,
+    "src": "/handbook/britishcolumbia/crosswalk-check-even-on-green.png",
+    "width": 584
+  },
+  "crosswalk-flashing-green-warning": {
+    "height": 297,
+    "page": 93,
+    "src": "/handbook/britishcolumbia/crosswalk-flashing-green-warning.png",
+    "width": 235
+  },
+  "curve-lose-traction": {
+    "height": 135,
+    "page": 82,
+    "src": "/handbook/britishcolumbia/curve-lose-traction.png",
+    "width": 571
+  },
+  "cyclist-dooring": {
+    "height": 158,
+    "page": 96,
+    "src": "/handbook/britishcolumbia/cyclist-dooring.png",
+    "width": 567
+  },
+  "cyclist-move-out": {
+    "height": 135,
+    "page": 97,
+    "src": "/handbook/britishcolumbia/cyclist-move-out.png",
+    "width": 543
+  },
+  "cyclists-same-rights": {
+    "height": 135,
+    "page": 95,
+    "src": "/handbook/britishcolumbia/cyclists-same-rights.png",
+    "width": 576
+  },
+  "deep-water-half-metre": {
+    "height": 135,
+    "page": 130,
+    "src": "/handbook/britishcolumbia/deep-water-half-metre.png",
+    "width": 576
+  },
+  "default-speed-limits": {
+    "height": 96,
+    "page": 15,
+    "src": "/handbook/britishcolumbia/default-speed-limits.png",
+    "width": 180
+  },
+  "device-law-at-red-light": {
+    "height": 135,
+    "page": 111,
+    "src": "/handbook/britishcolumbia/device-law-at-red-light.png",
+    "width": 592
+  },
+  "door-shoulder-check": {
+    "height": 181,
+    "page": 72,
+    "src": "/handbook/britishcolumbia/door-shoulder-check.png",
+    "width": 577
+  },
+  "doubt-left-turn-yield": {
+    "height": 183,
+    "page": 86,
+    "src": "/handbook/britishcolumbia/doubt-left-turn-yield.png",
+    "width": 232
+  },
+  "engine-stops-ignition": {
+    "height": 164,
+    "page": 136,
+    "src": "/handbook/britishcolumbia/engine-stops-ignition.png",
+    "width": 219
+  },
+  "entering-roadway-driveway": {
+    "height": 181,
+    "page": 59,
+    "src": "/handbook/britishcolumbia/entering-roadway-driveway.png",
+    "width": 593
+  },
+  "excessive-speeding-impound": {
+    "height": 112,
+    "page": 165,
+    "src": "/handbook/britishcolumbia/excessive-speeding-impound.png",
+    "width": 566
+  },
+  "exit-lane-speed": {
+    "height": 129,
+    "page": 67,
+    "src": "/handbook/britishcolumbia/exit-lane-speed.png",
+    "width": 861
+  },
+  "fatigue-leading-cause": {
+    "height": 181,
+    "page": 110,
+    "src": "/handbook/britishcolumbia/fatigue-leading-cause.png",
+    "width": 573
+  },
+  "fire-truck-150m": {
+    "height": 135,
+    "page": 104,
+    "src": "/handbook/britishcolumbia/fire-truck-150m.png",
+    "width": 583
+  },
+  "first-rain-slippery": {
+    "height": 204,
+    "page": 129,
+    "src": "/handbook/britishcolumbia/first-rain-slippery.png",
+    "width": 592
+  },
+  "flashing-green-arrow-red": {
+    "height": 128,
+    "page": 48,
+    "src": "/handbook/britishcolumbia/flashing-green-arrow-red.png",
+    "width": 470
+  },
+  "flashing-green-bc": {
+    "height": 128,
+    "page": 48,
+    "src": "/handbook/britishcolumbia/flashing-green-bc.png",
+    "width": 220
+  },
+  "flashing-red": {
+    "height": 147,
+    "page": 48,
+    "src": "/handbook/britishcolumbia/flashing-red.png",
+    "width": 218
+  },
+  "flashing-yellow": {
+    "height": 128,
+    "page": 47,
+    "src": "/handbook/britishcolumbia/flashing-yellow.png",
+    "width": 777
+  },
+  "four-way-facing-left-turn": {
+    "height": 110,
+    "page": 15,
+    "src": "/handbook/britishcolumbia/four-way-facing-left-turn.png",
+    "width": 207
+  },
+  "four-way-stop-order": {
+    "height": 112,
+    "page": 57,
+    "src": "/handbook/britishcolumbia/four-way-stop-order.png",
+    "width": 564
+  },
+  "freeway-centre-lane": {
+    "height": 181,
+    "page": 60,
+    "src": "/handbook/britishcolumbia/freeway-centre-lane.png",
+    "width": 565
+  },
+  "fresh-green": {
+    "height": 158,
+    "page": 55,
+    "src": "/handbook/britishcolumbia/fresh-green.png",
+    "width": 571
+  },
+  "glp-course-reduction": {
+    "height": 204,
+    "page": 155,
+    "src": "/handbook/britishcolumbia/glp-course-reduction.png",
+    "width": 590
+  },
+  "glp-handsfree-ban": {
+    "height": 158,
+    "page": 111,
+    "src": "/handbook/britishcolumbia/glp-handsfree-ban.png",
+    "width": 591
+  },
+  "glp-prohibition-novice": {
+    "height": 227,
+    "page": 149,
+    "src": "/handbook/britishcolumbia/glp-prohibition-novice.png",
+    "width": 588
+  },
+  "green-arrow": {
+    "height": 128,
+    "page": 48,
+    "src": "/handbook/britishcolumbia/green-arrow.png",
+    "width": 245
+  },
+  "green-arrow-turned-yellow": {
+    "height": 135,
+    "page": 56,
+    "src": "/handbook/britishcolumbia/green-arrow-turned-yellow.png",
+    "width": 558
+  },
+  "head-on-steer-right": {
+    "height": 158,
+    "page": 140,
+    "src": "/handbook/britishcolumbia/head-on-steer-right.png",
+    "width": 527
+  },
+  "headlight-beam-distances": {
+    "height": 158,
+    "page": 133,
+    "src": "/handbook/britishcolumbia/headlight-beam-distances.png",
+    "width": 565
+  },
+  "headlight-hours": {
+    "height": 135,
+    "page": 133,
+    "src": "/handbook/britishcolumbia/headlight-hours.png",
+    "width": 563
+  },
+  "horses-no-horn": {
+    "height": 202,
+    "page": 138,
+    "src": "/handbook/britishcolumbia/horses-no-horn.png",
+    "width": 230
+  },
+  "hov-enter-broken-lines": {
+    "height": 134,
+    "page": 64,
+    "src": "/handbook/britishcolumbia/hov-enter-broken-lines.png",
+    "width": 592
+  },
+  "hydroplaning-response": {
+    "height": 112,
+    "page": 130,
+    "src": "/handbook/britishcolumbia/hydroplaning-response.png",
+    "width": 443
+  },
+  "ice-ten-times": {
+    "height": 144,
+    "page": 131,
+    "src": "/handbook/britishcolumbia/ice-ten-times.png",
+    "width": 214
+  },
+  "l-driving-hours": {
+    "height": 135,
+    "page": 146,
+    "src": "/handbook/britishcolumbia/l-driving-hours.png",
+    "width": 556
+  },
+  "l-supervisor": {
+    "height": 158,
+    "page": 146,
+    "src": "/handbook/britishcolumbia/l-supervisor.png",
+    "width": 591
+  },
+  "l-zero-alcohol": {
+    "height": 135,
+    "page": 146,
+    "src": "/handbook/britishcolumbia/l-zero-alcohol.png",
+    "width": 543
+  },
+  "lane-control-yellow-x": {
+    "height": 185,
+    "page": 47,
+    "src": "/handbook/britishcolumbia/lane-control-yellow-x.png",
+    "width": 777
+  },
+  "lane-use-signs": {
+    "height": 135,
+    "page": 42,
+    "src": "/handbook/britishcolumbia/lane-use-signs.png",
+    "width": 854
+  },
+  "left-lane-not-for-cruising": {
+    "height": 181,
+    "page": 60,
+    "src": "/handbook/britishcolumbia/left-lane-not-for-cruising.png",
+    "width": 578
+  },
+  "left-turn-steady-green": {
+    "height": 158,
+    "page": 55,
+    "src": "/handbook/britishcolumbia/left-turn-steady-green.png",
+    "width": 561
+  },
+  "left-turn-yellow-complete": {
+    "height": 181,
+    "page": 55,
+    "src": "/handbook/britishcolumbia/left-turn-yellow-complete.png",
+    "width": 573
+  },
+  "left-turn-yield-basic": {
+    "height": 180,
+    "page": 53,
+    "src": "/handbook/britishcolumbia/left-turn-yield-basic.png",
+    "width": 589
+  },
+  "lights-out-four-way": {
+    "height": 221,
+    "page": 54,
+    "src": "/handbook/britishcolumbia/lights-out-four-way.png",
+    "width": 234
+  },
+  "low-visibility-strategies": {
+    "height": 112,
+    "page": 128,
+    "src": "/handbook/britishcolumbia/low-visibility-strategies.png",
+    "width": 472
+  },
+  "medication-drowsy": {
+    "height": 158,
+    "page": 110,
+    "src": "/handbook/britishcolumbia/medication-drowsy.png",
+    "width": 531
+  },
+  "midblock-left-over-double-yellow": {
+    "height": 135,
+    "page": 63,
+    "src": "/handbook/britishcolumbia/midblock-left-over-double-yellow.png",
+    "width": 581
+  },
+  "n-passenger-limit": {
+    "height": 158,
+    "page": 148,
+    "src": "/handbook/britishcolumbia/n-passenger-limit.png",
+    "width": 544
+  },
+  "new-resident-90-days": {
+    "height": 158,
+    "page": 155,
+    "src": "/handbook/britishcolumbia/new-resident-90-days.png",
+    "width": 588
+  },
+  "no-lane-change-intersection": {
+    "height": 164,
+    "page": 64,
+    "src": "/handbook/britishcolumbia/no-lane-change-intersection.png",
+    "width": 227
+  },
+  "no-pass-stopped-at-crosswalk": {
+    "height": 112,
+    "page": 93,
+    "src": "/handbook/britishcolumbia/no-pass-stopped-at-crosswalk.png",
+    "width": 563
+  },
+  "no-speeding-up-when-passed": {
+    "height": 126,
+    "page": 65,
+    "src": "/handbook/britishcolumbia/no-speeding-up-when-passed.png",
+    "width": 234
+  },
+  "object-markers": {
+    "height": 112,
+    "page": 45,
+    "src": "/handbook/britishcolumbia/object-markers.png",
+    "width": 693
+  },
+  "observation-cycle-seconds": {
+    "height": 135,
+    "page": 71,
+    "src": "/handbook/britishcolumbia/observation-cycle-seconds.png",
+    "width": 533
+  },
+  "only-time-sobers": {
+    "height": 189,
+    "page": 114,
+    "src": "/handbook/britishcolumbia/only-time-sobers.png",
+    "width": 379
+  },
+  "overdriving-headlights": {
+    "height": 158,
+    "page": 134,
+    "src": "/handbook/britishcolumbia/overdriving-headlights.png",
+    "width": 567
+  },
+  "parking-30cm-curb": {
+    "height": 112,
+    "page": 69,
+    "src": "/handbook/britishcolumbia/parking-30cm-curb.png",
+    "width": 590
+  },
+  "parking-disabled-permit": {
+    "height": 158,
+    "page": 69,
+    "src": "/handbook/britishcolumbia/parking-disabled-permit.png",
+    "width": 575
+  },
+  "parking-gear": {
+    "height": 112,
+    "page": 69,
+    "src": "/handbook/britishcolumbia/parking-gear.png",
+    "width": 489
+  },
+  "parking-hill-wheels": {
+    "height": 112,
+    "page": 69,
+    "src": "/handbook/britishcolumbia/parking-hill-wheels.png",
+    "width": 557
+  },
+  "parking-hydrant-5m": {
+    "height": 135,
+    "page": 69,
+    "src": "/handbook/britishcolumbia/parking-hydrant-5m.png",
+    "width": 577
+  },
+  "parking-railway-15m": {
+    "height": 112,
+    "page": 69,
+    "src": "/handbook/britishcolumbia/parking-railway-15m.png",
+    "width": 537
+  },
+  "passing-distance-sidewalk": {
+    "height": 158,
+    "page": 85,
+    "src": "/handbook/britishcolumbia/passing-distance-sidewalk.png",
+    "width": 584
+  },
+  "passing-distance-vulnerable": {
+    "height": 181,
+    "page": 85,
+    "src": "/handbook/britishcolumbia/passing-distance-vulnerable.png",
+    "width": 584
+  },
+  "passing-lane-merge": {
+    "height": 164,
+    "page": 66,
+    "src": "/handbook/britishcolumbia/passing-lane-merge.png",
+    "width": 239
+  },
+  "passing-rules": {
+    "height": 158,
+    "page": 65,
+    "src": "/handbook/britishcolumbia/passing-rules.png",
+    "width": 552
+  },
+  "playground-zone-30": {
+    "height": 138,
+    "page": 19,
+    "src": "/handbook/britishcolumbia/playground-zone-30.png",
+    "width": 169
+  },
+  "posted-speed-ideal": {
+    "height": 103,
+    "page": 15,
+    "src": "/handbook/britishcolumbia/posted-speed-ideal.png",
+    "width": 208
+  },
+  "railway-stop-5-15": {
+    "height": 164,
+    "page": 107,
+    "src": "/handbook/britishcolumbia/railway-stop-5-15.png",
+    "width": 216
+  },
+  "railway-stop-then-proceed": {
+    "height": 147,
+    "page": 47,
+    "src": "/handbook/britishcolumbia/railway-stop-then-proceed.png",
+    "width": 644
+  },
+  "regulatory-signs-offence": {
+    "height": 158,
+    "page": 41,
+    "src": "/handbook/britishcolumbia/regulatory-signs-offence.png",
+    "width": 828
+  },
+  "reserved-lane-diamond": {
+    "height": 158,
+    "page": 43,
+    "src": "/handbook/britishcolumbia/reserved-lane-diamond.png",
+    "width": 845
+  },
+  "roundabout-lane-choice": {
+    "height": 158,
+    "page": 58,
+    "src": "/handbook/britishcolumbia/roundabout-lane-choice.png",
+    "width": 558
+  },
+  "roundabout-yield-ped": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/britishcolumbia/roundabout-yield-ped.png",
+    "width": 590
+  },
+  "scan-12-seconds": {
+    "height": 181,
+    "page": 71,
+    "src": "/handbook/britishcolumbia/scan-12-seconds.png",
+    "width": 584
+  },
+  "school-bus-stop-either-direction": {
+    "height": 164,
+    "page": 102,
+    "src": "/handbook/britishcolumbia/school-bus-stop-either-direction.png",
+    "width": 231
+  },
+  "school-bus-when-to-go": {
+    "height": 221,
+    "page": 102,
+    "src": "/handbook/britishcolumbia/school-bus-when-to-go.png",
+    "width": 231
+  },
+  "school-sign-colour": {
+    "height": 148,
+    "page": 40,
+    "src": "/handbook/britishcolumbia/school-sign-colour.png",
+    "width": 193
+  },
+  "school-zone-30-hours": {
+    "height": 240,
+    "page": 94,
+    "src": "/handbook/britishcolumbia/school-zone-30-hours.png",
+    "width": 225
+  },
+  "school-zone-reduce": {
+    "height": 148,
+    "page": 42,
+    "src": "/handbook/britishcolumbia/school-zone-reduce.png",
+    "width": 172
+  },
+  "shoulder-check-45": {
+    "height": 163,
+    "page": 73,
+    "src": "/handbook/britishcolumbia/shoulder-check-45.png",
+    "width": 228
+  },
+  "skid-steer-look": {
+    "height": 135,
+    "page": 126,
+    "src": "/handbook/britishcolumbia/skid-steer-look.png",
+    "width": 405
+  },
+  "slow-down-move-over-speeds": {
+    "height": 158,
+    "page": 104,
+    "src": "/handbook/britishcolumbia/slow-down-move-over-speeds.png",
+    "width": 589
+  },
+  "space-behind-tailgater": {
+    "height": 204,
+    "page": 85,
+    "src": "/handbook/britishcolumbia/space-behind-tailgater.png",
+    "width": 587
+  },
+  "speed-sign-meaning": {
+    "height": 148,
+    "page": 41,
+    "src": "/handbook/britishcolumbia/speed-sign-meaning.png",
+    "width": 255
+  },
+  "stale-green": {
+    "height": 135,
+    "page": 54,
+    "src": "/handbook/britishcolumbia/stale-green.png",
+    "width": 580
+  },
+  "steady-red-turns": {
+    "height": 147,
+    "page": 48,
+    "src": "/handbook/britishcolumbia/steady-red-turns.png",
+    "width": 256
+  },
+  "stop-position-line": {
+    "height": 130,
+    "page": 53,
+    "src": "/handbook/britishcolumbia/stop-position-line.png",
+    "width": 572
+  },
+  "stranded-stay-with-vehicle": {
+    "height": 135,
+    "page": 132,
+    "src": "/handbook/britishcolumbia/stranded-stay-with-vehicle.png",
+    "width": 584
+  },
+  "stuck-gas-pedal": {
+    "height": 158,
+    "page": 138,
+    "src": "/handbook/britishcolumbia/stuck-gas-pedal.png",
+    "width": 517
+  },
+  "stuck-on-tracks-30m": {
+    "height": 157,
+    "page": 107,
+    "src": "/handbook/britishcolumbia/stuck-on-tracks-30m.png",
+    "width": 579
+  },
+  "test-ends-early": {
+    "height": 181,
+    "page": 173,
+    "src": "/handbook/britishcolumbia/test-ends-early.png",
+    "width": 589
+  },
+  "three-second-large-vehicle": {
+    "height": 158,
+    "page": 84,
+    "src": "/handbook/britishcolumbia/three-second-large-vehicle.png",
+    "width": 582
+  },
+  "traffic-circle-no-signs": {
+    "height": 158,
+    "page": 57,
+    "src": "/handbook/britishcolumbia/traffic-circle-no-signs.png",
+    "width": 585
+  },
+  "traffic-control-person": {
+    "height": 164,
+    "page": 53,
+    "src": "/handbook/britishcolumbia/traffic-control-person.png",
+    "width": 223
+  },
+  "transit-priority-white": {
+    "height": 128,
+    "page": 48,
+    "src": "/handbook/britishcolumbia/transit-priority-white.png",
+    "width": 244
+  },
+  "truck-engine-retarder": {
+    "height": 135,
+    "page": 101,
+    "src": "/handbook/britishcolumbia/truck-engine-retarder.png",
+    "width": 571
+  },
+  "truck-see-both-mirrors": {
+    "height": 158,
+    "page": 100,
+    "src": "/handbook/britishcolumbia/truck-see-both-mirrors.png",
+    "width": 570
+  },
+  "tunnel-sunglasses": {
+    "height": 135,
+    "page": 128,
+    "src": "/handbook/britishcolumbia/tunnel-sunglasses.png",
+    "width": 517
+  },
+  "two-second-rule": {
+    "height": 204,
+    "page": 84,
+    "src": "/handbook/britishcolumbia/two-second-rule.png",
+    "width": 589
+  },
+  "two-way-left-turn-lane-use": {
+    "height": 259,
+    "page": 62,
+    "src": "/handbook/britishcolumbia/two-way-left-turn-lane-use.png",
+    "width": 238
+  },
+  "two-way-stop-left-turn": {
+    "height": 204,
+    "page": 56,
+    "src": "/handbook/britishcolumbia/two-way-stop-left-turn.png",
+    "width": 593
+  },
+  "uncontrolled-yield-right": {
+    "height": 181,
+    "page": 52,
+    "src": "/handbook/britishcolumbia/uncontrolled-yield-right.png",
+    "width": 583
+  },
+  "uturn-business-district": {
+    "height": 135,
+    "page": 63,
+    "src": "/handbook/britishcolumbia/uturn-business-district.png",
+    "width": 582
+  },
+  "uturn-crest-150": {
+    "height": 135,
+    "page": 63,
+    "src": "/handbook/britishcolumbia/uturn-crest-150.png",
+    "width": 562
+  },
+  "warning-signs-shape": {
+    "height": 112,
+    "page": 44,
+    "src": "/handbook/britishcolumbia/warning-signs-shape.png",
+    "width": 815
+  },
+  "wet-road-braking": {
+    "height": 112,
+    "page": 129,
+    "src": "/handbook/britishcolumbia/wet-road-braking.png",
+    "width": 481
+  },
+  "white-cane-raised": {
+    "height": 135,
+    "page": 94,
+    "src": "/handbook/britishcolumbia/white-cane-raised.png",
+    "width": 591
+  },
+  "winter-tire-sign": {
+    "height": 128,
+    "page": 41,
+    "src": "/handbook/britishcolumbia/winter-tire-sign.png",
+    "width": 282
+  },
+  "yield-sign-meaning": {
+    "height": 148,
+    "page": 41,
+    "src": "/handbook/britishcolumbia/yield-sign-meaning.png",
+    "width": 218
+  },
+  "yield-to-bus-60": {
+    "height": 181,
+    "page": 103,
+    "src": "/handbook/britishcolumbia/yield-to-bus-60.png",
+    "width": 581
+  }
+}

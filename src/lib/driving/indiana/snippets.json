@@ -1,0 +1,1052 @@
+{
+  "abs-do-not-pump": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/abs-do-not-pump.png",
+    "width": 947
+  },
+  "abs-working-signs": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/abs-working-signs.png",
+    "width": 947
+  },
+  "access-aisle-purpose": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/access-aisle-purpose.png",
+    "width": 537
+  },
+  "accident-do-not-move": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/accident-do-not-move.png",
+    "width": 942
+  },
+  "accident-must-stop": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/accident-must-stop.png",
+    "width": 944
+  },
+  "accident-unattended-vehicle": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/accident-unattended-vehicle.png",
+    "width": 934
+  },
+  "address-change-30-days": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/address-change-30-days.png",
+    "width": 899
+  },
+  "adult-permit-practice": {
+    "height": 162,
+    "page": 0,
+    "src": "/handbook/indiana/adult-permit-practice.png",
+    "width": 893
+  },
+  "aggressive-three-acts": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/aggressive-three-acts.png",
+    "width": 858
+  },
+  "all-way-stop-doubt": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/all-way-stop-doubt.png",
+    "width": 892
+  },
+  "all-way-stop-first": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/all-way-stop-first.png",
+    "width": 894
+  },
+  "all-way-stop-tie": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/all-way-stop-tie.png",
+    "width": 892
+  },
+  "alley-driveway-stop": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/alley-driveway-stop.png",
+    "width": 903
+  },
+  "alleys-15": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/alleys-15.png",
+    "width": 744
+  },
+  "arrow-board-no-direction": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/arrow-board-no-direction.png",
+    "width": 835
+  },
+  "being-passed": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/being-passed.png",
+    "width": 726
+  },
+  "bicycle-check-door": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/bicycle-check-door.png",
+    "width": 851
+  },
+  "bicycle-lane-no-turn-prep": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/bicycle-lane-no-turn-prep.png",
+    "width": 632
+  },
+  "bicycle-left-turn-lane": {
+    "height": 139,
+    "page": 0,
+    "src": "/handbook/indiana/bicycle-left-turn-lane.png",
+    "width": 669
+  },
+  "bicycle-right-turn": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/bicycle-right-turn.png",
+    "width": 751
+  },
+  "bicycle-signal": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/bicycle-signal.png",
+    "width": 827
+  },
+  "bicycle-three-feet": {
+    "height": 139,
+    "page": 0,
+    "src": "/handbook/indiana/bicycle-three-feet.png",
+    "width": 828
+  },
+  "bicycle-two-abreast": {
+    "height": 139,
+    "page": 0,
+    "src": "/handbook/indiana/bicycle-two-abreast.png",
+    "width": 680
+  },
+  "blowout-hold-straight": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/blowout-hold-straight.png",
+    "width": 927
+  },
+  "brake-failure-pump": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/brake-failure-pump.png",
+    "width": 965
+  },
+  "bridges-freeze-first": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/bridges-freeze-first.png",
+    "width": 947
+  },
+  "carbon-monoxide-senses": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/carbon-monoxide-senses.png",
+    "width": 960
+  },
+  "centre-turn-lane-no-passing": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/centre-turn-lane-no-passing.png",
+    "width": 507
+  },
+  "chemical-test-refuse-1yr": {
+    "height": 139,
+    "page": 0,
+    "src": "/handbook/indiana/chemical-test-refuse-1yr.png",
+    "width": 620
+  },
+  "child-restraint-eight": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/child-restraint-eight.png",
+    "width": 760
+  },
+  "collision-hit-moving": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/collision-hit-moving.png",
+    "width": 927
+  },
+  "county-roads-55": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/county-roads-55.png",
+    "width": 816
+  },
+  "crossbuck-with-stop-sign": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/crossbuck-with-stop-sign.png",
+    "width": 835
+  },
+  "crossbuck-yield": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/crossbuck-yield.png",
+    "width": 808
+  },
+  "dark-signal": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/dark-signal.png",
+    "width": 966
+  },
+  "dark-signal-yield-right": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/dark-signal-yield-right.png",
+    "width": 661
+  },
+  "dead-red-not-autocycles": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/dead-red-not-autocycles.png",
+    "width": 400
+  },
+  "dead-red-two-minutes": {
+    "height": 138,
+    "page": 0,
+    "src": "/handbook/indiana/dead-red-two-minutes.png",
+    "width": 950
+  },
+  "disabled-vehicle-100-feet": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/disabled-vehicle-100-feet.png",
+    "width": 960
+  },
+  "driver-12-inches": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/driver-12-inches.png",
+    "width": 648
+  },
+  "driver-ed-hours": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/driver-ed-hours.png",
+    "width": 902
+  },
+  "drowsy-18-hours": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/drowsy-18-hours.png",
+    "width": 967
+  },
+  "endorsement-exam-25": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/endorsement-exam-25.png",
+    "width": 803
+  },
+  "exit-passenger-side": {
+    "height": 163,
+    "page": 0,
+    "src": "/handbook/indiana/exit-passenger-side.png",
+    "width": 746
+  },
+  "failure-to-yield-most-common": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/failure-to-yield-most-common.png",
+    "width": 976
+  },
+  "flashing-red-light": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/flashing-red-light.png",
+    "width": 768
+  },
+  "flashing-red-tie": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/flashing-red-tie.png",
+    "width": 960
+  },
+  "flashing-yellow-arrow": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/flashing-yellow-arrow.png",
+    "width": 855
+  },
+  "flashing-yellow-light": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/flashing-yellow-light.png",
+    "width": 820
+  },
+  "flood-water-over-road": {
+    "height": 139,
+    "page": 0,
+    "src": "/handbook/indiana/flood-water-over-road.png",
+    "width": 675
+  },
+  "fog-low-beams": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/fog-low-beams.png",
+    "width": 835
+  },
+  "following-turning-vehicles": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/following-turning-vehicles.png",
+    "width": 861
+  },
+  "following-two-to-three": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/following-two-to-three.png",
+    "width": 753
+  },
+  "funeral-procession": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/funeral-procession.png",
+    "width": 820
+  },
+  "green-light-no-arrow-turn": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/green-light-no-arrow-turn.png",
+    "width": 967
+  },
+  "hand-signals-not-on-exam": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/hand-signals-not-on-exam.png",
+    "width": 730
+  },
+  "head-restraint-position": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/head-restraint-position.png",
+    "width": 679
+  },
+  "headlights-500": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/headlights-500.png",
+    "width": 970
+  },
+  "hybrid-beacon-flashing-red": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/hybrid-beacon-flashing-red.png",
+    "width": 976
+  },
+  "hydroplaning-layer": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/hydroplaning-layer.png",
+    "width": 780
+  },
+  "impaired-driver-signs": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/impaired-driver-signs.png",
+    "width": 517
+  },
+  "insurance-minimum": {
+    "height": 165,
+    "page": 0,
+    "src": "/handbook/indiana/insurance-minimum.png",
+    "width": 932
+  },
+  "interstate-median-u-turn-illegal": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/interstate-median-u-turn-illegal.png",
+    "width": 948
+  },
+  "knowledge-exam-retake": {
+    "height": 115,
+    "page": 0,
+    "src": "/handbook/indiana/knowledge-exam-retake.png",
+    "width": 843
+  },
+  "left-on-red": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/left-on-red.png",
+    "width": 978
+  },
+  "licence-validity": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/licence-validity.png",
+    "width": 508
+  },
+  "load-four-feet-lamp": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/load-four-feet-lamp.png",
+    "width": 952
+  },
+  "low-beams-500-200": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/low-beams-500-200.png",
+    "width": 969
+  },
+  "mdc-35-mph": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/mdc-35-mph.png",
+    "width": 488
+  },
+  "merging-yield": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/merging-yield.png",
+    "width": 867
+  },
+  "motorcycle-signal-not-cancelling": {
+    "height": 165,
+    "page": 0,
+    "src": "/handbook/indiana/motorcycle-signal-not-cancelling.png",
+    "width": 835
+  },
+  "motorcycle-three-four-seconds": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/motorcycle-three-four-seconds.png",
+    "width": 851
+  },
+  "move-over-amber": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/move-over-amber.png",
+    "width": 788
+  },
+  "move-over-amber-list": {
+    "height": 249,
+    "page": 0,
+    "src": "/handbook/indiana/move-over-amber-list.png",
+    "width": 396
+  },
+  "move-over-disabled": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/move-over-disabled.png",
+    "width": 703
+  },
+  "move-over-emergency-10-under": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/move-over-emergency-10-under.png",
+    "width": 843
+  },
+  "new-resident-60-days": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/new-resident-60-days.png",
+    "width": 857
+  },
+  "no-passing-100-feet": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/no-passing-100-feet.png",
+    "width": 751
+  },
+  "no-passing-signs": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/no-passing-signs.png",
+    "width": 879
+  },
+  "non-divided-state-highway-55": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/non-divided-state-highway-55.png",
+    "width": 944
+  },
+  "officer-overrides": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/officer-overrides.png",
+    "width": 820
+  },
+  "one-lane-at-a-time": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/one-lane-at-a-time.png",
+    "width": 859
+  },
+  "owi-legal-limit": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/owi-legal-limit.png",
+    "width": 952
+  },
+  "owi-watercraft": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/owi-watercraft.png",
+    "width": 815
+  },
+  "parallel-park-two-feet": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/parallel-park-two-feet.png",
+    "width": 803
+  },
+  "parking-hill-wheels": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/parking-hill-wheels.png",
+    "width": 746
+  },
+  "parking-hydrant-15": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/parking-hydrant-15.png",
+    "width": 470
+  },
+  "parking-no-curb": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/parking-no-curb.png",
+    "width": 746
+  },
+  "parking-prohibited-list": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/parking-prohibited-list.png",
+    "width": 499
+  },
+  "passing-return-100-feet": {
+    "height": 138,
+    "page": 0,
+    "src": "/handbook/indiana/passing-return-100-feet.png",
+    "width": 744
+  },
+  "pedestrian-always-yield": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/pedestrian-always-yield.png",
+    "width": 453
+  },
+  "pedestrian-signal-flashing": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/pedestrian-signal-flashing.png",
+    "width": 975
+  },
+  "penny-test": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/penny-test.png",
+    "width": 774
+  },
+  "permit-validity": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/permit-validity.png",
+    "width": 687
+  },
+  "placard-striped-space": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/placard-striped-space.png",
+    "width": 642
+  },
+  "points-handheld": {
+    "height": 118,
+    "page": 0,
+    "src": "/handbook/indiana/points-handheld.png",
+    "width": 872
+  },
+  "points-two-years": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/points-two-years.png",
+    "width": 747
+  },
+  "prescription-drugs": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/prescription-drugs.png",
+    "width": 853
+  },
+  "probationary-family-exception": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/probationary-family-exception.png",
+    "width": 980
+  },
+  "probationary-phone-ban": {
+    "height": 189,
+    "page": 0,
+    "src": "/handbook/indiana/probationary-phone-ban.png",
+    "width": 860
+  },
+  "red-light": {
+    "height": 165,
+    "page": 0,
+    "src": "/handbook/indiana/red-light.png",
+    "width": 964
+  },
+  "red-mid-intersection-turn": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/red-mid-intersection-turn.png",
+    "width": 855
+  },
+  "renew-expired-5yr": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/renew-expired-5yr.png",
+    "width": 722
+  },
+  "renew-six-points": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/renew-six-points.png",
+    "width": 843
+  },
+  "residential-30": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/residential-30.png",
+    "width": 940
+  },
+  "reversing-look-back": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/reversing-look-back.png",
+    "width": 750
+  },
+  "right-on-red": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/right-on-red.png",
+    "width": 971
+  },
+  "rollover-15-passenger-van": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/rollover-15-passenger-van.png",
+    "width": 900
+  },
+  "rollover-off-roadway": {
+    "height": 138,
+    "page": 0,
+    "src": "/handbook/indiana/rollover-off-roadway.png",
+    "width": 704
+  },
+  "roundabout-large-vehicles": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/roundabout-large-vehicles.png",
+    "width": 932
+  },
+  "roundabout-no-lane-change": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/roundabout-no-lane-change.png",
+    "width": 490
+  },
+  "roundabout-two-trucks": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/roundabout-two-trucks.png",
+    "width": 861
+  },
+  "roundabout-yield": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/roundabout-yield.png",
+    "width": 771
+  },
+  "rr-45-degrees": {
+    "height": 183,
+    "page": 0,
+    "src": "/handbook/indiana/rr-45-degrees.png",
+    "width": 654
+  },
+  "rr-ens-blue-sign": {
+    "height": 161,
+    "page": 0,
+    "src": "/handbook/indiana/rr-ens-blue-sign.png",
+    "width": 623
+  },
+  "rr-stop-15-50": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/rr-stop-15-50.png",
+    "width": 971
+  },
+  "rr-street-tracks": {
+    "height": 161,
+    "page": 0,
+    "src": "/handbook/indiana/rr-street-tracks.png",
+    "width": 665
+  },
+  "rrfb": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/rrfb.png",
+    "width": 767
+  },
+  "rural-crest": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/rural-crest.png",
+    "width": 801
+  },
+  "rural-divided-60": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/rural-divided-60.png",
+    "width": 960
+  },
+  "rural-interstate-70": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/rural-interstate-70.png",
+    "width": 776
+  },
+  "rural-interstate-trucks-65": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/rural-interstate-trucks-65.png",
+    "width": 758
+  },
+  "school-bus-40": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/school-bus-40.png",
+    "width": 886
+  },
+  "school-bus-60": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/school-bus-60.png",
+    "width": 885
+  },
+  "school-bus-divided-exception": {
+    "height": 165,
+    "page": 0,
+    "src": "/handbook/indiana/school-bus-divided-exception.png",
+    "width": 689
+  },
+  "school-bus-stop-required": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/school-bus-stop-required.png",
+    "width": 689
+  },
+  "school-zone-hours": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/school-zone-hours.png",
+    "width": 851
+  },
+  "seat-belt-all-times": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/seat-belt-all-times.png",
+    "width": 811
+  },
+  "shape-circular": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/shape-circular.png",
+    "width": 629
+  },
+  "shape-diamond": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/shape-diamond.png",
+    "width": 639
+  },
+  "shape-five-sided": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/shape-five-sided.png",
+    "width": 643
+  },
+  "shape-octagon": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/shape-octagon.png",
+    "width": 644
+  },
+  "shape-pennant": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/shape-pennant.png",
+    "width": 662
+  },
+  "shape-rectangular": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/shape-rectangular.png",
+    "width": 657
+  },
+  "shape-triangle": {
+    "height": 165,
+    "page": 0,
+    "src": "/handbook/indiana/shape-triangle.png",
+    "width": 671
+  },
+  "sign-blue": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/sign-blue.png",
+    "width": 613
+  },
+  "sign-brown": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/sign-brown.png",
+    "width": 656
+  },
+  "sign-colors-seven": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/sign-colors-seven.png",
+    "width": 938
+  },
+  "sign-green": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/sign-green.png",
+    "width": 652
+  },
+  "sign-orange": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/sign-orange.png",
+    "width": 673
+  },
+  "sign-red": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/sign-red.png",
+    "width": 638
+  },
+  "sign-white": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/sign-white.png",
+    "width": 660
+  },
+  "sign-yellow": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/sign-yellow.png",
+    "width": 671
+  },
+  "sign-yellow-green": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/sign-yellow-green.png",
+    "width": 671
+  },
+  "signal-before-leaving-space": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/signal-before-leaving-space.png",
+    "width": 857
+  },
+  "signs-posted-by": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/signs-posted-by.png",
+    "width": 980
+  },
+  "skid-conventional-brakes": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/skid-conventional-brakes.png",
+    "width": 960
+  },
+  "skills-exam-auto-fail": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/skills-exam-auto-fail.png",
+    "width": 842
+  },
+  "slow-moving-emblem": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/slow-moving-emblem.png",
+    "width": 817
+  },
+  "slower-vehicles-right-lane": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/slower-vehicles-right-lane.png",
+    "width": 859
+  },
+  "solid-white-line": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/solid-white-line.png",
+    "width": 886
+  },
+  "stop-line-order": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/stop-line-order.png",
+    "width": 974
+  },
+  "supervised-10-night": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/supervised-10-night.png",
+    "width": 957
+  },
+  "supplemental-plaques": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/supplemental-plaques.png",
+    "width": 646
+  },
+  "telecom-only-exceptions": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/telecom-only-exceptions.png",
+    "width": 922
+  },
+  "traffic-stop-no-median": {
+    "height": 139,
+    "page": 0,
+    "src": "/handbook/indiana/traffic-stop-no-median.png",
+    "width": 862
+  },
+  "triangle-200-500": {
+    "height": 139,
+    "page": 0,
+    "src": "/handbook/indiana/triangle-200-500.png",
+    "width": 757
+  },
+  "truck-blind-spots": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/truck-blind-spots.png",
+    "width": 913
+  },
+  "truck-centre-lane": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/truck-centre-lane.png",
+    "width": 833
+  },
+  "truck-lane-restriction": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/truck-lane-restriction.png",
+    "width": 877
+  },
+  "truck-max-width": {
+    "height": 141,
+    "page": 0,
+    "src": "/handbook/indiana/truck-max-width.png",
+    "width": 985
+  },
+  "truck-stopping-400": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/truck-stopping-400.png",
+    "width": 870
+  },
+  "truck-swing-out": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/truck-swing-out.png",
+    "width": 750
+  },
+  "truck-three-triangles": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/truck-three-triangles.png",
+    "width": 931
+  },
+  "turn-lane-position": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/turn-lane-position.png",
+    "width": 943
+  },
+  "tyre-pressure-source": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/tyre-pressure-source.png",
+    "width": 859
+  },
+  "urban-definition": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/urban-definition.png",
+    "width": 959
+  },
+  "urban-interstate-55": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/urban-interstate-55.png",
+    "width": 942
+  },
+  "water-open-window": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/water-open-window.png",
+    "width": 958
+  },
+  "wet-brakes-pump": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/wet-brakes-pump.png",
+    "width": 979
+  },
+  "white-cane-guide-dog": {
+    "height": 116,
+    "page": 0,
+    "src": "/handbook/indiana/white-cane-guide-dog.png",
+    "width": 846
+  },
+  "work-zone-10-below": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/work-zone-10-below.png",
+    "width": 879
+  },
+  "yellow-lane-markings": {
+    "height": 164,
+    "page": 0,
+    "src": "/handbook/indiana/yellow-lane-markings.png",
+    "width": 739
+  },
+  "yellow-light": {
+    "height": 117,
+    "page": 0,
+    "src": "/handbook/indiana/yellow-light.png",
+    "width": 968
+  },
+  "yield-no-braking": {
+    "height": 140,
+    "page": 0,
+    "src": "/handbook/indiana/yield-no-braking.png",
+    "width": 955
+  }
+}

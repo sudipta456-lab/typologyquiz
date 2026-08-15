@@ -6,7 +6,7 @@ Website: https://typologyquiz.com
 
 ## What this site is
 
-Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 3571 driving licence practice questions across 18 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
+Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 4351 driving licence practice questions across 22 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
 
 Nothing requires an account. There is no advertising, no tracking beyond basic analytics, and no email or phone collection - the audience includes minors, so the site deliberately holds no contact details. Quiz answers and progress live in the visitor's own browser.
 
@@ -43,6 +43,10 @@ Each jurisdiction has six sets that build from a gentle start to a full exam sim
 - [Massachusetts Class D Learner's Permit](https://typologyquiz.com/driving/massachusetts/): 6 sets, 195 questions, 189 handbook excerpts. Real test: 25 questions, pass 18 of 25 (72%) in 25 minutes. Official handbook: https://www.mass.gov/doc/english-drivers-manual/download
 - [Tennessee Class D Learner Permit](https://typologyquiz.com/driving/tennessee/): 6 sets, 195 questions, 191 handbook excerpts. Real test: 30 questions, pass Tennessee publishes no question count or pass mark. Official handbook: https://www.tn.gov/safety/driver-services/classd/dlmanual.html
 - [Arizona Instruction Permit](https://typologyquiz.com/driving/arizona/): 6 sets, 195 questions, 193 handbook excerpts. Real test: 30 questions, pass 24 of 30 (80%). Official handbook: https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf
+- [British Columbia Class 7L Learner's Licence](https://typologyquiz.com/driving/britishcolumbia/): 6 sets, 195 questions, 173 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%) in 45 minutes. Official handbook: https://www.icbc.com/driver-licensing/new-drivers/Get-your-L
+- [Indiana Learner's Permit](https://typologyquiz.com/driving/indiana/): 6 sets, 195 questions, 183 handbook excerpts. Real test: 40 questions, pass 80% on each of the two components (Indiana publishes no count). Official handbook: https://www.in.gov/bmv/licenses-permits-ids/indiana-drivers-manual/
+- [Missouri Class F Instruction Permit](https://typologyquiz.com/driving/missouri/): 6 sets, 195 questions, 177 handbook excerpts. Real test: 25 questions, pass 20 of 25 (80%). Official handbook: https://dor.mo.gov/forms/Driver%20Guide.pdf
+- [Maryland Learner's Permit](https://typologyquiz.com/driving/maryland/): 6 sets, 195 questions, 188 handbook excerpts. Real test: 25 questions, pass 88% - 22 of 25, in 20 minutes. Official handbook: https://mva.maryland.gov/Documents/DL-002.pdf
 
 There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak-spots/take/, rebuilt each time from the questions that visitor has actually got wrong.
 

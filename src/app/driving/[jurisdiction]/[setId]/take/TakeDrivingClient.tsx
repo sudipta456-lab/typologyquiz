@@ -651,7 +651,11 @@ function TakeDrivingInner() {
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={snippet.src}
-                    alt={`Highlighted passage from ${excerpt.source}, page ${snippet.page}`}
+                    alt={
+                      snippet.page > 0
+                        ? `Highlighted passage from ${excerpt.source}, page ${snippet.page}`
+                        : `Highlighted passage from ${excerpt.source}`
+                    }
                     width={snippet.width}
                     height={snippet.height}
                     loading="lazy"
@@ -677,7 +681,9 @@ function TakeDrivingInner() {
                 >
                   {excerpt.source}
                   {excerpt.section ? ` - ${excerpt.section}` : ""}
-                  {snippet ? ` (p. ${snippet.page})` : ""}
+                  {/* page 0 means the passage came from an HTML edition or a
+                      per-chapter PDF, where there is no manual page to cite. */}
+                  {snippet && snippet.page > 0 ? ` (p. ${snippet.page})` : ""}
                 </cite>
               </blockquote>
             )}

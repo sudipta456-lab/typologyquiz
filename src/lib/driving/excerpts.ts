@@ -17,6 +17,10 @@ import { washingtonExcerpts } from "./washington/excerpts";
 import { massachusettsExcerpts } from "./massachusetts/excerpts";
 import { tennesseeExcerpts } from "./tennessee/excerpts";
 import { arizonaExcerpts } from "./arizona/excerpts";
+import { britishcolumbiaExcerpts } from "./britishcolumbia/excerpts";
+import { indianaExcerpts } from "./indiana/excerpts";
+import { missouriExcerpts } from "./missouri/excerpts";
+import { marylandExcerpts } from "./maryland/excerpts";
 
 // Handbook excerpt library, keyed by jurisdiction then rule.
 //
@@ -44,6 +48,10 @@ const BY_JURISDICTION: Record<string, HandbookExcerpt[]> = {
   massachusetts: massachusettsExcerpts,
   tennessee: tennesseeExcerpts,
   arizona: arizonaExcerpts,
+  britishcolumbia: britishcolumbiaExcerpts,
+  indiana: indianaExcerpts,
+  missouri: missouriExcerpts,
+  maryland: marylandExcerpts,
 };
 
 const INDEX: Record<string, Record<string, HandbookExcerpt>> = Object.fromEntries(
@@ -111,6 +119,14 @@ import tennesseeSnippets from "./tennessee/snippets.json";
 // down. The twenty unmatched excerpts are quotes from the Revised Statutes,
 // which were never in the manual to begin with.
 import arizonaSnippets from "./arizona/snippets.json";
+import britishcolumbiaSnippets from "./britishcolumbia/snippets.json";
+import missouriSnippets from "./missouri/snippets.json";
+import marylandSnippets from "./maryland/snippets.json";
+// Indiana publishes the manual chapter by chapter rather than as one file, so
+// each snippet is cut from its own chapter PDF and carries page: 0 - a page
+// number within a chapter is not the manual's page number, and citing it would
+// be worse than citing nothing.
+import indianaSnippets from "./indiana/snippets.json";
 
 export interface HandbookSnippet {
   src: string;
@@ -138,6 +154,10 @@ const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
   massachusetts: massachusettsSnippets as Record<string, HandbookSnippet>,
   tennessee: tennesseeSnippets as Record<string, HandbookSnippet>,
   arizona: arizonaSnippets as Record<string, HandbookSnippet>,
+  britishcolumbia: britishcolumbiaSnippets as Record<string, HandbookSnippet>,
+  indiana: indianaSnippets as Record<string, HandbookSnippet>,
+  missouri: missouriSnippets as Record<string, HandbookSnippet>,
+  maryland: marylandSnippets as Record<string, HandbookSnippet>,
 };
 
 export function getSnippet(
