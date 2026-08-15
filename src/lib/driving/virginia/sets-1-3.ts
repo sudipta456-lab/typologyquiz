@@ -2,10 +2,9 @@ import type { DrivingTestSet } from "../types";
 
 // Every fact below was checked against the Virginia Driver's Manual (DMV 39),
 // published by the Virginia Department of Motor Vehicles, plus dmv.virginia.gov
-// pages for the two-part knowledge exam, the juvenile licensing restrictions,
-// the demerit point system and the insurance minimums - and the Code of
-// Virginia (Title 46.2) for the handful of rules the manual states only as a
-// table, states out of date, or does not state at all.
+// pages for the juvenile driving restrictions and the demerit point system -
+// and the Code of Virginia (Title 46.2) for the handful of rules the manual
+// states only as a table, states out of date, or does not state at all.
 //
 // Three of those gaps matter enough to name. The manual's speed section gives
 // 55 mph as the ceiling for "all other roads" and never mentions the 70 mph
@@ -22,11 +21,8 @@ import type { DrivingTestSet } from "../types";
 // written from scratch; the deep link is there so the learner reads DMV's own
 // authoritative wording on the government's site.
 const HB = "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf";
-const KNOW = "https://www.dmv.virginia.gov/licenses-ids/exams/know-exam";
 const TEEN = "https://www.dmv.virginia.gov/licenses-ids/learners/restrictions";
-const ED = "https://www.dmv.virginia.gov/licenses-ids/learners/ed-reqs";
 const PTS = "https://www.dmv.virginia.gov/licenses-ids/improvement/points/system";
-const SPEED_FAQ = "https://www.dmv.virginia.gov/safety/programs/speeding/faqs";
 const CODE_870 = "https://law.lis.virginia.gov/vacode/title46.2/section46.2-870/";
 const CODE_873 = "https://law.lis.virginia.gov/vacode/title46.2/section46.2-873/";
 const CODE_839 = "https://law.lis.virginia.gov/vacode/title46.2/section46.2-839/";

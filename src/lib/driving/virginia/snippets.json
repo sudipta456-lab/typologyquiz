@@ -1,0 +1,908 @@
+{
+  "address-change-30-days": {
+    "height": 114,
+    "page": 35,
+    "src": "/handbook/virginia/address-change-30-days.png",
+    "width": 581
+  },
+  "adult-18-points": {
+    "height": 186,
+    "page": 31,
+    "src": "/handbook/virginia/adult-18-points.png",
+    "width": 563
+  },
+  "advisory-speed": {
+    "height": 137,
+    "page": 10,
+    "src": "/handbook/virginia/advisory-speed.png",
+    "width": 399
+  },
+  "aggressive-driving-penalty": {
+    "height": 161,
+    "page": 25,
+    "src": "/handbook/virginia/aggressive-driving-penalty.png",
+    "width": 562
+  },
+  "airbag-ten-inches": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/virginia/airbag-ten-inches.png",
+    "width": 557
+  },
+  "als-seven-days": {
+    "height": 114,
+    "page": 32,
+    "src": "/handbook/virginia/als-seven-days.png",
+    "width": 564
+  },
+  "antilock-brakes": {
+    "height": 113,
+    "page": 17,
+    "src": "/handbook/virginia/antilock-brakes.png",
+    "width": 532
+  },
+  "being-passed": {
+    "height": 138,
+    "page": 19,
+    "src": "/handbook/virginia/being-passed.png",
+    "width": 531
+  },
+  "bike-box": {
+    "height": 185,
+    "page": 15,
+    "src": "/handbook/virginia/bike-box.png",
+    "width": 580
+  },
+  "bike-center-lane": {
+    "height": 138,
+    "page": 22,
+    "src": "/handbook/virginia/bike-center-lane.png",
+    "width": 444
+  },
+  "bike-lane-use": {
+    "height": 257,
+    "page": 14,
+    "src": "/handbook/virginia/bike-lane-use.png",
+    "width": 329
+  },
+  "bike-where-allowed": {
+    "height": 162,
+    "page": 22,
+    "src": "/handbook/virginia/bike-where-allowed.png",
+    "width": 584
+  },
+  "bridges-freeze": {
+    "height": 138,
+    "page": 25,
+    "src": "/handbook/virginia/bridges-freeze.png",
+    "width": 552
+  },
+  "broken-solid-yellow": {
+    "height": 258,
+    "page": 13,
+    "src": "/handbook/virginia/broken-solid-yellow.png",
+    "width": 275
+  },
+  "broken-white": {
+    "height": 209,
+    "page": 13,
+    "src": "/handbook/virginia/broken-white.png",
+    "width": 285
+  },
+  "buggy-three-feet": {
+    "height": 186,
+    "page": 10,
+    "src": "/handbook/virginia/buggy-three-feet.png",
+    "width": 442
+  },
+  "carry-license": {
+    "height": 153,
+    "page": 33,
+    "src": "/handbook/virginia/carry-license.png",
+    "width": 584
+  },
+  "center-lane-150-feet": {
+    "height": 305,
+    "page": 14,
+    "src": "/handbook/virginia/center-lane-150-feet.png",
+    "width": 305
+  },
+  "center-lane-passing": {
+    "height": 162,
+    "page": 14,
+    "src": "/handbook/virginia/center-lane-passing.png",
+    "width": 570
+  },
+  "child-rear-facing-2": {
+    "height": 161,
+    "page": 29,
+    "src": "/handbook/virginia/child-rear-facing-2.png",
+    "width": 578
+  },
+  "child-seat-under-8": {
+    "height": 161,
+    "page": 29,
+    "src": "/handbook/virginia/child-seat-under-8.png",
+    "width": 578
+  },
+  "crash-do-not-move-injured": {
+    "height": 185,
+    "page": 27,
+    "src": "/handbook/virginia/crash-do-not-move-injured.png",
+    "width": 554
+  },
+  "crash-must-stop": {
+    "height": 114,
+    "page": 27,
+    "src": "/handbook/virginia/crash-must-stop.png",
+    "width": 445
+  },
+  "crash-report-3000": {
+    "height": 186,
+    "page": 27,
+    "src": "/handbook/virginia/crash-report-3000.png",
+    "width": 582
+  },
+  "crash-report-police": {
+    "height": 162,
+    "page": 27,
+    "src": "/handbook/virginia/crash-report-police.png",
+    "width": 560
+  },
+  "cross-yellow-for-bikes": {
+    "height": 306,
+    "page": 13,
+    "src": "/handbook/virginia/cross-yellow-for-bikes.png",
+    "width": 278
+  },
+  "crossbuck": {
+    "height": 186,
+    "page": 11,
+    "src": "/handbook/virginia/crossbuck.png",
+    "width": 576
+  },
+  "curfew-web": {
+    "height": 114,
+    "page": 36,
+    "src": "/handbook/virginia/curfew-web.png",
+    "width": 570
+  },
+  "curved-arrow-only": {
+    "height": 209,
+    "page": 14,
+    "src": "/handbook/virginia/curved-arrow-only.png",
+    "width": 585
+  },
+  "dark-signal": {
+    "height": 185,
+    "page": 8,
+    "src": "/handbook/virginia/dark-signal.png",
+    "width": 581
+  },
+  "deer-do-not-swerve": {
+    "height": 161,
+    "page": 27,
+    "src": "/handbook/virginia/deer-do-not-swerve.png",
+    "width": 570
+  },
+  "default-speed-limits": {
+    "height": 210,
+    "page": 17,
+    "src": "/handbook/virginia/default-speed-limits.png",
+    "width": 575
+  },
+  "divided-hwy-ends": {
+    "height": 162,
+    "page": 10,
+    "src": "/handbook/virginia/divided-hwy-ends.png",
+    "width": 449
+  },
+  "do-not-pass-sign": {
+    "height": 186,
+    "page": 9,
+    "src": "/handbook/virginia/do-not-pass-sign.png",
+    "width": 438
+  },
+  "double-solid-white": {
+    "height": 354,
+    "page": 14,
+    "src": "/handbook/virginia/double-solid-white.png",
+    "width": 545
+  },
+  "double-solid-yellow": {
+    "height": 258,
+    "page": 13,
+    "src": "/handbook/virginia/double-solid-yellow.png",
+    "width": 278
+  },
+  "drink-equivalence": {
+    "height": 137,
+    "page": 26,
+    "src": "/handbook/virginia/drink-equivalence.png",
+    "width": 545
+  },
+  "drowsy-avoid-hours": {
+    "height": 113,
+    "page": 26,
+    "src": "/handbook/virginia/drowsy-avoid-hours.png",
+    "width": 401
+  },
+  "drowsy-remedies-fail": {
+    "height": 186,
+    "page": 26,
+    "src": "/handbook/virginia/drowsy-remedies-fail.png",
+    "width": 570
+  },
+  "dui-08": {
+    "height": 210,
+    "page": 26,
+    "src": "/handbook/virginia/dui-08.png",
+    "width": 584
+  },
+  "dui-juvenile-passenger": {
+    "height": 186,
+    "page": 32,
+    "src": "/handbook/virginia/dui-juvenile-passenger.png",
+    "width": 572
+  },
+  "dui-three-hours": {
+    "height": 210,
+    "page": 32,
+    "src": "/handbook/virginia/dui-three-hours.png",
+    "width": 579
+  },
+  "emergency-behind": {
+    "height": 208,
+    "page": 18,
+    "src": "/handbook/virginia/emergency-behind.png",
+    "width": 566
+  },
+  "emergency-opposite": {
+    "height": 184,
+    "page": 18,
+    "src": "/handbook/virginia/emergency-opposite.png",
+    "width": 562
+  },
+  "exit-vehicle-check": {
+    "height": 161,
+    "page": 24,
+    "src": "/handbook/virginia/exit-vehicle-check.png",
+    "width": 566
+  },
+  "fine-81-85": {
+    "height": 162,
+    "page": 16,
+    "src": "/handbook/virginia/fine-81-85.png",
+    "width": 578
+  },
+  "first-half-hour-rain": {
+    "height": 162,
+    "page": 25,
+    "src": "/handbook/virginia/first-half-hour-rain.png",
+    "width": 567
+  },
+  "flashing-red": {
+    "height": 186,
+    "page": 7,
+    "src": "/handbook/virginia/flashing-red.png",
+    "width": 581
+  },
+  "flashing-yellow": {
+    "height": 138,
+    "page": 7,
+    "src": "/handbook/virginia/flashing-yellow.png",
+    "width": 440
+  },
+  "flashing-yellow-arrow": {
+    "height": 138,
+    "page": 7,
+    "src": "/handbook/virginia/flashing-yellow-arrow.png",
+    "width": 574
+  },
+  "follow-emergency-500": {
+    "height": 138,
+    "page": 18,
+    "src": "/handbook/virginia/follow-emergency-500.png",
+    "width": 556
+  },
+  "following-distance-table": {
+    "height": 231,
+    "page": 21,
+    "src": "/handbook/virginia/following-distance-table.png",
+    "width": 514
+  },
+  "funeral-procession": {
+    "height": 186,
+    "page": 18,
+    "src": "/handbook/virginia/funeral-procession.png",
+    "width": 567
+  },
+  "green-turn-yield": {
+    "height": 234,
+    "page": 8,
+    "src": "/handbook/virginia/green-turn-yield.png",
+    "width": 571
+  },
+  "hand-signals": {
+    "height": 162,
+    "page": 20,
+    "src": "/handbook/virginia/hand-signals.png",
+    "width": 179
+  },
+  "headlights-wipers": {
+    "height": 162,
+    "page": 24,
+    "src": "/handbook/virginia/headlights-wipers.png",
+    "width": 577
+  },
+  "high-beam-500": {
+    "height": 137,
+    "page": 25,
+    "src": "/handbook/virginia/high-beam-500.png",
+    "width": 577
+  },
+  "implied-consent": {
+    "height": 162,
+    "page": 32,
+    "src": "/handbook/virginia/implied-consent.png",
+    "width": 579
+  },
+  "impound-30-days": {
+    "height": 162,
+    "page": 32,
+    "src": "/handbook/virginia/impound-30-days.png",
+    "width": 575
+  },
+  "insurance-min-2025": {
+    "height": 158,
+    "page": 36,
+    "src": "/handbook/virginia/insurance-min-2025.png",
+    "width": 550
+  },
+  "lane-red-x": {
+    "height": 138,
+    "page": 8,
+    "src": "/handbook/virginia/lane-red-x.png",
+    "width": 526
+  },
+  "lane-yellow-x": {
+    "height": 186,
+    "page": 8,
+    "src": "/handbook/virginia/lane-yellow-x.png",
+    "width": 329
+  },
+  "learners-permit-21": {
+    "height": 162,
+    "page": 33,
+    "src": "/handbook/virginia/learners-permit-21.png",
+    "width": 579
+  },
+  "left-lane-passing-only": {
+    "height": 138,
+    "page": 19,
+    "src": "/handbook/virginia/left-lane-passing-only.png",
+    "width": 558
+  },
+  "left-turn-on-red": {
+    "height": 162,
+    "page": 7,
+    "src": "/handbook/virginia/left-turn-on-red.png",
+    "width": 566
+  },
+  "light-rail-tracks": {
+    "height": 161,
+    "page": 23,
+    "src": "/handbook/virginia/light-rail-tracks.png",
+    "width": 568
+  },
+  "look-left-first": {
+    "height": 138,
+    "page": 21,
+    "src": "/handbook/virginia/look-left-first.png",
+    "width": 578
+  },
+  "low-beam-following-200": {
+    "height": 138,
+    "page": 25,
+    "src": "/handbook/virginia/low-beam-following-200.png",
+    "width": 566
+  },
+  "low-clearance": {
+    "height": 161,
+    "page": 10,
+    "src": "/handbook/virginia/low-clearance.png",
+    "width": 453
+  },
+  "low-speed-vehicles": {
+    "height": 186,
+    "page": 23,
+    "src": "/handbook/virginia/low-speed-vehicles.png",
+    "width": 579
+  },
+  "marijuana-dui": {
+    "height": 162,
+    "page": 27,
+    "src": "/handbook/virginia/marijuana-dui.png",
+    "width": 573
+  },
+  "merge-sign": {
+    "height": 161,
+    "page": 10,
+    "src": "/handbook/virginia/merge-sign.png",
+    "width": 458
+  },
+  "military-convoy": {
+    "height": 138,
+    "page": 18,
+    "src": "/handbook/virginia/military-convoy.png",
+    "width": 501
+  },
+  "mirror-10-seconds": {
+    "height": 138,
+    "page": 21,
+    "src": "/handbook/virginia/mirror-10-seconds.png",
+    "width": 573
+  },
+  "motorcycle-following": {
+    "height": 186,
+    "page": 22,
+    "src": "/handbook/virginia/motorcycle-following.png",
+    "width": 559
+  },
+  "motorcycle-lane-use": {
+    "height": 186,
+    "page": 22,
+    "src": "/handbook/virginia/motorcycle-lane-use.png",
+    "width": 547
+  },
+  "motorcycle-never-beside": {
+    "height": 114,
+    "page": 22,
+    "src": "/handbook/virginia/motorcycle-never-beside.png",
+    "width": 547
+  },
+  "move-over-stationary": {
+    "height": 209,
+    "page": 18,
+    "src": "/handbook/virginia/move-over-stationary.png",
+    "width": 562
+  },
+  "move-over-trash": {
+    "height": 256,
+    "page": 18,
+    "src": "/handbook/virginia/move-over-trash.png",
+    "width": 554
+  },
+  "new-resident-60-days": {
+    "height": 138,
+    "page": 35,
+    "src": "/handbook/virginia/new-resident-60-days.png",
+    "width": 570
+  },
+  "no-park-distances": {
+    "height": 114,
+    "page": 24,
+    "src": "/handbook/virginia/no-park-distances.png",
+    "width": 349
+  },
+  "no-turn-on-red-sign": {
+    "height": 114,
+    "page": 7,
+    "src": "/handbook/virginia/no-turn-on-red-sign.png",
+    "width": 531
+  },
+  "not-in-work-zones": {
+    "height": 114,
+    "page": 18,
+    "src": "/handbook/virginia/not-in-work-zones.png",
+    "width": 527
+  },
+  "octagon-tie": {
+    "height": 162,
+    "page": 8,
+    "src": "/handbook/virginia/octagon-tie.png",
+    "width": 572
+  },
+  "officer-overrides": {
+    "height": 138,
+    "page": 7,
+    "src": "/handbook/virginia/officer-overrides.png",
+    "width": 556
+  },
+  "only-time-sobers": {
+    "height": 138,
+    "page": 26,
+    "src": "/handbook/virginia/only-time-sobers.png",
+    "width": 578
+  },
+  "open-container": {
+    "height": 138,
+    "page": 32,
+    "src": "/handbook/virginia/open-container.png",
+    "width": 556
+  },
+  "painted-curbs": {
+    "height": 114,
+    "page": 15,
+    "src": "/handbook/virginia/painted-curbs.png",
+    "width": 547
+  },
+  "park-500-fire": {
+    "height": 137,
+    "page": 18,
+    "src": "/handbook/virginia/park-500-fire.png",
+    "width": 559
+  },
+  "park-hill-no-curb": {
+    "height": 234,
+    "page": 24,
+    "src": "/handbook/virginia/park-hill-no-curb.png",
+    "width": 240
+  },
+  "park-one-foot-curb": {
+    "height": 114,
+    "page": 24,
+    "src": "/handbook/virginia/park-one-foot-curb.png",
+    "width": 574
+  },
+  "park-one-way": {
+    "height": 162,
+    "page": 24,
+    "src": "/handbook/virginia/park-one-way.png",
+    "width": 574
+  },
+  "pass-bike-three-feet": {
+    "height": 162,
+    "page": 19,
+    "src": "/handbook/virginia/pass-bike-three-feet.png",
+    "width": 559
+  },
+  "pass-complete-before-zone": {
+    "height": 162,
+    "page": 19,
+    "src": "/handbook/virginia/pass-complete-before-zone.png",
+    "width": 561
+  },
+  "pass-crosswalk-stopped": {
+    "height": 114,
+    "page": 20,
+    "src": "/handbook/virginia/pass-crosswalk-stopped.png",
+    "width": 500
+  },
+  "pass-no-speeding": {
+    "height": 185,
+    "page": 19,
+    "src": "/handbook/virginia/pass-no-speeding.png",
+    "width": 249
+  },
+  "pass-not-off-pavement": {
+    "height": 186,
+    "page": 19,
+    "src": "/handbook/virginia/pass-not-off-pavement.png",
+    "width": 569
+  },
+  "pass-on-right": {
+    "height": 138,
+    "page": 19,
+    "src": "/handbook/virginia/pass-on-right.png",
+    "width": 569
+  },
+  "pedestrian-cane-dog": {
+    "height": 161,
+    "page": 22,
+    "src": "/handbook/virginia/pedestrian-cane-dog.png",
+    "width": 538
+  },
+  "pedestrian-lawfully-crossing": {
+    "height": 185,
+    "page": 22,
+    "src": "/handbook/virginia/pedestrian-lawfully-crossing.png",
+    "width": 535
+  },
+  "phb-flashing-red": {
+    "height": 186,
+    "page": 8,
+    "src": "/handbook/virginia/phb-flashing-red.png",
+    "width": 576
+  },
+  "providing-alcohol": {
+    "height": 233,
+    "page": 33,
+    "src": "/handbook/virginia/providing-alcohol.png",
+    "width": 560
+  },
+  "reckless-20-over": {
+    "height": 186,
+    "page": 16,
+    "src": "/handbook/virginia/reckless-20-over.png",
+    "width": 578
+  },
+  "red-arrow-prohibits": {
+    "height": 138,
+    "page": 7,
+    "src": "/handbook/virginia/red-arrow-prohibits.png",
+    "width": 562
+  },
+  "red-light-stop": {
+    "height": 186,
+    "page": 7,
+    "src": "/handbook/virginia/red-light-stop.png",
+    "width": 468
+  },
+  "restitution-1000": {
+    "height": 185,
+    "page": 32,
+    "src": "/handbook/virginia/restitution-1000.png",
+    "width": 576
+  },
+  "revocation-def": {
+    "height": 186,
+    "page": 30,
+    "src": "/handbook/virginia/revocation-def.png",
+    "width": 554
+  },
+  "right-turn-on-red": {
+    "height": 161,
+    "page": 7,
+    "src": "/handbook/virginia/right-turn-on-red.png",
+    "width": 554
+  },
+  "roundabout-sign-yield": {
+    "height": 162,
+    "page": 11,
+    "src": "/handbook/virginia/roundabout-sign-yield.png",
+    "width": 423
+  },
+  "rumble-strips": {
+    "height": 137,
+    "page": 13,
+    "src": "/handbook/virginia/rumble-strips.png",
+    "width": 441
+  },
+  "school-bus-median": {
+    "height": 282,
+    "page": 17,
+    "src": "/handbook/virginia/school-bus-median.png",
+    "width": 324
+  },
+  "school-bus-railroad": {
+    "height": 137,
+    "page": 12,
+    "src": "/handbook/virginia/school-bus-railroad.png",
+    "width": 546
+  },
+  "school-bus-stop": {
+    "height": 354,
+    "page": 17,
+    "src": "/handbook/virginia/school-bus-stop.png",
+    "width": 314
+  },
+  "search-20-30-seconds": {
+    "height": 162,
+    "page": 21,
+    "src": "/handbook/virginia/search-20-30-seconds.png",
+    "width": 559
+  },
+  "seat-belt-all-occupants": {
+    "height": 138,
+    "page": 28,
+    "src": "/handbook/virginia/seat-belt-all-occupants.png",
+    "width": 581
+  },
+  "shape-diamond": {
+    "height": 186,
+    "page": 9,
+    "src": "/handbook/virginia/shape-diamond.png",
+    "width": 435
+  },
+  "shape-octagon": {
+    "height": 210,
+    "page": 8,
+    "src": "/handbook/virginia/shape-octagon.png",
+    "width": 572
+  },
+  "shape-pentagon": {
+    "height": 185,
+    "page": 9,
+    "src": "/handbook/virginia/shape-pentagon.png",
+    "width": 424
+  },
+  "shape-triangle": {
+    "height": 161,
+    "page": 8,
+    "src": "/handbook/virginia/shape-triangle.png",
+    "width": 336
+  },
+  "shoulder-belt-position": {
+    "height": 137,
+    "page": 28,
+    "src": "/handbook/virginia/shoulder-belt-position.png",
+    "width": 579
+  },
+  "sign-black-white": {
+    "height": 114,
+    "page": 8,
+    "src": "/handbook/virginia/sign-black-white.png",
+    "width": 583
+  },
+  "sign-green-blue-brown": {
+    "height": 210,
+    "page": 8,
+    "src": "/handbook/virginia/sign-green-blue-brown.png",
+    "width": 582
+  },
+  "sign-orange-pink": {
+    "height": 161,
+    "page": 8,
+    "src": "/handbook/virginia/sign-orange-pink.png",
+    "width": 555
+  },
+  "sign-red-white": {
+    "height": 114,
+    "page": 8,
+    "src": "/handbook/virginia/sign-red-white.png",
+    "width": 579
+  },
+  "sign-yellow-black": {
+    "height": 113,
+    "page": 8,
+    "src": "/handbook/virginia/sign-yellow-black.png",
+    "width": 551
+  },
+  "sign-yellow-green": {
+    "height": 161,
+    "page": 8,
+    "src": "/handbook/virginia/sign-yellow-green.png",
+    "width": 551
+  },
+  "signal-100-feet": {
+    "height": 138,
+    "page": 20,
+    "src": "/handbook/virginia/signal-100-feet.png",
+    "width": 584
+  },
+  "signal-off-after-turn": {
+    "height": 138,
+    "page": 20,
+    "src": "/handbook/virginia/signal-off-after-turn.png",
+    "width": 569
+  },
+  "snow-remove": {
+    "height": 137,
+    "page": 25,
+    "src": "/handbook/virginia/snow-remove.png",
+    "width": 578
+  },
+  "speed-limit-def": {
+    "height": 186,
+    "page": 16,
+    "src": "/handbook/virginia/speed-limit-def.png",
+    "width": 578
+  },
+  "stalled-on-tracks": {
+    "height": 162,
+    "page": 12,
+    "src": "/handbook/virginia/stalled-on-tracks.png",
+    "width": 575
+  },
+  "stop-behind-lead-car": {
+    "height": 138,
+    "page": 17,
+    "src": "/handbook/virginia/stop-behind-lead-car.png",
+    "width": 573
+  },
+  "stopping-three-factors": {
+    "height": 161,
+    "page": 17,
+    "src": "/handbook/virginia/stopping-three-factors.png",
+    "width": 569
+  },
+  "t-intersection": {
+    "height": 186,
+    "page": 11,
+    "src": "/handbook/virginia/t-intersection.png",
+    "width": 450
+  },
+  "three-failures": {
+    "height": 162,
+    "page": 5,
+    "src": "/handbook/virginia/three-failures.png",
+    "width": 564
+  },
+  "too-fast-conditions": {
+    "height": 210,
+    "page": 9,
+    "src": "/handbook/virginia/too-fast-conditions.png",
+    "width": 582
+  },
+  "truck-blind-spots": {
+    "height": 162,
+    "page": 23,
+    "src": "/handbook/virginia/truck-blind-spots.png",
+    "width": 566
+  },
+  "truck-mirror-rule": {
+    "height": 233,
+    "page": 23,
+    "src": "/handbook/virginia/truck-mirror-rule.png",
+    "width": 541
+  },
+  "two-lefts-passenger-side": {
+    "height": 282,
+    "page": 20,
+    "src": "/handbook/virginia/two-lefts-passenger-side.png",
+    "width": 295
+  },
+  "unattended-property": {
+    "height": 185,
+    "page": 27,
+    "src": "/handbook/virginia/unattended-property.png",
+    "width": 583
+  },
+  "under-18-second-third": {
+    "height": 234,
+    "page": 31,
+    "src": "/handbook/virginia/under-18-second-third.png",
+    "width": 581
+  },
+  "under-21-02": {
+    "height": 162,
+    "page": 26,
+    "src": "/handbook/virginia/under-21-02.png",
+    "width": 584
+  },
+  "unmarked-two-lane": {
+    "height": 162,
+    "page": 13,
+    "src": "/handbook/virginia/unmarked-two-lane.png",
+    "width": 582
+  },
+  "uturn-business-district": {
+    "height": 186,
+    "page": 20,
+    "src": "/handbook/virginia/uturn-business-district.png",
+    "width": 420
+  },
+  "uturn-two-left-turns": {
+    "height": 137,
+    "page": 9,
+    "src": "/handbook/virginia/uturn-two-left-turns.png",
+    "width": 441
+  },
+  "workzone-fines": {
+    "height": 186,
+    "page": 12,
+    "src": "/handbook/virginia/workzone-fines.png",
+    "width": 584
+  },
+  "yellow-light": {
+    "height": 233,
+    "page": 7,
+    "src": "/handbook/virginia/yellow-light.png",
+    "width": 551
+  },
+  "yield-entrance-ramp": {
+    "height": 162,
+    "page": 18,
+    "src": "/handbook/virginia/yield-entrance-ramp.png",
+    "width": 539
+  },
+  "yield-first-arrive": {
+    "height": 161,
+    "page": 18,
+    "src": "/handbook/virginia/yield-first-arrive.png",
+    "width": 542
+  },
+  "yield-left-yields-right": {
+    "height": 186,
+    "page": 18,
+    "src": "/handbook/virginia/yield-left-yields-right.png",
+    "width": 568
+  },
+  "yield-private-road": {
+    "height": 161,
+    "page": 18,
+    "src": "/handbook/virginia/yield-private-road.png",
+    "width": 520
+  }
+}

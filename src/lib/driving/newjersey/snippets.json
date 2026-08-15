@@ -1,0 +1,1034 @@
+{
+  "acceleration-lane-yield": {
+    "height": 131,
+    "page": 70,
+    "src": "/handbook/newjersey/acceleration-lane-yield.png",
+    "width": 707
+  },
+  "active-passive-warning-devices": {
+    "height": 151,
+    "page": 219,
+    "src": "/handbook/newjersey/active-passive-warning-devices.png",
+    "width": 700
+  },
+  "advisory-speed-sign": {
+    "height": 151,
+    "page": 216,
+    "src": "/handbook/newjersey/advisory-speed-sign.png",
+    "width": 657
+  },
+  "angle-parking-horn": {
+    "height": 111,
+    "page": 59,
+    "src": "/handbook/newjersey/angle-parking-horn.png",
+    "width": 419
+  },
+  "bac-08": {
+    "height": 151,
+    "page": 117,
+    "src": "/handbook/newjersey/bac-08.png",
+    "width": 692
+  },
+  "bac-risk-multiples": {
+    "height": 151,
+    "page": 117,
+    "src": "/handbook/newjersey/bac-risk-multiples.png",
+    "width": 697
+  },
+  "bac-under-21": {
+    "height": 131,
+    "page": 117,
+    "src": "/handbook/newjersey/bac-under-21.png",
+    "width": 692
+  },
+  "backup-lights": {
+    "height": 131,
+    "page": 47,
+    "src": "/handbook/newjersey/backup-lights.png",
+    "width": 651
+  },
+  "bad-weather-four-seconds": {
+    "height": 131,
+    "page": 97,
+    "src": "/handbook/newjersey/bad-weather-four-seconds.png",
+    "width": 704
+  },
+  "bicycle-right-turn-yield": {
+    "height": 131,
+    "page": 153,
+    "src": "/handbook/newjersey/bicycle-right-turn-yield.png",
+    "width": 689
+  },
+  "bicycles-same-rights": {
+    "height": 131,
+    "page": 152,
+    "src": "/handbook/newjersey/bicycles-same-rights.png",
+    "width": 699
+  },
+  "brake-failure": {
+    "height": 151,
+    "page": 109,
+    "src": "/handbook/newjersey/brake-failure.png",
+    "width": 697
+  },
+  "bus-lane-change-exception": {
+    "height": 131,
+    "page": 152,
+    "src": "/handbook/newjersey/bus-lane-change-exception.png",
+    "width": 709
+  },
+  "car-fire": {
+    "height": 151,
+    "page": 108,
+    "src": "/handbook/newjersey/car-fire.png",
+    "width": 687
+  },
+  "carbon-monoxide": {
+    "height": 151,
+    "page": 49,
+    "src": "/handbook/newjersey/carbon-monoxide.png",
+    "width": 701
+  },
+  "cell-phone-gdl": {
+    "height": 111,
+    "page": 87,
+    "src": "/handbook/newjersey/cell-phone-gdl.png",
+    "width": 699
+  },
+  "cell-phone-primary": {
+    "height": 131,
+    "page": 86,
+    "src": "/handbook/newjersey/cell-phone-primary.png",
+    "width": 699
+  },
+  "center-lines": {
+    "height": 111,
+    "page": 66,
+    "src": "/handbook/newjersey/center-lines.png",
+    "width": 466
+  },
+  "child-under-eight-rear": {
+    "height": 111,
+    "page": 45,
+    "src": "/handbook/newjersey/child-under-eight-rear.png",
+    "width": 698
+  },
+  "child-under-two": {
+    "height": 151,
+    "page": 44,
+    "src": "/handbook/newjersey/child-under-two.png",
+    "width": 686
+  },
+  "children-12-back-seat": {
+    "height": 131,
+    "page": 46,
+    "src": "/handbook/newjersey/children-12-back-seat.png",
+    "width": 696
+  },
+  "choose-what-to-hit": {
+    "height": 151,
+    "page": 111,
+    "src": "/handbook/newjersey/choose-what-to-hit.png",
+    "width": 663
+  },
+  "crash-notify-police": {
+    "height": 131,
+    "page": 113,
+    "src": "/handbook/newjersey/crash-notify-police.png",
+    "width": 705
+  },
+  "crash-parked-vehicle": {
+    "height": 131,
+    "page": 112,
+    "src": "/handbook/newjersey/crash-parked-vehicle.png",
+    "width": 666
+  },
+  "crash-report-10-days": {
+    "height": 131,
+    "page": 113,
+    "src": "/handbook/newjersey/crash-report-10-days.png",
+    "width": 693
+  },
+  "crossbuck-yield": {
+    "height": 111,
+    "page": 218,
+    "src": "/handbook/newjersey/crossbuck-yield.png",
+    "width": 681
+  },
+  "defensive-driving-five-years": {
+    "height": 131,
+    "page": 137,
+    "src": "/handbook/newjersey/defensive-driving-five-years.png",
+    "width": 660
+  },
+  "disabled-vehicle-actions": {
+    "height": 111,
+    "page": 73,
+    "src": "/handbook/newjersey/disabled-vehicle-actions.png",
+    "width": 527
+  },
+  "double-fines-65": {
+    "height": 184,
+    "page": 64,
+    "src": "/handbook/newjersey/double-fines-65.png",
+    "width": 299
+  },
+  "drinking-while-driving-fine": {
+    "height": 133,
+    "page": 128,
+    "src": "/handbook/newjersey/drinking-while-driving-fine.png",
+    "width": 558
+  },
+  "driveway-yield": {
+    "height": 131,
+    "page": 69,
+    "src": "/handbook/newjersey/driveway-yield.png",
+    "width": 699
+  },
+  "driving-while-suspended": {
+    "height": 111,
+    "page": 132,
+    "src": "/handbook/newjersey/driving-while-suspended.png",
+    "width": 674
+  },
+  "drugs-prescription-proof": {
+    "height": 131,
+    "page": 119,
+    "src": "/handbook/newjersey/drugs-prescription-proof.png",
+    "width": 699
+  },
+  "dui-with-minor": {
+    "height": 153,
+    "page": 135,
+    "src": "/handbook/newjersey/dui-with-minor.png",
+    "width": 695
+  },
+  "emergency-stop-300-feet": {
+    "height": 151,
+    "page": 107,
+    "src": "/handbook/newjersey/emergency-stop-300-feet.png",
+    "width": 709
+  },
+  "emergency-vehicle-300-feet": {
+    "height": 151,
+    "page": 80,
+    "src": "/handbook/newjersey/emergency-vehicle-300-feet.png",
+    "width": 704
+  },
+  "escape-through-window": {
+    "height": 151,
+    "page": 108,
+    "src": "/handbook/newjersey/escape-through-window.png",
+    "width": 702
+  },
+  "eye-check-over-40": {
+    "height": 131,
+    "page": 120,
+    "src": "/handbook/newjersey/eye-check-over-40.png",
+    "width": 704
+  },
+  "fire-vehicle-200-feet": {
+    "height": 151,
+    "page": 80,
+    "src": "/handbook/newjersey/fire-vehicle-200-feet.png",
+    "width": 697
+  },
+  "flashing-red": {
+    "height": 177,
+    "page": 214,
+    "src": "/handbook/newjersey/flashing-red.png",
+    "width": 546
+  },
+  "flashing-yellow": {
+    "height": 137,
+    "page": 214,
+    "src": "/handbook/newjersey/flashing-yellow.png",
+    "width": 360
+  },
+  "frozen-dessert-15-mph": {
+    "height": 111,
+    "page": 80,
+    "src": "/handbook/newjersey/frozen-dessert-15-mph.png",
+    "width": 664
+  },
+  "frozen-dessert-exception": {
+    "height": 131,
+    "page": 80,
+    "src": "/handbook/newjersey/frozen-dessert-exception.png",
+    "width": 695
+  },
+  "gdl-decal-placement": {
+    "height": 169,
+    "page": 21,
+    "src": "/handbook/newjersey/gdl-decal-placement.png",
+    "width": 693
+  },
+  "green-arrow": {
+    "height": 151,
+    "page": 214,
+    "src": "/handbook/newjersey/green-arrow.png",
+    "width": 561
+  },
+  "green-light-yield": {
+    "height": 171,
+    "page": 214,
+    "src": "/handbook/newjersey/green-light-yield.png",
+    "width": 555
+  },
+  "habitual-offender": {
+    "height": 151,
+    "page": 124,
+    "src": "/handbook/newjersey/habitual-offender.png",
+    "width": 709
+  },
+  "hand-signals": {
+    "height": 111,
+    "page": 56,
+    "src": "/handbook/newjersey/hand-signals.png",
+    "width": 703
+  },
+  "headlights-when-required": {
+    "height": 191,
+    "page": 84,
+    "src": "/handbook/newjersey/headlights-when-required.png",
+    "width": 690
+  },
+  "high-beam-recovery": {
+    "height": 171,
+    "page": 84,
+    "src": "/handbook/newjersey/high-beam-recovery.png",
+    "width": 699
+  },
+  "hit-and-run": {
+    "height": 151,
+    "page": 132,
+    "src": "/handbook/newjersey/hit-and-run.png",
+    "width": 694
+  },
+  "horse-25-mph": {
+    "height": 151,
+    "page": 157,
+    "src": "/handbook/newjersey/horse-25-mph.png",
+    "width": 706
+  },
+  "hov-diamonds": {
+    "height": 191,
+    "page": 219,
+    "src": "/handbook/newjersey/hov-diamonds.png",
+    "width": 482
+  },
+  "hydroplaning-35": {
+    "height": 151,
+    "page": 99,
+    "src": "/handbook/newjersey/hydroplaning-35.png",
+    "width": 706
+  },
+  "hydroplaning-55": {
+    "height": 151,
+    "page": 99,
+    "src": "/handbook/newjersey/hydroplaning-55.png",
+    "width": 706
+  },
+  "idling-three-minutes": {
+    "height": 131,
+    "page": 52,
+    "src": "/handbook/newjersey/idling-three-minutes.png",
+    "width": 641
+  },
+  "idrc-detention": {
+    "height": 131,
+    "page": 130,
+    "src": "/handbook/newjersey/idrc-detention.png",
+    "width": 687
+  },
+  "implied-consent": {
+    "height": 171,
+    "page": 129,
+    "src": "/handbook/newjersey/implied-consent.png",
+    "width": 709
+  },
+  "inspection-two-years": {
+    "height": 131,
+    "page": 162,
+    "src": "/handbook/newjersey/inspection-two-years.png",
+    "width": 707
+  },
+  "interlock-0-05": {
+    "height": 151,
+    "page": 129,
+    "src": "/handbook/newjersey/interlock-0-05.png",
+    "width": 709
+  },
+  "keep-right": {
+    "height": 151,
+    "page": 67,
+    "src": "/handbook/newjersey/keep-right.png",
+    "width": 697
+  },
+  "keep-right-multi-lane": {
+    "height": 111,
+    "page": 67,
+    "src": "/handbook/newjersey/keep-right-multi-lane.png",
+    "width": 697
+  },
+  "knowledge-test-pass": {
+    "height": 131,
+    "page": 33,
+    "src": "/handbook/newjersey/knowledge-test-pass.png",
+    "width": 559
+  },
+  "left-turn-one-way": {
+    "height": 151,
+    "page": 75,
+    "src": "/handbook/newjersey/left-turn-one-way.png",
+    "width": 680
+  },
+  "left-turn-yield": {
+    "height": 151,
+    "page": 69,
+    "src": "/handbook/newjersey/left-turn-yield.png",
+    "width": 705
+  },
+  "license-alteration": {
+    "height": 191,
+    "page": 8,
+    "src": "/handbook/newjersey/license-alteration.png",
+    "width": 375
+  },
+  "license-carry": {
+    "height": 151,
+    "page": 6,
+    "src": "/handbook/newjersey/license-carry.png",
+    "width": 694
+  },
+  "littering-fine": {
+    "height": 131,
+    "page": 88,
+    "src": "/handbook/newjersey/littering-fine.png",
+    "width": 697
+  },
+  "look-12-seconds": {
+    "height": 151,
+    "page": 103,
+    "src": "/handbook/newjersey/look-12-seconds.png",
+    "width": 701
+  },
+  "low-speed-vehicle": {
+    "height": 131,
+    "page": 155,
+    "src": "/handbook/newjersey/low-speed-vehicle.png",
+    "width": 698
+  },
+  "marijuana-second-most": {
+    "height": 131,
+    "page": 119,
+    "src": "/handbook/newjersey/marijuana-second-most.png",
+    "width": 699
+  },
+  "mirror-adjustment": {
+    "height": 151,
+    "page": 52,
+    "src": "/handbook/newjersey/mirror-adjustment.png",
+    "width": 698
+  },
+  "missed-exit": {
+    "height": 131,
+    "page": 71,
+    "src": "/handbook/newjersey/missed-exit.png",
+    "width": 676
+  },
+  "moped-25-mph": {
+    "height": 151,
+    "page": 152,
+    "src": "/handbook/newjersey/moped-25-mph.png",
+    "width": 697
+  },
+  "motorcycle-detection": {
+    "height": 132,
+    "page": 149,
+    "src": "/handbook/newjersey/motorcycle-detection.png",
+    "width": 666
+  },
+  "motorized-scooter-illegal": {
+    "height": 171,
+    "page": 153,
+    "src": "/handbook/newjersey/motorized-scooter-illegal.png",
+    "width": 698
+  },
+  "move-over-penalty": {
+    "height": 131,
+    "page": 80,
+    "src": "/handbook/newjersey/move-over-penalty.png",
+    "width": 708
+  },
+  "move-over-slow-down": {
+    "height": 171,
+    "page": 80,
+    "src": "/handbook/newjersey/move-over-slow-down.png",
+    "width": 708
+  },
+  "multiway-stop-right": {
+    "height": 131,
+    "page": 69,
+    "src": "/handbook/newjersey/multiway-stop-right.png",
+    "width": 705
+  },
+  "never-pass-stopped-vehicle": {
+    "height": 111,
+    "page": 68,
+    "src": "/handbook/newjersey/never-pass-stopped-vehicle.png",
+    "width": 588
+  },
+  "new-resident-60-days": {
+    "height": 111,
+    "page": 6,
+    "src": "/handbook/newjersey/new-resident-60-days.png",
+    "width": 693
+  },
+  "no-backing-on-ramp": {
+    "height": 111,
+    "page": 72,
+    "src": "/handbook/newjersey/no-backing-on-ramp.png",
+    "width": 507
+  },
+  "no-double-parking": {
+    "height": 111,
+    "page": 86,
+    "src": "/handbook/newjersey/no-double-parking.png",
+    "width": 576
+  },
+  "no-park-crosswalk-25": {
+    "height": 131,
+    "page": 86,
+    "src": "/handbook/newjersey/no-park-crosswalk-25.png",
+    "width": 682
+  },
+  "no-park-fire-station": {
+    "height": 131,
+    "page": 86,
+    "src": "/handbook/newjersey/no-park-fire-station.png",
+    "width": 680
+  },
+  "no-park-hydrant": {
+    "height": 111,
+    "page": 86,
+    "src": "/handbook/newjersey/no-park-hydrant.png",
+    "width": 331
+  },
+  "no-park-railroad-50": {
+    "height": 111,
+    "page": 86,
+    "src": "/handbook/newjersey/no-park-railroad-50.png",
+    "width": 374
+  },
+  "no-park-safety-zone": {
+    "height": 131,
+    "page": 86,
+    "src": "/handbook/newjersey/no-park-safety-zone.png",
+    "width": 681
+  },
+  "one-car-length-rule": {
+    "height": 151,
+    "page": 96,
+    "src": "/handbook/newjersey/one-car-length-rule.png",
+    "width": 698
+  },
+  "only-time-sobers": {
+    "height": 131,
+    "page": 116,
+    "src": "/handbook/newjersey/only-time-sobers.png",
+    "width": 708
+  },
+  "open-container": {
+    "height": 171,
+    "page": 131,
+    "src": "/handbook/newjersey/open-container.png",
+    "width": 699
+  },
+  "opening-door": {
+    "height": 151,
+    "page": 85,
+    "src": "/handbook/newjersey/opening-door.png",
+    "width": 709
+  },
+  "out-of-state-two-points": {
+    "height": 131,
+    "page": 139,
+    "src": "/handbook/newjersey/out-of-state-two-points.png",
+    "width": 699
+  },
+  "parallel-six-inches": {
+    "height": 111,
+    "page": 60,
+    "src": "/handbook/newjersey/parallel-six-inches.png",
+    "width": 693
+  },
+  "park-downhill": {
+    "height": 131,
+    "page": 59,
+    "src": "/handbook/newjersey/park-downhill.png",
+    "width": 694
+  },
+  "park-six-inches-curb": {
+    "height": 131,
+    "page": 85,
+    "src": "/handbook/newjersey/park-six-inches-curb.png",
+    "width": 709
+  },
+  "parking-lights-zones": {
+    "height": 131,
+    "page": 84,
+    "src": "/handbook/newjersey/parking-lights-zones.png",
+    "width": 692
+  },
+  "passing-complete-before-solid": {
+    "height": 111,
+    "page": 66,
+    "src": "/handbook/newjersey/passing-complete-before-solid.png",
+    "width": 679
+  },
+  "passing-on-right": {
+    "height": 171,
+    "page": 67,
+    "src": "/handbook/newjersey/passing-on-right.png",
+    "width": 697
+  },
+  "pedestrian-signal-raised-palm": {
+    "height": 171,
+    "page": 215,
+    "src": "/handbook/newjersey/pedestrian-signal-raised-palm.png",
+    "width": 464
+  },
+  "pedestrian-signal-white": {
+    "height": 131,
+    "page": 215,
+    "src": "/handbook/newjersey/pedestrian-signal-white.png",
+    "width": 686
+  },
+  "plunging-into-water": {
+    "height": 131,
+    "page": 108,
+    "src": "/handbook/newjersey/plunging-into-water.png",
+    "width": 702
+  },
+  "points-12-notice": {
+    "height": 151,
+    "page": 135,
+    "src": "/handbook/newjersey/points-12-notice.png",
+    "width": 694
+  },
+  "points-annual-reduction": {
+    "height": 171,
+    "page": 139,
+    "src": "/handbook/newjersey/points-annual-reduction.png",
+    "width": 696
+  },
+  "points-improper-passing": {
+    "height": 105,
+    "page": 141,
+    "src": "/handbook/newjersey/points-improper-passing.png",
+    "width": 673
+  },
+  "points-speeding": {
+    "height": 174,
+    "page": 141,
+    "src": "/handbook/newjersey/points-speeding.png",
+    "width": 535
+  },
+  "police-overrule-signals": {
+    "height": 227,
+    "page": 213,
+    "src": "/handbook/newjersey/police-overrule-signals.png",
+    "width": 513
+  },
+  "practice-hours-under-21": {
+    "height": 171,
+    "page": 36,
+    "src": "/handbook/newjersey/practice-hours-under-21.png",
+    "width": 697
+  },
+  "probationary-driver-program": {
+    "height": 171,
+    "page": 136,
+    "src": "/handbook/newjersey/probationary-driver-program.png",
+    "width": 708
+  },
+  "railroad-15-feet": {
+    "height": 151,
+    "page": 78,
+    "src": "/handbook/newjersey/railroad-15-feet.png",
+    "width": 692
+  },
+  "railroad-wait-for-gates": {
+    "height": 131,
+    "page": 78,
+    "src": "/handbook/newjersey/railroad-wait-for-gates.png",
+    "width": 692
+  },
+  "reaction-time": {
+    "height": 111,
+    "page": 55,
+    "src": "/handbook/newjersey/reaction-time.png",
+    "width": 687
+  },
+  "red-light-remain-stopped": {
+    "height": 131,
+    "page": 214,
+    "src": "/handbook/newjersey/red-light-remain-stopped.png",
+    "width": 657
+  },
+  "refusal-surcharge": {
+    "height": 151,
+    "page": 129,
+    "src": "/handbook/newjersey/refusal-surcharge.png",
+    "width": 709
+  },
+  "register-within-60-days": {
+    "height": 151,
+    "page": 160,
+    "src": "/handbook/newjersey/register-within-60-days.png",
+    "width": 701
+  },
+  "reverse-walking-speed": {
+    "height": 131,
+    "page": 57,
+    "src": "/handbook/newjersey/reverse-walking-speed.png",
+    "width": 670
+  },
+  "right-on-red": {
+    "height": 171,
+    "page": 74,
+    "src": "/handbook/newjersey/right-on-red.png",
+    "width": 700
+  },
+  "right-turn-position": {
+    "height": 171,
+    "page": 74,
+    "src": "/handbook/newjersey/right-turn-position.png",
+    "width": 706
+  },
+  "road-markings-force-of-law": {
+    "height": 111,
+    "page": 218,
+    "src": "/handbook/newjersey/road-markings-force-of-law.png",
+    "width": 630
+  },
+  "rumble-strips": {
+    "height": 131,
+    "page": 220,
+    "src": "/handbook/newjersey/rumble-strips.png",
+    "width": 708
+  },
+  "safe-corridors": {
+    "height": 151,
+    "page": 65,
+    "src": "/handbook/newjersey/safe-corridors.png",
+    "width": 698
+  },
+  "safe-passing-four-feet": {
+    "height": 191,
+    "page": 147,
+    "src": "/handbook/newjersey/safe-passing-four-feet.png",
+    "width": 708
+  },
+  "safe-passing-penalty": {
+    "height": 171,
+    "page": 147,
+    "src": "/handbook/newjersey/safe-passing-penalty.png",
+    "width": 708
+  },
+  "school-bus-25-feet": {
+    "height": 171,
+    "page": 79,
+    "src": "/handbook/newjersey/school-bus-25-feet.png",
+    "width": 697
+  },
+  "school-bus-divided-10": {
+    "height": 151,
+    "page": 79,
+    "src": "/handbook/newjersey/school-bus-divided-10.png",
+    "width": 697
+  },
+  "school-bus-in-front-of-school": {
+    "height": 151,
+    "page": 79,
+    "src": "/handbook/newjersey/school-bus-in-front-of-school.png",
+    "width": 676
+  },
+  "seat-belt-gdl": {
+    "height": 151,
+    "page": 42,
+    "src": "/handbook/newjersey/seat-belt-gdl.png",
+    "width": 709
+  },
+  "seat-belt-secondary-rear": {
+    "height": 151,
+    "page": 42,
+    "src": "/handbook/newjersey/seat-belt-secondary-rear.png",
+    "width": 709
+  },
+  "sign-categories": {
+    "height": 111,
+    "page": 215,
+    "src": "/handbook/newjersey/sign-categories.png",
+    "width": 652
+  },
+  "sign-colors-blue": {
+    "height": 124,
+    "page": 216,
+    "src": "/handbook/newjersey/sign-colors-blue.png",
+    "width": 637
+  },
+  "sign-colors-orange-brown": {
+    "height": 177,
+    "page": 216,
+    "src": "/handbook/newjersey/sign-colors-orange-brown.png",
+    "width": 676
+  },
+  "sign-railroad-round": {
+    "height": 191,
+    "page": 216,
+    "src": "/handbook/newjersey/sign-railroad-round.png",
+    "width": 679
+  },
+  "sign-shapes-red-yellow": {
+    "height": 210,
+    "page": 216,
+    "src": "/handbook/newjersey/sign-shapes-red-yellow.png",
+    "width": 577
+  },
+  "signal-100-feet": {
+    "height": 131,
+    "page": 56,
+    "src": "/handbook/newjersey/signal-100-feet.png",
+    "width": 700
+  },
+  "signal-order": {
+    "height": 171,
+    "page": 214,
+    "src": "/handbook/newjersey/signal-order.png",
+    "width": 688
+  },
+  "single-white-stop-line": {
+    "height": 151,
+    "page": 69,
+    "src": "/handbook/newjersey/single-white-stop-line.png",
+    "width": 696
+  },
+  "skid-steer-into": {
+    "height": 151,
+    "page": 106,
+    "src": "/handbook/newjersey/skid-steer-into.png",
+    "width": 694
+  },
+  "slow-driving-illegal": {
+    "height": 131,
+    "page": 65,
+    "src": "/handbook/newjersey/slow-driving-illegal.png",
+    "width": 704
+  },
+  "snow-ice-fine": {
+    "height": 171,
+    "page": 49,
+    "src": "/handbook/newjersey/snow-ice-fine.png",
+    "width": 704
+  },
+  "snow-six-seconds": {
+    "height": 111,
+    "page": 101,
+    "src": "/handbook/newjersey/snow-six-seconds.png",
+    "width": 705
+  },
+  "speed-conditions": {
+    "height": 131,
+    "page": 65,
+    "src": "/handbook/newjersey/speed-conditions.png",
+    "width": 693
+  },
+  "speed-limits-table": {
+    "height": 713,
+    "page": 64,
+    "src": "/handbook/newjersey/speed-limits-table.png",
+    "width": 593
+  },
+  "stale-green": {
+    "height": 131,
+    "page": 76,
+    "src": "/handbook/newjersey/stale-green.png",
+    "width": 706
+  },
+  "stalled-tracks-45-degrees": {
+    "height": 151,
+    "page": 108,
+    "src": "/handbook/newjersey/stalled-tracks-45-degrees.png",
+    "width": 709
+  },
+  "steering-9-and-3": {
+    "height": 151,
+    "page": 53,
+    "src": "/handbook/newjersey/steering-9-and-3.png",
+    "width": 698
+  },
+  "stop-and-remain-stopped": {
+    "height": 171,
+    "page": 146,
+    "src": "/handbook/newjersey/stop-and-remain-stopped.png",
+    "width": 708
+  },
+  "stop-within-five-feet": {
+    "height": 171,
+    "page": 69,
+    "src": "/handbook/newjersey/stop-within-five-feet.png",
+    "width": 701
+  },
+  "studded-tires-dates": {
+    "height": 151,
+    "page": 101,
+    "src": "/handbook/newjersey/studded-tires-dates.png",
+    "width": 709
+  },
+  "three-second-rule": {
+    "height": 131,
+    "page": 97,
+    "src": "/handbook/newjersey/three-second-rule.png",
+    "width": 684
+  },
+  "tire-blowout": {
+    "height": 151,
+    "page": 109,
+    "src": "/handbook/newjersey/tire-blowout.png",
+    "width": 697
+  },
+  "tire-tread": {
+    "height": 151,
+    "page": 48,
+    "src": "/handbook/newjersey/tire-tread.png",
+    "width": 701
+  },
+  "traffic-circle-flow": {
+    "height": 171,
+    "page": 70,
+    "src": "/handbook/newjersey/traffic-circle-flow.png",
+    "width": 699
+  },
+  "traffic-circle-no-rules": {
+    "height": 131,
+    "page": 70,
+    "src": "/handbook/newjersey/traffic-circle-no-rules.png",
+    "width": 699
+  },
+  "trains-right-of-way": {
+    "height": 131,
+    "page": 155,
+    "src": "/handbook/newjersey/trains-right-of-way.png",
+    "width": 680
+  },
+  "truck-front-no-zone": {
+    "height": 152,
+    "page": 151,
+    "src": "/handbook/newjersey/truck-front-no-zone.png",
+    "width": 690
+  },
+  "truck-route-signs": {
+    "height": 131,
+    "page": 218,
+    "src": "/handbook/newjersey/truck-route-signs.png",
+    "width": 681
+  },
+  "truck-stopping-bad-weather": {
+    "height": 131,
+    "page": 149,
+    "src": "/handbook/newjersey/truck-stopping-bad-weather.png",
+    "width": 704
+  },
+  "uncontrolled-left-yields": {
+    "height": 131,
+    "page": 69,
+    "src": "/handbook/newjersey/uncontrolled-left-yields.png",
+    "width": 699
+  },
+  "underage-first-offense": {
+    "height": 138,
+    "page": 126,
+    "src": "/handbook/newjersey/underage-first-offense.png",
+    "width": 699
+  },
+  "unlit-signal": {
+    "height": 151,
+    "page": 215,
+    "src": "/handbook/newjersey/unlit-signal.png",
+    "width": 709
+  },
+  "unmarked-crosswalk": {
+    "height": 111,
+    "page": 146,
+    "src": "/handbook/newjersey/unmarked-crosswalk.png",
+    "width": 708
+  },
+  "vision-20-50": {
+    "height": 132,
+    "page": 33,
+    "src": "/handbook/newjersey/vision-20-50.png",
+    "width": 548
+  },
+  "warning-signs-yellow": {
+    "height": 151,
+    "page": 216,
+    "src": "/handbook/newjersey/warning-signs-yellow.png",
+    "width": 485
+  },
+  "weave-lane": {
+    "height": 131,
+    "page": 72,
+    "src": "/handbook/newjersey/weave-lane.png",
+    "width": 705
+  },
+  "white-cane-stop": {
+    "height": 111,
+    "page": 148,
+    "src": "/handbook/newjersey/white-cane-stop.png",
+    "width": 704
+  },
+  "work-zone-double-fines": {
+    "height": 151,
+    "page": 105,
+    "src": "/handbook/newjersey/work-zone-double-fines.png",
+    "width": 696
+  },
+  "work-zone-warning": {
+    "height": 131,
+    "page": 105,
+    "src": "/handbook/newjersey/work-zone-warning.png",
+    "width": 696
+  },
+  "yellow-after-green": {
+    "height": 151,
+    "page": 76,
+    "src": "/handbook/newjersey/yellow-after-green.png",
+    "width": 706
+  },
+  "yellow-arrow": {
+    "height": 131,
+    "page": 214,
+    "src": "/handbook/newjersey/yellow-arrow.png",
+    "width": 708
+  },
+  "yellow-solid-and-dashed": {
+    "height": 171,
+    "page": 219,
+    "src": "/handbook/newjersey/yellow-solid-and-dashed.png",
+    "width": 699
+  },
+  "yield-already-stopped": {
+    "height": 131,
+    "page": 69,
+    "src": "/handbook/newjersey/yield-already-stopped.png",
+    "width": 705
+  },
+  "yield-to-buses": {
+    "height": 131,
+    "page": 152,
+    "src": "/handbook/newjersey/yield-to-buses.png",
+    "width": 709
+  }
+}

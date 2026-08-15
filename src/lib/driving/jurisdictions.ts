@@ -3,6 +3,12 @@ import { albertaSets1to3 } from "./alberta/sets-1-3";
 import { albertaSets4to6 } from "./alberta/sets-4-6";
 import { ontarioSets1to3 } from "./ontario/sets-1-3";
 import { ontarioSets4to6 } from "./ontario/sets-4-6";
+import { virginiaSets1to3 } from "./virginia/sets-1-3";
+import { virginiaSets4to6 } from "./virginia/sets-4-6";
+import { newjerseySets1to3 } from "./newjersey/sets-1-3";
+import { newjerseySets4to6 } from "./newjersey/sets-4-6";
+import { michiganSets1to3 } from "./michigan/sets-1-3";
+import { michiganSets4to6 } from "./michigan/sets-4-6";
 import { northcarolinaSets1to3 } from "./northcarolina/sets-1-3";
 import { northcarolinaSets4to6 } from "./northcarolina/sets-4-6";
 import { illinoisSets1to3 } from "./illinois/sets-1-3";
@@ -370,6 +376,104 @@ export const JURISDICTIONS: Jurisdiction[] = [
       "The unposted limit inside a city or town is 35 mph, not 25.",
     ],
     sets: [...northcarolinaSets1to3, ...northcarolinaSets4to6].sort(byNumber),
+  },
+  {
+    slug: "michigan",
+    name: "Michigan",
+    code: "MI",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Temporary Instruction Permit",
+    intro:
+      "Michigan runs the test as two separately-scored parts - operator rules and signs - and you have to clear both. Pass one and fail the other and you retake the whole thing.",
+    officialTest: {
+      // Michigan publishes NO question count and NO pass mark. Not on
+      // michigan.gov, not in What Every Driver Must Know, not in law - MCL
+      // 257.309 delegates rulemaking only for physical and mental fitness. The
+      // "50 questions, 40 correct" figure in circulation is from commercial
+      // practice-test sites. The numbers below only give our own sets a ratio
+      // to score against; the notes say plainly that Michigan publishes none.
+      questionCount: 40,
+      passCount: 32,
+      passLabel: "Both sections must be passed (Michigan publishes no score)",
+      notes: [
+        "The test has two separately-scored parts: an operator section of about 45 minutes and a signs section of about 15 minutes. Both must be passed.",
+        "Pass one part and fail the other and you must return to a branch office and retake the whole test.",
+        "Michigan does not publish a question count or a pass mark anywhere. Any specific figure you have seen came from a practice-test site, not the state.",
+        "Applicants 18 and over may take it online; a pass is valid for one year.",
+      ],
+    },
+    handbookName: "What Every Driver Must Know",
+    handbookUrl: "https://www.michigan.gov/sos/all-services/manuals",
+    officialInfoUrl: "https://www.michigan.gov/sos/license-id/new-drivers",
+    localGotchas: [
+      "A left turn on red is legal from a TWO-WAY street onto a one-way - broader than most states allow.",
+      "The school-bus divided-highway exemption needs a physical barrier. A painted median or centre turn lane does not count.",
+      "Move over is two duties at once: slow to 10 mph below the limit AND change lanes.",
+    ],
+    sets: [...michiganSets1to3, ...michiganSets4to6].sort(byNumber),
+  },
+  {
+    slug: "newjersey",
+    name: "New Jersey",
+    code: "NJ",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Student Learner's Permit",
+    intro:
+      "New Jersey has more genuinely unusual rules than any other state here - it legislates for ice cream trucks, sets the curfew at 11:01pm, and declines to state a priority rule for traffic circles at all.",
+    officialTest: {
+      questionCount: 50,
+      passCount: 40,
+      passLabel: "40 of 50 (80%)",
+      notes: [
+        "50 questions, plus a survey question about organ donation. You need 40 correct.",
+        "No signs/rules split and no per-section threshold - one flat 80%.",
+        "The manual is the only authority here; the MVC's knowledge-test page publishes neither the count nor the pass mark.",
+      ],
+    },
+    handbookName: "New Jersey Driver Manual",
+    handbookUrl: "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+    officialInfoUrl: "https://www.nj.gov/mvc/license/knowledgetest.htm",
+    localGotchas: [
+      "A dark or unlit traffic signal is a four-way stop - the single most-missed question in New Jersey, at a 55% error rate.",
+      "The manual says outright there are no set rules for traffic circles; priority falls to signage, then the established flow.",
+      "GDL holders wear Kyleigh's Law decals, face a 0.01% BAC limit, and cannot use hands-free at all.",
+    ],
+    sets: [...newjerseySets1to3, ...newjerseySets4to6].sort(byNumber),
+  },
+  {
+    slug: "virginia",
+    name: "Virginia",
+    code: "VA",
+    country: "US",
+    countryLabel: "United States",
+    licenceName: "Learner's Permit",
+    intro:
+      "Virginia gates the whole exam behind signs: all ten sign questions must be right before the 30-question second part even opens. Miss one and you are done for the day.",
+    officialTest: {
+      questionCount: 40,
+      passCount: 34,
+      // Not expressible through sectionedBy: the two parts use different
+      // fractions - 10 of 10 on signs (100%) and 24 of 30 on knowledge (80%).
+      // The scorer applies one pass fraction per section, so this is stated in
+      // the notes instead of being wired up wrongly.
+      passLabel: "All 10 sign questions, then 24 of 30 knowledge questions",
+      notes: [
+        "Part one is 10 road sign questions and you must get every one right. Miss a single sign and part two never opens.",
+        "Part two is 30 general knowledge questions, needing 24 correct (80%).",
+        "One attempt per business day. Under 18, a failure means waiting a full 15 days; three failures means finishing classroom driver education first.",
+      ],
+    },
+    handbookName: "Virginia Driver's Manual (DMV 39)",
+    handbookUrl: "https://www.dmv.virginia.gov/licenses-ids/driver-manuals",
+    officialInfoUrl: "https://www.dmv.virginia.gov/licenses-ids/exams/know-exam",
+    localGotchas: [
+      "Failing to move over is reckless driving - a criminal misdemeanour, not a traffic infraction.",
+      "85 mph is reckless driving on its own, so 86 in a posted 70 zone counts even though it is only 16 over.",
+      "Radar detectors are unlawful to own in a vehicle, to use, and to sell - and carry no demerit points.",
+    ],
+    sets: [...virginiaSets1to3, ...virginiaSets4to6].sort(byNumber),
   },
   {
     slug: "california",

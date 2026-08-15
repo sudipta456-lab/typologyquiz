@@ -1,0 +1,1040 @@
+{
+  "abs-braking": {
+    "height": 161,
+    "page": 77,
+    "src": "/handbook/michigan/abs-braking.png",
+    "width": 566
+  },
+  "air-bag-10-inches": {
+    "height": 161,
+    "page": 40,
+    "src": "/handbook/michigan/air-bag-10-inches.png",
+    "width": 566
+  },
+  "air-bag-children-12": {
+    "height": 185,
+    "page": 40,
+    "src": "/handbook/michigan/air-bag-children-12.png",
+    "width": 566
+  },
+  "autocycle": {
+    "height": 185,
+    "page": 71,
+    "src": "/handbook/michigan/autocycle.png",
+    "width": 566
+  },
+  "avoid-traffic-control-device": {
+    "height": 161,
+    "page": 63,
+    "src": "/handbook/michigan/avoid-traffic-control-device.png",
+    "width": 566
+  },
+  "basic-speed-law": {
+    "height": 113,
+    "page": 40,
+    "src": "/handbook/michigan/basic-speed-law.png",
+    "width": 566
+  },
+  "belt-medical-exemption": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/michigan/belt-medical-exemption.png",
+    "width": 566
+  },
+  "bicycle-3-feet": {
+    "height": 161,
+    "page": 71,
+    "src": "/handbook/michigan/bicycle-3-feet.png",
+    "width": 566
+  },
+  "bicycle-lane-illegal-use": {
+    "height": 209,
+    "page": 61,
+    "src": "/handbook/michigan/bicycle-lane-illegal-use.png",
+    "width": 566
+  },
+  "bicycle-no-passing-zone": {
+    "height": 161,
+    "page": 71,
+    "src": "/handbook/michigan/bicycle-no-passing-zone.png",
+    "width": 566
+  },
+  "bicycle-not-required-lane": {
+    "height": 161,
+    "page": 71,
+    "src": "/handbook/michigan/bicycle-not-required-lane.png",
+    "width": 566
+  },
+  "bicyclist-rights": {
+    "height": 161,
+    "page": 71,
+    "src": "/handbook/michigan/bicyclist-rights.png",
+    "width": 566
+  },
+  "bridges-freeze-first": {
+    "height": 137,
+    "page": 76,
+    "src": "/handbook/michigan/bridges-freeze-first.png",
+    "width": 566
+  },
+  "center-left-turn-lane": {
+    "height": 190,
+    "page": 62,
+    "src": "/handbook/michigan/center-left-turn-lane.png",
+    "width": 566
+  },
+  "child-seat-whichever-first": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/michigan/child-seat-whichever-first.png",
+    "width": 566
+  },
+  "children-unattended-supervisor": {
+    "height": 185,
+    "page": 40,
+    "src": "/handbook/michigan/children-unattended-supervisor.png",
+    "width": 566
+  },
+  "crash-exchange-information": {
+    "height": 161,
+    "page": 79,
+    "src": "/handbook/michigan/crash-exchange-information.png",
+    "width": 566
+  },
+  "crash-move-vehicle": {
+    "height": 209,
+    "page": 79,
+    "src": "/handbook/michigan/crash-move-vehicle.png",
+    "width": 566
+  },
+  "crash-notify-police-1000": {
+    "height": 137,
+    "page": 79,
+    "src": "/handbook/michigan/crash-notify-police-1000.png",
+    "width": 566
+  },
+  "cut-through-left-turn": {
+    "height": 161,
+    "page": 47,
+    "src": "/handbook/michigan/cut-through-left-turn.png",
+    "width": 566
+  },
+  "deer-do-not-veer": {
+    "height": 113,
+    "page": 79,
+    "src": "/handbook/michigan/deer-do-not-veer.png",
+    "width": 453
+  },
+  "deer-report-crash": {
+    "height": 185,
+    "page": 79,
+    "src": "/handbook/michigan/deer-report-crash.png",
+    "width": 566
+  },
+  "directional-arrows": {
+    "height": 137,
+    "page": 61,
+    "src": "/handbook/michigan/directional-arrows.png",
+    "width": 566
+  },
+  "disability-free-parking": {
+    "height": 137,
+    "page": 52,
+    "src": "/handbook/michigan/disability-free-parking.png",
+    "width": 566
+  },
+  "disabled-vehicle": {
+    "height": 185,
+    "page": 81,
+    "src": "/handbook/michigan/disabled-vehicle.png",
+    "width": 566
+  },
+  "doghouse-green-light": {
+    "height": 209,
+    "page": 63,
+    "src": "/handbook/michigan/doghouse-green-light.png",
+    "width": 308
+  },
+  "doghouse-protected-turn": {
+    "height": 137,
+    "page": 63,
+    "src": "/handbook/michigan/doghouse-protected-turn.png",
+    "width": 308
+  },
+  "double-solid-white": {
+    "height": 161,
+    "page": 60,
+    "src": "/handbook/michigan/double-solid-white.png",
+    "width": 566
+  },
+  "drug-suspension-first": {
+    "height": 185,
+    "page": 29,
+    "src": "/handbook/michigan/drug-suspension-first.png",
+    "width": 576
+  },
+  "fatigue-break": {
+    "height": 113,
+    "page": 76,
+    "src": "/handbook/michigan/fatigue-break.png",
+    "width": 566
+  },
+  "flashing-red-light": {
+    "height": 137,
+    "page": 64,
+    "src": "/handbook/michigan/flashing-red-light.png",
+    "width": 424
+  },
+  "flashing-yellow-arrow": {
+    "height": 212,
+    "page": 64,
+    "src": "/handbook/michigan/flashing-yellow-arrow.png",
+    "width": 566
+  },
+  "flashing-yellow-arrow-yield": {
+    "height": 137,
+    "page": 44,
+    "src": "/handbook/michigan/flashing-yellow-arrow-yield.png",
+    "width": 563
+  },
+  "flashing-yellow-light": {
+    "height": 161,
+    "page": 64,
+    "src": "/handbook/michigan/flashing-yellow-light.png",
+    "width": 424
+  },
+  "flooded-road-barricades": {
+    "height": 161,
+    "page": 77,
+    "src": "/handbook/michigan/flooded-road-barricades.png",
+    "width": 566
+  },
+  "fog-pull-off": {
+    "height": 161,
+    "page": 77,
+    "src": "/handbook/michigan/fog-pull-off.png",
+    "width": 566
+  },
+  "following-distance-3-4": {
+    "height": 137,
+    "page": 78,
+    "src": "/handbook/michigan/following-distance-3-4.png",
+    "width": 566
+  },
+  "following-distance-6": {
+    "height": 185,
+    "page": 78,
+    "src": "/handbook/michigan/following-distance-6.png",
+    "width": 566
+  },
+  "four-way-stop-tie": {
+    "height": 185,
+    "page": 44,
+    "src": "/handbook/michigan/four-way-stop-tie.png",
+    "width": 563
+  },
+  "freeway-no-stopping": {
+    "height": 185,
+    "page": 75,
+    "src": "/handbook/michigan/freeway-no-stopping.png",
+    "width": 567
+  },
+  "funeral-right-of-way": {
+    "height": 161,
+    "page": 45,
+    "src": "/handbook/michigan/funeral-right-of-way.png",
+    "width": 566
+  },
+  "gdl-ends-at-18": {
+    "height": 161,
+    "page": 18,
+    "src": "/handbook/michigan/gdl-ends-at-18.png",
+    "width": 566
+  },
+  "green-light-yield-inside": {
+    "height": 185,
+    "page": 44,
+    "src": "/handbook/michigan/green-light-yield-inside.png",
+    "width": 563
+  },
+  "green-lights-maintenance": {
+    "height": 209,
+    "page": 41,
+    "src": "/handbook/michigan/green-lights-maintenance.png",
+    "width": 566
+  },
+  "headlights-500-feet": {
+    "height": 185,
+    "page": 78,
+    "src": "/handbook/michigan/headlights-500-feet.png",
+    "width": 566
+  },
+  "headlights-half-hour": {
+    "height": 161,
+    "page": 78,
+    "src": "/handbook/michigan/headlights-half-hour.png",
+    "width": 566
+  },
+  "high-beams-500-feet": {
+    "height": 161,
+    "page": 78,
+    "src": "/handbook/michigan/high-beams-500-feet.png",
+    "width": 566
+  },
+  "horse-and-buggy": {
+    "height": 209,
+    "page": 68,
+    "src": "/handbook/michigan/horse-and-buggy.png",
+    "width": 567
+  },
+  "hov-lanes": {
+    "height": 233,
+    "page": 75,
+    "src": "/handbook/michigan/hov-lanes.png",
+    "width": 567
+  },
+  "hydroplaning": {
+    "height": 185,
+    "page": 76,
+    "src": "/handbook/michigan/hydroplaning.png",
+    "width": 566
+  },
+  "implied-consent": {
+    "height": 233,
+    "page": 29,
+    "src": "/handbook/michigan/implied-consent.png",
+    "width": 566
+  },
+  "lane-usage-right-hand": {
+    "height": 137,
+    "page": 47,
+    "src": "/handbook/michigan/lane-usage-right-hand.png",
+    "width": 566
+  },
+  "left-on-red-one-way": {
+    "height": 190,
+    "page": 44,
+    "src": "/handbook/michigan/left-on-red-one-way.png",
+    "width": 566
+  },
+  "left-on-red-two-way": {
+    "height": 214,
+    "page": 44,
+    "src": "/handbook/michigan/left-on-red-two-way.png",
+    "width": 566
+  },
+  "level-1-supervision": {
+    "height": 185,
+    "page": 19,
+    "src": "/handbook/michigan/level-1-supervision.png",
+    "width": 567
+  },
+  "level-2-curfew": {
+    "height": 212,
+    "page": 19,
+    "src": "/handbook/michigan/level-2-curfew.png",
+    "width": 566
+  },
+  "level-2-passengers": {
+    "height": 142,
+    "page": 19,
+    "src": "/handbook/michigan/level-2-passengers.png",
+    "width": 566
+  },
+  "level-3-eligibility": {
+    "height": 236,
+    "page": 19,
+    "src": "/handbook/michigan/level-3-eligibility.png",
+    "width": 566
+  },
+  "license-valid-four-years": {
+    "height": 161,
+    "page": 24,
+    "src": "/handbook/michigan/license-valid-four-years.png",
+    "width": 566
+  },
+  "local-parking-ordinances": {
+    "height": 137,
+    "page": 52,
+    "src": "/handbook/michigan/local-parking-ordinances.png",
+    "width": 567
+  },
+  "look-20-30-seconds": {
+    "height": 185,
+    "page": 78,
+    "src": "/handbook/michigan/look-20-30-seconds.png",
+    "width": 566
+  },
+  "malfunctioning-signal": {
+    "height": 209,
+    "page": 44,
+    "src": "/handbook/michigan/malfunctioning-signal.png",
+    "width": 563
+  },
+  "marijuana-same-penalties": {
+    "height": 161,
+    "page": 29,
+    "src": "/handbook/michigan/marijuana-same-penalties.png",
+    "width": 566
+  },
+  "marijuana-transport-limit": {
+    "height": 185,
+    "page": 29,
+    "src": "/handbook/michigan/marijuana-transport-limit.png",
+    "width": 566
+  },
+  "merging-translation": {
+    "height": 209,
+    "page": 75,
+    "src": "/handbook/michigan/merging-translation.png",
+    "width": 566
+  },
+  "michigan-left-definition": {
+    "height": 209,
+    "page": 62,
+    "src": "/handbook/michigan/michigan-left-definition.png",
+    "width": 567
+  },
+  "michigan-left-unmarked": {
+    "height": 161,
+    "page": 62,
+    "src": "/handbook/michigan/michigan-left-unmarked.png",
+    "width": 567
+  },
+  "moped-definition": {
+    "height": 137,
+    "page": 70,
+    "src": "/handbook/michigan/moped-definition.png",
+    "width": 566
+  },
+  "motorcycle-125cc-freeway": {
+    "height": 161,
+    "page": 70,
+    "src": "/handbook/michigan/motorcycle-125cc-freeway.png",
+    "width": 562
+  },
+  "motorcycle-engine-braking": {
+    "height": 185,
+    "page": 70,
+    "src": "/handbook/michigan/motorcycle-engine-braking.png",
+    "width": 566
+  },
+  "motorcycle-share-lane": {
+    "height": 137,
+    "page": 69,
+    "src": "/handbook/michigan/motorcycle-share-lane.png",
+    "width": 566
+  },
+  "move-over-law": {
+    "height": 161,
+    "page": 42,
+    "src": "/handbook/michigan/move-over-law.png",
+    "width": 566
+  },
+  "no-passing-100-feet": {
+    "height": 113,
+    "page": 46,
+    "src": "/handbook/michigan/no-passing-100-feet.png",
+    "width": 416
+  },
+  "nursing-while-moving": {
+    "height": 137,
+    "page": 39,
+    "src": "/handbook/michigan/nursing-while-moving.png",
+    "width": 566
+  },
+  "oncoming-escape-right": {
+    "height": 137,
+    "page": 76,
+    "src": "/handbook/michigan/oncoming-escape-right.png",
+    "width": 566
+  },
+  "one-drink-impairs": {
+    "height": 161,
+    "page": 29,
+    "src": "/handbook/michigan/one-drink-impairs.png",
+    "width": 576
+  },
+  "one-license-only": {
+    "height": 161,
+    "page": 15,
+    "src": "/handbook/michigan/one-license-only.png",
+    "width": 566
+  },
+  "only-time-sobers": {
+    "height": 185,
+    "page": 29,
+    "src": "/handbook/michigan/only-time-sobers.png",
+    "width": 576
+  },
+  "parallel-park-6-12-inches": {
+    "height": 137,
+    "page": 51,
+    "src": "/handbook/michigan/parallel-park-6-12-inches.png",
+    "width": 566
+  },
+  "park-12-inches": {
+    "height": 161,
+    "page": 52,
+    "src": "/handbook/michigan/park-12-inches.png",
+    "width": 567
+  },
+  "park-against-traffic": {
+    "height": 113,
+    "page": 47,
+    "src": "/handbook/michigan/park-against-traffic.png",
+    "width": 566
+  },
+  "park-bridge-tunnel": {
+    "height": 137,
+    "page": 52,
+    "src": "/handbook/michigan/park-bridge-tunnel.png",
+    "width": 567
+  },
+  "park-crosswalk-20-feet": {
+    "height": 137,
+    "page": 53,
+    "src": "/handbook/michigan/park-crosswalk-20-feet.png",
+    "width": 566
+  },
+  "park-double-parking": {
+    "height": 137,
+    "page": 53,
+    "src": "/handbook/michigan/park-double-parking.png",
+    "width": 566
+  },
+  "park-downhill": {
+    "height": 137,
+    "page": 51,
+    "src": "/handbook/michigan/park-downhill.png",
+    "width": 566
+  },
+  "park-fire-or-crash-500": {
+    "height": 113,
+    "page": 52,
+    "src": "/handbook/michigan/park-fire-or-crash-500.png",
+    "width": 412
+  },
+  "park-fire-station": {
+    "height": 209,
+    "page": 52,
+    "src": "/handbook/michigan/park-fire-station.png",
+    "width": 444
+  },
+  "park-hydrant-15-feet": {
+    "height": 113,
+    "page": 52,
+    "src": "/handbook/michigan/park-hydrant-15-feet.png",
+    "width": 380
+  },
+  "park-no-curb": {
+    "height": 137,
+    "page": 51,
+    "src": "/handbook/michigan/park-no-curb.png",
+    "width": 566
+  },
+  "park-railroad-50-feet": {
+    "height": 137,
+    "page": 52,
+    "src": "/handbook/michigan/park-railroad-50-feet.png",
+    "width": 567
+  },
+  "park-stop-sign-30-feet": {
+    "height": 137,
+    "page": 52,
+    "src": "/handbook/michigan/park-stop-sign-30-feet.png",
+    "width": 567
+  },
+  "passing-200-feet": {
+    "height": 137,
+    "page": 46,
+    "src": "/handbook/michigan/passing-200-feet.png",
+    "width": 566
+  },
+  "passing-right-allowed": {
+    "height": 137,
+    "page": 46,
+    "src": "/handbook/michigan/passing-right-allowed.png",
+    "width": 566
+  },
+  "pedestrian-before-signal": {
+    "height": 137,
+    "page": 45,
+    "src": "/handbook/michigan/pedestrian-before-signal.png",
+    "width": 566
+  },
+  "pedestrian-flashing-signal": {
+    "height": 185,
+    "page": 64,
+    "src": "/handbook/michigan/pedestrian-flashing-signal.png",
+    "width": 566
+  },
+  "pedestrian-from-alley": {
+    "height": 137,
+    "page": 45,
+    "src": "/handbook/michigan/pedestrian-from-alley.png",
+    "width": 566
+  },
+  "pedestrian-green-light": {
+    "height": 137,
+    "page": 68,
+    "src": "/handbook/michigan/pedestrian-green-light.png",
+    "width": 567
+  },
+  "pedestrian-never-pass-stopped": {
+    "height": 185,
+    "page": 68,
+    "src": "/handbook/michigan/pedestrian-never-pass-stopped.png",
+    "width": 567
+  },
+  "pedestrian-no-sidewalk": {
+    "height": 161,
+    "page": 69,
+    "src": "/handbook/michigan/pedestrian-no-sidewalk.png",
+    "width": 566
+  },
+  "pedestrian-unmarked-crosswalk": {
+    "height": 161,
+    "page": 45,
+    "src": "/handbook/michigan/pedestrian-unmarked-crosswalk.png",
+    "width": 566
+  },
+  "pedestrian-walk-signal": {
+    "height": 113,
+    "page": 64,
+    "src": "/handbook/michigan/pedestrian-walk-signal.png",
+    "width": 566
+  },
+  "pedestrian-white-cane": {
+    "height": 137,
+    "page": 69,
+    "src": "/handbook/michigan/pedestrian-white-cane.png",
+    "width": 566
+  },
+  "phone-gps-exception": {
+    "height": 139,
+    "page": 38,
+    "src": "/handbook/michigan/phone-gps-exception.png",
+    "width": 567
+  },
+  "pickup-bed-under-18": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/michigan/pickup-bed-under-18.png",
+    "width": 566
+  },
+  "points-reexamination-trigger": {
+    "height": 137,
+    "page": 27,
+    "src": "/handbook/michigan/points-reexamination-trigger.png",
+    "width": 566
+  },
+  "points-six-more": {
+    "height": 113,
+    "page": 28,
+    "src": "/handbook/michigan/points-six-more.png",
+    "width": 467
+  },
+  "points-two-year-life": {
+    "height": 161,
+    "page": 27,
+    "src": "/handbook/michigan/points-two-year-life.png",
+    "width": 566
+  },
+  "probation-three-years": {
+    "height": 161,
+    "page": 23,
+    "src": "/handbook/michigan/probation-three-years.png",
+    "width": 566
+  },
+  "railroad-clear-6-feet": {
+    "height": 161,
+    "page": 50,
+    "src": "/handbook/michigan/railroad-clear-6-feet.png",
+    "width": 566
+  },
+  "railroad-ens-sign": {
+    "height": 209,
+    "page": 51,
+    "src": "/handbook/michigan/railroad-ens-sign.png",
+    "width": 566
+  },
+  "railroad-required-stop-vehicles": {
+    "height": 209,
+    "page": 50,
+    "src": "/handbook/michigan/railroad-required-stop-vehicles.png",
+    "width": 566
+  },
+  "railroad-stop-distance": {
+    "height": 161,
+    "page": 49,
+    "src": "/handbook/michigan/railroad-stop-distance.png",
+    "width": 422
+  },
+  "railroad-stuck-gates-active": {
+    "height": 188,
+    "page": 50,
+    "src": "/handbook/michigan/railroad-stuck-gates-active.png",
+    "width": 566
+  },
+  "rain-first-half-hour": {
+    "height": 257,
+    "page": 76,
+    "src": "/handbook/michigan/rain-first-half-hour.png",
+    "width": 566
+  },
+  "roadside-stay-in-car": {
+    "height": 137,
+    "page": 78,
+    "src": "/handbook/michigan/roadside-stay-in-car.png",
+    "width": 566
+  },
+  "roundabout-do-not-stop": {
+    "height": 137,
+    "page": 49,
+    "src": "/handbook/michigan/roundabout-do-not-stop.png",
+    "width": 566
+  },
+  "roundabout-emergency-vehicle": {
+    "height": 185,
+    "page": 49,
+    "src": "/handbook/michigan/roundabout-emergency-vehicle.png",
+    "width": 566
+  },
+  "roundabout-yield-left": {
+    "height": 209,
+    "page": 49,
+    "src": "/handbook/michigan/roundabout-yield-left.png",
+    "width": 566
+  },
+  "school-bus-20-feet": {
+    "height": 161,
+    "page": 42,
+    "src": "/handbook/michigan/school-bus-20-feet.png",
+    "width": 566
+  },
+  "school-bus-divided-road": {
+    "height": 209,
+    "page": 42,
+    "src": "/handbook/michigan/school-bus-divided-road.png",
+    "width": 566
+  },
+  "seat-belt-law": {
+    "height": 113,
+    "page": 39,
+    "src": "/handbook/michigan/seat-belt-law.png",
+    "width": 566
+  },
+  "segment-1-age": {
+    "height": 164,
+    "page": 18,
+    "src": "/handbook/michigan/segment-1-age.png",
+    "width": 566
+  },
+  "segment-2-requirements": {
+    "height": 236,
+    "page": 19,
+    "src": "/handbook/michigan/segment-2-requirements.png",
+    "width": 567
+  },
+  "sign-authorized-vehicles-only": {
+    "height": 212,
+    "page": 58,
+    "src": "/handbook/michigan/sign-authorized-vehicles-only.png",
+    "width": 566
+  },
+  "sign-bridge-ices": {
+    "height": 140,
+    "page": 58,
+    "src": "/handbook/michigan/sign-bridge-ices.png",
+    "width": 566
+  },
+  "sign-color-fluorescent-pink": {
+    "height": 140,
+    "page": 56,
+    "src": "/handbook/michigan/sign-color-fluorescent-pink.png",
+    "width": 513
+  },
+  "sign-color-fluorescent-yellow-green": {
+    "height": 140,
+    "page": 56,
+    "src": "/handbook/michigan/sign-color-fluorescent-yellow-green.png",
+    "width": 513
+  },
+  "sign-color-orange": {
+    "height": 140,
+    "page": 56,
+    "src": "/handbook/michigan/sign-color-orange.png",
+    "width": 425
+  },
+  "sign-divided-highway-ends": {
+    "height": 140,
+    "page": 59,
+    "src": "/handbook/michigan/sign-divided-highway-ends.png",
+    "width": 567
+  },
+  "sign-hill": {
+    "height": 188,
+    "page": 59,
+    "src": "/handbook/michigan/sign-hill.png",
+    "width": 567
+  },
+  "sign-keep-left": {
+    "height": 140,
+    "page": 58,
+    "src": "/handbook/michigan/sign-keep-left.png",
+    "width": 566
+  },
+  "sign-lane-ends-merge-left": {
+    "height": 164,
+    "page": 59,
+    "src": "/handbook/michigan/sign-lane-ends-merge-left.png",
+    "width": 567
+  },
+  "sign-no-passing-pennant": {
+    "height": 188,
+    "page": 59,
+    "src": "/handbook/michigan/sign-no-passing-pennant.png",
+    "width": 566
+  },
+  "sign-pass-with-care": {
+    "height": 164,
+    "page": 58,
+    "src": "/handbook/michigan/sign-pass-with-care.png",
+    "width": 566
+  },
+  "sign-right-lane-ends": {
+    "height": 140,
+    "page": 59,
+    "src": "/handbook/michigan/sign-right-lane-ends.png",
+    "width": 567
+  },
+  "sign-school-crossing": {
+    "height": 164,
+    "page": 58,
+    "src": "/handbook/michigan/sign-school-crossing.png",
+    "width": 566
+  },
+  "sign-shapes": {
+    "height": 137,
+    "page": 55,
+    "src": "/handbook/michigan/sign-shapes.png",
+    "width": 1106
+  },
+  "sign-slow-moving-vehicle": {
+    "height": 212,
+    "page": 58,
+    "src": "/handbook/michigan/sign-slow-moving-vehicle.png",
+    "width": 566
+  },
+  "sign-stop": {
+    "height": 140,
+    "page": 58,
+    "src": "/handbook/michigan/sign-stop.png",
+    "width": 566
+  },
+  "sign-two-way-traffic": {
+    "height": 140,
+    "page": 59,
+    "src": "/handbook/michigan/sign-two-way-traffic.png",
+    "width": 567
+  },
+  "sign-yield": {
+    "height": 140,
+    "page": 58,
+    "src": "/handbook/michigan/sign-yield.png",
+    "width": 566
+  },
+  "signal-green-light": {
+    "height": 164,
+    "page": 63,
+    "src": "/handbook/michigan/signal-green-light.png",
+    "width": 375
+  },
+  "signal-not-working": {
+    "height": 260,
+    "page": 63,
+    "src": "/handbook/michigan/signal-not-working.png",
+    "width": 566
+  },
+  "signal-red-light": {
+    "height": 188,
+    "page": 63,
+    "src": "/handbook/michigan/signal-red-light.png",
+    "width": 375
+  },
+  "signal-yellow-light": {
+    "height": 236,
+    "page": 63,
+    "src": "/handbook/michigan/signal-yellow-light.png",
+    "width": 375
+  },
+  "skid-recovery": {
+    "height": 113,
+    "page": 77,
+    "src": "/handbook/michigan/skid-recovery.png",
+    "width": 412
+  },
+  "solid-red-arrow": {
+    "height": 164,
+    "page": 64,
+    "src": "/handbook/michigan/solid-red-arrow.png",
+    "width": 364
+  },
+  "solid-white-lines": {
+    "height": 185,
+    "page": 60,
+    "src": "/handbook/michigan/solid-white-lines.png",
+    "width": 566
+  },
+  "solid-yellow-arrow": {
+    "height": 212,
+    "page": 64,
+    "src": "/handbook/michigan/solid-yellow-arrow.png",
+    "width": 566
+  },
+  "solid-yellow-line": {
+    "height": 137,
+    "page": 61,
+    "src": "/handbook/michigan/solid-yellow-line.png",
+    "width": 566
+  },
+  "speed-15-mobile-home": {
+    "height": 137,
+    "page": 40,
+    "src": "/handbook/michigan/speed-15-mobile-home.png",
+    "width": 566
+  },
+  "speed-25-subdivision": {
+    "height": 161,
+    "page": 40,
+    "src": "/handbook/michigan/speed-25-subdivision.png",
+    "width": 566
+  },
+  "speed-45-work-zone": {
+    "height": 161,
+    "page": 40,
+    "src": "/handbook/michigan/speed-45-work-zone.png",
+    "width": 566
+  },
+  "speed-55-default": {
+    "height": 161,
+    "page": 40,
+    "src": "/handbook/michigan/speed-55-default.png",
+    "width": 566
+  },
+  "speed-70-freeway": {
+    "height": 209,
+    "page": 40,
+    "src": "/handbook/michigan/speed-70-freeway.png",
+    "width": 566
+  },
+  "speed-clear-distance": {
+    "height": 233,
+    "page": 40,
+    "src": "/handbook/michigan/speed-clear-distance.png",
+    "width": 566
+  },
+  "steady-green-arrow": {
+    "height": 209,
+    "page": 64,
+    "src": "/handbook/michigan/steady-green-arrow.png",
+    "width": 424
+  },
+  "t-intersection": {
+    "height": 137,
+    "page": 44,
+    "src": "/handbook/michigan/t-intersection.png",
+    "width": 563
+  },
+  "threshold-braking": {
+    "height": 185,
+    "page": 77,
+    "src": "/handbook/michigan/threshold-braking.png",
+    "width": 566
+  },
+  "tip-180-days": {
+    "height": 161,
+    "page": 21,
+    "src": "/handbook/michigan/tip-180-days.png",
+    "width": 566
+  },
+  "truck-low-beams": {
+    "height": 161,
+    "page": 67,
+    "src": "/handbook/michigan/truck-low-beams.png",
+    "width": 567
+  },
+  "truck-stopping-distance": {
+    "height": 233,
+    "page": 67,
+    "src": "/handbook/michigan/truck-stopping-distance.png",
+    "width": 347
+  },
+  "truck-stopping-line": {
+    "height": 209,
+    "page": 67,
+    "src": "/handbook/michigan/truck-stopping-line.png",
+    "width": 567
+  },
+  "van-accessible-blue-stripes": {
+    "height": 164,
+    "page": 52,
+    "src": "/handbook/michigan/van-accessible-blue-stripes.png",
+    "width": 566
+  },
+  "weaving-illegal": {
+    "height": 137,
+    "page": 47,
+    "src": "/handbook/michigan/weaving-illegal.png",
+    "width": 566
+  },
+  "work-zone-45-unless-posted": {
+    "height": 161,
+    "page": 41,
+    "src": "/handbook/michigan/work-zone-45-unless-posted.png",
+    "width": 566
+  },
+  "work-zone-fines-doubled": {
+    "height": 188,
+    "page": 41,
+    "src": "/handbook/michigan/work-zone-fines-doubled.png",
+    "width": 566
+  },
+  "work-zone-injury-penalty": {
+    "height": 161,
+    "page": 41,
+    "src": "/handbook/michigan/work-zone-injury-penalty.png",
+    "width": 566
+  },
+  "work-zone-points": {
+    "height": 137,
+    "page": 41,
+    "src": "/handbook/michigan/work-zone-points.png",
+    "width": 566
+  },
+  "work-zone-workers-direct": {
+    "height": 185,
+    "page": 41,
+    "src": "/handbook/michigan/work-zone-workers-direct.png",
+    "width": 566
+  },
+  "work-zone-workers-present": {
+    "height": 185,
+    "page": 41,
+    "src": "/handbook/michigan/work-zone-workers-present.png",
+    "width": 566
+  },
+  "yield-sign-approach": {
+    "height": 137,
+    "page": 44,
+    "src": "/handbook/michigan/yield-sign-approach.png",
+    "width": 563
+  },
+  "yield-when-turning": {
+    "height": 113,
+    "page": 43,
+    "src": "/handbook/michigan/yield-when-turning.png",
+    "width": 500
+  }
+}

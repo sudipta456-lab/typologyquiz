@@ -6,7 +6,7 @@ Website: https://typologyquiz.com
 
 ## What this site is
 
-Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 2206 driving licence practice questions across 11 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
+Two things share one site. 27 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 2791 driving licence practice questions across 14 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
 
 Nothing requires an account. There is no advertising, no tracking beyond basic analytics, and no email or phone collection - the audience includes minors, so the site deliberately holds no contact details. Quiz answers and progress live in the visitor's own browser.
 
@@ -35,6 +35,9 @@ Each jurisdiction has six sets that build from a gentle start to a full exam sim
 - [Georgia Class CP Instructional Permit](https://typologyquiz.com/driving/georgia/): 6 sets, 195 questions, 179 handbook excerpts. Real test: 40 questions, pass 15 of 20 in EACH part (road signs and road rules). Official handbook: https://dds.georgia.gov/georgia-drivers-manual
 - [Illinois Instruction Permit](https://typologyquiz.com/driving/illinois/): 6 sets, 195 questions, 178 handbook excerpts. Real test: 35 questions, pass 80% correct (at least 35 questions). Official handbook: https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf
 - [North Carolina Learner Permit](https://typologyquiz.com/driving/northcarolina/): 6 sets, 195 questions, 167 handbook excerpts. Real test: 25 questions, pass 80% on the knowledge test, plus 9 of 12 road signs. Official handbook: https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-handbook.aspx
+- [Michigan Temporary Instruction Permit](https://typologyquiz.com/driving/michigan/): 6 sets, 195 questions, 190 handbook excerpts. Real test: 40 questions, pass Both sections must be passed (Michigan publishes no score). Official handbook: https://www.michigan.gov/sos/all-services/manuals
+- [New Jersey Student Learner's Permit](https://typologyquiz.com/driving/newjersey/): 6 sets, 195 questions, 178 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%). Official handbook: https://www.nj.gov/mvc/pdf/license/drivermanual.pdf
+- [Virginia Learner's Permit](https://typologyquiz.com/driving/virginia/): 6 sets, 195 questions, 181 handbook excerpts. Real test: 40 questions, pass All 10 sign questions, then 24 of 30 knowledge questions. Official handbook: https://www.dmv.virginia.gov/licenses-ids/driver-manuals
 - [California California Driver License / Permit](https://typologyquiz.com/driving/california/): 6 sets, 231 questions, 131 handbook excerpts. Real test: 46 questions, pass 38 of 46 (83%) for under-18. Official handbook: https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/
 
 There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak-spots/take/, rebuilt each time from the questions that visitor has actually got wrong.

@@ -1,12 +1,13 @@
 import type { HandbookExcerpt } from "../types";
 
 // Short verbatim excerpts from the Virginia Driver's Manual (DMV 39), published
-// by the Virginia Department of Motor Vehicles, plus a dozen dmv.virginia.gov
-// pages and the sections of the Code of Virginia (Title 46.2) that carry rules
-// the manual states only as a table, states out of date, or does not state at
-// all - the 70 mph interstate limit, the current liability minimums, the
-// juvenile curfew and passenger caps, the move-over and school-bus penalties,
-// and the handheld-device fines.
+// by the Virginia Department of Motor Vehicles - 152 of the 181 below - plus
+// six dmv.virginia.gov pages and fifteen sections of the Code of Virginia
+// (Title 46.2) carrying rules the manual states only as a table, states out of
+// date, or does not state at all: the 70 mph interstate limit, the 45 mph
+// truck limit on secondary highways, the current liability minimums, the
+// juvenile curfew and passenger caps, the move-over rule's classification as
+// reckless driving, and the handheld-device fines.
 //
 // Every quote below was located mechanically in the fetched source and checked
 // as an exact substring before it was written here. Nothing is paraphrased.
@@ -32,39 +33,14 @@ const KNOW_URL = "https://www.dmv.virginia.gov/licenses-ids/exams/know-exam";
 const TEEN_URL = "https://www.dmv.virginia.gov/licenses-ids/learners/restrictions";
 const ED_URL = "https://www.dmv.virginia.gov/licenses-ids/learners/ed-reqs";
 const PTS_URL = "https://www.dmv.virginia.gov/licenses-ids/improvement/points/system";
-const PTS_OVER = "https://www.dmv.virginia.gov/licenses-ids/improvement/points/over-18";
-const PTS_UNDER = "https://www.dmv.virginia.gov/licenses-ids/improvement/points/under-18";
 const INS_URL = "https://www.dmv.virginia.gov/vehicles/insurance-requirements";
-const BELT_URL = "https://www.dmv.virginia.gov/safety/programs/seat-belts";
-const BUS_URL = "https://www.dmv.virginia.gov/safety/programs/school-bus";
 const SPEED_FAQ = "https://www.dmv.virginia.gov/safety/programs/speeding/faqs";
-const ISAP_URL =
-  "https://www.dmv.virginia.gov/licenses-ids/license/reinstate/intelligent-speed-assistance-program-isap";
 
 const CODE = "Code of Virginia, Title 46.2";
 const code = (s: string) => `https://law.lis.virginia.gov/vacode/title46.2/section${s}/`;
 
 export const virginiaExcerpts: HandbookExcerpt[] = [
   // --- Section 1: Testing -------------------------------------------------
-  {
-    key: "two-part-exam",
-    quote:
-      "You must correctly answer all ten traffic sign questions in part one of " +
-      "the exam before you can take part two of the exam.",
-    source: HB,
-    section: "Section 1: Testing - Two-Part Knowledge Exam",
-    url: HB_URL,
-  },
-  {
-    key: "part-two-80",
-    quote:
-      "Part two tests your general knowledge with multiple choice questions. " +
-      "You must answer at least 80 percent of these questions correctly to " +
-      "pass part two.",
-    source: HB,
-    section: "Section 1: Testing - Two-Part Knowledge Exam",
-    url: HB_URL,
-  },
   {
     key: "exam-part-counts",
     quote:
@@ -76,30 +52,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: KNOW_URL,
   },
   {
-    key: "exam-questions-source",
-    quote: "Exam questions are taken from information in this manual.",
-    source: HB,
-    section: "Section 1: Testing - Two-Part Knowledge Exam",
-    url: HB_URL,
-  },
-  {
-    key: "retake-15-days",
-    quote:
-      "If you fail the exam and you are under age 18, by law you must wait a " +
-      "full 15 days before you can retake the exam. For example, if you fail " +
-      "the exam on January 1, the earliest you can take the exam again is January 17.",
-    source: HB,
-    section: "Section 1: Testing - Two-Part Knowledge Exam",
-    url: HB_URL,
-  },
-  {
-    key: "exam-once-per-day",
-    quote: "The exam may be taken only once per business day.",
-    source: HB,
-    section: "Section 1: Testing - Two-Part Knowledge Exam",
-    url: HB_URL,
-  },
-  {
     key: "three-failures",
     quote:
       "If you fail the knowledge exam three times, you will not be able to " +
@@ -107,45 +59,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
       "component of driver education.",
     source: HB,
     section: "Section 1: Testing - Two-Part Knowledge Exam",
-    url: HB_URL,
-  },
-  {
-    key: "exam-one-year",
-    quote:
-      "If you don't get your license/permit within 1 year of completing a " +
-      "knowledge exam, you will be required to retest.",
-    source: "Virginia DMV - The Knowledge Exam",
-    section: "Retaking the Knowledge Exam",
-    url: KNOW_URL,
-  },
-  {
-    key: "vision-unrestricted",
-    quote:
-      "Driver's license - unrestricted 20/40 or better vision in one or both " +
-      "eyes, and 110 degrees, or better, horizontal vision in one or both eyes",
-    source: HB,
-    section: "Section 1: Testing - Vision Standards",
-    url: HB_URL,
-  },
-  {
-    key: "daylight-only",
-    quote:
-      "A daylight driving only restricted license permits you to drive only " +
-      "during the period of time beginning a half-hour after sunrise and " +
-      "ending a half-hour before sunset.",
-    source: HB,
-    section: "Section 1: Testing - Vision Standards",
-    url: HB_URL,
-  },
-  {
-    key: "road-skills-60-days",
-    quote:
-      "Applicants age 18 or older must hold the learner's permit for 60 days " +
-      "prior to the first road skills test or complete a course of driver's " +
-      "education at a driver training school approved by DMV or the " +
-      "Department of Education.",
-    source: HB,
-    section: "Section 1: Testing - Road Skills Test",
     url: HB_URL,
   },
 
@@ -199,15 +112,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "red-arrow",
-    quote:
-      "A red arrow means you must stop if you intend to move in the direction " +
-      "of the arrow.",
-    source: HB,
-    section: "Section 2: Traffic Signals",
-    url: HB_URL,
-  },
-  {
     key: "red-arrow-prohibits",
     quote: "Virginia law prohibits right and left turns at red arrow lights.",
     source: HB,
@@ -219,17 +123,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     quote:
       "At a flashing red light, come to a complete stop and yield to oncoming " +
       "vehicles and pedestrians. You may go when the way is clear.",
-    source: HB,
-    section: "Section 2: Traffic Signals",
-    url: HB_URL,
-  },
-  {
-    key: "flashing-red-arrow",
-    quote:
-      "At a flashing red arrow, come to a complete stop, yield the " +
-      "right-of-way to vehicles coming from the other direction and " +
-      "pedestrians in the intersection, and proceed in the direction of the " +
-      "arrow when the way is clear.",
     source: HB,
     section: "Section 2: Traffic Signals",
     url: HB_URL,
@@ -253,15 +146,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     source: HB,
     section: "Section 2: Traffic Signals",
     url: HB_URL,
-  },
-  {
-    key: "code-steady-amber",
-    quote:
-      "Steady amber indicates that a change is about to be made in the " +
-      "direction of the moving of traffic.",
-    source: CODE,
-    section: "§ 46.2-833. Traffic lights",
-    url: code("46.2-833"),
   },
   {
     key: "flashing-yellow",
@@ -425,25 +309,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "shape-rectangle",
-    quote:
-      "Rectangle (Regulatory or Guide): Vertical signs generally give " +
-      "instructions or tell you the law. Horizontal signs may give directions " +
-      "or information.",
-    source: HB,
-    section: "Section 2: Sign Shapes",
-    url: HB_URL,
-  },
-  {
-    key: "speed-limit-sign",
-    quote:
-      "These signs tell you the maximum legal speed that you may drive on the " +
-      "road where the sign is posted when weather conditions are good.",
-    source: HB,
-    section: "Section 2: Regulatory Signs",
-    url: HB_URL,
-  },
-  {
     key: "too-fast-conditions",
     quote:
       "During rain, snow and ice, you may receive a ticket for driving too " +
@@ -472,26 +337,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "left-turn-yield-green",
-    quote:
-      "It tells you that the traffic turning left at a green light does not " +
-      "have the right-of-way and must yield to traffic coming from the other " +
-      "direction.",
-    source: HB,
-    section: "Section 2: Regulatory Signs - Left Turn Yield on Green",
-    url: HB_URL,
-  },
-  {
-    key: "hov-sign",
-    quote:
-      "High Occupancy Vehicle: These signs indicate lanes reserved for buses " +
-      "and vehicles with a driver and one or more passengers as specified on " +
-      "the sign.",
-    source: HB,
-    section: "Section 2: Regulatory Signs",
-    url: HB_URL,
-  },
-  {
     key: "advisory-speed",
     quote:
       "Advisory Speed: This sign indicates the maximum safe speed for a " +
@@ -515,16 +360,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     quote:
       "Merge: Two lanes of traffic moving in the same direction are about to " +
       "become one. Drivers in both lanes are responsible for merging safely.",
-    source: HB,
-    section: "Section 2: Warning Signs",
-    url: HB_URL,
-  },
-  {
-    key: "lane-reduction",
-    quote:
-      "Lane Reduction: The right lane ends soon. Drivers in the right lane " +
-      "must merge left when space opens up. Drivers in the left lane should " +
-      "allow other vehicles to merge smoothly.",
     source: HB,
     section: "Section 2: Warning Signs",
     url: HB_URL,
@@ -577,41 +412,10 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "crossbuck-lights",
-    quote:
-      "Always stop when the light begins to flash and be alert for " +
-      "approaching trains. Do not proceed until all trains or any other " +
-      "vehicles using the rails have passed, the tracks are clear, and the " +
-      "lights are no longer flashing.",
-    source: HB,
-    section: "Section 2: Warning Signs",
-    url: HB_URL,
-  },
-  {
-    key: "crossing-gate",
-    quote:
-      "Stop when the lights begin to flash and before the gate lowers. Remain " +
-      "stopped until the gates are raised and the lights stop flashing. Do " +
-      "not attempt to drive around the lowered gate.",
-    source: HB,
-    section: "Section 2: Warning Signs",
-    url: HB_URL,
-  },
-  {
     key: "school-bus-railroad",
     quote:
       "Note: School buses must always stop at railroad crossings, even when " +
       "the lights are not flashing.",
-    source: HB,
-    section: "Section 2: Warning Signs",
-    url: HB_URL,
-  },
-  {
-    key: "rr-clear-tracks",
-    quote:
-      "Unless you can clear the tracks completely, never start across the " +
-      "tracks. Make sure there is room for your vehicle on the other side of " +
-      "the tracks before proceeding.",
     source: HB,
     section: "Section 2: Warning Signs",
     url: HB_URL,
@@ -638,33 +442,11 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "workzone-lane-position",
-    quote:
-      "When driving near the devices, keep your vehicle in the middle of the " +
-      "lane and obey the posted speed limit. As you leave the work zone, stay " +
-      "in your lane and maintain your speed.",
-    source: HB,
-    section: "Section 2: Work Zones",
-    url: HB_URL,
-  },
-  {
     key: "rumble-strips",
     quote: "Rumble strips should be slowly driven over, not swerved around.",
     source: HB,
     section: "Section 2: Work Zones",
     url: HB_URL,
-  },
-  {
-    key: "code-workzone-500",
-    quote:
-      "Operation of any motor vehicle in excess of a maximum speed limit " +
-      "established specifically for a highway work zone, when workers are " +
-      "present and when such highway work zone is indicated by appropriately " +
-      "placed signs displaying the maximum speed limit and the penalty for " +
-      "violations",
-    source: CODE,
-    section: "§ 46.2-878.1. Maximum speed limits in highway work zones",
-    url: code("46.2-878.1"),
   },
 
   // --- Section 2: Pavement markings ----------------------------------------
@@ -708,28 +490,10 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "broken-yellow-center",
-    quote:
-      "Broken yellow center lines mean that passing on the left is allowed in " +
-      "either direction when the way ahead is clear.",
-    source: HB,
-    section: "Section 2: Pavement Markings",
-    url: HB_URL,
-  },
-  {
     key: "unmarked-two-lane",
     quote:
       "On an unmarked two-lane road, you may pass a slow moving vehicle on " +
       "the left side if there are no signs prohibiting passing.",
-    source: HB,
-    section: "Section 2: Pavement Markings",
-    url: HB_URL,
-  },
-  {
-    key: "solid-white",
-    quote:
-      "Solid white lines also mark the right edge of pavement. Arrows used " +
-      "with white lines indicate which turn may be made from the lane.",
     source: HB,
     section: "Section 2: Pavement Markings",
     url: HB_URL,
@@ -752,17 +516,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
       "the word ONLY, you must turn in the direction of the arrow. If your " +
       "lane is marked with both a curved and straight arrow, you may turn or " +
       "go straight.",
-    source: HB,
-    section: "Section 2: Pavement Markings",
-    url: HB_URL,
-  },
-  {
-    key: "yield-line",
-    quote:
-      "Yield line is a line of triangles extending across the roadway that " +
-      "may be used with a yield sign to show the point at which you must " +
-      "yield or stop, if necessary. A yield line is often seen at the " +
-      "entrance of a roundabout.",
     source: HB,
     section: "Section 2: Pavement Markings",
     url: HB_URL,
@@ -820,15 +573,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "hov-diamond",
-    quote:
-      "High Occupancy Vehicles (HOV) lanes are marked on highways by a " +
-      "diamond shape in the center of the lane.",
-    source: HB,
-    section: "Section 2: Pavement Markings",
-    url: HB_URL,
-  },
-  {
     key: "painted-curbs",
     quote:
       "Generally, the colors on the curb mean: White -- Stop only long enough " +
@@ -836,15 +580,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
       "load or unload. Stay with your car. Red -- Do not stop, stand or park.",
     source: HB,
     section: "Section 2: Painted Curbs",
-    url: HB_URL,
-  },
-  {
-    key: "ezpass-lane-mistake",
-    quote:
-      "However, if you do enter one of those lanes by mistake, do not stop. " +
-      "Stopping is unsafe and could cause a rear-end crash.",
-    source: HB,
-    section: "Section 2: Toll Plazas and Lanes",
     url: HB_URL,
   },
 
@@ -904,25 +639,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "radar-detectors",
-    quote: "It is illegal to use radar detectors in Virginia.",
-    source: HB,
-    section: "Section 3: Speed Limits",
-    url: HB_URL,
-  },
-  {
-    key: "code-radar-detector",
-    quote:
-      "It shall be unlawful for any person to operate a motor vehicle on the " +
-      "highways of the Commonwealth when such vehicle is equipped with any " +
-      "device or mechanism, passive or active, to detect or purposefully " +
-      "interfere with or diminish the measurement capabilities of any radar, " +
-      "laser, or other device",
-    source: CODE,
-    section: "§ 46.2-1079. Radar detectors; demerit points not to be awarded",
-    url: code("46.2-1079"),
-  },
-  {
     key: "code-radar-sale",
     quote: "It shall be unlawful to sell any such device or mechanism in the Commonwealth.",
     source: CODE,
@@ -952,17 +668,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     source: CODE,
     section: "§ 46.2-870. Maximum speed limits generally",
     url: code("46.2-870"),
-  },
-  {
-    key: "code-business-residence-25",
-    quote:
-      "The maximum speed shall be 25 miles per hour on highways in business " +
-      "or residence districts, except on interstate or other limited access " +
-      "highways with divided roadways or nonlimited access highways having " +
-      "four or more lanes and all state primary highways.",
-    source: CODE,
-    section: "§ 46.2-874. Maximum speed limit in business and residence districts",
-    url: code("46.2-874"),
   },
   {
     key: "code-school-crossing-25",
@@ -1004,30 +709,8 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     section: "Speeding and Aggressive Driving FAQs",
     url: SPEED_FAQ,
   },
-  {
-    key: "isap-what",
-    quote:
-      "An Intelligent Speed Assistance (ISA) system is in-vehicle technology " +
-      "that uses GPS-based data to determine the posted speed limit and " +
-      "automatically prevents the vehicle from exceeding that limit.",
-    source: "Virginia DMV - Intelligent Speed Assistance Program (ISAP)",
-    section: "What is ISAP",
-    url: ISAP_URL,
-  },
 
   // --- Section 3: Stopping and right of way --------------------------------
-  {
-    key: "must-stop-list",
-    quote:
-      "You must always stop your vehicle: at all stop signs, red traffic " +
-      "lights and flashing red signals when entering a street or crossing " +
-      "over a sidewalk from a driveway, alley, building or parking lot at " +
-      "railroad crossings with flashing signals when signaled by flaggers " +
-      "directing traffic",
-    source: HB,
-    section: "Section 3: Stopping",
-    url: HB_URL,
-  },
   {
     key: "stop-behind-lead-car",
     quote:
@@ -1049,15 +732,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "school-bus-no-lights",
-    quote:
-      "You must also stop if the bus is loading or unloading passengers and " +
-      "the signals are not on.",
-    source: HB,
-    section: "Section 3: Stopping for School Buses",
-    url: HB_URL,
-  },
-  {
     key: "school-bus-median",
     quote:
       "You do not have to stop if you are traveling in the opposite direction " +
@@ -1068,48 +742,10 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "school-bus-web-median",
-    quote:
-      "If a school bus is on the opposite side of a median or barrier, " +
-      "motorists aren't required to stop; however, drivers should be prepared " +
-      "for students exiting the school bus and crossing into their lanes.",
-    source: "Virginia DMV - School Bus Safety",
-    section: "Stop. It's the law",
-    url: BUS_URL,
-  },
-  {
-    key: "code-school-bus-stop",
-    quote:
-      "A person driving a motor vehicle shall stop such vehicle when " +
-      "approaching, from any direction, any school bus which is stopped on " +
-      "any highway, private road or school driveway for the purpose of taking " +
-      "on or discharging children",
-    source: CODE,
-    section: "§ 46.2-859. Passing a stopped school bus",
-    url: code("46.2-859"),
-  },
-  {
-    key: "code-school-bus-reckless",
-    quote:
-      "and shall remain stopped until all the individuals are clear of the " +
-      "highway, private road or school driveway and the bus is put in motion; " +
-      "any individual violating the foregoing is guilty of reckless driving.",
-    source: CODE,
-    section: "§ 46.2-859. Passing a stopped school bus",
-    url: code("46.2-859"),
-  },
-  {
     key: "stopping-three-factors",
     quote:
       "Three factors determine the distance that it takes to stop your " +
       "vehicle: perception time, reaction distance and braking distance.",
-    source: HB,
-    section: "Section 3: Stopping Distance",
-    url: HB_URL,
-  },
-  {
-    key: "wet-doubles-braking",
-    quote: "For example, wet pavement can double your braking distance.",
     source: HB,
     section: "Section 3: Stopping Distance",
     url: HB_URL,
@@ -1154,15 +790,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     quote:
       "When entering a roadway from a private road or driveway, you must stop " +
       "and yield to all traffic and pedestrians.",
-    source: HB,
-    section: "Section 3: Yielding the Right-of-Way",
-    url: HB_URL,
-  },
-  {
-    key: "yield-pedestrian-crosswalk",
-    quote:
-      "You must yield to pedestrians or bicyclists who are crossing a street " +
-      "within a clearly marked crosswalk or at an unmarked intersection.",
     source: HB,
     section: "Section 3: Yielding the Right-of-Way",
     url: HB_URL,
@@ -1220,15 +847,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "move-over-mail",
-    quote:
-      "When passing a stationary mail vehicle, proceed with caution and " +
-      "maintain a safe speed for highway conditions.",
-    source: HB,
-    section: "Section 3: Yielding to Vehicles with Flashing Lights",
-    url: HB_URL,
-  },
-  {
     key: "park-500-fire",
     quote:
       "You may not park within 500 feet of where fire trucks or equipment are " +
@@ -1274,40 +892,11 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     section: "Section 3: Yielding to Vehicles with Flashing Lights",
     url: HB_URL,
   },
-  {
-    key: "roundabout-counter-clockwise",
-    quote:
-      "After entering the roundabout, drivers must travel in a " +
-      "counter-clockwise direction.",
-    source: HB,
-    section: "Section 3: Roundabouts",
-    url: HB_URL,
-  },
-  {
-    key: "roundabout-lane-choice",
-    quote:
-      "If you plan to turn right, stay to the right as you enter the " +
-      "roundabout. If you plan to go straight, you may stay in either lane " +
-      "(if it is a dual lane circular intersection). If you plan to turn " +
-      "left, stay to the left as you enter the roundabout.",
-    source: HB,
-    section: "Section 3: Roundabouts",
-    url: HB_URL,
-  },
 
   // --- Section 3: Lane use, passing, turning -------------------------------
   {
     key: "left-lane-passing-only",
     quote: "The left lane is for passing only, not cruising.",
-    source: HB,
-    section: "Section 3: Changing Lanes",
-    url: HB_URL,
-  },
-  {
-    key: "slower-stay-right",
-    quote:
-      "When driving on a multi-lane highway, stay in the right lane if you " +
-      "are driving slower than the traffic around you.",
     source: HB,
     section: "Section 3: Changing Lanes",
     url: HB_URL,
@@ -1323,15 +912,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     source: CODE,
     section: "§ 46.2-804. Special regulations applicable on highways laned for traffic",
     url: code("46.2-804"),
-  },
-  {
-    key: "pass-return-right",
-    quote:
-      "Return to the right lane as soon as you can see the front of the " +
-      "passed vehicle in your rearview mirror.",
-    source: HB,
-    section: "Section 3: Passing",
-    url: HB_URL,
   },
   {
     key: "pass-no-speeding",
@@ -1378,17 +958,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "code-bike-three-feet",
-    quote:
-      "Any driver of any motor vehicle overtaking a bicycle, electric " +
-      "personal assistive mobility device, electric power-assisted bicycle, " +
-      "moped, animal, or animal-drawn vehicle proceeding in the same " +
-      "direction shall pass at a reasonable speed at least three feet to the left",
-    source: CODE,
-    section: "§ 46.2-839. Passing bicycle, moped, animal, or animal-drawn vehicle",
-    url: code("46.2-839"),
-  },
-  {
     key: "code-bike-change-lanes",
     quote:
       "If the lane of travel is not wide enough to allow the overtaking motor " +
@@ -1408,69 +977,12 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "passing-unlawful",
-    quote:
-      "Passing is unlawful and unsafe: on hills, curves, at intersections or " +
-      "railroad crossings, except on roads with two or more lanes of traffic " +
-      "moving in the same direction off the pavement or on the shoulder of " +
-      "the road",
-    source: HB,
-    section: "Section 3: Passing",
-    url: HB_URL,
-  },
-  {
     key: "pass-crosswalk-stopped",
     quote:
       "when a solid line marks the left side of your lane when approaching a " +
       "crosswalk and the vehicle ahead of you or the lane next to you is stopped",
     source: HB,
     section: "Section 3: Passing",
-    url: HB_URL,
-  },
-  {
-    key: "over-correcting",
-    quote:
-      "Over-correcting occurs when the driver turns the steering wheel more " +
-      "sharply than expected, causing the rear wheels of the vehicle to slide " +
-      "toward the outside of the turn.",
-    source: HB,
-    section: "Section 3: Over-correcting",
-    url: HB_URL,
-  },
-  {
-    key: "veer-off-road",
-    quote:
-      "Gradually reduce your speed, look in the direction you want to go, " +
-      "slowly steer back onto the roadway.",
-    source: HB,
-    section: "Section 3: Over-correcting",
-    url: HB_URL,
-  },
-  {
-    key: "right-turn-lane",
-    quote:
-      "To make a right turn you should be in the lane furthest to the right.",
-    source: HB,
-    section: "Section 3: Turning",
-    url: HB_URL,
-  },
-  {
-    key: "turn-into-closest-lane",
-    quote:
-      "Turn into the lane closest to the curb unless pavement markings lead " +
-      "you otherwise, and then change lanes if needed.",
-    source: HB,
-    section: "Section 3: Turning",
-    url: HB_URL,
-  },
-  {
-    key: "left-turn-wheels-straight",
-    quote:
-      "Keep your front wheels pointed straight ahead until you are actually " +
-      "going to make the left turn. This prevents you from being pushed into " +
-      "oncoming traffic if another vehicle crashes into you from behind.",
-    source: HB,
-    section: "Section 3: Turning",
     url: HB_URL,
   },
   {
@@ -1488,15 +1000,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     quote:
       "In business districts, cities and towns, U-turns are allowed only at " +
       "intersections. Never make a U-turn on a highway.",
-    source: HB,
-    section: "Section 3: U-Turns",
-    url: HB_URL,
-  },
-  {
-    key: "uturn-outside-lane",
-    quote:
-      "When the way is clear, proceed into the outside or right hand lane " +
-      "traveling in the opposite direction.",
     source: HB,
     section: "Section 3: U-Turns",
     url: HB_URL,
@@ -1540,35 +1043,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "following-rule-how",
-    quote:
-      "If you reach the mark before you have counted off two, three, or four " +
-      "seconds, depending on speed, you're following too closely. Slow down " +
-      "and increase your following distance.",
-    source: HB,
-    section: "Section 3: Following Distance",
-    url: HB_URL,
-  },
-  {
-    key: "increase-following",
-    quote:
-      "Increase your following distance when driving: behind a large vehicle " +
-      "that blocks your vision in bad weather or heavy traffic when exiting " +
-      "an expressway behind a motorcycle or bicycle when being tailgated",
-    source: HB,
-    section: "Section 3: Maintaining a Space Cushion",
-    url: HB_URL,
-  },
-  {
-    key: "tailgating",
-    quote:
-      "Tailgating is when one driver follows another too closely. If you find " +
-      "yourself in this situation, do not brake suddenly.",
-    source: HB,
-    section: "Section 3: Maintaining a Space Cushion",
-    url: HB_URL,
-  },
-  {
     key: "search-20-30-seconds",
     quote:
       "Expert drivers try to focus their eyes 20 to 30 seconds ahead. In the " +
@@ -1596,34 +1070,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "mirror-adjust",
-    quote:
-      "Adjust both side mirrors so you can barely see the sides of your vehicle.",
-    source: HB,
-    section: "Section 3: Blind Spots",
-    url: HB_URL,
-  },
-  {
-    key: "blind-spot-check",
-    quote:
-      "The best way to see a car in your blind spot is by quickly turning " +
-      "your head and glancing over your shoulder to ensure the way is clear " +
-      "before changing lanes or passing another vehicle.",
-    source: HB,
-    section: "Section 3: Blind Spots",
-    url: HB_URL,
-  },
-  {
-    key: "pedestrian-right-of-way-turn",
-    quote:
-      "Be especially aware of pedestrians when making a right or left turn. " +
-      "They have the right-of-way. Allow pedestrians to completely cross the " +
-      "street before beginning your turn.",
-    source: HB,
-    section: "Section 3: Sharing the Road - Pedestrians",
-    url: HB_URL,
-  },
-  {
     key: "pedestrian-cane-dog",
     quote:
       "Drivers are required to come to a full stop for a pedestrian using a " +
@@ -1641,26 +1087,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     source: HB,
     section: "Section 3: Sharing the Road - Pedestrians",
     url: HB_URL,
-  },
-  {
-    key: "passing-crosswalk-illegal",
-    quote:
-      "Passing at a crosswalk is illegal. You may not see pedestrians " +
-      "crossing the road in front of other vehicles.",
-    source: HB,
-    section: "Section 3: Sharing the Road - Pedestrians",
-    url: HB_URL,
-  },
-  {
-    key: "code-ped-stop",
-    quote:
-      "The driver of any vehicle on a highway shall stop when any pedestrian " +
-      "crossing such highway is within the driver's lane or within an " +
-      "adjacent lane and approaching the driver's lane until such pedestrian " +
-      "has passed the lane in which the vehicle is stopped",
-    source: CODE,
-    section: "§ 46.2-924. Drivers to stop for pedestrians",
-    url: code("46.2-924"),
   },
   {
     key: "code-ped-35-intersection",
@@ -1701,15 +1127,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "bike-lanes-prohibited",
-    quote:
-      "Using marked bicycle lanes is prohibited by motor vehicles, including " +
-      "while passing.",
-    source: HB,
-    section: "Section 3: Sharing the Road - Bicycles",
-    url: HB_URL,
-  },
-  {
     key: "motorcycle-lane-use",
     quote:
       "Although a motorcycle is not as wide as the lane, the rider will use " +
@@ -1745,13 +1162,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "golf-carts",
-    quote: "Golf carts are not classified as low speed vehicles.",
-    source: HB,
-    section: "Section 3: Sharing the Road - Low Speed Vehicles",
-    url: HB_URL,
-  },
-  {
     key: "truck-mirror-rule",
     quote:
       "If you can't see the driver's face in his side view mirror, then he " +
@@ -1776,15 +1186,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
       "stopping and can clear the tracks to a safe distance.",
     source: HB,
     section: "Section 3: Sharing the Road - Light Rail",
-    url: HB_URL,
-  },
-  {
-    key: "backing-look",
-    quote:
-      "To see as much as possible, turn your body and head to the right and " +
-      "look out through the rear window.",
-    source: HB,
-    section: "Section 3: Backing",
     url: HB_URL,
   },
 
@@ -1827,15 +1228,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "park-hill-curb",
-    quote:
-      "With a curb: Turn the front wheels of your vehicle to prevent it from " +
-      "rolling into the street.",
-    source: HB,
-    section: "Section 3: Parking on a hill",
-    url: HB_URL,
-  },
-  {
     key: "park-hill-wheels",
     quote:
       "Parking downhill -- with curb Turn front wheels right Parking uphill " +
@@ -1863,29 +1255,12 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "headlights-500-feet",
-    quote:
-      "Virginia law requires motorists to use headlights during inclement " +
-      "weather such as rain, fog, snow or sleet when visibility is reduced to " +
-      "500 feet.",
-    source: HB,
-    section: "Section 3: Lights",
-    url: HB_URL,
-  },
-  {
     key: "headlights-wipers",
     quote:
       "You must use your headlights whenever you use your windshield wipers " +
       "as a result of bad weather.",
     source: HB,
     section: "Section 3: Lights",
-    url: HB_URL,
-  },
-  {
-    key: "headlights-sunset",
-    quote: "You must use headlights from sunset to sunrise.",
-    source: HB,
-    section: "Section 3: Night Driving",
     url: HB_URL,
   },
   {
@@ -1907,38 +1282,12 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "other-driver-not-dim",
-    quote:
-      "Even if the other driver does not dim his headlights, do not turn on " +
-      "your high-beam headlights.",
-    source: HB,
-    section: "Section 3: Night Driving",
-    url: HB_URL,
-  },
-  {
-    key: "fog-low-beams",
-    quote:
-      "Use low-beam headlights in heavy fog and look for road edge markings " +
-      "to guide you.",
-    source: HB,
-    section: "Section 3: Fog",
-    url: HB_URL,
-  },
-  {
     key: "first-half-hour-rain",
     quote:
       "When rain begins, during the first half-hour, roads are more likely to " +
       "be slippery due to oil on the road surface mixing with water.",
     source: HB,
     section: "Section 3: Rain",
-    url: HB_URL,
-  },
-  {
-    key: "hazard-double-following",
-    quote:
-      "Increase your space cushion by doubling your normal following distance",
-    source: HB,
-    section: "Section 3: Hazardous Conditions",
     url: HB_URL,
   },
   {
@@ -1959,30 +1308,8 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     section: "Section 3: Snow",
     url: HB_URL,
   },
-  {
-    key: "slippery-brake-gently",
-    quote:
-      "When driving on slippery surfaces and you need to stop, release the " +
-      "accelerator and apply brakes gently. You have the most traction and " +
-      "control when the front tires are rolling.",
-    source: HB,
-    section: "Section 3: Snow",
-    url: HB_URL,
-  },
 
   // --- Section 3: Dangerous behaviour, crashes -----------------------------
-  {
-    key: "aggressive-driving-def",
-    quote:
-      "This dangerous driving behavior is defined by Virginia law as the " +
-      "intent to harass, intimidate, injure or obstruct another person while " +
-      "committing one or more traffic offenses such as failing to stop or " +
-      "yield the right-of-way, avoiding a traffic control device or failing " +
-      "to give way to an overtaking vehicle.",
-    source: HB,
-    section: "Section 3: Aggressive Driving",
-    url: HB_URL,
-  },
   {
     key: "aggressive-driving-penalty",
     quote:
@@ -1991,45 +1318,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     source: HB,
     section: "Section 3: Aggressive Driving",
     url: HB_URL,
-  },
-  {
-    key: "report-aggressive-77",
-    quote:
-      "If you are traveling on an interstate in Virginia, pull off the road " +
-      "in a safe place or ask a passenger to dial #77 on your mobile phone.",
-    source: "Virginia DMV - Speeding and Aggressive Driving FAQs",
-    section: "How do I report an aggressive driver?",
-    url: SPEED_FAQ,
-  },
-  {
-    key: "handheld-ban",
-    quote:
-      "Virginia law prohibits drivers from holding cell phones or any other " +
-      "wireless communication devices while driving except in a driver " +
-      "emergency or the vehicle is lawfully parked or stopped.",
-    source: HB,
-    section: "Section 3: Distracted Driving",
-    url: HB_URL,
-  },
-  {
-    key: "phone-navigation",
-    quote:
-      "A mobile phone or other telecommunications device may be used for " +
-      "navigation, as long as the driver is not entering information or " +
-      "holding it while driving.",
-    source: HB,
-    section: "Section 3: Distracted Driving",
-    url: HB_URL,
-  },
-  {
-    key: "code-handheld-unlawful",
-    quote:
-      "It is unlawful for any person, while driving a moving motor vehicle on " +
-      "the highways in the Commonwealth, to hold a handheld personal " +
-      "communications device.",
-    source: CODE,
-    section: "§ 46.2-818.2. Use of handheld personal communications devices",
-    url: code("46.2-818.2"),
   },
   {
     key: "code-handheld-fines",
@@ -2050,15 +1338,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: code("46.2-818.2"),
   },
   {
-    key: "teen-cell-ban",
-    quote:
-      "Virginia's cellular telephone law prohibits the use of cell phones " +
-      "while driving, regardless of whether such device is or is not hand-held.",
-    source: "Virginia DMV - Teen Driving Restrictions",
-    section: "Cellular Telephone/Wireless Telecommunications Device Restrictions",
-    url: TEEN_URL,
-  },
-  {
     key: "drowsy-avoid-hours",
     quote: "Avoid driving from 10 p.m. to 6 a.m.",
     source: HB,
@@ -2071,22 +1350,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
       "Rolling down a window, chewing gum, turning up the radio, or consuming " +
       "caffeine, energy drinks or other stimulants do not prevent drowsy " +
       "driving and are not reliable methods for staying awake.",
-    source: HB,
-    section: "Section 3: Drowsy Driving",
-    url: HB_URL,
-  },
-  {
-    key: "drowsy-nap",
-    quote:
-      "Stop at a safe place and take a nap. As little as 10 to 20 minutes of " +
-      "sleep can make a big difference.",
-    source: HB,
-    section: "Section 3: Drowsy Driving",
-    url: HB_URL,
-  },
-  {
-    key: "drowsy-two-hours",
-    quote: "Stop at least every two hours for rest.",
     source: HB,
     section: "Section 3: Drowsy Driving",
     url: HB_URL,
@@ -2149,16 +1412,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "crash-move-vehicles",
-    quote:
-      "Drivers must move vehicles from the road immediately if the vehicles " +
-      "are able to be moved, no one is injured and the driver is capable of " +
-      "safely doing so.",
-    source: HB,
-    section: "Section 3: Traffic Crashes",
-    url: HB_URL,
-  },
-  {
     key: "crash-do-not-move-injured",
     quote:
       "Do not attempt to move an injured person from a wrecked vehicle unless " +
@@ -2194,13 +1447,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
       "You must make a reasonable effort to find the owner of an unattended " +
       "vehicle or other property damaged in a crash. If you cannot locate " +
       "anyone, leave a note that can be found easily at the scene of the crash.",
-    source: HB,
-    section: "Section 3: Traffic Crashes",
-    url: HB_URL,
-  },
-  {
-    key: "unattended-24-hours",
-    quote: "You must also report the crash to the police within 24 hours.",
     source: HB,
     section: "Section 3: Traffic Crashes",
     url: HB_URL,
@@ -2257,38 +1503,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     section: "Section 3: Deer/Large Animal Hazards",
     url: HB_URL,
   },
-  {
-    key: "deer-dusk-dawn",
-    quote: "Be alert at dusk and dawn especially in the fall.",
-    source: HB,
-    section: "Section 3: Deer/Large Animal Hazards",
-    url: HB_URL,
-  },
-  {
-    key: "traffic-stop-stay",
-    quote: "Stay in your vehicle. Do not get out unless the officer asks you to.",
-    source: HB,
-    section: "Section 3: Traffic Stops",
-    url: HB_URL,
-  },
-  {
-    key: "traffic-stop-hands",
-    quote:
-      "Keep your hands in plain view, preferably on the steering wheel. Ask " +
-      "your passengers to keep their hands in plain view also.",
-    source: HB,
-    section: "Section 3: Traffic Stops",
-    url: HB_URL,
-  },
-  {
-    key: "sign-citation",
-    quote:
-      "Sign the citation; this is not an admission of guilt. Refusal to sign " +
-      "the citation may result in your arrest.",
-    source: HB,
-    section: "Section 3: Traffic Stops",
-    url: HB_URL,
-  },
 
   // --- Section 4: Belts, airbags, child seats ------------------------------
   {
@@ -2301,38 +1515,8 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "seat-belt-july-2025",
-    quote:
-      "Effective July 1, 2025, Virginia law requires all occupants of motor " +
-      "vehicles to be restrained by a seat belt, regardless of where they are " +
-      "seated in the vehicle.",
-    source: "Virginia DMV - Seat Belts and Airbags",
-    section: "Seat Belts and Airbags",
-    url: BELT_URL,
-  },
-  {
-    key: "seat-belt-under-18-driver",
-    quote:
-      "A driver transporting anyone younger than age 18 must ensure that the " +
-      "passenger is properly secured in a safety belt, booster seat or child " +
-      "safety seat no matter where the child is seated in the vehicle.",
-    source: HB,
-    section: "Section 4: Seat Belts",
-    url: HB_URL,
-  },
-  {
     key: "shoulder-belt-position",
     quote: "Never wear your shoulder belt behind your back or under your arm.",
-    source: HB,
-    section: "Section 4: Seat Belts",
-    url: HB_URL,
-  },
-  {
-    key: "seat-belt-waiver",
-    quote:
-      "Exception: A waiver of the seat belt requirement may be granted by a " +
-      "licensed physician if the use of a safety belt is not reasonable due " +
-      "to the driver's or passenger's physical or medical condition.",
     source: HB,
     section: "Section 4: Seat Belts",
     url: HB_URL,
@@ -2345,31 +1529,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     source: HB,
     section: "Section 4: Air Bags",
     url: HB_URL,
-  },
-  {
-    key: "airbag-tilt",
-    quote:
-      "If your steering wheel is adjustable, tilt it downward. This points " +
-      "the air bag toward your chest instead of your head and neck.",
-    source: HB,
-    section: "Section 4: Air Bags",
-    url: HB_URL,
-  },
-  {
-    key: "children-12-back-seat",
-    quote: "Children ages 12 and under are safer buckled up in the back seat.",
-    source: HB,
-    section: "Section 4: Air Bags",
-    url: HB_URL,
-  },
-  {
-    key: "child-under-13-back",
-    quote:
-      "All children under age 13 years should be correctly restrained in the " +
-      "back seat",
-    source: "Virginia DMV - Seat Belts and Airbags",
-    section: "Airbags",
-    url: BELT_URL,
   },
   {
     key: "child-seat-under-8",
@@ -2390,82 +1549,8 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     section: "Section 4: Child Safety Seats",
     url: HB_URL,
   },
-  {
-    key: "child-front-seat-airbag",
-    quote:
-      "If the vehicle does not have a back seat, a rear facing child seat may " +
-      "be placed in the front passenger seat if the vehicle is not equipped " +
-      "with a passenger side air bag or if the passenger air bag is turned off.",
-    source: HB,
-    section: "Section 4: Child Safety Seats",
-    url: HB_URL,
-  },
-  {
-    key: "code-child-restraint-back-seat",
-    quote: "Further, child restraint devices shall be placed in the back seat of a vehicle.",
-    source: CODE,
-    section: "§ 46.2-1095. Child restraint devices required",
-    url: code("46.2-1095"),
-  },
-  {
-    key: "code-child-forward-facing",
-    quote:
-      "Such child restraint device shall not be forward-facing until at least " +
-      "(i) the child reaches two years of age or (ii) the child reaches the " +
-      "minimum weight limit for a forward-facing child restraint device as " +
-      "prescribed by the manufacturer of the device.",
-    source: CODE,
-    section: "§ 46.2-1095. Child restraint devices required",
-    url: code("46.2-1095"),
-  },
-  {
-    key: "child-restraint-fine",
-    quote:
-      "If you are convicted of violating the child restraint law, you will be " +
-      "fined $50. A second or subsequent offense could mean a $500 penalty.",
-    source: HB,
-    section: "Section 4: Child Safety Seats",
-    url: HB_URL,
-  },
-  {
-    key: "child-seat-center-back",
-    quote:
-      "The safest place to install a child safety seat is in the center of " +
-      "the back seat.",
-    source: HB,
-    section: "Section 4: Child Safety Seats",
-    url: HB_URL,
-  },
-  {
-    key: "never-hold-child",
-    quote:
-      "Never hold a child in your lap. In a crash, the child may be crushed " +
-      "between your body and the dashboard or the back of the seat.",
-    source: HB,
-    section: "Section 4: Child Safety Seats",
-    url: HB_URL,
-  },
-  {
-    key: "pickup-bed-under-16",
-    quote:
-      "It is illegal to transport children under age 16 in the bed of a " +
-      "pickup truck, even if equipped with a camper shell.",
-    source: HB,
-    section: "Section 4: Child Safety Seats",
-    url: HB_URL,
-  },
 
   // --- Section 5: Penalties -------------------------------------------------
-  {
-    key: "suspension-vs-revocation",
-    quote:
-      "If your license is suspended, your privilege to drive has been " +
-      "withdrawn temporarily. You may pay the required fees and reinstate " +
-      "your license at the end of the suspension period.",
-    source: HB,
-    section: "Section 5: Penalties",
-    url: HB_URL,
-  },
   {
     key: "revocation-def",
     quote:
@@ -2475,17 +1560,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
       "has passed.",
     source: HB,
     section: "Section 5: Penalties",
-    url: HB_URL,
-  },
-  {
-    key: "clinic-under-18-first",
-    quote:
-      "Under Age 18: If you are convicted of a demerit point traffic " +
-      "violation (or safety belt/child restraint violation) committed when " +
-      "you were under age 18, DMV will require that you complete a driver " +
-      "improvement clinic.",
-    source: HB,
-    section: "Section 5: Driver Improvement Program",
     url: HB_URL,
   },
   {
@@ -2501,37 +1575,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "under-18-revoke-third",
-    quote:
-      "After a third demerit point (or a safety belt or child restraint " +
-      "violation) conviction for a violation committed when you were under " +
-      "age 18, DMV will revoke your permit or license for one year or until " +
-      "you reach age 18, whichever is longer.",
-    source: "Virginia DMV - Traffic Violations, Drivers Under Age 18",
-    section: "Traffic Violations - Drivers Under Age 18",
-    url: PTS_UNDER,
-  },
-  {
-    key: "age-18-19-clinic",
-    quote:
-      "Age 18 or 19: DMV will require you to complete a driver improvement " +
-      "clinic if you are convicted of a demerit point or safety belt/child " +
-      "restraint violation committed while you were age 18 or 19.",
-    source: HB,
-    section: "Section 5: Driver Improvement Program",
-    url: HB_URL,
-  },
-  {
-    key: "adult-12-points",
-    quote:
-      "Age 18 or Older: DMV will require you to complete a driver improvement " +
-      "clinic if you accumulate 12 demerit points within 12 months or 18 " +
-      "points within 24 months.",
-    source: HB,
-    section: "Section 5: Driver Improvement Program",
-    url: HB_URL,
-  },
-  {
     key: "adult-18-points",
     quote:
       "If you receive 18 demerit points within 12 months or 24 points within " +
@@ -2540,16 +1583,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     source: HB,
     section: "Section 5: Driver Improvement Program",
     url: HB_URL,
-  },
-  {
-    key: "advisory-letter-8-points",
-    quote:
-      "If you are 18 or older and you accumulate 8 demerit points in 12 " +
-      "months (or 12 points in 24 months), you will receive an advisory " +
-      "letter that cautions you about the consequences of violating the law.",
-    source: "Virginia DMV - Traffic Violations, Drivers Age 18 and Over",
-    section: "Traffic Violations - Drivers Age 18 and Over",
-    url: PTS_OVER,
   },
   {
     key: "demerit-two-years",
@@ -2561,27 +1594,8 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: PTS_URL,
   },
   {
-    key: "safe-driving-points",
-    quote:
-      "One safe driving point is assigned for each full calendar year that " +
-      "you hold a valid Virginia driver's license and drive without any " +
-      "violations or suspensions.",
-    source: "Virginia DMV - The Points System",
-    section: "Safe Points",
-    url: PTS_URL,
-  },
-  {
     key: "safe-points-max-five",
     quote: "A driver may accumulate a maximum of five safe driving points.",
-    source: "Virginia DMV - The Points System",
-    section: "Safe Points",
-    url: PTS_URL,
-  },
-  {
-    key: "safe-points-clinic",
-    quote:
-      "You may earn five safe driving points by completing a driver " +
-      "improvement clinic.",
     source: "Virginia DMV - The Points System",
     section: "Safe Points",
     url: PTS_URL,
@@ -2593,16 +1607,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
       "you: are stopped by law enforcement and you have an open container of " +
       "alcohol in the passenger area and the contents have been partially " +
       "removed, and show signs that you have been drinking",
-    source: HB,
-    section: "Section 5: Open Alcohol Containers in Vehicles",
-    url: HB_URL,
-  },
-  {
-    key: "passenger-area-def",
-    quote:
-      "The passenger area means the area that seats the driver and passengers " +
-      "and any area within the driver's reach, including an unlocked glove " +
-      "compartment.",
     source: HB,
     section: "Section 5: Open Alcohol Containers in Vehicles",
     url: HB_URL,
@@ -2692,44 +1696,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     section: "Section 5: Alcohol Related Violations, Persons Under Age 21",
     url: HB_URL,
   },
-  {
-    key: "fake-id-penalty",
-    quote:
-      "If you are under age 21 and you use or attempt to use a fake ID to " +
-      "establish a false age in an attempt to drink or purchase alcohol, you " +
-      "will: be fined at least $500 be required to perform at least 50 hours " +
-      "of community service face up to 12 months in jail",
-    source: HB,
-    section: "Section 5: Alcohol Related Violations, Persons Under Age 21",
-    url: HB_URL,
-  },
-  {
-    key: "zero-tolerance",
-    quote: "Virginia has a zero tolerance law against underage drinking",
-    source: HB,
-    section: "Section 5: Alcohol Related Violations, Persons Under Age 21",
-    url: HB_URL,
-  },
-  {
-    key: "conviction-suspensions",
-    quote:
-      "The court or DMV will suspend or revoke your privilege to drive if you " +
-      "are convicted of any of the following offenses: operating a motor " +
-      "vehicle while under the influence of alcohol or drugs (DUI)",
-    source: HB,
-    section: "Section 5: Conviction-Related Suspensions and Revocations",
-    url: HB_URL,
-  },
-  {
-    key: "isap-2026",
-    quote:
-      "Beginning July 1, 2026, ISAP becomes effective and eligible drivers " +
-      "may be required to install an ISA device in all vehicles they own or " +
-      "co-own as a condition of maintaining restricted driving privileges.",
-    source: "Virginia DMV - Intelligent Speed Assistance Program (ISAP)",
-    section: "What is ISAP",
-    url: ISAP_URL,
-  },
 
   // --- Section 6 and 7: Licensing, documents, insurance --------------------
   {
@@ -2753,59 +1719,12 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: code("46.2-335"),
   },
   {
-    key: "code-permit-15-6",
-    quote:
-      "The Department, on receiving from any Virginia resident over the age " +
-      "of 15 years and six months an application for a learner's permit or " +
-      "motorcycle learner's permit",
-    source: CODE,
-    section: "§ 46.2-335. Learner's permits; fees; certification required",
-    url: code("46.2-335"),
-  },
-  {
-    key: "code-license-16-3",
-    quote:
-      "Minors at least 16 years and three months old may be issued driver's " +
-      "licenses under the following conditions",
-    source: CODE,
-    section: "§ 46.2-334. Conditions and requirements for licensure of persons under 18",
-    url: code("46.2-334"),
-  },
-  {
-    key: "learners-19-60-days",
-    quote:
-      "If you are age 19 or older, you must hold a learner's permit for 60 " +
-      "days, or present a driver's education certificate of completion to " +
-      "apply for a driver's license.",
-    source: HB,
-    section: "Section 6: Learner's Permit",
-    url: HB_URL,
-  },
-  {
     key: "under-18-permit-9-months",
     quote:
       "you must hold your Virginia learner's permit for at least nine months " +
       "and complete a Commonwealth of Virginia-approved driver education program",
     source: "Virginia DMV - Driver Education",
     section: "Who Is Required to Take Driver Education?",
-    url: ED_URL,
-  },
-  {
-    key: "driver-ed-45-hours",
-    quote:
-      "certifies that you have driven at least 45 hours (15 of which occurred " +
-      "after sunset)",
-    source: "Virginia DMV - Driver Education",
-    section: "Who Is Required to Take Driver Education?",
-    url: ED_URL,
-  },
-  {
-    key: "driver-ed-sessions",
-    quote:
-      "The program includes 36 classroom sessions, seven driving sessions, " +
-      "seven observation sessions and a final road skills examination.",
-    source: "Virginia DMV - Driver Education",
-    section: "Driver Education",
     url: ED_URL,
   },
   {
@@ -2821,38 +1740,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: TEEN_URL,
   },
   {
-    key: "code-curfew",
-    quote:
-      "The holder of a provisional driver's license shall not operate a motor " +
-      "vehicle on the highways of the Commonwealth between the hours of " +
-      "midnight and 4:00 a.m. except when driving (i) to or from a place of " +
-      "business where he is employed",
-    source: CODE,
-    section: "§ 46.2-334.01. Licenses issued to persons less than 18 years old",
-    url: code("46.2-334.01"),
-  },
-  {
-    key: "passenger-one-under-21",
-    quote:
-      "If you are under age 18, you may carry only one passenger under age " +
-      "21, unless accompanied by a licensed parent, or other adult acting in " +
-      "place of a parent, in the front passenger seat.",
-    source: "Virginia DMV - Teen Driving Restrictions",
-    section: "Restrictions on the Number of Passengers",
-    url: TEEN_URL,
-  },
-  {
-    key: "passenger-three-after-year",
-    quote:
-      "However, after you have held your license for one year, you may carry " +
-      "up to three passengers under age 21 in the following situations: " +
-      "Travel to and from a school-sponsored activity; A licensed driver 21 " +
-      "or older is in the front passenger seat; or In case of an emergency.",
-    source: "Virginia DMV - Teen Driving Restrictions",
-    section: "Restrictions on the Number of Passengers",
-    url: TEEN_URL,
-  },
-  {
     key: "permit-one-passenger",
     quote:
       "Learner's permit holders may not carry more than one passenger under " +
@@ -2860,54 +1747,6 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     source: "Virginia DMV - Teen Driving Restrictions",
     section: "Restrictions on the Number of Passengers",
     url: TEEN_URL,
-  },
-  {
-    key: "passenger-family-exempt",
-    quote:
-      "(Passenger restrictions do not apply to family members) Violations of " +
-      "either the curfew or passenger restrictions can result in the " +
-      "suspension of your driver's license.",
-    source: "Virginia DMV - Teen Driving Restrictions",
-    section: "Restrictions on the Number of Passengers",
-    url: TEEN_URL,
-  },
-  {
-    key: "code-provisional-expires-18",
-    quote:
-      "The provisional driver's license restrictions in subsections B and C " +
-      "shall expire on the holder's eighteenth birthday.",
-    source: CODE,
-    section: "§ 46.2-334.01. Licenses issued to persons less than 18 years old",
-    url: code("46.2-334.01"),
-  },
-  {
-    key: "international-permit",
-    quote:
-      "An international driver's license is not a valid driver's license and " +
-      "does not allow you to drive.",
-    source: HB,
-    section: "Section 6: International Driver's License",
-    url: HB_URL,
-  },
-  {
-    key: "school-bus-15-occupants",
-    quote:
-      "If you wish to operate a school bus designed to carry 15 occupants " +
-      "(including the driver), you do not need to obtain a commercial " +
-      "driver's license.",
-    source: HB,
-    section: "Section 6: School Bus Driver's License",
-    url: HB_URL,
-  },
-  {
-    key: "license-weight-limit",
-    quote:
-      "A driver's license allows you to operate any vehicle or small truck " +
-      "less than 26,001 pounds that is exempt from commercial driver's " +
-      "license (CDL) requirements.",
-    source: HB,
-    section: "Section 6: Driver's License",
-    url: HB_URL,
   },
   {
     key: "carry-license",
@@ -2935,136 +1774,10 @@ export const virginiaExcerpts: HandbookExcerpt[] = [
     url: HB_URL,
   },
   {
-    key: "register-30-days",
-    quote:
-      "Title and register your vehicle and obtain Virginia license plates " +
-      "within 30 days of moving to Virginia.",
-    source: HB,
-    section: "Section 7: Titles, Registrations, License Plates, Decals",
-    url: HB_URL,
-  },
-  {
-    key: "plates-front-rear",
-    quote: "License plates must be displayed on the front and rear of the vehicle.",
-    source: HB,
-    section: "Section 7: Titles, Registrations, License Plates, Decals",
-    url: HB_URL,
-  },
-  {
-    key: "registration-card",
-    quote:
-      "You must have the vehicle registration card with you when operating " +
-      "the vehicle.",
-    source: HB,
-    section: "Section 7: Titles, Registrations, License Plates, Decals",
-    url: HB_URL,
-  },
-  {
-    key: "annual-inspection",
-    quote:
-      "Your vehicle must pass an annual vehicle safety inspection and display " +
-      "a valid safety inspection sticker.",
-    source: HB,
-    section: "Section 7: Safety Inspections",
-    url: HB_URL,
-  },
-  {
-    key: "penny-test",
-    quote:
-      "If any part of Lincoln's head is covered by the tread, you're driving " +
-      "with the safe amount of tread.",
-    source: HB,
-    section: "Section 7: Tire Safety Inspection",
-    url: HB_URL,
-  },
-  {
-    key: "tire-pressure",
-    quote:
-      "The recommended PSI (pounds per square inch) is located in the vehicle " +
-      "owner's manual or the driver's side door jamb of the vehicle.",
-    source: HB,
-    section: "Section 7: Tire Safety Inspection",
-    url: HB_URL,
-  },
-  {
-    key: "insurance-certify",
-    quote:
-      "To purchase license plates or decals, you must certify that the " +
-      "vehicle is covered by the minimum insurance requirements.",
-    source: "Virginia DMV - Insurance Requirements",
-    section: "Insurance Requirements",
-    url: INS_URL,
-  },
-  {
     key: "insurance-min-2025",
     quote: "Policies effective on or after Jan. 1, 2025 | $50,000 | $100,000 | $25,000",
     source: "Virginia DMV - Insurance Requirements",
     section: "Liability Insurance Policy Minimum Limits",
     url: INS_URL,
-  },
-  {
-    key: "insurance-carry-proof",
-    quote: "Drivers should keep proof of insurance in their vehicle at all times.",
-    source: "Virginia DMV - Insurance Requirements",
-    section: "Carrying Proof of Insurance",
-    url: INS_URL,
-  },
-  {
-    key: "insurance-terminates",
-    quote:
-      "If liability insurance coverage on a vehicle terminates or cancels " +
-      "during the registration period, you must: reinsure the vehicle " +
-      "deactivate your license plates OR permanently surrender the license " +
-      "plates to DMV.",
-    source: "Virginia DMV - Insurance Requirements",
-    section: "Penalties",
-    url: INS_URL,
-  },
-  {
-    key: "insurance-noncompliance-600",
-    quote:
-      "pay a $600 noncompliance fee or apply and be approved for a payment " +
-      "plan, and have your insurance company file a certificate that you have " +
-      "a policy with the required coverage limits.",
-    source: HB,
-    section: "Section 7: Insurance Requirements",
-    url: HB_URL,
-  },
-  {
-    key: "sr22-three-years",
-    quote:
-      "You will have to file this certificate of insurance for three years " +
-      "from the date you regain your driving privileges.",
-    source: HB,
-    section: "Section 7: Insurance Requirements",
-    url: HB_URL,
-  },
-  {
-    key: "insurance-uninsured-suspend",
-    quote:
-      "Uninsured vehicle owners will have their driving and vehicle " +
-      "registration privileges suspended.",
-    source: "Virginia DMV - Insurance Requirements",
-    section: "Penalties",
-    url: INS_URL,
-  },
-  {
-    key: "organ-donor-under-18",
-    quote:
-      "If you are under age 18, you can indicate your wishes to donate by " +
-      "checking yes; by law, your parents and guardians must make the final " +
-      "decision.",
-    source: HB,
-    section: "Section 7: Organ, Eye and Tissue Donation",
-    url: HB_URL,
-  },
-  {
-    key: "manual-not-law",
-    quote:
-      "This manual is an informational tool. It does not supercede the Code " +
-      "of Virginia, Virginia Administrative Code or any other statute.",
-    source: HB,
-    section: "Back cover",
-    url: HB_URL,
   },
 ];

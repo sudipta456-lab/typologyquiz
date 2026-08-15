@@ -408,8 +408,8 @@ export const newjerseySets4to6: DrivingTestSet[] = [
           "New Jersey separates warning devices into passive and active. Pavement markings, signs and crossbucks are passive and always present. Flashing red lights, ringing bells and lowered gates are active and mean a train is coming now. The crossbuck alone carries the weight of a yield sign; the active devices carry the weight of a stop.",
         trap:
           "Gates rising feels like the all-clear because it is the most visible device. The lights are the last thing to stop, and they stop for a reason.",
-        excerptKey: "active-passive-warning-devices",
-        sourceLabel: "NJ Driver Manual - Chapter 11, Road Markings",
+        excerptKey: "railroad-wait-for-gates",
+        sourceLabel: "NJ Driver Manual - Chapter 4, Stop at Railroad Crossings",
         sourceUrl: HB,
       },
       {
@@ -493,7 +493,7 @@ export const newjerseySets4to6: DrivingTestSet[] = [
         explanation:
           "New Jersey requires a full stop for a person using a predominantly white or metallic cane, for a blind person with a guide dog, and for a guide dog instructor at work. The manual calls the law extremely specific on this.",
         context:
-          "It is one of a small group of situations where the manual lists stopping as an absolute duty rather than a yield: a stop sign, a red light, an officer's order, a school bus with red flashers, a bridge about to open for boat traffic, a pedestrian in a crosswalk, a motorised wheelchair or mobility device in a crosswalk, and a blind pedestrian with a cane or guide dog.",
+          "This is one of a small group of situations where the manual lists stopping as an absolute duty rather than a yield. The others are a stop sign, a red light, an officer's order, a school bus showing red flashers, a bridge about to open for boat traffic, a pedestrian in a crosswalk, and a motorised wheelchair or mobility device in a crosswalk. What they have in common is that no judgment call is left to you about whether the other party is close enough to matter.",
         trap:
           "Sounding the horn is actively counterproductive here, because a blind pedestrian is navigating by the sound of your engine. Stopping is what tells them the road is safe.",
         excerptKey: "white-cane-stop",
@@ -1307,7 +1307,7 @@ export const newjerseySets4to6: DrivingTestSet[] = [
         explanation:
           "Up to 25 percent more distance in bad weather. That is on top of the longer stopping distance a loaded vehicle already needs in the dry.",
         context:
-          "The practical consequences run through the whole of the manual's advice on large vehicles: leave more room in front of a truck than you would in front of a car, never sit sandwiched between two of them, leave space when stopping behind one on an uphill grade because it may roll back, and remember that pulling in too soon after passing puts you in the front no-zone of a vehicle that cannot stop for you.",
+          "The practical consequences run through all of the manual's advice on large vehicles. Leave more room in front of a truck than you would in front of a car, never sit sandwiched between two of them, and leave space when stopping behind one on an uphill grade, because it may roll back as it pulls away. Pulling in too soon after passing puts you in the front no-zone of a vehicle that cannot stop for you.",
         trap:
           "The figure matters because drivers judge a truck's stopping ability from their own. Twenty-five percent more distance is roughly a car length and a half at 30 mph.",
         excerptKey: "truck-stopping-bad-weather",
@@ -1481,7 +1481,7 @@ export const newjerseySets4to6: DrivingTestSet[] = [
         explanation:
           "A motorist who opens a door into traffic may be liable for any resulting crash with a moving vehicle. The manual recommends passengers get out on the kerb side instead.",
         context:
-          "Dooring is one of the commonest ways cyclists are injured, which is why New Jersey pairs this with a checking routine: look for bicycles and mopeds before opening the driver's door, and check blind spots before turning, parallel parking, opening a door or pulling away from a kerb, by turning your head rather than relying on mirrors.",
+          "Dooring is one of the commonest ways cyclists are injured, which is why New Jersey pairs the liability rule with a checking routine. Look for bicycles and mopeds before you open the driver's door, and check your blind spots before turning, parallel parking, opening a door or pulling away from a kerb. The manual asks you to do that by turning your head rather than relying on the mirrors.",
         commonlyMissed: true,
         trap:
           "Being stationary feels like it removes your responsibility. Opening the door is the act that creates the hazard, and that is where the liability lands.",

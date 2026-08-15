@@ -60,6 +60,14 @@ const OFFICIAL_HOSTS = [
   "bmv.ohio.gov",
   "publicsafety.ohio.gov",
   "codes.ohio.gov",
+  // Virginia
+  "dmv.virginia.gov",
+  "law.lis.virginia.gov",
+  // New Jersey
+  "nj.gov",
+  // Michigan
+  "michigan.gov",
+  "legislature.mi.gov",
   // North Carolina
   "ncdot.gov",
   "ncdoi.gov",
