@@ -92,6 +92,17 @@ export interface TestDefinition {
   balanced?: TypeMeta;
   /** For scoreMode "spectrum": bands for test.axes[0], matched by score <= max ascending. */
   spectrumBands?: SpectrumBand[];
+  /**
+   * Optional glossary of foreign / culture-specific words used by the quiz.
+   * Shown on the intro page ("Words to know") with the note as hover tooltip.
+   */
+  terms?: TermNote[];
+}
+
+/** A foreign or culture-specific term plus its plain-English meaning. */
+export interface TermNote {
+  term: string;
+  note: string;
 }
 
 export interface AxisDef {

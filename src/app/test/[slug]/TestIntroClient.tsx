@@ -79,6 +79,36 @@ export function TestIntroClient() {
         <p className="test-block-body">{test.whatYoullLearn}</p>
       </section>
 
+      {test.terms && test.terms.length > 0 && (
+        <section className="test-block">
+          <h2 className="test-block-title">Words to know</h2>
+          <p className="test-block-body" style={{ marginBottom: 12 }}>
+            This quiz borrows words from another culture. Hover (or long-press) any term for its
+            meaning.
+          </p>
+          <dl style={{ margin: 0 }}>
+            {test.terms.map((t) => (
+              <div
+                key={t.term}
+                title={t.note}
+                style={{
+                  padding: "8px 12px",
+                  marginBottom: 8,
+                  borderRadius: 8,
+                  border: "1px solid #e2e0db",
+                  cursor: "help",
+                }}
+              >
+                <dt style={{ fontWeight: 700, fontSize: "0.9rem", fontFamily: "inherit" }}>
+                  {t.term}
+                </dt>
+                <dd style={{ margin: "2px 0 0", fontSize: "0.85rem", color: "#555" }}>{t.note}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
+
       <section className="test-privacy">
         <p>
           <strong>Private by default.</strong> Answers never leave this device. Scoring runs entirely

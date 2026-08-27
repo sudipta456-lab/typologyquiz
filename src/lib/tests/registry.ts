@@ -27,8 +27,97 @@ import { decisionStyle } from "./decision-style";
 import { optimistRealist } from "./optimist-realist";
 import { enneagramLite } from "./enneagram-lite";
 import { scoreTypology, scoreSpectrum, scoreScale } from "./score-utils";
+import { mentalAge } from "./mental-age";
+import { deluluLevel } from "./delulu-level";
+import { groupChatArchetype } from "./group-chat-archetype";
+import { flagProfile } from "./flag-profile";
+import { actuallyTheProblem } from "./actually-the-problem";
+import { internetPersona } from "./internet-persona";
+import { personalColor } from "./personal-color";
+import { sajuPillar } from "./saju-pillar";
+import { hafezMirror } from "./hafez-mirror";
+import { ketsuekiGata } from "./ketsueki-gata";
+import { emotionalOs } from "./emotional-os";
+import { overthinkerLevel } from "./overthinker-level";
+import { brain2am } from "./brain-2am";
+import { cringeCheck } from "./cringe-check";
+import { friendsSeeYou } from "./friends-see-you";
+import { kkotmalFlower } from "./kkotmal-flower";
+import { kdramaArchetype } from "./kdrama-archetype";
+import { seoulDatingTier } from "./seoul-dating-tier";
+import { doubutsuUranai } from "./doubutsu-uranai";
+import { shinrigakuScene } from "./shinrigaku-scene";
+import { animeProtagonist } from "./anime-protagonist";
+import { tangpingLevel } from "./tangping-level";
+import { neijuanRace } from "./neijuan-race";
+import { wanghongPersona } from "./wanghong-persona";
+import { huarenNetizen } from "./huaren-netizen";
+import { falQahveh } from "./fal-qahveh";
+import { shahnamehHero } from "./shahnameh-hero";
+import { shahrSoul } from "./shahr-soul";
+import { ismVibe } from "./ism-vibe";
+import { abjadNumber } from "./abjad-number";
+import { badiyaDesert } from "./badiya-desert";
+import { akanDayName } from "./akan-day-name";
+import { anansiArchetype } from "./anansi-archetype";
+import { naijaAunty } from "./naija-aunty";
+import { nairobiVibe } from "./nairobi-vibe";
+import { prakritiDosha } from "./prakriti-dosha";
+import { nakshatraMirror } from "./nakshatra-mirror";
+import { filmiHero } from "./filmi-hero";
+import { desiFamilyRole } from "./desi-family-role";
+import { fourHumors } from "./four-humors";
 
 export const TESTS: TestDefinition[] = [
+  // 2026 additions — general / North American
+  mentalAge,
+  deluluLevel,
+  groupChatArchetype,
+  flagProfile,
+  actuallyTheProblem,
+  internetPersona,
+  emotionalOs,
+  overthinkerLevel,
+  brain2am,
+  cringeCheck,
+  friendsSeeYou,
+  // Korea
+  personalColor,
+  sajuPillar,
+  kkotmalFlower,
+  kdramaArchetype,
+  seoulDatingTier,
+  // Japan
+  ketsuekiGata,
+  doubutsuUranai,
+  shinrigakuScene,
+  animeProtagonist,
+  // China
+  tangpingLevel,
+  neijuanRace,
+  wanghongPersona,
+  huarenNetizen,
+  // Iran
+  hafezMirror,
+  falQahveh,
+  shahnamehHero,
+  shahrSoul,
+  // Arab world
+  ismVibe,
+  abjadNumber,
+  badiyaDesert,
+  // Africa
+  akanDayName,
+  anansiArchetype,
+  naijaAunty,
+  nairobiVibe,
+  // India
+  prakritiDosha,
+  nakshatraMirror,
+  filmiHero,
+  desiFamilyRole,
+  // Europe
+  fourHumors,
   nightOwl,
   humorStyle,
   enneagramLite,

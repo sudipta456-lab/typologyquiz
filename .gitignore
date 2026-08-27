@@ -50,3 +50,6 @@ traffic_*.PNG
 # Handbook PDFs and quote extraction caches - large, regenerable from the
 # official sites, and only needed while building a jurisdiction bank.
 tmp/
+
+# Raw result-art source images and preview thumbnails - shipped copies live in public/results/
+/images/
