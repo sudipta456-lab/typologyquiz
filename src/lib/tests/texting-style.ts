@@ -78,7 +78,7 @@ export const textingStyle: TestDefinition = {
     expressive: {
       label: "Full-Send Texter",
       description:
-        "Emojis, essays, energy — your mood comes through loud and clear. Strength: nobody has to guess your tone. Watch-out: some conversations are a two-minute call, not a twelve-message thread.",
+        "Emojis, essays, energy: your mood comes through loud and clear. Strength: nobody has to guess your tone. Watch-out: some conversations are a two-minute call, not a twelve-message thread.",
     },
     careful: {
       label: "Tone-Checker",
@@ -89,11 +89,11 @@ export const textingStyle: TestDefinition = {
   balanced: {
     label: "The Shape-Shifter",
     description:
-      "No single texting mode owns you — you're fast in one chat, quiet in another, chaotic in the group, careful in the DMs. Adaptable, and genuinely hard to pin down.",
+      "No single texting mode owns you: you're fast in one chat, quiet in another, chaotic in the group, careful in the DMs. Adaptable, and genuinely hard to pin down.",
   },
   resultType: "bars",
   funFacts: [
-    "Texting style says almost nothing about how warm you are in person — plenty of slow repliers are the best friend in the room.",
+    "Texting style says almost nothing about how warm you are in person, plenty of slow repliers are the best friend in the room.",
     "Different group chats pull different styles out of the same person.",
     "Share this with someone you constantly misread over text.",
   ],

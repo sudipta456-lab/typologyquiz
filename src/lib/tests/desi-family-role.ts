@@ -6,7 +6,7 @@ import { TestDefinition } from "../types";
 const questions = [
   // Responsible eldest
   { id: "df_e1", text: "Responsibility found me early and never left.", type: "likert" as const, axis: "eldest", direction: 1 as const },
-  { id: "df_e2", text: "I manage everyone's expectations — parents', relatives', siblings'.", type: "likert" as const, axis: "eldest", direction: 1 as const },
+  { id: "df_e2", text: "I manage everyone's expectations: parents', relatives', siblings'.", type: "likert" as const, axis: "eldest", direction: 1 as const },
   { id: "df_e3", text: "Being babied describes my position accurately.", type: "likert" as const, axis: "eldest", direction: -1 as const },
   // Babied youngest
   { id: "df_y1", text: "Rules mysteriously apply to me more softly than to others.", type: "likert" as const, axis: "youngest", direction: 1 as const },
@@ -14,7 +14,7 @@ const questions = [
   { id: "df_y3", text: "I was given independence early; nobody checked on me much.", type: "likert" as const, axis: "youngest", direction: -1 as const },
   // Peacemaker cousin
   { id: "df_c1", text: "When family arguments erupt, I'm the one translating both sides.", type: "likert" as const, axis: "peacemaker", direction: 1 as const },
-  { id: "df_c2", text: "Relatives of all generations actually like me — a diplomatic achievement.", type: "likert" as const, axis: "peacemaker", direction: 1 as const },
+  { id: "df_c2", text: "Relatives of all generations actually like me, a diplomatic achievement.", type: "likert" as const, axis: "peacemaker", direction: 1 as const },
   { id: "df_c3", text: "Family drama doesn't involve me; I stay far from it.", type: "likert" as const, axis: "peacemaker", direction: -1 as const },
   // Rebel
   { id: "df_r1", text: "I question traditions others follow without asking why.", type: "likert" as const, axis: "rebel", direction: 1 as const },
@@ -46,39 +46,39 @@ export const desiFamilyRole: TestDefinition = {
   terms: [
     {
       term: "Desi",
-      note: "A self-description for people of South Asian heritage (India, Pakistan, Bangladesh, Sri Lanka and diasporas) — used with pride and humor.",
+      note: "A self-description for people of South Asian heritage (India, Pakistan, Bangladesh, Sri Lanka and diasporas): used with pride and humor.",
     },
     {
       term: "'Log kya kahenge'",
-      note: "'What will people say?' — the famous social pressure phrase in desi households. Entire life decisions have been negotiated against this sentence.",
+      note: "'What will people say?': the famous social pressure phrase in desi households. Entire life decisions have been negotiated against this sentence.",
     },
   ],
   typeMeta: {
     eldest: {
-      label: "📊 The Responsible Eldest",
+      label: "The Responsible Eldest",
       description:
-        "You were promoted to third parent before you consented. Achievements are expected, struggles are hidden, and the remote control was never yours. Watch-out: eldest children are allowed to fail, rest, and be young. The role was assigned, not earned — renegotiate its terms.",
+        "You were promoted to third parent before you consented. Achievements are expected, struggles are hidden, and the remote control was never yours. Watch-out: eldest children are allowed to fail, rest, and be young. The role was assigned, not earned; renegotiate its terms.",
     },
     youngest: {
-      label: "🍼 The Babied Youngest",
+      label: "The Babied Youngest",
       description:
         "You could announce a career change at 40 and still hear 'but are you eating properly?' Being protected is love in your family's language. Watch-out: underneath the babying, they'd respect the grown-up version of you. Show them gradually.",
     },
     peacemaker: {
-      label: "🕊️ The Peacemaker Cousin",
+      label: "The Peacemaker Cousin",
       description:
         "Every faction trusts you; every argument routes through you. A diplomatic miracle that costs real energy. Watch-out: peace-making is labor, not personality. Let two relatives resolve their own WhatsApp dispute this holiday.",
     },
     rebel: {
-      label: "🔥 The Rebel",
+      label: "The Rebel",
       description:
-        "You asked 'why?' one time too many and became The Question Asker. Your path is harder but it widens the road for everyone behind you. Watch-out: rebellion without allies burns out — find the aunties who secretly agree with you. They exist.",
+        "You asked 'why?' one time too many and became The Question Asker. Your path is harder but it widens the road for everyone behind you. Watch-out: rebellion without allies burns out; find the aunties who secretly agree with you. They exist.",
     },
   },
   balanced: {
-    label: "🍽️ The Family Function Shapeshifter",
+    label: "The Family Function Shapeshifter",
     description:
-      "Eldest duties, youngest privileges, cousin diplomacy, rebel opinions — deployed contextually across functions. The family can't classify you, which is honestly the most powerful position available.",
+      "Eldest duties, youngest privileges, cousin diplomacy, rebel opinions: deployed contextually across functions. The family can't classify you, which is honestly the most powerful position available.",
   },
   resultType: "bars",
   funFacts: [
@@ -86,5 +86,5 @@ export const desiFamilyRole: TestDefinition = {
     "Birth-order research finds eldest responsibility patterns across many cultures, not just South Asian ones.",
   ],
   disclaimer:
-    "An affectionate quiz on family dynamics — every family is complicated, and this is for laughs and reflection only.",
+    "An affectionate quiz on family dynamics: every family is complicated, and this is for laughs and reflection only.",
 };

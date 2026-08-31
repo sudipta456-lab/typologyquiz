@@ -86,23 +86,23 @@ export const attachmentStyle: TestDefinition = {
     anxious: {
       label: "Anxious connector",
       description:
-        "You lean toward caring hard and noticing every shift in tone. Strength: you're genuinely attentive — people feel wanted around you. Gentle watch-out: silence usually means someone's phone died, not that you did something wrong. Asking directly beats guessing.",
+        "You lean toward caring hard and noticing every shift in tone. Strength: you're genuinely attentive; people feel wanted around you. Gentle watch-out: silence usually means someone's phone died, not that you did something wrong. Asking directly beats guessing.",
     },
     avoidant: {
       label: "Independent connector",
       description:
-        "You lean toward space and handling things yourself. Strength: you're steady and self-sufficient, and you don't need constant contact to feel fine. Gentle watch-out: people can read distance as disinterest — letting one person in a little sooner goes a long way.",
+        "You lean toward space and handling things yourself. Strength: you're steady and self-sufficient, and you don't need constant contact to feel fine. Gentle watch-out: people can read distance as disinterest; letting one person in a little sooner goes a long way.",
     },
     mixed: {
       label: "Push-pull connector",
       description:
-        "You lean toward wanting closeness and getting wary of it at the same time. Strength: you feel things deeply and you're honest about the pull. Gentle watch-out: hot-and-cold is confusing from the outside — naming the pattern out loud takes most of the sting out of it.",
+        "You lean toward wanting closeness and getting wary of it at the same time. Strength: you feel things deeply and you're honest about the pull. Gentle watch-out: hot-and-cold is confusing from the outside; naming the pattern out loud takes most of the sting out of it.",
     },
   },
   balanced: {
     label: "Still figuring it out",
     description:
-      "No single leaning stands out for you right now — you're some mix of trusting, watchful, and independent depending on the person and the week. That's completely normal, and it's also the most likely honest answer for anyone whose friendships are still changing shape.",
+      "No single leaning stands out for you right now: you're some mix of trusting, watchful, and independent depending on the person and the week. That's completely normal, and it's also the most likely honest answer for anyone whose friendships are still changing shape.",
   },
   resultType: "orbit",
   funFacts: [

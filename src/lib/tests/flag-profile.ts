@@ -42,23 +42,23 @@ export const flagProfile: TestDefinition = {
   ],
   typeMeta: {
     green: {
-      label: "🟢 Walking Green Flag",
+      label: "Walking Green Flag",
       description:
         "Communicates directly, shows up consistently, doesn't punish people for honesty. This is rarer than it should be and it compounds: the people close to you get calmer. Keep the bar where it is.",
     },
     beige: {
-      label: "🟡 Beige Flag Collection",
+      label: "Beige Flag Collection",
       description:
         "47 unfinished shows. 'We should hang out' with no plan attached. Shower arguments you win every time. None of this is a problem, it's just who you are, and honestly these flags make you lovable. Confirm or deny in the replies.",
     },
     red: {
-      label: "🔴 Watch Yourself",
+      label: "Watch Yourself",
       description:
         "Overthinking a three-word text. Going silent and hoping mind-reading kicks in. Bringing up 2022 during a fight about dishes. Good news: every one of these is a habit, not a identity. Name it and it starts losing power.",
     },
   },
   balanced: {
-    label: "🏳️ Balanced Allegations",
+    label: "Balanced Allegations",
     description:
       "No single flag dominates you. Some directness, some quirks, some texts analyzed under lab conditions. Basically: human configuration detected. Send this to the friend who claims they have no red flags. Evidence says otherwise.",
   },

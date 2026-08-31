@@ -9,7 +9,7 @@ const questions = [
   // Type 1 — Reformer: principled, wants things right, self-disciplined
   { id: "en_t1a", text: "I notice mistakes and details other people breeze right past.", type: "likert" as const, axis: "type1", direction: 1 as const },
   { id: "en_t1b", text: "Doing things the right way matters to me, even when nobody's checking.", type: "likert" as const, axis: "type1", direction: 1 as const },
-  { id: "en_t1c", text: "Good enough is usually good enough for me — I don't sweat the small stuff.", type: "likert" as const, axis: "type1", direction: -1 as const },
+  { id: "en_t1c", text: "Good enough is usually good enough for me; I don't sweat the small stuff.", type: "likert" as const, axis: "type1", direction: -1 as const },
 
   // Type 2 — Helper: warm, generous, wants to be needed
   { id: "en_t2a", text: "I can usually tell what someone needs before they say it.", type: "likert" as const, axis: "type2", direction: 1 as const },
@@ -49,7 +49,7 @@ const questions = [
   // Type 9 — Peacemaker: easygoing, wants harmony, avoids conflict
   { id: "en_t9a", text: "I go out of my way to keep the peace and avoid drama.", type: "likert" as const, axis: "type9", direction: 1 as const },
   { id: "en_t9b", text: "I'm easygoing and can usually see everyone's side of things.", type: "likert" as const, axis: "type9", direction: 1 as const },
-  { id: "en_t9c", text: "I don't mind conflict — I'll dive right into a disagreement.", type: "likert" as const, axis: "type9", direction: -1 as const },
+  { id: "en_t9c", text: "I don't mind conflict; I'll dive right into a disagreement.", type: "likert" as const, axis: "type9", direction: -1 as const },
 
   // --- Follow-up probes (only shown when an earlier answer triggers them) ---
   //
@@ -113,7 +113,7 @@ export const enneagramLite: TestDefinition = {
     type1: {
       label: "Type 1 · The Reformer",
       description:
-        "You've got a built-in sense of how things should be, and you hold yourself to it. Strength: principled, reliable, quietly improving everything you touch. Watch-out: that inner critic can be harsh — 'good enough' is allowed to be good enough sometimes.",
+        "You've got a built-in sense of how things should be, and you hold yourself to it. Strength: principled, reliable, quietly improving everything you touch. Watch-out: that inner critic can be harsh; 'good enough' is allowed to be good enough sometimes.",
     },
     type2: {
       label: "Type 2 · The Helper",
@@ -123,12 +123,12 @@ export const enneagramLite: TestDefinition = {
     type3: {
       label: "Type 3 · The Achiever",
       description:
-        "You set your sights on something and go get it, image and all. Strength: driven, adaptable, gets things done. Watch-out: you're worth more than your wins — take care that the goals don't run the whole show.",
+        "You set your sights on something and go get it, image and all. Strength: driven, adaptable, gets things done. Watch-out: you're worth more than your wins; take care that the goals don't run the whole show.",
     },
     type4: {
       label: "Type 4 · The Individualist",
       description:
-        "You feel things deeply and would rather be real than blend in. Strength: creative, authentic, emotionally honest. Watch-out: leaning into 'I'm different' can tip into feeling left out — you belong more than it seems.",
+        "You feel things deeply and would rather be real than blend in. Strength: creative, authentic, emotionally honest. Watch-out: leaning into 'I'm different' can tip into feeling left out; you belong more than it seems.",
     },
     type5: {
       label: "Type 5 · The Investigator",
@@ -138,7 +138,7 @@ export const enneagramLite: TestDefinition = {
     type6: {
       label: "Type 6 · The Loyalist",
       description:
-        "You plan for what could go wrong and stay fiercely loyal to your people. Strength: prepared, trustworthy, a great friend in a crisis. Watch-out: not every worst-case scenario needs rehearsing — you can trust yourself more than you think.",
+        "You plan for what could go wrong and stay fiercely loyal to your people. Strength: prepared, trustworthy, a great friend in a crisis. Watch-out: not every worst-case scenario needs rehearsing; you can trust yourself more than you think.",
     },
     type7: {
       label: "Type 7 · The Enthusiast",
@@ -148,7 +148,7 @@ export const enneagramLite: TestDefinition = {
     type8: {
       label: "Type 8 · The Challenger",
       description:
-        "You're bold, direct, and quick to protect people and stand up for what's fair. Strength: strong, honest, a natural protector. Watch-out: not every moment is a battle — softness and trust are strengths too.",
+        "You're bold, direct, and quick to protect people and stand up for what's fair. Strength: strong, honest, a natural protector. Watch-out: not every moment is a battle; softness and trust are strengths too.",
     },
     type9: {
       label: "Type 9 · The Peacemaker",
@@ -159,14 +159,14 @@ export const enneagramLite: TestDefinition = {
   balanced: {
     label: "The Blend",
     description:
-      "You don't map cleanly to one type — you're a mix of several, which is completely normal for a quick quiz like this. Real Enneagram types show up over time, not in a handful of questions.",
+      "You don't map cleanly to one type; you're a mix of several, which is completely normal for a quick quiz like this. Real Enneagram types show up over time, not in a handful of questions.",
   },
   resultType: "bars",
   funFacts: [
-    "The Enneagram sorts people into nine types arranged in a circle, each with its own core motivation — what you want, deep down.",
-    "It isn't a scientifically validated personality test — it's a framework for self-reflection, so hold your result lightly and use it to think, not to box yourself in.",
-    "Compare with friends — Enneagram fans love figuring out how a Type 8 and a Type 9, or a Helper and an Achiever, click (or clash).",
+    "The Enneagram sorts people into nine types arranged in a circle, each with its own core motivation: what you want, deep down.",
+    "It isn't a scientifically validated personality test: it's a framework for self-reflection, so hold your result lightly and use it to think, not to box yourself in.",
+    "Compare with friends: Enneagram fans love figuring out how a Type 8 and a Type 9, or a Helper and an Achiever, click (or clash).",
   ],
   disclaimer:
-    "A quick vibe check on which Enneagram type you tilt toward, not a final verdict. Pinning down your real type takes more than a short quiz — treat this as a starting point for reflection.",
+    "A quick vibe check on which Enneagram type you tilt toward, not a final verdict. Pinning down your real type takes more than a short quiz; treat this as a starting point for reflection.",
 };

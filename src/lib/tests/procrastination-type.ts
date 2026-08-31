@@ -80,12 +80,12 @@ export const procrastinationType: TestDefinition = {
     perfectionist: {
       label: "The Perfect-Plan Waiter",
       description:
-        "You hold off until the plan and the conditions feel just right. Strength: when you do start, you care and it shows. Nudge: 'good enough to begin' beats 'perfect but not started' — a messy first step still counts.",
+        "You hold off until the plan and the conditions feel just right. Strength: when you do start, you care and it shows. Nudge: 'good enough to begin' beats 'perfect but not started'; a messy first step still counts.",
     },
     dreamer: {
       label: "The Big Dreamer",
       description:
-        "You light up imagining what could be, more than grinding the small steps. Strength: vision and ideas most people don't have. Nudge: pick one tiny next action for one idea today — momentum turns dreams into things.",
+        "You light up imagining what could be, more than grinding the small steps. Strength: vision and ideas most people don't have. Nudge: pick one tiny next action for one idea today; momentum turns dreams into things.",
     },
     crisisMaker: {
       label: "The Deadline Sprinter",
@@ -95,24 +95,24 @@ export const procrastinationType: TestDefinition = {
     avoider: {
       label: "The Task Dodger",
       description:
-        "When something feels hard or scary, you find somewhere else to be. Strength: you're honest that some tasks genuinely feel big. Nudge: shrink the scary thing to a two-minute starter — starting is usually worse in your head than in real life.",
+        "When something feels hard or scary, you find somewhere else to be. Strength: you're honest that some tasks genuinely feel big. Nudge: shrink the scary thing to a two-minute starter; starting is usually worse in your head than in real life.",
     },
     busyBee: {
       label: "The Busywork Champion",
       description:
-        "You stay genuinely busy — with everything except the one big thing. Strength: you get a ton of small stuff done and you're rarely idle. Nudge: give the important task the first slot of your day, before the little tasks quietly eat it.",
+        "You stay genuinely busy, with everything except the one big thing. Strength: you get a ton of small stuff done and you're rarely idle. Nudge: give the important task the first slot of your day, before the little tasks quietly eat it.",
     },
   },
   balanced: {
     label: "The Balanced Starter",
     description:
-      "No single delay style runs the show for you — a bit of planning, a bit of last-minute push, a bit of dodging, depending on the task. You mostly find your way to the start line without one habit owning you.",
+      "No single delay style runs the show for you: a bit of planning, a bit of last-minute push, a bit of dodging, depending on the task. You mostly find your way to the start line without one habit owning you.",
   },
   resultType: "bars",
   funFacts: [
-    "Procrastination is more about managing feelings than managing time — we put off tasks that stir up stress, boredom, or self-doubt.",
-    "Almost everyone does it, and 'last-minute' people often aren't lazy — they're waiting for the pressure that finally flips their focus on.",
-    "Compare with friends — a deadline sprinter paired with a perfect-plan waiter on a group project is a comedy waiting to happen.",
+    "Procrastination is more about managing feelings than managing time: we put off tasks that stir up stress, boredom, or self-doubt.",
+    "Almost everyone does it, and 'last-minute' people often aren't lazy: they're waiting for the pressure that finally flips their focus on.",
+    "Compare with friends: a deadline sprinter paired with a perfect-plan waiter on a group project is a comedy waiting to happen.",
   ],
   disclaimer:
     "A kind, light look at how you put things off, not a flaw report. Everyone procrastinates, and your style shifts with the task and your mood.",

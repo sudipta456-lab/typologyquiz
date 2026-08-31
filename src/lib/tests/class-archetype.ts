@@ -30,7 +30,7 @@ const questions = [
   { id: "ca_c1", text: "I keep the group from fighting and check that everyone's okay.", type: "likert" as const, axis: "glue", direction: 1 as const },
   { id: "ca_c2", text: "I notice when someone gets left out of the plan.", type: "likert" as const, axis: "glue", direction: 1 as const },
   { id: "ca_c3", text: "When two teammates are annoyed with each other, I'm the one smoothing it over.", type: "likert" as const, axis: "glue", direction: 1 as const },
-  { id: "ca_c4", text: "Group tension isn't my problem to manage — I focus on the work.", type: "likert" as const, axis: "glue", direction: -1 as const },
+  { id: "ca_c4", text: "Group tension isn't my problem to manage; I focus on the work.", type: "likert" as const, axis: "glue", direction: -1 as const },
   { id: "ca_c5", text: "I usually don't clock how my teammates are feeling.", type: "likert" as const, axis: "glue", direction: -1 as const },
 
   // Wildcard — bursts, late starts, clutch energy
@@ -63,12 +63,12 @@ export const classArchetype: TestDefinition = {
     leader: {
       label: "Project Captain",
       description:
-        "You steer the ship — deadlines, roles, next steps. Strength: the team actually has a direction. Watch-out: quietly absorbing everyone else's job. Delegate on purpose, not out of desperation.",
+        "You steer the ship: deadlines, roles, next steps. Strength: the team actually has a direction. Watch-out: quietly absorbing everyone else's job. Delegate on purpose, not out of desperation.",
     },
     doer: {
       label: "Quiet Finisher",
       description:
-        "You're the reason it gets submitted. Strength: real, finished output while others are still debating. Watch-out: invisible labor. Say what you did out loud — nobody else will.",
+        "You're the reason it gets submitted. Strength: real, finished output while others are still debating. Watch-out: invisible labor. Say what you did out loud; nobody else will.",
     },
     idea: {
       label: "Idea Machine",
@@ -89,7 +89,7 @@ export const classArchetype: TestDefinition = {
   balanced: {
     label: "The Utility Player",
     description:
-      "You don't have one fixed role — you read the group and fill whatever's missing. Captain when nobody's leading, finisher when the work is stalling, glue when it gets tense. Underrated and very hard to replace.",
+      "You don't have one fixed role; you read the group and fill whatever's missing. Captain when nobody's leading, finisher when the work is stalling, glue when it gets tense. Underrated and very hard to replace.",
   },
   resultType: "orbit",
   funFacts: [

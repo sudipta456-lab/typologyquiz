@@ -27,7 +27,7 @@ export const doubutsuUranai: TestDefinition = {
   title: "Doubutsu Uranai Animal Test (動物占い)",
   category: "personality",
   description:
-    "Japan's beloved animal personality system. Are you Shiba, Cat, Owl, or Kitsune? Answer honestly — animals can tell.",
+    "Japan's beloved animal personality system. Are you Shiba, Cat, Owl, or Kitsune? Answer honestly; animals can tell.",
   whatYoullLearn:
     "Your animal archetype, its Japanese meaning, and what your animal brings to its pack (or refuses to).",
   timeMinutes: 3,
@@ -46,45 +46,45 @@ export const doubutsuUranai: TestDefinition = {
   terms: [
     {
       term: "動物占い (Doubutsu uranai)",
-      note: "'Animal fortune-telling' — a hugely popular Japanese personality system that assigns everyone an animal archetype based on traits. It's the grandfather of modern animal quizzes across Asia.",
+      note: "'Animal fortune-telling': a hugely popular Japanese personality system that assigns everyone an animal archetype based on traits. It's the grandfather of modern animal quizzes across Asia.",
     },
     {
       term: "狐 (Kitsune)",
-      note: "The fox of Japanese folklore — famously clever, shapeshifting, and charming. In stories, a kitsune's cleverness can be mischief or wisdom depending on its heart.",
+      note: "The fox of Japanese folklore: famously clever, shapeshifting, and charming. In stories, a kitsune's cleverness can be mischief or wisdom depending on its heart.",
     },
   ],
   typeMeta: {
     shiba: {
-      label: "🐕 The Shiba",
+      label: "The Shiba",
       description:
         "Sunshine in dog form. You love your people obviously and completely, and everyone knows exactly where they stand with you. Superpower: trust that never needs auditing. Watch-out: even shibas need alone time in the sun spot. Take it without guilt.",
     },
     cat: {
-      label: "🐈 The Cat",
+      label: "The Cat",
       description:
         "Elegant, independent, affectionate strictly on your own schedule. People work hard for your attention and somehow enjoy it. Watch-out: cats get assumed cold when they're actually just busy. One visible act of care per week clears that up.",
     },
     owl: {
-      label: "🦉 The Owl",
+      label: "The Owl",
       description:
         "You watch everything twice and speak once. Your quiet reads of rooms make people feel deeply understood when you do talk. Watch-out: wisdom unspoken gets credited to louder birds. Say the smart thing out loud sometimes.",
     },
     kitsune: {
-      label: "🦊 The Kitsune",
+      label: "The Kitsune",
       description:
-        "Clever routes, quick charm, playful misdirection. Every group needs one fox or nothing fun ever gets planned. Watch-out: folklore warns foxes about their own tricks — keep your cleverness honest and it stays magic.",
+        "Clever routes, quick charm, playful misdirection. Every group needs one fox or nothing fun ever gets planned. Watch-out: folklore warns foxes about their own tricks; keep your cleverness honest and it stays magic.",
     },
   },
   balanced: {
-    label: "🐾 The Shapeshifter Spirit",
+    label: "The Shapeshifter Spirit",
     description:
-      "Dog loyalty, cat independence, owl patience, fox wit — your spirit animal refuses to pick a species. In doubutsu uranai tradition, that makes you a rare one. Use each animal when its season arrives.",
+      "Dog loyalty, cat independence, owl patience, fox wit: your spirit animal refuses to pick a species. In doubutsu uranai tradition, that makes you a rare one. Use each animal when its season arrives.",
   },
   resultType: "radar",
   funFacts: [
-    "Doubutsu uranai became a national craze in Japan through books and TV — friends still compare animals decades later.",
+    "Doubutsu uranai became a national craze in Japan through books and TV; friends still compare animals decades later.",
     "In Japanese folklore, seeing a fox's true form means it trusts you completely. Same rule applies to fox-personality humans.",
   ],
   disclaimer:
-    "A fun quiz inspired by animal-typology traditions — not fortune-telling, just personality reflection with fur on it.",
+    "A fun quiz inspired by animal-typology traditions, not fortune-telling, just personality reflection with fur on it.",
 };

@@ -5,7 +5,7 @@ import { TestDefinition } from "../types";
 
 const questions = [
   // Creator
-  { id: "wh_c1", text: "I've made content — videos, posts, edits — that people actually watched.", type: "likert" as const, axis: "creator", direction: 1 as const },
+  { id: "wh_c1", text: "I've made content (videos, posts, edits) that people actually watched.", type: "likert" as const, axis: "creator", direction: 1 as const },
   { id: "wh_c2", text: "My camera roll is organized like a studio archive.", type: "likert" as const, axis: "creator", direction: 1 as const },
   { id: "wh_c3", text: "Posting publicly feels more stressful than fun to me.", type: "likert" as const, axis: "creator", direction: -1 as const },
   // Comment commander
@@ -46,40 +46,40 @@ export const wanghongPersona: TestDefinition = {
   terms: [
     {
       term: "网红 (Wǎnghóng)",
-      note: "'Internet famous' — Chinese slang for influencers. Wanghong culture spans livestream shopping, food vlogs, and entire industries built on personality.",
+      note: "'Internet famous': Chinese slang for influencers. Wanghong culture spans livestream shopping, food vlogs, and entire industries built on personality.",
     },
   ],
   typeMeta: {
     creator: {
-      label: "🎬 The Creator",
+      label: "The Creator",
       description:
         "You make the thing everyone else reposts. Studio-grade camera roll, ideas on tap, mild anxiety about metrics that you'd never admit. Watch-out: creation without rest is how burnout gets a content series.",
     },
     commenter: {
-      label: "💬 The Comment Commander",
+      label: "The Comment Commander",
       description:
-        "No posts, total presence. Your replies get more likes than originals — a genuinely elite skill. Watch-out: hot takes at full speed occasionally need an editor. Keep the wit; add a five-second delay.",
+        "No posts, total presence. Your replies get more likes than originals, a genuinely elite skill. Watch-out: hot takes at full speed occasionally need an editor. Keep the wit; add a five-second delay.",
     },
     curator: {
-      label: "🗂️ The Curator",
+      label: "The Curator",
       description:
-        "You've done the research before anyone asked and your recommendations are law. Every friend group has one oracle; you're it. Watch-out: curation can become control — let people enjoy their unoptimized choices sometimes.",
+        "You've done the research before anyone asked and your recommendations are law. Every friend group has one oracle; you're it. Watch-out: curation can become control; let people enjoy their unoptimized choices sometimes.",
     },
     streamer: {
-      label: "🎙️ The Streamer",
+      label: "The Streamer",
       description:
-        "Unscripted talking is your native format — voice notes, live rants, hour-long stories with perfect pacing. Watch-out: monologue stamina isn't dialogue. Occasionally press stop and ask a question.",
+        "Unscripted talking is your native format: voice notes, live rants, hour-long stories with perfect pacing. Watch-out: monologue stamina isn't dialogue. Occasionally press stop and ask a question.",
     },
   },
   balanced: {
-    label: "🌐 The Full-Stack Netizen",
+    label: "The Full-Stack Netizen",
     description:
-      "Creates, comments, curates, AND streams — the whole stack. Platforms would fight to have you. Just remember: even the internet sleeps sometimes. Allegedly.",
+      "Creates, comments, curates, AND streams: the whole stack. Platforms would fight to have you. Just remember: even the internet sleeps sometimes. Allegedly.",
   },
   resultType: "radar",
   funFacts: [
     "China's livestream commerce industry is bigger than most countries' entire e-commerce sectors.",
-    "Wanghong careers now have real professional paths — some universities offer related coursework.",
+    "Wanghong careers now have real professional paths; some universities offer related coursework.",
   ],
   disclaimer:
     "A fun quiz about internet-culture archetypes, not career advice or a prediction of virality.",

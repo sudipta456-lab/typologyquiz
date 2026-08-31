@@ -23,7 +23,7 @@ export const tangpingLevel: TestDefinition = {
   title: "Tangping Level Test (躺平)",
   category: "personality",
   description:
-    "China's famous 'lying flat' movement, measured. How far have you actually opted out of the grind — and is it working for you?",
+    "China's famous 'lying flat' movement, measured. How far have you actually opted out of the grind, and is it working for you?",
   whatYoullLearn:
     "Your tangping level from Full Sprint to Certified Lying Flat, and what your level is quietly telling you.",
   timeMinutes: 3,
@@ -45,34 +45,34 @@ export const tangpingLevel: TestDefinition = {
   terms: [
     {
       term: "躺平 (Tǎngpíng)",
-      note: "'Lying flat' — a Chinese youth movement of deliberately doing the minimum: no hustle, no overwork, no chasing milestones that don't pay back. A quiet protest against burnout culture.",
+      note: "'Lying flat': a Chinese youth movement of deliberately doing the minimum: no hustle, no overwork, no chasing milestones that don't pay back. A quiet protest against burnout culture.",
     },
   ],
   resultType: "meter",
   spectrumBands: [
     {
       max: 25,
-      label: "🏃 Full Sprint",
+      label: "Full Sprint",
       description:
         "Rest feels illegal, comparison is constant, sleep is negotiable. You're running on a track you didn't choose. Honest question: does the finish line actually exist? (It doesn't. That's the trick.)",
     },
     {
       max: 45,
-      label: "🚶 Jogging with Doubts",
+      label: "Jogging with Doubts",
       description:
         "You're still in the race but you've started reading the exit signs. The annoyance with hustle posts is data. Listen to it before it becomes a collapse.",
     },
     {
       max: 65,
-      label: "🧘 Strategic Rest-er",
+      label: "Strategic Rest-er",
       description:
         "You work hard AND protect your evenings like load-bearing walls. This is the configuration longevity studies quietly praise. Defend it from people who call it laziness.",
     },
     {
       max: 100,
-      label: "🛌 Certified Tangping",
+      label: "Certified Tangping",
       description:
-        "You have opted out, on purpose, with receipts. Enough over more, boundaries over optics. Powerful position — just check the flatness is a choice you're still making, not a groove you fell into.",
+        "You have opted out, on purpose, with receipts. Enough over more, boundaries over optics. Powerful position; just check the flatness is a choice you're still making, not a groove you fell into.",
     },
   ],
   funFacts: [
@@ -80,5 +80,5 @@ export const tangpingLevel: TestDefinition = {
     "Its cousin 'bai lan' (摆烂, 'let it rot') is the even flatter stage. Tangping at least keeps the lights on.",
   ],
   disclaimer:
-    "A playful quiz about work-rest philosophy — not career or mental health advice.",
+    "A playful quiz about work-rest philosophy, not career or mental health advice.",
 };

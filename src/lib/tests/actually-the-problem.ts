@@ -27,7 +27,7 @@ export const actuallyTheProblem: TestDefinition = {
   title: "Are You Actually the Problem?",
   category: "character",
   description:
-    "Be honest. Not 'am I a bad person' — are you actually the problem sometimes? The evidence will decide.",
+    "Be honest. Not 'am I a bad person'. Are you actually the problem sometimes? The evidence will decide.",
   whatYoullLearn:
     "Your official incident report classification, from Innocent Bystander to Common Denominator. Send this to a friend who needs to be studied.",
   timeMinutes: 3,
@@ -44,28 +44,28 @@ export const actuallyTheProblem: TestDefinition = {
   ],
   typeMeta: {
     blameless: {
-      label: "😇 Innocent Bystander",
+      label: "Innocent Bystander",
       description:
-        "You may actually be surrounded by chaos. You show up to a calm group chat and leave as collateral damage. Verdict: not the problem — but pick your crowds carefully, because proximity has a price.",
+        "You may actually be surrounded by chaos. You show up to a calm group chat and leave as collateral damage. Verdict: not the problem, but pick your crowds carefully, because proximity has a price.",
     },
     aware: {
-      label: "🤔 Occasionally Suspicious",
+      label: "Occasionally Suspicious",
       description:
         "You can admit your share of a conflict, which already puts you ahead of most people. Sometimes you ARE the problem and you know exactly when. That self-awareness is the whole game, honestly. Keep it.",
     },
     recurring: {
-      label: "🚨 Recurring Character",
+      label: "Recurring Character",
       description:
         "You keep appearing in the incident reports. Maybe it's your delivery. Maybe it's your crowd. Maybe it's both. The good news: recurring characters are beloved. The other news: maybe sit one scene out.",
     },
     defensive: {
-      label: "🔥 The Common Denominator",
+      label: "The Common Denominator",
       description:
-        "We need to talk. If every ex, every group chat, and every roommate is 'crazy,' there's one name on all those leases. This result isn't a life sentence — it's an invitation to try one experiment: take 10% of the blame once and watch what happens.",
+        "We need to talk. If every ex, every group chat, and every roommate is 'crazy,' there's one name on all those leases. This result isn't a life sentence; it's an invitation to try one experiment: take 10% of the blame once and watch what happens.",
     },
   },
   balanced: {
-    label: "⚖️ Case Dismissed",
+    label: "Case Dismissed",
     description:
       "The evidence is inconclusive. Sometimes you're involved, sometimes you're the witness, and you own your share often enough that nobody can build a file on you. Court adjourned.",
   },

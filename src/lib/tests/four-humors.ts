@@ -46,39 +46,39 @@ export const fourHumors: TestDefinition = {
   terms: [
     {
       term: "The Four Humors",
-      note: "Anc Greek medicine held that four bodily fluids — blood, yellow bile, black bile, phlegm — shaped temperament. The medical part was wrong; the personality observations were so good we kept them for 2,400 years.",
+      note: "Ancient Greek medicine held that four bodily fluids (blood, yellow bile, black bile, phlegm) shaped temperament. The medical part was wrong; the personality observations were so good we kept them for 2,400 years.",
     },
     {
       term: "Temperament",
-      note: "Your inborn emotional 'weather pattern' — how you naturally react before habits and culture edit you. The oldest and most studied idea in personality psychology.",
+      note: "Your inborn emotional 'weather pattern': how you naturally react before habits and culture edit you. The oldest and most studied idea in personality psychology.",
     },
   ],
   typeMeta: {
     sanguine: {
-      label: "🍷 Sanguine — The Enthusiast",
+      label: "Sanguine: The Enthusiast",
       description:
-        "Blood-dominant in the classical scheme: social sunshine that rooms genuinely miss when absent. You make friends at bus stops. The classical warning: enthusiasm scatters — depth is your growth edge, not your enemy.",
+        "Blood-dominant in the classical scheme: social sunshine that rooms genuinely miss when absent. You make friends at bus stops. The classical warning: enthusiasm scatters; depth is your growth edge, not your enemy.",
     },
     choleric: {
-      label: "⚡ Choleric — The Commander",
+      label: "Choleric: The Commander",
       description:
         "Yellow-bile energy: decisive, goal-locked, allergic to dithering. History's movers were mostly you. The classical warning: fire that only directs burns its own people. Lead with questions sometimes.",
     },
     melancholic: {
-      label: "🌙 Melancholic — The Deep One",
+      label: "Melancholic: The Deep One",
       description:
         "Black-bile depth: you feel in high resolution and notice what lighter temperaments walk past. Art, meaning, truth live with you. The classical warning: depth without rest becomes weight. Schedule lightness deliberately.",
     },
     phlegmatic: {
-      label: "🌊 Phlegmatic — The Steady Lake",
+      label: "Phlegmatic: The Steady Lake",
       description:
-        "Phlegm equilibrium: nothing rattles you for long, and everyone borrows your calm in storms. The classical warning: lakes look passive but hold everything — speak your depths out loud or others assume they're shallow.",
+        "Phlegm equilibrium: nothing rattles you for long, and everyone borrows your calm in storms. The classical warning: lakes look passive but hold everything; speak your depths out loud or others assume they're shallow.",
     },
   },
   balanced: {
-    label: "⚖️ The Balanced Humorist",
+    label: "The Balanced Humorist",
     description:
-      "All four humors in workable harmony — which ancient physicians considered ideal health itself. You adapt your weather to the room's needs. Rare constitution. Maintain it.",
+      "All four humors in workable harmony, which ancient physicians considered ideal health itself. You adapt your weather to the room's needs. Rare constitution. Maintain it.",
   },
   resultType: "radar",
   funFacts: [
@@ -86,5 +86,5 @@ export const fourHumors: TestDefinition = {
     "Modern temperament research keeps rediscovering versions of this ancient four-type map.",
   ],
   disclaimer:
-    "A quiz inspired by classical temperament theory — history-flavored fun, not medical or psychological diagnosis.",
+    "A quiz inspired by classical temperament theory: history-flavored fun, not medical or psychological diagnosis.",
 };

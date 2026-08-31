@@ -7,7 +7,7 @@ const questions = [
   // Reliable — steady, slow to change state
   { id: "eo_r1", text: "My mood doesn't swing much; people know what they're getting.", type: "likert" as const, axis: "reliable", direction: 1 as const },
   { id: "eo_r2", text: "When things crash around me, I keep running until they're fixed.", type: "likert" as const, axis: "reliable", direction: 1 as const },
-  { id: "eo_r3", text: "My emotions flip fast — one text can reboot my whole day.", type: "likert" as const, axis: "reliable", direction: -1 as const },
+  { id: "eo_r3", text: "My emotions flip fast; one text can reboot my whole day.", type: "likert" as const, axis: "reliable", direction: -1 as const },
   // Expressive — flashy, visible, updates constantly
   { id: "eo_e1", text: "Everyone knows how I feel because my face already posted it.", type: "likert" as const, axis: "expressive", direction: 1 as const },
   { id: "eo_e2", text: "I process feelings by talking about them immediately.", type: "likert" as const, axis: "expressive", direction: 1 as const },
@@ -27,7 +27,7 @@ export const emotionalOs: TestDefinition = {
   title: "Emotional OS Test",
   category: "personality",
   description:
-    "If your emotional life were an operating system, which one would it run? Find out — bugs included.",
+    "If your emotional life were an operating system, which one would it run? Find out (bugs included).",
   whatYoullLearn:
     "Your emotional processing system, its known strengths, and its most common crash pattern.",
   timeMinutes: 3,
@@ -44,35 +44,35 @@ export const emotionalOs: TestDefinition = {
   ],
   typeMeta: {
     reliable: {
-      label: "🖥️ Windows XP — Slow but Reliable",
+      label: "Windows XP: Slow but Reliable",
       description:
         "Old, unglamorous, and somehow still running everything important. You don't crash; you just quietly process while everyone else reboots. Known bug: updates (feelings) get postponed so long they arrive all at once. Run them monthly.",
     },
     expressive: {
-      label: "✨ macOS Beta — Flashy but Unstable",
+      label: "macOS Beta: Flashy but Unstable",
       description:
-        "Beautiful interface, live reactions, gorgeous output — and occasionally crashes mid-presentation. Your openness is a gift; the instability isn't. Ship the stable version of a feeling before announcing it.",
+        "Beautiful interface, live reactions, gorgeous output, and occasionally crashes mid-presentation. Your openness is a gift; the instability isn't. Ship the stable version of a feeling before announcing it.",
     },
     deep: {
-      label: "🐧 Linux — Configurable but Requires Effort",
+      label: "Linux: Configurable but Requires Effort",
       description:
         "You can understand literally anything about yourself if you open the terminal. Powerful, precise, respected by other nerds. Known issue: you'd rather configure than connect. Sometimes just feel the thing without reading its source code.",
     },
     reactive: {
-      label: "🔋 Android on 2% — Fast Response, Quick Reboot",
+      label: "Android on 2%: Fast Response, Quick Reboot",
       description:
         "You respond to everything instantly and recover shockingly fast. High performance, dramatic battery warnings. Known bug: replies sent at full speed sometimes need a recall. A ten-second buffer saves hours.",
     },
   },
   balanced: {
-    label: "📱 The Well-Balanced Phone",
+    label: "The Well-Balanced Phone",
     description:
-      "No single mode dominates — you switch between steady, expressive, analytical, and reactive depending on load. Boring answer, elite setup. Most operating systems aspire to what you already do.",
+      "No single mode dominates: you switch between steady, expressive, analytical, and reactive depending on load. Boring answer, elite setup. Most operating systems aspire to what you already do.",
   },
   resultType: "bars",
   funFacts: [
     "Every OS has a crash pattern. Knowing yours turns surprises into maintenance.",
-    "Emotional processing style is mostly habit, not hardware — systems can learn new defaults.",
+    "Emotional processing style is mostly habit, not hardware; systems can learn new defaults.",
   ],
   disclaimer:
     "This is a playful self-reflection quiz, not a psychological assessment. No actual operating systems were harmed.",

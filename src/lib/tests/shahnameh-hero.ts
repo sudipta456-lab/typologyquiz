@@ -46,7 +46,7 @@ export const shahnamehHero: TestDefinition = {
   terms: [
     {
       term: "شاهنامه (Shahnameh)",
-      note: "'Book of Kings' — Ferdowsi's 11th-century epic of over 50,000 verses covering Persia's mythical history. Iranians treat it the way the West treats Greek mythology: stories everyone knows by heart.",
+      note: "'Book of Kings': Ferdowsi's 11th-century epic of over 50,000 verses covering Persia's mythical history. Iranians treat it the way the West treats Greek mythology: stories everyone knows by heart.",
     },
     {
       term: "Gordāfarid",
@@ -55,36 +55,36 @@ export const shahnamehHero: TestDefinition = {
   ],
   typeMeta: {
     rostam: {
-      label: "🛡️ Rostam — The Protector",
+      label: "Rostam: The Protector",
       description:
-        "Strength deployed for other people. You carry what others can't and stand where it's hardest. Rostam's flaw was pride in his own strength — yours shows up as never asking for help. Ask once this week.",
+        "Strength deployed for other people. You carry what others can't and stand where it's hardest. Rostam's flaw was pride in his own strength; yours shows up as never asking for help. Ask once this week.",
     },
     gordafarid: {
-      label: "⚔️ Gordafarid — The Unexpected Warrior",
+      label: "Gordafarid: The Unexpected Warrior",
       description:
-        "They underestimate you, then they learn. Your power peaks exactly when things look worst. Gordafarid's lesson: you don't owe anyone proof — but watching them realize is admittedly excellent.",
+        "They underestimate you, then they learn. Your power peaks exactly when things look worst. Gordafarid's lesson: you don't owe anyone proof, but watching them realize is admittedly excellent.",
     },
     siyavash: {
-      label: "🕯️ Siyavash — The Honorable",
+      label: "Siyavash: The Honorable",
       description:
-        "Integrity before survival. People trust you with the things that matter because your lines don't move. Siyavash's tragedy was honor without armor — keep your principles, but build boundaries around them.",
+        "Integrity before survival. People trust you with the things that matter because your lines don't move. Siyavash's tragedy was honor without armor; keep your principles, but build boundaries around them.",
     },
     sohrab: {
-      label: "🌪️ Sohrab — The Storm",
+      label: "Sohrab: The Storm",
       description:
-        "Bright, burning, allergic to smallness. Your ambition is a force of nature and twice as loud. Sohrab's flaw was speed — storms that don't check maps collide with their own fathers. Pause once. Look around. Then charge.",
+        "Bright, burning, allergic to smallness. Your ambition is a force of nature and twice as loud. Sohrab's flaw was speed; storms that don't check maps collide with their own fathers. Pause once. Look around. Then charge.",
     },
   },
   balanced: {
-    label: "📜 The Epic Ensemble",
+    label: "The Epic Ensemble",
     description:
-      "Protector, warrior, honorable one, storm — the whole cast lives in you. Epics need ensembles. Rotate leads depending on the chapter.",
+      "Protector, warrior, honorable one, storm: the whole cast lives in you. Epics need ensembles. Rotate leads depending on the chapter.",
   },
   resultType: "radar",
   funFacts: [
-    "Ferdowsi finished the Shahnameh around 1010 CE, saying 'I revived Persia through my verse' — roughly accurate, honestly.",
-    "Gordafarid is one of literature's oldest written warrior heroines — over a millennium old.",
+    "Ferdowsi finished the Shahnameh around 1010 CE, saying 'I revived Persia through my verse', roughly accurate, honestly.",
+    "Gordafarid is one of literature's oldest written warrior heroines, over a millennium old.",
   ],
   disclaimer:
-    "A fun quiz built on epic archetypes — cultural celebration, not a claim about destiny or heritage.",
+    "A fun quiz built on epic archetypes: cultural celebration, not a claim about destiny or heritage.",
 };

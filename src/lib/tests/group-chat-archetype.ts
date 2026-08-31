@@ -49,33 +49,33 @@ export const groupChatArchetype: TestDefinition = {
   ],
   typeMeta: {
     planner: {
-      label: "The Planner 📋",
+      label: "The Planner",
       description:
         "Without you, the group chat is just five people saying 'omg yes' into the void. You pick the place, chase the stragglers, and get everyone out of the house. Watch-out: recruit a deputy. You're allowed to be ghosted sometimes too.",
     },
     ghost: {
-      label: "The Ghost 👻",
+      label: "The Ghost",
       description:
         "You vanish for three days and return with a meme and zero explanation. Nobody takes it personally (out loud). Your messages have higher impact per word than anyone else's. Watch-out: one actual reply a week keeps friendships charged.",
     },
     therapist: {
-      label: "The Therapist 🛋️",
+      label: "The Therapist",
       description:
         "You know everyone's situationship status and current spiral. The chat runs on your emotional Wi-Fi. Watch-out: you deserve to vent too, without scheduling it around everyone else's crises.",
     },
     meme: {
-      label: "The Meme Dealer 🔥",
+      label: "The Meme Dealer",
       description:
         "Half the inside jokes trace back to you, and you keep the chat alive at its lowest-energy moments. Watch-out: humor can double as a check for whether people still like you. They do.",
     },
     archivist: {
-      label: "The Archivist 📂",
+      label: "The Archivist",
       description:
         "Receipts available upon request. You remember who said what in 2023 and hold the exact screenshot that proves it. The chat's living constitution. Watch-out: deploy the archive for good, not vengeance. Mostly.",
     },
   },
   balanced: {
-    label: "The Shapeshifter 🎭",
+    label: "The Shapeshifter",
     description:
       "You plan, joke, listen, ghost, and archive depending on the week. The chat genuinely can't predict you, which is either chaos or range. Useful? Extremely. Mysterious? Also extremely.",
   },

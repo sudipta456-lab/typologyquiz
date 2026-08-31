@@ -27,7 +27,7 @@ export const kkotmalFlower: TestDefinition = {
   title: "Kkotmal Flower Test (꽃말)",
   category: "personality",
   description:
-    "In Korea every flower speaks. Find which bloom matches your personality — forsythia, plum blossom, camellia, or cosmos.",
+    "In Korea every flower speaks. Find which bloom matches your personality: forsythia, plum blossom, camellia, or cosmos.",
   whatYoullLearn:
     "Your flower archetype, its Korean meaning, and the sentence people would use to describe you.",
   timeMinutes: 3,
@@ -46,45 +46,45 @@ export const kkotmalFlower: TestDefinition = {
   terms: [
     {
       term: "꽃말 (Kkotmal)",
-      note: "'Flower language' — in Korea each flower carries an official meaning, and people gift flowers specifically for the message. This quiz borrows four famous kkotmal meanings.",
+      note: "'Flower language': in Korea each flower carries an official meaning, and people gift flowers specifically for the message. This quiz borrows four famous kkotmal meanings.",
     },
     {
       term: "매화 (Maehwa)",
-      note: "The plum blossom, Korea's symbol of resilience — it famously blooms while snow is still on the ground.",
+      note: "The plum blossom, Korea's symbol of resilience; it famously blooms while snow is still on the ground.",
     },
   ],
   typeMeta: {
     forsythia: {
-      label: "🌼 Forsythia — 'Anticipation & New Beginnings'",
+      label: "Forsythia: 'Anticipation & New Beginnings'",
       description:
         "You show up early with good energy and people quietly rely on you as a sign that things will be okay. Your kkotmal sentence: 'Spring starts when you arrive.'",
     },
     plum: {
-      label: "🌸 Plum Blossom — 'Loyalty & Resilience'",
+      label: "Plum Blossom: 'Loyalty & Resilience'",
       description:
         "You bloom in conditions that stop other people. Cold seasons built you instead of ending you. Your kkotmal sentence: 'Watch me flower anyway.'",
     },
     camellia: {
-      label: "🌺 Camellia — 'Quiet Devotion'",
+      label: "Camellia: 'Quiet Devotion'",
       description:
         "Your love language is consistency: remembered birthdays, shown-up promises, no audience required. Your kkotmal sentence: 'I was here the whole time.'",
     },
     cosmos: {
-      label: "🌾 Cosmos — 'Harmony & Peaceful Heart'",
+      label: "Cosmos: 'Harmony & Peaceful Heart'",
       description:
         "You soften rooms. People exhale around you without knowing why. Your kkotmal sentence: 'Everything settles when you stay.'",
     },
   },
   balanced: {
-    label: "🌷 The Wildflower Mix",
+    label: "The Wildflower Mix",
     description:
-      "A little bright, a little resilient, quietly devoted, easy to be around — no single bloom dominates your bed. Gardens love variety; so do your friends.",
+      "A little bright, a little resilient, quietly devoted, easy to be around: no single bloom dominates your bed. Gardens love variety; so do your friends.",
   },
   resultType: "orbit",
   funFacts: [
-    "Korean students traditionally receive forsythia motifs on good-luck charms before exams — anticipation of good things.",
+    "Korean students traditionally receive forsythia motifs on good-luck charms before exams: anticipation of good things.",
     "Maehwa viewing (plum blossom watching) is a real seasonal outing in Korea, like cherry blossoms but earlier and colder.",
   ],
   disclaimer:
-    "A gentle self-reflection quiz built on flower-language traditions — for fun, not fortune-telling.",
+    "A gentle self-reflection quiz built on flower-language traditions: for fun, not fortune-telling.",
 };

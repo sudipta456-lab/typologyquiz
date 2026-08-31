@@ -65,33 +65,33 @@ export const friendRole: TestDefinition = {
     planner: {
       label: "The Planner",
       description:
-        "You're the reason the hangout exists instead of staying a 'we should do something' text. Strength: people can count on you to make things real. Watch-out: quiet resentment when nobody helps — hand someone else a piece of the plan.",
+        "You're the reason the hangout exists instead of staying a 'we should do something' text. Strength: people can count on you to make things real. Watch-out: quiet resentment when nobody helps; hand someone else a piece of the plan.",
     },
     comic: {
       label: "The Comic",
       description:
-        "You keep the energy up and the awkward short. Strength: humor that pulls people closer. Watch-out: jokes make a great hiding spot — you're allowed to be serious with them too.",
+        "You keep the energy up and the awkward short. Strength: humor that pulls people closer. Watch-out: jokes make a great hiding spot; you're allowed to be serious with them too.",
     },
     listener: {
       label: "The Listener",
       description:
-        "You're where people go when it's real. Strength: you notice what others miss. Watch-out: carrying everyone's weight gets heavy — you deserve a turn to be the one talking.",
+        "You're where people go when it's real. Strength: you notice what others miss. Watch-out: carrying everyone's weight gets heavy; you deserve a turn to be the one talking.",
     },
     spark: {
       label: "The Spark",
       description:
-        "You're why the group has stories instead of just plans. Strength: adventure and nerve. Watch-out: not everyone runs at your speed — check who needs the slower version.",
+        "You're why the group has stories instead of just plans. Strength: adventure and nerve. Watch-out: not everyone runs at your speed; check who needs the slower version.",
     },
     anchor: {
       label: "The Anchor",
       description:
-        "You're the calm the group borrows in a crisis. Strength: people trust you completely. Watch-out: sliding into the permanent 'parent friend' role — you're allowed to need support too.",
+        "You're the calm the group borrows in a crisis. Strength: people trust you completely. Watch-out: sliding into the permanent 'parent friend' role; you're allowed to need support too.",
     },
   },
   balanced: {
     label: "The Shapeshifter",
     description:
-      "No single role owns you — you plan, joke, listen, or steady the ship depending on who's in the room and what it needs. Useful in basically any group, though it can mean nobody quite knows what to expect from you.",
+      "No single role owns you: you plan, joke, listen, or steady the ship depending on who's in the room and what it needs. Useful in basically any group, though it can mean nobody quite knows what to expect from you.",
   },
   resultType: "bars",
   funFacts: [

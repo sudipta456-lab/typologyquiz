@@ -23,7 +23,7 @@ export const cringeCheck: TestDefinition = {
   title: "Cringe Check",
   category: "perception",
   description:
-    "Everyone is someone's cringe. The only question is whether you know it — and whether you care.",
+    "Everyone is someone's cringe. The only question is whether you know it, and whether you care.",
   whatYoullLearn:
     "Where you sit between Unbotherable Legend and Professionally Cringe, and why the middle might be overrated.",
   timeMinutes: 3,
@@ -45,37 +45,37 @@ export const cringeCheck: TestDefinition = {
   spectrumBands: [
     {
       max: 25,
-      label: "🔒 Curated & Cautious",
+      label: "Curated & Cautious",
       description:
-        "Every post considered, every sentence pre-flighted, zero documented incidents. Flawless image — but 'trying hard' scares you more than failing does, which quietly costs you things you'd be great at. One unscheduled weird move this week. Prescription written.",
+        "Every post considered, every sentence pre-flighted, zero documented incidents. Flawless image, but 'trying hard' scares you more than failing does, which quietly costs you things you'd be great at. One unscheduled weird move this week. Prescription written.",
     },
     {
       max: 45,
-      label: "😎 Cool With a Ledger",
+      label: "Cool With a Ledger",
       description:
         "You seem effortless because you keep books. Occasional calculated risks, quick deletions, no receipts left behind. Effective strategy; just make sure the ledger never starts editing your actual personality.",
     },
     {
       max: 65,
-      label: "😬 Self-Aware Cringe Enjoyer",
+      label: "Self-Aware Cringe Enjoyer",
       description:
         "You know exactly when you're being A Lot, and you do it anyway, with commentary. This is the internet's favorite configuration: confident enough to be weird, aware enough to laugh first. You are fine. Genuinely.",
     },
     {
       max: 85,
-      label: "🎪 Professionally Cringe",
+      label: "Professionally Cringe",
       description:
         "Outdated slang deployed deliberately. Jokes enjoyed past their expiration date. Friends say 'you're a lot' and mean it as love language. You have something rare: immunity to secondhand embarrassment about yourself. Guard it.",
     },
     {
       max: 100,
-      label: "🏆 Unbotherable Legend",
+      label: "Unbotherable Legend",
       description:
-        "You have never once edited yourself for the room. Either supreme confidence or total lack of witnesses — either way, museums should study you. Just keep one honest friend with veto power. Everyone needs an editor sometimes.",
+        "You have never once edited yourself for the room. Either supreme confidence or total lack of witnesses; either way, museums should study you. Just keep one honest friend with veto power. Everyone needs an editor sometimes.",
     },
   ],
   funFacts: [
-    "'Cringe' flipped from insult to identity — owning it became the whole point.",
+    "'Cringe' flipped from insult to identity; owning it became the whole point.",
     "Psychologists find cringe reactions peak when we see someone break an unspoken rule we secretly want to break.",
   ],
   disclaimer:

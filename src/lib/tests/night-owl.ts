@@ -32,7 +32,7 @@ export const nightOwl: TestDefinition = {
   title: "Night Owl or Early Bird",
   category: "character",
   description:
-    "Where does your energy actually peak — sunrise or midnight? A quick chronotype vibe check.",
+    "Where does your energy actually peak: sunrise or midnight? A quick chronotype vibe check.",
   whatYoullLearn:
     "Which end of the early-bird / night-owl spectrum you're leaning right now, and how to work with it instead of against it.",
   timeMinutes: 3,
@@ -48,7 +48,7 @@ export const nightOwl: TestDefinition = {
       lowLabel: "Early Bird",
       highLabel: "Night Owl",
       description:
-        "Your natural energy clock — higher means your focus and mood peak later in the day.",
+        "Your natural energy clock: higher means your focus and mood peak later in the day.",
     },
   ],
   resultType: "meter",
@@ -57,7 +57,7 @@ export const nightOwl: TestDefinition = {
       max: 20,
       label: "Full Early Bird",
       description:
-        "Sunrise is your superpower right now. You front-load the day and run out of runway at night — no shame, just schedule the big stuff early.",
+        "Sunrise is your superpower right now. You front-load the day and run out of runway at night; no shame, just schedule the big stuff early.",
     },
     {
       max: 40,
@@ -69,7 +69,7 @@ export const nightOwl: TestDefinition = {
       max: 60,
       label: "Flexible Middle",
       description:
-        "You're not locked to either end — you can flex earlier or later depending on the week. Handy, but pick an anchor so your sleep doesn't drift.",
+        "You're not locked to either end; you can flex earlier or later depending on the week. Handy, but pick an anchor so your sleep doesn't drift.",
     },
     {
       max: 80,
@@ -81,11 +81,11 @@ export const nightOwl: TestDefinition = {
       max: 100,
       label: "Deep Night Owl",
       description:
-        "Midnight is your prime time. The trick isn't 'fix it' — it's guarding sleep so early obligations don't quietly wreck you.",
+        "Midnight is your prime time. The trick isn't 'fix it'; it's guarding sleep so early obligations don't quietly wreck you.",
     },
   ],
   funFacts: [
-    "Chronotype shifts with age — it runs latest in the late-teens-to-early-20s, then slowly drifts earlier. So this can genuinely change on you.",
+    "Chronotype shifts with age; it runs latest in the late-teens-to-early-20s, then slowly drifts earlier. So this can genuinely change on you.",
     "Being a night owl isn't laziness; it's largely wired in. What you can control is keeping your sleep window consistent.",
     "Compare with friends: matched owls make great late-study buddies; owl + early bird pairs have to negotiate the group-chat hours.",
   ],

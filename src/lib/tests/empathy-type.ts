@@ -34,7 +34,7 @@ export const empathyType: TestDefinition = {
   title: "Head or Heart Empathy",
   category: "character",
   description:
-    "When someone's going through it, do you understand their feelings — or feel them yourself? A quick head-vs-heart empathy check.",
+    "When someone's going through it, do you understand their feelings, or feel them yourself? A quick head-vs-heart empathy check.",
   whatYoullLearn:
     "Whether your empathy leans toward understanding (head) or feeling-with (heart), how strong that lean is, and the gentle watch-out for your side.",
   timeMinutes: 3,
@@ -59,7 +59,7 @@ export const empathyType: TestDefinition = {
       max: 20,
       label: "Strong Head",
       description:
-        "You're the calm-in-the-storm friend. You read what people feel and understand it clearly without getting swept away — which makes you steady and genuinely helpful in a crisis. Gentle watch-out: name the feeling out loud sometimes, so people know you get it, not just the logic.",
+        "You're the calm-in-the-storm friend. You read what people feel and understand it clearly without getting swept away, which makes you steady and genuinely helpful in a crisis. Gentle watch-out: name the feeling out loud sometimes, so people know you get it, not just the logic.",
     },
     {
       max: 40,
@@ -71,13 +71,13 @@ export const empathyType: TestDefinition = {
       max: 60,
       label: "Both / Balanced",
       description:
-        "You flex between feeling-with and thinking-through depending on the moment — soaking it up when a friend needs company, stepping back when they need a clear head. A genuinely versatile way to show up for people.",
+        "You flex between feeling-with and thinking-through depending on the moment, soaking it up when a friend needs company, stepping back when they need a clear head. A genuinely versatile way to show up for people.",
     },
     {
       max: 80,
       label: "Heart-Leaning",
       description:
-        "You feel what the people around you feel, which makes you warm and quick to comfort. You can still zoom out when you need to. Watch-out: protect your own battery — you don't have to carry every mood in the room.",
+        "You feel what the people around you feel, which makes you warm and quick to comfort. You can still zoom out when you need to. Watch-out: protect your own battery; you don't have to carry every mood in the room.",
     },
     {
       max: 100,
@@ -87,9 +87,9 @@ export const empathyType: TestDefinition = {
     },
   ],
   funFacts: [
-    "Psychologists split empathy into two kinds: cognitive (understanding a feeling) and affective (feeling it too) — and they're run by different parts of the brain.",
+    "Psychologists split empathy into two kinds: cognitive (understanding a feeling) and affective (feeling it too), and they're run by different parts of the brain.",
     "Leaning 'head' doesn't mean you care less; some of the most reliable, supportive people mostly understand rather than absorb.",
-    "Compare with friends: a heart-leaner and a head-leaner make a great pair — one brings the comfort, the other brings the calm plan.",
+    "Compare with friends: a heart-leaner and a head-leaner make a great pair, one brings the comfort, the other brings the calm plan.",
   ],
   disclaimer:
     "A light self-reflection vibe check on your empathy style, not a clinical measure. Both ends are strengths, and yours can shift with the situation.",

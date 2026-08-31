@@ -50,7 +50,7 @@ export const howBold: TestDefinition = {
       lowLabel: "Cautious",
       highLabel: "Bold",
       description:
-        "How readily you reach for new experiences, adventure, and speaking up — higher means more novelty-seeking and spontaneity.",
+        "How readily you reach for new experiences, adventure, and speaking up: higher means more novelty-seeking and spontaneity.",
     },
   ],
   resultType: "wave",
@@ -59,25 +59,25 @@ export const howBold: TestDefinition = {
       max: 20,
       label: "Steady Planner",
       description:
-        "You like knowing what you're walking into, and you think things through before you leap. That's real thoughtfulness — you rarely get blindsided. The gentle nudge: every so often, say yes to a small unknown so the world doesn't shrink to only what's familiar.",
+        "You like knowing what you're walking into, and you think things through before you leap. That's real thoughtfulness; you rarely get blindsided. The gentle nudge: every so often, say yes to a small unknown so the world doesn't shrink to only what's familiar.",
     },
     {
       max: 40,
       label: "Careful",
       description:
-        "You lean toward the familiar and prefer a plan over a wild card. Great instincts for weighing things well. Try picking one low-stakes new thing to try each month — small doses of new keep your options open.",
+        "You lean toward the familiar and prefer a plan over a wild card. Great instincts for weighing things well. Try picking one low-stakes new thing to try each month; small doses of new keep your options open.",
     },
     {
       max: 60,
       label: "Balanced",
       description:
-        "You can dive into something new or hang back and observe, depending on the moment. That flexibility is genuinely handy — you read situations before deciding which mode fits.",
+        "You can dive into something new or hang back and observe, depending on the moment. That flexibility is genuinely handy; you read situations before deciding which mode fits.",
     },
     {
       max: 80,
       label: "Adventurous",
       description:
-        "New experiences pull you in and you're happy to put yourself out there. People love bringing you along. The watch-out isn't 'slow down' — it's giving the big decisions a beat of thought before the yes.",
+        "New experiences pull you in and you're happy to put yourself out there. People love bringing you along. The watch-out isn't 'slow down'; it's giving the big decisions a beat of thought before the yes.",
     },
     {
       max: 100,
@@ -88,9 +88,9 @@ export const howBold: TestDefinition = {
   ],
   funFacts: [
     "Novelty-seeking tends to run high in the teen-to-early-adult years and mellows a bit later, so a bold streak now is pretty on-schedule.",
-    "Boldness and caution each win in different situations: bold gets you the audition, cautious gets you the well-checked plan — most people flex between them.",
-    "Compare with friends: a bold instigator plus a careful planner is a classic combo — one finds the adventure, the other makes sure everyone gets home.",
+    "Boldness and caution each win in different situations: bold gets you the audition, cautious gets you the well-checked plan; most people flex between them.",
+    "Compare with friends: a bold instigator plus a careful planner is a classic combo; one finds the adventure, the other makes sure everyone gets home.",
   ],
   disclaimer:
-    "A light self-reflection vibe check, not a dare. Bold means putting yourself out there for new experiences, not doing anything unsafe — real courage still looks before it leaps.",
+    "A light self-reflection vibe check, not a dare. Bold means putting yourself out there for new experiences, not doing anything unsafe; real courage still looks before it leaps.",
 };

@@ -29,7 +29,7 @@ export const brain2am: TestDefinition = {
   description:
     "Everyone's asleep. Your brain has scheduled a meeting. What does it actually get up to?",
   whatYoullLearn:
-    "Your brain's signature after-hours mode — philosopher, inventor, simulator, or memory projector — and how to work with it instead of against it.",
+    "Your brain's signature after-hours mode (philosopher, inventor, simulator, or memory projector) and how to work with it instead of against it.",
   timeMinutes: 3,
   itemCount: 12,
   license: "Original TypologyQuiz items (self-reflection only)",
@@ -44,35 +44,35 @@ export const brain2am: TestDefinition = {
   ],
   typeMeta: {
     existential: {
-      label: "🌌 The 2 AM Philosopher",
+      label: "The 2 AM Philosopher",
       description:
-        "Consciousness, the universe, whether we're all just patterns — your brain saves the biggest questions for when nobody can answer them. The daytime version of you usually finds these thoughts beautiful too. Write them down; sunrise-you is smarter about them.",
+        "Consciousness, the universe, whether we're all just patterns: your brain saves the biggest questions for when nobody can answer them. The daytime version of you usually finds these thoughts beautiful too. Write them down; sunrise-you is smarter about them.",
     },
     creative: {
-      label: "💡 The Midnight Inventor",
+      label: "The Midnight Inventor",
       description:
-        "The idea always arrives mid-yawn: a story, a project, a business plan, lyrics. Your brain hoards inspiration until the lights go off. Keep a notepad by the bed — half your best material is currently evaporating every night.",
+        "The idea always arrives mid-yawn: a story, a project, a business plan, lyrics. Your brain hoards inspiration until the lights go off. Keep a notepad by the bed; half your best material is currently evaporating every night.",
     },
     simulator: {
-      label: "🎬 The Disaster Director",
+      label: "The Disaster Director",
       description:
-        "Tomorrow's presentation becomes a Marvel movie where everything goes wrong in order. Your brain means well — it's rehearsing protection. Thank it, then remind it you've survived 100% of your simulated catastrophes.",
+        "Tomorrow's presentation becomes a Marvel movie where everything goes wrong in order. Your brain means well; it's rehearsing protection. Thank it, then remind it you've survived 100% of your simulated catastrophes.",
     },
     replay: {
-      label: "📼 The Cringe Projector",
+      label: "The Cringe Projector",
       description:
         "2019 called. It wants to show you that one thing you said, in full HD, at 2 AM. Everyone's archive has these files; yours just auto-plays. Trick that works: narrate the replay in a silly voice until the file loses its power.",
     },
   },
   balanced: {
-    label: "🛌 The Night Shift Generalist",
+    label: "The Night Shift Generalist",
     description:
       "Your brain rotates shifts: philosophy tonight, invention tomorrow, a double feature of simulations and replays on weekends. Varied programming. Consider a strict bedtime policy anyway.",
   },
   resultType: "radar",
   funFacts: [
     "Night brains exaggerate: problems genuinely feel bigger at 2 AM because tired brains weigh negatives more heavily.",
-    "The 'midnight idea' phenomenon is real — reduced filter plus low distraction equals unexpected connections.",
+    "The 'midnight idea' phenomenon is real: reduced filter plus low distraction equals unexpected connections.",
   ],
   disclaimer:
     "This is a lighthearted quiz about nighttime thinking habits, not medical advice about sleep. Persistent sleep trouble deserves real support.",

@@ -44,28 +44,28 @@ export const internetPersona: TestDefinition = {
   ],
   typeMeta: {
     lurker: {
-      label: "🛰️ The Professional Lurker",
+      label: "The Professional Lurker",
       description:
         "Knows everything. Posts nothing. You've watched entire friendships form and collapse from behind a read receipt. Superpower: perfect information. Weakness: nobody knows you exist, which is exactly how you like it.",
     },
     ghost: {
-      label: "👻 The Selective Ghost",
+      label: "The Selective Ghost",
       description:
-        "Gone for three days. Returns with a meme and no explanation. Your online presence runs on vibes and lunar cycles. People don't worry when you vanish — they know you'll materialize when there's something worth materializing for.",
+        "Gone for three days. Returns with a meme and no explanation. Your online presence runs on vibes and lunar cycles. People don't worry when you vanish; they know you'll materialize when there's something worth materializing for.",
     },
     poster: {
-      label: "📱 The Accidental Influencer",
+      label: "The Accidental Influencer",
       description:
         "You claim you don't care about engagement while checking the numbers from three different apps. Life happens to you and then it happens to your feed. It's fine. It's a creative outlet. (The views were good today, weren't they?)",
     },
     chaos: {
-      label: "🎲 The Plot Twist",
+      label: "The Plot Twist",
       description:
         "No schedule. No niche. No explanation. Yesterday: a photo of a pigeon. Today: a life update that rearranges everyone's understanding of you. Nobody knows what you're doing next, including you, and that's the brand.",
     },
   },
   balanced: {
-    label: "🪑 The Background Character",
+    label: "The Background Character",
     description:
       "Quietly knows everyone else's business. Appears occasionally, comments rarely, remembers always. Every group has one, and every group secretly depends on them. You're the constant in everyone else's algorithm.",
   },

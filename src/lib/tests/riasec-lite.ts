@@ -68,7 +68,7 @@ export const riasecLite: TestDefinition = {
     realistic: {
       label: "The Maker",
       description:
-        "Practical, build-and-fix energy — you learn by doing, not by reading about it. Strength: you finish real things while other people are still planning. Watch-out: some doors open faster if you sit through the theory first.",
+        "Practical, build-and-fix energy: you learn by doing, not by reading about it. Strength: you finish real things while other people are still planning. Watch-out: some doors open faster if you sit through the theory first.",
     },
     investigative: {
       label: "The Analyst",
@@ -78,34 +78,34 @@ export const riasecLite: TestDefinition = {
     artistic: {
       label: "The Creator",
       description:
-        "Ideas, expression, and your own style matter more than the template. Strength: you make things nobody else would have thought of. Watch-out: constraints aren't the enemy — deadlines and briefs sharpen good work.",
+        "Ideas, expression, and your own style matter more than the template. Strength: you make things nobody else would have thought of. Watch-out: constraints aren't the enemy; deadlines and briefs sharpen good work.",
     },
     social: {
       label: "The Connector",
       description:
-        "People are your project — teaching, supporting, and teamwork feel like the point. Strength: others do better work around you. Watch-out: looking after everyone can quietly cost you your own time.",
+        "People are your project: teaching, supporting, and teamwork feel like the point. Strength: others do better work around you. Watch-out: looking after everyone can quietly cost you your own time.",
     },
     enterprising: {
       label: "The Starter",
       description:
-        "Influence, initiative, and momentum are your thing — you'd rather run it than watch it. Strength: you get people moving. Watch-out: starting is the easy half; the follow-through is where it counts.",
+        "Influence, initiative, and momentum are your thing: you'd rather run it than watch it. Strength: you get people moving. Watch-out: starting is the easy half; the follow-through is where it counts.",
     },
     conventional: {
       label: "The Organiser",
       description:
-        "Order, systems, and reliability are real strengths — you make chaos usable. Strength: people trust your work to be right. Watch-out: not every mess needs fixing, and some good ideas arrive untidy.",
+        "Order, systems, and reliability are real strengths: you make chaos usable. Strength: people trust your work to be right. Watch-out: not every mess needs fixing, and some good ideas arrive untidy.",
     },
   },
   balanced: {
     label: "The Multi-Interest",
     description:
-      "No single theme runs away with it — your interests spread across making, thinking, creating, helping, leading, and organising. That's normal and useful; most people are a blend of two or three. Try things and see which ones keep pulling you back.",
+      "No single theme runs away with it: your interests spread across making, thinking, creating, helping, leading, and organising. That's normal and useful; most people are a blend of two or three. Try things and see which ones keep pulling you back.",
   },
   resultType: "radar",
   funFacts: [
     "RIASEC is one of the most widely used career interest models in schools and universities worldwide.",
     "Most people have two or three strong themes, not one pure type.",
-    "Interests grow when you try new activities — this is a snapshot, not a sentence.",
+    "Interests grow when you try new activities; this is a snapshot, not a sentence.",
   ],
   disclaimer:
     "A short interest quiz for exploration, not an official career counseling tool or aptitude test.",

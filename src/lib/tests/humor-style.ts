@@ -59,7 +59,7 @@ export const humorStyle: TestDefinition = {
     affiliative: {
       label: "The Warm Jokester",
       description:
-        "You use humor to connect — easing tension and making people feel in on the joke. Strength: people relax around you. Watch-out: it's okay to be serious sometimes too.",
+        "You use humor to connect, easing tension and making people feel in on the joke. Strength: people relax around you. Watch-out: it's okay to be serious sometimes too.",
     },
     selfEnhancing: {
       label: "The Chill Optimist",
@@ -69,7 +69,7 @@ export const humorStyle: TestDefinition = {
     edgy: {
       label: "The Sarcastic Roaster",
       description:
-        "Your humor has teeth — teasing, dry, quick. Strength: sharp and hilarious with people who get it. Watch-out: read the room; the same joke lands very differently on a bad day.",
+        "Your humor has teeth: teasing, dry, quick. Strength: sharp and hilarious with people who get it. Watch-out: read the room; the same joke lands very differently on a bad day.",
     },
     selfDeprecating: {
       label: "The Self-Roast Champion",
@@ -80,13 +80,13 @@ export const humorStyle: TestDefinition = {
   balanced: {
     label: "The Blend",
     description:
-      "No single lane owns your humor — you shift between warm, sunny, edgy, and self-roast depending on the room. Flexible and hard to predict, in a good way.",
+      "No single lane owns your humor: you shift between warm, sunny, edgy, and self-roast depending on the room. Flexible and hard to predict, in a good way.",
   },
   resultType: "orbit",
   funFacts: [
-    "Psychologists split humor into styles that connect (warm, sunny) and styles that can sting (edgy, self-roast) — most people use a mix.",
+    "Psychologists split humor into styles that connect (warm, sunny) and styles that can sting (edgy, self-roast): most people use a mix.",
     "The 'warm' and 'sunny' styles tend to track with feeling good; heavy self-roasting is the one to keep an eye on if it stops being fun.",
-    "Compare with friends — a warm jokester plus a sarcastic roaster is basically a comedy duo.",
+    "Compare with friends: a warm jokester plus a sarcastic roaster is basically a comedy duo.",
   ],
   disclaimer:
     "A light vibe check on how you joke, not a personality verdict. Your humor shifts with mood and company.",

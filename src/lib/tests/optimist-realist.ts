@@ -22,7 +22,7 @@ const questions = [
   { id: "or_11", text: "When something can go wrong, I usually expect it will.", type: "likert" as const, axis: "outlook", direction: -1 as const },
   { id: "or_12", text: "I plan around what could realistically go sideways.", type: "likert" as const, axis: "outlook", direction: -1 as const },
   { id: "or_13", text: "I trust facts and evidence more than a good feeling about things.", type: "likert" as const, axis: "outlook", direction: -1 as const },
-  { id: "or_14", text: "'It'll be fine' isn't a plan — I want a backup ready.", type: "likert" as const, axis: "outlook", direction: -1 as const },
+  { id: "or_14", text: "'It'll be fine' isn't a plan; I want a backup ready.", type: "likert" as const, axis: "outlook", direction: -1 as const },
   { id: "or_15", text: "I stay a little skeptical until I see how things actually play out.", type: "likert" as const, axis: "outlook", direction: -1 as const },
   { id: "or_16", text: "I'd call myself more grounded than hopeful about how things go.", type: "likert" as const, axis: "outlook", direction: -1 as const },
 ];
@@ -48,7 +48,7 @@ export const optimistRealist: TestDefinition = {
       lowLabel: "Realist",
       highLabel: "Optimist",
       description:
-        "How you expect things to turn out — lower means grounded and prepared, higher means hopeful and expecting the upside.",
+        "How you expect things to turn out: lower means grounded and prepared, higher means hopeful and expecting the upside.",
     },
   ],
   resultType: "wave",
@@ -57,19 +57,19 @@ export const optimistRealist: TestDefinition = {
       max: 20,
       label: "Braced Realist",
       description:
-        "You plan for what could go wrong so nothing blindsides you. Superpower: you're prepared, clear-eyed, and hard to disappoint. Just leave a crack in the door for good surprises — some things do go right.",
+        "You plan for what could go wrong so nothing blindsides you. Superpower: you're prepared, clear-eyed, and hard to disappoint. Just leave a crack in the door for good surprises; some things do go right.",
     },
     {
       max: 40,
       label: "Grounded",
       description:
-        "You lean practical — you'd rather see the evidence than run on a good feeling. Steady and reliable, with a backup plan ready. Letting yourself hope now and then won't wreck the strategy.",
+        "You lean practical; you'd rather see the evidence than run on a good feeling. Steady and reliable, with a backup plan ready. Letting yourself hope now and then won't wreck the strategy.",
     },
     {
       max: 60,
       label: "Balanced",
       description:
-        "You hope for the best but plan for the rest — reading each situation on its own terms. That mix of realism and optimism is exactly what keeps you both grounded and moving forward.",
+        "You hope for the best but plan for the rest, reading each situation on its own terms. That mix of realism and optimism is exactly what keeps you both grounded and moving forward.",
     },
     {
       max: 80,
@@ -81,13 +81,13 @@ export const optimistRealist: TestDefinition = {
       max: 100,
       label: "Full Optimist",
       description:
-        "You genuinely expect the good outcome, and you find the upside almost anywhere. Superpower: resilience — setbacks bounce off you. The catch: pair that hope with a bit of prep so optimism has something solid to stand on.",
+        "You genuinely expect the good outcome, and you find the upside almost anywhere. Superpower: resilience; setbacks bounce off you. The catch: pair that hope with a bit of prep so optimism has something solid to stand on.",
     },
   ],
   funFacts: [
-    "Psychologists measure 'dispositional optimism' — your general expectation that things will turn out well — and it tends to track with bouncing back faster from setbacks.",
+    "Psychologists measure 'dispositional optimism' (your general expectation that things will turn out well) and it tends to track with bouncing back faster from setbacks.",
     "Being a realist isn't the same as being negative; grounded, prepared people are often the ones holding the plan together when things get messy.",
-    "Compare with friends — an optimist and a realist planning a trip together usually end up with both the fun ideas and the actual backup plan.",
+    "Compare with friends: an optimist and a realist planning a trip together usually end up with both the fun ideas and the actual backup plan.",
   ],
   disclaimer:
     "A light self-reflection vibe check, not a measure of your mental health. Your outlook shifts with what's going on in your life and how the week is treating you.",

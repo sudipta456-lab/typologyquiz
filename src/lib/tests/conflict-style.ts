@@ -65,7 +65,7 @@ export const conflictStyle: TestDefinition = {
     compete: {
       label: "The Competitor",
       description:
-        "You go in for your view and you don't fold easily. Strength: clear standards, and you'll say the thing nobody else will. Watch-out: people can feel steamrolled — try listening all the way through before you argue back.",
+        "You go in for your view and you don't fold easily. Strength: clear standards, and you'll say the thing nobody else will. Watch-out: people can feel steamrolled; try listening all the way through before you argue back.",
     },
     avoid: {
       label: "The Avoider",
@@ -85,13 +85,13 @@ export const conflictStyle: TestDefinition = {
     collaborate: {
       label: "The Problem-Solver",
       description:
-        "You dig until you find something that genuinely works for both sides. Strength: respect, creativity, and fixes that hold. Watch-out: it takes time and energy you won't always have — some arguments just aren't worth the full process.",
+        "You dig until you find something that genuinely works for both sides. Strength: respect, creativity, and fixes that hold. Watch-out: it takes time and energy you won't always have; some arguments just aren't worth the full process.",
     },
   },
   balanced: {
     label: "The Shape-Shifter",
     description:
-      "No single style runs the show — you read the situation and switch. Flexible and hard to pin down, which is genuinely useful. The trade-off: your friends may not know which version of you they're getting.",
+      "No single style runs the show; you read the situation and switch. Flexible and hard to pin down, which is genuinely useful. The trade-off: your friends may not know which version of you they're getting.",
   },
   resultType: "bars",
   funFacts: [

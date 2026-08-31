@@ -28,11 +28,11 @@ const questions = [
   { id: "gp_so5", text: "Voice chat and group play mostly drain me.", type: "likert" as const, axis: "socializer", direction: -1 as const },
 
   // Competitor — winning, ranked, PvP, being the best
-  { id: "gp_co1", text: "I play to win — a loss actually stings.", type: "likert" as const, axis: "competitor", direction: 1 as const },
+  { id: "gp_co1", text: "I play to win; a loss actually stings.", type: "likert" as const, axis: "competitor", direction: 1 as const },
   { id: "gp_co2", text: "Climbing the ranked ladder is what gets me hyped.", type: "likert" as const, axis: "competitor", direction: 1 as const },
   { id: "gp_co3", text: "Beating other players head-to-head is the best feeling in gaming.", type: "likert" as const, axis: "competitor", direction: 1 as const },
   { id: "gp_co4", text: "I don't really care where I land on the leaderboard.", type: "likert" as const, axis: "competitor", direction: -1 as const },
-  { id: "gp_co5", text: "PvP stress isn't worth it — I'd skip ranked entirely.", type: "likert" as const, axis: "competitor", direction: -1 as const },
+  { id: "gp_co5", text: "PvP stress isn't worth it; I'd skip ranked entirely.", type: "likert" as const, axis: "competitor", direction: -1 as const },
 ];
 
 export const gamingPersonality: TestDefinition = {
@@ -59,34 +59,34 @@ export const gamingPersonality: TestDefinition = {
     achiever: {
       label: "The Completionist",
       description:
-        "Every checkbox ticked, every level maxed — you love the satisfaction of finishing what you start. Strength: serious follow-through and patience. Watch-out: it's okay to drop a game you've stopped enjoying, even at 87%.",
+        "Every checkbox ticked, every level maxed: you love the satisfaction of finishing what you start. Strength: serious follow-through and patience. Watch-out: it's okay to drop a game you've stopped enjoying, even at 87%.",
     },
     explorer: {
       label: "The Explorer",
       description:
-        "You wander, poke, and discover — the map and the lore are the real reward. Strength: curiosity that finds what everyone else walks past. Watch-out: sometimes the main quest is worth finishing too.",
+        "You wander, poke, and discover: the map and the lore are the real reward. Strength: curiosity that finds what everyone else walks past. Watch-out: sometimes the main quest is worth finishing too.",
     },
     socializer: {
       label: "The Social Player",
       description:
-        "For you, games are a place to hang out — co-op nights and group chat make it fun. Strength: you turn playing into connecting. Watch-out: a quiet solo session now and then is allowed to recharge.",
+        "For you, games are a place to hang out: co-op nights and group chat make it fun. Strength: you turn playing into connecting. Watch-out: a quiet solo session now and then is allowed to recharge.",
     },
     competitor: {
       label: "The Competitor",
       description:
-        "You're here to win — ranked, PvP, top of the board. Strength: drive and focus that push you to improve fast. Watch-out: a rough losing streak isn't a verdict on you; step back before it sours the fun.",
+        "You're here to win: ranked, PvP, top of the board. Strength: drive and focus that push you to improve fast. Watch-out: a rough losing streak isn't a verdict on you; step back before it sours the fun.",
     },
   },
   balanced: {
     label: "The All-Rounder",
     description:
-      "No single style owns you — some nights you grind, some you explore, some you're all about friends or the win. Flexible and hard to pin down, which means most games have something for you.",
+      "No single style owns you: some nights you grind, some you explore, some you're all about friends or the win. Flexible and hard to pin down, which means most games have something for you.",
   },
   resultType: "orbit",
   funFacts: [
-    "Researchers have long grouped players into a handful of types — most people are a blend, not just one.",
+    "Researchers have long grouped players into a handful of types; most people are a blend, not just one.",
     "Your gaming type can shift with the game itself: a chill explorer in one title can turn full competitor in another.",
-    "Compare with friends — an achiever plus an explorer basically 100% a game together, one grinding and one mapping every secret.",
+    "Compare with friends: an achiever plus an explorer basically 100% a game together, one grinding and one mapping every secret.",
   ],
   disclaimer:
     "A light vibe check on how you like to play, not a fixed label. Your gaming style shifts with mood, game, and who you're playing with.",

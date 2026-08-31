@@ -65,7 +65,7 @@ export const overthinkerLevel: TestDefinition = {
       max: 85,
       label: "Chief Overthinking Officer",
       description:
-        "You have considered fourteen outcomes for a two-word reply. Your simulations are so realistic you sometimes feel tired from events that never occurred. Channel it into planning, writing, or chess — anywhere the tabs pay rent.",
+        "You have considered fourteen outcomes for a two-word reply. Your simulations are so realistic you sometimes feel tired from events that never occurred. Channel it into planning, writing, or chess: anywhere the tabs pay rent.",
     },
     {
       max: 100,
@@ -76,7 +76,7 @@ export const overthinkerLevel: TestDefinition = {
   ],
   funFacts: [
     "Overthinking and intelligence correlate, but so do overthinking and exhaustion. Choose your trade carefully.",
-    "Writing a worry down measurably quiets it — the brain stops rehearsing what's been filed.",
+    "Writing a worry down measurably quiets it; the brain stops rehearsing what's been filed.",
   ],
   disclaimer:
     "This is a lighthearted self-reflection quiz about thinking habits, not a mental health assessment.",

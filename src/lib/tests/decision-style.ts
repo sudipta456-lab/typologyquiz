@@ -48,7 +48,7 @@ export const decisionStyle: TestDefinition = {
       lowLabel: "Gut",
       highLabel: "Overthinker",
       description:
-        "How you make choices — lower means quick and instinctive, higher means thorough and comparison-heavy.",
+        "How you make choices: lower means quick and instinctive, higher means thorough and comparison-heavy.",
     },
   ],
   resultType: "meter",
@@ -63,13 +63,13 @@ export const decisionStyle: TestDefinition = {
       max: 40,
       label: "Gut-Leaning",
       description:
-        "You mostly trust your instinct and keep things moving. You'll skim a couple of options, then decide. Efficient and low-stress — just leave room to slow down when a choice really matters.",
+        "You mostly trust your instinct and keep things moving. You'll skim a couple of options, then decide. Efficient and low-stress; just leave room to slow down when a choice really matters.",
     },
     {
       max: 60,
       label: "Balanced",
       description:
-        "You can go fast or go deep depending on the stakes — quick on the small stuff, careful on the big stuff. That flexibility is the sweet spot most people are chasing.",
+        "You can go fast or go deep depending on the stakes: quick on the small stuff, careful on the big stuff. That flexibility is the sweet spot most people are chasing.",
     },
     {
       max: 80,
@@ -81,13 +81,13 @@ export const decisionStyle: TestDefinition = {
       max: 100,
       label: "Deep Overthinker",
       description:
-        "You want the best option, and you'll research every angle to find it. Superpower: you rarely get blindsided. The catch: the endless comparing can cost you time and peace — set a deadline and let yourself land.",
+        "You want the best option, and you'll research every angle to find it. Superpower: you rarely get blindsided. The catch: the endless comparing can cost you time and peace; set a deadline and let yourself land.",
     },
   ],
   funFacts: [
-    "Psychologists call the 'best option' hunters maximizers and the 'good enough' pickers satisficers — and satisficers often end up happier with what they chose.",
+    "Psychologists call the 'best option' hunters maximizers and the 'good enough' pickers satisficers, and satisficers often end up happier with what they chose.",
     "Overthinking a choice isn't a flaw; it usually means you care about getting it right. The cost is just the time and the second-guessing.",
-    "Compare with friends — pairing a snap decider with a deep overthinker is how group plans either get made instantly or never at all.",
+    "Compare with friends: pairing a snap decider with a deep overthinker is how group plans either get made instantly or never at all.",
   ],
   disclaimer:
     "A light self-reflection vibe check, not a psychological assessment. How you decide shifts with the stakes, your mood, and how much sleep you got.",

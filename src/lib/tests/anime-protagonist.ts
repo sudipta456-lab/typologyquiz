@@ -46,49 +46,49 @@ export const animeProtagonist: TestDefinition = {
   terms: [
     {
       term: "少年 (Shōnen)",
-      note: "'Boy/ youth' — the anime genre of loud growth, training arcs, and refusing to stay down. Think effort-powered protagonists who lose loudly and come back louder.",
+      note: "'Boy/ youth': the anime genre of loud growth, training arcs, and refusing to stay down. Think effort-powered protagonists who lose loudly and come back louder.",
     },
     {
       term: "日常系 (Nichijō-kei)",
-      note: "'Slice-of-life' — the beloved gentle genre where nothing explodes and everything matters: tea, friendship, seasons changing.",
+      note: "'Slice-of-life': the beloved gentle genre where nothing explodes and everything matters: tea, friendship, seasons changing.",
     },
     {
       term: "魔法少女 (Mahō shōjo)",
-      note: "'Magical girl' — the genre where hope and kindness are literal superpowers, transformation sequences included.",
+      note: "'Magical girl': the genre where hope and kindness are literal superpowers, transformation sequences included.",
     },
   ],
   typeMeta: {
     shonen: {
-      label: "🔥 Shonen Protagonist",
+      label: "Shonen Protagonist",
       description:
         "Your genre: the training arc. Every 'no' is fuel, every loss is a chapter, and your friends are power-ups. Your arc this season: learning that resting isn't quitting.",
     },
     sliceoflife: {
-      label: "🍵 Slice-of-Life Soul",
+      label: "Slice-of-Life Soul",
       description:
         "Your genre needs no villain. You find the plot in ordinary days and give other characters a place to breathe. Your arc: realizing quiet episodes are what fans replay most.",
     },
     antihero: {
-      label: "🗡️ Anti-Hero",
+      label: "Anti-Hero",
       description:
         "Your genre is the dark saga. Effectiveness over applause, loyalty proven in actions, trust given rarely and completely. Your arc: letting one person see the reason behind the rules.",
     },
     magical: {
-      label: "✨ Magical Girl / Boy Energy",
+      label: "Magical Girl / Boy Energy",
       description:
         "Your genre weaponizes hope. Cynics don't stand a chance against sustained kindness. Your arc: keeping that shine without needing to save everyone solo.",
     },
   },
   balanced: {
-    label: "🎞️ The Crossover Episode",
+    label: "The Crossover Episode",
     description:
       "Fight like shonen, rest like slice-of-life, decide like an anti-hero, believe like magical girl. You're the crossover special everyone waits for. Keep the season balanced.",
   },
   resultType: "orbit",
   funFacts: [
-    "Anime genres map onto real motivation styles surprisingly well — shonen persistence is basically studied grit.",
+    "Anime genres map onto real motivation styles surprisingly well; shonen persistence is basically studied grit.",
     "Slice-of-life anime exploded globally because tired audiences wanted shows about recovery, not war.",
   ],
   disclaimer:
-    "A fun quiz built on anime genre tropes — no actual transformation sequences were tested.",
+    "A fun quiz built on anime genre tropes; no actual transformation sequences were tested.",
 };

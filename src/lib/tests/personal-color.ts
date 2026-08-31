@@ -27,7 +27,7 @@ export const personalColor: TestDefinition = {
   title: "Personal Color (퍼스널 컬러)",
   category: "perception",
   description:
-    "Korea's favorite style test. Find your season — Spring, Summer, Autumn, or Winter — and the palette that makes you glow.",
+    "Korea's favorite style test. Find your season (Spring, Summer, Autumn, or Winter) and the palette that makes you glow.",
   whatYoullLearn:
     "Your personal color season based on undertone, contrast, and which shades genuinely flatter you.",
   timeMinutes: 4,
@@ -46,7 +46,7 @@ export const personalColor: TestDefinition = {
   terms: [
     {
       term: "퍼스널 컬러 (Personal Color)",
-      note: "Konglish for 'personal color analysis' — a hugely popular Korean styling system that matches people to palettes by skin undertone and contrast.",
+      note: "Konglish for 'personal color analysis', a hugely popular Korean styling system that matches people to palettes by skin undertone and contrast.",
     },
     {
       term: "Undertone",
@@ -59,34 +59,34 @@ export const personalColor: TestDefinition = {
   ],
   typeMeta: {
     spring: {
-      label: "🌷 Spring — Warm & Bright",
+      label: "Spring: Warm & Bright",
       description:
         "Your palette: coral, peach, warm pinks, fresh greens, golden yellow. You glow in colors that look like a market in April. Skip heavy charcoal and icy tones near your face.",
     },
     summer: {
-      label: "🌊 Summer — Cool & Soft",
+      label: "Summer: Cool & Soft",
       description:
         "Your palette: powder blue, lavender, dusty rose, soft navy, muted teal. Gentle, airy, quietly expensive-looking. Skip harsh orange and stark black. Your power move is looking calm in photos without trying.",
     },
     autumn: {
-      label: "🍂 Autumn — Warm & Deep",
+      label: "Autumn: Warm & Deep",
       description:
         "Your palette: rust, olive, mustard, camel, chocolate, forest green. Rich like a film set in October. Skip neon and icy pastels. Earth tones look intentional on you; gold is your metal forever.",
     },
     winter: {
-      label: "❄️ Winter — Cool & Crisp",
+      label: "Winter: Cool & Crisp",
       description:
-        "Your palette: true black, pure white, emerald, royal blue, fuchsia, crimson. Colors that swallow other people look like armor on you. Skip dusty beiges — you were born for statement colors.",
+        "Your palette: true black, pure white, emerald, royal blue, fuchsia, crimson. Colors that swallow other people look like armor on you. Skip dusty beiges; you were born for statement colors.",
     },
   },
   balanced: {
-    label: "🎨 The Neutral Chameleon",
+    label: "The Neutral Chameleon",
     description:
-      "No single season owns you — stylists call this neutral undertone. Annoying for labels, great for your closet: several palettes work on you. Start with soft mid-tones and adjust warmer or cooler by trial.",
+      "No single season owns you; stylists call this neutral undertone. Annoying for labels, great for your closet: several palettes work on you. Start with soft mid-tones and adjust warmer or cooler by trial.",
   },
   resultType: "radar",
   funFacts: [
-    "Personal color studios are a real industry in South Korea — people get professionally typed before rebuilding a wardrobe.",
+    "Personal color studios are a real industry in South Korea; people get professionally typed before rebuilding a wardrobe.",
     "The four-season system started in the West, became a K-beauty staple, then spread back out globally.",
   ],
   disclaimer:

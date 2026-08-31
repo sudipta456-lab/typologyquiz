@@ -29,7 +29,7 @@ export const huarenNetizen: TestDefinition = {
   description:
     "For the global Chinese diaspora and everyone raised on its internet culture. Which legendary netizen species are you?",
   whatYoullLearn:
-    "Your diaspora-internet archetype — Study Comet, Archivist, Voice-Note Overlord, or Group Organizer — and why your friends can't function without you.",
+    "Your diaspora-internet archetype (Study Comet, Archivist, Voice-Note Overlord, or Group Organizer) and why your friends can't function without you.",
   timeMinutes: 3,
   itemCount: 12,
   license: "Original TypologyQuiz items (self-reflection only)",
@@ -46,7 +46,7 @@ export const huarenNetizen: TestDefinition = {
   terms: [
     {
       term: "华人网友 (Huárén wǎngyǒu)",
-      note: "'Chinese netizens / diaspora netizens' — the global community of Chinese-speaking internet users, whose chat culture gave the world voice-note marathons, bill-splitting apps, and legendary group-chat logistics.",
+      note: "'Chinese netizens / diaspora netizens': the global community of Chinese-speaking internet users, whose chat culture gave the world voice-note marathons, bill-splitting apps, and legendary group-chat logistics.",
     },
     {
       term: "Study Comet",
@@ -55,28 +55,28 @@ export const huarenNetizen: TestDefinition = {
   ],
   typeMeta: {
     studycomet: {
-      label: "☄️ The Study Comet",
+      label: "The Study Comet",
       description:
-        "Orbiting calmly all semester, then igniting into pure productivity 48 hours before deadline. It works — that's the maddening part. Watch-out: comets burn fuel too; one early start per project keeps the magic sustainable.",
+        "Orbiting calmly all semester, then igniting into pure productivity 48 hours before deadline. It works; that's the maddening part. Watch-out: comets burn fuel too; one early start per project keeps the magic sustainable.",
     },
     archivist: {
-      label: "🗂️ The Archive Keeper",
+      label: "The Archive Keeper",
       description:
         "That link from 2021? Saved. Who said what? Screenshotted. You're the group's external hard drive and search engine combined. Watch-out: archives are for settling debates, not winning them. Deploy gently.",
     },
     voicenote: {
-      label: "🎙️ The Voice-Note Overlord",
+      label: "The Voice-Note Overlord",
       description:
-        "Two minutes of audio beats twenty lines of typing, obviously. Your storytelling has pacing, arcs, and sound effects. Watch-out: not everyone can listen at work — caption the highlights for the text-preferring civilians.",
+        "Two minutes of audio beats twenty lines of typing, obviously. Your storytelling has pacing, arcs, and sound effects. Watch-out: not everyone can listen at work; caption the highlights for the text-preferring civilians.",
     },
     organizer: {
-      label: "📋 The Group Organizer",
+      label: "The Group Organizer",
       description:
         "Every trip, dinner, and reunion exists because you built a plan, collected money, and chased six people for confirmations. Society runs on your unpaid labor. Watch-out: delegate one task per event or resentment becomes your second language.",
     },
   },
   balanced: {
-    label: "🧧 The Group Chat MVP",
+    label: "The Group Chat MVP",
     description:
       "Studies in bursts, saves everything, narrates by voice, organizes by default. Your friends would need three apps and a personal assistant to replace you. Accept the tribute. Also accept some help.",
   },
@@ -86,5 +86,5 @@ export const huarenNetizen: TestDefinition = {
     "Bill-splitting apps became essential infrastructure largely thanks to group-organizer personalities like yours.",
   ],
   disclaimer:
-    "A fun quiz about diaspora internet culture — affectionate stereotypes only, zero judgment attached.",
+    "A fun quiz about diaspora internet culture: affectionate stereotypes only, zero judgment attached.",
 };

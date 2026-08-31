@@ -19,7 +19,7 @@ const questions = [
   // Weaver — quiet creator
   { id: "an_w1", text: "I connect people and ideas that don't seem related until I do it.", type: "likert" as const, axis: "weaver", direction: 1 as const },
   { id: "an_w2", text: "My best work happens quietly in the background.", type: "likert" as const, axis: "weaver", direction: 1 as const },
-  { id: "an_w3", text: "Working unseen means working unthanked — not for me.", type: "likert" as const, axis: "weaver", direction: -1 as const },
+  { id: "an_w3", text: "Working unseen means working unthanked, not for me.", type: "likert" as const, axis: "weaver", direction: -1 as const },
 ];
 
 export const anansiArchetype: TestDefinition = {
@@ -46,45 +46,45 @@ export const anansiArchetype: TestDefinition = {
   terms: [
     {
       term: "Anansi",
-      note: "The trickster spider of West African and Caribbean folk tales — clever, funny, morally complicated, and the most famous folklore character exported from Ghana to the world.",
+      note: "The trickster spider of West African and Caribbean folk tales: clever, funny, morally complicated, and the most famous folklore character exported from Ghana to the world.",
     },
     {
       term: "Mwindo",
-      note: "The hero of an epic Congolese tale — a boy who sang his own birth announcement and defeated everything thrown at him. Confidence as a superpower.",
+      note: "The hero of an epic Congolese tale, a boy who sang his own birth announcement and defeated everything thrown at him. Confidence as a superpower.",
     },
   ],
   typeMeta: {
     anansi: {
-      label: "🕷️ The Anansi Type",
+      label: "The Anansi Type",
       description:
-        "Brains first, last, and always. You talk your way past obstacles others brute-force. The tales warn Anansi's tricks sometimes backfire — keep one honest anchor habit so cleverness never becomes con-artistry.",
+        "Brains first, last, and always. You talk your way past obstacles others brute-force. The tales warn Anansi's tricks sometimes backfire; keep one honest anchor habit so cleverness never becomes con-artistry.",
     },
     tortoise: {
-      label: "🐢 The Tortoise Type",
+      label: "The Tortoise Type",
       description:
-        "In the famous tale, the Tortoise out-thinks faster animals by simply refusing their timeline. You embody it: unhurried, unshakeable, quietly winning. Watch-out: some races genuinely reward early starts — pick which ones matter.",
+        "In the famous tale, the Tortoise out-thinks faster animals by simply refusing their timeline. You embody it: unhurried, unshakeable, quietly winning. Watch-out: some races genuinely reward early starts; pick which ones matter.",
     },
     hero: {
-      label: "📣 The Bold Hero Type",
+      label: "The Bold Hero Type",
       description:
-        "Mwindo announced himself before he could walk, and honestly? Same energy. Your self-belief bends reality more than you admit. Watch-out: epics humble their heroes eventually — stay coachable and the arc stays upward.",
+        "Mwindo announced himself before he could walk, and honestly? Same energy. Your self-belief bends reality more than you admit. Watch-out: epics humble their heroes eventually; stay coachable and the arc stays upward.",
     },
     weaver: {
-      label: "🕸️ The Weaver Type",
+      label: "The Weaver Type",
       description:
-        "You connect people, ideas, and plans invisibly until the pattern shows and everyone wonders how. Every community runs on Weavers. Watch-out: unseen work still deserves credit — surface for recognition sometimes.",
+        "You connect people, ideas, and plans invisibly until the pattern shows and everyone wonders how. Every community runs on Weavers. Watch-out: unseen work still deserves credit; surface for recognition sometimes.",
     },
   },
   balanced: {
-    label: "🌐 The Storyteller's Favorite",
+    label: "The Storyteller's Favorite",
     description:
-      "Trickster wit, tortoise patience, heroic confidence, weaver patience — folk tales would fight over casting you. That's not indecision; that's a whole anthology.",
+      "Trickster wit, tortoise patience, heroic confidence, weaver patience: folk tales would fight over casting you. That's not indecision; that's a whole anthology.",
   },
   resultType: "orbit",
   funFacts: [
     "Anansi stories crossed the Atlantic with the African diaspora and became foundational in Caribbean folklore.",
-    "In many tales, Anansi wins by losing first — the trickster's real lesson is resilience through cleverness.",
+    "In many tales, Anansi wins by losing first; the trickster's real lesson is resilience through cleverness.",
   ],
   disclaimer:
-    "Built respectfully on public-domain folk tales — folklore characters only, no religious figures or claims.",
+    "Built respectfully on public-domain folk tales: folklore characters only, no religious figures or claims.",
 };

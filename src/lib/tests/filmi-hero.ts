@@ -46,7 +46,7 @@ export const filmiHero: TestDefinition = {
   terms: [
     {
       term: "फ़िल्मी (Filmi)",
-      note: "'Of the movies' — Hindi for anything with Bollywood's signature drama: grand emotions, sudden songs, and gestures that would be too much anywhere else (which is exactly the point).",
+      note: "'Of the movies': Hindi for anything with Bollywood's signature drama: grand emotions, sudden songs, and gestures that would be too much anywhere else (which is exactly the point).",
     },
     {
       term: "Masala Movie",
@@ -55,36 +55,36 @@ export const filmiHero: TestDefinition = {
   ],
   typeMeta: {
     hero: {
-      label: "🎬 The Filmi Hero/Heroine",
+      label: "The Filmi Hero/Heroine",
       description:
         "You feel at full volume and love at full budget. Slow-motion walks are technically possible for you. Signature scene: the monologue in the rain that changes everyone's mind. Watch-out: not every moment needs background music. Some do, though.",
     },
     antihero: {
-      label: "🕶️ The Anti-Hero",
+      label: "The Anti-Hero",
       description:
-        "You live in the greys where interesting people actually live. Effective first, judged later — and history usually sides with you. Signature scene: doing the right thing wrong-ly and winning. Watch-out: grey is a shade, not an address.",
+        "You live in the greys where interesting people actually live. Effective first, judged later, and history usually sides with you. Signature scene: doing the right thing wrong-ly and winning. Watch-out: grey is a shade, not an address.",
     },
     comic: {
-      label: "😂 The Comic Relief Legend",
+      label: "The Comic Relief Legend",
       description:
         "In every filmi universe, the comedy track steals the film. That's you: tension exits when you enter. Signature scene: one line during the villain's speech that breaks the whole theater. Watch-out: comedians get written out of serious scenes. Demand your dramatic close-up.",
     },
     loyal: {
-      label: "🤝 The Loyal Best Friend",
+      label: "The Loyal Best Friend",
       description:
         "Every blockbuster runs on someone like you: 3 AM availability, zero jealousy, endless belief. Audiences know the friend is the real hero. Signature scene: the sacrifice nobody expected. Watch-out: your story deserves its own subplot. Ask for it.",
     },
   },
   balanced: {
-    label: "🍿 The Full Masala Movie",
+    label: "The Full Masala Movie",
     description:
-      "Heroic heart, anti-hero edge, comic timing, loyal backbone — a complete film in one person. Producers dream of casting you. Runtime warning: even masala films need an interval.",
+      "Heroic heart, anti-hero edge, comic timing, loyal backbone: a complete film in one person. Producers dream of casting you. Runtime warning: even masala films need an interval.",
   },
   resultType: "bars",
   funFacts: [
-    "Indian cinema produces more films per year than Hollywood — the archetypes here are a global language.",
+    "Indian cinema produces more films per year than Hollywood; the archetypes here are a global language.",
     "'Filmi' started as gentle mockery and became a compliment: maximum emotion, unapologetically.",
   ],
   disclaimer:
-    "A fun quiz built on film tropes — no actual intermission or interval song included with results.",
+    "A fun quiz built on film tropes; no actual intermission or interval song included with results.",
 };

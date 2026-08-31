@@ -50,7 +50,7 @@ export const grit: TestDefinition = {
       lowLabel: "Go-With-Flow",
       highLabel: "Gritty",
       description:
-        "How much you stick with long goals and push through setbacks — higher means more perseverance and steady focus.",
+        "How much you stick with long goals and push through setbacks: higher means more perseverance and steady focus.",
     },
   ],
   resultType: "meter",
@@ -59,7 +59,7 @@ export const grit: TestDefinition = {
       max: 20,
       label: "Flow State",
       description:
-        "You follow your curiosity wherever it goes and pivot fast. That's real adaptability — you rarely get stuck on a sinking ship. The watch-out: some goals only pay off if you stay past the boring middle, so pick one or two worth finishing.",
+        "You follow your curiosity wherever it goes and pivot fast. That's real adaptability; you rarely get stuck on a sinking ship. The watch-out: some goals only pay off if you stay past the boring middle, so pick one or two worth finishing.",
     },
     {
       max: 40,
@@ -71,25 +71,25 @@ export const grit: TestDefinition = {
       max: 60,
       label: "Balanced",
       description:
-        "You can grind when it counts and let go when something's genuinely not worth it. That's a useful mix — the trick is being honest about which situation you're in before you quit or double down.",
+        "You can grind when it counts and let go when something's genuinely not worth it. That's a useful mix; the trick is being honest about which situation you're in before you quit or double down.",
     },
     {
       max: 80,
       label: "Determined",
       description:
-        "You stick with goals and bounce back from setbacks better than most. People can count on you to finish. Just keep checking that what you're pushing through still matters — persistence works best when it's pointed at the right thing.",
+        "You stick with goals and bounce back from setbacks better than most. People can count on you to finish. Just keep checking that what you're pushing through still matters; persistence works best when it's pointed at the right thing.",
     },
     {
       max: 100,
       label: "Relentless",
       description:
-        "When you commit, you're all in for the long haul, boredom and setbacks be damned. Huge strength for big goals. The watch-out isn't 'try less' — it's letting yourself walk away from the rare thing that truly isn't worth the grind.",
+        "When you commit, you're all in for the long haul, boredom and setbacks be damned. Huge strength for big goals. The watch-out isn't 'try less'; it's letting yourself walk away from the rare thing that truly isn't worth the grind.",
     },
   ],
   funFacts: [
-    "Grit isn't fixed — it tends to grow as people get older and find goals they actually care about, so a low score now says little about later.",
+    "Grit isn't fixed; it tends to grow as people get older and find goals they actually care about, so a low score now says little about later.",
     "Studies find grit often predicts finishing hard things better than raw talent does; showing up repeatedly is underrated.",
-    "Compare with friends: a gritty planner plus a go-with-flow explorer make a strong team — one keeps the goal alive, the other spots when it's time to change course.",
+    "Compare with friends: a gritty planner plus a go-with-flow explorer make a strong team; one keeps the goal alive, the other spots when it's time to change course.",
   ],
   disclaimer:
     "This is a light self-reflection vibe check, not a measure of your worth or your future. Both ends are legit ways to move through life.",
