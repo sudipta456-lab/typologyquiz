@@ -21,6 +21,7 @@ import { StickerDownload } from "@/components/StickerDownload";
 import { ToneToggle } from "@/components/ToneToggle";
 import { toneBlurb, toneStorageKey, type ToneMode } from "@/lib/tone";
 import { scoreLevel, type ScoreLine } from "@/lib/result-card";
+import { getResultArt } from "@/lib/result-art";
 
 function ResultsContent() {
   const params = useParams();
@@ -100,6 +101,7 @@ function ResultsContent() {
   const meta = CATEGORY_META[test.category as keyof typeof CATEGORY_META];
   const accentColor = meta?.hex || "#0795EA";
   const t = test;
+  const art = getResultArt(slug, result.scores);
 
   function renderHero() {
     const category = typeLabel
@@ -221,6 +223,40 @@ function ResultsContent() {
       </div>
 
       <div className="report-panel" style={{ marginBottom: 28, padding: "1.5rem 1.25rem" }}>
+        {art?.kind === "bg" && (
+          <div
+            style={{
+              position: "relative",
+              overflow: "hidden",
+              borderRadius: 6,
+              marginBottom: "1.25rem",
+            }}
+          >
+            <img
+              src={art.src}
+              alt={art.alt}
+              width={1600}
+              height={900}
+              loading="lazy"
+              style={{
+                display: "block",
+                width: "100%",
+                height: "auto",
+                maxHeight: 240,
+                objectFit: "cover",
+              }}
+            />
+            <div
+              aria-hidden="true"
+              style={{
+                position: "absolute",
+                inset: 0,
+                background:
+                  "linear-gradient(to bottom, rgba(20, 20, 31, 0) 55%, rgba(20, 20, 31, 0.45) 100%)",
+              }}
+            />
+          </div>
+        )}
         <p
           style={{
             fontSize: "0.7rem",
@@ -246,6 +282,24 @@ function ResultsContent() {
         >
           Your results
         </h1>
+        {art?.kind === "icon" && (
+          <div style={{ display: "flex", justifyContent: "center", marginBottom: 14 }}>
+            <img
+              src={art.src}
+              alt={art.alt}
+              width={112}
+              height={112}
+              loading="lazy"
+              style={{
+                width: 112,
+                height: 112,
+                borderRadius: 20,
+                border: "1px solid #e2e0db",
+                display: "block",
+              }}
+            />
+          </div>
+        )}
         <div>{renderHero()}</div>
       </div>
 
