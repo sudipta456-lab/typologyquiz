@@ -15,6 +15,7 @@ const links: NavLink[] = [
   // Driving sits right after Tests: it is the other half of the catalogue now,
   // and it is what people arrive searching for.
   { href: "/driving", label: "Driving" },
+  { href: "/trivia", label: "Trivia" },
   { href: "/daily", label: "Daily" },
   { href: "/room", label: "Rooms" },
   { href: "/compare", label: "Compare" },

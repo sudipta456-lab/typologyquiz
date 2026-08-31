@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { TESTS } from "@/lib/tests/registry";
 import { JURISDICTIONS } from "@/lib/driving/jurisdictions";
+import { TRIVIA_QUIZZES } from "@/lib/trivia/registry";
 import { SITE } from "@/lib/site";
 
 // Generated from the registries rather than hand-maintained.
@@ -21,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/tests/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/driving/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/trivia/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/daily/`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${base}/room/`, lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: `${base}/compare/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
@@ -55,5 +57,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ]);
 
-  return [...staticPages, ...quizPages, ...drivingPages];
+  // Trivia quizzes: the play page IS the landing page (title, rules and the
+  // start button all live on one URL), so every quiz is listed.
+  const triviaPages: MetadataRoute.Sitemap = TRIVIA_QUIZZES.map((q) => ({
+    url: `${base}/trivia/${q.slug}/`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages];
 }
