@@ -128,4 +128,16 @@ Chests/gems/companions · badge expansion as back-catalog router · Worker + KV 
 
 ---
 
+## Status: 2026-08-31, plan implemented
+
+All four phases shipped across three build waves (see git history 2026-08-31):
+
+- **Phase 0-1**: type-in engine + US/Canada SVG maps + 7-quiz ladder; catalog QA (173 emoji, 435 em-dashes fixed) + `docs/QUIZ_STYLE.md` + lint gate; result art shipped (25 webp) and wired.
+- **Phase 2**: countries/planets/elements datasets, random + sudden-death variants, 43 letter pages (58 trivia URLs total), weekly featured drop, daily minis wired into streaks, SEO headline titles for all 67 tests, per-page OG cards (86, generated in prebuild).
+- **Phase 3**: friend quiz builder, ghost rematch, fool-your-friends chains, Most Likely To, group result poster; all URL-fragment based, personal pages noindexed.
+- **Phase 4 (client side)**: gems + 8 companions, threshold unlock notices; no purchases or timers.
+- **Deliberately NOT done**: live play counters / real percentiles need a Cloudflare KV namespace, which requires an authenticated wrangler or dashboard action by the operator. Until then percentiles are labeled "estimated". Also open: generate the AI art sets in `docs/IMAGE_PROMPTS.md` and run them through `scripts/process-result-art.mjs`.
+
+---
+
 *Research inputs: three parallel deep-dives (Sporcle; JetPunk; Quizly + QuizBreaker + Kahoot/Blooket/Gimkit/Psych/BuddyMeter) with live site data pulled 2026-08-30; repo review of registry/types/driving engines and traffic screenshot. Numbers cited (play counts, traffic splits, cadences) are from those passes — vendor-reported or third-party estimates, directional not audited.*
