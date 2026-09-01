@@ -1,24 +1,30 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import Link from "next/link";
 import { BADGES, communityPulse, loadGame } from "@/lib/progress-game";
 
+// Hydration-safe mounted flag (same pattern as DailyMinis): false on the
+// server and during hydration, true after mount. Reading localStorage during
+// render without it made the server say "Locked" while the client said
+// "Unlocked", which threw a hydration error on every home load. Everything
+// below derives from this flag, so the first client render matches the
+// server exactly and the real numbers appear right after mount.
+const noopSubscribe = () => () => {};
+
 export function CommunityPulse() {
-  const [pulse, setPulse] = useState<{ label: string; count: number }[]>([]);
-  const [stats, setStats] = useState({ completions: 0, streak: 0, badges: 0 });
+  const mounted = useSyncExternalStore(
+    noopSubscribe,
+    () => true,
+    () => false,
+  );
 
-  useEffect(() => {
-    const g = loadGame();
-    setPulse(communityPulse());
-    setStats({
-      completions: g.totalCompletions,
-      streak: g.streak,
-      badges: g.badges.length,
-    });
-  }, []);
-
-  const earned = new Set(loadGame().badges);
+  const game = mounted ? loadGame() : null;
+  const pulse = mounted ? communityPulse() : [];
+  const stats = game
+    ? { completions: game.totalCompletions, streak: game.streak, badges: game.badges.length }
+    : { completions: 0, streak: 0, badges: 0 };
+  const earned = new Set<string>(game ? game.badges : []);
 
   return (
     <section className="band band-light">

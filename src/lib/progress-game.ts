@@ -38,7 +38,22 @@ type GameState = {
   dailyAnswers: number;
   badges: BadgeId[];
   totalCompletions: number;
+  /** Companion currency. Earned by playing, never bought. */
+  gems: number;
+  /** Where the gems came from, for honest accounting (e.g. test/daily_mini/trivia_run). */
+  gemsByReason: Record<string, number>;
 };
+
+/**
+ * Gem awards. Completing a full test credits automatically inside
+ * recordTestComplete; daily minis and trivia runs call addGems from their own
+ * completion paths (GEM_REWARDS.daily_mini / GEM_REWARDS.trivia_run).
+ */
+export const GEM_REWARDS = {
+  test: 2,
+  daily_mini: 1,
+  trivia_run: 1,
+} as const;
 
 const KEY = "typologyquiz_game_v1";
 
@@ -59,6 +74,8 @@ function empty(): GameState {
     dailyAnswers: 0,
     badges: [],
     totalCompletions: 0,
+    gems: 0,
+    gemsByReason: {},
   };
 }
 
@@ -107,6 +124,11 @@ export function recordTestComplete(opts: {
   }
   state.totalCompletions += 1;
   state.testCounts[opts.slug] = (state.testCounts[opts.slug] || 0) + 1;
+  state.gems = (state.gems || 0) + GEM_REWARDS.test;
+  state.gemsByReason = {
+    ...state.gemsByReason,
+    test: (state.gemsByReason?.test || 0) + GEM_REWARDS.test,
+  };
   if (opts.typeLabel) {
     state.typeCounts[opts.typeLabel] = (state.typeCounts[opts.typeLabel] || 0) + 1;
   }
@@ -208,6 +230,28 @@ export function recordDailyActivity(): GameState {
   }
   saveGame(state);
   return state;
+}
+
+/**
+ * The ONE public API for crediting gems from outside this file (daily minis,
+ * trivia runs; see GEM_REWARDS). Streaks and badges are untouched: gems are
+ * a parallel counter, not a daily action.
+ */
+export function addGems(n: number, reason: string): GameState {
+  const state = loadGame();
+  if (!Number.isFinite(n) || n <= 0) return state;
+  state.gems = (state.gems || 0) + n;
+  state.gemsByReason = {
+    ...state.gemsByReason,
+    [reason]: (state.gemsByReason?.[reason] || 0) + n,
+  };
+  saveGame(state);
+  return state;
+}
+
+/** Current gem balance (0 on the server or before anything is earned). */
+export function getGems(): number {
+  return loadGame().gems || 0;
 }
 
 export function recordBadgeEvent(id: BadgeId): BadgeId | null {

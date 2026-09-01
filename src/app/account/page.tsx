@@ -18,6 +18,8 @@ import {
   type ThemeMode,
 } from "@/lib/settings";
 import { BADGES, loadGame } from "@/lib/progress-game";
+import { getCompanion, loadCompanionPick, saveCompanionPick } from "@/lib/companions";
+import { Companions } from "@/components/Companions";
 
 export default function AccountPage() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
@@ -28,6 +30,8 @@ export default function AccountPage() {
   const [theme, setTheme] = useState<ThemeMode>("system");
   const [badges, setBadges] = useState<string[]>([]);
   const [streak, setStreak] = useState(0);
+  const [gems, setGems] = useState(0);
+  const [companionId, setCompanionId] = useState<string | null>(null);
 
   useEffect(() => {
     const p = loadProfile();
@@ -41,7 +45,14 @@ export default function AccountPage() {
     const g = loadGame();
     setBadges(g.badges);
     setStreak(g.streak);
+    setGems(g.gems || 0);
+    setCompanionId(loadCompanionPick());
   }, []);
+
+  function handlePickCompanion(id: string) {
+    setCompanionId(id);
+    saveCompanionPick(id);
+  }
 
   function handleSave(e: React.FormEvent) {
     e.preventDefault();
@@ -113,9 +124,23 @@ export default function AccountPage() {
           <div>
             <strong>{name || "Your name"}</strong>
             <p>
-              Streak {streak} day{streak === 1 ? "" : "s"} · {badges.length} badges
+              Streak {streak} day{streak === 1 ? "" : "s"} · {badges.length} badges · {gems} gems
             </p>
           </div>
+          {(() => {
+            // Your chosen buddy rides along beside the streak strip. Pip is
+            // the day-one default until you pick someone else.
+            const buddy = getCompanion(companionId ?? "pip");
+            if (!buddy) return null;
+            return (
+              <div
+                title={buddy.name}
+                aria-label={`Companion: ${buddy.name}`}
+                style={{ width: 44, height: 44, marginLeft: "auto", flexShrink: 0 }}
+                dangerouslySetInnerHTML={{ __html: buddy.svg }}
+              />
+            );
+          })()}
         </div>
 
         <div className="share-actions" style={{ padding: 0 }}>
@@ -182,6 +207,8 @@ export default function AccountPage() {
           })}
         </div>
       </div>
+
+      <Companions gems={gems} picked={companionId ?? "pip"} onPick={handlePickCompanion} />
 
       <div className="account-next">
         <Link href="/daily" className="btn-primary">
