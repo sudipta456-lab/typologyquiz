@@ -1,9 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { TESTS } from "@/lib/tests/registry";
 import { getDailySeed, loadGame, recordDailyAnswer } from "@/lib/progress-game";
+import { getActiveDays, getPerfectDayCount, loadMinisDay, markActiveDay } from "@/lib/minis/store";
+import { utcDateKey } from "@/lib/minis/seed";
+import DailyMinis from "@/components/minis/DailyMinis";
+import StreakStrip from "@/components/minis/StreakStrip";
 import type { Question } from "@/lib/types";
 
 type DailyPick = {
@@ -24,6 +28,11 @@ function pickDaily(): DailyPick {
   return pool[idx] || pool[0];
 }
 
+function localTodayKey(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 const OPTIONS = [
   { v: 1, label: "No way", color: "#F9684D" },
   { v: 2, label: "Not really", color: "#F47A9E" },
@@ -32,50 +41,66 @@ const OPTIONS = [
   { v: 5, label: "Yes", color: "#0795EA" },
 ];
 
+const noopSubscribe = () => () => {};
+
 export default function DailyPage() {
   const daily = useMemo(() => pickDaily(), []);
   const [picked, setPicked] = useState<number | null>(null);
-  const [game, setGame] = useState(loadGame());
-  const [doneToday, setDoneToday] = useState(false);
+  // Bumped after any streak-affecting action so derived reads below refresh.
+  const [, setVersion] = useState(0);
+  const bump = () => setVersion((v) => v + 1);
 
-  useEffect(() => {
-    const g = loadGame();
-    setGame(g);
-    const today = new Date();
-    const key = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
-    setDoneToday(g.lastDailyDate === key);
-  }, []);
+  // False on the server and the first client render, so localStorage-derived
+  // UI never mismatches the prerendered HTML.
+  const mounted = useSyncExternalStore(
+    noopSubscribe,
+    () => true,
+    () => false,
+  );
+
+  const game = mounted ? loadGame() : null;
+  const streak = game?.streak ?? 0;
+  const bestStreak = game?.bestStreak ?? 0;
+  const badgeCount = game?.badges.length ?? 0;
+  const doneToday = !!game && game.lastDailyDate === localTodayKey();
+
+  const activeDays = mounted ? getActiveDays() : [];
+  if (game?.lastActiveDate === localTodayKey() && !activeDays.includes(game.lastActiveDate)) {
+    activeDays.push(game.lastActiveDate);
+  }
+  const perfectDays = mounted ? getPerfectDayCount() : 0;
+  const perfectToday = mounted ? loadMinisDay(utcDateKey()).perfectDay : false;
 
   function answer(v: number) {
     if (picked !== null) return;
     setPicked(v);
-    const next = recordDailyAnswer();
-    setGame(next);
-    setDoneToday(true);
+    recordDailyAnswer();
+    markActiveDay(localTodayKey());
+    bump();
   }
 
   return (
     <div className="section daily-page">
       <p className="eyebrow">Daily peel</p>
-      <h1 className="section-title">One question today</h1>
+      <h1 className="section-title">Today&apos;s minis</h1>
       <p className="section-lead">
-        Sixty seconds. Keeps your streak alive. Not a full type, just a pulse check.
+        Three tiny games, same for everyone on Earth today. Any one of them keeps your streak alive.
       </p>
 
-      <div className="daily-stats">
-        <div>
-          <strong>{game.streak}</strong>
-          <span>day streak</span>
-        </div>
-        <div>
-          <strong>{game.bestStreak}</strong>
-          <span>best streak</span>
-        </div>
-        <div>
-          <strong>{game.badges.length}</strong>
-          <span>badges</span>
-        </div>
-      </div>
+      <StreakStrip
+        streak={streak}
+        bestStreak={bestStreak}
+        perfectDays={perfectDays}
+        activeDays={activeDays}
+        perfectToday={perfectToday}
+      />
+
+      <DailyMinis onActivity={bump} />
+
+      <h2 className="section-title" style={{ marginTop: "2.5rem", fontSize: "1.5rem" }}>
+        One question today
+      </h2>
+      <p className="section-lead">Sixty seconds. Not a full type, just a pulse check.</p>
 
       <div className="daily-card">
         <p className="daily-from">From: {daily.title}</p>
@@ -96,18 +121,20 @@ export default function DailyPage() {
         </div>
         {picked !== null && (
           <p className="daily-done">
-            Logged. Streak: <strong>{game.streak}</strong>.{" "}
+            Logged. Streak: <strong>{streak}</strong>.{" "}
             <Link href={`/test/${daily.slug}`} className="text-link">
               Take the full test
             </Link>
           </p>
         )}
         {doneToday && picked === null && (
-          <p className="daily-done">You already peeled today. Come back tomorrow.</p>
+          <p className="daily-done">You already answered today&apos;s question. The minis above still count.</p>
         )}
       </div>
 
       <p style={{ marginTop: 24 }}>
+        Badges earned: <strong>{badgeCount}</strong>
+        {" · "}
         <Link href="/account" className="text-link">
           See badges on your account
         </Link>

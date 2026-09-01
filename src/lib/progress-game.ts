@@ -156,7 +156,14 @@ export function recordDailyAnswer(): GameState {
   if (state.lastDailyDate === today) {
     state.dailyAnswers += 1;
   } else {
-    if (state.lastDailyDate && dayDiff(state.lastDailyDate, today) === 1) {
+    // lastActiveDate === today means something already credited today's
+    // streak (a test, or a daily mini via recordDailyActivity); the guard
+    // stops a second increment and the branch below keeps the streak.
+    if (
+      state.lastDailyDate &&
+      dayDiff(state.lastDailyDate, today) === 1 &&
+      state.lastActiveDate !== today
+    ) {
       state.streak += 1;
     } else if (!state.lastDailyDate || dayDiff(state.lastDailyDate, today) !== 0) {
       if (state.lastActiveDate === today) {
@@ -173,6 +180,30 @@ export function recordDailyAnswer(): GameState {
     state.bestStreak = Math.max(state.bestStreak, state.streak);
   }
   if (state.streak >= 7) {
+    state = unlock(state, "week_streak");
+  }
+  saveGame(state);
+  return state;
+}
+
+/**
+ * Streak credit for any daily action (e.g. finishing a daily mini) without
+ * marking the check-in question as answered. Same streak rules as
+ * recordTestComplete, keyed on lastActiveDate only.
+ */
+export function recordDailyActivity(): GameState {
+  const today = todayKey();
+  let state = loadGame();
+  if (state.lastActiveDate !== today) {
+    if (state.lastActiveDate && dayDiff(state.lastActiveDate, today) === 1) {
+      state.streak += 1;
+    } else {
+      state.streak = 1;
+    }
+    state.lastActiveDate = today;
+    state.bestStreak = Math.max(state.bestStreak, state.streak);
+  }
+  if (state.streak >= 7 || state.bestStreak >= 7) {
     state = unlock(state, "week_streak");
   }
   saveGame(state);
