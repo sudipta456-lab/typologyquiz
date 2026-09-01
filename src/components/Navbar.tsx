@@ -16,6 +16,7 @@ const links: NavLink[] = [
   // and it is what people arrive searching for.
   { href: "/driving", label: "Driving" },
   { href: "/trivia", label: "Trivia" },
+  { href: "/friend-quiz", label: "Friend Quiz" },
   { href: "/daily", label: "Daily" },
   { href: "/room", label: "Rooms" },
   { href: "/compare", label: "Compare" },
