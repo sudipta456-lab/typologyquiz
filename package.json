@@ -9,7 +9,7 @@
     "lint": "eslint",
     "pages:build": "npm run build",
     "deploy": "npm run build && wrangler deploy",
-    "prebuild": "npx tsx scripts/generate-llms-txt.mjs"
+    "prebuild": "npx tsx scripts/generate-llms-txt.mjs && npx tsx scripts/generate-og-cards.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

@@ -22,6 +22,19 @@ export const metadata: Metadata = {
     description:
       "Type-in and map quizzes with a live timer: US states, capitals, Canadian provinces, countries of the world, planets and elements. Free, no signup.",
     url: `${SITE.url}/trivia/`,
+    images: [
+      {
+        url: `${SITE.url}/og/trivia-hub.png`,
+        width: 1200,
+        height: 630,
+        alt: "Trivia Quizzes: Geography and Science",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Trivia quizzes · ${SITE.legalName}`,
+    images: [`${SITE.url}/og/trivia-hub.png`],
   },
 };
 
