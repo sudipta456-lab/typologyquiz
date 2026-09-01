@@ -37,6 +37,7 @@ import { TESTS } from "../src/lib/tests/registry.ts";
 import { SEO_TITLES } from "../src/lib/seo-titles.ts";
 import { CATEGORY_META } from "../src/lib/types.ts";
 import { TRIVIA_QUIZZES } from "../src/lib/trivia/registry.ts";
+import { getShowcaseArtSrc } from "../src/lib/result-art.ts";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(root, "public", "og");
@@ -58,15 +59,13 @@ const HARD_LIMIT_BYTES = 120 * 1024;
 // enough for a 24-chars/line wrap.
 const FONT_STACK = "DejaVu Sans, Arial, sans-serif";
 
-// Balanced-art composites for the tests that have processed result art
-// (mirrors RESULT_ART in src/lib/result-art.ts; checked against disk below).
-const TEST_ART = {
-  "kkotmal-flower": "icons/kkotmal-balanced.webp",
-  "doubutsu-uranai": "icons/doubutsu-balanced.webp",
-  "hafez-mirror": "bg/hafez-balanced.webp",
-  "shahnameh-hero": "bg/shahnameh-balanced.webp",
-  "fal-qahveh": "bg/fal-qahveh-balanced.webp",
-};
+// Balanced-art composites come straight from the results-page art tables, so
+// adding art to a quiz lights up its social card with no edit here. Returns a
+// public path like "/results/icons/x.webp"; we want it relative to RESULTS_DIR.
+function testArtRel(slug) {
+  const src = getShowcaseArtSrc(slug);
+  return src ? src.replace(/^\/results\//, "") : null;
+}
 
 // Trivia accent colors by dataset, drawn from the brand-mark palette.
 const TRIVIA_COLORS = {
@@ -242,7 +241,7 @@ async function main() {
       continue;
     }
     const meta = CATEGORY_META[test.category];
-    const artRel = TEST_ART[test.slug] ?? null;
+    const artRel = testArtRel(test.slug);
     plan.push({
       file: `test-${test.slug}.png`,
       title,

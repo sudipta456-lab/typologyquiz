@@ -101,7 +101,9 @@ function ResultsContent() {
   const meta = CATEGORY_META[test.category as keyof typeof CATEGORY_META];
   const accentColor = meta?.hex || "#0795EA";
   const t = test;
-  const art = getResultArt(slug, result.scores);
+  // typeLabel is what the reader sees, so spectrum quizzes resolve their band
+  // art from it rather than re-deriving the band thresholds here.
+  const art = getResultArt(t, result.scores, typeLabel || undefined);
 
   function renderHero() {
     const category = typeLabel
