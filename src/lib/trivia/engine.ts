@@ -5,7 +5,7 @@
 // instant the sixth letter lands; "Arkansas" never passes through "kansas"
 // because matching starts from the first character, so the two never collide.
 
-import type { TriviaAnswer, TriviaBest, TriviaQuiz } from "./types";
+import type { GhostEvent, GhostRecording, TriviaAnswer, TriviaBest, TriviaQuiz } from "./types";
 
 /**
  * Canonical form for both aliases and the input buffer: lowercase, accents
@@ -194,6 +194,101 @@ export function recordRun(
 }
 
 // ---------------------------------------------------------------------------
+// Ghost recordings (localStorage, per slug). The best run's recording is the
+// player's ghost: on a later run its timestamps replay as a quiet opponent.
+// Same device-only model as the bests, same never-break-the-game try/catch.
+//
+// Random-subset quizzes (us-states-random-20, canada-random-8) do NOT get a
+// ghost. A race is only meaningful when both runs cover the same answer set,
+// and forcing a replay onto the ghost's old draw would kill the one thing
+// those quizzes promise ("every run draws a new 20"). Encoding the subset ids
+// into links would fit the budget but still breaks the fresh-draw promise, so
+// ghosts are simply off there - the caller gates on quizSupportsGhost.
+// ---------------------------------------------------------------------------
+
+export function quizSupportsGhost(quiz: Pick<TriviaQuiz, "modifiers">): boolean {
+  return quiz.modifiers?.randomSubset === undefined;
+}
+
+export function ghostStorageKey(slug: string): string {
+  return `tq_trivia_ghost_v1:${slug}`;
+}
+
+export function loadGhost(slug: string): GhostRecording | null {
+  try {
+    const raw = localStorage.getItem(ghostStorageKey(slug));
+    if (!raw) return null;
+    const parsed: unknown = JSON.parse(raw);
+    if (typeof parsed !== "object" || parsed === null) return null;
+    const rec = parsed as { score?: unknown; timeMs?: unknown; events?: unknown };
+    if (typeof rec.score !== "number" || typeof rec.timeMs !== "number") return null;
+    if (!Array.isArray(rec.events)) return null;
+    const events: GhostEvent[] = [];
+    for (const e of rec.events) {
+      if (typeof e !== "object" || e === null) return null;
+      const ev = e as { id?: unknown; t?: unknown };
+      if (typeof ev.id !== "string" || typeof ev.t !== "number" || !Number.isFinite(ev.t)) {
+        return null;
+      }
+      events.push({ id: ev.id, t: ev.t });
+    }
+    events.sort((a, b) => a.t - b.t);
+    return { score: rec.score, timeMs: rec.timeMs, events };
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Keeps the recording if it is the new best run (higher score, or same score
+ * faster). Returns true when the stored ghost changed, so the client can
+ * refresh what it shows.
+ */
+export function recordGhostRun(slug: string, run: GhostRecording): boolean {
+  const prev = loadGhost(slug);
+  const better =
+    prev === null ||
+    run.score > prev.score ||
+    (run.score === prev.score && run.timeMs < prev.timeMs);
+  if (!better) return false;
+  try {
+    localStorage.setItem(ghostStorageKey(slug), JSON.stringify(run));
+    return true;
+  } catch {
+    /* storage full or blocked - ghosts are a nicety, never break the game */
+    return false;
+  }
+}
+
+// "Race my ghost" is one per-device preference, not per quiz - a player who
+// turns the ghost off wants it off everywhere.
+
+const GHOST_RACE_PREF_KEY = "tq_trivia_ghost_race_v1";
+
+export function loadGhostRacePref(): boolean {
+  try {
+    return localStorage.getItem(GHOST_RACE_PREF_KEY) !== "off";
+  } catch {
+    return true;
+  }
+}
+
+export function saveGhostRacePref(on: boolean): void {
+  try {
+    localStorage.setItem(GHOST_RACE_PREF_KEY, on ? "on" : "off");
+  } catch {
+    /* fine - the default (on) comes back next visit */
+  }
+}
+
+/** How many ghost answers had landed by this point in the run. Times sorted ascending. */
+export function countGhostFound(sortedTimesMs: readonly number[], elapsedMs: number): number {
+  let n = 0;
+  while (n < sortedTimesMs.length && sortedTimesMs[n] <= elapsedMs) n++;
+  return n;
+}
+
+// ---------------------------------------------------------------------------
 // Estimated percentiles ("beats about X% of players" - always labelled
 // estimated; there is no server counting real plays).
 // ---------------------------------------------------------------------------
@@ -222,25 +317,94 @@ export function estimateBeatsPercent(
 
 // ---------------------------------------------------------------------------
 // Challenge links: score + time carried in a query param, decoded defensively.
+//
+// Format: ?c=score-timeMs[-gDELTAS] - the third field is an OPTIONAL compact
+// ghost. Answer times are rounded to tenths of a second, delta-encoded, each
+// delta written in base36 and joined with "." (all URL-safe unescaped):
+//
+//   ?c=46-228400-g2f.1a.8.3k...     (46 answers, one delta per answer)
+//
+// The ghost blob is capped at GHOST_BLOB_MAX chars; a run whose encoding
+// would blow the cap ships today's score-only link instead - never a broken
+// one. Decoding is symmetric and forgiving: an old score-only link parses
+// exactly as before, and a malformed or inconsistent ghost field is silently
+// dropped, degrading to score-only.
 // ---------------------------------------------------------------------------
 
 export interface ChallengePayload {
   score: number;
   timeMs: number;
+  /** The sender's answer times, ms from run start, ascending. One per answer scored. */
+  ghostTimesMs?: number[];
+}
+
+/** Hard cap on the encoded ghost field, "g" prefix included (~100+ answers fit). */
+export const GHOST_BLOB_MAX = 700;
+
+const GHOST_MAX_EVENTS = 250;
+const GHOST_MAX_TENTHS = 360000; // 10 hours, far past any timer
+
+/**
+ * "g" + base36 tenth-of-a-second deltas joined by ".". Returns null when
+ * there is nothing to encode or the blob would exceed the cap.
+ */
+export function encodeGhostTimes(timesMs: readonly number[]): string | null {
+  if (timesMs.length === 0 || timesMs.length > GHOST_MAX_EVENTS) return null;
+  const parts: string[] = [];
+  let prevTenths = 0;
+  for (const t of timesMs) {
+    if (!Number.isFinite(t) || t < 0) return null;
+    const tenths = Math.min(GHOST_MAX_TENTHS, Math.round(t / 100));
+    // Times must be ascending; clamp any jitter to a zero delta.
+    const delta = Math.max(0, tenths - prevTenths);
+    prevTenths = prevTenths + delta;
+    parts.push(delta.toString(36));
+  }
+  const blob = `g${parts.join(".")}`;
+  return blob.length <= GHOST_BLOB_MAX ? blob : null;
+}
+
+/** Inverse of encodeGhostTimes; null on anything malformed. */
+export function decodeGhostTimes(blob: string): number[] | null {
+  if (blob.length > GHOST_BLOB_MAX) return null;
+  const m = /^g([0-9a-z]{1,4}(?:\.[0-9a-z]{1,4})*)$/.exec(blob);
+  if (!m) return null;
+  const parts = m[1].split(".");
+  if (parts.length > GHOST_MAX_EVENTS) return null;
+  const times: number[] = [];
+  let tenths = 0;
+  for (const p of parts) {
+    tenths += Number.parseInt(p, 36);
+    if (!Number.isFinite(tenths) || tenths > GHOST_MAX_TENTHS) return null;
+    times.push(tenths * 100);
+  }
+  return times;
 }
 
 export function encodeChallenge(payload: ChallengePayload): string {
-  return `${payload.score}-${payload.timeMs}`;
+  const base = `${payload.score}-${payload.timeMs}`;
+  const times = payload.ghostTimesMs;
+  if (times === undefined || times.length !== payload.score) return base;
+  const blob = encodeGhostTimes(times);
+  return blob === null ? base : `${base}-${blob}`;
 }
 
 export function decodeChallenge(raw: string | null): ChallengePayload | null {
   if (!raw) return null;
-  const m = /^(\d{1,3})-(\d{1,8})$/.exec(raw);
+  // Score and time are required and validated exactly as the v1 codec did;
+  // everything past the second "-" is the optional ghost, dropped on any doubt.
+  const m = /^(\d{1,3})-(\d{1,8})(?:-(.*))?$/.exec(raw);
   if (!m) return null;
   const score = Number.parseInt(m[1], 10);
   const timeMs = Number.parseInt(m[2], 10);
   if (!Number.isFinite(score) || !Number.isFinite(timeMs)) return null;
-  return { score, timeMs };
+  const payload: ChallengePayload = { score, timeMs };
+  if (m[3] !== undefined) {
+    const times = decodeGhostTimes(m[3]);
+    // One time per point scored, or the ghost makes no sense - degrade.
+    if (times !== null && times.length === score) payload.ghostTimesMs = times;
+  }
+  return payload;
 }
 
 /**

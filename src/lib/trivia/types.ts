@@ -99,3 +99,26 @@ export interface TriviaBest {
   /** Fastest full completion, ms. Only set once every answer has been found. */
   bestTimeMs?: number;
 }
+
+/**
+ * One answer landing during a timed run: which answer fired and when, in ms
+ * elapsed from the start of the run (time paused in a hidden tab excluded,
+ * matching how timeUsedMs is measured).
+ */
+export interface GhostEvent {
+  id: string;
+  t: number;
+}
+
+/**
+ * A full run recording - the player's ghost. Stored per slug in localStorage
+ * next to the bests; only the best run's recording is kept (higher score
+ * wins, faster time breaks ties). Replayed as a Kahoot-style ghost opponent
+ * on later runs, and optionally carried inside challenge links.
+ */
+export interface GhostRecording {
+  score: number;
+  timeMs: number;
+  /** Sorted by t ascending. */
+  events: GhostEvent[];
+}

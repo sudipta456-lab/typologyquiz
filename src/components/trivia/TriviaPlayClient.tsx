@@ -16,17 +16,24 @@ import {
   buildDeferredAliasSet,
   buildMatchIndex,
   buildPrefixSet,
+  countGhostFound,
   decodeChallenge,
   encodeChallenge,
   estimateBeatsPercent,
   formatClock,
   formatTimeMs,
+  ghostStorageKey,
   loadBest,
+  loadGhost,
+  loadGhostRacePref,
   matchBuffer,
   normalizeAnswer,
   pruneBuffer,
+  quizSupportsGhost,
+  recordGhostRun,
   recordRun,
   sampleSubset,
+  saveGhostRacePref,
   type ChallengePayload,
 } from "@/lib/trivia/engine";
 import {
@@ -36,7 +43,14 @@ import {
   getTriviaQuiz,
   TRIVIA_QUIZZES,
 } from "@/lib/trivia/registry";
-import type { TriviaAnswer, TriviaBest, TriviaOutcome, TriviaQuiz } from "@/lib/trivia/types";
+import type {
+  GhostEvent,
+  GhostRecording,
+  TriviaAnswer,
+  TriviaBest,
+  TriviaOutcome,
+  TriviaQuiz,
+} from "@/lib/trivia/types";
 import { USMap } from "./USMap";
 import { CanadaMap } from "./CanadaMap";
 import { useSiteOrigin } from "@/lib/use-site-origin";
@@ -100,6 +114,35 @@ function subscribeBest(onChange: () => void): () => void {
   };
 }
 
+// Ghost recordings and the race-my-ghost preference follow the exact same
+// external-store pattern as the bests: cached snapshots keyed on the raw
+// stored string, a custom event dispatched on same-tab writes.
+const GHOST_EVENT = "tq-trivia-ghost";
+const ghostCache = new Map<string, { raw: string | null; value: GhostRecording | null }>();
+
+function readGhostSnapshot(slug: string): GhostRecording | null {
+  let raw: string | null = null;
+  try {
+    raw = localStorage.getItem(ghostStorageKey(slug));
+  } catch {
+    raw = null;
+  }
+  const cached = ghostCache.get(slug);
+  if (cached && cached.raw === raw) return cached.value;
+  const value = loadGhost(slug);
+  ghostCache.set(slug, { raw, value });
+  return value;
+}
+
+function subscribeGhost(onChange: () => void): () => void {
+  window.addEventListener("storage", onChange);
+  window.addEventListener(GHOST_EVENT, onChange);
+  return () => {
+    window.removeEventListener("storage", onChange);
+    window.removeEventListener(GHOST_EVENT, onChange);
+  };
+}
+
 async function copyText(text: string): Promise<boolean> {
   try {
     if (navigator.clipboard?.writeText) {
@@ -154,6 +197,19 @@ const OUTCOME_LINE: Record<TriviaOutcome, string> = {
   lives: "Out of lives",
 };
 
+/**
+ * The ghost one run races: the sender's recording from a challenge link, or
+ * the player's own best-run recording. Only the timestamps matter for the
+ * live chip; score and time settle the final comparison.
+ */
+interface ActiveGhost {
+  kind: "own" | "friend";
+  score: number;
+  timeMs: number;
+  /** Answer times, ms from run start, ascending. */
+  times: readonly number[];
+}
+
 interface RunResult {
   outcome: TriviaOutcome;
   score: number;
@@ -161,6 +217,10 @@ interface RunResult {
   best: TriviaBest;
   newBestScore: boolean;
   newBestTime: boolean;
+  /** This run's answer times, offered to the share link's ghost field. */
+  ghostTimesMs?: readonly number[];
+  /** The ghost this run raced, if one rode along. */
+  raced: ActiveGhost | null;
 }
 
 function TriviaPlayInner({ slug }: { slug: string }) {
@@ -238,6 +298,35 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     [searchParams]
   );
 
+  // ----- ghost rematch state -----
+  // Random-subset quizzes sit this feature out: a race only means something
+  // when both runs cover the same answers, and pinning a replay to the
+  // ghost's old draw would break the "fresh draw every run" promise those
+  // quizzes are built on (see quizSupportsGhost).
+  const ghostSupported = quiz !== undefined && quizSupportsGhost(quiz);
+  // This run's recording, appended to as answers land.
+  const ghostEventsRef = useRef<GhostEvent[]>([]);
+  // The ghost the current run is racing, frozen at start(). State (not a
+  // ref) because the chip renders from it.
+  const [activeRace, setActiveRace] = useState<ActiveGhost | null>(null);
+  const ownGhost = useSyncExternalStore(
+    subscribeGhost,
+    useCallback(
+      () => (quiz !== undefined && quizSupportsGhost(quiz) ? readGhostSnapshot(quiz.slug) : null),
+      [quiz]
+    ),
+    () => null
+  );
+  const raceOn = useSyncExternalStore(subscribeGhost, loadGhostRacePref, () => true);
+
+  const friendGhostTimes = ghostSupported ? challenge?.ghostTimesMs : undefined;
+
+  /** Elapsed run time in ms, hidden-tab pauses excluded (matches timeUsedMs). */
+  const elapsedNow = useCallback(
+    () => Math.max(0, Math.round(Date.now() - startedAtRef.current - pausedTotalRef.current)),
+    []
+  );
+
   const best = useSyncExternalStore(
     subscribeBest,
     useCallback(() => (quiz ? readBestSnapshot(quiz.slug) : null), [quiz]),
@@ -269,8 +358,20 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         0,
         Math.round(Date.now() - startedAtRef.current - pausedTotalRef.current)
       );
+      // A held answer that made the cut lands at the closing bell, so the
+      // recording stays one event per point scored.
+      if (held !== null && finalFound !== found) {
+        ghostEventsRef.current = [...ghostEventsRef.current, { id: held.id, t: timeUsedMs }];
+      }
       const rec = recordRun(quiz.slug, score, timeUsedMs, completedAll);
       window.dispatchEvent(new Event(BEST_EVENT));
+      let ghostTimesMs: readonly number[] | undefined;
+      if (ghostSupported) {
+        const events = [...ghostEventsRef.current];
+        const recording: GhostRecording = { score, timeMs: timeUsedMs, events };
+        if (recordGhostRun(quiz.slug, recording)) window.dispatchEvent(new Event(GHOST_EVENT));
+        ghostTimesMs = events.map((e) => e.t);
+      }
       setResult({
         outcome,
         score,
@@ -278,10 +379,12 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         best: rec.best,
         newBestScore: rec.newBestScore,
         newBestTime: rec.newBestTime,
+        ghostTimesMs,
+        raced: activeRace,
       });
       setPhase("done");
     },
-    [quiz, total]
+    [quiz, total, ghostSupported, activeRace]
   );
 
   // Keep a live ref of foundIds so the timer's finish sees the latest.
@@ -335,6 +438,28 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     setLivesLeft(totalLives);
     setTargetQueue(shuffle(runAnswers.map((a) => a.id)));
     setWrongFlashId(null);
+    // Freeze the ghost for this run: a friend's recording from the link wins
+    // (that is the race being invited to), otherwise the player's own best.
+    ghostEventsRef.current = [];
+    let race: ActiveGhost | null = null;
+    if (ghostSupported && raceOn) {
+      if (challenge?.ghostTimesMs !== undefined) {
+        race = {
+          kind: "friend",
+          score: challenge.score,
+          timeMs: challenge.timeMs,
+          times: challenge.ghostTimesMs,
+        };
+      } else if (ownGhost !== null && ownGhost.events.length > 0) {
+        race = {
+          kind: "own",
+          score: ownGhost.score,
+          timeMs: ownGhost.timeMs,
+          times: ownGhost.events.map((e) => e.t),
+        };
+      }
+    }
+    setActiveRace(race);
     carryRef.current = "";
     heldRef.current = null;
     if (heldTimerRef.current !== null) {
@@ -347,7 +472,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     endAtRef.current = Date.now() + quiz.timerSeconds * 1000;
     setTimeLeftMs(quiz.timerSeconds * 1000);
     setPhase("playing");
-  }, [quiz, fullAnswers, totalLives]);
+  }, [quiz, fullAnswers, totalLives, ghostSupported, raceOn, challenge, ownGhost]);
 
   // Focus the input once the play screen exists.
   useEffect(() => {
@@ -360,12 +485,15 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const registerHit = useCallback(
     (id: string) => {
       if (foundIdsRef.current.includes(id)) return;
+      if (ghostSupported) {
+        ghostEventsRef.current = [...ghostEventsRef.current, { id, t: elapsedNow() }];
+      }
       const nextFound = [...foundIdsRef.current, id];
       foundIdsRef.current = nextFound;
       setFoundIds(nextFound);
       if (nextFound.length === answers.length) finishRun("complete", nextFound);
     },
-    [answers.length, finishRun]
+    [answers.length, finishRun, ghostSupported, elapsedNow]
   );
 
   const handleInput = useCallback(
@@ -446,6 +574,9 @@ function TriviaPlayInner({ slug }: { slug: string }) {
       if (phase !== "playing" || quiz?.mode !== "choice" || !currentTargetId) return;
       if (foundSet.has(id)) return;
       if (id === currentTargetId) {
+        if (ghostSupported) {
+          ghostEventsRef.current = [...ghostEventsRef.current, { id, t: elapsedNow() }];
+        }
         const nextFound = [...foundIds, id];
         setFoundIds(nextFound);
         if (nextFound.length === answers.length) finishRun("complete", nextFound);
@@ -458,7 +589,18 @@ function TriviaPlayInner({ slug }: { slug: string }) {
       setLivesLeft(next);
       if (next <= 0) finishRun("lives", foundIdsRef.current);
     },
-    [phase, quiz, currentTargetId, foundSet, foundIds, livesLeft, answers.length, finishRun]
+    [
+      phase,
+      quiz,
+      currentTargetId,
+      foundSet,
+      foundIds,
+      livesLeft,
+      answers.length,
+      finishRun,
+      ghostSupported,
+      elapsedNow,
+    ]
   );
 
   const giveUp = useCallback(() => {
@@ -577,6 +719,8 @@ function TriviaPlayInner({ slug }: { slug: string }) {
               {challenge.score}/{runSize}
             </strong>{" "}
             in {formatTimeMs(challenge.timeMs)}. Beat that.
+            {friendGhostTimes !== undefined &&
+              " Their run rides along: a quiet counter will pace you against them, answer for answer."}
           </p>
         )}
 
@@ -589,10 +733,46 @@ function TriviaPlayInner({ slug }: { slug: string }) {
           </p>
         )}
 
-        <div style={{ marginTop: 22, display: "flex", gap: 12, flexWrap: "wrap" }}>
+        {friendGhostTimes === undefined &&
+          ghostSupported &&
+          ownGhost !== null &&
+          ownGhost.events.length > 0 &&
+          raceOn && (
+            <p style={{ ...monoSmall, margin: "8px 0 0" }}>
+              Your ghost ({ownGhost.score}/{runSize} in {formatTimeMs(ownGhost.timeMs)}) runs
+              beside you. Beat it and it becomes this run.
+            </p>
+          )}
+
+        <div style={{ marginTop: 22, display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
           <button type="button" className="btn-primary" onClick={start} autoFocus>
             Start the clock
           </button>
+          {ghostSupported &&
+            (friendGhostTimes !== undefined ||
+              (ownGhost !== null && ownGhost.events.length > 0)) && (
+              <button
+                type="button"
+                onClick={() => {
+                  saveGhostRacePref(!raceOn);
+                  window.dispatchEvent(new Event(GHOST_EVENT));
+                }}
+                aria-pressed={raceOn}
+                style={{
+                  padding: "0.5rem 0.9rem",
+                  borderRadius: 8,
+                  border: "1px solid var(--line)",
+                  background: "transparent",
+                  color: "var(--ink-mute)",
+                  fontFamily: "var(--font-mono)",
+                  fontSize: "0.8rem",
+                  fontWeight: 600,
+                  cursor: "pointer",
+                }}
+              >
+                Race my ghost: {raceOn ? "on" : "off"}
+              </button>
+            )}
           <Link href="/trivia/" className="text-link" style={{ alignSelf: "center" }}>
             All trivia quizzes
           </Link>
@@ -602,8 +782,20 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   }
 
   // ----- playing + done -----
+  // The ghost chip is pure derivation: the 5Hz clock tick already re-renders,
+  // so the ghost's count falls out of elapsed time with no timers of its own.
+  const race = phase === "playing" ? activeRace : null;
+  const ghostCount =
+    race !== null
+      ? countGhostFound(race.times, quiz.timerSeconds * 1000 - timeLeftMs)
+      : 0;
+  const ghostBehind = race !== null && foundIds.length < ghostCount;
+
   return (
     <div className="section" style={{ maxWidth: "52rem" }}>
+      {race !== null && !reducedMotion && (
+        <style>{"@keyframes tqGhostTick { from { opacity: 0.35 } to { opacity: 1 } }"}</style>
+      )}
       <div
         style={{
           display: "flex",
@@ -620,7 +812,36 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         >
           {quiz.title}
         </h1>
-        <div style={{ display: "flex", gap: 16, alignItems: "baseline" }}>
+        <div style={{ display: "flex", gap: 16, alignItems: "baseline", flexWrap: "wrap" }}>
+          {race !== null && (
+            <span
+              title={
+                race.kind === "own"
+                  ? "Your best run, replaying live"
+                  : "Your friend's run, replaying live"
+              }
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: "0.78rem",
+                fontWeight: 700,
+                fontVariantNumeric: "tabular-nums",
+                padding: "0.15rem 0.55rem",
+                borderRadius: 999,
+                border: `1px solid ${ghostBehind ? CORAL : TEAL}`,
+                color: "var(--ink-mute)",
+              }}
+            >
+              <span
+                key={ghostCount}
+                style={{
+                  display: "inline-block",
+                  animation: reducedMotion ? undefined : "tqGhostTick 300ms ease-out",
+                }}
+              >
+                {race.kind === "own" ? "Ghost" : "Their run"}: {ghostCount}/{total}
+              </span>
+            </span>
+          )}
           {totalLives > 0 && phase === "playing" && (
             <span style={{ ...monoSmall, fontWeight: 700 }} aria-live="polite">
               Lives: {livesLeft}/{totalLives}
@@ -880,13 +1101,36 @@ function ResultsPanel({
   onReplay: () => void;
 }) {
   const beats = estimateBeatsPercent(quiz, result.score, total);
-  const challengeUrl = `${origin}/trivia/${quiz.slug}/?c=${encodeChallenge({
+  // The link carries this run's own recording when it fits the budget;
+  // encodeChallenge quietly drops the ghost past the cap, so the link itself
+  // is never at risk.
+  const challengeCode = encodeChallenge({
     score: result.score,
     timeMs: result.timeUsedMs,
-  })}`;
+    ghostTimesMs: result.ghostTimesMs !== undefined ? [...result.ghostTimesMs] : undefined,
+  });
+  const ghostInLink = challengeCode.includes("-g");
+  const challengeUrl = `${origin}/trivia/${quiz.slug}/?c=${challengeCode}`;
   const shareText = `I scored ${result.score}/${total} on "${quiz.title}" in ${formatTimeMs(
     result.timeUsedMs
-  )}. Beat that: ${challengeUrl}`;
+  )}. ${ghostInLink ? "Think you can beat my ghost?" : "Beat that:"} ${challengeUrl}`;
+
+  // Racing your own ghost gets its own verdict line; a friend's ghost is
+  // already settled by the challenge versus copy below.
+  let ghostVersus: string | null = null;
+  if (result.raced !== null && result.raced.kind === "own") {
+    const g = result.raced;
+    const secondsGap = (a: number, b: number) => ((a - b) / 1000).toFixed(1);
+    if (result.score > g.score)
+      ghostVersus = `You beat your ghost by ${result.score - g.score} (${result.score} vs ${g.score}). The ghost is now this run.`;
+    else if (result.score < g.score)
+      ghostVersus = `Your ghost finished ${g.score - result.score} ahead (${g.score} vs ${result.score}). It was you once, so it is beatable.`;
+    else if (result.timeUsedMs < g.timeMs)
+      ghostVersus = `Tied your ghost on score and beat it by ${secondsGap(g.timeMs, result.timeUsedMs)}s. The ghost is now this run.`;
+    else if (result.timeUsedMs > g.timeMs)
+      ghostVersus = `Tied your ghost on score, but it stays ${secondsGap(result.timeUsedMs, g.timeMs)}s quicker. It stands.`;
+    else ghostVersus = "A dead heat with your own ghost. Score and time. Eerie.";
+  }
 
   let versus: string | null = null;
   if (challenge) {
@@ -967,6 +1211,9 @@ function ResultsPanel({
         {versus && (
           <p style={{ margin: "10px 0 0", fontSize: "0.95rem", fontWeight: 600 }}>{versus}</p>
         )}
+        {ghostVersus && (
+          <p style={{ margin: "10px 0 0", fontSize: "0.95rem", fontWeight: 600 }}>{ghostVersus}</p>
+        )}
       </div>
 
       {missing.length > 0 && (
@@ -1046,6 +1293,20 @@ function ResultsPanel({
         >
           {copied ? "Copied" : "Copy challenge link"}
         </button>
+        {ghostInLink && (
+          <p
+            style={{
+              width: "100%",
+              margin: 0,
+              fontFamily: "var(--font-mono)",
+              fontSize: "0.78rem",
+              color: "var(--ink-mute)",
+            }}
+          >
+            This link says beat my ghost, and means it: your run rides along, so whoever opens
+            it races your exact pace.
+          </p>
+        )}
       </div>
 
       {related.length > 0 && (
