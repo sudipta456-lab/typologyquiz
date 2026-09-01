@@ -1,19 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getTriviaQuiz, TRIVIA_GROUPS, TRIVIA_QUIZZES } from "@/lib/trivia/registry";
-import { getAnswers } from "@/lib/trivia/registry";
+import {
+  COUNTRY_LETTER_PAGES,
+  getRunSize,
+  getTriviaQuiz,
+  STATE_LETTER_PAGES,
+  TRIVIA_GROUPS,
+  TRIVIA_QUIZZES,
+} from "@/lib/trivia/registry";
 import { formatClock } from "@/lib/trivia/engine";
 import { SITE } from "@/lib/site";
+import { WeeklyFeatured } from "@/components/trivia/WeeklyFeatured";
 
 export const metadata: Metadata = {
-  title: "Geography Trivia Quizzes",
+  title: "Trivia Quizzes: Geography and Science",
   description:
-    "Can you name all 50 US states in 4 minutes? Free type-in and map trivia quizzes - US states, state capitals, Canadian provinces and more. No signup, answers register as you type.",
+    "Can you name all 50 US states? All 196 countries? Free type-in and map trivia quizzes with a live timer - states, capitals, provinces, countries, planets and the periodic table. No signup, answers register as you type.",
   alternates: { canonical: "/trivia/" },
   openGraph: {
-    title: `Geography trivia quizzes · ${SITE.legalName}`,
+    title: `Trivia quizzes · ${SITE.legalName}`,
     description:
-      "Type-in and map quizzes with a live timer: US states, capitals, Canadian provinces. Free, no signup.",
+      "Type-in and map quizzes with a live timer: US states, capitals, Canadian provinces, countries of the world, planets and elements. Free, no signup.",
     url: `${SITE.url}/trivia/`,
   },
 };
@@ -47,7 +54,7 @@ export default function TriviaHubPage() {
           Trivia
         </p>
         <h1 className="section-title" style={{ marginBottom: 12 }}>
-          Geography trivia quizzes
+          Trivia quizzes
         </h1>
         <p className="section-lead" style={{ marginBottom: 24 }}>
           The classics, done properly: a live timer, a map that fills in as you
@@ -55,6 +62,8 @@ export default function TriviaHubPage() {
           key, no signup, no ads between you and the clock. Your scores stay on
           this device.
         </p>
+
+        <WeeklyFeatured />
 
         {TRIVIA_GROUPS.map((group) => {
           const quizzes = group.slugs
@@ -100,7 +109,7 @@ export default function TriviaHubPage() {
                       }}
                     >
                       <span>{MODE_LABEL[q.mode]}</span>
-                      <span>{getAnswers(q).length} answers</span>
+                      <span>{getRunSize(q)} answers</span>
                       <span>{formatClock(q.timerSeconds)} clock</span>
                       {q.modifiers?.lives !== undefined && <span>{q.modifiers.lives} lives</span>}
                     </div>
@@ -110,6 +119,70 @@ export default function TriviaHubPage() {
             </section>
           );
         })}
+
+        <section style={{ marginBottom: 36 }}>
+          <h2
+            className="font-display"
+            style={{
+              fontSize: "1.25rem",
+              fontWeight: 600,
+              color: "var(--ink)",
+              margin: "0 0 6px",
+              paddingBottom: 8,
+              borderBottom: "1px solid var(--line)",
+            }}
+          >
+            A to Z pages
+          </h2>
+          <p style={{ margin: "10px 0 12px", fontSize: "0.9rem", color: "var(--ink-soft)" }}>
+            Quick-fire mini quizzes, one letter at a time. Pick a letter, name
+            everything that starts with it.
+          </p>
+          {[
+            { label: "US states that start with", pages: STATE_LETTER_PAGES },
+            { label: "Countries that start with", pages: COUNTRY_LETTER_PAGES },
+          ].map(({ label, pages }) => (
+            <div
+              key={label}
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                alignItems: "baseline",
+                gap: "0.4rem 0.5rem",
+                marginBottom: 12,
+              }}
+            >
+              <span
+                style={{
+                  fontFamily: "var(--font-mono)",
+                  fontSize: "0.75rem",
+                  color: "var(--ink-mute)",
+                  marginRight: 4,
+                }}
+              >
+                {label}
+              </span>
+              {pages.map((p) => (
+                <Link
+                  key={p.slug}
+                  href={`/trivia/${p.slug}/`}
+                  className="text-link"
+                  aria-label={`${label} ${p.letter} (${p.count} answers)`}
+                  style={{
+                    fontFamily: "var(--font-mono)",
+                    fontWeight: 700,
+                    fontSize: "0.9rem",
+                    padding: "0.15rem 0.5rem",
+                    border: "1px solid var(--line)",
+                    borderRadius: 8,
+                  }}
+                >
+                  {p.letter}
+                </Link>
+              ))}
+            </div>
+          ))}
+        </section>
 
         <div style={{ borderTop: "1px solid var(--line)", paddingTop: 24 }}>
           <h2 className="font-display" style={{ fontSize: "1.1rem", fontWeight: 600, margin: "0 0 8px" }}>

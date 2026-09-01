@@ -58,12 +58,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]);
 
   // Trivia quizzes: the play page IS the landing page (title, rules and the
-  // start button all live on one URL), so every quiz is listed.
+  // start button all live on one URL), so every quiz is listed - including
+  // the generated letter pages, which sit a notch lower as long-tail.
   const triviaPages: MetadataRoute.Sitemap = TRIVIA_QUIZZES.map((q) => ({
     url: `${base}/trivia/${q.slug}/`,
     lastModified: now,
     changeFrequency: "monthly" as const,
-    priority: 0.8,
+    priority: q.filterLetter !== undefined ? 0.65 : 0.8,
   }));
 
   return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages];

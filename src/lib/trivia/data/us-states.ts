@@ -103,5 +103,10 @@ export const US_STATE_NAMES: Readonly<Record<string, string>> = Object.fromEntri
   ROWS.map((row) => [row.id, row.name])
 );
 
+/** id -> capital city, for the capitals sudden-death prompt ("Find: Pierre"). */
+export const US_CAPITAL_NAMES: Readonly<Record<string, string>> = Object.fromEntries(
+  ROWS.map((row) => [row.id, row.capital])
+);
+
 assertNoAliasCollisions("us-states/names", US_STATE_ANSWERS);
 assertNoAliasCollisions("us-states/capitals", US_CAPITAL_ANSWERS);

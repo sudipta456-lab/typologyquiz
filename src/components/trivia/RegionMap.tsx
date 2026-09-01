@@ -8,6 +8,7 @@ import { useCallback } from "react";
 const FOUND_FILL = "var(--mark-teal)";
 const MISSING_FILL = "var(--mark-coral)";
 const IDLE_FILL = "var(--line)";
+const TARGET_FILL = "var(--ink-mute)";
 const EDGE = "var(--white)";
 
 export interface RegionMapProps {
@@ -26,6 +27,12 @@ export interface RegionMapProps {
   reducedMotion?: boolean;
   /** Accessible name for the whole graphic. */
   title: string;
+  /**
+   * Random-subset and letter quizzes: only these regions are in play. They
+   * render darker as targets; the rest stay idle and never turn coral on
+   * reveal (they were not part of the run).
+   */
+  activeIds?: ReadonlySet<string> | null;
 }
 
 export function RegionMap({
@@ -39,6 +46,7 @@ export function RegionMap({
   wrongFlashId = null,
   reducedMotion = false,
   title,
+  activeIds = null,
 }: RegionMapProps) {
   const handleKey = useCallback(
     (e: React.KeyboardEvent<SVGPathElement>, id: string) => {
@@ -60,11 +68,13 @@ export function RegionMap({
       {Object.entries(paths).map(([id, d]) => {
         const isFound = found.has(id);
         const isWrongFlash = wrongFlashId === id;
+        const inPlay = activeIds === null || activeIds.has(id);
         let fill = IDLE_FILL;
         if (isFound) fill = FOUND_FILL;
         else if (isWrongFlash) fill = MISSING_FILL;
-        else if (revealMissing) fill = MISSING_FILL;
-        const clickable = interactive && !isFound;
+        else if (revealMissing && inPlay) fill = MISSING_FILL;
+        else if (inPlay && activeIds !== null) fill = TARGET_FILL;
+        const clickable = interactive && !isFound && inPlay;
         return (
           <path
             key={id}

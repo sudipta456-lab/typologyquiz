@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { getTriviaQuiz, TRIVIA_QUIZZES } from "@/lib/trivia/registry";
-import { getAnswers } from "@/lib/trivia/registry";
+import { getRunSize, getTriviaQuiz, TRIVIA_QUIZZES } from "@/lib/trivia/registry";
 import { SITE } from "@/lib/site";
 import { TriviaPlayClient } from "@/components/trivia/TriviaPlayClient";
 
@@ -46,11 +45,12 @@ export default async function TriviaQuizPage({
         name: quiz.title,
         description: quiz.seoDescription,
         url: `${SITE.url}/trivia/${quiz.slug}/`,
-        numberOfQuestions: getAnswers(quiz).length,
+        numberOfQuestions: getRunSize(quiz),
         educationalAlignment: {
           "@type": "AlignmentObject",
           alignmentType: "educationalSubject",
-          targetName: "Geography",
+          targetName:
+            quiz.dataset === "planets" || quiz.dataset === "elements" ? "Science" : "Geography",
         },
         provider: { "@type": "Organization", name: SITE.legalName, url: SITE.url },
       }

@@ -13,6 +13,7 @@ import {
 } from "react";
 import {
   bestStorageKey,
+  buildDeferredAliasSet,
   buildMatchIndex,
   buildPrefixSet,
   decodeChallenge,
@@ -25,9 +26,16 @@ import {
   normalizeAnswer,
   pruneBuffer,
   recordRun,
+  sampleSubset,
   type ChallengePayload,
 } from "@/lib/trivia/engine";
-import { getAnswers, getRegionNames, getTriviaQuiz, TRIVIA_QUIZZES } from "@/lib/trivia/registry";
+import {
+  getAnswers,
+  getPromptNames,
+  getRunSize,
+  getTriviaQuiz,
+  TRIVIA_QUIZZES,
+} from "@/lib/trivia/registry";
 import type { TriviaAnswer, TriviaBest, TriviaOutcome, TriviaQuiz } from "@/lib/trivia/types";
 import { USMap } from "./USMap";
 import { CanadaMap } from "./CanadaMap";
@@ -117,6 +125,28 @@ async function copyText(text: string): Promise<boolean> {
   }
 }
 
+/**
+ * Buckets answers by their group label (continent), preserving dataset
+ * order. Ungrouped datasets come back as one unlabeled bucket.
+ */
+function groupAnswers(
+  items: readonly TriviaAnswer[]
+): { label: string; items: TriviaAnswer[] }[] {
+  const order: string[] = [];
+  const buckets = new Map<string, TriviaAnswer[]>();
+  for (const a of items) {
+    const label = a.group ?? "";
+    const bucket = buckets.get(label);
+    if (bucket === undefined) {
+      buckets.set(label, [a]);
+      order.push(label);
+    } else {
+      bucket.push(a);
+    }
+  }
+  return order.map((label) => ({ label, items: buckets.get(label) ?? [] }));
+}
+
 const OUTCOME_LINE: Record<TriviaOutcome, string> = {
   complete: "You got them all",
   time: "Time's up",
@@ -140,14 +170,20 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const reducedMotion = useReducedMotion();
 
   // Everything below is unconditional hook order; quiz-not-found renders late.
-  const answers = useMemo<readonly TriviaAnswer[]>(
+  const fullAnswers = useMemo<readonly TriviaAnswer[]>(
     () => (quiz ? getAnswers(quiz) : []),
     [quiz]
   );
+  // What THIS run plays against: the full (filtered) set, or a fresh random
+  // sample drawn at start() for the random-subset quizzes.
+  const [answers, setAnswers] = useState<readonly TriviaAnswer[]>(fullAnswers);
   const matchIndex = useMemo(() => buildMatchIndex(answers), [answers]);
   const prefixes = useMemo(() => buildPrefixSet(answers), [answers]);
-  const regionNames = useMemo(
-    () => (quiz ? getRegionNames(quiz.dataset) : {}),
+  // Aliases that are strict prefixes of a different answer's alias (uk vs
+  // ukraine). Empty for the original datasets; see handleInput.
+  const deferredAliases = useMemo(() => buildDeferredAliasSet(answers), [answers]);
+  const promptNames = useMemo(
+    () => (quiz ? getPromptNames(quiz) : {}),
     [quiz]
   );
   const byId = useMemo(() => {
@@ -155,6 +191,16 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     for (const a of answers) m.set(a.id, a);
     return m;
   }, [answers]);
+  // Ordered group labels (continents), for the counter columns and the
+  // grouped reveal on datasets that carry them.
+  const groupLabels = useMemo(() => {
+    const seen: string[] = [];
+    for (const a of answers) {
+      if (a.group !== undefined && !seen.includes(a.group)) seen.push(a.group);
+    }
+    return seen;
+  }, [answers]);
+  const hasHints = useMemo(() => answers.some((a) => a.hint !== undefined), [answers]);
 
   const [phase, setPhase] = useState<Phase>("ready");
   const [foundIds, setFoundIds] = useState<readonly string[]>([]);
@@ -166,6 +212,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const [already, setAlready] = useState<string | null>(null);
   const [result, setResult] = useState<RunResult | null>(null);
   const [copied, setCopied] = useState(false);
+  const [showHints, setShowHints] = useState(false);
 
   const foundSet = useMemo(() => new Set(foundIds), [foundIds]);
   const total = answers.length;
@@ -177,6 +224,14 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const pausedTotalRef = useRef(0);
   const finishedRef = useRef(false);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  // Type-in continuation state. carry holds the alias that just fired so a
+  // longer answer can grow out of it ("guinea" -> "guineabissau"); held is a
+  // deferred short match ("uk") waiting to see if it becomes a longer one
+  // ("ukraine") before it fires.
+  const carryRef = useRef("");
+  const heldRef = useRef<{ id: string; alias: string } | null>(null);
+  const heldTimerRef = useRef<number | null>(null);
 
   const challenge: ChallengePayload | null = useMemo(
     () => decodeChallenge(searchParams.get("c")),
@@ -194,9 +249,20 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     : quiz?.modifiers?.lives ?? 0;
 
   const finishRun = useCallback(
-    (outcome: TriviaOutcome, finalFound: readonly string[]) => {
+    (outcome: TriviaOutcome, found: readonly string[]) => {
       if (!quiz || finishedRef.current) return;
       finishedRef.current = true;
+      // A deferred short match (uk waiting on ukraine) was still typed - it
+      // counts when the clock beats the hold timer.
+      const held = heldRef.current;
+      heldRef.current = null;
+      if (heldTimerRef.current !== null) {
+        window.clearTimeout(heldTimerRef.current);
+        heldTimerRef.current = null;
+      }
+      const finalFound =
+        held !== null && !found.includes(held.id) ? [...found, held.id] : found;
+      if (finalFound !== found) setFoundIds(finalFound);
       const score = finalFound.length;
       const completedAll = score === total;
       const timeUsedMs = Math.max(
@@ -256,47 +322,122 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const start = useCallback(() => {
     if (!quiz) return;
     finishedRef.current = false;
+    const subsetSize = quiz.modifiers?.randomSubset;
+    const runAnswers =
+      subsetSize !== undefined ? sampleSubset(fullAnswers, subsetSize) : fullAnswers;
+    setAnswers(runAnswers);
     setFoundIds([]);
+    foundIdsRef.current = [];
     setInputValue("");
     setAlready(null);
     setResult(null);
     setCopied(false);
     setLivesLeft(totalLives);
-    setTargetQueue(shuffle(answers.map((a) => a.id)));
+    setTargetQueue(shuffle(runAnswers.map((a) => a.id)));
     setWrongFlashId(null);
+    carryRef.current = "";
+    heldRef.current = null;
+    if (heldTimerRef.current !== null) {
+      window.clearTimeout(heldTimerRef.current);
+      heldTimerRef.current = null;
+    }
     startedAtRef.current = Date.now();
     pausedTotalRef.current = 0;
     pausedAtRef.current = null;
     endAtRef.current = Date.now() + quiz.timerSeconds * 1000;
     setTimeLeftMs(quiz.timerSeconds * 1000);
     setPhase("playing");
-  }, [quiz, answers, totalLives]);
+  }, [quiz, fullAnswers, totalLives]);
 
   // Focus the input once the play screen exists.
   useEffect(() => {
     if (phase === "playing" && quiz?.mode === "typein") inputRef.current?.focus();
   }, [phase, quiz]);
 
+  // Registers a found answer. Reads and writes foundIdsRef directly so the
+  // deferred-match timer (which fires between renders) can never act on a
+  // stale list.
+  const registerHit = useCallback(
+    (id: string) => {
+      if (foundIdsRef.current.includes(id)) return;
+      const nextFound = [...foundIdsRef.current, id];
+      foundIdsRef.current = nextFound;
+      setFoundIds(nextFound);
+      if (nextFound.length === answers.length) finishRun("complete", nextFound);
+    },
+    [answers.length, finishRun]
+  );
+
   const handleInput = useCallback(
     (raw: string) => {
       setInputValue(raw);
       setAlready(null);
-      // Matching runs on the pruned buffer, so residue from an answer that
-      // already fired ("city" after "quebec") never blocks the next one.
-      const buffer = pruneBuffer(prefixes, normalizeAnswer(raw));
-      const match = matchBuffer(matchIndex, buffer, foundSet);
+      // Matching runs on carry + the pruned buffer: carry lets a longer
+      // answer grow out of one that just fired ("guinea" -> "guineabissau"),
+      // and pruning drops residue from an answer that already fired ("city"
+      // after "quebec") so it never blocks the next one.
+      const buffer = pruneBuffer(prefixes, carryRef.current + normalizeAnswer(raw));
+
+      // A held short match (uk waiting on ukraine): if the buffer has moved
+      // off it, the player went elsewhere - the short answer fires now.
+      const held = heldRef.current;
+      if (held !== null && !buffer.startsWith(held.alias)) {
+        heldRef.current = null;
+        if (heldTimerRef.current !== null) {
+          window.clearTimeout(heldTimerRef.current);
+          heldTimerRef.current = null;
+        }
+        carryRef.current = "";
+        registerHit(held.id);
+      }
+
+      const match = matchBuffer(matchIndex, buffer, new Set(foundIdsRef.current));
       if (match.kind === "hit") {
-        const nextFound = [...foundIds, match.id];
-        setFoundIds(nextFound);
+        if (deferredAliases.has(buffer)) {
+          // This exact buffer is also the start of a DIFFERENT answer
+          // ("uk"/"ukraine"). Hold it briefly: keep typing toward the longer
+          // one and only that fires; pause or move on and this one fires.
+          heldRef.current = { id: match.id, alias: buffer };
+          if (heldTimerRef.current !== null) window.clearTimeout(heldTimerRef.current);
+          heldTimerRef.current = window.setTimeout(() => {
+            const pending = heldRef.current;
+            heldRef.current = null;
+            heldTimerRef.current = null;
+            if (pending !== null) {
+              carryRef.current = pending.alias;
+              setInputValue("");
+              registerHit(pending.id);
+            }
+          }, 900);
+          return;
+        }
+        // The buffer consumed any held prefix (typing "ukraine" absorbs the
+        // held "uk"): the longer answer wins alone.
+        if (heldRef.current !== null) {
+          heldRef.current = null;
+          if (heldTimerRef.current !== null) {
+            window.clearTimeout(heldTimerRef.current);
+            heldTimerRef.current = null;
+          }
+        }
+        carryRef.current = buffer;
         setInputValue("");
-        if (nextFound.length === answers.length) finishRun("complete", nextFound);
+        registerHit(match.id);
       } else if (match.kind === "already") {
+        carryRef.current = buffer;
         setAlready(byId.get(match.id)?.display ?? null);
         setInputValue("");
       }
     },
-    [prefixes, matchIndex, foundSet, foundIds, answers.length, byId, finishRun]
+    [prefixes, matchIndex, deferredAliases, byId, registerHit]
   );
+
+  // Never leave a deferred-match timer running after unmount.
+  useEffect(() => {
+    return () => {
+      if (heldTimerRef.current !== null) window.clearTimeout(heldTimerRef.current);
+    };
+  }, []);
 
   const currentTargetId = targetQueue.find((id) => !foundSet.has(id)) ?? null;
 
@@ -343,6 +484,10 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const lowTime = phase === "playing" && secondsLeft <= 30;
   const missing = answers.filter((a) => !foundSet.has(a.id));
   const revealMissing = phase === "done";
+  // Subset runs (random draw, letter pages) highlight their targets on the
+  // map; everything else stays idle and is left out of the coral reveal.
+  const isSubsetRun =
+    quiz.modifiers?.randomSubset !== undefined || quiz.filterLetter !== undefined;
   const mapProps = {
     found: foundSet,
     revealMissing,
@@ -350,15 +495,23 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     wrongFlashId,
     interactive: !isTypein && phase === "playing",
     onRegionClick: handleRegionClick,
+    activeIds: isSubsetRun ? new Set(answers.map((a) => a.id)) : null,
   };
-  const mapEl =
-    quiz.dataset === "us-states" ? <USMap {...mapProps} /> : <CanadaMap {...mapProps} />;
+  const mapEl = !quiz.showMap ? null : quiz.dataset === "us-states" ? (
+    <USMap {...mapProps} />
+  ) : quiz.dataset === "canada" ? (
+    <CanadaMap {...mapProps} />
+  ) : null;
 
   const monoSmall: React.CSSProperties = {
     fontFamily: "var(--font-mono)",
     fontSize: "0.78rem",
     color: "var(--ink-mute)",
   };
+
+  // What the ready screen promises: the sampled size for random-subset
+  // quizzes, the full set otherwise.
+  const runSize = getRunSize(quiz);
 
   // ----- ready screen -----
   if (phase === "ready") {
@@ -376,7 +529,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
 
         <div className="test-meta-grid" style={{ marginBottom: 18 }}>
           <div className="test-meta-cell">
-            <div className="test-meta-value">{total}</div>
+            <div className="test-meta-value">{runSize}</div>
             <div className="test-meta-label">Answers</div>
           </div>
           <div className="test-meta-cell">
@@ -399,8 +552,14 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         <p style={{ fontSize: "0.95rem", lineHeight: 1.6, color: "var(--ink-soft)", marginBottom: 8 }}>
           {isTypein
             ? "Type your answers - they register the moment the spelling matches, no Enter key needed. Spelling counts, capitals and spaces don't."
-            : `We name a ${quiz.dataset === "us-states" ? "state" : "province or territory"}, you click it on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends.`}
+            : quiz.target === "capital"
+              ? `We name a capital city, you click its ${quiz.dataset === "us-states" ? "state" : "province or territory"} on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends.`
+              : `We name a ${quiz.dataset === "us-states" ? "state" : "province or territory"}, you click it on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends.`}
         </p>
+
+        {quiz.caveat !== undefined && (
+          <p style={{ ...monoSmall, margin: "8px 0 0", lineHeight: 1.55 }}>{quiz.caveat}</p>
+        )}
 
         {challenge && (
           <p
@@ -415,7 +574,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
           >
             A friend sent you this challenge: they scored{" "}
             <strong>
-              {challenge.score}/{total}
+              {challenge.score}/{runSize}
             </strong>{" "}
             in {formatTimeMs(challenge.timeMs)}. Beat that.
           </p>
@@ -423,7 +582,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
 
         {best && best.bestScore > 0 && (
           <p style={{ ...monoSmall, margin: "12px 0 0" }}>
-            Your best: {best.bestScore}/{total}
+            Your best: {best.bestScore}/{runSize}
             {best.bestTimeMs !== undefined
               ? ` · fastest full run ${formatTimeMs(best.bestTimeMs)}`
               : ""}
@@ -539,16 +698,104 @@ function TriviaPlayInner({ slug }: { slug: string }) {
             fontWeight: 600,
           }}
         >
-          Find:{" "}
+          {quiz.target === "capital" ? "Whose capital is" : "Find"}:{" "}
           <span className="font-display" style={{ fontSize: "1.3rem" }}>
-            {regionNames[currentTargetId]}
+            {promptNames[currentTargetId]}
           </span>
         </p>
       )}
 
-      <div style={{ border: "1px solid var(--line)", borderRadius: 12, padding: 10, marginBottom: 14 }}>
-        {mapEl}
-      </div>
+      {mapEl !== null && (
+        <div style={{ border: "1px solid var(--line)", borderRadius: 12, padding: 10, marginBottom: 14 }}>
+          {mapEl}
+        </div>
+      )}
+
+      {/* Continent columns stand in for the map on the world quizzes. */}
+      {groupLabels.length > 0 && (
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 130px), 1fr))",
+            gap: 8,
+            marginBottom: 14,
+          }}
+        >
+          {groupLabels.map((label) => {
+            const inGroup = answers.filter((a) => a.group === label);
+            const foundInGroup = inGroup.filter((a) => foundSet.has(a.id)).length;
+            const done = foundInGroup === inGroup.length;
+            return (
+              <div
+                key={label}
+                style={{
+                  border: `1px solid ${done ? TEAL : "var(--line)"}`,
+                  borderRadius: 10,
+                  padding: "0.55rem 0.7rem",
+                  textAlign: "center",
+                }}
+              >
+                <div
+                  style={{
+                    fontFamily: "var(--font-mono)",
+                    fontWeight: 700,
+                    fontSize: "1.05rem",
+                    fontVariantNumeric: "tabular-nums",
+                  }}
+                  aria-live="polite"
+                >
+                  {foundInGroup}/{inGroup.length}
+                </div>
+                <div style={{ ...monoSmall, fontSize: "0.68rem" }}>{label}</div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Symbol hints for the periodic quiz, off until asked for. */}
+      {hasHints && phase === "playing" && (
+        <div style={{ marginBottom: 14 }}>
+          <button
+            type="button"
+            onClick={() => setShowHints((v) => !v)}
+            style={{
+              padding: "0.4rem 0.8rem",
+              borderRadius: 8,
+              border: "1px solid var(--line)",
+              background: "transparent",
+              color: "var(--ink-mute)",
+              fontFamily: "var(--font-mono)",
+              fontSize: "0.75rem",
+              fontWeight: 600,
+              cursor: "pointer",
+            }}
+            aria-pressed={showHints}
+          >
+            {showHints ? "Hide symbols" : "Show symbols"}
+          </button>
+          {showHints && (
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 10 }}>
+              {answers.map((a) => (
+                <span
+                  key={a.id}
+                  style={{
+                    padding: "0.25rem 0.6rem",
+                    borderRadius: 999,
+                    border: `1px solid ${foundSet.has(a.id) ? TEAL : "var(--line)"}`,
+                    color: foundSet.has(a.id) ? "var(--ink)" : "var(--ink-mute)",
+                    fontFamily: "var(--font-mono)",
+                    fontSize: "0.8rem",
+                    fontWeight: 700,
+                  }}
+                >
+                  {a.hint}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
       {phase === "playing" && (
         <div style={{ display: "flex", justifyContent: "space-between", gap: 12, flexWrap: "wrap", marginBottom: 16 }}>
@@ -727,22 +974,41 @@ function ResultsPanel({
           <h2 className="font-display" style={{ fontSize: "1.05rem", margin: "0 0 8px" }}>
             The ones that got away
           </h2>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-            {missing.map((a) => (
-              <span
-                key={a.id}
-                style={{
-                  padding: "0.25rem 0.6rem",
-                  borderRadius: 999,
-                  border: `1px solid ${CORAL}`,
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                {a.display}
-              </span>
-            ))}
-          </div>
+          {groupAnswers(missing).map(({ label, items }) => (
+            <div key={label || "all"} style={{ marginBottom: label ? 10 : 0 }}>
+              {label && (
+                <p
+                  style={{
+                    margin: "0 0 6px",
+                    fontFamily: "var(--font-mono)",
+                    fontSize: "0.72rem",
+                    fontWeight: 700,
+                    letterSpacing: "0.05em",
+                    textTransform: "uppercase",
+                    color: "var(--ink-mute)",
+                  }}
+                >
+                  {label}
+                </p>
+              )}
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                {items.map((a) => (
+                  <span
+                    key={a.id}
+                    style={{
+                      padding: "0.25rem 0.6rem",
+                      borderRadius: 999,
+                      border: `1px solid ${CORAL}`,
+                      fontSize: "0.8rem",
+                      fontWeight: 600,
+                    }}
+                  >
+                    {a.display}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       )}
 

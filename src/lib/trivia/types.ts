@@ -17,9 +17,19 @@ export interface TriviaAnswer {
    * misspellings where they are unambiguous within the dataset.
    */
   aliases: readonly string[];
+  /**
+   * Grouping label for datasets with no map (continent for countries). The
+   * play screen shows a found-count column per group while you type.
+   */
+  group?: string;
+  /**
+   * Optional per-answer hint (the element symbol for the periodic quiz).
+   * When any answer in a run has one, the play screen offers a hint toggle.
+   */
+  hint?: string;
 }
 
-export type TriviaDatasetId = "us-states" | "canada";
+export type TriviaDatasetId = "us-states" | "canada" | "countries" | "planets" | "elements";
 
 /** What the player is asked to produce. */
 export type TriviaMode =
@@ -49,7 +59,24 @@ export interface TriviaQuiz {
     suddenDeath?: boolean;
     /** Wrong clicks allowed before the run ends (choice mode). */
     lives?: number;
+    /**
+     * Each run plays against this many answers, sampled fresh from the
+     * dataset. With a map, the sampled regions are highlighted as targets.
+     */
+    randomSubset?: number;
   };
+  /**
+   * Restrict the dataset to answers whose display name starts with this
+   * letter (uppercase). Drives the states/countries-that-start-with pages.
+   */
+  filterLetter?: string;
+  /** Restrict the countries dataset to one continent ("Europe"). */
+  filterContinent?: string;
+  /**
+   * Small print under the rules on the ready screen - inclusion rules,
+   * "Pluto does not count", that sort of thing.
+   */
+  caveat?: string;
   /** Show the fillable map while playing. */
   showMap: boolean;
   /** Rest of the ladder, linked from the results screen. */

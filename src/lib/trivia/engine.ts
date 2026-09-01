@@ -63,6 +63,34 @@ export function pruneBuffer(prefixes: ReadonlySet<string>, buffer: string): stri
   return b;
 }
 
+/**
+ * Aliases that must not fire the moment they match, because the same buffer
+ * could still grow into a DIFFERENT answer's alias: "uk" is a strict prefix
+ * of "ukraine", "niger" of "nigeria", "guinea" of "guineabissau". The client
+ * holds these briefly - if the player keeps typing toward the longer answer,
+ * only the longer one fires; if they stop or move on, the short one fires.
+ * Same-id prefixes ("vatican" -> "vaticancity") stay instant.
+ */
+export function buildDeferredAliasSet(answers: readonly TriviaAnswer[]): Set<string> {
+  const owner = new Map<string, string>();
+  for (const answer of answers) {
+    for (const alias of answer.aliases) {
+      if (!owner.has(alias)) owner.set(alias, answer.id);
+    }
+  }
+  const deferred = new Set<string>();
+  for (const answer of answers) {
+    for (const alias of answer.aliases) {
+      for (let i = 1; i < alias.length; i++) {
+        const prefix = alias.slice(0, i);
+        const prefixOwner = owner.get(prefix);
+        if (prefixOwner !== undefined && prefixOwner !== answer.id) deferred.add(prefix);
+      }
+    }
+  }
+  return deferred;
+}
+
 export type MatchResult =
   | { kind: "hit"; id: string }
   | { kind: "already"; id: string }
@@ -213,6 +241,34 @@ export function decodeChallenge(raw: string | null): ChallengePayload | null {
   const timeMs = Number.parseInt(m[2], 10);
   if (!Number.isFinite(score) || !Number.isFinite(timeMs)) return null;
   return { score, timeMs };
+}
+
+/**
+ * Uniform random sample of n items (Fisher-Yates on a copy). Drives the
+ * random-subset quizzes; each run draws fresh, which is the replay hook.
+ */
+export function sampleSubset<T>(items: readonly T[], n: number): T[] {
+  const arr = [...items];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr.slice(0, Math.min(Math.max(0, n), arr.length));
+}
+
+/**
+ * ISO-8601 week key (isoYear * 100 + weekNumber, e.g. 202636). Increments by
+ * one each Monday, which makes it the natural clock for the weekly featured
+ * quiz: pool[key % pool.length] rotates through everything before repeating.
+ */
+export function isoWeekKey(date: Date): number {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  const isoYear = d.getUTCFullYear();
+  const yearStart = new Date(Date.UTC(isoYear, 0, 1));
+  const week = Math.ceil(((d.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
+  return isoYear * 100 + week;
 }
 
 /** 4:00-style clock text, used by the timer and the results screen. */
