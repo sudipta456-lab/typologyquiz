@@ -7,7 +7,8 @@ import { utcDateKey } from "@/lib/minis/seed";
 import { loadMinisDay, markActiveDay, saveMiniResult } from "@/lib/minis/store";
 import type { MiniId, MiniResult, MinisDayState } from "@/lib/minis/store";
 import { MINI_NAMES, perfectDayLine, shareLine } from "@/lib/minis/share";
-import { recordDailyActivity } from "@/lib/progress-game";
+import { addGems, GEM_REWARDS, recordDailyActivity } from "@/lib/progress-game";
+import { GemPill } from "@/components/GemPill";
 import AnagramMini from "./AnagramMini";
 import QuickPickMini from "./QuickPickMini";
 import ThisOrThatMini from "./ThisOrThatMini";
@@ -60,11 +61,19 @@ export default function DailyMinis({ onActivity }: { onActivity?: () => void }) 
 
   function handleComplete(id: MiniId, result: MiniResult) {
     if (!dateKey) return;
+    // Gem credit keys off the PERSISTED per-day state, read before this
+    // result is saved: a mini already marked done for today's dateKey earns
+    // nothing again, however this callback got fired (re-open, remount,
+    // second tab). One gem per mini per UTC day.
+    const alreadyDone = loadMinisDay(dateKey).results[id]?.done === true;
     const nextDay = saveMiniResult(dateKey, id, result);
     setDayOverride(nextDay);
     setOpen(null);
     recordDailyActivity();
     markActiveDay(localTodayKey());
+    if (!alreadyDone && result.done) {
+      addGems(GEM_REWARDS.daily_mini, "daily_mini");
+    }
     onActivity?.();
   }
 
@@ -140,6 +149,10 @@ export default function DailyMinis({ onActivity }: { onActivity?: () => void }) 
 
             {result?.done && (
               <div style={{ marginTop: 10, display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+                <GemPill
+                  text={`+${GEM_REWARDS.daily_mini} gem${GEM_REWARDS.daily_mini === 1 ? "" : "s"}`}
+                  title="Earned for finishing this mini today"
+                />
                 <span style={{ fontFamily: "var(--font-mono)", fontSize: "0.85rem", color: "var(--ink-soft)" }}>
                   {result.track ? `[${result.track}]` : ""}
                   {typeof result.misses === "number" && result.misses > 0
@@ -167,6 +180,10 @@ export default function DailyMinis({ onActivity }: { onActivity?: () => void }) 
           }}
         >
           <p style={{ margin: 0, fontWeight: 700 }}>Perfect day. All three minis, done and dusted.</p>
+          <GemPill
+            text={`${3 * GEM_REWARDS.daily_mini} gems from today's minis`}
+            title="One gem per mini, all three collected"
+          />
           <ShareLineButton text={perfectDayLine(day)} label="Copy perfect-day text" />
         </div>
       )}

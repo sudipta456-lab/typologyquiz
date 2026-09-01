@@ -54,6 +54,9 @@ import type {
 import { USMap } from "./USMap";
 import { CanadaMap } from "./CanadaMap";
 import { useSiteOrigin } from "@/lib/use-site-origin";
+import { addGems, GEM_REWARDS, getGems } from "@/lib/progress-game";
+import { COMPANIONS } from "@/lib/companions";
+import { GemPill } from "@/components/GemPill";
 
 type Phase = "ready" | "playing" | "done";
 
@@ -221,6 +224,8 @@ interface RunResult {
   ghostTimesMs?: readonly number[];
   /** The ghost this run raced, if one rode along. */
   raced: ActiveGhost | null;
+  /** Gem credit for this run; null when the run earned nothing. */
+  gems: { earned: number; total: number; unlockedName: string | null } | null;
 }
 
 function TriviaPlayInner({ slug }: { slug: string }) {
@@ -372,6 +377,24 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         if (recordGhostRun(quiz.slug, recording)) window.dispatchEvent(new Event(GHOST_EVENT));
         ghostTimesMs = events.map((e) => e.t);
       }
+      // Gems: a finished board or an expired clock always earns; giving up or
+      // running out of lives earns only with at least one answer on the board.
+      // finishedRef (checked at the top) makes this block run once per run no
+      // matter which finish path fired; Play again resets it, so replays
+      // credit again by design.
+      let gems: RunResult["gems"] = null;
+      if (completedAll || outcome === "time" || score >= 1) {
+        const beforeGems = getGems();
+        const afterGems = addGems(GEM_REWARDS.trivia_run, "trivia_run").gems;
+        const crossed = COMPANIONS.filter(
+          (c) => beforeGems < c.threshold && afterGems >= c.threshold
+        );
+        gems = {
+          earned: GEM_REWARDS.trivia_run,
+          total: afterGems,
+          unlockedName: crossed.length > 0 ? crossed[crossed.length - 1].name : null,
+        };
+      }
       setResult({
         outcome,
         score,
@@ -381,6 +404,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         newBestTime: rec.newBestTime,
         ghostTimesMs,
         raced: activeRace,
+        gems,
       });
       setPhase("done");
     },
@@ -1200,6 +1224,33 @@ function ResultsPanel({
           {result.newBestScore && " New personal best score."}
           {result.newBestTime && " New fastest full run."}
         </p>
+        {result.gems !== null && (
+          <div
+            style={{
+              marginTop: 10,
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              flexWrap: "wrap",
+            }}
+          >
+            <GemPill
+              text={`+${result.gems.earned} gem${result.gems.earned === 1 ? "" : "s"}`}
+              title="Earned for finishing this run"
+            />
+            <GemPill
+              text={`${result.gems.total} gem${result.gems.total === 1 ? "" : "s"}`}
+              tone="plain"
+              title="Your gem total. Gems unlock companions on your account page."
+            />
+          </div>
+        )}
+        {result.gems?.unlockedName != null && (
+          <p style={{ margin: "8px 0 0", fontSize: "0.95rem", fontWeight: 600 }}>
+            New companion unlocked: {result.gems.unlockedName}. Visit your account to meet
+            them.
+          </p>
+        )}
         {!result.newBestScore && result.best.bestScore > 0 && (
           <p style={{ margin: "4px 0 0", fontFamily: "var(--font-mono)", fontSize: "0.78rem", color: "var(--ink-mute)" }}>
             Your best: {result.best.bestScore}/{total}
