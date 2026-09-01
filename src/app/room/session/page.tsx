@@ -19,6 +19,7 @@ import { decodeResult } from "@/lib/results";
 import { getTest } from "@/lib/tests/registry";
 import { SITE } from "@/lib/site";
 import { useSiteOrigin } from "@/lib/use-site-origin";
+import { GroupPosterBlock } from "./GroupPosterBlock";
 
 function RoomSessionInner() {
   const searchParams = useSearchParams();
@@ -241,6 +242,8 @@ function RoomSessionInner() {
           </ul>
         )}
       </div>
+
+      {room.members.length >= 2 && <GroupPosterBlock room={room} />}
 
       <p className="room-fineprint">
         Rooms are peer-shared (the link carries the data). Nothing is stored on a server.{" "}
