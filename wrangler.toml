@@ -1,7 +1,11 @@
-# Cloudflare Workers static hosting for Next.js `output: "export"`
+# Cloudflare Workers hosting for Next.js `output: "export"`
 # Build: npm run build  →  deploys the `out/` folder
+#
+# `main` handles /api/stats/* (live play counts) and hands every other request
+# to the static assets, so the site is unchanged if the worker is removed.
 
 name = "typologyquiz"
+main = "worker/index.js"
 compatibility_date = "2025-07-01"
 
 # Custom domains (zone must already be in this Cloudflare account)
@@ -16,6 +20,12 @@ custom_domain = true
 
 [assets]
 directory = "./out"
+binding = "ASSETS"
 # Match Next.js trailingSlash: true
 not_found_handling = "404-page"
 html_handling = "force-trailing-slash"
+
+# Per-quiz score histograms for "you beat X% of players".
+[[kv_namespaces]]
+binding = "TRIVIA_STATS"
+id = "74c83b9ecf6748ba8a87c7b322016125"

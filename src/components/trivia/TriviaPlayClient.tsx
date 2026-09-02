@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { reportRun, type LiveStats } from "@/lib/trivia/stats";
 import { useSearchParams } from "next/navigation";
 import {
   Suspense,
@@ -1125,6 +1126,23 @@ function ResultsPanel({
   onReplay: () => void;
 }) {
   const beats = estimateBeatsPercent(quiz, result.score, total);
+
+  // Real standing among other players, when the edge worker answers and the
+  // sample is big enough to mean something. Reported once per finished run;
+  // any failure leaves `live` null and the estimate above stands.
+  const [live, setLive] = useState<LiveStats | null>(null);
+  const reportedFor = useRef<RunResult | null>(null);
+  useEffect(() => {
+    if (reportedFor.current === result) return;
+    reportedFor.current = result;
+    let alive = true;
+    void reportRun(quiz.slug, result.score, total).then((stats) => {
+      if (alive && stats) setLive(stats);
+    });
+    return () => {
+      alive = false;
+    };
+  }, [quiz.slug, result, total]);
   // The link carries this run's own recording when it fits the budget;
   // encodeChallenge quietly drops the ghost past the cap, so the link itself
   // is never at risk.
@@ -1220,7 +1238,9 @@ function ResultsPanel({
           </span>
         </p>
         <p style={{ margin: "6px 0 0", fontSize: "0.92rem", color: "var(--ink-soft)" }}>
-          Beats about {beats}% of players (estimated).
+          {live && live.real
+            ? `Beats ${live.percentile}% of players (${live.n} runs recorded).`
+            : `Beats about ${beats}% of players (estimated).`}
           {result.newBestScore && " New personal best score."}
           {result.newBestTime && " New fastest full run."}
         </p>
