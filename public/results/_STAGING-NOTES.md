@@ -274,7 +274,7 @@ so the mat detector trims 0% on every one.
 | bg/kdrama-bestfriend.webp | photographic | painted, 78.8KB |
 | bg/kdrama-balanced.webp | photographic | painted, 101.7KB |
 
-Known, accepted: delulu-3 through delulu-5 still show the earlier character, so
-the five-band set is not one continuous person. Each player sees exactly one
-band, so the break is invisible in normal use; worth closing only if the set is
-ever shown together.
+Closed 2026-09-02: delulu-3 through delulu-5 were rebuilt from the new realist
+frame, so all five bands now share one character and the set reads as a single
+person's arc from grounded realist to full main character. All five are
+full-bleed 1280x720 and trim 0%.
