@@ -1135,13 +1135,14 @@ function ResultsPanel({
   useEffect(() => {
     if (reportedFor.current === result) return;
     reportedFor.current = result;
-    let alive = true;
+    // No in-flight cancellation on purpose. Effects are invoked twice in
+    // development (and may re-run for unrelated reasons), and an `alive` flag
+    // torn down by that first cleanup would discard the only response this
+    // run-once guard will ever request. Setting state after unmount is a
+    // no-op in React 18+, so letting it land is both simpler and correct.
     void reportRun(quiz.slug, result.score, total).then((stats) => {
-      if (alive && stats) setLive(stats);
+      if (stats) setLive(stats);
     });
-    return () => {
-      alive = false;
-    };
   }, [quiz.slug, result, total]);
   // The link carries this run's own recording when it fits the budget;
   // encodeChallenge quietly drops the ghost past the cap, so the link itself
