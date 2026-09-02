@@ -116,9 +116,30 @@ async function handleStats(request, env, slug) {
   return json({ n: hist.n, percentile, real, stored: true });
 }
 
+// Google Search Console verification.
+//
+// Do NOT also place this file in public/. Measured behaviour on this project:
+// with the file present as an asset, the assets layer matches it first and,
+// because html_handling is "force-trailing-slash", answers the literal
+// "/<name>.html" path with a 307 to "/<name>/" - and the literal path is
+// exactly what Google fetches. With no such asset the request falls through to
+// this worker, which answers 200 with the expected body. Serving it here is
+// what makes the check pass; adding the file back would break it again.
+const GSC_VERIFICATION = "google30e3016b50e46ac0";
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+
+    if (url.pathname === `/${GSC_VERIFICATION}.html`) {
+      return new Response(`google-site-verification: ${GSC_VERIFICATION}.html`, {
+        headers: {
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "public, max-age=3600",
+        },
+      });
+    }
+
     const m = url.pathname.match(/^\/api\/stats\/([^/]+)\/?$/);
     if (m) return handleStats(request, env, m[1]);
     return env.ASSETS.fetch(request);
