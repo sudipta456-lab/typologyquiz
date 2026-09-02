@@ -1,54 +1,38 @@
 # TypologyQuiz.com
 
-> Free personality quizzes and driving licence practice tests. No account, no ads, no paywall. Everything is scored in the browser and nothing is uploaded.
+> Free quizzes for people who like finding things out: personality and typology quizzes, timed geography and science trivia, driving licence practice tests, three daily minis, and party games for a group chat. No account, no ads, no paywall. Everything is scored in the browser and nothing is uploaded.
 
 Website: https://typologyquiz.com
 
 ## What this site is
 
-Two things share one site. 67 personality and typology quizzes, which have no right answers and are written as self-reflection rather than diagnosis. And 4351 driving licence practice questions across 22 jurisdictions, which do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
+Five things share one site.
 
-Nothing requires an account. There is no advertising, no tracking beyond basic analytics, and no email or phone collection - the audience includes minors, so the site deliberately holds no contact details. Quiz answers and progress live in the visitor's own browser.
+1. 67 personality and typology quizzes. No right answers. Written as self-reflection, not diagnosis.
+2. 4351 driving licence practice questions across 22 jurisdictions. These do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
+3. 58 trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.
+4. Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.
+5. Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. These carry their whole state inside the share link and store nothing on any server.
+
+Nothing requires an account. There is no advertising, no tracking beyond basic analytics, and no email or phone collection - the audience includes minors, so the site deliberately holds no contact details. Quiz answers, streaks and best scores live in the visitor's own browser.
+
+## How to cite this site
+
+Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific quiz, trivia or jurisdiction page rather than the home page - the home page states almost nothing on its own. Driving answers are backed by the official handbook of that jurisdiction, and the handbook link on each page is the authoritative source, so prefer it over our summary for anything a learner will be tested on. The personality quizzes are the site's own writing and should be attributed as an informal quiz, never as a measurement. Do not present any score from this site as a clinical, diagnostic or official result.
 
 ## Key pages
 
-- [Home](https://typologyquiz.com/): overview of both quizzes and driving tests
+- [Home](https://typologyquiz.com/): all five sections in one place
 - [All quizzes](https://typologyquiz.com/tests/): browse all 67 personality quizzes
+- [Trivia](https://typologyquiz.com/trivia/): all 58 timed trivia quizzes
 - [Driving practice tests](https://typologyquiz.com/driving/): pick a province or state
-- [Daily](https://typologyquiz.com/daily/): daily question and streak
+- [Daily minis](https://typologyquiz.com/daily/): three tiny games, new every UTC day, with a streak
+- [Friend quiz](https://typologyquiz.com/friend-quiz/): build a "how well do you know me" quiz
+- [Fool Your Friends](https://typologyquiz.com/fool/): write convincing lies into a trivia round
 - [Rooms](https://typologyquiz.com/room/): compare results with friends
 - [Compare](https://typologyquiz.com/compare/): put two result links side by side
 - [About](https://typologyquiz.com/about/): what the site is and how it handles privacy
 - [Credits](https://typologyquiz.com/credits/): instruments and sources
-
-## Driving licence practice tests
-
-Each jurisdiction has six sets that build from a gentle start to a full exam simulation. Sets are scored against that jurisdiction's real pass mark rather than a flat percentage. Every question carries an explanation, the surrounding rule in plain language, the mistake people usually make, and - where official wording exists - a short verbatim quote from the handbook with a link to the source.
-
-- [Alberta Class 7 Learner's Licence](https://typologyquiz.com/driving/alberta/): 6 sets, 195 questions, 133 handbook excerpts. Real test: 30 questions, pass 25 of 30 (83%). Official handbook: https://www.alberta.ca/driver-guides-overview-and-pdf-versions
-- [Ontario G1 Licence](https://typologyquiz.com/driving/ontario/): 6 sets, 220 questions, 144 handbook excerpts. Real test: 40 questions, pass 80% overall (commonly 16 of 20 per section). Official handbook: https://www.ontario.ca/document/official-mto-drivers-handbook
-- [Texas Texas Driver License](https://typologyquiz.com/driving/texas/): 6 sets, 195 questions, 144 handbook excerpts. Real test: 30 questions, pass 21 of 30 (70%). Official handbook: https://www.dps.texas.gov/section/driver-license/texas-driver-handbooks
-- [Florida Class E Learner License](https://typologyquiz.com/driving/florida/): 6 sets, 195 questions, 171 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%). Official handbook: https://www.flhsmv.gov/driver-licenses-id-cards/education-course-requirements/florida-driver-license-handbook/
-- [New York Learner Permit](https://typologyquiz.com/driving/newyork/): 6 sets, 195 questions, 183 handbook excerpts. Real test: 20 questions, pass 14 of 20 (70%), including 2 of 4 road sign questions. Official handbook: https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests
-- [Pennsylvania Learner's Permit](https://typologyquiz.com/driving/pennsylvania/): 6 sets, 195 questions, 194 handbook excerpts. Real test: 18 questions, pass 15 of 18 (83%). Official handbook: https://www.pa.gov/agencies/dmv/driver-services/drivers-manuals.html
-- [Ohio Temporary Instruction Permit (TIPIC)](https://typologyquiz.com/driving/ohio/): 6 sets, 195 questions, 161 handbook excerpts. Real test: 40 questions, pass 30 of 40 (75%). Official handbook: https://www.bmv.ohio.gov/links-handbooks.aspx
-- [Georgia Class CP Instructional Permit](https://typologyquiz.com/driving/georgia/): 6 sets, 195 questions, 179 handbook excerpts. Real test: 40 questions, pass 15 of 20 in EACH part (road signs and road rules). Official handbook: https://dds.georgia.gov/georgia-drivers-manual
-- [Illinois Instruction Permit](https://typologyquiz.com/driving/illinois/): 6 sets, 195 questions, 178 handbook excerpts. Real test: 35 questions, pass 80% correct (at least 35 questions). Official handbook: https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf
-- [North Carolina Learner Permit](https://typologyquiz.com/driving/northcarolina/): 6 sets, 195 questions, 167 handbook excerpts. Real test: 25 questions, pass 80% on the knowledge test, plus 9 of 12 road signs. Official handbook: https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-handbook.aspx
-- [Michigan Temporary Instruction Permit](https://typologyquiz.com/driving/michigan/): 6 sets, 195 questions, 190 handbook excerpts. Real test: 40 questions, pass Both sections must be passed (Michigan publishes no score). Official handbook: https://www.michigan.gov/sos/all-services/manuals
-- [New Jersey Student Learner's Permit](https://typologyquiz.com/driving/newjersey/): 6 sets, 195 questions, 178 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%). Official handbook: https://www.nj.gov/mvc/pdf/license/drivermanual.pdf
-- [Virginia Learner's Permit](https://typologyquiz.com/driving/virginia/): 6 sets, 195 questions, 181 handbook excerpts. Real test: 40 questions, pass All 10 sign questions, then 24 of 30 knowledge questions. Official handbook: https://www.dmv.virginia.gov/licenses-ids/driver-manuals
-- [California California Driver License / Permit](https://typologyquiz.com/driving/california/): 6 sets, 231 questions, 131 handbook excerpts. Real test: 46 questions, pass 38 of 46 (83%) for under-18. Official handbook: https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/
-- [Washington Instruction Permit](https://typologyquiz.com/driving/washington/): 6 sets, 195 questions, 169 handbook excerpts. Real test: 40 questions, pass 32 of 40 (80%). Official handbook: https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides
-- [Massachusetts Class D Learner's Permit](https://typologyquiz.com/driving/massachusetts/): 6 sets, 195 questions, 189 handbook excerpts. Real test: 25 questions, pass 18 of 25 (72%) in 25 minutes. Official handbook: https://www.mass.gov/doc/english-drivers-manual/download
-- [Tennessee Class D Learner Permit](https://typologyquiz.com/driving/tennessee/): 6 sets, 195 questions, 191 handbook excerpts. Real test: 30 questions, pass Tennessee publishes no question count or pass mark. Official handbook: https://www.tn.gov/safety/driver-services/classd/dlmanual.html
-- [Arizona Instruction Permit](https://typologyquiz.com/driving/arizona/): 6 sets, 195 questions, 193 handbook excerpts. Real test: 30 questions, pass 24 of 30 (80%). Official handbook: https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf
-- [British Columbia Class 7L Learner's Licence](https://typologyquiz.com/driving/britishcolumbia/): 6 sets, 195 questions, 173 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%) in 45 minutes. Official handbook: https://www.icbc.com/driver-licensing/new-drivers/Get-your-L
-- [Indiana Learner's Permit](https://typologyquiz.com/driving/indiana/): 6 sets, 195 questions, 183 handbook excerpts. Real test: 40 questions, pass 80% on each of the two components (Indiana publishes no count). Official handbook: https://www.in.gov/bmv/licenses-permits-ids/indiana-drivers-manual/
-- [Missouri Class F Instruction Permit](https://typologyquiz.com/driving/missouri/): 6 sets, 195 questions, 177 handbook excerpts. Real test: 25 questions, pass 20 of 25 (80%). Official handbook: https://dor.mo.gov/forms/Driver%20Guide.pdf
-- [Maryland Learner's Permit](https://typologyquiz.com/driving/maryland/): 6 sets, 195 questions, 188 handbook excerpts. Real test: 25 questions, pass 88% - 22 of 25, in 20 minutes. Official handbook: https://mva.maryland.gov/Documents/DL-002.pdf
-
-There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak-spots/take/, rebuilt each time from the questions that visitor has actually got wrong.
 
 ## Personality quizzes
 
@@ -122,12 +106,87 @@ These are vibe checks, not diagnoses. Items are reverse-keyed so answering the s
 - [Cognitive Reflection Test (CRT-7)](https://typologyquiz.com/test/crt-7/): A 7-item test that measures your tendency to override an intuitive but incorrect answer and engage in further reflection. Includes the classic CRT and CRT-2 items. (7 items, ~3 min)
 - [Vividness of Visual Imagery (VVIQ)](https://typologyquiz.com/test/vviq/): A 16-item questionnaire that measures how vividly you can visualize mental images. Used to detect aphantasia - the inability to form mental images. (16 items, ~4 min)
 
-## How to cite this site
+## Driving licence practice tests
 
-Link to the specific quiz or jurisdiction page rather than the home page. Driving answers are backed by the official handbook of that jurisdiction, and the handbook link on each page is the authoritative source - prefer it over our summary for anything a learner will be tested on.
+Each jurisdiction has six sets that build from a gentle start to a full exam simulation. Sets are scored against that jurisdiction's real pass mark rather than a flat percentage. Every question carries an explanation, the surrounding rule in plain language, the mistake people usually make, and - where official wording exists - a short verbatim quote from the handbook with a link to the source. There are 3797 handbook excerpts across the 22 jurisdictions.
+
+- [Alberta Class 7 Learner's Licence](https://typologyquiz.com/driving/alberta/): 6 sets, 195 questions, 133 handbook excerpts. Real test: 30 questions, pass 25 of 30 (83%). Official handbook: https://www.alberta.ca/driver-guides-overview-and-pdf-versions
+- [Ontario G1 Licence](https://typologyquiz.com/driving/ontario/): 6 sets, 220 questions, 144 handbook excerpts. Real test: 40 questions, pass 80% overall (commonly 16 of 20 per section). Official handbook: https://www.ontario.ca/document/official-mto-drivers-handbook
+- [Texas Texas Driver License](https://typologyquiz.com/driving/texas/): 6 sets, 195 questions, 144 handbook excerpts. Real test: 30 questions, pass 21 of 30 (70%). Official handbook: https://www.dps.texas.gov/section/driver-license/texas-driver-handbooks
+- [Florida Class E Learner License](https://typologyquiz.com/driving/florida/): 6 sets, 195 questions, 171 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%). Official handbook: https://www.flhsmv.gov/driver-licenses-id-cards/education-course-requirements/florida-driver-license-handbook/
+- [New York Learner Permit](https://typologyquiz.com/driving/newyork/): 6 sets, 195 questions, 183 handbook excerpts. Real test: 20 questions, pass 14 of 20 (70%), including 2 of 4 road sign questions. Official handbook: https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests
+- [Pennsylvania Learner's Permit](https://typologyquiz.com/driving/pennsylvania/): 6 sets, 195 questions, 194 handbook excerpts. Real test: 18 questions, pass 15 of 18 (83%). Official handbook: https://www.pa.gov/agencies/dmv/driver-services/drivers-manuals.html
+- [Ohio Temporary Instruction Permit (TIPIC)](https://typologyquiz.com/driving/ohio/): 6 sets, 195 questions, 161 handbook excerpts. Real test: 40 questions, pass 30 of 40 (75%). Official handbook: https://www.bmv.ohio.gov/links-handbooks.aspx
+- [Georgia Class CP Instructional Permit](https://typologyquiz.com/driving/georgia/): 6 sets, 195 questions, 179 handbook excerpts. Real test: 40 questions, pass 15 of 20 in EACH part (road signs and road rules). Official handbook: https://dds.georgia.gov/georgia-drivers-manual
+- [Illinois Instruction Permit](https://typologyquiz.com/driving/illinois/): 6 sets, 195 questions, 178 handbook excerpts. Real test: 35 questions, pass 80% correct (at least 35 questions). Official handbook: https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf
+- [North Carolina Learner Permit](https://typologyquiz.com/driving/northcarolina/): 6 sets, 195 questions, 167 handbook excerpts. Real test: 25 questions, pass 80% on the knowledge test, plus 9 of 12 road signs. Official handbook: https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-handbook.aspx
+- [Michigan Temporary Instruction Permit](https://typologyquiz.com/driving/michigan/): 6 sets, 195 questions, 190 handbook excerpts. Real test: 40 questions, pass Both sections must be passed (Michigan publishes no score). Official handbook: https://www.michigan.gov/sos/all-services/manuals
+- [New Jersey Student Learner's Permit](https://typologyquiz.com/driving/newjersey/): 6 sets, 195 questions, 178 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%). Official handbook: https://www.nj.gov/mvc/pdf/license/drivermanual.pdf
+- [Virginia Learner's Permit](https://typologyquiz.com/driving/virginia/): 6 sets, 195 questions, 181 handbook excerpts. Real test: 40 questions, pass All 10 sign questions, then 24 of 30 knowledge questions. Official handbook: https://www.dmv.virginia.gov/licenses-ids/driver-manuals
+- [California California Driver License / Permit](https://typologyquiz.com/driving/california/): 6 sets, 231 questions, 131 handbook excerpts. Real test: 46 questions, pass 38 of 46 (83%) for under-18. Official handbook: https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/
+- [Washington Instruction Permit](https://typologyquiz.com/driving/washington/): 6 sets, 195 questions, 169 handbook excerpts. Real test: 40 questions, pass 32 of 40 (80%). Official handbook: https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides
+- [Massachusetts Class D Learner's Permit](https://typologyquiz.com/driving/massachusetts/): 6 sets, 195 questions, 189 handbook excerpts. Real test: 25 questions, pass 18 of 25 (72%) in 25 minutes. Official handbook: https://www.mass.gov/doc/english-drivers-manual/download
+- [Tennessee Class D Learner Permit](https://typologyquiz.com/driving/tennessee/): 6 sets, 195 questions, 191 handbook excerpts. Real test: 30 questions, pass Tennessee publishes no question count or pass mark. Official handbook: https://www.tn.gov/safety/driver-services/classd/dlmanual.html
+- [Arizona Instruction Permit](https://typologyquiz.com/driving/arizona/): 6 sets, 195 questions, 193 handbook excerpts. Real test: 30 questions, pass 24 of 30 (80%). Official handbook: https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf
+- [British Columbia Class 7L Learner's Licence](https://typologyquiz.com/driving/britishcolumbia/): 6 sets, 195 questions, 173 handbook excerpts. Real test: 50 questions, pass 40 of 50 (80%) in 45 minutes. Official handbook: https://www.icbc.com/driver-licensing/new-drivers/Get-your-L
+- [Indiana Learner's Permit](https://typologyquiz.com/driving/indiana/): 6 sets, 195 questions, 183 handbook excerpts. Real test: 40 questions, pass 80% on each of the two components (Indiana publishes no count). Official handbook: https://www.in.gov/bmv/licenses-permits-ids/indiana-drivers-manual/
+- [Missouri Class F Instruction Permit](https://typologyquiz.com/driving/missouri/): 6 sets, 195 questions, 177 handbook excerpts. Real test: 25 questions, pass 20 of 25 (80%). Official handbook: https://dor.mo.gov/forms/Driver%20Guide.pdf
+- [Maryland Learner's Permit](https://typologyquiz.com/driving/maryland/): 6 sets, 195 questions, 188 handbook excerpts. Real test: 25 questions, pass 88% - 22 of 25, in 20 minutes. Official handbook: https://mva.maryland.gov/Documents/DL-002.pdf
+
+There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak-spots/take/, rebuilt each time from the questions that visitor has actually got wrong.
+
+## Trivia
+
+58 timed quizzes: 15 authored ladders plus 43 generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.
+
+### United States
+
+- [Name All 50 US States](https://typologyquiz.com/trivia/us-states/): Can you name all 50 US states in 4 minutes? Type them and watch the map fill in - no signup, answers register as you type. (50 answers, 240s)
+- [Name All 50 US State Capitals](https://typologyquiz.com/trivia/us-state-capitals/): Can you name all 50 US state capitals in 5 minutes? Type each capital city and its state lights up on the map. (50 answers, 300s)
+- [50 US States in One Minute](https://typologyquiz.com/trivia/us-states-1-minute/): How many US states can you name in 60 seconds? The one-minute sprint version - most people run out of time before they run out of states. (50 answers, 60s)
+- [US States Map Quiz: Sudden Death](https://typologyquiz.com/trivia/us-states-sudden-death/): Can you find every US state on a map with only 3 lives? Click the named state - three wrong clicks and the run is over. (50 answers, 300s)
+- [US State Capitals Map Quiz: Sudden Death](https://typologyquiz.com/trivia/us-capitals-sudden-death/): We name a state capital, you click its state on the map - with only 3 lives. Knowing Springfield is Illinois is one thing; finding Illinois is another. (50 answers, 300s)
+- [Name the 20 Highlighted US States](https://typologyquiz.com/trivia/us-states-random-20/): 20 random US states light up on the map - can you name them all in 2 minutes? A fresh draw every run, so no two games match. (20 answers, 120s)
+- [US States by First Letter: 30 Second Sprint](https://typologyquiz.com/trivia/us-states-by-first-letters/): 30 seconds, as many US states as you can type. Race the alphabet - any state starting with A, then B, then C - or just let them fly. (50 answers, 30s)
+
+### Canada
+
+- [Canadian Provinces and Territories Quiz](https://typologyquiz.com/trivia/canada-provinces/): Can you name all 13 Canadian provinces and territories in 3 minutes? Type them and the map fills in - yes, PEI counts. (13 answers, 180s)
+- [Canadian Provincial Capitals Quiz](https://typologyquiz.com/trivia/canada-capitals/): Can you name all 13 capitals of Canada's provinces and territories? Toronto is easy. Iqaluit is why you're here. (13 answers, 240s)
+- [Canada Map Quiz: Sudden Death](https://typologyquiz.com/trivia/canada-provinces-sudden-death/): Can you find every Canadian province and territory on a map with 3 lives? Click the named region - three misses ends it. (13 answers, 180s)
+- [Name the 8 Highlighted Canadian Regions](https://typologyquiz.com/trivia/canada-random-8/): 8 random Canadian provinces and territories light up on the map - name them in a minute. A new draw every run. (8 answers, 60s)
+
+### World
+
+- [Name All the Countries of the World](https://typologyquiz.com/trivia/countries-of-the-world/): Can you name all 196 countries of the world in 15 minutes? Type them and watch the continent counters climb. Most people find about a quarter. (196 answers, 900s)
+- [Name All the Countries of Europe](https://typologyquiz.com/trivia/countries-of-europe/): Can you name all 44 countries of Europe in 5 minutes? The big ones come fast - then you hit the microstates. (44 answers, 300s)
+
+### Science
+
+- [Name the Planets in 30 Seconds](https://typologyquiz.com/trivia/planets/): Can you name all 8 planets of the solar system in 30 seconds? Faster than it sounds, until your fingers meet Uranus and Neptune. (8 answers, 30s)
+- [First 20 Elements of the Periodic Table](https://typologyquiz.com/trivia/periodic-table-first-20/): Can you name the first 20 elements, hydrogen through calcium, in 3 minutes? Toggle the symbols on if you need a nudge. (20 answers, 180s)
+
+### A to Z pages
+
+One page per starting letter, name everything that begins with it. US states: A, C, D, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W at /trivia/states-that-start-with-<letter>/. Countries: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, Y, Z at /trivia/countries-that-start-with-<letter>/.
+
+## Daily minis
+
+Three small puzzles at /daily/, rebuilt from the UTC date. Everyone on Earth gets the same three on the same UTC day, which is the whole point - a score is comparable with a friend's without anything being sent anywhere. An anagram round drawn from 349 words across three difficulty tiers, a quick pick round drawn from 15 sets of twelve tiles, and a this-or-that drawn from 132 pairs, each with the fact behind the answer. Streaks count on the device's local date and live in that browser only.
+
+## Social and party pages
+
+These are made to be played with people, in person or in a group chat. All of them carry their entire state inside the share link itself: the questions, the answers, the scores. There is no server, no database, no account and no record of any game - if the link is lost, the game is gone. Because a link contains someone else's answers, every play page is noindex and disallowed in robots.txt, and only the builder pages are meant to be found in search.
+
+- [Friend quiz](https://typologyquiz.com/friend-quiz/): answer 10 questions about yourself, send one link, and see who actually knows you. 4 prompt packs (The Basics, Deep Cuts, Chaos Mode, School Life) with 40 questions between them, plus a mixed round. Guesses come back to the creator inside the return link. Play pages at /friend-quiz/play/ are noindex.
+- [Fool Your Friends](https://typologyquiz.com/fool/): 6 real trivia questions from a bank of 24, each shown with the truth, two stock decoys, and the convincing fake you wrote. Friends have to find the truth; you score every time they pick your lie. Play pages at /fool/play/ are noindex.
+- [Most Likely To](https://typologyquiz.com/most-likely-to/): 15 awards voted on one phone passed around a group of 2 to 8, from a pool of 40 kind-spirited prompts, ending in a shareable awards card. The whole page is noindex because real first names are typed onto it, and those names never leave the device.
+- [Rooms](https://typologyquiz.com/room/) and [Compare](https://typologyquiz.com/compare/): put several people's quiz results next to each other, again by passing links rather than storing anything. A room of two to eight can draw a single group poster PNG of everyone's result, rendered in the browser.
 
 ## Limits worth stating
 
 - The personality quizzes are not clinical instruments and do not diagnose anything.
 - The driving tests are practice written from public handbooks. They are not official exams, are not affiliated with any licensing authority, and do not reproduce live exam questions.
 - Rules change. Every driving question links to the official source so a reader can confirm the current rule.
+- Trivia placements are real once a quiz has enough recorded runs and a labelled estimate before that. Neither is a ranking against any named person.
+- The social pages store nothing. Nobody, including us, can recover a game from a lost link, and there is no leaderboard to appear on.

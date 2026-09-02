@@ -4,13 +4,37 @@ import { useState } from "react";
 import Link from "next/link";
 import { TESTS } from "@/lib/tests/registry";
 import { CATEGORY_META, TestCategory } from "@/lib/types";
+import { breadcrumbList, collectionPageNodes, jsonLdGraph } from "@/lib/structured-data";
+
+// CollectionPage + ItemList + BreadcrumbList for the quiz hub. Built outside
+// the component because it depends on nothing but the registry, and it is the
+// same on every render. No ratings or vote counts: none exist to report.
+const HUB_JSON_LD = jsonLdGraph([
+  ...collectionPageNodes({
+    path: "/tests/",
+    name: "All personality quizzes",
+    description:
+      "Every personality and typology quiz on the site. Free, no signup, scored in your browser, and written as self-reflection rather than diagnosis.",
+    listName: "Personality and typology quizzes",
+    items: TESTS.map((t) => ({ name: t.title, path: `/test/${t.slug}/` })),
+  }),
+  breadcrumbList([
+    { name: "Home", path: "/" },
+    { name: "Quizzes", path: "/tests/" },
+  ]),
+]);
 
 export default function TestsPage() {
   const [filter, setFilter] = useState<TestCategory | "all">("all");
   const filtered = filter === "all" ? TESTS : TESTS.filter((t) => t.category === filter);
 
   return (
-    <div className="section">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(HUB_JSON_LD) }}
+      />
+      <div className="section">
       <h1 className="section-title" style={{ marginBottom: 12 }}>
         All Tests
       </h1>
@@ -133,6 +157,7 @@ export default function TestsPage() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

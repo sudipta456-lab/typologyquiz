@@ -1,27 +1,49 @@
 # https://typologyquiz.com
+
+# Everything is crawlable except the share-link play pages. Those carry another
+# person's answers, lies or friend names inside the URL, are already noindex in
+# their page metadata, and are infinite in number - one per link ever made. No
+# reason to spend anyone's crawl budget on them.
 User-agent: *
 Allow: /
+Disallow: /friend-quiz/play/
+Disallow: /fool/play/
+Disallow: /most-likely-to/
 
-# AI / LLM crawlers — content may be used for discovery with attribution
+# AI / LLM crawlers - content may be used for discovery with attribution.
+# Grouped deliberately: a crawler that matches its own name ignores the "*"
+# group completely, so the play-page Disallow lines have to be repeated here
+# or these agents would crawl exactly what the group above rules out.
 User-agent: GPTBot
-Allow: /
-
 User-agent: ChatGPT-User
-Allow: /
-
+User-agent: OAI-SearchBot
 User-agent: Google-Extended
-Allow: /
-
 User-agent: anthropic-ai
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /
-
+User-agent: Claude-Web
+User-agent: Claude-SearchBot
 User-agent: PerplexityBot
-Allow: /
-
+User-agent: Perplexity-User
 User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: Amazonbot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: Diffbot
+User-agent: Timpibot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: YouBot
+User-agent: MistralAI-User
+User-agent: DuckAssistBot
 Allow: /
+Disallow: /friend-quiz/play/
+Disallow: /fool/play/
+Disallow: /most-likely-to/
 
+# A plain-language summary of the whole site, generated from the registries at
+# build time, lives at https://typologyquiz.com/llms.txt
 Sitemap: https://typologyquiz.com/sitemap.xml

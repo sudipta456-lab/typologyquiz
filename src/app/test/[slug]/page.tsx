@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTest, TESTS } from "@/lib/tests/registry";
 import { getSeoTitle, SEO_TITLES } from "@/lib/seo-titles";
 import { SITE } from "@/lib/site";
+import { breadcrumbList, jsonLdGraph, quizNode } from "@/lib/structured-data";
 import { TestIntroClient } from "./TestIntroClient";
 
 export function generateStaticParams() {
@@ -44,6 +45,50 @@ export async function generateMetadata({
   };
 }
 
-export default function TestIntroPage() {
-  return <TestIntroClient />;
+export default async function TestIntroPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const test = getTest(slug);
+
+  // Quiz + BreadcrumbList, matching what the trivia pages emit so the two
+  // sections cannot drift apart. Question text and scoring keys stay out of
+  // the markup - it describes the page, it does not give the quiz away.
+  //
+  // No aggregateRating, review, or vote counts anywhere: there are no ratings
+  // to report, and inventing them is both a lie and a Google manual action.
+  const jsonLd = test
+    ? jsonLdGraph([
+        quizNode({
+          path: `/test/${test.slug}/`,
+          name: getSeoTitle(test.slug, test.title),
+          description: test.description,
+          numberOfQuestions: test.itemCount,
+          timeRequiredMinutes: test.timeMinutes,
+          educationalUse: "self-reflection",
+          audienceType: "Teens and adults",
+          about: test.title,
+          note: test.disclaimer,
+        }),
+        breadcrumbList([
+          { name: "Home", path: "/" },
+          { name: "Quizzes", path: "/tests/" },
+          { name: test.title, path: `/test/${test.slug}/` },
+        ]),
+      ])
+    : null;
+
+  return (
+    <>
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
+      <TestIntroClient />
+    </>
+  );
 }

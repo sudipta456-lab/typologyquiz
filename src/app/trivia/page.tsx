@@ -10,6 +10,7 @@ import {
 } from "@/lib/trivia/registry";
 import { formatClock } from "@/lib/trivia/engine";
 import { SITE } from "@/lib/site";
+import { breadcrumbList, collectionPageNodes, jsonLdGraph } from "@/lib/structured-data";
 import { WeeklyFeatured } from "@/components/trivia/WeeklyFeatured";
 
 export const metadata: Metadata = {
@@ -44,17 +45,23 @@ const MODE_LABEL: Record<string, string> = {
 };
 
 export default function TriviaHubPage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Geography trivia quizzes",
-    itemListElement: TRIVIA_QUIZZES.map((q, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: q.title,
-      url: `${SITE.url}/trivia/${q.slug}/`,
-    })),
-  };
+  // CollectionPage + ItemList + BreadcrumbList. The ItemList was already here;
+  // it now comes from the shared builder so the hub and the quiz pages agree
+  // on shape, and the breadcrumb gives the SERP entry a path to show.
+  const jsonLd = jsonLdGraph([
+    ...collectionPageNodes({
+      path: "/trivia/",
+      name: "Trivia quizzes",
+      description:
+        "Free type-in and map trivia quizzes with a live timer: US states and capitals, Canadian provinces, countries of the world, Europe, the planets and the periodic table.",
+      listName: "Geography and science trivia quizzes",
+      items: TRIVIA_QUIZZES.map((q) => ({ name: q.title, path: `/trivia/${q.slug}/` })),
+    }),
+    breadcrumbList([
+      { name: "Home", path: "/" },
+      { name: "Trivia", path: "/trivia/" },
+    ]),
+  ]);
 
   return (
     <>

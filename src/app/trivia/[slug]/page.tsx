@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getRunSize, getTriviaQuiz, TRIVIA_QUIZZES } from "@/lib/trivia/registry";
 import { SITE } from "@/lib/site";
+import { breadcrumbList, jsonLdGraph, quizNode } from "@/lib/structured-data";
 import { TriviaPlayClient } from "@/components/trivia/TriviaPlayClient";
 
 export function generateStaticParams() {
@@ -49,24 +50,28 @@ export default async function TriviaQuizPage({
   const { slug } = await params;
   const quiz = getTriviaQuiz(slug);
 
-  // Quiz JSON-LD keeps the pages eligible for rich results; answer content is
-  // deliberately NOT included (it would hand the answer key to the snippet).
+  // Quiz + BreadcrumbList JSON-LD, built from the shared helper so the shape
+  // matches the typology pages. Answer content is deliberately NOT included
+  // (it would hand the answer key to the snippet), and no rating or vote
+  // markup is emitted because there are no ratings to report.
   const jsonLd = quiz
-    ? {
-        "@context": "https://schema.org",
-        "@type": "Quiz",
-        name: quiz.title,
-        description: quiz.seoDescription,
-        url: `${SITE.url}/trivia/${quiz.slug}/`,
-        numberOfQuestions: getRunSize(quiz),
-        educationalAlignment: {
-          "@type": "AlignmentObject",
-          alignmentType: "educationalSubject",
-          targetName:
+    ? jsonLdGraph([
+        quizNode({
+          path: `/trivia/${quiz.slug}/`,
+          name: quiz.title,
+          description: quiz.seoDescription,
+          numberOfQuestions: getRunSize(quiz),
+          educationalUse: "practice",
+          educationalSubject:
             quiz.dataset === "planets" || quiz.dataset === "elements" ? "Science" : "Geography",
-        },
-        provider: { "@type": "Organization", name: SITE.legalName, url: SITE.url },
-      }
+          about: quiz.title,
+        }),
+        breadcrumbList([
+          { name: "Home", path: "/" },
+          { name: "Trivia", path: "/trivia/" },
+          { name: quiz.title, path: `/trivia/${quiz.slug}/` },
+        ]),
+      ])
     : null;
 
   return (
