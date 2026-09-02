@@ -257,3 +257,24 @@ naija; backgrounds: delulu, kdrama, anime, filmi, shahnameh).
   seasonal set; the batch-1 "Set aside" note about the typo-ridden
   `Autum/Spring/summer/winter.png` cards is now closed - those sources stay
   unused and unshipped, and the replacements carry no baked text.
+
+## Batch 3 regenerations (2026-09-02)
+
+Eight banners replaced at source and reprocessed; all now true 16:9 full-bleed,
+so the mat detector trims 0% on every one.
+
+| File | Was | Now |
+|---|---|---|
+| bg/delulu-1-realist.webp | pillarboxed, lavender side bars | full-bleed 16:9, 33.7KB |
+| bg/delulu-2-daydreams.webp | pillarboxed | full-bleed, same character as the new realist frame, 30.2KB |
+| bg/shahnameh-rostam.webp | portrait panel in rose bars with ornate border | full-bleed single-scene miniature, 91.5KB |
+| bg/kdrama-secondlead.webp | photographic | painted illustration, 63.9KB |
+| bg/kdrama-sunshine.webp | photographic | painted, 76.2KB |
+| bg/kdrama-genius.webp | photographic | painted, 50.2KB |
+| bg/kdrama-bestfriend.webp | photographic | painted, 78.8KB |
+| bg/kdrama-balanced.webp | photographic | painted, 101.7KB |
+
+Known, accepted: delulu-3 through delulu-5 still show the earlier character, so
+the five-band set is not one continuous person. Each player sees exactly one
+band, so the break is invisible in normal use; worth closing only if the set is
+ever shown together.
