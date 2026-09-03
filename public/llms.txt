@@ -10,7 +10,7 @@ Five things share one site.
 
 1. 67 personality and typology quizzes. No right answers. Written as self-reflection, not diagnosis.
 2. 4351 driving licence practice questions across 22 jurisdictions. These do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
-3. 59 trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.
+3. 63 trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.
 4. Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.
 5. Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. These carry their whole state inside the share link and store nothing on any server.
 
@@ -24,7 +24,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 
 - [Home](https://typologyquiz.com/): all five sections in one place
 - [All quizzes](https://typologyquiz.com/tests/): browse all 67 personality quizzes
-- [Trivia](https://typologyquiz.com/trivia/): all 59 timed trivia quizzes
+- [Trivia](https://typologyquiz.com/trivia/): all 63 timed trivia quizzes
 - [Driving practice tests](https://typologyquiz.com/driving/): pick a province or state
 - [Daily minis](https://typologyquiz.com/daily/): three tiny games, new every UTC day, with a streak
 - [Friend quiz](https://typologyquiz.com/friend-quiz/): build a "how well do you know me" quiz
@@ -137,7 +137,7 @@ There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak
 
 ## Trivia
 
-59 timed quizzes: 16 authored ladders plus 43 generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.
+63 timed quizzes: 20 authored ladders plus 43 generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.
 
 ### United States
 
@@ -146,6 +146,8 @@ There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak
 - [50 US States in One Minute](https://typologyquiz.com/trivia/us-states-1-minute/): How many US states can you name in 60 seconds? The one-minute sprint version - most people run out of time before they run out of states. (50 answers, 60s)
 - [US States Map Quiz: Sudden Death](https://typologyquiz.com/trivia/us-states-sudden-death/): Can you find every US state on a map with only 3 lives? Click the named state - three wrong clicks and the run is over. (50 answers, 300s)
 - [US State Capitals Map Quiz: Sudden Death](https://typologyquiz.com/trivia/us-capitals-sudden-death/): We name a state capital, you click its state on the map - with only 3 lives. Knowing Springfield is Illinois is one thing; finding Illinois is another. (50 answers, 300s)
+- [Find the US States on a Map](https://typologyquiz.com/trivia/find-the-us-states/): Can you find all 50 US states on a blank map? We name one, you click it. No lives, no penalty, just you and the map. (50 answers, 420s)
+- [Find the US State Capitals on a Map](https://typologyquiz.com/trivia/find-the-us-capitals/): We name a state capital, you click the state it belongs to. All 50, eight minutes, no lives. (50 answers, 480s)
 - [Name the 20 Highlighted US States](https://typologyquiz.com/trivia/us-states-random-20/): 20 random US states light up on the map - can you name them all in 2 minutes? A fresh draw every run, so no two games match. (20 answers, 120s)
 - [US States by First Letter: 30 Second Sprint](https://typologyquiz.com/trivia/us-states-by-first-letters/): 30 seconds, as many US states as you can type. Race the alphabet - any state starting with A, then B, then C - or just let them fly. (50 answers, 30s)
 
@@ -153,6 +155,7 @@ There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak
 
 - [Canadian Provinces and Territories Quiz](https://typologyquiz.com/trivia/canada-provinces/): Can you name all 13 Canadian provinces and territories in 3 minutes? Type them and the map fills in - yes, PEI counts. (13 answers, 180s)
 - [Canadian Provincial Capitals Quiz](https://typologyquiz.com/trivia/canada-capitals/): Can you name all 13 capitals of Canada's provinces and territories? Toronto is easy. Iqaluit is why you're here. (13 answers, 240s)
+- [Find the Canadian Provinces on a Map](https://typologyquiz.com/trivia/find-the-canada-provinces/): Can you find all 13 Canadian provinces and territories on a map? We name one, you click it. Three minutes. (13 answers, 180s)
 - [Canada Map Quiz: Sudden Death](https://typologyquiz.com/trivia/canada-provinces-sudden-death/): Can you find every Canadian province and territory on a map with 3 lives? Click the named region - three misses ends it. (13 answers, 180s)
 - [Name the 8 Highlighted Canadian Regions](https://typologyquiz.com/trivia/canada-random-8/): 8 random Canadian provinces and territories light up on the map - name them in a minute. A new draw every run. (8 answers, 60s)
 
@@ -160,6 +163,7 @@ There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak
 
 - [Name All the Countries of the World](https://typologyquiz.com/trivia/countries-of-the-world/): Can you name all 196 countries of the world in 15 minutes? Type them and watch the continent counters climb. Most people find about a quarter. (196 answers, 900s)
 - [Name All the Countries of Europe](https://typologyquiz.com/trivia/countries-of-europe/): Can you name all 44 countries of Europe in 5 minutes? The big ones come fast - then you hit the microstates. (44 answers, 300s)
+- [Find the Countries of Europe on a Map](https://typologyquiz.com/trivia/find-the-countries-of-europe/): Can you find all 44 European countries on a map? We name one, you click it. The Balkans decide this one. (44 answers, 360s)
 
 ### Science
 

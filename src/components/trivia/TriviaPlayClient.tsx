@@ -727,6 +727,26 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   }
 
   const isTypein = quiz.mode === "typein";
+
+  // What the map is made of, and what a wrong click costs. Both were inlined
+  // in the rules copy and both were wrong outside the US/Canada type-ins: the
+  // noun said "province or territory" for European countries, and the penalty
+  // read "0 wrong clicks and the run ends" on the no-lives Find quizzes, which
+  // is both untrue and the opposite of what those quizzes promise.
+  const regionNoun =
+    quiz.dataset === "us-states"
+      ? "state"
+      : quiz.dataset === "canada"
+        ? "province or territory"
+        : quiz.dataset === "countries"
+          ? "country"
+          : "region";
+  const penaltyClause =
+    totalLives <= 0
+      ? "Wrong clicks are free, so guess as often as you like."
+      : totalLives === 1
+        ? "One wrong click ends the run."
+        : `${totalLives} wrong clicks and the run ends.`;
   const secondsLeft = Math.ceil(timeLeftMs / 1000);
   const lowTime = phase === "playing" && secondsLeft <= 30;
   const missing = answers.filter((a) => !foundSet.has(a.id));
@@ -845,9 +865,11 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         <p style={{ fontSize: "0.95rem", lineHeight: 1.6, color: "var(--ink-soft)", marginBottom: 8 }}>
           {isTypein
             ? "Type your answers - they register the moment the spelling matches, no Enter key needed. Spelling counts, capitals and spaces don't."
-            : quiz.target === "capital"
-              ? `We name a capital city, you click its ${quiz.dataset === "us-states" ? "state" : "province or territory"} on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends. Stuck on one? Skip it with Next and it comes back around, free.`
-              : `We name a ${quiz.dataset === "us-states" ? "state" : "province or territory"}, you click it on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends. Stuck on one? Skip it with Next and it comes back around, free.`}
+            : `${
+                quiz.target === "capital"
+                  ? `We name a capital city, you click its ${regionNoun} on the map.`
+                  : `We name a ${regionNoun}, you click it on the map.`
+              } ${penaltyClause} Stuck on one? Skip it with Next and it comes back around, free.`}
         </p>
 
         {quiz.caveat !== undefined && (

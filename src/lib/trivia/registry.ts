@@ -57,6 +57,19 @@ const CAPITALS_CURVE: readonly (readonly [number, number])[] = [
   [1, 96],
 ];
 
+// Prompted map clicking. The quiz names the region, so recall is out of it and
+// the only skill left is knowing where things are. Nearly everyone clears the
+// big states, so credit is back-loaded: the run is decided in the small
+// northeast and the prairie provinces, not on the first forty clicks.
+const MAPCLICK_CURVE: readonly (readonly [number, number])[] = [
+  [0, 0],
+  [0.6, 8],
+  [0.8, 26],
+  [0.9, 48],
+  [0.96, 72],
+  [1, 95],
+];
+
 // 30-second sprints: naming a third of the set is already a strong run, so
 // the curve front-loads credit.
 const SPRINT_CURVE: readonly (readonly [number, number])[] = [
@@ -168,6 +181,69 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     visual: "us-map",
     related: ["us-states", "us-capitals-sudden-death", "canada-provinces-sudden-death"],
     percentileAnchors: HARD_CURVE,
+  },
+  {
+    slug: "find-the-us-states",
+    title: "Find the US States on a Map",
+    seoDescription:
+      "Can you find all 50 US states on a blank map? We name one, you click it. No lives, no penalty, just you and the map.",
+    hook: "We name a state, you click it. Miss as often as you like. The northeast is where it falls apart.",
+    dataset: "us-states",
+    mode: "choice",
+    target: "name",
+    timerSeconds: 420,
+    visual: "us-map",
+    related: ["us-states", "find-the-us-capitals", "us-states-sudden-death"],
+    percentileAnchors: MAPCLICK_CURVE,
+    caveat:
+      "The clock is the only thing running. Rhode Island and Delaware are tiny at this size, so take your time or zoom in.",
+  },
+  {
+    slug: "find-the-us-capitals",
+    title: "Find the US State Capitals on a Map",
+    seoDescription:
+      "We name a state capital, you click the state it belongs to. All 50, eight minutes, no lives.",
+    hook: "Springfield is in which state? Point to it. Knowing the name is the easy half.",
+    dataset: "us-states",
+    mode: "choice",
+    target: "capital",
+    timerSeconds: 480,
+    visual: "us-map",
+    related: ["find-the-us-states", "us-state-capitals", "us-capitals-sudden-death"],
+    percentileAnchors: MAPCLICK_CURVE,
+  },
+  {
+    slug: "find-the-canada-provinces",
+    title: "Find the Canadian Provinces on a Map",
+    seoDescription:
+      "Can you find all 13 Canadian provinces and territories on a map? We name one, you click it. Three minutes.",
+    hook: "Thirteen regions, named one at a time. The Maritimes are smaller than you remember.",
+    dataset: "canada",
+    mode: "choice",
+    target: "name",
+    timerSeconds: 180,
+    visual: "canada-map",
+    related: ["canada-provinces", "canada-provinces-sudden-death", "find-the-us-states"],
+    percentileAnchors: MAPCLICK_CURVE,
+    caveat:
+      "The Maritimes are small at this size. Pinch or scroll to zoom if Prince Edward Island keeps escaping you.",
+  },
+  {
+    slug: "find-the-countries-of-europe",
+    title: "Find the Countries of Europe on a Map",
+    seoDescription:
+      "Can you find all 44 European countries on a map? We name one, you click it. The Balkans decide this one.",
+    hook: "Forty-four countries, named one at a time. Everyone knows France. Then come the Balkans.",
+    dataset: "countries",
+    mode: "choice",
+    target: "name",
+    timerSeconds: 360,
+    filterContinent: "Europe",
+    visual: "europe-map",
+    related: ["countries-of-europe", "countries-of-the-world", "find-the-us-states"],
+    percentileAnchors: MAPCLICK_CURVE,
+    caveat:
+      "Same counting rule as the type-in: 43 UN members plus Vatican City. Pinch or scroll to zoom for the microstates.",
   },
   {
     slug: "us-capitals-sudden-death",
@@ -526,17 +602,25 @@ export const TRIVIA_GROUPS: readonly { label: string; slugs: readonly string[] }
       "us-states-1-minute",
       "us-states-sudden-death",
       "us-capitals-sudden-death",
+      "find-the-us-states",
+      "find-the-us-capitals",
       "us-states-random-20",
       "us-states-by-first-letters",
     ],
   },
   {
     label: "Canada",
-    slugs: ["canada-provinces", "canada-capitals", "canada-provinces-sudden-death", "canada-random-8"],
+    slugs: [
+      "canada-provinces",
+      "canada-capitals",
+      "find-the-canada-provinces",
+      "canada-provinces-sudden-death",
+      "canada-random-8",
+    ],
   },
   {
     label: "World",
-    slugs: ["countries-of-the-world", "countries-of-europe"],
+    slugs: ["countries-of-the-world", "countries-of-europe", "find-the-countries-of-europe"],
   },
   {
     label: "Science",
