@@ -1,0 +1,33 @@
+Copyright (c) 2026 TypologyQuiz.com. All rights reserved.
+
+This repository is NOT open source and carries no licence to reuse it.
+
+The following are original works and may not be copied, republished,
+redistributed, mirrored, translated, or used to train or fine-tune a model,
+in whole or in part, without prior written permission:
+
+  - the quiz content: questions, answer sets, type descriptions, spectrum
+    band copy, result text, hooks, and caveats
+  - the illustration sets under public/results/ and the source art they were
+    processed from
+  - the site copy, page structure, and visual design
+  - the source code in src/, scripts/, and worker/
+
+Reading the shipped JavaScript is unavoidable in a browser. That does not
+grant a licence to reuse it. Playing the quizzes and sharing the result cards
+we generate is exactly what the site is for; wholesale copying is not.
+
+MATERIAL WE DO NOT OWN, included under its own terms:
+
+  - Map geometry adapted from public-domain SVGs published on Wikimedia
+    Commons.
+  - Element names, symbols, and atomic numbers from PubChem (public domain,
+    US National Library of Medicine).
+  - Driving-test content is written from, and links to, the official public
+    handbooks of each jurisdiction. Those handbooks remain the property of
+    their issuing authority; we quote them for study and always cite the
+    source.
+  - Psychometric instruments used under their own published licences, which
+    are named per instrument on /credits.
+
+Questions, permissions, and takedown requests: hello@typologyquiz.com
