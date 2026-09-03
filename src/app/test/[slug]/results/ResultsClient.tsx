@@ -472,6 +472,7 @@ function ResultsContent() {
             )
           }
           accent={accentColor}
+          art={art}
         />
         {typeLabel && (
           <StickerDownload

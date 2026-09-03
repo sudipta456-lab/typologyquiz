@@ -54,6 +54,18 @@ import type {
 } from "@/lib/trivia/types";
 import { USMap } from "./USMap";
 import { CanadaMap } from "./CanadaMap";
+import { WorldMap } from "./WorldMap";
+import { PeriodicTable } from "./PeriodicTable";
+import { TriviaShareBlock } from "./TriviaShareBlock";
+import { buildTriviaPercentileLine } from "@/lib/trivia-card";
+import { ELEMENTS } from "@/lib/trivia/data/elements";
+import { US_MAP_PATHS, US_MAP_VIEWBOX } from "@/lib/trivia/data/us-map-paths";
+import { CANADA_MAP_PATHS, CANADA_MAP_VIEWBOX } from "@/lib/trivia/data/canada-map-paths";
+import {
+  EUROPE_VIEW,
+  WORLD_MAP_PATHS,
+  WORLD_VIEW,
+} from "@/lib/trivia/data/world-map-paths";
 import { useSiteOrigin } from "@/lib/use-site-origin";
 import { addGems, GEM_REWARDS, getGems } from "@/lib/progress-game";
 import { COMPANIONS } from "@/lib/companions";
@@ -194,6 +206,29 @@ function groupAnswers(
   return order.map((label) => ({ label, items: buckets.get(label) ?? [] }));
 }
 
+/**
+ * The geometry the share card draws its mini-map from - the plain viewBox, not
+ * the label-gutter one, because the card carries no labels. A visual with no
+ * map (the periodic table, or nothing at all) returns null and the card falls
+ * back to its map-less layout.
+ */
+function cardMapFor(
+  visual: TriviaQuiz["visual"]
+): { viewBox: string; paths: Readonly<Record<string, string>> } | null {
+  switch (visual) {
+    case "us-map":
+      return { viewBox: US_MAP_VIEWBOX, paths: US_MAP_PATHS };
+    case "canada-map":
+      return { viewBox: CANADA_MAP_VIEWBOX, paths: CANADA_MAP_PATHS };
+    case "world-map":
+      return { viewBox: WORLD_VIEW, paths: WORLD_MAP_PATHS };
+    case "europe-map":
+      return { viewBox: EUROPE_VIEW, paths: WORLD_MAP_PATHS };
+    default:
+      return null;
+  }
+}
+
 const OUTCOME_LINE: Record<TriviaOutcome, string> = {
   complete: "You got them all",
   time: "Time's up",
@@ -274,7 +309,15 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const [timeLeftMs, setTimeLeftMs] = useState(0);
   const [livesLeft, setLivesLeft] = useState(0);
   const [targetQueue, setTargetQueue] = useState<readonly string[]>([]);
+  // Where in the queue the click-mode prompt is sitting. Prev and Next move it
+  // without scoring anything, so a target you cannot place can be parked and
+  // come back around instead of ending the run.
+  const [targetIndex, setTargetIndex] = useState(0);
   const [wrongFlashId, setWrongFlashId] = useState<string | null>(null);
+  // The answer that landed most recently, for the one-shot reveal on the
+  // visual. Never cleared during a run: the animation is keyed on the value
+  // changing, so holding the last one costs nothing and needs no timer.
+  const [justFoundId, setJustFoundId] = useState<string | null>(null);
   const [already, setAlready] = useState<string | null>(null);
   const [result, setResult] = useState<RunResult | null>(null);
   const [copied, setCopied] = useState(false);
@@ -462,7 +505,9 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     setCopied(false);
     setLivesLeft(totalLives);
     setTargetQueue(shuffle(runAnswers.map((a) => a.id)));
+    setTargetIndex(0);
     setWrongFlashId(null);
+    setJustFoundId(null);
     // Freeze the ghost for this run: a friend's recording from the link wins
     // (that is the race being invited to), otherwise the player's own best.
     ghostEventsRef.current = [];
@@ -516,6 +561,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
       const nextFound = [...foundIdsRef.current, id];
       foundIdsRef.current = nextFound;
       setFoundIds(nextFound);
+      setJustFoundId(id);
       if (nextFound.length === answers.length) finishRun("complete", nextFound);
     },
     [answers.length, finishRun, ghostSupported, elapsedNow]
@@ -592,39 +638,73 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     };
   }, []);
 
-  const currentTargetId = targetQueue.find((id) => !foundSet.has(id)) ?? null;
+  // The first still-unfound target at or after targetIndex, wrapping once. A
+  // pure derivation rather than an effect, so a target found by any route
+  // (click, keyboard, the clock's held match) is skipped on the next render
+  // with no state to keep in sync.
+  const nextUnfoundFrom = useCallback(
+    (from: number, step: number): number | null => {
+      const n = targetQueue.length;
+      if (n === 0) return null;
+      for (let k = 0; k < n; k++) {
+        const i = (((from + step * k) % n) + n) % n;
+        if (!foundSet.has(targetQueue[i])) return i;
+      }
+      return null;
+    },
+    [targetQueue, foundSet]
+  );
+
+  const activeTargetIndex = nextUnfoundFrom(targetIndex, 1);
+  const currentTargetId =
+    activeTargetIndex !== null ? targetQueue[activeTargetIndex] : null;
+
+  /** Park this target and move to the next (or previous) one still open. */
+  const stepTarget = useCallback(
+    (step: number) => {
+      const from = activeTargetIndex ?? targetIndex;
+      const next = nextUnfoundFrom(from + step, step);
+      if (next !== null) setTargetIndex(next);
+    },
+    [activeTargetIndex, targetIndex, nextUnfoundFrom]
+  );
 
   const handleRegionClick = useCallback(
     (id: string) => {
       if (phase !== "playing" || quiz?.mode !== "choice" || !currentTargetId) return;
-      if (foundSet.has(id)) return;
+      if (foundIdsRef.current.includes(id)) return;
       if (id === currentTargetId) {
-        if (ghostSupported) {
-          ghostEventsRef.current = [...ghostEventsRef.current, { id, t: elapsedNow() }];
-        }
-        const nextFound = [...foundIds, id];
-        setFoundIds(nextFound);
-        if (nextFound.length === answers.length) finishRun("complete", nextFound);
+        // Through registerHit, so the ghost recording, the reveal animation and
+        // the completion check are the same ones the type-in path uses.
+        registerHit(id);
+        // Advance past the one just filled. nextUnfoundFrom still sees it as
+        // unfound (foundSet is this render's), so start the scan one along.
+        const next = nextUnfoundFrom((activeTargetIndex ?? targetIndex) + 1, 1);
+        if (next !== null) setTargetIndex(next);
         return;
       }
-      // Wrong region: flash it, spend a life.
+      // Wrong region: flash it, spend a life. The lives guard makes a second
+      // click that lands in the same tick a no-op rather than a second charge.
+      if (totalLives > 0 && livesLeft <= 0) return;
       setWrongFlashId(id);
       window.setTimeout(() => setWrongFlashId((cur) => (cur === id ? null : cur)), 600);
-      const next = livesLeft - 1;
-      setLivesLeft(next);
-      if (next <= 0) finishRun("lives", foundIdsRef.current);
+      if (totalLives > 0) {
+        const next = livesLeft - 1;
+        setLivesLeft(next);
+        if (next <= 0) finishRun("lives", foundIdsRef.current);
+      }
     },
     [
       phase,
       quiz,
       currentTargetId,
-      foundSet,
-      foundIds,
       livesLeft,
-      answers.length,
+      totalLives,
       finishRun,
-      ghostSupported,
-      elapsedNow,
+      registerHit,
+      nextUnfoundFrom,
+      activeTargetIndex,
+      targetIndex,
     ]
   );
 
@@ -652,23 +732,69 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const missing = answers.filter((a) => !foundSet.has(a.id));
   const revealMissing = phase === "done";
   // Subset runs (random draw, letter pages) highlight their targets on the
-  // map; everything else stays idle and is left out of the coral reveal.
+  // map; everything else stays idle and is left out of the coral reveal. The
+  // first-20 elements quiz counts too: it plays against 20 of the 118 squares
+  // the table draws, so the other 98 have to read as out of play.
   const isSubsetRun =
-    quiz.modifiers?.randomSubset !== undefined || quiz.filterLetter !== undefined;
+    quiz.modifiers?.randomSubset !== undefined ||
+    quiz.filterLetter !== undefined ||
+    (quiz.visual === "periodic-table" && answers.length < ELEMENTS.length);
+  const runIds = isSubsetRun ? new Set(answers.map((a) => a.id)) : null;
+  const clickMode = !isTypein && phase === "playing";
+
+  // Labels are on everywhere: a filled shape says you got one, its name says
+  // which one, and that is the difference between a scoreboard and a map you
+  // learn something from. RegionMap fades each one in as it lands and honours
+  // prefers-reduced-motion on its own.
   const mapProps = {
     found: foundSet,
     revealMissing,
     reducedMotion,
     wrongFlashId,
-    interactive: !isTypein && phase === "playing",
+    interactive: clickMode,
     onRegionClick: handleRegionClick,
-    activeIds: isSubsetRun ? new Set(answers.map((a) => a.id)) : null,
+    showLabels: true,
   };
-  const mapEl = !quiz.showMap ? null : quiz.dataset === "us-states" ? (
-    <USMap {...mapProps} />
-  ) : quiz.dataset === "canada" ? (
-    <CanadaMap {...mapProps} />
-  ) : null;
+  // Capitals quizzes only, and only on the two maps that carry capital points:
+  // a star per region while you play, the city's name once its region lands.
+  const showCapitals = quiz.target === "capital";
+  // The world map wants activeIds ABSENT rather than null when a run has no
+  // subset: WorldMap reads undefined as "decide for me" and marks the 44
+  // European countries on the Europe frame. Passing null would erase that.
+  const worldActive = runIds !== null ? { activeIds: runIds } : {};
+
+  let visualEl: React.ReactNode = null;
+  switch (quiz.visual) {
+    case "us-map":
+      visualEl = <USMap {...mapProps} activeIds={runIds} showCapitals={showCapitals} />;
+      break;
+    case "canada-map":
+      visualEl = <CanadaMap {...mapProps} activeIds={runIds} showCapitals={showCapitals} />;
+      break;
+    case "world-map":
+      visualEl = <WorldMap {...mapProps} {...worldActive} view="world" />;
+      break;
+    case "europe-map":
+      visualEl = <WorldMap {...mapProps} {...worldActive} view="europe" />;
+      break;
+    case "periodic-table":
+      visualEl = (
+        <PeriodicTable
+          found={foundSet}
+          revealMissing={revealMissing}
+          activeIds={runIds}
+          interactive={clickMode}
+          onCellClick={handleRegionClick}
+          justFoundId={justFoundId}
+          reducedMotion={reducedMotion}
+          title={quiz.title}
+        />
+      );
+      break;
+    case "none":
+      visualEl = null;
+      break;
+  }
 
   const monoSmall: React.CSSProperties = {
     fontFamily: "var(--font-mono)",
@@ -720,8 +846,8 @@ function TriviaPlayInner({ slug }: { slug: string }) {
           {isTypein
             ? "Type your answers - they register the moment the spelling matches, no Enter key needed. Spelling counts, capitals and spaces don't."
             : quiz.target === "capital"
-              ? `We name a capital city, you click its ${quiz.dataset === "us-states" ? "state" : "province or territory"} on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends.`
-              : `We name a ${quiz.dataset === "us-states" ? "state" : "province or territory"}, you click it on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends.`}
+              ? `We name a capital city, you click its ${quiz.dataset === "us-states" ? "state" : "province or territory"} on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends. Stuck on one? Skip it with Next and it comes back around, free.`
+              : `We name a ${quiz.dataset === "us-states" ? "state" : "province or territory"}, you click it on the map. ${totalLives} wrong click${totalLives === 1 ? "" : "s"} and the run ends. Stuck on one? Skip it with Next and it comes back around, free.`}
         </p>
 
         {quiz.caveat !== undefined && (
@@ -935,30 +1061,59 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         </form>
       )}
 
+      {/* Click mode: the prompt, a way past a target you cannot place, and how
+          many are left. Prev and Next never score and never cost a life. */}
       {phase === "playing" && !isTypein && currentTargetId && (
-        <p
-          aria-live="polite"
+        <div
           style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: 12,
+            flexWrap: "wrap",
             margin: "0 0 12px",
-            fontSize: "1.1rem",
-            fontWeight: 600,
+            padding: "0.6rem 0.8rem",
+            border: "1px solid var(--line)",
+            borderLeft: `4px solid ${TEAL}`,
+            borderRadius: 10,
           }}
         >
-          {quiz.target === "capital" ? "Whose capital is" : "Find"}:{" "}
-          <span className="font-display" style={{ fontSize: "1.3rem" }}>
-            {promptNames[currentTargetId]}
-          </span>
-        </p>
-      )}
-
-      {mapEl !== null && (
-        <div style={{ border: "1px solid var(--line)", borderRadius: 12, padding: 10, marginBottom: 14 }}>
-          {mapEl}
+          <p aria-live="polite" style={{ margin: 0, fontSize: "1.05rem", fontWeight: 600, minWidth: 0 }}>
+            {quiz.target === "capital" ? "Whose capital is" : "Click"}:{" "}
+            <span className="font-display" style={{ fontSize: "1.3rem" }}>
+              {promptNames[currentTargetId] ?? byId.get(currentTargetId)?.display ?? currentTargetId}
+            </span>
+          </p>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <TargetStepButton label="Previous target" onClick={() => stepTarget(-1)}>
+              Prev
+            </TargetStepButton>
+            <TargetStepButton label="Next target" onClick={() => stepTarget(1)}>
+              Next
+            </TargetStepButton>
+            <span style={{ ...monoSmall, fontWeight: 700 }} aria-live="polite">
+              {total - foundIds.length} left
+            </span>
+          </div>
         </div>
       )}
 
-      {/* Continent columns stand in for the map on the world quizzes. */}
-      {groupLabels.length > 0 && (
+      {phase === "playing" && !isTypein && (
+        <p style={{ ...monoSmall, margin: "-6px 2px 12px" }}>
+          Tab to a region and press Enter to answer it. Skipping costs nothing.
+        </p>
+      )}
+
+      {visualEl !== null && (
+        <div style={{ border: "1px solid var(--line)", borderRadius: 12, padding: 10, marginBottom: 14 }}>
+          {visualEl}
+        </div>
+      )}
+
+      {/* Group counters only where nothing else carries the shape of the run.
+          With a map or the table on screen they were a second scoreboard for
+          the same numbers. */}
+      {groupLabels.length > 0 && quiz.visual === "none" && (
         <div
           style={{
             display: "grid",
@@ -1098,9 +1253,45 @@ function TriviaPlayInner({ slug }: { slug: string }) {
           copied={copied}
           setCopied={setCopied}
           onReplay={start}
+          cardMap={cardMapFor(quiz.visual)}
+          foundIds={foundIds}
+          activeIds={runIds === null ? null : [...runIds]}
         />
       )}
     </div>
+  );
+}
+
+/** Prev / Next on the click-mode prompt. Skipping is free by design. */
+function TargetStepButton({
+  label,
+  onClick,
+  children,
+}: {
+  label: string;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      aria-label={label}
+      title={label}
+      onClick={onClick}
+      style={{
+        padding: "0.3rem 0.7rem",
+        borderRadius: 8,
+        border: "1px solid var(--line)",
+        background: "transparent",
+        color: "var(--ink-mute)",
+        fontFamily: "var(--font-mono)",
+        fontSize: "0.75rem",
+        fontWeight: 700,
+        cursor: "pointer",
+      }}
+    >
+      {children}
+    </button>
   );
 }
 
@@ -1114,6 +1305,9 @@ function ResultsPanel({
   copied,
   setCopied,
   onReplay,
+  cardMap,
+  foundIds,
+  activeIds,
 }: {
   quiz: TriviaQuiz;
   result: RunResult;
@@ -1124,6 +1318,10 @@ function ResultsPanel({
   copied: boolean;
   setCopied: (v: boolean) => void;
   onReplay: () => void;
+  /** Geometry for the card's mini-map, or null for a quiz with no map. */
+  cardMap: { viewBox: string; paths: Readonly<Record<string, string>> } | null;
+  foundIds: readonly string[];
+  activeIds: readonly string[] | null;
 }) {
   const beats = estimateBeatsPercent(quiz, result.score, total);
 
@@ -1144,6 +1342,17 @@ function ResultsPanel({
       if (stats) setLive(stats);
     });
   }, [quiz.slug, result, total]);
+  // One sentence, built once, shown on the page and stamped on the share card.
+  // Two call sites would drift the moment the live sample arrived on one and
+  // not the other, and a card that disagrees with the page is worse than a
+  // card with no number on it.
+  const percentileLine = buildTriviaPercentileLine({
+    estimatedPercent: beats,
+    livePercent: live?.percentile,
+    liveSampleSize: live?.n,
+    liveIsReal: live?.real,
+  });
+
   // The link carries this run's own recording when it fits the budget;
   // encodeChallenge quietly drops the ghost past the cap, so the link itself
   // is never at risk.
@@ -1239,10 +1448,7 @@ function ResultsPanel({
           </span>
         </p>
         <p style={{ margin: "6px 0 0", fontSize: "0.92rem", color: "var(--ink-soft)" }}>
-          {live && live.real
-            ? `Beats ${live.percentile}% of players (${live.n} runs recorded).`
-            : `Beats about ${beats}% of players (estimated).`}
-          {result.newBestScore && " New personal best score."}
+          {percentileLine}.{result.newBestScore && " New personal best score."}
           {result.newBestTime && " New fastest full run."}
         </p>
         {result.gems !== null && (
@@ -1286,6 +1492,26 @@ function ResultsPanel({
         {ghostVersus && (
           <p style={{ margin: "10px 0 0", fontSize: "0.95rem", fontWeight: 600 }}>{ghostVersus}</p>
         )}
+      </div>
+
+      <div style={{ marginBottom: 16 }}>
+        <TriviaShareBlock
+          quizTitle={quiz.title}
+          quizSlug={quiz.slug}
+          score={result.score}
+          total={total}
+          timeMs={result.timeUsedMs}
+          outcomeLine={OUTCOME_LINE[result.outcome]}
+          complete={result.outcome === "complete"}
+          percentileLine={percentileLine}
+          newBestScore={result.newBestScore}
+          newBestTime={result.newBestTime}
+          bestScore={result.best.bestScore}
+          mapViewBox={cardMap?.viewBox}
+          mapPaths={cardMap?.paths}
+          foundIds={foundIds}
+          activeIds={activeIds}
+        />
       </div>
 
       {missing.length > 0 && (

@@ -10,7 +10,7 @@ Five things share one site.
 
 1. 67 personality and typology quizzes. No right answers. Written as self-reflection, not diagnosis.
 2. 4351 driving licence practice questions across 22 jurisdictions. These do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
-3. 58 trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.
+3. 59 trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.
 4. Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.
 5. Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. These carry their whole state inside the share link and store nothing on any server.
 
@@ -24,7 +24,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 
 - [Home](https://typologyquiz.com/): all five sections in one place
 - [All quizzes](https://typologyquiz.com/tests/): browse all 67 personality quizzes
-- [Trivia](https://typologyquiz.com/trivia/): all 58 timed trivia quizzes
+- [Trivia](https://typologyquiz.com/trivia/): all 59 timed trivia quizzes
 - [Driving practice tests](https://typologyquiz.com/driving/): pick a province or state
 - [Daily minis](https://typologyquiz.com/daily/): three tiny games, new every UTC day, with a streak
 - [Friend quiz](https://typologyquiz.com/friend-quiz/): build a "how well do you know me" quiz
@@ -137,7 +137,7 @@ There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak
 
 ## Trivia
 
-58 timed quizzes: 15 authored ladders plus 43 generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.
+59 timed quizzes: 16 authored ladders plus 43 generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.
 
 ### United States
 
@@ -165,6 +165,7 @@ There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak
 
 - [Name the Planets in 30 Seconds](https://typologyquiz.com/trivia/planets/): Can you name all 8 planets of the solar system in 30 seconds? Faster than it sounds, until your fingers meet Uranus and Neptune. (8 answers, 30s)
 - [First 20 Elements of the Periodic Table](https://typologyquiz.com/trivia/periodic-table-first-20/): Can you name the first 20 elements, hydrogen through calcium, in 3 minutes? Toggle the symbols on if you need a nudge. (20 answers, 180s)
+- [Name All 118 Elements](https://typologyquiz.com/trivia/periodic-table/): Can you name all 118 elements of the periodic table in 12 minutes? Type them and each one takes its own square on the real table. (118 answers, 720s)
 
 ### A to Z pages
 

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef } from "react";
 import { downloadCanvas } from "@/lib/result-card";
 import { drawGroupPoster, type PosterMember } from "@/lib/group-poster";
 import { getTest } from "@/lib/tests/registry";
+import { getShowcaseArtSrc } from "@/lib/result-art";
 import { CATEGORY_META } from "@/lib/types";
 import type { Room } from "@/lib/rooms";
 
@@ -13,7 +14,8 @@ export function GroupPosterBlock({ room }: { room: Room }) {
   const squareRef = useRef<HTMLCanvasElement>(null);
 
   // Reuse exactly what the member list renders: displayName, typeLabel,
-  // testTitle, avatar color; the category chip comes from the test registry.
+  // testTitle, avatar color; the category chip comes from the test registry,
+  // and the art from the same tables the results page draws from.
   const members: PosterMember[] = useMemo(
     () =>
       room.members.map((m) => {
@@ -24,6 +26,9 @@ export function GroupPosterBlock({ room }: { room: Room }) {
           testTitle: m.testTitle,
           categoryHex: test ? CATEGORY_META[test.category]?.hex : undefined,
           color: m.color,
+          // The test's representative art. A member whose test has none, or
+          // whose art fails to load, keeps the initial-and-colour chip.
+          artSrc: getShowcaseArtSrc(m.testSlug) ?? undefined,
         };
       }),
     [room.members]

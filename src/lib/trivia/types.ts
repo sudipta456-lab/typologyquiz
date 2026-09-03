@@ -29,7 +29,33 @@ export interface TriviaAnswer {
   hint?: string;
 }
 
-export type TriviaDatasetId = "us-states" | "canada" | "countries" | "planets" | "elements";
+export type TriviaDatasetId =
+  | "us-states"
+  | "canada"
+  | "countries"
+  | "planets"
+  /** The first 20 elements, hydrogen through calcium. */
+  | "elements"
+  /** All 118 elements. */
+  | "elements-all";
+
+/**
+ * Which picture a quiz plays against. One discriminator rather than a boolean
+ * plus a dataset lookup, so the play screen never has to guess: a quiz that
+ * says "world-map" gets the world map even though its dataset also feeds the
+ * Europe frame and the letter pages.
+ *
+ * "europe-map" is the same world geometry in a European viewBox, not a second
+ * dataset - see WorldMap's EUROPE_VIEW.
+ */
+export type TriviaVisual =
+  | "us-map"
+  | "canada-map"
+  | "world-map"
+  | "europe-map"
+  | "periodic-table"
+  /** No picture: the answer chips carry the run on their own. */
+  | "none";
 
 /** What the player is asked to produce. */
 export type TriviaMode =
@@ -77,8 +103,14 @@ export interface TriviaQuiz {
    * "Pluto does not count", that sort of thing.
    */
   caveat?: string;
-  /** Show the fillable map while playing. */
-  showMap: boolean;
+  /**
+   * What renders beside the answers while playing: a fillable map, the
+   * periodic table, or nothing. Replaces the old showMap boolean, which could
+   * only say yes or no and left the play screen inferring which map from the
+   * dataset - a guess that gets the Europe frame and the country letter pages
+   * wrong.
+   */
+  visual: TriviaVisual;
   /** Rest of the ladder, linked from the results screen. */
   related: readonly string[];
   /**

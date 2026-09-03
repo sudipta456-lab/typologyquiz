@@ -18,7 +18,7 @@ import {
 } from "./data/canada";
 import { COUNTRY_ANSWERS } from "./data/countries";
 import { PLANET_ANSWERS } from "./data/planets";
-import { ELEMENT_ANSWERS } from "./data/elements";
+import { ALL_ELEMENT_ANSWERS, ELEMENT_ANSWERS } from "./data/elements";
 
 // Percentile anchors are ESTIMATES, seeded from the one public number that
 // exists for this genre (JetPunk's US states type-in averages 74% over 17.5M
@@ -95,6 +95,22 @@ const PLANETS_CURVE: readonly (readonly [number, number])[] = [
   [1, 70],
 ];
 
+// All 118 elements. Harder than the world quiz in one specific way: the back
+// half of the table is not general knowledge, so nearly everyone stalls
+// somewhere in the transition metals. Twenty elements is already a real
+// showing, and clearing the f-block at all puts a player near the top.
+const ELEMENTS_CURVE: readonly (readonly [number, number])[] = [
+  [0, 0],
+  [0.09, 24],
+  [0.17, 44],
+  [0.26, 60],
+  [0.4, 74],
+  [0.55, 85],
+  [0.7, 92],
+  [0.85, 97],
+  [1, 99],
+];
+
 const HAND_AUTHORED: readonly TriviaQuiz[] = [
   {
     slug: "us-states",
@@ -106,7 +122,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "name",
     timerSeconds: 240,
-    showMap: true,
+    visual: "us-map",
     related: ["us-state-capitals", "us-states-1-minute", "us-states-sudden-death", "canada-provinces"],
     percentileAnchors: TYPEIN_CURVE,
   },
@@ -120,7 +136,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "capital",
     timerSeconds: 300,
-    showMap: true,
+    visual: "us-map",
     related: ["us-states", "us-capitals-sudden-death", "canada-capitals"],
     percentileAnchors: CAPITALS_CURVE,
   },
@@ -134,7 +150,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "name",
     timerSeconds: 60,
-    showMap: true,
+    visual: "us-map",
     related: ["us-states", "us-states-by-first-letters", "us-states-sudden-death"],
     percentileAnchors: HARD_CURVE,
   },
@@ -149,7 +165,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     target: "name",
     timerSeconds: 300,
     modifiers: { lives: 3 },
-    showMap: true,
+    visual: "us-map",
     related: ["us-states", "us-capitals-sudden-death", "canada-provinces-sudden-death"],
     percentileAnchors: HARD_CURVE,
   },
@@ -164,7 +180,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     target: "capital",
     timerSeconds: 300,
     modifiers: { lives: 3 },
-    showMap: true,
+    visual: "us-map",
     related: ["us-state-capitals", "us-states-sudden-death", "canada-capitals"],
     percentileAnchors: HARD_CURVE,
   },
@@ -179,7 +195,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     target: "name",
     timerSeconds: 120,
     modifiers: { randomSubset: 20 },
-    showMap: true,
+    visual: "us-map",
     related: ["us-states", "us-states-sudden-death", "canada-random-8"],
     percentileAnchors: HARD_CURVE,
     caveat:
@@ -195,7 +211,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "name",
     timerSeconds: 30,
-    showMap: true,
+    visual: "us-map",
     related: ["us-states-1-minute", "us-states", "planets"],
     percentileAnchors: SPRINT_CURVE,
     caveat:
@@ -211,7 +227,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "name",
     timerSeconds: 180,
-    showMap: true,
+    visual: "canada-map",
     related: ["canada-capitals", "canada-provinces-sudden-death", "us-states"],
     percentileAnchors: TYPEIN_CURVE,
   },
@@ -225,7 +241,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "capital",
     timerSeconds: 240,
-    showMap: true,
+    visual: "canada-map",
     related: ["canada-provinces", "us-state-capitals", "canada-provinces-sudden-death"],
     percentileAnchors: CAPITALS_CURVE,
   },
@@ -240,7 +256,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     target: "name",
     timerSeconds: 180,
     modifiers: { lives: 3 },
-    showMap: true,
+    visual: "canada-map",
     related: ["canada-provinces", "canada-random-8", "us-states-sudden-death"],
     percentileAnchors: HARD_CURVE,
   },
@@ -255,7 +271,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     target: "name",
     timerSeconds: 60,
     modifiers: { randomSubset: 8 },
-    showMap: true,
+    visual: "canada-map",
     related: ["canada-provinces", "us-states-random-20", "canada-capitals"],
     percentileAnchors: HARD_CURVE,
     caveat:
@@ -271,7 +287,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "name",
     timerSeconds: 900,
-    showMap: false,
+    visual: "world-map",
     related: ["countries-of-europe", "us-states", "canada-provinces"],
     percentileAnchors: WORLD_CURVE,
     caveat:
@@ -288,7 +304,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     target: "name",
     timerSeconds: 300,
     filterContinent: "Europe",
-    showMap: false,
+    visual: "europe-map",
     related: ["countries-of-the-world", "us-states", "canada-provinces"],
     percentileAnchors: CAPITALS_CURVE,
     caveat:
@@ -304,7 +320,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "name",
     timerSeconds: 30,
-    showMap: false,
+    visual: "none",
     related: ["periodic-table-first-20", "us-states-by-first-letters", "us-states"],
     percentileAnchors: PLANETS_CURVE,
     caveat: "Pluto has been a dwarf planet since 2006. It will not count, and we are sorry.",
@@ -319,11 +335,27 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     mode: "typein",
     target: "name",
     timerSeconds: 180,
-    showMap: false,
-    related: ["planets", "countries-of-europe", "us-state-capitals"],
+    visual: "periodic-table",
+    related: ["periodic-table", "planets", "countries-of-europe", "us-state-capitals"],
     percentileAnchors: CAPITALS_CURVE,
     caveat:
       "Both aluminium and aluminum count, and so do sulfur and sulphur. Order does not matter - any of the first 20 scores whenever you type it.",
+  },
+  {
+    slug: "periodic-table",
+    title: "Name All 118 Elements",
+    seoDescription:
+      "Can you name all 118 elements of the periodic table in 12 minutes? Type them and each one takes its own square on the real table.",
+    hook: "The whole table, hydrogen to oganesson. Twelve minutes. The transition metals are where it gets quiet.",
+    dataset: "elements-all",
+    mode: "typein",
+    target: "name",
+    timerSeconds: 720,
+    visual: "periodic-table",
+    related: ["periodic-table-first-20", "planets", "countries-of-the-world"],
+    percentileAnchors: ELEMENTS_CURVE,
+    caveat:
+      "IUPAC names, so aluminium and caesium sit where you expect - and the US spellings count too, as do sulfur and sulphur. Order does not matter. Elements 104 to 118 use their permanent names, not the old placeholder ones.",
   },
 ];
 
@@ -387,7 +419,7 @@ function stateLetterQuiz({ letter, slug, count }: LetterPage): TriviaQuiz {
     target: "name",
     timerSeconds: Math.min(120, Math.max(30, count * 15)),
     filterLetter: letter,
-    showMap: true,
+    visual: "us-map",
     related: ["us-states", "us-states-by-first-letters", "us-states-1-minute"],
     percentileAnchors: TYPEIN_CURVE,
   };
@@ -409,7 +441,7 @@ function countryLetterQuiz({ letter, slug, count }: LetterPage): TriviaQuiz {
     target: "name",
     timerSeconds: Math.min(240, Math.max(45, count * 10)),
     filterLetter: letter,
-    showMap: false,
+    visual: "world-map",
     related: ["countries-of-the-world", "countries-of-europe", "us-states"],
     percentileAnchors: TYPEIN_CURVE,
     caveat:
@@ -439,6 +471,8 @@ function baseAnswers(quiz: TriviaQuiz): readonly TriviaAnswer[] {
       return PLANET_ANSWERS;
     case "elements":
       return ELEMENT_ANSWERS;
+    case "elements-all":
+      return ALL_ELEMENT_ANSWERS;
   }
 }
 
@@ -506,7 +540,7 @@ export const TRIVIA_GROUPS: readonly { label: string; slugs: readonly string[] }
   },
   {
     label: "Science",
-    slugs: ["planets", "periodic-table-first-20"],
+    slugs: ["planets", "periodic-table-first-20", "periodic-table"],
   },
 ];
 

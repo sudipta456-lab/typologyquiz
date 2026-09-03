@@ -9,6 +9,7 @@
  */
 
 import { SITE } from "./site";
+import { cachedCardArt, drawCardArtInset, loadCardArt } from "./result-card";
 
 export type PosterMember = {
   displayName: string;
@@ -20,6 +21,12 @@ export type PosterMember = {
   categoryHex?: string;
   /** Member's avatar color from their profile */
   color?: string;
+  /**
+   * Public path to this member's result art (getResultArt / getShowcaseArtSrc).
+   * When it loads, it replaces the initial-and-colour avatar in the cell; a
+   * member with no art, no type, or art that fails to load keeps the chip.
+   */
+  artSrc?: string;
 };
 
 export type GroupPosterPayload = {
@@ -84,11 +91,74 @@ function fitText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number):
   return `${t.trimEnd()}…`;
 }
 
-/** Draw a story (9:16) or square group poster. */
+/**
+ * Draw tokens per canvas, so a late art repaint cannot overwrite a poster the
+ * caller has already redrawn for a different room state.
+ */
+const posterTokens = new WeakMap<HTMLCanvasElement, number>();
+
+/**
+ * Draw a story (9:16) or square group poster.
+ *
+ * Synchronous and complete on return. When members carry result art the poster
+ * paints its chip layout immediately and repaints once the bitmaps decode, so
+ * a slow or missing image costs the reader nothing but the art.
+ */
 export function drawGroupPoster(
   canvas: HTMLCanvasElement,
   payload: GroupPosterPayload,
   format: "story" | "square" = "square"
+) {
+  void drawGroupPosterAsync(canvas, payload, format);
+}
+
+/** drawGroupPoster, resolved after any member art has landed (or failed). */
+export async function drawGroupPosterAsync(
+  canvas: HTMLCanvasElement,
+  payload: GroupPosterPayload,
+  format: "story" | "square" = "square"
+): Promise<void> {
+  const token = (posterTokens.get(canvas) ?? 0) + 1;
+  posterTokens.set(canvas, token);
+
+  const sources = Array.from(
+    new Set(
+      payload.members
+        .slice(0, MAX_MEMBERS)
+        .map((m) => m.artSrc)
+        .filter((s): s is string => typeof s === "string" && s.length > 0)
+    )
+  );
+
+  const cache = new Map<string, HTMLImageElement>();
+  for (const src of sources) {
+    const ready = cachedCardArt(src);
+    if (ready) cache.set(src, ready);
+  }
+
+  paintGroupPoster(canvas, payload, format, cache);
+  const missing = sources.filter((s) => !cache.has(s));
+  if (missing.length === 0) return;
+
+  const loaded = await Promise.all(missing.map((src) => loadCardArt(src)));
+  if (posterTokens.get(canvas) !== token) return;
+  let gained = false;
+  missing.forEach((src, i) => {
+    const img = loaded[i];
+    if (img) {
+      cache.set(src, img);
+      gained = true;
+    }
+  });
+  if (!gained) return;
+  paintGroupPoster(canvas, payload, format, cache);
+}
+
+function paintGroupPoster(
+  canvas: HTMLCanvasElement,
+  payload: GroupPosterPayload,
+  format: "story" | "square",
+  art: ReadonlyMap<string, HTMLImageElement>
 ) {
   const W = 1080;
   const H = format === "story" ? 1920 : 1080;
@@ -179,18 +249,25 @@ export function drawGroupPoster(
       roundRect(ctx, x, cy, 10, cellH, 4);
       ctx.fill();
 
-      // Avatar circle with the member's initial
+      // The member's result art where there is any, otherwise the colour
+      // avatar with their initial.
       const ax = x + 28 + avatarR;
       const ay = cy + cellH / 2;
-      ctx.fillStyle = m.color || BRAND[i % BRAND.length];
-      ctx.beginPath();
-      ctx.arc(ax, ay, avatarR, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.fillStyle = "#fff";
-      ctx.font = `600 ${Math.round(avatarR * 1.05)}px Inter, system-ui, sans-serif`;
-      const initial = (m.displayName.trim().slice(0, 1) || "?").toUpperCase();
-      const iw = ctx.measureText(initial).width;
-      ctx.fillText(initial, ax - iw / 2, ay + avatarR * 0.38);
+      const artImg = !isMystery && m.artSrc ? art.get(m.artSrc) : undefined;
+      if (artImg) {
+        const side = avatarR * 2.1;
+        drawCardArtInset(ctx, artImg, ax - side / 2, ay - side / 2, side);
+      } else {
+        ctx.fillStyle = m.color || BRAND[i % BRAND.length];
+        ctx.beginPath();
+        ctx.arc(ax, ay, avatarR, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = "#fff";
+        ctx.font = `600 ${Math.round(avatarR * 1.05)}px Inter, system-ui, sans-serif`;
+        const initial = (m.displayName.trim().slice(0, 1) || "?").toUpperCase();
+        const iw = ctx.measureText(initial).width;
+        ctx.fillText(initial, ax - iw / 2, ay + avatarR * 0.38);
+      }
 
       // Text block right of the avatar
       const tx = ax + avatarR + 22;
