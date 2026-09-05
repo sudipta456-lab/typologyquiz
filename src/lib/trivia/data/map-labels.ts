@@ -94,13 +94,15 @@ export interface CapitalPoint {
 // ===========================================================================
 
 /**
- * The base map is 959 wide. With labels on, the six north-eastern states too
- * small to hold any text get a callout column, so the viewBox grows a 127-unit
- * gutter on the right. The map itself is untouched - it just sits a little
- * smaller in the same container.
+ * The base map is 959 wide. An earlier renderer grew the viewBox by a 127-unit
+ * gutter so the six north-eastern states could park their names in a column;
+ * that column shrank to 5px type on a phone, so "out" labels now become
+ * numbered markers with an HTML callout list under the map instead. The
+ * viewBox and `out` slots are kept for anything still reading them; RegionMap
+ * ignores `out` and uses the anchor.
  */
 export const US_LABEL_VIEWBOX = "0 0 1086 593";
-/** Where a leader line ends and its parked label begins. */
+/** Where a leader line ended and its parked label began (retired, see above). */
 const US_GUTTER = 972;
 
 export const US_LABEL_POINTS: Readonly<Record<string, LabelPoint>> = {
@@ -156,6 +158,27 @@ export const US_LABEL_POINTS: Readonly<Record<string, LabelPoint>> = {
   WI: { x: 575.5, y: 149.1, fit: "abbr" },
   WV: { x: 734.4, y: 279.3, fit: "abbr" },
   WY: { x: 291.6, y: 181.4, fit: "name" },
+};
+
+/**
+ * Regions drawn at a few CSS pixels on a phone get an invisible finger-sized
+ * hit target centred here (the label anchor, which is inside the shape by
+ * construction). A tap inside the target that is nearer to another target's
+ * centre goes to that one, so the cluster of Rhode Island, Connecticut and
+ * Massachusetts stays tellable apart. Measured at 375px: RI 4x5.6, DE 5.3x8.8,
+ * CT 8.7x8.5, NJ 6.7 wide, NH and VT 8.5 wide. MA, MD and HI join them
+ * because their shapes are thin (MA), ragged (MD) or scattered (HI).
+ */
+export const US_HIT_POINTS: Readonly<Record<string, { x: number; y: number }>> = {
+  RI: { x: 875.0, y: 168.1 },
+  DE: { x: 829.1, y: 251.2 },
+  CT: { x: 861.2, y: 176.2 },
+  NJ: { x: 834.8, y: 228.5 },
+  NH: { x: 865.2, y: 137.4 },
+  VT: { x: 844.1, y: 114.4 },
+  MA: { x: 859.2, y: 159.9 },
+  MD: { x: 800.4, y: 241.9 },
+  HI: { x: 325.1, y: 567.6 },
 };
 
 export const US_CAPITAL_POINTS: Readonly<Record<string, CapitalPoint>> = {
@@ -215,7 +238,7 @@ export const US_CAPITAL_POINTS: Readonly<Record<string, CapitalPoint>> = {
 // Canada - 1114 x 942 coordinate space (see canada-map-paths.ts)
 // ===========================================================================
 
-/** 156 units of gutter for the two Maritime callouts. */
+/** 156 units of gutter for the two Maritime callouts (retired, see US_LABEL_VIEWBOX). */
 export const CANADA_LABEL_VIEWBOX = "0 0 1270 942";
 const CA_GUTTER = 1140;
 
@@ -233,6 +256,13 @@ export const CANADA_LABEL_POINTS: Readonly<Record<string, LabelPoint>> = {
   QC: { x: 789.3, y: 671.8, fit: "name" },
   SK: { x: 342.5, y: 707.6, fit: "name" },
   YT: { x: 112.0, y: 359.4, fit: "name" },
+};
+
+/** The Maritimes: Prince Edward Island is 8.9x4.4 CSS px at 375px. */
+export const CANADA_HIT_POINTS: Readonly<Record<string, { x: number; y: number }>> = {
+  PE: { x: 961.9, y: 721.9 },
+  NS: { x: 958.5, y: 773.2 },
+  NB: { x: 922.2, y: 743.5 },
 };
 
 export const CANADA_CAPITAL_POINTS: Readonly<Record<string, CapitalPoint>> = {

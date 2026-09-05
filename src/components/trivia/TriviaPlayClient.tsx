@@ -23,6 +23,7 @@ import {
   estimateBeatsPercent,
   formatClock,
   formatTimeMs,
+  fuzzyMatch,
   ghostStorageKey,
   loadBest,
   loadGhost,
@@ -52,6 +53,7 @@ import type {
   TriviaOutcome,
   TriviaQuiz,
 } from "@/lib/trivia/types";
+import type { RegionPulse } from "./RegionMap";
 import { USMap } from "./USMap";
 import { CanadaMap } from "./CanadaMap";
 import { WorldMap } from "./WorldMap";
@@ -75,6 +77,8 @@ type Phase = "ready" | "playing" | "done";
 
 const TEAL = "var(--mark-teal)";
 const CORAL = "var(--mark-coral)";
+/** The study map has nothing found; one stable instance keeps it referentially still. */
+const EMPTY_FOUND: ReadonlySet<string> = new Set();
 
 function subscribeReducedMotion(onChange: () => void): () => void {
   const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -314,14 +318,36 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   // come back around instead of ending the run.
   const [targetIndex, setTargetIndex] = useState(0);
   const [wrongFlashId, setWrongFlashId] = useState<string | null>(null);
+  // Lives and the wrong-flash, mirrored in refs written synchronously. Two
+  // clicks 30ms apart on the same wrong state both read the SAME livesLeft
+  // from a single render and charged two lives; the refs are what the click
+  // handler consults, state is only what the screen shows.
+  const livesRef = useRef(0);
+  const wrongFlashRef = useRef<string | null>(null);
   // The answer that landed most recently, for the one-shot reveal on the
   // visual. Never cleared during a run: the animation is keyed on the value
-  // changing, so holding the last one costs nothing and needs no timer.
+  // changing, so holding the last one costs nothing and needs no timer. It IS
+  // cleared when the run ends, so the reveal does not keep one region paler.
   const [justFoundId, setJustFoundId] = useState<string | null>(null);
   const [already, setAlready] = useState<string | null>(null);
+  // Type-in: the quiet "No match yet" line, shown after a pause on a buffer
+  // that matches nothing and is not on its way to anything.
+  const [noMatch, setNoMatch] = useState(false);
+  const noMatchTimerRef = useRef<number | null>(null);
+  // Back mid-run is a two-step inline confirm, never a native dialog.
+  const [leaveAsked, setLeaveAsked] = useState(false);
   const [result, setResult] = useState<RunResult | null>(null);
   const [copied, setCopied] = useState(false);
   const [showHints, setShowHints] = useState(false);
+  // Ready screen: the fully labelled map, shown on request and hidden again
+  // the moment the clock starts. Look, hide, recall.
+  const [studying, setStudying] = useState(false);
+  // A chip pointing at its region on the map. Counter-keyed so the same chip
+  // can pulse twice; cleared on a timer so the stroke does not stick.
+  const [pulse, setPulse] = useState<RegionPulse | null>(null);
+  const pulseCount = useRef(0);
+  const pulseTimerRef = useRef<number | null>(null);
+  const mapWrapRef = useRef<HTMLDivElement>(null);
 
   const foundSet = useMemo(() => new Set(foundIds), [foundIds]);
   const total = answers.length;
@@ -401,6 +427,9 @@ function TriviaPlayInner({ slug }: { slug: string }) {
       const finalFound =
         held !== null && !found.includes(held.id) ? [...found, held.id] : found;
       if (finalFound !== found) setFoundIds(finalFound);
+      setJustFoundId(null);
+      setNoMatch(false);
+      setLeaveAsked(false);
       const score = finalFound.length;
       const completedAll = score === total;
       const timeUsedMs = Math.max(
@@ -504,10 +533,20 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     setResult(null);
     setCopied(false);
     setLivesLeft(totalLives);
+    livesRef.current = totalLives;
     setTargetQueue(shuffle(runAnswers.map((a) => a.id)));
     setTargetIndex(0);
     setWrongFlashId(null);
+    wrongFlashRef.current = null;
     setJustFoundId(null);
+    setStudying(false);
+    setPulse(null);
+    setNoMatch(false);
+    setLeaveAsked(false);
+    if (noMatchTimerRef.current !== null) {
+      window.clearTimeout(noMatchTimerRef.current);
+      noMatchTimerRef.current = null;
+    }
     // Freeze the ghost for this run: a friend's recording from the link wins
     // (that is the race being invited to), otherwise the player's own best.
     ghostEventsRef.current = [];
@@ -571,11 +610,19 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     (raw: string) => {
       setInputValue(raw);
       setAlready(null);
+      // Every keystroke clears the no-match line; it comes back only after a
+      // pause on a buffer that is going nowhere (see the end of this handler).
+      setNoMatch(false);
+      if (noMatchTimerRef.current !== null) {
+        window.clearTimeout(noMatchTimerRef.current);
+        noMatchTimerRef.current = null;
+      }
+      const typed = normalizeAnswer(raw);
       // Matching runs on carry + the pruned buffer: carry lets a longer
       // answer grow out of one that just fired ("guinea" -> "guineabissau"),
       // and pruning drops residue from an answer that already fired ("city"
       // after "quebec") so it never blocks the next one.
-      const buffer = pruneBuffer(prefixes, carryRef.current + normalizeAnswer(raw));
+      const buffer = pruneBuffer(prefixes, carryRef.current + typed);
 
       // A held short match (uk waiting on ukraine): if the buffer has moved
       // off it, the player went elsewhere - the short answer fires now.
@@ -622,14 +669,64 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         carryRef.current = buffer;
         setInputValue("");
         registerHit(match.id);
+        return;
       } else if (match.kind === "already") {
         carryRef.current = buffer;
         setAlready(byId.get(match.id)?.display ?? null);
         setInputValue("");
+        return;
+      }
+
+      // Nothing exact. Misspelling forgiveness runs on the UNPRUNED text -
+      // pruning has already eaten "sacremento" down to a stray "o" by now -
+      // first with the carry in front (a misspelt "guineabisau" after
+      // "guinea"), then on the visible text alone. fuzzyMatch refuses any
+      // buffer that is still a prefix of an alias, so it never pre-empts the
+      // keystroke matcher or the deferred hold; when it does fire, the full
+      // name has been named and any held short alias is dropped, exactly as
+      // an exact hit of the longer answer does above.
+      // The carry pass only counts for an answer NOT yet found: a longer name
+      // growing out of the one that just fired is never that same one, and
+      // "hawai" + "s" (the start of "s dakota") is one edit from "hawaii".
+      const grown =
+        carryRef.current !== "" ? fuzzyMatch(answers, prefixes, carryRef.current + typed) : null;
+      const fuzzy =
+        grown !== null && !foundIdsRef.current.includes(grown)
+          ? grown
+          : fuzzyMatch(answers, prefixes, typed);
+      if (fuzzy !== null) {
+        if (heldRef.current !== null) {
+          heldRef.current = null;
+          if (heldTimerRef.current !== null) {
+            window.clearTimeout(heldTimerRef.current);
+            heldTimerRef.current = null;
+          }
+        }
+        carryRef.current = "";
+        setInputValue("");
+        if (foundIdsRef.current.includes(fuzzy)) setAlready(byId.get(fuzzy)?.display ?? null);
+        else registerHit(fuzzy);
+        return;
+      }
+
+      // Going nowhere: six or more letters in the box, no exact alias, not a
+      // prefix of one, and no misspelling close enough. Say so quietly after a
+      // pause, so a fast typist mid-word never sees it flicker.
+      if (typed.length >= 6 && !prefixes.has(typed)) {
+        noMatchTimerRef.current = window.setTimeout(() => {
+          noMatchTimerRef.current = null;
+          setNoMatch(true);
+        }, 600);
       }
     },
-    [prefixes, matchIndex, deferredAliases, byId, registerHit]
+    [prefixes, matchIndex, deferredAliases, byId, registerHit, answers]
   );
+
+  useEffect(() => {
+    return () => {
+      if (noMatchTimerRef.current !== null) window.clearTimeout(noMatchTimerRef.current);
+    };
+  }, []);
 
   // Never leave a deferred-match timer running after unmount.
   useEffect(() => {
@@ -683,13 +780,22 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         if (next !== null) setTargetIndex(next);
         return;
       }
-      // Wrong region: flash it, spend a life. The lives guard makes a second
-      // click that lands in the same tick a no-op rather than a second charge.
-      if (totalLives > 0 && livesLeft <= 0) return;
+      // Wrong region: flash it, spend a life. Both guards read refs that were
+      // written synchronously by the previous click, never this render's
+      // state, so a double-click 30ms apart on the same state costs one life:
+      // the second click lands while the first flash is still on that state
+      // and is ignored. Two different wrong states still cost two.
+      if (totalLives > 0 && livesRef.current <= 0) return;
+      if (wrongFlashRef.current === id) return;
+      wrongFlashRef.current = id;
       setWrongFlashId(id);
-      window.setTimeout(() => setWrongFlashId((cur) => (cur === id ? null : cur)), 600);
+      window.setTimeout(() => {
+        if (wrongFlashRef.current === id) wrongFlashRef.current = null;
+        setWrongFlashId((cur) => (cur === id ? null : cur));
+      }, 600);
       if (totalLives > 0) {
-        const next = livesLeft - 1;
+        const next = livesRef.current - 1;
+        livesRef.current = next;
         setLivesLeft(next);
         if (next <= 0) finishRun("lives", foundIdsRef.current);
       }
@@ -698,7 +804,6 @@ function TriviaPlayInner({ slug }: { slug: string }) {
       phase,
       quiz,
       currentTargetId,
-      livesLeft,
       totalLives,
       finishRun,
       registerHit,
@@ -711,6 +816,58 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const giveUp = useCallback(() => {
     finishRun("gaveup", foundIdsRef.current);
   }, [finishRun]);
+
+  // Leaving mid-run. The run simply stops existing: nothing is scored, no
+  // best or ghost is written, no gem is credited. finishedRef goes true FIRST
+  // so a clock tick landing between this click and the route change cannot
+  // sneak a finish in; the deferred-match timer is cleared for the same
+  // reason. Everything else (interval, listeners) dies with the unmount.
+  const quitRun = useCallback(() => {
+    finishedRef.current = true;
+    heldRef.current = null;
+    if (heldTimerRef.current !== null) {
+      window.clearTimeout(heldTimerRef.current);
+      heldTimerRef.current = null;
+    }
+  }, []);
+
+  /** Flash a region on the map. */
+  const pulseRegion = useCallback((id: string) => {
+    pulseCount.current += 1;
+    setPulse({ id, n: pulseCount.current });
+    if (pulseTimerRef.current !== null) window.clearTimeout(pulseTimerRef.current);
+    pulseTimerRef.current = window.setTimeout(() => {
+      pulseTimerRef.current = null;
+      setPulse(null);
+    }, 950);
+  }, []);
+
+  /** Flash a region and bring the map on screen if it has scrolled away. */
+  const pointAtRegion = useCallback(
+    (id: string) => {
+      pulseRegion(id);
+      const el = mapWrapRef.current;
+      if (!el) return;
+      // The site header is sticky, so "on screen" means below it: the scroll
+      // margin is the header's live height (61px on a phone, more on a
+      // desktop) or the pulsing region ends up hidden under it.
+      const header = document.querySelector("header");
+      const headerH = header ? header.getBoundingClientRect().height : 61;
+      el.style.scrollMarginTop = `${Math.round(headerH) + 8}px`;
+      const r = el.getBoundingClientRect();
+      const vh = window.innerHeight || document.documentElement.clientHeight;
+      if (r.top < headerH || r.bottom > vh) {
+        el.scrollIntoView({ block: "nearest", behavior: reducedMotion ? "auto" : "smooth" });
+      }
+    },
+    [pulseRegion, reducedMotion]
+  );
+
+  useEffect(() => {
+    return () => {
+      if (pulseTimerRef.current !== null) window.clearTimeout(pulseTimerRef.current);
+    };
+  }, []);
 
   if (!quiz) {
     return (
@@ -766,6 +923,12 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   // which one, and that is the difference between a scoreboard and a map you
   // learn something from. RegionMap fades each one in as it lands and honours
   // prefers-reduced-motion on its own.
+  // Once the run is over the map turns into an atlas: every region in play is
+  // named (found teal, missed coral, both labelled), every capital is pinned
+  // with its city, and hover or tap reads any of them. Every map is zoomable
+  // DURING the run as well: Prince Edward Island is 9x4 CSS pixels on a phone,
+  // and the ready copy promises the pinch that reaches it.
+  const finished = phase === "done";
   const mapProps = {
     found: foundSet,
     revealMissing,
@@ -774,10 +937,22 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     interactive: clickMode,
     onRegionClick: handleRegionClick,
     showLabels: true,
+    revealAll: finished,
+    tooltips: finished,
+    pulse,
   };
   // Capitals quizzes only, and only on the two maps that carry capital points:
-  // a star per region while you play, the city's name once its region lands.
+  // a hint dot per region while you play, a pin with the city's name once its
+  // region lands. The type runs larger on these: the regions drop to their
+  // two-letter codes, which frees the room the city names need.
   const showCapitals = quiz.target === "capital";
+  const capitalLabelScale = showCapitals ? 1.15 : 1;
+  // On a phone the finished map is 300-odd pixels wide and fifty names
+  // cannot all be legible at once, so the zoom is the way in. Single-country
+  // maps let the type grow to about double as you zoom; the world map grows
+  // less, because there zooming is meant to make room for MORE names.
+  const COUNTRY_MAP_GROW = 2.2;
+  const WORLD_MAP_GROW = 1.6;
   // The world map wants activeIds ABSENT rather than null when a run has no
   // subset: WorldMap reads undefined as "decide for me" and marks the 44
   // European countries on the Europe frame. Passing null would erase that.
@@ -786,16 +961,34 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   let visualEl: React.ReactNode = null;
   switch (quiz.visual) {
     case "us-map":
-      visualEl = <USMap {...mapProps} activeIds={runIds} showCapitals={showCapitals} />;
+      visualEl = (
+        <USMap
+          {...mapProps}
+          activeIds={runIds}
+          showCapitals={showCapitals}
+          labelScale={capitalLabelScale}
+          labelGrow={COUNTRY_MAP_GROW}
+          zoomable
+        />
+      );
       break;
     case "canada-map":
-      visualEl = <CanadaMap {...mapProps} activeIds={runIds} showCapitals={showCapitals} />;
+      visualEl = (
+        <CanadaMap
+          {...mapProps}
+          activeIds={runIds}
+          showCapitals={showCapitals}
+          labelScale={capitalLabelScale}
+          labelGrow={COUNTRY_MAP_GROW}
+          zoomable
+        />
+      );
       break;
     case "world-map":
-      visualEl = <WorldMap {...mapProps} {...worldActive} view="world" />;
+      visualEl = <WorldMap {...mapProps} {...worldActive} view="world" labelGrow={WORLD_MAP_GROW} />;
       break;
     case "europe-map":
-      visualEl = <WorldMap {...mapProps} {...worldActive} view="europe" />;
+      visualEl = <WorldMap {...mapProps} {...worldActive} view="europe" labelGrow={WORLD_MAP_GROW} />;
       break;
     case "periodic-table":
       visualEl = (
@@ -814,6 +1007,55 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     case "none":
       visualEl = null;
       break;
+  }
+
+  // The study map: the whole map, every name and capital on it, nothing
+  // filled, no clock. Subsets and letter filters are deliberately ignored
+  // here - the lesson is the map, and a random-20 draw has not happened yet.
+  // The Europe frame keeps its 44 (WorldMap's default when activeIds is
+  // absent), because labelling Turkey on a Europe quiz would teach the wrong
+  // answer.
+  const studyProps = {
+    found: EMPTY_FOUND,
+    reducedMotion,
+    showLabels: true,
+    revealAll: true,
+    tooltips: true,
+    zoomable: true,
+    pulse,
+  };
+  let studyEl: React.ReactNode = null;
+  switch (quiz.visual) {
+    case "us-map":
+      studyEl = (
+        <USMap
+          {...studyProps}
+          showCapitals={showCapitals}
+          labelScale={capitalLabelScale}
+          labelGrow={COUNTRY_MAP_GROW}
+          title="Study map of the United States"
+        />
+      );
+      break;
+    case "canada-map":
+      studyEl = (
+        <CanadaMap
+          {...studyProps}
+          showCapitals={showCapitals}
+          labelScale={capitalLabelScale}
+          labelGrow={COUNTRY_MAP_GROW}
+          title="Study map of Canada"
+        />
+      );
+      break;
+    case "world-map":
+      studyEl = <WorldMap {...studyProps} view="world" labelGrow={WORLD_MAP_GROW} title="Study map of the world" />;
+      break;
+    case "europe-map":
+      studyEl = <WorldMap {...studyProps} view="europe" labelGrow={WORLD_MAP_GROW} title="Study map of Europe" />;
+      break;
+    default:
+      studyEl = null;
   }
 
   const monoSmall: React.CSSProperties = {
@@ -921,6 +1163,27 @@ function TriviaPlayInner({ slug }: { slug: string }) {
           <button type="button" className="btn-primary" onClick={start} autoFocus>
             Start the clock
           </button>
+          {studyEl !== null && (
+            <button
+              type="button"
+              onClick={() => setStudying((v) => !v)}
+              aria-pressed={studying}
+              aria-controls="trivia-study-map"
+              style={{
+                padding: "0.5rem 0.9rem",
+                borderRadius: 8,
+                border: `1px solid ${studying ? TEAL : "var(--line)"}`,
+                background: "transparent",
+                color: studying ? "var(--ink)" : "var(--ink-mute)",
+                fontFamily: "var(--font-mono)",
+                fontSize: "0.8rem",
+                fontWeight: 600,
+                cursor: "pointer",
+              }}
+            >
+              {studying ? "Hide the map" : "Study the map first"}
+            </button>
+          )}
           {ghostSupported &&
             (friendGhostTimes !== undefined ||
               (ownGhost !== null && ownGhost.events.length > 0)) && (
@@ -950,6 +1213,20 @@ function TriviaPlayInner({ slug }: { slug: string }) {
             All trivia quizzes
           </Link>
         </div>
+
+        {/* Look, hide, recall: the whole map with every answer on it, no
+            clock. Start the clock takes it away and the run begins. */}
+        {studyEl !== null && studying && (
+          <div id="trivia-study-map" style={{ marginTop: 18 }}>
+            <p style={{ ...monoSmall, margin: "0 0 8px" }}>
+              Take your time. Hover or tap anything to read it, pinch or scroll to zoom. Start
+              the clock hides all of this.
+            </p>
+            <div style={{ border: "1px solid var(--line)", borderRadius: 12, padding: 10 }}>
+              {studyEl}
+            </div>
+          </div>
+        )}
       </div>
     );
   }
@@ -968,6 +1245,104 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     <div className="section" style={{ maxWidth: "52rem" }}>
       {race !== null && !reducedMotion && (
         <style>{"@keyframes tqGhostTick { from { opacity: 0.35 } to { opacity: 1 } }"}</style>
+      )}
+      {/* The way out. After the run it is a plain link. Mid-run it is a
+          two-step confirm, inline and quiet, because one stray tap used to
+          throw away the run and its ghost with no way back (see quitRun).
+          Quiet on purpose: the answer box is the loud thing on this screen. */}
+      {phase === "playing" ? (
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            flexWrap: "wrap",
+            gap: 10,
+            minHeight: 28,
+            marginBottom: 6,
+            fontFamily: "var(--font-mono)",
+            fontSize: "0.78rem",
+            fontWeight: 600,
+            color: "var(--ink-mute)",
+          }}
+        >
+          {leaveAsked ? (
+            <>
+              <span role="status">Leave this run? Nothing will be saved.</span>
+              <Link
+                href="/trivia/"
+                onClick={quitRun}
+                style={{
+                  padding: "0.2rem 0.6rem",
+                  borderRadius: 6,
+                  border: `1px solid ${CORAL}`,
+                  color: "var(--ink)",
+                  textDecoration: "none",
+                }}
+              >
+                Leave
+              </Link>
+              <button
+                type="button"
+                onClick={() => {
+                  setLeaveAsked(false);
+                  if (isTypein) inputRef.current?.focus();
+                }}
+                autoFocus
+                style={{
+                  padding: "0.2rem 0.6rem",
+                  borderRadius: 6,
+                  border: "1px solid var(--line)",
+                  background: "transparent",
+                  color: "var(--ink)",
+                  font: "inherit",
+                  cursor: "pointer",
+                }}
+              >
+                Keep playing
+              </button>
+            </>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setLeaveAsked(true)}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                padding: 0,
+                border: 0,
+                background: "transparent",
+                color: "inherit",
+                font: "inherit",
+                cursor: "pointer",
+              }}
+            >
+              <span aria-hidden="true" style={{ marginRight: 6 }}>
+                &larr;
+              </span>
+              Back to trivia
+            </button>
+          )}
+        </div>
+      ) : (
+        <Link
+          href="/trivia/"
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            minHeight: 28,
+            marginBottom: 6,
+            fontFamily: "var(--font-mono)",
+            fontSize: "0.78rem",
+            fontWeight: 600,
+            color: "var(--ink-mute)",
+            textDecoration: "none",
+          }}
+        >
+          <span aria-hidden="true" style={{ marginRight: 6 }}>
+            &larr;
+          </span>
+          Back to trivia
+        </Link>
       )}
       <div
         style={{
@@ -1078,7 +1453,11 @@ function TriviaPlayInner({ slug }: { slug: string }) {
             }}
           />
           <p style={{ ...monoSmall, margin: "6px 2px 0", minHeight: "1.2em" }} aria-live="polite">
-            {already ? `Already found: ${already}` : "Answers register as you type - no Enter needed."}
+            {already
+              ? `Already found: ${already}`
+              : noMatch
+                ? "No match yet. Check the spelling, or keep typing."
+                : "Answers register as you type - no Enter needed."}
           </p>
         </form>
       )}
@@ -1120,16 +1499,39 @@ function TriviaPlayInner({ slug }: { slug: string }) {
         </div>
       )}
 
+      {/* Keyboard advice is for keyboards: below 640px there is no Tab key
+          on the screen, and the line only pushed the map down. */}
       {phase === "playing" && !isTypein && (
-        <p style={{ ...monoSmall, margin: "-6px 2px 12px" }}>
-          Tab to a region and press Enter to answer it. Skipping costs nothing.
-        </p>
+        <>
+          <style>{"@media (max-width: 639px) { .tq-kbd-hint { display: none; } }"}</style>
+          <p className="tq-kbd-hint" style={{ ...monoSmall, margin: "-6px 2px 12px" }}>
+            Tab to a region and press Enter to answer it. Skipping costs nothing.
+          </p>
+        </>
       )}
 
       {visualEl !== null && (
-        <div style={{ border: "1px solid var(--line)", borderRadius: 12, padding: 10, marginBottom: 14 }}>
+        <div
+          ref={mapWrapRef}
+          style={{
+            border: "1px solid var(--line)",
+            borderRadius: 12,
+            padding: 10,
+            marginBottom: 14,
+            // The sticky header's height, so a chip's scrollIntoView never
+            // parks the pulsing region under it (refined live in pointAtRegion).
+            scrollMarginTop: 61,
+          }}
+        >
           {visualEl}
         </div>
+      )}
+
+      {finished && quiz.visual !== "none" && quiz.visual !== "periodic-table" && (
+        <p style={{ ...monoSmall, margin: "-6px 2px 14px" }}>
+          Every answer is on the map now. Hover or tap a region to read it, tap a chip below to
+          find it, pinch or scroll to zoom.
+        </p>
       )}
 
       {/* Group counters only where nothing else carries the shape of the run.
@@ -1247,19 +1649,13 @@ function TriviaPlayInner({ slug }: { slug: string }) {
       {foundIds.length > 0 && phase === "playing" && (
         <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
           {foundIds.map((id) => (
-            <span
+            <RegionChip
               key={id}
-              style={{
-                padding: "0.25rem 0.6rem",
-                borderRadius: 999,
-                border: `1px solid ${TEAL}`,
-                color: "var(--ink)",
-                fontSize: "0.8rem",
-                fontWeight: 600,
-              }}
-            >
-              {byId.get(id)?.display ?? id}
-            </span>
+              tone="found"
+              label={byId.get(id)?.display ?? id}
+              onPulse={visualEl !== null ? () => pulseRegion(id) : undefined}
+              onPoint={visualEl !== null ? () => pointAtRegion(id) : undefined}
+            />
           ))}
         </div>
       )}
@@ -1278,9 +1674,53 @@ function TriviaPlayInner({ slug }: { slug: string }) {
           cardMap={cardMapFor(quiz.visual)}
           foundIds={foundIds}
           activeIds={runIds === null ? null : [...runIds]}
+          onPulse={visualEl !== null ? pulseRegion : undefined}
+          onPoint={visualEl !== null ? pointAtRegion : undefined}
         />
       )}
     </div>
+  );
+}
+
+/**
+ * An answer chip that talks to the map: hover or focus flashes its region,
+ * click (or tap, which has no hover) flashes it and scrolls the map into view.
+ * Without a map it is the plain pill it always was.
+ */
+function RegionChip({
+  label,
+  tone,
+  onPulse,
+  onPoint,
+}: {
+  label: string;
+  tone: "found" | "missed";
+  onPulse?: () => void;
+  onPoint?: () => void;
+}) {
+  const style: React.CSSProperties = {
+    padding: "0.25rem 0.6rem",
+    minHeight: 24,
+    borderRadius: 999,
+    border: `1px solid ${tone === "found" ? TEAL : CORAL}`,
+    background: "transparent",
+    color: "var(--ink)",
+    fontFamily: "inherit",
+    fontSize: "0.8rem",
+    fontWeight: 600,
+    lineHeight: 1.3,
+  };
+  if (onPoint === undefined) return <span style={style}>{label}</span>;
+  return (
+    <button
+      type="button"
+      onMouseEnter={onPulse}
+      onFocus={onPulse}
+      onClick={onPoint}
+      style={{ ...style, cursor: "pointer" }}
+    >
+      {label}
+    </button>
   );
 }
 
@@ -1330,6 +1770,8 @@ function ResultsPanel({
   cardMap,
   foundIds,
   activeIds,
+  onPulse,
+  onPoint,
 }: {
   quiz: TriviaQuiz;
   result: RunResult;
@@ -1344,6 +1786,10 @@ function ResultsPanel({
   cardMap: { viewBox: string; paths: Readonly<Record<string, string>> } | null;
   foundIds: readonly string[];
   activeIds: readonly string[] | null;
+  /** Flash a region on the map above (absent when there is no map). */
+  onPulse?: (id: string) => void;
+  /** Flash it and scroll the map into view. */
+  onPoint?: (id: string) => void;
 }) {
   const beats = estimateBeatsPercent(quiz, result.score, total);
 
@@ -1541,6 +1987,11 @@ function ResultsPanel({
           <h2 className="font-display" style={{ fontSize: "1.05rem", margin: "0 0 8px" }}>
             The ones that got away
           </h2>
+          {onPoint !== undefined && (
+            <p style={{ margin: "-4px 0 8px", fontFamily: "var(--font-mono)", fontSize: "0.75rem", color: "var(--ink-mute)" }}>
+              Tap one to see where it lives on the map.
+            </p>
+          )}
           {groupAnswers(missing).map(({ label, items }) => (
             <div key={label || "all"} style={{ marginBottom: label ? 10 : 0 }}>
               {label && (
@@ -1560,18 +2011,13 @@ function ResultsPanel({
               )}
               <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
                 {items.map((a) => (
-                  <span
+                  <RegionChip
                     key={a.id}
-                    style={{
-                      padding: "0.25rem 0.6rem",
-                      borderRadius: 999,
-                      border: `1px solid ${CORAL}`,
-                      fontSize: "0.8rem",
-                      fontWeight: 600,
-                    }}
-                  >
-                    {a.display}
-                  </span>
+                    tone="missed"
+                    label={a.display}
+                    onPulse={onPulse !== undefined ? () => onPulse(a.id) : undefined}
+                    onPoint={onPoint !== undefined ? () => onPoint(a.id) : undefined}
+                  />
                 ))}
               </div>
             </div>

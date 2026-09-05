@@ -111,6 +111,89 @@ export function matchBuffer(
   return found.has(id) ? { kind: "already", id } : { kind: "hit", id };
 }
 
+// ---------------------------------------------------------------------------
+// Misspelling forgiveness. The exact matcher above is the fast path; this is
+// the fallback that runs only when it finds nothing.
+//
+// The two coexist with the deferred-alias hold like so. Exact matching runs
+// first on every keystroke; a hit (held or not) returns before the fuzzy
+// pass is ever consulted, so "uk" still holds for "ukraine" and "niger" for
+// "nigeria" exactly as before. The fuzzy pass then refuses any buffer that
+// is a strict prefix of SOME alias - that is the "still typing" case the
+// keystroke matcher owns ("ukrai", "nigeri", "hawai") - so it can never
+// pre-empt a longer answer the player is on the way to. When it does fire
+// it is treated exactly like an exact hit of the full name: any held short
+// alias is dropped, because the longer answer has been named.
+// ---------------------------------------------------------------------------
+
+/** Minimum normalized length before a misspelling is considered at all. */
+export const FUZZY_MIN_LENGTH = 5;
+/** Names this long or longer may be two edits off; shorter ones only one. */
+export const FUZZY_WIDE_LENGTH = 9;
+
+/**
+ * Optimal string alignment distance (Damerau-Levenshtein with adjacent
+ * transpositions counted once), capped: returns `max + 1` as soon as the
+ * answer is known to exceed `max`, so the per-keystroke cost stays small.
+ */
+export function damerauLevenshtein(a: string, b: string, max: number): number {
+  if (a === b) return 0;
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  const la = a.length;
+  const lb = b.length;
+  if (la === 0) return lb;
+  if (lb === 0) return la;
+  let prev2: number[] = [];
+  let prev: number[] = Array.from({ length: lb + 1 }, (_, j) => j);
+  for (let i = 1; i <= la; i++) {
+    const cur: number[] = new Array<number>(lb + 1);
+    cur[0] = i;
+    let rowMin = cur[0];
+    for (let j = 1; j <= lb; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      let v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) {
+        v = Math.min(v, prev2[j - 2] + 1);
+      }
+      cur[j] = v;
+      if (v < rowMin) rowMin = v;
+    }
+    if (rowMin > max) return max + 1;
+    prev2 = prev;
+    prev = cur;
+  }
+  return prev[lb];
+}
+
+/**
+ * The one answer whose primary name (aliases[0], the normalized display
+ * name) the buffer is a plausible misspelling of, or null. Null when the
+ * buffer is too short, is still a prefix of some alias, or when zero or
+ * more than one answer qualifies - ambiguity is never resolved by guessing.
+ * Found answers still count as candidates, so a retyped misspelling of one
+ * reports "already found" rather than silently landing on a neighbour.
+ */
+export function fuzzyMatch(
+  answers: readonly TriviaAnswer[],
+  prefixes: ReadonlySet<string>,
+  normalizedBuffer: string
+): string | null {
+  const buf = normalizedBuffer;
+  if (buf.length < FUZZY_MIN_LENGTH) return null;
+  if (prefixes.has(buf)) return null; // still typing toward an exact alias
+  let hit: string | null = null;
+  for (const answer of answers) {
+    const name = answer.aliases[0];
+    if (name === undefined) continue;
+    const allowed = name.length >= FUZZY_WIDE_LENGTH ? 2 : 1;
+    if (damerauLevenshtein(buf, name, allowed) <= allowed) {
+      if (hit !== null) return null; // two candidates: ambiguous, no match
+      hit = answer.id;
+    }
+  }
+  return hit;
+}
+
 /**
  * Dev-time guard: throws if two different answers share an alias. Called once
  * per dataset at module load in development builds only, so a bad alias fails

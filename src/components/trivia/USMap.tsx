@@ -8,8 +8,8 @@ import { US_MAP_PATHS, US_MAP_VIEWBOX } from "@/lib/trivia/data/us-map-paths";
 import { US_STATE_NAMES } from "@/lib/trivia/data/us-states";
 import {
   US_CAPITAL_POINTS,
+  US_HIT_POINTS,
   US_LABEL_POINTS,
-  US_LABEL_VIEWBOX,
 } from "@/lib/trivia/data/map-labels";
 import { RegionMap, type RegionMapProps } from "./RegionMap";
 
@@ -30,16 +30,18 @@ export function USMap({
 }: Props) {
   return (
     <RegionMap
-      // With labels on, the viewBox grows a gutter on the right so Rhode
-      // Island, Delaware, Connecticut, New Jersey, Massachusetts and Maryland
-      // can hang their names on leader lines instead of overprinting each
-      // other. Off, it is byte-for-byte the map it has always been.
-      viewBox={showLabels ? US_LABEL_VIEWBOX : US_MAP_VIEWBOX}
+      // Rhode Island, Delaware, Connecticut, New Jersey, Massachusetts and
+      // Maryland cannot hold their names; RegionMap gives them numbered markers
+      // and a callout list under the map (an SVG gutter column used to do
+      // this, but it shrank to 5px type on a phone). The finger-sized hit
+      // targets are what make those same states tappable at 375px.
+      viewBox={US_MAP_VIEWBOX}
       paths={US_MAP_PATHS}
       names={US_STATE_NAMES}
       title={title}
       showLabels={showLabels}
       labelPoints={US_LABEL_POINTS}
+      hitPoints={US_HIT_POINTS}
       capitals={showCapitals ? US_CAPITAL_POINTS : undefined}
       {...rest}
     />

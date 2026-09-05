@@ -138,6 +138,8 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     visual: "us-map",
     related: ["us-state-capitals", "us-states-1-minute", "us-states-sudden-death", "canada-provinces"],
     percentileAnchors: TYPEIN_CURVE,
+    caveat:
+      "Shaky on the map? Study it first, then start the clock. Whatever you miss is drawn on the map at the end, names and all.",
   },
   {
     slug: "us-state-capitals",
@@ -152,6 +154,8 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     visual: "us-map",
     related: ["us-states", "us-capitals-sudden-death", "canada-capitals"],
     percentileAnchors: CAPITALS_CURVE,
+    caveat:
+      "Every capital gets a pin as you find it, and the ones you miss get theirs at the end, city names included. Study the map first if Pierre is news to you.",
   },
   {
     slug: "us-states-1-minute",
@@ -243,7 +247,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     related: ["countries-of-europe", "countries-of-the-world", "find-the-us-states"],
     percentileAnchors: MAPCLICK_CURVE,
     caveat:
-      "Same counting rule as the type-in: 43 UN members plus Vatican City. Pinch or scroll to zoom for the microstates.",
+      "Same counting rule as the type-in: 43 UN members plus Vatican City. Kosovo is drawn inside Serbia here, because the list follows UN membership, so it is not an answer. Pinch or scroll to zoom for the microstates.",
   },
   {
     slug: "us-capitals-sudden-death",
@@ -306,6 +310,8 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     visual: "canada-map",
     related: ["canada-capitals", "canada-provinces-sudden-death", "us-states"],
     percentileAnchors: TYPEIN_CURVE,
+    caveat:
+      "Shaky on the map? Study it first, then start the clock. Whatever you miss is drawn on the map at the end, names and all.",
   },
   {
     slug: "canada-capitals",
@@ -320,6 +326,8 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     visual: "canada-map",
     related: ["canada-provinces", "us-state-capitals", "canada-provinces-sudden-death"],
     percentileAnchors: CAPITALS_CURVE,
+    caveat:
+      "Every capital gets a pin as you find it, and the ones you miss get theirs at the end, city names included. Study the map first if Iqaluit is news to you.",
   },
   {
     slug: "canada-provinces-sudden-death",
@@ -384,7 +392,7 @@ const HAND_AUTHORED: readonly TriviaQuiz[] = [
     related: ["countries-of-the-world", "us-states", "canada-provinces"],
     percentileAnchors: CAPITALS_CURVE,
     caveat:
-      "Counting rule: 43 UN members plus Vatican City = 44. Russia counts as Europe; Turkey, Cyprus and the Caucasus count as Asia here, so they are not answers.",
+      "Counting rule: 43 UN members plus Vatican City = 44. Russia counts as Europe; Turkey, Cyprus and the Caucasus count as Asia here, so they are not answers. Kosovo is drawn inside Serbia on the map, because the list follows UN membership, so it is not an answer either.",
   },
   {
     slug: "planets",

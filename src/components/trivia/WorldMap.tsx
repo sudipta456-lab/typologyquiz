@@ -12,6 +12,7 @@
 import { useMemo } from "react";
 import { COUNTRY_ANSWERS } from "@/lib/trivia/data/countries";
 import {
+  EUROPE_LABEL_OVERRIDES,
   EUROPE_VIEW,
   WORLD_LABEL_POINTS,
   WORLD_MAP_PATHS,
@@ -39,6 +40,28 @@ const EUROPE_IDS: ReadonlySet<string> = new Set(
 const WORLD_LABELS: Readonly<Record<string, LabelPoint>> = Object.fromEntries(
   Object.entries(WORLD_LABEL_POINTS).map(([id, p]) => [id, { x: p.x, y: p.y, r: p.r, fit: "auto" as const }])
 );
+
+/**
+ * The Europe frame swaps in anchors that only make sense there: Russia's
+ * generated pole is in Siberia, outside the frame, so its name could never be
+ * drawn on the Europe map at any zoom. EUROPE_LABEL_OVERRIDES puts it near
+ * Moscow.
+ */
+const EUROPE_LABELS: Readonly<Record<string, LabelPoint>> = {
+  ...WORLD_LABELS,
+  ...Object.fromEntries(
+    Object.entries(EUROPE_LABEL_OVERRIDES).map(([id, p]) => [id, { x: p.x, y: p.y, r: p.r, fit: "auto" as const }])
+  ),
+};
+
+/**
+ * One clause the tooltip adds where the drawing needs it. The answer list
+ * follows UN membership, so Kosovo is not an entry and the source map draws
+ * it inside Serbia; a learner hovering Pristina should be told so.
+ */
+const COUNTRY_NOTES: Readonly<Record<string, string>> = {
+  rs: "Kosovo is drawn inside it here and is not an answer",
+};
 
 /**
  * Anything whose largest inscribed circle is under ~3.5 units is at most a
@@ -73,8 +96,9 @@ export function WorldMap({
   zoomable = true,
   // A world map wants smaller type than a single-country map: at the default
   // size only about half the names find room at full zoom, and the rest are
-  // one gesture away.
-  labelScale = 0.8,
+  // one gesture away. 0.9 is the smallest that clears the renderer's 9px
+  // readable floor on an 800px map (0.8 came out at 8.9px and hid the layer).
+  labelScale = 0.9,
   activeIds,
   ...rest
 }: Props) {
@@ -94,8 +118,9 @@ export function WorldMap({
       names={COUNTRY_NAMES}
       title={title ?? (isEurope ? "Map of Europe" : "Map of the world")}
       showLabels={showLabels}
-      labelPoints={WORLD_LABELS}
+      labelPoints={isEurope ? EUROPE_LABELS : WORLD_LABELS}
       hitPoints={WORLD_HIT_POINTS}
+      notes={COUNTRY_NOTES}
       zoomable={zoomable}
       labelScale={labelScale}
       activeIds={active}

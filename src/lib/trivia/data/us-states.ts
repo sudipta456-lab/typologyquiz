@@ -27,9 +27,13 @@ const ROWS: readonly StateRow[] = [
   { id: "CO", name: "Colorado", capital: "Denver" },
   { id: "CT", name: "Connecticut", capital: "Hartford", nameAliases: ["conneticut"] },
   { id: "DE", name: "Delaware", capital: "Dover", nameAliases: ["deleware"] },
-  { id: "FL", name: "Florida", capital: "Tallahassee", capitalAliases: ["talahassee"] },
+  // "tallahasse" is a strict prefix of the right spelling, so like "hawai"
+  // below it has to be listed to fire; the fuzzy pass will not touch it.
+  { id: "FL", name: "Florida", capital: "Tallahassee", capitalAliases: ["talahassee", "tallahasse"] },
   { id: "GA", name: "Georgia", capital: "Atlanta" },
-  { id: "HI", name: "Hawaii", capital: "Honolulu" },
+  // "hawai" is a strict prefix of "hawaii", which the fuzzy pass refuses on
+  // purpose (still typing); listing it fires the one-i spelling outright.
+  { id: "HI", name: "Hawaii", capital: "Honolulu", nameAliases: ["hawai"] },
   { id: "ID", name: "Idaho", capital: "Boise" },
   { id: "IL", name: "Illinois", capital: "Springfield", nameAliases: ["ilinois", "illinios"] },
   { id: "IN", name: "Indiana", capital: "Indianapolis", capitalAliases: ["indy"] },
@@ -51,22 +55,24 @@ const ROWS: readonly StateRow[] = [
   { id: "NJ", name: "New Jersey", capital: "Trenton" },
   { id: "NM", name: "New Mexico", capital: "Santa Fe" },
   { id: "NY", name: "New York", capital: "Albany" },
-  { id: "NC", name: "North Carolina", capital: "Raleigh", capitalAliases: ["raliegh"] },
-  { id: "ND", name: "North Dakota", capital: "Bismarck", capitalAliases: ["bismark"] },
+  // Directional shorthand ("n carolina", "s dakota", "w virginia") is how
+  // people actually type these against a clock, so each one is an alias.
+  { id: "NC", name: "North Carolina", capital: "Raleigh", nameAliases: ["ncarolina", "nocarolina"], capitalAliases: ["raliegh"] },
+  { id: "ND", name: "North Dakota", capital: "Bismarck", nameAliases: ["ndakota", "nodakota"], capitalAliases: ["bismark"] },
   { id: "OH", name: "Ohio", capital: "Columbus" },
   { id: "OK", name: "Oklahoma", capital: "Oklahoma City", capitalAliases: ["okc"] },
   { id: "OR", name: "Oregon", capital: "Salem", nameAliases: ["oregan"] },
   { id: "PA", name: "Pennsylvania", capital: "Harrisburg", nameAliases: ["pensylvania", "pennsylvannia"] },
   { id: "RI", name: "Rhode Island", capital: "Providence", nameAliases: ["rhodeisland", "roadisland"] },
-  { id: "SC", name: "South Carolina", capital: "Columbia" },
-  { id: "SD", name: "South Dakota", capital: "Pierre" },
+  { id: "SC", name: "South Carolina", capital: "Columbia", nameAliases: ["scarolina", "socarolina"] },
+  { id: "SD", name: "South Dakota", capital: "Pierre", nameAliases: ["sdakota", "sodakota"] },
   { id: "TN", name: "Tennessee", capital: "Nashville", nameAliases: ["tennesee", "tenessee"] },
   { id: "TX", name: "Texas", capital: "Austin" },
   { id: "UT", name: "Utah", capital: "Salt Lake City", capitalAliases: ["slc"] },
   { id: "VT", name: "Vermont", capital: "Montpelier", capitalAliases: ["montpellier"] },
   { id: "VA", name: "Virginia", capital: "Richmond" },
   { id: "WA", name: "Washington", capital: "Olympia" },
-  { id: "WV", name: "West Virginia", capital: "Charleston", nameAliases: ["westvirgina"] },
+  { id: "WV", name: "West Virginia", capital: "Charleston", nameAliases: ["westvirgina", "wvirginia", "wvirgina"] },
   { id: "WI", name: "Wisconsin", capital: "Madison", nameAliases: ["wisconson"] },
   { id: "WY", name: "Wyoming", capital: "Cheyenne", capitalAliases: ["cheyene", "cheyanne"] },
 ];

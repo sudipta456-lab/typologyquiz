@@ -11,8 +11,8 @@ import {
 import { CANADA_REGION_NAMES } from "@/lib/trivia/data/canada";
 import {
   CANADA_CAPITAL_POINTS,
+  CANADA_HIT_POINTS,
   CANADA_LABEL_POINTS,
-  CANADA_LABEL_VIEWBOX,
 } from "@/lib/trivia/data/map-labels";
 import { RegionMap, type RegionMapProps } from "./RegionMap";
 
@@ -30,14 +30,16 @@ export function CanadaMap({
 }: Props) {
   return (
     <RegionMap
-      // The gutter holds Nova Scotia and Prince Edward Island, the two that
-      // cannot carry their own names at this scale.
-      viewBox={showLabels ? CANADA_LABEL_VIEWBOX : CANADA_MAP_VIEWBOX}
+      // Nova Scotia and Prince Edward Island cannot carry their own names at
+      // this scale; RegionMap lists them under the map with numbered markers.
+      // The Maritime hit targets make them tappable on a phone.
+      viewBox={CANADA_MAP_VIEWBOX}
       paths={CANADA_MAP_PATHS}
       names={CANADA_REGION_NAMES}
       title={title}
       showLabels={showLabels}
       labelPoints={CANADA_LABEL_POINTS}
+      hitPoints={CANADA_HIT_POINTS}
       capitals={showCapitals ? CANADA_CAPITAL_POINTS : undefined}
       {...rest}
     />

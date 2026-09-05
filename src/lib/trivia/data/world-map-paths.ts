@@ -489,3 +489,15 @@ export const WORLD_MARKER_POINTS: Record<string, { x: number; y: number }> = {
   vu: { x: 2568.4, y: 840.7 },
   ws: { x: 2724.5, y: 816.0 },
 };
+
+// ---------------------------------------------------------------------------
+// HAND-AUTHORED (not regenerated): anchors that only make sense on the Europe
+// frame. Russia's generated pole of inaccessibility is in Siberia, outside
+// EUROPE_VIEW, so on the Europe map its name could never be drawn at any zoom.
+// This point is the pole of the part of Russia inside the frame, measured on
+// the rendered path with a 3-unit grid (largest inscribed radius 63 units),
+// which puts it near Moscow. Used whenever the Europe view is active.
+// ---------------------------------------------------------------------------
+export const EUROPE_LABEL_OVERRIDES: Readonly<Record<string, { x: number; y: number; r: number }>> = {
+  ru: { x: 1592, y: 205, r: 63 },
+};
