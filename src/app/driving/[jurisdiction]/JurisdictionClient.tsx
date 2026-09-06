@@ -23,6 +23,22 @@ const panelStyle: CSSProperties = {
   marginBottom: 20,
 };
 
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+/**
+ * "2026-09-06" -> "6 September 2026". Hand-rolled rather than
+ * toLocaleDateString so the server render and the client hydrate to the same
+ * string regardless of the visitor's locale.
+ */
+export function formatContentDate(iso: string): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  if (!m) return iso;
+  return `${Number(m[3])} ${MONTHS[Number(m[2]) - 1]} ${m[1]}`;
+}
+
 const panelTitleStyle: CSSProperties = {
   fontFamily: "var(--font-display)",
   fontSize: "1.05rem",
@@ -247,6 +263,26 @@ export function JurisdictionClient() {
           This is the source everything on the real test comes from, and it is free.
           Practice questions find your gaps; the handbook fills them. Read it on the
           government&apos;s own site so you get the current version.
+        </p>
+        {/* Dated on purpose. Learners distrust undated study material, and
+            they are right to: a bank checked against a superseded edition can
+            teach a rule that has since changed. The date is when every fact in
+            these sets was checked, and the edition is what it was checked
+            against. */}
+        <p
+          style={{
+            margin: "0 0 0.85rem",
+            fontSize: "0.78rem",
+            lineHeight: 1.55,
+            color: "var(--ink-mute)",
+            fontFamily: "var(--font-mono)",
+          }}
+        >
+          Questions written and checked {formatContentDate(jurisdiction.contentDate)}
+          {jurisdiction.handbookEdition
+            ? ` against the ${jurisdiction.handbookEdition} edition.`
+            : " against the current handbook."}{" "}
+          Rules change; the link below is always the live version.
         </p>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <a

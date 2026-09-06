@@ -8,6 +8,17 @@ export function generateStaticParams() {
   return JURISDICTIONS.map((j) => ({ jurisdiction: j.slug }));
 }
 
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+/** "2026-09-06" -> "September 2026", for the meta description. */
+function monthYear(iso: string): string {
+  const m = /^(\d{4})-(\d{2})/.exec(iso);
+  return m ? `${MONTHS[Number(m[2]) - 1]} ${m[1]}` : iso;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -18,7 +29,7 @@ export async function generateMetadata({
   if (!j) return { title: "Driving practice tests" };
 
   const title = `${j.name} Driving Practice Test (${j.licenceName})`;
-  const description = `Free ${j.name} knowledge test practice questions, scored against the real pass mark of ${j.officialTest.passLabel}. Every answer is explained and linked to the ${j.handbookName}.`;
+  const description = `Free ${j.name} knowledge test practice questions, scored against the real pass mark of ${j.officialTest.passLabel}. Every answer is explained and linked to the ${j.handbookName}. Written and checked ${monthYear(j.contentDate)}.`;
 
   return {
     title,

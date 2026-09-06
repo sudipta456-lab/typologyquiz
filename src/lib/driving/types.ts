@@ -171,6 +171,29 @@ export interface Jurisdiction {
   officialTest: OfficialTestFormat;
   handbookName: string;
   handbookUrl: string;
+  /**
+   * ISO date (YYYY-MM-DD) the question bank was written and every fact in it
+   * was checked against the official handbook. Shown on the jurisdiction page
+   * and in structured data, because learners rightly distrust undated study
+   * material: a bank written against a superseded edition can teach a rule
+   * that has since changed. For the first 22 jurisdictions this is the date
+   * the bank first landed in the repo.
+   */
+  contentDate: string;
+  /**
+   * The edition the bank was checked against, in the publisher's own terms
+   * ("October 2025 Edition", "Revised 2024", "Version 3.2"). Optional because
+   * some handbooks are undated web pages; when present it is shown beside the
+   * content date so a learner can compare it with the copy they hold.
+   */
+  handbookEdition?: string;
+  /**
+   * Repo-relative path to the research note behind the bank
+   * (docs/driving/research/<slug>.md): which sources were read, page and
+   * section numbers, what learners on forums say the test actually asks,
+   * and any conflicts between the handbook and the statute.
+   */
+  researchNote?: string;
   /** Where to book / official licensing page. */
   officialInfoUrl?: string;
   /** Rules that catch people out in THIS jurisdiction specifically. */

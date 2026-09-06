@@ -52,6 +52,11 @@ export function jurisdictionJsonLd(j: Jurisdiction): object {
       provider: { "@id": `${base}/#organization` },
       isAccessibleForFree: true,
       inLanguage: "en",
+      // When the bank was written and checked. Search engines and assistants
+      // both weight freshness for exam-prep queries, and a learner asking
+      // "is this current" deserves a machine-readable answer.
+      dateCreated: j.contentDate,
+      dateModified: j.contentDate,
       educationalLevel: "Beginner",
       teaches: `${j.name} road rules, signs and licensing rules for the ${j.licenceName} knowledge test`,
       hasCourseInstance: j.sets.map((s) => ({
@@ -70,6 +75,8 @@ export function jurisdictionJsonLd(j: Jurisdiction): object {
       isAccessibleForFree: true,
       educationalUse: "practice",
       numberOfQuestions: totalQuestions,
+      dateCreated: j.contentDate,
+      dateModified: j.contentDate,
       about: {
         "@type": "Thing",
         name: `${j.name} driving knowledge test`,

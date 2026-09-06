@@ -53,6 +53,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "AB",
     country: "CA",
     countryLabel: "Canada",
+    contentDate: "2026-08-11",
     licenceName: "Class 7 Learner's Licence",
     intro:
       "Alberta's Class 7 knowledge test is 30 questions, and it stops the moment you've got 25 right or 6 wrong. These sets build up to that.",
@@ -82,6 +83,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "ON",
     country: "CA",
     countryLabel: "Canada",
+    contentDate: "2026-08-11",
     licenceName: "G1 Licence",
     intro:
       "The G1 knowledge test is commonly delivered as two 20-question sections - road signs and rules of the road. We practise them separately so a strong half can't hide a weak one.",
@@ -134,6 +136,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "TX",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-11",
     licenceName: "Texas Driver License",
     intro:
       "Texas passes at 70% - the most forgiving mark in the US - but the questions still come straight out of the handbook.",
@@ -162,6 +165,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "FL",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Class E Learner License",
     intro:
       "Florida asks 50 questions and wants 40 right. The insurance rules catch people out - it is a no-fault state, so the minimums it tests are not the ones most drivers expect.",
@@ -191,6 +195,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "NY",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Learner Permit",
     intro:
       "New York has a second hurdle most people miss: 14 of 20 passes, but miss three of the four road-sign questions and you fail anyway.",
@@ -224,6 +229,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "PA",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Learner's Permit",
     intro:
       "Pennsylvania asks only 18 questions but wants 15 right, so there is almost no room to guess - one of the tightest margins anywhere.",
@@ -252,6 +258,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "OH",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Temporary Instruction Permit (TIPIC)",
     intro:
       "Ohio asks 40 questions and passes at 75%. Watch the probationary night hours - they change after your first year, not on your birthday.",
@@ -284,6 +291,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "GA",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Class CP Instructional Permit",
     intro:
       "Georgia scores road signs and road rules as two separate exams of 20, and you need 15 in each. Ace the rules and fluff the signs and you still fail.",
@@ -334,6 +342,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "IL",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Instruction Permit",
     intro:
       "Scott's Law is the single most-missed topic in Illinois, and the penalties are far heavier than people expect. These sets lean into it.",
@@ -365,6 +374,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "NC",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Learner Permit",
     intro:
       "North Carolina runs the signs test as a separate exam, and several of its rules are the opposite of what drivers from other states expect - the horn before overtaking, two feet of passing clearance, two seconds of following distance.",
@@ -399,6 +409,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "MI",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Temporary Instruction Permit",
     intro:
       "Michigan runs the test as two separately-scored parts - operator rules and signs - and you have to clear both. Pass one and fail the other and you retake the whole thing.",
@@ -435,6 +446,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "NJ",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Student Learner's Permit",
     intro:
       "New Jersey has more genuinely unusual rules than any other state here - it legislates for ice cream trucks, sets the curfew at 11:01pm, and declines to state a priority rule for traffic circles at all.",
@@ -464,6 +476,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "VA",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-14",
     licenceName: "Learner's Permit",
     intro:
       "Virginia gates the whole exam behind signs: all ten sign questions must be right before the 30-question second part even opens. Miss one and you are done for the day.",
@@ -497,6 +510,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "CA",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-11",
     licenceName: "California Driver License / Permit",
     intro:
       "California leans hard on parking rules - coloured curbs and which way your wheels point on a hill show up far more than people expect.",
@@ -525,6 +539,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "WA",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-15",
     licenceName: "Instruction Permit",
     intro:
       "Washington's guide is unusually plain-spoken, which cuts both ways: it states some rules as memory aids rather than law, and it leaves out numbers the test still asks for.",
@@ -556,6 +571,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "MA",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-15",
     licenceName: "Class D Learner's Permit",
     intro:
       "The shortest exam on this site, and the least forgiving: 25 questions in 25 minutes, and a Junior Operator licence that punishes a single speeding ticket harder than most states punish three.",
@@ -586,6 +602,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "TN",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-15",
     licenceName: "Class D Learner Permit",
     intro:
       "Tennessee is the rare state that tells you the syllabus but not the score: the manual publishes an exact topic split and no question count at all.",
@@ -623,6 +640,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "AZ",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-15",
     licenceName: "Instruction Permit",
     intro:
       "Arizona teaches two things no other manual does, and both run opposite to instinct: in a dust storm you turn your lights off, and driving around a flood barricade makes you pay for your own rescue.",
@@ -652,6 +670,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "BC",
     country: "CA",
     countryLabel: "Canada",
+    contentDate: "2026-08-15",
     licenceName: "Class 7L Learner's Licence",
     intro:
       "A flashing green light means the opposite here to what it means in Alberta, Ontario and the Maritimes - and that single sign catches more drivers moving to BC than anything else in the guide.",
@@ -684,6 +703,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "IN",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-15",
     licenceName: "Learner's Permit",
     intro:
       "Indiana words its tie-break backwards from everywhere else: at an all-way stop it is the vehicle on the LEFT that yields. Then at a dark signal it flips back.",
@@ -737,6 +757,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "MO",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-15",
     licenceName: "Class F Instruction Permit",
     intro:
       "The Missouri Driver Guide tells you something no other state prints: almost half of everyone who sits this test fails it the first time.",
@@ -771,6 +792,7 @@ export const JURISDICTIONS: Jurisdiction[] = [
     code: "MD",
     country: "US",
     countryLabel: "United States",
+    contentDate: "2026-08-15",
     licenceName: "Learner's Permit",
     intro:
       "The strictest pass mark on this site: 88%, which on a 25-question test means you may get three wrong and no more.",

@@ -7,10 +7,47 @@
  * have cleared it by always picking A. That class of bug is invisible when you
  * read questions one at a time, so it gets checked mechanically instead.
  *
- * Run: node scripts/validate-driving.mjs
+ * Run: npx tsx scripts/validate-driving.mjs
+ *
+ * Or, for a jurisdiction that is NOT yet wired into the registry:
+" *      npx tsx scripts/validate-driving.mjs --only <slug>
+ * which loads src/lib/driving/<slug>/index.ts directly. That is how a bank
+ * gets validated while it is being built in parallel with others - the
+ * builder never has to touch jurisdictions.ts or excerpts.ts, so six builders
+ * can run at once without editing the same two files.
  */
+import { existsSync } from "node:fs";
 import { JURISDICTIONS } from "../src/lib/driving/jurisdictions.ts";
-import { excerptsFor, getExcerpt } from "../src/lib/driving/excerpts.ts";
+import {
+  excerptsFor as registryExcerptsFor,
+  getExcerpt as registryGetExcerpt,
+} from "../src/lib/driving/excerpts.ts";
+
+let jurisdictions = JURISDICTIONS;
+let excerptsFor = registryExcerptsFor;
+let getExcerpt = registryGetExcerpt;
+let snippetsFor = () => null;
+let extraHosts = [];
+
+const onlyAt = process.argv.indexOf("--only");
+if (onlyAt !== -1) {
+  const slug = process.argv[onlyAt + 1];
+  if (!slug) {
+    console.error("--only needs a slug");
+    process.exit(2);
+  }
+  const mod = await import(`../src/lib/driving/${slug}/index.ts`);
+  if (!mod.jurisdiction || !mod.excerpts) {
+    console.error(`src/lib/driving/${slug}/index.ts must export { jurisdiction, excerpts, snippets, officialHosts }`);
+    process.exit(2);
+  }
+  const idx = Object.fromEntries(mod.excerpts.map((e) => [e.key, e]));
+  jurisdictions = [mod.jurisdiction];
+  excerptsFor = () => mod.excerpts;
+  getExcerpt = (_slug, key) => (key ? idx[key] : undefined);
+  snippetsFor = () => mod.snippets ?? {};
+  extraHosts = mod.officialHosts ?? [];
+}
 
 // Excerpts are short verbatim quotes from official handbooks. Two things keep
 // that defensible: each quote stays brief, and every one is attributed with a
@@ -135,8 +172,20 @@ const HEDGES = [
   /\bvaries by (municipality|city|jurisdiction)\b.*\bcorrect\b/i,
 ];
 
-for (const j of JURISDICTIONS) {
+for (const j of jurisdictions) {
   console.log(`\n=== ${j.name} (${j.code}) — ${j.sets.length} sets ===`);
+
+  // Every bank is dated. Undated study material is exactly what learners are
+  // told to distrust, and a date lets a reader compare it with the edition of
+  // the handbook they hold.
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(j.contentDate ?? "")) {
+    err(`contentDate must be an ISO date (YYYY-MM-DD), got "${j.contentDate}"`);
+  } else if (j.contentDate > new Date().toISOString().slice(0, 10)) {
+    err(`contentDate ${j.contentDate} is in the future`);
+  }
+  if (j.researchNote && !existsSync(j.researchNote)) {
+    err(`researchNote "${j.researchNote}" does not exist`);
+  }
 
   const seenIds = new Set();
   const positions = [0, 0, 0, 0, 0];
@@ -242,8 +291,32 @@ for (const j of JURISDICTIONS) {
     if (!e.section) warn(`excerpt ${e.key}: missing section`);
     if (!e.url) {
       err(`excerpt ${e.key}: missing url - a quote without a link back is not attributed`);
-    } else if (!OFFICIAL_HOSTS.some((h) => e.url.includes(h))) {
+    } else if (![...OFFICIAL_HOSTS, ...extraHosts].some((h) => e.url.includes(h))) {
       err(`excerpt ${e.key}: url is not on a known official domain (${e.url.slice(0, 60)})`);
+    }
+  }
+
+  // Snippet images (only checkable in --only mode, where the module hands us
+  // its manifest). Every manifest entry must point at a real file, and the
+  // coverage is printed so a thin manifest is visible rather than silent.
+  const snippets = snippetsFor(j.slug);
+  if (snippets) {
+    let missingFiles = 0;
+    for (const [key, s] of Object.entries(snippets)) {
+      if (!seenExcerptKeys.has(key)) warn(`snippet "${key}" has no excerpt`);
+      if (!existsSync(`public${s.src}`)) {
+        missingFiles++;
+        err(`snippet "${key}": ${s.src} does not exist on disk`);
+      }
+    }
+    const covered = excerpts.filter((e) => snippets[e.key]).length;
+    console.log(
+      `  snippets: ${Object.keys(snippets).length} in manifest, ${covered}/${excerpts.length} excerpts covered (${Math.round(
+        (covered / Math.max(1, excerpts.length)) * 100
+      )}%)${missingFiles ? `, ${missingFiles} files missing` : ""}`
+    );
+    if (covered / Math.max(1, excerpts.length) < 0.5) {
+      warn(`only ${Math.round((covered / Math.max(1, excerpts.length)) * 100)}% of excerpts have a snippet image`);
     }
   }
 
