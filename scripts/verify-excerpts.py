@@ -51,12 +51,30 @@ def normalise(s: str) -> str:
     s = s.replace("§", "Section")
     s = s.replace("ﬁ", "fi").replace("ﬂ", "fl")
     # Bullets and list glyphs become spaces so a stem + list quote can run on.
-    s = re.sub(r"[•●▪■‣⁃◦∙]", " ", s)
+    #
+    # The control characters matter as much as the pretty ones. Manitoba's
+    # handbook sets its bullets as \x07, and because that was not folded, every
+    # quote spanning a bullet was unmatchable: 22 perfectly good quotes reported
+    # as failures, and a builder spent its time rewriting them to route around a
+    # bug in this function. \x07 and \x0b are the ones seen in the wild; the
+    # rest of the C0 range is folded too, since none of it is ever real text.
+    s = re.sub(r"[•●▪■‣⁃◦∙]", " ", s)
+    s = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", s)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
 
 
-def load_source(path: Path) -> str:
+def load_source(path: Path) -> list[str]:
+    """
+    Return every reading of the source worth searching.
+
+    More than one, because de-hyphenation is genuinely ambiguous. A PDF that
+    wraps "some-\\nthing" means "something", but one that wraps
+    "right-\\nof-way" means "right-of-way" - and joining it yields the nonsense
+    "rightof-way", which is exactly the miss one bank hit. There is no rule that
+    separates the two cases, so both readings are produced and a quote matching
+    either is verified.
+    """
     if path.suffix.lower() == ".pdf":
         import fitz  # PyMuPDF
 
@@ -68,12 +86,14 @@ def load_source(path: Path) -> str:
             parts.append(page.get_text("text"))
         doc.close()
         raw = "\n".join(parts)
-        # PDFs hyphenate across line breaks. Join "some-\nthing" -> "something"
-        # ONLY where the break follows a hyphen and the next char is lowercase,
-        # which is a line-wrap hyphen and not a real compound.
-        raw = re.sub(r"(\w)-\n(?=[a-z])", r"\1", raw)
-        return normalise(raw)
-    return normalise(path.read_text(encoding="utf-8", errors="replace"))
+        joined = re.sub(r"(\w)-\n(?=[a-z])", r"\1", raw)   # some-\nthing -> something
+        kept = re.sub(r"(\w)-\n(?=[a-z])", r"\1-", raw)    # right-\nof-way -> right-of-way
+        readings = [normalise(joined)]
+        k = normalise(kept)
+        if k != readings[0]:
+            readings.append(k)
+        return readings
+    return [normalise(path.read_text(encoding="utf-8", errors="replace"))]
 
 
 def main() -> None:
@@ -88,7 +108,7 @@ def main() -> None:
             sys.exit(2)
 
     quotes = json.loads(Path(f"tmp/{slug}-quotes.json").read_text(encoding="utf-8"))
-    texts = {p.name: load_source(p) for p in sources}
+    texts = {p.name: load_source(p) for p in sources}  # name -> [reading, ...]
 
     results = {}
     hits = 0
@@ -99,8 +119,8 @@ def main() -> None:
         # official source and a scratch capture is credited to the official
         # one. Order of the argv list must not decide provenance.
         found_in = None
-        for name, text in sorted(texts.items(), key=lambda kv: is_non_official(kv[0])):
-            if q in text:
+        for name, readings in sorted(texts.items(), key=lambda kv: is_non_official(kv[0])):
+            if any(q in reading for reading in readings):
                 found_in = name
                 break
         if found_in:
@@ -118,7 +138,7 @@ def main() -> None:
         # Diagnostic: does the opening clause exist anywhere? If yes, the tail
         # was altered; if no, the whole quote is suspect.
         head = " ".join(q.split()[:8])
-        head_in = [n for n, t in texts.items() if head in t]
+        head_in = [n for n, rs in texts.items() if any(head in r for r in rs)]
         results[item["key"]] = {
             "ok": False,
             "head_found_in": head_in,

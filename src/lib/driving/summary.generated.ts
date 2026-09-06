@@ -294,6 +294,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "manitoba",
+    "name": "Manitoba",
+    "code": "MB",
+    "country": "CA",
+    "licenceName": "Class 5L Learner Stage Licence",
+    "intro": "Manitoba Public Insurance writes the Class 5 knowledge test straight out of its own Driver's Handbook, and the parts that catch people are the numbers - how far back from a railway crossing, how far from a hydrant, how many months in each stage. You get 30 minutes, it is not open book, and a fail means waiting seven days. These six sets work through the handbook end to end and then hand you the ones Manitobans say they got wrong.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "minnesota",
     "name": "Minnesota",
     "code": "MN",
@@ -351,4 +362,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 5911;
+export const TOTAL_DRIVING_QUESTIONS = 6106;

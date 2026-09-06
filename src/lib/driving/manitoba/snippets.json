@@ -1,0 +1,1628 @@
+{
+  "abs-full-pressure": {
+    "height": 129,
+    "page": 96,
+    "src": "/handbook/manitoba/abs-full-pressure.png",
+    "width": 658
+  },
+  "alcohol-depressant": {
+    "height": 107,
+    "page": 114,
+    "src": "/handbook/manitoba/alcohol-depressant.png",
+    "width": 638
+  },
+  "animal-brake-not-swerve": {
+    "height": 130,
+    "page": 102,
+    "src": "/handbook/manitoba/animal-brake-not-swerve.png",
+    "width": 652
+  },
+  "backing-shoulder-choice": {
+    "height": 151,
+    "page": 82,
+    "src": "/handbook/manitoba/backing-shoulder-choice.png",
+    "width": 636
+  },
+  "backing-skill-test-attempts": {
+    "height": 130,
+    "page": 87,
+    "src": "/handbook/manitoba/backing-skill-test-attempts.png",
+    "width": 652
+  },
+  "backing-skill-test-space": {
+    "height": 130,
+    "page": 87,
+    "src": "/handbook/manitoba/backing-skill-test-space.png",
+    "width": 632
+  },
+  "backing-up-check": {
+    "height": 151,
+    "page": 82,
+    "src": "/handbook/manitoba/backing-up-check.png",
+    "width": 636
+  },
+  "being-passed": {
+    "height": 129,
+    "page": 60,
+    "src": "/handbook/manitoba/being-passed.png",
+    "width": 585
+  },
+  "being-tailgated": {
+    "height": 129,
+    "page": 59,
+    "src": "/handbook/manitoba/being-tailgated.png",
+    "width": 605
+  },
+  "bike-lane-not-limited": {
+    "height": 108,
+    "page": 39,
+    "src": "/handbook/manitoba/bike-lane-not-limited.png",
+    "width": 605
+  },
+  "blind-pedestrian-cane": {
+    "height": 151,
+    "page": 76,
+    "src": "/handbook/manitoba/blind-pedestrian-cane.png",
+    "width": 652
+  },
+  "blowout-front-vs-rear": {
+    "height": 151,
+    "page": 104,
+    "src": "/handbook/manitoba/blowout-front-vs-rear.png",
+    "width": 658
+  },
+  "blowout-response": {
+    "height": 129,
+    "page": 104,
+    "src": "/handbook/manitoba/blowout-response.png",
+    "width": 569
+  },
+  "booster-seat-law": {
+    "height": 107,
+    "page": 21,
+    "src": "/handbook/manitoba/booster-seat-law.png",
+    "width": 621
+  },
+  "brakes-stopping-distance": {
+    "height": 129,
+    "page": 92,
+    "src": "/handbook/manitoba/brakes-stopping-distance.png",
+    "width": 602
+  },
+  "bumper-required": {
+    "height": 107,
+    "page": 95,
+    "src": "/handbook/manitoba/bumper-required.png",
+    "width": 502
+  },
+  "cannabis-in-vehicle": {
+    "height": 163,
+    "page": 114,
+    "src": "/handbook/manitoba/cannabis-in-vehicle.png",
+    "width": 619
+  },
+  "car-seat-not-both-anchors": {
+    "height": 129,
+    "page": 19,
+    "src": "/handbook/manitoba/car-seat-not-both-anchors.png",
+    "width": 577
+  },
+  "car-seat-rear-middle": {
+    "height": 107,
+    "page": 19,
+    "src": "/handbook/manitoba/car-seat-rear-middle.png",
+    "width": 617
+  },
+  "change-of-address-15-days": {
+    "height": 130,
+    "page": 10,
+    "src": "/handbook/manitoba/change-of-address-15-days.png",
+    "width": 655
+  },
+  "collision-do-not-move-injured": {
+    "height": 132,
+    "page": 110,
+    "src": "/handbook/manitoba/collision-do-not-move-injured.png",
+    "width": 650
+  },
+  "collision-exchange-details": {
+    "height": 107,
+    "page": 111,
+    "src": "/handbook/manitoba/collision-exchange-details.png",
+    "width": 639
+  },
+  "collision-property-damage-only": {
+    "height": 134,
+    "page": 111,
+    "src": "/handbook/manitoba/collision-property-damage-only.png",
+    "width": 646
+  },
+  "collision-report-seven-days": {
+    "height": 151,
+    "page": 111,
+    "src": "/handbook/manitoba/collision-report-seven-days.png",
+    "width": 653
+  },
+  "collision-scene-arrive": {
+    "height": 107,
+    "page": 110,
+    "src": "/handbook/manitoba/collision-scene-arrive.png",
+    "width": 621
+  },
+  "collision-stop-immediately": {
+    "height": 107,
+    "page": 111,
+    "src": "/handbook/manitoba/collision-stop-immediately.png",
+    "width": 288
+  },
+  "collision-unattended-vehicle": {
+    "height": 151,
+    "page": 112,
+    "src": "/handbook/manitoba/collision-unattended-vehicle.png",
+    "width": 624
+  },
+  "construction-double-fines": {
+    "height": 199,
+    "page": 69,
+    "src": "/handbook/manitoba/construction-double-fines.png",
+    "width": 532
+  },
+  "construction-flagperson": {
+    "height": 152,
+    "page": 69,
+    "src": "/handbook/manitoba/construction-flagperson.png",
+    "width": 531
+  },
+  "contra-flow-lane": {
+    "height": 129,
+    "page": 38,
+    "src": "/handbook/manitoba/contra-flow-lane.png",
+    "width": 591
+  },
+  "criminal-code-suspension-range": {
+    "height": 129,
+    "page": 119,
+    "src": "/handbook/manitoba/criminal-code-suspension-range.png",
+    "width": 638
+  },
+  "crosswalk-driver-duty": {
+    "height": 151,
+    "page": 73,
+    "src": "/handbook/manitoba/crosswalk-driver-duty.png",
+    "width": 609
+  },
+  "crosswalk-no-passing": {
+    "height": 129,
+    "page": 73,
+    "src": "/handbook/manitoba/crosswalk-no-passing.png",
+    "width": 572
+  },
+  "crosswalk-parking-three-metres": {
+    "height": 107,
+    "page": 73,
+    "src": "/handbook/manitoba/crosswalk-parking-three-metres.png",
+    "width": 563
+  },
+  "crosswalk-right-of-way": {
+    "height": 107,
+    "page": 73,
+    "src": "/handbook/manitoba/crosswalk-right-of-way.png",
+    "width": 609
+  },
+  "curves-slow-before": {
+    "height": 151,
+    "page": 45,
+    "src": "/handbook/manitoba/curves-slow-before.png",
+    "width": 660
+  },
+  "curves-steering": {
+    "height": 151,
+    "page": 45,
+    "src": "/handbook/manitoba/curves-steering.png",
+    "width": 660
+  },
+  "cyclist-door-zone": {
+    "height": 107,
+    "page": 78,
+    "src": "/handbook/manitoba/cyclist-door-zone.png",
+    "width": 414
+  },
+  "cyclist-left-turn-yield": {
+    "height": 129,
+    "page": 78,
+    "src": "/handbook/manitoba/cyclist-left-turn-yield.png",
+    "width": 581
+  },
+  "cyclist-lights": {
+    "height": 129,
+    "page": 79,
+    "src": "/handbook/manitoba/cyclist-lights.png",
+    "width": 388
+  },
+  "cyclist-no-pass-situations": {
+    "height": 107,
+    "page": 80,
+    "src": "/handbook/manitoba/cyclist-no-pass-situations.png",
+    "width": 568
+  },
+  "cyclist-position-practicable": {
+    "height": 129,
+    "page": 79,
+    "src": "/handbook/manitoba/cyclist-position-practicable.png",
+    "width": 649
+  },
+  "cyclist-right-turn-yield": {
+    "height": 151,
+    "page": 78,
+    "src": "/handbook/manitoba/cyclist-right-turn-yield.png",
+    "width": 593
+  },
+  "cyclists-expected-behaviour": {
+    "height": 107,
+    "page": 79,
+    "src": "/handbook/manitoba/cyclists-expected-behaviour.png",
+    "width": 561
+  },
+  "cyclists-three-rs": {
+    "height": 132,
+    "page": 78,
+    "src": "/handbook/manitoba/cyclists-three-rs.png",
+    "width": 596
+  },
+  "deer-peak-times": {
+    "height": 130,
+    "page": 102,
+    "src": "/handbook/manitoba/deer-peak-times.png",
+    "width": 649
+  },
+  "default-speed-limits": {
+    "height": 151,
+    "page": 59,
+    "src": "/handbook/manitoba/default-speed-limits.png",
+    "width": 602
+  },
+  "defective-equipment-order": {
+    "height": 173,
+    "page": 92,
+    "src": "/handbook/manitoba/defective-equipment-order.png",
+    "width": 609
+  },
+  "dimming-distances": {
+    "height": 129,
+    "page": 97,
+    "src": "/handbook/manitoba/dimming-distances.png",
+    "width": 641
+  },
+  "disabled-parking-illegal": {
+    "height": 154,
+    "page": 126,
+    "src": "/handbook/manitoba/disabled-parking-illegal.png",
+    "width": 620
+  },
+  "disabled-permit-display": {
+    "height": 130,
+    "page": 126,
+    "src": "/handbook/manitoba/disabled-permit-display.png",
+    "width": 622
+  },
+  "disabled-vehicle-flares": {
+    "height": 129,
+    "page": 107,
+    "src": "/handbook/manitoba/disabled-vehicle-flares.png",
+    "width": 633
+  },
+  "disabled-vehicle-hood": {
+    "height": 129,
+    "page": 107,
+    "src": "/handbook/manitoba/disabled-vehicle-hood.png",
+    "width": 561
+  },
+  "distraction-definition": {
+    "height": 130,
+    "page": 98,
+    "src": "/handbook/manitoba/distraction-definition.png",
+    "width": 663
+  },
+  "driving-suspended-impound": {
+    "height": 151,
+    "page": 120,
+    "src": "/handbook/manitoba/driving-suspended-impound.png",
+    "width": 663
+  },
+  "driving-suspended-penalty": {
+    "height": 107,
+    "page": 120,
+    "src": "/handbook/manitoba/driving-suspended-penalty.png",
+    "width": 492
+  },
+  "drowsiness": {
+    "height": 152,
+    "page": 98,
+    "src": "/handbook/manitoba/drowsiness.png",
+    "width": 659
+  },
+  "drug-24-hour-suspension": {
+    "height": 129,
+    "page": 117,
+    "src": "/handbook/manitoba/drug-24-hour-suspension.png",
+    "width": 653
+  },
+  "dsr-scale": {
+    "height": 151,
+    "page": 124,
+    "src": "/handbook/manitoba/dsr-scale.png",
+    "width": 627
+  },
+  "electrical-wires-stay-inside": {
+    "height": 108,
+    "page": 109,
+    "src": "/handbook/manitoba/electrical-wires-stay-inside.png",
+    "width": 418
+  },
+  "emergency-vehicle-alarm": {
+    "height": 130,
+    "page": 64,
+    "src": "/handbook/manitoba/emergency-vehicle-alarm.png",
+    "width": 646
+  },
+  "emergency-vehicle-one-way": {
+    "height": 130,
+    "page": 64,
+    "src": "/handbook/manitoba/emergency-vehicle-one-way.png",
+    "width": 594
+  },
+  "emergency-vehicle-remain-stopped": {
+    "height": 186,
+    "page": 64,
+    "src": "/handbook/manitoba/emergency-vehicle-remain-stopped.png",
+    "width": 594
+  },
+  "emergency-vehicle-yield": {
+    "height": 152,
+    "page": 64,
+    "src": "/handbook/manitoba/emergency-vehicle-yield.png",
+    "width": 651
+  },
+  "engine-running-unattended": {
+    "height": 130,
+    "page": 91,
+    "src": "/handbook/manitoba/engine-running-unattended.png",
+    "width": 631
+  },
+  "expressway-entering": {
+    "height": 152,
+    "page": 62,
+    "src": "/handbook/manitoba/expressway-entering.png",
+    "width": 604
+  },
+  "expressway-leaving": {
+    "height": 151,
+    "page": 63,
+    "src": "/handbook/manitoba/expressway-leaving.png",
+    "width": 628
+  },
+  "expressway-missed-exit": {
+    "height": 132,
+    "page": 63,
+    "src": "/handbook/manitoba/expressway-missed-exit.png",
+    "width": 636
+  },
+  "farm-equipment-speed": {
+    "height": 129,
+    "page": 101,
+    "src": "/handbook/manitoba/farm-equipment-speed.png",
+    "width": 655
+  },
+  "fog-low-beam": {
+    "height": 130,
+    "page": 96,
+    "src": "/handbook/manitoba/fog-low-beam.png",
+    "width": 599
+  },
+  "following-count-method": {
+    "height": 173,
+    "page": 59,
+    "src": "/handbook/manitoba/following-count-method.png",
+    "width": 371
+  },
+  "following-four-seconds": {
+    "height": 107,
+    "page": 59,
+    "src": "/handbook/manitoba/following-four-seconds.png",
+    "width": 578
+  },
+  "four-way-stop-first": {
+    "height": 151,
+    "page": 32,
+    "src": "/handbook/manitoba/four-way-stop-first.png",
+    "width": 350
+  },
+  "four-way-stop-tie": {
+    "height": 173,
+    "page": 32,
+    "src": "/handbook/manitoba/four-way-stop-tie.png",
+    "width": 350
+  },
+  "funeral-procession": {
+    "height": 151,
+    "page": 63,
+    "src": "/handbook/manitoba/funeral-procession.png",
+    "width": 647
+  },
+  "funeral-purple-light": {
+    "height": 129,
+    "page": 63,
+    "src": "/handbook/manitoba/funeral-purple-light.png",
+    "width": 565
+  },
+  "gdl-full-stage": {
+    "height": 156,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-full-stage.png",
+    "width": 578
+  },
+  "gdl-intermediate-night-passengers": {
+    "height": 156,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-intermediate-night-passengers.png",
+    "width": 679
+  },
+  "gdl-intermediate-road-test": {
+    "height": 108,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-intermediate-road-test.png",
+    "width": 620
+  },
+  "gdl-learner-age": {
+    "height": 203,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-learner-age.png",
+    "width": 606
+  },
+  "gdl-learner-back-seat": {
+    "height": 131,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-learner-back-seat.png",
+    "width": 619
+  },
+  "gdl-learner-front-seat": {
+    "height": 179,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-learner-front-seat.png",
+    "width": 631
+  },
+  "gdl-learner-nine-months": {
+    "height": 117,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-learner-nine-months.png",
+    "width": 530
+  },
+  "gdl-learner-prohibitions": {
+    "height": 107,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-learner-prohibitions.png",
+    "width": 540
+  },
+  "gdl-supervise-after-three-years": {
+    "height": 132,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-supervise-after-three-years.png",
+    "width": 578
+  },
+  "gdl-supervising-driver": {
+    "height": 155,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-supervising-driver.png",
+    "width": 631
+  },
+  "gdl-three-stages": {
+    "height": 155,
+    "page": 13,
+    "src": "/handbook/manitoba/gdl-three-stages.png",
+    "width": 568
+  },
+  "glare-look-right": {
+    "height": 132,
+    "page": 97,
+    "src": "/handbook/manitoba/glare-look-right.png",
+    "width": 624
+  },
+  "gravel-six-seconds": {
+    "height": 134,
+    "page": 99,
+    "src": "/handbook/manitoba/gravel-six-seconds.png",
+    "width": 658
+  },
+  "gravel-slow-down": {
+    "height": 112,
+    "page": 99,
+    "src": "/handbook/manitoba/gravel-slow-down.png",
+    "width": 549
+  },
+  "hand-signals": {
+    "height": 132,
+    "page": 45,
+    "src": "/handbook/manitoba/hand-signals.png",
+    "width": 268
+  },
+  "handheld-device-fine": {
+    "height": 131,
+    "page": 99,
+    "src": "/handbook/manitoba/handheld-device-fine.png",
+    "width": 652
+  },
+  "handheld-device-suspension": {
+    "height": 154,
+    "page": 99,
+    "src": "/handbook/manitoba/handheld-device-suspension.png",
+    "width": 652
+  },
+  "head-on-avoidance": {
+    "height": 129,
+    "page": 107,
+    "src": "/handbook/manitoba/head-on-avoidance.png",
+    "width": 647
+  },
+  "headlight-hours": {
+    "height": 151,
+    "page": 93,
+    "src": "/handbook/manitoba/headlight-hours.png",
+    "width": 649
+  },
+  "heavy-equipment-licence": {
+    "height": 129,
+    "page": 18,
+    "src": "/handbook/manitoba/heavy-equipment-licence.png",
+    "width": 660
+  },
+  "hill-park-downhill": {
+    "height": 133,
+    "page": 90,
+    "src": "/handbook/manitoba/hill-park-downhill.png",
+    "width": 554
+  },
+  "hill-park-gear": {
+    "height": 153,
+    "page": 90,
+    "src": "/handbook/manitoba/hill-park-gear.png",
+    "width": 601
+  },
+  "hill-park-no-curb": {
+    "height": 130,
+    "page": 90,
+    "src": "/handbook/manitoba/hill-park-no-curb.png",
+    "width": 621
+  },
+  "hill-park-uphill": {
+    "height": 112,
+    "page": 90,
+    "src": "/handbook/manitoba/hill-park-uphill.png",
+    "width": 447
+  },
+  "hills-lower-gear": {
+    "height": 173,
+    "page": 101,
+    "src": "/handbook/manitoba/hills-lower-gear.png",
+    "width": 661
+  },
+  "hills-no-passing-crest": {
+    "height": 107,
+    "page": 101,
+    "src": "/handbook/manitoba/hills-no-passing-crest.png",
+    "width": 628
+  },
+  "horn-60-metres": {
+    "height": 129,
+    "page": 94,
+    "src": "/handbook/manitoba/horn-60-metres.png",
+    "width": 525
+  },
+  "horses-pass-slow-wide": {
+    "height": 151,
+    "page": 103,
+    "src": "/handbook/manitoba/horses-pass-slow-wide.png",
+    "width": 662
+  },
+  "hta-no-clearance-specified": {
+    "height": 151,
+    "page": 81,
+    "src": "/handbook/manitoba/hta-no-clearance-specified.png",
+    "width": 666
+  },
+  "hta-right-of-way-general": {
+    "height": 129,
+    "page": 63,
+    "src": "/handbook/manitoba/hta-right-of-way-general.png",
+    "width": 638
+  },
+  "hybrid-vehicle-quiet": {
+    "height": 129,
+    "page": 76,
+    "src": "/handbook/manitoba/hybrid-vehicle-quiet.png",
+    "width": 642
+  },
+  "ice-snow-start-slowly": {
+    "height": 107,
+    "page": 96,
+    "src": "/handbook/manitoba/ice-snow-start-slowly.png",
+    "width": 526
+  },
+  "impaired-any-level": {
+    "height": 129,
+    "page": 114,
+    "src": "/handbook/manitoba/impaired-any-level.png",
+    "width": 638
+  },
+  "knowledge-test-closed-book": {
+    "height": 152,
+    "page": 10,
+    "src": "/handbook/manitoba/knowledge-test-closed-book.png",
+    "width": 657
+  },
+  "knowledge-test-content": {
+    "height": 130,
+    "page": 10,
+    "src": "/handbook/manitoba/knowledge-test-content.png",
+    "width": 657
+  },
+  "knowledge-test-retest-wait": {
+    "height": 148,
+    "page": 12,
+    "src": "/handbook/manitoba/knowledge-test-retest-wait.png",
+    "width": 647
+  },
+  "knowledge-test-time-limit": {
+    "height": 107,
+    "page": 12,
+    "src": "/handbook/manitoba/knowledge-test-time-limit.png",
+    "width": 499
+  },
+  "lane-change-mirrors-only": {
+    "height": 152,
+    "page": 44,
+    "src": "/handbook/manitoba/lane-change-mirrors-only.png",
+    "width": 659
+  },
+  "lane-change-multiple": {
+    "height": 152,
+    "page": 44,
+    "src": "/handbook/manitoba/lane-change-multiple.png",
+    "width": 659
+  },
+  "lane-change-procedure": {
+    "height": 152,
+    "page": 44,
+    "src": "/handbook/manitoba/lane-change-procedure.png",
+    "width": 659
+  },
+  "left-on-red-one-way": {
+    "height": 151,
+    "page": 54,
+    "src": "/handbook/manitoba/left-on-red-one-way.png",
+    "width": 595
+  },
+  "left-turn-established": {
+    "height": 129,
+    "page": 50,
+    "src": "/handbook/manitoba/left-turn-established.png",
+    "width": 608
+  },
+  "left-turn-not-established": {
+    "height": 151,
+    "page": 50,
+    "src": "/handbook/manitoba/left-turn-not-established.png",
+    "width": 608
+  },
+  "left-turn-one-way-to-two-way": {
+    "height": 129,
+    "page": 55,
+    "src": "/handbook/manitoba/left-turn-one-way-to-two-way.png",
+    "width": 595
+  },
+  "left-turn-two-lanes": {
+    "height": 173,
+    "page": 52,
+    "src": "/handbook/manitoba/left-turn-two-lanes.png",
+    "width": 644
+  },
+  "left-turn-two-way-approach": {
+    "height": 129,
+    "page": 51,
+    "src": "/handbook/manitoba/left-turn-two-way-approach.png",
+    "width": 540
+  },
+  "left-turns-more-dangerous": {
+    "height": 108,
+    "page": 49,
+    "src": "/handbook/manitoba/left-turns-more-dangerous.png",
+    "width": 604
+  },
+  "licence-in-possession": {
+    "height": 151,
+    "page": 16,
+    "src": "/handbook/manitoba/licence-in-possession.png",
+    "width": 577
+  },
+  "licence-not-border-document": {
+    "height": 129,
+    "page": 16,
+    "src": "/handbook/manitoba/licence-not-border-document.png",
+    "width": 616
+  },
+  "licence-valid-five-years": {
+    "height": 107,
+    "page": 14,
+    "src": "/handbook/manitoba/licence-valid-five-years.png",
+    "width": 584
+  },
+  "load-overhang-flag": {
+    "height": 152,
+    "page": 93,
+    "src": "/handbook/manitoba/load-overhang-flag.png",
+    "width": 647
+  },
+  "low-beams-when": {
+    "height": 129,
+    "page": 98,
+    "src": "/handbook/manitoba/low-beams-when.png",
+    "width": 559
+  },
+  "markings-broken-line": {
+    "height": 152,
+    "page": 36,
+    "src": "/handbook/manitoba/markings-broken-line.png",
+    "width": 618
+  },
+  "markings-double-solid": {
+    "height": 129,
+    "page": 36,
+    "src": "/handbook/manitoba/markings-double-solid.png",
+    "width": 354
+  },
+  "markings-solid-and-broken": {
+    "height": 129,
+    "page": 36,
+    "src": "/handbook/manitoba/markings-solid-and-broken.png",
+    "width": 354
+  },
+  "markings-solid-line-left": {
+    "height": 108,
+    "page": 36,
+    "src": "/handbook/manitoba/markings-solid-line-left.png",
+    "width": 618
+  },
+  "markings-stop-line": {
+    "height": 107,
+    "page": 36,
+    "src": "/handbook/manitoba/markings-stop-line.png",
+    "width": 273
+  },
+  "markings-white-lines": {
+    "height": 112,
+    "page": 36,
+    "src": "/handbook/manitoba/markings-white-lines.png",
+    "width": 464
+  },
+  "markings-yellow-lines": {
+    "height": 113,
+    "page": 36,
+    "src": "/handbook/manitoba/markings-yellow-lines.png",
+    "width": 466
+  },
+  "move-over-lane-change": {
+    "height": 151,
+    "page": 65,
+    "src": "/handbook/manitoba/move-over-lane-change.png",
+    "width": 652
+  },
+  "muffler-required": {
+    "height": 107,
+    "page": 95,
+    "src": "/handbook/manitoba/muffler-required.png",
+    "width": 643
+  },
+  "never-change-lanes-at-intersections": {
+    "height": 108,
+    "page": 44,
+    "src": "/handbook/manitoba/never-change-lanes-at-intersections.png",
+    "width": 330
+  },
+  "never-enter-blocked-intersection": {
+    "height": 108,
+    "page": 49,
+    "src": "/handbook/manitoba/never-enter-blocked-intersection.png",
+    "width": 583
+  },
+  "never-swerve-left": {
+    "height": 154,
+    "page": 107,
+    "src": "/handbook/manitoba/never-swerve-left.png",
+    "width": 647
+  },
+  "night-overdriving-headlights": {
+    "height": 129,
+    "page": 97,
+    "src": "/handbook/manitoba/night-overdriving-headlights.png",
+    "width": 662
+  },
+  "night-see-distance": {
+    "height": 129,
+    "page": 97,
+    "src": "/handbook/manitoba/night-see-distance.png",
+    "width": 662
+  },
+  "no-abs-threshold": {
+    "height": 129,
+    "page": 96,
+    "src": "/handbook/manitoba/no-abs-threshold.png",
+    "width": 658
+  },
+  "no-zone-front": {
+    "height": 130,
+    "page": 61,
+    "src": "/handbook/manitoba/no-zone-front.png",
+    "width": 644
+  },
+  "no-zone-rear": {
+    "height": 108,
+    "page": 61,
+    "src": "/handbook/manitoba/no-zone-rear.png",
+    "width": 629
+  },
+  "no-zone-wide-turns": {
+    "height": 130,
+    "page": 61,
+    "src": "/handbook/manitoba/no-zone-wide-turns.png",
+    "width": 618
+  },
+  "novice-driver-definition": {
+    "height": 130,
+    "page": 122,
+    "src": "/handbook/manitoba/novice-driver-definition.png",
+    "width": 647
+  },
+  "novice-zero-tolerance": {
+    "height": 107,
+    "page": 117,
+    "src": "/handbook/manitoba/novice-zero-tolerance.png",
+    "width": 641
+  },
+  "odometer-illegal": {
+    "height": 129,
+    "page": 95,
+    "src": "/handbook/manitoba/odometer-illegal.png",
+    "width": 656
+  },
+  "one-test-per-day": {
+    "height": 107,
+    "page": 12,
+    "src": "/handbook/manitoba/one-test-per-day.png",
+    "width": 618
+  },
+  "only-one-licence": {
+    "height": 130,
+    "page": 17,
+    "src": "/handbook/manitoba/only-one-licence.png",
+    "width": 511
+  },
+  "painted-left-turn-island": {
+    "height": 266,
+    "page": 37,
+    "src": "/handbook/manitoba/painted-left-turn-island.png",
+    "width": 197
+  },
+  "parallel-park-45-cm": {
+    "height": 129,
+    "page": 86,
+    "src": "/handbook/manitoba/parallel-park-45-cm.png",
+    "width": 584
+  },
+  "parallel-park-angle": {
+    "height": 151,
+    "page": 85,
+    "src": "/handbook/manitoba/parallel-park-angle.png",
+    "width": 630
+  },
+  "parallel-park-start": {
+    "height": 151,
+    "page": 85,
+    "src": "/handbook/manitoba/parallel-park-start.png",
+    "width": 632
+  },
+  "parking-curve-60-metres": {
+    "height": 151,
+    "page": 91,
+    "src": "/handbook/manitoba/parking-curve-60-metres.png",
+    "width": 543
+  },
+  "parking-double-park": {
+    "height": 107,
+    "page": 91,
+    "src": "/handbook/manitoba/parking-double-park.png",
+    "width": 490
+  },
+  "parking-fire-station-six-metres": {
+    "height": 129,
+    "page": 91,
+    "src": "/handbook/manitoba/parking-fire-station-six-metres.png",
+    "width": 531
+  },
+  "parking-hydrant-three-metres": {
+    "height": 129,
+    "page": 91,
+    "src": "/handbook/manitoba/parking-hydrant-three-metres.png",
+    "width": 576
+  },
+  "parking-stop-sign-nine-metres": {
+    "height": 129,
+    "page": 91,
+    "src": "/handbook/manitoba/parking-stop-sign-nine-metres.png",
+    "width": 567
+  },
+  "passing-closing-speed": {
+    "height": 130,
+    "page": 60,
+    "src": "/handbook/manitoba/passing-closing-speed.png",
+    "width": 659
+  },
+  "passing-cyclist-one-metre": {
+    "height": 173,
+    "page": 40,
+    "src": "/handbook/manitoba/passing-cyclist-one-metre.png",
+    "width": 659
+  },
+  "passing-never": {
+    "height": 129,
+    "page": 60,
+    "src": "/handbook/manitoba/passing-never.png",
+    "width": 583
+  },
+  "passing-no-speeding": {
+    "height": 130,
+    "page": 60,
+    "src": "/handbook/manitoba/passing-no-speeding.png",
+    "width": 568
+  },
+  "passing-return-to-lane": {
+    "height": 129,
+    "page": 60,
+    "src": "/handbook/manitoba/passing-return-to-lane.png",
+    "width": 600
+  },
+  "pedestrian-check-turning-vehicles": {
+    "height": 151,
+    "page": 74,
+    "src": "/handbook/manitoba/pedestrian-check-turning-vehicles.png",
+    "width": 507
+  },
+  "pedestrian-corridor-description": {
+    "height": 129,
+    "page": 75,
+    "src": "/handbook/manitoba/pedestrian-corridor-description.png",
+    "width": 582
+  },
+  "pedestrian-corridor-parking": {
+    "height": 108,
+    "page": 75,
+    "src": "/handbook/manitoba/pedestrian-corridor-parking.png",
+    "width": 610
+  },
+  "pedestrian-orange-hand": {
+    "height": 151,
+    "page": 74,
+    "src": "/handbook/manitoba/pedestrian-orange-hand.png",
+    "width": 568
+  },
+  "pedestrian-walking-figure": {
+    "height": 107,
+    "page": 74,
+    "src": "/handbook/manitoba/pedestrian-walking-figure.png",
+    "width": 552
+  },
+  "pilot-vehicle-distance": {
+    "height": 151,
+    "page": 103,
+    "src": "/handbook/manitoba/pilot-vehicle-distance.png",
+    "width": 660
+  },
+  "prescription-drugs": {
+    "height": 129,
+    "page": 114,
+    "src": "/handbook/manitoba/prescription-drugs.png",
+    "width": 639
+  },
+  "private-entrance-stop": {
+    "height": 151,
+    "page": 63,
+    "src": "/handbook/manitoba/private-entrance-stop.png",
+    "width": 658
+  },
+  "railway-cross-while-flashing": {
+    "height": 107,
+    "page": 72,
+    "src": "/handbook/manitoba/railway-cross-while-flashing.png",
+    "width": 595
+  },
+  "railway-multiple-tracks": {
+    "height": 151,
+    "page": 71,
+    "src": "/handbook/manitoba/railway-multiple-tracks.png",
+    "width": 547
+  },
+  "railway-park-30-metres": {
+    "height": 129,
+    "page": 72,
+    "src": "/handbook/manitoba/railway-park-30-metres.png",
+    "width": 563
+  },
+  "railway-stop-distances": {
+    "height": 153,
+    "page": 71,
+    "src": "/handbook/manitoba/railway-stop-distances.png",
+    "width": 621
+  },
+  "railway-traffic-backed-up": {
+    "height": 130,
+    "page": 71,
+    "src": "/handbook/manitoba/railway-traffic-backed-up.png",
+    "width": 659
+  },
+  "reserved-lane-markings": {
+    "height": 129,
+    "page": 37,
+    "src": "/handbook/manitoba/reserved-lane-markings.png",
+    "width": 525
+  },
+  "reserved-lane-right-turn": {
+    "height": 173,
+    "page": 37,
+    "src": "/handbook/manitoba/reserved-lane-right-turn.png",
+    "width": 405
+  },
+  "restricted-speed-area": {
+    "height": 153,
+    "page": 71,
+    "src": "/handbook/manitoba/restricted-speed-area.png",
+    "width": 621
+  },
+  "right-turn-lane": {
+    "height": 152,
+    "page": 46,
+    "src": "/handbook/manitoba/right-turn-lane.png",
+    "width": 624
+  },
+  "right-turn-yield-pedestrians": {
+    "height": 130,
+    "page": 46,
+    "src": "/handbook/manitoba/right-turn-yield-pedestrians.png",
+    "width": 624
+  },
+  "road-test-fifth-attempt": {
+    "height": 148,
+    "page": 12,
+    "src": "/handbook/manitoba/road-test-fifth-attempt.png",
+    "width": 623
+  },
+  "road-test-retest-wait": {
+    "height": 127,
+    "page": 12,
+    "src": "/handbook/manitoba/road-test-retest-wait.png",
+    "width": 637
+  },
+  "rollover-recovery": {
+    "height": 151,
+    "page": 100,
+    "src": "/handbook/manitoba/rollover-recovery.png",
+    "width": 657
+  },
+  "roundabout-approach": {
+    "height": 174,
+    "page": 58,
+    "src": "/handbook/manitoba/roundabout-approach.png",
+    "width": 638
+  },
+  "roundabout-exit": {
+    "height": 174,
+    "page": 58,
+    "src": "/handbook/manitoba/roundabout-exit.png",
+    "width": 638
+  },
+  "roundabout-priority": {
+    "height": 174,
+    "page": 58,
+    "src": "/handbook/manitoba/roundabout-priority.png",
+    "width": 638
+  },
+  "running-off-pavement": {
+    "height": 175,
+    "page": 104,
+    "src": "/handbook/manitoba/running-off-pavement.png",
+    "width": 413
+  },
+  "school-area-drive-slowly": {
+    "height": 129,
+    "page": 77,
+    "src": "/handbook/manitoba/school-area-drive-slowly.png",
+    "width": 601
+  },
+  "school-area-no-passing": {
+    "height": 173,
+    "page": 77,
+    "src": "/handbook/manitoba/school-area-no-passing.png",
+    "width": 601
+  },
+  "school-bus-amber": {
+    "height": 129,
+    "page": 65,
+    "src": "/handbook/manitoba/school-bus-amber.png",
+    "width": 617
+  },
+  "school-bus-divided-road": {
+    "height": 153,
+    "page": 65,
+    "src": "/handbook/manitoba/school-bus-divided-road.png",
+    "width": 615
+  },
+  "school-bus-five-metres": {
+    "height": 151,
+    "page": 65,
+    "src": "/handbook/manitoba/school-bus-five-metres.png",
+    "width": 659
+  },
+  "school-bus-remain-stopped": {
+    "height": 129,
+    "page": 65,
+    "src": "/handbook/manitoba/school-bus-remain-stopped.png",
+    "width": 659
+  },
+  "school-crosswalk-open-to-all": {
+    "height": 107,
+    "page": 73,
+    "src": "/handbook/manitoba/school-crosswalk-open-to-all.png",
+    "width": 464
+  },
+  "school-safety-patrol": {
+    "height": 129,
+    "page": 77,
+    "src": "/handbook/manitoba/school-safety-patrol.png",
+    "width": 648
+  },
+  "school-zone-speed": {
+    "height": 151,
+    "page": 77,
+    "src": "/handbook/manitoba/school-zone-speed.png",
+    "width": 547
+  },
+  "seatbelt-driver-responsibility": {
+    "height": 129,
+    "page": 19,
+    "src": "/handbook/manitoba/seatbelt-driver-responsibility.png",
+    "width": 574
+  },
+  "seatbelt-fatality-reduction": {
+    "height": 134,
+    "page": 22,
+    "src": "/handbook/manitoba/seatbelt-fatality-reduction.png",
+    "width": 503
+  },
+  "seatbelt-required": {
+    "height": 129,
+    "page": 19,
+    "src": "/handbook/manitoba/seatbelt-required.png",
+    "width": 613
+  },
+  "seatbelt-worn-properly": {
+    "height": 129,
+    "page": 19,
+    "src": "/handbook/manitoba/seatbelt-worn-properly.png",
+    "width": 600
+  },
+  "sharrows": {
+    "height": 129,
+    "page": 40,
+    "src": "/handbook/manitoba/sharrows.png",
+    "width": 659
+  },
+  "shoulder-not-a-lane": {
+    "height": 151,
+    "page": 48,
+    "src": "/handbook/manitoba/shoulder-not-a-lane.png",
+    "width": 387
+  },
+  "sign-construction-purpose": {
+    "height": 168,
+    "page": 28,
+    "src": "/handbook/manitoba/sign-construction-purpose.png",
+    "width": 629
+  },
+  "sign-crossbuck": {
+    "height": 150,
+    "page": 24,
+    "src": "/handbook/manitoba/sign-crossbuck.png",
+    "width": 472
+  },
+  "sign-diamond": {
+    "height": 170,
+    "page": 24,
+    "src": "/handbook/manitoba/sign-diamond.png",
+    "width": 470
+  },
+  "sign-guide-purpose": {
+    "height": 108,
+    "page": 31,
+    "src": "/handbook/manitoba/sign-guide-purpose.png",
+    "width": 648
+  },
+  "sign-low-clearance": {
+    "height": 129,
+    "page": 26,
+    "src": "/handbook/manitoba/sign-low-clearance.png",
+    "width": 234
+  },
+  "sign-octagon": {
+    "height": 130,
+    "page": 24,
+    "src": "/handbook/manitoba/sign-octagon.png",
+    "width": 438
+  },
+  "sign-prepare-to-stop": {
+    "height": 167,
+    "page": 27,
+    "src": "/handbook/manitoba/sign-prepare-to-stop.png",
+    "width": 442
+  },
+  "sign-railway-lights-bells": {
+    "height": 187,
+    "page": 27,
+    "src": "/handbook/manitoba/sign-railway-lights-bells.png",
+    "width": 400
+  },
+  "sign-railway-track-count": {
+    "height": 147,
+    "page": 27,
+    "src": "/handbook/manitoba/sign-railway-track-count.png",
+    "width": 404
+  },
+  "sign-rectangle-regulates": {
+    "height": 130,
+    "page": 24,
+    "src": "/handbook/manitoba/sign-rectangle-regulates.png",
+    "width": 451
+  },
+  "sign-regulatory-purpose": {
+    "height": 130,
+    "page": 29,
+    "src": "/handbook/manitoba/sign-regulatory-purpose.png",
+    "width": 619
+  },
+  "sign-reserved-lane-cross-street": {
+    "height": 127,
+    "page": 27,
+    "src": "/handbook/manitoba/sign-reserved-lane-cross-street.png",
+    "width": 417
+  },
+  "sign-school-pentagon": {
+    "height": 130,
+    "page": 24,
+    "src": "/handbook/manitoba/sign-school-pentagon.png",
+    "width": 470
+  },
+  "sign-shapes-purpose": {
+    "height": 151,
+    "page": 24,
+    "src": "/handbook/manitoba/sign-shapes-purpose.png",
+    "width": 666
+  },
+  "sign-slow-moving-vehicle": {
+    "height": 112,
+    "page": 24,
+    "src": "/handbook/manitoba/sign-slow-moving-vehicle.png",
+    "width": 484
+  },
+  "sign-snow-route": {
+    "height": 170,
+    "page": 30,
+    "src": "/handbook/manitoba/sign-snow-route.png",
+    "width": 198
+  },
+  "sign-warning-purpose": {
+    "height": 108,
+    "page": 25,
+    "src": "/handbook/manitoba/sign-warning-purpose.png",
+    "width": 562
+  },
+  "sign-yield-triangle": {
+    "height": 130,
+    "page": 24,
+    "src": "/handbook/manitoba/sign-yield-triangle.png",
+    "width": 477
+  },
+  "signal-amber": {
+    "height": 130,
+    "page": 33,
+    "src": "/handbook/manitoba/signal-amber.png",
+    "width": 623
+  },
+  "signal-amber-arrow": {
+    "height": 173,
+    "page": 34,
+    "src": "/handbook/manitoba/signal-amber-arrow.png",
+    "width": 483
+  },
+  "signal-distance": {
+    "height": 129,
+    "page": 45,
+    "src": "/handbook/manitoba/signal-distance.png",
+    "width": 602
+  },
+  "signal-flashing-amber": {
+    "height": 129,
+    "page": 34,
+    "src": "/handbook/manitoba/signal-flashing-amber.png",
+    "width": 459
+  },
+  "signal-flashing-green-arrow": {
+    "height": 151,
+    "page": 34,
+    "src": "/handbook/manitoba/signal-flashing-green-arrow.png",
+    "width": 480
+  },
+  "signal-flashing-red": {
+    "height": 129,
+    "page": 34,
+    "src": "/handbook/manitoba/signal-flashing-red.png",
+    "width": 447
+  },
+  "signal-green": {
+    "height": 130,
+    "page": 33,
+    "src": "/handbook/manitoba/signal-green.png",
+    "width": 641
+  },
+  "signal-green-arrow-alone": {
+    "height": 151,
+    "page": 34,
+    "src": "/handbook/manitoba/signal-green-arrow-alone.png",
+    "width": 501
+  },
+  "signal-green-arrow-with-red": {
+    "height": 217,
+    "page": 34,
+    "src": "/handbook/manitoba/signal-green-arrow-with-red.png",
+    "width": 501
+  },
+  "signal-green-left-turn": {
+    "height": 152,
+    "page": 33,
+    "src": "/handbook/manitoba/signal-green-left-turn.png",
+    "width": 641
+  },
+  "signal-green-u-turn-arrow": {
+    "height": 129,
+    "page": 34,
+    "src": "/handbook/manitoba/signal-green-u-turn-arrow.png",
+    "width": 449
+  },
+  "signal-red-turns": {
+    "height": 174,
+    "page": 33,
+    "src": "/handbook/manitoba/signal-red-turns.png",
+    "width": 626
+  },
+  "skid-control": {
+    "height": 185,
+    "page": 105,
+    "src": "/handbook/manitoba/skid-control.png",
+    "width": 546
+  },
+  "skid-dry-surface": {
+    "height": 152,
+    "page": 105,
+    "src": "/handbook/manitoba/skid-dry-surface.png",
+    "width": 597
+  },
+  "speed-poor-conditions": {
+    "height": 129,
+    "page": 59,
+    "src": "/handbook/manitoba/speed-poor-conditions.png",
+    "width": 602
+  },
+  "speed-too-slow": {
+    "height": 151,
+    "page": 59,
+    "src": "/handbook/manitoba/speed-too-slow.png",
+    "width": 602
+  },
+  "starting-from-parked": {
+    "height": 152,
+    "page": 44,
+    "src": "/handbook/manitoba/starting-from-parked.png",
+    "width": 630
+  },
+  "steering-hand-position": {
+    "height": 129,
+    "page": 41,
+    "src": "/handbook/manitoba/steering-hand-position.png",
+    "width": 607
+  },
+  "stop-sign-duty": {
+    "height": 152,
+    "page": 32,
+    "src": "/handbook/manitoba/stop-sign-duty.png",
+    "width": 655
+  },
+  "stop-sign-where-to-stop": {
+    "height": 107,
+    "page": 32,
+    "src": "/handbook/manitoba/stop-sign-where-to-stop.png",
+    "width": 236
+  },
+  "studded-tires-dates": {
+    "height": 112,
+    "page": 94,
+    "src": "/handbook/manitoba/studded-tires-dates.png",
+    "width": 457
+  },
+  "suspension-illegal": {
+    "height": 107,
+    "page": 95,
+    "src": "/handbook/manitoba/suspension-illegal.png",
+    "width": 548
+  },
+  "temporary-licence-45-days": {
+    "height": 129,
+    "page": 16,
+    "src": "/handbook/manitoba/temporary-licence-45-days.png",
+    "width": 643
+  },
+  "three-month-suspension": {
+    "height": 107,
+    "page": 118,
+    "src": "/handbook/manitoba/three-month-suspension.png",
+    "width": 604
+  },
+  "threshold-braking": {
+    "height": 152,
+    "page": 106,
+    "src": "/handbook/manitoba/threshold-braking.png",
+    "width": 629
+  },
+  "tiered-suspension-ladder": {
+    "height": 151,
+    "page": 117,
+    "src": "/handbook/manitoba/tiered-suspension-ladder.png",
+    "width": 636
+  },
+  "tiered-suspension-trigger": {
+    "height": 173,
+    "page": 117,
+    "src": "/handbook/manitoba/tiered-suspension-trigger.png",
+    "width": 651
+  },
+  "tire-pressure-monthly": {
+    "height": 130,
+    "page": 93,
+    "src": "/handbook/manitoba/tire-pressure-monthly.png",
+    "width": 654
+  },
+  "tire-tread-1-6-mm": {
+    "height": 107,
+    "page": 94,
+    "src": "/handbook/manitoba/tire-tread-1-6-mm.png",
+    "width": 638
+  },
+  "trains-right-of-way": {
+    "height": 155,
+    "page": 71,
+    "src": "/handbook/manitoba/trains-right-of-way.png",
+    "width": 633
+  },
+  "transit-bus-blind-spot": {
+    "height": 151,
+    "page": 68,
+    "src": "/handbook/manitoba/transit-bus-blind-spot.png",
+    "width": 423
+  },
+  "transit-bus-right-turn": {
+    "height": 152,
+    "page": 66,
+    "src": "/handbook/manitoba/transit-bus-right-turn.png",
+    "width": 637
+  },
+  "transit-bus-yield-decal": {
+    "height": 130,
+    "page": 66,
+    "src": "/handbook/manitoba/transit-bus-yield-decal.png",
+    "width": 639
+  },
+  "transit-priority-signal": {
+    "height": 196,
+    "page": 35,
+    "src": "/handbook/manitoba/transit-priority-signal.png",
+    "width": 474
+  },
+  "u-turn-advice": {
+    "height": 129,
+    "page": 57,
+    "src": "/handbook/manitoba/u-turn-advice.png",
+    "width": 621
+  },
+  "u-turn-prohibited": {
+    "height": 129,
+    "page": 57,
+    "src": "/handbook/manitoba/u-turn-prohibited.png",
+    "width": 542
+  },
+  "uncontrolled-intersection": {
+    "height": 151,
+    "page": 63,
+    "src": "/handbook/manitoba/uncontrolled-intersection.png",
+    "width": 638
+  },
+  "under-18-shows-birthday": {
+    "height": 116,
+    "page": 16,
+    "src": "/handbook/manitoba/under-18-shows-birthday.png",
+    "width": 398
+  },
+  "unmarked-crosswalks": {
+    "height": 129,
+    "page": 73,
+    "src": "/handbook/manitoba/unmarked-crosswalks.png",
+    "width": 628
+  },
+  "vehicle-fire-ignition": {
+    "height": 130,
+    "page": 108,
+    "src": "/handbook/manitoba/vehicle-fire-ignition.png",
+    "width": 654
+  },
+  "vehicle-in-water": {
+    "height": 152,
+    "page": 108,
+    "src": "/handbook/manitoba/vehicle-in-water.png",
+    "width": 655
+  },
+  "wet-brakes": {
+    "height": 130,
+    "page": 106,
+    "src": "/handbook/manitoba/wet-brakes.png",
+    "width": 525
+  },
+  "windows-frost-free-dates": {
+    "height": 151,
+    "page": 94,
+    "src": "/handbook/manitoba/windows-frost-free-dates.png",
+    "width": 652
+  },
+  "winter-road-speed": {
+    "height": 151,
+    "page": 100,
+    "src": "/handbook/manitoba/winter-road-speed.png",
+    "width": 647
+  },
+  "yield-sign-meaning": {
+    "height": 174,
+    "page": 33,
+    "src": "/handbook/manitoba/yield-sign-meaning.png",
+    "width": 396
+  },
+  "yield-sign-where": {
+    "height": 152,
+    "page": 33,
+    "src": "/handbook/manitoba/yield-sign-where.png",
+    "width": 386
+  },
+  "zipper-merge": {
+    "height": 152,
+    "page": 70,
+    "src": "/handbook/manitoba/zipper-merge.png",
+    "width": 658
+  },
+  "zipper-merge-duty": {
+    "height": 130,
+    "page": 70,
+    "src": "/handbook/manitoba/zipper-merge-duty.png",
+    "width": 613
+  }
+}
