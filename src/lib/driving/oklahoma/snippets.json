@@ -1,0 +1,1694 @@
+{
+  "address-change-10-days": {
+    "height": 178,
+    "page": 13,
+    "src": "/handbook/oklahoma/address-change-10-days.png",
+    "width": 437
+  },
+  "address-suspension-notice": {
+    "height": 267,
+    "page": 13,
+    "src": "/handbook/oklahoma/address-suspension-notice.png",
+    "width": 250
+  },
+  "after-crash-steps": {
+    "height": 210,
+    "page": 63,
+    "src": "/handbook/oklahoma/after-crash-steps.png",
+    "width": 626
+  },
+  "alcohol-judgment": {
+    "height": 134,
+    "page": 64,
+    "src": "/handbook/oklahoma/alcohol-judgment.png",
+    "width": 463
+  },
+  "all-way-plaque": {
+    "height": 178,
+    "page": 19,
+    "src": "/handbook/oklahoma/all-way-plaque.png",
+    "width": 244
+  },
+  "angle-parking-blocked-view": {
+    "height": 135,
+    "page": 46,
+    "src": "/handbook/oklahoma/angle-parking-blocked-view.png",
+    "width": 814
+  },
+  "angle-parking-horn": {
+    "height": 139,
+    "page": 46,
+    "src": "/handbook/oklahoma/angle-parking-horn.png",
+    "width": 677
+  },
+  "animal-drawn": {
+    "height": 134,
+    "page": 58,
+    "src": "/handbook/oklahoma/animal-drawn.png",
+    "width": 1112
+  },
+  "animals-dawn-dusk": {
+    "height": 113,
+    "page": 61,
+    "src": "/handbook/oklahoma/animals-dawn-dusk.png",
+    "width": 730
+  },
+  "animals-do-not-swerve": {
+    "height": 157,
+    "page": 61,
+    "src": "/handbook/oklahoma/animals-do-not-swerve.png",
+    "width": 842
+  },
+  "approach-speed-signals": {
+    "height": 179,
+    "page": 26,
+    "src": "/handbook/oklahoma/approach-speed-signals.png",
+    "width": 639
+  },
+  "arm-signals": {
+    "height": 112,
+    "page": 36,
+    "src": "/handbook/oklahoma/arm-signals.png",
+    "width": 588
+  },
+  "assured-clear-distance": {
+    "height": 244,
+    "page": 40,
+    "src": "/handbook/oklahoma/assured-clear-distance.png",
+    "width": 265
+  },
+  "bac-005-evidence": {
+    "height": 135,
+    "page": 65,
+    "src": "/handbook/oklahoma/bac-005-evidence.png",
+    "width": 498
+  },
+  "bac-005-penalty": {
+    "height": 201,
+    "page": 65,
+    "src": "/handbook/oklahoma/bac-005-penalty.png",
+    "width": 247
+  },
+  "bac-08-revocation": {
+    "height": 135,
+    "page": 65,
+    "src": "/handbook/oklahoma/bac-08-revocation.png",
+    "width": 848
+  },
+  "backing-check-behind": {
+    "height": 200,
+    "page": 39,
+    "src": "/handbook/oklahoma/backing-check-behind.png",
+    "width": 257
+  },
+  "backing-never-intersection": {
+    "height": 156,
+    "page": 39,
+    "src": "/handbook/oklahoma/backing-never-intersection.png",
+    "width": 401
+  },
+  "backing-rear-window": {
+    "height": 134,
+    "page": 39,
+    "src": "/handbook/oklahoma/backing-rear-window.png",
+    "width": 817
+  },
+  "backing-slowly": {
+    "height": 178,
+    "page": 39,
+    "src": "/handbook/oklahoma/backing-slowly.png",
+    "width": 402
+  },
+  "basic-speed-not-a-limit": {
+    "height": 134,
+    "page": 40,
+    "src": "/handbook/oklahoma/basic-speed-not-a-limit.png",
+    "width": 839
+  },
+  "basic-speed-rule": {
+    "height": 134,
+    "page": 40,
+    "src": "/handbook/oklahoma/basic-speed-rule.png",
+    "width": 769
+  },
+  "being-passed": {
+    "height": 160,
+    "page": 35,
+    "src": "/handbook/oklahoma/being-passed.png",
+    "width": 394
+  },
+  "bicycle-full-lane": {
+    "height": 158,
+    "page": 52,
+    "src": "/handbook/oklahoma/bicycle-full-lane.png",
+    "width": 820
+  },
+  "bicycle-narrow-street": {
+    "height": 134,
+    "page": 51,
+    "src": "/handbook/oklahoma/bicycle-narrow-street.png",
+    "width": 812
+  },
+  "bicycle-no-pass-between": {
+    "height": 135,
+    "page": 51,
+    "src": "/handbook/oklahoma/bicycle-no-pass-between.png",
+    "width": 841
+  },
+  "bicycle-red-light": {
+    "height": 210,
+    "page": 52,
+    "src": "/handbook/oklahoma/bicycle-red-light.png",
+    "width": 534
+  },
+  "bicycle-right-turn-merge": {
+    "height": 135,
+    "page": 51,
+    "src": "/handbook/oklahoma/bicycle-right-turn-merge.png",
+    "width": 839
+  },
+  "bicycle-same-rights": {
+    "height": 156,
+    "page": 51,
+    "src": "/handbook/oklahoma/bicycle-same-rights.png",
+    "width": 471
+  },
+  "bicycle-stop-sign": {
+    "height": 162,
+    "page": 52,
+    "src": "/handbook/oklahoma/bicycle-stop-sign.png",
+    "width": 578
+  },
+  "bicycle-three-feet": {
+    "height": 222,
+    "page": 51,
+    "src": "/handbook/oklahoma/bicycle-three-feet.png",
+    "width": 549
+  },
+  "black-ice": {
+    "height": 179,
+    "page": 43,
+    "src": "/handbook/oklahoma/black-ice.png",
+    "width": 846
+  },
+  "blind-cane": {
+    "height": 156,
+    "page": 28,
+    "src": "/handbook/oklahoma/blind-cane.png",
+    "width": 845
+  },
+  "blowout-braking": {
+    "height": 135,
+    "page": 43,
+    "src": "/handbook/oklahoma/blowout-braking.png",
+    "width": 791
+  },
+  "braking-loose-surfaces": {
+    "height": 113,
+    "page": 43,
+    "src": "/handbook/oklahoma/braking-loose-surfaces.png",
+    "width": 813
+  },
+  "cannabis-detectable": {
+    "height": 156,
+    "page": 66,
+    "src": "/handbook/oklahoma/cannabis-detectable.png",
+    "width": 828
+  },
+  "car-ahead-signals-left": {
+    "height": 113,
+    "page": 45,
+    "src": "/handbook/oklahoma/car-ahead-signals-left.png",
+    "width": 699
+  },
+  "caravan-200-feet": {
+    "height": 178,
+    "page": 44,
+    "src": "/handbook/oklahoma/caravan-200-feet.png",
+    "width": 589
+  },
+  "carbon-monoxide": {
+    "height": 157,
+    "page": 60,
+    "src": "/handbook/oklahoma/carbon-monoxide.png",
+    "width": 825
+  },
+  "careful-and-prudent": {
+    "height": 332,
+    "page": 40,
+    "src": "/handbook/oklahoma/careful-and-prudent.png",
+    "width": 265
+  },
+  "center-turn-lane": {
+    "height": 178,
+    "page": 32,
+    "src": "/handbook/oklahoma/center-turn-lane.png",
+    "width": 419
+  },
+  "changing-lanes": {
+    "height": 266,
+    "page": 33,
+    "src": "/handbook/oklahoma/changing-lanes.png",
+    "width": 576
+  },
+  "child-4-to-8": {
+    "height": 157,
+    "page": 17,
+    "src": "/handbook/oklahoma/child-4-to-8.png",
+    "width": 832
+  },
+  "child-back-seat": {
+    "height": 179,
+    "page": 17,
+    "src": "/handbook/oklahoma/child-back-seat.png",
+    "width": 534
+  },
+  "child-rear-facing": {
+    "height": 135,
+    "page": 17,
+    "src": "/handbook/oklahoma/child-rear-facing.png",
+    "width": 850
+  },
+  "child-restraint-under-8": {
+    "height": 157,
+    "page": 17,
+    "src": "/handbook/oklahoma/child-restraint-under-8.png",
+    "width": 820
+  },
+  "cities-set-limits": {
+    "height": 156,
+    "page": 41,
+    "src": "/handbook/oklahoma/cities-set-limits.png",
+    "width": 823
+  },
+  "coasting-illegal": {
+    "height": 112,
+    "page": 59,
+    "src": "/handbook/oklahoma/coasting-illegal.png",
+    "width": 821
+  },
+  "conviction-without-test": {
+    "height": 179,
+    "page": 65,
+    "src": "/handbook/oklahoma/conviction-without-test.png",
+    "width": 498
+  },
+  "crash-do-not-blame": {
+    "height": 135,
+    "page": 63,
+    "src": "/handbook/oklahoma/crash-do-not-blame.png",
+    "width": 650
+  },
+  "crash-injured-person": {
+    "height": 135,
+    "page": 63,
+    "src": "/handbook/oklahoma/crash-injured-person.png",
+    "width": 632
+  },
+  "crash-move-vehicle": {
+    "height": 135,
+    "page": 63,
+    "src": "/handbook/oklahoma/crash-move-vehicle.png",
+    "width": 656
+  },
+  "crash-parked-car": {
+    "height": 157,
+    "page": 63,
+    "src": "/handbook/oklahoma/crash-parked-car.png",
+    "width": 835
+  },
+  "crossbuck-yield": {
+    "height": 157,
+    "page": 22,
+    "src": "/handbook/oklahoma/crossbuck-yield.png",
+    "width": 713
+  },
+  "crossing-intersection-slow": {
+    "height": 201,
+    "page": 30,
+    "src": "/handbook/oklahoma/crossing-intersection-slow.png",
+    "width": 556
+  },
+  "cushion-of-safety": {
+    "height": 178,
+    "page": 44,
+    "src": "/handbook/oklahoma/cushion-of-safety.png",
+    "width": 587
+  },
+  "defensive-driving-points": {
+    "height": 156,
+    "page": 72,
+    "src": "/handbook/oklahoma/defensive-driving-points.png",
+    "width": 819
+  },
+  "diagonal-stripes": {
+    "height": 124,
+    "page": 22,
+    "src": "/handbook/oklahoma/diagonal-stripes.png",
+    "width": 852
+  },
+  "disabled-parking-space": {
+    "height": 245,
+    "page": 20,
+    "src": "/handbook/oklahoma/disabled-parking-space.png",
+    "width": 270
+  },
+  "disabled-placard": {
+    "height": 157,
+    "page": 49,
+    "src": "/handbook/oklahoma/disabled-placard.png",
+    "width": 849
+  },
+  "distraction-categories": {
+    "height": 114,
+    "page": 61,
+    "src": "/handbook/oklahoma/distraction-categories.png",
+    "width": 509
+  },
+  "divided-highway-ends": {
+    "height": 156,
+    "page": 21,
+    "src": "/handbook/oklahoma/divided-highway-ends.png",
+    "width": 256
+  },
+  "dont-block-intersection": {
+    "height": 135,
+    "page": 30,
+    "src": "/handbook/oklahoma/dont-block-intersection.png",
+    "width": 559
+  },
+  "drive-test-no-pets": {
+    "height": 113,
+    "page": 9,
+    "src": "/handbook/oklahoma/drive-test-no-pets.png",
+    "width": 841
+  },
+  "drive-test-skills": {
+    "height": 112,
+    "page": 9,
+    "src": "/handbook/oklahoma/drive-test-skills.png",
+    "width": 778
+  },
+  "drive-test-slick-roads": {
+    "height": 135,
+    "page": 9,
+    "src": "/handbook/oklahoma/drive-test-slick-roads.png",
+    "width": 792
+  },
+  "driving-record": {
+    "height": 135,
+    "page": 70,
+    "src": "/handbook/oklahoma/driving-record.png",
+    "width": 843
+  },
+  "dui-extra-costs": {
+    "height": 113,
+    "page": 66,
+    "src": "/handbook/oklahoma/dui-extra-costs.png",
+    "width": 712
+  },
+  "dui-revocation-lengths": {
+    "height": 112,
+    "page": 66,
+    "src": "/handbook/oklahoma/dui-revocation-lengths.png",
+    "width": 366
+  },
+  "expressway-breakdown": {
+    "height": 157,
+    "page": 34,
+    "src": "/handbook/oklahoma/expressway-breakdown.png",
+    "width": 806
+  },
+  "expressway-exit-signal": {
+    "height": 157,
+    "page": 34,
+    "src": "/handbook/oklahoma/expressway-exit-signal.png",
+    "width": 830
+  },
+  "expressway-follow-3s": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/oklahoma/expressway-follow-3s.png",
+    "width": 806
+  },
+  "expressway-lane-use": {
+    "height": 134,
+    "page": 33,
+    "src": "/handbook/oklahoma/expressway-lane-use.png",
+    "width": 844
+  },
+  "expressway-limited-access": {
+    "height": 200,
+    "page": 33,
+    "src": "/handbook/oklahoma/expressway-limited-access.png",
+    "width": 363
+  },
+  "expressway-no-packs": {
+    "height": 134,
+    "page": 33,
+    "src": "/handbook/oklahoma/expressway-no-packs.png",
+    "width": 844
+  },
+  "expressway-no-uturn": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/oklahoma/expressway-no-uturn.png",
+    "width": 806
+  },
+  "expressway-speed-range": {
+    "height": 134,
+    "page": 33,
+    "src": "/handbook/oklahoma/expressway-speed-range.png",
+    "width": 826
+  },
+  "expressway-yield-entering": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/oklahoma/expressway-yield-entering.png",
+    "width": 823
+  },
+  "failing-drive-test": {
+    "height": 134,
+    "page": 10,
+    "src": "/handbook/oklahoma/failing-drive-test.png",
+    "width": 852
+  },
+  "fake-id-felony": {
+    "height": 155,
+    "page": 69,
+    "src": "/handbook/oklahoma/fake-id-felony.png",
+    "width": 411
+  },
+  "flagperson": {
+    "height": 136,
+    "page": 24,
+    "src": "/handbook/oklahoma/flagperson.png",
+    "width": 1140
+  },
+  "flashing-red-light": {
+    "height": 178,
+    "page": 26,
+    "src": "/handbook/oklahoma/flashing-red-light.png",
+    "width": 589
+  },
+  "flashing-yellow-arrow": {
+    "height": 178,
+    "page": 26,
+    "src": "/handbook/oklahoma/flashing-yellow-arrow.png",
+    "width": 574
+  },
+  "flashing-yellow-light": {
+    "height": 156,
+    "page": 26,
+    "src": "/handbook/oklahoma/flashing-yellow-light.png",
+    "width": 529
+  },
+  "flood-buoyant": {
+    "height": 112,
+    "page": 62,
+    "src": "/handbook/oklahoma/flood-buoyant.png",
+    "width": 843
+  },
+  "flood-six-inches-feet": {
+    "height": 179,
+    "page": 63,
+    "src": "/handbook/oklahoma/flood-six-inches-feet.png",
+    "width": 845
+  },
+  "flood-swept-away": {
+    "height": 112,
+    "page": 62,
+    "src": "/handbook/oklahoma/flood-swept-away.png",
+    "width": 628
+  },
+  "flood-turn-around": {
+    "height": 113,
+    "page": 63,
+    "src": "/handbook/oklahoma/flood-turn-around.png",
+    "width": 550
+  },
+  "following-a-truck": {
+    "height": 156,
+    "page": 44,
+    "src": "/handbook/oklahoma/following-a-truck.png",
+    "width": 588
+  },
+  "following-four-seconds": {
+    "height": 156,
+    "page": 44,
+    "src": "/handbook/oklahoma/following-four-seconds.png",
+    "width": 575
+  },
+  "following-three-second": {
+    "height": 112,
+    "page": 44,
+    "src": "/handbook/oklahoma/following-three-second.png",
+    "width": 572
+  },
+  "four-second-count": {
+    "height": 245,
+    "page": 42,
+    "src": "/handbook/oklahoma/four-second-count.png",
+    "width": 346
+  },
+  "funeral-procession": {
+    "height": 156,
+    "page": 28,
+    "src": "/handbook/oklahoma/funeral-procession.png",
+    "width": 831
+  },
+  "gdl-conviction-hold": {
+    "height": 156,
+    "page": 8,
+    "src": "/handbook/oklahoma/gdl-conviction-hold.png",
+    "width": 427
+  },
+  "gdl-hours-restriction": {
+    "height": 223,
+    "page": 8,
+    "src": "/handbook/oklahoma/gdl-hours-restriction.png",
+    "width": 435
+  },
+  "gdl-passenger-limit": {
+    "height": 201,
+    "page": 8,
+    "src": "/handbook/oklahoma/gdl-passenger-limit.png",
+    "width": 435
+  },
+  "gdl-restriction-t": {
+    "height": 223,
+    "page": 14,
+    "src": "/handbook/oklahoma/gdl-restriction-t.png",
+    "width": 417
+  },
+  "green-arrow": {
+    "height": 156,
+    "page": 26,
+    "src": "/handbook/oklahoma/green-arrow.png",
+    "width": 584
+  },
+  "green-light": {
+    "height": 200,
+    "page": 26,
+    "src": "/handbook/oklahoma/green-light.png",
+    "width": 456
+  },
+  "guide-signs": {
+    "height": 135,
+    "page": 25,
+    "src": "/handbook/oklahoma/guide-signs.png",
+    "width": 814
+  },
+  "high-beam-distances": {
+    "height": 157,
+    "page": 59,
+    "src": "/handbook/oklahoma/high-beam-distances.png",
+    "width": 599
+  },
+  "hill-park-six-inches": {
+    "height": 213,
+    "page": 47,
+    "src": "/handbook/oklahoma/hill-park-six-inches.png",
+    "width": 713
+  },
+  "hill-parking-downhill": {
+    "height": 135,
+    "page": 48,
+    "src": "/handbook/oklahoma/hill-parking-downhill.png",
+    "width": 821
+  },
+  "hill-parking-no-curb": {
+    "height": 135,
+    "page": 48,
+    "src": "/handbook/oklahoma/hill-parking-no-curb.png",
+    "width": 818
+  },
+  "hill-parking-uphill-curb": {
+    "height": 135,
+    "page": 48,
+    "src": "/handbook/oklahoma/hill-parking-uphill-curb.png",
+    "width": 845
+  },
+  "hill-start": {
+    "height": 178,
+    "page": 48,
+    "src": "/handbook/oklahoma/hill-start.png",
+    "width": 464
+  },
+  "hydroplaning": {
+    "height": 156,
+    "page": 44,
+    "src": "/handbook/oklahoma/hydroplaning.png",
+    "width": 836
+  },
+  "implied-consent-agreed": {
+    "height": 157,
+    "page": 65,
+    "src": "/handbook/oklahoma/implied-consent-agreed.png",
+    "width": 848
+  },
+  "implied-consent-period": {
+    "height": 244,
+    "page": 65,
+    "src": "/handbook/oklahoma/implied-consent-period.png",
+    "width": 266
+  },
+  "implied-consent-refusal": {
+    "height": 157,
+    "page": 65,
+    "src": "/handbook/oklahoma/implied-consent-refusal.png",
+    "width": 848
+  },
+  "insurance-minimums": {
+    "height": 113,
+    "page": 16,
+    "src": "/handbook/oklahoma/insurance-minimums.png",
+    "width": 419
+  },
+  "insurance-penalty": {
+    "height": 136,
+    "page": 72,
+    "src": "/handbook/oklahoma/insurance-penalty.png",
+    "width": 392
+  },
+  "insurance-penalty-ch3": {
+    "height": 179,
+    "page": 16,
+    "src": "/handbook/oklahoma/insurance-penalty-ch3.png",
+    "width": 263
+  },
+  "insurance-show-officer": {
+    "height": 179,
+    "page": 16,
+    "src": "/handbook/oklahoma/insurance-show-officer.png",
+    "width": 444
+  },
+  "insurance-uninsured-collision": {
+    "height": 201,
+    "page": 16,
+    "src": "/handbook/oklahoma/insurance-uninsured-collision.png",
+    "width": 428
+  },
+  "lane-control-signals": {
+    "height": 141,
+    "page": 27,
+    "src": "/handbook/oklahoma/lane-control-signals.png",
+    "width": 226
+  },
+  "lanes-unmarked": {
+    "height": 156,
+    "page": 32,
+    "src": "/handbook/oklahoma/lanes-unmarked.png",
+    "width": 843
+  },
+  "leave-space-for-lane-change": {
+    "height": 112,
+    "page": 33,
+    "src": "/handbook/oklahoma/leave-space-for-lane-change.png",
+    "width": 813
+  },
+  "left-lane-passing": {
+    "height": 134,
+    "page": 35,
+    "src": "/handbook/oklahoma/left-lane-passing.png",
+    "width": 846
+  },
+  "licence-cancel-loan": {
+    "height": 134,
+    "page": 69,
+    "src": "/handbook/oklahoma/licence-cancel-loan.png",
+    "width": 834
+  },
+  "licence-expiration": {
+    "height": 179,
+    "page": 13,
+    "src": "/handbook/oklahoma/licence-expiration.png",
+    "width": 445
+  },
+  "litter-barrel": {
+    "height": 134,
+    "page": 25,
+    "src": "/handbook/oklahoma/litter-barrel.png",
+    "width": 738
+  },
+  "low-beams-fog": {
+    "height": 135,
+    "page": 59,
+    "src": "/handbook/oklahoma/low-beams-fog.png",
+    "width": 585
+  },
+  "mandatory-revocation": {
+    "height": 112,
+    "page": 71,
+    "src": "/handbook/oklahoma/mandatory-revocation.png",
+    "width": 823
+  },
+  "merge-sign": {
+    "height": 172,
+    "page": 21,
+    "src": "/handbook/oklahoma/merge-sign.png",
+    "width": 251
+  },
+  "mileposts": {
+    "height": 157,
+    "page": 25,
+    "src": "/handbook/oklahoma/mileposts.png",
+    "width": 649
+  },
+  "mixing-drugs": {
+    "height": 134,
+    "page": 64,
+    "src": "/handbook/oklahoma/mixing-drugs.png",
+    "width": 833
+  },
+  "motorcycle-endorsement": {
+    "height": 135,
+    "page": 53,
+    "src": "/handbook/oklahoma/motorcycle-endorsement.png",
+    "width": 795
+  },
+  "motorcycle-following": {
+    "height": 134,
+    "page": 53,
+    "src": "/handbook/oklahoma/motorcycle-following.png",
+    "width": 778
+  },
+  "motorcycle-full-lane": {
+    "height": 157,
+    "page": 53,
+    "src": "/handbook/oklahoma/motorcycle-full-lane.png",
+    "width": 795
+  },
+  "motorcycle-hard-to-see": {
+    "height": 135,
+    "page": 53,
+    "src": "/handbook/oklahoma/motorcycle-hard-to-see.png",
+    "width": 790
+  },
+  "motorcycle-intersections": {
+    "height": 156,
+    "page": 53,
+    "src": "/handbook/oklahoma/motorcycle-intersections.png",
+    "width": 604
+  },
+  "motorcycle-turned-in-front": {
+    "height": 135,
+    "page": 53,
+    "src": "/handbook/oklahoma/motorcycle-turned-in-front.png",
+    "width": 774
+  },
+  "move-over-any-vehicle": {
+    "height": 157,
+    "page": 29,
+    "src": "/handbook/oklahoma/move-over-any-vehicle.png",
+    "width": 663
+  },
+  "move-over-law": {
+    "height": 135,
+    "page": 30,
+    "src": "/handbook/oklahoma/move-over-law.png",
+    "width": 1137
+  },
+  "move-over-multilane": {
+    "height": 113,
+    "page": 30,
+    "src": "/handbook/oklahoma/move-over-multilane.png",
+    "width": 709
+  },
+  "never-drive-into-water": {
+    "height": 134,
+    "page": 44,
+    "src": "/handbook/oklahoma/never-drive-into-water.png",
+    "width": 829
+  },
+  "new-driver-probationary": {
+    "height": 135,
+    "page": 10,
+    "src": "/handbook/oklahoma/new-driver-probationary.png",
+    "width": 605
+  },
+  "night-no-sunglasses": {
+    "height": 134,
+    "page": 41,
+    "src": "/handbook/oklahoma/night-no-sunglasses.png",
+    "width": 488
+  },
+  "night-overdrive-lights": {
+    "height": 134,
+    "page": 41,
+    "src": "/handbook/oklahoma/night-overdrive-lights.png",
+    "width": 495
+  },
+  "night-reduce-speed": {
+    "height": 134,
+    "page": 41,
+    "src": "/handbook/oklahoma/night-reduce-speed.png",
+    "width": 495
+  },
+  "no-pass-hills-curves": {
+    "height": 159,
+    "page": 35,
+    "src": "/handbook/oklahoma/no-pass-hills-curves.png",
+    "width": 831
+  },
+  "no-speeding-to-pass": {
+    "height": 112,
+    "page": 35,
+    "src": "/handbook/oklahoma/no-speeding-to-pass.png",
+    "width": 846
+  },
+  "obey-officer": {
+    "height": 157,
+    "page": 26,
+    "src": "/handbook/oklahoma/obey-officer.png",
+    "width": 652
+  },
+  "one-way-turns": {
+    "height": 157,
+    "page": 38,
+    "src": "/handbook/oklahoma/one-way-turns.png",
+    "width": 841
+  },
+  "orange-work-zone": {
+    "height": 135,
+    "page": 23,
+    "src": "/handbook/oklahoma/orange-work-zone.png",
+    "width": 359
+  },
+  "otc-drugs-impair": {
+    "height": 178,
+    "page": 64,
+    "src": "/handbook/oklahoma/otc-drugs-impair.png",
+    "width": 832
+  },
+  "parallel-18-inches": {
+    "height": 135,
+    "page": 47,
+    "src": "/handbook/oklahoma/parallel-18-inches.png",
+    "width": 848
+  },
+  "parallel-two-feet-out": {
+    "height": 134,
+    "page": 47,
+    "src": "/handbook/oklahoma/parallel-two-feet-out.png",
+    "width": 437
+  },
+  "parent-taught-hours": {
+    "height": 201,
+    "page": 8,
+    "src": "/handbook/oklahoma/parent-taught-hours.png",
+    "width": 441
+  },
+  "parking-30-stop-sign": {
+    "height": 135,
+    "page": 49,
+    "src": "/handbook/oklahoma/parking-30-stop-sign.png",
+    "width": 794
+  },
+  "parking-50-railroad": {
+    "height": 112,
+    "page": 49,
+    "src": "/handbook/oklahoma/parking-50-railroad.png",
+    "width": 519
+  },
+  "parking-double-bridge": {
+    "height": 161,
+    "page": 49,
+    "src": "/handbook/oklahoma/parking-double-bridge.png",
+    "width": 834
+  },
+  "parking-fire-station": {
+    "height": 134,
+    "page": 49,
+    "src": "/handbook/oklahoma/parking-fire-station.png",
+    "width": 816
+  },
+  "parking-highway": {
+    "height": 178,
+    "page": 46,
+    "src": "/handbook/oklahoma/parking-highway.png",
+    "width": 854
+  },
+  "parking-hydrant-15": {
+    "height": 166,
+    "page": 49,
+    "src": "/handbook/oklahoma/parking-hydrant-15.png",
+    "width": 465
+  },
+  "parking-law-says": {
+    "height": 178,
+    "page": 49,
+    "src": "/handbook/oklahoma/parking-law-says.png",
+    "width": 640
+  },
+  "parking-leaving-car": {
+    "height": 237,
+    "page": 46,
+    "src": "/handbook/oklahoma/parking-leaving-car.png",
+    "width": 627
+  },
+  "parking-unlawful-list": {
+    "height": 249,
+    "page": 49,
+    "src": "/handbook/oklahoma/parking-unlawful-list.png",
+    "width": 402
+  },
+  "passing-100-feet-obstructed": {
+    "height": 157,
+    "page": 35,
+    "src": "/handbook/oklahoma/passing-100-feet-obstructed.png",
+    "width": 841
+  },
+  "passing-200-feet": {
+    "height": 134,
+    "page": 35,
+    "src": "/handbook/oklahoma/passing-200-feet.png",
+    "width": 834
+  },
+  "passing-off-pavement": {
+    "height": 134,
+    "page": 35,
+    "src": "/handbook/oklahoma/passing-off-pavement.png",
+    "width": 841
+  },
+  "passing-on-right": {
+    "height": 207,
+    "page": 35,
+    "src": "/handbook/oklahoma/passing-on-right.png",
+    "width": 850
+  },
+  "passing-return-mirror": {
+    "height": 134,
+    "page": 35,
+    "src": "/handbook/oklahoma/passing-return-mirror.png",
+    "width": 772
+  },
+  "pavement-markings": {
+    "height": 157,
+    "page": 27,
+    "src": "/handbook/oklahoma/pavement-markings.png",
+    "width": 621
+  },
+  "ped-crossing-sign": {
+    "height": 156,
+    "page": 21,
+    "src": "/handbook/oklahoma/ped-crossing-sign.png",
+    "width": 864
+  },
+  "ped-crosswalk-right": {
+    "height": 135,
+    "page": 50,
+    "src": "/handbook/oklahoma/ped-crosswalk-right.png",
+    "width": 840
+  },
+  "ped-dont-honk": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/oklahoma/ped-dont-honk.png",
+    "width": 836
+  },
+  "ped-signal-obey": {
+    "height": 134,
+    "page": 27,
+    "src": "/handbook/oklahoma/ped-signal-obey.png",
+    "width": 1069
+  },
+  "ped-yield-driveway": {
+    "height": 112,
+    "page": 50,
+    "src": "/handbook/oklahoma/ped-yield-driveway.png",
+    "width": 815
+  },
+  "pedestrian-definition": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/oklahoma/pedestrian-definition.png",
+    "width": 808
+  },
+  "perception-reaction": {
+    "height": 153,
+    "page": 42,
+    "src": "/handbook/oklahoma/perception-reaction.png",
+    "width": 778
+  },
+  "permit-handheld-suspension": {
+    "height": 179,
+    "page": 61,
+    "src": "/handbook/oklahoma/permit-handheld-suspension.png",
+    "width": 841
+  },
+  "permit-supervision": {
+    "height": 112,
+    "page": 6,
+    "src": "/handbook/oklahoma/permit-supervision.png",
+    "width": 928
+  },
+  "point-reduction": {
+    "height": 156,
+    "page": 72,
+    "src": "/handbook/oklahoma/point-reduction.png",
+    "width": 833
+  },
+  "point-system": {
+    "height": 156,
+    "page": 71,
+    "src": "/handbook/oklahoma/point-system.png",
+    "width": 804
+  },
+  "prescription-labels": {
+    "height": 134,
+    "page": 66,
+    "src": "/handbook/oklahoma/prescription-labels.png",
+    "width": 849
+  },
+  "probationary-licence": {
+    "height": 156,
+    "page": 71,
+    "src": "/handbook/oklahoma/probationary-licence.png",
+    "width": 831
+  },
+  "probationary-period": {
+    "height": 200,
+    "page": 13,
+    "src": "/handbook/oklahoma/probationary-period.png",
+    "width": 443
+  },
+  "pull-right-left-lane": {
+    "height": 157,
+    "page": 29,
+    "src": "/handbook/oklahoma/pull-right-left-lane.png",
+    "width": 657
+  },
+  "quiet-zone": {
+    "height": 156,
+    "page": 23,
+    "src": "/handbook/oklahoma/quiet-zone.png",
+    "width": 472
+  },
+  "rain-first-drops": {
+    "height": 156,
+    "page": 44,
+    "src": "/handbook/oklahoma/rain-first-drops.png",
+    "width": 839
+  },
+  "rear-end-brake-lights": {
+    "height": 156,
+    "page": 45,
+    "src": "/handbook/oklahoma/rear-end-brake-lights.png",
+    "width": 756
+  },
+  "red-arrow": {
+    "height": 156,
+    "page": 26,
+    "src": "/handbook/oklahoma/red-arrow.png",
+    "width": 553
+  },
+  "red-light-yield-turn": {
+    "height": 156,
+    "page": 26,
+    "src": "/handbook/oklahoma/red-light-yield-turn.png",
+    "width": 579
+  },
+  "regulatory-rectangle": {
+    "height": 157,
+    "page": 19,
+    "src": "/handbook/oklahoma/regulatory-rectangle.png",
+    "width": 838
+  },
+  "regulatory-signs": {
+    "height": 135,
+    "page": 20,
+    "src": "/handbook/oklahoma/regulatory-signs.png",
+    "width": 713
+  },
+  "restriction-9": {
+    "height": 157,
+    "page": 14,
+    "src": "/handbook/oklahoma/restriction-9.png",
+    "width": 403
+  },
+  "restriction-penalty": {
+    "height": 244,
+    "page": 14,
+    "src": "/handbook/oklahoma/restriction-penalty.png",
+    "width": 257
+  },
+  "revocation-hit-and-run": {
+    "height": 134,
+    "page": 71,
+    "src": "/handbook/oklahoma/revocation-hit-and-run.png",
+    "width": 814
+  },
+  "road-rage": {
+    "height": 222,
+    "page": 41,
+    "src": "/handbook/oklahoma/road-rage.png",
+    "width": 310
+  },
+  "road-rage-safe-place": {
+    "height": 244,
+    "page": 41,
+    "src": "/handbook/oklahoma/road-rage-safe-place.png",
+    "width": 293
+  },
+  "row-applies-to-bicycles": {
+    "height": 113,
+    "page": 28,
+    "src": "/handbook/oklahoma/row-applies-to-bicycles.png",
+    "width": 852
+  },
+  "row-intersections": {
+    "height": 223,
+    "page": 29,
+    "src": "/handbook/oklahoma/row-intersections.png",
+    "width": 424
+  },
+  "row-purpose": {
+    "height": 157,
+    "page": 28,
+    "src": "/handbook/oklahoma/row-purpose.png",
+    "width": 852
+  },
+  "rr-advance-warning": {
+    "height": 201,
+    "page": 22,
+    "src": "/handbook/oklahoma/rr-advance-warning.png",
+    "width": 521
+  },
+  "rr-flashing-lights": {
+    "height": 201,
+    "page": 23,
+    "src": "/handbook/oklahoma/rr-flashing-lights.png",
+    "width": 350
+  },
+  "rr-gate": {
+    "height": 201,
+    "page": 23,
+    "src": "/handbook/oklahoma/rr-gate.png",
+    "width": 351
+  },
+  "rr-keep-moving": {
+    "height": 179,
+    "page": 57,
+    "src": "/handbook/oklahoma/rr-keep-moving.png",
+    "width": 723
+  },
+  "rr-must-stop-vehicles": {
+    "height": 179,
+    "page": 22,
+    "src": "/handbook/oklahoma/rr-must-stop-vehicles.png",
+    "width": 715
+  },
+  "rr-never-around-gates": {
+    "height": 157,
+    "page": 57,
+    "src": "/handbook/oklahoma/rr-never-around-gates.png",
+    "width": 709
+  },
+  "rr-no-passing": {
+    "height": 134,
+    "page": 57,
+    "src": "/handbook/oklahoma/rr-no-passing.png",
+    "width": 717
+  },
+  "rr-second-train": {
+    "height": 200,
+    "page": 57,
+    "src": "/handbook/oklahoma/rr-second-train.png",
+    "width": 486
+  },
+  "rr-stop-line": {
+    "height": 135,
+    "page": 56,
+    "src": "/handbook/oklahoma/rr-stop-line.png",
+    "width": 812
+  },
+  "run-off-pavement": {
+    "height": 134,
+    "page": 43,
+    "src": "/handbook/oklahoma/run-off-pavement.png",
+    "width": 802
+  },
+  "school-zone-flashing": {
+    "height": 157,
+    "page": 20,
+    "src": "/handbook/oklahoma/school-zone-flashing.png",
+    "width": 713
+  },
+  "schoolbus-exceptions": {
+    "height": 113,
+    "page": 30,
+    "src": "/handbook/oklahoma/schoolbus-exceptions.png",
+    "width": 573
+  },
+  "schoolbus-must-stop": {
+    "height": 156,
+    "page": 30,
+    "src": "/handbook/oklahoma/schoolbus-must-stop.png",
+    "width": 569
+  },
+  "schoolbus-remain-stopped": {
+    "height": 113,
+    "page": 30,
+    "src": "/handbook/oklahoma/schoolbus-remain-stopped.png",
+    "width": 572
+  },
+  "schoolbus-revocation": {
+    "height": 158,
+    "page": 30,
+    "src": "/handbook/oklahoma/schoolbus-revocation.png",
+    "width": 559
+  },
+  "seat-belt-front": {
+    "height": 135,
+    "page": 17,
+    "src": "/handbook/oklahoma/seat-belt-front.png",
+    "width": 821
+  },
+  "secondary-crash": {
+    "height": 113,
+    "page": 30,
+    "src": "/handbook/oklahoma/secondary-crash.png",
+    "width": 1129
+  },
+  "service-signs": {
+    "height": 135,
+    "page": 25,
+    "src": "/handbook/oklahoma/service-signs.png",
+    "width": 738
+  },
+  "show-licence-collision": {
+    "height": 134,
+    "page": 11,
+    "src": "/handbook/oklahoma/show-licence-collision.png",
+    "width": 302
+  },
+  "sign-color-key": {
+    "height": 157,
+    "page": 19,
+    "src": "/handbook/oklahoma/sign-color-key.png",
+    "width": 852
+  },
+  "sign-damage-penalty": {
+    "height": 157,
+    "page": 19,
+    "src": "/handbook/oklahoma/sign-damage-penalty.png",
+    "width": 849
+  },
+  "signal-100-feet": {
+    "height": 157,
+    "page": 36,
+    "src": "/handbook/oklahoma/signal-100-feet.png",
+    "width": 404
+  },
+  "skid-steer-into": {
+    "height": 157,
+    "page": 43,
+    "src": "/handbook/oklahoma/skid-steer-into.png",
+    "width": 840
+  },
+  "slow-moving-rural": {
+    "height": 178,
+    "page": 58,
+    "src": "/handbook/oklahoma/slow-moving-rural.png",
+    "width": 847
+  },
+  "smv-emblem": {
+    "height": 245,
+    "page": 24,
+    "src": "/handbook/oklahoma/smv-emblem.png",
+    "width": 476
+  },
+  "solid-yellow-no-pass": {
+    "height": 156,
+    "page": 32,
+    "src": "/handbook/oklahoma/solid-yellow-no-pass.png",
+    "width": 480
+  },
+  "speed-limit-ideal": {
+    "height": 164,
+    "page": 20,
+    "src": "/handbook/oklahoma/speed-limit-ideal.png",
+    "width": 213
+  },
+  "speed-table": {
+    "height": 280,
+    "page": 41,
+    "src": "/handbook/oklahoma/speed-table.png",
+    "width": 832
+  },
+  "speeding-penalty": {
+    "height": 156,
+    "page": 40,
+    "src": "/handbook/oklahoma/speeding-penalty.png",
+    "width": 317
+  },
+  "stalled-on-tracks": {
+    "height": 178,
+    "page": 57,
+    "src": "/handbook/oklahoma/stalled-on-tracks.png",
+    "width": 715
+  },
+  "stalled-run-45-degrees": {
+    "height": 135,
+    "page": 57,
+    "src": "/handbook/oklahoma/stalled-run-45-degrees.png",
+    "width": 733
+  },
+  "standard-brakes-lock": {
+    "height": 245,
+    "page": 43,
+    "src": "/handbook/oklahoma/standard-brakes-lock.png",
+    "width": 274
+  },
+  "standard-drink": {
+    "height": 245,
+    "page": 64,
+    "src": "/handbook/oklahoma/standard-drink.png",
+    "width": 257
+  },
+  "steering-grip": {
+    "height": 134,
+    "page": 60,
+    "src": "/handbook/oklahoma/steering-grip.png",
+    "width": 623
+  },
+  "stop-sign-octagon": {
+    "height": 266,
+    "page": 19,
+    "src": "/handbook/oklahoma/stop-sign-octagon.png",
+    "width": 266
+  },
+  "stopping-distance-factors": {
+    "height": 244,
+    "page": 42,
+    "src": "/handbook/oklahoma/stopping-distance-factors.png",
+    "width": 790
+  },
+  "suspended-licence": {
+    "height": 134,
+    "page": 69,
+    "src": "/handbook/oklahoma/suspended-licence.png",
+    "width": 843
+  },
+  "t-intersection-sign": {
+    "height": 140,
+    "page": 22,
+    "src": "/handbook/oklahoma/t-intersection-sign.png",
+    "width": 237
+  },
+  "tailgater-response": {
+    "height": 162,
+    "page": 45,
+    "src": "/handbook/oklahoma/tailgater-response.png",
+    "width": 559
+  },
+  "teen-crash-rate": {
+    "height": 134,
+    "page": 8,
+    "src": "/handbook/oklahoma/teen-crash-rate.png",
+    "width": 443
+  },
+  "texting-illegal": {
+    "height": 135,
+    "page": 61,
+    "src": "/handbook/oklahoma/texting-illegal.png",
+    "width": 799
+  },
+  "tim-scene": {
+    "height": 135,
+    "page": 31,
+    "src": "/handbook/oklahoma/tim-scene.png",
+    "width": 1127
+  },
+  "too-slow-illegal": {
+    "height": 113,
+    "page": 40,
+    "src": "/handbook/oklahoma/too-slow-illegal.png",
+    "width": 838
+  },
+  "train-appears-slow": {
+    "height": 156,
+    "page": 57,
+    "src": "/handbook/oklahoma/train-appears-slow.png",
+    "width": 735
+  },
+  "train-stop-distance": {
+    "height": 134,
+    "page": 56,
+    "src": "/handbook/oklahoma/train-stop-distance.png",
+    "width": 1085
+  },
+  "train-stopping-distance": {
+    "height": 181,
+    "page": 55,
+    "src": "/handbook/oklahoma/train-stopping-distance.png",
+    "width": 476
+  },
+  "truck-backing": {
+    "height": 134,
+    "page": 55,
+    "src": "/handbook/oklahoma/truck-backing.png",
+    "width": 644
+  },
+  "truck-blind-spots": {
+    "height": 135,
+    "page": 54,
+    "src": "/handbook/oklahoma/truck-blind-spots.png",
+    "width": 836
+  },
+  "truck-meeting": {
+    "height": 178,
+    "page": 54,
+    "src": "/handbook/oklahoma/truck-meeting.png",
+    "width": 535
+  },
+  "truck-mirror-rule": {
+    "height": 135,
+    "page": 54,
+    "src": "/handbook/oklahoma/truck-mirror-rule.png",
+    "width": 836
+  },
+  "truck-passing": {
+    "height": 200,
+    "page": 54,
+    "src": "/handbook/oklahoma/truck-passing.png",
+    "width": 535
+  },
+  "truck-right-turn": {
+    "height": 178,
+    "page": 55,
+    "src": "/handbook/oklahoma/truck-right-turn.png",
+    "width": 642
+  },
+  "truck-uphill-stop": {
+    "height": 156,
+    "page": 54,
+    "src": "/handbook/oklahoma/truck-uphill-stop.png",
+    "width": 828
+  },
+  "turn-on-red": {
+    "height": 156,
+    "page": 26,
+    "src": "/handbook/oklahoma/turn-on-red.png",
+    "width": 579
+  },
+  "turn-recommended-speed": {
+    "height": 149,
+    "page": 37,
+    "src": "/handbook/oklahoma/turn-recommended-speed.png",
+    "width": 264
+  },
+  "turn-signal-100-feet-corner": {
+    "height": 159,
+    "page": 37,
+    "src": "/handbook/oklahoma/turn-signal-100-feet-corner.png",
+    "width": 796
+  },
+  "turn-wrong-lane": {
+    "height": 135,
+    "page": 36,
+    "src": "/handbook/oklahoma/turn-wrong-lane.png",
+    "width": 775
+  },
+  "two-left-turns": {
+    "height": 245,
+    "page": 37,
+    "src": "/handbook/oklahoma/two-left-turns.png",
+    "width": 310
+  },
+  "two-way-traffic-sign": {
+    "height": 156,
+    "page": 21,
+    "src": "/handbook/oklahoma/two-way-traffic-sign.png",
+    "width": 248
+  },
+  "unauthorized-driving": {
+    "height": 112,
+    "page": 13,
+    "src": "/handbook/oklahoma/unauthorized-driving.png",
+    "width": 313
+  },
+  "under-18-court-notice": {
+    "height": 156,
+    "page": 67,
+    "src": "/handbook/oklahoma/under-18-court-notice.png",
+    "width": 833
+  },
+  "under-18-penalties": {
+    "height": 112,
+    "page": 67,
+    "src": "/handbook/oklahoma/under-18-penalties.png",
+    "width": 299
+  },
+  "unseen-pedestrian": {
+    "height": 135,
+    "page": 50,
+    "src": "/handbook/oklahoma/unseen-pedestrian.png",
+    "width": 739
+  },
+  "vehicle-inspection-horn": {
+    "height": 124,
+    "page": 12,
+    "src": "/handbook/oklahoma/vehicle-inspection-horn.png",
+    "width": 297
+  },
+  "vehicle-inspection-mirrors": {
+    "height": 140,
+    "page": 12,
+    "src": "/handbook/oklahoma/vehicle-inspection-mirrors.png",
+    "width": 375
+  },
+  "vehicle-inspection-tires": {
+    "height": 121,
+    "page": 12,
+    "src": "/handbook/oklahoma/vehicle-inspection-tires.png",
+    "width": 288
+  },
+  "view-blocked-intersection": {
+    "height": 135,
+    "page": 30,
+    "src": "/handbook/oklahoma/view-blocked-intersection.png",
+    "width": 555
+  },
+  "warning-signs-diamond": {
+    "height": 136,
+    "page": 21,
+    "src": "/handbook/oklahoma/warning-signs-diamond.png",
+    "width": 1131
+  },
+  "what-to-expect-tests": {
+    "height": 156,
+    "page": 9,
+    "src": "/handbook/oklahoma/what-to-expect-tests.png",
+    "width": 819
+  },
+  "work-zone-fines-doubled": {
+    "height": 223,
+    "page": 23,
+    "src": "/handbook/oklahoma/work-zone-fines-doubled.png",
+    "width": 345
+  },
+  "work-zone-penalty": {
+    "height": 134,
+    "page": 24,
+    "src": "/handbook/oklahoma/work-zone-penalty.png",
+    "width": 575
+  },
+  "written-retest-wait": {
+    "height": 113,
+    "page": 9,
+    "src": "/handbook/oklahoma/written-retest-wait.png",
+    "width": 746
+  },
+  "written-test-source": {
+    "height": 156,
+    "page": 9,
+    "src": "/handbook/oklahoma/written-test-source.png",
+    "width": 826
+  },
+  "yellow-light": {
+    "height": 178,
+    "page": 26,
+    "src": "/handbook/oklahoma/yellow-light.png",
+    "width": 589
+  },
+  "yield-blind-15-feet": {
+    "height": 218,
+    "page": 28,
+    "src": "/handbook/oklahoma/yield-blind-15-feet.png",
+    "width": 845
+  },
+  "yield-children-playing": {
+    "height": 134,
+    "page": 28,
+    "src": "/handbook/oklahoma/yield-children-playing.png",
+    "width": 835
+  },
+  "yield-emergency": {
+    "height": 157,
+    "page": 29,
+    "src": "/handbook/oklahoma/yield-emergency.png",
+    "width": 666
+  },
+  "yield-left-turn": {
+    "height": 157,
+    "page": 29,
+    "src": "/handbook/oklahoma/yield-left-turn.png",
+    "width": 796
+  },
+  "yield-no-signs": {
+    "height": 135,
+    "page": 29,
+    "src": "/handbook/oklahoma/yield-no-signs.png",
+    "width": 458
+  },
+  "yield-private-road": {
+    "height": 113,
+    "page": 29,
+    "src": "/handbook/oklahoma/yield-private-road.png",
+    "width": 828
+  },
+  "yield-stop-sign": {
+    "height": 157,
+    "page": 29,
+    "src": "/handbook/oklahoma/yield-stop-sign.png",
+    "width": 460
+  },
+  "yield-triangle": {
+    "height": 222,
+    "page": 19,
+    "src": "/handbook/oklahoma/yield-triangle.png",
+    "width": 263
+  },
+  "zero-tolerance-fines": {
+    "height": 156,
+    "page": 67,
+    "src": "/handbook/oklahoma/zero-tolerance-fines.png",
+    "width": 747
+  },
+  "zero-tolerance-revocations": {
+    "height": 157,
+    "page": 67,
+    "src": "/handbook/oklahoma/zero-tolerance-revocations.png",
+    "width": 796
+  },
+  "zero-tolerance-second": {
+    "height": 157,
+    "page": 67,
+    "src": "/handbook/oklahoma/zero-tolerance-second.png",
+    "width": 743
+  },
+  "zero-tolerance-under-16": {
+    "height": 156,
+    "page": 67,
+    "src": "/handbook/oklahoma/zero-tolerance-under-16.png",
+    "width": 770
+  },
+  "zero-tolerance-under-21": {
+    "height": 112,
+    "page": 67,
+    "src": "/handbook/oklahoma/zero-tolerance-under-21.png",
+    "width": 793
+  }
+}
