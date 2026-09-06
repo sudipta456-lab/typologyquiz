@@ -56,3 +56,6 @@ tmp/
 
 # Wrangler local state (dev KV emulation, build cache)
 .wrangler/
+
+# Python bytecode from scripts/
+__pycache__/
