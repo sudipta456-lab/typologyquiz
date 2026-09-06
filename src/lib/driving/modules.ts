@@ -25,6 +25,7 @@ import * as alabama from "./alabama";
 import * as colorado from "./colorado";
 import * as kentucky from "./kentucky";
 import * as minnesota from "./minnesota";
+import * as oregon from "./oregon";
 import * as quebec from "./quebec";
 import * as southcarolina from "./southcarolina";
 import * as wisconsin from "./wisconsin";
@@ -34,6 +35,7 @@ export const MODULES: DrivingModule[] = [
   colorado,
   kentucky,
   minnesota,
+  oregon,
   quebec,
   southcarolina,
   wisconsin,

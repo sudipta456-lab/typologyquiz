@@ -1,0 +1,2072 @@
+{
+  "accelerator-sticks": {
+    "height": 146,
+    "page": 93,
+    "src": "/handbook/oregon/accelerator-sticks.png",
+    "width": 613
+  },
+  "add-lane-sign": {
+    "height": 146,
+    "page": 19,
+    "src": "/handbook/oregon/add-lane-sign.png",
+    "width": 548
+  },
+  "advisory-not-limits": {
+    "height": 171,
+    "page": 28,
+    "src": "/handbook/oregon/advisory-not-limits.png",
+    "width": 656
+  },
+  "advisory-speed-sign": {
+    "height": 172,
+    "page": 20,
+    "src": "/handbook/oregon/advisory-speed-sign.png",
+    "width": 484
+  },
+  "animals-horseback": {
+    "height": 224,
+    "page": 83,
+    "src": "/handbook/oregon/animals-horseback.png",
+    "width": 658
+  },
+  "apply-ages": {
+    "height": 119,
+    "page": 97,
+    "src": "/handbook/oregon/apply-ages.png",
+    "width": 675
+  },
+  "approaching-stopped-slow-5": {
+    "height": 171,
+    "page": 65,
+    "src": "/handbook/oregon/approaching-stopped-slow-5.png",
+    "width": 668
+  },
+  "approaching-stopped-vehicles": {
+    "height": 197,
+    "page": 65,
+    "src": "/handbook/oregon/approaching-stopped-vehicles.png",
+    "width": 668
+  },
+  "avoiding-collision-three": {
+    "height": 119,
+    "page": 82,
+    "src": "/handbook/oregon/avoiding-collision-three.png",
+    "width": 628
+  },
+  "backing-up": {
+    "height": 224,
+    "page": 37,
+    "src": "/handbook/oregon/backing-up.png",
+    "width": 666
+  },
+  "basic-rule": {
+    "height": 172,
+    "page": 28,
+    "src": "/handbook/oregon/basic-rule.png",
+    "width": 662
+  },
+  "basic-rule-not-over-limit": {
+    "height": 145,
+    "page": 29,
+    "src": "/handbook/oregon/basic-rule-not-over-limit.png",
+    "width": 659
+  },
+  "basic-rule-slower": {
+    "height": 172,
+    "page": 29,
+    "src": "/handbook/oregon/basic-rule-slower.png",
+    "width": 652
+  },
+  "being-passed": {
+    "height": 198,
+    "page": 41,
+    "src": "/handbook/oregon/being-passed.png",
+    "width": 671
+  },
+  "bike-box": {
+    "height": 224,
+    "page": 59,
+    "src": "/handbook/oregon/bike-box.png",
+    "width": 634
+  },
+  "bike-box-no-right-on-red": {
+    "height": 198,
+    "page": 59,
+    "src": "/handbook/oregon/bike-box-no-right-on-red.png",
+    "width": 633
+  },
+  "bike-lane-marking": {
+    "height": 199,
+    "page": 33,
+    "src": "/handbook/oregon/bike-lane-marking.png",
+    "width": 393
+  },
+  "bike-lane-no-drive": {
+    "height": 172,
+    "page": 58,
+    "src": "/handbook/oregon/bike-lane-no-drive.png",
+    "width": 674
+  },
+  "bike-lane-not-for-turn-prep": {
+    "height": 145,
+    "page": 58,
+    "src": "/handbook/oregon/bike-lane-not-for-turn-prep.png",
+    "width": 674
+  },
+  "bike-pass-over-35": {
+    "height": 198,
+    "page": 58,
+    "src": "/handbook/oregon/bike-pass-over-35.png",
+    "width": 674
+  },
+  "bike-pass-same-rules": {
+    "height": 172,
+    "page": 59,
+    "src": "/handbook/oregon/bike-pass-same-rules.png",
+    "width": 668
+  },
+  "bikes-hidden-blind-spot": {
+    "height": 146,
+    "page": 58,
+    "src": "/handbook/oregon/bikes-hidden-blind-spot.png",
+    "width": 667
+  },
+  "blind-spot": {
+    "height": 171,
+    "page": 38,
+    "src": "/handbook/oregon/blind-spot.png",
+    "width": 657
+  },
+  "blowout": {
+    "height": 172,
+    "page": 92,
+    "src": "/handbook/oregon/blowout.png",
+    "width": 662
+  },
+  "brakes-fail": {
+    "height": 145,
+    "page": 93,
+    "src": "/handbook/oregon/brakes-fail.png",
+    "width": 672
+  },
+  "bridges-freeze-first": {
+    "height": 172,
+    "page": 86,
+    "src": "/handbook/oregon/bridges-freeze-first.png",
+    "width": 673
+  },
+  "broken-white-line": {
+    "height": 199,
+    "page": 32,
+    "src": "/handbook/oregon/broken-white-line.png",
+    "width": 390
+  },
+  "broken-yellow-center": {
+    "height": 225,
+    "page": 30,
+    "src": "/handbook/oregon/broken-yellow-center.png",
+    "width": 388
+  },
+  "brown-signs": {
+    "height": 172,
+    "page": 21,
+    "src": "/handbook/oregon/brown-signs.png",
+    "width": 651
+  },
+  "bus-amber-lights": {
+    "height": 198,
+    "page": 63,
+    "src": "/handbook/oregon/bus-amber-lights.png",
+    "width": 658
+  },
+  "bus-divided-highway": {
+    "height": 171,
+    "page": 63,
+    "src": "/handbook/oregon/bus-divided-highway.png",
+    "width": 668
+  },
+  "bus-painted-median": {
+    "height": 145,
+    "page": 63,
+    "src": "/handbook/oregon/bus-painted-median.png",
+    "width": 598
+  },
+  "cell-phone-over-18": {
+    "height": 198,
+    "page": 88,
+    "src": "/handbook/oregon/cell-phone-over-18.png",
+    "width": 670
+  },
+  "cell-phone-under-18": {
+    "height": 171,
+    "page": 88,
+    "src": "/handbook/oregon/cell-phone-under-18.png",
+    "width": 670
+  },
+  "center-lane-turn-only-sign": {
+    "height": 145,
+    "page": 17,
+    "src": "/handbook/oregon/center-lane-turn-only-sign.png",
+    "width": 568
+  },
+  "chains-definition": {
+    "height": 171,
+    "page": 87,
+    "src": "/handbook/oregon/chains-definition.png",
+    "width": 642
+  },
+  "change-lanes-safely": {
+    "height": 145,
+    "page": 26,
+    "src": "/handbook/oregon/change-lanes-safely.png",
+    "width": 649
+  },
+  "changing-lanes-shoulder": {
+    "height": 171,
+    "page": 38,
+    "src": "/handbook/oregon/changing-lanes-shoulder.png",
+    "width": 673
+  },
+  "chevron-sign": {
+    "height": 146,
+    "page": 18,
+    "src": "/handbook/oregon/chevron-sign.png",
+    "width": 566
+  },
+  "child-seats": {
+    "height": 198,
+    "page": 82,
+    "src": "/handbook/oregon/child-seats.png",
+    "width": 656
+  },
+  "children-at-play": {
+    "height": 225,
+    "page": 56,
+    "src": "/handbook/oregon/children-at-play.png",
+    "width": 671
+  },
+  "collision-assistance": {
+    "height": 146,
+    "page": 101,
+    "src": "/handbook/oregon/collision-assistance.png",
+    "width": 651
+  },
+  "collision-exchange": {
+    "height": 251,
+    "page": 102,
+    "src": "/handbook/oregon/collision-exchange.png",
+    "width": 669
+  },
+  "collision-report-72-hours": {
+    "height": 163,
+    "page": 102,
+    "src": "/handbook/oregon/collision-report-72-hours.png",
+    "width": 669
+  },
+  "collision-report-injury": {
+    "height": 176,
+    "page": 102,
+    "src": "/handbook/oregon/collision-report-injury.png",
+    "width": 632
+  },
+  "collision-stop": {
+    "height": 198,
+    "page": 101,
+    "src": "/handbook/oregon/collision-stop.png",
+    "width": 651
+  },
+  "communicating-with-drivers": {
+    "height": 145,
+    "page": 82,
+    "src": "/handbook/oregon/communicating-with-drivers.png",
+    "width": 676
+  },
+  "cross-center-exception": {
+    "height": 145,
+    "page": 40,
+    "src": "/handbook/oregon/cross-center-exception.png",
+    "width": 647
+  },
+  "crossroad-sign": {
+    "height": 120,
+    "page": 19,
+    "src": "/handbook/oregon/crossroad-sign.png",
+    "width": 550
+  },
+  "curves": {
+    "height": 224,
+    "page": 38,
+    "src": "/handbook/oregon/curves.png",
+    "width": 674
+  },
+  "curves-hidden-hazards": {
+    "height": 171,
+    "page": 38,
+    "src": "/handbook/oregon/curves-hidden-hazards.png",
+    "width": 674
+  },
+  "dark-signal": {
+    "height": 172,
+    "page": 23,
+    "src": "/handbook/oregon/dark-signal.png",
+    "width": 568
+  },
+  "deer-sign": {
+    "height": 146,
+    "page": 20,
+    "src": "/handbook/oregon/deer-sign.png",
+    "width": 569
+  },
+  "defensive-at-intersections": {
+    "height": 145,
+    "page": 50,
+    "src": "/handbook/oregon/defensive-at-intersections.png",
+    "width": 671
+  },
+  "defensive-driving-view": {
+    "height": 198,
+    "page": 81,
+    "src": "/handbook/oregon/defensive-driving-view.png",
+    "width": 661
+  },
+  "dim-high-beams": {
+    "height": 251,
+    "page": 84,
+    "src": "/handbook/oregon/dim-high-beams.png",
+    "width": 658
+  },
+  "disabled-parking": {
+    "height": 145,
+    "page": 77,
+    "src": "/handbook/oregon/disabled-parking.png",
+    "width": 619
+  },
+  "disabled-parking-fine": {
+    "height": 172,
+    "page": 78,
+    "src": "/handbook/oregon/disabled-parking-fine.png",
+    "width": 670
+  },
+  "divided-highway-sign": {
+    "height": 173,
+    "page": 19,
+    "src": "/handbook/oregon/divided-highway-sign.png",
+    "width": 552
+  },
+  "do-not-enter-sign": {
+    "height": 172,
+    "page": 15,
+    "src": "/handbook/oregon/do-not-enter-sign.png",
+    "width": 521
+  },
+  "do-not-pass-sign": {
+    "height": 146,
+    "page": 17,
+    "src": "/handbook/oregon/do-not-pass-sign.png",
+    "width": 539
+  },
+  "dog-in-pickup-bed": {
+    "height": 172,
+    "page": 92,
+    "src": "/handbook/oregon/dog-in-pickup-bed.png",
+    "width": 676
+  },
+  "dont-block-crosswalk": {
+    "height": 171,
+    "page": 55,
+    "src": "/handbook/oregon/dont-block-crosswalk.png",
+    "width": 650
+  },
+  "dont-block-intersection": {
+    "height": 145,
+    "page": 50,
+    "src": "/handbook/oregon/dont-block-intersection.png",
+    "width": 673
+  },
+  "dont-rely-on-signals": {
+    "height": 171,
+    "page": 46,
+    "src": "/handbook/oregon/dont-rely-on-signals.png",
+    "width": 668
+  },
+  "dotted-white-exit": {
+    "height": 251,
+    "page": 32,
+    "src": "/handbook/oregon/dotted-white-exit.png",
+    "width": 404
+  },
+  "dotted-white-line": {
+    "height": 198,
+    "page": 32,
+    "src": "/handbook/oregon/dotted-white-line.png",
+    "width": 391
+  },
+  "double-center-line": {
+    "height": 250,
+    "page": 30,
+    "src": "/handbook/oregon/double-center-line.png",
+    "width": 404
+  },
+  "double-solid-white": {
+    "height": 225,
+    "page": 32,
+    "src": "/handbook/oregon/double-solid-white.png",
+    "width": 400
+  },
+  "double-solid-yellow": {
+    "height": 277,
+    "page": 30,
+    "src": "/handbook/oregon/double-solid-yellow.png",
+    "width": 393
+  },
+  "drive-right-exceptions": {
+    "height": 119,
+    "page": 26,
+    "src": "/handbook/oregon/drive-right-exceptions.png",
+    "width": 517
+  },
+  "drive-right-three-lane": {
+    "height": 119,
+    "page": 26,
+    "src": "/handbook/oregon/drive-right-three-lane.png",
+    "width": 671
+  },
+  "drive-test-waiver": {
+    "height": 119,
+    "page": 11,
+    "src": "/handbook/oregon/drive-test-waiver.png",
+    "width": 372
+  },
+  "driving-off-road": {
+    "height": 119,
+    "page": 83,
+    "src": "/handbook/oregon/driving-off-road.png",
+    "width": 669
+  },
+  "drowsy-driving-signs": {
+    "height": 172,
+    "page": 89,
+    "src": "/handbook/oregon/drowsy-driving-signs.png",
+    "width": 676
+  },
+  "duii-any-substance": {
+    "height": 145,
+    "page": 91,
+    "src": "/handbook/oregon/duii-any-substance.png",
+    "width": 673
+  },
+  "emergency-500-feet": {
+    "height": 145,
+    "page": 66,
+    "src": "/handbook/oregon/emergency-500-feet.png",
+    "width": 664
+  },
+  "emergency-parking-200-feet": {
+    "height": 224,
+    "page": 79,
+    "src": "/handbook/oregon/emergency-parking-200-feet.png",
+    "width": 654
+  },
+  "emergency-pull-right": {
+    "height": 198,
+    "page": 66,
+    "src": "/handbook/oregon/emergency-pull-right.png",
+    "width": 669
+  },
+  "emergency-scene-hoses": {
+    "height": 171,
+    "page": 65,
+    "src": "/handbook/oregon/emergency-scene-hoses.png",
+    "width": 668
+  },
+  "emergency-stay-stopped": {
+    "height": 172,
+    "page": 66,
+    "src": "/handbook/oregon/emergency-stay-stopped.png",
+    "width": 651
+  },
+  "external-passengers": {
+    "height": 171,
+    "page": 92,
+    "src": "/handbook/oregon/external-passengers.png",
+    "width": 668
+  },
+  "flashing-red-signal": {
+    "height": 146,
+    "page": 23,
+    "src": "/handbook/oregon/flashing-red-signal.png",
+    "width": 563
+  },
+  "flashing-yellow-arrow": {
+    "height": 225,
+    "page": 24,
+    "src": "/handbook/oregon/flashing-yellow-arrow.png",
+    "width": 581
+  },
+  "flashing-yellow-signal": {
+    "height": 146,
+    "page": 24,
+    "src": "/handbook/oregon/flashing-yellow-signal.png",
+    "width": 564
+  },
+  "flooded-areas": {
+    "height": 145,
+    "page": 86,
+    "src": "/handbook/oregon/flooded-areas.png",
+    "width": 666
+  },
+  "fog-lights-off": {
+    "height": 198,
+    "page": 84,
+    "src": "/handbook/oregon/fog-lights-off.png",
+    "width": 658
+  },
+  "fog-low-beam": {
+    "height": 171,
+    "page": 85,
+    "src": "/handbook/oregon/fog-low-beam.png",
+    "width": 661
+  },
+  "following-2-4-seconds": {
+    "height": 198,
+    "page": 34,
+    "src": "/handbook/oregon/following-2-4-seconds.png",
+    "width": 666
+  },
+  "following-count-method": {
+    "height": 145,
+    "page": 35,
+    "src": "/handbook/oregon/following-count-method.png",
+    "width": 675
+  },
+  "four-way-stop-courtesy": {
+    "height": 197,
+    "page": 50,
+    "src": "/handbook/oregon/four-way-stop-courtesy.png",
+    "width": 669
+  },
+  "freeway-entering": {
+    "height": 145,
+    "page": 42,
+    "src": "/handbook/oregon/freeway-entering.png",
+    "width": 643
+  },
+  "freeway-flow-of-traffic": {
+    "height": 198,
+    "page": 42,
+    "src": "/handbook/oregon/freeway-flow-of-traffic.png",
+    "width": 678
+  },
+  "freeway-steady-speed": {
+    "height": 171,
+    "page": 42,
+    "src": "/handbook/oregon/freeway-steady-speed.png",
+    "width": 678
+  },
+  "freeway-vehicle-trouble": {
+    "height": 225,
+    "page": 43,
+    "src": "/handbook/oregon/freeway-vehicle-trouble.png",
+    "width": 672
+  },
+  "freeway-yield-merge": {
+    "height": 225,
+    "page": 42,
+    "src": "/handbook/oregon/freeway-yield-merge.png",
+    "width": 668
+  },
+  "funeral-no-joining": {
+    "height": 171,
+    "page": 65,
+    "src": "/handbook/oregon/funeral-no-joining.png",
+    "width": 655
+  },
+  "funeral-procession": {
+    "height": 198,
+    "page": 65,
+    "src": "/handbook/oregon/funeral-procession.png",
+    "width": 659
+  },
+  "green-arrow": {
+    "height": 172,
+    "page": 24,
+    "src": "/handbook/oregon/green-arrow.png",
+    "width": 602
+  },
+  "guide-signs-green": {
+    "height": 172,
+    "page": 21,
+    "src": "/handbook/oregon/guide-signs-green.png",
+    "width": 433
+  },
+  "half-road-no-center-line": {
+    "height": 172,
+    "page": 26,
+    "src": "/handbook/oregon/half-road-no-center-line.png",
+    "width": 663
+  },
+  "hand-signals-1000-feet": {
+    "height": 224,
+    "page": 46,
+    "src": "/handbook/oregon/hand-signals-1000-feet.png",
+    "width": 662
+  },
+  "headlights-out": {
+    "height": 119,
+    "page": 93,
+    "src": "/handbook/oregon/headlights-out.png",
+    "width": 667
+  },
+  "headlights-sunset-sunrise": {
+    "height": 277,
+    "page": 84,
+    "src": "/handbook/oregon/headlights-sunset-sunrise.png",
+    "width": 344
+  },
+  "hov-sign": {
+    "height": 199,
+    "page": 17,
+    "src": "/handbook/oregon/hov-sign.png",
+    "width": 557
+  },
+  "hydroplane": {
+    "height": 172,
+    "page": 86,
+    "src": "/handbook/oregon/hydroplane.png",
+    "width": 646
+  },
+  "impaired-bac-008": {
+    "height": 198,
+    "page": 90,
+    "src": "/handbook/oregon/impaired-bac-008.png",
+    "width": 509
+  },
+  "implied-consent": {
+    "height": 224,
+    "page": 91,
+    "src": "/handbook/oregon/implied-consent.png",
+    "width": 653
+  },
+  "in-street-ped-sign": {
+    "height": 172,
+    "page": 18,
+    "src": "/handbook/oregon/in-street-ped-sign.png",
+    "width": 561
+  },
+  "increase-following-bikes": {
+    "height": 172,
+    "page": 35,
+    "src": "/handbook/oregon/increase-following-bikes.png",
+    "width": 668
+  },
+  "increase-following-hill": {
+    "height": 146,
+    "page": 36,
+    "src": "/handbook/oregon/increase-following-hill.png",
+    "width": 642
+  },
+  "increase-following-wet": {
+    "height": 145,
+    "page": 35,
+    "src": "/handbook/oregon/increase-following-wet.png",
+    "width": 668
+  },
+  "injured-animal": {
+    "height": 251,
+    "page": 83,
+    "src": "/handbook/oregon/injured-animal.png",
+    "width": 669
+  },
+  "insurance-minimums": {
+    "height": 199,
+    "page": 101,
+    "src": "/handbook/oregon/insurance-minimums.png",
+    "width": 676
+  },
+  "keep-right-sign": {
+    "height": 146,
+    "page": 17,
+    "src": "/handbook/oregon/keep-right-sign.png",
+    "width": 543
+  },
+  "knowledge-test-35": {
+    "height": 145,
+    "page": 10,
+    "src": "/handbook/oregon/knowledge-test-35.png",
+    "width": 665
+  },
+  "knowledge-test-content": {
+    "height": 145,
+    "page": 10,
+    "src": "/handbook/oregon/knowledge-test-content.png",
+    "width": 667
+  },
+  "lane-reduction-sign": {
+    "height": 172,
+    "page": 19,
+    "src": "/handbook/oregon/lane-reduction-sign.png",
+    "width": 537
+  },
+  "large-vehicle-backing": {
+    "height": 172,
+    "page": 62,
+    "src": "/handbook/oregon/large-vehicle-backing.png",
+    "width": 664
+  },
+  "large-vehicle-crowd": {
+    "height": 145,
+    "page": 61,
+    "src": "/handbook/oregon/large-vehicle-crowd.png",
+    "width": 670
+  },
+  "large-vehicle-passing": {
+    "height": 252,
+    "page": 61,
+    "src": "/handbook/oregon/large-vehicle-passing.png",
+    "width": 450
+  },
+  "large-vehicle-pull-in": {
+    "height": 172,
+    "page": 61,
+    "src": "/handbook/oregon/large-vehicle-pull-in.png",
+    "width": 450
+  },
+  "large-vehicle-rear-blind": {
+    "height": 225,
+    "page": 61,
+    "src": "/handbook/oregon/large-vehicle-rear-blind.png",
+    "width": 670
+  },
+  "large-vehicle-side-blind": {
+    "height": 198,
+    "page": 61,
+    "src": "/handbook/oregon/large-vehicle-side-blind.png",
+    "width": 671
+  },
+  "large-vehicle-stopping": {
+    "height": 171,
+    "page": 61,
+    "src": "/handbook/oregon/large-vehicle-stopping.png",
+    "width": 669
+  },
+  "large-vehicle-turns": {
+    "height": 172,
+    "page": 61,
+    "src": "/handbook/oregon/large-vehicle-turns.png",
+    "width": 670
+  },
+  "leaving-freeway": {
+    "height": 171,
+    "page": 43,
+    "src": "/handbook/oregon/leaving-freeway.png",
+    "width": 653
+  },
+  "left-of-center-yield": {
+    "height": 171,
+    "page": 26,
+    "src": "/handbook/oregon/left-of-center-yield.png",
+    "width": 623
+  },
+  "left-one-way-to-one-way": {
+    "height": 304,
+    "page": 48,
+    "src": "/handbook/oregon/left-one-way-to-one-way.png",
+    "width": 435
+  },
+  "left-one-way-to-two-way": {
+    "height": 252,
+    "page": 48,
+    "src": "/handbook/oregon/left-one-way-to-two-way.png",
+    "width": 440
+  },
+  "left-turn-red-two-way": {
+    "height": 145,
+    "page": 47,
+    "src": "/handbook/oregon/left-turn-red-two-way.png",
+    "width": 668
+  },
+  "left-turn-yield-on-green-sign": {
+    "height": 172,
+    "page": 17,
+    "src": "/handbook/oregon/left-turn-yield-on-green-sign.png",
+    "width": 560
+  },
+  "left-turn-yield-oncoming": {
+    "height": 145,
+    "page": 47,
+    "src": "/handbook/oregon/left-turn-yield-oncoming.png",
+    "width": 661
+  },
+  "left-turns-two-way": {
+    "height": 224,
+    "page": 47,
+    "src": "/handbook/oregon/left-turns-two-way.png",
+    "width": 661
+  },
+  "load-limits": {
+    "height": 198,
+    "page": 64,
+    "src": "/handbook/oregon/load-limits.png",
+    "width": 673
+  },
+  "loss-of-privileges": {
+    "height": 119,
+    "page": 103,
+    "src": "/handbook/oregon/loss-of-privileges.png",
+    "width": 658
+  },
+  "loud-radio-50-feet": {
+    "height": 171,
+    "page": 88,
+    "src": "/handbook/oregon/loud-radio-50-feet.png",
+    "width": 670
+  },
+  "low-clearance-sign": {
+    "height": 172,
+    "page": 20,
+    "src": "/handbook/oregon/low-clearance-sign.png",
+    "width": 549
+  },
+  "marijuana-impairment": {
+    "height": 198,
+    "page": 90,
+    "src": "/handbook/oregon/marijuana-impairment.png",
+    "width": 670
+  },
+  "marked-crosswalk": {
+    "height": 199,
+    "page": 32,
+    "src": "/handbook/oregon/marked-crosswalk.png",
+    "width": 401
+  },
+  "medications": {
+    "height": 225,
+    "page": 91,
+    "src": "/handbook/oregon/medications.png",
+    "width": 673
+  },
+  "mobility-devices": {
+    "height": 198,
+    "page": 59,
+    "src": "/handbook/oregon/mobility-devices.png",
+    "width": 668
+  },
+  "motorcycle-following": {
+    "height": 172,
+    "page": 60,
+    "src": "/handbook/oregon/motorcycle-following.png",
+    "width": 667
+  },
+  "motorcycle-full-lane": {
+    "height": 171,
+    "page": 60,
+    "src": "/handbook/oregon/motorcycle-full-lane.png",
+    "width": 642
+  },
+  "motorcycle-signals": {
+    "height": 224,
+    "page": 60,
+    "src": "/handbook/oregon/motorcycle-signals.png",
+    "width": 672
+  },
+  "motorcycle-yield-oncoming": {
+    "height": 251,
+    "page": 60,
+    "src": "/handbook/oregon/motorcycle-yield-oncoming.png",
+    "width": 354
+  },
+  "motorist-service-signs": {
+    "height": 146,
+    "page": 22,
+    "src": "/handbook/oregon/motorist-service-signs.png",
+    "width": 675
+  },
+  "multiuse-path-sign": {
+    "height": 145,
+    "page": 18,
+    "src": "/handbook/oregon/multiuse-path-sign.png",
+    "width": 551
+  },
+  "near-freezing-slippery": {
+    "height": 171,
+    "page": 86,
+    "src": "/handbook/oregon/near-freezing-slippery.png",
+    "width": 673
+  },
+  "never-back-up-freeway": {
+    "height": 171,
+    "page": 43,
+    "src": "/handbook/oregon/never-back-up-freeway.png",
+    "width": 661
+  },
+  "night-driving-look-right": {
+    "height": 171,
+    "page": 85,
+    "src": "/handbook/oregon/night-driving-look-right.png",
+    "width": 676
+  },
+  "night-passing-dawn-dusk": {
+    "height": 171,
+    "page": 85,
+    "src": "/handbook/oregon/night-passing-dawn-dusk.png",
+    "width": 676
+  },
+  "no-flash-to-pass": {
+    "height": 198,
+    "page": 41,
+    "src": "/handbook/oregon/no-flash-to-pass.png",
+    "width": 671
+  },
+  "no-lap-passengers": {
+    "height": 119,
+    "page": 88,
+    "src": "/handbook/oregon/no-lap-passengers.png",
+    "width": 670
+  },
+  "no-parking-bridge": {
+    "height": 119,
+    "page": 78,
+    "src": "/handbook/oregon/no-parking-bridge.png",
+    "width": 675
+  },
+  "no-parking-crosswalk": {
+    "height": 145,
+    "page": 79,
+    "src": "/handbook/oregon/no-parking-crosswalk.png",
+    "width": 672
+  },
+  "no-parking-driveway": {
+    "height": 119,
+    "page": 78,
+    "src": "/handbook/oregon/no-parking-driveway.png",
+    "width": 675
+  },
+  "no-parking-fire-station": {
+    "height": 172,
+    "page": 79,
+    "src": "/handbook/oregon/no-parking-fire-station.png",
+    "width": 672
+  },
+  "no-parking-hydrant": {
+    "height": 119,
+    "page": 78,
+    "src": "/handbook/oregon/no-parking-hydrant.png",
+    "width": 675
+  },
+  "no-parking-list": {
+    "height": 118,
+    "page": 78,
+    "src": "/handbook/oregon/no-parking-list.png",
+    "width": 675
+  },
+  "no-parking-railroad": {
+    "height": 145,
+    "page": 79,
+    "src": "/handbook/oregon/no-parking-railroad.png",
+    "width": 672
+  },
+  "no-parking-signal": {
+    "height": 146,
+    "page": 79,
+    "src": "/handbook/oregon/no-parking-signal.png",
+    "width": 672
+  },
+  "no-pass-stopped-at-crosswalk": {
+    "height": 145,
+    "page": 55,
+    "src": "/handbook/oregon/no-pass-stopped-at-crosswalk.png",
+    "width": 672
+  },
+  "no-passing-crosswalk": {
+    "height": 172,
+    "page": 40,
+    "src": "/handbook/oregon/no-passing-crosswalk.png",
+    "width": 393
+  },
+  "no-passing-intersections": {
+    "height": 172,
+    "page": 40,
+    "src": "/handbook/oregon/no-passing-intersections.png",
+    "width": 411
+  },
+  "no-passing-view-limited": {
+    "height": 145,
+    "page": 40,
+    "src": "/handbook/oregon/no-passing-view-limited.png",
+    "width": 646
+  },
+  "no-passing-zone": {
+    "height": 172,
+    "page": 40,
+    "src": "/handbook/oregon/no-passing-zone.png",
+    "width": 417
+  },
+  "no-turn-on-red-sign": {
+    "height": 146,
+    "page": 17,
+    "src": "/handbook/oregon/no-turn-on-red-sign.png",
+    "width": 533
+  },
+  "no-video-display": {
+    "height": 145,
+    "page": 88,
+    "src": "/handbook/oregon/no-video-display.png",
+    "width": 670
+  },
+  "obey-all-signs": {
+    "height": 145,
+    "page": 15,
+    "src": "/handbook/oregon/obey-all-signs.png",
+    "width": 675
+  },
+  "obey-pavement-markings": {
+    "height": 171,
+    "page": 30,
+    "src": "/handbook/oregon/obey-pavement-markings.png",
+    "width": 676
+  },
+  "oncoming-drifting": {
+    "height": 198,
+    "page": 83,
+    "src": "/handbook/oregon/oncoming-drifting.png",
+    "width": 660
+  },
+  "one-way-sign": {
+    "height": 146,
+    "page": 16,
+    "src": "/handbook/oregon/one-way-sign.png",
+    "width": 389
+  },
+  "online-test-attempts": {
+    "height": 145,
+    "page": 11,
+    "src": "/handbook/oregon/online-test-attempts.png",
+    "width": 679
+  },
+  "online-test-rules": {
+    "height": 189,
+    "page": 11,
+    "src": "/handbook/oregon/online-test-rules.png",
+    "width": 671
+  },
+  "open-container": {
+    "height": 225,
+    "page": 91,
+    "src": "/handbook/oregon/open-container.png",
+    "width": 665
+  },
+  "out-of-order-signal": {
+    "height": 171,
+    "page": 23,
+    "src": "/handbook/oregon/out-of-order-signal.png",
+    "width": 564
+  },
+  "over-21-fail-008": {
+    "height": 145,
+    "page": 91,
+    "src": "/handbook/oregon/over-21-fail-008.png",
+    "width": 661
+  },
+  "over-length-red-flag": {
+    "height": 198,
+    "page": 64,
+    "src": "/handbook/oregon/over-length-red-flag.png",
+    "width": 672
+  },
+  "painted-median": {
+    "height": 277,
+    "page": 31,
+    "src": "/handbook/oregon/painted-median.png",
+    "width": 392
+  },
+  "parallel-parking-12-inches": {
+    "height": 303,
+    "page": 76,
+    "src": "/handbook/oregon/parallel-parking-12-inches.png",
+    "width": 394
+  },
+  "parking-downhill": {
+    "height": 157,
+    "page": 77,
+    "src": "/handbook/oregon/parking-downhill.png",
+    "width": 244
+  },
+  "parking-hills-brake": {
+    "height": 198,
+    "page": 77,
+    "src": "/handbook/oregon/parking-hills-brake.png",
+    "width": 667
+  },
+  "parking-leaving-space": {
+    "height": 172,
+    "page": 76,
+    "src": "/handbook/oregon/parking-leaving-space.png",
+    "width": 665
+  },
+  "parking-lights-illegal": {
+    "height": 198,
+    "page": 84,
+    "src": "/handbook/oregon/parking-lights-illegal.png",
+    "width": 668
+  },
+  "parking-no-curb": {
+    "height": 157,
+    "page": 77,
+    "src": "/handbook/oregon/parking-no-curb.png",
+    "width": 213
+  },
+  "parking-rules-apply": {
+    "height": 145,
+    "page": 78,
+    "src": "/handbook/oregon/parking-rules-apply.png",
+    "width": 667
+  },
+  "parking-uphill": {
+    "height": 157,
+    "page": 77,
+    "src": "/handbook/oregon/parking-uphill.png",
+    "width": 236
+  },
+  "passing-check-blind-spot": {
+    "height": 224,
+    "page": 39,
+    "src": "/handbook/oregon/passing-check-blind-spot.png",
+    "width": 667
+  },
+  "passing-left-only": {
+    "height": 250,
+    "page": 39,
+    "src": "/handbook/oregon/passing-left-only.png",
+    "width": 656
+  },
+  "passing-on-right": {
+    "height": 118,
+    "page": 41,
+    "src": "/handbook/oregon/passing-on-right.png",
+    "width": 617
+  },
+  "passing-return-to-lane": {
+    "height": 145,
+    "page": 39,
+    "src": "/handbook/oregon/passing-return-to-lane.png",
+    "width": 667
+  },
+  "passing-right-caution": {
+    "height": 172,
+    "page": 41,
+    "src": "/handbook/oregon/passing-right-caution.png",
+    "width": 673
+  },
+  "passing-right-multilane": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/oregon/passing-right-multilane.png",
+    "width": 674
+  },
+  "ped-crossing-sign": {
+    "height": 198,
+    "page": 18,
+    "src": "/handbook/oregon/ped-crossing-sign.png",
+    "width": 561
+  },
+  "ped-lanes-list": {
+    "height": 145,
+    "page": 54,
+    "src": "/handbook/oregon/ped-lanes-list.png",
+    "width": 584
+  },
+  "ped-no-signal-turn": {
+    "height": 171,
+    "page": 55,
+    "src": "/handbook/oregon/ped-no-signal-turn.png",
+    "width": 651
+  },
+  "ped-six-feet-signal": {
+    "height": 172,
+    "page": 55,
+    "src": "/handbook/oregon/ped-six-feet-signal.png",
+    "width": 631
+  },
+  "permit-held-six-months": {
+    "height": 145,
+    "page": 13,
+    "src": "/handbook/oregon/permit-held-six-months.png",
+    "width": 635
+  },
+  "permit-six-months": {
+    "height": 172,
+    "page": 98,
+    "src": "/handbook/oregon/permit-six-months.png",
+    "width": 647
+  },
+  "pilot-vehicles": {
+    "height": 145,
+    "page": 62,
+    "src": "/handbook/oregon/pilot-vehicles.png",
+    "width": 668
+  },
+  "pip-coverage": {
+    "height": 172,
+    "page": 101,
+    "src": "/handbook/oregon/pip-coverage.png",
+    "width": 676
+  },
+  "police-report-not-enough": {
+    "height": 145,
+    "page": 102,
+    "src": "/handbook/oregon/police-report-not-enough.png",
+    "width": 619
+  },
+  "police-stop": {
+    "height": 171,
+    "page": 66,
+    "src": "/handbook/oregon/police-stop.png",
+    "width": 668
+  },
+  "police-stop-hands": {
+    "height": 145,
+    "page": 66,
+    "src": "/handbook/oregon/police-stop-hands.png",
+    "width": 668
+  },
+  "police-stop-stay-in-vehicle": {
+    "height": 119,
+    "page": 66,
+    "src": "/handbook/oregon/police-stop-stay-in-vehicle.png",
+    "width": 668
+  },
+  "racing-illegal": {
+    "height": 146,
+    "page": 29,
+    "src": "/handbook/oregon/racing-illegal.png",
+    "width": 654
+  },
+  "railroad-15-feet": {
+    "height": 146,
+    "page": 72,
+    "src": "/handbook/oregon/railroad-15-feet.png",
+    "width": 673
+  },
+  "railroad-advance-sign": {
+    "height": 146,
+    "page": 20,
+    "src": "/handbook/oregon/railroad-advance-sign.png",
+    "width": 551
+  },
+  "railroad-buses-stop": {
+    "height": 171,
+    "page": 71,
+    "src": "/handbook/oregon/railroad-buses-stop.png",
+    "width": 597
+  },
+  "railroad-clear-crossing": {
+    "height": 171,
+    "page": 71,
+    "src": "/handbook/oregon/railroad-clear-crossing.png",
+    "width": 663
+  },
+  "railroad-crossbuck": {
+    "height": 197,
+    "page": 71,
+    "src": "/handbook/oregon/railroad-crossbuck.png",
+    "width": 531
+  },
+  "railroad-gates": {
+    "height": 172,
+    "page": 72,
+    "src": "/handbook/oregon/railroad-gates.png",
+    "width": 665
+  },
+  "railroad-multiple-tracks": {
+    "height": 172,
+    "page": 72,
+    "src": "/handbook/oregon/railroad-multiple-tracks.png",
+    "width": 665
+  },
+  "railroad-stuck-vehicle": {
+    "height": 172,
+    "page": 72,
+    "src": "/handbook/oregon/railroad-stuck-vehicle.png",
+    "width": 647
+  },
+  "rain-wipers-headlights": {
+    "height": 198,
+    "page": 85,
+    "src": "/handbook/oregon/rain-wipers-headlights.png",
+    "width": 636
+  },
+  "ramp-meters": {
+    "height": 198,
+    "page": 43,
+    "src": "/handbook/oregon/ramp-meters.png",
+    "width": 670
+  },
+  "red-arrow": {
+    "height": 199,
+    "page": 23,
+    "src": "/handbook/oregon/red-arrow.png",
+    "width": 588
+  },
+  "red-circle-slash": {
+    "height": 198,
+    "page": 15,
+    "src": "/handbook/oregon/red-circle-slash.png",
+    "width": 310
+  },
+  "red-markings": {
+    "height": 198,
+    "page": 33,
+    "src": "/handbook/oregon/red-markings.png",
+    "width": 672
+  },
+  "regulatory-other-white": {
+    "height": 171,
+    "page": 16,
+    "src": "/handbook/oregon/regulatory-other-white.png",
+    "width": 647
+  },
+  "regulatory-prohibitive-red": {
+    "height": 171,
+    "page": 15,
+    "src": "/handbook/oregon/regulatory-prohibitive-red.png",
+    "width": 664
+  },
+  "reversing-curves-sign": {
+    "height": 145,
+    "page": 19,
+    "src": "/handbook/oregon/reversing-curves-sign.png",
+    "width": 524
+  },
+  "right-turn-without-stopping": {
+    "height": 225,
+    "page": 16,
+    "src": "/handbook/oregon/right-turn-without-stopping.png",
+    "width": 442
+  },
+  "right-turns": {
+    "height": 172,
+    "page": 47,
+    "src": "/handbook/oregon/right-turns.png",
+    "width": 666
+  },
+  "road-rage": {
+    "height": 145,
+    "page": 89,
+    "src": "/handbook/oregon/road-rage.png",
+    "width": 624
+  },
+  "roundabout-ahead-sign": {
+    "height": 146,
+    "page": 20,
+    "src": "/handbook/oregon/roundabout-ahead-sign.png",
+    "width": 474
+  },
+  "roundabout-approach": {
+    "height": 199,
+    "page": 51,
+    "src": "/handbook/oregon/roundabout-approach.png",
+    "width": 366
+  },
+  "roundabout-direction": {
+    "height": 145,
+    "page": 51,
+    "src": "/handbook/oregon/roundabout-direction.png",
+    "width": 655
+  },
+  "roundabout-do-not-pass": {
+    "height": 198,
+    "page": 52,
+    "src": "/handbook/oregon/roundabout-do-not-pass.png",
+    "width": 661
+  },
+  "roundabout-emergency": {
+    "height": 198,
+    "page": 52,
+    "src": "/handbook/oregon/roundabout-emergency.png",
+    "width": 676
+  },
+  "roundabout-emergency-exit": {
+    "height": 172,
+    "page": 52,
+    "src": "/handbook/oregon/roundabout-emergency-exit.png",
+    "width": 676
+  },
+  "roundabout-enter-yield": {
+    "height": 172,
+    "page": 51,
+    "src": "/handbook/oregon/roundabout-enter-yield.png",
+    "width": 650
+  },
+  "roundabout-exit-signal": {
+    "height": 198,
+    "page": 51,
+    "src": "/handbook/oregon/roundabout-exit-signal.png",
+    "width": 394
+  },
+  "roundabout-lane-choice": {
+    "height": 340,
+    "page": 52,
+    "src": "/handbook/oregon/roundabout-lane-choice.png",
+    "width": 651
+  },
+  "roundabout-no-pass-bike": {
+    "height": 224,
+    "page": 51,
+    "src": "/handbook/oregon/roundabout-no-pass-bike.png",
+    "width": 363
+  },
+  "route-signs": {
+    "height": 225,
+    "page": 21,
+    "src": "/handbook/oregon/route-signs.png",
+    "width": 292
+  },
+  "safety-belts": {
+    "height": 383,
+    "page": 81,
+    "src": "/handbook/oregon/safety-belts.png",
+    "width": 359
+  },
+  "safety-corridor-sign": {
+    "height": 250,
+    "page": 21,
+    "src": "/handbook/oregon/safety-corridor-sign.png",
+    "width": 663
+  },
+  "safety-island-exception": {
+    "height": 145,
+    "page": 55,
+    "src": "/handbook/oregon/safety-island-exception.png",
+    "width": 656
+  },
+  "scanning-ahead": {
+    "height": 198,
+    "page": 38,
+    "src": "/handbook/oregon/scanning-ahead.png",
+    "width": 672
+  },
+  "school-crossing-guard": {
+    "height": 172,
+    "page": 58,
+    "src": "/handbook/oregon/school-crossing-guard.png",
+    "width": 651
+  },
+  "school-enrollment": {
+    "height": 224,
+    "page": 97,
+    "src": "/handbook/oregon/school-enrollment.png",
+    "width": 675
+  },
+  "school-flashing-sign": {
+    "height": 172,
+    "page": 57,
+    "src": "/handbook/oregon/school-flashing-sign.png",
+    "width": 565
+  },
+  "school-hours-sign": {
+    "height": 199,
+    "page": 57,
+    "src": "/handbook/oregon/school-hours-sign.png",
+    "width": 573
+  },
+  "school-speed-zone-20": {
+    "height": 198,
+    "page": 57,
+    "src": "/handbook/oregon/school-speed-zone-20.png",
+    "width": 670
+  },
+  "school-zone-definition": {
+    "height": 171,
+    "page": 57,
+    "src": "/handbook/oregon/school-zone-definition.png",
+    "width": 655
+  },
+  "school-zone-sign-five-sided": {
+    "height": 172,
+    "page": 57,
+    "src": "/handbook/oregon/school-zone-sign-five-sided.png",
+    "width": 660
+  },
+  "sharrow": {
+    "height": 198,
+    "page": 59,
+    "src": "/handbook/oregon/sharrow.png",
+    "width": 544
+  },
+  "side-cushion-parked-cars": {
+    "height": 198,
+    "page": 36,
+    "src": "/handbook/oregon/side-cushion-parked-cars.png",
+    "width": 671
+  },
+  "side-road-sign": {
+    "height": 172,
+    "page": 19,
+    "src": "/handbook/oregon/side-road-sign.png",
+    "width": 461
+  },
+  "sidewalk-stop": {
+    "height": 172,
+    "page": 55,
+    "src": "/handbook/oregon/sidewalk-stop.png",
+    "width": 672
+  },
+  "signal-100-feet": {
+    "height": 198,
+    "page": 46,
+    "src": "/handbook/oregon/signal-100-feet.png",
+    "width": 661
+  },
+  "signal-ahead-sign": {
+    "height": 146,
+    "page": 20,
+    "src": "/handbook/oregon/signal-ahead-sign.png",
+    "width": 543
+  },
+  "signal-required-moves": {
+    "height": 145,
+    "page": 46,
+    "src": "/handbook/oregon/signal-required-moves.png",
+    "width": 677
+  },
+  "signs-color-shape": {
+    "height": 171,
+    "page": 15,
+    "src": "/handbook/oregon/signs-color-shape.png",
+    "width": 635
+  },
+  "skid-steer": {
+    "height": 225,
+    "page": 87,
+    "src": "/handbook/oregon/skid-steer.png",
+    "width": 675
+  },
+  "skidding": {
+    "height": 146,
+    "page": 87,
+    "src": "/handbook/oregon/skidding.png",
+    "width": 675
+  },
+  "slippery-when-wet-sign": {
+    "height": 145,
+    "page": 20,
+    "src": "/handbook/oregon/slippery-when-wet-sign.png",
+    "width": 567
+  },
+  "slow-drivers-pull-off": {
+    "height": 171,
+    "page": 29,
+    "src": "/handbook/oregon/slow-drivers-pull-off.png",
+    "width": 665
+  },
+  "slow-drivers-right": {
+    "height": 172,
+    "page": 29,
+    "src": "/handbook/oregon/slow-drivers-right.png",
+    "width": 673
+  },
+  "slow-moving-emblem": {
+    "height": 224,
+    "page": 64,
+    "src": "/handbook/oregon/slow-moving-emblem.png",
+    "width": 637
+  },
+  "snow-ice-cruise": {
+    "height": 198,
+    "page": 86,
+    "src": "/handbook/oregon/snow-ice-cruise.png",
+    "width": 664
+  },
+  "solid-white-line": {
+    "height": 173,
+    "page": 31,
+    "src": "/handbook/oregon/solid-white-line.png",
+    "width": 387
+  },
+  "solid-yellow-edge": {
+    "height": 146,
+    "page": 30,
+    "src": "/handbook/oregon/solid-yellow-edge.png",
+    "width": 387
+  },
+  "space-behind-tailgating": {
+    "height": 145,
+    "page": 36,
+    "src": "/handbook/oregon/space-behind-tailgating.png",
+    "width": 665
+  },
+  "space-cushion": {
+    "height": 224,
+    "page": 34,
+    "src": "/handbook/oregon/space-cushion.png",
+    "width": 668
+  },
+  "speed-limit-definition": {
+    "height": 145,
+    "page": 27,
+    "src": "/handbook/oregon/speed-limit-definition.png",
+    "width": 673
+  },
+  "speed-limit-sign": {
+    "height": 198,
+    "page": 16,
+    "src": "/handbook/oregon/speed-limit-sign.png",
+    "width": 487
+  },
+  "speeding-up-to-avoid": {
+    "height": 198,
+    "page": 82,
+    "src": "/handbook/oregon/speeding-up-to-avoid.png",
+    "width": 674
+  },
+  "statutory-speed-limits": {
+    "height": 119,
+    "page": 27,
+    "src": "/handbook/oregon/statutory-speed-limits.png",
+    "width": 668
+  },
+  "steady-green": {
+    "height": 120,
+    "page": 24,
+    "src": "/handbook/oregon/steady-green.png",
+    "width": 580
+  },
+  "steady-red": {
+    "height": 145,
+    "page": 23,
+    "src": "/handbook/oregon/steady-red.png",
+    "width": 602
+  },
+  "steady-yellow": {
+    "height": 198,
+    "page": 23,
+    "src": "/handbook/oregon/steady-yellow.png",
+    "width": 593
+  },
+  "stop-ahead-sign": {
+    "height": 145,
+    "page": 19,
+    "src": "/handbook/oregon/stop-ahead-sign.png",
+    "width": 552
+  },
+  "stop-behind-see-tires": {
+    "height": 172,
+    "page": 35,
+    "src": "/handbook/oregon/stop-behind-see-tires.png",
+    "width": 664
+  },
+  "stop-for-pedestrians": {
+    "height": 224,
+    "page": 54,
+    "src": "/handbook/oregon/stop-for-pedestrians.png",
+    "width": 670
+  },
+  "stop-from-driveway": {
+    "height": 171,
+    "page": 26,
+    "src": "/handbook/oregon/stop-from-driveway.png",
+    "width": 645
+  },
+  "stop-here-for-pedestrians-sign": {
+    "height": 172,
+    "page": 17,
+    "src": "/handbook/oregon/stop-here-for-pedestrians-sign.png",
+    "width": 527
+  },
+  "stop-line-marking": {
+    "height": 172,
+    "page": 33,
+    "src": "/handbook/oregon/stop-line-marking.png",
+    "width": 390
+  },
+  "stop-position-intersection": {
+    "height": 224,
+    "page": 50,
+    "src": "/handbook/oregon/stop-position-intersection.png",
+    "width": 674
+  },
+  "stop-sign-octagon": {
+    "height": 225,
+    "page": 15,
+    "src": "/handbook/oregon/stop-sign-octagon.png",
+    "width": 525
+  },
+  "stopping-distance-60": {
+    "height": 198,
+    "page": 37,
+    "src": "/handbook/oregon/stopping-distance-60.png",
+    "width": 673
+  },
+  "streetcar-braking": {
+    "height": 171,
+    "page": 74,
+    "src": "/handbook/oregon/streetcar-braking.png",
+    "width": 650
+  },
+  "streetcar-go-first": {
+    "height": 145,
+    "page": 73,
+    "src": "/handbook/oregon/streetcar-go-first.png",
+    "width": 675
+  },
+  "streetcar-parking": {
+    "height": 198,
+    "page": 73,
+    "src": "/handbook/oregon/streetcar-parking.png",
+    "width": 672
+  },
+  "streetcar-stopped": {
+    "height": 145,
+    "page": 73,
+    "src": "/handbook/oregon/streetcar-stopped.png",
+    "width": 675
+  },
+  "streetcar-turn": {
+    "height": 171,
+    "page": 74,
+    "src": "/handbook/oregon/streetcar-turn.png",
+    "width": 669
+  },
+  "studded-tires-season": {
+    "height": 198,
+    "page": 87,
+    "src": "/handbook/oregon/studded-tires-season.png",
+    "width": 674
+  },
+  "supervised-hours": {
+    "height": 198,
+    "page": 98,
+    "src": "/handbook/oregon/supervised-hours.png",
+    "width": 647
+  },
+  "supervised-hours-who": {
+    "height": 171,
+    "page": 98,
+    "src": "/handbook/oregon/supervised-hours-who.png",
+    "width": 622
+  },
+  "t-intersection-yield": {
+    "height": 171,
+    "page": 50,
+    "src": "/handbook/oregon/t-intersection-yield.png",
+    "width": 639
+  },
+  "test-cheating": {
+    "height": 225,
+    "page": 10,
+    "src": "/handbook/oregon/test-cheating.png",
+    "width": 678
+  },
+  "test-retake-same-day": {
+    "height": 145,
+    "page": 10,
+    "src": "/handbook/oregon/test-retake-same-day.png",
+    "width": 678
+  },
+  "tow-one-trailer": {
+    "height": 171,
+    "page": 44,
+    "src": "/handbook/oregon/tow-one-trailer.png",
+    "width": 662
+  },
+  "towing-pull-off": {
+    "height": 198,
+    "page": 43,
+    "src": "/handbook/oregon/towing-pull-off.png",
+    "width": 662
+  },
+  "traction-tires": {
+    "height": 251,
+    "page": 87,
+    "src": "/handbook/oregon/traction-tires.png",
+    "width": 549
+  },
+  "trailer-passengers": {
+    "height": 119,
+    "page": 44,
+    "src": "/handbook/oregon/trailer-passengers.png",
+    "width": 663
+  },
+  "transit-bus-yield": {
+    "height": 225,
+    "page": 64,
+    "src": "/handbook/oregon/transit-bus-yield.png",
+    "width": 479
+  },
+  "transit-only-lane-sign": {
+    "height": 225,
+    "page": 16,
+    "src": "/handbook/oregon/transit-only-lane-sign.png",
+    "width": 469
+  },
+  "transit-right-turns-permitted": {
+    "height": 251,
+    "page": 16,
+    "src": "/handbook/oregon/transit-right-turns-permitted.png",
+    "width": 656
+  },
+  "turn-across-bike-lane": {
+    "height": 145,
+    "page": 47,
+    "src": "/handbook/oregon/turn-across-bike-lane.png",
+    "width": 679
+  },
+  "turn-rules-everywhere": {
+    "height": 224,
+    "page": 47,
+    "src": "/handbook/oregon/turn-rules-everywhere.png",
+    "width": 443
+  },
+  "turning-general-rule": {
+    "height": 197,
+    "page": 49,
+    "src": "/handbook/oregon/turning-general-rule.png",
+    "width": 631
+  },
+  "turning-quickly": {
+    "height": 199,
+    "page": 82,
+    "src": "/handbook/oregon/turning-quickly.png",
+    "width": 670
+  },
+  "turns-on-red": {
+    "height": 145,
+    "page": 23,
+    "src": "/handbook/oregon/turns-on-red.png",
+    "width": 603
+  },
+  "two-way-left-turn-lane": {
+    "height": 330,
+    "page": 31,
+    "src": "/handbook/oregon/two-way-left-turn-lane.png",
+    "width": 401
+  },
+  "two-way-stop-left-turn": {
+    "height": 172,
+    "page": 50,
+    "src": "/handbook/oregon/two-way-stop-left-turn.png",
+    "width": 634
+  },
+  "two-way-to-one-way": {
+    "height": 304,
+    "page": 48,
+    "src": "/handbook/oregon/two-way-to-one-way.png",
+    "width": 434
+  },
+  "two-way-traffic-sign": {
+    "height": 172,
+    "page": 19,
+    "src": "/handbook/oregon/two-way-traffic-sign.png",
+    "width": 533
+  },
+  "u-turn-visibility": {
+    "height": 145,
+    "page": 49,
+    "src": "/handbook/oregon/u-turn-visibility.png",
+    "width": 675
+  },
+  "u-turns-prohibited": {
+    "height": 119,
+    "page": 49,
+    "src": "/handbook/oregon/u-turns-prohibited.png",
+    "width": 451
+  },
+  "unattended-vehicle": {
+    "height": 145,
+    "page": 79,
+    "src": "/handbook/oregon/unattended-vehicle.png",
+    "width": 659
+  },
+  "unattended-vehicle-note": {
+    "height": 172,
+    "page": 102,
+    "src": "/handbook/oregon/unattended-vehicle-note.png",
+    "width": 677
+  },
+  "uncontrolled-intersection": {
+    "height": 225,
+    "page": 50,
+    "src": "/handbook/oregon/uncontrolled-intersection.png",
+    "width": 653
+  },
+  "under-21-zero-tolerance": {
+    "height": 171,
+    "page": 91,
+    "src": "/handbook/oregon/under-21-zero-tolerance.png",
+    "width": 661
+  },
+  "uninsured-motorist": {
+    "height": 146,
+    "page": 101,
+    "src": "/handbook/oregon/uninsured-motorist.png",
+    "width": 676
+  },
+  "unmarked-crosswalk": {
+    "height": 225,
+    "page": 55,
+    "src": "/handbook/oregon/unmarked-crosswalk.png",
+    "width": 671
+  },
+  "variable-advisory-speed": {
+    "height": 225,
+    "page": 28,
+    "src": "/handbook/oregon/variable-advisory-speed.png",
+    "width": 656
+  },
+  "variable-speed-limit": {
+    "height": 251,
+    "page": 28,
+    "src": "/handbook/oregon/variable-speed-limit.png",
+    "width": 656
+  },
+  "vulnerable-users": {
+    "height": 198,
+    "page": 54,
+    "src": "/handbook/oregon/vulnerable-users.png",
+    "width": 675
+  },
+  "vulnerable-why": {
+    "height": 145,
+    "page": 54,
+    "src": "/handbook/oregon/vulnerable-why.png",
+    "width": 675
+  },
+  "warning-signs-yellow": {
+    "height": 197,
+    "page": 18,
+    "src": "/handbook/oregon/warning-signs-yellow.png",
+    "width": 673
+  },
+  "wet-brakes": {
+    "height": 171,
+    "page": 86,
+    "src": "/handbook/oregon/wet-brakes.png",
+    "width": 667
+  },
+  "white-cane-guide-dog": {
+    "height": 303,
+    "page": 56,
+    "src": "/handbook/oregon/white-cane-guide-dog.png",
+    "width": 649
+  },
+  "white-markings": {
+    "height": 198,
+    "page": 31,
+    "src": "/handbook/oregon/white-markings.png",
+    "width": 648
+  },
+  "wide-solid-white": {
+    "height": 251,
+    "page": 32,
+    "src": "/handbook/oregon/wide-solid-white.png",
+    "width": 396
+  },
+  "winding-road-sign": {
+    "height": 146,
+    "page": 19,
+    "src": "/handbook/oregon/winding-road-sign.png",
+    "width": 568
+  },
+  "work-zone-construction-vehicles": {
+    "height": 172,
+    "page": 68,
+    "src": "/handbook/oregon/work-zone-construction-vehicles.png",
+    "width": 673
+  },
+  "work-zone-flaggers": {
+    "height": 171,
+    "page": 67,
+    "src": "/handbook/oregon/work-zone-flaggers.png",
+    "width": 678
+  },
+  "work-zone-orange": {
+    "height": 251,
+    "page": 67,
+    "src": "/handbook/oregon/work-zone-orange.png",
+    "width": 564
+  },
+  "work-zone-speed": {
+    "height": 225,
+    "page": 67,
+    "src": "/handbook/oregon/work-zone-speed.png",
+    "width": 566
+  },
+  "worship-worker-buses": {
+    "height": 197,
+    "page": 64,
+    "src": "/handbook/oregon/worship-worker-buses.png",
+    "width": 627
+  },
+  "wrong-lane-to-turn": {
+    "height": 198,
+    "page": 47,
+    "src": "/handbook/oregon/wrong-lane-to-turn.png",
+    "width": 674
+  },
+  "wrong-way-ramp": {
+    "height": 172,
+    "page": 42,
+    "src": "/handbook/oregon/wrong-way-ramp.png",
+    "width": 640
+  },
+  "yellow-arrow": {
+    "height": 198,
+    "page": 24,
+    "src": "/handbook/oregon/yellow-arrow.png",
+    "width": 595
+  },
+  "yellow-diagonal-stripes": {
+    "height": 252,
+    "page": 31,
+    "src": "/handbook/oregon/yellow-diagonal-stripes.png",
+    "width": 401
+  },
+  "yellow-markings": {
+    "height": 198,
+    "page": 30,
+    "src": "/handbook/oregon/yellow-markings.png",
+    "width": 669
+  },
+  "yield-bikes-before-turn": {
+    "height": 171,
+    "page": 47,
+    "src": "/handbook/oregon/yield-bikes-before-turn.png",
+    "width": 669
+  },
+  "yield-bikes-sidewalk": {
+    "height": 145,
+    "page": 58,
+    "src": "/handbook/oregon/yield-bikes-sidewalk.png",
+    "width": 674
+  },
+  "yield-emergency-vehicles": {
+    "height": 171,
+    "page": 66,
+    "src": "/handbook/oregon/yield-emergency-vehicles.png",
+    "width": 661
+  },
+  "yield-line-marking": {
+    "height": 198,
+    "page": 33,
+    "src": "/handbook/oregon/yield-line-marking.png",
+    "width": 405
+  },
+  "yield-sign-triangle": {
+    "height": 172,
+    "page": 15,
+    "src": "/handbook/oregon/yield-sign-triangle.png",
+    "width": 510
+  },
+  "yield-vulnerable-users": {
+    "height": 198,
+    "page": 50,
+    "src": "/handbook/oregon/yield-vulnerable-users.png",
+    "width": 673
+  },
+  "yielding-definition": {
+    "height": 145,
+    "page": 26,
+    "src": "/handbook/oregon/yielding-definition.png",
+    "width": 655
+  }
+}
