@@ -35,6 +35,61 @@ def normalise(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _verifier():
+    """
+    verify-excerpts.py's own normalisation, loaded rather than reimplemented.
+
+    This matters more than it looks. The first version of the containment test
+    below used THIS file's normalise(), which is weaker: it folds curly
+    punctuation but not bullet glyphs, not control characters, and it reads the
+    PDF's line-wrap hyphens only one way. Run against the shipped banks it
+    called 171 perfectly good snippets foreign - every one of them a quote the
+    verifier had already proven was in that handbook - and deleting them was a
+    straight regression that had to be restored from git.
+
+    Two normalisers that disagree are worse than one that is imperfect, so the
+    strict half owns the definition and this file borrows it.
+    """
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        "verify_excerpts", str(Path(__file__).with_name("verify-excerpts.py"))
+    )
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def document_readings(pdf_path) -> list:
+    """Every reading of the PDF the verifier would accept a quote against."""
+    return _verifier().load_source(Path(pdf_path))
+
+
+def is_in_document(quote: str, readings: list) -> bool:
+    """
+    Is this quote actually IN this document?
+
+    find_quote below falls back to the opening six words so it can still crop a
+    passage that spans a column break. That fallback is why a quote taken from
+    the STATUTE could be "located" in the handbook: the handbook paraphrases the
+    same rule, the opening words agree, and a picture was produced showing the
+    manual's sentence beside an excerpt attributed to the statute.
+
+    A real example, Kentucky's dui-statute-008: the excerpt cites KRS
+    189A.010(1)(a), and the rendered image showed the manual's "In Kentucky, a
+    person shall not operate or be in physical control of a motor vehicle WHILE
+    HAVING an alcohol concentration of 0.08" - different wording, from a
+    different document, with only the shared opening highlighted. A learner
+    checking the official text was shown the wrong source.
+
+    So the fallback may decide WHERE to crop, but never WHETHER to crop. The
+    quote must appear in this document's own text first.
+    """
+    v = _verifier()
+    q = v.normalise(quote)
+    return any(q in r for r in readings)
+
+
 def find_quote(doc, quote: str):
     """
     Locate a quote in the PDF.
@@ -161,7 +216,16 @@ def main():
     manifest = {}
     hit = miss = 0
 
+    # One pass to read the document's own text, so a quote that belongs to some
+    # other source can never be cropped out of this one.
+    readings = document_readings(pdf_path)
+
+    foreign = 0
     for item in quotes:
+        if not is_in_document(item["quote"], readings):
+            print(f"  NOT IN THIS DOCUMENT {item['key']}")
+            foreign += 1
+            continue
         # Reopen per excerpt so highlights from one don't bleed into the next.
         doc = fitz.open(pdf_path)
         pno, rects = find_quote(doc, item["quote"])
@@ -181,7 +245,10 @@ def main():
     Path(f"src/lib/driving/{slug}/snippets.json").write_text(
         json.dumps(manifest, indent=2, sort_keys=True), encoding="utf-8"
     )
-    print(f"{slug}: {hit} snippets rendered, {miss} not located")
+    print(
+        f"{slug}: {hit} snippets rendered, {miss} not located, "
+        f"{foreign} skipped as not in this document"
+    )
 
 
 if __name__ == "__main__":

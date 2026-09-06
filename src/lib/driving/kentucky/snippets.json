@@ -413,12 +413,6 @@
     "src": "/handbook/kentucky/dui-first-penalty.png",
     "width": 541
   },
-  "dui-statute-008": {
-    "height": 171,
-    "page": 32,
-    "src": "/handbook/kentucky/dui-statute-008.png",
-    "width": 539
-  },
   "dui-under-002": {
     "height": 199,
     "page": 32,
@@ -604,12 +598,6 @@
     "page": 18,
     "src": "/handbook/kentucky/headlight-reveal.png",
     "width": 539
-  },
-  "headlights-statute": {
-    "height": 143,
-    "page": 59,
-    "src": "/handbook/kentucky/headlights-statute.png",
-    "width": 531
   },
   "headlights-sunset": {
     "height": 199,
@@ -1001,12 +989,6 @@
     "src": "/handbook/kentucky/permit-age-manual.png",
     "width": 521
   },
-  "permit-age-statute": {
-    "height": 116,
-    "page": 9,
-    "src": "/handbook/kentucky/permit-age-statute.png",
-    "width": 542
-  },
   "permit-curfew": {
     "height": 198,
     "page": 11,
@@ -1257,12 +1239,6 @@
     "height": 171,
     "page": 50,
     "src": "/handbook/kentucky/schoolbus-four-lane.png",
-    "width": 540
-  },
-  "schoolbus-statute": {
-    "height": 143,
-    "page": 50,
-    "src": "/handbook/kentucky/schoolbus-statute.png",
     "width": 540
   },
   "schoolbus-stop": {
@@ -1690,12 +1666,6 @@
     "page": 44,
     "src": "/handbook/kentucky/yield-sign.png",
     "width": 415
-  },
-  "yield-sign-statute": {
-    "height": 143,
-    "page": 50,
-    "src": "/handbook/kentucky/yield-sign-statute.png",
-    "width": 540
   },
   "zero-tolerance-permit": {
     "height": 199,
