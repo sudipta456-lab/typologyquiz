@@ -1,0 +1,1874 @@
+{
+  "abs-no-pumping": {
+    "height": 149,
+    "page": 86,
+    "src": "/handbook/minnesota/abs-no-pumping.png",
+    "width": 1086
+  },
+  "added-lane-sign": {
+    "height": 184,
+    "page": 66,
+    "src": "/handbook/minnesota/added-lane-sign.png",
+    "width": 736
+  },
+  "address-change-30-days": {
+    "height": 149,
+    "page": 22,
+    "src": "/handbook/minnesota/address-change-30-days.png",
+    "width": 1054
+  },
+  "aggressive-driver-response": {
+    "height": 176,
+    "page": 82,
+    "src": "/handbook/minnesota/aggressive-driver-response.png",
+    "width": 1064
+  },
+  "airbag-10-inches": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/minnesota/airbag-10-inches.png",
+    "width": 1048
+  },
+  "airbags-supplemental": {
+    "height": 148,
+    "page": 42,
+    "src": "/handbook/minnesota/airbags-supplemental.png",
+    "width": 1075
+  },
+  "alcohol-one-third": {
+    "height": 177,
+    "page": 94,
+    "src": "/handbook/minnesota/alcohol-one-third.png",
+    "width": 1074
+  },
+  "alcohol-vision": {
+    "height": 149,
+    "page": 94,
+    "src": "/handbook/minnesota/alcohol-vision.png",
+    "width": 1072
+  },
+  "animal-drawn-lamp": {
+    "height": 177,
+    "page": 64,
+    "src": "/handbook/minnesota/animal-drawn-lamp.png",
+    "width": 824
+  },
+  "backing-freeway": {
+    "height": 149,
+    "page": 37,
+    "src": "/handbook/minnesota/backing-freeway.png",
+    "width": 1055
+  },
+  "backing-look": {
+    "height": 149,
+    "page": 38,
+    "src": "/handbook/minnesota/backing-look.png",
+    "width": 994
+  },
+  "basic-speed-law": {
+    "height": 178,
+    "page": 29,
+    "src": "/handbook/minnesota/basic-speed-law.png",
+    "width": 1081
+  },
+  "being-passed": {
+    "height": 121,
+    "page": 37,
+    "src": "/handbook/minnesota/being-passed.png",
+    "width": 969
+  },
+  "bicycle-3-feet": {
+    "height": 177,
+    "page": 51,
+    "src": "/handbook/minnesota/bicycle-3-feet.png",
+    "width": 1080
+  },
+  "bicycle-hand-signals": {
+    "height": 205,
+    "page": 51,
+    "src": "/handbook/minnesota/bicycle-hand-signals.png",
+    "width": 1081
+  },
+  "bicycle-lane-driving": {
+    "height": 176,
+    "page": 51,
+    "src": "/handbook/minnesota/bicycle-lane-driving.png",
+    "width": 1096
+  },
+  "bicycle-sidewalk-business": {
+    "height": 121,
+    "page": 51,
+    "src": "/handbook/minnesota/bicycle-sidewalk-business.png",
+    "width": 1007
+  },
+  "bicycle-two-abreast": {
+    "height": 149,
+    "page": 51,
+    "src": "/handbook/minnesota/bicycle-two-abreast.png",
+    "width": 1002
+  },
+  "bicycles-are-vehicles": {
+    "height": 148,
+    "page": 50,
+    "src": "/handbook/minnesota/bicycles-are-vehicles.png",
+    "width": 991
+  },
+  "blind-pedestrians": {
+    "height": 149,
+    "page": 50,
+    "src": "/handbook/minnesota/blind-pedestrians.png",
+    "width": 1055
+  },
+  "blowout": {
+    "height": 149,
+    "page": 86,
+    "src": "/handbook/minnesota/blowout.png",
+    "width": 1050
+  },
+  "blue-lights": {
+    "height": 121,
+    "page": 26,
+    "src": "/handbook/minnesota/blue-lights.png",
+    "width": 1031
+  },
+  "blue-signs-services": {
+    "height": 121,
+    "page": 68,
+    "src": "/handbook/minnesota/blue-signs-services.png",
+    "width": 980
+  },
+  "booster-4-to-9": {
+    "height": 149,
+    "page": 41,
+    "src": "/handbook/minnesota/booster-4-to-9.png",
+    "width": 1070
+  },
+  "brake-failure": {
+    "height": 176,
+    "page": 87,
+    "src": "/handbook/minnesota/brake-failure.png",
+    "width": 1079
+  },
+  "bus-divided-roadway": {
+    "height": 149,
+    "page": 45,
+    "src": "/handbook/minnesota/bus-divided-roadway.png",
+    "width": 1144
+  },
+  "bus-no-pass-right": {
+    "height": 149,
+    "page": 44,
+    "src": "/handbook/minnesota/bus-no-pass-right.png",
+    "width": 1067
+  },
+  "bus-no-stop-arm": {
+    "height": 121,
+    "page": 4,
+    "src": "/handbook/minnesota/bus-no-stop-arm.png",
+    "width": 1053
+  },
+  "bus-owner-liable": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/bus-owner-liable.png",
+    "width": 1070
+  },
+  "bus-red-20-feet": {
+    "height": 177,
+    "page": 4,
+    "src": "/handbook/minnesota/bus-red-20-feet.png",
+    "width": 1045
+  },
+  "bus-remain-stopped": {
+    "height": 177,
+    "page": 45,
+    "src": "/handbook/minnesota/bus-remain-stopped.png",
+    "width": 1144
+  },
+  "bus-shoulder-35": {
+    "height": 177,
+    "page": 78,
+    "src": "/handbook/minnesota/bus-shoulder-35.png",
+    "width": 1087
+  },
+  "bus-yellow-lights": {
+    "height": 177,
+    "page": 44,
+    "src": "/handbook/minnesota/bus-yellow-lights.png",
+    "width": 1067
+  },
+  "cancellation-false-info": {
+    "height": 149,
+    "page": 93,
+    "src": "/handbook/minnesota/cancellation-false-info.png",
+    "width": 1030
+  },
+  "cannabis-driving": {
+    "height": 149,
+    "page": 99,
+    "src": "/handbook/minnesota/cannabis-driving.png",
+    "width": 1064
+  },
+  "cannabis-storage": {
+    "height": 177,
+    "page": 99,
+    "src": "/handbook/minnesota/cannabis-storage.png",
+    "width": 1072
+  },
+  "car-seat-expiry": {
+    "height": 121,
+    "page": 41,
+    "src": "/handbook/minnesota/car-seat-expiry.png",
+    "width": 608
+  },
+  "carbon-monoxide": {
+    "height": 177,
+    "page": 89,
+    "src": "/handbook/minnesota/carbon-monoxide.png",
+    "width": 1062
+  },
+  "careless-reckless": {
+    "height": 177,
+    "page": 47,
+    "src": "/handbook/minnesota/careless-reckless.png",
+    "width": 1064
+  },
+  "carpool-lanes": {
+    "height": 149,
+    "page": 74,
+    "src": "/handbook/minnesota/carpool-lanes.png",
+    "width": 1048
+  },
+  "carry-license": {
+    "height": 176,
+    "page": 20,
+    "src": "/handbook/minnesota/carry-license.png",
+    "width": 1077
+  },
+  "cell-phone-messages": {
+    "height": 177,
+    "page": 43,
+    "src": "/handbook/minnesota/cell-phone-messages.png",
+    "width": 1077
+  },
+  "center-lane-sign": {
+    "height": 184,
+    "page": 61,
+    "src": "/handbook/minnesota/center-lane-sign.png",
+    "width": 775
+  },
+  "center-turn-lane-markings": {
+    "height": 149,
+    "page": 74,
+    "src": "/handbook/minnesota/center-turn-lane-markings.png",
+    "width": 1048
+  },
+  "children-under-13": {
+    "height": 121,
+    "page": 41,
+    "src": "/handbook/minnesota/children-under-13.png",
+    "width": 1085
+  },
+  "class-d-26001": {
+    "height": 121,
+    "page": 20,
+    "src": "/handbook/minnesota/class-d-26001.png",
+    "width": 669
+  },
+  "class-d-towing": {
+    "height": 122,
+    "page": 21,
+    "src": "/handbook/minnesota/class-d-towing.png",
+    "width": 798
+  },
+  "class-d-vehicles": {
+    "height": 121,
+    "page": 20,
+    "src": "/handbook/minnesota/class-d-vehicles.png",
+    "width": 797
+  },
+  "coasting-neutral": {
+    "height": 149,
+    "page": 86,
+    "src": "/handbook/minnesota/coasting-neutral.png",
+    "width": 1070
+  },
+  "coffee-no-help": {
+    "height": 149,
+    "page": 95,
+    "src": "/handbook/minnesota/coffee-no-help.png",
+    "width": 1076
+  },
+  "commercial-vehicle-definition": {
+    "height": 149,
+    "page": 54,
+    "src": "/handbook/minnesota/commercial-vehicle-definition.png",
+    "width": 1048
+  },
+  "construction-signs-orange": {
+    "height": 149,
+    "page": 67,
+    "src": "/handbook/minnesota/construction-signs-orange.png",
+    "width": 1064
+  },
+  "crash-call-help": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/minnesota/crash-call-help.png",
+    "width": 1006
+  },
+  "crash-exchange-info": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/minnesota/crash-exchange-info.png",
+    "width": 1055
+  },
+  "crash-insurance-72-hours": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/minnesota/crash-insurance-72-hours.png",
+    "width": 1060
+  },
+  "crash-property-only": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/minnesota/crash-property-only.png",
+    "width": 1070
+  },
+  "crossbuck-sign": {
+    "height": 149,
+    "page": 62,
+    "src": "/handbook/minnesota/crossbuck-sign.png",
+    "width": 818
+  },
+  "curve-sign-speed": {
+    "height": 183,
+    "page": 64,
+    "src": "/handbook/minnesota/curve-sign-speed.png",
+    "width": 792
+  },
+  "deer": {
+    "height": 176,
+    "page": 87,
+    "src": "/handbook/minnesota/deer.png",
+    "width": 1071
+  },
+  "diamond-lane-sign": {
+    "height": 177,
+    "page": 62,
+    "src": "/handbook/minnesota/diamond-lane-sign.png",
+    "width": 812
+  },
+  "disability-parking": {
+    "height": 205,
+    "page": 62,
+    "src": "/handbook/minnesota/disability-parking.png",
+    "width": 808
+  },
+  "distraction-25-percent": {
+    "height": 149,
+    "page": 81,
+    "src": "/handbook/minnesota/distraction-25-percent.png",
+    "width": 1086
+  },
+  "diverging-diamond": {
+    "height": 176,
+    "page": 80,
+    "src": "/handbook/minnesota/diverging-diamond.png",
+    "width": 1058
+  },
+  "divided-highway-crossing": {
+    "height": 148,
+    "page": 35,
+    "src": "/handbook/minnesota/divided-highway-crossing.png",
+    "width": 1147
+  },
+  "divided-highway-ends-sign": {
+    "height": 184,
+    "page": 65,
+    "src": "/handbook/minnesota/divided-highway-ends-sign.png",
+    "width": 753
+  },
+  "double-parking": {
+    "height": 149,
+    "page": 38,
+    "src": "/handbook/minnesota/double-parking.png",
+    "width": 1005
+  },
+  "drive-right-exceptions": {
+    "height": 121,
+    "page": 29,
+    "src": "/handbook/minnesota/drive-right-exceptions.png",
+    "width": 751
+  },
+  "drl-not-taillights": {
+    "height": 177,
+    "page": 26,
+    "src": "/handbook/minnesota/drl-not-taillights.png",
+    "width": 1072
+  },
+  "drugs-and-driving": {
+    "height": 177,
+    "page": 94,
+    "src": "/handbook/minnesota/drugs-and-driving.png",
+    "width": 1081
+  },
+  "dwi-0-04": {
+    "height": 149,
+    "page": 96,
+    "src": "/handbook/minnesota/dwi-0-04.png",
+    "width": 1018
+  },
+  "dwi-aggravating": {
+    "height": 121,
+    "page": 97,
+    "src": "/handbook/minnesota/dwi-aggravating.png",
+    "width": 415
+  },
+  "dwi-first-jail": {
+    "height": 121,
+    "page": 97,
+    "src": "/handbook/minnesota/dwi-first-jail.png",
+    "width": 675
+  },
+  "dwi-first-offense": {
+    "height": 121,
+    "page": 97,
+    "src": "/handbook/minnesota/dwi-first-offense.png",
+    "width": 732
+  },
+  "dwi-limits": {
+    "height": 149,
+    "page": 96,
+    "src": "/handbook/minnesota/dwi-limits.png",
+    "width": 1071
+  },
+  "dwi-reinstatement-680": {
+    "height": 149,
+    "page": 97,
+    "src": "/handbook/minnesota/dwi-reinstatement-680.png",
+    "width": 1080
+  },
+  "dwi-second-offense": {
+    "height": 121,
+    "page": 97,
+    "src": "/handbook/minnesota/dwi-second-offense.png",
+    "width": 1092
+  },
+  "dwi-seven-day": {
+    "height": 177,
+    "page": 97,
+    "src": "/handbook/minnesota/dwi-seven-day.png",
+    "width": 1057
+  },
+  "emergency-vehicle-barrier": {
+    "height": 149,
+    "page": 47,
+    "src": "/handbook/minnesota/emergency-vehicle-barrier.png",
+    "width": 1031
+  },
+  "emergency-vehicle-behind": {
+    "height": 148,
+    "page": 80,
+    "src": "/handbook/minnesota/emergency-vehicle-behind.png",
+    "width": 1064
+  },
+  "emergency-vehicle-pull-right": {
+    "height": 205,
+    "page": 47,
+    "src": "/handbook/minnesota/emergency-vehicle-pull-right.png",
+    "width": 1071
+  },
+  "engine-fire": {
+    "height": 121,
+    "page": 88,
+    "src": "/handbook/minnesota/engine-fire.png",
+    "width": 1089
+  },
+  "ens-sign": {
+    "height": 233,
+    "page": 57,
+    "src": "/handbook/minnesota/ens-sign.png",
+    "width": 565
+  },
+  "epilepsy-30-days": {
+    "height": 177,
+    "page": 15,
+    "src": "/handbook/minnesota/epilepsy-30-days.png",
+    "width": 1083
+  },
+  "exempt-sign": {
+    "height": 149,
+    "page": 62,
+    "src": "/handbook/minnesota/exempt-sign.png",
+    "width": 813
+  },
+  "exiting-parked": {
+    "height": 149,
+    "page": 38,
+    "src": "/handbook/minnesota/exiting-parked.png",
+    "width": 1073
+  },
+  "expired-license-tests": {
+    "height": 177,
+    "page": 9,
+    "src": "/handbook/minnesota/expired-license-tests.png",
+    "width": 1071
+  },
+  "farm-license-40-miles": {
+    "height": 121,
+    "page": 19,
+    "src": "/handbook/minnesota/farm-license-40-miles.png",
+    "width": 1038
+  },
+  "fatigue-breaks": {
+    "height": 121,
+    "page": 85,
+    "src": "/handbook/minnesota/fatigue-breaks.png",
+    "width": 1054
+  },
+  "felony-dwi": {
+    "height": 177,
+    "page": 98,
+    "src": "/handbook/minnesota/felony-dwi.png",
+    "width": 1065
+  },
+  "firefighting-500": {
+    "height": 177,
+    "page": 47,
+    "src": "/handbook/minnesota/firefighting-500.png",
+    "width": 1083
+  },
+  "flashing-dont-walk": {
+    "height": 177,
+    "page": 70,
+    "src": "/handbook/minnesota/flashing-dont-walk.png",
+    "width": 870
+  },
+  "flashing-red": {
+    "height": 177,
+    "page": 69,
+    "src": "/handbook/minnesota/flashing-red.png",
+    "width": 864
+  },
+  "flashing-yellow": {
+    "height": 205,
+    "page": 70,
+    "src": "/handbook/minnesota/flashing-yellow.png",
+    "width": 870
+  },
+  "fleeing-felony": {
+    "height": 149,
+    "page": 49,
+    "src": "/handbook/minnesota/fleeing-felony.png",
+    "width": 1043
+  },
+  "flood-depths": {
+    "height": 121,
+    "page": 88,
+    "src": "/handbook/minnesota/flood-depths.png",
+    "width": 1045
+  },
+  "fog-low-beam": {
+    "height": 177,
+    "page": 86,
+    "src": "/handbook/minnesota/fog-low-beam.png",
+    "width": 1090
+  },
+  "four-five-second": {
+    "height": 148,
+    "page": 76,
+    "src": "/handbook/minnesota/four-five-second.png",
+    "width": 1062
+  },
+  "freeway-emergency-stop": {
+    "height": 121,
+    "page": 80,
+    "src": "/handbook/minnesota/freeway-emergency-stop.png",
+    "width": 820
+  },
+  "freeway-flares": {
+    "height": 149,
+    "page": 80,
+    "src": "/handbook/minnesota/freeway-flares.png",
+    "width": 1024
+  },
+  "freeway-merge-yield": {
+    "height": 149,
+    "page": 77,
+    "src": "/handbook/minnesota/freeway-merge-yield.png",
+    "width": 1077
+  },
+  "freeway-slower-right": {
+    "height": 177,
+    "page": 77,
+    "src": "/handbook/minnesota/freeway-slower-right.png",
+    "width": 1073
+  },
+  "freeway-stopping-illegal": {
+    "height": 148,
+    "page": 80,
+    "src": "/handbook/minnesota/freeway-stopping-illegal.png",
+    "width": 1040
+  },
+  "front-seat-three": {
+    "height": 121,
+    "page": 82,
+    "src": "/handbook/minnesota/front-seat-three.png",
+    "width": 1104
+  },
+  "gdl-six-months": {
+    "height": 149,
+    "page": 16,
+    "src": "/handbook/minnesota/gdl-six-months.png",
+    "width": 1100
+  },
+  "glare-white-line": {
+    "height": 149,
+    "page": 76,
+    "src": "/handbook/minnesota/glare-white-line.png",
+    "width": 1060
+  },
+  "gravel-roads": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/minnesota/gravel-roads.png",
+    "width": 1144
+  },
+  "green-arrow": {
+    "height": 156,
+    "page": 70,
+    "src": "/handbook/minnesota/green-arrow.png",
+    "width": 870
+  },
+  "green-light": {
+    "height": 177,
+    "page": 70,
+    "src": "/handbook/minnesota/green-light.png",
+    "width": 870
+  },
+  "green-signs-guidance": {
+    "height": 149,
+    "page": 68,
+    "src": "/handbook/minnesota/green-signs-guidance.png",
+    "width": 983
+  },
+  "gridlock": {
+    "height": 149,
+    "page": 68,
+    "src": "/handbook/minnesota/gridlock.png",
+    "width": 1017
+  },
+  "hand-signals-daylight": {
+    "height": 177,
+    "page": 30,
+    "src": "/handbook/minnesota/hand-signals-daylight.png",
+    "width": 1144
+  },
+  "headlights-when": {
+    "height": 149,
+    "page": 26,
+    "src": "/handbook/minnesota/headlights-when.png",
+    "width": 1029
+  },
+  "high-beam-350": {
+    "height": 149,
+    "page": 26,
+    "src": "/handbook/minnesota/high-beam-350.png",
+    "width": 1062
+  },
+  "highway-parking-lights": {
+    "height": 205,
+    "page": 40,
+    "src": "/handbook/minnesota/highway-parking-lights.png",
+    "width": 1076
+  },
+  "hill-parking-downhill": {
+    "height": 214,
+    "page": 39,
+    "src": "/handbook/minnesota/hill-parking-downhill.png",
+    "width": 311
+  },
+  "hill-parking-uphill-curb": {
+    "height": 214,
+    "page": 39,
+    "src": "/handbook/minnesota/hill-parking-uphill-curb.png",
+    "width": 303
+  },
+  "hill-parking-uphill-no-curb": {
+    "height": 214,
+    "page": 39,
+    "src": "/handbook/minnesota/hill-parking-uphill-no-curb.png",
+    "width": 303
+  },
+  "hood-flies-open": {
+    "height": 177,
+    "page": 89,
+    "src": "/handbook/minnesota/hood-flies-open.png",
+    "width": 1070
+  },
+  "horn-use": {
+    "height": 177,
+    "page": 25,
+    "src": "/handbook/minnesota/horn-use.png",
+    "width": 1042
+  },
+  "hov-lanes": {
+    "height": 121,
+    "page": 78,
+    "src": "/handbook/minnesota/hov-lanes.png",
+    "width": 961
+  },
+  "hydroplaning": {
+    "height": 177,
+    "page": 86,
+    "src": "/handbook/minnesota/hydroplaning.png",
+    "width": 1085
+  },
+  "hydroplaning-35": {
+    "height": 149,
+    "page": 86,
+    "src": "/handbook/minnesota/hydroplaning-35.png",
+    "width": 1057
+  },
+  "illegal-behaviors": {
+    "height": 205,
+    "page": 82,
+    "src": "/handbook/minnesota/illegal-behaviors.png",
+    "width": 1108
+  },
+  "impaired-after-one-drink": {
+    "height": 177,
+    "page": 94,
+    "src": "/handbook/minnesota/impaired-after-one-drink.png",
+    "width": 1046
+  },
+  "implied-consent": {
+    "height": 205,
+    "page": 96,
+    "src": "/handbook/minnesota/implied-consent.png",
+    "width": 1051
+  },
+  "insurance-proof": {
+    "height": 149,
+    "page": 43,
+    "src": "/handbook/minnesota/insurance-proof.png",
+    "width": 1074
+  },
+  "interlock-0-02": {
+    "height": 177,
+    "page": 98,
+    "src": "/handbook/minnesota/interlock-0-02.png",
+    "width": 1097
+  },
+  "j-turn": {
+    "height": 260,
+    "page": 35,
+    "src": "/handbook/minnesota/j-turn.png",
+    "width": 1144
+  },
+  "keep-right-sign": {
+    "height": 156,
+    "page": 61,
+    "src": "/handbook/minnesota/keep-right-sign.png",
+    "width": 680
+  },
+  "lane-change-head-check": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/minnesota/lane-change-head-check.png",
+    "width": 1073
+  },
+  "lane-ends-sign": {
+    "height": 184,
+    "page": 66,
+    "src": "/handbook/minnesota/lane-ends-sign.png",
+    "width": 787
+  },
+  "lane-signal-flashing-yellow-x": {
+    "height": 177,
+    "page": 71,
+    "src": "/handbook/minnesota/lane-signal-flashing-yellow-x.png",
+    "width": 816
+  },
+  "lane-signal-red-x": {
+    "height": 121,
+    "page": 71,
+    "src": "/handbook/minnesota/lane-signal-red-x.png",
+    "width": 549
+  },
+  "lane-signal-yellow-x": {
+    "height": 177,
+    "page": 71,
+    "src": "/handbook/minnesota/lane-signal-yellow-x.png",
+    "width": 858
+  },
+  "lane-splitting-legal": {
+    "height": 150,
+    "page": 52,
+    "src": "/handbook/minnesota/lane-splitting-legal.png",
+    "width": 1067
+  },
+  "lap-belt-position": {
+    "height": 149,
+    "page": 40,
+    "src": "/handbook/minnesota/lap-belt-position.png",
+    "width": 1035
+  },
+  "left-on-red": {
+    "height": 148,
+    "page": 31,
+    "src": "/handbook/minnesota/left-on-red.png",
+    "width": 1067
+  },
+  "left-turn-lane": {
+    "height": 214,
+    "page": 32,
+    "src": "/handbook/minnesota/left-turn-lane.png",
+    "width": 491
+  },
+  "left-turn-wait-position": {
+    "height": 177,
+    "page": 31,
+    "src": "/handbook/minnesota/left-turn-wait-position.png",
+    "width": 1033
+  },
+  "limited-license": {
+    "height": 121,
+    "page": 93,
+    "src": "/handbook/minnesota/limited-license.png",
+    "width": 606
+  },
+  "littering": {
+    "height": 121,
+    "page": 42,
+    "src": "/handbook/minnesota/littering.png",
+    "width": 1079
+  },
+  "low-beam-distances": {
+    "height": 149,
+    "page": 76,
+    "src": "/handbook/minnesota/low-beam-distances.png",
+    "width": 1032
+  },
+  "low-clearance-sign": {
+    "height": 184,
+    "page": 66,
+    "src": "/handbook/minnesota/low-clearance-sign.png",
+    "width": 751
+  },
+  "minimum-speed": {
+    "height": 150,
+    "page": 29,
+    "src": "/handbook/minnesota/minimum-speed.png",
+    "width": 1036
+  },
+  "minimum-speed-sign": {
+    "height": 177,
+    "page": 60,
+    "src": "/handbook/minnesota/minimum-speed-sign.png",
+    "width": 831
+  },
+  "missed-exit": {
+    "height": 149,
+    "page": 81,
+    "src": "/handbook/minnesota/missed-exit.png",
+    "width": 994
+  },
+  "mixed-yellow-lines": {
+    "height": 149,
+    "page": 72,
+    "src": "/handbook/minnesota/mixed-yellow-lines.png",
+    "width": 1026
+  },
+  "moped-definition": {
+    "height": 177,
+    "page": 52,
+    "src": "/handbook/minnesota/moped-definition.png",
+    "width": 1070
+  },
+  "moped-permit-15": {
+    "height": 176,
+    "page": 20,
+    "src": "/handbook/minnesota/moped-permit-15.png",
+    "width": 1088
+  },
+  "motorcycle-crowding": {
+    "height": 150,
+    "page": 52,
+    "src": "/handbook/minnesota/motorcycle-crowding.png",
+    "width": 1042
+  },
+  "motorcycle-following": {
+    "height": 149,
+    "page": 52,
+    "src": "/handbook/minnesota/motorcycle-following.png",
+    "width": 1045
+  },
+  "motorcycle-left-turn-crashes": {
+    "height": 149,
+    "page": 53,
+    "src": "/handbook/minnesota/motorcycle-left-turn-crashes.png",
+    "width": 1144
+  },
+  "move-over-law": {
+    "height": 177,
+    "page": 47,
+    "src": "/handbook/minnesota/move-over-law.png",
+    "width": 1059
+  },
+  "move-over-one-lane": {
+    "height": 149,
+    "page": 47,
+    "src": "/handbook/minnesota/move-over-one-lane.png",
+    "width": 1059
+  },
+  "multiple-turn-lanes": {
+    "height": 146,
+    "page": 33,
+    "src": "/handbook/minnesota/multiple-turn-lanes.png",
+    "width": 897
+  },
+  "nev-35": {
+    "height": 149,
+    "page": 54,
+    "src": "/handbook/minnesota/nev-35.png",
+    "width": 1082
+  },
+  "new-resident-60-days": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/minnesota/new-resident-60-days.png",
+    "width": 1085
+  },
+  "night-fatal-crashes": {
+    "height": 149,
+    "page": 76,
+    "src": "/handbook/minnesota/night-fatal-crashes.png",
+    "width": 1042
+  },
+  "no-pass-stopped-for-pedestrian": {
+    "height": 176,
+    "page": 50,
+    "src": "/handbook/minnesota/no-pass-stopped-for-pedestrian.png",
+    "width": 1016
+  },
+  "no-passing-lines": {
+    "height": 149,
+    "page": 37,
+    "src": "/handbook/minnesota/no-passing-lines.png",
+    "width": 1058
+  },
+  "no-passing-zone-sign": {
+    "height": 184,
+    "page": 63,
+    "src": "/handbook/minnesota/no-passing-zone-sign.png",
+    "width": 813
+  },
+  "nonresident-15": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/minnesota/nonresident-15.png",
+    "width": 1034
+  },
+  "not-a-drop": {
+    "height": 205,
+    "page": 98,
+    "src": "/handbook/minnesota/not-a-drop.png",
+    "width": 1026
+  },
+  "oncoming-in-your-lane": {
+    "height": 149,
+    "page": 87,
+    "src": "/handbook/minnesota/oncoming-in-your-lane.png",
+    "width": 1054
+  },
+  "open-container": {
+    "height": 177,
+    "page": 99,
+    "src": "/handbook/minnesota/open-container.png",
+    "width": 1043
+  },
+  "overdriving-headlights": {
+    "height": 149,
+    "page": 76,
+    "src": "/handbook/minnesota/overdriving-headlights.png",
+    "width": 1078
+  },
+  "overheating": {
+    "height": 149,
+    "page": 88,
+    "src": "/handbook/minnesota/overheating.png",
+    "width": 1095
+  },
+  "parallel-12-inches": {
+    "height": 177,
+    "page": 38,
+    "src": "/handbook/minnesota/parallel-12-inches.png",
+    "width": 1052
+  },
+  "parking-bridge-tunnel": {
+    "height": 121,
+    "page": 38,
+    "src": "/handbook/minnesota/parking-bridge-tunnel.png",
+    "width": 380
+  },
+  "parking-distances": {
+    "height": 121,
+    "page": 38,
+    "src": "/handbook/minnesota/parking-distances.png",
+    "width": 537
+  },
+  "passing-on-right": {
+    "height": 121,
+    "page": 37,
+    "src": "/handbook/minnesota/passing-on-right.png",
+    "width": 1074
+  },
+  "passing-plus-10": {
+    "height": 177,
+    "page": 29,
+    "src": "/handbook/minnesota/passing-plus-10.png",
+    "width": 1081
+  },
+  "passing-return-100": {
+    "height": 177,
+    "page": 37,
+    "src": "/handbook/minnesota/passing-return-100.png",
+    "width": 1068
+  },
+  "passing-truck-time": {
+    "height": 178,
+    "page": 54,
+    "src": "/handbook/minnesota/passing-truck-time.png",
+    "width": 1047
+  },
+  "pedestrian-in-crosswalk": {
+    "height": 121,
+    "page": 50,
+    "src": "/handbook/minnesota/pedestrian-in-crosswalk.png",
+    "width": 1059
+  },
+  "pedestrian-walk-left": {
+    "height": 121,
+    "page": 50,
+    "src": "/handbook/minnesota/pedestrian-walk-left.png",
+    "width": 860
+  },
+  "permit-18-plus-supervisor": {
+    "height": 121,
+    "page": 17,
+    "src": "/handbook/minnesota/permit-18-plus-supervisor.png",
+    "width": 1047
+  },
+  "permit-requirements": {
+    "height": 121,
+    "page": 16,
+    "src": "/handbook/minnesota/permit-requirements.png",
+    "width": 637
+  },
+  "permit-three-months-19": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/minnesota/permit-three-months-19.png",
+    "width": 1062
+  },
+  "permit-under-18-supervisor": {
+    "height": 177,
+    "page": 16,
+    "src": "/handbook/minnesota/permit-under-18-supervisor.png",
+    "width": 1047
+  },
+  "permit-valid-two-years": {
+    "height": 177,
+    "page": 16,
+    "src": "/handbook/minnesota/permit-valid-two-years.png",
+    "width": 1067
+  },
+  "pickup-mirror": {
+    "height": 177,
+    "page": 26,
+    "src": "/handbook/minnesota/pickup-mirror.png",
+    "width": 1043
+  },
+  "plunging-under-water": {
+    "height": 177,
+    "page": 88,
+    "src": "/handbook/minnesota/plunging-under-water.png",
+    "width": 1066
+  },
+  "preliminary-breath-test": {
+    "height": 177,
+    "page": 96,
+    "src": "/handbook/minnesota/preliminary-breath-test.png",
+    "width": 1037
+  },
+  "projecting-load": {
+    "height": 191,
+    "page": 82,
+    "src": "/handbook/minnesota/projecting-load.png",
+    "width": 1097
+  },
+  "proof-definition": {
+    "height": 149,
+    "page": 95,
+    "src": "/handbook/minnesota/proof-definition.png",
+    "width": 1025
+  },
+  "provisional-family-passengers": {
+    "height": 121,
+    "page": 18,
+    "src": "/handbook/minnesota/provisional-family-passengers.png",
+    "width": 1049
+  },
+  "provisional-night": {
+    "height": 121,
+    "page": 17,
+    "src": "/handbook/minnesota/provisional-night.png",
+    "width": 920
+  },
+  "provisional-passengers": {
+    "height": 121,
+    "page": 18,
+    "src": "/handbook/minnesota/provisional-passengers.png",
+    "width": 1012
+  },
+  "provisional-requirements": {
+    "height": 121,
+    "page": 17,
+    "src": "/handbook/minnesota/provisional-requirements.png",
+    "width": 578
+  },
+  "provisional-valid": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/minnesota/provisional-valid.png",
+    "width": 1079
+  },
+  "railroad-no-shifting": {
+    "height": 149,
+    "page": 56,
+    "src": "/handbook/minnesota/railroad-no-shifting.png",
+    "width": 1026
+  },
+  "railroad-pavement-markings": {
+    "height": 149,
+    "page": 62,
+    "src": "/handbook/minnesota/railroad-pavement-markings.png",
+    "width": 829
+  },
+  "railroad-second-train": {
+    "height": 177,
+    "page": 56,
+    "src": "/handbook/minnesota/railroad-second-train.png",
+    "width": 1031
+  },
+  "railroad-special-vehicles": {
+    "height": 177,
+    "page": 56,
+    "src": "/handbook/minnesota/railroad-special-vehicles.png",
+    "width": 1016
+  },
+  "railroad-stop-10-feet": {
+    "height": 177,
+    "page": 56,
+    "src": "/handbook/minnesota/railroad-stop-10-feet.png",
+    "width": 1032
+  },
+  "ramp-meter-one-car": {
+    "height": 177,
+    "page": 71,
+    "src": "/handbook/minnesota/ramp-meter-one-car.png",
+    "width": 1052
+  },
+  "ramp-no-stop": {
+    "height": 121,
+    "page": 77,
+    "src": "/handbook/minnesota/ramp-no-stop.png",
+    "width": 873
+  },
+  "reaction-time": {
+    "height": 121,
+    "page": 76,
+    "src": "/handbook/minnesota/reaction-time.png",
+    "width": 1033
+  },
+  "rear-facing-under-2": {
+    "height": 149,
+    "page": 41,
+    "src": "/handbook/minnesota/rear-facing-under-2.png",
+    "width": 1083
+  },
+  "red-arrow": {
+    "height": 212,
+    "page": 69,
+    "src": "/handbook/minnesota/red-arrow.png",
+    "width": 864
+  },
+  "red-circle-slash": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/minnesota/red-circle-slash.png",
+    "width": 1129
+  },
+  "red-light-stop-where": {
+    "height": 183,
+    "page": 69,
+    "src": "/handbook/minnesota/red-light-stop-where.png",
+    "width": 867
+  },
+  "register-60-days": {
+    "height": 149,
+    "page": 43,
+    "src": "/handbook/minnesota/register-60-days.png",
+    "width": 1006
+  },
+  "renewal-four-years": {
+    "height": 149,
+    "page": 22,
+    "src": "/handbook/minnesota/renewal-four-years.png",
+    "width": 1017
+  },
+  "reversible-lanes": {
+    "height": 177,
+    "page": 74,
+    "src": "/handbook/minnesota/reversible-lanes.png",
+    "width": 1083
+  },
+  "revocation-reasons": {
+    "height": 121,
+    "page": 92,
+    "src": "/handbook/minnesota/revocation-reasons.png",
+    "width": 525
+  },
+  "revocation-refuse-test": {
+    "height": 149,
+    "page": 92,
+    "src": "/handbook/minnesota/revocation-refuse-test.png",
+    "width": 1034
+  },
+  "right-lane-travel": {
+    "height": 149,
+    "page": 36,
+    "src": "/handbook/minnesota/right-lane-travel.png",
+    "width": 1144
+  },
+  "right-on-red": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/minnesota/right-on-red.png",
+    "width": 1039
+  },
+  "right-turn-lane": {
+    "height": 166,
+    "page": 32,
+    "src": "/handbook/minnesota/right-turn-lane.png",
+    "width": 477
+  },
+  "road-test-immediate-fail": {
+    "height": 121,
+    "page": 15,
+    "src": "/handbook/minnesota/road-test-immediate-fail.png",
+    "width": 669
+  },
+  "road-test-no-passengers": {
+    "height": 121,
+    "page": 14,
+    "src": "/handbook/minnesota/road-test-no-passengers.png",
+    "width": 738
+  },
+  "road-test-retest-fee": {
+    "height": 205,
+    "page": 15,
+    "src": "/handbook/minnesota/road-test-retest-fee.png",
+    "width": 1060
+  },
+  "rocking-stuck": {
+    "height": 149,
+    "page": 84,
+    "src": "/handbook/minnesota/rocking-stuck.png",
+    "width": 1117
+  },
+  "roundabout-emergency": {
+    "height": 121,
+    "page": 33,
+    "src": "/handbook/minnesota/roundabout-emergency.png",
+    "width": 949
+  },
+  "roundabout-entering": {
+    "height": 121,
+    "page": 33,
+    "src": "/handbook/minnesota/roundabout-entering.png",
+    "width": 1022
+  },
+  "roundabout-large-vehicles": {
+    "height": 149,
+    "page": 33,
+    "src": "/handbook/minnesota/roundabout-large-vehicles.png",
+    "width": 1076
+  },
+  "roundabout-sign-lanes": {
+    "height": 177,
+    "page": 61,
+    "src": "/handbook/minnesota/roundabout-sign-lanes.png",
+    "width": 774
+  },
+  "row-funeral": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/row-funeral.png",
+    "width": 1045
+  },
+  "row-green-arrow": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/row-green-arrow.png",
+    "width": 1089
+  },
+  "row-left-turn": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/row-left-turn.png",
+    "width": 1017
+  },
+  "row-pedestrians": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/row-pedestrians.png",
+    "width": 1069
+  },
+  "row-t-intersection": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/row-t-intersection.png",
+    "width": 1076
+  },
+  "row-transit-bus": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/row-transit-bus.png",
+    "width": 1092
+  },
+  "row-uncontrolled": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/row-uncontrolled.png",
+    "width": 1045
+  },
+  "running-off-pavement": {
+    "height": 176,
+    "page": 87,
+    "src": "/handbook/minnesota/running-off-pavement.png",
+    "width": 1074
+  },
+  "rv-combination": {
+    "height": 121,
+    "page": 83,
+    "src": "/handbook/minnesota/rv-combination.png",
+    "width": 1047
+  },
+  "school-patrol": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/minnesota/school-patrol.png",
+    "width": 1067
+  },
+  "school-patrol-penalty": {
+    "height": 176,
+    "page": 46,
+    "src": "/handbook/minnesota/school-patrol-penalty.png",
+    "width": 1067
+  },
+  "school-zone-sign": {
+    "height": 177,
+    "page": 63,
+    "src": "/handbook/minnesota/school-zone-sign.png",
+    "width": 785
+  },
+  "seat-belt-exemptions": {
+    "height": 124,
+    "page": 40,
+    "src": "/handbook/minnesota/seat-belt-exemptions.png",
+    "width": 674
+  },
+  "seat-belt-law": {
+    "height": 177,
+    "page": 40,
+    "src": "/handbook/minnesota/seat-belt-law.png",
+    "width": 1073
+  },
+  "seat-belt-stats": {
+    "height": 121,
+    "page": 40,
+    "src": "/handbook/minnesota/seat-belt-stats.png",
+    "width": 770
+  },
+  "side-road-sign": {
+    "height": 156,
+    "page": 64,
+    "src": "/handbook/minnesota/side-road-sign.png",
+    "width": 775
+  },
+  "sign-colors": {
+    "height": 321,
+    "page": 59,
+    "src": "/handbook/minnesota/sign-colors.png",
+    "width": 1046
+  },
+  "sign-colors-info": {
+    "height": 200,
+    "page": 59,
+    "src": "/handbook/minnesota/sign-colors-info.png",
+    "width": 734
+  },
+  "signal-100-feet": {
+    "height": 148,
+    "page": 30,
+    "src": "/handbook/minnesota/signal-100-feet.png",
+    "width": 1144
+  },
+  "signal-not-working": {
+    "height": 121,
+    "page": 68,
+    "src": "/handbook/minnesota/signal-not-working.png",
+    "width": 1078
+  },
+  "sipde": {
+    "height": 149,
+    "page": 75,
+    "src": "/handbook/minnesota/sipde.png",
+    "width": 1078
+  },
+  "skid-response": {
+    "height": 177,
+    "page": 85,
+    "src": "/handbook/minnesota/skid-response.png",
+    "width": 1023
+  },
+  "slippery-road-sign": {
+    "height": 183,
+    "page": 66,
+    "src": "/handbook/minnesota/slippery-road-sign.png",
+    "width": 769
+  },
+  "slow-for-emergency-surcharge": {
+    "height": 148,
+    "page": 30,
+    "src": "/handbook/minnesota/slow-for-emergency-surcharge.png",
+    "width": 1144
+  },
+  "slow-vehicle-right": {
+    "height": 149,
+    "page": 36,
+    "src": "/handbook/minnesota/slow-vehicle-right.png",
+    "width": 1144
+  },
+  "smv-emblem": {
+    "height": 177,
+    "page": 64,
+    "src": "/handbook/minnesota/smv-emblem.png",
+    "width": 819
+  },
+  "snowplow-passing": {
+    "height": 149,
+    "page": 84,
+    "src": "/handbook/minnesota/snowplow-passing.png",
+    "width": 1069
+  },
+  "sober-up-wait": {
+    "height": 149,
+    "page": 95,
+    "src": "/handbook/minnesota/sober-up-wait.png",
+    "width": 1076
+  },
+  "solid-white-lines": {
+    "height": 121,
+    "page": 72,
+    "src": "/handbook/minnesota/solid-white-lines.png",
+    "width": 1015
+  },
+  "speed-100-revoked": {
+    "height": 177,
+    "page": 30,
+    "src": "/handbook/minnesota/speed-100-revoked.png",
+    "width": 1144
+  },
+  "speed-defaults": {
+    "height": 122,
+    "page": 29,
+    "src": "/handbook/minnesota/speed-defaults.png",
+    "width": 784
+  },
+  "speed-row-lost": {
+    "height": 150,
+    "page": 29,
+    "src": "/handbook/minnesota/speed-row-lost.png",
+    "width": 1058
+  },
+  "stalled-on-tracks": {
+    "height": 177,
+    "page": 88,
+    "src": "/handbook/minnesota/stalled-on-tracks.png",
+    "width": 1035
+  },
+  "standard-drinks": {
+    "height": 149,
+    "page": 95,
+    "src": "/handbook/minnesota/standard-drinks.png",
+    "width": 1036
+  },
+  "steady-yellow": {
+    "height": 205,
+    "page": 69,
+    "src": "/handbook/minnesota/steady-yellow.png",
+    "width": 866
+  },
+  "stop-drawbridge": {
+    "height": 121,
+    "page": 44,
+    "src": "/handbook/minnesota/stop-drawbridge.png",
+    "width": 618
+  },
+  "stop-from-driveway": {
+    "height": 149,
+    "page": 44,
+    "src": "/handbook/minnesota/stop-from-driveway.png",
+    "width": 1015
+  },
+  "stop-list-misc": {
+    "height": 121,
+    "page": 44,
+    "src": "/handbook/minnesota/stop-list-misc.png",
+    "width": 676
+  },
+  "stop-sign-meaning": {
+    "height": 184,
+    "page": 60,
+    "src": "/handbook/minnesota/stop-sign-meaning.png",
+    "width": 818
+  },
+  "stop-sign-where": {
+    "height": 121,
+    "page": 44,
+    "src": "/handbook/minnesota/stop-sign-where.png",
+    "width": 456
+  },
+  "stranded-engine": {
+    "height": 149,
+    "page": 85,
+    "src": "/handbook/minnesota/stranded-engine.png",
+    "width": 1059
+  },
+  "stranded-stay": {
+    "height": 177,
+    "page": 85,
+    "src": "/handbook/minnesota/stranded-stay.png",
+    "width": 1038
+  },
+  "stranded-window": {
+    "height": 149,
+    "page": 85,
+    "src": "/handbook/minnesota/stranded-window.png",
+    "width": 1077
+  },
+  "stuck-gas-pedal": {
+    "height": 149,
+    "page": 89,
+    "src": "/handbook/minnesota/stuck-gas-pedal.png",
+    "width": 1055
+  },
+  "supervised-log-50": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/minnesota/supervised-log-50.png",
+    "width": 1039
+  },
+  "supervised-log-hours": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/minnesota/supervised-log-hours.png",
+    "width": 1038
+  },
+  "suspension-reasons": {
+    "height": 149,
+    "page": 91,
+    "src": "/handbook/minnesota/suspension-reasons.png",
+    "width": 1010
+  },
+  "suspension-under-21-alcohol": {
+    "height": 149,
+    "page": 91,
+    "src": "/handbook/minnesota/suspension-under-21-alcohol.png",
+    "width": 1074
+  },
+  "t-intersection-sign": {
+    "height": 183,
+    "page": 64,
+    "src": "/handbook/minnesota/t-intersection-sign.png",
+    "width": 764
+  },
+  "tailgated": {
+    "height": 121,
+    "page": 76,
+    "src": "/handbook/minnesota/tailgated.png",
+    "width": 909
+  },
+  "texting-while-stopped": {
+    "height": 177,
+    "page": 82,
+    "src": "/handbook/minnesota/texting-while-stopped.png",
+    "width": 1108
+  },
+  "three-second-rule": {
+    "height": 186,
+    "page": 76,
+    "src": "/handbook/minnesota/three-second-rule.png",
+    "width": 1024
+  },
+  "tire-pressure-sticker": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/minnesota/tire-pressure-sticker.png",
+    "width": 1078
+  },
+  "tire-tread": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/minnesota/tire-tread.png",
+    "width": 1030
+  },
+  "traffic-officer-overrides": {
+    "height": 149,
+    "page": 74,
+    "src": "/handbook/minnesota/traffic-officer-overrides.png",
+    "width": 1052
+  },
+  "traffic-stop-conduct": {
+    "height": 121,
+    "page": 48,
+    "src": "/handbook/minnesota/traffic-stop-conduct.png",
+    "width": 912
+  },
+  "traffic-stop-interior-light": {
+    "height": 121,
+    "page": 48,
+    "src": "/handbook/minnesota/traffic-stop-interior-light.png",
+    "width": 632
+  },
+  "trailer-500-feet": {
+    "height": 149,
+    "page": 82,
+    "src": "/handbook/minnesota/trailer-500-feet.png",
+    "width": 1079
+  },
+  "trailer-brakes-3000": {
+    "height": 121,
+    "page": 83,
+    "src": "/handbook/minnesota/trailer-brakes-3000.png",
+    "width": 975
+  },
+  "trailer-hitch-weight": {
+    "height": 149,
+    "page": 82,
+    "src": "/handbook/minnesota/trailer-hitch-weight.png",
+    "width": 1090
+  },
+  "truck-no-zones": {
+    "height": 149,
+    "page": 55,
+    "src": "/handbook/minnesota/truck-no-zones.png",
+    "width": 1089
+  },
+  "truck-passes-you": {
+    "height": 149,
+    "page": 54,
+    "src": "/handbook/minnesota/truck-passes-you.png",
+    "width": 1070
+  },
+  "truck-stopping-distance": {
+    "height": 149,
+    "page": 55,
+    "src": "/handbook/minnesota/truck-stopping-distance.png",
+    "width": 1035
+  },
+  "truck-upgrade-space": {
+    "height": 150,
+    "page": 55,
+    "src": "/handbook/minnesota/truck-upgrade-space.png",
+    "width": 1068
+  },
+  "truck-wide-turns": {
+    "height": 149,
+    "page": 55,
+    "src": "/handbook/minnesota/truck-wide-turns.png",
+    "width": 1068
+  },
+  "turn-lane-arrows": {
+    "height": 177,
+    "page": 74,
+    "src": "/handbook/minnesota/turn-lane-arrows.png",
+    "width": 1069
+  },
+  "turn-wheels-straight": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/minnesota/turn-wheels-straight.png",
+    "width": 1057
+  },
+  "two-brake-systems": {
+    "height": 121,
+    "page": 25,
+    "src": "/handbook/minnesota/two-brake-systems.png",
+    "width": 1046
+  },
+  "two-way-traffic-sign": {
+    "height": 156,
+    "page": 65,
+    "src": "/handbook/minnesota/two-way-traffic-sign.png",
+    "width": 818
+  },
+  "u-turn-rules": {
+    "height": 148,
+    "page": 36,
+    "src": "/handbook/minnesota/u-turn-rules.png",
+    "width": 1144
+  },
+  "under-21-expiry": {
+    "height": 177,
+    "page": 19,
+    "src": "/handbook/minnesota/under-21-expiry.png",
+    "width": 1074
+  },
+  "under-21-license": {
+    "height": 177,
+    "page": 19,
+    "src": "/handbook/minnesota/under-21-license.png",
+    "width": 1074
+  },
+  "uninsured-penalty": {
+    "height": 149,
+    "page": 43,
+    "src": "/handbook/minnesota/uninsured-penalty.png",
+    "width": 1074
+  },
+  "unmarked-crosswalk": {
+    "height": 149,
+    "page": 50,
+    "src": "/handbook/minnesota/unmarked-crosswalk.png",
+    "width": 1013
+  },
+  "utility-pole-crash": {
+    "height": 121,
+    "page": 89,
+    "src": "/handbook/minnesota/utility-pole-crash.png",
+    "width": 853
+  },
+  "vanessas-law-unlicensed": {
+    "height": 149,
+    "page": 18,
+    "src": "/handbook/minnesota/vanessas-law-unlicensed.png",
+    "width": 1064
+  },
+  "vision-standard": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/minnesota/vision-standard.png",
+    "width": 1068
+  },
+  "white-lines": {
+    "height": 121,
+    "page": 72,
+    "src": "/handbook/minnesota/white-lines.png",
+    "width": 722
+  },
+  "window-tint": {
+    "height": 177,
+    "page": 27,
+    "src": "/handbook/minnesota/window-tint.png",
+    "width": 1048
+  },
+  "windshield-objects": {
+    "height": 177,
+    "page": 27,
+    "src": "/handbook/minnesota/windshield-objects.png",
+    "width": 1086
+  },
+  "winter-cruise-control": {
+    "height": 121,
+    "page": 84,
+    "src": "/handbook/minnesota/winter-cruise-control.png",
+    "width": 904
+  },
+  "work-zone-fine": {
+    "height": 177,
+    "page": 57,
+    "src": "/handbook/minnesota/work-zone-fine.png",
+    "width": 1061
+  },
+  "work-zone-flagger": {
+    "height": 149,
+    "page": 57,
+    "src": "/handbook/minnesota/work-zone-flagger.png",
+    "width": 996
+  },
+  "work-zone-workers-fine": {
+    "height": 177,
+    "page": 67,
+    "src": "/handbook/minnesota/work-zone-workers-fine.png",
+    "width": 750
+  },
+  "written-test-format": {
+    "height": 177,
+    "page": 13,
+    "src": "/handbook/minnesota/written-test-format.png",
+    "width": 1091
+  },
+  "written-test-one-per-day": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/minnesota/written-test-one-per-day.png",
+    "width": 1065
+  },
+  "written-test-retest-fee": {
+    "height": 121,
+    "page": 13,
+    "src": "/handbook/minnesota/written-test-retest-fee.png",
+    "width": 1024
+  },
+  "written-test-under-18-card": {
+    "height": 177,
+    "page": 13,
+    "src": "/handbook/minnesota/written-test-under-18-card.png",
+    "width": 1083
+  },
+  "wrong-way-sign": {
+    "height": 184,
+    "page": 60,
+    "src": "/handbook/minnesota/wrong-way-sign.png",
+    "width": 720
+  },
+  "yellow-lines": {
+    "height": 121,
+    "page": 72,
+    "src": "/handbook/minnesota/yellow-lines.png",
+    "width": 635
+  },
+  "yield-sign-meaning": {
+    "height": 183,
+    "page": 60,
+    "src": "/handbook/minnesota/yield-sign-meaning.png",
+    "width": 771
+  },
+  "zipper-merge": {
+    "height": 121,
+    "page": 57,
+    "src": "/handbook/minnesota/zipper-merge.png",
+    "width": 1044
+  },
+  "zipper-merge-why": {
+    "height": 149,
+    "page": 57,
+    "src": "/handbook/minnesota/zipper-merge-why.png",
+    "width": 1028
+  }
+}
