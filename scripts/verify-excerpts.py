@@ -21,9 +21,11 @@ Reads  tmp/<slug>-quotes.json   (from: npx tsx scripts/extract-quotes.mjs <slug>
 Writes tmp/<slug>-verify.json   (per-key result, kept as the audit trail)
 Exits 1 if any quote is not found verbatim in any source.
 """
+import hashlib
 import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 
@@ -101,9 +103,36 @@ def main() -> None:
         where = f"opening clause found in {head_in[0]}, tail differs" if head_in else "opening clause not found anywhere"
         print(f"  MISS {item['key']}: {where}")
 
+    # Fingerprint what was actually verified.
+    #
+    # A verify artifact is a receipt, and a receipt that cannot be matched to
+    # the goods is worthless. One bank's tmp/<slug>-verify.json reported a
+    # failing quote that had already been fixed on disk, and nothing could tell
+    # the stale file from a current one. The hash below is over the exact
+    # key+quote pairs that were checked, so the validator can refuse a receipt
+    # that no longer describes the excerpts file.
+    digest = hashlib.sha256()
+    for item in sorted(quotes, key=lambda i: i["key"]):
+        digest.update(item["key"].encode("utf-8"))
+        digest.update(b"\x00")
+        digest.update(item["quote"].encode("utf-8"))
+        digest.update(b"\x00")
+
     Path("tmp").mkdir(exist_ok=True)
     Path(f"tmp/{slug}-verify.json").write_text(
-        json.dumps(results, indent=2, sort_keys=True), encoding="utf-8"
+        json.dumps(
+            {
+                "quotesSha256": digest.hexdigest(),
+                "verifiedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
+                "sources": [p.name for p in sources],
+                "verified": hits,
+                "total": len(quotes),
+                "results": results,
+            },
+            indent=2,
+            sort_keys=True,
+        ),
+        encoding="utf-8",
     )
     total = len(quotes)
     print(f"{slug}: {hits}/{total} quotes verified verbatim against {len(sources)} source(s)")

@@ -16,7 +16,8 @@
  * builder never has to touch jurisdictions.ts or excerpts.ts, so six builders
  * can run at once without editing the same two files.
  */
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { JURISDICTIONS } from "../src/lib/driving/jurisdictions.ts";
 import {
   excerptsFor as registryExcerptsFor,
@@ -319,6 +320,53 @@ for (const j of jurisdictions) {
     if (covered / Math.max(1, excerpts.length) < 0.5) {
       warn(`only ${Math.round((covered / Math.max(1, excerpts.length)) * 100)}% of excerpts have a snippet image`);
     }
+  }
+
+  // The verification receipt, and whether it still describes THIS file.
+  //
+  // verify-excerpts.py proves every quote is verbatim in the official source,
+  // but its output is a file in tmp/ that goes stale the moment a quote is
+  // edited. One bank's receipt reported a failing quote that had already been
+  // fixed on disk, and nothing distinguished that from a real failure. So the
+  // receipt carries a hash of the exact key+quote pairs it checked, and a
+  // mismatch here is an error: a receipt that describes different text is not
+  // evidence about this text.
+  const receiptPath = `tmp/${j.slug}-verify.json`;
+  if (existsSync(receiptPath)) {
+    let receipt = null;
+    try {
+      receipt = JSON.parse(readFileSync(receiptPath, "utf8"));
+    } catch {
+      warn(`${receiptPath} is not valid JSON - re-run verify-excerpts.py`);
+    }
+    if (receipt) {
+      const digest = createHash("sha256");
+      for (const e of [...excerpts].sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0))) {
+        digest.update(e.key, "utf8");
+        digest.update(Buffer.from([0]));
+        digest.update(e.quote, "utf8");
+        digest.update(Buffer.from([0]));
+      }
+      const actual = digest.digest("hex");
+      if (!receipt.quotesSha256) {
+        // Written before receipts were fingerprinted. Not proof of anything.
+        warn(`${receiptPath} predates quote fingerprinting - re-run verify-excerpts.py`);
+      } else if (receipt.quotesSha256 !== actual) {
+        err(
+          `${receiptPath} is STALE - it verified different quote text than excerpts.ts now holds. Re-run verify-excerpts.py`
+        );
+      } else if (receipt.verified !== receipt.total) {
+        err(
+          `${receiptPath}: only ${receipt.verified}/${receipt.total} quotes verified verbatim against the official source`
+        );
+      } else {
+        console.log(
+          `  quotes verified: ${receipt.verified}/${receipt.total} verbatim against ${(receipt.sources ?? []).join(", ") || "official sources"} (${receipt.verifiedAt ?? "undated"})`
+        );
+      }
+    }
+  } else if (onlyAt !== -1) {
+    warn(`no ${receiptPath} - run verify-excerpts.py to prove the quotes are verbatim`);
   }
 
   const unused = excerpts.filter((e) => !usedKeys.has(e.key)).length;
