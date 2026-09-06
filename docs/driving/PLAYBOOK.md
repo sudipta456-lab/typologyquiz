@@ -122,20 +122,45 @@ Rules for sources:
 The handbook tells you what is testable. Forums tell you what is TESTED and
 what people fail on. Do this research before writing set 5.
 
-Search (WebSearch, then WebFetch the thread; `old.reddit.com` renders without
-scripts if `www` refuses):
+**Reddit has exactly one working route from this machine. Use the script.**
 
-- `site:reddit.com "<jurisdiction>" permit test failed`
-- `site:reddit.com "<jurisdiction>" knowledge test what to study`
-- `site:reddit.com r/<jurisdiction-sub> "written test"` and the same in
-  `r/driving`, `r/DMV`, `r/drivingtest`, `r/newdrivers`, `r/Teenagers`; for
-  Canada `r/<province>`, `r/CanadaDriving`, `r/PersonalFinanceCanada` (GDL
-  insurance threads), and the city subs (`r/Winnipeg`, `r/Halifax`,
-  `r/Saskatoon`, `r/montreal`, `r/Quebec`)
-- `"<jurisdiction>" "written test" OR "knowledge test" tips` on driving-school
-  blogs and local news. Reliable means: a licensed driving school in that
-  jurisdiction, a newspaper, the licensing authority's own FAQ or "most missed
-  questions" page (several publish one).
+```bash
+python scripts/fetch-reddit.py <slug> <sub>:"<query>" [<sub>:"<query>" ...]
+```
+
+It drives a headless browser against Reddit's HTML search and saves each
+thread to `tmp/<slug>-reddit-<id>.txt`. Every other route fails, and three of
+them fail SILENTLY, which is why this is not left to improvisation:
+
+- The WebFetch tool refuses `reddit.com` and `old.reddit.com`.
+- WebSearch returns no reddit.com results, so a `site:reddit.com` query finds
+  nothing and looks like an empty internet rather than a filter.
+- `curl` and `requests` get a block page: HTTP 200, ~185KB of HTML, identical
+  every time. One builder saved three of these and reported them as research
+  until their md5s were compared. The script rejects them by digest.
+
+Pick eight to twelve searches: the state or province sub, its city subs, plus
+`DMV`, `driving`, `drivingtest`, `newdrivers`, `Teenagers`; for Canada also
+`CanadaDriving` and the province sub. Queries that pay: `"permit test"`,
+`"knowledge test"`, `"written test"`, `"failed"`, `"what to study"`. Example:
+
+```bash
+python scripts/fetch-reddit.py louisiana \
+    louisiana:"permit test" louisiana:"knowledge test failed" \
+    neworleans:"OMV written test" DMV:"Louisiana knowledge test" \
+    newdrivers:"Louisiana permit"
+```
+
+Then read the saved files. If the script saves nothing, say so in the research
+note rather than implying forum research happened.
+
+Beyond Reddit, and worth as much: `"<jurisdiction>" "written test" OR
+"knowledge test" tips` on driving-school blogs and local news, and the
+licensing authority's own FAQ or "most missed questions" page (several publish
+one). Two official sources are often stronger than any forum: many states have
+a **statute listing the subjects the knowledge test must cover**, and many
+publish their **own practice test**. Where those exist, use them - Minnesota's
+set 5 was built on exactly that pair.
 
 What to extract, and how to use it:
 
