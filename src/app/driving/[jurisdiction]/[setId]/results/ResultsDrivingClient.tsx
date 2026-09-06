@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, type CSSProperties } from "react";
-import { getJurisdiction } from "@/lib/driving/jurisdictions";
+import type { Jurisdiction } from "@/lib/driving/types";
 import {
   TOPIC_META,
   type DrivingQuestion,
@@ -44,17 +44,19 @@ function topicLabel(topic: string): string {
   return meta ? meta.label : topic;
 }
 
-function ResultsContent() {
+// The jurisdiction is handed down from the statically rendered page. Looking
+// it up here would import the registry into the browser bundle, which pulled
+// every bank's questions in with it.
+function ResultsContent({ jurisdiction }: { jurisdiction: Jurisdiction | undefined }) {
   const params = useParams();
   const router = useRouter();
   const searchParams = useSearchParams();
-  const jurisdictionSlug = typeof params.jurisdiction === "string" ? params.jurisdiction : "";
+  const jurisdictionSlug = jurisdiction?.slug ?? "";
   const setId = typeof params.setId === "string" ? params.setId : "";
   const encoded = searchParams.get("r");
   const seed = parseShuffleSeed(searchParams.get("shuffle"));
   const idsParam = searchParams.get("ids") ?? "";
 
-  const jurisdiction = getJurisdiction(jurisdictionSlug);
   const isWeakSpots = setId === WEAK_SPOTS_ID;
   const isRetryMissed = setId === RETRY_MISSED_ID;
   const isSynthetic = isWeakSpots || isRetryMissed;
@@ -742,7 +744,7 @@ function ResultsContent() {
   );
 }
 
-export function ResultsDrivingClient() {
+export function ResultsDrivingClient({ jurisdiction }: { jurisdiction: Jurisdiction | undefined }) {
   return (
     <Suspense
       fallback={
@@ -751,7 +753,7 @@ export function ResultsDrivingClient() {
         </div>
       }
     >
-      <ResultsContent />
+      <ResultsContent jurisdiction={jurisdiction} />
     </Suspense>
   );
 }

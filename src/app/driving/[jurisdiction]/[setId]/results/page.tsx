@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { JURISDICTIONS, getSet } from "@/lib/driving/jurisdictions";
+import { JURISDICTIONS, getSet, getJurisdiction } from "@/lib/driving/jurisdictions";
 import { ResultsDrivingClient } from "./ResultsDrivingClient";
 
 /** Mirrors the take route, including the browser-built synthetic drills. */
@@ -38,6 +38,11 @@ export async function generateMetadata({
   };
 }
 
-export default function DrivingResultsPage() {
-  return <ResultsDrivingClient />;
+export default async function DrivingResultsPage({
+  params,
+}: {
+  params: Promise<{ jurisdiction: string; setId: string }>;
+}) {
+  const { jurisdiction: slug } = await params;
+  return <ResultsDrivingClient jurisdiction={getJurisdiction(slug)} />;
 }

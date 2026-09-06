@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
-import { JURISDICTIONS, getSet } from "@/lib/driving/jurisdictions";
+import { JURISDICTIONS, getSet, getJurisdiction } from "@/lib/driving/jurisdictions";
+import { excerptsFor, getSnippet } from "@/lib/driving/excerpts";
+import type { HandbookExcerpt } from "@/lib/driving/types";
+import type { HandbookSnippet } from "@/lib/driving/excerpts";
 import { TakeDrivingClient } from "./TakeDrivingClient";
 
 /**
@@ -52,6 +55,29 @@ export async function generateMetadata({
   };
 }
 
-export default function TakeDrivingPage() {
-  return <TakeDrivingClient />;
+// The registries are read HERE, on the server, and only this jurisdiction's
+// slice is handed to the client. Importing them from the client component
+// shipped every bank to every visitor.
+export default async function TakeDrivingPage({
+  params,
+}: {
+  params: Promise<{ jurisdiction: string; setId: string }>;
+}) {
+  const { jurisdiction: slug } = await params;
+  const jurisdiction = getJurisdiction(slug);
+  if (!jurisdiction) {
+    return <TakeDrivingClient jurisdiction={undefined} excerpts={{}} snippets={{}} />;
+  }
+
+  const excerpts: Record<string, HandbookExcerpt> = {};
+  const snippets: Record<string, HandbookSnippet> = {};
+  for (const e of excerptsFor(slug)) {
+    excerpts[e.key] = e;
+    const s = getSnippet(slug, e.key);
+    if (s) snippets[e.key] = s;
+  }
+
+  return (
+    <TakeDrivingClient jurisdiction={jurisdiction} excerpts={excerpts} snippets={snippets} />
+  );
 }

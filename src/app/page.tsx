@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { TESTS } from "@/lib/tests/registry";
-import { JURISDICTIONS } from "@/lib/driving/jurisdictions";
+import { JURISDICTION_SUMMARIES } from "@/lib/driving/summary.generated";
 import { CATEGORY_META } from "@/lib/types";
 import { InviteFriends } from "@/components/InviteFriends";
 import { StartHere } from "@/components/StartHere";
@@ -120,7 +120,7 @@ export default function Home() {
           </p>
 
           <div className="card-grid" style={{ marginTop: 24 }}>
-            {JURISDICTIONS.map((j) => (
+            {JURISDICTION_SUMMARIES.map((j) => (
               <Link key={j.slug} href={`/driving/${j.slug}`} className="quiz-card">
                 <div className="quiz-card-top">
                   <div className="quiz-emoji" aria-hidden="true">
@@ -129,8 +129,8 @@ export default function Home() {
                   <div>
                     <h3 className="quiz-card-title">{j.name}</h3>
                     <span className="quiz-meta">
-                      {j.licenceName} · {j.sets.length} sets ·{" "}
-                      {j.sets.reduce((n, s) => n + s.questions.length, 0)} questions
+                      {j.licenceName} · {j.setCount} sets · {j.questionCount}{" "}
+                      questions
                     </span>
                   </div>
                 </div>

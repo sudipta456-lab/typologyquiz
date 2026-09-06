@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { getJurisdiction } from "@/lib/driving/jurisdictions";
+import type { Jurisdiction } from "@/lib/driving/types";
 import {
   TOPIC_META,
   type DrivingAnswerMap,
@@ -18,7 +18,22 @@ import {
 } from "@/lib/driving/adaptive";
 import { parseShuffleSeed, seedToParam, shuffleDrivingSet } from "@/lib/driving/shuffle";
 import { encodeDrivingResult } from "@/lib/driving/encode";
-import { getExcerpt, getSnippet } from "@/lib/driving/excerpts";
+import type { HandbookExcerpt } from "@/lib/driving/types";
+import type { HandbookSnippet } from "@/lib/driving/excerpts";
+
+/**
+ * Everything this page needs, handed down from the statically rendered server
+ * page. It used to import the registries directly, which pulled EVERY bank's
+ * questions and handbook quotes into the browser bundle - 6.7 MB across 29
+ * jurisdictions, downloaded to sit one 30-question test.
+ */
+export interface TakeData {
+  /** Undefined only for a slug that is not a real jurisdiction; the component
+   *  already renders a not-found panel for that case. */
+  jurisdiction: Jurisdiction | undefined;
+  excerpts: Record<string, HandbookExcerpt>;
+  snippets: Record<string, HandbookSnippet>;
+}
 import { questionChallengeText } from "@/lib/driving/share";
 import { shareDrivingText } from "@/components/DrivingShareBlock";
 import { ReportQuestionError } from "@/components/ReportQuestionError";
@@ -120,13 +135,11 @@ function loadSaved(key: string): Saved | null {
   }
 }
 
-function TakeDrivingInner() {
+function TakeDrivingInner({ jurisdiction, excerpts, snippets }: TakeData) {
   const params = useParams();
   const router = useRouter();
   const searchParams = useSearchParams();
-  const jurisdictionSlug = typeof params.jurisdiction === "string" ? params.jurisdiction : "";
   const setId = typeof params.setId === "string" ? params.setId : "";
-  const jurisdiction = getJurisdiction(jurisdictionSlug);
   const isWeakSpots = setId === WEAK_SPOTS_ID;
   const isRetryMissed = setId === RETRY_MISSED_ID;
   const isSynthetic = isWeakSpots || isRetryMissed;
@@ -352,8 +365,8 @@ function TakeDrivingInner() {
   const leftCount = Math.max(0, total - answeredCount);
   const isCorrect = selected === question.correctIndex;
   // Official wording behind this rule, when we have a verified quote for it.
-  const excerpt = getExcerpt(jurisdiction.slug, question.excerptKey);
-  const snippet = getSnippet(jurisdiction.slug, question.excerptKey);
+  const excerpt = question.excerptKey ? excerpts[question.excerptKey] : undefined;
+  const snippet = question.excerptKey ? snippets[question.excerptKey] : undefined;
   const isLast = safeIndex + 1 >= total;
   const topic = TOPIC_META[question.topic];
 
@@ -817,7 +830,7 @@ function TakeDrivingInner() {
  * export has no query string at build time, so this subtree is emitted as the
  * fallback and filled in on the client once the real URL is known.
  */
-export function TakeDrivingClient() {
+export function TakeDrivingClient(data: TakeData) {
   return (
     <Suspense
       fallback={
@@ -828,7 +841,7 @@ export function TakeDrivingClient() {
         </div>
       }
     >
-      <TakeDrivingInner />
+      <TakeDrivingInner {...data} />
     </Suspense>
   );
 }

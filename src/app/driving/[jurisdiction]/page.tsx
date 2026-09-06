@@ -62,7 +62,7 @@ export default async function JurisdictionPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jurisdictionJsonLd(j)) }}
         />
       )}
-      <JurisdictionClient />
+      {j && <JurisdictionClient jurisdiction={j} />}
     </>
   );
 }

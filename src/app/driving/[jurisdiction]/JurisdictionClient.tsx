@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useEffect, useState, type CSSProperties } from "react";
-import { getJurisdiction } from "@/lib/driving/jurisdictions";
+import type { Jurisdiction } from "@/lib/driving/types";
 import { DIFFICULTY_META } from "@/lib/driving/types";
 import type { SetAttempt } from "@/lib/driving/progress";
 import { loadProgress, summarize } from "@/lib/driving/progress";
@@ -58,11 +58,13 @@ const listStyle: CSSProperties = {
   color: "var(--ink-soft)",
 };
 
-export function JurisdictionClient() {
-  const params = useParams();
+// The jurisdiction arrives as a prop from the statically rendered page rather
+// than being looked up here. Importing the registry from a client component
+// pulls EVERY bank's questions and quotes into the browser bundle - measured at
+// 6.7 MB across 29 jurisdictions, downloaded to read about one of them.
+export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdiction }) {
   const router = useRouter();
-  const slug = typeof params.jurisdiction === "string" ? params.jurisdiction : "";
-  const jurisdiction = getJurisdiction(slug);
+  const slug = jurisdiction.slug;
 
   // localStorage is read only after mount. Static export prerenders this page
   // with no progress at all, so touching storage during render would guarantee
