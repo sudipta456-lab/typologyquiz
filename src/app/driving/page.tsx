@@ -70,7 +70,9 @@ export default function DrivingHubPage() {
       </div>
 
       {COUNTRY_ORDER.map(({ key, label }) => {
-        const group = JURISDICTIONS.filter((j) => j.country === key);
+        const group = JURISDICTIONS.filter((j) => j.country === key).sort((a, b) =>
+          a.name.localeCompare(b.name)
+        );
         if (group.length === 0) return null;
 
         return (

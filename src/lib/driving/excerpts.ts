@@ -21,6 +21,7 @@ import { britishcolumbiaExcerpts } from "./britishcolumbia/excerpts";
 import { indianaExcerpts } from "./indiana/excerpts";
 import { missouriExcerpts } from "./missouri/excerpts";
 import { marylandExcerpts } from "./maryland/excerpts";
+import { MODULES } from "./modules";
 
 // Handbook excerpt library, keyed by jurisdiction then rule.
 //
@@ -53,6 +54,7 @@ const BY_JURISDICTION: Record<string, HandbookExcerpt[]> = {
   missouri: missouriExcerpts,
   maryland: marylandExcerpts,
 };
+for (const m of MODULES) BY_JURISDICTION[m.jurisdiction.slug] = m.excerpts;
 
 const INDEX: Record<string, Record<string, HandbookExcerpt>> = Object.fromEntries(
   Object.entries(BY_JURISDICTION).map(([slug, list]) => [
@@ -159,6 +161,7 @@ const SNIPPETS: Record<string, Record<string, HandbookSnippet>> = {
   missouri: missouriSnippets as Record<string, HandbookSnippet>,
   maryland: marylandSnippets as Record<string, HandbookSnippet>,
 };
+for (const m of MODULES) SNIPPETS[m.jurisdiction.slug] = m.snippets;
 
 export function getSnippet(
   jurisdictionSlug: string,

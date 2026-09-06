@@ -1,4 +1,5 @@
 import type { Jurisdiction, DrivingTestSet } from "./types";
+import { MODULES } from "./modules";
 import { albertaSets1to3 } from "./alberta/sets-1-3";
 import { albertaSets4to6 } from "./alberta/sets-4-6";
 import { ontarioSets1to3 } from "./ontario/sets-1-3";
@@ -816,6 +817,9 @@ export const JURISDICTIONS: Jurisdiction[] = [
     ],
     sets: [...marylandSets1to3, ...marylandSets4to6].sort(byNumber),
   },
+  // Everything from the 23rd jurisdiction on is a self-contained module
+  // registered in modules.ts - see the note there.
+  ...MODULES.map((m) => m.jurisdiction),
 ];
 
 export function getJurisdiction(slug: string): Jurisdiction | undefined {

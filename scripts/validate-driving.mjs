@@ -10,7 +10,7 @@
  * Run: npx tsx scripts/validate-driving.mjs
  *
  * Or, for a jurisdiction that is NOT yet wired into the registry:
-" *      npx tsx scripts/validate-driving.mjs --only <slug>
+ *      npx tsx scripts/validate-driving.mjs --only <slug>
  * which loads src/lib/driving/<slug>/index.ts directly. That is how a bank
  * gets validated while it is being built in parallel with others - the
  * builder never has to touch jurisdictions.ts or excerpts.ts, so six builders
@@ -22,12 +22,13 @@ import {
   excerptsFor as registryExcerptsFor,
   getExcerpt as registryGetExcerpt,
 } from "../src/lib/driving/excerpts.ts";
+import { MODULES } from "../src/lib/driving/modules.ts";
 
 let jurisdictions = JURISDICTIONS;
 let excerptsFor = registryExcerptsFor;
 let getExcerpt = registryGetExcerpt;
 let snippetsFor = () => null;
-let extraHosts = [];
+let extraHosts = MODULES.flatMap((m) => m.officialHosts ?? []);
 
 const onlyAt = process.argv.indexOf("--only");
 if (onlyAt !== -1) {

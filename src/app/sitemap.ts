@@ -47,13 +47,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const drivingPages: MetadataRoute.Sitemap = JURISDICTIONS.flatMap((j) => [
     {
       url: `${base}/driving/${j.slug}/`,
-      lastModified: now,
+      lastModified: new Date(j.contentDate),
       changeFrequency: "weekly" as const,
       priority: 0.85,
     },
     ...j.sets.map((s) => ({
       url: `${base}/driving/${j.slug}/${s.id}/take/`,
-      lastModified: now,
+      lastModified: new Date(j.contentDate),
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
