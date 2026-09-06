@@ -1,0 +1,1706 @@
+{
+  "abs-press-hard": {
+    "height": 144,
+    "page": 60,
+    "src": "/handbook/kentucky/abs-press-hard.png",
+    "width": 531
+  },
+  "abs-vibrate": {
+    "height": 199,
+    "page": 60,
+    "src": "/handbook/kentucky/abs-vibrate.png",
+    "width": 542
+  },
+  "accessible-parking": {
+    "height": 199,
+    "page": 52,
+    "src": "/handbook/kentucky/accessible-parking.png",
+    "width": 533
+  },
+  "adas-limits": {
+    "height": 171,
+    "page": 38,
+    "src": "/handbook/kentucky/adas-limits.png",
+    "width": 524
+  },
+  "adas-not-allowed": {
+    "height": 281,
+    "page": 38,
+    "src": "/handbook/kentucky/adas-not-allowed.png",
+    "width": 532
+  },
+  "address-change-10": {
+    "height": 171,
+    "page": 22,
+    "src": "/handbook/kentucky/address-change-10.png",
+    "width": 540
+  },
+  "aggressive-driving": {
+    "height": 226,
+    "page": 30,
+    "src": "/handbook/kentucky/aggressive-driving.png",
+    "width": 538
+  },
+  "airbag-children-12": {
+    "height": 171,
+    "page": 36,
+    "src": "/handbook/kentucky/airbag-children-12.png",
+    "width": 508
+  },
+  "airbag-rearfacing": {
+    "height": 171,
+    "page": 37,
+    "src": "/handbook/kentucky/airbag-rearfacing.png",
+    "width": 536
+  },
+  "alcohol-first-drink": {
+    "height": 171,
+    "page": 31,
+    "src": "/handbook/kentucky/alcohol-first-drink.png",
+    "width": 540
+  },
+  "alcohol-vision-002": {
+    "height": 198,
+    "page": 31,
+    "src": "/handbook/kentucky/alcohol-vision-002.png",
+    "width": 505
+  },
+  "animal-brake-steer": {
+    "height": 171,
+    "page": 60,
+    "src": "/handbook/kentucky/animal-brake-steer.png",
+    "width": 542
+  },
+  "attorney-10-15": {
+    "height": 226,
+    "page": 33,
+    "src": "/handbook/kentucky/attorney-10-15.png",
+    "width": 541
+  },
+  "atv-crossing": {
+    "height": 226,
+    "page": 72,
+    "src": "/handbook/kentucky/atv-crossing.png",
+    "width": 538
+  },
+  "atv-no-highway": {
+    "height": 199,
+    "page": 71,
+    "src": "/handbook/kentucky/atv-no-highway.png",
+    "width": 542
+  },
+  "backing-check": {
+    "height": 309,
+    "page": 39,
+    "src": "/handbook/kentucky/backing-check.png",
+    "width": 272
+  },
+  "backing-look-rear": {
+    "height": 143,
+    "page": 39,
+    "src": "/handbook/kentucky/backing-look-rear.png",
+    "width": 534
+  },
+  "being-passed": {
+    "height": 198,
+    "page": 54,
+    "src": "/handbook/kentucky/being-passed.png",
+    "width": 539
+  },
+  "belts-with-airbags": {
+    "height": 143,
+    "page": 36,
+    "src": "/handbook/kentucky/belts-with-airbags.png",
+    "width": 540
+  },
+  "bicycles-are-vehicles": {
+    "height": 199,
+    "page": 65,
+    "src": "/handbook/kentucky/bicycles-are-vehicles.png",
+    "width": 611
+  },
+  "bike-door": {
+    "height": 171,
+    "page": 66,
+    "src": "/handbook/kentucky/bike-door.png",
+    "width": 526
+  },
+  "bike-horn": {
+    "height": 254,
+    "page": 65,
+    "src": "/handbook/kentucky/bike-horn.png",
+    "width": 515
+  },
+  "bike-lane-no-park": {
+    "height": 254,
+    "page": 65,
+    "src": "/handbook/kentucky/bike-lane-no-park.png",
+    "width": 502
+  },
+  "bike-night-lights": {
+    "height": 199,
+    "page": 66,
+    "src": "/handbook/kentucky/bike-night-lights.png",
+    "width": 542
+  },
+  "bike-no-interstate": {
+    "height": 116,
+    "page": 66,
+    "src": "/handbook/kentucky/bike-no-interstate.png",
+    "width": 523
+  },
+  "bike-right-side": {
+    "height": 143,
+    "page": 66,
+    "src": "/handbook/kentucky/bike-right-side.png",
+    "width": 540
+  },
+  "bike-signal-50": {
+    "height": 199,
+    "page": 65,
+    "src": "/handbook/kentucky/bike-signal-50.png",
+    "width": 539
+  },
+  "bike-two-abreast": {
+    "height": 171,
+    "page": 67,
+    "src": "/handbook/kentucky/bike-two-abreast.png",
+    "width": 540
+  },
+  "blind-5-feet": {
+    "height": 226,
+    "page": 64,
+    "src": "/handbook/kentucky/blind-5-feet.png",
+    "width": 523
+  },
+  "blind-fine-250": {
+    "height": 199,
+    "page": 64,
+    "src": "/handbook/kentucky/blind-fine-250.png",
+    "width": 535
+  },
+  "blind-spot-avoid": {
+    "height": 254,
+    "page": 58,
+    "src": "/handbook/kentucky/blind-spot-avoid.png",
+    "width": 533
+  },
+  "blind-white-cane": {
+    "height": 198,
+    "page": 64,
+    "src": "/handbook/kentucky/blind-white-cane.png",
+    "width": 535
+  },
+  "blowout-front": {
+    "height": 170,
+    "page": 62,
+    "src": "/handbook/kentucky/blowout-front.png",
+    "width": 534
+  },
+  "blowout-steps": {
+    "height": 144,
+    "page": 62,
+    "src": "/handbook/kentucky/blowout-steps.png",
+    "width": 516
+  },
+  "booster-57": {
+    "height": 198,
+    "page": 37,
+    "src": "/handbook/kentucky/booster-57.png",
+    "width": 536
+  },
+  "booster-seat": {
+    "height": 309,
+    "page": 37,
+    "src": "/handbook/kentucky/booster-seat.png",
+    "width": 536
+  },
+  "brake-failure": {
+    "height": 226,
+    "page": 62,
+    "src": "/handbook/kentucky/brake-failure.png",
+    "width": 537
+  },
+  "braking-158": {
+    "height": 226,
+    "page": 57,
+    "src": "/handbook/kentucky/braking-158.png",
+    "width": 540
+  },
+  "breakdown-flares": {
+    "height": 198,
+    "page": 63,
+    "src": "/handbook/kentucky/breakdown-flares.png",
+    "width": 535
+  },
+  "breakdown-hood": {
+    "height": 171,
+    "page": 63,
+    "src": "/handbook/kentucky/breakdown-hood.png",
+    "width": 541
+  },
+  "breakdown-not-hill": {
+    "height": 144,
+    "page": 63,
+    "src": "/handbook/kentucky/breakdown-not-hill.png",
+    "width": 529
+  },
+  "center-turn-lane": {
+    "height": 282,
+    "page": 44,
+    "src": "/handbook/kentucky/center-turn-lane.png",
+    "width": 426
+  },
+  "changing-lanes": {
+    "height": 226,
+    "page": 52,
+    "src": "/handbook/kentucky/changing-lanes.png",
+    "width": 542
+  },
+  "child-restraint-40": {
+    "height": 309,
+    "page": 37,
+    "src": "/handbook/kentucky/child-restraint-40.png",
+    "width": 536
+  },
+  "child-restraint-fine": {
+    "height": 226,
+    "page": 37,
+    "src": "/handbook/kentucky/child-restraint-fine.png",
+    "width": 536
+  },
+  "collision-move": {
+    "height": 198,
+    "page": 61,
+    "src": "/handbook/kentucky/collision-move.png",
+    "width": 526
+  },
+  "collision-parked-note": {
+    "height": 171,
+    "page": 61,
+    "src": "/handbook/kentucky/collision-parked-note.png",
+    "width": 537
+  },
+  "collision-render-aid": {
+    "height": 226,
+    "page": 62,
+    "src": "/handbook/kentucky/collision-render-aid.png",
+    "width": 541
+  },
+  "collision-report-500": {
+    "height": 281,
+    "page": 61,
+    "src": "/handbook/kentucky/collision-report-500.png",
+    "width": 537
+  },
+  "collision-stay": {
+    "height": 171,
+    "page": 61,
+    "src": "/handbook/kentucky/collision-stay.png",
+    "width": 487
+  },
+  "color-red": {
+    "height": 116,
+    "page": 46,
+    "src": "/handbook/kentucky/color-red.png",
+    "width": 847
+  },
+  "color-yellow": {
+    "height": 115,
+    "page": 46,
+    "src": "/handbook/kentucky/color-yellow.png",
+    "width": 847
+  },
+  "crossbuck-yield": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/kentucky/crossbuck-yield.png",
+    "width": 542
+  },
+  "crosswalk-stop-order": {
+    "height": 254,
+    "page": 45,
+    "src": "/handbook/kentucky/crosswalk-stop-order.png",
+    "width": 542
+  },
+  "crosswalk-unmarked": {
+    "height": 226,
+    "page": 45,
+    "src": "/handbook/kentucky/crosswalk-unmarked.png",
+    "width": 542
+  },
+  "curve-hard-braking": {
+    "height": 171,
+    "page": 56,
+    "src": "/handbook/kentucky/curve-hard-braking.png",
+    "width": 539
+  },
+  "curves-slow-first": {
+    "height": 198,
+    "page": 56,
+    "src": "/handbook/kentucky/curves-slow-first.png",
+    "width": 539
+  },
+  "darkness-outdrive": {
+    "height": 171,
+    "page": 56,
+    "src": "/handbook/kentucky/darkness-outdrive.png",
+    "width": 535
+  },
+  "dim-500-300": {
+    "height": 199,
+    "page": 73,
+    "src": "/handbook/kentucky/dim-500-300.png",
+    "width": 539
+  },
+  "distraction-cognitive": {
+    "height": 227,
+    "page": 29,
+    "src": "/handbook/kentucky/distraction-cognitive.png",
+    "width": 540
+  },
+  "distraction-def": {
+    "height": 144,
+    "page": 29,
+    "src": "/handbook/kentucky/distraction-def.png",
+    "width": 539
+  },
+  "distraction-visual": {
+    "height": 171,
+    "page": 29,
+    "src": "/handbook/kentucky/distraction-visual.png",
+    "width": 532
+  },
+  "drop-off": {
+    "height": 171,
+    "page": 61,
+    "src": "/handbook/kentucky/drop-off.png",
+    "width": 541
+  },
+  "drug-first-penalty": {
+    "height": 227,
+    "page": 32,
+    "src": "/handbook/kentucky/drug-first-penalty.png",
+    "width": 539
+  },
+  "dui-008": {
+    "height": 309,
+    "page": 32,
+    "src": "/handbook/kentucky/dui-008.png",
+    "width": 539
+  },
+  "dui-aggravating-15": {
+    "height": 226,
+    "page": 33,
+    "src": "/handbook/kentucky/dui-aggravating-15.png",
+    "width": 492
+  },
+  "dui-aggravating-30mph": {
+    "height": 143,
+    "page": 33,
+    "src": "/handbook/kentucky/dui-aggravating-30mph.png",
+    "width": 542
+  },
+  "dui-aggravating-child": {
+    "height": 171,
+    "page": 33,
+    "src": "/handbook/kentucky/dui-aggravating-child.png",
+    "width": 540
+  },
+  "dui-first-penalty": {
+    "height": 336,
+    "page": 33,
+    "src": "/handbook/kentucky/dui-first-penalty.png",
+    "width": 541
+  },
+  "dui-statute-008": {
+    "height": 171,
+    "page": 32,
+    "src": "/handbook/kentucky/dui-statute-008.png",
+    "width": 539
+  },
+  "dui-under-002": {
+    "height": 199,
+    "page": 32,
+    "src": "/handbook/kentucky/dui-under-002.png",
+    "width": 539
+  },
+  "dui-under-008": {
+    "height": 226,
+    "page": 32,
+    "src": "/handbook/kentucky/dui-under-008.png",
+    "width": 539
+  },
+  "emergency-500": {
+    "height": 143,
+    "page": 70,
+    "src": "/handbook/kentucky/emergency-500.png",
+    "width": 539
+  },
+  "emergency-pull-right": {
+    "height": 254,
+    "page": 70,
+    "src": "/handbook/kentucky/emergency-pull-right.png",
+    "width": 539
+  },
+  "exiting-speed": {
+    "height": 143,
+    "page": 53,
+    "src": "/handbook/kentucky/exiting-speed.png",
+    "width": 514
+  },
+  "farm-machinery": {
+    "height": 170,
+    "page": 71,
+    "src": "/handbook/kentucky/farm-machinery.png",
+    "width": 542
+  },
+  "fatigue-nap": {
+    "height": 199,
+    "page": 28,
+    "src": "/handbook/kentucky/fatigue-nap.png",
+    "width": 542
+  },
+  "fatigue-sleep": {
+    "height": 171,
+    "page": 28,
+    "src": "/handbook/kentucky/fatigue-sleep.png",
+    "width": 531
+  },
+  "fatigue-stop-100": {
+    "height": 144,
+    "page": 28,
+    "src": "/handbook/kentucky/fatigue-stop-100.png",
+    "width": 516
+  },
+  "flashing-red": {
+    "height": 143,
+    "page": 41,
+    "src": "/handbook/kentucky/flashing-red.png",
+    "width": 542
+  },
+  "flashing-yellow": {
+    "height": 144,
+    "page": 41,
+    "src": "/handbook/kentucky/flashing-yellow.png",
+    "width": 531
+  },
+  "flashing-yellow-arrow": {
+    "height": 144,
+    "page": 41,
+    "src": "/handbook/kentucky/flashing-yellow-arrow.png",
+    "width": 542
+  },
+  "flooded-roadway": {
+    "height": 254,
+    "page": 56,
+    "src": "/handbook/kentucky/flooded-roadway.png",
+    "width": 372
+  },
+  "fluorescent-yellow": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/kentucky/fluorescent-yellow.png",
+    "width": 542
+  },
+  "following-4-seconds": {
+    "height": 199,
+    "page": 57,
+    "src": "/handbook/kentucky/following-4-seconds.png",
+    "width": 540
+  },
+  "following-count": {
+    "height": 171,
+    "page": 57,
+    "src": "/handbook/kentucky/following-count.png",
+    "width": 525
+  },
+  "following-increase": {
+    "height": 171,
+    "page": 57,
+    "src": "/handbook/kentucky/following-increase.png",
+    "width": 527
+  },
+  "following-law": {
+    "height": 171,
+    "page": 57,
+    "src": "/handbook/kentucky/following-law.png",
+    "width": 540
+  },
+  "funeral-no-cut": {
+    "height": 198,
+    "page": 73,
+    "src": "/handbook/kentucky/funeral-no-cut.png",
+    "width": 541
+  },
+  "funeral-penalty": {
+    "height": 171,
+    "page": 74,
+    "src": "/handbook/kentucky/funeral-penalty.png",
+    "width": 532
+  },
+  "funeral-row": {
+    "height": 227,
+    "page": 73,
+    "src": "/handbook/kentucky/funeral-row.png",
+    "width": 541
+  },
+  "green-arrow": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/kentucky/green-arrow.png",
+    "width": 542
+  },
+  "green-dont-jump": {
+    "height": 171,
+    "page": 49,
+    "src": "/handbook/kentucky/green-dont-jump.png",
+    "width": 538
+  },
+  "green-left-yield": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/kentucky/green-left-yield.png",
+    "width": 542
+  },
+  "green-light": {
+    "height": 254,
+    "page": 41,
+    "src": "/handbook/kentucky/green-light.png",
+    "width": 542
+  },
+  "guide-signs": {
+    "height": 143,
+    "page": 44,
+    "src": "/handbook/kentucky/guide-signs.png",
+    "width": 540
+  },
+  "hands-2-10": {
+    "height": 199,
+    "page": 39,
+    "src": "/handbook/kentucky/hands-2-10.png",
+    "width": 539
+  },
+  "hands-3-9": {
+    "height": 373,
+    "page": 39,
+    "src": "/handbook/kentucky/hands-3-9.png",
+    "width": 541
+  },
+  "hazmat-railroad": {
+    "height": 171,
+    "page": 69,
+    "src": "/handbook/kentucky/hazmat-railroad.png",
+    "width": 541
+  },
+  "head-restraint": {
+    "height": 144,
+    "page": 34,
+    "src": "/handbook/kentucky/head-restraint.png",
+    "width": 577
+  },
+  "headlight-reveal": {
+    "height": 226,
+    "page": 18,
+    "src": "/handbook/kentucky/headlight-reveal.png",
+    "width": 539
+  },
+  "headlights-statute": {
+    "height": 143,
+    "page": 59,
+    "src": "/handbook/kentucky/headlights-statute.png",
+    "width": 531
+  },
+  "headlights-sunset": {
+    "height": 199,
+    "page": 59,
+    "src": "/handbook/kentucky/headlights-sunset.png",
+    "width": 531
+  },
+  "high-beams-when": {
+    "height": 227,
+    "page": 73,
+    "src": "/handbook/kentucky/high-beams-when.png",
+    "width": 510
+  },
+  "horn-blind": {
+    "height": 144,
+    "page": 59,
+    "src": "/handbook/kentucky/horn-blind.png",
+    "width": 525
+  },
+  "horn-light-tap": {
+    "height": 171,
+    "page": 59,
+    "src": "/handbook/kentucky/horn-light-tap.png",
+    "width": 540
+  },
+  "horse-drawn": {
+    "height": 171,
+    "page": 71,
+    "src": "/handbook/kentucky/horse-drawn.png",
+    "width": 542
+  },
+  "hydroplane-avoid": {
+    "height": 254,
+    "page": 56,
+    "src": "/handbook/kentucky/hydroplane-avoid.png",
+    "width": 528
+  },
+  "hydroplaning": {
+    "height": 227,
+    "page": 56,
+    "src": "/handbook/kentucky/hydroplaning.png",
+    "width": 528
+  },
+  "implied-consent": {
+    "height": 253,
+    "page": 32,
+    "src": "/handbook/kentucky/implied-consent.png",
+    "width": 527
+  },
+  "insurance-minimums": {
+    "height": 337,
+    "page": 25,
+    "src": "/handbook/kentucky/insurance-minimums.png",
+    "width": 540
+  },
+  "insurance-penalty": {
+    "height": 199,
+    "page": 25,
+    "src": "/handbook/kentucky/insurance-penalty.png",
+    "width": 537
+  },
+  "insurance-proof": {
+    "height": 171,
+    "page": 25,
+    "src": "/handbook/kentucky/insurance-proof.png",
+    "width": 540
+  },
+  "interlock-002": {
+    "height": 198,
+    "page": 33,
+    "src": "/handbook/kentucky/interlock-002.png",
+    "width": 540
+  },
+  "intermediate-curfew": {
+    "height": 226,
+    "page": 12,
+    "src": "/handbook/kentucky/intermediate-curfew.png",
+    "width": 540
+  },
+  "intersection-def": {
+    "height": 171,
+    "page": 40,
+    "src": "/handbook/kentucky/intersection-def.png",
+    "width": 539
+  },
+  "intersection-edge-forward": {
+    "height": 199,
+    "page": 49,
+    "src": "/handbook/kentucky/intersection-edge-forward.png",
+    "width": 538
+  },
+  "lane-use-three": {
+    "height": 226,
+    "page": 52,
+    "src": "/handbook/kentucky/lane-use-three.png",
+    "width": 540
+  },
+  "lap-belt": {
+    "height": 171,
+    "page": 36,
+    "src": "/handbook/kentucky/lap-belt.png",
+    "width": 540
+  },
+  "left-lane-illegal": {
+    "height": 144,
+    "page": 52,
+    "src": "/handbook/kentucky/left-lane-illegal.png",
+    "width": 540
+  },
+  "left-on-red": {
+    "height": 226,
+    "page": 41,
+    "src": "/handbook/kentucky/left-on-red.png",
+    "width": 468
+  },
+  "left-turn-position": {
+    "height": 143,
+    "page": 48,
+    "src": "/handbook/kentucky/left-turn-position.png",
+    "width": 536
+  },
+  "look-ahead-20-30": {
+    "height": 171,
+    "page": 55,
+    "src": "/handbook/kentucky/look-ahead-20-30.png",
+    "width": 540
+  },
+  "low-beams-fog": {
+    "height": 281,
+    "page": 73,
+    "src": "/handbook/kentucky/low-beams-fog.png",
+    "width": 523
+  },
+  "mechanical-signals": {
+    "height": 144,
+    "page": 59,
+    "src": "/handbook/kentucky/mechanical-signals.png",
+    "width": 539
+  },
+  "merge-yield": {
+    "height": 144,
+    "page": 53,
+    "src": "/handbook/kentucky/merge-yield.png",
+    "width": 540
+  },
+  "merging": {
+    "height": 171,
+    "page": 53,
+    "src": "/handbook/kentucky/merging.png",
+    "width": 540
+  },
+  "minor-points": {
+    "height": 171,
+    "page": 12,
+    "src": "/handbook/kentucky/minor-points.png",
+    "width": 510
+  },
+  "mirror-left": {
+    "height": 199,
+    "page": 35,
+    "src": "/handbook/kentucky/mirror-left.png",
+    "width": 538
+  },
+  "mirrors-required": {
+    "height": 226,
+    "page": 18,
+    "src": "/handbook/kentucky/mirrors-required.png",
+    "width": 550
+  },
+  "miss-your-turn": {
+    "height": 171,
+    "page": 52,
+    "src": "/handbook/kentucky/miss-your-turn.png",
+    "width": 540
+  },
+  "motorcycle-following": {
+    "height": 254,
+    "page": 67,
+    "src": "/handbook/kentucky/motorcycle-following.png",
+    "width": 352
+  },
+  "motorcycle-full-lane": {
+    "height": 198,
+    "page": 67,
+    "src": "/handbook/kentucky/motorcycle-full-lane.png",
+    "width": 541
+  },
+  "motorcycle-signal": {
+    "height": 364,
+    "page": 67,
+    "src": "/handbook/kentucky/motorcycle-signal.png",
+    "width": 540
+  },
+  "moveover-four-lane": {
+    "height": 171,
+    "page": 71,
+    "src": "/handbook/kentucky/moveover-four-lane.png",
+    "width": 527
+  },
+  "moveover-general": {
+    "height": 281,
+    "page": 71,
+    "src": "/handbook/kentucky/moveover-general.png",
+    "width": 535
+  },
+  "moveover-two-lane": {
+    "height": 144,
+    "page": 71,
+    "src": "/handbook/kentucky/moveover-two-lane.png",
+    "width": 527
+  },
+  "multiple-lane-turn": {
+    "height": 144,
+    "page": 48,
+    "src": "/handbook/kentucky/multiple-lane-turn.png",
+    "width": 500
+  },
+  "narrow-bridge": {
+    "height": 171,
+    "page": 74,
+    "src": "/handbook/kentucky/narrow-bridge.png",
+    "width": 541
+  },
+  "night-following-extra": {
+    "height": 226,
+    "page": 73,
+    "src": "/handbook/kentucky/night-following-extra.png",
+    "width": 535
+  },
+  "night-glare-look-right": {
+    "height": 282,
+    "page": 73,
+    "src": "/handbook/kentucky/night-glare-look-right.png",
+    "width": 523
+  },
+  "night-no-sunglasses": {
+    "height": 198,
+    "page": 73,
+    "src": "/handbook/kentucky/night-no-sunglasses.png",
+    "width": 518
+  },
+  "no-backing-freeway": {
+    "height": 226,
+    "page": 58,
+    "src": "/handbook/kentucky/no-backing-freeway.png",
+    "width": 511
+  },
+  "no-copy-signal": {
+    "height": 171,
+    "page": 48,
+    "src": "/handbook/kentucky/no-copy-signal.png",
+    "width": 532
+  },
+  "no-zone": {
+    "height": 227,
+    "page": 68,
+    "src": "/handbook/kentucky/no-zone.png",
+    "width": 539
+  },
+  "obey-signal-over-lane": {
+    "height": 144,
+    "page": 41,
+    "src": "/handbook/kentucky/obey-signal-over-lane.png",
+    "width": 542
+  },
+  "officer-overrides": {
+    "height": 198,
+    "page": 40,
+    "src": "/handbook/kentucky/officer-overrides.png",
+    "width": 539
+  },
+  "otc-drugs": {
+    "height": 199,
+    "page": 31,
+    "src": "/handbook/kentucky/otc-drugs.png",
+    "width": 539
+  },
+  "parking-curb": {
+    "height": 199,
+    "page": 50,
+    "src": "/handbook/kentucky/parking-curb.png",
+    "width": 531
+  },
+  "parking-exit-curb-side": {
+    "height": 171,
+    "page": 51,
+    "src": "/handbook/kentucky/parking-exit-curb-side.png",
+    "width": 520
+  },
+  "parking-hill": {
+    "height": 226,
+    "page": 52,
+    "src": "/handbook/kentucky/parking-hill.png",
+    "width": 528
+  },
+  "parking-key": {
+    "height": 171,
+    "page": 51,
+    "src": "/handbook/kentucky/parking-key.png",
+    "width": 532
+  },
+  "pass-200-feet": {
+    "height": 226,
+    "page": 53,
+    "src": "/handbook/kentucky/pass-200-feet.png",
+    "width": 540
+  },
+  "pass-bike-3-feet": {
+    "height": 226,
+    "page": 54,
+    "src": "/handbook/kentucky/pass-bike-3-feet.png",
+    "width": 528
+  },
+  "pass-hill-curve": {
+    "height": 254,
+    "page": 54,
+    "src": "/handbook/kentucky/pass-hill-curve.png",
+    "width": 524
+  },
+  "pass-on-left": {
+    "height": 198,
+    "page": 53,
+    "src": "/handbook/kentucky/pass-on-left.png",
+    "width": 542
+  },
+  "pass-on-right": {
+    "height": 143,
+    "page": 53,
+    "src": "/handbook/kentucky/pass-on-right.png",
+    "width": 529
+  },
+  "pass-return-mirror": {
+    "height": 226,
+    "page": 54,
+    "src": "/handbook/kentucky/pass-return-mirror.png",
+    "width": 492
+  },
+  "passing-lines": {
+    "height": 226,
+    "page": 53,
+    "src": "/handbook/kentucky/passing-lines.png",
+    "width": 540
+  },
+  "pavement-markings": {
+    "height": 171,
+    "page": 45,
+    "src": "/handbook/kentucky/pavement-markings.png",
+    "width": 540
+  },
+  "ped-always-ready": {
+    "height": 171,
+    "page": 64,
+    "src": "/handbook/kentucky/ped-always-ready.png",
+    "width": 519
+  },
+  "ped-crosswalk-yield": {
+    "height": 226,
+    "page": 64,
+    "src": "/handbook/kentucky/ped-crosswalk-yield.png",
+    "width": 530
+  },
+  "ped-green-light": {
+    "height": 171,
+    "page": 64,
+    "src": "/handbook/kentucky/ped-green-light.png",
+    "width": 536
+  },
+  "ped-jaywalk": {
+    "height": 254,
+    "page": 64,
+    "src": "/handbook/kentucky/ped-jaywalk.png",
+    "width": 535
+  },
+  "ped-turn-on-red": {
+    "height": 171,
+    "page": 64,
+    "src": "/handbook/kentucky/ped-turn-on-red.png",
+    "width": 536
+  },
+  "perception-time": {
+    "height": 199,
+    "page": 56,
+    "src": "/handbook/kentucky/perception-time.png",
+    "width": 539
+  },
+  "permit-age-manual": {
+    "height": 171,
+    "page": 11,
+    "src": "/handbook/kentucky/permit-age-manual.png",
+    "width": 521
+  },
+  "permit-age-statute": {
+    "height": 116,
+    "page": 9,
+    "src": "/handbook/kentucky/permit-age-statute.png",
+    "width": 542
+  },
+  "permit-curfew": {
+    "height": 198,
+    "page": 11,
+    "src": "/handbook/kentucky/permit-curfew.png",
+    "width": 521
+  },
+  "permit-hold-180": {
+    "height": 171,
+    "page": 11,
+    "src": "/handbook/kentucky/permit-hold-180.png",
+    "width": 516
+  },
+  "permit-passenger": {
+    "height": 143,
+    "page": 11,
+    "src": "/handbook/kentucky/permit-passenger.png",
+    "width": 531
+  },
+  "permit-practice-log": {
+    "height": 226,
+    "page": 11,
+    "src": "/handbook/kentucky/permit-practice-log.png",
+    "width": 538
+  },
+  "permit-supervisor": {
+    "height": 253,
+    "page": 11,
+    "src": "/handbook/kentucky/permit-supervisor.png",
+    "width": 539
+  },
+  "points-12": {
+    "height": 198,
+    "page": 23,
+    "src": "/handbook/kentucky/points-12.png",
+    "width": 540
+  },
+  "points-expire": {
+    "height": 143,
+    "page": 23,
+    "src": "/handbook/kentucky/points-expire.png",
+    "width": 540
+  },
+  "reckless-three": {
+    "height": 144,
+    "page": 22,
+    "src": "/handbook/kentucky/reckless-three.png",
+    "width": 518
+  },
+  "red-arrow": {
+    "height": 143,
+    "page": 41,
+    "src": "/handbook/kentucky/red-arrow.png",
+    "width": 542
+  },
+  "red-light": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/kentucky/red-light.png",
+    "width": 468
+  },
+  "refusal-evidence": {
+    "height": 198,
+    "page": 32,
+    "src": "/handbook/kentucky/refusal-evidence.png",
+    "width": 541
+  },
+  "registration-15-days": {
+    "height": 227,
+    "page": 25,
+    "src": "/handbook/kentucky/registration-15-days.png",
+    "width": 537
+  },
+  "regulatory-signs": {
+    "height": 199,
+    "page": 44,
+    "src": "/handbook/kentucky/regulatory-signs.png",
+    "width": 542
+  },
+  "remove-snow": {
+    "height": 143,
+    "page": 35,
+    "src": "/handbook/kentucky/remove-snow.png",
+    "width": 488
+  },
+  "right-on-red": {
+    "height": 227,
+    "page": 41,
+    "src": "/handbook/kentucky/right-on-red.png",
+    "width": 542
+  },
+  "right-turn-position": {
+    "height": 144,
+    "page": 48,
+    "src": "/handbook/kentucky/right-turn-position.png",
+    "width": 486
+  },
+  "road-rage-def": {
+    "height": 199,
+    "page": 30,
+    "src": "/handbook/kentucky/road-rage-def.png",
+    "width": 538
+  },
+  "road-rage-response": {
+    "height": 198,
+    "page": 30,
+    "src": "/handbook/kentucky/road-rage-response.png",
+    "width": 541
+  },
+  "road-test-autofail": {
+    "height": 171,
+    "page": 19,
+    "src": "/handbook/kentucky/road-test-autofail.png",
+    "width": 542
+  },
+  "road-test-fail-wait": {
+    "height": 198,
+    "page": 12,
+    "src": "/handbook/kentucky/road-test-fail-wait.png",
+    "width": 511
+  },
+  "road-test-instructions": {
+    "height": 171,
+    "page": 19,
+    "src": "/handbook/kentucky/road-test-instructions.png",
+    "width": 528
+  },
+  "roundabout-steps": {
+    "height": 143,
+    "page": 50,
+    "src": "/handbook/kentucky/roundabout-steps.png",
+    "width": 407
+  },
+  "roundabout-yield": {
+    "height": 171,
+    "page": 50,
+    "src": "/handbook/kentucky/roundabout-yield.png",
+    "width": 528
+  },
+  "row-arrives-first": {
+    "height": 198,
+    "page": 40,
+    "src": "/handbook/kentucky/row-arrives-first.png",
+    "width": 283
+  },
+  "row-driveway": {
+    "height": 171,
+    "page": 40,
+    "src": "/handbook/kentucky/row-driveway.png",
+    "width": 525
+  },
+  "row-four-way": {
+    "height": 309,
+    "page": 40,
+    "src": "/handbook/kentucky/row-four-way.png",
+    "width": 505
+  },
+  "row-left-turn": {
+    "height": 226,
+    "page": 40,
+    "src": "/handbook/kentucky/row-left-turn.png",
+    "width": 474
+  },
+  "row-minor-road": {
+    "height": 144,
+    "page": 40,
+    "src": "/handbook/kentucky/row-minor-road.png",
+    "width": 492
+  },
+  "row-no-assume": {
+    "height": 198,
+    "page": 40,
+    "src": "/handbook/kentucky/row-no-assume.png",
+    "width": 538
+  },
+  "row-ramp": {
+    "height": 171,
+    "page": 40,
+    "src": "/handbook/kentucky/row-ramp.png",
+    "width": 529
+  },
+  "rr-advance-warning": {
+    "height": 226,
+    "page": 42,
+    "src": "/handbook/kentucky/rr-advance-warning.png",
+    "width": 535
+  },
+  "rr-cross-quickly": {
+    "height": 171,
+    "page": 42,
+    "src": "/handbook/kentucky/rr-cross-quickly.png",
+    "width": 540
+  },
+  "rr-crossbuck-stop": {
+    "height": 226,
+    "page": 42,
+    "src": "/handbook/kentucky/rr-crossbuck-stop.png",
+    "width": 489
+  },
+  "rr-gates-law": {
+    "height": 199,
+    "page": 43,
+    "src": "/handbook/kentucky/rr-gates-law.png",
+    "width": 542
+  },
+  "rr-second-train": {
+    "height": 253,
+    "page": 43,
+    "src": "/handbook/kentucky/rr-second-train.png",
+    "width": 542
+  },
+  "rr-stalled": {
+    "height": 226,
+    "page": 43,
+    "src": "/handbook/kentucky/rr-stalled.png",
+    "width": 542
+  },
+  "rr-stopping-distance": {
+    "height": 171,
+    "page": 43,
+    "src": "/handbook/kentucky/rr-stopping-distance.png",
+    "width": 542
+  },
+  "rr-two-flashing": {
+    "height": 198,
+    "page": 41,
+    "src": "/handbook/kentucky/rr-two-flashing.png",
+    "width": 542
+  },
+  "runaway-ramps": {
+    "height": 226,
+    "page": 69,
+    "src": "/handbook/kentucky/runaway-ramps.png",
+    "width": 502
+  },
+  "rural-gravel": {
+    "height": 226,
+    "page": 74,
+    "src": "/handbook/kentucky/rural-gravel.png",
+    "width": 541
+  },
+  "school-zone-speed": {
+    "height": 170,
+    "page": 64,
+    "src": "/handbook/kentucky/school-zone-speed.png",
+    "width": 532
+  },
+  "schoolbus-four-lane": {
+    "height": 171,
+    "page": 50,
+    "src": "/handbook/kentucky/schoolbus-four-lane.png",
+    "width": 540
+  },
+  "schoolbus-statute": {
+    "height": 143,
+    "page": 50,
+    "src": "/handbook/kentucky/schoolbus-statute.png",
+    "width": 540
+  },
+  "schoolbus-stop": {
+    "height": 253,
+    "page": 50,
+    "src": "/handbook/kentucky/schoolbus-stop.png",
+    "width": 535
+  },
+  "schoolbus-two-lane": {
+    "height": 226,
+    "page": 50,
+    "src": "/handbook/kentucky/schoolbus-two-lane.png",
+    "width": 540
+  },
+  "scooter-16": {
+    "height": 198,
+    "page": 67,
+    "src": "/handbook/kentucky/scooter-16.png",
+    "width": 533
+  },
+  "scooter-20mph": {
+    "height": 198,
+    "page": 67,
+    "src": "/handbook/kentucky/scooter-20mph.png",
+    "width": 540
+  },
+  "seat-10-inches": {
+    "height": 143,
+    "page": 34,
+    "src": "/handbook/kentucky/seat-10-inches.png",
+    "width": 538
+  },
+  "seatbelt-1981": {
+    "height": 254,
+    "page": 18,
+    "src": "/handbook/kentucky/seatbelt-1981.png",
+    "width": 550
+  },
+  "seatbelt-primary": {
+    "height": 199,
+    "page": 36,
+    "src": "/handbook/kentucky/seatbelt-primary.png",
+    "width": 540
+  },
+  "secure-load": {
+    "height": 199,
+    "page": 37,
+    "src": "/handbook/kentucky/secure-load.png",
+    "width": 542
+  },
+  "seizure-90": {
+    "height": 199,
+    "page": 26,
+    "src": "/handbook/kentucky/seizure-90.png",
+    "width": 539
+  },
+  "shoulder-harness": {
+    "height": 227,
+    "page": 36,
+    "src": "/handbook/kentucky/shoulder-harness.png",
+    "width": 525
+  },
+  "signal-100-feet": {
+    "height": 144,
+    "page": 48,
+    "src": "/handbook/kentucky/signal-100-feet.png",
+    "width": 482
+  },
+  "signal-always": {
+    "height": 198,
+    "page": 59,
+    "src": "/handbook/kentucky/signal-always.png",
+    "width": 539
+  },
+  "signal-no-row": {
+    "height": 144,
+    "page": 59,
+    "src": "/handbook/kentucky/signal-no-row.png",
+    "width": 539
+  },
+  "skid-causes": {
+    "height": 199,
+    "page": 60,
+    "src": "/handbook/kentucky/skid-causes.png",
+    "width": 542
+  },
+  "skid-no-abs": {
+    "height": 226,
+    "page": 61,
+    "src": "/handbook/kentucky/skid-no-abs.png",
+    "width": 467
+  },
+  "skid-sideways": {
+    "height": 171,
+    "page": 61,
+    "src": "/handbook/kentucky/skid-sideways.png",
+    "width": 537
+  },
+  "skid-steering-wheel": {
+    "height": 171,
+    "page": 61,
+    "src": "/handbook/kentucky/skid-steering-wheel.png",
+    "width": 541
+  },
+  "slippery-first-sign": {
+    "height": 199,
+    "page": 56,
+    "src": "/handbook/kentucky/slippery-first-sign.png",
+    "width": 539
+  },
+  "smv-emblem": {
+    "height": 254,
+    "page": 71,
+    "src": "/handbook/kentucky/smv-emblem.png",
+    "width": 531
+  },
+  "space-parked-cars": {
+    "height": 226,
+    "page": 58,
+    "src": "/handbook/kentucky/space-parked-cars.png",
+    "width": 539
+  },
+  "speed-15-lot": {
+    "height": 198,
+    "page": 55,
+    "src": "/handbook/kentucky/speed-15-lot.png",
+    "width": 540
+  },
+  "speed-35": {
+    "height": 143,
+    "page": 55,
+    "src": "/handbook/kentucky/speed-35.png",
+    "width": 540
+  },
+  "speed-55": {
+    "height": 143,
+    "page": 55,
+    "src": "/handbook/kentucky/speed-55.png",
+    "width": 540
+  },
+  "speed-65": {
+    "height": 171,
+    "page": 55,
+    "src": "/handbook/kentucky/speed-65.png",
+    "width": 540
+  },
+  "speed-70": {
+    "height": 171,
+    "page": 55,
+    "src": "/handbook/kentucky/speed-70.png",
+    "width": 540
+  },
+  "speed-limit-signs": {
+    "height": 199,
+    "page": 44,
+    "src": "/handbook/kentucky/speed-limit-signs.png",
+    "width": 525
+  },
+  "speed-unposted": {
+    "height": 143,
+    "page": 55,
+    "src": "/handbook/kentucky/speed-unposted.png",
+    "width": 540
+  },
+  "speedometer-glance": {
+    "height": 198,
+    "page": 55,
+    "src": "/handbook/kentucky/speedometer-glance.png",
+    "width": 540
+  },
+  "steel-bridge": {
+    "height": 199,
+    "page": 75,
+    "src": "/handbook/kentucky/steel-bridge.png",
+    "width": 538
+  },
+  "stop-line-first": {
+    "height": 144,
+    "page": 45,
+    "src": "/handbook/kentucky/stop-line-first.png",
+    "width": 542
+  },
+  "stop-sign": {
+    "height": 198,
+    "page": 44,
+    "src": "/handbook/kentucky/stop-sign.png",
+    "width": 440
+  },
+  "stopping-distance-def": {
+    "height": 199,
+    "page": 56,
+    "src": "/handbook/kentucky/stopping-distance-def.png",
+    "width": 539
+  },
+  "stuck-accelerator": {
+    "height": 143,
+    "page": 63,
+    "src": "/handbook/kentucky/stuck-accelerator.png",
+    "width": 535
+  },
+  "swerve-steer": {
+    "height": 143,
+    "page": 60,
+    "src": "/handbook/kentucky/swerve-steer.png",
+    "width": 523
+  },
+  "taillight-500": {
+    "height": 171,
+    "page": 18,
+    "src": "/handbook/kentucky/taillight-500.png",
+    "width": 539
+  },
+  "texting-46": {
+    "height": 199,
+    "page": 29,
+    "src": "/handbook/kentucky/texting-46.png",
+    "width": 539
+  },
+  "three-options": {
+    "height": 199,
+    "page": 60,
+    "src": "/handbook/kentucky/three-options.png",
+    "width": 542
+  },
+  "tire-penny": {
+    "height": 143,
+    "page": 34,
+    "src": "/handbook/kentucky/tire-penny.png",
+    "width": 411
+  },
+  "traffic-stop-hands": {
+    "height": 198,
+    "page": 70,
+    "src": "/handbook/kentucky/traffic-stop-hands.png",
+    "width": 535
+  },
+  "traffic-stop-stay": {
+    "height": 171,
+    "page": 70,
+    "src": "/handbook/kentucky/traffic-stop-stay.png",
+    "width": 515
+  },
+  "trailer-55": {
+    "height": 171,
+    "page": 76,
+    "src": "/handbook/kentucky/trailer-55.png",
+    "width": 540
+  },
+  "trailer-60-40": {
+    "height": 171,
+    "page": 75,
+    "src": "/handbook/kentucky/trailer-60-40.png",
+    "width": 562
+  },
+  "trailer-jackknife": {
+    "height": 171,
+    "page": 76,
+    "src": "/handbook/kentucky/trailer-jackknife.png",
+    "width": 539
+  },
+  "trailer-sway": {
+    "height": 171,
+    "page": 76,
+    "src": "/handbook/kentucky/trailer-sway.png",
+    "width": 540
+  },
+  "transfer-30-days": {
+    "height": 171,
+    "page": 19,
+    "src": "/handbook/kentucky/transfer-30-days.png",
+    "width": 538
+  },
+  "truck-335": {
+    "height": 226,
+    "page": 68,
+    "src": "/handbook/kentucky/truck-335.png",
+    "width": 575
+  },
+  "truck-mirror-rule": {
+    "height": 143,
+    "page": 68,
+    "src": "/handbook/kentucky/truck-mirror-rule.png",
+    "width": 575
+  },
+  "truck-rear-200": {
+    "height": 227,
+    "page": 68,
+    "src": "/handbook/kentucky/truck-rear-200.png",
+    "width": 575
+  },
+  "truck-wide-right": {
+    "height": 254,
+    "page": 69,
+    "src": "/handbook/kentucky/truck-wide-right.png",
+    "width": 539
+  },
+  "turn-into-nearest-lane": {
+    "height": 199,
+    "page": 52,
+    "src": "/handbook/kentucky/turn-into-nearest-lane.png",
+    "width": 540
+  },
+  "turn-signal-not-promise": {
+    "height": 171,
+    "page": 49,
+    "src": "/handbook/kentucky/turn-signal-not-promise.png",
+    "width": 538
+  },
+  "turnabout-500": {
+    "height": 143,
+    "page": 49,
+    "src": "/handbook/kentucky/turnabout-500.png",
+    "width": 536
+  },
+  "uncontrolled-intersection": {
+    "height": 171,
+    "page": 75,
+    "src": "/handbook/kentucky/uncontrolled-intersection.png",
+    "width": 538
+  },
+  "violation-180": {
+    "height": 226,
+    "page": 12,
+    "src": "/handbook/kentucky/violation-180.png",
+    "width": 500
+  },
+  "visibility-25mph": {
+    "height": 281,
+    "page": 56,
+    "src": "/handbook/kentucky/visibility-25mph.png",
+    "width": 539
+  },
+  "vision-2040": {
+    "height": 198,
+    "page": 16,
+    "src": "/handbook/kentucky/vision-2040.png",
+    "width": 604
+  },
+  "vision-2060": {
+    "height": 171,
+    "page": 26,
+    "src": "/handbook/kentucky/vision-2060.png",
+    "width": 539
+  },
+  "warning-signs": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/kentucky/warning-signs.png",
+    "width": 542
+  },
+  "windshield-clutter": {
+    "height": 198,
+    "page": 35,
+    "src": "/handbook/kentucky/windshield-clutter.png",
+    "width": 539
+  },
+  "workzone-double-conditions": {
+    "height": 253,
+    "page": 74,
+    "src": "/handbook/kentucky/workzone-double-conditions.png",
+    "width": 535
+  },
+  "workzone-end": {
+    "height": 144,
+    "page": 74,
+    "src": "/handbook/kentucky/workzone-end.png",
+    "width": 539
+  },
+  "workzone-fines-doubled": {
+    "height": 227,
+    "page": 44,
+    "src": "/handbook/kentucky/workzone-fines-doubled.png",
+    "width": 542
+  },
+  "workzone-flagger": {
+    "height": 282,
+    "page": 43,
+    "src": "/handbook/kentucky/workzone-flagger.png",
+    "width": 541
+  },
+  "workzone-signs": {
+    "height": 171,
+    "page": 43,
+    "src": "/handbook/kentucky/workzone-signs.png",
+    "width": 542
+  },
+  "workzone-slow-always": {
+    "height": 226,
+    "page": 74,
+    "src": "/handbook/kentucky/workzone-slow-always.png",
+    "width": 535
+  },
+  "written-pass-mark": {
+    "height": 171,
+    "page": 17,
+    "src": "/handbook/kentucky/written-pass-mark.png",
+    "width": 536
+  },
+  "written-test-content": {
+    "height": 171,
+    "page": 16,
+    "src": "/handbook/kentucky/written-test-content.png",
+    "width": 604
+  },
+  "wrong-way-sign": {
+    "height": 226,
+    "page": 44,
+    "src": "/handbook/kentucky/wrong-way-sign.png",
+    "width": 540
+  },
+  "yellow-clear": {
+    "height": 254,
+    "page": 41,
+    "src": "/handbook/kentucky/yellow-clear.png",
+    "width": 540
+  },
+  "yellow-light": {
+    "height": 171,
+    "page": 41,
+    "src": "/handbook/kentucky/yellow-light.png",
+    "width": 540
+  },
+  "yield-sign": {
+    "height": 254,
+    "page": 44,
+    "src": "/handbook/kentucky/yield-sign.png",
+    "width": 415
+  },
+  "yield-sign-statute": {
+    "height": 143,
+    "page": 50,
+    "src": "/handbook/kentucky/yield-sign-statute.png",
+    "width": 540
+  },
+  "zero-tolerance-permit": {
+    "height": 199,
+    "page": 12,
+    "src": "/handbook/kentucky/zero-tolerance-permit.png",
+    "width": 487
+  }
+}

@@ -47,7 +47,7 @@ one per wave so the `/ca` side keeps pace. Every bank is built to
 | 1 | Alabama | alabama | **built** (2026-09-06, 350 excerpts, 315 snippets) |
 | 1 | Quebec | quebec | **built** (2026-09-06, 192 excerpts, 135 snippets) |
 | 2 | Louisiana | louisiana | building |
-| 2 | Kentucky | kentucky | building |
+| 2 | Kentucky | kentucky | **built** (2026-09-06, 320 excerpts, 284 snippets) |
 | 2 | Oregon | oregon | building |
 | 2 | Oklahoma | oklahoma | building |
 | 2 | Connecticut | connecticut | building |
