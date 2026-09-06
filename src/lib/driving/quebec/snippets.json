@@ -1,0 +1,812 @@
+{
+  "abs-emergency-braking": {
+    "height": 158,
+    "page": 176,
+    "src": "/handbook/quebec/abs-emergency-braking.png",
+    "width": 638
+  },
+  "access-prohibited": {
+    "height": 134,
+    "page": 142,
+    "src": "/handbook/quebec/access-prohibited.png",
+    "width": 638
+  },
+  "address-30-days": {
+    "height": 158,
+    "page": 41,
+    "src": "/handbook/quebec/address-30-days.png",
+    "width": 638
+  },
+  "advance-level-crossing-sign": {
+    "height": 134,
+    "page": 159,
+    "src": "/handbook/quebec/advance-level-crossing-sign.png",
+    "width": 637
+  },
+  "advance-speed-limit-sign": {
+    "height": 134,
+    "page": 153,
+    "src": "/handbook/quebec/advance-speed-limit-sign.png",
+    "width": 488
+  },
+  "airbag-25-cm": {
+    "height": 158,
+    "page": 219,
+    "src": "/handbook/quebec/airbag-25-cm.png",
+    "width": 633
+  },
+  "alcohol-only-time": {
+    "height": 134,
+    "page": 69,
+    "src": "/handbook/quebec/alcohol-only-time.png",
+    "width": 637
+  },
+  "all-way-stop-pedestrians": {
+    "height": 230,
+    "page": 241,
+    "src": "/handbook/quebec/all-way-stop-pedestrians.png",
+    "width": 341
+  },
+  "be-visible-tunnel-sign": {
+    "height": 158,
+    "page": 171,
+    "src": "/handbook/quebec/be-visible-tunnel-sign.png",
+    "width": 489
+  },
+  "being-passed": {
+    "height": 134,
+    "page": 227,
+    "src": "/handbook/quebec/being-passed.png",
+    "width": 637
+  },
+  "brake-check-sign": {
+    "height": 158,
+    "page": 148,
+    "src": "/handbook/quebec/brake-check-sign.png",
+    "width": 490
+  },
+  "broken-beside-solid": {
+    "height": 230,
+    "page": 221,
+    "src": "/handbook/quebec/broken-beside-solid.png",
+    "width": 341
+  },
+  "bus-priority-lights": {
+    "height": 201,
+    "page": 112,
+    "src": "/handbook/quebec/bus-priority-lights.png",
+    "width": 638
+  },
+  "bus-reentering-lane": {
+    "height": 158,
+    "page": 246,
+    "src": "/handbook/quebec/bus-reentering-lane.png",
+    "width": 638
+  },
+  "centre-left-turn-lane": {
+    "height": 254,
+    "page": 223,
+    "src": "/handbook/quebec/centre-left-turn-lane.png",
+    "width": 341
+  },
+  "circle-yield-inside": {
+    "height": 110,
+    "page": 237,
+    "src": "/handbook/quebec/circle-yield-inside.png",
+    "width": 599
+  },
+  "city-four-seconds": {
+    "height": 110,
+    "page": 124,
+    "src": "/handbook/quebec/city-four-seconds.png",
+    "width": 455
+  },
+  "combined-lines": {
+    "height": 158,
+    "page": 118,
+    "src": "/handbook/quebec/combined-lines.png",
+    "width": 638
+  },
+  "criminal-bac-over-08": {
+    "height": 134,
+    "page": 53,
+    "src": "/handbook/quebec/criminal-bac-over-08.png",
+    "width": 607
+  },
+  "crossing-sign-duty": {
+    "height": 110,
+    "page": 139,
+    "src": "/handbook/quebec/crossing-sign-duty.png",
+    "width": 637
+  },
+  "cyclist-bikeway-optional": {
+    "height": 158,
+    "page": 267,
+    "src": "/handbook/quebec/cyclist-bikeway-optional.png",
+    "width": 638
+  },
+  "cyclist-edge-of-road": {
+    "height": 134,
+    "page": 266,
+    "src": "/handbook/quebec/cyclist-edge-of-road.png",
+    "width": 638
+  },
+  "cyclist-group-no-pass": {
+    "height": 158,
+    "page": 239,
+    "src": "/handbook/quebec/cyclist-group-no-pass.png",
+    "width": 638
+  },
+  "cyclist-lights": {
+    "height": 182,
+    "page": 109,
+    "src": "/handbook/quebec/cyclist-lights.png",
+    "width": 489
+  },
+  "cyclist-no-headphones": {
+    "height": 134,
+    "page": 267,
+    "src": "/handbook/quebec/cyclist-no-headphones.png",
+    "width": 637
+  },
+  "delineators": {
+    "height": 110,
+    "page": 166,
+    "src": "/handbook/quebec/delineators.png",
+    "width": 638
+  },
+  "disabled-parking-permit": {
+    "height": 134,
+    "page": 255,
+    "src": "/handbook/quebec/disabled-parking-permit.png",
+    "width": 617
+  },
+  "divided-roadway-sign": {
+    "height": 134,
+    "page": 154,
+    "src": "/handbook/quebec/divided-roadway-sign.png",
+    "width": 489
+  },
+  "do-not-enter-sign": {
+    "height": 158,
+    "page": 128,
+    "src": "/handbook/quebec/do-not-enter-sign.png",
+    "width": 489
+  },
+  "documents-to-carry": {
+    "height": 164,
+    "page": 40,
+    "src": "/handbook/quebec/documents-to-carry.png",
+    "width": 616
+  },
+  "dooring-fine": {
+    "height": 130,
+    "page": 134,
+    "src": "/handbook/quebec/dooring-fine.png",
+    "width": 631
+  },
+  "emergency-vehicle-yield": {
+    "height": 206,
+    "page": 244,
+    "src": "/handbook/quebec/emergency-vehicle-yield.png",
+    "width": 638
+  },
+  "fine-speeding-example": {
+    "height": 167,
+    "page": 307,
+    "src": "/handbook/quebec/fine-speeding-example.png",
+    "width": 512
+  },
+  "flagperson-ahead-sign": {
+    "height": 206,
+    "page": 176,
+    "src": "/handbook/quebec/flagperson-ahead-sign.png",
+    "width": 489
+  },
+  "flashing-green": {
+    "height": 134,
+    "page": 106,
+    "src": "/handbook/quebec/flashing-green.png",
+    "width": 638
+  },
+  "flashing-red": {
+    "height": 182,
+    "page": 107,
+    "src": "/handbook/quebec/flashing-red.png",
+    "width": 638
+  },
+  "flashing-yellow": {
+    "height": 158,
+    "page": 107,
+    "src": "/handbook/quebec/flashing-yellow.png",
+    "width": 638
+  },
+  "fog-warning-sign": {
+    "height": 134,
+    "page": 170,
+    "src": "/handbook/quebec/fog-warning-sign.png",
+    "width": 489
+  },
+  "green-arrow": {
+    "height": 206,
+    "page": 107,
+    "src": "/handbook/quebec/green-arrow.png",
+    "width": 489
+  },
+  "green-circle-mandatory": {
+    "height": 158,
+    "page": 135,
+    "src": "/handbook/quebec/green-circle-mandatory.png",
+    "width": 638
+  },
+  "green-light": {
+    "height": 158,
+    "page": 106,
+    "src": "/handbook/quebec/green-light.png",
+    "width": 638
+  },
+  "hazard-marker": {
+    "height": 158,
+    "page": 165,
+    "src": "/handbook/quebec/hazard-marker.png",
+    "width": 638
+  },
+  "headrest-7-cm": {
+    "height": 182,
+    "page": 220,
+    "src": "/handbook/quebec/headrest-7-cm.png",
+    "width": 340
+  },
+  "heavy-blind-spots": {
+    "height": 182,
+    "page": 250,
+    "src": "/handbook/quebec/heavy-blind-spots.png",
+    "width": 638
+  },
+  "highway-six-seconds": {
+    "height": 110,
+    "page": 124,
+    "src": "/handbook/quebec/highway-six-seconds.png",
+    "width": 467
+  },
+  "hydroplaning": {
+    "height": 158,
+    "page": 166,
+    "src": "/handbook/quebec/hydroplaning.png",
+    "width": 638
+  },
+  "icy-eight-to-ten-seconds": {
+    "height": 182,
+    "page": 125,
+    "src": "/handbook/quebec/icy-eight-to-ten-seconds.png",
+    "width": 638
+  },
+  "icy-pavement-sign": {
+    "height": 158,
+    "page": 168,
+    "src": "/handbook/quebec/icy-pavement-sign.png",
+    "width": 490
+  },
+  "invalid-three-years": {
+    "height": 158,
+    "page": 42,
+    "src": "/handbook/quebec/invalid-three-years.png",
+    "width": 638
+  },
+  "keep-right": {
+    "height": 230,
+    "page": 222,
+    "src": "/handbook/quebec/keep-right.png",
+    "width": 341
+  },
+  "knowledge-test-10-months": {
+    "height": 158,
+    "page": 20,
+    "src": "/handbook/quebec/knowledge-test-10-months.png",
+    "width": 638
+  },
+  "lane-ending-sign": {
+    "height": 206,
+    "page": 160,
+    "src": "/handbook/quebec/lane-ending-sign.png",
+    "width": 341
+  },
+  "lane-red-x": {
+    "height": 110,
+    "page": 109,
+    "src": "/handbook/quebec/lane-red-x.png",
+    "width": 532
+  },
+  "lane-yellow-arrow": {
+    "height": 158,
+    "page": 110,
+    "src": "/handbook/quebec/lane-yellow-arrow.png",
+    "width": 638
+  },
+  "left-lane-under-80": {
+    "height": 158,
+    "page": 224,
+    "src": "/handbook/quebec/left-lane-under-80.png",
+    "width": 620
+  },
+  "left-turn-yield-oncoming": {
+    "height": 158,
+    "page": 242,
+    "src": "/handbook/quebec/left-turn-yield-oncoming.png",
+    "width": 312
+  },
+  "level-crossing-5-metres": {
+    "height": 159,
+    "page": 247,
+    "src": "/handbook/quebec/level-crossing-5-metres.png",
+    "width": 638
+  },
+  "level-crossing-clear-space": {
+    "height": 135,
+    "page": 247,
+    "src": "/handbook/quebec/level-crossing-clear-space.png",
+    "width": 638
+  },
+  "lights-out-act-as-stop": {
+    "height": 206,
+    "page": 105,
+    "src": "/handbook/quebec/lights-out-act-as-stop.png",
+    "width": 489
+  },
+  "logging-road-speed": {
+    "height": 134,
+    "page": 273,
+    "src": "/handbook/quebec/logging-road-speed.png",
+    "width": 638
+  },
+  "merge-courtesy": {
+    "height": 158,
+    "page": 240,
+    "src": "/handbook/quebec/merge-courtesy.png",
+    "width": 637
+  },
+  "merging-traffic-sign": {
+    "height": 207,
+    "page": 156,
+    "src": "/handbook/quebec/merging-traffic-sign.png",
+    "width": 181
+  },
+  "narrow-passage-sign": {
+    "height": 135,
+    "page": 158,
+    "src": "/handbook/quebec/narrow-passage-sign.png",
+    "width": 489
+  },
+  "new-resident-six-months": {
+    "height": 158,
+    "page": 43,
+    "src": "/handbook/quebec/new-resident-six-months.png",
+    "width": 638
+  },
+  "no-alcohol-in-vehicle": {
+    "height": 134,
+    "page": 258,
+    "src": "/handbook/quebec/no-alcohol-in-vehicle.png",
+    "width": 638
+  },
+  "no-liability-insurance": {
+    "height": 182,
+    "page": 40,
+    "src": "/handbook/quebec/no-liability-insurance.png",
+    "width": 638
+  },
+  "no-passing-on-shoulder": {
+    "height": 134,
+    "page": 229,
+    "src": "/handbook/quebec/no-passing-on-shoulder.png",
+    "width": 638
+  },
+  "no-passing-sign": {
+    "height": 110,
+    "page": 137,
+    "src": "/handbook/quebec/no-passing-sign.png",
+    "width": 334
+  },
+  "no-reverse-on-highway": {
+    "height": 134,
+    "page": 248,
+    "src": "/handbook/quebec/no-reverse-on-highway.png",
+    "width": 638
+  },
+  "no-rtor-sign": {
+    "height": 158,
+    "page": 136,
+    "src": "/handbook/quebec/no-rtor-sign.png",
+    "width": 494
+  },
+  "no-stopping-in-intersection": {
+    "height": 158,
+    "page": 224,
+    "src": "/handbook/quebec/no-stopping-in-intersection.png",
+    "width": 638
+  },
+  "no-stopping-sign": {
+    "height": 134,
+    "page": 139,
+    "src": "/handbook/quebec/no-stopping-sign.png",
+    "width": 341
+  },
+  "not-enough-room-to-pass-cyclist": {
+    "height": 158,
+    "page": 227,
+    "src": "/handbook/quebec/not-enough-room-to-pass-cyclist.png",
+    "width": 638
+  },
+  "one-earphone": {
+    "height": 110,
+    "page": 259,
+    "src": "/handbook/quebec/one-earphone.png",
+    "width": 638
+  },
+  "one-way-sign": {
+    "height": 110,
+    "page": 130,
+    "src": "/handbook/quebec/one-way-sign.png",
+    "width": 473
+  },
+  "orange-hand": {
+    "height": 158,
+    "page": 108,
+    "src": "/handbook/quebec/orange-hand.png",
+    "width": 489
+  },
+  "orange-speed-sign": {
+    "height": 206,
+    "page": 173,
+    "src": "/handbook/quebec/orange-speed-sign.png",
+    "width": 489
+  },
+  "park-30-cm": {
+    "height": 134,
+    "page": 253,
+    "src": "/handbook/quebec/park-30-cm.png",
+    "width": 637
+  },
+  "park-on-slope": {
+    "height": 134,
+    "page": 253,
+    "src": "/handbook/quebec/park-on-slope.png",
+    "width": 618
+  },
+  "parking-blocking": {
+    "height": 158,
+    "page": 254,
+    "src": "/handbook/quebec/parking-blocking.png",
+    "width": 638
+  },
+  "parking-forward-exit": {
+    "height": 134,
+    "page": 176,
+    "src": "/handbook/quebec/parking-forward-exit.png",
+    "width": 638
+  },
+  "pass-cyclist-distance": {
+    "height": 176,
+    "page": 134,
+    "src": "/handbook/quebec/pass-cyclist-distance.png",
+    "width": 615
+  },
+  "pass-in-fog": {
+    "height": 134,
+    "page": 227,
+    "src": "/handbook/quebec/pass-in-fog.png",
+    "width": 638
+  },
+  "passengers-vs-belts": {
+    "height": 134,
+    "page": 258,
+    "src": "/handbook/quebec/passengers-vs-belts.png",
+    "width": 638
+  },
+  "passing-prohibited-signalled": {
+    "height": 158,
+    "page": 229,
+    "src": "/handbook/quebec/passing-prohibited-signalled.png",
+    "width": 638
+  },
+  "pedestrian-silhouette": {
+    "height": 134,
+    "page": 108,
+    "src": "/handbook/quebec/pedestrian-silhouette.png",
+    "width": 489
+  },
+  "police-hands-visible": {
+    "height": 110,
+    "page": 244,
+    "src": "/handbook/quebec/police-hands-visible.png",
+    "width": 584
+  },
+  "power-assisted-bicycle": {
+    "height": 182,
+    "page": 268,
+    "src": "/handbook/quebec/power-assisted-bicycle.png",
+    "width": 638
+  },
+  "prepare-to-stop-sign": {
+    "height": 158,
+    "page": 153,
+    "src": "/handbook/quebec/prepare-to-stop-sign.png",
+    "width": 489
+  },
+  "private-property-yield": {
+    "height": 158,
+    "page": 243,
+    "src": "/handbook/quebec/private-property-yield.png",
+    "width": 638
+  },
+  "public-insurance-plan": {
+    "height": 158,
+    "page": 289,
+    "src": "/handbook/quebec/public-insurance-plan.png",
+    "width": 637
+  },
+  "radar-detector-sign": {
+    "height": 134,
+    "page": 140,
+    "src": "/handbook/quebec/radar-detector-sign.png",
+    "width": 488
+  },
+  "recommended-speed-tab": {
+    "height": 135,
+    "page": 156,
+    "src": "/handbook/quebec/recommended-speed-tab.png",
+    "width": 489
+  },
+  "red-arrow": {
+    "height": 134,
+    "page": 106,
+    "src": "/handbook/quebec/red-arrow.png",
+    "width": 489
+  },
+  "red-light": {
+    "height": 158,
+    "page": 105,
+    "src": "/handbook/quebec/red-light.png",
+    "width": 638
+  },
+  "red-light-no-line": {
+    "height": 158,
+    "page": 105,
+    "src": "/handbook/quebec/red-light-no-line.png",
+    "width": 638
+  },
+  "reflective-signs-at-night": {
+    "height": 158,
+    "page": 63,
+    "src": "/handbook/quebec/reflective-signs-at-night.png",
+    "width": 638
+  },
+  "regulated-parking-lights": {
+    "height": 182,
+    "page": 110,
+    "src": "/handbook/quebec/regulated-parking-lights.png",
+    "width": 493
+  },
+  "reserved-lane-diamond": {
+    "height": 110,
+    "page": 122,
+    "src": "/handbook/quebec/reserved-lane-diamond.png",
+    "width": 489
+  },
+  "reserved-lane-shared-use": {
+    "height": 110,
+    "page": 119,
+    "src": "/handbook/quebec/reserved-lane-shared-use.png",
+    "width": 637
+  },
+  "restricted-visibility-sign": {
+    "height": 135,
+    "page": 159,
+    "src": "/handbook/quebec/restricted-visibility-sign.png",
+    "width": 340
+  },
+  "right-turn-method": {
+    "height": 231,
+    "page": 231,
+    "src": "/handbook/quebec/right-turn-method.png",
+    "width": 315
+  },
+  "roadway-narrows-sign": {
+    "height": 158,
+    "page": 160,
+    "src": "/handbook/quebec/roadway-narrows-sign.png",
+    "width": 638
+  },
+  "school-bus-5-metres": {
+    "height": 182,
+    "page": 246,
+    "src": "/handbook/quebec/school-bus-5-metres.png",
+    "width": 638
+  },
+  "school-bus-median": {
+    "height": 134,
+    "page": 247,
+    "src": "/handbook/quebec/school-bus-median.png",
+    "width": 638
+  },
+  "school-bus-stop-ahead-sign": {
+    "height": 182,
+    "page": 162,
+    "src": "/handbook/quebec/school-bus-stop-ahead-sign.png",
+    "width": 491
+  },
+  "school-zone-sign": {
+    "height": 230,
+    "page": 163,
+    "src": "/handbook/quebec/school-zone-sign.png",
+    "width": 638
+  },
+  "seat-belt-mandatory": {
+    "height": 206,
+    "page": 217,
+    "src": "/handbook/quebec/seat-belt-mandatory.png",
+    "width": 638
+  },
+  "seat-belt-sign": {
+    "height": 110,
+    "page": 140,
+    "src": "/handbook/quebec/seat-belt-sign.png",
+    "width": 346
+  },
+  "seat-belt-under-16": {
+    "height": 134,
+    "page": 217,
+    "src": "/handbook/quebec/seat-belt-under-16.png",
+    "width": 638
+  },
+  "shared-street": {
+    "height": 134,
+    "page": 248,
+    "src": "/handbook/quebec/shared-street.png",
+    "width": 637
+  },
+  "shoulder-driving-prohibited": {
+    "height": 158,
+    "page": 257,
+    "src": "/handbook/quebec/shoulder-driving-prohibited.png",
+    "width": 638
+  },
+  "sign-colours": {
+    "height": 182,
+    "page": 123,
+    "src": "/handbook/quebec/sign-colours.png",
+    "width": 409
+  },
+  "signal-arrow-vehicle": {
+    "height": 158,
+    "page": 111,
+    "src": "/handbook/quebec/signal-arrow-vehicle.png",
+    "width": 489
+  },
+  "signal-intentions": {
+    "height": 206,
+    "page": 238,
+    "src": "/handbook/quebec/signal-intentions.png",
+    "width": 638
+  },
+  "slippery-surface-sign": {
+    "height": 134,
+    "page": 167,
+    "src": "/handbook/quebec/slippery-surface-sign.png",
+    "width": 489
+  },
+  "slow-lane-solid-line": {
+    "height": 158,
+    "page": 230,
+    "src": "/handbook/quebec/slow-lane-solid-line.png",
+    "width": 638
+  },
+  "solid-double-lines": {
+    "height": 134,
+    "page": 118,
+    "src": "/handbook/quebec/solid-double-lines.png",
+    "width": 638
+  },
+  "solid-line-exceptions": {
+    "height": 158,
+    "page": 222,
+    "src": "/handbook/quebec/solid-line-exceptions.png",
+    "width": 638
+  },
+  "speed-limit-sign": {
+    "height": 176,
+    "page": 130,
+    "src": "/handbook/quebec/speed-limit-sign.png",
+    "width": 341
+  },
+  "steep-grade-sign": {
+    "height": 158,
+    "page": 161,
+    "src": "/handbook/quebec/steep-grade-sign.png",
+    "width": 638
+  },
+  "stop-sign": {
+    "height": 134,
+    "page": 128,
+    "src": "/handbook/quebec/stop-sign.png",
+    "width": 340
+  },
+  "stop-sign-yield": {
+    "height": 254,
+    "page": 241,
+    "src": "/handbook/quebec/stop-sign-yield.png",
+    "width": 341
+  },
+  "tailgater-strategy": {
+    "height": 158,
+    "page": 126,
+    "src": "/handbook/quebec/tailgater-strategy.png",
+    "width": 638
+  },
+  "tow-away-tab": {
+    "height": 134,
+    "page": 138,
+    "src": "/handbook/quebec/tow-away-tab.png",
+    "width": 489
+  },
+  "traction-reducers": {
+    "height": 134,
+    "page": 78,
+    "src": "/handbook/quebec/traction-reducers.png",
+    "width": 638
+  },
+  "traffic-circle-def": {
+    "height": 206,
+    "page": 237,
+    "src": "/handbook/quebec/traffic-circle-def.png",
+    "width": 341
+  },
+  "truck-mirrors-too-close": {
+    "height": 182,
+    "page": 249,
+    "src": "/handbook/quebec/truck-mirrors-too-close.png",
+    "width": 638
+  },
+  "turn-as-soon-as-clear": {
+    "height": 158,
+    "page": 231,
+    "src": "/handbook/quebec/turn-as-soon-as-clear.png",
+    "width": 638
+  },
+  "vision-90-percent": {
+    "height": 134,
+    "page": 61,
+    "src": "/handbook/quebec/vision-90-percent.png",
+    "width": 638
+  },
+  "visual-field-shrinks": {
+    "height": 158,
+    "page": 62,
+    "src": "/handbook/quebec/visual-field-shrinks.png",
+    "width": 638
+  },
+  "warning-signs": {
+    "height": 158,
+    "page": 123,
+    "src": "/handbook/quebec/warning-signs.png",
+    "width": 638
+  },
+  "worksite-merge-early": {
+    "height": 207,
+    "page": 252,
+    "src": "/handbook/quebec/worksite-merge-early.png",
+    "width": 624
+  },
+  "yellow-light": {
+    "height": 134,
+    "page": 106,
+    "src": "/handbook/quebec/yellow-light.png",
+    "width": 638
+  },
+  "yield-sign": {
+    "height": 134,
+    "page": 129,
+    "src": "/handbook/quebec/yield-sign.png",
+    "width": 491
+  }
+}

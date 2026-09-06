@@ -355,6 +355,10 @@ for (const j of jurisdictions) {
         err(
           `${receiptPath} is STALE - it verified different quote text than excerpts.ts now holds. Re-run verify-excerpts.py`
         );
+      } else if (receipt.nonOfficial) {
+        err(
+          `${receiptPath}: ${receipt.nonOfficial} quote(s) were found ONLY in a non-official file (a forum or prep-site capture). A comment quoting the handbook is not the handbook - re-verify against the official source`
+        );
       } else if (receipt.verified !== receipt.total) {
         err(
           `${receiptPath}: only ${receipt.verified}/${receipt.total} quotes verified verbatim against the official source`

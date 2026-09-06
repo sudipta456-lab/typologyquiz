@@ -29,6 +29,18 @@ from datetime import datetime
 from pathlib import Path
 
 
+# Files whose name marks them as NOT an official source. A quote that can only
+# be found in one of these is unproven: a forum comment quoting a handbook is
+# not the handbook, and a prep site paraphrasing one is worse. Verification is
+# still reported, but flagged, and the validator refuses it.
+NON_OFFICIAL_HINTS = ("reddit", "quizlet", "blog", "forum", "practice", "prep", "quora", "citydata")
+
+
+def is_non_official(name: str) -> bool:
+    lowered = name.lower()
+    return any(h in lowered for h in NON_OFFICIAL_HINTS)
+
+
 def normalise(s: str) -> str:
     """Same folding the excerpt files apply to extracted text, and no more."""
     s = s.replace("­", "")  # soft hyphen
@@ -80,16 +92,28 @@ def main() -> None:
 
     results = {}
     hits = 0
+    non_official = 0
     for item in quotes:
         q = normalise(item["quote"])
+        # Search official sources FIRST, so a quote that exists in both an
+        # official source and a scratch capture is credited to the official
+        # one. Order of the argv list must not decide provenance.
         found_in = None
-        for name, text in texts.items():
+        for name, text in sorted(texts.items(), key=lambda kv: is_non_official(kv[0])):
             if q in text:
                 found_in = name
                 break
         if found_in:
             hits += 1
-            results[item["key"]] = {"ok": True, "source": found_in}
+            entry = {"ok": True, "source": found_in}
+            if is_non_official(found_in):
+                # Matched ONLY in a file that is not an official source. The
+                # quote may be genuine, but this run did not prove it: a
+                # forum comment quoting the handbook is not the handbook.
+                entry["nonOfficialSource"] = True
+                non_official += 1
+                print(f"  NON-OFFICIAL {item['key']}: only found in {found_in}")
+            results[item["key"]] = entry
             continue
         # Diagnostic: does the opening clause exist anywhere? If yes, the tail
         # was altered; if no, the whole quote is suspect.
@@ -126,6 +150,7 @@ def main() -> None:
                 "verifiedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
                 "sources": [p.name for p in sources],
                 "verified": hits,
+                "nonOfficial": non_official,
                 "total": len(quotes),
                 "results": results,
             },
@@ -136,6 +161,8 @@ def main() -> None:
     )
     total = len(quotes)
     print(f"{slug}: {hits}/{total} quotes verified verbatim against {len(sources)} source(s)")
+    if non_official:
+        print(f"WARNING: {non_official} quote(s) were found ONLY in a non-official file. Re-verify them against the official source.")
     sys.exit(0 if hits == total else 1)
 
 
