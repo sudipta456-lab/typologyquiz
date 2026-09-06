@@ -21,6 +21,8 @@ export interface DrivingModule {
   officialHosts?: string[];
 }
 
+import * as alabama from "./alabama";
+import * as colorado from "./colorado";
 import * as minnesota from "./minnesota";
 
-export const MODULES: DrivingModule[] = [minnesota];
+export const MODULES: DrivingModule[] = [alabama, colorado, minnesota];

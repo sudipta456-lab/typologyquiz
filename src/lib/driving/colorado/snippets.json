@@ -1,0 +1,1382 @@
+{
+  "abs-hard-pressure": {
+    "height": 163,
+    "page": 28,
+    "src": "/handbook/colorado/abs-hard-pressure.png",
+    "width": 563
+  },
+  "accident-alert-24-hours": {
+    "height": 211,
+    "page": 29,
+    "src": "/handbook/colorado/accident-alert-24-hours.png",
+    "width": 590
+  },
+  "address-change-30-days": {
+    "height": 188,
+    "page": 4,
+    "src": "/handbook/colorado/address-change-30-days.png",
+    "width": 590
+  },
+  "advisory-speed-signs": {
+    "height": 164,
+    "page": 11,
+    "src": "/handbook/colorado/advisory-speed-signs.png",
+    "width": 590
+  },
+  "affidavit-liability": {
+    "height": 236,
+    "page": 5,
+    "src": "/handbook/colorado/affidavit-liability.png",
+    "width": 590
+  },
+  "affidavit-withdraw": {
+    "height": 188,
+    "page": 5,
+    "src": "/handbook/colorado/affidavit-withdraw.png",
+    "width": 590
+  },
+  "aggressive-driver-avoid": {
+    "height": 188,
+    "page": 28,
+    "src": "/handbook/colorado/aggressive-driver-avoid.png",
+    "width": 590
+  },
+  "always-avoid-crash": {
+    "height": 140,
+    "page": 14,
+    "src": "/handbook/colorado/always-avoid-crash.png",
+    "width": 590
+  },
+  "animals-dusk-dawn": {
+    "height": 188,
+    "page": 29,
+    "src": "/handbook/colorado/animals-dusk-dawn.png",
+    "width": 590
+  },
+  "animals-hit-rather-than-swerve": {
+    "height": 188,
+    "page": 29,
+    "src": "/handbook/colorado/animals-hit-rather-than-swerve.png",
+    "width": 590
+  },
+  "bac-revocation-levels": {
+    "height": 212,
+    "page": 6,
+    "src": "/handbook/colorado/bac-revocation-levels.png",
+    "width": 590
+  },
+  "backing-check-behind": {
+    "height": 163,
+    "page": 10,
+    "src": "/handbook/colorado/backing-check-behind.png",
+    "width": 574
+  },
+  "backing-look-over-shoulder": {
+    "height": 187,
+    "page": 10,
+    "src": "/handbook/colorado/backing-look-over-shoulder.png",
+    "width": 564
+  },
+  "bike-3-feet-double-yellow": {
+    "height": 212,
+    "page": 25,
+    "src": "/handbook/colorado/bike-3-feet-double-yellow.png",
+    "width": 574
+  },
+  "bike-center-of-lane": {
+    "height": 188,
+    "page": 25,
+    "src": "/handbook/colorado/bike-center-of-lane.png",
+    "width": 574
+  },
+  "bike-hand-signals": {
+    "height": 164,
+    "page": 26,
+    "src": "/handbook/colorado/bike-hand-signals.png",
+    "width": 563
+  },
+  "bike-lane-no-driving": {
+    "height": 188,
+    "page": 13,
+    "src": "/handbook/colorado/bike-lane-no-driving.png",
+    "width": 590
+  },
+  "bike-one-way-either-side": {
+    "height": 140,
+    "page": 26,
+    "src": "/handbook/colorado/bike-one-way-either-side.png",
+    "width": 562
+  },
+  "bike-side-by-side": {
+    "height": 140,
+    "page": 25,
+    "src": "/handbook/colorado/bike-side-by-side.png",
+    "width": 574
+  },
+  "bike-sidewalk-pedestrian": {
+    "height": 164,
+    "page": 14,
+    "src": "/handbook/colorado/bike-sidewalk-pedestrian.png",
+    "width": 452
+  },
+  "bike-stop-as-yield": {
+    "height": 212,
+    "page": 26,
+    "src": "/handbook/colorado/bike-stop-as-yield.png",
+    "width": 560
+  },
+  "bike-stop-signal": {
+    "height": 140,
+    "page": 26,
+    "src": "/handbook/colorado/bike-stop-signal.png",
+    "width": 563
+  },
+  "bikes-are-vehicles": {
+    "height": 188,
+    "page": 25,
+    "src": "/handbook/colorado/bikes-are-vehicles.png",
+    "width": 590
+  },
+  "blind-spot": {
+    "height": 163,
+    "page": 18,
+    "src": "/handbook/colorado/blind-spot.png",
+    "width": 543
+  },
+  "brake-failure": {
+    "height": 188,
+    "page": 29,
+    "src": "/handbook/colorado/brake-failure.png",
+    "width": 590
+  },
+  "btw-6-hours": {
+    "height": 188,
+    "page": 5,
+    "src": "/handbook/colorado/btw-6-hours.png",
+    "width": 590
+  },
+  "btw-exemption-12-hours": {
+    "height": 116,
+    "page": 5,
+    "src": "/handbook/colorado/btw-exemption-12-hours.png",
+    "width": 590
+  },
+  "bus-row-leaving-stop": {
+    "height": 139,
+    "page": 23,
+    "src": "/handbook/colorado/bus-row-leaving-stop.png",
+    "width": 573
+  },
+  "cell-phone-hands-free": {
+    "height": 188,
+    "page": 21,
+    "src": "/handbook/colorado/cell-phone-hands-free.png",
+    "width": 590
+  },
+  "center-turn-lane": {
+    "height": 188,
+    "page": 13,
+    "src": "/handbook/colorado/center-turn-lane.png",
+    "width": 590
+  },
+  "center-turn-lane-only": {
+    "height": 164,
+    "page": 13,
+    "src": "/handbook/colorado/center-turn-lane-only.png",
+    "width": 590
+  },
+  "child-2-to-4": {
+    "height": 211,
+    "page": 6,
+    "src": "/handbook/colorado/child-2-to-4.png",
+    "width": 574
+  },
+  "child-4-to-9-booster": {
+    "height": 211,
+    "page": 6,
+    "src": "/handbook/colorado/child-4-to-9-booster.png",
+    "width": 574
+  },
+  "child-9-to-18": {
+    "height": 163,
+    "page": 6,
+    "src": "/handbook/colorado/child-9-to-18.png",
+    "width": 562
+  },
+  "child-driver-responsibility": {
+    "height": 163,
+    "page": 6,
+    "src": "/handbook/colorado/child-driver-responsibility.png",
+    "width": 590
+  },
+  "child-under-2-rear-facing": {
+    "height": 187,
+    "page": 6,
+    "src": "/handbook/colorado/child-under-2-rear-facing.png",
+    "width": 552
+  },
+  "collision-three-options": {
+    "height": 116,
+    "page": 28,
+    "src": "/handbook/colorado/collision-three-options.png",
+    "width": 471
+  },
+  "corrective-lens": {
+    "height": 164,
+    "page": 8,
+    "src": "/handbook/colorado/corrective-lens.png",
+    "width": 590
+  },
+  "crash-proof-of-insurance": {
+    "height": 188,
+    "page": 29,
+    "src": "/handbook/colorado/crash-proof-of-insurance.png",
+    "width": 590
+  },
+  "crash-steps": {
+    "height": 115,
+    "page": 21,
+    "src": "/handbook/colorado/crash-steps.png",
+    "width": 590
+  },
+  "cross-solid-yellow-driveway": {
+    "height": 187,
+    "page": 12,
+    "src": "/handbook/colorado/cross-solid-yellow-driveway.png",
+    "width": 571
+  },
+  "crossbuck-yield": {
+    "height": 188,
+    "page": 24,
+    "src": "/handbook/colorado/crossbuck-yield.png",
+    "width": 590
+  },
+  "crosswalk-stopped-vehicle": {
+    "height": 187,
+    "page": 12,
+    "src": "/handbook/colorado/crosswalk-stopped-vehicle.png",
+    "width": 574
+  },
+  "csp-277": {
+    "height": 140,
+    "page": 28,
+    "src": "/handbook/colorado/csp-277.png",
+    "width": 590
+  },
+  "curfew-exceptions": {
+    "height": 188,
+    "page": 5,
+    "src": "/handbook/colorado/curfew-exceptions.png",
+    "width": 590
+  },
+  "curfew-midnight-5": {
+    "height": 188,
+    "page": 5,
+    "src": "/handbook/colorado/curfew-midnight-5.png",
+    "width": 590
+  },
+  "curve-slow-before": {
+    "height": 187,
+    "page": 19,
+    "src": "/handbook/colorado/curve-slow-before.png",
+    "width": 590
+  },
+  "dim-500-feet": {
+    "height": 187,
+    "page": 19,
+    "src": "/handbook/colorado/dim-500-feet.png",
+    "width": 574
+  },
+  "dim-following-200-feet": {
+    "height": 163,
+    "page": 19,
+    "src": "/handbook/colorado/dim-following-200-feet.png",
+    "width": 574
+  },
+  "disabled-parking-crosshatch": {
+    "height": 188,
+    "page": 12,
+    "src": "/handbook/colorado/disabled-parking-crosshatch.png",
+    "width": 590
+  },
+  "disabled-parking-fine": {
+    "height": 212,
+    "page": 12,
+    "src": "/handbook/colorado/disabled-parking-fine.png",
+    "width": 590
+  },
+  "distractions-leading-cause": {
+    "height": 164,
+    "page": 9,
+    "src": "/handbook/colorado/distractions-leading-cause.png",
+    "width": 590
+  },
+  "do-not-enter": {
+    "height": 164,
+    "page": 11,
+    "src": "/handbook/colorado/do-not-enter.png",
+    "width": 590
+  },
+  "drive-right-half": {
+    "height": 139,
+    "page": 12,
+    "src": "/handbook/colorado/drive-right-half.png",
+    "width": 590
+  },
+  "drive-test-following-wheels": {
+    "height": 140,
+    "page": 5,
+    "src": "/handbook/colorado/drive-test-following-wheels.png",
+    "width": 590
+  },
+  "drive-test-retake": {
+    "height": 164,
+    "page": 4,
+    "src": "/handbook/colorado/drive-test-retake.png",
+    "width": 590
+  },
+  "drugs-same-penalties": {
+    "height": 139,
+    "page": 7,
+    "src": "/handbook/colorado/drugs-same-penalties.png",
+    "width": 590
+  },
+  "dui-first-penalty": {
+    "height": 140,
+    "page": 7,
+    "src": "/handbook/colorado/dui-first-penalty.png",
+    "width": 1114
+  },
+  "dui-per-se-08": {
+    "height": 140,
+    "page": 6,
+    "src": "/handbook/colorado/dui-per-se-08.png",
+    "width": 590
+  },
+  "dutch-reach": {
+    "height": 164,
+    "page": 26,
+    "src": "/handbook/colorado/dutch-reach.png",
+    "width": 565
+  },
+  "dwai-first-penalty": {
+    "height": 140,
+    "page": 7,
+    "src": "/handbook/colorado/dwai-first-penalty.png",
+    "width": 1114
+  },
+  "dwai-vs-dui": {
+    "height": 164,
+    "page": 6,
+    "src": "/handbook/colorado/dwai-vs-dui.png",
+    "width": 590
+  },
+  "earphones": {
+    "height": 188,
+    "page": 8,
+    "src": "/handbook/colorado/earphones.png",
+    "width": 590
+  },
+  "emergency-stopped-slow-down": {
+    "height": 164,
+    "page": 14,
+    "src": "/handbook/colorado/emergency-stopped-slow-down.png",
+    "width": 590
+  },
+  "emergency-vehicle-pull-right": {
+    "height": 188,
+    "page": 14,
+    "src": "/handbook/colorado/emergency-vehicle-pull-right.png",
+    "width": 590
+  },
+  "ens-blue-sign": {
+    "height": 164,
+    "page": 11,
+    "src": "/handbook/colorado/ens-blue-sign.png",
+    "width": 590
+  },
+  "exhaust-fumes": {
+    "height": 188,
+    "page": 9,
+    "src": "/handbook/colorado/exhaust-fumes.png",
+    "width": 566
+  },
+  "exit-signal-200-feet": {
+    "height": 212,
+    "page": 18,
+    "src": "/handbook/colorado/exit-signal-200-feet.png",
+    "width": 590
+  },
+  "express-consent": {
+    "height": 212,
+    "page": 8,
+    "src": "/handbook/colorado/express-consent.png",
+    "width": 590
+  },
+  "fatigue-two-hours": {
+    "height": 140,
+    "page": 8,
+    "src": "/handbook/colorado/fatigue-two-hours.png",
+    "width": 590
+  },
+  "flashing-red": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/colorado/flashing-red.png",
+    "width": 519
+  },
+  "flashing-yellow": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/colorado/flashing-yellow.png",
+    "width": 450
+  },
+  "flashing-yellow-arrow": {
+    "height": 188,
+    "page": 10,
+    "src": "/handbook/colorado/flashing-yellow-arrow.png",
+    "width": 590
+  },
+  "flooded-road": {
+    "height": 163,
+    "page": 19,
+    "src": "/handbook/colorado/flooded-road.png",
+    "width": 563
+  },
+  "fog-low-beams": {
+    "height": 188,
+    "page": 19,
+    "src": "/handbook/colorado/fog-low-beams.png",
+    "width": 566
+  },
+  "four-way-stop": {
+    "height": 188,
+    "page": 14,
+    "src": "/handbook/colorado/four-way-stop.png",
+    "width": 590
+  },
+  "four-wheel-drive-stopping": {
+    "height": 139,
+    "page": 20,
+    "src": "/handbook/colorado/four-wheel-drive-stopping.png",
+    "width": 590
+  },
+  "freeway-median": {
+    "height": 115,
+    "page": 17,
+    "src": "/handbook/colorado/freeway-median.png",
+    "width": 562
+  },
+  "freeway-merge-solid-line": {
+    "height": 188,
+    "page": 17,
+    "src": "/handbook/colorado/freeway-merge-solid-line.png",
+    "width": 590
+  },
+  "freeway-right-lane-slower": {
+    "height": 139,
+    "page": 17,
+    "src": "/handbook/colorado/freeway-right-lane-slower.png",
+    "width": 556
+  },
+  "gates-down-road-closed": {
+    "height": 164,
+    "page": 24,
+    "src": "/handbook/colorado/gates-down-road-closed.png",
+    "width": 590
+  },
+  "glare-edge-lines": {
+    "height": 116,
+    "page": 19,
+    "src": "/handbook/colorado/glare-edge-lines.png",
+    "width": 532
+  },
+  "good-samaritan": {
+    "height": 115,
+    "page": 30,
+    "src": "/handbook/colorado/good-samaritan.png",
+    "width": 558
+  },
+  "green-arrow": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/colorado/green-arrow.png",
+    "width": 521
+  },
+  "green-arrow-off": {
+    "height": 188,
+    "page": 10,
+    "src": "/handbook/colorado/green-arrow-off.png",
+    "width": 521
+  },
+  "green-paint": {
+    "height": 139,
+    "page": 12,
+    "src": "/handbook/colorado/green-paint.png",
+    "width": 567
+  },
+  "guide-signs": {
+    "height": 164,
+    "page": 11,
+    "src": "/handbook/colorado/guide-signs.png",
+    "width": 590
+  },
+  "hand-position": {
+    "height": 188,
+    "page": 9,
+    "src": "/handbook/colorado/hand-position.png",
+    "width": 590
+  },
+  "hand-signal-end": {
+    "height": 212,
+    "page": 15,
+    "src": "/handbook/colorado/hand-signal-end.png",
+    "width": 590
+  },
+  "hawk-signal": {
+    "height": 188,
+    "page": 10,
+    "src": "/handbook/colorado/hawk-signal.png",
+    "width": 540
+  },
+  "hazmat-trucks-stop": {
+    "height": 188,
+    "page": 24,
+    "src": "/handbook/colorado/hazmat-trucks-stop.png",
+    "width": 590
+  },
+  "head-rests": {
+    "height": 140,
+    "page": 9,
+    "src": "/handbook/colorado/head-rests.png",
+    "width": 552
+  },
+  "headlight-failure": {
+    "height": 188,
+    "page": 29,
+    "src": "/handbook/colorado/headlight-failure.png",
+    "width": 590
+  },
+  "headlights-1000-feet": {
+    "height": 163,
+    "page": 19,
+    "src": "/handbook/colorado/headlights-1000-feet.png",
+    "width": 590
+  },
+  "horn-near-bicyclists": {
+    "height": 164,
+    "page": 26,
+    "src": "/handbook/colorado/horn-near-bicyclists.png",
+    "width": 564
+  },
+  "hov-diamond": {
+    "height": 164,
+    "page": 13,
+    "src": "/handbook/colorado/hov-diamond.png",
+    "width": 476
+  },
+  "hydroplaning-response": {
+    "height": 115,
+    "page": 19,
+    "src": "/handbook/colorado/hydroplaning-response.png",
+    "width": 558
+  },
+  "ice-most-hazardous-melting": {
+    "height": 139,
+    "page": 19,
+    "src": "/handbook/colorado/ice-most-hazardous-melting.png",
+    "width": 590
+  },
+  "icy-spots-skid": {
+    "height": 212,
+    "page": 20,
+    "src": "/handbook/colorado/icy-spots-skid.png",
+    "width": 590
+  },
+  "illegal-passing-list": {
+    "height": 116,
+    "page": 19,
+    "src": "/handbook/colorado/illegal-passing-list.png",
+    "width": 584
+  },
+  "interlock-how": {
+    "height": 164,
+    "page": 8,
+    "src": "/handbook/colorado/interlock-how.png",
+    "width": 590
+  },
+  "jammed-gas-pedal": {
+    "height": 164,
+    "page": 29,
+    "src": "/handbook/colorado/jammed-gas-pedal.png",
+    "width": 590
+  },
+  "lane-change-signal-3s-200ft": {
+    "height": 139,
+    "page": 18,
+    "src": "/handbook/colorado/lane-change-signal-3s-200ft.png",
+    "width": 565
+  },
+  "lane-change-yield": {
+    "height": 140,
+    "page": 14,
+    "src": "/handbook/colorado/lane-change-yield.png",
+    "width": 590
+  },
+  "lane-filtering-15-mph": {
+    "height": 236,
+    "page": 22,
+    "src": "/handbook/colorado/lane-filtering-15-mph.png",
+    "width": 590
+  },
+  "left-turn-wheels-straight": {
+    "height": 164,
+    "page": 16,
+    "src": "/handbook/colorado/left-turn-wheels-straight.png",
+    "width": 590
+  },
+  "left-turn-yield-oncoming": {
+    "height": 164,
+    "page": 14,
+    "src": "/handbook/colorado/left-turn-yield-oncoming.png",
+    "width": 590
+  },
+  "license-age-16": {
+    "height": 188,
+    "page": 4,
+    "src": "/handbook/colorado/license-age-16.png",
+    "width": 590
+  },
+  "light-rail-gates": {
+    "height": 164,
+    "page": 25,
+    "src": "/handbook/colorado/light-rail-gates.png",
+    "width": 572
+  },
+  "light-rail-never-turn-in-front": {
+    "height": 140,
+    "page": 24,
+    "src": "/handbook/colorado/light-rail-never-turn-in-front.png",
+    "width": 590
+  },
+  "look-ahead-10-seconds": {
+    "height": 140,
+    "page": 21,
+    "src": "/handbook/colorado/look-ahead-10-seconds.png",
+    "width": 590
+  },
+  "look-behind-5-8-seconds": {
+    "height": 140,
+    "page": 21,
+    "src": "/handbook/colorado/look-behind-5-8-seconds.png",
+    "width": 590
+  },
+  "lose-license-insurance": {
+    "height": 188,
+    "page": 6,
+    "src": "/handbook/colorado/lose-license-insurance.png",
+    "width": 565
+  },
+  "maintenance-vehicles": {
+    "height": 163,
+    "page": 14,
+    "src": "/handbook/colorado/maintenance-vehicles.png",
+    "width": 590
+  },
+  "medical-marijuana-no-defense": {
+    "height": 163,
+    "page": 7,
+    "src": "/handbook/colorado/medical-marijuana-no-defense.png",
+    "width": 590
+  },
+  "medication-labels": {
+    "height": 187,
+    "page": 7,
+    "src": "/handbook/colorado/medication-labels.png",
+    "width": 590
+  },
+  "metered-ramp": {
+    "height": 164,
+    "page": 17,
+    "src": "/handbook/colorado/metered-ramp.png",
+    "width": 590
+  },
+  "minimum-speed": {
+    "height": 164,
+    "page": 15,
+    "src": "/handbook/colorado/minimum-speed.png",
+    "width": 590
+  },
+  "minor-driver-passengers-belts": {
+    "height": 211,
+    "page": 6,
+    "src": "/handbook/colorado/minor-driver-passengers-belts.png",
+    "width": 590
+  },
+  "motorcycle-full-lane": {
+    "height": 188,
+    "page": 26,
+    "src": "/handbook/colorado/motorcycle-full-lane.png",
+    "width": 590
+  },
+  "mountain-lower-gears": {
+    "height": 139,
+    "page": 20,
+    "src": "/handbook/colorado/mountain-lower-gears.png",
+    "width": 590
+  },
+  "mountain-road-downhill-yields": {
+    "height": 260,
+    "page": 14,
+    "src": "/handbook/colorado/mountain-road-downhill-yields.png",
+    "width": 590
+  },
+  "move-it-law": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/colorado/move-it-law.png",
+    "width": 590
+  },
+  "move-over-law": {
+    "height": 308,
+    "page": 30,
+    "src": "/handbook/colorado/move-over-law.png",
+    "width": 404
+  },
+  "no-cruise-control-wet": {
+    "height": 115,
+    "page": 19,
+    "src": "/handbook/colorado/no-cruise-control-wet.png",
+    "width": 563
+  },
+  "no-parking-30-15-feet": {
+    "height": 139,
+    "page": 16,
+    "src": "/handbook/colorado/no-parking-30-15-feet.png",
+    "width": 559
+  },
+  "no-parking-places": {
+    "height": 139,
+    "page": 16,
+    "src": "/handbook/colorado/no-parking-places.png",
+    "width": 548
+  },
+  "no-pass-100-feet": {
+    "height": 116,
+    "page": 19,
+    "src": "/handbook/colorado/no-pass-100-feet.png",
+    "width": 549
+  },
+  "no-pass-200-feet-oncoming": {
+    "height": 187,
+    "page": 18,
+    "src": "/handbook/colorado/no-pass-200-feet-oncoming.png",
+    "width": 568
+  },
+  "no-plea-bargain": {
+    "height": 140,
+    "page": 8,
+    "src": "/handbook/colorado/no-plea-bargain.png",
+    "width": 590
+  },
+  "no-stop-on-crosswalk": {
+    "height": 140,
+    "page": 27,
+    "src": "/handbook/colorado/no-stop-on-crosswalk.png",
+    "width": 563
+  },
+  "no-zones": {
+    "height": 188,
+    "page": 23,
+    "src": "/handbook/colorado/no-zones.png",
+    "width": 590
+  },
+  "obey-persons-directing": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/colorado/obey-persons-directing.png",
+    "width": 590
+  },
+  "only-time-sobers": {
+    "height": 187,
+    "page": 6,
+    "src": "/handbook/colorado/only-time-sobers.png",
+    "width": 590
+  },
+  "open-container": {
+    "height": 188,
+    "page": 6,
+    "src": "/handbook/colorado/open-container.png",
+    "width": 590
+  },
+  "parallel-12-inches": {
+    "height": 188,
+    "page": 17,
+    "src": "/handbook/colorado/parallel-12-inches.png",
+    "width": 590
+  },
+  "parked-car-note": {
+    "height": 163,
+    "page": 29,
+    "src": "/handbook/colorado/parked-car-note.png",
+    "width": 590
+  },
+  "parking-downhill-curb": {
+    "height": 164,
+    "page": 17,
+    "src": "/handbook/colorado/parking-downhill-curb.png",
+    "width": 408
+  },
+  "parking-gear-and-key": {
+    "height": 188,
+    "page": 16,
+    "src": "/handbook/colorado/parking-gear-and-key.png",
+    "width": 590
+  },
+  "parking-lights-only": {
+    "height": 187,
+    "page": 19,
+    "src": "/handbook/colorado/parking-lights-only.png",
+    "width": 590
+  },
+  "parking-no-curb": {
+    "height": 236,
+    "page": 17,
+    "src": "/handbook/colorado/parking-no-curb.png",
+    "width": 590
+  },
+  "parking-uphill-curb": {
+    "height": 332,
+    "page": 17,
+    "src": "/handbook/colorado/parking-uphill-curb.png",
+    "width": 410
+  },
+  "pass-3ft-sign": {
+    "height": 212,
+    "page": 12,
+    "src": "/handbook/colorado/pass-3ft-sign.png",
+    "width": 590
+  },
+  "pass-bicyclist-3-feet": {
+    "height": 187,
+    "page": 18,
+    "src": "/handbook/colorado/pass-bicyclist-3-feet.png",
+    "width": 590
+  },
+  "pass-on-right-when": {
+    "height": 211,
+    "page": 18,
+    "src": "/handbook/colorado/pass-on-right-when.png",
+    "width": 590
+  },
+  "pass-one-at-a-time": {
+    "height": 139,
+    "page": 18,
+    "src": "/handbook/colorado/pass-one-at-a-time.png",
+    "width": 590
+  },
+  "passengers-after-1-year": {
+    "height": 140,
+    "page": 5,
+    "src": "/handbook/colorado/passengers-after-1-year.png",
+    "width": 590
+  },
+  "passengers-after-6-months": {
+    "height": 164,
+    "page": 5,
+    "src": "/handbook/colorado/passengers-after-6-months.png",
+    "width": 590
+  },
+  "passengers-first-6-months": {
+    "height": 188,
+    "page": 5,
+    "src": "/handbook/colorado/passengers-first-6-months.png",
+    "width": 590
+  },
+  "pedestrians-unmarked-crosswalk": {
+    "height": 188,
+    "page": 27,
+    "src": "/handbook/colorado/pedestrians-unmarked-crosswalk.png",
+    "width": 564
+  },
+  "permit-12-months-50-hours": {
+    "height": 212,
+    "page": 5,
+    "src": "/handbook/colorado/permit-12-months-50-hours.png",
+    "width": 590
+  },
+  "permit-supervisor-21": {
+    "height": 164,
+    "page": 4,
+    "src": "/handbook/colorado/permit-supervisor-21.png",
+    "width": 590
+  },
+  "polydrug": {
+    "height": 236,
+    "page": 8,
+    "src": "/handbook/colorado/polydrug.png",
+    "width": 590
+  },
+  "quiet-zone": {
+    "height": 188,
+    "page": 24,
+    "src": "/handbook/colorado/quiet-zone.png",
+    "width": 590
+  },
+  "railroad-10-feet": {
+    "height": 188,
+    "page": 24,
+    "src": "/handbook/colorado/railroad-10-feet.png",
+    "width": 590
+  },
+  "railroad-no-shift": {
+    "height": 188,
+    "page": 11,
+    "src": "/handbook/colorado/railroad-no-shift.png",
+    "width": 590
+  },
+  "railroad-round-sign": {
+    "height": 188,
+    "page": 24,
+    "src": "/handbook/colorado/railroad-round-sign.png",
+    "width": 590
+  },
+  "railroad-stalled": {
+    "height": 164,
+    "page": 24,
+    "src": "/handbook/colorado/railroad-stalled.png",
+    "width": 590
+  },
+  "reckless-driving-definition": {
+    "height": 164,
+    "page": 28,
+    "src": "/handbook/colorado/reckless-driving-definition.png",
+    "width": 590
+  },
+  "reckless-eight-points": {
+    "height": 212,
+    "page": 28,
+    "src": "/handbook/colorado/reckless-eight-points.png",
+    "width": 590
+  },
+  "red-arrow": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/colorado/red-arrow.png",
+    "width": 449
+  },
+  "red-right-turn": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/colorado/red-right-turn.png",
+    "width": 520
+  },
+  "refusal-penalty": {
+    "height": 188,
+    "page": 8,
+    "src": "/handbook/colorado/refusal-penalty.png",
+    "width": 590
+  },
+  "regulatory-signs": {
+    "height": 188,
+    "page": 10,
+    "src": "/handbook/colorado/regulatory-signs.png",
+    "width": 590
+  },
+  "return-both-headlights": {
+    "height": 163,
+    "page": 18,
+    "src": "/handbook/colorado/return-both-headlights.png",
+    "width": 590
+  },
+  "reversible-lanes": {
+    "height": 140,
+    "page": 13,
+    "src": "/handbook/colorado/reversible-lanes.png",
+    "width": 590
+  },
+  "reversing-yield": {
+    "height": 140,
+    "page": 14,
+    "src": "/handbook/colorado/reversing-yield.png",
+    "width": 590
+  },
+  "roundabout-large-vehicle": {
+    "height": 188,
+    "page": 13,
+    "src": "/handbook/colorado/roundabout-large-vehicle.png",
+    "width": 590
+  },
+  "roundabout-yield-left": {
+    "height": 188,
+    "page": 13,
+    "src": "/handbook/colorado/roundabout-yield-left.png",
+    "width": 590
+  },
+  "row-bike-lane-turn": {
+    "height": 164,
+    "page": 14,
+    "src": "/handbook/colorado/row-bike-lane-turn.png",
+    "width": 452
+  },
+  "row-nobody-has-it": {
+    "height": 164,
+    "page": 14,
+    "src": "/handbook/colorado/row-nobody-has-it.png",
+    "width": 590
+  },
+  "row-pedestrians": {
+    "height": 164,
+    "page": 14,
+    "src": "/handbook/colorado/row-pedestrians.png",
+    "width": 590
+  },
+  "run-off-road-not-head-on": {
+    "height": 140,
+    "page": 29,
+    "src": "/handbook/colorado/run-off-road-not-head-on.png",
+    "width": 572
+  },
+  "runaway-ramp": {
+    "height": 163,
+    "page": 23,
+    "src": "/handbook/colorado/runaway-ramp.png",
+    "width": 567
+  },
+  "rural-most-dangerous": {
+    "height": 164,
+    "page": 20,
+    "src": "/handbook/colorado/rural-most-dangerous.png",
+    "width": 590
+  },
+  "scan-left-right-left": {
+    "height": 164,
+    "page": 21,
+    "src": "/handbook/colorado/scan-left-right-left.png",
+    "width": 590
+  },
+  "school-bus-20-feet": {
+    "height": 163,
+    "page": 14,
+    "src": "/handbook/colorado/school-bus-20-feet.png",
+    "width": 590
+  },
+  "school-bus-divided-highway": {
+    "height": 260,
+    "page": 23,
+    "src": "/handbook/colorado/school-bus-divided-highway.png",
+    "width": 395
+  },
+  "school-bus-four-lane-no-median": {
+    "height": 188,
+    "page": 23,
+    "src": "/handbook/colorado/school-bus-four-lane-no-median.png",
+    "width": 590
+  },
+  "school-bus-red-door": {
+    "height": 164,
+    "page": 23,
+    "src": "/handbook/colorado/school-bus-red-door.png",
+    "width": 590
+  },
+  "school-bus-yellow-lights": {
+    "height": 188,
+    "page": 23,
+    "src": "/handbook/colorado/school-bus-yellow-lights.png",
+    "width": 590
+  },
+  "seatbelt-who": {
+    "height": 140,
+    "page": 6,
+    "src": "/handbook/colorado/seatbelt-who.png",
+    "width": 590
+  },
+  "service-recreation-signs": {
+    "height": 164,
+    "page": 11,
+    "src": "/handbook/colorado/service-recreation-signs.png",
+    "width": 590
+  },
+  "signal-100-200-feet": {
+    "height": 212,
+    "page": 15,
+    "src": "/handbook/colorado/signal-100-200-feet.png",
+    "width": 590
+  },
+  "signal-malfunction-four-way": {
+    "height": 140,
+    "page": 10,
+    "src": "/handbook/colorado/signal-malfunction-four-way.png",
+    "width": 590
+  },
+  "slow-moving-vehicle": {
+    "height": 188,
+    "page": 12,
+    "src": "/handbook/colorado/slow-moving-vehicle.png",
+    "width": 492
+  },
+  "snow-plow-formation": {
+    "height": 163,
+    "page": 14,
+    "src": "/handbook/colorado/snow-plow-formation.png",
+    "width": 590
+  },
+  "solid-and-broken-yellow": {
+    "height": 163,
+    "page": 12,
+    "src": "/handbook/colorado/solid-and-broken-yellow.png",
+    "width": 571
+  },
+  "solid-white-line": {
+    "height": 139,
+    "page": 12,
+    "src": "/handbook/colorado/solid-white-line.png",
+    "width": 567
+  },
+  "speed-defaults-high": {
+    "height": 115,
+    "page": 15,
+    "src": "/handbook/colorado/speed-defaults-high.png",
+    "width": 564
+  },
+  "speed-defaults-low": {
+    "height": 116,
+    "page": 15,
+    "src": "/handbook/colorado/speed-defaults-low.png",
+    "width": 567
+  },
+  "speed-limit-signs": {
+    "height": 212,
+    "page": 10,
+    "src": "/handbook/colorado/speed-limit-signs.png",
+    "width": 485
+  },
+  "speed-severity": {
+    "height": 140,
+    "page": 15,
+    "src": "/handbook/colorado/speed-severity.png",
+    "width": 590
+  },
+  "standard-drink": {
+    "height": 187,
+    "page": 6,
+    "src": "/handbook/colorado/standard-drink.png",
+    "width": 590
+  },
+  "steady-green": {
+    "height": 212,
+    "page": 10,
+    "src": "/handbook/colorado/steady-green.png",
+    "width": 449
+  },
+  "steady-yellow": {
+    "height": 140,
+    "page": 10,
+    "src": "/handbook/colorado/steady-yellow.png",
+    "width": 520
+  },
+  "steering-direction": {
+    "height": 164,
+    "page": 9,
+    "src": "/handbook/colorado/steering-direction.png",
+    "width": 590
+  },
+  "stop-bars-trucks": {
+    "height": 164,
+    "page": 23,
+    "src": "/handbook/colorado/stop-bars-trucks.png",
+    "width": 590
+  },
+  "stop-sign-where": {
+    "height": 236,
+    "page": 10,
+    "src": "/handbook/colorado/stop-sign-where.png",
+    "width": 463
+  },
+  "stopping-55-200-feet": {
+    "height": 140,
+    "page": 15,
+    "src": "/handbook/colorado/stopping-55-200-feet.png",
+    "width": 590
+  },
+  "test-30-min-closing": {
+    "height": 140,
+    "page": 4,
+    "src": "/handbook/colorado/test-30-min-closing.png",
+    "width": 590
+  },
+  "test-content": {
+    "height": 188,
+    "page": 4,
+    "src": "/handbook/colorado/test-content.png",
+    "width": 590
+  },
+  "texting-misdemeanor": {
+    "height": 164,
+    "page": 27,
+    "src": "/handbook/colorado/texting-misdemeanor.png",
+    "width": 590
+  },
+  "thc-5ng": {
+    "height": 188,
+    "page": 8,
+    "src": "/handbook/colorado/thc-5ng.png",
+    "width": 590
+  },
+  "three-second-rule": {
+    "height": 188,
+    "page": 21,
+    "src": "/handbook/colorado/three-second-rule.png",
+    "width": 590
+  },
+  "threshold-braking": {
+    "height": 163,
+    "page": 20,
+    "src": "/handbook/colorado/threshold-braking.png",
+    "width": 570
+  },
+  "ticket-signature": {
+    "height": 164,
+    "page": 22,
+    "src": "/handbook/colorado/ticket-signature.png",
+    "width": 590
+  },
+  "tire-blowout": {
+    "height": 164,
+    "page": 29,
+    "src": "/handbook/colorado/tire-blowout.png",
+    "width": 590
+  },
+  "tires-worn": {
+    "height": 187,
+    "page": 9,
+    "src": "/handbook/colorado/tires-worn.png",
+    "width": 572
+  },
+  "traffic-stop-hands": {
+    "height": 139,
+    "page": 22,
+    "src": "/handbook/colorado/traffic-stop-hands.png",
+    "width": 574
+  },
+  "traffic-stop-weapon": {
+    "height": 164,
+    "page": 22,
+    "src": "/handbook/colorado/traffic-stop-weapon.png",
+    "width": 570
+  },
+  "train-one-mile": {
+    "height": 140,
+    "page": 24,
+    "src": "/handbook/colorado/train-one-mile.png",
+    "width": 590
+  },
+  "transit-bus-yield": {
+    "height": 163,
+    "page": 14,
+    "src": "/handbook/colorado/transit-bus-yield.png",
+    "width": 590
+  },
+  "truck-wide-turns": {
+    "height": 211,
+    "page": 23,
+    "src": "/handbook/colorado/truck-wide-turns.png",
+    "width": 567
+  },
+  "turn-from-proper-lane": {
+    "height": 188,
+    "page": 15,
+    "src": "/handbook/colorado/turn-from-proper-lane.png",
+    "width": 590
+  },
+  "turn-quicker-than-stop": {
+    "height": 139,
+    "page": 28,
+    "src": "/handbook/colorado/turn-quicker-than-stop.png",
+    "width": 590
+  },
+  "u-turns": {
+    "height": 164,
+    "page": 16,
+    "src": "/handbook/colorado/u-turns.png",
+    "width": 590
+  },
+  "uncontrolled-intersection": {
+    "height": 188,
+    "page": 14,
+    "src": "/handbook/colorado/uncontrolled-intersection.png",
+    "width": 590
+  },
+  "under-21-dui-revocation": {
+    "height": 235,
+    "page": 7,
+    "src": "/handbook/colorado/under-21-dui-revocation.png",
+    "width": 590
+  },
+  "under-21-possession": {
+    "height": 163,
+    "page": 7,
+    "src": "/handbook/colorado/under-21-possession.png",
+    "width": 590
+  },
+  "unmarked-lane": {
+    "height": 116,
+    "page": 13,
+    "src": "/handbook/colorado/unmarked-lane.png",
+    "width": 590
+  },
+  "warning-signs": {
+    "height": 164,
+    "page": 11,
+    "src": "/handbook/colorado/warning-signs.png",
+    "width": 590
+  },
+  "weather-two-actions": {
+    "height": 188,
+    "page": 19,
+    "src": "/handbook/colorado/weather-two-actions.png",
+    "width": 590
+  },
+  "work-zone-fines-doubled": {
+    "height": 140,
+    "page": 21,
+    "src": "/handbook/colorado/work-zone-fines-doubled.png",
+    "width": 590
+  },
+  "work-zone-rear-end": {
+    "height": 115,
+    "page": 21,
+    "src": "/handbook/colorado/work-zone-rear-end.png",
+    "width": 543
+  },
+  "work-zone-signs": {
+    "height": 140,
+    "page": 11,
+    "src": "/handbook/colorado/work-zone-signs.png",
+    "width": 590
+  },
+  "yellow-arrow": {
+    "height": 140,
+    "page": 10,
+    "src": "/handbook/colorado/yellow-arrow.png",
+    "width": 519
+  },
+  "yellow-lines-broken": {
+    "height": 117,
+    "page": 12,
+    "src": "/handbook/colorado/yellow-lines-broken.png",
+    "width": 584
+  },
+  "yield-sign": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/colorado/yield-sign.png",
+    "width": 440
+  },
+  "zipper-merge": {
+    "height": 212,
+    "page": 22,
+    "src": "/handbook/colorado/zipper-merge.png",
+    "width": 590
+  }
+}

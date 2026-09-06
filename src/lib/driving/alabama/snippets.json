@@ -1,0 +1,1892 @@
+{
+  "acceleration-lane": {
+    "height": 162,
+    "page": 78,
+    "src": "/handbook/alabama/acceleration-lane.png",
+    "width": 680
+  },
+  "address-30-days": {
+    "height": 163,
+    "page": 16,
+    "src": "/handbook/alabama/address-30-days.png",
+    "width": 680
+  },
+  "advisory-speed": {
+    "height": 140,
+    "page": 49,
+    "src": "/handbook/alabama/advisory-speed.png",
+    "width": 430
+  },
+  "alcohol-depressant": {
+    "height": 116,
+    "page": 35,
+    "src": "/handbook/alabama/alcohol-depressant.png",
+    "width": 655
+  },
+  "alley-stop": {
+    "height": 162,
+    "page": 62,
+    "src": "/handbook/alabama/alley-stop.png",
+    "width": 679
+  },
+  "automated-testing": {
+    "height": 140,
+    "page": 13,
+    "src": "/handbook/alabama/automated-testing.png",
+    "width": 680
+  },
+  "bac-cdl": {
+    "height": 139,
+    "page": 35,
+    "src": "/handbook/alabama/bac-cdl.png",
+    "width": 680
+  },
+  "bac-school-bus": {
+    "height": 139,
+    "page": 35,
+    "src": "/handbook/alabama/bac-school-bus.png",
+    "width": 680
+  },
+  "bac-under-21": {
+    "height": 139,
+    "page": 35,
+    "src": "/handbook/alabama/bac-under-21.png",
+    "width": 680
+  },
+  "backing-driveway": {
+    "height": 115,
+    "page": 68,
+    "src": "/handbook/alabama/backing-driveway.png",
+    "width": 684
+  },
+  "backing-freeway": {
+    "height": 115,
+    "page": 68,
+    "src": "/handbook/alabama/backing-freeway.png",
+    "width": 684
+  },
+  "backing-look": {
+    "height": 161,
+    "page": 68,
+    "src": "/handbook/alabama/backing-look.png",
+    "width": 684
+  },
+  "backing-no-zone": {
+    "height": 140,
+    "page": 30,
+    "src": "/handbook/alabama/backing-no-zone.png",
+    "width": 684
+  },
+  "basic-speed-law": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/alabama/basic-speed-law.png",
+    "width": 680
+  },
+  "being-passed": {
+    "height": 139,
+    "page": 66,
+    "src": "/handbook/alabama/being-passed.png",
+    "width": 680
+  },
+  "bicycle-3-feet": {
+    "height": 163,
+    "page": 26,
+    "src": "/handbook/alabama/bicycle-3-feet.png",
+    "width": 679
+  },
+  "bicycle-helmet": {
+    "height": 188,
+    "page": 26,
+    "src": "/handbook/alabama/bicycle-helmet.png",
+    "width": 647
+  },
+  "bicycle-no-horn": {
+    "height": 211,
+    "page": 26,
+    "src": "/handbook/alabama/bicycle-no-horn.png",
+    "width": 679
+  },
+  "bicycle-rights": {
+    "height": 163,
+    "page": 25,
+    "src": "/handbook/alabama/bicycle-rights.png",
+    "width": 680
+  },
+  "bicycle-sidewalk": {
+    "height": 164,
+    "page": 26,
+    "src": "/handbook/alabama/bicycle-sidewalk.png",
+    "width": 647
+  },
+  "bicycle-two-abreast": {
+    "height": 115,
+    "page": 25,
+    "src": "/handbook/alabama/bicycle-two-abreast.png",
+    "width": 680
+  },
+  "bicycle-wet": {
+    "height": 164,
+    "page": 27,
+    "src": "/handbook/alabama/bicycle-wet.png",
+    "width": 647
+  },
+  "bike-lane-driving": {
+    "height": 187,
+    "page": 26,
+    "src": "/handbook/alabama/bike-lane-driving.png",
+    "width": 679
+  },
+  "blind-pedestrian": {
+    "height": 164,
+    "page": 65,
+    "src": "/handbook/alabama/blind-pedestrian.png",
+    "width": 655
+  },
+  "blowout": {
+    "height": 163,
+    "page": 75,
+    "src": "/handbook/alabama/blowout.png",
+    "width": 680
+  },
+  "both-hands": {
+    "height": 162,
+    "page": 22,
+    "src": "/handbook/alabama/both-hands.png",
+    "width": 680
+  },
+  "brake-failure": {
+    "height": 139,
+    "page": 76,
+    "src": "/handbook/alabama/brake-failure.png",
+    "width": 656
+  },
+  "brake-failure-parking": {
+    "height": 187,
+    "page": 76,
+    "src": "/handbook/alabama/brake-failure-parking.png",
+    "width": 656
+  },
+  "breaks-100-miles": {
+    "height": 111,
+    "page": 34,
+    "src": "/handbook/alabama/breaks-100-miles.png",
+    "width": 680
+  },
+  "buckle-before-ignition": {
+    "height": 139,
+    "page": 22,
+    "src": "/handbook/alabama/buckle-before-ignition.png",
+    "width": 680
+  },
+  "cancellation": {
+    "height": 163,
+    "page": 19,
+    "src": "/handbook/alabama/cancellation.png",
+    "width": 680
+  },
+  "car-passing-you": {
+    "height": 164,
+    "page": 76,
+    "src": "/handbook/alabama/car-passing-you.png",
+    "width": 656
+  },
+  "centerline-colors": {
+    "height": 138,
+    "page": 54,
+    "src": "/handbook/alabama/centerline-colors.png",
+    "width": 681
+  },
+  "child-booster": {
+    "height": 115,
+    "page": 32,
+    "src": "/handbook/alabama/child-booster.png",
+    "width": 655
+  },
+  "child-forward": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/alabama/child-forward.png",
+    "width": 655
+  },
+  "child-rear-facing": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/alabama/child-rear-facing.png",
+    "width": 655
+  },
+  "child-restraint-15": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/alabama/child-restraint-15.png",
+    "width": 681
+  },
+  "citation-signature": {
+    "height": 162,
+    "page": 69,
+    "src": "/handbook/alabama/citation-signature.png",
+    "width": 679
+  },
+  "class-c": {
+    "height": 179,
+    "page": 17,
+    "src": "/handbook/alabama/class-c.png",
+    "width": 680
+  },
+  "clearance-sign": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/alabama/clearance-sign.png",
+    "width": 404
+  },
+  "cloverleaf": {
+    "height": 164,
+    "page": 79,
+    "src": "/handbook/alabama/cloverleaf.png",
+    "width": 680
+  },
+  "co-symptoms": {
+    "height": 139,
+    "page": 75,
+    "src": "/handbook/alabama/co-symptoms.png",
+    "width": 680
+  },
+  "coasting": {
+    "height": 115,
+    "page": 75,
+    "src": "/handbook/alabama/coasting.png",
+    "width": 680
+  },
+  "coffee-no-sober": {
+    "height": 139,
+    "page": 36,
+    "src": "/handbook/alabama/coffee-no-sober.png",
+    "width": 680
+  },
+  "construction-sign": {
+    "height": 140,
+    "page": 52,
+    "src": "/handbook/alabama/construction-sign.png",
+    "width": 438
+  },
+  "crash-dont-move": {
+    "height": 164,
+    "page": 39,
+    "src": "/handbook/alabama/crash-dont-move.png",
+    "width": 683
+  },
+  "crash-exchange": {
+    "height": 164,
+    "page": 39,
+    "src": "/handbook/alabama/crash-exchange.png",
+    "width": 683
+  },
+  "crash-report": {
+    "height": 159,
+    "page": 40,
+    "src": "/handbook/alabama/crash-report.png",
+    "width": 680
+  },
+  "crash-stop-aid": {
+    "height": 140,
+    "page": 39,
+    "src": "/handbook/alabama/crash-stop-aid.png",
+    "width": 683
+  },
+  "crosswalk-stop": {
+    "height": 162,
+    "page": 55,
+    "src": "/handbook/alabama/crosswalk-stop.png",
+    "width": 679
+  },
+  "curves-slow": {
+    "height": 163,
+    "page": 25,
+    "src": "/handbook/alabama/curves-slow.png",
+    "width": 680
+  },
+  "death-zone": {
+    "height": 187,
+    "page": 83,
+    "src": "/handbook/alabama/death-zone.png",
+    "width": 680
+  },
+  "diamond": {
+    "height": 163,
+    "page": 80,
+    "src": "/handbook/alabama/diamond.png",
+    "width": 679
+  },
+  "dim-500-200": {
+    "height": 115,
+    "page": 71,
+    "src": "/handbook/alabama/dim-500-200.png",
+    "width": 683
+  },
+  "dim-following-truck": {
+    "height": 165,
+    "page": 29,
+    "src": "/handbook/alabama/dim-following-truck.png",
+    "width": 680
+  },
+  "do-not-enter": {
+    "height": 163,
+    "page": 44,
+    "src": "/handbook/alabama/do-not-enter.png",
+    "width": 428
+  },
+  "double-right-turns": {
+    "height": 116,
+    "page": 46,
+    "src": "/handbook/alabama/double-right-turns.png",
+    "width": 425
+  },
+  "double-white": {
+    "height": 162,
+    "page": 55,
+    "src": "/handbook/alabama/double-white.png",
+    "width": 679
+  },
+  "double-yellow": {
+    "height": 139,
+    "page": 67,
+    "src": "/handbook/alabama/double-yellow.png",
+    "width": 679
+  },
+  "driver-error-90": {
+    "height": 164,
+    "page": 33,
+    "src": "/handbook/alabama/driver-error-90.png",
+    "width": 680
+  },
+  "drowsy": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/alabama/drowsy.png",
+    "width": 680
+  },
+  "drug-alcohol-mix": {
+    "height": 139,
+    "page": 37,
+    "src": "/handbook/alabama/drug-alcohol-mix.png",
+    "width": 680
+  },
+  "dui-first": {
+    "height": 164,
+    "page": 35,
+    "src": "/handbook/alabama/dui-first.png",
+    "width": 680
+  },
+  "dui-fourth": {
+    "height": 140,
+    "page": 36,
+    "src": "/handbook/alabama/dui-fourth.png",
+    "width": 680
+  },
+  "dui-second": {
+    "height": 140,
+    "page": 35,
+    "src": "/handbook/alabama/dui-second.png",
+    "width": 680
+  },
+  "dui-third": {
+    "height": 116,
+    "page": 36,
+    "src": "/handbook/alabama/dui-third.png",
+    "width": 680
+  },
+  "edge-line": {
+    "height": 162,
+    "page": 54,
+    "src": "/handbook/alabama/edge-line.png",
+    "width": 681
+  },
+  "emergency-stopping": {
+    "height": 116,
+    "page": 45,
+    "src": "/handbook/alabama/emergency-stopping.png",
+    "width": 422
+  },
+  "emergency-vehicle-intersection": {
+    "height": 140,
+    "page": 65,
+    "src": "/handbook/alabama/emergency-vehicle-intersection.png",
+    "width": 655
+  },
+  "emergency-vehicle-stop": {
+    "height": 163,
+    "page": 63,
+    "src": "/handbook/alabama/emergency-vehicle-stop.png",
+    "width": 656
+  },
+  "emotions": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/alabama/emotions.png",
+    "width": 680
+  },
+  "empty-stomach": {
+    "height": 163,
+    "page": 36,
+    "src": "/handbook/alabama/empty-stomach.png",
+    "width": 680
+  },
+  "exit-plan": {
+    "height": 163,
+    "page": 80,
+    "src": "/handbook/alabama/exit-plan.png",
+    "width": 680
+  },
+  "expired-cannot-drive": {
+    "height": 139,
+    "page": 15,
+    "src": "/handbook/alabama/expired-cannot-drive.png",
+    "width": 680
+  },
+  "fire": {
+    "height": 163,
+    "page": 77,
+    "src": "/handbook/alabama/fire.png",
+    "width": 656
+  },
+  "flares": {
+    "height": 139,
+    "page": 72,
+    "src": "/handbook/alabama/flares.png",
+    "width": 683
+  },
+  "flashing-arrow": {
+    "height": 212,
+    "page": 52,
+    "src": "/handbook/alabama/flashing-arrow.png",
+    "width": 428
+  },
+  "flashing-red": {
+    "height": 116,
+    "page": 63,
+    "src": "/handbook/alabama/flashing-red.png",
+    "width": 656
+  },
+  "fog-low-beam": {
+    "height": 139,
+    "page": 75,
+    "src": "/handbook/alabama/fog-low-beam.png",
+    "width": 680
+  },
+  "fog-pull-off": {
+    "height": 163,
+    "page": 75,
+    "src": "/handbook/alabama/fog-pull-off.png",
+    "width": 680
+  },
+  "following-distance-definition": {
+    "height": 115,
+    "page": 38,
+    "src": "/handbook/alabama/following-distance-definition.png",
+    "width": 680
+  },
+  "following-emergency-500": {
+    "height": 185,
+    "page": 67,
+    "src": "/handbook/alabama/following-emergency-500.png",
+    "width": 680
+  },
+  "foreign-exams": {
+    "height": 161,
+    "page": 11,
+    "src": "/handbook/alabama/foreign-exams.png",
+    "width": 679
+  },
+  "four-five-seconds": {
+    "height": 164,
+    "page": 38,
+    "src": "/handbook/alabama/four-five-seconds.png",
+    "width": 680
+  },
+  "four-way-stop": {
+    "height": 211,
+    "page": 44,
+    "src": "/handbook/alabama/four-way-stop.png",
+    "width": 680
+  },
+  "four-way-wait": {
+    "height": 139,
+    "page": 44,
+    "src": "/handbook/alabama/four-way-wait.png",
+    "width": 680
+  },
+  "freeway-breakdown": {
+    "height": 185,
+    "page": 78,
+    "src": "/handbook/alabama/freeway-breakdown.png",
+    "width": 681
+  },
+  "freeway-keep-right": {
+    "height": 161,
+    "page": 78,
+    "src": "/handbook/alabama/freeway-keep-right.png",
+    "width": 681
+  },
+  "freeway-lane": {
+    "height": 139,
+    "page": 78,
+    "src": "/handbook/alabama/freeway-lane.png",
+    "width": 681
+  },
+  "freeway-parking": {
+    "height": 138,
+    "page": 78,
+    "src": "/handbook/alabama/freeway-parking.png",
+    "width": 681
+  },
+  "front-seat-three": {
+    "height": 164,
+    "page": 69,
+    "src": "/handbook/alabama/front-seat-three.png",
+    "width": 680
+  },
+  "gdl-15-supervision": {
+    "height": 129,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-15-supervision.png",
+    "width": 358
+  },
+  "gdl-16-permission": {
+    "height": 148,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-16-permission.png",
+    "width": 358
+  },
+  "gdl-60-day": {
+    "height": 147,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-60-day.png",
+    "width": 359
+  },
+  "gdl-curfew": {
+    "height": 129,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-curfew.png",
+    "width": 358
+  },
+  "gdl-extension": {
+    "height": 148,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-extension.png",
+    "width": 359
+  },
+  "gdl-hold-6": {
+    "height": 187,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-hold-6.png",
+    "width": 358
+  },
+  "gdl-no-points": {
+    "height": 128,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-no-points.png",
+    "width": 359
+  },
+  "gdl-not-apply-18": {
+    "height": 129,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-not-apply-18.png",
+    "width": 358
+  },
+  "gdl-passenger": {
+    "height": 167,
+    "page": 86,
+    "src": "/handbook/alabama/gdl-passenger.png",
+    "width": 358
+  },
+  "glare": {
+    "height": 164,
+    "page": 72,
+    "src": "/handbook/alabama/glare.png",
+    "width": 683
+  },
+  "grace-60": {
+    "height": 163,
+    "page": 15,
+    "src": "/handbook/alabama/grace-60.png",
+    "width": 680
+  },
+  "green-arrow": {
+    "height": 164,
+    "page": 57,
+    "src": "/handbook/alabama/green-arrow.png",
+    "width": 443
+  },
+  "green-arrow-yield": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/alabama/green-arrow-yield.png",
+    "width": 655
+  },
+  "guide-colors": {
+    "height": 164,
+    "page": 53,
+    "src": "/handbook/alabama/guide-colors.png",
+    "width": 680
+  },
+  "hand-signals-daytime": {
+    "height": 163,
+    "page": 23,
+    "src": "/handbook/alabama/hand-signals-daytime.png",
+    "width": 679
+  },
+  "handicap-parking": {
+    "height": 116,
+    "page": 45,
+    "src": "/handbook/alabama/handicap-parking.png",
+    "width": 425
+  },
+  "hands-free": {
+    "height": 178,
+    "page": 18,
+    "src": "/handbook/alabama/hands-free.png",
+    "width": 679
+  },
+  "hands-free-fines": {
+    "height": 157,
+    "page": 18,
+    "src": "/handbook/alabama/hands-free-fines.png",
+    "width": 679
+  },
+  "hazard-lights": {
+    "height": 140,
+    "page": 81,
+    "src": "/handbook/alabama/hazard-lights.png",
+    "width": 684
+  },
+  "headlights-when": {
+    "height": 163,
+    "page": 71,
+    "src": "/handbook/alabama/headlights-when.png",
+    "width": 683
+  },
+  "high-beam-350": {
+    "height": 164,
+    "page": 81,
+    "src": "/handbook/alabama/high-beam-350.png",
+    "width": 684
+  },
+  "hills-horn": {
+    "height": 139,
+    "page": 75,
+    "src": "/handbook/alabama/hills-horn.png",
+    "width": 680
+  },
+  "horn-needless": {
+    "height": 116,
+    "page": 82,
+    "src": "/handbook/alabama/horn-needless.png",
+    "width": 680
+  },
+  "hydroplane-35-55": {
+    "height": 162,
+    "page": 74,
+    "src": "/handbook/alabama/hydroplane-35-55.png",
+    "width": 684
+  },
+  "hydroplane-response": {
+    "height": 139,
+    "page": 74,
+    "src": "/handbook/alabama/hydroplane-response.png",
+    "width": 684
+  },
+  "hydroplane-tread": {
+    "height": 163,
+    "page": 74,
+    "src": "/handbook/alabama/hydroplane-tread.png",
+    "width": 684
+  },
+  "ice-stopping": {
+    "height": 139,
+    "page": 73,
+    "src": "/handbook/alabama/ice-stopping.png",
+    "width": 680
+  },
+  "immersion": {
+    "height": 164,
+    "page": 77,
+    "src": "/handbook/alabama/immersion.png",
+    "width": 656
+  },
+  "impairment-before-legal": {
+    "height": 116,
+    "page": 35,
+    "src": "/handbook/alabama/impairment-before-legal.png",
+    "width": 655
+  },
+  "implied-consent": {
+    "height": 164,
+    "page": 36,
+    "src": "/handbook/alabama/implied-consent.png",
+    "width": 680
+  },
+  "inoperative-signal": {
+    "height": 145,
+    "page": 63,
+    "src": "/handbook/alabama/inoperative-signal.png",
+    "width": 656
+  },
+  "interchange-def": {
+    "height": 164,
+    "page": 79,
+    "src": "/handbook/alabama/interchange-def.png",
+    "width": 681
+  },
+  "keep-dimmed": {
+    "height": 163,
+    "page": 71,
+    "src": "/handbook/alabama/keep-dimmed.png",
+    "width": 683
+  },
+  "keep-right-sign": {
+    "height": 116,
+    "page": 46,
+    "src": "/handbook/alabama/keep-right-sign.png",
+    "width": 396
+  },
+  "knowledge-test-fee": {
+    "height": 115,
+    "page": 13,
+    "src": "/handbook/alabama/knowledge-test-fee.png",
+    "width": 680
+  },
+  "lane-change-blind-spot": {
+    "height": 138,
+    "page": 68,
+    "src": "/handbook/alabama/lane-change-blind-spot.png",
+    "width": 684
+  },
+  "lane-dividers": {
+    "height": 162,
+    "page": 54,
+    "src": "/handbook/alabama/lane-dividers.png",
+    "width": 681
+  },
+  "lane-ends": {
+    "height": 163,
+    "page": 49,
+    "src": "/handbook/alabama/lane-ends.png",
+    "width": 421
+  },
+  "learner-15": {
+    "height": 138,
+    "page": 11,
+    "src": "/handbook/alabama/learner-15.png",
+    "width": 680
+  },
+  "learner-6-months": {
+    "height": 184,
+    "page": 12,
+    "src": "/handbook/alabama/learner-6-months.png",
+    "width": 681
+  },
+  "learner-after-16": {
+    "height": 138,
+    "page": 11,
+    "src": "/handbook/alabama/learner-after-16.png",
+    "width": 680
+  },
+  "learner-revoked": {
+    "height": 161,
+    "page": 12,
+    "src": "/handbook/alabama/learner-revoked.png",
+    "width": 681
+  },
+  "learner-valid-4-years": {
+    "height": 115,
+    "page": 11,
+    "src": "/handbook/alabama/learner-valid-4-years.png",
+    "width": 680
+  },
+  "learner-y-restriction": {
+    "height": 139,
+    "page": 11,
+    "src": "/handbook/alabama/learner-y-restriction.png",
+    "width": 680
+  },
+  "leaving-parking": {
+    "height": 116,
+    "page": 22,
+    "src": "/handbook/alabama/leaving-parking.png",
+    "width": 680
+  },
+  "left-turn-four-lane": {
+    "height": 164,
+    "page": 23,
+    "src": "/handbook/alabama/left-turn-four-lane.png",
+    "width": 680
+  },
+  "left-turn-yield": {
+    "height": 187,
+    "page": 65,
+    "src": "/handbook/alabama/left-turn-yield.png",
+    "width": 655
+  },
+  "license-expires-4": {
+    "height": 115,
+    "page": 15,
+    "src": "/handbook/alabama/license-expires-4.png",
+    "width": 680
+  },
+  "license-required": {
+    "height": 164,
+    "page": 7,
+    "src": "/handbook/alabama/license-required.png",
+    "width": 680
+  },
+  "lights-required": {
+    "height": 164,
+    "page": 81,
+    "src": "/handbook/alabama/lights-required.png",
+    "width": 684
+  },
+  "load-red-flag": {
+    "height": 116,
+    "page": 69,
+    "src": "/handbook/alabama/load-red-flag.png",
+    "width": 680
+  },
+  "low-shoulder": {
+    "height": 115,
+    "page": 49,
+    "src": "/handbook/alabama/low-shoulder.png",
+    "width": 416
+  },
+  "merge-sign": {
+    "height": 116,
+    "page": 50,
+    "src": "/handbook/alabama/merge-sign.png",
+    "width": 437
+  },
+  "merge-yield": {
+    "height": 165,
+    "page": 78,
+    "src": "/handbook/alabama/merge-yield.png",
+    "width": 680
+  },
+  "mileposts": {
+    "height": 163,
+    "page": 54,
+    "src": "/handbook/alabama/mileposts.png",
+    "width": 432
+  },
+  "min-driving-age": {
+    "height": 116,
+    "page": 11,
+    "src": "/handbook/alabama/min-driving-age.png",
+    "width": 680
+  },
+  "min-speed-sign": {
+    "height": 140,
+    "page": 45,
+    "src": "/handbook/alabama/min-speed-sign.png",
+    "width": 441
+  },
+  "minimum-speed": {
+    "height": 162,
+    "page": 62,
+    "src": "/handbook/alabama/minimum-speed.png",
+    "width": 680
+  },
+  "mirror-200": {
+    "height": 116,
+    "page": 81,
+    "src": "/handbook/alabama/mirror-200.png",
+    "width": 679
+  },
+  "missed-exit": {
+    "height": 114,
+    "page": 80,
+    "src": "/handbook/alabama/missed-exit.png",
+    "width": 675
+  },
+  "mli-minimums": {
+    "height": 115,
+    "page": 70,
+    "src": "/handbook/alabama/mli-minimums.png",
+    "width": 680
+  },
+  "mli-penalty": {
+    "height": 163,
+    "page": 70,
+    "src": "/handbook/alabama/mli-penalty.png",
+    "width": 680
+  },
+  "motor-driven-cycle-14": {
+    "height": 116,
+    "page": 12,
+    "src": "/handbook/alabama/motor-driven-cycle-14.png",
+    "width": 681
+  },
+  "motorcycle-2-second": {
+    "height": 140,
+    "page": 28,
+    "src": "/handbook/alabama/motorcycle-2-second.png",
+    "width": 679
+  },
+  "motorcycle-left-turn": {
+    "height": 115,
+    "page": 27,
+    "src": "/handbook/alabama/motorcycle-left-turn.png",
+    "width": 680
+  },
+  "motorcycle-share-lane": {
+    "height": 164,
+    "page": 28,
+    "src": "/handbook/alabama/motorcycle-share-lane.png",
+    "width": 679
+  },
+  "motorcycle-signals": {
+    "height": 115,
+    "page": 27,
+    "src": "/handbook/alabama/motorcycle-signals.png",
+    "width": 680
+  },
+  "motorcycle-weather": {
+    "height": 140,
+    "page": 28,
+    "src": "/handbook/alabama/motorcycle-weather.png",
+    "width": 679
+  },
+  "motorcycle-width": {
+    "height": 164,
+    "page": 27,
+    "src": "/handbook/alabama/motorcycle-width.png",
+    "width": 680
+  },
+  "move-over-4-lane": {
+    "height": 185,
+    "page": 70,
+    "src": "/handbook/alabama/move-over-4-lane.png",
+    "width": 680
+  },
+  "move-over-slow": {
+    "height": 138,
+    "page": 70,
+    "src": "/handbook/alabama/move-over-slow.png",
+    "width": 680
+  },
+  "move-over-two-lane": {
+    "height": 185,
+    "page": 70,
+    "src": "/handbook/alabama/move-over-two-lane.png",
+    "width": 680
+  },
+  "muffler": {
+    "height": 116,
+    "page": 81,
+    "src": "/handbook/alabama/muffler.png",
+    "width": 684
+  },
+  "municipal-max": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/alabama/municipal-max.png",
+    "width": 680
+  },
+  "new-resident-30-days": {
+    "height": 164,
+    "page": 7,
+    "src": "/handbook/alabama/new-resident-30-days.png",
+    "width": 680
+  },
+  "night-breakdown": {
+    "height": 140,
+    "page": 72,
+    "src": "/handbook/alabama/night-breakdown.png",
+    "width": 683
+  },
+  "night-half-fatal": {
+    "height": 115,
+    "page": 71,
+    "src": "/handbook/alabama/night-half-fatal.png",
+    "width": 683
+  },
+  "no-pass-500": {
+    "height": 116,
+    "page": 67,
+    "src": "/handbook/alabama/no-pass-500.png",
+    "width": 679
+  },
+  "no-passing-zone-sign": {
+    "height": 116,
+    "page": 46,
+    "src": "/handbook/alabama/no-passing-zone-sign.png",
+    "width": 393
+  },
+  "no-turn-on-red": {
+    "height": 164,
+    "page": 46,
+    "src": "/handbook/alabama/no-turn-on-red.png",
+    "width": 441
+  },
+  "no-zones": {
+    "height": 164,
+    "page": 29,
+    "src": "/handbook/alabama/no-zones.png",
+    "width": 679
+  },
+  "oncoming-in-lane": {
+    "height": 163,
+    "page": 76,
+    "src": "/handbook/alabama/oncoming-in-lane.png",
+    "width": 656
+  },
+  "one-drink-equal": {
+    "height": 164,
+    "page": 35,
+    "src": "/handbook/alabama/one-drink-equal.png",
+    "width": 679
+  },
+  "one-lane-bridge": {
+    "height": 140,
+    "page": 48,
+    "src": "/handbook/alabama/one-lane-bridge.png",
+    "width": 433
+  },
+  "oral-exams": {
+    "height": 115,
+    "page": 11,
+    "src": "/handbook/alabama/oral-exams.png",
+    "width": 679
+  },
+  "otc-drugs": {
+    "height": 163,
+    "page": 37,
+    "src": "/handbook/alabama/otc-drugs.png",
+    "width": 680
+  },
+  "out-of-state-license": {
+    "height": 140,
+    "page": 7,
+    "src": "/handbook/alabama/out-of-state-license.png",
+    "width": 680
+  },
+  "overdriving-headlights": {
+    "height": 187,
+    "page": 71,
+    "src": "/handbook/alabama/overdriving-headlights.png",
+    "width": 683
+  },
+  "overheating": {
+    "height": 163,
+    "page": 77,
+    "src": "/handbook/alabama/overheating.png",
+    "width": 656
+  },
+  "parking-30-signal": {
+    "height": 140,
+    "page": 31,
+    "src": "/handbook/alabama/parking-30-signal.png",
+    "width": 679
+  },
+  "parking-bridge": {
+    "height": 115,
+    "page": 31,
+    "src": "/handbook/alabama/parking-bridge.png",
+    "width": 679
+  },
+  "parking-crosswalk-20": {
+    "height": 116,
+    "page": 31,
+    "src": "/handbook/alabama/parking-crosswalk-20.png",
+    "width": 679
+  },
+  "parking-double": {
+    "height": 139,
+    "page": 31,
+    "src": "/handbook/alabama/parking-double.png",
+    "width": 679
+  },
+  "parking-hand-brake": {
+    "height": 116,
+    "page": 30,
+    "src": "/handbook/alabama/parking-hand-brake.png",
+    "width": 684
+  },
+  "parking-hill": {
+    "height": 214,
+    "page": 30,
+    "src": "/handbook/alabama/parking-hill.png",
+    "width": 684
+  },
+  "parking-hydrant-15": {
+    "height": 115,
+    "page": 31,
+    "src": "/handbook/alabama/parking-hydrant-15.png",
+    "width": 679
+  },
+  "parking-rail-50": {
+    "height": 116,
+    "page": 31,
+    "src": "/handbook/alabama/parking-rail-50.png",
+    "width": 679
+  },
+  "parking-yellow-curb": {
+    "height": 115,
+    "page": 31,
+    "src": "/handbook/alabama/parking-yellow-curb.png",
+    "width": 679
+  },
+  "passing-right": {
+    "height": 139,
+    "page": 66,
+    "src": "/handbook/alabama/passing-right.png",
+    "width": 680
+  },
+  "passing-signals": {
+    "height": 187,
+    "page": 66,
+    "src": "/handbook/alabama/passing-signals.png",
+    "width": 680
+  },
+  "passing-two-lane": {
+    "height": 163,
+    "page": 66,
+    "src": "/handbook/alabama/passing-two-lane.png",
+    "width": 680
+  },
+  "ped-crossing-sign": {
+    "height": 164,
+    "page": 51,
+    "src": "/handbook/alabama/ped-crossing-sign.png",
+    "width": 436
+  },
+  "pedestrian-night": {
+    "height": 140,
+    "page": 72,
+    "src": "/handbook/alabama/pedestrian-night.png",
+    "width": 683
+  },
+  "points-following": {
+    "height": 116,
+    "page": 21,
+    "src": "/handbook/alabama/points-following.png",
+    "width": 673
+  },
+  "points-hearing": {
+    "height": 166,
+    "page": 21,
+    "src": "/handbook/alabama/points-hearing.png",
+    "width": 682
+  },
+  "points-reckless": {
+    "height": 116,
+    "page": 21,
+    "src": "/handbook/alabama/points-reckless.png",
+    "width": 673
+  },
+  "points-schedule": {
+    "height": 216,
+    "page": 21,
+    "src": "/handbook/alabama/points-schedule.png",
+    "width": 682
+  },
+  "points-school-bus": {
+    "height": 115,
+    "page": 21,
+    "src": "/handbook/alabama/points-school-bus.png",
+    "width": 673
+  },
+  "points-speeding": {
+    "height": 115,
+    "page": 21,
+    "src": "/handbook/alabama/points-speeding.png",
+    "width": 673
+  },
+  "points-yield": {
+    "height": 115,
+    "page": 21,
+    "src": "/handbook/alabama/points-yield.png",
+    "width": 673
+  },
+  "present-license": {
+    "height": 178,
+    "page": 18,
+    "src": "/handbook/alabama/present-license.png",
+    "width": 679
+  },
+  "private-road-yield": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/alabama/private-road-yield.png",
+    "width": 655
+  },
+  "pump-brakes": {
+    "height": 139,
+    "page": 73,
+    "src": "/handbook/alabama/pump-brakes.png",
+    "width": 680
+  },
+  "rear-no-zone": {
+    "height": 140,
+    "page": 29,
+    "src": "/handbook/alabama/rear-no-zone.png",
+    "width": 680
+  },
+  "red-turns-yield": {
+    "height": 116,
+    "page": 63,
+    "src": "/handbook/alabama/red-turns-yield.png",
+    "width": 656
+  },
+  "refusal": {
+    "height": 116,
+    "page": 36,
+    "src": "/handbook/alabama/refusal.png",
+    "width": 680
+  },
+  "regulatory-colors": {
+    "height": 163,
+    "page": 44,
+    "src": "/handbook/alabama/regulatory-colors.png",
+    "width": 680
+  },
+  "reinstatement-fee": {
+    "height": 186,
+    "page": 19,
+    "src": "/handbook/alabama/reinstatement-fee.png",
+    "width": 680
+  },
+  "renew-3-years": {
+    "height": 139,
+    "page": 15,
+    "src": "/handbook/alabama/renew-3-years.png",
+    "width": 680
+  },
+  "revocation-retest": {
+    "height": 139,
+    "page": 19,
+    "src": "/handbook/alabama/revocation-retest.png",
+    "width": 680
+  },
+  "revoke-3-reckless": {
+    "height": 116,
+    "page": 19,
+    "src": "/handbook/alabama/revoke-3-reckless.png",
+    "width": 680
+  },
+  "revoke-dui-second": {
+    "height": 139,
+    "page": 19,
+    "src": "/handbook/alabama/revoke-dui-second.png",
+    "width": 680
+  },
+  "revoke-hit-and-run": {
+    "height": 139,
+    "page": 19,
+    "src": "/handbook/alabama/revoke-hit-and-run.png",
+    "width": 680
+  },
+  "right-on-red": {
+    "height": 138,
+    "page": 62,
+    "src": "/handbook/alabama/right-on-red.png",
+    "width": 679
+  },
+  "right-turn-four-lane": {
+    "height": 164,
+    "page": 23,
+    "src": "/handbook/alabama/right-turn-four-lane.png",
+    "width": 680
+  },
+  "road-test-insurance": {
+    "height": 165,
+    "page": 13,
+    "src": "/handbook/alabama/road-test-insurance.png",
+    "width": 680
+  },
+  "road-test-vehicle": {
+    "height": 190,
+    "page": 13,
+    "src": "/handbook/alabama/road-test-vehicle.png",
+    "width": 680
+  },
+  "roundabout-emergency": {
+    "height": 137,
+    "page": 60,
+    "src": "/handbook/alabama/roundabout-emergency.png",
+    "width": 657
+  },
+  "roundabout-miss-exit": {
+    "height": 137,
+    "page": 60,
+    "src": "/handbook/alabama/roundabout-miss-exit.png",
+    "width": 657
+  },
+  "roundabout-row": {
+    "height": 112,
+    "page": 60,
+    "src": "/handbook/alabama/roundabout-row.png",
+    "width": 657
+  },
+  "roundabout-yield-left": {
+    "height": 112,
+    "page": 59,
+    "src": "/handbook/alabama/roundabout-yield-left.png",
+    "width": 620
+  },
+  "row-unlawful-speed": {
+    "height": 164,
+    "page": 65,
+    "src": "/handbook/alabama/row-unlawful-speed.png",
+    "width": 655
+  },
+  "rr-advance-sign": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/alabama/rr-advance-sign.png",
+    "width": 431
+  },
+  "rr-around-gates": {
+    "height": 164,
+    "page": 42,
+    "src": "/handbook/alabama/rr-around-gates.png",
+    "width": 655
+  },
+  "rr-flashing-red": {
+    "height": 188,
+    "page": 57,
+    "src": "/handbook/alabama/rr-flashing-red.png",
+    "width": 443
+  },
+  "rr-gates": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/alabama/rr-gates.png",
+    "width": 466
+  },
+  "rr-gears": {
+    "height": 116,
+    "page": 42,
+    "src": "/handbook/alabama/rr-gears.png",
+    "width": 679
+  },
+  "rr-must-stop-vehicles": {
+    "height": 116,
+    "page": 41,
+    "src": "/handbook/alabama/rr-must-stop-vehicles.png",
+    "width": 683
+  },
+  "rr-pavement": {
+    "height": 182,
+    "page": 40,
+    "src": "/handbook/alabama/rr-pavement.png",
+    "width": 476
+  },
+  "rr-second-train": {
+    "height": 164,
+    "page": 42,
+    "src": "/handbook/alabama/rr-second-train.png",
+    "width": 655
+  },
+  "rr-sign-750": {
+    "height": 182,
+    "page": 40,
+    "src": "/handbook/alabama/rr-sign-750.png",
+    "width": 476
+  },
+  "rr-stall": {
+    "height": 163,
+    "page": 42,
+    "src": "/handbook/alabama/rr-stall.png",
+    "width": 655
+  },
+  "rr-stop-15-50": {
+    "height": 116,
+    "page": 41,
+    "src": "/handbook/alabama/rr-stop-15-50.png",
+    "width": 683
+  },
+  "run-off-pavement": {
+    "height": 163,
+    "page": 76,
+    "src": "/handbook/alabama/run-off-pavement.png",
+    "width": 656
+  },
+  "rural-standing": {
+    "height": 140,
+    "page": 30,
+    "src": "/handbook/alabama/rural-standing.png",
+    "width": 684
+  },
+  "school-attendance-19": {
+    "height": 115,
+    "page": 8,
+    "src": "/handbook/alabama/school-attendance-19.png",
+    "width": 679
+  },
+  "school-bus-20-feet": {
+    "height": 120,
+    "page": 64,
+    "src": "/handbook/alabama/school-bus-20-feet.png",
+    "width": 262
+  },
+  "school-bus-amber": {
+    "height": 123,
+    "page": 64,
+    "src": "/handbook/alabama/school-bus-amber.png",
+    "width": 254
+  },
+  "school-bus-divided": {
+    "height": 187,
+    "page": 63,
+    "src": "/handbook/alabama/school-bus-divided.png",
+    "width": 656
+  },
+  "school-bus-stop": {
+    "height": 187,
+    "page": 63,
+    "src": "/handbook/alabama/school-bus-stop.png",
+    "width": 656
+  },
+  "school-bus-undivided": {
+    "height": 139,
+    "page": 63,
+    "src": "/handbook/alabama/school-bus-undivided.png",
+    "width": 656
+  },
+  "school-patrol": {
+    "height": 139,
+    "page": 62,
+    "src": "/handbook/alabama/school-patrol.png",
+    "width": 679
+  },
+  "school-zone-sign": {
+    "height": 116,
+    "page": 46,
+    "src": "/handbook/alabama/school-zone-sign.png",
+    "width": 419
+  },
+  "seat-belt-all": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/alabama/seat-belt-all.png",
+    "width": 681
+  },
+  "sharrow": {
+    "height": 164,
+    "page": 52,
+    "src": "/handbook/alabama/sharrow.png",
+    "width": 429
+  },
+  "shoulder-driving": {
+    "height": 115,
+    "page": 68,
+    "src": "/handbook/alabama/shoulder-driving.png",
+    "width": 684
+  },
+  "shoulder-passing": {
+    "height": 140,
+    "page": 67,
+    "src": "/handbook/alabama/shoulder-passing.png",
+    "width": 679
+  },
+  "side-no-zone": {
+    "height": 140,
+    "page": 29,
+    "src": "/handbook/alabama/side-no-zone.png",
+    "width": 680
+  },
+  "sign-shapes-colors": {
+    "height": 164,
+    "page": 43,
+    "src": "/handbook/alabama/sign-shapes-colors.png",
+    "width": 679
+  },
+  "sign-types": {
+    "height": 140,
+    "page": 43,
+    "src": "/handbook/alabama/sign-types.png",
+    "width": 679
+  },
+  "signal-100": {
+    "height": 140,
+    "page": 23,
+    "src": "/handbook/alabama/signal-100.png",
+    "width": 679
+  },
+  "signal-green": {
+    "height": 140,
+    "page": 56,
+    "src": "/handbook/alabama/signal-green.png",
+    "width": 443
+  },
+  "signal-no-right": {
+    "height": 138,
+    "page": 68,
+    "src": "/handbook/alabama/signal-no-right.png",
+    "width": 684
+  },
+  "signal-red": {
+    "height": 188,
+    "page": 56,
+    "src": "/handbook/alabama/signal-red.png",
+    "width": 516
+  },
+  "signal-yellow": {
+    "height": 188,
+    "page": 56,
+    "src": "/handbook/alabama/signal-yellow.png",
+    "width": 443
+  },
+  "single-lane": {
+    "height": 139,
+    "page": 22,
+    "src": "/handbook/alabama/single-lane.png",
+    "width": 680
+  },
+  "skid-fwd": {
+    "height": 163,
+    "page": 74,
+    "src": "/handbook/alabama/skid-fwd.png",
+    "width": 684
+  },
+  "skid-no-brake": {
+    "height": 163,
+    "page": 73,
+    "src": "/handbook/alabama/skid-no-brake.png",
+    "width": 680
+  },
+  "skid-steer": {
+    "height": 139,
+    "page": 74,
+    "src": "/handbook/alabama/skid-steer.png",
+    "width": 684
+  },
+  "slow-speeds": {
+    "height": 116,
+    "page": 62,
+    "src": "/handbook/alabama/slow-speeds.png",
+    "width": 680
+  },
+  "snow-tires-ice": {
+    "height": 116,
+    "page": 73,
+    "src": "/handbook/alabama/snow-tires-ice.png",
+    "width": 680
+  },
+  "soft-shoulder": {
+    "height": 142,
+    "page": 47,
+    "src": "/handbook/alabama/soft-shoulder.png",
+    "width": 415
+  },
+  "solid-yellow": {
+    "height": 162,
+    "page": 54,
+    "src": "/handbook/alabama/solid-yellow.png",
+    "width": 681
+  },
+  "squeeze-play": {
+    "height": 189,
+    "page": 30,
+    "src": "/handbook/alabama/squeeze-play.png",
+    "width": 684
+  },
+  "sr-31": {
+    "height": 159,
+    "page": 40,
+    "src": "/handbook/alabama/sr-31.png",
+    "width": 680
+  },
+  "st-gdl-passenger": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/alabama/st-gdl-passenger.png",
+    "width": 472
+  },
+  "stall-tracks": {
+    "height": 188,
+    "page": 77,
+    "src": "/handbook/alabama/stall-tracks.png",
+    "width": 656
+  },
+  "star-hp": {
+    "height": 160,
+    "page": 78,
+    "src": "/handbook/alabama/star-hp.png",
+    "width": 681
+  },
+  "statutory-speeds": {
+    "height": 188,
+    "page": 62,
+    "src": "/handbook/alabama/statutory-speeds.png",
+    "width": 351
+  },
+  "stay-awake-drugs": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/alabama/stay-awake-drugs.png",
+    "width": 680
+  },
+  "steering-failure": {
+    "height": 164,
+    "page": 76,
+    "src": "/handbook/alabama/steering-failure.png",
+    "width": 656
+  },
+  "steering-wheel-height": {
+    "height": 138,
+    "page": 14,
+    "src": "/handbook/alabama/steering-wheel-height.png",
+    "width": 679
+  },
+  "stop-second-time": {
+    "height": 139,
+    "page": 62,
+    "src": "/handbook/alabama/stop-second-time.png",
+    "width": 679
+  },
+  "stop-sign-no-crosswalk": {
+    "height": 139,
+    "page": 62,
+    "src": "/handbook/alabama/stop-sign-no-crosswalk.png",
+    "width": 679
+  },
+  "stop-sign-where": {
+    "height": 139,
+    "page": 62,
+    "src": "/handbook/alabama/stop-sign-where.png",
+    "width": 679
+  },
+  "stuck-accelerator": {
+    "height": 163,
+    "page": 77,
+    "src": "/handbook/alabama/stuck-accelerator.png",
+    "width": 656
+  },
+  "surrender-50": {
+    "height": 163,
+    "page": 19,
+    "src": "/handbook/alabama/surrender-50.png",
+    "width": 680
+  },
+  "suspend-first-dui": {
+    "height": 115,
+    "page": 20,
+    "src": "/handbook/alabama/suspend-first-dui.png",
+    "width": 684
+  },
+  "suspend-gdl-points": {
+    "height": 166,
+    "page": 20,
+    "src": "/handbook/alabama/suspend-gdl-points.png",
+    "width": 684
+  },
+  "suspend-racing": {
+    "height": 166,
+    "page": 20,
+    "src": "/handbook/alabama/suspend-racing.png",
+    "width": 684
+  },
+  "suspend-school-withdraw": {
+    "height": 166,
+    "page": 20,
+    "src": "/handbook/alabama/suspend-school-withdraw.png",
+    "width": 684
+  },
+  "texting-law": {
+    "height": 138,
+    "page": 34,
+    "src": "/handbook/alabama/texting-law.png",
+    "width": 678
+  },
+  "think-before-act": {
+    "height": 163,
+    "page": 75,
+    "src": "/handbook/alabama/think-before-act.png",
+    "width": 680
+  },
+  "three-point-turn": {
+    "height": 163,
+    "page": 25,
+    "src": "/handbook/alabama/three-point-turn.png",
+    "width": 680
+  },
+  "tint-32": {
+    "height": 139,
+    "page": 70,
+    "src": "/handbook/alabama/tint-32.png",
+    "width": 680
+  },
+  "tint-windshield": {
+    "height": 139,
+    "page": 70,
+    "src": "/handbook/alabama/tint-windshield.png",
+    "width": 680
+  },
+  "tire-tread": {
+    "height": 164,
+    "page": 82,
+    "src": "/handbook/alabama/tire-tread.png",
+    "width": 680
+  },
+  "traffic-stop-hands": {
+    "height": 114,
+    "page": 69,
+    "src": "/handbook/alabama/traffic-stop-hands.png",
+    "width": 679
+  },
+  "traffic-stop-night": {
+    "height": 138,
+    "page": 69,
+    "src": "/handbook/alabama/traffic-stop-night.png",
+    "width": 679
+  },
+  "traffic-stop-weapons": {
+    "height": 114,
+    "page": 69,
+    "src": "/handbook/alabama/traffic-stop-weapons.png",
+    "width": 679
+  },
+  "train-stop-mile": {
+    "height": 163,
+    "page": 42,
+    "src": "/handbook/alabama/train-stop-mile.png",
+    "width": 655
+  },
+  "tread-penny": {
+    "height": 138,
+    "page": 14,
+    "src": "/handbook/alabama/tread-penny.png",
+    "width": 679
+  },
+  "truck-apron": {
+    "height": 137,
+    "page": 60,
+    "src": "/handbook/alabama/truck-apron.png",
+    "width": 681
+  },
+  "truck-stopping": {
+    "height": 115,
+    "page": 30,
+    "src": "/handbook/alabama/truck-stopping.png",
+    "width": 684
+  },
+  "turn-finish-lane": {
+    "height": 115,
+    "page": 23,
+    "src": "/handbook/alabama/turn-finish-lane.png",
+    "width": 679
+  },
+  "two-brakes": {
+    "height": 140,
+    "page": 81,
+    "src": "/handbook/alabama/two-brakes.png",
+    "width": 684
+  },
+  "two-second-rule": {
+    "height": 164,
+    "page": 38,
+    "src": "/handbook/alabama/two-second-rule.png",
+    "width": 680
+  },
+  "two-way-left-turn-lane": {
+    "height": 140,
+    "page": 56,
+    "src": "/handbook/alabama/two-way-left-turn-lane.png",
+    "width": 454
+  },
+  "two-way-traffic-sign": {
+    "height": 164,
+    "page": 50,
+    "src": "/handbook/alabama/two-way-traffic-sign.png",
+    "width": 427
+  },
+  "unattended-vehicle": {
+    "height": 159,
+    "page": 40,
+    "src": "/handbook/alabama/unattended-vehicle.png",
+    "width": 680
+  },
+  "under-16-not-licensed": {
+    "height": 116,
+    "page": 8,
+    "src": "/handbook/alabama/under-16-not-licensed.png",
+    "width": 679
+  },
+  "vessel-12": {
+    "height": 136,
+    "page": 17,
+    "src": "/handbook/alabama/vessel-12.png",
+    "width": 680
+  },
+  "vision-fail": {
+    "height": 140,
+    "page": 13,
+    "src": "/handbook/alabama/vision-fail.png",
+    "width": 680
+  },
+  "walk-left": {
+    "height": 116,
+    "page": 67,
+    "src": "/handbook/alabama/walk-left.png",
+    "width": 651
+  },
+  "warning-colors": {
+    "height": 164,
+    "page": 46,
+    "src": "/handbook/alabama/warning-colors.png",
+    "width": 684
+  },
+  "warning-fluorescent": {
+    "height": 140,
+    "page": 46,
+    "src": "/handbook/alabama/warning-fluorescent.png",
+    "width": 684
+  },
+  "wiper-failure": {
+    "height": 163,
+    "page": 77,
+    "src": "/handbook/alabama/wiper-failure.png",
+    "width": 656
+  },
+  "wipers-headlights": {
+    "height": 162,
+    "page": 73,
+    "src": "/handbook/alabama/wipers-headlights.png",
+    "width": 680
+  },
+  "wrong-way": {
+    "height": 163,
+    "page": 44,
+    "src": "/handbook/alabama/wrong-way.png",
+    "width": 428
+  },
+  "yellow-arrow": {
+    "height": 140,
+    "page": 57,
+    "src": "/handbook/alabama/yellow-arrow.png",
+    "width": 443
+  },
+  "yellow-arrow-red": {
+    "height": 140,
+    "page": 58,
+    "src": "/handbook/alabama/yellow-arrow-red.png",
+    "width": 439
+  },
+  "yellow-x": {
+    "height": 139,
+    "page": 58,
+    "src": "/handbook/alabama/yellow-x.png",
+    "width": 439
+  },
+  "yield-sign": {
+    "height": 187,
+    "page": 44,
+    "src": "/handbook/alabama/yield-sign.png",
+    "width": 420
+  },
+  "yield-stop": {
+    "height": 139,
+    "page": 63,
+    "src": "/handbook/alabama/yield-stop.png",
+    "width": 656
+  }
+}

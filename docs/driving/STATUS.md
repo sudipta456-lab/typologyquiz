@@ -40,11 +40,11 @@ one per wave so the `/ca` side keeps pace. Every bank is built to
 
 | Wave | Jurisdiction | Slug | Status |
 |---|---|---|---|
-| 1 | Colorado | colorado | building |
+| 1 | Colorado | colorado | **built** (2026-09-06, 251 excerpts, 230 snippets) |
 | 1 | Minnesota | minnesota | **built** (2026-09-06, 326 excerpts, 312 snippets) |
 | 1 | Wisconsin | wisconsin | building |
 | 1 | South Carolina | southcarolina | building |
-| 1 | Alabama | alabama | building |
+| 1 | Alabama | alabama | **built** (2026-09-06, 350 excerpts, 315 snippets) |
 | 1 | Quebec | quebec | building |
 | 2 | Louisiana | louisiana | queued |
 | 2 | Kentucky | kentucky | queued |
