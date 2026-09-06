@@ -116,6 +116,112 @@ async function handleStats(request, env, slug) {
   return json({ n: hist.n, percentile, real, stored: true });
 }
 
+// ---------------------------------------------------------------------------
+// Short share links.
+//
+// A result link carries the whole result in its query string, so it is long by
+// design - that is what keeps a score on the sharer's device instead of in a
+// database. Shortened, it reads like a normal link.
+//
+// THE RISK, AND THE RULE. An endpoint that shortens a URL somebody hands it is
+// a phishing tool: the attacker gets a typologyquiz.com link that lands on
+// their page. So this NEVER stores a URL. It stores a path on this site, and
+// only one of the shapes below. There is no field anywhere in the request that
+// can name another host.
+//
+// Storage: short:<code> -> "/test/<slug>/results/?r=..."
+//
+// KV's free tier allows roughly 1000 writes a day across the whole account,
+// shared with the stats above. Shortening the same result twice reuses the
+// stored code (a read) rather than burning a second write, and any write
+// failure returns 503 so the page simply keeps showing the long link.
+const SHORT_CODE = /^[0-9a-hjkmnp-tv-z]{7}$/; // Crockford-ish: no i, l, o, u
+const SHORTENABLE = [
+  /^\/test\/[a-z0-9][a-z0-9-]{0,59}\/results\/\?r=[A-Za-z0-9\-_]{1,3000}$/,
+  /^\/driving\/[a-z0-9][a-z0-9-]{0,59}\/[a-z0-9-]{1,40}\/results\/\?[A-Za-z0-9\-_=&%.]{1,3000}$/,
+  /^\/trivia\/[a-z0-9][a-z0-9-]{0,59}\/\?[A-Za-z0-9\-_=&%.]{1,3000}$/,
+];
+
+const CODE_ALPHABET = "0123456789abcdefghjkmnpqrstvwxyz";
+
+function newCode() {
+  const bytes = crypto.getRandomValues(new Uint8Array(7));
+  let out = "";
+  for (const b of bytes) out += CODE_ALPHABET[b % CODE_ALPHABET.length];
+  return out;
+}
+
+/** A stable key for "this exact path", so re-sharing does not write again. */
+async function pathKey(path) {
+  const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(path));
+  const bytes = new Uint8Array(digest).slice(0, 16);
+  let hex = "";
+  for (const b of bytes) hex += b.toString(16).padStart(2, "0");
+  return `path:${hex}`;
+}
+
+async function handleShorten(request, env) {
+  if (request.method !== "POST") return json({ error: "method" }, 405);
+  if (!env.SHORT_LINKS) return json({ error: "unavailable" }, 503);
+
+  const origin = request.headers.get("origin");
+  if (origin && new URL(origin).host !== new URL(request.url).host) {
+    return json({ error: "origin" }, 403);
+  }
+
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return json({ error: "bad json" }, 400);
+  }
+
+  const path = body?.path;
+  if (typeof path !== "string" || path.length > 3100) {
+    return json({ error: "bad payload" }, 400);
+  }
+  // A path, never a URL. "//evil.com" and "https://evil.com" both fail the
+  // first test; a backslash fails it too, because some clients treat "\" as
+  // "/" when resolving.
+  if (!path.startsWith("/") || path.startsWith("//") || path.includes("\\")) {
+    return json({ error: "not a site path" }, 400);
+  }
+  if (!SHORTENABLE.some((re) => re.test(path))) {
+    return json({ error: "not a shareable page" }, 400);
+  }
+
+  const key = await pathKey(path);
+  const existing = await env.SHORT_LINKS.get(key);
+  if (existing && SHORT_CODE.test(existing)) {
+    return json({ code: existing, reused: true });
+  }
+
+  const code = newCode();
+  try {
+    // The code -> path entry is what the redirect needs; the path -> code
+    // entry only exists to avoid a second write for the same result.
+    await env.SHORT_LINKS.put(`short:${code}`, path);
+    await env.SHORT_LINKS.put(key, code);
+  } catch {
+    return json({ error: "write failed" }, 503);
+  }
+  return json({ code, reused: false });
+}
+
+async function handleRedirect(env, code) {
+  if (!SHORT_CODE.test(code) || !env.SHORT_LINKS) {
+    return Response.redirect(new URL("/", "https://typologyquiz.com"), 302);
+  }
+  const path = await env.SHORT_LINKS.get(`short:${code}`);
+  if (!path || !path.startsWith("/") || path.startsWith("//")) {
+    return Response.redirect(new URL("/", "https://typologyquiz.com"), 302);
+  }
+  return new Response(null, {
+    status: 302,
+    headers: { location: path, "cache-control": "public, max-age=600" },
+  });
+}
+
 // Google Search Console verification.
 //
 // Do NOT also place this file in public/. Measured behaviour on this project:
@@ -142,6 +248,13 @@ export default {
 
     const m = url.pathname.match(/^\/api\/stats\/([^/]+)\/?$/);
     if (m) return handleStats(request, env, m[1]);
+
+    if (url.pathname === "/api/short" || url.pathname === "/api/short/") {
+      return handleShorten(request, env);
+    }
+    const s = url.pathname.match(/^\/s\/([^/]+)\/?$/);
+    if (s) return handleRedirect(env, s[1]);
+
     return env.ASSETS.fetch(request);
   },
 };

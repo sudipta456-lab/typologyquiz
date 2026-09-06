@@ -29,3 +29,9 @@ html_handling = "force-trailing-slash"
 [[kv_namespaces]]
 binding = "TRIVIA_STATS"
 id = "74c83b9ecf6748ba8a87c7b322016125"
+
+# Short share links: code -> the site path it stands for. Only ever written
+# when a visitor asks for a short link, and only ever holds paths on this site.
+[[kv_namespaces]]
+binding = "SHORT_LINKS"
+id = "06aff94ce51f4aa39c8d2f868f631dbd"

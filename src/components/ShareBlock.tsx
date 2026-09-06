@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { SITE } from "@/lib/site";
 import { resultNetworks, resultShareText } from "@/lib/share";
 import { useSiteOrigin } from "@/lib/use-site-origin";
+import { useShortLink } from "@/lib/short-link";
 
 interface Props {
   testSlug: string;
@@ -58,14 +59,20 @@ export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props)
     [origin, testSlug, encoded]
   );
 
+  const short = useShortLink(shareUrl, origin);
+  // Once a short link exists it replaces the long one everywhere - the copy
+  // button, the share sheet and every network - so the reader never sees the
+  // long form again.
+  const linkUrl = short.shortUrl ?? shareUrl;
+
   const shareText = useMemo(
-    () => resultShareText(testTitle, resultLabel, shareUrl),
-    [testTitle, resultLabel, shareUrl]
+    () => resultShareText(testTitle, resultLabel, linkUrl),
+    [testTitle, resultLabel, linkUrl]
   );
 
   const networks = useMemo(
-    () => resultNetworks(shareUrl, testTitle, resultLabel),
-    [shareUrl, testTitle, resultLabel]
+    () => resultNetworks(linkUrl, testTitle, resultLabel),
+    [linkUrl, testTitle, resultLabel]
   );
 
   function flash(msg: string) {
@@ -74,7 +81,12 @@ export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props)
   }
 
   async function handleCopyLink() {
-    flash((await copyText(shareUrl)) ? "Link copied" : "Couldn't copy - select the link above");
+    flash((await copyText(linkUrl)) ? "Link copied" : "Couldn't copy - select the link above");
+  }
+
+  async function handleShorten() {
+    const url = await short.shorten();
+    if (url) flash("Short link ready");
   }
 
   async function handleNativeShare() {
@@ -83,7 +95,7 @@ export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props)
         await navigator.share({
           title: `My ${testTitle} results · ${SITE.name}`,
           text: shareText,
-          url: shareUrl,
+          url: linkUrl,
         });
         return;
       } catch {
@@ -115,9 +127,31 @@ export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props)
       </div>
 
       <p className="share-preview">{shareText}</p>
-      <p className="share-url" title={shareUrl}>
-        {shareUrl}
+      <p className="share-url" title={linkUrl}>
+        {linkUrl}
       </p>
+
+      {!short.shortUrl && (
+        <button
+          type="button"
+          onClick={handleShorten}
+          disabled={short.pending}
+          className="share-btn share-btn-outline"
+          style={{ width: "100%", marginBottom: 10 }}
+        >
+          {short.pending ? "Shortening…" : "Make it a short link"}
+        </button>
+      )}
+      {/* Said before the button is pressed, not after. Everywhere else on this
+          page the result never leaves the device; a short link is the one
+          thing that changes that, so it is opt-in and labelled. */}
+      {!short.shortUrl && (
+        <p className="share-note" style={{ marginTop: -4, marginBottom: 12 }}>
+          A short link stores this result on our server so the code can point
+          back to it. The long link below never does.
+        </p>
+      )}
+      {short.error && <p className="share-status">{short.error}</p>}
 
       <div className="share-actions">
         <button type="button" onClick={handleCopyLink} className="share-btn share-btn-outline">
