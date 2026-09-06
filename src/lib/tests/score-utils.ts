@@ -88,10 +88,19 @@ export interface GenericScore {
  * answering the same on everything (or genuinely being well-rounded) yields
  * the `balanced` result rather than whichever axis happens to be listed first.
  */
-export function scoreTypology(test: TestDefinition, answers: Record<string, number>): GenericScore {
+/**
+ * The category a set of typology scores lands in.
+ *
+ * Split out from scoreTypology because it depends on the SCORES alone, never on
+ * the answers. That is what lets a share link carry only the scores: the label
+ * and its description are recomputed on the results page instead of being
+ * written into the URL, which is where most of a share link's length came from.
+ */
+export function typologyCategoryFromScores(
+  test: TestDefinition,
+  scores: Record<string, number>
+): { label: string; description: string } {
   const keys = test.axes.map((a) => a.key);
-  const scores = scoreLikertAxes(test.questions, answers, keys);
-
   const values = keys.map((k) => scores[k]);
   const mean = values.reduce((a, b) => a + b, 0) / (values.length || 1);
 
@@ -112,37 +121,63 @@ export function scoreTypology(test: TestDefinition, answers: Record<string, numb
   // Flat profile (straight-lined or genuinely mixed), or a near-tie at the top.
   const leadsClearly = bestDev >= FLAT_PROFILE_THRESHOLD && bestDev - secondDev >= 2;
   if (!leadsClearly && test.balanced) {
-    return { scores, category: { ...test.balanced } };
+    return { ...test.balanced };
   }
 
   const meta = test.typeMeta?.[bestKey] ?? { label: bestKey, description: "" };
-  return { scores, category: { label: meta.label, description: meta.description } };
+  return { label: meta.label, description: meta.description };
+}
+
+export function scoreTypology(test: TestDefinition, answers: Record<string, number>): GenericScore {
+  const keys = test.axes.map((a) => a.key);
+  const scores = scoreLikertAxes(test.questions, answers, keys);
+  return { scores, category: typologyCategoryFromScores(test, scores) };
 }
 
 /**
  * scoreMode "spectrum": single primary axis (axes[0]) mapped to a band.
  * Reverse-keyed items make a constant answer land mid-spectrum.
  */
-export function scoreSpectrum(test: TestDefinition, answers: Record<string, number>): GenericScore {
-  const keys = test.axes.map((a) => a.key);
-  const scores = scoreLikertAxes(test.questions, answers, keys);
-  const primary = keys[0];
+/** The band a set of spectrum scores falls in. Depends on scores alone. */
+export function spectrumCategoryFromScores(
+  test: TestDefinition,
+  scores: Record<string, number>
+): { label: string; description: string } {
+  const primary = test.axes.map((a) => a.key)[0];
   const value = scores[primary] ?? 50;
 
   const bands = test.spectrumBands ?? [];
-  const band =
-    bands.find((b) => value <= b.max) ?? bands[bands.length - 1];
+  const band = bands.find((b) => value <= b.max) ?? bands[bands.length - 1];
 
-  return {
-    scores,
-    category: band
-      ? { label: band.label, description: band.description }
-      : { label: test.axes[0]?.label ?? "Result", description: "" },
-  };
+  return band
+    ? { label: band.label, description: band.description }
+    : { label: test.axes[0]?.label ?? "Result", description: "" };
+}
+
+export function scoreSpectrum(test: TestDefinition, answers: Record<string, number>): GenericScore {
+  const keys = test.axes.map((a) => a.key);
+  const scores = scoreLikertAxes(test.questions, answers, keys);
+  return { scores, category: spectrumCategoryFromScores(test, scores) };
 }
 
 /** scoreMode "scale": per-axis 0-100 profile, no single winner (like Big Five). */
 export function scoreScale(test: TestDefinition, answers: Record<string, number>): Record<string, number> {
   const keys = test.axes.map((a) => a.key);
   return scoreLikertAxes(test.questions, answers, keys);
+}
+
+/**
+ * Recompute a result's label and description from its scores.
+ *
+ * Returns undefined for score modes whose extras are not a function of the
+ * scores (8values keeps a whole ideology object; the scale tests have no single
+ * label at all). Those still carry their extras in the link.
+ */
+export function categoryFromScores(
+  test: TestDefinition,
+  scores: Record<string, number>
+): { label: string; description: string } | undefined {
+  if (test.scoreMode === "type") return typologyCategoryFromScores(test, scores);
+  if (test.scoreMode === "spectrum") return spectrumCategoryFromScores(test, scores);
+  return undefined;
 }

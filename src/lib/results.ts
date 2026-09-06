@@ -53,9 +53,18 @@ export function encodeResult(
     parts.push("");
   }
 
-  // Base64 encode (URL safe)
+  // Trailing empty fields carry no information; the decoder defaults them.
+  while (parts.length > 3 && parts[parts.length - 1] === "") parts.pop();
+
+  // base64URL: "+/" become "-_" and the "=" padding is dropped, so the result
+  // survives a URL untouched. Standard base64 needed percent-escaping, which
+  // turned every "=" into "%3D" and made a share link look like something you
+  // should not click.
   const raw = parts.join("|");
-  return btoa(unescape(encodeURIComponent(raw)));
+  return btoa(unescape(encodeURIComponent(raw)))
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=+$/, "");
 }
 
 /**
@@ -65,7 +74,13 @@ export function decodeResult(
   encoded: string
 ): { result: TestResult; extras?: Record<string, unknown> } | null {
   try {
-    const raw = decodeURIComponent(escape(atob(encoded)));
+    // Accept both encodings. Links shared before the URL was shortened are
+    // standard base64 with "=" padding; new ones are base64URL without it.
+    // Restoring the alphabet and the padding makes one decoder serve both, so
+    // no link anyone has already sent stops working.
+    let b64 = encoded.replace(/-/g, "+").replace(/_/g, "/");
+    if (b64.length % 4 !== 0) b64 += "=".repeat(4 - (b64.length % 4));
+    const raw = decodeURIComponent(escape(atob(b64)));
     const parts = raw.split("|");
 
     if (parts.length < 3) return null;

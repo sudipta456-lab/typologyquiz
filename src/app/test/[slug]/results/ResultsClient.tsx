@@ -6,6 +6,7 @@ import { Suspense, useEffect, useMemo, useState } from "react";
 import { getTest } from "@/lib/tests/registry";
 import { CATEGORY_META } from "@/lib/types";
 import { decodeResult } from "@/lib/results";
+import { categoryFromScores } from "@/lib/tests/score-utils";
 import { RadarChart } from "@/components/RadarChart";
 import { CompassChart } from "@/components/CompassChart";
 import { DialChart } from "@/components/DialChart";
@@ -46,15 +47,28 @@ function ResultsContent() {
     [encoded]
   );
 
+  // Recomputed from the scores, because the link no longer carries it.
+  // Older links still do, and those win, so a URL shared before the change
+  // keeps showing exactly what it showed then.
+  const derived = useMemo(
+    () =>
+      test && decoded?.result?.scores
+        ? categoryFromScores(test, decoded.result.scores)
+        : undefined,
+    [test, decoded]
+  );
+
   const typeLabel =
     (typeof decoded?.extras?.label === "string" && decoded.extras.label) ||
     (decoded?.extras?.ideology as { label?: string } | undefined)?.label ||
-    (decoded?.extras?.category as { label?: string } | undefined)?.label;
+    (decoded?.extras?.category as { label?: string } | undefined)?.label ||
+    derived?.label;
 
   const rawDescription =
     (typeof decoded?.extras?.description === "string" && decoded.extras.description) ||
     (decoded?.extras?.ideology as { description?: string } | undefined)?.description ||
-    (decoded?.extras?.category as { description?: string } | undefined)?.description;
+    (decoded?.extras?.category as { description?: string } | undefined)?.description ||
+    derived?.description;
 
   const displayDescription = useMemo(
     () => toneBlurb(typeLabel, rawDescription, tone),

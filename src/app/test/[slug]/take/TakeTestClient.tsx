@@ -7,6 +7,7 @@ import { getTest, scoreTest } from "@/lib/tests/registry";
 import { visibleQuestions } from "@/lib/tests/score-utils";
 import { AnswerMap } from "@/lib/types";
 import { saveProgress, loadProgress, clearProgress, encodeResult } from "@/lib/results";
+import { categoryFromScores } from "@/lib/tests/score-utils";
 import { loadSchoolMode } from "@/lib/settings";
 import { recordTestComplete } from "@/lib/progress-game";
 
@@ -217,7 +218,19 @@ export function TakeTestClient() {
   function finishTest(finalAnswers: AnswerMap = answers) {
     if (!test) return;
     const { result, extras } = scoreTest(test, finalAnswers);
-    const encoded = encodeResult({ ...result, completedAt: Date.now() }, extras);
+    // The label and its description are a pure function of the scores, so the
+    // results page recomputes them rather than carrying them in the link. They
+    // were most of a share URL's length: a kkotmal-flower link ran to 492
+    // characters, nearly 400 of which were a percent-encoded copy of prose the
+    // page already knows how to produce.
+    const shareExtras = categoryFromScores(test, result.scores)
+      ? Object.fromEntries(
+          Object.entries(extras ?? {}).filter(
+            ([k]) => k !== "label" && k !== "description"
+          )
+        )
+      : extras;
+    const encoded = encodeResult({ ...result, completedAt: Date.now() }, shareExtras);
     const label =
       typeof extras?.label === "string"
         ? extras.label
