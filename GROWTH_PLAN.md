@@ -138,7 +138,15 @@ All four phases shipped across three build waves (see git history 2026-08-31):
 - **Phase 4 (client side)**: gems + 8 companions, threshold unlock notices; no purchases or timers.
 - **Live play counters (2026-09-01)**: `worker/index.js` is now the Workers entry point, serving `/api/stats/<slug>` over a KV-backed per-quiz histogram and falling through to the static assets for everything else. A finished run reports its score and gets back the share of recorded runs it beat. Real numbers appear once a quiz has 25 samples; below that, and on any failure (offline, blocked, KV write quota), the screen keeps its baked estimate. KV has no atomic increment and the free tier allows about 1000 writes a day, so these are approximate stats by design.
 - **Art (2026-09-01)**: all 80 prompts in `docs/IMAGE_PROMPTS.md` sets A/B/C were generated and shipped through `scripts/process-new-art.mjs`. 20 quizzes now carry result art, including the first spectrum-band art (mental-age, delulu-level). Social cards derive their art from the same tables, so new art lights them up automatically.
-- **Still worth doing**: regenerate `delulu-1-realist`, `delulu-2-daydreams` and `shahnameh-rostam` (pillarboxed), and the `kdrama` set (photographic rather than illustrated).
+- **Art regeneration closed (2026-09-02)**: `delulu-1-realist`, `delulu-2-daydreams`, `shahnameh-rostam` and the full `kdrama` set were rebuilt full-bleed and re-shipped. Nothing outstanding on art.
+
+## Beyond the original plan (2026-09-02/03)
+
+Operator feedback after launch asked for more than the plan specified, so this went further than "implemented":
+
+- **Trivia visual overhaul**: a real world map (434 country paths, zoom/pan, Europe as the same geometry reframed), a real 118-element periodic table (category tints, lanthanide/actinide rows), on-map labels and capital pins (not just colour fills), four new click-the-map quizzes, and share cards that draw the player's own filled map.
+- **Maps as a learning tool**: a persona audit (12-year-old on a phone, a Sporcle regular, a geography teacher) found the first pass had 3 blockers reported as verified but weren't - invisible leader lines putting country names over the wrong country, untappable small states with no in-play zoom, Kosovo silently absorbed into Serbia with no note. All 14 findings from that audit are fixed and deployed: readable leaders + numbered callouts, in-play zoom with finger-sized hit targets, a stated Kosovo note, fuzzy-spelling forgiveness with a no-match hint, one life per double-click (was two), and a readable-text floor on phones.
+- **Hardening**: a LICENSE (all rights reserved, third-party sources named), Cloudflare Bot Fight Mode on (verified not blocking Googlebot/GPTBot/ClaudeBot), Search Console verified and sitemap submitted, `llms.txt` rewritten to be registry-driven so it can't drift, Quiz + BreadcrumbList structured data added to every quiz and trivia page.
 
 ---
 
