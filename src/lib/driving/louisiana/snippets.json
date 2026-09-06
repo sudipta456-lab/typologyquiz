@@ -1,0 +1,1886 @@
+{
+  "abs-not-faster": {
+    "height": 139,
+    "page": 118,
+    "src": "/handbook/louisiana/abs-not-faster.png",
+    "width": 1013
+  },
+  "abs-pumping": {
+    "height": 164,
+    "page": 118,
+    "src": "/handbook/louisiana/abs-pumping.png",
+    "width": 1013
+  },
+  "address-change-10-days": {
+    "height": 114,
+    "page": 15,
+    "src": "/handbook/louisiana/address-change-10-days.png",
+    "width": 983
+  },
+  "age-requirement": {
+    "height": 114,
+    "page": 9,
+    "src": "/handbook/louisiana/age-requirement.png",
+    "width": 976
+  },
+  "aggressive-driver-persists": {
+    "height": 215,
+    "page": 65,
+    "src": "/handbook/louisiana/aggressive-driver-persists.png",
+    "width": 1013
+  },
+  "aggressive-driving-defined": {
+    "height": 164,
+    "page": 64,
+    "src": "/handbook/louisiana/aggressive-driving-defined.png",
+    "width": 1065
+  },
+  "airbag-hand-position": {
+    "height": 165,
+    "page": 46,
+    "src": "/handbook/louisiana/airbag-hand-position.png",
+    "width": 1041
+  },
+  "airbag-supplementary": {
+    "height": 165,
+    "page": 47,
+    "src": "/handbook/louisiana/airbag-supplementary.png",
+    "width": 1006
+  },
+  "airbag-ten-inches": {
+    "height": 164,
+    "page": 46,
+    "src": "/handbook/louisiana/airbag-ten-inches.png",
+    "width": 745
+  },
+  "alcohol-depressant": {
+    "height": 165,
+    "page": 127,
+    "src": "/handbook/louisiana/alcohol-depressant.png",
+    "width": 1027
+  },
+  "alcohol-nothing-sobers": {
+    "height": 139,
+    "page": 127,
+    "src": "/handbook/louisiana/alcohol-nothing-sobers.png",
+    "width": 1027
+  },
+  "alcohol-reaches-brain": {
+    "height": 164,
+    "page": 127,
+    "src": "/handbook/louisiana/alcohol-reaches-brain.png",
+    "width": 1027
+  },
+  "animal-drawn-vehicles": {
+    "height": 164,
+    "page": 110,
+    "src": "/handbook/louisiana/animal-drawn-vehicles.png",
+    "width": 1006
+  },
+  "bac-limits": {
+    "height": 195,
+    "page": 128,
+    "src": "/handbook/louisiana/bac-limits.png",
+    "width": 650
+  },
+  "bac-one-hour": {
+    "height": 165,
+    "page": 128,
+    "src": "/handbook/louisiana/bac-one-hour.png",
+    "width": 1043
+  },
+  "bac-processing-rate": {
+    "height": 157,
+    "page": 128,
+    "src": "/handbook/louisiana/bac-processing-rate.png",
+    "width": 827
+  },
+  "backing-controlled-access": {
+    "height": 164,
+    "page": 101,
+    "src": "/handbook/louisiana/backing-controlled-access.png",
+    "width": 1024
+  },
+  "backing-turn-head": {
+    "height": 113,
+    "page": 51,
+    "src": "/handbook/louisiana/backing-turn-head.png",
+    "width": 1034
+  },
+  "bicycle-door-fault": {
+    "height": 114,
+    "page": 85,
+    "src": "/handbook/louisiana/bicycle-door-fault.png",
+    "width": 1027
+  },
+  "bicycle-helmet-under-12": {
+    "height": 215,
+    "page": 86,
+    "src": "/handbook/louisiana/bicycle-helmet-under-12.png",
+    "width": 999
+  },
+  "bicycle-left-turn-wait": {
+    "height": 114,
+    "page": 85,
+    "src": "/handbook/louisiana/bicycle-left-turn-wait.png",
+    "width": 1016
+  },
+  "bicycle-lights-at-night": {
+    "height": 139,
+    "page": 86,
+    "src": "/handbook/louisiana/bicycle-lights-at-night.png",
+    "width": 999
+  },
+  "bicycle-one-hand": {
+    "height": 139,
+    "page": 102,
+    "src": "/handbook/louisiana/bicycle-one-hand.png",
+    "width": 1010
+  },
+  "bicycle-three-feet": {
+    "height": 139,
+    "page": 85,
+    "src": "/handbook/louisiana/bicycle-three-feet.png",
+    "width": 1024
+  },
+  "bicycle-two-abreast": {
+    "height": 191,
+    "page": 102,
+    "src": "/handbook/louisiana/bicycle-two-abreast.png",
+    "width": 1042
+  },
+  "bicycles-same-rights": {
+    "height": 139,
+    "page": 85,
+    "src": "/handbook/louisiana/bicycles-same-rights.png",
+    "width": 1016
+  },
+  "blind-five-feet": {
+    "height": 195,
+    "page": 82,
+    "src": "/handbook/louisiana/blind-five-feet.png",
+    "width": 1027
+  },
+  "blind-spots-defined": {
+    "height": 164,
+    "page": 68,
+    "src": "/handbook/louisiana/blind-spots-defined.png",
+    "width": 1045
+  },
+  "brakes-fail": {
+    "height": 140,
+    "page": 122,
+    "src": "/handbook/louisiana/brakes-fail.png",
+    "width": 1019
+  },
+  "braking-distance-50": {
+    "height": 139,
+    "page": 69,
+    "src": "/handbook/louisiana/braking-distance-50.png",
+    "width": 1023
+  },
+  "breakdown-flares": {
+    "height": 139,
+    "page": 123,
+    "src": "/handbook/louisiana/breakdown-flares.png",
+    "width": 1019
+  },
+  "carbon-monoxide": {
+    "height": 139,
+    "page": 124,
+    "src": "/handbook/louisiana/carbon-monoxide.png",
+    "width": 1018
+  },
+  "channelizing-stripes": {
+    "height": 164,
+    "page": 37,
+    "src": "/handbook/louisiana/channelizing-stripes.png",
+    "width": 1022
+  },
+  "child-more-protective": {
+    "height": 139,
+    "page": 46,
+    "src": "/handbook/louisiana/child-more-protective.png",
+    "width": 1041
+  },
+  "child-never-on-lap": {
+    "height": 189,
+    "page": 46,
+    "src": "/handbook/louisiana/child-never-on-lap.png",
+    "width": 1041
+  },
+  "child-restraint-law": {
+    "height": 164,
+    "page": 45,
+    "src": "/handbook/louisiana/child-restraint-law.png",
+    "width": 1025
+  },
+  "child-restraint-stages": {
+    "height": 114,
+    "page": 45,
+    "src": "/handbook/louisiana/child-restraint-stages.png",
+    "width": 980
+  },
+  "class-e-scope": {
+    "height": 139,
+    "page": 7,
+    "src": "/handbook/louisiana/class-e-scope.png",
+    "width": 995
+  },
+  "coasting": {
+    "height": 114,
+    "page": 134,
+    "src": "/handbook/louisiana/coasting.png",
+    "width": 975
+  },
+  "color-amber": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/louisiana/color-amber.png",
+    "width": 741
+  },
+  "color-blue": {
+    "height": 189,
+    "page": 29,
+    "src": "/handbook/louisiana/color-blue.png",
+    "width": 732
+  },
+  "color-brown": {
+    "height": 140,
+    "page": 29,
+    "src": "/handbook/louisiana/color-brown.png",
+    "width": 746
+  },
+  "color-fluorescent-pink": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/louisiana/color-fluorescent-pink.png",
+    "width": 763
+  },
+  "color-fluorescent-yellow-green": {
+    "height": 140,
+    "page": 29,
+    "src": "/handbook/louisiana/color-fluorescent-yellow-green.png",
+    "width": 730
+  },
+  "color-green": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/louisiana/color-green.png",
+    "width": 722
+  },
+  "color-orange": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/louisiana/color-orange.png",
+    "width": 738
+  },
+  "color-red": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/louisiana/color-red.png",
+    "width": 764
+  },
+  "corrective-lens-restriction": {
+    "height": 164,
+    "page": 13,
+    "src": "/handbook/louisiana/corrective-lens-restriction.png",
+    "width": 1016
+  },
+  "crash-duties": {
+    "height": 139,
+    "page": 125,
+    "src": "/handbook/louisiana/crash-duties.png",
+    "width": 1030
+  },
+  "crash-exchange-info": {
+    "height": 139,
+    "page": 125,
+    "src": "/handbook/louisiana/crash-exchange-info.png",
+    "width": 1016
+  },
+  "crash-unattended-vehicle": {
+    "height": 164,
+    "page": 125,
+    "src": "/handbook/louisiana/crash-unattended-vehicle.png",
+    "width": 1029
+  },
+  "crossbuck-is-yield": {
+    "height": 164,
+    "page": 28,
+    "src": "/handbook/louisiana/crossbuck-is-yield.png",
+    "width": 817
+  },
+  "crossbuck-yield-to-train": {
+    "height": 140,
+    "page": 34,
+    "src": "/handbook/louisiana/crossbuck-yield-to-train.png",
+    "width": 985
+  },
+  "crosswalk-right-of-way": {
+    "height": 190,
+    "page": 41,
+    "src": "/handbook/louisiana/crosswalk-right-of-way.png",
+    "width": 1034
+  },
+  "deceleration-lane": {
+    "height": 164,
+    "page": 107,
+    "src": "/handbook/louisiana/deceleration-lane.png",
+    "width": 1023
+  },
+  "deer-do-not-swerve": {
+    "height": 139,
+    "page": 110,
+    "src": "/handbook/louisiana/deer-do-not-swerve.png",
+    "width": 1046
+  },
+  "dim-500-200": {
+    "height": 138,
+    "page": 80,
+    "src": "/handbook/louisiana/dim-500-200.png",
+    "width": 1017
+  },
+  "dim-500-200-trucks": {
+    "height": 139,
+    "page": 134,
+    "src": "/handbook/louisiana/dim-500-200-trucks.png",
+    "width": 1033
+  },
+  "directional-markings": {
+    "height": 139,
+    "page": 41,
+    "src": "/handbook/louisiana/directional-markings.png",
+    "width": 985
+  },
+  "divided-highway-median": {
+    "height": 189,
+    "page": 92,
+    "src": "/handbook/louisiana/divided-highway-median.png",
+    "width": 1031
+  },
+  "do-not-block-intersection": {
+    "height": 142,
+    "page": 33,
+    "src": "/handbook/louisiana/do-not-block-intersection.png",
+    "width": 805
+  },
+  "do-not-enter": {
+    "height": 226,
+    "page": 34,
+    "src": "/handbook/louisiana/do-not-enter.png",
+    "width": 797
+  },
+  "do-not-pass-sign": {
+    "height": 198,
+    "page": 33,
+    "src": "/handbook/louisiana/do-not-pass-sign.png",
+    "width": 804
+  },
+  "dont-pass-stopped-at-crosswalk": {
+    "height": 165,
+    "page": 81,
+    "src": "/handbook/louisiana/dont-pass-stopped-at-crosswalk.png",
+    "width": 1024
+  },
+  "dont-walk-signal": {
+    "height": 215,
+    "page": 81,
+    "src": "/handbook/louisiana/dont-walk-signal.png",
+    "width": 535
+  },
+  "drag-racing": {
+    "height": 165,
+    "page": 92,
+    "src": "/handbook/louisiana/drag-racing.png",
+    "width": 1031
+  },
+  "driver-ed-before-application": {
+    "height": 164,
+    "page": 8,
+    "src": "/handbook/louisiana/driver-ed-before-application.png",
+    "width": 1029
+  },
+  "driving-record-five-years": {
+    "height": 139,
+    "page": 16,
+    "src": "/handbook/louisiana/driving-record-five-years.png",
+    "width": 1033
+  },
+  "drowsy-limit-midnight": {
+    "height": 113,
+    "page": 62,
+    "src": "/handbook/louisiana/drowsy-limit-midnight.png",
+    "width": 981
+  },
+  "drugs-same-penalty": {
+    "height": 165,
+    "page": 130,
+    "src": "/handbook/louisiana/drugs-same-penalty.png",
+    "width": 1038
+  },
+  "dwi-first-conviction": {
+    "height": 113,
+    "page": 129,
+    "src": "/handbook/louisiana/dwi-first-conviction.png",
+    "width": 466
+  },
+  "dwi-third-felony": {
+    "height": 114,
+    "page": 129,
+    "src": "/handbook/louisiana/dwi-third-felony.png",
+    "width": 634
+  },
+  "edge-forward-slowly": {
+    "height": 138,
+    "page": 67,
+    "src": "/handbook/louisiana/edge-forward-slowly.png",
+    "width": 1040
+  },
+  "emergency-turn-away": {
+    "height": 164,
+    "page": 118,
+    "src": "/handbook/louisiana/emergency-turn-away.png",
+    "width": 1035
+  },
+  "emergency-vehicle-approach": {
+    "height": 164,
+    "page": 126,
+    "src": "/handbook/louisiana/emergency-vehicle-approach.png",
+    "width": 1032
+  },
+  "exit-signal-five-seconds": {
+    "height": 139,
+    "page": 107,
+    "src": "/handbook/louisiana/exit-signal-five-seconds.png",
+    "width": 1020
+  },
+  "fatigue-rest-two-hours": {
+    "height": 139,
+    "page": 61,
+    "src": "/handbook/louisiana/fatigue-rest-two-hours.png",
+    "width": 1053
+  },
+  "finish-turn-proper-lane": {
+    "height": 114,
+    "page": 94,
+    "src": "/handbook/louisiana/finish-turn-proper-lane.png",
+    "width": 852
+  },
+  "fire-hoses": {
+    "height": 140,
+    "page": 102,
+    "src": "/handbook/louisiana/fire-hoses.png",
+    "width": 995
+  },
+  "flag-persons": {
+    "height": 138,
+    "page": 38,
+    "src": "/handbook/louisiana/flag-persons.png",
+    "width": 1039
+  },
+  "flooded-roadway": {
+    "height": 255,
+    "page": 124,
+    "src": "/handbook/louisiana/flooded-roadway.png",
+    "width": 980
+  },
+  "fog-driving": {
+    "height": 164,
+    "page": 111,
+    "src": "/handbook/louisiana/fog-driving.png",
+    "width": 1032
+  },
+  "following-emergency-500": {
+    "height": 139,
+    "page": 102,
+    "src": "/handbook/louisiana/following-emergency-500.png",
+    "width": 1015
+  },
+  "four-second-rule": {
+    "height": 139,
+    "page": 71,
+    "src": "/handbook/louisiana/four-second-rule.png",
+    "width": 1030
+  },
+  "four-second-situations": {
+    "height": 165,
+    "page": 71,
+    "src": "/handbook/louisiana/four-second-situations.png",
+    "width": 1066
+  },
+  "funeral-procession": {
+    "height": 165,
+    "page": 102,
+    "src": "/handbook/louisiana/funeral-procession.png",
+    "width": 1042
+  },
+  "gas-pedal-sticks": {
+    "height": 215,
+    "page": 122,
+    "src": "/handbook/louisiana/gas-pedal-sticks.png",
+    "width": 1016
+  },
+  "gdl-fifty-hours": {
+    "height": 190,
+    "page": 12,
+    "src": "/handbook/louisiana/gdl-fifty-hours.png",
+    "width": 1039
+  },
+  "gdl-stage1": {
+    "height": 215,
+    "page": 12,
+    "src": "/handbook/louisiana/gdl-stage1.png",
+    "width": 1005
+  },
+  "gdl-stage2-curfew": {
+    "height": 163,
+    "page": 12,
+    "src": "/handbook/louisiana/gdl-stage2-curfew.png",
+    "width": 972
+  },
+  "gdl-stage3": {
+    "height": 165,
+    "page": 12,
+    "src": "/handbook/louisiana/gdl-stage3.png",
+    "width": 900
+  },
+  "general-speed-law": {
+    "height": 164,
+    "page": 92,
+    "src": "/handbook/louisiana/general-speed-law.png",
+    "width": 1030
+  },
+  "gravel-roads": {
+    "height": 139,
+    "page": 108,
+    "src": "/handbook/louisiana/gravel-roads.png",
+    "width": 1025
+  },
+  "hand-over-hand-steering": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/louisiana/hand-over-hand-steering.png",
+    "width": 1039
+  },
+  "hand-signals": {
+    "height": 139,
+    "page": 98,
+    "src": "/handbook/louisiana/hand-signals.png",
+    "width": 1038
+  },
+  "hand-to-hand-steering": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/louisiana/hand-to-hand-steering.png",
+    "width": 1039
+  },
+  "headlight-beam-distances": {
+    "height": 165,
+    "page": 80,
+    "src": "/handbook/louisiana/headlight-beam-distances.png",
+    "width": 1017
+  },
+  "headlights-500-feet-visibility": {
+    "height": 139,
+    "page": 80,
+    "src": "/handbook/louisiana/headlights-500-feet-visibility.png",
+    "width": 981
+  },
+  "headlights-sunset-to-sunrise": {
+    "height": 139,
+    "page": 80,
+    "src": "/handbook/louisiana/headlights-sunset-to-sunrise.png",
+    "width": 1017
+  },
+  "headlights-when-wipers": {
+    "height": 139,
+    "page": 102,
+    "src": "/handbook/louisiana/headlights-when-wipers.png",
+    "width": 965
+  },
+  "headlights-with-wipers": {
+    "height": 164,
+    "page": 80,
+    "src": "/handbook/louisiana/headlights-with-wipers.png",
+    "width": 1017
+  },
+  "headphones": {
+    "height": 172,
+    "page": 102,
+    "src": "/handbook/louisiana/headphones.png",
+    "width": 1020
+  },
+  "highway-hypnosis": {
+    "height": 165,
+    "page": 61,
+    "src": "/handbook/louisiana/highway-hypnosis.png",
+    "width": 1029
+  },
+  "hit-and-run": {
+    "height": 139,
+    "page": 131,
+    "src": "/handbook/louisiana/hit-and-run.png",
+    "width": 1045
+  },
+  "horseback-riders": {
+    "height": 215,
+    "page": 111,
+    "src": "/handbook/louisiana/horseback-riders.png",
+    "width": 1025
+  },
+  "house-trailer-riding": {
+    "height": 113,
+    "page": 101,
+    "src": "/handbook/louisiana/house-trailer-riding.png",
+    "width": 1024
+  },
+  "hydroplaning-speeds": {
+    "height": 165,
+    "page": 79,
+    "src": "/handbook/louisiana/hydroplaning-speeds.png",
+    "width": 1016
+  },
+  "i49-75": {
+    "height": 114,
+    "page": 134,
+    "src": "/handbook/louisiana/i49-75.png",
+    "width": 544
+  },
+  "ignition-lock-in-motion": {
+    "height": 140,
+    "page": 51,
+    "src": "/handbook/louisiana/ignition-lock-in-motion.png",
+    "width": 1034
+  },
+  "implied-consent": {
+    "height": 190,
+    "page": 131,
+    "src": "/handbook/louisiana/implied-consent.png",
+    "width": 1045
+  },
+  "inspection-sticker": {
+    "height": 139,
+    "page": 142,
+    "src": "/handbook/louisiana/inspection-sticker.png",
+    "width": 802
+  },
+  "insurance-three-days": {
+    "height": 189,
+    "page": 141,
+    "src": "/handbook/louisiana/insurance-three-days.png",
+    "width": 1009
+  },
+  "intersection-look-left-right-left": {
+    "height": 215,
+    "page": 67,
+    "src": "/handbook/louisiana/intersection-look-left-right-left.png",
+    "width": 561
+  },
+  "interstate-70-max": {
+    "height": 164,
+    "page": 105,
+    "src": "/handbook/louisiana/interstate-70-max.png",
+    "width": 1011
+  },
+  "interstate-four-second-cushion": {
+    "height": 189,
+    "page": 106,
+    "src": "/handbook/louisiana/interstate-four-second-cushion.png",
+    "width": 1039
+  },
+  "interstate-right-lane": {
+    "height": 140,
+    "page": 106,
+    "src": "/handbook/louisiana/interstate-right-lane.png",
+    "width": 1022
+  },
+  "interstate-right-of-way": {
+    "height": 139,
+    "page": 105,
+    "src": "/handbook/louisiana/interstate-right-of-way.png",
+    "width": 1035
+  },
+  "keep-right-law": {
+    "height": 240,
+    "page": 40,
+    "src": "/handbook/louisiana/keep-right-law.png",
+    "width": 604
+  },
+  "knowledge-test-80": {
+    "height": 190,
+    "page": 13,
+    "src": "/handbook/louisiana/knowledge-test-80.png",
+    "width": 1030
+  },
+  "lane-change-gap": {
+    "height": 140,
+    "page": 68,
+    "src": "/handbook/louisiana/lane-change-gap.png",
+    "width": 1045
+  },
+  "lane-change-intersection": {
+    "height": 139,
+    "page": 93,
+    "src": "/handbook/louisiana/lane-change-intersection.png",
+    "width": 1037
+  },
+  "leaving-vehicle-unattended": {
+    "height": 141,
+    "page": 75,
+    "src": "/handbook/louisiana/leaving-vehicle-unattended.png",
+    "width": 1042
+  },
+  "left-turn-only-lanes": {
+    "height": 167,
+    "page": 95,
+    "src": "/handbook/louisiana/left-turn-only-lanes.png",
+    "width": 966
+  },
+  "left-turn-wheels-straight": {
+    "height": 165,
+    "page": 95,
+    "src": "/handbook/louisiana/left-turn-wheels-straight.png",
+    "width": 566
+  },
+  "left-turn-yield-on-green": {
+    "height": 139,
+    "page": 33,
+    "src": "/handbook/louisiana/left-turn-yield-on-green.png",
+    "width": 786
+  },
+  "licence-expiry-six-years": {
+    "height": 139,
+    "page": 15,
+    "src": "/handbook/louisiana/licence-expiry-six-years.png",
+    "width": 1022
+  },
+  "licence-misuse": {
+    "height": 190,
+    "page": 102,
+    "src": "/handbook/louisiana/licence-misuse.png",
+    "width": 1026
+  },
+  "license-carry-show": {
+    "height": 139,
+    "page": 6,
+    "src": "/handbook/louisiana/license-carry-show.png",
+    "width": 1034
+  },
+  "license-required": {
+    "height": 139,
+    "page": 6,
+    "src": "/handbook/louisiana/license-required.png",
+    "width": 1034
+  },
+  "litter-driver-liable": {
+    "height": 140,
+    "page": 19,
+    "src": "/handbook/louisiana/litter-driver-liable.png",
+    "width": 1106
+  },
+  "litter-fine": {
+    "height": 166,
+    "page": 19,
+    "src": "/handbook/louisiana/litter-fine.png",
+    "width": 1101
+  },
+  "load-red-flag": {
+    "height": 164,
+    "page": 133,
+    "src": "/handbook/louisiana/load-red-flag.png",
+    "width": 1021
+  },
+  "marijuana-five-six-hours": {
+    "height": 164,
+    "page": 130,
+    "src": "/handbook/louisiana/marijuana-five-six-hours.png",
+    "width": 1034
+  },
+  "marking-broken-yellow": {
+    "height": 249,
+    "page": 39,
+    "src": "/handbook/louisiana/marking-broken-yellow.png",
+    "width": 1023
+  },
+  "marking-double-white": {
+    "height": 190,
+    "page": 40,
+    "src": "/handbook/louisiana/marking-double-white.png",
+    "width": 427
+  },
+  "marking-double-yellow": {
+    "height": 240,
+    "page": 39,
+    "src": "/handbook/louisiana/marking-double-yellow.png",
+    "width": 412
+  },
+  "marking-no-passing-line": {
+    "height": 240,
+    "page": 39,
+    "src": "/handbook/louisiana/marking-no-passing-line.png",
+    "width": 414
+  },
+  "marking-railroad": {
+    "height": 166,
+    "page": 40,
+    "src": "/handbook/louisiana/marking-railroad.png",
+    "width": 438
+  },
+  "marking-red-reflectors": {
+    "height": 189,
+    "page": 40,
+    "src": "/handbook/louisiana/marking-red-reflectors.png",
+    "width": 425
+  },
+  "marking-solid-white": {
+    "height": 218,
+    "page": 40,
+    "src": "/handbook/louisiana/marking-solid-white.png",
+    "width": 442
+  },
+  "max-speed-70": {
+    "height": 114,
+    "page": 133,
+    "src": "/handbook/louisiana/max-speed-70.png",
+    "width": 671
+  },
+  "merge-four-second-gap": {
+    "height": 139,
+    "page": 106,
+    "src": "/handbook/louisiana/merge-four-second-gap.png",
+    "width": 1025
+  },
+  "mirror-200-feet": {
+    "height": 138,
+    "page": 134,
+    "src": "/handbook/louisiana/mirror-200-feet.png",
+    "width": 1036
+  },
+  "missed-exit": {
+    "height": 138,
+    "page": 107,
+    "src": "/handbook/louisiana/missed-exit.png",
+    "width": 1019
+  },
+  "motorcycle-appears-farther": {
+    "height": 141,
+    "page": 86,
+    "src": "/handbook/louisiana/motorcycle-appears-farther.png",
+    "width": 1033
+  },
+  "motorcycle-four-seconds": {
+    "height": 139,
+    "page": 87,
+    "src": "/handbook/louisiana/motorcycle-four-seconds.png",
+    "width": 1012
+  },
+  "motorcycle-full-lane": {
+    "height": 139,
+    "page": 87,
+    "src": "/handbook/louisiana/motorcycle-full-lane.png",
+    "width": 1018
+  },
+  "motorcycle-intersections": {
+    "height": 139,
+    "page": 87,
+    "src": "/handbook/louisiana/motorcycle-intersections.png",
+    "width": 1023
+  },
+  "move-it-move-it": {
+    "height": 113,
+    "page": 126,
+    "src": "/handbook/louisiana/move-it-move-it.png",
+    "width": 995
+  },
+  "move-over-incident-signs": {
+    "height": 139,
+    "page": 35,
+    "src": "/handbook/louisiana/move-over-incident-signs.png",
+    "width": 1011
+  },
+  "move-over-lane-change": {
+    "height": 165,
+    "page": 126,
+    "src": "/handbook/louisiana/move-over-lane-change.png",
+    "width": 1003
+  },
+  "new-resident-30-days": {
+    "height": 138,
+    "page": 6,
+    "src": "/handbook/louisiana/new-resident-30-days.png",
+    "width": 1034
+  },
+  "night-dim-one-block": {
+    "height": 114,
+    "page": 112,
+    "src": "/handbook/louisiana/night-dim-one-block.png",
+    "width": 1039
+  },
+  "night-extra-second": {
+    "height": 164,
+    "page": 80,
+    "src": "/handbook/louisiana/night-extra-second.png",
+    "width": 1017
+  },
+  "night-high-beams": {
+    "height": 139,
+    "page": 112,
+    "src": "/handbook/louisiana/night-high-beams.png",
+    "width": 1039
+  },
+  "night-no-sunglasses": {
+    "height": 139,
+    "page": 112,
+    "src": "/handbook/louisiana/night-no-sunglasses.png",
+    "width": 1045
+  },
+  "no-turn-on-red-sign": {
+    "height": 169,
+    "page": 33,
+    "src": "/handbook/louisiana/no-turn-on-red-sign.png",
+    "width": 792
+  },
+  "no-uturn-hill-curve": {
+    "height": 164,
+    "page": 95,
+    "src": "/handbook/louisiana/no-uturn-hill-curve.png",
+    "width": 621
+  },
+  "nonresident-90-days": {
+    "height": 139,
+    "page": 6,
+    "src": "/handbook/louisiana/nonresident-90-days.png",
+    "width": 998
+  },
+  "obey-police": {
+    "height": 114,
+    "page": 91,
+    "src": "/handbook/louisiana/obey-police.png",
+    "width": 1007
+  },
+  "oncoming-car-in-lane": {
+    "height": 215,
+    "page": 118,
+    "src": "/handbook/louisiana/oncoming-car-in-lane.png",
+    "width": 1015
+  },
+  "one-way-street": {
+    "height": 164,
+    "page": 33,
+    "src": "/handbook/louisiana/one-way-street.png",
+    "width": 800
+  },
+  "open-container": {
+    "height": 240,
+    "page": 129,
+    "src": "/handbook/louisiana/open-container.png",
+    "width": 1024
+  },
+  "otc-drugs": {
+    "height": 164,
+    "page": 63,
+    "src": "/handbook/louisiana/otc-drugs.png",
+    "width": 1038
+  },
+  "overheating": {
+    "height": 139,
+    "page": 122,
+    "src": "/handbook/louisiana/overheating.png",
+    "width": 1019
+  },
+  "oversteer-correction": {
+    "height": 189,
+    "page": 53,
+    "src": "/handbook/louisiana/oversteer-correction.png",
+    "width": 1039
+  },
+  "painted-curbs": {
+    "height": 159,
+    "page": 75,
+    "src": "/handbook/louisiana/painted-curbs.png",
+    "width": 671
+  },
+  "parallel-park-18-inches": {
+    "height": 141,
+    "page": 75,
+    "src": "/handbook/louisiana/parallel-park-18-inches.png",
+    "width": 1042
+  },
+  "parking-bike-lane": {
+    "height": 114,
+    "page": 75,
+    "src": "/handbook/louisiana/parking-bike-lane.png",
+    "width": 1036
+  },
+  "parking-brake-always": {
+    "height": 139,
+    "page": 72,
+    "src": "/handbook/louisiana/parking-brake-always.png",
+    "width": 991
+  },
+  "parking-crosswalk-20": {
+    "height": 113,
+    "page": 75,
+    "src": "/handbook/louisiana/parking-crosswalk-20.png",
+    "width": 1036
+  },
+  "parking-fire-station": {
+    "height": 140,
+    "page": 75,
+    "src": "/handbook/louisiana/parking-fire-station.png",
+    "width": 1036
+  },
+  "parking-hydrant-railroad": {
+    "height": 142,
+    "page": 75,
+    "src": "/handbook/louisiana/parking-hydrant-railroad.png",
+    "width": 1036
+  },
+  "parking-on-hills": {
+    "height": 114,
+    "page": 73,
+    "src": "/handbook/louisiana/parking-on-hills.png",
+    "width": 1008
+  },
+  "parking-signal-20-feet": {
+    "height": 141,
+    "page": 75,
+    "src": "/handbook/louisiana/parking-signal-20-feet.png",
+    "width": 1036
+  },
+  "passing-100-feet": {
+    "height": 165,
+    "page": 76,
+    "src": "/handbook/louisiana/passing-100-feet.png",
+    "width": 1023
+  },
+  "passing-bridge-100": {
+    "height": 113,
+    "page": 76,
+    "src": "/handbook/louisiana/passing-bridge-100.png",
+    "width": 789
+  },
+  "passing-intersection-100": {
+    "height": 114,
+    "page": 76,
+    "src": "/handbook/louisiana/passing-intersection-100.png",
+    "width": 789
+  },
+  "passing-left-lane-purpose": {
+    "height": 164,
+    "page": 77,
+    "src": "/handbook/louisiana/passing-left-lane-purpose.png",
+    "width": 1039
+  },
+  "passing-no-interference": {
+    "height": 139,
+    "page": 76,
+    "src": "/handbook/louisiana/passing-no-interference.png",
+    "width": 1023
+  },
+  "passing-on-right": {
+    "height": 164,
+    "page": 77,
+    "src": "/handbook/louisiana/passing-on-right.png",
+    "width": 1031
+  },
+  "passing-oncoming-25-seconds": {
+    "height": 139,
+    "page": 78,
+    "src": "/handbook/louisiana/passing-oncoming-25-seconds.png",
+    "width": 1042
+  },
+  "passing-view-blocked": {
+    "height": 113,
+    "page": 76,
+    "src": "/handbook/louisiana/passing-view-blocked.png",
+    "width": 789
+  },
+  "pedestrian-right-of-way": {
+    "height": 168,
+    "page": 81,
+    "src": "/handbook/louisiana/pedestrian-right-of-way.png",
+    "width": 1032
+  },
+  "proof-of-insurance-card": {
+    "height": 139,
+    "page": 12,
+    "src": "/handbook/louisiana/proof-of-insurance-card.png",
+    "width": 1050
+  },
+  "quarter-mile-passing": {
+    "height": 139,
+    "page": 93,
+    "src": "/handbook/louisiana/quarter-mile-passing.png",
+    "width": 1037
+  },
+  "railroad-50-15": {
+    "height": 114,
+    "page": 99,
+    "src": "/handbook/louisiana/railroad-50-15.png",
+    "width": 784
+  },
+  "railroad-gates": {
+    "height": 192,
+    "page": 100,
+    "src": "/handbook/louisiana/railroad-gates.png",
+    "width": 859
+  },
+  "railroad-mile-to-stop": {
+    "height": 138,
+    "page": 101,
+    "src": "/handbook/louisiana/railroad-mile-to-stop.png",
+    "width": 1034
+  },
+  "railroad-must-stop-vehicles": {
+    "height": 189,
+    "page": 99,
+    "src": "/handbook/louisiana/railroad-must-stop-vehicles.png",
+    "width": 1020
+  },
+  "railroad-never-shift": {
+    "height": 165,
+    "page": 100,
+    "src": "/handbook/louisiana/railroad-never-shift.png",
+    "width": 859
+  },
+  "railroad-no-stopping-on-tracks": {
+    "height": 138,
+    "page": 99,
+    "src": "/handbook/louisiana/railroad-no-stopping-on-tracks.png",
+    "width": 1020
+  },
+  "railroad-stalled": {
+    "height": 164,
+    "page": 99,
+    "src": "/handbook/louisiana/railroad-stalled.png",
+    "width": 1020
+  },
+  "railroad-trains-right-of-way": {
+    "height": 139,
+    "page": 101,
+    "src": "/handbook/louisiana/railroad-trains-right-of-way.png",
+    "width": 1034
+  },
+  "reaction-distance": {
+    "height": 139,
+    "page": 69,
+    "src": "/handbook/louisiana/reaction-distance.png",
+    "width": 1024
+  },
+  "rear-collision-brace": {
+    "height": 190,
+    "page": 119,
+    "src": "/handbook/louisiana/rear-collision-brace.png",
+    "width": 796
+  },
+  "rear-fog-light": {
+    "height": 139,
+    "page": 80,
+    "src": "/handbook/louisiana/rear-fog-light.png",
+    "width": 1004
+  },
+  "refusal-suspension": {
+    "height": 139,
+    "page": 131,
+    "src": "/handbook/louisiana/refusal-suspension.png",
+    "width": 1047
+  },
+  "registration-address-10-days": {
+    "height": 114,
+    "page": 141,
+    "src": "/handbook/louisiana/registration-address-10-days.png",
+    "width": 1013
+  },
+  "registration-in-vehicle": {
+    "height": 139,
+    "page": 140,
+    "src": "/handbook/louisiana/registration-in-vehicle.png",
+    "width": 1022
+  },
+  "revocation-grounds": {
+    "height": 170,
+    "page": 17,
+    "src": "/handbook/louisiana/revocation-grounds.png",
+    "width": 1006
+  },
+  "revocation-reckless-three": {
+    "height": 113,
+    "page": 17,
+    "src": "/handbook/louisiana/revocation-reckless-three.png",
+    "width": 1006
+  },
+  "revocation-school-bus": {
+    "height": 114,
+    "page": 17,
+    "src": "/handbook/louisiana/revocation-school-bus.png",
+    "width": 1006
+  },
+  "right-turn-rightmost": {
+    "height": 190,
+    "page": 95,
+    "src": "/handbook/louisiana/right-turn-rightmost.png",
+    "width": 580
+  },
+  "road-rage-criminal": {
+    "height": 164,
+    "page": 65,
+    "src": "/handbook/louisiana/road-rage-criminal.png",
+    "width": 1013
+  },
+  "road-test-fail-reasons": {
+    "height": 113,
+    "page": 15,
+    "src": "/handbook/louisiana/road-test-fail-reasons.png",
+    "width": 585
+  },
+  "road-test-vehicle": {
+    "height": 143,
+    "page": 14,
+    "src": "/handbook/louisiana/road-test-vehicle.png",
+    "width": 1039
+  },
+  "rollover-off-pavement": {
+    "height": 139,
+    "page": 120,
+    "src": "/handbook/louisiana/rollover-off-pavement.png",
+    "width": 1043
+  },
+  "rollover-safety-belt": {
+    "height": 164,
+    "page": 120,
+    "src": "/handbook/louisiana/rollover-safety-belt.png",
+    "width": 1043
+  },
+  "roundabout-basics": {
+    "height": 269,
+    "page": 42,
+    "src": "/handbook/louisiana/roundabout-basics.png",
+    "width": 982
+  },
+  "roundabout-signals": {
+    "height": 164,
+    "page": 97,
+    "src": "/handbook/louisiana/roundabout-signals.png",
+    "width": 1039
+  },
+  "roundabout-speed": {
+    "height": 172,
+    "page": 96,
+    "src": "/handbook/louisiana/roundabout-speed.png",
+    "width": 1031
+  },
+  "roundabout-yield-right": {
+    "height": 164,
+    "page": 97,
+    "src": "/handbook/louisiana/roundabout-yield-right.png",
+    "width": 1039
+  },
+  "row-driveway": {
+    "height": 139,
+    "page": 98,
+    "src": "/handbook/louisiana/row-driveway.png",
+    "width": 980
+  },
+  "row-emergency-vehicle": {
+    "height": 168,
+    "page": 98,
+    "src": "/handbook/louisiana/row-emergency-vehicle.png",
+    "width": 1006
+  },
+  "row-left-yields-right": {
+    "height": 164,
+    "page": 98,
+    "src": "/handbook/louisiana/row-left-yields-right.png",
+    "width": 998
+  },
+  "row-list": {
+    "height": 166,
+    "page": 98,
+    "src": "/handbook/louisiana/row-list.png",
+    "width": 980
+  },
+  "row-not-a-right": {
+    "height": 139,
+    "page": 98,
+    "src": "/handbook/louisiana/row-not-a-right.png",
+    "width": 1038
+  },
+  "safety-chains": {
+    "height": 190,
+    "page": 138,
+    "src": "/handbook/louisiana/safety-chains.png",
+    "width": 1020
+  },
+  "school-bus-30-feet": {
+    "height": 114,
+    "page": 93,
+    "src": "/handbook/louisiana/school-bus-30-feet.png",
+    "width": 1037
+  },
+  "school-bus-both-directions": {
+    "height": 219,
+    "page": 93,
+    "src": "/handbook/louisiana/school-bus-both-directions.png",
+    "width": 1037
+  },
+  "school-bus-divided": {
+    "height": 164,
+    "page": 93,
+    "src": "/handbook/louisiana/school-bus-divided.png",
+    "width": 1011
+  },
+  "school-bus-four-lane": {
+    "height": 164,
+    "page": 94,
+    "src": "/handbook/louisiana/school-bus-four-lane.png",
+    "width": 1019
+  },
+  "school-bus-lights-sequence": {
+    "height": 166,
+    "page": 93,
+    "src": "/handbook/louisiana/school-bus-lights-sequence.png",
+    "width": 1037
+  },
+  "school-speed-when-flashing": {
+    "height": 169,
+    "page": 32,
+    "src": "/handbook/louisiana/school-speed-when-flashing.png",
+    "width": 847
+  },
+  "seatbelt-fit": {
+    "height": 190,
+    "page": 44,
+    "src": "/handbook/louisiana/seatbelt-fit.png",
+    "width": 997
+  },
+  "seatbelt-law": {
+    "height": 139,
+    "page": 44,
+    "src": "/handbook/louisiana/seatbelt-law.png",
+    "width": 1016
+  },
+  "shape-diamond": {
+    "height": 221,
+    "page": 28,
+    "src": "/handbook/louisiana/shape-diamond.png",
+    "width": 872
+  },
+  "shape-no-passing": {
+    "height": 139,
+    "page": 28,
+    "src": "/handbook/louisiana/shape-no-passing.png",
+    "width": 729
+  },
+  "shape-octagon": {
+    "height": 140,
+    "page": 28,
+    "src": "/handbook/louisiana/shape-octagon.png",
+    "width": 710
+  },
+  "shape-rectangle-regulatory": {
+    "height": 139,
+    "page": 28,
+    "src": "/handbook/louisiana/shape-rectangle-regulatory.png",
+    "width": 695
+  },
+  "shape-yield-triangle": {
+    "height": 164,
+    "page": 28,
+    "src": "/handbook/louisiana/shape-yield-triangle.png",
+    "width": 872
+  },
+  "shared-centre-lane-200ft": {
+    "height": 197,
+    "page": 32,
+    "src": "/handbook/louisiana/shared-centre-lane-200ft.png",
+    "width": 804
+  },
+  "shared-lane-200-feet": {
+    "height": 164,
+    "page": 96,
+    "src": "/handbook/louisiana/shared-lane-200-feet.png",
+    "width": 1039
+  },
+  "signal-flashing-red": {
+    "height": 164,
+    "page": 39,
+    "src": "/handbook/louisiana/signal-flashing-red.png",
+    "width": 1037
+  },
+  "signal-flashing-yellow": {
+    "height": 164,
+    "page": 38,
+    "src": "/handbook/louisiana/signal-flashing-yellow.png",
+    "width": 1004
+  },
+  "signal-green-arrow": {
+    "height": 190,
+    "page": 38,
+    "src": "/handbook/louisiana/signal-green-arrow.png",
+    "width": 1021
+  },
+  "signal-green-left-turn": {
+    "height": 164,
+    "page": 38,
+    "src": "/handbook/louisiana/signal-green-left-turn.png",
+    "width": 1037
+  },
+  "signal-illegal-uses": {
+    "height": 142,
+    "page": 97,
+    "src": "/handbook/louisiana/signal-illegal-uses.png",
+    "width": 1013
+  },
+  "signal-left-on-red": {
+    "height": 189,
+    "page": 39,
+    "src": "/handbook/louisiana/signal-left-on-red.png",
+    "width": 1030
+  },
+  "signal-out-four-way": {
+    "height": 139,
+    "page": 91,
+    "src": "/handbook/louisiana/signal-out-four-way.png",
+    "width": 1012
+  },
+  "signal-red-arrow": {
+    "height": 139,
+    "page": 39,
+    "src": "/handbook/louisiana/signal-red-arrow.png",
+    "width": 1009
+  },
+  "signal-steady-green": {
+    "height": 139,
+    "page": 38,
+    "src": "/handbook/louisiana/signal-steady-green.png",
+    "width": 1037
+  },
+  "signal-steady-red": {
+    "height": 164,
+    "page": 39,
+    "src": "/handbook/louisiana/signal-steady-red.png",
+    "width": 1030
+  },
+  "signal-steady-yellow": {
+    "height": 190,
+    "page": 38,
+    "src": "/handbook/louisiana/signal-steady-yellow.png",
+    "width": 1007
+  },
+  "signal-steady-yellow-arrow": {
+    "height": 138,
+    "page": 38,
+    "src": "/handbook/louisiana/signal-steady-yellow-arrow.png",
+    "width": 1002
+  },
+  "signalling-100-feet": {
+    "height": 139,
+    "page": 97,
+    "src": "/handbook/louisiana/signalling-100-feet.png",
+    "width": 1013
+  },
+  "signs-obey": {
+    "height": 165,
+    "page": 27,
+    "src": "/handbook/louisiana/signs-obey.png",
+    "width": 997
+  },
+  "sipde": {
+    "height": 190,
+    "page": 60,
+    "src": "/handbook/louisiana/sipde.png",
+    "width": 1065
+  },
+  "skid-recovery": {
+    "height": 139,
+    "page": 79,
+    "src": "/handbook/louisiana/skid-recovery.png",
+    "width": 999
+  },
+  "skid-steer-direction": {
+    "height": 189,
+    "page": 120,
+    "src": "/handbook/louisiana/skid-steer-direction.png",
+    "width": 1015
+  },
+  "slow-moving-emblem": {
+    "height": 164,
+    "page": 110,
+    "src": "/handbook/louisiana/slow-moving-emblem.png",
+    "width": 1046
+  },
+  "slower-traffic-keep-right": {
+    "height": 164,
+    "page": 34,
+    "src": "/handbook/louisiana/slower-traffic-keep-right.png",
+    "width": 799
+  },
+  "speed-doubles-impact": {
+    "height": 164,
+    "page": 70,
+    "src": "/handbook/louisiana/speed-doubles-impact.png",
+    "width": 1037
+  },
+  "speed-limit-signs": {
+    "height": 189,
+    "page": 32,
+    "src": "/handbook/louisiana/speed-limit-signs.png",
+    "width": 842
+  },
+  "speed-not-impede": {
+    "height": 190,
+    "page": 92,
+    "src": "/handbook/louisiana/speed-not-impede.png",
+    "width": 978
+  },
+  "speed-reduced-areas": {
+    "height": 191,
+    "page": 92,
+    "src": "/handbook/louisiana/speed-reduced-areas.png",
+    "width": 1022
+  },
+  "sr22-requirement": {
+    "height": 165,
+    "page": 131,
+    "src": "/handbook/louisiana/sr22-requirement.png",
+    "width": 1047
+  },
+  "stat-four-way-stop": {
+    "height": 139,
+    "page": 98,
+    "src": "/handbook/louisiana/stat-four-way-stop.png",
+    "width": 998
+  },
+  "stat-gdl-passenger": {
+    "height": 114,
+    "page": 102,
+    "src": "/handbook/louisiana/stat-gdl-passenger.png",
+    "width": 986
+  },
+  "stat-move-over": {
+    "height": 165,
+    "page": 126,
+    "src": "/handbook/louisiana/stat-move-over.png",
+    "width": 1003
+  },
+  "stop-here-on-red": {
+    "height": 170,
+    "page": 33,
+    "src": "/handbook/louisiana/stop-here-on-red.png",
+    "width": 783
+  },
+  "stop-lines": {
+    "height": 139,
+    "page": 41,
+    "src": "/handbook/louisiana/stop-lines.png",
+    "width": 1021
+  },
+  "stop-sign-rule": {
+    "height": 189,
+    "page": 32,
+    "src": "/handbook/louisiana/stop-sign-rule.png",
+    "width": 809
+  },
+  "stopping-60-and-30": {
+    "height": 191,
+    "page": 67,
+    "src": "/handbook/louisiana/stopping-60-and-30.png",
+    "width": 1033
+  },
+  "submerged-30-60-seconds": {
+    "height": 139,
+    "page": 124,
+    "src": "/handbook/louisiana/submerged-30-60-seconds.png",
+    "width": 817
+  },
+  "submerged-side-window": {
+    "height": 139,
+    "page": 125,
+    "src": "/handbook/louisiana/submerged-side-window.png",
+    "width": 1043
+  },
+  "submit-suspension-levels": {
+    "height": 164,
+    "page": 131,
+    "src": "/handbook/louisiana/submit-suspension-levels.png",
+    "width": 1047
+  },
+  "suspension-extension": {
+    "height": 164,
+    "page": 132,
+    "src": "/handbook/louisiana/suspension-extension.png",
+    "width": 1012
+  },
+  "texting-4-6-seconds": {
+    "height": 164,
+    "page": 83,
+    "src": "/handbook/louisiana/texting-4-6-seconds.png",
+    "width": 1034
+  },
+  "three-in-front-seat": {
+    "height": 139,
+    "page": 101,
+    "src": "/handbook/louisiana/three-in-front-seat.png",
+    "width": 1024
+  },
+  "three-point-turnabout": {
+    "height": 165,
+    "page": 72,
+    "src": "/handbook/louisiana/three-point-turnabout.png",
+    "width": 1041
+  },
+  "three-second-rule": {
+    "height": 191,
+    "page": 70,
+    "src": "/handbook/louisiana/three-second-rule.png",
+    "width": 1042
+  },
+  "three-types-distraction": {
+    "height": 189,
+    "page": 82,
+    "src": "/handbook/louisiana/three-types-distraction.png",
+    "width": 1005
+  },
+  "tip-purpose": {
+    "height": 139,
+    "page": 7,
+    "src": "/handbook/louisiana/tip-purpose.png",
+    "width": 995
+  },
+  "tire-blowout": {
+    "height": 113,
+    "page": 122,
+    "src": "/handbook/louisiana/tire-blowout.png",
+    "width": 971
+  },
+  "tire-tread-depth": {
+    "height": 140,
+    "page": 49,
+    "src": "/handbook/louisiana/tire-tread-depth.png",
+    "width": 988
+  },
+  "total-stopping-50": {
+    "height": 139,
+    "page": 70,
+    "src": "/handbook/louisiana/total-stopping-50.png",
+    "width": 1034
+  },
+  "tow-bar-15-feet": {
+    "height": 139,
+    "page": 134,
+    "src": "/handbook/louisiana/tow-bar-15-feet.png",
+    "width": 1037
+  },
+  "traffic-stop-produce": {
+    "height": 164,
+    "page": 91,
+    "src": "/handbook/louisiana/traffic-stop-produce.png",
+    "width": 747
+  },
+  "trailer-brakes-3000": {
+    "height": 114,
+    "page": 138,
+    "src": "/handbook/louisiana/trailer-brakes-3000.png",
+    "width": 1004
+  },
+  "truck-400-feet": {
+    "height": 139,
+    "page": 134,
+    "src": "/handbook/louisiana/truck-400-feet.png",
+    "width": 1045
+  },
+  "truck-bed-passengers": {
+    "height": 164,
+    "page": 101,
+    "src": "/handbook/louisiana/truck-bed-passengers.png",
+    "width": 1024
+  },
+  "truck-following-4-5": {
+    "height": 164,
+    "page": 89,
+    "src": "/handbook/louisiana/truck-following-4-5.png",
+    "width": 1025
+  },
+  "truck-mirrors-rule": {
+    "height": 139,
+    "page": 88,
+    "src": "/handbook/louisiana/truck-mirrors-rule.png",
+    "width": 1000
+  },
+  "truck-squeeze-play": {
+    "height": 190,
+    "page": 90,
+    "src": "/handbook/louisiana/truck-squeeze-play.png",
+    "width": 1042
+  },
+  "truck-stopping-290": {
+    "height": 164,
+    "page": 88,
+    "src": "/handbook/louisiana/truck-stopping-290.png",
+    "width": 1022
+  },
+  "turn-signal-100-feet": {
+    "height": 139,
+    "page": 94,
+    "src": "/handbook/louisiana/turn-signal-100-feet.png",
+    "width": 963
+  },
+  "turning-left-yield": {
+    "height": 114,
+    "page": 67,
+    "src": "/handbook/louisiana/turning-left-yield.png",
+    "width": 1014
+  },
+  "two-and-ten-not-recommended": {
+    "height": 164,
+    "page": 54,
+    "src": "/handbook/louisiana/two-and-ten-not-recommended.png",
+    "width": 1039
+  },
+  "two-way-left-turn-lane": {
+    "height": 189,
+    "page": 41,
+    "src": "/handbook/louisiana/two-way-left-turn-lane.png",
+    "width": 584
+  },
+  "uncontrolled-rural-intersections": {
+    "height": 139,
+    "page": 109,
+    "src": "/handbook/louisiana/uncontrolled-rural-intersections.png",
+    "width": 1045
+  },
+  "under-17-curfew": {
+    "height": 164,
+    "page": 102,
+    "src": "/handbook/louisiana/under-17-curfew.png",
+    "width": 986
+  },
+  "under-17-no-device": {
+    "height": 195,
+    "page": 116,
+    "src": "/handbook/louisiana/under-17-no-device.png",
+    "width": 1037
+  },
+  "under-21-suspension": {
+    "height": 167,
+    "page": 131,
+    "src": "/handbook/louisiana/under-21-suspension.png",
+    "width": 1047
+  },
+  "understeer-correction": {
+    "height": 190,
+    "page": 54,
+    "src": "/handbook/louisiana/understeer-correction.png",
+    "width": 1032
+  },
+  "used-vehicle-five-days": {
+    "height": 114,
+    "page": 140,
+    "src": "/handbook/louisiana/used-vehicle-five-days.png",
+    "width": 987
+  },
+  "vehicle-fire": {
+    "height": 215,
+    "page": 122,
+    "src": "/handbook/louisiana/vehicle-fire.png",
+    "width": 1021
+  },
+  "vehicular-homicide": {
+    "height": 165,
+    "page": 131,
+    "src": "/handbook/louisiana/vehicular-homicide.png",
+    "width": 1038
+  },
+  "visibility-400-feet": {
+    "height": 139,
+    "page": 67,
+    "src": "/handbook/louisiana/visibility-400-feet.png",
+    "width": 1039
+  },
+  "vision-2040": {
+    "height": 139,
+    "page": 13,
+    "src": "/handbook/louisiana/vision-2040.png",
+    "width": 1016
+  },
+  "visual-lead-20-30": {
+    "height": 139,
+    "page": 66,
+    "src": "/handbook/louisiana/visual-lead-20-30.png",
+    "width": 1087
+  },
+  "warning-signs": {
+    "height": 190,
+    "page": 30,
+    "src": "/handbook/louisiana/warning-signs.png",
+    "width": 1026
+  },
+  "wet-pavement-first-rain": {
+    "height": 165,
+    "page": 79,
+    "src": "/handbook/louisiana/wet-pavement-first-rain.png",
+    "width": 1018
+  },
+  "wheels-off-pavement": {
+    "height": 215,
+    "page": 121,
+    "src": "/handbook/louisiana/wheels-off-pavement.png",
+    "width": 1034
+  },
+  "white-cane-right-of-way": {
+    "height": 164,
+    "page": 82,
+    "src": "/handbook/louisiana/white-cane-right-of-way.png",
+    "width": 527
+  },
+  "wildlife-dusk-dawn": {
+    "height": 139,
+    "page": 109,
+    "src": "/handbook/louisiana/wildlife-dusk-dawn.png",
+    "width": 998
+  },
+  "window-tint": {
+    "height": 140,
+    "page": 101,
+    "src": "/handbook/louisiana/window-tint.png",
+    "width": 1024
+  },
+  "winter-following-distance": {
+    "height": 165,
+    "page": 57,
+    "src": "/handbook/louisiana/winter-following-distance.png",
+    "width": 977
+  },
+  "work-zone-fines-double": {
+    "height": 138,
+    "page": 36,
+    "src": "/handbook/louisiana/work-zone-fines-double.png",
+    "width": 812
+  },
+  "wrong-lane-must-turn": {
+    "height": 190,
+    "page": 42,
+    "src": "/handbook/louisiana/wrong-lane-must-turn.png",
+    "width": 982
+  },
+  "wrong-way-sign": {
+    "height": 170,
+    "page": 34,
+    "src": "/handbook/louisiana/wrong-way-sign.png",
+    "width": 801
+  },
+  "yield-pedestrians-always": {
+    "height": 167,
+    "page": 81,
+    "src": "/handbook/louisiana/yield-pedestrians-always.png",
+    "width": 1032
+  },
+  "yield-sign-rule": {
+    "height": 114,
+    "page": 32,
+    "src": "/handbook/louisiana/yield-sign-rule.png",
+    "width": 798
+  }
+}
