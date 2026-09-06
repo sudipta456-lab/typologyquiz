@@ -213,7 +213,14 @@ explanations; British/Canadian spelling for Canadian banks ("licence",
 
 ## 6. Excerpts and snippets
 
-`excerpts.ts` holds 150-190 `HandbookExcerpt` entries. Each `quote` is
+`excerpts.ts` holds roughly 150-350 `HandbookExcerpt` entries. That is a range,
+not a quota: the number is whatever the questions actually need, and more
+verified official wording is a better bank, not a worse one. The figure that
+matters is COVERAGE - at least 85% of questions carry an `excerptKey` that
+resolves. Never delete a verified quote to hit a count. Delete one only when no
+question references it AND another excerpt already covers the same rule.
+
+Each `quote` is
 VERBATIM from the source, one or two sentences, under 320 characters (hard
 cap 600). `section` names the chapter and heading as the publisher does;
 `source` is the publication with edition; `url` is the deep link. Read the
