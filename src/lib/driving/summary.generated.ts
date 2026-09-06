@@ -283,12 +283,34 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "connecticut",
+    "name": "Connecticut",
+    "code": "CT",
+    "country": "US",
+    "licenceName": "Learner's Permit (Class D)",
+    "intro": "Connecticut's learner's permit test is 25 questions and you need 20 right - four wrong and you are still fine, five and you come back in a week. The DMV writes it from the Connecticut Driver's Manual, and the questions people actually lose are the teen driving rules and the exact numbers. Everything below is checked against the March 2023 manual and, where the manual leaves a number out, against Connecticut General Statutes Title 14.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "kentucky",
     "name": "Kentucky",
     "code": "KY",
     "country": "US",
     "licenceName": "Instruction Permit",
     "intro": "Kentucky splits the job between two agencies: you apply at a Transportation Cabinet regional driver licensing office, and the Kentucky State Police give you the vision screening and the written test. The manual is the only study source KSP endorses, and it says the pass mark is 80 percent. Everything below is written from the Kentucky Driver Manual dated 10-11-2023 and, where the manual leaves a number out, from KRS chapters 186, 189 and 189A.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
+    "slug": "louisiana",
+    "name": "Louisiana",
+    "code": "LA",
+    "country": "US",
+    "licenceName": "Class E Learner's Permit",
+    "intro": "Louisiana's knowledge test is 40 multiple-choice questions and you need 32 of them right. It is written from the Class D & E Driver's Guide, and in most cases your driving school gives it to you rather than the OMV. Everything below is checked against that guide and, where the guide leaves a number out, against Revised Statutes Title 32 and the OMV's own licensing handouts.",
     "contentDate": "2026-09-06",
     "setCount": 6,
     "questionCount": 195
@@ -311,6 +333,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "country": "US",
     "licenceName": "Class D Instruction Permit",
     "intro": "Minnesota's Class D knowledge test is written straight out of the Driver's Manual, and DVS says so: its own practice test tells you every answer is in the book. What catches people is the Minnesota-specific geometry - J-turns, zipper merges, bus shoulders - and the pile of distance numbers the manual prints without ever putting them in one place.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
+    "slug": "oklahoma",
+    "name": "Oklahoma",
+    "code": "OK",
+    "country": "US",
+    "licenceName": "Class D Learner Permit",
+    "intro": "Oklahoma's written knowledge test is 20 questions and you need 15 right, with 60 minutes on the clock. Everything below is written from the Oklahoma Driver Manual that Service Oklahoma publishes, and where the manual leaves a number out, from Title 47 of the Oklahoma Statutes and Service Oklahoma's own licensing pages.",
     "contentDate": "2026-09-06",
     "setCount": 6,
     "questionCount": 195
@@ -362,4 +395,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 6106;
+export const TOTAL_DRIVING_QUESTIONS = 6691;
