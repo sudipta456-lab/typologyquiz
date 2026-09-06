@@ -1,0 +1,1322 @@
+{
+  "abs-press-hard": {
+    "height": 200,
+    "page": 104,
+    "src": "/handbook/southcarolina/abs-press-hard.png",
+    "width": 603
+  },
+  "abs-vibrate": {
+    "height": 200,
+    "page": 104,
+    "src": "/handbook/southcarolina/abs-vibrate.png",
+    "width": 603
+  },
+  "acceleration-lane": {
+    "height": 226,
+    "page": 89,
+    "src": "/handbook/southcarolina/acceleration-lane.png",
+    "width": 639
+  },
+  "adas-not-on-test": {
+    "height": 380,
+    "page": 52,
+    "src": "/handbook/southcarolina/adas-not-on-test.png",
+    "width": 639
+  },
+  "aggressive-driving": {
+    "height": 296,
+    "page": 36,
+    "src": "/handbook/southcarolina/aggressive-driving.png",
+    "width": 639
+  },
+  "airbags-supplemental": {
+    "height": 144,
+    "page": 49,
+    "src": "/handbook/southcarolina/airbags-supplemental.png",
+    "width": 639
+  },
+  "alcohol-40-percent": {
+    "height": 170,
+    "page": 37,
+    "src": "/handbook/southcarolina/alcohol-40-percent.png",
+    "width": 639
+  },
+  "animal-drawn": {
+    "height": 198,
+    "page": 125,
+    "src": "/handbook/southcarolina/animal-drawn.png",
+    "width": 610
+  },
+  "bac-0-05-drugs": {
+    "height": 227,
+    "page": 38,
+    "src": "/handbook/southcarolina/bac-0-05-drugs.png",
+    "width": 639
+  },
+  "bac-0-15-refusal": {
+    "height": 198,
+    "page": 38,
+    "src": "/handbook/southcarolina/bac-0-15-refusal.png",
+    "width": 639
+  },
+  "backing-look-rear": {
+    "height": 172,
+    "page": 58,
+    "src": "/handbook/southcarolina/backing-look-rear.png",
+    "width": 610
+  },
+  "backing-up": {
+    "height": 172,
+    "page": 58,
+    "src": "/handbook/southcarolina/backing-up.png",
+    "width": 610
+  },
+  "bicycles-are-vehicles": {
+    "height": 226,
+    "page": 111,
+    "src": "/handbook/southcarolina/bicycles-are-vehicles.png",
+    "width": 639
+  },
+  "bike-hand-signals": {
+    "height": 282,
+    "page": 113,
+    "src": "/handbook/southcarolina/bike-hand-signals.png",
+    "width": 603
+  },
+  "bike-lane-driving": {
+    "height": 226,
+    "page": 112,
+    "src": "/handbook/southcarolina/bike-lane-driving.png",
+    "width": 603
+  },
+  "bike-turn-wait": {
+    "height": 337,
+    "page": 112,
+    "src": "/handbook/southcarolina/bike-turn-wait.png",
+    "width": 603
+  },
+  "blowout-pull": {
+    "height": 226,
+    "page": 107,
+    "src": "/handbook/southcarolina/blowout-pull.png",
+    "width": 639
+  },
+  "brake-failure": {
+    "height": 255,
+    "page": 106,
+    "src": "/handbook/southcarolina/brake-failure.png",
+    "width": 603
+  },
+  "braking-158-feet": {
+    "height": 200,
+    "page": 98,
+    "src": "/handbook/southcarolina/braking-158-feet.png",
+    "width": 603
+  },
+  "breakdown-flares": {
+    "height": 200,
+    "page": 108,
+    "src": "/handbook/southcarolina/breakdown-flares.png",
+    "width": 603
+  },
+  "bridges-freeze-first": {
+    "height": 226,
+    "page": 131,
+    "src": "/handbook/southcarolina/bridges-freeze-first.png",
+    "width": 639
+  },
+  "carry-documents": {
+    "height": 199,
+    "page": 7,
+    "src": "/handbook/southcarolina/carry-documents.png",
+    "width": 639
+  },
+  "child-seat-booster": {
+    "height": 226,
+    "page": 51,
+    "src": "/handbook/southcarolina/child-seat-booster.png",
+    "width": 202
+  },
+  "class-d-weight": {
+    "height": 171,
+    "page": 5,
+    "src": "/handbook/southcarolina/class-d-weight.png",
+    "width": 603
+  },
+  "combining-drugs": {
+    "height": 198,
+    "page": 40,
+    "src": "/handbook/southcarolina/combining-drugs.png",
+    "width": 639
+  },
+  "conditional-age": {
+    "height": 199,
+    "page": 11,
+    "src": "/handbook/southcarolina/conditional-age.png",
+    "width": 639
+  },
+  "conditional-hours": {
+    "height": 116,
+    "page": 11,
+    "src": "/handbook/southcarolina/conditional-hours.png",
+    "width": 612
+  },
+  "conditional-passengers": {
+    "height": 227,
+    "page": 11,
+    "src": "/handbook/southcarolina/conditional-passengers.png",
+    "width": 612
+  },
+  "corrective-lenses-required": {
+    "height": 199,
+    "page": 33,
+    "src": "/handbook/southcarolina/corrective-lenses-required.png",
+    "width": 639
+  },
+  "cross-tracks-quickly": {
+    "height": 188,
+    "page": 66,
+    "src": "/handbook/southcarolina/cross-tracks-quickly.png",
+    "width": 639
+  },
+  "crossbuck": {
+    "height": 314,
+    "page": 65,
+    "src": "/handbook/southcarolina/crossbuck.png",
+    "width": 611
+  },
+  "crosswalk-yield": {
+    "height": 171,
+    "page": 74,
+    "src": "/handbook/southcarolina/crosswalk-yield.png",
+    "width": 639
+  },
+  "curves-slow-before": {
+    "height": 172,
+    "page": 95,
+    "src": "/handbook/southcarolina/curves-slow-before.png",
+    "width": 639
+  },
+  "deceleration-lane": {
+    "height": 144,
+    "page": 90,
+    "src": "/handbook/southcarolina/deceleration-lane.png",
+    "width": 603
+  },
+  "defensive-course": {
+    "height": 116,
+    "page": 24,
+    "src": "/handbook/southcarolina/defensive-course.png",
+    "width": 603
+  },
+  "dim-500-feet": {
+    "height": 396,
+    "page": 126,
+    "src": "/handbook/southcarolina/dim-500-feet.png",
+    "width": 603
+  },
+  "disability-parking": {
+    "height": 253,
+    "page": 85,
+    "src": "/handbook/southcarolina/disability-parking.png",
+    "width": 639
+  },
+  "distraction-definition": {
+    "height": 170,
+    "page": 35,
+    "src": "/handbook/southcarolina/distraction-definition.png",
+    "width": 639
+  },
+  "door-check-bicyclists": {
+    "height": 170,
+    "page": 114,
+    "src": "/handbook/southcarolina/door-check-bicyclists.png",
+    "width": 603
+  },
+  "drivers-ed-hours": {
+    "height": 171,
+    "page": 10,
+    "src": "/handbook/southcarolina/drivers-ed-hours.png",
+    "width": 603
+  },
+  "drop-off-recovery": {
+    "height": 201,
+    "page": 106,
+    "src": "/handbook/southcarolina/drop-off-recovery.png",
+    "width": 638
+  },
+  "dui-not-points": {
+    "height": 171,
+    "page": 23,
+    "src": "/handbook/southcarolina/dui-not-points.png",
+    "width": 639
+  },
+  "emergency-contact": {
+    "height": 227,
+    "page": 109,
+    "src": "/handbook/southcarolina/emergency-contact.png",
+    "width": 639
+  },
+  "emergency-vehicle-yield": {
+    "height": 254,
+    "page": 121,
+    "src": "/handbook/southcarolina/emergency-vehicle-yield.png",
+    "width": 639
+  },
+  "emotions-cool-off": {
+    "height": 198,
+    "page": 41,
+    "src": "/handbook/southcarolina/emotions-cool-off.png",
+    "width": 603
+  },
+  "end-road-work": {
+    "height": 253,
+    "page": 129,
+    "src": "/handbook/southcarolina/end-road-work.png",
+    "width": 234
+  },
+  "evacuation-route": {
+    "height": 226,
+    "page": 71,
+    "src": "/handbook/southcarolina/evacuation-route.png",
+    "width": 639
+  },
+  "expired-nine-months": {
+    "height": 226,
+    "page": 22,
+    "src": "/handbook/southcarolina/expired-nine-months.png",
+    "width": 639
+  },
+  "farm-machinery": {
+    "height": 198,
+    "page": 125,
+    "src": "/handbook/southcarolina/farm-machinery.png",
+    "width": 610
+  },
+  "fatigue-nap": {
+    "height": 171,
+    "page": 34,
+    "src": "/handbook/southcarolina/fatigue-nap.png",
+    "width": 603
+  },
+  "fatigue-tips": {
+    "height": 144,
+    "page": 34,
+    "src": "/handbook/southcarolina/fatigue-tips.png",
+    "width": 603
+  },
+  "first-drink": {
+    "height": 254,
+    "page": 38,
+    "src": "/handbook/southcarolina/first-drink.png",
+    "width": 639
+  },
+  "flagger": {
+    "height": 172,
+    "page": 67,
+    "src": "/handbook/southcarolina/flagger.png",
+    "width": 639
+  },
+  "flashing-red": {
+    "height": 200,
+    "page": 63,
+    "src": "/handbook/southcarolina/flashing-red.png",
+    "width": 639
+  },
+  "flashing-yellow": {
+    "height": 200,
+    "page": 62,
+    "src": "/handbook/southcarolina/flashing-yellow.png",
+    "width": 639
+  },
+  "flood-depths": {
+    "height": 226,
+    "page": 97,
+    "src": "/handbook/southcarolina/flood-depths.png",
+    "width": 603
+  },
+  "fog-low-beams": {
+    "height": 228,
+    "page": 127,
+    "src": "/handbook/southcarolina/fog-low-beams.png",
+    "width": 603
+  },
+  "following-4-seconds": {
+    "height": 144,
+    "page": 99,
+    "src": "/handbook/southcarolina/following-4-seconds.png",
+    "width": 639
+  },
+  "following-count": {
+    "height": 172,
+    "page": 99,
+    "src": "/handbook/southcarolina/following-count.png",
+    "width": 554
+  },
+  "full-privileges": {
+    "height": 171,
+    "page": 13,
+    "src": "/handbook/southcarolina/full-privileges.png",
+    "width": 639
+  },
+  "gdl-purpose": {
+    "height": 226,
+    "page": 11,
+    "src": "/handbook/southcarolina/gdl-purpose.png",
+    "width": 639
+  },
+  "gdl-six-points": {
+    "height": 171,
+    "page": 12,
+    "src": "/handbook/southcarolina/gdl-six-points.png",
+    "width": 639
+  },
+  "golf-cart": {
+    "height": 199,
+    "page": 30,
+    "src": "/handbook/southcarolina/golf-cart.png",
+    "width": 639
+  },
+  "golf-cart-roads": {
+    "height": 171,
+    "page": 31,
+    "src": "/handbook/southcarolina/golf-cart-roads.png",
+    "width": 639
+  },
+  "green-light-pause": {
+    "height": 199,
+    "page": 80,
+    "src": "/handbook/southcarolina/green-light-pause.png",
+    "width": 639
+  },
+  "guide-signs": {
+    "height": 200,
+    "page": 70,
+    "src": "/handbook/southcarolina/guide-signs.png",
+    "width": 639
+  },
+  "hand-over-hand": {
+    "height": 227,
+    "page": 57,
+    "src": "/handbook/southcarolina/hand-over-hand.png",
+    "width": 639
+  },
+  "hand-position": {
+    "height": 198,
+    "page": 55,
+    "src": "/handbook/southcarolina/hand-position.png",
+    "width": 639
+  },
+  "hands-free-prohibitions": {
+    "height": 143,
+    "page": 36,
+    "src": "/handbook/southcarolina/hands-free-prohibitions.png",
+    "width": 639
+  },
+  "head-restraint": {
+    "height": 199,
+    "page": 46,
+    "src": "/handbook/southcarolina/head-restraint.png",
+    "width": 603
+  },
+  "headlights-rain": {
+    "height": 144,
+    "page": 101,
+    "src": "/handbook/southcarolina/headlights-rain.png",
+    "width": 549
+  },
+  "high-beams-twice": {
+    "height": 283,
+    "page": 126,
+    "src": "/handbook/southcarolina/high-beams-twice.png",
+    "width": 329
+  },
+  "hill-parking": {
+    "height": 345,
+    "page": 88,
+    "src": "/handbook/southcarolina/hill-parking.png",
+    "width": 639
+  },
+  "hill-parking-gear": {
+    "height": 143,
+    "page": 88,
+    "src": "/handbook/southcarolina/hill-parking-gear.png",
+    "width": 639
+  },
+  "horn-bicyclists": {
+    "height": 226,
+    "page": 112,
+    "src": "/handbook/southcarolina/horn-bicyclists.png",
+    "width": 603
+  },
+  "horn-blind-pedestrians": {
+    "height": 172,
+    "page": 102,
+    "src": "/handbook/southcarolina/horn-blind-pedestrians.png",
+    "width": 603
+  },
+  "horn-light-tap": {
+    "height": 198,
+    "page": 101,
+    "src": "/handbook/southcarolina/horn-light-tap.png",
+    "width": 603
+  },
+  "hydroplaning": {
+    "height": 256,
+    "page": 96,
+    "src": "/handbook/southcarolina/hydroplaning.png",
+    "width": 639
+  },
+  "illegal-drugs-dui": {
+    "height": 171,
+    "page": 40,
+    "src": "/handbook/southcarolina/illegal-drugs-dui.png",
+    "width": 639
+  },
+  "implied-consent": {
+    "height": 282,
+    "page": 39,
+    "src": "/handbook/southcarolina/implied-consent.png",
+    "width": 639
+  },
+  "implied-consent-state": {
+    "height": 171,
+    "page": 39,
+    "src": "/handbook/southcarolina/implied-consent-state.png",
+    "width": 639
+  },
+  "intersection-left-right-left": {
+    "height": 226,
+    "page": 80,
+    "src": "/handbook/southcarolina/intersection-left-right-left.png",
+    "width": 639
+  },
+  "knowledge-test-devices": {
+    "height": 226,
+    "page": 14,
+    "src": "/handbook/southcarolina/knowledge-test-devices.png",
+    "width": 612
+  },
+  "knowledge-test-fail": {
+    "height": 115,
+    "page": 14,
+    "src": "/handbook/southcarolina/knowledge-test-fail.png",
+    "width": 639
+  },
+  "lane-change-blind-spot": {
+    "height": 226,
+    "page": 89,
+    "src": "/handbook/southcarolina/lane-change-blind-spot.png",
+    "width": 603
+  },
+  "left-turn-yield": {
+    "height": 116,
+    "page": 77,
+    "src": "/handbook/southcarolina/left-turn-yield.png",
+    "width": 603
+  },
+  "license-sleeve": {
+    "height": 198,
+    "page": 14,
+    "src": "/handbook/southcarolina/license-sleeve.png",
+    "width": 639
+  },
+  "littering": {
+    "height": 116,
+    "page": 30,
+    "src": "/handbook/southcarolina/littering.png",
+    "width": 639
+  },
+  "look-20-30-seconds": {
+    "height": 228,
+    "page": 94,
+    "src": "/handbook/southcarolina/look-20-30-seconds.png",
+    "width": 639
+  },
+  "low-beams-200-feet": {
+    "height": 228,
+    "page": 127,
+    "src": "/handbook/southcarolina/low-beams-200-feet.png",
+    "width": 317
+  },
+  "mirror-settings": {
+    "height": 226,
+    "page": 48,
+    "src": "/handbook/southcarolina/mirror-settings.png",
+    "width": 603
+  },
+  "moped-class-g": {
+    "height": 226,
+    "page": 6,
+    "src": "/handbook/southcarolina/moped-class-g.png",
+    "width": 603
+  },
+  "more-space-when": {
+    "height": 144,
+    "page": 100,
+    "src": "/handbook/southcarolina/more-space-when.png",
+    "width": 603
+  },
+  "motorcycle-following": {
+    "height": 198,
+    "page": 116,
+    "src": "/handbook/southcarolina/motorcycle-following.png",
+    "width": 603
+  },
+  "motorcycle-full-lane": {
+    "height": 281,
+    "page": 114,
+    "src": "/handbook/southcarolina/motorcycle-full-lane.png",
+    "width": 330
+  },
+  "motorcycle-signal-cancel": {
+    "height": 254,
+    "page": 116,
+    "src": "/handbook/southcarolina/motorcycle-signal-cancel.png",
+    "width": 603
+  },
+  "move-over": {
+    "height": 282,
+    "page": 124,
+    "src": "/handbook/southcarolina/move-over.png",
+    "width": 639
+  },
+  "move-over-who": {
+    "height": 199,
+    "page": 123,
+    "src": "/handbook/southcarolina/move-over-who.png",
+    "width": 639
+  },
+  "multiple-tracks": {
+    "height": 284,
+    "page": 65,
+    "src": "/handbook/southcarolina/multiple-tracks.png",
+    "width": 612
+  },
+  "never-run": {
+    "height": 226,
+    "page": 123,
+    "src": "/handbook/southcarolina/never-run.png",
+    "width": 639
+  },
+  "new-resident-45-days": {
+    "height": 226,
+    "page": 17,
+    "src": "/handbook/southcarolina/new-resident-45-days.png",
+    "width": 639
+  },
+  "night-following": {
+    "height": 200,
+    "page": 127,
+    "src": "/handbook/southcarolina/night-following.png",
+    "width": 603
+  },
+  "no-passing-places": {
+    "height": 171,
+    "page": 91,
+    "src": "/handbook/southcarolina/no-passing-places.png",
+    "width": 639
+  },
+  "no-zone-sides": {
+    "height": 226,
+    "page": 117,
+    "src": "/handbook/southcarolina/no-zone-sides.png",
+    "width": 603
+  },
+  "one-hand-steering": {
+    "height": 199,
+    "page": 57,
+    "src": "/handbook/southcarolina/one-hand-steering.png",
+    "width": 639
+  },
+  "one-license-only": {
+    "height": 171,
+    "page": 7,
+    "src": "/handbook/southcarolina/one-license-only.png",
+    "width": 639
+  },
+  "one-way-street": {
+    "height": 201,
+    "page": 69,
+    "src": "/handbook/southcarolina/one-way-street.png",
+    "width": 446
+  },
+  "organ-donor-heart": {
+    "height": 226,
+    "page": 29,
+    "src": "/handbook/southcarolina/organ-donor-heart.png",
+    "width": 639
+  },
+  "otc-drugs": {
+    "height": 227,
+    "page": 40,
+    "src": "/handbook/southcarolina/otc-drugs.png",
+    "width": 639
+  },
+  "parallel-parking-bumper": {
+    "height": 198,
+    "page": 87,
+    "src": "/handbook/southcarolina/parallel-parking-bumper.png",
+    "width": 596
+  },
+  "park-18-inches": {
+    "height": 144,
+    "page": 86,
+    "src": "/handbook/southcarolina/park-18-inches.png",
+    "width": 567
+  },
+  "parked-vehicles-pedestrians": {
+    "height": 226,
+    "page": 111,
+    "src": "/handbook/southcarolina/parked-vehicles-pedestrians.png",
+    "width": 603
+  },
+  "passing-bicyclist": {
+    "height": 198,
+    "page": 91,
+    "src": "/handbook/southcarolina/passing-bicyclist.png",
+    "width": 639
+  },
+  "passing-left-lane-shoulder": {
+    "height": 254,
+    "page": 90,
+    "src": "/handbook/southcarolina/passing-left-lane-shoulder.png",
+    "width": 639
+  },
+  "passing-quickly": {
+    "height": 227,
+    "page": 90,
+    "src": "/handbook/southcarolina/passing-quickly.png",
+    "width": 639
+  },
+  "passing-return": {
+    "height": 143,
+    "page": 91,
+    "src": "/handbook/southcarolina/passing-return.png",
+    "width": 603
+  },
+  "pavement-markings": {
+    "height": 284,
+    "page": 71,
+    "src": "/handbook/southcarolina/pavement-markings.png",
+    "width": 638
+  },
+  "pedestrian-green": {
+    "height": 171,
+    "page": 110,
+    "src": "/handbook/southcarolina/pedestrian-green.png",
+    "width": 603
+  },
+  "pedestrian-unmarked": {
+    "height": 226,
+    "page": 110,
+    "src": "/handbook/southcarolina/pedestrian-unmarked.png",
+    "width": 474
+  },
+  "penny-test": {
+    "height": 144,
+    "page": 45,
+    "src": "/handbook/southcarolina/penny-test.png",
+    "width": 603
+  },
+  "perception-reaction": {
+    "height": 144,
+    "page": 98,
+    "src": "/handbook/southcarolina/perception-reaction.png",
+    "width": 603
+  },
+  "permit-180-days": {
+    "height": 143,
+    "page": 10,
+    "src": "/handbook/southcarolina/permit-180-days.png",
+    "width": 603
+  },
+  "permit-age-tests": {
+    "height": 143,
+    "page": 8,
+    "src": "/handbook/southcarolina/permit-age-tests.png",
+    "width": 639
+  },
+  "permit-holding-period": {
+    "height": 226,
+    "page": 9,
+    "src": "/handbook/southcarolina/permit-holding-period.png",
+    "width": 603
+  },
+  "permit-supervision": {
+    "height": 198,
+    "page": 8,
+    "src": "/handbook/southcarolina/permit-supervision.png",
+    "width": 603
+  },
+  "points-halved": {
+    "height": 144,
+    "page": 22,
+    "src": "/handbook/southcarolina/points-halved.png",
+    "width": 639
+  },
+  "points-out-of-state": {
+    "height": 171,
+    "page": 22,
+    "src": "/handbook/southcarolina/points-out-of-state.png",
+    "width": 639
+  },
+  "points-six-permit": {
+    "height": 199,
+    "page": 23,
+    "src": "/handbook/southcarolina/points-six-permit.png",
+    "width": 639
+  },
+  "points-twelve-suspend": {
+    "height": 199,
+    "page": 23,
+    "src": "/handbook/southcarolina/points-twelve-suspend.png",
+    "width": 639
+  },
+  "practice-40-hours": {
+    "height": 171,
+    "page": 9,
+    "src": "/handbook/southcarolina/practice-40-hours.png",
+    "width": 603
+  },
+  "practice-app": {
+    "height": 170,
+    "page": 140,
+    "src": "/handbook/southcarolina/practice-app.png",
+    "width": 577
+  },
+  "primary-seatbelt-law": {
+    "height": 396,
+    "page": 49,
+    "src": "/handbook/southcarolina/primary-seatbelt-law.png",
+    "width": 639
+  },
+  "railroad-advance-sign": {
+    "height": 312,
+    "page": 65,
+    "src": "/handbook/southcarolina/railroad-advance-sign.png",
+    "width": 612
+  },
+  "random-retest": {
+    "height": 171,
+    "page": 15,
+    "src": "/handbook/southcarolina/random-retest.png",
+    "width": 639
+  },
+  "rcut": {
+    "height": 253,
+    "page": 81,
+    "src": "/handbook/southcarolina/rcut.png",
+    "width": 638
+  },
+  "rear-facing-airbag": {
+    "height": 143,
+    "page": 50,
+    "src": "/handbook/southcarolina/rear-facing-airbag.png",
+    "width": 639
+  },
+  "rear-no-zone-200": {
+    "height": 226,
+    "page": 118,
+    "src": "/handbook/southcarolina/rear-no-zone-200.png",
+    "width": 603
+  },
+  "red-circle-slash": {
+    "height": 172,
+    "page": 68,
+    "src": "/handbook/southcarolina/red-circle-slash.png",
+    "width": 639
+  },
+  "red-light-stop": {
+    "height": 228,
+    "page": 62,
+    "src": "/handbook/southcarolina/red-light-stop.png",
+    "width": 639
+  },
+  "regulatory-signs": {
+    "height": 256,
+    "page": 68,
+    "src": "/handbook/southcarolina/regulatory-signs.png",
+    "width": 639
+  },
+  "right-on-red-yield": {
+    "height": 228,
+    "page": 62,
+    "src": "/handbook/southcarolina/right-on-red-yield.png",
+    "width": 639
+  },
+  "right-turn-swing": {
+    "height": 143,
+    "page": 77,
+    "src": "/handbook/southcarolina/right-turn-swing.png",
+    "width": 592
+  },
+  "roundabout-rules": {
+    "height": 171,
+    "page": 82,
+    "src": "/handbook/southcarolina/roundabout-rules.png",
+    "width": 639
+  },
+  "roundabout-safer": {
+    "height": 171,
+    "page": 83,
+    "src": "/handbook/southcarolina/roundabout-safer.png",
+    "width": 629
+  },
+  "row-driveway-ramp": {
+    "height": 171,
+    "page": 61,
+    "src": "/handbook/southcarolina/row-driveway-ramp.png",
+    "width": 603
+  },
+  "row-first-car": {
+    "height": 198,
+    "page": 60,
+    "src": "/handbook/southcarolina/row-first-car.png",
+    "width": 250
+  },
+  "row-left-turn": {
+    "height": 143,
+    "page": 61,
+    "src": "/handbook/southcarolina/row-left-turn.png",
+    "width": 603
+  },
+  "row-no-assumption": {
+    "height": 144,
+    "page": 80,
+    "src": "/handbook/southcarolina/row-no-assumption.png",
+    "width": 639
+  },
+  "school-bus-behind": {
+    "height": 199,
+    "page": 85,
+    "src": "/handbook/southcarolina/school-bus-behind.png",
+    "width": 639
+  },
+  "school-bus-loading-zone": {
+    "height": 198,
+    "page": 84,
+    "src": "/handbook/southcarolina/school-bus-loading-zone.png",
+    "width": 603
+  },
+  "school-bus-multilane": {
+    "height": 641,
+    "page": 85,
+    "src": "/handbook/southcarolina/school-bus-multilane.png",
+    "width": 602
+  },
+  "school-bus-stop": {
+    "height": 254,
+    "page": 83,
+    "src": "/handbook/southcarolina/school-bus-stop.png",
+    "width": 639
+  },
+  "school-enrolment": {
+    "height": 171,
+    "page": 10,
+    "src": "/handbook/southcarolina/school-enrolment.png",
+    "width": 603
+  },
+  "school-zone-speed": {
+    "height": 254,
+    "page": 111,
+    "src": "/handbook/southcarolina/school-zone-speed.png",
+    "width": 438
+  },
+  "secondary-road-marker": {
+    "height": 199,
+    "page": 70,
+    "src": "/handbook/southcarolina/secondary-road-marker.png",
+    "width": 639
+  },
+  "selective-service": {
+    "height": 254,
+    "page": 29,
+    "src": "/handbook/southcarolina/selective-service.png",
+    "width": 639
+  },
+  "shared-center-lane": {
+    "height": 254,
+    "page": 69,
+    "src": "/handbook/southcarolina/shared-center-lane.png",
+    "width": 424
+  },
+  "shoulder-harness": {
+    "height": 364,
+    "page": 49,
+    "src": "/handbook/southcarolina/shoulder-harness.png",
+    "width": 603
+  },
+  "signal-100-feet": {
+    "height": 256,
+    "page": 102,
+    "src": "/handbook/southcarolina/signal-100-feet.png",
+    "width": 593
+  },
+  "signal-order": {
+    "height": 172,
+    "page": 62,
+    "src": "/handbook/southcarolina/signal-order.png",
+    "width": 639
+  },
+  "signal-slowing": {
+    "height": 143,
+    "page": 103,
+    "src": "/handbook/southcarolina/signal-slowing.png",
+    "width": 603
+  },
+  "single-lane-bridge": {
+    "height": 199,
+    "page": 130,
+    "src": "/handbook/southcarolina/single-lane-bridge.png",
+    "width": 603
+  },
+  "skid-response": {
+    "height": 116,
+    "page": 105,
+    "src": "/handbook/southcarolina/skid-response.png",
+    "width": 533
+  },
+  "skills-retest-wait": {
+    "height": 171,
+    "page": 17,
+    "src": "/handbook/southcarolina/skills-retest-wait.png",
+    "width": 639
+  },
+  "skills-test-seatbelt": {
+    "height": 226,
+    "page": 16,
+    "src": "/handbook/southcarolina/skills-test-seatbelt.png",
+    "width": 639
+  },
+  "slow-moving-triangle": {
+    "height": 171,
+    "page": 125,
+    "src": "/handbook/southcarolina/slow-moving-triangle.png",
+    "width": 638
+  },
+  "space-side": {
+    "height": 200,
+    "page": 100,
+    "src": "/handbook/southcarolina/space-side.png",
+    "width": 603
+  },
+  "special-restricted-age": {
+    "height": 226,
+    "page": 12,
+    "src": "/handbook/southcarolina/special-restricted-age.png",
+    "width": 639
+  },
+  "speed-limit-signs": {
+    "height": 199,
+    "page": 69,
+    "src": "/handbook/southcarolina/speed-limit-signs.png",
+    "width": 425
+  },
+  "stop-before-tracks": {
+    "height": 256,
+    "page": 66,
+    "src": "/handbook/southcarolina/stop-before-tracks.png",
+    "width": 639
+  },
+  "stop-line-first": {
+    "height": 226,
+    "page": 74,
+    "src": "/handbook/southcarolina/stop-line-first.png",
+    "width": 639
+  },
+  "stop-lines-trucks": {
+    "height": 171,
+    "page": 120,
+    "src": "/handbook/southcarolina/stop-lines-trucks.png",
+    "width": 603
+  },
+  "stop-sign-where": {
+    "height": 336,
+    "page": 69,
+    "src": "/handbook/southcarolina/stop-sign-where.png",
+    "width": 448
+  },
+  "stuck-accelerator": {
+    "height": 262,
+    "page": 108,
+    "src": "/handbook/southcarolina/stuck-accelerator.png",
+    "width": 639
+  },
+  "stuck-in-snow": {
+    "height": 171,
+    "page": 132,
+    "src": "/handbook/southcarolina/stuck-in-snow.png",
+    "width": 603
+  },
+  "tal-thirty-days": {
+    "height": 171,
+    "page": 27,
+    "src": "/handbook/southcarolina/tal-thirty-days.png",
+    "width": 639
+  },
+  "ten-inches-wheel": {
+    "height": 200,
+    "page": 46,
+    "src": "/handbook/southcarolina/ten-inches-wheel.png",
+    "width": 603
+  },
+  "three-options": {
+    "height": 172,
+    "page": 104,
+    "src": "/handbook/southcarolina/three-options.png",
+    "width": 639
+  },
+  "three-point-when": {
+    "height": 198,
+    "page": 78,
+    "src": "/handbook/southcarolina/three-point-when.png",
+    "width": 639
+  },
+  "ticket-not-admission": {
+    "height": 198,
+    "page": 122,
+    "src": "/handbook/southcarolina/ticket-not-admission.png",
+    "width": 639
+  },
+  "tinted-lenses-night": {
+    "height": 198,
+    "page": 32,
+    "src": "/handbook/southcarolina/tinted-lenses-night.png",
+    "width": 639
+  },
+  "tire-blowout": {
+    "height": 280,
+    "page": 107,
+    "src": "/handbook/southcarolina/tire-blowout.png",
+    "width": 594
+  },
+  "tire-pressure-sticker": {
+    "height": 171,
+    "page": 44,
+    "src": "/handbook/southcarolina/tire-pressure-sticker.png",
+    "width": 603
+  },
+  "traffic-control-devices": {
+    "height": 198,
+    "page": 61,
+    "src": "/handbook/southcarolina/traffic-control-devices.png",
+    "width": 638
+  },
+  "traffic-stop-hands": {
+    "height": 227,
+    "page": 121,
+    "src": "/handbook/southcarolina/traffic-stop-hands.png",
+    "width": 639
+  },
+  "traffic-stop-night": {
+    "height": 199,
+    "page": 122,
+    "src": "/handbook/southcarolina/traffic-stop-night.png",
+    "width": 639
+  },
+  "traffic-stop-steps": {
+    "height": 227,
+    "page": 121,
+    "src": "/handbook/southcarolina/traffic-stop-steps.png",
+    "width": 639
+  },
+  "traffic-stop-weapons": {
+    "height": 274,
+    "page": 121,
+    "src": "/handbook/southcarolina/traffic-stop-weapons.png",
+    "width": 639
+  },
+  "trailer-55-mph": {
+    "height": 199,
+    "page": 136,
+    "src": "/handbook/southcarolina/trailer-55-mph.png",
+    "width": 639
+  },
+  "trailer-60-40": {
+    "height": 178,
+    "page": 135,
+    "src": "/handbook/southcarolina/trailer-60-40.png",
+    "width": 639
+  },
+  "trailer-backing": {
+    "height": 199,
+    "page": 137,
+    "src": "/handbook/southcarolina/trailer-backing.png",
+    "width": 639
+  },
+  "trailer-sway": {
+    "height": 171,
+    "page": 135,
+    "src": "/handbook/southcarolina/trailer-sway.png",
+    "width": 639
+  },
+  "truck-left-turn-speed": {
+    "height": 226,
+    "page": 120,
+    "src": "/handbook/southcarolina/truck-left-turn-speed.png",
+    "width": 603
+  },
+  "truck-squeeze": {
+    "height": 364,
+    "page": 119,
+    "src": "/handbook/southcarolina/truck-squeeze.png",
+    "width": 639
+  },
+  "truck-stopping-335": {
+    "height": 254,
+    "page": 118,
+    "src": "/handbook/southcarolina/truck-stopping-335.png",
+    "width": 603
+  },
+  "truck-wide-right-turn": {
+    "height": 226,
+    "page": 119,
+    "src": "/handbook/southcarolina/truck-wide-right-turn.png",
+    "width": 639
+  },
+  "trucks-hills-right-lane": {
+    "height": 171,
+    "page": 119,
+    "src": "/handbook/southcarolina/trucks-hills-right-lane.png",
+    "width": 639
+  },
+  "turn-lane-position": {
+    "height": 144,
+    "page": 76,
+    "src": "/handbook/southcarolina/turn-lane-position.png",
+    "width": 603
+  },
+  "turn-signal-trust": {
+    "height": 226,
+    "page": 80,
+    "src": "/handbook/southcarolina/turn-signal-trust.png",
+    "width": 639
+  },
+  "two-and-ten": {
+    "height": 171,
+    "page": 57,
+    "src": "/handbook/southcarolina/two-and-ten.png",
+    "width": 639
+  },
+  "uncontrolled-intersection": {
+    "height": 281,
+    "page": 131,
+    "src": "/handbook/southcarolina/uncontrolled-intersection.png",
+    "width": 603
+  },
+  "under-21-0-02": {
+    "height": 254,
+    "page": 38,
+    "src": "/handbook/southcarolina/under-21-0-02.png",
+    "width": 639
+  },
+  "unsecured-load": {
+    "height": 256,
+    "page": 51,
+    "src": "/handbook/southcarolina/unsecured-load.png",
+    "width": 639
+  },
+  "vision-0-02": {
+    "height": 253,
+    "page": 37,
+    "src": "/handbook/southcarolina/vision-0-02.png",
+    "width": 603
+  },
+  "vision-20-40": {
+    "height": 143,
+    "page": 33,
+    "src": "/handbook/southcarolina/vision-20-40.png",
+    "width": 639
+  },
+  "waiver-midnight": {
+    "height": 227,
+    "page": 13,
+    "src": "/handbook/southcarolina/waiver-midnight.png",
+    "width": 639
+  },
+  "warning-signs": {
+    "height": 228,
+    "page": 63,
+    "src": "/handbook/southcarolina/warning-signs.png",
+    "width": 639
+  },
+  "white-cane-stop": {
+    "height": 171,
+    "page": 110,
+    "src": "/handbook/southcarolina/white-cane-stop.png",
+    "width": 603
+  },
+  "winter-cruise-control": {
+    "height": 143,
+    "page": 132,
+    "src": "/handbook/southcarolina/winter-cruise-control.png",
+    "width": 603
+  },
+  "winter-skid-brakes": {
+    "height": 238,
+    "page": 133,
+    "src": "/handbook/southcarolina/winter-skid-brakes.png",
+    "width": 553
+  },
+  "work-zone-no-workers": {
+    "height": 171,
+    "page": 128,
+    "src": "/handbook/southcarolina/work-zone-no-workers.png",
+    "width": 408
+  },
+  "work-zone-points": {
+    "height": 227,
+    "page": 68,
+    "src": "/handbook/southcarolina/work-zone-points.png",
+    "width": 639
+  },
+  "work-zone-signs": {
+    "height": 254,
+    "page": 66,
+    "src": "/handbook/southcarolina/work-zone-signs.png",
+    "width": 639
+  },
+  "yellow-dashed-side": {
+    "height": 134,
+    "page": 72,
+    "src": "/handbook/southcarolina/yellow-dashed-side.png",
+    "width": 319
+  },
+  "yellow-light": {
+    "height": 253,
+    "page": 62,
+    "src": "/handbook/southcarolina/yellow-light.png",
+    "width": 639
+  },
+  "yield-sign": {
+    "height": 257,
+    "page": 69,
+    "src": "/handbook/southcarolina/yield-sign.png",
+    "width": 446
+  },
+  "zero-tolerance": {
+    "height": 171,
+    "page": 37,
+    "src": "/handbook/southcarolina/zero-tolerance.png",
+    "width": 639
+  },
+  "zipper-merge": {
+    "height": 254,
+    "page": 92,
+    "src": "/handbook/southcarolina/zipper-merge.png",
+    "width": 639
+  },
+  "zipper-not-law": {
+    "height": 171,
+    "page": 92,
+    "src": "/handbook/southcarolina/zipper-not-law.png",
+    "width": 639
+  },
+  "zipper-when-not": {
+    "height": 198,
+    "page": 93,
+    "src": "/handbook/southcarolina/zipper-when-not.png",
+    "width": 639
+  }
+}
