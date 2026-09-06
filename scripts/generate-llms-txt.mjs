@@ -162,7 +162,7 @@ for (const j of JURISDICTIONS) {
   const qs = j.sets.reduce((n, s) => n + s.questions.length, 0);
   const ex = excerptsFor(j.slug).length;
   L.push(
-    `- [${j.name} ${j.licenceName}](${base}/driving/${j.slug}/): ${j.sets.length} sets, ${qs} questions, ${ex} handbook excerpts. Real test: ${j.officialTest.questionCount} questions, pass ${j.officialTest.passLabel}. Written and checked ${j.contentDate}${j.handbookEdition ? ` against the ${j.handbookEdition} edition` : ""}. Official handbook: ${j.handbookUrl}`
+    `- [${j.name} ${j.licenceName}](${base}/driving/${j.slug}/): ${j.sets.length} sets, ${qs} questions, ${ex} handbook excerpts. Real test: ${j.officialTest.questionCount} questions, pass ${j.officialTest.passLabel}. Written and checked ${j.contentDate}${j.handbookEdition ? ` against the ${j.handbookEdition}${/edition/i.test(j.handbookEdition) ? "" : " edition"}` : ""}. Official handbook: ${j.handbookUrl}`
   );
 }
 L.push("");

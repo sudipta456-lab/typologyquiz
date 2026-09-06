@@ -280,7 +280,12 @@ export function JurisdictionClient() {
         >
           Questions written and checked {formatContentDate(jurisdiction.contentDate)}
           {jurisdiction.handbookEdition
-            ? ` against the ${jurisdiction.handbookEdition} edition.`
+            ? ` against the ${jurisdiction.handbookEdition}${
+                // Publishers label editions inconsistently: "June 2026",
+                // "2026 (BDS126)", but also "Driver's Handbook, 2nd Edition".
+                // Appending the word unconditionally gives "Edition edition".
+                /edition/i.test(jurisdiction.handbookEdition) ? "." : " edition."
+              }`
             : " against the current handbook."}{" "}
           Rules change; the link below is always the live version.
         </p>
