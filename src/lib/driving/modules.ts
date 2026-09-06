@@ -25,5 +25,12 @@ import * as alabama from "./alabama";
 import * as colorado from "./colorado";
 import * as minnesota from "./minnesota";
 import * as southcarolina from "./southcarolina";
+import * as wisconsin from "./wisconsin";
 
-export const MODULES: DrivingModule[] = [alabama, colorado, minnesota, southcarolina];
+export const MODULES: DrivingModule[] = [
+  alabama,
+  colorado,
+  minnesota,
+  southcarolina,
+  wisconsin,
+];

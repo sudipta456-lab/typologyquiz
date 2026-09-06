@@ -1,0 +1,884 @@
+{
+  "abs-firm-pressure": {
+    "height": 201,
+    "page": 50,
+    "src": "/handbook/wisconsin/abs-firm-pressure.png",
+    "width": 1097
+  },
+  "avoid-turn": {
+    "height": 145,
+    "page": 50,
+    "src": "/handbook/wisconsin/avoid-turn.png",
+    "width": 1099
+  },
+  "backing-slow-walk": {
+    "height": 173,
+    "page": 22,
+    "src": "/handbook/wisconsin/backing-slow-walk.png",
+    "width": 1096
+  },
+  "bicycle-full-lane": {
+    "height": 145,
+    "page": 56,
+    "src": "/handbook/wisconsin/bicycle-full-lane.png",
+    "width": 1089
+  },
+  "bicycle-three-feet": {
+    "height": 169,
+    "page": 56,
+    "src": "/handbook/wisconsin/bicycle-three-feet.png",
+    "width": 1098
+  },
+  "blowout": {
+    "height": 117,
+    "page": 52,
+    "src": "/handbook/wisconsin/blowout.png",
+    "width": 686
+  },
+  "brakes-fail": {
+    "height": 117,
+    "page": 52,
+    "src": "/handbook/wisconsin/brakes-fail.png",
+    "width": 455
+  },
+  "bridges-freeze": {
+    "height": 145,
+    "page": 48,
+    "src": "/handbook/wisconsin/bridges-freeze.png",
+    "width": 1102
+  },
+  "child-seats": {
+    "height": 145,
+    "page": 59,
+    "src": "/handbook/wisconsin/child-seats.png",
+    "width": 1079
+  },
+  "controlled-substance": {
+    "height": 145,
+    "page": 53,
+    "src": "/handbook/wisconsin/controlled-substance.png",
+    "width": 1071
+  },
+  "crash-injured": {
+    "height": 117,
+    "page": 51,
+    "src": "/handbook/wisconsin/crash-injured.png",
+    "width": 581
+  },
+  "crash-report-thresholds": {
+    "height": 117,
+    "page": 51,
+    "src": "/handbook/wisconsin/crash-report-thresholds.png",
+    "width": 465
+  },
+  "crash-teen-passenger": {
+    "height": 145,
+    "page": 50,
+    "src": "/handbook/wisconsin/crash-teen-passenger.png",
+    "width": 1075
+  },
+  "crosswalk-stop-line": {
+    "height": 226,
+    "page": 38,
+    "src": "/handbook/wisconsin/crosswalk-stop-line.png",
+    "width": 897
+  },
+  "deer-active": {
+    "height": 173,
+    "page": 47,
+    "src": "/handbook/wisconsin/deer-active.png",
+    "width": 1101
+  },
+  "drugs-illegal": {
+    "height": 145,
+    "page": 53,
+    "src": "/handbook/wisconsin/drugs-illegal.png",
+    "width": 1134
+  },
+  "emergency-pull-over": {
+    "height": 145,
+    "page": 55,
+    "src": "/handbook/wisconsin/emergency-pull-over.png",
+    "width": 1101
+  },
+  "farm-livestock": {
+    "height": 145,
+    "page": 49,
+    "src": "/handbook/wisconsin/farm-livestock.png",
+    "width": 1058
+  },
+  "farm-under-16": {
+    "height": 117,
+    "page": 49,
+    "src": "/handbook/wisconsin/farm-under-16.png",
+    "width": 1084
+  },
+  "following-adverse": {
+    "height": 145,
+    "page": 14,
+    "src": "/handbook/wisconsin/following-adverse.png",
+    "width": 1093
+  },
+  "following-count": {
+    "height": 145,
+    "page": 14,
+    "src": "/handbook/wisconsin/following-count.png",
+    "width": 1093
+  },
+  "following-four-second": {
+    "height": 117,
+    "page": 14,
+    "src": "/handbook/wisconsin/following-four-second.png",
+    "width": 1093
+  },
+  "funeral-procession": {
+    "height": 173,
+    "page": 47,
+    "src": "/handbook/wisconsin/funeral-procession.png",
+    "width": 1082
+  },
+  "habitual-offender": {
+    "height": 145,
+    "page": 57,
+    "src": "/handbook/wisconsin/habitual-offender.png",
+    "width": 1095
+  },
+  "headlights-recommended": {
+    "height": 217,
+    "page": 25,
+    "src": "/handbook/wisconsin/headlights-recommended.png",
+    "width": 742
+  },
+  "headlights-required": {
+    "height": 217,
+    "page": 25,
+    "src": "/handbook/wisconsin/headlights-required.png",
+    "width": 866
+  },
+  "headphones": {
+    "height": 145,
+    "page": 53,
+    "src": "/handbook/wisconsin/headphones.png",
+    "width": 1083
+  },
+  "highbeams-dim": {
+    "height": 117,
+    "page": 25,
+    "src": "/handbook/wisconsin/highbeams-dim.png",
+    "width": 817
+  },
+  "highbeams-when": {
+    "height": 217,
+    "page": 25,
+    "src": "/handbook/wisconsin/highbeams-when.png",
+    "width": 613
+  },
+  "hydroplaning": {
+    "height": 145,
+    "page": 48,
+    "src": "/handbook/wisconsin/hydroplaning.png",
+    "width": 1073
+  },
+  "hydroplaning-steps": {
+    "height": 117,
+    "page": 48,
+    "src": "/handbook/wisconsin/hydroplaning-steps.png",
+    "width": 414
+  },
+  "implied-consent": {
+    "height": 145,
+    "page": 53,
+    "src": "/handbook/wisconsin/implied-consent.png",
+    "width": 1080
+  },
+  "implied-consent-refusal": {
+    "height": 145,
+    "page": 53,
+    "src": "/handbook/wisconsin/implied-consent-refusal.png",
+    "width": 1068
+  },
+  "insurance-required": {
+    "height": 145,
+    "page": 59,
+    "src": "/handbook/wisconsin/insurance-required.png",
+    "width": 1090
+  },
+  "intersection-search": {
+    "height": 145,
+    "page": 15,
+    "src": "/handbook/wisconsin/intersection-search.png",
+    "width": 1062
+  },
+  "label-warning": {
+    "height": 173,
+    "page": 53,
+    "src": "/handbook/wisconsin/label-warning.png",
+    "width": 1100
+  },
+  "lane-change-blindspot": {
+    "height": 174,
+    "page": 21,
+    "src": "/handbook/wisconsin/lane-change-blindspot.png",
+    "width": 1103
+  },
+  "lane-flex": {
+    "height": 145,
+    "page": 42,
+    "src": "/handbook/wisconsin/lane-flex.png",
+    "width": 1079
+  },
+  "lane-reserved": {
+    "height": 173,
+    "page": 41,
+    "src": "/handbook/wisconsin/lane-reserved.png",
+    "width": 1091
+  },
+  "lane-shared-center": {
+    "height": 146,
+    "page": 40,
+    "src": "/handbook/wisconsin/lane-shared-center.png",
+    "width": 803
+  },
+  "lines-dashed-yellow": {
+    "height": 146,
+    "page": 39,
+    "src": "/handbook/wisconsin/lines-dashed-yellow.png",
+    "width": 900
+  },
+  "lines-double-yellow": {
+    "height": 146,
+    "page": 39,
+    "src": "/handbook/wisconsin/lines-double-yellow.png",
+    "width": 865
+  },
+  "lines-double-yellow-exception": {
+    "height": 174,
+    "page": 39,
+    "src": "/handbook/wisconsin/lines-double-yellow-exception.png",
+    "width": 891
+  },
+  "lines-edge": {
+    "height": 226,
+    "page": 38,
+    "src": "/handbook/wisconsin/lines-edge.png",
+    "width": 868
+  },
+  "lines-mixed-yellow": {
+    "height": 146,
+    "page": 39,
+    "src": "/handbook/wisconsin/lines-mixed-yellow.png",
+    "width": 882
+  },
+  "lines-white-dashed": {
+    "height": 174,
+    "page": 38,
+    "src": "/handbook/wisconsin/lines-white-dashed.png",
+    "width": 866
+  },
+  "lines-white-solid": {
+    "height": 146,
+    "page": 38,
+    "src": "/handbook/wisconsin/lines-white-solid.png",
+    "width": 866
+  },
+  "merge-gap": {
+    "height": 173,
+    "page": 14,
+    "src": "/handbook/wisconsin/merge-gap.png",
+    "width": 1081
+  },
+  "motorcycle-space": {
+    "height": 173,
+    "page": 55,
+    "src": "/handbook/wisconsin/motorcycle-space.png",
+    "width": 1070
+  },
+  "move-over-law": {
+    "height": 173,
+    "page": 55,
+    "src": "/handbook/wisconsin/move-over-law.png",
+    "width": 1101
+  },
+  "no-abs-pump": {
+    "height": 145,
+    "page": 48,
+    "src": "/handbook/wisconsin/no-abs-pump.png",
+    "width": 1103
+  },
+  "no-zones": {
+    "height": 145,
+    "page": 56,
+    "src": "/handbook/wisconsin/no-zones.png",
+    "width": 1092
+  },
+  "parking-hill": {
+    "height": 145,
+    "page": 23,
+    "src": "/handbook/wisconsin/parking-hill.png",
+    "width": 1102
+  },
+  "parking-hill-down": {
+    "height": 145,
+    "page": 23,
+    "src": "/handbook/wisconsin/parking-hill-down.png",
+    "width": 1102
+  },
+  "parking-hydrant-yellow": {
+    "height": 117,
+    "page": 22,
+    "src": "/handbook/wisconsin/parking-hydrant-yellow.png",
+    "width": 1082
+  },
+  "parking-level": {
+    "height": 145,
+    "page": 22,
+    "src": "/handbook/wisconsin/parking-level.png",
+    "width": 1082
+  },
+  "pass-no-duty": {
+    "height": 145,
+    "page": 22,
+    "src": "/handbook/wisconsin/pass-no-duty.png",
+    "width": 1065
+  },
+  "pass-one-at-a-time": {
+    "height": 145,
+    "page": 22,
+    "src": "/handbook/wisconsin/pass-one-at-a-time.png",
+    "width": 1068
+  },
+  "pass-return": {
+    "height": 145,
+    "page": 22,
+    "src": "/handbook/wisconsin/pass-return.png",
+    "width": 1065
+  },
+  "pass-shoulder": {
+    "height": 146,
+    "page": 21,
+    "src": "/handbook/wisconsin/pass-shoulder.png",
+    "width": 1062
+  },
+  "permit-darkness": {
+    "height": 173,
+    "page": 9,
+    "src": "/handbook/wisconsin/permit-darkness.png",
+    "width": 1096
+  },
+  "permit-supervisor": {
+    "height": 173,
+    "page": 9,
+    "src": "/handbook/wisconsin/permit-supervisor.png",
+    "width": 1107
+  },
+  "permit-who": {
+    "height": 117,
+    "page": 9,
+    "src": "/handbook/wisconsin/permit-who.png",
+    "width": 487
+  },
+  "phone-permit": {
+    "height": 145,
+    "page": 53,
+    "src": "/handbook/wisconsin/phone-permit.png",
+    "width": 1003
+  },
+  "points-12": {
+    "height": 145,
+    "page": 57,
+    "src": "/handbook/wisconsin/points-12.png",
+    "width": 1061
+  },
+  "points-doubled": {
+    "height": 145,
+    "page": 57,
+    "src": "/handbook/wisconsin/points-doubled.png",
+    "width": 1084
+  },
+  "prob-50-hours": {
+    "height": 145,
+    "page": 10,
+    "src": "/handbook/wisconsin/prob-50-hours.png",
+    "width": 1107
+  },
+  "prob-gdl-nine": {
+    "height": 145,
+    "page": 10,
+    "src": "/handbook/wisconsin/prob-gdl-nine.png",
+    "width": 1104
+  },
+  "prob-night-window": {
+    "height": 120,
+    "page": 11,
+    "src": "/handbook/wisconsin/prob-night-window.png",
+    "width": 528
+  },
+  "prob-phone": {
+    "height": 145,
+    "page": 10,
+    "src": "/handbook/wisconsin/prob-phone.png",
+    "width": 1046
+  },
+  "prob-six-months": {
+    "height": 117,
+    "page": 10,
+    "src": "/handbook/wisconsin/prob-six-months.png",
+    "width": 1107
+  },
+  "prob-turn-18": {
+    "height": 117,
+    "page": 11,
+    "src": "/handbook/wisconsin/prob-turn-18.png",
+    "width": 1045
+  },
+  "railroad-look": {
+    "height": 145,
+    "page": 16,
+    "src": "/handbook/wisconsin/railroad-look.png",
+    "width": 1103
+  },
+  "roundabout-counter": {
+    "height": 117,
+    "page": 43,
+    "src": "/handbook/wisconsin/roundabout-counter.png",
+    "width": 1089
+  },
+  "roundabout-emergency": {
+    "height": 173,
+    "page": 43,
+    "src": "/handbook/wisconsin/roundabout-emergency.png",
+    "width": 1106
+  },
+  "roundabout-lane-choice": {
+    "height": 145,
+    "page": 43,
+    "src": "/handbook/wisconsin/roundabout-lane-choice.png",
+    "width": 1089
+  },
+  "roundabout-no-lane-change": {
+    "height": 145,
+    "page": 43,
+    "src": "/handbook/wisconsin/roundabout-no-lane-change.png",
+    "width": 1096
+  },
+  "row-emergency": {
+    "height": 117,
+    "page": 13,
+    "src": "/handbook/wisconsin/row-emergency.png",
+    "width": 703
+  },
+  "row-fourway": {
+    "height": 117,
+    "page": 13,
+    "src": "/handbook/wisconsin/row-fourway.png",
+    "width": 682
+  },
+  "row-left-turn": {
+    "height": 117,
+    "page": 13,
+    "src": "/handbook/wisconsin/row-left-turn.png",
+    "width": 703
+  },
+  "row-roundabout": {
+    "height": 117,
+    "page": 13,
+    "src": "/handbook/wisconsin/row-roundabout.png",
+    "width": 593
+  },
+  "row-tie-right": {
+    "height": 117,
+    "page": 13,
+    "src": "/handbook/wisconsin/row-tie-right.png",
+    "width": 989
+  },
+  "row-tintersection": {
+    "height": 117,
+    "page": 13,
+    "src": "/handbook/wisconsin/row-tintersection.png",
+    "width": 537
+  },
+  "row-uncontrolled": {
+    "height": 145,
+    "page": 13,
+    "src": "/handbook/wisconsin/row-uncontrolled.png",
+    "width": 825
+  },
+  "row-white-cane": {
+    "height": 145,
+    "page": 13,
+    "src": "/handbook/wisconsin/row-white-cane.png",
+    "width": 1049
+  },
+  "rr-exempt": {
+    "height": 145,
+    "page": 34,
+    "src": "/handbook/wisconsin/rr-exempt.png",
+    "width": 1085
+  },
+  "rr-gate": {
+    "height": 146,
+    "page": 35,
+    "src": "/handbook/wisconsin/rr-gate.png",
+    "width": 717
+  },
+  "rr-lights-flashing": {
+    "height": 146,
+    "page": 34,
+    "src": "/handbook/wisconsin/rr-lights-flashing.png",
+    "width": 871
+  },
+  "rr-never-beat": {
+    "height": 145,
+    "page": 34,
+    "src": "/handbook/wisconsin/rr-never-beat.png",
+    "width": 1079
+  },
+  "rr-no-gears": {
+    "height": 173,
+    "page": 34,
+    "src": "/handbook/wisconsin/rr-no-gears.png",
+    "width": 1079
+  },
+  "schoolbus-20-feet": {
+    "height": 145,
+    "page": 55,
+    "src": "/handbook/wisconsin/schoolbus-20-feet.png",
+    "width": 1099
+  },
+  "schoolbus-divided": {
+    "height": 145,
+    "page": 55,
+    "src": "/handbook/wisconsin/schoolbus-divided.png",
+    "width": 1071
+  },
+  "schoolbus-proceed": {
+    "height": 145,
+    "page": 55,
+    "src": "/handbook/wisconsin/schoolbus-proceed.png",
+    "width": 1099
+  },
+  "seatbelt-airbag": {
+    "height": 145,
+    "page": 58,
+    "src": "/handbook/wisconsin/seatbelt-airbag.png",
+    "width": 1091
+  },
+  "seatbelt-all-ages": {
+    "height": 173,
+    "page": 58,
+    "src": "/handbook/wisconsin/seatbelt-all-ages.png",
+    "width": 1091
+  },
+  "sidewalk-illegal": {
+    "height": 145,
+    "page": 55,
+    "src": "/handbook/wisconsin/sidewalk-illegal.png",
+    "width": 1097
+  },
+  "sight-10-15": {
+    "height": 173,
+    "page": 16,
+    "src": "/handbook/wisconsin/sight-10-15.png",
+    "width": 1095
+  },
+  "signal-100-feet": {
+    "height": 143,
+    "page": 25,
+    "src": "/handbook/wisconsin/signal-100-feet.png",
+    "width": 1095
+  },
+  "signal-flashing-red": {
+    "height": 118,
+    "page": 36,
+    "src": "/handbook/wisconsin/signal-flashing-red.png",
+    "width": 902
+  },
+  "signal-flashing-yellow": {
+    "height": 118,
+    "page": 37,
+    "src": "/handbook/wisconsin/signal-flashing-yellow.png",
+    "width": 883
+  },
+  "signal-flashing-yellow-arrow": {
+    "height": 118,
+    "page": 37,
+    "src": "/handbook/wisconsin/signal-flashing-yellow-arrow.png",
+    "width": 847
+  },
+  "signal-green-arrow": {
+    "height": 174,
+    "page": 37,
+    "src": "/handbook/wisconsin/signal-green-arrow.png",
+    "width": 887
+  },
+  "signal-green-left": {
+    "height": 146,
+    "page": 37,
+    "src": "/handbook/wisconsin/signal-green-left.png",
+    "width": 877
+  },
+  "signal-power-out": {
+    "height": 117,
+    "page": 36,
+    "src": "/handbook/wisconsin/signal-power-out.png",
+    "width": 1103
+  },
+  "signal-red-arrow": {
+    "height": 146,
+    "page": 36,
+    "src": "/handbook/wisconsin/signal-red-arrow.png",
+    "width": 871
+  },
+  "signal-steady-green": {
+    "height": 226,
+    "page": 37,
+    "src": "/handbook/wisconsin/signal-steady-green.png",
+    "width": 876
+  },
+  "signal-steady-red": {
+    "height": 174,
+    "page": 36,
+    "src": "/handbook/wisconsin/signal-steady-red.png",
+    "width": 913
+  },
+  "signal-steady-yellow": {
+    "height": 174,
+    "page": 37,
+    "src": "/handbook/wisconsin/signal-steady-yellow.png",
+    "width": 867
+  },
+  "signal-turn-on-red": {
+    "height": 146,
+    "page": 36,
+    "src": "/handbook/wisconsin/signal-turn-on-red.png",
+    "width": 863
+  },
+  "signs-construction": {
+    "height": 173,
+    "page": 30,
+    "src": "/handbook/wisconsin/signs-construction.png",
+    "width": 1091
+  },
+  "signs-destination-green": {
+    "height": 145,
+    "page": 31,
+    "src": "/handbook/wisconsin/signs-destination-green.png",
+    "width": 1031
+  },
+  "signs-divided-highway": {
+    "height": 146,
+    "page": 26,
+    "src": "/handbook/wisconsin/signs-divided-highway.png",
+    "width": 931
+  },
+  "signs-do-not-enter": {
+    "height": 146,
+    "page": 28,
+    "src": "/handbook/wisconsin/signs-do-not-enter.png",
+    "width": 787
+  },
+  "signs-interstate": {
+    "height": 146,
+    "page": 33,
+    "src": "/handbook/wisconsin/signs-interstate.png",
+    "width": 904
+  },
+  "signs-mile-marker": {
+    "height": 145,
+    "page": 32,
+    "src": "/handbook/wisconsin/signs-mile-marker.png",
+    "width": 1071
+  },
+  "signs-no-passing": {
+    "height": 146,
+    "page": 29,
+    "src": "/handbook/wisconsin/signs-no-passing.png",
+    "width": 741
+  },
+  "signs-obey-officer": {
+    "height": 173,
+    "page": 26,
+    "src": "/handbook/wisconsin/signs-obey-officer.png",
+    "width": 1116
+  },
+  "signs-regulatory-shape": {
+    "height": 145,
+    "page": 28,
+    "src": "/handbook/wisconsin/signs-regulatory-shape.png",
+    "width": 1096
+  },
+  "signs-school-crossing": {
+    "height": 118,
+    "page": 27,
+    "src": "/handbook/wisconsin/signs-school-crossing.png",
+    "width": 901
+  },
+  "signs-school-speed": {
+    "height": 117,
+    "page": 14,
+    "src": "/handbook/wisconsin/signs-school-speed.png",
+    "width": 1098
+  },
+  "signs-service-blue": {
+    "height": 145,
+    "page": 32,
+    "src": "/handbook/wisconsin/signs-service-blue.png",
+    "width": 1081
+  },
+  "signs-slow-moving": {
+    "height": 146,
+    "page": 29,
+    "src": "/handbook/wisconsin/signs-slow-moving.png",
+    "width": 770
+  },
+  "signs-speed-limit": {
+    "height": 146,
+    "page": 28,
+    "src": "/handbook/wisconsin/signs-speed-limit.png",
+    "width": 804
+  },
+  "signs-stop": {
+    "height": 174,
+    "page": 29,
+    "src": "/handbook/wisconsin/signs-stop.png",
+    "width": 773
+  },
+  "signs-stop-ahead": {
+    "height": 118,
+    "page": 27,
+    "src": "/handbook/wisconsin/signs-stop-ahead.png",
+    "width": 901
+  },
+  "signs-warning-yellow": {
+    "height": 145,
+    "page": 26,
+    "src": "/handbook/wisconsin/signs-warning-yellow.png",
+    "width": 1060
+  },
+  "signs-yield": {
+    "height": 146,
+    "page": 29,
+    "src": "/handbook/wisconsin/signs-yield.png",
+    "width": 755
+  },
+  "space-mirror-6-8": {
+    "height": 145,
+    "page": 17,
+    "src": "/handbook/wisconsin/space-mirror-6-8.png",
+    "width": 1073
+  },
+  "speed-no-pass": {
+    "height": 145,
+    "page": 14,
+    "src": "/handbook/wisconsin/speed-no-pass.png",
+    "width": 1094
+  },
+  "speed-outlying-35": {
+    "height": 117,
+    "page": 14,
+    "src": "/handbook/wisconsin/speed-outlying-35.png",
+    "width": 1087
+  },
+  "speed-residential-25": {
+    "height": 145,
+    "page": 14,
+    "src": "/handbook/wisconsin/speed-residential-25.png",
+    "width": 1098
+  },
+  "speed-school-15": {
+    "height": 117,
+    "page": 14,
+    "src": "/handbook/wisconsin/speed-school-15.png",
+    "width": 1098
+  },
+  "speed-slow-lane": {
+    "height": 145,
+    "page": 14,
+    "src": "/handbook/wisconsin/speed-slow-lane.png",
+    "width": 1094
+  },
+  "speed-too-slow": {
+    "height": 145,
+    "page": 14,
+    "src": "/handbook/wisconsin/speed-too-slow.png",
+    "width": 1029
+  },
+  "test-knowledge-50": {
+    "height": 145,
+    "page": 5,
+    "src": "/handbook/wisconsin/test-knowledge-50.png",
+    "width": 1086
+  },
+  "test-knowledge-time": {
+    "height": 195,
+    "page": 5,
+    "src": "/handbook/wisconsin/test-knowledge-time.png",
+    "width": 1086
+  },
+  "test-online-fee": {
+    "height": 117,
+    "page": 5,
+    "src": "/handbook/wisconsin/test-online-fee.png",
+    "width": 1014
+  },
+  "test-signs-15": {
+    "height": 145,
+    "page": 5,
+    "src": "/handbook/wisconsin/test-signs-15.png",
+    "width": 1073
+  },
+  "time-sobers": {
+    "height": 145,
+    "page": 53,
+    "src": "/handbook/wisconsin/time-sobers.png",
+    "width": 1097
+  },
+  "turn-multiple-lanes": {
+    "height": 173,
+    "page": 20,
+    "src": "/handbook/wisconsin/turn-multiple-lanes.png",
+    "width": 1094
+  },
+  "turn-no-lane-change": {
+    "height": 145,
+    "page": 18,
+    "src": "/handbook/wisconsin/turn-no-lane-change.png",
+    "width": 1089
+  },
+  "turn-right-fourlane": {
+    "height": 145,
+    "page": 20,
+    "src": "/handbook/wisconsin/turn-right-fourlane.png",
+    "width": 1061
+  },
+  "under-21-zero": {
+    "height": 145,
+    "page": 53,
+    "src": "/handbook/wisconsin/under-21-zero.png",
+    "width": 1090
+  },
+  "uturn-rural": {
+    "height": 145,
+    "page": 19,
+    "src": "/handbook/wisconsin/uturn-rural.png",
+    "width": 1072
+  },
+  "winter-no-cruise": {
+    "height": 117,
+    "page": 49,
+    "src": "/handbook/wisconsin/winter-no-cruise.png",
+    "width": 522
+  },
+  "winter-snowplow-200": {
+    "height": 117,
+    "page": 49,
+    "src": "/handbook/wisconsin/winter-snowplow-200.png",
+    "width": 1015
+  },
+  "workzone-fines-double": {
+    "height": 173,
+    "page": 30,
+    "src": "/handbook/wisconsin/workzone-fines-double.png",
+    "width": 1092
+  }
+}

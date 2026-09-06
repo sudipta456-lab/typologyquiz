@@ -42,7 +42,7 @@ one per wave so the `/ca` side keeps pace. Every bank is built to
 |---|---|---|---|
 | 1 | Colorado | colorado | **built** (2026-09-06, 251 excerpts, 230 snippets) |
 | 1 | Minnesota | minnesota | **built** (2026-09-06, 326 excerpts, 312 snippets) |
-| 1 | Wisconsin | wisconsin | building |
+| 1 | Wisconsin | wisconsin | **built** (2026-09-06, 190 excerpts, 147 snippets) |
 | 1 | South Carolina | southcarolina | **built** (2026-09-06, 300 excerpts, 220 snippets) |
 | 1 | Alabama | alabama | **built** (2026-09-06, 350 excerpts, 315 snippets) |
 | 1 | Quebec | quebec | building |
