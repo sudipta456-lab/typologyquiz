@@ -24,27 +24,33 @@ export interface DrivingModule {
 import * as alabama from "./alabama";
 import * as colorado from "./colorado";
 import * as connecticut from "./connecticut";
+import * as iowa from "./iowa";
 import * as kentucky from "./kentucky";
 import * as louisiana from "./louisiana";
 import * as manitoba from "./manitoba";
 import * as minnesota from "./minnesota";
+import * as nevada from "./nevada";
 import * as oklahoma from "./oklahoma";
 import * as oregon from "./oregon";
 import * as quebec from "./quebec";
 import * as southcarolina from "./southcarolina";
+import * as utah from "./utah";
 import * as wisconsin from "./wisconsin";
 
 export const MODULES: DrivingModule[] = [
   alabama,
   colorado,
   connecticut,
+  iowa,
   kentucky,
   louisiana,
   manitoba,
   minnesota,
+  nevada,
   oklahoma,
   oregon,
   quebec,
   southcarolina,
+  utah,
   wisconsin,
 ];

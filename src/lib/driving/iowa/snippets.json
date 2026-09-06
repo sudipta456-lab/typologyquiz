@@ -1,0 +1,1424 @@
+{
+  "acc-bad-weather": {
+    "height": 141,
+    "page": 33,
+    "src": "/handbook/iowa/acc-bad-weather.png",
+    "width": 897
+  },
+  "adas-not-a-substitute": {
+    "height": 166,
+    "page": 26,
+    "src": "/handbook/iowa/adas-not-a-substitute.png",
+    "width": 1131
+  },
+  "adas-test-tech": {
+    "height": 141,
+    "page": 26,
+    "src": "/handbook/iowa/adas-test-tech.png",
+    "width": 1127
+  },
+  "all-way-stop-order": {
+    "height": 217,
+    "page": 19,
+    "src": "/handbook/iowa/all-way-stop-order.png",
+    "width": 503
+  },
+  "autism-deaf-indicator": {
+    "height": 141,
+    "page": 64,
+    "src": "/handbook/iowa/autism-deaf-indicator.png",
+    "width": 1121
+  },
+  "backing-turn-head": {
+    "height": 216,
+    "page": 43,
+    "src": "/handbook/iowa/backing-turn-head.png",
+    "width": 489
+  },
+  "bicycle-change-lanes": {
+    "height": 166,
+    "page": 58,
+    "src": "/handbook/iowa/bicycle-change-lanes.png",
+    "width": 552
+  },
+  "bicycle-return": {
+    "height": 166,
+    "page": 58,
+    "src": "/handbook/iowa/bicycle-return.png",
+    "width": 552
+  },
+  "bicyclists-sidewalks": {
+    "height": 166,
+    "page": 58,
+    "src": "/handbook/iowa/bicyclists-sidewalks.png",
+    "width": 516
+  },
+  "bike-lane-driving": {
+    "height": 191,
+    "page": 17,
+    "src": "/handbook/iowa/bike-lane-driving.png",
+    "width": 498
+  },
+  "bike-lane-green-paint": {
+    "height": 216,
+    "page": 17,
+    "src": "/handbook/iowa/bike-lane-green-paint.png",
+    "width": 501
+  },
+  "black-ice-bridges": {
+    "height": 266,
+    "page": 61,
+    "src": "/handbook/iowa/black-ice-bridges.png",
+    "width": 510
+  },
+  "blind-spot-definition": {
+    "height": 141,
+    "page": 34,
+    "src": "/handbook/iowa/blind-spot-definition.png",
+    "width": 534
+  },
+  "blind-spot-large-vehicle": {
+    "height": 166,
+    "page": 34,
+    "src": "/handbook/iowa/blind-spot-large-vehicle.png",
+    "width": 520
+  },
+  "brake-lights-warn": {
+    "height": 191,
+    "page": 41,
+    "src": "/handbook/iowa/brake-lights-warn.png",
+    "width": 550
+  },
+  "braking-surfaces": {
+    "height": 141,
+    "page": 40,
+    "src": "/handbook/iowa/braking-surfaces.png",
+    "width": 1142
+  },
+  "breakdown-exit-vehicle": {
+    "height": 216,
+    "page": 49,
+    "src": "/handbook/iowa/breakdown-exit-vehicle.png",
+    "width": 483
+  },
+  "breakdown-not-over-hill": {
+    "height": 191,
+    "page": 49,
+    "src": "/handbook/iowa/breakdown-not-over-hill.png",
+    "width": 482
+  },
+  "bus-four-lane-exception": {
+    "height": 216,
+    "page": 20,
+    "src": "/handbook/iowa/bus-four-lane-exception.png",
+    "width": 601
+  },
+  "bus-meeting-20-mph": {
+    "height": 166,
+    "page": 20,
+    "src": "/handbook/iowa/bus-meeting-20-mph.png",
+    "width": 609
+  },
+  "bus-meeting-stop": {
+    "height": 166,
+    "page": 20,
+    "src": "/handbook/iowa/bus-meeting-stop.png",
+    "width": 609
+  },
+  "bus-no-passing-lights": {
+    "height": 166,
+    "page": 20,
+    "src": "/handbook/iowa/bus-no-passing-lights.png",
+    "width": 610
+  },
+  "bus-rear-15-feet": {
+    "height": 216,
+    "page": 20,
+    "src": "/handbook/iowa/bus-rear-15-feet.png",
+    "width": 610
+  },
+  "bus-suspension-180": {
+    "height": 143,
+    "page": 20,
+    "src": "/handbook/iowa/bus-suspension-180.png",
+    "width": 532
+  },
+  "carry-failure-penalty": {
+    "height": 142,
+    "page": 5,
+    "src": "/handbook/iowa/carry-failure-penalty.png",
+    "width": 550
+  },
+  "carry-licence-insurance": {
+    "height": 217,
+    "page": 5,
+    "src": "/handbook/iowa/carry-licence-insurance.png",
+    "width": 550
+  },
+  "child-rear-facing": {
+    "height": 142,
+    "page": 35,
+    "src": "/handbook/iowa/child-rear-facing.png",
+    "width": 716
+  },
+  "child-six-to-18": {
+    "height": 142,
+    "page": 35,
+    "src": "/handbook/iowa/child-six-to-18.png",
+    "width": 860
+  },
+  "child-under-six": {
+    "height": 142,
+    "page": 35,
+    "src": "/handbook/iowa/child-under-six.png",
+    "width": 675
+  },
+  "clear-entire-vehicle": {
+    "height": 166,
+    "page": 61,
+    "src": "/handbook/iowa/clear-entire-vehicle.png",
+    "width": 531
+  },
+  "colour-blue": {
+    "height": 274,
+    "page": 6,
+    "src": "/handbook/iowa/colour-blue.png",
+    "width": 308
+  },
+  "colour-brown": {
+    "height": 224,
+    "page": 6,
+    "src": "/handbook/iowa/colour-brown.png",
+    "width": 317
+  },
+  "colour-green": {
+    "height": 199,
+    "page": 6,
+    "src": "/handbook/iowa/colour-green.png",
+    "width": 319
+  },
+  "colour-orange": {
+    "height": 274,
+    "page": 6,
+    "src": "/handbook/iowa/colour-orange.png",
+    "width": 314
+  },
+  "colour-pink": {
+    "height": 224,
+    "page": 6,
+    "src": "/handbook/iowa/colour-pink.png",
+    "width": 307
+  },
+  "colour-red": {
+    "height": 173,
+    "page": 6,
+    "src": "/handbook/iowa/colour-red.png",
+    "width": 294
+  },
+  "colour-white": {
+    "height": 223,
+    "page": 6,
+    "src": "/handbook/iowa/colour-white.png",
+    "width": 269
+  },
+  "colour-yellow-green": {
+    "height": 199,
+    "page": 6,
+    "src": "/handbook/iowa/colour-yellow-green.png",
+    "width": 284
+  },
+  "counting-following": {
+    "height": 176,
+    "page": 41,
+    "src": "/handbook/iowa/counting-following.png",
+    "width": 558
+  },
+  "crash-report-1500": {
+    "height": 166,
+    "page": 63,
+    "src": "/handbook/iowa/crash-report-1500.png",
+    "width": 932
+  },
+  "crash-step-one": {
+    "height": 156,
+    "page": 63,
+    "src": "/handbook/iowa/crash-step-one.png",
+    "width": 946
+  },
+  "crosswalk-marked-unmarked": {
+    "height": 142,
+    "page": 19,
+    "src": "/handbook/iowa/crosswalk-marked-unmarked.png",
+    "width": 448
+  },
+  "crosswalk-yield-unmarked": {
+    "height": 166,
+    "page": 15,
+    "src": "/handbook/iowa/crosswalk-yield-unmarked.png",
+    "width": 718
+  },
+  "ddi": {
+    "height": 166,
+    "page": 53,
+    "src": "/handbook/iowa/ddi.png",
+    "width": 725
+  },
+  "deer-do-not-swerve": {
+    "height": 142,
+    "page": 57,
+    "src": "/handbook/iowa/deer-do-not-swerve.png",
+    "width": 1103
+  },
+  "deer-peak-months": {
+    "height": 167,
+    "page": 57,
+    "src": "/handbook/iowa/deer-peak-months.png",
+    "width": 1098
+  },
+  "defensive-94-percent": {
+    "height": 118,
+    "page": 47,
+    "src": "/handbook/iowa/defensive-94-percent.png",
+    "width": 1132
+  },
+  "defensive-assume-worst": {
+    "height": 141,
+    "page": 47,
+    "src": "/handbook/iowa/defensive-assume-worst.png",
+    "width": 977
+  },
+  "defensive-escape-route": {
+    "height": 141,
+    "page": 47,
+    "src": "/handbook/iowa/defensive-escape-route.png",
+    "width": 1064
+  },
+  "defensive-scan-20-30": {
+    "height": 149,
+    "page": 47,
+    "src": "/handbook/iowa/defensive-scan-20-30.png",
+    "width": 1087
+  },
+  "dirty-lenses": {
+    "height": 166,
+    "page": 24,
+    "src": "/handbook/iowa/dirty-lenses.png",
+    "width": 481
+  },
+  "disability-parking": {
+    "height": 141,
+    "page": 21,
+    "src": "/handbook/iowa/disability-parking.png",
+    "width": 810
+  },
+  "distracted-primary": {
+    "height": 116,
+    "page": 36,
+    "src": "/handbook/iowa/distracted-primary.png",
+    "width": 560
+  },
+  "distraction-three-kinds": {
+    "height": 116,
+    "page": 36,
+    "src": "/handbook/iowa/distraction-three-kinds.png",
+    "width": 408
+  },
+  "do-not-enter": {
+    "height": 211,
+    "page": 8,
+    "src": "/handbook/iowa/do-not-enter.png",
+    "width": 427
+  },
+  "driveway-yield": {
+    "height": 167,
+    "page": 19,
+    "src": "/handbook/iowa/driveway-yield.png",
+    "width": 468
+  },
+  "drowsy-18-hours": {
+    "height": 196,
+    "page": 37,
+    "src": "/handbook/iowa/drowsy-18-hours.png",
+    "width": 508
+  },
+  "emergency-500-feet": {
+    "height": 116,
+    "page": 19,
+    "src": "/handbook/iowa/emergency-500-feet.png",
+    "width": 797
+  },
+  "emergency-in-intersection": {
+    "height": 141,
+    "page": 19,
+    "src": "/handbook/iowa/emergency-in-intersection.png",
+    "width": 805
+  },
+  "emergency-median": {
+    "height": 116,
+    "page": 19,
+    "src": "/handbook/iowa/emergency-median.png",
+    "width": 805
+  },
+  "emergency-pull-right": {
+    "height": 141,
+    "page": 19,
+    "src": "/handbook/iowa/emergency-pull-right.png",
+    "width": 806
+  },
+  "ens-sign": {
+    "height": 258,
+    "page": 8,
+    "src": "/handbook/iowa/ens-sign.png",
+    "width": 433
+  },
+  "false-turn-signal": {
+    "height": 191,
+    "page": 50,
+    "src": "/handbook/iowa/false-turn-signal.png",
+    "width": 628
+  },
+  "flood-submerged": {
+    "height": 217,
+    "page": 60,
+    "src": "/handbook/iowa/flood-submerged.png",
+    "width": 485
+  },
+  "fog-low-beam": {
+    "height": 142,
+    "page": 60,
+    "src": "/handbook/iowa/fog-low-beam.png",
+    "width": 445
+  },
+  "following-3-4-second": {
+    "height": 216,
+    "page": 41,
+    "src": "/handbook/iowa/following-3-4-second.png",
+    "width": 558
+  },
+  "following-40mph": {
+    "height": 216,
+    "page": 41,
+    "src": "/handbook/iowa/following-40mph.png",
+    "width": 536
+  },
+  "front-blowout": {
+    "height": 192,
+    "page": 62,
+    "src": "/handbook/iowa/front-blowout.png",
+    "width": 523
+  },
+  "gravel-dust-lowbeam": {
+    "height": 181,
+    "page": 55,
+    "src": "/handbook/iowa/gravel-dust-lowbeam.png",
+    "width": 555
+  },
+  "gravel-hills-curves": {
+    "height": 166,
+    "page": 56,
+    "src": "/handbook/iowa/gravel-hills-curves.png",
+    "width": 563
+  },
+  "gravel-left-yields": {
+    "height": 225,
+    "page": 55,
+    "src": "/handbook/iowa/gravel-left-yields.png",
+    "width": 556
+  },
+  "gravel-rr-crossings": {
+    "height": 216,
+    "page": 56,
+    "src": "/handbook/iowa/gravel-rr-crossings.png",
+    "width": 555
+  },
+  "gravel-shoulders": {
+    "height": 191,
+    "page": 55,
+    "src": "/handbook/iowa/gravel-shoulders.png",
+    "width": 560
+  },
+  "gravel-traction": {
+    "height": 216,
+    "page": 55,
+    "src": "/handbook/iowa/gravel-traction.png",
+    "width": 555
+  },
+  "hand-position": {
+    "height": 166,
+    "page": 42,
+    "src": "/handbook/iowa/hand-position.png",
+    "width": 535
+  },
+  "headlight-law-500": {
+    "height": 166,
+    "page": 49,
+    "src": "/handbook/iowa/headlight-law-500.png",
+    "width": 536
+  },
+  "headlight-wipers-rule": {
+    "height": 166,
+    "page": 49,
+    "src": "/handbook/iowa/headlight-wipers-rule.png",
+    "width": 536
+  },
+  "headlights-automatic": {
+    "height": 216,
+    "page": 49,
+    "src": "/handbook/iowa/headlights-automatic.png",
+    "width": 565
+  },
+  "hot-car": {
+    "height": 141,
+    "page": 59,
+    "src": "/handbook/iowa/hot-car.png",
+    "width": 1110
+  },
+  "hot-car-break-window": {
+    "height": 141,
+    "page": 59,
+    "src": "/handbook/iowa/hot-car-break-window.png",
+    "width": 1121
+  },
+  "hydroplane-signs": {
+    "height": 192,
+    "page": 60,
+    "src": "/handbook/iowa/hydroplane-signs.png",
+    "width": 520
+  },
+  "hydroplaning": {
+    "height": 192,
+    "page": 60,
+    "src": "/handbook/iowa/hydroplaning.png",
+    "width": 520
+  },
+  "inclement-no-cruise": {
+    "height": 261,
+    "page": 59,
+    "src": "/handbook/iowa/inclement-no-cruise.png",
+    "width": 557
+  },
+  "intersection-look-left-right": {
+    "height": 168,
+    "page": 50,
+    "src": "/handbook/iowa/intersection-look-left-right.png",
+    "width": 603
+  },
+  "keep-pace": {
+    "height": 141,
+    "page": 48,
+    "src": "/handbook/iowa/keep-pace.png",
+    "width": 1111
+  },
+  "lane-change-blind-spot": {
+    "height": 142,
+    "page": 44,
+    "src": "/handbook/iowa/lane-change-blind-spot.png",
+    "width": 776
+  },
+  "lane-change-one-at-a-time": {
+    "height": 141,
+    "page": 44,
+    "src": "/handbook/iowa/lane-change-one-at-a-time.png",
+    "width": 1122
+  },
+  "lane-use-left-passing": {
+    "height": 167,
+    "page": 16,
+    "src": "/handbook/iowa/lane-use-left-passing.png",
+    "width": 943
+  },
+  "left-on-red-one-way": {
+    "height": 167,
+    "page": 43,
+    "src": "/handbook/iowa/left-on-red-one-way.png",
+    "width": 564
+  },
+  "left-turn-yield": {
+    "height": 142,
+    "page": 19,
+    "src": "/handbook/iowa/left-turn-yield.png",
+    "width": 539
+  },
+  "licence-required": {
+    "height": 166,
+    "page": 4,
+    "src": "/handbook/iowa/licence-required.png",
+    "width": 530
+  },
+  "lights-required": {
+    "height": 241,
+    "page": 24,
+    "src": "/handbook/iowa/lights-required.png",
+    "width": 486
+  },
+  "loose-objects": {
+    "height": 141,
+    "page": 35,
+    "src": "/handbook/iowa/loose-objects.png",
+    "width": 1134
+  },
+  "markings-solid-dashed": {
+    "height": 191,
+    "page": 15,
+    "src": "/handbook/iowa/markings-solid-dashed.png",
+    "width": 708
+  },
+  "markings-white-yellow": {
+    "height": 141,
+    "page": 15,
+    "src": "/handbook/iowa/markings-white-yellow.png",
+    "width": 720
+  },
+  "mile-markers": {
+    "height": 166,
+    "page": 11,
+    "src": "/handbook/iowa/mile-markers.png",
+    "width": 860
+  },
+  "mirror-200-feet": {
+    "height": 166,
+    "page": 25,
+    "src": "/handbook/iowa/mirror-200-feet.png",
+    "width": 559
+  },
+  "mirror-inside": {
+    "height": 192,
+    "page": 25,
+    "src": "/handbook/iowa/mirror-inside.png",
+    "width": 565
+  },
+  "mirror-left-side": {
+    "height": 192,
+    "page": 25,
+    "src": "/handbook/iowa/mirror-left-side.png",
+    "width": 562
+  },
+  "motorcycle-following": {
+    "height": 191,
+    "page": 58,
+    "src": "/handbook/iowa/motorcycle-following.png",
+    "width": 480
+  },
+  "motorcycle-full-lane": {
+    "height": 166,
+    "page": 58,
+    "src": "/handbook/iowa/motorcycle-full-lane.png",
+    "width": 464
+  },
+  "motorcycle-signals": {
+    "height": 166,
+    "page": 58,
+    "src": "/handbook/iowa/motorcycle-signals.png",
+    "width": 519
+  },
+  "move-over-slow-down": {
+    "height": 166,
+    "page": 22,
+    "src": "/handbook/iowa/move-over-slow-down.png",
+    "width": 766
+  },
+  "move-over-suspension": {
+    "height": 118,
+    "page": 22,
+    "src": "/handbook/iowa/move-over-suspension.png",
+    "width": 817
+  },
+  "never-pass-stopped-for-ped": {
+    "height": 191,
+    "page": 58,
+    "src": "/handbook/iowa/never-pass-stopped-for-ped.png",
+    "width": 564
+  },
+  "night-glare": {
+    "height": 141,
+    "page": 56,
+    "src": "/handbook/iowa/night-glare.png",
+    "width": 1099
+  },
+  "night-high-beams": {
+    "height": 141,
+    "page": 56,
+    "src": "/handbook/iowa/night-high-beams.png",
+    "width": 674
+  },
+  "night-lower-speed": {
+    "height": 116,
+    "page": 56,
+    "src": "/handbook/iowa/night-lower-speed.png",
+    "width": 957
+  },
+  "no-park-hydrant-5": {
+    "height": 141,
+    "page": 21,
+    "src": "/handbook/iowa/no-park-hydrant-5.png",
+    "width": 466
+  },
+  "no-passing-signs": {
+    "height": 210,
+    "page": 8,
+    "src": "/handbook/iowa/no-passing-signs.png",
+    "width": 426
+  },
+  "on-ramp-main-road": {
+    "height": 144,
+    "page": 51,
+    "src": "/handbook/iowa/on-ramp-main-road.png",
+    "width": 745
+  },
+  "on-ramp-segments": {
+    "height": 168,
+    "page": 51,
+    "src": "/handbook/iowa/on-ramp-segments.png",
+    "width": 686
+  },
+  "one-way-sign": {
+    "height": 180,
+    "page": 8,
+    "src": "/handbook/iowa/one-way-sign.png",
+    "width": 383
+  },
+  "open-container": {
+    "height": 192,
+    "page": 37,
+    "src": "/handbook/iowa/open-container.png",
+    "width": 566
+  },
+  "open-container-fine": {
+    "height": 192,
+    "page": 37,
+    "src": "/handbook/iowa/open-container-fine.png",
+    "width": 566
+  },
+  "owi-definition": {
+    "height": 216,
+    "page": 37,
+    "src": "/handbook/iowa/owi-definition.png",
+    "width": 554
+  },
+  "owi-revocation-180": {
+    "height": 191,
+    "page": 37,
+    "src": "/handbook/iowa/owi-revocation-180.png",
+    "width": 554
+  },
+  "park-18-inches": {
+    "height": 141,
+    "page": 21,
+    "src": "/handbook/iowa/park-18-inches.png",
+    "width": 452
+  },
+  "park-check-door": {
+    "height": 141,
+    "page": 21,
+    "src": "/handbook/iowa/park-check-door.png",
+    "width": 527
+  },
+  "park-responsibility": {
+    "height": 116,
+    "page": 21,
+    "src": "/handbook/iowa/park-responsibility.png",
+    "width": 1069
+  },
+  "passing-illegal-list": {
+    "height": 216,
+    "page": 46,
+    "src": "/handbook/iowa/passing-illegal-list.png",
+    "width": 604
+  },
+  "passing-no-right": {
+    "height": 217,
+    "page": 46,
+    "src": "/handbook/iowa/passing-no-right.png",
+    "width": 646
+  },
+  "passing-return": {
+    "height": 141,
+    "page": 45,
+    "src": "/handbook/iowa/passing-return.png",
+    "width": 1040
+  },
+  "ped-conveyance-law": {
+    "height": 166,
+    "page": 10,
+    "src": "/handbook/iowa/ped-conveyance-law.png",
+    "width": 1123
+  },
+  "ped-conveyance-note": {
+    "height": 169,
+    "page": 10,
+    "src": "/handbook/iowa/ped-conveyance-note.png",
+    "width": 529
+  },
+  "phb-flashing-red": {
+    "height": 191,
+    "page": 18,
+    "src": "/handbook/iowa/phb-flashing-red.png",
+    "width": 583
+  },
+  "phb-sequence": {
+    "height": 241,
+    "page": 18,
+    "src": "/handbook/iowa/phb-sequence.png",
+    "width": 583
+  },
+  "pickup-bed-minors": {
+    "height": 117,
+    "page": 35,
+    "src": "/handbook/iowa/pickup-bed-minors.png",
+    "width": 798
+  },
+  "posted-is-maximum": {
+    "height": 191,
+    "page": 42,
+    "src": "/handbook/iowa/posted-is-maximum.png",
+    "width": 563
+  },
+  "reduced-conflict": {
+    "height": 191,
+    "page": 52,
+    "src": "/handbook/iowa/reduced-conflict.png",
+    "width": 726
+  },
+  "regulatory-red-slash": {
+    "height": 141,
+    "page": 8,
+    "src": "/handbook/iowa/regulatory-red-slash.png",
+    "width": 1085
+  },
+  "required-stop-blind": {
+    "height": 191,
+    "page": 41,
+    "src": "/handbook/iowa/required-stop-blind.png",
+    "width": 509
+  },
+  "reserved-lanes": {
+    "height": 191,
+    "page": 16,
+    "src": "/handbook/iowa/reserved-lanes.png",
+    "width": 714
+  },
+  "reversible-lanes": {
+    "height": 216,
+    "page": 15,
+    "src": "/handbook/iowa/reversible-lanes.png",
+    "width": 720
+  },
+  "right-on-red-yield": {
+    "height": 192,
+    "page": 19,
+    "src": "/handbook/iowa/right-on-red-yield.png",
+    "width": 467
+  },
+  "roundabout-counterclockwise": {
+    "height": 142,
+    "page": 54,
+    "src": "/handbook/iowa/roundabout-counterclockwise.png",
+    "width": 1135
+  },
+  "roundabout-cyclists": {
+    "height": 192,
+    "page": 54,
+    "src": "/handbook/iowa/roundabout-cyclists.png",
+    "width": 547
+  },
+  "roundabout-enter": {
+    "height": 192,
+    "page": 54,
+    "src": "/handbook/iowa/roundabout-enter.png",
+    "width": 556
+  },
+  "roundabout-exit": {
+    "height": 142,
+    "page": 54,
+    "src": "/handbook/iowa/roundabout-exit.png",
+    "width": 544
+  },
+  "roundabout-lane-choice": {
+    "height": 192,
+    "page": 54,
+    "src": "/handbook/iowa/roundabout-lane-choice.png",
+    "width": 450
+  },
+  "route-sign-shape": {
+    "height": 141,
+    "page": 11,
+    "src": "/handbook/iowa/route-sign-shape.png",
+    "width": 810
+  },
+  "row-bicyclists-defensive": {
+    "height": 173,
+    "page": 18,
+    "src": "/handbook/iowa/row-bicyclists-defensive.png",
+    "width": 1134
+  },
+  "row-failure-number-one": {
+    "height": 126,
+    "page": 18,
+    "src": "/handbook/iowa/row-failure-number-one.png",
+    "width": 1051
+  },
+  "row-law-says-who-yields": {
+    "height": 118,
+    "page": 18,
+    "src": "/handbook/iowa/row-law-says-who-yields.png",
+    "width": 1137
+  },
+  "rr-15-feet-clear": {
+    "height": 166,
+    "page": 12,
+    "src": "/handbook/iowa/rr-15-feet-clear.png",
+    "width": 553
+  },
+  "rr-active-crossings": {
+    "height": 202,
+    "page": 12,
+    "src": "/handbook/iowa/rr-active-crossings.png",
+    "width": 571
+  },
+  "rr-approach-prepare": {
+    "height": 155,
+    "page": 12,
+    "src": "/handbook/iowa/rr-approach-prepare.png",
+    "width": 565
+  },
+  "rr-never-stop-on-tracks": {
+    "height": 133,
+    "page": 12,
+    "src": "/handbook/iowa/rr-never-stop-on-tracks.png",
+    "width": 521
+  },
+  "rr-passive-crossings": {
+    "height": 247,
+    "page": 12,
+    "src": "/handbook/iowa/rr-passive-crossings.png",
+    "width": 385
+  },
+  "rr-required-to-stop": {
+    "height": 200,
+    "page": 12,
+    "src": "/handbook/iowa/rr-required-to-stop.png",
+    "width": 564
+  },
+  "rr-stalled-on-tracks": {
+    "height": 156,
+    "page": 12,
+    "src": "/handbook/iowa/rr-stalled-on-tracks.png",
+    "width": 562
+  },
+  "rr-stop-exemptions": {
+    "height": 178,
+    "page": 12,
+    "src": "/handbook/iowa/rr-stop-exemptions.png",
+    "width": 564
+  },
+  "rrfb": {
+    "height": 166,
+    "page": 18,
+    "src": "/handbook/iowa/rrfb.png",
+    "width": 558
+  },
+  "rural-four-lane-median": {
+    "height": 260,
+    "page": 51,
+    "src": "/handbook/iowa/rural-four-lane-median.png",
+    "width": 556
+  },
+  "seat-10-inches": {
+    "height": 191,
+    "page": 25,
+    "src": "/handbook/iowa/seat-10-inches.png",
+    "width": 533
+  },
+  "seatbelt-back-under-18": {
+    "height": 260,
+    "page": 34,
+    "src": "/handbook/iowa/seatbelt-back-under-18.png",
+    "width": 527
+  },
+  "seatbelt-primary-offense": {
+    "height": 241,
+    "page": 34,
+    "src": "/handbook/iowa/seatbelt-primary-offense.png",
+    "width": 549
+  },
+  "shape-circle": {
+    "height": 151,
+    "page": 7,
+    "src": "/handbook/iowa/shape-circle.png",
+    "width": 285
+  },
+  "shape-crossbuck": {
+    "height": 251,
+    "page": 7,
+    "src": "/handbook/iowa/shape-crossbuck.png",
+    "width": 380
+  },
+  "shape-diamond": {
+    "height": 226,
+    "page": 7,
+    "src": "/handbook/iowa/shape-diamond.png",
+    "width": 389
+  },
+  "shape-octagon": {
+    "height": 226,
+    "page": 7,
+    "src": "/handbook/iowa/shape-octagon.png",
+    "width": 312
+  },
+  "shape-pennant": {
+    "height": 201,
+    "page": 7,
+    "src": "/handbook/iowa/shape-pennant.png",
+    "width": 321
+  },
+  "shape-pentagon": {
+    "height": 176,
+    "page": 7,
+    "src": "/handbook/iowa/shape-pentagon.png",
+    "width": 378
+  },
+  "shape-triangle": {
+    "height": 151,
+    "page": 7,
+    "src": "/handbook/iowa/shape-triangle.png",
+    "width": 330
+  },
+  "shared-left-turn": {
+    "height": 191,
+    "page": 16,
+    "src": "/handbook/iowa/shared-left-turn.png",
+    "width": 707
+  },
+  "sharrows": {
+    "height": 216,
+    "page": 17,
+    "src": "/handbook/iowa/sharrows.png",
+    "width": 542
+  },
+  "sidewalk-yield": {
+    "height": 192,
+    "page": 19,
+    "src": "/handbook/iowa/sidewalk-yield.png",
+    "width": 463
+  },
+  "sign-shape-colour-clues": {
+    "height": 191,
+    "page": 6,
+    "src": "/handbook/iowa/sign-shape-colour-clues.png",
+    "width": 606
+  },
+  "signal-100-300": {
+    "height": 217,
+    "page": 43,
+    "src": "/handbook/iowa/signal-100-300.png",
+    "width": 463
+  },
+  "signal-every-time": {
+    "height": 192,
+    "page": 43,
+    "src": "/handbook/iowa/signal-every-time.png",
+    "width": 531
+  },
+  "signal-flashing-red": {
+    "height": 145,
+    "page": 11,
+    "src": "/handbook/iowa/signal-flashing-red.png",
+    "width": 360
+  },
+  "signal-flashing-yellow": {
+    "height": 170,
+    "page": 11,
+    "src": "/handbook/iowa/signal-flashing-yellow.png",
+    "width": 468
+  },
+  "signal-flashing-yellow-arrow": {
+    "height": 195,
+    "page": 11,
+    "src": "/handbook/iowa/signal-flashing-yellow-arrow.png",
+    "width": 455
+  },
+  "signal-not-too-early": {
+    "height": 192,
+    "page": 43,
+    "src": "/handbook/iowa/signal-not-too-early.png",
+    "width": 497
+  },
+  "signal-solid-green": {
+    "height": 245,
+    "page": 11,
+    "src": "/handbook/iowa/signal-solid-green.png",
+    "width": 451
+  },
+  "signal-solid-red": {
+    "height": 146,
+    "page": 11,
+    "src": "/handbook/iowa/signal-solid-red.png",
+    "width": 303
+  },
+  "signal-solid-yellow": {
+    "height": 195,
+    "page": 11,
+    "src": "/handbook/iowa/signal-solid-yellow.png",
+    "width": 471
+  },
+  "signal-steady-green-arrow": {
+    "height": 220,
+    "page": 11,
+    "src": "/handbook/iowa/signal-steady-green-arrow.png",
+    "width": 449
+  },
+  "signal-steady-red-arrow": {
+    "height": 146,
+    "page": 11,
+    "src": "/handbook/iowa/signal-steady-red-arrow.png",
+    "width": 423
+  },
+  "signal-steady-yellow-arrow": {
+    "height": 220,
+    "page": 11,
+    "src": "/handbook/iowa/signal-steady-yellow-arrow.png",
+    "width": 475
+  },
+  "signals-follow-persons": {
+    "height": 141,
+    "page": 11,
+    "src": "/handbook/iowa/signals-follow-persons.png",
+    "width": 1095
+  },
+  "smv-sign-35": {
+    "height": 116,
+    "page": 11,
+    "src": "/handbook/iowa/smv-sign-35.png",
+    "width": 849
+  },
+  "snowplow-speed": {
+    "height": 167,
+    "page": 61,
+    "src": "/handbook/iowa/snowplow-speed.png",
+    "width": 505
+  },
+  "speed-60-vs-30": {
+    "height": 166,
+    "page": 42,
+    "src": "/handbook/iowa/speed-60-vs-30.png",
+    "width": 563
+  },
+  "speed-interstate-min-40": {
+    "height": 191,
+    "page": 42,
+    "src": "/handbook/iowa/speed-interstate-min-40.png",
+    "width": 557
+  },
+  "speed-minimum-route": {
+    "height": 187,
+    "page": 8,
+    "src": "/handbook/iowa/speed-minimum-route.png",
+    "width": 432
+  },
+  "speed-signs-maximum": {
+    "height": 186,
+    "page": 8,
+    "src": "/handbook/iowa/speed-signs-maximum.png",
+    "width": 432
+  },
+  "speed-signs-reduce": {
+    "height": 210,
+    "page": 8,
+    "src": "/handbook/iowa/speed-signs-reduce.png",
+    "width": 432
+  },
+  "speed-too-slow": {
+    "height": 166,
+    "page": 42,
+    "src": "/handbook/iowa/speed-too-slow.png",
+    "width": 557
+  },
+  "steer-it-clear-it": {
+    "height": 141,
+    "page": 22,
+    "src": "/handbook/iowa/steer-it-clear-it.png",
+    "width": 1092
+  },
+  "steering-lock-key": {
+    "height": 192,
+    "page": 62,
+    "src": "/handbook/iowa/steering-lock-key.png",
+    "width": 524
+  },
+  "stop-before-line": {
+    "height": 166,
+    "page": 15,
+    "src": "/handbook/iowa/stop-before-line.png",
+    "width": 718
+  },
+  "stop-sign-full-stop": {
+    "height": 210,
+    "page": 8,
+    "src": "/handbook/iowa/stop-sign-full-stop.png",
+    "width": 425
+  },
+  "stop-sign-pull-forward": {
+    "height": 186,
+    "page": 8,
+    "src": "/handbook/iowa/stop-sign-pull-forward.png",
+    "width": 425
+  },
+  "stopping-distance-table": {
+    "height": 487,
+    "page": 40,
+    "src": "/handbook/iowa/stopping-distance-table.png",
+    "width": 1071
+  },
+  "stranded-stay-inside": {
+    "height": 192,
+    "page": 61,
+    "src": "/handbook/iowa/stranded-stay-inside.png",
+    "width": 534
+  },
+  "tailgated-response": {
+    "height": 141,
+    "page": 48,
+    "src": "/handbook/iowa/tailgated-response.png",
+    "width": 1121
+  },
+  "test-refusal": {
+    "height": 216,
+    "page": 37,
+    "src": "/handbook/iowa/test-refusal.png",
+    "width": 557
+  },
+  "texting-law": {
+    "height": 191,
+    "page": 36,
+    "src": "/handbook/iowa/texting-law.png",
+    "width": 527
+  },
+  "three-point-turn": {
+    "height": 167,
+    "page": 43,
+    "src": "/handbook/iowa/three-point-turn.png",
+    "width": 561
+  },
+  "tire-penny-test": {
+    "height": 192,
+    "page": 24,
+    "src": "/handbook/iowa/tire-penny-test.png",
+    "width": 1139
+  },
+  "tornado-driving": {
+    "height": 217,
+    "page": 60,
+    "src": "/handbook/iowa/tornado-driving.png",
+    "width": 497
+  },
+  "traffic-stop": {
+    "height": 141,
+    "page": 64,
+    "src": "/handbook/iowa/traffic-stop.png",
+    "width": 1127
+  },
+  "traffic-stop-hands": {
+    "height": 141,
+    "page": 64,
+    "src": "/handbook/iowa/traffic-stop-hands.png",
+    "width": 1127
+  },
+  "truck-fatalities-78": {
+    "height": 116,
+    "page": 57,
+    "src": "/handbook/iowa/truck-fatalities-78.png",
+    "width": 1116
+  },
+  "truck-no-zones": {
+    "height": 166,
+    "page": 57,
+    "src": "/handbook/iowa/truck-no-zones.png",
+    "width": 556
+  },
+  "truck-wide-right": {
+    "height": 216,
+    "page": 57,
+    "src": "/handbook/iowa/truck-wide-right.png",
+    "width": 542
+  },
+  "turn-lane-closest": {
+    "height": 142,
+    "page": 16,
+    "src": "/handbook/iowa/turn-lane-closest.png",
+    "width": 1088
+  },
+  "turn-on-red": {
+    "height": 192,
+    "page": 43,
+    "src": "/handbook/iowa/turn-on-red.png",
+    "width": 557
+  },
+  "turn-signals-required": {
+    "height": 141,
+    "page": 24,
+    "src": "/handbook/iowa/turn-signals-required.png",
+    "width": 522
+  },
+  "two-braking-systems": {
+    "height": 166,
+    "page": 23,
+    "src": "/handbook/iowa/two-braking-systems.png",
+    "width": 629
+  },
+  "uncontrolled-intersection": {
+    "height": 166,
+    "page": 19,
+    "src": "/handbook/iowa/uncontrolled-intersection.png",
+    "width": 1100
+  },
+  "under-18-no-calls": {
+    "height": 241,
+    "page": 36,
+    "src": "/handbook/iowa/under-18-no-calls.png",
+    "width": 550
+  },
+  "under-18-no-trl": {
+    "height": 167,
+    "page": 37,
+    "src": "/handbook/iowa/under-18-no-trl.png",
+    "width": 559
+  },
+  "under-21-02": {
+    "height": 192,
+    "page": 37,
+    "src": "/handbook/iowa/under-21-02.png",
+    "width": 559
+  },
+  "warning-bus-stop-ahead": {
+    "height": 279,
+    "page": 9,
+    "src": "/handbook/iowa/warning-bus-stop-ahead.png",
+    "width": 259
+  },
+  "warning-chevron": {
+    "height": 230,
+    "page": 9,
+    "src": "/handbook/iowa/warning-chevron.png",
+    "width": 269
+  },
+  "warning-deer": {
+    "height": 209,
+    "page": 9,
+    "src": "/handbook/iowa/warning-deer.png",
+    "width": 280
+  },
+  "warning-divided-ends": {
+    "height": 233,
+    "page": 9,
+    "src": "/handbook/iowa/warning-divided-ends.png",
+    "width": 259
+  },
+  "warning-farm-machinery": {
+    "height": 209,
+    "page": 9,
+    "src": "/handbook/iowa/warning-farm-machinery.png",
+    "width": 281
+  },
+  "warning-hill": {
+    "height": 253,
+    "page": 9,
+    "src": "/handbook/iowa/warning-hill.png",
+    "width": 277
+  },
+  "warning-lane-ends": {
+    "height": 209,
+    "page": 9,
+    "src": "/handbook/iowa/warning-lane-ends.png",
+    "width": 279
+  },
+  "warning-merging": {
+    "height": 230,
+    "page": 9,
+    "src": "/handbook/iowa/warning-merging.png",
+    "width": 255
+  },
+  "warning-ramp-speed": {
+    "height": 161,
+    "page": 9,
+    "src": "/handbook/iowa/warning-ramp-speed.png",
+    "width": 253
+  },
+  "warning-signs-yellow": {
+    "height": 141,
+    "page": 9,
+    "src": "/handbook/iowa/warning-signs-yellow.png",
+    "width": 1126
+  },
+  "warning-slippery": {
+    "height": 205,
+    "page": 9,
+    "src": "/handbook/iowa/warning-slippery.png",
+    "width": 269
+  },
+  "warning-t-intersection": {
+    "height": 229,
+    "page": 9,
+    "src": "/handbook/iowa/warning-t-intersection.png",
+    "width": 255
+  },
+  "warning-two-way": {
+    "height": 209,
+    "page": 9,
+    "src": "/handbook/iowa/warning-two-way.png",
+    "width": 273
+  },
+  "white-cane": {
+    "height": 141,
+    "page": 18,
+    "src": "/handbook/iowa/white-cane.png",
+    "width": 1129
+  },
+  "window-tint-70": {
+    "height": 216,
+    "page": 24,
+    "src": "/handbook/iowa/window-tint-70.png",
+    "width": 555
+  },
+  "workzone-arrow-boards": {
+    "height": 206,
+    "page": 14,
+    "src": "/handbook/iowa/workzone-arrow-boards.png",
+    "width": 349
+  },
+  "workzone-fines-double": {
+    "height": 143,
+    "page": 14,
+    "src": "/handbook/iowa/workzone-fines-double.png",
+    "width": 543
+  },
+  "workzone-flaggers": {
+    "height": 206,
+    "page": 14,
+    "src": "/handbook/iowa/workzone-flaggers.png",
+    "width": 451
+  },
+  "workzone-orange": {
+    "height": 191,
+    "page": 14,
+    "src": "/handbook/iowa/workzone-orange.png",
+    "width": 551
+  },
+  "wrong-way": {
+    "height": 211,
+    "page": 8,
+    "src": "/handbook/iowa/wrong-way.png",
+    "width": 418
+  },
+  "yield-lines": {
+    "height": 166,
+    "page": 15,
+    "src": "/handbook/iowa/yield-lines.png",
+    "width": 708
+  },
+  "yield-sign-meaning": {
+    "height": 187,
+    "page": 8,
+    "src": "/handbook/iowa/yield-sign-meaning.png",
+    "width": 417
+  }
+}

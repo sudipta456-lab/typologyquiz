@@ -294,6 +294,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "iowa",
+    "name": "Iowa",
+    "code": "IA",
+    "country": "US",
+    "licenceName": "Instruction Permit",
+    "intro": "Iowa lets you start at 14, which is younger than almost anywhere else, and the knowledge test is the only thing standing between you and an instruction permit. Everything below is written from the Iowa Driver's License Manual dated 07/23/2026 and, where the manual leaves a number out, from Iowa Code chapter 321 and the licensing rules in 761 Iowa Administrative Code chapter 604.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "kentucky",
     "name": "Kentucky",
     "code": "KY",
@@ -333,6 +344,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "country": "US",
     "licenceName": "Class D Instruction Permit",
     "intro": "Minnesota's Class D knowledge test is written straight out of the Driver's Manual, and DVS says so: its own practice test tells you every answer is in the book. What catches people is the Minnesota-specific geometry - J-turns, zipper merges, bus shoulders - and the pile of distance numbers the manual prints without ever putting them in one place.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
+    "slug": "nevada",
+    "name": "Nevada",
+    "code": "NV",
+    "country": "US",
+    "licenceName": "Class C Instruction Permit",
+    "intro": "Nevada's knowledge test is 25 multiple-choice questions and you need 20 right. It is short, which makes it unforgiving: five wrong answers is the whole margin, and the test stops the moment you reach six. Everything below is written from the March 2024 Nevada Driver's Handbook and, where the handbook leaves a number out, from the Nevada Revised Statutes.",
     "contentDate": "2026-09-06",
     "setCount": 6,
     "questionCount": 195
@@ -382,6 +404,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "utah",
+    "name": "Utah",
+    "code": "UT",
+    "country": "US",
+    "licenceName": "Learner Permit",
+    "intro": "Utah's learner permit test is 50 questions, closed book, and marked at 80 percent - and it is only the first of two written hurdles, because every first-time driver also has to score 100 percent on the online Traffic Safety and Trends Exam before the license is issued. Everything below is written from the 2026-2027 Utah Driver Handbook and, where the handbook leaves a number out, from Title 41 Chapter 6a of the Utah Code.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "wisconsin",
     "name": "Wisconsin",
     "code": "WI",
@@ -395,4 +428,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 6691;
+export const TOTAL_DRIVING_QUESTIONS = 7276;

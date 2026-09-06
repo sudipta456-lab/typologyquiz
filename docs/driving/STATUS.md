@@ -52,9 +52,9 @@ one per wave so the `/ca` side keeps pace. Every bank is built to
 | 2 | Oklahoma | oklahoma | **built** (2026-09-06, 338 excerpts, 282 snippets) |
 | 2 | Connecticut | connecticut | **built** (2026-09-06, 382 excerpts, 337 snippets) |
 | 2 | Manitoba | manitoba | **built** (2026-09-06, 300 excerpts, 271 snippets) |
-| 3 | Utah | utah | queued |
-| 3 | Iowa | iowa | queued |
-| 3 | Nevada | nevada | queued |
+| 3 | Utah | utah | **built** (2026-09-06, 341 excerpts) |
+| 3 | Iowa | iowa | **built** (2026-09-06, 339 excerpts) |
+| 3 | Nevada | nevada | **built** (2026-09-06, 305 excerpts) |
 | 3 | Arkansas | arkansas | queued |
 | 3 | Mississippi | mississippi | queued |
 | 3 | Saskatchewan | saskatchewan | queued |
