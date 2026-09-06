@@ -24,8 +24,13 @@ USAGE
       DMV:"Louisiana knowledge test" newdrivers:"Louisiana permit"
 
 Writes tmp/<slug>-reddit-<thread-id>.txt, one file per thread, each with a
-URL/SUB/TITLE header then the rendered thread text. Skips threads already
-saved, so it is safe to re-run with more queries.
+URL/SUB/TITLE/POSTED header then the rendered thread text. Skips threads
+already saved, so it is safe to re-run with more queries.
+
+POSTED is the post's machine-readable date. The rendered page shows only a
+relative age ("2y ago"), which a research note written months later cannot
+turn back into a year - an earlier bank had to mark every thread "undated in
+capture" for exactly that reason.
 
 Then read them. Per the playbook: extract the RULE people report getting
 wrong, never a question someone posted from memory of the real exam, and
@@ -132,6 +137,18 @@ def main() -> None:
                     except Exception:  # noqa: BLE001
                         break
                 body = page.evaluate("() => document.body.innerText")
+                # Capture the post's real date. The rendered page shows only a
+                # relative age ("2y ago"), useless in a note written months
+                # later, so read the machine-readable timestamp Reddit puts on
+                # the post element.
+                posted = page.evaluate(
+                    "() => {"
+                    "  const el = document.querySelector('shreddit-post');"
+                    "  if (el) { const t = el.getAttribute('created-timestamp'); if (t) return t; }"
+                    "  const tm = document.querySelector('time[datetime]');"
+                    "  return tm ? tm.getAttribute('datetime') : '';"
+                    "}"
+                )
             except Exception as e:  # noqa: BLE001
                 print(f"  thread {tid} FAILED: {str(e)[:120]}")
                 continue
@@ -146,7 +163,8 @@ def main() -> None:
             digests[tid] = digest
 
             out.write_text(
-                f"URL: {t['url']}\nSUB: {t['sub']}\nTITLE: {t['title']}\n\n{body}",
+                f"URL: {t['url']}\nSUB: {t['sub']}\nTITLE: {t['title']}\n"
+                f"POSTED: {posted or 'unknown'}\n\n{body}",
                 encoding="utf-8",
             )
             saved += 1
