@@ -47,6 +47,12 @@
     "src": "/handbook/utah/alcohol-vision-002.png",
     "width": 1068
   },
+  "animals-do-not-swerve": {
+    "height": 122,
+    "page": 67,
+    "src": "/handbook/utah/animals-do-not-swerve.png",
+    "width": 1008
+  },
   "atv-speed-50": {
     "height": 151,
     "page": 96,
@@ -70,6 +76,12 @@
     "page": 62,
     "src": "/handbook/utah/bac-005.png",
     "width": 1126
+  },
+  "backing-no-freeway": {
+    "height": 122,
+    "page": 40,
+    "src": "/handbook/utah/backing-no-freeway.png",
+    "width": 1053
   },
   "basic-speed-law": {
     "height": 150,
@@ -131,6 +143,12 @@
     "src": "/handbook/utah/black-ice.png",
     "width": 1126
   },
+  "brake-failure": {
+    "height": 121,
+    "page": 76,
+    "src": "/handbook/utah/brake-failure.png",
+    "width": 764
+  },
   "breakdown-flares": {
     "height": 150,
     "page": 77,
@@ -166,6 +184,12 @@
     "page": 20,
     "src": "/handbook/utah/class-d-age-16.png",
     "width": 1130
+  },
+  "complete-stop-situations": {
+    "height": 121,
+    "page": 45,
+    "src": "/handbook/utah/complete-stop-situations.png",
+    "width": 1115
   },
   "crash-hit-and-run-felony": {
     "height": 122,
@@ -317,6 +341,12 @@
     "src": "/handbook/utah/do-not-trust-signal.png",
     "width": 1131
   },
+  "driver-ed-hours": {
+    "height": 121,
+    "page": 16,
+    "src": "/handbook/utah/driver-ed-hours.png",
+    "width": 1075
+  },
   "driving-while-suspended": {
     "height": 151,
     "page": 80,
@@ -370,6 +400,12 @@
     "page": 49,
     "src": "/handbook/utah/entrance-ramp-exit.png",
     "width": 942
+  },
+  "entry-permit-age-15": {
+    "height": 122,
+    "page": 17,
+    "src": "/handbook/utah/entry-permit-age-15.png",
+    "width": 1121
   },
   "express-lane-double-white": {
     "height": 179,
@@ -551,6 +587,12 @@
     "src": "/handbook/utah/lane-filtering.png",
     "width": 898
   },
+  "lane-filtering-45": {
+    "height": 122,
+    "page": 92,
+    "src": "/handbook/utah/lane-filtering-45.png",
+    "width": 841
+  },
   "left-lane-move-over": {
     "height": 151,
     "page": 49,
@@ -671,6 +713,12 @@
     "src": "/handbook/utah/no-lane-change-in-intersection.png",
     "width": 1084
   },
+  "no-license-if": {
+    "height": 122,
+    "page": 14,
+    "src": "/handbook/utah/no-license-if.png",
+    "width": 491
+  },
   "not-a-drop": {
     "height": 151,
     "page": 62,
@@ -761,11 +809,35 @@
     "src": "/handbook/utah/pedestrian-stop.png",
     "width": 1134
   },
+  "permit-holding-periods": {
+    "height": 122,
+    "page": 17,
+    "src": "/handbook/utah/permit-holding-periods.png",
+    "width": 980
+  },
+  "permit-in-possession": {
+    "height": 122,
+    "page": 17,
+    "src": "/handbook/utah/permit-in-possession.png",
+    "width": 1080
+  },
   "permit-scores-18-months": {
     "height": 151,
     "page": 17,
     "src": "/handbook/utah/permit-scores-18-months.png",
     "width": 1096
+  },
+  "permit-supervisor": {
+    "height": 122,
+    "page": 16,
+    "src": "/handbook/utah/permit-supervisor.png",
+    "width": 1126
+  },
+  "points-clearing": {
+    "height": 122,
+    "page": 83,
+    "src": "/handbook/utah/points-clearing.png",
+    "width": 1087
   },
   "points-over-21": {
     "height": 151,
@@ -790,6 +862,12 @@
     "page": 82,
     "src": "/handbook/utah/points-under-21.png",
     "width": 1142
+  },
+  "police-stop": {
+    "height": 122,
+    "page": 94,
+    "src": "/handbook/utah/police-stop.png",
+    "width": 604
   },
   "power-failure": {
     "height": 179,
@@ -857,6 +935,12 @@
     "src": "/handbook/utah/railroad-no-gate.png",
     "width": 1079
   },
+  "railroad-no-pass": {
+    "height": 121,
+    "page": 96,
+    "src": "/handbook/utah/railroad-no-pass.png",
+    "width": 819
+  },
   "railroad-park-50": {
     "height": 151,
     "page": 96,
@@ -917,11 +1001,23 @@
     "src": "/handbook/utah/right-on-red.png",
     "width": 1118
   },
+  "road-rage-definition": {
+    "height": 121,
+    "page": 66,
+    "src": "/handbook/utah/road-rage-definition.png",
+    "width": 1134
+  },
   "road-rage-suspension": {
     "height": 122,
     "page": 66,
     "src": "/handbook/utah/road-rage-suspension.png",
     "width": 985
+  },
+  "roundabout-yield": {
+    "height": 122,
+    "page": 55,
+    "src": "/handbook/utah/roundabout-yield.png",
+    "width": 549
   },
   "runaway-ramp": {
     "height": 122,
@@ -940,6 +1036,12 @@
     "page": 37,
     "src": "/handbook/utah/safety-belt-everyone.png",
     "width": 1129
+  },
+  "safety-belt-fit": {
+    "height": 122,
+    "page": 37,
+    "src": "/handbook/utah/safety-belt-fit.png",
+    "width": 1078
   },
   "safety-belt-force": {
     "height": 179,
@@ -971,11 +1073,23 @@
     "src": "/handbook/utah/school-bus-stop.png",
     "width": 1079
   },
+  "school-bus-two-lane": {
+    "height": 122,
+    "page": 46,
+    "src": "/handbook/utah/school-bus-two-lane.png",
+    "width": 796
+  },
   "school-zone-flashing": {
     "height": 150,
     "page": 92,
     "src": "/handbook/utah/school-zone-flashing.png",
     "width": 1134
+  },
+  "scooter-limits": {
+    "height": 122,
+    "page": 91,
+    "src": "/handbook/utah/scooter-limits.png",
+    "width": 1143
   },
   "shared-left-turn-500": {
     "height": 179,
@@ -1013,6 +1127,12 @@
     "src": "/handbook/utah/signal-green-arrow.png",
     "width": 1111
   },
+  "signal-lane-change-curb": {
+    "height": 122,
+    "page": 45,
+    "src": "/handbook/utah/signal-lane-change-curb.png",
+    "width": 625
+  },
   "signal-red": {
     "height": 151,
     "page": 56,
@@ -1024,6 +1144,18 @@
     "page": 56,
     "src": "/handbook/utah/signal-red-arrow.png",
     "width": 1129
+  },
+  "skid-no-slam-brakes": {
+    "height": 122,
+    "page": 72,
+    "src": "/handbook/utah/skid-no-slam-brakes.png",
+    "width": 388
+  },
+  "skid-recovery": {
+    "height": 122,
+    "page": 72,
+    "src": "/handbook/utah/skid-recovery.png",
+    "width": 650
   },
   "skills-test-age": {
     "height": 122,
@@ -1060,6 +1192,12 @@
     "page": 44,
     "src": "/handbook/utah/snowplow-no-pass.png",
     "width": 1122
+  },
+  "speed-slow-down-when": {
+    "height": 122,
+    "page": 55,
+    "src": "/handbook/utah/speed-slow-down-when.png",
+    "width": 799
   },
   "speed-too-slow": {
     "height": 151,
@@ -1247,6 +1385,12 @@
     "src": "/handbook/utah/turn-front-wheels-straight.png",
     "width": 1127
   },
+  "turn-multiple-lanes": {
+    "height": 122,
+    "page": 47,
+    "src": "/handbook/utah/turn-multiple-lanes.png",
+    "width": 615
+  },
   "turn-stop-behind-line": {
     "height": 150,
     "page": 46,
@@ -1360,6 +1504,18 @@
     "page": 33,
     "src": "/handbook/utah/written-test-from-handbook.png",
     "width": 1143
+  },
+  "yield-driveway": {
+    "height": 122,
+    "page": 60,
+    "src": "/handbook/utah/yield-driveway.png",
+    "width": 881
+  },
+  "yield-list": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/utah/yield-list.png",
+    "width": 553
   },
   "yield-sign-meaning": {
     "height": 122,

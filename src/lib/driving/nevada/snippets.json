@@ -107,6 +107,12 @@
     "src": "/handbook/nevada/blowout.png",
     "width": 989
   },
+  "brakes-fail": {
+    "height": 115,
+    "page": 58,
+    "src": "/handbook/nevada/brakes-fail.png",
+    "width": 684
+  },
   "cell-emergency": {
     "height": 139,
     "page": 43,
@@ -317,6 +323,12 @@
     "src": "/handbook/nevada/flood-barricades.png",
     "width": 1063
   },
+  "flood-facts": {
+    "height": 115,
+    "page": 59,
+    "src": "/handbook/nevada/flood-facts.png",
+    "width": 845
+  },
   "flood-turn-around": {
     "height": 139,
     "page": 59,
@@ -359,6 +371,12 @@
     "src": "/handbook/nevada/freeway-no-stop.png",
     "width": 890
   },
+  "gas-pedal-sticks": {
+    "height": 115,
+    "page": 58,
+    "src": "/handbook/nevada/gas-pedal-sticks.png",
+    "width": 1048
+  },
   "gdl-curfew": {
     "height": 163,
     "page": 15,
@@ -370,6 +388,12 @@
     "page": 15,
     "src": "/handbook/nevada/gdl-passengers.png",
     "width": 1030
+  },
+  "hand-signals": {
+    "height": 115,
+    "page": 45,
+    "src": "/handbook/nevada/hand-signals.png",
+    "width": 892
   },
   "highbeam-500-300": {
     "height": 140,
@@ -448,6 +472,12 @@
     "page": 42,
     "src": "/handbook/nevada/intersection-look.png",
     "width": 694
+  },
+  "lane-change-signal": {
+    "height": 139,
+    "page": 46,
+    "src": "/handbook/nevada/lane-change-signal.png",
+    "width": 527
   },
   "lane-red-x": {
     "height": 139,
@@ -622,6 +652,18 @@
     "page": 64,
     "src": "/handbook/nevada/moped-register.png",
     "width": 1056
+  },
+  "moped-right-lane": {
+    "height": 140,
+    "page": 64,
+    "src": "/handbook/nevada/moped-right-lane.png",
+    "width": 1068
+  },
+  "moveover-duties": {
+    "height": 115,
+    "page": 61,
+    "src": "/handbook/nevada/moveover-duties.png",
+    "width": 762
   },
   "moveover-lane": {
     "height": 163,
@@ -839,6 +881,18 @@
     "src": "/handbook/nevada/permit-one-year.png",
     "width": 1037
   },
+  "permit-requirements": {
+    "height": 115,
+    "page": 15,
+    "src": "/handbook/nevada/permit-requirements.png",
+    "width": 1037
+  },
+  "permit-supervisor": {
+    "height": 115,
+    "page": 15,
+    "src": "/handbook/nevada/permit-supervisor.png",
+    "width": 790
+  },
   "points-12": {
     "height": 116,
     "page": 77,
@@ -869,6 +923,12 @@
     "src": "/handbook/nevada/police-stop.png",
     "width": 1006
   },
+  "ramp-meters": {
+    "height": 115,
+    "page": 36,
+    "src": "/handbook/nevada/ramp-meters.png",
+    "width": 927
+  },
   "rear-facing-two": {
     "height": 139,
     "page": 25,
@@ -892,6 +952,12 @@
     "page": 81,
     "src": "/handbook/nevada/report-drunk-nhp.png",
     "width": 976
+  },
+  "restricted-license": {
+    "height": 115,
+    "page": 19,
+    "src": "/handbook/nevada/restricted-license.png",
+    "width": 721
   },
   "restriction-b": {
     "height": 115,
@@ -1187,6 +1253,12 @@
     "src": "/handbook/nevada/snow-no-safe-speed.png",
     "width": 1033
   },
+  "speed-basic-rule": {
+    "height": 115,
+    "page": 35,
+    "src": "/handbook/nevada/speed-basic-rule.png",
+    "width": 1052
+  },
   "speed-normal-conditions": {
     "height": 139,
     "page": 35,
@@ -1426,6 +1498,12 @@
     "page": 46,
     "src": "/handbook/nevada/uturn-generally-allowed.png",
     "width": 889
+  },
+  "uturn-legal-list": {
+    "height": 115,
+    "page": 46,
+    "src": "/handbook/nevada/uturn-legal-list.png",
+    "width": 356
   },
   "wet-brakes": {
     "height": 137,

@@ -1,4 +1,10 @@
 {
+  "abs-press-hard": {
+    "height": 116,
+    "page": 41,
+    "src": "/handbook/iowa/abs-press-hard.png",
+    "width": 549
+  },
   "acc-bad-weather": {
     "height": 141,
     "page": 33,
@@ -22,6 +28,12 @@
     "page": 19,
     "src": "/handbook/iowa/all-way-stop-order.png",
     "width": 503
+  },
+  "apply-requirements": {
+    "height": 142,
+    "page": 5,
+    "src": "/handbook/iowa/apply-requirements.png",
+    "width": 484
   },
   "autism-deaf-indicator": {
     "height": 141,
@@ -100,6 +112,12 @@
     "page": 49,
     "src": "/handbook/iowa/breakdown-exit-vehicle.png",
     "width": 483
+  },
+  "breakdown-hazard": {
+    "height": 141,
+    "page": 49,
+    "src": "/handbook/iowa/breakdown-hazard.png",
+    "width": 429
   },
   "breakdown-not-over-hill": {
     "height": 191,
@@ -233,6 +251,12 @@
     "src": "/handbook/iowa/counting-following.png",
     "width": 558
   },
+  "crash-provide": {
+    "height": 116,
+    "page": 63,
+    "src": "/handbook/iowa/crash-provide.png",
+    "width": 537
+  },
   "crash-report-1500": {
     "height": 166,
     "page": 63,
@@ -341,6 +365,12 @@
     "src": "/handbook/iowa/drowsy-18-hours.png",
     "width": 508
   },
+  "drowsy-signs": {
+    "height": 142,
+    "page": 37,
+    "src": "/handbook/iowa/drowsy-signs.png",
+    "width": 564
+  },
   "emergency-500-feet": {
     "height": 116,
     "page": 19,
@@ -365,6 +395,12 @@
     "src": "/handbook/iowa/emergency-pull-right.png",
     "width": 806
   },
+  "engine-stalls": {
+    "height": 117,
+    "page": 62,
+    "src": "/handbook/iowa/engine-stalls.png",
+    "width": 366
+  },
   "ens-sign": {
     "height": 258,
     "page": 8,
@@ -376,6 +412,18 @@
     "page": 50,
     "src": "/handbook/iowa/false-turn-signal.png",
     "width": 628
+  },
+  "flat-tire": {
+    "height": 117,
+    "page": 62,
+    "src": "/handbook/iowa/flat-tire.png",
+    "width": 337
+  },
+  "flood-six-inches": {
+    "height": 167,
+    "page": 60,
+    "src": "/handbook/iowa/flood-six-inches.png",
+    "width": 482
   },
   "flood-submerged": {
     "height": 217,
@@ -400,6 +448,12 @@
     "page": 41,
     "src": "/handbook/iowa/following-40mph.png",
     "width": 536
+  },
+  "following-beginner-three": {
+    "height": 141,
+    "page": 41,
+    "src": "/handbook/iowa/following-beginner-three.png",
+    "width": 507
   },
   "front-blowout": {
     "height": 192,
@@ -467,6 +521,12 @@
     "src": "/handbook/iowa/headlights-automatic.png",
     "width": 565
   },
+  "headlights-fail": {
+    "height": 117,
+    "page": 62,
+    "src": "/handbook/iowa/headlights-fail.png",
+    "width": 376
+  },
   "hot-car": {
     "height": 141,
     "page": 59,
@@ -490,6 +550,18 @@
     "page": 60,
     "src": "/handbook/iowa/hydroplaning.png",
     "width": 520
+  },
+  "ice-stopping-10x": {
+    "height": 141,
+    "page": 61,
+    "src": "/handbook/iowa/ice-stopping-10x.png",
+    "width": 538
+  },
+  "implied-consent": {
+    "height": 141,
+    "page": 37,
+    "src": "/handbook/iowa/implied-consent.png",
+    "width": 549
   },
   "inclement-no-cruise": {
     "height": 261,
@@ -527,6 +599,12 @@
     "src": "/handbook/iowa/lane-use-left-passing.png",
     "width": 943
   },
+  "lane-use-shoulder": {
+    "height": 117,
+    "page": 16,
+    "src": "/handbook/iowa/lane-use-shoulder.png",
+    "width": 1080
+  },
   "left-on-red-one-way": {
     "height": 167,
     "page": 43,
@@ -538,6 +616,12 @@
     "page": 19,
     "src": "/handbook/iowa/left-turn-yield.png",
     "width": 539
+  },
+  "licence-not-needed": {
+    "height": 116,
+    "page": 4,
+    "src": "/handbook/iowa/licence-not-needed.png",
+    "width": 486
   },
   "licence-required": {
     "height": 166,
@@ -611,6 +695,12 @@
     "src": "/handbook/iowa/motorcycle-signals.png",
     "width": 519
   },
+  "move-over-list": {
+    "height": 116,
+    "page": 22,
+    "src": "/handbook/iowa/move-over-list.png",
+    "width": 799
+  },
   "move-over-slow-down": {
     "height": 166,
     "page": 22,
@@ -652,6 +742,12 @@
     "page": 21,
     "src": "/handbook/iowa/no-park-hydrant-5.png",
     "width": 466
+  },
+  "no-park-tail": {
+    "height": 141,
+    "page": 21,
+    "src": "/handbook/iowa/no-park-tail.png",
+    "width": 483
   },
   "no-passing-signs": {
     "height": 210,
@@ -731,11 +827,23 @@
     "src": "/handbook/iowa/passing-no-right.png",
     "width": 646
   },
+  "passing-one-at-a-time": {
+    "height": 116,
+    "page": 45,
+    "src": "/handbook/iowa/passing-one-at-a-time.png",
+    "width": 1068
+  },
   "passing-return": {
     "height": 141,
     "page": 45,
     "src": "/handbook/iowa/passing-return.png",
     "width": 1040
+  },
+  "ped-conveyance-defined": {
+    "height": 118,
+    "page": 10,
+    "src": "/handbook/iowa/ped-conveyance-defined.png",
+    "width": 1144
   },
   "ped-conveyance-law": {
     "height": 166,
@@ -797,6 +905,12 @@
     "src": "/handbook/iowa/reserved-lanes.png",
     "width": 714
   },
+  "residency-30-days": {
+    "height": 141,
+    "page": 4,
+    "src": "/handbook/iowa/residency-30-days.png",
+    "width": 530
+  },
   "reversible-lanes": {
     "height": 216,
     "page": 15,
@@ -838,6 +952,12 @@
     "page": 54,
     "src": "/handbook/iowa/roundabout-lane-choice.png",
     "width": 450
+  },
+  "roundabout-multilane-dont": {
+    "height": 117,
+    "page": 54,
+    "src": "/handbook/iowa/roundabout-multilane-dont.png",
+    "width": 458
   },
   "route-sign-shape": {
     "height": 141,
@@ -1091,6 +1211,12 @@
     "src": "/handbook/iowa/smv-sign-35.png",
     "width": 849
   },
+  "snowplow-shoulder": {
+    "height": 142,
+    "page": 61,
+    "src": "/handbook/iowa/snowplow-shoulder.png",
+    "width": 486
+  },
   "snowplow-speed": {
     "height": 167,
     "page": 61,
@@ -1133,6 +1259,12 @@
     "src": "/handbook/iowa/speed-too-slow.png",
     "width": 557
   },
+  "speed-unposted-list": {
+    "height": 143,
+    "page": 42,
+    "src": "/handbook/iowa/speed-unposted-list.png",
+    "width": 492
+  },
   "steer-it-clear-it": {
     "height": 141,
     "page": 22,
@@ -1174,6 +1306,12 @@
     "page": 61,
     "src": "/handbook/iowa/stranded-stay-inside.png",
     "width": 534
+  },
+  "stuck-gas-pedal": {
+    "height": 142,
+    "page": 62,
+    "src": "/handbook/iowa/stuck-gas-pedal.png",
+    "width": 500
   },
   "tailgated-response": {
     "height": 141,
@@ -1240,6 +1378,12 @@
     "page": 57,
     "src": "/handbook/iowa/truck-wide-right.png",
     "width": 542
+  },
+  "turn-hand-over-hand": {
+    "height": 141,
+    "page": 42,
+    "src": "/handbook/iowa/turn-hand-over-hand.png",
+    "width": 432
   },
   "turn-lane-closest": {
     "height": 142,
@@ -1366,6 +1510,12 @@
     "page": 9,
     "src": "/handbook/iowa/warning-two-way.png",
     "width": 273
+  },
+  "wet-road-steps": {
+    "height": 116,
+    "page": 60,
+    "src": "/handbook/iowa/wet-road-steps.png",
+    "width": 406
   },
   "white-cane": {
     "height": 141,
