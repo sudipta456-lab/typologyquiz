@@ -1,0 +1,1472 @@
+{
+  "120-day-suspension": {
+    "height": 177,
+    "page": 15,
+    "src": "/handbook/maine/120-day-suspension.png",
+    "width": 972
+  },
+  "abs-rules": {
+    "height": 122,
+    "page": 94,
+    "src": "/handbook/maine/abs-rules.png",
+    "width": 788
+  },
+  "access-aisle-fine": {
+    "height": 177,
+    "page": 70,
+    "src": "/handbook/maine/access-aisle-fine.png",
+    "width": 1063
+  },
+  "aggressive-driving": {
+    "height": 176,
+    "page": 27,
+    "src": "/handbook/maine/aggressive-driving.png",
+    "width": 960
+  },
+  "alcohol-40-percent": {
+    "height": 122,
+    "page": 27,
+    "src": "/handbook/maine/alcohol-40-percent.png",
+    "width": 1026
+  },
+  "alcohol-affects-color-reaction": {
+    "height": 122,
+    "page": 28,
+    "src": "/handbook/maine/alcohol-affects-color-reaction.png",
+    "width": 704
+  },
+  "alcohol-vision-02": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/maine/alcohol-vision-02.png",
+    "width": 932
+  },
+  "already-in-intersection": {
+    "height": 149,
+    "page": 49,
+    "src": "/handbook/maine/already-in-intersection.png",
+    "width": 1017
+  },
+  "bac-crash-risk": {
+    "height": 259,
+    "page": 30,
+    "src": "/handbook/maine/bac-crash-risk.png",
+    "width": 1009
+  },
+  "beer-versus-liquor": {
+    "height": 176,
+    "page": 30,
+    "src": "/handbook/maine/beer-versus-liquor.png",
+    "width": 1011
+  },
+  "belt-40-55-percent": {
+    "height": 149,
+    "page": 41,
+    "src": "/handbook/maine/belt-40-55-percent.png",
+    "width": 1027
+  },
+  "belt-law-maine": {
+    "height": 121,
+    "page": 40,
+    "src": "/handbook/maine/belt-law-maine.png",
+    "width": 1004
+  },
+  "belt-with-airbags": {
+    "height": 176,
+    "page": 41,
+    "src": "/handbook/maine/belt-with-airbags.png",
+    "width": 968
+  },
+  "bicycle-helmet-under-16": {
+    "height": 176,
+    "page": 104,
+    "src": "/handbook/maine/bicycle-helmet-under-16.png",
+    "width": 957
+  },
+  "bicycle-lights-200-feet": {
+    "height": 176,
+    "page": 104,
+    "src": "/handbook/maine/bicycle-lights-200-feet.png",
+    "width": 957
+  },
+  "bicycle-three-feet-hb": {
+    "height": 177,
+    "page": 68,
+    "src": "/handbook/maine/bicycle-three-feet-hb.png",
+    "width": 993
+  },
+  "bicycles-are-vehicles": {
+    "height": 149,
+    "page": 101,
+    "src": "/handbook/maine/bicycles-are-vehicles.png",
+    "width": 981
+  },
+  "birth-certificate-age-22": {
+    "height": 176,
+    "page": 7,
+    "src": "/handbook/maine/birth-certificate-age-22.png",
+    "width": 940
+  },
+  "blinded-look-right": {
+    "height": 287,
+    "page": 90,
+    "src": "/handbook/maine/blinded-look-right.png",
+    "width": 1029
+  },
+  "blocked-view-edge-forward": {
+    "height": 204,
+    "page": 62,
+    "src": "/handbook/maine/blocked-view-edge-forward.png",
+    "width": 906
+  },
+  "brake-failure": {
+    "height": 121,
+    "page": 98,
+    "src": "/handbook/maine/brake-failure.png",
+    "width": 820
+  },
+  "brake-tap-warning": {
+    "height": 176,
+    "page": 46,
+    "src": "/handbook/maine/brake-tap-warning.png",
+    "width": 1002
+  },
+  "braking-158-feet": {
+    "height": 177,
+    "page": 81,
+    "src": "/handbook/maine/braking-158-feet.png",
+    "width": 944
+  },
+  "bridges-freeze-first": {
+    "height": 149,
+    "page": 81,
+    "src": "/handbook/maine/bridges-freeze-first.png",
+    "width": 1027
+  },
+  "broken-center-line": {
+    "height": 177,
+    "page": 68,
+    "src": "/handbook/maine/broken-center-line.png",
+    "width": 710
+  },
+  "car-in-water": {
+    "height": 149,
+    "page": 100,
+    "src": "/handbook/maine/car-in-water.png",
+    "width": 997
+  },
+  "carry-license": {
+    "height": 176,
+    "page": 11,
+    "src": "/handbook/maine/carry-license.png",
+    "width": 1028
+  },
+  "check-mirrors-6-to-8": {
+    "height": 149,
+    "page": 77,
+    "src": "/handbook/maine/check-mirrors-6-to-8.png",
+    "width": 959
+  },
+  "child-55-to-80-pounds": {
+    "height": 176,
+    "page": 43,
+    "src": "/handbook/maine/child-55-to-80-pounds.png",
+    "width": 1025
+  },
+  "child-rear-seat-12": {
+    "height": 149,
+    "page": 43,
+    "src": "/handbook/maine/child-rear-seat-12.png",
+    "width": 1025
+  },
+  "child-under-55-pounds": {
+    "height": 232,
+    "page": 42,
+    "src": "/handbook/maine/child-under-55-pounds.png",
+    "width": 1021
+  },
+  "children-12-and-under-back": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/maine/children-12-and-under-back.png",
+    "width": 1002
+  },
+  "class-c-standard": {
+    "height": 176,
+    "page": 8,
+    "src": "/handbook/maine/class-c-standard.png",
+    "width": 1028
+  },
+  "cognitive-distractions": {
+    "height": 149,
+    "page": 26,
+    "src": "/handbook/maine/cognitive-distractions.png",
+    "width": 1027
+  },
+  "complete-pass-before-zone": {
+    "height": 149,
+    "page": 68,
+    "src": "/handbook/maine/complete-pass-before-zone.png",
+    "width": 687
+  },
+  "conditional-license": {
+    "height": 176,
+    "page": 32,
+    "src": "/handbook/maine/conditional-license.png",
+    "width": 1021
+  },
+  "conditional-one-and-ten-years": {
+    "height": 148,
+    "page": 33,
+    "src": "/handbook/maine/conditional-one-and-ten-years.png",
+    "width": 889
+  },
+  "construction-warning-signs": {
+    "height": 177,
+    "page": 113,
+    "src": "/handbook/maine/construction-warning-signs.png",
+    "width": 574
+  },
+  "crossing-sidewalk-stop": {
+    "height": 148,
+    "page": 49,
+    "src": "/handbook/maine/crossing-sidewalk-stop.png",
+    "width": 906
+  },
+  "deer-november-peak": {
+    "height": 149,
+    "page": 118,
+    "src": "/handbook/maine/deer-november-peak.png",
+    "width": 1020
+  },
+  "demerit-points-6-and-12": {
+    "height": 176,
+    "page": 14,
+    "src": "/handbook/maine/demerit-points-6-and-12.png",
+    "width": 1021
+  },
+  "dim-500-and-300-hb": {
+    "height": 176,
+    "page": 90,
+    "src": "/handbook/maine/dim-500-and-300-hb.png",
+    "width": 1029
+  },
+  "dim-behind-large-vehicle": {
+    "height": 177,
+    "page": 109,
+    "src": "/handbook/maine/dim-behind-large-vehicle.png",
+    "width": 999
+  },
+  "dog-in-open-vehicle": {
+    "height": 177,
+    "page": 120,
+    "src": "/handbook/maine/dog-in-open-vehicle.png",
+    "width": 1026
+  },
+  "driving-dynamics-three-points": {
+    "height": 204,
+    "page": 14,
+    "src": "/handbook/maine/driving-dynamics-three-points.png",
+    "width": 1015
+  },
+  "driving-to-endanger-30": {
+    "height": 121,
+    "page": 15,
+    "src": "/handbook/maine/driving-to-endanger-30.png",
+    "width": 1028
+  },
+  "drowsiness-danger-signs": {
+    "height": 121,
+    "page": 25,
+    "src": "/handbook/maine/drowsiness-danger-signs.png",
+    "width": 724
+  },
+  "dutch-reach": {
+    "height": 205,
+    "page": 103,
+    "src": "/handbook/maine/dutch-reach.png",
+    "width": 954
+  },
+  "emergency-vehicle-class-e": {
+    "height": 204,
+    "page": 49,
+    "src": "/handbook/maine/emergency-vehicle-class-e.png",
+    "width": 1013
+  },
+  "entrance-ramp-yield": {
+    "height": 149,
+    "page": 49,
+    "src": "/handbook/maine/entrance-ramp-yield.png",
+    "width": 788
+  },
+  "exam-two-ids": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/maine/exam-two-ids.png",
+    "width": 940
+  },
+  "exam-vehicle-safety-check": {
+    "height": 178,
+    "page": 20,
+    "src": "/handbook/maine/exam-vehicle-safety-check.png",
+    "width": 1027
+  },
+  "exit-on-curb-side": {
+    "height": 149,
+    "page": 70,
+    "src": "/handbook/maine/exit-on-curb-side.png",
+    "width": 1018
+  },
+  "expired-license-unlawful": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/maine/expired-license-unlawful.png",
+    "width": 1015
+  },
+  "false-id-liquor": {
+    "height": 177,
+    "page": 13,
+    "src": "/handbook/maine/false-id-liquor.png",
+    "width": 1013
+  },
+  "fatal-accident-test": {
+    "height": 149,
+    "page": 34,
+    "src": "/handbook/maine/fatal-accident-test.png",
+    "width": 1028
+  },
+  "fatigue-definition": {
+    "height": 149,
+    "page": 23,
+    "src": "/handbook/maine/fatigue-definition.png",
+    "width": 967
+  },
+  "fire-truck-500-feet-hb": {
+    "height": 149,
+    "page": 109,
+    "src": "/handbook/maine/fire-truck-500-feet-hb.png",
+    "width": 989
+  },
+  "first-aid-no-drink": {
+    "height": 121,
+    "page": 97,
+    "src": "/handbook/maine/first-aid-no-drink.png",
+    "width": 1028
+  },
+  "first-rain-slippery": {
+    "height": 176,
+    "page": 80,
+    "src": "/handbook/maine/first-rain-slippery.png",
+    "width": 1002
+  },
+  "flagger-authority": {
+    "height": 149,
+    "page": 52,
+    "src": "/handbook/maine/flagger-authority.png",
+    "width": 670
+  },
+  "flares-100-feet": {
+    "height": 176,
+    "page": 92,
+    "src": "/handbook/maine/flares-100-feet.png",
+    "width": 955
+  },
+  "flashing-red-light": {
+    "height": 177,
+    "page": 50,
+    "src": "/handbook/maine/flashing-red-light.png",
+    "width": 1020
+  },
+  "flashing-yellow-light": {
+    "height": 149,
+    "page": 50,
+    "src": "/handbook/maine/flashing-yellow-light.png",
+    "width": 970
+  },
+  "flood-never-drive": {
+    "height": 149,
+    "page": 118,
+    "src": "/handbook/maine/flood-never-drive.png",
+    "width": 1028
+  },
+  "flood-six-inches": {
+    "height": 148,
+    "page": 118,
+    "src": "/handbook/maine/flood-six-inches.png",
+    "width": 1028
+  },
+  "following-railroad-stoppers": {
+    "height": 205,
+    "page": 86,
+    "src": "/handbook/maine/following-railroad-stoppers.png",
+    "width": 1026
+  },
+  "four-second-count": {
+    "height": 122,
+    "page": 85,
+    "src": "/handbook/maine/four-second-count.png",
+    "width": 914
+  },
+  "four-second-following": {
+    "height": 149,
+    "page": 85,
+    "src": "/handbook/maine/four-second-following.png",
+    "width": 946
+  },
+  "four-way-stop-first": {
+    "height": 149,
+    "page": 48,
+    "src": "/handbook/maine/four-way-stop-first.png",
+    "width": 779
+  },
+  "four-way-tie-goes-right": {
+    "height": 149,
+    "page": 48,
+    "src": "/handbook/maine/four-way-tie-goes-right.png",
+    "width": 1000
+  },
+  "gap-from-full-stop": {
+    "height": 149,
+    "page": 89,
+    "src": "/handbook/maine/gap-from-full-stop.png",
+    "width": 963
+  },
+  "gap-to-enter-lane": {
+    "height": 121,
+    "page": 89,
+    "src": "/handbook/maine/gap-to-enter-lane.png",
+    "width": 1022
+  },
+  "glare-recovery-seven-seconds": {
+    "height": 176,
+    "page": 29,
+    "src": "/handbook/maine/glare-recovery-seven-seconds.png",
+    "width": 1025
+  },
+  "green-light": {
+    "height": 150,
+    "page": 50,
+    "src": "/handbook/maine/green-light.png",
+    "width": 1017
+  },
+  "guide-signs": {
+    "height": 149,
+    "page": 54,
+    "src": "/handbook/maine/guide-signs.png",
+    "width": 1016
+  },
+  "hand-position-9-and-3": {
+    "height": 149,
+    "page": 46,
+    "src": "/handbook/maine/hand-position-9-and-3.png",
+    "width": 1027
+  },
+  "headlights-1000-feet-hb": {
+    "height": 177,
+    "page": 90,
+    "src": "/handbook/maine/headlights-1000-feet-hb.png",
+    "width": 950
+  },
+  "headlights-250-feet": {
+    "height": 149,
+    "page": 82,
+    "src": "/handbook/maine/headlights-250-feet.png",
+    "width": 943
+  },
+  "headlights-sunset-sunrise-hb": {
+    "height": 149,
+    "page": 90,
+    "src": "/handbook/maine/headlights-sunset-sunrise-hb.png",
+    "width": 943
+  },
+  "high-beams-twice-as-far": {
+    "height": 176,
+    "page": 90,
+    "src": "/handbook/maine/high-beams-twice-as-far.png",
+    "width": 1029
+  },
+  "hill-parking-wheels": {
+    "height": 149,
+    "page": 70,
+    "src": "/handbook/maine/hill-parking-wheels.png",
+    "width": 1018
+  },
+  "hills-and-curves": {
+    "height": 176,
+    "page": 83,
+    "src": "/handbook/maine/hills-and-curves.png",
+    "width": 1012
+  },
+  "hydroplaning-definition": {
+    "height": 177,
+    "page": 81,
+    "src": "/handbook/maine/hydroplaning-definition.png",
+    "width": 1021
+  },
+  "ice-three-to-twelve": {
+    "height": 148,
+    "page": 116,
+    "src": "/handbook/maine/ice-three-to-twelve.png",
+    "width": 1020
+  },
+  "implied-consent": {
+    "height": 177,
+    "page": 31,
+    "src": "/handbook/maine/implied-consent.png",
+    "width": 1020
+  },
+  "infants-rear-facing": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/maine/infants-rear-facing.png",
+    "width": 1028
+  },
+  "inspection-annual": {
+    "height": 176,
+    "page": 20,
+    "src": "/handbook/maine/inspection-annual.png",
+    "width": 1027
+  },
+  "inspection-brakes-30-feet": {
+    "height": 177,
+    "page": 20,
+    "src": "/handbook/maine/inspection-brakes-30-feet.png",
+    "width": 952
+  },
+  "inspection-horn-200-feet": {
+    "height": 122,
+    "page": 20,
+    "src": "/handbook/maine/inspection-horn-200-feet.png",
+    "width": 952
+  },
+  "inspection-tire-tread": {
+    "height": 149,
+    "page": 20,
+    "src": "/handbook/maine/inspection-tire-tread.png",
+    "width": 952
+  },
+  "insurance-required": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/maine/insurance-required.png",
+    "width": 951
+  },
+  "intermediate-270-days": {
+    "height": 177,
+    "page": 9,
+    "src": "/handbook/maine/intermediate-270-days.png",
+    "width": 1028
+  },
+  "lane-use-control-lights": {
+    "height": 205,
+    "page": 51,
+    "src": "/handbook/maine/lane-use-control-lights.png",
+    "width": 1009
+  },
+  "large-vehicle-passing-you": {
+    "height": 176,
+    "page": 109,
+    "src": "/handbook/maine/large-vehicle-passing-you.png",
+    "width": 1028
+  },
+  "left-right-left-again": {
+    "height": 149,
+    "page": 62,
+    "src": "/handbook/maine/left-right-left-again.png",
+    "width": 1021
+  },
+  "left-turn-yield-bicycle-hb": {
+    "height": 177,
+    "page": 49,
+    "src": "/handbook/maine/left-turn-yield-bicycle-hb.png",
+    "width": 1023
+  },
+  "license-age-18-no-driver-ed": {
+    "height": 149,
+    "page": 8,
+    "src": "/handbook/maine/license-age-18-no-driver-ed.png",
+    "width": 953
+  },
+  "license-six-year-term": {
+    "height": 176,
+    "page": 11,
+    "src": "/handbook/maine/license-six-year-term.png",
+    "width": 1028
+  },
+  "load-six-inches": {
+    "height": 177,
+    "page": 119,
+    "src": "/handbook/maine/load-six-inches.png",
+    "width": 1027
+  },
+  "look-20-to-30-seconds": {
+    "height": 149,
+    "page": 76,
+    "src": "/handbook/maine/look-20-to-30-seconds.png",
+    "width": 650
+  },
+  "low-beams-in-precipitation": {
+    "height": 149,
+    "page": 90,
+    "src": "/handbook/maine/low-beams-in-precipitation.png",
+    "width": 1029
+  },
+  "maine-speed-maximums": {
+    "height": 121,
+    "page": 81,
+    "src": "/handbook/maine/maine-speed-maximums.png",
+    "width": 1028
+  },
+  "manual-distractions": {
+    "height": 177,
+    "page": 26,
+    "src": "/handbook/maine/manual-distractions.png",
+    "width": 1010
+  },
+  "minors-provisional-until-21": {
+    "height": 177,
+    "page": 36,
+    "src": "/handbook/maine/minors-provisional-until-21.png",
+    "width": 1010
+  },
+  "moose-eyes-not-reflective": {
+    "height": 150,
+    "page": 118,
+    "src": "/handbook/maine/moose-eyes-not-reflective.png",
+    "width": 1025
+  },
+  "moose-may-and-june": {
+    "height": 177,
+    "page": 118,
+    "src": "/handbook/maine/moose-may-and-june.png",
+    "width": 1005
+  },
+  "moose-standoff": {
+    "height": 177,
+    "page": 119,
+    "src": "/handbook/maine/moose-standoff.png",
+    "width": 997
+  },
+  "motorcycle-10-percent": {
+    "height": 149,
+    "page": 105,
+    "src": "/handbook/maine/motorcycle-10-percent.png",
+    "width": 1014
+  },
+  "motorcycle-four-seconds": {
+    "height": 149,
+    "page": 105,
+    "src": "/handbook/maine/motorcycle-four-seconds.png",
+    "width": 678
+  },
+  "motorcycle-full-lane": {
+    "height": 149,
+    "page": 105,
+    "src": "/handbook/maine/motorcycle-full-lane.png",
+    "width": 638
+  },
+  "motorcycle-left-turn-fault": {
+    "height": 231,
+    "page": 105,
+    "src": "/handbook/maine/motorcycle-left-turn-fault.png",
+    "width": 1009
+  },
+  "motorcycle-signal-not-cancel": {
+    "height": 177,
+    "page": 105,
+    "src": "/handbook/maine/motorcycle-signal-not-cancel.png",
+    "width": 703
+  },
+  "move-over-handbook": {
+    "height": 177,
+    "page": 110,
+    "src": "/handbook/maine/move-over-handbook.png",
+    "width": 1013
+  },
+  "name-address-30-days": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/maine/name-address-30-days.png",
+    "width": 1015
+  },
+  "night-vision-reduced-50": {
+    "height": 177,
+    "page": 29,
+    "src": "/handbook/maine/night-vision-reduced-50.png",
+    "width": 948
+  },
+  "no-cut-through-parking-lot": {
+    "height": 176,
+    "page": 50,
+    "src": "/handbook/maine/no-cut-through-parking-lot.png",
+    "width": 979
+  },
+  "no-headsets": {
+    "height": 122,
+    "page": 23,
+    "src": "/handbook/maine/no-headsets.png",
+    "width": 1024
+  },
+  "no-horn-near-animals": {
+    "height": 176,
+    "page": 111,
+    "src": "/handbook/maine/no-horn-near-animals.png",
+    "width": 1015
+  },
+  "no-overtake-yielding-vehicle": {
+    "height": 149,
+    "page": 101,
+    "src": "/handbook/maine/no-overtake-yielding-vehicle.png",
+    "width": 798
+  },
+  "no-pass-vehicle-stopped-for-peds": {
+    "height": 121,
+    "page": 49,
+    "src": "/handbook/maine/no-pass-vehicle-stopped-for-peds.png",
+    "width": 849
+  },
+  "no-passing-zone-signs": {
+    "height": 204,
+    "page": 68,
+    "src": "/handbook/maine/no-passing-zone-signs.png",
+    "width": 1017
+  },
+  "no-riding-in-trailer": {
+    "height": 149,
+    "page": 119,
+    "src": "/handbook/maine/no-riding-in-trailer.png",
+    "width": 1027
+  },
+  "no-sunglasses-at-night": {
+    "height": 149,
+    "page": 23,
+    "src": "/handbook/maine/no-sunglasses-at-night.png",
+    "width": 983
+  },
+  "no-work-license": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/maine/no-work-license.png",
+    "width": 1022
+  },
+  "non-resident-16": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/maine/non-resident-16.png",
+    "width": 1022
+  },
+  "obey-light-over-your-lane": {
+    "height": 121,
+    "page": 50,
+    "src": "/handbook/maine/obey-light-over-your-lane.png",
+    "width": 986
+  },
+  "oncoming-car-in-lane": {
+    "height": 121,
+    "page": 100,
+    "src": "/handbook/maine/oncoming-car-in-lane.png",
+    "width": 916
+  },
+  "one-danger-at-a-time": {
+    "height": 177,
+    "page": 88,
+    "src": "/handbook/maine/one-danger-at-a-time.png",
+    "width": 1028
+  },
+  "open-container-handbook": {
+    "height": 177,
+    "page": 35,
+    "src": "/handbook/maine/open-container-handbook.png",
+    "width": 1021
+  },
+  "operating-after-suspension-60": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/maine/operating-after-suspension-60.png",
+    "width": 1017
+  },
+  "opposite-turn-versus-straight": {
+    "height": 177,
+    "page": 48,
+    "src": "/handbook/maine/opposite-turn-versus-straight.png",
+    "width": 779
+  },
+  "otc-drugs": {
+    "height": 149,
+    "page": 33,
+    "src": "/handbook/maine/otc-drugs.png",
+    "width": 984
+  },
+  "oui-008-criminal": {
+    "height": 176,
+    "page": 31,
+    "src": "/handbook/maine/oui-008-criminal.png",
+    "width": 1021
+  },
+  "oui-275-day-addition": {
+    "height": 149,
+    "page": 33,
+    "src": "/handbook/maine/oui-275-day-addition.png",
+    "width": 889
+  },
+  "oui-48-hours-jail": {
+    "height": 122,
+    "page": 32,
+    "src": "/handbook/maine/oui-48-hours-jail.png",
+    "width": 1006
+  },
+  "oui-aggravating-circumstances": {
+    "height": 177,
+    "page": 32,
+    "src": "/handbook/maine/oui-aggravating-circumstances.png",
+    "width": 1006
+  },
+  "oui-cost-7240": {
+    "height": 149,
+    "page": 35,
+    "src": "/handbook/maine/oui-cost-7240.png",
+    "width": 988
+  },
+  "oui-first-conviction-penalties": {
+    "height": 121,
+    "page": 32,
+    "src": "/handbook/maine/oui-first-conviction-penalties.png",
+    "width": 999
+  },
+  "out-of-state-waiver": {
+    "height": 122,
+    "page": 10,
+    "src": "/handbook/maine/out-of-state-waiver.png",
+    "width": 1022
+  },
+  "parallel-park-6-to-18": {
+    "height": 149,
+    "page": 72,
+    "src": "/handbook/maine/parallel-park-6-to-18.png",
+    "width": 925
+  },
+  "parking-18-inches-curb": {
+    "height": 177,
+    "page": 69,
+    "src": "/handbook/maine/parking-18-inches-curb.png",
+    "width": 941
+  },
+  "parking-brake-and-gear": {
+    "height": 149,
+    "page": 70,
+    "src": "/handbook/maine/parking-brake-and-gear.png",
+    "width": 1018
+  },
+  "parking-parallel-two-feet": {
+    "height": 176,
+    "page": 69,
+    "src": "/handbook/maine/parking-parallel-two-feet.png",
+    "width": 998
+  },
+  "pass-10-to-12-seconds": {
+    "height": 121,
+    "page": 66,
+    "src": "/handbook/maine/pass-10-to-12-seconds.png",
+    "width": 1012
+  },
+  "pass-one-third-mile": {
+    "height": 205,
+    "page": 67,
+    "src": "/handbook/maine/pass-one-third-mile.png",
+    "width": 1014
+  },
+  "pass-right-exceptions-hb": {
+    "height": 122,
+    "page": 56,
+    "src": "/handbook/maine/pass-right-exceptions-hb.png",
+    "width": 1004
+  },
+  "perception-and-reaction": {
+    "height": 121,
+    "page": 81,
+    "src": "/handbook/maine/perception-and-reaction.png",
+    "width": 857
+  },
+  "permit-accompanying-driver": {
+    "height": 177,
+    "page": 7,
+    "src": "/handbook/maine/permit-accompanying-driver.png",
+    "width": 1022
+  },
+  "permit-age-15": {
+    "height": 121,
+    "page": 7,
+    "src": "/handbook/maine/permit-age-15.png",
+    "width": 1012
+  },
+  "permit-phone-ban": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/maine/permit-phone-ban.png",
+    "width": 940
+  },
+  "permit-seat-adjacent": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/maine/permit-seat-adjacent.png",
+    "width": 1022
+  },
+  "permit-six-months-70-hours": {
+    "height": 177,
+    "page": 8,
+    "src": "/handbook/maine/permit-six-months-70-hours.png",
+    "width": 953
+  },
+  "permit-valid-2-years": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/maine/permit-valid-2-years.png",
+    "width": 940
+  },
+  "pickup-passenger-under-19": {
+    "height": 149,
+    "page": 119,
+    "src": "/handbook/maine/pickup-passenger-under-19.png",
+    "width": 1004
+  },
+  "police-direct-traffic": {
+    "height": 169,
+    "page": 54,
+    "src": "/handbook/maine/police-direct-traffic.png",
+    "width": 1011
+  },
+  "posted-limit-is-a-maximum": {
+    "height": 176,
+    "page": 81,
+    "src": "/handbook/maine/posted-limit-is-a-maximum.png",
+    "width": 1028
+  },
+  "prescription-no-defense": {
+    "height": 149,
+    "page": 33,
+    "src": "/handbook/maine/prescription-no-defense.png",
+    "width": 986
+  },
+  "printed-material-illegal": {
+    "height": 150,
+    "page": 95,
+    "src": "/handbook/maine/printed-material-illegal.png",
+    "width": 1020
+  },
+  "private-drive-yield": {
+    "height": 176,
+    "page": 49,
+    "src": "/handbook/maine/private-drive-yield.png",
+    "width": 788
+  },
+  "provisional-moving-violation": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/maine/provisional-moving-violation.png",
+    "width": 1019
+  },
+  "provisional-two-years": {
+    "height": 177,
+    "page": 9,
+    "src": "/handbook/maine/provisional-two-years.png",
+    "width": 1019
+  },
+  "railroad-15-feet-flashing": {
+    "height": 177,
+    "page": 77,
+    "src": "/handbook/maine/railroad-15-feet-flashing.png",
+    "width": 1023
+  },
+  "railroad-advance-warning": {
+    "height": 177,
+    "page": 52,
+    "src": "/handbook/maine/railroad-advance-warning.png",
+    "width": 780
+  },
+  "railroad-cross-quickly": {
+    "height": 150,
+    "page": 52,
+    "src": "/handbook/maine/railroad-cross-quickly.png",
+    "width": 993
+  },
+  "railroad-crossbuck": {
+    "height": 149,
+    "page": 52,
+    "src": "/handbook/maine/railroad-crossbuck.png",
+    "width": 800
+  },
+  "rear-no-zone-200-feet": {
+    "height": 149,
+    "page": 107,
+    "src": "/handbook/maine/rear-no-zone-200-feet.png",
+    "width": 1008
+  },
+  "red-circle-and-slash": {
+    "height": 150,
+    "page": 53,
+    "src": "/handbook/maine/red-circle-and-slash.png",
+    "width": 991
+  },
+  "red-light-and-right-on-red": {
+    "height": 204,
+    "page": 50,
+    "src": "/handbook/maine/red-light-and-right-on-red.png",
+    "width": 939
+  },
+  "red-with-green-arrow": {
+    "height": 149,
+    "page": 50,
+    "src": "/handbook/maine/red-with-green-arrow.png",
+    "width": 980
+  },
+  "refusal-six-years": {
+    "height": 177,
+    "page": 31,
+    "src": "/handbook/maine/refusal-six-years.png",
+    "width": 1020
+  },
+  "refusal-suspension-stands": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/maine/refusal-suspension-stands.png",
+    "width": 1026
+  },
+  "registration-30-days": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/maine/registration-30-days.png",
+    "width": 997
+  },
+  "regulatory-signs": {
+    "height": 177,
+    "page": 53,
+    "src": "/handbook/maine/regulatory-signs.png",
+    "width": 991
+  },
+  "reportable-accident-hb": {
+    "height": 176,
+    "page": 96,
+    "src": "/handbook/maine/reportable-accident-hb.png",
+    "width": 1019
+  },
+  "revocation-definition": {
+    "height": 149,
+    "page": 12,
+    "src": "/handbook/maine/revocation-definition.png",
+    "width": 990
+  },
+  "road-test-last": {
+    "height": 122,
+    "page": 10,
+    "src": "/handbook/maine/road-test-last.png",
+    "width": 1020
+  },
+  "roundabout-yield-hb": {
+    "height": 176,
+    "page": 62,
+    "src": "/handbook/maine/roundabout-yield-hb.png",
+    "width": 979
+  },
+  "school-bus-divided-highway": {
+    "height": 205,
+    "page": 69,
+    "src": "/handbook/maine/school-bus-divided-highway.png",
+    "width": 1025
+  },
+  "school-bus-either-direction": {
+    "height": 176,
+    "page": 68,
+    "src": "/handbook/maine/school-bus-either-direction.png",
+    "width": 981
+  },
+  "school-bus-illegal-to-pass": {
+    "height": 149,
+    "page": 68,
+    "src": "/handbook/maine/school-bus-illegal-to-pass.png",
+    "width": 1017
+  },
+  "school-bus-license-21": {
+    "height": 149,
+    "page": 8,
+    "src": "/handbook/maine/school-bus-license-21.png",
+    "width": 1024
+  },
+  "school-zone-15-and-fine": {
+    "height": 149,
+    "page": 81,
+    "src": "/handbook/maine/school-zone-15-and-fine.png",
+    "width": 952
+  },
+  "school-zone-15-mph": {
+    "height": 231,
+    "page": 77,
+    "src": "/handbook/maine/school-zone-15-mph.png",
+    "width": 571
+  },
+  "school-zone-double-fine": {
+    "height": 149,
+    "page": 82,
+    "src": "/handbook/maine/school-zone-double-fine.png",
+    "width": 1026
+  },
+  "seat-10-inches": {
+    "height": 149,
+    "page": 39,
+    "src": "/handbook/maine/seat-10-inches.png",
+    "width": 663
+  },
+  "shared-center-turn-lane-sign": {
+    "height": 177,
+    "page": 54,
+    "src": "/handbook/maine/shared-center-turn-lane-sign.png",
+    "width": 1008
+  },
+  "side-no-zone-right": {
+    "height": 204,
+    "page": 107,
+    "src": "/handbook/maine/side-no-zone-right.png",
+    "width": 1006
+  },
+  "signal-past-side-street": {
+    "height": 177,
+    "page": 91,
+    "src": "/handbook/maine/signal-past-side-street.png",
+    "width": 497
+  },
+  "signal-when-reducing-speed": {
+    "height": 122,
+    "page": 91,
+    "src": "/handbook/maine/signal-when-reducing-speed.png",
+    "width": 982
+  },
+  "single-lane-bridge": {
+    "height": 149,
+    "page": 114,
+    "src": "/handbook/maine/single-lane-bridge.png",
+    "width": 917
+  },
+  "skid-release-pressure": {
+    "height": 122,
+    "page": 97,
+    "src": "/handbook/maine/skid-release-pressure.png",
+    "width": 713
+  },
+  "slippery-slow-guidelines": {
+    "height": 121,
+    "page": 80,
+    "src": "/handbook/maine/slippery-slow-guidelines.png",
+    "width": 1020
+  },
+  "slow-moving-vehicle-triangle": {
+    "height": 177,
+    "page": 110,
+    "src": "/handbook/maine/slow-moving-vehicle-triangle.png",
+    "width": 826
+  },
+  "snow-ice-falling-off": {
+    "height": 150,
+    "page": 116,
+    "src": "/handbook/maine/snow-ice-falling-off.png",
+    "width": 987
+  },
+  "sobering-up": {
+    "height": 205,
+    "page": 30,
+    "src": "/handbook/maine/sobering-up.png",
+    "width": 717
+  },
+  "sound-system-25-feet": {
+    "height": 205,
+    "page": 22,
+    "src": "/handbook/maine/sound-system-25-feet.png",
+    "width": 1028
+  },
+  "space-to-merge-four-seconds": {
+    "height": 176,
+    "page": 89,
+    "src": "/handbook/maine/space-to-merge-four-seconds.png",
+    "width": 1025
+  },
+  "stalled-on-tracks": {
+    "height": 176,
+    "page": 99,
+    "src": "/handbook/maine/stalled-on-tracks.png",
+    "width": 1024
+  },
+  "start-from-parking-place": {
+    "height": 177,
+    "page": 72,
+    "src": "/handbook/maine/start-from-parking-place.png",
+    "width": 987
+  },
+  "starting-from-parked": {
+    "height": 149,
+    "page": 49,
+    "src": "/handbook/maine/starting-from-parked.png",
+    "width": 768
+  },
+  "stay-with-your-car": {
+    "height": 149,
+    "page": 116,
+    "src": "/handbook/maine/stay-with-your-car.png",
+    "width": 1014
+  },
+  "steady-red-arrow": {
+    "height": 149,
+    "page": 50,
+    "src": "/handbook/maine/steady-red-arrow.png",
+    "width": 986
+  },
+  "stop-behind-line-or-crosswalk": {
+    "height": 204,
+    "page": 58,
+    "src": "/handbook/maine/stop-behind-line-or-crosswalk.png",
+    "width": 988
+  },
+  "stop-sign-no-line": {
+    "height": 204,
+    "page": 53,
+    "src": "/handbook/maine/stop-sign-no-line.png",
+    "width": 800
+  },
+  "stop-sign-shape": {
+    "height": 149,
+    "page": 53,
+    "src": "/handbook/maine/stop-sign-shape.png",
+    "width": 800
+  },
+  "stuck-gas-pedal": {
+    "height": 121,
+    "page": 99,
+    "src": "/handbook/maine/stuck-gas-pedal.png",
+    "width": 364
+  },
+  "suspension-30-day-offenses": {
+    "height": 122,
+    "page": 13,
+    "src": "/handbook/maine/suspension-30-day-offenses.png",
+    "width": 1023
+  },
+  "suspension-90-day-eluding": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/maine/suspension-90-day-eluding.png",
+    "width": 1012
+  },
+  "suspension-definition": {
+    "height": 149,
+    "page": 12,
+    "src": "/handbook/maine/suspension-definition.png",
+    "width": 1024
+  },
+  "take-the-travel-lane": {
+    "height": 149,
+    "page": 102,
+    "src": "/handbook/maine/take-the-travel-lane.png",
+    "width": 939
+  },
+  "texting-23-times": {
+    "height": 176,
+    "page": 26,
+    "src": "/handbook/maine/texting-23-times.png",
+    "width": 1014
+  },
+  "three-in-front-seat": {
+    "height": 177,
+    "page": 119,
+    "src": "/handbook/maine/three-in-front-seat.png",
+    "width": 1027
+  },
+  "three-license-classes": {
+    "height": 122,
+    "page": 8,
+    "src": "/handbook/maine/three-license-classes.png",
+    "width": 516
+  },
+  "tire-blowout": {
+    "height": 121,
+    "page": 98,
+    "src": "/handbook/maine/tire-blowout.png",
+    "width": 422
+  },
+  "title-exempt-vehicles": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/maine/title-exempt-vehicles.png",
+    "width": 994
+  },
+  "total-stopping-distance": {
+    "height": 150,
+    "page": 81,
+    "src": "/handbook/maine/total-stopping-distance.png",
+    "width": 988
+  },
+  "truck-335-feet": {
+    "height": 176,
+    "page": 107,
+    "src": "/handbook/maine/truck-335-feet.png",
+    "width": 767
+  },
+  "truck-lane-restriction": {
+    "height": 176,
+    "page": 56,
+    "src": "/handbook/maine/truck-lane-restriction.png",
+    "width": 996
+  },
+  "turn-left-approach": {
+    "height": 204,
+    "page": 56,
+    "src": "/handbook/maine/turn-left-approach.png",
+    "width": 1022
+  },
+  "uncontrolled-yield-right": {
+    "height": 149,
+    "page": 49,
+    "src": "/handbook/maine/uncontrolled-yield-right.png",
+    "width": 1001
+  },
+  "under-18-phone-prohibited": {
+    "height": 177,
+    "page": 27,
+    "src": "/handbook/maine/under-18-phone-prohibited.png",
+    "width": 1003
+  },
+  "under-18-restrictions": {
+    "height": 177,
+    "page": 9,
+    "src": "/handbook/maine/under-18-restrictions.png",
+    "width": 1028
+  },
+  "under-21-oui-one-year": {
+    "height": 121,
+    "page": 28,
+    "src": "/handbook/maine/under-21-oui-one-year.png",
+    "width": 1009
+  },
+  "under-21-passenger-180": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/maine/under-21-passenger-180.png",
+    "width": 1005
+  },
+  "under-21-zero-tolerance": {
+    "height": 177,
+    "page": 28,
+    "src": "/handbook/maine/under-21-zero-tolerance.png",
+    "width": 1009
+  },
+  "vehicle-seizure": {
+    "height": 177,
+    "page": 34,
+    "src": "/handbook/maine/vehicle-seizure.png",
+    "width": 1012
+  },
+  "vehicular-homicide": {
+    "height": 204,
+    "page": 35,
+    "src": "/handbook/maine/vehicular-homicide.png",
+    "width": 1028
+  },
+  "violation-free-credit": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/maine/violation-free-credit.png",
+    "width": 998
+  },
+  "vision-screening-content": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/maine/vision-screening-content.png",
+    "width": 956
+  },
+  "visual-distractions": {
+    "height": 150,
+    "page": 26,
+    "src": "/handbook/maine/visual-distractions.png",
+    "width": 1004
+  },
+  "warning-signs-diamond": {
+    "height": 149,
+    "page": 51,
+    "src": "/handbook/maine/warning-signs-diamond.png",
+    "width": 1014
+  },
+  "white-cane-10-feet": {
+    "height": 203,
+    "page": 59,
+    "src": "/handbook/maine/white-cane-10-feet.png",
+    "width": 1027
+  },
+  "white-lines-meaning": {
+    "height": 176,
+    "page": 58,
+    "src": "/handbook/maine/white-lines-meaning.png",
+    "width": 1025
+  },
+  "who-needs-license": {
+    "height": 176,
+    "page": 7,
+    "src": "/handbook/maine/who-needs-license.png",
+    "width": 1024
+  },
+  "work-zone-fines-doubled": {
+    "height": 149,
+    "page": 53,
+    "src": "/handbook/maine/work-zone-fines-doubled.png",
+    "width": 966
+  },
+  "work-zone-signs-orange": {
+    "height": 149,
+    "page": 52,
+    "src": "/handbook/maine/work-zone-signs-orange.png",
+    "width": 1028
+  },
+  "written-test-content": {
+    "height": 205,
+    "page": 9,
+    "src": "/handbook/maine/written-test-content.png",
+    "width": 1028
+  },
+  "yellow-light": {
+    "height": 177,
+    "page": 50,
+    "src": "/handbook/maine/yellow-light.png",
+    "width": 608
+  },
+  "yield-ped-marked-crosswalk": {
+    "height": 150,
+    "page": 101,
+    "src": "/handbook/maine/yield-ped-marked-crosswalk.png",
+    "width": 837
+  },
+  "yield-ped-no-signal": {
+    "height": 150,
+    "page": 49,
+    "src": "/handbook/maine/yield-ped-no-signal.png",
+    "width": 1025
+  },
+  "yield-peds-marked-or-unmarked": {
+    "height": 149,
+    "page": 59,
+    "src": "/handbook/maine/yield-peds-marked-or-unmarked.png",
+    "width": 983
+  },
+  "yield-schoolchildren": {
+    "height": 121,
+    "page": 49,
+    "src": "/handbook/maine/yield-schoolchildren.png",
+    "width": 725
+  },
+  "yield-sign": {
+    "height": 204,
+    "page": 53,
+    "src": "/handbook/maine/yield-sign.png",
+    "width": 788
+  },
+  "yield-vision-impaired-stop": {
+    "height": 149,
+    "page": 101,
+    "src": "/handbook/maine/yield-vision-impaired-stop.png",
+    "width": 933
+  }
+}

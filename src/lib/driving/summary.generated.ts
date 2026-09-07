@@ -360,6 +360,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "maine",
+    "name": "Maine",
+    "code": "ME",
+    "country": "US",
+    "licenceName": "Learner's Permit (Class C)",
+    "intro": "Maine starts the process at 15, and the written knowledge test is what gets you the learner's permit. The Bureau of Motor Vehicles - part of the Department of the Secretary of State, not a separate DMV - writes and administers it, and it is unusually quiet about the format: the manual never states it, and the only official source for 30 questions and 24 to pass is the BMV's exam page. This bank is written from the Rev 4/24 printing of the Maine Driver's License Manual, with Title 29-A of the Maine Revised Statutes supplying the numbers the book leaves out and the BMV's own pages supplying the test format and the graduated licensing stages.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "manitoba",
     "name": "Manitoba",
     "code": "MB",
@@ -527,4 +538,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 9031;
+export const TOTAL_DRIVING_QUESTIONS = 9226;
