@@ -1,0 +1,2876 @@
+{
+  "aap-booster-height": {
+    "height": 154,
+    "page": 28,
+    "src": "/handbook/alaska/aap-booster-height.png",
+    "width": 756
+  },
+  "aap-rear-seat": {
+    "height": 134,
+    "page": 28,
+    "src": "/handbook/alaska/aap-rear-seat.png",
+    "width": 756
+  },
+  "abs-no-pump": {
+    "height": 114,
+    "page": 86,
+    "src": "/handbook/alaska/abs-no-pump.png",
+    "width": 728
+  },
+  "address-change-30-days": {
+    "height": 157,
+    "page": 13,
+    "src": "/handbook/alaska/address-change-30-days.png",
+    "width": 756
+  },
+  "alcohol-alaska-deaths": {
+    "height": 136,
+    "page": 23,
+    "src": "/handbook/alaska/alcohol-alaska-deaths.png",
+    "width": 755
+  },
+  "alcohol-depressant": {
+    "height": 137,
+    "page": 22,
+    "src": "/handbook/alaska/alcohol-depressant.png",
+    "width": 755
+  },
+  "alcohol-each-drink": {
+    "height": 113,
+    "page": 22,
+    "src": "/handbook/alaska/alcohol-each-drink.png",
+    "width": 755
+  },
+  "alcohol-equivalents": {
+    "height": 155,
+    "page": 22,
+    "src": "/handbook/alaska/alcohol-equivalents.png",
+    "width": 755
+  },
+  "alcohol-false-confidence": {
+    "height": 150,
+    "page": 23,
+    "src": "/handbook/alaska/alcohol-false-confidence.png",
+    "width": 754
+  },
+  "alcohol-judgment-first": {
+    "height": 101,
+    "page": 22,
+    "src": "/handbook/alaska/alcohol-judgment-first.png",
+    "width": 755
+  },
+  "alcohol-one-hour": {
+    "height": 159,
+    "page": 22,
+    "src": "/handbook/alaska/alcohol-one-hour.png",
+    "width": 755
+  },
+  "alcohol-only-time": {
+    "height": 160,
+    "page": 22,
+    "src": "/handbook/alaska/alcohol-only-time.png",
+    "width": 755
+  },
+  "alcohol-type-no-difference": {
+    "height": 238,
+    "page": 22,
+    "src": "/handbook/alaska/alcohol-type-no-difference.png",
+    "width": 755
+  },
+  "alcohol-young-drivers": {
+    "height": 137,
+    "page": 22,
+    "src": "/handbook/alaska/alcohol-young-drivers.png",
+    "width": 755
+  },
+  "animals-common": {
+    "height": 135,
+    "page": 72,
+    "src": "/handbook/alaska/animals-common.png",
+    "width": 756
+  },
+  "animals-dawn-dusk": {
+    "height": 114,
+    "page": 72,
+    "src": "/handbook/alaska/animals-dawn-dusk.png",
+    "width": 756
+  },
+  "animals-do-not-swerve": {
+    "height": 159,
+    "page": 72,
+    "src": "/handbook/alaska/animals-do-not-swerve.png",
+    "width": 756
+  },
+  "animals-flashers-warn": {
+    "height": 114,
+    "page": 72,
+    "src": "/handbook/alaska/animals-flashers-warn.png",
+    "width": 756
+  },
+  "animals-high-beams": {
+    "height": 114,
+    "page": 72,
+    "src": "/handbook/alaska/animals-high-beams.png",
+    "width": 756
+  },
+  "animals-moose-hard-to-see": {
+    "height": 155,
+    "page": 72,
+    "src": "/handbook/alaska/animals-moose-hard-to-see.png",
+    "width": 756
+  },
+  "animals-no-whistles": {
+    "height": 113,
+    "page": 72,
+    "src": "/handbook/alaska/animals-no-whistles.png",
+    "width": 756
+  },
+  "animals-pairs": {
+    "height": 134,
+    "page": 72,
+    "src": "/handbook/alaska/animals-pairs.png",
+    "width": 756
+  },
+  "animals-report-big-game": {
+    "height": 159,
+    "page": 72,
+    "src": "/handbook/alaska/animals-report-big-game.png",
+    "width": 756
+  },
+  "assured-clear-distance": {
+    "height": 184,
+    "page": 34,
+    "src": "/handbook/alaska/assured-clear-distance.png",
+    "width": 756
+  },
+  "avoid-being-struck": {
+    "height": 134,
+    "page": 32,
+    "src": "/handbook/alaska/avoid-being-struck.png",
+    "width": 756
+  },
+  "bac-08-presumed": {
+    "height": 134,
+    "page": 20,
+    "src": "/handbook/alaska/bac-08-presumed.png",
+    "width": 749
+  },
+  "backing-5-mph": {
+    "height": 152,
+    "page": 31,
+    "src": "/handbook/alaska/backing-5-mph.png",
+    "width": 402
+  },
+  "backing-controlled-access": {
+    "height": 275,
+    "page": 79,
+    "src": "/handbook/alaska/backing-controlled-access.png",
+    "width": 756
+  },
+  "backing-rear-direction": {
+    "height": 172,
+    "page": 31,
+    "src": "/handbook/alaska/backing-rear-direction.png",
+    "width": 402
+  },
+  "backing-technique": {
+    "height": 172,
+    "page": 31,
+    "src": "/handbook/alaska/backing-technique.png",
+    "width": 402
+  },
+  "backing-yield": {
+    "height": 242,
+    "page": 79,
+    "src": "/handbook/alaska/backing-yield.png",
+    "width": 211
+  },
+  "belt-4-to-16": {
+    "height": 134,
+    "page": 26,
+    "src": "/handbook/alaska/belt-4-to-16.png",
+    "width": 756
+  },
+  "belt-driver-responsible": {
+    "height": 114,
+    "page": 26,
+    "src": "/handbook/alaska/belt-driver-responsible.png",
+    "width": 756
+  },
+  "belt-ejection": {
+    "height": 136,
+    "page": 25,
+    "src": "/handbook/alaska/belt-ejection.png",
+    "width": 756
+  },
+  "belt-exceptions": {
+    "height": 111,
+    "page": 27,
+    "src": "/handbook/alaska/belt-exceptions.png",
+    "width": 756
+  },
+  "belt-fine": {
+    "height": 157,
+    "page": 27,
+    "src": "/handbook/alaska/belt-fine.png",
+    "width": 756
+  },
+  "belt-fire-submersion": {
+    "height": 114,
+    "page": 25,
+    "src": "/handbook/alaska/belt-fire-submersion.png",
+    "width": 756
+  },
+  "belt-lap-only": {
+    "height": 155,
+    "page": 25,
+    "src": "/handbook/alaska/belt-lap-only.png",
+    "width": 756
+  },
+  "belt-law": {
+    "height": 174,
+    "page": 26,
+    "src": "/handbook/alaska/belt-law.png",
+    "width": 756
+  },
+  "belt-low-speed-crashes": {
+    "height": 134,
+    "page": 25,
+    "src": "/handbook/alaska/belt-low-speed-crashes.png",
+    "width": 756
+  },
+  "belt-passengers-18": {
+    "height": 135,
+    "page": 26,
+    "src": "/handbook/alaska/belt-passengers-18.png",
+    "width": 756
+  },
+  "bicycle-blind-spots": {
+    "height": 177,
+    "page": 49,
+    "src": "/handbook/alaska/bicycle-blind-spots.png",
+    "width": 756
+  },
+  "bicycle-hand-signals": {
+    "height": 156,
+    "page": 50,
+    "src": "/handbook/alaska/bicycle-hand-signals.png",
+    "width": 756
+  },
+  "bicycle-is-vehicle": {
+    "height": 114,
+    "page": 49,
+    "src": "/handbook/alaska/bicycle-is-vehicle.png",
+    "width": 756
+  },
+  "bicycle-no-points": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/alaska/bicycle-no-points.png",
+    "width": 756
+  },
+  "bicycle-obey-laws": {
+    "height": 93,
+    "page": 50,
+    "src": "/handbook/alaska/bicycle-obey-laws.png",
+    "width": 756
+  },
+  "bicycle-share-road": {
+    "height": 156,
+    "page": 49,
+    "src": "/handbook/alaska/bicycle-share-road.png",
+    "width": 756
+  },
+  "bicycle-under-nine": {
+    "height": 155,
+    "page": 49,
+    "src": "/handbook/alaska/bicycle-under-nine.png",
+    "width": 756
+  },
+  "bicycle-yield-same-as-vehicle": {
+    "height": 173,
+    "page": 49,
+    "src": "/handbook/alaska/bicycle-yield-same-as-vehicle.png",
+    "width": 756
+  },
+  "blind-spot-check": {
+    "height": 155,
+    "page": 69,
+    "src": "/handbook/alaska/blind-spot-check.png",
+    "width": 380
+  },
+  "blind-spot-others": {
+    "height": 134,
+    "page": 69,
+    "src": "/handbook/alaska/blind-spot-others.png",
+    "width": 756
+  },
+  "blowout-pull-off": {
+    "height": 113,
+    "page": 78,
+    "src": "/handbook/alaska/blowout-pull-off.png",
+    "width": 319
+  },
+  "bus-divided-exception": {
+    "height": 199,
+    "page": 53,
+    "src": "/handbook/alaska/bus-divided-exception.png",
+    "width": 721
+  },
+  "bus-meeting-amber": {
+    "height": 196,
+    "page": 53,
+    "src": "/handbook/alaska/bus-meeting-amber.png",
+    "width": 461
+  },
+  "bus-overtaking-rear": {
+    "height": 186,
+    "page": 53,
+    "src": "/handbook/alaska/bus-overtaking-rear.png",
+    "width": 461
+  },
+  "bus-remain-stopped": {
+    "height": 176,
+    "page": 53,
+    "src": "/handbook/alaska/bus-remain-stopped.png",
+    "width": 461
+  },
+  "car-seat-booster": {
+    "height": 158,
+    "page": 26,
+    "src": "/handbook/alaska/car-seat-booster.png",
+    "width": 756
+  },
+  "car-seat-rear-facing": {
+    "height": 179,
+    "page": 26,
+    "src": "/handbook/alaska/car-seat-rear-facing.png",
+    "width": 756
+  },
+  "carbon-monoxide": {
+    "height": 170,
+    "page": 81,
+    "src": "/handbook/alaska/carbon-monoxide.png",
+    "width": 733
+  },
+  "carbon-monoxide-garage": {
+    "height": 113,
+    "page": 81,
+    "src": "/handbook/alaska/carbon-monoxide-garage.png",
+    "width": 686
+  },
+  "child-in-arms": {
+    "height": 105,
+    "page": 26,
+    "src": "/handbook/alaska/child-in-arms.png",
+    "width": 756
+  },
+  "child-safety-all-passengers": {
+    "height": 267,
+    "page": 27,
+    "src": "/handbook/alaska/child-safety-all-passengers.png",
+    "width": 756
+  },
+  "class-d": {
+    "height": 154,
+    "page": 6,
+    "src": "/handbook/alaska/class-d.png",
+    "width": 756
+  },
+  "coasting-prohibited": {
+    "height": 192,
+    "page": 79,
+    "src": "/handbook/alaska/coasting-prohibited.png",
+    "width": 527
+  },
+  "consent-withdrawal": {
+    "height": 157,
+    "page": 7,
+    "src": "/handbook/alaska/consent-withdrawal.png",
+    "width": 756
+  },
+  "control-definition": {
+    "height": 159,
+    "page": 30,
+    "src": "/handbook/alaska/control-definition.png",
+    "width": 756
+  },
+  "control-yourself": {
+    "height": 160,
+    "page": 30,
+    "src": "/handbook/alaska/control-yourself.png",
+    "width": 756
+  },
+  "crash-call-911": {
+    "height": 176,
+    "page": 15,
+    "src": "/handbook/alaska/crash-call-911.png",
+    "width": 756
+  },
+  "crash-certificate-501": {
+    "height": 155,
+    "page": 15,
+    "src": "/handbook/alaska/crash-certificate-501.png",
+    "width": 756
+  },
+  "crash-exchange": {
+    "height": 154,
+    "page": 15,
+    "src": "/handbook/alaska/crash-exchange.png",
+    "width": 756
+  },
+  "crash-help-injured": {
+    "height": 134,
+    "page": 15,
+    "src": "/handbook/alaska/crash-help-injured.png",
+    "width": 756
+  },
+  "crash-police-investigated": {
+    "height": 114,
+    "page": 15,
+    "src": "/handbook/alaska/crash-police-investigated.png",
+    "width": 756
+  },
+  "crash-report-10-days": {
+    "height": 134,
+    "page": 15,
+    "src": "/handbook/alaska/crash-report-10-days.png",
+    "width": 756
+  },
+  "crash-stop-at-once": {
+    "height": 99,
+    "page": 15,
+    "src": "/handbook/alaska/crash-stop-at-once.png",
+    "width": 756
+  },
+  "crash-unattended-vehicle": {
+    "height": 154,
+    "page": 15,
+    "src": "/handbook/alaska/crash-unattended-vehicle.png",
+    "width": 756
+  },
+  "crash-warn-traffic": {
+    "height": 134,
+    "page": 15,
+    "src": "/handbook/alaska/crash-warn-traffic.png",
+    "width": 756
+  },
+  "crosswalk-never-pass": {
+    "height": 175,
+    "page": 61,
+    "src": "/handbook/alaska/crosswalk-never-pass.png",
+    "width": 755
+  },
+  "crosswalk-not-painted": {
+    "height": 159,
+    "page": 61,
+    "src": "/handbook/alaska/crosswalk-not-painted.png",
+    "width": 755
+  },
+  "disabled-flares": {
+    "height": 113,
+    "page": 78,
+    "src": "/handbook/alaska/disabled-flares.png",
+    "width": 647
+  },
+  "disabled-raise-hood": {
+    "height": 113,
+    "page": 68,
+    "src": "/handbook/alaska/disabled-raise-hood.png",
+    "width": 748
+  },
+  "disabled-vehicle-wheels-off": {
+    "height": 136,
+    "page": 68,
+    "src": "/handbook/alaska/disabled-vehicle-wheels-off.png",
+    "width": 748
+  },
+  "distraction-focus": {
+    "height": 160,
+    "page": 29,
+    "src": "/handbook/alaska/distraction-focus.png",
+    "width": 756
+  },
+  "distraction-pets": {
+    "height": 138,
+    "page": 29,
+    "src": "/handbook/alaska/distraction-pets.png",
+    "width": 756
+  },
+  "distraction-phone-off": {
+    "height": 136,
+    "page": 29,
+    "src": "/handbook/alaska/distraction-phone-off.png",
+    "width": 756
+  },
+  "distraction-pull-over": {
+    "height": 115,
+    "page": 29,
+    "src": "/handbook/alaska/distraction-pull-over.png",
+    "width": 756
+  },
+  "dmv-and-court-separate": {
+    "height": 134,
+    "page": 20,
+    "src": "/handbook/alaska/dmv-and-court-separate.png",
+    "width": 756
+  },
+  "dmv-independent-action": {
+    "height": 159,
+    "page": 17,
+    "src": "/handbook/alaska/dmv-independent-action.png",
+    "width": 756
+  },
+  "drinking-effects": {
+    "height": 150,
+    "page": 23,
+    "src": "/handbook/alaska/drinking-effects.png",
+    "width": 754
+  },
+  "driving-privilege-closing": {
+    "height": 185,
+    "page": 94,
+    "src": "/handbook/alaska/driving-privilege-closing.png",
+    "width": 724
+  },
+  "driving-record-fee": {
+    "height": 136,
+    "page": 13,
+    "src": "/handbook/alaska/driving-record-fee.png",
+    "width": 756
+  },
+  "driving-suspended-jail": {
+    "height": 138,
+    "page": 9,
+    "src": "/handbook/alaska/driving-suspended-jail.png",
+    "width": 756
+  },
+  "driving-test-alone": {
+    "height": 113,
+    "page": 11,
+    "src": "/handbook/alaska/driving-test-alone.png",
+    "width": 756
+  },
+  "driving-test-retake": {
+    "height": 135,
+    "page": 11,
+    "src": "/handbook/alaska/driving-test-retake.png",
+    "width": 756
+  },
+  "driving-test-vehicle": {
+    "height": 157,
+    "page": 11,
+    "src": "/handbook/alaska/driving-test-vehicle.png",
+    "width": 756
+  },
+  "driving-test-who": {
+    "height": 156,
+    "page": 11,
+    "src": "/handbook/alaska/driving-test-who.png",
+    "width": 756
+  },
+  "drowsy-break-100-miles": {
+    "height": 114,
+    "page": 68,
+    "src": "/handbook/alaska/drowsy-break-100-miles.png",
+    "width": 751
+  },
+  "drowsy-first-step": {
+    "height": 113,
+    "page": 68,
+    "src": "/handbook/alaska/drowsy-first-step.png",
+    "width": 751
+  },
+  "drugs-combination": {
+    "height": 155,
+    "page": 24,
+    "src": "/handbook/alaska/drugs-combination.png",
+    "width": 755
+  },
+  "drugs-controlled-substance": {
+    "height": 134,
+    "page": 24,
+    "src": "/handbook/alaska/drugs-controlled-substance.png",
+    "width": 755
+  },
+  "drugs-otc": {
+    "height": 135,
+    "page": 24,
+    "src": "/handbook/alaska/drugs-otc.png",
+    "width": 755
+  },
+  "drugs-prescription": {
+    "height": 135,
+    "page": 24,
+    "src": "/handbook/alaska/drugs-prescription.png",
+    "width": 755
+  },
+  "drugs-same-penalties": {
+    "height": 155,
+    "page": 24,
+    "src": "/handbook/alaska/drugs-same-penalties.png",
+    "width": 755
+  },
+  "due-care": {
+    "height": 157,
+    "page": 30,
+    "src": "/handbook/alaska/due-care.png",
+    "width": 756
+  },
+  "dui-average-cost": {
+    "height": 395,
+    "page": 19,
+    "src": "/handbook/alaska/dui-average-cost.png",
+    "width": 261
+  },
+  "dui-cost-consequences": {
+    "height": 120,
+    "page": 19,
+    "src": "/handbook/alaska/dui-cost-consequences.png",
+    "width": 756
+  },
+  "dui-points-permanent": {
+    "height": 113,
+    "page": 19,
+    "src": "/handbook/alaska/dui-points-permanent.png",
+    "width": 515
+  },
+  "dui-revocation-90-days": {
+    "height": 158,
+    "page": 20,
+    "src": "/handbook/alaska/dui-revocation-90-days.png",
+    "width": 747
+  },
+  "dui-revocation-not-guilty": {
+    "height": 155,
+    "page": 20,
+    "src": "/handbook/alaska/dui-revocation-not-guilty.png",
+    "width": 749
+  },
+  "eco-idling": {
+    "height": 176,
+    "page": 86,
+    "src": "/handbook/alaska/eco-idling.png",
+    "width": 728
+  },
+  "eco-slow-down": {
+    "height": 134,
+    "page": 85,
+    "src": "/handbook/alaska/eco-slow-down.png",
+    "width": 732
+  },
+  "eco-warm-up": {
+    "height": 155,
+    "page": 85,
+    "src": "/handbook/alaska/eco-warm-up.png",
+    "width": 740
+  },
+  "emergency-follow-500": {
+    "height": 156,
+    "page": 76,
+    "src": "/handbook/alaska/emergency-follow-500.png",
+    "width": 756
+  },
+  "emergency-lights-sirens": {
+    "height": 155,
+    "page": 76,
+    "src": "/handbook/alaska/emergency-lights-sirens.png",
+    "width": 484
+  },
+  "emergency-move-lane-away": {
+    "height": 155,
+    "page": 76,
+    "src": "/handbook/alaska/emergency-move-lane-away.png",
+    "width": 455
+  },
+  "emergency-one-lane": {
+    "height": 175,
+    "page": 76,
+    "src": "/handbook/alaska/emergency-one-lane.png",
+    "width": 446
+  },
+  "emergency-stationary": {
+    "height": 161,
+    "page": 76,
+    "src": "/handbook/alaska/emergency-stationary.png",
+    "width": 743
+  },
+  "emergency-unauthorized-lights": {
+    "height": 155,
+    "page": 76,
+    "src": "/handbook/alaska/emergency-unauthorized-lights.png",
+    "width": 484
+  },
+  "emergency-yield-pull-right": {
+    "height": 155,
+    "page": 76,
+    "src": "/handbook/alaska/emergency-yield-pull-right.png",
+    "width": 485
+  },
+  "equipment-foot-brake": {
+    "height": 135,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-foot-brake.png",
+    "width": 756
+  },
+  "equipment-headlights": {
+    "height": 113,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-headlights.png",
+    "width": 756
+  },
+  "equipment-licence-plate": {
+    "height": 134,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-licence-plate.png",
+    "width": 756
+  },
+  "equipment-mirror": {
+    "height": 155,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-mirror.png",
+    "width": 756
+  },
+  "equipment-parking-brake": {
+    "height": 134,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-parking-brake.png",
+    "width": 756
+  },
+  "equipment-plate-light": {
+    "height": 134,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-plate-light.png",
+    "width": 756
+  },
+  "equipment-taillights": {
+    "height": 114,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-taillights.png",
+    "width": 756
+  },
+  "equipment-turn-signals": {
+    "height": 134,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-turn-signals.png",
+    "width": 756
+  },
+  "equipment-windshield": {
+    "height": 134,
+    "page": 80,
+    "src": "/handbook/alaska/equipment-windshield.png",
+    "width": 756
+  },
+  "fatal-crashes-daylight": {
+    "height": 159,
+    "page": 30,
+    "src": "/handbook/alaska/fatal-crashes-daylight.png",
+    "width": 756
+  },
+  "fees-table": {
+    "height": 242,
+    "page": 13,
+    "src": "/handbook/alaska/fees-table.png",
+    "width": 756
+  },
+  "financial-responsibility-suspension": {
+    "height": 199,
+    "page": 14,
+    "src": "/handbook/alaska/financial-responsibility-suspension.png",
+    "width": 756
+  },
+  "fire-hose": {
+    "height": 142,
+    "page": 77,
+    "src": "/handbook/alaska/fire-hose.png",
+    "width": 756
+  },
+  "flag-persons": {
+    "height": 164,
+    "page": 47,
+    "src": "/handbook/alaska/flag-persons.png",
+    "width": 756
+  },
+  "flashing-red-arrow": {
+    "height": 210,
+    "page": 56,
+    "src": "/handbook/alaska/flashing-red-arrow.png",
+    "width": 756
+  },
+  "flashing-red-ball": {
+    "height": 208,
+    "page": 56,
+    "src": "/handbook/alaska/flashing-red-ball.png",
+    "width": 756
+  },
+  "flashing-red-beacons": {
+    "height": 183,
+    "page": 56,
+    "src": "/handbook/alaska/flashing-red-beacons.png",
+    "width": 756
+  },
+  "flashing-yellow-arrow": {
+    "height": 186,
+    "page": 56,
+    "src": "/handbook/alaska/flashing-yellow-arrow.png",
+    "width": 756
+  },
+  "flashing-yellow-ball": {
+    "height": 165,
+    "page": 56,
+    "src": "/handbook/alaska/flashing-yellow-ball.png",
+    "width": 756
+  },
+  "flood-do-not-drive": {
+    "height": 134,
+    "page": 84,
+    "src": "/handbook/alaska/flood-do-not-drive.png",
+    "width": 756
+  },
+  "flood-hidden-dips": {
+    "height": 155,
+    "page": 84,
+    "src": "/handbook/alaska/flood-hidden-dips.png",
+    "width": 756
+  },
+  "flood-six-inches": {
+    "height": 134,
+    "page": 84,
+    "src": "/handbook/alaska/flood-six-inches.png",
+    "width": 756
+  },
+  "flood-two-feet": {
+    "height": 134,
+    "page": 84,
+    "src": "/handbook/alaska/flood-two-feet.png",
+    "width": 756
+  },
+  "following-five-vehicles": {
+    "height": 159,
+    "page": 32,
+    "src": "/handbook/alaska/following-five-vehicles.png",
+    "width": 756
+  },
+  "following-law": {
+    "height": 137,
+    "page": 32,
+    "src": "/handbook/alaska/following-law.png",
+    "width": 756
+  },
+  "four-second-count": {
+    "height": 114,
+    "page": 32,
+    "src": "/handbook/alaska/four-second-count.png",
+    "width": 756
+  },
+  "four-second-headlights": {
+    "height": 157,
+    "page": 32,
+    "src": "/handbook/alaska/four-second-headlights.png",
+    "width": 756
+  },
+  "four-second-increase": {
+    "height": 135,
+    "page": 32,
+    "src": "/handbook/alaska/four-second-increase.png",
+    "width": 756
+  },
+  "four-second-rule": {
+    "height": 157,
+    "page": 32,
+    "src": "/handbook/alaska/four-second-rule.png",
+    "width": 756
+  },
+  "fraudulent-licence-alcohol": {
+    "height": 159,
+    "page": 20,
+    "src": "/handbook/alaska/fraudulent-licence-alcohol.png",
+    "width": 749
+  },
+  "freeway-acceleration-lane": {
+    "height": 131,
+    "page": 70,
+    "src": "/handbook/alaska/freeway-acceleration-lane.png",
+    "width": 742
+  },
+  "freeway-deceleration-lane": {
+    "height": 114,
+    "page": 70,
+    "src": "/handbook/alaska/freeway-deceleration-lane.png",
+    "width": 753
+  },
+  "freeway-dim-divided": {
+    "height": 113,
+    "page": 70,
+    "src": "/handbook/alaska/freeway-dim-divided.png",
+    "width": 753
+  },
+  "freeway-missed-exit": {
+    "height": 113,
+    "page": 70,
+    "src": "/handbook/alaska/freeway-missed-exit.png",
+    "width": 753
+  },
+  "freeway-no-parking": {
+    "height": 132,
+    "page": 70,
+    "src": "/handbook/alaska/freeway-no-parking.png",
+    "width": 753
+  },
+  "freeway-yield-entering": {
+    "height": 132,
+    "page": 70,
+    "src": "/handbook/alaska/freeway-yield-entering.png",
+    "width": 734
+  },
+  "glare-recovery": {
+    "height": 157,
+    "page": 66,
+    "src": "/handbook/alaska/glare-recovery.png",
+    "width": 756
+  },
+  "glare-recovery-blind": {
+    "height": 157,
+    "page": 66,
+    "src": "/handbook/alaska/glare-recovery-blind.png",
+    "width": 756
+  },
+  "green-arrow": {
+    "height": 150,
+    "page": 56,
+    "src": "/handbook/alaska/green-arrow.png",
+    "width": 756
+  },
+  "green-arrow-caution": {
+    "height": 160,
+    "page": 56,
+    "src": "/handbook/alaska/green-arrow-caution.png",
+    "width": 756
+  },
+  "green-ball": {
+    "height": 164,
+    "page": 55,
+    "src": "/handbook/alaska/green-ball.png",
+    "width": 756
+  },
+  "green-ball-yield": {
+    "height": 227,
+    "page": 55,
+    "src": "/handbook/alaska/green-ball-yield.png",
+    "width": 756
+  },
+  "headlights-1000-feet": {
+    "height": 136,
+    "page": 67,
+    "src": "/handbook/alaska/headlights-1000-feet.png",
+    "width": 756
+  },
+  "headlights-dim-300": {
+    "height": 134,
+    "page": 67,
+    "src": "/handbook/alaska/headlights-dim-300.png",
+    "width": 756
+  },
+  "headlights-dim-500": {
+    "height": 113,
+    "page": 67,
+    "src": "/handbook/alaska/headlights-dim-500.png",
+    "width": 756
+  },
+  "headlights-sunset": {
+    "height": 135,
+    "page": 67,
+    "src": "/handbook/alaska/headlights-sunset.png",
+    "width": 756
+  },
+  "hearing-in-writing": {
+    "height": 115,
+    "page": 21,
+    "src": "/handbook/alaska/hearing-in-writing.png",
+    "width": 749
+  },
+  "hearing-seven-days": {
+    "height": 155,
+    "page": 21,
+    "src": "/handbook/alaska/hearing-seven-days.png",
+    "width": 756
+  },
+  "hearing-temporary-licence": {
+    "height": 153,
+    "page": 21,
+    "src": "/handbook/alaska/hearing-temporary-licence.png",
+    "width": 756
+  },
+  "horn-200-feet": {
+    "height": 134,
+    "page": 80,
+    "src": "/handbook/alaska/horn-200-feet.png",
+    "width": 756
+  },
+  "horn-unnecessary": {
+    "height": 98,
+    "page": 81,
+    "src": "/handbook/alaska/horn-unnecessary.png",
+    "width": 707
+  },
+  "id-required": {
+    "height": 159,
+    "page": 6,
+    "src": "/handbook/alaska/id-required.png",
+    "width": 752
+  },
+  "iid-required": {
+    "height": 116,
+    "page": 23,
+    "src": "/handbook/alaska/iid-required.png",
+    "width": 741
+  },
+  "iid-schedule": {
+    "height": 265,
+    "page": 23,
+    "src": "/handbook/alaska/iid-schedule.png",
+    "width": 620
+  },
+  "iid-six-months": {
+    "height": 133,
+    "page": 23,
+    "src": "/handbook/alaska/iid-six-months.png",
+    "width": 741
+  },
+  "impact-four-times": {
+    "height": 138,
+    "page": 33,
+    "src": "/handbook/alaska/impact-four-times.png",
+    "width": 756
+  },
+  "impact-nine-sixteen": {
+    "height": 163,
+    "page": 33,
+    "src": "/handbook/alaska/impact-nine-sixteen.png",
+    "width": 756
+  },
+  "implied-consent": {
+    "height": 154,
+    "page": 18,
+    "src": "/handbook/alaska/implied-consent.png",
+    "width": 756
+  },
+  "implied-consent-blood": {
+    "height": 155,
+    "page": 18,
+    "src": "/handbook/alaska/implied-consent-blood.png",
+    "width": 756
+  },
+  "implied-consent-breath": {
+    "height": 134,
+    "page": 18,
+    "src": "/handbook/alaska/implied-consent-breath.png",
+    "width": 756
+  },
+  "insurance-15-days": {
+    "height": 156,
+    "page": 14,
+    "src": "/handbook/alaska/insurance-15-days.png",
+    "width": 756
+  },
+  "insurance-all-drivers": {
+    "height": 157,
+    "page": 14,
+    "src": "/handbook/alaska/insurance-all-drivers.png",
+    "width": 756
+  },
+  "insurance-carry-proof": {
+    "height": 156,
+    "page": 14,
+    "src": "/handbook/alaska/insurance-carry-proof.png",
+    "width": 756
+  },
+  "insurance-closing": {
+    "height": 134,
+    "page": 94,
+    "src": "/handbook/alaska/insurance-closing.png",
+    "width": 742
+  },
+  "insurance-mandatory": {
+    "height": 135,
+    "page": 14,
+    "src": "/handbook/alaska/insurance-mandatory.png",
+    "width": 756
+  },
+  "insurance-minimums": {
+    "height": 135,
+    "page": 14,
+    "src": "/handbook/alaska/insurance-minimums.png",
+    "width": 756
+  },
+  "insurance-suspension": {
+    "height": 135,
+    "page": 14,
+    "src": "/handbook/alaska/insurance-suspension.png",
+    "width": 746
+  },
+  "intersection-reduce-speed": {
+    "height": 136,
+    "page": 38,
+    "src": "/handbook/alaska/intersection-reduce-speed.png",
+    "width": 700
+  },
+  "keep-right-slower": {
+    "height": 137,
+    "page": 34,
+    "src": "/handbook/alaska/keep-right-slower.png",
+    "width": 756
+  },
+  "lane-change-steps": {
+    "height": 279,
+    "page": 69,
+    "src": "/handbook/alaska/lane-change-steps.png",
+    "width": 753
+  },
+  "lane-control-not-lit": {
+    "height": 130,
+    "page": 58,
+    "src": "/handbook/alaska/lane-control-not-lit.png",
+    "width": 657
+  },
+  "lane-control-signals": {
+    "height": 158,
+    "page": 58,
+    "src": "/handbook/alaska/lane-control-signals.png",
+    "width": 657
+  },
+  "leaving-backing-residential": {
+    "height": 134,
+    "page": 75,
+    "src": "/handbook/alaska/leaving-backing-residential.png",
+    "width": 731
+  },
+  "leaving-parking-space": {
+    "height": 134,
+    "page": 75,
+    "src": "/handbook/alaska/leaving-parking-space.png",
+    "width": 705
+  },
+  "left-one-to-one": {
+    "height": 135,
+    "page": 37,
+    "src": "/handbook/alaska/left-one-to-one.png",
+    "width": 437
+  },
+  "left-turn-not-past-center": {
+    "height": 156,
+    "page": 36,
+    "src": "/handbook/alaska/left-turn-not-past-center.png",
+    "width": 444
+  },
+  "left-turn-wheels-straight": {
+    "height": 178,
+    "page": 36,
+    "src": "/handbook/alaska/left-turn-wheels-straight.png",
+    "width": 444
+  },
+  "left-turn-yield-oncoming": {
+    "height": 114,
+    "page": 36,
+    "src": "/handbook/alaska/left-turn-yield-oncoming.png",
+    "width": 744
+  },
+  "licence-age-16": {
+    "height": 114,
+    "page": 9,
+    "src": "/handbook/alaska/licence-age-16.png",
+    "width": 756
+  },
+  "licence-classes": {
+    "height": 113,
+    "page": 6,
+    "src": "/handbook/alaska/licence-classes.png",
+    "width": 756
+  },
+  "licence-possession": {
+    "height": 113,
+    "page": 9,
+    "src": "/handbook/alaska/licence-possession.png",
+    "width": 756
+  },
+  "licence-privilege": {
+    "height": 113,
+    "page": 9,
+    "src": "/handbook/alaska/licence-privilege.png",
+    "width": 756
+  },
+  "licence-under-21-expiry": {
+    "height": 137,
+    "page": 9,
+    "src": "/handbook/alaska/licence-under-21-expiry.png",
+    "width": 756
+  },
+  "litter-truck-loads": {
+    "height": 114,
+    "page": 91,
+    "src": "/handbook/alaska/litter-truck-loads.png",
+    "width": 662
+  },
+  "littering-penalty": {
+    "height": 167,
+    "page": 91,
+    "src": "/handbook/alaska/littering-penalty.png",
+    "width": 756
+  },
+  "low-beam-fog": {
+    "height": 114,
+    "page": 67,
+    "src": "/handbook/alaska/low-beam-fog.png",
+    "width": 595
+  },
+  "major-roads-tires": {
+    "height": 135,
+    "page": 68,
+    "src": "/handbook/alaska/major-roads-tires.png",
+    "width": 721
+  },
+  "manual-not-in-test": {
+    "height": 88,
+    "page": 4,
+    "src": "/handbook/alaska/manual-not-in-test.png",
+    "width": 756
+  },
+  "markings-arrow-lane": {
+    "height": 196,
+    "page": 61,
+    "src": "/handbook/alaska/markings-arrow-lane.png",
+    "width": 575
+  },
+  "markings-centre-lane-not-driving": {
+    "height": 166,
+    "page": 60,
+    "src": "/handbook/alaska/markings-centre-lane-not-driving.png",
+    "width": 301
+  },
+  "markings-dashed-permissive": {
+    "height": 134,
+    "page": 59,
+    "src": "/handbook/alaska/markings-dashed-permissive.png",
+    "width": 740
+  },
+  "markings-divided-roadways": {
+    "height": 191,
+    "page": 60,
+    "src": "/handbook/alaska/markings-divided-roadways.png",
+    "width": 596
+  },
+  "markings-force-of-law": {
+    "height": 134,
+    "page": 59,
+    "src": "/handbook/alaska/markings-force-of-law.png",
+    "width": 730
+  },
+  "markings-legends": {
+    "height": 197,
+    "page": 61,
+    "src": "/handbook/alaska/markings-legends.png",
+    "width": 584
+  },
+  "markings-no-shoulder": {
+    "height": 186,
+    "page": 59,
+    "src": "/handbook/alaska/markings-no-shoulder.png",
+    "width": 756
+  },
+  "markings-purpose": {
+    "height": 188,
+    "page": 59,
+    "src": "/handbook/alaska/markings-purpose.png",
+    "width": 756
+  },
+  "markings-restricted-lane": {
+    "height": 220,
+    "page": 60,
+    "src": "/handbook/alaska/markings-restricted-lane.png",
+    "width": 265
+  },
+  "markings-reversible-centre": {
+    "height": 241,
+    "page": 60,
+    "src": "/handbook/alaska/markings-reversible-centre.png",
+    "width": 255
+  },
+  "markings-shared-centre-lane": {
+    "height": 191,
+    "page": 60,
+    "src": "/handbook/alaska/markings-shared-centre-lane.png",
+    "width": 301
+  },
+  "markings-single-solid-yellow": {
+    "height": 135,
+    "page": 61,
+    "src": "/handbook/alaska/markings-single-solid-yellow.png",
+    "width": 582
+  },
+  "markings-stop-lines": {
+    "height": 155,
+    "page": 61,
+    "src": "/handbook/alaska/markings-stop-lines.png",
+    "width": 579
+  },
+  "markings-white-dashed": {
+    "height": 156,
+    "page": 61,
+    "src": "/handbook/alaska/markings-white-dashed.png",
+    "width": 564
+  },
+  "markings-white-edge": {
+    "height": 157,
+    "page": 61,
+    "src": "/handbook/alaska/markings-white-edge.png",
+    "width": 564
+  },
+  "markings-white-solid": {
+    "height": 135,
+    "page": 61,
+    "src": "/handbook/alaska/markings-white-solid.png",
+    "width": 564
+  },
+  "markings-yellow-dashed": {
+    "height": 135,
+    "page": 61,
+    "src": "/handbook/alaska/markings-yellow-dashed.png",
+    "width": 564
+  },
+  "markings-yellow-solid": {
+    "height": 156,
+    "page": 61,
+    "src": "/handbook/alaska/markings-yellow-solid.png",
+    "width": 564
+  },
+  "minor-after-consuming": {
+    "height": 176,
+    "page": 20,
+    "src": "/handbook/alaska/minor-after-consuming.png",
+    "width": 748
+  },
+  "minor-any-quantity": {
+    "height": 155,
+    "page": 20,
+    "src": "/handbook/alaska/minor-any-quantity.png",
+    "width": 748
+  },
+  "minor-consuming-illegal": {
+    "height": 114,
+    "page": 20,
+    "src": "/handbook/alaska/minor-consuming-illegal.png",
+    "width": 748
+  },
+  "minor-court-penalty": {
+    "height": 155,
+    "page": 20,
+    "src": "/handbook/alaska/minor-court-penalty.png",
+    "width": 756
+  },
+  "minor-revocation-not-guilty": {
+    "height": 135,
+    "page": 20,
+    "src": "/handbook/alaska/minor-revocation-not-guilty.png",
+    "width": 748
+  },
+  "minor-revocation-periods": {
+    "height": 114,
+    "page": 20,
+    "src": "/handbook/alaska/minor-revocation-periods.png",
+    "width": 615
+  },
+  "motor-cycle-headlamp-speed": {
+    "height": 204,
+    "page": 34,
+    "src": "/handbook/alaska/motor-cycle-headlamp-speed.png",
+    "width": 756
+  },
+  "motorcycle-crosswinds": {
+    "height": 134,
+    "page": 52,
+    "src": "/handbook/alaska/motorcycle-crosswinds.png",
+    "width": 756
+  },
+  "motorcycle-fault": {
+    "height": 114,
+    "page": 51,
+    "src": "/handbook/alaska/motorcycle-fault.png",
+    "width": 756
+  },
+  "motorcycle-four-second": {
+    "height": 135,
+    "page": 52,
+    "src": "/handbook/alaska/motorcycle-four-second.png",
+    "width": 756
+  },
+  "motorcycle-full-lane": {
+    "height": 134,
+    "page": 52,
+    "src": "/handbook/alaska/motorcycle-full-lane.png",
+    "width": 756
+  },
+  "motorcycle-grated-bridge": {
+    "height": 156,
+    "page": 52,
+    "src": "/handbook/alaska/motorcycle-grated-bridge.png",
+    "width": 756
+  },
+  "motorcycle-left-turn": {
+    "height": 197,
+    "page": 51,
+    "src": "/handbook/alaska/motorcycle-left-turn.png",
+    "width": 756
+  },
+  "motorcycle-never-share-lane": {
+    "height": 199,
+    "page": 52,
+    "src": "/handbook/alaska/motorcycle-never-share-lane.png",
+    "width": 756
+  },
+  "motorcycle-same-rights": {
+    "height": 113,
+    "page": 51,
+    "src": "/handbook/alaska/motorcycle-same-rights.png",
+    "width": 756
+  },
+  "motorcycle-share-deaths": {
+    "height": 134,
+    "page": 51,
+    "src": "/handbook/alaska/motorcycle-share-deaths.png",
+    "width": 756
+  },
+  "motorcycle-signal-not-cancel": {
+    "height": 120,
+    "page": 52,
+    "src": "/handbook/alaska/motorcycle-signal-not-cancel.png",
+    "width": 756
+  },
+  "motorcycle-wet-roads": {
+    "height": 198,
+    "page": 52,
+    "src": "/handbook/alaska/motorcycle-wet-roads.png",
+    "width": 756
+  },
+  "muffler": {
+    "height": 135,
+    "page": 81,
+    "src": "/handbook/alaska/muffler.png",
+    "width": 697
+  },
+  "muffler-cutout": {
+    "height": 135,
+    "page": 81,
+    "src": "/handbook/alaska/muffler-cutout.png",
+    "width": 697
+  },
+  "never-pass-stopped-at-crosswalk": {
+    "height": 147,
+    "page": 48,
+    "src": "/handbook/alaska/never-pass-stopped-at-crosswalk.png",
+    "width": 756
+  },
+  "night-fatal-rate": {
+    "height": 134,
+    "page": 66,
+    "src": "/handbook/alaska/night-fatal-rate.png",
+    "width": 756
+  },
+  "night-flashlight-flares": {
+    "height": 114,
+    "page": 66,
+    "src": "/handbook/alaska/night-flashlight-flares.png",
+    "width": 756
+  },
+  "night-no-sunglasses": {
+    "height": 113,
+    "page": 66,
+    "src": "/handbook/alaska/night-no-sunglasses.png",
+    "width": 756
+  },
+  "night-off-road-lights": {
+    "height": 134,
+    "page": 66,
+    "src": "/handbook/alaska/night-off-road-lights.png",
+    "width": 756
+  },
+  "night-quick-glances": {
+    "height": 114,
+    "page": 67,
+    "src": "/handbook/alaska/night-quick-glances.png",
+    "width": 563
+  },
+  "night-tint": {
+    "height": 134,
+    "page": 66,
+    "src": "/handbook/alaska/night-tint.png",
+    "width": 756
+  },
+  "no-pass-100-feet": {
+    "height": 158,
+    "page": 42,
+    "src": "/handbook/alaska/no-pass-100-feet.png",
+    "width": 756
+  },
+  "no-pass-center-lane": {
+    "height": 134,
+    "page": 42,
+    "src": "/handbook/alaska/no-pass-center-lane.png",
+    "width": 756
+  },
+  "no-pass-hill-curve": {
+    "height": 113,
+    "page": 42,
+    "src": "/handbook/alaska/no-pass-hill-curve.png",
+    "width": 756
+  },
+  "no-pass-school-bus": {
+    "height": 155,
+    "page": 42,
+    "src": "/handbook/alaska/no-pass-school-bus.png",
+    "width": 756
+  },
+  "no-pass-shoulder": {
+    "height": 113,
+    "page": 42,
+    "src": "/handbook/alaska/no-pass-shoulder.png",
+    "width": 756
+  },
+  "no-pass-solid-yellow": {
+    "height": 113,
+    "page": 42,
+    "src": "/handbook/alaska/no-pass-solid-yellow.png",
+    "width": 756
+  },
+  "no-pass-speed-up": {
+    "height": 113,
+    "page": 42,
+    "src": "/handbook/alaska/no-pass-speed-up.png",
+    "width": 756
+  },
+  "no-pass-zone-end": {
+    "height": 135,
+    "page": 42,
+    "src": "/handbook/alaska/no-pass-zone-end.png",
+    "width": 756
+  },
+  "no-riding-brakes": {
+    "height": 135,
+    "page": 86,
+    "src": "/handbook/alaska/no-riding-brakes.png",
+    "width": 728
+  },
+  "nonresident-90-days": {
+    "height": 154,
+    "page": 6,
+    "src": "/handbook/alaska/nonresident-90-days.png",
+    "width": 756
+  },
+  "obstruction-view": {
+    "height": 131,
+    "page": 31,
+    "src": "/handbook/alaska/obstruction-view.png",
+    "width": 696
+  },
+  "officer-overrides": {
+    "height": 157,
+    "page": 57,
+    "src": "/handbook/alaska/officer-overrides.png",
+    "width": 611
+  },
+  "orange-flags-hazard": {
+    "height": 192,
+    "page": 31,
+    "src": "/handbook/alaska/orange-flags-hazard.png",
+    "width": 714
+  },
+  "organ-donation": {
+    "height": 135,
+    "page": 13,
+    "src": "/handbook/alaska/organ-donation.png",
+    "width": 756
+  },
+  "parallel-park-steps": {
+    "height": 176,
+    "page": 74,
+    "src": "/handbook/alaska/parallel-park-steps.png",
+    "width": 200
+  },
+  "parental-consent-liability": {
+    "height": 157,
+    "page": 7,
+    "src": "/handbook/alaska/parental-consent-liability.png",
+    "width": 756
+  },
+  "parental-consent-required": {
+    "height": 136,
+    "page": 7,
+    "src": "/handbook/alaska/parental-consent-required.png",
+    "width": 756
+  },
+  "parking-12-inches": {
+    "height": 113,
+    "page": 74,
+    "src": "/handbook/alaska/parking-12-inches.png",
+    "width": 756
+  },
+  "parking-500-fire-apparatus": {
+    "height": 137,
+    "page": 74,
+    "src": "/handbook/alaska/parking-500-fire-apparatus.png",
+    "width": 756
+  },
+  "parking-distances": {
+    "height": 226,
+    "page": 74,
+    "src": "/handbook/alaska/parking-distances.png",
+    "width": 756
+  },
+  "parking-double-parking": {
+    "height": 114,
+    "page": 74,
+    "src": "/handbook/alaska/parking-double-parking.png",
+    "width": 756
+  },
+  "parking-hill-wheels": {
+    "height": 113,
+    "page": 74,
+    "src": "/handbook/alaska/parking-hill-wheels.png",
+    "width": 756
+  },
+  "parking-keys": {
+    "height": 114,
+    "page": 74,
+    "src": "/handbook/alaska/parking-keys.png",
+    "width": 756
+  },
+  "parking-leaving-space": {
+    "height": 114,
+    "page": 74,
+    "src": "/handbook/alaska/parking-leaving-space.png",
+    "width": 756
+  },
+  "parking-lights-not-moving": {
+    "height": 135,
+    "page": 67,
+    "src": "/handbook/alaska/parking-lights-not-moving.png",
+    "width": 756
+  },
+  "parking-no-parking-zones": {
+    "height": 135,
+    "page": 74,
+    "src": "/handbook/alaska/parking-no-parking-zones.png",
+    "width": 756
+  },
+  "parking-outside-city": {
+    "height": 157,
+    "page": 74,
+    "src": "/handbook/alaska/parking-outside-city.png",
+    "width": 756
+  },
+  "passing-cancel-signal": {
+    "height": 114,
+    "page": 41,
+    "src": "/handbook/alaska/passing-cancel-signal.png",
+    "width": 692
+  },
+  "passing-check-mirror": {
+    "height": 309,
+    "page": 41,
+    "src": "/handbook/alaska/passing-check-mirror.png",
+    "width": 410
+  },
+  "passing-horn": {
+    "height": 114,
+    "page": 41,
+    "src": "/handbook/alaska/passing-horn.png",
+    "width": 692
+  },
+  "passing-no-swing-out": {
+    "height": 135,
+    "page": 41,
+    "src": "/handbook/alaska/passing-no-swing-out.png",
+    "width": 692
+  },
+  "passing-not-a-game": {
+    "height": 135,
+    "page": 41,
+    "src": "/handbook/alaska/passing-not-a-game.png",
+    "width": 692
+  },
+  "passing-return-safely": {
+    "height": 136,
+    "page": 41,
+    "src": "/handbook/alaska/passing-return-safely.png",
+    "width": 692
+  },
+  "passing-stay-back": {
+    "height": 134,
+    "page": 41,
+    "src": "/handbook/alaska/passing-stay-back.png",
+    "width": 692
+  },
+  "ped-countdown": {
+    "height": 156,
+    "page": 57,
+    "src": "/handbook/alaska/ped-countdown.png",
+    "width": 610
+  },
+  "ped-flashing-hand": {
+    "height": 158,
+    "page": 57,
+    "src": "/handbook/alaska/ped-flashing-hand.png",
+    "width": 610
+  },
+  "ped-steady-hand": {
+    "height": 138,
+    "page": 57,
+    "src": "/handbook/alaska/ped-steady-hand.png",
+    "width": 596
+  },
+  "ped-walk": {
+    "height": 178,
+    "page": 58,
+    "src": "/handbook/alaska/ped-walk.png",
+    "width": 626
+  },
+  "pedestrian-eye-contact": {
+    "height": 121,
+    "page": 48,
+    "src": "/handbook/alaska/pedestrian-eye-contact.png",
+    "width": 756
+  },
+  "pedestrian-light-clothing": {
+    "height": 113,
+    "page": 49,
+    "src": "/handbook/alaska/pedestrian-light-clothing.png",
+    "width": 738
+  },
+  "pedestrian-stale-green": {
+    "height": 134,
+    "page": 49,
+    "src": "/handbook/alaska/pedestrian-stale-green.png",
+    "width": 738
+  },
+  "pedestrian-survival-figures": {
+    "height": 229,
+    "page": 48,
+    "src": "/handbook/alaska/pedestrian-survival-figures.png",
+    "width": 756
+  },
+  "pedestrian-survival-speed": {
+    "height": 175,
+    "page": 48,
+    "src": "/handbook/alaska/pedestrian-survival-speed.png",
+    "width": 756
+  },
+  "pedestrian-walk-facing": {
+    "height": 113,
+    "page": 49,
+    "src": "/handbook/alaska/pedestrian-walk-facing.png",
+    "width": 738
+  },
+  "permit-age-14": {
+    "height": 136,
+    "page": 8,
+    "src": "/handbook/alaska/permit-age-14.png",
+    "width": 756
+  },
+  "permit-classes": {
+    "height": 136,
+    "page": 6,
+    "src": "/handbook/alaska/permit-classes.png",
+    "width": 756
+  },
+  "permit-required-to-learn": {
+    "height": 113,
+    "page": 8,
+    "src": "/handbook/alaska/permit-required-to-learn.png",
+    "width": 756
+  },
+  "permit-requirements": {
+    "height": 159,
+    "page": 8,
+    "src": "/handbook/alaska/permit-requirements.png",
+    "width": 756
+  },
+  "permit-six-months": {
+    "height": 134,
+    "page": 8,
+    "src": "/handbook/alaska/permit-six-months.png",
+    "width": 756
+  },
+  "permit-supervisor": {
+    "height": 158,
+    "page": 8,
+    "src": "/handbook/alaska/permit-supervisor.png",
+    "width": 756
+  },
+  "permit-supervisor-seat": {
+    "height": 159,
+    "page": 8,
+    "src": "/handbook/alaska/permit-supervisor-seat.png",
+    "width": 756
+  },
+  "permit-two-years": {
+    "height": 137,
+    "page": 8,
+    "src": "/handbook/alaska/permit-two-years.png",
+    "width": 756
+  },
+  "photo-head-coverings": {
+    "height": 135,
+    "page": 13,
+    "src": "/handbook/alaska/photo-head-coverings.png",
+    "width": 756
+  },
+  "points-ddc-credit": {
+    "height": 135,
+    "page": 15,
+    "src": "/handbook/alaska/points-ddc-credit.png",
+    "width": 756
+  },
+  "points-no-work-licence": {
+    "height": 134,
+    "page": 15,
+    "src": "/handbook/alaska/points-no-work-licence.png",
+    "width": 756
+  },
+  "points-out-of-state": {
+    "height": 135,
+    "page": 16,
+    "src": "/handbook/alaska/points-out-of-state.png",
+    "width": 756
+  },
+  "points-provisional-course": {
+    "height": 155,
+    "page": 15,
+    "src": "/handbook/alaska/points-provisional-course.png",
+    "width": 756
+  },
+  "points-range": {
+    "height": 134,
+    "page": 15,
+    "src": "/handbook/alaska/points-range.png",
+    "width": 756
+  },
+  "points-speeding-20": {
+    "height": 142,
+    "page": 16,
+    "src": "/handbook/alaska/points-speeding-20.png",
+    "width": 749
+  },
+  "points-suspension-threshold": {
+    "height": 134,
+    "page": 15,
+    "src": "/handbook/alaska/points-suspension-threshold.png",
+    "width": 756
+  },
+  "points-warning-letter": {
+    "height": 134,
+    "page": 15,
+    "src": "/handbook/alaska/points-warning-letter.png",
+    "width": 756
+  },
+  "police-documents": {
+    "height": 162,
+    "page": 77,
+    "src": "/handbook/alaska/police-documents.png",
+    "width": 756
+  },
+  "police-not-on-curve": {
+    "height": 137,
+    "page": 77,
+    "src": "/handbook/alaska/police-not-on-curve.png",
+    "width": 731
+  },
+  "police-pull-right": {
+    "height": 161,
+    "page": 77,
+    "src": "/handbook/alaska/police-pull-right.png",
+    "width": 756
+  },
+  "police-stay-in-vehicle": {
+    "height": 114,
+    "page": 77,
+    "src": "/handbook/alaska/police-stay-in-vehicle.png",
+    "width": 731
+  },
+  "police-wait-for-documents": {
+    "height": 113,
+    "page": 77,
+    "src": "/handbook/alaska/police-wait-for-documents.png",
+    "width": 731
+  },
+  "preliminary-breath-test": {
+    "height": 155,
+    "page": 18,
+    "src": "/handbook/alaska/preliminary-breath-test.png",
+    "width": 756
+  },
+  "prior-convictions-15-years": {
+    "height": 135,
+    "page": 20,
+    "src": "/handbook/alaska/prior-convictions-15-years.png",
+    "width": 747
+  },
+  "provisional-40-hours": {
+    "height": 187,
+    "page": 9,
+    "src": "/handbook/alaska/provisional-40-hours.png",
+    "width": 756
+  },
+  "provisional-curfew": {
+    "height": 163,
+    "page": 10,
+    "src": "/handbook/alaska/provisional-curfew.png",
+    "width": 756
+  },
+  "provisional-graduate": {
+    "height": 142,
+    "page": 10,
+    "src": "/handbook/alaska/provisional-graduate.png",
+    "width": 756
+  },
+  "provisional-off-system": {
+    "height": 156,
+    "page": 10,
+    "src": "/handbook/alaska/provisional-off-system.png",
+    "width": 756
+  },
+  "provisional-passengers": {
+    "height": 114,
+    "page": 10,
+    "src": "/handbook/alaska/provisional-passengers.png",
+    "width": 756
+  },
+  "provisional-purpose": {
+    "height": 138,
+    "page": 9,
+    "src": "/handbook/alaska/provisional-purpose.png",
+    "width": 756
+  },
+  "provisional-removal": {
+    "height": 185,
+    "page": 10,
+    "src": "/handbook/alaska/provisional-removal.png",
+    "width": 756
+  },
+  "provisional-work-exception": {
+    "height": 162,
+    "page": 10,
+    "src": "/handbook/alaska/provisional-work-exception.png",
+    "width": 756
+  },
+  "railroad-1500-feet": {
+    "height": 181,
+    "page": 63,
+    "src": "/handbook/alaska/railroad-1500-feet.png",
+    "width": 655
+  },
+  "railroad-20-seconds": {
+    "height": 185,
+    "page": 64,
+    "src": "/handbook/alaska/railroad-20-seconds.png",
+    "width": 756
+  },
+  "railroad-buses-trucks": {
+    "height": 179,
+    "page": 63,
+    "src": "/handbook/alaska/railroad-buses-trucks.png",
+    "width": 756
+  },
+  "railroad-ens": {
+    "height": 185,
+    "page": 64,
+    "src": "/handbook/alaska/railroad-ens.png",
+    "width": 756
+  },
+  "railroad-ens-sign": {
+    "height": 155,
+    "page": 64,
+    "src": "/handbook/alaska/railroad-ens-sign.png",
+    "width": 756
+  },
+  "railroad-get-out": {
+    "height": 140,
+    "page": 64,
+    "src": "/handbook/alaska/railroad-get-out.png",
+    "width": 756
+  },
+  "railroad-never-around-gates": {
+    "height": 136,
+    "page": 63,
+    "src": "/handbook/alaska/railroad-never-around-gates.png",
+    "width": 756
+  },
+  "railroad-never-shift": {
+    "height": 157,
+    "page": 63,
+    "src": "/handbook/alaska/railroad-never-shift.png",
+    "width": 756
+  },
+  "railroad-never-trapped": {
+    "height": 165,
+    "page": 63,
+    "src": "/handbook/alaska/railroad-never-trapped.png",
+    "width": 756
+  },
+  "railroad-second-train": {
+    "height": 159,
+    "page": 63,
+    "src": "/handbook/alaska/railroad-second-train.png",
+    "width": 756
+  },
+  "reaction-distance": {
+    "height": 155,
+    "page": 86,
+    "src": "/handbook/alaska/reaction-distance.png",
+    "width": 743
+  },
+  "reckless-driving": {
+    "height": 134,
+    "page": 34,
+    "src": "/handbook/alaska/reckless-driving.png",
+    "width": 756
+  },
+  "red-arrow": {
+    "height": 142,
+    "page": 55,
+    "src": "/handbook/alaska/red-arrow.png",
+    "width": 756
+  },
+  "red-arrow-no-turns": {
+    "height": 136,
+    "page": 55,
+    "src": "/handbook/alaska/red-arrow-no-turns.png",
+    "width": 756
+  },
+  "red-ball": {
+    "height": 187,
+    "page": 55,
+    "src": "/handbook/alaska/red-ball.png",
+    "width": 756
+  },
+  "red-ball-right-turn": {
+    "height": 159,
+    "page": 55,
+    "src": "/handbook/alaska/red-ball-right-turn.png",
+    "width": 756
+  },
+  "red-x": {
+    "height": 181,
+    "page": 58,
+    "src": "/handbook/alaska/red-x.png",
+    "width": 729
+  },
+  "refusal-misdemeanor-felony": {
+    "height": 134,
+    "page": 18,
+    "src": "/handbook/alaska/refusal-misdemeanor-felony.png",
+    "width": 756
+  },
+  "refusal-no-work-licence": {
+    "height": 134,
+    "page": 18,
+    "src": "/handbook/alaska/refusal-no-work-licence.png",
+    "width": 756
+  },
+  "refusal-two-charges": {
+    "height": 134,
+    "page": 18,
+    "src": "/handbook/alaska/refusal-two-charges.png",
+    "width": 756
+  },
+  "revocation-definition": {
+    "height": 191,
+    "page": 17,
+    "src": "/handbook/alaska/revocation-definition.png",
+    "width": 756
+  },
+  "revoke-court-list": {
+    "height": 114,
+    "page": 17,
+    "src": "/handbook/alaska/revoke-court-list.png",
+    "width": 756
+  },
+  "right-turn-pedestrians": {
+    "height": 138,
+    "page": 37,
+    "src": "/handbook/alaska/right-turn-pedestrians.png",
+    "width": 458
+  },
+  "road-rage": {
+    "height": 153,
+    "page": 94,
+    "src": "/handbook/alaska/road-rage.png",
+    "width": 734
+  },
+  "roundabout-definition": {
+    "height": 281,
+    "page": 39,
+    "src": "/handbook/alaska/roundabout-definition.png",
+    "width": 370
+  },
+  "roundabout-do-not-stop": {
+    "height": 136,
+    "page": 39,
+    "src": "/handbook/alaska/roundabout-do-not-stop.png",
+    "width": 756
+  },
+  "roundabout-enter-right": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/alaska/roundabout-enter-right.png",
+    "width": 756
+  },
+  "roundabout-miss-exit": {
+    "height": 114,
+    "page": 39,
+    "src": "/handbook/alaska/roundabout-miss-exit.png",
+    "width": 756
+  },
+  "roundabout-speed": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/alaska/roundabout-speed.png",
+    "width": 756
+  },
+  "roundabout-yield-in-circle": {
+    "height": 137,
+    "page": 39,
+    "src": "/handbook/alaska/roundabout-yield-in-circle.png",
+    "width": 756
+  },
+  "roundabout-yield-pedestrians": {
+    "height": 137,
+    "page": 39,
+    "src": "/handbook/alaska/roundabout-yield-pedestrians.png",
+    "width": 756
+  },
+  "row-do-not-assume": {
+    "height": 159,
+    "page": 38,
+    "src": "/handbook/alaska/row-do-not-assume.png",
+    "width": 756
+  },
+  "row-non-motorized": {
+    "height": 137,
+    "page": 38,
+    "src": "/handbook/alaska/row-non-motorized.png",
+    "width": 756
+  },
+  "row-yield-to-right": {
+    "height": 158,
+    "page": 38,
+    "src": "/handbook/alaska/row-yield-to-right.png",
+    "width": 756
+  },
+  "sign-caribou": {
+    "height": 124,
+    "page": 46,
+    "src": "/handbook/alaska/sign-caribou.png",
+    "width": 515
+  },
+  "sign-construction": {
+    "height": 194,
+    "page": 44,
+    "src": "/handbook/alaska/sign-construction.png",
+    "width": 756
+  },
+  "sign-construction-500": {
+    "height": 141,
+    "page": 46,
+    "src": "/handbook/alaska/sign-construction-500.png",
+    "width": 382
+  },
+  "sign-deer": {
+    "height": 124,
+    "page": 46,
+    "src": "/handbook/alaska/sign-deer.png",
+    "width": 214
+  },
+  "sign-do-not-enter": {
+    "height": 135,
+    "page": 44,
+    "src": "/handbook/alaska/sign-do-not-enter.png",
+    "width": 756
+  },
+  "sign-flagger": {
+    "height": 124,
+    "page": 46,
+    "src": "/handbook/alaska/sign-flagger.png",
+    "width": 174
+  },
+  "sign-red-circle-slash": {
+    "height": 124,
+    "page": 45,
+    "src": "/handbook/alaska/sign-red-circle-slash.png",
+    "width": 389
+  },
+  "sign-school": {
+    "height": 135,
+    "page": 44,
+    "src": "/handbook/alaska/sign-school.png",
+    "width": 756
+  },
+  "sign-school-crosswalk-20": {
+    "height": 140,
+    "page": 45,
+    "src": "/handbook/alaska/sign-school-crosswalk-20.png",
+    "width": 208
+  },
+  "sign-slippery": {
+    "height": 140,
+    "page": 45,
+    "src": "/handbook/alaska/sign-slippery.png",
+    "width": 387
+  },
+  "sign-warning-slow": {
+    "height": 134,
+    "page": 44,
+    "src": "/handbook/alaska/sign-warning-slow.png",
+    "width": 756
+  },
+  "signal-100-feet": {
+    "height": 136,
+    "page": 35,
+    "src": "/handbook/alaska/signal-100-feet.png",
+    "width": 756
+  },
+  "signal-before-slowing": {
+    "height": 155,
+    "page": 35,
+    "src": "/handbook/alaska/signal-before-slowing.png",
+    "width": 756
+  },
+  "signal-bicyclists": {
+    "height": 114,
+    "page": 35,
+    "src": "/handbook/alaska/signal-bicyclists.png",
+    "width": 548
+  },
+  "signal-cancel": {
+    "height": 136,
+    "page": 35,
+    "src": "/handbook/alaska/signal-cancel.png",
+    "width": 756
+  },
+  "signal-greater-distance": {
+    "height": 159,
+    "page": 35,
+    "src": "/handbook/alaska/signal-greater-distance.png",
+    "width": 756
+  },
+  "signal-hand-when": {
+    "height": 137,
+    "page": 35,
+    "src": "/handbook/alaska/signal-hand-when.png",
+    "width": 756
+  },
+  "signal-well-in-advance": {
+    "height": 134,
+    "page": 32,
+    "src": "/handbook/alaska/signal-well-in-advance.png",
+    "width": 756
+  },
+  "signs-purpose": {
+    "height": 157,
+    "page": 43,
+    "src": "/handbook/alaska/signs-purpose.png",
+    "width": 710
+  },
+  "signs-stare-driver": {
+    "height": 134,
+    "page": 43,
+    "src": "/handbook/alaska/signs-stare-driver.png",
+    "width": 733
+  },
+  "skid-bridges-first": {
+    "height": 136,
+    "page": 73,
+    "src": "/handbook/alaska/skid-bridges-first.png",
+    "width": 748
+  },
+  "skid-do-not-lock": {
+    "height": 140,
+    "page": 73,
+    "src": "/handbook/alaska/skid-do-not-lock.png",
+    "width": 756
+  },
+  "skid-fwd-awd": {
+    "height": 137,
+    "page": 73,
+    "src": "/handbook/alaska/skid-fwd-awd.png",
+    "width": 756
+  },
+  "skid-no-overcorrect": {
+    "height": 114,
+    "page": 73,
+    "src": "/handbook/alaska/skid-no-overcorrect.png",
+    "width": 748
+  },
+  "skid-prevention": {
+    "height": 114,
+    "page": 73,
+    "src": "/handbook/alaska/skid-prevention.png",
+    "width": 464
+  },
+  "skid-recovery": {
+    "height": 148,
+    "page": 73,
+    "src": "/handbook/alaska/skid-recovery.png",
+    "width": 468
+  },
+  "skid-slow-in-advance": {
+    "height": 114,
+    "page": 73,
+    "src": "/handbook/alaska/skid-slow-in-advance.png",
+    "width": 737
+  },
+  "skid-thawing": {
+    "height": 114,
+    "page": 73,
+    "src": "/handbook/alaska/skid-thawing.png",
+    "width": 676
+  },
+  "slow-down-entering-crosswalk": {
+    "height": 147,
+    "page": 48,
+    "src": "/handbook/alaska/slow-down-entering-crosswalk.png",
+    "width": 756
+  },
+  "slow-near-curve": {
+    "height": 134,
+    "page": 86,
+    "src": "/handbook/alaska/slow-near-curve.png",
+    "width": 728
+  },
+  "slow-speed": {
+    "height": 134,
+    "page": 34,
+    "src": "/handbook/alaska/slow-speed.png",
+    "width": 756
+  },
+  "smv-day": {
+    "height": 268,
+    "page": 54,
+    "src": "/handbook/alaska/smv-day.png",
+    "width": 399
+  },
+  "smv-emblem": {
+    "height": 242,
+    "page": 54,
+    "src": "/handbook/alaska/smv-emblem.png",
+    "width": 756
+  },
+  "smv-night": {
+    "height": 242,
+    "page": 54,
+    "src": "/handbook/alaska/smv-night.png",
+    "width": 399
+  },
+  "speed-65-posted": {
+    "height": 160,
+    "page": 34,
+    "src": "/handbook/alaska/speed-65-posted.png",
+    "width": 756
+  },
+  "speed-conditions": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/alaska/speed-conditions.png",
+    "width": 756
+  },
+  "speed-limitation-law": {
+    "height": 192,
+    "page": 34,
+    "src": "/handbook/alaska/speed-limitation-law.png",
+    "width": 756
+  },
+  "speed-limits-table": {
+    "height": 134,
+    "page": 34,
+    "src": "/handbook/alaska/speed-limits-table.png",
+    "width": 744
+  },
+  "speed-limits-unposted": {
+    "height": 134,
+    "page": 34,
+    "src": "/handbook/alaska/speed-limits-unposted.png",
+    "width": 744
+  },
+  "speed-monotony": {
+    "height": 160,
+    "page": 68,
+    "src": "/handbook/alaska/speed-monotony.png",
+    "width": 749
+  },
+  "speed-not-required-maximum": {
+    "height": 169,
+    "page": 68,
+    "src": "/handbook/alaska/speed-not-required-maximum.png",
+    "width": 749
+  },
+  "sr22": {
+    "height": 196,
+    "page": 17,
+    "src": "/handbook/alaska/sr22.png",
+    "width": 756
+  },
+  "stop-entering-highway": {
+    "height": 132,
+    "page": 41,
+    "src": "/handbook/alaska/stop-entering-highway.png",
+    "width": 675
+  },
+  "stop-flashing-red": {
+    "height": 130,
+    "page": 41,
+    "src": "/handbook/alaska/stop-flashing-red.png",
+    "width": 675
+  },
+  "stop-for-police": {
+    "height": 138,
+    "page": 77,
+    "src": "/handbook/alaska/stop-for-police.png",
+    "width": 756
+  },
+  "stop-railroad-gate": {
+    "height": 115,
+    "page": 41,
+    "src": "/handbook/alaska/stop-railroad-gate.png",
+    "width": 675
+  },
+  "stop-school-bus": {
+    "height": 131,
+    "page": 41,
+    "src": "/handbook/alaska/stop-school-bus.png",
+    "width": 675
+  },
+  "stop-sign-where": {
+    "height": 151,
+    "page": 41,
+    "src": "/handbook/alaska/stop-sign-where.png",
+    "width": 675
+  },
+  "stop-signals-not-working": {
+    "height": 111,
+    "page": 41,
+    "src": "/handbook/alaska/stop-signals-not-working.png",
+    "width": 675
+  },
+  "stop-well-back-crosswalk": {
+    "height": 148,
+    "page": 48,
+    "src": "/handbook/alaska/stop-well-back-crosswalk.png",
+    "width": 756
+  },
+  "stop-yield-sign": {
+    "height": 131,
+    "page": 41,
+    "src": "/handbook/alaska/stop-yield-sign.png",
+    "width": 675
+  },
+  "suggested-safety-equipment": {
+    "height": 166,
+    "page": 81,
+    "src": "/handbook/alaska/suggested-safety-equipment.png",
+    "width": 685
+  },
+  "suspension-definition": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/alaska/suspension-definition.png",
+    "width": 756
+  },
+  "suspension-turn-in": {
+    "height": 114,
+    "page": 17,
+    "src": "/handbook/alaska/suspension-turn-in.png",
+    "width": 756
+  },
+  "texting-illegal": {
+    "height": 137,
+    "page": 29,
+    "src": "/handbook/alaska/texting-illegal.png",
+    "width": 756
+  },
+  "three-point-turn": {
+    "height": 114,
+    "page": 37,
+    "src": "/handbook/alaska/three-point-turn.png",
+    "width": 756
+  },
+  "three-point-yield": {
+    "height": 154,
+    "page": 37,
+    "src": "/handbook/alaska/three-point-yield.png",
+    "width": 756
+  },
+  "tire-pressure": {
+    "height": 134,
+    "page": 87,
+    "src": "/handbook/alaska/tire-pressure.png",
+    "width": 748
+  },
+  "tire-tread-check": {
+    "height": 162,
+    "page": 89,
+    "src": "/handbook/alaska/tire-tread-check.png",
+    "width": 747
+  },
+  "tire-tread-penny": {
+    "height": 155,
+    "page": 87,
+    "src": "/handbook/alaska/tire-tread-penny.png",
+    "width": 748
+  },
+  "tired-driving": {
+    "height": 113,
+    "page": 94,
+    "src": "/handbook/alaska/tired-driving.png",
+    "width": 717
+  },
+  "towing-triples": {
+    "height": 264,
+    "page": 35,
+    "src": "/handbook/alaska/towing-triples.png",
+    "width": 756
+  },
+  "traffic-safety-corridor": {
+    "height": 162,
+    "page": 34,
+    "src": "/handbook/alaska/traffic-safety-corridor.png",
+    "width": 756
+  },
+  "truck-cut-stopping-distance": {
+    "height": 134,
+    "page": 82,
+    "src": "/handbook/alaska/truck-cut-stopping-distance.png",
+    "width": 488
+  },
+  "truck-deaf-spot": {
+    "height": 135,
+    "page": 69,
+    "src": "/handbook/alaska/truck-deaf-spot.png",
+    "width": 753
+  },
+  "truck-fatalities": {
+    "height": 135,
+    "page": 82,
+    "src": "/handbook/alaska/truck-fatalities.png",
+    "width": 756
+  },
+  "truck-mirrors": {
+    "height": 134,
+    "page": 82,
+    "src": "/handbook/alaska/truck-mirrors.png",
+    "width": 756
+  },
+  "truck-no-zone": {
+    "height": 155,
+    "page": 82,
+    "src": "/handbook/alaska/truck-no-zone.png",
+    "width": 756
+  },
+  "truck-rear-impact": {
+    "height": 89,
+    "page": 83,
+    "src": "/handbook/alaska/truck-rear-impact.png",
+    "width": 756
+  },
+  "truck-squeeze": {
+    "height": 156,
+    "page": 83,
+    "src": "/handbook/alaska/truck-squeeze.png",
+    "width": 756
+  },
+  "truck-stopping-distance": {
+    "height": 155,
+    "page": 82,
+    "src": "/handbook/alaska/truck-stopping-distance.png",
+    "width": 488
+  },
+  "truck-tailgating": {
+    "height": 134,
+    "page": 83,
+    "src": "/handbook/alaska/truck-tailgating.png",
+    "width": 756
+  },
+  "truck-wide-right-turns": {
+    "height": 134,
+    "page": 83,
+    "src": "/handbook/alaska/truck-wide-right-turns.png",
+    "width": 756
+  },
+  "turn-left-two-to-one": {
+    "height": 264,
+    "page": 36,
+    "src": "/handbook/alaska/turn-left-two-to-one.png",
+    "width": 450
+  },
+  "turn-one-to-two": {
+    "height": 135,
+    "page": 36,
+    "src": "/handbook/alaska/turn-one-to-two.png",
+    "width": 460
+  },
+  "turning-around-city": {
+    "height": 171,
+    "page": 79,
+    "src": "/handbook/alaska/turning-around-city.png",
+    "width": 495
+  },
+  "turning-around-highway": {
+    "height": 133,
+    "page": 79,
+    "src": "/handbook/alaska/turning-around-highway.png",
+    "width": 521
+  },
+  "two-second-minimum": {
+    "height": 134,
+    "page": 32,
+    "src": "/handbook/alaska/two-second-minimum.png",
+    "width": 756
+  },
+  "two-second-rule-eco": {
+    "height": 176,
+    "page": 86,
+    "src": "/handbook/alaska/two-second-rule-eco.png",
+    "width": 736
+  },
+  "two-way-left-turn-arrows": {
+    "height": 183,
+    "page": 58,
+    "src": "/handbook/alaska/two-way-left-turn-arrows.png",
+    "width": 574
+  },
+  "uncontrolled-definition": {
+    "height": 158,
+    "page": 38,
+    "src": "/handbook/alaska/uncontrolled-definition.png",
+    "width": 756
+  },
+  "uncontrolled-slow-down": {
+    "height": 113,
+    "page": 38,
+    "src": "/handbook/alaska/uncontrolled-slow-down.png",
+    "width": 756
+  },
+  "unlit-signal-head": {
+    "height": 146,
+    "page": 57,
+    "src": "/handbook/alaska/unlit-signal-head.png",
+    "width": 547
+  },
+  "unlit-signal-report": {
+    "height": 134,
+    "page": 57,
+    "src": "/handbook/alaska/unlit-signal-report.png",
+    "width": 547
+  },
+  "unlit-signal-yield-right": {
+    "height": 156,
+    "page": 57,
+    "src": "/handbook/alaska/unlit-signal-yield-right.png",
+    "width": 547
+  },
+  "unsecured-load": {
+    "height": 114,
+    "page": 91,
+    "src": "/handbook/alaska/unsecured-load.png",
+    "width": 522
+  },
+  "vehicle-fire": {
+    "height": 155,
+    "page": 78,
+    "src": "/handbook/alaska/vehicle-fire.png",
+    "width": 756
+  },
+  "vision-standard": {
+    "height": 114,
+    "page": 10,
+    "src": "/handbook/alaska/vision-standard.png",
+    "width": 756
+  },
+  "vision-test-required": {
+    "height": 133,
+    "page": 10,
+    "src": "/handbook/alaska/vision-test-required.png",
+    "width": 756
+  },
+  "visual-screen-device": {
+    "height": 131,
+    "page": 31,
+    "src": "/handbook/alaska/visual-screen-device.png",
+    "width": 696
+  },
+  "vulnerable-road-users": {
+    "height": 230,
+    "page": 48,
+    "src": "/handbook/alaska/vulnerable-road-users.png",
+    "width": 756
+  },
+  "weather-bald-tires": {
+    "height": 132,
+    "page": 71,
+    "src": "/handbook/alaska/weather-bald-tires.png",
+    "width": 756
+  },
+  "weather-cannot-stop": {
+    "height": 178,
+    "page": 71,
+    "src": "/handbook/alaska/weather-cannot-stop.png",
+    "width": 324
+  },
+  "weather-first-half-hour": {
+    "height": 244,
+    "page": 71,
+    "src": "/handbook/alaska/weather-first-half-hour.png",
+    "width": 324
+  },
+  "weather-full-tank": {
+    "height": 134,
+    "page": 71,
+    "src": "/handbook/alaska/weather-full-tank.png",
+    "width": 756
+  },
+  "weather-stale-green": {
+    "height": 133,
+    "page": 71,
+    "src": "/handbook/alaska/weather-stale-green.png",
+    "width": 756
+  },
+  "weather-stay-back-spatter": {
+    "height": 132,
+    "page": 71,
+    "src": "/handbook/alaska/weather-stay-back-spatter.png",
+    "width": 756
+  },
+  "weather-wipers": {
+    "height": 134,
+    "page": 71,
+    "src": "/handbook/alaska/weather-wipers.png",
+    "width": 756
+  },
+  "wet-brakes-dry": {
+    "height": 113,
+    "page": 78,
+    "src": "/handbook/alaska/wet-brakes-dry.png",
+    "width": 595
+  },
+  "wet-icy-longer-distance": {
+    "height": 134,
+    "page": 86,
+    "src": "/handbook/alaska/wet-icy-longer-distance.png",
+    "width": 728
+  },
+  "wheels-off-return": {
+    "height": 134,
+    "page": 79,
+    "src": "/handbook/alaska/wheels-off-return.png",
+    "width": 504
+  },
+  "who-needs-licence": {
+    "height": 110,
+    "page": 6,
+    "src": "/handbook/alaska/who-needs-licence.png",
+    "width": 754
+  },
+  "work-zone-arrow-panels": {
+    "height": 164,
+    "page": 47,
+    "src": "/handbook/alaska/work-zone-arrow-panels.png",
+    "width": 756
+  },
+  "work-zone-devices": {
+    "height": 165,
+    "page": 47,
+    "src": "/handbook/alaska/work-zone-devices.png",
+    "width": 756
+  },
+  "written-reader": {
+    "height": 182,
+    "page": 11,
+    "src": "/handbook/alaska/written-reader.png",
+    "width": 756
+  },
+  "written-retake": {
+    "height": 113,
+    "page": 11,
+    "src": "/handbook/alaska/written-retake.png",
+    "width": 756
+  },
+  "written-scope": {
+    "height": 159,
+    "page": 11,
+    "src": "/handbook/alaska/written-scope.png",
+    "width": 756
+  },
+  "written-who": {
+    "height": 115,
+    "page": 11,
+    "src": "/handbook/alaska/written-who.png",
+    "width": 756
+  },
+  "wrong-lane-to-turn": {
+    "height": 134,
+    "page": 62,
+    "src": "/handbook/alaska/wrong-lane-to-turn.png",
+    "width": 756
+  },
+  "yellow-arrow": {
+    "height": 210,
+    "page": 55,
+    "src": "/handbook/alaska/yellow-arrow.png",
+    "width": 756
+  },
+  "yellow-ball": {
+    "height": 187,
+    "page": 55,
+    "src": "/handbook/alaska/yellow-ball.png",
+    "width": 756
+  },
+  "yellow-ball-entering": {
+    "height": 136,
+    "page": 55,
+    "src": "/handbook/alaska/yellow-ball-entering.png",
+    "width": 756
+  },
+  "yellow-x": {
+    "height": 202,
+    "page": 58,
+    "src": "/handbook/alaska/yellow-x.png",
+    "width": 729
+  },
+  "yield-alley-driveway": {
+    "height": 156,
+    "page": 40,
+    "src": "/handbook/alaska/yield-alley-driveway.png",
+    "width": 755
+  },
+  "yield-green-caught": {
+    "height": 156,
+    "page": 40,
+    "src": "/handbook/alaska/yield-green-caught.png",
+    "width": 755
+  },
+  "yield-hazard-in-intersection": {
+    "height": 135,
+    "page": 40,
+    "src": "/handbook/alaska/yield-hazard-in-intersection.png",
+    "width": 396
+  },
+  "yield-protected-route": {
+    "height": 135,
+    "page": 40,
+    "src": "/handbook/alaska/yield-protected-route.png",
+    "width": 388
+  },
+  "yield-unmarked-crosswalk": {
+    "height": 157,
+    "page": 40,
+    "src": "/handbook/alaska/yield-unmarked-crosswalk.png",
+    "width": 730
+  }
+}

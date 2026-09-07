@@ -415,6 +415,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "montana",
+    "name": "Montana",
+    "code": "MT",
+    "country": "US",
+    "licenceName": "Non-Commercial Learner Permit (NCLP)",
+    "intro": "Montana has no DMV. Driver licensing runs through the Motor Vehicle Division, a division of the Department of Justice, and the written test is what gets you a Non-Commercial Learner Permit - Step 1 of the three-step graduated program. This bank is written from the Revised April 2024 printing of the Montana Driver Manual, with Title 61 of the Montana Code Annotated supplying the numbers the book leaves out and correcting two figures the book has not caught up with, and the MVD's own licensing pages supplying the permit steps.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "nebraska",
     "name": "Nebraska",
     "code": "NE",
@@ -582,4 +593,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 10006;
+export const TOTAL_DRIVING_QUESTIONS = 10201;

@@ -73,7 +73,7 @@ one per wave so the `/ca` side keeps pace. Every bank is built to
 | 6 | Delaware | delaware | queued |
 | 6 | South Dakota | southdakota | queued |
 | 6 | North Dakota | northdakota | queued |
-| 6 | Alaska | alaska | queued |
+| 6 | Alaska | alaska | **built** (2026-09-07, 540 excerpts, 479 snippets) |
 | 6 | Vermont | vermont | queued |
 | 6 | Wyoming | wyoming | queued |
 | 7 | Newfoundland and Labrador | newfoundlandlabrador | queued |
