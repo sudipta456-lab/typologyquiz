@@ -316,6 +316,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "kansas",
+    "name": "Kansas",
+    "code": "KS",
+    "country": "US",
+    "licenceName": "Instruction Permit (Class C or M)",
+    "intro": "Kansas starts younger than almost anywhere: the instruction permit is available at 14, and the knowledge test is what gets you it. The Kansas Department of Revenue's Division of Vehicles writes and administers that test, and it is unusually open about what is on it - the handbook states the format outright, ends every one of its twelve sections with a quiz headed \"These questions may be on the test\", and prints thirteen more sample questions with answers. This bank is written from the February 2022 revision of that handbook, with Chapter 8 of the Kansas Statutes filling the gaps the book leaves.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "kentucky",
     "name": "Kentucky",
     "code": "KY",
@@ -472,4 +483,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 8056;
+export const TOTAL_DRIVING_QUESTIONS = 8251;
