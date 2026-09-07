@@ -59,3 +59,4 @@ tmp/
 
 # Python bytecode from scripts/
 __pycache__/
+scripts/.r2-uploaded-*.txt
