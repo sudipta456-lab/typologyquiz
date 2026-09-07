@@ -404,6 +404,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "saskatchewan",
+    "name": "Saskatchewan",
+    "code": "SK",
+    "country": "CA",
+    "licenceName": "Class 7 Learner's Licence",
+    "intro": "Saskatchewan splits the written testing in two. SGI gives you a basic knowledge exam on the rules of the road and a separate sign exam on what the shapes and colours mean, and you need 80 per cent on each one. Pass both and a vision test and you are a Class 7 learner, nine months from a road test. These six sets work through the SGI handbook end to end, keep the signs half loaded the way the real pair of exams does, and finish with the numbers Saskatchewan learners say caught them out.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "southcarolina",
     "name": "South Carolina",
     "code": "SC",
@@ -439,4 +450,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 7471;
+export const TOTAL_DRIVING_QUESTIONS = 7666;
