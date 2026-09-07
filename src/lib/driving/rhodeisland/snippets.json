@@ -1,0 +1,2120 @@
+{
+  "abs-definition": {
+    "height": 158,
+    "page": 43,
+    "src": "/handbook/rhodeisland/abs-definition.png",
+    "width": 1145
+  },
+  "abs-no-pump": {
+    "height": 158,
+    "page": 43,
+    "src": "/handbook/rhodeisland/abs-no-pump.png",
+    "width": 1097
+  },
+  "abs-steer": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/rhodeisland/abs-steer.png",
+    "width": 1145
+  },
+  "accel-decel-lanes": {
+    "height": 135,
+    "page": 35,
+    "src": "/handbook/rhodeisland/accel-decel-lanes.png",
+    "width": 1165
+  },
+  "aggressive-behaviors": {
+    "height": 180,
+    "page": 56,
+    "src": "/handbook/rhodeisland/aggressive-behaviors.png",
+    "width": 1097
+  },
+  "aggressive-driver-response": {
+    "height": 151,
+    "page": 57,
+    "src": "/handbook/rhodeisland/aggressive-driver-response.png",
+    "width": 1005
+  },
+  "aggressive-driving-def": {
+    "height": 157,
+    "page": 23,
+    "src": "/handbook/rhodeisland/aggressive-driving-def.png",
+    "width": 1144
+  },
+  "airbags-supplement": {
+    "height": 135,
+    "page": 68,
+    "src": "/handbook/rhodeisland/airbags-supplement.png",
+    "width": 1145
+  },
+  "alcohol-crash-risk": {
+    "height": 136,
+    "page": 60,
+    "src": "/handbook/rhodeisland/alcohol-crash-risk.png",
+    "width": 1145
+  },
+  "alcohol-drivers-killed": {
+    "height": 114,
+    "page": 60,
+    "src": "/handbook/rhodeisland/alcohol-drivers-killed.png",
+    "width": 1145
+  },
+  "alcohol-elimination": {
+    "height": 136,
+    "page": 60,
+    "src": "/handbook/rhodeisland/alcohol-elimination.png",
+    "width": 1145
+  },
+  "alcohol-judgment-first": {
+    "height": 157,
+    "page": 60,
+    "src": "/handbook/rhodeisland/alcohol-judgment-first.png",
+    "width": 1145
+  },
+  "approach-intersection-caution": {
+    "height": 135,
+    "page": 41,
+    "src": "/handbook/rhodeisland/approach-intersection-caution.png",
+    "width": 1145
+  },
+  "bac-02-under-21": {
+    "height": 135,
+    "page": 61,
+    "src": "/handbook/rhodeisland/bac-02-under-21.png",
+    "width": 1140
+  },
+  "bac-08-any-age": {
+    "height": 135,
+    "page": 61,
+    "src": "/handbook/rhodeisland/bac-08-any-age.png",
+    "width": 1145
+  },
+  "bac-definition": {
+    "height": 135,
+    "page": 61,
+    "src": "/handbook/rhodeisland/bac-definition.png",
+    "width": 1145
+  },
+  "bac-factors": {
+    "height": 202,
+    "page": 61,
+    "src": "/handbook/rhodeisland/bac-factors.png",
+    "width": 1145
+  },
+  "backing-30-feet": {
+    "height": 136,
+    "page": 34,
+    "src": "/handbook/rhodeisland/backing-30-feet.png",
+    "width": 1090
+  },
+  "backing-look-right": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/rhodeisland/backing-look-right.png",
+    "width": 1090
+  },
+  "basic-speed-law": {
+    "height": 136,
+    "page": 36,
+    "src": "/handbook/rhodeisland/basic-speed-law.png",
+    "width": 1145
+  },
+  "being-passed": {
+    "height": 157,
+    "page": 34,
+    "src": "/handbook/rhodeisland/being-passed.png",
+    "width": 958
+  },
+  "belt-fit-test": {
+    "height": 113,
+    "page": 27,
+    "src": "/handbook/rhodeisland/belt-fit-test.png",
+    "width": 1170
+  },
+  "bicycle-3-5-feet": {
+    "height": 136,
+    "page": 55,
+    "src": "/handbook/rhodeisland/bicycle-3-5-feet.png",
+    "width": 1044
+  },
+  "bicycle-hazards": {
+    "height": 157,
+    "page": 54,
+    "src": "/handbook/rhodeisland/bicycle-hazards.png",
+    "width": 1145
+  },
+  "bicycle-helmet-15": {
+    "height": 135,
+    "page": 54,
+    "src": "/handbook/rhodeisland/bicycle-helmet-15.png",
+    "width": 1145
+  },
+  "bicycle-lane-marking": {
+    "height": 135,
+    "page": 55,
+    "src": "/handbook/rhodeisland/bicycle-lane-marking.png",
+    "width": 1145
+  },
+  "bicycle-lane-rules": {
+    "height": 113,
+    "page": 55,
+    "src": "/handbook/rhodeisland/bicycle-lane-rules.png",
+    "width": 1097
+  },
+  "bicycle-left-turn-yield": {
+    "height": 113,
+    "page": 55,
+    "src": "/handbook/rhodeisland/bicycle-left-turn-yield.png",
+    "width": 1127
+  },
+  "bicycle-no-horn": {
+    "height": 135,
+    "page": 55,
+    "src": "/handbook/rhodeisland/bicycle-no-horn.png",
+    "width": 1139
+  },
+  "bicycle-no-pass-oncoming": {
+    "height": 114,
+    "page": 55,
+    "src": "/handbook/rhodeisland/bicycle-no-pass-oncoming.png",
+    "width": 1135
+  },
+  "bicycle-ride-right": {
+    "height": 135,
+    "page": 54,
+    "src": "/handbook/rhodeisland/bicycle-ride-right.png",
+    "width": 1145
+  },
+  "bicycle-right-turn-check": {
+    "height": 135,
+    "page": 55,
+    "src": "/handbook/rhodeisland/bicycle-right-turn-check.png",
+    "width": 1074
+  },
+  "bicycle-same-rights": {
+    "height": 114,
+    "page": 54,
+    "src": "/handbook/rhodeisland/bicycle-same-rights.png",
+    "width": 1145
+  },
+  "bicycle-takes-lane": {
+    "height": 157,
+    "page": 55,
+    "src": "/handbook/rhodeisland/bicycle-takes-lane.png",
+    "width": 1065
+  },
+  "bicycle-two-abreast": {
+    "height": 113,
+    "page": 54,
+    "src": "/handbook/rhodeisland/bicycle-two-abreast.png",
+    "width": 1145
+  },
+  "bicycle-vehicle-status": {
+    "height": 136,
+    "page": 54,
+    "src": "/handbook/rhodeisland/bicycle-vehicle-status.png",
+    "width": 1145
+  },
+  "black-ice": {
+    "height": 136,
+    "page": 46,
+    "src": "/handbook/rhodeisland/black-ice.png",
+    "width": 1133
+  },
+  "black-ice-where": {
+    "height": 136,
+    "page": 46,
+    "src": "/handbook/rhodeisland/black-ice-where.png",
+    "width": 1133
+  },
+  "blind-spots-def": {
+    "height": 180,
+    "page": 34,
+    "src": "/handbook/rhodeisland/blind-spots-def.png",
+    "width": 958
+  },
+  "blowout": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/rhodeisland/blowout.png",
+    "width": 1144
+  },
+  "booster-under-eight": {
+    "height": 115,
+    "page": 27,
+    "src": "/handbook/rhodeisland/booster-under-eight.png",
+    "width": 1125
+  },
+  "brake-failure-downshift": {
+    "height": 158,
+    "page": 43,
+    "src": "/handbook/rhodeisland/brake-failure-downshift.png",
+    "width": 1141
+  },
+  "brake-failure-pump": {
+    "height": 157,
+    "page": 43,
+    "src": "/handbook/rhodeisland/brake-failure-pump.png",
+    "width": 1141
+  },
+  "brake-failure-sideswipe": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/rhodeisland/brake-failure-sideswipe.png",
+    "width": 1141
+  },
+  "brakes-warning-signs": {
+    "height": 135,
+    "page": 68,
+    "src": "/handbook/rhodeisland/brakes-warning-signs.png",
+    "width": 1145
+  },
+  "braking-distance-wet": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/rhodeisland/braking-distance-wet.png",
+    "width": 1146
+  },
+  "broken-lines": {
+    "height": 135,
+    "page": 38,
+    "src": "/handbook/rhodeisland/broken-lines.png",
+    "width": 1097
+  },
+  "broken-side-may-pass": {
+    "height": 113,
+    "page": 38,
+    "src": "/handbook/rhodeisland/broken-side-may-pass.png",
+    "width": 1097
+  },
+  "broken-white-lines": {
+    "height": 135,
+    "page": 38,
+    "src": "/handbook/rhodeisland/broken-white-lines.png",
+    "width": 1097
+  },
+  "broken-yellow": {
+    "height": 135,
+    "page": 38,
+    "src": "/handbook/rhodeisland/broken-yellow.png",
+    "width": 1097
+  },
+  "carbon-monoxide": {
+    "height": 179,
+    "page": 47,
+    "src": "/handbook/rhodeisland/carbon-monoxide.png",
+    "width": 1145
+  },
+  "child-restraint-court": {
+    "height": 136,
+    "page": 27,
+    "src": "/handbook/rhodeisland/child-restraint-court.png",
+    "width": 1112
+  },
+  "child-restraint-exceptions": {
+    "height": 135,
+    "page": 26,
+    "src": "/handbook/rhodeisland/child-restraint-exceptions.png",
+    "width": 1095
+  },
+  "child-restraint-fine": {
+    "height": 135,
+    "page": 27,
+    "src": "/handbook/rhodeisland/child-restraint-fine.png",
+    "width": 1112
+  },
+  "child-restraint-outgrown": {
+    "height": 135,
+    "page": 26,
+    "src": "/handbook/rhodeisland/child-restraint-outgrown.png",
+    "width": 1097
+  },
+  "child-restraint-under-8": {
+    "height": 158,
+    "page": 26,
+    "src": "/handbook/rhodeisland/child-restraint-under-8.png",
+    "width": 1145
+  },
+  "child-under-8-back-seat": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/rhodeisland/child-under-8-back-seat.png",
+    "width": 1097
+  },
+  "children-bicycles": {
+    "height": 135,
+    "page": 56,
+    "src": "/handbook/rhodeisland/children-bicycles.png",
+    "width": 1125
+  },
+  "collision-1000-report": {
+    "height": 135,
+    "page": 65,
+    "src": "/handbook/rhodeisland/collision-1000-report.png",
+    "width": 1145
+  },
+  "collision-information": {
+    "height": 136,
+    "page": 65,
+    "src": "/handbook/rhodeisland/collision-information.png",
+    "width": 1061
+  },
+  "collision-minor-move": {
+    "height": 135,
+    "page": 65,
+    "src": "/handbook/rhodeisland/collision-minor-move.png",
+    "width": 1145
+  },
+  "collision-parked-vehicle": {
+    "height": 157,
+    "page": 65,
+    "src": "/handbook/rhodeisland/collision-parked-vehicle.png",
+    "width": 1145
+  },
+  "collision-steps": {
+    "height": 158,
+    "page": 65,
+    "src": "/handbook/rhodeisland/collision-steps.png",
+    "width": 1145
+  },
+  "covering-brake": {
+    "height": 158,
+    "page": 41,
+    "src": "/handbook/rhodeisland/covering-brake.png",
+    "width": 1145
+  },
+  "crosswalk-legal": {
+    "height": 136,
+    "page": 53,
+    "src": "/handbook/rhodeisland/crosswalk-legal.png",
+    "width": 1145
+  },
+  "cruise-control-rain": {
+    "height": 171,
+    "page": 47,
+    "src": "/handbook/rhodeisland/cruise-control-rain.png",
+    "width": 1012
+  },
+  "defensive-driving-def": {
+    "height": 135,
+    "page": 50,
+    "src": "/handbook/rhodeisland/defensive-driving-def.png",
+    "width": 1145
+  },
+  "dim-500-200": {
+    "height": 157,
+    "page": 53,
+    "src": "/handbook/rhodeisland/dim-500-200.png",
+    "width": 1145
+  },
+  "disabled-on-highway": {
+    "height": 157,
+    "page": 36,
+    "src": "/handbook/rhodeisland/disabled-on-highway.png",
+    "width": 1097
+  },
+  "distraction-four-kinds": {
+    "height": 114,
+    "page": 17,
+    "src": "/handbook/rhodeisland/distraction-four-kinds.png",
+    "width": 1145
+  },
+  "distraction-vs-inattention": {
+    "height": 180,
+    "page": 17,
+    "src": "/handbook/rhodeisland/distraction-vs-inattention.png",
+    "width": 767
+  },
+  "dooring": {
+    "height": 135,
+    "page": 56,
+    "src": "/handbook/rhodeisland/dooring.png",
+    "width": 1145
+  },
+  "drink-equivalence": {
+    "height": 135,
+    "page": 60,
+    "src": "/handbook/rhodeisland/drink-equivalence.png",
+    "width": 1145
+  },
+  "drinking-age-21": {
+    "height": 114,
+    "page": 60,
+    "src": "/handbook/rhodeisland/drinking-age-21.png",
+    "width": 1145
+  },
+  "driver-ed-age": {
+    "height": 157,
+    "page": 10,
+    "src": "/handbook/rhodeisland/driver-ed-age.png",
+    "width": 1145
+  },
+  "driveway-two-stops": {
+    "height": 135,
+    "page": 33,
+    "src": "/handbook/rhodeisland/driveway-two-stops.png",
+    "width": 1145
+  },
+  "driving-is-a-privilege": {
+    "height": 196,
+    "page": 71,
+    "src": "/handbook/rhodeisland/driving-is-a-privilege.png",
+    "width": 1148
+  },
+  "drowsy-20-hours": {
+    "height": 157,
+    "page": 21,
+    "src": "/handbook/rhodeisland/drowsy-20-hours.png",
+    "width": 1145
+  },
+  "drowsy-circadian": {
+    "height": 135,
+    "page": 21,
+    "src": "/handbook/rhodeisland/drowsy-circadian.png",
+    "width": 1145
+  },
+  "drowsy-warning-signs": {
+    "height": 113,
+    "page": 21,
+    "src": "/handbook/rhodeisland/drowsy-warning-signs.png",
+    "width": 1145
+  },
+  "drowsy-young-drivers": {
+    "height": 135,
+    "page": 21,
+    "src": "/handbook/rhodeisland/drowsy-young-drivers.png",
+    "width": 1145
+  },
+  "dutch-reach": {
+    "height": 113,
+    "page": 56,
+    "src": "/handbook/rhodeisland/dutch-reach.png",
+    "width": 1145
+  },
+  "dwi-18-21-first": {
+    "height": 140,
+    "page": 62,
+    "src": "/handbook/rhodeisland/dwi-18-21-first.png",
+    "width": 1141
+  },
+  "dwi-under-18-first": {
+    "height": 139,
+    "page": 62,
+    "src": "/handbook/rhodeisland/dwi-under-18-first.png",
+    "width": 1096
+  },
+  "earphones-banned": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/rhodeisland/earphones-banned.png",
+    "width": 1097
+  },
+  "emergency-vehicle-pull-right": {
+    "height": 135,
+    "page": 36,
+    "src": "/handbook/rhodeisland/emergency-vehicle-pull-right.png",
+    "width": 1097
+  },
+  "emergency-vehicle-rejoin": {
+    "height": 135,
+    "page": 36,
+    "src": "/handbook/rhodeisland/emergency-vehicle-rejoin.png",
+    "width": 1097
+  },
+  "emotions-run-lights": {
+    "height": 157,
+    "page": 23,
+    "src": "/handbook/rhodeisland/emotions-run-lights.png",
+    "width": 1145
+  },
+  "engine-failure": {
+    "height": 136,
+    "page": 44,
+    "src": "/handbook/rhodeisland/engine-failure.png",
+    "width": 1144
+  },
+  "engine-failure-steering": {
+    "height": 136,
+    "page": 44,
+    "src": "/handbook/rhodeisland/engine-failure-steering.png",
+    "width": 1151
+  },
+  "exam-ccri": {
+    "height": 157,
+    "page": 10,
+    "src": "/handbook/rhodeisland/exam-ccri.png",
+    "width": 1145
+  },
+  "exam-format": {
+    "height": 157,
+    "page": 10,
+    "src": "/handbook/rhodeisland/exam-format.png",
+    "width": 1145
+  },
+  "exam-prep": {
+    "height": 135,
+    "page": 11,
+    "src": "/handbook/rhodeisland/exam-prep.png",
+    "width": 1144
+  },
+  "eyes-off-two-seconds": {
+    "height": 113,
+    "page": 17,
+    "src": "/handbook/rhodeisland/eyes-off-two-seconds.png",
+    "width": 1046
+  },
+  "flashing-red": {
+    "height": 158,
+    "page": 42,
+    "src": "/handbook/rhodeisland/flashing-red.png",
+    "width": 296
+  },
+  "flashing-yellow": {
+    "height": 119,
+    "page": 41,
+    "src": "/handbook/rhodeisland/flashing-yellow.png",
+    "width": 844
+  },
+  "flashing-yellow-arrow": {
+    "height": 135,
+    "page": 41,
+    "src": "/handbook/rhodeisland/flashing-yellow-arrow.png",
+    "width": 1097
+  },
+  "flashing-yellow-panel": {
+    "height": 180,
+    "page": 42,
+    "src": "/handbook/rhodeisland/flashing-yellow-panel.png",
+    "width": 339
+  },
+  "follow-500-emergency": {
+    "height": 113,
+    "page": 36,
+    "src": "/handbook/rhodeisland/follow-500-emergency.png",
+    "width": 1097
+  },
+  "four-way-stop-order": {
+    "height": 113,
+    "page": 32,
+    "src": "/handbook/rhodeisland/four-way-stop-order.png",
+    "width": 1140
+  },
+  "four-way-stop-tie": {
+    "height": 135,
+    "page": 32,
+    "src": "/handbook/rhodeisland/four-way-stop-tie.png",
+    "width": 1140
+  },
+  "freeway-breakdown-lane": {
+    "height": 135,
+    "page": 35,
+    "src": "/handbook/rhodeisland/freeway-breakdown-lane.png",
+    "width": 1145
+  },
+  "freeway-lane-use": {
+    "height": 181,
+    "page": 35,
+    "src": "/handbook/rhodeisland/freeway-lane-use.png",
+    "width": 1120
+  },
+  "freeway-repairs-four-wheels": {
+    "height": 135,
+    "page": 35,
+    "src": "/handbook/rhodeisland/freeway-repairs-four-wheels.png",
+    "width": 1145
+  },
+  "full-licence-requirements": {
+    "height": 191,
+    "page": 16,
+    "src": "/handbook/rhodeisland/full-licence-requirements.png",
+    "width": 1145
+  },
+  "gdl-three-levels": {
+    "height": 157,
+    "page": 10,
+    "src": "/handbook/rhodeisland/gdl-three-levels.png",
+    "width": 1145
+  },
+  "glare-recovery": {
+    "height": 157,
+    "page": 53,
+    "src": "/handbook/rhodeisland/glare-recovery.png",
+    "width": 1145
+  },
+  "glare-recovery-time": {
+    "height": 157,
+    "page": 53,
+    "src": "/handbook/rhodeisland/glare-recovery-time.png",
+    "width": 1145
+  },
+  "green-arrow": {
+    "height": 136,
+    "page": 41,
+    "src": "/handbook/rhodeisland/green-arrow.png",
+    "width": 1097
+  },
+  "hand-signals": {
+    "height": 141,
+    "page": 38,
+    "src": "/handbook/rhodeisland/hand-signals.png",
+    "width": 528
+  },
+  "handsfree-not-safer": {
+    "height": 135,
+    "page": 18,
+    "src": "/handbook/rhodeisland/handsfree-not-safer.png",
+    "width": 1145
+  },
+  "hawk-crosswalk": {
+    "height": 114,
+    "page": 42,
+    "src": "/handbook/rhodeisland/hawk-crosswalk.png",
+    "width": 1049
+  },
+  "hazard-reduce-speed": {
+    "height": 114,
+    "page": 53,
+    "src": "/handbook/rhodeisland/hazard-reduce-speed.png",
+    "width": 1097
+  },
+  "head-on-horn-lights": {
+    "height": 114,
+    "page": 44,
+    "src": "/handbook/rhodeisland/head-on-horn-lights.png",
+    "width": 1088
+  },
+  "head-on-steer-right": {
+    "height": 136,
+    "page": 45,
+    "src": "/handbook/rhodeisland/head-on-steer-right.png",
+    "width": 1026
+  },
+  "headlight-failure": {
+    "height": 179,
+    "page": 45,
+    "src": "/handbook/rhodeisland/headlight-failure.png",
+    "width": 895
+  },
+  "headlights-inclement": {
+    "height": 157,
+    "page": 58,
+    "src": "/handbook/rhodeisland/headlights-inclement.png",
+    "width": 1097
+  },
+  "headlights-when-required": {
+    "height": 158,
+    "page": 52,
+    "src": "/handbook/rhodeisland/headlights-when-required.png",
+    "width": 1145
+  },
+  "high-beam-courtesy": {
+    "height": 138,
+    "page": 24,
+    "src": "/handbook/rhodeisland/high-beam-courtesy.png",
+    "width": 1072
+  },
+  "high-beams-reflect": {
+    "height": 135,
+    "page": 52,
+    "src": "/handbook/rhodeisland/high-beams-reflect.png",
+    "width": 1097
+  },
+  "hill-start": {
+    "height": 135,
+    "page": 33,
+    "src": "/handbook/rhodeisland/hill-start.png",
+    "width": 1145
+  },
+  "hit-and-run-penalties": {
+    "height": 135,
+    "page": 65,
+    "src": "/handbook/rhodeisland/hit-and-run-penalties.png",
+    "width": 1145
+  },
+  "horn-sparingly": {
+    "height": 113,
+    "page": 24,
+    "src": "/handbook/rhodeisland/horn-sparingly.png",
+    "width": 1072
+  },
+  "horses-on-highway": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/rhodeisland/horses-on-highway.png",
+    "width": 1097
+  },
+  "hydroplaning": {
+    "height": 136,
+    "page": 28,
+    "src": "/handbook/rhodeisland/hydroplaning.png",
+    "width": 1145
+  },
+  "hydroplaning-guard": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/rhodeisland/hydroplaning-guard.png",
+    "width": 1097
+  },
+  "implied-consent": {
+    "height": 157,
+    "page": 61,
+    "src": "/handbook/rhodeisland/implied-consent.png",
+    "width": 1145
+  },
+  "infants-rear-facing": {
+    "height": 114,
+    "page": 27,
+    "src": "/handbook/rhodeisland/infants-rear-facing.png",
+    "width": 832
+  },
+  "inspection-sticker-exception": {
+    "height": 135,
+    "page": 70,
+    "src": "/handbook/rhodeisland/inspection-sticker-exception.png",
+    "width": 1144
+  },
+  "insurance-proof-fine": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/rhodeisland/insurance-proof-fine.png",
+    "width": 1097
+  },
+  "insurance-required": {
+    "height": 113,
+    "page": 58,
+    "src": "/handbook/rhodeisland/insurance-required.png",
+    "width": 1097
+  },
+  "ipde": {
+    "height": 212,
+    "page": 50,
+    "src": "/handbook/rhodeisland/ipde.png",
+    "width": 1144
+  },
+  "keep-right-unless-passing": {
+    "height": 136,
+    "page": 36,
+    "src": "/handbook/rhodeisland/keep-right-unless-passing.png",
+    "width": 1097
+  },
+  "lane-change-steps": {
+    "height": 180,
+    "page": 33,
+    "src": "/handbook/rhodeisland/lane-change-steps.png",
+    "width": 1085
+  },
+  "lane-position-1": {
+    "height": 136,
+    "page": 51,
+    "src": "/handbook/rhodeisland/lane-position-1.png",
+    "width": 1142
+  },
+  "lane-position-2": {
+    "height": 136,
+    "page": 51,
+    "src": "/handbook/rhodeisland/lane-position-2.png",
+    "width": 1142
+  },
+  "lane-position-3": {
+    "height": 136,
+    "page": 51,
+    "src": "/handbook/rhodeisland/lane-position-3.png",
+    "width": 1142
+  },
+  "leaving-parked-position": {
+    "height": 157,
+    "page": 32,
+    "src": "/handbook/rhodeisland/leaving-parked-position.png",
+    "width": 1139
+  },
+  "left-turn-crashes": {
+    "height": 158,
+    "page": 29,
+    "src": "/handbook/rhodeisland/left-turn-crashes.png",
+    "width": 1144
+  },
+  "left-turn-next-intersection": {
+    "height": 114,
+    "page": 29,
+    "src": "/handbook/rhodeisland/left-turn-next-intersection.png",
+    "width": 1145
+  },
+  "left-turn-signal-early": {
+    "height": 135,
+    "page": 29,
+    "src": "/handbook/rhodeisland/left-turn-signal-early.png",
+    "width": 1145
+  },
+  "licence-five-years": {
+    "height": 113,
+    "page": 75,
+    "src": "/handbook/rhodeisland/licence-five-years.png",
+    "width": 963
+  },
+  "licence-suspension-effect": {
+    "height": 135,
+    "page": 15,
+    "src": "/handbook/rhodeisland/licence-suspension-effect.png",
+    "width": 1169
+  },
+  "limited-access-def": {
+    "height": 113,
+    "page": 35,
+    "src": "/handbook/rhodeisland/limited-access-def.png",
+    "width": 791
+  },
+  "littering-fine": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/rhodeisland/littering-fine.png",
+    "width": 1097
+  },
+  "low-beams-weather": {
+    "height": 157,
+    "page": 52,
+    "src": "/handbook/rhodeisland/low-beams-weather.png",
+    "width": 1097
+  },
+  "marijuana-effects": {
+    "height": 135,
+    "page": 60,
+    "src": "/handbook/rhodeisland/marijuana-effects.png",
+    "width": 1145
+  },
+  "minor-phone-ban": {
+    "height": 157,
+    "page": 36,
+    "src": "/handbook/rhodeisland/minor-phone-ban.png",
+    "width": 1145
+  },
+  "minor-phone-emergency": {
+    "height": 158,
+    "page": 36,
+    "src": "/handbook/rhodeisland/minor-phone-emergency.png",
+    "width": 1145
+  },
+  "missed-exit": {
+    "height": 113,
+    "page": 36,
+    "src": "/handbook/rhodeisland/missed-exit.png",
+    "width": 1097
+  },
+  "motorcycle-eye-protection": {
+    "height": 113,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-eye-protection.png",
+    "width": 1097
+  },
+  "motorcycle-four-seconds": {
+    "height": 135,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-four-seconds.png",
+    "width": 1097
+  },
+  "motorcycle-helmet-law": {
+    "height": 157,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-helmet-law.png",
+    "width": 1145
+  },
+  "motorcycle-hidden": {
+    "height": 157,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-hidden.png",
+    "width": 1097
+  },
+  "motorcycle-lane-position": {
+    "height": 136,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-lane-position.png",
+    "width": 1097
+  },
+  "motorcycle-look-twice": {
+    "height": 114,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-look-twice.png",
+    "width": 1097
+  },
+  "motorcycle-looks-farther": {
+    "height": 135,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-looks-farther.png",
+    "width": 1097
+  },
+  "motorcycle-no-brake-light": {
+    "height": 135,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-no-brake-light.png",
+    "width": 1097
+  },
+  "motorcycle-passenger": {
+    "height": 136,
+    "page": 48,
+    "src": "/handbook/rhodeisland/motorcycle-passenger.png",
+    "width": 1097
+  },
+  "move-over-law": {
+    "height": 157,
+    "page": 36,
+    "src": "/handbook/rhodeisland/move-over-law.png",
+    "width": 1145
+  },
+  "no-drinking-while-driving": {
+    "height": 152,
+    "page": 61,
+    "src": "/handbook/rhodeisland/no-drinking-while-driving.png",
+    "width": 1001
+  },
+  "no-hitchhikers": {
+    "height": 114,
+    "page": 53,
+    "src": "/handbook/rhodeisland/no-hitchhikers.png",
+    "width": 1145
+  },
+  "no-park-basic-list": {
+    "height": 245,
+    "page": 33,
+    "src": "/handbook/rhodeisland/no-park-basic-list.png",
+    "width": 1142
+  },
+  "no-park-curb-cut": {
+    "height": 113,
+    "page": 33,
+    "src": "/handbook/rhodeisland/no-park-curb-cut.png",
+    "width": 1142
+  },
+  "no-park-fire-station": {
+    "height": 136,
+    "page": 33,
+    "src": "/handbook/rhodeisland/no-park-fire-station.png",
+    "width": 1142
+  },
+  "no-park-hydrant-crosswalk": {
+    "height": 157,
+    "page": 33,
+    "src": "/handbook/rhodeisland/no-park-hydrant-crosswalk.png",
+    "width": 1142
+  },
+  "no-park-railroad": {
+    "height": 135,
+    "page": 33,
+    "src": "/handbook/rhodeisland/no-park-railroad.png",
+    "width": 1142
+  },
+  "no-rental-road-test": {
+    "height": 113,
+    "page": 70,
+    "src": "/handbook/rhodeisland/no-rental-road-test.png",
+    "width": 1144
+  },
+  "noise-limits": {
+    "height": 157,
+    "page": 72,
+    "src": "/handbook/rhodeisland/noise-limits.png",
+    "width": 972
+  },
+  "off-road-counter-steer": {
+    "height": 135,
+    "page": 44,
+    "src": "/handbook/rhodeisland/off-road-counter-steer.png",
+    "width": 1145
+  },
+  "off-road-recovery": {
+    "height": 136,
+    "page": 44,
+    "src": "/handbook/rhodeisland/off-road-recovery.png",
+    "width": 1145
+  },
+  "only-time-sobers": {
+    "height": 135,
+    "page": 60,
+    "src": "/handbook/rhodeisland/only-time-sobers.png",
+    "width": 1145
+  },
+  "open-zone": {
+    "height": 113,
+    "page": 50,
+    "src": "/handbook/rhodeisland/open-zone.png",
+    "width": 1102
+  },
+  "otc-drugs": {
+    "height": 135,
+    "page": 60,
+    "src": "/handbook/rhodeisland/otc-drugs.png",
+    "width": 1145
+  },
+  "out-of-state-transfer": {
+    "height": 135,
+    "page": 16,
+    "src": "/handbook/rhodeisland/out-of-state-transfer.png",
+    "width": 1145
+  },
+  "park-12-inches": {
+    "height": 135,
+    "page": 33,
+    "src": "/handbook/rhodeisland/park-12-inches.png",
+    "width": 1146
+  },
+  "park-one-way": {
+    "height": 135,
+    "page": 33,
+    "src": "/handbook/rhodeisland/park-one-way.png",
+    "width": 1145
+  },
+  "parking-brake-equipment": {
+    "height": 135,
+    "page": 68,
+    "src": "/handbook/rhodeisland/parking-brake-equipment.png",
+    "width": 1145
+  },
+  "parking-secure-vehicle": {
+    "height": 113,
+    "page": 32,
+    "src": "/handbook/rhodeisland/parking-secure-vehicle.png",
+    "width": 1178
+  },
+  "passing-lane-law": {
+    "height": 136,
+    "page": 34,
+    "src": "/handbook/rhodeisland/passing-lane-law.png",
+    "width": 958
+  },
+  "passing-limits": {
+    "height": 158,
+    "page": 34,
+    "src": "/handbook/rhodeisland/passing-limits.png",
+    "width": 951
+  },
+  "passing-off-pavement": {
+    "height": 136,
+    "page": 34,
+    "src": "/handbook/rhodeisland/passing-off-pavement.png",
+    "width": 1144
+  },
+  "passing-return-mirror": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/rhodeisland/passing-return-mirror.png",
+    "width": 951
+  },
+  "passing-right-conditions": {
+    "height": 201,
+    "page": 34,
+    "src": "/handbook/rhodeisland/passing-right-conditions.png",
+    "width": 1140
+  },
+  "passing-three-questions": {
+    "height": 225,
+    "page": 33,
+    "src": "/handbook/rhodeisland/passing-three-questions.png",
+    "width": 1125
+  },
+  "passing-where-dangerous": {
+    "height": 157,
+    "page": 34,
+    "src": "/handbook/rhodeisland/passing-where-dangerous.png",
+    "width": 1096
+  },
+  "pedestrian-always-yield": {
+    "height": 135,
+    "page": 53,
+    "src": "/handbook/rhodeisland/pedestrian-always-yield.png",
+    "width": 1145
+  },
+  "pedestrian-children": {
+    "height": 135,
+    "page": 53,
+    "src": "/handbook/rhodeisland/pedestrian-children.png",
+    "width": 1145
+  },
+  "pedestrian-facing-traffic": {
+    "height": 135,
+    "page": 53,
+    "src": "/handbook/rhodeisland/pedestrian-facing-traffic.png",
+    "width": 1145
+  },
+  "permit-definition": {
+    "height": 135,
+    "page": 11,
+    "src": "/handbook/rhodeisland/permit-definition.png",
+    "width": 1144
+  },
+  "permit-front-seat": {
+    "height": 136,
+    "page": 15,
+    "src": "/handbook/rhodeisland/permit-front-seat.png",
+    "width": 1140
+  },
+  "permit-hold-six-months": {
+    "height": 135,
+    "page": 12,
+    "src": "/handbook/rhodeisland/permit-hold-six-months.png",
+    "width": 1145
+  },
+  "permit-liability": {
+    "height": 135,
+    "page": 11,
+    "src": "/handbook/rhodeisland/permit-liability.png",
+    "width": 1097
+  },
+  "permit-over-18": {
+    "height": 135,
+    "page": 10,
+    "src": "/handbook/rhodeisland/permit-over-18.png",
+    "width": 1145
+  },
+  "permit-supervision": {
+    "height": 157,
+    "page": 11,
+    "src": "/handbook/rhodeisland/permit-supervision.png",
+    "width": 1145
+  },
+  "permit-two-requirements": {
+    "height": 135,
+    "page": 10,
+    "src": "/handbook/rhodeisland/permit-two-requirements.png",
+    "width": 1145
+  },
+  "permit-validity": {
+    "height": 135,
+    "page": 12,
+    "src": "/handbook/rhodeisland/permit-validity.png",
+    "width": 1170
+  },
+  "plate-light-60": {
+    "height": 136,
+    "page": 52,
+    "src": "/handbook/rhodeisland/plate-light-60.png",
+    "width": 1097
+  },
+  "point-of-no-return": {
+    "height": 157,
+    "page": 51,
+    "src": "/handbook/rhodeisland/point-of-no-return.png",
+    "width": 1145
+  },
+  "police-exit-vehicle": {
+    "height": 114,
+    "page": 58,
+    "src": "/handbook/rhodeisland/police-exit-vehicle.png",
+    "width": 1097
+  },
+  "police-report-when": {
+    "height": 114,
+    "page": 65,
+    "src": "/handbook/rhodeisland/police-report-when.png",
+    "width": 1145
+  },
+  "police-stop-documents": {
+    "height": 136,
+    "page": 58,
+    "src": "/handbook/rhodeisland/police-stop-documents.png",
+    "width": 1097
+  },
+  "police-stop-hands": {
+    "height": 113,
+    "page": 67,
+    "src": "/handbook/rhodeisland/police-stop-hands.png",
+    "width": 1145
+  },
+  "police-stop-interior-lights": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/rhodeisland/police-stop-interior-lights.png",
+    "width": 1097
+  },
+  "police-stop-no-belt-off": {
+    "height": 113,
+    "page": 67,
+    "src": "/handbook/rhodeisland/police-stop-no-belt-off.png",
+    "width": 1145
+  },
+  "police-stop-pull-right": {
+    "height": 135,
+    "page": 67,
+    "src": "/handbook/rhodeisland/police-stop-pull-right.png",
+    "width": 1145
+  },
+  "police-stop-signature": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/rhodeisland/police-stop-signature.png",
+    "width": 1097
+  },
+  "police-stop-signing": {
+    "height": 135,
+    "page": 67,
+    "src": "/handbook/rhodeisland/police-stop-signing.png",
+    "width": 1145
+  },
+  "pre-drive-checks": {
+    "height": 311,
+    "page": 26,
+    "src": "/handbook/rhodeisland/pre-drive-checks.png",
+    "width": 1145
+  },
+  "provisional-50-hours": {
+    "height": 136,
+    "page": 12,
+    "src": "/handbook/rhodeisland/provisional-50-hours.png",
+    "width": 1137
+  },
+  "provisional-athletics": {
+    "height": 135,
+    "page": 14,
+    "src": "/handbook/rhodeisland/provisional-athletics.png",
+    "width": 1101
+  },
+  "provisional-expiry": {
+    "height": 114,
+    "page": 14,
+    "src": "/handbook/rhodeisland/provisional-expiry.png",
+    "width": 1145
+  },
+  "provisional-night-rule": {
+    "height": 147,
+    "page": 14,
+    "src": "/handbook/rhodeisland/provisional-night-rule.png",
+    "width": 1140
+  },
+  "provisional-passengers": {
+    "height": 157,
+    "page": 14,
+    "src": "/handbook/rhodeisland/provisional-passengers.png",
+    "width": 1126
+  },
+  "provisional-requirements": {
+    "height": 179,
+    "page": 12,
+    "src": "/handbook/rhodeisland/provisional-requirements.png",
+    "width": 1137
+  },
+  "provisional-unsupervised": {
+    "height": 223,
+    "page": 14,
+    "src": "/handbook/rhodeisland/provisional-unsupervised.png",
+    "width": 1101
+  },
+  "quiet-vehicles": {
+    "height": 135,
+    "page": 54,
+    "src": "/handbook/rhodeisland/quiet-vehicles.png",
+    "width": 1145
+  },
+  "railroad-abandoned": {
+    "height": 135,
+    "page": 46,
+    "src": "/handbook/rhodeisland/railroad-abandoned.png",
+    "width": 1154
+  },
+  "railroad-buses-stop": {
+    "height": 135,
+    "page": 46,
+    "src": "/handbook/rhodeisland/railroad-buses-stop.png",
+    "width": 1154
+  },
+  "railroad-signals": {
+    "height": 113,
+    "page": 46,
+    "src": "/handbook/rhodeisland/railroad-signals.png",
+    "width": 1154
+  },
+  "reaction-time": {
+    "height": 113,
+    "page": 28,
+    "src": "/handbook/rhodeisland/reaction-time.png",
+    "width": 1146
+  },
+  "rear-end-release-brakes": {
+    "height": 135,
+    "page": 45,
+    "src": "/handbook/rhodeisland/rear-end-release-brakes.png",
+    "width": 1141
+  },
+  "rear-end-threat": {
+    "height": 157,
+    "page": 45,
+    "src": "/handbook/rhodeisland/rear-end-threat.png",
+    "width": 1141
+  },
+  "red-arrow": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/rhodeisland/red-arrow.png",
+    "width": 1097
+  },
+  "red-light-violators": {
+    "height": 135,
+    "page": 41,
+    "src": "/handbook/rhodeisland/red-light-violators.png",
+    "width": 1145
+  },
+  "refusal-other-penalties": {
+    "height": 157,
+    "page": 61,
+    "src": "/handbook/rhodeisland/refusal-other-penalties.png",
+    "width": 1097
+  },
+  "refusal-six-months": {
+    "height": 113,
+    "page": 61,
+    "src": "/handbook/rhodeisland/refusal-six-months.png",
+    "width": 1097
+  },
+  "renew-90-days": {
+    "height": 113,
+    "page": 75,
+    "src": "/handbook/rhodeisland/renew-90-days.png",
+    "width": 963
+  },
+  "rest-every-100-miles": {
+    "height": 113,
+    "page": 22,
+    "src": "/handbook/rhodeisland/rest-every-100-miles.png",
+    "width": 1026
+  },
+  "rest-is-key": {
+    "height": 114,
+    "page": 22,
+    "src": "/handbook/rhodeisland/rest-is-key.png",
+    "width": 1145
+  },
+  "reversible-lanes": {
+    "height": 135,
+    "page": 39,
+    "src": "/handbook/rhodeisland/reversible-lanes.png",
+    "width": 562
+  },
+  "right-of-way-definition": {
+    "height": 136,
+    "page": 41,
+    "src": "/handbook/rhodeisland/right-of-way-definition.png",
+    "width": 1145
+  },
+  "right-of-way-never-assume": {
+    "height": 135,
+    "page": 36,
+    "src": "/handbook/rhodeisland/right-of-way-never-assume.png",
+    "width": 1097
+  },
+  "right-on-red": {
+    "height": 162,
+    "page": 41,
+    "src": "/handbook/rhodeisland/right-on-red.png",
+    "width": 1097
+  },
+  "right-on-red-law": {
+    "height": 157,
+    "page": 58,
+    "src": "/handbook/rhodeisland/right-on-red-law.png",
+    "width": 1145
+  },
+  "right-on-red-optional": {
+    "height": 135,
+    "page": 41,
+    "src": "/handbook/rhodeisland/right-on-red-optional.png",
+    "width": 1097
+  },
+  "right-turn-extreme-right": {
+    "height": 113,
+    "page": 29,
+    "src": "/handbook/rhodeisland/right-turn-extreme-right.png",
+    "width": 1092
+  },
+  "right-turn-no-swing": {
+    "height": 135,
+    "page": 29,
+    "src": "/handbook/rhodeisland/right-turn-no-swing.png",
+    "width": 1092
+  },
+  "right-turn-oncoming": {
+    "height": 114,
+    "page": 30,
+    "src": "/handbook/rhodeisland/right-turn-oncoming.png",
+    "width": 1129
+  },
+  "rigl-stop-sign-obedience": {
+    "height": 157,
+    "page": 32,
+    "src": "/handbook/rhodeisland/rigl-stop-sign-obedience.png",
+    "width": 1145
+  },
+  "road-rage-def": {
+    "height": 135,
+    "page": 23,
+    "src": "/handbook/rhodeisland/road-rage-def.png",
+    "width": 1145
+  },
+  "road-rage-stay-in-car": {
+    "height": 114,
+    "page": 24,
+    "src": "/handbook/rhodeisland/road-rage-stay-in-car.png",
+    "width": 1136
+  },
+  "rotary-right-of-way": {
+    "height": 157,
+    "page": 41,
+    "src": "/handbook/rhodeisland/rotary-right-of-way.png",
+    "width": 1145
+  },
+  "roundabout-cyclists": {
+    "height": 158,
+    "page": 41,
+    "src": "/handbook/rhodeisland/roundabout-cyclists.png",
+    "width": 1125
+  },
+  "roundabout-def": {
+    "height": 135,
+    "page": 40,
+    "src": "/handbook/rhodeisland/roundabout-def.png",
+    "width": 1145
+  },
+  "roundabout-enter": {
+    "height": 135,
+    "page": 40,
+    "src": "/handbook/rhodeisland/roundabout-enter.png",
+    "width": 1091
+  },
+  "roundabout-exit": {
+    "height": 114,
+    "page": 40,
+    "src": "/handbook/rhodeisland/roundabout-exit.png",
+    "width": 1091
+  },
+  "roundabout-no-signals": {
+    "height": 157,
+    "page": 40,
+    "src": "/handbook/rhodeisland/roundabout-no-signals.png",
+    "width": 1145
+  },
+  "roundabout-pedestrians": {
+    "height": 114,
+    "page": 41,
+    "src": "/handbook/rhodeisland/roundabout-pedestrians.png",
+    "width": 1140
+  },
+  "roundabout-proceed": {
+    "height": 135,
+    "page": 40,
+    "src": "/handbook/rhodeisland/roundabout-proceed.png",
+    "width": 1091
+  },
+  "safety-sensors-winter": {
+    "height": 136,
+    "page": 68,
+    "src": "/handbook/rhodeisland/safety-sensors-winter.png",
+    "width": 1145
+  },
+  "school-bus-divided": {
+    "height": 201,
+    "page": 54,
+    "src": "/handbook/rhodeisland/school-bus-divided.png",
+    "width": 1145
+  },
+  "school-bus-penalty-manual": {
+    "height": 179,
+    "page": 54,
+    "src": "/handbook/rhodeisland/school-bus-penalty-manual.png",
+    "width": 1145
+  },
+  "school-bus-stop": {
+    "height": 223,
+    "page": 54,
+    "src": "/handbook/rhodeisland/school-bus-stop.png",
+    "width": 1145
+  },
+  "school-zone-caution": {
+    "height": 136,
+    "page": 56,
+    "src": "/handbook/rhodeisland/school-zone-caution.png",
+    "width": 1084
+  },
+  "seatbelt-adult-passengers": {
+    "height": 157,
+    "page": 26,
+    "src": "/handbook/rhodeisland/seatbelt-adult-passengers.png",
+    "width": 1145
+  },
+  "seatbelt-fine": {
+    "height": 136,
+    "page": 26,
+    "src": "/handbook/rhodeisland/seatbelt-fine.png",
+    "width": 1145
+  },
+  "seatbelt-primary-law": {
+    "height": 136,
+    "page": 26,
+    "src": "/handbook/rhodeisland/seatbelt-primary-law.png",
+    "width": 1078
+  },
+  "seatbelt-reduces-risk": {
+    "height": 135,
+    "page": 68,
+    "src": "/handbook/rhodeisland/seatbelt-reduces-risk.png",
+    "width": 1145
+  },
+  "senior-renewal-schedule": {
+    "height": 159,
+    "page": 76,
+    "src": "/handbook/rhodeisland/senior-renewal-schedule.png",
+    "width": 737
+  },
+  "shared-lane-marking": {
+    "height": 157,
+    "page": 38,
+    "src": "/handbook/rhodeisland/shared-lane-marking.png",
+    "width": 1097
+  },
+  "shared-left-turn-lane-diagram": {
+    "height": 157,
+    "page": 39,
+    "src": "/handbook/rhodeisland/shared-left-turn-lane-diagram.png",
+    "width": 552
+  },
+  "shared-turn-lane": {
+    "height": 135,
+    "page": 38,
+    "src": "/handbook/rhodeisland/shared-turn-lane.png",
+    "width": 1097
+  },
+  "shared-turn-lane-100": {
+    "height": 136,
+    "page": 38,
+    "src": "/handbook/rhodeisland/shared-turn-lane-100.png",
+    "width": 1097
+  },
+  "side-impact": {
+    "height": 157,
+    "page": 45,
+    "src": "/handbook/rhodeisland/side-impact.png",
+    "width": 1130
+  },
+  "signal-100-feet": {
+    "height": 135,
+    "page": 38,
+    "src": "/handbook/rhodeisland/signal-100-feet.png",
+    "width": 1121
+  },
+  "signal-100-turns-lanes": {
+    "height": 136,
+    "page": 58,
+    "src": "/handbook/rhodeisland/signal-100-turns-lanes.png",
+    "width": 1097
+  },
+  "signal-lane-change-100": {
+    "height": 136,
+    "page": 36,
+    "src": "/handbook/rhodeisland/signal-lane-change-100.png",
+    "width": 1097
+  },
+  "signals-timing": {
+    "height": 141,
+    "page": 38,
+    "src": "/handbook/rhodeisland/signals-timing.png",
+    "width": 1097
+  },
+  "signs-regulatory-list": {
+    "height": 228,
+    "page": 85,
+    "src": "/handbook/rhodeisland/signs-regulatory-list.png",
+    "width": 758
+  },
+  "signs-warning-list": {
+    "height": 543,
+    "page": 86,
+    "src": "/handbook/rhodeisland/signs-warning-list.png",
+    "width": 1088
+  },
+  "skid-cause": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/rhodeisland/skid-cause.png",
+    "width": 1097
+  },
+  "skid-control": {
+    "height": 223,
+    "page": 43,
+    "src": "/handbook/rhodeisland/skid-control.png",
+    "width": 1038
+  },
+  "skills-test-30-days": {
+    "height": 113,
+    "page": 70,
+    "src": "/handbook/rhodeisland/skills-test-30-days.png",
+    "width": 1146
+  },
+  "skills-test-content": {
+    "height": 136,
+    "page": 12,
+    "src": "/handbook/rhodeisland/skills-test-content.png",
+    "width": 1145
+  },
+  "skills-test-immediate-failure": {
+    "height": 113,
+    "page": 12,
+    "src": "/handbook/rhodeisland/skills-test-immediate-failure.png",
+    "width": 1144
+  },
+  "skills-test-termination": {
+    "height": 158,
+    "page": 70,
+    "src": "/handbook/rhodeisland/skills-test-termination.png",
+    "width": 1174
+  },
+  "skills-test-wait-30": {
+    "height": 114,
+    "page": 14,
+    "src": "/handbook/rhodeisland/skills-test-wait-30.png",
+    "width": 1145
+  },
+  "slippery-first-rain": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/rhodeisland/slippery-first-rain.png",
+    "width": 1146
+  },
+  "slippery-road-braking": {
+    "height": 157,
+    "page": 43,
+    "src": "/handbook/rhodeisland/slippery-road-braking.png",
+    "width": 1097
+  },
+  "smith-aim-high": {
+    "height": 135,
+    "page": 50,
+    "src": "/handbook/rhodeisland/smith-aim-high.png",
+    "width": 1122
+  },
+  "smith-leave-an-out": {
+    "height": 136,
+    "page": 50,
+    "src": "/handbook/rhodeisland/smith-leave-an-out.png",
+    "width": 1145
+  },
+  "smith-overall-picture": {
+    "height": 113,
+    "page": 50,
+    "src": "/handbook/rhodeisland/smith-overall-picture.png",
+    "width": 1122
+  },
+  "smith-system": {
+    "height": 113,
+    "page": 50,
+    "src": "/handbook/rhodeisland/smith-system.png",
+    "width": 1145
+  },
+  "snow-removal-law": {
+    "height": 157,
+    "page": 58,
+    "src": "/handbook/rhodeisland/snow-removal-law.png",
+    "width": 1097
+  },
+  "solid-lines": {
+    "height": 135,
+    "page": 38,
+    "src": "/handbook/rhodeisland/solid-lines.png",
+    "width": 1097
+  },
+  "solid-with-broken": {
+    "height": 136,
+    "page": 38,
+    "src": "/handbook/rhodeisland/solid-with-broken.png",
+    "width": 1097
+  },
+  "speed-ideal-conditions": {
+    "height": 136,
+    "page": 36,
+    "src": "/handbook/rhodeisland/speed-ideal-conditions.png",
+    "width": 1145
+  },
+  "speeding-fine-1-10": {
+    "height": 217,
+    "page": 59,
+    "src": "/handbook/rhodeisland/speeding-fine-1-10.png",
+    "width": 958
+  },
+  "speeding-per-mile": {
+    "height": 116,
+    "page": 59,
+    "src": "/handbook/rhodeisland/speeding-per-mile.png",
+    "width": 458
+  },
+  "speeds-25-50-65": {
+    "height": 135,
+    "page": 35,
+    "src": "/handbook/rhodeisland/speeds-25-50-65.png",
+    "width": 1145
+  },
+  "stale-fresh-green": {
+    "height": 120,
+    "page": 42,
+    "src": "/handbook/rhodeisland/stale-fresh-green.png",
+    "width": 650
+  },
+  "stalled-on-tracks": {
+    "height": 135,
+    "page": 45,
+    "src": "/handbook/rhodeisland/stalled-on-tracks.png",
+    "width": 1145
+  },
+  "steady-green": {
+    "height": 120,
+    "page": 41,
+    "src": "/handbook/rhodeisland/steady-green.png",
+    "width": 1065
+  },
+  "steady-red": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/rhodeisland/steady-red.png",
+    "width": 1145
+  },
+  "steady-yellow": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/rhodeisland/steady-yellow.png",
+    "width": 1097
+  },
+  "stop-sign-position": {
+    "height": 157,
+    "page": 32,
+    "src": "/handbook/rhodeisland/stop-sign-position.png",
+    "width": 1145
+  },
+  "stop-three-seconds": {
+    "height": 135,
+    "page": 31,
+    "src": "/handbook/rhodeisland/stop-three-seconds.png",
+    "width": 1089
+  },
+  "stopping-three-steps": {
+    "height": 157,
+    "page": 28,
+    "src": "/handbook/rhodeisland/stopping-three-steps.png",
+    "width": 1146
+  },
+  "stuck-accelerator": {
+    "height": 136,
+    "page": 44,
+    "src": "/handbook/rhodeisland/stuck-accelerator.png",
+    "width": 1144
+  },
+  "supervising-driver": {
+    "height": 135,
+    "page": 11,
+    "src": "/handbook/rhodeisland/supervising-driver.png",
+    "width": 1145
+  },
+  "synergistic-effect": {
+    "height": 135,
+    "page": 60,
+    "src": "/handbook/rhodeisland/synergistic-effect.png",
+    "width": 1145
+  },
+  "tailgated-response": {
+    "height": 157,
+    "page": 35,
+    "src": "/handbook/rhodeisland/tailgated-response.png",
+    "width": 1097
+  },
+  "teen-passenger-risk": {
+    "height": 139,
+    "page": 18,
+    "src": "/handbook/rhodeisland/teen-passenger-risk.png",
+    "width": 1061
+  },
+  "texting-any-age": {
+    "height": 114,
+    "page": 37,
+    "src": "/handbook/rhodeisland/texting-any-age.png",
+    "width": 1135
+  },
+  "texting-forbidden": {
+    "height": 122,
+    "page": 36,
+    "src": "/handbook/rhodeisland/texting-forbidden.png",
+    "width": 1134
+  },
+  "texting-riskier": {
+    "height": 179,
+    "page": 18,
+    "src": "/handbook/rhodeisland/texting-riskier.png",
+    "width": 712
+  },
+  "three-point-turn": {
+    "height": 113,
+    "page": 31,
+    "src": "/handbook/rhodeisland/three-point-turn.png",
+    "width": 897
+  },
+  "three-second-adverse": {
+    "height": 135,
+    "page": 51,
+    "src": "/handbook/rhodeisland/three-second-adverse.png",
+    "width": 1097
+  },
+  "three-second-count": {
+    "height": 157,
+    "page": 51,
+    "src": "/handbook/rhodeisland/three-second-count.png",
+    "width": 1097
+  },
+  "three-second-highway": {
+    "height": 114,
+    "page": 35,
+    "src": "/handbook/rhodeisland/three-second-highway.png",
+    "width": 1097
+  },
+  "three-second-not-guarantee": {
+    "height": 135,
+    "page": 50,
+    "src": "/handbook/rhodeisland/three-second-not-guarantee.png",
+    "width": 1097
+  },
+  "tire-pressure-cold": {
+    "height": 136,
+    "page": 68,
+    "src": "/handbook/rhodeisland/tire-pressure-cold.png",
+    "width": 1145
+  },
+  "tire-tread-manual": {
+    "height": 135,
+    "page": 68,
+    "src": "/handbook/rhodeisland/tire-tread-manual.png",
+    "width": 1145
+  },
+  "total-stopping-distance": {
+    "height": 136,
+    "page": 28,
+    "src": "/handbook/rhodeisland/total-stopping-distance.png",
+    "width": 1146
+  },
+  "train-stopping-distance": {
+    "height": 114,
+    "page": 46,
+    "src": "/handbook/rhodeisland/train-stopping-distance.png",
+    "width": 1154
+  },
+  "truck-50-feet": {
+    "height": 135,
+    "page": 52,
+    "src": "/handbook/rhodeisland/truck-50-feet.png",
+    "width": 1097
+  },
+  "truck-blind-spots": {
+    "height": 179,
+    "page": 52,
+    "src": "/handbook/rhodeisland/truck-blind-spots.png",
+    "width": 1146
+  },
+  "truck-collision-risk": {
+    "height": 135,
+    "page": 52,
+    "src": "/handbook/rhodeisland/truck-collision-risk.png",
+    "width": 1146
+  },
+  "truck-mirror-rule": {
+    "height": 157,
+    "page": 52,
+    "src": "/handbook/rhodeisland/truck-mirror-rule.png",
+    "width": 529
+  },
+  "truck-no-zones": {
+    "height": 113,
+    "page": 52,
+    "src": "/handbook/rhodeisland/truck-no-zones.png",
+    "width": 1146
+  },
+  "turn-abcd": {
+    "height": 201,
+    "page": 30,
+    "src": "/handbook/rhodeisland/turn-abcd.png",
+    "width": 1114
+  },
+  "turn-wheels-straight": {
+    "height": 135,
+    "page": 30,
+    "src": "/handbook/rhodeisland/turn-wheels-straight.png",
+    "width": 1129
+  },
+  "turnabout-solid-yellow": {
+    "height": 113,
+    "page": 30,
+    "src": "/handbook/rhodeisland/turnabout-solid-yellow.png",
+    "width": 1010
+  },
+  "turnabout-visibility": {
+    "height": 113,
+    "page": 30,
+    "src": "/handbook/rhodeisland/turnabout-visibility.png",
+    "width": 1010
+  },
+  "u-turn-rule": {
+    "height": 135,
+    "page": 30,
+    "src": "/handbook/rhodeisland/u-turn-rule.png",
+    "width": 1034
+  },
+  "uncontrolled-intersection": {
+    "height": 136,
+    "page": 41,
+    "src": "/handbook/rhodeisland/uncontrolled-intersection.png",
+    "width": 1145
+  },
+  "underage-possession-suspension": {
+    "height": 157,
+    "page": 64,
+    "src": "/handbook/rhodeisland/underage-possession-suspension.png",
+    "width": 1097
+  },
+  "underage-transport-alcohol": {
+    "height": 222,
+    "page": 64,
+    "src": "/handbook/rhodeisland/underage-transport-alcohol.png",
+    "width": 1145
+  },
+  "vehicle-fire-hood": {
+    "height": 136,
+    "page": 46,
+    "src": "/handbook/rhodeisland/vehicle-fire-hood.png",
+    "width": 1164
+  },
+  "vehicle-height-four-inches": {
+    "height": 179,
+    "page": 72,
+    "src": "/handbook/rhodeisland/vehicle-height-four-inches.png",
+    "width": 971
+  },
+  "vehicle-in-water": {
+    "height": 157,
+    "page": 46,
+    "src": "/handbook/rhodeisland/vehicle-in-water.png",
+    "width": 1173
+  },
+  "vehicle-in-water-roof": {
+    "height": 136,
+    "page": 46,
+    "src": "/handbook/rhodeisland/vehicle-in-water-roof.png",
+    "width": 1125
+  },
+  "velocitizing": {
+    "height": 136,
+    "page": 28,
+    "src": "/handbook/rhodeisland/velocitizing.png",
+    "width": 1145
+  },
+  "vision-standard": {
+    "height": 135,
+    "page": 11,
+    "src": "/handbook/rhodeisland/vision-standard.png",
+    "width": 1145
+  },
+  "visual-search-12-15": {
+    "height": 158,
+    "page": 50,
+    "src": "/handbook/rhodeisland/visual-search-12-15.png",
+    "width": 1145
+  },
+  "visually-impaired-fine": {
+    "height": 135,
+    "page": 54,
+    "src": "/handbook/rhodeisland/visually-impaired-fine.png",
+    "width": 1144
+  },
+  "visually-impaired-sound": {
+    "height": 157,
+    "page": 54,
+    "src": "/handbook/rhodeisland/visually-impaired-sound.png",
+    "width": 1145
+  },
+  "visually-impaired-stop": {
+    "height": 157,
+    "page": 54,
+    "src": "/handbook/rhodeisland/visually-impaired-stop.png",
+    "width": 1145
+  },
+  "white-lines": {
+    "height": 114,
+    "page": 38,
+    "src": "/handbook/rhodeisland/white-lines.png",
+    "width": 1097
+  },
+  "window-tint-70": {
+    "height": 157,
+    "page": 72,
+    "src": "/handbook/rhodeisland/window-tint-70.png",
+    "width": 972
+  },
+  "window-tint-fine": {
+    "height": 113,
+    "page": 72,
+    "src": "/handbook/rhodeisland/window-tint-fine.png",
+    "width": 972
+  },
+  "winter-braking": {
+    "height": 135,
+    "page": 46,
+    "src": "/handbook/rhodeisland/winter-braking.png",
+    "width": 1145
+  },
+  "winter-driving": {
+    "height": 135,
+    "page": 46,
+    "src": "/handbook/rhodeisland/winter-driving.png",
+    "width": 1133
+  },
+  "wireless-risk-400": {
+    "height": 138,
+    "page": 18,
+    "src": "/handbook/rhodeisland/wireless-risk-400.png",
+    "width": 1061
+  },
+  "work-zone-devices": {
+    "height": 135,
+    "page": 73,
+    "src": "/handbook/rhodeisland/work-zone-devices.png",
+    "width": 970
+  },
+  "work-zone-fines-doubled": {
+    "height": 135,
+    "page": 73,
+    "src": "/handbook/rhodeisland/work-zone-fines-doubled.png",
+    "width": 962
+  },
+  "work-zone-flaggers": {
+    "height": 178,
+    "page": 73,
+    "src": "/handbook/rhodeisland/work-zone-flaggers.png",
+    "width": 962
+  },
+  "work-zone-merge-early": {
+    "height": 135,
+    "page": 73,
+    "src": "/handbook/rhodeisland/work-zone-merge-early.png",
+    "width": 962
+  },
+  "work-zone-rear-end": {
+    "height": 114,
+    "page": 73,
+    "src": "/handbook/rhodeisland/work-zone-rear-end.png",
+    "width": 962
+  },
+  "work-zone-sign-colors": {
+    "height": 157,
+    "page": 72,
+    "src": "/handbook/rhodeisland/work-zone-sign-colors.png",
+    "width": 923
+  },
+  "yellow-lines": {
+    "height": 135,
+    "page": 38,
+    "src": "/handbook/rhodeisland/yellow-lines.png",
+    "width": 1097
+  },
+  "zone-system": {
+    "height": 135,
+    "page": 50,
+    "src": "/handbook/rhodeisland/zone-system.png",
+    "width": 1097
+  }
+}

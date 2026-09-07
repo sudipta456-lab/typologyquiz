@@ -44,6 +44,7 @@ import * as novascotia from "./novascotia";
 import * as oklahoma from "./oklahoma";
 import * as oregon from "./oregon";
 import * as quebec from "./quebec";
+import * as rhodeisland from "./rhodeisland";
 import * as saskatchewan from "./saskatchewan";
 import * as southcarolina from "./southcarolina";
 import * as utah from "./utah";
@@ -74,6 +75,7 @@ export const MODULES: DrivingModule[] = [
   oklahoma,
   oregon,
   quebec,
+  rhodeisland,
   saskatchewan,
   southcarolina,
   utah,

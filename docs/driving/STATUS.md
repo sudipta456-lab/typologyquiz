@@ -68,7 +68,7 @@ one per wave so the `/ca` side keeps pace. Every bank is built to
 | 5 | New Hampshire | newhampshire | **built** (2026-09-07, 440 excerpts, 334 snippets) |
 | 5 | Maine | maine | **built** (2026-09-07, 367 excerpts, 245 snippets) |
 | 5 | Montana | montana | queued |
-| 5 | Rhode Island | rhodeisland | queued |
+| 5 | Rhode Island | rhodeisland | **built** (2026-09-07, 463 excerpts, 353 snippets) |
 | 5 | New Brunswick | newbrunswick | **built** (2026-09-07, 381 excerpts, 322 snippets) |
 | 6 | Delaware | delaware | queued |
 | 6 | South Dakota | southdakota | queued |
