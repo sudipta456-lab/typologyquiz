@@ -41,6 +41,41 @@ def is_non_official(name: str) -> bool:
     return any(h in lowered for h in NON_OFFICIAL_HINTS)
 
 
+# Text that looks like a broken PDF font map rather than English.
+#
+# THE HOLE THIS CLOSES. Everything else here proves a quote is a substring of
+# the EXTRACTED text. It cannot tell you the extraction was correct. Nebraska's
+# manual has a broken ToUnicode map: the "fi" ligature comes out as the digit 4
+# and "fl"/"ffi" come out as nothing, so the PDF reads "traf4c", "of4ce",
+# "inuence", "ashing" - 210 mangled tokens over 62 of its 92 pages. A quote
+# copied from that verifies perfectly, because both sides are the same corrupt
+# text, and ships gibberish to a learner.
+#
+# A digit wedged inside a word is the strong signal and almost never legitimate
+# prose. Reported as a warning rather than a failure: the fix is to quote the
+# rule from somewhere else, which is a judgement call, and a real document may
+# contain something like "4x4".
+#
+# ONE letter is enough after the digit. The first version of this demanded two
+# and therefore missed "traf4c", which is the single most common corruption in
+# the document that prompted the check - 97 occurrences. Requiring two letters
+# BEFORE the digit is what keeps "4x4", "H2O" and "mp3" out.
+MANGLED_TOKEN = re.compile(r"\b[a-z]{2,}\d[a-z]+\b", re.IGNORECASE)
+
+# The same corruption at the START of a word: "fine" -> "4ne", "five" -> "4ve",
+# "first" -> "4rst". A blanket "digit then letters" rule cannot be used here,
+# because it would flag every ordinal in the corpus - 2nd, 3rd, 4th - so the
+# ordinal suffixes are excluded explicitly.
+MANGLED_WORD_START = re.compile(r"\b\d(?!st\b|nd\b|rd\b|th\b)[a-z]{2,}\b", re.IGNORECASE)
+
+
+def mangled_tokens(text: str) -> list:
+    """Tokens suggesting the source PDF extracted badly, not that it says this."""
+    found = set(m.group(0) for m in MANGLED_TOKEN.finditer(text))
+    found |= set(m.group(0) for m in MANGLED_WORD_START.finditer(text))
+    return sorted(found)
+
+
 def normalise(s: str) -> str:
     """Same folding the excerpt files apply to extracted text, and no more."""
     s = s.replace("­", "")  # soft hyphen
@@ -113,6 +148,7 @@ def main() -> None:
     results = {}
     hits = 0
     non_official = 0
+    mangled = 0
     for item in quotes:
         q = normalise(item["quote"])
         # Search official sources FIRST, so a quote that exists in both an
@@ -133,6 +169,11 @@ def main() -> None:
                 entry["nonOfficialSource"] = True
                 non_official += 1
                 print(f"  NON-OFFICIAL {item['key']}: only found in {found_in}")
+            bad = mangled_tokens(item["quote"])
+            if bad:
+                entry["mangledTokens"] = bad
+                mangled += 1
+                print(f"  MANGLED {item['key']}: {', '.join(bad[:4])} - looks like a broken font map, not prose")
             results[item["key"]] = entry
             continue
         # Diagnostic: does the opening clause exist anywhere? If yes, the tail
@@ -171,6 +212,7 @@ def main() -> None:
                 "sources": [p.name for p in sources],
                 "verified": hits,
                 "nonOfficial": non_official,
+                "mangled": mangled,
                 "total": len(quotes),
                 "results": results,
             },
@@ -183,6 +225,12 @@ def main() -> None:
     print(f"{slug}: {hits}/{total} quotes verified verbatim against {len(sources)} source(s)")
     if non_official:
         print(f"WARNING: {non_official} quote(s) were found ONLY in a non-official file. Re-verify them against the official source.")
+    if mangled:
+        print(
+            f"WARNING: {mangled} quote(s) contain text that looks like a broken PDF font map "
+            f"(a digit inside a word). Verification cannot catch this - it compares the quote "
+            f"against the same corrupt extraction. Quote the rule from another source."
+        )
     sys.exit(0 if hits == total else 1)
 
 

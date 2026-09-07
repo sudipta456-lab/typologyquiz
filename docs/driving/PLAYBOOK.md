@@ -261,6 +261,16 @@ npx tsx scripts/extract-quotes.mjs <slug>
 python scripts/verify-excerpts.py <slug> tmp/<slug>-handbook.pdf [tmp/<slug>-statute.txt ...]
 ```
 
+**Check what the PDF actually extracted before you trust it.** Verification
+proves a quote is a substring of the EXTRACTED text; it cannot tell you the
+extraction was right. Nebraska's manual has a broken font map where "fi" comes
+out as the digit 4, so the text reads "traf4c" and "of4ce" - and a quote copied
+from that verifies perfectly while being gibberish. The verifier now warns on
+tokens shaped like that, but the warning is not the whole defence: skim the
+extracted text early, and if a document is corrupt, quote those rules from the
+statute or an official web page instead. Never repair a quote by hand, because
+a repaired quote is no longer verbatim.
+
 `verify-excerpts.py` exits 1 on any quote that is not a contiguous substring
 of a source. Fix the quote (never the source). Statute quotes: save the
 statute page's visible text to a `.txt` and pass it as a second source. The
