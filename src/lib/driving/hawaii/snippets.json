@@ -1,0 +1,1646 @@
+{
+  "accelerator-stuck": {
+    "height": 142,
+    "page": 83,
+    "src": "/handbook/hawaii/accelerator-stuck.png",
+    "width": 748
+  },
+  "admin-license-revocation": {
+    "height": 135,
+    "page": 55,
+    "src": "/handbook/hawaii/admin-license-revocation.png",
+    "width": 742
+  },
+  "alcohol-40-percent": {
+    "height": 146,
+    "page": 55,
+    "src": "/handbook/hawaii/alcohol-40-percent.png",
+    "width": 752
+  },
+  "alcohol-amount-matters": {
+    "height": 159,
+    "page": 55,
+    "src": "/handbook/hawaii/alcohol-amount-matters.png",
+    "width": 742
+  },
+  "alcohol-depressant": {
+    "height": 135,
+    "page": 55,
+    "src": "/handbook/hawaii/alcohol-depressant.png",
+    "width": 742
+  },
+  "alcohol-empty-stomach": {
+    "height": 159,
+    "page": 55,
+    "src": "/handbook/hawaii/alcohol-empty-stomach.png",
+    "width": 742
+  },
+  "alcohol-nothing-helps": {
+    "height": 159,
+    "page": 55,
+    "src": "/handbook/hawaii/alcohol-nothing-helps.png",
+    "width": 742
+  },
+  "alcohol-plus-drugs": {
+    "height": 136,
+    "page": 56,
+    "src": "/handbook/hawaii/alcohol-plus-drugs.png",
+    "width": 741
+  },
+  "arrogant-driver": {
+    "height": 184,
+    "page": 58,
+    "src": "/handbook/hawaii/arrogant-driver.png",
+    "width": 754
+  },
+  "backing-responsibility": {
+    "height": 141,
+    "page": 64,
+    "src": "/handbook/hawaii/backing-responsibility.png",
+    "width": 741
+  },
+  "backing-turn-around": {
+    "height": 141,
+    "page": 64,
+    "src": "/handbook/hawaii/backing-turn-around.png",
+    "width": 741
+  },
+  "barricade-stripes": {
+    "height": 184,
+    "page": 50,
+    "src": "/handbook/hawaii/barricade-stripes.png",
+    "width": 741
+  },
+  "basic-speed-law": {
+    "height": 213,
+    "page": 28,
+    "src": "/handbook/hawaii/basic-speed-law.png",
+    "width": 742
+  },
+  "bicycle-night-equipment": {
+    "height": 131,
+    "page": 98,
+    "src": "/handbook/hawaii/bicycle-night-equipment.png",
+    "width": 714
+  },
+  "bicycle-ride-right": {
+    "height": 129,
+    "page": 98,
+    "src": "/handbook/hawaii/bicycle-ride-right.png",
+    "width": 714
+  },
+  "bicycle-right-turn-check": {
+    "height": 132,
+    "page": 97,
+    "src": "/handbook/hawaii/bicycle-right-turn-check.png",
+    "width": 729
+  },
+  "bicycle-sidewalk-rule": {
+    "height": 109,
+    "page": 98,
+    "src": "/handbook/hawaii/bicycle-sidewalk-rule.png",
+    "width": 714
+  },
+  "bicycle-single-file": {
+    "height": 109,
+    "page": 98,
+    "src": "/handbook/hawaii/bicycle-single-file.png",
+    "width": 714
+  },
+  "bicycle-three-feet": {
+    "height": 132,
+    "page": 97,
+    "src": "/handbook/hawaii/bicycle-three-feet.png",
+    "width": 729
+  },
+  "bicycle-wrong-way-crashes": {
+    "height": 155,
+    "page": 97,
+    "src": "/handbook/hawaii/bicycle-wrong-way-crashes.png",
+    "width": 729
+  },
+  "bicycles-are-vehicles": {
+    "height": 139,
+    "page": 97,
+    "src": "/handbook/hawaii/bicycles-are-vehicles.png",
+    "width": 751
+  },
+  "blowout-no-brakes": {
+    "height": 112,
+    "page": 81,
+    "src": "/handbook/hawaii/blowout-no-brakes.png",
+    "width": 714
+  },
+  "blowout-slow-gradually": {
+    "height": 112,
+    "page": 81,
+    "src": "/handbook/hawaii/blowout-slow-gradually.png",
+    "width": 714
+  },
+  "brake-failure": {
+    "height": 112,
+    "page": 81,
+    "src": "/handbook/hawaii/brake-failure.png",
+    "width": 741
+  },
+  "brakes-do-not-slide": {
+    "height": 156,
+    "page": 70,
+    "src": "/handbook/hawaii/brakes-do-not-slide.png",
+    "width": 753
+  },
+  "breakdown-walk-facing-traffic": {
+    "height": 142,
+    "page": 84,
+    "src": "/handbook/hawaii/breakdown-walk-facing-traffic.png",
+    "width": 752
+  },
+  "broken-yellow-line": {
+    "height": 232,
+    "page": 33,
+    "src": "/handbook/hawaii/broken-yellow-line.png",
+    "width": 381
+  },
+  "car-door-hazard": {
+    "height": 110,
+    "page": 97,
+    "src": "/handbook/hawaii/car-door-hazard.png",
+    "width": 729
+  },
+  "child-never-on-lap": {
+    "height": 159,
+    "page": 61,
+    "src": "/handbook/hawaii/child-never-on-lap.png",
+    "width": 731
+  },
+  "child-unattended": {
+    "height": 141,
+    "page": 64,
+    "src": "/handbook/hawaii/child-unattended.png",
+    "width": 741
+  },
+  "class-3-age-17": {
+    "height": 156,
+    "page": 12,
+    "src": "/handbook/hawaii/class-3-age-17.png",
+    "width": 734
+  },
+  "complete-stop-right-turn-red": {
+    "height": 140,
+    "page": 67,
+    "src": "/handbook/hawaii/complete-stop-right-turn-red.png",
+    "width": 714
+  },
+  "crash-do-not-move-injured": {
+    "height": 159,
+    "page": 52,
+    "src": "/handbook/hawaii/crash-do-not-move-injured.png",
+    "width": 719
+  },
+  "crash-exchange-info": {
+    "height": 112,
+    "page": 52,
+    "src": "/handbook/hawaii/crash-exchange-info.png",
+    "width": 716
+  },
+  "crash-report-threshold": {
+    "height": 123,
+    "page": 52,
+    "src": "/handbook/hawaii/crash-report-threshold.png",
+    "width": 751
+  },
+  "crash-stop-immediately": {
+    "height": 159,
+    "page": 52,
+    "src": "/handbook/hawaii/crash-stop-immediately.png",
+    "width": 718
+  },
+  "crash-unattended-vehicle": {
+    "height": 112,
+    "page": 52,
+    "src": "/handbook/hawaii/crash-unattended-vehicle.png",
+    "width": 716
+  },
+  "crosswalk-lines": {
+    "height": 285,
+    "page": 36,
+    "src": "/handbook/hawaii/crosswalk-lines.png",
+    "width": 368
+  },
+  "dawn-dusk-lights": {
+    "height": 160,
+    "page": 77,
+    "src": "/handbook/hawaii/dawn-dusk-lights.png",
+    "width": 742
+  },
+  "defensive-driving": {
+    "height": 159,
+    "page": 59,
+    "src": "/handbook/hawaii/defensive-driving.png",
+    "width": 756
+  },
+  "defensive-driving-list": {
+    "height": 171,
+    "page": 59,
+    "src": "/handbook/hawaii/defensive-driving-list.png",
+    "width": 756
+  },
+  "defensive-driving-way-out": {
+    "height": 172,
+    "page": 59,
+    "src": "/handbook/hawaii/defensive-driving-way-out.png",
+    "width": 756
+  },
+  "directional-markings": {
+    "height": 112,
+    "page": 37,
+    "src": "/handbook/hawaii/directional-markings.png",
+    "width": 741
+  },
+  "distracted-driving": {
+    "height": 160,
+    "page": 58,
+    "src": "/handbook/hawaii/distracted-driving.png",
+    "width": 754
+  },
+  "do-not-block-intersection": {
+    "height": 184,
+    "page": 69,
+    "src": "/handbook/hawaii/do-not-block-intersection.png",
+    "width": 741
+  },
+  "do-not-drive-if-unfit": {
+    "height": 183,
+    "page": 60,
+    "src": "/handbook/hawaii/do-not-drive-if-unfit.png",
+    "width": 747
+  },
+  "dont-walk-signal": {
+    "height": 136,
+    "page": 42,
+    "src": "/handbook/hawaii/dont-walk-signal.png",
+    "width": 504
+  },
+  "double-solid-white": {
+    "height": 133,
+    "page": 35,
+    "src": "/handbook/hawaii/double-solid-white.png",
+    "width": 741
+  },
+  "double-solid-yellow": {
+    "height": 256,
+    "page": 33,
+    "src": "/handbook/hawaii/double-solid-yellow.png",
+    "width": 381
+  },
+  "drive-right-half": {
+    "height": 112,
+    "page": 26,
+    "src": "/handbook/hawaii/drive-right-half.png",
+    "width": 746
+  },
+  "driver-ed-required": {
+    "height": 145,
+    "page": 13,
+    "src": "/handbook/hawaii/driver-ed-required.png",
+    "width": 737
+  },
+  "driver-slow-for-pedestrians": {
+    "height": 112,
+    "page": 95,
+    "src": "/handbook/hawaii/driver-slow-for-pedestrians.png",
+    "width": 752
+  },
+  "driveway-must-stop": {
+    "height": 141,
+    "page": 64,
+    "src": "/handbook/hawaii/driveway-must-stop.png",
+    "width": 741
+  },
+  "edgelines": {
+    "height": 256,
+    "page": 35,
+    "src": "/handbook/hawaii/edgelines.png",
+    "width": 382
+  },
+  "emergency-heavy-traffic": {
+    "height": 136,
+    "page": 29,
+    "src": "/handbook/hawaii/emergency-heavy-traffic.png",
+    "width": 742
+  },
+  "emergency-vehicle-procedure": {
+    "height": 159,
+    "page": 29,
+    "src": "/handbook/hawaii/emergency-vehicle-procedure.png",
+    "width": 742
+  },
+  "end-of-no-passing-zone": {
+    "height": 160,
+    "page": 31,
+    "src": "/handbook/hawaii/end-of-no-passing-zone.png",
+    "width": 399
+  },
+  "excessive-speed-cause": {
+    "height": 123,
+    "page": 28,
+    "src": "/handbook/hawaii/excessive-speed-cause.png",
+    "width": 742
+  },
+  "first-crash-habits": {
+    "height": 170,
+    "page": 57,
+    "src": "/handbook/hawaii/first-crash-habits.png",
+    "width": 749
+  },
+  "first-rain-slippery": {
+    "height": 160,
+    "page": 75,
+    "src": "/handbook/hawaii/first-rain-slippery.png",
+    "width": 741
+  },
+  "flagpersons": {
+    "height": 136,
+    "page": 51,
+    "src": "/handbook/hawaii/flagpersons.png",
+    "width": 741
+  },
+  "flashing-red": {
+    "height": 136,
+    "page": 41,
+    "src": "/handbook/hawaii/flashing-red.png",
+    "width": 517
+  },
+  "flashing-yellow": {
+    "height": 112,
+    "page": 41,
+    "src": "/handbook/hawaii/flashing-yellow.png",
+    "width": 517
+  },
+  "flooded-road": {
+    "height": 160,
+    "page": 76,
+    "src": "/handbook/hawaii/flooded-road.png",
+    "width": 752
+  },
+  "fog-low-beam": {
+    "height": 160,
+    "page": 76,
+    "src": "/handbook/hawaii/fog-low-beam.png",
+    "width": 752
+  },
+  "fog-two-car-lengths": {
+    "height": 136,
+    "page": 76,
+    "src": "/handbook/hawaii/fog-two-car-lengths.png",
+    "width": 752
+  },
+  "following-reasonable": {
+    "height": 136,
+    "page": 27,
+    "src": "/handbook/hawaii/following-reasonable.png",
+    "width": 741
+  },
+  "freeway-do-not-stop-at-end-of-ramp": {
+    "height": 160,
+    "page": 78,
+    "src": "/handbook/hawaii/freeway-do-not-stop-at-end-of-ramp.png",
+    "width": 741
+  },
+  "freeway-entering": {
+    "height": 160,
+    "page": 78,
+    "src": "/handbook/hawaii/freeway-entering.png",
+    "width": 741
+  },
+  "freeway-exit-speed": {
+    "height": 136,
+    "page": 80,
+    "src": "/handbook/hawaii/freeway-exit-speed.png",
+    "width": 741
+  },
+  "freeway-lane-use": {
+    "height": 112,
+    "page": 79,
+    "src": "/handbook/hawaii/freeway-lane-use.png",
+    "width": 741
+  },
+  "freeway-missed-exit": {
+    "height": 136,
+    "page": 80,
+    "src": "/handbook/hawaii/freeway-missed-exit.png",
+    "width": 741
+  },
+  "freeway-never-back-up": {
+    "height": 134,
+    "page": 79,
+    "src": "/handbook/hawaii/freeway-never-back-up.png",
+    "width": 714
+  },
+  "funeral-procession": {
+    "height": 183,
+    "page": 29,
+    "src": "/handbook/hawaii/funeral-procession.png",
+    "width": 742
+  },
+  "green-arrow": {
+    "height": 184,
+    "page": 40,
+    "src": "/handbook/hawaii/green-arrow.png",
+    "width": 517
+  },
+  "green-light": {
+    "height": 136,
+    "page": 40,
+    "src": "/handbook/hawaii/green-light.png",
+    "width": 507
+  },
+  "guide-signs": {
+    "height": 112,
+    "page": 48,
+    "src": "/handbook/hawaii/guide-signs.png",
+    "width": 741
+  },
+  "hand-signals-when": {
+    "height": 136,
+    "page": 73,
+    "src": "/handbook/hawaii/hand-signals-when.png",
+    "width": 741
+  },
+  "hands-free-still-distracting": {
+    "height": 159,
+    "page": 59,
+    "src": "/handbook/hawaii/hands-free-still-distracting.png",
+    "width": 756
+  },
+  "hazard-lights-not-moving": {
+    "height": 160,
+    "page": 73,
+    "src": "/handbook/hawaii/hazard-lights-not-moving.png",
+    "width": 741
+  },
+  "heavy-rain-lights": {
+    "height": 163,
+    "page": 76,
+    "src": "/handbook/hawaii/heavy-rain-lights.png",
+    "width": 752
+  },
+  "hydroplaning-35": {
+    "height": 184,
+    "page": 75,
+    "src": "/handbook/hawaii/hydroplaning-35.png",
+    "width": 741
+  },
+  "hydroplaning-no-control": {
+    "height": 136,
+    "page": 75,
+    "src": "/handbook/hawaii/hydroplaning-no-control.png",
+    "width": 741
+  },
+  "illegal-equipment": {
+    "height": 139,
+    "page": 18,
+    "src": "/handbook/hawaii/illegal-equipment.png",
+    "width": 741
+  },
+  "impaired-vs-under-influence": {
+    "height": 112,
+    "page": 56,
+    "src": "/handbook/hawaii/impaired-vs-under-influence.png",
+    "width": 741
+  },
+  "implied-consent": {
+    "height": 159,
+    "page": 55,
+    "src": "/handbook/hawaii/implied-consent.png",
+    "width": 742
+  },
+  "insurance-card-inspection": {
+    "height": 165,
+    "page": 18,
+    "src": "/handbook/hawaii/insurance-card-inspection.png",
+    "width": 757
+  },
+  "insurance-minimums": {
+    "height": 160,
+    "page": 54,
+    "src": "/handbook/hawaii/insurance-minimums.png",
+    "width": 742
+  },
+  "interference-front-seat": {
+    "height": 111,
+    "page": 29,
+    "src": "/handbook/hawaii/interference-front-seat.png",
+    "width": 742
+  },
+  "jaywalking-illegal": {
+    "height": 112,
+    "page": 95,
+    "src": "/handbook/hawaii/jaywalking-illegal.png",
+    "width": 752
+  },
+  "keep-pace-with-traffic": {
+    "height": 116,
+    "page": 67,
+    "src": "/handbook/hawaii/keep-pace-with-traffic.png",
+    "width": 750
+  },
+  "lane-change-100-feet": {
+    "height": 141,
+    "page": 65,
+    "src": "/handbook/hawaii/lane-change-100-feet.png",
+    "width": 757
+  },
+  "lane-change-blind-spot": {
+    "height": 141,
+    "page": 65,
+    "src": "/handbook/hawaii/lane-change-blind-spot.png",
+    "width": 757
+  },
+  "lane-choice-slower-right": {
+    "height": 165,
+    "page": 65,
+    "src": "/handbook/hawaii/lane-choice-slower-right.png",
+    "width": 757
+  },
+  "lane-choice-three-lanes": {
+    "height": 117,
+    "page": 65,
+    "src": "/handbook/hawaii/lane-choice-three-lanes.png",
+    "width": 757
+  },
+  "lane-control-green-arrow": {
+    "height": 112,
+    "page": 42,
+    "src": "/handbook/hawaii/lane-control-green-arrow.png",
+    "width": 440
+  },
+  "lane-control-red-x": {
+    "height": 160,
+    "page": 41,
+    "src": "/handbook/hawaii/lane-control-red-x.png",
+    "width": 517
+  },
+  "lane-control-yellow-x": {
+    "height": 136,
+    "page": 42,
+    "src": "/handbook/hawaii/lane-control-yellow-x.png",
+    "width": 504
+  },
+  "lane-use-control-signs": {
+    "height": 136,
+    "page": 45,
+    "src": "/handbook/hawaii/lane-use-control-signs.png",
+    "width": 504
+  },
+  "large-vehicle-blind-areas": {
+    "height": 159,
+    "page": 85,
+    "src": "/handbook/hawaii/large-vehicle-blind-areas.png",
+    "width": 752
+  },
+  "large-vehicle-slipstream": {
+    "height": 188,
+    "page": 86,
+    "src": "/handbook/hawaii/large-vehicle-slipstream.png",
+    "width": 758
+  },
+  "large-vehicle-stopping": {
+    "height": 112,
+    "page": 86,
+    "src": "/handbook/hawaii/large-vehicle-stopping.png",
+    "width": 758
+  },
+  "left-half-100-feet": {
+    "height": 136,
+    "page": 26,
+    "src": "/handbook/hawaii/left-half-100-feet.png",
+    "width": 746
+  },
+  "left-half-permitted": {
+    "height": 112,
+    "page": 26,
+    "src": "/handbook/hawaii/left-half-permitted.png",
+    "width": 746
+  },
+  "left-half-prohibited": {
+    "height": 112,
+    "page": 26,
+    "src": "/handbook/hawaii/left-half-prohibited.png",
+    "width": 746
+  },
+  "left-on-red-one-way": {
+    "height": 136,
+    "page": 39,
+    "src": "/handbook/hawaii/left-on-red-one-way.png",
+    "width": 507
+  },
+  "license-display": {
+    "height": 147,
+    "page": 17,
+    "src": "/handbook/hawaii/license-display.png",
+    "width": 745
+  },
+  "manual-not-law": {
+    "height": 171,
+    "page": 6,
+    "src": "/handbook/hawaii/manual-not-law.png",
+    "width": 753
+  },
+  "minor-parental-consent": {
+    "height": 147,
+    "page": 13,
+    "src": "/handbook/hawaii/minor-parental-consent.png",
+    "width": 737
+  },
+  "moped-definition": {
+    "height": 123,
+    "page": 17,
+    "src": "/handbook/hawaii/moped-definition.png",
+    "width": 746
+  },
+  "moped-licence": {
+    "height": 145,
+    "page": 17,
+    "src": "/handbook/hawaii/moped-licence.png",
+    "width": 746
+  },
+  "motorcycle-appears-farther": {
+    "height": 136,
+    "page": 90,
+    "src": "/handbook/hawaii/motorcycle-appears-farther.png",
+    "width": 741
+  },
+  "motorcycle-full-lane": {
+    "height": 136,
+    "page": 75,
+    "src": "/handbook/hawaii/motorcycle-full-lane.png",
+    "width": 741
+  },
+  "motorcycle-intersections": {
+    "height": 113,
+    "page": 92,
+    "src": "/handbook/hawaii/motorcycle-intersections.png",
+    "width": 741
+  },
+  "motorcycle-lane-position": {
+    "height": 136,
+    "page": 91,
+    "src": "/handbook/hawaii/motorcycle-lane-position.png",
+    "width": 741
+  },
+  "motorcycle-passing": {
+    "height": 184,
+    "page": 94,
+    "src": "/handbook/hawaii/motorcycle-passing.png",
+    "width": 741
+  },
+  "motorcycle-signals-not-cancel": {
+    "height": 112,
+    "page": 92,
+    "src": "/handbook/hawaii/motorcycle-signals-not-cancel.png",
+    "width": 741
+  },
+  "motorcycle-turning-crashes": {
+    "height": 147,
+    "page": 89,
+    "src": "/handbook/hawaii/motorcycle-turning-crashes.png",
+    "width": 751
+  },
+  "motorcycle-two-second": {
+    "height": 135,
+    "page": 93,
+    "src": "/handbook/hawaii/motorcycle-two-second.png",
+    "width": 752
+  },
+  "move-over-stopped-emergency": {
+    "height": 159,
+    "page": 29,
+    "src": "/handbook/hawaii/move-over-stopped-emergency.png",
+    "width": 715
+  },
+  "never-drive-through-safety-zone": {
+    "height": 112,
+    "page": 95,
+    "src": "/handbook/hawaii/never-drive-through-safety-zone.png",
+    "width": 752
+  },
+  "never-pass-at-intersection": {
+    "height": 165,
+    "page": 68,
+    "src": "/handbook/hawaii/never-pass-at-intersection.png",
+    "width": 741
+  },
+  "never-pass-stopped-for-pedestrian": {
+    "height": 112,
+    "page": 95,
+    "src": "/handbook/hawaii/never-pass-stopped-for-pedestrian.png",
+    "width": 752
+  },
+  "night-glare": {
+    "height": 160,
+    "page": 77,
+    "src": "/handbook/hawaii/night-glare.png",
+    "width": 715
+  },
+  "night-high-beams": {
+    "height": 136,
+    "page": 77,
+    "src": "/handbook/hawaii/night-high-beams.png",
+    "width": 715
+  },
+  "night-overdriving-lights": {
+    "height": 112,
+    "page": 77,
+    "src": "/handbook/hawaii/night-overdriving-lights.png",
+    "width": 715
+  },
+  "no-foot-on-brake": {
+    "height": 112,
+    "page": 27,
+    "src": "/handbook/hawaii/no-foot-on-brake.png",
+    "width": 744
+  },
+  "no-grace-period": {
+    "height": 161,
+    "page": 15,
+    "src": "/handbook/hawaii/no-grace-period.png",
+    "width": 725
+  },
+  "no-headsets": {
+    "height": 159,
+    "page": 59,
+    "src": "/handbook/hawaii/no-headsets.png",
+    "width": 756
+  },
+  "no-increase-speed-when-passed": {
+    "height": 135,
+    "page": 30,
+    "src": "/handbook/hawaii/no-increase-speed-when-passed.png",
+    "width": 398
+  },
+  "no-lane-change-intersection": {
+    "height": 141,
+    "page": 66,
+    "src": "/handbook/hawaii/no-lane-change-intersection.png",
+    "width": 714
+  },
+  "no-pass-hill-curve": {
+    "height": 159,
+    "page": 30,
+    "src": "/handbook/hawaii/no-pass-hill-curve.png",
+    "width": 399
+  },
+  "no-pass-school-bus-flashing": {
+    "height": 160,
+    "page": 31,
+    "src": "/handbook/hawaii/no-pass-school-bus-flashing.png",
+    "width": 399
+  },
+  "no-passing-lines": {
+    "height": 112,
+    "page": 33,
+    "src": "/handbook/hawaii/no-passing-lines.png",
+    "width": 381
+  },
+  "no-passing-zone-pennant": {
+    "height": 112,
+    "page": 45,
+    "src": "/handbook/hawaii/no-passing-zone-pennant.png",
+    "width": 504
+  },
+  "no-racing": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/hawaii/no-racing.png",
+    "width": 751
+  },
+  "no-right-turn-in-bike-lane": {
+    "height": 108,
+    "page": 67,
+    "src": "/handbook/hawaii/no-right-turn-in-bike-lane.png",
+    "width": 714
+  },
+  "obey-police-officer": {
+    "height": 111,
+    "page": 26,
+    "src": "/handbook/hawaii/obey-police-officer.png",
+    "width": 746
+  },
+  "obstruction-markings": {
+    "height": 109,
+    "page": 37,
+    "src": "/handbook/hawaii/obstruction-markings.png",
+    "width": 741
+  },
+  "oncoming-in-your-lane": {
+    "height": 112,
+    "page": 82,
+    "src": "/handbook/hawaii/oncoming-in-your-lane.png",
+    "width": 741
+  },
+  "open-container": {
+    "height": 136,
+    "page": 56,
+    "src": "/handbook/hawaii/open-container.png",
+    "width": 741
+  },
+  "otc-medicine": {
+    "height": 136,
+    "page": 56,
+    "src": "/handbook/hawaii/otc-medicine.png",
+    "width": 741
+  },
+  "parallel-park-two-feet": {
+    "height": 136,
+    "page": 72,
+    "src": "/handbook/hawaii/parallel-park-two-feet.png",
+    "width": 741
+  },
+  "park-hill-brake-and-gear": {
+    "height": 146,
+    "page": 71,
+    "src": "/handbook/hawaii/park-hill-brake-and-gear.png",
+    "width": 763
+  },
+  "park-hill-wheels-right": {
+    "height": 135,
+    "page": 71,
+    "src": "/handbook/hawaii/park-hill-wheels-right.png",
+    "width": 757
+  },
+  "parked-car-door": {
+    "height": 136,
+    "page": 69,
+    "src": "/handbook/hawaii/parked-car-door.png",
+    "width": 741
+  },
+  "parking-10-feet": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/hawaii/parking-10-feet.png",
+    "width": 751
+  },
+  "parking-12-inches": {
+    "height": 111,
+    "page": 28,
+    "src": "/handbook/hawaii/parking-12-inches.png",
+    "width": 751
+  },
+  "parking-24-hours": {
+    "height": 112,
+    "page": 29,
+    "src": "/handbook/hawaii/parking-24-hours.png",
+    "width": 715
+  },
+  "parking-access-aisle": {
+    "height": 170,
+    "page": 29,
+    "src": "/handbook/hawaii/parking-access-aisle.png",
+    "width": 742
+  },
+  "parking-accessible-placard": {
+    "height": 171,
+    "page": 29,
+    "src": "/handbook/hawaii/parking-accessible-placard.png",
+    "width": 740
+  },
+  "parking-bridge-tunnel": {
+    "height": 111,
+    "page": 28,
+    "src": "/handbook/hawaii/parking-bridge-tunnel.png",
+    "width": 751
+  },
+  "parking-double-park": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/hawaii/parking-double-park.png",
+    "width": 751
+  },
+  "parking-prohibited-crosswalk": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/hawaii/parking-prohibited-crosswalk.png",
+    "width": 751
+  },
+  "parking-prohibited-hydrant": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/hawaii/parking-prohibited-hydrant.png",
+    "width": 751
+  },
+  "parking-repair-wash-display": {
+    "height": 135,
+    "page": 28,
+    "src": "/handbook/hawaii/parking-repair-wash-display.png",
+    "width": 751
+  },
+  "parking-restrictions-12-inches": {
+    "height": 184,
+    "page": 73,
+    "src": "/handbook/hawaii/parking-restrictions-12-inches.png",
+    "width": 741
+  },
+  "pass-on-right-marked-lanes": {
+    "height": 112,
+    "page": 26,
+    "src": "/handbook/hawaii/pass-on-right-marked-lanes.png",
+    "width": 746
+  },
+  "pass-on-right-when": {
+    "height": 112,
+    "page": 26,
+    "src": "/handbook/hawaii/pass-on-right-when.png",
+    "width": 746
+  },
+  "pass-with-care": {
+    "height": 133,
+    "page": 46,
+    "src": "/handbook/hawaii/pass-with-care.png",
+    "width": 504
+  },
+  "passing-abort": {
+    "height": 165,
+    "page": 68,
+    "src": "/handbook/hawaii/passing-abort.png",
+    "width": 714
+  },
+  "passing-return-when-visible": {
+    "height": 141,
+    "page": 68,
+    "src": "/handbook/hawaii/passing-return-when-visible.png",
+    "width": 714
+  },
+  "passing-right-blind-spot": {
+    "height": 165,
+    "page": 68,
+    "src": "/handbook/hawaii/passing-right-blind-spot.png",
+    "width": 741
+  },
+  "passing-signal-and-check": {
+    "height": 141,
+    "page": 68,
+    "src": "/handbook/hawaii/passing-signal-and-check.png",
+    "width": 714
+  },
+  "ped-fatalities-share": {
+    "height": 111,
+    "page": 95,
+    "src": "/handbook/hawaii/ped-fatalities-share.png",
+    "width": 752
+  },
+  "ped-young-and-old": {
+    "height": 111,
+    "page": 95,
+    "src": "/handbook/hawaii/ped-young-and-old.png",
+    "width": 752
+  },
+  "permit-180-days": {
+    "height": 145,
+    "page": 13,
+    "src": "/handbook/hawaii/permit-180-days.png",
+    "width": 737
+  },
+  "permit-age-15-half": {
+    "height": 123,
+    "page": 11,
+    "src": "/handbook/hawaii/permit-age-15-half.png",
+    "width": 762
+  },
+  "permit-night-supervision": {
+    "height": 193,
+    "page": 13,
+    "src": "/handbook/hawaii/permit-night-supervision.png",
+    "width": 737
+  },
+  "permit-what-it-allows": {
+    "height": 189,
+    "page": 11,
+    "src": "/handbook/hawaii/permit-what-it-allows.png",
+    "width": 762
+  },
+  "plates-front-and-rear": {
+    "height": 144,
+    "page": 23,
+    "src": "/handbook/hawaii/plates-front-and-rear.png",
+    "width": 752
+  },
+  "preliminary-exams": {
+    "height": 111,
+    "page": 12,
+    "src": "/handbook/hawaii/preliminary-exams.png",
+    "width": 645
+  },
+  "provisional-hold-six-months": {
+    "height": 121,
+    "page": 14,
+    "src": "/handbook/hawaii/provisional-hold-six-months.png",
+    "width": 707
+  },
+  "provisional-min-age-16": {
+    "height": 117,
+    "page": 13,
+    "src": "/handbook/hawaii/provisional-min-age-16.png",
+    "width": 737
+  },
+  "provisional-night-passengers": {
+    "height": 144,
+    "page": 14,
+    "src": "/handbook/hawaii/provisional-night-passengers.png",
+    "width": 707
+  },
+  "provisional-night-rule": {
+    "height": 167,
+    "page": 14,
+    "src": "/handbook/hawaii/provisional-night-rule.png",
+    "width": 707
+  },
+  "provisional-passenger-limit": {
+    "height": 145,
+    "page": 13,
+    "src": "/handbook/hawaii/provisional-passenger-limit.png",
+    "width": 737
+  },
+  "provisional-six-months": {
+    "height": 145,
+    "page": 11,
+    "src": "/handbook/hawaii/provisional-six-months.png",
+    "width": 751
+  },
+  "railroad-15-feet": {
+    "height": 112,
+    "page": 27,
+    "src": "/handbook/hawaii/railroad-15-feet.png",
+    "width": 744
+  },
+  "railroad-markings": {
+    "height": 181,
+    "page": 38,
+    "src": "/handbook/hawaii/railroad-markings.png",
+    "width": 741
+  },
+  "railroad-train-audible": {
+    "height": 112,
+    "page": 27,
+    "src": "/handbook/hawaii/railroad-train-audible.png",
+    "width": 744
+  },
+  "rain-twice-following-distance": {
+    "height": 136,
+    "page": 75,
+    "src": "/handbook/hawaii/rain-twice-following-distance.png",
+    "width": 741
+  },
+  "rear-end-following-too-closely": {
+    "height": 146,
+    "page": 67,
+    "src": "/handbook/hawaii/rear-end-following-too-closely.png",
+    "width": 750
+  },
+  "red-arrow": {
+    "height": 136,
+    "page": 40,
+    "src": "/handbook/hawaii/red-arrow.png",
+    "width": 517
+  },
+  "red-light-stop-where": {
+    "height": 136,
+    "page": 39,
+    "src": "/handbook/hawaii/red-light-stop-where.png",
+    "width": 507
+  },
+  "red-pavement-markings": {
+    "height": 160,
+    "page": 35,
+    "src": "/handbook/hawaii/red-pavement-markings.png",
+    "width": 381
+  },
+  "red-reflectors-wrong-way": {
+    "height": 136,
+    "page": 77,
+    "src": "/handbook/hawaii/red-reflectors-wrong-way.png",
+    "width": 715
+  },
+  "reduced-speed-ahead": {
+    "height": 184,
+    "page": 45,
+    "src": "/handbook/hawaii/reduced-speed-ahead.png",
+    "width": 741
+  },
+  "reduced-speed-areas": {
+    "height": 111,
+    "page": 28,
+    "src": "/handbook/hawaii/reduced-speed-areas.png",
+    "width": 751
+  },
+  "refusal-revocation": {
+    "height": 160,
+    "page": 56,
+    "src": "/handbook/hawaii/refusal-revocation.png",
+    "width": 741
+  },
+  "register-in-county": {
+    "height": 164,
+    "page": 21,
+    "src": "/handbook/hawaii/register-in-county.png",
+    "width": 741
+  },
+  "renew-vision-test": {
+    "height": 135,
+    "page": 15,
+    "src": "/handbook/hawaii/renew-vision-test.png",
+    "width": 725
+  },
+  "renew-within-year": {
+    "height": 160,
+    "page": 15,
+    "src": "/handbook/hawaii/renew-within-year.png",
+    "width": 725
+  },
+  "right-on-red": {
+    "height": 160,
+    "page": 39,
+    "src": "/handbook/hawaii/right-on-red.png",
+    "width": 507
+  },
+  "road-test-vehicle": {
+    "height": 194,
+    "page": 15,
+    "src": "/handbook/hawaii/road-test-vehicle.png",
+    "width": 739
+  },
+  "roundabout-missed-exit": {
+    "height": 141,
+    "page": 65,
+    "src": "/handbook/hawaii/roundabout-missed-exit.png",
+    "width": 757
+  },
+  "roundabout-tips": {
+    "height": 141,
+    "page": 65,
+    "src": "/handbook/hawaii/roundabout-tips.png",
+    "width": 757
+  },
+  "roundabout-yield": {
+    "height": 141,
+    "page": 65,
+    "src": "/handbook/hawaii/roundabout-yield.png",
+    "width": 757
+  },
+  "row-driveway": {
+    "height": 136,
+    "page": 32,
+    "src": "/handbook/hawaii/row-driveway.png",
+    "width": 375
+  },
+  "row-green-light": {
+    "height": 136,
+    "page": 32,
+    "src": "/handbook/hawaii/row-green-light.png",
+    "width": 374
+  },
+  "row-left-turn": {
+    "height": 160,
+    "page": 32,
+    "src": "/handbook/hawaii/row-left-turn.png",
+    "width": 375
+  },
+  "row-yield-right": {
+    "height": 136,
+    "page": 32,
+    "src": "/handbook/hawaii/row-yield-right.png",
+    "width": 374
+  },
+  "safety-inspection-annual": {
+    "height": 164,
+    "page": 18,
+    "src": "/handbook/hawaii/safety-inspection-annual.png",
+    "width": 757
+  },
+  "school-bus-divided-highway": {
+    "height": 160,
+    "page": 96,
+    "src": "/handbook/hawaii/school-bus-divided-highway.png",
+    "width": 742
+  },
+  "school-bus-stop-manual": {
+    "height": 190,
+    "page": 96,
+    "src": "/handbook/hawaii/school-bus-stop-manual.png",
+    "width": 752
+  },
+  "school-bus-until-lights-off": {
+    "height": 143,
+    "page": 96,
+    "src": "/handbook/hawaii/school-bus-until-lights-off.png",
+    "width": 752
+  },
+  "school-crossing-guard": {
+    "height": 112,
+    "page": 95,
+    "src": "/handbook/hawaii/school-crossing-guard.png",
+    "width": 752
+  },
+  "school-sign-two-meanings": {
+    "height": 131,
+    "page": 48,
+    "src": "/handbook/hawaii/school-sign-two-meanings.png",
+    "width": 317
+  },
+  "seat-belt-fit": {
+    "height": 111,
+    "page": 61,
+    "src": "/handbook/hawaii/seat-belt-fit.png",
+    "width": 731
+  },
+  "seat-belts-law": {
+    "height": 145,
+    "page": 20,
+    "src": "/handbook/hawaii/seat-belts-law.png",
+    "width": 762
+  },
+  "sign-colors-black-white": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/hawaii/sign-colors-black-white.png",
+    "width": 741
+  },
+  "sign-colors-guide": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/hawaii/sign-colors-guide.png",
+    "width": 741
+  },
+  "sign-colors-orange": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/hawaii/sign-colors-orange.png",
+    "width": 741
+  },
+  "sign-colors-red": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/hawaii/sign-colors-red.png",
+    "width": 741
+  },
+  "sign-colors-yellow": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/hawaii/sign-colors-yellow.png",
+    "width": 741
+  },
+  "signal-100-feet": {
+    "height": 160,
+    "page": 27,
+    "src": "/handbook/hawaii/signal-100-feet.png",
+    "width": 744
+  },
+  "signal-before-slowing": {
+    "height": 160,
+    "page": 74,
+    "src": "/handbook/hawaii/signal-before-slowing.png",
+    "width": 741
+  },
+  "signal-every-time": {
+    "height": 112,
+    "page": 27,
+    "src": "/handbook/hawaii/signal-every-time.png",
+    "width": 741
+  },
+  "signal-not-permission": {
+    "height": 160,
+    "page": 27,
+    "src": "/handbook/hawaii/signal-not-permission.png",
+    "width": 744
+  },
+  "signaling-errors": {
+    "height": 112,
+    "page": 74,
+    "src": "/handbook/hawaii/signaling-errors.png",
+    "width": 741
+  },
+  "signals-fail-hand": {
+    "height": 141,
+    "page": 19,
+    "src": "/handbook/hawaii/signals-fail-hand.png",
+    "width": 756
+  },
+  "single-solid-white": {
+    "height": 160,
+    "page": 34,
+    "src": "/handbook/hawaii/single-solid-white.png",
+    "width": 741
+  },
+  "skid-ease-off": {
+    "height": 112,
+    "page": 83,
+    "src": "/handbook/hawaii/skid-ease-off.png",
+    "width": 741
+  },
+  "skid-steer-into-it": {
+    "height": 184,
+    "page": 83,
+    "src": "/handbook/hawaii/skid-steer-into-it.png",
+    "width": 741
+  },
+  "slow-before-curve": {
+    "height": 164,
+    "page": 67,
+    "src": "/handbook/hawaii/slow-before-curve.png",
+    "width": 750
+  },
+  "slow-moving-emblem": {
+    "height": 183,
+    "page": 30,
+    "src": "/handbook/hawaii/slow-moving-emblem.png",
+    "width": 559
+  },
+  "slower-traffic-right-lane": {
+    "height": 112,
+    "page": 26,
+    "src": "/handbook/hawaii/slower-traffic-right-lane.png",
+    "width": 746
+  },
+  "speed-limit-max-and-min": {
+    "height": 160,
+    "page": 44,
+    "src": "/handbook/hawaii/speed-limit-max-and-min.png",
+    "width": 504
+  },
+  "speed-limit-signs": {
+    "height": 136,
+    "page": 44,
+    "src": "/handbook/hawaii/speed-limit-signs.png",
+    "width": 504
+  },
+  "speed-not-too-slow": {
+    "height": 159,
+    "page": 28,
+    "src": "/handbook/hawaii/speed-not-too-slow.png",
+    "width": 742
+  },
+  "speed-reduces-field-of-vision": {
+    "height": 112,
+    "page": 59,
+    "src": "/handbook/hawaii/speed-reduces-field-of-vision.png",
+    "width": 756
+  },
+  "sr21-sr22": {
+    "height": 160,
+    "page": 53,
+    "src": "/handbook/hawaii/sr21-sr22.png",
+    "width": 741
+  },
+  "stay-in-lane": {
+    "height": 136,
+    "page": 26,
+    "src": "/handbook/hawaii/stay-in-lane.png",
+    "width": 746
+  },
+  "steering-free-play": {
+    "height": 169,
+    "page": 20,
+    "src": "/handbook/hawaii/steering-free-play.png",
+    "width": 762
+  },
+  "stop-far-enough-back": {
+    "height": 166,
+    "page": 70,
+    "src": "/handbook/hawaii/stop-far-enough-back.png",
+    "width": 753
+  },
+  "stop-for-blind-pedestrians": {
+    "height": 136,
+    "page": 95,
+    "src": "/handbook/hawaii/stop-for-blind-pedestrians.png",
+    "width": 752
+  },
+  "stop-lines": {
+    "height": 137,
+    "page": 36,
+    "src": "/handbook/hawaii/stop-lines.png",
+    "width": 368
+  },
+  "stop-sign": {
+    "height": 112,
+    "page": 44,
+    "src": "/handbook/hawaii/stop-sign.png",
+    "width": 489
+  },
+  "stop-sign-stop-line": {
+    "height": 184,
+    "page": 44,
+    "src": "/handbook/hawaii/stop-sign-stop-line.png",
+    "width": 489
+  },
+  "three-device-categories": {
+    "height": 166,
+    "page": 33,
+    "src": "/handbook/hawaii/three-device-categories.png",
+    "width": 746
+  },
+  "three-turn-signal-rules": {
+    "height": 136,
+    "page": 74,
+    "src": "/handbook/hawaii/three-turn-signal-rules.png",
+    "width": 741
+  },
+  "tire-tread": {
+    "height": 193,
+    "page": 20,
+    "src": "/handbook/hawaii/tire-tread.png",
+    "width": 762
+  },
+  "tow-away-zone": {
+    "height": 159,
+    "page": 29,
+    "src": "/handbook/hawaii/tow-away-zone.png",
+    "width": 742
+  },
+  "towing-leave-space": {
+    "height": 136,
+    "page": 27,
+    "src": "/handbook/hawaii/towing-leave-space.png",
+    "width": 741
+  },
+  "traffic-citations-two-types": {
+    "height": 123,
+    "page": 17,
+    "src": "/handbook/hawaii/traffic-citations-two-types.png",
+    "width": 746
+  },
+  "traffic-islands": {
+    "height": 184,
+    "page": 38,
+    "src": "/handbook/hawaii/traffic-islands.png",
+    "width": 741
+  },
+  "trailer-brakes": {
+    "height": 112,
+    "page": 87,
+    "src": "/handbook/hawaii/trailer-brakes.png",
+    "width": 741
+  },
+  "trailer-mirrors": {
+    "height": 160,
+    "page": 87,
+    "src": "/handbook/hawaii/trailer-mirrors.png",
+    "width": 741
+  },
+  "trailer-safety-chains": {
+    "height": 160,
+    "page": 87,
+    "src": "/handbook/hawaii/trailer-safety-chains.png",
+    "width": 741
+  },
+  "trailer-tongue-weight": {
+    "height": 160,
+    "page": 88,
+    "src": "/handbook/hawaii/trailer-tongue-weight.png",
+    "width": 741
+  },
+  "turn-from-proper-lane": {
+    "height": 140,
+    "page": 67,
+    "src": "/handbook/hawaii/turn-from-proper-lane.png",
+    "width": 750
+  },
+  "turn-signal-100-feet-law": {
+    "height": 136,
+    "page": 74,
+    "src": "/handbook/hawaii/turn-signal-100-feet-law.png",
+    "width": 741
+  },
+  "turn-wrong-lane": {
+    "height": 188,
+    "page": 67,
+    "src": "/handbook/hawaii/turn-wrong-lane.png",
+    "width": 750
+  },
+  "two-second-counting": {
+    "height": 194,
+    "page": 67,
+    "src": "/handbook/hawaii/two-second-counting.png",
+    "width": 750
+  },
+  "two-second-interval": {
+    "height": 146,
+    "page": 67,
+    "src": "/handbook/hawaii/two-second-interval.png",
+    "width": 750
+  },
+  "two-way-left-turn-lane": {
+    "height": 189,
+    "page": 36,
+    "src": "/handbook/hawaii/two-way-left-turn-lane.png",
+    "width": 741
+  },
+  "unattended-vehicle": {
+    "height": 111,
+    "page": 29,
+    "src": "/handbook/hawaii/unattended-vehicle.png",
+    "width": 742
+  },
+  "vehicle-condition-responsibility": {
+    "height": 148,
+    "page": 19,
+    "src": "/handbook/hawaii/vehicle-condition-responsibility.png",
+    "width": 756
+  },
+  "vehicle-fire": {
+    "height": 112,
+    "page": 84,
+    "src": "/handbook/hawaii/vehicle-fire.png",
+    "width": 741
+  },
+  "waiting-to-turn-left": {
+    "height": 181,
+    "page": 67,
+    "src": "/handbook/hawaii/waiting-to-turn-left.png",
+    "width": 754
+  },
+  "walk-facing-traffic": {
+    "height": 112,
+    "page": 96,
+    "src": "/handbook/hawaii/walk-facing-traffic.png",
+    "width": 714
+  },
+  "warning-devices": {
+    "height": 122,
+    "page": 33,
+    "src": "/handbook/hawaii/warning-devices.png",
+    "width": 746
+  },
+  "warning-signs-shape": {
+    "height": 111,
+    "page": 47,
+    "src": "/handbook/hawaii/warning-signs-shape.png",
+    "width": 741
+  },
+  "wet-brakes": {
+    "height": 166,
+    "page": 70,
+    "src": "/handbook/hawaii/wet-brakes.png",
+    "width": 753
+  },
+  "wheels-off-pavement": {
+    "height": 160,
+    "page": 82,
+    "src": "/handbook/hawaii/wheels-off-pavement.png",
+    "width": 741
+  },
+  "white-lane-lines": {
+    "height": 136,
+    "page": 34,
+    "src": "/handbook/hawaii/white-lane-lines.png",
+    "width": 741
+  },
+  "who-cannot-be-licensed-permit-180": {
+    "height": 147,
+    "page": 10,
+    "src": "/handbook/hawaii/who-cannot-be-licensed-permit-180.png",
+    "width": 724
+  },
+  "who-needs-insurance": {
+    "height": 136,
+    "page": 54,
+    "src": "/handbook/hawaii/who-needs-insurance.png",
+    "width": 742
+  },
+  "work-zone-orange": {
+    "height": 160,
+    "page": 49,
+    "src": "/handbook/hawaii/work-zone-orange.png",
+    "width": 742
+  },
+  "yellow-centerlines": {
+    "height": 112,
+    "page": 33,
+    "src": "/handbook/hawaii/yellow-centerlines.png",
+    "width": 741
+  },
+  "yellow-light": {
+    "height": 112,
+    "page": 39,
+    "src": "/handbook/hawaii/yellow-light.png",
+    "width": 507
+  },
+  "yield-sign": {
+    "height": 208,
+    "page": 44,
+    "src": "/handbook/hawaii/yield-sign.png",
+    "width": 504
+  },
+  "yield-when-changing-lanes": {
+    "height": 165,
+    "page": 66,
+    "src": "/handbook/hawaii/yield-when-changing-lanes.png",
+    "width": 714
+  },
+  "zero-tolerance-under-21": {
+    "height": 135,
+    "page": 56,
+    "src": "/handbook/hawaii/zero-tolerance-under-21.png",
+    "width": 741
+  }
+}
