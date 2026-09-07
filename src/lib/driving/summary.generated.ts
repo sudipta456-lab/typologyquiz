@@ -503,6 +503,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "westvirginia",
+    "name": "West Virginia",
+    "code": "WV",
+    "country": "US",
+    "licenceName": "Level 1 GDL Instruction Permit",
+    "intro": "West Virginia starts at 15, and the knowledge test is the whole of what stands between you and a Level 1 GDL instruction permit. The Division of Motor Vehicles writes and marks that test from one book - the Driver's Licensing Handbook - and publishes twenty sample questions of its own drawn from the same handbook and from state law. This bank is written against the 07/2026 revision of that handbook, with Chapters 17C and 17B of the West Virginia Code filling the numbers the book leaves out.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "wisconsin",
     "name": "Wisconsin",
     "code": "WI",
@@ -516,4 +527,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 8836;
+export const TOTAL_DRIVING_QUESTIONS = 9031;
