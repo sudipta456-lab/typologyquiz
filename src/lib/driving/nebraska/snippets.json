@@ -1,0 +1,1790 @@
+{
+  "absorption-factors": {
+    "height": 167,
+    "page": 32,
+    "src": "/handbook/nebraska/absorption-factors.png",
+    "width": 734
+  },
+  "aggressive-driving": {
+    "height": 106,
+    "page": 73,
+    "src": "/handbook/nebraska/aggressive-driving.png",
+    "width": 730
+  },
+  "airbag-10-inches": {
+    "height": 127,
+    "page": 34,
+    "src": "/handbook/nebraska/airbag-10-inches.png",
+    "width": 697
+  },
+  "airbag-hand-position": {
+    "height": 127,
+    "page": 33,
+    "src": "/handbook/nebraska/airbag-hand-position.png",
+    "width": 730
+  },
+  "airbag-rear-facing": {
+    "height": 127,
+    "page": 33,
+    "src": "/handbook/nebraska/airbag-rear-facing.png",
+    "width": 730
+  },
+  "airbag-rear-seat-12": {
+    "height": 107,
+    "page": 33,
+    "src": "/handbook/nebraska/airbag-rear-seat-12.png",
+    "width": 730
+  },
+  "alr-first-180": {
+    "height": 127,
+    "page": 28,
+    "src": "/handbook/nebraska/alr-first-180.png",
+    "width": 730
+  },
+  "alr-refusal-one-year": {
+    "height": 127,
+    "page": 28,
+    "src": "/handbook/nebraska/alr-refusal-one-year.png",
+    "width": 730
+  },
+  "alr-temp-15-days": {
+    "height": 107,
+    "page": 28,
+    "src": "/handbook/nebraska/alr-temp-15-days.png",
+    "width": 730
+  },
+  "atv-roadway-speed": {
+    "height": 107,
+    "page": 15,
+    "src": "/handbook/nebraska/atv-roadway-speed.png",
+    "width": 613
+  },
+  "bac-thresholds": {
+    "height": 107,
+    "page": 32,
+    "src": "/handbook/nebraska/bac-thresholds.png",
+    "width": 734
+  },
+  "beat-the-light": {
+    "height": 107,
+    "page": 39,
+    "src": "/handbook/nebraska/beat-the-light.png",
+    "width": 613
+  },
+  "being-passed": {
+    "height": 127,
+    "page": 62,
+    "src": "/handbook/nebraska/being-passed.png",
+    "width": 730
+  },
+  "bicycle-children": {
+    "height": 147,
+    "page": 77,
+    "src": "/handbook/nebraska/bicycle-children.png",
+    "width": 691
+  },
+  "bicycle-far-right": {
+    "height": 107,
+    "page": 76,
+    "src": "/handbook/nebraska/bicycle-far-right.png",
+    "width": 733
+  },
+  "bicycle-narrow-lane": {
+    "height": 127,
+    "page": 76,
+    "src": "/handbook/nebraska/bicycle-narrow-lane.png",
+    "width": 733
+  },
+  "bicycle-no-horn": {
+    "height": 107,
+    "page": 77,
+    "src": "/handbook/nebraska/bicycle-no-horn.png",
+    "width": 691
+  },
+  "bicycle-one-way-left": {
+    "height": 107,
+    "page": 77,
+    "src": "/handbook/nebraska/bicycle-one-way-left.png",
+    "width": 691
+  },
+  "bicycle-same-duties": {
+    "height": 107,
+    "page": 76,
+    "src": "/handbook/nebraska/bicycle-same-duties.png",
+    "width": 733
+  },
+  "bicycle-three-feet-law": {
+    "height": 167,
+    "page": 77,
+    "src": "/handbook/nebraska/bicycle-three-feet-law.png",
+    "width": 691
+  },
+  "bike-lane-crossing": {
+    "height": 187,
+    "page": 54,
+    "src": "/handbook/nebraska/bike-lane-crossing.png",
+    "width": 730
+  },
+  "bike-lane-illegal-to-drive": {
+    "height": 207,
+    "page": 54,
+    "src": "/handbook/nebraska/bike-lane-illegal-to-drive.png",
+    "width": 730
+  },
+  "blind-spot-definition": {
+    "height": 147,
+    "page": 74,
+    "src": "/handbook/nebraska/blind-spot-definition.png",
+    "width": 730
+  },
+  "blizzard-stranded": {
+    "height": 107,
+    "page": 71,
+    "src": "/handbook/nebraska/blizzard-stranded.png",
+    "width": 730
+  },
+  "broken-yellow-line": {
+    "height": 127,
+    "page": 52,
+    "src": "/handbook/nebraska/broken-yellow-line.png",
+    "width": 738
+  },
+  "bus-amber-25-mph": {
+    "height": 107,
+    "page": 78,
+    "src": "/handbook/nebraska/bus-amber-25-mph.png",
+    "width": 730
+  },
+  "bus-amber-until-door": {
+    "height": 107,
+    "page": 78,
+    "src": "/handbook/nebraska/bus-amber-until-door.png",
+    "width": 730
+  },
+  "bus-must-stop": {
+    "height": 167,
+    "page": 78,
+    "src": "/handbook/nebraska/bus-must-stop.png",
+    "width": 730
+  },
+  "bus-red-stop-arm": {
+    "height": 107,
+    "page": 78,
+    "src": "/handbook/nebraska/bus-red-stop-arm.png",
+    "width": 730
+  },
+  "cdl-threshold": {
+    "height": 106,
+    "page": 16,
+    "src": "/handbook/nebraska/cdl-threshold.png",
+    "width": 730
+  },
+  "center-lane-left-turn-only": {
+    "height": 130,
+    "page": 45,
+    "src": "/handbook/nebraska/center-lane-left-turn-only.png",
+    "width": 614
+  },
+  "channelizing-devices": {
+    "height": 150,
+    "page": 51,
+    "src": "/handbook/nebraska/channelizing-devices.png",
+    "width": 554
+  },
+  "child-8-to-18": {
+    "height": 127,
+    "page": 34,
+    "src": "/handbook/nebraska/child-8-to-18.png",
+    "width": 730
+  },
+  "child-cargo-area": {
+    "height": 107,
+    "page": 34,
+    "src": "/handbook/nebraska/child-cargo-area.png",
+    "width": 730
+  },
+  "child-rear-facing-2": {
+    "height": 126,
+    "page": 34,
+    "src": "/handbook/nebraska/child-rear-facing-2.png",
+    "width": 730
+  },
+  "child-under-8": {
+    "height": 127,
+    "page": 34,
+    "src": "/handbook/nebraska/child-under-8.png",
+    "width": 730
+  },
+  "children-pets-unattended": {
+    "height": 126,
+    "page": 34,
+    "src": "/handbook/nebraska/children-pets-unattended.png",
+    "width": 733
+  },
+  "class-m-age": {
+    "height": 169,
+    "page": 15,
+    "src": "/handbook/nebraska/class-m-age.png",
+    "width": 730
+  },
+  "class-o-scope": {
+    "height": 146,
+    "page": 13,
+    "src": "/handbook/nebraska/class-o-scope.png",
+    "width": 730
+  },
+  "class-o-three-fails": {
+    "height": 166,
+    "page": 14,
+    "src": "/handbook/nebraska/class-o-three-fails.png",
+    "width": 589
+  },
+  "class-o-under-18": {
+    "height": 167,
+    "page": 13,
+    "src": "/handbook/nebraska/class-o-under-18.png",
+    "width": 730
+  },
+  "corrective-lenses": {
+    "height": 127,
+    "page": 19,
+    "src": "/handbook/nebraska/corrective-lenses.png",
+    "width": 737
+  },
+  "crash-exchange": {
+    "height": 107,
+    "page": 81,
+    "src": "/handbook/nebraska/crash-exchange.png",
+    "width": 733
+  },
+  "crash-failure-to-report": {
+    "height": 147,
+    "page": 81,
+    "src": "/handbook/nebraska/crash-failure-to-report.png",
+    "width": 733
+  },
+  "crash-report-1500": {
+    "height": 167,
+    "page": 81,
+    "src": "/handbook/nebraska/crash-report-1500.png",
+    "width": 733
+  },
+  "crash-risk-05-twice": {
+    "height": 127,
+    "page": 33,
+    "src": "/handbook/nebraska/crash-risk-05-twice.png",
+    "width": 697
+  },
+  "crash-risk-rise": {
+    "height": 127,
+    "page": 33,
+    "src": "/handbook/nebraska/crash-risk-rise.png",
+    "width": 697
+  },
+  "crash-stop-at-scene": {
+    "height": 107,
+    "page": 81,
+    "src": "/handbook/nebraska/crash-stop-at-scene.png",
+    "width": 733
+  },
+  "crash-witnesses": {
+    "height": 107,
+    "page": 81,
+    "src": "/handbook/nebraska/crash-witnesses.png",
+    "width": 733
+  },
+  "crossbuck": {
+    "height": 196,
+    "page": 43,
+    "src": "/handbook/nebraska/crossbuck.png",
+    "width": 613
+  },
+  "crosswalk-markings": {
+    "height": 167,
+    "page": 54,
+    "src": "/handbook/nebraska/crosswalk-markings.png",
+    "width": 730
+  },
+  "dark-signal-stop-sign": {
+    "height": 147,
+    "page": 39,
+    "src": "/handbook/nebraska/dark-signal-stop-sign.png",
+    "width": 613
+  },
+  "deer-dusk-dawn": {
+    "height": 127,
+    "page": 34,
+    "src": "/handbook/nebraska/deer-dusk-dawn.png",
+    "width": 733
+  },
+  "dialing-six-times": {
+    "height": 127,
+    "page": 72,
+    "src": "/handbook/nebraska/dialing-six-times.png",
+    "width": 613
+  },
+  "distraction-three-types": {
+    "height": 127,
+    "page": 71,
+    "src": "/handbook/nebraska/distraction-three-types.png",
+    "width": 730
+  },
+  "dont-veer-for-deer": {
+    "height": 127,
+    "page": 34,
+    "src": "/handbook/nebraska/dont-veer-for-deer.png",
+    "width": 733
+  },
+  "double-turning-lanes": {
+    "height": 107,
+    "page": 64,
+    "src": "/handbook/nebraska/double-turning-lanes.png",
+    "width": 613
+  },
+  "double-yellow-crossings": {
+    "height": 167,
+    "page": 52,
+    "src": "/handbook/nebraska/double-yellow-crossings.png",
+    "width": 613
+  },
+  "drive-test-maneuvers": {
+    "height": 253,
+    "page": 20,
+    "src": "/handbook/nebraska/drive-test-maneuvers.png",
+    "width": 613
+  },
+  "drive-test-vehicle": {
+    "height": 127,
+    "page": 19,
+    "src": "/handbook/nebraska/drive-test-vehicle.png",
+    "width": 737
+  },
+  "drowsy-doesnt-work": {
+    "height": 147,
+    "page": 74,
+    "src": "/handbook/nebraska/drowsy-doesnt-work.png",
+    "width": 691
+  },
+  "drowsy-nap": {
+    "height": 147,
+    "page": 73,
+    "src": "/handbook/nebraska/drowsy-nap.png",
+    "width": 733
+  },
+  "emergency-remain-stopped": {
+    "height": 107,
+    "page": 59,
+    "src": "/handbook/nebraska/emergency-remain-stopped.png",
+    "width": 736
+  },
+  "employment-drive-permit": {
+    "height": 147,
+    "page": 29,
+    "src": "/handbook/nebraska/employment-drive-permit.png",
+    "width": 730
+  },
+  "ens-sign": {
+    "height": 147,
+    "page": 66,
+    "src": "/handbook/nebraska/ens-sign.png",
+    "width": 734
+  },
+  "epilepsy": {
+    "height": 147,
+    "page": 35,
+    "src": "/handbook/nebraska/epilepsy.png",
+    "width": 730
+  },
+  "fines-doubled": {
+    "height": 127,
+    "page": 61,
+    "src": "/handbook/nebraska/fines-doubled.png",
+    "width": 730
+  },
+  "flashing-yellow-light": {
+    "height": 110,
+    "page": 39,
+    "src": "/handbook/nebraska/flashing-yellow-light.png",
+    "width": 613
+  },
+  "flooding-six-inches": {
+    "height": 127,
+    "page": 70,
+    "src": "/handbook/nebraska/flooding-six-inches.png",
+    "width": 730
+  },
+  "flooding-two-feet": {
+    "height": 127,
+    "page": 70,
+    "src": "/handbook/nebraska/flooding-two-feet.png",
+    "width": 730
+  },
+  "four-way-stop-duty": {
+    "height": 126,
+    "page": 57,
+    "src": "/handbook/nebraska/four-way-stop-duty.png",
+    "width": 730
+  },
+  "four-way-stop-tiebreak": {
+    "height": 127,
+    "page": 57,
+    "src": "/handbook/nebraska/four-way-stop-tiebreak.png",
+    "width": 730
+  },
+  "funeral-escort": {
+    "height": 129,
+    "page": 60,
+    "src": "/handbook/nebraska/funeral-escort.png",
+    "width": 613
+  },
+  "gdl-nighttime": {
+    "height": 127,
+    "page": 9,
+    "src": "/handbook/nebraska/gdl-nighttime.png",
+    "width": 733
+  },
+  "gdl-passengers": {
+    "height": 127,
+    "page": 9,
+    "src": "/handbook/nebraska/gdl-passengers.png",
+    "width": 733
+  },
+  "gdl-purpose": {
+    "height": 147,
+    "page": 9,
+    "src": "/handbook/nebraska/gdl-purpose.png",
+    "width": 733
+  },
+  "gdl-seat-belts": {
+    "height": 127,
+    "page": 9,
+    "src": "/handbook/nebraska/gdl-seat-belts.png",
+    "width": 733
+  },
+  "gdl-six-points": {
+    "height": 127,
+    "page": 9,
+    "src": "/handbook/nebraska/gdl-six-points.png",
+    "width": 733
+  },
+  "gdl-under-21-dwi": {
+    "height": 147,
+    "page": 9,
+    "src": "/handbook/nebraska/gdl-under-21-dwi.png",
+    "width": 733
+  },
+  "gdl-zero-tolerance": {
+    "height": 147,
+    "page": 9,
+    "src": "/handbook/nebraska/gdl-zero-tolerance.png",
+    "width": 733
+  },
+  "green-arrow": {
+    "height": 130,
+    "page": 40,
+    "src": "/handbook/nebraska/green-arrow.png",
+    "width": 613
+  },
+  "green-light": {
+    "height": 130,
+    "page": 39,
+    "src": "/handbook/nebraska/green-light.png",
+    "width": 613
+  },
+  "guide-signs": {
+    "height": 150,
+    "page": 50,
+    "src": "/handbook/nebraska/guide-signs.png",
+    "width": 505
+  },
+  "handicapped-access-aisles": {
+    "height": 127,
+    "page": 65,
+    "src": "/handbook/nebraska/handicapped-access-aisles.png",
+    "width": 730
+  },
+  "handicapped-parking-sign": {
+    "height": 130,
+    "page": 50,
+    "src": "/handbook/nebraska/handicapped-parking-sign.png",
+    "width": 505
+  },
+  "handicapped-stalls": {
+    "height": 106,
+    "page": 65,
+    "src": "/handbook/nebraska/handicapped-stalls.png",
+    "width": 730
+  },
+  "handsfree-not-safer": {
+    "height": 107,
+    "page": 72,
+    "src": "/handbook/nebraska/handsfree-not-safer.png",
+    "width": 613
+  },
+  "headlights-sunset-sunrise": {
+    "height": 107,
+    "page": 69,
+    "src": "/handbook/nebraska/headlights-sunset-sunrise.png",
+    "width": 734
+  },
+  "headlights-with-wipers": {
+    "height": 127,
+    "page": 74,
+    "src": "/handbook/nebraska/headlights-with-wipers.png",
+    "width": 730
+  },
+  "high-beams-200-feet": {
+    "height": 127,
+    "page": 69,
+    "src": "/handbook/nebraska/high-beams-200-feet.png",
+    "width": 734
+  },
+  "horn-sharp-blast": {
+    "height": 109,
+    "page": 74,
+    "src": "/handbook/nebraska/horn-sharp-blast.png",
+    "width": 730
+  },
+  "how-to-pass": {
+    "height": 107,
+    "page": 61,
+    "src": "/handbook/nebraska/how-to-pass.png",
+    "width": 730
+  },
+  "hybrid-beacon-dark": {
+    "height": 147,
+    "page": 41,
+    "src": "/handbook/nebraska/hybrid-beacon-dark.png",
+    "width": 613
+  },
+  "hybrid-beacon-flashing-red": {
+    "height": 127,
+    "page": 41,
+    "src": "/handbook/nebraska/hybrid-beacon-flashing-red.png",
+    "width": 613
+  },
+  "illegal-handheld": {
+    "height": 107,
+    "page": 73,
+    "src": "/handbook/nebraska/illegal-handheld.png",
+    "width": 613
+  },
+  "illegal-television": {
+    "height": 147,
+    "page": 73,
+    "src": "/handbook/nebraska/illegal-television.png",
+    "width": 613
+  },
+  "insurance-minimums-manual": {
+    "height": 127,
+    "page": 26,
+    "src": "/handbook/nebraska/insurance-minimums-manual.png",
+    "width": 613
+  },
+  "interstate-definition": {
+    "height": 107,
+    "page": 68,
+    "src": "/handbook/nebraska/interstate-definition.png",
+    "width": 560
+  },
+  "interstate-exit-planning": {
+    "height": 147,
+    "page": 68,
+    "src": "/handbook/nebraska/interstate-exit-planning.png",
+    "width": 730
+  },
+  "interstate-median": {
+    "height": 107,
+    "page": 68,
+    "src": "/handbook/nebraska/interstate-median.png",
+    "width": 730
+  },
+  "interstate-min-speed": {
+    "height": 107,
+    "page": 68,
+    "src": "/handbook/nebraska/interstate-min-speed.png",
+    "width": 730
+  },
+  "interstate-miss-exit": {
+    "height": 107,
+    "page": 68,
+    "src": "/handbook/nebraska/interstate-miss-exit.png",
+    "width": 730
+  },
+  "lane-change-steps": {
+    "height": 107,
+    "page": 63,
+    "src": "/handbook/nebraska/lane-change-steps.png",
+    "width": 494
+  },
+  "lane-use-green-arrow": {
+    "height": 107,
+    "page": 40,
+    "src": "/handbook/nebraska/lane-use-green-arrow.png",
+    "width": 598
+  },
+  "lane-use-red-x": {
+    "height": 107,
+    "page": 40,
+    "src": "/handbook/nebraska/lane-use-red-x.png",
+    "width": 406
+  },
+  "lane-use-yellow-x": {
+    "height": 127,
+    "page": 40,
+    "src": "/handbook/nebraska/lane-use-yellow-x.png",
+    "width": 613
+  },
+  "leaving-driveway": {
+    "height": 149,
+    "page": 59,
+    "src": "/handbook/nebraska/leaving-driveway.png",
+    "width": 730
+  },
+  "leaving-scene-revoked": {
+    "height": 126,
+    "page": 30,
+    "src": "/handbook/nebraska/leaving-scene-revoked.png",
+    "width": 730
+  },
+  "left-turn-lane": {
+    "height": 147,
+    "page": 63,
+    "src": "/handbook/nebraska/left-turn-lane.png",
+    "width": 730
+  },
+  "left-turn-on-red": {
+    "height": 150,
+    "page": 40,
+    "src": "/handbook/nebraska/left-turn-on-red.png",
+    "width": 730
+  },
+  "low-beams-fade": {
+    "height": 107,
+    "page": 69,
+    "src": "/handbook/nebraska/low-beams-fade.png",
+    "width": 734
+  },
+  "lpd-age": {
+    "height": 129,
+    "page": 11,
+    "src": "/handbook/nebraska/lpd-age.png",
+    "width": 730
+  },
+  "lpd-expiration": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/nebraska/lpd-expiration.png",
+    "width": 613
+  },
+  "lpd-purpose": {
+    "height": 106,
+    "page": 11,
+    "src": "/handbook/nebraska/lpd-purpose.png",
+    "width": 730
+  },
+  "lpd-supervision": {
+    "height": 106,
+    "page": 12,
+    "src": "/handbook/nebraska/lpd-supervision.png",
+    "width": 613
+  },
+  "lpe-age": {
+    "height": 109,
+    "page": 10,
+    "src": "/handbook/nebraska/lpe-age.png",
+    "width": 730
+  },
+  "lpe-expiration": {
+    "height": 109,
+    "page": 10,
+    "src": "/handbook/nebraska/lpe-expiration.png",
+    "width": 730
+  },
+  "lpe-purpose": {
+    "height": 126,
+    "page": 10,
+    "src": "/handbook/nebraska/lpe-purpose.png",
+    "width": 730
+  },
+  "manual-not-legal-reference": {
+    "height": 147,
+    "page": 88,
+    "src": "/handbook/nebraska/manual-not-legal-reference.png",
+    "width": 734
+  },
+  "max-speeds-high": {
+    "height": 107,
+    "page": 60,
+    "src": "/handbook/nebraska/max-speeds-high.png",
+    "width": 736
+  },
+  "max-speeds-low": {
+    "height": 106,
+    "page": 60,
+    "src": "/handbook/nebraska/max-speeds-low.png",
+    "width": 736
+  },
+  "medication-consult": {
+    "height": 107,
+    "page": 35,
+    "src": "/handbook/nebraska/medication-consult.png",
+    "width": 730
+  },
+  "mip-impound": {
+    "height": 126,
+    "page": 30,
+    "src": "/handbook/nebraska/mip-impound.png",
+    "width": 730
+  },
+  "moped-definition": {
+    "height": 147,
+    "page": 14,
+    "src": "/handbook/nebraska/moped-definition.png",
+    "width": 742
+  },
+  "motorcycle-following": {
+    "height": 107,
+    "page": 76,
+    "src": "/handbook/nebraska/motorcycle-following.png",
+    "width": 730
+  },
+  "motorcycle-full-lane": {
+    "height": 107,
+    "page": 76,
+    "src": "/handbook/nebraska/motorcycle-full-lane.png",
+    "width": 730
+  },
+  "motorcycle-left-turn-crashes": {
+    "height": 147,
+    "page": 76,
+    "src": "/handbook/nebraska/motorcycle-left-turn-crashes.png",
+    "width": 730
+  },
+  "motorcycle-signals": {
+    "height": 167,
+    "page": 76,
+    "src": "/handbook/nebraska/motorcycle-signals.png",
+    "width": 730
+  },
+  "move-crashes-shoulder": {
+    "height": 147,
+    "page": 59,
+    "src": "/handbook/nebraska/move-crashes-shoulder.png",
+    "width": 730
+  },
+  "name-address-60-days": {
+    "height": 127,
+    "page": 24,
+    "src": "/handbook/nebraska/name-address-60-days.png",
+    "width": 691
+  },
+  "new-resident-30-days": {
+    "height": 127,
+    "page": 9,
+    "src": "/handbook/nebraska/new-resident-30-days.png",
+    "width": 733
+  },
+  "night-speed-headlights": {
+    "height": 107,
+    "page": 69,
+    "src": "/handbook/nebraska/night-speed-headlights.png",
+    "width": 734
+  },
+  "nitrous-oxide": {
+    "height": 107,
+    "page": 35,
+    "src": "/handbook/nebraska/nitrous-oxide.png",
+    "width": 728
+  },
+  "no-abs-pump": {
+    "height": 149,
+    "page": 71,
+    "src": "/handbook/nebraska/no-abs-pump.png",
+    "width": 613
+  },
+  "no-park-20-crosswalk": {
+    "height": 107,
+    "page": 65,
+    "src": "/handbook/nebraska/no-park-20-crosswalk.png",
+    "width": 730
+  },
+  "no-park-beside": {
+    "height": 106,
+    "page": 65,
+    "src": "/handbook/nebraska/no-park-beside.png",
+    "width": 730
+  },
+  "no-park-bridge-rail": {
+    "height": 107,
+    "page": 65,
+    "src": "/handbook/nebraska/no-park-bridge-rail.png",
+    "width": 730
+  },
+  "no-permit-with-id": {
+    "height": 107,
+    "page": 25,
+    "src": "/handbook/nebraska/no-permit-with-id.png",
+    "width": 733
+  },
+  "no-turn-on-red-arrow": {
+    "height": 110,
+    "page": 40,
+    "src": "/handbook/nebraska/no-turn-on-red-arrow.png",
+    "width": 730
+  },
+  "no-zone-definition": {
+    "height": 146,
+    "page": 79,
+    "src": "/handbook/nebraska/no-zone-definition.png",
+    "width": 730
+  },
+  "no-zone-passing": {
+    "height": 166,
+    "page": 80,
+    "src": "/handbook/nebraska/no-zone-passing.png",
+    "width": 614
+  },
+  "no-zone-rear": {
+    "height": 129,
+    "page": 80,
+    "src": "/handbook/nebraska/no-zone-rear.png",
+    "width": 614
+  },
+  "no-zone-side": {
+    "height": 149,
+    "page": 80,
+    "src": "/handbook/nebraska/no-zone-side.png",
+    "width": 614
+  },
+  "occupant-protection-law": {
+    "height": 126,
+    "page": 34,
+    "src": "/handbook/nebraska/occupant-protection-law.png",
+    "width": 730
+  },
+  "only-time": {
+    "height": 107,
+    "page": 33,
+    "src": "/handbook/nebraska/only-time.png",
+    "width": 697
+  },
+  "open-container": {
+    "height": 147,
+    "page": 32,
+    "src": "/handbook/nebraska/open-container.png",
+    "width": 734
+  },
+  "organ-donor-16": {
+    "height": 106,
+    "page": 22,
+    "src": "/handbook/nebraska/organ-donor-16.png",
+    "width": 733
+  },
+  "parking-lights-unlawful": {
+    "height": 107,
+    "page": 69,
+    "src": "/handbook/nebraska/parking-lights-unlawful.png",
+    "width": 734
+  },
+  "parking-on-hills": {
+    "height": 146,
+    "page": 65,
+    "src": "/handbook/nebraska/parking-on-hills.png",
+    "width": 730
+  },
+  "passing-100-feet": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/nebraska/passing-100-feet.png",
+    "width": 669
+  },
+  "passing-parked-cars": {
+    "height": 107,
+    "page": 62,
+    "src": "/handbook/nebraska/passing-parked-cars.png",
+    "width": 730
+  },
+  "passing-return": {
+    "height": 127,
+    "page": 61,
+    "src": "/handbook/nebraska/passing-return.png",
+    "width": 730
+  },
+  "ped-blind-stop": {
+    "height": 147,
+    "page": 77,
+    "src": "/handbook/nebraska/ped-blind-stop.png",
+    "width": 733
+  },
+  "ped-complete-stop-behind": {
+    "height": 127,
+    "page": 77,
+    "src": "/handbook/nebraska/ped-complete-stop-behind.png",
+    "width": 733
+  },
+  "ped-crosswalk-yield": {
+    "height": 126,
+    "page": 60,
+    "src": "/handbook/nebraska/ped-crosswalk-yield.png",
+    "width": 730
+  },
+  "ped-do-not-pass-stopped": {
+    "height": 127,
+    "page": 77,
+    "src": "/handbook/nebraska/ped-do-not-pass-stopped.png",
+    "width": 733
+  },
+  "ped-three-feet": {
+    "height": 127,
+    "page": 60,
+    "src": "/handbook/nebraska/ped-three-feet.png",
+    "width": 730
+  },
+  "pedestrians-expect": {
+    "height": 106,
+    "page": 77,
+    "src": "/handbook/nebraska/pedestrians-expect.png",
+    "width": 733
+  },
+  "penny-test": {
+    "height": 127,
+    "page": 38,
+    "src": "/handbook/nebraska/penny-test.png",
+    "width": 733
+  },
+  "permit-violation-age-16": {
+    "height": 147,
+    "page": 26,
+    "src": "/handbook/nebraska/permit-violation-age-16.png",
+    "width": 613
+  },
+  "points-date-of-violation": {
+    "height": 127,
+    "page": 27,
+    "src": "/handbook/nebraska/points-date-of-violation.png",
+    "width": 618
+  },
+  "pop-accompanied": {
+    "height": 147,
+    "page": 12,
+    "src": "/handbook/nebraska/pop-accompanied.png",
+    "width": 740
+  },
+  "pop-age": {
+    "height": 129,
+    "page": 12,
+    "src": "/handbook/nebraska/pop-age.png",
+    "width": 740
+  },
+  "pop-belts": {
+    "height": 127,
+    "page": 13,
+    "src": "/handbook/nebraska/pop-belts.png",
+    "width": 613
+  },
+  "pop-expiration": {
+    "height": 109,
+    "page": 13,
+    "src": "/handbook/nebraska/pop-expiration.png",
+    "width": 613
+  },
+  "pop-hours": {
+    "height": 126,
+    "page": 12,
+    "src": "/handbook/nebraska/pop-hours.png",
+    "width": 740
+  },
+  "pop-night-exception": {
+    "height": 147,
+    "page": 12,
+    "src": "/handbook/nebraska/pop-night-exception.png",
+    "width": 740
+  },
+  "pop-scp-all-buckled": {
+    "height": 127,
+    "page": 34,
+    "src": "/handbook/nebraska/pop-scp-all-buckled.png",
+    "width": 730
+  },
+  "pop-six-months": {
+    "height": 167,
+    "page": 12,
+    "src": "/handbook/nebraska/pop-six-months.png",
+    "width": 740
+  },
+  "practice-airbag-risk": {
+    "height": 151,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-airbag-risk.png",
+    "width": 370
+  },
+  "practice-bac-by-age": {
+    "height": 135,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-bac-by-age.png",
+    "width": 369
+  },
+  "practice-exam-note": {
+    "height": 136,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-exam-note.png",
+    "width": 733
+  },
+  "practice-flagpersons": {
+    "height": 103,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-flagpersons.png",
+    "width": 365
+  },
+  "practice-four-way-stop": {
+    "height": 119,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-four-way-stop.png",
+    "width": 359
+  },
+  "practice-hand-signal-left": {
+    "height": 119,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-hand-signal-left.png",
+    "width": 355
+  },
+  "practice-motorcycle-position": {
+    "height": 119,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-motorcycle-position.png",
+    "width": 352
+  },
+  "practice-no-speeding-passing": {
+    "height": 119,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-no-speeding-passing.png",
+    "width": 368
+  },
+  "practice-ped-green-light": {
+    "height": 119,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-ped-green-light.png",
+    "width": 348
+  },
+  "practice-solid-yellow": {
+    "height": 119,
+    "page": 84,
+    "src": "/handbook/nebraska/practice-solid-yellow.png",
+    "width": 361
+  },
+  "primary-law": {
+    "height": 129,
+    "page": 33,
+    "src": "/handbook/nebraska/primary-law.png",
+    "width": 730
+  },
+  "providing-alcohol-minor": {
+    "height": 127,
+    "page": 32,
+    "src": "/handbook/nebraska/providing-alcohol-minor.png",
+    "width": 734
+  },
+  "pulled-over-hands": {
+    "height": 127,
+    "page": 36,
+    "src": "/handbook/nebraska/pulled-over-hands.png",
+    "width": 692
+  },
+  "pulled-over-interior-lights": {
+    "height": 127,
+    "page": 36,
+    "src": "/handbook/nebraska/pulled-over-interior-lights.png",
+    "width": 692
+  },
+  "pulled-over-signal": {
+    "height": 127,
+    "page": 35,
+    "src": "/handbook/nebraska/pulled-over-signal.png",
+    "width": 733
+  },
+  "pulled-over-weapon": {
+    "height": 107,
+    "page": 36,
+    "src": "/handbook/nebraska/pulled-over-weapon.png",
+    "width": 692
+  },
+  "reaction-time-04": {
+    "height": 147,
+    "page": 32,
+    "src": "/handbook/nebraska/reaction-time-04.png",
+    "width": 734
+  },
+  "red-arrow": {
+    "height": 150,
+    "page": 40,
+    "src": "/handbook/nebraska/red-arrow.png",
+    "width": 613
+  },
+  "red-light": {
+    "height": 130,
+    "page": 39,
+    "src": "/handbook/nebraska/red-light.png",
+    "width": 613
+  },
+  "reference-post": {
+    "height": 130,
+    "page": 50,
+    "src": "/handbook/nebraska/reference-post.png",
+    "width": 505
+  },
+  "refusal-one-year": {
+    "height": 107,
+    "page": 32,
+    "src": "/handbook/nebraska/refusal-one-year.png",
+    "width": 734
+  },
+  "reg-red-circle-slash": {
+    "height": 127,
+    "page": 44,
+    "src": "/handbook/nebraska/reg-red-circle-slash.png",
+    "width": 730
+  },
+  "reg-speed-limit-sign": {
+    "height": 130,
+    "page": 44,
+    "src": "/handbook/nebraska/reg-speed-limit-sign.png",
+    "width": 614
+  },
+  "reg-stop-sign": {
+    "height": 150,
+    "page": 44,
+    "src": "/handbook/nebraska/reg-stop-sign.png",
+    "width": 614
+  },
+  "reg-yield-sign": {
+    "height": 110,
+    "page": 44,
+    "src": "/handbook/nebraska/reg-yield-sign.png",
+    "width": 609
+  },
+  "required-equipment": {
+    "height": 106,
+    "page": 37,
+    "src": "/handbook/nebraska/required-equipment.png",
+    "width": 585
+  },
+  "retest-same-day": {
+    "height": 107,
+    "page": 20,
+    "src": "/handbook/nebraska/retest-same-day.png",
+    "width": 730
+  },
+  "right-turn-close": {
+    "height": 127,
+    "page": 63,
+    "src": "/handbook/nebraska/right-turn-close.png",
+    "width": 730
+  },
+  "right-turn-on-red": {
+    "height": 130,
+    "page": 40,
+    "src": "/handbook/nebraska/right-turn-on-red.png",
+    "width": 730
+  },
+  "roadside-stop-12-inches": {
+    "height": 107,
+    "page": 64,
+    "src": "/handbook/nebraska/roadside-stop-12-inches.png",
+    "width": 730
+  },
+  "roadside-stop-gear": {
+    "height": 107,
+    "page": 64,
+    "src": "/handbook/nebraska/roadside-stop-gear.png",
+    "width": 615
+  },
+  "roundabout-counterclockwise": {
+    "height": 127,
+    "page": 57,
+    "src": "/handbook/nebraska/roundabout-counterclockwise.png",
+    "width": 730
+  },
+  "roundabout-dual-lane": {
+    "height": 107,
+    "page": 57,
+    "src": "/handbook/nebraska/roundabout-dual-lane.png",
+    "width": 730
+  },
+  "roundabout-emergency": {
+    "height": 147,
+    "page": 57,
+    "src": "/handbook/nebraska/roundabout-emergency.png",
+    "width": 730
+  },
+  "roundabout-rules": {
+    "height": 107,
+    "page": 57,
+    "src": "/handbook/nebraska/roundabout-rules.png",
+    "width": 730
+  },
+  "roundabout-truck-apron": {
+    "height": 127,
+    "page": 57,
+    "src": "/handbook/nebraska/roundabout-truck-apron.png",
+    "width": 730
+  },
+  "row-drive-defensively": {
+    "height": 107,
+    "page": 56,
+    "src": "/handbook/nebraska/row-drive-defensively.png",
+    "width": 609
+  },
+  "row-uncontrolled": {
+    "height": 169,
+    "page": 56,
+    "src": "/handbook/nebraska/row-uncontrolled.png",
+    "width": 730
+  },
+  "rr-after-stopping": {
+    "height": 107,
+    "page": 66,
+    "src": "/handbook/nebraska/rr-after-stopping.png",
+    "width": 730
+  },
+  "rr-approach-speed": {
+    "height": 127,
+    "page": 66,
+    "src": "/handbook/nebraska/rr-approach-speed.png",
+    "width": 730
+  },
+  "rr-expect-train": {
+    "height": 107,
+    "page": 66,
+    "src": "/handbook/nebraska/rr-expect-train.png",
+    "width": 730
+  },
+  "rr-gates-never-drive-around": {
+    "height": 127,
+    "page": 43,
+    "src": "/handbook/nebraska/rr-gates-never-drive-around.png",
+    "width": 541
+  },
+  "rr-never-beat-train": {
+    "height": 127,
+    "page": 67,
+    "src": "/handbook/nebraska/rr-never-beat-train.png",
+    "width": 730
+  },
+  "rr-never-drive-under-gate": {
+    "height": 107,
+    "page": 66,
+    "src": "/handbook/nebraska/rr-never-drive-under-gate.png",
+    "width": 730
+  },
+  "rr-stalled-vehicle": {
+    "height": 107,
+    "page": 66,
+    "src": "/handbook/nebraska/rr-stalled-vehicle.png",
+    "width": 737
+  },
+  "rr-stop-15-50": {
+    "height": 127,
+    "page": 66,
+    "src": "/handbook/nebraska/rr-stop-15-50.png",
+    "width": 730
+  },
+  "rumble-strips": {
+    "height": 167,
+    "page": 54,
+    "src": "/handbook/nebraska/rumble-strips.png",
+    "width": 730
+  },
+  "scan-10-15-seconds": {
+    "height": 107,
+    "page": 74,
+    "src": "/handbook/nebraska/scan-10-15-seconds.png",
+    "width": 730
+  },
+  "school-zone-speed": {
+    "height": 107,
+    "page": 61,
+    "src": "/handbook/nebraska/school-zone-speed.png",
+    "width": 730
+  },
+  "scp-accompanied": {
+    "height": 107,
+    "page": 10,
+    "src": "/handbook/nebraska/scp-accompanied.png",
+    "width": 730
+  },
+  "scp-age": {
+    "height": 129,
+    "page": 10,
+    "src": "/handbook/nebraska/scp-age.png",
+    "width": 730
+  },
+  "scp-belts": {
+    "height": 127,
+    "page": 11,
+    "src": "/handbook/nebraska/scp-belts.png",
+    "width": 624
+  },
+  "scp-city-5000": {
+    "height": 126,
+    "page": 10,
+    "src": "/handbook/nebraska/scp-city-5000.png",
+    "width": 730
+  },
+  "scp-expiration": {
+    "height": 109,
+    "page": 11,
+    "src": "/handbook/nebraska/scp-expiration.png",
+    "width": 624
+  },
+  "secondary-law": {
+    "height": 127,
+    "page": 33,
+    "src": "/handbook/nebraska/secondary-law.png",
+    "width": 730
+  },
+  "service-signs": {
+    "height": 130,
+    "page": 50,
+    "src": "/handbook/nebraska/service-signs.png",
+    "width": 505
+  },
+  "shape-diamond": {
+    "height": 156,
+    "page": 43,
+    "src": "/handbook/nebraska/shape-diamond.png",
+    "width": 613
+  },
+  "shape-octagon": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/nebraska/shape-octagon.png",
+    "width": 473
+  },
+  "shape-pennant": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/nebraska/shape-pennant.png",
+    "width": 325
+  },
+  "shape-rectangle": {
+    "height": 156,
+    "page": 43,
+    "src": "/handbook/nebraska/shape-rectangle.png",
+    "width": 613
+  },
+  "shape-triangle": {
+    "height": 136,
+    "page": 43,
+    "src": "/handbook/nebraska/shape-triangle.png",
+    "width": 464
+  },
+  "shared-lane-three-feet": {
+    "height": 127,
+    "page": 55,
+    "src": "/handbook/nebraska/shared-lane-three-feet.png",
+    "width": 613
+  },
+  "shared-left-turn-caution": {
+    "height": 146,
+    "page": 53,
+    "src": "/handbook/nebraska/shared-left-turn-caution.png",
+    "width": 730
+  },
+  "sign-colors-red-yellow": {
+    "height": 110,
+    "page": 42,
+    "src": "/handbook/nebraska/sign-colors-red-yellow.png",
+    "width": 391
+  },
+  "sign-colors-rest": {
+    "height": 110,
+    "page": 42,
+    "src": "/handbook/nebraska/sign-colors-rest.png",
+    "width": 478
+  },
+  "signal-100-feet": {
+    "height": 107,
+    "page": 62,
+    "src": "/handbook/nebraska/signal-100-feet.png",
+    "width": 648
+  },
+  "slow-moving-emblem": {
+    "height": 150,
+    "page": 50,
+    "src": "/handbook/nebraska/slow-moving-emblem.png",
+    "width": 505
+  },
+  "snow-ice": {
+    "height": 107,
+    "page": 70,
+    "src": "/handbook/nebraska/snow-ice.png",
+    "width": 554
+  },
+  "snow-removal-100-feet": {
+    "height": 127,
+    "page": 78,
+    "src": "/handbook/nebraska/snow-removal-100-feet.png",
+    "width": 733
+  },
+  "snow-removal-passing": {
+    "height": 127,
+    "page": 78,
+    "src": "/handbook/nebraska/snow-removal-passing.png",
+    "width": 733
+  },
+  "solid-and-broken-yellow": {
+    "height": 127,
+    "page": 52,
+    "src": "/handbook/nebraska/solid-and-broken-yellow.png",
+    "width": 613
+  },
+  "solid-white-turn-lanes": {
+    "height": 127,
+    "page": 53,
+    "src": "/handbook/nebraska/solid-white-turn-lanes.png",
+    "width": 357
+  },
+  "space-both-sides": {
+    "height": 129,
+    "page": 75,
+    "src": "/handbook/nebraska/space-both-sides.png",
+    "width": 589
+  },
+  "speed-reasonable": {
+    "height": 126,
+    "page": 60,
+    "src": "/handbook/nebraska/speed-reasonable.png",
+    "width": 733
+  },
+  "steering-lock": {
+    "height": 127,
+    "page": 37,
+    "src": "/handbook/nebraska/steering-lock.png",
+    "width": 733
+  },
+  "stop-lines": {
+    "height": 107,
+    "page": 54,
+    "src": "/handbook/nebraska/stop-lines.png",
+    "width": 730
+  },
+  "studded-tires": {
+    "height": 107,
+    "page": 71,
+    "src": "/handbook/nebraska/studded-tires.png",
+    "width": 613
+  },
+  "tap-brakes": {
+    "height": 129,
+    "page": 74,
+    "src": "/handbook/nebraska/tap-brakes.png",
+    "width": 730
+  },
+  "texting-23-times": {
+    "height": 127,
+    "page": 72,
+    "src": "/handbook/nebraska/texting-23-times.png",
+    "width": 613
+  },
+  "texting-fine": {
+    "height": 107,
+    "page": 72,
+    "src": "/handbook/nebraska/texting-fine.png",
+    "width": 613
+  },
+  "texting-football-field": {
+    "height": 147,
+    "page": 72,
+    "src": "/handbook/nebraska/texting-football-field.png",
+    "width": 613
+  },
+  "three-second-adversity": {
+    "height": 129,
+    "page": 75,
+    "src": "/handbook/nebraska/three-second-adversity.png",
+    "width": 589
+  },
+  "three-second-count": {
+    "height": 133,
+    "page": 74,
+    "src": "/handbook/nebraska/three-second-count.png",
+    "width": 730
+  },
+  "three-second-rule": {
+    "height": 107,
+    "page": 74,
+    "src": "/handbook/nebraska/three-second-rule.png",
+    "width": 730
+  },
+  "tire-tread-depth": {
+    "height": 107,
+    "page": 37,
+    "src": "/handbook/nebraska/tire-tread-depth.png",
+    "width": 585
+  },
+  "tracking-05": {
+    "height": 126,
+    "page": 33,
+    "src": "/handbook/nebraska/tracking-05.png",
+    "width": 697
+  },
+  "truck-340-feet": {
+    "height": 146,
+    "page": 79,
+    "src": "/handbook/nebraska/truck-340-feet.png",
+    "width": 730
+  },
+  "truck-air-brakes": {
+    "height": 147,
+    "page": 79,
+    "src": "/handbook/nebraska/truck-air-brakes.png",
+    "width": 730
+  },
+  "truck-hazmat": {
+    "height": 127,
+    "page": 79,
+    "src": "/handbook/nebraska/truck-hazmat.png",
+    "width": 730
+  },
+  "truck-wide-turns": {
+    "height": 169,
+    "page": 80,
+    "src": "/handbook/nebraska/truck-wide-turns.png",
+    "width": 614
+  },
+  "turn-arrow-only": {
+    "height": 207,
+    "page": 53,
+    "src": "/handbook/nebraska/turn-arrow-only.png",
+    "width": 357
+  },
+  "turn-on-red-stop-first": {
+    "height": 127,
+    "page": 40,
+    "src": "/handbook/nebraska/turn-on-red-stop-first.png",
+    "width": 730
+  },
+  "twelve-points": {
+    "height": 126,
+    "page": 26,
+    "src": "/handbook/nebraska/twelve-points.png",
+    "width": 730
+  },
+  "two-way-left-turn-lane": {
+    "height": 147,
+    "page": 54,
+    "src": "/handbook/nebraska/two-way-left-turn-lane.png",
+    "width": 730
+  },
+  "two-way-stops": {
+    "height": 107,
+    "page": 56,
+    "src": "/handbook/nebraska/two-way-stops.png",
+    "width": 723
+  },
+  "under-21-expiry": {
+    "height": 106,
+    "page": 23,
+    "src": "/handbook/nebraska/under-21-expiry.png",
+    "width": 738
+  },
+  "underage-02-impound": {
+    "height": 127,
+    "page": 28,
+    "src": "/handbook/nebraska/underage-02-impound.png",
+    "width": 730
+  },
+  "vision-05": {
+    "height": 127,
+    "page": 33,
+    "src": "/handbook/nebraska/vision-05.png",
+    "width": 697
+  },
+  "vision-test": {
+    "height": 127,
+    "page": 19,
+    "src": "/handbook/nebraska/vision-test.png",
+    "width": 737
+  },
+  "warn-advisory-plaque": {
+    "height": 110,
+    "page": 48,
+    "src": "/handbook/nebraska/warn-advisory-plaque.png",
+    "width": 609
+  },
+  "warn-curve": {
+    "height": 130,
+    "page": 48,
+    "src": "/handbook/nebraska/warn-curve.png",
+    "width": 613
+  },
+  "warn-deer-anywhere": {
+    "height": 127,
+    "page": 47,
+    "src": "/handbook/nebraska/warn-deer-anywhere.png",
+    "width": 614
+  },
+  "warn-deer-crossing": {
+    "height": 130,
+    "page": 47,
+    "src": "/handbook/nebraska/warn-deer-crossing.png",
+    "width": 614
+  },
+  "warn-hill": {
+    "height": 110,
+    "page": 47,
+    "src": "/handbook/nebraska/warn-hill.png",
+    "width": 469
+  },
+  "warn-horse-drawn": {
+    "height": 150,
+    "page": 47,
+    "src": "/handbook/nebraska/warn-horse-drawn.png",
+    "width": 614
+  },
+  "warn-lane-ends": {
+    "height": 110,
+    "page": 47,
+    "src": "/handbook/nebraska/warn-lane-ends.png",
+    "width": 614
+  },
+  "warn-low-clearance": {
+    "height": 130,
+    "page": 47,
+    "src": "/handbook/nebraska/warn-low-clearance.png",
+    "width": 614
+  },
+  "warn-no-train-horn": {
+    "height": 149,
+    "page": 49,
+    "src": "/handbook/nebraska/warn-no-train-horn.png",
+    "width": 613
+  },
+  "warn-ped-crossing": {
+    "height": 130,
+    "page": 48,
+    "src": "/handbook/nebraska/warn-ped-crossing.png",
+    "width": 613
+  },
+  "warn-purpose": {
+    "height": 107,
+    "page": 46,
+    "src": "/handbook/nebraska/warn-purpose.png",
+    "width": 568
+  },
+  "warn-reverse-curve": {
+    "height": 110,
+    "page": 48,
+    "src": "/handbook/nebraska/warn-reverse-curve.png",
+    "width": 613
+  },
+  "warn-reverse-turn": {
+    "height": 110,
+    "page": 48,
+    "src": "/handbook/nebraska/warn-reverse-turn.png",
+    "width": 613
+  },
+  "warn-roundabout": {
+    "height": 150,
+    "page": 49,
+    "src": "/handbook/nebraska/warn-roundabout.png",
+    "width": 622
+  },
+  "warn-school-advance": {
+    "height": 130,
+    "page": 48,
+    "src": "/handbook/nebraska/warn-school-advance.png",
+    "width": 613
+  },
+  "warn-school-crossing": {
+    "height": 130,
+    "page": 48,
+    "src": "/handbook/nebraska/warn-school-crossing.png",
+    "width": 613
+  },
+  "warn-sideroad": {
+    "height": 130,
+    "page": 49,
+    "src": "/handbook/nebraska/warn-sideroad.png",
+    "width": 614
+  },
+  "warn-slippery": {
+    "height": 130,
+    "page": 47,
+    "src": "/handbook/nebraska/warn-slippery.png",
+    "width": 614
+  },
+  "warn-winding": {
+    "height": 129,
+    "page": 49,
+    "src": "/handbook/nebraska/warn-winding.png",
+    "width": 613
+  },
+  "watch-posted-signs": {
+    "height": 107,
+    "page": 60,
+    "src": "/handbook/nebraska/watch-posted-signs.png",
+    "width": 736
+  },
+  "wheels-off-pavement": {
+    "height": 107,
+    "page": 71,
+    "src": "/handbook/nebraska/wheels-off-pavement.png",
+    "width": 730
+  },
+  "wheels-off-return": {
+    "height": 127,
+    "page": 71,
+    "src": "/handbook/nebraska/wheels-off-return.png",
+    "width": 730
+  },
+  "white-cane": {
+    "height": 126,
+    "page": 60,
+    "src": "/handbook/nebraska/white-cane.png",
+    "width": 730
+  },
+  "who-must-have": {
+    "height": 127,
+    "page": 9,
+    "src": "/handbook/nebraska/who-must-have.png",
+    "width": 733
+  },
+  "work-zone-black-on-orange": {
+    "height": 127,
+    "page": 51,
+    "src": "/handbook/nebraska/work-zone-black-on-orange.png",
+    "width": 730
+  },
+  "work-zone-orange": {
+    "height": 127,
+    "page": 51,
+    "src": "/handbook/nebraska/work-zone-orange.png",
+    "width": 730
+  },
+  "written-test-per-class": {
+    "height": 147,
+    "page": 19,
+    "src": "/handbook/nebraska/written-test-per-class.png",
+    "width": 737
+  },
+  "wrong-way-do-not-enter": {
+    "height": 110,
+    "page": 45,
+    "src": "/handbook/nebraska/wrong-way-do-not-enter.png",
+    "width": 595
+  },
+  "yellow-light": {
+    "height": 150,
+    "page": 39,
+    "src": "/handbook/nebraska/yellow-light.png",
+    "width": 613
+  },
+  "zero-tolerance-under-21": {
+    "height": 127,
+    "page": 32,
+    "src": "/handbook/nebraska/zero-tolerance-under-21.png",
+    "width": 734
+  }
+}

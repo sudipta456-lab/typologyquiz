@@ -393,6 +393,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "nebraska",
+    "name": "Nebraska",
+    "code": "NE",
+    "country": "US",
+    "licenceName": "Learner's Permit (LPD)",
+    "intro": "Nebraska runs more entry-level permits than almost any other state - a Farm Husbandry Permit from 13, a School Learner's Permit from 14, a School Permit from 14 years and two months, the ordinary Learner's Permit (LPD) from 15, and a Provisional Operator's Permit from 16 - and the same 25-question written test stands in front of most of them. The Nebraska Department of Motor Vehicles writes it from the Nebraska Driver's Manual, whose current edition is dated January 2025. This bank is built on that edition, with Chapter 60 of the Nebraska Revised Statutes filling the numbers the manual leaves out and the DMV's own examiner manual supplying the test format the Driver's Manual never states.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "nevada",
     "name": "Nevada",
     "code": "NV",
@@ -505,4 +516,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 8641;
+export const TOTAL_DRIVING_QUESTIONS = 8836;
