@@ -24,6 +24,28 @@ binding = "ASSETS"
 # Match Next.js trailingSlash: true
 not_found_handling = "404-page"
 html_handling = "force-trailing-slash"
+# By DEFAULT, a request matching a static asset is served directly and the
+# Worker's fetch handler never runs at all - which is what made the R2
+# handbook code below dead code the first time this was tried, and every
+# check of it was silently passing against the bundled copy instead of R2.
+#
+# The fix is NOT a scoped path list. Scoping run_worker_first to just
+# "/handbook/*" was tried first and broke every POST endpoint on the site -
+# /api/stats and /api/short both started returning a platform-level 405 with
+# an empty body (not this worker's own JSON error shape) the moment the array
+# was set, because Cloudflare's asset router treats an explicit
+# run_worker_first list as an instruction to fall back to STRICT asset
+# semantics for every path NOT on the list: GET/HEAD only, everything else
+# auto-rejected before the Worker ever runs. Confirmed live: a POST to
+# /api/stats/mental-age, unchanged in months, started 405ing the moment this
+# was scoped.
+#
+# `true` restores worker-first for every request, matching what the site
+# always relied on, and the worker's own routing (this file's fetch handler)
+# decides per-path whether to serve from R2, KV, or fall through to
+# env.ASSETS.fetch(request) - which it already does at the bottom for
+# everything not otherwise claimed.
+run_worker_first = true
 
 # Per-quiz score histograms for "you beat X% of players".
 [[kv_namespaces]]
@@ -44,6 +66,6 @@ id = "06aff94ce51f4aa39c8d2f868f631dbd"
 #
 # Create with:  npx wrangler r2 bucket create typologyquiz-handbook
 # Fill with:    node scripts/upload-handbook-r2.mjs
-#[[r2_buckets]]
-#binding = "HANDBOOK"
-#bucket_name = "typologyquiz-handbook"
+[[r2_buckets]]
+binding = "HANDBOOK"
+bucket_name = "typologyquiz-handbook"

@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "pages:build": "npm run build",
-    "deploy": "npm run build && npx tsx scripts/prune-unreachable-snippets.mjs && wrangler deploy",
+    "deploy": "npm run build && npx tsx scripts/strip-bundled-handbook.mjs && wrangler deploy",
     "prebuild": "npx tsx scripts/sweep-debris.mjs && npx tsx scripts/generate-driving-summary.mjs && npx tsx scripts/generate-llms-txt.mjs && npx tsx scripts/generate-og-cards.mjs"
   },
   "dependencies": {
@@ -25,6 +25,7 @@
     "eslint-config-next": "16.2.10",
     "sharp": "0.35.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "4.129.0"
   }
 }
