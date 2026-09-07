@@ -1,0 +1,2126 @@
+{
+  "animals-dawn-dusk": {
+    "height": 140,
+    "page": 71,
+    "src": "/handbook/montana/animals-dawn-dusk.png",
+    "width": 1151
+  },
+  "animals-do-not-swerve": {
+    "height": 166,
+    "page": 71,
+    "src": "/handbook/montana/animals-do-not-swerve.png",
+    "width": 1091
+  },
+  "animals-herds": {
+    "height": 117,
+    "page": 71,
+    "src": "/handbook/montana/animals-herds.png",
+    "width": 1091
+  },
+  "animals-no-horn": {
+    "height": 164,
+    "page": 78,
+    "src": "/handbook/montana/animals-no-horn.png",
+    "width": 1107
+  },
+  "animals-right-of-way": {
+    "height": 140,
+    "page": 77,
+    "src": "/handbook/montana/animals-right-of-way.png",
+    "width": 1058
+  },
+  "backing-check-behind-first": {
+    "height": 116,
+    "page": 65,
+    "src": "/handbook/montana/backing-check-behind-first.png",
+    "width": 1043
+  },
+  "backing-look-through-window": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/montana/backing-look-through-window.png",
+    "width": 1043
+  },
+  "backing-never-in-lane": {
+    "height": 139,
+    "page": 47,
+    "src": "/handbook/montana/backing-never-in-lane.png",
+    "width": 1051
+  },
+  "belt-airbag-both": {
+    "height": 211,
+    "page": 29,
+    "src": "/handbook/montana/belt-airbag-both.png",
+    "width": 971
+  },
+  "belt-driver-responsible": {
+    "height": 165,
+    "page": 29,
+    "src": "/handbook/montana/belt-driver-responsible.png",
+    "width": 961
+  },
+  "belt-exceptions": {
+    "height": 118,
+    "page": 30,
+    "src": "/handbook/montana/belt-exceptions.png",
+    "width": 425
+  },
+  "belt-required": {
+    "height": 141,
+    "page": 26,
+    "src": "/handbook/montana/belt-required.png",
+    "width": 1103
+  },
+  "bike-brake-skid": {
+    "height": 116,
+    "page": 54,
+    "src": "/handbook/montana/bike-brake-skid.png",
+    "width": 1116
+  },
+  "bike-do-not-honk": {
+    "height": 140,
+    "page": 54,
+    "src": "/handbook/montana/bike-do-not-honk.png",
+    "width": 1083
+  },
+  "bike-five-feet": {
+    "height": 164,
+    "page": 53,
+    "src": "/handbook/montana/bike-five-feet.png",
+    "width": 1156
+  },
+  "bike-in-lane-position": {
+    "height": 140,
+    "page": 53,
+    "src": "/handbook/montana/bike-in-lane-position.png",
+    "width": 1159
+  },
+  "bike-lights-500": {
+    "height": 116,
+    "page": 54,
+    "src": "/handbook/montana/bike-lights-500.png",
+    "width": 1079
+  },
+  "bike-motorist-duties": {
+    "height": 116,
+    "page": 53,
+    "src": "/handbook/montana/bike-motorist-duties.png",
+    "width": 1139
+  },
+  "bike-no-daytime-lights": {
+    "height": 117,
+    "page": 54,
+    "src": "/handbook/montana/bike-no-daytime-lights.png",
+    "width": 1083
+  },
+  "bike-ride-right": {
+    "height": 140,
+    "page": 53,
+    "src": "/handbook/montana/bike-ride-right.png",
+    "width": 1159
+  },
+  "bike-right-turn-check": {
+    "height": 140,
+    "page": 54,
+    "src": "/handbook/montana/bike-right-turn-check.png",
+    "width": 1083
+  },
+  "bike-roundabout-walk": {
+    "height": 140,
+    "page": 42,
+    "src": "/handbook/montana/bike-roundabout-walk.png",
+    "width": 1077
+  },
+  "bike-same-rules": {
+    "height": 166,
+    "page": 52,
+    "src": "/handbook/montana/bike-same-rules.png",
+    "width": 1112
+  },
+  "bike-single-file": {
+    "height": 117,
+    "page": 53,
+    "src": "/handbook/montana/bike-single-file.png",
+    "width": 1156
+  },
+  "brake-signal-taps": {
+    "height": 164,
+    "page": 68,
+    "src": "/handbook/montana/brake-signal-taps.png",
+    "width": 1113
+  },
+  "breakdown-flashers": {
+    "height": 116,
+    "page": 66,
+    "src": "/handbook/montana/breakdown-flashers.png",
+    "width": 681
+  },
+  "breakdown-hood-cloth": {
+    "height": 116,
+    "page": 67,
+    "src": "/handbook/montana/breakdown-hood-cloth.png",
+    "width": 1129
+  },
+  "breakdown-never-stand": {
+    "height": 116,
+    "page": 67,
+    "src": "/handbook/montana/breakdown-never-stand.png",
+    "width": 1129
+  },
+  "bus-amber-lights": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/montana/bus-amber-lights.png",
+    "width": 1100
+  },
+  "bus-different-road": {
+    "height": 141,
+    "page": 50,
+    "src": "/handbook/montana/bus-different-road.png",
+    "width": 1100
+  },
+  "bus-stop-30-feet": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/montana/bus-stop-30-feet.png",
+    "width": 1100
+  },
+  "child-back-seat": {
+    "height": 141,
+    "page": 30,
+    "src": "/handbook/montana/child-back-seat.png",
+    "width": 1125
+  },
+  "child-never-hold": {
+    "height": 140,
+    "page": 30,
+    "src": "/handbook/montana/child-never-hold.png",
+    "width": 1125
+  },
+  "child-restraint-6-60": {
+    "height": 164,
+    "page": 30,
+    "src": "/handbook/montana/child-restraint-6-60.png",
+    "width": 1101
+  },
+  "crash-bleeding": {
+    "height": 139,
+    "page": 90,
+    "src": "/handbook/montana/crash-bleeding.png",
+    "width": 1061
+  },
+  "crash-do-not-move-injured": {
+    "height": 139,
+    "page": 90,
+    "src": "/handbook/montana/crash-do-not-move-injured.png",
+    "width": 1061
+  },
+  "crash-do-not-stop-to-look": {
+    "height": 116,
+    "page": 89,
+    "src": "/handbook/montana/crash-do-not-stop-to-look.png",
+    "width": 1157
+  },
+  "crash-exchange-info": {
+    "height": 138,
+    "page": 90,
+    "src": "/handbook/montana/crash-exchange-info.png",
+    "width": 1095
+  },
+  "crash-leaving-is-a-crime": {
+    "height": 139,
+    "page": 89,
+    "src": "/handbook/montana/crash-leaving-is-a-crime.png",
+    "width": 1101
+  },
+  "crash-must-stop": {
+    "height": 117,
+    "page": 57,
+    "src": "/handbook/montana/crash-must-stop.png",
+    "width": 1159
+  },
+  "crash-no-drink": {
+    "height": 116,
+    "page": 90,
+    "src": "/handbook/montana/crash-no-drink.png",
+    "width": 1061
+  },
+  "crash-parked-car": {
+    "height": 116,
+    "page": 89,
+    "src": "/handbook/montana/crash-parked-car.png",
+    "width": 1101
+  },
+  "crash-report-10-days": {
+    "height": 140,
+    "page": 90,
+    "src": "/handbook/montana/crash-report-10-days.png",
+    "width": 1041
+  },
+  "crash-report-thresholds": {
+    "height": 164,
+    "page": 90,
+    "src": "/handbook/montana/crash-report-thresholds.png",
+    "width": 1095
+  },
+  "crash-scene-safety": {
+    "height": 140,
+    "page": 89,
+    "src": "/handbook/montana/crash-scene-safety.png",
+    "width": 1085
+  },
+  "cross-do-not-block": {
+    "height": 164,
+    "page": 76,
+    "src": "/handbook/montana/cross-do-not-block.png",
+    "width": 1125
+  },
+  "cross-turn-signal-trap": {
+    "height": 164,
+    "page": 76,
+    "src": "/handbook/montana/cross-turn-signal-trap.png",
+    "width": 1125
+  },
+  "curve-slow-before": {
+    "height": 140,
+    "page": 70,
+    "src": "/handbook/montana/curve-slow-before.png",
+    "width": 1102
+  },
+  "distraction-city-laws": {
+    "height": 116,
+    "page": 59,
+    "src": "/handbook/montana/distraction-city-laws.png",
+    "width": 974
+  },
+  "distraction-definition": {
+    "height": 140,
+    "page": 59,
+    "src": "/handbook/montana/distraction-definition.png",
+    "width": 1147
+  },
+  "distraction-eyes-off-road": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/montana/distraction-eyes-off-road.png",
+    "width": 1130
+  },
+  "distraction-hands-free": {
+    "height": 164,
+    "page": 61,
+    "src": "/handbook/montana/distraction-hands-free.png",
+    "width": 1149
+  },
+  "distraction-headphones": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/montana/distraction-headphones.png",
+    "width": 1149
+  },
+  "distraction-rubbernecking": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/montana/distraction-rubbernecking.png",
+    "width": 1157
+  },
+  "distraction-texting": {
+    "height": 164,
+    "page": 59,
+    "src": "/handbook/montana/distraction-texting.png",
+    "width": 1130
+  },
+  "do-not-enter-sign": {
+    "height": 139,
+    "page": 33,
+    "src": "/handbook/montana/do-not-enter-sign.png",
+    "width": 1117
+  },
+  "drugs-label-warnings": {
+    "height": 164,
+    "page": 83,
+    "src": "/handbook/montana/drugs-label-warnings.png",
+    "width": 1159
+  },
+  "drugs-never-mix": {
+    "height": 140,
+    "page": 83,
+    "src": "/handbook/montana/drugs-never-mix.png",
+    "width": 1159
+  },
+  "drugs-prescription": {
+    "height": 116,
+    "page": 83,
+    "src": "/handbook/montana/drugs-prescription.png",
+    "width": 1158
+  },
+  "dui-40-percent": {
+    "height": 140,
+    "page": 81,
+    "src": "/handbook/montana/dui-40-percent.png",
+    "width": 1146
+  },
+  "dui-affects-judgment": {
+    "height": 140,
+    "page": 81,
+    "src": "/handbook/montana/dui-affects-judgment.png",
+    "width": 1158
+  },
+  "dui-bac-08": {
+    "height": 164,
+    "page": 82,
+    "src": "/handbook/montana/dui-bac-08.png",
+    "width": 1104
+  },
+  "dui-best-answer": {
+    "height": 118,
+    "page": 81,
+    "src": "/handbook/montana/dui-best-answer.png",
+    "width": 1109
+  },
+  "dui-craft-beer": {
+    "height": 164,
+    "page": 81,
+    "src": "/handbook/montana/dui-craft-beer.png",
+    "width": 1158
+  },
+  "dui-drink-age-21": {
+    "height": 116,
+    "page": 82,
+    "src": "/handbook/montana/dui-drink-age-21.png",
+    "width": 853
+  },
+  "dui-first-penalty-manual": {
+    "height": 164,
+    "page": 82,
+    "src": "/handbook/montana/dui-first-penalty-manual.png",
+    "width": 1103
+  },
+  "dui-implied-consent": {
+    "height": 141,
+    "page": 82,
+    "src": "/handbook/montana/dui-implied-consent.png",
+    "width": 1104
+  },
+  "dui-new-drivers": {
+    "height": 140,
+    "page": 81,
+    "src": "/handbook/montana/dui-new-drivers.png",
+    "width": 1146
+  },
+  "dui-one-drink-hour": {
+    "height": 165,
+    "page": 81,
+    "src": "/handbook/montana/dui-one-drink-hour.png",
+    "width": 1150
+  },
+  "dui-one-drink-is": {
+    "height": 140,
+    "page": 81,
+    "src": "/handbook/montana/dui-one-drink-is.png",
+    "width": 1158
+  },
+  "dui-under-21-02": {
+    "height": 140,
+    "page": 82,
+    "src": "/handbook/montana/dui-under-21-02.png",
+    "width": 1103
+  },
+  "emerg-abs-braking": {
+    "height": 116,
+    "page": 88,
+    "src": "/handbook/montana/emerg-abs-braking.png",
+    "width": 1106
+  },
+  "emerg-blowout": {
+    "height": 116,
+    "page": 87,
+    "src": "/handbook/montana/emerg-blowout.png",
+    "width": 796
+  },
+  "emerg-brake-failure": {
+    "height": 116,
+    "page": 87,
+    "src": "/handbook/montana/emerg-brake-failure.png",
+    "width": 1071
+  },
+  "emerg-headlight-failure": {
+    "height": 116,
+    "page": 87,
+    "src": "/handbook/montana/emerg-headlight-failure.png",
+    "width": 937
+  },
+  "emerg-no-abs-braking": {
+    "height": 116,
+    "page": 88,
+    "src": "/handbook/montana/emerg-no-abs-braking.png",
+    "width": 1085
+  },
+  "emerg-off-pavement": {
+    "height": 117,
+    "page": 88,
+    "src": "/handbook/montana/emerg-off-pavement.png",
+    "width": 1090
+  },
+  "emerg-run-off-not-head-on": {
+    "height": 116,
+    "page": 88,
+    "src": "/handbook/montana/emerg-run-off-not-head-on.png",
+    "width": 1124
+  },
+  "emerg-stuck-accelerator": {
+    "height": 116,
+    "page": 87,
+    "src": "/handbook/montana/emerg-stuck-accelerator.png",
+    "width": 446
+  },
+  "emerg-three-options": {
+    "height": 140,
+    "page": 88,
+    "src": "/handbook/montana/emerg-three-options.png",
+    "width": 1094
+  },
+  "emerg-turn-quicker": {
+    "height": 140,
+    "page": 88,
+    "src": "/handbook/montana/emerg-turn-quicker.png",
+    "width": 1100
+  },
+  "emergency-in-intersection": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/montana/emergency-in-intersection.png",
+    "width": 1086
+  },
+  "emergency-move-over-manual": {
+    "height": 165,
+    "page": 90,
+    "src": "/handbook/montana/emergency-move-over-manual.png",
+    "width": 1116
+  },
+  "emergency-pull-right": {
+    "height": 165,
+    "page": 50,
+    "src": "/handbook/montana/emergency-pull-right.png",
+    "width": 1086
+  },
+  "emergency-signals-types": {
+    "height": 117,
+    "page": 90,
+    "src": "/handbook/montana/emergency-signals-types.png",
+    "width": 1067
+  },
+  "emotions-cool-off": {
+    "height": 140,
+    "page": 83,
+    "src": "/handbook/montana/emotions-cool-off.png",
+    "width": 1155
+  },
+  "equip-clear-snow": {
+    "height": 141,
+    "page": 23,
+    "src": "/handbook/montana/equip-clear-snow.png",
+    "width": 1133
+  },
+  "equip-dirty-lenses": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/montana/equip-dirty-lenses.png",
+    "width": 1051
+  },
+  "equip-exhaust-drowsy": {
+    "height": 140,
+    "page": 23,
+    "src": "/handbook/montana/equip-exhaust-drowsy.png",
+    "width": 1102
+  },
+  "equip-flashing-lights-banned": {
+    "height": 141,
+    "page": 25,
+    "src": "/handbook/montana/equip-flashing-lights-banned.png",
+    "width": 1161
+  },
+  "equip-head-restraint": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/montana/equip-head-restraint.png",
+    "width": 1091
+  },
+  "equip-horn-200": {
+    "height": 150,
+    "page": 25,
+    "src": "/handbook/montana/equip-horn-200.png",
+    "width": 1125
+  },
+  "equip-horn-warning-only": {
+    "height": 140,
+    "page": 23,
+    "src": "/handbook/montana/equip-horn-warning-only.png",
+    "width": 1061
+  },
+  "equip-mirror-200": {
+    "height": 150,
+    "page": 25,
+    "src": "/handbook/montana/equip-mirror-200.png",
+    "width": 983
+  },
+  "equip-mirror-adjust": {
+    "height": 140,
+    "page": 29,
+    "src": "/handbook/montana/equip-mirror-adjust.png",
+    "width": 1091
+  },
+  "equip-nothing-hanging": {
+    "height": 116,
+    "page": 29,
+    "src": "/handbook/montana/equip-nothing-hanging.png",
+    "width": 1051
+  },
+  "equip-sirens-banned": {
+    "height": 140,
+    "page": 27,
+    "src": "/handbook/montana/equip-sirens-banned.png",
+    "width": 1106
+  },
+  "equip-tire-penny": {
+    "height": 147,
+    "page": 23,
+    "src": "/handbook/montana/equip-tire-penny.png",
+    "width": 1026
+  },
+  "equip-warning-triangles": {
+    "height": 140,
+    "page": 27,
+    "src": "/handbook/montana/equip-warning-triangles.png",
+    "width": 1151
+  },
+  "fatigue-18-hours": {
+    "height": 140,
+    "page": 96,
+    "src": "/handbook/montana/fatigue-18-hours.png",
+    "width": 1074
+  },
+  "fatigue-never-sleepy": {
+    "height": 137,
+    "page": 81,
+    "src": "/handbook/montana/fatigue-never-sleepy.png",
+    "width": 1048
+  },
+  "fatigue-two-hours": {
+    "height": 137,
+    "page": 81,
+    "src": "/handbook/montana/fatigue-two-hours.png",
+    "width": 1048
+  },
+  "follow-count-method": {
+    "height": 188,
+    "page": 74,
+    "src": "/handbook/montana/follow-count-method.png",
+    "width": 1124
+  },
+  "follow-four-second": {
+    "height": 116,
+    "page": 75,
+    "src": "/handbook/montana/follow-four-second.png",
+    "width": 1119
+  },
+  "follow-motorcycles": {
+    "height": 116,
+    "page": 75,
+    "src": "/handbook/montana/follow-motorcycles.png",
+    "width": 1096
+  },
+  "follow-railroad-buses": {
+    "height": 139,
+    "page": 75,
+    "src": "/handbook/montana/follow-railroad-buses.png",
+    "width": 1096
+  },
+  "follow-slippery": {
+    "height": 139,
+    "page": 75,
+    "src": "/handbook/montana/follow-slippery.png",
+    "width": 1156
+  },
+  "follow-tailgated": {
+    "height": 164,
+    "page": 75,
+    "src": "/handbook/montana/follow-tailgated.png",
+    "width": 1142
+  },
+  "follow-tailgated-never-brake": {
+    "height": 140,
+    "page": 75,
+    "src": "/handbook/montana/follow-tailgated-never-brake.png",
+    "width": 1082
+  },
+  "follow-three-second": {
+    "height": 140,
+    "page": 74,
+    "src": "/handbook/montana/follow-three-second.png",
+    "width": 1124
+  },
+  "funeral-no-cut-in": {
+    "height": 164,
+    "page": 52,
+    "src": "/handbook/montana/funeral-no-cut-in.png",
+    "width": 1110
+  },
+  "funeral-procession-yield": {
+    "height": 164,
+    "page": 52,
+    "src": "/handbook/montana/funeral-procession-yield.png",
+    "width": 1105
+  },
+  "funeral-speed": {
+    "height": 164,
+    "page": 52,
+    "src": "/handbook/montana/funeral-speed.png",
+    "width": 1121
+  },
+  "gravel-dust-low-beams": {
+    "height": 140,
+    "page": 69,
+    "src": "/handbook/montana/gravel-dust-low-beams.png",
+    "width": 989
+  },
+  "gravel-slow-down": {
+    "height": 139,
+    "page": 69,
+    "src": "/handbook/montana/gravel-slow-down.png",
+    "width": 1154
+  },
+  "horn-light-tap": {
+    "height": 116,
+    "page": 66,
+    "src": "/handbook/montana/horn-light-tap.png",
+    "width": 1102
+  },
+  "horn-when-not": {
+    "height": 116,
+    "page": 66,
+    "src": "/handbook/montana/horn-when-not.png",
+    "width": 718
+  },
+  "hydroplane-35-50": {
+    "height": 163,
+    "page": 70,
+    "src": "/handbook/montana/hydroplane-35-50.png",
+    "width": 1120
+  },
+  "hydroplane-response": {
+    "height": 117,
+    "page": 70,
+    "src": "/handbook/montana/hydroplane-response.png",
+    "width": 1043
+  },
+  "insurance-carry-proof": {
+    "height": 165,
+    "page": 57,
+    "src": "/handbook/montana/insurance-carry-proof.png",
+    "width": 1089
+  },
+  "insurance-mandatory": {
+    "height": 140,
+    "page": 57,
+    "src": "/handbook/montana/insurance-mandatory.png",
+    "width": 1086
+  },
+  "insurance-minimums": {
+    "height": 172,
+    "page": 57,
+    "src": "/handbook/montana/insurance-minimums.png",
+    "width": 1086
+  },
+  "insurance-penalty": {
+    "height": 163,
+    "page": 57,
+    "src": "/handbook/montana/insurance-penalty.png",
+    "width": 1143
+  },
+  "keep-pace": {
+    "height": 139,
+    "page": 71,
+    "src": "/handbook/montana/keep-pace.png",
+    "width": 1156
+  },
+  "keep-right-except-pass": {
+    "height": 140,
+    "page": 47,
+    "src": "/handbook/montana/keep-right-except-pass.png",
+    "width": 1011
+  },
+  "lic-address-10-days": {
+    "height": 140,
+    "page": 20,
+    "src": "/handbook/montana/lic-address-10-days.png",
+    "width": 1094
+  },
+  "lic-class-d": {
+    "height": 170,
+    "page": 11,
+    "src": "/handbook/montana/lic-class-d.png",
+    "width": 1127
+  },
+  "lic-expired-over-year": {
+    "height": 166,
+    "page": 19,
+    "src": "/handbook/montana/lic-expired-over-year.png",
+    "width": 1148
+  },
+  "lic-fee-per-year": {
+    "height": 117,
+    "page": 19,
+    "src": "/handbook/montana/lic-fee-per-year.png",
+    "width": 1096
+  },
+  "lic-gdl-50-hours": {
+    "height": 137,
+    "page": 17,
+    "src": "/handbook/montana/lic-gdl-50-hours.png",
+    "width": 1048
+  },
+  "lic-gdl-clean-six-months": {
+    "height": 140,
+    "page": 17,
+    "src": "/handbook/montana/lic-gdl-clean-six-months.png",
+    "width": 1084
+  },
+  "lic-gdl-curfew": {
+    "height": 116,
+    "page": 18,
+    "src": "/handbook/montana/lic-gdl-curfew.png",
+    "width": 1100
+  },
+  "lic-gdl-hold-six-months": {
+    "height": 139,
+    "page": 18,
+    "src": "/handbook/montana/lic-gdl-hold-six-months.png",
+    "width": 1160
+  },
+  "lic-gdl-passengers": {
+    "height": 137,
+    "page": 18,
+    "src": "/handbook/montana/lic-gdl-passengers.png",
+    "width": 1154
+  },
+  "lic-gdl-passengers-second": {
+    "height": 136,
+    "page": 18,
+    "src": "/handbook/montana/lic-gdl-passengers-second.png",
+    "width": 1140
+  },
+  "lic-gdl-penalties": {
+    "height": 116,
+    "page": 18,
+    "src": "/handbook/montana/lic-gdl-penalties.png",
+    "width": 1140
+  },
+  "lic-gdl-permit-ages": {
+    "height": 164,
+    "page": 18,
+    "src": "/handbook/montana/lic-gdl-permit-ages.png",
+    "width": 1160
+  },
+  "lic-gdl-step3": {
+    "height": 140,
+    "page": 18,
+    "src": "/handbook/montana/lic-gdl-step3.png",
+    "width": 1077
+  },
+  "lic-gdl-supervisor": {
+    "height": 136,
+    "page": 17,
+    "src": "/handbook/montana/lic-gdl-supervisor.png",
+    "width": 999
+  },
+  "lic-gdl-three-steps": {
+    "height": 140,
+    "page": 17,
+    "src": "/handbook/montana/lic-gdl-three-steps.png",
+    "width": 1156
+  },
+  "lic-min-age": {
+    "height": 139,
+    "page": 11,
+    "src": "/handbook/montana/lic-min-age.png",
+    "width": 1160
+  },
+  "lic-must-carry": {
+    "height": 139,
+    "page": 11,
+    "src": "/handbook/montana/lic-must-carry.png",
+    "width": 1160
+  },
+  "lic-nclp-14-and-half": {
+    "height": 165,
+    "page": 12,
+    "src": "/handbook/montana/lic-nclp-14-and-half.png",
+    "width": 1080
+  },
+  "lic-nclp-eligibility": {
+    "height": 140,
+    "page": 12,
+    "src": "/handbook/montana/lic-nclp-eligibility.png",
+    "width": 1097
+  },
+  "lic-nclp-financial-responsibility": {
+    "height": 140,
+    "page": 12,
+    "src": "/handbook/montana/lic-nclp-financial-responsibility.png",
+    "width": 1097
+  },
+  "lic-nclp-parent-consent": {
+    "height": 140,
+    "page": 12,
+    "src": "/handbook/montana/lic-nclp-parent-consent.png",
+    "width": 1097
+  },
+  "lic-nclp-six-months": {
+    "height": 116,
+    "page": 12,
+    "src": "/handbook/montana/lic-nclp-six-months.png",
+    "width": 848
+  },
+  "lic-nclp-supervision": {
+    "height": 248,
+    "page": 12,
+    "src": "/handbook/montana/lic-nclp-supervision.png",
+    "width": 1098
+  },
+  "lic-nclp-valid-one-year": {
+    "height": 140,
+    "page": 12,
+    "src": "/handbook/montana/lic-nclp-valid-one-year.png",
+    "width": 1097
+  },
+  "lic-nclp-what-to-bring": {
+    "height": 164,
+    "page": 12,
+    "src": "/handbook/montana/lic-nclp-what-to-bring.png",
+    "width": 1097
+  },
+  "lic-new-residents-60": {
+    "height": 140,
+    "page": 11,
+    "src": "/handbook/montana/lic-new-residents-60.png",
+    "width": 1160
+  },
+  "lic-online-courses": {
+    "height": 140,
+    "page": 12,
+    "src": "/handbook/montana/lic-online-courses.png",
+    "width": 1065
+  },
+  "lic-renewal-window": {
+    "height": 163,
+    "page": 19,
+    "src": "/handbook/montana/lic-renewal-window.png",
+    "width": 1148
+  },
+  "lic-restart-after-year": {
+    "height": 141,
+    "page": 19,
+    "src": "/handbook/montana/lic-restart-after-year.png",
+    "width": 1143
+  },
+  "lic-tep": {
+    "height": 169,
+    "page": 12,
+    "src": "/handbook/montana/lic-tep.png",
+    "width": 1100
+  },
+  "lic-three-attempts": {
+    "height": 141,
+    "page": 19,
+    "src": "/handbook/montana/lic-three-attempts.png",
+    "width": 1146
+  },
+  "lights-beam-distances": {
+    "height": 140,
+    "page": 24,
+    "src": "/handbook/montana/lights-beam-distances.png",
+    "width": 1114
+  },
+  "lights-brake-300": {
+    "height": 139,
+    "page": 25,
+    "src": "/handbook/montana/lights-brake-300.png",
+    "width": 1158
+  },
+  "lights-dim-1000-500": {
+    "height": 140,
+    "page": 24,
+    "src": "/handbook/montana/lights-dim-1000-500.png",
+    "width": 1106
+  },
+  "lights-dusk-overcast": {
+    "height": 140,
+    "page": 65,
+    "src": "/handbook/montana/lights-dusk-overcast.png",
+    "width": 1153
+  },
+  "lights-into-sun": {
+    "height": 139,
+    "page": 66,
+    "src": "/handbook/montana/lights-into-sun.png",
+    "width": 1091
+  },
+  "lights-never-parking-lights": {
+    "height": 140,
+    "page": 65,
+    "src": "/handbook/montana/lights-never-parking-lights.png",
+    "width": 1153
+  },
+  "lights-turn-signal-300": {
+    "height": 140,
+    "page": 25,
+    "src": "/handbook/montana/lights-turn-signal-300.png",
+    "width": 1113
+  },
+  "lights-when-required": {
+    "height": 140,
+    "page": 24,
+    "src": "/handbook/montana/lights-when-required.png",
+    "width": 1106
+  },
+  "lights-wipers-rule": {
+    "height": 116,
+    "page": 66,
+    "src": "/handbook/montana/lights-wipers-rule.png",
+    "width": 1091
+  },
+  "marking-broken-yellow": {
+    "height": 116,
+    "page": 44,
+    "src": "/handbook/montana/marking-broken-yellow.png",
+    "width": 1097
+  },
+  "marking-cross-solid-to-turn": {
+    "height": 187,
+    "page": 44,
+    "src": "/handbook/montana/marking-cross-solid-to-turn.png",
+    "width": 483
+  },
+  "marking-crosswalk-stop-line": {
+    "height": 140,
+    "page": 44,
+    "src": "/handbook/montana/marking-crosswalk-stop-line.png",
+    "width": 1117
+  },
+  "marking-hov": {
+    "height": 186,
+    "page": 45,
+    "src": "/handbook/montana/marking-hov.png",
+    "width": 797
+  },
+  "marking-line-colors": {
+    "height": 140,
+    "page": 44,
+    "src": "/handbook/montana/marking-line-colors.png",
+    "width": 1092
+  },
+  "marking-reversible-lanes": {
+    "height": 188,
+    "page": 45,
+    "src": "/handbook/montana/marking-reversible-lanes.png",
+    "width": 811
+  },
+  "marking-shared-center-lane": {
+    "height": 140,
+    "page": 45,
+    "src": "/handbook/montana/marking-shared-center-lane.png",
+    "width": 1090
+  },
+  "marking-sharrows": {
+    "height": 164,
+    "page": 53,
+    "src": "/handbook/montana/marking-sharrows.png",
+    "width": 1159
+  },
+  "marking-solid-yellow": {
+    "height": 164,
+    "page": 44,
+    "src": "/handbook/montana/marking-solid-yellow.png",
+    "width": 1097
+  },
+  "marking-unmarked-crosswalks": {
+    "height": 140,
+    "page": 44,
+    "src": "/handbook/montana/marking-unmarked-crosswalks.png",
+    "width": 1117
+  },
+  "marking-white-lines": {
+    "height": 164,
+    "page": 44,
+    "src": "/handbook/montana/marking-white-lines.png",
+    "width": 1110
+  },
+  "marking-yellow-mixed": {
+    "height": 212,
+    "page": 44,
+    "src": "/handbook/montana/marking-yellow-mixed.png",
+    "width": 483
+  },
+  "merge-four-second-gap": {
+    "height": 140,
+    "page": 76,
+    "src": "/handbook/montana/merge-four-second-gap.png",
+    "width": 1107
+  },
+  "merge-four-second-when": {
+    "height": 140,
+    "page": 76,
+    "src": "/handbook/montana/merge-four-second-when.png",
+    "width": 1107
+  },
+  "merge-move-left-for-entering": {
+    "height": 140,
+    "page": 71,
+    "src": "/handbook/montana/merge-move-left-for-entering.png",
+    "width": 1088
+  },
+  "merge-one-lane-at-a-time": {
+    "height": 140,
+    "page": 76,
+    "src": "/handbook/montana/merge-one-lane-at-a-time.png",
+    "width": 1121
+  },
+  "merge-use-the-ramp": {
+    "height": 141,
+    "page": 71,
+    "src": "/handbook/montana/merge-use-the-ramp.png",
+    "width": 1088
+  },
+  "never-drive-shoulder": {
+    "height": 116,
+    "page": 47,
+    "src": "/handbook/montana/never-drive-shoulder.png",
+    "width": 626
+  },
+  "obey-first-rule": {
+    "height": 116,
+    "page": 47,
+    "src": "/handbook/montana/obey-first-rule.png",
+    "width": 786
+  },
+  "open-container-manual": {
+    "height": 164,
+    "page": 82,
+    "src": "/handbook/montana/open-container-manual.png",
+    "width": 1101
+  },
+  "open-container-where": {
+    "height": 116,
+    "page": 82,
+    "src": "/handbook/montana/open-container-where.png",
+    "width": 1101
+  },
+  "park-brake-and-gear": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/montana/park-brake-and-gear.png",
+    "width": 1093
+  },
+  "park-check-before-door": {
+    "height": 163,
+    "page": 54,
+    "src": "/handbook/montana/park-check-before-door.png",
+    "width": 1093
+  },
+  "park-curb-18-inches": {
+    "height": 116,
+    "page": 54,
+    "src": "/handbook/montana/park-curb-18-inches.png",
+    "width": 1093
+  },
+  "park-curb-colors": {
+    "height": 117,
+    "page": 56,
+    "src": "/handbook/montana/park-curb-colors.png",
+    "width": 661
+  },
+  "park-fire-station": {
+    "height": 140,
+    "page": 56,
+    "src": "/handbook/montana/park-fire-station.png",
+    "width": 1089
+  },
+  "park-hill-toward-side": {
+    "height": 140,
+    "page": 55,
+    "src": "/handbook/montana/park-hill-toward-side.png",
+    "width": 926
+  },
+  "park-hill-uphill": {
+    "height": 116,
+    "page": 55,
+    "src": "/handbook/montana/park-hill-uphill.png",
+    "width": 779
+  },
+  "park-hydrant-15": {
+    "height": 116,
+    "page": 56,
+    "src": "/handbook/montana/park-hydrant-15.png",
+    "width": 1089
+  },
+  "park-lights-at-night": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/montana/park-lights-at-night.png",
+    "width": 1102
+  },
+  "park-parallel-steps": {
+    "height": 164,
+    "page": 55,
+    "src": "/handbook/montana/park-parallel-steps.png",
+    "width": 917
+  },
+  "park-signal-leaving": {
+    "height": 140,
+    "page": 55,
+    "src": "/handbook/montana/park-signal-leaving.png",
+    "width": 1102
+  },
+  "park-visible-and-clear": {
+    "height": 163,
+    "page": 54,
+    "src": "/handbook/montana/park-visible-and-clear.png",
+    "width": 1097
+  },
+  "passing-1600-feet": {
+    "height": 140,
+    "page": 77,
+    "src": "/handbook/montana/passing-1600-feet.png",
+    "width": 1158
+  },
+  "passing-hill-curve-third-mile": {
+    "height": 164,
+    "page": 77,
+    "src": "/handbook/montana/passing-hill-curve-third-mile.png",
+    "width": 1148
+  },
+  "passing-hills-curves": {
+    "height": 140,
+    "page": 77,
+    "src": "/handbook/montana/passing-hills-curves.png",
+    "width": 1158
+  },
+  "passing-intersections-danger": {
+    "height": 164,
+    "page": 77,
+    "src": "/handbook/montana/passing-intersections-danger.png",
+    "width": 1148
+  },
+  "passing-left-lane-multilane": {
+    "height": 117,
+    "page": 48,
+    "src": "/handbook/montana/passing-left-lane-multilane.png",
+    "width": 1077
+  },
+  "passing-left-of-center": {
+    "height": 140,
+    "page": 48,
+    "src": "/handbook/montana/passing-left-of-center.png",
+    "width": 1077
+  },
+  "passing-never-on-shoulder": {
+    "height": 164,
+    "page": 48,
+    "src": "/handbook/montana/passing-never-on-shoulder.png",
+    "width": 1096
+  },
+  "passing-on-right-legal": {
+    "height": 164,
+    "page": 48,
+    "src": "/handbook/montana/passing-on-right-legal.png",
+    "width": 1096
+  },
+  "passing-return-headlights": {
+    "height": 140,
+    "page": 77,
+    "src": "/handbook/montana/passing-return-headlights.png",
+    "width": 1098
+  },
+  "passing-ten-seconds": {
+    "height": 164,
+    "page": 76,
+    "src": "/handbook/montana/passing-ten-seconds.png",
+    "width": 1089
+  },
+  "ped-crosswalk-yield": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/montana/ped-crosswalk-yield.png",
+    "width": 1094
+  },
+  "ped-drivers-responsibility": {
+    "height": 140,
+    "page": 49,
+    "src": "/handbook/montana/ped-drivers-responsibility.png",
+    "width": 1163
+  },
+  "ped-no-pass-stopped-vehicle": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/montana/ped-no-pass-stopped-vehicle.png",
+    "width": 1088
+  },
+  "ped-right-turn-far-half": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/montana/ped-right-turn-far-half.png",
+    "width": 1088
+  },
+  "ped-sidewalk-required": {
+    "height": 116,
+    "page": 49,
+    "src": "/handbook/montana/ped-sidewalk-required.png",
+    "width": 1094
+  },
+  "ped-signal-flashing": {
+    "height": 162,
+    "page": 40,
+    "src": "/handbook/montana/ped-signal-flashing.png",
+    "width": 763
+  },
+  "ped-signal-symbols": {
+    "height": 140,
+    "page": 40,
+    "src": "/handbook/montana/ped-signal-symbols.png",
+    "width": 763
+  },
+  "ped-signals": {
+    "height": 139,
+    "page": 40,
+    "src": "/handbook/montana/ped-signals.png",
+    "width": 763
+  },
+  "ped-walk-facing-traffic": {
+    "height": 116,
+    "page": 49,
+    "src": "/handbook/montana/ped-walk-facing-traffic.png",
+    "width": 1094
+  },
+  "ped-white-cane-absolute": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/montana/ped-white-cane-absolute.png",
+    "width": 1155
+  },
+  "pull-from-curb": {
+    "height": 116,
+    "page": 64,
+    "src": "/handbook/montana/pull-from-curb.png",
+    "width": 690
+  },
+  "railroad-crossbuck": {
+    "height": 140,
+    "page": 43,
+    "src": "/handbook/montana/railroad-crossbuck.png",
+    "width": 938
+  },
+  "railroad-expect-train": {
+    "height": 140,
+    "page": 62,
+    "src": "/handbook/montana/railroad-expect-train.png",
+    "width": 1095
+  },
+  "railroad-flashing-lights": {
+    "height": 164,
+    "page": 43,
+    "src": "/handbook/montana/railroad-flashing-lights.png",
+    "width": 1081
+  },
+  "railroad-gates": {
+    "height": 164,
+    "page": 43,
+    "src": "/handbook/montana/railroad-gates.png",
+    "width": 789
+  },
+  "railroad-never-beat": {
+    "height": 139,
+    "page": 43,
+    "src": "/handbook/montana/railroad-never-beat.png",
+    "width": 1154
+  },
+  "railroad-second-train": {
+    "height": 140,
+    "page": 63,
+    "src": "/handbook/montana/railroad-second-train.png",
+    "width": 1144
+  },
+  "railroad-stop-15-feet": {
+    "height": 163,
+    "page": 43,
+    "src": "/handbook/montana/railroad-stop-15-feet.png",
+    "width": 1158
+  },
+  "red-always-means": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/montana/red-always-means.png",
+    "width": 1157
+  },
+  "regulatory-signs-look": {
+    "height": 140,
+    "page": 34,
+    "src": "/handbook/montana/regulatory-signs-look.png",
+    "width": 1099
+  },
+  "roundabout-15-mph": {
+    "height": 118,
+    "page": 42,
+    "src": "/handbook/montana/roundabout-15-mph.png",
+    "width": 1143
+  },
+  "roundabout-emergency": {
+    "height": 140,
+    "page": 42,
+    "src": "/handbook/montana/roundabout-emergency.png",
+    "width": 1070
+  },
+  "roundabout-no-passing": {
+    "height": 141,
+    "page": 42,
+    "src": "/handbook/montana/roundabout-no-passing.png",
+    "width": 1134
+  },
+  "roundabout-truck-apron": {
+    "height": 164,
+    "page": 42,
+    "src": "/handbook/montana/roundabout-truck-apron.png",
+    "width": 1090
+  },
+  "roundabout-yield-left": {
+    "height": 116,
+    "page": 42,
+    "src": "/handbook/montana/roundabout-yield-left.png",
+    "width": 1134
+  },
+  "row-block-intersection": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/montana/row-block-intersection.png",
+    "width": 1090
+  },
+  "row-driveway-yield": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/montana/row-driveway-yield.png",
+    "width": 1090
+  },
+  "row-four-way-first": {
+    "height": 116,
+    "page": 50,
+    "src": "/handbook/montana/row-four-way-first.png",
+    "width": 1090
+  },
+  "row-law-does-not-give": {
+    "height": 164,
+    "page": 49,
+    "src": "/handbook/montana/row-law-does-not-give.png",
+    "width": 463
+  },
+  "row-left-turn-yield": {
+    "height": 116,
+    "page": 50,
+    "src": "/handbook/montana/row-left-turn-yield.png",
+    "width": 1090
+  },
+  "row-overtaking-yield": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/montana/row-overtaking-yield.png",
+    "width": 1086
+  },
+  "row-rules-exist": {
+    "height": 235,
+    "page": 49,
+    "src": "/handbook/montana/row-rules-exist.png",
+    "width": 518
+  },
+  "row-sidewalk-yield": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/montana/row-sidewalk-yield.png",
+    "width": 1113
+  },
+  "row-uncontrolled-right": {
+    "height": 163,
+    "page": 50,
+    "src": "/handbook/montana/row-uncontrolled-right.png",
+    "width": 1090
+  },
+  "scan-blind-spots": {
+    "height": 163,
+    "page": 64,
+    "src": "/handbook/montana/scan-blind-spots.png",
+    "width": 1118
+  },
+  "scan-check-far-lane": {
+    "height": 139,
+    "page": 64,
+    "src": "/handbook/montana/scan-check-far-lane.png",
+    "width": 1120
+  },
+  "scan-edge-forward": {
+    "height": 140,
+    "page": 63,
+    "src": "/handbook/montana/scan-edge-forward.png",
+    "width": 1160
+  },
+  "scan-lane-change-steps": {
+    "height": 164,
+    "page": 64,
+    "src": "/handbook/montana/scan-lane-change-steps.png",
+    "width": 1092
+  },
+  "scan-look-left-right": {
+    "height": 165,
+    "page": 63,
+    "src": "/handbook/montana/scan-look-left-right.png",
+    "width": 1157
+  },
+  "scan-ten-seconds": {
+    "height": 140,
+    "page": 62,
+    "src": "/handbook/montana/scan-ten-seconds.png",
+    "width": 1114
+  },
+  "scan-ten-seconds-distance": {
+    "height": 141,
+    "page": 62,
+    "src": "/handbook/montana/scan-ten-seconds-distance.png",
+    "width": 1114
+  },
+  "school-crossing-guard": {
+    "height": 165,
+    "page": 39,
+    "src": "/handbook/montana/school-crossing-guard.png",
+    "width": 1156
+  },
+  "school-crossings-yield": {
+    "height": 140,
+    "page": 39,
+    "src": "/handbook/montana/school-crossings-yield.png",
+    "width": 1156
+  },
+  "school-zone-15": {
+    "height": 116,
+    "page": 39,
+    "src": "/handbook/montana/school-zone-15.png",
+    "width": 714
+  },
+  "school-zone-definition": {
+    "height": 165,
+    "page": 39,
+    "src": "/handbook/montana/school-zone-definition.png",
+    "width": 1101
+  },
+  "school-zone-fines-doubled": {
+    "height": 140,
+    "page": 39,
+    "src": "/handbook/montana/school-zone-fines-doubled.png",
+    "width": 1046
+  },
+  "shape-and-color": {
+    "height": 140,
+    "page": 32,
+    "src": "/handbook/montana/shape-and-color.png",
+    "width": 1056
+  },
+  "sight-distance-count": {
+    "height": 164,
+    "page": 74,
+    "src": "/handbook/montana/sight-distance-count.png",
+    "width": 1110
+  },
+  "sight-distance-four-second": {
+    "height": 140,
+    "page": 74,
+    "src": "/handbook/montana/sight-distance-four-second.png",
+    "width": 1110
+  },
+  "sign-cattle-crossing": {
+    "height": 260,
+    "page": 36,
+    "src": "/handbook/montana/sign-cattle-crossing.png",
+    "width": 238
+  },
+  "sign-classes": {
+    "height": 116,
+    "page": 33,
+    "src": "/handbook/montana/sign-classes.png",
+    "width": 1166
+  },
+  "sign-crossroad": {
+    "height": 212,
+    "page": 35,
+    "src": "/handbook/montana/sign-crossroad.png",
+    "width": 243
+  },
+  "sign-curve-safe-speed": {
+    "height": 253,
+    "page": 35,
+    "src": "/handbook/montana/sign-curve-safe-speed.png",
+    "width": 235
+  },
+  "sign-deer-crossing": {
+    "height": 212,
+    "page": 36,
+    "src": "/handbook/montana/sign-deer-crossing.png",
+    "width": 241
+  },
+  "sign-divided-highway-begins": {
+    "height": 307,
+    "page": 36,
+    "src": "/handbook/montana/sign-divided-highway-begins.png",
+    "width": 247
+  },
+  "sign-divided-highway-ends": {
+    "height": 260,
+    "page": 36,
+    "src": "/handbook/montana/sign-divided-highway-ends.png",
+    "width": 238
+  },
+  "sign-do-not-pass": {
+    "height": 188,
+    "page": 34,
+    "src": "/handbook/montana/sign-do-not-pass.png",
+    "width": 382
+  },
+  "sign-hill": {
+    "height": 236,
+    "page": 36,
+    "src": "/handbook/montana/sign-hill.png",
+    "width": 1122
+  },
+  "sign-keep-right": {
+    "height": 164,
+    "page": 34,
+    "src": "/handbook/montana/sign-keep-right.png",
+    "width": 372
+  },
+  "sign-loose-gravel": {
+    "height": 188,
+    "page": 35,
+    "src": "/handbook/montana/sign-loose-gravel.png",
+    "width": 225
+  },
+  "sign-low-clearance": {
+    "height": 236,
+    "page": 36,
+    "src": "/handbook/montana/sign-low-clearance.png",
+    "width": 1101
+  },
+  "sign-narrow-bridge-room": {
+    "height": 235,
+    "page": 35,
+    "src": "/handbook/montana/sign-narrow-bridge-room.png",
+    "width": 241
+  },
+  "sign-narrow-bridge-truck": {
+    "height": 211,
+    "page": 35,
+    "src": "/handbook/montana/sign-narrow-bridge-truck.png",
+    "width": 254
+  },
+  "sign-no-u-turn": {
+    "height": 164,
+    "page": 34,
+    "src": "/handbook/montana/sign-no-u-turn.png",
+    "width": 355
+  },
+  "sign-obey-or-arrest": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/montana/sign-obey-or-arrest.png",
+    "width": 1125
+  },
+  "sign-one-lane-bridge": {
+    "height": 211,
+    "page": 35,
+    "src": "/handbook/montana/sign-one-lane-bridge.png",
+    "width": 235
+  },
+  "sign-pass-with-care": {
+    "height": 188,
+    "page": 34,
+    "src": "/handbook/montana/sign-pass-with-care.png",
+    "width": 379
+  },
+  "sign-pedestrian-crossing": {
+    "height": 235,
+    "page": 36,
+    "src": "/handbook/montana/sign-pedestrian-crossing.png",
+    "width": 1101
+  },
+  "sign-range-cattle": {
+    "height": 188,
+    "page": 35,
+    "src": "/handbook/montana/sign-range-cattle.png",
+    "width": 258
+  },
+  "sign-red-circle-slash": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/montana/sign-red-circle-slash.png",
+    "width": 1077
+  },
+  "sign-school-ahead": {
+    "height": 211,
+    "page": 35,
+    "src": "/handbook/montana/sign-school-ahead.png",
+    "width": 243
+  },
+  "sign-school-bus-stop-ahead": {
+    "height": 235,
+    "page": 35,
+    "src": "/handbook/montana/sign-school-bus-stop-ahead.png",
+    "width": 237
+  },
+  "sign-school-crossing": {
+    "height": 236,
+    "page": 36,
+    "src": "/handbook/montana/sign-school-crossing.png",
+    "width": 1101
+  },
+  "sign-slippery-when-wet": {
+    "height": 284,
+    "page": 36,
+    "src": "/handbook/montana/sign-slippery-when-wet.png",
+    "width": 253
+  },
+  "sign-speed-limit": {
+    "height": 212,
+    "page": 34,
+    "src": "/handbook/montana/sign-speed-limit.png",
+    "width": 394
+  },
+  "sign-speed-zone-ahead": {
+    "height": 188,
+    "page": 34,
+    "src": "/handbook/montana/sign-speed-zone-ahead.png",
+    "width": 361
+  },
+  "sign-stop-ahead": {
+    "height": 140,
+    "page": 35,
+    "src": "/handbook/montana/sign-stop-ahead.png",
+    "width": 435
+  },
+  "sign-t-intersection": {
+    "height": 188,
+    "page": 35,
+    "src": "/handbook/montana/sign-t-intersection.png",
+    "width": 238
+  },
+  "sign-winding-road": {
+    "height": 188,
+    "page": 35,
+    "src": "/handbook/montana/sign-winding-road.png",
+    "width": 244
+  },
+  "signal-dark-courtesy": {
+    "height": 164,
+    "page": 40,
+    "src": "/handbook/montana/signal-dark-courtesy.png",
+    "width": 1157
+  },
+  "signal-dark-intersection": {
+    "height": 116,
+    "page": 40,
+    "src": "/handbook/montana/signal-dark-intersection.png",
+    "width": 1157
+  },
+  "signal-flashing-red": {
+    "height": 140,
+    "page": 40,
+    "src": "/handbook/montana/signal-flashing-red.png",
+    "width": 917
+  },
+  "signal-flashing-yellow": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/montana/signal-flashing-yellow.png",
+    "width": 625
+  },
+  "signal-flashing-yellow-arrow": {
+    "height": 164,
+    "page": 40,
+    "src": "/handbook/montana/signal-flashing-yellow-arrow.png",
+    "width": 915
+  },
+  "signal-green-arrow": {
+    "height": 164,
+    "page": 41,
+    "src": "/handbook/montana/signal-green-arrow.png",
+    "width": 914
+  },
+  "signal-left-on-red": {
+    "height": 140,
+    "page": 40,
+    "src": "/handbook/montana/signal-left-on-red.png",
+    "width": 917
+  },
+  "signal-red-arrow": {
+    "height": 116,
+    "page": 40,
+    "src": "/handbook/montana/signal-red-arrow.png",
+    "width": 896
+  },
+  "signal-right-on-red": {
+    "height": 140,
+    "page": 40,
+    "src": "/handbook/montana/signal-right-on-red.png",
+    "width": 917
+  },
+  "signal-steady-green": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/montana/signal-steady-green.png",
+    "width": 924
+  },
+  "signal-steady-red": {
+    "height": 164,
+    "page": 40,
+    "src": "/handbook/montana/signal-steady-red.png",
+    "width": 917
+  },
+  "signal-steady-yellow": {
+    "height": 164,
+    "page": 40,
+    "src": "/handbook/montana/signal-steady-yellow.png",
+    "width": 921
+  },
+  "signal-yellow-arrow": {
+    "height": 140,
+    "page": 40,
+    "src": "/handbook/montana/signal-yellow-arrow.png",
+    "width": 904
+  },
+  "skid-cause": {
+    "height": 236,
+    "page": 70,
+    "src": "/handbook/montana/skid-cause.png",
+    "width": 1109
+  },
+  "skid-response": {
+    "height": 116,
+    "page": 70,
+    "src": "/handbook/montana/skid-response.png",
+    "width": 1079
+  },
+  "slow-vehicle-25-mph": {
+    "height": 139,
+    "page": 72,
+    "src": "/handbook/montana/slow-vehicle-25-mph.png",
+    "width": 1111
+  },
+  "slow-vehicle-emblem": {
+    "height": 164,
+    "page": 28,
+    "src": "/handbook/montana/slow-vehicle-emblem.png",
+    "width": 924
+  },
+  "slow-vehicle-turnout": {
+    "height": 117,
+    "page": 72,
+    "src": "/handbook/montana/slow-vehicle-turnout.png",
+    "width": 1111
+  },
+  "space-no-share-lane": {
+    "height": 139,
+    "page": 76,
+    "src": "/handbook/montana/space-no-share-lane.png",
+    "width": 1098
+  },
+  "space-split-difference": {
+    "height": 116,
+    "page": 76,
+    "src": "/handbook/montana/space-split-difference.png",
+    "width": 1128
+  },
+  "speed-ideal-conditions": {
+    "height": 163,
+    "page": 74,
+    "src": "/handbook/montana/speed-ideal-conditions.png",
+    "width": 1107
+  },
+  "speed-obey-posted": {
+    "height": 140,
+    "page": 48,
+    "src": "/handbook/montana/speed-obey-posted.png",
+    "width": 1083
+  },
+  "speed-pass-10-over": {
+    "height": 140,
+    "page": 48,
+    "src": "/handbook/montana/speed-pass-10-over.png",
+    "width": 1078
+  },
+  "speed-table-interstate": {
+    "height": 236,
+    "page": 48,
+    "src": "/handbook/montana/speed-table-interstate.png",
+    "width": 1060
+  },
+  "speed-urban-area-note": {
+    "height": 140,
+    "page": 48,
+    "src": "/handbook/montana/speed-urban-area-note.png",
+    "width": 651
+  },
+  "steering-hand-over-hand": {
+    "height": 140,
+    "page": 60,
+    "src": "/handbook/montana/steering-hand-over-hand.png",
+    "width": 1119
+  },
+  "steering-hand-position": {
+    "height": 140,
+    "page": 60,
+    "src": "/handbook/montana/steering-hand-position.png",
+    "width": 1102
+  },
+  "stop-end-call": {
+    "height": 164,
+    "page": 91,
+    "src": "/handbook/montana/stop-end-call.png",
+    "width": 1087
+  },
+  "stop-hands-visible": {
+    "height": 141,
+    "page": 91,
+    "src": "/handbook/montana/stop-hands-visible.png",
+    "width": 1095
+  },
+  "stop-move-right": {
+    "height": 164,
+    "page": 91,
+    "src": "/handbook/montana/stop-move-right.png",
+    "width": 1092
+  },
+  "stop-sign-octagon": {
+    "height": 164,
+    "page": 33,
+    "src": "/handbook/montana/stop-sign-octagon.png",
+    "width": 1158
+  },
+  "stop-stay-inside": {
+    "height": 141,
+    "page": 91,
+    "src": "/handbook/montana/stop-stay-inside.png",
+    "width": 1095
+  },
+  "stop-turn-on-signal": {
+    "height": 141,
+    "page": 91,
+    "src": "/handbook/montana/stop-turn-on-signal.png",
+    "width": 1092
+  },
+  "stopping-distance-50-30": {
+    "height": 116,
+    "page": 73,
+    "src": "/handbook/montana/stopping-distance-50-30.png",
+    "width": 1104
+  },
+  "stopping-see-far-enough": {
+    "height": 140,
+    "page": 73,
+    "src": "/handbook/montana/stopping-see-far-enough.png",
+    "width": 1113
+  },
+  "stopping-speed-triples": {
+    "height": 140,
+    "page": 69,
+    "src": "/handbook/montana/stopping-speed-triples.png",
+    "width": 1145
+  },
+  "turn-from-nearest-lane": {
+    "height": 164,
+    "page": 48,
+    "src": "/handbook/montana/turn-from-nearest-lane.png",
+    "width": 1096
+  },
+  "turn-left-wheels-straight": {
+    "height": 163,
+    "page": 68,
+    "src": "/handbook/montana/turn-left-wheels-straight.png",
+    "width": 747
+  },
+  "turn-proper-lane-safe": {
+    "height": 163,
+    "page": 49,
+    "src": "/handbook/montana/turn-proper-lane-safe.png",
+    "width": 452
+  },
+  "turn-right-no-wide-swing": {
+    "height": 140,
+    "page": 48,
+    "src": "/handbook/montana/turn-right-no-wide-swing.png",
+    "width": 1071
+  },
+  "turn-signal-100-300": {
+    "height": 117,
+    "page": 47,
+    "src": "/handbook/montana/turn-signal-100-300.png",
+    "width": 1011
+  },
+  "turn-signal-cancel": {
+    "height": 164,
+    "page": 68,
+    "src": "/handbook/montana/turn-signal-cancel.png",
+    "width": 1119
+  },
+  "turn-signal-not-too-early": {
+    "height": 164,
+    "page": 68,
+    "src": "/handbook/montana/turn-signal-not-too-early.png",
+    "width": 748
+  },
+  "turn-wrong-lane": {
+    "height": 139,
+    "page": 47,
+    "src": "/handbook/montana/turn-wrong-lane.png",
+    "width": 982
+  },
+  "uturn-500-feet": {
+    "height": 211,
+    "page": 49,
+    "src": "/handbook/montana/uturn-500-feet.png",
+    "width": 452
+  },
+  "uturn-city-ordinances": {
+    "height": 188,
+    "page": 49,
+    "src": "/handbook/montana/uturn-city-ordinances.png",
+    "width": 452
+  },
+  "visibility-night-50": {
+    "height": 164,
+    "page": 73,
+    "src": "/handbook/montana/visibility-night-50.png",
+    "width": 1148
+  },
+  "visibility-rain-fog-30": {
+    "height": 164,
+    "page": 73,
+    "src": "/handbook/montana/visibility-rain-fog-30.png",
+    "width": 1142
+  },
+  "vision-20-40": {
+    "height": 140,
+    "page": 80,
+    "src": "/handbook/montana/vision-20-40.png",
+    "width": 1134
+  },
+  "vision-corrective-lenses": {
+    "height": 139,
+    "page": 80,
+    "src": "/handbook/montana/vision-corrective-lenses.png",
+    "width": 1114
+  },
+  "vision-no-dark-glasses": {
+    "height": 139,
+    "page": 80,
+    "src": "/handbook/montana/vision-no-dark-glasses.png",
+    "width": 1114
+  },
+  "vision-tinted-lenses-night": {
+    "height": 140,
+    "page": 65,
+    "src": "/handbook/montana/vision-tinted-lenses-night.png",
+    "width": 1151
+  },
+  "warning-signs-look": {
+    "height": 141,
+    "page": 35,
+    "src": "/handbook/montana/warning-signs-look.png",
+    "width": 1114
+  },
+  "warning-signs-shape": {
+    "height": 140,
+    "page": 35,
+    "src": "/handbook/montana/warning-signs-shape.png",
+    "width": 1114
+  },
+  "weather-bridges-shade": {
+    "height": 116,
+    "page": 70,
+    "src": "/handbook/montana/weather-bridges-shade.png",
+    "width": 1087
+  },
+  "weather-first-rain-oil": {
+    "height": 141,
+    "page": 70,
+    "src": "/handbook/montana/weather-first-rain-oil.png",
+    "width": 1087
+  },
+  "weather-first-sign": {
+    "height": 117,
+    "page": 70,
+    "src": "/handbook/montana/weather-first-sign.png",
+    "width": 1108
+  },
+  "weather-stranded-stay": {
+    "height": 140,
+    "page": 70,
+    "src": "/handbook/montana/weather-stranded-stay.png",
+    "width": 1108
+  },
+  "weather-studded-tires": {
+    "height": 116,
+    "page": 70,
+    "src": "/handbook/montana/weather-studded-tires.png",
+    "width": 1082
+  },
+  "weather-wet-snow-ice": {
+    "height": 164,
+    "page": 70,
+    "src": "/handbook/montana/weather-wet-snow-ice.png",
+    "width": 1108
+  },
+  "work-zone-barricade-stripes": {
+    "height": 164,
+    "page": 37,
+    "src": "/handbook/montana/work-zone-barricade-stripes.png",
+    "width": 1093
+  },
+  "work-zone-fines-double": {
+    "height": 140,
+    "page": 37,
+    "src": "/handbook/montana/work-zone-fines-double.png",
+    "width": 1155
+  },
+  "work-zone-flaggers": {
+    "height": 140,
+    "page": 38,
+    "src": "/handbook/montana/work-zone-flaggers.png",
+    "width": 1092
+  },
+  "work-zone-no-standard-limit": {
+    "height": 162,
+    "page": 38,
+    "src": "/handbook/montana/work-zone-no-standard-limit.png",
+    "width": 1114
+  },
+  "work-zone-orange": {
+    "height": 140,
+    "page": 37,
+    "src": "/handbook/montana/work-zone-orange.png",
+    "width": 1162
+  },
+  "work-zone-reckless-endangerment": {
+    "height": 140,
+    "page": 38,
+    "src": "/handbook/montana/work-zone-reckless-endangerment.png",
+    "width": 1116
+  },
+  "yield-sign-meaning": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/montana/yield-sign-meaning.png",
+    "width": 886
+  }
+}

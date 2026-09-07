@@ -437,6 +437,28 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "newbrunswick",
+    "name": "New Brunswick",
+    "code": "NB",
+    "country": "CA",
+    "licenceName": "Class 7 Level 1 Graduated Licence",
+    "intro": "New Brunswick asks you to pass two written tests, not one. The Road Sign Recognition Exam shows you twenty signs, and three of them - stop, yield and school zone - you have to get right or you fail whatever else you scored. The Rules of the Road exam is twenty multiple-choice questions and needs sixteen. Both can be sat online from home, or in either official language at a Service New Brunswick centre. These six sets work through the Driver's Handbook part by part, keep the signs half loaded the way the real pair of exams does, and flag the places where the 2022 book is now behind the Motor Vehicle Act.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
+    "slug": "newhampshire",
+    "name": "New Hampshire",
+    "code": "NH",
+    "country": "US",
+    "licenceName": "Class D Driver's License (Youth Operator License under 21)",
+    "intro": "New Hampshire is the state with no learner's permit. From 15 and a half you may practice drive with a licensed adult of 25 or older beside you and nothing else in your pocket; the knowledge test is taken once, at 16 or later, as one of the three tests that produce the license itself. The Division of Motor Vehicles - a division of the Department of Safety, not a department of its own - writes and administers a 40-question touch-screen exam with 40 minutes on the clock, and it ends the moment you have nine wrong. This bank is written from the Rev. 11/25 printing of the New Hampshire Driver's Manual, with Title XXI of the Revised Statutes Annotated supplying the numbers the book leaves out and the DMV's own pages supplying the pass mark, the practice-driving conditions and the Youth Operator rules.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "newmexico",
     "name": "New Mexico",
     "code": "NM",
@@ -488,6 +510,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "licenceName": "Class 5 Learner's Licence",
     "intro": "Quebec's knowledge test is run by the SAAQ and scored in three separate sections, and you have to clear 75% in each one. About half of it is illustrated situations where you are asked which vehicles are breaking a rule, so knowing the rule is only half the job - you also have to spot the detail in the picture. These six sets cover the Highway Safety Code, the signs and signals, and the driving behaviour the third section asks about.",
     "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
+    "slug": "rhodeisland",
+    "name": "Rhode Island",
+    "code": "RI",
+    "country": "US",
+    "licenceName": "Limited Instruction Permit",
+    "intro": "Rhode Island runs licensing through the Division of Motor Vehicles, a division of the Department of Revenue, and the computerized knowledge exam is what gets you the permit. It is 40 multiple-choice questions with a 90-minute maximum, taken at the DMV headquarters in Cranston by reservation - the manual states the length and the clock but never the pass mark, and the only official Rhode Island source for that is CCRI, the state college that runs the 33-hour driver education course and administers the same exam for its students. This bank is written from the April 2024 edition of the Rhode Island Driver's Manual, with Title 31 of the Rhode Island General Laws supplying the numbers the book leaves out and five dmv.ri.gov pages supplying the test format and the graduated licensing stages.",
+    "contentDate": "2026-09-07",
     "setCount": 6,
     "questionCount": 195
   },
@@ -549,4 +582,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 9421;
+export const TOTAL_DRIVING_QUESTIONS = 10006;
