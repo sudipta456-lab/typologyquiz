@@ -1,0 +1,2234 @@
+{
+  "aggressive-behaviours": {
+    "height": 149,
+    "page": 47,
+    "src": "/handbook/northdakota/aggressive-behaviours.png",
+    "width": 542
+  },
+  "aggressive-get-out-of-way": {
+    "height": 149,
+    "page": 47,
+    "src": "/handbook/northdakota/aggressive-get-out-of-way.png",
+    "width": 542
+  },
+  "airbag-supplemental": {
+    "height": 122,
+    "page": 38,
+    "src": "/handbook/northdakota/airbag-supplemental.png",
+    "width": 543
+  },
+  "alcohol-ac-factors": {
+    "height": 148,
+    "page": 39,
+    "src": "/handbook/northdakota/alcohol-ac-factors.png",
+    "width": 542
+  },
+  "alcohol-average-drink": {
+    "height": 121,
+    "page": 39,
+    "src": "/handbook/northdakota/alcohol-average-drink.png",
+    "width": 542
+  },
+  "alcohol-body-weight": {
+    "height": 121,
+    "page": 39,
+    "src": "/handbook/northdakota/alcohol-body-weight.png",
+    "width": 542
+  },
+  "alcohol-effects": {
+    "height": 202,
+    "page": 40,
+    "src": "/handbook/northdakota/alcohol-effects.png",
+    "width": 543
+  },
+  "alcohol-half-deaths": {
+    "height": 175,
+    "page": 39,
+    "src": "/handbook/northdakota/alcohol-half-deaths.png",
+    "width": 542
+  },
+  "alcohol-seven-times": {
+    "height": 148,
+    "page": 39,
+    "src": "/handbook/northdakota/alcohol-seven-times.png",
+    "width": 542
+  },
+  "alcohol-time-only": {
+    "height": 229,
+    "page": 39,
+    "src": "/handbook/northdakota/alcohol-time-only.png",
+    "width": 542
+  },
+  "backing-responsible": {
+    "height": 203,
+    "page": 31,
+    "src": "/handbook/northdakota/backing-responsible.png",
+    "width": 542
+  },
+  "backing-walk-around": {
+    "height": 176,
+    "page": 31,
+    "src": "/handbook/northdakota/backing-walk-around.png",
+    "width": 542
+  },
+  "belt-30mph-force": {
+    "height": 149,
+    "page": 37,
+    "src": "/handbook/northdakota/belt-30mph-force.png",
+    "width": 542
+  },
+  "belt-all-positions": {
+    "height": 122,
+    "page": 38,
+    "src": "/handbook/northdakota/belt-all-positions.png",
+    "width": 536
+  },
+  "belt-crash-speeds": {
+    "height": 203,
+    "page": 37,
+    "src": "/handbook/northdakota/belt-crash-speeds.png",
+    "width": 542
+  },
+  "belt-worn-correctly": {
+    "height": 229,
+    "page": 38,
+    "src": "/handbook/northdakota/belt-worn-correctly.png",
+    "width": 543
+  },
+  "bike-brake-required": {
+    "height": 148,
+    "page": 42,
+    "src": "/handbook/northdakota/bike-brake-required.png",
+    "width": 543
+  },
+  "bike-check-shoulder": {
+    "height": 148,
+    "page": 37,
+    "src": "/handbook/northdakota/bike-check-shoulder.png",
+    "width": 523
+  },
+  "bike-headlight-500": {
+    "height": 202,
+    "page": 42,
+    "src": "/handbook/northdakota/bike-headlight-500.png",
+    "width": 543
+  },
+  "bike-intersections": {
+    "height": 148,
+    "page": 37,
+    "src": "/handbook/northdakota/bike-intersections.png",
+    "width": 542
+  },
+  "bike-lane-right-turn": {
+    "height": 148,
+    "page": 37,
+    "src": "/handbook/northdakota/bike-lane-right-turn.png",
+    "width": 542
+  },
+  "bike-three-feet": {
+    "height": 202,
+    "page": 37,
+    "src": "/handbook/northdakota/bike-three-feet.png",
+    "width": 523
+  },
+  "bike-turn-right-blind-spot": {
+    "height": 148,
+    "page": 37,
+    "src": "/handbook/northdakota/bike-turn-right-blind-spot.png",
+    "width": 542
+  },
+  "bike-two-abreast": {
+    "height": 122,
+    "page": 42,
+    "src": "/handbook/northdakota/bike-two-abreast.png",
+    "width": 543
+  },
+  "blowout-response": {
+    "height": 203,
+    "page": 34,
+    "src": "/handbook/northdakota/blowout-response.png",
+    "width": 543
+  },
+  "blowout-symptoms": {
+    "height": 149,
+    "page": 34,
+    "src": "/handbook/northdakota/blowout-symptoms.png",
+    "width": 543
+  },
+  "brakes-best-before-skid": {
+    "height": 148,
+    "page": 31,
+    "src": "/handbook/northdakota/brakes-best-before-skid.png",
+    "width": 542
+  },
+  "change-address-10-days": {
+    "height": 149,
+    "page": 12,
+    "src": "/handbook/northdakota/change-address-10-days.png",
+    "width": 543
+  },
+  "child-back-seat-13": {
+    "height": 121,
+    "page": 38,
+    "src": "/handbook/northdakota/child-back-seat-13.png",
+    "width": 543
+  },
+  "child-booster-40lb": {
+    "height": 175,
+    "page": 38,
+    "src": "/handbook/northdakota/child-booster-40lb.png",
+    "width": 543
+  },
+  "child-eight-to-seventeen": {
+    "height": 175,
+    "page": 38,
+    "src": "/handbook/northdakota/child-eight-to-seventeen.png",
+    "width": 543
+  },
+  "child-never-cargo-area": {
+    "height": 148,
+    "page": 38,
+    "src": "/handbook/northdakota/child-never-cargo-area.png",
+    "width": 543
+  },
+  "child-penalty": {
+    "height": 148,
+    "page": 38,
+    "src": "/handbook/northdakota/child-penalty.png",
+    "width": 543
+  },
+  "child-rear-facing-airbag": {
+    "height": 148,
+    "page": 38,
+    "src": "/handbook/northdakota/child-rear-facing-airbag.png",
+    "width": 543
+  },
+  "child-under-eight": {
+    "height": 229,
+    "page": 38,
+    "src": "/handbook/northdakota/child-under-eight.png",
+    "width": 543
+  },
+  "class-d-definition": {
+    "height": 176,
+    "page": 12,
+    "src": "/handbook/northdakota/class-d-definition.png",
+    "width": 543
+  },
+  "class-m-definition": {
+    "height": 124,
+    "page": 13,
+    "src": "/handbook/northdakota/class-m-definition.png",
+    "width": 536
+  },
+  "classes-five": {
+    "height": 203,
+    "page": 12,
+    "src": "/handbook/northdakota/classes-five.png",
+    "width": 543
+  },
+  "coasting-neutral": {
+    "height": 121,
+    "page": 30,
+    "src": "/handbook/northdakota/coasting-neutral.png",
+    "width": 542
+  },
+  "crash-exchange": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/northdakota/crash-exchange.png",
+    "width": 542
+  },
+  "crash-note-contents": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/northdakota/crash-note-contents.png",
+    "width": 542
+  },
+  "crash-owner-five-days": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/northdakota/crash-owner-five-days.png",
+    "width": 542
+  },
+  "crash-report-4000": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/northdakota/crash-report-4000.png",
+    "width": 542
+  },
+  "crash-report-outside-city": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/northdakota/crash-report-outside-city.png",
+    "width": 542
+  },
+  "crash-unattended": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/northdakota/crash-unattended.png",
+    "width": 542
+  },
+  "drugs-cold-tablets": {
+    "height": 148,
+    "page": 41,
+    "src": "/handbook/northdakota/drugs-cold-tablets.png",
+    "width": 542
+  },
+  "drugs-same-penalties": {
+    "height": 148,
+    "page": 41,
+    "src": "/handbook/northdakota/drugs-same-penalties.png",
+    "width": 542
+  },
+  "dui-08-02": {
+    "height": 149,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-08-02.png",
+    "width": 543
+  },
+  "dui-death": {
+    "height": 176,
+    "page": 41,
+    "src": "/handbook/northdakota/dui-death.png",
+    "width": 542
+  },
+  "dui-evaluation": {
+    "height": 121,
+    "page": 41,
+    "src": "/handbook/northdakota/dui-evaluation.png",
+    "width": 542
+  },
+  "dui-first-500": {
+    "height": 122,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-first-500.png",
+    "width": 543
+  },
+  "dui-first-conviction": {
+    "height": 122,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-first-conviction.png",
+    "width": 543
+  },
+  "dui-plates-impounded": {
+    "height": 175,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-plates-impounded.png",
+    "width": 543
+  },
+  "dui-second-conviction": {
+    "height": 149,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-second-conviction.png",
+    "width": 543
+  },
+  "dui-serious-injury": {
+    "height": 149,
+    "page": 41,
+    "src": "/handbook/northdakota/dui-serious-injury.png",
+    "width": 542
+  },
+  "dui-sr22": {
+    "height": 202,
+    "page": 41,
+    "src": "/handbook/northdakota/dui-sr22.png",
+    "width": 542
+  },
+  "dui-suspended-driving": {
+    "height": 148,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-suspended-driving.png",
+    "width": 543
+  },
+  "dui-suspension-91": {
+    "height": 122,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-suspension-91.png",
+    "width": 461
+  },
+  "dui-trl": {
+    "height": 148,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-trl.png",
+    "width": 543
+  },
+  "dui-two-penalties": {
+    "height": 149,
+    "page": 40,
+    "src": "/handbook/northdakota/dui-two-penalties.png",
+    "width": 543
+  },
+  "emergency-511": {
+    "height": 220,
+    "page": 31,
+    "src": "/handbook/northdakota/emergency-511.png",
+    "width": 512
+  },
+  "emergency-pull-right": {
+    "height": 148,
+    "page": 24,
+    "src": "/handbook/northdakota/emergency-pull-right.png",
+    "width": 543
+  },
+  "emergency-scene-pass": {
+    "height": 148,
+    "page": 24,
+    "src": "/handbook/northdakota/emergency-scene-pass.png",
+    "width": 543
+  },
+  "emergency-scene-stop": {
+    "height": 229,
+    "page": 24,
+    "src": "/handbook/northdakota/emergency-scene-stop.png",
+    "width": 543
+  },
+  "emergency-stay-stopped": {
+    "height": 148,
+    "page": 24,
+    "src": "/handbook/northdakota/emergency-stay-stopped.png",
+    "width": 543
+  },
+  "failure-accelerator": {
+    "height": 203,
+    "page": 34,
+    "src": "/handbook/northdakota/failure-accelerator.png",
+    "width": 543
+  },
+  "failure-headlights": {
+    "height": 122,
+    "page": 34,
+    "src": "/handbook/northdakota/failure-headlights.png",
+    "width": 543
+  },
+  "failure-ignition-lock": {
+    "height": 203,
+    "page": 34,
+    "src": "/handbook/northdakota/failure-ignition-lock.png",
+    "width": 543
+  },
+  "failure-wipers": {
+    "height": 149,
+    "page": 34,
+    "src": "/handbook/northdakota/failure-wipers.png",
+    "width": 543
+  },
+  "farm-15-year-old": {
+    "height": 229,
+    "page": 12,
+    "src": "/handbook/northdakota/farm-15-year-old.png",
+    "width": 543
+  },
+  "fatigue-danger-signs": {
+    "height": 175,
+    "page": 35,
+    "src": "/handbook/northdakota/fatigue-danger-signs.png",
+    "width": 542
+  },
+  "fatigue-only-cure": {
+    "height": 176,
+    "page": 34,
+    "src": "/handbook/northdakota/fatigue-only-cure.png",
+    "width": 543
+  },
+  "flood-never-cross": {
+    "height": 176,
+    "page": 33,
+    "src": "/handbook/northdakota/flood-never-cross.png",
+    "width": 542
+  },
+  "flood-six-inches": {
+    "height": 176,
+    "page": 33,
+    "src": "/handbook/northdakota/flood-six-inches.png",
+    "width": 542
+  },
+  "flood-turn-around": {
+    "height": 149,
+    "page": 33,
+    "src": "/handbook/northdakota/flood-turn-around.png",
+    "width": 542
+  },
+  "flood-two-feet": {
+    "height": 176,
+    "page": 33,
+    "src": "/handbook/northdakota/flood-two-feet.png",
+    "width": 542
+  },
+  "following-count": {
+    "height": 202,
+    "page": 26,
+    "src": "/handbook/northdakota/following-count.png",
+    "width": 543
+  },
+  "following-four-seconds": {
+    "height": 148,
+    "page": 26,
+    "src": "/handbook/northdakota/following-four-seconds.png",
+    "width": 543
+  },
+  "following-space-for-passer": {
+    "height": 202,
+    "page": 25,
+    "src": "/handbook/northdakota/following-space-for-passer.png",
+    "width": 542
+  },
+  "following-three-second": {
+    "height": 121,
+    "page": 26,
+    "src": "/handbook/northdakota/following-three-second.png",
+    "width": 543
+  },
+  "following-too-close": {
+    "height": 121,
+    "page": 26,
+    "src": "/handbook/northdakota/following-too-close.png",
+    "width": 543
+  },
+  "freeway-yield": {
+    "height": 202,
+    "page": 28,
+    "src": "/handbook/northdakota/freeway-yield.png",
+    "width": 544
+  },
+  "gravel-traction": {
+    "height": 203,
+    "page": 34,
+    "src": "/handbook/northdakota/gravel-traction.png",
+    "width": 543
+  },
+  "hand-signals-know": {
+    "height": 122,
+    "page": 23,
+    "src": "/handbook/northdakota/hand-signals-know.png",
+    "width": 542
+  },
+  "heatstroke-never-ok": {
+    "height": 122,
+    "page": 39,
+    "src": "/handbook/northdakota/heatstroke-never-ok.png",
+    "width": 542
+  },
+  "heatstroke-temp": {
+    "height": 175,
+    "page": 39,
+    "src": "/handbook/northdakota/heatstroke-temp.png",
+    "width": 542
+  },
+  "heatstroke-ten-minutes": {
+    "height": 148,
+    "page": 39,
+    "src": "/handbook/northdakota/heatstroke-ten-minutes.png",
+    "width": 542
+  },
+  "implied-consent": {
+    "height": 122,
+    "page": 40,
+    "src": "/handbook/northdakota/implied-consent.png",
+    "width": 543
+  },
+  "implied-consent-refusal": {
+    "height": 176,
+    "page": 40,
+    "src": "/handbook/northdakota/implied-consent-refusal.png",
+    "width": 543
+  },
+  "insurance-fine": {
+    "height": 176,
+    "page": 31,
+    "src": "/handbook/northdakota/insurance-fine.png",
+    "width": 542
+  },
+  "insurance-produce": {
+    "height": 203,
+    "page": 31,
+    "src": "/handbook/northdakota/insurance-produce.png",
+    "width": 542
+  },
+  "insurance-required": {
+    "height": 176,
+    "page": 31,
+    "src": "/handbook/northdakota/insurance-required.png",
+    "width": 542
+  },
+  "interstate-keep-right": {
+    "height": 121,
+    "page": 28,
+    "src": "/handbook/northdakota/interstate-keep-right.png",
+    "width": 532
+  },
+  "interstate-never-stop": {
+    "height": 121,
+    "page": 28,
+    "src": "/handbook/northdakota/interstate-never-stop.png",
+    "width": 541
+  },
+  "interstate-no-backing": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/northdakota/interstate-no-backing.png",
+    "width": 541
+  },
+  "interstate-reaction": {
+    "height": 176,
+    "page": 27,
+    "src": "/handbook/northdakota/interstate-reaction.png",
+    "width": 541
+  },
+  "lane-change-one-at-a-time": {
+    "height": 176,
+    "page": 25,
+    "src": "/handbook/northdakota/lane-change-one-at-a-time.png",
+    "width": 542
+  },
+  "lane-change-responsible": {
+    "height": 121,
+    "page": 25,
+    "src": "/handbook/northdakota/lane-change-responsible.png",
+    "width": 542
+  },
+  "lane-change-shoulder-check": {
+    "height": 122,
+    "page": 25,
+    "src": "/handbook/northdakota/lane-change-shoulder-check.png",
+    "width": 542
+  },
+  "lane-change-signal": {
+    "height": 149,
+    "page": 25,
+    "src": "/handbook/northdakota/lane-change-signal.png",
+    "width": 542
+  },
+  "licence-carry": {
+    "height": 202,
+    "page": 7,
+    "src": "/handbook/northdakota/licence-carry.png",
+    "width": 544
+  },
+  "licence-expiry": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/northdakota/licence-expiry.png",
+    "width": 542
+  },
+  "litter-500": {
+    "height": 148,
+    "page": 31,
+    "src": "/handbook/northdakota/litter-500.png",
+    "width": 542
+  },
+  "log-conditions": {
+    "height": 122,
+    "page": 49,
+    "src": "/handbook/northdakota/log-conditions.png",
+    "width": 1057
+  },
+  "marking-broken-yellow": {
+    "height": 176,
+    "page": 20,
+    "src": "/handbook/northdakota/marking-broken-yellow.png",
+    "width": 384
+  },
+  "marking-crosswalk-lines": {
+    "height": 149,
+    "page": 21,
+    "src": "/handbook/northdakota/marking-crosswalk-lines.png",
+    "width": 363
+  },
+  "marking-divided": {
+    "height": 218,
+    "page": 21,
+    "src": "/handbook/northdakota/marking-divided.png",
+    "width": 385
+  },
+  "marking-double-solid": {
+    "height": 122,
+    "page": 20,
+    "src": "/handbook/northdakota/marking-double-solid.png",
+    "width": 384
+  },
+  "marking-purpose": {
+    "height": 176,
+    "page": 20,
+    "src": "/handbook/northdakota/marking-purpose.png",
+    "width": 543
+  },
+  "marking-solid-broken": {
+    "height": 230,
+    "page": 20,
+    "src": "/handbook/northdakota/marking-solid-broken.png",
+    "width": 384
+  },
+  "marking-stop-line": {
+    "height": 175,
+    "page": 21,
+    "src": "/handbook/northdakota/marking-stop-line.png",
+    "width": 389
+  },
+  "marking-turn-lanes": {
+    "height": 148,
+    "page": 21,
+    "src": "/handbook/northdakota/marking-turn-lanes.png",
+    "width": 852
+  },
+  "marking-unmarked-crosswalk": {
+    "height": 175,
+    "page": 21,
+    "src": "/handbook/northdakota/marking-unmarked-crosswalk.png",
+    "width": 363
+  },
+  "minor-16-unrestricted": {
+    "height": 149,
+    "page": 10,
+    "src": "/handbook/northdakota/minor-16-unrestricted.png",
+    "width": 543
+  },
+  "minor-curfew": {
+    "height": 122,
+    "page": 10,
+    "src": "/handbook/northdakota/minor-curfew.png",
+    "width": 543
+  },
+  "minor-curfew-exception": {
+    "height": 122,
+    "page": 10,
+    "src": "/handbook/northdakota/minor-curfew-exception.png",
+    "width": 543
+  },
+  "minor-possession": {
+    "height": 176,
+    "page": 41,
+    "src": "/handbook/northdakota/minor-possession.png",
+    "width": 542
+  },
+  "minor-restricted-15": {
+    "height": 149,
+    "page": 10,
+    "src": "/handbook/northdakota/minor-restricted-15.png",
+    "width": 543
+  },
+  "moped-age-14": {
+    "height": 148,
+    "page": 42,
+    "src": "/handbook/northdakota/moped-age-14.png",
+    "width": 543
+  },
+  "moped-definition": {
+    "height": 148,
+    "page": 42,
+    "src": "/handbook/northdakota/moped-definition.png",
+    "width": 543
+  },
+  "moped-helmet-under-18": {
+    "height": 148,
+    "page": 42,
+    "src": "/handbook/northdakota/moped-helmet-under-18.png",
+    "width": 543
+  },
+  "moto-following-3-4": {
+    "height": 148,
+    "page": 37,
+    "src": "/handbook/northdakota/moto-following-3-4.png",
+    "width": 542
+  },
+  "moto-full-lane": {
+    "height": 149,
+    "page": 36,
+    "src": "/handbook/northdakota/moto-full-lane.png",
+    "width": 543
+  },
+  "moto-hard-to-see": {
+    "height": 149,
+    "page": 36,
+    "src": "/handbook/northdakota/moto-hard-to-see.png",
+    "width": 543
+  },
+  "moto-left-turn-crashes": {
+    "height": 176,
+    "page": 36,
+    "src": "/handbook/northdakota/moto-left-turn-crashes.png",
+    "width": 543
+  },
+  "moto-road-hazards": {
+    "height": 175,
+    "page": 37,
+    "src": "/handbook/northdakota/moto-road-hazards.png",
+    "width": 542
+  },
+  "moto-same-rights": {
+    "height": 122,
+    "page": 36,
+    "src": "/handbook/northdakota/moto-same-rights.png",
+    "width": 543
+  },
+  "moto-signal-not-cancelling": {
+    "height": 121,
+    "page": 37,
+    "src": "/handbook/northdakota/moto-signal-not-cancelling.png",
+    "width": 542
+  },
+  "moto-stops-quicker": {
+    "height": 175,
+    "page": 37,
+    "src": "/handbook/northdakota/moto-stops-quicker.png",
+    "width": 542
+  },
+  "moveover-no-lane": {
+    "height": 205,
+    "page": 36,
+    "src": "/handbook/northdakota/moveover-no-lane.png",
+    "width": 543
+  },
+  "moveover-stranded": {
+    "height": 122,
+    "page": 36,
+    "src": "/handbook/northdakota/moveover-stranded.png",
+    "width": 543
+  },
+  "new-resident-60-days": {
+    "height": 122,
+    "page": 6,
+    "src": "/handbook/northdakota/new-resident-60-days.png",
+    "width": 543
+  },
+  "night-blinded": {
+    "height": 175,
+    "page": 29,
+    "src": "/handbook/northdakota/night-blinded.png",
+    "width": 543
+  },
+  "night-clean-windshield": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/northdakota/night-clean-windshield.png",
+    "width": 544
+  },
+  "night-deer": {
+    "height": 148,
+    "page": 29,
+    "src": "/handbook/northdakota/night-deer.png",
+    "width": 524
+  },
+  "night-dim-500-300": {
+    "height": 148,
+    "page": 29,
+    "src": "/handbook/northdakota/night-dim-500-300.png",
+    "width": 543
+  },
+  "night-do-not-swerve": {
+    "height": 148,
+    "page": 29,
+    "src": "/handbook/northdakota/night-do-not-swerve.png",
+    "width": 524
+  },
+  "night-headlights-sunset": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/northdakota/night-headlights-sunset.png",
+    "width": 544
+  },
+  "night-overdrive": {
+    "height": 203,
+    "page": 28,
+    "src": "/handbook/northdakota/night-overdrive.png",
+    "width": 544
+  },
+  "no-licence-seizures": {
+    "height": 175,
+    "page": 7,
+    "src": "/handbook/northdakota/no-licence-seizures.png",
+    "width": 544
+  },
+  "no-licence-seizures-exception": {
+    "height": 203,
+    "page": 7,
+    "src": "/handbook/northdakota/no-licence-seizures-exception.png",
+    "width": 544
+  },
+  "nonresident-16": {
+    "height": 176,
+    "page": 7,
+    "src": "/handbook/northdakota/nonresident-16.png",
+    "width": 544
+  },
+  "nozone-15-feet": {
+    "height": 124,
+    "page": 46,
+    "src": "/handbook/northdakota/nozone-15-feet.png",
+    "width": 543
+  },
+  "offpavement-no-swerve": {
+    "height": 203,
+    "page": 34,
+    "src": "/handbook/northdakota/offpavement-no-swerve.png",
+    "width": 543
+  },
+  "offpavement-recover": {
+    "height": 204,
+    "page": 34,
+    "src": "/handbook/northdakota/offpavement-recover.png",
+    "width": 543
+  },
+  "ohv-crossing": {
+    "height": 121,
+    "page": 43,
+    "src": "/handbook/northdakota/ohv-crossing.png",
+    "width": 542
+  },
+  "ohv-licence-or-cert": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/northdakota/ohv-licence-or-cert.png",
+    "width": 543
+  },
+  "ohv-paved-55": {
+    "height": 265,
+    "page": 43,
+    "src": "/handbook/northdakota/ohv-paved-55.png",
+    "width": 542
+  },
+  "oncoming-in-your-lane": {
+    "height": 149,
+    "page": 34,
+    "src": "/handbook/northdakota/oncoming-in-your-lane.png",
+    "width": 543
+  },
+  "oncoming-steer-right": {
+    "height": 176,
+    "page": 34,
+    "src": "/handbook/northdakota/oncoming-steer-right.png",
+    "width": 543
+  },
+  "open-container": {
+    "height": 148,
+    "page": 41,
+    "src": "/handbook/northdakota/open-container.png",
+    "width": 542
+  },
+  "open-container-trunk": {
+    "height": 148,
+    "page": 41,
+    "src": "/handbook/northdakota/open-container-trunk.png",
+    "width": 542
+  },
+  "organ-donor-14": {
+    "height": 149,
+    "page": 10,
+    "src": "/handbook/northdakota/organ-donor-14.png",
+    "width": 542
+  },
+  "parental-consent-regain": {
+    "height": 176,
+    "page": 44,
+    "src": "/handbook/northdakota/parental-consent-regain.png",
+    "width": 543
+  },
+  "parental-consent-withdraw": {
+    "height": 122,
+    "page": 44,
+    "src": "/handbook/northdakota/parental-consent-withdraw.png",
+    "width": 543
+  },
+  "park-15-feet-signal": {
+    "height": 176,
+    "page": 30,
+    "src": "/handbook/northdakota/park-15-feet-signal.png",
+    "width": 543
+  },
+  "park-accessible": {
+    "height": 148,
+    "page": 30,
+    "src": "/handbook/northdakota/park-accessible.png",
+    "width": 543
+  },
+  "park-bridge-tunnel": {
+    "height": 122,
+    "page": 30,
+    "src": "/handbook/northdakota/park-bridge-tunnel.png",
+    "width": 536
+  },
+  "park-double-parking": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/northdakota/park-double-parking.png",
+    "width": 543
+  },
+  "park-emergency-off-pavement": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/northdakota/park-emergency-off-pavement.png",
+    "width": 543
+  },
+  "park-hill-signs": {
+    "height": 117,
+    "page": 29,
+    "src": "/handbook/northdakota/park-hill-signs.png",
+    "width": 504
+  },
+  "park-hydrant-10": {
+    "height": 122,
+    "page": 30,
+    "src": "/handbook/northdakota/park-hydrant-10.png",
+    "width": 403
+  },
+  "park-lamps-at-night": {
+    "height": 122,
+    "page": 30,
+    "src": "/handbook/northdakota/park-lamps-at-night.png",
+    "width": 543
+  },
+  "park-leaving-space": {
+    "height": 194,
+    "page": 30,
+    "src": "/handbook/northdakota/park-leaving-space.png",
+    "width": 542
+  },
+  "park-leaving-yield": {
+    "height": 221,
+    "page": 30,
+    "src": "/handbook/northdakota/park-leaving-yield.png",
+    "width": 543
+  },
+  "park-parallel-one-foot": {
+    "height": 176,
+    "page": 29,
+    "src": "/handbook/northdakota/park-parallel-one-foot.png",
+    "width": 542
+  },
+  "park-safety-zone": {
+    "height": 230,
+    "page": 30,
+    "src": "/handbook/northdakota/park-safety-zone.png",
+    "width": 543
+  },
+  "pass-200-feet": {
+    "height": 202,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-200-feet.png",
+    "width": 542
+  },
+  "pass-being-passed": {
+    "height": 121,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-being-passed.png",
+    "width": 480
+  },
+  "pass-head-on": {
+    "height": 121,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-head-on.png",
+    "width": 542
+  },
+  "pass-hill-curve-assume": {
+    "height": 149,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-hill-curve-assume.png",
+    "width": 542
+  },
+  "pass-mirror": {
+    "height": 175,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-mirror.png",
+    "width": 542
+  },
+  "pass-never-leave-roadway": {
+    "height": 121,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-never-leave-roadway.png",
+    "width": 535
+  },
+  "pass-never-obstructed": {
+    "height": 148,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-never-obstructed.png",
+    "width": 542
+  },
+  "pass-questions": {
+    "height": 122,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-questions.png",
+    "width": 542
+  },
+  "pass-right-side": {
+    "height": 122,
+    "page": 25,
+    "src": "/handbook/northdakota/pass-right-side.png",
+    "width": 542
+  },
+  "ped-diagonal": {
+    "height": 149,
+    "page": 41,
+    "src": "/handbook/northdakota/ped-diagonal.png",
+    "width": 542
+  },
+  "ped-dont-walk": {
+    "height": 122,
+    "page": 41,
+    "src": "/handbook/northdakota/ped-dont-walk.png",
+    "width": 542
+  },
+  "ped-hitchhiking": {
+    "height": 148,
+    "page": 42,
+    "src": "/handbook/northdakota/ped-hitchhiking.png",
+    "width": 543
+  },
+  "ped-night-clothing": {
+    "height": 175,
+    "page": 42,
+    "src": "/handbook/northdakota/ped-night-clothing.png",
+    "width": 543
+  },
+  "ped-no-crosswalk": {
+    "height": 122,
+    "page": 41,
+    "src": "/handbook/northdakota/ped-no-crosswalk.png",
+    "width": 536
+  },
+  "ped-walk-facing": {
+    "height": 176,
+    "page": 41,
+    "src": "/handbook/northdakota/ped-walk-facing.png",
+    "width": 542
+  },
+  "permit-50-hours": {
+    "height": 121,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-50-hours.png",
+    "width": 542
+  },
+  "permit-50-hours-extra": {
+    "height": 124,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-50-hours-extra.png",
+    "width": 536
+  },
+  "permit-age-14": {
+    "height": 202,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-age-14.png",
+    "width": 542
+  },
+  "permit-front-seat": {
+    "height": 175,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-front-seat.png",
+    "width": 542
+  },
+  "permit-hold-14-15": {
+    "height": 256,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-hold-14-15.png",
+    "width": 542
+  },
+  "permit-hold-16-17": {
+    "height": 148,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-hold-16-17.png",
+    "width": 542
+  },
+  "permit-how-to-get": {
+    "height": 148,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-how-to-get.png",
+    "width": 542
+  },
+  "permit-online-then-office": {
+    "height": 205,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-online-then-office.png",
+    "width": 542
+  },
+  "permit-supervisor": {
+    "height": 122,
+    "page": 7,
+    "src": "/handbook/northdakota/permit-supervisor.png",
+    "width": 537
+  },
+  "permit-violation-two-points": {
+    "height": 175,
+    "page": 8,
+    "src": "/handbook/northdakota/permit-violation-two-points.png",
+    "width": 541
+  },
+  "phone-exception": {
+    "height": 149,
+    "page": 10,
+    "src": "/handbook/northdakota/phone-exception.png",
+    "width": 543
+  },
+  "phone-permit-and-minors": {
+    "height": 122,
+    "page": 10,
+    "src": "/handbook/northdakota/phone-permit-and-minors.png",
+    "width": 543
+  },
+  "plow-sanded-look": {
+    "height": 122,
+    "page": 32,
+    "src": "/handbook/northdakota/plow-sanded-look.png",
+    "width": 542
+  },
+  "plow-stay-back": {
+    "height": 203,
+    "page": 32,
+    "src": "/handbook/northdakota/plow-stay-back.png",
+    "width": 543
+  },
+  "plow-whiteout": {
+    "height": 122,
+    "page": 32,
+    "src": "/handbook/northdakota/plow-whiteout.png",
+    "width": 543
+  },
+  "points-12": {
+    "height": 203,
+    "page": 44,
+    "src": "/handbook/northdakota/points-12.png",
+    "width": 543
+  },
+  "points-in-lieu": {
+    "height": 122,
+    "page": 44,
+    "src": "/handbook/northdakota/points-in-lieu.png",
+    "width": 543
+  },
+  "points-recorded": {
+    "height": 176,
+    "page": 44,
+    "src": "/handbook/northdakota/points-recorded.png",
+    "width": 543
+  },
+  "points-reduce-three": {
+    "height": 176,
+    "page": 44,
+    "src": "/handbook/northdakota/points-reduce-three.png",
+    "width": 543
+  },
+  "points-table": {
+    "height": 234,
+    "page": 44,
+    "src": "/handbook/northdakota/points-table.png",
+    "width": 489
+  },
+  "posture-both-hands": {
+    "height": 176,
+    "page": 34,
+    "src": "/handbook/northdakota/posture-both-hands.png",
+    "width": 543
+  },
+  "posture-one-foot": {
+    "height": 203,
+    "page": 34,
+    "src": "/handbook/northdakota/posture-one-foot.png",
+    "width": 543
+  },
+  "practice-3-4-second": {
+    "height": 176,
+    "page": 46,
+    "src": "/handbook/northdakota/practice-3-4-second.png",
+    "width": 543
+  },
+  "practice-complete-stop": {
+    "height": 149,
+    "page": 45,
+    "src": "/handbook/northdakota/practice-complete-stop.png",
+    "width": 542
+  },
+  "practice-headlights-day": {
+    "height": 150,
+    "page": 45,
+    "src": "/handbook/northdakota/practice-headlights-day.png",
+    "width": 542
+  },
+  "practice-mirrors-6-8": {
+    "height": 149,
+    "page": 45,
+    "src": "/handbook/northdakota/practice-mirrors-6-8.png",
+    "width": 542
+  },
+  "practice-weight-braking": {
+    "height": 176,
+    "page": 46,
+    "src": "/handbook/northdakota/practice-weight-braking.png",
+    "width": 543
+  },
+  "rain-hydroplaning": {
+    "height": 202,
+    "page": 33,
+    "src": "/handbook/northdakota/rain-hydroplaning.png",
+    "width": 542
+  },
+  "rain-slippery-start": {
+    "height": 175,
+    "page": 33,
+    "src": "/handbook/northdakota/rain-slippery-start.png",
+    "width": 542
+  },
+  "ramp-entrance-merge": {
+    "height": 148,
+    "page": 28,
+    "src": "/handbook/northdakota/ramp-entrance-merge.png",
+    "width": 544
+  },
+  "ramp-no-backing": {
+    "height": 148,
+    "page": 28,
+    "src": "/handbook/northdakota/ramp-no-backing.png",
+    "width": 525
+  },
+  "renew-10-months": {
+    "height": 177,
+    "page": 11,
+    "src": "/handbook/northdakota/renew-10-months.png",
+    "width": 542
+  },
+  "renew-vision": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/northdakota/renew-vision.png",
+    "width": 542
+  },
+  "report-impaired-911": {
+    "height": 122,
+    "page": 41,
+    "src": "/handbook/northdakota/report-impaired-911.png",
+    "width": 542
+  },
+  "report-lost-limb": {
+    "height": 148,
+    "page": 11,
+    "src": "/handbook/northdakota/report-lost-limb.png",
+    "width": 542
+  },
+  "resident-90-days": {
+    "height": 149,
+    "page": 6,
+    "src": "/handbook/northdakota/resident-90-days.png",
+    "width": 543
+  },
+  "restrictions-list": {
+    "height": 392,
+    "page": 11,
+    "src": "/handbook/northdakota/restrictions-list.png",
+    "width": 418
+  },
+  "road-adjust-speed": {
+    "height": 176,
+    "page": 34,
+    "src": "/handbook/northdakota/road-adjust-speed.png",
+    "width": 543
+  },
+  "road-test-no-passengers": {
+    "height": 203,
+    "page": 9,
+    "src": "/handbook/northdakota/road-test-no-passengers.png",
+    "width": 542
+  },
+  "road-test-no-retake": {
+    "height": 176,
+    "page": 9,
+    "src": "/handbook/northdakota/road-test-no-retake.png",
+    "width": 542
+  },
+  "road-test-own-vehicle": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/northdakota/road-test-own-vehicle.png",
+    "width": 542
+  },
+  "road-test-pass-criteria": {
+    "height": 122,
+    "page": 9,
+    "src": "/handbook/northdakota/road-test-pass-criteria.png",
+    "width": 542
+  },
+  "road-test-waiver": {
+    "height": 121,
+    "page": 8,
+    "src": "/handbook/northdakota/road-test-waiver.png",
+    "width": 541
+  },
+  "roundabout-lane-choice": {
+    "height": 148,
+    "page": 27,
+    "src": "/handbook/northdakota/roundabout-lane-choice.png",
+    "width": 541
+  },
+  "roundabout-trucks": {
+    "height": 121,
+    "page": 27,
+    "src": "/handbook/northdakota/roundabout-trucks.png",
+    "width": 541
+  },
+  "roundabout-what": {
+    "height": 176,
+    "page": 27,
+    "src": "/handbook/northdakota/roundabout-what.png",
+    "width": 542
+  },
+  "roundabout-yield-circulating": {
+    "height": 193,
+    "page": 27,
+    "src": "/handbook/northdakota/roundabout-yield-circulating.png",
+    "width": 541
+  },
+  "row-defensive": {
+    "height": 175,
+    "page": 23,
+    "src": "/handbook/northdakota/row-defensive.png",
+    "width": 542
+  },
+  "row-emergency-vehicles": {
+    "height": 148,
+    "page": 24,
+    "src": "/handbook/northdakota/row-emergency-vehicles.png",
+    "width": 543
+  },
+  "row-emerging-stop": {
+    "height": 148,
+    "page": 24,
+    "src": "/handbook/northdakota/row-emerging-stop.png",
+    "width": 543
+  },
+  "row-four-way-stop": {
+    "height": 175,
+    "page": 23,
+    "src": "/handbook/northdakota/row-four-way-stop.png",
+    "width": 307
+  },
+  "row-left-turn-yield": {
+    "height": 148,
+    "page": 23,
+    "src": "/handbook/northdakota/row-left-turn-yield.png",
+    "width": 299
+  },
+  "row-look-left-right-left": {
+    "height": 175,
+    "page": 23,
+    "src": "/handbook/northdakota/row-look-left-right-left.png",
+    "width": 523
+  },
+  "row-private-drive": {
+    "height": 148,
+    "page": 24,
+    "src": "/handbook/northdakota/row-private-drive.png",
+    "width": 543
+  },
+  "row-purpose": {
+    "height": 121,
+    "page": 23,
+    "src": "/handbook/northdakota/row-purpose.png",
+    "width": 542
+  },
+  "row-white-cane": {
+    "height": 148,
+    "page": 23,
+    "src": "/handbook/northdakota/row-white-cane.png",
+    "width": 541
+  },
+  "rr-active": {
+    "height": 176,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-active.png",
+    "width": 543
+  },
+  "rr-buses-must-stop": {
+    "height": 256,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-buses-must-stop.png",
+    "width": 543
+  },
+  "rr-crossbuck": {
+    "height": 176,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-crossbuck.png",
+    "width": 543
+  },
+  "rr-devices": {
+    "height": 122,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-devices.png",
+    "width": 543
+  },
+  "rr-dont-pass-stopped": {
+    "height": 175,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-dont-pass-stopped.png",
+    "width": 543
+  },
+  "rr-ens": {
+    "height": 149,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-ens.png",
+    "width": 543
+  },
+  "rr-expect-a-train": {
+    "height": 202,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-expect-a-train.png",
+    "width": 543
+  },
+  "rr-look-listen": {
+    "height": 149,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-look-listen.png",
+    "width": 543
+  },
+  "rr-never-park": {
+    "height": 176,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-never-park.png",
+    "width": 543
+  },
+  "rr-no-gates": {
+    "height": 175,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-no-gates.png",
+    "width": 543
+  },
+  "rr-passive": {
+    "height": 149,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-passive.png",
+    "width": 543
+  },
+  "rr-second-train": {
+    "height": 230,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-second-train.png",
+    "width": 543
+  },
+  "rr-stop-15-feet": {
+    "height": 149,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-stop-15-feet.png",
+    "width": 348
+  },
+  "rr-stuck-45-degrees": {
+    "height": 203,
+    "page": 22,
+    "src": "/handbook/northdakota/rr-stuck-45-degrees.png",
+    "width": 543
+  },
+  "schoolbus-both-directions": {
+    "height": 178,
+    "page": 24,
+    "src": "/handbook/northdakota/schoolbus-both-directions.png",
+    "width": 543
+  },
+  "schoolbus-when-proceed": {
+    "height": 148,
+    "page": 24,
+    "src": "/handbook/northdakota/schoolbus-when-proceed.png",
+    "width": 543
+  },
+  "schoolbus-yellow-lights": {
+    "height": 229,
+    "page": 24,
+    "src": "/handbook/northdakota/schoolbus-yellow-lights.png",
+    "width": 524
+  },
+  "self-parking-not-allowed": {
+    "height": 121,
+    "page": 6,
+    "src": "/handbook/northdakota/self-parking-not-allowed.png",
+    "width": 536
+  },
+  "sign-curve-advisory": {
+    "height": 122,
+    "page": 15,
+    "src": "/handbook/northdakota/sign-curve-advisory.png",
+    "width": 542
+  },
+  "sign-do-not-pass-pennant": {
+    "height": 202,
+    "page": 14,
+    "src": "/handbook/northdakota/sign-do-not-pass-pennant.png",
+    "width": 544
+  },
+  "sign-guide-shape": {
+    "height": 149,
+    "page": 18,
+    "src": "/handbook/northdakota/sign-guide-shape.png",
+    "width": 543
+  },
+  "sign-lane-reduction": {
+    "height": 176,
+    "page": 15,
+    "src": "/handbook/northdakota/sign-lane-reduction.png",
+    "width": 542
+  },
+  "sign-no-turn-on-red": {
+    "height": 175,
+    "page": 14,
+    "src": "/handbook/northdakota/sign-no-turn-on-red.png",
+    "width": 544
+  },
+  "sign-one-way": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/northdakota/sign-one-way.png",
+    "width": 384
+  },
+  "sign-prohibition-circle": {
+    "height": 122,
+    "page": 14,
+    "src": "/handbook/northdakota/sign-prohibition-circle.png",
+    "width": 543
+  },
+  "sign-recreation-brown": {
+    "height": 148,
+    "page": 19,
+    "src": "/handbook/northdakota/sign-recreation-brown.png",
+    "width": 543
+  },
+  "sign-regulatory-colour": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/northdakota/sign-regulatory-colour.png",
+    "width": 542
+  },
+  "sign-regulatory-what": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/northdakota/sign-regulatory-what.png",
+    "width": 542
+  },
+  "sign-rr-advance": {
+    "height": 203,
+    "page": 16,
+    "src": "/handbook/northdakota/sign-rr-advance.png",
+    "width": 341
+  },
+  "sign-school-pedestrian-colour": {
+    "height": 191,
+    "page": 16,
+    "src": "/handbook/northdakota/sign-school-pedestrian-colour.png",
+    "width": 541
+  },
+  "sign-service-blue": {
+    "height": 149,
+    "page": 18,
+    "src": "/handbook/northdakota/sign-service-blue.png",
+    "width": 543
+  },
+  "sign-slippery-when-wet": {
+    "height": 176,
+    "page": 16,
+    "src": "/handbook/northdakota/sign-slippery-when-wet.png",
+    "width": 277
+  },
+  "sign-slow-moving": {
+    "height": 176,
+    "page": 16,
+    "src": "/handbook/northdakota/sign-slow-moving.png",
+    "width": 506
+  },
+  "sign-slow-moving-speed": {
+    "height": 149,
+    "page": 16,
+    "src": "/handbook/northdakota/sign-slow-moving-speed.png",
+    "width": 506
+  },
+  "sign-speed-limit": {
+    "height": 122,
+    "page": 13,
+    "src": "/handbook/northdakota/sign-speed-limit.png",
+    "width": 394
+  },
+  "sign-speed-limit-side": {
+    "height": 176,
+    "page": 13,
+    "src": "/handbook/northdakota/sign-speed-limit-side.png",
+    "width": 394
+  },
+  "sign-stop-octagon": {
+    "height": 122,
+    "page": 13,
+    "src": "/handbook/northdakota/sign-stop-octagon.png",
+    "width": 387
+  },
+  "sign-stop-where": {
+    "height": 176,
+    "page": 13,
+    "src": "/handbook/northdakota/sign-stop-where.png",
+    "width": 387
+  },
+  "sign-three-kinds": {
+    "height": 176,
+    "page": 13,
+    "src": "/handbook/northdakota/sign-three-kinds.png",
+    "width": 542
+  },
+  "sign-two-way-left-not-passing": {
+    "height": 175,
+    "page": 14,
+    "src": "/handbook/northdakota/sign-two-way-left-not-passing.png",
+    "width": 371
+  },
+  "sign-two-way-left-turn": {
+    "height": 148,
+    "page": 14,
+    "src": "/handbook/northdakota/sign-two-way-left-turn.png",
+    "width": 371
+  },
+  "sign-warning-colour": {
+    "height": 149,
+    "page": 15,
+    "src": "/handbook/northdakota/sign-warning-colour.png",
+    "width": 542
+  },
+  "sign-warning-purpose": {
+    "height": 122,
+    "page": 15,
+    "src": "/handbook/northdakota/sign-warning-purpose.png",
+    "width": 542
+  },
+  "sign-wrong-way": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/northdakota/sign-wrong-way.png",
+    "width": 384
+  },
+  "sign-yield": {
+    "height": 230,
+    "page": 13,
+    "src": "/handbook/northdakota/sign-yield.png",
+    "width": 382
+  },
+  "signal-100-feet": {
+    "height": 149,
+    "page": 23,
+    "src": "/handbook/northdakota/signal-100-feet.png",
+    "width": 542
+  },
+  "signal-dark": {
+    "height": 148,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-dark.png",
+    "width": 543
+  },
+  "signal-flashing-red": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-flashing-red.png",
+    "width": 431
+  },
+  "signal-flashing-when": {
+    "height": 176,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-flashing-when.png",
+    "width": 543
+  },
+  "signal-flashing-yellow": {
+    "height": 151,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-flashing-yellow.png",
+    "width": 431
+  },
+  "signal-fya": {
+    "height": 150,
+    "page": 20,
+    "src": "/handbook/northdakota/signal-fya.png",
+    "width": 419
+  },
+  "signal-green": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-green.png",
+    "width": 371
+  },
+  "signal-green-arrow": {
+    "height": 175,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-green-arrow.png",
+    "width": 370
+  },
+  "signal-green-arrow-yield": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/northdakota/signal-green-arrow-yield.png",
+    "width": 382
+  },
+  "signal-left-on-red": {
+    "height": 121,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-left-on-red.png",
+    "width": 543
+  },
+  "signal-red": {
+    "height": 176,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-red.png",
+    "width": 371
+  },
+  "signal-right-on-red": {
+    "height": 124,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-right-on-red.png",
+    "width": 543
+  },
+  "signal-steady-green-left": {
+    "height": 149,
+    "page": 20,
+    "src": "/handbook/northdakota/signal-steady-green-left.png",
+    "width": 419
+  },
+  "signal-steady-red-left": {
+    "height": 149,
+    "page": 20,
+    "src": "/handbook/northdakota/signal-steady-red-left.png",
+    "width": 419
+  },
+  "signal-yellow": {
+    "height": 203,
+    "page": 19,
+    "src": "/handbook/northdakota/signal-yellow.png",
+    "width": 371
+  },
+  "signal-yellow-arrow-left": {
+    "height": 149,
+    "page": 20,
+    "src": "/handbook/northdakota/signal-yellow-arrow-left.png",
+    "width": 419
+  },
+  "skid-4wd": {
+    "height": 149,
+    "page": 33,
+    "src": "/handbook/northdakota/skid-4wd.png",
+    "width": 542
+  },
+  "skid-cause": {
+    "height": 176,
+    "page": 33,
+    "src": "/handbook/northdakota/skid-cause.png",
+    "width": 542
+  },
+  "skid-fwd": {
+    "height": 204,
+    "page": 33,
+    "src": "/handbook/northdakota/skid-fwd.png",
+    "width": 542
+  },
+  "skid-rwd": {
+    "height": 231,
+    "page": 33,
+    "src": "/handbook/northdakota/skid-rwd.png",
+    "width": 542
+  },
+  "skid-rwd-direction": {
+    "height": 176,
+    "page": 33,
+    "src": "/handbook/northdakota/skid-rwd-direction.png",
+    "width": 542
+  },
+  "snowmobile-crossing": {
+    "height": 230,
+    "page": 43,
+    "src": "/handbook/northdakota/snowmobile-crossing.png",
+    "width": 542
+  },
+  "snowmobile-ditch-direction": {
+    "height": 176,
+    "page": 43,
+    "src": "/handbook/northdakota/snowmobile-ditch-direction.png",
+    "width": 542
+  },
+  "snowmobile-licence": {
+    "height": 122,
+    "page": 43,
+    "src": "/handbook/northdakota/snowmobile-licence.png",
+    "width": 542
+  },
+  "snowmobile-never-roadway": {
+    "height": 122,
+    "page": 43,
+    "src": "/handbook/northdakota/snowmobile-never-roadway.png",
+    "width": 542
+  },
+  "snowmobile-right-of-way-dates": {
+    "height": 149,
+    "page": 43,
+    "src": "/handbook/northdakota/snowmobile-right-of-way-dates.png",
+    "width": 542
+  },
+  "speed-business-residential": {
+    "height": 122,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-business-residential.png",
+    "width": 536
+  },
+  "speed-gravel": {
+    "height": 203,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-gravel.png",
+    "width": 543
+  },
+  "speed-ideal-conditions": {
+    "height": 122,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-ideal-conditions.png",
+    "width": 543
+  },
+  "speed-intersection-obstructed": {
+    "height": 221,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-intersection-obstructed.png",
+    "width": 543
+  },
+  "speed-interstate": {
+    "height": 122,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-interstate.png",
+    "width": 536
+  },
+  "speed-multilane": {
+    "height": 149,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-multilane.png",
+    "width": 543
+  },
+  "speed-never-faster": {
+    "height": 149,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-never-faster.png",
+    "width": 543
+  },
+  "speed-rr-obstructed": {
+    "height": 176,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-rr-obstructed.png",
+    "width": 543
+  },
+  "speed-rural-two-lane": {
+    "height": 149,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-rural-two-lane.png",
+    "width": 542
+  },
+  "speed-school": {
+    "height": 149,
+    "page": 24,
+    "src": "/handbook/northdakota/speed-school.png",
+    "width": 543
+  },
+  "stopping-300-feet": {
+    "height": 121,
+    "page": 25,
+    "src": "/handbook/northdakota/stopping-300-feet.png",
+    "width": 542
+  },
+  "teen-fatal-crashes": {
+    "height": 147,
+    "page": 47,
+    "src": "/handbook/northdakota/teen-fatal-crashes.png",
+    "width": 509
+  },
+  "test-arrive-one-hour": {
+    "height": 203,
+    "page": 5,
+    "src": "/handbook/northdakota/test-arrive-one-hour.png",
+    "width": 509
+  },
+  "test-asl-audio": {
+    "height": 230,
+    "page": 5,
+    "src": "/handbook/northdakota/test-asl-audio.png",
+    "width": 542
+  },
+  "test-items-fail": {
+    "height": 178,
+    "page": 5,
+    "src": "/handbook/northdakota/test-items-fail.png",
+    "width": 510
+  },
+  "test-languages": {
+    "height": 149,
+    "page": 5,
+    "src": "/handbook/northdakota/test-languages.png",
+    "width": 542
+  },
+  "test-leave-area-fail": {
+    "height": 205,
+    "page": 5,
+    "src": "/handbook/northdakota/test-leave-area-fail.png",
+    "width": 510
+  },
+  "test-no-devices": {
+    "height": 149,
+    "page": 5,
+    "src": "/handbook/northdakota/test-no-devices.png",
+    "width": 509
+  },
+  "texting-fine": {
+    "height": 121,
+    "page": 34,
+    "src": "/handbook/northdakota/texting-fine.png",
+    "width": 534
+  },
+  "texting-illegal": {
+    "height": 179,
+    "page": 34,
+    "src": "/handbook/northdakota/texting-illegal.png",
+    "width": 534
+  },
+  "tow-chains-25": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/northdakota/tow-chains-25.png",
+    "width": 543
+  },
+  "tow-lights": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/northdakota/tow-lights.png",
+    "width": 543
+  },
+  "tow-mirror-200": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/northdakota/tow-mirror-200.png",
+    "width": 543
+  },
+  "tow-wind": {
+    "height": 176,
+    "page": 30,
+    "src": "/handbook/northdakota/tow-wind.png",
+    "width": 543
+  },
+  "truck-braking-400": {
+    "height": 204,
+    "page": 35,
+    "src": "/handbook/northdakota/truck-braking-400.png",
+    "width": 542
+  },
+  "truck-center-lane": {
+    "height": 176,
+    "page": 36,
+    "src": "/handbook/northdakota/truck-center-lane.png",
+    "width": 542
+  },
+  "truck-cutting-off": {
+    "height": 176,
+    "page": 36,
+    "src": "/handbook/northdakota/truck-cutting-off.png",
+    "width": 543
+  },
+  "truck-mirror-rule": {
+    "height": 121,
+    "page": 36,
+    "src": "/handbook/northdakota/truck-mirror-rule.png",
+    "width": 543
+  },
+  "truck-nozone": {
+    "height": 149,
+    "page": 35,
+    "src": "/handbook/northdakota/truck-nozone.png",
+    "width": 542
+  },
+  "truck-pass-left": {
+    "height": 176,
+    "page": 36,
+    "src": "/handbook/northdakota/truck-pass-left.png",
+    "width": 543
+  },
+  "truck-rear-wheels": {
+    "height": 122,
+    "page": 35,
+    "src": "/handbook/northdakota/truck-rear-wheels.png",
+    "width": 542
+  },
+  "truck-right-turn-swing": {
+    "height": 176,
+    "page": 35,
+    "src": "/handbook/northdakota/truck-right-turn-swing.png",
+    "width": 542
+  },
+  "truck-speed-illusion": {
+    "height": 175,
+    "page": 36,
+    "src": "/handbook/northdakota/truck-speed-illusion.png",
+    "width": 543
+  },
+  "turn-check-both-ways": {
+    "height": 203,
+    "page": 26,
+    "src": "/handbook/northdakota/turn-check-both-ways.png",
+    "width": 543
+  },
+  "turn-left-one-to-one": {
+    "height": 122,
+    "page": 26,
+    "src": "/handbook/northdakota/turn-left-one-to-one.png",
+    "width": 543
+  },
+  "turn-left-onto-four-lane": {
+    "height": 202,
+    "page": 27,
+    "src": "/handbook/northdakota/turn-left-onto-four-lane.png",
+    "width": 542
+  },
+  "turn-left-two-to-one": {
+    "height": 121,
+    "page": 27,
+    "src": "/handbook/northdakota/turn-left-two-to-one.png",
+    "width": 542
+  },
+  "turn-left-two-to-two": {
+    "height": 149,
+    "page": 26,
+    "src": "/handbook/northdakota/turn-left-two-to-two.png",
+    "width": 543
+  },
+  "turn-right-close-curb": {
+    "height": 176,
+    "page": 26,
+    "src": "/handbook/northdakota/turn-right-close-curb.png",
+    "width": 543
+  },
+  "uturn-500-feet": {
+    "height": 175,
+    "page": 24,
+    "src": "/handbook/northdakota/uturn-500-feet.png",
+    "width": 543
+  },
+  "vehicle-inspection-horn": {
+    "height": 121,
+    "page": 6,
+    "src": "/handbook/northdakota/vehicle-inspection-horn.png",
+    "width": 543
+  },
+  "vehicle-inspection-mirrors": {
+    "height": 148,
+    "page": 6,
+    "src": "/handbook/northdakota/vehicle-inspection-mirrors.png",
+    "width": 543
+  },
+  "winter-abs": {
+    "height": 121,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-abs.png",
+    "width": 543
+  },
+  "winter-bridges-ice": {
+    "height": 148,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-bridges-ice.png",
+    "width": 543
+  },
+  "winter-carbon-monoxide": {
+    "height": 148,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-carbon-monoxide.png",
+    "width": 543
+  },
+  "winter-closed-road": {
+    "height": 176,
+    "page": 31,
+    "src": "/handbook/northdakota/winter-closed-road.png",
+    "width": 542
+  },
+  "winter-crashes-too-fast": {
+    "height": 122,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-crashes-too-fast.png",
+    "width": 543
+  },
+  "winter-double-distance": {
+    "height": 121,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-double-distance.png",
+    "width": 542
+  },
+  "winter-drum-brakes": {
+    "height": 148,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-drum-brakes.png",
+    "width": 543
+  },
+  "winter-feel-roadway": {
+    "height": 175,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-feel-roadway.png",
+    "width": 543
+  },
+  "winter-stay-with-vehicle": {
+    "height": 121,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-stay-with-vehicle.png",
+    "width": 543
+  },
+  "winter-studded-tires": {
+    "height": 148,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-studded-tires.png",
+    "width": 542
+  },
+  "winter-survival-kit": {
+    "height": 175,
+    "page": 32,
+    "src": "/handbook/northdakota/winter-survival-kit.png",
+    "width": 543
+  },
+  "wz-arrow-panels": {
+    "height": 230,
+    "page": 17,
+    "src": "/handbook/northdakota/wz-arrow-panels.png",
+    "width": 543
+  },
+  "wz-channelizing": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/northdakota/wz-channelizing.png",
+    "width": 543
+  },
+  "wz-fatalities": {
+    "height": 122,
+    "page": 18,
+    "src": "/handbook/northdakota/wz-fatalities.png",
+    "width": 543
+  },
+  "wz-fine": {
+    "height": 203,
+    "page": 17,
+    "src": "/handbook/northdakota/wz-fine.png",
+    "width": 544
+  },
+  "wz-flagperson-gear": {
+    "height": 230,
+    "page": 18,
+    "src": "/handbook/northdakota/wz-flagperson-gear.png",
+    "width": 543
+  },
+  "wz-flagpersons": {
+    "height": 176,
+    "page": 18,
+    "src": "/handbook/northdakota/wz-flagpersons.png",
+    "width": 543
+  },
+  "wz-hazards": {
+    "height": 176,
+    "page": 18,
+    "src": "/handbook/northdakota/wz-hazards.png",
+    "width": 543
+  },
+  "wz-signs-orange": {
+    "height": 203,
+    "page": 17,
+    "src": "/handbook/northdakota/wz-signs-orange.png",
+    "width": 544
+  },
+  "wz-stripes": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/northdakota/wz-stripes.png",
+    "width": 543
+  },
+  "yellow-flashing-light": {
+    "height": 175,
+    "page": 24,
+    "src": "/handbook/northdakota/yellow-flashing-light.png",
+    "width": 543
+  }
+}
