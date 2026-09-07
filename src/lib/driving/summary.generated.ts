@@ -393,6 +393,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "newmexico",
+    "name": "New Mexico",
+    "code": "NM",
+    "country": "US",
+    "licenceName": "Instructional Permit",
+    "intro": "New Mexico starts you at 15, and it starts you in a classroom. You cannot walk into an MVD field office and take the knowledge exam cold if you are under 18 - you have to be enrolled in or finished with a driver education course approved by the Traffic Safety Bureau before the permit can be issued, and the school hands you the referral card that gets you tested. The exam itself comes from the New Mexico Driver Manual, a short book of forty printed pages published by the Motor Vehicle Division. It is short enough that it leaves several tested rules to Chapter 66 of the statutes, and this bank quotes both.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "novascotia",
     "name": "Nova Scotia",
     "code": "NS",
@@ -483,4 +494,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 8251;
+export const TOTAL_DRIVING_QUESTIONS = 8446;

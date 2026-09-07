@@ -1,0 +1,1694 @@
+{
+  "abs-braking": {
+    "height": 122,
+    "page": 35,
+    "src": "/handbook/newmexico/abs-braking.png",
+    "width": 748
+  },
+  "accident-bleeding": {
+    "height": 149,
+    "page": 37,
+    "src": "/handbook/newmexico/accident-bleeding.png",
+    "width": 1005
+  },
+  "accident-do-not-move-injured": {
+    "height": 149,
+    "page": 37,
+    "src": "/handbook/newmexico/accident-do-not-move-injured.png",
+    "width": 1050
+  },
+  "accident-exchange": {
+    "height": 177,
+    "page": 37,
+    "src": "/handbook/newmexico/accident-exchange.png",
+    "width": 1005
+  },
+  "accident-no-drink": {
+    "height": 121,
+    "page": 37,
+    "src": "/handbook/newmexico/accident-no-drink.png",
+    "width": 697
+  },
+  "accident-parked-note": {
+    "height": 177,
+    "page": 37,
+    "src": "/handbook/newmexico/accident-parked-note.png",
+    "width": 1036
+  },
+  "accident-turn-off-ignition": {
+    "height": 149,
+    "page": 37,
+    "src": "/handbook/newmexico/accident-turn-off-ignition.png",
+    "width": 1005
+  },
+  "alcohol-brain": {
+    "height": 148,
+    "page": 32,
+    "src": "/handbook/newmexico/alcohol-brain.png",
+    "width": 1084
+  },
+  "alcohol-forty-percent": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/newmexico/alcohol-forty-percent.png",
+    "width": 1042
+  },
+  "alcohol-judgment": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/newmexico/alcohol-judgment.png",
+    "width": 1084
+  },
+  "alcohol-no-safe-amount": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/newmexico/alcohol-no-safe-amount.png",
+    "width": 1048
+  },
+  "bac-limits": {
+    "height": 177,
+    "page": 32,
+    "src": "/handbook/newmexico/bac-limits.png",
+    "width": 1082
+  },
+  "backing-check-first": {
+    "height": 149,
+    "page": 20,
+    "src": "/handbook/newmexico/backing-check-first.png",
+    "width": 1022
+  },
+  "backing-look-behind": {
+    "height": 176,
+    "page": 20,
+    "src": "/handbook/newmexico/backing-look-behind.png",
+    "width": 1034
+  },
+  "belt-both-parts": {
+    "height": 149,
+    "page": 6,
+    "src": "/handbook/newmexico/belt-both-parts.png",
+    "width": 1080
+  },
+  "belt-child-12": {
+    "height": 149,
+    "page": 6,
+    "src": "/handbook/newmexico/belt-child-12.png",
+    "width": 1077
+  },
+  "belt-child-rear": {
+    "height": 149,
+    "page": 6,
+    "src": "/handbook/newmexico/belt-child-rear.png",
+    "width": 1077
+  },
+  "belt-illegal": {
+    "height": 150,
+    "page": 6,
+    "src": "/handbook/newmexico/belt-illegal.png",
+    "width": 1077
+  },
+  "bicycle-five-feet": {
+    "height": 148,
+    "page": 28,
+    "src": "/handbook/newmexico/bicycle-five-feet.png",
+    "width": 717
+  },
+  "bicycle-helmet": {
+    "height": 122,
+    "page": 29,
+    "src": "/handbook/newmexico/bicycle-helmet.png",
+    "width": 766
+  },
+  "bicycle-no-sudden-right": {
+    "height": 149,
+    "page": 29,
+    "src": "/handbook/newmexico/bicycle-no-sudden-right.png",
+    "width": 744
+  },
+  "bicycle-whole-lane": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/newmexico/bicycle-whole-lane.png",
+    "width": 1010
+  },
+  "blind-spot-large-vehicle": {
+    "height": 149,
+    "page": 22,
+    "src": "/handbook/newmexico/blind-spot-large-vehicle.png",
+    "width": 1042
+  },
+  "blind-spots": {
+    "height": 176,
+    "page": 20,
+    "src": "/handbook/newmexico/blind-spots.png",
+    "width": 1048
+  },
+  "blocked-view-edge": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/newmexico/blocked-view-edge.png",
+    "width": 1074
+  },
+  "brake-failure": {
+    "height": 149,
+    "page": 34,
+    "src": "/handbook/newmexico/brake-failure.png",
+    "width": 1026
+  },
+  "brake-failure-parking-brake": {
+    "height": 148,
+    "page": 34,
+    "src": "/handbook/newmexico/brake-failure-parking-brake.png",
+    "width": 1040
+  },
+  "brake-lights": {
+    "height": 121,
+    "page": 23,
+    "src": "/handbook/newmexico/brake-lights.png",
+    "width": 1041
+  },
+  "bridges-icy": {
+    "height": 149,
+    "page": 23,
+    "src": "/handbook/newmexico/bridges-icy.png",
+    "width": 1020
+  },
+  "cell-phone": {
+    "height": 149,
+    "page": 33,
+    "src": "/handbook/newmexico/cell-phone.png",
+    "width": 1082
+  },
+  "collision-options": {
+    "height": 148,
+    "page": 35,
+    "src": "/handbook/newmexico/collision-options.png",
+    "width": 1040
+  },
+  "cross-lanes-one-at-a-time": {
+    "height": 121,
+    "page": 27,
+    "src": "/handbook/newmexico/cross-lanes-one-at-a-time.png",
+    "width": 672
+  },
+  "cross-traffic-gap": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/newmexico/cross-traffic-gap.png",
+    "width": 1056
+  },
+  "crosswalk-yield": {
+    "height": 121,
+    "page": 11,
+    "src": "/handbook/newmexico/crosswalk-yield.png",
+    "width": 1079
+  },
+  "curves-slow-before": {
+    "height": 149,
+    "page": 23,
+    "src": "/handbook/newmexico/curves-slow-before.png",
+    "width": 1071
+  },
+  "destination-signs": {
+    "height": 176,
+    "page": 11,
+    "src": "/handbook/newmexico/destination-signs.png",
+    "width": 1064
+  },
+  "dim-one-block": {
+    "height": 149,
+    "page": 21,
+    "src": "/handbook/newmexico/dim-one-block.png",
+    "width": 994
+  },
+  "do-not-enter": {
+    "height": 121,
+    "page": 10,
+    "src": "/handbook/newmexico/do-not-enter.png",
+    "width": 1078
+  },
+  "do-not-stop-at-accident": {
+    "height": 122,
+    "page": 36,
+    "src": "/handbook/newmexico/do-not-stop-at-accident.png",
+    "width": 1152
+  },
+  "downpour-pull-off": {
+    "height": 149,
+    "page": 26,
+    "src": "/handbook/newmexico/downpour-pull-off.png",
+    "width": 1084
+  },
+  "drugs-label": {
+    "height": 121,
+    "page": 33,
+    "src": "/handbook/newmexico/drugs-label.png",
+    "width": 1080
+  },
+  "drugs-with-alcohol": {
+    "height": 149,
+    "page": 33,
+    "src": "/handbook/newmexico/drugs-with-alcohol.png",
+    "width": 1063
+  },
+  "dwi-first-conviction": {
+    "height": 177,
+    "page": 32,
+    "src": "/handbook/newmexico/dwi-first-conviction.png",
+    "width": 1070
+  },
+  "dwi-record-25-years": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/newmexico/dwi-record-25-years.png",
+    "width": 1070
+  },
+  "edge-lines": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/newmexico/edge-lines.png",
+    "width": 1032
+  },
+  "emergency-flashers": {
+    "height": 121,
+    "page": 22,
+    "src": "/handbook/newmexico/emergency-flashers.png",
+    "width": 722
+  },
+  "emotions": {
+    "height": 148,
+    "page": 33,
+    "src": "/handbook/newmexico/emotions.png",
+    "width": 1054
+  },
+  "epilepsy-six-months": {
+    "height": 176,
+    "page": 33,
+    "src": "/handbook/newmexico/epilepsy-six-months.png",
+    "width": 1033
+  },
+  "exit-ramp": {
+    "height": 149,
+    "page": 25,
+    "src": "/handbook/newmexico/exit-ramp.png",
+    "width": 1078
+  },
+  "farm-tractors-25": {
+    "height": 149,
+    "page": 25,
+    "src": "/handbook/newmexico/farm-tractors-25.png",
+    "width": 1016
+  },
+  "fatigue-breaks": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/newmexico/fatigue-breaks.png",
+    "width": 1021
+  },
+  "fatigue-effects": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/newmexico/fatigue-effects.png",
+    "width": 1074
+  },
+  "fatigue-never-sleepy": {
+    "height": 148,
+    "page": 31,
+    "src": "/handbook/newmexico/fatigue-never-sleepy.png",
+    "width": 1043
+  },
+  "flashing-red": {
+    "height": 176,
+    "page": 7,
+    "src": "/handbook/newmexico/flashing-red.png",
+    "width": 1082
+  },
+  "flashing-yellow": {
+    "height": 121,
+    "page": 7,
+    "src": "/handbook/newmexico/flashing-yellow.png",
+    "width": 1070
+  },
+  "four-second-merge": {
+    "height": 122,
+    "page": 27,
+    "src": "/handbook/newmexico/four-second-merge.png",
+    "width": 1085
+  },
+  "four-second-sight": {
+    "height": 232,
+    "page": 26,
+    "src": "/handbook/newmexico/four-second-sight.png",
+    "width": 1152
+  },
+  "four-second-situations": {
+    "height": 204,
+    "page": 27,
+    "src": "/handbook/newmexico/four-second-situations.png",
+    "width": 1050
+  },
+  "gas-pedal-sticks": {
+    "height": 121,
+    "page": 34,
+    "src": "/handbook/newmexico/gas-pedal-sticks.png",
+    "width": 369
+  },
+  "gdl-three-levels": {
+    "height": 121,
+    "page": 4,
+    "src": "/handbook/newmexico/gdl-three-levels.png",
+    "width": 1077
+  },
+  "gdl-under-18": {
+    "height": 148,
+    "page": 4,
+    "src": "/handbook/newmexico/gdl-under-18.png",
+    "width": 1077
+  },
+  "gravel-traction": {
+    "height": 149,
+    "page": 23,
+    "src": "/handbook/newmexico/gravel-traction.png",
+    "width": 1070
+  },
+  "green-arrow": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/newmexico/green-arrow.png",
+    "width": 1079
+  },
+  "green-clear-first": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/newmexico/green-clear-first.png",
+    "width": 1079
+  },
+  "green-left-turn": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/newmexico/green-left-turn.png",
+    "width": 1079
+  },
+  "green-light-blocked": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/newmexico/green-light-blocked.png",
+    "width": 1031
+  },
+  "headlight-failure": {
+    "height": 121,
+    "page": 34,
+    "src": "/handbook/newmexico/headlight-failure.png",
+    "width": 456
+  },
+  "headlight-range": {
+    "height": 149,
+    "page": 26,
+    "src": "/handbook/newmexico/headlight-range.png",
+    "width": 1028
+  },
+  "headlights-500": {
+    "height": 148,
+    "page": 21,
+    "src": "/handbook/newmexico/headlights-500.png",
+    "width": 989
+  },
+  "health-reporting": {
+    "height": 177,
+    "page": 33,
+    "src": "/handbook/newmexico/health-reporting.png",
+    "width": 1081
+  },
+  "heavy-rain-200": {
+    "height": 177,
+    "page": 26,
+    "src": "/handbook/newmexico/heavy-rain-200.png",
+    "width": 1084
+  },
+  "high-beams": {
+    "height": 148,
+    "page": 21,
+    "src": "/handbook/newmexico/high-beams.png",
+    "width": 1033
+  },
+  "hit-from-front": {
+    "height": 149,
+    "page": 36,
+    "src": "/handbook/newmexico/hit-from-front.png",
+    "width": 1152
+  },
+  "hit-from-rear": {
+    "height": 149,
+    "page": 36,
+    "src": "/handbook/newmexico/hit-from-rear.png",
+    "width": 1068
+  },
+  "horn-light-tap": {
+    "height": 149,
+    "page": 21,
+    "src": "/handbook/newmexico/horn-light-tap.png",
+    "width": 1080
+  },
+  "hov-lanes": {
+    "height": 231,
+    "page": 12,
+    "src": "/handbook/newmexico/hov-lanes.png",
+    "width": 1074
+  },
+  "hydroplaning": {
+    "height": 177,
+    "page": 23,
+    "src": "/handbook/newmexico/hydroplaning.png",
+    "width": 1085
+  },
+  "hydroplaning-response": {
+    "height": 121,
+    "page": 24,
+    "src": "/handbook/newmexico/hydroplaning-response.png",
+    "width": 410
+  },
+  "insurance-no-proof": {
+    "height": 149,
+    "page": 38,
+    "src": "/handbook/newmexico/insurance-no-proof.png",
+    "width": 1030
+  },
+  "insurance-required": {
+    "height": 149,
+    "page": 37,
+    "src": "/handbook/newmexico/insurance-required.png",
+    "width": 1054
+  },
+  "intersection-look-both": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/newmexico/intersection-look-both.png",
+    "width": 1076
+  },
+  "intersections-definition": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/newmexico/intersections-definition.png",
+    "width": 1076
+  },
+  "keep-leaving-scene": {
+    "height": 121,
+    "page": 5,
+    "src": "/handbook/newmexico/keep-leaving-scene.png",
+    "width": 963
+  },
+  "keep-lend-license": {
+    "height": 121,
+    "page": 6,
+    "src": "/handbook/newmexico/keep-lend-license.png",
+    "width": 533
+  },
+  "keep-lose-privileges": {
+    "height": 149,
+    "page": 5,
+    "src": "/handbook/newmexico/keep-lose-privileges.png",
+    "width": 1047
+  },
+  "keep-pace": {
+    "height": 176,
+    "page": 24,
+    "src": "/handbook/newmexico/keep-pace.png",
+    "width": 1084
+  },
+  "keep-refusal": {
+    "height": 121,
+    "page": 5,
+    "src": "/handbook/newmexico/keep-refusal.png",
+    "width": 925
+  },
+  "keep-right-except-pass": {
+    "height": 121,
+    "page": 13,
+    "src": "/handbook/newmexico/keep-right-except-pass.png",
+    "width": 1079
+  },
+  "lane-use-signs": {
+    "height": 149,
+    "page": 10,
+    "src": "/handbook/newmexico/lane-use-signs.png",
+    "width": 1152
+  },
+  "left-lane-passing": {
+    "height": 121,
+    "page": 13,
+    "src": "/handbook/newmexico/left-lane-passing.png",
+    "width": 1076
+  },
+  "left-turn-corner": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/left-turn-corner.png",
+    "width": 1064
+  },
+  "left-turn-gap": {
+    "height": 177,
+    "page": 19,
+    "src": "/handbook/newmexico/left-turn-gap.png",
+    "width": 1078
+  },
+  "lic-required": {
+    "height": 149,
+    "page": 4,
+    "src": "/handbook/newmexico/lic-required.png",
+    "width": 1054
+  },
+  "lic-resident": {
+    "height": 121,
+    "page": 4,
+    "src": "/handbook/newmexico/lic-resident.png",
+    "width": 1054
+  },
+  "look-ten-seconds": {
+    "height": 149,
+    "page": 18,
+    "src": "/handbook/newmexico/look-ten-seconds.png",
+    "width": 1152
+  },
+  "low-beams-200": {
+    "height": 121,
+    "page": 21,
+    "src": "/handbook/newmexico/low-beams-200.png",
+    "width": 1000
+  },
+  "low-beams-fog": {
+    "height": 149,
+    "page": 21,
+    "src": "/handbook/newmexico/low-beams-fog.png",
+    "width": 997
+  },
+  "markings-what": {
+    "height": 176,
+    "page": 11,
+    "src": "/handbook/newmexico/markings-what.png",
+    "width": 1038
+  },
+  "mc-being-passed": {
+    "height": 149,
+    "page": 42,
+    "src": "/handbook/newmexico/mc-being-passed.png",
+    "width": 1040
+  },
+  "mc-both-brakes": {
+    "height": 149,
+    "page": 38,
+    "src": "/handbook/newmexico/mc-both-brakes.png",
+    "width": 1046
+  },
+  "mc-eye-contact": {
+    "height": 177,
+    "page": 42,
+    "src": "/handbook/newmexico/mc-eye-contact.png",
+    "width": 1075
+  },
+  "mc-front-brake": {
+    "height": 149,
+    "page": 38,
+    "src": "/handbook/newmexico/mc-front-brake.png",
+    "width": 1066
+  },
+  "mc-grease-strip": {
+    "height": 149,
+    "page": 39,
+    "src": "/handbook/newmexico/mc-grease-strip.png",
+    "width": 1084
+  },
+  "mc-helmet-dot": {
+    "height": 256,
+    "page": 40,
+    "src": "/handbook/newmexico/mc-helmet-dot.png",
+    "width": 1006
+  },
+  "mc-helmet-under-18": {
+    "height": 121,
+    "page": 40,
+    "src": "/handbook/newmexico/mc-helmet-under-18.png",
+    "width": 1048
+  },
+  "mc-intersections": {
+    "height": 121,
+    "page": 41,
+    "src": "/handbook/newmexico/mc-intersections.png",
+    "width": 1089
+  },
+  "mc-lane-sharing": {
+    "height": 121,
+    "page": 39,
+    "src": "/handbook/newmexico/mc-lane-sharing.png",
+    "width": 940
+  },
+  "mc-night": {
+    "height": 149,
+    "page": 41,
+    "src": "/handbook/newmexico/mc-night.png",
+    "width": 1030
+  },
+  "mc-staggered": {
+    "height": 148,
+    "page": 41,
+    "src": "/handbook/newmexico/mc-staggered.png",
+    "width": 1076
+  },
+  "mc-wobble": {
+    "height": 148,
+    "page": 42,
+    "src": "/handbook/newmexico/mc-wobble.png",
+    "width": 1030
+  },
+  "merge-at-speed": {
+    "height": 176,
+    "page": 24,
+    "src": "/handbook/newmexico/merge-at-speed.png",
+    "width": 1079
+  },
+  "minimum-speed-signs": {
+    "height": 176,
+    "page": 10,
+    "src": "/handbook/newmexico/minimum-speed-signs.png",
+    "width": 1152
+  },
+  "missed-turn": {
+    "height": 121,
+    "page": 13,
+    "src": "/handbook/newmexico/missed-turn.png",
+    "width": 1068
+  },
+  "multiple-turn-lanes": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/multiple-turn-lanes.png",
+    "width": 1078
+  },
+  "must-stop": {
+    "height": 150,
+    "page": 37,
+    "src": "/handbook/newmexico/must-stop.png",
+    "width": 1076
+  },
+  "never-drive-to-look": {
+    "height": 177,
+    "page": 36,
+    "src": "/handbook/newmexico/never-drive-to-look.png",
+    "width": 1152
+  },
+  "never-stand-roadway": {
+    "height": 121,
+    "page": 22,
+    "src": "/handbook/newmexico/never-stand-roadway.png",
+    "width": 1045
+  },
+  "night-glasses": {
+    "height": 149,
+    "page": 31,
+    "src": "/handbook/newmexico/night-glasses.png",
+    "width": 1080
+  },
+  "no-abs-braking": {
+    "height": 121,
+    "page": 35,
+    "src": "/handbook/newmexico/no-abs-braking.png",
+    "width": 663
+  },
+  "no-backing": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/newmexico/no-backing.png",
+    "width": 1068
+  },
+  "no-park-bridge": {
+    "height": 121,
+    "page": 16,
+    "src": "/handbook/newmexico/no-park-bridge.png",
+    "width": 584
+  },
+  "no-park-curb-18": {
+    "height": 121,
+    "page": 16,
+    "src": "/handbook/newmexico/no-park-curb-18.png",
+    "width": 393
+  },
+  "no-park-double": {
+    "height": 121,
+    "page": 16,
+    "src": "/handbook/newmexico/no-park-double.png",
+    "width": 607
+  },
+  "no-park-fire-station": {
+    "height": 149,
+    "page": 16,
+    "src": "/handbook/newmexico/no-park-fire-station.png",
+    "width": 1036
+  },
+  "no-park-hydrant": {
+    "height": 121,
+    "page": 16,
+    "src": "/handbook/newmexico/no-park-hydrant.png",
+    "width": 378
+  },
+  "no-park-railroad": {
+    "height": 121,
+    "page": 16,
+    "src": "/handbook/newmexico/no-park-railroad.png",
+    "width": 427
+  },
+  "no-park-signal": {
+    "height": 122,
+    "page": 16,
+    "src": "/handbook/newmexico/no-park-signal.png",
+    "width": 612
+  },
+  "no-passing-signs": {
+    "height": 121,
+    "page": 10,
+    "src": "/handbook/newmexico/no-passing-signs.png",
+    "width": 1071
+  },
+  "no-shoulder-driving": {
+    "height": 122,
+    "page": 13,
+    "src": "/handbook/newmexico/no-shoulder-driving.png",
+    "width": 759
+  },
+  "no-shoulder-passing": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/newmexico/no-shoulder-passing.png",
+    "width": 1076
+  },
+  "no-stopping-travel-lane": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/newmexico/no-stopping-travel-lane.png",
+    "width": 1064
+  },
+  "one-drink-per-hour": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/newmexico/one-drink-per-hour.png",
+    "width": 1054
+  },
+  "one-way-streets": {
+    "height": 177,
+    "page": 15,
+    "src": "/handbook/newmexico/one-way-streets.png",
+    "width": 1072
+  },
+  "other-drugs": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/newmexico/other-drugs.png",
+    "width": 1070
+  },
+  "overdriving-headlights": {
+    "height": 122,
+    "page": 26,
+    "src": "/handbook/newmexico/overdriving-headlights.png",
+    "width": 1152
+  },
+  "parked-vehicles-view": {
+    "height": 176,
+    "page": 26,
+    "src": "/handbook/newmexico/parked-vehicles-view.png",
+    "width": 1152
+  },
+  "parking-brake": {
+    "height": 149,
+    "page": 16,
+    "src": "/handbook/newmexico/parking-brake.png",
+    "width": 967
+  },
+  "parking-door": {
+    "height": 149,
+    "page": 16,
+    "src": "/handbook/newmexico/parking-door.png",
+    "width": 1035
+  },
+  "parking-hazard": {
+    "height": 177,
+    "page": 16,
+    "src": "/handbook/newmexico/parking-hazard.png",
+    "width": 1079
+  },
+  "parking-hill": {
+    "height": 148,
+    "page": 16,
+    "src": "/handbook/newmexico/parking-hill.png",
+    "width": 1035
+  },
+  "parking-keys": {
+    "height": 148,
+    "page": 16,
+    "src": "/handbook/newmexico/parking-keys.png",
+    "width": 1008
+  },
+  "parking-lights-only": {
+    "height": 121,
+    "page": 21,
+    "src": "/handbook/newmexico/parking-lights-only.png",
+    "width": 1005
+  },
+  "pass-both-headlights": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/newmexico/pass-both-headlights.png",
+    "width": 1079
+  },
+  "pass-hills-curves": {
+    "height": 232,
+    "page": 28,
+    "src": "/handbook/newmexico/pass-hills-curves.png",
+    "width": 1037
+  },
+  "pass-intersections": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/newmexico/pass-intersections.png",
+    "width": 1009
+  },
+  "pass-one-at-a-time": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/newmexico/pass-one-at-a-time.png",
+    "width": 1075
+  },
+  "pass-railroad": {
+    "height": 121,
+    "page": 28,
+    "src": "/handbook/newmexico/pass-railroad.png",
+    "width": 872
+  },
+  "pass-space-to-return": {
+    "height": 149,
+    "page": 28,
+    "src": "/handbook/newmexico/pass-space-to-return.png",
+    "width": 1024
+  },
+  "pass-ten-seconds": {
+    "height": 148,
+    "page": 28,
+    "src": "/handbook/newmexico/pass-ten-seconds.png",
+    "width": 1038
+  },
+  "passing-sight-based": {
+    "height": 176,
+    "page": 10,
+    "src": "/handbook/newmexico/passing-sight-based.png",
+    "width": 1071
+  },
+  "permit-accompany-three-years": {
+    "height": 149,
+    "page": 4,
+    "src": "/handbook/newmexico/permit-accompany-three-years.png",
+    "width": 1045
+  },
+  "permit-age-tests": {
+    "height": 149,
+    "page": 4,
+    "src": "/handbook/newmexico/permit-age-tests.png",
+    "width": 1050
+  },
+  "permit-consent": {
+    "height": 149,
+    "page": 4,
+    "src": "/handbook/newmexico/permit-consent.png",
+    "width": 1050
+  },
+  "permit-driver-ed": {
+    "height": 148,
+    "page": 4,
+    "src": "/handbook/newmexico/permit-driver-ed.png",
+    "width": 1024
+  },
+  "permit-seat": {
+    "height": 149,
+    "page": 4,
+    "src": "/handbook/newmexico/permit-seat.png",
+    "width": 1084
+  },
+  "permit-six-months": {
+    "height": 121,
+    "page": 4,
+    "src": "/handbook/newmexico/permit-six-months.png",
+    "width": 767
+  },
+  "permit-supervision": {
+    "height": 148,
+    "page": 4,
+    "src": "/handbook/newmexico/permit-supervision.png",
+    "width": 1084
+  },
+  "points-no-point-offenses": {
+    "height": 177,
+    "page": 17,
+    "src": "/handbook/newmexico/points-no-point-offenses.png",
+    "width": 1084
+  },
+  "points-twelve": {
+    "height": 149,
+    "page": 17,
+    "src": "/handbook/newmexico/points-twelve.png",
+    "width": 1084
+  },
+  "power-failure": {
+    "height": 149,
+    "page": 34,
+    "src": "/handbook/newmexico/power-failure.png",
+    "width": 1026
+  },
+  "prohibitory-signs": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/newmexico/prohibitory-signs.png",
+    "width": 1024
+  },
+  "prov-age": {
+    "height": 149,
+    "page": 4,
+    "src": "/handbook/newmexico/prov-age.png",
+    "width": 1027
+  },
+  "prov-curfew": {
+    "height": 122,
+    "page": 4,
+    "src": "/handbook/newmexico/prov-curfew.png",
+    "width": 1076
+  },
+  "prov-exceptions": {
+    "height": 161,
+    "page": 5,
+    "src": "/handbook/newmexico/prov-exceptions.png",
+    "width": 953
+  },
+  "prov-no-midnight": {
+    "height": 148,
+    "page": 5,
+    "src": "/handbook/newmexico/prov-no-midnight.png",
+    "width": 1033
+  },
+  "prov-passengers": {
+    "height": 176,
+    "page": 4,
+    "src": "/handbook/newmexico/prov-passengers.png",
+    "width": 1076
+  },
+  "prov-practice-hours": {
+    "height": 149,
+    "page": 4,
+    "src": "/handbook/newmexico/prov-practice-hours.png",
+    "width": 1023
+  },
+  "rain-hot-day": {
+    "height": 121,
+    "page": 23,
+    "src": "/handbook/newmexico/rain-hot-day.png",
+    "width": 984
+  },
+  "ramp-do-not-stop": {
+    "height": 149,
+    "page": 24,
+    "src": "/handbook/newmexico/ramp-do-not-stop.png",
+    "width": 1079
+  },
+  "red-arrow": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/newmexico/red-arrow.png",
+    "width": 1082
+  },
+  "red-steady": {
+    "height": 177,
+    "page": 7,
+    "src": "/handbook/newmexico/red-steady.png",
+    "width": 1082
+  },
+  "refusal-one-year": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/newmexico/refusal-one-year.png",
+    "width": 1082
+  },
+  "regulatory-signs": {
+    "height": 177,
+    "page": 9,
+    "src": "/handbook/newmexico/regulatory-signs.png",
+    "width": 1080
+  },
+  "renewal-term": {
+    "height": 149,
+    "page": 5,
+    "src": "/handbook/newmexico/renewal-term.png",
+    "width": 1029
+  },
+  "reserved-lanes": {
+    "height": 176,
+    "page": 12,
+    "src": "/handbook/newmexico/reserved-lanes.png",
+    "width": 823
+  },
+  "reversible-lanes": {
+    "height": 177,
+    "page": 12,
+    "src": "/handbook/newmexico/reversible-lanes.png",
+    "width": 832
+  },
+  "reversible-signals": {
+    "height": 204,
+    "page": 12,
+    "src": "/handbook/newmexico/reversible-signals.png",
+    "width": 832
+  },
+  "right-on-red": {
+    "height": 177,
+    "page": 7,
+    "src": "/handbook/newmexico/right-on-red.png",
+    "width": 1082
+  },
+  "right-on-red-unless": {
+    "height": 121,
+    "page": 19,
+    "src": "/handbook/newmexico/right-on-red-unless.png",
+    "width": 1080
+  },
+  "right-turn-no-swing": {
+    "height": 176,
+    "page": 13,
+    "src": "/handbook/newmexico/right-turn-no-swing.png",
+    "width": 1077
+  },
+  "route-signs": {
+    "height": 148,
+    "page": 11,
+    "src": "/handbook/newmexico/route-signs.png",
+    "width": 1078
+  },
+  "row-always-pedestrian": {
+    "height": 121,
+    "page": 14,
+    "src": "/handbook/newmexico/row-always-pedestrian.png",
+    "width": 1054
+  },
+  "row-block-intersection": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/row-block-intersection.png",
+    "width": 1018
+  },
+  "row-driveway": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/row-driveway.png",
+    "width": 1015
+  },
+  "row-emergency-intersection": {
+    "height": 149,
+    "page": 15,
+    "src": "/handbook/newmexico/row-emergency-intersection.png",
+    "width": 1047
+  },
+  "row-emergency-vehicle": {
+    "height": 203,
+    "page": 15,
+    "src": "/handbook/newmexico/row-emergency-vehicle.png",
+    "width": 1047
+  },
+  "row-four-way-stop": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/row-four-way-stop.png",
+    "width": 1016
+  },
+  "row-law-says-yield": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/row-law-says-yield.png",
+    "width": 1054
+  },
+  "row-left-turn": {
+    "height": 121,
+    "page": 14,
+    "src": "/handbook/newmexico/row-left-turn.png",
+    "width": 807
+  },
+  "row-overtaking": {
+    "height": 148,
+    "page": 15,
+    "src": "/handbook/newmexico/row-overtaking.png",
+    "width": 1032
+  },
+  "row-sidewalk": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/row-sidewalk.png",
+    "width": 988
+  },
+  "row-traffic-circle": {
+    "height": 121,
+    "page": 14,
+    "src": "/handbook/newmexico/row-traffic-circle.png",
+    "width": 879
+  },
+  "row-trains": {
+    "height": 121,
+    "page": 15,
+    "src": "/handbook/newmexico/row-trains.png",
+    "width": 711
+  },
+  "row-uncontrolled": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/row-uncontrolled.png",
+    "width": 1005
+  },
+  "rr-advance-sign": {
+    "height": 149,
+    "page": 8,
+    "src": "/handbook/newmexico/rr-advance-sign.png",
+    "width": 1152
+  },
+  "rr-bell": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/newmexico/rr-bell.png",
+    "width": 1040
+  },
+  "rr-bus-15-feet": {
+    "height": 176,
+    "page": 9,
+    "src": "/handbook/newmexico/rr-bus-15-feet.png",
+    "width": 1011
+  },
+  "rr-bus-doors": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/newmexico/rr-bus-doors.png",
+    "width": 1011
+  },
+  "rr-crossbuck": {
+    "height": 149,
+    "page": 8,
+    "src": "/handbook/newmexico/rr-crossbuck.png",
+    "width": 1152
+  },
+  "rr-flashing-lights": {
+    "height": 204,
+    "page": 9,
+    "src": "/handbook/newmexico/rr-flashing-lights.png",
+    "width": 1040
+  },
+  "rr-never-beat": {
+    "height": 176,
+    "page": 8,
+    "src": "/handbook/newmexico/rr-never-beat.png",
+    "width": 1152
+  },
+  "rr-second-track": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/newmexico/rr-second-track.png",
+    "width": 1083
+  },
+  "rr-slow-and-look": {
+    "height": 149,
+    "page": 19,
+    "src": "/handbook/newmexico/rr-slow-and-look.png",
+    "width": 1084
+  },
+  "school-bus-after": {
+    "height": 176,
+    "page": 15,
+    "src": "/handbook/newmexico/school-bus-after.png",
+    "width": 1048
+  },
+  "school-bus-median": {
+    "height": 176,
+    "page": 15,
+    "src": "/handbook/newmexico/school-bus-median.png",
+    "width": 1048
+  },
+  "school-bus-stop": {
+    "height": 149,
+    "page": 15,
+    "src": "/handbook/newmexico/school-bus-stop.png",
+    "width": 1048
+  },
+  "see-400-feet": {
+    "height": 148,
+    "page": 25,
+    "src": "/handbook/newmexico/see-400-feet.png",
+    "width": 1054
+  },
+  "service-signs": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/newmexico/service-signs.png",
+    "width": 1069
+  },
+  "shady-spots-icy": {
+    "height": 121,
+    "page": 23,
+    "src": "/handbook/newmexico/shady-spots-icy.png",
+    "width": 894
+  },
+  "shared-center-lane": {
+    "height": 149,
+    "page": 12,
+    "src": "/handbook/newmexico/shared-center-lane.png",
+    "width": 1152
+  },
+  "shared-center-markings": {
+    "height": 149,
+    "page": 12,
+    "src": "/handbook/newmexico/shared-center-markings.png",
+    "width": 1082
+  },
+  "sharrows": {
+    "height": 149,
+    "page": 29,
+    "src": "/handbook/newmexico/sharrows.png",
+    "width": 667
+  },
+  "signal-100-feet": {
+    "height": 121,
+    "page": 22,
+    "src": "/handbook/newmexico/signal-100-feet.png",
+    "width": 598
+  },
+  "signal-basic": {
+    "height": 149,
+    "page": 6,
+    "src": "/handbook/newmexico/signal-basic.png",
+    "width": 1073
+  },
+  "signal-off-after": {
+    "height": 121,
+    "page": 22,
+    "src": "/handbook/newmexico/signal-off-after.png",
+    "width": 1019
+  },
+  "signal-order": {
+    "height": 149,
+    "page": 6,
+    "src": "/handbook/newmexico/signal-order.png",
+    "width": 1040
+  },
+  "signal-when": {
+    "height": 149,
+    "page": 22,
+    "src": "/handbook/newmexico/signal-when.png",
+    "width": 1024
+  },
+  "signs-shape-color": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/newmexico/signs-shape-color.png",
+    "width": 1067
+  },
+  "skid-cause": {
+    "height": 204,
+    "page": 36,
+    "src": "/handbook/newmexico/skid-cause.png",
+    "width": 828
+  },
+  "skid-stay-off-brake": {
+    "height": 149,
+    "page": 36,
+    "src": "/handbook/newmexico/skid-stay-off-brake.png",
+    "width": 778
+  },
+  "skid-steer": {
+    "height": 204,
+    "page": 36,
+    "src": "/handbook/newmexico/skid-steer.png",
+    "width": 815
+  },
+  "slippery-numbers": {
+    "height": 177,
+    "page": 23,
+    "src": "/handbook/newmexico/slippery-numbers.png",
+    "width": 1085
+  },
+  "slow-moving-vehicle": {
+    "height": 149,
+    "page": 10,
+    "src": "/handbook/newmexico/slow-moving-vehicle.png",
+    "width": 1078
+  },
+  "space-behind": {
+    "height": 177,
+    "page": 27,
+    "src": "/handbook/newmexico/space-behind.png",
+    "width": 1086
+  },
+  "space-to-side": {
+    "height": 121,
+    "page": 27,
+    "src": "/handbook/newmexico/space-to-side.png",
+    "width": 637
+  },
+  "speed-adjust": {
+    "height": 149,
+    "page": 16,
+    "src": "/handbook/newmexico/speed-adjust.png",
+    "width": 963
+  },
+  "speed-business": {
+    "height": 122,
+    "page": 15,
+    "src": "/handbook/newmexico/speed-business.png",
+    "width": 1080
+  },
+  "speed-highways": {
+    "height": 121,
+    "page": 15,
+    "src": "/handbook/newmexico/speed-highways.png",
+    "width": 1080
+  },
+  "speed-ideal-conditions": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/newmexico/speed-ideal-conditions.png",
+    "width": 1082
+  },
+  "speed-interstate": {
+    "height": 122,
+    "page": 15,
+    "src": "/handbook/newmexico/speed-interstate.png",
+    "width": 1080
+  },
+  "speed-limit-signs": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/newmexico/speed-limit-signs.png",
+    "width": 1082
+  },
+  "speed-minimum": {
+    "height": 149,
+    "page": 15,
+    "src": "/handbook/newmexico/speed-minimum.png",
+    "width": 1080
+  },
+  "speed-more-distance": {
+    "height": 121,
+    "page": 23,
+    "src": "/handbook/newmexico/speed-more-distance.png",
+    "width": 862
+  },
+  "speed-obey": {
+    "height": 149,
+    "page": 15,
+    "src": "/handbook/newmexico/speed-obey.png",
+    "width": 1052
+  },
+  "speed-reduce-when": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/newmexico/speed-reduce-when.png",
+    "width": 1082
+  },
+  "speed-school-zone": {
+    "height": 121,
+    "page": 15,
+    "src": "/handbook/newmexico/speed-school-zone.png",
+    "width": 1080
+  },
+  "speed-slower-right": {
+    "height": 122,
+    "page": 15,
+    "src": "/handbook/newmexico/speed-slower-right.png",
+    "width": 1080
+  },
+  "speeding-up-to-avoid": {
+    "height": 176,
+    "page": 35,
+    "src": "/handbook/newmexico/speeding-up-to-avoid.png",
+    "width": 1080
+  },
+  "standard-drink": {
+    "height": 149,
+    "page": 32,
+    "src": "/handbook/newmexico/standard-drink.png",
+    "width": 1077
+  },
+  "steering-hand-over-hand": {
+    "height": 176,
+    "page": 18,
+    "src": "/handbook/newmexico/steering-hand-over-hand.png",
+    "width": 1058
+  },
+  "steering-hands": {
+    "height": 176,
+    "page": 17,
+    "src": "/handbook/newmexico/steering-hands.png",
+    "width": 1084
+  },
+  "stop-distance-30": {
+    "height": 122,
+    "page": 25,
+    "src": "/handbook/newmexico/stop-distance-30.png",
+    "width": 932
+  },
+  "stop-distance-50": {
+    "height": 149,
+    "page": 25,
+    "src": "/handbook/newmexico/stop-distance-50.png",
+    "width": 1006
+  },
+  "stop-line": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/newmexico/stop-line.png",
+    "width": 1079
+  },
+  "stop-sign": {
+    "height": 177,
+    "page": 10,
+    "src": "/handbook/newmexico/stop-sign.png",
+    "width": 1047
+  },
+  "stopping-suddenly": {
+    "height": 149,
+    "page": 18,
+    "src": "/handbook/newmexico/stopping-suddenly.png",
+    "width": 1082
+  },
+  "tcd-what": {
+    "height": 176,
+    "page": 6,
+    "src": "/handbook/newmexico/tcd-what.png",
+    "width": 1064
+  },
+  "three-lane-center": {
+    "height": 176,
+    "page": 13,
+    "src": "/handbook/newmexico/three-lane-center.png",
+    "width": 1079
+  },
+  "three-second-count": {
+    "height": 148,
+    "page": 27,
+    "src": "/handbook/newmexico/three-second-count.png",
+    "width": 1010
+  },
+  "three-second-rule": {
+    "height": 176,
+    "page": 26,
+    "src": "/handbook/newmexico/three-second-rule.png",
+    "width": 1075
+  },
+  "tire-blowout": {
+    "height": 122,
+    "page": 34,
+    "src": "/handbook/newmexico/tire-blowout.png",
+    "width": 744
+  },
+  "traffic-circle-right": {
+    "height": 149,
+    "page": 15,
+    "src": "/handbook/newmexico/traffic-circle-right.png",
+    "width": 1072
+  },
+  "trouble-spots": {
+    "height": 149,
+    "page": 25,
+    "src": "/handbook/newmexico/trouble-spots.png",
+    "width": 1073
+  },
+  "truck-no-zone": {
+    "height": 204,
+    "page": 30,
+    "src": "/handbook/newmexico/truck-no-zone.png",
+    "width": 1067
+  },
+  "truck-pass-left": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/newmexico/truck-pass-left.png",
+    "width": 1021
+  },
+  "truck-stopping": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/newmexico/truck-stopping.png",
+    "width": 1047
+  },
+  "truck-wide-turns": {
+    "height": 149,
+    "page": 30,
+    "src": "/handbook/newmexico/truck-wide-turns.png",
+    "width": 1058
+  },
+  "turn-lane-choice": {
+    "height": 149,
+    "page": 13,
+    "src": "/handbook/newmexico/turn-lane-choice.png",
+    "width": 1074
+  },
+  "turn-signals-always": {
+    "height": 148,
+    "page": 13,
+    "src": "/handbook/newmexico/turn-signals-always.png",
+    "width": 1074
+  },
+  "turning-quicker": {
+    "height": 149,
+    "page": 35,
+    "src": "/handbook/newmexico/turning-quicker.png",
+    "width": 1080
+  },
+  "unrestricted-12-months": {
+    "height": 149,
+    "page": 5,
+    "src": "/handbook/newmexico/unrestricted-12-months.png",
+    "width": 1023
+  },
+  "unrestricted-no-alcohol": {
+    "height": 149,
+    "page": 5,
+    "src": "/handbook/newmexico/unrestricted-no-alcohol.png",
+    "width": 1033
+  },
+  "vision-standard": {
+    "height": 148,
+    "page": 31,
+    "src": "/handbook/newmexico/vision-standard.png",
+    "width": 1058
+  },
+  "warning-signs": {
+    "height": 176,
+    "page": 7,
+    "src": "/handbook/newmexico/warning-signs.png",
+    "width": 1054
+  },
+  "white-cane-law": {
+    "height": 149,
+    "page": 14,
+    "src": "/handbook/newmexico/white-cane-law.png",
+    "width": 1033
+  },
+  "white-dashed": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/newmexico/white-dashed.png",
+    "width": 1090
+  },
+  "white-solid": {
+    "height": 148,
+    "page": 11,
+    "src": "/handbook/newmexico/white-solid.png",
+    "width": 1090
+  },
+  "wildlife-dawn-dusk": {
+    "height": 149,
+    "page": 24,
+    "src": "/handbook/newmexico/wildlife-dawn-dusk.png",
+    "width": 1017
+  },
+  "wildlife-more-than-one": {
+    "height": 121,
+    "page": 24,
+    "src": "/handbook/newmexico/wildlife-more-than-one.png",
+    "width": 728
+  },
+  "wildlife-species": {
+    "height": 149,
+    "page": 24,
+    "src": "/handbook/newmexico/wildlife-species.png",
+    "width": 1081
+  },
+  "wildlife-where": {
+    "height": 177,
+    "page": 24,
+    "src": "/handbook/newmexico/wildlife-where.png",
+    "width": 1079
+  },
+  "wipers-headlights": {
+    "height": 149,
+    "page": 21,
+    "src": "/handbook/newmexico/wipers-headlights.png",
+    "width": 1043
+  },
+  "work-area-flagger": {
+    "height": 149,
+    "page": 9,
+    "src": "/handbook/newmexico/work-area-flagger.png",
+    "width": 1021
+  },
+  "work-area-signs": {
+    "height": 177,
+    "page": 9,
+    "src": "/handbook/newmexico/work-area-signs.png",
+    "width": 1021
+  },
+  "yellow-arrow": {
+    "height": 176,
+    "page": 7,
+    "src": "/handbook/newmexico/yellow-arrow.png",
+    "width": 1070
+  },
+  "yellow-cross-for-driveway": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/newmexico/yellow-cross-for-driveway.png",
+    "width": 1081
+  },
+  "yellow-double-solid": {
+    "height": 121,
+    "page": 11,
+    "src": "/handbook/newmexico/yellow-double-solid.png",
+    "width": 1081
+  },
+  "yellow-in-intersection": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/newmexico/yellow-in-intersection.png",
+    "width": 1070
+  },
+  "yellow-lines": {
+    "height": 149,
+    "page": 11,
+    "src": "/handbook/newmexico/yellow-lines.png",
+    "width": 1081
+  },
+  "yellow-solid-dashed": {
+    "height": 177,
+    "page": 11,
+    "src": "/handbook/newmexico/yellow-solid-dashed.png",
+    "width": 1081
+  },
+  "yellow-steady": {
+    "height": 149,
+    "page": 7,
+    "src": "/handbook/newmexico/yellow-steady.png",
+    "width": 1070
+  },
+  "yield-sign": {
+    "height": 149,
+    "page": 10,
+    "src": "/handbook/newmexico/yield-sign.png",
+    "width": 1065
+  }
+}

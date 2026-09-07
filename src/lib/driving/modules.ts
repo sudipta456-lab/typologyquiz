@@ -33,6 +33,7 @@ import * as manitoba from "./manitoba";
 import * as minnesota from "./minnesota";
 import * as mississippi from "./mississippi";
 import * as nevada from "./nevada";
+import * as newmexico from "./newmexico";
 import * as novascotia from "./novascotia";
 import * as oklahoma from "./oklahoma";
 import * as oregon from "./oregon";
@@ -55,6 +56,7 @@ export const MODULES: DrivingModule[] = [
   minnesota,
   mississippi,
   nevada,
+  newmexico,
   novascotia,
   oklahoma,
   oregon,
