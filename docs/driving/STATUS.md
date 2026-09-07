@@ -61,7 +61,7 @@ one per wave so the `/ca` side keeps pace. Every bank is built to
 | 4 | Kansas | kansas | **built** (2026-09-06, 407 excerpts, 392 snippets) |
 | 4 | New Mexico | newmexico | **built** (2026-09-06, 317 excerpts, 282 snippets) |
 | 4 | Nebraska | nebraska | queued |
-| 4 | Idaho | idaho | queued |
+| 4 | Idaho | idaho | **built** (2026-09-06, 380 excerpts, 319 snippets) |
 | 4 | West Virginia | westvirginia | queued |
 | 4 | Nova Scotia | novascotia | **built** (2026-09-06, 371 excerpts, 332 snippets) |
 | 5 | Hawaii | hawaii | queued |

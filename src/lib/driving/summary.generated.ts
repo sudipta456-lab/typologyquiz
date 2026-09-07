@@ -305,6 +305,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "idaho",
+    "name": "Idaho",
+    "code": "ID",
+    "country": "US",
+    "licenceName": "Class D Instruction Permit",
+    "intro": "Idaho's knowledge test is one of the strictest in the country: 40 questions and only six wrong answers allowed, which is 85 percent. The Idaho Transportation Department writes it and the county sheriff's driver's license offices give it, and page 32 of the handbook says the questions are taken directly from the handbook itself. This bank is written from the July 2026 edition, with Idaho Code filling the gaps the book leaves and correcting the one place where the book is out of date.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "iowa",
     "name": "Iowa",
     "code": "IA",
@@ -494,4 +505,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 8446;
+export const TOTAL_DRIVING_QUESTIONS = 8641;
