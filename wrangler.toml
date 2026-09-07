@@ -35,3 +35,15 @@ id = "74c83b9ecf6748ba8a87c7b322016125"
 [[kv_namespaces]]
 binding = "SHORT_LINKS"
 id = "06aff94ce51f4aa39c8d2f868f631dbd"
+
+# Handbook snippet images. They live here rather than in [assets] because the
+# free Workers plan allows 20,000 static asset files per version and the build
+# reached 20,324; each new jurisdiction adds roughly 180 more. The worker falls
+# back to the static assets when a key is missing, so this is safe to enable
+# before the bucket is filled.
+#
+# Create with:  npx wrangler r2 bucket create typologyquiz-handbook
+# Fill with:    node scripts/upload-handbook-r2.mjs
+#[[r2_buckets]]
+#binding = "HANDBOOK"
+#bucket_name = "typologyquiz-handbook"

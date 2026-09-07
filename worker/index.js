@@ -246,6 +246,37 @@ export default {
       });
     }
 
+    // Handbook snippet images, served from R2 when it is available.
+    //
+    // There are ~9,500 of these and the number grows by ~180 with every
+    // jurisdiction. Cloudflare's free Workers plan allows 20,000 static asset
+    // files per version, and a deploy was refused at 20,324, so they cannot
+    // stay as static assets forever.
+    //
+    // Deliberately falls THROUGH to the static assets when the bucket is
+    // missing or the object is not in it. That makes this safe to ship before
+    // R2 exists, safe during the upload, and safe afterwards - and if the
+    // bucket is ever emptied by accident the site degrades to whatever is
+    // still bundled rather than serving broken images.
+    if (env.HANDBOOK && url.pathname.startsWith("/handbook/")) {
+      const key = decodeURIComponent(url.pathname.slice("/handbook/".length));
+      // No traversal, and only the images we actually publish.
+      if (!key.includes("..") && /^[a-z0-9-]+\/[a-zA-Z0-9._-]+\.png$/.test(key)) {
+        const object = await env.HANDBOOK.get(key);
+        if (object) {
+          return new Response(object.body, {
+            headers: {
+              "content-type": "image/png",
+              // Immutable: a snippet's filename is its excerpt key, and its
+              // content only changes when the quote does, which renames it.
+              "cache-control": "public, max-age=31536000, immutable",
+              etag: object.httpEtag,
+            },
+          });
+        }
+      }
+    }
+
     const m = url.pathname.match(/^\/api\/stats\/([^/]+)\/?$/);
     if (m) return handleStats(request, env, m[1]);
 
