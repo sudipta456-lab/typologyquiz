@@ -22,6 +22,7 @@ export interface DrivingModule {
 }
 
 import * as alabama from "./alabama";
+import * as arkansas from "./arkansas";
 import * as colorado from "./colorado";
 import * as connecticut from "./connecticut";
 import * as iowa from "./iowa";
@@ -39,6 +40,7 @@ import * as wisconsin from "./wisconsin";
 
 export const MODULES: DrivingModule[] = [
   alabama,
+  arkansas,
   colorado,
   connecticut,
   iowa,

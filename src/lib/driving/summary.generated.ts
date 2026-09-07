@@ -272,6 +272,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "arkansas",
+    "name": "Arkansas",
+    "code": "AR",
+    "country": "US",
+    "licenceName": "Instruction Permit",
+    "intro": "Arkansas is a two-agency state and that trips people up before they even sit down. The Arkansas State Police write and administer the knowledge exam; the Department of Finance and Administration issues the license at a revenue office afterwards. Testing starts at 14, and the State Police say plainly that their study guide is the only source the exam is drawn from. Everything below is written from the July 2026 edition of that guide, including the statutes it reprints.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "colorado",
     "name": "Colorado",
     "code": "CO",
@@ -428,4 +439,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 7276;
+export const TOTAL_DRIVING_QUESTIONS = 7471;
