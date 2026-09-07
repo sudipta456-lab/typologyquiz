@@ -360,6 +360,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "mississippi",
+    "name": "Mississippi",
+    "code": "MS",
+    "country": "US",
+    "licenceName": "Regular Learner's Permit",
+    "intro": "Mississippi calls its knowledge test the Computerized Exam, and it is the only test between you and a license - the road test has not been given since 2020. Everything below is written from the Driver's License Manual revised in December 2024 and, where the manual leaves a rule out, from the Driver Service Bureau's own pages and from Section 63-1-21 of the Mississippi Code.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "nevada",
     "name": "Nevada",
     "code": "NV",
@@ -450,4 +461,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 7666;
+export const TOTAL_DRIVING_QUESTIONS = 7861;

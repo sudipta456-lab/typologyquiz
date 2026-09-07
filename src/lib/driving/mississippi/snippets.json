@@ -1,0 +1,2282 @@
+{
+  "accident-exchange-information": {
+    "height": 187,
+    "page": 66,
+    "src": "/handbook/mississippi/accident-exchange-information.png",
+    "width": 1065
+  },
+  "accident-must-report": {
+    "height": 156,
+    "page": 66,
+    "src": "/handbook/mississippi/accident-must-report.png",
+    "width": 1093
+  },
+  "accident-no-insurance": {
+    "height": 156,
+    "page": 66,
+    "src": "/handbook/mississippi/accident-no-insurance.png",
+    "width": 1037
+  },
+  "accident-report-five-hundred": {
+    "height": 156,
+    "page": 66,
+    "src": "/handbook/mississippi/accident-report-five-hundred.png",
+    "width": 1054
+  },
+  "accident-stop-and-help": {
+    "height": 157,
+    "page": 66,
+    "src": "/handbook/mississippi/accident-stop-and-help.png",
+    "width": 932
+  },
+  "alcohol-half-second": {
+    "height": 150,
+    "page": 77,
+    "src": "/handbook/mississippi/alcohol-half-second.png",
+    "width": 1017
+  },
+  "alcohol-two-beers": {
+    "height": 150,
+    "page": 77,
+    "src": "/handbook/mississippi/alcohol-two-beers.png",
+    "width": 1011
+  },
+  "animal-drawn-vehicles": {
+    "height": 151,
+    "page": 34,
+    "src": "/handbook/mississippi/animal-drawn-vehicles.png",
+    "width": 1090
+  },
+  "app-false-statement": {
+    "height": 179,
+    "page": 16,
+    "src": "/handbook/mississippi/app-false-statement.png",
+    "width": 574
+  },
+  "app-liability": {
+    "height": 150,
+    "page": 16,
+    "src": "/handbook/mississippi/app-liability.png",
+    "width": 1058
+  },
+  "app-residency-no-po-box": {
+    "height": 180,
+    "page": 16,
+    "src": "/handbook/mississippi/app-residency-no-po-box.png",
+    "width": 574
+  },
+  "app-school-attendance": {
+    "height": 239,
+    "page": 16,
+    "src": "/handbook/mississippi/app-school-attendance.png",
+    "width": 541
+  },
+  "app-two-parents": {
+    "height": 209,
+    "page": 16,
+    "src": "/handbook/mississippi/app-two-parents.png",
+    "width": 574
+  },
+  "app-two-proofs-id": {
+    "height": 151,
+    "page": 16,
+    "src": "/handbook/mississippi/app-two-proofs-id.png",
+    "width": 1107
+  },
+  "arm-signal-hundred-feet": {
+    "height": 180,
+    "page": 42,
+    "src": "/handbook/mississippi/arm-signal-hundred-feet.png",
+    "width": 1117
+  },
+  "arm-signal-left": {
+    "height": 187,
+    "page": 42,
+    "src": "/handbook/mississippi/arm-signal-left.png",
+    "width": 1109
+  },
+  "arm-signal-right": {
+    "height": 155,
+    "page": 42,
+    "src": "/handbook/mississippi/arm-signal-right.png",
+    "width": 1128
+  },
+  "arm-signal-stop": {
+    "height": 155,
+    "page": 42,
+    "src": "/handbook/mississippi/arm-signal-stop.png",
+    "width": 1094
+  },
+  "arm-signal-who-uses": {
+    "height": 151,
+    "page": 42,
+    "src": "/handbook/mississippi/arm-signal-who-uses.png",
+    "width": 1117
+  },
+  "arrow-left-only": {
+    "height": 205,
+    "page": 26,
+    "src": "/handbook/mississippi/arrow-left-only.png",
+    "width": 298
+  },
+  "arrow-wrong-lane": {
+    "height": 150,
+    "page": 26,
+    "src": "/handbook/mississippi/arrow-wrong-lane.png",
+    "width": 1083
+  },
+  "bac-limits": {
+    "height": 210,
+    "page": 78,
+    "src": "/handbook/mississippi/bac-limits.png",
+    "width": 530
+  },
+  "bac-thirty-day-permit": {
+    "height": 150,
+    "page": 78,
+    "src": "/handbook/mississippi/bac-thirty-day-permit.png",
+    "width": 846
+  },
+  "backing-look-back": {
+    "height": 156,
+    "page": 61,
+    "src": "/handbook/mississippi/backing-look-back.png",
+    "width": 975
+  },
+  "before-drive-license": {
+    "height": 150,
+    "page": 22,
+    "src": "/handbook/mississippi/before-drive-license.png",
+    "width": 991
+  },
+  "bicycle-do-not-cut-off": {
+    "height": 150,
+    "page": 73,
+    "src": "/handbook/mississippi/bicycle-do-not-cut-off.png",
+    "width": 463
+  },
+  "bicycle-do-not-share-lane": {
+    "height": 238,
+    "page": 73,
+    "src": "/handbook/mississippi/bicycle-do-not-share-lane.png",
+    "width": 476
+  },
+  "bicycle-is-vehicle": {
+    "height": 179,
+    "page": 73,
+    "src": "/handbook/mississippi/bicycle-is-vehicle.png",
+    "width": 703
+  },
+  "bicycle-right-turn-after": {
+    "height": 209,
+    "page": 73,
+    "src": "/handbook/mississippi/bicycle-right-turn-after.png",
+    "width": 469
+  },
+  "bicycle-three-feet": {
+    "height": 180,
+    "page": 73,
+    "src": "/handbook/mississippi/bicycle-three-feet.png",
+    "width": 461
+  },
+  "blind-spot-warning": {
+    "height": 150,
+    "page": 70,
+    "src": "/handbook/mississippi/blind-spot-warning.png",
+    "width": 1037
+  },
+  "blowout": {
+    "height": 161,
+    "page": 65,
+    "src": "/handbook/mississippi/blowout.png",
+    "width": 1017
+  },
+  "booster-forty-to-sixty-five": {
+    "height": 155,
+    "page": 64,
+    "src": "/handbook/mississippi/booster-forty-to-sixty-five.png",
+    "width": 1153
+  },
+  "booster-four-to-seven": {
+    "height": 188,
+    "page": 64,
+    "src": "/handbook/mississippi/booster-four-to-seven.png",
+    "width": 1098
+  },
+  "braking-chart": {
+    "height": 150,
+    "page": 44,
+    "src": "/handbook/mississippi/braking-chart.png",
+    "width": 1076
+  },
+  "braking-ideal-conditions": {
+    "height": 263,
+    "page": 44,
+    "src": "/handbook/mississippi/braking-ideal-conditions.png",
+    "width": 307
+  },
+  "cannabis-driving": {
+    "height": 150,
+    "page": 77,
+    "src": "/handbook/mississippi/cannabis-driving.png",
+    "width": 1109
+  },
+  "carseat-under-four": {
+    "height": 156,
+    "page": 64,
+    "src": "/handbook/mississippi/carseat-under-four.png",
+    "width": 1123
+  },
+  "cdl-required": {
+    "height": 275,
+    "page": 87,
+    "src": "/handbook/mississippi/cdl-required.png",
+    "width": 1017
+  },
+  "change-lanes-steps": {
+    "height": 150,
+    "page": 70,
+    "src": "/handbook/mississippi/change-lanes-steps.png",
+    "width": 1135
+  },
+  "children-backseat-thirteen": {
+    "height": 183,
+    "page": 64,
+    "src": "/handbook/mississippi/children-backseat-thirteen.png",
+    "width": 584
+  },
+  "classd-pickup": {
+    "height": 238,
+    "page": 14,
+    "src": "/handbook/mississippi/classd-pickup.png",
+    "width": 579
+  },
+  "classd-under-26000": {
+    "height": 209,
+    "page": 14,
+    "src": "/handbook/mississippi/classd-under-26000.png",
+    "width": 579
+  },
+  "color-blue": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/mississippi/color-blue.png",
+    "width": 287
+  },
+  "color-brown": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/mississippi/color-brown.png",
+    "width": 314
+  },
+  "color-green": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/mississippi/color-green.png",
+    "width": 1111
+  },
+  "color-orange": {
+    "height": 148,
+    "page": 27,
+    "src": "/handbook/mississippi/color-orange.png",
+    "width": 304
+  },
+  "color-red": {
+    "height": 148,
+    "page": 27,
+    "src": "/handbook/mississippi/color-red.png",
+    "width": 321
+  },
+  "color-yellow": {
+    "height": 122,
+    "page": 27,
+    "src": "/handbook/mississippi/color-yellow.png",
+    "width": 850
+  },
+  "crosswalk-never-stop": {
+    "height": 150,
+    "page": 26,
+    "src": "/handbook/mississippi/crosswalk-never-stop.png",
+    "width": 474
+  },
+  "crosswalk-unmarked-yield": {
+    "height": 122,
+    "page": 26,
+    "src": "/handbook/mississippi/crosswalk-unmarked-yield.png",
+    "width": 488
+  },
+  "cyclist-far-right": {
+    "height": 180,
+    "page": 73,
+    "src": "/handbook/mississippi/cyclist-far-right.png",
+    "width": 547
+  },
+  "cyclist-helmet": {
+    "height": 161,
+    "page": 74,
+    "src": "/handbook/mississippi/cyclist-helmet.png",
+    "width": 1104
+  },
+  "cyclist-speed": {
+    "height": 197,
+    "page": 73,
+    "src": "/handbook/mississippi/cyclist-speed.png",
+    "width": 479
+  },
+  "cyclist-two-abreast": {
+    "height": 195,
+    "page": 74,
+    "src": "/handbook/mississippi/cyclist-two-abreast.png",
+    "width": 1138
+  },
+  "cyclist-with-traffic": {
+    "height": 128,
+    "page": 74,
+    "src": "/handbook/mississippi/cyclist-with-traffic.png",
+    "width": 1136
+  },
+  "disabled-walk-facing-traffic": {
+    "height": 161,
+    "page": 65,
+    "src": "/handbook/mississippi/disabled-walk-facing-traffic.png",
+    "width": 998
+  },
+  "distraction-definition": {
+    "height": 158,
+    "page": 23,
+    "src": "/handbook/mississippi/distraction-definition.png",
+    "width": 1023
+  },
+  "driveway-yield": {
+    "height": 209,
+    "page": 57,
+    "src": "/handbook/mississippi/driveway-yield.png",
+    "width": 1111
+  },
+  "drugs-slow-reflexes": {
+    "height": 150,
+    "page": 77,
+    "src": "/handbook/mississippi/drugs-slow-reflexes.png",
+    "width": 1016
+  },
+  "dui-first-offense": {
+    "height": 119,
+    "page": 79,
+    "src": "/handbook/mississippi/dui-first-offense.png",
+    "width": 497
+  },
+  "dui-illegal": {
+    "height": 121,
+    "page": 77,
+    "src": "/handbook/mississippi/dui-illegal.png",
+    "width": 1059
+  },
+  "dui-refusal-extra-ninety": {
+    "height": 190,
+    "page": 79,
+    "src": "/handbook/mississippi/dui-refusal-extra-ninety.png",
+    "width": 927
+  },
+  "dui-second-offense": {
+    "height": 171,
+    "page": 79,
+    "src": "/handbook/mississippi/dui-second-offense.png",
+    "width": 470
+  },
+  "dui-third-felony": {
+    "height": 199,
+    "page": 79,
+    "src": "/handbook/mississippi/dui-third-felony.png",
+    "width": 1081
+  },
+  "emergency-pull-right": {
+    "height": 180,
+    "page": 67,
+    "src": "/handbook/mississippi/emergency-pull-right.png",
+    "width": 1038
+  },
+  "emergency-star-hp": {
+    "height": 230,
+    "page": 66,
+    "src": "/handbook/mississippi/emergency-star-hp.png",
+    "width": 750
+  },
+  "emergency-vehicle-row": {
+    "height": 151,
+    "page": 67,
+    "src": "/handbook/mississippi/emergency-vehicle-row.png",
+    "width": 1038
+  },
+  "emotional-distraction": {
+    "height": 155,
+    "page": 24,
+    "src": "/handbook/mississippi/emotional-distraction.png",
+    "width": 1055
+  },
+  "equip-aux-lights": {
+    "height": 153,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-aux-lights.png",
+    "width": 1069
+  },
+  "equip-brakes": {
+    "height": 184,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-brakes.png",
+    "width": 1140
+  },
+  "equip-four-lights": {
+    "height": 153,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-four-lights.png",
+    "width": 1069
+  },
+  "equip-headlights": {
+    "height": 122,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-headlights.png",
+    "width": 943
+  },
+  "equip-horn": {
+    "height": 153,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-horn.png",
+    "width": 1130
+  },
+  "equip-mirror": {
+    "height": 153,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-mirror.png",
+    "width": 1116
+  },
+  "equip-muffler": {
+    "height": 153,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-muffler.png",
+    "width": 1143
+  },
+  "equip-taillight": {
+    "height": 123,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-taillight.png",
+    "width": 1003
+  },
+  "equip-tires": {
+    "height": 122,
+    "page": 19,
+    "src": "/handbook/mississippi/equip-tires.png",
+    "width": 1056
+  },
+  "exam-based-on-manual": {
+    "height": 251,
+    "page": 17,
+    "src": "/handbook/mississippi/exam-based-on-manual.png",
+    "width": 485
+  },
+  "exam-driver-ed-2027": {
+    "height": 156,
+    "page": 17,
+    "src": "/handbook/mississippi/exam-driver-ed-2027.png",
+    "width": 1041
+  },
+  "exam-headset": {
+    "height": 199,
+    "page": 17,
+    "src": "/handbook/mississippi/exam-headset.png",
+    "width": 501
+  },
+  "exam-questions-asked": {
+    "height": 123,
+    "page": 17,
+    "src": "/handbook/mississippi/exam-questions-asked.png",
+    "width": 934
+  },
+  "exam-retake-after-two-years": {
+    "height": 150,
+    "page": 13,
+    "src": "/handbook/mississippi/exam-retake-after-two-years.png",
+    "width": 1020
+  },
+  "exam-score-two-years": {
+    "height": 121,
+    "page": 13,
+    "src": "/handbook/mississippi/exam-score-two-years.png",
+    "width": 1020
+  },
+  "exam-study-carefully": {
+    "height": 156,
+    "page": 17,
+    "src": "/handbook/mississippi/exam-study-carefully.png",
+    "width": 681
+  },
+  "exam-three-requirements": {
+    "height": 219,
+    "page": 17,
+    "src": "/handbook/mississippi/exam-three-requirements.png",
+    "width": 1039
+  },
+  "farm-machinery": {
+    "height": 151,
+    "page": 34,
+    "src": "/handbook/mississippi/farm-machinery.png",
+    "width": 1137
+  },
+  "fatigue-definition": {
+    "height": 159,
+    "page": 21,
+    "src": "/handbook/mississippi/fatigue-definition.png",
+    "width": 995
+  },
+  "fatigue-hundred-miles": {
+    "height": 121,
+    "page": 21,
+    "src": "/handbook/mississippi/fatigue-hundred-miles.png",
+    "width": 1016
+  },
+  "fatigue-sleep": {
+    "height": 151,
+    "page": 21,
+    "src": "/handbook/mississippi/fatigue-sleep.png",
+    "width": 1016
+  },
+  "flammable-loads-railroad": {
+    "height": 121,
+    "page": 87,
+    "src": "/handbook/mississippi/flammable-loads-railroad.png",
+    "width": 1117
+  },
+  "flooded-roadway": {
+    "height": 197,
+    "page": 65,
+    "src": "/handbook/mississippi/flooded-roadway.png",
+    "width": 769
+  },
+  "following-car-length": {
+    "height": 149,
+    "page": 43,
+    "src": "/handbook/mississippi/following-car-length.png",
+    "width": 783
+  },
+  "following-large-truck": {
+    "height": 149,
+    "page": 43,
+    "src": "/handbook/mississippi/following-large-truck.png",
+    "width": 816
+  },
+  "following-motorcade": {
+    "height": 176,
+    "page": 43,
+    "src": "/handbook/mississippi/following-motorcade.png",
+    "width": 810
+  },
+  "following-rear-end": {
+    "height": 185,
+    "page": 43,
+    "src": "/handbook/mississippi/following-rear-end.png",
+    "width": 584
+  },
+  "four-way-no-slamming": {
+    "height": 152,
+    "page": 56,
+    "src": "/handbook/mississippi/four-way-no-slamming.png",
+    "width": 1127
+  },
+  "four-way-stop": {
+    "height": 296,
+    "page": 56,
+    "src": "/handbook/mississippi/four-way-stop.png",
+    "width": 1127
+  },
+  "funeral-procession": {
+    "height": 163,
+    "page": 59,
+    "src": "/handbook/mississippi/funeral-procession.png",
+    "width": 642
+  },
+  "hands-free-definition": {
+    "height": 187,
+    "page": 23,
+    "src": "/handbook/mississippi/hands-free-definition.png",
+    "width": 1044
+  },
+  "hands-three-nine": {
+    "height": 150,
+    "page": 22,
+    "src": "/handbook/mississippi/hands-three-nine.png",
+    "width": 1052
+  },
+  "hands-two-ten": {
+    "height": 151,
+    "page": 22,
+    "src": "/handbook/mississippi/hands-two-ten.png",
+    "width": 1052
+  },
+  "headlight-five-hundred-feet": {
+    "height": 151,
+    "page": 63,
+    "src": "/handbook/mississippi/headlight-five-hundred-feet.png",
+    "width": 1037
+  },
+  "headlight-fog": {
+    "height": 180,
+    "page": 63,
+    "src": "/handbook/mississippi/headlight-fog.png",
+    "width": 1140
+  },
+  "headlight-high-beam": {
+    "height": 156,
+    "page": 63,
+    "src": "/handbook/mississippi/headlight-high-beam.png",
+    "width": 1140
+  },
+  "headlight-parking-lights": {
+    "height": 151,
+    "page": 63,
+    "src": "/handbook/mississippi/headlight-parking-lights.png",
+    "width": 1037
+  },
+  "headlight-sunset-sunrise": {
+    "height": 180,
+    "page": 63,
+    "src": "/handbook/mississippi/headlight-sunset-sunrise.png",
+    "width": 1037
+  },
+  "headphones": {
+    "height": 164,
+    "page": 24,
+    "src": "/handbook/mississippi/headphones.png",
+    "width": 1137
+  },
+  "hill-parking": {
+    "height": 180,
+    "page": 62,
+    "src": "/handbook/mississippi/hill-parking.png",
+    "width": 1101
+  },
+  "hydroplaning-avoid": {
+    "height": 196,
+    "page": 65,
+    "src": "/handbook/mississippi/hydroplaning-avoid.png",
+    "width": 733
+  },
+  "hydroplaning-definition": {
+    "height": 196,
+    "page": 65,
+    "src": "/handbook/mississippi/hydroplaning-definition.png",
+    "width": 733
+  },
+  "implied-consent": {
+    "height": 157,
+    "page": 78,
+    "src": "/handbook/mississippi/implied-consent.png",
+    "width": 1038
+  },
+  "insurance-card-in-vehicle": {
+    "height": 151,
+    "page": 76,
+    "src": "/handbook/mississippi/insurance-card-in-vehicle.png",
+    "width": 1137
+  },
+  "insurance-electronic": {
+    "height": 150,
+    "page": 76,
+    "src": "/handbook/mississippi/insurance-electronic.png",
+    "width": 1137
+  },
+  "insurance-minimums": {
+    "height": 245,
+    "page": 76,
+    "src": "/handbook/mississippi/insurance-minimums.png",
+    "width": 618
+  },
+  "insurance-required": {
+    "height": 156,
+    "page": 76,
+    "src": "/handbook/mississippi/insurance-required.png",
+    "width": 1004
+  },
+  "insurance-three-years": {
+    "height": 118,
+    "page": 76,
+    "src": "/handbook/mississippi/insurance-three-years.png",
+    "width": 733
+  },
+  "intersection-cannot-see": {
+    "height": 150,
+    "page": 55,
+    "src": "/handbook/mississippi/intersection-cannot-see.png",
+    "width": 918
+  },
+  "intersection-extreme-caution": {
+    "height": 121,
+    "page": 55,
+    "src": "/handbook/mississippi/intersection-extreme-caution.png",
+    "width": 713
+  },
+  "intersection-most-dangerous": {
+    "height": 123,
+    "page": 55,
+    "src": "/handbook/mississippi/intersection-most-dangerous.png",
+    "width": 1082
+  },
+  "interstate-breakdown-flashers": {
+    "height": 151,
+    "page": 70,
+    "src": "/handbook/mississippi/interstate-breakdown-flashers.png",
+    "width": 1043
+  },
+  "interstate-car-lengths": {
+    "height": 180,
+    "page": 70,
+    "src": "/handbook/mississippi/interstate-car-lengths.png",
+    "width": 1044
+  },
+  "interstate-deceleration-lane": {
+    "height": 150,
+    "page": 69,
+    "src": "/handbook/mississippi/interstate-deceleration-lane.png",
+    "width": 1037
+  },
+  "interstate-exit-quarter-mile": {
+    "height": 121,
+    "page": 69,
+    "src": "/handbook/mississippi/interstate-exit-quarter-mile.png",
+    "width": 1132
+  },
+  "interstate-lane-use": {
+    "height": 151,
+    "page": 70,
+    "src": "/handbook/mississippi/interstate-lane-use.png",
+    "width": 1008
+  },
+  "interstate-merge-left": {
+    "height": 151,
+    "page": 70,
+    "src": "/handbook/mississippi/interstate-merge-left.png",
+    "width": 1013
+  },
+  "interstate-merge-speed": {
+    "height": 210,
+    "page": 69,
+    "src": "/handbook/mississippi/interstate-merge-speed.png",
+    "width": 1038
+  },
+  "interstate-merge-yield": {
+    "height": 150,
+    "page": 69,
+    "src": "/handbook/mississippi/interstate-merge-yield.png",
+    "width": 1132
+  },
+  "interstate-missed-exit": {
+    "height": 122,
+    "page": 69,
+    "src": "/handbook/mississippi/interstate-missed-exit.png",
+    "width": 954
+  },
+  "interstate-never-back-up": {
+    "height": 122,
+    "page": 69,
+    "src": "/handbook/mississippi/interstate-never-back-up.png",
+    "width": 1090
+  },
+  "interstate-seventy": {
+    "height": 121,
+    "page": 70,
+    "src": "/handbook/mississippi/interstate-seventy.png",
+    "width": 1043
+  },
+  "interstate-slow-keep-right": {
+    "height": 150,
+    "page": 70,
+    "src": "/handbook/mississippi/interstate-slow-keep-right.png",
+    "width": 1037
+  },
+  "interstate-stay-inside": {
+    "height": 121,
+    "page": 70,
+    "src": "/handbook/mississippi/interstate-stay-inside.png",
+    "width": 1043
+  },
+  "interstate-stranded": {
+    "height": 150,
+    "page": 70,
+    "src": "/handbook/mississippi/interstate-stranded.png",
+    "width": 1043
+  },
+  "lane-center-for-left": {
+    "height": 210,
+    "page": 45,
+    "src": "/handbook/mississippi/lane-center-for-left.png",
+    "width": 336
+  },
+  "lane-cross-to-pass": {
+    "height": 180,
+    "page": 45,
+    "src": "/handbook/mississippi/lane-cross-to-pass.png",
+    "width": 690
+  },
+  "lane-definition": {
+    "height": 151,
+    "page": 45,
+    "src": "/handbook/mississippi/lane-definition.png",
+    "width": 1143
+  },
+  "lane-direction-control": {
+    "height": 180,
+    "page": 40,
+    "src": "/handbook/mississippi/lane-direction-control.png",
+    "width": 1135
+  },
+  "lane-extreme-right": {
+    "height": 239,
+    "page": 45,
+    "src": "/handbook/mississippi/lane-extreme-right.png",
+    "width": 336
+  },
+  "lane-never-cross-double": {
+    "height": 151,
+    "page": 45,
+    "src": "/handbook/mississippi/lane-never-cross-double.png",
+    "width": 624
+  },
+  "lane-single-lane": {
+    "height": 210,
+    "page": 45,
+    "src": "/handbook/mississippi/lane-single-lane.png",
+    "width": 683
+  },
+  "left-turn-center-line": {
+    "height": 297,
+    "page": 51,
+    "src": "/handbook/mississippi/left-turn-center-line.png",
+    "width": 239
+  },
+  "left-turn-hundred-feet": {
+    "height": 296,
+    "page": 51,
+    "src": "/handbook/mississippi/left-turn-hundred-feet.png",
+    "width": 235
+  },
+  "left-turn-right-of-center": {
+    "height": 227,
+    "page": 51,
+    "src": "/handbook/mississippi/left-turn-right-of-center.png",
+    "width": 495
+  },
+  "lic-fifteen-and-a-half": {
+    "height": 121,
+    "page": 15,
+    "src": "/handbook/mississippi/lic-fifteen-and-a-half.png",
+    "width": 382
+  },
+  "lic-ineligible-sixteen": {
+    "height": 230,
+    "page": 10,
+    "src": "/handbook/mississippi/lic-ineligible-sixteen.png",
+    "width": 533
+  },
+  "lic-move-sixty-days": {
+    "height": 161,
+    "page": 11,
+    "src": "/handbook/mississippi/lic-move-sixty-days.png",
+    "width": 1078
+  },
+  "lic-no-accompany": {
+    "height": 127,
+    "page": 10,
+    "src": "/handbook/mississippi/lic-no-accompany.png",
+    "width": 1030
+  },
+  "lic-noncitizen-four-years": {
+    "height": 161,
+    "page": 12,
+    "src": "/handbook/mississippi/lic-noncitizen-four-years.png",
+    "width": 1021
+  },
+  "lic-nonresident-exempt": {
+    "height": 264,
+    "page": 10,
+    "src": "/handbook/mississippi/lic-nonresident-exempt.png",
+    "width": 451
+  },
+  "lic-oos-exam-waived": {
+    "height": 155,
+    "page": 11,
+    "src": "/handbook/mississippi/lic-oos-exam-waived.png",
+    "width": 1046
+  },
+  "lic-oos-expired-thirty": {
+    "height": 161,
+    "page": 11,
+    "src": "/handbook/mississippi/lic-oos-expired-thirty.png",
+    "width": 1065
+  },
+  "lic-possession": {
+    "height": 172,
+    "page": 15,
+    "src": "/handbook/mississippi/lic-possession.png",
+    "width": 742
+  },
+  "lic-renew-six-months": {
+    "height": 161,
+    "page": 12,
+    "src": "/handbook/mississippi/lic-renew-six-months.png",
+    "width": 942
+  },
+  "lic-required": {
+    "height": 195,
+    "page": 10,
+    "src": "/handbook/mississippi/lic-required.png",
+    "width": 1030
+  },
+  "lic-road-test-waiver": {
+    "height": 180,
+    "page": 15,
+    "src": "/handbook/mississippi/lic-road-test-waiver.png",
+    "width": 1101
+  },
+  "lic-seventeen-or-older": {
+    "height": 121,
+    "page": 15,
+    "src": "/handbook/mississippi/lic-seventeen-or-older.png",
+    "width": 1143
+  },
+  "lic-sixteen-plus-year": {
+    "height": 121,
+    "page": 15,
+    "src": "/handbook/mississippi/lic-sixteen-plus-year.png",
+    "width": 1018
+  },
+  "lic-surrender": {
+    "height": 161,
+    "page": 11,
+    "src": "/handbook/mississippi/lic-surrender.png",
+    "width": 1014
+  },
+  "littering-from-vehicle": {
+    "height": 155,
+    "page": 82,
+    "src": "/handbook/mississippi/littering-from-vehicle.png",
+    "width": 990
+  },
+  "long-distance-break": {
+    "height": 121,
+    "page": 22,
+    "src": "/handbook/mississippi/long-distance-break.png",
+    "width": 510
+  },
+  "marking-broken-white": {
+    "height": 299,
+    "page": 25,
+    "src": "/handbook/mississippi/marking-broken-white.png",
+    "width": 302
+  },
+  "marking-broken-yellow": {
+    "height": 355,
+    "page": 25,
+    "src": "/handbook/mississippi/marking-broken-yellow.png",
+    "width": 297
+  },
+  "marking-double-white": {
+    "height": 300,
+    "page": 25,
+    "src": "/handbook/mississippi/marking-double-white.png",
+    "width": 928
+  },
+  "marking-double-yellow": {
+    "height": 299,
+    "page": 25,
+    "src": "/handbook/mississippi/marking-double-yellow.png",
+    "width": 928
+  },
+  "marking-must-comply": {
+    "height": 180,
+    "page": 25,
+    "src": "/handbook/mississippi/marking-must-comply.png",
+    "width": 1173
+  },
+  "marking-single-white": {
+    "height": 285,
+    "page": 25,
+    "src": "/handbook/mississippi/marking-single-white.png",
+    "width": 367
+  },
+  "marking-yellow-pair": {
+    "height": 400,
+    "page": 25,
+    "src": "/handbook/mississippi/marking-yellow-pair.png",
+    "width": 618
+  },
+  "mc-endorsement": {
+    "height": 180,
+    "page": 14,
+    "src": "/handbook/mississippi/mc-endorsement.png",
+    "width": 604
+  },
+  "mc-helmet": {
+    "height": 180,
+    "page": 14,
+    "src": "/handbook/mississippi/mc-helmet.png",
+    "width": 536
+  },
+  "mc-tests": {
+    "height": 179,
+    "page": 14,
+    "src": "/handbook/mississippi/mc-tests.png",
+    "width": 604
+  },
+  "move-over-law": {
+    "height": 180,
+    "page": 67,
+    "src": "/handbook/mississippi/move-over-law.png",
+    "width": 1131
+  },
+  "natchez-commercial": {
+    "height": 122,
+    "page": 90,
+    "src": "/handbook/mississippi/natchez-commercial.png",
+    "width": 1110
+  },
+  "natchez-federal-court": {
+    "height": 150,
+    "page": 90,
+    "src": "/handbook/mississippi/natchez-federal-court.png",
+    "width": 1030
+  },
+  "natchez-fifty": {
+    "height": 150,
+    "page": 90,
+    "src": "/handbook/mississippi/natchez-fifty.png",
+    "width": 1119
+  },
+  "night-blinding-lights": {
+    "height": 150,
+    "page": 63,
+    "src": "/handbook/mississippi/night-blinding-lights.png",
+    "width": 1022
+  },
+  "night-dark-glasses": {
+    "height": 150,
+    "page": 63,
+    "src": "/handbook/mississippi/night-dark-glasses.png",
+    "width": 1125
+  },
+  "night-one-headlight": {
+    "height": 151,
+    "page": 63,
+    "src": "/handbook/mississippi/night-one-headlight.png",
+    "width": 1022
+  },
+  "night-overdrive-headlights": {
+    "height": 151,
+    "page": 63,
+    "src": "/handbook/mississippi/night-overdrive-headlights.png",
+    "width": 1074
+  },
+  "one-way-turn-from-curb": {
+    "height": 154,
+    "page": 54,
+    "src": "/handbook/mississippi/one-way-turn-from-curb.png",
+    "width": 684
+  },
+  "organ-donor-fifteen": {
+    "height": 162,
+    "page": 88,
+    "src": "/handbook/mississippi/organ-donor-fifteen.png",
+    "width": 1179
+  },
+  "organ-donor-next-of-kin": {
+    "height": 162,
+    "page": 88,
+    "src": "/handbook/mississippi/organ-donor-next-of-kin.png",
+    "width": 1179
+  },
+  "parallel-curb-side": {
+    "height": 121,
+    "page": 61,
+    "src": "/handbook/mississippi/parallel-curb-side.png",
+    "width": 1147
+  },
+  "parallel-step-one": {
+    "height": 191,
+    "page": 61,
+    "src": "/handbook/mississippi/parallel-step-one.png",
+    "width": 1147
+  },
+  "parallel-twelve-inches": {
+    "height": 121,
+    "page": 61,
+    "src": "/handbook/mississippi/parallel-twelve-inches.png",
+    "width": 1147
+  },
+  "parking-blind-curve": {
+    "height": 169,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-blind-curve.png",
+    "width": 872
+  },
+  "parking-bridge-underpass": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-bridge-underpass.png",
+    "width": 956
+  },
+  "parking-control-device-rail": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-control-device-rail.png",
+    "width": 956
+  },
+  "parking-exit-no-row": {
+    "height": 155,
+    "page": 61,
+    "src": "/handbook/mississippi/parking-exit-no-row.png",
+    "width": 975
+  },
+  "parking-exit-yield": {
+    "height": 195,
+    "page": 61,
+    "src": "/handbook/mississippi/parking-exit-yield.png",
+    "width": 975
+  },
+  "parking-fire-station": {
+    "height": 151,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-fire-station.png",
+    "width": 956
+  },
+  "parking-highway-steps": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-highway-steps.png",
+    "width": 1096
+  },
+  "parking-hydrant-crosswalk": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-hydrant-crosswalk.png",
+    "width": 956
+  },
+  "parking-off-roadway": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-off-roadway.png",
+    "width": 1019
+  },
+  "parking-procedure": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-procedure.png",
+    "width": 903
+  },
+  "parking-prohibited-stem": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-prohibited-stem.png",
+    "width": 1064
+  },
+  "parking-roadway-side": {
+    "height": 121,
+    "page": 60,
+    "src": "/handbook/mississippi/parking-roadway-side.png",
+    "width": 956
+  },
+  "passing-being-passed": {
+    "height": 150,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-being-passed.png",
+    "width": 1057
+  },
+  "passing-do-not-tailgate": {
+    "height": 151,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-do-not-tailgate.png",
+    "width": 1125
+  },
+  "passing-double-yellow": {
+    "height": 202,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-double-yellow.png",
+    "width": 1193
+  },
+  "passing-four-lane": {
+    "height": 179,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-four-lane.png",
+    "width": 1125
+  },
+  "passing-hundred-feet": {
+    "height": 151,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-hundred-feet.png",
+    "width": 998
+  },
+  "passing-mixed-lines": {
+    "height": 211,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-mixed-lines.png",
+    "width": 539
+  },
+  "passing-no-shoulder": {
+    "height": 125,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-no-shoulder.png",
+    "width": 1088
+  },
+  "passing-return-mirror": {
+    "height": 150,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-return-mirror.png",
+    "width": 1125
+  },
+  "passing-right-situations": {
+    "height": 122,
+    "page": 47,
+    "src": "/handbook/mississippi/passing-right-situations.png",
+    "width": 1125
+  },
+  "ped-between-parked-cars": {
+    "height": 298,
+    "page": 59,
+    "src": "/handbook/mississippi/ped-between-parked-cars.png",
+    "width": 497
+  },
+  "ped-crosswalk-always": {
+    "height": 151,
+    "page": 59,
+    "src": "/handbook/mississippi/ped-crosswalk-always.png",
+    "width": 1109
+  },
+  "ped-signal-flashing": {
+    "height": 180,
+    "page": 40,
+    "src": "/handbook/mississippi/ped-signal-flashing.png",
+    "width": 787
+  },
+  "ped-white-cane": {
+    "height": 227,
+    "page": 59,
+    "src": "/handbook/mississippi/ped-white-cane.png",
+    "width": 819
+  },
+  "permit-age-fifteen": {
+    "height": 122,
+    "page": 13,
+    "src": "/handbook/mississippi/permit-age-fifteen.png",
+    "width": 1057
+  },
+  "permit-hold-one-year": {
+    "height": 151,
+    "page": 13,
+    "src": "/handbook/mississippi/permit-hold-one-year.png",
+    "width": 1057
+  },
+  "permit-same-exam": {
+    "height": 133,
+    "page": 13,
+    "src": "/handbook/mississippi/permit-same-exam.png",
+    "width": 1059
+  },
+  "permit-turn-seventeen": {
+    "height": 179,
+    "page": 13,
+    "src": "/handbook/mississippi/permit-turn-seventeen.png",
+    "width": 1057
+  },
+  "permit-valid-two-years": {
+    "height": 180,
+    "page": 13,
+    "src": "/handbook/mississippi/permit-valid-two-years.png",
+    "width": 1057
+  },
+  "pets-secured": {
+    "height": 123,
+    "page": 24,
+    "src": "/handbook/mississippi/pets-secured.png",
+    "width": 785
+  },
+  "rain-first-minutes": {
+    "height": 197,
+    "page": 65,
+    "src": "/handbook/mississippi/rain-first-minutes.png",
+    "width": 971
+  },
+  "refusal-forty-five-day-permit": {
+    "height": 210,
+    "page": 78,
+    "src": "/handbook/mississippi/refusal-forty-five-day-permit.png",
+    "width": 854
+  },
+  "refusal-ninety-days": {
+    "height": 152,
+    "page": 78,
+    "src": "/handbook/mississippi/refusal-ninety-days.png",
+    "width": 730
+  },
+  "reinstatement-cashiers-check": {
+    "height": 180,
+    "page": 81,
+    "src": "/handbook/mississippi/reinstatement-cashiers-check.png",
+    "width": 452
+  },
+  "reinstatement-fees": {
+    "height": 262,
+    "page": 81,
+    "src": "/handbook/mississippi/reinstatement-fees.png",
+    "width": 737
+  },
+  "revocation-one-year": {
+    "height": 121,
+    "page": 80,
+    "src": "/handbook/mississippi/revocation-one-year.png",
+    "width": 999
+  },
+  "revocation-three-reckless": {
+    "height": 121,
+    "page": 80,
+    "src": "/handbook/mississippi/revocation-three-reckless.png",
+    "width": 987
+  },
+  "right-turn-close-to-right": {
+    "height": 157,
+    "page": 52,
+    "src": "/handbook/mississippi/right-turn-close-to-right.png",
+    "width": 498
+  },
+  "right-turn-hundred-feet": {
+    "height": 332,
+    "page": 52,
+    "src": "/handbook/mississippi/right-turn-hundred-feet.png",
+    "width": 231
+  },
+  "roundabout-counterclockwise": {
+    "height": 150,
+    "page": 57,
+    "src": "/handbook/mississippi/roundabout-counterclockwise.png",
+    "width": 986
+  },
+  "roundabout-steps": {
+    "height": 121,
+    "page": 57,
+    "src": "/handbook/mississippi/roundabout-steps.png",
+    "width": 1096
+  },
+  "row-bicycles": {
+    "height": 196,
+    "page": 55,
+    "src": "/handbook/mississippi/row-bicycles.png",
+    "width": 648
+  },
+  "row-common-sense": {
+    "height": 188,
+    "page": 55,
+    "src": "/handbook/mississippi/row-common-sense.png",
+    "width": 647
+  },
+  "row-definition": {
+    "height": 251,
+    "page": 55,
+    "src": "/handbook/mississippi/row-definition.png",
+    "width": 647
+  },
+  "row-pedestrians-always": {
+    "height": 163,
+    "page": 55,
+    "src": "/handbook/mississippi/row-pedestrians-always.png",
+    "width": 648
+  },
+  "rr-advance-sign": {
+    "height": 258,
+    "page": 35,
+    "src": "/handbook/mississippi/rr-advance-sign.png",
+    "width": 385
+  },
+  "rr-all-drivers-stop": {
+    "height": 151,
+    "page": 36,
+    "src": "/handbook/mississippi/rr-all-drivers-stop.png",
+    "width": 493
+  },
+  "rr-around-gates": {
+    "height": 151,
+    "page": 36,
+    "src": "/handbook/mississippi/rr-around-gates.png",
+    "width": 523
+  },
+  "rr-crossbuck": {
+    "height": 231,
+    "page": 35,
+    "src": "/handbook/mississippi/rr-crossbuck.png",
+    "width": 396
+  },
+  "rr-ens-number": {
+    "height": 180,
+    "page": 36,
+    "src": "/handbook/mississippi/rr-ens-number.png",
+    "width": 680
+  },
+  "rr-fifty-to-ten": {
+    "height": 160,
+    "page": 35,
+    "src": "/handbook/mississippi/rr-fifty-to-ten.png",
+    "width": 955
+  },
+  "rr-flashing-lights": {
+    "height": 232,
+    "page": 35,
+    "src": "/handbook/mississippi/rr-flashing-lights.png",
+    "width": 452
+  },
+  "rr-gates": {
+    "height": 286,
+    "page": 35,
+    "src": "/handbook/mississippi/rr-gates.png",
+    "width": 397
+  },
+  "rr-get-out-and-run": {
+    "height": 179,
+    "page": 36,
+    "src": "/handbook/mississippi/rr-get-out-and-run.png",
+    "width": 1027
+  },
+  "rr-must-stop-vehicles": {
+    "height": 230,
+    "page": 35,
+    "src": "/handbook/mississippi/rr-must-stop-vehicles.png",
+    "width": 955
+  },
+  "rr-pavement-markings": {
+    "height": 238,
+    "page": 35,
+    "src": "/handbook/mississippi/rr-pavement-markings.png",
+    "width": 1150
+  },
+  "rr-second-train": {
+    "height": 180,
+    "page": 36,
+    "src": "/handbook/mississippi/rr-second-train.png",
+    "width": 523
+  },
+  "rr-stop-even-no-train": {
+    "height": 179,
+    "page": 36,
+    "src": "/handbook/mississippi/rr-stop-even-no-train.png",
+    "width": 523
+  },
+  "rr-stuck-twenty-seconds": {
+    "height": 151,
+    "page": 36,
+    "src": "/handbook/mississippi/rr-stuck-twenty-seconds.png",
+    "width": 1027
+  },
+  "run-off-pavement": {
+    "height": 125,
+    "page": 65,
+    "src": "/handbook/mississippi/run-off-pavement.png",
+    "width": 930
+  },
+  "schoolbus-divided-definition": {
+    "height": 182,
+    "page": 58,
+    "src": "/handbook/mississippi/schoolbus-divided-definition.png",
+    "width": 1055
+  },
+  "schoolbus-either-direction": {
+    "height": 122,
+    "page": 58,
+    "src": "/handbook/mississippi/schoolbus-either-direction.png",
+    "width": 1165
+  },
+  "schoolbus-license-21": {
+    "height": 209,
+    "page": 14,
+    "src": "/handbook/mississippi/schoolbus-license-21.png",
+    "width": 560
+  },
+  "schoolbus-loading-zone": {
+    "height": 152,
+    "page": 58,
+    "src": "/handbook/mississippi/schoolbus-loading-zone.png",
+    "width": 1018
+  },
+  "schoolbus-opposite-direction": {
+    "height": 151,
+    "page": 58,
+    "src": "/handbook/mississippi/schoolbus-opposite-direction.png",
+    "width": 857
+  },
+  "schoolbus-red-lights-trigger": {
+    "height": 151,
+    "page": 58,
+    "src": "/handbook/mississippi/schoolbus-red-lights-trigger.png",
+    "width": 1080
+  },
+  "schoolbus-remain-stopped": {
+    "height": 151,
+    "page": 58,
+    "src": "/handbook/mississippi/schoolbus-remain-stopped.png",
+    "width": 919
+  },
+  "schoolbus-ten-feet": {
+    "height": 122,
+    "page": 58,
+    "src": "/handbook/mississippi/schoolbus-ten-feet.png",
+    "width": 694
+  },
+  "seatbelt-all-passengers": {
+    "height": 155,
+    "page": 64,
+    "src": "/handbook/mississippi/seatbelt-all-passengers.png",
+    "width": 1083
+  },
+  "seatbelt-fine": {
+    "height": 125,
+    "page": 64,
+    "src": "/handbook/mississippi/seatbelt-fine.png",
+    "width": 805
+  },
+  "shape-diamond": {
+    "height": 176,
+    "page": 27,
+    "src": "/handbook/mississippi/shape-diamond.png",
+    "width": 1106
+  },
+  "shape-horizontal-rectangle": {
+    "height": 150,
+    "page": 27,
+    "src": "/handbook/mississippi/shape-horizontal-rectangle.png",
+    "width": 1111
+  },
+  "shape-octagon": {
+    "height": 122,
+    "page": 27,
+    "src": "/handbook/mississippi/shape-octagon.png",
+    "width": 642
+  },
+  "shape-pennant": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/mississippi/shape-pennant.png",
+    "width": 308
+  },
+  "shape-pentagon": {
+    "height": 148,
+    "page": 27,
+    "src": "/handbook/mississippi/shape-pentagon.png",
+    "width": 425
+  },
+  "shape-round": {
+    "height": 149,
+    "page": 27,
+    "src": "/handbook/mississippi/shape-round.png",
+    "width": 417
+  },
+  "shape-triangle": {
+    "height": 160,
+    "page": 27,
+    "src": "/handbook/mississippi/shape-triangle.png",
+    "width": 1055
+  },
+  "shape-vertical-rectangle": {
+    "height": 147,
+    "page": 27,
+    "src": "/handbook/mississippi/shape-vertical-rectangle.png",
+    "width": 1129
+  },
+  "sign-center-turn-lane": {
+    "height": 233,
+    "page": 29,
+    "src": "/handbook/mississippi/sign-center-turn-lane.png",
+    "width": 414
+  },
+  "sign-cross-traffic": {
+    "height": 203,
+    "page": 31,
+    "src": "/handbook/mississippi/sign-cross-traffic.png",
+    "width": 517
+  },
+  "sign-divided-highway-ends": {
+    "height": 179,
+    "page": 30,
+    "src": "/handbook/mississippi/sign-divided-highway-ends.png",
+    "width": 245
+  },
+  "sign-do-not-enter": {
+    "height": 286,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-do-not-enter.png",
+    "width": 383
+  },
+  "sign-handicapped-parking": {
+    "height": 210,
+    "page": 29,
+    "src": "/handbook/mississippi/sign-handicapped-parking.png",
+    "width": 486
+  },
+  "sign-no-passing": {
+    "height": 178,
+    "page": 29,
+    "src": "/handbook/mississippi/sign-no-passing.png",
+    "width": 338
+  },
+  "sign-no-trucks": {
+    "height": 176,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-no-trucks.png",
+    "width": 341
+  },
+  "sign-no-turn-on-red": {
+    "height": 259,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-no-turn-on-red.png",
+    "width": 1089
+  },
+  "sign-no-u-turn": {
+    "height": 297,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-no-u-turn.png",
+    "width": 1089
+  },
+  "sign-one-way-arrow": {
+    "height": 170,
+    "page": 29,
+    "src": "/handbook/mississippi/sign-one-way-arrow.png",
+    "width": 499
+  },
+  "sign-pedestrian-crossing": {
+    "height": 231,
+    "page": 31,
+    "src": "/handbook/mississippi/sign-pedestrian-crossing.png",
+    "width": 328
+  },
+  "sign-right-lane-ends": {
+    "height": 151,
+    "page": 30,
+    "src": "/handbook/mississippi/sign-right-lane-ends.png",
+    "width": 1170
+  },
+  "sign-right-on-red-usual": {
+    "height": 203,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-right-on-red-usual.png",
+    "width": 1089
+  },
+  "sign-school-crossing": {
+    "height": 268,
+    "page": 31,
+    "src": "/handbook/mississippi/sign-school-crossing.png",
+    "width": 380
+  },
+  "sign-school-zone-fifteen": {
+    "height": 238,
+    "page": 31,
+    "src": "/handbook/mississippi/sign-school-zone-fifteen.png",
+    "width": 362
+  },
+  "sign-slippery-when-wet": {
+    "height": 178,
+    "page": 31,
+    "src": "/handbook/mississippi/sign-slippery-when-wet.png",
+    "width": 1123
+  },
+  "sign-speed-maximum": {
+    "height": 230,
+    "page": 29,
+    "src": "/handbook/mississippi/sign-speed-maximum.png",
+    "width": 253
+  },
+  "sign-stop-eight-sides": {
+    "height": 415,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-stop-eight-sides.png",
+    "width": 259
+  },
+  "sign-wrong-way": {
+    "height": 287,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-wrong-way.png",
+    "width": 243
+  },
+  "sign-wrong-way-action": {
+    "height": 286,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-wrong-way-action.png",
+    "width": 243
+  },
+  "sign-yield": {
+    "height": 326,
+    "page": 28,
+    "src": "/handbook/mississippi/sign-yield.png",
+    "width": 237
+  },
+  "signal-dark-intersection": {
+    "height": 327,
+    "page": 39,
+    "src": "/handbook/mississippi/signal-dark-intersection.png",
+    "width": 1141
+  },
+  "signal-flashing-red": {
+    "height": 239,
+    "page": 39,
+    "src": "/handbook/mississippi/signal-flashing-red.png",
+    "width": 918
+  },
+  "signal-flashing-yellow": {
+    "height": 180,
+    "page": 39,
+    "src": "/handbook/mississippi/signal-flashing-yellow.png",
+    "width": 918
+  },
+  "signal-flashing-yellow-arrow": {
+    "height": 260,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-flashing-yellow-arrow.png",
+    "width": 1107
+  },
+  "signal-fya-equals-green": {
+    "height": 154,
+    "page": 38,
+    "src": "/handbook/mississippi/signal-fya-equals-green.png",
+    "width": 1043
+  },
+  "signal-fya-not-protected": {
+    "height": 203,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-fya-not-protected.png",
+    "width": 337
+  },
+  "signal-green-arrow": {
+    "height": 288,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-green-arrow.png",
+    "width": 373
+  },
+  "signal-green-left-yield": {
+    "height": 197,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-green-left-yield.png",
+    "width": 341
+  },
+  "signal-green-unprotected-left": {
+    "height": 233,
+    "page": 38,
+    "src": "/handbook/mississippi/signal-green-unprotected-left.png",
+    "width": 361
+  },
+  "signal-lights-use": {
+    "height": 151,
+    "page": 42,
+    "src": "/handbook/mississippi/signal-lights-use.png",
+    "width": 995
+  },
+  "signal-not-pass-invitation": {
+    "height": 151,
+    "page": 42,
+    "src": "/handbook/mississippi/signal-not-pass-invitation.png",
+    "width": 1103
+  },
+  "signal-only-if-turning": {
+    "height": 152,
+    "page": 42,
+    "src": "/handbook/mississippi/signal-only-if-turning.png",
+    "width": 1075
+  },
+  "signal-red-stop-first": {
+    "height": 196,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-red-stop-first.png",
+    "width": 442
+  },
+  "signal-red-with-green-arrow": {
+    "height": 278,
+    "page": 38,
+    "src": "/handbook/mississippi/signal-red-with-green-arrow.png",
+    "width": 759
+  },
+  "signal-right-on-red": {
+    "height": 221,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-right-on-red.png",
+    "width": 443
+  },
+  "signal-solid-green": {
+    "height": 232,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-solid-green.png",
+    "width": 345
+  },
+  "signal-solid-red": {
+    "height": 176,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-solid-red.png",
+    "width": 414
+  },
+  "signal-solid-yellow": {
+    "height": 204,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-solid-yellow.png",
+    "width": 312
+  },
+  "signal-yellow-arrow": {
+    "height": 231,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-yellow-arrow.png",
+    "width": 364
+  },
+  "signal-yield-pedestrians": {
+    "height": 154,
+    "page": 37,
+    "src": "/handbook/mississippi/signal-yield-pedestrians.png",
+    "width": 1082
+  },
+  "signs-eight-shapes": {
+    "height": 121,
+    "page": 27,
+    "src": "/handbook/mississippi/signs-eight-shapes.png",
+    "width": 954
+  },
+  "signs-international-style": {
+    "height": 151,
+    "page": 27,
+    "src": "/handbook/mississippi/signs-international-style.png",
+    "width": 1100
+  },
+  "skid-never-clutch": {
+    "height": 123,
+    "page": 65,
+    "src": "/handbook/mississippi/skid-never-clutch.png",
+    "width": 1009
+  },
+  "skid-recovery": {
+    "height": 197,
+    "page": 65,
+    "src": "/handbook/mississippi/skid-recovery.png",
+    "width": 1009
+  },
+  "skids-too-fast": {
+    "height": 160,
+    "page": 65,
+    "src": "/handbook/mississippi/skids-too-fast.png",
+    "width": 1000
+  },
+  "slow-moving-emblem": {
+    "height": 156,
+    "page": 34,
+    "src": "/handbook/mississippi/slow-moving-emblem.png",
+    "width": 931
+  },
+  "slow-moving-triangle": {
+    "height": 195,
+    "page": 34,
+    "src": "/handbook/mississippi/slow-moving-triangle.png",
+    "width": 1169
+  },
+  "social-networking-not-allowed": {
+    "height": 157,
+    "page": 23,
+    "src": "/handbook/mississippi/social-networking-not-allowed.png",
+    "width": 1005
+  },
+  "speed-monitor-posted": {
+    "height": 151,
+    "page": 41,
+    "src": "/handbook/mississippi/speed-monitor-posted.png",
+    "width": 1090
+  },
+  "speed-reduce-conditions": {
+    "height": 181,
+    "page": 41,
+    "src": "/handbook/mississippi/speed-reduce-conditions.png",
+    "width": 1090
+  },
+  "speed-school-bus-45": {
+    "height": 169,
+    "page": 41,
+    "src": "/handbook/mississippi/speed-school-bus-45.png",
+    "width": 975
+  },
+  "speed-school-bus-interstate": {
+    "height": 127,
+    "page": 41,
+    "src": "/handbook/mississippi/speed-school-bus-interstate.png",
+    "width": 908
+  },
+  "speed-school-zone-fifteen": {
+    "height": 133,
+    "page": 41,
+    "src": "/handbook/mississippi/speed-school-zone-fifteen.png",
+    "width": 917
+  },
+  "speed-stone-wall": {
+    "height": 243,
+    "page": 41,
+    "src": "/handbook/mississippi/speed-stone-wall.png",
+    "width": 1012
+  },
+  "speed-table": {
+    "height": 277,
+    "page": 41,
+    "src": "/handbook/mississippi/speed-table.png",
+    "width": 733
+  },
+  "squatted-vehicle": {
+    "height": 195,
+    "page": 20,
+    "src": "/handbook/mississippi/squatted-vehicle.png",
+    "width": 1073
+  },
+  "stop-hands-visible": {
+    "height": 121,
+    "page": 67,
+    "src": "/handbook/mississippi/stop-hands-visible.png",
+    "width": 990
+  },
+  "stop-interior-lights": {
+    "height": 121,
+    "page": 67,
+    "src": "/handbook/mississippi/stop-interior-lights.png",
+    "width": 1063
+  },
+  "stop-pull-over-steps": {
+    "height": 121,
+    "page": 67,
+    "src": "/handbook/mississippi/stop-pull-over-steps.png",
+    "width": 1106
+  },
+  "stop-sign-complete": {
+    "height": 187,
+    "page": 56,
+    "src": "/handbook/mississippi/stop-sign-complete.png",
+    "width": 1137
+  },
+  "stop-signature-not-guilt": {
+    "height": 151,
+    "page": 68,
+    "src": "/handbook/mississippi/stop-signature-not-guilt.png",
+    "width": 1089
+  },
+  "stop-wait-for-instructions": {
+    "height": 122,
+    "page": 68,
+    "src": "/handbook/mississippi/stop-wait-for-instructions.png",
+    "width": 1037
+  },
+  "stop-weapon-disclosure": {
+    "height": 121,
+    "page": 68,
+    "src": "/handbook/mississippi/stop-weapon-disclosure.png",
+    "width": 827
+  },
+  "suspension-child-support": {
+    "height": 121,
+    "page": 80,
+    "src": "/handbook/mississippi/suspension-child-support.png",
+    "width": 1011
+  },
+  "suspension-grounds": {
+    "height": 121,
+    "page": 80,
+    "src": "/handbook/mississippi/suspension-grounds.png",
+    "width": 1011
+  },
+  "tag-light-sixty-feet": {
+    "height": 180,
+    "page": 75,
+    "src": "/handbook/mississippi/tag-light-sixty-feet.png",
+    "width": 1022
+  },
+  "tag-rear-mount": {
+    "height": 122,
+    "page": 75,
+    "src": "/handbook/mississippi/tag-rear-mount.png",
+    "width": 1022
+  },
+  "tag-thirty-days": {
+    "height": 121,
+    "page": 75,
+    "src": "/handbook/mississippi/tag-thirty-days.png",
+    "width": 982
+  },
+  "term-computerized-exam": {
+    "height": 159,
+    "page": 18,
+    "src": "/handbook/mississippi/term-computerized-exam.png",
+    "width": 966
+  },
+  "term-highway": {
+    "height": 128,
+    "page": 18,
+    "src": "/handbook/mississippi/term-highway.png",
+    "width": 961
+  },
+  "term-intersection": {
+    "height": 161,
+    "page": 18,
+    "src": "/handbook/mississippi/term-intersection.png",
+    "width": 1045
+  },
+  "term-right-of-way": {
+    "height": 128,
+    "page": 18,
+    "src": "/handbook/mississippi/term-right-of-way.png",
+    "width": 774
+  },
+  "term-school-bus": {
+    "height": 161,
+    "page": 18,
+    "src": "/handbook/mississippi/term-school-bus.png",
+    "width": 1063
+  },
+  "term-stop": {
+    "height": 128,
+    "page": 18,
+    "src": "/handbook/mississippi/term-stop.png",
+    "width": 500
+  },
+  "text-message-definition": {
+    "height": 187,
+    "page": 23,
+    "src": "/handbook/mississippi/text-message-definition.png",
+    "width": 1031
+  },
+  "texting-not-allowed": {
+    "height": 176,
+    "page": 23,
+    "src": "/handbook/mississippi/texting-not-allowed.png",
+    "width": 671
+  },
+  "three-point-turn": {
+    "height": 155,
+    "page": 49,
+    "src": "/handbook/mississippi/three-point-turn.png",
+    "width": 996
+  },
+  "tint-decal-location": {
+    "height": 150,
+    "page": 75,
+    "src": "/handbook/mississippi/tint-decal-location.png",
+    "width": 1077
+  },
+  "tint-twenty-eight-percent": {
+    "height": 150,
+    "page": 75,
+    "src": "/handbook/mississippi/tint-twenty-eight-percent.png",
+    "width": 1077
+  },
+  "tire-penny-test": {
+    "height": 121,
+    "page": 21,
+    "src": "/handbook/mississippi/tire-penny-test.png",
+    "width": 1041
+  },
+  "title-required": {
+    "height": 121,
+    "page": 75,
+    "src": "/handbook/mississippi/title-required.png",
+    "width": 1012
+  },
+  "traffic-officer": {
+    "height": 146,
+    "page": 40,
+    "src": "/handbook/mississippi/traffic-officer.png",
+    "width": 1114
+  },
+  "truck-backing-up": {
+    "height": 180,
+    "page": 87,
+    "src": "/handbook/mississippi/truck-backing-up.png",
+    "width": 1004
+  },
+  "truck-coasting": {
+    "height": 150,
+    "page": 87,
+    "src": "/handbook/mississippi/truck-coasting.png",
+    "width": 994
+  },
+  "truck-dim-headlights": {
+    "height": 121,
+    "page": 72,
+    "src": "/handbook/mississippi/truck-dim-headlights.png",
+    "width": 1053
+  },
+  "truck-following-three-hundred": {
+    "height": 179,
+    "page": 87,
+    "src": "/handbook/mississippi/truck-following-three-hundred.png",
+    "width": 1114
+  },
+  "truck-mirrors": {
+    "height": 151,
+    "page": 72,
+    "src": "/handbook/mississippi/truck-mirrors.png",
+    "width": 1143
+  },
+  "truck-pass-time": {
+    "height": 179,
+    "page": 72,
+    "src": "/handbook/mississippi/truck-pass-time.png",
+    "width": 1048
+  },
+  "truck-return-front-wheels": {
+    "height": 150,
+    "page": 72,
+    "src": "/handbook/mississippi/truck-return-front-wheels.png",
+    "width": 1053
+  },
+  "truck-right-turn": {
+    "height": 179,
+    "page": 72,
+    "src": "/handbook/mississippi/truck-right-turn.png",
+    "width": 991
+  },
+  "truck-turbulence": {
+    "height": 151,
+    "page": 72,
+    "src": "/handbook/mississippi/truck-turbulence.png",
+    "width": 1054
+  },
+  "truck-upgrade-space": {
+    "height": 151,
+    "page": 72,
+    "src": "/handbook/mississippi/truck-upgrade-space.png",
+    "width": 1054
+  },
+  "truck-warning-devices": {
+    "height": 150,
+    "page": 84,
+    "src": "/handbook/mississippi/truck-warning-devices.png",
+    "width": 1061
+  },
+  "truck-weight": {
+    "height": 151,
+    "page": 72,
+    "src": "/handbook/mississippi/truck-weight.png",
+    "width": 1143
+  },
+  "truck-width": {
+    "height": 151,
+    "page": 85,
+    "src": "/handbook/mississippi/truck-width.png",
+    "width": 1113
+  },
+  "turn-blocked-intersection": {
+    "height": 226,
+    "page": 50,
+    "src": "/handbook/mississippi/turn-blocked-intersection.png",
+    "width": 741
+  },
+  "turn-lane-only": {
+    "height": 231,
+    "page": 26,
+    "src": "/handbook/mississippi/turn-lane-only.png",
+    "width": 430
+  },
+  "turn-look-all-directions": {
+    "height": 161,
+    "page": 50,
+    "src": "/handbook/mississippi/turn-look-all-directions.png",
+    "width": 962
+  },
+  "turn-most-accidents": {
+    "height": 161,
+    "page": 50,
+    "src": "/handbook/mississippi/turn-most-accidents.png",
+    "width": 1046
+  },
+  "turn-no-shift": {
+    "height": 161,
+    "page": 50,
+    "src": "/handbook/mississippi/turn-no-shift.png",
+    "width": 962
+  },
+  "turn-stay-in-lane": {
+    "height": 128,
+    "page": 50,
+    "src": "/handbook/mississippi/turn-stay-in-lane.png",
+    "width": 1035
+  },
+  "two-left-turns": {
+    "height": 272,
+    "page": 54,
+    "src": "/handbook/mississippi/two-left-turns.png",
+    "width": 1120
+  },
+  "two-way-stop": {
+    "height": 204,
+    "page": 56,
+    "src": "/handbook/mississippi/two-way-stop.png",
+    "width": 755
+  },
+  "two-way-straight-wins": {
+    "height": 231,
+    "page": 56,
+    "src": "/handbook/mississippi/two-way-straight-wins.png",
+    "width": 450
+  },
+  "unmarked-intersection": {
+    "height": 148,
+    "page": 57,
+    "src": "/handbook/mississippi/unmarked-intersection.png",
+    "width": 1088
+  },
+  "vision-corrective-lenses": {
+    "height": 121,
+    "page": 21,
+    "src": "/handbook/mississippi/vision-corrective-lenses.png",
+    "width": 1129
+  },
+  "watch-for-children": {
+    "height": 187,
+    "page": 22,
+    "src": "/handbook/mississippi/watch-for-children.png",
+    "width": 1086
+  },
+  "windshield-clear": {
+    "height": 123,
+    "page": 24,
+    "src": "/handbook/mississippi/windshield-clear.png",
+    "width": 744
+  },
+  "workzone-barriers": {
+    "height": 150,
+    "page": 33,
+    "src": "/handbook/mississippi/workzone-barriers.png",
+    "width": 833
+  },
+  "workzone-brake": {
+    "height": 162,
+    "page": 33,
+    "src": "/handbook/mississippi/workzone-brake.png",
+    "width": 965
+  },
+  "workzone-flagger": {
+    "height": 180,
+    "page": 33,
+    "src": "/handbook/mississippi/workzone-flagger.png",
+    "width": 813
+  },
+  "workzone-signs": {
+    "height": 121,
+    "page": 33,
+    "src": "/handbook/mississippi/workzone-signs.png",
+    "width": 1015
+  },
+  "zero-tolerance": {
+    "height": 204,
+    "page": 78,
+    "src": "/handbook/mississippi/zero-tolerance.png",
+    "width": 996
+  },
+  "zt-applies-to": {
+    "height": 157,
+    "page": 79,
+    "src": "/handbook/mississippi/zt-applies-to.png",
+    "width": 1038
+  },
+  "zt-under-21-eight": {
+    "height": 121,
+    "page": 79,
+    "src": "/handbook/mississippi/zt-under-21-eight.png",
+    "width": 847
+  }
+}
