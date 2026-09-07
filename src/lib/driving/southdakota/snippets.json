@@ -1,0 +1,2486 @@
+{
+  "abs-how-to-use": {
+    "height": 108,
+    "page": 57,
+    "src": "/handbook/southdakota/abs-how-to-use.png",
+    "width": 1138
+  },
+  "acceleration-lane": {
+    "height": 133,
+    "page": 45,
+    "src": "/handbook/southdakota/acceleration-lane.png",
+    "width": 1140
+  },
+  "aggressive-driving-behaviours": {
+    "height": 133,
+    "page": 19,
+    "src": "/handbook/southdakota/aggressive-driving-behaviours.png",
+    "width": 1138
+  },
+  "aggressive-driving-definition": {
+    "height": 109,
+    "page": 19,
+    "src": "/handbook/southdakota/aggressive-driving-definition.png",
+    "width": 1138
+  },
+  "airbags-supplemental": {
+    "height": 109,
+    "page": 26,
+    "src": "/handbook/southdakota/airbags-supplemental.png",
+    "width": 1127
+  },
+  "alcohol-40-percent": {
+    "height": 109,
+    "page": 19,
+    "src": "/handbook/southdakota/alcohol-40-percent.png",
+    "width": 1138
+  },
+  "alcohol-colour": {
+    "height": 109,
+    "page": 20,
+    "src": "/handbook/southdakota/alcohol-colour.png",
+    "width": 1138
+  },
+  "alcohol-first-drink": {
+    "height": 134,
+    "page": 20,
+    "src": "/handbook/southdakota/alcohol-first-drink.png",
+    "width": 1138
+  },
+  "alcohol-new-drivers": {
+    "height": 158,
+    "page": 19,
+    "src": "/handbook/southdakota/alcohol-new-drivers.png",
+    "width": 1138
+  },
+  "alcohol-reaction-time": {
+    "height": 109,
+    "page": 20,
+    "src": "/handbook/southdakota/alcohol-reaction-time.png",
+    "width": 1138
+  },
+  "alcohol-vision-002": {
+    "height": 133,
+    "page": 20,
+    "src": "/handbook/southdakota/alcohol-vision-002.png",
+    "width": 1138
+  },
+  "angle-parking-exit": {
+    "height": 109,
+    "page": 44,
+    "src": "/handbook/southdakota/angle-parking-exit.png",
+    "width": 1140
+  },
+  "animal-drawn-rights": {
+    "height": 133,
+    "page": 65,
+    "src": "/handbook/southdakota/animal-drawn-rights.png",
+    "width": 1125
+  },
+  "articulated-bus-swing": {
+    "height": 158,
+    "page": 64,
+    "src": "/handbook/southdakota/articulated-bus-swing.png",
+    "width": 1127
+  },
+  "bac-005-crash-risk": {
+    "height": 133,
+    "page": 21,
+    "src": "/handbook/southdakota/bac-005-crash-risk.png",
+    "width": 1126
+  },
+  "bac-revocation-30-days": {
+    "height": 157,
+    "page": 20,
+    "src": "/handbook/southdakota/bac-revocation-30-days.png",
+    "width": 1138
+  },
+  "bac-thresholds": {
+    "height": 133,
+    "page": 20,
+    "src": "/handbook/southdakota/bac-thresholds.png",
+    "width": 1138
+  },
+  "backing-check-behind": {
+    "height": 133,
+    "page": 30,
+    "src": "/handbook/southdakota/backing-check-behind.png",
+    "width": 923
+  },
+  "backing-mirrors-limit": {
+    "height": 134,
+    "page": 30,
+    "src": "/handbook/southdakota/backing-mirrors-limit.png",
+    "width": 923
+  },
+  "backing-no-mirrors": {
+    "height": 134,
+    "page": 49,
+    "src": "/handbook/southdakota/backing-no-mirrors.png",
+    "width": 1138
+  },
+  "backing-right-arm": {
+    "height": 157,
+    "page": 30,
+    "src": "/handbook/southdakota/backing-right-arm.png",
+    "width": 923
+  },
+  "backing-slow": {
+    "height": 134,
+    "page": 30,
+    "src": "/handbook/southdakota/backing-slow.png",
+    "width": 923
+  },
+  "bicycle-3-and-6-feet": {
+    "height": 157,
+    "page": 62,
+    "src": "/handbook/southdakota/bicycle-3-and-6-feet.png",
+    "width": 1141
+  },
+  "bicycle-6-feet": {
+    "height": 109,
+    "page": 46,
+    "src": "/handbook/southdakota/bicycle-6-feet.png",
+    "width": 1141
+  },
+  "bicycle-cross-centerline": {
+    "height": 133,
+    "page": 46,
+    "src": "/handbook/southdakota/bicycle-cross-centerline.png",
+    "width": 1141
+  },
+  "bicycle-door": {
+    "height": 109,
+    "page": 62,
+    "src": "/handbook/southdakota/bicycle-door.png",
+    "width": 1141
+  },
+  "bicycle-horn": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/southdakota/bicycle-horn.png",
+    "width": 1137
+  },
+  "bicycle-slow-and-space": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/southdakota/bicycle-slow-and-space.png",
+    "width": 1137
+  },
+  "bicycles-are-vehicles": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/southdakota/bicycles-are-vehicles.png",
+    "width": 1137
+  },
+  "bike-lane-yield": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/southdakota/bike-lane-yield.png",
+    "width": 1137
+  },
+  "blind-spots-definition": {
+    "height": 134,
+    "page": 45,
+    "src": "/handbook/southdakota/blind-spots-definition.png",
+    "width": 1140
+  },
+  "blowout-front-tire": {
+    "height": 133,
+    "page": 58,
+    "src": "/handbook/southdakota/blowout-front-tire.png",
+    "width": 1138
+  },
+  "blowout-response": {
+    "height": 109,
+    "page": 58,
+    "src": "/handbook/southdakota/blowout-response.png",
+    "width": 1138
+  },
+  "brake-failure": {
+    "height": 133,
+    "page": 58,
+    "src": "/handbook/southdakota/brake-failure.png",
+    "width": 1138
+  },
+  "brakes-check": {
+    "height": 109,
+    "page": 23,
+    "src": "/handbook/southdakota/brakes-check.png",
+    "width": 1133
+  },
+  "braking-distance-158": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/southdakota/braking-distance-158.png",
+    "width": 1137
+  },
+  "breakdown-flares": {
+    "height": 134,
+    "page": 55,
+    "src": "/handbook/southdakota/breakdown-flares.png",
+    "width": 1137
+  },
+  "breakdown-never-stand-road": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/breakdown-never-stand-road.png",
+    "width": 1137
+  },
+  "breakdown-white-cloth": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/breakdown-white-cloth.png",
+    "width": 1137
+  },
+  "car-seat-wrong": {
+    "height": 109,
+    "page": 28,
+    "src": "/handbook/southdakota/car-seat-wrong.png",
+    "width": 1139
+  },
+  "carry-licence": {
+    "height": 134,
+    "page": 5,
+    "src": "/handbook/southdakota/carry-licence.png",
+    "width": 1134
+  },
+  "carry-licence-display": {
+    "height": 133,
+    "page": 9,
+    "src": "/handbook/southdakota/carry-licence-display.png",
+    "width": 1136
+  },
+  "cdl-30-days": {
+    "height": 133,
+    "page": 5,
+    "src": "/handbook/southdakota/cdl-30-days.png",
+    "width": 1134
+  },
+  "check-speedometer": {
+    "height": 133,
+    "page": 29,
+    "src": "/handbook/southdakota/check-speedometer.png",
+    "width": 1140
+  },
+  "child-12-and-under": {
+    "height": 157,
+    "page": 26,
+    "src": "/handbook/southdakota/child-12-and-under.png",
+    "width": 1127
+  },
+  "child-40-pounds": {
+    "height": 133,
+    "page": 27,
+    "src": "/handbook/southdakota/child-40-pounds.png",
+    "width": 1140
+  },
+  "child-front-seat": {
+    "height": 133,
+    "page": 26,
+    "src": "/handbook/southdakota/child-front-seat.png",
+    "width": 1139
+  },
+  "child-restraint-statute": {
+    "height": 157,
+    "page": 27,
+    "src": "/handbook/southdakota/child-restraint-statute.png",
+    "width": 1140
+  },
+  "child-support-bar": {
+    "height": 134,
+    "page": 7,
+    "src": "/handbook/southdakota/child-support-bar.png",
+    "width": 1139
+  },
+  "clear-snow-ice": {
+    "height": 109,
+    "page": 24,
+    "src": "/handbook/southdakota/clear-snow-ice.png",
+    "width": 1140
+  },
+  "combining-alcohol-drugs": {
+    "height": 133,
+    "page": 22,
+    "src": "/handbook/southdakota/combining-alcohol-drugs.png",
+    "width": 1138
+  },
+  "compromise-space": {
+    "height": 133,
+    "page": 54,
+    "src": "/handbook/southdakota/compromise-space.png",
+    "width": 1130
+  },
+  "crash-must-stop": {
+    "height": 158,
+    "page": 59,
+    "src": "/handbook/southdakota/crash-must-stop.png",
+    "width": 1141
+  },
+  "crash-power-lines": {
+    "height": 108,
+    "page": 59,
+    "src": "/handbook/southdakota/crash-power-lines.png",
+    "width": 1141
+  },
+  "crash-scene-ignition": {
+    "height": 133,
+    "page": 59,
+    "src": "/handbook/southdakota/crash-scene-ignition.png",
+    "width": 1141
+  },
+  "crashes-near-home": {
+    "height": 134,
+    "page": 28,
+    "src": "/handbook/southdakota/crashes-near-home.png",
+    "width": 1139
+  },
+  "crossbuck-sign": {
+    "height": 134,
+    "page": 33,
+    "src": "/handbook/southdakota/crossbuck-sign.png",
+    "width": 958
+  },
+  "crosswalk-stop-line": {
+    "height": 133,
+    "page": 37,
+    "src": "/handbook/southdakota/crosswalk-stop-line.png",
+    "width": 1123
+  },
+  "curves-hard-braking": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/southdakota/curves-hard-braking.png",
+    "width": 1137
+  },
+  "curves-slow-before": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/southdakota/curves-slow-before.png",
+    "width": 1137
+  },
+  "dashed-yellow-your-side": {
+    "height": 144,
+    "page": 36,
+    "src": "/handbook/southdakota/dashed-yellow-your-side.png",
+    "width": 1057
+  },
+  "daytime-running-lights": {
+    "height": 133,
+    "page": 55,
+    "src": "/handbook/southdakota/daytime-running-lights.png",
+    "width": 1137
+  },
+  "ddi-left-turns": {
+    "height": 109,
+    "page": 42,
+    "src": "/handbook/southdakota/ddi-left-turns.png",
+    "width": 1139
+  },
+  "deer-dusk-dawn": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/southdakota/deer-dusk-dawn.png",
+    "width": 1137
+  },
+  "deer-more-than-one": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/southdakota/deer-more-than-one.png",
+    "width": 1137
+  },
+  "deer-october-november": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/southdakota/deer-october-november.png",
+    "width": 1137
+  },
+  "deer-second-most-struck": {
+    "height": 158,
+    "page": 50,
+    "src": "/handbook/southdakota/deer-second-most-struck.png",
+    "width": 1137
+  },
+  "destination-signs": {
+    "height": 133,
+    "page": 36,
+    "src": "/handbook/southdakota/destination-signs.png",
+    "width": 1101
+  },
+  "dim-500-feet-oncoming": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/dim-500-feet-oncoming.png",
+    "width": 1137
+  },
+  "dirty-lights": {
+    "height": 108,
+    "page": 24,
+    "src": "/handbook/southdakota/dirty-lights.png",
+    "width": 1140
+  },
+  "distraction-definition": {
+    "height": 133,
+    "page": 19,
+    "src": "/handbook/southdakota/distraction-definition.png",
+    "width": 1138
+  },
+  "distraction-mental": {
+    "height": 134,
+    "page": 19,
+    "src": "/handbook/southdakota/distraction-mental.png",
+    "width": 1138
+  },
+  "do-not-move-injured": {
+    "height": 134,
+    "page": 59,
+    "src": "/handbook/southdakota/do-not-move-injured.png",
+    "width": 1141
+  },
+  "do-not-rubberneck": {
+    "height": 158,
+    "page": 59,
+    "src": "/handbook/southdakota/do-not-rubberneck.png",
+    "width": 1141
+  },
+  "double-yellow-line": {
+    "height": 105,
+    "page": 36,
+    "src": "/handbook/southdakota/double-yellow-line.png",
+    "width": 318
+  },
+  "drive-test-scheduled": {
+    "height": 109,
+    "page": 10,
+    "src": "/handbook/southdakota/drive-test-scheduled.png",
+    "width": 1137
+  },
+  "drop-off-recovery": {
+    "height": 158,
+    "page": 57,
+    "src": "/handbook/southdakota/drop-off-recovery.png",
+    "width": 1138
+  },
+  "dwi-third-offence": {
+    "height": 133,
+    "page": 21,
+    "src": "/handbook/southdakota/dwi-third-offence.png",
+    "width": 1126
+  },
+  "edge-forward": {
+    "height": 158,
+    "page": 48,
+    "src": "/handbook/southdakota/edge-forward.png",
+    "width": 1140
+  },
+  "emergency-vehicle-yield": {
+    "height": 158,
+    "page": 64,
+    "src": "/handbook/southdakota/emergency-vehicle-yield.png",
+    "width": 1138
+  },
+  "emotions-cool-off": {
+    "height": 109,
+    "page": 22,
+    "src": "/handbook/southdakota/emotions-cool-off.png",
+    "width": 1138
+  },
+  "emotions-train": {
+    "height": 134,
+    "page": 22,
+    "src": "/handbook/southdakota/emotions-train.png",
+    "width": 1138
+  },
+  "exchange-information": {
+    "height": 109,
+    "page": 60,
+    "src": "/handbook/southdakota/exchange-information.png",
+    "width": 1122
+  },
+  "exhaust-danger": {
+    "height": 134,
+    "page": 24,
+    "src": "/handbook/southdakota/exhaust-danger.png",
+    "width": 1140
+  },
+  "farm-equipment-25": {
+    "height": 109,
+    "page": 45,
+    "src": "/handbook/southdakota/farm-equipment-25.png",
+    "width": 1140
+  },
+  "farm-machinery-cannot-hear": {
+    "height": 134,
+    "page": 65,
+    "src": "/handbook/southdakota/farm-machinery-cannot-hear.png",
+    "width": 1125
+  },
+  "fatigue-best-cure": {
+    "height": 109,
+    "page": 19,
+    "src": "/handbook/southdakota/fatigue-best-cure.png",
+    "width": 1138
+  },
+  "fatigue-definition": {
+    "height": 134,
+    "page": 18,
+    "src": "/handbook/southdakota/fatigue-definition.png",
+    "width": 1140
+  },
+  "fatigue-nap": {
+    "height": 133,
+    "page": 19,
+    "src": "/handbook/southdakota/fatigue-nap.png",
+    "width": 1138
+  },
+  "fatigue-sleep-hours": {
+    "height": 109,
+    "page": 18,
+    "src": "/handbook/southdakota/fatigue-sleep-hours.png",
+    "width": 1140
+  },
+  "fatigue-stop-every-100": {
+    "height": 109,
+    "page": 18,
+    "src": "/handbook/southdakota/fatigue-stop-every-100.png",
+    "width": 1140
+  },
+  "fee-proration": {
+    "height": 109,
+    "page": 7,
+    "src": "/handbook/southdakota/fee-proration.png",
+    "width": 1139
+  },
+  "financial-responsibility-required": {
+    "height": 134,
+    "page": 13,
+    "src": "/handbook/southdakota/financial-responsibility-required.png",
+    "width": 1138
+  },
+  "first-conviction-penalty": {
+    "height": 134,
+    "page": 20,
+    "src": "/handbook/southdakota/first-conviction-penalty.png",
+    "width": 1138
+  },
+  "flagger-instructions": {
+    "height": 134,
+    "page": 34,
+    "src": "/handbook/southdakota/flagger-instructions.png",
+    "width": 1119
+  },
+  "flares-200-300-feet": {
+    "height": 133,
+    "page": 58,
+    "src": "/handbook/southdakota/flares-200-300-feet.png",
+    "width": 1138
+  },
+  "flashing-red": {
+    "height": 134,
+    "page": 32,
+    "src": "/handbook/southdakota/flashing-red.png",
+    "width": 1105
+  },
+  "flashing-yellow": {
+    "height": 109,
+    "page": 32,
+    "src": "/handbook/southdakota/flashing-yellow.png",
+    "width": 912
+  },
+  "flashing-yellow-arrow": {
+    "height": 182,
+    "page": 32,
+    "src": "/handbook/southdakota/flashing-yellow-arrow.png",
+    "width": 1108
+  },
+  "flooded-roadway": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/southdakota/flooded-roadway.png",
+    "width": 1137
+  },
+  "fluorescent-yellow-signs": {
+    "height": 109,
+    "page": 33,
+    "src": "/handbook/southdakota/fluorescent-yellow-signs.png",
+    "width": 1137
+  },
+  "following-count-method": {
+    "height": 109,
+    "page": 51,
+    "src": "/handbook/southdakota/following-count-method.png",
+    "width": 1138
+  },
+  "following-four-seconds": {
+    "height": 109,
+    "page": 51,
+    "src": "/handbook/southdakota/following-four-seconds.png",
+    "width": 1138
+  },
+  "following-hill": {
+    "height": 109,
+    "page": 51,
+    "src": "/handbook/southdakota/following-hill.png",
+    "width": 1138
+  },
+  "following-motorcycles": {
+    "height": 109,
+    "page": 51,
+    "src": "/handbook/southdakota/following-motorcycles.png",
+    "width": 1138
+  },
+  "following-railroad": {
+    "height": 133,
+    "page": 51,
+    "src": "/handbook/southdakota/following-railroad.png",
+    "width": 1138
+  },
+  "following-slippery": {
+    "height": 133,
+    "page": 51,
+    "src": "/handbook/southdakota/following-slippery.png",
+    "width": 1138
+  },
+  "following-too-close-test": {
+    "height": 133,
+    "page": 51,
+    "src": "/handbook/southdakota/following-too-close-test.png",
+    "width": 1138
+  },
+  "funeral-procession": {
+    "height": 134,
+    "page": 31,
+    "src": "/handbook/southdakota/funeral-procession.png",
+    "width": 1138
+  },
+  "gravel-roads": {
+    "height": 133,
+    "page": 67,
+    "src": "/handbook/southdakota/gravel-roads.png",
+    "width": 1137
+  },
+  "green-arrow": {
+    "height": 133,
+    "page": 32,
+    "src": "/handbook/southdakota/green-arrow.png",
+    "width": 1130
+  },
+  "green-clear-intersection": {
+    "height": 133,
+    "page": 32,
+    "src": "/handbook/southdakota/green-clear-intersection.png",
+    "width": 1130
+  },
+  "green-left-turn": {
+    "height": 134,
+    "page": 32,
+    "src": "/handbook/southdakota/green-left-turn.png",
+    "width": 1130
+  },
+  "green-light-pause": {
+    "height": 133,
+    "page": 39,
+    "src": "/handbook/southdakota/green-light-pause.png",
+    "width": 1137
+  },
+  "guide-signs": {
+    "height": 133,
+    "page": 36,
+    "src": "/handbook/southdakota/guide-signs.png",
+    "width": 1138
+  },
+  "hand-signals": {
+    "height": 109,
+    "page": 56,
+    "src": "/handbook/southdakota/hand-signals.png",
+    "width": 1133
+  },
+  "hand-signals-when": {
+    "height": 157,
+    "page": 56,
+    "src": "/handbook/southdakota/hand-signals-when.png",
+    "width": 1133
+  },
+  "hands-3-and-9": {
+    "height": 133,
+    "page": 29,
+    "src": "/handbook/southdakota/hands-3-and-9.png",
+    "width": 1140
+  },
+  "hands-not-10-and-2": {
+    "height": 134,
+    "page": 29,
+    "src": "/handbook/southdakota/hands-not-10-and-2.png",
+    "width": 1140
+  },
+  "head-restraint": {
+    "height": 133,
+    "page": 25,
+    "src": "/handbook/southdakota/head-restraint.png",
+    "width": 1140
+  },
+  "headlight-failure": {
+    "height": 109,
+    "page": 58,
+    "src": "/handbook/southdakota/headlight-failure.png",
+    "width": 1138
+  },
+  "headlights-into-sun": {
+    "height": 133,
+    "page": 54,
+    "src": "/handbook/southdakota/headlights-into-sun.png",
+    "width": 1130
+  },
+  "headlights-when-dark": {
+    "height": 109,
+    "page": 54,
+    "src": "/handbook/southdakota/headlights-when-dark.png",
+    "width": 1130
+  },
+  "health-diabetes": {
+    "height": 134,
+    "page": 22,
+    "src": "/handbook/southdakota/health-diabetes.png",
+    "width": 1138
+  },
+  "hearing": {
+    "height": 133,
+    "page": 18,
+    "src": "/handbook/southdakota/hearing.png",
+    "width": 1140
+  },
+  "high-beams-twice-as-far": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/high-beams-twice-as-far.png",
+    "width": 1137
+  },
+  "hill-parking-downhill": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/southdakota/hill-parking-downhill.png",
+    "width": 1118
+  },
+  "hill-parking-gear": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/southdakota/hill-parking-gear.png",
+    "width": 1114
+  },
+  "hill-parking-uphill-curb": {
+    "height": 108,
+    "page": 43,
+    "src": "/handbook/southdakota/hill-parking-uphill-curb.png",
+    "width": 1118
+  },
+  "hit-from-rear": {
+    "height": 134,
+    "page": 59,
+    "src": "/handbook/southdakota/hit-from-rear.png",
+    "width": 1141
+  },
+  "hit-from-side": {
+    "height": 133,
+    "page": 59,
+    "src": "/handbook/southdakota/hit-from-side.png",
+    "width": 1141
+  },
+  "horn-animals": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/horn-animals.png",
+    "width": 1137
+  },
+  "horn-light-tap": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/horn-light-tap.png",
+    "width": 1137
+  },
+  "horn-not-for": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/horn-not-for.png",
+    "width": 1137
+  },
+  "horn-sharp-blast": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/horn-sharp-blast.png",
+    "width": 1137
+  },
+  "hydroplaning": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/southdakota/hydroplaning.png",
+    "width": 1137
+  },
+  "hydroplaning-avoid": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/southdakota/hydroplaning-avoid.png",
+    "width": 1137
+  },
+  "impeding-traffic": {
+    "height": 109,
+    "page": 45,
+    "src": "/handbook/southdakota/impeding-traffic.png",
+    "width": 1140
+  },
+  "implied-consent-manual": {
+    "height": 109,
+    "page": 20,
+    "src": "/handbook/southdakota/implied-consent-manual.png",
+    "width": 1138
+  },
+  "implied-consent-other-state": {
+    "height": 133,
+    "page": 20,
+    "src": "/handbook/southdakota/implied-consent-other-state.png",
+    "width": 1138
+  },
+  "implied-consent-refusal": {
+    "height": 109,
+    "page": 20,
+    "src": "/handbook/southdakota/implied-consent-refusal.png",
+    "width": 1138
+  },
+  "injured-bleeding": {
+    "height": 109,
+    "page": 59,
+    "src": "/handbook/southdakota/injured-bleeding.png",
+    "width": 1141
+  },
+  "injured-shock": {
+    "height": 109,
+    "page": 59,
+    "src": "/handbook/southdakota/injured-shock.png",
+    "width": 1141
+  },
+  "intersection-look-left-right-left": {
+    "height": 134,
+    "page": 39,
+    "src": "/handbook/southdakota/intersection-look-left-right-left.png",
+    "width": 1137
+  },
+  "intersection-search": {
+    "height": 109,
+    "page": 39,
+    "src": "/handbook/southdakota/intersection-search.png",
+    "width": 1128
+  },
+  "interstate-median": {
+    "height": 109,
+    "page": 42,
+    "src": "/handbook/southdakota/interstate-median.png",
+    "width": 1139
+  },
+  "interstate-missed-exit": {
+    "height": 109,
+    "page": 42,
+    "src": "/handbook/southdakota/interstate-missed-exit.png",
+    "width": 1139
+  },
+  "interstate-right-lane": {
+    "height": 108,
+    "page": 42,
+    "src": "/handbook/southdakota/interstate-right-lane.png",
+    "width": 1139
+  },
+  "knowledge-test-cheating": {
+    "height": 158,
+    "page": 10,
+    "src": "/handbook/southdakota/knowledge-test-cheating.png",
+    "width": 1137
+  },
+  "knowledge-test-scope": {
+    "height": 109,
+    "page": 10,
+    "src": "/handbook/southdakota/knowledge-test-scope.png",
+    "width": 1137
+  },
+  "leaving-the-scene": {
+    "height": 109,
+    "page": 60,
+    "src": "/handbook/southdakota/leaving-the-scene.png",
+    "width": 1122
+  },
+  "left-lane-for-passing": {
+    "height": 134,
+    "page": 46,
+    "src": "/handbook/southdakota/left-lane-for-passing.png",
+    "width": 1141
+  },
+  "left-turn-gap": {
+    "height": 133,
+    "page": 48,
+    "src": "/handbook/southdakota/left-turn-gap.png",
+    "width": 1140
+  },
+  "left-turn-position": {
+    "height": 109,
+    "page": 38,
+    "src": "/handbook/southdakota/left-turn-position.png",
+    "width": 578
+  },
+  "licence-min-age": {
+    "height": 108,
+    "page": 5,
+    "src": "/handbook/southdakota/licence-min-age.png",
+    "width": 1134
+  },
+  "licence-renewal-five-years": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/southdakota/licence-renewal-five-years.png",
+    "width": 1142
+  },
+  "licence-required": {
+    "height": 133,
+    "page": 5,
+    "src": "/handbook/southdakota/licence-required.png",
+    "width": 1134
+  },
+  "load-secure-definition": {
+    "height": 133,
+    "page": 28,
+    "src": "/handbook/southdakota/load-secure-definition.png",
+    "width": 1139
+  },
+  "look-20-to-30-seconds": {
+    "height": 109,
+    "page": 48,
+    "src": "/handbook/southdakota/look-20-to-30-seconds.png",
+    "width": 1140
+  },
+  "look-both-ways-anyway": {
+    "height": 134,
+    "page": 48,
+    "src": "/handbook/southdakota/look-both-ways-anyway.png",
+    "width": 1140
+  },
+  "lose-licence-reasons": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/southdakota/lose-licence-reasons.png",
+    "width": 1142
+  },
+  "lose-licence-refusal": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/southdakota/lose-licence-refusal.png",
+    "width": 1142
+  },
+  "lose-licence-under-16": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/southdakota/lose-licence-under-16.png",
+    "width": 1142
+  },
+  "low-beams-500-feet-behind": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/low-beams-500-feet-behind.png",
+    "width": 1137
+  },
+  "low-beams-fog": {
+    "height": 133,
+    "page": 55,
+    "src": "/handbook/southdakota/low-beams-fog.png",
+    "width": 1137
+  },
+  "manual-purpose": {
+    "height": 133,
+    "page": 5,
+    "src": "/handbook/southdakota/manual-purpose.png",
+    "width": 1134
+  },
+  "marijuana-effects": {
+    "height": 158,
+    "page": 22,
+    "src": "/handbook/southdakota/marijuana-effects.png",
+    "width": 1138
+  },
+  "merge-at-speed": {
+    "height": 133,
+    "page": 45,
+    "src": "/handbook/southdakota/merge-at-speed.png",
+    "width": 1140
+  },
+  "minimum-speed-signs": {
+    "height": 133,
+    "page": 35,
+    "src": "/handbook/southdakota/minimum-speed-signs.png",
+    "width": 1138
+  },
+  "minor-second-violation": {
+    "height": 133,
+    "page": 13,
+    "src": "/handbook/southdakota/minor-second-violation.png",
+    "width": 1139
+  },
+  "minor-suspension-30-days": {
+    "height": 158,
+    "page": 13,
+    "src": "/handbook/southdakota/minor-suspension-30-days.png",
+    "width": 1139
+  },
+  "mirror-extra-view": {
+    "height": 158,
+    "page": 25,
+    "src": "/handbook/southdakota/mirror-extra-view.png",
+    "width": 1140
+  },
+  "mirror-inside": {
+    "height": 134,
+    "page": 25,
+    "src": "/handbook/southdakota/mirror-inside.png",
+    "width": 1140
+  },
+  "mirror-left-setting": {
+    "height": 134,
+    "page": 25,
+    "src": "/handbook/southdakota/mirror-left-setting.png",
+    "width": 1140
+  },
+  "moped-licence": {
+    "height": 109,
+    "page": 9,
+    "src": "/handbook/southdakota/moped-licence.png",
+    "width": 1136
+  },
+  "motorcycle-following": {
+    "height": 134,
+    "page": 62,
+    "src": "/handbook/southdakota/motorcycle-following.png",
+    "width": 1141
+  },
+  "motorcycle-full-lane": {
+    "height": 133,
+    "page": 62,
+    "src": "/handbook/southdakota/motorcycle-full-lane.png",
+    "width": 1141
+  },
+  "motorcycle-left-turn": {
+    "height": 108,
+    "page": 62,
+    "src": "/handbook/southdakota/motorcycle-left-turn.png",
+    "width": 1141
+  },
+  "motorcycle-permit-hours": {
+    "height": 134,
+    "page": 9,
+    "src": "/handbook/southdakota/motorcycle-permit-hours.png",
+    "width": 1136
+  },
+  "motorcycle-permit-no-passenger": {
+    "height": 133,
+    "page": 9,
+    "src": "/handbook/southdakota/motorcycle-permit-no-passenger.png",
+    "width": 1136
+  },
+  "motorcycle-signal": {
+    "height": 133,
+    "page": 62,
+    "src": "/handbook/southdakota/motorcycle-signal.png",
+    "width": 1141
+  },
+  "move-over-merge": {
+    "height": 158,
+    "page": 2,
+    "src": "/handbook/southdakota/move-over-merge.png",
+    "width": 1141
+  },
+  "move-over-penalty": {
+    "height": 109,
+    "page": 2,
+    "src": "/handbook/southdakota/move-over-penalty.png",
+    "width": 894
+  },
+  "move-over-stop": {
+    "height": 158,
+    "page": 2,
+    "src": "/handbook/southdakota/move-over-stop.png",
+    "width": 1141
+  },
+  "move-over-two-lane": {
+    "height": 157,
+    "page": 2,
+    "src": "/handbook/southdakota/move-over-two-lane.png",
+    "width": 1137
+  },
+  "must-contact-police": {
+    "height": 134,
+    "page": 60,
+    "src": "/handbook/southdakota/must-contact-police.png",
+    "width": 1122
+  },
+  "narrow-bridge-right-of-way": {
+    "height": 133,
+    "page": 67,
+    "src": "/handbook/southdakota/narrow-bridge-right-of-way.png",
+    "width": 1137
+  },
+  "narrow-rural-roads": {
+    "height": 133,
+    "page": 67,
+    "src": "/handbook/southdakota/narrow-rural-roads.png",
+    "width": 1137
+  },
+  "new-resident-90-days": {
+    "height": 133,
+    "page": 5,
+    "src": "/handbook/southdakota/new-resident-90-days.png",
+    "width": 1134
+  },
+  "night-dark-shapes": {
+    "height": 109,
+    "page": 66,
+    "src": "/handbook/southdakota/night-dark-shapes.png",
+    "width": 1130
+  },
+  "night-extra-seconds": {
+    "height": 134,
+    "page": 66,
+    "src": "/handbook/southdakota/night-extra-seconds.png",
+    "width": 1130
+  },
+  "night-no-sunglasses": {
+    "height": 109,
+    "page": 66,
+    "src": "/handbook/southdakota/night-no-sunglasses.png",
+    "width": 1130
+  },
+  "night-oncoming-glare": {
+    "height": 133,
+    "page": 66,
+    "src": "/handbook/southdakota/night-oncoming-glare.png",
+    "width": 1130
+  },
+  "no-drink-for-injured": {
+    "height": 109,
+    "page": 59,
+    "src": "/handbook/southdakota/no-drink-for-injured.png",
+    "width": 1141
+  },
+  "no-insurance-penalty": {
+    "height": 134,
+    "page": 14,
+    "src": "/handbook/southdakota/no-insurance-penalty.png",
+    "width": 1140
+  },
+  "no-licence-under-14": {
+    "height": 113,
+    "page": 7,
+    "src": "/handbook/southdakota/no-licence-under-14.png",
+    "width": 1139
+  },
+  "no-parking-lights-driving": {
+    "height": 109,
+    "page": 55,
+    "src": "/handbook/southdakota/no-parking-lights-driving.png",
+    "width": 1137
+  },
+  "no-passing-signs": {
+    "height": 134,
+    "page": 35,
+    "src": "/handbook/southdakota/no-passing-signs.png",
+    "width": 1005
+  },
+  "no-passing-situations": {
+    "height": 133,
+    "page": 46,
+    "src": "/handbook/southdakota/no-passing-situations.png",
+    "width": 1141
+  },
+  "non-resident-16": {
+    "height": 108,
+    "page": 5,
+    "src": "/handbook/southdakota/non-resident-16.png",
+    "width": 1134
+  },
+  "oncoming-high-beams": {
+    "height": 134,
+    "page": 55,
+    "src": "/handbook/southdakota/oncoming-high-beams.png",
+    "width": 1137
+  },
+  "one-way-sign": {
+    "height": 133,
+    "page": 35,
+    "src": "/handbook/southdakota/one-way-sign.png",
+    "width": 1128
+  },
+  "operator-licence-minor": {
+    "height": 158,
+    "page": 8,
+    "src": "/handbook/southdakota/operator-licence-minor.png",
+    "width": 1132
+  },
+  "organ-donor": {
+    "height": 158,
+    "page": 11,
+    "src": "/handbook/southdakota/organ-donor.png",
+    "width": 1141
+  },
+  "otc-drugs": {
+    "height": 134,
+    "page": 21,
+    "src": "/handbook/southdakota/otc-drugs.png",
+    "width": 1138
+  },
+  "parallel-parking-finish": {
+    "height": 158,
+    "page": 44,
+    "src": "/handbook/southdakota/parallel-parking-finish.png",
+    "width": 1128
+  },
+  "parallel-parking-start": {
+    "height": 134,
+    "page": 44,
+    "src": "/handbook/southdakota/parallel-parking-start.png",
+    "width": 1140
+  },
+  "parent-consent": {
+    "height": 109,
+    "page": 5,
+    "src": "/handbook/southdakota/parent-consent.png",
+    "width": 1116
+  },
+  "parked-vehicle-note": {
+    "height": 134,
+    "page": 60,
+    "src": "/handbook/southdakota/parked-vehicle-note.png",
+    "width": 1122
+  },
+  "parking-away-from-traffic": {
+    "height": 134,
+    "page": 43,
+    "src": "/handbook/southdakota/parking-away-from-traffic.png",
+    "width": 1131
+  },
+  "parking-brake-always": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/southdakota/parking-brake-always.png",
+    "width": 1131
+  },
+  "parking-exit-curb-side": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/southdakota/parking-exit-curb-side.png",
+    "width": 1131
+  },
+  "parking-lights-only-parked": {
+    "height": 109,
+    "page": 54,
+    "src": "/handbook/southdakota/parking-lights-only-parked.png",
+    "width": 1130
+  },
+  "parking-never-leave-key": {
+    "height": 109,
+    "page": 43,
+    "src": "/handbook/southdakota/parking-never-leave-key.png",
+    "width": 1131
+  },
+  "parking-responsibility": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/southdakota/parking-responsibility.png",
+    "width": 1131
+  },
+  "parking-rural-manual": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/southdakota/parking-rural-manual.png",
+    "width": 1131
+  },
+  "parking-visible": {
+    "height": 134,
+    "page": 43,
+    "src": "/handbook/southdakota/parking-visible.png",
+    "width": 1131
+  },
+  "pass-10-seconds": {
+    "height": 133,
+    "page": 53,
+    "src": "/handbook/southdakota/pass-10-seconds.png",
+    "width": 1139
+  },
+  "pass-1600-feet": {
+    "height": 133,
+    "page": 53,
+    "src": "/handbook/southdakota/pass-1600-feet.png",
+    "width": 1139
+  },
+  "pass-hills-curves": {
+    "height": 133,
+    "page": 53,
+    "src": "/handbook/southdakota/pass-hills-curves.png",
+    "width": 1139
+  },
+  "pass-one-at-a-time": {
+    "height": 133,
+    "page": 53,
+    "src": "/handbook/southdakota/pass-one-at-a-time.png",
+    "width": 1139
+  },
+  "pass-one-third-mile": {
+    "height": 109,
+    "page": 53,
+    "src": "/handbook/southdakota/pass-one-third-mile.png",
+    "width": 1139
+  },
+  "pass-railroad": {
+    "height": 108,
+    "page": 53,
+    "src": "/handbook/southdakota/pass-railroad.png",
+    "width": 1139
+  },
+  "pass-slow-vehicle-left": {
+    "height": 134,
+    "page": 45,
+    "src": "/handbook/southdakota/pass-slow-vehicle-left.png",
+    "width": 1140
+  },
+  "pass-until-front-visible": {
+    "height": 109,
+    "page": 46,
+    "src": "/handbook/southdakota/pass-until-front-visible.png",
+    "width": 1141
+  },
+  "pavement-markings-purpose": {
+    "height": 133,
+    "page": 36,
+    "src": "/handbook/southdakota/pavement-markings-purpose.png",
+    "width": 1119
+  },
+  "pedestrian-always-yield": {
+    "height": 108,
+    "page": 61,
+    "src": "/handbook/southdakota/pedestrian-always-yield.png",
+    "width": 1137
+  },
+  "pedestrian-green-light": {
+    "height": 109,
+    "page": 61,
+    "src": "/handbook/southdakota/pedestrian-green-light.png",
+    "width": 1137
+  },
+  "pedestrian-hybrid-beacon": {
+    "height": 133,
+    "page": 31,
+    "src": "/handbook/southdakota/pedestrian-hybrid-beacon.png",
+    "width": 1138
+  },
+  "pedestrian-turn-on-red": {
+    "height": 109,
+    "page": 61,
+    "src": "/handbook/southdakota/pedestrian-turn-on-red.png",
+    "width": 1137
+  },
+  "pedestrians-between-parked": {
+    "height": 134,
+    "page": 61,
+    "src": "/handbook/southdakota/pedestrians-between-parked.png",
+    "width": 1137
+  },
+  "penny-test": {
+    "height": 113,
+    "page": 23,
+    "src": "/handbook/southdakota/penny-test.png",
+    "width": 1115
+  },
+  "perception-time": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/southdakota/perception-time.png",
+    "width": 1137
+  },
+  "permit-275-days": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/southdakota/permit-275-days.png",
+    "width": 1140
+  },
+  "permit-50-hours": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/southdakota/permit-50-hours.png",
+    "width": 1140
+  },
+  "permit-driver-ed-180": {
+    "height": 158,
+    "page": 8,
+    "src": "/handbook/southdakota/permit-driver-ed-180.png",
+    "width": 1140
+  },
+  "permit-holders-no-device": {
+    "height": 109,
+    "page": 19,
+    "src": "/handbook/southdakota/permit-holders-no-device.png",
+    "width": 1138
+  },
+  "permit-no-phone": {
+    "height": 134,
+    "page": 8,
+    "src": "/handbook/southdakota/permit-no-phone.png",
+    "width": 1140
+  },
+  "permit-over-18": {
+    "height": 109,
+    "page": 8,
+    "src": "/handbook/southdakota/permit-over-18.png",
+    "width": 1140
+  },
+  "permit-supervision": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/southdakota/permit-supervision.png",
+    "width": 1140
+  },
+  "permit-under-18": {
+    "height": 134,
+    "page": 8,
+    "src": "/handbook/southdakota/permit-under-18.png",
+    "width": 1140
+  },
+  "permit-valid-five-years": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/southdakota/permit-valid-five-years.png",
+    "width": 1140
+  },
+  "physical-control": {
+    "height": 133,
+    "page": 20,
+    "src": "/handbook/southdakota/physical-control.png",
+    "width": 1138
+  },
+  "playground-areas": {
+    "height": 134,
+    "page": 61,
+    "src": "/handbook/southdakota/playground-areas.png",
+    "width": 1137
+  },
+  "point-suspension-periods": {
+    "height": 182,
+    "page": 14,
+    "src": "/handbook/southdakota/point-suspension-periods.png",
+    "width": 1140
+  },
+  "point-system-multiple": {
+    "height": 109,
+    "page": 14,
+    "src": "/handbook/southdakota/point-system-multiple.png",
+    "width": 1140
+  },
+  "point-system-no-speeding": {
+    "height": 158,
+    "page": 14,
+    "src": "/handbook/southdakota/point-system-no-speeding.png",
+    "width": 1140
+  },
+  "point-system-out-of-state": {
+    "height": 108,
+    "page": 14,
+    "src": "/handbook/southdakota/point-system-out-of-state.png",
+    "width": 1140
+  },
+  "point-system-thresholds": {
+    "height": 133,
+    "page": 14,
+    "src": "/handbook/southdakota/point-system-thresholds.png",
+    "width": 1140
+  },
+  "power-failure": {
+    "height": 134,
+    "page": 58,
+    "src": "/handbook/southdakota/power-failure.png",
+    "width": 1138
+  },
+  "prescription-drugs": {
+    "height": 109,
+    "page": 22,
+    "src": "/handbook/southdakota/prescription-drugs.png",
+    "width": 1138
+  },
+  "prohibition-signs": {
+    "height": 109,
+    "page": 35,
+    "src": "/handbook/southdakota/prohibition-signs.png",
+    "width": 1110
+  },
+  "proof-of-insurance-carried": {
+    "height": 133,
+    "page": 14,
+    "src": "/handbook/southdakota/proof-of-insurance-carried.png",
+    "width": 1140
+  },
+  "railroad-advance-sign": {
+    "height": 134,
+    "page": 33,
+    "src": "/handbook/southdakota/railroad-advance-sign.png",
+    "width": 1104
+  },
+  "railroad-ens": {
+    "height": 133,
+    "page": 34,
+    "src": "/handbook/southdakota/railroad-ens.png",
+    "width": 1141
+  },
+  "railroad-flashing-lights": {
+    "height": 133,
+    "page": 34,
+    "src": "/handbook/southdakota/railroad-flashing-lights.png",
+    "width": 1141
+  },
+  "railroad-gate": {
+    "height": 158,
+    "page": 34,
+    "src": "/handbook/southdakota/railroad-gate.png",
+    "width": 1141
+  },
+  "railroad-multiple-tracks": {
+    "height": 133,
+    "page": 34,
+    "src": "/handbook/southdakota/railroad-multiple-tracks.png",
+    "width": 1141
+  },
+  "reaction-time": {
+    "height": 133,
+    "page": 50,
+    "src": "/handbook/southdakota/reaction-time.png",
+    "width": 1137
+  },
+  "red-arrow": {
+    "height": 133,
+    "page": 32,
+    "src": "/handbook/southdakota/red-arrow.png",
+    "width": 937
+  },
+  "reduced-vision-areas": {
+    "height": 133,
+    "page": 67,
+    "src": "/handbook/southdakota/reduced-vision-areas.png",
+    "width": 1137
+  },
+  "registration-90-days": {
+    "height": 109,
+    "page": 13,
+    "src": "/handbook/southdakota/registration-90-days.png",
+    "width": 1139
+  },
+  "registration-in-vehicle": {
+    "height": 133,
+    "page": 13,
+    "src": "/handbook/southdakota/registration-in-vehicle.png",
+    "width": 1138
+  },
+  "regulatory-signs": {
+    "height": 133,
+    "page": 35,
+    "src": "/handbook/southdakota/regulatory-signs.png",
+    "width": 1110
+  },
+  "renewal-180-days": {
+    "height": 158,
+    "page": 12,
+    "src": "/handbook/southdakota/renewal-180-days.png",
+    "width": 1142
+  },
+  "renewal-expired-knowledge": {
+    "height": 109,
+    "page": 12,
+    "src": "/handbook/southdakota/renewal-expired-knowledge.png",
+    "width": 1142
+  },
+  "restricted-permit-auto-convert": {
+    "height": 134,
+    "page": 8,
+    "src": "/handbook/southdakota/restricted-permit-auto-convert.png",
+    "width": 1140
+  },
+  "restricted-permit-exceptions": {
+    "height": 109,
+    "page": 8,
+    "src": "/handbook/southdakota/restricted-permit-exceptions.png",
+    "width": 1140
+  },
+  "restricted-permit-hours": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/southdakota/restricted-permit-hours.png",
+    "width": 1140
+  },
+  "restricted-permit-night": {
+    "height": 134,
+    "page": 8,
+    "src": "/handbook/southdakota/restricted-permit-night.png",
+    "width": 1140
+  },
+  "restricted-permit-six-months": {
+    "height": 133,
+    "page": 8,
+    "src": "/handbook/southdakota/restricted-permit-six-months.png",
+    "width": 1140
+  },
+  "restriction-codes": {
+    "height": 245,
+    "page": 11,
+    "src": "/handbook/southdakota/restriction-codes.png",
+    "width": 1141
+  },
+  "restrictions-purpose": {
+    "height": 133,
+    "page": 11,
+    "src": "/handbook/southdakota/restrictions-purpose.png",
+    "width": 1135
+  },
+  "retest-next-working-day": {
+    "height": 133,
+    "page": 10,
+    "src": "/handbook/southdakota/retest-next-working-day.png",
+    "width": 1137
+  },
+  "return-both-headlights": {
+    "height": 134,
+    "page": 53,
+    "src": "/handbook/southdakota/return-both-headlights.png",
+    "width": 1139
+  },
+  "revocation-definition": {
+    "height": 133,
+    "page": 12,
+    "src": "/handbook/southdakota/revocation-definition.png",
+    "width": 1142
+  },
+  "right-on-red": {
+    "height": 158,
+    "page": 32,
+    "src": "/handbook/southdakota/right-on-red.png",
+    "width": 1105
+  },
+  "right-on-red-yield": {
+    "height": 157,
+    "page": 32,
+    "src": "/handbook/southdakota/right-on-red-yield.png",
+    "width": 1105
+  },
+  "right-turn-check": {
+    "height": 134,
+    "page": 48,
+    "src": "/handbook/southdakota/right-turn-check.png",
+    "width": 1140
+  },
+  "right-turn-position": {
+    "height": 108,
+    "page": 38,
+    "src": "/handbook/southdakota/right-turn-position.png",
+    "width": 600
+  },
+  "roundabout-counterclockwise": {
+    "height": 182,
+    "page": 39,
+    "src": "/handbook/southdakota/roundabout-counterclockwise.png",
+    "width": 1137
+  },
+  "roundabout-crash-reduction": {
+    "height": 182,
+    "page": 39,
+    "src": "/handbook/southdakota/roundabout-crash-reduction.png",
+    "width": 1137
+  },
+  "roundabout-emergency-vehicle": {
+    "height": 109,
+    "page": 40,
+    "src": "/handbook/southdakota/roundabout-emergency-vehicle.png",
+    "width": 1135
+  },
+  "roundabout-exit-signal": {
+    "height": 161,
+    "page": 40,
+    "src": "/handbook/southdakota/roundabout-exit-signal.png",
+    "width": 584
+  },
+  "roundabout-lane-choice": {
+    "height": 133,
+    "page": 40,
+    "src": "/handbook/southdakota/roundabout-lane-choice.png",
+    "width": 1135
+  },
+  "roundabout-steps": {
+    "height": 206,
+    "page": 40,
+    "src": "/handbook/southdakota/roundabout-steps.png",
+    "width": 584
+  },
+  "route-number-signs": {
+    "height": 109,
+    "page": 36,
+    "src": "/handbook/southdakota/route-number-signs.png",
+    "width": 1138
+  },
+  "row-list-entering": {
+    "height": 109,
+    "page": 31,
+    "src": "/handbook/southdakota/row-list-entering.png",
+    "width": 1138
+  },
+  "row-list-intersection": {
+    "height": 109,
+    "page": 31,
+    "src": "/handbook/southdakota/row-list-intersection.png",
+    "width": 1138
+  },
+  "row-never-assume": {
+    "height": 158,
+    "page": 31,
+    "src": "/handbook/southdakota/row-never-assume.png",
+    "width": 1138
+  },
+  "runaway-truck-ramp": {
+    "height": 133,
+    "page": 64,
+    "src": "/handbook/southdakota/runaway-truck-ramp.png",
+    "width": 1127
+  },
+  "runaway-truck-smoke": {
+    "height": 109,
+    "page": 64,
+    "src": "/handbook/southdakota/runaway-truck-smoke.png",
+    "width": 1127
+  },
+  "school-bus-proceed": {
+    "height": 133,
+    "page": 43,
+    "src": "/handbook/southdakota/school-bus-proceed.png",
+    "width": 1133
+  },
+  "school-bus-stop": {
+    "height": 134,
+    "page": 43,
+    "src": "/handbook/southdakota/school-bus-stop.png",
+    "width": 1133
+  },
+  "school-zone-slower": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/southdakota/school-zone-slower.png",
+    "width": 1137
+  },
+  "search-pattern": {
+    "height": 133,
+    "page": 48,
+    "src": "/handbook/southdakota/search-pattern.png",
+    "width": 1140
+  },
+  "seat-ten-inches": {
+    "height": 133,
+    "page": 25,
+    "src": "/handbook/southdakota/seat-ten-inches.png",
+    "width": 1140
+  },
+  "seat-wheel-height": {
+    "height": 133,
+    "page": 25,
+    "src": "/handbook/southdakota/seat-wheel-height.png",
+    "width": 1140
+  },
+  "seatbelt-front-seat-law": {
+    "height": 109,
+    "page": 25,
+    "src": "/handbook/southdakota/seatbelt-front-seat-law.png",
+    "width": 1140
+  },
+  "seatbelt-lap-belt": {
+    "height": 133,
+    "page": 25,
+    "src": "/handbook/southdakota/seatbelt-lap-belt.png",
+    "width": 1140
+  },
+  "seatbelt-shoulder-harness": {
+    "height": 158,
+    "page": 25,
+    "src": "/handbook/southdakota/seatbelt-shoulder-harness.png",
+    "width": 1140
+  },
+  "seatbelt-under-18": {
+    "height": 133,
+    "page": 26,
+    "src": "/handbook/southdakota/seatbelt-under-18.png",
+    "width": 1139
+  },
+  "seatbelt-with-airbags": {
+    "height": 133,
+    "page": 25,
+    "src": "/handbook/southdakota/seatbelt-with-airbags.png",
+    "width": 1140
+  },
+  "secure-pets": {
+    "height": 109,
+    "page": 19,
+    "src": "/handbook/southdakota/secure-pets.png",
+    "width": 1138
+  },
+  "separate-risks": {
+    "height": 109,
+    "page": 54,
+    "src": "/handbook/southdakota/separate-risks.png",
+    "width": 1130
+  },
+  "service-signs": {
+    "height": 158,
+    "page": 36,
+    "src": "/handbook/southdakota/service-signs.png",
+    "width": 1101
+  },
+  "shared-center-lane": {
+    "height": 133,
+    "page": 37,
+    "src": "/handbook/southdakota/shared-center-lane.png",
+    "width": 740
+  },
+  "shared-center-lane-markings": {
+    "height": 133,
+    "page": 37,
+    "src": "/handbook/southdakota/shared-center-lane-markings.png",
+    "width": 740
+  },
+  "shoulder-check": {
+    "height": 133,
+    "page": 45,
+    "src": "/handbook/southdakota/shoulder-check.png",
+    "width": 1140
+  },
+  "signal-100-feet": {
+    "height": 109,
+    "page": 56,
+    "src": "/handbook/southdakota/signal-100-feet.png",
+    "width": 1133
+  },
+  "signal-100-feet-list": {
+    "height": 133,
+    "page": 49,
+    "src": "/handbook/southdakota/signal-100-feet-list.png",
+    "width": 1029
+  },
+  "signal-cancel": {
+    "height": 133,
+    "page": 56,
+    "src": "/handbook/southdakota/signal-cancel.png",
+    "width": 1133
+  },
+  "signal-horizontal": {
+    "height": 158,
+    "page": 32,
+    "src": "/handbook/southdakota/signal-horizontal.png",
+    "width": 886
+  },
+  "signal-method": {
+    "height": 109,
+    "page": 49,
+    "src": "/handbook/southdakota/signal-method.png",
+    "width": 1029
+  },
+  "signal-out-of-operation": {
+    "height": 109,
+    "page": 32,
+    "src": "/handbook/southdakota/signal-out-of-operation.png",
+    "width": 1009
+  },
+  "signal-too-early": {
+    "height": 158,
+    "page": 56,
+    "src": "/handbook/southdakota/signal-too-early.png",
+    "width": 1133
+  },
+  "skid-causes": {
+    "height": 133,
+    "page": 57,
+    "src": "/handbook/southdakota/skid-causes.png",
+    "width": 1138
+  },
+  "skid-recovery": {
+    "height": 109,
+    "page": 57,
+    "src": "/handbook/southdakota/skid-recovery.png",
+    "width": 1138
+  },
+  "slippery-roads": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/southdakota/slippery-roads.png",
+    "width": 1137
+  },
+  "slow-driver-right-lane": {
+    "height": 133,
+    "page": 52,
+    "src": "/handbook/southdakota/slow-driver-right-lane.png",
+    "width": 1130
+  },
+  "slow-moving-emblem": {
+    "height": 158,
+    "page": 65,
+    "src": "/handbook/southdakota/slow-moving-emblem.png",
+    "width": 1125
+  },
+  "slow-moving-vehicle-sign": {
+    "height": 109,
+    "page": 36,
+    "src": "/handbook/southdakota/slow-moving-vehicle-sign.png",
+    "width": 1138
+  },
+  "snowplow-200-feet": {
+    "height": 133,
+    "page": 67,
+    "src": "/handbook/southdakota/snowplow-200-feet.png",
+    "width": 1137
+  },
+  "snowplow-wide": {
+    "height": 134,
+    "page": 67,
+    "src": "/handbook/southdakota/snowplow-wide.png",
+    "width": 1137
+  },
+  "space-bicyclists-children": {
+    "height": 158,
+    "page": 52,
+    "src": "/handbook/southdakota/space-bicyclists-children.png",
+    "width": 1130
+  },
+  "space-parked-cars": {
+    "height": 133,
+    "page": 52,
+    "src": "/handbook/southdakota/space-parked-cars.png",
+    "width": 1130
+  },
+  "space-to-side": {
+    "height": 134,
+    "page": 52,
+    "src": "/handbook/southdakota/space-to-side.png",
+    "width": 1130
+  },
+  "speed-limit-signs": {
+    "height": 133,
+    "page": 35,
+    "src": "/handbook/southdakota/speed-limit-signs.png",
+    "width": 1138
+  },
+  "starting-parking-brake": {
+    "height": 109,
+    "page": 29,
+    "src": "/handbook/southdakota/starting-parking-brake.png",
+    "width": 1140
+  },
+  "steady-green": {
+    "height": 133,
+    "page": 32,
+    "src": "/handbook/southdakota/steady-green.png",
+    "width": 1108
+  },
+  "steady-red": {
+    "height": 134,
+    "page": 32,
+    "src": "/handbook/southdakota/steady-red.png",
+    "width": 1105
+  },
+  "steady-yellow": {
+    "height": 158,
+    "page": 32,
+    "src": "/handbook/southdakota/steady-yellow.png",
+    "width": 912
+  },
+  "steel-bridge-traction": {
+    "height": 134,
+    "page": 67,
+    "src": "/handbook/southdakota/steel-bridge-traction.png",
+    "width": 1137
+  },
+  "steering-grip": {
+    "height": 133,
+    "page": 29,
+    "src": "/handbook/southdakota/steering-grip.png",
+    "width": 1140
+  },
+  "steering-straighten": {
+    "height": 134,
+    "page": 29,
+    "src": "/handbook/southdakota/steering-straighten.png",
+    "width": 1140
+  },
+  "stop-documents": {
+    "height": 133,
+    "page": 65,
+    "src": "/handbook/southdakota/stop-documents.png",
+    "width": 1125
+  },
+  "stop-end-call": {
+    "height": 133,
+    "page": 47,
+    "src": "/handbook/southdakota/stop-end-call.png",
+    "width": 1134
+  },
+  "stop-hands-visible": {
+    "height": 109,
+    "page": 47,
+    "src": "/handbook/southdakota/stop-hands-visible.png",
+    "width": 1134
+  },
+  "stop-line-first": {
+    "height": 133,
+    "page": 37,
+    "src": "/handbook/southdakota/stop-line-first.png",
+    "width": 1123
+  },
+  "stop-never-run": {
+    "height": 109,
+    "page": 65,
+    "src": "/handbook/southdakota/stop-never-run.png",
+    "width": 1125
+  },
+  "stop-right-shoulder": {
+    "height": 133,
+    "page": 46,
+    "src": "/handbook/southdakota/stop-right-shoulder.png",
+    "width": 1141
+  },
+  "stop-sign": {
+    "height": 109,
+    "page": 35,
+    "src": "/handbook/southdakota/stop-sign.png",
+    "width": 1128
+  },
+  "stop-signal-officer": {
+    "height": 133,
+    "page": 46,
+    "src": "/handbook/southdakota/stop-signal-officer.png",
+    "width": 1141
+  },
+  "stop-stay-in-vehicle": {
+    "height": 133,
+    "page": 47,
+    "src": "/handbook/southdakota/stop-stay-in-vehicle.png",
+    "width": 1134
+  },
+  "stopping-suddenly": {
+    "height": 134,
+    "page": 29,
+    "src": "/handbook/southdakota/stopping-suddenly.png",
+    "width": 1140
+  },
+  "stuck-accelerator": {
+    "height": 108,
+    "page": 58,
+    "src": "/handbook/southdakota/stuck-accelerator.png",
+    "width": 1138
+  },
+  "surrender-other-licences": {
+    "height": 109,
+    "page": 5,
+    "src": "/handbook/southdakota/surrender-other-licences.png",
+    "width": 1116
+  },
+  "suspension-reinstatement": {
+    "height": 134,
+    "page": 12,
+    "src": "/handbook/southdakota/suspension-reinstatement.png",
+    "width": 1142
+  },
+  "swerving": {
+    "height": 109,
+    "page": 57,
+    "src": "/handbook/southdakota/swerving.png",
+    "width": 1138
+  },
+  "tailgater-never-brake": {
+    "height": 134,
+    "page": 52,
+    "src": "/handbook/southdakota/tailgater-never-brake.png",
+    "width": 1130
+  },
+  "tailgater-response": {
+    "height": 157,
+    "page": 52,
+    "src": "/handbook/southdakota/tailgater-response.png",
+    "width": 1130
+  },
+  "tap-brakes": {
+    "height": 133,
+    "page": 56,
+    "src": "/handbook/southdakota/tap-brakes.png",
+    "width": 1133
+  },
+  "test-no-passengers": {
+    "height": 108,
+    "page": 10,
+    "src": "/handbook/southdakota/test-no-passengers.png",
+    "width": 1137
+  },
+  "test-own-vehicle": {
+    "height": 109,
+    "page": 10,
+    "src": "/handbook/southdakota/test-own-vehicle.png",
+    "width": 1137
+  },
+  "texting-prohibited": {
+    "height": 109,
+    "page": 19,
+    "src": "/handbook/southdakota/texting-prohibited.png",
+    "width": 1138
+  },
+  "three-attempts-fee": {
+    "height": 133,
+    "page": 7,
+    "src": "/handbook/southdakota/three-attempts-fee.png",
+    "width": 1139
+  },
+  "three-crash-options": {
+    "height": 133,
+    "page": 57,
+    "src": "/handbook/southdakota/three-crash-options.png",
+    "width": 1138
+  },
+  "three-point-turnabout": {
+    "height": 133,
+    "page": 38,
+    "src": "/handbook/southdakota/three-point-turnabout.png",
+    "width": 1129
+  },
+  "tire-pressure-cold": {
+    "height": 134,
+    "page": 23,
+    "src": "/handbook/southdakota/tire-pressure-cold.png",
+    "width": 1115
+  },
+  "tire-pressure-monthly": {
+    "height": 113,
+    "page": 23,
+    "src": "/handbook/southdakota/tire-pressure-monthly.png",
+    "width": 1115
+  },
+  "top-crash-causes": {
+    "height": 236,
+    "page": 60,
+    "src": "/handbook/southdakota/top-crash-causes.png",
+    "width": 772
+  },
+  "total-stopping-distance": {
+    "height": 134,
+    "page": 50,
+    "src": "/handbook/southdakota/total-stopping-distance.png",
+    "width": 1137
+  },
+  "traffic-control-devices": {
+    "height": 134,
+    "page": 31,
+    "src": "/handbook/southdakota/traffic-control-devices.png",
+    "width": 1138
+  },
+  "transfer-no-testing": {
+    "height": 133,
+    "page": 10,
+    "src": "/handbook/southdakota/transfer-no-testing.png",
+    "width": 1137
+  },
+  "truck-apron": {
+    "height": 207,
+    "page": 39,
+    "src": "/handbook/southdakota/truck-apron.png",
+    "width": 1137
+  },
+  "truck-do-not-squeeze": {
+    "height": 158,
+    "page": 63,
+    "src": "/handbook/southdakota/truck-do-not-squeeze.png",
+    "width": 1138
+  },
+  "truck-left-turn-judgement": {
+    "height": 108,
+    "page": 63,
+    "src": "/handbook/southdakota/truck-left-turn-judgement.png",
+    "width": 1138
+  },
+  "truck-length": {
+    "height": 134,
+    "page": 53,
+    "src": "/handbook/southdakota/truck-length.png",
+    "width": 1139
+  },
+  "truck-merging": {
+    "height": 133,
+    "page": 63,
+    "src": "/handbook/southdakota/truck-merging.png",
+    "width": 1138
+  },
+  "truck-mirror-rule": {
+    "height": 133,
+    "page": 56,
+    "src": "/handbook/southdakota/truck-mirror-rule.png",
+    "width": 1133
+  },
+  "truck-rear-no-zone": {
+    "height": 133,
+    "page": 63,
+    "src": "/handbook/southdakota/truck-rear-no-zone.png",
+    "width": 1138
+  },
+  "truck-side-no-zone": {
+    "height": 133,
+    "page": 63,
+    "src": "/handbook/southdakota/truck-side-no-zone.png",
+    "width": 1138
+  },
+  "truck-stopping-290": {
+    "height": 158,
+    "page": 62,
+    "src": "/handbook/southdakota/truck-stopping-290.png",
+    "width": 1141
+  },
+  "truck-wide-right-turn": {
+    "height": 158,
+    "page": 63,
+    "src": "/handbook/southdakota/truck-wide-right-turn.png",
+    "width": 1138
+  },
+  "turn-signal-not-a-promise": {
+    "height": 158,
+    "page": 39,
+    "src": "/handbook/southdakota/turn-signal-not-a-promise.png",
+    "width": 1137
+  },
+  "turning-search": {
+    "height": 109,
+    "page": 38,
+    "src": "/handbook/southdakota/turning-search.png",
+    "width": 1065
+  },
+  "u-turn-500-feet": {
+    "height": 134,
+    "page": 39,
+    "src": "/handbook/southdakota/u-turn-500-feet.png",
+    "width": 1128
+  },
+  "u-turn-definition": {
+    "height": 133,
+    "page": 39,
+    "src": "/handbook/southdakota/u-turn-definition.png",
+    "width": 1128
+  },
+  "u-turn-midblock": {
+    "height": 133,
+    "page": 39,
+    "src": "/handbook/southdakota/u-turn-midblock.png",
+    "width": 1128
+  },
+  "unattended-property-damage": {
+    "height": 134,
+    "page": 60,
+    "src": "/handbook/southdakota/unattended-property-damage.png",
+    "width": 1122
+  },
+  "uncontrolled-rural-intersection": {
+    "height": 133,
+    "page": 67,
+    "src": "/handbook/southdakota/uncontrolled-rural-intersection.png",
+    "width": 1137
+  },
+  "uncontrolled-slow-down": {
+    "height": 134,
+    "page": 67,
+    "src": "/handbook/southdakota/uncontrolled-slow-down.png",
+    "width": 1137
+  },
+  "under-21-arrest-002": {
+    "height": 108,
+    "page": 20,
+    "src": "/handbook/southdakota/under-21-arrest-002.png",
+    "width": 1138
+  },
+  "under-21-expiry": {
+    "height": 133,
+    "page": 9,
+    "src": "/handbook/southdakota/under-21-expiry.png",
+    "width": 1136
+  },
+  "under-21-illegal": {
+    "height": 109,
+    "page": 19,
+    "src": "/handbook/southdakota/under-21-illegal.png",
+    "width": 1138
+  },
+  "unmarked-crosswalks": {
+    "height": 133,
+    "page": 37,
+    "src": "/handbook/southdakota/unmarked-crosswalks.png",
+    "width": 1123
+  },
+  "unsecured-load": {
+    "height": 133,
+    "page": 28,
+    "src": "/handbook/southdakota/unsecured-load.png",
+    "width": 1139
+  },
+  "vision-corrective-lenses": {
+    "height": 109,
+    "page": 10,
+    "src": "/handbook/southdakota/vision-corrective-lenses.png",
+    "width": 1137
+  },
+  "vision-importance": {
+    "height": 133,
+    "page": 18,
+    "src": "/handbook/southdakota/vision-importance.png",
+    "width": 1140
+  },
+  "vision-spare-glasses": {
+    "height": 109,
+    "page": 18,
+    "src": "/handbook/southdakota/vision-spare-glasses.png",
+    "width": 1140
+  },
+  "vision-standard": {
+    "height": 133,
+    "page": 18,
+    "src": "/handbook/southdakota/vision-standard.png",
+    "width": 1140
+  },
+  "vision-tinted-lenses": {
+    "height": 109,
+    "page": 18,
+    "src": "/handbook/southdakota/vision-tinted-lenses.png",
+    "width": 1140
+  },
+  "warning-signs": {
+    "height": 158,
+    "page": 33,
+    "src": "/handbook/southdakota/warning-signs.png",
+    "width": 1137
+  },
+  "white-cane-stop": {
+    "height": 133,
+    "page": 61,
+    "src": "/handbook/southdakota/white-cane-stop.png",
+    "width": 1137
+  },
+  "white-dashed-line": {
+    "height": 144,
+    "page": 36,
+    "src": "/handbook/southdakota/white-dashed-line.png",
+    "width": 1120
+  },
+  "window-tint-front": {
+    "height": 109,
+    "page": 24,
+    "src": "/handbook/southdakota/window-tint-front.png",
+    "width": 1140
+  },
+  "window-tint-rear": {
+    "height": 158,
+    "page": 24,
+    "src": "/handbook/southdakota/window-tint-rear.png",
+    "width": 1140
+  },
+  "winter-below-posted": {
+    "height": 133,
+    "page": 67,
+    "src": "/handbook/southdakota/winter-below-posted.png",
+    "width": 1137
+  },
+  "winter-closed-roads": {
+    "height": 133,
+    "page": 67,
+    "src": "/handbook/southdakota/winter-closed-roads.png",
+    "width": 1137
+  },
+  "winter-first-storm": {
+    "height": 134,
+    "page": 67,
+    "src": "/handbook/southdakota/winter-first-storm.png",
+    "width": 1137
+  },
+  "winter-headlights": {
+    "height": 109,
+    "page": 67,
+    "src": "/handbook/southdakota/winter-headlights.png",
+    "width": 1137
+  },
+  "winter-no-cruise-control": {
+    "height": 109,
+    "page": 67,
+    "src": "/handbook/southdakota/winter-no-cruise-control.png",
+    "width": 1137
+  },
+  "wipers-headlights": {
+    "height": 133,
+    "page": 54,
+    "src": "/handbook/southdakota/wipers-headlights.png",
+    "width": 1130
+  },
+  "work-zone-definition": {
+    "height": 133,
+    "page": 66,
+    "src": "/handbook/southdakota/work-zone-definition.png",
+    "width": 1130
+  },
+  "work-zone-fines-doubled": {
+    "height": 134,
+    "page": 34,
+    "src": "/handbook/southdakota/work-zone-fines-doubled.png",
+    "width": 1119
+  },
+  "work-zone-injuries": {
+    "height": 134,
+    "page": 66,
+    "src": "/handbook/southdakota/work-zone-injuries.png",
+    "width": 1130
+  },
+  "work-zone-no-workers": {
+    "height": 133,
+    "page": 66,
+    "src": "/handbook/southdakota/work-zone-no-workers.png",
+    "width": 1130
+  },
+  "work-zone-signs": {
+    "height": 133,
+    "page": 34,
+    "src": "/handbook/southdakota/work-zone-signs.png",
+    "width": 1140
+  },
+  "worn-tires": {
+    "height": 109,
+    "page": 24,
+    "src": "/handbook/southdakota/worn-tires.png",
+    "width": 1140
+  },
+  "yellow-arrow": {
+    "height": 134,
+    "page": 32,
+    "src": "/handbook/southdakota/yellow-arrow.png",
+    "width": 912
+  },
+  "yield-sign": {
+    "height": 133,
+    "page": 35,
+    "src": "/handbook/southdakota/yield-sign.png",
+    "width": 1128
+  },
+  "yield-when-merging": {
+    "height": 108,
+    "page": 45,
+    "src": "/handbook/southdakota/yield-when-merging.png",
+    "width": 1140
+  },
+  "zero-tolerance-penalty": {
+    "height": 109,
+    "page": 20,
+    "src": "/handbook/southdakota/zero-tolerance-penalty.png",
+    "width": 1138
+  },
+  "zero-tolerance-second": {
+    "height": 109,
+    "page": 20,
+    "src": "/handbook/southdakota/zero-tolerance-second.png",
+    "width": 1138
+  }
+}
