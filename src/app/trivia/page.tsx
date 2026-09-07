@@ -12,6 +12,7 @@ import { formatClock } from "@/lib/trivia/engine";
 import { SITE } from "@/lib/site";
 import { breadcrumbList, collectionPageNodes, jsonLdGraph } from "@/lib/structured-data";
 import { WeeklyFeatured } from "@/components/trivia/WeeklyFeatured";
+import { NEWS_QUIZZES, formatWeekOf } from "@/lib/newsquiz/registry";
 
 export const metadata: Metadata = {
   title: "Trivia Quizzes: Geography and Science",
@@ -82,6 +83,42 @@ export default function TriviaHubPage() {
           key, no signup, no ads between you and the clock. Your scores stay on
           this device.
         </p>
+
+        <section style={{ marginBottom: 32 }}>
+          <p className="eyebrow" style={{ display: "block", marginBottom: 10 }}>
+            This week&apos;s news quiz
+          </p>
+          <div
+            className="card-grid"
+            style={{
+              gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 300px), 1fr))",
+            }}
+          >
+            {NEWS_QUIZZES.map((q) => (
+              <Link key={q.slug} href={`/trivia/${q.slug}/`} className="quiz-card">
+                <h3 className="quiz-card-title" style={{ marginBottom: 6 }}>
+                  {q.title}
+                </h3>
+                <p className="quiz-card-desc">{q.seoDescription}</p>
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: "0.4rem 0.9rem",
+                    fontFamily: "var(--font-mono)",
+                    fontSize: "0.72rem",
+                    color: "var(--ink-mute)",
+                    marginTop: "auto",
+                    paddingTop: 6,
+                  }}
+                >
+                  <span>{q.questions.length} questions</span>
+                  <span>{formatWeekOf(q.weekOf)}</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <WeeklyFeatured />
 

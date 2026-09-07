@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { TESTS } from "@/lib/tests/registry";
 import { JURISDICTIONS } from "@/lib/driving/jurisdictions";
 import { TRIVIA_QUIZZES } from "@/lib/trivia/registry";
+import { NEWS_QUIZZES } from "@/lib/newsquiz/registry";
 import { SITE } from "@/lib/site";
 
 // Generated from the registries rather than hand-maintained.
@@ -69,5 +70,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: q.filterLetter !== undefined ? 0.65 : 0.8,
   }));
 
-  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages];
+  // News quiz editions: two fixed pages, re-published every week, so the
+  // sitemap's lastModified tracks the edition date rather than build time.
+  const newsQuizPages: MetadataRoute.Sitemap = NEWS_QUIZZES.map((q) => ({
+    url: `${base}/trivia/${q.slug}/`,
+    lastModified: new Date(q.weekOf),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages, ...newsQuizPages];
 }
