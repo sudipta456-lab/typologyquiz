@@ -305,6 +305,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "hawaii",
+    "name": "Hawaii",
+    "code": "HI",
+    "country": "US",
+    "licenceName": "Instruction Permit (Class 3)",
+    "intro": "Hawaii has no state DMV. Licensing is run by the four counties - the City and County of Honolulu, Hawaii County, Maui County and Kauai County - while the State publishes the book you are tested on, the State of Hawaii Driver's Manual, and the law behind it in Title 17 of the Hawaii Revised Statutes. The knowledge test is 30 multiple-choice questions and you may miss six. This bank is written from the 2023 printing of that manual, with the statute filling the gaps the book leaves and the places it has gone stale.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "idaho",
     "name": "Idaho",
     "code": "ID",
@@ -538,4 +549,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 9226;
+export const TOTAL_DRIVING_QUESTIONS = 9421;
