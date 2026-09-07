@@ -382,6 +382,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "novascotia",
+    "name": "Nova Scotia",
+    "code": "NS",
+    "country": "CA",
+    "licenceName": "Learner's Licence (Class 7)",
+    "intro": "Nova Scotia splits the Knowledge Test in two. One part is twenty questions on the rules of the road and safe driving, the other is twenty questions on what the signs mean, and you need sixteen right on each. You can sit it at home on a laptop with the webcam watching, or in person at an Access Nova Scotia office. These six sets work through the Driver's Handbook chapter by chapter, keep the signs half loaded the way the real pair of tests does, and flag every place where the 2017 book has fallen behind the rule the Registry actually enforces.",
+    "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "oklahoma",
     "name": "Oklahoma",
     "code": "OK",
@@ -461,4 +472,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 7861;
+export const TOTAL_DRIVING_QUESTIONS = 8056;

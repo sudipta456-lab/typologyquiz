@@ -1,0 +1,1994 @@
+{
+  "abs-braking": {
+    "height": 164,
+    "page": 142,
+    "src": "/handbook/novascotia/abs-braking.png",
+    "width": 503
+  },
+  "accessible-permit-mirror": {
+    "height": 164,
+    "page": 187,
+    "src": "/handbook/novascotia/accessible-permit-mirror.png",
+    "width": 491
+  },
+  "airbag-not-replace": {
+    "height": 138,
+    "page": 137,
+    "src": "/handbook/novascotia/airbag-not-replace.png",
+    "width": 501
+  },
+  "airbag-rear-facing": {
+    "height": 190,
+    "page": 137,
+    "src": "/handbook/novascotia/airbag-rear-facing.png",
+    "width": 501
+  },
+  "airbag-under-12": {
+    "height": 164,
+    "page": 137,
+    "src": "/handbook/novascotia/airbag-under-12.png",
+    "width": 501
+  },
+  "alcohol-assessment": {
+    "height": 187,
+    "page": 42,
+    "src": "/handbook/novascotia/alcohol-assessment.png",
+    "width": 505
+  },
+  "alcohol-feel-better": {
+    "height": 164,
+    "page": 170,
+    "src": "/handbook/novascotia/alcohol-feel-better.png",
+    "width": 479
+  },
+  "alcohol-first-drink": {
+    "height": 138,
+    "page": 169,
+    "src": "/handbook/novascotia/alcohol-first-drink.png",
+    "width": 488
+  },
+  "alcohol-no-coffee": {
+    "height": 164,
+    "page": 170,
+    "src": "/handbook/novascotia/alcohol-no-coffee.png",
+    "width": 499
+  },
+  "alcohol-only-time": {
+    "height": 138,
+    "page": 170,
+    "src": "/handbook/novascotia/alcohol-only-time.png",
+    "width": 499
+  },
+  "alcohol-standard-drink": {
+    "height": 190,
+    "page": 170,
+    "src": "/handbook/novascotia/alcohol-standard-drink.png",
+    "width": 499
+  },
+  "als-7day": {
+    "height": 271,
+    "page": 172,
+    "src": "/handbook/novascotia/als-7day.png",
+    "width": 213
+  },
+  "als-temporary": {
+    "height": 138,
+    "page": 172,
+    "src": "/handbook/novascotia/als-temporary.png",
+    "width": 496
+  },
+  "als-three-months": {
+    "height": 112,
+    "page": 172,
+    "src": "/handbook/novascotia/als-three-months.png",
+    "width": 488
+  },
+  "amend-collision-2000": {
+    "height": 138,
+    "page": 190,
+    "src": "/handbook/novascotia/amend-collision-2000.png",
+    "width": 459
+  },
+  "amend-school-zone": {
+    "height": 187,
+    "page": 68,
+    "src": "/handbook/novascotia/amend-school-zone.png",
+    "width": 505
+  },
+  "animals": {
+    "height": 190,
+    "page": 162,
+    "src": "/handbook/novascotia/animals.png",
+    "width": 475
+  },
+  "bac-08": {
+    "height": 190,
+    "page": 169,
+    "src": "/handbook/novascotia/bac-08.png",
+    "width": 488
+  },
+  "bac-below-08": {
+    "height": 190,
+    "page": 169,
+    "src": "/handbook/novascotia/bac-below-08.png",
+    "width": 488
+  },
+  "backing-safely": {
+    "height": 161,
+    "page": 77,
+    "src": "/handbook/novascotia/backing-safely.png",
+    "width": 473
+  },
+  "backing-seatbelt": {
+    "height": 213,
+    "page": 77,
+    "src": "/handbook/novascotia/backing-seatbelt.png",
+    "width": 305
+  },
+  "bike-doored": {
+    "height": 161,
+    "page": 88,
+    "src": "/handbook/novascotia/bike-doored.png",
+    "width": 392
+  },
+  "bike-helmet": {
+    "height": 135,
+    "page": 92,
+    "src": "/handbook/novascotia/bike-helmet.png",
+    "width": 506
+  },
+  "bike-intersections": {
+    "height": 187,
+    "page": 87,
+    "src": "/handbook/novascotia/bike-intersections.png",
+    "width": 475
+  },
+  "bike-left-cross": {
+    "height": 161,
+    "page": 88,
+    "src": "/handbook/novascotia/bike-left-cross.png",
+    "width": 395
+  },
+  "bike-lights": {
+    "height": 161,
+    "page": 92,
+    "src": "/handbook/novascotia/bike-lights.png",
+    "width": 486
+  },
+  "bike-parked-cars": {
+    "height": 213,
+    "page": 90,
+    "src": "/handbook/novascotia/bike-parked-cars.png",
+    "width": 215
+  },
+  "bike-right-hook": {
+    "height": 239,
+    "page": 88,
+    "src": "/handbook/novascotia/bike-right-hook.png",
+    "width": 408
+  },
+  "bike-same-rights": {
+    "height": 161,
+    "page": 87,
+    "src": "/handbook/novascotia/bike-same-rights.png",
+    "width": 504
+  },
+  "bike-same-rules": {
+    "height": 135,
+    "page": 86,
+    "src": "/handbook/novascotia/bike-same-rules.png",
+    "width": 491
+  },
+  "black-ice-distances": {
+    "height": 164,
+    "page": 156,
+    "src": "/handbook/novascotia/black-ice-distances.png",
+    "width": 501
+  },
+  "blind-spots": {
+    "height": 239,
+    "page": 65,
+    "src": "/handbook/novascotia/blind-spots.png",
+    "width": 499
+  },
+  "blowout": {
+    "height": 164,
+    "page": 160,
+    "src": "/handbook/novascotia/blowout.png",
+    "width": 488
+  },
+  "brake-failure": {
+    "height": 138,
+    "page": 160,
+    "src": "/handbook/novascotia/brake-failure.png",
+    "width": 502
+  },
+  "brake-lights-100m": {
+    "height": 138,
+    "page": 129,
+    "src": "/handbook/novascotia/brake-lights-100m.png",
+    "width": 481
+  },
+  "bridges-freeze": {
+    "height": 164,
+    "page": 156,
+    "src": "/handbook/novascotia/bridges-freeze.png",
+    "width": 484
+  },
+  "bus-amber": {
+    "height": 161,
+    "page": 85,
+    "src": "/handbook/novascotia/bus-amber.png",
+    "width": 506
+  },
+  "bus-hours": {
+    "height": 109,
+    "page": 85,
+    "src": "/handbook/novascotia/bus-hours.png",
+    "width": 506
+  },
+  "bus-no-pass": {
+    "height": 213,
+    "page": 85,
+    "src": "/handbook/novascotia/bus-no-pass.png",
+    "width": 506
+  },
+  "bus-red": {
+    "height": 213,
+    "page": 85,
+    "src": "/handbook/novascotia/bus-red.png",
+    "width": 506
+  },
+  "carry-licence": {
+    "height": 138,
+    "page": 191,
+    "src": "/handbook/novascotia/carry-licence.png",
+    "width": 480
+  },
+  "child-booster": {
+    "height": 320,
+    "page": 134,
+    "src": "/handbook/novascotia/child-booster.png",
+    "width": 501
+  },
+  "child-forward-facing": {
+    "height": 164,
+    "page": 134,
+    "src": "/handbook/novascotia/child-forward-facing.png",
+    "width": 501
+  },
+  "child-rear-facing": {
+    "height": 112,
+    "page": 134,
+    "src": "/handbook/novascotia/child-rear-facing.png",
+    "width": 501
+  },
+  "class5n-curfew": {
+    "height": 135,
+    "page": 33,
+    "src": "/handbook/novascotia/class5n-curfew.png",
+    "width": 506
+  },
+  "class5n-curfew-exception": {
+    "height": 187,
+    "page": 33,
+    "src": "/handbook/novascotia/class5n-curfew-exception.png",
+    "width": 506
+  },
+  "class5n-curfew-exemption": {
+    "height": 187,
+    "page": 34,
+    "src": "/handbook/novascotia/class5n-curfew-exemption.png",
+    "width": 491
+  },
+  "class5n-highways": {
+    "height": 164,
+    "page": 37,
+    "src": "/handbook/novascotia/class5n-highways.png",
+    "width": 494
+  },
+  "class5n-no-upgrade": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/novascotia/class5n-no-upgrade.png",
+    "width": 469
+  },
+  "class5n-passengers": {
+    "height": 161,
+    "page": 33,
+    "src": "/handbook/novascotia/class5n-passengers.png",
+    "width": 506
+  },
+  "class5n-six-points": {
+    "height": 135,
+    "page": 34,
+    "src": "/handbook/novascotia/class5n-six-points.png",
+    "width": 505
+  },
+  "class5n-two-years": {
+    "height": 161,
+    "page": 33,
+    "src": "/handbook/novascotia/class5n-two-years.png",
+    "width": 495
+  },
+  "class7-supervisor-class": {
+    "height": 265,
+    "page": 52,
+    "src": "/handbook/novascotia/class7-supervisor-class.png",
+    "width": 500
+  },
+  "climbing-lane": {
+    "height": 161,
+    "page": 103,
+    "src": "/handbook/novascotia/climbing-lane.png",
+    "width": 498
+  },
+  "climbing-lane-flashers": {
+    "height": 161,
+    "page": 103,
+    "src": "/handbook/novascotia/climbing-lane-flashers.png",
+    "width": 498
+  },
+  "collision-causes": {
+    "height": 164,
+    "page": 143,
+    "src": "/handbook/novascotia/collision-causes.png",
+    "width": 493
+  },
+  "collision-exchange": {
+    "height": 216,
+    "page": 165,
+    "src": "/handbook/novascotia/collision-exchange.png",
+    "width": 498
+  },
+  "collision-must-stop": {
+    "height": 138,
+    "page": 165,
+    "src": "/handbook/novascotia/collision-must-stop.png",
+    "width": 504
+  },
+  "collision-report-2000": {
+    "height": 112,
+    "page": 190,
+    "src": "/handbook/novascotia/collision-report-2000.png",
+    "width": 459
+  },
+  "collision-report-24h": {
+    "height": 190,
+    "page": 165,
+    "src": "/handbook/novascotia/collision-report-24h.png",
+    "width": 505
+  },
+  "collision-suspension": {
+    "height": 216,
+    "page": 166,
+    "src": "/handbook/novascotia/collision-suspension.png",
+    "width": 496
+  },
+  "collision-unattended": {
+    "height": 216,
+    "page": 166,
+    "src": "/handbook/novascotia/collision-unattended.png",
+    "width": 494
+  },
+  "commercial-60m": {
+    "height": 135,
+    "page": 85,
+    "src": "/handbook/novascotia/commercial-60m.png",
+    "width": 501
+  },
+  "crossing-guard": {
+    "height": 213,
+    "page": 59,
+    "src": "/handbook/novascotia/crossing-guard.png",
+    "width": 503
+  },
+  "curve-approach": {
+    "height": 135,
+    "page": 69,
+    "src": "/handbook/novascotia/curve-approach.png",
+    "width": 500
+  },
+  "curve-never-stop": {
+    "height": 161,
+    "page": 69,
+    "src": "/handbook/novascotia/curve-never-stop.png",
+    "width": 488
+  },
+  "defensive-driving": {
+    "height": 164,
+    "page": 144,
+    "src": "/handbook/novascotia/defensive-driving.png",
+    "width": 477
+  },
+  "demerit-no-deduction-novice": {
+    "height": 161,
+    "page": 48,
+    "src": "/handbook/novascotia/demerit-no-deduction-novice.png",
+    "width": 491
+  },
+  "demerit-two-years": {
+    "height": 135,
+    "page": 44,
+    "src": "/handbook/novascotia/demerit-two-years.png",
+    "width": 507
+  },
+  "distraction-list": {
+    "height": 164,
+    "page": 141,
+    "src": "/handbook/novascotia/distraction-list.png",
+    "width": 502
+  },
+  "drive-right": {
+    "height": 135,
+    "page": 63,
+    "src": "/handbook/novascotia/drive-right.png",
+    "width": 463
+  },
+  "driver-training-long": {
+    "height": 135,
+    "page": 29,
+    "src": "/handbook/novascotia/driver-training-long.png",
+    "width": 502
+  },
+  "driveway-sidewalk-stop": {
+    "height": 265,
+    "page": 82,
+    "src": "/handbook/novascotia/driveway-sidewalk-stop.png",
+    "width": 309
+  },
+  "driveway-yield": {
+    "height": 161,
+    "page": 62,
+    "src": "/handbook/novascotia/driveway-yield.png",
+    "width": 499
+  },
+  "driving-too-slowly": {
+    "height": 187,
+    "page": 65,
+    "src": "/handbook/novascotia/driving-too-slowly.png",
+    "width": 497
+  },
+  "drug-alcohol-mix": {
+    "height": 138,
+    "page": 171,
+    "src": "/handbook/novascotia/drug-alcohol-mix.png",
+    "width": 473
+  },
+  "drug-impairment": {
+    "height": 112,
+    "page": 171,
+    "src": "/handbook/novascotia/drug-impairment.png",
+    "width": 473
+  },
+  "emerg-150-follow": {
+    "height": 135,
+    "page": 62,
+    "src": "/handbook/novascotia/emerg-150-follow.png",
+    "width": 497
+  },
+  "emerg-150-park": {
+    "height": 187,
+    "page": 62,
+    "src": "/handbook/novascotia/emerg-150-park.png",
+    "width": 497
+  },
+  "emerg-fire-hose": {
+    "height": 187,
+    "page": 62,
+    "src": "/handbook/novascotia/emerg-fire-hose.png",
+    "width": 497
+  },
+  "emerg-median-exception": {
+    "height": 164,
+    "page": 8,
+    "src": "/handbook/novascotia/emerg-median-exception.png",
+    "width": 386
+  },
+  "emerg-move-over": {
+    "height": 190,
+    "page": 8,
+    "src": "/handbook/novascotia/emerg-move-over.png",
+    "width": 423
+  },
+  "emerg-pull-right": {
+    "height": 161,
+    "page": 62,
+    "src": "/handbook/novascotia/emerg-pull-right.png",
+    "width": 497
+  },
+  "emerg-remain-stopped": {
+    "height": 161,
+    "page": 62,
+    "src": "/handbook/novascotia/emerg-remain-stopped.png",
+    "width": 497
+  },
+  "emerg-right-of-way": {
+    "height": 187,
+    "page": 62,
+    "src": "/handbook/novascotia/emerg-right-of-way.png",
+    "width": 319
+  },
+  "emerg-slow-60": {
+    "height": 164,
+    "page": 8,
+    "src": "/handbook/novascotia/emerg-slow-60.png",
+    "width": 426
+  },
+  "emerg-tow-trucks": {
+    "height": 138,
+    "page": 8,
+    "src": "/handbook/novascotia/emerg-tow-trucks.png",
+    "width": 422
+  },
+  "emotions": {
+    "height": 138,
+    "page": 177,
+    "src": "/handbook/novascotia/emotions.png",
+    "width": 505
+  },
+  "experienced-driver-def": {
+    "height": 161,
+    "page": 27,
+    "src": "/handbook/novascotia/experienced-driver-def.png",
+    "width": 474
+  },
+  "fatigue": {
+    "height": 190,
+    "page": 179,
+    "src": "/handbook/novascotia/fatigue.png",
+    "width": 499
+  },
+  "fatigue-cruise": {
+    "height": 138,
+    "page": 179,
+    "src": "/handbook/novascotia/fatigue-cruise.png",
+    "width": 499
+  },
+  "fog-lowbeam": {
+    "height": 164,
+    "page": 153,
+    "src": "/handbook/novascotia/fog-lowbeam.png",
+    "width": 504
+  },
+  "four-wheel-drive": {
+    "height": 138,
+    "page": 157,
+    "src": "/handbook/novascotia/four-wheel-drive.png",
+    "width": 495
+  },
+  "frost-near-zero": {
+    "height": 138,
+    "page": 157,
+    "src": "/handbook/novascotia/frost-near-zero.png",
+    "width": 499
+  },
+  "gdl-all-ages": {
+    "height": 135,
+    "page": 20,
+    "src": "/handbook/novascotia/gdl-all-ages.png",
+    "width": 446
+  },
+  "gdl-exit": {
+    "height": 138,
+    "page": 7,
+    "src": "/handbook/novascotia/gdl-exit.png",
+    "width": 472
+  },
+  "gdl-no-supervising": {
+    "height": 216,
+    "page": 6,
+    "src": "/handbook/novascotia/gdl-no-supervising.png",
+    "width": 481
+  },
+  "gdl-restricted-rules": {
+    "height": 190,
+    "page": 6,
+    "src": "/handbook/novascotia/gdl-restricted-rules.png",
+    "width": 481
+  },
+  "gdl-restricted-two-years": {
+    "height": 164,
+    "page": 6,
+    "src": "/handbook/novascotia/gdl-restricted-two-years.png",
+    "width": 474
+  },
+  "gdl-stages-named": {
+    "height": 190,
+    "page": 6,
+    "src": "/handbook/novascotia/gdl-stages-named.png",
+    "width": 369
+  },
+  "gdl-third-stage": {
+    "height": 164,
+    "page": 6,
+    "src": "/handbook/novascotia/gdl-third-stage.png",
+    "width": 467
+  },
+  "gdl-three-levels": {
+    "height": 239,
+    "page": 20,
+    "src": "/handbook/novascotia/gdl-three-levels.png",
+    "width": 489
+  },
+  "hand-position": {
+    "height": 138,
+    "page": 139,
+    "src": "/handbook/novascotia/hand-position.png",
+    "width": 502
+  },
+  "hand-signals-60cm": {
+    "height": 213,
+    "page": 70,
+    "src": "/handbook/novascotia/hand-signals-60cm.png",
+    "width": 431
+  },
+  "head-restraint": {
+    "height": 164,
+    "page": 139,
+    "src": "/handbook/novascotia/head-restraint.png",
+    "width": 488
+  },
+  "headlights-not-parking": {
+    "height": 190,
+    "page": 129,
+    "src": "/handbook/novascotia/headlights-not-parking.png",
+    "width": 484
+  },
+  "headlights-visibility": {
+    "height": 190,
+    "page": 129,
+    "src": "/handbook/novascotia/headlights-visibility.png",
+    "width": 484
+  },
+  "headlights-when": {
+    "height": 164,
+    "page": 129,
+    "src": "/handbook/novascotia/headlights-when.png",
+    "width": 484
+  },
+  "highway-acceleration-lane": {
+    "height": 161,
+    "page": 84,
+    "src": "/handbook/novascotia/highway-acceleration-lane.png",
+    "width": 500
+  },
+  "highway-exit": {
+    "height": 187,
+    "page": 84,
+    "src": "/handbook/novascotia/highway-exit.png",
+    "width": 500
+  },
+  "highway-hypnosis": {
+    "height": 190,
+    "page": 145,
+    "src": "/handbook/novascotia/highway-hypnosis.png",
+    "width": 487
+  },
+  "highway-keep-right": {
+    "height": 109,
+    "page": 84,
+    "src": "/handbook/novascotia/highway-keep-right.png",
+    "width": 500
+  },
+  "highway-never-stop-lane": {
+    "height": 109,
+    "page": 84,
+    "src": "/handbook/novascotia/highway-never-stop-lane.png",
+    "width": 500
+  },
+  "highway-rest-areas": {
+    "height": 109,
+    "page": 84,
+    "src": "/handbook/novascotia/highway-rest-areas.png",
+    "width": 500
+  },
+  "hitchhiking": {
+    "height": 112,
+    "page": 137,
+    "src": "/handbook/novascotia/hitchhiking.png",
+    "width": 384
+  },
+  "horn-60m": {
+    "height": 164,
+    "page": 131,
+    "src": "/handbook/novascotia/horn-60m.png",
+    "width": 491
+  },
+  "horn-not-unnecessary": {
+    "height": 112,
+    "page": 131,
+    "src": "/handbook/novascotia/horn-not-unnecessary.png",
+    "width": 491
+  },
+  "horn-required": {
+    "height": 135,
+    "page": 70,
+    "src": "/handbook/novascotia/horn-required.png",
+    "width": 496
+  },
+  "hydroplaning": {
+    "height": 190,
+    "page": 155,
+    "src": "/handbook/novascotia/hydroplaning.png",
+    "width": 495
+  },
+  "impaired-criminal-penalty": {
+    "height": 164,
+    "page": 172,
+    "src": "/handbook/novascotia/impaired-criminal-penalty.png",
+    "width": 488
+  },
+  "impaired-first-offence": {
+    "height": 138,
+    "page": 173,
+    "src": "/handbook/novascotia/impaired-first-offence.png",
+    "width": 506
+  },
+  "impaired-fourth-offence": {
+    "height": 138,
+    "page": 174,
+    "src": "/handbook/novascotia/impaired-fourth-offence.png",
+    "width": 481
+  },
+  "impaired-gdl-restart": {
+    "height": 375,
+    "page": 173,
+    "src": "/handbook/novascotia/impaired-gdl-restart.png",
+    "width": 214
+  },
+  "impaired-prohibition": {
+    "height": 164,
+    "page": 172,
+    "src": "/handbook/novascotia/impaired-prohibition.png",
+    "width": 488
+  },
+  "impaired-second-offence": {
+    "height": 138,
+    "page": 173,
+    "src": "/handbook/novascotia/impaired-second-offence.png",
+    "width": 505
+  },
+  "impaired-third-offence": {
+    "height": 138,
+    "page": 174,
+    "src": "/handbook/novascotia/impaired-third-offence.png",
+    "width": 505
+  },
+  "inspection-annual": {
+    "height": 164,
+    "page": 124,
+    "src": "/handbook/novascotia/inspection-annual.png",
+    "width": 492
+  },
+  "inspection-fail-10-days": {
+    "height": 164,
+    "page": 188,
+    "src": "/handbook/novascotia/inspection-fail-10-days.png",
+    "width": 473
+  },
+  "insurance-carry": {
+    "height": 164,
+    "page": 190,
+    "src": "/handbook/novascotia/insurance-carry.png",
+    "width": 497
+  },
+  "insurance-fine": {
+    "height": 138,
+    "page": 190,
+    "src": "/handbook/novascotia/insurance-fine.png",
+    "width": 470
+  },
+  "insurance-minimum": {
+    "height": 164,
+    "page": 189,
+    "src": "/handbook/novascotia/insurance-minimum.png",
+    "width": 500
+  },
+  "intersection-def": {
+    "height": 135,
+    "page": 59,
+    "src": "/handbook/novascotia/intersection-def.png",
+    "width": 496
+  },
+  "learner-carry-licence": {
+    "height": 135,
+    "page": 26,
+    "src": "/handbook/novascotia/learner-carry-licence.png",
+    "width": 504
+  },
+  "learner-consent": {
+    "height": 187,
+    "page": 23,
+    "src": "/handbook/novascotia/learner-consent.png",
+    "width": 504
+  },
+  "learner-expiry-rewrite": {
+    "height": 216,
+    "page": 7,
+    "src": "/handbook/novascotia/learner-expiry-rewrite.png",
+    "width": 445
+  },
+  "learner-expiry-two-years": {
+    "height": 138,
+    "page": 7,
+    "src": "/handbook/novascotia/learner-expiry-two-years.png",
+    "width": 445
+  },
+  "learner-four-points": {
+    "height": 187,
+    "page": 27,
+    "src": "/handbook/novascotia/learner-four-points.png",
+    "width": 320
+  },
+  "learner-no-motorcycle": {
+    "height": 161,
+    "page": 37,
+    "src": "/handbook/novascotia/learner-no-motorcycle.png",
+    "width": 450
+  },
+  "learner-restrictions": {
+    "height": 135,
+    "page": 27,
+    "src": "/handbook/novascotia/learner-restrictions.png",
+    "width": 474
+  },
+  "learner-supervisor-seat": {
+    "height": 161,
+    "page": 37,
+    "src": "/handbook/novascotia/learner-supervisor-seat.png",
+    "width": 496
+  },
+  "learner-who-can-apply": {
+    "height": 109,
+    "page": 23,
+    "src": "/handbook/novascotia/learner-who-can-apply.png",
+    "width": 473
+  },
+  "learner-zero-bac": {
+    "height": 187,
+    "page": 27,
+    "src": "/handbook/novascotia/learner-zero-bac.png",
+    "width": 297
+  },
+  "left-lane-camping": {
+    "height": 239,
+    "page": 63,
+    "src": "/handbook/novascotia/left-lane-camping.png",
+    "width": 502
+  },
+  "left-turn-wheels-straight": {
+    "height": 187,
+    "page": 61,
+    "src": "/handbook/novascotia/left-turn-wheels-straight.png",
+    "width": 498
+  },
+  "lic-must-have": {
+    "height": 161,
+    "page": 20,
+    "src": "/handbook/novascotia/lic-must-have.png",
+    "width": 490
+  },
+  "load-after-dark": {
+    "height": 164,
+    "page": 147,
+    "src": "/handbook/novascotia/load-after-dark.png",
+    "width": 501
+  },
+  "load-red-flag": {
+    "height": 164,
+    "page": 147,
+    "src": "/handbook/novascotia/load-red-flag.png",
+    "width": 504
+  },
+  "marking-broken-yellow": {
+    "height": 213,
+    "page": 101,
+    "src": "/handbook/novascotia/marking-broken-yellow.png",
+    "width": 498
+  },
+  "marking-broken-your-side": {
+    "height": 213,
+    "page": 101,
+    "src": "/handbook/novascotia/marking-broken-your-side.png",
+    "width": 498
+  },
+  "marking-colours": {
+    "height": 187,
+    "page": 101,
+    "src": "/handbook/novascotia/marking-colours.png",
+    "width": 498
+  },
+  "marking-continuity": {
+    "height": 161,
+    "page": 103,
+    "src": "/handbook/novascotia/marking-continuity.png",
+    "width": 303
+  },
+  "marking-double-solid": {
+    "height": 187,
+    "page": 101,
+    "src": "/handbook/novascotia/marking-double-solid.png",
+    "width": 498
+  },
+  "marking-edge-lines": {
+    "height": 213,
+    "page": 102,
+    "src": "/handbook/novascotia/marking-edge-lines.png",
+    "width": 501
+  },
+  "marking-single-yellow": {
+    "height": 161,
+    "page": 102,
+    "src": "/handbook/novascotia/marking-single-yellow.png",
+    "width": 484
+  },
+  "marking-two-way-left": {
+    "height": 213,
+    "page": 104,
+    "src": "/handbook/novascotia/marking-two-way-left.png",
+    "width": 487
+  },
+  "moto-full-lane": {
+    "height": 109,
+    "page": 86,
+    "src": "/handbook/novascotia/moto-full-lane.png",
+    "width": 506
+  },
+  "moto-not-seen": {
+    "height": 161,
+    "page": 86,
+    "src": "/handbook/novascotia/moto-not-seen.png",
+    "width": 506
+  },
+  "new-resident-30-days": {
+    "height": 138,
+    "page": 184,
+    "src": "/handbook/novascotia/new-resident-30-days.png",
+    "width": 488
+  },
+  "night-city-lowbeam": {
+    "height": 242,
+    "page": 152,
+    "src": "/handbook/novascotia/night-city-lowbeam.png",
+    "width": 310
+  },
+  "night-dim-distance": {
+    "height": 216,
+    "page": 152,
+    "src": "/handbook/novascotia/night-dim-distance.png",
+    "width": 310
+  },
+  "night-keep-lowbeam": {
+    "height": 138,
+    "page": 153,
+    "src": "/handbook/novascotia/night-keep-lowbeam.png",
+    "width": 489
+  },
+  "night-look-right": {
+    "height": 138,
+    "page": 153,
+    "src": "/handbook/novascotia/night-look-right.png",
+    "width": 489
+  },
+  "no-drive-suspended": {
+    "height": 138,
+    "page": 182,
+    "src": "/handbook/novascotia/no-drive-suspended.png",
+    "width": 502
+  },
+  "no-lane-change-in-intersection": {
+    "height": 161,
+    "page": 61,
+    "src": "/handbook/novascotia/no-lane-change-in-intersection.png",
+    "width": 498
+  },
+  "no-pass-stopped-at-crosswalk": {
+    "height": 135,
+    "page": 61,
+    "src": "/handbook/novascotia/no-pass-stopped-at-crosswalk.png",
+    "width": 502
+  },
+  "ornaments": {
+    "height": 164,
+    "page": 131,
+    "src": "/handbook/novascotia/ornaments.png",
+    "width": 494
+  },
+  "oversize-permit": {
+    "height": 112,
+    "page": 148,
+    "src": "/handbook/novascotia/oversize-permit.png",
+    "width": 494
+  },
+  "park-15cm": {
+    "height": 161,
+    "page": 78,
+    "src": "/handbook/novascotia/park-15cm.png",
+    "width": 502
+  },
+  "park-24-hours": {
+    "height": 161,
+    "page": 78,
+    "src": "/handbook/novascotia/park-24-hours.png",
+    "width": 502
+  },
+  "park-accessible": {
+    "height": 135,
+    "page": 78,
+    "src": "/handbook/novascotia/park-accessible.png",
+    "width": 503
+  },
+  "park-angle-out": {
+    "height": 135,
+    "page": 80,
+    "src": "/handbook/novascotia/park-angle-out.png",
+    "width": 470
+  },
+  "park-beacon-10m": {
+    "height": 161,
+    "page": 78,
+    "src": "/handbook/novascotia/park-beacon-10m.png",
+    "width": 503
+  },
+  "park-crosswalk-5m": {
+    "height": 109,
+    "page": 78,
+    "src": "/handbook/novascotia/park-crosswalk-5m.png",
+    "width": 503
+  },
+  "park-double": {
+    "height": 135,
+    "page": 78,
+    "src": "/handbook/novascotia/park-double.png",
+    "width": 503
+  },
+  "park-hill-crest": {
+    "height": 135,
+    "page": 78,
+    "src": "/handbook/novascotia/park-hill-crest.png",
+    "width": 503
+  },
+  "park-hill-wheels": {
+    "height": 161,
+    "page": 81,
+    "src": "/handbook/novascotia/park-hill-wheels.png",
+    "width": 304
+  },
+  "park-hill-why": {
+    "height": 161,
+    "page": 81,
+    "src": "/handbook/novascotia/park-hill-why.png",
+    "width": 489
+  },
+  "park-hydrant-5m": {
+    "height": 135,
+    "page": 78,
+    "src": "/handbook/novascotia/park-hydrant-5m.png",
+    "width": 503
+  },
+  "park-intersection-75": {
+    "height": 109,
+    "page": 78,
+    "src": "/handbook/novascotia/park-intersection-75.png",
+    "width": 503
+  },
+  "park-manual-gear": {
+    "height": 187,
+    "page": 79,
+    "src": "/handbook/novascotia/park-manual-gear.png",
+    "width": 308
+  },
+  "park-no-curb": {
+    "height": 187,
+    "page": 81,
+    "src": "/handbook/novascotia/park-no-curb.png",
+    "width": 489
+  },
+  "park-railway-15m": {
+    "height": 109,
+    "page": 78,
+    "src": "/handbook/novascotia/park-railway-15m.png",
+    "width": 503
+  },
+  "park-unattended": {
+    "height": 135,
+    "page": 78,
+    "src": "/handbook/novascotia/park-unattended.png",
+    "width": 502
+  },
+  "pass-at-night": {
+    "height": 135,
+    "page": 74,
+    "src": "/handbook/novascotia/pass-at-night.png",
+    "width": 295
+  },
+  "pass-being-passed": {
+    "height": 187,
+    "page": 74,
+    "src": "/handbook/novascotia/pass-being-passed.png",
+    "width": 497
+  },
+  "pass-do-not-speed": {
+    "height": 109,
+    "page": 75,
+    "src": "/handbook/novascotia/pass-do-not-speed.png",
+    "width": 504
+  },
+  "pass-double-yellow": {
+    "height": 109,
+    "page": 76,
+    "src": "/handbook/novascotia/pass-double-yellow.png",
+    "width": 505
+  },
+  "pass-left-return": {
+    "height": 213,
+    "page": 74,
+    "src": "/handbook/novascotia/pass-left-return.png",
+    "width": 493
+  },
+  "pass-never-second": {
+    "height": 239,
+    "page": 74,
+    "src": "/handbook/novascotia/pass-never-second.png",
+    "width": 493
+  },
+  "pass-not-safe-if-slow": {
+    "height": 135,
+    "page": 75,
+    "src": "/handbook/novascotia/pass-not-safe-if-slow.png",
+    "width": 482
+  },
+  "pass-on-right": {
+    "height": 135,
+    "page": 76,
+    "src": "/handbook/novascotia/pass-on-right.png",
+    "width": 485
+  },
+  "pass-signal-horn": {
+    "height": 161,
+    "page": 74,
+    "src": "/handbook/novascotia/pass-signal-horn.png",
+    "width": 497
+  },
+  "pass-unsafe-places": {
+    "height": 135,
+    "page": 76,
+    "src": "/handbook/novascotia/pass-unsafe-places.png",
+    "width": 505
+  },
+  "passed-must-help": {
+    "height": 187,
+    "page": 76,
+    "src": "/handbook/novascotia/passed-must-help.png",
+    "width": 492
+  },
+  "passengers-curb": {
+    "height": 164,
+    "page": 137,
+    "src": "/handbook/novascotia/passengers-curb.png",
+    "width": 493
+  },
+  "ped-finish-crossing": {
+    "height": 161,
+    "page": 60,
+    "src": "/handbook/novascotia/ped-finish-crossing.png",
+    "width": 505
+  },
+  "ped-green-priority": {
+    "height": 213,
+    "page": 60,
+    "src": "/handbook/novascotia/ped-green-priority.png",
+    "width": 505
+  },
+  "ped-no-signals": {
+    "height": 213,
+    "page": 60,
+    "src": "/handbook/novascotia/ped-no-signals.png",
+    "width": 505
+  },
+  "permit-carried": {
+    "height": 164,
+    "page": 185,
+    "src": "/handbook/novascotia/permit-carried.png",
+    "width": 504
+  },
+  "plate-light": {
+    "height": 138,
+    "page": 129,
+    "src": "/handbook/novascotia/plate-light.png",
+    "width": 490
+  },
+  "plate-rear": {
+    "height": 164,
+    "page": 185,
+    "src": "/handbook/novascotia/plate-rear.png",
+    "width": 504
+  },
+  "power-lines": {
+    "height": 138,
+    "page": 163,
+    "src": "/handbook/novascotia/power-lines.png",
+    "width": 504
+  },
+  "power-lines-jump": {
+    "height": 190,
+    "page": 163,
+    "src": "/handbook/novascotia/power-lines-jump.png",
+    "width": 504
+  },
+  "probation-licence": {
+    "height": 187,
+    "page": 48,
+    "src": "/handbook/novascotia/probation-licence.png",
+    "width": 503
+  },
+  "railway-flashing-red": {
+    "height": 187,
+    "page": 98,
+    "src": "/handbook/novascotia/railway-flashing-red.png",
+    "width": 498
+  },
+  "railway-keep-moving": {
+    "height": 213,
+    "page": 99,
+    "src": "/handbook/novascotia/railway-keep-moving.png",
+    "width": 500
+  },
+  "railway-second-train": {
+    "height": 161,
+    "page": 98,
+    "src": "/handbook/novascotia/railway-second-train.png",
+    "width": 498
+  },
+  "railway-stalled": {
+    "height": 135,
+    "page": 99,
+    "src": "/handbook/novascotia/railway-stalled.png",
+    "width": 489
+  },
+  "railway-stopping-distance": {
+    "height": 161,
+    "page": 99,
+    "src": "/handbook/novascotia/railway-stopping-distance.png",
+    "width": 469
+  },
+  "rain-first-minutes": {
+    "height": 164,
+    "page": 155,
+    "src": "/handbook/novascotia/rain-first-minutes.png",
+    "width": 502
+  },
+  "rain-four-seconds": {
+    "height": 138,
+    "page": 155,
+    "src": "/handbook/novascotia/rain-four-seconds.png",
+    "width": 500
+  },
+  "rain-slippery-multiplier": {
+    "height": 138,
+    "page": 155,
+    "src": "/handbook/novascotia/rain-slippery-multiplier.png",
+    "width": 500
+  },
+  "refuse-breath": {
+    "height": 164,
+    "page": 170,
+    "src": "/handbook/novascotia/refuse-breath.png",
+    "width": 499
+  },
+  "reg-four-conditions": {
+    "height": 190,
+    "page": 182,
+    "src": "/handbook/novascotia/reg-four-conditions.png",
+    "width": 499
+  },
+  "reg-third-party": {
+    "height": 164,
+    "page": 182,
+    "src": "/handbook/novascotia/reg-third-party.png",
+    "width": 499
+  },
+  "renew-five-years": {
+    "height": 135,
+    "page": 40,
+    "src": "/handbook/novascotia/renew-five-years.png",
+    "width": 499
+  },
+  "revoke-fail-to-stop": {
+    "height": 135,
+    "page": 41,
+    "src": "/handbook/novascotia/revoke-fail-to-stop.png",
+    "width": 507
+  },
+  "road-test-fail-wait": {
+    "height": 161,
+    "page": 32,
+    "src": "/handbook/novascotia/road-test-fail-wait.png",
+    "width": 349
+  },
+  "road-test-wait": {
+    "height": 135,
+    "page": 30,
+    "src": "/handbook/novascotia/road-test-wait.png",
+    "width": 480
+  },
+  "roadside-screening": {
+    "height": 138,
+    "page": 170,
+    "src": "/handbook/novascotia/roadside-screening.png",
+    "width": 499
+  },
+  "roadside-warn": {
+    "height": 268,
+    "page": 170,
+    "src": "/handbook/novascotia/roadside-warn.png",
+    "width": 499
+  },
+  "roundabout-direction": {
+    "height": 187,
+    "page": 82,
+    "src": "/handbook/novascotia/roundabout-direction.png",
+    "width": 481
+  },
+  "roundabout-inside-lane": {
+    "height": 135,
+    "page": 82,
+    "src": "/handbook/novascotia/roundabout-inside-lane.png",
+    "width": 500
+  },
+  "roundabout-speed": {
+    "height": 135,
+    "page": 81,
+    "src": "/handbook/novascotia/roundabout-speed.png",
+    "width": 502
+  },
+  "roundabout-yield": {
+    "height": 161,
+    "page": 81,
+    "src": "/handbook/novascotia/roundabout-yield.png",
+    "width": 505
+  },
+  "row-already-in": {
+    "height": 161,
+    "page": 61,
+    "src": "/handbook/novascotia/row-already-in.png",
+    "width": 456
+  },
+  "row-car-to-left": {
+    "height": 161,
+    "page": 61,
+    "src": "/handbook/novascotia/row-car-to-left.png",
+    "width": 502
+  },
+  "row-left-turn-yields": {
+    "height": 265,
+    "page": 61,
+    "src": "/handbook/novascotia/row-left-turn-yields.png",
+    "width": 502
+  },
+  "safety-scan": {
+    "height": 187,
+    "page": 65,
+    "src": "/handbook/novascotia/safety-scan.png",
+    "width": 497
+  },
+  "school-zone-50": {
+    "height": 135,
+    "page": 86,
+    "src": "/handbook/novascotia/school-zone-50.png",
+    "width": 466
+  },
+  "school-zone-sign": {
+    "height": 109,
+    "page": 97,
+    "src": "/handbook/novascotia/school-zone-sign.png",
+    "width": 503
+  },
+  "school-zone-speed": {
+    "height": 187,
+    "page": 68,
+    "src": "/handbook/novascotia/school-zone-speed.png",
+    "width": 505
+  },
+  "seatbelt-16": {
+    "height": 190,
+    "page": 134,
+    "src": "/handbook/novascotia/seatbelt-16.png",
+    "width": 495
+  },
+  "seatbelt-driver-responsible": {
+    "height": 164,
+    "page": 134,
+    "src": "/handbook/novascotia/seatbelt-driver-responsible.png",
+    "width": 501
+  },
+  "seatbelt-lap": {
+    "height": 164,
+    "page": 136,
+    "src": "/handbook/novascotia/seatbelt-lap.png",
+    "width": 489
+  },
+  "sign-100-series": {
+    "height": 187,
+    "page": 111,
+    "src": "/handbook/novascotia/sign-100-series.png",
+    "width": 235
+  },
+  "sign-accessible-parking": {
+    "height": 187,
+    "page": 100,
+    "src": "/handbook/novascotia/sign-accessible-parking.png",
+    "width": 502
+  },
+  "sign-checkerboard": {
+    "height": 291,
+    "page": 109,
+    "src": "/handbook/novascotia/sign-checkerboard.png",
+    "width": 408
+  },
+  "sign-chevron": {
+    "height": 213,
+    "page": 110,
+    "src": "/handbook/novascotia/sign-chevron.png",
+    "width": 209
+  },
+  "sign-circles": {
+    "height": 189,
+    "page": 96,
+    "src": "/handbook/novascotia/sign-circles.png",
+    "width": 191
+  },
+  "sign-crossbuck": {
+    "height": 135,
+    "page": 98,
+    "src": "/handbook/novascotia/sign-crossbuck.png",
+    "width": 485
+  },
+  "sign-deface": {
+    "height": 135,
+    "page": 120,
+    "src": "/handbook/novascotia/sign-deface.png",
+    "width": 568
+  },
+  "sign-divided-ends": {
+    "height": 291,
+    "page": 108,
+    "src": "/handbook/novascotia/sign-divided-ends.png",
+    "width": 408
+  },
+  "sign-green-red-circle": {
+    "height": 161,
+    "page": 100,
+    "src": "/handbook/novascotia/sign-green-red-circle.png",
+    "width": 494
+  },
+  "sign-guidance": {
+    "height": 161,
+    "page": 100,
+    "src": "/handbook/novascotia/sign-guidance.png",
+    "width": 496
+  },
+  "sign-hazard-marker": {
+    "height": 187,
+    "page": 107,
+    "src": "/handbook/novascotia/sign-hazard-marker.png",
+    "width": 206
+  },
+  "sign-hidden-intersection": {
+    "height": 317,
+    "page": 108,
+    "src": "/handbook/novascotia/sign-hidden-intersection.png",
+    "width": 215
+  },
+  "sign-max-speed-tab": {
+    "height": 343,
+    "page": 107,
+    "src": "/handbook/novascotia/sign-max-speed-tab.png",
+    "width": 205
+  },
+  "sign-narrow-structure": {
+    "height": 343,
+    "page": 109,
+    "src": "/handbook/novascotia/sign-narrow-structure.png",
+    "width": 209
+  },
+  "sign-no-right-on-red": {
+    "height": 187,
+    "page": 106,
+    "src": "/handbook/novascotia/sign-no-right-on-red.png",
+    "width": 214
+  },
+  "sign-other-regulatory": {
+    "height": 135,
+    "page": 100,
+    "src": "/handbook/novascotia/sign-other-regulatory.png",
+    "width": 504
+  },
+  "sign-playground": {
+    "height": 187,
+    "page": 105,
+    "src": "/handbook/novascotia/sign-playground.png",
+    "width": 217
+  },
+  "sign-railway-advance": {
+    "height": 135,
+    "page": 98,
+    "src": "/handbook/novascotia/sign-railway-advance.png",
+    "width": 474
+  },
+  "sign-railway-tracks-count": {
+    "height": 135,
+    "page": 98,
+    "src": "/handbook/novascotia/sign-railway-tracks-count.png",
+    "width": 485
+  },
+  "sign-regulatory-def": {
+    "height": 161,
+    "page": 97,
+    "src": "/handbook/novascotia/sign-regulatory-def.png",
+    "width": 505
+  },
+  "sign-stop": {
+    "height": 161,
+    "page": 97,
+    "src": "/handbook/novascotia/sign-stop.png",
+    "width": 499
+  },
+  "sign-stop-meaning": {
+    "height": 187,
+    "page": 97,
+    "src": "/handbook/novascotia/sign-stop-meaning.png",
+    "width": 499
+  },
+  "sign-stop-no-line": {
+    "height": 161,
+    "page": 97,
+    "src": "/handbook/novascotia/sign-stop-no-line.png",
+    "width": 499
+  },
+  "sign-warning-merge": {
+    "height": 213,
+    "page": 100,
+    "src": "/handbook/novascotia/sign-warning-merge.png",
+    "width": 492
+  },
+  "sign-warning-shape": {
+    "height": 135,
+    "page": 100,
+    "src": "/handbook/novascotia/sign-warning-shape.png",
+    "width": 504
+  },
+  "sign-yield": {
+    "height": 213,
+    "page": 97,
+    "src": "/handbook/novascotia/sign-yield.png",
+    "width": 478
+  },
+  "signal-amber": {
+    "height": 187,
+    "page": 56,
+    "src": "/handbook/novascotia/signal-amber.png",
+    "width": 504
+  },
+  "signal-amber-tip": {
+    "height": 161,
+    "page": 57,
+    "src": "/handbook/novascotia/signal-amber-tip.png",
+    "width": 501
+  },
+  "signal-dead": {
+    "height": 187,
+    "page": 56,
+    "src": "/handbook/novascotia/signal-dead.png",
+    "width": 446
+  },
+  "signal-flashing-amber": {
+    "height": 161,
+    "page": 57,
+    "src": "/handbook/novascotia/signal-flashing-amber.png",
+    "width": 505
+  },
+  "signal-flashing-green": {
+    "height": 135,
+    "page": 58,
+    "src": "/handbook/novascotia/signal-flashing-green.png",
+    "width": 448
+  },
+  "signal-flashing-red": {
+    "height": 239,
+    "page": 57,
+    "src": "/handbook/novascotia/signal-flashing-red.png",
+    "width": 505
+  },
+  "signal-green": {
+    "height": 187,
+    "page": 56,
+    "src": "/handbook/novascotia/signal-green.png",
+    "width": 504
+  },
+  "signal-green-arrow": {
+    "height": 161,
+    "page": 57,
+    "src": "/handbook/novascotia/signal-green-arrow.png",
+    "width": 460
+  },
+  "signal-green-left": {
+    "height": 161,
+    "page": 56,
+    "src": "/handbook/novascotia/signal-green-left.png",
+    "width": 504
+  },
+  "signal-lane-control": {
+    "height": 187,
+    "page": 58,
+    "src": "/handbook/novascotia/signal-lane-control.png",
+    "width": 504
+  },
+  "signal-left-on-red": {
+    "height": 161,
+    "page": 57,
+    "src": "/handbook/novascotia/signal-left-on-red.png",
+    "width": 501
+  },
+  "signal-lights-when": {
+    "height": 190,
+    "page": 130,
+    "src": "/handbook/novascotia/signal-lights-when.png",
+    "width": 503
+  },
+  "signal-never-beat": {
+    "height": 109,
+    "page": 57,
+    "src": "/handbook/novascotia/signal-never-beat.png",
+    "width": 501
+  },
+  "signal-no-right-of-way": {
+    "height": 135,
+    "page": 70,
+    "src": "/handbook/novascotia/signal-no-right-of-way.png",
+    "width": 397
+  },
+  "signal-red": {
+    "height": 187,
+    "page": 56,
+    "src": "/handbook/novascotia/signal-red.png",
+    "width": 504
+  },
+  "signal-right-on-red": {
+    "height": 161,
+    "page": 57,
+    "src": "/handbook/novascotia/signal-right-on-red.png",
+    "width": 501
+  },
+  "skid-recovery": {
+    "height": 164,
+    "page": 162,
+    "src": "/handbook/novascotia/skid-recovery.png",
+    "width": 503
+  },
+  "slow-keep-right": {
+    "height": 161,
+    "page": 63,
+    "src": "/handbook/novascotia/slow-keep-right.png",
+    "width": 463
+  },
+  "slow-moving-sign": {
+    "height": 216,
+    "page": 146,
+    "src": "/handbook/novascotia/slow-moving-sign.png",
+    "width": 490
+  },
+  "snow-halve-speed": {
+    "height": 138,
+    "page": 156,
+    "src": "/handbook/novascotia/snow-halve-speed.png",
+    "width": 500
+  },
+  "snow-plow-wing": {
+    "height": 138,
+    "page": 164,
+    "src": "/handbook/novascotia/snow-plow-wing.png",
+    "width": 504
+  },
+  "snow-plows": {
+    "height": 138,
+    "page": 164,
+    "src": "/handbook/novascotia/snow-plows.png",
+    "width": 504
+  },
+  "special-lights-blue": {
+    "height": 164,
+    "page": 131,
+    "src": "/handbook/novascotia/special-lights-blue.png",
+    "width": 487
+  },
+  "special-lights-red": {
+    "height": 138,
+    "page": 131,
+    "src": "/handbook/novascotia/special-lights-red.png",
+    "width": 500
+  },
+  "speed-50-list": {
+    "height": 135,
+    "page": 68,
+    "src": "/handbook/novascotia/speed-50-list.png",
+    "width": 505
+  },
+  "speed-50-obstructed": {
+    "height": 161,
+    "page": 68,
+    "src": "/handbook/novascotia/speed-50-obstructed.png",
+    "width": 505
+  },
+  "speed-50-railway": {
+    "height": 109,
+    "page": 68,
+    "src": "/handbook/novascotia/speed-50-railway.png",
+    "width": 505
+  },
+  "speed-default-80": {
+    "height": 161,
+    "page": 67,
+    "src": "/handbook/novascotia/speed-default-80.png",
+    "width": 489
+  },
+  "speed-reasonable": {
+    "height": 161,
+    "page": 67,
+    "src": "/handbook/novascotia/speed-reasonable.png",
+    "width": 500
+  },
+  "steer-over-40": {
+    "height": 164,
+    "page": 142,
+    "src": "/handbook/novascotia/steer-over-40.png",
+    "width": 496
+  },
+  "stopping-80": {
+    "height": 187,
+    "page": 64,
+    "src": "/handbook/novascotia/stopping-80.png",
+    "width": 320
+  },
+  "stuck-gas-pedal": {
+    "height": 190,
+    "page": 161,
+    "src": "/handbook/novascotia/stuck-gas-pedal.png",
+    "width": 484
+  },
+  "studded-tires": {
+    "height": 164,
+    "page": 126,
+    "src": "/handbook/novascotia/studded-tires.png",
+    "width": 394
+  },
+  "suspend-lend-licence": {
+    "height": 109,
+    "page": 43,
+    "src": "/handbook/novascotia/suspend-lend-licence.png",
+    "width": 498
+  },
+  "temporary-permit": {
+    "height": 164,
+    "page": 187,
+    "src": "/handbook/novascotia/temporary-permit.png",
+    "width": 340
+  },
+  "test-two-written": {
+    "height": 213,
+    "page": 24,
+    "src": "/handbook/novascotia/test-two-written.png",
+    "width": 503
+  },
+  "threshold-braking": {
+    "height": 164,
+    "page": 142,
+    "src": "/handbook/novascotia/threshold-braking.png",
+    "width": 501
+  },
+  "tire-tread": {
+    "height": 112,
+    "page": 126,
+    "src": "/handbook/novascotia/tire-tread.png",
+    "width": 411
+  },
+  "trailer-no-passengers": {
+    "height": 164,
+    "page": 137,
+    "src": "/handbook/novascotia/trailer-no-passengers.png",
+    "width": 504
+  },
+  "trailer-one": {
+    "height": 138,
+    "page": 147,
+    "src": "/handbook/novascotia/trailer-one.png",
+    "width": 505
+  },
+  "transit-bus-60": {
+    "height": 190,
+    "page": 9,
+    "src": "/handbook/novascotia/transit-bus-60.png",
+    "width": 420
+  },
+  "transit-bus-yield": {
+    "height": 190,
+    "page": 9,
+    "src": "/handbook/novascotia/transit-bus-yield.png",
+    "width": 443
+  },
+  "trouble-pull-over": {
+    "height": 190,
+    "page": 159,
+    "src": "/handbook/novascotia/trouble-pull-over.png",
+    "width": 504
+  },
+  "truck-blind-spots": {
+    "height": 164,
+    "page": 154,
+    "src": "/handbook/novascotia/truck-blind-spots.png",
+    "width": 500
+  },
+  "truck-cargo-seats": {
+    "height": 164,
+    "page": 137,
+    "src": "/handbook/novascotia/truck-cargo-seats.png",
+    "width": 504
+  },
+  "truck-mirror-rule": {
+    "height": 164,
+    "page": 154,
+    "src": "/handbook/novascotia/truck-mirror-rule.png",
+    "width": 497
+  },
+  "turn-lane-discipline": {
+    "height": 161,
+    "page": 72,
+    "src": "/handbook/novascotia/turn-lane-discipline.png",
+    "width": 506
+  },
+  "turn-left-yield": {
+    "height": 187,
+    "page": 71,
+    "src": "/handbook/novascotia/turn-left-yield.png",
+    "width": 311
+  },
+  "turn-right-close": {
+    "height": 213,
+    "page": 71,
+    "src": "/handbook/novascotia/turn-right-close.png",
+    "width": 491
+  },
+  "two-second-count": {
+    "height": 239,
+    "page": 66,
+    "src": "/handbook/novascotia/two-second-count.png",
+    "width": 502
+  },
+  "two-second-more": {
+    "height": 213,
+    "page": 66,
+    "src": "/handbook/novascotia/two-second-more.png",
+    "width": 498
+  },
+  "two-second-rule": {
+    "height": 135,
+    "page": 66,
+    "src": "/handbook/novascotia/two-second-rule.png",
+    "width": 502
+  },
+  "unfit-illegal": {
+    "height": 138,
+    "page": 125,
+    "src": "/handbook/novascotia/unfit-illegal.png",
+    "width": 487
+  },
+  "unmarked-crosswalk": {
+    "height": 239,
+    "page": 59,
+    "src": "/handbook/novascotia/unmarked-crosswalk.png",
+    "width": 301
+  },
+  "upgrade-six-months": {
+    "height": 161,
+    "page": 33,
+    "src": "/handbook/novascotia/upgrade-six-months.png",
+    "width": 456
+  },
+  "vehicle-fire-30m": {
+    "height": 138,
+    "page": 161,
+    "src": "/handbook/novascotia/vehicle-fire-30m.png",
+    "width": 504
+  },
+  "vehicle-fire-extinguisher": {
+    "height": 138,
+    "page": 161,
+    "src": "/handbook/novascotia/vehicle-fire-extinguisher.png",
+    "width": 504
+  },
+  "vision-class5": {
+    "height": 190,
+    "page": 178,
+    "src": "/handbook/novascotia/vision-class5.png",
+    "width": 487
+  },
+  "visitor-90-days": {
+    "height": 213,
+    "page": 21,
+    "src": "/handbook/novascotia/visitor-90-days.png",
+    "width": 491
+  },
+  "walk-facing-traffic": {
+    "height": 138,
+    "page": 137,
+    "src": "/handbook/novascotia/walk-facing-traffic.png",
+    "width": 478
+  },
+  "water-escape": {
+    "height": 164,
+    "page": 163,
+    "src": "/handbook/novascotia/water-escape.png",
+    "width": 503
+  },
+  "wheels-off-pavement": {
+    "height": 138,
+    "page": 162,
+    "src": "/handbook/novascotia/wheels-off-pavement.png",
+    "width": 484
+  },
+  "windshield-sticker": {
+    "height": 138,
+    "page": 141,
+    "src": "/handbook/novascotia/windshield-sticker.png",
+    "width": 502
+  },
+  "work-biggest-hazard": {
+    "height": 135,
+    "page": 112,
+    "src": "/handbook/novascotia/work-biggest-hazard.png",
+    "width": 502
+  },
+  "work-caution-mode": {
+    "height": 265,
+    "page": 120,
+    "src": "/handbook/novascotia/work-caution-mode.png",
+    "width": 304
+  },
+  "work-do-not-pass": {
+    "height": 343,
+    "page": 117,
+    "src": "/handbook/novascotia/work-do-not-pass.png",
+    "width": 307
+  },
+  "work-human-activity": {
+    "height": 135,
+    "page": 114,
+    "src": "/handbook/novascotia/work-human-activity.png",
+    "width": 484
+  },
+  "work-merge-early": {
+    "height": 187,
+    "page": 113,
+    "src": "/handbook/novascotia/work-merge-early.png",
+    "width": 499
+  },
+  "work-orange": {
+    "height": 187,
+    "page": 111,
+    "src": "/handbook/novascotia/work-orange.png",
+    "width": 491
+  },
+  "work-speed": {
+    "height": 161,
+    "page": 112,
+    "src": "/handbook/novascotia/work-speed.png",
+    "width": 501
+  },
+  "work-two-arrows": {
+    "height": 187,
+    "page": 119,
+    "src": "/handbook/novascotia/work-two-arrows.png",
+    "width": 303
+  }
+}

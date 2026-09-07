@@ -63,7 +63,7 @@ one per wave so the `/ca` side keeps pace. Every bank is built to
 | 4 | Nebraska | nebraska | queued |
 | 4 | Idaho | idaho | queued |
 | 4 | West Virginia | westvirginia | queued |
-| 4 | Nova Scotia | novascotia | queued |
+| 4 | Nova Scotia | novascotia | **built** (2026-09-06, 371 excerpts, 332 snippets) |
 | 5 | Hawaii | hawaii | queued |
 | 5 | New Hampshire | newhampshire | queued |
 | 5 | Maine | maine | queued |
