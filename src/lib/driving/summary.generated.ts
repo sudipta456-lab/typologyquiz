@@ -272,6 +272,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "alaska",
+    "name": "Alaska",
+    "code": "AK",
+    "country": "US",
+    "licenceName": "Class IP Instruction Permit",
+    "intro": "Alaska runs licensing through the Division of Motor Vehicles, part of the state Department of Administration, and the written knowledge test is what gets you an instruction permit. It is 20 multiple-choice questions with 25 minutes on the clock and 16 correct to pass, and you can take it at a DMV office or from home through the DMV's Alaska KnowTo Drive system. Alaska issues that permit from age 14, earlier than any other state. This bank is written from the REV.10/2025 edition of the Alaska Driver Manual, with Alaska Statutes Title 28 supplying the numbers the book leaves out - the 30-foot school-bus stop, the DUI sentence a court must impose, the liability limits behind the manual's insurance figures.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "arkansas",
     "name": "Arkansas",
     "code": "AR",
@@ -301,6 +312,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "licenceName": "Learner's Permit (Class D)",
     "intro": "Connecticut's learner's permit test is 25 questions and you need 20 right - four wrong and you are still fine, five and you come back in a week. The DMV writes it from the Connecticut Driver's Manual, and the questions people actually lose are the teen driving rules and the exact numbers. Everything below is checked against the March 2023 manual and, where the manual leaves a number out, against Connecticut General Statutes Title 14.",
     "contentDate": "2026-09-06",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
+    "slug": "delaware",
+    "name": "Delaware",
+    "code": "DE",
+    "country": "US",
+    "licenceName": "Class D Learner's Permit",
+    "intro": "Delaware's knowledge test is 32 questions and you need 26, which leaves room for six wrong answers and no more. Every answer comes from one book - the Delaware Driver Manual, reissued in July 2026 - and that book is unusually generous with numbers, printing the whole speed table, the whole parking-distance list and the 300-foot signaling rule that catches out drivers from every neighboring state. These six sets work through it section by section, flag the handful of figures the manual leaves to Title 21, and spend set 5 on the rules Delaware candidates actually report failing on.",
+    "contentDate": "2026-09-07",
     "setCount": 6,
     "questionCount": 195
   },
@@ -481,6 +503,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "northdakota",
+    "name": "North Dakota",
+    "code": "ND",
+    "country": "US",
+    "licenceName": "Class D Instruction Permit",
+    "intro": "North Dakota licenses drivers through the Driver License Division of the Department of Transportation, and the Class D knowledge test is what gets you the instruction permit. You can sit it at a driver license site by appointment for $5, one attempt a day, or at home through KnowTo Drive - the online exam NDDOT publishes as its own - for $10 with a 60-minute limit and a webcam watching. Applications open at 14, which is among the earliest starting ages in the country, and the whole test is drawn from the 2025-2027 Noncommercial Driver License Manual. This bank is written from that edition, with Title 39 of the North Dakota Century Code supplying the rules the manual leaves out and four dot.nd.gov pages supplying the graduated licensing stages, the fees and the point schedule.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "novascotia",
     "name": "Nova Scotia",
     "code": "NS",
@@ -558,6 +591,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "southdakota",
+    "name": "South Dakota",
+    "code": "SD",
+    "country": "US",
+    "licenceName": "Instruction Permit",
+    "intro": "South Dakota starts drivers at 14 and asks for 80% on a knowledge test written from a 72-page manual that never prints a single speed limit. That is the shape of the problem: the book teaches technique in detail - four-second following distance, hands at 3 and 9, ten inches between your chest and the wheel - while the numbers people fail on live in Title 32 of the Codified Laws. These six sets cover both, and flag the two places where the manual and the statute do not agree.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "utah",
     "name": "Utah",
     "code": "UT",
@@ -593,4 +637,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 10201;
+export const TOTAL_DRIVING_QUESTIONS = 10981;
