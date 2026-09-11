@@ -129,12 +129,6 @@ export const eightValues: TestDefinition = {
   ],
   disclaimer:
     "This is a self-report tool based on the open-source 8values project. It measures political attitudes, not objective truth. No political test can fully capture the complexity of your beliefs.",
-  norms: {
-    economic: { mean: 50, sd: 25 },
-    diplomatic: { mean: 50, sd: 25 },
-    civil: { mean: 50, sd: 25 },
-    societal: { mean: 50, sd: 25 },
-  },
 };
 
 // Scoring: each question maps to 0-100 on its axis

@@ -30,6 +30,18 @@ export interface Question {
 
 export type ScoreMode = "type" | "spectrum" | "scale";
 
+export interface ResponseOption {
+  value: number;
+  label: string;
+}
+
+export interface AssessmentVersion {
+  instrument: string;
+  scoring: string;
+  report: string;
+  variant: "standard" | "school";
+}
+
 /** Copy shown for a picked type, a spectrum band, or the balanced/mixed fallback. */
 export interface TypeMeta {
   label: string;
@@ -54,6 +66,9 @@ export interface TestDefinition {
   license: string;
   sourceUrl?: string;
   questions: Question[];
+  /** Instrument-specific instructions and anchors; included in the release fingerprint. */
+  instructions?: string;
+  responseOptions?: ResponseOption[];
   axes: AxisDef[];
   /**
    * Which hero visual the results page renders.
@@ -73,7 +88,6 @@ export interface TestDefinition {
     | "wave";
   funFacts: string[];
   disclaimer: string;
-  norms?: Record<string, { mean: number; sd: number }>;
   /** New (2026) quizzes render a NEW badge. */
   isNew?: boolean;
   /** Quiz contains follow-up questions that depend on earlier answers. */
@@ -83,7 +97,7 @@ export interface TestDefinition {
    * scorer instead of a bespoke switch case:
    *  - "type": ipsative pick-top across axes, with flat-profile detection.
    *  - "spectrum": single primary axis mapped to a band label.
-   *  - "scale": per-axis 0-100 profile (+ percentiles from norms if present).
+   *  - "scale": per-axis 0-100 profile (not a population percentile).
    */
   scoreMode?: ScoreMode;
   /** For scoreMode "type": label + description per axis key. */
@@ -117,7 +131,8 @@ export interface AxisDef {
 export interface TestResult {
   testSlug: string;
   scores: Record<string, number>;
-  percentiles?: Record<string, number>;
+  /** Missing on historical links. Never infer a historical release from its timestamp. */
+  assessment?: AssessmentVersion;
   correctCount?: number;
   totalQuestions?: number;
   completedAt: number;

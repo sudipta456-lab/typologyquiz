@@ -1,6 +1,6 @@
 # TypologyQuiz.com
 
-> Free quizzes for people who like finding things out: personality and typology quizzes, timed geography and science trivia, driving licence practice tests, three daily minis, and party games for a group chat. No account, no ads, no paywall. Everything is scored in the browser and nothing is uploaded.
+> Free quizzes for people who like finding things out: personality and typology quizzes, timed geography and science trivia, driving licence practice tests, three daily minis, and party games for a group chat. No account, no ads, no paywall. Scoring runs in the browser. Personality answers and reflection notes stay on the device; result links contain score summaries, optional short links store those summaries on the server, and trivia submits aggregate score statistics.
 
 Website: https://typologyquiz.com
 
@@ -12,7 +12,7 @@ Five things share one site.
 2. 10981 driving licence practice questions across 56 jurisdictions. These do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.
 3. 63 trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.
 4. Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.
-5. Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. These carry their whole state inside the share link and store nothing on any server.
+5. Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. These carry their state inside share links; opening or sharing a link exposes its contents to recipients and hosting services.
 
 Nothing requires an account. There is no advertising, no tracking beyond basic analytics, and no email or phone collection - the audience includes minors, so the site deliberately holds no contact details. Quiz answers, streaks and best scores live in the visitor's own browser.
 
@@ -101,10 +101,10 @@ These are vibe checks, not diagnoses. Items are reverse-keyed so answering the s
 - [Study Energy](https://typologyquiz.com/test/study-energy/): Sprint or marathon? Solo or crew? How your brain actually wants to study. (12 items, ~3 min)
 - [FOMO & Plans Style](https://typologyquiz.com/test/fomo-style/): Do you chase every hang, protect quiet nights, or hop between maybes? (12 items, ~3 min)
 - [Career Interests (RIASEC-lite)](https://typologyquiz.com/test/career-interests/): Which kinds of projects, hobbies, and future paths fit your energy: make, explore, create, help, lead, or organise. (24 items, ~4 min)
-- [Big Five Personality (Mini-IPIP)](https://typologyquiz.com/test/mini-ipip/): A quick, scientifically validated 20-item measure of the Big Five personality traits: Extraversion, Agreeableness, Conscientiousness, Neuroticism, and Openness. (20 items, ~3 min)
+- [Big Five Personality (Mini-IPIP)](https://typologyquiz.com/test/mini-ipip/): Twenty public-domain Mini-IPIP items exploring five broad personality traits. A brief self-report profile, with evidence from the source instrument and no validation sample yet for this site version. (20 items, ~3 min)
 - [8values Political Test](https://typologyquiz.com/test/8values/): A political values test that maps your views across four independent axes: economic, diplomatic, civil, and societal. Based on the open-source 8values project. (56 items, ~8 min)
 - [Cognitive Reflection Test (CRT-7)](https://typologyquiz.com/test/crt-7/): A 7-item test that measures your tendency to override an intuitive but incorrect answer and engage in further reflection. Includes the classic CRT and CRT-2 items. (7 items, ~3 min)
-- [Vividness of Visual Imagery (VVIQ)](https://typologyquiz.com/test/vviq/): A 16-item questionnaire that measures how vividly you can visualize mental images. Used to detect aphantasia - the inability to form mental images. (16 items, ~4 min)
+- [Vividness of Visual Imagery (VVIQ)](https://typologyquiz.com/test/vviq/): A 16-item questionnaire that measures how vividly you can visualize mental images. This adapted presentation is for exploring your experience of imagery. (16 items, ~4 min)
 
 ## Driving licence practice tests
 

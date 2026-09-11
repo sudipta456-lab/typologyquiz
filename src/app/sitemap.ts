@@ -34,6 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/compare/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/account/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/about/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/methodology/`, lastModified: new Date("2026-09-11"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/credits/`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
 

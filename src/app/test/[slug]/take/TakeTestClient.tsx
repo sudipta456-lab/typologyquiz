@@ -7,7 +7,7 @@ import { getTest, scoreTest } from "@/lib/tests/registry";
 import { visibleQuestions } from "@/lib/tests/score-utils";
 import { AnswerMap } from "@/lib/types";
 import { saveProgress, loadProgress, clearProgress, encodeResult } from "@/lib/results";
-import { categoryFromScores } from "@/lib/tests/score-utils";
+import { AGREEMENT_OPTIONS, usesSchoolWording } from "@/lib/tests/assessment-evidence";
 import { loadSchoolMode } from "@/lib/settings";
 import { recordTestComplete } from "@/lib/progress-game";
 
@@ -57,7 +57,8 @@ function ShapeIcon({ shape }: { shape: (typeof LIKERT)[number]["shape"] }) {
 }
 
 function getInitialState(slug: string) {
-  const saved = loadProgress(slug);
+  const test = getTest(slug);
+  const saved = test ? loadProgress(test, usesSchoolWording(test, loadSchoolMode()) ? "school" : "standard") : null;
   if (saved) {
     return {
       answers: saved.answers,
@@ -97,16 +98,13 @@ function TakeTestReady() {
   const [showMilestone, setShowMilestone] = useState<string | null>(null);
   const [numericInput, setNumericInput] = useState("");
   const [submitted, setSubmitted] = useState(false);
-  const [schoolMode, setSchoolMode] = useState(false);
+  const [schoolMode] = useState(loadSchoolMode);
+  const [error, setError] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    setSchoolMode(loadSchoolMode());
-  }, []);
-
-  useEffect(() => {
-    if (Object.keys(answers).length > 0) saveProgress(slug, answers);
-  }, [answers, slug]);
+    if (test && Object.keys(answers).length > 0) saveProgress(test, answers, usesSchoolWording(test, schoolMode) ? "school" : "standard");
+  }, [answers, test, schoolMode]);
 
   useEffect(() => {
     if (test?.questions[currentIndex]?.type === "numeric" && inputRef.current) {
@@ -117,7 +115,7 @@ function TakeTestReady() {
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (!test) return;
-      const q = test.questions[currentIndex];
+      const q = visibleQuestions(test, answers)[currentIndex];
       if (!q) return;
       if (q.type === "likert") {
         const num = parseInt(e.key);
@@ -157,7 +155,7 @@ function TakeTestReady() {
   const safeIndex = Math.min(currentIndex, Math.max(0, totalQuestions - 1));
   const question = visible[safeIndex];
   const progress = Math.round(((safeIndex + (question && answers[question.id] !== undefined ? 1 : 0)) / Math.max(1, totalQuestions)) * 100);
-  const answeredCount = Object.keys(answers).length;
+  const options = test.responseOptions ?? AGREEMENT_OPTIONS;
 
   function handleAnswer(value: number) {
     if (transitioning || !question || !test) return;
@@ -195,10 +193,10 @@ function TakeTestReady() {
     if (!val) return;
     let numericValue: number;
     if (question.id === "crt_06") {
-      numericValue = val.toLowerCase() === "emily" ? -1 : parseInt(val) || 0;
+      numericValue = val.toLowerCase() === "emily" ? -1 : 0;
     } else {
-      numericValue = parseInt(val);
-      if (isNaN(numericValue)) return;
+      numericValue = Number(val);
+      if (!Number.isFinite(numericValue)) return;
     }
     setSubmitted(true);
     setTransitioning(true);
@@ -226,20 +224,18 @@ function TakeTestReady() {
 
   function finishTest(finalAnswers: AnswerMap = answers) {
     if (!test) return;
-    const { result, extras } = scoreTest(test, finalAnswers);
-    // The label and its description are a pure function of the scores, so the
-    // results page recomputes them rather than carrying them in the link. They
-    // were most of a share URL's length: a kkotmal-flower link ran to 492
-    // characters, nearly 400 of which were a percent-encoded copy of prose the
-    // page already knows how to produce.
-    const shareExtras = categoryFromScores(test, result.scores)
-      ? Object.fromEntries(
-          Object.entries(extras ?? {}).filter(
-            ([k]) => k !== "label" && k !== "description"
-          )
-        )
-      : extras;
-    const encoded = encodeResult({ ...result, completedAt: Date.now() }, shareExtras);
+    let scored;
+    try {
+      scored = scoreTest(test, finalAnswers, usesSchoolWording(test, schoolMode) ? "school" : "standard");
+    } catch {
+      setError("Some answers are missing or invalid. Please review the questions before finishing.");
+      const firstMissing = visibleQuestions(test, finalAnswers).findIndex(q => finalAnswers[q.id] === undefined);
+      setCurrentIndex(Math.max(0, firstMissing));
+      return;
+    }
+    const { result, extras } = scored;
+    // Preserve the exact interpretation issued with this released version.
+    const encoded = encodeResult(result, extras);
     const label =
       typeof extras?.label === "string"
         ? extras.label
@@ -257,7 +253,7 @@ function TakeTestReady() {
   const qNumber = currentIndex + 1;
   const leftCount = totalQuestions - currentIndex;
   let promptText = question.text;
-  if (schoolMode) {
+  if (usesSchoolWording(test, schoolMode)) {
     promptText = promptText
       .replace(/\bcrushes\b/gi, "friends")
       .replace(/\bcrush\b/gi, "friend")
@@ -269,8 +265,10 @@ function TakeTestReady() {
     <div className="kahoot-shell">
       <p className="kahoot-privacy">
         Private: answers stay on this device. Nothing is uploaded.
-        {schoolMode ? " · School mode on (friendship wording)." : ""}
+        {usesSchoolWording(test, schoolMode) ? " · School mode on (friendship wording)." : ""}
       </p>
+      {error && <p role="alert" className="assessment-error">{error}</p>}
+      {test.instructions && <p className="assessment-instructions">{test.instructions}</p>}
       {/* Top bar */}
       <header className="kahoot-top">
         <button
@@ -335,8 +333,9 @@ function TakeTestReady() {
             </button>
           </div>
         ) : (
-          <div className="kahoot-grid" role="group" aria-label="Choose how much you agree">
-            {LIKERT.map((opt) => {
+          <div className={test.responseOptions ? "assessment-options" : "kahoot-grid"} role="group" aria-label={test.responseOptions ? "Choose your rating" : "Choose how much you agree"}>
+            {options.map((option, index) => {
+              const opt = { ...LIKERT[index], ...option };
               const isFlash = flashValue === opt.value;
               return (
                 <button
@@ -344,15 +343,15 @@ function TakeTestReady() {
                   type="button"
                   onClick={() => handleAnswer(opt.value)}
                   disabled={transitioning}
-                  className={`kahoot-tile${opt.value === 3 ? " is-neutral" : ""}${isFlash ? " is-flash" : ""}`}
-                  style={{ backgroundColor: opt.color }}
+                  className={`${test.responseOptions ? "assessment-option" : "kahoot-tile"}${opt.value === 3 ? " is-neutral" : ""}${isFlash ? " is-flash" : ""}`}
+                  style={test.responseOptions ? undefined : { backgroundColor: opt.color }}
                   aria-label={`${opt.value}: ${opt.label}`}
                 >
-                  <span className="kahoot-tile-shape">
+                  <span className="kahoot-tile-shape" hidden={!!test.responseOptions}>
                     <ShapeIcon shape={opt.shape} />
                   </span>
                   <span className="kahoot-tile-text">
-                    <span className="kahoot-tile-short">{opt.short}</span>
+                    {!test.responseOptions && <span className="kahoot-tile-short">{opt.short}</span>}
                     <span className="kahoot-tile-full">{opt.label}</span>
                   </span>
                   <span className="kahoot-tile-key">{opt.value}</span>
@@ -366,7 +365,7 @@ function TakeTestReady() {
       <footer className="kahoot-foot">
         <span className="kahoot-foot-title">{test.title}</span>
         <span className="kahoot-foot-hint">
-          {isNumeric ? "Enter to submit" : "Tap a color · keys 1-5"}
+          {isNumeric ? "Enter to submit" : "Choose an answer · keys 1–5"}
         </span>
       </footer>
     </div>

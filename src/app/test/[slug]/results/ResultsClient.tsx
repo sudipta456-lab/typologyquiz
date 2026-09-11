@@ -2,8 +2,10 @@
 
 import { useParams, useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { Suspense, useEffect, useMemo, useState } from "react";
-import { getTest } from "@/lib/tests/registry";
+import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
+import { reportDefinition } from "@/lib/tests/assessment-versions";
+import { AssessmentEvidence } from "@/components/AssessmentEvidence";
+import { ReflectionPanel } from "@/components/ReflectionPanel";
 import { CATEGORY_META } from "@/lib/types";
 import { decodeResult } from "@/lib/results";
 import { categoryFromScores } from "@/lib/tests/score-utils";
@@ -30,39 +32,39 @@ function ResultsContent() {
   const slug = params.slug as string;
   const encoded = searchParams.get("r");
 
-  const test = getTest(slug);
-  const [tone, setTone] = useState<ToneMode>("chill");
 
-  useEffect(() => {
+  const [tone, setTone] = useState<ToneMode>(() => {
     try {
-      const saved = localStorage.getItem(toneStorageKey(slug)) as ToneMode | null;
-      if (saved === "chill" || saved === "roast") setTone(saved);
-    } catch {
-      /* ignore */
-    }
-  }, [slug]);
+      const saved = localStorage.getItem(toneStorageKey(slug));
+      return saved === "roast" ? "roast" : "chill";
+    } catch { return "chill"; }
+  });
 
   const decoded = useMemo(
     () => (encoded ? decodeResult(encoded) : null),
     [encoded]
   );
 
+  const test = decoded && decoded.result.testSlug === slug ? reportDefinition(decoded.result) : undefined;
+
   // Recomputed from the scores, because the link no longer carries it.
   // Older links still do, and those win, so a URL shared before the change
   // keeps showing exactly what it showed then.
   const derived = useMemo(
     () =>
-      test && decoded?.result?.scores
+      test && decoded?.result?.scores && !decoded.result.assessment
         ? categoryFromScores(test, decoded.result.scores)
         : undefined,
     [test, decoded]
   );
 
-  const typeLabel =
+  const savedTypeLabel =
     (typeof decoded?.extras?.label === "string" && decoded.extras.label) ||
     (decoded?.extras?.ideology as { label?: string } | undefined)?.label ||
     (decoded?.extras?.category as { label?: string } | undefined)?.label ||
-    derived?.label;
+    (slug === "vviq" ? undefined : derived?.label);
+
+  const typeLabel = slug === "vviq" && !decoded?.result.assessment ? "Imagery self-report" : savedTypeLabel;
 
   const rawDescription =
     (typeof decoded?.extras?.description === "string" && decoded.extras.description) ||
@@ -71,8 +73,8 @@ function ResultsContent() {
     derived?.description;
 
   const displayDescription = useMemo(
-    () => toneBlurb(typeLabel, rawDescription, tone),
-    [typeLabel, rawDescription, tone]
+    () => slug === "vviq" && !decoded?.result.assessment ? "Your saved imagery score is shown below without diagnostic cutoffs." : toneBlurb(typeLabel, rawDescription, tone),
+    [typeLabel, rawDescription, tone, slug, decoded]
   );
 
   function handleTone(next: ToneMode) {
@@ -111,7 +113,7 @@ function ResultsContent() {
     );
   }
 
-  const { result, extras } = decoded;
+  const { result } = decoded;
   const meta = CATEGORY_META[test.category as keyof typeof CATEGORY_META];
   const accentColor = meta?.hex || "#0795EA";
   const t = test;
@@ -319,6 +321,9 @@ function ResultsContent() {
         <div>{renderHero()}</div>
       </div>
 
+      <AssessmentEvidence test={t} result={result} />
+      <ReflectionPanel result={result} test={t} encoded={encoded} />
+
       <div style={{ marginBottom: 28 }}>
         <h2
           className="font-display"
@@ -331,12 +336,11 @@ function ResultsContent() {
             borderBottom: "1px solid var(--line)",
           }}
         >
-          Your stats
+          Your scores
         </h2>
         <div style={{ display: "flex", flexDirection: "column", gap: 0, border: "1px solid var(--line)" }}>
           {t.axes.map((axis) => {
             const score = result.scores[axis.key] ?? 50;
-            const percentile = result.percentiles?.[axis.key];
             return (
               <div
                 key={axis.key}
@@ -364,19 +368,9 @@ function ResultsContent() {
                         fontFamily: "IBM Plex Mono, ui-monospace, monospace",
                       }}
                     >
-                      {score}
+                      {score}<span style={{ fontWeight: 400 }}> / 100</span>
                     </span>
-                    {percentile !== undefined && (
-                      <span
-                        style={{
-                          fontSize: "0.72rem",
-                          color: "var(--ink-mute)",
-                          fontFamily: "IBM Plex Mono, ui-monospace, monospace",
-                        }}
-                      >
-                        {percentile}th
-                      </span>
-                    )}
+
                   </div>
                 </div>
                 <div
@@ -472,6 +466,7 @@ function ResultsContent() {
       <div style={{ marginBottom: 24 }} className="report-panel">
         <ResultShareCard
           testTitle={t.title}
+          assessmentNote={t.slug === "crt-7" ? "Reasoning practice · No population ranking" : "Self-reflection · Scale scores, not population ranks"}
           typeLabel={typeLabel}
           typeDescription={displayDescription}
           scores={result.scores}
@@ -542,7 +537,10 @@ function ResultsContent() {
   );
 }
 
+const subscribeToHydration = () => () => {};
+
 export function ResultsClient() {
+  const hydrated = useSyncExternalStore(subscribeToHydration, () => true, () => false);
   return (
     <Suspense
       fallback={
@@ -551,7 +549,7 @@ export function ResultsClient() {
         </div>
       }
     >
-      <ResultsContent />
+      {hydrated ? <ResultsContent /> : <p className="test-shell" role="status">Loading results…</p>}
     </Suspense>
   );
 }

@@ -1,13 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useSyncExternalStore } from "react";
 import { drawResultCard, downloadCanvas, type CardPayload } from "@/lib/result-card";
 import { loadProfile } from "@/lib/profile";
+
+const subscribeToHydration = () => () => {};
 
 export function ResultShareCard(props: CardPayload) {
   const storyRef = useRef<HTMLCanvasElement>(null);
   const squareRef = useRef<HTMLCanvasElement>(null);
-  const [ready, setReady] = useState(false);
+  const ready = useSyncExternalStore(subscribeToHydration, () => true, () => false);
 
   useEffect(() => {
     const profile = loadProfile();
@@ -17,7 +19,6 @@ export function ResultShareCard(props: CardPayload) {
     };
     if (storyRef.current) drawResultCard(storyRef.current, payload, "story");
     if (squareRef.current) drawResultCard(squareRef.current, payload, "square");
-    setReady(true);
   }, [props]);
 
   function saveStory() {
@@ -55,7 +56,7 @@ export function ResultShareCard(props: CardPayload) {
         </button>
       </div>
       <p className="share-note">
-        Drop it in TikTok, IG Stories, Discord, or Snap. No watermark spam, just your type + link vibe.
+        The card includes your result. Share only what you want others to see.
       </p>
     </div>
   );

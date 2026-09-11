@@ -1,6 +1,27 @@
 # TypologyQuiz Growth Plan — Trivia Diversification & Traffic
 
-> **Current work: Growth step 2 (2026-09-09).** The original phases below are historical. The next plan is [Growth step 2 architecture](docs/GROWTH_STEP2_ARCHITECTURE.md): reusable question formats, reviewed recurring editions, shareable results, and episode predictions. Implementation status is tracked in [.agents/HANDOFF.md](.agents/HANDOFF.md); a plan is not a shipped-feature claim.
+> **Current priority: assessment quality within Growth step 2 (2026-09-11).** The mobile redesign is deployed and committed locally. Following the [2020–2026 evidence review](docs/research/ASSESSMENT_QUALITY_REVIEW_2026.md), the first implementation adds evidence labels, versioned scoring/results, corrected Mini-IPIP anchors, and optional private reflection with a two-week review. See the [release record](docs/research/ASSESSMENT_GROWTH_RELEASE.md) for verification and deployment status. The [research feedback specification](docs/research/ASSESSMENT_FEEDBACK_SPEC.md) remains a broader proposal: private notes are not research collection, and improved accuracy has not been demonstrated. Existing editorial approval rules remain in force.
+
+## Assessment quality — current priority
+
+The user requested extensive 2020–2026 literature research into typologytesting.com and a redesign of tests and feedback to improve accuracy and outcomes. The resulting review covers 18 scholarly sources plus official methods/rights documentation. Its recommendations prioritize reliable self-understanding and useful habit change; this outcome emphasis is a working assumption, not a separate user decision.
+
+The registry contains 67 tests, with 63 labelled as original items. The first implementation removes the site-wide peer-review claim and undocumented percentile norms, and labels the neuroticism score as Emotional reactivity without inverting saved numbers. Source rights for CRT/VVIQ remain unresolved; source attribution is not presented as a license.
+
+| Sequence | Deliverable | Evidence required to proceed |
+|---|---|---|
+| Q1 | Accurate purpose labels, credits/rights audit, removal of unsupported percentile interpretation and consistent score direction | Landing/result/share/legacy paths agree; source claims can be traced |
+| Q2 | Source-faithful Big Five form, per-instrument anchors, immutable instrument/scoring/report/norm versions | Canonical scoring fixtures and historical-result handling pass; no inherited validity claim for untested adaptations |
+| Q3 | Optional feedback and separately consented research collection | Result available without consent; consent, privacy notice, retention, deletion, access control and analytics separation verified |
+| Q4 | Cognitive interviews, sample-size design, calibration and independent retest/validation cohort | Prespecified measurement hypotheses, error estimates, group limits and reviewer report; recruitment and collection not started by this plan |
+| Q5 | Controlled trial of one practical activity with 14-day and six-week follow-up | Primary outcome, comparison group, attrition and uncertainty reported; satisfaction/retention not substituted for benefit |
+| Q6 | Evidence page and bounded expansion | Version-specific results and limitations published; adaptive scoring only after it outperforms a simpler fixed form on relevant criteria |
+
+Keep personality measures, original reflection tools and entertainment clearly distinguished inside the Personality section. Retain playful archetypes without presenting them as fixed psychological truths. Prefer established public-domain IPIP content for the first measure; check permission before commercial use of BFI-2. Later review RIASEC through O*NET, and relationship tools through instrument-specific evidence.
+
+Track measurement reliability, user agreement/clarity, practical benefit and engagement separately. Feedback raises human-reviewed candidate revisions; it never silently changes someone's score to make their result more agreeable. No raw research answers, trait profiles, private comments or observer data belong in ordinary analytics.
+
+This section supersedes historical suggestions below to invent/bake population percentiles or mandate reverse-wording on every axis. It also takes priority over expanding the ten novelty-result experiences. News/trivia retain their separate factual validation and publication rules. No participant research, outreach, calibration, stronger accuracy claim, or new editorial publication is included in the first implementation. Q1 claims/interpretation fixes and Q2 version foundations are implemented; the rights audit is incomplete. Q3 has a private-note precursor only. The public evidence page starts Q6 with explicit evidence gaps, not validation results. Q4–Q5 still need real participants and an appropriate expert review.
 
 ## Growth step 2 — quality traffic, sharing, and repeat use
 
@@ -87,7 +108,7 @@ Ranked. Feasibility: **[static]** = pure client-side today · **[static+URL]** =
 | 11 | **Fool-your-friends** — write a fake answer, friends must spot the truth among fakes; chains via URL | Psych! | Bridges trivia and the friend-quiz loop; ~3–5 hop chains within URL limits | [static+URL] |
 | 12 | **Order/sort/tile-select** — sequence events, bucket items, click-all-that-match | Sporcle Order Up/Sortable, JetPunk Tile | Cheap authoring variety for series content | [static] |
 | 13 | **"Most Likely To" group cards** — vote among friend names → share-card collage | Party genre | Zero correctness logic; pure share fodder; keep room URLs noindex | [static+URL] |
-| 14 | **Per-quiz stats: "you beat ~X% of players"** — baked percentile tables first, real counters later | Sporcle Stats, JetPunk results | The single biggest replay hook; upgrade path = Worker + KV on our own Cloudflare | [static → worker-later] |
+| 14 | **Per-quiz stats with a documented comparison sample** — no invented percentile tables | Sporcle Stats, JetPunk results | Replay feedback only when sample, score version and limitations can be shown | [worker-later] |
 
 ---
 
@@ -133,7 +154,7 @@ Build the **variant ladder**, not one quiz — every rung is its own URL and sea
 - Daily minis wired into the existing streak system; streak-saver token earned by sharing
 - Weekly featured drop + weekly badge
 - Gems + collectible companions shown on share cards (Quizly pets / Blooket blooks pattern) — localStorage only
-- Baked "you beat ~X%" percentiles; later real counters via a ~50-line Worker + KV
+- Percentile comparisons only from a documented, compatible sample; suppress unsupported estimates
 
 ---
 

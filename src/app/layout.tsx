@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import Script from "next/script";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -122,12 +121,7 @@ const jsonLd = {
   ],
 };
 
-// Google Analytics 4. The Measurement ID is public (it ships in the page), so
-// the production ID is the default here — that way Cloudflare's CI build picks
-// it up with no dashboard env config. A NEXT_PUBLIC_GA_ID env var still overrides
-// it for local/preview builds; set it empty to disable analytics entirely.
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-TZ9B8MB7SP";
-
+// Third-party analytics are paused until result URL and reflection isolation is verified.
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
@@ -156,17 +150,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </main>
           <Footer />
         </ThemeProvider>
-        {GA_ID ? (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga4-init" strategy="afterInteractive">
-              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
-            </Script>
-          </>
-        ) : null}
+
       </body>
     </html>
   );

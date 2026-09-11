@@ -2,7 +2,7 @@ import { TestDefinition } from "../types";
 
 // Cognitive Reflection Test (CRT + CRT-2)
 // 7 items - 3 from Frederick (2005), 4 from Thomson & Oppenheimer (2016)
-// Freely reproduced from academic literature
+// Source attribution; reuse permission has not yet been verified.
 
 const questions = [
   {
@@ -70,10 +70,10 @@ export const crt7: TestDefinition = {
   description:
     "A 7-item test that measures your tendency to override an intuitive but incorrect answer and engage in further reflection. Includes the classic CRT and CRT-2 items.",
   whatYoullLearn:
-    "How your reflective thinking compares to the general population - and why this matters for decision-making.",
+    "Which of seven reasoning puzzles you solved correctly. Prior familiarity can influence the result; it does not rank your intelligence.",
   timeMinutes: 3,
   itemCount: 7,
-  license: "Academic literature (Frederick 2005, Thomson & Oppenheimer 2016) - freely reproduced",
+  license: "Frederick (2005), Thomson & Oppenheimer (2016). Reuse permissions have not been verified.",
   sourceUrl: "https://doi.org/10.1257/089533005775196732",
   questions,
   axes: [
@@ -88,15 +88,12 @@ export const crt7: TestDefinition = {
   ],
   resultType: "dial",
   funFacts: [
-    "Only about 17% of people get all 3 classic CRT questions right. Adding CRT-2 questions makes all-7 even rarer.",
-    "CRT scores predict resistance to scams and misinformation better than IQ scores do.",
+    "A plausible first answer can differ from the answer you get by checking the arithmetic.",
+    "Seeing these puzzles before can affect your score. A repeat attempt is also a memory task.",
     "The test was invented by Shane Frederick, who noticed that even MIT students sometimes gave the intuitive (wrong) answer.",
   ],
   disclaimer:
     "The CRT measures a specific kind of reflective thinking. It is not an IQ test. Your score may be influenced by familiarity with the questions.",
-  norms: {
-    crt: { mean: 2.5, sd: 2.0 },
-  },
 };
 
 export function scoreCRT7(answers: Record<string, number>): {

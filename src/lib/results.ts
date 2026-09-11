@@ -1,4 +1,6 @@
-import { TestResult, AnswerMap } from "./types";
+import { TestResult, AnswerMap, TestDefinition, AssessmentVersion } from "./types";
+import { currentVersion, knownVersion, reportDefinition, sameAssessmentVersion } from "./tests/assessment-versions";
+import { validProgress } from "./tests/assessment-input";
 
 /**
  * Encode a result as a compact base64 URL param.
@@ -19,15 +21,8 @@ export function encodeResult(
     .join(",");
   parts.push(scorePairs);
 
-  // Percentiles
-  if (result.percentiles) {
-    const pctPairs = Object.entries(result.percentiles)
-      .map(([k, v]) => `${k}:${v}`)
-      .join(",");
-    parts.push(`pct:${pctPairs}`);
-  } else {
-    parts.push("");
-  }
+  // Historical percentile slot is deliberately empty: no approved norms exist.
+  parts.push("");
 
   // CRT extras
   if (result.correctCount !== undefined) {
@@ -51,6 +46,11 @@ export function encodeResult(
     parts.push(extraPairs ? `ex:${extraPairs}` : "");
   } else {
     parts.push("");
+  }
+
+  if (result.assessment) {
+    const v = result.assessment;
+    parts.push(`v:${v.instrument},${v.scoring},${v.report},${v.variant}`);
   }
 
   // Trailing empty fields carry no information; the decoder defaults them.
@@ -78,6 +78,7 @@ export function decodeResult(
     // standard base64 with "=" padding; new ones are base64URL without it.
     // Restoring the alphabet and the padding makes one decoder serve both, so
     // no link anyone has already sent stops working.
+    if (encoded.length > 12000) return null;
     let b64 = encoded.replace(/-/g, "+").replace(/_/g, "/");
     if (b64.length % 4 !== 0) b64 += "=".repeat(4 - (b64.length % 4));
     const raw = decodeURIComponent(escape(atob(b64)));
@@ -86,9 +87,10 @@ export function decodeResult(
     if (parts.length < 3) return null;
 
     const slug = parts[0];
-    const completedAt = parseInt(parts[1], 10);
+    const completedAt = Number(parts[1]);
+    if (!/^[a-z0-9-]{1,80}$/.test(slug) || !Number.isSafeInteger(completedAt) || completedAt <= 0) return null;
     const scorePairs = parts[2].split(",").filter(Boolean);
-    const pctRaw = parts[3] || "";
+    const versionRaw = parts[7] || "";
     const ccRaw = parts[4] || "";
     const tqRaw = parts[5] || "";
     const exRaw = parts[6] || "";
@@ -96,7 +98,10 @@ export function decodeResult(
     const scores: Record<string, number> = {};
     for (const pair of scorePairs) {
       const [k, v] = pair.split(":");
-      scores[k] = parseInt(v, 10);
+      if (!/^[a-z][a-z0-9_]*$/i.test(k) || Object.hasOwn(scores, k) || !v) return null;
+      const value = Number(v);
+      if (!Number.isInteger(value) || value < 0 || value > 100) return null;
+      scores[k] = value;
     }
 
     const result: TestResult = {
@@ -105,23 +110,30 @@ export function decodeResult(
       completedAt,
     };
 
-    // Percentiles
-    if (pctRaw.startsWith("pct:")) {
-      const pctPairs = pctRaw.slice(4).split(",").filter(Boolean);
-      result.percentiles = {};
-      for (const pair of pctPairs) {
-        const [k, v] = pair.split(":");
-        result.percentiles[k] = parseInt(v, 10);
-      }
+    // Ignore old embedded percentiles. They were based on undocumented defaults.
+    if (versionRaw) {
+      if (!versionRaw.startsWith("v:")) return null;
+      const [instrument, scoring, report, variant, extra] = versionRaw.slice(2).split(",");
+      if (extra || (variant !== "standard" && variant !== "school")) return null;
+      result.assessment = { instrument, scoring, report, variant };
+      if (!knownVersion(slug, result.assessment)) return null;
     }
+    const definition = reportDefinition(result);
+    if (!definition || definition.axes.length !== Object.keys(scores).length ||
+      !definition.axes.every(axis => Object.hasOwn(scores, axis.key))) return null;
 
     // CRT
     if (ccRaw.startsWith("cc:")) {
-      result.correctCount = parseInt(ccRaw.slice(3), 10);
+      result.correctCount = Number(ccRaw.slice(3));
     }
     if (tqRaw.startsWith("tq:")) {
-      result.totalQuestions = parseInt(tqRaw.slice(3), 10);
+      result.totalQuestions = Number(tqRaw.slice(3));
     }
+
+    if (slug === "crt-7") {
+      if (result.totalQuestions !== 7 || !Number.isInteger(result.correctCount) ||
+        result.correctCount! < 0 || result.correctCount! > 7) return null;
+    } else if (result.correctCount !== undefined || result.totalQuestions !== undefined) return null;
 
     // Extras
     let extras: Record<string, unknown> | undefined;
@@ -130,10 +142,13 @@ export function decodeResult(
       extras = {};
       for (const pair of exPairs) {
         const [k, v] = pair.split(":");
-        extras[k] = decodeURIComponent(v);
+        if (k === "label" || k === "description") extras[k] = decodeURIComponent(v ?? "");
       }
     }
 
+    if (slug === "vviq" && !result.assessment) {
+      extras = { label: "Imagery self-report", description: "Historical imagery score without diagnostic cutoffs." };
+    }
     return { result, extras };
   } catch {
     return null;
@@ -143,13 +158,14 @@ export function decodeResult(
 /**
  * Save answers to localStorage for a given test.
  */
-export function saveProgress(testSlug: string, answers: AnswerMap): void {
+export function saveProgress(test: TestDefinition, answers: AnswerMap, variant: AssessmentVersion["variant"] = "standard"): void {
   try {
-    const key = `mindmetrics_${testSlug}`;
+    const key = `mindmetrics_${test.slug}`;
     localStorage.setItem(
       key,
       JSON.stringify({
         answers,
+        assessment: currentVersion(test.slug, variant),
         savedAt: Date.now(),
       })
     );
@@ -162,13 +178,17 @@ export function saveProgress(testSlug: string, answers: AnswerMap): void {
  * Load saved answers from localStorage.
  */
 export function loadProgress(
-  testSlug: string
+  test: TestDefinition,
+  variant: AssessmentVersion["variant"] = "standard"
 ): { answers: AnswerMap; savedAt: number } | null {
   try {
-    const key = `mindmetrics_${testSlug}`;
+    const key = `mindmetrics_${test.slug}`;
     const raw = localStorage.getItem(key);
     if (!raw) return null;
-    return JSON.parse(raw);
+    const saved = JSON.parse(raw);
+    if (!saved || !Number.isSafeInteger(saved.savedAt) || !validProgress(test, saved.answers) ||
+      !sameAssessmentVersion(saved.assessment, currentVersion(test.slug, variant))) return null;
+    return saved;
   } catch {
     return null;
   }

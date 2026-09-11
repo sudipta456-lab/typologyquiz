@@ -1,4 +1,6 @@
-import { TestDefinition, TestResult, AnswerMap } from "../types";
+import { currentVersion } from "./assessment-versions";
+import { validatedAnswers } from "./assessment-input";
+import { TestDefinition, TestResult, AnswerMap, AssessmentVersion } from "../types";
 import { eightValues, score8Values, getClosestIdeology } from "./8values";
 import { miniIPIP, scoreMiniIPIP } from "./mini-ipip";
 import { crt7, scoreCRT7 } from "./crt-7";
@@ -156,9 +158,11 @@ export interface ScoredResult {
   extras?: Record<string, unknown>;
 }
 
-export function scoreTest(test: TestDefinition, answers: AnswerMap): ScoredResult {
+export function scoreTest(test: TestDefinition, input: AnswerMap, variant: AssessmentVersion["variant"] = "standard"): ScoredResult {
+  const answers = validatedAnswers(test, input);
   const result: TestResult = {
     testSlug: test.slug,
+    assessment: currentVersion(test.slug, variant),
     scores: {},
     completedAt: Date.now(),
   };
@@ -179,13 +183,6 @@ export function scoreTest(test: TestDefinition, answers: AnswerMap): ScoredResul
   }
   if (test.scoreMode === "scale") {
     result.scores = scoreScale(test, answers);
-    result.percentiles = {};
-    if (test.norms) {
-      for (const [key, norm] of Object.entries(test.norms)) {
-        const z = (result.scores[key] - norm.mean) / norm.sd;
-        result.percentiles[key] = Math.round(zToPercentile(z));
-      }
-    }
     return { result, extras };
   }
 
@@ -199,25 +196,11 @@ export function scoreTest(test: TestDefinition, answers: AnswerMap): ScoredResul
         label: ideology.label,
         description: ideology.description,
       };
-      result.percentiles = {};
-      if (test.norms) {
-        for (const [key, norm] of Object.entries(test.norms)) {
-          const z = (scores[key] - norm.mean) / norm.sd;
-          result.percentiles[key] = Math.round(zToPercentile(z));
-        }
-      }
       break;
     }
     case "mini-ipip": {
       const scores = scoreMiniIPIP(answers);
       result.scores = scores;
-      result.percentiles = {};
-      if (test.norms) {
-        for (const [key, norm] of Object.entries(test.norms)) {
-          const z = (scores[key] - norm.mean) / norm.sd;
-          result.percentiles[key] = Math.round(zToPercentile(z));
-        }
-      }
       break;
     }
     case "crt-7": {
@@ -225,12 +208,6 @@ export function scoreTest(test: TestDefinition, answers: AnswerMap): ScoredResul
       result.scores = crtResult.scores;
       result.correctCount = crtResult.correctCount;
       result.totalQuestions = crtResult.totalQuestions;
-      result.percentiles = {};
-      if (test.norms?.crt) {
-        const norm = test.norms.crt;
-        const z = (crtResult.correctCount - norm.mean) / norm.sd;
-        result.percentiles.crt = Math.round(zToPercentile(z));
-      }
       break;
     }
     case "vviq": {
@@ -242,12 +219,6 @@ export function scoreTest(test: TestDefinition, answers: AnswerMap): ScoredResul
         label: category.label,
         description: category.description,
       };
-      result.percentiles = {};
-      if (test.norms?.vviq) {
-        const norm = test.norms.vviq;
-        const z = (scores.vviq - norm.mean) / norm.sd;
-        result.percentiles.vviq = Math.round(zToPercentile(z));
-      }
       break;
     }
     case "social-battery": {
@@ -289,17 +260,4 @@ export function scoreTest(test: TestDefinition, answers: AnswerMap): ScoredResul
   }
 
   return { result, extras };
-}
-
-function zToPercentile(z: number): number {
-  z = Math.max(-3.5, Math.min(3.5, z));
-  const t = 1 / (1 + 0.2316419 * Math.abs(z));
-  const d = 0.3989423 * Math.exp((-z * z) / 2);
-  let prob =
-    d *
-    t *
-    (0.3193815 +
-      t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274))));
-  if (z > 0) prob = 1 - prob;
-  return Math.round(prob * 100);
 }

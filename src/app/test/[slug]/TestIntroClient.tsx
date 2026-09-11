@@ -6,7 +6,11 @@ import { getTest } from "@/lib/tests/registry";
 import { CATEGORY_META } from "@/lib/types";
 import { loadProgress } from "@/lib/results";
 import { loadSchoolMode } from "@/lib/settings";
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
+import { AssessmentEvidence } from "@/components/AssessmentEvidence";
+import { usesSchoolWording } from "@/lib/tests/assessment-evidence";
+
+const subscribeToHydration = () => () => {};
 
 const CATEGORY_CODE: Record<string, string> = {
   personality: "PERS",
@@ -17,14 +21,15 @@ const CATEGORY_CODE: Record<string, string> = {
 };
 
 export function TestIntroClient() {
+  const hydrated = useSyncExternalStore(subscribeToHydration, () => true, () => false);
+  return <TestIntroReady key={String(hydrated)} hydrated={hydrated} />;
+}
+
+function TestIntroReady({ hydrated }: { hydrated: boolean }) {
   const params = useParams();
   const slug = params.slug as string;
   const test = getTest(slug);
-  const [schoolMode, setSchoolMode] = useState(false);
-
-  useEffect(() => {
-    setSchoolMode(loadSchoolMode());
-  }, []);
+  const [schoolMode] = useState(() => hydrated && loadSchoolMode());
 
   if (!test) {
     return (
@@ -41,7 +46,7 @@ export function TestIntroClient() {
 
   const meta = CATEGORY_META[test.category as keyof typeof CATEGORY_META];
   const code = CATEGORY_CODE[test.category] || "TEST";
-  const saved = loadProgress(test.slug);
+  const saved = hydrated ? loadProgress(test, usesSchoolWording(test, schoolMode) ? "school" : "standard") : null;
   const formatLabel = test.questions[0]?.type === "numeric" ? "Open" : "Likert";
 
   return (
@@ -73,6 +78,8 @@ export function TestIntroClient() {
           <div className="test-meta-label">Format</div>
         </div>
       </div>
+
+      <AssessmentEvidence test={test} />
 
       <section className="test-block">
         <h2 className="test-block-title">What you will learn</h2>
@@ -121,6 +128,7 @@ export function TestIntroClient() {
         <Link href={`/test/${test.slug}/take`} className="btn-primary">
           {saved ? "Resume where you left off" : "Start test"}
         </Link>
+        {!saved && <p className="test-resume-note">After a test update or wording change, a fresh start keeps your answers consistent.</p>}
         {saved && (
           <p className="test-resume-note">
             Saved progress from {new Date(saved.savedAt).toLocaleDateString()}. We will pick up where

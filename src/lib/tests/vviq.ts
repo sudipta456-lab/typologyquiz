@@ -29,35 +29,40 @@ export const vviq: TestDefinition = {
   title: "Vividness of Visual Imagery (VVIQ)",
   category: "perception",
   description:
-    "A 16-item questionnaire that measures how vividly you can visualize mental images. Used to detect aphantasia - the inability to form mental images.",
+    "A 16-item questionnaire that measures how vividly you can visualize mental images. This adapted presentation is for exploring your experience of imagery.",
   whatYoullLearn:
-    "Where you fall on the spectrum from aphantasia (no mental imagery) to hyperphantasia (extremely vivid imagery).",
+    "How vivid you describe a set of imagined scenes, from little imagery to clear detail.",
   timeMinutes: 4,
   itemCount: 16,
-  license: "Marks (1973) - academic instrument, used with attribution",
+  license: "Adapted from Marks (1973); attribution is not an open license. Reuse permissions have not been verified.",
   sourceUrl: "https://doi.org/10.1111/j.2044-8295.1973.tb01322.x",
+  instructions: "Picture each scene, then rate the vividness of your mental image. This site uses an adapted scale from no image (1) to very clear (5).",
+  responseOptions: [
+    { value: 1, label: "No visual image" },
+    { value: 2, label: "Vague and dim" },
+    { value: 3, label: "Moderately clear" },
+    { value: 4, label: "Clear and vivid" },
+    { value: 5, label: "As clear as seeing" },
+  ],
   questions,
   axes: [
     {
       key: "vviq",
       label: "Vividness",
-      lowLabel: "Aphantasia",
-      highLabel: "Hyperphantasia",
+      lowLabel: "Little imagery",
+      highLabel: "Very vivid",
       description:
-        "Total vividness score (16-80). Lower scores indicate less vivid mental imagery. A score of 16-32 suggests aphantasia; 64-80 suggests hyperphantasia.",
+        "Your responses rescaled to 0–100. Higher scores mean more vivid reported imagery. These are descriptive scores with no diagnostic cutoffs or population comparison.",
     },
   ],
   resultType: "spectrum",
   funFacts: [
-    "About 1-4% of people have aphantasia - many discover it for the first time from a test like this.",
+    "Different people describe different experiences when they try to picture the same scene.",
     "The VVIQ was developed by David Marks in 1973 and remains the most widely used measure of mental imagery.",
     "People with aphantasia often don't realize others can actually 'see' images in their mind - they assume 'visualize' is just a metaphor.",
   ],
   disclaimer:
     "This is a self-report measure of vividness, not a clinical diagnosis. Mental imagery exists on a spectrum, and scores can vary day to day.",
-  norms: {
-    vviq: { mean: 55, sd: 15 },
-  },
 };
 
 export function scoreVVIQ(answers: Record<string, number>): Record<string, number> {
@@ -85,9 +90,9 @@ export function getVVIQCategory(score: number): {
   label: string;
   description: string;
 } {
-  if (score <= 20) return { label: "Aphantasia", description: "You likely experience little to no visual mental imagery. This is a normal variation of human experience." };
+  if (score <= 20) return { label: "Little imagery", description: "In these answers, you describe little to no visual mental imagery. This is a normal variation of human experience." };
   if (score <= 40) return { label: "Low Vividness", description: "Your mental imagery is limited - you may see vague outlines or fleeting images rather than detailed scenes." };
-  if (score <= 60) return { label: "Average Vividness", description: "Your mental imagery is typical - you can visualize scenes with moderate detail and clarity." };
+  if (score <= 60) return { label: "Moderate vividness", description: "In these answers, you can visualize scenes with moderate detail and clarity." };
   if (score <= 80) return { label: "High Vividness", description: "Your mental imagery is quite vivid and detailed - you can easily picture scenes with clarity." };
-  return { label: "Hyperphantasia", description: "You experience extremely vivid mental imagery, almost as if seeing it with your eyes. This is a normal variation at the other end of the spectrum." };
+  return { label: "Very vivid imagery", description: "In these answers, you describe very vivid mental imagery, almost as if seeing it with your eyes. This is a normal variation at the other end of the spectrum." };
 }

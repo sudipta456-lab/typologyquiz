@@ -6,30 +6,30 @@ import { TestDefinition } from "../types";
 
 const questions = [
   // Extraversion
-  { id: "ipip_e01", text: "I am the life of the party.", type: "likert" as const, axis: "extraversion", direction: 1 as const },
-  { id: "ipip_e02", text: "I don't talk a lot.", type: "likert" as const, axis: "extraversion", direction: -1 as const },
-  { id: "ipip_e03", text: "I talk to a lot of different people at parties.", type: "likert" as const, axis: "extraversion", direction: 1 as const },
-  { id: "ipip_e04", text: "I keep in the background.", type: "likert" as const, axis: "extraversion", direction: -1 as const },
+  { id: "ipip_e01", text: "Am the life of the party.", type: "likert" as const, axis: "extraversion", direction: 1 as const },
+  { id: "ipip_e02", text: "Don't talk a lot.", type: "likert" as const, axis: "extraversion", direction: -1 as const },
+  { id: "ipip_e03", text: "Talk to a lot of different people at parties.", type: "likert" as const, axis: "extraversion", direction: 1 as const },
+  { id: "ipip_e04", text: "Keep in the background.", type: "likert" as const, axis: "extraversion", direction: -1 as const },
   // Agreeableness
-  { id: "ipip_a01", text: "I sympathize with others' feelings.", type: "likert" as const, axis: "agreeableness", direction: 1 as const },
-  { id: "ipip_a02", text: "I am not interested in other people's problems.", type: "likert" as const, axis: "agreeableness", direction: -1 as const },
-  { id: "ipip_a03", text: "I feel others' emotions.", type: "likert" as const, axis: "agreeableness", direction: 1 as const },
-  { id: "ipip_a04", text: "I am not really interested in others.", type: "likert" as const, axis: "agreeableness", direction: -1 as const },
+  { id: "ipip_a01", text: "Sympathize with others' feelings.", type: "likert" as const, axis: "agreeableness", direction: 1 as const },
+  { id: "ipip_a02", text: "Am not interested in other people's problems.", type: "likert" as const, axis: "agreeableness", direction: -1 as const },
+  { id: "ipip_a03", text: "Feel others' emotions.", type: "likert" as const, axis: "agreeableness", direction: 1 as const },
+  { id: "ipip_a04", text: "Am not really interested in others.", type: "likert" as const, axis: "agreeableness", direction: -1 as const },
   // Conscientiousness
-  { id: "ipip_c01", text: "I get chores done right away.", type: "likert" as const, axis: "conscientiousness", direction: 1 as const },
-  { id: "ipip_c02", text: "I often forget to put things back in their proper place.", type: "likert" as const, axis: "conscientiousness", direction: -1 as const },
-  { id: "ipip_c03", text: "I like order.", type: "likert" as const, axis: "conscientiousness", direction: 1 as const },
-  { id: "ipip_c04", text: "I make a mess of things.", type: "likert" as const, axis: "conscientiousness", direction: -1 as const },
+  { id: "ipip_c01", text: "Get chores done right away.", type: "likert" as const, axis: "conscientiousness", direction: 1 as const },
+  { id: "ipip_c02", text: "Often forget to put things back in their proper place.", type: "likert" as const, axis: "conscientiousness", direction: -1 as const },
+  { id: "ipip_c03", text: "Like order.", type: "likert" as const, axis: "conscientiousness", direction: 1 as const },
+  { id: "ipip_c04", text: "Make a mess of things.", type: "likert" as const, axis: "conscientiousness", direction: -1 as const },
   // Neuroticism
-  { id: "ipip_n01", text: "I have frequent mood swings.", type: "likert" as const, axis: "neuroticism", direction: 1 as const },
-  { id: "ipip_n02", text: "I am relaxed most of the time.", type: "likert" as const, axis: "neuroticism", direction: -1 as const },
-  { id: "ipip_n03", text: "I get upset easily.", type: "likert" as const, axis: "neuroticism", direction: 1 as const },
-  { id: "ipip_n04", text: "I seldom feel blue.", type: "likert" as const, axis: "neuroticism", direction: -1 as const },
+  { id: "ipip_n01", text: "Have frequent mood swings.", type: "likert" as const, axis: "neuroticism", direction: 1 as const },
+  { id: "ipip_n02", text: "Am relaxed most of the time.", type: "likert" as const, axis: "neuroticism", direction: -1 as const },
+  { id: "ipip_n03", text: "Get upset easily.", type: "likert" as const, axis: "neuroticism", direction: 1 as const },
+  { id: "ipip_n04", text: "Seldom feel blue.", type: "likert" as const, axis: "neuroticism", direction: -1 as const },
   // Openness (Intellect/Imagination)
-  { id: "ipip_o01", text: "I have a vivid imagination.", type: "likert" as const, axis: "openness", direction: 1 as const },
-  { id: "ipip_o02", text: "I am not interested in abstract ideas.", type: "likert" as const, axis: "openness", direction: -1 as const },
-  { id: "ipip_o03", text: "I have difficulty understanding abstract ideas.", type: "likert" as const, axis: "openness", direction: -1 as const },
-  { id: "ipip_o04", text: "I do not have a good imagination.", type: "likert" as const, axis: "openness", direction: -1 as const },
+  { id: "ipip_o01", text: "Have a vivid imagination.", type: "likert" as const, axis: "openness", direction: 1 as const },
+  { id: "ipip_o02", text: "Am not interested in abstract ideas.", type: "likert" as const, axis: "openness", direction: -1 as const },
+  { id: "ipip_o03", text: "Have difficulty understanding abstract ideas.", type: "likert" as const, axis: "openness", direction: -1 as const },
+  { id: "ipip_o04", text: "Do not have a good imagination.", type: "likert" as const, axis: "openness", direction: -1 as const },
 ];
 
 export const miniIPIP: TestDefinition = {
@@ -37,14 +37,23 @@ export const miniIPIP: TestDefinition = {
   title: "Big Five Personality (Mini-IPIP)",
   category: "personality",
   description:
-    "A quick, scientifically validated 20-item measure of the Big Five personality traits: Extraversion, Agreeableness, Conscientiousness, Neuroticism, and Openness.",
+    "Twenty public-domain Mini-IPIP items exploring five broad personality traits. A brief self-report profile, with evidence from the source instrument and no validation sample yet for this site version.",
   whatYoullLearn:
     "Your personality profile across the five dimensions that psychologists consider the building blocks of personality.",
   timeMinutes: 3,
   itemCount: 20,
   license: "Public domain - IPIP (International Personality Item Pool, ipip.ori.org)",
-  sourceUrl: "https://ipip.ori.org/",
-  questions,
+  sourceUrl: "https://ipip.ori.org/MiniIPIPKey.htm",
+  instructions: "Describe yourself as you generally are now. Rate how accurately each statement describes you. There are no right answers. Read each statement carefully; some are phrased in the opposite direction.",
+  responseOptions: [
+    { value: 1, label: "Very inaccurate" },
+    { value: 2, label: "Moderately inaccurate" },
+    { value: 3, label: "Neither accurate nor inaccurate" },
+    { value: 4, label: "Moderately accurate" },
+    { value: 5, label: "Very accurate" },
+  ],
+  // Interleave E, A, C, N, I as in the Mini-IPIP administration form.
+  questions: [0, 4, 8, 12, 16, 1, 5, 9, 13, 17, 2, 6, 10, 14, 18, 3, 7, 11, 15, 19].map(i => questions[i]),
   axes: [
     {
       key: "extraversion",
@@ -72,15 +81,15 @@ export const miniIPIP: TestDefinition = {
     },
     {
       key: "neuroticism",
-      label: "Emotional Stability",
+      label: "Emotional reactivity",
       lowLabel: "Resilient",
       highLabel: "Sensitive",
       description:
-        "Neuroticism reflects emotional reactivity. High scorers experience more anxiety and mood swings; low scorers are emotionally stable and calm. (Lower scores indicate higher emotional stability.)",
+        "Neuroticism reflects emotional reactivity. Higher scores reflect more frequent emotional shifts; lower scores reflect a calmer reported pattern. This is a trait description, not a measure of mental health.",
     },
     {
       key: "openness",
-      label: "Openness",
+      label: "Intellect / imagination",
       lowLabel: "Practical",
       highLabel: "Curious",
       description:
@@ -91,17 +100,10 @@ export const miniIPIP: TestDefinition = {
   funFacts: [
     "The Big Five model is the most widely accepted personality framework in academic psychology.",
     "Your personality traits are relatively stable over time, but they can gradually shift - conscientiousness tends to increase with age.",
-    "The Mini-IPIP was developed by Donnellan and colleagues in 2006 as a brief but reliable alternative to longer personality inventories.",
+    "Each trait uses four items. A short profile leaves out detail that a longer assessment can capture.",
   ],
   disclaimer:
     "This is a self-report snapshot based on the public-domain Mini-IPIP. It is not a clinical diagnosis. Personality is complex and varies across situations.",
-  norms: {
-    extraversion: { mean: 50, sd: 20 },
-    agreeableness: { mean: 60, sd: 18 },
-    conscientiousness: { mean: 55, sd: 20 },
-    neuroticism: { mean: 45, sd: 20 },
-    openness: { mean: 55, sd: 18 },
-  },
 };
 
 export function scoreMiniIPIP(answers: Record<string, number>): Record<string, number> {

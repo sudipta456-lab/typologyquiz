@@ -19,8 +19,10 @@
     "verify:editorial": "npm run validate:editorial && npm run test:editorial && npm run typecheck && npm run lint:editorial",
     "test:worker": "node --test tests/predictions-worker.test.mjs",
     "lint:predictions": "eslint worker src/lib/predictions src/components/predictions src/app/predictions tests/predictions-worker.test.mjs tests/predictions-client.test.ts",
-    "verify": "npm run verify:editorial && npm run test:worker && npm run lint:predictions && npm run test:predictions-client",
-    "test:predictions-client": "node --test tests/predictions-client.test.ts"
+    "verify": "npm run verify:editorial && npm run test:worker && npm run lint:predictions && npm run test:predictions-client && npm run test:assessments && npm run lint:assessments",
+    "test:predictions-client": "node --test tests/predictions-client.test.ts",
+    "test:assessments": "tsx --test tests/assessment-quality.test.ts",
+    "lint:assessments": "eslint src/lib/tests src/lib/results.ts src/lib/reflections.ts src/lib/result-card.ts src/lib/share.ts src/components/AssessmentEvidence.tsx src/components/ReflectionPanel.tsx src/components/ResultShareCard.tsx src/app/test src/app/compare src/app/reflections src/app/methodology src/app/about src/app/credits scripts/assessment-release.ts tests/assessment-quality.test.ts src/components/RadarChart.tsx src/components/ShareBlock.tsx"
   },
   "dependencies": {
     "next": "16.2.10",
@@ -36,6 +38,7 @@
     "eslint-config-next": "16.2.10",
     "sharp": "0.35.4",
     "tailwindcss": "^4",
+    "tsx": "^4.23.13",
     "typescript": "^5",
     "wrangler": "4.129.0"
   }

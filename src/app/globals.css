@@ -2630,3 +2630,59 @@ html[data-theme="dark"] .site-logo { background: #faf9f7; border-radius: 4px; }
 .kahoot-foot-hint { font-size: .875rem; }
 
 .kahoot-numeric-submit { color: #14141f; }
+
+/* Assessment evidence and private reflection, using the existing brand tokens. */
+.assessment-evidence { padding: 1.15rem 1.25rem; margin: 1.5rem 0; border: 1px solid var(--line); border-left: 4px solid #0795EA; background: var(--white); }
+.assessment-evidence p { margin: 0 0 .8rem; color: var(--ink-soft); font-size: .9375rem; line-height: 1.65; }
+.assessment-evidence .assessment-purpose { color: var(--ink); font-weight: 700; }
+.assessment-purpose span { font-weight: 400; }
+.assessment-evidence .assessment-version, .assessment-version { font-size: .8125rem; overflow-wrap: anywhere; }
+.assessment-legacy { padding-top: .75rem; border-top: 1px solid var(--line); }
+.assessment-instructions { color: var(--ink-soft); font-size: .9375rem; line-height: 1.6; margin: 1rem 1.25rem; }
+.assessment-options { display: grid; gap: .65rem; max-width: 40rem; margin: auto; }
+.assessment-option { display: flex; align-items: center; justify-content: space-between; min-height: 58px; text-align: left; gap: 1rem; border: 1px solid var(--ink-mute); border-radius: 5px; padding: .85rem 1rem; color: var(--ink); background: var(--white); cursor: pointer; }
+.assessment-option .kahoot-tile-shape { display: none; }
+.assessment-option .kahoot-tile-full { font-size: 1rem; font-weight: 600; }
+.assessment-option .kahoot-tile-key { position: static; color: var(--ink-soft); background: var(--paper); min-width: 28px; text-align: center; }
+.assessment-option:hover, .assessment-option.is-flash { border-color: #0795EA; box-shadow: inset 4px 0 #0795EA; }
+.assessment-option:focus-visible { outline: 3px solid #0795EA; outline-offset: 3px; }
+.assessment-error { padding: 1rem; border: 2px solid #F9684D; color: var(--ink); }
+.reflection-panel { margin: 1.5rem 0 2rem; border: 1px solid var(--line); border-top: 3px solid #07AD9C; background: var(--white); }
+.reflection-panel summary, .evidence-entry summary { cursor: pointer; padding: 1rem 1.25rem; min-height: 60px; color: var(--ink); font-weight: 650; font-size: 1.0625rem; }
+.reflection-panel summary small, .evidence-entry summary small { display: block; margin: .3rem 0 0 1.2rem; color: var(--ink-soft); font-size: .875rem; font-weight: 400; }
+.reflection-body { padding: 0 1.25rem 1.25rem; }
+.reflection-body p, .methodology-page p, .reflections-page p { line-height: 1.65; color: var(--ink-soft); }
+.reflection-body label { display: block; color: var(--ink); font-weight: 600; font-size: .9375rem; margin-top: 1.25rem; }
+.reflection-body label > span { display: block; font-weight: 400; font-size: .875rem; margin: .2rem 0 .4rem; color: var(--ink-soft); }
+.reflection-body select, .reflection-body textarea { display: block; width: 100%; margin-top: .4rem; padding: .75rem; border: 1px solid var(--ink-mute); border-radius: 4px; background: var(--paper); color: var(--ink); font: inherit; font-size: 1rem; font-weight: 400; min-height: 48px; }
+.reflection-body textarea { resize: vertical; }
+.reflection-body textarea::placeholder { color: var(--ink-mute); opacity: 1; }
+.reflection-selects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.reflection-body .reflection-privacy { font-size: .875rem; }
+.reflection-review { border: 1px solid var(--line); padding: 1rem; margin-top: 1.5rem; }
+.reflection-review legend { font-weight: 600; color: var(--ink); padding: 0 .5rem; }
+.reflection-actions { display: flex; align-items: center; flex-wrap: wrap; gap: .65rem 1rem; margin: 1.25rem 0; }
+.reflection-actions button, .reflection-actions a { min-height: 44px; display: inline-flex; align-items: center; }
+.reflection-status { min-height: 1.5rem; font-weight: 600; }
+.reflection-list { display: grid; gap: 1.1rem; margin: 2rem 0; }
+.methodology-page, .reflections-page { max-width: 1000px; }
+.methodology-principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 2rem 0; }
+.methodology-principles .content-card { padding: 1.25rem; }
+.evidence-directory { border-top: 1px solid var(--line); margin-top: 1.5rem; }
+.evidence-entry { border-bottom: 1px solid var(--line); scroll-margin-top: 7rem; }
+.evidence-entry:target { background: var(--white); border-left: 4px solid #0795EA; }
+.evidence-entry > div { padding: 0 1.25rem 1.25rem; }
+.methodology-footer { margin-top: 2rem; }
+@media (max-width: 680px) {
+  .reflection-selects, .methodology-principles { grid-template-columns: 1fr; gap: 0; }
+  .methodology-principles { gap: 1rem; }
+  .reflection-body, .reflection-panel summary, .evidence-entry summary { padding-left: 1rem; padding-right: 1rem; }
+  .assessment-evidence { padding: 1rem; }
+  .reflection-actions .btn-primary, .reflection-actions .btn-secondary { justify-content: center; width: 100%; }
+}
+
+.radar-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem 1.5rem; width: 100%; max-width: 420px; padding-left: 1.5rem; margin: 0 0 .5rem; font-size: .9375rem; line-height: 1.5; color: var(--ink); list-style: decimal; }
+.radar-legend li { padding-left: .1rem; }
+
+.assessment-release-details { margin: .75rem 0 1rem; color: var(--ink-soft); font-size: .875rem; }
+.assessment-release-details summary { cursor: pointer; min-height: 44px; padding: .65rem 0; }

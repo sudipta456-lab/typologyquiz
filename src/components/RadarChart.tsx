@@ -16,7 +16,7 @@ export function RadarChart({ scores, axes, color }: Props) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <svg viewBox={`0 0 ${size} ${size}`} style={{ width: "100%", maxWidth: 300 }} role="img" aria-label="Radar chart">
+      <svg viewBox={`0 0 ${size} ${size}`} style={{ width: "100%", maxWidth: 300 }} role="img" aria-label="Radar chart of scale scores, from 0 at the centre to 100 at the edge. Numbered traits are listed below.">
         {Array.from({ length: levels }, (_, i) => {
           const r = (maxRadius / levels) * (i + 1);
           const points = axes.map((_, j) => {
@@ -39,9 +39,10 @@ export function RadarChart({ scores, axes, color }: Props) {
         {axes.map((axis, i) => {
           const angle = angleSlice * i - Math.PI / 2;
           const labelR = maxRadius + 22;
-          return <text key={i} x={center + labelR * Math.cos(angle)} y={center + labelR * Math.sin(angle)} textAnchor="middle" dominantBaseline="middle" fill="var(--ink-soft)" fontSize={10}>{axis.label}</text>;
+          return <text key={axis.key} x={center + labelR * Math.cos(angle)} y={center + labelR * Math.sin(angle)} textAnchor="middle" dominantBaseline="middle" fill="var(--ink)" fontSize={14} fontWeight={600}>{i + 1}</text>;
         })}
       </svg>
+      <ol className="radar-legend">{axes.map(axis => <li key={axis.key}>{axis.label}</li>)}</ol>
     </div>
   );
 }

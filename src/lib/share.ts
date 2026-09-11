@@ -25,7 +25,7 @@ export function resultShareText(
   const headline = resultLabel
     ? `My ${testTitle} result: ${resultLabel}.`
     : `I took the ${testTitle} on TypologyQuiz.`;
-  return `${headline} Free, private, scored in-browser. Try it: ${url}`;
+  return `${headline} A self-reflection snapshot, scored in my browser. Try it: ${url}`;
 }
 
 export function resultCaptionShort(

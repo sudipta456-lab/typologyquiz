@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import { SITE } from "@/lib/site";
 import { resultNetworks, resultShareText } from "@/lib/share";
 import { useSiteOrigin } from "@/lib/use-site-origin";
@@ -44,15 +44,13 @@ async function copyText(text: string): Promise<boolean> {
   }
 }
 
+const subscribeToHydration = () => () => {};
+
 export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props) {
   const [status, setStatus] = useState<string | null>(null);
-  const [canNativeShare, setCanNativeShare] = useState(false);
+  const canNativeShare = useSyncExternalStore(subscribeToHydration, () => typeof navigator !== "undefined" && !!navigator.share, () => false);
   const origin = useSiteOrigin();
 
-  // Checked after mount so the button label can't cause a hydration mismatch.
-  useEffect(() => {
-    setCanNativeShare(typeof navigator !== "undefined" && !!navigator.share);
-  }, []);
 
   const shareUrl = useMemo(
     () => `${origin}/test/${testSlug}/results/?r=${encodeURIComponent(encoded)}`,
@@ -148,7 +146,7 @@ export function ShareBlock({ testSlug, testTitle, encoded, resultLabel }: Props)
       {!short.shortUrl && (
         <p className="share-note" style={{ marginTop: -4, marginBottom: 12 }}>
           A short link stores this result on our server so the code can point
-          back to it. The long link below never does.
+          back to it. Both link formats reveal the result to anyone who opens them.
         </p>
       )}
       {short.error && <p className="share-status">{short.error}</p>}

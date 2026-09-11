@@ -88,7 +88,7 @@ const SECTIONS = [
   `${totalDrivingQs} driving licence practice questions across ${JURISDICTIONS.length} jurisdictions. These do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.`,
   `${TRIVIA_QUIZZES.length} trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.`,
   "Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.",
-  "Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. These carry their whole state inside the share link and store nothing on any server.",
+  "Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. These carry their state inside share links; opening or sharing a link exposes its contents to recipients and hosting services.",
 ];
 
 // ---------------------------------------------------------------------------
@@ -96,7 +96,7 @@ const SECTIONS = [
 L.push(`# ${SITE.legalName}`);
 L.push("");
 L.push(
-  "> Free quizzes for people who like finding things out: personality and typology quizzes, timed geography and science trivia, driving licence practice tests, three daily minis, and party games for a group chat. No account, no ads, no paywall. Everything is scored in the browser and nothing is uploaded."
+  "> Free quizzes for people who like finding things out: personality and typology quizzes, timed geography and science trivia, driving licence practice tests, three daily minis, and party games for a group chat. No account, no ads, no paywall. Scoring runs in the browser. Personality answers and reflection notes stay on the device; result links contain score summaries, optional short links store those summaries on the server, and trivia submits aggregate score statistics."
 );
 L.push("");
 L.push(`Website: ${base}`);

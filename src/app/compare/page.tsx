@@ -3,11 +3,14 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { decodeResult } from "@/lib/results";
-import { getTest } from "@/lib/tests/registry";
+import { comparableResults, reportDefinition } from "@/lib/tests/assessment-versions";
+import type { TestResult } from "@/lib/types";
 import { recordBadgeEvent } from "@/lib/progress-game";
 
 type Side = {
   raw: string;
+  result?: TestResult;
+  axisLabels?: Record<string, string>;
   error?: string;
   title?: string;
   typeLabel?: string;
@@ -43,10 +46,12 @@ function parseInput(raw: string): Side {
   const decoded = decodeResult(encoded);
   if (!decoded) return { raw: trimmed, error: "Could not read that result" };
 
-  const test = getTest(decoded.result.testSlug);
+  const test = reportDefinition(decoded.result);
   const extras = decoded.extras || {};
   return {
     raw: trimmed,
+    result: decoded.result,
+    axisLabels: Object.fromEntries((test?.axes ?? []).map(a => [a.key, a.label])),
     title: test?.title || decoded.result.testSlug,
     typeLabel:
       (typeof extras.label === "string" && extras.label) ||
@@ -70,19 +75,7 @@ export default function ComparePage() {
   useEffect(() => {
     if (ready) recordBadgeEvent("comparer");
   }, [ready]);
-  const sameTest =
-    ready &&
-    a &&
-    b &&
-    (() => {
-      const da = decodeResult(
-        a.includes("r=") ? (a.match(/[?&]r=([^&]+)/)?.[1] || "") : a
-      );
-      const db = decodeResult(
-        b.includes("r=") ? (b.match(/[?&]r=([^&]+)/)?.[1] || "") : b
-      );
-      return da && db && da.result.testSlug === db.result.testSlug;
-    })();
+  const compatible = !!left.result && !!right.result && comparableResults(left.result, right.result);
 
   const allKeys = useMemo(() => {
     if (!left.scores || !right.scores) return [] as string[];
@@ -96,8 +89,7 @@ export default function ComparePage() {
       <p className="eyebrow">Friend compare</p>
       <h1 className="section-title">Compare results</h1>
       <p className="section-lead">
-        Paste two result links (or the code from the URL after <code>r=</code>). Best when both
-        took the same test.
+        Paste two result links (or the code from the URL after <code>r=</code>). Scores can be compared only when both people used the same test version and wording.
       </p>
 
       <div className="compare-inputs">
@@ -133,9 +125,9 @@ export default function ComparePage() {
 
       {ready && (
         <div className="compare-board">
-          {!sameTest && (
+          {!compatible && (
             <p className="compare-warn">
-              Different tests. Labels still show, but scores may not line up 1:1.
+              These results use different tests, different versions, or an unrecorded older version. We show their descriptions without comparing scores.
             </p>
           )}
           <div className="compare-heads">
@@ -154,15 +146,15 @@ export default function ComparePage() {
             </div>
           </div>
 
-          {allKeys.length > 0 && (
+          {compatible && allKeys.length > 0 && (
             <div className="compare-scores">
-              <h2 className="test-block-title">Score face-off</h2>
+              <h2 className="test-block-title">Scale scores · 0–100</h2>
               {allKeys.map((key) => {
                 const va = left.scores?.[key] ?? 0;
                 const vb = right.scores?.[key] ?? 0;
                 return (
                   <div key={key} className="compare-row">
-                    <span className="compare-axis">{key.replace(/_/g, " ")}</span>
+                    <span className="compare-axis">{left.axisLabels?.[key] ?? key.replace(/_/g, " ")}</span>
                     <div className="compare-bars">
                       <div className="compare-bar-wrap">
                         <div className="compare-bar a" style={{ width: `${va}%` }} />
@@ -180,7 +172,7 @@ export default function ComparePage() {
           )}
 
           <p className="compare-foot">
-            Same type? Instant duo lore. Different? Debate in the group chat.
+            Differences in these self-reports do not measure compatibility or explain why two people differ.
           </p>
         </div>
       )}

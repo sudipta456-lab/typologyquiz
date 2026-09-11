@@ -23,6 +23,7 @@ export type CardArt = {
 
 export type CardPayload = {
   testTitle: string;
+  assessmentNote?: string;
   typeLabel?: string;
   typeDescription?: string;
   scores?: Record<string, number>;
@@ -580,20 +581,20 @@ function paintResultCard(
   ctx.stroke();
 
   let footY = footerTop + (format === "story" ? 48 : 40);
-  ctx.fillStyle = "rgba(255,255,255,0.4)";
+  ctx.fillStyle = "rgba(255,255,255,0.78)";
   ctx.font = "500 22px IBM Plex Mono, monospace";
   ctx.fillText(SITE.url.replace(/^https?:\/\//, ""), pad, footY);
 
   if (payload.displayName) {
     footY += 36;
-    ctx.fillStyle = "rgba(255,255,255,0.55)";
+    ctx.fillStyle = "rgba(255,255,255,0.78)";
     ctx.font = "600 24px Inter, system-ui, sans-serif";
     ctx.fillText(`@${payload.displayName}`, pad, footY);
   }
 
-  ctx.fillStyle = "rgba(255,255,255,0.28)";
+  ctx.fillStyle = "rgba(255,255,255,0.78)";
   ctx.font = "500 20px Inter, system-ui, sans-serif";
-  ctx.fillText("Free · Private · In-browser", pad, H - 40);
+  ctx.fillText(payload.assessmentNote ?? "Free · Scored in your browser", pad, H - 40);
 }
 
 export function downloadCanvas(canvas: HTMLCanvasElement, filename: string) {
