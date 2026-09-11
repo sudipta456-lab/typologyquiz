@@ -57,7 +57,7 @@ export function ArcMeter({ score, label, lowLabel, highLabel, color, category }:
             strokeLinecap="round"
             style={{ transition: "all 1s ease" }}
           />
-          <circle cx={CX} cy={CY} r={5} fill="#14141f" />
+          <circle cx={CX} cy={CY} r={5} fill="var(--ink)" />
           <circle
             cx={knob.x}
             cy={knob.y}
@@ -67,10 +67,10 @@ export function ArcMeter({ score, label, lowLabel, highLabel, color, category }:
             strokeWidth={2}
             style={{ transition: "all 1s ease" }}
           />
-          <text x={CX} y={CY - 26} textAnchor="middle" fill="#1a1a2e" fontSize={38} fontWeight={700}>
+          <text x={CX} y={CY - 26} textAnchor="middle" fill="var(--ink)" fontSize={38} fontWeight={700}>
             {pct}
           </text>
-          <text x={CX} y={CY - 8} textAnchor="middle" fill="#8b93a0" fontSize={12}>
+          <text x={CX} y={CY - 8} textAnchor="middle" fill="var(--ink-mute)" fontSize={12}>
             /100
           </text>
         </svg>
@@ -78,8 +78,8 @@ export function ArcMeter({ score, label, lowLabel, highLabel, color, category }:
           style={{
             display: "flex",
             justifyContent: "space-between",
-            fontSize: "0.75rem",
-            color: "#8b93a0",
+            fontSize: "0.875rem",
+            color: "var(--ink-mute)",
             marginTop: -4,
           }}
         >
@@ -89,8 +89,8 @@ export function ArcMeter({ score, label, lowLabel, highLabel, color, category }:
       </div>
       {category && (
         <div style={{ marginTop: 16, textAlign: "center" }}>
-          <div style={{ fontSize: "1.1rem", fontWeight: 700, color }}>{category.label}</div>
-          <p style={{ fontSize: "0.85rem", color: "#5a6170", maxWidth: 320, marginTop: 4 }}>{category.description}</p>
+          <div style={{ fontSize: "1.1rem", fontWeight: 700, color: "var(--ink)" }}>{category.label}</div>
+          <p style={{ fontSize: "0.875rem", color: "var(--ink-soft)", maxWidth: 320, marginTop: 4 }}>{category.description}</p>
         </div>
       )}
     </div>

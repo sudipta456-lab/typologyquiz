@@ -83,8 +83,8 @@ export function OrbitChart({ scores, axes, color, category }: Props) {
           );
         })}
 
-        <circle cx={center} cy={center} r={17} fill="#1a1a2e" />
-        <text x={center} y={center} textAnchor="middle" dominantBaseline="middle" fill="#ffffff" fontSize={8} letterSpacing={1}>
+        <circle cx={center} cy={center} r={17} fill="var(--ink)" />
+        <text x={center} y={center} textAnchor="middle" dominantBaseline="middle" fill="var(--white)" fontSize={8} letterSpacing={1}>
           YOU
         </text>
 
@@ -97,7 +97,7 @@ export function OrbitChart({ scores, axes, color, category }: Props) {
               y={n.labelY}
               textAnchor={n.anchor}
               dominantBaseline="middle"
-              fill={isTop ? "#14141f" : "#5a6170"}
+              fill={isTop ? "var(--ink)" : "var(--ink-soft)"}
               fontSize={10}
               fontWeight={isTop ? 700 : 400}
             >
@@ -106,11 +106,11 @@ export function OrbitChart({ scores, axes, color, category }: Props) {
           );
         })}
       </svg>
-      <p style={{ fontSize: "0.75rem", color: "#8b93a0", marginTop: 8 }}>Closer to the centre means a stronger pull</p>
+      <p style={{ fontSize: "0.875rem", color: "var(--ink-mute)", marginTop: 8 }}>Closer to the centre means a stronger pull</p>
       {category && (
         <div style={{ marginTop: 16, textAlign: "center" }}>
-          <div style={{ fontSize: "1.1rem", fontWeight: 700, color }}>{category.label}</div>
-          <p style={{ fontSize: "0.85rem", color: "#5a6170", maxWidth: 320, marginTop: 4 }}>{category.description}</p>
+          <div style={{ fontSize: "1.1rem", fontWeight: 700, color: "var(--ink)" }}>{category.label}</div>
+          <p style={{ fontSize: "0.875rem", color: "var(--ink-soft)", maxWidth: 320, marginTop: 4 }}>{category.description}</p>
         </div>
       )}
     </div>

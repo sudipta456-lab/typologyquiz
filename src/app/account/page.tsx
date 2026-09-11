@@ -145,7 +145,7 @@ export default function AccountPage() {
 
         <div className="share-actions" style={{ padding: 0 }}>
           <button type="submit" className="btn-primary share-btn">
-            {profile ? (saved ? "Saved" : "Save profile") : "Create account"}
+            {profile ? (saved ? "Saved" : "Save profile") : "Save display name"}
           </button>
           {profile && (
             <button type="button" className="share-btn share-btn-outline" onClick={handleClear}>
@@ -183,6 +183,7 @@ export default function AccountPage() {
                 key={m}
                 type="button"
                 className={theme === m ? "tone-btn is-on" : "tone-btn"}
+                aria-pressed={theme === m}
                 onClick={() => changeTheme(m)}
               >
                 {m}

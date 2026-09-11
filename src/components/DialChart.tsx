@@ -28,10 +28,10 @@ export function DialChart({ correctCount, totalQuestions, color }: Props) {
       <svg viewBox={`0 0 ${size} ${size}`} style={{ width: "100%", maxWidth: 220 }} role="img" aria-label="Score dial">
         <path d={arc(180, 360)} fill="none" stroke="#e8ecf1" strokeWidth={sw} strokeLinecap="round" />
         <path d={arc(180, 180 + fraction * 180)} fill="none" stroke={color} strokeWidth={sw} strokeLinecap="round" />
-        <text x={center} y={center - 8} textAnchor="middle" fill="#1a1a2e" fontSize={28} fontWeight="bold">{correctCount}/{totalQuestions}</text>
-        <text x={center} y={center + 16} textAnchor="middle" fill="#8b93a0" fontSize={12}>{Math.round(fraction * 100)}%</text>
+        <text x={center} y={center - 8} textAnchor="middle" fill="var(--ink)" fontSize={28} fontWeight="bold">{correctCount}/{totalQuestions}</text>
+        <text x={center} y={center + 16} textAnchor="middle" fill="var(--ink-mute)" fontSize={12}>{Math.round(fraction * 100)}%</text>
       </svg>
-      <p style={{ fontSize: "0.85rem", color: "#5a6170", marginTop: 12, textAlign: "center", maxWidth: 280 }}>{ctx()}</p>
+      <p style={{ fontSize: "0.875rem", color: "var(--ink-soft)", marginTop: 12, textAlign: "center", maxWidth: 280 }}>{ctx()}</p>
     </div>
   );
 }

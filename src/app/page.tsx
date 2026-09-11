@@ -1,265 +1,37 @@
-"use client";
-
 import Link from "next/link";
 import { TESTS } from "@/lib/tests/registry";
-import { JURISDICTION_SUMMARIES } from "@/lib/driving/summary.generated";
-import { CATEGORY_META } from "@/lib/types";
-import { InviteFriends } from "@/components/InviteFriends";
-import { StartHere } from "@/components/StartHere";
-import { CommunityPulse } from "@/components/CommunityPulse";
+import { QuizShelf } from "@/components/QuizShelf";
+import { RegionPicker } from "@/components/RegionPicker";
+import { latestEditions } from "@/lib/newsquiz/editions";
+import { editionPath } from "@/lib/editorial/identity";
 
-const CATEGORY_CODE: Record<string, string> = {
-  personality: "PERS",
-  values: "VAL",
-  thinking: "THNK",
-  perception: "PERC",
-  character: "CHAR",
-};
-
-export default function Home() {
-  return (
-    <>
-      <section className="hero">
-        <div className="hero-inner">
-          <div className="hero-copy">
-            <span className="eyebrow">Free · Private · Research-based</span>
-            <h1 className="hero-title">
-              Figure yourself out
-              <br />
-              <em>before everyone else does</em>
-            </h1>
-            <p className="hero-lead">
-              Free quizzes for how you think, vibe with friends, and show up in the world. Scored in
-              your browser. No account, no paywall, no lecture.
-            </p>
-            <div className="hero-cta">
-              <Link href="/test/friend-role" className="btn-primary btn-lg">
-                Start with Friend Role
-              </Link>
-              <Link href="/tests" className="btn-outline btn-lg">
-                Browse all tests
-              </Link>
-            </div>
-            <p className="hero-path-hint">
-              2 min · most shareable · then{" "}
-              <Link href="/room" className="text-link">
-                challenge your group
-              </Link>
-            </p>
-          </div>
-
-          <div className="hero-visual" aria-hidden="true">
-            <div className="hero-visual-bg" />
-            <img
-              src="/assets/puzzle-head.png"
-              alt=""
-              className="hero-puzzle"
-              width={420}
-              height={480}
-            />
-          </div>
-        </div>
-      </section>
-
-      <StartHere />
-
-      <section id="quizzes" className="band band-light">
-        <div className="section">
-          <div className="section-header">
-            <div>
-              <h2 className="section-title">All tests</h2>
-              <p className="section-sub">Pick one. Answer honestly. See what shows up.</p>
-            </div>
-            <Link href="/tests" className="text-link">
-              Full catalog →
-            </Link>
-          </div>
-          <div className="card-grid">
-            {TESTS.slice(0, 6).map((test) => {
-              const meta = CATEGORY_META[test.category as keyof typeof CATEGORY_META];
-              const code = CATEGORY_CODE[test.category] || "TEST";
-              return (
-                <Link key={test.slug} href={`/test/${test.slug}`} className="quiz-card">
-                  <div className="quiz-card-top">
-                    <div className="quiz-emoji" aria-hidden="true">
-                      {code}
-                    </div>
-                    <div>
-                      <h3 className="quiz-card-title">{test.title}</h3>
-                      <span className="quiz-meta">
-                        {test.itemCount} items · ~{test.timeMinutes} min · {meta.label}
-                      </span>
-                    </div>
-                  </div>
-                  <p className="quiz-card-desc">{test.description}</p>
-                </Link>
-              );
-            })}
-          </div>
-          {TESTS.length > 6 && (
-            <p style={{ marginTop: 20, textAlign: "center" }}>
-              <Link href="/tests" className="text-link">
-                See all {TESTS.length} tests →
-              </Link>
-            </p>
-          )}
-        </div>
-      </section>
-
-      {/* Driving practice. Different promise from the quizzes - these have right
-          answers and a real exam on the other side - so it gets its own band
-          rather than being mixed into the quiz grid. */}
-      <section className="band">
-        <div className="section">
-          <p className="eyebrow">Learning to drive</p>
-          <h2 className="section-title">Driving licence practice tests</h2>
-          <p className="section-lead">
-            Real exam format, scored the way the real test is scored. Every answer
-            explains the rule behind it and links to the official handbook. Free,
-            no account, no ads.
-          </p>
-
-          <div className="card-grid" style={{ marginTop: 24 }}>
-            {JURISDICTION_SUMMARIES.map((j) => (
-              <Link key={j.slug} href={`/driving/${j.slug}`} className="quiz-card">
-                <div className="quiz-card-top">
-                  <div className="quiz-emoji" aria-hidden="true">
-                    {j.code}
-                  </div>
-                  <div>
-                    <h3 className="quiz-card-title">{j.name}</h3>
-                    <span className="quiz-meta">
-                      {j.licenceName} · {j.setCount} sets · {j.questionCount}{" "}
-                      questions
-                    </span>
-                  </div>
-                </div>
-                <p className="quiz-card-desc">{j.intro}</p>
-              </Link>
-            ))}
-          </div>
-
-          <p style={{ marginTop: 20, textAlign: "center" }}>
-            <Link href="/driving" className="text-link">
-              All driving practice tests →
-            </Link>
-          </p>
-        </div>
-      </section>
-
-      <section className="band band-cream">
-        <div className="section split">
-          <div className="split-media onion-media">
-            <img
-              src="/assets/onion_big.png"
-              alt="Peeled onion with a question mark at its center"
-              className="onion-img"
-              width={736}
-              height={574}
-            />
-          </div>
-          <div className="split-copy">
-            <h2 className="section-title tight onion-heading">How we peel the onion</h2>
-            <div className="steps">
-              {steps.map((s, i) => (
-                <div key={i} className="step">
-                  <div className="step-num">{String(i + 1).padStart(2, "0")}</div>
-                  <div>
-                    <h4 className="step-title">{s.title}</h4>
-                    <p className="step-desc">{s.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <Link href="/tests" className="btn-primary">
-              Peel your onion
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="band">
-        <div className="section">
-          <div className="stats-grid">
-            <div className="stat-card">
-              <div className="stat-num">{TESTS.length}</div>
-              <div className="stat-label">Free tests, not vibes</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-num">0</div>
-              <div className="stat-label">Accounts, trackers, or paywalls</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-num">100%</div>
-              <div className="stat-label">Scoring runs on your device</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <InviteFriends />
-
-      <CommunityPulse />
-
-      <section className="band band-light">
-        <div className="section split reverse">
-          <div className="split-media">
-            <div className="profile-card">
-              <div className="profile-card-top">
-                <span className="profile-card-title">Sample result sheet</span>
-                <span className="badge-new">Local only</span>
-              </div>
-              <div className="profile-brand">
-                <img src="/assets/typologyquiz-mark.svg" alt="" width={28} height={28} />
-                <div>
-                  <div className="profile-brand-name">TypologyQuiz</div>
-                  <div className="profile-brand-sub">Illustrative layout</div>
-                </div>
-              </div>
-              <hr className="profile-hr" />
-              <div className="profile-rows">
-                <div className="profile-row">
-                  <span>Openness</span>
-                  <span>72</span>
-                </div>
-                <div className="profile-row">
-                  <span>Conscientiousness</span>
-                  <span>41</span>
-                </div>
-                <div className="profile-row">
-                  <span>Shareable link</span>
-                  <span>Optional</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="split-copy">
-            <h2 className="section-title tight">A report, not a horoscope</h2>
-            <p className="section-lead">
-              Trait scores, percentiles where the instrument supports them, and a plain-language
-              breakdown. Share a link if you want, or keep it to yourself.
-            </p>
-            <Link href="/tests" className="btn-primary">
-              Browse tests
-            </Link>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
-
-const steps = [
-  {
-    title: "Embrace the doubt",
-    desc: "Start where certainty ends. Choose a test that might challenge how you see yourself: friends, focus, values, or vibe.",
-  },
-  {
-    title: "Answer honestly",
-    desc: "Nobody is grading you. Skip the answer that sounds cool. First instinct usually tells you more than the performative one.",
-  },
-  {
-    title: "See and share your results",
-    desc: "Get a clear breakdown scored on your device. Keep it private, or send a results link if you want a second opinion.",
-  },
+const selections = [
+  { slug: "friend-role", tone: "blue" },
+  { slug: "social-battery", tone: "teal" },
+  { slug: "brain-2am", tone: "pink" },
+  { slug: "mini-ipip", tone: "coral", description: "Explore five traits: openness, conscientiousness, extraversion, agreeableness, and neuroticism." },
+  { slug: "overthinker-level", tone: "blue" },
 ];
+export default function Home() {
+  const picks = selections.map(pick => { const test = TESTS.find(test => test.slug === pick.slug)!; return { ...pick, title: test.title, description: pick.description ?? test.description, timeMinutes: test.timeMinutes, itemCount: test.itemCount }; });
+  const editions = latestEditions().slice(0, 2);
+  return <div className="discovery section">
+    <div className="discovery-intro"><h1>Find your next quiz.</h1><p>A few minutes for yourself, a challenge for friends, or practice for your learner’s test.</p></div>
+    <nav className="discovery-paths" aria-label="Explore quiz categories">
+      <Link className="tone-blue" href="/tests/"><span>Personality <span aria-hidden="true">↗</span></span><small>Traits & habits</small></Link>
+      <Link className="tone-coral" href="/trivia/"><span>Trivia <span aria-hidden="true">↗</span></span><small>Maps & knowledge</small></Link>
+      <Link className="tone-teal" href="/driving/"><span>Driving <span aria-hidden="true">↗</span></span><small>Learner’s test prep</small></Link>
+      <Link className="tone-pink" href="/friends/"><span>With friends <span aria-hidden="true">↗</span></span><small>Quizzes to share</small></Link>
+    </nav>
+    <QuizShelf picks={picks} />
+    <div className="discovery-columns">
+      <section className="knowledge-picks"><p className="eyebrow">Against the clock</p><div className="discovery-section-head"><h2>How many can you name?</h2></div>
+        {[["us-states", "50", "US states", "Fill the map, one state at a time."], ["countries-of-the-world", "196", "Countries of the world", "See how far your geography takes you."], ["periodic-table", "118", "The periodic table", "From hydrogen to oganesson."]].map(([slug, number, title, desc]) => <Link key={slug} className="knowledge-row" href={`/trivia/${slug}/`}><span className="knowledge-number">{number}</span><span><strong>{title}</strong><small>{desc}</small></span><span aria-hidden="true">↗</span></Link>)}
+        <Link href="/trivia/" className="text-link shelf-browse">All trivia & map quizzes →</Link>
+      </section>
+      <section className="news-feature"><p className="eyebrow">The news quiz archive</p><h2>Remember the headlines?</h2><p>Choose a dated round and see what stuck. Each answer includes sources to read further.</p><div className="news-editions">{editions.map(edition => <Link key={edition.id} href={editionPath(edition)}><time dateTime={edition.publishedAt}>{new Intl.DateTimeFormat("en", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(edition.publishedAt))}</time><strong>{edition.title} <span aria-hidden="true">↗</span></strong></Link>)}</div><Link href="/weekly/" className="text-link">Browse editions & follow a series →</Link></section>
+    </div>
+    <section className="driving-discovery"><div><p className="eyebrow">Before you take the wheel</p><h2>Practice for your learner’s test.</h2><p>Road signs, rules, and explanations linked to the official handbook. Start with where you’ll take the test.</p><Link href="/driving/" className="text-link">Browse all locations →</Link></div><RegionPicker /></section>
+    <section className="friends-discovery"><p className="eyebrow">Better with a second opinion</p><div className="discovery-section-head"><h2>Send the group chat something to do.</h2><Link href="/friends/" className="text-link">Ways to play together →</Link></div><div className="friend-options"><Link href="/friend-quiz/"><strong>How well do they know you? <span aria-hidden="true">↗</span></strong><p>Make a quiz about yourself. Send the link and let your friends try.</p></Link><Link href="/compare/"><strong>Same quiz. Different people. <span aria-hidden="true">↗</span></strong><p>Put two personality results side by side and compare your traits.</p></Link></div></section>
+  </div>;
+}

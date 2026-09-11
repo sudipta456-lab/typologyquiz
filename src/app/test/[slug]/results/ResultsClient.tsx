@@ -141,7 +141,7 @@ function ResultsContent() {
               <div style={{ textAlign: "center", marginBottom: 20 }}>
                 <div
                   className="font-display"
-                  style={{ fontSize: "1.45rem", fontWeight: 600, color: "#14141f" }}
+                  style={{ fontSize: "1.45rem", fontWeight: 600, color: "var(--ink)" }}
                 >
                   {category.label}
                 </div>
@@ -149,7 +149,7 @@ function ResultsContent() {
                   <p
                     style={{
                       fontSize: "0.95rem",
-                      color: "#3d4250",
+                      color: "var(--ink-soft)",
                       maxWidth: 440,
                       margin: "10px auto 0",
                       lineHeight: 1.55,
@@ -276,7 +276,7 @@ function ResultsContent() {
         <p
           style={{
             fontSize: "0.7rem",
-            color: "#6b7280",
+            color: "var(--ink-mute)",
             textAlign: "center",
             margin: "0 0 0.35rem",
             fontFamily: "IBM Plex Mono, ui-monospace, monospace",
@@ -291,7 +291,7 @@ function ResultsContent() {
           style={{
             fontSize: "1.65rem",
             fontWeight: 600,
-            color: "#14141f",
+            color: "var(--ink)",
             textAlign: "center",
             margin: "0 0 1.25rem",
           }}
@@ -310,7 +310,7 @@ function ResultsContent() {
                 width: 112,
                 height: 112,
                 borderRadius: 20,
-                border: "1px solid #e2e0db",
+                border: "1px solid var(--line)",
                 display: "block",
               }}
             />
@@ -325,15 +325,15 @@ function ResultsContent() {
           style={{
             fontSize: "1.15rem",
             fontWeight: 600,
-            color: "#14141f",
+            color: "var(--ink)",
             marginBottom: 12,
             paddingBottom: 8,
-            borderBottom: "1px solid #e2e0db",
+            borderBottom: "1px solid var(--line)",
           }}
         >
           Your stats
         </h2>
-        <div style={{ display: "flex", flexDirection: "column", gap: 0, border: "1px solid #e2e0db" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 0, border: "1px solid var(--line)" }}>
           {t.axes.map((axis) => {
             const score = result.scores[axis.key] ?? 50;
             const percentile = result.percentiles?.[axis.key];
@@ -342,8 +342,8 @@ function ResultsContent() {
                 key={axis.key}
                 style={{
                   padding: "1rem 1.1rem",
-                  borderBottom: "1px solid #e2e0db",
-                  background: "#fff",
+                  borderBottom: "1px solid var(--line)",
+                  background: "var(--white)",
                 }}
               >
                 <div
@@ -354,13 +354,13 @@ function ResultsContent() {
                     marginBottom: 8,
                   }}
                 >
-                  <span style={{ fontWeight: 600, color: "#14141f" }}>{axis.label}</span>
+                  <span style={{ fontWeight: 600, color: "var(--ink)" }}>{axis.label}</span>
                   <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                     <span
                       style={{
                         fontSize: "0.9rem",
                         fontWeight: 600,
-                        color: "#14141f",
+                        color: "var(--ink)",
                         fontFamily: "IBM Plex Mono, ui-monospace, monospace",
                       }}
                     >
@@ -370,7 +370,7 @@ function ResultsContent() {
                       <span
                         style={{
                           fontSize: "0.72rem",
-                          color: "#6b7280",
+                          color: "var(--ink-mute)",
                           fontFamily: "IBM Plex Mono, ui-monospace, monospace",
                         }}
                       >
@@ -382,7 +382,7 @@ function ResultsContent() {
                 <div
                   style={{
                     height: 4,
-                    background: "#e2e0db",
+                    background: "var(--line)",
                     overflow: "hidden",
                     marginBottom: 8,
                   }}
@@ -401,7 +401,7 @@ function ResultsContent() {
                     display: "flex",
                     justifyContent: "space-between",
                     fontSize: "0.72rem",
-                    color: "#6b7280",
+                    color: "var(--ink-mute)",
                     fontFamily: "IBM Plex Mono, ui-monospace, monospace",
                   }}
                 >
@@ -419,7 +419,7 @@ function ResultsContent() {
           <div style={{ fontSize: "2rem", fontWeight: 700, color: accentColor, marginBottom: 4 }}>
             {result.correctCount}/{result.totalQuestions}
           </div>
-          <p style={{ fontSize: "0.9rem", color: "#5a6170", margin: 0 }}>
+          <p style={{ fontSize: "0.9rem", color: "var(--ink-soft)", margin: 0 }}>
             You got {result.correctCount} out of {result.totalQuestions} correct.
           </p>
         </div>
@@ -432,24 +432,24 @@ function ResultsContent() {
             style={{
               fontSize: "1.1rem",
               fontWeight: 600,
-              color: "#14141f",
+              color: "var(--ink)",
               marginBottom: 12,
               paddingBottom: 8,
-              borderBottom: "1px solid #e2e0db",
+              borderBottom: "1px solid var(--line)",
             }}
           >
             Quick context
           </h2>
-          <div style={{ display: "flex", flexDirection: "column", border: "1px solid #e2e0db" }}>
+          <div style={{ display: "flex", flexDirection: "column", border: "1px solid var(--line)" }}>
             {t.funFacts.map((fact, i) => (
               <div
                 key={i}
                 style={{
                   padding: "0.85rem 1rem",
-                  borderBottom: i < t.funFacts.length - 1 ? "1px solid #e2e0db" : "none",
-                  background: "#fff",
+                  borderBottom: i < t.funFacts.length - 1 ? "1px solid var(--line)" : "none",
+                  background: "var(--white)",
                   fontSize: "0.88rem",
-                  color: "#3d4250",
+                  color: "var(--ink-soft)",
                   lineHeight: 1.55,
                 }}
               >
@@ -464,7 +464,7 @@ function ResultsContent() {
         <h3 className="font-display" style={{ fontSize: "1rem", fontWeight: 600, margin: "0 0 0.4rem" }}>
           Heads up
         </h3>
-        <p style={{ fontSize: "0.85rem", color: "#3d4250", margin: 0, lineHeight: 1.55 }}>
+        <p style={{ fontSize: "0.85rem", color: "var(--ink-soft)", margin: 0, lineHeight: 1.55 }}>
           {t.disclaimer}
         </p>
       </div>
@@ -512,7 +512,7 @@ function ResultsContent() {
         <p className="font-display" style={{ fontSize: "1rem", fontWeight: 600, margin: "0 0 0.35rem" }}>
           Challenge friends
         </p>
-        <p style={{ fontSize: "0.85rem", color: "#3d4250", margin: "0 0 0.75rem", lineHeight: 1.5 }}>
+        <p style={{ fontSize: "0.85rem", color: "var(--ink-soft)", margin: "0 0 0.75rem", lineHeight: 1.5 }}>
           Invite them, open a room, or paste two result links side by side.
         </p>
         <div className="share-actions" style={{ padding: "0 0 0.75rem" }}>
@@ -526,7 +526,7 @@ function ResultsContent() {
         <InviteFriends variant="compact" />
       </div>
 
-      <div style={{ borderTop: "1px solid #e2e0db", paddingTop: 28 }}>
+      <div style={{ borderTop: "1px solid var(--line)", paddingTop: 28 }}>
         <h2 className="font-display" style={{ fontSize: "1.1rem", fontWeight: 600, marginBottom: 14 }}>
           Try another
         </h2>
@@ -547,7 +547,7 @@ export function ResultsClient() {
     <Suspense
       fallback={
         <div className="test-shell">
-          <p style={{ color: "#8b93a0" }}>Loading results…</p>
+          <p style={{ color: "var(--ink-mute)" }}>Loading results…</p>
         </div>
       }
     >

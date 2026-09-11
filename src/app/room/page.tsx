@@ -58,8 +58,7 @@ export default function RoomHubPage() {
       <p className="eyebrow">Community rooms</p>
       <h1 className="section-title">Take tests with friends</h1>
       <p className="section-lead">
-        Create a room, share the link, everyone drops their results in. No server drama: the room
-        lives in the shared link + this device. Best on Friend Role and Social Battery.
+        Create a room, share the link, everyone drops their results in. Use Friend Role or Social Battery to get started. Share an updated room link when new results are added.
       </p>
 
       {!hasProfile && (
@@ -67,7 +66,7 @@ export default function RoomHubPage() {
           <p>
             You need a display name first.{" "}
             <Link href="/account" className="text-link">
-              Create a free account
+              Set your display name
             </Link>
           </p>
         </div>

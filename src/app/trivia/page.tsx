@@ -12,7 +12,6 @@ import { formatClock } from "@/lib/trivia/engine";
 import { SITE } from "@/lib/site";
 import { breadcrumbList, collectionPageNodes, jsonLdGraph } from "@/lib/structured-data";
 import { WeeklyFeatured } from "@/components/trivia/WeeklyFeatured";
-import { NEWS_QUIZZES, formatWeekOf } from "@/lib/newsquiz/registry";
 
 export const metadata: Metadata = {
   title: "Trivia Quizzes: Geography and Science",
@@ -70,7 +69,7 @@ export default function TriviaHubPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="section">
+      <div className="section directory-page trivia-directory">
         <p className="eyebrow" style={{ display: "block", marginBottom: 10 }}>
           Trivia
         </p>
@@ -78,56 +77,20 @@ export default function TriviaHubPage() {
           Trivia quizzes
         </h1>
         <p className="section-lead" style={{ marginBottom: 24 }}>
-          The classics, done properly: a live timer, a map that fills in as you
-          type, and answers that register the moment you spell them - no Enter
-          key, no signup, no ads between you and the clock. Your scores stay on
-          this device.
+          Name the states, fill a map, or work your way through the periodic table.
+          Type an answer and watch it count. Your best scores stay on this device.
         </p>
 
-        <section style={{ marginBottom: 32 }}>
-          <p className="eyebrow" style={{ display: "block", marginBottom: 10 }}>
-            This week&apos;s news quiz
-          </p>
-          <div
-            className="card-grid"
-            style={{
-              gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 300px), 1fr))",
-            }}
-          >
-            {NEWS_QUIZZES.map((q) => (
-              <Link key={q.slug} href={`/trivia/${q.slug}/`} className="quiz-card">
-                <h3 className="quiz-card-title" style={{ marginBottom: 6 }}>
-                  {q.title}
-                </h3>
-                <p className="quiz-card-desc">{q.seoDescription}</p>
-                <div
-                  style={{
-                    display: "flex",
-                    flexWrap: "wrap",
-                    gap: "0.4rem 0.9rem",
-                    fontFamily: "var(--font-mono)",
-                    fontSize: "0.72rem",
-                    color: "var(--ink-mute)",
-                    marginTop: "auto",
-                    paddingTop: 6,
-                  }}
-                >
-                  <span>{q.questions.length} questions</span>
-                  <span>{formatWeekOf(q.weekOf)}</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </section>
+        <nav className="topic-jumps" aria-label="Trivia topics">{TRIVIA_GROUPS.map((group, index) => <a key={group.label} href={`#trivia-topic-${index}`}>{group.label}</a>)}<a href="#trivia-letters">A–Z quizzes</a><Link href="/weekly/">News quizzes ↗</Link></nav>
 
         <WeeklyFeatured />
 
-        {TRIVIA_GROUPS.map((group) => {
+        {TRIVIA_GROUPS.map((group, index) => {
           const quizzes = group.slugs
             .map(getTriviaQuiz)
             .filter((q): q is NonNullable<typeof q> => q !== undefined);
           return (
-            <section key={group.label} style={{ marginBottom: 36 }}>
+            <section id={`trivia-topic-${index}`} key={group.label} style={{ marginBottom: 36 }}>
               <h2
                 className="font-display"
                 style={{
@@ -159,7 +122,7 @@ export default function TriviaHubPage() {
                         flexWrap: "wrap",
                         gap: "0.4rem 0.9rem",
                         fontFamily: "var(--font-mono)",
-                        fontSize: "0.72rem",
+                        fontSize: "0.875rem",
                         color: "var(--ink-mute)",
                         marginTop: "auto",
                         paddingTop: 6,
@@ -177,7 +140,7 @@ export default function TriviaHubPage() {
           );
         })}
 
-        <section style={{ marginBottom: 36 }}>
+        <section id="trivia-letters" style={{ marginBottom: 36 }}>
           <h2
             className="font-display"
             style={{
@@ -229,7 +192,8 @@ export default function TriviaHubPage() {
                     fontFamily: "var(--font-mono)",
                     fontWeight: 700,
                     fontSize: "0.9rem",
-                    padding: "0.15rem 0.5rem",
+                    padding: "0.6rem",
+                    minHeight: 44, minWidth: 44, display: "inline-flex", alignItems: "center", justifyContent: "center",
                     border: "1px solid var(--line)",
                     borderRadius: 8,
                   }}

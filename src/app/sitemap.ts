@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   const staticPages: MetadataRoute.Sitemap = [
+    { url: `${base}/friends/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/tests/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/driving/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },

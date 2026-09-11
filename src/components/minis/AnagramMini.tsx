@@ -13,7 +13,7 @@ const btn: CSSProperties = {
   borderRadius: "var(--radius)",
   border: "1px solid var(--line-strong)",
   background: "var(--ink)",
-  color: "#fff",
+  color: "var(--white)",
   fontWeight: 600,
   fontSize: "0.85rem",
   cursor: "pointer",

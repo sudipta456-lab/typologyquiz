@@ -39,7 +39,7 @@ export function RadarChart({ scores, axes, color }: Props) {
         {axes.map((axis, i) => {
           const angle = angleSlice * i - Math.PI / 2;
           const labelR = maxRadius + 22;
-          return <text key={i} x={center + labelR * Math.cos(angle)} y={center + labelR * Math.sin(angle)} textAnchor="middle" dominantBaseline="middle" fill="#5a6170" fontSize={10}>{axis.label}</text>;
+          return <text key={i} x={center + labelR * Math.cos(angle)} y={center + labelR * Math.sin(angle)} textAnchor="middle" dominantBaseline="middle" fill="var(--ink-soft)" fontSize={10}>{axis.label}</text>;
         })}
       </svg>
     </div>

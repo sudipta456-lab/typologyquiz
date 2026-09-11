@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { getTest, scoreTest } from "@/lib/tests/registry";
 import { visibleQuestions } from "@/lib/tests/score-utils";
@@ -74,7 +74,16 @@ function getInitialState(slug: string) {
   return { answers: {} as AnswerMap, startIndex: 0 };
 }
 
+const subscribeToHydration = () => () => {};
+
 export function TakeTestClient() {
+  // Read saved answers only after hydration so a returning player's first
+  // client render agrees with the exported HTML.
+  const hydrated = useSyncExternalStore(subscribeToHydration, () => true, () => false);
+  return hydrated ? <TakeTestReady /> : <div className="section" role="status">Loading your quiz…</div>;
+}
+
+function TakeTestReady() {
   const params = useParams();
   const router = useRouter();
   const slug = params.slug as string;
@@ -335,7 +344,7 @@ export function TakeTestClient() {
                   type="button"
                   onClick={() => handleAnswer(opt.value)}
                   disabled={transitioning}
-                  className={`kahoot-tile${isFlash ? " is-flash" : ""}`}
+                  className={`kahoot-tile${opt.value === 3 ? " is-neutral" : ""}${isFlash ? " is-flash" : ""}`}
                   style={{ backgroundColor: opt.color }}
                   aria-label={`${opt.value}: ${opt.label}`}
                 >

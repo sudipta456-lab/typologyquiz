@@ -19,7 +19,7 @@ export function CompassChart({ scores, axes, color, ideology }: Props) {
   const yAxis = axes.find((a) => a.compassAxis === "y");
 
   if (!xAxis || !yAxis) {
-    return <div style={{ textAlign: "center", color: "#8b93a0" }}>No compass axes defined</div>;
+    return <div style={{ textAlign: "center", color: "var(--ink-mute)" }}>No compass axes defined</div>;
   }
 
   const xScore = scores[xAxis.key] ?? 50;
@@ -49,23 +49,23 @@ export function CompassChart({ scores, axes, color, ideology }: Props) {
         ))}
         <line x1={center} y1={pad} x2={center} y2={pad + range} stroke="#e8ecf1" strokeWidth={1.5} />
         <line x1={pad} y1={center} x2={pad + range} y2={center} stroke="#e8ecf1" strokeWidth={1.5} />
-        <text x={center} y={pad - 4} textAnchor="middle" fill="#8b93a0" fontSize={8}>{yAxis.highLabel}</text>
-        <text x={center} y={pad + range + 12} textAnchor="middle" fill="#8b93a0" fontSize={8}>{yAxis.lowLabel}</text>
-        <text x={pad - 2} y={center + 4} textAnchor="end" fill="#8b93a0" fontSize={8}>{xAxis.lowLabel}</text>
-        <text x={pad + range + 2} y={center + 4} textAnchor="start" fill="#8b93a0" fontSize={8}>{xAxis.highLabel}</text>
+        <text x={center} y={pad - 4} textAnchor="middle" fill="var(--ink-mute)" fontSize={8}>{yAxis.highLabel}</text>
+        <text x={center} y={pad + range + 12} textAnchor="middle" fill="var(--ink-mute)" fontSize={8}>{yAxis.lowLabel}</text>
+        <text x={pad - 2} y={center + 4} textAnchor="end" fill="var(--ink-mute)" fontSize={8}>{xAxis.lowLabel}</text>
+        <text x={pad + range + 2} y={center + 4} textAnchor="start" fill="var(--ink-mute)" fontSize={8}>{xAxis.highLabel}</text>
         {quadrants.map((q, i) => (
-          <text key={i} x={q.x} y={q.y} fill="#8b93a0" fontSize={q.fontSize} textAnchor="middle" opacity={0.5}>{q.text}</text>
+          <text key={i} x={q.x} y={q.y} fill="var(--ink-mute)" fontSize={q.fontSize} textAnchor="middle">{q.text}</text>
         ))}
         <circle cx={x} cy={y} r={16} fill={color} opacity={0.1} />
         <circle cx={x} cy={y} r={8} fill={color} opacity={0.3} />
         <circle cx={x} cy={y} r={4} fill={color} />
         <circle cx={x} cy={y} r={2} fill="#fff" />
       </svg>
-      <p style={{ fontSize: "0.85rem", color: "#8b93a0", marginTop: 12 }}>{xAxis.label}: {xScore} · {yAxis.label}: {yScore}</p>
+      <p style={{ fontSize: "0.875rem", color: "var(--ink-mute)", marginTop: 12 }}>{xAxis.label}: {xScore} · {yAxis.label}: {yScore}</p>
       {ideology && (
         <div style={{ marginTop: 16, textAlign: "center" }}>
-          <div style={{ fontSize: "1.1rem", fontWeight: 700, color }}>{ideology.label}</div>
-          <p style={{ fontSize: "0.85rem", color: "#5a6170", maxWidth: 320, marginTop: 4 }}>{ideology.description}</p>
+          <div style={{ fontSize: "1.1rem", fontWeight: 700, color: "var(--ink)" }}>{ideology.label}</div>
+          <p style={{ fontSize: "0.875rem", color: "var(--ink-soft)", maxWidth: 320, marginTop: 4 }}>{ideology.description}</p>
         </div>
       )}
     </div>

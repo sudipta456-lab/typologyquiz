@@ -111,7 +111,7 @@ export default function DailyPage() {
               key={o.v}
               type="button"
               className={picked === o.v ? "daily-opt is-on" : "daily-opt"}
-              style={{ background: o.color }}
+              style={{ background: o.color, color: o.v === 3 ? "#fff" : "#14141f" }}
               onClick={() => answer(o.v)}
               disabled={picked !== null}
             >

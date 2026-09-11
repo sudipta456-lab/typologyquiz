@@ -47,7 +47,7 @@ export function RankedBars({ scores, axes, color, category }: Props) {
                 x={0}
                 y={centerY}
                 dominantBaseline="middle"
-                fill={isTop ? "#1a1a2e" : "#5a6170"}
+                fill={isTop ? "var(--ink)" : "var(--ink-soft)"}
                 fontSize={isTop ? 11 : 10}
                 fontWeight={isTop ? 700 : 400}
               >
@@ -76,7 +76,7 @@ export function RankedBars({ scores, axes, color, category }: Props) {
                 y={centerY}
                 textAnchor="end"
                 dominantBaseline="middle"
-                fill={isTop ? "#14141f" : "#8b93a0"}
+                fill={isTop ? "var(--ink)" : "var(--ink-mute)"}
                 fontSize={isTop ? 11 : 10}
                 fontWeight={isTop ? 700 : 400}
                 fontFamily={MONO}
@@ -89,8 +89,8 @@ export function RankedBars({ scores, axes, color, category }: Props) {
       </svg>
       {category && (
         <div style={{ marginTop: 16, textAlign: "center" }}>
-          <div style={{ fontSize: "1.1rem", fontWeight: 700, color }}>{category.label}</div>
-          <p style={{ fontSize: "0.85rem", color: "#5a6170", maxWidth: 320, marginTop: 4 }}>{category.description}</p>
+          <div style={{ fontSize: "1.1rem", fontWeight: 700, color: "var(--ink)" }}>{category.label}</div>
+          <p style={{ fontSize: "0.875rem", color: "var(--ink-soft)", maxWidth: 320, marginTop: 4 }}>{category.description}</p>
         </div>
       )}
     </div>

@@ -1,99 +1,27 @@
 import Link from "next/link";
 import { SITE } from "@/lib/site";
-import { InviteFriends } from "@/components/InviteFriends";
 
+const groups = [
+  { title: "Explore", links: [["Personality quizzes", "/tests/"], ["Trivia & maps", "/trivia/"], ["Driving practice", "/driving/"], ["Weekly news", "/weekly/"], ["Daily question", "/daily/"]] },
+  { title: "With friends", links: [["Make a friend quiz", "/friend-quiz/"], ["Fool your friends", "/fool/"], ["Compare results", "/compare/"], ["Create or join a room", "/room/"]] },
+  { title: "Good to know", links: [["Name & appearance", "/account/"], ["About & privacy", "/about/"], ["Sources & credits", "/credits/"]] },
+];
 export function Footer() {
-  return (
-    <footer className="site-footer">
-      <div className="site-footer-inner">
-        <div className="footer-grid">
-          <div className="footer-brand">
-            <Link href="/" className="site-logo">
-              <img
-                src="/assets/typologyquiz-logo.svg"
-                alt={SITE.legalName}
-                className="footer-logo-img"
-                width={200}
-                height={48}
-              />
-            </Link>
-            <p className="footer-tagline">
-              Free typology quizzes for figuring yourself out with friends. No account. Scored on
-              your device.
-            </p>
-          </div>
-
-          <div className="footer-cols">
-            <div>
-              <h4 className="footer-heading">Quizzes</h4>
-              <div className="footer-links">
-                <Link href="/tests" className="footer-link">
-                  All tests
-                </Link>
-                <Link href="/test/friend-role" className="footer-link">
-                  Friend role
-                </Link>
-                <Link href="/test/social-battery" className="footer-link">
-                  Social battery
-                </Link>
-                <Link href="/test/attachment-style" className="footer-link">
-                  Attachment
-                </Link>
-              </div>
-            </div>
-            <div>
-              <h4 className="footer-heading">Driving tests</h4>
-              <div className="footer-links">
-                <Link href="/driving" className="footer-link">
-                  All jurisdictions
-                </Link>
-                <Link href="/driving/alberta" className="footer-link">
-                  Alberta Class 7
-                </Link>
-                <Link href="/driving/ontario" className="footer-link">
-                  Ontario G1
-                </Link>
-                <Link href="/driving/texas" className="footer-link">
-                  Texas permit
-                </Link>
-                <Link href="/driving/california" className="footer-link">
-                  California permit
-                </Link>
-              </div>
-            </div>
-            <div>
-              <h4 className="footer-heading">Company</h4>
-              <div className="footer-links">
-                <Link href="/about" className="footer-link">
-                  About
-                </Link>
-                <Link href="/credits" className="footer-link">
-                  Credits
-                </Link>
-                <a href={`mailto:${SITE.email}`} className="footer-link">
-                  Contact
-                </a>
-              </div>
-            </div>
-            <div className="footer-invite">
-              <h4 className="footer-heading">Invite</h4>
-              <InviteFriends variant="compact" />
-            </div>
-          </div>
+  return <footer className="site-footer">
+    <div className="site-footer-inner">
+      <div className="footer-grid">
+        <div className="footer-brand">
+          <Link href="/" className="site-logo"><img src="/assets/typologyquiz-logo.svg" alt={SITE.legalName} className="footer-logo-img" width={220} height={68} /></Link>
+          <p className="footer-tagline">Personality, knowledge, and a little friendly competition. Free to play.</p>
         </div>
-
-        <div className="footer-bottom">
-          <span className="footer-copy">© {new Date().getFullYear()} {SITE.legalName}. All rights reserved.</span>
-          <div className="footer-legal">
-            <Link href="/about" className="footer-link footer-legal-link">
-              Privacy
-            </Link>
-            <Link href="/about" className="footer-link footer-legal-link">
-              Terms
-            </Link>
-          </div>
+        <div className="footer-cols">
+          {groups.map(group => <div key={group.title}><h2 className="footer-heading">{group.title}</h2><div className="footer-links">
+            {group.links.map(([label, href]) => <Link key={href} href={href} className="footer-link">{label}</Link>)}
+            {group.title === "Good to know" && <a href={`mailto:${SITE.email}`} className="footer-link">Contact</a>}
+          </div></div>)}
         </div>
       </div>
-    </footer>
-  );
+      <div className="footer-bottom"><span className="footer-copy">© {new Date().getFullYear()} {SITE.legalName}</span><span className="footer-copy">Personality quizzes are for self-reflection.</span></div>
+    </div>
+  </footer>;
 }

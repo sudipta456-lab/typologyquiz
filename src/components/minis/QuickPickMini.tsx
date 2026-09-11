@@ -86,7 +86,7 @@ export default function QuickPickMini({
             borderRadius: "var(--radius)",
             border: "1px solid var(--line-strong)",
             background: "var(--ink)",
-            color: "#fff",
+            color: "var(--white)",
             fontWeight: 700,
             cursor: "pointer",
           }}

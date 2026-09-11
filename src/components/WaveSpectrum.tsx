@@ -96,7 +96,7 @@ export function WaveSpectrum({ score, label, lowLabel, highLabel, color, categor
             x={Math.min(WIDTH - 16, Math.max(16, markerX))}
             y={BOTTOM + 12}
             textAnchor="middle"
-            fill="#1a1a2e"
+            fill="var(--ink)"
             fontSize={12}
             fontWeight={700}
             style={{ transition: "all 1s ease" }}
@@ -104,18 +104,18 @@ export function WaveSpectrum({ score, label, lowLabel, highLabel, color, categor
             {pct}
           </text>
         </svg>
-        <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.75rem", color: "#8b93a0" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.875rem", color: "var(--ink-mute)" }}>
           <span>{lowLabel}</span>
           <span>{highLabel}</span>
         </div>
       </div>
-      <p style={{ fontSize: "0.85rem", color: "#5a6170", marginTop: 16 }}>
-        Score: <span style={{ color: "#1a1a2e", fontWeight: 600 }}>{pct}</span>/100
+      <p style={{ fontSize: "0.875rem", color: "var(--ink-soft)", marginTop: 16 }}>
+        Score: <span style={{ color: "var(--ink)", fontWeight: 600 }}>{pct}</span>/100
       </p>
       {category && (
         <div style={{ marginTop: 16, textAlign: "center" }}>
-          <div style={{ fontSize: "1.1rem", fontWeight: 700, color }}>{category.label}</div>
-          <p style={{ fontSize: "0.85rem", color: "#5a6170", maxWidth: 320, marginTop: 4 }}>{category.description}</p>
+          <div style={{ fontSize: "1.1rem", fontWeight: 700, color: "var(--ink)" }}>{category.label}</div>
+          <p style={{ fontSize: "0.875rem", color: "var(--ink-soft)", maxWidth: 320, marginTop: 4 }}>{category.description}</p>
         </div>
       )}
     </div>

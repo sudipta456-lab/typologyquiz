@@ -26,138 +26,22 @@ const HUB_JSON_LD = jsonLdGraph([
 
 export default function TestsPage() {
   const [filter, setFilter] = useState<TestCategory | "all">("all");
-  const filtered = filter === "all" ? TESTS : TESTS.filter((t) => t.category === filter);
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(HUB_JSON_LD) }}
-      />
-      <div className="section">
-      <h1 className="section-title" style={{ marginBottom: 12 }}>
-        All Tests
-      </h1>
-      <p className="section-lead" style={{ marginBottom: 32 }}>
-        Browse all {TESTS.length} tests. Built for figuring yourself out, not for a boss or a brand.
-      </p>
-      <div style={{ display: "flex", gap: 8, marginBottom: 28, flexWrap: "wrap" }}>
-        <button
-          type="button"
-          onClick={() => setFilter("all")}
-          style={{
-            padding: "8px 14px",
-            borderRadius: 8,
-            border: "1px solid #e2e0db",
-            background: filter === "all" ? "#14141f" : "#fff",
-            color: filter === "all" ? "#fff" : "#14141f",
-            fontWeight: 600,
-            fontSize: "0.85rem",
-            cursor: "pointer",
-            fontFamily: "inherit",
-          }}
-        >
-          All
-        </button>
-        {(Object.keys(CATEGORY_META) as TestCategory[]).map((cat) => {
-          const m = CATEGORY_META[cat];
-          const active = filter === cat;
-          const count = TESTS.filter((t) => t.category === cat).length;
-          if (count === 0) return null;
-          return (
-            <button
-              type="button"
-              key={cat}
-              onClick={() => setFilter(cat)}
-              style={{
-                padding: "8px 14px",
-                borderRadius: 8,
-                border: "1px solid #e2e0db",
-                background: active ? "#14141f" : "#fff",
-                color: active ? "#fff" : "#14141f",
-                fontWeight: 600,
-                fontSize: "0.85rem",
-                cursor: "pointer",
-                fontFamily: "inherit",
-              }}
-            >
-              {m.label}
-            </button>
-          );
-        })}
+  const [query, setQuery] = useState("");
+  const filtered = TESTS.filter(test => (filter === "all" || test.category === filter) && `${test.title} ${test.description}`.toLowerCase().includes(query.trim().toLowerCase()));
+  return <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(HUB_JSON_LD) }} />
+    <div className="section directory-page">
+      <p className="eyebrow">Explore yourself</p><h1 className="section-title">Personality quizzes</h1>
+      <p className="section-lead">Find a quiz about your habits, relationships, values, or the way you think. For curiosity and self-reflection.</p>
+      <div className="directory-tools"><label className="search-field" htmlFor="quiz-search"><span>Find a quiz</span><input id="quiz-search" type="search" placeholder="Try friendship, thinking, or values" value={query} onChange={event => setQuery(event.target.value)} /></label>
+        <div className="filter-chips" role="group" aria-label="Filter by topic"><button type="button" aria-pressed={filter === "all"} onClick={() => setFilter("all")}>All topics</button>{(Object.keys(CATEGORY_META) as TestCategory[]).filter(category => TESTS.some(t => t.category === category)).map(category => <button type="button" key={category} aria-pressed={filter === category} onClick={() => setFilter(category)}>{CATEGORY_META[category].label}</button>)}</div>
       </div>
-      <div className="card-grid" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 280px), 1fr))" }}>
-        {filtered.map((test) => {
-          const meta = CATEGORY_META[test.category as keyof typeof CATEGORY_META];
-          return (
-            <Link key={test.slug} href={`/test/${test.slug}`} className="quiz-card">
-              <div className="quiz-card-top">
-                <div className="quiz-emoji" aria-hidden="true">
-                  {meta.emoji}
-                </div>
-                <div>
-                  <h3 className="quiz-card-title">
-                    {test.title}
-                    {test.isNew && (
-                      <span
-                        style={{
-                          marginLeft: 8,
-                          verticalAlign: "middle",
-                          display: "inline-block",
-                          padding: "1px 7px",
-                          borderRadius: 999,
-                          background: "#0795EA",
-                          color: "#fff",
-                          fontSize: "0.62rem",
-                          fontWeight: 700,
-                          letterSpacing: "0.05em",
-                          fontFamily: "IBM Plex Mono, ui-monospace, monospace",
-                        }}
-                      >
-                        NEW
-                      </span>
-                    )}
-                  </h3>
-                  <span className="quiz-meta">
-                    {test.itemCount}
-                    {test.hasBranching ? "+" : ""} items · ~{test.timeMinutes} min
-                    {test.hasBranching ? " · adapts" : ""}
-                  </span>
-                </div>
-              </div>
-              <p className="quiz-card-desc">{test.description}</p>
-            </Link>
-          );
-        })}
-      </div>
-
-      <div style={{ marginTop: 48 }}>
-        <h2 className="section-title" style={{ marginBottom: 8 }}>
-          Still cooking
-        </h2>
-        <p className="section-lead" style={{ marginBottom: 0 }}>
-          High interest, careful build. Not ready yet.
-        </p>
-        <div className="pipeline-grid">
-          <div className="pipeline-card">
-            <span className="pipeline-tag">Mind</span>
-            <h3 className="pipeline-title">Focus profile (not a diagnosis)</h3>
-            <p className="pipeline-desc">
-              Attention patterns and strategies, framed as habits, not labels.
-            </p>
-            <p className="pipeline-why">Needs extra careful framing for under-18.</p>
-          </div>
-          <div className="pipeline-card">
-            <span className="pipeline-tag">Live</span>
-            <h3 className="pipeline-title">Synced multiplayer rooms</h3>
-            <p className="pipeline-desc">
-              Real-time rooms across phones without re-copying the link each time.
-            </p>
-            <p className="pipeline-why">Needs a backend. Current rooms work via shareable snapshots.</p>
-          </div>
-        </div>
-      </div>
-      </div>
-    </>
-  );
+      <p className="directory-count" role="status">{filtered.length} {filtered.length === 1 ? "quiz" : "quizzes"}{query.trim() ? ` matching “${query.trim()}”` : " to explore"}</p>
+      <div className="personality-directory">{filtered.map(test => <Link key={test.slug} href={`/test/${test.slug}/`} className="directory-quiz">
+        <div className="directory-quiz-meta"><span>{CATEGORY_META[test.category].label}</span><span>{test.timeMinutes} min</span></div>
+        <h2>{test.title}</h2><p>{test.description}</p><span className="directory-quiz-action">{test.itemCount}{test.hasBranching ? "+" : ""} questions <span aria-hidden="true">↗</span></span>
+      </Link>)}</div>
+      {filtered.length === 0 && <div className="directory-empty"><h2>No quizzes found</h2><p>Try a shorter search or choose another topic.</p><button type="button" className="btn-outline" onClick={() => { setQuery(""); setFilter("all"); }}>Show all quizzes</button></div>}
+    </div>
+  </>;
 }
