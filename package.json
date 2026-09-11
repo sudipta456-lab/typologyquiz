@@ -4,12 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run validate:editorial && next build",
     "start": "next start",
     "lint": "eslint",
     "pages:build": "npm run build",
     "deploy": "npm run build && npx tsx scripts/strip-bundled-handbook.mjs && wrangler deploy",
-    "prebuild": "npx tsx scripts/sweep-debris.mjs && npx tsx scripts/generate-driving-summary.mjs && npx tsx scripts/generate-llms-txt.mjs && npx tsx scripts/generate-og-cards.mjs"
+    "prebuild": "npx tsx scripts/sweep-debris.mjs && npx tsx scripts/generate-driving-summary.mjs && npx tsx scripts/generate-llms-txt.mjs && npx tsx scripts/generate-og-cards.mjs",
+    "validate:editorial": "node scripts/editorial-validate.mts",
+    "editorial:review": "node scripts/editorial-review.mts",
+    "editorial:promote": "node scripts/editorial-promote.mts",
+    "test:editorial": "node --test tests/editorial-engine.test.ts tests/editorial-social.test.ts tests/editorial-publication.test.mts tests/editorial-follow.test.ts",
+    "typecheck": "tsc --noEmit --incremental false -p .",
+    "lint:editorial": "eslint src/lib/editorial src/lib/editorial-social src/lib/newsquiz/editions.ts src/lib/newsquiz/publication.ts src/lib/newsquiz/review-format.ts src/components/editorial src/components/newsquiz/NewsEdition.tsx src/app/weekly src/app/trivia/news-world/page.tsx src/app/trivia/news-north-america/page.tsx src/app/trivia/page.tsx src/app/sitemap.ts scripts/editorial-*.mts tests/editorial-*.ts tests/editorial-*.mts src/components/editorial-social",
+    "verify:editorial": "npm run validate:editorial && npm run test:editorial && npm run typecheck && npm run lint:editorial",
+    "test:worker": "node --test tests/predictions-worker.test.mjs",
+    "lint:predictions": "eslint worker src/lib/predictions src/components/predictions src/app/predictions tests/predictions-worker.test.mjs tests/predictions-client.test.ts",
+    "verify": "npm run verify:editorial && npm run test:worker && npm run lint:predictions && npm run test:predictions-client",
+    "test:predictions-client": "node --test tests/predictions-client.test.ts"
   },
   "dependencies": {
     "next": "16.2.10",

@@ -1,5 +1,55 @@
 # TypologyQuiz Growth Plan — Trivia Diversification & Traffic
 
+> **Current work: Growth step 2 (2026-09-09).** The original phases below are historical. The next plan is [Growth step 2 architecture](docs/GROWTH_STEP2_ARCHITECTURE.md): reusable question formats, reviewed recurring editions, shareable results, and episode predictions. Implementation status is tracked in [.agents/HANDOFF.md](.agents/HANDOFF.md); a plan is not a shipped-feature claim.
+
+## Growth step 2 — quality traffic, sharing, and repeat use
+
+**Operator decisions:** review the initial recurring editions, then consider automation; popular general-audience topics only, no 18+; Astra plans and reviews, a capable lower-cost model implements bounded work. Keep TypologyQuiz independent of SignalEHR.
+
+The original list has largely become working geography, social, and daily features. The next investment is in engines that make existing content travel and make new editions worth returning for. Do not restart the old four phases or spend another cycle filling the catalog with similar personality quizzes.
+
+### Build sequence
+
+| Step | Deliverable | Release criterion |
+|---|---|---|
+| 2.1 | Shared editorial quiz contract/player: text choice, picture choice, ordering, two-column matching | All four interactions score correctly, work by keyboard/touch, and share the same result format |
+| 2.2 | Weekly hub, permanent edition archives, resume, score-grid/story/square sharing | A friend receives the exact edition/version; next week's release does not break old challenges |
+| 2.3 | World, US, and Canada recurring news pipeline | Original sourced questions, independent fact checks, version/hash-bound initial human approval; drafts cannot publish |
+| 2.4 | One family-suitable episode pilot, then prediction-to-recap loop | Official air time/rating verified, server-timestamped picks before cutoff, reviewed outcomes, spoiler controls |
+| 2.5 | Expand the best-performing series and high-intent practice modules | Demonstrated completion, share-to-play conversion, and return use; no invented traffic forecasts |
+
+### Content and distribution backlog from the attached ideas
+
+- **Results as the product:** improve the ten existing high-share tests (Group Chat, Delulu, Internet Person, Flags, Are You the Problem, Mental Age, K-Drama, Naija Aunty, Emotional OS, Cringe Check) with a sharp type summary, portrait/square cards, prominent friend/room action, three relevant next quizzes, and screenshot-readable compare. Check what already exists before rebuilding it.
+- **Rooms:** guest display names, one-tap challenges, and a group recap poster. Existing rooms and posters are a starting point; live sync is later work. Keep private links out of search indexing.
+- **Daily habit:** show minis after results, local series follows, honest calendar reminders, a second-look drill for missed topics, and non-punitive streak recovery. Do not reward compulsory sharing or pretend a local preference sends notifications.
+- **Weekly news:** three independent editorial scopes: World, US, Canada. Science/discovery is the first cross-region expansion. Thursday remains the existing cadence; a named weekly drop must correspond to an actual reviewed edition. Split US/Canada only when each has enough source-backed questions.
+- **TV and fandom:** pilot one general-audience cooking/building competition; consider suitable Survivor episodes after rating checks. Use post-air recaps and pre-air predictions with a declared spoiler boundary. Pokémon and Minecraft are initial game candidates; start with evergreen facts before version-specific updates.
+- **Sports for newcomers:** explain the rules and context, then offer a season-relevant NHL/NBA/soccer weekly recap. NFL is a US expansion candidate. Verify official results and schedules; no cash, wagering, or speculative claims dressed as settled facts.
+- **High-intent learning:** US civics and Discover Canada first, then food-handler/alcohol-server and boating practice if current official sources and clear provider-independence wording can be maintained. Complete the existing driving queue before UK/Australia expansion. Real-estate licensing remains lower priority.
+- **Pair and workplace packs:** care/repair comparison, Remote Worker Type, Email Voice, Meeting Role. Reuse the shared result/room layer. Focus/attention and brain gym remain careful, non-diagnostic later modules.
+- **Short-form distribution:** pilot one faceless channel across Shorts/Reels/TikTok using the same cuts and exact quiz links. Batch original scripts/cards; measure qualified completions rather than committing immediately to 90 daily videos.
+- **Partnerships and YouTube:** prepare a school/library/settlement-agency or driving-school embed, a cohort recap, and a small official-source practice walkthrough playlist. Outreach and posting require a separate send/publish instruction; do not treat an attached idea list as permission to message organizations.
+- **Seasonal planning:** back-to-school, holidays, New Year, episode finales, and sporting calendars are content opportunities. Verify actual dates and topic relevance before scheduling. The attachment's citizenship-transition dates, January goal, competitor numbers, and traffic arithmetic are unverified proposals, not adopted facts.
+
+### Extra Astra experiments
+
+1. Same-five challenges with answer-free score grids: everyone plays the same small set.
+2. “Second look” recall rounds that bring players back to missed topics.
+3. Optional confidence-versus-accuracy feedback, useful without a leaderboard.
+4. A varied weekend household round that can be played across ages.
+5. Prediction receipts that link directly into a settled recap and the next round.
+
+### Architecture, quality, and measurement
+
+Separate series, immutable editions, question kinds, presentation, scoring, results, and publication policy. Preserve the specialized driving/personality/map engines. New artwork must have documented rights; a public news/TV image is not automatically available for quiz reuse. Generated illustrations are fine as illustrations, not as proof of real events.
+
+Track starts, completions, shares, challenge opens, follows, and returning-edition play without collecting answers, names, or private tokens. Baseline real completion and return rates before setting targets. Use the existing GA4 installation; do not rebuild an analytics system because the July summary says none exists.
+
+Full design, exact status evidence, data lifecycle, prediction limitations, media references, test cases, and deferred work: [Growth step 2 architecture](docs/GROWTH_STEP2_ARCHITECTURE.md).
+
+---
+
 **Date:** 2026-08-30 · Research base: deep passes on Sporcle, JetPunk, Quizly, QuizBreaker + adjacent (Kahoot, Blooket, Gimkit, Psych, BuddyMeter), with live numbers pulled 2026-08-30 · Repo baseline: 65+ typology quizzes, driving-test engine (22 US states + AB/BC/ON), share cards, URL-snapshot rooms, daily/streaks/badges, fully static on Cloudflare.
 
 ---

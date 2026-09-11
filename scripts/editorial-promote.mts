@@ -1,0 +1,46 @@
+import { constants, copyFileSync, mkdirSync, writeFileSync } from "node:fs";
+import { dirname, relative, resolve } from "node:path";
+
+import type { Edition } from "../src/lib/editorial/types.ts";
+import { createReviewPackage, hashJson, loadAndValidatePublished, parseJsonFile, validateApproval, validateForPublication, type Approval, type EvidenceFile, type PublishedEntry, type ReviewPackage } from "../src/lib/newsquiz/publication.ts";
+
+const [reviewArg, approvalArg] = process.argv.slice(2);
+if (!reviewArg || !approvalArg) throw new Error("usage: editorial-promote <review.json> <approval.json>");
+const root = process.cwd();
+loadAndValidatePublished(root);
+const reviewPath = resolve(root, reviewArg);
+const suppliedReview = parseJsonFile(reviewPath) as ReviewPackage;
+const editionPath = resolve(dirname(reviewPath), suppliedReview.editionPath);
+const evidencePath = resolve(dirname(reviewPath), suppliedReview.evidencePath);
+const edition = parseJsonFile(editionPath) as Edition;
+const evidence = parseJsonFile(evidencePath) as EvidenceFile;
+const approval = parseJsonFile(resolve(root, approvalArg)) as Approval;
+const policy = parseJsonFile(resolve(root, "content/publication-policy.json")) as { minimumNewsQuestions: number; series: string[] };
+const actualReview = createReviewPackage(edition, evidence, suppliedReview.editionPath, suppliedReview.evidencePath);
+const errors = validateForPublication(edition, evidence, policy);
+if (hashJson(suppliedReview) !== hashJson(actualReview)) errors.push("review package is stale or was edited");
+errors.push(...validateApproval(approval, actualReview));
+if (errors.length) throw new Error(`promotion rejected:\n- ${errors.join("\n- ")}`);
+
+const manifestPath = resolve(root, "content/published/index.json");
+const manifest = parseJsonFile(manifestPath) as PublishedEntry[];
+if (manifest.some((entry) => entry.id === edition.id && entry.version === edition.version)) throw new Error(`immutable edition already exists: ${edition.id}@${edition.version}`);
+const targetDir = resolve(root, "content/published", edition.seriesId, edition.id, `v${edition.version}`);
+const publishedRoot = resolve(root, "content/published");
+const targetRelative = relative(publishedRoot, targetDir);
+if (!targetRelative || targetRelative.startsWith("..") || resolve(publishedRoot, targetRelative) !== targetDir) throw new Error("promotion destination escapes content/published");
+if ([editionPath, evidencePath, resolve(root, approvalArg)].some((path) => path.startsWith(targetDir))) throw new Error("promotion inputs must remain outside the published destination");
+mkdirSync(dirname(targetDir), { recursive: true });
+mkdirSync(targetDir, { recursive: false });
+const editionTarget = resolve(targetDir, "edition.json");
+const evidenceTarget = resolve(targetDir, "evidence.json");
+const approvalTarget = resolve(targetDir, "approval.json");
+copyFileSync(editionPath, editionTarget, constants.COPYFILE_EXCL);
+copyFileSync(evidencePath, evidenceTarget, constants.COPYFILE_EXCL);
+copyFileSync(resolve(root, approvalArg), approvalTarget, constants.COPYFILE_EXCL);
+const rel = (path: string) => relative(dirname(manifestPath), path).replaceAll("\\", "/");
+manifest.push({ id: edition.id, seriesId: edition.seriesId, version: edition.version, publishedAt: edition.publishedAt, editionPath: rel(editionTarget), contentHash: actualReview.contentHash, status: "approved", evidencePath: rel(evidenceTarget), evidenceHash: actualReview.evidenceHash, approvalPath: rel(approvalTarget), approvalHash: hashJson(approval), reviewHash: actualReview.reviewHash });
+manifest.sort((a, b) => a.publishedAt.localeCompare(b.publishedAt) || a.id.localeCompare(b.id) || a.version - b.version);
+writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
+loadAndValidatePublished(root);
+console.log(`Promoted immutable edition ${edition.id}@${edition.version} to ${relative(root, targetDir)}.`);

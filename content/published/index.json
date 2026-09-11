@@ -1,0 +1,20 @@
+[
+  {
+    "id": "news-north-america-2026-09-10",
+    "seriesId": "news-north-america",
+    "version": 1,
+    "publishedAt": "2026-09-10",
+    "editionPath": "../legacy/news-north-america-v1.json",
+    "contentHash": "sha256:b01565aa1a421350ba9593597a5f0dff31a3b9b979998c23024e4bf83fd18fdc",
+    "status": "legacy"
+  },
+  {
+    "id": "news-world-2026-09-10",
+    "seriesId": "news-world",
+    "version": 1,
+    "publishedAt": "2026-09-10",
+    "editionPath": "../legacy/news-world-v1.json",
+    "contentHash": "sha256:870f10ff8293e288d16ef6f33b0c8ab5aa2bd90b9289635eb45b52ee92885137",
+    "status": "legacy"
+  }
+]

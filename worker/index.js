@@ -1,3 +1,5 @@
+import { handlePredictions } from "./predictions.js";
+
 /**
  * Edge worker for typologyquiz.com.
  *
@@ -233,9 +235,14 @@ async function handleRedirect(env, code) {
 // what makes the check pass; adding the file back would break it again.
 const GSC_VERIFICATION = "google30e3016b50e46ac0";
 
-export default {
+const worker = {
   async fetch(request, env) {
     const url = new URL(request.url);
+
+    if (url.pathname.startsWith("/api/predictions/")) {
+      const predictionResponse = await handlePredictions(request, env, url.pathname);
+      if (predictionResponse) return predictionResponse;
+    }
 
     if (url.pathname === `/${GSC_VERIFICATION}.html`) {
       return new Response(`google-site-verification: ${GSC_VERIFICATION}.html`, {
@@ -289,3 +296,5 @@ export default {
     return env.ASSETS.fetch(request);
   },
 };
+
+export default worker;

@@ -1,0 +1,10 @@
+{
+  "mode": "human-review",
+  "changedAt": "2026-09-09",
+  "minimumNewsQuestions": 8,
+  "series": ["news-world", "news-us", "news-canada", "format-sampler"],
+  "cadence": "Thursday",
+  "audience": "general",
+  "runner": "existing Claude weekly-news-quiz task",
+  "note": "No second scheduler. Enabled state and last-run success must be confirmed in Claude. Auto-publication requires a later operator decision."
+}

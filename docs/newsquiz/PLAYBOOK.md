@@ -1,5 +1,78 @@
 # Weekly news quiz: how an edition gets built
 
+## Operator correction, 2026-09-10: memorable news for a weekly reader
+
+The audience is a reasonable person who watches or reads news for 1–2 hours
+per week. That person should feel comfortable attempting every question,
+without studying or specialist knowledge. This does not promise a perfect
+score. Apply this to every new draft and revision:
+
+- Test a central headline, main action, or meaningful prominent detail. Do
+  not give the story away in the prompt and then test its least memorable part.
+- Preserve the operator's positive examples: North America question 4 (the
+  Supreme Court dissent) was reasonable, and question 7 (the interest rate)
+  was "perfect." Familiar headline numbers and important names are fair game;
+  there is no blanket ban on numeric answers or more specific questions.
+- Open with accessible questions, then vary the round without a specialist
+  difficulty spike. Apply the 1–2-hour reader test to every item, rather than
+  hiding unsuitable questions inside a percentage labelled "hard."
+- Keep prompts short, usually one sentence. Use plausible, distinct choices.
+  Avoid tricks, obscure names, incidental dates, and overly similar figures
+  unless that exact detail is a prominent part of the story. Three credible
+  choices are better than adding a silly fourth just to pad the options.
+- Cover several kinds of news. Avoid domination by economic data releases,
+  parliamentary procedure, or niche sports. Aim for at least four broad topics
+  when the verified news supports it; never invent stories to fill categories.
+- Reject casualty-count questions. Avoid adult-oriented entertainment even
+  when an award headline itself is not explicit. Recheck dates and audience
+  suitability; the legacy archive is not an endorsement of every old choice.
+- For every question, the independent reviewer records the headline takeaway,
+  why the intended reader would remember it, intended easy/moderate difficulty,
+  and whether a 1–2-hour reader would feel comfortable attempting it. Reject
+  obscure details instead of simply making the distractors implausible.
+
+The four-question candidate pool in
+`content/drafts/news-canada-2026-09-10-headline-sample.json` is a wording
+preview only. It is too short and too concentrated on money/economics for
+publication and needs independent review. The interest-rate question keeps
+the rate-level target the operator specifically liked.
+
+## Operator policy update, 2026-09-09: initial human review
+
+**This section supersedes all unattended-publish instructions below and in
+the local Claude scheduled task.** The operator selected “Review initial
+editions, then automate.” Research, draft, and independently verify on the
+existing Thursday cadence, but do not overwrite public content, commit to a
+publishing branch, push, or deploy a new edition before its explicit review.
+
+Prepare original dated drafts under `content/drafts/`, outside `src/` and
+`public/`, with a readable per-question review report in
+`.agents/reviews/newsquiz/`. World, US, and Canada are separate series. Each
+must have at least eight source-backed questions or be held with an explicit
+reason. The existing combined North America edition is preserved as legacy.
+
+Source evidence includes the exact article, publisher, publication/event
+dates, access date, supporting fact, and independent review verdict. A hash
+binds an approval to exact content and evidence; it is not proof of factual
+truth. New content must not be imported into the public registry or sitemap
+until approved and promoted. General-audience content only, no 18+ material.
+
+Use the implemented `editorial:review` and `editorial:promote` commands when
+available; check `package.json`, rather than assuming planned commands exist.
+Changed questions, scoring, sources, or media invalidate previous approval.
+Preserve published versions and their media. Never overwrite an old edition
+to publish a new week or a correction.
+
+Moving to unattended publication requires a later explicit operator decision;
+it must not activate automatically after a number of weeks. Report draft
+paths, exact hashes, checks, held regions, and what needs editorial review.
+The autonomous job stops after preparing that package in the current mode.
+
+The legacy research/quality rules below still apply. Their old file-overwrite
+and deploy steps describe the previous process and are not authorized during
+the initial review period. See `docs/GROWTH_STEP2_ARCHITECTURE.md` for the
+versioned publishing design and prediction-to-recap plan.
+
 This is the spec the recurring Thursday job follows. It exists because that
 job runs as a fresh session every week with no memory of the session that
 built the feature (2026-09-07) - everything it needs to know has to live

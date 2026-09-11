@@ -1,0 +1,22 @@
+import { mkdirSync, writeFileSync } from "node:fs";
+import { dirname, relative, resolve } from "node:path";
+import type { Edition } from "../src/lib/editorial/types.ts";
+import { createReviewPackage, parseJsonFile, validateForPublication, type EvidenceFile } from "../src/lib/newsquiz/publication.ts";
+import { formatReviewMarkdown } from "../src/lib/newsquiz/review-format.ts";
+
+const [editionArg, evidenceArg, outputArg] = process.argv.slice(2);
+if (!editionArg || !evidenceArg) throw new Error("usage: editorial-review <draft.json> <evidence.json> [review.json]");
+const root = process.cwd();
+const editionPath = resolve(root, editionArg); const evidencePath = resolve(root, evidenceArg);
+const edition = parseJsonFile(editionPath) as Edition; const evidence = parseJsonFile(evidencePath) as EvidenceFile;
+const policy = parseJsonFile(resolve(root, "content/publication-policy.json")) as { minimumNewsQuestions: number; series: string[] };
+const errors = validateForPublication(edition, evidence, policy);
+if (errors.length) throw new Error(`review rejected:\n- ${errors.join("\n- ")}`);
+const defaultBase = resolve(root, ".agents/reviews/newsquiz", `${edition.id}-v${edition.version}`);
+const jsonPath = outputArg ? resolve(root, outputArg) : `${defaultBase}.review.json`;
+const review = createReviewPackage(edition, evidence, relative(dirname(jsonPath), editionPath).replaceAll("\\", "/"), relative(dirname(jsonPath), evidencePath).replaceAll("\\", "/"));
+const markdownPath = jsonPath.replace(/\.json$/, ".md");
+mkdirSync(dirname(jsonPath), { recursive: true });
+writeFileSync(jsonPath, `${JSON.stringify(review, null, 2)}\n`, { flag: "wx" });
+writeFileSync(markdownPath, formatReviewMarkdown(edition, evidence, review), { flag: "wx" });
+console.log(`Review package written:\n${jsonPath}\n${markdownPath}\n${review.reviewHash}`);

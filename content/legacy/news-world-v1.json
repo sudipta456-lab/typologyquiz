@@ -1,0 +1,353 @@
+{
+  "id": "news-world-2026-09-10",
+  "seriesId": "news-world",
+  "version": 1,
+  "title": "World News Quiz - Week of September 10, 2026",
+  "description": "How closely did you follow this week's biggest world news stories?",
+  "publishedAt": "2026-09-10",
+  "audience": "general",
+  "legacy": true,
+  "questions": [
+    {
+      "id": "world-01",
+      "kind": "choice",
+      "prompt": "In a weekend of shuttle diplomacy on September 5-6, 2026, U.S. envoys Steve Witkoff and Jared Kushner met with Vladimir Putin in Moscow and then flew on to meet Ukrainian President Volodymyr Zelenskyy in which city?",
+      "explanation": "After a three-hour meeting with Putin at the Kremlin on Saturday, the envoys traveled to Kyiv on Sunday, where Witkoff described the talks with Zelenskyy on a U.S. proposal to end the war as \"substantive.\"",
+      "sources": [
+        {
+          "label": "NPR",
+          "url": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "Kyiv"
+        },
+        {
+          "id": "option-1",
+          "label": "Warsaw"
+        },
+        {
+          "id": "option-2",
+          "label": "Vienna"
+        },
+        {
+          "id": "option-3",
+          "label": "Istanbul"
+        }
+      ],
+      "correctId": "option-0"
+    },
+    {
+      "id": "world-02",
+      "kind": "choice",
+      "prompt": "After the United States carried out a fresh wave of strikes on southern Iran on September 1, 2026, Tehran said it retaliated with missile and drone attacks against U.S.-linked positions in which three countries?",
+      "explanation": "Iran claimed attacks on Bahrain, Jordan and Iraq after the new U.S. strikes, while neighboring Kuwait said its air defenses intercepted additional Iranian drones and missiles headed toward it.",
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "Saudi Arabia, the UAE and Qatar"
+        },
+        {
+          "id": "option-1",
+          "label": "Bahrain, Jordan and Iraq"
+        },
+        {
+          "id": "option-2",
+          "label": "Egypt, Israel and Turkey"
+        },
+        {
+          "id": "option-3",
+          "label": "Oman, Yemen and Syria"
+        }
+      ],
+      "correctId": "option-1"
+    },
+    {
+      "id": "world-03",
+      "kind": "choice",
+      "prompt": "Germany's far-right Alternative for Germany (AfD) party posted its strongest state-election result ever on September 6, 2026, coming closer than any far-right party since World War II to leading a German state government - but still fell short of a majority. Which state voted?",
+      "explanation": "Preliminary results gave the AfD roughly 43.8% of the vote in Saxony-Anhalt, more than double the tally of Chancellor Friedrich Merz's Christian Democrats, but its 39 seats fell just short of the 42 needed for an outright majority.",
+      "sources": [
+        {
+          "label": "CNN",
+          "url": "https://www.cnn.com/2026/09/06/europe/germany-afd-state-election-majority-intl"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "Bavaria"
+        },
+        {
+          "id": "option-1",
+          "label": "Thuringia"
+        },
+        {
+          "id": "option-2",
+          "label": "Saxony-Anhalt"
+        },
+        {
+          "id": "option-3",
+          "label": "Brandenburg"
+        }
+      ],
+      "correctId": "option-2"
+    },
+    {
+      "id": "world-05",
+      "kind": "choice",
+      "prompt": "President Xi Jinping's early-September 2026 state visit to Cairo, where he met President Abdel Fattah el-Sisi, was his first trip to which country in a decade?",
+      "explanation": "Al Jazeera reported that Xi's stop in Cairo was his first visit to Egypt in ten years, part of a diplomatic swing aimed at deepening China's economic and security ties across the Middle East.",
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/2/chinas-xi-visits-egypts-el-sisi-why-it-matters"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "Egypt"
+        },
+        {
+          "id": "option-1",
+          "label": "Saudi Arabia"
+        },
+        {
+          "id": "option-2",
+          "label": "Turkey"
+        },
+        {
+          "id": "option-3",
+          "label": "Morocco"
+        }
+      ],
+      "correctId": "option-0"
+    },
+    {
+      "id": "world-06",
+      "kind": "choice",
+      "prompt": "In early September 2026, President Trump signaled the U.S. might reconsider backing Britain's position in any future Falkland Islands dispute with Argentina, tying the review to what?",
+      "explanation": "Trump hinted the U.S. might not back the UK over the Falklands, citing what he framed as insufficient British support for the campaign against Iran, part of a broader push for NATO allies to raise defense spending.",
+      "sources": [
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/2026/09/03/trump-hints-us-may-not-back-uk-over-falkland-islands-citing-lack-of-iran-support"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "A new Argentine trade deal with China"
+        },
+        {
+          "id": "option-1",
+          "label": "Britain's support for the U.S.-led campaign against Iran"
+        },
+        {
+          "id": "option-2",
+          "label": "Brexit-era fishing rights disputes"
+        },
+        {
+          "id": "option-3",
+          "label": "Britain's refusal to join a Pacific trade pact"
+        }
+      ],
+      "correctId": "option-1"
+    },
+    {
+      "id": "world-07",
+      "kind": "choice",
+      "prompt": "Astronomers using the Hubble Space Telescope announced in early September 2026 that they had confirmed a giant, roughly 104,000-mile-wide, 10-sided atmospheric feature encircling Saturn's south pole - a striking counterpart to what famous feature at its north pole?",
+      "explanation": "The newly confirmed \"decagon\" echoes Saturn's long-known northern hexagon, though researchers say the two atmospheric patterns differ in important ways and are still working out why.",
+      "sources": [
+        {
+          "label": "ESA/Hubble",
+          "url": "https://esahubble.org/news/heic2612/"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "The Great Red Spot"
+        },
+        {
+          "id": "option-1",
+          "label": "The F-ring braid"
+        },
+        {
+          "id": "option-2",
+          "label": "Saturn's hexagon"
+        },
+        {
+          "id": "option-3",
+          "label": "The polar vortex ring"
+        }
+      ],
+      "correctId": "option-2"
+    },
+    {
+      "id": "world-08",
+      "kind": "choice",
+      "prompt": "A United Nations investigators' report released on September 3, 2026 said Sudan's civil war between the army and the Rapid Support Forces is being significantly sustained by what?",
+      "explanation": "UN human rights investigators found that foreign recruitment and outside supply networks are helping fuel the fighting between Sudan's Armed Forces and the paramilitary Rapid Support Forces, and called for accountability.",
+      "sources": [
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/09/03/sudan-war-un-report-foreign-suppliers/"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "Cryptocurrency fundraising"
+        },
+        {
+          "id": "option-1",
+          "label": "A collapse in gold export revenue"
+        },
+        {
+          "id": "option-2",
+          "label": "Rival peacekeeping mandates"
+        },
+        {
+          "id": "option-3",
+          "label": "Foreign recruitment and external arms-supply networks"
+        }
+      ],
+      "correctId": "option-3"
+    },
+    {
+      "id": "world-09",
+      "kind": "choice",
+      "prompt": "The 2026 US Open tennis tournament, wrapping up this month in New York, set a Grand Slam record by offering how much in total player compensation?",
+      "explanation": "The US Open raised its prize pool about 20% over 2025 to a record $108 million, with the men's and women's singles champions each earning $5.5 million.",
+      "sources": [
+        {
+          "label": "ATP Tour",
+          "url": "https://www.atptour.com/en/news/us-open-2026-prize-money"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "$108 million"
+        },
+        {
+          "id": "option-1",
+          "label": "$65 million"
+        },
+        {
+          "id": "option-2",
+          "label": "$90 million"
+        },
+        {
+          "id": "option-3",
+          "label": "$150 million"
+        }
+      ],
+      "correctId": "option-0"
+    },
+    {
+      "id": "world-10",
+      "kind": "choice",
+      "prompt": "Which actor received the Golden Lion for Lifetime Achievement at the opening ceremony of the 2026 Venice Film Festival on September 2?",
+      "explanation": "George Clooney was honored with the Golden Lion for Lifetime Achievement as the festival opened; actress Ellen Burstyn received a separate career Golden Lion later in the festival.",
+      "sources": [
+        {
+          "label": "Variety",
+          "url": "https://variety.com/2026/film/global/george-clooney-venice-film-festival-golden-lion-career-1236802227/"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "Brad Pitt"
+        },
+        {
+          "id": "option-1",
+          "label": "George Clooney"
+        },
+        {
+          "id": "option-2",
+          "label": "Denzel Washington"
+        },
+        {
+          "id": "option-3",
+          "label": "Tom Hanks"
+        }
+      ],
+      "correctId": "option-1"
+    },
+    {
+      "id": "world-11",
+      "kind": "choice",
+      "prompt": "In a special-forces raid in Gaza City in early September 2026, Israel captured a man it identified as the head of which Hamas apparatus?",
+      "explanation": "Israeli officials said Shin Bet and IDF forces captured Muin al-Arabid, whom Prime Minister Benjamin Netanyahu described as chief of Hamas's internal security apparatus and one of the group's most senior leaders.",
+      "sources": [
+        {
+          "label": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/israel-confirms-capturing-hamas-internal-security-chief-in-gaza-city-raid/"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "Its rocket-manufacturing program"
+        },
+        {
+          "id": "option-1",
+          "label": "Its political bureau"
+        },
+        {
+          "id": "option-2",
+          "label": "Its internal security and counterintelligence apparatus"
+        },
+        {
+          "id": "option-3",
+          "label": "Its tunnel-engineering corps"
+        }
+      ],
+      "correctId": "option-2"
+    },
+    {
+      "id": "world-12",
+      "kind": "choice",
+      "prompt": "Philippine Vice President Sara Duterte posted bail on September 5, 2026 after a court ordered her arrest over alleged grave threats against which president?",
+      "explanation": "A Quezon City court ordered Duterte's arrest over alleged 2024 remarks threatening to have President Ferdinand Marcos Jr., the first lady and a former House speaker killed; she posted bail the next day.",
+      "sources": [
+        {
+          "label": "NPR",
+          "url": "https://www.npr.org/2026/09/05/g-s1-142148/philippines-vice-president-posts-bail"
+        }
+      ],
+      "options": [
+        {
+          "id": "option-0",
+          "label": "Rodrigo Duterte"
+        },
+        {
+          "id": "option-1",
+          "label": "Benigno Aquino III"
+        },
+        {
+          "id": "option-2",
+          "label": "Gloria Macapagal Arroyo"
+        },
+        {
+          "id": "option-3",
+          "label": "Ferdinand \"Bongbong\" Marcos Jr."
+        }
+      ],
+      "correctId": "option-3"
+    }
+  ]
+}
