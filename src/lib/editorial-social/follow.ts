@@ -1,3 +1,5 @@
+import { trackAnalyticsEvent } from "../analytics.ts";
+
 const prefix = "tq-series-follow-v1:";
 export const FOLLOW_CHANGED = "tq-series-follow-changed";
 const validId = (id: string) => typeof id === "string" && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id) && id.length <= 100;
@@ -20,8 +22,7 @@ export function saveSeriesFollow(seriesId: string, followed: boolean): boolean {
   // Notify other controls in this tab as well as storage listeners in other tabs.
   window.dispatchEvent(new Event(FOLLOW_CHANGED));
   try {
-    const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
-    gtag?.("event", "quiz_series_follow", { series_id: seriesId, followed });
+    trackAnalyticsEvent("quiz_series_follow", { series_id: seriesId, followed });
   } catch { /* Optional analytics must not interrupt the control. */ }
   return true;
 }

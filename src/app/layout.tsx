@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { Analytics } from "@/components/Analytics";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
@@ -121,7 +122,7 @@ const jsonLd = {
   ],
 };
 
-// Third-party analytics are paused until result URL and reflection isolation is verified.
+// Analytics remains fail-closed until the explicit build-time activation gate is enabled.
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
@@ -140,6 +141,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="min-h-screen flex flex-col">
+        <Analytics />
         <ThemeProvider>
           <a href="#main-content" className="skip-link">
             Skip to content

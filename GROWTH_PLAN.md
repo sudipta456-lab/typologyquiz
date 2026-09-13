@@ -2,6 +2,16 @@
 
 > **Current priority: assessment quality within Growth step 2 (2026-09-11).** The mobile redesign is deployed and committed locally. Following the [2020–2026 evidence review](docs/research/ASSESSMENT_QUALITY_REVIEW_2026.md), the first implementation adds evidence labels, versioned scoring/results, corrected Mini-IPIP anchors, and optional private reflection with a two-week review. See the [release record](docs/research/ASSESSMENT_GROWTH_RELEASE.md) for verification and deployment status. The [research feedback specification](docs/research/ASSESSMENT_FEEDBACK_SPEC.md) remains a broader proposal: private notes are not research collection, and improved accuracy has not been demonstrated. Existing editorial approval rules remain in force.
 
+## Discovery, measurement and outreach — September 13, 2026
+
+Discovery corrections are live: the personality directory has its own canonical/title/description; personal account/comparison/room and assessment play/results pages are noindex; the sitemap excludes private utilities and noncanonical news aliases, without fabricated build-time last-modified dates. Every production build now checks sitemap canonical/indexability and analytics route coverage.
+
+Astra designed and independently reviewed bounded GA4 page/event tracking for all 1,244 recognized paths. Full verification passed 73 tests and the 1,248-route build. The verified stream is G-RVHFFPF0W1 on a shared tag with two destinations. Automatic event detection and user-provided-data capabilities were disabled in its settings. Activation is held pending actual network privacy/fanout QA because the Mac locked before that check; the verified SEO release is restored. The implementation is ready, not verified live analytics.
+
+Five relevant outreach prospects and three tailored drafts are recorded in docs/growth/OUTREACH_2026-09-13.md. No submissions or messages sent. The owner requested hello@typologyquiz.com setup; Zoho Canadian Mail Lite signup is prepared, with password/terms/verification and any payment left to the owner. Finish the mailbox and verify sending/receiving before submissions. No mass comment posting or automated follow-ups were started.
+
+GA4's initial last-seven-days snapshot contains two chatgpt.com / ai-assistant sessions; these may include our own visits and do not prove independent recommendations. Search Console indexing and sustained referral performance still need direct evidence. See docs/growth/ for architecture, account findings, verification, outreach and mailbox records.
+
 ## Assessment quality — current priority
 
 The user requested extensive 2020–2026 literature research into typologytesting.com and a redesign of tests and feedback to improve accuracy and outcomes. The resulting review covers 18 scholarly sources plus official methods/rights documentation. Its recommendations prioritize reliable self-understanding and useful habit change; this outcome emphasis is a working assumption, not a separate user decision.

@@ -39,7 +39,7 @@ test("follow and unfollow persist per series and notify controls without analyti
     assert.equal(saveSeriesFollow("news-world", false), true);
     assert.equal(isSeriesFollowed("news-world"), false);
     assert.deepEqual(events, [FOLLOW_CHANGED, FOLLOW_CHANGED]);
-    assert.deepEqual(analytics[0], ["event", "quiz_series_follow", { series_id: "news-world", followed: true }]);
+    assert.equal(analytics.length, 0, "Uninitialized analytics must not bypass the central dispatcher");
     assert.equal(saveSeriesFollow("../bad", true), false);
     assert.equal(saveSeriesFollow("news-world", "yes" as unknown as boolean), false);
     assert.equal(values.size, 1);

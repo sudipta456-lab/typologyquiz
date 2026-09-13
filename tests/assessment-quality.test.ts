@@ -164,9 +164,13 @@ test("Expired and corrupt reflections are discarded; storage failures are report
   assert.deepEqual(loadReflections(), []);
 });
 
-test("Third-party analytics cannot receive result URLs or reflection form content", () => {
+test("Analytics loads only through its privacy boundary; reflection content has no telemetry calls", () => {
   const layout = readFileSync("src/app/layout.tsx", "utf8");
   assert.ok(!layout.includes("googletagmanager.com") && !layout.includes("gtag('config'"));
+  assert.ok(layout.includes("<Analytics />"));
+  const analytics = readFileSync(new URL("../src/lib/analytics.ts", import.meta.url), "utf8");
+  assert.ok(analytics.includes("NEXT_PUBLIC_GA_ENABLED") && analytics.includes("analyticsEnabled("));
+  assert.ok(!/localStorage|document\.title|location\.(href|search|hash)/.test(analytics));
   const reflection = readFileSync("src/lib/reflections.ts", "utf8") + readFileSync("src/components/ReflectionPanel.tsx", "utf8");
   assert.ok(!/\bfetch\(|\bsendBeacon\(|\bgtag\(/.test(reflection));
 });
