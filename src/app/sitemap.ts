@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { TESTS } from "@/lib/tests/registry";
 import { JURISDICTIONS } from "@/lib/driving/jurisdictions";
 import { TRIVIA_QUIZZES } from "@/lib/trivia/registry";
-import { EDITIONS, getLatestSeriesEdition } from "@/lib/newsquiz/editions";
+import { EDITIONS } from "@/lib/newsquiz/editions";
 import { editionPath } from "@/lib/editorial/identity";
 import { SITE } from "@/lib/site";
 
@@ -18,31 +18,28 @@ export const dynamic = "force-static";
 const base = SITE.url.replace(/\/$/, "");
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Omit lastModified where no maintained content date exists.
+  // Rebuilding the site is not a significant content update.
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: `${base}/friends/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
-    { url: `${base}/tests/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${base}/driving/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${base}/trivia/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/friends/`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/`, changeFrequency: "weekly", priority: 1 },
+    { url: `${base}/tests/`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/driving/`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/trivia/`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/weekly/`, lastModified: new Date([...EDITIONS].map(e => e.publishedAt).sort().at(-1)!), changeFrequency: "weekly", priority: 0.8 },
-    { url: `${base}/daily/`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
-    { url: `${base}/friend-quiz/`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
-    { url: `${base}/fool/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/room/`, lastModified: now, changeFrequency: "monthly", priority: 0.75 },
-    { url: `${base}/compare/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${base}/account/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${base}/about/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/daily/`, changeFrequency: "daily", priority: 0.8 },
+    { url: `${base}/friend-quiz/`, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/fool/`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/about/`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/methodology/`, lastModified: new Date("2026-09-11"), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${base}/credits/`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${base}/credits/`, changeFrequency: "monthly", priority: 0.5 },
   ];
 
   // Quiz landing pages. take/ and results/ are intentionally omitted - they are
   // interaction surfaces, not content anyone should land on from search.
   const quizPages: MetadataRoute.Sitemap = TESTS.map((t) => ({
     url: `${base}/test/${t.slug}/`,
-    lastModified: now,
     changeFrequency: "monthly" as const,
     priority: t.isNew ? 0.85 : 0.8,
   }));
@@ -69,18 +66,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // the generated letter pages, which sit a notch lower as long-tail.
   const triviaPages: MetadataRoute.Sitemap = TRIVIA_QUIZZES.map((q) => ({
     url: `${base}/trivia/${q.slug}/`,
-    lastModified: now,
     changeFrequency: "monthly" as const,
     priority: q.filterLetter !== undefined ? 0.65 : 0.8,
   }));
 
-  // Preserve the existing aliases; immutable links retain every version.
-  const newsQuizPages: MetadataRoute.Sitemap = ["news-world", "news-north-america"].map(slug => ({
-    url: `${base}/trivia/${slug}/`,
-    lastModified: new Date(getLatestSeriesEdition(slug)!.publishedAt),
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
-  }));
+  // Index immutable editions; existing news aliases canonicalize to these URLs.
   const editionPages: MetadataRoute.Sitemap = EDITIONS.map(edition => ({
     url: `${base}${editionPath(edition)}`,
     lastModified: new Date(edition.publishedAt),
@@ -88,5 +78,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages, ...newsQuizPages, ...editionPages];
+  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages, ...editionPages];
 }
