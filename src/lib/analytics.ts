@@ -1,5 +1,7 @@
 import { analyticsAliases, analyticsEditions, analyticsPaths, analyticsSeries } from "./analytics-manifest.generated.ts";
 
+// Google tag installation ID and Analytics destination are distinct after tag merging.
+export const GA_TAG_ID = "G-TZ9B8MB7SP";
 export const GA_MEASUREMENT_ID = "G-RVHFFPF0W1";
 const SITE_ORIGIN = "https://typologyquiz.com";
 const knownPaths = new Set(analyticsPaths);
@@ -8,8 +10,8 @@ export type EditorialAnalyticsEvent = "quiz_start" | "quiz_complete" | "quiz_sha
 export type AnalyticsEvent = EditorialAnalyticsEvent | "quiz_series_follow";
 const editionEvents = new Set<string>(["quiz_start", "quiz_complete", "quiz_share", "quiz_challenge_open"]);
 
-export function analyticsEnabled(flag: string | undefined, id: string | undefined, hostname: string): boolean {
-  return flag === "true" && id === GA_MEASUREMENT_ID && ["typologyquiz.com", "www.typologyquiz.com"].includes(hostname);
+export function analyticsEnabled(flag: string | undefined, id: string | undefined, hostname: string, tagId: string | undefined): boolean {
+  return flag === "true" && id === GA_MEASUREMENT_ID && tagId === GA_TAG_ID && ["typologyquiz.com", "www.typologyquiz.com"].includes(hostname);
 }
 
 /** No decoding/URL normalization: unrecognized text can never become report data. */
@@ -136,13 +138,15 @@ export function createAnalyticsController(command: AnalyticsCommand, referrer: u
       // session/engagement events. Enhanced Measurement must be disabled in GA.
       if (!initialized) {
         command("consent", "default", { ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied" });
-        command("set", { ...fields, allow_google_signals: false, allow_ad_personalization_signals: false });
+        command("set", { ...fields, send_page_view: false, allow_google_signals: false, allow_ad_personalization_signals: false });
         command("js", new Date());
         initialized = true;
       } else command("set", fields);
       // Config-scoped fields outrank global set fields: refresh both scopes so
       // automatic engagement events use the current safe page context.
-      command("config", GA_MEASUREMENT_ID, { ...fields, ...(update ? { update: true } : {}), send_page_view: false, allow_google_signals: false, allow_ad_personalization_signals: false });
+      // Configure the shared installation tag; only explicit events below target
+      // the selected destination. Automatic shared-tag fanout requires HAR QA.
+      command("config", GA_TAG_ID, { ...fields, ...(update ? { update: true } : {}), send_page_view: false, allow_google_signals: false, allow_ad_personalization_signals: false });
       command("event", "page_view", { ...fields, send_to: GA_MEASUREMENT_ID });
       currentPath = path;
     },
@@ -159,7 +163,7 @@ let browserController: Controller | undefined;
 
 /** Only called after hydration; no global gtag API is offered to feature code. */
 export function visitAnalyticsPage(pathname: string): void {
-  if (typeof window === "undefined" || !analyticsEnabled(process.env.NEXT_PUBLIC_GA_ENABLED, process.env.NEXT_PUBLIC_GA_ID, window.location.hostname)) return;
+  if (typeof window === "undefined" || !analyticsEnabled(process.env.NEXT_PUBLIC_GA_ENABLED, process.env.NEXT_PUBLIC_GA_ID, window.location.hostname, process.env.NEXT_PUBLIC_GA_TAG_ID)) return;
   try {
     if (!browserController) {
       const target = window as Window & { dataLayer?: unknown[] };
@@ -175,14 +179,14 @@ export function visitAnalyticsPage(pathname: string): void {
       script.id = "typologyquiz-analytics";
       script.async = true;
       script.referrerPolicy = "no-referrer";
-      script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_TAG_ID}`;
       document.head.appendChild(script);
     } else browserController.page(pathname);
   } catch { /* Analytics is optional, including blocked scripts and browser APIs. */ }
 }
 
 export function trackAnalyticsEvent(event: AnalyticsEvent, parameters: unknown): void {
-  if (typeof window === "undefined" || !analyticsEnabled(process.env.NEXT_PUBLIC_GA_ENABLED, process.env.NEXT_PUBLIC_GA_ID, window.location.hostname)) return;
+  if (typeof window === "undefined" || !analyticsEnabled(process.env.NEXT_PUBLIC_GA_ENABLED, process.env.NEXT_PUBLIC_GA_ID, window.location.hostname, process.env.NEXT_PUBLIC_GA_TAG_ID)) return;
   try {
     // Refresh the context synchronously: a child effect may precede the root
     // pathname effect on navigation. Features never supply their own URLs.

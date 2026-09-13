@@ -3,13 +3,14 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { test } from "node:test";
 import { analyticsPaths, analyticsEditions } from "../src/lib/analytics-manifest.generated.ts";
-import { ANALYTICS_REFERRAL_KEY, ANALYTICS_REFERRAL_TTL_MS, resolveReferral, GA_MEASUREMENT_ID, analyticsEnabled, analyticsPath, safeAcquisition, safeEventParameters, createAnalyticsController, visitAnalyticsPage, trackAnalyticsEvent } from "../src/lib/analytics.ts";
+import { ANALYTICS_REFERRAL_KEY, ANALYTICS_REFERRAL_TTL_MS, resolveReferral, GA_TAG_ID, GA_MEASUREMENT_ID, analyticsEnabled, analyticsPath, safeAcquisition, safeEventParameters, createAnalyticsController, visitAnalyticsPage, trackAnalyticsEvent } from "../src/lib/analytics.ts";
 
-test("activation requires explicit true, verified stream, and a production host", () => {
-  for (const flag of [undefined, "", "false", "TRUE", "1"]) assert.equal(analyticsEnabled(flag, GA_MEASUREMENT_ID, "typologyquiz.com"), false);
-  for (const host of ["localhost", "typologyquiz.com.evil.test", "preview.workers.dev"]) assert.equal(analyticsEnabled("true", GA_MEASUREMENT_ID, host), false);
-  assert.equal(analyticsEnabled("true", "G-TZ9B8MB7SP", "typologyquiz.com"), false);
-  for (const host of ["typologyquiz.com", "www.typologyquiz.com"]) assert.equal(analyticsEnabled("true", GA_MEASUREMENT_ID, host), true);
+test("activation requires explicit true, both verified IDs, and a production host", () => {
+  for (const flag of [undefined, "", "false", "TRUE", "1"]) assert.equal(analyticsEnabled(flag, GA_MEASUREMENT_ID, "typologyquiz.com", GA_TAG_ID), false);
+  for (const host of ["localhost", "typologyquiz.com.evil.test", "preview.workers.dev"]) assert.equal(analyticsEnabled("true", GA_MEASUREMENT_ID, host, GA_TAG_ID), false);
+  assert.equal(analyticsEnabled("true", "G-TZ9B8MB7SP", "typologyquiz.com", GA_TAG_ID), false);
+  for (const tagId of [undefined, "", GA_MEASUREMENT_ID, "GT-UNKNOWN"]) assert.equal(analyticsEnabled("true", GA_MEASUREMENT_ID, "typologyquiz.com", tagId), false);
+  for (const host of ["typologyquiz.com", "www.typologyquiz.com"]) assert.equal(analyticsEnabled("true", GA_MEASUREMENT_ID, host, GA_TAG_ID), true);
 });
 
 test("every manifest path has bounded context, sensitive/malformed unknown paths fail closed", () => {
@@ -62,6 +63,7 @@ test("one pageview per canonical transition, config before events, and safe life
   assert.ok(calls.findIndex(c => c[0] === "config") < calls.findIndex(c => c[0] === "event"));
   const config = calls.find(c => c[0] === "config")![2] as Record<string, unknown>;
   assert.equal(config.update, undefined, "first config initializes normally");
+  for (const call of calls.filter(c => c[0] === "config")) assert.equal(call[1], GA_TAG_ID, "configure the installed shared tag, not the destination-only ID");
   const configs = calls.filter(c => c[0] === "config").map(c => c[2] as Record<string, unknown>);
   for (const [i, path] of ["/tests/", "/reflections/", "/tests/"].entries()) {
     assert.equal(configs[i].update, i === 0 ? undefined : true);
@@ -127,8 +129,10 @@ test("enabled loader queues sanitized context before insertion and tolerates del
   const priorDocument = Object.getOwnPropertyDescriptor(globalThis, "document");
   const priorFlag = process.env.NEXT_PUBLIC_GA_ENABLED;
   const priorId = process.env.NEXT_PUBLIC_GA_ID;
+  const priorTagId = process.env.NEXT_PUBLIC_GA_TAG_ID;
   process.env.NEXT_PUBLIC_GA_ENABLED = "true";
   process.env.NEXT_PUBLIC_GA_ID = GA_MEASUREMENT_ID;
+  process.env.NEXT_PUBLIC_GA_TAG_ID = GA_TAG_ID;
   const sentinel = "PRIVATE_SENTINEL_DO_NOT_SEND";
   const scripts: Record<string, unknown>[] = [];
   const fake: { location: { hostname: string; pathname: string }; dataLayer?: IArguments[] } = {
@@ -151,7 +155,7 @@ test("enabled loader queues sanitized context before insertion and tolerates del
     visitAnalyticsPage(fake.location.pathname);
     assert.equal(scripts.length, 1);
     assert.equal(scripts[0].referrerPolicy, "no-referrer");
-    assert.ok(String(scripts[0].src).endsWith(`id=${GA_MEASUREMENT_ID}`));
+    assert.ok(String(scripts[0].src).endsWith(`id=${GA_TAG_ID}`));
     fake.location.pathname = "/reflections/";
     trackAnalyticsEvent("quiz_series_follow", { series_id: "news-world", followed: true, note: sentinel });
     visitAnalyticsPage(fake.location.pathname);
@@ -160,12 +164,17 @@ test("enabled loader queues sanitized context before insertion and tolerates del
     const calls = fake.dataLayer!.map(args => Array.from(args));
     assert.equal(calls.filter(args => args[0] === "event" && args[1] === "page_view").length, 3);
     assert.ok(!JSON.stringify(calls).includes(sentinel));
+    for (const call of calls.filter(args => args[0] === "event")) {
+      assert.equal((call[2] as Record<string, unknown>).send_to, GA_MEASUREMENT_ID, "every explicit event targets only the selected destination");
+      assert.notEqual((call[2] as Record<string, unknown>).send_to, GA_TAG_ID);
+    }
     assert.equal((calls.find(args => args[0] === "event" && args[1] === "quiz_series_follow")![2] as Record<string, string>).page_location, "https://typologyquiz.com/reflections/");
   } finally {
     if (priorWindow) Object.defineProperty(globalThis, "window", priorWindow); else Reflect.deleteProperty(globalThis, "window");
     if (priorDocument) Object.defineProperty(globalThis, "document", priorDocument); else Reflect.deleteProperty(globalThis, "document");
     if (priorFlag === undefined) delete process.env.NEXT_PUBLIC_GA_ENABLED; else process.env.NEXT_PUBLIC_GA_ENABLED = priorFlag;
     if (priorId === undefined) delete process.env.NEXT_PUBLIC_GA_ID; else process.env.NEXT_PUBLIC_GA_ID = priorId;
+    if (priorTagId === undefined) delete process.env.NEXT_PUBLIC_GA_TAG_ID; else process.env.NEXT_PUBLIC_GA_TAG_ID = priorTagId;
   }
 });
 
