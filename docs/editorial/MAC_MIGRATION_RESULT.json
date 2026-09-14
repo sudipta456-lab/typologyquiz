@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-10",
+  "host": "Sudiptas-Macbook-Air.local",
+  "project": "/Users/sudiptasarkar/dev/typologyquiz",
+  "recovery": "/Users/sudiptasarkar/dev/typologyquiz-recovery-20260909",
+  "sourceHead": "e8b981dea6bb47abde6e802f9ae0461036ae6e90",
+  "projectFiles": 20445,
+  "projectBytes": 2226970002,
+  "recoveryFiles": 813,
+  "recoveryBytes": 37035505,
+  "allChecksumsMatched": true,
+  "node": "24.20.0",
+  "tests": 33,
+  "typecheck": "passed",
+  "scopedLint": "passed",
+  "staticRoutes": 1245,
+  "staticBuild": "passed",
+  "deployment": false,
+  "windowsCleanup": "contents removed; empty directory held open",
+  "hostAdaptations": [
+    "scripts/mac-run.sh",
+    "AGENTS.md",
+    ".agents/HANDOFF.md",
+    ".agents/memory/inbox.md",
+    ".claude/launch.json",
+    ".mcp.json (original retained)"
+  ],
+  "windowsProjectRemoved": "C:\\dev\\funproject\\typologyquiz",
+  "windowsFreeAfterBytes": 469774336,
+  "approxWindowsSpaceReclaimedBytes": 413573120,
+  "gitLineEndings": "core.autocrlf=input (repository-local)",
+  "diffWhitespace": "passed after line-ending configuration"
+}

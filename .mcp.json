@@ -1,9 +1,3 @@
 {
-  "mcpServers": {
-    "openrouter": {
-      "type": "stdio",
-      "command": "node",
-      "args": ["C:\\dev\\openrouter-mcp\\server.mjs"]
-    }
-  }
+  "mcpServers": {}
 }

@@ -1,0 +1,101 @@
+{
+  "editionId": "format-sampler-2026-09-11",
+  "version": 1,
+  "drafter": "GPT-6 Astra /root/sampler_draft for TypologyQuiz",
+  "reviewer": "",
+  "reviewedAt": "",
+  "questions": [
+    {
+      "questionId": "sampler-01",
+      "sourceUrl": "https://oceanservice.noaa.gov/facts/biggestocean.html",
+      "sourcePublishedAt": null,
+      "eventDate": null,
+      "retrievedAt": "2026-09-11T05:20:58Z",
+      "supportingFact": "NOAA identifies the Pacific as the largest ocean basin and ranks Atlantic second, Indian third.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW; fail is a publication hold, not a factual finding. Evergreen reference with no original publication date established from the opened page. No dated event is asserted; both dates are deliberately null. NOAA shows last updated June 16, 2024; that is not asserted as its original publication date.",
+      "dateContext": "evergreen"
+    },
+    {
+      "questionId": "sampler-02",
+      "sourceUrl": "https://science.nasa.gov/moon/moon-phases/",
+      "sourcePublishedAt": null,
+      "eventDate": null,
+      "retrievedAt": "2026-09-11T05:20:58Z",
+      "supportingFact": "NASA Full Moon section describes the Earth-facing dayside in view; B has the entire visible disk bright. A is half-bright and C a crescent.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW; fail is a publication hold, not a factual finding. Evergreen reference with no original publication date established from the opened page. No dated event is asserted; both dates are deliberately null.",
+      "dateContext": "evergreen"
+    },
+    {
+      "questionId": "sampler-03",
+      "sourceUrl": "https://science.nasa.gov/solar-system/planets/",
+      "sourcePublishedAt": null,
+      "eventDate": null,
+      "retrievedAt": "2026-09-11T05:20:58Z",
+      "supportingFact": "NASA Inner Planets section gives Mercury, Venus, Earth, Mars as the first four from the Sun.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW; fail is a publication hold, not a factual finding. Evergreen reference with no original publication date established from the opened page. No dated event is asserted; both dates are deliberately null.",
+      "dateContext": "evergreen"
+    },
+    {
+      "questionId": "sampler-04",
+      "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle",
+      "sourcePublishedAt": "2019-06-08",
+      "eventDate": "2019-06-08",
+      "retrievedAt": "2026-09-11T05:20:58Z",
+      "supportingFact": "USGS defines evaporation as liquid water changing to water vapor.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW; fail is a publication hold, not a factual finding. The source is a dated educational reference. eventDate uses the reference publication date; this question concerns an evergreen process, not a news event."
+    },
+    {
+      "questionId": "sampler-04",
+      "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+      "sourcePublishedAt": "2019-06-08",
+      "eventDate": "2019-06-08",
+      "retrievedAt": "2026-09-11T05:20:58Z",
+      "supportingFact": "USGS defines condensation as water vapor changing into liquid water.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW; fail is a publication hold, not a factual finding. The source is a dated educational reference. eventDate uses the reference publication date; this question concerns an evergreen process, not a news event."
+    },
+    {
+      "questionId": "sampler-04",
+      "sourceUrl": "https://www.usgs.gov/water-science-school/science/precipitation-and-water-cycle",
+      "sourcePublishedAt": "2019-09-08",
+      "eventDate": "2019-09-08",
+      "retrievedAt": "2026-09-11T05:20:58Z",
+      "supportingFact": "USGS defines precipitation as water released from clouds, including rain and snow.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW; fail is a publication hold, not a factual finding. The source is a dated educational reference. eventDate uses the reference publication date; this question concerns an evergreen process, not a news event."
+    }
+  ],
+  "media": [
+    {
+      "questionId": "sampler-02",
+      "optionId": "a",
+      "sourceUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+      "licenseUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+      "permittedUse": "PENDING: original vector markup authored for TypologyQuiz; intended for site use. Inspect local CREDITS.md and SVG bytes. Proposed public credits URL is not yet implemented or verified.",
+      "modificationNote": "Original geometric vector drawing; no external assets copied.",
+      "verdict": "fail"
+    },
+    {
+      "questionId": "sampler-02",
+      "optionId": "b",
+      "sourceUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+      "licenseUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+      "permittedUse": "PENDING: original vector markup authored for TypologyQuiz; intended for site use. Inspect local CREDITS.md and SVG bytes. Proposed public credits URL is not yet implemented or verified.",
+      "modificationNote": "Original geometric vector drawing; no external assets copied.",
+      "verdict": "fail"
+    },
+    {
+      "questionId": "sampler-02",
+      "optionId": "c",
+      "sourceUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+      "licenseUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+      "permittedUse": "PENDING: original vector markup authored for TypologyQuiz; intended for site use. Inspect local CREDITS.md and SVG bytes. Proposed public credits URL is not yet implemented or verified.",
+      "modificationNote": "Original geometric vector drawing; no external assets copied.",
+      "verdict": "fail"
+    }
+  ]
+}

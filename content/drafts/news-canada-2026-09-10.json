@@ -1,0 +1,234 @@
+{
+  "id": "news-canada-2026-09-10",
+  "seriesId": "news-canada",
+  "version": 1,
+  "title": "Canada News Quiz - Week of September 10, 2026",
+  "description": "Unpublished research draft covering Canadian headlines, culture, health, and sport.",
+  "publishedAt": "2026-09-10",
+  "audience": "general",
+  "questions": [
+    {
+      "id": "ca-01",
+      "kind": "choice",
+      "prompt": "Which portrait appears on the new Canadian $20 note unveiled on September 3?",
+      "options": [
+        {
+          "id": "a",
+          "label": "King Charles III"
+        },
+        {
+          "id": "b",
+          "label": "Queen Elizabeth II"
+        },
+        {
+          "id": "c",
+          "label": "Terry Fox"
+        }
+      ],
+      "correctId": "a",
+      "explanation": "The Bank of Canada unveiled a new vertical $20 note featuring King Charles III. It is expected to enter circulation in February 2027.",
+      "sources": [
+        {
+          "label": "Bank of Canada",
+          "url": "https://www.bankofcanada.ca/2026/09/bank-canada-unveils-new-vertical-20-bank-note/",
+          "publishedAt": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "id": "ca-02",
+      "kind": "choice",
+      "prompt": "What overnight interest rate did the Bank of Canada hold on September 2?",
+      "options": [
+        {
+          "id": "a",
+          "label": "2.75%"
+        },
+        {
+          "id": "b",
+          "label": "2.25%"
+        },
+        {
+          "id": "c",
+          "label": "1.75%"
+        }
+      ],
+      "correctId": "b",
+      "explanation": "The Bank of Canada held its target for the overnight rate at 2.25%.",
+      "sources": [
+        {
+          "label": "Bank of Canada",
+          "url": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "id": "ca-03",
+      "kind": "choice",
+      "prompt": "Canadian counter-tariffs taking effect on September 8 applied to listed products from which country?",
+      "options": [
+        {
+          "id": "a",
+          "label": "China"
+        },
+        {
+          "id": "b",
+          "label": "Mexico"
+        },
+        {
+          "id": "c",
+          "label": "The United States"
+        }
+      ],
+      "correctId": "c",
+      "explanation": "The Finance Department listed products from the United States subject to counter-tariffs effective September 8.",
+      "sources": [
+        {
+          "label": "Department of Finance Canada",
+          "url": "https://www.canada.ca/en/department-finance/news/2026/08/list-of-products-from-the-united-states-subject-to-counter-tariffs-effective-september-8-2026.html",
+          "publishedAt": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "id": "ca-04",
+      "kind": "choice",
+      "prompt": "What emergency medicine did Food Allergy Canada call on schools to keep in stock this week?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Epinephrine devices, such as EpiPens"
+        },
+        {
+          "id": "b",
+          "label": "Insulin"
+        },
+        {
+          "id": "c",
+          "label": "Asthma inhalers"
+        }
+      ],
+      "correctId": "a",
+      "explanation": "Food Allergy Canada called for provincial laws requiring schools to stock epinephrine devices for severe allergic reactions, beyond devices assigned to individual students.",
+      "sources": [
+        {
+          "label": "The Canadian Press via CityNews",
+          "url": "https://toronto.citynews.ca/2026/09/08/food-allergy-canada-calls-for-laws-requiring-schools-to-stock-epinephrine-devices/",
+          "publishedAt": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "id": "ca-05",
+      "kind": "choice",
+      "prompt": "Which Canadian city welcomed the international film festival opening on September 10?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Vancouver"
+        },
+        {
+          "id": "b",
+          "label": "Toronto"
+        },
+        {
+          "id": "c",
+          "label": "Montreal"
+        }
+      ],
+      "correctId": "b",
+      "explanation": "The Toronto International Film Festival opened on September 10. The 2026 festival runs through September 20.",
+      "sources": [
+        {
+          "label": "The Canadian Press via iNFOnews",
+          "url": "https://infonews.ca/news/7866359/glitz-glam-and-geopolitical-anxiety-as-tiff-gets-underway/",
+          "publishedAt": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "id": "ca-06",
+      "kind": "choice",
+      "prompt": "Which summer program offering free admission at Parks Canada sites ended after Labour Day?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Discovery Pass"
+        },
+        {
+          "id": "b",
+          "label": "Canoo"
+        },
+        {
+          "id": "c",
+          "label": "Canada Strong Pass"
+        }
+      ],
+      "correctId": "c",
+      "explanation": "The Canada Strong Pass summer offer ran through September 7. Regular Parks Canada fees resumed on September 8.",
+      "sources": [
+        {
+          "label": "Parks Canada",
+          "url": "https://parks.canada.ca/~/link.aspx?_id=6B0566AEF4F841939561D3F08BDB8237&_z=z"
+        }
+      ]
+    },
+    {
+      "id": "ca-07",
+      "kind": "choice",
+      "prompt": "The federal government announced matching donations to a Red Cross flood appeal for which Prairie province on September 4?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Manitoba"
+        },
+        {
+          "id": "b",
+          "label": "Alberta"
+        },
+        {
+          "id": "c",
+          "label": "Saskatchewan"
+        }
+      ],
+      "correctId": "a",
+      "explanation": "The federal announcement matched eligible donations to the Canadian Red Cross 2026 Manitoba Flood Appeal, supporting recovery from summer flooding.",
+      "sources": [
+        {
+          "label": "Public Safety Canada",
+          "url": "https://www.canada.ca/en/public-safety-canada/news/2026/09/government-of-canada-matches-donations-to-the-red-cross-2026-manitoba-flood-appeal.html",
+          "publishedAt": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "ca-08",
+      "kind": "choice",
+      "prompt": "Which CFL team came back to beat Calgary in the Labour Day Classic on September 7?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Winnipeg Blue Bombers"
+        },
+        {
+          "id": "b",
+          "label": "Edmonton Elks"
+        },
+        {
+          "id": "c",
+          "label": "BC Lions"
+        }
+      ],
+      "correctId": "b",
+      "explanation": "The Edmonton Elks rallied in the fourth quarter to defeat the Calgary Stampeders in the Labour Day game.",
+      "sources": [
+        {
+          "label": "CFL",
+          "url": "https://cfl.prod.s.cfl.ca/article/Strong-fourth-quarter-propels-Elks-to-OK-Tire-Labour-Day-Weekend-win-over-Stampeders",
+          "publishedAt": "2026-09-07"
+        }
+      ]
+    }
+  ]
+}

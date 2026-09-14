@@ -1,0 +1,14 @@
+{
+    "WindowsProject":  "C:\\dev\\funproject\\typologyquiz",
+    "MacProject":  "/Users/sudiptasarkar/dev/typologyquiz",
+    "MacRecovery":  "/Users/sudiptasarkar/dev/typologyquiz-recovery-20260909",
+    "FilesChecksumVerified":  21258,
+    "TestsPassed":  33,
+    "StaticRoutesBuilt":  1245,
+    "WindowsProjectContentsRemoved":  true,
+    "WindowsProjectRemoved":  false,
+    "Remaining":  "Empty directory held open by a Windows process",
+    "FreeBeforeCleanupMeasuredBytes":  56201216,
+    "FreeAfterBytes":  469774336,
+    "ApproxReclaimedBytes":  413573120
+}

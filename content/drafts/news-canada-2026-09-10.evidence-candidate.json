@@ -1,0 +1,89 @@
+{
+  "editionId": "news-canada-2026-09-10",
+  "version": 1,
+  "drafter": "GPT-6 Astra /root/handover_review (Canada draft research)",
+  "reviewer": "",
+  "reviewedAt": "",
+  "questions": [
+    {
+      "questionId": "ca-01",
+      "sourceUrl": "https://www.bankofcanada.ca/2026/09/bank-canada-unveils-new-vertical-20-bank-note/",
+      "sourcePublishedAt": "2026-09-03",
+      "eventDate": "2026-09-03",
+      "retrievedAt": "2026-09-10T20:27:23Z",
+      "supportingFact": "The Bank of Canada unveiled a new vertical $20 note featuring King Charles III. It is expected to enter circulation in February 2027.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: currency. Recognizable national currency change; asks the central portrait, not a security feature."
+    },
+    {
+      "questionId": "ca-02",
+      "sourceUrl": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+      "sourcePublishedAt": "2026-09-02",
+      "eventDate": "2026-09-02",
+      "retrievedAt": "2026-09-10T20:27:23Z",
+      "supportingFact": "The Bank of Canada held its target for the overnight rate at 2.25%.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: economy. Major national household-finance headline. A salient number explicitly consistent with the operator?s preferred interest-rate example."
+    },
+    {
+      "questionId": "ca-03",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2026/08/list-of-products-from-the-united-states-subject-to-counter-tariffs-effective-september-8-2026.html",
+      "sourcePublishedAt": "2026-08-26",
+      "eventDate": "2026-09-08",
+      "retrievedAt": "2026-09-10T20:27:23Z",
+      "supportingFact": "The Finance Department listed products from the United States subject to counter-tariffs effective September 8.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: trade. The source was published before the news window, but the effective-date event is within it. Recheck current applicability independently."
+    },
+    {
+      "questionId": "ca-04",
+      "sourceUrl": "https://toronto.citynews.ca/2026/09/08/food-allergy-canada-calls-for-laws-requiring-schools-to-stock-epinephrine-devices/",
+      "sourcePublishedAt": "2026-09-08",
+      "eventDate": "2026-09-08",
+      "retrievedAt": "2026-09-10T20:27:23Z",
+      "supportingFact": "Food Allergy Canada called for provincial laws requiring schools to stock epinephrine devices for severe allergic reactions, beyond devices assigned to individual students.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: health and education. Back-to-school public-health story. September 8 dates the advocacy report, not the older incident discussed in the article."
+    },
+    {
+      "questionId": "ca-05",
+      "sourceUrl": "https://infonews.ca/news/7866359/glitz-glam-and-geopolitical-anxiety-as-tiff-gets-underway/",
+      "sourcePublishedAt": "2026-09-10",
+      "eventDate": "2026-09-10",
+      "retrievedAt": "2026-09-10T20:27:23Z",
+      "supportingFact": "The Toronto International Film Festival opened on September 10. The 2026 festival runs through September 20.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: culture. Recognizable national cultural event; no film-specific or adult-entertainment content. Official TIFF visitor page corroborates September 10?20."
+    },
+    {
+      "questionId": "ca-06",
+      "sourceUrl": "https://parks.canada.ca/~/link.aspx?_id=6B0566AEF4F841939561D3F08BDB8237&_z=z",
+      "sourcePublishedAt": "",
+      "eventDate": "2026-09-08",
+      "retrievedAt": "2026-09-10T20:27:23Z",
+      "supportingFact": "The Canada Strong Pass summer offer ran through September 7. Regular Parks Canada fees resumed on September 8.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: tourism. SOURCE DATE HOLD: opened page showed date modified August 31, 2026; search showed September 8 revision. Original publication date was not displayed. Both describe the September 7 endpoint and September 8 resumption. Leave publication date blank until independent reviewer resolves metadata."
+    },
+    {
+      "questionId": "ca-07",
+      "sourceUrl": "https://www.canada.ca/en/public-safety-canada/news/2026/09/government-of-canada-matches-donations-to-the-red-cross-2026-manitoba-flood-appeal.html",
+      "sourcePublishedAt": "2026-09-04",
+      "eventDate": "2026-09-04",
+      "retrievedAt": "2026-09-10T20:27:23Z",
+      "supportingFact": "The federal announcement matched eligible donations to the Canadian Red Cross 2026 Manitoba Flood Appeal, supporting recovery from summer flooding.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: weather and community. The current event is the matching announcement, not the original summer flood. No casualty counts. Reviewer should assess national salience."
+    },
+    {
+      "questionId": "ca-08",
+      "sourceUrl": "https://cfl.prod.s.cfl.ca/article/Strong-fourth-quarter-propels-Elks-to-OK-Tire-Labour-Day-Weekend-win-over-Stampeders",
+      "sourcePublishedAt": "2026-09-07",
+      "eventDate": "2026-09-07",
+      "retrievedAt": "2026-09-10T20:27:23Z",
+      "supportingFact": "The Edmonton Elks rallied in the fourth quarter to defeat the Calgary Stampeders in the Labour Day game.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: sport. AUDIENCE FIT HOLD: a traditional holiday rivalry, asking the winner rather than niche player statistics. Independent reviewer must decide whether a national 1?2-hour news reader would comfortably attempt it; reject rather than pad quota."
+    }
+  ]
+}

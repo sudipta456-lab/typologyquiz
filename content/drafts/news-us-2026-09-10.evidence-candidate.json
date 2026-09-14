@@ -1,0 +1,89 @@
+{
+  "editionId": "news-us-2026-09-10",
+  "version": 1,
+  "drafter": "GPT-6 Astra /root/handover_review (US draft research)",
+  "reviewer": "",
+  "reviewedAt": "",
+  "questions": [
+    {
+      "questionId": "us-01",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      "sourcePublishedAt": "2026-09-09",
+      "eventDate": "2026-09-09",
+      "retrievedAt": "2026-09-10T20:22:08Z",
+      "supportingFact": "Apple announced its first foldable iPhone on September 9.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: technology. Intended difficulty: easy. Headline takeaway and audience rationale: A familiar consumer product changed shape; the design is the central announcement, rather than its chip or price."
+    },
+    {
+      "questionId": "us-02",
+      "sourceUrl": "https://www.dol.gov/newsroom/economicdata/empsit_09042026.pdf",
+      "sourcePublishedAt": "2026-09-04",
+      "eventDate": "2026-09-04",
+      "retrievedAt": "2026-09-10T20:22:08Z",
+      "supportingFact": "Page 1 reports August nonfarm payroll employment increased by 162,000.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: economy. Intended difficulty: easy. Headline takeaway and audience rationale: Employment growth was the headline of a major national release; no specialist industry breakdown is required. August is the measurement month; September 4 is the release event."
+    },
+    {
+      "questionId": "us-03",
+      "sourceUrl": "https://www.wtatennis.com/news/4574376/gauff-saves-two-match-points-storms-past-andreeva-into-us-open-semis",
+      "sourcePublishedAt": "2026-09-09",
+      "eventDate": "2026-09-09",
+      "retrievedAt": "2026-09-10T20:22:08Z",
+      "supportingFact": "WTA reports Gauff defeated Andreeva and advanced to the US Open semifinals on September 9.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: sport-tennis. Intended difficulty: moderate. Headline takeaway and audience rationale: A recognizable American star made a comeback at a major home tournament. It asks the central name, not point totals or a ranking."
+    },
+    {
+      "questionId": "us-04",
+      "sourceUrl": "https://wplginc-wplg-prod.web.arc-cdn.net/news/politics/2026/09/06/trump-administration-makes-another-appeal-to-the-supreme-court-to-allow-mail-ballot-restrictions/",
+      "sourcePublishedAt": "2026-09-06",
+      "eventDate": "2026-09-06",
+      "retrievedAt": "2026-09-10T20:22:08Z",
+      "supportingFact": "AP reports a September 6 renewed Supreme Court appeal about restrictions on mail ballots.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: civic-news. Intended difficulty: easy. Headline takeaway and audience rationale: The voting method is the central public-facing issue ahead of the midterms. No legal jargon or prediction of the court outcome is required."
+    },
+    {
+      "questionId": "us-05",
+      "sourceUrl": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2026-09-03",
+      "sourcePublishedAt": "2026-09-03",
+      "eventDate": "2026-09-01",
+      "retrievedAt": "2026-09-10T20:22:08Z",
+      "supportingFact": "NASA dates landfall to September 1 near Johnson Bayou, Louisiana, with rain bands extending from Louisiana to Texas.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: weather. Intended difficulty: moderate. Headline takeaway and audience rationale: Tests the broadly affected coastal region, not landfall coordinates, wind speed, or casualties. Review national salience; reject if considered merely regional for this audience."
+    },
+    {
+      "questionId": "us-06",
+      "sourceUrl": "https://www.local10.com/business/2026/09/06/spider-man-brand-new-day-makes-it-6-weeks-in-a-row-at-no-1-as-hollywood-wraps-a-banner-summer/",
+      "sourcePublishedAt": "2026-09-06",
+      "eventDate": "2026-09-06",
+      "retrievedAt": "2026-09-10T20:22:08Z",
+      "supportingFact": "AP reports Spider-Man: Brand New Day led for six consecutive weekends; the separately opened Numbers September 4 weekend chart also ranks it first.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: entertainment. Intended difficulty: easy. Headline takeaway and audience rationale: A widely familiar superhero film and sustained box-office success. Only the film identity is tested; no adult-oriented movies or themes appear in the choices."
+    },
+    {
+      "questionId": "us-07",
+      "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-loss-to-the-seahawks-in-week-1",
+      "sourcePublishedAt": "2026-09-10",
+      "eventDate": "2026-09-09",
+      "retrievedAt": "2026-09-10T20:22:08Z",
+      "supportingFact": "The September 10 team report and final game center show Seattle defeated New England 13-10 on September 9.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: sport-football. Intended difficulty: easy. Headline takeaway and audience rationale: The national NFL season opener is a broad sports headline. Tests the winning team, not player statistics; the game ended before retrieval."
+    },
+    {
+      "questionId": "us-08",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/15092",
+      "sourcePublishedAt": "2026-09-08",
+      "eventDate": "2026-09-08",
+      "retrievedAt": "2026-09-10T20:22:08Z",
+      "supportingFact": "NASA release describes previously unknown trans-Neptunian objects identified by combining Hubble and Webb observations.",
+      "verdict": "fail",
+      "notes": "PENDING INDEPENDENT REVIEW, not a factual failure verdict. Drafter opened and read source. Topic: science. Intended difficulty: moderate. Headline takeaway and audience rationale: BORDERLINE: plain-language central finding and familiar planet names, but broad news salience is not established. Independent reviewer must decide whether a 1-2-hour reader could comfortably attempt it; discard rather than preserve a quota. September 8 is announcement date, not an invented observation date."
+    }
+  ]
+}

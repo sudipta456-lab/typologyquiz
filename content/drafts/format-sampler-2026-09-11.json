@@ -1,0 +1,185 @@
+{
+  "id": "format-sampler-2026-09-11",
+  "seriesId": "format-sampler",
+  "version": 1,
+  "title": "Earth and Space: Four Ways to Play",
+  "description": "A four-question science and geography break: pick an answer, inspect a diagram, arrange planets, and match water-cycle processes. One point per complete correct question.",
+  "publishedAt": "2026-09-11",
+  "audience": "general",
+  "questions": [
+    {
+      "id": "sampler-01",
+      "kind": "choice",
+      "prompt": "Which ocean basin is the largest on Earth?",
+      "options": [
+        {
+          "id": "atlantic",
+          "label": "Atlantic"
+        },
+        {
+          "id": "pacific",
+          "label": "Pacific"
+        },
+        {
+          "id": "indian",
+          "label": "Indian"
+        },
+        {
+          "id": "arctic",
+          "label": "Arctic"
+        }
+      ],
+      "correctId": "pacific",
+      "explanation": "The Pacific is the largest ocean basin. NOAA ranks the Atlantic second and the Indian third.",
+      "sources": [
+        {
+          "label": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/biggestocean.html"
+        }
+      ]
+    },
+    {
+      "id": "sampler-02",
+      "kind": "image-choice",
+      "prompt": "Which simplified view from Earth shows a full Moon?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Diagram A",
+          "image": {
+            "src": "/editorial-media/format-sampler-2026-09-11-v1/moon-a.svg",
+            "alt": "Circular Moon diagram with its right half bright and left half dark.",
+            "creator": "GPT-6 Astra /root/sampler_draft for TypologyQuiz",
+            "sourceUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+            "license": "Original TypologyQuiz artwork; intended for use on this site. Rights review pending.",
+            "licenseUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/"
+          }
+        },
+        {
+          "id": "b",
+          "label": "Diagram B",
+          "image": {
+            "src": "/editorial-media/format-sampler-2026-09-11-v1/moon-b.svg",
+            "alt": "Circular Moon diagram with the whole disk bright.",
+            "creator": "GPT-6 Astra /root/sampler_draft for TypologyQuiz",
+            "sourceUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+            "license": "Original TypologyQuiz artwork; intended for use on this site. Rights review pending.",
+            "licenseUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/"
+          }
+        },
+        {
+          "id": "c",
+          "label": "Diagram C",
+          "image": {
+            "src": "/editorial-media/format-sampler-2026-09-11-v1/moon-c.svg",
+            "alt": "Circular Moon diagram with a thin bright crescent on the right and the rest dark.",
+            "creator": "GPT-6 Astra /root/sampler_draft for TypologyQuiz",
+            "sourceUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/",
+            "license": "Original TypologyQuiz artwork; intended for use on this site. Rights review pending.",
+            "licenseUrl": "https://typologyquiz.com/editorial-media/format-sampler-2026-09-11-v1/"
+          }
+        }
+      ],
+      "correctId": "b",
+      "explanation": "At full Moon, the side facing Earth appears fully lit by sunlight. These original diagrams simplify the visible bright shape; they are not photographs.",
+      "sources": [
+        {
+          "label": "NASA Science: Moon Phases",
+          "url": "https://science.nasa.gov/moon/moon-phases/"
+        }
+      ]
+    },
+    {
+      "id": "sampler-03",
+      "kind": "order",
+      "prompt": "Put these four planets in order from nearest to farthest from the Sun.",
+      "items": [
+        {
+          "id": "mars",
+          "label": "Mars"
+        },
+        {
+          "id": "mercury",
+          "label": "Mercury"
+        },
+        {
+          "id": "earth",
+          "label": "Earth"
+        },
+        {
+          "id": "venus",
+          "label": "Venus"
+        }
+      ],
+      "correctOrder": [
+        "mercury",
+        "venus",
+        "earth",
+        "mars"
+      ],
+      "explanation": "The four inner planets, moving outward from the Sun, are Mercury, Venus, Earth, and Mars.",
+      "sources": [
+        {
+          "label": "NASA Science: About the Planets",
+          "url": "https://science.nasa.gov/solar-system/planets/"
+        }
+      ]
+    },
+    {
+      "id": "sampler-04",
+      "kind": "match",
+      "prompt": "Match each water-cycle process to its description.",
+      "left": [
+        {
+          "id": "evaporation",
+          "label": "Evaporation"
+        },
+        {
+          "id": "condensation",
+          "label": "Condensation"
+        },
+        {
+          "id": "precipitation",
+          "label": "Precipitation"
+        }
+      ],
+      "right": [
+        {
+          "id": "clouds",
+          "label": "Water falls from clouds as rain or snow"
+        },
+        {
+          "id": "liquid",
+          "label": "Water vapor changes into liquid water"
+        },
+        {
+          "id": "vapor",
+          "label": "Liquid water changes into water vapor"
+        }
+      ],
+      "correctPairs": {
+        "evaporation": "vapor",
+        "condensation": "liquid",
+        "precipitation": "clouds"
+      },
+      "explanation": "Evaporation changes liquid water into vapor; condensation turns vapor into liquid. Rain and snow falling from clouds are examples of precipitation.",
+      "sources": [
+        {
+          "label": "USGS: Evaporation and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle",
+          "publishedAt": "2019-06-08"
+        },
+        {
+          "label": "USGS: Condensation and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+          "publishedAt": "2019-06-08"
+        },
+        {
+          "label": "USGS: Precipitation and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/precipitation-and-water-cycle",
+          "publishedAt": "2019-09-08"
+        }
+      ]
+    }
+  ]
+}

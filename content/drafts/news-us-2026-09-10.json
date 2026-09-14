@@ -1,0 +1,235 @@
+{
+  "id": "news-us-2026-09-10",
+  "seriesId": "news-us",
+  "version": 1,
+  "title": "US News Quiz - Week of September 10, 2026",
+  "description": "A draft round on the headlines, discoveries, and sporting moments from the United States.",
+  "publishedAt": "2026-09-10",
+  "audience": "general",
+  "questions": [
+    {
+      "id": "us-01",
+      "kind": "choice",
+      "prompt": "What was the major new design feature of Apple's iPhone Duo, unveiled on September 9?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A foldable screen"
+        },
+        {
+          "id": "b",
+          "label": "A physical keyboard"
+        },
+        {
+          "id": "c",
+          "label": "A detachable camera"
+        }
+      ],
+      "correctId": "a",
+      "explanation": "Apple introduced the Duo as its first folding iPhone. It opens into a larger display and closes into a pocket-sized device.",
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "publishedAt": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": "us-02",
+      "kind": "choice",
+      "prompt": "What did the September 4 U.S. jobs report say happened to payroll employment in August?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It fell"
+        },
+        {
+          "id": "b",
+          "label": "It rose"
+        },
+        {
+          "id": "c",
+          "label": "It was unchanged"
+        }
+      ],
+      "correctId": "b",
+      "explanation": "The report recorded a gain of 162,000 payroll jobs in August. This question uses that dated release; later reports may revise the estimate.",
+      "sources": [
+        {
+          "label": "U.S. Bureau of Labor Statistics, via Department of Labor",
+          "url": "https://www.dol.gov/newsroom/economicdata/empsit_09042026.pdf",
+          "publishedAt": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "us-03",
+      "kind": "choice",
+      "prompt": "Which American tennis star came back against Mirra Andreeva to reach the US Open semifinals on September 9?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Jessica Pegula"
+        },
+        {
+          "id": "b",
+          "label": "Emma Navarro"
+        },
+        {
+          "id": "c",
+          "label": "Coco Gauff"
+        }
+      ],
+      "correctId": "c",
+      "explanation": "Coco Gauff recovered after losing the first set and beat Andreeva to reach the semifinals. The question concerns that completed quarterfinal, not the eventual tournament winner.",
+      "sources": [
+        {
+          "label": "WTA",
+          "url": "https://www.wtatennis.com/news/4574376/gauff-saves-two-match-points-storms-past-andreeva-into-us-open-semis",
+          "publishedAt": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": "us-04",
+      "kind": "choice",
+      "prompt": "The Trump administration asked the Supreme Court on September 6 to allow new restrictions on which voting method?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Early voting at polling places"
+        },
+        {
+          "id": "b",
+          "label": "Mail-in ballots"
+        },
+        {
+          "id": "c",
+          "label": "Election Day voting at polling places"
+        }
+      ],
+      "correctId": "b",
+      "explanation": "The administration sought permission to enforce new mail-ballot restrictions. This identifies the subject of the dated filing and does not claim the dispute has been finally resolved.",
+      "sources": [
+        {
+          "label": "Associated Press, published by WPLG Local 10",
+          "url": "https://wplginc-wplg-prod.web.arc-cdn.net/news/politics/2026/09/06/trump-administration-makes-another-appeal-to-the-supreme-court-to-allow-mail-ballot-restrictions/",
+          "publishedAt": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "us-05",
+      "kind": "choice",
+      "prompt": "Which part of the U.S. coast was hit by Tropical Storm Edouard at the start of September?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Texas-Louisiana Gulf Coast"
+        },
+        {
+          "id": "b",
+          "label": "The Florida-Georgia Atlantic Coast"
+        },
+        {
+          "id": "c",
+          "label": "The Oregon-Washington Pacific Coast"
+        }
+      ],
+      "correctId": "a",
+      "explanation": "Edouard made landfall in Louisiana near the Texas border on September 1. NASA described rain bands extending across parts of both states.",
+      "sources": [
+        {
+          "label": "NASA MODIS",
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2026-09-03",
+          "publishedAt": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "id": "us-06",
+      "kind": "choice",
+      "prompt": "Which movie was still leading the U.S.-Canada box office for a sixth straight weekend in early September?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Toy Story 5"
+        },
+        {
+          "id": "b",
+          "label": "Coyote vs. Acme"
+        },
+        {
+          "id": "c",
+          "label": "Spider-Man: Brand New Day"
+        }
+      ],
+      "correctId": "c",
+      "explanation": "Spider-Man: Brand New Day remained the weekend leader in the September 6 report. The question asks about the dated ranking, not an eventual box-office total.",
+      "sources": [
+        {
+          "label": "Associated Press, published by WPLG Local 10",
+          "url": "https://www.local10.com/business/2026/09/06/spider-man-brand-new-day-makes-it-6-weeks-in-a-row-at-no-1-as-hollywood-wraps-a-banner-summer/",
+          "publishedAt": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "us-07",
+      "kind": "choice",
+      "prompt": "Which team won the NFL season opener against New England on September 9?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Seattle Seahawks"
+        },
+        {
+          "id": "b",
+          "label": "Kansas City Chiefs"
+        },
+        {
+          "id": "c",
+          "label": "Philadelphia Eagles"
+        }
+      ],
+      "correctId": "a",
+      "explanation": "Seattle beat New England 13-10 in the completed opener. The result concerns a single game, not a forecast for the season.",
+      "sources": [
+        {
+          "label": "New England Patriots",
+          "url": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-loss-to-the-seahawks-in-week-1",
+          "publishedAt": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "id": "us-08",
+      "kind": "choice",
+      "prompt": "NASA's September 8 Hubble-and-Webb announcement described newly found icy objects beyond which planet?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Jupiter"
+        },
+        {
+          "id": "b",
+          "label": "Saturn"
+        },
+        {
+          "id": "c",
+          "label": "Neptune"
+        }
+      ],
+      "correctId": "c",
+      "explanation": "The two telescopes helped identify previously unknown small bodies beyond Neptune. NASA described them as clues to the early solar system.",
+      "sources": [
+        {
+          "label": "NASA Goddard Scientific Visualization Studio",
+          "url": "https://svs.gsfc.nasa.gov/15092",
+          "publishedAt": "2026-09-08"
+        }
+      ]
+    }
+  ]
+}
