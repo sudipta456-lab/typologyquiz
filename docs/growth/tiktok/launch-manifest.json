@@ -1,0 +1,567 @@
+{
+  "schema": 1,
+  "account": "@typologyquiz",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 16,
+    "safe_content_bounds": [
+      80,
+      180,
+      920,
+      1570
+    ]
+  },
+  "posts": [
+    {
+      "id": "01-bc-capital",
+      "sequence": 1,
+      "series": "Capital check",
+      "design": "capital",
+      "question": "British Columbia.\nWhat’s the capital?",
+      "options": [
+        "Vancouver",
+        "Victoria",
+        "Kelowna"
+      ],
+      "answer": "Victoria",
+      "explanation": "Vancouver is the familiar guess.\nVictoria is the provincial capital.",
+      "cta": "Try Canada capitals",
+      "quiz_url": "https://typologyquiz.com/trivia/canada-capitals/",
+      "caption": "BC locals: lock in your answer before the reveal. Play: https://typologyquiz.com/trivia/canada-capitals/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "British Columbia.\nWhat’s the capital?"
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "Victoria. Vancouver is the familiar guess.\nVictoria is the provincial capital."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try Canada capitals. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://www.canada.ca/en/intergovernmental-affairs/services/provinces-territories.html",
+          "fact_supported": "Lists British Columbia’s capital as Victoria.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/canada.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "02-hottest-planet",
+      "sequence": 2,
+      "series": "Space duel",
+      "design": "duel",
+      "question": "Which planet\nis hotter?",
+      "options": [
+        "Mercury",
+        "Venus"
+      ],
+      "answer": "Venus",
+      "explanation": "Its thick atmosphere traps heat.\nCloser to the Sun isn’t the whole story.",
+      "cta": "Try the planets quiz",
+      "quiz_url": "https://typologyquiz.com/trivia/planets/",
+      "caption": "Mercury or Venus? Give yourself six seconds. Play: https://typologyquiz.com/trivia/planets/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "Which planet\nis hotter?"
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "Venus. Its thick atmosphere traps heat.\nCloser to the Sun isn’t the whole story."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try the planets quiz. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://science.nasa.gov/venus/venus-facts/",
+          "fact_supported": "Venus has a hotter surface than Mercury due to its thick atmosphere and greenhouse effect.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/planets.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "03-name-na",
+      "sequence": 3,
+      "series": "Element check",
+      "design": "tile",
+      "question": "Name this\nelement.",
+      "options": [
+        "Na"
+      ],
+      "answer": "Sodium",
+      "explanation": "Na is sodium.\nIts atomic number is 11.",
+      "cta": "Try the periodic table",
+      "quiz_url": "https://typologyquiz.com/trivia/periodic-table-first-20/",
+      "caption": "Two letters. One element. No scrolling to the answer. Play: https://typologyquiz.com/trivia/periodic-table-first-20/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "Name this\nelement."
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "Sodium. Na is sodium.\nIts atomic number is 11."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try the periodic table. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://periodic-table.rsc.org/element/11/sodium",
+          "fact_supported": "Sodium has symbol Na and atomic number 11.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/elements.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "04-missing-planet",
+      "sequence": 4,
+      "series": "One missing",
+      "design": "orbit",
+      "question": "Which planet\nfills the gap?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "?",
+        "Jupiter"
+      ],
+      "answer": "Mars",
+      "explanation": "Mercury → Venus → Earth → Mars.\nMars is fourth from the Sun.",
+      "cta": "Try the planets quiz",
+      "quiz_url": "https://typologyquiz.com/trivia/planets/",
+      "caption": "One gap in the solar system. What belongs there? Play: https://typologyquiz.com/trivia/planets/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "Which planet\nfills the gap?"
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "Mars. Mercury → Venus → Earth → Mars.\nMars is fourth from the Sun."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try the planets quiz. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://science.nasa.gov/solar-system/planets/",
+          "fact_supported": "Lists the planets in order from the Sun and identifies Mars as fourth.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/planets.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "05-new-york-capital",
+      "sequence": 5,
+      "series": "Capital trap",
+      "design": "ticket",
+      "question": "New York State.\nName its capital.",
+      "options": [
+        "New York City",
+        "Albany",
+        "Buffalo"
+      ],
+      "answer": "Albany",
+      "explanation": "The state capital is Albany.\nNew York City is a different answer.",
+      "cta": "Try US state capitals",
+      "quiz_url": "https://typologyquiz.com/trivia/us-state-capitals/",
+      "caption": "The state, not the city. Which answer did you pick? Play: https://typologyquiz.com/trivia/us-state-capitals/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "New York State.\nName its capital."
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "Albany. The state capital is Albany.\nNew York City is a different answer."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try US state capitals. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://www.nysenate.gov/legislation/laws/STL/1-A",
+          "fact_supported": "New York State Law designates Albany as capital.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/us-states.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "06-canada-territories",
+      "sequence": 6,
+      "series": "Quick count",
+      "design": "count",
+      "question": "Canada has 10 provinces.\nHow many territories?",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3 territories",
+      "explanation": "Yukon. Northwest Territories.\nNunavut.",
+      "cta": "Try Canada geography",
+      "quiz_url": "https://typologyquiz.com/trivia/canada-provinces/",
+      "caption": "Ten provinces. How many territories? Take a beat before answering. Play: https://typologyquiz.com/trivia/canada-provinces/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "Canada has 10 provinces.\nHow many territories?"
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "3 territories. Yukon. Northwest Territories.\nNunavut."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try Canada geography. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
+          "fact_supported": "Canada has ten provinces and three territories; lists all three territories.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/canada.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "07-element-eight",
+      "sequence": 7,
+      "series": "Eight protons",
+      "design": "atom",
+      "question": "8 protons.\nName the element.",
+      "options": [
+        "8"
+      ],
+      "answer": "Oxygen",
+      "explanation": "An element’s atomic number\ncounts its protons. Oxygen is 8.",
+      "cta": "Try the periodic table",
+      "quiz_url": "https://typologyquiz.com/trivia/periodic-table/",
+      "caption": "A tiny chemistry check. Which element has eight protons? Play: https://typologyquiz.com/trivia/periodic-table/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "8 protons.\nName the element."
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "Oxygen. An element’s atomic number\ncounts its protons. Oxygen is 8."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try the periodic table. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://periodic-table.rsc.org/element/8/oxygen",
+          "fact_supported": "Oxygen atomic number 8; atomic number identifies number of protons.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/elements.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "08-flag-japan",
+      "sequence": 8,
+      "series": "Flag flash",
+      "design": "flag",
+      "question": "Which country\nis this?",
+      "options": [
+        "flag-japan"
+      ],
+      "answer": "Japan",
+      "explanation": "A red disc on a white field.\nJapan.",
+      "cta": "Try countries of the world",
+      "quiz_url": "https://typologyquiz.com/trivia/countries-of-the-world/",
+      "caption": "A flag flash with no multiple choice. Name the country. Play: https://typologyquiz.com/trivia/countries-of-the-world/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "Which country\nis this?"
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "Japan. A red disc on a white field.\nJapan."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try countries of the world. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://www.mofa.go.jp/mofaj/files/100573336.pdf",
+          "fact_supported": "Official Japanese government introduction identifies the national flag, red disc and white field.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/countries.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "09-notebook-math",
+      "sequence": 9,
+      "series": "Everyday maths",
+      "design": "math",
+      "question": "3 notebooks cost $12.\nWhat do 5 cost?",
+      "options": [
+        "3 = $12",
+        "5 = ?"
+      ],
+      "answer": "$20",
+      "explanation": "Same price per notebook.\n$12 ÷ 3 = $4.  Then 5 × $4 = $20.",
+      "cta": "Try another quick quiz",
+      "quiz_url": "https://typologyquiz.com/trivia/",
+      "caption": "Same price each. Three notebooks cost $12. What do five cost? Play: https://typologyquiz.com/trivia/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "3 notebooks cost $12.\nWhat do 5 cost?"
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "$20. Same price per notebook.\n$12 ÷ 3 = $4.  Then 5 × $4 = $20."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try another quick quiz. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "original-arithmetic",
+          "fact_supported": "Original unit-price problem: 12/3=4 and 5*4=20; no psychometric inference or intelligence claim.",
+          "checked": "2026-09-13",
+          "repo_reference": "original promotional question; not represented as an existing quiz item"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    },
+    {
+      "id": "10-canberra-vowels",
+      "sequence": 10,
+      "series": "Fill the gaps",
+      "design": "word",
+      "question": "Australia’s capital.\nFill in the vowels.",
+      "options": [
+        "C",
+        "_",
+        "N",
+        "B",
+        "_",
+        "R",
+        "R",
+        "_"
+      ],
+      "answer": "Canberra",
+      "explanation": "C A N B E R R A.\nAustralia’s national capital.",
+      "cta": "Try world geography",
+      "quiz_url": "https://typologyquiz.com/trivia/countries-of-the-world/",
+      "caption": "Three missing vowels. One Australian capital. Play: https://typologyquiz.com/trivia/countries-of-the-world/ #quiz #trivia #typologyquiz",
+      "duration_seconds": 16,
+      "beats": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "question",
+          "script": "Australia’s capital.\nFill in the vowels."
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "role": "think",
+          "script": "Lock in your answer. Countdown: 6, 5, 4, 3, 2, 1."
+        },
+        {
+          "start": 9,
+          "end": 13,
+          "role": "reveal",
+          "script": "Canberra. C A N B E R R A.\nAustralia’s national capital."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "role": "cta",
+          "script": "Try world geography. typologyquiz.com"
+        }
+      ],
+      "provenance": [
+        {
+          "url": "https://www.nca.gov.au/",
+          "fact_supported": "Australian National Capital Authority identifies Canberra as Australia’s national capital.",
+          "checked": "2026-09-13",
+          "repo_reference": "src/lib/trivia/data/countries.ts"
+        }
+      ],
+      "visual_rights": "Original typography and vector illustrations; existing TypologyQuiz brand mark. No third-party footage, music or downloaded images.",
+      "audio": "Silent by design; fully understandable without audio.",
+      "publication_status": "rendered candidate; not published"
+    }
+  ]
+}
