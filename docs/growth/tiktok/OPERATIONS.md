@@ -21,9 +21,10 @@ Current sleep policy in this Mac session is `sleep=1` and `displaysleep=10`, so 
 Before 06:00/21:00 work windows:
 
 1. Start a temporary anti-sleep guard:
-   `./scripts/social/keep-awake.sh start --minutes 360`
+   `./scripts/social/keep-awake.sh start --battery-min 10 --minutes 360`
 2. Confirm it is active:
    `./scripts/social/keep-awake.sh status`
+   When you specifically need long runs with a battery floor, add `--interval 20` to check power more quickly.
 3. Run the planned workflow (or keep the Codex browser tasks running manually)
 4. Stop when done:
    `./scripts/social/keep-awake.sh stop`
