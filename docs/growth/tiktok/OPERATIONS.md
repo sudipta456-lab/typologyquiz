@@ -14,6 +14,26 @@ Initial test slots: 09:00, 10:15, 11:30, 12:45, 14:00, 15:15, 16:30, 17:45, 19:0
 
 Local production and browser automation need the computer on, the app running and account access available. A native TikTok scheduled post may publish independently after TikTok confirms its schedule; a Codex schedule alone does not prove TikTok publication. See official scheduled-task documentation: https://learn.chatgpt.com/docs/automations?surface=app.
 
+## Screen-lock hardening
+
+Current sleep policy in this Mac session is `sleep=1` and `displaysleep=10`, so prolonged inactivity can pause a run during screen lock if no explicit wake guard is active. We cannot change global sleep policy without admin password for this session, so use the local guard below whenever a production or analytics run starts.
+
+Before 06:00/21:00 work windows:
+
+1. Start a temporary anti-sleep guard:
+   `./scripts/social/keep-awake.sh start --minutes 360`
+2. Confirm it is active:
+   `./scripts/social/keep-awake.sh status`
+3. Run the planned workflow (or keep the Codex browser tasks running manually)
+4. Stop when done:
+   `./scripts/social/keep-awake.sh stop`
+
+If you have time to set a permanent policy, use only one of these and document permission:
+- Admin one-liner (Mac sleep prevention while on AC): `sudo pmset -c sleep 0 displaysleep 0`
+- Admin one-liner (Mac sleep prevention while on battery): `sudo pmset -b sleep 0 displaysleep 0`
+
+If a run is interrupted, do not duplicate uploads. Continue with full reconciliation against the studio rows and ledger, then resume scheduling with only missing unique items.
+
 ## Daily research and production
 
 Read the strategy, latest brief and ledger. Research relevant searches, content gaps and formats from available TikTok tools; record country/filter/date and source URLs, never invented popularity numbers. Use evergreen source-backed ideas when timely claims cannot be verified. Do not copy another creator’s script, footage or voice. Create ten different editorial ideas, not ten recolors. Follow the renderer’s manifest and source provenance. Keep the site’s logo and brand colors.
