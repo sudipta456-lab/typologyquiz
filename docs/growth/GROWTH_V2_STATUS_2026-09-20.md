@@ -66,3 +66,11 @@ Claude Opus reviewed the implementation and found no release blocker. Its naming
 The original working tree's first full run stopped at `test:analytics`: its tracked GA4 route manifest is stale because unrelated uncommitted Vermont/Wyoming driving additions alter the source route inventory. It was not regenerated or staged. A clean worktree at the release commit then passed the complete gate: 31 editorial, 10 Worker, 2 prediction-client, 16 assessment, 14 analytics, and 3 discovery tests. The only lint findings were three pre-existing raw-image warnings.
 
 The same clean worktree built 1,248 static routes, passed the 536-route sitemap/discovery check, and deployed to both domains. Cloudflare version `5220a6dd-f428-42f0-9fd8-e12a69bdd377` is the release receipt. A live Group Chat Archetype result request returned HTTP 200 and the deployed client bundle contained the new Texting Style recommendation path.
+
+## Search Console baseline: September 20
+
+Google Search Console's available performance chart covered September 1–18, 2026. It reported 27 web-search clicks, 914 impressions, a 3% click-through rate, and an average position of 37.9. The short window and low volume make this a baseline, not a verdict on growth work.
+
+The home page led recorded clicks (9 from 158 impressions). Other early entry points included Massachusetts driving (5 from 10), Doubutsu Uranai (3 from 22), CRT-7 (2 from 45), and Quebec driving (2 from 7). Queries with visible demand but no click included “what is my mental age” (17 impressions), “how old am i mentally” (10), and “vata pitta kapha test” (8). Any future page changes should start with an editorial and evidence review of the relevant page, rather than copying the query into generic SEO text.
+
+Indexing reported 587 indexed and 28 not indexed URLs. Twelve alternate-canonical URLs, nine redirects, and two noindex URLs match the established discovery boundaries. The two “discovered, currently not indexed” examples were a West Virginia driving take route and the Conflict Style test; neither had a recorded crawl date. The two “crawled, currently not indexed” examples were `favicon.ico` and `manifest.webmanifest`, which do not need index coverage. No validation request was submitted because no proven defect was identified.
