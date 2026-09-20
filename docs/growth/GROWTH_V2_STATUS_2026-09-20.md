@@ -57,10 +57,12 @@ All public copy receives the Humanizer pass: concrete claims, specific sources w
 - Push only verified commits. Deploy only when the commit changes the public application; social operations documents and local media do not need a website deployment.
 - Record actual deployment version, live checks, and unresolved limits. Do not call a draft, a queued social asset, a short test, or a report snapshot a success metric.
 
-## September 20 release candidate: result next-play paths
+## September 20 release: result next-play paths
 
 The ten named high-share result pages now receive three related existing quizzes instead of the same generic next-play trio. The mapping is keyed by test, keeps the generic fallback for every other result, removes duplicates, and fills from the fallback so three options remain visible. The work adds no score changes, network calls, analytics fields, or new claims.
 
 Claude Opus reviewed the implementation and found no release blocker. Its naming, fallback, label-consistency, and cultural-fit feedback was incorporated. TypeScript passed, assessment lint completed with no errors, all 16 assessment-quality tests passed, and a direct registry check confirmed all 27 curated destination routes. A local browser check of a Group Chat Archetype result showed Friend Role, Texting Style, and Social Battery as the three links, with HTTP 200.
 
-The full `npm run verify` run passed editorial, worker, prediction, and assessment gates, then stopped at `test:analytics`: the tracked GA4 route manifest is stale because unrelated uncommitted Vermont/Wyoming driving additions alter the source route inventory. It was not regenerated or staged. Run the complete suite and build in a clean worktree for the release commit.
+The original working tree's first full run stopped at `test:analytics`: its tracked GA4 route manifest is stale because unrelated uncommitted Vermont/Wyoming driving additions alter the source route inventory. It was not regenerated or staged. A clean worktree at the release commit then passed the complete gate: 31 editorial, 10 Worker, 2 prediction-client, 16 assessment, 14 analytics, and 3 discovery tests. The only lint findings were three pre-existing raw-image warnings.
+
+The same clean worktree built 1,248 static routes, passed the 536-route sitemap/discovery check, and deployed to both domains. Cloudflare version `5220a6dd-f428-42f0-9fd8-e12a69bdd377` is the release receipt. A live Group Chat Archetype result request returned HTTP 200 and the deployed client bundle contained the new Texting Style recommendation path.
