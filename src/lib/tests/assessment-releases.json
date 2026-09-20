@@ -3,7 +3,7 @@
     "mental-age": {
       "instrument": "2026-09-11.1",
       "scoring": "2026-09-11.1",
-      "report": "2026-09-11.1"
+      "report": "2026-09-20.1"
     },
     "delulu-level": {
       "instrument": "2026-09-11.1",
@@ -5735,6 +5735,76 @@
           "People with aphantasia often don't realize others can actually 'see' images in their mind - they assume 'visualize' is just a metaphor."
         ],
         "disclaimer": "This is a self-report measure of vividness, not a clinical diagnosis. Mental imagery exists on a spectrum, and scores can vary day to day."
+      }
+    },
+    "mental-age@2026-09-20.1": {
+      "version": {
+        "instrument": "2026-09-11.1",
+        "scoring": "2026-09-11.1",
+        "report": "2026-09-20.1"
+      },
+      "scoringHash": "c8815e408ab621e0538f317ce33eb858905ac64374a6327694490a8304183e4e",
+      "definitionHash": "9175897216e864cea293a0f428a9bb48e1db74be1c8c7712dc01fa505ad040eb",
+      "definition": {
+        "slug": "mental-age",
+        "title": "Mental Age Test",
+        "category": "personality",
+        "description": "Your ID says one age. Your habits say another. Find out how old your brain actually acts.",
+        "whatYoullLearn": "Where your everyday instincts land on the mental-age scale, from chaos gremlin to wise elder, and why both ends are doing great.",
+        "timeMinutes": 3,
+        "itemCount": 12,
+        "license": "Original TypologyQuiz items (self-reflection only)",
+        "isNew": true,
+        "scoreMode": "spectrum",
+        "questions": [],
+        "axes": [
+          {
+            "key": "age",
+            "label": "Brain age",
+            "lowLabel": "Young energy",
+            "highLabel": "Old soul",
+            "description": "Higher scores mean more planning, budgeting, and bedtime energy."
+          }
+        ],
+        "resultType": "meter",
+        "spectrumBands": [
+          {
+            "max": 30,
+            "label": "Mental age: 15",
+            "description": "Pure chaos gremlin. Your bedtimes are suggestions and your future self is a stranger you keep pranking. Honestly? Iconic. Just make sure future you gets food sometimes."
+          },
+          {
+            "max": 45,
+            "label": "Mental age: 19",
+            "description": "You have freedom and you are using all of it. Responsibilities are tucked behind the unopened mail. The vibe is undefeated; the laundry pile is not."
+          },
+          {
+            "max": 60,
+            "label": "Mental age: 25",
+            "description": "Certified adult-ish. You can handle a form, a deadline, and a group chat, but you still cancel plans to stay home. This is the sweet spot. You know when to leave a party."
+          },
+          {
+            "max": 75,
+            "label": "Mental age: 34",
+            "description": "You own at least one thing specifically for leftovers, and you're not sorry. Friends come to you when life needs an actual plan. You still know all the memes, you just also know interest rates now."
+          },
+          {
+            "max": 90,
+            "label": "Mental age: 47",
+            "description": "You've complained about the price of groceries today, haven't you. Comfortable shoes, early dinners, quiet satisfaction. You are the friend group's emergency contact and everyone is grateful."
+          },
+          {
+            "max": 100,
+            "label": "Mental age: 62",
+            "description": "Elder energy unlocked. You give advice nobody asked for that turns out to be exactly right. Bedtime is sacred, the kettle is always warm, and you have zero regrets."
+          }
+        ],
+        "funFacts": [
+          "'Mental age' here means vibes, not intelligence. Some of the smartest people alive cannot find their keys.",
+          "Your brain-age can jump 20 years after one (1) good nap or one bad supermarket receipt.",
+          "People at opposite ends of this scale make the best road-trip pairs: one packs snacks for four days, the other forgets a toothbrush."
+        ],
+        "disclaimer": "This is a joke-flavored self-reflection quiz, not a measure of maturity, intelligence, or development. Your real age remains your business."
       }
     }
   }

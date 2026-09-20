@@ -54,13 +54,13 @@ export const mentalAge: TestDefinition = {
       max: 45,
       label: "Mental age: 19",
       description:
-        "You have freedom and you are using all of it. Responsibilities exist in your peripheral vision, where they will stay until further notice. The vibe is undefeated; the laundry pile is not.",
+        "You have freedom and you are using all of it. Responsibilities are tucked behind the unopened mail. The vibe is undefeated; the laundry pile is not.",
     },
     {
       max: 60,
       label: "Mental age: 25",
       description:
-        "Certified adult-ish. You can handle a form, a deadline, and a group chat, but you still cancel plans to stay home. This is the sweet spot and everyone knows it.",
+        "Certified adult-ish. You can handle a form, a deadline, and a group chat, but you still cancel plans to stay home. This is the sweet spot. You know when to leave a party.",
     },
     {
       max: 75,
@@ -78,13 +78,13 @@ export const mentalAge: TestDefinition = {
       max: 100,
       label: "Mental age: 62",
       description:
-        "Elder energy unlocked. You give advice nobody asked for that turns out to be exactly right. Bedtime is sacred, the kettle is always warm, and honestly? We should all aspire to this.",
+        "Elder energy unlocked. You give advice nobody asked for that turns out to be exactly right. Bedtime is sacred, the kettle is always warm, and you have zero regrets.",
     },
   ],
   funFacts: [
     "'Mental age' here means vibes, not intelligence. Some of the smartest people alive cannot find their keys.",
     "Your brain-age can jump 20 years after one (1) good nap or one bad supermarket receipt.",
-    "People at opposite ends of this scale make great friends. One brings the plan, the other brings the story.",
+    "People at opposite ends of this scale make the best road-trip pairs: one packs snacks for four days, the other forgets a toothbrush.",
   ],
   disclaimer:
     "This is a joke-flavored self-reflection quiz, not a measure of maturity, intelligence, or development. Your real age remains your business.",
