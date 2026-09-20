@@ -27,6 +27,8 @@ The 2020–2026 literature synthesis remains in `ASSESSMENT_QUALITY_REVIEW_2026.
 
 `mental-age@2026-09-20.1` is the first report-only release. It archives the Humanizer-reviewed result descriptions and fun fact while retaining the `2026-09-11.1` instrument and scoring versions; question text and scoring were unchanged.
 
+`prakriti-dosha@2026-09-20.4` is the second report-only release. It replaces unsupported health, personality, and diagnostic implications with a respectful cultural self-reflection framing while retaining the `2026-09-11.1` instrument and scoring versions; question text and scoring were unchanged.
+
 This is a reproducibility foundation, not a tamper-proof assessment service: result links are user-controlled, not signed, and server-side research must validate its own study records. Item text for historical administration is recoverable from the release's Git commit; the client report archive omits question banks to avoid duplicating them in the bundle. Before future changes to school wording, instructions, or rendering materially affect administration, update the instrument contract and retain its earlier definition.
 
 ## Verification

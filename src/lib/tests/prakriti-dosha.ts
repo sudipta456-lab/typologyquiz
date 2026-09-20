@@ -4,17 +4,17 @@ import { TestDefinition } from "../types";
 // Type quiz, 3 axes x 4 items. Wellness framing, not medical advice.
 
 const questions = [
-  // Vata — air: creative, quick, restless
+  // Vata — air and space: creative, quick, restless
   { id: "pd_v1", text: "My mind moves fast: ideas, worries, plans, all at once.", type: "likert" as const, axis: "vata", direction: 1 as const },
   { id: "pd_v2", text: "I get excited easily and just as easily distracted.", type: "likert" as const, axis: "vata", direction: 1 as const },
   { id: "pd_v3", text: "Cold weather genuinely bothers me.", type: "likert" as const, axis: "vata", direction: 1 as const },
   { id: "pd_v4", text: "Steady routines come naturally to me.", type: "likert" as const, axis: "vata", direction: -1 as const },
-  // Pitta — fire: driven, sharp, intense
+  // Pitta — fire and water: driven, sharp, intense
   { id: "pd_p1", text: "I'm competitive in ways that surprise even me.", type: "likert" as const, axis: "pitta", direction: 1 as const },
   { id: "pd_p2", text: "I run hot, both temperature and temper.", type: "likert" as const, axis: "pitta", direction: 1 as const },
   { id: "pd_p3", text: "Inefficiency makes me visibly irritated.", type: "likert" as const, axis: "pitta", direction: 1 as const },
   { id: "pd_p4", text: "Losing doesn't light a fire under me; it barely registers.", type: "likert" as const, axis: "pitta", direction: -1 as const },
-  // Kapha — earth: calm, loyal, steady
+  // Kapha — water and earth: calm, loyal, steady
   { id: "pd_k1", text: "People describe me as calm, grounded, or unshakeable.", type: "likert" as const, axis: "kapha", direction: 1 as const },
   { id: "pd_k2", text: "I build deep, long relationships rather than many quick ones.", type: "likert" as const, axis: "kapha", direction: 1 as const },
   { id: "pd_k3", text: "Once comfortable, change takes real effort for me.", type: "likert" as const, axis: "kapha", direction: 1 as const },
@@ -26,9 +26,9 @@ export const prakritiDosha: TestDefinition = {
   title: "Prakriti Dosha Test (प्रकृति)",
   category: "personality",
   description:
-    "Ayurveda's ancient system: are you Vata (air), Pitta (fire), or Kapha (earth)? Find your dominant dosha energy.",
+    "Explore Vata, Pitta, and Kapha, three dosha concepts in Ayurveda, through a short self-reflection quiz.",
   whatYoullLearn:
-    "Your dominant dosha, what it explains about your energy and habits, and the classic balance tips for your type.",
+    "Which dosha term your answers match in this light quiz, plus the element pair traditionally associated with each.",
   timeMinutes: 4,
   itemCount: 12,
   license: "Original TypologyQuiz items inspired by public Ayurvedic concepts (self-reflection only)",
@@ -37,47 +37,47 @@ export const prakritiDosha: TestDefinition = {
   questions,
 
   axes: [
-    { key: "vata", label: "Vata (वात: Air)", lowLabel: "Low", highLabel: "High", description: "Quick, creative, restless." },
-    { key: "pitta", label: "Pitta (पित्त: Fire)", lowLabel: "Low", highLabel: "High", description: "Driven, sharp, intense." },
-    { key: "kapha", label: "Kapha (कफ: Earth)", lowLabel: "Low", highLabel: "High", description: "Calm, loyal, steady." },
+    { key: "vata", label: "Vata (वात: Air and space)", lowLabel: "Low", highLabel: "High", description: "Quick, creative, restless." },
+    { key: "pitta", label: "Pitta (पित्त: Fire and water)", lowLabel: "Low", highLabel: "High", description: "Driven, sharp, intense." },
+    { key: "kapha", label: "Kapha (कफ: Water and earth)", lowLabel: "Low", highLabel: "High", description: "Calm, loyal, steady." },
   ],
   terms: [
     {
       term: "दोष (Dosha)",
-      note: "In Ayurveda, the three energies believed to run body and mind: Vata (air: movement and ideas), Pitta (fire: drive and digestion), Kapha (earth: structure and calm). Everyone contains all three in a personal mix.",
+      note: "In Ayurveda, three traditional concepts used to describe patterns in body and mind: Vata (air and space), Pitta (fire and water), and Kapha (water and earth).",
     },
     {
       term: "प्रकृति (Prakriti)",
-      note: "'Your nature': your personal dosha combination at birth. Traditional practitioners assess it through pulse and questions; this quiz is the casual version.",
+      note: "Often translated as 'nature' or constitution. Traditional practitioners may use pulse and questions; this quiz does not attempt that assessment.",
     },
   ],
   typeMeta: {
     vata: {
       label: "Vata: The Creative Wind",
       description:
-        "Fast mind, quick enthusiasm, ideas per minute off the charts. Vatas invent what others refine. Balance tip from tradition: warmth, routine, and finishing one thing before starting the next three.",
+        "You move quickly between ideas and get excited by a new start. Your strength is curiosity and momentum. A gentle watch-out: you may need a beat before committing to the next thing.",
     },
     pitta: {
       label: "Pitta: The Driven Fire",
       description:
-        "Focus, ambition, standards: you convert goals into results like it's digestion. Natural leader energy. Balance tip: cool-down rituals and humor; fire that never rests burns its own house.",
+        "You notice what could run better and want to get it moving. Your strength is focus. A gentle watch-out: ordinary delays can feel bigger when you care about the outcome.",
     },
     kapha: {
       label: "Kapha: The Steady Mountain",
       description:
-        "Loyalty, patience, endurance: the person everyone leans on and the one who never panics. Balance tip: movement and novelty; mountains erode only when water never visits.",
+        "You may prefer familiar people, steady plans, and time to settle in. Your strength is patience. A gentle watch-out: a changed plan can take a moment to feel comfortable.",
     },
   },
   balanced: {
-    label: "Tridoshic: The Rare Mix",
+    label: "Tridoshic: The Close Mix",
     description:
-      "Nearly equal Vata, Pitta, and Kapha: traditionally considered the hardest to read and the easiest to balance. You borrow wind's ideas, fire's execution, and earth's follow-through as needed.",
+      "Your answers landed close across Vata, Pitta, and Kapha. Your strength is range. A gentle watch-out: this is one light quiz, so there is no need to force a single label.",
   },
   resultType: "radar",
   funFacts: [
-    "Ayurveda is thousands of years old and still officially practiced in India alongside modern medicine.",
-    "The doshas map loosely onto temperament psychology: Vata ~ idea-generation, Pitta ~ drive, Kapha ~ stability.",
+    "Ayurveda is a traditional system of medicine with roots in South Asia and a long textual history.",
+    "The word Ayurveda is often translated as 'knowledge of life.'",
   ],
   disclaimer:
-    "A fun quiz inspired by Ayurvedic concepts: not medical advice, diagnosis, or treatment of any kind.",
+    "A light, respectful introduction to Ayurvedic terms, made for reflection and conversation. It is not medical advice or a health assessment.",
 };

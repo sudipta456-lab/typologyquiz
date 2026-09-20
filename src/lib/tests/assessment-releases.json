@@ -178,7 +178,7 @@
     "prakriti-dosha": {
       "instrument": "2026-09-11.1",
       "scoring": "2026-09-11.1",
-      "report": "2026-09-11.1"
+      "report": "2026-09-20.4"
     },
     "nakshatra-mirror": {
       "instrument": "2026-09-11.1",
@@ -5805,6 +5805,85 @@
           "People at opposite ends of this scale make the best road-trip pairs: one packs snacks for four days, the other forgets a toothbrush."
         ],
         "disclaimer": "This is a joke-flavored self-reflection quiz, not a measure of maturity, intelligence, or development. Your real age remains your business."
+      }
+    },
+    "prakriti-dosha@2026-09-20.4": {
+      "version": {
+        "instrument": "2026-09-11.1",
+        "scoring": "2026-09-11.1",
+        "report": "2026-09-20.4"
+      },
+      "scoringHash": "c8815e408ab621e0538f317ce33eb858905ac64374a6327694490a8304183e4e",
+      "definitionHash": "36b4c2ca829cafe0963d253488cbfa19ef88b4e6eb0c0466cdcc8925ebee9355",
+      "definition": {
+        "slug": "prakriti-dosha",
+        "title": "Prakriti Dosha Test (प्रकृति)",
+        "category": "personality",
+        "description": "Explore Vata, Pitta, and Kapha, three dosha concepts in Ayurveda, through a short self-reflection quiz.",
+        "whatYoullLearn": "Which dosha term your answers match in this light quiz, plus the element pair traditionally associated with each.",
+        "timeMinutes": 4,
+        "itemCount": 12,
+        "license": "Original TypologyQuiz items inspired by public Ayurvedic concepts (self-reflection only)",
+        "isNew": true,
+        "scoreMode": "type",
+        "questions": [],
+        "axes": [
+          {
+            "key": "vata",
+            "label": "Vata (वात: Air and space)",
+            "lowLabel": "Low",
+            "highLabel": "High",
+            "description": "Quick, creative, restless."
+          },
+          {
+            "key": "pitta",
+            "label": "Pitta (पित्त: Fire and water)",
+            "lowLabel": "Low",
+            "highLabel": "High",
+            "description": "Driven, sharp, intense."
+          },
+          {
+            "key": "kapha",
+            "label": "Kapha (कफ: Water and earth)",
+            "lowLabel": "Low",
+            "highLabel": "High",
+            "description": "Calm, loyal, steady."
+          }
+        ],
+        "terms": [
+          {
+            "term": "दोष (Dosha)",
+            "note": "In Ayurveda, three traditional concepts used to describe patterns in body and mind: Vata (air and space), Pitta (fire and water), and Kapha (water and earth)."
+          },
+          {
+            "term": "प्रकृति (Prakriti)",
+            "note": "Often translated as 'nature' or constitution. Traditional practitioners may use pulse and questions; this quiz does not attempt that assessment."
+          }
+        ],
+        "typeMeta": {
+          "vata": {
+            "label": "Vata: The Creative Wind",
+            "description": "You move quickly between ideas and get excited by a new start. Your strength is curiosity and momentum. A gentle watch-out: you may need a beat before committing to the next thing."
+          },
+          "pitta": {
+            "label": "Pitta: The Driven Fire",
+            "description": "You notice what could run better and want to get it moving. Your strength is focus. A gentle watch-out: ordinary delays can feel bigger when you care about the outcome."
+          },
+          "kapha": {
+            "label": "Kapha: The Steady Mountain",
+            "description": "You may prefer familiar people, steady plans, and time to settle in. Your strength is patience. A gentle watch-out: a changed plan can take a moment to feel comfortable."
+          }
+        },
+        "balanced": {
+          "label": "Tridoshic: The Close Mix",
+          "description": "Your answers landed close across Vata, Pitta, and Kapha. Your strength is range. A gentle watch-out: this is one light quiz, so there is no need to force a single label."
+        },
+        "resultType": "radar",
+        "funFacts": [
+          "Ayurveda is a traditional system of medicine with roots in South Asia and a long textual history.",
+          "The word Ayurveda is often translated as 'knowledge of life.'"
+        ],
+        "disclaimer": "A light, respectful introduction to Ayurvedic terms, made for reflection and conversation. It is not medical advice or a health assessment."
       }
     }
   }
