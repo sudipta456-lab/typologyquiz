@@ -26,6 +26,73 @@ import { toneBlurb, toneStorageKey, type ToneMode } from "@/lib/tone";
 import { scoreLevel, type ScoreLine } from "@/lib/result-card";
 import { getResultArt } from "@/lib/result-art";
 
+type NextTest = { slug: string; label: string };
+
+const DEFAULT_NEXT_TESTS: NextTest[] = [
+  { slug: "friend-role", label: "Friend Role" },
+  { slug: "social-battery", label: "Social Battery" },
+  { slug: "attachment-style", label: "Attachment Style" },
+  { slug: "conflict-style", label: "Conflict Style" },
+  { slug: "career-interests", label: "Career Interests" },
+  { slug: "mini-ipip", label: "Big Five" },
+  { slug: "8values", label: "8values" },
+  { slug: "vviq", label: "VVIQ" },
+  { slug: "crt-7", label: "CRT" },
+];
+
+const NEXT_TESTS_BY_TEST: Record<string, NextTest[]> = {
+  "group-chat-archetype": [
+    { slug: "friend-role", label: "Friend Role" },
+    { slug: "texting-style", label: "Texting Style" },
+    { slug: "social-battery", label: "Social Battery" },
+  ],
+  "delulu-level": [
+    { slug: "optimist-realist", label: "Optimist or Realist" },
+    { slug: "overthinker-level", label: "Overthinking Level" },
+    { slug: "brain-2am", label: "Your Brain at 2 AM" },
+  ],
+  "internet-persona": [
+    { slug: "social-persona", label: "Social Media Persona" },
+    { slug: "texting-style", label: "Texting Style" },
+    { slug: "cringe-check", label: "Cringe Check" },
+  ],
+  "flag-profile": [
+    { slug: "attachment-style", label: "Attachment Style" },
+    { slug: "conflict-style", label: "Conflict Style" },
+    { slug: "care-language", label: "How You Show You Care" },
+  ],
+  "actually-the-problem": [
+    { slug: "conflict-style", label: "Conflict Style" },
+    { slug: "empathy-type", label: "Head or Heart Empathy" },
+    { slug: "attachment-style", label: "Attachment Style" },
+  ],
+  "mental-age": [
+    { slug: "study-energy", label: "Study Energy" },
+    { slug: "decision-style", label: "Overthinker or Go-With-Gut" },
+    { slug: "procrastination-type", label: "Procrastination Style" },
+  ],
+  "kdrama-archetype": [
+    { slug: "seoul-dating-tier", label: "Seoul Dating Tier" },
+    { slug: "personal-color", label: "Personal Color" },
+    { slug: "kkotmal-flower", label: "Kkotmal Flower" },
+  ],
+  "naija-aunty": [
+    { slug: "care-language", label: "How You Show You Care" },
+    { slug: "friend-role", label: "Friend Role" },
+    { slug: "group-chat-archetype", label: "Group Chat Archetype" },
+  ],
+  "emotional-os": [
+    { slug: "social-battery", label: "Social Battery" },
+    { slug: "overthinker-level", label: "Overthinking Level" },
+    { slug: "empathy-type", label: "Head or Heart Empathy" },
+  ],
+  "cringe-check": [
+    { slug: "internet-persona", label: "Internet Person Type" },
+    { slug: "group-chat-archetype", label: "Group Chat Archetype" },
+    { slug: "delulu-level", label: "Delulu Level" },
+  ],
+};
+
 function ResultsContent() {
   const params = useParams();
   const searchParams = useSearchParams();
@@ -213,18 +280,8 @@ function ResultsContent() {
     }
   }
 
-  const nextTests = [
-    { slug: "friend-role", label: "Friend Role" },
-    { slug: "social-battery", label: "Social Battery" },
-    { slug: "attachment-style", label: "Attachment" },
-    { slug: "conflict-style", label: "Conflict Style" },
-    { slug: "career-interests", label: "Career Interests" },
-    { slug: "mini-ipip", label: "Big Five" },
-    { slug: "8values", label: "8values" },
-    { slug: "vviq", label: "VVIQ" },
-    { slug: "crt-7", label: "CRT" },
-  ]
-    .filter((x) => x.slug !== slug)
+  const nextTests = [...(NEXT_TESTS_BY_TEST[slug] ?? []), ...DEFAULT_NEXT_TESTS]
+    .filter((x, index, options) => x.slug !== slug && options.findIndex((option) => option.slug === x.slug) === index)
     .slice(0, 3);
 
   return (
