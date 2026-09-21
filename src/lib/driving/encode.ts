@@ -26,7 +26,7 @@ interface Packed {
   t: number;
   /** percent */
   p: number;
-  /** passed (0/1) */
+  /** passed (0/1), or 2 when the official pass mark is unpublished */
   k: number;
   /** byTopic */
   bt: Record<string, PackedTopic>;
@@ -62,7 +62,7 @@ export function encodeDrivingResult(result: DrivingResult): string {
     c: result.correct,
     t: result.total,
     p: result.percent,
-    k: result.passed ? 1 : 0,
+    k: result.passed === null ? 2 : result.passed ? 1 : 0,
     bt,
     w: result.wrongIds,
     at: result.completedAt,
@@ -125,7 +125,7 @@ export function decodeDrivingResult(encoded: string): DrivingResult | null {
       correct: num(parsed.c),
       total: num(parsed.t),
       percent: num(parsed.p),
-      passed: num(parsed.k) === 1,
+      passed: num(parsed.k) === 2 ? null : num(parsed.k) === 1,
       byTopic,
       sections,
       wrongIds,

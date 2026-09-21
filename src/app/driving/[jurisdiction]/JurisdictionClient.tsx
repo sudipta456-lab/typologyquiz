@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState, type CSSProperties } from "react";
 import type { Jurisdiction } from "@/lib/driving/types";
-import { DIFFICULTY_META } from "@/lib/driving/types";
+import { DIFFICULTY_META, hasPublishedPassMark } from "@/lib/driving/types";
 import type { SetAttempt } from "@/lib/driving/progress";
 import { loadProgress, summarize } from "@/lib/driving/progress";
 import {
@@ -70,9 +70,11 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
   // with no progress at all, so touching storage during render would guarantee
   // a hydration mismatch on every returning visitor.
   const [attempts, setAttempts] = useState<Record<string, SetAttempt> | null>(null);
-  const [summary, setSummary] = useState<{ setsPassed: number; averageBest: number } | null>(
-    null
-  );
+  const [summary, setSummary] = useState<{
+    setsPassed: number | null;
+    setsAttempted: number;
+    averageBest: number;
+  } | null>(null);
   const [weak, setWeak] = useState<{ count: number; ready: boolean } | null>(null);
   const [readiness, setReadiness] = useState<{ r: Readiness; basedOn: number } | null>(null);
 
@@ -81,8 +83,16 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
     const stored = loadProgress(jurisdiction.slug);
     setAttempts(stored);
 
-    const s = summarize(jurisdiction.slug, jurisdiction.sets.length);
-    setSummary({ setsPassed: s.setsPassed, averageBest: s.averageBest });
+    const s = summarize(
+      jurisdiction.slug,
+      jurisdiction.sets.length,
+      hasPublishedPassMark(jurisdiction.officialTest)
+    );
+    setSummary({
+      setsPassed: s.setsPassed,
+      setsAttempted: s.setsAttempted,
+      averageBest: s.averageBest,
+    });
 
     // Oldest attempt first, so estimateReadiness's "recent" window is the tail.
     const recentPercents = Object.values(stored)
@@ -113,6 +123,7 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
   }
 
   const { officialTest: fmt } = jurisdiction;
+  const hasOfficialPassMark = hasPublishedPassMark(fmt);
   const sets = [...jurisdiction.sets].sort((a, b) => a.setNumber - b.setNumber);
   const totalQuestions = sets.reduce((s, set) => s + set.questions.length, 0);
 
@@ -223,14 +234,18 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
           }}
         >
           <div className="test-meta-cell">
-            <div className="test-meta-value">{fmt.questionCount}</div>
+            <div className="test-meta-value">
+              {fmt.questionCount === null ? "Not published" : fmt.questionCount}
+            </div>
             <div className="test-meta-label">Questions</div>
           </div>
           <div className="test-meta-cell">
             <div className="test-meta-value" style={{ fontSize: "1rem", lineHeight: 1.3 }}>
               {fmt.passLabel}
             </div>
-            <div className="test-meta-label">To pass</div>
+            <div className="test-meta-label">
+              {fmt.passCount === null ? "Official passing score" : "To pass"}
+            </div>
           </div>
           {fmt.timeLimitMinutes ? (
             <div className="test-meta-cell">
@@ -349,7 +364,9 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
             marginBottom: "0.6rem",
           }}
         >
-          <h2 style={{ ...panelTitleStyle, margin: 0 }}>Are you ready?</h2>
+          <h2 style={{ ...panelTitleStyle, margin: 0 }}>
+            {hasOfficialPassMark ? "Are you ready?" : "Practice progress"}
+          </h2>
           <span
             style={{
               fontFamily: "var(--font-mono)",
@@ -357,13 +374,15 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
               color: "var(--ink-mute)",
             }}
           >
-            {readiness && readiness.basedOn > 0
+            {!hasOfficialPassMark
+              ? "Official passing score not published"
+              : readiness && readiness.basedOn > 0
               ? `Based on ${readiness.basedOn} set${readiness.basedOn === 1 ? "" : "s"} · ${readiness.r.confidence} confidence`
               : "No attempts on this device yet"}
           </span>
         </div>
 
-        {readiness && readiness.basedOn > 0 ? (
+        {readiness && readiness.basedOn > 0 && readiness.r.required !== null ? (
           <>
             <div
               style={{
@@ -496,7 +515,11 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
           }}
         >
           <span>
-            {summary ? `${summary.setsPassed} of ${sets.length} sets passed` : "—"}
+            {summary
+              ? summary.setsPassed === null
+                ? `${summary.setsAttempted} of ${sets.length} sets practised`
+                : `${summary.setsPassed} of ${sets.length} sets passed`
+              : "—"}
           </span>
           <span>
             {summary && summary.averageBest > 0
@@ -536,6 +559,8 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
         {sets.map((set, i) => {
           const diff = DIFFICULTY_META[set.difficulty];
           const attempt = attempts?.[set.id];
+          const passedOfficialMark =
+            hasOfficialPassMark && attempt?.passed === true;
           return (
             <div
               key={set.id}
@@ -572,12 +597,12 @@ export function JurisdictionClient({ jurisdiction }: { jurisdiction: Jurisdictio
                       fontFamily: "var(--font-mono)",
                       fontSize: "0.7rem",
                       fontWeight: 700,
-                      border: `1px solid ${attempt.passed ? "#07ad9c" : "var(--line)"}`,
-                      color: attempt.passed ? "#07ad9c" : "var(--ink-mute)",
-                      background: attempt.passed ? "rgba(7,173,156,0.08)" : "transparent",
+                      border: `1px solid ${passedOfficialMark ? "#07ad9c" : "var(--line)"}`,
+                      color: passedOfficialMark ? "#07ad9c" : "var(--ink-mute)",
+                      background: passedOfficialMark ? "rgba(7,173,156,0.08)" : "transparent",
                     }}
                   >
-                    {attempt.passed ? "✓ " : ""}
+                    {passedOfficialMark ? "✓ " : ""}
                     {attempt.bestPercent}%
                   </span>
                 ) : null}

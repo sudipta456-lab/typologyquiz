@@ -89,7 +89,7 @@ function numberWord(n) {
 // the list itself - which is exactly the drift this whole file exists to stop.
 const SECTIONS = [
   `${TESTS.length} personality, self-reflection, entertainment and reasoning quizzes. Each has a purpose and evidence label; reasoning puzzles have correct answers. None provides a diagnosis.`,
-  `${totalDrivingQs} driving licence practice questions across ${JURISDICTIONS.length} jurisdictions. These do have right answers, are scored the way each real exam is scored, and cite the official handbook behind every answer.`,
+  `${totalDrivingQs} driving licence practice questions across ${JURISDICTIONS.length} jurisdictions. These do have right answers and cite the official handbook behind every answer. When a licensing authority publishes an exam pass mark, the practice score is shown against it; otherwise the site labels the result as practice only.`,
   `${TRIVIA_QUIZZES.length} trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.`,
   "Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.",
   "Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. Some carry state inside share links; recipients can read that information, and hosting services receive request URLs without fragments. Most Likely To exports an image card instead.",
@@ -169,14 +169,14 @@ L.push("");
 L.push("## Driving licence practice tests");
 L.push("");
 L.push(
-  `Each jurisdiction has six sets that build from a gentle start to a full exam simulation. Sets are scored against that jurisdiction's real pass mark rather than a flat percentage. Every question carries an explanation, the surrounding rule in plain language, the mistake people usually make, and - where official wording exists - a short verbatim quote from the handbook with a link to the source. There are ${totalDrivingExcerpts} handbook excerpts across the ${JURISDICTIONS.length} jurisdictions.`
+  `Each jurisdiction has six sets that build from a gentle start to a full exam simulation. Where an authority publishes a pass mark, the site scales practice scores to that mark; otherwise it reports a practice score without an official pass/fail verdict. Every question carries an explanation, the surrounding rule in plain language, the mistake people usually make, and - where official wording exists - a short verbatim quote from the handbook with a link to the source. There are ${totalDrivingExcerpts} handbook excerpts across the ${JURISDICTIONS.length} jurisdictions.`
 );
 L.push("");
 for (const j of JURISDICTIONS) {
   const qs = j.sets.reduce((n, s) => n + s.questions.length, 0);
   const ex = excerptsFor(j.slug).length;
   L.push(
-    `- [${j.name} ${j.licenceName}](${base}/driving/${j.slug}/): ${j.sets.length} sets, ${qs} questions, ${ex} handbook excerpts. Real test: ${j.officialTest.questionCount} questions, pass ${j.officialTest.passLabel}. Written and checked ${j.contentDate}${j.handbookEdition ? ` against the ${j.handbookEdition}${/edition/i.test(j.handbookEdition) ? "" : " edition"}` : ""}. Official handbook: ${j.handbookUrl}`
+    `- [${j.name} ${j.licenceName}](${base}/driving/${j.slug}/): ${j.sets.length} sets, ${qs} questions, ${ex} handbook excerpts. ${j.officialTest.questionCount === null ? `Official test question count and passing score are not published by the licensing authority; results are shown as practice only.` : `Real test: ${j.officialTest.questionCount} questions, pass ${j.officialTest.passLabel}.`} Written and checked ${j.contentDate}${j.handbookEdition ? ` against the ${j.handbookEdition}${/edition/i.test(j.handbookEdition) ? "" : " edition"}` : ""}. Official handbook: ${j.handbookUrl}`
   );
 }
 L.push("");

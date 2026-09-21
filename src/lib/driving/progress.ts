@@ -13,7 +13,7 @@ export interface SetAttempt {
   bestPercent: number;
   bestCorrect: number;
   total: number;
-  passed: boolean;
+  passed: boolean | null;
   attempts: number;
   lastAt: number;
 }
@@ -52,7 +52,10 @@ export function recordAttempt(result: DrivingResult): void {
     bestPercent: Math.max(prev?.bestPercent ?? 0, result.percent),
     bestCorrect: Math.max(prev?.bestCorrect ?? 0, result.correct),
     total: result.total,
-    passed: (prev?.passed ?? false) || result.passed,
+    passed:
+      result.passed === null
+        ? (prev?.passed ?? null)
+        : prev?.passed === true || result.passed,
     attempts: (prev?.attempts ?? 0) + 1,
     lastAt: result.completedAt,
   };
@@ -61,17 +64,20 @@ export function recordAttempt(result: DrivingResult): void {
 }
 
 export interface JurisdictionSummary {
-  setsPassed: number;
+  setsPassed: number | null;
   setsAttempted: number;
   averageBest: number;
 }
 
 export function summarize(
   jurisdictionSlug: string,
-  totalSets: number
+  totalSets: number,
+  hasOfficialPassMark = true
 ): JurisdictionSummary {
   const forJ = Object.values(loadProgress(jurisdictionSlug));
-  const setsPassed = forJ.filter((s) => s.passed).length;
+  const setsPassed = hasOfficialPassMark
+    ? forJ.filter((s) => s.passed === true).length
+    : null;
   const averageBest = forJ.length
     ? Math.round(forJ.reduce((sum, s) => sum + s.bestPercent, 0) / forJ.length)
     : 0;

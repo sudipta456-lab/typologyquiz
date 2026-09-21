@@ -139,11 +139,11 @@ export interface DrivingTestSet {
 
 /** How the real exam is scored, so our results screen can mirror it honestly. */
 export interface OfficialTestFormat {
-  /** Questions on the real test. */
-  questionCount: number;
-  /** Correct answers needed. */
-  passCount: number;
-  /** Human-readable pass mark, e.g. "25 of 30 (83%)". */
+  /** Questions on the real test, or null when the authority does not publish it. */
+  questionCount: number | null;
+  /** Correct answers needed, or null when the authority does not publish it. */
+  passCount: number | null;
+  /** Human-readable pass mark or an explicit unpublished-status label. */
   passLabel: string;
   /** Minutes allowed, when the jurisdiction sets one. */
   timeLimitMinutes?: number;
@@ -154,6 +154,19 @@ export interface OfficialTestFormat {
   sectionedBy?: { topics: DrivingTopic[]; label: string; passCount: number }[];
   /** Anything else worth telling the learner up front. */
   notes?: string[];
+}
+
+/** Whether the official source gives both values needed to calculate a pass mark. */
+export function hasPublishedPassMark(format: OfficialTestFormat): boolean {
+  return (
+    format.questionCount !== null &&
+    Number.isInteger(format.questionCount) &&
+    format.questionCount > 0 &&
+    format.passCount !== null &&
+    Number.isInteger(format.passCount) &&
+    format.passCount > 0 &&
+    format.passCount <= format.questionCount
+  );
 }
 
 export interface Jurisdiction {
@@ -211,7 +224,8 @@ export interface DrivingResult {
   correct: number;
   total: number;
   percent: number;
-  passed: boolean;
+  /** Null means the official passing standard is unpublished, not a fail. */
+  passed: boolean | null;
   /** Per-topic breakdown so we can tell them what to restudy. */
   byTopic: Record<string, { correct: number; total: number }>;
   /** Present when the jurisdiction scores sections independently. */

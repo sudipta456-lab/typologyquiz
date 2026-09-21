@@ -10,7 +10,7 @@ import {
   type DrivingTestSet,
   type DrivingTopic,
 } from "@/lib/driving/types";
-import { neededToPass, weakestTopics } from "@/lib/driving/score";
+import { neededToPass, officialPassVerdict, weakestTopics } from "@/lib/driving/score";
 import { decodeDrivingResult } from "@/lib/driving/encode";
 import { buildRetryMissedSet } from "@/lib/driving/adaptive";
 import {
@@ -125,8 +125,12 @@ function ResultsContent({ jurisdiction }: { jurisdiction: Jurisdiction | undefin
   }
 
   const needed = neededToPass(jurisdiction, result.total);
+  // Old result links may contain a verdict from before an official threshold
+  // was marked unknown. Do not present that historical guess as authoritative.
+  const passed = officialPassVerdict(result.passed, jurisdiction);
   const weakest = weakestTopics(result, 3);
-  const verdictColor = result.passed ? PASS : FAIL;
+  const verdictColor =
+    passed === true ? PASS : passed === false ? FAIL : "var(--ink-mute)";
 
   // Look questions up across the whole jurisdiction, not just this set: the
   // weak-spot drill pulls from every set, and it is rebuilt after each attempt.
@@ -196,7 +200,7 @@ function ResultsContent({ jurisdiction }: { jurisdiction: Jurisdiction | undefin
             margin: "0 0 0.35rem",
           }}
         >
-          {result.passed ? "PASS" : "NOT YET"}
+          {passed === true ? "PASS" : passed === false ? "NOT YET" : "PRACTICE SCORE"}
         </div>
         <p
           style={{
@@ -233,12 +237,18 @@ function ResultsContent({ jurisdiction }: { jurisdiction: Jurisdiction | undefin
             color: "var(--ink-soft)",
           }}
         >
-          Scored against the real {jurisdiction.name} standard:{" "}
-          <strong>{jurisdiction.officialTest.passLabel}</strong>. On a set this length that
-          works out to <strong>{needed} of {result.total}</strong>.
-          {!result.passed && result.correct < needed
-            ? ` You were ${needed - result.correct} short.`
-            : ""}
+          {needed === null ? (
+            `${jurisdiction.name} does not publish an official passing score. This is your practice score only.`
+          ) : (
+            <>
+              Scored against the real {jurisdiction.name} standard:{" "}
+              <strong>{jurisdiction.officialTest.passLabel}</strong>. On a set this length that
+              works out to <strong>{needed} of {result.total}</strong>.
+              {passed === false && result.correct < needed
+                ? ` You were ${needed - result.correct} short.`
+                : ""}
+            </>
+          )}
         </p>
         {isWeakSpots && (
           <p
@@ -724,7 +734,7 @@ function ResultsContent({ jurisdiction }: { jurisdiction: Jurisdiction | undefin
           setTitle={setTitle}
           correct={result.correct}
           total={result.total}
-          passed={result.passed}
+          passed={passed}
           hardestQuestion={hardestQuestion}
           // A shared "retry-missed" link would carry someone else's misses, so
           // that one points at the jurisdiction's sets instead.

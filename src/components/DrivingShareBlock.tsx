@@ -60,7 +60,7 @@ interface Props {
   setTitle: string;
   correct: number;
   total: number;
-  passed: boolean;
+  passed: boolean | null;
   /** A hard question they got wrong - the thing people actually forward. */
   hardestQuestion?: DrivingQuestion;
   /** Path to the take page for this set, e.g. "/driving/alberta/set-2/take/". */

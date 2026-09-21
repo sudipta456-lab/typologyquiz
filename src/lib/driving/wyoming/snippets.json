@@ -1,0 +1,2138 @@
+{
+  "abs-do-not-pump": {
+    "height": 164,
+    "page": 82,
+    "src": "/handbook/wyoming/abs-do-not-pump.png",
+    "width": 493
+  },
+  "abs-use": {
+    "height": 140,
+    "page": 82,
+    "src": "/handbook/wyoming/abs-use.png",
+    "width": 493
+  },
+  "address-change": {
+    "height": 140,
+    "page": 8,
+    "src": "/handbook/wyoming/address-change.png",
+    "width": 495
+  },
+  "admin-per-se": {
+    "height": 116,
+    "page": 19,
+    "src": "/handbook/wyoming/admin-per-se.png",
+    "width": 493
+  },
+  "admin-per-se-dismissal": {
+    "height": 140,
+    "page": 19,
+    "src": "/handbook/wyoming/admin-per-se-dismissal.png",
+    "width": 493
+  },
+  "age-requirements": {
+    "height": 188,
+    "page": 7,
+    "src": "/handbook/wyoming/age-requirements.png",
+    "width": 493
+  },
+  "alcohol-32-feet": {
+    "height": 164,
+    "page": 36,
+    "src": "/handbook/wyoming/alcohol-32-feet.png",
+    "width": 470
+  },
+  "alcohol-half-of-fatal": {
+    "height": 164,
+    "page": 33,
+    "src": "/handbook/wyoming/alcohol-half-of-fatal.png",
+    "width": 493
+  },
+  "alcohol-side-vision": {
+    "height": 188,
+    "page": 35,
+    "src": "/handbook/wyoming/alcohol-side-vision.png",
+    "width": 493
+  },
+  "allergy-pills": {
+    "height": 117,
+    "page": 38,
+    "src": "/handbook/wyoming/allergy-pills.png",
+    "width": 494
+  },
+  "animals-do-not-swerve": {
+    "height": 188,
+    "page": 73,
+    "src": "/handbook/wyoming/animals-do-not-swerve.png",
+    "width": 493
+  },
+  "animals-dusk-dawn": {
+    "height": 140,
+    "page": 73,
+    "src": "/handbook/wyoming/animals-dusk-dawn.png",
+    "width": 493
+  },
+  "animals-headlight-freeze": {
+    "height": 140,
+    "page": 73,
+    "src": "/handbook/wyoming/animals-headlight-freeze.png",
+    "width": 493
+  },
+  "animals-high-beams": {
+    "height": 116,
+    "page": 72,
+    "src": "/handbook/wyoming/animals-high-beams.png",
+    "width": 493
+  },
+  "animals-keep-control": {
+    "height": 188,
+    "page": 86,
+    "src": "/handbook/wyoming/animals-keep-control.png",
+    "width": 493
+  },
+  "animals-migration": {
+    "height": 188,
+    "page": 72,
+    "src": "/handbook/wyoming/animals-migration.png",
+    "width": 493
+  },
+  "animals-report-carcass": {
+    "height": 164,
+    "page": 73,
+    "src": "/handbook/wyoming/animals-report-carcass.png",
+    "width": 493
+  },
+  "animals-warn-others": {
+    "height": 164,
+    "page": 73,
+    "src": "/handbook/wyoming/animals-warn-others.png",
+    "width": 493
+  },
+  "bac-005-conviction": {
+    "height": 188,
+    "page": 37,
+    "src": "/handbook/wyoming/bac-005-conviction.png",
+    "width": 493
+  },
+  "bac-008-suspension": {
+    "height": 188,
+    "page": 37,
+    "src": "/handbook/wyoming/bac-008-suspension.png",
+    "width": 493
+  },
+  "backing-turn-head": {
+    "height": 164,
+    "page": 54,
+    "src": "/handbook/wyoming/backing-turn-head.png",
+    "width": 493
+  },
+  "backing-walk-behind": {
+    "height": 164,
+    "page": 54,
+    "src": "/handbook/wyoming/backing-walk-behind.png",
+    "width": 493
+  },
+  "belt-exemptions": {
+    "height": 109,
+    "page": 3,
+    "src": "/handbook/wyoming/belt-exemptions.png",
+    "width": 454
+  },
+  "belt-position": {
+    "height": 164,
+    "page": 29,
+    "src": "/handbook/wyoming/belt-position.png",
+    "width": 493
+  },
+  "bicycle-definition": {
+    "height": 140,
+    "page": 91,
+    "src": "/handbook/wyoming/bicycle-definition.png",
+    "width": 493
+  },
+  "bicycle-helmet": {
+    "height": 188,
+    "page": 91,
+    "src": "/handbook/wyoming/bicycle-helmet.png",
+    "width": 493
+  },
+  "bicycle-lights": {
+    "height": 140,
+    "page": 70,
+    "src": "/handbook/wyoming/bicycle-lights.png",
+    "width": 493
+  },
+  "bicycle-position": {
+    "height": 164,
+    "page": 70,
+    "src": "/handbook/wyoming/bicycle-position.png",
+    "width": 493
+  },
+  "bicycle-rights": {
+    "height": 164,
+    "page": 70,
+    "src": "/handbook/wyoming/bicycle-rights.png",
+    "width": 493
+  },
+  "bicycle-sudden-turns": {
+    "height": 164,
+    "page": 70,
+    "src": "/handbook/wyoming/bicycle-sudden-turns.png",
+    "width": 493
+  },
+  "black-ice": {
+    "height": 149,
+    "page": 44,
+    "src": "/handbook/wyoming/black-ice.png",
+    "width": 492
+  },
+  "blind-intersection-15": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/wyoming/blind-intersection-15.png",
+    "width": 493
+  },
+  "blind-spot-definition": {
+    "height": 189,
+    "page": 91,
+    "src": "/handbook/wyoming/blind-spot-definition.png",
+    "width": 493
+  },
+  "blizzard-avoid": {
+    "height": 188,
+    "page": 80,
+    "src": "/handbook/wyoming/blizzard-avoid.png",
+    "width": 493
+  },
+  "blizzard-carbon-monoxide": {
+    "height": 188,
+    "page": 80,
+    "src": "/handbook/wyoming/blizzard-carbon-monoxide.png",
+    "width": 493
+  },
+  "blizzard-stay-with-car": {
+    "height": 116,
+    "page": 80,
+    "src": "/handbook/wyoming/blizzard-stay-with-car.png",
+    "width": 493
+  },
+  "blowout": {
+    "height": 116,
+    "page": 82,
+    "src": "/handbook/wyoming/blowout.png",
+    "width": 493
+  },
+  "body-weight": {
+    "height": 164,
+    "page": 34,
+    "src": "/handbook/wyoming/body-weight.png",
+    "width": 494
+  },
+  "booster-40-pounds": {
+    "height": 122,
+    "page": 31,
+    "src": "/handbook/wyoming/booster-40-pounds.png",
+    "width": 467
+  },
+  "boxed-in": {
+    "height": 164,
+    "page": 76,
+    "src": "/handbook/wyoming/boxed-in.png",
+    "width": 493
+  },
+  "breakdown-exit-away": {
+    "height": 116,
+    "page": 84,
+    "src": "/handbook/wyoming/breakdown-exit-away.png",
+    "width": 493
+  },
+  "breakdown-shoulder": {
+    "height": 164,
+    "page": 84,
+    "src": "/handbook/wyoming/breakdown-shoulder.png",
+    "width": 493
+  },
+  "cannot-be-licensed": {
+    "height": 140,
+    "page": 5,
+    "src": "/handbook/wyoming/cannot-be-licensed.png",
+    "width": 493
+  },
+  "carbon-monoxide-signs": {
+    "height": 188,
+    "page": 84,
+    "src": "/handbook/wyoming/carbon-monoxide-signs.png",
+    "width": 493
+  },
+  "carry-documents": {
+    "height": 164,
+    "page": 39,
+    "src": "/handbook/wyoming/carry-documents.png",
+    "width": 493
+  },
+  "cell-local-ordinances": {
+    "height": 188,
+    "page": 89,
+    "src": "/handbook/wyoming/cell-local-ordinances.png",
+    "width": 493
+  },
+  "child-restraint-age": {
+    "height": 105,
+    "page": 30,
+    "src": "/handbook/wyoming/child-restraint-age.png",
+    "width": 471
+  },
+  "child-restraint-airbag": {
+    "height": 123,
+    "page": 30,
+    "src": "/handbook/wyoming/child-restraint-airbag.png",
+    "width": 471
+  },
+  "child-restraint-fine-second": {
+    "height": 105,
+    "page": 30,
+    "src": "/handbook/wyoming/child-restraint-fine-second.png",
+    "width": 464
+  },
+  "child-restraint-primary": {
+    "height": 139,
+    "page": 30,
+    "src": "/handbook/wyoming/child-restraint-primary.png",
+    "width": 471
+  },
+  "child-restraint-seat": {
+    "height": 139,
+    "page": 30,
+    "src": "/handbook/wyoming/child-restraint-seat.png",
+    "width": 471
+  },
+  "class-c-scope": {
+    "height": 116,
+    "page": 6,
+    "src": "/handbook/wyoming/class-c-scope.png",
+    "width": 493
+  },
+  "class-m": {
+    "height": 140,
+    "page": 6,
+    "src": "/handbook/wyoming/class-m.png",
+    "width": 493
+  },
+  "communicate": {
+    "height": 140,
+    "page": 74,
+    "src": "/handbook/wyoming/communicate.png",
+    "width": 493
+  },
+  "communicate-signal-timing": {
+    "height": 140,
+    "page": 74,
+    "src": "/handbook/wyoming/communicate-signal-timing.png",
+    "width": 493
+  },
+  "compromise-space": {
+    "height": 164,
+    "page": 77,
+    "src": "/handbook/wyoming/compromise-space.png",
+    "width": 493
+  },
+  "construction-care": {
+    "height": 212,
+    "page": 85,
+    "src": "/handbook/wyoming/construction-care.png",
+    "width": 493
+  },
+  "construction-cut-in": {
+    "height": 188,
+    "page": 85,
+    "src": "/handbook/wyoming/construction-cut-in.png",
+    "width": 493
+  },
+  "contested-hearing-20-days": {
+    "height": 140,
+    "page": 27,
+    "src": "/handbook/wyoming/contested-hearing-20-days.png",
+    "width": 493
+  },
+  "controlled-drug-dwui": {
+    "height": 188,
+    "page": 38,
+    "src": "/handbook/wyoming/controlled-drug-dwui.png",
+    "width": 494
+  },
+  "conventional-brakes-pump": {
+    "height": 116,
+    "page": 81,
+    "src": "/handbook/wyoming/conventional-brakes-pump.png",
+    "width": 493
+  },
+  "crash-aid": {
+    "height": 116,
+    "page": 67,
+    "src": "/handbook/wyoming/crash-aid.png",
+    "width": 493
+  },
+  "crash-exchange": {
+    "height": 188,
+    "page": 67,
+    "src": "/handbook/wyoming/crash-exchange.png",
+    "width": 493
+  },
+  "crash-must-stop": {
+    "height": 164,
+    "page": 67,
+    "src": "/handbook/wyoming/crash-must-stop.png",
+    "width": 493
+  },
+  "crash-report-1000": {
+    "height": 140,
+    "page": 67,
+    "src": "/handbook/wyoming/crash-report-1000.png",
+    "width": 493
+  },
+  "crash-three-things": {
+    "height": 188,
+    "page": 80,
+    "src": "/handbook/wyoming/crash-three-things.png",
+    "width": 493
+  },
+  "crash-warn-traffic": {
+    "height": 116,
+    "page": 67,
+    "src": "/handbook/wyoming/crash-warn-traffic.png",
+    "width": 493
+  },
+  "critical-object-definition": {
+    "height": 165,
+    "page": 91,
+    "src": "/handbook/wyoming/critical-object-definition.png",
+    "width": 493
+  },
+  "crossbuck-is-yield": {
+    "height": 165,
+    "page": 66,
+    "src": "/handbook/wyoming/crossbuck-is-yield.png",
+    "width": 395
+  },
+  "crosswalk-definition": {
+    "height": 141,
+    "page": 91,
+    "src": "/handbook/wyoming/crosswalk-definition.png",
+    "width": 493
+  },
+  "dim-300-feet": {
+    "height": 140,
+    "page": 78,
+    "src": "/handbook/wyoming/dim-300-feet.png",
+    "width": 493
+  },
+  "dim-500-feet": {
+    "height": 140,
+    "page": 78,
+    "src": "/handbook/wyoming/dim-500-feet.png",
+    "width": 493
+  },
+  "disabled-vehicle-move-left": {
+    "height": 188,
+    "page": 84,
+    "src": "/handbook/wyoming/disabled-vehicle-move-left.png",
+    "width": 493
+  },
+  "driver-ed-hours": {
+    "height": 164,
+    "page": 9,
+    "src": "/handbook/wyoming/driver-ed-hours.png",
+    "width": 493
+  },
+  "driver-licence-compact": {
+    "height": 188,
+    "page": 33,
+    "src": "/handbook/wyoming/driver-licence-compact.png",
+    "width": 493
+  },
+  "driving-is-a-privilege": {
+    "height": 140,
+    "page": 19,
+    "src": "/handbook/wyoming/driving-is-a-privilege.png",
+    "width": 493
+  },
+  "drunkenness-not-apparent": {
+    "height": 117,
+    "page": 34,
+    "src": "/handbook/wyoming/drunkenness-not-apparent.png",
+    "width": 494
+  },
+  "dwui-third-revocation": {
+    "height": 142,
+    "page": 21,
+    "src": "/handbook/wyoming/dwui-third-revocation.png",
+    "width": 457
+  },
+  "emergency-foot-on-brake": {
+    "height": 140,
+    "page": 49,
+    "src": "/handbook/wyoming/emergency-foot-on-brake.png",
+    "width": 493
+  },
+  "emergency-overtaken": {
+    "height": 188,
+    "page": 40,
+    "src": "/handbook/wyoming/emergency-overtaken.png",
+    "width": 493
+  },
+  "emergency-pull-right": {
+    "height": 140,
+    "page": 49,
+    "src": "/handbook/wyoming/emergency-pull-right.png",
+    "width": 493
+  },
+  "emergency-vehicle-definition": {
+    "height": 117,
+    "page": 91,
+    "src": "/handbook/wyoming/emergency-vehicle-definition.png",
+    "width": 488
+  },
+  "emotions": {
+    "height": 116,
+    "page": 87,
+    "src": "/handbook/wyoming/emotions.png",
+    "width": 493
+  },
+  "emotions-do-not-drive": {
+    "height": 140,
+    "page": 87,
+    "src": "/handbook/wyoming/emotions-do-not-drive.png",
+    "width": 493
+  },
+  "equipment-inspection": {
+    "height": 140,
+    "page": 68,
+    "src": "/handbook/wyoming/equipment-inspection.png",
+    "width": 493
+  },
+  "expired-licence": {
+    "height": 188,
+    "page": 10,
+    "src": "/handbook/wyoming/expired-licence.png",
+    "width": 488
+  },
+  "flag-person": {
+    "height": 140,
+    "page": 85,
+    "src": "/handbook/wyoming/flag-person.png",
+    "width": 493
+  },
+  "fog-15-mph-difference": {
+    "height": 188,
+    "page": 78,
+    "src": "/handbook/wyoming/fog-15-mph-difference.png",
+    "width": 493
+  },
+  "fog-ten-seconds": {
+    "height": 140,
+    "page": 78,
+    "src": "/handbook/wyoming/fog-ten-seconds.png",
+    "width": 493
+  },
+  "following-by-vehicle-type": {
+    "height": 188,
+    "page": 75,
+    "src": "/handbook/wyoming/following-by-vehicle-type.png",
+    "width": 493
+  },
+  "following-double-wet": {
+    "height": 164,
+    "page": 75,
+    "src": "/handbook/wyoming/following-double-wet.png",
+    "width": 493
+  },
+  "following-triple-snow": {
+    "height": 140,
+    "page": 76,
+    "src": "/handbook/wyoming/following-triple-snow.png",
+    "width": 493
+  },
+  "food-does-not-help": {
+    "height": 164,
+    "page": 34,
+    "src": "/handbook/wyoming/food-does-not-help.png",
+    "width": 494
+  },
+  "forfeit-right-of-way": {
+    "height": 164,
+    "page": 47,
+    "src": "/handbook/wyoming/forfeit-right-of-way.png",
+    "width": 493
+  },
+  "full-at-16-and-half": {
+    "height": 140,
+    "page": 13,
+    "src": "/handbook/wyoming/full-at-16-and-half.png",
+    "width": 493
+  },
+  "full-at-17": {
+    "height": 188,
+    "page": 11,
+    "src": "/handbook/wyoming/full-at-17.png",
+    "width": 493
+  },
+  "gap-definition": {
+    "height": 141,
+    "page": 91,
+    "src": "/handbook/wyoming/gap-definition.png",
+    "width": 493
+  },
+  "glare-recovery": {
+    "height": 116,
+    "page": 88,
+    "src": "/handbook/wyoming/glare-recovery.png",
+    "width": 493
+  },
+  "ground-blizzard": {
+    "height": 205,
+    "page": 46,
+    "src": "/handbook/wyoming/ground-blizzard.png",
+    "width": 491
+  },
+  "ground-blizzard-bearings": {
+    "height": 141,
+    "page": 46,
+    "src": "/handbook/wyoming/ground-blizzard-bearings.png",
+    "width": 491
+  },
+  "hand-signal-stop": {
+    "height": 140,
+    "page": 52,
+    "src": "/handbook/wyoming/hand-signal-stop.png",
+    "width": 470
+  },
+  "hand-signals": {
+    "height": 164,
+    "page": 51,
+    "src": "/handbook/wyoming/hand-signals.png",
+    "width": 493
+  },
+  "hands-free-not-safer": {
+    "height": 188,
+    "page": 89,
+    "src": "/handbook/wyoming/hands-free-not-safer.png",
+    "width": 493
+  },
+  "headlights-when": {
+    "height": 140,
+    "page": 77,
+    "src": "/handbook/wyoming/headlights-when.png",
+    "width": 493
+  },
+  "hearing": {
+    "height": 164,
+    "page": 88,
+    "src": "/handbook/wyoming/hearing.png",
+    "width": 493
+  },
+  "hearing-volume": {
+    "height": 140,
+    "page": 88,
+    "src": "/handbook/wyoming/hearing-volume.png",
+    "width": 493
+  },
+  "high-beams-rural": {
+    "height": 140,
+    "page": 78,
+    "src": "/handbook/wyoming/high-beams-rural.png",
+    "width": 493
+  },
+  "hydroplaning": {
+    "height": 188,
+    "page": 79,
+    "src": "/handbook/wyoming/hydroplaning.png",
+    "width": 493
+  },
+  "hydroplaning-definition": {
+    "height": 140,
+    "page": 92,
+    "src": "/handbook/wyoming/hydroplaning-definition.png",
+    "width": 493
+  },
+  "ice-locations": {
+    "height": 169,
+    "page": 44,
+    "src": "/handbook/wyoming/ice-locations.png",
+    "width": 479
+  },
+  "icy-hill-stay-in-line": {
+    "height": 141,
+    "page": 46,
+    "src": "/handbook/wyoming/icy-hill-stay-in-line.png",
+    "width": 491
+  },
+  "illness-judge-yourself": {
+    "height": 140,
+    "page": 89,
+    "src": "/handbook/wyoming/illness-judge-yourself.png",
+    "width": 493
+  },
+  "implied-consent": {
+    "height": 116,
+    "page": 37,
+    "src": "/handbook/wyoming/implied-consent.png",
+    "width": 493
+  },
+  "interlock-15": {
+    "height": 116,
+    "page": 28,
+    "src": "/handbook/wyoming/interlock-15.png",
+    "width": 493
+  },
+  "interlock-fee": {
+    "height": 116,
+    "page": 29,
+    "src": "/handbook/wyoming/interlock-fee.png",
+    "width": 493
+  },
+  "interlock-lifetime": {
+    "height": 116,
+    "page": 28,
+    "src": "/handbook/wyoming/interlock-lifetime.png",
+    "width": 493
+  },
+  "intermediate-at-16": {
+    "height": 140,
+    "page": 13,
+    "src": "/handbook/wyoming/intermediate-at-16.png",
+    "width": 493
+  },
+  "intermediate-curfew": {
+    "height": 164,
+    "page": 14,
+    "src": "/handbook/wyoming/intermediate-curfew.png",
+    "width": 493
+  },
+  "intermediate-exception-form": {
+    "height": 116,
+    "page": 14,
+    "src": "/handbook/wyoming/intermediate-exception-form.png",
+    "width": 493
+  },
+  "intermediate-exceptions": {
+    "height": 140,
+    "page": 14,
+    "src": "/handbook/wyoming/intermediate-exceptions.png",
+    "width": 493
+  },
+  "intermediate-expiry": {
+    "height": 140,
+    "page": 15,
+    "src": "/handbook/wyoming/intermediate-expiry.png",
+    "width": 493
+  },
+  "intermediate-hours": {
+    "height": 188,
+    "page": 14,
+    "src": "/handbook/wyoming/intermediate-hours.png",
+    "width": 493
+  },
+  "intermediate-passengers": {
+    "height": 140,
+    "page": 14,
+    "src": "/handbook/wyoming/intermediate-passengers.png",
+    "width": 493
+  },
+  "intermediate-seatbelts": {
+    "height": 140,
+    "page": 14,
+    "src": "/handbook/wyoming/intermediate-seatbelts.png",
+    "width": 493
+  },
+  "intermediate-suspension": {
+    "height": 140,
+    "page": 14,
+    "src": "/handbook/wyoming/intermediate-suspension.png",
+    "width": 493
+  },
+  "intersection-definition": {
+    "height": 140,
+    "page": 92,
+    "src": "/handbook/wyoming/intersection-definition.png",
+    "width": 493
+  },
+  "interstate-acceleration-lane": {
+    "height": 164,
+    "page": 60,
+    "src": "/handbook/wyoming/interstate-acceleration-lane.png",
+    "width": 493
+  },
+  "interstate-breakdown": {
+    "height": 164,
+    "page": 62,
+    "src": "/handbook/wyoming/interstate-breakdown.png",
+    "width": 493
+  },
+  "interstate-breakdown-signal": {
+    "height": 164,
+    "page": 62,
+    "src": "/handbook/wyoming/interstate-breakdown-signal.png",
+    "width": 493
+  },
+  "interstate-do-not-walk": {
+    "height": 116,
+    "page": 84,
+    "src": "/handbook/wyoming/interstate-do-not-walk.png",
+    "width": 493
+  },
+  "interstate-drowsy": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/wyoming/interstate-drowsy.png",
+    "width": 493
+  },
+  "interstate-has-row": {
+    "height": 188,
+    "page": 60,
+    "src": "/handbook/wyoming/interstate-has-row.png",
+    "width": 493
+  },
+  "interstate-merge": {
+    "height": 140,
+    "page": 60,
+    "src": "/handbook/wyoming/interstate-merge.png",
+    "width": 493
+  },
+  "interstate-missed-exit": {
+    "height": 116,
+    "page": 61,
+    "src": "/handbook/wyoming/interstate-missed-exit.png",
+    "width": 493
+  },
+  "interstate-never-slow": {
+    "height": 140,
+    "page": 62,
+    "src": "/handbook/wyoming/interstate-never-slow.png",
+    "width": 493
+  },
+  "interstate-rear-end": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/wyoming/interstate-rear-end.png",
+    "width": 493
+  },
+  "interstate-right-lane": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/wyoming/interstate-right-lane.png",
+    "width": 493
+  },
+  "interstate-two-seconds": {
+    "height": 140,
+    "page": 61,
+    "src": "/handbook/wyoming/interstate-two-seconds.png",
+    "width": 493
+  },
+  "interstate-wrong-way": {
+    "height": 140,
+    "page": 60,
+    "src": "/handbook/wyoming/interstate-wrong-way.png",
+    "width": 493
+  },
+  "ipde-decide": {
+    "height": 141,
+    "page": 73,
+    "src": "/handbook/wyoming/ipde-decide.png",
+    "width": 493
+  },
+  "ipde-execute": {
+    "height": 117,
+    "page": 73,
+    "src": "/handbook/wyoming/ipde-execute.png",
+    "width": 493
+  },
+  "ipde-identify": {
+    "height": 189,
+    "page": 73,
+    "src": "/handbook/wyoming/ipde-identify.png",
+    "width": 493
+  },
+  "ipde-predict": {
+    "height": 165,
+    "page": 73,
+    "src": "/handbook/wyoming/ipde-predict.png",
+    "width": 493
+  },
+  "lane-use-left-lane": {
+    "height": 164,
+    "page": 63,
+    "src": "/handbook/wyoming/lane-use-left-lane.png",
+    "width": 493
+  },
+  "lane-use-middle": {
+    "height": 164,
+    "page": 63,
+    "src": "/handbook/wyoming/lane-use-middle.png",
+    "width": 493
+  },
+  "lane-use-two-lane": {
+    "height": 164,
+    "page": 63,
+    "src": "/handbook/wyoming/lane-use-two-lane.png",
+    "width": 493
+  },
+  "lending-licence": {
+    "height": 212,
+    "page": 25,
+    "src": "/handbook/wyoming/lending-licence.png",
+    "width": 493
+  },
+  "licence-requirements": {
+    "height": 188,
+    "page": 7,
+    "src": "/handbook/wyoming/licence-requirements.png",
+    "width": 493
+  },
+  "manual-basic-requirements": {
+    "height": 132,
+    "page": 2,
+    "src": "/handbook/wyoming/manual-basic-requirements.png",
+    "width": 448
+  },
+  "manual-not-the-law": {
+    "height": 150,
+    "page": 2,
+    "src": "/handbook/wyoming/manual-not-the-law.png",
+    "width": 445
+  },
+  "markings-broken": {
+    "height": 116,
+    "page": 63,
+    "src": "/handbook/wyoming/markings-broken.png",
+    "width": 493
+  },
+  "markings-inform-position": {
+    "height": 164,
+    "page": 95,
+    "src": "/handbook/wyoming/markings-inform-position.png",
+    "width": 506
+  },
+  "markings-rxr": {
+    "height": 213,
+    "page": 66,
+    "src": "/handbook/wyoming/markings-rxr.png",
+    "width": 380
+  },
+  "markings-solid-white": {
+    "height": 140,
+    "page": 63,
+    "src": "/handbook/wyoming/markings-solid-white.png",
+    "width": 493
+  },
+  "markings-solid-yellow": {
+    "height": 116,
+    "page": 63,
+    "src": "/handbook/wyoming/markings-solid-yellow.png",
+    "width": 493
+  },
+  "markings-white-vs-yellow": {
+    "height": 140,
+    "page": 63,
+    "src": "/handbook/wyoming/markings-white-vs-yellow.png",
+    "width": 493
+  },
+  "median-definition": {
+    "height": 188,
+    "page": 92,
+    "src": "/handbook/wyoming/median-definition.png",
+    "width": 493
+  },
+  "minors-release": {
+    "height": 164,
+    "page": 7,
+    "src": "/handbook/wyoming/minors-release.png",
+    "width": 493
+  },
+  "moped-definition": {
+    "height": 140,
+    "page": 92,
+    "src": "/handbook/wyoming/moped-definition.png",
+    "width": 493
+  },
+  "motorcycle-full-lane": {
+    "height": 140,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-full-lane.png",
+    "width": 493
+  },
+  "motorcycle-hard-to-see": {
+    "height": 164,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-hard-to-see.png",
+    "width": 493
+  },
+  "motorcycle-hazards": {
+    "height": 188,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-hazards.png",
+    "width": 493
+  },
+  "motorcycle-left-turn": {
+    "height": 188,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-left-turn.png",
+    "width": 493
+  },
+  "motorcycle-never-share-lane": {
+    "height": 188,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-never-share-lane.png",
+    "width": 493
+  },
+  "motorcycle-no-overtake-in-lane": {
+    "height": 140,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-no-overtake-in-lane.png",
+    "width": 493
+  },
+  "motorcycle-rights": {
+    "height": 140,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-rights.png",
+    "width": 493
+  },
+  "motorcycle-signals": {
+    "height": 188,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-signals.png",
+    "width": 493
+  },
+  "motorcycle-two-abreast": {
+    "height": 164,
+    "page": 69,
+    "src": "/handbook/wyoming/motorcycle-two-abreast.png",
+    "width": 493
+  },
+  "move-over-law-2018": {
+    "height": 284,
+    "page": 71,
+    "src": "/handbook/wyoming/move-over-law-2018.png",
+    "width": 493
+  },
+  "move-over-manual": {
+    "height": 140,
+    "page": 49,
+    "src": "/handbook/wyoming/move-over-manual.png",
+    "width": 493
+  },
+  "move-over-two-lane-manual": {
+    "height": 116,
+    "page": 49,
+    "src": "/handbook/wyoming/move-over-two-lane-manual.png",
+    "width": 469
+  },
+  "moving-violation-90-days": {
+    "height": 165,
+    "page": 24,
+    "src": "/handbook/wyoming/moving-violation-90-days.png",
+    "width": 493
+  },
+  "moving-violations-four": {
+    "height": 188,
+    "page": 24,
+    "src": "/handbook/wyoming/moving-violations-four.png",
+    "width": 493
+  },
+  "multipurpose-vehicle": {
+    "height": 140,
+    "page": 93,
+    "src": "/handbook/wyoming/multipurpose-vehicle.png",
+    "width": 493
+  },
+  "must-be-licensed": {
+    "height": 164,
+    "page": 5,
+    "src": "/handbook/wyoming/must-be-licensed.png",
+    "width": 493
+  },
+  "night-55": {
+    "height": 188,
+    "page": 77,
+    "src": "/handbook/wyoming/night-55.png",
+    "width": 493
+  },
+  "night-following-distance": {
+    "height": 140,
+    "page": 77,
+    "src": "/handbook/wyoming/night-following-distance.png",
+    "width": 493
+  },
+  "no-lane-change-in-intersection": {
+    "height": 117,
+    "page": 51,
+    "src": "/handbook/wyoming/no-lane-change-in-intersection.png",
+    "width": 489
+  },
+  "no-zone-definition": {
+    "height": 164,
+    "page": 93,
+    "src": "/handbook/wyoming/no-zone-definition.png",
+    "width": 493
+  },
+  "officer-outranks-signals": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/wyoming/officer-outranks-signals.png",
+    "width": 493
+  },
+  "oncoming-in-your-lane": {
+    "height": 116,
+    "page": 82,
+    "src": "/handbook/wyoming/oncoming-in-your-lane.png",
+    "width": 493
+  },
+  "one-drink-per-hour": {
+    "height": 188,
+    "page": 34,
+    "src": "/handbook/wyoming/one-drink-per-hour.png",
+    "width": 494
+  },
+  "overhead-only": {
+    "height": 140,
+    "page": 63,
+    "src": "/handbook/wyoming/overhead-only.png",
+    "width": 493
+  },
+  "parking-emergency": {
+    "height": 188,
+    "page": 59,
+    "src": "/handbook/wyoming/parking-emergency.png",
+    "width": 493
+  },
+  "parking-hills": {
+    "height": 188,
+    "page": 59,
+    "src": "/handbook/wyoming/parking-hills.png",
+    "width": 493
+  },
+  "parking-hydrant": {
+    "height": 116,
+    "page": 59,
+    "src": "/handbook/wyoming/parking-hydrant.png",
+    "width": 488
+  },
+  "parking-lights-not-headlights": {
+    "height": 188,
+    "page": 77,
+    "src": "/handbook/wyoming/parking-lights-not-headlights.png",
+    "width": 493
+  },
+  "parking-prohibited-manual": {
+    "height": 116,
+    "page": 58,
+    "src": "/handbook/wyoming/parking-prohibited-manual.png",
+    "width": 481
+  },
+  "parking-secure": {
+    "height": 140,
+    "page": 59,
+    "src": "/handbook/wyoming/parking-secure.png",
+    "width": 493
+  },
+  "parking-yellow-curb": {
+    "height": 116,
+    "page": 59,
+    "src": "/handbook/wyoming/parking-yellow-curb.png",
+    "width": 493
+  },
+  "passing-bicycle-follow": {
+    "height": 164,
+    "page": 56,
+    "src": "/handbook/wyoming/passing-bicycle-follow.png",
+    "width": 493
+  },
+  "passing-bicycle-three-feet": {
+    "height": 116,
+    "page": 56,
+    "src": "/handbook/wyoming/passing-bicycle-three-feet.png",
+    "width": 488
+  },
+  "passing-on-right-manual": {
+    "height": 116,
+    "page": 55,
+    "src": "/handbook/wyoming/passing-on-right-manual.png",
+    "width": 493
+  },
+  "passing-one-at-a-time": {
+    "height": 116,
+    "page": 54,
+    "src": "/handbook/wyoming/passing-one-at-a-time.png",
+    "width": 493
+  },
+  "passing-parked-cars": {
+    "height": 140,
+    "page": 57,
+    "src": "/handbook/wyoming/passing-parked-cars.png",
+    "width": 493
+  },
+  "passing-return": {
+    "height": 140,
+    "page": 54,
+    "src": "/handbook/wyoming/passing-return.png",
+    "width": 493
+  },
+  "passing-steps": {
+    "height": 116,
+    "page": 54,
+    "src": "/handbook/wyoming/passing-steps.png",
+    "width": 493
+  },
+  "passing-ten-over-manual": {
+    "height": 140,
+    "page": 54,
+    "src": "/handbook/wyoming/passing-ten-over-manual.png",
+    "width": 493
+  },
+  "passing-truck-mirror": {
+    "height": 212,
+    "page": 57,
+    "src": "/handbook/wyoming/passing-truck-mirror.png",
+    "width": 493
+  },
+  "passing-when-not-to": {
+    "height": 164,
+    "page": 54,
+    "src": "/handbook/wyoming/passing-when-not-to.png",
+    "width": 493
+  },
+  "pedestrian-children": {
+    "height": 164,
+    "page": 70,
+    "src": "/handbook/wyoming/pedestrian-children.png",
+    "width": 493
+  },
+  "pedestrian-share-deaths": {
+    "height": 140,
+    "page": 70,
+    "src": "/handbook/wyoming/pedestrian-share-deaths.png",
+    "width": 493
+  },
+  "pedestrian-walk-facing": {
+    "height": 188,
+    "page": 70,
+    "src": "/handbook/wyoming/pedestrian-walk-facing.png",
+    "width": 493
+  },
+  "penny-test": {
+    "height": 188,
+    "page": 69,
+    "src": "/handbook/wyoming/penny-test.png",
+    "width": 493
+  },
+  "permit-at-15": {
+    "height": 140,
+    "page": 7,
+    "src": "/handbook/wyoming/permit-at-15.png",
+    "width": 493
+  },
+  "permit-supervisor": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/wyoming/permit-supervisor.png",
+    "width": 491
+  },
+  "permit-tests": {
+    "height": 140,
+    "page": 10,
+    "src": "/handbook/wyoming/permit-tests.png",
+    "width": 491
+  },
+  "poor-night-vision": {
+    "height": 116,
+    "page": 88,
+    "src": "/handbook/wyoming/poor-night-vision.png",
+    "width": 493
+  },
+  "poor-side-vision": {
+    "height": 188,
+    "page": 87,
+    "src": "/handbook/wyoming/poor-side-vision.png",
+    "width": 493
+  },
+  "probationary-one-in-five": {
+    "height": 140,
+    "page": 27,
+    "src": "/handbook/wyoming/probationary-one-in-five.png",
+    "width": 493
+  },
+  "proof-of-residency": {
+    "height": 188,
+    "page": 8,
+    "src": "/handbook/wyoming/proof-of-residency.png",
+    "width": 495
+  },
+  "railroad-clear-the-tracks": {
+    "height": 188,
+    "page": 85,
+    "src": "/handbook/wyoming/railroad-clear-the-tracks.png",
+    "width": 493
+  },
+  "railroad-expect-a-train": {
+    "height": 116,
+    "page": 85,
+    "src": "/handbook/wyoming/railroad-expect-a-train.png",
+    "width": 493
+  },
+  "railroad-flashing-lights": {
+    "height": 261,
+    "page": 66,
+    "src": "/handbook/wyoming/railroad-flashing-lights.png",
+    "width": 325
+  },
+  "railroad-gates": {
+    "height": 189,
+    "page": 66,
+    "src": "/handbook/wyoming/railroad-gates.png",
+    "width": 491
+  },
+  "railroad-multiple-tracks": {
+    "height": 164,
+    "page": 66,
+    "src": "/handbook/wyoming/railroad-multiple-tracks.png",
+    "width": 325
+  },
+  "railroad-never-around-gates": {
+    "height": 188,
+    "page": 85,
+    "src": "/handbook/wyoming/railroad-never-around-gates.png",
+    "width": 493
+  },
+  "railroad-never-pass": {
+    "height": 116,
+    "page": 85,
+    "src": "/handbook/wyoming/railroad-never-pass.png",
+    "width": 493
+  },
+  "railroad-stalled": {
+    "height": 212,
+    "page": 85,
+    "src": "/handbook/wyoming/railroad-stalled.png",
+    "width": 493
+  },
+  "rain-first-half-hour": {
+    "height": 164,
+    "page": 79,
+    "src": "/handbook/wyoming/rain-first-half-hour.png",
+    "width": 493
+  },
+  "rain-wipers": {
+    "height": 164,
+    "page": 79,
+    "src": "/handbook/wyoming/rain-wipers.png",
+    "width": 493
+  },
+  "reaction-time": {
+    "height": 164,
+    "page": 49,
+    "src": "/handbook/wyoming/reaction-time.png",
+    "width": 493
+  },
+  "refusal-warrant": {
+    "height": 164,
+    "page": 37,
+    "src": "/handbook/wyoming/refusal-warrant.png",
+    "width": 493
+  },
+  "reinstatement-fee": {
+    "height": 116,
+    "page": 27,
+    "src": "/handbook/wyoming/reinstatement-fee.png",
+    "width": 493
+  },
+  "renewal-over-21": {
+    "height": 164,
+    "page": 10,
+    "src": "/handbook/wyoming/renewal-over-21.png",
+    "width": 493
+  },
+  "required-stops-crash": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/wyoming/required-stops-crash.png",
+    "width": 493
+  },
+  "required-stops-list": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/wyoming/required-stops-list.png",
+    "width": 493
+  },
+  "restricted-licence": {
+    "height": 140,
+    "page": 13,
+    "src": "/handbook/wyoming/restricted-licence.png",
+    "width": 493
+  },
+  "restricted-licence-expiry": {
+    "height": 140,
+    "page": 13,
+    "src": "/handbook/wyoming/restricted-licence-expiry.png",
+    "width": 493
+  },
+  "restricted-licence-suspension": {
+    "height": 164,
+    "page": 13,
+    "src": "/handbook/wyoming/restricted-licence-suspension.png",
+    "width": 493
+  },
+  "restricted-licence-whp": {
+    "height": 141,
+    "page": 13,
+    "src": "/handbook/wyoming/restricted-licence-whp.png",
+    "width": 493
+  },
+  "restriction-b": {
+    "height": 224,
+    "page": 7,
+    "src": "/handbook/wyoming/restriction-b.png",
+    "width": 284
+  },
+  "revocation-meaning": {
+    "height": 188,
+    "page": 27,
+    "src": "/handbook/wyoming/revocation-meaning.png",
+    "width": 493
+  },
+  "revocation-offences": {
+    "height": 140,
+    "page": 27,
+    "src": "/handbook/wyoming/revocation-offences.png",
+    "width": 493
+  },
+  "roundabout-direction": {
+    "height": 116,
+    "page": 48,
+    "src": "/handbook/wyoming/roundabout-direction.png",
+    "width": 494
+  },
+  "roundabout-emergency": {
+    "height": 188,
+    "page": 49,
+    "src": "/handbook/wyoming/roundabout-emergency.png",
+    "width": 493
+  },
+  "roundabout-exit-signal": {
+    "height": 164,
+    "page": 48,
+    "src": "/handbook/wyoming/roundabout-exit-signal.png",
+    "width": 493
+  },
+  "roundabout-keep-moving": {
+    "height": 116,
+    "page": 48,
+    "src": "/handbook/wyoming/roundabout-keep-moving.png",
+    "width": 473
+  },
+  "roundabout-look-left": {
+    "height": 140,
+    "page": 48,
+    "src": "/handbook/wyoming/roundabout-look-left.png",
+    "width": 493
+  },
+  "roundabout-yield": {
+    "height": 140,
+    "page": 48,
+    "src": "/handbook/wyoming/roundabout-yield.png",
+    "width": 493
+  },
+  "row-bicyclists-are-vehicles": {
+    "height": 164,
+    "page": 42,
+    "src": "/handbook/wyoming/row-bicyclists-are-vehicles.png",
+    "width": 494
+  },
+  "row-check-order": {
+    "height": 188,
+    "page": 43,
+    "src": "/handbook/wyoming/row-check-order.png",
+    "width": 493
+  },
+  "row-four-way": {
+    "height": 116,
+    "page": 47,
+    "src": "/handbook/wyoming/row-four-way.png",
+    "width": 493
+  },
+  "row-never-insist": {
+    "height": 140,
+    "page": 47,
+    "src": "/handbook/wyoming/row-never-insist.png",
+    "width": 493
+  },
+  "row-pedestrians-three": {
+    "height": 140,
+    "page": 49,
+    "src": "/handbook/wyoming/row-pedestrians-three.png",
+    "width": 493
+  },
+  "row-pedestrians-when": {
+    "height": 188,
+    "page": 86,
+    "src": "/handbook/wyoming/row-pedestrians-when.png",
+    "width": 493
+  },
+  "row-turning-onto-highway": {
+    "height": 140,
+    "page": 43,
+    "src": "/handbook/wyoming/row-turning-onto-highway.png",
+    "width": 493
+  },
+  "row-uncontrolled": {
+    "height": 164,
+    "page": 42,
+    "src": "/handbook/wyoming/row-uncontrolled.png",
+    "width": 494
+  },
+  "row-what-laws-do": {
+    "height": 140,
+    "page": 42,
+    "src": "/handbook/wyoming/row-what-laws-do.png",
+    "width": 494
+  },
+  "row-yield-sign": {
+    "height": 140,
+    "page": 43,
+    "src": "/handbook/wyoming/row-yield-sign.png",
+    "width": 493
+  },
+  "scan-10-to-15": {
+    "height": 164,
+    "page": 74,
+    "src": "/handbook/wyoming/scan-10-to-15.png",
+    "width": 493
+  },
+  "scan-check-method": {
+    "height": 212,
+    "page": 74,
+    "src": "/handbook/wyoming/scan-check-method.png",
+    "width": 493
+  },
+  "school-bus-exception": {
+    "height": 188,
+    "page": 50,
+    "src": "/handbook/wyoming/school-bus-exception.png",
+    "width": 493
+  },
+  "school-bus-no-passing": {
+    "height": 164,
+    "page": 54,
+    "src": "/handbook/wyoming/school-bus-no-passing.png",
+    "width": 493
+  },
+  "school-bus-stop": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/wyoming/school-bus-stop.png",
+    "width": 493
+  },
+  "school-bus-undivided": {
+    "height": 130,
+    "page": 51,
+    "src": "/handbook/wyoming/school-bus-undivided.png",
+    "width": 446
+  },
+  "school-zone-absolute": {
+    "height": 140,
+    "page": 96,
+    "src": "/handbook/wyoming/school-zone-absolute.png",
+    "width": 344
+  },
+  "seat-belt-law": {
+    "height": 186,
+    "page": 29,
+    "src": "/handbook/wyoming/seat-belt-law.png",
+    "width": 493
+  },
+  "seatbelt-fatalities": {
+    "height": 362,
+    "page": 16,
+    "src": "/handbook/wyoming/seatbelt-fatalities.png",
+    "width": 528
+  },
+  "separate-risks": {
+    "height": 140,
+    "page": 76,
+    "src": "/handbook/wyoming/separate-risks.png",
+    "width": 493
+  },
+  "shoulder-definition": {
+    "height": 188,
+    "page": 94,
+    "src": "/handbook/wyoming/shoulder-definition.png",
+    "width": 493
+  },
+  "shoulder-strap-alone": {
+    "height": 140,
+    "page": 29,
+    "src": "/handbook/wyoming/shoulder-strap-alone.png",
+    "width": 493
+  },
+  "sign-construction": {
+    "height": 144,
+    "page": 96,
+    "src": "/handbook/wyoming/sign-construction.png",
+    "width": 340
+  },
+  "sign-diamond": {
+    "height": 215,
+    "page": 95,
+    "src": "/handbook/wyoming/sign-diamond.png",
+    "width": 265
+  },
+  "sign-diamond-vs-rectangle": {
+    "height": 188,
+    "page": 62,
+    "src": "/handbook/wyoming/sign-diamond-vs-rectangle.png",
+    "width": 493
+  },
+  "sign-ens": {
+    "height": 164,
+    "page": 96,
+    "src": "/handbook/wyoming/sign-ens.png",
+    "width": 344
+  },
+  "sign-guide": {
+    "height": 240,
+    "page": 96,
+    "src": "/handbook/wyoming/sign-guide.png",
+    "width": 334
+  },
+  "sign-octagon": {
+    "height": 167,
+    "page": 95,
+    "src": "/handbook/wyoming/sign-octagon.png",
+    "width": 366
+  },
+  "sign-pennant": {
+    "height": 168,
+    "page": 96,
+    "src": "/handbook/wyoming/sign-pennant.png",
+    "width": 344
+  },
+  "sign-pentagon": {
+    "height": 167,
+    "page": 96,
+    "src": "/handbook/wyoming/sign-pentagon.png",
+    "width": 344
+  },
+  "sign-rectangle": {
+    "height": 216,
+    "page": 95,
+    "src": "/handbook/wyoming/sign-rectangle.png",
+    "width": 235
+  },
+  "sign-regulatory": {
+    "height": 177,
+    "page": 95,
+    "src": "/handbook/wyoming/sign-regulatory.png",
+    "width": 506
+  },
+  "sign-round": {
+    "height": 168,
+    "page": 96,
+    "src": "/handbook/wyoming/sign-round.png",
+    "width": 344
+  },
+  "sign-shapes-matter": {
+    "height": 212,
+    "page": 62,
+    "src": "/handbook/wyoming/sign-shapes-matter.png",
+    "width": 493
+  },
+  "sign-triangle": {
+    "height": 191,
+    "page": 95,
+    "src": "/handbook/wyoming/sign-triangle.png",
+    "width": 366
+  },
+  "sign-warning": {
+    "height": 188,
+    "page": 95,
+    "src": "/handbook/wyoming/sign-warning.png",
+    "width": 506
+  },
+  "sign-warning-colours": {
+    "height": 164,
+    "page": 95,
+    "src": "/handbook/wyoming/sign-warning-colours.png",
+    "width": 506
+  },
+  "signal-amber": {
+    "height": 144,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-amber.png",
+    "width": 375
+  },
+  "signal-amber-arrow": {
+    "height": 164,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-amber-arrow.png",
+    "width": 376
+  },
+  "signal-flashing-amber": {
+    "height": 168,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-flashing-amber.png",
+    "width": 375
+  },
+  "signal-flashing-red": {
+    "height": 192,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-flashing-red.png",
+    "width": 375
+  },
+  "signal-four-to-five-seconds": {
+    "height": 164,
+    "page": 51,
+    "src": "/handbook/wyoming/signal-four-to-five-seconds.png",
+    "width": 493
+  },
+  "signal-green": {
+    "height": 216,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-green.png",
+    "width": 375
+  },
+  "signal-green-arrow": {
+    "height": 212,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-green-arrow.png",
+    "width": 376
+  },
+  "signal-red": {
+    "height": 216,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-red.png",
+    "width": 376
+  },
+  "signal-red-arrow": {
+    "height": 140,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-red-arrow.png",
+    "width": 376
+  },
+  "signal-red-turn-yield": {
+    "height": 212,
+    "page": 97,
+    "src": "/handbook/wyoming/signal-red-turn-yield.png",
+    "width": 376
+  },
+  "skid-response": {
+    "height": 197,
+    "page": 46,
+    "src": "/handbook/wyoming/skid-response.png",
+    "width": 359
+  },
+  "skid-steer": {
+    "height": 116,
+    "page": 82,
+    "src": "/handbook/wyoming/skid-steer.png",
+    "width": 493
+  },
+  "skid-stop-what-caused-it": {
+    "height": 116,
+    "page": 81,
+    "src": "/handbook/wyoming/skid-stop-what-caused-it.png",
+    "width": 493
+  },
+  "skills-test-first-timers": {
+    "height": 140,
+    "page": 9,
+    "src": "/handbook/wyoming/skills-test-first-timers.png",
+    "width": 493
+  },
+  "skills-test-waiver": {
+    "height": 164,
+    "page": 9,
+    "src": "/handbook/wyoming/skills-test-waiver.png",
+    "width": 493
+  },
+  "slow-moving-emblem": {
+    "height": 164,
+    "page": 71,
+    "src": "/handbook/wyoming/slow-moving-emblem.png",
+    "width": 493
+  },
+  "slow-moving-legal-right": {
+    "height": 140,
+    "page": 71,
+    "src": "/handbook/wyoming/slow-moving-legal-right.png",
+    "width": 493
+  },
+  "snow-bridges": {
+    "height": 116,
+    "page": 79,
+    "src": "/handbook/wyoming/snow-bridges.png",
+    "width": 493
+  },
+  "snow-no-cruise": {
+    "height": 140,
+    "page": 79,
+    "src": "/handbook/wyoming/snow-no-cruise.png",
+    "width": 493
+  },
+  "sober-up-useless": {
+    "height": 141,
+    "page": 34,
+    "src": "/handbook/wyoming/sober-up-useless.png",
+    "width": 494
+  },
+  "space-cushion": {
+    "height": 189,
+    "page": 75,
+    "src": "/handbook/wyoming/space-cushion.png",
+    "width": 493
+  },
+  "speed-100-feet-visibility": {
+    "height": 188,
+    "page": 42,
+    "src": "/handbook/wyoming/speed-100-feet-visibility.png",
+    "width": 494
+  },
+  "speed-curves": {
+    "height": 168,
+    "page": 41,
+    "src": "/handbook/wyoming/speed-curves.png",
+    "width": 493
+  },
+  "speed-dark-250-feet": {
+    "height": 140,
+    "page": 42,
+    "src": "/handbook/wyoming/speed-dark-250-feet.png",
+    "width": 494
+  },
+  "speed-overdriving-headlights": {
+    "height": 116,
+    "page": 42,
+    "src": "/handbook/wyoming/speed-overdriving-headlights.png",
+    "width": 494
+  },
+  "speed-slippery-general": {
+    "height": 168,
+    "page": 41,
+    "src": "/handbook/wyoming/speed-slippery-general.png",
+    "width": 493
+  },
+  "speed-slippery-scale": {
+    "height": 188,
+    "page": 41,
+    "src": "/handbook/wyoming/speed-slippery-scale.png",
+    "width": 493
+  },
+  "speed-slower-than-traffic": {
+    "height": 140,
+    "page": 41,
+    "src": "/handbook/wyoming/speed-slower-than-traffic.png",
+    "width": 493
+  },
+  "sr22-definition": {
+    "height": 140,
+    "page": 27,
+    "src": "/handbook/wyoming/sr22-definition.png",
+    "width": 493
+  },
+  "sr22-three-years": {
+    "height": 164,
+    "page": 28,
+    "src": "/handbook/wyoming/sr22-three-years.png",
+    "width": 493
+  },
+  "standard-drink": {
+    "height": 164,
+    "page": 33,
+    "src": "/handbook/wyoming/standard-drink.png",
+    "width": 493
+  },
+  "stay-awake-pills": {
+    "height": 117,
+    "page": 37,
+    "src": "/handbook/wyoming/stay-awake-pills.png",
+    "width": 493
+  },
+  "steering-lock": {
+    "height": 188,
+    "page": 83,
+    "src": "/handbook/wyoming/steering-lock.png",
+    "width": 465
+  },
+  "stopping-distance-car": {
+    "height": 164,
+    "page": 50,
+    "src": "/handbook/wyoming/stopping-distance-car.png",
+    "width": 493
+  },
+  "stopping-distance-truck": {
+    "height": 164,
+    "page": 50,
+    "src": "/handbook/wyoming/stopping-distance-truck.png",
+    "width": 493
+  },
+  "surrender-out-of-state": {
+    "height": 140,
+    "page": 5,
+    "src": "/handbook/wyoming/surrender-out-of-state.png",
+    "width": 472
+  },
+  "suspension-definition": {
+    "height": 140,
+    "page": 94,
+    "src": "/handbook/wyoming/suspension-definition.png",
+    "width": 493
+  },
+  "suspension-start": {
+    "height": 188,
+    "page": 28,
+    "src": "/handbook/wyoming/suspension-start.png",
+    "width": 493
+  },
+  "tailgater-response": {
+    "height": 116,
+    "page": 76,
+    "src": "/handbook/wyoming/tailgater-response.png",
+    "width": 493
+  },
+  "tailgaters": {
+    "height": 140,
+    "page": 76,
+    "src": "/handbook/wyoming/tailgaters.png",
+    "width": 493
+  },
+  "technology-fee": {
+    "height": 165,
+    "page": 11,
+    "src": "/handbook/wyoming/technology-fee.png",
+    "width": 392
+  },
+  "test-english-only": {
+    "height": 164,
+    "page": 9,
+    "src": "/handbook/wyoming/test-english-only.png",
+    "width": 493
+  },
+  "test-from-manual": {
+    "height": 140,
+    "page": 9,
+    "src": "/handbook/wyoming/test-from-manual.png",
+    "width": 493
+  },
+  "test-oral": {
+    "height": 140,
+    "page": 9,
+    "src": "/handbook/wyoming/test-oral.png",
+    "width": 493
+  },
+  "test-retest-waits": {
+    "height": 140,
+    "page": 9,
+    "src": "/handbook/wyoming/test-retest-waits.png",
+    "width": 493
+  },
+  "test-three-parts": {
+    "height": 140,
+    "page": 9,
+    "src": "/handbook/wyoming/test-three-parts.png",
+    "width": 493
+  },
+  "test-twice-a-day": {
+    "height": 140,
+    "page": 9,
+    "src": "/handbook/wyoming/test-twice-a-day.png",
+    "width": 493
+  },
+  "texting-banned": {
+    "height": 116,
+    "page": 89,
+    "src": "/handbook/wyoming/texting-banned.png",
+    "width": 493
+  },
+  "three-bac-factors": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/wyoming/three-bac-factors.png",
+    "width": 493
+  },
+  "time-only-factor": {
+    "height": 165,
+    "page": 34,
+    "src": "/handbook/wyoming/time-only-factor.png",
+    "width": 494
+  },
+  "tire-check-monthly": {
+    "height": 139,
+    "page": 68,
+    "src": "/handbook/wyoming/tire-check-monthly.png",
+    "width": 493
+  },
+  "tire-pressure": {
+    "height": 163,
+    "page": 68,
+    "src": "/handbook/wyoming/tire-pressure.png",
+    "width": 493
+  },
+  "total-stopping-distance": {
+    "height": 116,
+    "page": 94,
+    "src": "/handbook/wyoming/total-stopping-distance.png",
+    "width": 493
+  },
+  "traffic-stop-argue": {
+    "height": 188,
+    "page": 40,
+    "src": "/handbook/wyoming/traffic-stop-argue.png",
+    "width": 493
+  },
+  "traffic-stop-hands": {
+    "height": 140,
+    "page": 39,
+    "src": "/handbook/wyoming/traffic-stop-hands.png",
+    "width": 493
+  },
+  "traffic-stop-pull-over": {
+    "height": 212,
+    "page": 39,
+    "src": "/handbook/wyoming/traffic-stop-pull-over.png",
+    "width": 493
+  },
+  "traffic-stop-weapons": {
+    "height": 140,
+    "page": 39,
+    "src": "/handbook/wyoming/traffic-stop-weapons.png",
+    "width": 493
+  },
+  "truck-blind-spots-behind": {
+    "height": 116,
+    "page": 58,
+    "src": "/handbook/wyoming/truck-blind-spots-behind.png",
+    "width": 493
+  },
+  "truck-length": {
+    "height": 164,
+    "page": 57,
+    "src": "/handbook/wyoming/truck-length.png",
+    "width": 493
+  },
+  "truck-right-turn-squeeze": {
+    "height": 116,
+    "page": 58,
+    "src": "/handbook/wyoming/truck-right-turn-squeeze.png",
+    "width": 493
+  },
+  "turn-away-right": {
+    "height": 188,
+    "page": 81,
+    "src": "/handbook/wyoming/turn-away-right.png",
+    "width": 493
+  },
+  "two-second-how": {
+    "height": 140,
+    "page": 75,
+    "src": "/handbook/wyoming/two-second-how.png",
+    "width": 493
+  },
+  "two-second-rule": {
+    "height": 188,
+    "page": 75,
+    "src": "/handbook/wyoming/two-second-rule.png",
+    "width": 493
+  },
+  "two-seconds-per-20-feet": {
+    "height": 165,
+    "page": 75,
+    "src": "/handbook/wyoming/two-seconds-per-20-feet.png",
+    "width": 493
+  },
+  "unattended-vehicle-note": {
+    "height": 140,
+    "page": 67,
+    "src": "/handbook/wyoming/unattended-vehicle-note.png",
+    "width": 493
+  },
+  "unattended-vehicle-police": {
+    "height": 116,
+    "page": 67,
+    "src": "/handbook/wyoming/unattended-vehicle-police.png",
+    "width": 493
+  },
+  "vision-20-100": {
+    "height": 140,
+    "page": 8,
+    "src": "/handbook/wyoming/vision-20-100.png",
+    "width": 493
+  },
+  "vision-glasses-restriction": {
+    "height": 140,
+    "page": 8,
+    "src": "/handbook/wyoming/vision-glasses-restriction.png",
+    "width": 493
+  },
+  "vision-standard": {
+    "height": 188,
+    "page": 8,
+    "src": "/handbook/wyoming/vision-standard.png",
+    "width": 493
+  },
+  "wet-brakes": {
+    "height": 188,
+    "page": 84,
+    "src": "/handbook/wyoming/wet-brakes.png",
+    "width": 493
+  },
+  "who-issues": {
+    "height": 164,
+    "page": 5,
+    "src": "/handbook/wyoming/who-issues.png",
+    "width": 493
+  },
+  "wind-open-spaces": {
+    "height": 164,
+    "page": 80,
+    "src": "/handbook/wyoming/wind-open-spaces.png",
+    "width": 493
+  },
+  "wind-trucks": {
+    "height": 164,
+    "page": 80,
+    "src": "/handbook/wyoming/wind-trucks.png",
+    "width": 493
+  },
+  "winter-4wd": {
+    "height": 253,
+    "page": 45,
+    "src": "/handbook/wyoming/winter-4wd.png",
+    "width": 482
+  },
+  "winter-4wd-rollover": {
+    "height": 169,
+    "page": 45,
+    "src": "/handbook/wyoming/winter-4wd-rollover.png",
+    "width": 482
+  },
+  "winter-four-second-count": {
+    "height": 141,
+    "page": 45,
+    "src": "/handbook/wyoming/winter-four-second-count.png",
+    "width": 492
+  },
+  "wydot-cell-advice": {
+    "height": 164,
+    "page": 89,
+    "src": "/handbook/wyoming/wydot-cell-advice.png",
+    "width": 493
+  },
+  "wydot-definition": {
+    "height": 164,
+    "page": 94,
+    "src": "/handbook/wyoming/wydot-definition.png",
+    "width": 493
+  },
+  "youthful-driver": {
+    "height": 116,
+    "page": 22,
+    "src": "/handbook/wyoming/youthful-driver.png",
+    "width": 493
+  }
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import type { DrivingQuestion, DrivingTestSet, Jurisdiction } from "./types";
+import { hasPublishedPassMark } from "./types";
 
 // Adaptive practice.
 //
@@ -191,8 +192,8 @@ export interface Readiness {
   /** Best honest estimate of a real-test score, as a percent. */
   estimate: number;
   /** Percent needed to pass this jurisdiction's real test. */
-  required: number;
-  ready: boolean;
+  required: number | null;
+  ready: boolean | null;
   /** How much to trust the estimate. */
   confidence: "low" | "medium" | "high";
   message: string;
@@ -211,7 +212,18 @@ export function estimateReadiness(
   recentPercents: number[]
 ): Readiness {
   const fmt = jurisdiction.officialTest;
-  const required = Math.round((fmt.passCount / fmt.questionCount) * 100);
+  if (!hasPublishedPassMark(fmt)) {
+    return {
+      estimate: 0,
+      required: null,
+      ready: null,
+      confidence: "low",
+      message:
+        "WYDOT does not publish the knowledge test's question count or passing score, so we cannot estimate exam readiness from practice results.",
+    };
+  }
+
+  const required = Math.round((fmt.passCount! / fmt.questionCount!) * 100);
 
   if (recentPercents.length === 0) {
     return {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { JURISDICTIONS, getJurisdiction } from "@/lib/driving/jurisdictions";
 import { SITE } from "@/lib/site";
 import { jurisdictionJsonLd } from "@/lib/driving/structured-data";
+import { hasPublishedPassMark } from "@/lib/driving/types";
 import { JurisdictionClient } from "./JurisdictionClient";
 
 export function generateStaticParams() {
@@ -29,7 +30,10 @@ export async function generateMetadata({
   if (!j) return { title: "Driving practice tests" };
 
   const title = `${j.name} Driving Practice Test (${j.licenceName})`;
-  const description = `Free ${j.name} knowledge test practice questions, scored against the real pass mark of ${j.officialTest.passLabel}. Every answer is explained and linked to the ${j.handbookName}. Written and checked ${monthYear(j.contentDate)}.`;
+  const scoreDescription = hasPublishedPassMark(j.officialTest)
+    ? `scored against the real pass mark of ${j.officialTest.passLabel}`
+    : `with practice scores shown separately from the official exam; ${j.name} does not publish the knowledge test's question count or passing score`;
+  const description = `Free ${j.name} knowledge test practice questions, ${scoreDescription}. Every answer is explained and linked to the ${j.handbookName}. Written and checked ${monthYear(j.contentDate)}.`;
 
   return {
     title,

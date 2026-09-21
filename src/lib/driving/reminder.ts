@@ -1,4 +1,5 @@
 import type { Jurisdiction } from "./types";
+import { hasPublishedPassMark } from "./types";
 
 // Study reminders without collecting anything.
 //
@@ -109,7 +110,11 @@ export function buildStudyReminderICS(opts: ReminderOptions): string {
     `tq-test-${testDate.getTime()}@typologyquiz.com`,
     testDate,
     `${testName}`,
-    `Pass mark: ${jurisdiction.officialTest.passLabel}.\n\nLast-minute review: ${url}`
+    `${
+      hasPublishedPassMark(jurisdiction.officialTest)
+        ? `Pass mark: ${jurisdiction.officialTest.passLabel}.`
+        : `The official passing score is not published by the licensing authority. This reminder is for practice.`
+    }\n\nLast-minute review: ${url}`
   );
 
   lines.push("END:VCALENDAR");

@@ -120,7 +120,7 @@ export function drivingHubJsonLd(jurisdictions: Jurisdiction[]): object {
         "@id": `${url}#collection`,
         name: "Driving licence practice tests",
         description:
-          "Free practice tests for driving licence knowledge exams, scored the way each real test is scored, with every answer linked to the official handbook.",
+          "Free practice tests for driving licence knowledge exams, with every answer linked to the official handbook and score feedback where an official passing standard is published.",
         url,
         isPartOf: { "@id": `${base}/#website` },
         inLanguage: "en",

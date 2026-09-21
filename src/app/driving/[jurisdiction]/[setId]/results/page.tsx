@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JURISDICTIONS, getSet, getJurisdiction } from "@/lib/driving/jurisdictions";
+import { hasPublishedPassMark } from "@/lib/driving/types";
 import { ResultsDrivingClient } from "./ResultsDrivingClient";
 
 /** Mirrors the take route, including the browser-built synthetic drills. */
@@ -28,10 +29,13 @@ export async function generateMetadata({
       : setId === "retry-missed"
         ? "The ones you missed"
         : "practice";
+  const scoreDescription = hasPublishedPassMark(j.officialTest)
+    ? `checked against the real pass mark (${j.officialTest.passLabel})`
+    : "shown as a practice score because the official passing score is not published";
 
   return {
     title: `Your result · ${j.name} ${label}`,
-    description: `Your score on the ${j.name} practice set, checked against the real pass mark (${j.officialTest.passLabel}), with every missed question explained.`,
+    description: `Your score on the ${j.name} practice set, ${scoreDescription}, with every missed question explained.`,
     // A personal score page has nothing to offer search - the shareable link is
     // the point, not the ranking.
     robots: { index: false, follow: true },

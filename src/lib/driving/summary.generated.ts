@@ -613,6 +613,17 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "questionCount": 195
   },
   {
+    "slug": "wyoming",
+    "name": "Wyoming",
+    "code": "WY",
+    "country": "US",
+    "licenceName": "Instruction Permit",
+    "intro": "Use this practice bank to study the rules in WYDOT's 2021 Class C Driver License Manual. It covers signs, signals and pavement markings, along with traffic laws, safety, crash prevention and vehicle equipment. Wyoming's statutes and WYDOT's current testing pages provide additional licensing and testing details. The captured official sources do not publish the knowledge test's question count, passing score or time limit, so this practice bank does not claim to reproduce those parts of the exam. Check with WYDOT for current requirements before your appointment.",
+    "contentDate": "2026-09-07",
+    "setCount": 6,
+    "questionCount": 195
+  },
+  {
     "slug": "westvirginia",
     "name": "West Virginia",
     "code": "WV",
@@ -637,4 +648,4 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 10981;
+export const TOTAL_DRIVING_QUESTIONS = 11176;

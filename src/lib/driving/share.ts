@@ -73,7 +73,7 @@ export function resultShareOptions(opts: {
   setTitle: string;
   correct: number;
   total: number;
-  passed: boolean;
+  passed: boolean | null;
   hardestQuestion?: DrivingQuestion;
   setUrl: string;
   siteUrl: string;

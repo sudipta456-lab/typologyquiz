@@ -4,9 +4,11 @@ import type {
   DrivingTestSet,
   Jurisdiction,
 } from "./types";
+import { hasPublishedPassMark } from "./types";
 
 /**
- * Score a practice set against the jurisdiction's real pass mark.
+ * Score a practice set and compare with the jurisdiction's real pass mark
+ * when the authority publishes one.
  *
  * The pass threshold is scaled to the set length rather than hard-coded, because
  * a 40-question practice set still needs to report against, say, Alberta's
@@ -39,19 +41,20 @@ export function scoreDrivingSet(
   const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
 
   const fmt = jurisdiction.officialTest;
-  const requiredPercent =
-    fmt.questionCount > 0 ? fmt.passCount / fmt.questionCount : 0.8;
-  const needed = Math.ceil(requiredPercent * total);
+  const hasPassMark = hasPublishedPassMark(fmt);
+  const needed = hasPassMark
+    ? Math.ceil((fmt.passCount! / fmt.questionCount!) * total)
+    : null;
 
   let sections: DrivingResult["sections"];
-  let sectionsPassed = true;
+  let sectionsPassed: boolean | null = hasPassMark ? true : null;
 
-  if (fmt.sectionedBy?.length) {
+  if (hasPassMark && fmt.sectionedBy?.length) {
     sections = fmt.sectionedBy.map((sec) => {
       const qs = set.questions.filter((q) => sec.topics.includes(q.topic));
       const secCorrect = qs.filter((q) => answers[q.id] === q.correctIndex).length;
       const secNeeded = Math.ceil(
-        (sec.passCount / Math.max(1, fmt.questionCount / fmt.sectionedBy!.length)) *
+        (sec.passCount / Math.max(1, fmt.questionCount! / fmt.sectionedBy!.length)) *
           qs.length
       );
       const passed = qs.length === 0 || secCorrect >= secNeeded;
@@ -66,7 +69,9 @@ export function scoreDrivingSet(
     correct,
     total,
     percent,
-    passed: correct >= needed && sectionsPassed,
+    passed: needed === null || sectionsPassed === null
+      ? null
+      : correct >= needed && sectionsPassed,
     byTopic,
     sections,
     wrongIds,
@@ -74,12 +79,19 @@ export function scoreDrivingSet(
   };
 }
 
-/** Correct answers needed on a set of this length, per the real pass mark. */
-export function neededToPass(jurisdiction: Jurisdiction, total: number): number {
+/** Correct answers needed on a set of this length, or null if unpublished. */
+export function neededToPass(jurisdiction: Jurisdiction, total: number): number | null {
   const fmt = jurisdiction.officialTest;
-  const requiredPercent =
-    fmt.questionCount > 0 ? fmt.passCount / fmt.questionCount : 0.8;
-  return Math.ceil(requiredPercent * total);
+  if (!hasPublishedPassMark(fmt)) return null;
+  return Math.ceil((fmt.passCount! / fmt.questionCount!) * total);
+}
+
+/** Suppress stale verdicts when the authority has no published pass mark. */
+export function officialPassVerdict(
+  verdict: boolean | null,
+  jurisdiction: Jurisdiction
+): boolean | null {
+  return hasPublishedPassMark(jurisdiction.officialTest) ? verdict : null;
 }
 
 /** Weakest topics first - what to restudy. */
