@@ -2,6 +2,50 @@
   "account": "@typologyquiz",
   "timezone": "America/Edmonton",
   "daily_target": 10,
+  "reviews": [
+    {
+      "reviewed_at": "2026-09-21T21:01:00-06:00",
+      "window": "TikTok Studio Last 7 days (September 14–20, 2026)",
+      "account_metrics": {
+        "video_views": 2400,
+        "profile_views": 21,
+        "likes": 31,
+        "comments": 4,
+        "shares": 1,
+        "profile_followers_visible": 1,
+        "profile_likes_visible": 27
+      },
+      "traffic_sources": {
+        "for_you_percent": 95.9,
+        "personal_profile_percent": 2,
+        "following_percent": 1.1,
+        "search_percent": 1,
+        "sound_percent": 0
+      },
+      "search_queries": [
+        "Letra k periodica (11.1%)",
+        "Playquiz url (11.1%)",
+        "capital of typology (5.6%)",
+        "k on the periodic table (5.6%)",
+        "us states capital quiz (5.6%)"
+      ],
+      "top_post_observation": {
+        "tiktok_id": "7685253702369807624",
+        "age_at_review": "7 days",
+        "views": 618,
+        "likes": 18,
+        "comments": 3,
+        "shares": 1,
+        "saves": 2,
+        "average_watch_time_seconds": 2.02,
+        "full_video_rate_percent": 1.7,
+        "new_followers": 0,
+        "retention_note": "Studio reports the largest viewer drop at 0:01."
+      },
+      "comment_review": "Four visible comments were short answers or non-substantive (\"b\", \"Not available\", \"George\", \"Na\"). No reply was sent because none created a clear, useful conversation to continue.",
+      "interpretation": "The sample is too small for a cadence change. The early drop supports testing a stronger first-second visual hook and delaying the answer reveal; it does not establish a topic winner."
+    }
+  ],
   "posts": [
     {
       "id": "01-bc-capital",
