@@ -1,7 +1,7 @@
 {
   "account": "@typologyquiz",
   "timezone": "America/Edmonton",
-  "daily_target": 10,
+  "daily_target": 1,
   "reviews": [
     {
       "reviewed_at": "2026-09-21T21:01:00-06:00",

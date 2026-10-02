@@ -1,6 +1,6 @@
 # TypologyQuiz TikTok operations
 
-Owner authorization: September 13, 2026, manage https://www.tiktok.com/@typologyquiz, create ten content pieces daily, conduct daily research and schedule work. Routine original content publishing, profile improvements and relevant replies on our own posts are authorized. No paid advertising or subscriptions requested.
+Owner authorization: updated October 1, 2026, manage https://www.tiktok.com/@typologyquiz, create **one** original content piece per local day, conduct daily research and schedule work. Routine original content publishing, profile improvements and relevant replies on our own posts are authorized. No paid advertising or subscriptions requested.
 
 ## Current account
 
@@ -8,9 +8,9 @@ Signed-in Chrome profile verified as @typologyquiz. Initial public baseline: zer
 
 ## Scheduled workflow
 
-Active Codex thread automation: typologyquiz-daily-tiktok-research-and-production. Runs daily at 06:00 and 21:00 America/Edmonton. At 06:00 conduct research, produce and QA enough new assets to reach ten unique pieces for the local day including anything already queued, then schedule them in native TikTok Studio. At 21:00 inspect outcomes/analytics, review relevant own-post comments, and prepare the next brief. One automation handles both phases because this thread supports one active heartbeat.
+Active Codex thread automation: typologyquiz-daily-tiktok-research-and-production. Runs daily at 06:00 and 21:00 America/Edmonton. At 06:00 reconcile first, then research, produce and QA only enough new assets to reach **one** unique piece for the local day, including anything already queued, and schedule it in native TikTok Studio. At 21:00 inspect outcomes/analytics, review relevant own-post comments, and prepare the next brief. One automation handles both phases because this thread supports one active heartbeat.
 
-Initial test slots: 09:00, 10:15, 11:30, 12:45, 14:00, 15:15, 16:30, 17:45, 19:00, 20:15, America/Edmonton. These are experiment slots, not proven best times. Verify the scheduler timezone before confirming. Do not backfill ten posts at once if a run starts late. Count native scheduled and published posts by intended local date and unique content ID before adding anything. Run a seven-day comparison before proposing cadence changes.
+Use one appropriate local slot after checking the account's audience-activity data; until that is available, use 12:45 America/Edmonton as a consistent provisional slot. Verify the scheduler timezone before confirming. Do not backfill missed days. Count native scheduled and published posts by intended local date and unique content ID before adding anything. Run a seven-day comparison before proposing cadence changes.
 
 Local production and browser automation need the computer on, the app running and account access available. A native TikTok scheduled post may publish independently after TikTok confirms its schedule; a Codex schedule alone does not prove TikTok publication. See official scheduled-task documentation: https://learn.chatgpt.com/docs/automations?surface=app.
 
@@ -37,7 +37,7 @@ If a run is interrupted, do not duplicate uploads. Continue with full reconcilia
 
 ## Daily research and production
 
-Read the strategy, latest brief and ledger. Research relevant searches, content gaps and formats from available TikTok tools; record country/filter/date and source URLs, never invented popularity numbers. Use evergreen source-backed ideas when timely claims cannot be verified. Do not copy another creator’s script, footage or voice. Create ten different editorial ideas, not ten recolors. Follow the renderer’s manifest and source provenance. Keep the site’s logo and brand colors.
+Read the strategy, latest brief and ledger. Research relevant searches, content gaps and formats from available TikTok tools; record country/filter/date and source URLs, never invented popularity numbers. Use evergreen source-backed ideas when timely claims cannot be verified. Do not copy another creator’s script, footage or voice. Create one considered editorial idea per day, following the renderer’s manifest and source provenance. Keep the site’s logo and brand colors.
 
 Verify quiz answer and linked live page, mobile legibility, safe placement away from TikTok controls, spelling, pacing, answer/reveal consistency, full clip playback, and any sound rights. Do not promote CRT/VVIQ until rights review is resolved. Do not call informal quizzes diagnostic or independently validated. No fake “99% fail” statistics or invented IQ claims. News publication retains its existing exact-content review requirement; default social content to verified evergreen topics.
 

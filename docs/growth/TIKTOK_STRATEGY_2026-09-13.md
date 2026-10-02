@@ -1,6 +1,6 @@
 # TypologyQuiz TikTok launch experiment
 
-Research checked September 13, 2026. Account: **@typologyquiz**. This document plans ten original posts per day for seven days; it does not record any upload, account change, scheduled job, or publication. The operator task verified a signed-in account with zero followers, updated the bio to “Personality, geography & science quizzes. Play free at TypologyQuiz.com”, and found native Studio video/photo creation. No website field was available. Scheduler behavior and analytics availability still require live verification. Ten daily posts is the owner's requested experiment, not a TikTok recommendation or a promise of growth.
+Research checked September 13, 2026; cadence updated October 1, 2026. Account: **@typologyquiz**. This document now guides one original post per local day; it does not record any upload, account change, scheduled job, or publication. The operator task verified a signed-in account with zero followers, updated the bio to “Personality, geography & science quizzes. Play free at TypologyQuiz.com”, and found native Studio video/photo creation. No website field was available. Scheduler behavior and analytics availability still require live verification. One daily post is the owner's current operating cadence, not a TikTok recommendation or a promise of growth.
 
 ## Positioning and factual boundaries
 
