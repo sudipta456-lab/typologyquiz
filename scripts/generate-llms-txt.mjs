@@ -189,6 +189,12 @@ L.push("");
 
 L.push("## Trivia");
 L.push("");
+L.push("### Interest quizzes");
+L.push("");
+L.push(`- [Physics curiosity quiz](${base}/trivia/physics/): a seven-question preference profile for classical mechanics, relativity, and quantum physics. It describes interests, not physics knowledge or ability.`);
+L.push(`- [Alien archetype quiz](${base}/trivia/alien-type/): six playful questions inspired by fictional Grey, Nordic, Reptilian, Mantid, and Tall White sci-fi and UFO-folklore archetypes. It makes no claims about real extraterrestrials or human groups.`);
+L.push(`- [AI work-style quiz](${base}/trivia/ai-style/): six scenarios about preferences for exploring, building workflows, collaborating, or evaluating AI. It is not a measure of intelligence, skill, employability, or future success.`);
+L.push("");
 L.push(
   `${TRIVIA_QUIZZES.length} timed quizzes: ${authoredQuizzes.length} authored ladders plus ${letterQuizzes.length} generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.`
 );

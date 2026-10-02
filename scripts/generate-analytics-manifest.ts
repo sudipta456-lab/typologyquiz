@@ -8,6 +8,7 @@ import { editionPath } from "../src/lib/editorial/identity";
 
 // Build-time imports only. The browser gets public paths/IDs, never quiz banks.
 const paths = new Set<string>(["/404/"]);
+paths.add("/trivia/physics/");
 function walk(dir: string) {
   for (const item of readdirSync(dir, { withFileTypes: true })) {
     const file = join(dir, item.name);

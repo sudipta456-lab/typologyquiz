@@ -900,7 +900,12 @@ export function RegionMap({
               ? {
                   onClick: (e: React.MouseEvent<SVGElement>) =>
                     handleRegionClick(resolveHit(id, e.clientX, e.clientY)),
-                  onKeyDown: (e: React.KeyboardEvent<SVGElement>) => handleRegionKey(e, id),
+                  onKeyDown: (e: React.KeyboardEvent<SVGElement>) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      handleRegionClick(id);
+                    }
+                  },
                 }
               : {
                   ...tipHandlers(id),

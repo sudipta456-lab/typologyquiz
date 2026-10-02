@@ -179,6 +179,12 @@ There is also an adaptive drill per jurisdiction at /driving/<jurisdiction>/weak
 
 ## Trivia
 
+### Interest quizzes
+
+- [Physics curiosity quiz](https://typologyquiz.com/trivia/physics/): a seven-question preference profile for classical mechanics, relativity, and quantum physics. It describes interests, not physics knowledge or ability.
+- [Alien archetype quiz](https://typologyquiz.com/trivia/alien-type/): six playful questions inspired by fictional Grey, Nordic, Reptilian, Mantid, and Tall White sci-fi and UFO-folklore archetypes. It makes no claims about real extraterrestrials or human groups.
+- [AI work-style quiz](https://typologyquiz.com/trivia/ai-style/): six scenarios about preferences for exploring, building workflows, collaborating, or evaluating AI. It is not a measure of intelligence, skill, employability, or future success.
+
 63 timed quizzes: 20 authored ladders plus 43 generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.
 
 ### United States
