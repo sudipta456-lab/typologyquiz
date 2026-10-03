@@ -34,3 +34,16 @@ The strongest current public hook is October skywatching, but the useful contrib
 ## Updated shared lesson
 
 The October 5 observance is relevant only where an educator community has already opened a space for practical resources. Keep any contribution small, specific, and useful without a click. Do not turn the observance itself into promotional copy.
+
+## 4. World Space Week: use the event as context, never as endorsement
+
+- **Audience:** science-club organisers, museum or library educators, and classroom-resource editors who are already programming World Space Week activities.
+- **Source:** the United Nations states that [World Space Week runs 4–10 October 2026](https://www.un.org/en/node/101660), with the theme “Rocket Revolution.” The UN page describes the observance and its theme; it does not endorse TypologyQuiz or any third-party material.
+- **Why it may matter:** a one-minute planet-order or scale warm-up can complement a broader space activity without competing with hands-on rocket or engineering work.
+- **Verified matching route:** [Planets Quiz](https://typologyquiz.com/trivia/planets/) returned HTTP 200 on October 3.
+- **Helpful angle:** offer an immediately usable prompt: “Before your activity, ask learners to name the planets in order from the Sun; then use the gaps to decide what to explore.” Describe the quiz only as optional casual practice, never as evidence of learning or a World Space Week partner resource.
+- **Safe next step:** identify one programme page that clearly accepts outside educational resources or a named editor soliciting free activity ideas. Do not pitch the UN, attach the observance logo, or state/imply event affiliation.
+
+## Shared lesson for later roles
+
+World Space Week gives the October space cards a clearer calendar window, but it raises the standard for context. A useful contribution must support a real activity already underway and stand without a promotional link.
