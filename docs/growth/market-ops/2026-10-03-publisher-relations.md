@@ -17,3 +17,30 @@ The Planets Quiz and Countries of the World quiz were previously verified live, 
 ## Next step
 
 Wait for a source that explicitly welcomes free resource submissions, then send at most one source-specific message from the approved sender. Do not turn a public event calendar or observance into an unsolicited promotion.
+
+## New eligible route: Geographical Association online teaching resources
+
+The [Geographical Association’s contributor page](https://geography.org.uk/get-connected/write-for-ga/) explicitly says it is building its Online Teaching Resources section and asks people with a resource to share to email Elaine Anderson. Its page describes submitted material as lesson plans, classroom resources, teaching tips, and case studies. This is a direct, source-specific submission invitation, unlike the event calendars reviewed earlier.
+
+**Matching live route:** https://typologyquiz.com/trivia/countries-of-the-world/ returned HTTP 200 on October 3.
+
+**Prepared individual message — not sent**
+
+- **To:** eanderson@geography.org.uk
+- **From:** hello@typologyquiz.com
+- **Subject:** Optional map-recall activity for GA teaching resources
+
+> Hello Elaine,
+>
+> I’m Sudipta Sarkar, writing for TypologyQuiz. Your contributor page says the Geographical Association is building its Online Teaching Resources section and welcomes resources to share.
+>
+> We have a free Countries of the World recall activity: https://typologyquiz.com/trivia/countries-of-the-world/
+>
+> It asks learners to name countries from memory and can be used as an optional five-minute starting point before a mapping lesson. It is not a formal assessment or a substitute for a lesson plan; it is simply a self-directed practice activity.
+>
+> If it is relevant to the resources you are collecting, we would be grateful for your editorial consideration. If not, no reply is needed.
+>
+> Sudipta Sarkar
+> TypologyQuiz
+
+The draft cites the invitation and a single matching public route, makes no performance or learning claim, and discloses the affiliation. No message has been sent, and no opportunity is recorded.
