@@ -36,6 +36,18 @@ function json(body, status = 200, maxAge = 0) {
   });
 }
 
+function notFound() {
+  return new Response("Not found", { status: 404, headers: { "cache-control": "no-store" } });
+}
+
+async function handleOpsDashboard(request, env) {
+  if (request.method !== "GET") return json({ error: "method" }, 405);
+  if (!env.OPS_DASHBOARD) return json({ error: "operations dashboard unavailable" }, 503);
+
+  const status = await env.OPS_DASHBOARD.get("current", "json");
+  return json(status ?? { generatedAt: null, roles: [], totals: {} }, 200);
+}
+
 function emptyHist() {
   return { n: 0, b: new Array(BUCKETS).fill(0) };
 }
@@ -238,6 +250,21 @@ const GSC_VERIFICATION = "google30e3016b50e46ac0";
 const worker = {
   async fetch(request, env) {
     const url = new URL(request.url);
+    const isOpsHost = url.hostname === "ops.typologyquiz.com";
+    const isOpsPath =
+      url.pathname === "/operations" ||
+      url.pathname === "/operations/" ||
+      url.pathname === "/api/ops/status" ||
+      url.pathname === "/api/ops/status/";
+
+    // Operations notes can contain public source URLs and performance data.
+    // Never let a public typologyquiz.com request reach those assets or data;
+    // the ops hostname is separately protected by Cloudflare Access.
+    if (isOpsPath && !isOpsHost) return notFound();
+
+    if (isOpsHost && (url.pathname === "/api/ops/status" || url.pathname === "/api/ops/status/")) {
+      return handleOpsDashboard(request, env);
+    }
 
     if (url.pathname.startsWith("/api/predictions/")) {
       const predictionResponse = await handlePredictions(request, env, url.pathname);

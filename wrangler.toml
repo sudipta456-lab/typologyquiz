@@ -58,6 +58,13 @@ id = "74c83b9ecf6748ba8a87c7b322016125"
 binding = "SHORT_LINKS"
 id = "06aff94ce51f4aa39c8d2f868f631dbd"
 
+# Private growth-operations status. The worker exposes it only on the
+# Cloudflare Access-protected ops host; it is never served from the public
+# TypologyQuiz host.
+[[kv_namespaces]]
+binding = "OPS_DASHBOARD"
+id = "9be56906175e4eea949808cfbce726c1"
+
 # Handbook snippet images. They live here rather than in [assets] because the
 # free Workers plan allows 20,000 static asset files per version and the build
 # reached 20,324; each new jurisdiction adds roughly 180 more. The worker falls
