@@ -18,6 +18,12 @@ custom_domain = true
 pattern = "www.typologyquiz.com"
 custom_domain = true
 
+# The same worker serves the private dashboard from a dedicated hostname.
+# Cloudflare Access restricts this hostname before the worker receives a request.
+[[routes]]
+pattern = "ops.typologyquiz.com"
+custom_domain = true
+
 [assets]
 directory = "./out"
 binding = "ASSETS"
