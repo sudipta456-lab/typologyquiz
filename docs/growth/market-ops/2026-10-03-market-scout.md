@@ -21,3 +21,16 @@
 ## Shared lesson for publisher and community roles
 
 The strongest current public hook is October skywatching, but the useful contribution is the prompt or activity design, not a promotional link. Keep any language factual, optional, and free of learning-effect claims. The live physics and alien-interest routes are not suitable substitutes for factual curriculum practice because they are preference quizzes, not knowledge checks.
+
+## 3. World Teachers’ Day: a modest thank-you resource, not a campaign hook
+
+- **Audience:** education newsletters, school-library programme pages, and teacher communities that are already inviting free classroom warm-up ideas around World Teachers’ Day.
+- **Source:** UNESCO confirms that [World Teachers’ Day is 5 October](https://www.unesco.org/en/days/teachers?hub=66657) and lists the 2026 global celebration. The same source frames the day around teachers and teaching conditions; it does not endorse third-party learning products.
+- **Why it may matter:** a short geography recall activity can be a low-preparation option for a teacher who is already collecting class-start ideas, provided it is offered without claiming a learning benefit.
+- **Verified matching route:** [Countries of the World](https://typologyquiz.com/trivia/countries-of-the-world/) returned HTTP 200 on October 3.
+- **Helpful angle:** a one-line, no-link contribution can invite teachers to use a simple map prompt: “Name one country you would like your class to know more about, then locate it together.” The optional quiz is a self-directed follow-up, not a teacher evaluation or a formal lesson.
+- **Safe next step:** Publisher relations may screen one educator newsletter or school-library resource page that publicly invites submissions. Do not contact UNESCO, imply affiliation, use the observance to pressure teachers, or frame this as a World Teachers’ Day partnership.
+
+## Updated shared lesson
+
+The October 5 observance is relevant only where an educator community has already opened a space for practical resources. Keep any contribution small, specific, and useful without a click. Do not turn the observance itself into promotional copy.
