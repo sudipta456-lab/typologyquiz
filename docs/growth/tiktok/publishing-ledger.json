@@ -346,6 +346,18 @@
       "verified_at": "2026-09-16T09:41:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 9:30 PM and Everyone visibility.",
       "metrics": null
+    },
+    {
+      "id": "1003-alien-crew",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-03/1003-alien-crew.mp4",
+      "caption": "Your starship alarm rings. Are you the analyst, diplomat, or strategist? Meet a fictional alien archetype from six playful choices. Just for fun: https://typologyquiz.com/trivia/alien-type/ #SciFiQuiz #TypologyQuiz",
+      "sha256": "67ec3028bdb3b3f8b01aa96e741ff162ce24d25e49684c4b9584fb03c62682ae",
+      "intended_local_date": "2026-10-03",
+      "status": "prepared_local",
+      "visibility": null,
+      "disclosure": "Your brand / Promotional content required before scheduling",
+      "verified_at": "2026-10-03T21:01:00-06:00",
+      "verification": "Native TikTok Studio showed authenticated profile @nomissedjobs and no posts, not @typologyquiz. No upload, scheduling, or post action was taken."
     }
   ]
 }
