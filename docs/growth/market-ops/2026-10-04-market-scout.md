@@ -11,3 +11,11 @@
 
 - https://www.un.org/en/node/101660
 - https://nightsky.jpl.nasa.gov/events/slas/123359/
+
+## 06:00 source check — no second submission route
+
+- The Space Foundation Teacher Liaison Resource Bank has a public lesson-plan submission form, but describes its collection as work created by Teacher Liaisons for Teacher Liaisons. We have no verified Teacher Liaison status, so it is not an eligible submission route.
+- NCGE remains the strongest verified education route. Its preparation requirement is also useful: a truthful teacher companion needs stated objectives, use guidance, and rights information before submission.
+- No new qualified lead, publisher invitation, or safe community action was found in this cycle.
+
+Source checked: https://discoverspace.org/tl-resource-bank/
