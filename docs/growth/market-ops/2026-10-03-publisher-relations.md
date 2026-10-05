@@ -44,3 +44,9 @@ The [Geographical Association’s contributor page](https://geography.org.uk/get
 > TypologyQuiz
 
 The draft cites the invitation and a single matching public route, makes no performance or learning claim, and discloses the affiliation. No message has been sent, and no opportunity is recorded.
+
+## October 4 delivery check
+
+No outreach message was sent. The Geographical Association submission remains the sole ready, source-invited individual message. The Mac was locked when a sender session would have been needed, and final action-time confirmation for the send has not been received. The message was not typed, uploaded, or delivered; no receipt, reply, or opportunity is claimed.
+
+The NCGE Resource Library is a separate high-relevance route, but it needs a truthful teacher companion before it can be assessed for submission. It is not a reason to submit the bare quiz or to imply classroom testing.
