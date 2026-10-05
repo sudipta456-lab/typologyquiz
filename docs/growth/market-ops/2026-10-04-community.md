@@ -27,3 +27,15 @@ No public contribution was posted.
 - A current [LearnerDriverUK test-day guidance thread](https://www.reddit.com/r/LearnerDriverUK/comments/1weali2/guidance/) concerns UK practical-test preparation. It does not match the site's location-specific driving resources, so no link or reply is appropriate.
 
 The search found questions where a clear answer matters, but neither has a matching route that would earn a disclosed recommendation. Keep the contribution cap unused rather than force an off-topic interaction.
+
+## 19:02 review — factual-correction draft held
+
+A current [r/trivia daily quiz](https://www.reddit.com/r/trivia/comments/1wxffoq/daily_quiz_04_oct_2026/) says that babies are born without kneecaps. This is a useful correction opportunity because the question presents a common misconception as the answer.
+
+**Prepared reply — not posted**
+
+> Small correction from TypologyQuiz: newborns do have patellae (kneecaps). Much of each patella is cartilage at birth and ossifies later, which is why it can be less visible on an early X-ray. So none of the listed options is quite right.
+
+- **Source support:** [PubMed, patellar cartilage in neonates](https://pubmed.ncbi.nlm.nih.gov/18040678/) and [MedlinePlus, patella anatomy](https://medlineplus.gov/ency/imagepages/19399.htm).
+- **Affiliation:** disclosed in the copy; no TypologyQuiz link is included because the correction stands alone.
+- **Status:** held. The Mac was locked at the action point, and no external comment can be posted without final action-time confirmation. No interaction, lead, or platform outcome is claimed.
