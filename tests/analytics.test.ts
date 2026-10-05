@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { test } from "node:test";
 import { analyticsPaths, analyticsEditions } from "../src/lib/analytics-manifest.generated.ts";
-import { ANALYTICS_REFERRAL_KEY, ANALYTICS_REFERRAL_TTL_MS, resolveReferral, GA_TAG_ID, GA_MEASUREMENT_ID, analyticsEnabled, analyticsPath, safeAcquisition, safeEventParameters, createAnalyticsController, visitAnalyticsPage, trackAnalyticsEvent } from "../src/lib/analytics.ts";
+import { ANALYTICS_PAGE_GROUPS, ANALYTICS_REFERRAL_KEY, ANALYTICS_REFERRAL_TTL_MS, resolveReferral, GA_TAG_ID, GA_MEASUREMENT_ID, analyticsEnabled, analyticsPageGroup, analyticsPath, safeAcquisition, safeEventParameters, createAnalyticsController, visitAnalyticsPage, trackAnalyticsEvent } from "../src/lib/analytics.ts";
 
 test("activation requires explicit true, both verified IDs, and a production host", () => {
   for (const flag of [undefined, "", "false", "TRUE", "1"]) assert.equal(analyticsEnabled(flag, GA_MEASUREMENT_ID, "typologyquiz.com", GA_TAG_ID), false);
@@ -21,6 +21,14 @@ test("every manifest path has bounded context, sensitive/malformed unknown paths
   }
   for (const path of ["/test/mini-ipip/results/?r=SECRET", "/reflections/#SECRET", "/test/SECRET/results/", "/test/%6dini-ipip/", "https://evil.test/", "//evil.test/", "/tests/../SECRET/", undefined, {}, "constructor", "/SECRET/"]) assert.equal(analyticsPath(path), "/404/");
   for (const path of ["/reflections/", "/compare/", "/room/session/", "/test/mini-ipip/results/", "/account/"]) assert.equal(analyticsPath(path), path);
+});
+
+test("every recognized route has a bounded page group without using route content", () => {
+  for (const path of analyticsPaths) assert.ok(ANALYTICS_PAGE_GROUPS.has(analyticsPageGroup(path)), path);
+  assert.equal(analyticsPageGroup("/test/mini-ipip/results/?score=SECRET"), "not_found");
+  assert.equal(analyticsPageGroup("/test/mini-ipip/"), "personality");
+  assert.equal(analyticsPageGroup("/trivia/planets/"), "trivia");
+  assert.equal(analyticsPageGroup("/live/host/"), "live_event");
 });
 
 test("referral attribution emits fixed origins and bounded campaign overrides only", () => {
@@ -69,6 +77,7 @@ test("one pageview per canonical transition, config before events, and safe life
     assert.equal(configs[i].update, i === 0 ? undefined : true);
     assert.equal(configs[i].page_location, `https://typologyquiz.com${path}`);
     assert.equal(configs[i].page_title, `TypologyQuiz · ${path}`);
+    assert.ok(typeof configs[i].content_group === "string");
     assert.equal(configs[i].send_page_view, false);
   }
   assert.equal(config.send_page_view, false);

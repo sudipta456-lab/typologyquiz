@@ -95,7 +95,7 @@ const jsonLd = {
       logo: absoluteUrl(SITE.mark),
       email: SITE.email,
       description: SITE.description,
-      sameAs: [],
+      sameAs: ["https://www.tiktok.com/@typologyquiz"],
     },
     {
       "@type": "WebSite",

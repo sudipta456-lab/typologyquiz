@@ -5,6 +5,21 @@ export const GA_TAG_ID = "G-TZ9B8MB7SP";
 export const GA_MEASUREMENT_ID = "G-RVHFFPF0W1";
 const SITE_ORIGIN = "https://typologyquiz.com";
 const knownPaths = new Set(analyticsPaths);
+export const ANALYTICS_PAGE_GROUPS = new Set([
+  "site",
+  "not_found",
+  "personality",
+  "personality_play",
+  "personality_results",
+  "trivia",
+  "driving",
+  "driving_play",
+  "driving_results",
+  "weekly_news",
+  "daily_mini",
+  "social",
+  "live_event",
+]);
 export type AnalyticsCommand = (...args: unknown[]) => void;
 export type EditorialAnalyticsEvent = "quiz_start" | "quiz_complete" | "quiz_share" | "quiz_challenge_open";
 export type AnalyticsEvent = EditorialAnalyticsEvent | "quiz_series_follow";
@@ -19,6 +34,25 @@ export function analyticsPath(pathname: unknown): string {
   if (typeof pathname !== "string") return "/404/";
   const path = pathname.endsWith("/") ? pathname : `${pathname}/`;
   return knownPaths.has(path) ? analyticsAliases[path] ?? path : "/404/";
+}
+
+/**
+ * A bounded, non-identifying page classification for GA4 reporting. This is
+ * derived only from a canonical pathname already accepted by analyticsPath;
+ * it never inspects page text, query strings, room codes, results, or storage.
+ */
+export function analyticsPageGroup(pathname: unknown): string {
+  const path = analyticsPath(pathname);
+  if (path === "/404/") return "not_found";
+  if (path.startsWith("/test/")) return path.endsWith("/take/") ? "personality_play" : path.endsWith("/results/") ? "personality_results" : "personality";
+  if (path.startsWith("/tests/")) return "personality";
+  if (path.startsWith("/trivia/")) return "trivia";
+  if (path.startsWith("/driving/")) return path.endsWith("/take/") ? "driving_play" : path.endsWith("/results/") ? "driving_results" : "driving";
+  if (path.startsWith("/weekly/")) return "weekly_news";
+  if (path.startsWith("/daily/")) return "daily_mini";
+  if (path.startsWith("/live/")) return "live_event";
+  if (["/friend-quiz/", "/friend-quiz/play/", "/fool/", "/fool/play/", "/friends/", "/most-likely-to/", "/compare/", "/room/", "/room/session/"].includes(path)) return "social";
+  return "site";
 }
 
 // Only constants from this table leave the browser. Referrer paths, query strings,
@@ -126,7 +160,12 @@ export function createAnalyticsController(command: AnalyticsCommand, referrer: u
   let currentPath: string | undefined;
   let initialized = false;
   function context(path: string) {
-    return { ...acquisition, page_location: `${SITE_ORIGIN}${path}`, page_title: `TypologyQuiz · ${path}` };
+    return {
+      ...acquisition,
+      page_location: `${SITE_ORIGIN}${path}`,
+      page_title: `TypologyQuiz · ${path}`,
+      content_group: analyticsPageGroup(path),
+    };
   }
   return {
     page(pathname: unknown) {
