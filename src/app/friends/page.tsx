@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-export const metadata: Metadata = { title: "Quizzes to play with friends", description: "Make a quiz about yourself, fool your friends with a trivia bluff, compare personality results, or collect your group's results in a room.", alternates: { canonical: "/friends/" } };
+export const metadata: Metadata = { title: "Quizzes to play with friends", description: "Host a live quiz night, make a quiz about yourself, fool your friends with a trivia bluff, compare personality results, or collect your group's results in a room.", alternates: { canonical: "/friends/" } };
 const activities = [
+  { href: "/live/", label: "Host a live quiz night", prompt: "Phones up. Game on.", description: "Put the questions and live standings on a shared screen while players join with a code or QR code.", action: "Host a live quiz", tone: "blue" },
   { href: "/friend-quiz/", label: "Make a quiz about you", prompt: "Who knows you best?", description: "Choose your answers, send the link, and see how well your friends know you.", action: "Make a friend quiz", tone: "pink" },
   { href: "/fool/", label: "Write a convincing wrong answer", prompt: "Can they spot your bluff?", description: "Add your own fake answers to trivia questions. Challenge your friends to pick the truth.", action: "Fool your friends", tone: "coral" },
   { href: "/compare/", label: "Compare two personalities", prompt: "Where do you see eye to eye?", description: "Take the same personality quiz, then bring your result links together for a side-by-side comparison.", action: "Compare results", tone: "blue" },

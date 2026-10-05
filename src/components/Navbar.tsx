@@ -8,7 +8,7 @@ const destinations = [
   { href: "/tests/", label: "Personality", description: "Habits, traits & how you think", tone: "blue", paths: ["/tests", "/test/"] },
   { href: "/trivia/", label: "Trivia", description: "Maps, science & general knowledge", tone: "coral", paths: ["/trivia"] },
   { href: "/driving/", label: "Driving", description: "Find your province or state", tone: "teal", paths: ["/driving"] },
-  { href: "/friends/", label: "With friends", description: "Make a quiz, compare & play together", tone: "pink", paths: ["/friends", "/friend-quiz", "/compare", "/room", "/fool"] },
+  { href: "/friends/", label: "With friends", description: "Host live, make a quiz, compare & play together", tone: "pink", paths: ["/friends", "/live", "/friend-quiz", "/compare", "/room", "/fool"] },
 ];
 
 export function Navbar() {
