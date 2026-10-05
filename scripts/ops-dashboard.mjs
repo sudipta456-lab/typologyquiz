@@ -4,6 +4,7 @@ const roles = [
   { id: "market-scout", name: "Market intelligence scout", cadence: "00:00 · 06:00 · 12:00 · 18:00", status: "Scheduled" },
   { id: "publisher-relations", name: "Publisher relations", cadence: "09:00 · 15:00", status: "Scheduled" },
   { id: "community-contributor", name: "Community contributor", cadence: "11:00 · 17:00 · 23:00", status: "Scheduled" },
+  { id: "tiktok-production", name: "TikTok research and production", cadence: "06:00 · 21:00", status: "Scheduled" },
   { id: "growth-operator", name: "Daily growth operator", cadence: "20:00", status: "Scheduled" },
 ];
 
@@ -25,7 +26,15 @@ function runWrangler(args) {
 function readCurrent() {
   try {
     const output = runWrangler(["kv", "key", "get", "current", "--binding", "OPS_DASHBOARD", "--remote", "--text"]);
-    return output ? { ...defaultDashboard(), ...JSON.parse(output) } : defaultDashboard();
+    if (!output) return defaultDashboard();
+    const stored = JSON.parse(output);
+    const defaults = defaultDashboard();
+    const storedRoles = new Map(Array.isArray(stored.roles) ? stored.roles.map((role) => [role.id, role]) : []);
+    return {
+      ...defaults,
+      ...stored,
+      roles: defaults.roles.map((role) => ({ ...role, ...storedRoles.get(role.id) })),
+    };
   } catch {
     return defaultDashboard();
   }
