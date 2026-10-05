@@ -28,3 +28,23 @@ The immediate friction is operational rather than an on-site defect: the otherwi
 ## Analytics and discovery limits
 
 GA4's privacy-safe collection configuration and September 13 network QA are documented, but this run did not inspect a current GA4 report. No conversion, referral, or ranking conclusion is drawn from technical crawl availability or from past operator traffic.
+
+## Evening update — observed only
+
+| Signal | Observed value | Evidence and limit |
+| --- | --- | --- |
+| TikTok Studio, last 7 days | 123 video views; 7 profile views; 0 likes; 0 comments; 0 shares | Visible Studio account summary on October 4. This is an account-level interval, not per-post or website conversion data. |
+| TikTok account totals | 5 followers; 27 likes; 22 posts | Visible Studio account summary. |
+| New TikTok uploads/schedules today | 0 | A 14-asset, source-checked Oct. 4–17 batch is local only. The Mac was locked when Studio access was needed; no upload or schedule receipt exists. |
+| Publisher messages sent | 0 | The Geographical Association message remains a prepared, unsent draft. |
+| Community contributions | 0 | One factual-correction draft was prepared; no comment was posted. |
+| Referral traffic / quiz starts | No current GA4 report value inspected | Missing data is not counted as zero. |
+| Live discovery health | 6/6 checked endpoints returned HTTP 200 | `robots.txt`, `sitemap.xml`, `llms.txt`, and the Countries of the World, Physics Interest, and Alien Archetype routes. |
+
+## Next-cycle priority
+
+Create the short, truthful Countries of the World teacher companion identified by the NCGE opportunity card. It is the strongest unblocked way to turn an eligible educator directory into a reviewable resource: it supplies use guidance and learning objectives without calling the quiz classroom-tested or a formal assessment. The source-invited Geographical Association email remains the next external action once final send confirmation is available.
+
+## Limits
+
+The TikTok account figures show limited current reach, but do not establish a content winner or a traffic effect. The account’s local batch is prepared, not uploaded or scheduled. No public interaction, publisher reply, opt-in inquiry, referral conversion, or quiz start was observed in this run.
