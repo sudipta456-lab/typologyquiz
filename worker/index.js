@@ -1,4 +1,8 @@
 import { handlePredictions } from "./predictions.js";
+import { handleLive } from "./live.js";
+
+// Durable Object classes must be exported from the entry module.
+export { LiveRoom } from "./live.js";
 
 /**
  * Edge worker for typologyquiz.com.
@@ -269,6 +273,13 @@ const worker = {
     if (url.pathname.startsWith("/api/predictions/")) {
       const predictionResponse = await handlePredictions(request, env, url.pathname);
       if (predictionResponse) return predictionResponse;
+    }
+
+    // Live Events: room creation, status and the WebSocket upgrade, all
+    // handed to the LiveRoom Durable Object for the room code.
+    if (url.pathname.startsWith("/api/live/")) {
+      const liveResponse = await handleLive(request, env, url.pathname);
+      if (liveResponse) return liveResponse;
     }
 
     if (url.pathname === `/${GSC_VERIFICATION}.html`) {

@@ -82,3 +82,14 @@ id = "9be56906175e4eea949808cfbce726c1"
 [[r2_buckets]]
 binding = "HANDBOOK"
 bucket_name = "typologyquiz-handbook"
+
+# Live Events rooms: one Durable Object per six-character room code, holding
+# that room's state in its own storage and deleting it via alarm on expiry.
+# SQLite-backed so it is available on the free Workers plan.
+[[durable_objects.bindings]]
+name = "LIVE_ROOM"
+class_name = "LiveRoom"
+
+[[migrations]]
+tag = "v1-live-room"
+new_sqlite_classes = ["LiveRoom"]
