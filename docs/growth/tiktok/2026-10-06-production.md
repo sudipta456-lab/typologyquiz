@@ -16,3 +16,9 @@
 ## Publishing state
 
 At the local review time, October 5 remained the active local date; its Madrid candidate was still not scheduled. The next local-day lithium item is now route-correct, but neither item has been scheduled. Public scheduling remains pending final action-time confirmation.
+
+## 06:00 America/Edmonton re-check
+
+- Chrome TikTok Studio was available, but the visible post URLs resolved to `tiktok.com/@nomissedjobs/...`, so this browser tab is **not** a verified `@typologyquiz` publishing session.
+- To avoid publishing from the wrong account, no upload, draft, schedule, post, comment, reply, or queue change was made.
+- The prepared local-only lithium item remains available at the recorded asset path and must be reconciled again after the account is switched to `@typologyquiz`.
