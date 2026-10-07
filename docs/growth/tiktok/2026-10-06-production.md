@@ -29,3 +29,10 @@ At the local review time, October 5 remained the active local date; its Madrid c
 - Studio's last-seven-days card showed 125 video views, 7 profile views, 0 likes, 0 comments, and 0 shares. These account-level figures do not identify a cause or an on-site conversion.
 - The October 7 beryllium preparation record was filed under a UTC date by mistake. Its verified queue and QA details are consolidated here under the local October 6 production record.
 - No social action was taken in this check. The next beryllium asset is ready; native scheduling remains the final pending external action.
+
+## Native schedule confirmation
+
+- **Content ID:** `1007-be`.
+- **TikTok Studio confirmation:** scheduled for **October 7, 2026 at 12:45 PM America/Edmonton**, Everyone visibility; Studio displayed the item with [TikTok video ID 7693772305608051976](https://www.tiktok.com/@typologyquiz/video/7693772305608051976).
+- **Final settings:** exact route-correct caption shown in Studio; **Your brand / Promotional content** enabled; no AI-content label, appropriate for the original type/vector clip.
+- **Status:** `scheduled_confirmed`, not yet `published_confirmed`. Its live status and metrics must be checked after the scheduled time.
