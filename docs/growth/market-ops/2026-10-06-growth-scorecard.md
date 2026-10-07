@@ -26,3 +26,12 @@ Create a concise, truthful facilitator guide for the Night Sky live session. It 
 ## Conversion friction
 
 Two current barriers remain external: the ready Geographical Association outreach is awaiting final send confirmation, and relevant discussion platforms do not have a verified TypologyQuiz identity. The on-site gap is the absence of an educator/facilitator companion for the otherwise working live-session product.
+
+## 20:00 America/Edmonton follow-up
+
+- GA4 Home, last seven days: **10 Organic Search sessions** and **12 Unassigned sessions**. Its first-user-source card showed **6 Google organic users**, **1 Bing organic user**, and **9 unattributed users**. These are aggregate platform reports and may include repeat, testing, or delayed attribution; they do not identify a referral, outreach result, or qualified opportunity.
+- GA4 showed **0 active users in the last 30 minutes** at observation time. That is a momentary count, not a daily traffic total.
+- The event detail view did not return before the read-only session timed out; no event count is inferred from that failure.
+- Production discovery re-check: `robots.txt`, sitemap, `llms.txt`, Live Events, Countries of the World, and Planets each returned HTTP 200.
+
+The observed organic-search increase is encouraging but too small and unattributed to alter tactics. The highest-leverage next action remains the truthful Night Sky facilitator guide; no qualified opportunity, external message, reply, opt-in, or conversion has been observed.
