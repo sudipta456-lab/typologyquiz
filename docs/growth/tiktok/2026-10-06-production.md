@@ -41,3 +41,9 @@ At the local review time, October 5 remained the active local date; its Madrid c
 
 - The beryllium post was **published confirmed** on October 7 following its 12:45 PM America/Edmonton schedule. The public page showed the exact `@typologyquiz` caption and a relative timestamp of seven hours at the 7:56 PM local check.
 - Visible early interactions were 0 likes, 0 comments, 0 favorites, and 0 shares. The public view did not expose a view count, so it remains unavailable rather than recorded as zero.
+
+## 21:00 post check and next brief
+
+- At a comparable roughly eight-hour age, the public beryllium post showed **1 like**, 0 comments, 0 favorites, and 0 shares. The public page did not expose views. This is a small observed change, not evidence of a successful format.
+- **Next prepared item:** `1008-vienna.mp4`, an original silent 16-second vertical Vienna/Austria geography clip for October 8. Its SHA-256 remains `dd286e3cf18e152118d5d251daa08cb9bf3652210829f16259e317254d447109`; media QA records 1080×1920, 30 fps, 480 frames and no audio.
+- The destination `https://typologyquiz.com/trivia/countries-of-europe/` returned HTTP 200. Caption was aligned with the controlled geography-hook calendar. It remains local-only and has not been uploaded, drafted, or scheduled.
