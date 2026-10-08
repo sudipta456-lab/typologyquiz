@@ -16,12 +16,12 @@ import { WeeklyFeatured } from "@/components/trivia/WeeklyFeatured";
 export const metadata: Metadata = {
   title: "Trivia Quizzes: Geography and Science",
   description:
-    "Can you name all 50 US states? All 196 countries? Free type-in and map trivia quizzes with a live timer - states, capitals, provinces, countries, planets and the periodic table. No signup, answers register as you type.",
+    "Free geography, science, general-knowledge, and history trivia quizzes: type-in and map challenges plus rapid rounds with clear answers and a live timer. No signup.",
   alternates: { canonical: "/trivia/" },
   openGraph: {
     title: `Trivia quizzes · ${SITE.legalName}`,
     description:
-      "Type-in and map quizzes with a live timer: US states, capitals, Canadian provinces, countries of the world, planets and elements. Free, no signup.",
+      "Type-in, map, and rapid trivia quizzes with a live timer: geography, science, history, and general knowledge. Free, no signup.",
     url: `${SITE.url}/trivia/`,
     images: [
       {
@@ -53,9 +53,13 @@ export default function TriviaHubPage() {
       path: "/trivia/",
       name: "Trivia quizzes",
       description:
-        "Free type-in and map trivia quizzes with a live timer: US states and capitals, Canadian provinces, countries of the world, Europe, the planets and the periodic table.",
-      listName: "Geography and science trivia quizzes",
-      items: TRIVIA_QUIZZES.map((q) => ({ name: q.title, path: `/trivia/${q.slug}/` })),
+        "Free type-in, map, and rapid trivia quizzes with a live timer: US states and capitals, Canadian provinces, countries of the world, Europe, the planets, elements, history, and general knowledge.",
+      listName: "Trivia quiz collection",
+      items: [
+        ...TRIVIA_QUIZZES.map((q) => ({ name: q.title, path: `/trivia/${q.slug}/` })),
+        { name: "10 in 90: General Knowledge Quiz", path: "/trivia/quickfire-10-in-90/" },
+        { name: "Which Came First? History Timeline Quiz", path: "/trivia/which-came-first/" },
+      ],
     }),
     breadcrumbList([
       { name: "Home", path: "/" },
@@ -84,6 +88,18 @@ export default function TriviaHubPage() {
         <nav className="topic-jumps" aria-label="Trivia topics">{TRIVIA_GROUPS.map((group, index) => <a key={group.label} href={`#trivia-topic-${index}`}>{group.label}</a>)}<a href="#trivia-letters">A–Z quizzes</a><Link href="/weekly/">News quizzes ↗</Link></nav>
 
         <WeeklyFeatured />
+        <section aria-label="Rapid rounds" className="card-grid" style={{ marginBottom: 28, gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 300px), 1fr))" }}>
+          <Link href="/trivia/quickfire-10-in-90/" className="quiz-card" style={{ display: "block" }}>
+            <p className="eyebrow" style={{ marginBottom: 6 }}>Rapid round</p>
+            <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>10 in 90: general knowledge</h2>
+            <p className="quiz-card-desc">Ten straightforward questions, ninety seconds, and a short fact after every answer.</p>
+          </Link>
+          <Link href="/trivia/which-came-first/" className="quiz-card" style={{ display: "block" }}>
+            <p className="eyebrow" style={{ marginBottom: 6 }}>Rapid round</p>
+            <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>Which came first?</h2>
+            <p className="quiz-card-desc">Pick the earlier event in ten pairs, then see the dates before the next one.</p>
+          </Link>
+        </section>
 
         {TRIVIA_GROUPS.map((group, index) => {
           const quizzes = group.slugs

@@ -31,6 +31,7 @@ import {
   TRIVIA_GROUPS,
   TRIVIA_QUIZZES,
 } from "../src/lib/trivia/registry.ts";
+import { RAPID_ROUNDS } from "../src/lib/trivia/rapid-rounds.ts";
 import { FRIEND_PACKS, sampleMix } from "../src/lib/friendquiz/packs.ts";
 import { FOOL_QUESTIONS } from "../src/lib/fool/questions.ts";
 import { FOOL_QUESTION_COUNT } from "../src/lib/fool/codec.ts";
@@ -90,7 +91,7 @@ function numberWord(n) {
 const SECTIONS = [
   `${TESTS.length} personality, self-reflection, entertainment and reasoning quizzes. Each has a purpose and evidence label; reasoning puzzles have correct answers. None provides a diagnosis.`,
   `${totalDrivingQs} driving licence practice questions across ${JURISDICTIONS.length} jurisdictions. These do have right answers and cite the official handbook behind every answer. When a licensing authority publishes an exam pass mark, the practice score is shown against it; otherwise the site labels the result as practice only.`,
-  `${TRIVIA_QUIZZES.length} trivia quizzes. Timed type-in and map-click geography and science, in ladders that get harder.`,
+  `${TRIVIA_QUIZZES.length} type-in and map trivia quizzes plus ${RAPID_ROUNDS.length} rapid rounds. Geography, science, general knowledge and timeline recall with clear answers.`,
   "Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.",
   "Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. Some carry state inside share links; recipients can read that information, and hosting services receive request URLs without fragments. Most Likely To exports an image card instead.",
 ];
@@ -128,7 +129,7 @@ L.push("## Key pages");
 L.push("");
 L.push(`- [Home](${base}/): all five sections in one place`);
 L.push(`- [All quizzes](${base}/tests/): browse all ${TESTS.length} personality quizzes`);
-L.push(`- [Trivia](${base}/trivia/): all ${TRIVIA_QUIZZES.length} timed trivia quizzes`);
+L.push(`- [Trivia](${base}/trivia/): ${TRIVIA_QUIZZES.length} timed type-in and map quizzes plus ${RAPID_ROUNDS.length} rapid rounds`);
 L.push(`- [Driving practice tests](${base}/driving/): pick a province or state`);
 L.push(`- [Daily minis](${base}/daily/): three tiny games, new every UTC day, with a streak`);
 L.push(`- [Friend quiz](${base}/friend-quiz/): build a "how well do you know me" quiz`);
@@ -190,7 +191,7 @@ L.push("");
 L.push("## Trivia");
 L.push("");
 L.push(
-  `${TRIVIA_QUIZZES.length} timed quizzes: ${authoredQuizzes.length} authored ladders plus ${letterQuizzes.length} generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.`
+  `${TRIVIA_QUIZZES.length} timed type-in and map quizzes: ${authoredQuizzes.length} authored ladders plus ${letterQuizzes.length} generated A-to-Z letter pages. Two ways to answer. Type-in quizzes match on keystroke, so an answer registers the moment the spelling matches and there is no Enter key, no submit button and no autocomplete list to read off; capitals, spaces and punctuation are ignored and common misspellings are forgiven. Map quizzes ask you to click the right region instead. Variants include sudden death (one wrong answer ends the run), limited lives, 30 and 60 second sprints, and random subsets. Finishing shows how the run placed against other players, live, from a per-quiz histogram; until a quiz has enough recorded runs it falls back to a baked estimate and says so. Best score, fastest full run and a replayable ghost of your best attempt are kept on the device, and a challenge link lets a friend chase that exact score and time.`
 );
 L.push("");
 for (const group of TRIVIA_GROUPS) {
@@ -222,6 +223,12 @@ if (ungrouped.length > 0) {
   }
   L.push("");
 }
+L.push("### Rapid rounds");
+L.push("");
+for (const round of RAPID_ROUNDS) {
+  L.push(`- [${round.title}](${base}/trivia/${round.slug}/): ${round.description} (${round.questions.length} questions, ${round.seconds}s, answers and scores stay in the browser.)`);
+}
+L.push("");
 L.push("### A to Z pages");
 L.push("");
 L.push(

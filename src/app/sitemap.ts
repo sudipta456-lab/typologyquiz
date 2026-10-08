@@ -27,6 +27,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/tests/`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/driving/`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/trivia/`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/trivia/quickfire-10-in-90/`, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/trivia/which-came-first/`, changeFrequency: "monthly", priority: 0.75 },
     { url: `${base}/weekly/`, lastModified: new Date([...EDITIONS].map(e => e.publishedAt).sort().at(-1)!), changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/daily/`, changeFrequency: "daily", priority: 0.8 },
     { url: `${base}/friend-quiz/`, changeFrequency: "monthly", priority: 0.85 },
