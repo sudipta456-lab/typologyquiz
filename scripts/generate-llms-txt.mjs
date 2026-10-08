@@ -138,6 +138,7 @@ L.push(`- [About](${base}/about/): what the site is and how it handles privacy`)
 L.push(`- [Credits](${base}/credits/): instruments and sources`);
 L.push(`- [Methodology and evidence](${base}/methodology/): purpose, source evidence, version history and limits for every assessment`);
 L.push(`- [Weekly news quizzes](${base}/weekly/): dated published editions and permanent version links; new rounds require editorial review`);
+L.push(`- [World Space Week 2026 group quiz](${base}/world-space-week-2026/): a dated October 4–10 host guide for the Night Sky live session. A general-knowledge conversation starter, not an official World Space Week event or science assessment.`);
 L.push("");
 
 // ---------------------------------------------------------------------------

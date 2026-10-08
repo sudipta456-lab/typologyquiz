@@ -34,6 +34,15 @@ export function LiveLanding() {
           <li>General-knowledge questions with a source for each answer, suitable for adults and families.</li>
         </ul>
       </section>
+
+      <section className={styles.panelWarm} aria-labelledby="space-week-heading">
+        <p className="eyebrow">October 4–10, 2026</p>
+        <h2 id="space-week-heading" className="font-display" style={{ marginTop: 0 }}>A World Space Week activity</h2>
+        <p className={styles.muted}>
+          Use the built-in Night Sky session for a ten-minute shared-screen round. We made a simple host guide with team, accessibility, and discussion ideas.
+        </p>
+        <Link className={styles.button} href="/world-space-week-2026/">Open the host guide</Link>
+      </section>
     </div>
   );
 }
