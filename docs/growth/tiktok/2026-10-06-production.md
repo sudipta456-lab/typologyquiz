@@ -36,3 +36,8 @@ At the local review time, October 5 remained the active local date; its Madrid c
 - **TikTok Studio confirmation:** scheduled for **October 7, 2026 at 12:45 PM America/Edmonton**, Everyone visibility; Studio displayed the item with [TikTok video ID 7693772305608051976](https://www.tiktok.com/@typologyquiz/video/7693772305608051976).
 - **Final settings:** exact route-correct caption shown in Studio; **Your brand / Promotional content** enabled; no AI-content label, appropriate for the original type/vector clip.
 - **Status:** `scheduled_confirmed`, not yet `published_confirmed`. Its live status and metrics must be checked after the scheduled time.
+
+## Publication outcome
+
+- The beryllium post was **published confirmed** on October 7 following its 12:45 PM America/Edmonton schedule. The public page showed the exact `@typologyquiz` caption and a relative timestamp of seven hours at the 7:56 PM local check.
+- Visible early interactions were 0 likes, 0 comments, 0 favorites, and 0 shares. The public view did not expose a view count, so it remains unavailable rather than recorded as zero.

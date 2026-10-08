@@ -367,12 +367,20 @@
       "tiktok_id": "7693772305608051976",
       "url": "https://www.tiktok.com/@typologyquiz/video/7693772305608051976",
       "publish_at": "2026-10-07T12:45:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-06T22:06:39-06:00",
-      "verification": "TikTok Studio returned to Posts after Schedule. The exact caption, video permalink, Oct 7 12:45 PM scheduled time, and Everyone visibility appeared in the Studio row. Brand disclosure was enabled before scheduling; no AI-content label was applied to this original type/vector asset.",
-      "metrics": null
+      "verified_at": "2026-10-07T19:56:34-06:00",
+      "verification": "Public TikTok video page showed the exact @typologyquiz caption and a relative timestamp of 7h ago after its confirmed Oct 7 12:45 PM schedule. The public page exposed 0 likes, 0 comments, 0 favorites, and 0 shares at check time; it did not expose a view count.",
+      "metrics": {
+        "observed_at": "2026-10-07T19:56:34-06:00",
+        "likes": 0,
+        "comments": 0,
+        "favorites": 0,
+        "shares": 0,
+        "views": null,
+        "note": "Public page did not expose a view count; null is not zero."
+      }
     }
   ]
 }
