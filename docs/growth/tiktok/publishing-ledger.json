@@ -1,7 +1,7 @@
 {
   "account": "@typologyquiz",
   "timezone": "America/Edmonton",
-  "daily_target": 1,
+  "daily_target": 3,
   "reviews": [
     {
       "reviewed_at": "2026-09-21T21:01:00-06:00",
@@ -44,6 +44,30 @@
       },
       "comment_review": "Four visible comments were short answers or non-substantive (\"b\", \"Not available\", \"George\", \"Na\"). No reply was sent because none created a clear, useful conversation to continue.",
       "interpretation": "The sample is too small for a cadence change. The early drop supports testing a stronger first-second visual hook and delaying the answer reveal; it does not establish a topic winner."
+    },
+    {
+      "reviewed_at": "2026-10-11T06:02:17-06:00",
+      "window": "TikTok Studio Last 7 days",
+      "account_metrics": {
+        "video_views": 314,
+        "profile_views": 8,
+        "likes": 6,
+        "comments": null,
+        "shares": 0,
+        "profile_followers_visible": 5,
+        "profile_likes_visible": 33
+      },
+      "post_observation": {
+        "id": "1007-be",
+        "views": 237,
+        "likes": 5,
+        "comments": 0,
+        "duration_seconds": 16,
+        "published_at": "2026-10-07T12:45:00-06:00"
+      },
+      "queue_reconciliation": "Studio content listed 22 posts and zero drafts. No native schedule confirmation was observed during this review; do not infer scheduled status from local files.",
+      "comment_review": "The visible latest comments were previous self-comments containing TypologyQuiz links. No genuine new comment requiring a reply was observed.",
+      "interpretation": "One recent post and this small account-level window do not establish a best posting time or topic. The confirmed post is the available baseline for the owner-requested short cadence test."
     }
   ],
   "posts": [
@@ -372,15 +396,41 @@
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-07T19:56:34-06:00",
       "verification": "Public TikTok video page showed the exact @typologyquiz caption and a relative timestamp of 7h ago after its confirmed Oct 7 12:45 PM schedule. The public page exposed 0 likes, 0 comments, 0 favorites, and 0 shares at check time; it did not expose a view count.",
-      "metrics": {
-        "observed_at": "2026-10-07T21:00:00-06:00",
-        "likes": 1,
-        "comments": 0,
-        "favorites": 0,
-        "shares": 0,
-        "views": null,
-        "note": "Public page did not expose a view count; null is not zero. One visible like alone does not establish performance."
-      }
+      "metrics_history": [
+        {
+          "observed_at": "2026-10-07T21:00:00-06:00",
+          "likes": 1,
+          "comments": 0,
+          "favorites": 0,
+          "shares": 0,
+          "views": null,
+          "note": "Public page did not expose a view count; null is not zero. One visible like alone does not establish performance."
+        },
+        {
+          "observed_at": "2026-10-11T06:02:17-06:00",
+          "views": 237,
+          "likes": 5,
+          "comments": 0,
+          "favorites": null,
+          "shares": null,
+          "note": "TikTok Studio Home recent-post row. Favorites and shares were not exposed per post, so they remain null."
+        }
+      ]
     }
-  ]
+  ],
+  "active_cadence_test": {
+    "local_dates": [
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14"
+    ],
+    "slots": [
+      "10:30",
+      "14:30",
+      "18:30"
+    ],
+    "timezone": "America/Edmonton",
+    "status": "prepared_local_not_scheduled",
+    "note": "Owner-requested four-hour cadence test; exact prepared queue is in docs/growth/tiktok/2026-10-11-driving-production.md. Studio reconciliation is required before any schedule action."
+  }
 }
