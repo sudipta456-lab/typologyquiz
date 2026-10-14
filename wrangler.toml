@@ -100,6 +100,17 @@ new_sqlite_classes = ["LiveRoom"]
 name = "GROUP_ROOM"
 class_name = "GroupRoom"
 
+# An opt-in directory for group-trivia lobbies. It contains only the room
+# code, quiz title, state and aggregate counts; player names and chat stay in
+# the individual GroupRoom Durable Object.
+[[durable_objects.bindings]]
+name = "GROUP_DIRECTORY"
+class_name = "GroupDirectory"
+
 [[migrations]]
 tag = "v2-group-room"
 new_sqlite_classes = ["GroupRoom"]
+
+[[migrations]]
+tag = "v3-group-directory"
+new_sqlite_classes = ["GroupDirectory"]

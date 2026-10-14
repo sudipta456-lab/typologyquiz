@@ -4,7 +4,7 @@ import { handleGroup } from "./group.js";
 
 // Durable Object classes must be exported from the entry module.
 export { LiveRoom } from "./live.js";
-export { GroupRoom } from "./group.js";
+export { GroupDirectory, GroupRoom } from "./group.js";
 
 /**
  * Edge worker for typologyquiz.com.

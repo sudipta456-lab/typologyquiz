@@ -88,6 +88,13 @@ export default function TriviaHubPage() {
           Type an answer and watch it count. Your best scores stay on this device.
         </p>
 
+        <section aria-label="Play together" className="quiz-card" style={{ marginBottom: 28, display: "block" }}>
+          <p className="eyebrow" style={{ marginBottom: 6 }}>Play together</p>
+          <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>Start or join a group trivia room</h2>
+          <p className="quiz-card-desc">Create a room, scan a QR code, or join an opt-in public lobby. Everyone gets the same questions and sees the live scoreboard.</p>
+          <Link href="/group/" className="button button-primary" style={{ marginTop: 14 }}>Find a group game</Link>
+        </section>
+
         <nav className="topic-jumps" aria-label="Trivia topics">{TRIVIA_GROUPS.map((group, index) => <a key={group.label} href={`#trivia-topic-${index}`}>{group.label}</a>)}<a href="#trivia-letters">A–Z quizzes</a><Link href="/weekly/">News quizzes ↗</Link></nav>
 
         <WeeklyFeatured />

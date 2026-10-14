@@ -94,10 +94,25 @@ function view(room, now, includeChat = false) {
     playerCount: board.length,
     onlineCount: board.filter((row) => row.online).length,
     completedCount: board.filter((row) => row.status === "completed").length,
+    isPublic: room.isPublic === true,
     board,
   };
   if (includeChat) response.chat = room.chat.map(({ id, playerId, name, text, sentAt }) => ({ id, playerId, name, text, sentAt }));
   return response;
+}
+function publicEntry(room, now) {
+  if (!room || room.isPublic !== true || room.state === "ended" || !CODE_PATTERN.test(room.code)) return null;
+  return {
+    code: room.code,
+    slug: room.slug,
+    title: room.title,
+    total: room.total,
+    state: room.state,
+    playerCount: room.playerCount,
+    onlineCount: room.onlineCount,
+    expiresAt: room.expiresAt,
+    updatedAt: now,
+  };
 }
 function validCreate(body) {
   if (!body || typeof body !== "object" || Array.isArray(body) || Object.keys(body).length !== 1 || typeof body.slug !== "string") return null;
@@ -113,6 +128,12 @@ function cleanMessage(value) {
 function bodyError(error) { return json({ error: error.message === "too_large" ? "too_large" : "bad_json" }, error.message === "too_large" ? 413 : 400); }
 
 export async function handleGroup(request, env, pathname) {
+  if (pathname === "/api/groups/public" || pathname === "/api/groups/public/") {
+    if (request.method !== "GET") return json({ error: "method" }, 405);
+    if (!env.GROUP_DIRECTORY) return json({ error: "group_unavailable" }, 503);
+    const directory = env.GROUP_DIRECTORY.get(env.GROUP_DIRECTORY.idFromName("public-lobbies"));
+    return directory.fetch("https://group-directory/list");
+  }
   if (!env.GROUP_ROOM) return json({ error: "group_unavailable" }, 503);
   if (pathname === "/api/groups" || pathname === "/api/groups/") {
     if (request.method !== "POST") return json({ error: "method" }, 405);
@@ -129,14 +150,30 @@ export async function handleGroup(request, env, pathname) {
     }
     return json({ error: "create_failed" }, 503);
   }
-  const match = pathname.match(/^\/api\/groups\/([^/]+)(?:\/(join|start|begin|presence|chat|complete|end))?\/?$/);
+  const match = pathname.match(/^\/api\/groups\/([^/]+)(?:\/(join|start|begin|presence|chat|complete|end|visibility))?\/?$/);
   if (!match) return json({ error: "not_found" }, 404);
   const code = match[1].toUpperCase(); if (!CODE_PATTERN.test(code)) return json({ error: "bad_code" }, 400);
   const action = match[2] ?? "info";
   if (action !== "info" && (!sameOrigin(request) || request.method !== "POST")) return json({ error: action !== "info" && !sameOrigin(request) ? "origin" : "method" }, action !== "info" && !sameOrigin(request) ? 403 : 405);
   if (action === "info" && request.method !== "GET") return json({ error: "method" }, 405);
   const stub = env.GROUP_ROOM.get(env.GROUP_ROOM.idFromName(code));
-  return stub.fetch(new Request(`https://group-room/${action}`, request));
+  const response = await stub.fetch(new Request(`https://group-room/${action}`, request));
+  // The directory is deliberately best-effort: a lobby remains usable if its
+  // public listing cannot be refreshed. The next room action repairs it.
+  if (env.GROUP_DIRECTORY && response.ok && action !== "info") {
+    try {
+      const body = await response.clone().json();
+      const room = body?.room;
+      const directory = env.GROUP_DIRECTORY.get(env.GROUP_DIRECTORY.idFromName("public-lobbies"));
+      const entry = publicEntry(room, Date.now());
+      await directory.fetch(`https://group-directory/${entry ? "upsert" : "remove"}`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(entry ?? { code }),
+      });
+    } catch { /* directory listing is optional */ }
+  }
+  return response;
 }
 
 export class GroupRoom {
@@ -145,7 +182,8 @@ export class GroupRoom {
   async load(now) {
     if (this.room === undefined) this.room = (await this.ctx.storage.get("room")) ?? null;
     // v1 rooms were created before a lobby existed. They remain playable.
-    if (this.room && this.room.phase === undefined) this.room = { ...this.room, phase: "open", startAt: this.room.createdAt, revision: 1, chat: [] };
+    if (this.room && this.room.phase === undefined) this.room = { ...this.room, phase: "open", startAt: this.room.createdAt, revision: 1, chat: [], isPublic: false };
+    if (this.room && this.room.isPublic === undefined) this.room = { ...this.room, isPublic: false };
     if (this.room && expired(this.room, now)) await this.destroy();
     return this.room;
   }
@@ -170,7 +208,7 @@ export class GroupRoom {
       let body; try { body = await smallJson(request); } catch (error) { return bodyError(error); }
       const options = validCreate({ slug: body?.slug });
       if (!options || typeof body.code !== "string" || !CODE_PATTERN.test(body.code) || typeof body.hostHash !== "string" || typeof body.seed !== "string" || !RUN_SEED.test(body.seed)) return json({ error: "bad_payload" }, 400);
-      await this.save({ v: 2, code: body.code, hostHash: body.hostHash, seed: body.seed, ...options, createdAt: now, expiresAt: now + GROUP_LIFETIME_MS, phase: "lobby", startAt: null, endedAt: null, revision: 1, players: {}, chat: [] });
+      await this.save({ v: 3, code: body.code, hostHash: body.hostHash, seed: body.seed, ...options, createdAt: now, expiresAt: now + GROUP_LIFETIME_MS, phase: "lobby", startAt: null, endedAt: null, revision: 1, isPublic: false, players: {}, chat: [] });
       return json({ ok: true }, 201);
     }
     const room = await this.load(now); if (!room) return json({ error: "room_not_found" }, 404);
@@ -196,6 +234,15 @@ export class GroupRoom {
       if (body.revision !== room.revision) return json({ error: "stale_revision", room: view(room, now) }, 409);
       const nextRoom = structuredClone(room); nextRoom.phase = "open"; nextRoom.startAt = now + START_COUNTDOWN_MS; nextRoom.revision += 1; await this.save(nextRoom);
       return json({ room: view(nextRoom, now), serverNow: now }, 200);
+    }
+    if (url.pathname === "/visibility") {
+      if (!body || typeof body.secret !== "string" || typeof body.isPublic !== "boolean" || !Number.isInteger(body.revision) || Object.keys(body).length !== 3) return json({ error: "bad_payload" }, 400);
+      if (!sameHash(await hash(body.secret), room.hostHash)) return json({ error: "bad_secret" }, 403);
+      if (room.phase === "ended") return json({ error: "room_ended" }, 409);
+      if (body.revision !== room.revision) return json({ error: "stale_revision", room: view(room, now) }, 409);
+      if (room.isPublic === body.isPublic) return json({ room: view(room, now), duplicate: true });
+      const nextRoom = structuredClone(room); nextRoom.isPublic = body.isPublic; nextRoom.revision += 1; await this.save(nextRoom);
+      return json({ room: view(nextRoom, now) });
     }
     if (url.pathname === "/presence" || url.pathname === "/begin") {
       if (!body || typeof body !== "object" || !TOKEN.test(body.token)) return json({ error: "bad_payload" }, 400);
@@ -252,4 +299,37 @@ export class GroupRoom {
     return json({ error: "not_found" }, 404);
   }
   alarm() { return this.exclusive(async () => { const room = await this.load(Date.now()); if (room) await this.ctx.storage.setAlarm(deleteAt(room)); }); }
+}
+
+export class GroupDirectory {
+  constructor(ctx) { this.ctx = ctx; this.records = undefined; this.queue = Promise.resolve(); }
+  exclusive(fn) { const run = this.queue.then(fn); this.queue = run.catch(() => {}); return run; }
+  async load() { if (this.records === undefined) this.records = (await this.ctx.storage.get("records")) ?? {}; return this.records; }
+  async save(records) { this.records = records; await this.ctx.storage.put("records", records); }
+  fetch(request) { return this.exclusive(async () => {
+    const url = new URL(request.url); const now = Date.now(); const records = await this.load();
+    const active = {};
+    for (const [code, entry] of Object.entries(records)) {
+      if (entry && CODE_PATTERN.test(code) && entry.expiresAt > now && (entry.state === "lobby" || entry.state === "open")) active[code] = entry;
+    }
+    if (Object.keys(active).length !== Object.keys(records).length) await this.save(active);
+    if (url.pathname === "/list") {
+      if (request.method !== "GET") return json({ error: "method" }, 405);
+      const rooms = Object.values(active).sort((a, b) => (a.state === b.state ? b.updatedAt - a.updatedAt : a.state === "lobby" ? -1 : 1)).slice(0, 50);
+      return json({ rooms });
+    }
+    if (request.method !== "POST") return json({ error: "method" }, 405);
+    let body; try { body = await smallJson(request); } catch (error) { return bodyError(error); }
+    if (url.pathname === "/remove") {
+      if (!body || typeof body.code !== "string" || !CODE_PATTERN.test(body.code) || Object.keys(body).length !== 1) return json({ error: "bad_payload" }, 400);
+      if (active[body.code]) { delete active[body.code]; await this.save(active); }
+      return json({ ok: true });
+    }
+    if (url.pathname === "/upsert") {
+      if (!body || typeof body !== "object" || !CODE_PATTERN.test(body.code) || !SLUG.test(body.slug) || typeof body.title !== "string" || body.title.length > 120 || !Number.isInteger(body.total) || !["lobby", "open"].includes(body.state) || !Number.isInteger(body.playerCount) || !Number.isInteger(body.onlineCount) || !Number.isInteger(body.expiresAt) || !Number.isInteger(body.updatedAt)) return json({ error: "bad_payload" }, 400);
+      active[body.code] = { code: body.code, slug: body.slug, title: body.title, total: body.total, state: body.state, playerCount: Math.max(0, body.playerCount), onlineCount: Math.max(0, body.onlineCount), expiresAt: body.expiresAt, updatedAt: body.updatedAt };
+      await this.save(active); return json({ ok: true }, 201);
+    }
+    return json({ error: "not_found" }, 404);
+  }); }
 }

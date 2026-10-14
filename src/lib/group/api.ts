@@ -8,7 +8,8 @@ const HOST_PREFIX = "tq-group-host:";
 export type GroupActivity = "lobby" | "playing" | "results" | "offline";
 export type GroupBoardRow = { id: string; name: string; status: "joined" | "playing" | "completed"; online: boolean; activity: GroupActivity; score: number | null; total: number | null; timeMs: number | null; outcome: "complete" | "time" | "gaveup" | "lives" | null; completedAt: number | null; rank: number | null };
 export type GroupChatMessage = { id: string; playerId: string; name: string; text: string; sentAt: number };
-export type GroupRoom = { code: string; slug: string; title: string; total: number; seed: string; state: "lobby" | "open" | "ended"; startAt: number | null; revision: number; expiresAt: number; playerCount: number; onlineCount: number; completedCount: number; board: GroupBoardRow[]; chat?: GroupChatMessage[] };
+export type GroupRoom = { code: string; slug: string; title: string; total: number; seed: string; state: "lobby" | "open" | "ended"; startAt: number | null; revision: number; expiresAt: number; playerCount: number; onlineCount: number; completedCount: number; isPublic: boolean; board: GroupBoardRow[]; chat?: GroupChatMessage[] };
+export type PublicGroupLobby = { code: string; slug: string; title: string; total: number; state: "lobby" | "open"; playerCount: number; onlineCount: number; expiresAt: number; updatedAt: number };
 export type GroupApiErrorBody = { error?: string; room?: GroupRoom };
 
 export class GroupApiError extends Error { constructor(public code: string, public status: number, public room?: GroupRoom) { super(code); } }
@@ -27,12 +28,14 @@ function post<T>(path: string, body: object): Promise<T> { return call<T>(path, 
 function groupPath(code: string, suffix = "") { return `/api/groups/${normaliseCode(code)}${suffix}`; }
 
 export function createGroupRoom(slug: string) { return post<{ code: string; hostSecret: string }>("/api/groups", { slug }); }
+export function getPublicGroupLobbies() { return call<{ rooms: PublicGroupLobby[] }>("/api/groups/public"); }
 export function getGroupRoom(code: string, token: string | null = loadGroupToken(code)) {
   const headers = token && TOKEN_PATTERN.test(token) ? { "x-group-player-token": token } : undefined;
   return call<GroupRoom>(groupPath(code), { headers });
 }
 export function joinGroupRoom(code: string, name: string) { return post<{ token: string; playerId: string; room: GroupRoom }>(groupPath(code, "/join"), { name }); }
 export function startGroupRoom(code: string, secret: string, revision: number) { return post<{ room: GroupRoom; serverNow: number; duplicate?: boolean }>(groupPath(code, "/start"), { secret, revision }); }
+export function setGroupRoomVisibility(code: string, secret: string, isPublic: boolean, revision: number) { return post<{ room: GroupRoom; duplicate?: boolean }>(groupPath(code, "/visibility"), { secret, isPublic, revision }); }
 export function beginGroupAttempt(code: string, token: string, attempt: string | null = loadGroupAttempt(code)) { return post<{ attemptId: string; room: GroupRoom; duplicate?: boolean }>(groupPath(code, "/begin"), attempt && ATTEMPT_PATTERN.test(attempt) ? { token, attempt } : { token }); }
 export function sendGroupPresence(code: string, token: string, activity: Exclude<GroupActivity, "offline">) { return post<{ room: GroupRoom }>(groupPath(code, "/presence"), { token, activity }); }
 export function sendGroupMessage(code: string, token: string, message: string, nonce: string) { return post<{ room: GroupRoom; duplicate?: boolean }>(groupPath(code, "/chat"), { token, message, nonce }); }

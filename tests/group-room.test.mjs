@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { GroupRoom, handleGroup } from "../worker/group.js";
+import { GroupDirectory, GroupRoom, handleGroup } from "../worker/group.js";
 
 const HOST_SECRET = "host-secret";
 const HOST_HASH = "736340e6842adca333b34d6beca003ab19f13a13ccc70573114996ae6627b2f2";
@@ -105,4 +105,56 @@ test("group room rejects oversized requests and start is host-only/idempotent", 
   const duplicate = await room.fetch(request("start", { secret: HOST_SECRET, revision: room.room.revision }));
   assert.equal(duplicate.status, 200);
   assert.equal((await duplicate.json()).duplicate, true);
+});
+
+test("only the host can opt a room into the public lobby directory", async () => {
+  const room = await readyRoom();
+  const original = room.room.revision;
+  assert.equal((await room.fetch(request("visibility", { secret: "wrong", isPublic: true, revision: original }))).status, 403);
+  const listed = await room.fetch(request("visibility", { secret: HOST_SECRET, isPublic: true, revision: original }));
+  assert.equal(listed.status, 200);
+  assert.equal((await listed.json()).room.isPublic, true);
+  const publicInfo = await (await room.fetch(new Request("https://group-room/info"))).json();
+  assert.equal(publicInfo.isPublic, true);
+
+  const directory = new GroupDirectory(context());
+  const entry = { code: "ABC234", slug: "planets", title: "Planets", total: 8, state: "lobby", playerCount: 2, onlineCount: 1, expiresAt: Date.now() + 60_000, updatedAt: Date.now() };
+  assert.equal((await directory.fetch(request("upsert", entry))).status, 201);
+  const listedRooms = await (await directory.fetch(new Request("https://group-directory/list"))).json();
+  assert.deepEqual(listedRooms.rooms.map((value) => [value.code, value.title, value.onlineCount]), [["ABC234", "Planets", 1]]);
+  assert.equal((await directory.fetch(request("remove", { code: "ABC234" }))).status, 200);
+  assert.deepEqual((await (await directory.fetch(new Request("https://group-directory/list"))).json()).rooms, []);
+});
+
+test("the public group API mirrors an opted-in room and removes it when the host closes it", async () => {
+  const origin = "https://typologyquiz.com";
+  const directory = new GroupDirectory(context());
+  const room = {
+    code: "ABC234", slug: "planets", title: "Planets", total: 8, state: "lobby",
+    playerCount: 2, onlineCount: 1, expiresAt: Date.now() + 60_000, isPublic: true,
+  };
+  const asRequest = (url, init) => url instanceof Request ? url : new Request(url, init);
+  const env = {
+    GROUP_ROOM: {
+      idFromName: (id) => id,
+      get: () => ({ fetch: async () => new Response(JSON.stringify({ room }), { headers: { "content-type": "application/json" } }) }),
+    },
+    GROUP_DIRECTORY: {
+      idFromName: (id) => id,
+      get: () => ({ fetch: (url, init) => directory.fetch(asRequest(url, init)) }),
+    },
+  };
+  const visibility = new Request(`${origin}/api/groups/ABC234/visibility`, {
+    method: "POST",
+    headers: { origin, "content-type": "application/json" },
+    body: JSON.stringify({ secret: HOST_SECRET, isPublic: true, revision: 1 }),
+  });
+  assert.equal((await handleGroup(visibility, env, "/api/groups/ABC234/visibility")).status, 200);
+  let listed = await (await handleGroup(new Request(`${origin}/api/groups/public`), env, "/api/groups/public")).json();
+  assert.deepEqual(listed.rooms.map((value) => value.code), ["ABC234"]);
+
+  room.isPublic = false;
+  assert.equal((await handleGroup(visibility, env, "/api/groups/ABC234/visibility")).status, 200);
+  listed = await (await handleGroup(new Request(`${origin}/api/groups/public`), env, "/api/groups/public")).json();
+  assert.deepEqual(listed.rooms, []);
 });

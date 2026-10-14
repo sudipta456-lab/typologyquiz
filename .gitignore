@@ -60,3 +60,5 @@ tmp/
 # Python bytecode from scripts/
 __pycache__/
 scripts/.r2-uploaded-*.txt
+scripts/social/.keep-awake*.log
+scripts/social/render-1002.py
