@@ -425,11 +425,16 @@
       "tiktok_id": "7695554306103119112",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695554306103119112",
       "publish_at": "2026-10-12T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-13T05:59:56-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics.",
+      "metrics": {
+        "views": 90,
+        "likes": 0,
+        "comments": 0
+      }
     },
     {
       "id": "1002-news",
@@ -439,11 +444,16 @@
       "tiktok_id": "7695555933560114439",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695555933560114439",
       "publish_at": "2026-10-12T14:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-13T05:59:56-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics.",
+      "metrics": {
+        "views": 118,
+        "likes": 1,
+        "comments": 0
+      }
     },
     {
       "id": "1008-vienna",
@@ -453,17 +463,33 @@
       "tiktok_id": "7695556364009098503",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695556364009098503",
       "publish_at": "2026-10-12T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling.",
+      "verified_at": "2026-10-13T05:59:56-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics.",
       "duplicate_schedule": {
         "tiktok_id": "7695556195888794888",
         "url": "https://www.tiktok.com/@typologyquiz/video/7695556195888794888",
         "same_publish_at": "2026-10-12T18:30:00-06:00",
-        "cleanup_status": "blocked_in_web_studio",
-        "cleanup_verification": "The duplicate appears in Studio. Its overflow Delete action displayed the native limitation: “Videos with commercial content can only be edited on the TikTok app.” No deletion was confirmed."
+        "cleanup_status": "published_duplicate_blocked_in_web_studio",
+        "cleanup_verification": "The duplicate appears in Studio. Its overflow Delete action displayed the native limitation: “Videos with commercial content can only be edited on the TikTok app.” No deletion was confirmed.",
+        "published_confirmation": {
+          "verified_at": "2026-10-13T05:59:56-06:00",
+          "published_at": "2026-10-12T18:30:00-06:00",
+          "visibility": "Everyone",
+          "metrics": {
+            "views": 93,
+            "likes": 0,
+            "comments": 0
+          },
+          "verification": "TikTok Studio showed the duplicate as a published October 12 6:30 PM Everyone row after reload. Its commercial-content limitation still blocks web deletion."
+        }
+      },
+      "metrics": {
+        "views": 101,
+        "likes": 0,
+        "comments": 0
       }
     },
     {
@@ -474,11 +500,18 @@
       "tiktok_id": "7695555673278532871",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695555673278532871",
       "publish_at": "2026-10-13T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling.",
+      "published_verified_at": "2026-10-13T21:09:00-06:00",
+      "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
+      "metrics": {
+        "views": 93,
+        "likes": 0,
+        "comments": 0
+      }
     },
     {
       "id": "1009-budapest",
@@ -488,11 +521,18 @@
       "tiktok_id": "7695556528098528530",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695556528098528530",
       "publish_at": "2026-10-13T14:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling.",
+      "published_verified_at": "2026-10-13T21:09:00-06:00",
+      "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
+      "metrics": {
+        "views": 76,
+        "likes": 1,
+        "comments": 0
+      }
     },
     {
       "id": "1013-ab-stop-line",
@@ -502,11 +542,18 @@
       "tiktok_id": "7695556626673159442",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695556626673159442",
       "publish_at": "2026-10-13T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling.",
+      "published_verified_at": "2026-10-13T21:09:00-06:00",
+      "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
+      "metrics": {
+        "views": 34,
+        "likes": 0,
+        "comments": 0
+      }
     },
     {
       "id": "1014-ab-school-zone",
@@ -894,11 +941,16 @@
       "tiktok_id": "7695607349716716807",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695607349716716807",
       "publish_at": "2026-10-12T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-13T05:59:56-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics.",
+      "metrics": {
+        "views": 98,
+        "likes": 0,
+        "comments": 0
+      }
     }
   ],
   "active_cadence_test": {

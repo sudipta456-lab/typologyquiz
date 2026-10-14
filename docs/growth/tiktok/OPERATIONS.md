@@ -8,9 +8,9 @@ Signed-in Chrome profile verified as @typologyquiz. Initial public baseline: zer
 
 ## Scheduled workflow
 
-Active Codex thread automation: typologyquiz-daily-tiktok-research-and-production. Runs daily at 06:00 and 21:00 America/Edmonton. At 06:00 reconcile first, then research, produce and QA only enough new assets to reach **one** unique piece for the local day, including anything already queued, and schedule it in native TikTok Studio. At 21:00 inspect outcomes/analytics, review relevant own-post comments, and prepare the next brief. One automation handles both phases because this thread supports one active heartbeat.
+Active Codex thread automation: typologyquiz-daily-tiktok-research-and-production. Runs daily at 06:00 and 21:00 America/Edmonton. At 06:00 reconcile first, then research, produce and QA enough distinct assets to meet the active cadence test. The active owner-requested cadence is **three** unique posts per local day at 10:30 AM, 2:30 PM and 6:30 PM America/Edmonton when the native Studio queue is verified. Measure seven local days of confirmed outcomes before proposing any cadence change. Reconcile anything already queued before adding another item. At 21:00 inspect outcomes/analytics, review relevant own-post comments, and prepare the next brief. One automation handles both phases because this thread supports one active heartbeat.
 
-Use one appropriate local slot after checking the account's audience-activity data; until that is available, use 12:45 America/Edmonton as a consistent provisional slot. Verify the scheduler timezone before confirming. Do not backfill missed days. Count native scheduled and published posts by intended local date and unique content ID before adding anything. Run a seven-day comparison before proposing cadence changes.
+Use the three stated slots after checking the account's audience-activity data; they are provisional until the seven-day comparison is available. Verify the scheduler timezone before confirming. Do not backfill missed days. Count native scheduled and published posts by intended local date and unique content ID before adding anything. Run a seven-day comparison before proposing cadence changes.
 
 Local production and browser automation need the computer on, the app running and account access available. A native TikTok scheduled post may publish independently after TikTok confirms its schedule; a Codex schedule alone does not prove TikTok publication. See official scheduled-task documentation: https://learn.chatgpt.com/docs/automations?surface=app.
 
@@ -41,6 +41,10 @@ Read the strategy, latest brief and ledger. Research relevant searches, content 
 
 Verify quiz answer and linked live page, mobile legibility, safe placement away from TikTok controls, spelling, pacing, answer/reveal consistency, full clip playback, and any sound rights. Do not promote CRT/VVIQ until rights review is resolved. Do not call informal quizzes diagnostic or independently validated. No fake “99% fail” statistics or invented IQ claims. News publication retains its existing exact-content review requirement; default social content to verified evergreen topics.
 
+### Marketing-agent collaboration and public engagement
+
+Use a small internal swarm for strategy, fact-checking, production and review. Agents may exchange research, performance observations and lessons with each other, but they do not operate separate public personas or submit overlapping comments. One publishing operator reconciles the queue and performs any account action. Public replies on TypologyQuiz posts should answer genuine questions, corrections or useful feedback directly. On other creators' posts, contribute only when the comment is specifically relevant and useful on its own; identify as `@typologyquiz`, disclose the affiliation when promoting a quiz, and add a link only when it directly helps the discussion. No generic praise, copy-paste promotion, engagement quotas, repeated links, mass comments, coordinated likes, fabricated accounts or unsolicited DMs. A day with no worthwhile comment is a valid outcome. Record a confirmed reply separately from a draft. TikTok's [Community Guidelines](https://www.tiktok.com/community-guidelines/en/integrity-authenticity/) prohibit spam/deceptive behavior and artificial engagement; its [commercial disclosure guidance](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service) requires the disclosure setting for posts promoting our own business.
+
 The initial ten-piece production batch is an evergreen geography/science/arithmetic pilot with ten different questions. It tests short-form execution before adding the broader personality-education mix in the strategy. Refer to the actual launch manifest, not the illustrative strategy table, for exact first-batch captions and facts.
 
 ## Publishing and reconciliation
@@ -48,6 +52,8 @@ The initial ten-piece production batch is an evergreen geography/science/arithme
 Use supported browser UI and verify account identity before each upload session. Upload only cleared assets. Select Your brand / Promotional content disclosure for posts promoting TypologyQuiz. Apply current AI labels when required; never imply AI illustrations are real footage. Use only original or explicitly cleared commercial audio. Do not accept new legal agreements, solve CAPTCHAs, or change credentials contrary to action-time tool requirements; record blockers and continue independent preparation.
 
 Before clicking Post/Schedule, inspect exact file, caption, date/time, visibility and disclosures. After clicking, verify a successful post/schedule row or permalink and record the result. If a result is uncertain, reconcile Studio Posts before retrying. Never duplicate an uncertain upload. Maintain status distinctions: rendered, qa_passed, uploaded_draft, scheduled_confirmed, published_confirmed, blocked.
+
+If the signed-in Studio session is unavailable, continue preparing and QA'ing one daily piece, state that Studio was unavailable, and leave the queue and ledger untouched. Prepared files do not become Studio items automatically. Do not claim a scheduled or published post without a Studio row, receipt or permalink.
 
 ## Metrics and community
 
