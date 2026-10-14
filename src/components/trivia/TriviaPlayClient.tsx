@@ -35,6 +35,7 @@ import {
   recordGhostRun,
   recordRun,
   sampleSubset,
+  seededRandom,
   saveGhostRacePref,
   type ChallengePayload,
 } from "@/lib/trivia/engine";
@@ -72,6 +73,8 @@ import { useSiteOrigin } from "@/lib/use-site-origin";
 import { addGems, GEM_REWARDS, getGems } from "@/lib/progress-game";
 import { COMPANIONS } from "@/lib/companions";
 import { GemPill } from "@/components/GemPill";
+import { ResultReveal } from "./ResultReveal";
+import { createGroupRoom, GROUP_CODE_PATTERN, groupErrorMessage, loadGroupAttempt, loadGroupToken, normalizeGroupCode, saveGroupHostSecret, sendGroupPresence, submitGroupResult } from "@/lib/group/api";
 
 type Phase = "ready" | "playing" | "done";
 
@@ -94,11 +97,11 @@ function useReducedMotion(): boolean {
   );
 }
 
-/** Seedless Fisher-Yates - the sudden-death prompt order. */
-function shuffle<T>(items: readonly T[]): T[] {
+/** Fisher-Yates; group rooms pass a reproducible stream for matching runs. */
+function shuffle<T>(items: readonly T[], random: () => number = Math.random): T[] {
   const arr = [...items];
   for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
@@ -339,6 +342,18 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const [result, setResult] = useState<RunResult | null>(null);
   const [copied, setCopied] = useState(false);
   const [showHints, setShowHints] = useState(false);
+  const [groupCreating, setGroupCreating] = useState(false);
+  const [groupCreateError, setGroupCreateError] = useState<string | null>(null);
+  const groupCode = normalizeGroupCode(searchParams.get("group") ?? "");
+  const groupSeed = searchParams.get("seed") ?? "";
+  const groupRunRandom = useMemo(
+    () => GROUP_CODE_PATTERN.test(groupCode) && /^[A-Za-z0-9_-]{12,32}$/.test(groupSeed) ? seededRandom(groupSeed) : null,
+    [groupCode, groupSeed]
+  );
+  const groupAttempt = useMemo(
+    () => GROUP_CODE_PATTERN.test(groupCode) ? loadGroupAttempt(groupCode) : null,
+    [groupCode]
+  );
   // Ready screen: the fully labelled map, shown on request and hidden again
   // the moment the clock starts. Look, hide, recall.
   const [studying, setStudying] = useState(false);
@@ -359,6 +374,21 @@ function TriviaPlayInner({ slug }: { slug: string }) {
   const pausedTotalRef = useRef(0);
   const finishedRef = useRef(false);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  // A group player stays visibly present while this native quiz is open. No
+  // answers or keystrokes leave the browser; the room only receives activity.
+  useEffect(() => {
+    if (!GROUP_CODE_PATTERN.test(groupCode)) return;
+    const token = loadGroupToken(groupCode);
+    if (!token) return;
+    const activity = phase === "done" ? "results" : phase === "playing" ? "playing" : "lobby";
+    const beat = () => { if (!document.hidden) void sendGroupPresence(groupCode, token, activity).catch(() => {}); };
+    beat();
+    const interval = window.setInterval(beat, 15000);
+    const onVisibility = () => beat();
+    document.addEventListener("visibilitychange", onVisibility);
+    return () => { window.clearInterval(interval); document.removeEventListener("visibilitychange", onVisibility); };
+  }, [groupCode, phase]);
 
   // Type-in continuation state. carry holds the alias that just fired so a
   // longer answer can grow out of it ("guinea" -> "guineabissau"); held is a
@@ -523,8 +553,11 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     if (!quiz) return;
     finishedRef.current = false;
     const subsetSize = quiz.modifiers?.randomSubset;
+    // A room seed pins both subset selection and prompt order, so every member
+    // receives the same run while ordinary solo play stays freshly randomized.
+    const random = groupRunRandom ?? Math.random;
     const runAnswers =
-      subsetSize !== undefined ? sampleSubset(fullAnswers, subsetSize) : fullAnswers;
+      subsetSize !== undefined ? sampleSubset(fullAnswers, subsetSize, random) : fullAnswers;
     setAnswers(runAnswers);
     setFoundIds([]);
     foundIdsRef.current = [];
@@ -534,7 +567,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     setCopied(false);
     setLivesLeft(totalLives);
     livesRef.current = totalLives;
-    setTargetQueue(shuffle(runAnswers.map((a) => a.id)));
+    setTargetQueue(shuffle(runAnswers.map((a) => a.id), random));
     setTargetIndex(0);
     setWrongFlashId(null);
     wrongFlashRef.current = null;
@@ -581,7 +614,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
     endAtRef.current = Date.now() + quiz.timerSeconds * 1000;
     setTimeLeftMs(quiz.timerSeconds * 1000);
     setPhase("playing");
-  }, [quiz, fullAnswers, totalLives, ghostSupported, raceOn, challenge, ownGhost]);
+  }, [quiz, fullAnswers, totalLives, ghostSupported, raceOn, challenge, ownGhost, groupRunRandom]);
 
   // Focus the input once the play screen exists.
   useEffect(() => {
@@ -868,6 +901,20 @@ function TriviaPlayInner({ slug }: { slug: string }) {
       if (pulseTimerRef.current !== null) window.clearTimeout(pulseTimerRef.current);
     };
   }, []);
+
+  const createGroup = useCallback(async () => {
+    if (!quiz || groupCreating) return;
+    setGroupCreating(true);
+    setGroupCreateError(null);
+    try {
+      const room = await createGroupRoom(quiz.slug);
+      saveGroupHostSecret(room.code, room.hostSecret);
+      window.location.assign(`/group/?room=${room.code}`);
+    } catch (error) {
+      setGroupCreateError(groupErrorMessage((error as { code?: string }).code ?? "network"));
+      setGroupCreating(false);
+    }
+  }, [quiz, groupCreating]);
 
   if (!quiz) {
     return (
@@ -1160,8 +1207,12 @@ function TriviaPlayInner({ slug }: { slug: string }) {
           )}
 
         <div style={{ marginTop: 22, display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
-          <button type="button" className="btn-primary" onClick={start} autoFocus>
+          <button type="button" className="btn-primary" onClick={start} autoFocus disabled={GROUP_CODE_PATTERN.test(groupCode) && !groupAttempt}>
             Start the clock
+          </button>
+          {GROUP_CODE_PATTERN.test(groupCode) && !groupAttempt && <p className="compare-err" role="alert">Start from the group lobby so your round can appear on the shared board.</p>}
+          <button type="button" className="btn-outline" onClick={createGroup} disabled={groupCreating}>
+            {groupCreating ? "Creating group room…" : "Play together"}
           </button>
           {studyEl !== null && (
             <button
@@ -1213,6 +1264,7 @@ function TriviaPlayInner({ slug }: { slug: string }) {
             All trivia quizzes
           </Link>
         </div>
+        {groupCreateError && <p className="compare-err" role="alert">{groupCreateError}</p>}
 
         {/* Look, hide, recall: the whole map with every answer on it, no
             clock. Start the clock takes it away and the run begins. */}
@@ -1661,25 +1713,47 @@ function TriviaPlayInner({ slug }: { slug: string }) {
       )}
 
       {phase === "done" && result && (
-        <ResultsPanel
-          quiz={quiz}
-          result={result}
-          total={total}
-          missing={missing}
-          challenge={challenge}
-          origin={origin}
-          copied={copied}
-          setCopied={setCopied}
-          onReplay={start}
-          cardMap={cardMapFor(quiz.visual)}
-          foundIds={foundIds}
-          activeIds={runIds === null ? null : [...runIds]}
-          onPulse={visualEl !== null ? pulseRegion : undefined}
-          onPoint={visualEl !== null ? pointAtRegion : undefined}
-        />
+        <>
+          {GROUP_CODE_PATTERN.test(groupCode) && <GroupResultReporter code={groupCode} quiz={quiz} result={result} total={total} />}
+          <ResultReveal>
+            <ResultsPanel
+              quiz={quiz}
+              result={result}
+              total={total}
+              missing={missing}
+              challenge={challenge}
+              origin={origin}
+              copied={copied}
+              setCopied={setCopied}
+              onReplay={start}
+              cardMap={cardMapFor(quiz.visual)}
+              foundIds={foundIds}
+              activeIds={runIds === null ? null : [...runIds]}
+              onPulse={visualEl !== null ? pulseRegion : undefined}
+              onPoint={visualEl !== null ? pointAtRegion : undefined}
+            />
+          </ResultReveal>
+        </>
       )}
     </div>
   );
+}
+
+function GroupResultReporter({ code, quiz, result, total }: { code: string; quiz: TriviaQuiz; result: RunResult; total: number }) {
+  const [token] = useState(() => loadGroupToken(code));
+  const [attempt] = useState(() => loadGroupAttempt(code));
+  const [message, setMessage] = useState(() => token && attempt ? "Sending your score to the group…" : "Start from the group lobby before playing to add your score.");
+  const submitted = useRef<string | null>(null);
+  useEffect(() => {
+    if (!token || !attempt) return;
+    const key = `${code}:${quiz.slug}:${result.score}:${result.timeUsedMs}:${result.outcome}`;
+    if (submitted.current === key) return;
+    submitted.current = key;
+    void submitGroupResult(code, { token, attempt, slug: quiz.slug, score: result.score, total, timeMs: result.timeUsedMs, outcome: result.outcome })
+      .then(() => setMessage("Score added to the group board."))
+      .catch((error: { code?: string }) => setMessage(groupErrorMessage(error.code ?? "network")));
+  }, [attempt, code, quiz.slug, result, token, total]);
+  return <p className="quiz-card" role="status" style={{ padding: "0.75rem 1rem", marginBottom: "1rem" }}>{message} <Link className="text-link" href={`/group/?room=${code}`}>View group results</Link></p>;
 }
 
 /**

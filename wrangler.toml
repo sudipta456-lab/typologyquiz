@@ -93,3 +93,13 @@ class_name = "LiveRoom"
 [[migrations]]
 tag = "v1-live-room"
 new_sqlite_classes = ["LiveRoom"]
+
+# Self-paced group trivia rooms. Kept separate from host-controlled LiveRoom
+# so native type-in and map games retain their own interaction model.
+[[durable_objects.bindings]]
+name = "GROUP_ROOM"
+class_name = "GroupRoom"
+
+[[migrations]]
+tag = "v2-group-room"
+new_sqlite_classes = ["GroupRoom"]

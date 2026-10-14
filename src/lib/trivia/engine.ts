@@ -494,13 +494,30 @@ export function decodeChallenge(raw: string | null): ChallengePayload | null {
  * Uniform random sample of n items (Fisher-Yates on a copy). Drives the
  * random-subset quizzes; each run draws fresh, which is the replay hook.
  */
-export function sampleSubset<T>(items: readonly T[], n: number): T[] {
+export function sampleSubset<T>(items: readonly T[], n: number, random: () => number = Math.random): T[] {
   const arr = [...items];
   for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr.slice(0, Math.min(Math.max(0, n), arr.length));
+}
+
+/** Stable, non-security random stream for a shared trivia room. */
+export function seededRandom(seed: string): () => number {
+  let hash = 2166136261;
+  for (let index = 0; index < seed.length; index++) {
+    hash ^= seed.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  let state = hash >>> 0;
+  return () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let value = state;
+    value = Math.imul(value ^ (value >>> 15), value | 1);
+    value ^= value + Math.imul(value ^ (value >>> 7), value | 61);
+    return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
+  };
 }
 
 /**

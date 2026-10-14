@@ -1,8 +1,10 @@
 import { handlePredictions } from "./predictions.js";
 import { handleLive } from "./live.js";
+import { handleGroup } from "./group.js";
 
 // Durable Object classes must be exported from the entry module.
 export { LiveRoom } from "./live.js";
+export { GroupRoom } from "./group.js";
 
 /**
  * Edge worker for typologyquiz.com.
@@ -280,6 +282,11 @@ const worker = {
     if (url.pathname.startsWith("/api/live/")) {
       const liveResponse = await handleLive(request, env, url.pathname);
       if (liveResponse) return liveResponse;
+    }
+
+    if (url.pathname.startsWith("/api/groups")) {
+      const groupResponse = await handleGroup(request, env, url.pathname);
+      if (groupResponse) return groupResponse;
     }
 
     if (url.pathname === `/${GSC_VERIFICATION}.html`) {
