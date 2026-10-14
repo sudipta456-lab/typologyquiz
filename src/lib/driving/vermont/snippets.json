@@ -1,0 +1,3272 @@
+{
+  "abs-brake-and-steer": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/vermont/abs-brake-and-steer.png",
+    "width": 767
+  },
+  "abs-light-stays-on": {
+    "height": 140,
+    "page": 50,
+    "src": "/handbook/vermont/abs-light-stays-on.png",
+    "width": 767
+  },
+  "abs-noise-vibration": {
+    "height": 116,
+    "page": 49,
+    "src": "/handbook/vermont/abs-noise-vibration.png",
+    "width": 767
+  },
+  "aggressive-behaviours": {
+    "height": 161,
+    "page": 46,
+    "src": "/handbook/vermont/aggressive-behaviours.png",
+    "width": 772
+  },
+  "aggressive-do-not-retaliate": {
+    "height": 139,
+    "page": 46,
+    "src": "/handbook/vermont/aggressive-do-not-retaliate.png",
+    "width": 772
+  },
+  "aggressive-get-out-of-way": {
+    "height": 116,
+    "page": 46,
+    "src": "/handbook/vermont/aggressive-get-out-of-way.png",
+    "width": 767
+  },
+  "aggressive-unlawful": {
+    "height": 115,
+    "page": 46,
+    "src": "/handbook/vermont/aggressive-unlawful.png",
+    "width": 772
+  },
+  "animals-four-seconds": {
+    "height": 138,
+    "page": 46,
+    "src": "/handbook/vermont/animals-four-seconds.png",
+    "width": 767
+  },
+  "animals-full-lane": {
+    "height": 138,
+    "page": 46,
+    "src": "/handbook/vermont/animals-full-lane.png",
+    "width": 767
+  },
+  "animals-no-horn": {
+    "height": 185,
+    "page": 46,
+    "src": "/handbook/vermont/animals-no-horn.png",
+    "width": 767
+  },
+  "animals-reduce-speed": {
+    "height": 207,
+    "page": 46,
+    "src": "/handbook/vermont/animals-reduce-speed.png",
+    "width": 767
+  },
+  "animals-rights-of-driver": {
+    "height": 163,
+    "page": 46,
+    "src": "/handbook/vermont/animals-rights-of-driver.png",
+    "width": 767
+  },
+  "belt-all-occupants": {
+    "height": 138,
+    "page": 63,
+    "src": "/handbook/vermont/belt-all-occupants.png",
+    "width": 767
+  },
+  "belt-keeps-you-inside": {
+    "height": 162,
+    "page": 63,
+    "src": "/handbook/vermont/belt-keeps-you-inside.png",
+    "width": 767
+  },
+  "belt-lap-across-hips": {
+    "height": 162,
+    "page": 63,
+    "src": "/handbook/vermont/belt-lap-across-hips.png",
+    "width": 767
+  },
+  "belt-never-tuck": {
+    "height": 138,
+    "page": 63,
+    "src": "/handbook/vermont/belt-never-tuck.png",
+    "width": 767
+  },
+  "belt-strongest-points": {
+    "height": 138,
+    "page": 63,
+    "src": "/handbook/vermont/belt-strongest-points.png",
+    "width": 767
+  },
+  "bike-door": {
+    "height": 115,
+    "page": 42,
+    "src": "/handbook/vermont/bike-door.png",
+    "width": 767
+  },
+  "bike-far-left-when-needed": {
+    "height": 139,
+    "page": 41,
+    "src": "/handbook/vermont/bike-far-left-when-needed.png",
+    "width": 767
+  },
+  "bike-four-errors": {
+    "height": 139,
+    "page": 42,
+    "src": "/handbook/vermont/bike-four-errors.png",
+    "width": 767
+  },
+  "bike-four-feet": {
+    "height": 139,
+    "page": 41,
+    "src": "/handbook/vermont/bike-four-feet.png",
+    "width": 767
+  },
+  "bike-hand-signals": {
+    "height": 139,
+    "page": 42,
+    "src": "/handbook/vermont/bike-hand-signals.png",
+    "width": 772
+  },
+  "bike-left-turn-allow": {
+    "height": 162,
+    "page": 41,
+    "src": "/handbook/vermont/bike-left-turn-allow.png",
+    "width": 767
+  },
+  "bike-narrow-road-wait": {
+    "height": 162,
+    "page": 41,
+    "src": "/handbook/vermont/bike-narrow-road-wait.png",
+    "width": 767
+  },
+  "bike-no-honking": {
+    "height": 115,
+    "page": 41,
+    "src": "/handbook/vermont/bike-no-honking.png",
+    "width": 772
+  },
+  "bike-ride-with-traffic": {
+    "height": 116,
+    "page": 42,
+    "src": "/handbook/vermont/bike-ride-with-traffic.png",
+    "width": 767
+  },
+  "bike-right-to-road": {
+    "height": 161,
+    "page": 41,
+    "src": "/handbook/vermont/bike-right-to-road.png",
+    "width": 772
+  },
+  "bike-same-rules": {
+    "height": 115,
+    "page": 41,
+    "src": "/handbook/vermont/bike-same-rules.png",
+    "width": 772
+  },
+  "bike-take-the-lane": {
+    "height": 139,
+    "page": 41,
+    "src": "/handbook/vermont/bike-take-the-lane.png",
+    "width": 767
+  },
+  "bike-two-abreast": {
+    "height": 107,
+    "page": 42,
+    "src": "/handbook/vermont/bike-two-abreast.png",
+    "width": 767
+  },
+  "bike-two-abreast-rule": {
+    "height": 139,
+    "page": 42,
+    "src": "/handbook/vermont/bike-two-abreast-rule.png",
+    "width": 767
+  },
+  "bike-yield-turning-left": {
+    "height": 139,
+    "page": 42,
+    "src": "/handbook/vermont/bike-yield-turning-left.png",
+    "width": 767
+  },
+  "bus-concrete-barrier": {
+    "height": 139,
+    "page": 41,
+    "src": "/handbook/vermont/bus-concrete-barrier.png",
+    "width": 767
+  },
+  "bus-divided-highway-exception": {
+    "height": 139,
+    "page": 41,
+    "src": "/handbook/vermont/bus-divided-highway-exception.png",
+    "width": 767
+  },
+  "bus-five-points": {
+    "height": 138,
+    "page": 41,
+    "src": "/handbook/vermont/bus-five-points.png",
+    "width": 767
+  },
+  "bus-never-from-any-direction": {
+    "height": 117,
+    "page": 40,
+    "src": "/handbook/vermont/bus-never-from-any-direction.png",
+    "width": 767
+  },
+  "bus-no-pass-red-lights": {
+    "height": 209,
+    "page": 40,
+    "src": "/handbook/vermont/bus-no-pass-red-lights.png",
+    "width": 767
+  },
+  "bus-prepare-to-stop": {
+    "height": 116,
+    "page": 40,
+    "src": "/handbook/vermont/bus-prepare-to-stop.png",
+    "width": 767
+  },
+  "bus-red-means-stop": {
+    "height": 128,
+    "page": 41,
+    "src": "/handbook/vermont/bus-red-means-stop.png",
+    "width": 767
+  },
+  "bus-school-yard": {
+    "height": 138,
+    "page": 41,
+    "src": "/handbook/vermont/bus-school-yard.png",
+    "width": 767
+  },
+  "bus-yellow-then-red": {
+    "height": 162,
+    "page": 40,
+    "src": "/handbook/vermont/bus-yellow-then-red.png",
+    "width": 767
+  },
+  "child-never-in-front-of-airbag": {
+    "height": 117,
+    "page": 64,
+    "src": "/handbook/vermont/child-never-in-front-of-airbag.png",
+    "width": 754
+  },
+  "child-no-airbag": {
+    "height": 116,
+    "page": 63,
+    "src": "/handbook/vermont/child-no-airbag.png",
+    "width": 683
+  },
+  "child-two-to-five": {
+    "height": 139,
+    "page": 63,
+    "src": "/handbook/vermont/child-two-to-five.png",
+    "width": 767
+  },
+  "child-under-13-back": {
+    "height": 116,
+    "page": 64,
+    "src": "/handbook/vermont/child-under-13-back.png",
+    "width": 649
+  },
+  "child-under-18-belt": {
+    "height": 139,
+    "page": 64,
+    "src": "/handbook/vermont/child-under-18-belt.png",
+    "width": 767
+  },
+  "child-under-eight-booster": {
+    "height": 129,
+    "page": 64,
+    "src": "/handbook/vermont/child-under-eight-booster.png",
+    "width": 767
+  },
+  "child-under-two-rear-facing": {
+    "height": 116,
+    "page": 63,
+    "src": "/handbook/vermont/child-under-two-rear-facing.png",
+    "width": 767
+  },
+  "crash-call-911": {
+    "height": 115,
+    "page": 59,
+    "src": "/handbook/vermont/crash-call-911.png",
+    "width": 767
+  },
+  "crash-do-not-move-injured": {
+    "height": 138,
+    "page": 59,
+    "src": "/handbook/vermont/crash-do-not-move-injured.png",
+    "width": 767
+  },
+  "crash-get-details": {
+    "height": 116,
+    "page": 60,
+    "src": "/handbook/vermont/crash-get-details.png",
+    "width": 767
+  },
+  "crash-move-off-lanes": {
+    "height": 139,
+    "page": 59,
+    "src": "/handbook/vermont/crash-move-off-lanes.png",
+    "width": 767
+  },
+  "crash-must-stop": {
+    "height": 163,
+    "page": 59,
+    "src": "/handbook/vermont/crash-must-stop.png",
+    "width": 767
+  },
+  "crash-note-location": {
+    "height": 115,
+    "page": 60,
+    "src": "/handbook/vermont/crash-note-location.png",
+    "width": 767
+  },
+  "crash-other-driver-rights": {
+    "height": 139,
+    "page": 60,
+    "src": "/handbook/vermont/crash-other-driver-rights.png",
+    "width": 767
+  },
+  "crash-other-state": {
+    "height": 139,
+    "page": 60,
+    "src": "/handbook/vermont/crash-other-state.png",
+    "width": 767
+  },
+  "crash-parked-vehicle-note": {
+    "height": 139,
+    "page": 59,
+    "src": "/handbook/vermont/crash-parked-vehicle-note.png",
+    "width": 767
+  },
+  "crash-poor-decisions": {
+    "height": 163,
+    "page": 59,
+    "src": "/handbook/vermont/crash-poor-decisions.png",
+    "width": 767
+  },
+  "crash-report-3000-72-hours": {
+    "height": 139,
+    "page": 59,
+    "src": "/handbook/vermont/crash-report-3000-72-hours.png",
+    "width": 767
+  },
+  "crash-show-licence": {
+    "height": 162,
+    "page": 59,
+    "src": "/handbook/vermont/crash-show-licence.png",
+    "width": 767
+  },
+  "deer-crossing-signs": {
+    "height": 162,
+    "page": 46,
+    "src": "/handbook/vermont/deer-crossing-signs.png",
+    "width": 767
+  },
+  "deer-freeze-or-bolt": {
+    "height": 162,
+    "page": 46,
+    "src": "/handbook/vermont/deer-freeze-or-bolt.png",
+    "width": 767
+  },
+  "deer-second-animal": {
+    "height": 138,
+    "page": 46,
+    "src": "/handbook/vermont/deer-second-animal.png",
+    "width": 767
+  },
+  "deer-when-active": {
+    "height": 139,
+    "page": 46,
+    "src": "/handbook/vermont/deer-when-active.png",
+    "width": 767
+  },
+  "distract-anything": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/vermont/distract-anything.png",
+    "width": 772
+  },
+  "distract-eating": {
+    "height": 116,
+    "page": 56,
+    "src": "/handbook/vermont/distract-eating.png",
+    "width": 767
+  },
+  "distract-emotions": {
+    "height": 139,
+    "page": 56,
+    "src": "/handbook/vermont/distract-emotions.png",
+    "width": 767
+  },
+  "distract-grooming": {
+    "height": 116,
+    "page": 56,
+    "src": "/handbook/vermont/distract-grooming.png",
+    "width": 738
+  },
+  "distract-leave-early": {
+    "height": 116,
+    "page": 56,
+    "src": "/handbook/vermont/distract-leave-early.png",
+    "width": 767
+  },
+  "distract-let-it-ring": {
+    "height": 129,
+    "page": 57,
+    "src": "/handbook/vermont/distract-let-it-ring.png",
+    "width": 767
+  },
+  "distract-miss-hazards": {
+    "height": 128,
+    "page": 56,
+    "src": "/handbook/vermont/distract-miss-hazards.png",
+    "width": 767
+  },
+  "distract-no-messages": {
+    "height": 117,
+    "page": 56,
+    "src": "/handbook/vermont/distract-no-messages.png",
+    "width": 767
+  },
+  "distract-pets": {
+    "height": 116,
+    "page": 56,
+    "src": "/handbook/vermont/distract-pets.png",
+    "width": 738
+  },
+  "distract-secure-phone": {
+    "height": 116,
+    "page": 57,
+    "src": "/handbook/vermont/distract-secure-phone.png",
+    "width": 767
+  },
+  "distract-slower-reaction": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/vermont/distract-slower-reaction.png",
+    "width": 772
+  },
+  "distract-vermont-crashes": {
+    "height": 138,
+    "page": 56,
+    "src": "/handbook/vermont/distract-vermont-crashes.png",
+    "width": 767
+  },
+  "distract-workzone-points": {
+    "height": 185,
+    "page": 56,
+    "src": "/handbook/vermont/distract-workzone-points.png",
+    "width": 767
+  },
+  "drowsy-appear-drunk": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/vermont/drowsy-appear-drunk.png",
+    "width": 767
+  },
+  "drowsy-falls-asleep": {
+    "height": 185,
+    "page": 55,
+    "src": "/handbook/vermont/drowsy-falls-asleep.png",
+    "width": 767
+  },
+  "drowsy-pull-over": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/vermont/drowsy-pull-over.png",
+    "width": 777
+  },
+  "drowsy-signs": {
+    "height": 116,
+    "page": 55,
+    "src": "/handbook/vermont/drowsy-signs.png",
+    "width": 767
+  },
+  "drowsy-window-radio": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/vermont/drowsy-window-radio.png",
+    "width": 767
+  },
+  "dui-bac-08": {
+    "height": 116,
+    "page": 53,
+    "src": "/handbook/vermont/dui-bac-08.png",
+    "width": 772
+  },
+  "dui-civil-before-criminal": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/vermont/dui-civil-before-criminal.png",
+    "width": 767
+  },
+  "dui-coffee-shower-exercise": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/vermont/dui-coffee-shower-exercise.png",
+    "width": 767
+  },
+  "dui-conviction-consequences": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/vermont/dui-conviction-consequences.png",
+    "width": 767
+  },
+  "dui-depressant": {
+    "height": 138,
+    "page": 54,
+    "src": "/handbook/vermont/dui-depressant.png",
+    "width": 767
+  },
+  "dui-designated-driver": {
+    "height": 162,
+    "page": 54,
+    "src": "/handbook/vermont/dui-designated-driver.png",
+    "width": 767
+  },
+  "dui-effect-judgment": {
+    "height": 117,
+    "page": 54,
+    "src": "/handbook/vermont/dui-effect-judgment.png",
+    "width": 767
+  },
+  "dui-effect-reaction": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/vermont/dui-effect-reaction.png",
+    "width": 777
+  },
+  "dui-effect-speed-sense": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/vermont/dui-effect-speed-sense.png",
+    "width": 767
+  },
+  "dui-effect-vision": {
+    "height": 117,
+    "page": 54,
+    "src": "/handbook/vermont/dui-effect-vision.png",
+    "width": 767
+  },
+  "dui-encare-signs": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/vermont/dui-encare-signs.png",
+    "width": 767
+  },
+  "dui-hour-per-drink": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/vermont/dui-hour-per-drink.png",
+    "width": 777
+  },
+  "dui-impaired-below-08": {
+    "height": 162,
+    "page": 53,
+    "src": "/handbook/vermont/dui-impaired-below-08.png",
+    "width": 767
+  },
+  "dui-implied-consent": {
+    "height": 162,
+    "page": 54,
+    "src": "/handbook/vermont/dui-implied-consent.png",
+    "width": 767
+  },
+  "dui-keys-to-friend": {
+    "height": 139,
+    "page": 55,
+    "src": "/handbook/vermont/dui-keys-to-friend.png",
+    "width": 772
+  },
+  "dui-no-coffee": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/vermont/dui-no-coffee.png",
+    "width": 777
+  },
+  "dui-number-one-cause": {
+    "height": 139,
+    "page": 53,
+    "src": "/handbook/vermont/dui-number-one-cause.png",
+    "width": 767
+  },
+  "dui-officer-may-ask": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/vermont/dui-officer-may-ask.png",
+    "width": 767
+  },
+  "dui-prescription-drugs": {
+    "height": 139,
+    "page": 53,
+    "src": "/handbook/vermont/dui-prescription-drugs.png",
+    "width": 767
+  },
+  "dui-refusal-six-months": {
+    "height": 139,
+    "page": 54,
+    "src": "/handbook/vermont/dui-refusal-six-months.png",
+    "width": 767
+  },
+  "dui-time-only-way": {
+    "height": 116,
+    "page": 54,
+    "src": "/handbook/vermont/dui-time-only-way.png",
+    "width": 777
+  },
+  "dui-under-21-02": {
+    "height": 139,
+    "page": 53,
+    "src": "/handbook/vermont/dui-under-21-02.png",
+    "width": 767
+  },
+  "dui-under-21-consequences": {
+    "height": 162,
+    "page": 53,
+    "src": "/handbook/vermont/dui-under-21-consequences.png",
+    "width": 767
+  },
+  "follow-checkpoint": {
+    "height": 161,
+    "page": 29,
+    "src": "/handbook/vermont/follow-checkpoint.png",
+    "width": 767
+  },
+  "follow-counting-method": {
+    "height": 140,
+    "page": 29,
+    "src": "/handbook/vermont/follow-counting-method.png",
+    "width": 767
+  },
+  "follow-determined-by-speed": {
+    "height": 139,
+    "page": 28,
+    "src": "/handbook/vermont/follow-determined-by-speed.png",
+    "width": 767
+  },
+  "follow-four-or-more": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/vermont/follow-four-or-more.png",
+    "width": 767
+  },
+  "follow-four-seconds": {
+    "height": 161,
+    "page": 28,
+    "src": "/handbook/vermont/follow-four-seconds.png",
+    "width": 767
+  },
+  "follow-less-than-four": {
+    "height": 162,
+    "page": 29,
+    "src": "/handbook/vermont/follow-less-than-four.png",
+    "width": 767
+  },
+  "follow-more-in-poor-conditions": {
+    "height": 161,
+    "page": 28,
+    "src": "/handbook/vermont/follow-more-in-poor-conditions.png",
+    "width": 767
+  },
+  "follow-stopping-distances": {
+    "height": 162,
+    "page": 36,
+    "src": "/handbook/vermont/follow-stopping-distances.png",
+    "width": 703
+  },
+  "follow-workzone-four": {
+    "height": 116,
+    "page": 36,
+    "src": "/handbook/vermont/follow-workzone-four.png",
+    "width": 703
+  },
+  "gdl-accompanied-25": {
+    "height": 151,
+    "page": 21,
+    "src": "/handbook/vermont/gdl-accompanied-25.png",
+    "width": 767
+  },
+  "gdl-applies": {
+    "height": 139,
+    "page": 21,
+    "src": "/handbook/vermont/gdl-applies.png",
+    "width": 777
+  },
+  "gdl-parent-may-suspend": {
+    "height": 116,
+    "page": 74,
+    "src": "/handbook/vermont/gdl-parent-may-suspend.png",
+    "width": 768
+  },
+  "gdl-recall-cph": {
+    "height": 115,
+    "page": 22,
+    "src": "/handbook/vermont/gdl-recall-cph.png",
+    "width": 723
+  },
+  "gdl-recall-dfe": {
+    "height": 139,
+    "page": 22,
+    "src": "/handbook/vermont/gdl-recall-dfe.png",
+    "width": 731
+  },
+  "gdl-recall-ineligible": {
+    "height": 139,
+    "page": 22,
+    "src": "/handbook/vermont/gdl-recall-ineligible.png",
+    "width": 736
+  },
+  "gdl-recall-no-fee": {
+    "height": 138,
+    "page": 22,
+    "src": "/handbook/vermont/gdl-recall-no-fee.png",
+    "width": 731
+  },
+  "gdl-recall-points": {
+    "height": 138,
+    "page": 22,
+    "src": "/handbook/vermont/gdl-recall-points.png",
+    "width": 731
+  },
+  "gdl-recall-texting": {
+    "height": 139,
+    "page": 22,
+    "src": "/handbook/vermont/gdl-recall-texting.png",
+    "width": 731
+  },
+  "gdl-stages-15-to-18": {
+    "height": 168,
+    "page": 23,
+    "src": "/handbook/vermont/gdl-stages-15-to-18.png",
+    "width": 770
+  },
+  "hazard-500-feet-headlights": {
+    "height": 139,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-500-feet-headlights.png",
+    "width": 767
+  },
+  "hazard-abandon-vehicle": {
+    "height": 115,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-abandon-vehicle.png",
+    "width": 777
+  },
+  "hazard-downed-wires": {
+    "height": 116,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-downed-wires.png",
+    "width": 767
+  },
+  "hazard-four-inches": {
+    "height": 138,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-four-inches.png",
+    "width": 767
+  },
+  "hazard-low-beams-fog": {
+    "height": 139,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-low-beams-fog.png",
+    "width": 767
+  },
+  "hazard-more-than-four-seconds": {
+    "height": 139,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-more-than-four-seconds.png",
+    "width": 767
+  },
+  "hazard-no-barricades": {
+    "height": 139,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-no-barricades.png",
+    "width": 767
+  },
+  "hazard-no-cruise": {
+    "height": 116,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-no-cruise.png",
+    "width": 767
+  },
+  "hazard-stay-home": {
+    "height": 139,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-stay-home.png",
+    "width": 767
+  },
+  "hazard-water-over-road": {
+    "height": 115,
+    "page": 47,
+    "src": "/handbook/vermont/hazard-water-over-road.png",
+    "width": 777
+  },
+  "idle-statute-unattended": {
+    "height": 139,
+    "page": 69,
+    "src": "/handbook/vermont/idle-statute-unattended.png",
+    "width": 767
+  },
+  "idle-ten-seconds": {
+    "height": 139,
+    "page": 69,
+    "src": "/handbook/vermont/idle-ten-seconds.png",
+    "width": 767
+  },
+  "idle-warm-up-30-seconds": {
+    "height": 116,
+    "page": 69,
+    "src": "/handbook/vermont/idle-warm-up-30-seconds.png",
+    "width": 767
+  },
+  "ins-15-days-to-show": {
+    "height": 139,
+    "page": 68,
+    "src": "/handbook/vermont/ins-15-days-to-show.png",
+    "width": 767
+  },
+  "ins-carry-card": {
+    "height": 162,
+    "page": 68,
+    "src": "/handbook/vermont/ins-carry-card.png",
+    "width": 767
+  },
+  "ins-crash-not-your-fault": {
+    "height": 116,
+    "page": 69,
+    "src": "/handbook/vermont/ins-crash-not-your-fault.png",
+    "width": 767
+  },
+  "ins-minimums": {
+    "height": 139,
+    "page": 68,
+    "src": "/handbook/vermont/ins-minimums.png",
+    "width": 767
+  },
+  "ins-must-be-covered": {
+    "height": 139,
+    "page": 68,
+    "src": "/handbook/vermont/ins-must-be-covered.png",
+    "width": 767
+  },
+  "ins-no-insurance-points": {
+    "height": 139,
+    "page": 68,
+    "src": "/handbook/vermont/ins-no-insurance-points.png",
+    "width": 767
+  },
+  "ins-three-years-proof": {
+    "height": 138,
+    "page": 69,
+    "src": "/handbook/vermont/ins-three-years-proof.png",
+    "width": 767
+  },
+  "inter-breakdown-lane": {
+    "height": 138,
+    "page": 52,
+    "src": "/handbook/vermont/inter-breakdown-lane.png",
+    "width": 772
+  },
+  "inter-crossovers": {
+    "height": 116,
+    "page": 52,
+    "src": "/handbook/vermont/inter-crossovers.png",
+    "width": 772
+  },
+  "inter-definition": {
+    "height": 116,
+    "page": 51,
+    "src": "/handbook/vermont/inter-definition.png",
+    "width": 767
+  },
+  "inter-entering-must-yield": {
+    "height": 139,
+    "page": 51,
+    "src": "/handbook/vermont/inter-entering-must-yield.png",
+    "width": 767
+  },
+  "inter-entrance-ramp": {
+    "height": 139,
+    "page": 51,
+    "src": "/handbook/vermont/inter-entrance-ramp.png",
+    "width": 767
+  },
+  "inter-entrance-sequence": {
+    "height": 162,
+    "page": 51,
+    "src": "/handbook/vermont/inter-entrance-sequence.png",
+    "width": 767
+  },
+  "inter-exit-ramp": {
+    "height": 185,
+    "page": 51,
+    "src": "/handbook/vermont/inter-exit-ramp.png",
+    "width": 767
+  },
+  "inter-four-second-rule": {
+    "height": 139,
+    "page": 51,
+    "src": "/handbook/vermont/inter-four-second-rule.png",
+    "width": 767
+  },
+  "inter-missed-exit": {
+    "height": 139,
+    "page": 52,
+    "src": "/handbook/vermont/inter-missed-exit.png",
+    "width": 772
+  },
+  "inter-never-stop-in-lane": {
+    "height": 128,
+    "page": 52,
+    "src": "/handbook/vermont/inter-never-stop-in-lane.png",
+    "width": 772
+  },
+  "inter-no-cruise-bad-weather": {
+    "height": 208,
+    "page": 52,
+    "src": "/handbook/vermont/inter-no-cruise-bad-weather.png",
+    "width": 772
+  },
+  "inter-raise-hood": {
+    "height": 161,
+    "page": 52,
+    "src": "/handbook/vermont/inter-raise-hood.png",
+    "width": 772
+  },
+  "inter-right-lane": {
+    "height": 162,
+    "page": 52,
+    "src": "/handbook/vermont/inter-right-lane.png",
+    "width": 772
+  },
+  "inter-speed-change-lanes": {
+    "height": 162,
+    "page": 51,
+    "src": "/handbook/vermont/inter-speed-change-lanes.png",
+    "width": 767
+  },
+  "inter-tired": {
+    "height": 116,
+    "page": 52,
+    "src": "/handbook/vermont/inter-tired.png",
+    "width": 772
+  },
+  "junior-40-hours": {
+    "height": 162,
+    "page": 14,
+    "src": "/handbook/vermont/junior-40-hours.png",
+    "width": 767
+  },
+  "junior-40-in-addition": {
+    "height": 198,
+    "page": 15,
+    "src": "/handbook/vermont/junior-40-in-addition.png",
+    "width": 767
+  },
+  "junior-after-six-months": {
+    "height": 138,
+    "page": 16,
+    "src": "/handbook/vermont/junior-after-six-months.png",
+    "width": 767
+  },
+  "junior-age-16-17": {
+    "height": 139,
+    "page": 14,
+    "src": "/handbook/vermont/junior-age-16-17.png",
+    "width": 767
+  },
+  "junior-belts-limit": {
+    "height": 138,
+    "page": 16,
+    "src": "/handbook/vermont/junior-belts-limit.png",
+    "width": 767
+  },
+  "junior-clean-six-months": {
+    "height": 116,
+    "page": 14,
+    "src": "/handbook/vermont/junior-clean-six-months.png",
+    "width": 767
+  },
+  "junior-driver-ed-hours": {
+    "height": 162,
+    "page": 14,
+    "src": "/handbook/vermont/junior-driver-ed-hours.png",
+    "width": 767
+  },
+  "junior-first-three-months": {
+    "height": 138,
+    "page": 16,
+    "src": "/handbook/vermont/junior-first-three-months.png",
+    "width": 767
+  },
+  "junior-hold-permit-year": {
+    "height": 139,
+    "page": 14,
+    "src": "/handbook/vermont/junior-hold-permit-year.png",
+    "width": 767
+  },
+  "junior-log-sheet": {
+    "height": 161,
+    "page": 15,
+    "src": "/handbook/vermont/junior-log-sheet.png",
+    "width": 767
+  },
+  "junior-nighttime-defined": {
+    "height": 139,
+    "page": 14,
+    "src": "/handbook/vermont/junior-nighttime-defined.png",
+    "width": 767
+  },
+  "junior-no-device": {
+    "height": 115,
+    "page": 16,
+    "src": "/handbook/vermont/junior-no-device.png",
+    "width": 767
+  },
+  "junior-no-employment-year": {
+    "height": 161,
+    "page": 16,
+    "src": "/handbook/vermont/junior-no-employment-year.png",
+    "width": 767
+  },
+  "junior-no-passengers-for-hire": {
+    "height": 139,
+    "page": 16,
+    "src": "/handbook/vermont/junior-no-passengers-for-hire.png",
+    "width": 767
+  },
+  "junior-parent-withdraw": {
+    "height": 139,
+    "page": 16,
+    "src": "/handbook/vermont/junior-parent-withdraw.png",
+    "width": 767
+  },
+  "junior-pizza-example": {
+    "height": 162,
+    "page": 16,
+    "src": "/handbook/vermont/junior-pizza-example.png",
+    "width": 767
+  },
+  "junior-provisional": {
+    "height": 115,
+    "page": 16,
+    "src": "/handbook/vermont/junior-provisional.png",
+    "width": 767
+  },
+  "junior-second-three-months": {
+    "height": 220,
+    "page": 22,
+    "src": "/handbook/vermont/junior-second-three-months.png",
+    "width": 767
+  },
+  "junior-supervisor-exception": {
+    "height": 184,
+    "page": 16,
+    "src": "/handbook/vermont/junior-supervisor-exception.png",
+    "width": 767
+  },
+  "junior-to-full-18": {
+    "height": 220,
+    "page": 22,
+    "src": "/handbook/vermont/junior-to-full-18.png",
+    "width": 767
+  },
+  "licence-age-18": {
+    "height": 139,
+    "page": 17,
+    "src": "/handbook/vermont/licence-age-18.png",
+    "width": 767
+  },
+  "licence-cdl-threshold": {
+    "height": 162,
+    "page": 71,
+    "src": "/handbook/vermont/licence-cdl-threshold.png",
+    "width": 767
+  },
+  "licence-cdl-transfer-30-days": {
+    "height": 162,
+    "page": 71,
+    "src": "/handbook/vermont/licence-cdl-transfer-30-days.png",
+    "width": 767
+  },
+  "licence-covers-what": {
+    "height": 139,
+    "page": 17,
+    "src": "/handbook/vermont/licence-covers-what.png",
+    "width": 767
+  },
+  "licence-expired-14-days": {
+    "height": 116,
+    "page": 25,
+    "src": "/handbook/vermont/licence-expired-14-days.png",
+    "width": 767
+  },
+  "licence-expired-retest": {
+    "height": 138,
+    "page": 25,
+    "src": "/handbook/vermont/licence-expired-retest.png",
+    "width": 767
+  },
+  "licence-expired-three-years-retest": {
+    "height": 162,
+    "page": 17,
+    "src": "/handbook/vermont/licence-expired-three-years-retest.png",
+    "width": 767
+  },
+  "licence-medical-notify": {
+    "height": 208,
+    "page": 72,
+    "src": "/handbook/vermont/licence-medical-notify.png",
+    "width": 767
+  },
+  "licence-motorcycle-endorsement": {
+    "height": 174,
+    "page": 18,
+    "src": "/handbook/vermont/licence-motorcycle-endorsement.png",
+    "width": 767
+  },
+  "licence-name-address-30-days": {
+    "height": 139,
+    "page": 25,
+    "src": "/handbook/vermont/licence-name-address-30-days.png",
+    "width": 767
+  },
+  "licence-new-resident-60-days": {
+    "height": 162,
+    "page": 13,
+    "src": "/handbook/vermont/licence-new-resident-60-days.png",
+    "width": 767
+  },
+  "licence-out-of-state-eye-exam": {
+    "height": 197,
+    "page": 17,
+    "src": "/handbook/vermont/licence-out-of-state-eye-exam.png",
+    "width": 767
+  },
+  "licence-pdps": {
+    "height": 185,
+    "page": 8,
+    "src": "/handbook/vermont/licence-pdps.png",
+    "width": 767
+  },
+  "licence-photo-8-years": {
+    "height": 138,
+    "page": 25,
+    "src": "/handbook/vermont/licence-photo-8-years.png",
+    "width": 767
+  },
+  "licence-privilege": {
+    "height": 162,
+    "page": 13,
+    "src": "/handbook/vermont/licence-privilege.png",
+    "width": 767
+  },
+  "licence-school-bus-endorsement": {
+    "height": 139,
+    "page": 18,
+    "src": "/handbook/vermont/licence-school-bus-endorsement.png",
+    "width": 767
+  },
+  "licence-suspended-elsewhere": {
+    "height": 185,
+    "page": 17,
+    "src": "/handbook/vermont/licence-suspended-elsewhere.png",
+    "width": 767
+  },
+  "light-best-practice": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/vermont/light-best-practice.png",
+    "width": 772
+  },
+  "light-daytime-20-percent": {
+    "height": 209,
+    "page": 50,
+    "src": "/handbook/vermont/light-daytime-20-percent.png",
+    "width": 772
+  },
+  "light-dim-promptly": {
+    "height": 231,
+    "page": 50,
+    "src": "/handbook/vermont/light-dim-promptly.png",
+    "width": 767
+  },
+  "light-drl-illusion": {
+    "height": 116,
+    "page": 50,
+    "src": "/handbook/vermont/light-drl-illusion.png",
+    "width": 767
+  },
+  "light-drls-not-headlights": {
+    "height": 138,
+    "page": 50,
+    "src": "/handbook/vermont/light-drls-not-headlights.png",
+    "width": 772
+  },
+  "light-half-hour-rule": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/vermont/light-half-hour-rule.png",
+    "width": 767
+  },
+  "light-high-beam-still-slower": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/vermont/light-high-beam-still-slower.png",
+    "width": 767
+  },
+  "light-high-beam-when": {
+    "height": 162,
+    "page": 50,
+    "src": "/handbook/vermont/light-high-beam-when.png",
+    "width": 767
+  },
+  "light-look-right-edge": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/vermont/light-look-right-edge.png",
+    "width": 767
+  },
+  "light-low-beam-following": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/vermont/light-low-beam-following.png",
+    "width": 767
+  },
+  "light-low-beam-when": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/vermont/light-low-beam-when.png",
+    "width": 767
+  },
+  "light-overdriving": {
+    "height": 139,
+    "page": 50,
+    "src": "/handbook/vermont/light-overdriving.png",
+    "width": 767
+  },
+  "light-overdriving-meaning": {
+    "height": 162,
+    "page": 50,
+    "src": "/handbook/vermont/light-overdriving-meaning.png",
+    "width": 767
+  },
+  "light-parking-lights": {
+    "height": 122,
+    "page": 50,
+    "src": "/handbook/vermont/light-parking-lights.png",
+    "width": 767
+  },
+  "light-see-four-seconds": {
+    "height": 116,
+    "page": 50,
+    "src": "/handbook/vermont/light-see-four-seconds.png",
+    "width": 767
+  },
+  "lose-tasp": {
+    "height": 139,
+    "page": 8,
+    "src": "/handbook/vermont/lose-tasp.png",
+    "width": 767
+  },
+  "marking-broken-in-your-lane": {
+    "height": 139,
+    "page": 35,
+    "src": "/handbook/vermont/marking-broken-in-your-lane.png",
+    "width": 767
+  },
+  "marking-broken-white": {
+    "height": 231,
+    "page": 35,
+    "src": "/handbook/vermont/marking-broken-white.png",
+    "width": 767
+  },
+  "marking-double-solid": {
+    "height": 161,
+    "page": 35,
+    "src": "/handbook/vermont/marking-double-solid.png",
+    "width": 767
+  },
+  "marking-follow-arrow": {
+    "height": 139,
+    "page": 36,
+    "src": "/handbook/vermont/marking-follow-arrow.png",
+    "width": 767
+  },
+  "marking-lane-use-left": {
+    "height": 139,
+    "page": 35,
+    "src": "/handbook/vermont/marking-lane-use-left.png",
+    "width": 767
+  },
+  "marking-lane-use-right": {
+    "height": 162,
+    "page": 35,
+    "src": "/handbook/vermont/marking-lane-use-right.png",
+    "width": 767
+  },
+  "marking-no-lane-change-turning": {
+    "height": 116,
+    "page": 36,
+    "src": "/handbook/vermont/marking-no-lane-change-turning.png",
+    "width": 767
+  },
+  "marking-purpose": {
+    "height": 161,
+    "page": 35,
+    "src": "/handbook/vermont/marking-purpose.png",
+    "width": 767
+  },
+  "marking-remain-in-lane": {
+    "height": 116,
+    "page": 35,
+    "src": "/handbook/vermont/marking-remain-in-lane.png",
+    "width": 767
+  },
+  "marking-solid-in-your-lane": {
+    "height": 162,
+    "page": 35,
+    "src": "/handbook/vermont/marking-solid-in-your-lane.png",
+    "width": 767
+  },
+  "marking-solid-no-pass": {
+    "height": 139,
+    "page": 35,
+    "src": "/handbook/vermont/marking-solid-no-pass.png",
+    "width": 767
+  },
+  "marking-stay-in-turn-path": {
+    "height": 162,
+    "page": 35,
+    "src": "/handbook/vermont/marking-stay-in-turn-path.png",
+    "width": 767
+  },
+  "marking-turn-lane-all-in": {
+    "height": 139,
+    "page": 35,
+    "src": "/handbook/vermont/marking-turn-lane-all-in.png",
+    "width": 533
+  },
+  "marking-two-way-left-turn": {
+    "height": 162,
+    "page": 35,
+    "src": "/handbook/vermont/marking-two-way-left-turn.png",
+    "width": 767
+  },
+  "marking-white-on-right": {
+    "height": 116,
+    "page": 52,
+    "src": "/handbook/vermont/marking-white-on-right.png",
+    "width": 772
+  },
+  "marking-workzone-temporary": {
+    "height": 162,
+    "page": 37,
+    "src": "/handbook/vermont/marking-workzone-temporary.png",
+    "width": 767
+  },
+  "marking-workzone-yellow-left": {
+    "height": 139,
+    "page": 37,
+    "src": "/handbook/vermont/marking-workzone-yellow-left.png",
+    "width": 767
+  },
+  "marking-yellow-centre": {
+    "height": 185,
+    "page": 35,
+    "src": "/handbook/vermont/marking-yellow-centre.png",
+    "width": 767
+  },
+  "marking-yellow-right-wrong-way": {
+    "height": 139,
+    "page": 52,
+    "src": "/handbook/vermont/marking-yellow-right-wrong-way.png",
+    "width": 772
+  },
+  "marking-yield-line": {
+    "height": 162,
+    "page": 35,
+    "src": "/handbook/vermont/marking-yield-line.png",
+    "width": 767
+  },
+  "moose-darker": {
+    "height": 115,
+    "page": 46,
+    "src": "/handbook/vermont/moose-darker.png",
+    "width": 767
+  },
+  "moose-eyes-do-not-reflect": {
+    "height": 138,
+    "page": 46,
+    "src": "/handbook/vermont/moose-eyes-do-not-reflect.png",
+    "width": 767
+  },
+  "moose-heavier": {
+    "height": 139,
+    "page": 46,
+    "src": "/handbook/vermont/moose-heavier.png",
+    "width": 767
+  },
+  "moose-land-on-vehicle": {
+    "height": 139,
+    "page": 46,
+    "src": "/handbook/vermont/moose-land-on-vehicle.png",
+    "width": 767
+  },
+  "moto-change-lanes-completely": {
+    "height": 128,
+    "page": 44,
+    "src": "/handbook/vermont/moto-change-lanes-completely.png",
+    "width": 767
+  },
+  "moto-four-second-cushion": {
+    "height": 139,
+    "page": 43,
+    "src": "/handbook/vermont/moto-four-second-cushion.png",
+    "width": 767
+  },
+  "moto-full-lane": {
+    "height": 105,
+    "page": 44,
+    "src": "/handbook/vermont/moto-full-lane.png",
+    "width": 767
+  },
+  "moto-hidden": {
+    "height": 162,
+    "page": 43,
+    "src": "/handbook/vermont/moto-hidden.png",
+    "width": 767
+  },
+  "moto-lane-position": {
+    "height": 138,
+    "page": 43,
+    "src": "/handbook/vermont/moto-lane-position.png",
+    "width": 767
+  },
+  "moto-looks-farther": {
+    "height": 116,
+    "page": 43,
+    "src": "/handbook/vermont/moto-looks-farther.png",
+    "width": 767
+  },
+  "moto-more-than-four-seconds": {
+    "height": 115,
+    "page": 43,
+    "src": "/handbook/vermont/moto-more-than-four-seconds.png",
+    "width": 767
+  },
+  "moto-night-lights": {
+    "height": 139,
+    "page": 43,
+    "src": "/handbook/vermont/moto-night-lights.png",
+    "width": 767
+  },
+  "moto-no-brake-light": {
+    "height": 138,
+    "page": 43,
+    "src": "/handbook/vermont/moto-no-brake-light.png",
+    "width": 767
+  },
+  "moto-no-cut-in": {
+    "height": 116,
+    "page": 44,
+    "src": "/handbook/vermont/moto-no-cut-in.png",
+    "width": 767
+  },
+  "moto-passenger": {
+    "height": 116,
+    "page": 43,
+    "src": "/handbook/vermont/moto-passenger.png",
+    "width": 767
+  },
+  "moto-predict-closer": {
+    "height": 138,
+    "page": 43,
+    "src": "/handbook/vermont/moto-predict-closer.png",
+    "width": 767
+  },
+  "moto-same-rights": {
+    "height": 138,
+    "page": 43,
+    "src": "/handbook/vermont/moto-same-rights.png",
+    "width": 767
+  },
+  "moto-signals-not-self-cancelling": {
+    "height": 139,
+    "page": 43,
+    "src": "/handbook/vermont/moto-signals-not-self-cancelling.png",
+    "width": 767
+  },
+  "moto-slippery-stopping": {
+    "height": 139,
+    "page": 43,
+    "src": "/handbook/vermont/moto-slippery-stopping.png",
+    "width": 767
+  },
+  "moveover-20-below": {
+    "height": 139,
+    "page": 52,
+    "src": "/handbook/vermont/moveover-20-below.png",
+    "width": 772
+  },
+  "moveover-amber": {
+    "height": 117,
+    "page": 32,
+    "src": "/handbook/vermont/moveover-amber.png",
+    "width": 767
+  },
+  "moveover-interstate-lane-change": {
+    "height": 162,
+    "page": 52,
+    "src": "/handbook/vermont/moveover-interstate-lane-change.png",
+    "width": 772
+  },
+  "moveover-lane-change": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/vermont/moveover-lane-change.png",
+    "width": 772
+  },
+  "moveover-maintenance": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/vermont/moveover-maintenance.png",
+    "width": 772
+  },
+  "moveover-pull-right-stop": {
+    "height": 208,
+    "page": 32,
+    "src": "/handbook/vermont/moveover-pull-right-stop.png",
+    "width": 446
+  },
+  "moveover-remain-stopped": {
+    "height": 162,
+    "page": 32,
+    "src": "/handbook/vermont/moveover-remain-stopped.png",
+    "width": 772
+  },
+  "moveover-snowplough": {
+    "height": 138,
+    "page": 32,
+    "src": "/handbook/vermont/moveover-snowplough.png",
+    "width": 767
+  },
+  "moveover-stationary-caution": {
+    "height": 138,
+    "page": 32,
+    "src": "/handbook/vermont/moveover-stationary-caution.png",
+    "width": 772
+  },
+  "park-12-inches": {
+    "height": 139,
+    "page": 30,
+    "src": "/handbook/vermont/park-12-inches.png",
+    "width": 767
+  },
+  "park-150-feet-visibility": {
+    "height": 139,
+    "page": 30,
+    "src": "/handbook/vermont/park-150-feet-visibility.png",
+    "width": 777
+  },
+  "park-disabled-10-days": {
+    "height": 162,
+    "page": 72,
+    "src": "/handbook/vermont/park-disabled-10-days.png",
+    "width": 767
+  },
+  "park-disabled-fine": {
+    "height": 139,
+    "page": 72,
+    "src": "/handbook/vermont/park-disabled-fine.png",
+    "width": 767
+  },
+  "park-disabled-not-anywhere": {
+    "height": 139,
+    "page": 72,
+    "src": "/handbook/vermont/park-disabled-not-anywhere.png",
+    "width": 767
+  },
+  "park-hills-roll": {
+    "height": 139,
+    "page": 30,
+    "src": "/handbook/vermont/park-hills-roll.png",
+    "width": 777
+  },
+  "park-hills-wheels-and-brake": {
+    "height": 162,
+    "page": 30,
+    "src": "/handbook/vermont/park-hills-wheels-and-brake.png",
+    "width": 767
+  },
+  "park-no-cross-centre-line": {
+    "height": 116,
+    "page": 30,
+    "src": "/handbook/vermont/park-no-cross-centre-line.png",
+    "width": 767
+  },
+  "park-one-way-12-inches": {
+    "height": 139,
+    "page": 30,
+    "src": "/handbook/vermont/park-one-way-12-inches.png",
+    "width": 767
+  },
+  "park-rural-all-wheels-off": {
+    "height": 139,
+    "page": 30,
+    "src": "/handbook/vermont/park-rural-all-wheels-off.png",
+    "width": 777
+  },
+  "park-same-direction": {
+    "height": 139,
+    "page": 30,
+    "src": "/handbook/vermont/park-same-direction.png",
+    "width": 777
+  },
+  "pass-being-passed": {
+    "height": 138,
+    "page": 53,
+    "src": "/handbook/vermont/pass-being-passed.png",
+    "width": 767
+  },
+  "pass-enough-distance": {
+    "height": 139,
+    "page": 52,
+    "src": "/handbook/vermont/pass-enough-distance.png",
+    "width": 767
+  },
+  "pass-four-feet-clearance": {
+    "height": 138,
+    "page": 53,
+    "src": "/handbook/vermont/pass-four-feet-clearance.png",
+    "width": 767
+  },
+  "pass-headlight-flash": {
+    "height": 139,
+    "page": 52,
+    "src": "/handbook/vermont/pass-headlight-flash.png",
+    "width": 772
+  },
+  "pass-never-off-pavement": {
+    "height": 139,
+    "page": 53,
+    "src": "/handbook/vermont/pass-never-off-pavement.png",
+    "width": 767
+  },
+  "pass-on-the-left": {
+    "height": 115,
+    "page": 53,
+    "src": "/handbook/vermont/pass-on-the-left.png",
+    "width": 767
+  },
+  "pass-return-right": {
+    "height": 162,
+    "page": 53,
+    "src": "/handbook/vermont/pass-return-right.png",
+    "width": 767
+  },
+  "pass-right-multilane": {
+    "height": 115,
+    "page": 53,
+    "src": "/handbook/vermont/pass-right-multilane.png",
+    "width": 767
+  },
+  "pass-right-turning-left": {
+    "height": 162,
+    "page": 53,
+    "src": "/handbook/vermont/pass-right-turning-left.png",
+    "width": 767
+  },
+  "pass-see-in-mirror": {
+    "height": 162,
+    "page": 53,
+    "src": "/handbook/vermont/pass-see-in-mirror.png",
+    "width": 767
+  },
+  "pass-signal-and-check": {
+    "height": 185,
+    "page": 52,
+    "src": "/handbook/vermont/pass-signal-and-check.png",
+    "width": 767
+  },
+  "ped-backing-driveway": {
+    "height": 105,
+    "page": 40,
+    "src": "/handbook/vermont/ped-backing-driveway.png",
+    "width": 767
+  },
+  "ped-blind-white-cane": {
+    "height": 161,
+    "page": 39,
+    "src": "/handbook/vermont/ped-blind-white-cane.png",
+    "width": 767
+  },
+  "ped-careless-still-yield": {
+    "height": 139,
+    "page": 39,
+    "src": "/handbook/vermont/ped-careless-still-yield.png",
+    "width": 663
+  },
+  "ped-children-quick": {
+    "height": 139,
+    "page": 39,
+    "src": "/handbook/vermont/ped-children-quick.png",
+    "width": 767
+  },
+  "ped-do-not-block-crosswalk": {
+    "height": 116,
+    "page": 39,
+    "src": "/handbook/vermont/ped-do-not-block-crosswalk.png",
+    "width": 767
+  },
+  "ped-dont-walk-flashing": {
+    "height": 115,
+    "page": 40,
+    "src": "/handbook/vermont/ped-dont-walk-flashing.png",
+    "width": 772
+  },
+  "ped-driveway-sidewalk": {
+    "height": 139,
+    "page": 39,
+    "src": "/handbook/vermont/ped-driveway-sidewalk.png",
+    "width": 767
+  },
+  "ped-frequent-cause-of-death": {
+    "height": 139,
+    "page": 39,
+    "src": "/handbook/vermont/ped-frequent-cause-of-death.png",
+    "width": 767
+  },
+  "ped-must-not-step-out": {
+    "height": 186,
+    "page": 40,
+    "src": "/handbook/vermont/ped-must-not-step-out.png",
+    "width": 767
+  },
+  "ped-no-hitchhikers": {
+    "height": 116,
+    "page": 39,
+    "src": "/handbook/vermont/ped-no-hitchhikers.png",
+    "width": 767
+  },
+  "ped-no-pass-stopped-vehicle": {
+    "height": 139,
+    "page": 39,
+    "src": "/handbook/vermont/ped-no-pass-stopped-vehicle.png",
+    "width": 767
+  },
+  "ped-turning-side-streets": {
+    "height": 115,
+    "page": 39,
+    "src": "/handbook/vermont/ped-turning-side-streets.png",
+    "width": 772
+  },
+  "ped-walk-facing-traffic": {
+    "height": 162,
+    "page": 40,
+    "src": "/handbook/vermont/ped-walk-facing-traffic.png",
+    "width": 767
+  },
+  "ped-watch-carefully": {
+    "height": 139,
+    "page": 38,
+    "src": "/handbook/vermont/ped-watch-carefully.png",
+    "width": 767
+  },
+  "permit-age-15": {
+    "height": 116,
+    "page": 13,
+    "src": "/handbook/vermont/permit-age-15.png",
+    "width": 767
+  },
+  "permit-clean-record-two-years": {
+    "height": 116,
+    "page": 13,
+    "src": "/handbook/vermont/permit-clean-record-two-years.png",
+    "width": 767
+  },
+  "permit-expired-three-years": {
+    "height": 162,
+    "page": 14,
+    "src": "/handbook/vermont/permit-expired-three-years.png",
+    "width": 767
+  },
+  "permit-issued-after-test": {
+    "height": 139,
+    "page": 13,
+    "src": "/handbook/vermont/permit-issued-after-test.png",
+    "width": 767
+  },
+  "permit-non-resident": {
+    "height": 162,
+    "page": 11,
+    "src": "/handbook/vermont/permit-non-resident.png",
+    "width": 767
+  },
+  "permit-other-states": {
+    "height": 162,
+    "page": 14,
+    "src": "/handbook/vermont/permit-other-states.png",
+    "width": 767
+  },
+  "permit-parent-signature": {
+    "height": 139,
+    "page": 13,
+    "src": "/handbook/vermont/permit-parent-signature.png",
+    "width": 767
+  },
+  "permit-practice-empty-lot": {
+    "height": 139,
+    "page": 26,
+    "src": "/handbook/vermont/permit-practice-empty-lot.png",
+    "width": 777
+  },
+  "permit-pull-over-if-slow": {
+    "height": 162,
+    "page": 26,
+    "src": "/handbook/vermont/permit-pull-over-if-slow.png",
+    "width": 767
+  },
+  "permit-supervision": {
+    "height": 184,
+    "page": 14,
+    "src": "/handbook/vermont/permit-supervision.png",
+    "width": 767
+  },
+  "permit-who-needs": {
+    "height": 139,
+    "page": 13,
+    "src": "/handbook/vermont/permit-who-needs.png",
+    "width": 767
+  },
+  "points-hearing": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/vermont/points-hearing.png",
+    "width": 772
+  },
+  "points-more-is-longer": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/vermont/points-more-is-longer.png",
+    "width": 772
+  },
+  "points-not-parking": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/vermont/points-not-parking.png",
+    "width": 772
+  },
+  "points-ten-suspension": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/vermont/points-ten-suspension.png",
+    "width": 772
+  },
+  "points-two-year-window": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/vermont/points-two-year-window.png",
+    "width": 772
+  },
+  "points-when-guilty": {
+    "height": 139,
+    "page": 65,
+    "src": "/handbook/vermont/points-when-guilty.png",
+    "width": 772
+  },
+  "police-interior-lights": {
+    "height": 139,
+    "page": 31,
+    "src": "/handbook/vermont/police-interior-lights.png",
+    "width": 731
+  },
+  "police-keep-belt": {
+    "height": 116,
+    "page": 31,
+    "src": "/handbook/vermont/police-keep-belt.png",
+    "width": 731
+  },
+  "police-limit-movements": {
+    "height": 116,
+    "page": 31,
+    "src": "/handbook/vermont/police-limit-movements.png",
+    "width": 731
+  },
+  "police-not-in-intersection": {
+    "height": 138,
+    "page": 31,
+    "src": "/handbook/vermont/police-not-in-intersection.png",
+    "width": 731
+  },
+  "police-not-roadside-argument": {
+    "height": 116,
+    "page": 31,
+    "src": "/handbook/vermont/police-not-roadside-argument.png",
+    "width": 731
+  },
+  "police-pull-right": {
+    "height": 115,
+    "page": 31,
+    "src": "/handbook/vermont/police-pull-right.png",
+    "width": 731
+  },
+  "police-show-documents": {
+    "height": 139,
+    "page": 31,
+    "src": "/handbook/vermont/police-show-documents.png",
+    "width": 731
+  },
+  "police-stay-in-vehicle": {
+    "height": 115,
+    "page": 31,
+    "src": "/handbook/vermont/police-stay-in-vehicle.png",
+    "width": 731
+  },
+  "rail-emergency-number": {
+    "height": 139,
+    "page": 38,
+    "src": "/handbook/vermont/rail-emergency-number.png",
+    "width": 767
+  },
+  "rail-no-gate-crossing": {
+    "height": 185,
+    "page": 38,
+    "src": "/handbook/vermont/rail-no-gate-crossing.png",
+    "width": 767
+  },
+  "rail-no-passing": {
+    "height": 115,
+    "page": 38,
+    "src": "/handbook/vermont/rail-no-passing.png",
+    "width": 767
+  },
+  "rail-pedestrians-too": {
+    "height": 161,
+    "page": 38,
+    "src": "/handbook/vermont/rail-pedestrians-too.png",
+    "width": 767
+  },
+  "rail-proceed-when-safe": {
+    "height": 185,
+    "page": 38,
+    "src": "/handbook/vermont/rail-proceed-when-safe.png",
+    "width": 767
+  },
+  "rail-reduced-speed": {
+    "height": 138,
+    "page": 38,
+    "src": "/handbook/vermont/rail-reduced-speed.png",
+    "width": 767
+  },
+  "rail-stop-15-feet": {
+    "height": 162,
+    "page": 38,
+    "src": "/handbook/vermont/rail-stop-15-feet.png",
+    "width": 767
+  },
+  "react-braking-distance": {
+    "height": 161,
+    "page": 27,
+    "src": "/handbook/vermont/react-braking-distance.png",
+    "width": 767
+  },
+  "react-first-rain": {
+    "height": 161,
+    "page": 27,
+    "src": "/handbook/vermont/react-first-rain.png",
+    "width": 767
+  },
+  "react-four-things": {
+    "height": 116,
+    "page": 26,
+    "src": "/handbook/vermont/react-four-things.png",
+    "width": 767
+  },
+  "react-reaction-distance": {
+    "height": 139,
+    "page": 27,
+    "src": "/handbook/vermont/react-reaction-distance.png",
+    "width": 767
+  },
+  "react-three-quarters-second": {
+    "height": 139,
+    "page": 27,
+    "src": "/handbook/vermont/react-three-quarters-second.png",
+    "width": 767
+  },
+  "react-wet-icy-gravel": {
+    "height": 162,
+    "page": 27,
+    "src": "/handbook/vermont/react-wet-icy-gravel.png",
+    "width": 767
+  },
+  "reg-change-30-days": {
+    "height": 163,
+    "page": 67,
+    "src": "/handbook/vermont/reg-change-30-days.png",
+    "width": 767
+  },
+  "reg-moving-60-days": {
+    "height": 162,
+    "page": 66,
+    "src": "/handbook/vermont/reg-moving-60-days.png",
+    "width": 767
+  },
+  "reg-plates-clean": {
+    "height": 139,
+    "page": 66,
+    "src": "/handbook/vermont/reg-plates-clean.png",
+    "width": 767
+  },
+  "reg-proof-in-vehicle": {
+    "height": 139,
+    "page": 66,
+    "src": "/handbook/vermont/reg-proof-in-vehicle.png",
+    "width": 767
+  },
+  "reg-purchase-use-tax": {
+    "height": 162,
+    "page": 67,
+    "src": "/handbook/vermont/reg-purchase-use-tax.png",
+    "width": 767
+  },
+  "reg-rear-plate-50-feet": {
+    "height": 139,
+    "page": 66,
+    "src": "/handbook/vermont/reg-rear-plate-50-feet.png",
+    "width": 767
+  },
+  "reg-register-60-days": {
+    "height": 139,
+    "page": 66,
+    "src": "/handbook/vermont/reg-register-60-days.png",
+    "width": 767
+  },
+  "reg-vin-17": {
+    "height": 138,
+    "page": 68,
+    "src": "/handbook/vermont/reg-vin-17.png",
+    "width": 767
+  },
+  "roadtest-backing-responsible": {
+    "height": 139,
+    "page": 58,
+    "src": "/handbook/vermont/roadtest-backing-responsible.png",
+    "width": 767
+  },
+  "roadtest-downhill-no-coast": {
+    "height": 139,
+    "page": 57,
+    "src": "/handbook/vermont/roadtest-downhill-no-coast.png",
+    "width": 767
+  },
+  "roadtest-hill-brake-holds": {
+    "height": 116,
+    "page": 57,
+    "src": "/handbook/vermont/roadtest-hill-brake-holds.png",
+    "width": 767
+  },
+  "roadtest-hill-start": {
+    "height": 139,
+    "page": 57,
+    "src": "/handbook/vermont/roadtest-hill-start.png",
+    "width": 767
+  },
+  "roadtest-insurance-card": {
+    "height": 138,
+    "page": 15,
+    "src": "/handbook/vermont/roadtest-insurance-card.png",
+    "width": 767
+  },
+  "roadtest-never-back-intersection": {
+    "height": 139,
+    "page": 58,
+    "src": "/handbook/vermont/roadtest-never-back-intersection.png",
+    "width": 767
+  },
+  "roadtest-no-belts-no-test": {
+    "height": 138,
+    "page": 20,
+    "src": "/handbook/vermont/roadtest-no-belts-no-test.png",
+    "width": 772
+  },
+  "roadtest-parallel-park": {
+    "height": 139,
+    "page": 58,
+    "src": "/handbook/vermont/roadtest-parallel-park.png",
+    "width": 767
+  },
+  "roadtest-parallel-two-three-feet": {
+    "height": 116,
+    "page": 58,
+    "src": "/handbook/vermont/roadtest-parallel-two-three-feet.png",
+    "width": 772
+  },
+  "roadtest-parking-brake": {
+    "height": 161,
+    "page": 20,
+    "src": "/handbook/vermont/roadtest-parking-brake.png",
+    "width": 772
+  },
+  "roadtest-rental": {
+    "height": 139,
+    "page": 20,
+    "src": "/handbook/vermont/roadtest-rental.png",
+    "width": 767
+  },
+  "roadtest-turnaround": {
+    "height": 162,
+    "page": 57,
+    "src": "/handbook/vermont/roadtest-turnaround.png",
+    "width": 767
+  },
+  "roadtest-turnaround-safest": {
+    "height": 139,
+    "page": 58,
+    "src": "/handbook/vermont/roadtest-turnaround-safest.png",
+    "width": 767
+  },
+  "roadtest-vehicle-required": {
+    "height": 115,
+    "page": 20,
+    "src": "/handbook/vermont/roadtest-vehicle-required.png",
+    "width": 767
+  },
+  "roundabout-definition": {
+    "height": 220,
+    "page": 30,
+    "src": "/handbook/vermont/roundabout-definition.png",
+    "width": 767
+  },
+  "roundabout-emergency": {
+    "height": 162,
+    "page": 31,
+    "src": "/handbook/vermont/roundabout-emergency.png",
+    "width": 461
+  },
+  "roundabout-no-lane-change": {
+    "height": 139,
+    "page": 31,
+    "src": "/handbook/vermont/roundabout-no-lane-change.png",
+    "width": 767
+  },
+  "roundabout-pedestrians": {
+    "height": 139,
+    "page": 31,
+    "src": "/handbook/vermont/roundabout-pedestrians.png",
+    "width": 767
+  },
+  "roundabout-safe-gap": {
+    "height": 138,
+    "page": 31,
+    "src": "/handbook/vermont/roundabout-safe-gap.png",
+    "width": 767
+  },
+  "roundabout-signal-exit": {
+    "height": 139,
+    "page": 31,
+    "src": "/handbook/vermont/roundabout-signal-exit.png",
+    "width": 767
+  },
+  "roundabout-slow-speeds": {
+    "height": 138,
+    "page": 31,
+    "src": "/handbook/vermont/roundabout-slow-speeds.png",
+    "width": 767
+  },
+  "roundabout-two-lane": {
+    "height": 208,
+    "page": 31,
+    "src": "/handbook/vermont/roundabout-two-lane.png",
+    "width": 461
+  },
+  "roundabout-yield": {
+    "height": 115,
+    "page": 31,
+    "src": "/handbook/vermont/roundabout-yield.png",
+    "width": 767
+  },
+  "row-already-in-intersection": {
+    "height": 184,
+    "page": 29,
+    "src": "/handbook/vermont/row-already-in-intersection.png",
+    "width": 767
+  },
+  "row-clear-path": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/vermont/row-clear-path.png",
+    "width": 767
+  },
+  "row-driveway-yield": {
+    "height": 116,
+    "page": 29,
+    "src": "/handbook/vermont/row-driveway-yield.png",
+    "width": 767
+  },
+  "row-four-way-first": {
+    "height": 161,
+    "page": 29,
+    "src": "/handbook/vermont/row-four-way-first.png",
+    "width": 767
+  },
+  "row-four-way-tie": {
+    "height": 230,
+    "page": 29,
+    "src": "/handbook/vermont/row-four-way-tie.png",
+    "width": 767
+  },
+  "row-left-turn-yield": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/vermont/row-left-turn-yield.png",
+    "width": 767
+  },
+  "row-oncoming-bicyclist": {
+    "height": 162,
+    "page": 29,
+    "src": "/handbook/vermont/row-oncoming-bicyclist.png",
+    "width": 767
+  },
+  "row-search-all-directions": {
+    "height": 115,
+    "page": 29,
+    "src": "/handbook/vermont/row-search-all-directions.png",
+    "width": 767
+  },
+  "row-yield-sign-speed": {
+    "height": 162,
+    "page": 29,
+    "src": "/handbook/vermont/row-yield-sign-speed.png",
+    "width": 767
+  },
+  "sign-covered": {
+    "height": 162,
+    "page": 33,
+    "src": "/handbook/vermont/sign-covered.png",
+    "width": 767
+  },
+  "sign-crossbuck": {
+    "height": 107,
+    "page": 34,
+    "src": "/handbook/vermont/sign-crossbuck.png",
+    "width": 746
+  },
+  "sign-crossbuck-tracks": {
+    "height": 139,
+    "page": 34,
+    "src": "/handbook/vermont/sign-crossbuck-tracks.png",
+    "width": 557
+  },
+  "sign-downward-arrow": {
+    "height": 138,
+    "page": 34,
+    "src": "/handbook/vermont/sign-downward-arrow.png",
+    "width": 767
+  },
+  "sign-regulatory": {
+    "height": 138,
+    "page": 35,
+    "src": "/handbook/vermont/sign-regulatory.png",
+    "width": 598
+  },
+  "sign-regulatory-content": {
+    "height": 138,
+    "page": 35,
+    "src": "/handbook/vermont/sign-regulatory-content.png",
+    "width": 560
+  },
+  "sign-rr-circular": {
+    "height": 139,
+    "page": 33,
+    "src": "/handbook/vermont/sign-rr-circular.png",
+    "width": 557
+  },
+  "sign-shape-and-colour": {
+    "height": 144,
+    "page": 33,
+    "src": "/handbook/vermont/sign-shape-and-colour.png",
+    "width": 767
+  },
+  "sign-slow-moving-emblem": {
+    "height": 139,
+    "page": 34,
+    "src": "/handbook/vermont/sign-slow-moving-emblem.png",
+    "width": 557
+  },
+  "sign-stop-eight-sides": {
+    "height": 139,
+    "page": 33,
+    "src": "/handbook/vermont/sign-stop-eight-sides.png",
+    "width": 767
+  },
+  "sign-stop-where": {
+    "height": 162,
+    "page": 33,
+    "src": "/handbook/vermont/sign-stop-where.png",
+    "width": 557
+  },
+  "sign-two-tracks": {
+    "height": 138,
+    "page": 34,
+    "src": "/handbook/vermont/sign-two-tracks.png",
+    "width": 557
+  },
+  "sign-warning-examples": {
+    "height": 139,
+    "page": 34,
+    "src": "/handbook/vermont/sign-warning-examples.png",
+    "width": 767
+  },
+  "sign-warning-extra-info": {
+    "height": 162,
+    "page": 34,
+    "src": "/handbook/vermont/sign-warning-extra-info.png",
+    "width": 767
+  },
+  "sign-warning-purpose": {
+    "height": 162,
+    "page": 34,
+    "src": "/handbook/vermont/sign-warning-purpose.png",
+    "width": 767
+  },
+  "sign-warning-shape": {
+    "height": 115,
+    "page": 34,
+    "src": "/handbook/vermont/sign-warning-shape.png",
+    "width": 767
+  },
+  "sign-workzone-orange": {
+    "height": 138,
+    "page": 37,
+    "src": "/handbook/vermont/sign-workzone-orange.png",
+    "width": 461
+  },
+  "sign-workzone-warn": {
+    "height": 162,
+    "page": 37,
+    "src": "/handbook/vermont/sign-workzone-warn.png",
+    "width": 461
+  },
+  "sign-yield-shape": {
+    "height": 185,
+    "page": 33,
+    "src": "/handbook/vermont/sign-yield-shape.png",
+    "width": 557
+  },
+  "signal-100-feet": {
+    "height": 163,
+    "page": 27,
+    "src": "/handbook/vermont/signal-100-feet.png",
+    "width": 767
+  },
+  "signal-brake-lights": {
+    "height": 138,
+    "page": 27,
+    "src": "/handbook/vermont/signal-brake-lights.png",
+    "width": 767
+  },
+  "signal-dark-signal": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/vermont/signal-dark-signal.png",
+    "width": 767
+  },
+  "signal-fix-immediately": {
+    "height": 115,
+    "page": 27,
+    "src": "/handbook/vermont/signal-fix-immediately.png",
+    "width": 767
+  },
+  "signal-flashing-red": {
+    "height": 105,
+    "page": 33,
+    "src": "/handbook/vermont/signal-flashing-red.png",
+    "width": 767
+  },
+  "signal-flashing-red-yield": {
+    "height": 128,
+    "page": 33,
+    "src": "/handbook/vermont/signal-flashing-red-yield.png",
+    "width": 767
+  },
+  "signal-flashing-yellow": {
+    "height": 139,
+    "page": 33,
+    "src": "/handbook/vermont/signal-flashing-yellow.png",
+    "width": 767
+  },
+  "signal-flashing-yellow-arrow": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/vermont/signal-flashing-yellow-arrow.png",
+    "width": 767
+  },
+  "signal-flashing-yellow-arrow-oncoming": {
+    "height": 139,
+    "page": 33,
+    "src": "/handbook/vermont/signal-flashing-yellow-arrow-oncoming.png",
+    "width": 767
+  },
+  "signal-green": {
+    "height": 117,
+    "page": 32,
+    "src": "/handbook/vermont/signal-green.png",
+    "width": 698
+  },
+  "signal-green-arrow": {
+    "height": 116,
+    "page": 33,
+    "src": "/handbook/vermont/signal-green-arrow.png",
+    "width": 767
+  },
+  "signal-green-left-yield": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/vermont/signal-green-left-yield.png",
+    "width": 698
+  },
+  "signal-hand-signals-required": {
+    "height": 161,
+    "page": 27,
+    "src": "/handbook/vermont/signal-hand-signals-required.png",
+    "width": 767
+  },
+  "signal-no-right-on-red-arrow": {
+    "height": 139,
+    "page": 39,
+    "src": "/handbook/vermont/signal-no-right-on-red-arrow.png",
+    "width": 772
+  },
+  "signal-no-turn-on-red-lit": {
+    "height": 116,
+    "page": 39,
+    "src": "/handbook/vermont/signal-no-turn-on-red-lit.png",
+    "width": 772
+  },
+  "signal-no-turn-on-red-signs": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/vermont/signal-no-turn-on-red-signs.png",
+    "width": 698
+  },
+  "signal-officer-overrides": {
+    "height": 116,
+    "page": 32,
+    "src": "/handbook/vermont/signal-officer-overrides.png",
+    "width": 698
+  },
+  "signal-out-of-order": {
+    "height": 139,
+    "page": 32,
+    "src": "/handbook/vermont/signal-out-of-order.png",
+    "width": 767
+  },
+  "signal-red-arrow": {
+    "height": 140,
+    "page": 33,
+    "src": "/handbook/vermont/signal-red-arrow.png",
+    "width": 767
+  },
+  "signal-red-arrow-no-entry": {
+    "height": 138,
+    "page": 33,
+    "src": "/handbook/vermont/signal-red-arrow-no-entry.png",
+    "width": 767
+  },
+  "signal-red-stop-where": {
+    "height": 162,
+    "page": 32,
+    "src": "/handbook/vermont/signal-red-stop-where.png",
+    "width": 767
+  },
+  "signal-right-on-red": {
+    "height": 162,
+    "page": 32,
+    "src": "/handbook/vermont/signal-right-on-red.png",
+    "width": 767
+  },
+  "signal-three-to-five-seconds": {
+    "height": 139,
+    "page": 27,
+    "src": "/handbook/vermont/signal-three-to-five-seconds.png",
+    "width": 767
+  },
+  "signal-yellow": {
+    "height": 117,
+    "page": 32,
+    "src": "/handbook/vermont/signal-yellow.png",
+    "width": 698
+  },
+  "signal-yellow-arrow": {
+    "height": 163,
+    "page": 33,
+    "src": "/handbook/vermont/signal-yellow-arrow.png",
+    "width": 767
+  },
+  "signal-yellow-too-close": {
+    "height": 162,
+    "page": 32,
+    "src": "/handbook/vermont/signal-yellow-too-close.png",
+    "width": 698
+  },
+  "skid-abs-no-pumping": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/vermont/skid-abs-no-pumping.png",
+    "width": 767
+  },
+  "skid-avoid-foot-off-gas": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/vermont/skid-avoid-foot-off-gas.png",
+    "width": 767
+  },
+  "skid-avoid-slower": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/vermont/skid-avoid-slower.png",
+    "width": 767
+  },
+  "skid-cause": {
+    "height": 138,
+    "page": 49,
+    "src": "/handbook/vermont/skid-cause.png",
+    "width": 767
+  },
+  "skid-conditions": {
+    "height": 138,
+    "page": 49,
+    "src": "/handbook/vermont/skid-conditions.png",
+    "width": 767
+  },
+  "skid-fwd-no-warning": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/vermont/skid-fwd-no-warning.png",
+    "width": 767
+  },
+  "skid-recover-no-brakes": {
+    "height": 115,
+    "page": 49,
+    "src": "/handbook/vermont/skid-recover-no-brakes.png",
+    "width": 767
+  },
+  "skid-recover-repeat": {
+    "height": 139,
+    "page": 49,
+    "src": "/handbook/vermont/skid-recover-repeat.png",
+    "width": 767
+  },
+  "skid-recover-steer": {
+    "height": 116,
+    "page": 49,
+    "src": "/handbook/vermont/skid-recover-steer.png",
+    "width": 767
+  },
+  "skid-squeeze-brakes": {
+    "height": 138,
+    "page": 49,
+    "src": "/handbook/vermont/skid-squeeze-brakes.png",
+    "width": 767
+  },
+  "slow-vehicle-emblem": {
+    "height": 139,
+    "page": 45,
+    "src": "/handbook/vermont/slow-vehicle-emblem.png",
+    "width": 767
+  },
+  "slow-vehicle-more-than-four": {
+    "height": 138,
+    "page": 45,
+    "src": "/handbook/vermont/slow-vehicle-more-than-four.png",
+    "width": 767
+  },
+  "slow-vehicle-pass-cautiously": {
+    "height": 161,
+    "page": 45,
+    "src": "/handbook/vermont/slow-vehicle-pass-cautiously.png",
+    "width": 767
+  },
+  "slow-vehicle-right-to-road": {
+    "height": 138,
+    "page": 45,
+    "src": "/handbook/vermont/slow-vehicle-right-to-road.png",
+    "width": 767
+  },
+  "slow-vehicle-wide-turns": {
+    "height": 161,
+    "page": 45,
+    "src": "/handbook/vermont/slow-vehicle-wide-turns.png",
+    "width": 767
+  },
+  "slow-vehicle-wider-than-road": {
+    "height": 115,
+    "page": 45,
+    "src": "/handbook/vermont/slow-vehicle-wider-than-road.png",
+    "width": 767
+  },
+  "speed-50-default": {
+    "height": 162,
+    "page": 29,
+    "src": "/handbook/vermont/speed-50-default.png",
+    "width": 767
+  },
+  "speed-conditions-list": {
+    "height": 162,
+    "page": 29,
+    "src": "/handbook/vermont/speed-conditions-list.png",
+    "width": 767
+  },
+  "speed-interstate-65": {
+    "height": 138,
+    "page": 29,
+    "src": "/handbook/vermont/speed-interstate-65.png",
+    "width": 767
+  },
+  "speed-reasonable": {
+    "height": 139,
+    "page": 29,
+    "src": "/handbook/vermont/speed-reasonable.png",
+    "width": 767
+  },
+  "speed-school-not-only-hours": {
+    "height": 139,
+    "page": 39,
+    "src": "/handbook/vermont/speed-school-not-only-hours.png",
+    "width": 767
+  },
+  "speed-school-zone-when-flashing": {
+    "height": 162,
+    "page": 39,
+    "src": "/handbook/vermont/speed-school-zone-when-flashing.png",
+    "width": 767
+  },
+  "speed-ten-can-be-unsafe": {
+    "height": 138,
+    "page": 29,
+    "src": "/handbook/vermont/speed-ten-can-be-unsafe.png",
+    "width": 767
+  },
+  "speed-too-fast-crashes": {
+    "height": 138,
+    "page": 29,
+    "src": "/handbook/vermont/speed-too-fast-crashes.png",
+    "width": 767
+  },
+  "speed-under-control": {
+    "height": 138,
+    "page": 29,
+    "src": "/handbook/vermont/speed-under-control.png",
+    "width": 767
+  },
+  "speed-workzone-247": {
+    "height": 116,
+    "page": 36,
+    "src": "/handbook/vermont/speed-workzone-247.png",
+    "width": 767
+  },
+  "speed-workzone-fines-doubled": {
+    "height": 186,
+    "page": 36,
+    "src": "/handbook/vermont/speed-workzone-fines-doubled.png",
+    "width": 767
+  },
+  "speed-workzone-posted": {
+    "height": 116,
+    "page": 36,
+    "src": "/handbook/vermont/speed-workzone-posted.png",
+    "width": 703
+  },
+  "stranded-distress-flag": {
+    "height": 139,
+    "page": 48,
+    "src": "/handbook/vermont/stranded-distress-flag.png",
+    "width": 767
+  },
+  "stranded-engine-ten-minutes": {
+    "height": 115,
+    "page": 48,
+    "src": "/handbook/vermont/stranded-engine-ten-minutes.png",
+    "width": 767
+  },
+  "stranded-exhaust-pipe": {
+    "height": 139,
+    "page": 48,
+    "src": "/handbook/vermont/stranded-exhaust-pipe.png",
+    "width": 767
+  },
+  "stranded-stay-with-vehicle": {
+    "height": 116,
+    "page": 48,
+    "src": "/handbook/vermont/stranded-stay-with-vehicle.png",
+    "width": 767
+  },
+  "test-20-questions": {
+    "height": 151,
+    "page": 19,
+    "src": "/handbook/vermont/test-20-questions.png",
+    "width": 767
+  },
+  "test-appointment": {
+    "height": 138,
+    "page": 18,
+    "src": "/handbook/vermont/test-appointment.png",
+    "width": 767
+  },
+  "test-drivevermont": {
+    "height": 195,
+    "page": 3,
+    "src": "/handbook/vermont/test-drivevermont.png",
+    "width": 768
+  },
+  "test-fee-permit": {
+    "height": 174,
+    "page": 24,
+    "src": "/handbook/vermont/test-fee-permit.png",
+    "width": 770
+  },
+  "test-four-answers": {
+    "height": 138,
+    "page": 19,
+    "src": "/handbook/vermont/test-four-answers.png",
+    "width": 731
+  },
+  "test-no-animals": {
+    "height": 115,
+    "page": 20,
+    "src": "/handbook/vermont/test-no-animals.png",
+    "width": 513
+  },
+  "test-no-manual": {
+    "height": 246,
+    "page": 4,
+    "src": "/handbook/vermont/test-no-manual.png",
+    "width": 767
+  },
+  "test-no-tricks": {
+    "height": 116,
+    "page": 20,
+    "src": "/handbook/vermont/test-no-tricks.png",
+    "width": 731
+  },
+  "test-online": {
+    "height": 116,
+    "page": 3,
+    "src": "/handbook/vermont/test-online.png",
+    "width": 767
+  },
+  "test-online-website": {
+    "height": 139,
+    "page": 3,
+    "src": "/handbook/vermont/test-online-website.png",
+    "width": 767
+  },
+  "test-pass-16": {
+    "height": 139,
+    "page": 19,
+    "src": "/handbook/vermont/test-pass-16.png",
+    "width": 731
+  },
+  "test-purpose-laws": {
+    "height": 116,
+    "page": 19,
+    "src": "/handbook/vermont/test-purpose-laws.png",
+    "width": 565
+  },
+  "test-purpose-signs": {
+    "height": 115,
+    "page": 19,
+    "src": "/handbook/vermont/test-purpose-signs.png",
+    "width": 676
+  },
+  "test-read-whole-manual": {
+    "height": 139,
+    "page": 26,
+    "src": "/handbook/vermont/test-read-whole-manual.png",
+    "width": 767
+  },
+  "test-retake-one-day": {
+    "height": 174,
+    "page": 19,
+    "src": "/handbook/vermont/test-retake-one-day.png",
+    "width": 767
+  },
+  "test-road-40-hours": {
+    "height": 138,
+    "page": 19,
+    "src": "/handbook/vermont/test-road-40-hours.png",
+    "width": 731
+  },
+  "test-road-five-in-traffic": {
+    "height": 139,
+    "page": 19,
+    "src": "/handbook/vermont/test-road-five-in-traffic.png",
+    "width": 731
+  },
+  "test-road-retake-week": {
+    "height": 139,
+    "page": 20,
+    "src": "/handbook/vermont/test-road-retake-week.png",
+    "width": 731
+  },
+  "test-road-three-fails": {
+    "height": 139,
+    "page": 20,
+    "src": "/handbook/vermont/test-road-three-fails.png",
+    "width": 731
+  },
+  "test-vision-2040": {
+    "height": 184,
+    "page": 19,
+    "src": "/handbook/vermont/test-vision-2040.png",
+    "width": 731
+  },
+  "truck-70-percent": {
+    "height": 161,
+    "page": 44,
+    "src": "/handbook/vermont/truck-70-percent.png",
+    "width": 767
+  },
+  "truck-backing": {
+    "height": 139,
+    "page": 44,
+    "src": "/handbook/vermont/truck-backing.png",
+    "width": 767
+  },
+  "truck-bigger-means": {
+    "height": 116,
+    "page": 44,
+    "src": "/handbook/vermont/truck-bigger-means.png",
+    "width": 767
+  },
+  "truck-mirror-rule": {
+    "height": 139,
+    "page": 44,
+    "src": "/handbook/vermont/truck-mirror-rule.png",
+    "width": 767
+  },
+  "truck-no-cut-in-curb": {
+    "height": 139,
+    "page": 45,
+    "src": "/handbook/vermont/truck-no-cut-in-curb.png",
+    "width": 767
+  },
+  "truck-no-zones": {
+    "height": 139,
+    "page": 44,
+    "src": "/handbook/vermont/truck-no-zones.png",
+    "width": 767
+  },
+  "truck-passing-takes-longer": {
+    "height": 139,
+    "page": 44,
+    "src": "/handbook/vermont/truck-passing-takes-longer.png",
+    "width": 767
+  },
+  "truck-rear-blind-spot": {
+    "height": 139,
+    "page": 45,
+    "src": "/handbook/vermont/truck-rear-blind-spot.png",
+    "width": 767
+  },
+  "truck-see-cab": {
+    "height": 139,
+    "page": 44,
+    "src": "/handbook/vermont/truck-see-cab.png",
+    "width": 767
+  },
+  "truck-wide-right-turn": {
+    "height": 138,
+    "page": 45,
+    "src": "/handbook/vermont/truck-wide-right-turn.png",
+    "width": 767
+  },
+  "turn-drive-right-basic-rule": {
+    "height": 139,
+    "page": 28,
+    "src": "/handbook/vermont/turn-drive-right-basic-rule.png",
+    "width": 767
+  },
+  "turn-into-nearest-lane": {
+    "height": 138,
+    "page": 28,
+    "src": "/handbook/vermont/turn-into-nearest-lane.png",
+    "width": 767
+  },
+  "turn-left-check-mirror": {
+    "height": 161,
+    "page": 27,
+    "src": "/handbook/vermont/turn-left-check-mirror.png",
+    "width": 767
+  },
+  "turn-left-keep-right-of-centre": {
+    "height": 138,
+    "page": 27,
+    "src": "/handbook/vermont/turn-left-keep-right-of-centre.png",
+    "width": 767
+  },
+  "turn-left-multilane": {
+    "height": 138,
+    "page": 27,
+    "src": "/handbook/vermont/turn-left-multilane.png",
+    "width": 767
+  },
+  "turn-left-one-foot": {
+    "height": 116,
+    "page": 27,
+    "src": "/handbook/vermont/turn-left-one-foot.png",
+    "width": 767
+  },
+  "turn-left-pedestrians": {
+    "height": 139,
+    "page": 27,
+    "src": "/handbook/vermont/turn-left-pedestrians.png",
+    "width": 767
+  },
+  "turn-left-search-order": {
+    "height": 116,
+    "page": 28,
+    "src": "/handbook/vermont/turn-left-search-order.png",
+    "width": 708
+  },
+  "turn-left-signal-3-5": {
+    "height": 162,
+    "page": 27,
+    "src": "/handbook/vermont/turn-left-signal-3-5.png",
+    "width": 767
+  },
+  "turn-left-wait-oncoming": {
+    "height": 139,
+    "page": 27,
+    "src": "/handbook/vermont/turn-left-wait-oncoming.png",
+    "width": 767
+  },
+  "turn-left-wheels-straight": {
+    "height": 138,
+    "page": 27,
+    "src": "/handbook/vermont/turn-left-wheels-straight.png",
+    "width": 767
+  },
+  "turn-right-close-to-right": {
+    "height": 115,
+    "page": 28,
+    "src": "/handbook/vermont/turn-right-close-to-right.png",
+    "width": 767
+  },
+  "turn-right-no-swing-left": {
+    "height": 138,
+    "page": 28,
+    "src": "/handbook/vermont/turn-right-no-swing-left.png",
+    "width": 607
+  },
+  "turn-right-search-order": {
+    "height": 139,
+    "page": 28,
+    "src": "/handbook/vermont/turn-right-search-order.png",
+    "width": 767
+  },
+  "turn-right-three-feet": {
+    "height": 163,
+    "page": 28,
+    "src": "/handbook/vermont/turn-right-three-feet.png",
+    "width": 708
+  },
+  "turn-right-yield-vulnerable": {
+    "height": 115,
+    "page": 28,
+    "src": "/handbook/vermont/turn-right-yield-vulnerable.png",
+    "width": 767
+  },
+  "vehicle-brake-fluid": {
+    "height": 150,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-brake-fluid.png",
+    "width": 767
+  },
+  "vehicle-brakes-swerve": {
+    "height": 139,
+    "page": 60,
+    "src": "/handbook/vermont/vehicle-brakes-swerve.png",
+    "width": 767
+  },
+  "vehicle-carbon-monoxide": {
+    "height": 115,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-carbon-monoxide.png",
+    "width": 767
+  },
+  "vehicle-catalytic-converter": {
+    "height": 162,
+    "page": 62,
+    "src": "/handbook/vermont/vehicle-catalytic-converter.png",
+    "width": 767
+  },
+  "vehicle-defrosters": {
+    "height": 161,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-defrosters.png",
+    "width": 767
+  },
+  "vehicle-driver-readiness": {
+    "height": 139,
+    "page": 26,
+    "src": "/handbook/vermont/vehicle-driver-readiness.png",
+    "width": 567
+  },
+  "vehicle-exhaust-leak": {
+    "height": 161,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-exhaust-leak.png",
+    "width": 767
+  },
+  "vehicle-hand-over-hand": {
+    "height": 139,
+    "page": 26,
+    "src": "/handbook/vermont/vehicle-hand-over-hand.png",
+    "width": 767
+  },
+  "vehicle-hand-position": {
+    "height": 139,
+    "page": 26,
+    "src": "/handbook/vermont/vehicle-hand-position.png",
+    "width": 767
+  },
+  "vehicle-headlight-aim": {
+    "height": 138,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-headlight-aim.png",
+    "width": 767
+  },
+  "vehicle-inspection-15-days": {
+    "height": 162,
+    "page": 60,
+    "src": "/handbook/vermont/vehicle-inspection-15-days.png",
+    "width": 768
+  },
+  "vehicle-inspection-annual": {
+    "height": 185,
+    "page": 60,
+    "src": "/handbook/vermont/vehicle-inspection-annual.png",
+    "width": 767
+  },
+  "vehicle-inspection-at-fault": {
+    "height": 138,
+    "page": 60,
+    "src": "/handbook/vermont/vehicle-inspection-at-fault.png",
+    "width": 767
+  },
+  "vehicle-mirror-and-horn": {
+    "height": 115,
+    "page": 62,
+    "src": "/handbook/vermont/vehicle-mirror-and-horn.png",
+    "width": 767
+  },
+  "vehicle-nothing-hanging": {
+    "height": 138,
+    "page": 62,
+    "src": "/handbook/vermont/vehicle-nothing-hanging.png",
+    "width": 767
+  },
+  "vehicle-obd": {
+    "height": 139,
+    "page": 62,
+    "src": "/handbook/vermont/vehicle-obd.png",
+    "width": 767
+  },
+  "vehicle-penny-test": {
+    "height": 115,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-penny-test.png",
+    "width": 767
+  },
+  "vehicle-plate-lit-50-feet": {
+    "height": 139,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-plate-lit-50-feet.png",
+    "width": 767
+  },
+  "vehicle-speedometer": {
+    "height": 138,
+    "page": 62,
+    "src": "/handbook/vermont/vehicle-speedometer.png",
+    "width": 767
+  },
+  "vehicle-steering-check": {
+    "height": 163,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-steering-check.png",
+    "width": 767
+  },
+  "vehicle-tread-2-32": {
+    "height": 139,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-tread-2-32.png",
+    "width": 767
+  },
+  "vehicle-tyre-pressure": {
+    "height": 139,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-tyre-pressure.png",
+    "width": 767
+  },
+  "vehicle-view-clear": {
+    "height": 162,
+    "page": 62,
+    "src": "/handbook/vermont/vehicle-view-clear.png",
+    "width": 767
+  },
+  "vehicle-wear-bars": {
+    "height": 139,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-wear-bars.png",
+    "width": 767
+  },
+  "vehicle-wipers": {
+    "height": 139,
+    "page": 61,
+    "src": "/handbook/vermont/vehicle-wipers.png",
+    "width": 767
+  },
+  "wheels-skateboards": {
+    "height": 139,
+    "page": 43,
+    "src": "/handbook/vermont/wheels-skateboards.png",
+    "width": 767
+  },
+  "winter-awd-not-on-ice": {
+    "height": 139,
+    "page": 48,
+    "src": "/handbook/vermont/winter-awd-not-on-ice.png",
+    "width": 772
+  },
+  "winter-black-ice": {
+    "height": 138,
+    "page": 48,
+    "src": "/handbook/vermont/winter-black-ice.png",
+    "width": 772
+  },
+  "winter-bridges-freeze-first": {
+    "height": 115,
+    "page": 48,
+    "src": "/handbook/vermont/winter-bridges-freeze-first.png",
+    "width": 772
+  },
+  "winter-clear-whole-vehicle": {
+    "height": 139,
+    "page": 48,
+    "src": "/handbook/vermont/winter-clear-whole-vehicle.png",
+    "width": 772
+  },
+  "winter-half-tank": {
+    "height": 139,
+    "page": 48,
+    "src": "/handbook/vermont/winter-half-tank.png",
+    "width": 772
+  },
+  "winter-hardest-season": {
+    "height": 139,
+    "page": 47,
+    "src": "/handbook/vermont/winter-hardest-season.png",
+    "width": 767
+  },
+  "winter-increase-following": {
+    "height": 116,
+    "page": 48,
+    "src": "/handbook/vermont/winter-increase-following.png",
+    "width": 772
+  },
+  "winter-kit": {
+    "height": 162,
+    "page": 48,
+    "src": "/handbook/vermont/winter-kit.png",
+    "width": 772
+  },
+  "winter-no-mixing-tires": {
+    "height": 116,
+    "page": 47,
+    "src": "/handbook/vermont/winter-no-mixing-tires.png",
+    "width": 767
+  },
+  "winter-snow-tires": {
+    "height": 115,
+    "page": 47,
+    "src": "/handbook/vermont/winter-snow-tires.png",
+    "width": 767
+  },
+  "winter-snowplough-visibility": {
+    "height": 139,
+    "page": 48,
+    "src": "/handbook/vermont/winter-snowplough-visibility.png",
+    "width": 772
+  },
+  "workzone-arrow-panels": {
+    "height": 139,
+    "page": 37,
+    "src": "/handbook/vermont/workzone-arrow-panels.png",
+    "width": 767
+  },
+  "workzone-caution-mode": {
+    "height": 162,
+    "page": 37,
+    "src": "/handbook/vermont/workzone-caution-mode.png",
+    "width": 767
+  },
+  "workzone-channeling": {
+    "height": 162,
+    "page": 37,
+    "src": "/handbook/vermont/workzone-channeling.png",
+    "width": 771
+  },
+  "workzone-crashes-before": {
+    "height": 139,
+    "page": 36,
+    "src": "/handbook/vermont/workzone-crashes-before.png",
+    "width": 767
+  },
+  "workzone-definition": {
+    "height": 139,
+    "page": 36,
+    "src": "/handbook/vermont/workzone-definition.png",
+    "width": 767
+  },
+  "workzone-flagger-authority": {
+    "height": 116,
+    "page": 37,
+    "src": "/handbook/vermont/workzone-flagger-authority.png",
+    "width": 772
+  },
+  "workzone-flagger-paddles": {
+    "height": 139,
+    "page": 37,
+    "src": "/handbook/vermont/workzone-flagger-paddles.png",
+    "width": 772
+  },
+  "workzone-low-shoulder": {
+    "height": 138,
+    "page": 38,
+    "src": "/handbook/vermont/workzone-low-shoulder.png",
+    "width": 767
+  },
+  "workzone-merge-early": {
+    "height": 139,
+    "page": 36,
+    "src": "/handbook/vermont/workzone-merge-early.png",
+    "width": 767
+  },
+  "workzone-mobile": {
+    "height": 139,
+    "page": 36,
+    "src": "/handbook/vermont/workzone-mobile.png",
+    "width": 767
+  },
+  "workzone-rear-end": {
+    "height": 139,
+    "page": 36,
+    "src": "/handbook/vermont/workzone-rear-end.png",
+    "width": 767
+  }
+}

@@ -644,8 +644,19 @@ export const JURISDICTION_SUMMARIES: JurisdictionSummary[] = [
     "contentDate": "2026-09-06",
     "setCount": 6,
     "questionCount": 195
+  },
+  {
+    "slug": "vermont",
+    "name": "Vermont",
+    "code": "VT",
+    "country": "US",
+    "licenceName": "Learner's Permit",
+    "intro": "Vermont licenses drivers through the Department of Motor Vehicles, part of the Agency of Transportation, and the knowledge test is what earns you a Learner's Permit. It is 20 multiple-choice questions with four answers each, 16 correct to pass, and since the DMV moved it off the counter it is taken online through mydmv.vermont.gov rather than in an office. Vermont issues the permit from age 15, and a 16- or 17-year-old then holds it a full year before a Junior Driver's License. This bank is written from the 2025 edition of the Vermont Driver's Manual, with Title 23 of the Vermont Statutes supplying what the book leaves out - the six-foot fire hydrant, the 100-foot signal, the four-foot bicycle clearance, the liability minimums.",
+    "contentDate": "2026-10-14",
+    "setCount": 6,
+    "questionCount": 195
   }
 ];
 
 /** Total practice questions across every jurisdiction. */
-export const TOTAL_DRIVING_QUESTIONS = 11176;
+export const TOTAL_DRIVING_QUESTIONS = 11371;

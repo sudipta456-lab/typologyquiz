@@ -56,6 +56,7 @@ import * as utah from "./utah";
 import * as wyoming from "./wyoming";
 import * as westvirginia from "./westvirginia";
 import * as wisconsin from "./wisconsin";
+import * as vermont from "./vermont";
 
 export const MODULES: DrivingModule[] = [
   alabama,
@@ -93,4 +94,5 @@ export const MODULES: DrivingModule[] = [
   wyoming,
   westvirginia,
   wisconsin,
+  vermont,
 ];
