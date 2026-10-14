@@ -53,9 +53,12 @@ export default function TriviaHubPage() {
       path: "/trivia/",
       name: "Trivia quizzes",
       description:
-        "Free type-in, map, and rapid trivia quizzes with a live timer: US states and capitals, Canadian provinces, countries of the world, Europe, the planets, elements, history, and general knowledge.",
+        "Free type-in, map, rapid, and interest quizzes with a live timer: US states and capitals, Canadian provinces, countries of the world, Europe, planets, elements, history, general knowledge, physics curiosity, fictional alien archetypes, and AI work styles.",
       listName: "Trivia quiz collection",
       items: [
+        { name: "Which kind of physics makes you curious?", path: "/trivia/physics/" },
+        { name: "Which Alien Archetype Are You?", path: "/trivia/alien-type/" },
+        { name: "How Do You Like to Work with AI?", path: "/trivia/ai-style/" },
         ...TRIVIA_QUIZZES.map((q) => ({ name: q.title, path: `/trivia/${q.slug}/` })),
         { name: "10 in 90: General Knowledge Quiz", path: "/trivia/quickfire-10-in-90/" },
         { name: "Which Came First? History Timeline Quiz", path: "/trivia/which-came-first/" },
@@ -88,6 +91,20 @@ export default function TriviaHubPage() {
         <nav className="topic-jumps" aria-label="Trivia topics">{TRIVIA_GROUPS.map((group, index) => <a key={group.label} href={`#trivia-topic-${index}`}>{group.label}</a>)}<a href="#trivia-letters">A–Z quizzes</a><Link href="/weekly/">News quizzes ↗</Link></nav>
 
         <WeeklyFeatured />
+        <section aria-label="Interest quizzes" className="card-grid" style={{ marginBottom: 28, gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 300px), 1fr))" }}>
+          <Link href="/trivia/physics/" className="quiz-card" style={{ display: "block" }}>
+            <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>Which kind of physics makes you curious?</h2>
+            <p className="quiz-card-desc">Seven quick preference questions explore classical mechanics, relativity, and quantum physics. This is an interest profile, not a knowledge test.</p>
+          </Link>
+          <Link href="/trivia/alien-type/" className="quiz-card" style={{ display: "block" }}>
+            <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>Which alien archetype are you?</h2>
+            <p className="quiz-card-desc">A fictional, just-for-fun profile inspired by five familiar sci-fi and UFO-folklore archetypes.</p>
+          </Link>
+          <Link href="/trivia/ai-style/" className="quiz-card" style={{ display: "block" }}>
+            <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>How do you like to work with AI?</h2>
+            <p className="quiz-card-desc">Explore whether you prefer experimenting, building routines, collaborating, or evaluating carefully.</p>
+          </Link>
+        </section>
         <section aria-label="Rapid rounds" className="card-grid" style={{ marginBottom: 28, gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 300px), 1fr))" }}>
           <Link href="/trivia/quickfire-10-in-90/" className="quiz-card" style={{ display: "block" }}>
             <p className="eyebrow" style={{ marginBottom: 6 }}>Rapid round</p>

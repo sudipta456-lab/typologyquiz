@@ -2,6 +2,10 @@
 
 This is a working status record. It distinguishes shipped behaviour from drafts, external dependencies, and research that has not begun. A preparation task, a staged asset, or a successful build is not public publication by itself.
 
+## October 1 follow-up
+
+The working tree now includes physics, fictional alien-archetype, and AI work-style interest quizzes with hub links, canonical/OG metadata, Quiz and breadcrumb JSON-LD, sitemap entries, assistant-discovery entries, analytics coverage, and an original illustration for the alien quiz. Next.js and eslint-config-next are updated to 16.3.8 and Wrangler to 4.146.0; `npm audit` reports zero vulnerabilities. Full verification and a 1,268-page static export passed October 1; all three interest quizzes remain local and have not been deployed. The traffic plan and measured baseline are recorded in [the traffic target plan](TRAFFIC_TARGET_PLAN_2026-10-01.md): GA4 showed 60 total users for September 3–30 but zero key events; Search Console data remains September 1–18. Country/state mobile flows still need real-device touch QA; iPhone Mirroring was unavailable while the phone was in use. The active TikTok routine was revised to one original piece per local day; its separate task must reconcile actual Studio scheduling before creating or posting anything.
+
 ## Shipped and verified
 
 | Area | Status | Evidence |
@@ -16,15 +20,18 @@ This is a working status record. It distinguishes shipped behaviour from drafts,
 
 ## Remaining work
 
-### Ready for autonomous product work
+### Previously listed product work now complete
 
-1. Audit the ten existing high-share personality results and ship the highest-value missing share/compare/next-play improvement. The first slice replaces the generic result-page "Try another" trio with deliberate companion quizzes for those ten results; it uses existing test pages, deduplicates options, guarantees three choices, and keeps a generic fallback for every other result.
-2. Collect a clean baseline from GA4 and Search Console once enough independent traffic exists. Compare qualified visits, starts, completions, shares, challenge opens, and returns. Do not use operator traffic as a growth result.
-3. Reconcile TikTok Studio before preparing more posts. Count only native scheduled or published rows, avoid duplicate content, and record missing metrics as `null`.
+The ten existing high-share personality results have deliberate companion quizzes, as recorded in the September 20 release below.
+
+### Remaining measurement and operations work
+
+1. Continue collecting aligned GA4, Search Console, and Cloudflare snapshots. The October 1 GA4 and Cloudflare views are documented in the traffic plan; refresh Search Console and exclude operator QA when possible. Compare visitors with quiz starts, completions, shares, challenge opens, and returns.
+2. Reconcile TikTok Studio before preparing more posts. Count only native scheduled or published rows, avoid duplicate content, and record missing metrics as `null`.
 
 ### Needs exact-content review or external evidence
 
-1. Earth and Space sampler: finish source-body, date, media-rights, and diagram review; create a hash-bound readable approval package. The draft cannot be promoted until exact content has the required editorial approval.
+1. Earth and Space sampler: source-body/date checks and schematic diagram inspection are complete per `docs/editorial/SAMPLER_RESEARCH.md`. The versioned public media/credits paths and media-rights evidence are still unresolved; settle them before generating final hashes and requesting exact-content editorial approval. Keep the draft held.
 2. World, US, and Canada recurring editions: finish independent sourcing and salience review, then use the same approval gate. Existing regional drafts remain held.
 3. Real prediction pilot: choose a specific family-suitable event only after official schedule, rating, questions, cutoff, settlement source, review record, and revision-history handling are all complete.
 4. Publisher follow-through: confirm the SPN email if it arrives; do not resubmit while pending. Becoming Sigma needs a real telephone number. Do not send bulk campaigns, comments, or automated follow-ups.

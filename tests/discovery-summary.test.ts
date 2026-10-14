@@ -42,3 +42,18 @@ test("summary links public evidence/privacy hubs and known routes without promot
     assert.ok(analyticsPaths.includes(url.pathname), `Unknown discovery link: ${url.pathname}`);
   }
 });
+
+test("new interest quizzes are discoverable and keep their limits visible", () => {
+  const expected = [
+    ["/trivia/physics/", "physics knowledge or ability"],
+    ["/trivia/alien-type/", "fictional Grey, Nordic, Reptilian, Mantid, and Tall White"],
+    ["/trivia/ai-style/", "not a measure of intelligence, skill, employability, or future success"],
+  ] as const;
+  for (const [path, caveat] of expected) {
+    const url = `https://typologyquiz.com${path}`;
+    const entries = summary.split("\n").filter(line => line.includes(`](${url})`));
+    assert.equal(entries.length, 1, path);
+    assert.ok(entries[0].includes(caveat), path);
+    assert.ok(analyticsPaths.includes(path), `Analytics manifest omits ${path}`);
+  }
+});
