@@ -2,17 +2,18 @@
 """Render original, source-checked Alberta Class 7 TikTok drafts.
 
 These are local assets only. They never upload, draft, schedule, or post.
+Layout is measured and collision-checked (scripts/social/layout.py); output defaults to a new layout-v2 folder.
 Facts are constrained to the Government of Alberta driver's guide and school-zone page.
 """
+import argparse, hashlib, json, math, subprocess, sys
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
-import hashlib, json, subprocess, textwrap
+from PIL import Image, ImageDraw
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import layout as L
 
-ROOT = Path('/Users/sudiptasarkar/dev/typologyquiz')
-OUT = Path('/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-11-driving')
-FONT = Path('/System/Library/Fonts/Supplemental/Arial.ttf')
-BOLD = Path('/System/Library/Fonts/Supplemental/Arial Bold.ttf')
-MARK = Path('/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/brand-mark.png')
+ROOT = Path(__file__).resolve().parents[2]
+OUT = L.V2 / 'driving-1011'
+MARK = L.WORK / 'brand-mark.png'
 W,H,FPS=1080,1920,30
 INK='#171827'; CREAM='#f7f3ea'; TEAL='#157a74'; CORAL='#e85b48'; BLUE='#315bd6'; YELLOW='#ffd65a'
 DRIVING='https://typologyquiz.com/driving/alberta/'
@@ -28,89 +29,112 @@ POSTS = [
  {"id":"1016-ab-clear-intersection","topic":"GREEN LIGHT","question":"The light is green, but traffic blocks the far side. Enter?","choices":["Wait until clear","Enter and wait"],"answer":"Wait until clear","detail":"Do not enter until you can clear the intersection.","caption":"Alberta Class 7 quick check: a green light does not mean enter a blocked intersection. Wait until you can clear it completely. Practice with official-guide-linked explanations: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #DrivingTest","source":GUIDE},
 ]
 
-def f(size,bold=False): return ImageFont.truetype(str(BOLD if bold else FONT),size)
-def lines(draw,text,size,width=860,bold=True):
-    words=text.split(); out=[]; cur=''
-    for word in words:
-        trial=(cur+' '+word).strip()
-        if cur and draw.textlength(trial,font=f(size,bold))>width:
-            out.append(cur); cur=word
-        else: cur=trial
-    if cur: out.append(cur)
-    return out
-def centered(draw,text,y,size,color=INK,bold=True,width=860,gap=1.18):
-    for line in lines(draw,text,size,width,bold):
-        draw.text(((W-draw.textlength(line,font=f(size,bold)))/2,y),line,font=f(size,bold),fill=color)
-        y+=int(size*gap)
-    return y
-def base(post, logo):
-    im=Image.new('RGB',(W,H),CREAM); d=ImageDraw.Draw(im)
-    d.rectangle((0,0,W,22),fill=TEAL)
-    im.paste(logo,(78,100),logo); d.text((178,119),'@typologyquiz',font=f(35),fill=INK)
-    d.rounded_rectangle((78,246,1002,316),radius=18,fill=TEAL)
-    label='ALBERTA CLASS 7 · PRACTICE ONLY'
-    d.text(((W-d.textlength(label,font=f(29,True)))/2,267),label,font=f(29,True),fill='white')
-    d.rounded_rectangle((340,350,740,410),radius=24,outline=TEAL,width=3)
-    d.text(((W-d.textlength(post['topic'],font=f(27,True)))/2,365),post['topic'],font=f(27,True),fill=TEAL)
-    return im,d
-def draw_road_icon(d,kind):
-    if kind=='STOP SIGN':
-        cx,cy=540,1035; r=190; pts=[]
-        import math
-        for i in range(8):
-            a=math.pi/8+i*2*math.pi/8; pts.append((cx+r*math.cos(a),cy+r*math.sin(a)))
-        d.polygon(pts,fill=CORAL,outline='white',width=14); d.text((cx-97,cy-37),'STOP',font=f(66,True),fill='white')
-    elif kind=='YIELD SIGN':
-        pts=[(540,815),(770,1225),(310,1225)]
-        d.polygon(pts,fill='white',outline=CORAL,width=20); d.text((438,1050),'YIELD',font=f(44,True),fill=CORAL)
-    elif kind in ('RED LIGHT','RIGHT ON RED'):
-        d.rounded_rectangle((415,770,665,1310),radius=115,fill='#26303b'); d.ellipse((475,835,605,965),fill=CORAL); d.ellipse((475,985,605,1115),fill=YELLOW); d.ellipse((475,1135,605,1265),fill='#38a169')
-        if kind=='RIGHT ON RED':
-            d.arc((680,970,900,1190),0,90,fill=TEAL,width=20); d.polygon([(900,1080),(845,1048),(857,1114)],fill=TEAL)
-    elif kind=='SCHOOL ZONE':
-        # A pentagon distinguishes a school warning sign from the diamond warning family.
-        d.polygon([(540,755),(785,930),(690,1235),(390,1235),(295,930)],fill='#d5ff5c',outline='#26303b',width=15); d.text((462,900),'30',font=f(94,True),fill='#26303b'); d.text((382,1035),'SCHOOL',font=f(39,True),fill='#26303b')
-    else:
-        d.rectangle((275,1000,805,1080),fill='#515562'); d.rectangle((480,660,600,1000),fill='#515562'); d.ellipse((475,700,605,830),fill='#38a169')
-        d.rectangle((345,1130,735,1190),fill='#c0c5cc'); d.rectangle((345,1210,735,1270),fill='#c0c5cc')
-def render(post,scene,logo):
-    im,d=base(post,logo); centered(d, post['question'] if scene==0 else (post['answer'] if scene==2 else ('Choose before the reveal' if scene==1 else 'Practice the rule, then read the official guide')), 470, 66 if scene!=2 else 70, TEAL if scene==2 else INK, True, 900)
-    if scene in (0,1):
-        draw_road_icon(d,post['topic'])
-        if scene==1:
-            y=1400
-            for choice in post['choices']:
-                d.rounded_rectangle((145,y,935,y+130),radius=24,fill='white',outline=TEAL,width=4)
-                centered(d,choice,y+37,42,INK,True,730); y+=165
-    elif scene==2:
-        d.rounded_rectangle((125,750,955,1190),radius=32,fill='white',outline=TEAL,width=5); draw_road_icon(d,post['topic'])
-        centered(d,post['detail'],1300,42,INK,False,880)
-    else:
-        d.rounded_rectangle((125,780,955,1060),radius=32,fill=TEAL)
-        centered(d,'ALBERTA CLASS 7',855,62,'white',True,780)
-        centered(d,'Free practice · explanations · official-source links',1165,39,INK,False,860)
-        centered(d,'TypologyQuiz.com/driving/alberta',1285,42,TEAL,True,880)
-    y=1660
-    for j in range(4): d.rounded_rectangle((240+j*155,y,370+j*155,y+14),radius=7,fill=TEAL if j<=scene else '#d8d8dc')
-    d.text((79,1810),'Original TypologyQuiz vector artwork · check the official Alberta guide',font=f(22),fill='#525464')
-    return im
+CARD = (96, 690, 904, 1210)
+CX, CY = 500, 950
+
+
+def traffic_light(d, lay, active, cx=CX):
+    d.rounded_rectangle((cx - 115, 710, cx + 115, 1190), radius=100, fill='#26303b'); lay.add('icon', (cx - 115, 710, cx + 115, 1190), 'card')
+    colors = {'red': CORAL, 'yellow': YELLOW, 'green': '#38a169'}
+    for name, y in (('red', 800), ('yellow', 950), ('green', 1100)):
+        d.ellipse((cx - 62, y - 62, cx + 62, y + 62), fill=colors[name] if name == active else '#4b5563')  # exactly one lamp lit
+
+
+def draw_icon(d, lay, kind):
+    if kind == 'STOP SIGN':
+        r = 210; pts = [(CX + r * math.cos(math.pi / 8 + i * math.pi / 4), CY + r * math.sin(math.pi / 8 + i * math.pi / 4)) for i in range(8)]
+        d.polygon(pts, fill=CORAL, outline='white', width=14)
+        lay.add('icon', (min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts)), 'card', pts)
+        lay.text('icon-text', 'STOP', (CX - 140, CY - 60, CX + 140, CY + 60), 76, parent='icon', min_size=40, align='center', valign='center').draw(d, 'white')
+    elif kind == 'YIELD SIGN':
+        pts = [(CX - 230, 740), (CX + 230, 740), (CX, 1140)]  # point DOWN
+        d.polygon(pts, fill='white', outline=CORAL, width=20)
+        lay.add('icon', (CX - 230, 740, CX + 230, 1140), 'card', pts)
+        lay.text('icon-text', 'YIELD', (CX - 130, 790, CX + 130, 870), 60, parent='icon', min_size=30, align='center', valign='center').draw(d, CORAL)
+    elif kind == 'RED LIGHT': traffic_light(d, lay, 'red')
+    elif kind == 'RIGHT ON RED': traffic_light(d, lay, 'red')  # plain red lamp only: no arrow that could read as a protected green-arrow signal
+    elif kind == 'GREEN LIGHT': traffic_light(d, lay, 'green')
+    elif kind == 'SCHOOL ZONE':  # generic school building; deliberately not a regulatory sign shape
+        d.polygon([(CX - 230, 900), (CX, 750), (CX + 230, 900)], fill=CORAL)
+        d.rectangle((CX - 200, 900, CX + 200, 1130), fill=BLUE)
+        d.rectangle((CX - 38, 1010, CX + 38, 1130), fill='white')
+        for wx in (CX - 160, CX + 80):
+            d.rectangle((wx, 935, wx + 80, 1000), fill=YELLOW)
+        d.ellipse((CX - 28, 810, CX + 28, 866), fill='white'); d.rectangle((CX - 3, 700, CX + 3, 760), fill=INK); d.polygon([(CX + 3, 702), (CX + 55, 722), (CX + 3, 742)], fill=TEAL)
+        lay.add('icon', (CX - 230, 700, CX + 230, 1130), 'card')
+    else: raise L.LayoutError(f'unknown topic {kind}')
+
+
+def render(post, scene, logo):
+    pid = post['id']; lay = L.Layout(name=f'{pid}/scene{scene}')
+    im = Image.new('RGB', (W, H), CREAM); d = ImageDraw.Draw(im)
+    d.rectangle((0, 0, W, 22), fill=TEAL)
+    im.paste(logo, (84, 172), logo); lay.add('logo', (84, 172, 84 + logo.width, 172 + logo.height))
+    lay.text('handle', '@typologyquiz', (172, 188, 700, 238), 35, bold=False, min_size=26).draw(d, INK)
+    d.rounded_rectangle((84, 256, 916, 322), radius=18, fill=TEAL); lay.add('label-pill', (84, 256, 916, 322))
+    lay.text('label', 'ALBERTA CLASS 7 · PRACTICE ONLY', (104, 262, 896, 316), 29, parent='label-pill', min_size=18, align='center', valign='center').draw(d, 'white')
+    d.rounded_rectangle((340, 340, 740, 398), radius=24, outline=TEAL, width=3); lay.add('topic-pill', (340, 340, 740, 398))
+    lay.text('topic', post['topic'], (358, 344, 722, 394), 27, parent='topic-pill', min_size=18, align='center', valign='center').draw(d, TEAL)
+    head = post['question'] if scene == 0 else (post['answer'] if scene == 2 else ('Choose before the reveal' if scene == 1 else 'Practice the rule, then read the official guide'))
+    lay.text('headline', head, (84, 420, 916, 660), 70 if scene == 2 else 66, min_size=36, align='center', valign='center').draw(d, TEAL if scene == 2 else INK)
+    if scene in (0, 1, 2):
+        d.rounded_rectangle(CARD, radius=32, fill='white', outline=TEAL, width=5); lay.add('card', CARD)
+        draw_icon(d, lay, post['topic'])
+    if scene == 1:
+        for i, (y0, choice) in enumerate(zip((1240, 1370), post['choices'])):
+            d.rounded_rectangle((96, y0, 904, y0 + 110), radius=24, fill='white', outline=TEAL, width=4); lay.add(f'choice{i}', (96, y0, 904, y0 + 110))
+            lay.text(f'choice{i}-text', choice, (124, y0 + 10, 876, y0 + 100), 42, parent=f'choice{i}', min_size=26, align='center', valign='center').draw(d, INK)
+    elif scene == 2:
+        lay.text('detail', post['detail'], (96, 1240, 904, 1480), 42, bold=False, min_size=26, align='center', valign='center', line_gap=1.3).draw(d, INK)
+    elif scene == 3:
+        d.rounded_rectangle((96, 700, 904, 960), radius=32, fill=TEAL); lay.add('cta-card', (96, 700, 904, 960))
+        lay.text('cta-title', 'ALBERTA CLASS 7', (130, 730, 870, 930), 62, parent='cta-card', min_size=34, align='center', valign='center').draw(d, 'white')
+        lay.text('cta-features', 'Free practice · explanations · official-source links', (84, 1020, 916, 1160), 39, bold=False, min_size=24, align='center', valign='center').draw(d, INK)
+        lay.text('cta-url', 'TypologyQuiz.com/driving/alberta', (84, 1200, 916, 1290), 42, min_size=24, align='center', valign='center').draw(d, TEAL)
+    for j in range(4):
+        box = (240 + j * 155, 1500, 370 + j * 155, 1514)
+        d.rounded_rectangle(box, radius=7, fill=TEAL if j <= scene else '#d8d8dc'); lay.add(f'dot{j}', box)
+    lay.text('footer', 'Original TypologyQuiz vector artwork · check the official Alberta guide', (84, 1530, 916, 1576), 22, bold=False, min_size=16, align='center').draw(d, '#525464')
+    lay.check()
+    return im, lay
+
 
 def main():
-    OUT.mkdir(parents=True,exist_ok=True)
+    ap = L.add_cli(argparse.ArgumentParser(description=__doc__), OUT); args = ap.parse_args()
+    out = args.output; posts = L.select(POSTS, args.only)
     if not MARK.exists(): raise SystemExit('missing logo')
-    logo=Image.open(MARK).convert('RGBA'); logo.thumbnail((74,74),Image.Resampling.LANCZOS)
-    encoder=OUT/'encode-video'; subprocess.run(['swiftc','-O',str(ROOT/'scripts/social/encode-video.swift'),'-o',str(encoder)],check=True)
-    manifest=[]
-    for post in POSTS:
-        folder=OUT/post['id']; folder.mkdir(exist_ok=True); scenes=[]
-        for i in range(4):
-            image=folder/f'{i:02d}.png'; render(post,i,logo).save(image); scenes.append({'image':str(image),'duration':4})
-        timeline=folder/'timeline.json'; timeline.write_text(json.dumps({'width':W,'height':H,'fps':FPS,'scenes':scenes},indent=2))
-        video=OUT/f"{post['id']}.mp4"; subprocess.run([str(encoder),str(timeline),str(video)],check=True)
-        (folder/'caption.txt').write_text(post['caption']+'\n')
-        qa={'video':str(video),'duration_seconds':16,'width':W,'height':H,'fps':FPS,'audio':'none','sha256':hashlib.sha256(video.read_bytes()).hexdigest(),'source':post['source'],'route':DRIVING,'status':'prepared_only_not_uploaded_or_scheduled'}
-        (OUT/f"{post['id']}.qa.json").write_text(json.dumps(qa,indent=2))
-        manifest.append({**post,**qa})
-    (OUT/'asset-index.json').write_text(json.dumps(manifest,indent=2))
-    print(json.dumps(manifest,indent=2))
-if __name__=='__main__': main()
+    logo = Image.open(MARK).convert('RGBA'); logo.thumbnail((74, 74), Image.Resampling.LANCZOS)
+    renders = {p['id']: [render(p, i, logo) for i in range(4)] for p in posts}  # fail on any layout error before writing
+    targets = []
+    for p in posts:
+        targets.append(out / p['id'])
+        if args.frames_only: L.guard_frames_only(L.encoded_artifacts(out, p['id']))
+        else: targets += L.encoded_artifacts(out, p['id'])
+    L.guard(targets, args.overwrite)
+    out.mkdir(parents=True, exist_ok=True)
+    encoder = None if args.frames_only else L.ensure_encoder(out, ROOT)
+    manifest = []
+    for post in posts:
+        folder = out / post['id']; folder.mkdir(exist_ok=True); scenes = []
+        for i, (im, lay) in enumerate(renders[post['id']]):
+            image = folder / f'{i:02d}.png'; im.save(image); scenes.append({'image': str(image), 'duration': 4})
+            (folder / f'{i:02d}.layout.json').write_text(json.dumps(lay.report(), indent=1))
+        timeline = folder / 'timeline.json'; timeline.write_text(json.dumps({'width': W, 'height': H, 'fps': FPS, 'scenes': scenes}, indent=2))
+        (folder / 'caption.txt').write_text(post['caption'] + '\n')
+        qa = {'duration_seconds': 16, 'width': W, 'height': H, 'fps': FPS, 'audio': 'none', 'source': post['source'], 'route': DRIVING, 'status': 'frames_only_not_uploaded' if args.frames_only else 'prepared_only_not_uploaded_or_scheduled'}
+        if encoder:
+            video = out / f"{post['id']}.mp4"; subprocess.run([str(encoder), str(timeline), str(video)], check=True)
+            native_path = out / f"{post['id']}.qa.json"
+            native = json.loads(native_path.read_text())  # measured by encode-video.swift: never replaced by asserted values
+            for key in ('decoded_frame', 'frames_written', 'audio_tracks', 'width', 'height', 'fps', 'duration_seconds'):
+                if key not in native: raise SystemExit(f'native QA report {native_path} lacks {key}')
+            expected = {'width': W, 'height': H, 'fps': FPS, 'duration_seconds': 16, 'frames_written': 16 * FPS, 'audio_tracks': 0}
+            bad = {k: (native[k], v) for k, v in expected.items() if abs(native[k] - v) > 1e-6}
+            if bad: raise SystemExit(f'native QA disagrees with expected (measured, expected): {bad}')
+            qa = {**qa, **native, 'expected': expected, 'video': str(video), 'sha256': hashlib.sha256(video.read_bytes()).hexdigest()}
+            native_path.write_text(json.dumps(qa, indent=2))
+        manifest.append({**post, **qa})
+    L.merge_index(out / 'asset-index.json', manifest); print(json.dumps(manifest, indent=2))
+
+
+if __name__ == '__main__': main()

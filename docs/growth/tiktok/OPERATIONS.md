@@ -39,6 +39,14 @@ If a run is interrupted, do not duplicate uploads. Continue with full reconcilia
 
 ## Daily research and production
 
+### Visual quality standard — October 14 owner feedback
+
+Use built-in GPT Image / ImageGen for original illustrative artwork. The owner approved the cinematic, curious fictional alien direction shown in `2026-10-14-visual-refresh.json`. Keep all quiz text, answer choices, labels, and CTA lettering outside the generated artwork as editable measured layers. Figma is connected for editable storyboards; HeyGen is connected for short motion/voice experiments within the existing subscription. CapCut's official Codex integration was identified but was not installed or authorized by this task. Do not substitute unverified community installers.
+
+All new renders must measure actual glyph bounds, wrap or resize text within explicit boxes, check collisions between independent text/art regions, and be inspected at phone scale from an actual decoded export frame. The shared `scripts/social/layout.py` implements these checks for the revised geography/driving renderers and the visual pilot. Declared text-in-card containment is intentional; undeclared collisions fail. Keep critical information away from right-side controls and bottom captions. Never let decorative shapes obscure a question, reveal, source caveat, or CTA. Generated fiction needs a clear fiction label and applicable TikTok AI label, plus own-brand disclosure.
+
+The September 23 geography batch has a verified final-CTA overflow (10 assets; 9 still queued at the evening audit). Revised local assets go into a new layout-v2 folder. Do not overwrite the ledger's original media or silently change its hashes. Existing Studio uploads retain the old pixels until replaced through the supported native workflow. Reconcile and record removal/replacement receipts before adding anything to occupied slots; if commercial-content editing remains mobile-only, report that precise blocker rather than adding duplicates.
+
 Read the strategy, latest brief and ledger. Research relevant searches, content gaps and formats from available TikTok tools; record country/filter/date and source URLs, never invented popularity numbers. Use evergreen source-backed ideas when timely claims cannot be verified. Do not copy another creator’s script, footage or voice. Create one considered editorial idea per day, following the renderer’s manifest and source provenance. Keep the site’s logo and brand colors.
 
 Verify quiz answer and linked live page, mobile legibility, safe placement away from TikTok controls, spelling, pacing, answer/reveal consistency, full clip playback, and any sound rights. Do not promote CRT/VVIQ until rights review is resolved. Do not call informal quizzes diagnostic or independently validated. No fake “99% fail” statistics or invented IQ claims. News publication retains its existing exact-content review requirement; default social content to verified evergreen topics.

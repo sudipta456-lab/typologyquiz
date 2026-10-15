@@ -1,5 +1,15 @@
 # TikTok launch production — 2026-09-13
 
+## Current visual-production override — October 14, 2026
+
+The owner approved the new cinematic fictional-alien artwork direction. Use built-in GPT Image for original raster artwork and keep all text separately editable. Figma storyboard: https://www.figma.com/design/NESCr28KI53zt6AYyREcEQ . HeyGen's connected subscription is being tested with one five-second image animation (`bdcff6e82d4045d9aed5a8ac1ef0ba28`); the last observed status is processing, not completed. CapCut's official Codex integration is documented at https://www.capcut.com/tools/capcut-x-codex but has not been installed or authorized by this task.
+
+`scripts/social/layout.py` provides measured text fitting and independent-region collision checks. The revised geography/driving renderers and `render-visual-pilot.py` default to separate local revision folders and fail on unapproved overwrites. New work must pass layout checks, decoded-frame inspection and source/caption checks before scheduling. The legacy launch instructions below describe the original batch and do not establish that later renderers passed the same gates.
+
+The October 14 audit confirmed ten clipped CTA frames in the September 23 geography batch. Six driving and ten geography clips have corrected local exports in `work/tiktok-launch/2026-10-14-layout-v2/`; the nine geography clips still queued in Studio are marked `quality_review.replacement_required` in the ledger. The corrected files are not uploaded replacements. Reconcile and replace them through the supported native workflow without adding duplicates. Keep original publication receipts and media hashes intact until Studio confirms the replacement.
+
+The separate `work/tiktok-launch/2026-10-14-gpt-visual/` folder contains the original GPT image, prompt provenance in the repository's `2026-10-14-visual-refresh.json`, the local 16-second pilot, storyboard/contact frames and typography/native-video QA. The pilot is a hypothetical fictional prompt, not a quoted site item or claimed assessment result. No TikTok upload or publication is claimed for it.
+
 Ten finished original quiz videos for @typologyquiz. This is an asset manifest, not a posting/scheduling ledger. No account actions or publication were performed by the production renderer.
 
 ## Deliverables

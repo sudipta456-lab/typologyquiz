@@ -657,7 +657,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-02.mp4",
+        "replacement_sha256": "fd443e4701a9d0ed42926e556681bb9d389787f587eef5fa828583f5ab8099d1",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "0923-03",
@@ -671,7 +680,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-03.mp4",
+        "replacement_sha256": "1ffa003972b27738a9f56d5cb23210e3cfdc7d6df93de99cb6f20c4322d6ad31",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "0923-04",
@@ -685,7 +703,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-04.mp4",
+        "replacement_sha256": "f508bf146de8061f7e4361a7a1d10f34f5c5000f8368f10a38e4611f09874181",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "0923-06",
@@ -699,7 +726,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-06.mp4",
+        "replacement_sha256": "4971cc116bc2a0eda26516770c134409bb7c867d794325139f5798f58f799dc8",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "0923-07",
@@ -713,7 +749,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-07.mp4",
+        "replacement_sha256": "1eabf569909416073a7186acba71fd891535dabaaf5c27f6fa6c5240ca398b36",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "0923-08",
@@ -727,7 +772,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-08.mp4",
+        "replacement_sha256": "349af5403d198d43405a7baf5fcdfd89bf53e41989b6d24c9ef7a17a0e9eccad",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "0923-09",
@@ -741,7 +795,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-09.mp4",
+        "replacement_sha256": "13f395db59e163008cf7e6606ea0d3379d35b8404ab8b60e18c2dc1067ab3e51",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "0923-10",
@@ -755,7 +818,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-10.mp4",
+        "replacement_sha256": "688486879baccf5c4647300ee9a0a75f7d17a9fe7ff6db41697d29cc795d2b1d",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "1005-madrid",
@@ -965,7 +1037,16 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "quality_review": {
+        "review_date": "2026-10-14",
+        "status": "replacement_required",
+        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-05.mp4",
+        "replacement_sha256": "d3accfa58299ae06693b27765d48735dcd588e3f1bcfa43b6430f77faf9fb5aa",
+        "replacement_studio_status": "not_uploaded",
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+      }
     },
     {
       "id": "1004-lisbon",

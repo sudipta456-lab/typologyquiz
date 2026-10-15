@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-14",
+  "status": "local_pilot_and_16_corrected_exports_validated",
+  "approved_visual_direction": "Cinematic, curious, playful fictional alien; user liked the generated artwork.",
+  "artwork": {
+    "provider": "built-in GPT Image / ImageGen",
+    "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-gpt-visual/alien-explorer.png",
+    "sha256": "8ae94dee8457d1a7ef5630859ebe7d8c8b4cd65aacb7fe0a0da2f9dd4849bf72",
+    "prompt": "Use case: illustration-story. Create original premium editorial artwork for a 9:16 TypologyQuiz short-video background about fictional alien archetypes. A single friendly enigmatic alien explorer, one character only, with oversized curious eyes and a subtle iridescent teal-violet skin, examining a small glowing unidentified artifact in a cinematic spacecraft observation cabin, distant violet planet and stars through the window. Sophisticated tactile 3D miniature / practical cinematic model aesthetic, rich natural shadows, teal / coral brand accents with warm cream highlights, not a generic flat icon or template, welcoming and intriguing, adult general audience not childish. Composition: portrait 9:16, alien and artifact in central band around 45-68% of image height, keep top third very dark and quiet for a headline added separately; keep bottom fifth dark and quiet for UI added separately, outer right edge quiet for TikTok icons. Do not draw text, lettering, logo, UI boxes, symbols, labels or watermarks. This is explicitly fictional concept art, not purported evidence of real aliens.",
+    "text_baked_into_art": false
+  },
+  "figma": {
+    "connected": true,
+    "url": "https://www.figma.com/design/NESCr28KI53zt6AYyREcEQ",
+    "page": "0:1",
+    "frames": [
+      "2:2",
+      "2:10",
+      "2:21",
+      "2:29"
+    ],
+    "status": "four_editable_storyboard_frames_created_and_composition_reviewed"
+  },
+  "heygen": {
+    "connected": true,
+    "plan": "creator",
+    "source_asset_id": "595879bdbd754d15af9b5d27dd72b793",
+    "video_id": "bdcff6e82d4045d9aed5a8ac1ef0ba28",
+    "requested_duration_seconds": 5,
+    "resolution": "1080p",
+    "last_observed_status": "processing",
+    "player_shown": true
+  },
+  "capcut": {
+    "catalog_result": "No CapCut connector returned in this chat's plugin search.",
+    "official_integration": "https://www.capcut.com/tools/capcut-x-codex",
+    "installed_or_authorized_by_this_task": false
+  },
+  "legacy_audit": {
+    "confirmed_geography_cta_overflows": 10,
+    "scheduled_items_requiring_replacement": [
+      "0923-02",
+      "0923-03",
+      "0923-04",
+      "0923-05",
+      "0923-06",
+      "0923-07",
+      "0923-08",
+      "0923-09",
+      "0923-10"
+    ],
+    "note": "Original source PNGs and measured text width confirm clipping. Corrected local files do not replace existing Studio uploads. Native replacement requires current queue reconciliation; never upload an extra duplicate."
+  },
+  "publication": {
+    "uploaded_to_tiktok": false,
+    "scheduled": false,
+    "ai_label_required_for_generated_alien_art": true,
+    "brand_disclosure_required": true
+  },
+  "local_pilot": {
+    "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-gpt-visual/alien-type-pilot.mp4",
+    "seconds": 16,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "audio_tracks": 0,
+    "sha256": "d4d525cf44a9b0bb205b34e1722a96420134955865974c64fc89ff1e857e810c"
+  },
+  "corrected_media": {
+    "count": 16,
+    "folder": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2",
+    "original_ledger_media_preserved": true
+  },
+  "validation": {
+    "layout_regression_tests": 39,
+    "native_video_reports_checked": 17,
+    "dimensions": "1080x1920",
+    "fps": 30,
+    "seconds_each": 16,
+    "frames_each": 480,
+    "audio_tracks": 0,
+    "original_ledger_asset_hashes_unchanged": 16,
+    "visual_review": "Final 12-frame contact sheet including exact 4/8/12-second boundaries; actual decoded pilot frame and representative corrected geography/driving frames.",
+    "code_review": "Opus identified text transition ghosting, incorrect yellow contrast calculation, ambiguous right-on-red arrow, stale frame-only artifact behavior and overwritten native metadata; concrete findings corrected and regression-tested.",
+    "limitations": [
+      "Background contrast sampling is a documented heuristic, not a guarantee about every pixel.",
+      "Corrected local exports are not replacements in TikTok until native receipts confirm them.",
+      "HeyGen motion test was last observed processing; player manages its own completion updates."
+    ]
+  }
+}
