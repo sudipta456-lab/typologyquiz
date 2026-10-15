@@ -1,0 +1,1059 @@
+{
+  "brief": "/Users/sudiptasarkar/dev/typologyquiz/docs/growth/tiktok/2026-10-15-old-queue-repair-brief.json",
+  "brief_sha256": "b6664e4c159d589f9e969ad8fd1d506eb1ed0680a31943244178c098b41323c9",
+  "entries": [
+    {
+      "id": "1006-li",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/periodic-table-first-20/",
+      "question": "Li is which element?",
+      "choices": [
+        "Lithium",
+        "Lead"
+      ],
+      "answer": "Lithium",
+      "explanation": "Lithium is element 3.",
+      "source": "https://periodic-table.rsc.org/element/3/Lithium",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Li is which element? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/periodic-table-first-20/ #Quiz #TypologyQuiz",
+      "original_caption": "Li is lithium, element 3. Can you name the first 20 elements? https://typologyquiz.com/trivia/periodic-table-first-20/ #chemistry #quiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695609361221111058",
+      "existing_publish_at": "2026-10-18T10:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/caption.txt",
+      "caption_sha256": "deda20a8c3b4eb1b3ba7998552bd0ae460dd4c5712be98b6579d57ac84cfa4ca",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li.mp4",
+      "sha256": "3465ebdfbef9ac8a4d5b82ed56fb31b0a0a4eb8848b17d45dec534007ee96894",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/poster.jpg",
+      "poster_sha256": "2aad21f56014d5a16b19690712b51efbf7da6127e5f89e8c23c3277d4c40ba20",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1006-li.mp4",
+      "original_sha256": "b925dd43ab5b301b8dbff3bf54a1a25007d7a3c00ba1ca138556357837e8c5f2",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/1006-li"
+      }
+    },
+    {
+      "id": "1016-mini-ipip",
+      "kind": "reflection",
+      "route": "https://typologyquiz.com/test/mini-ipip/",
+      "question": "A free evening. Which feels more like you?",
+      "choices": [
+        "A familiar plan",
+        "Something new"
+      ],
+      "answer": "There is no right answer.",
+      "explanation": "A reflection prompt, not a scored test item. Explore the full Mini-IPIP self-report quiz.",
+      "source": "https://typologyquiz.com/methodology/",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "A free evening. Which feels more like you? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
+      "original_caption": "Free evening: familiar plan or something new? Reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #selfreflection #personality",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695609455555185938",
+      "existing_publish_at": "2026-10-18T14:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/caption.txt",
+      "caption_sha256": "beeca4befd7a3c34aec9a5b82da9f087446a7095dc31854b508f7f46f3a54d54",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip.mp4",
+      "sha256": "4767220df938b31825cebb88deefefb98e68ef94b1d5646a7405273a3262a181",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/poster.jpg",
+      "poster_sha256": "3a52b733f00a899bf51296fc7c7cd8ebc4829542643607f55bb97294d17418c0",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1016-mini-ipip.mp4",
+      "original_sha256": "c869d097dafb904ffa57f7c5ccb92504ebdb2df1b8c5b14a82630314ad853286",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/1016-mini-ipip"
+      }
+    },
+    {
+      "id": "1017-mini-ipip",
+      "kind": "reflection",
+      "route": "https://typologyquiz.com/test/mini-ipip/",
+      "question": "A free afternoon. Which would you choose?",
+      "choices": [
+        "Revisit a hobby",
+        "Try a new one"
+      ],
+      "answer": "There is no right answer.",
+      "explanation": "A reflection prompt, not a scored test item. Explore the full Mini-IPIP self-report quiz.",
+      "source": "https://typologyquiz.com/methodology/",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "A free afternoon. Which would you choose? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
+      "original_caption": "Free afternoon: revisit a hobby or try a new one? Reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #selfreflection #personality",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695609541290986770",
+      "existing_publish_at": "2026-10-18T18:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/caption.txt",
+      "caption_sha256": "14b73a7841880e06796aeee640378a57cd6faaa6b0311c55c247d2df30631a86",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip.mp4",
+      "sha256": "0f5074d6b02772e3f552ba4ad19128ab134c8999a2647d2f5d49abcef8a2314b",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/poster.jpg",
+      "poster_sha256": "14c07c90fe94955e436118235e015b7a2aff4d35776d15974d56401343121f85",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1017-mini-ipip.mp4",
+      "original_sha256": "ce6d7f1c13a9c4d2890b5ff20bfb6d344e6bb57a2193b61aebc9972464930f3b",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/1017-mini-ipip"
+      }
+    },
+    {
+      "id": "0922-03",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+      "question": "Which state has the capital Montpelier?",
+      "choices": [
+        "Vermont",
+        "New Hampshire"
+      ],
+      "answer": "VERMONT",
+      "explanation": "Montpelier is Vermont\u2019s capital.",
+      "source": "https://statehouse.vermont.gov/capitol-district-and-beyond",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Which state has the capital Montpelier? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "original_caption": "Which state has the capital Montpelier? Vermont / New Hampshire \u2014 Answer: Vermont. Montpelier is Vermont\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610081685032210",
+      "existing_publish_at": "2026-10-19T18:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/caption.txt",
+      "caption_sha256": "8f1e99f16151280913a659fb0a9bc3d4b95ff1838ebb8be45629984e170c8d21",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03.mp4",
+      "sha256": "3862fc039cfa446e50f349694e47f5660ef0cfcd09d122398af885cc860ae54c",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/poster.jpg",
+      "poster_sha256": "877b710684c504e42e9b43d4e367b2bdd93f31061279207d4b1b4bd441e64836",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-03.mp4",
+      "original_sha256": "5ca0e740f335b8d86c677803c9cded0102ed80a9b062566bfdb906f60556247c",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0922-03"
+      }
+    },
+    {
+      "id": "0922-04",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+      "question": "Which state has the capital Cheyenne?",
+      "choices": [
+        "Wyoming",
+        "Colorado"
+      ],
+      "answer": "WYOMING",
+      "explanation": "Cheyenne is Wyoming\u2019s capital.",
+      "source": "https://www.wyo.gov/about-wyoming/wyoming-facts-and-symbols",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Which state has the capital Cheyenne? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "original_caption": "Which state has the capital Cheyenne? Wyoming / Colorado \u2014 Answer: Wyoming. Cheyenne is Wyoming\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610194528718087",
+      "existing_publish_at": "2026-10-20T10:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/caption.txt",
+      "caption_sha256": "1117a78e53f5090f249469b44db3b333ed7ba8bd400c3e225badff59d5ec3b7a",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04.mp4",
+      "sha256": "b43d922f97e41a07a27f8f5d46b9658e743bd2fb530ca377f41f92232573e6fb",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/poster.jpg",
+      "poster_sha256": "1b0b8540cb0e9505095e08ac3fe562a49af51e16bac55cc2a30a22e1d331c76b",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-04.mp4",
+      "original_sha256": "1f2dccbe53d2a9390764eb5d5968e92116a1eb4ed2682cd5ca29e9d899b766f2",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0922-04"
+      }
+    },
+    {
+      "id": "0922-05",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+      "question": "Dover is the capital of which state?",
+      "choices": [
+        "Delaware",
+        "Maryland"
+      ],
+      "answer": "DELAWARE",
+      "explanation": "Dover is Delaware\u2019s capital.",
+      "source": "https://delaware.gov/guides/facts/",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Dover is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "original_caption": "Dover is the capital of which state? Delaware / Maryland \u2014 Answer: Delaware. Dover is Delaware\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610288137047304",
+      "existing_publish_at": "2026-10-20T14:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/caption.txt",
+      "caption_sha256": "3cd3be85756615caac168ac09df911d95461781c09bd755ec0f01319ed83117a",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05.mp4",
+      "sha256": "6c41cf08b5f3d8279112c5f4bdddbd05197cbf2e2ab80fc33f65d929f2131e3e",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/poster.jpg",
+      "poster_sha256": "e4fc97e5881224d3b69f8193dcf066f0e12572ff133b091ff1f4eb9418eae687",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-05.mp4",
+      "original_sha256": "13be8f012c2f2a3e08e6f06361101b39bb0f181d84e4ffe525ac57064a145195",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0922-05"
+      }
+    },
+    {
+      "id": "0922-06",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+      "question": "Madison is the capital of which state?",
+      "choices": [
+        "Wisconsin",
+        "Minnesota"
+      ],
+      "answer": "WISCONSIN",
+      "explanation": "Madison is Wisconsin\u2019s capital.",
+      "source": "https://www.cityofmadison.com/mayor/documents/City%20of%20MadisonWI_PART%201_SCC_Application.pdf",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Madison is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "original_caption": "Madison is the capital of which state? Wisconsin / Minnesota \u2014 Answer: Wisconsin. Madison is Wisconsin\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610345355857170",
+      "existing_publish_at": "2026-10-20T18:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/caption.txt",
+      "caption_sha256": "341276ab1af3ef2ed693394f03c0580fc7a1e7afe2a89592ff2a06aa917def26",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06.mp4",
+      "sha256": "57ea1188ce9317734b8f6c6fc39edb3c50d0d4bc1fb9dbe24972f9590c0c7682",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/poster.jpg",
+      "poster_sha256": "1bb948d0ff9d46a31734c150aa381d8a527552cc34ffc04a7c31d59f568ffec1",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-06.mp4",
+      "original_sha256": "c87c53b8a6a329ecf07be9a0578342ddca003e325bc57bc75f11fb413f169b65",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0922-06"
+      }
+    },
+    {
+      "id": "0922-07",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+      "question": "Olympia is the capital of which state?",
+      "choices": [
+        "Washington",
+        "Oregon"
+      ],
+      "answer": "WASHINGTON",
+      "explanation": "Olympia is Washington\u2019s capital.",
+      "source": "https://digitalarchives.wa.gov/News/View/200",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Olympia is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "original_caption": "Olympia is the capital of which state? Washington / Oregon \u2014 Answer: Washington. Olympia is Washington\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610484921257223",
+      "existing_publish_at": "2026-10-21T10:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/caption.txt",
+      "caption_sha256": "9634e952d35b444f2c9a09535a4ae693802a434dd353199545b0fec5676bf61e",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07.mp4",
+      "sha256": "43a493c2ccc2db86331d0903424da4371949c9e0b72ce771f06b5f662332a74e",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/poster.jpg",
+      "poster_sha256": "66984646127b952444855002a1304d70af8ffb1077e0bbae320dd65c8abcf530",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-07.mp4",
+      "original_sha256": "4eebae9fe9cf5efc58a13984e5c0a87177f6e83b574e3e5df67249725366bb1e",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0922-07"
+      }
+    },
+    {
+      "id": "0922-08",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/planets/",
+      "question": "How many planets orbit the Sun?",
+      "choices": [
+        "8",
+        "9"
+      ],
+      "answer": "8",
+      "explanation": "NASA counts eight planets in our solar system.",
+      "source": "https://science.nasa.gov/solar-system/",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "How many planets orbit the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "original_caption": "How many planets orbit the Sun? 8 / 9 \u2014 Answer: 8. NASA counts eight planets in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610547177393426",
+      "existing_publish_at": "2026-10-21T14:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/caption.txt",
+      "caption_sha256": "4acdf075a4ce7c41eb4f6d135ae0bf51140be5e2b20a156eab68653ff294ea02",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08.mp4",
+      "sha256": "5056a7d3d65dab0666b0913a17903c63706485243cc5708c4ed6665000abac08",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/poster.jpg",
+      "poster_sha256": "8787bd3f5ae0a8ee0fdcac421a3f3feed9d7c05bb38c4f42cbabbd6ad8237484",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-08.mp4",
+      "original_sha256": "bccf77d13366bdb7800dd3697ffd7a2f63b61807bbd700c593b7696244ca2b22",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0922-08"
+      }
+    },
+    {
+      "id": "0922-09",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/planets/",
+      "question": "Which planet has liquid water at its surface?",
+      "choices": [
+        "Earth",
+        "Venus"
+      ],
+      "answer": "EARTH",
+      "explanation": "NASA says Earth is the only planet found with liquid water at its surface.",
+      "source": "https://science.nasa.gov/earth/facts/",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Which planet has liquid water at its surface? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "original_caption": "Which planet has liquid water at its surface? Earth / Venus \u2014 Answer: Earth. NASA says Earth is the only planet found with liquid water at its surface. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610647685369096",
+      "existing_publish_at": "2026-10-21T18:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/caption.txt",
+      "caption_sha256": "acc2f108d7934a14c917dd909fb805fbb76f26f7c81d7a4c72dd987eaa773714",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09.mp4",
+      "sha256": "b4b2b0b3f5c1aa128fd7eeeb00ee29ea594c00799ba4d7c6f74f9d63e452c0fb",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/poster.jpg",
+      "poster_sha256": "7e69e1cd728b0333c337823eca91ee6b51d75cf362e8f3ecc83b7b78e6bedfbf",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-09.mp4",
+      "original_sha256": "e8af8c6dd54874a440031a711fb0ce4ec4790924924f757d10ed34525a334c50",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0922-09"
+      }
+    },
+    {
+      "id": "0922-10",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/planets/",
+      "question": "What kind of object is the Sun?",
+      "choices": [
+        "A star",
+        "A planet"
+      ],
+      "answer": "A STAR",
+      "explanation": "The Sun is the only star in our solar system.",
+      "source": "https://science.nasa.gov/sun/facts/",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "original_caption": "The Sun is closest to which kind of object? A star / A planet \u2014 Answer: A Star. The Sun is the only star in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610816069979399",
+      "existing_publish_at": "2026-10-22T10:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/caption.txt",
+      "caption_sha256": "1a6d8c72a9b8d59f90d468dfd794ebaf0c9213ec4b1096b972dae9d4bedaebfd",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.mp4",
+      "sha256": "792cc1f49dac6a619768c273feef24089515d6edd18cb8f15fc2f9b350d40b0b",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/poster.jpg",
+      "poster_sha256": "b04f8e57bc816c530a9fafbb19c0cc33c4db5e11dde2b880864134a750891a7a",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-10.mp4",
+      "original_sha256": "f6e75a7a674349cfd21ff216245169c83104e9feff8576a7bdf33be78792841e",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0922-10"
+      }
+    },
+    {
+      "id": "0923-05",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/find-the-countries-of-europe/",
+      "question": "Hungary\u2019s capital: Budapest or Bucharest?",
+      "choices": [
+        "Budapest",
+        "Bucharest"
+      ],
+      "answer": "BUDAPEST",
+      "explanation": "Budapest is Hungary\u2019s capital.",
+      "source": "https://www.budapestinfo.hu/en/top-sights",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Hungary\u2019s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
+      "original_caption": "Hungary\u2019s capital: Budapest or Bucharest? Budapest / Bucharest \u2014 Answer: Budapest. Budapest is Hungary\u2019s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695611686681693447",
+      "existing_publish_at": "2026-10-22T14:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/caption.txt",
+      "caption_sha256": "7775e11cdc17df51f0f49a20daa0e55eb6af133f7ece6bd000ea35cd8e9cb77f",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.mp4",
+      "sha256": "c3a548e45a0bcc3b8ff4c4e26278ff894ce5ea5ad8bd5eb91acd0b9fc125307d",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/poster.jpg",
+      "poster_sha256": "ffbd863e5b0b67fd9cb2a147e410794d9321e20e5994951011ad7767adc65b86",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-05.mp4",
+      "original_sha256": "eb06bfd88e7e020db652dd2ea4b251982a8fbde2eb7607947ab69ba98fbfb5f2",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/0923-05"
+      }
+    },
+    {
+      "id": "1004-lisbon",
+      "kind": "factual",
+      "route": "https://typologyquiz.com/trivia/countries-of-europe/",
+      "question": "Which country has Lisbon as its capital?",
+      "choices": [
+        "Portugal",
+        "Spain"
+      ],
+      "answer": "Portugal",
+      "explanation": "Lisbon is Portugal\u2019s capital.",
+      "source": "https://www.visitportugal.com/en/destinos/lisboa-regiao",
+      "sources_checked_local_date": "2026-10-15",
+      "caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
+      "original_caption": "Which country has Lisbon as its capital? Portugal. A quick geography quiz for curious minds. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz",
+      "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695611783695912199",
+      "existing_publish_at": "2026-10-22T18:30:00-06:00",
+      "caption_file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/caption.txt",
+      "caption_sha256": "2a783dd4fd0f655cebc473076d167c74f987582b6563dac4f11a1594e0fddb64",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.mp4",
+      "sha256": "a2ddce73d047f500f3b03e0cf4b8109984a6166724c136789f361cd714e16f4e",
+      "qa_report": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.qa.json",
+      "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.decoded.png",
+      "native_qa": {
+        "audio_tracks": 0,
+        "decoded_frame": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.decoded.png",
+        "duration_seconds": 22,
+        "file": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.mp4",
+        "fps": 30,
+        "frames_written": 660,
+        "height": 1920,
+        "width": 1080
+      },
+      "contact_sheet": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/contact-sheet.jpg",
+      "poster": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/poster.jpg",
+      "poster_sha256": "2c8e471d8b1ec1746b30a4e07b5697faf5a249377b5c916779196edfd63339cf",
+      "timeline": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/timeline.json",
+      "reports": [
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase0-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase0-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase1-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase1-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase2-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase2-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase3-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase3-layout.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase4-typography.json",
+        "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon/phase4-layout.json"
+      ],
+      "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1004-lisbon.mp4",
+      "original_sha256": "5af394ccba58a25a1d8ab5286d80e11f7f30db4608f3942c49bfe5170cb68865",
+      "original_sha256_verified_unchanged": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "state": "prepared_local_only_not_replaced",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_seconds": 22,
+      "frames": 660,
+      "phases_seconds": [
+        3,
+        5,
+        2,
+        8,
+        4
+      ],
+      "audio_tracks": 0,
+      "render_state": "encoded",
+      "visual_qa": {
+        "status": "passed",
+        "reviewed_local_date": "2026-10-15",
+        "method": "Root inspected actual encoded hook, choices, answer and CTA samples at 1s,6s,10s,21s; measured layouts and native media QA passed. Sample inspection is not a claim of full playback.",
+        "samples": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-final-media-samples/1004-lisbon"
+      }
+    }
+  ]
+}

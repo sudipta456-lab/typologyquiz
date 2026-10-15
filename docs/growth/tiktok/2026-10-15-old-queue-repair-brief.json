@@ -1,0 +1,394 @@
+[
+  {
+    "id": "1006-li",
+    "route": "https://typologyquiz.com/trivia/periodic-table-first-20/",
+    "caption": "Li is which element? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/periodic-table-first-20/ #Quiz #TypologyQuiz",
+    "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1006-li.mp4",
+    "sha256": "b925dd43ab5b301b8dbff3bf54a1a25007d7a3c00ba1ca138556357837e8c5f2",
+    "question": "Li is which element?",
+    "choices": [
+      "Lithium",
+      "Lead"
+    ],
+    "answer": "Lithium",
+    "explanation": "Lithium is element 3.",
+    "source": "https://periodic-table.rsc.org/element/3/Lithium",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1006-li.mp4",
+    "original_sha256": "b925dd43ab5b301b8dbff3bf54a1a25007d7a3c00ba1ca138556357837e8c5f2",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695609361221111058",
+    "existing_publish_at": "2026-10-18T10:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_status": "prepared_only_not_uploaded_or_scheduled",
+    "original_spec": "1080x1920, 30 fps, 16s, silent H.264",
+    "original_intended_local_date": "2026-10-06",
+    "original_caption": "Li is lithium, element 3. Can you name the first 20 elements? https://typologyquiz.com/trivia/periodic-table-first-20/ #chemistry #quiz"
+  },
+  {
+    "id": "1016-mini-ipip",
+    "route": "https://typologyquiz.com/test/mini-ipip/",
+    "caption": "A free evening. Which feels more like you? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
+    "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1016-mini-ipip.mp4",
+    "sha256": "c869d097dafb904ffa57f7c5ccb92504ebdb2df1b8c5b14a82630314ad853286",
+    "kind": "reflection",
+    "question": "A free evening. Which feels more like you?",
+    "choices": [
+      "A familiar plan",
+      "Something new"
+    ],
+    "answer": "There is no right answer.",
+    "explanation": "A reflection prompt, not a scored test item. Explore the full Mini-IPIP self-report quiz.",
+    "source": "https://typologyquiz.com/methodology/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1016-mini-ipip.mp4",
+    "original_sha256": "c869d097dafb904ffa57f7c5ccb92504ebdb2df1b8c5b14a82630314ad853286",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695609455555185938",
+    "existing_publish_at": "2026-10-18T14:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_status": "prepared_only_not_uploaded_or_scheduled",
+    "original_spec": "1080x1920, 30 fps, 16s, silent H.264",
+    "original_intended_local_date": "2026-10-16",
+    "original_caption": "Free evening: familiar plan or something new? Reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #selfreflection #personality"
+  },
+  {
+    "id": "1017-mini-ipip",
+    "route": "https://typologyquiz.com/test/mini-ipip/",
+    "caption": "A free afternoon. Which would you choose? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
+    "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1017-mini-ipip.mp4",
+    "sha256": "ce6d7f1c13a9c4d2890b5ff20bfb6d344e6bb57a2193b61aebc9972464930f3b",
+    "kind": "reflection",
+    "question": "A free afternoon. Which would you choose?",
+    "choices": [
+      "Revisit a hobby",
+      "Try a new one"
+    ],
+    "answer": "There is no right answer.",
+    "explanation": "A reflection prompt, not a scored test item. Explore the full Mini-IPIP self-report quiz.",
+    "source": "https://typologyquiz.com/methodology/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1017-mini-ipip.mp4",
+    "original_sha256": "ce6d7f1c13a9c4d2890b5ff20bfb6d344e6bb57a2193b61aebc9972464930f3b",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695609541290986770",
+    "existing_publish_at": "2026-10-18T18:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_status": "prepared_only_not_uploaded_or_scheduled",
+    "original_spec": "1080x1920, 30 fps, 16s, silent H.264",
+    "original_intended_local_date": "2026-10-17",
+    "original_caption": "Free afternoon: revisit a hobby or try a new one? Reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #selfreflection #personality"
+  },
+  {
+    "id": "0922-03",
+    "question": "Which state has the capital Montpelier?",
+    "choices": [
+      "Vermont",
+      "New Hampshire"
+    ],
+    "answer": "VERMONT",
+    "explanation": "Montpelier is Vermont\u2019s capital.",
+    "quiz_url": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "caption": "Which state has the capital Montpelier? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+    "sha256": "5ca0e740f335b8d86c677803c9cded0102ed80a9b062566bfdb906f60556247c",
+    "source": "https://statehouse.vermont.gov/capitol-district-and-beyond",
+    "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-03.mp4",
+    "original_sha256": "5ca0e740f335b8d86c677803c9cded0102ed80a9b062566bfdb906f60556247c",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610081685032210",
+    "existing_publish_at": "2026-10-19T18:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0922-03.mp4",
+    "original_caption": "Which state has the capital Montpelier? Vermont / New Hampshire \u2014 Answer: Vermont. Montpelier is Vermont\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz"
+  },
+  {
+    "id": "0922-04",
+    "question": "Which state has the capital Cheyenne?",
+    "choices": [
+      "Wyoming",
+      "Colorado"
+    ],
+    "answer": "WYOMING",
+    "explanation": "Cheyenne is Wyoming\u2019s capital.",
+    "quiz_url": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "caption": "Which state has the capital Cheyenne? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+    "sha256": "1f2dccbe53d2a9390764eb5d5968e92116a1eb4ed2682cd5ca29e9d899b766f2",
+    "source": "https://www.wyo.gov/about-wyoming/wyoming-facts-and-symbols",
+    "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-04.mp4",
+    "original_sha256": "1f2dccbe53d2a9390764eb5d5968e92116a1eb4ed2682cd5ca29e9d899b766f2",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610194528718087",
+    "existing_publish_at": "2026-10-20T10:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0922-04.mp4",
+    "original_caption": "Which state has the capital Cheyenne? Wyoming / Colorado \u2014 Answer: Wyoming. Cheyenne is Wyoming\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz"
+  },
+  {
+    "id": "0922-05",
+    "question": "Dover is the capital of which state?",
+    "choices": [
+      "Delaware",
+      "Maryland"
+    ],
+    "answer": "DELAWARE",
+    "explanation": "Dover is Delaware\u2019s capital.",
+    "quiz_url": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "caption": "Dover is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+    "sha256": "13be8f012c2f2a3e08e6f06361101b39bb0f181d84e4ffe525ac57064a145195",
+    "source": "https://delaware.gov/guides/facts/",
+    "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-05.mp4",
+    "original_sha256": "13be8f012c2f2a3e08e6f06361101b39bb0f181d84e4ffe525ac57064a145195",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610288137047304",
+    "existing_publish_at": "2026-10-20T14:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0922-05.mp4",
+    "original_caption": "Dover is the capital of which state? Delaware / Maryland \u2014 Answer: Delaware. Dover is Delaware\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz"
+  },
+  {
+    "id": "0922-06",
+    "question": "Madison is the capital of which state?",
+    "choices": [
+      "Wisconsin",
+      "Minnesota"
+    ],
+    "answer": "WISCONSIN",
+    "explanation": "Madison is Wisconsin\u2019s capital.",
+    "quiz_url": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "caption": "Madison is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+    "sha256": "c87c53b8a6a329ecf07be9a0578342ddca003e325bc57bc75f11fb413f169b65",
+    "source": "https://www.cityofmadison.com/mayor/documents/City%20of%20MadisonWI_PART%201_SCC_Application.pdf",
+    "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-06.mp4",
+    "original_sha256": "c87c53b8a6a329ecf07be9a0578342ddca003e325bc57bc75f11fb413f169b65",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610345355857170",
+    "existing_publish_at": "2026-10-20T18:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0922-06.mp4",
+    "original_caption": "Madison is the capital of which state? Wisconsin / Minnesota \u2014 Answer: Wisconsin. Madison is Wisconsin\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz"
+  },
+  {
+    "id": "0922-07",
+    "question": "Olympia is the capital of which state?",
+    "choices": [
+      "Washington",
+      "Oregon"
+    ],
+    "answer": "WASHINGTON",
+    "explanation": "Olympia is Washington\u2019s capital.",
+    "quiz_url": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "caption": "Olympia is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+    "sha256": "4eebae9fe9cf5efc58a13984e5c0a87177f6e83b574e3e5df67249725366bb1e",
+    "source": "https://digitalarchives.wa.gov/News/View/200",
+    "route": "https://typologyquiz.com/trivia/us-state-capitals/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-07.mp4",
+    "original_sha256": "4eebae9fe9cf5efc58a13984e5c0a87177f6e83b574e3e5df67249725366bb1e",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610484921257223",
+    "existing_publish_at": "2026-10-21T10:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0922-07.mp4",
+    "original_caption": "Olympia is the capital of which state? Washington / Oregon \u2014 Answer: Washington. Olympia is Washington\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz"
+  },
+  {
+    "id": "0922-08",
+    "question": "How many planets orbit the Sun?",
+    "choices": [
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "NASA counts eight planets in our solar system.",
+    "quiz_url": "https://typologyquiz.com/trivia/planets/",
+    "caption": "How many planets orbit the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+    "sha256": "bccf77d13366bdb7800dd3697ffd7a2f63b61807bbd700c593b7696244ca2b22",
+    "source": "https://science.nasa.gov/solar-system/",
+    "route": "https://typologyquiz.com/trivia/planets/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-08.mp4",
+    "original_sha256": "bccf77d13366bdb7800dd3697ffd7a2f63b61807bbd700c593b7696244ca2b22",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610547177393426",
+    "existing_publish_at": "2026-10-21T14:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0922-08.mp4",
+    "original_caption": "How many planets orbit the Sun? 8 / 9 \u2014 Answer: 8. NASA counts eight planets in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz"
+  },
+  {
+    "id": "0922-09",
+    "question": "Which planet has liquid water at its surface?",
+    "choices": [
+      "Earth",
+      "Venus"
+    ],
+    "answer": "EARTH",
+    "explanation": "NASA says Earth is the only planet found with liquid water at its surface.",
+    "quiz_url": "https://typologyquiz.com/trivia/planets/",
+    "caption": "Which planet has liquid water at its surface? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+    "sha256": "e8af8c6dd54874a440031a711fb0ce4ec4790924924f757d10ed34525a334c50",
+    "source": "https://science.nasa.gov/earth/facts/",
+    "route": "https://typologyquiz.com/trivia/planets/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-09.mp4",
+    "original_sha256": "e8af8c6dd54874a440031a711fb0ce4ec4790924924f757d10ed34525a334c50",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610647685369096",
+    "existing_publish_at": "2026-10-21T18:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0922-09.mp4",
+    "original_caption": "Which planet has liquid water at its surface? Earth / Venus \u2014 Answer: Earth. NASA says Earth is the only planet found with liquid water at its surface. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz"
+  },
+  {
+    "id": "0922-10",
+    "question": "What kind of object is the Sun?",
+    "choices": [
+      "A star",
+      "A planet"
+    ],
+    "answer": "A STAR",
+    "explanation": "The Sun is the only star in our solar system.",
+    "quiz_url": "https://typologyquiz.com/trivia/planets/",
+    "caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+    "sha256": "f6e75a7a674349cfd21ff216245169c83104e9feff8576a7bdf33be78792841e",
+    "source": "https://science.nasa.gov/sun/facts/",
+    "route": "https://typologyquiz.com/trivia/planets/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-10.mp4",
+    "original_sha256": "f6e75a7a674349cfd21ff216245169c83104e9feff8576a7bdf33be78792841e",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695610816069979399",
+    "existing_publish_at": "2026-10-22T10:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0922-10.mp4",
+    "original_caption": "The Sun is closest to which kind of object? A star / A planet \u2014 Answer: A Star. The Sun is the only star in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz"
+  },
+  {
+    "id": "0923-05",
+    "question": "Hungary\u2019s capital: Budapest or Bucharest?",
+    "choices": [
+      "Budapest",
+      "Bucharest"
+    ],
+    "answer": "BUDAPEST",
+    "explanation": "Budapest is Hungary\u2019s capital.",
+    "quiz_url": "https://typologyquiz.com/trivia/find-the-countries-of-europe/",
+    "caption": "Hungary\u2019s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
+    "sha256": "eb06bfd88e7e020db652dd2ea4b251982a8fbde2eb7607947ab69ba98fbfb5f2",
+    "source": "https://www.budapestinfo.hu/en/top-sights",
+    "route": "https://typologyquiz.com/trivia/find-the-countries-of-europe/",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-05.mp4",
+    "original_sha256": "eb06bfd88e7e020db652dd2ea4b251982a8fbde2eb7607947ab69ba98fbfb5f2",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695611686681693447",
+    "existing_publish_at": "2026-10-22T14:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_duration_seconds": 16,
+    "original_media_method": "Original Pillow/vector graphics; native AVFoundation H.264 encode",
+    "original_filename": "0923-05.mp4",
+    "original_caption": "Hungary\u2019s capital: Budapest or Bucharest? Budapest / Bucharest \u2014 Answer: Budapest. Budapest is Hungary\u2019s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz"
+  },
+  {
+    "id": "1004-lisbon",
+    "route": "https://typologyquiz.com/trivia/countries-of-europe/",
+    "caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
+    "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1004-lisbon.mp4",
+    "sha256": "5af394ccba58a25a1d8ab5286d80e11f7f30db4608f3942c49bfe5170cb68865",
+    "question": "Which country has Lisbon as its capital?",
+    "choices": [
+      "Portugal",
+      "Spain"
+    ],
+    "answer": "Portugal",
+    "explanation": "Lisbon is Portugal\u2019s capital.",
+    "source": "https://www.visitportugal.com/en/destinos/lisboa-regiao",
+    "original_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1004-lisbon.mp4",
+    "original_sha256": "5af394ccba58a25a1d8ab5286d80e11f7f30db4608f3942c49bfe5170cb68865",
+    "existing_url": "https://www.tiktok.com/@typologyquiz/video/7695611783695912199",
+    "existing_publish_at": "2026-10-22T18:30:00-06:00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "state": "corrected_local_only_not_replaced",
+    "sources_checked_local_date": "2026-10-15",
+    "original_status": "prepared_only_not_uploaded_or_scheduled",
+    "original_spec": "1080x1920, 30 fps, 16s, silent H.264",
+    "original_intended_local_date": "2026-10-04",
+    "original_caption": "Which country has Lisbon as its capital? Portugal. A quick geography quiz for curious minds. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz"
+  }
+]

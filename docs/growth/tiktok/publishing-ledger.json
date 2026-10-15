@@ -5,7 +5,7 @@
   "reviews": [
     {
       "reviewed_at": "2026-09-21T21:01:00-06:00",
-      "window": "TikTok Studio Last 7 days (September 14–20, 2026)",
+      "window": "TikTok Studio Last 7 days (September 14\u201320, 2026)",
       "account_metrics": {
         "video_views": 2400,
         "profile_views": 21,
@@ -71,7 +71,7 @@
     },
     {
       "reviewed_at": "2026-10-14T21:06:22-06:00",
-      "window": "TikTok Studio Last 7 days; chart October 7–13, 2026",
+      "window": "TikTok Studio Last 7 days; chart October 7\u201313, 2026",
       "account_metrics": {
         "video_views": null,
         "video_views_display": "1.1K",
@@ -90,7 +90,7 @@
         "following_percent": 0,
         "sound_percent": 0
       },
-      "queue_reconciliation": "October 14: all three due items published. October 15–22: 24 future rows, exactly 10:30, 14:30 and 18:30 daily, Everyone and matching captions/permalinks. No future slot conflict observed. No upload or schedule change.",
+      "queue_reconciliation": "October 14: all three due items published. October 15\u201322: 24 future rows, exactly 10:30, 14:30 and 18:30 daily, Everyone and matching captions/permalinks. No future slot conflict observed. No upload or schedule change.",
       "comment_review": "Latest visible comments were older creator link comments, followed by month-old short answers/feedback. No new genuine question requiring a reply observed; no reply or reaction sent.",
       "interpretation": "Rounded views and small non-comparable windows do not establish a winning topic or time. Three-slot test has not completed seven local days. Browser extension can access Studio while native Mac control is locked."
     },
@@ -98,7 +98,7 @@
       "reviewed_at": "2026-10-15T12:07:02.344Z",
       "phase": "morning",
       "account_verified": "@typologyquiz",
-      "queue_reconciliation": "24 future Everyone rows October 15–22, three daily at 10:30/14:30/18:30 America/Edmonton. All IDs, captions and slots reconciled after reload; no future conflict. October 14 three posts published at 106/101/83 observed views.",
+      "queue_reconciliation": "24 future Everyone rows October 15\u201322, three daily at 10:30/14:30/18:30 America/Edmonton. All IDs, captions and slots reconciled after reload; no future conflict. October 14 three posts published at 106/101/83 observed views.",
       "queue_dates": {
         "2026-10-15": 3,
         "2026-10-16": 3,
@@ -351,7 +351,7 @@
     {
       "id": "0916-01",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-01.mp4",
-      "caption": "Which planet spins almost on its side? Uranus / Jupiter — Answer: Uranus. Its rotation axis is tilted about 98° from perpendicular to its orbital plane. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "caption": "Which planet spins almost on its side? Uranus / Jupiter \u2014 Answer: Uranus. Its rotation axis is tilted about 98\u00b0 from perpendicular to its orbital plane. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
       "sha256": "e44b3f5336d551e53605b746cd80e59129e3f0932521c33952e09a3faba0583e",
       "tiktok_id": "7686155401221508360",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686155401221508360",
@@ -366,7 +366,7 @@
     {
       "id": "0916-02",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-02.mp4",
-      "caption": "Why does Mars look red? Rusting iron minerals / Red oceans — Answer: rusting iron minerals. Iron minerals in surface material oxidize, giving Mars its reddish appearance. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "caption": "Why does Mars look red? Rusting iron minerals / Red oceans \u2014 Answer: rusting iron minerals. Iron minerals in surface material oxidize, giving Mars its reddish appearance. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
       "sha256": "a39750554fa9dae85866c2228622f7aa6060a870228a378eac6258001875bfa4",
       "tiktok_id": "7686156061522316562",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686156061522316562",
@@ -381,7 +381,7 @@
     {
       "id": "0916-03",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-03.mp4",
-      "caption": "What does K stand for on the periodic table? Potassium / Krypton — Answer: potassium. K is the symbol for potassium, atomic number 19. Test the first 20 elements. https://typologyquiz.com/trivia/periodic-table/ #chemistry #trivia #typologyquiz",
+      "caption": "What does K stand for on the periodic table? Potassium / Krypton \u2014 Answer: potassium. K is the symbol for potassium, atomic number 19. Test the first 20 elements. https://typologyquiz.com/trivia/periodic-table/ #chemistry #trivia #typologyquiz",
       "sha256": "0418b05568b3885cb89e96ae51cbd753a47b99de92e205971b9fba56e45559b1",
       "tiktok_id": "7686156301134531858",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686156301134531858",
@@ -396,7 +396,7 @@
     {
       "id": "0916-04",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-04.mp4",
-      "caption": "Which element was first detected in the Sun? Helium / Hydrogen — Answer: helium. Scientists identified helium in the Sun before finding it on Earth. Test the first 20 elements. https://typologyquiz.com/trivia/periodic-table/ #chemistry #trivia #typologyquiz",
+      "caption": "Which element was first detected in the Sun? Helium / Hydrogen \u2014 Answer: helium. Scientists identified helium in the Sun before finding it on Earth. Test the first 20 elements. https://typologyquiz.com/trivia/periodic-table/ #chemistry #trivia #typologyquiz",
       "sha256": "5c7ea8f828715a3371d08aa90492aa7088e07945199076d55950658c909c04b5",
       "tiktok_id": "7686156549328407815",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686156549328407815",
@@ -411,7 +411,7 @@
     {
       "id": "0916-05",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-05.mp4",
-      "caption": "Which city is the capital of Manitoba? Winnipeg / Regina — Answer: Winnipeg. It is Manitoba’s capital and largest city. Try a Canada capitals speed round. https://typologyquiz.com/trivia/canada-capitals/ #canada #geography #typologyquiz",
+      "caption": "Which city is the capital of Manitoba? Winnipeg / Regina \u2014 Answer: Winnipeg. It is Manitoba\u2019s capital and largest city. Try a Canada capitals speed round. https://typologyquiz.com/trivia/canada-capitals/ #canada #geography #typologyquiz",
       "sha256": "45ed2c0e481c6de54ca08abd0f55335f8b062b10a1207b7ccfa15b34e77260af",
       "tiktok_id": "7686156847706901767",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686156847706901767",
@@ -426,7 +426,7 @@
     {
       "id": "0916-06",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-06.mp4",
-      "caption": "Which territory was created in 1999? Nunavut / Yukon — Answer: Nunavut. The Nunavut Act came into effect in April 1999. Explore Canadian provinces and territories. https://typologyquiz.com/trivia/canada-provinces/ #trivia #typologyquiz",
+      "caption": "Which territory was created in 1999? Nunavut / Yukon \u2014 Answer: Nunavut. The Nunavut Act came into effect in April 1999. Explore Canadian provinces and territories. https://typologyquiz.com/trivia/canada-provinces/ #trivia #typologyquiz",
       "sha256": "376ceaf8424ac13311a498939c1ed5501b8e27d5199db090f91cd241201da4f5",
       "tiktok_id": "7686157331175935240",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686157331175935240",
@@ -441,7 +441,7 @@
     {
       "id": "0916-07",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-07.mp4",
-      "caption": "Alaska's capital: J _ N _ A _ — Answer: J U N E A U. Juneau is Alaska’s state capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "caption": "Alaska's capital: J _ N _ A _ \u2014 Answer: J U N E A U. Juneau is Alaska\u2019s state capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
       "sha256": "d2a22f52aa90e00afc91919359d8a49e641c03387a2f9d824ea93ff4ac4ebcb0",
       "tiktok_id": "7686157746932174087",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686157746932174087",
@@ -456,7 +456,7 @@
     {
       "id": "0916-08",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-08.mp4",
-      "caption": "Where does the Sun belong? Star / Planet — Answer: a star. The Sun is our solar system’s star; Earth is one of its planets. Now name the planets. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "caption": "Where does the Sun belong? Star / Planet \u2014 Answer: a star. The Sun is our solar system\u2019s star; Earth is one of its planets. Now name the planets. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
       "sha256": "13a2083272313f8d4d33565df0ca2c9946258a40aeac660faafabec9746fc111",
       "tiktok_id": "7686158005800340743",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686158005800340743",
@@ -471,7 +471,7 @@
     {
       "id": "0916-09",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-09.mp4",
-      "caption": "A rectangle is 3 cm by 4 cm. Distance around it? 7 cm / 12 cm / 14 cm — Answer: 14 cm. Add all four sides: 3 + 4 + 3 + 4 = 14 cm. Find more mini puzzles at TypologyQuiz. https://typologyquiz.com/trivia/ #trivia #typologyquiz",
+      "caption": "A rectangle is 3 cm by 4 cm. Distance around it? 7 cm / 12 cm / 14 cm \u2014 Answer: 14 cm. Add all four sides: 3 + 4 + 3 + 4 = 14 cm. Find more mini puzzles at TypologyQuiz. https://typologyquiz.com/trivia/ #trivia #typologyquiz",
       "sha256": "390813e0b48149d5e108f4503394abe6ff08a1da4b40c6f214e7f83b9dbfe44a",
       "tiktok_id": "7686158334289808647",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686158334289808647",
@@ -486,7 +486,7 @@
     {
       "id": "0916-10",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-16/0916-10.mp4",
-      "caption": "One gold token, three blue. Each equally likely. Chance of gold? 1 in 3 / 1 in 4 — Answer: 1 in 4, or 25%. There are four equally likely tokens, and one is gold. Find more mini puzzles at TypologyQuiz. https://typologyquiz.com/trivia/ #trivia #typologyquiz",
+      "caption": "One gold token, three blue. Each equally likely. Chance of gold? 1 in 3 / 1 in 4 \u2014 Answer: 1 in 4, or 25%. There are four equally likely tokens, and one is gold. Find more mini puzzles at TypologyQuiz. https://typologyquiz.com/trivia/ #trivia #typologyquiz",
       "sha256": "1e285a0a06ecdda89592ef37a3ef5a4a987faa4d7630bdfda6720bd8b0aa85f6",
       "tiktok_id": "7686158835286953223",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686158835286953223",
@@ -583,7 +583,7 @@
     {
       "id": "1002-news",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-02/1002-news.mp4",
-      "caption": "ARCHIVE QUIZ — World News Quiz edition dated September 10, 2026. ESA/Hubble reported the newly observed 10-sided atmospheric wave at Saturn’s south pole on September 2. Which famous north-pole feature is its counterpart? Saturn’s hexagon. The source notes the patterns differ. Source: ESA/Hubble, https://esahubble.org/news/heic2612/ . This is an archived quiz, not today’s news. https://typologyquiz.com/trivia/news-world/ #newsquiz #space #typologyquiz",
+      "caption": "ARCHIVE QUIZ \u2014 World News Quiz edition dated September 10, 2026. ESA/Hubble reported the newly observed 10-sided atmospheric wave at Saturn\u2019s south pole on September 2. Which famous north-pole feature is its counterpart? Saturn\u2019s hexagon. The source notes the patterns differ. Source: ESA/Hubble, https://esahubble.org/news/heic2612/ . This is an archived quiz, not today\u2019s news. https://typologyquiz.com/trivia/news-world/ #newsquiz #space #typologyquiz",
       "sha256": "2aeb4daf097762bfa91cb49c609c885c8d72ed6a395c12ab3bc603d002b451f6",
       "tiktok_id": "7695555933560114439",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695555933560114439",
@@ -608,7 +608,7 @@
     {
       "id": "1008-vienna",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1008-vienna.mp4",
-      "caption": "Vienna → Austria. Keep going with the European countries quiz: https://typologyquiz.com/trivia/countries-of-europe/ #GeographyQuiz #TypologyQuiz",
+      "caption": "Vienna \u2192 Austria. Keep going with the European countries quiz: https://typologyquiz.com/trivia/countries-of-europe/ #GeographyQuiz #TypologyQuiz",
       "sha256": "dd286e3cf18e152118d5d251daa08cb9bf3652210829f16259e317254d447109",
       "tiktok_id": "7695556364009098503",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695556364009098503",
@@ -623,7 +623,7 @@
         "url": "https://www.tiktok.com/@typologyquiz/video/7695556195888794888",
         "same_publish_at": "2026-10-12T18:30:00-06:00",
         "cleanup_status": "published_duplicate_blocked_in_web_studio",
-        "cleanup_verification": "The duplicate appears in Studio. Its overflow Delete action displayed the native limitation: “Videos with commercial content can only be edited on the TikTok app.” No deletion was confirmed.",
+        "cleanup_verification": "The duplicate appears in Studio. Its overflow Delete action displayed the native limitation: \u201cVideos with commercial content can only be edited on the TikTok app.\u201d No deletion was confirmed.",
         "published_confirmation": {
           "verified_at": "2026-10-13T05:59:56-06:00",
           "published_at": "2026-10-12T18:30:00-06:00",
@@ -815,7 +815,7 @@
     {
       "id": "0923-02",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-02.mp4",
-      "caption": "Croatia’s capital: Zagreb or Sarajevo? Zagreb / Sarajevo — Answer: Zagreb. Zagreb is Croatia’s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "caption": "Croatia\u2019s capital: Zagreb or Sarajevo? Zagreb / Sarajevo \u2014 Answer: Zagreb. Zagreb is Croatia\u2019s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
       "sha256": "6e1b5c028b760bb53ec125ce2945f44cef28c10aba2c536d5e57c19ff9abaaaa",
       "tiktok_id": "7695608514143685895",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695608514143685895",
@@ -853,7 +853,7 @@
     {
       "id": "0923-03",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-03.mp4",
-      "caption": "Slovakia’s capital: Bratislava or Ljubljana? Bratislava / Ljubljana — Answer: Bratislava. Bratislava is Slovakia’s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "caption": "Slovakia\u2019s capital: Bratislava or Ljubljana? Bratislava / Ljubljana \u2014 Answer: Bratislava. Bratislava is Slovakia\u2019s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
       "sha256": "161daf5d3cdfc9d337a5872e66a3dd6b1855c4ee6608bcd5953d6faa2c7f67b7",
       "tiktok_id": "7695608625053617426",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695608625053617426",
@@ -891,7 +891,7 @@
     {
       "id": "0923-04",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-04.mp4",
-      "caption": "Portugal’s capital: Lisbon or Porto? Lisbon / Porto — Answer: Lisbon. Lisbon is Portugal’s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "caption": "Portugal\u2019s capital: Lisbon or Porto? Lisbon / Porto \u2014 Answer: Lisbon. Lisbon is Portugal\u2019s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
       "sha256": "da43a4cbe3f6ff43995781e50f1ccd29d5a8b2b20858b449377b1c4536fcde36",
       "tiktok_id": "7695608708134456584",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695608708134456584",
@@ -929,7 +929,7 @@
     {
       "id": "0923-06",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-06.mp4",
-      "caption": "Which country has the capital Bern? Switzerland / Austria — Answer: Switzerland. Bern is Switzerland’s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "caption": "Which country has the capital Bern? Switzerland / Austria \u2014 Answer: Switzerland. Bern is Switzerland\u2019s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
       "sha256": "395378e48375bc9a10336bb75cc778f51e767b428ae345cf319b6bad3a80a495",
       "tiktok_id": "7695608838367595794",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695608838367595794",
@@ -967,7 +967,7 @@
     {
       "id": "0923-07",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-07.mp4",
-      "caption": "Japan’s capital: Tokyo or Kyoto? Tokyo / Kyoto — Answer: Tokyo. Tokyo is Japan’s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "caption": "Japan\u2019s capital: Tokyo or Kyoto? Tokyo / Kyoto \u2014 Answer: Tokyo. Tokyo is Japan\u2019s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
       "sha256": "dcf32c3062f2e3d839263a1c404f971ccffcfc7b662a076373c2e16554dd09b8",
       "tiktok_id": "7695608898560036104",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695608898560036104",
@@ -1005,7 +1005,7 @@
     {
       "id": "0923-08",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-08.mp4",
-      "caption": "Brazil’s capital: Brasília or Rio? Brasília / Rio — Answer: Brasília. Brasília is Brazil’s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "caption": "Brazil\u2019s capital: Bras\u00edlia or Rio? Bras\u00edlia / Rio \u2014 Answer: Bras\u00edlia. Bras\u00edlia is Brazil\u2019s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
       "sha256": "857f2d9c070401488ee030907f36ec691dccad627b85dc8021c8fe6cbbff7f59",
       "tiktok_id": "7695608980890029364",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695608980890029364",
@@ -1043,7 +1043,7 @@
     {
       "id": "0923-09",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-09.mp4",
-      "caption": "Kenya’s capital: Nairobi or Mombasa? Nairobi / Mombasa — Answer: Nairobi. Nairobi is Kenya’s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "caption": "Kenya\u2019s capital: Nairobi or Mombasa? Nairobi / Mombasa \u2014 Answer: Nairobi. Nairobi is Kenya\u2019s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
       "sha256": "2378a3837a3bc71bcd4b0324df64ff01d1d85cfcb5d7682bc83f51383ceeeb2a",
       "tiktok_id": "7695609079418359048",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609079418359048",
@@ -1081,7 +1081,7 @@
     {
       "id": "0923-10",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-10.mp4",
-      "caption": "Canada’s capital: Ottawa or Toronto? Ottawa / Toronto — Answer: Ottawa. Ottawa is Canada’s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "caption": "Canada\u2019s capital: Ottawa or Toronto? Ottawa / Toronto \u2014 Answer: Ottawa. Ottawa is Canada\u2019s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
       "sha256": "66f3bb9e15f2465483e5ddea775596a0dea4607ee4cb49f4c01e4912eeec00b4",
       "tiktok_id": "7695609175061138706",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609175061138706",
@@ -1119,7 +1119,7 @@
     {
       "id": "1005-madrid",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-04-17/1005-madrid.mp4",
-      "caption": "MADRID → Spain. Can you name the country? Try this quick geography quiz. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz",
+      "caption": "MADRID \u2192 Spain. Can you name the country? Try this quick geography quiz. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz",
       "sha256": "ea2b99525a5158cc00e98c7bbe4ea4414c81c58773aa60752cc4158c778dd28b",
       "tiktok_id": "7695609280732384520",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609280732384520",
@@ -1158,6 +1158,18 @@
         "scheduled_local_time": "2026-10-18T10:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li.mp4",
+        "replacement_sha256": "3465ebdfbef9ac8a4d5b82ed56fb31b0a0a4eb8848b17d45dec534007ee96894",
+        "replacement_caption": "Li is which element? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/periodic-table-first-20/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
@@ -1180,6 +1192,18 @@
         "scheduled_local_time": "2026-10-18T14:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip.mp4",
+        "replacement_sha256": "4767220df938b31825cebb88deefefb98e68ef94b1d5646a7405273a3262a181",
+        "replacement_caption": "A free evening. Which feels more like you? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
@@ -1202,12 +1226,24 @@
         "scheduled_local_time": "2026-10-18T18:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip.mp4",
+        "replacement_sha256": "0f5074d6b02772e3f552ba4ad19128ab134c8999a2647d2f5d49abcef8a2314b",
+        "replacement_caption": "A free afternoon. Which would you choose? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0922-01",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-01.mp4",
-      "caption": "Na is the symbol for which element? Sodium / Nitrogen — Answer: Sodium. NIST lists sodium as Na, atomic number 11. Try the first 20 elements. https://typologyquiz.com/trivia/periodic-table-first-20/ #trivia #typologyquiz",
+      "caption": "Na is the symbol for which element? Sodium / Nitrogen \u2014 Answer: Sodium. NIST lists sodium as Na, atomic number 11. Try the first 20 elements. https://typologyquiz.com/trivia/periodic-table-first-20/ #trivia #typologyquiz",
       "sha256": "f3809677c607535d6035722f7fdec0f591b5b06b053c70cf999a713d22eee91b",
       "tiktok_id": "7695609896804322568",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609896804322568",
@@ -1229,7 +1265,7 @@
     {
       "id": "0922-02",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-02.mp4",
-      "caption": "Atomic number 14: silicon or sulfur? Silicon / Sulfur — Answer: Silicon. The periodic table puts silicon at atomic number 14. Try the first 20 elements. https://typologyquiz.com/trivia/periodic-table-first-20/ #trivia #typologyquiz",
+      "caption": "Atomic number 14: silicon or sulfur? Silicon / Sulfur \u2014 Answer: Silicon. The periodic table puts silicon at atomic number 14. Try the first 20 elements. https://typologyquiz.com/trivia/periodic-table-first-20/ #trivia #typologyquiz",
       "sha256": "c4ada9821eb98a5d1bba02c9e6dd9167cfb90efcb9b5c706f7714016343e90dd",
       "tiktok_id": "7695610001196354834",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610001196354834",
@@ -1251,7 +1287,7 @@
     {
       "id": "0922-03",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-03.mp4",
-      "caption": "Which state has the capital Montpelier? Vermont / New Hampshire — Answer: Vermont. Montpelier is Vermont’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "caption": "Which state has the capital Montpelier? Vermont / New Hampshire \u2014 Answer: Vermont. Montpelier is Vermont\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
       "sha256": "5ca0e740f335b8d86c677803c9cded0102ed80a9b062566bfdb906f60556247c",
       "tiktok_id": "7695610081685032210",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610081685032210",
@@ -1268,12 +1304,24 @@
         "scheduled_local_time": "2026-10-19T18:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03.mp4",
+        "replacement_sha256": "3862fc039cfa446e50f349694e47f5660ef0cfcd09d122398af885cc860ae54c",
+        "replacement_caption": "Which state has the capital Montpelier? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0922-04",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-04.mp4",
-      "caption": "Which state has the capital Cheyenne? Wyoming / Colorado — Answer: Wyoming. Cheyenne is Wyoming’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "caption": "Which state has the capital Cheyenne? Wyoming / Colorado \u2014 Answer: Wyoming. Cheyenne is Wyoming\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
       "sha256": "1f2dccbe53d2a9390764eb5d5968e92116a1eb4ed2682cd5ca29e9d899b766f2",
       "tiktok_id": "7695610194528718087",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610194528718087",
@@ -1290,12 +1338,24 @@
         "scheduled_local_time": "2026-10-20T10:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04.mp4",
+        "replacement_sha256": "b43d922f97e41a07a27f8f5d46b9658e743bd2fb530ca377f41f92232573e6fb",
+        "replacement_caption": "Which state has the capital Cheyenne? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0922-05",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-05.mp4",
-      "caption": "Dover is the capital of which state? Delaware / Maryland — Answer: Delaware. Dover is Delaware’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "caption": "Dover is the capital of which state? Delaware / Maryland \u2014 Answer: Delaware. Dover is Delaware\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
       "sha256": "13be8f012c2f2a3e08e6f06361101b39bb0f181d84e4ffe525ac57064a145195",
       "tiktok_id": "7695610288137047304",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610288137047304",
@@ -1312,12 +1372,24 @@
         "scheduled_local_time": "2026-10-20T14:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05.mp4",
+        "replacement_sha256": "6c41cf08b5f3d8279112c5f4bdddbd05197cbf2e2ab80fc33f65d929f2131e3e",
+        "replacement_caption": "Dover is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0922-06",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-06.mp4",
-      "caption": "Madison is the capital of which state? Wisconsin / Minnesota — Answer: Wisconsin. Madison is Wisconsin’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "caption": "Madison is the capital of which state? Wisconsin / Minnesota \u2014 Answer: Wisconsin. Madison is Wisconsin\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
       "sha256": "c87c53b8a6a329ecf07be9a0578342ddca003e325bc57bc75f11fb413f169b65",
       "tiktok_id": "7695610345355857170",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610345355857170",
@@ -1334,12 +1406,24 @@
         "scheduled_local_time": "2026-10-20T18:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06.mp4",
+        "replacement_sha256": "57ea1188ce9317734b8f6c6fc39edb3c50d0d4bc1fb9dbe24972f9590c0c7682",
+        "replacement_caption": "Madison is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0922-07",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-07.mp4",
-      "caption": "Olympia is the capital of which state? Washington / Oregon — Answer: Washington. Olympia is Washington’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "caption": "Olympia is the capital of which state? Washington / Oregon \u2014 Answer: Washington. Olympia is Washington\u2019s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
       "sha256": "4eebae9fe9cf5efc58a13984e5c0a87177f6e83b574e3e5df67249725366bb1e",
       "tiktok_id": "7695610484921257223",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610484921257223",
@@ -1356,12 +1440,24 @@
         "scheduled_local_time": "2026-10-21T10:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07.mp4",
+        "replacement_sha256": "43a493c2ccc2db86331d0903424da4371949c9e0b72ce771f06b5f662332a74e",
+        "replacement_caption": "Olympia is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0922-08",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-08.mp4",
-      "caption": "How many planets orbit the Sun? 8 / 9 — Answer: 8. NASA counts eight planets in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "caption": "How many planets orbit the Sun? 8 / 9 \u2014 Answer: 8. NASA counts eight planets in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
       "sha256": "bccf77d13366bdb7800dd3697ffd7a2f63b61807bbd700c593b7696244ca2b22",
       "tiktok_id": "7695610547177393426",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610547177393426",
@@ -1378,12 +1474,24 @@
         "scheduled_local_time": "2026-10-21T14:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08.mp4",
+        "replacement_sha256": "5056a7d3d65dab0666b0913a17903c63706485243cc5708c4ed6665000abac08",
+        "replacement_caption": "How many planets orbit the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0922-09",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-09.mp4",
-      "caption": "Which planet has liquid water at its surface? Earth / Venus — Answer: Earth. NASA says Earth is the only planet found with liquid water at its surface. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "caption": "Which planet has liquid water at its surface? Earth / Venus \u2014 Answer: Earth. NASA says Earth is the only planet found with liquid water at its surface. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
       "sha256": "e8af8c6dd54874a440031a711fb0ce4ec4790924924f757d10ed34525a334c50",
       "tiktok_id": "7695610647685369096",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610647685369096",
@@ -1400,12 +1508,24 @@
         "scheduled_local_time": "2026-10-21T18:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09.mp4",
+        "replacement_sha256": "b4b2b0b3f5c1aa128fd7eeeb00ee29ea594c00799ba4d7c6f74f9d63e452c0fb",
+        "replacement_caption": "Which planet has liquid water at its surface? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0922-10",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-22/0922-10.mp4",
-      "caption": "The Sun is closest to which kind of object? A star / A planet — Answer: A Star. The Sun is the only star in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "caption": "The Sun is closest to which kind of object? A star / A planet \u2014 Answer: A Star. The Sun is the only star in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
       "sha256": "f6e75a7a674349cfd21ff216245169c83104e9feff8576a7bdf33be78792841e",
       "tiktok_id": "7695610816069979399",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610816069979399",
@@ -1422,12 +1542,24 @@
         "scheduled_local_time": "2026-10-22T10:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.mp4",
+        "replacement_sha256": "792cc1f49dac6a619768c273feef24089515d6edd18cb8f15fc2f9b350d40b0b",
+        "replacement_caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0923-05",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-05.mp4",
-      "caption": "Hungary’s capital: Budapest or Bucharest? Budapest / Bucharest — Answer: Budapest. Budapest is Hungary’s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "caption": "Hungary\u2019s capital: Budapest or Bucharest? Budapest / Bucharest \u2014 Answer: Budapest. Budapest is Hungary\u2019s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
       "sha256": "eb06bfd88e7e020db652dd2ea4b251982a8fbde2eb7607947ab69ba98fbfb5f2",
       "tiktok_id": "7695611686681693447",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695611686681693447",
@@ -1438,20 +1570,16 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
-        "review_date": "2026-10-14",
+        "review_date": "2026-10-15",
         "status": "replacement_required",
-        "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
-        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-05.mp4",
-        "replacement_sha256": "d3accfa58299ae06693b27765d48735dcd588e3f1bcfa43b6430f77faf9fb5aa",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.mp4",
+        "replacement_sha256": "c3a548e45a0bcc3b8ff4c4e26278ff894ce5ea5ad8bd5eb91acd0b9fc125307d",
+        "replacement_caption": "Hungary\u2019s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
-        "latest_workflow_check": {
-          "observed_at": "2026-10-15T12:07:02.344Z",
-          "status": "blocked_web_mobile_app_required",
-          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
-          "replacement_file_hash_checked": true,
-          "no_upload_or_replacement_performed": true
-        }
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       },
       "latest_queue_verification": {
         "observed_at": "2026-10-15T12:07:02.344Z",
@@ -1482,12 +1610,24 @@
         "scheduled_local_time": "2026-10-22T18:30:00-06:00",
         "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
         "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      },
+      "quality_review": {
+        "review_date": "2026-10-15",
+        "status": "replacement_required",
+        "reason": "Actual encoded final CTA/URL clipped in queued original. Reflection framing and ambiguous Sun wording also corrected where applicable.",
+        "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.mp4",
+        "replacement_sha256": "a2ddce73d047f500f3b03e0cf4b8109984a6166724c136789f361cd714e16f4e",
+        "replacement_caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
+        "replacement_studio_status": "not_uploaded",
+        "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+        "visual_qa": "passed_actual_encoded_samples",
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       }
     },
     {
       "id": "0923-01",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-09-23/0923-01.mp4",
-      "caption": "Slovenia’s capital: Ljubljana or Zagreb? Ljubljana / Zagreb — Answer: Ljubljana. Ljubljana is Slovenia’s capital. Find Slovenia on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "caption": "Slovenia\u2019s capital: Ljubljana or Zagreb? Ljubljana / Zagreb \u2014 Answer: Ljubljana. Ljubljana is Slovenia\u2019s capital. Find Slovenia on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
       "sha256": "2efbed1ffaaee08a9dc3c194f9360af2468bbb6c3aaaf94d2f20e4a30bdf96fe",
       "tiktok_id": "7695607349716716807",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695607349716716807",
@@ -1512,7 +1652,7 @@
     {
       "id": "1015-image-alien-crew",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-alien-crew.mp4",
-      "caption": "Every sci-fi crew needs a different kind of mind. Investigator, diplomat, practical planner, systems thinker, or quiet observer? Adapted from the expedition-role question in our illustrated alien quiz. Fictional, just for fun—not a personality diagnosis or a claim about real aliens. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
+      "caption": "Every sci-fi crew needs a different kind of mind. Investigator, diplomat, practical planner, systems thinker, or quiet observer? Adapted from the expedition-role question in our illustrated alien quiz. Fictional, just for fun\u2014not a personality diagnosis or a claim about real aliens. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
       "sha256": "e10be917dc6d1d384d1d39245c3a263e6ad98971fb2ce217238779c86f8b075a",
       "status": "prepared_local_only",
       "publish_at": null,
@@ -1528,7 +1668,7 @@
     {
       "id": "1015-image-state-shape",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-state-shape.mp4",
-      "caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Reveal: Utah. We used the same accurate state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
+      "caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Choose before the reveal. We used the same state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
       "sha256": "23c97fc65533af767dfa56b4906ac3cda081656d8206a514c855326331790183",
       "status": "prepared_local_only",
       "publish_at": null,
@@ -1543,7 +1683,7 @@
     {
       "id": "1015-image-element-fe",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-element-fe.mp4",
-      "caption": "Fe is iron, atomic number 26; the symbol comes from ferrum. The cube is an original AI illustration, not a photograph. Try the visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ Source: Royal Society of Chemistry, Iron. #ChemistryQuiz #PeriodicTable #TypologyQuiz",
+      "caption": "Two letters: Fe. Which element is it? Choose before the reveal, then try our visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ The cube is an original AI illustration, not a photograph. Source: Royal Society of Chemistry. #ChemistryQuiz #PeriodicTable #TypologyQuiz",
       "sha256": "564a63475e86b6159483acad068b64baf89361432d4ed6adec4fc9c91d173f46",
       "status": "prepared_local_only",
       "publish_at": null,
@@ -1551,6 +1691,70 @@
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-image-led-manifest.json",
       "verification": "Native encoded QA: 1080x1920, 30fps, 20s, 600 frames, no audio. CTA HTTP200. Local asset only; no Studio upload or scheduling.",
+      "required_disclosures": [
+        "Your brand / Promotional content",
+        "AI-generated content"
+      ]
+    },
+    {
+      "id": "1015-drive-following-gap",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-following-gap.mp4",
+      "caption": "Normal, dry conditions: what minimum following gap should a car leave? Choose before the reveal. Alberta Class 7 practice for normal, dry conditions; the video explains the answer and when to leave more space. Original AI illustration, not a measured-gap demonstration. Unofficial practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver\u2019s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
+      "sha256": "dc4673d121bf14d147ab63771a3443b0a81c546ca7b67668df25c6514766c355",
+      "status": "prepared_local_only",
+      "publish_at": null,
+      "url": null,
+      "prepared_local_date": "2026-10-15",
+      "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
+      "verification": "NativeQA1080x1920,30fps,22s,660frames,audio0; all measured layouts pass; CTAHTTP200. Local only; no upload/scheduling.",
+      "required_disclosures": [
+        "Your brand / Promotional content",
+        "AI-generated content"
+      ]
+    },
+    {
+      "id": "1015-drive-rain-recovery",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-rain-recovery.mp4",
+      "caption": "Wet road. Suddenly light steering. What would you do? Pick A or B before the reveal, then read the explanation. Original AI wet-weather illustration, not real footage or a technical tire diagram. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver\u2019s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
+      "sha256": "5c229d62b4afdfddcdd1029565e93ad4b44b9077b6d249a8307e36d0e8cd7082",
+      "status": "prepared_local_only",
+      "publish_at": null,
+      "url": null,
+      "prepared_local_date": "2026-10-15",
+      "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
+      "verification": "NativeQA1080x1920,30fps,22s,660frames,audio0; all measured layouts pass; CTAHTTP200. Local only; no upload/scheduling.",
+      "required_disclosures": [
+        "Your brand / Promotional content",
+        "AI-generated content"
+      ]
+    },
+    {
+      "id": "1015-drive-uphill-curb",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-uphill-curb.mp4",
+      "caption": "Uphill, a curb, and parked on the right: which way should the front wheels point? Choose before the reveal. The video explains the answer for that exact situation. Original AI showroom illustration, not a maneuver demonstration. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver\u2019s Guide. #AlbertaClass7 #ParkingQuiz #TypologyQuiz",
+      "sha256": "e19ee2f91fdb867e275be4786ea3a622b20fef6624689f9bb2120f9fabacbcf2",
+      "status": "prepared_local_only",
+      "publish_at": null,
+      "url": null,
+      "prepared_local_date": "2026-10-15",
+      "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
+      "verification": "NativeQA1080x1920,30fps,22s,660frames,audio0; all measured layouts pass; CTAHTTP200. Local only; no upload/scheduling.",
+      "required_disclosures": [
+        "Your brand / Promotional content",
+        "AI-generated content"
+      ]
+    },
+    {
+      "id": "1015-drive-practice-intro",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-practice-intro.mp4",
+      "caption": "Preparing for a learner\u2019s knowledge test? TypologyQuiz has free driving-practice quizzes, too. Choose your province or state and practise road signs, right of way, parking and road-safety questions, with answer explanations. Original AI illustration. Unofficial practice, not a government exam or a substitute for your official handbook. https://typologyquiz.com/driving/ #DrivingTest #LearnerDriver #DrivingQuiz #TypologyQuiz",
+      "sha256": "63a187dbd908e68d79a5b2e672036973ab507d7c917e46738483ed37d173f537",
+      "status": "prepared_local_only",
+      "publish_at": null,
+      "url": null,
+      "prepared_local_date": "2026-10-15",
+      "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
+      "verification": "NativeQA1080x1920,30fps,22s,660frames,audio0; all measured layouts pass; CTAHTTP200. Local only; no upload/scheduling.",
       "required_disclosures": [
         "Your brand / Promotional content",
         "AI-generated content"

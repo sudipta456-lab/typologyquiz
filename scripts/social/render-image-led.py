@@ -23,12 +23,12 @@ POSTS = [
     {'id': '1015-image-state-shape', 'topic': 'ONE SHAPE. FOUR SUSPECTS.', 'route': '/trivia/us-states/', 'art': None, 'tag': 'MAP SHAPE CHALLENGE',
      'heads': ['Recognize this state?', 'That missing corner…', 'Lock in your guess.', 'It’s Utah.', 'Fill the whole map.'],
      'subs': ['No labels. Just the outline.', 'A  ·  Utah      B  ·  Wyoming', 'C  ·  Nevada      D  ·  Colorado', 'The full map puts that outline in context.', 'Name all 50 US states. Free to play.'],
-     'caption': 'One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Reveal: Utah. We used the same accurate state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz',
+     'caption': 'One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Choose before the reveal. We used the same state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz',
      'source': 'https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf', 'relationship': 'Original silhouette challenge using the native quiz answer Utah and its exact map path.'},
     {'id': '1015-image-element-fe', 'topic': 'A TWO-LETTER MYSTERY', 'route': '/trivia/periodic-table/', 'art': str(ART / 'iron-cube.png'), 'tag': 'ORIGINAL AI ILLUSTRATION',
      'heads': ['Two letters. One element.', 'What does Fe stand for?', 'Choose before the reveal.', 'Iron. Atomic number 26.', 'Can you name the rest?'],
      'subs': ['The symbol is Fe. Got a guess?', 'A  ·  Fluorine      B  ·  Iron', 'C  ·  Fermium      D  ·  Francium', 'Fe comes from the Latin name ferrum.', 'Try our visual periodic-table quiz.'],
-     'caption': 'Fe is iron, atomic number 26; the symbol comes from ferrum. The cube is an original AI illustration, not a photograph. Try the visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ Source: Royal Society of Chemistry, Iron. #ChemistryQuiz #PeriodicTable #TypologyQuiz',
+     'caption': 'Two letters: Fe. Which element is it? Choose before the reveal, then try our visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ The cube is an original AI illustration, not a photograph. Source: Royal Society of Chemistry. #ChemistryQuiz #PeriodicTable #TypologyQuiz',
      'source': 'https://periodic-table.rsc.org/element/26/iron', 'additional_source': 'https://pubchem.ncbi.nlm.nih.gov/element/Fe', 'relationship': 'Existing quiz answer el26 (Iron), with an original multiple-choice promotional framing. PubChem search excerpt supports Latin ferrum; RSC page supports iron, Fe, atomic number 26.'},
 ]
 

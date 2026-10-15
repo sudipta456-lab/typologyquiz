@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1015-drive-following-gap",
+    "art": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic-art/following.png",
+    "topic": "THE SPACE BETWEEN",
+    "hook": "Too close? Count it.",
+    "question": "Normal, dry conditions. Minimum following gap for a car?",
+    "choices": [
+      "A · 1 second",
+      "B · At least 2 seconds"
+    ],
+    "answer": "B · At least 2 seconds",
+    "detail": "Count after the car ahead passes a fixed point. Leave more time in poor conditions.",
+    "source_item": "ab_s4_05",
+    "excerpt": "following-distance-two-seconds",
+    "source_file": "src/lib/driving/alberta/sets-4-6.ts",
+    "source_url": "https://www.alberta.ca/driver-guides-overview-and-pdf-versions",
+    "corroborating_source": "https://open.alberta.ca/dataset/c4220b2b-f107-433b-ad1b-ec83f64005e0/resource/c9e6ab6f-7692-41b7-9c69-786d6ddab88c/download/trans-melt-program-curriculum-experience-equivalency-class-1-curriculum-2020-12.pdf",
+    "source_note": "Official indexed Alberta curriculum supports two-second rule for cars in ideal conditions; existing 2026-source quiz excerpt agrees. Fresh 2026 PDF retrieval returned403.",
+    "caption": "Normal, dry conditions: what minimum following gap should a car leave? Choose before the reveal. Alberta Class 7 practice for normal, dry conditions; the video explains the answer and when to leave more space. Original AI illustration, not a measured-gap demonstration. Unofficial practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
+    "route": "https://typologyquiz.com/driving/alberta/",
+    "prepared_at_local_date": "2026-10-15",
+    "state": "prepared_local_only",
+    "relationship": "Two-choice original promotional adaptation of an existing quiz item; no official exam claim.",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "disclosure_on_upload": [
+      "Your brand / Promotional content",
+      "AI-generated content"
+    ]
+  },
+  {
+    "id": "1015-drive-rain-recovery",
+    "art": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic-art/hydroplaning.png",
+    "topic": "WHEN THE ROAD FEELS WRONG",
+    "hook": "Suddenly no grip?",
+    "question": "Hydroplaning on a wet road. What should you do?",
+    "choices": [
+      "A · Brake hard",
+      "B · Ease off the accelerator"
+    ],
+    "answer": "B · Ease off the accelerator",
+    "detail": "Do not brake. Look and steer where you want the front of the vehicle to go.",
+    "source_item": "ab_s2_29",
+    "excerpt": "hydroplaning-recovery",
+    "source_file": "src/lib/driving/alberta/sets-1-3.ts",
+    "source_url": "https://www.alberta.ca/driver-guides-overview-and-pdf-versions",
+    "corroborating_source": "https://open.alberta.ca/dataset/c4220b2b-f107-433b-ad1b-ec83f64005e0/resource/c9e6ab6f-7692-41b7-9c69-786d6ddab88c/download/trans-melt-program-curriculum-experience-equivalency-class-1-curriculum-2020-12.pdf",
+    "source_note": "Official indexed Alberta curriculum supports no braking, release accelerator, look and steer; existing 2026-source quiz excerpt agrees. Fresh 2026 PDF retrieval returned403.",
+    "caption": "Wet road. Suddenly light steering. What would you do? Pick A or B before the reveal, then read the explanation. Original AI wet-weather illustration, not real footage or a technical tire diagram. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
+    "route": "https://typologyquiz.com/driving/alberta/",
+    "prepared_at_local_date": "2026-10-15",
+    "state": "prepared_local_only",
+    "relationship": "Two-choice original promotional adaptation of an existing quiz item; no official exam claim.",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "disclosure_on_upload": [
+      "Your brand / Promotional content",
+      "AI-generated content"
+    ]
+  },
+  {
+    "id": "1015-drive-uphill-curb",
+    "art": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic-art/hill-parking.png",
+    "topic": "UPHILL · RIGHT-SIDE PARKING",
+    "hook": "Which way would you turn?",
+    "question": "Facing uphill, parked on the right, with a curb. Front wheels?",
+    "choices": [
+      "A · Toward the curb",
+      "B · Away from the curb"
+    ],
+    "answer": "B · Away from the curb",
+    "detail": "Let the right front tire rest against the curb. Set the park brake and use Park or low gear.",
+    "source_item": "ab_s3_14",
+    "excerpt": "hill-parking-uphill-curb",
+    "source_file": "src/lib/driving/alberta/sets-1-3.ts",
+    "source_url": "https://www.alberta.ca/driver-guides-overview-and-pdf-versions",
+    "corroborating_source": "https://open.alberta.ca/dataset/387f4e8a-6c0a-456a-ab31-995aadaf1f2b/resource/1edf5165-9c51-4da8-8206-7bf08bb9a76d/download/tran-drivers-guide-2023-04.pdf",
+    "source_note": "Official indexed 2023 driver guide plus official instructor development guide support exact right-side/uphill/curb condition; existing 2026-source quiz excerpt agrees. Fresh 2026 PDF retrieval returned403.",
+    "caption": "Uphill, a curb, and parked on the right: which way should the front wheels point? Choose before the reveal. The video explains the answer for that exact situation. Original AI showroom illustration, not a maneuver demonstration. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #ParkingQuiz #TypologyQuiz",
+    "route": "https://typologyquiz.com/driving/alberta/",
+    "prepared_at_local_date": "2026-10-15",
+    "state": "prepared_local_only",
+    "relationship": "Two-choice original promotional adaptation of an existing quiz item; no official exam claim.",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "disclosure_on_upload": [
+      "Your brand / Promotional content",
+      "AI-generated content"
+    ]
+  },
+  {
+    "id": "1015-drive-practice-intro",
+    "kind": "awareness",
+    "art": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic-art/hill-parking.png",
+    "topic": "DRIVING PRACTICE · TYPOLOGYQUIZ",
+    "hook": "Your learner’s test is coming.",
+    "question": "We have driving practice quizzes, too.",
+    "features": [
+      "Road signs & right of way",
+      "Parking & road safety"
+    ],
+    "answer": "Practise. Then learn why.",
+    "detail": "Choose your province or state. Try local practice questions with answer explanations.",
+    "route": "https://typologyquiz.com/driving/",
+    "source_url": "https://typologyquiz.com/driving/",
+    "source_item": "Driving hub and Alberta practice landing page",
+    "source_file": "src/app/driving",
+    "caption": "Preparing for a learner’s knowledge test? TypologyQuiz has free driving-practice quizzes, too. Choose your province or state and practise road signs, right of way, parking and road-safety questions, with answer explanations. Original AI illustration. Unofficial practice, not a government exam or a substitute for your official handbook. https://typologyquiz.com/driving/ #DrivingTest #LearnerDriver #DrivingQuiz #TypologyQuiz",
+    "prepared_at_local_date": "2026-10-15",
+    "state": "prepared_local_only",
+    "relationship": "General awareness introduction to existing driving practice quizzes. No question or government endorsement claim.",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "disclosure_on_upload": [
+      "Your brand / Promotional content",
+      "AI-generated content"
+    ]
+  }
+]

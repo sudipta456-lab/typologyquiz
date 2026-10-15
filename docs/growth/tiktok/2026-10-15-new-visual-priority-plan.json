@@ -1,0 +1,93 @@
+{
+  "owner_preference": "Prioritize new videos; replace older queued clips",
+  "account": "@typologyquiz",
+  "timezone": "America/Edmonton",
+  "state": "not_applied",
+  "do_not_upload_into_occupied_slots": true,
+  "replacements": [
+    {
+      "old_id": "0923-04",
+      "old_url": "https://www.tiktok.com/@typologyquiz/video/7695608708134456584",
+      "old_caption": "Portugal\u2019s capital: Lisbon or Porto? Lisbon / Porto \u2014 Answer: Lisbon. Lisbon is Portugal\u2019s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "proposed_local_time": "2026-10-15T18:30:00-06:00",
+      "new_id": "1015-drive-practice-intro",
+      "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-practice-intro.mp4",
+      "new_caption": "Preparing for a learner\u2019s knowledge test? TypologyQuiz has free driving-practice quizzes, too. Choose your province or state and practise road signs, right of way, parking and road-safety questions, with answer explanations. Original AI illustration. Unofficial practice, not a government exam or a substitute for your official handbook. https://typologyquiz.com/driving/ #DrivingTest #LearnerDriver #DrivingQuiz #TypologyQuiz",
+      "new_sha256": "63a187dbd908e68d79a5b2e672036973ab507d7c917e46738483ed37d173f537",
+      "status": "proposed_only_pending_native_queue_cleanup",
+      "replacement_confirmed": false
+    },
+    {
+      "old_id": "0923-06",
+      "old_url": "https://www.tiktok.com/@typologyquiz/video/7695608838367595794",
+      "old_caption": "Which country has the capital Bern? Switzerland / Austria \u2014 Answer: Switzerland. Bern is Switzerland\u2019s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "proposed_local_time": "2026-10-16T10:30:00-06:00",
+      "new_id": "1015-image-alien-crew",
+      "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-alien-crew.mp4",
+      "new_caption": "Every sci-fi crew needs a different kind of mind. Investigator, diplomat, practical planner, systems thinker, or quiet observer? Adapted from the expedition-role question in our illustrated alien quiz. Fictional, just for fun\u2014not a personality diagnosis or a claim about real aliens. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
+      "new_sha256": "e10be917dc6d1d384d1d39245c3a263e6ad98971fb2ce217238779c86f8b075a",
+      "status": "proposed_only_pending_native_queue_cleanup",
+      "replacement_confirmed": false
+    },
+    {
+      "old_id": "0923-07",
+      "old_url": "https://www.tiktok.com/@typologyquiz/video/7695608898560036104",
+      "old_caption": "Japan\u2019s capital: Tokyo or Kyoto? Tokyo / Kyoto \u2014 Answer: Tokyo. Tokyo is Japan\u2019s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "proposed_local_time": "2026-10-16T14:30:00-06:00",
+      "new_id": "1015-drive-following-gap",
+      "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-following-gap.mp4",
+      "new_caption": "Normal, dry conditions: what minimum following gap should a car leave? Choose before the reveal. Alberta Class 7 practice for normal, dry conditions; the video explains the answer and when to leave more space. Original AI illustration, not a measured-gap demonstration. Unofficial practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver\u2019s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
+      "new_sha256": "dc4673d121bf14d147ab63771a3443b0a81c546ca7b67668df25c6514766c355",
+      "status": "proposed_only_pending_native_queue_cleanup",
+      "replacement_confirmed": false
+    },
+    {
+      "old_id": "0923-08",
+      "old_url": "https://www.tiktok.com/@typologyquiz/video/7695608980890029364",
+      "old_caption": "Brazil\u2019s capital: Bras\u00edlia or Rio? Bras\u00edlia / Rio \u2014 Answer: Bras\u00edlia. Bras\u00edlia is Brazil\u2019s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "proposed_local_time": "2026-10-16T18:30:00-06:00",
+      "new_id": "1015-image-element-fe",
+      "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-element-fe.mp4",
+      "new_caption": "Two letters: Fe. Which element is it? Choose before the reveal, then try our visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ The cube is an original AI illustration, not a photograph. Source: Royal Society of Chemistry. #ChemistryQuiz #PeriodicTable #TypologyQuiz",
+      "new_sha256": "564a63475e86b6159483acad068b64baf89361432d4ed6adec4fc9c91d173f46",
+      "status": "proposed_only_pending_native_queue_cleanup",
+      "replacement_confirmed": false
+    },
+    {
+      "old_id": "0923-09",
+      "old_url": "https://www.tiktok.com/@typologyquiz/video/7695609079418359048",
+      "old_caption": "Kenya\u2019s capital: Nairobi or Mombasa? Nairobi / Mombasa \u2014 Answer: Nairobi. Nairobi is Kenya\u2019s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "proposed_local_time": "2026-10-17T10:30:00-06:00",
+      "new_id": "1015-drive-rain-recovery",
+      "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-rain-recovery.mp4",
+      "new_caption": "Wet road. Suddenly light steering. What would you do? Pick A or B before the reveal, then read the explanation. Original AI wet-weather illustration, not real footage or a technical tire diagram. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver\u2019s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
+      "new_sha256": "5c229d62b4afdfddcdd1029565e93ad4b44b9077b6d249a8307e36d0e8cd7082",
+      "status": "proposed_only_pending_native_queue_cleanup",
+      "replacement_confirmed": false
+    },
+    {
+      "old_id": "0923-10",
+      "old_url": "https://www.tiktok.com/@typologyquiz/video/7695609175061138706",
+      "old_caption": "Canada\u2019s capital: Ottawa or Toronto? Ottawa / Toronto \u2014 Answer: Ottawa. Ottawa is Canada\u2019s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "proposed_local_time": "2026-10-17T14:30:00-06:00",
+      "new_id": "1015-image-state-shape",
+      "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-state-shape.mp4",
+      "new_caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Choose before the reveal. We used the same state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
+      "new_sha256": "23c97fc65533af767dfa56b4906ac3cda081656d8206a514c855326331790183",
+      "status": "proposed_only_pending_native_queue_cleanup",
+      "replacement_confirmed": false
+    },
+    {
+      "old_id": "1005-madrid",
+      "old_url": "https://www.tiktok.com/@typologyquiz/video/7695609280732384520",
+      "old_caption": "MADRID \u2192 Spain. Can you name the country? Try this quick geography quiz. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz",
+      "proposed_local_time": "2026-10-17T18:30:00-06:00",
+      "new_id": "1015-drive-uphill-curb",
+      "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-uphill-curb.mp4",
+      "new_caption": "Uphill, a curb, and parked on the right: which way should the front wheels point? Choose before the reveal. The video explains the answer for that exact situation. Original AI showroom illustration, not a maneuver demonstration. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver\u2019s Guide. #AlbertaClass7 #ParkingQuiz #TypologyQuiz",
+      "new_sha256": "e19ee2f91fdb867e275be4786ea3a622b20fef6624689f9bb2120f9fabacbcf2",
+      "status": "proposed_only_pending_native_queue_cleanup",
+      "replacement_confirmed": false
+    }
+  ]
+}
