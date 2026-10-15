@@ -16,6 +16,7 @@ def load(name, file):
 geo = load('render_0923', 'render-0923.py')
 drv = load('render_1011', 'render-1011-driving.py')
 pilot = load('render_pilot', 'render-visual-pilot.py')
+image_led = load('render_image_led', 'render-image-led.py')
 LONG_CTA = 'Find every country on the Europe map and keep your score going all week long.'
 
 
@@ -324,6 +325,20 @@ class PilotTiming(unittest.TestCase):
         tag = next(r for r in rep if r['name'] == 'tag'); head = next(r for r in rep if r['name'] == 'headline')
         self.assertEqual(tag['text_fill_rgb'], [255, 214, 90]); self.assertEqual(head['text_fill_rgb'], [255, 255, 255])
         self.assertLess(tag['text_fill_luminance'], head['text_fill_luminance']); self.assertIn('heuristic', tag['method'])
+
+
+class ImageLedLayout(unittest.TestCase):
+    def test_all_fifteen_stages_fit_with_readable_type(self):
+        mark = Image.new('RGBA', (56, 56), 'white')
+        for post in image_led.POSTS:
+            for stage in range(5):
+                with self.subTest(post=post['id'], stage=stage):
+                    layer, blocks = image_led.layers(post, stage, mark)
+                    self.assertEqual(layer.size, (1080, 1920))
+                    for block in blocks:
+                        x0, y0, x1, y1 = block['bbox']
+                        self.assertTrue(72 <= x0 < x1 <= 930 and 170 <= y0 < y1 <= 1580)
+                        self.assertGreaterEqual(block['font_size'], 28)
 
 
 if __name__ == '__main__':

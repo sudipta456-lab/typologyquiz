@@ -1,0 +1,30 @@
+{
+  "created_local_date": "2026-10-15",
+  "method": "Built-in GPT Image",
+  "artwork_path": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led-art/iron-cube.png",
+  "prompt": "Create an original premium editorial science illustration for a portrait 9:16 TikTok trivia clip, 1080x1920 composition. A sculptural metallic iron cube with intriguing polished gunmetal faces and small authentic orange rust patches, floating above a dark slate plinth. Tiny softly glowing teal dust motes and subtle copper orange rim lighting in a deep navy science-gallery atmosphere, dramatic macro photography blended with tactile 3D art, striking sophisticated material textures, no lab instruments, no fantasy atom diagrams, no numerals, no chemical symbols, no letters, no words, no logos or watermark. The beautiful main iron cube is located centrally at x50% y50%, occupies middle third of image. Leave upper 25% and bottom 28% dark spacious negative space for separately composited quiz typography. No text anywhere. Calm, mysterious and playful like a museum object that deserves a second look. Render as a full finished raster artwork, high quality.",
+  "rights_notes": "Original illustrative rendering, no third-party photograph, film poster, soundtrack or celebrity likeness. No scientific photo claim. Keep all quiz text separate.",
+  "map_source": "src/lib/trivia/data/us-map-paths.ts",
+  "map_reference": "https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf",
+  "chemistry_sources": [
+    "https://periodic-table.rsc.org/element/26/iron",
+    "https://pubchem.ncbi.nlm.nih.gov/element/Fe"
+  ],
+  "publication_state": "prepared_local_only",
+  "qa": {
+    "layout_regressions_passed": 40,
+    "new_stages_checked": 15,
+    "native_exports": 3,
+    "metadata": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "duration_seconds": 20,
+      "frames_written": 600,
+      "audio_tracks": 0
+    },
+    "visual_review": "All three contact sheets and actual decoded MP4 frames inspected; no clipped text or unintended text/shape overlap observed.",
+    "cta_checks": "All three destination routes returned HTTP 200 on 2026-10-15."
+  },
+  "archive": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/typologyquiz-image-led-2026-10-15.zip"
+}

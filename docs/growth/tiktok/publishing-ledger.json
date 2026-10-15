@@ -1080,6 +1080,53 @@
         "likes": 0,
         "comments": 0
       }
+    },
+    {
+      "id": "1015-image-alien-crew",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-alien-crew.mp4",
+      "caption": "Every sci-fi crew needs a different kind of mind. Investigator, diplomat, practical planner, systems thinker, or quiet observer? Adapted from the expedition-role question in our illustrated alien quiz. Fictional, just for fun—not a personality diagnosis or a claim about real aliens. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
+      "sha256": "e10be917dc6d1d384d1d39245c3a263e6ad98971fb2ce217238779c86f8b075a",
+      "status": "prepared_local_only",
+      "publish_at": null,
+      "url": null,
+      "prepared_local_date": "2026-10-15",
+      "manifest": "docs/growth/tiktok/2026-10-15-image-led-manifest.json",
+      "verification": "Native encoded QA: 1080x1920, 30fps, 20s, 600 frames, no audio. CTA HTTP200. Local asset only; no Studio upload or scheduling.",
+      "required_disclosures": [
+        "Your brand / Promotional content",
+        "AI-generated content"
+      ]
+    },
+    {
+      "id": "1015-image-state-shape",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-state-shape.mp4",
+      "caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Reveal: Utah. We used the same accurate state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
+      "sha256": "23c97fc65533af767dfa56b4906ac3cda081656d8206a514c855326331790183",
+      "status": "prepared_local_only",
+      "publish_at": null,
+      "url": null,
+      "prepared_local_date": "2026-10-15",
+      "manifest": "docs/growth/tiktok/2026-10-15-image-led-manifest.json",
+      "verification": "Native encoded QA: 1080x1920, 30fps, 20s, 600 frames, no audio. CTA HTTP200. Local asset only; no Studio upload or scheduling.",
+      "required_disclosures": [
+        "Your brand / Promotional content"
+      ]
+    },
+    {
+      "id": "1015-image-element-fe",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-element-fe.mp4",
+      "caption": "Fe is iron, atomic number 26; the symbol comes from ferrum. The cube is an original AI illustration, not a photograph. Try the visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ Source: Royal Society of Chemistry, Iron. #ChemistryQuiz #PeriodicTable #TypologyQuiz",
+      "sha256": "564a63475e86b6159483acad068b64baf89361432d4ed6adec4fc9c91d173f46",
+      "status": "prepared_local_only",
+      "publish_at": null,
+      "url": null,
+      "prepared_local_date": "2026-10-15",
+      "manifest": "docs/growth/tiktok/2026-10-15-image-led-manifest.json",
+      "verification": "Native encoded QA: 1080x1920, 30fps, 20s, 600 frames, no audio. CTA HTTP200. Local asset only; no Studio upload or scheduling.",
+      "required_disclosures": [
+        "Your brand / Promotional content",
+        "AI-generated content"
+      ]
     }
   ],
   "active_cadence_test": {

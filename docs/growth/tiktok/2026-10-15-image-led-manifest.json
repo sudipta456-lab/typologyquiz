@@ -1,0 +1,143 @@
+[
+  {
+    "id": "1015-image-alien-crew",
+    "topic": "YOUR FICTIONAL CREW ROLE",
+    "route": "/trivia/alien-type/",
+    "art": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-gpt-visual/alien-explorer.png",
+    "tag": "FICTIONAL \u00b7 JUST FOR FUN",
+    "heads": [
+      "Your crew needs you.",
+      "The investigator?",
+      "The diplomat?",
+      "The planner, thinker\u2026",
+      "Find your crew role."
+    ],
+    "subs": [
+      "Which role would you pick?",
+      "You ask the question everyone missed.",
+      "You help a new crew work together.",
+      "\u2026or the observer who spots the quiet clue?",
+      "Five fictional archetypes. Six questions."
+    ],
+    "caption": "Every sci-fi crew needs a different kind of mind. Investigator, diplomat, practical planner, systems thinker, or quiet observer? Adapted from the expedition-role question in our illustrated alien quiz. Fictional, just for fun\u2014not a personality diagnosis or a claim about real aliens. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
+    "source": "src/components/trivia/InterestQuiz.tsx \u00b7 ALIEN_QUESTIONS[5]",
+    "relationship": "Original promotional adaptation of the existing expedition-role item; not a scored result.",
+    "prepared_at_local_date": "2026-10-15",
+    "state": "prepared_local_only",
+    "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-alien-crew.mp4",
+    "sha256": "e10be917dc6d1d384d1d39245c3a263e6ad98971fb2ce217238779c86f8b075a",
+    "size": [
+      1080,
+      1920
+    ],
+    "duration_seconds": 20,
+    "fps": 30,
+    "audio_tracks": 0,
+    "source_art_sha256": "8ae94dee8457d1a7ef5630859ebe7d8c8b4cd65aacb7fe0a0da2f9dd4849bf72",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "disclosure_on_upload": [
+      "Your brand / Promotional content",
+      "AI-generated content"
+    ],
+    "cta_verified_http_status": 200,
+    "cta_verified_local_date": "2026-10-15"
+  },
+  {
+    "id": "1015-image-state-shape",
+    "topic": "ONE SHAPE. FOUR SUSPECTS.",
+    "route": "/trivia/us-states/",
+    "art": null,
+    "tag": "MAP SHAPE CHALLENGE",
+    "heads": [
+      "Recognize this state?",
+      "That missing corner\u2026",
+      "Lock in your guess.",
+      "It\u2019s Utah.",
+      "Fill the whole map."
+    ],
+    "subs": [
+      "No labels. Just the outline.",
+      "A  \u00b7  Utah      B  \u00b7  Wyoming",
+      "C  \u00b7  Nevada      D  \u00b7  Colorado",
+      "The full map puts that outline in context.",
+      "Name all 50 US states. Free to play."
+    ],
+    "caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Reveal: Utah. We used the same accurate state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
+    "source": "https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf",
+    "relationship": "Original silhouette challenge using the native quiz answer Utah and its exact map path.",
+    "prepared_at_local_date": "2026-10-15",
+    "state": "prepared_local_only",
+    "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-state-shape.mp4",
+    "sha256": "23c97fc65533af767dfa56b4906ac3cda081656d8206a514c855326331790183",
+    "size": [
+      1080,
+      1920
+    ],
+    "duration_seconds": 20,
+    "fps": 30,
+    "audio_tracks": 0,
+    "source_art_sha256": "69ac0cdc0559c6a3dcf719ac0c6fc71bfaf5041fb5b69229fcb1d0e5d5673c39",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "disclosure_on_upload": [
+      "Your brand / Promotional content"
+    ],
+    "cta_verified_http_status": 200,
+    "cta_verified_local_date": "2026-10-15"
+  },
+  {
+    "id": "1015-image-element-fe",
+    "topic": "A TWO-LETTER MYSTERY",
+    "route": "/trivia/periodic-table/",
+    "art": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led-art/iron-cube.png",
+    "tag": "ORIGINAL AI ILLUSTRATION",
+    "heads": [
+      "Two letters. One element.",
+      "What does Fe stand for?",
+      "Choose before the reveal.",
+      "Iron. Atomic number 26.",
+      "Can you name the rest?"
+    ],
+    "subs": [
+      "The symbol is Fe. Got a guess?",
+      "A  \u00b7  Fluorine      B  \u00b7  Iron",
+      "C  \u00b7  Fermium      D  \u00b7  Francium",
+      "Fe comes from the Latin name ferrum.",
+      "Try our visual periodic-table quiz."
+    ],
+    "caption": "Fe is iron, atomic number 26; the symbol comes from ferrum. The cube is an original AI illustration, not a photograph. Try the visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ Source: Royal Society of Chemistry, Iron. #ChemistryQuiz #PeriodicTable #TypologyQuiz",
+    "source": "https://periodic-table.rsc.org/element/26/iron",
+    "relationship": "Existing quiz answer el26 (Iron), with an original multiple-choice promotional framing.",
+    "prepared_at_local_date": "2026-10-15",
+    "state": "prepared_local_only",
+    "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-element-fe.mp4",
+    "sha256": "564a63475e86b6159483acad068b64baf89361432d4ed6adec4fc9c91d173f46",
+    "size": [
+      1080,
+      1920
+    ],
+    "duration_seconds": 20,
+    "fps": 30,
+    "audio_tracks": 0,
+    "source_art_sha256": "e18d1f98a6b20693a5a599e6735eaed746141c40f9bbe9578c3beca249763c00",
+    "publication": {
+      "uploaded": false,
+      "scheduled": false,
+      "published": false
+    },
+    "disclosure_on_upload": [
+      "Your brand / Promotional content",
+      "AI-generated content"
+    ],
+    "cta_verified_http_status": 200,
+    "cta_verified_local_date": "2026-10-15",
+    "additional_source": "https://pubchem.ncbi.nlm.nih.gov/element/Fe"
+  }
+]
