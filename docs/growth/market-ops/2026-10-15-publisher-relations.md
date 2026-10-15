@@ -36,3 +36,15 @@ This refines the existing October 3 inquiry to make the suggested use concrete a
 - On successful approved-mailbox access, check recent sent/reply history for this exact recipient and subject before any action. Verify From visibly, send at most one non-duplicative inquiry, and record the actual receipt. Standing routine outreach authorization is already present; no copy-review request was made.
 
 Current outcome: **0 messages sent in this run; no receipt, reply, opt-in inquiry or lead established.** Access verification is pending user approval in OneAuth.
+
+## Subsequent authentication recovery and prepared inquiry
+
+The user explicitly confirmed OneAuth approval. The publisher tab now has authenticated mail access; its From menu lists hello@typologyquiz.com. The draft's selected identity is visibly **TypologyQuiz <hello@typologyquiz.com>**. This supersedes the pending-authentication state above; the default mailbox identity was not changed in account settings.
+
+A mailbox search for `eanderson@geography.org.uk`, with **Include Spam/trash checked**, returned **“No messages match the search criteria.”** Repository history also contains no confirmed GA send. This is the scope of the non-duplication/reply check, not a claim that all mailbox content was audited. The matching quiz returned HTTP 200 again immediately before preparation.
+
+One draft was saved with the exact recipient, subject and body shown above. It has no CC/BCC or attachment and no unrelated business signature. Existing unrelated messages were not opened, altered or deleted. A blank compose tab was also present; no discard/delete action was taken.
+
+The computer-use tool's third-party communication rule requires action-time confirmation even for pre-approved sends. The user was shown a screenshot of the completed draft and asked only for the final send action; another copy-review cycle was not requested. **No Send click or delivery receipt is claimed.** Do not treat the earlier OneAuth approval as approval of this final send question.
+
+Preview: /Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/publisher-review/2026-10-15-ga-draft.jpg . Mail tab 1810481709 remains the prepared draft. Account access is restored; the current state is **Ready, awaiting final send confirmation**. Do not prepare a second inquiry or resend a notification automatically.
