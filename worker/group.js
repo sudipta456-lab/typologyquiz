@@ -61,7 +61,7 @@ function catalogEntry(slug) {
 function deleteAt(room) { return room.phase === "ended" ? Math.min(room.expiresAt, room.endedAt + ENDED_GRACE_MS) : room.expiresAt; }
 function expired(room, now) { return now >= deleteAt(room); }
 function isOnline(player, now) { return Number.isInteger(player.lastSeenAt) && now - player.lastSeenAt <= PRESENCE_WINDOW_MS; }
-function rank(players, now) {
+function rank(players, now, rankByTime = false) {
   const rows = Object.values(players).filter((p) => !p.removed).map((p) => ({
     id: p.id,
     name: p.name,
@@ -74,13 +74,17 @@ function rank(players, now) {
     outcome: p.completion?.outcome ?? null,
     completedAt: p.completion?.completedAt ?? null,
   }));
-  rows.sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || (a.completedAt ?? Number.MAX_SAFE_INTEGER) - (b.completedAt ?? Number.MAX_SAFE_INTEGER) || a.name.localeCompare(b.name));
+  // Movie rooms (rankByTime) order by accuracy, then faster elapsed time. Other rooms stay score-only.
+  const timeKey = (row) => (rankByTime ? row.timeMs ?? Number.MAX_SAFE_INTEGER : 0);
+  const sameRank = (a, b) => a.score === b.score && timeKey(a) === timeKey(b);
+  rows.sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || timeKey(a) - timeKey(b) || (a.completedAt ?? Number.MAX_SAFE_INTEGER) - (b.completedAt ?? Number.MAX_SAFE_INTEGER) || a.name.localeCompare(b.name));
   let place = 0;
-  rows.forEach((row, index) => { const previous = rows[index - 1]; if (index === 0 || row.score !== previous.score) place = index + 1; row.rank = row.status === "completed" ? place : null; });
+  rows.forEach((row, index) => { const previous = rows[index - 1]; if (index === 0 || !sameRank(row, previous)) place = index + 1; row.rank = row.status === "completed" ? place : null; });
   return rows;
 }
 function view(room, now, includeChat = false) {
-  const board = rank(room.players, now);
+  const rankByTime = room.rankByTime === true;
+  const board = rank(room.players, now, rankByTime);
   const response = {
     code: room.code,
     slug: room.slug,
@@ -95,6 +99,7 @@ function view(room, now, includeChat = false) {
     onlineCount: board.filter((row) => row.online).length,
     completedCount: board.filter((row) => row.status === "completed").length,
     isPublic: room.isPublic === true,
+    rankByTime,
     board,
   };
   if (includeChat) response.chat = room.chat.map(({ id, playerId, name, text, sentAt }) => ({ id, playerId, name, text, sentAt }));
@@ -117,7 +122,7 @@ function publicEntry(room, now) {
 function validCreate(body) {
   if (!body || typeof body !== "object" || Array.isArray(body) || Object.keys(body).length !== 1 || typeof body.slug !== "string") return null;
   const entry = catalogEntry(body.slug);
-  return entry ? { slug: body.slug, title: entry.title, total: entry.total } : null;
+  return entry ? { slug: body.slug, title: entry.title, total: entry.total, rankByTime: entry.rankByTime === true } : null;
 }
 function cleanMessage(value) {
   if (typeof value !== "string") return null;

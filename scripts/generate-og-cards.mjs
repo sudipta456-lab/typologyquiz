@@ -11,6 +11,7 @@
  *  - trivia-<slug>.png  one per hand-authored trivia quiz
  *  - trivia-letters.png shared card for all the A-to-Z letter pages
  *  - trivia-hub.png     the /trivia hub
+ *  - trivia-movies-*.png one per movie quiz, plus trivia-movies-hub.png
  *  - friend-quiz.png    the friend-quiz builder
  *  - daily.png          the daily page
  *
@@ -37,6 +38,7 @@ import { TESTS } from "../src/lib/tests/registry.ts";
 import { SEO_TITLES } from "../src/lib/seo-titles.ts";
 import { CATEGORY_META } from "../src/lib/types.ts";
 import { TRIVIA_QUIZZES } from "../src/lib/trivia/registry.ts";
+import { MOVIE_QUIZZES } from "../src/lib/trivia/movies.ts";
 import { getShowcaseArtSrc } from "../src/lib/result-art.ts";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -266,7 +268,19 @@ async function main() {
     });
   }
 
+  // Movie collection: original local cards, accent colour per set, no film art.
+  for (const quiz of MOVIE_QUIZZES) {
+    plan.push({ file: `trivia-movies-${quiz.slug}.png`, title: quiz.title, eyebrow: "Movie quiz", color: quiz.accent, artRel: null });
+  }
+
   plan.push(
+    {
+      file: "trivia-movies-hub.png",
+      title: "Movie and Movie Character Quizzes",
+      eyebrow: "Trivia",
+      color: "#f9684d",
+      artRel: null,
+    },
     {
       file: "trivia-letters.png",
       title: "States and Countries, One Letter at a Time",

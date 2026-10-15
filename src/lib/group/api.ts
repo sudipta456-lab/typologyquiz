@@ -8,7 +8,7 @@ const HOST_PREFIX = "tq-group-host:";
 export type GroupActivity = "lobby" | "playing" | "results" | "offline";
 export type GroupBoardRow = { id: string; name: string; status: "joined" | "playing" | "completed"; online: boolean; activity: GroupActivity; score: number | null; total: number | null; timeMs: number | null; outcome: "complete" | "time" | "gaveup" | "lives" | null; completedAt: number | null; rank: number | null };
 export type GroupChatMessage = { id: string; playerId: string; name: string; text: string; sentAt: number };
-export type GroupRoom = { code: string; slug: string; title: string; total: number; seed: string; state: "lobby" | "open" | "ended"; startAt: number | null; revision: number; expiresAt: number; playerCount: number; onlineCount: number; completedCount: number; isPublic: boolean; board: GroupBoardRow[]; chat?: GroupChatMessage[] };
+export type GroupRoom = { code: string; slug: string; title: string; total: number; seed: string; state: "lobby" | "open" | "ended"; startAt: number | null; revision: number; expiresAt: number; playerCount: number; onlineCount: number; completedCount: number; isPublic: boolean; rankByTime?: boolean; board: GroupBoardRow[]; chat?: GroupChatMessage[] };
 export type PublicGroupLobby = { code: string; slug: string; title: string; total: number; state: "lobby" | "open"; playerCount: number; onlineCount: number; expiresAt: number; updatedAt: number };
 export type GroupApiErrorBody = { error?: string; room?: GroupRoom };
 

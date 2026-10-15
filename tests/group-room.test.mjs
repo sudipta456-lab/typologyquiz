@@ -158,3 +158,52 @@ test("the public group API mirrors an opted-in room and removes it when the host
   listed = await (await handleGroup(new Request(`${origin}/api/groups/public`), env, "/api/groups/public")).json();
   assert.deepEqual(listed.rooms, []);
 });
+
+async function rankedBoard(slug, results) {
+  const room = new GroupRoom(context());
+  assert.equal((await room.fetch(request("init", { code: "ABC234", hostHash: HOST_HASH, seed: "s".repeat(16), slug }))).status, 201);
+  const total = room.room.total;
+  const players = [];
+  for (const [name] of results) players.push(await join(room, name));
+  await start(room);
+  const originalNow = Date.now;
+  try {
+    for (const [index, [, score, timeMs]] of results.entries()) {
+      const attempt = await begin(room, players[index].token);
+      Date.now = () => 1_700_000_100_000 + index * 1000;
+      assert.equal((await room.fetch(request("complete", { token: players[index].token, attempt: attempt.attemptId, slug, score, total, timeMs, outcome: "complete" }))).status, 200);
+    }
+  } finally { Date.now = originalNow; }
+  return (await (await room.fetch(new Request("https://group-room/info"))).json());
+}
+
+test("movie rooms rank accuracy first, then faster time, and share rank only on equal score and time", async () => {
+  const info = await rankedBoard("movies-sidekicks", [["Beta", 7, 33000], ["Alpha", 5, 1000], ["Gamma", 7, 15000], ["Delta", 7, 15000]]);
+  assert.equal(info.rankByTime, true);
+  assert.deepEqual(info.board.map((row) => [row.name, row.score, row.rank]), [["Gamma", 7, 1], ["Delta", 7, 1], ["Beta", 7, 3], ["Alpha", 5, 4]]);
+});
+
+test("native trivia rooms keep score-only shared ranks regardless of time", async () => {
+  const info = await rankedBoard("planets", [["Beta", 7, 33000], ["Gamma", 7, 15000], ["Alpha", 5, 1000]]);
+  assert.equal(info.rankByTime, false);
+  assert.deepEqual(info.board.map((row) => [row.name, row.rank]), [["Beta", 1], ["Gamma", 1], ["Alpha", 3]]);
+});
+
+test("legacy stored rooms without rankByTime keep score-only ties and clients cannot set the policy", async () => {
+  const room = await readyRoom();
+  delete room.room.rankByTime;
+  const a = await join(room, "Ada");
+  const b = await join(room, "Bo");
+  await start(room);
+  for (const [player, timeMs] of [[a, 9000], [b, 1000]]) {
+    const attempt = await begin(room, player.token);
+    await room.fetch(request("complete", { token: player.token, attempt: attempt.attemptId, slug: "planets", score: 6, total: 8, timeMs, outcome: "complete" }));
+  }
+  const info = await (await room.fetch(new Request("https://group-room/info"))).json();
+  assert.deepEqual(info.board.map((row) => row.rank), [1, 1]);
+  const origin = "https://typologyquiz.com";
+  const env = { GROUP_ROOM: { idFromName: (id) => id, get: () => ({ fetch: async () => new Response("{}", { status: 201 }) }) } };
+  const post = (body) => new Request(`${origin}/api/groups`, { method: "POST", headers: { origin, "content-type": "application/json" }, body: JSON.stringify(body) });
+  assert.equal((await handleGroup(post({ slug: "movies-sidekicks", rankByTime: false }), env, "/api/groups")).status, 400);
+  assert.equal((await handleGroup(post({ slug: "movies-sidekicks" }), env, "/api/groups")).status, 201);
+});

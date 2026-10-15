@@ -20,7 +20,7 @@
     "test:worker": "node --test tests/predictions-worker.test.mjs",
     "test:driving": "tsx --test tests/driving-score.test.ts",
     "lint:predictions": "eslint worker src/lib/predictions src/components/predictions src/app/predictions tests/predictions-worker.test.mjs tests/predictions-client.test.ts",
-    "verify": "npm run verify:editorial && npm run test:worker && npm run test:driving && npm run lint:predictions && npm run test:predictions-client && npm run test:assessments && npm run lint:assessments && npm run test:analytics && npm run lint:analytics && npm run test:discovery-summary && npm run lint:discovery-summary && npm run test:live && npm run lint:live && npm run test:group && npm run lint:group",
+    "verify": "npm run verify:editorial && npm run test:worker && npm run test:driving && npm run lint:predictions && npm run test:predictions-client && npm run test:assessments && npm run lint:assessments && npm run test:analytics && npm run lint:analytics && npm run test:discovery-summary && npm run lint:discovery-summary && npm run test:live && npm run lint:live && npm run test:group && npm run lint:group && npm run test:movies && npm run lint:movies",
     "test:predictions-client": "node --test tests/predictions-client.test.ts",
     "test:assessments": "tsx --test tests/assessment-quality.test.ts",
     "lint:assessments": "eslint src/lib/tests src/lib/results.ts src/lib/reflections.ts src/lib/result-card.ts src/lib/share.ts src/components/AssessmentEvidence.tsx src/components/ReflectionPanel.tsx src/components/ResultShareCard.tsx src/app/test src/app/compare src/app/reflections src/app/methodology src/app/about src/app/credits scripts/assessment-release.ts tests/assessment-quality.test.ts src/components/RadarChart.tsx src/components/ShareBlock.tsx",
@@ -35,7 +35,9 @@
     "lint:live": "eslint worker/live.js worker/live-core.js worker/live-sessions.js src/lib/live src/components/live src/app/live tests/live-core.test.mjs",
     "test:group": "tsx scripts/generate-group-catalog.mts --check && node --test tests/group-room.test.mjs",
     "lint:group": "eslint worker/group.js src/lib/group src/app/group src/components/trivia/ResultReveal.tsx src/components/trivia/TriviaPlayClient.tsx tests/group-room.test.mjs",
-    "generate:group-catalog": "tsx scripts/generate-group-catalog.mts"
+    "generate:group-catalog": "tsx scripts/generate-group-catalog.mts",
+    "test:movies": "tsx --test tests/movies.test.ts",
+    "lint:movies": "eslint src/lib/trivia/movies.ts src/lib/trivia/movie-engine.ts src/lib/trivia/movie-group.ts src/lib/trivia/movie-analytics.ts src/lib/group/paths.ts src/components/trivia/MovieQuiz.tsx src/components/trivia/MovieHero.tsx src/components/trivia/MovieCover.tsx src/app/trivia/movies scripts/verify-movie-sources.mts tests/movies.test.ts"
   },
   "dependencies": {
     "next": "16.2.10",

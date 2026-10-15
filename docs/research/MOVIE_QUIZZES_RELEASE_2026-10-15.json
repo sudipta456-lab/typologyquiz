@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-15",
+  "status": "verified_awaiting_deployment",
+  "collection": "/trivia/movies/",
+  "quizzes": [
+    {
+      "slug": "plots-animated",
+      "title": "Badly Described Plots: Animated Hits",
+      "questions": 8
+    },
+    {
+      "slug": "plots-live-action",
+      "title": "Badly Described Plots: Live-Action Favorites",
+      "questions": 8
+    },
+    {
+      "slug": "day-jobs",
+      "title": "Character Day Jobs: Who Clocks In Where?",
+      "questions": 8
+    },
+    {
+      "slug": "dilemmas",
+      "title": "Movie Dilemmas: What Did They Want?",
+      "questions": 8
+    },
+    {
+      "slug": "sidekicks",
+      "title": "Sidekick Roll Call",
+      "questions": 8
+    },
+    {
+      "slug": "villain-plans",
+      "title": "Villain Master Plans",
+      "questions": 8
+    },
+    {
+      "slug": "objects",
+      "title": "Movie Objects With Main-Character Energy",
+      "questions": 8
+    },
+    {
+      "slug": "fictional-places",
+      "title": "Fictional Places Passport",
+      "questions": 8
+    },
+    {
+      "slug": "animated-friendships",
+      "title": "Animated Friendships: Who Is the Pal?",
+      "questions": 8
+    },
+    {
+      "slug": "sci-fi",
+      "title": "Sci-Fi Signal Check",
+      "questions": 8
+    },
+    {
+      "slug": "fantasy",
+      "title": "Fantasy Worlds Field Guide",
+      "questions": 8
+    },
+    {
+      "slug": "cause-and-effect",
+      "title": "Cause and Effect: What Set It Off?",
+      "questions": 8
+    },
+    {
+      "slug": "found-families",
+      "title": "Families, Found and Otherwise",
+      "questions": 8
+    },
+    {
+      "slug": "heists-and-rescues",
+      "title": "Heists, Schemes and Daring Rescues",
+      "questions": 8
+    },
+    {
+      "slug": "sequel-identity",
+      "title": "Sequel Identity: Which Edition Is It?",
+      "questions": 8
+    }
+  ],
+  "questionCount": 120,
+  "sourcePages": 84,
+  "rights": {
+    "posters": "No IMDb or third-party posters copied",
+    "art": "Original abstract SVG covers",
+    "audio": "No unlicensed music used; 30 seconds is not an automatic exception",
+    "research": "docs/research/MOVIE_AND_MUSIC_RIGHTS_2026-10-15.md"
+  },
+  "reviews": {
+    "implementation": "Claude Sonnet",
+    "content": "Opus reviewed all 120 original questions and rechecked all 10 replaced questions plus corrections",
+    "code": "Opus reviewed code and all reported fixes",
+    "ranking": "Opus found no release-blocking issues after movie-only time tie-break correction"
+  },
+  "verification": {
+    "repositoryTests": 152,
+    "socialLayoutTests": 40,
+    "staticPages": 1310,
+    "canonicalSitemapPages": 572,
+    "analyticsRoutes": 1306,
+    "localRoutes": {
+      "origin": "http://127.0.0.1:8789",
+      "local_date": "2026-10-15",
+      "pages": [
+        {
+          "path": "/trivia/movies/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/plots-animated/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/plots-animated/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/plots-live-action/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/plots-live-action/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/day-jobs/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/day-jobs/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/dilemmas/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/dilemmas/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/sidekicks/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/sidekicks/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/villain-plans/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/villain-plans/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/objects/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/objects/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/fictional-places/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/fictional-places/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/animated-friendships/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/animated-friendships/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/sci-fi/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/sci-fi/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/fantasy/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/fantasy/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/cause-and-effect/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/cause-and-effect/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/found-families/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/found-families/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/heists-and-rescues/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/heists-and-rescues/",
+          "structured_data": true,
+          "og_png": true
+        },
+        {
+          "path": "/trivia/movies/sequel-identity/",
+          "http": 200,
+          "canonical": "https://typologyquiz.com/trivia/movies/sequel-identity/",
+          "structured_data": true,
+          "og_png": true
+        }
+      ],
+      "live_group_directory_http": 200,
+      "status": "pass"
+    },
+    "groupIntegration": {
+      "local_date": "2026-10-15",
+      "environment": "local Worker and Durable Objects, synthetic identities only",
+      "catalog": [
+        {
+          "slug": "plots-animated",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "plots-live-action",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "day-jobs",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "dilemmas",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "sidekicks",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "villain-plans",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "objects",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "fictional-places",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "animated-friendships",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "sci-fi",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "fantasy",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "cause-and-effect",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "found-families",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "heists-and-rescues",
+          "created": true,
+          "total": 8,
+          "private": true
+        },
+        {
+          "slug": "sequel-identity",
+          "created": true,
+          "total": 8,
+          "private": true
+        }
+      ],
+      "flow": {
+        "players": 3,
+        "shared_total": 8,
+        "completed": 3,
+        "accuracy_primary": true,
+        "time_tiebreak": true,
+        "duplicate_submission_idempotent": true,
+        "private_room_not_discoverable": true
+      },
+      "status": "pass"
+    },
+    "browser": [
+      "Eight-round solo completion and missed-answer review",
+      "Eight-round group completion submitted and visible beside second player result",
+      "Result heading receives focus and includes score",
+      "320px dark and light feedback readable with no horizontal overflow",
+      "Original system theme restored",
+      "Missing-credential group link blocks play and native solo link removes room query",
+      "New movie lobby shows accuracy then time rule and QR invitation"
+    ]
+  },
+  "deployment": {
+    "priorVersion": "c2e7cf45-469e-43e7-a487-f80e3615553d",
+    "version": null
+  },
+  "limitations": [
+    "Group scores and times are client-reported for casual play, not independently verified competition results",
+    "Source keyword checks supplement semantic review; they do not prove meaning",
+    "Wrangler dev failed with local spawn EBADF; bundled Miniflare runtime plus exported assets used for successful local integration instead",
+    "Three image-led TikTok clips are prepared locally, not uploaded or scheduled"
+  ]
+}

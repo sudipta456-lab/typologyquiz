@@ -1,4 +1,4 @@
-import { analyticsAliases, analyticsEditions, analyticsPaths, analyticsSeries } from "./analytics-manifest.generated.ts";
+import { analyticsAliases, analyticsEditions, analyticsMovieQuestionCount, analyticsMovieQuizzes, analyticsPaths, analyticsSeries } from "./analytics-manifest.generated.ts";
 
 // Google tag installation ID and Analytics destination are distinct after tag merging.
 export const GA_TAG_ID = "G-TZ9B8MB7SP";
@@ -22,7 +22,9 @@ export const ANALYTICS_PAGE_GROUPS = new Set([
 ]);
 export type AnalyticsCommand = (...args: unknown[]) => void;
 export type EditorialAnalyticsEvent = "quiz_start" | "quiz_complete" | "quiz_share" | "quiz_challenge_open";
-export type AnalyticsEvent = EditorialAnalyticsEvent | "quiz_series_follow";
+export type MovieAnalyticsEvent = "movie_quiz_start" | "movie_quiz_complete";
+export type AnalyticsEvent = EditorialAnalyticsEvent | MovieAnalyticsEvent | "quiz_series_follow";
+const MOVIE_PLAY_MODES = new Set(["solo", "group"]);
 const editionEvents = new Set<string>(["quiz_start", "quiz_complete", "quiz_share", "quiz_challenge_open"]);
 
 export function analyticsEnabled(flag: string | undefined, id: string | undefined, hostname: string, tagId: string | undefined): boolean {
@@ -148,6 +150,14 @@ export function safeEventParameters(event: unknown, parameters: unknown): Record
   if (event === "quiz_series_follow") {
     if (typeof input.series_id !== "string" || !analyticsSeries.includes(input.series_id) || typeof input.followed !== "boolean") return null;
     return { series_id: input.series_id, followed: input.followed };
+  }
+  if (event === "movie_quiz_start" || event === "movie_quiz_complete") {
+    // Allowlisted quiz id and mode only: never answers, room codes, names or text.
+    if (typeof input.movie_quiz_id !== "string" || !analyticsMovieQuizzes.includes(input.movie_quiz_id) || typeof input.play_mode !== "string" || !MOVIE_PLAY_MODES.has(input.play_mode)) return null;
+    if (event === "movie_quiz_start") return { movie_quiz_id: input.movie_quiz_id, play_mode: input.play_mode };
+    const correct = input.correct_count;
+    if (typeof correct !== "number" || !Number.isInteger(correct) || correct < 0 || correct > analyticsMovieQuestionCount) return null;
+    return { movie_quiz_id: input.movie_quiz_id, play_mode: input.play_mode, correct_count: correct };
   }
   if (!editionEvents.has(event)) return null;
   const edition = analyticsEditions.find(e => e.id === input.edition_id && e.seriesId === input.series_id && e.version === input.edition_version);

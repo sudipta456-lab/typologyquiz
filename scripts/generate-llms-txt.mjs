@@ -32,6 +32,7 @@ import {
   TRIVIA_QUIZZES,
 } from "../src/lib/trivia/registry.ts";
 import { RAPID_ROUNDS } from "../src/lib/trivia/rapid-rounds.ts";
+import { MOVIE_QUIZ_QUESTION_COUNT, MOVIE_QUIZZES, movieQuizPath } from "../src/lib/trivia/movies.ts";
 import { FRIEND_PACKS, sampleMix } from "../src/lib/friendquiz/packs.ts";
 import { FOOL_QUESTIONS } from "../src/lib/fool/questions.ts";
 import { FOOL_QUESTION_COUNT } from "../src/lib/fool/codec.ts";
@@ -130,6 +131,7 @@ L.push("");
 L.push(`- [Home](${base}/): all five sections in one place`);
 L.push(`- [All quizzes](${base}/tests/): browse all ${TESTS.length} personality quizzes`);
 L.push(`- [Trivia](${base}/trivia/): ${TRIVIA_QUIZZES.length} timed type-in and map quizzes plus ${RAPID_ROUNDS.length} rapid rounds`);
+L.push(`- [Movie quizzes](${base}/trivia/movies/): ${MOVIE_QUIZZES.length} original movie and movie-character quizzes, ${MOVIE_QUIZ_QUESTION_COUNT} sourced questions each`);
 L.push(`- [Driving practice tests](${base}/driving/): pick a province or state`);
 L.push(`- [Daily minis](${base}/daily/): three tiny games, new every UTC day, with a streak`);
 L.push(`- [Friend quiz](${base}/friend-quiz/): build a "how well do you know me" quiz`);
@@ -230,6 +232,16 @@ if (ungrouped.length > 0) {
   }
   L.push("");
 }
+L.push("### Movie and movie character quizzes");
+L.push("");
+L.push(
+  `${MOVIE_QUIZZES.length} multiple-choice sets of ${MOVIE_QUIZ_QUESTION_COUNT} questions (${MOVIE_QUIZZES.length * MOVIE_QUIZ_QUESTION_COUNT} in total) at ${base}/trivia/movies/. Prompts, jokes and explanations are original TypologyQuiz writing; facts are checked against official studio and franchise pages, which are linked beside each answer. No posters, stills, audio, dialogue or actor likenesses are used, and the site is not affiliated with any studio. Each set states its spoiler level. Sets can be played solo or in a self-paced group room; group scores are reported by each player's browser for fun and are not verified.`
+);
+L.push("");
+for (const quiz of MOVIE_QUIZZES) {
+  L.push(`- [${quiz.title}](${base}${movieQuizPath(quiz.slug)}): ${quiz.seoDescription} (${quiz.questions.length} questions. Spoilers: ${quiz.spoilerNote})`);
+}
+L.push("");
 L.push("### Rapid rounds");
 L.push("");
 for (const round of RAPID_ROUNDS) {

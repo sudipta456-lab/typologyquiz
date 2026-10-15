@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { TESTS } from "@/lib/tests/registry";
 import { JURISDICTIONS } from "@/lib/driving/jurisdictions";
 import { TRIVIA_QUIZZES } from "@/lib/trivia/registry";
+import { MOVIE_QUIZZES, movieQuizPath } from "@/lib/trivia/movies";
 import { EDITIONS } from "@/lib/newsquiz/editions";
 import { editionPath } from "@/lib/editorial/identity";
 import { SITE } from "@/lib/site";
@@ -76,6 +77,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: q.filterLetter !== undefined ? 0.65 : 0.8,
   }));
 
+  // Movie collection: the hub plus one landing/play page per set (16 routes).
+  const moviePages: MetadataRoute.Sitemap = [
+    { url: `${base}/trivia/movies/`, changeFrequency: "monthly", priority: 0.8 },
+    ...MOVIE_QUIZZES.map((q) => ({ url: `${base}${movieQuizPath(q.slug)}`, changeFrequency: "monthly" as const, priority: 0.75 })),
+  ];
+
   // Index immutable editions; existing news aliases canonicalize to these URLs.
   const editionPages: MetadataRoute.Sitemap = EDITIONS.map(edition => ({
     url: `${base}${editionPath(edition)}`,
@@ -84,5 +91,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages, ...editionPages];
+  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages, ...moviePages, ...editionPages];
 }

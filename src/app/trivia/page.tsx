@@ -12,6 +12,7 @@ import { formatClock } from "@/lib/trivia/engine";
 import { SITE } from "@/lib/site";
 import { breadcrumbList, collectionPageNodes, jsonLdGraph } from "@/lib/structured-data";
 import { WeeklyFeatured } from "@/components/trivia/WeeklyFeatured";
+import { MOVIE_QUIZ_QUESTION_COUNT, MOVIE_QUIZZES } from "@/lib/trivia/movies";
 
 export const metadata: Metadata = {
   title: "Trivia Quizzes: Geography and Science",
@@ -62,6 +63,7 @@ export default function TriviaHubPage() {
         ...TRIVIA_QUIZZES.map((q) => ({ name: q.title, path: `/trivia/${q.slug}/` })),
         { name: "10 in 90: General Knowledge Quiz", path: "/trivia/quickfire-10-in-90/" },
         { name: "Which Came First? History Timeline Quiz", path: "/trivia/which-came-first/" },
+        { name: "Movie and Movie Character Quizzes", path: "/trivia/movies/" },
       ],
     }),
     breadcrumbList([
@@ -88,11 +90,18 @@ export default function TriviaHubPage() {
           Type an answer and watch it count. Your best scores stay on this device.
         </p>
 
+        <section aria-label="Movie quizzes" className="quiz-card" style={{ marginBottom: 28, display: "block" }}>
+          <p className="eyebrow" style={{ marginBottom: 6 }}>New collection</p>
+          <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>Movie and movie character quizzes</h2>
+          <p className="quiz-card-desc">{MOVIE_QUIZZES.length} original sets of {MOVIE_QUIZ_QUESTION_COUNT} rounds: badly described plots, character day jobs, sidekicks, villains, fictional places, sci-fi, fantasy and more. Each answer links to an official source. Spoiler notes are on every set.</p>
+          <Link href="/trivia/movies/" className="btn-primary" style={{ marginTop: 14 }}>Browse movie quizzes</Link>
+        </section>
+
         <section aria-label="Play together" className="quiz-card" style={{ marginBottom: 28, display: "block" }}>
           <p className="eyebrow" style={{ marginBottom: 6 }}>Play together</p>
           <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>Start or join a group trivia room</h2>
           <p className="quiz-card-desc">Create a room, scan a QR code, or join an opt-in public lobby. Everyone gets the same questions and sees the live scoreboard.</p>
-          <Link href="/group/" className="button button-primary" style={{ marginTop: 14 }}>Find a group game</Link>
+          <Link href="/group/" className="btn-primary" style={{ marginTop: 14 }}>Find a group game</Link>
         </section>
 
         <nav className="topic-jumps" aria-label="Trivia topics">{TRIVIA_GROUPS.map((group, index) => <a key={group.label} href={`#trivia-topic-${index}`}>{group.label}</a>)}<a href="#trivia-letters">A–Z quizzes</a><Link href="/weekly/">News quizzes ↗</Link></nav>
