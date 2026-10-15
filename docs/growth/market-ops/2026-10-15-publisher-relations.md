@@ -58,3 +58,22 @@ The existing draft was reopened and the tab marked for handoff; no second inquir
 The GA contributor invitation was freshly retrieved; Countries of the World and the animated-movie quiz both returned HTTP 200. Today's market-scout cards still provide no additional send-ready, explicitly invited library submission. NCGE/astroEDU remain held for their companion requirements, and prior SPN/Personality Pedagogy contact records remain protected against duplicate sends.
 
 Afternoon outcome: **0 new sends, no delivery receipt or verified reply/lead.** Dashboard remains Ready; the saved inquiry awaits the existing send decision. No account, credential, recipient, message-body or website change was made.
+
+
+## User-sent inquiry — Sent receipt verified
+
+The user answered the pending final-send question with “i sent already.” No Send click, retry, new draft or follow-up was performed by the agent. A fresh exact-recipient search including Spam/trash returned one matching **SENT** entry, replacing the previously observed draft-only result.
+
+The opened message visibly confirms:
+
+- From: **TypologyQuiz <hello@typologyquiz.com>**.
+- To: **eanderson@geography.org.uk**.
+- Subject: **Optional country-recall warm-up for GA resources**.
+- Provider timestamp: **Thu, 15 Oct 2026 3:09:38 PM -0600** (America/Edmonton).
+- Mail message identity: **1792098575954002000**; visible state **SENT**. A separate recipient-delivery status was not established.
+- Body matches the exact source-specific draft above, including the distinction between the 15-minute full game and teacher-led shorter excerpt. Visible whitespace differs only.
+- The scoped result list showed no matching inbound reply; no editorial response, opt-in inquiry, placement or lead is claimed.
+
+Receipt screenshot: `/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/publisher-review/2026-10-15-ga-sent.jpg`. Mail view: `https://mail.zohocloud.ca/zm/#search` (search exact recipient to reopen message identity above).
+
+**Current outcome supersedes all pending-send statuses above: one GA inquiry sent by the user and verified in Sent; zero agent sends in this continuation. Do not resend or create another GA inquiry.** The pending send question is resolved by the completed user action. Follow-up requires a relevant new reply or specific user instruction, not an automatic retry. No website code or deployment changed.
