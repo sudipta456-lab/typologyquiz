@@ -93,6 +93,108 @@
       "queue_reconciliation": "October 14: all three due items published. October 15–22: 24 future rows, exactly 10:30, 14:30 and 18:30 daily, Everyone and matching captions/permalinks. No future slot conflict observed. No upload or schedule change.",
       "comment_review": "Latest visible comments were older creator link comments, followed by month-old short answers/feedback. No new genuine question requiring a reply observed; no reply or reaction sent.",
       "interpretation": "Rounded views and small non-comparable windows do not establish a winning topic or time. Three-slot test has not completed seven local days. Browser extension can access Studio while native Mac control is locked."
+    },
+    {
+      "reviewed_at": "2026-10-15T12:07:02.344Z",
+      "phase": "morning",
+      "account_verified": "@typologyquiz",
+      "queue_reconciliation": "24 future Everyone rows October 15–22, three daily at 10:30/14:30/18:30 America/Edmonton. All IDs, captions and slots reconciled after reload; no future conflict. October 14 three posts published at 106/101/83 observed views.",
+      "queue_dates": {
+        "2026-10-15": 3,
+        "2026-10-16": 3,
+        "2026-10-17": 3,
+        "2026-10-18": 3,
+        "2026-10-19": 3,
+        "2026-10-20": 3,
+        "2026-10-21": 3,
+        "2026-10-22": 3
+      },
+      "replacement_blocker": "Nine geography exports remain local corrections. Croatia edit control shows mobile-app-only commercial-content limitation; native Mac locked, mobile workflow unavailable.",
+      "local_file_checks": {
+        "corrected_files": 9,
+        "new_image_led_files": 3,
+        "all_hashes_match": true
+      },
+      "published_metrics": {
+        "7695557062603902226": [
+          106,
+          0,
+          0
+        ],
+        "7695608217652546824": [
+          101,
+          0,
+          0
+        ],
+        "7695608343456484626": [
+          83,
+          0,
+          0
+        ],
+        "7695555673278532871": [
+          97,
+          0,
+          0
+        ],
+        "7695556528098528530": [
+          96,
+          1,
+          0
+        ],
+        "7695556626673159442": [
+          108,
+          0,
+          0
+        ],
+        "7695556364009098503": [
+          120,
+          1,
+          0
+        ],
+        "7695555933560114439": [
+          159,
+          1,
+          0
+        ],
+        "7695607349716716807": [
+          102,
+          0,
+          0
+        ],
+        "7695554306103119112": [
+          94,
+          0,
+          0
+        ],
+        "7693772305608051976": [
+          239,
+          5,
+          0
+        ]
+      },
+      "known_duplicate": {
+        "tiktok_id": "7695556195888794888",
+        "views": 123,
+        "likes": 0,
+        "comments": 0,
+        "deleted": false
+      },
+      "account_metrics": {
+        "average_watch_time_seconds": null,
+        "completion_rate_percent": null,
+        "shares": null,
+        "saves": null,
+        "profile_visits": null,
+        "website_quiz_starts": null
+      },
+      "actions": {
+        "uploads": 0,
+        "new_schedules": 0,
+        "edits": 0,
+        "deletions": 0
+      },
+      "interpretation": "Publishing is functioning. The three-slot test began October 12 and has not completed seven local days; no cadence change. Older September scheduled receipts were not freshly observed and must not be counted as the current forward queue or retried.",
+      "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
     }
   ],
   "posts": [
@@ -419,7 +521,7 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-07T19:56:34-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "Public TikTok video page showed the exact @typologyquiz caption and a relative timestamp of 7h ago after its confirmed Oct 7 12:45 PM schedule. The public page exposed 0 likes, 0 comments, 0 favorites, and 0 shares at check time; it did not expose a view count.",
       "metrics_history": [
         {
@@ -440,7 +542,18 @@
           "shares": null,
           "note": "TikTok Studio Home recent-post row. Favorites and shares were not exposed per post, so they remain null."
         }
-      ]
+      ],
+      "metrics": {
+        "views": 239,
+        "likes": 5,
+        "comments": 0
+      },
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1011-ab-stop",
@@ -453,12 +566,18 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-13T05:59:56-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics.",
       "metrics": {
-        "views": 90,
+        "views": 94,
         "likes": 0,
         "comments": 0
+      },
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -472,14 +591,19 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "metrics": {
-        "views": 158,
+        "views": 159,
         "likes": 1,
         "comments": 0
       },
-      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1008-vienna",
@@ -492,7 +616,7 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "duplicate_schedule": {
         "tiktok_id": "7695556195888794888",
@@ -510,6 +634,14 @@
             "comments": 0
           },
           "verification": "TikTok Studio showed the duplicate as a published October 12 6:30 PM Everyone row after reload. Its commercial-content limitation still blocks web deletion."
+        },
+        "latest_observation": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "published_confirmed",
+          "views": 123,
+          "likes": 0,
+          "comments": 0,
+          "note": "Both Vienna rows remain visible. No deletion attempted or confirmed."
         }
       },
       "metrics": {
@@ -517,7 +649,12 @@
         "likes": 1,
         "comments": 0
       },
-      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1012-ab-yield",
@@ -530,7 +667,7 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "published_verified_at": "2026-10-13T21:09:00-06:00",
       "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
@@ -539,7 +676,12 @@
         "likes": 0,
         "comments": 0
       },
-      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1009-budapest",
@@ -552,7 +694,7 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "published_verified_at": "2026-10-13T21:09:00-06:00",
       "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
@@ -561,7 +703,12 @@
         "likes": 1,
         "comments": 0
       },
-      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1013-ab-stop-line",
@@ -574,7 +721,7 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "published_verified_at": "2026-10-13T21:09:00-06:00",
       "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
@@ -583,7 +730,12 @@
         "likes": 0,
         "comments": 0
       },
-      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1014-ab-school-zone",
@@ -596,14 +748,19 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "metrics": {
-        "views": 98,
+        "views": 106,
         "likes": 0,
         "comments": 0
       },
-      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1015-ab-right-red",
@@ -616,14 +773,19 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "metrics": {
-        "views": 94,
+        "views": 101,
         "likes": 0,
         "comments": 0
       },
-      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1016-ab-clear-intersection",
@@ -636,14 +798,19 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "metrics": {
-        "views": 34,
+        "views": 83,
         "likes": 0,
         "comments": 0
       },
-      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0923-02",
@@ -656,7 +823,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -665,7 +832,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-02.mp4",
         "replacement_sha256": "fd443e4701a9d0ed42926e556681bb9d389787f587eef5fa828583f5ab8099d1",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-15T10:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -679,7 +861,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -688,7 +870,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-03.mp4",
         "replacement_sha256": "1ffa003972b27738a9f56d5cb23210e3cfdc7d6df93de99cb6f20c4322d6ad31",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-15T14:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -702,7 +899,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -711,7 +908,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-04.mp4",
         "replacement_sha256": "f508bf146de8061f7e4361a7a1d10f34f5c5000f8368f10a38e4611f09874181",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-15T18:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -725,7 +937,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -734,7 +946,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-06.mp4",
         "replacement_sha256": "4971cc116bc2a0eda26516770c134409bb7c867d794325139f5798f58f799dc8",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-16T10:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -748,7 +975,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -757,7 +984,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-07.mp4",
         "replacement_sha256": "1eabf569909416073a7186acba71fd891535dabaaf5c27f6fa6c5240ca398b36",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-16T14:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -771,7 +1013,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -780,7 +1022,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-08.mp4",
         "replacement_sha256": "349af5403d198d43405a7baf5fcdfd89bf53e41989b6d24c9ef7a17a0e9eccad",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-16T18:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -794,7 +1051,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -803,7 +1060,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-09.mp4",
         "replacement_sha256": "13f395db59e163008cf7e6606ea0d3379d35b8404ab8b60e18c2dc1067ab3e51",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-17T10:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -817,7 +1089,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -826,7 +1098,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-10.mp4",
         "replacement_sha256": "688486879baccf5c4647300ee9a0a75f7d17a9fe7ff6db41697d29cc795d2b1d",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-17T14:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -840,8 +1127,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-17T18:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1006-li",
@@ -854,8 +1149,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-18T10:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1016-mini-ipip",
@@ -868,8 +1171,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-18T14:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "1017-mini-ipip",
@@ -882,8 +1193,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-18T18:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-01",
@@ -896,8 +1215,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-19T10:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-02",
@@ -910,8 +1237,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-19T14:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-03",
@@ -924,8 +1259,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-19T18:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-04",
@@ -938,8 +1281,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-20T10:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-05",
@@ -952,8 +1303,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-20T14:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-06",
@@ -966,8 +1325,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-20T18:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-07",
@@ -980,8 +1347,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-21T10:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-08",
@@ -994,8 +1369,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-21T14:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-09",
@@ -1008,8 +1391,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-21T18:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-10",
@@ -1022,8 +1413,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-22T10:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0923-05",
@@ -1036,7 +1435,7 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "quality_review": {
         "review_date": "2026-10-14",
@@ -1045,7 +1444,22 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-05.mp4",
         "replacement_sha256": "d3accfa58299ae06693b27765d48735dcd588e3f1bcfa43b6430f77faf9fb5aa",
         "replacement_studio_status": "not_uploaded",
-        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt."
+        "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
+        "latest_workflow_check": {
+          "observed_at": "2026-10-15T12:07:02.344Z",
+          "status": "blocked_web_mobile_app_required",
+          "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
+          "replacement_file_hash_checked": true,
+          "no_upload_or_replacement_performed": true
+        }
+      },
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-22T14:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
@@ -1059,8 +1473,16 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-14T21:06:22-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
+      "verified_at": "2026-10-15T12:07:02.344Z",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-22T18:30:00-06:00",
+        "method": "Reloaded native Studio; scrolled through all future rows; permalink and local slot match; caption agrees after whitespace/case normalization.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+      }
     },
     {
       "id": "0923-01",
@@ -1073,12 +1495,18 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-13T05:59:56-06:00",
+      "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics.",
       "metrics": {
-        "views": 98,
+        "views": 102,
         "likes": 0,
         "comments": 0
+      },
+      "metrics_observed_at": "2026-10-15T12:07:02.344Z",
+      "latest_publication_verification": {
+        "observed_at": "2026-10-15T12:07:02.344Z",
+        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
+        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
       }
     },
     {
