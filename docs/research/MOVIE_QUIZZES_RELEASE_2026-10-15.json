@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "verified_awaiting_deployment",
+  "status": "deployed_verified",
   "collection": "/trivia/movies/",
   "quizzes": [
     {
@@ -333,16 +333,271 @@
       "Original system theme restored",
       "Missing-credential group link blocks play and native solo link removes room query",
       "New movie lobby shows accuracy then time rule and QR invitation"
-    ]
+    ],
+    "production": [
+      {
+        "origin": "https://typologyquiz.com",
+        "local_date": "2026-10-15",
+        "pages": [
+          {
+            "path": "/trivia/movies/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/plots-animated/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/plots-animated/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/plots-live-action/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/plots-live-action/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/day-jobs/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/day-jobs/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/dilemmas/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/dilemmas/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/sidekicks/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/sidekicks/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/villain-plans/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/villain-plans/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/objects/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/objects/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/fictional-places/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/fictional-places/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/animated-friendships/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/animated-friendships/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/sci-fi/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/sci-fi/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/fantasy/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/fantasy/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/cause-and-effect/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/cause-and-effect/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/found-families/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/found-families/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/heists-and-rescues/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/heists-and-rescues/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/sequel-identity/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/sequel-identity/",
+            "structured_data": true,
+            "og_png": true
+          }
+        ],
+        "live_group_directory_http": 200,
+        "status": "pass"
+      },
+      {
+        "origin": "https://www.typologyquiz.com",
+        "local_date": "2026-10-15",
+        "pages": [
+          {
+            "path": "/trivia/movies/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/plots-animated/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/plots-animated/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/plots-live-action/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/plots-live-action/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/day-jobs/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/day-jobs/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/dilemmas/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/dilemmas/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/sidekicks/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/sidekicks/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/villain-plans/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/villain-plans/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/objects/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/objects/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/fictional-places/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/fictional-places/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/animated-friendships/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/animated-friendships/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/sci-fi/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/sci-fi/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/fantasy/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/fantasy/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/cause-and-effect/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/cause-and-effect/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/found-families/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/found-families/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/heists-and-rescues/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/heists-and-rescues/",
+            "structured_data": true,
+            "og_png": true
+          },
+          {
+            "path": "/trivia/movies/sequel-identity/",
+            "http": 200,
+            "canonical": "https://typologyquiz.com/trivia/movies/sequel-identity/",
+            "structured_data": true,
+            "og_png": true
+          }
+        ],
+        "live_group_directory_http": 200,
+        "status": "pass"
+      }
+    ],
+    "productionRoomSmoke": {
+      "created": true,
+      "total": 8,
+      "rankByTime": true,
+      "private": true,
+      "participants": 0,
+      "closed": true
+    },
+    "liveAnalyticsLoader": "https://www.googletagmanager.com/gtag/js?id=G-TZ9B8MB7SP",
+    "rolloutNote": "Initial immediate post-deploy probes encountered transient 404s during propagation; subsequent complete checks passed on both custom domains without cache-busting."
   },
   "deployment": {
     "priorVersion": "c2e7cf45-469e-43e7-a487-f80e3615553d",
-    "version": null
+    "version": "307b8953-dd86-489e-9762-b6c79847dc9a",
+    "verifiedAt": "2026-10-15T06:56:48.071Z"
   },
   "limitations": [
     "Group scores and times are client-reported for casual play, not independently verified competition results",
     "Source keyword checks supplement semantic review; they do not prove meaning",
     "Wrangler dev failed with local spawn EBADF; bundled Miniflare runtime plus exported assets used for successful local integration instead",
     "Three image-led TikTok clips are prepared locally, not uploaded or scheduled"
-  ]
+  ],
+  "sourceCommit": "d531fdc9",
+  "socialCommit": "1c373355"
 }
