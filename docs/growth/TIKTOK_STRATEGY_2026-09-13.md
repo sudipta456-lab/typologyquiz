@@ -1,5 +1,7 @@
 # TypologyQuiz TikTok launch experiment
 
+**Current operating override — October 14, 2026:** the owner-authorized cadence is three unique posts per local day at 10:30, 14:30 and 18:30 America/Edmonton, as recorded in OPERATIONS.md and the ledger. The one-post and ten-post experiments below are historical and do not authorize additional volume. October 14 evening Studio confirmed all three due posts published and 24 future rows through October 22. Try supported browser-extension access before treating a locked native Mac surface as a Studio blocker.
+
 Research checked September 13, 2026; cadence updated October 1, 2026. Account: **@typologyquiz**. This document now guides one original post per local day; it does not record any upload, account change, scheduled job, or publication. The operator task verified a signed-in account with zero followers, updated the bio to “Personality, geography & science quizzes. Play free at TypologyQuiz.com”, and found native Studio video/photo creation. No website field was available. Scheduler behavior and analytics availability still require live verification. One daily post is the owner's current operating cadence, not a TikTok recommendation or a promise of growth.
 
 ## Positioning and factual boundaries

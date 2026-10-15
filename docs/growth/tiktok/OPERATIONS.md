@@ -1,6 +1,6 @@
 # TypologyQuiz TikTok operations
 
-Owner authorization: updated October 1, 2026, manage https://www.tiktok.com/@typologyquiz, create **one** original content piece per local day, conduct daily research and schedule work. Routine original content publishing, profile improvements and relevant replies on our own posts are authorized. No paid advertising or subscriptions requested.
+Owner authorization: updated October 11, 2026, manage https://www.tiktok.com/@typologyquiz with a verified three-post daily cadence at 10:30 AM, 2:30 PM and 6:30 PM America/Edmonton. Routine original content publishing, profile improvements and relevant replies on our own posts are authorized. Reconcile existing schedules before filling missing slots. No paid advertising or subscriptions requested.
 
 ## Current account
 
@@ -15,6 +15,8 @@ Use the three stated slots after checking the account's audience-activity data; 
 Local production and browser automation need the computer on, the app running and account access available. A native TikTok scheduled post may publish independently after TikTok confirms its schedule; a Codex schedule alone does not prove TikTok publication. See official scheduled-task documentation: https://learn.chatgpt.com/docs/automations?surface=app.
 
 ## Screen-lock hardening
+
+October 14 evening verification: a locked native Mac surface does **not** by itself establish that Studio is unavailable. The connected Chrome browser extension successfully opened/reloaded Studio and exposed the signed-in `@typologyquiz` profile, scheduled rows, published metrics, analytics, and comments while native-app control reported a locked Mac. Try the supported browser extension first, verify the visible profile, and reconcile through browser UI. Report a publishing blocker only if that browser path also fails or identity cannot be verified. Do not change security settings or attempt to bypass the lock.
 
 Current sleep policy in this Mac session is `sleep=1` and `displaysleep=10`, so prolonged inactivity can pause a run during screen lock if no explicit wake guard is active. We cannot change global sleep policy without admin password for this session, so use the local guard below whenever a production or analytics run starts.
 

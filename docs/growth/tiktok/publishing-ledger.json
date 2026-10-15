@@ -68,6 +68,31 @@
       "queue_reconciliation": "Studio content listed 22 posts and zero drafts. No native schedule confirmation was observed during this review; do not infer scheduled status from local files.",
       "comment_review": "The visible latest comments were previous self-comments containing TypologyQuiz links. No genuine new comment requiring a reply was observed.",
       "interpretation": "One recent post and this small account-level window do not establish a best posting time or topic. The confirmed post is the available baseline for the owner-requested short cadence test."
+    },
+    {
+      "reviewed_at": "2026-10-14T21:06:22-06:00",
+      "window": "TikTok Studio Last 7 days; chart October 7–13, 2026",
+      "account_metrics": {
+        "video_views": null,
+        "video_views_display": "1.1K",
+        "profile_views": 11,
+        "likes": 13,
+        "comments": null,
+        "shares": 1,
+        "average_watch_time_seconds": null,
+        "completion_rate_percent": null,
+        "saves": null
+      },
+      "traffic_sources": {
+        "for_you_percent": 92.8,
+        "search_percent": 4.1,
+        "personal_profile_percent": 3.1,
+        "following_percent": 0,
+        "sound_percent": 0
+      },
+      "queue_reconciliation": "October 14: all three due items published. October 15–22: 24 future rows, exactly 10:30, 14:30 and 18:30 daily, Everyone and matching captions/permalinks. No future slot conflict observed. No upload or schedule change.",
+      "comment_review": "Latest visible comments were older creator link comments, followed by month-old short answers/feedback. No new genuine question requiring a reply observed; no reply or reaction sent.",
+      "interpretation": "Rounded views and small non-comparable windows do not establish a winning topic or time. Three-slot test has not completed seven local days. Browser extension can access Studio while native Mac control is locked."
     }
   ],
   "posts": [
@@ -447,13 +472,14 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-13T05:59:56-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics.",
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "metrics": {
-        "views": 118,
+        "views": 158,
         "likes": 1,
         "comments": 0
-      }
+      },
+      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
     },
     {
       "id": "1008-vienna",
@@ -466,8 +492,8 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-13T05:59:56-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics.",
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. Published confirmation: TikTok Studio row after reload on October 13 showed the exact caption, October 12 published timestamp, Everyone visibility, and the recorded visible metrics. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "duplicate_schedule": {
         "tiktok_id": "7695556195888794888",
         "url": "https://www.tiktok.com/@typologyquiz/video/7695556195888794888",
@@ -487,10 +513,11 @@
         }
       },
       "metrics": {
-        "views": 101,
-        "likes": 0,
+        "views": 120,
+        "likes": 1,
         "comments": 0
-      }
+      },
+      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
     },
     {
       "id": "1012-ab-yield",
@@ -503,15 +530,16 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling.",
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "published_verified_at": "2026-10-13T21:09:00-06:00",
       "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
       "metrics": {
-        "views": 93,
+        "views": 97,
         "likes": 0,
         "comments": 0
-      }
+      },
+      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
     },
     {
       "id": "1009-budapest",
@@ -524,15 +552,16 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling.",
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "published_verified_at": "2026-10-13T21:09:00-06:00",
       "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
       "metrics": {
-        "views": 76,
+        "views": 96,
         "likes": 1,
         "comments": 0
-      }
+      },
+      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
     },
     {
       "id": "1013-ab-stop-line",
@@ -545,15 +574,16 @@
       "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling.",
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
       "published_verified_at": "2026-10-13T21:09:00-06:00",
       "published_verification": "TikTok Studio Posts row after reload: exact caption, published local timestamp, Everyone visibility, and visible metrics.",
       "metrics": {
-        "views": 34,
+        "views": 108,
         "likes": 0,
         "comments": 0
-      }
+      },
+      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
     },
     {
       "id": "1014-ab-school-zone",
@@ -563,11 +593,17 @@
       "tiktok_id": "7695557062603902226",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695557062603902226",
       "publish_at": "2026-10-14T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
+      "metrics": {
+        "views": 98,
+        "likes": 0,
+        "comments": 0
+      },
+      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
     },
     {
       "id": "1015-ab-right-red",
@@ -577,11 +613,17 @@
       "tiktok_id": "7695608217652546824",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695608217652546824",
       "publish_at": "2026-10-14T14:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
+      "metrics": {
+        "views": 94,
+        "likes": 0,
+        "comments": 0
+      },
+      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
     },
     {
       "id": "1016-ab-clear-intersection",
@@ -591,11 +633,17 @@
       "tiktok_id": "7695608343456484626",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695608343456484626",
       "publish_at": "2026-10-14T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: reloaded Studio showed matching caption/permalink, past published date without schedule badge, Everyone, and visible views/likes/comments.",
+      "metrics": {
+        "views": 34,
+        "likes": 0,
+        "comments": 0
+      },
+      "metrics_observed_at": "2026-10-14T21:06:22-06:00"
     },
     {
       "id": "0923-02",
@@ -608,8 +656,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-03",
@@ -622,8 +670,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-04",
@@ -636,8 +684,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-06",
@@ -650,8 +698,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-07",
@@ -664,8 +712,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-08",
@@ -678,8 +726,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-09",
@@ -692,8 +740,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-10",
@@ -706,8 +754,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "1005-madrid",
@@ -720,8 +768,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "1006-li",
@@ -734,8 +782,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "1016-mini-ipip",
@@ -748,8 +796,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "1017-mini-ipip",
@@ -762,8 +810,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-01",
@@ -776,8 +824,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-02",
@@ -790,8 +838,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-03",
@@ -804,8 +852,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-04",
@@ -818,8 +866,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-05",
@@ -832,8 +880,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-06",
@@ -846,8 +894,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-07",
@@ -860,8 +908,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-08",
@@ -874,8 +922,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-09",
@@ -888,8 +936,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0922-10",
@@ -902,8 +950,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-05",
@@ -916,8 +964,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "1004-lisbon",
@@ -930,8 +978,8 @@
       "status": "scheduled_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
-      "verified_at": "2026-10-11T21:30:00-06:00",
-      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling."
+      "verified_at": "2026-10-14T21:06:22-06:00",
+      "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match."
     },
     {
       "id": "0923-01",
@@ -982,6 +1030,15 @@
     "method": "One upload at a time; reload Studio after each submission; require a future scheduled row before continuing.",
     "future_rows_confirmed": 35,
     "receipt_window": "2026-10-12 through 2026-10-22 America/Edmonton",
-    "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots."
+    "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots.",
+    "latest_check": {
+      "reconciled_at": "2026-10-14T21:06:22-06:00",
+      "studio_account": "@typologyquiz",
+      "future_rows_confirmed": 24,
+      "receipt_window": "2026-10-15 through 2026-10-22 America/Edmonton",
+      "future_slot_conflicts": 0,
+      "october_14_published_confirmed": 3,
+      "historical_exception": "October 12 conflicts already published; no deletion attempted in this read-only run."
+    }
   }
 }
