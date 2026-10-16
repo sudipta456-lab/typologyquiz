@@ -1250,7 +1250,7 @@
       "tiktok_id": "7695609079418359048",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609079418359048",
       "publish_at": "2026-10-17T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -1261,7 +1261,7 @@
         "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-09.mp4",
         "replacement_sha256": "13f395db59e163008cf7e6606ea0d3379d35b8404ab8b60e18c2dc1067ab3e51",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "not_uploaded_superseded",
         "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
         "latest_workflow_check": {
           "observed_at": "2026-10-15T12:07:02.344Z",
@@ -1269,7 +1269,9 @@
           "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
           "replacement_file_hash_checked": true,
           "no_upload_or_replacement_performed": true
-        }
+        },
+        "superseded_by_new_id": "1015-drive-rain-recovery",
+        "superseded_by_url": "https://www.tiktok.com/@typologyquiz/video/7697102992910142728"
       },
       "latest_queue_verification": {
         "observed_at": "2026-10-16T03:00:14.022Z",
@@ -1278,7 +1280,11 @@
         "scheduled_local_time": "2026-10-17T10:30:00-06:00",
         "method": "Reloaded Studio Posts; all future rows captured in overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
         "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md"
-      }
+      },
+      "removed_at": "2026-10-16T03:31:11.735Z",
+      "removal_verification": "Approved exact scheduled post removed through native TikTok Delete confirmation; reloaded Studio absence verified before scheduling replacement.",
+      "replaced_by": "1015-drive-rain-recovery",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697102992910142728"
     },
     {
       "id": "0923-10",
@@ -1288,7 +1294,7 @@
       "tiktok_id": "7695609175061138706",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609175061138706",
       "publish_at": "2026-10-17T14:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -1299,7 +1305,7 @@
         "reason": "Original final CTA extends beyond the 1080px image edge; verified against source frame and measured glyph bounds.",
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-14-layout-v2/geography-0923/0923-10.mp4",
         "replacement_sha256": "688486879baccf5c4647300ee9a0a75f7d17a9fe7ff6db41697d29cc795d2b1d",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "not_uploaded_superseded",
         "instruction": "Reconcile Studio and replace the original through a supported native edit/remove workflow before uploading a corrected copy into its slot. Never add a duplicate. Original hash, permalink, scheduled status and time remain the existing receipt.",
         "latest_workflow_check": {
           "observed_at": "2026-10-15T12:07:02.344Z",
@@ -1307,7 +1313,9 @@
           "evidence": "Croatia scheduled row edit control visibly reports: Videos with commercial content can only be edited on the TikTok app. The other eight remain pending; their individual edit controls were not opened.",
           "replacement_file_hash_checked": true,
           "no_upload_or_replacement_performed": true
-        }
+        },
+        "superseded_by_new_id": "1015-image-state-shape",
+        "superseded_by_url": "https://www.tiktok.com/@typologyquiz/video/7697103279875984656"
       },
       "latest_queue_verification": {
         "observed_at": "2026-10-16T03:00:14.022Z",
@@ -1316,7 +1324,11 @@
         "scheduled_local_time": "2026-10-17T14:30:00-06:00",
         "method": "Reloaded Studio Posts; all future rows captured in overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
         "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md"
-      }
+      },
+      "removed_at": "2026-10-16T03:32:17.566Z",
+      "removal_verification": "Approved exact scheduled post removed through native TikTok Delete confirmation; reloaded Studio absence verified before scheduling replacement.",
+      "replaced_by": "1015-image-state-shape",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697103279875984656"
     },
     {
       "id": "1005-madrid",
@@ -1326,7 +1338,7 @@
       "tiktok_id": "7695609280732384520",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609280732384520",
       "publish_at": "2026-10-17T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -1338,7 +1350,11 @@
         "scheduled_local_time": "2026-10-17T18:30:00-06:00",
         "method": "Reloaded Studio Posts; all future rows captured in overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
         "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md"
-      }
+      },
+      "removed_at": "2026-10-16T03:33:26.590Z",
+      "removal_verification": "Approved exact scheduled post removed through native TikTok Delete confirmation; reloaded Studio absence verified before scheduling replacement.",
+      "replaced_by": "1015-drive-uphill-curb",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697103539490917639"
     },
     {
       "id": "1006-li",
@@ -1878,15 +1894,21 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-state-shape.mp4",
       "caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Choose before the reveal. We used the same state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
       "sha256": "23c97fc65533af767dfa56b4906ac3cda081656d8206a514c855326331790183",
-      "status": "prepared_local_only",
-      "publish_at": null,
-      "url": null,
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-17T14:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697103279875984656",
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-image-led-manifest.json",
-      "verification": "Native encoded QA: 1080x1920, 30fps, 20s, 600 frames, no audio. CTA HTTP200. Local asset only; no Studio upload or scheduling.",
+      "verification": "After native removal of the approved original, reloaded Studio visibly confirms exact caption, future Edmonton timestamp, Everyone and permalink. Your brand and applicable AI label selected before scheduling.",
       "required_disclosures": [
         "Your brand / Promotional content"
-      ]
+      ],
+      "tiktok_id": "7697103279875984656",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "verified_at": "2026-10-16T03:32:17.566Z",
+      "replaces": "0923-10"
     },
     {
       "id": "1015-image-element-fe",
@@ -1937,44 +1959,56 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-rain-recovery.mp4",
       "caption": "Wet road. Suddenly light steering. What would you do? Pick A or B before the reveal, then read the explanation. Original AI wet-weather illustration, not real footage or a technical tire diagram. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
       "sha256": "5c229d62b4afdfddcdd1029565e93ad4b44b9077b6d249a8307e36d0e8cd7082",
-      "status": "prepared_local_only",
-      "publish_at": null,
-      "url": null,
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-17T10:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697102992910142728",
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
-      "verification": "NativeQA1080x1920,30fps,22s,660frames,audio0; all measured layouts pass; CTAHTTP200. Local only; no upload/scheduling.",
+      "verification": "After native removal of the approved original, reloaded Studio visibly confirms exact caption, future Edmonton timestamp, Everyone and permalink. Your brand and applicable AI label selected before scheduling.",
       "required_disclosures": [
         "Your brand / Promotional content",
         "AI-generated content"
-      ]
+      ],
+      "tiktok_id": "7697102992910142728",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": true,
+      "verified_at": "2026-10-16T03:31:11.735Z",
+      "replaces": "0923-09"
     },
     {
       "id": "1015-drive-uphill-curb",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-uphill-curb.mp4",
       "caption": "Uphill, a curb, and parked on the right: which way should the front wheels point? Choose before the reveal. The video explains the answer for that exact situation. Original AI showroom illustration, not a maneuver demonstration. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #ParkingQuiz #TypologyQuiz",
       "sha256": "e19ee2f91fdb867e275be4786ea3a622b20fef6624689f9bb2120f9fabacbcf2",
-      "status": "prepared_local_only",
-      "publish_at": null,
-      "url": null,
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-17T18:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697103539490917639",
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
-      "verification": "NativeQA1080x1920,30fps,22s,660frames,audio0; all measured layouts pass; CTAHTTP200. Local only; no upload/scheduling.",
+      "verification": "After native removal of the approved original, reloaded Studio visibly confirms exact caption, future Edmonton timestamp, Everyone and permalink. Your brand and applicable AI label selected before scheduling.",
       "required_disclosures": [
         "Your brand / Promotional content",
         "AI-generated content"
-      ]
+      ],
+      "tiktok_id": "7697103539490917639",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": true,
+      "verified_at": "2026-10-16T03:33:26.590Z",
+      "replaces": "1005-madrid"
     },
     {
       "id": "1015-drive-practice-intro",
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-practice-intro.mp4",
       "caption": "Preparing for a learner’s knowledge test? TypologyQuiz has free driving-practice quizzes, too. Choose your province or state and practise road signs, right of way, parking and road-safety questions, with answer explanations. Original AI illustration. Unofficial practice, not a government exam or a substitute for your official handbook. https://typologyquiz.com/driving/ #DrivingTest #LearnerDriver #DrivingQuiz #TypologyQuiz",
       "sha256": "63a187dbd908e68d79a5b2e672036973ab507d7c917e46738483ed37d173f537",
-      "status": "prepared_local_only",
+      "status": "uploaded_unsaved_composer",
       "publish_at": null,
       "url": null,
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
-      "verification": "NativeQA1080x1920,30fps,22s,660frames,audio0; all measured layouts pass; CTAHTTP200. Local only; no upload/scheduling.",
+      "verification": "Uploaded once to Studio; exact caption, Oct18 10:30 Edmonton, Everyone, brand and AI disclosures prepared. Schedule NOT submitted. Existing lithium original intact; revised exact replacement approval pending. Resume composer, do not re-upload.",
       "required_disclosures": [
         "Your brand / Promotional content",
         "AI-generated content"

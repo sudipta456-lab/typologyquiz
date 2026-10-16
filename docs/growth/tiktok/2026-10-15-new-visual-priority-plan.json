@@ -2,7 +2,7 @@
   "owner_preference": "Prioritize new videos; replace older queued clips",
   "account": "@typologyquiz",
   "timezone": "America/Edmonton",
-  "state": "approved_future_replacements_in_progress",
+  "state": "six_future_replacements_confirmed_intro_needs_new_slot",
   "do_not_upload_into_occupied_slots": true,
   "replacements": [
     {
@@ -71,9 +71,11 @@
       "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-rain-recovery.mp4",
       "new_caption": "Wet road. Suddenly light steering. What would you do? Pick A or B before the reveal, then read the explanation. Original AI wet-weather illustration, not real footage or a technical tire diagram. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
       "new_sha256": "5c229d62b4afdfddcdd1029565e93ad4b44b9077b6d249a8307e36d0e8cd7082",
-      "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false,
-      "action_confirmation": "approved_for_existing_exact_future_slot"
+      "status": "replacement_scheduled_confirmed",
+      "replacement_confirmed": true,
+      "action_confirmation": "approved_for_existing_exact_future_slot",
+      "new_url": "https://www.tiktok.com/@typologyquiz/video/7697102992910142728",
+      "verified_at": "2026-10-16T03:31:11.735Z"
     },
     {
       "old_id": "0923-10",
@@ -84,9 +86,11 @@
       "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-state-shape.mp4",
       "new_caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Choose before the reveal. We used the same state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
       "new_sha256": "23c97fc65533af767dfa56b4906ac3cda081656d8206a514c855326331790183",
-      "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false,
-      "action_confirmation": "approved_for_existing_exact_future_slot"
+      "status": "replacement_scheduled_confirmed",
+      "replacement_confirmed": true,
+      "action_confirmation": "approved_for_existing_exact_future_slot",
+      "new_url": "https://www.tiktok.com/@typologyquiz/video/7697103279875984656",
+      "verified_at": "2026-10-16T03:32:17.566Z"
     },
     {
       "old_id": "1005-madrid",
@@ -97,14 +101,16 @@
       "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-uphill-curb.mp4",
       "new_caption": "Uphill, a curb, and parked on the right: which way should the front wheels point? Choose before the reveal. The video explains the answer for that exact situation. Original AI showroom illustration, not a maneuver demonstration. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #ParkingQuiz #TypologyQuiz",
       "new_sha256": "e19ee2f91fdb867e275be4786ea3a622b20fef6624689f9bb2120f9fabacbcf2",
-      "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false,
-      "action_confirmation": "approved_for_existing_exact_future_slot"
+      "status": "replacement_scheduled_confirmed",
+      "replacement_confirmed": true,
+      "action_confirmation": "approved_for_existing_exact_future_slot",
+      "new_url": "https://www.tiktok.com/@typologyquiz/video/7697103539490917639",
+      "verified_at": "2026-10-16T03:33:26.590Z"
     }
   ],
   "latest_review": {
-    "observed_at": "2026-10-16T03:20:20.131Z",
-    "reason": "Three October16 new videos Studio-confirmed. Three October17 replacements remain approved but pending native queue cleanup. First October15 introduction slot elapsed with original published; retain published original."
+    "observed_at": "2026-10-16T03:33:55.527Z",
+    "reason": "All six still-future approved replacements Studio-confirmed. Full21-row forward queue reconciled by caption, timestamp, Everyone and permalink. October15 published Portugal retained; introduction needs a new exact future slot."
   },
   "owner_action_confirmation": {
     "received_at": "2026-10-16T03:08:19.875Z",
@@ -112,9 +118,9 @@
     "scope": "Six still-future exact caption/slot replacements for October16–17 may proceed without another approval. October15Portugal original already published; retain it. Approval does not extend to deleting that published post or selecting a new introduction slot."
   },
   "pending_composer": {
-    "new_id": "1015-drive-rain-recovery",
+    "new_id": "1015-drive-practice-intro",
     "state": "uploaded_unsaved_composer_not_scheduled",
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "time": "10:30",
     "visibility": "Everyone",
     "brand_disclosure": true,
@@ -123,5 +129,59 @@
     "old_post_removed": false,
     "resume_existing_composer": true
   },
-  "current_blocker": "iPhone Mirroring disconnected: iPhone in Use / Lock your iPhone to connect. Reconnect waiting for phone lock; three Oct17 originals remain queued. Approval remains valid for the same exact future slots."
+  "current_blocker": null,
+  "final_queue_check": {
+    "observed_at": "2026-10-16T03:33:55.527Z",
+    "future_count": 21,
+    "local_days": {
+      "2026-10-18": [
+        "10:30",
+        "14:30",
+        "18:30"
+      ],
+      "2026-10-19": [
+        "10:30",
+        "14:30",
+        "18:30"
+      ],
+      "2026-10-20": [
+        "10:30",
+        "14:30",
+        "18:30"
+      ],
+      "2026-10-21": [
+        "10:30",
+        "14:30",
+        "18:30"
+      ],
+      "2026-10-22": [
+        "10:30",
+        "14:30",
+        "18:30"
+      ],
+      "2026-10-16": [
+        "10:30",
+        "14:30",
+        "18:30"
+      ],
+      "2026-10-17": [
+        "10:30",
+        "14:30",
+        "18:30"
+      ]
+    },
+    "duplicate_slots": 0,
+    "remaining_originals_from_six": 0,
+    "record": "docs/growth/tiktok/2026-10-15-approved-replacements.md"
+  },
+  "introduction_revised_proposal": {
+    "old_id": "1006-li",
+    "old_url": "https://www.tiktok.com/@typologyquiz/video/7695609361221111058",
+    "old_caption": "Li is lithium, element 3. Can you name the first 20 elements? https://typologyquiz.com/trivia/periodic-table-first-20/ #chemistry #quiz",
+    "new_id": "1015-drive-practice-intro",
+    "proposed_local_time": "2026-10-18T10:30:00-06:00",
+    "status": "prepared_pending_revised_action_confirmation",
+    "old_removed": false,
+    "schedule_submitted": false
+  }
 }
