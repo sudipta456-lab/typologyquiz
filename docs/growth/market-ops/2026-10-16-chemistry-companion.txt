@@ -1,0 +1,22 @@
+What helps build a house?
+An elements-to-materials warm-up | Facilitator edition | 16 October 2026
+
+Audience: Suggested for learners 12+ familiar with element symbols; the facilitator reviews suitability. Duration: 9 minutes.
+Proposed activity objective: recall element names and explain one difference between an element and a compound in a building material.
+
+1. Recall (3 min). Open the first-20 quiz, or on paper write the names matching Si, Ca, O and C, then as many other first-20 elements as time allows. Pairs can share one device; allow untimed paper use if preferred. No room or public chat is needed.
+2. Connect (3 min). Show the two cards below. Ask: Is a glass window pure silicon? Is limestone calcium metal? Answer: No. Those materials contain compounds, whose properties differ from the isolated elements. Do not imply every glass or cement has identical composition. No samples, chemicals or demonstrations are needed.
+   - Silicon | Si | atomic number 14: Silica contains silicon and oxygen and is a main ingredient of common glass.
+   - Calcium | Ca | atomic number 20: Limestone is mainly calcium carbonate and is used in making cement.
+3. Explain (3 min). Ask each pair to give one material, name an element in one of its compounds, and explain why the material is not the pure element. Accept spoken, written or drawn answers; judge explanations, not speed. Example: silica in glass contains silicon and oxygen; glass is not pure silicon.
+
+Offline answer key: Si = silicon | Ca = calcium | O = oxygen | C = carbon
+Access choices: Shared device or facilitator read-aloud. Large-print, untimed paper alternative. No need to share scores or names, or to use rooms or chat. This PDF is not claimed to be fully accessibility-certified; a plain-text transcript is provided separately.
+
+Seasonal note: optional tie-in to National Chemistry Week, 18-24 October 2026 (theme: Chemistry Under Construction). After 24 October, describe the event as past; the activity itself is evergreen.
+
+Prepared by TypologyQuiz. Independent warm-up, not classroom-tested or ACS/RSC endorsed. Original text only; no third-party art reproduced. Links checked 16 Oct 2026.
+Public quiz: https://typologyquiz.com/trivia/periodic-table-first-20/
+ACS National Chemistry Week: https://www.acs.org/education/national-chemistry-week.html
+RSC silicon: https://periodic-table.rsc.org/element/14/silicon
+RSC calcium: https://periodic-table.rsc.org/element/20/calcium
