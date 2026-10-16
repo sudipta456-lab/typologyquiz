@@ -1364,7 +1364,7 @@
       "tiktok_id": "7695609361221111058",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609361221111058",
       "publish_at": "2026-10-18T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -1384,11 +1384,17 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1006-li.mp4",
         "replacement_sha256": "3465ebdfbef9ac8a4d5b82ed56fb31b0a0a4eb8848b17d45dec534007ee96894",
         "replacement_caption": "Li is which element? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/periodic-table-first-20/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "not_uploaded_superseded",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "superseded_by_new_id": "1015-drive-practice-intro",
+        "superseded_by_url": "https://www.tiktok.com/@typologyquiz/video/7697110808035151112"
+      },
+      "removed_at": "2026-10-16T04:02:54.415Z",
+      "removal_verification": "Approved scheduled lithium post removed through native TikTok Delete confirmation; reloaded Studio lithium search shows no results before replacement submission.",
+      "replaced_by": "1015-drive-practice-intro",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697110808035151112"
     },
     {
       "id": "1016-mini-ipip",
@@ -2003,16 +2009,22 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-practice-intro.mp4",
       "caption": "Preparing for a learner’s knowledge test? TypologyQuiz has free driving-practice quizzes, too. Choose your province or state and practise road signs, right of way, parking and road-safety questions, with answer explanations. Original AI illustration. Unofficial practice, not a government exam or a substitute for your official handbook. https://typologyquiz.com/driving/ #DrivingTest #LearnerDriver #DrivingQuiz #TypologyQuiz",
       "sha256": "63a187dbd908e68d79a5b2e672036973ab507d7c917e46738483ed37d173f537",
-      "status": "uploaded_unsaved_composer",
-      "publish_at": null,
-      "url": null,
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-18T10:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697110808035151112",
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
-      "verification": "Uploaded once to Studio; exact caption, Oct18 10:30 Edmonton, Everyone, brand and AI disclosures prepared. Schedule NOT submitted. Existing lithium original intact; revised exact replacement approval pending. Resume composer, do not re-upload.",
+      "verification": "After approved native lithium removal and reloaded Studio absence, submitted existing composer once. Reloaded Studio confirms exact caption, October18 10:30 Edmonton, Everyone and new permalink. Brand and AI disclosures selected before scheduling.",
       "required_disclosures": [
         "Your brand / Promotional content",
         "AI-generated content"
-      ]
+      ],
+      "tiktok_id": "7697110808035151112",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": true,
+      "verified_at": "2026-10-16T04:02:54.415Z",
+      "replaces": "1006-li"
     }
   ],
   "active_cadence_test": {

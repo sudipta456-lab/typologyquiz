@@ -2,7 +2,7 @@
   "owner_preference": "Prioritize new videos; replace older queued clips",
   "account": "@typologyquiz",
   "timezone": "America/Edmonton",
-  "state": "six_future_replacements_confirmed_intro_needs_new_slot",
+  "state": "all_seven_new_videos_scheduled_confirmed",
   "do_not_upload_into_occupied_slots": true,
   "replacements": [
     {
@@ -15,7 +15,8 @@
       "new_caption": "Preparing for a learner’s knowledge test? TypologyQuiz has free driving-practice quizzes, too. Choose your province or state and practise road signs, right of way, parking and road-safety questions, with answer explanations. Original AI illustration. Unofficial practice, not a government exam or a substitute for your official handbook. https://typologyquiz.com/driving/ #DrivingTest #LearnerDriver #DrivingQuiz #TypologyQuiz",
       "new_sha256": "63a187dbd908e68d79a5b2e672036973ab507d7c917e46738483ed37d173f537",
       "status": "slot_elapsed_original_published_not_replaced",
-      "replacement_confirmed": false
+      "replacement_confirmed": false,
+      "rescheduled_under": "introduction_revised_proposal"
     },
     {
       "old_id": "0923-06",
@@ -109,29 +110,18 @@
     }
   ],
   "latest_review": {
-    "observed_at": "2026-10-16T03:33:55.527Z",
-    "reason": "All six still-future approved replacements Studio-confirmed. Full21-row forward queue reconciled by caption, timestamp, Everyone and permalink. October15 published Portugal retained; introduction needs a new exact future slot."
+    "observed_at": "2026-10-16T04:02:54.415Z",
+    "reason": "All seven new videos Studio-confirmed. Full21future rows reconciled with three/day and no duplicate slots. Published Portugal retained."
   },
   "owner_action_confirmation": {
     "received_at": "2026-10-16T03:08:19.875Z",
     "answer": "Approve all seven replacements",
     "scope": "Six still-future exact caption/slot replacements for October16–17 may proceed without another approval. October15Portugal original already published; retain it. Approval does not extend to deleting that published post or selecting a new introduction slot."
   },
-  "pending_composer": {
-    "new_id": "1015-drive-practice-intro",
-    "state": "uploaded_unsaved_composer_not_scheduled",
-    "date": "2026-10-18",
-    "time": "10:30",
-    "visibility": "Everyone",
-    "brand_disclosure": true,
-    "ai_label": true,
-    "schedule_submitted": false,
-    "old_post_removed": false,
-    "resume_existing_composer": true
-  },
+  "pending_composer": null,
   "current_blocker": null,
   "final_queue_check": {
-    "observed_at": "2026-10-16T03:33:55.527Z",
+    "observed_at": "2026-10-16T04:02:54.415Z",
     "future_count": 21,
     "local_days": {
       "2026-10-18": [
@@ -171,7 +161,7 @@
       ]
     },
     "duplicate_slots": 0,
-    "remaining_originals_from_six": 0,
+    "remaining_originals_from_seven_replacements": 0,
     "record": "docs/growth/tiktok/2026-10-15-approved-replacements.md"
   },
   "introduction_revised_proposal": {
@@ -180,8 +170,15 @@
     "old_caption": "Li is lithium, element 3. Can you name the first 20 elements? https://typologyquiz.com/trivia/periodic-table-first-20/ #chemistry #quiz",
     "new_id": "1015-drive-practice-intro",
     "proposed_local_time": "2026-10-18T10:30:00-06:00",
-    "status": "prepared_pending_revised_action_confirmation",
-    "old_removed": false,
-    "schedule_submitted": false
+    "status": "replacement_scheduled_confirmed",
+    "old_removed": true,
+    "schedule_submitted": true,
+    "action_confirmation": {
+      "received_at": "2026-10-16T03:59:52.998Z",
+      "answer": "Approve revised replacement",
+      "scope": "Remove only scheduled lithium7695609361221111058 and schedule driving introduction in same October18 10:30 America/Edmonton slot; retain originals."
+    },
+    "new_url": "https://www.tiktok.com/@typologyquiz/video/7697110808035151112",
+    "verified_at": "2026-10-16T04:02:54.415Z"
   }
 }
