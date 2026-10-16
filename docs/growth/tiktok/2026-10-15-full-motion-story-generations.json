@@ -1,0 +1,89 @@
+{
+  "account": "@typologyquiz",
+  "kind": "seven_full_motion_story_videos",
+  "local_date": "2026-10-15",
+  "provider": "HeyGen Video 1",
+  "duration_seconds": 15,
+  "aspect_ratio": "9:16",
+  "resolution_requested": "1080p",
+  "state": "final_assets_qa_passed",
+  "items": [
+    {
+      "id": "alien",
+      "videoId": "67fff8126a204f2d8bd4093a8f02d3df",
+      "prompt": "Create an original cinematic full-motion vertical 9:16 video, 15 seconds, one continuous shot, no still-image slideshow or frozen camera. A friendly, completely fictional slender teal extraterrestrial field scientist in an original graphite exploration suit cautiously approaches a softly glowing alien plant in a beautiful blue-violet cave. At 0–5 seconds the scientist walks into frame, breath moves, antennae and vegetation sway; at 5–10 seconds it kneels and a tiny floating sensor circles the plant; at 10–15 seconds the plant opens into a luminous bloom and the alien steps back in delighted surprise. Gentle tracking camera, believable independent subject motion, rich cinematic lighting, elegant premium sci-fi short-film look. Not a recognizable film/game character, no logos or real people. Keep the action in the central middle third with dark quiet negative space at top and bottom for quiz text added later. No text, no numbers, no symbols, no voice, no music. Original ambient cave sound only if supported.",
+      "state": "final_asset_qa_passed_local_only",
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "driving",
+      "videoId": "c454f2473113417683368a47cafbb109",
+      "prompt": "Create an original full-motion vertical 9:16 video, 15 seconds. A premium cinematic driving-school commercial scene. At dawn, an ordinary unbranded parked compact car stands safely in a quiet empty training lot. An adult learner and instructor walk to the stationary car; the learner checks a paper checklist, hands it to the instructor, opens the driver's door and sits down. Car stays completely stationary, engine off, no moving traffic, no road signs or licensing logos. Camera moves slowly from a wide establishing view into a tasteful three-quarter car view. No driving maneuver or road-rule demonstration. Continuous natural movement across the entire clip, no frozen image or slideshow. Keep the main action in the central middle third and leave quiet dark space at top and bottom for separate quiz typography. Premium cinematic lighting and smooth camera movement. No text, no numbers, no lettering, no interface, no voice, no music. Original gentle ambient environmental sound only if supported.",
+      "state": "final_asset_qa_passed_local_only",
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "mars",
+      "videoId": "b28661710e52491aaf8af4da7f8ef3ef",
+      "prompt": "Create an original full-motion vertical 9:16 video, 15 seconds. An original cinematic illustrative Mars landscape with rusty red rocky terrain and thin dusty atmosphere. An unbranded small robotic explorer slowly rolls along the ground, independently rotating its camera mast as a light swirl of dust passes behind. Low tracking camera moves alongside the rover, then reveals a broad distant crater. No people, green plants, open liquid water or Earth-like blue sky. Clearly a science visualization, not NASA footage. Avoid recognizable mission logos or exact mission-specific rover design. Continuous natural movement across the entire clip, no frozen image or slideshow. Keep the main action in the central middle third and leave quiet dark space at top and bottom for separate quiz typography. Premium cinematic lighting and smooth camera movement. No text, no numbers, no lettering, no interface, no voice, no music. Original gentle ambient environmental sound only if supported.",
+      "state": "final_asset_qa_passed_local_only",
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "gold",
+      "videoId": "8450254d214a48f7a962e5ee07e8b028",
+      "prompt": "Create an original full-motion vertical 9:16 video, 15 seconds. A premium macro studio sequence. A pristine unmarked gold-colored metallic sphere slowly rotates above a dark pedestal using a clearly stylized floating display, never represented as a real experiment. At first only a narrow cool reflection reveals the round silhouette; a warm light sweeps around it from 8 seconds onward, revealing a rich gold finish. Dust motes move, subtle rotating reflections, slow smooth dolly. Keep the sphere relatively small at center. No chemical formulas or element symbols, no real laboratory claims. Continuous natural movement across the entire clip, no frozen image or slideshow. Keep the main action in the central middle third and leave quiet dark space at top and bottom for separate quiz typography. Premium cinematic lighting and smooth camera movement. No text, no numbers, no lettering, no interface, no voice, no music. Original gentle ambient environmental sound only if supported.",
+      "state": "final_asset_qa_passed_local_only",
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "rome",
+      "videoId": "0e413527eef94f8b98cfed71bd08817c",
+      "prompt": "Create an original full-motion vertical 9:16 video, 15 seconds. An original illustrative cinematic journey along Rome's Tiber River in Italy in warm evening light. The camera tracks smoothly forward along the embankment; flowing river water, trees moving in a light breeze, small distant pedestrians walking naturally. A recognizable but accurately proportioned distant view of the dome of St Peter's Basilica across the river, no Italian flags or maps, no fake travel signage. Beautiful atmospheric travel-film look, clearly a generated illustration rather than documentary footage. Continuous natural movement across the entire clip, no frozen image or slideshow. Keep the main action in the central middle third and leave quiet dark space at top and bottom for separate quiz typography. Premium cinematic lighting and smooth camera movement. No text, no numbers, no lettering, no interface, no voice, no music. Original gentle ambient environmental sound only if supported.",
+      "state": "final_asset_qa_passed_local_only",
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "physics",
+      "videoId": "a1ec604d2ba94155a7b9579c84e7c026",
+      "prompt": "Create an original full-motion vertical 9:16 video, 15 seconds. An original poetic physics-interest sequence in a dark museum-like gallery. A polished metal pendulum swings smoothly from side to side at the middle of the frame, while concentric light ripples move across a neighboring abstract dark reflective panel. The camera makes a slow elegant orbit. Physically coherent pendulum support and string, no impossible collisions. The luminous ripples are a conceptual art display, not a claim of a real experiment. Cool cyan and amber lighting, sleek science-museum commercial. Continuous natural movement across the entire clip, no frozen image or slideshow. Keep the main action in the central middle third and leave quiet dark space at top and bottom for separate quiz typography. Premium cinematic lighting and smooth camera movement. No text, no numbers, no lettering, no interface, no voice, no music. Original gentle ambient environmental sound only if supported.",
+      "state": "final_asset_qa_passed_local_only",
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "movie",
+      "videoId": "6d03e70b61ad424a8abf3fafba9dc8ad",
+      "prompt": "Create an original full-motion vertical 9:16 video, 15 seconds. An original cinematic underwater reef scene filmed like a calm nature short. Small generic silvery fish, not clownfish and not blue tangs, swim independently between gently swaying coral. Camera slowly follows a small fish through an arch of rock; shafts of sunlight ripple across the sea floor, bubbles rise naturally. At 9 seconds a much larger group of little silver fish comes into view behind the arch. No anthropomorphic faces, dialogue, film characters, studio assets, titles, movie posters or logos. This is a generic ocean visualization for a text-only movie riddle overlay. Continuous natural movement across the entire clip, no frozen image or slideshow. Keep the main action in the central middle third and leave quiet dark space at top and bottom for separate quiz typography. Premium cinematic lighting and smooth camera movement. No text, no numbers, no lettering, no interface, no voice, no music. Original gentle ambient environmental sound only if supported.",
+      "state": "final_asset_qa_passed_local_only",
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    }
+  ]
+}

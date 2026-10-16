@@ -1,0 +1,204 @@
+{
+  "local_date": "2026-10-15",
+  "type": "TikTok Story-ready video assets; no posting implied",
+  "duration_seconds": 15,
+  "phase_seconds": [
+    3,
+    5,
+    3,
+    4
+  ],
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "safe": [
+    84,
+    180,
+    924,
+    1570
+  ],
+  "items": [
+    {
+      "id": "alien",
+      "tag": "FICTIONAL • JUST FOR FUN",
+      "hook": "An unknown signal arrives.",
+      "question": "What is your first move?",
+      "choices": [
+        "Investigate the clue",
+        "Bring the crew together"
+      ],
+      "answer": "What would you choose?",
+      "detail": "A fictional interest quiz. No right answer.",
+      "cta": "Find your alien archetype",
+      "route": "/trivia/alien-type/",
+      "source": "src/components/trivia/InterestQuiz.tsx",
+      "caption": "An unknown signal, one fictional crew: do you investigate the clue or bring everyone together? Original playful adaptation of our alien archetype quiz—not a diagnosis or claim about real aliens. Original AI video. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
+      "video_id": "67fff8126a204f2d8bd4093a8f02d3df",
+      "raw_filename": "alien-raw.mp4",
+      "output_filename": "1015-story-alien.mp4",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "driving",
+      "tag": "UNOFFICIAL DRIVING PRACTICE",
+      "hook": "Learner test coming up?",
+      "question": "Give the guessing a day off.",
+      "choices": [
+        "Road signs and right of way",
+        "Parking and road-safety practice"
+      ],
+      "answer": "Practise. Learn why.",
+      "detail": "Choose your province or state. Answer explanations included.",
+      "cta": "Choose your driving quiz",
+      "route": "/driving/",
+      "source": "https://typologyquiz.com/driving/",
+      "caption": "We have driving-practice quizzes too. Choose your province or state and practise road signs, right of way and parking with answer explanations. Unofficial practice, not a government exam or a substitute for your official handbook. Original AI illustration; not a driving demonstration. https://typologyquiz.com/driving/ #DrivingTest #LearnerDriver #TypologyQuiz",
+      "video_id": "c454f2473113417683368a47cafbb109",
+      "raw_filename": "driving-raw.mp4",
+      "output_filename": "1015-story-driving.mp4",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "mars",
+      "tag": "PLANET QUICK QUIZ",
+      "hook": "A red-world mystery.",
+      "question": "Which is the Red Planet?",
+      "choices": [
+        "Mars",
+        "Venus"
+      ],
+      "answer": "Mars.",
+      "detail": "Fourth planet from the Sun.",
+      "cta": "Can you name all eight?",
+      "route": "/trivia/planets/",
+      "source": "https://science.nasa.gov/mars/",
+      "caption": "Which planet is nicknamed the Red Planet? Pick before the reveal, then try the full planets quiz. Source: NASA Science. Original AI visualization, not mission footage. https://typologyquiz.com/trivia/planets/ #SpaceQuiz #Planets #TypologyQuiz",
+      "video_id": "b28661710e52491aaf8af4da7f8ef3ef",
+      "raw_filename": "mars-raw.mp4",
+      "output_filename": "1015-story-mars.mp4",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "gold",
+      "tag": "ELEMENT QUICK QUIZ",
+      "hook": "Two letters. Big clue.",
+      "question": "Which element is Au?",
+      "choices": [
+        "Gold",
+        "Silver"
+      ],
+      "answer": "Gold.",
+      "detail": "Atomic number 79.",
+      "cta": "Name the periodic table",
+      "route": "/trivia/periodic-table/",
+      "source": "https://periodic-table.rsc.org/element/79/gold",
+      "caption": "Au: gold or silver? Choose before the reveal. Source: Royal Society of Chemistry. Original AI metallic-object visualization, not a real experiment. https://typologyquiz.com/trivia/periodic-table/ #ChemistryQuiz #PeriodicTable #TypologyQuiz",
+      "video_id": "8450254d214a48f7a962e5ee07e8b028",
+      "raw_filename": "gold-raw.mp4",
+      "output_filename": "1015-story-gold.mp4",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "rome",
+      "tag": "GEOGRAPHY QUICK QUIZ",
+      "hook": "A capital-city clue.",
+      "question": "Rome is the capital of…?",
+      "choices": [
+        "Italy",
+        "Spain"
+      ],
+      "answer": "Italy.",
+      "detail": "One capital down. How many more?",
+      "cta": "Try the Europe quiz",
+      "route": "/trivia/countries-of-europe/",
+      "source": "https://www.italia.it/en/lazio/rome",
+      "caption": "Rome is the capital of which country? A short geography warm-up before the full Europe quiz. Source: Italia.it, Italy's official tourism portal. Original AI travel illustration, not documentary footage. https://typologyquiz.com/trivia/countries-of-europe/ #GeographyQuiz #Europe #TypologyQuiz",
+      "video_id": "0e413527eef94f8b98cfed71bd08817c",
+      "raw_filename": "rome-raw.mp4",
+      "output_filename": "1015-story-rome.mp4",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "physics",
+      "tag": "CURIOSITY • NOT AN ABILITY TEST",
+      "hook": "Choose your rabbit hole.",
+      "question": "Which mystery pulls you in?",
+      "choices": [
+        "Pendulums and motion",
+        "Space-time or quantum puzzles"
+      ],
+      "answer": "Follow your curiosity.",
+      "detail": "An interest quiz. No right or wrong.",
+      "cta": "Find your physics interest",
+      "route": "/trivia/physics/",
+      "source": "src/components/trivia/PhysicsPreferenceQuiz.tsx",
+      "caption": "Pendulums, space-time or quantum puzzles—which would you explore first? Our physics preference quiz is about curiosity, not intelligence or ability. Original AI conceptual visualization, not an experiment. https://typologyquiz.com/trivia/physics/ #Physics #ScienceQuiz #TypologyQuiz",
+      "video_id": "a1ec604d2ba94155a7b9579c84e7c026",
+      "raw_filename": "physics-raw.mp4",
+      "output_filename": "1015-story-physics.mp4",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "id": "movie",
+      "tag": "BADLY DESCRIBED MOVIE PLOT",
+      "hook": "Plot explained badly.",
+      "question": "Lost fish. Worried dad. An ocean-sized search.",
+      "choices": [
+        "Finding Nemo",
+        "Finding Dory"
+      ],
+      "answer": "Finding Nemo (2003).",
+      "detail": "Original riddle. No film footage.",
+      "cta": "Try eight animated plots",
+      "route": "/trivia/movies/plots-animated/",
+      "source": "https://www.pixar.com/finding-nemo",
+      "caption": "Lost fish. Worried dad. An ocean-sized search. Name the movie before the reveal, then try eight deliberately unhelpful animated-film plot summaries. Original riddle and AI reef visualization; no film footage, posters, music or character designs. Factual premise: Pixar/Disney official synopsis. https://typologyquiz.com/trivia/movies/plots-animated/ #MovieQuiz #Trivia #TypologyQuiz",
+      "video_id": "6d03e70b61ad424a8abf3fafba9dc8ad",
+      "raw_filename": "movie-raw.mp4",
+      "output_filename": "1015-story-movie.mp4",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "publication": {
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    }
+  ]
+}
