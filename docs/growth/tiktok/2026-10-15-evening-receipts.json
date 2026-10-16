@@ -1,0 +1,365 @@
+{
+  "observed_at": "2026-10-16T03:00:14.022Z",
+  "account": "@typologyquiz",
+  "timezone": "America/Edmonton",
+  "review": {
+    "reviewed_at": "2026-10-16T03:00:14.022Z",
+    "phase": "evening",
+    "account_verified": "@typologyquiz",
+    "window": "Studio Last 7 days; chart October 8–14, 2026",
+    "account_metrics": {
+      "video_views": null,
+      "video_views_display": "1.4K",
+      "profile_views": 16,
+      "likes": 14,
+      "comments": null,
+      "shares": 1,
+      "average_watch_time_seconds": null,
+      "completion_rate_percent": null,
+      "saves": null,
+      "website_quiz_starts": null
+    },
+    "traffic_sources": {
+      "for_you_percent": 93.8,
+      "search_percent": 3.6,
+      "personal_profile_percent": 2.6,
+      "following_percent": 0,
+      "sound_percent": 0
+    },
+    "search_queries": [
+      {
+        "query": "class 7",
+        "percent": 2.6
+      },
+      {
+        "query": "k periodic table",
+        "percent": 2.6
+      },
+      {
+        "query": "symbols of k",
+        "percent": 2.6
+      },
+      {
+        "query": "periodic table typology",
+        "percent": 2.6
+      },
+      {
+        "query": "potassium the numbers",
+        "percent": 2.6
+      }
+    ],
+    "queue_dates": {
+      "2026-10-16": 3,
+      "2026-10-17": 3,
+      "2026-10-18": 3,
+      "2026-10-19": 3,
+      "2026-10-20": 3,
+      "2026-10-21": 3,
+      "2026-10-22": 3
+    },
+    "queue_reconciliation": "October 15 all three due posts published; October 16–22 exactly three existing Everyone rows daily, no future conflicts. Seven new visual videos remain prepared_local_only.",
+    "published_metrics": {
+      "1014-ab-school-zone": {
+        "views": 116,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-16T03:00:14.022Z"
+      },
+      "1015-ab-right-red": {
+        "views": 117,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-16T03:00:14.022Z"
+      },
+      "1016-ab-clear-intersection": {
+        "views": 110,
+        "likes": 1,
+        "comments": 0,
+        "observed_at": "2026-10-16T03:00:14.022Z"
+      },
+      "0923-02": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-16T03:00:14.022Z"
+      },
+      "0923-03": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-16T03:00:14.022Z"
+      },
+      "0923-04": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-16T03:00:14.022Z"
+      }
+    },
+    "comment_review": "Visible list unchanged: old creator links and month-old short answers/feedback. No new genuine question observed; no interaction performed.",
+    "replacement_blocker": "Native app access now reports Mac locked; desktop commercial-content edit/removal limitation remains documented. Exact batch confirmation unanswered; October15 18:30 proposed slot expired with original published. No old/new post deleted or scheduled.",
+    "local_file_checks": {
+      "new_visual_assets": 7,
+      "all_hashes_match": true,
+      "cta_routes": 5,
+      "all_http_200": true
+    },
+    "actions": {
+      "uploads": 0,
+      "new_schedules": 0,
+      "edits": 0,
+      "deletions": 0,
+      "replies": 0
+    },
+    "interpretation": "Rounded moving-window metrics are not a controlled comparison. Three-slot test began October12; no seven-day cadence conclusion or qualified website conversion claim.",
+    "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md"
+  },
+  "posts": [
+    {
+      "id": "0923-06",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608838367595794",
+      "caption": "Which country has the capital Bern? Switzerland / Austria — Answer: Switzerland. Bern is Switzerland’s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "local_time": "2026-10-16T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0923-07",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608898560036104",
+      "caption": "Japan’s capital: Tokyo or Kyoto? Tokyo / Kyoto — Answer: Tokyo. Tokyo is Japan’s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "local_time": "2026-10-16T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0923-08",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608980890029364",
+      "caption": "Brazil’s capital: Brasília or Rio? Brasília / Rio — Answer: Brasília. Brasília is Brazil’s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "local_time": "2026-10-16T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0923-09",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609079418359048",
+      "caption": "Kenya’s capital: Nairobi or Mombasa? Nairobi / Mombasa — Answer: Nairobi. Nairobi is Kenya’s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "local_time": "2026-10-17T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0923-10",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609175061138706",
+      "caption": "Canada’s capital: Ottawa or Toronto? Ottawa / Toronto — Answer: Ottawa. Ottawa is Canada’s capital. Name countries around the world. https://typologyquiz.com/trivia/countries-of-the-world/ #trivia #typologyquiz",
+      "local_time": "2026-10-17T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "1005-madrid",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609280732384520",
+      "caption": "MADRID → Spain. Can you name the country? Try this quick geography quiz. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz",
+      "local_time": "2026-10-17T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "1006-li",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609361221111058",
+      "caption": "Li is lithium, element 3. Can you name the first 20 elements? https://typologyquiz.com/trivia/periodic-table-first-20/ #chemistry #quiz",
+      "local_time": "2026-10-18T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "1016-mini-ipip",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609455555185938",
+      "caption": "Free evening: familiar plan or something new? Reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #selfreflection #personality",
+      "local_time": "2026-10-18T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "1017-mini-ipip",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609541290986770",
+      "caption": "Free afternoon: revisit a hobby or try a new one? Reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #selfreflection #personality",
+      "local_time": "2026-10-18T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-01",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609896804322568",
+      "caption": "Na is the symbol for which element? Sodium / Nitrogen — Answer: Sodium. NIST lists sodium as Na, atomic number 11. Try the first 20 elements. https://typologyquiz.com/trivia/periodic-table-first-20/ #trivia #typologyquiz",
+      "local_time": "2026-10-19T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-02",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610001196354834",
+      "caption": "Atomic number 14: silicon or sulfur? Silicon / Sulfur — Answer: Silicon. The periodic table puts silicon at atomic number 14. Try the first 20 elements. https://typologyquiz.com/trivia/periodic-table-first-20/ #trivia #typologyquiz",
+      "local_time": "2026-10-19T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-03",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610081685032210",
+      "caption": "Which state has the capital Montpelier? Vermont / New Hampshire — Answer: Vermont. Montpelier is Vermont’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "local_time": "2026-10-19T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-04",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610194528718087",
+      "caption": "Which state has the capital Cheyenne? Wyoming / Colorado — Answer: Wyoming. Cheyenne is Wyoming’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "local_time": "2026-10-20T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-05",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610288137047304",
+      "caption": "Dover is the capital of which state? Delaware / Maryland — Answer: Delaware. Dover is Delaware’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "local_time": "2026-10-20T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-06",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610345355857170",
+      "caption": "Madison is the capital of which state? Wisconsin / Minnesota — Answer: Wisconsin. Madison is Wisconsin’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "local_time": "2026-10-20T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-07",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610484921257223",
+      "caption": "Olympia is the capital of which state? Washington / Oregon — Answer: Washington. Olympia is Washington’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "local_time": "2026-10-21T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-08",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610547177393426",
+      "caption": "How many planets orbit the Sun? 8 / 9 — Answer: 8. NASA counts eight planets in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "local_time": "2026-10-21T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-09",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610647685369096",
+      "caption": "Which planet has liquid water at its surface? Earth / Venus — Answer: Earth. NASA says Earth is the only planet found with liquid water at its surface. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "local_time": "2026-10-21T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0922-10",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610816069979399",
+      "caption": "The Sun is closest to which kind of object? A star / A planet — Answer: A star. The Sun is the only star in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "local_time": "2026-10-22T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "0923-05",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695611686681693447",
+      "caption": "Hungary’s capital: Budapest or Bucharest? Budapest / Bucharest — Answer: Budapest. Budapest is Hungary’s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "local_time": "2026-10-22T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "1004-lisbon",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695611783695912199",
+      "caption": "Which country has Lisbon as its capital? Portugal. A quick geography quiz for curious minds. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz",
+      "local_time": "2026-10-22T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "scheduled_confirmed"
+    },
+    {
+      "id": "1014-ab-school-zone",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695557062603902226",
+      "caption": "Alberta Class 7 quick check: the school-zone limit is 30 km/h unless otherwise posted. Check the local sign and its times, which can vary by municipality. Practice: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #RoadSafety",
+      "local_time": "2026-10-14T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "published_confirmed",
+      "metrics": {
+        "views": 116,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1015-ab-right-red",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608217652546824",
+      "caption": "Alberta Class 7 quick check: a right turn on red can be permitted after a complete stop, unless a sign prohibits it, and only after yielding to pedestrians and traffic. Practice: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #RoadRules",
+      "local_time": "2026-10-14T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "published_confirmed",
+      "metrics": {
+        "views": 117,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1016-ab-clear-intersection",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608343456484626",
+      "caption": "Alberta Class 7 quick check: a green light does not mean enter a blocked intersection. Wait until you can clear it completely. Practice with official-guide-linked explanations: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #DrivingTest",
+      "local_time": "2026-10-14T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "published_confirmed",
+      "metrics": {
+        "views": 110,
+        "likes": 1,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-02",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608514143685895",
+      "caption": "Croatia’s capital: Zagreb or Sarajevo? Zagreb / Sarajevo — Answer: Zagreb. Zagreb is Croatia’s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "local_time": "2026-10-15T10:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "published_confirmed",
+      "metrics": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-03",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608625053617426",
+      "caption": "Slovakia’s capital: Bratislava or Ljubljana? Bratislava / Ljubljana — Answer: Bratislava. Bratislava is Slovakia’s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "local_time": "2026-10-15T14:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "published_confirmed",
+      "metrics": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-04",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608708134456584",
+      "caption": "Portugal’s capital: Lisbon or Porto? Lisbon / Porto — Answer: Lisbon. Lisbon is Portugal’s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "local_time": "2026-10-15T18:30:00-06:00",
+      "visibility": "Everyone",
+      "status": "published_confirmed",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    }
+  ]
+}
