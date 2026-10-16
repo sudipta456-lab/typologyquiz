@@ -2,7 +2,7 @@
   "owner_preference": "Prioritize new videos; replace older queued clips",
   "account": "@typologyquiz",
   "timezone": "America/Edmonton",
-  "state": "not_applied_requires_revised_plan",
+  "state": "approved_future_replacements_in_progress",
   "do_not_upload_into_occupied_slots": true,
   "replacements": [
     {
@@ -26,8 +26,11 @@
       "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-alien-crew.mp4",
       "new_caption": "Every sci-fi crew needs a different kind of mind. Investigator, diplomat, practical planner, systems thinker, or quiet observer? Adapted from the expedition-role question in our illustrated alien quiz. Fictional, just for fun—not a personality diagnosis or a claim about real aliens. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
       "new_sha256": "e10be917dc6d1d384d1d39245c3a263e6ad98971fb2ce217238779c86f8b075a",
-      "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false
+      "status": "replacement_scheduled_confirmed",
+      "replacement_confirmed": true,
+      "action_confirmation": "approved_for_existing_exact_future_slot",
+      "new_url": "https://www.tiktok.com/@typologyquiz/video/7697097958235360528",
+      "verified_at": "2026-10-16T03:12:25.981Z"
     },
     {
       "old_id": "0923-07",
@@ -38,8 +41,11 @@
       "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-following-gap.mp4",
       "new_caption": "Normal, dry conditions: what minimum following gap should a car leave? Choose before the reveal. Alberta Class 7 practice for normal, dry conditions; the video explains the answer and when to leave more space. Original AI illustration, not a measured-gap demonstration. Unofficial practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
       "new_sha256": "dc4673d121bf14d147ab63771a3443b0a81c546ca7b67668df25c6514766c355",
-      "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false
+      "status": "replacement_scheduled_confirmed",
+      "replacement_confirmed": true,
+      "action_confirmation": "approved_for_existing_exact_future_slot",
+      "new_url": "https://www.tiktok.com/@typologyquiz/video/7697098753542573330",
+      "verified_at": "2026-10-16T03:15:08.947Z"
     },
     {
       "old_id": "0923-08",
@@ -50,8 +56,11 @@
       "new_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-element-fe.mp4",
       "new_caption": "Two letters: Fe. Which element is it? Choose before the reveal, then try our visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ The cube is an original AI illustration, not a photograph. Source: Royal Society of Chemistry. #ChemistryQuiz #PeriodicTable #TypologyQuiz",
       "new_sha256": "564a63475e86b6159483acad068b64baf89361432d4ed6adec4fc9c91d173f46",
-      "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false
+      "status": "replacement_scheduled_confirmed",
+      "replacement_confirmed": true,
+      "action_confirmation": "approved_for_existing_exact_future_slot",
+      "new_url": "https://www.tiktok.com/@typologyquiz/video/7697099657301839112",
+      "verified_at": "2026-10-16T03:18:44.183Z"
     },
     {
       "old_id": "0923-09",
@@ -63,7 +72,8 @@
       "new_caption": "Wet road. Suddenly light steering. What would you do? Pick A or B before the reveal, then read the explanation. Original AI wet-weather illustration, not real footage or a technical tire diagram. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
       "new_sha256": "5c229d62b4afdfddcdd1029565e93ad4b44b9077b6d249a8307e36d0e8cd7082",
       "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false
+      "replacement_confirmed": false,
+      "action_confirmation": "approved_for_existing_exact_future_slot"
     },
     {
       "old_id": "0923-10",
@@ -75,7 +85,8 @@
       "new_caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Choose before the reveal. We used the same state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
       "new_sha256": "23c97fc65533af767dfa56b4906ac3cda081656d8206a514c855326331790183",
       "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false
+      "replacement_confirmed": false,
+      "action_confirmation": "approved_for_existing_exact_future_slot"
     },
     {
       "old_id": "1005-madrid",
@@ -87,11 +98,30 @@
       "new_caption": "Uphill, a curb, and parked on the right: which way should the front wheels point? Choose before the reveal. The video explains the answer for that exact situation. Original AI showroom illustration, not a maneuver demonstration. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #ParkingQuiz #TypologyQuiz",
       "new_sha256": "e19ee2f91fdb867e275be4786ea3a622b20fef6624689f9bb2120f9fabacbcf2",
       "status": "proposed_only_pending_native_queue_cleanup",
-      "replacement_confirmed": false
+      "replacement_confirmed": false,
+      "action_confirmation": "approved_for_existing_exact_future_slot"
     }
   ],
   "latest_review": {
-    "observed_at": "2026-10-16T03:00:14.022Z",
-    "reason": "First proposed slot elapsed; original Portugal post is published. Do not delete a published post under a future-schedule replacement plan. Remaining proposed slots still occupied; final confirmation remains pending."
-  }
+    "observed_at": "2026-10-16T03:20:20.131Z",
+    "reason": "Three October16 new videos Studio-confirmed. Three October17 replacements remain approved but pending native queue cleanup. First October15 introduction slot elapsed with original published; retain published original."
+  },
+  "owner_action_confirmation": {
+    "received_at": "2026-10-16T03:08:19.875Z",
+    "answer": "Approve all seven replacements",
+    "scope": "Six still-future exact caption/slot replacements for October16–17 may proceed without another approval. October15Portugal original already published; retain it. Approval does not extend to deleting that published post or selecting a new introduction slot."
+  },
+  "pending_composer": {
+    "new_id": "1015-drive-rain-recovery",
+    "state": "uploaded_unsaved_composer_not_scheduled",
+    "date": "2026-10-17",
+    "time": "10:30",
+    "visibility": "Everyone",
+    "brand_disclosure": true,
+    "ai_label": true,
+    "schedule_submitted": false,
+    "old_post_removed": false,
+    "resume_existing_composer": true
+  },
+  "current_blocker": "iPhone Mirroring disconnected: iPhone in Use / Lock your iPhone to connect. Reconnect waiting for phone lock; three Oct17 originals remain queued. Approval remains valid for the same exact future slots."
 }
