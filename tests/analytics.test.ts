@@ -265,3 +265,44 @@ test("blocked or unavailable referral storage never blocks current known attribu
     assert.equal(resolveReferral("https://unknown.test/", storage, 102), "");
   }
 });
+
+test("TikTok and Geographical Association referrals accept only exact apex/www hosts as fixed referral constants", () => {
+  for (const host of ["tiktok.com", "geography.org.uk"]) {
+    for (const prefix of ["", "www."]) {
+      const fields = safeAcquisition(`https://${prefix}${host}/private-path?note=SECRET#SECRET`);
+      assert.equal(fields.campaign_source, host);
+      assert.equal(fields.campaign_medium, "referral");
+      assert.equal(fields.page_referrer, `https://${host}/`);
+      assert.ok(!JSON.stringify(fields).includes("SECRET"));
+    }
+    for (const untrusted of [`https://${host}.evil.test/`, `https://evil-${host}/`, `https://evil${host}/`, `https://subdomain.${host}/`, `https://${host}@evil.test/`,
+      `http://${host}/`, `http://www.${host}/`, `https://user@${host}/`, `https://user:pw@www.${host}/`, `https://${host}:444/`, `https://www.${host}:8443/`]) {
+      assert.equal(safeAcquisition(untrusted).page_referrer, "", untrusted);
+      assert.equal(safeAcquisition(untrusted).campaign_source, "unattributed", untrusted);
+    }
+  }
+  for (const untrusted of ["https://m.tiktok.com/", "https://vm.tiktok.com/ZM123/", "https://vt.tiktok.com/ZS123/", "https://tiktok.org.uk/",
+    "https://org.uk/", "https://www.org.uk/", "https://ga.geography.org.uk/", "https://members.geography.org.uk/", "https://geography.org/"]) {
+    assert.equal(safeAcquisition(untrusted).page_referrer, "", untrusted);
+    assert.equal(safeAcquisition(untrusted).campaign_source, "unattributed", untrusted);
+  }
+});
+
+test("TikTok and Geographical Association attribution survives same-site navigation for a fixed 30 minutes with apex source only", () => {
+  for (const host of ["tiktok.com", "geography.org.uk"]) {
+    for (const prefix of ["", "www."]) {
+      const storage = referralStore();
+      assert.equal(resolveReferral(`https://${prefix}${host}/x?q=SECRET`, storage, 1000), `https://${host}/`);
+      assert.deepEqual(JSON.parse(storage.value()!), { schema: 1, source: host, acquiredAt: 1000 });
+      assert.equal(resolveReferral("https://typologyquiz.com/tests/", storage, 1001), `https://${host}/`);
+      assert.equal(resolveReferral("https://www.typologyquiz.com/tests/", storage, 1002), `https://${host}/`);
+      assert.equal(JSON.parse(storage.value()!).acquiredAt, 1000, "TTL must not slide");
+      assert.equal(resolveReferral("https://typologyquiz.com/tests/", storage, 1000 + ANALYTICS_REFERRAL_TTL_MS - 1), `https://${host}/`);
+      assert.equal(resolveReferral("https://typologyquiz.com/tests/", storage, 1000 + ANALYTICS_REFERRAL_TTL_MS), "");
+      assert.equal(storage.value(), null);
+    }
+    const injected = referralStore(JSON.stringify({ schema: 1, source: `www.${host}`, acquiredAt: 100 }));
+    assert.equal(resolveReferral("https://typologyquiz.com/tests/", injected, 200), "");
+    assert.equal(injected.value(), null);
+  }
+});

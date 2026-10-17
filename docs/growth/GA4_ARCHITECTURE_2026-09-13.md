@@ -69,7 +69,7 @@ Use a fresh QA browser profile/session to avoid exporting unrelated cookies or p
 If a sentinel leaks or additional destinations receive unsanitized events, turn the activation flag off and rebuild before continuing. Keep the loader disabled until the third-party behavior has been verified. The unit tests prove first-party queue contracts, not everything performed by Google's downloaded library.
 
 
-The fixed referral table also includes the five verified outreach prospects, accepting exact apex and www hosts only: becomingsigma.com, socialpsychology.org, personalitypedagogy.net, reflectinginward.org, and simplythebestresults.com. Their medium is `referral`; paths/query/hash are discarded and lookalike/subdomain hosts do not match. Referral counts still do not prove that outreach caused a visit.
+The fixed referral table also includes six publisher domains plus TikTok, accepting exact apex and www hosts only: becomingsigma.com, socialpsychology.org, personalitypedagogy.net, reflectinginward.org, simplythebestresults.com, and geography.org.uk (the original five were the first verified outreach prospects), plus tiktok.com. Their medium is `referral`; source and origin are the canonical apex; paths/query/hash are discarded and lookalike/subdomain hosts (for example m.tiktok.com or vm.tiktok.com) do not match. Unit tests cover these entries; no actual GA receipt of any of these referrals is claimed. Referral counts still do not prove that outreach caused a visit.
 
 
 ## Final review corrections
