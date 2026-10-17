@@ -1,0 +1,653 @@
+{
+  "observed_at": "2026-10-17T03:08:17.589Z",
+  "account": "@typologyquiz",
+  "timezone": "America/Edmonton",
+  "method": "Studio reloaded; Profile menu exact @typologyquiz. Overlapping visible scroll passes. Actual SVG inside timestamp distinguishes scheduled clock; generic FlexCenter marker alone is not status evidence.",
+  "future": [
+    {
+      "id": "1016-mini-ipip",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609455555185938",
+      "publish_at": "2026-10-18T14:30:00-06:00",
+      "caption": "Free evening: familiar plan or something new? Reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #selfreflection #personality",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "1017-mini-ipip",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609541290986770",
+      "publish_at": "2026-10-18T18:30:00-06:00",
+      "caption": "Free afternoon: revisit a hobby or try a new one? Reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #selfreflection #personality",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-01",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695609896804322568",
+      "publish_at": "2026-10-19T10:30:00-06:00",
+      "caption": "Na is the symbol for which element? Sodium / Nitrogen — Answer: Sodium. NIST lists sodium as Na, atomic number 11. Try the first 20 elements. https://typologyquiz.com/trivia/periodic-table-first-20/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-02",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610001196354834",
+      "publish_at": "2026-10-19T14:30:00-06:00",
+      "caption": "Atomic number 14: silicon or sulfur? Silicon / Sulfur — Answer: Silicon. The periodic table puts silicon at atomic number 14. Try the first 20 elements. https://typologyquiz.com/trivia/periodic-table-first-20/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-03",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610081685032210",
+      "publish_at": "2026-10-19T18:30:00-06:00",
+      "caption": "Which state has the capital Montpelier? Vermont / New Hampshire — Answer: Vermont. Montpelier is Vermont’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-04",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610194528718087",
+      "publish_at": "2026-10-20T10:30:00-06:00",
+      "caption": "Which state has the capital Cheyenne? Wyoming / Colorado — Answer: Wyoming. Cheyenne is Wyoming’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-05",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610288137047304",
+      "publish_at": "2026-10-20T14:30:00-06:00",
+      "caption": "Dover is the capital of which state? Delaware / Maryland — Answer: Delaware. Dover is Delaware’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-06",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610345355857170",
+      "publish_at": "2026-10-20T18:30:00-06:00",
+      "caption": "Madison is the capital of which state? Wisconsin / Minnesota — Answer: Wisconsin. Madison is Wisconsin’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-07",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610484921257223",
+      "publish_at": "2026-10-21T10:30:00-06:00",
+      "caption": "Olympia is the capital of which state? Washington / Oregon — Answer: Washington. Olympia is Washington’s capital. Name all 50 US state capitals. https://typologyquiz.com/trivia/us-state-capitals/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-08",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610547177393426",
+      "publish_at": "2026-10-21T14:30:00-06:00",
+      "caption": "How many planets orbit the Sun? 8 / 9 — Answer: 8. NASA counts eight planets in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-09",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610647685369096",
+      "publish_at": "2026-10-21T18:30:00-06:00",
+      "caption": "Which planet has liquid water at its surface? Earth / Venus — Answer: Earth. NASA says Earth is the only planet found with liquid water at its surface. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0922-10",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695610816069979399",
+      "publish_at": "2026-10-22T10:30:00-06:00",
+      "caption": "The Sun is closest to which kind of object? A star / A planet — Answer: A star. The Sun is the only star in our solar system. Name the planets in 30 seconds. https://typologyquiz.com/trivia/planets/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "0923-05",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695611686681693447",
+      "publish_at": "2026-10-22T14:30:00-06:00",
+      "caption": "Hungary’s capital: Budapest or Bucharest? Budapest / Bucharest — Answer: Budapest. Budapest is Hungary’s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "1004-lisbon",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695611783695912199",
+      "publish_at": "2026-10-22T18:30:00-06:00",
+      "caption": "Which country has Lisbon as its capital? Portugal. A quick geography quiz for curious minds. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "1015-image-state-shape",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697103279875984656",
+      "publish_at": "2026-10-17T14:30:00-06:00",
+      "caption": "One state outline, four suspects: Utah, Wyoming, Nevada, or Colorado? Choose before the reveal. We used the same state geometry as our fill-the-map quiz. Try the full map: https://typologyquiz.com/trivia/us-states/ #GeographyQuiz #MapQuiz #TypologyQuiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "1015-drive-rain-recovery",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697102992910142728",
+      "publish_at": "2026-10-17T10:30:00-06:00",
+      "caption": "Wet road. Suddenly light steering. What would you do? Pick A or B before the reveal, then read the explanation. Original AI wet-weather illustration, not real footage or a technical tire diagram. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "1015-drive-uphill-curb",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697103539490917639",
+      "publish_at": "2026-10-17T18:30:00-06:00",
+      "caption": "Uphill, a curb, and parked on the right: which way should the front wheels point? Choose before the reveal. The video explains the answer for that exact situation. Original AI showroom illustration, not a maneuver demonstration. Unofficial Alberta Class 7 practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #ParkingQuiz #TypologyQuiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    },
+    {
+      "id": "1015-drive-practice-intro",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697110808035151112",
+      "publish_at": "2026-10-18T10:30:00-06:00",
+      "caption": "Preparing for a learner’s knowledge test? TypologyQuiz has free driving-practice quizzes, too. Choose your province or state and practise road signs, right of way, parking and road-safety questions, with answer explanations. Original AI illustration. Unofficial practice, not a government exam or a substitute for your official handbook. https://typologyquiz.com/driving/ #DrivingTest #LearnerDriver #DrivingQuiz #TypologyQuiz",
+      "status": "scheduled_confirmed",
+      "scheduled_clock": true,
+      "visibility": "Everyone",
+      "caption_match": "case_whitespace_normalized",
+      "disclosures": "Original brand/applicable AI receipt retained; toggles not exposed in Posts list."
+    }
+  ],
+  "published": [
+    {
+      "id": "1015-image-element-fe",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697099657301839112",
+      "caption": "Two letters: Fe. Which element is it? Choose before the reveal, then try our visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ The cube is an original AI illustration, not a photograph. Source: Royal Society of Chemistry. #ChemistryQuiz #PeriodicTable #TypologyQuiz",
+      "displayed_local_time": "2026-10-16T18:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1015-drive-following-gap",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697098753542573330",
+      "caption": "Normal, dry conditions: what minimum following gap should a car leave? Choose before the reveal. Alberta Class 7 practice for normal, dry conditions; the video explains the answer and when to leave more space. Original AI illustration, not a measured-gap demonstration. Unofficial practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver’s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
+      "displayed_local_time": "2026-10-16T14:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1015-image-alien-crew",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697097958235360528",
+      "caption": "Every sci-fi crew needs a different kind of mind. Investigator, diplomat, practical planner, systems thinker, or quiet observer? Adapted from the expedition-role question in our illustrated alien quiz. Fictional, just for fun—not a personality diagnosis or a claim about real aliens. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
+      "displayed_local_time": "2026-10-16T10:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-04",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608708134456584",
+      "caption": "Portugal’s capital: Lisbon or Porto? Lisbon / Porto — Answer: Lisbon. Lisbon is Portugal’s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "displayed_local_time": "2026-10-15T18:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 3,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-03",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608625053617426",
+      "caption": "Slovakia’s capital: Bratislava or Ljubljana? Bratislava / Ljubljana — Answer: Bratislava. Bratislava is Slovakia’s capital. Find countries on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "displayed_local_time": "2026-10-15T14:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-02",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608514143685895",
+      "caption": "Croatia’s capital: Zagreb or Sarajevo? Zagreb / Sarajevo — Answer: Zagreb. Zagreb is Croatia’s capital. Name the countries of Europe. https://typologyquiz.com/trivia/countries-of-europe/ #trivia #typologyquiz",
+      "displayed_local_time": "2026-10-15T10:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1009-budapest",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695556528098528530",
+      "caption": "Budapest is the capital of Hungary. Identify the country from the capital clue. https://typologyquiz.com/trivia/countries-of-europe/ #geography #quiz",
+      "displayed_local_time": "2026-10-13T14:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 96,
+        "likes": 1,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1012-ab-yield",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695555673278532871",
+      "caption": "Alberta Class 7 quick check: a yield sign means give way and be ready to stop. With no traffic or pedestrians to yield to, you may proceed without a complete stop. Review the official-guide-linked practice sets: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #RoadRules",
+      "displayed_local_time": "2026-10-13T10:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 98,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1008-vienna",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695556364009098503",
+      "caption": "Vienna → Austria. Keep going with the European countries quiz: https://typologyquiz.com/trivia/countries-of-europe/ #GeographyQuiz #TypologyQuiz",
+      "displayed_local_time": "2026-10-12T18:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 133,
+        "likes": 1,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1002-news",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695555933560114439",
+      "caption": "ARCHIVE QUIZ — World News Quiz edition dated September 10, 2026. ESA/Hubble reported the newly observed 10-sided atmospheric wave at Saturn’s south pole on September 2. Which famous north-pole feature is its counterpart? Saturn’s hexagon. The source notes the patterns differ. Source: ESA/Hubble, https://esahubble.org/news/heic2612/ . This is an archived quiz, not today’s news. https://typologyquiz.com/trivia/news-world/ #newsquiz #space #typologyquiz",
+      "displayed_local_time": "2026-10-12T14:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 159,
+        "likes": 1,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-01",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695607349716716807",
+      "caption": "Slovenia’s capital: Ljubljana or Zagreb? Ljubljana / Zagreb — Answer: Ljubljana. Ljubljana is Slovenia’s capital. Find Slovenia on the Europe map. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #trivia #typologyquiz",
+      "displayed_local_time": "2026-10-12T10:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 102,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1011-ab-stop",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695554306103119112",
+      "caption": "Alberta Class 7 quick check: what does a red octagon require? A complete stop, then check for pedestrians and traffic. Practice with answer explanations linked to the official guide: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #DrivingTest",
+      "displayed_local_time": "2026-10-12T10:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 95,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1007-be",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7693772305608051976",
+      "caption": "Be is beryllium, atomic number 4. How far can you get through the first 20? https://typologyquiz.com/trivia/periodic-table-first-20/ #ChemistryQuiz #TypologyQuiz",
+      "displayed_local_time": "2026-10-07T12:45:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 240,
+        "likes": 5,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1016-ab-clear-intersection",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608343456484626",
+      "caption": "Alberta Class 7 quick check: a green light does not mean enter a blocked intersection. Wait until you can clear it completely. Practice with official-guide-linked explanations: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #DrivingTest",
+      "displayed_local_time": "2026-10-14T18:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 110,
+        "likes": 1,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1015-ab-right-red",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695608217652546824",
+      "caption": "Alberta Class 7 quick check: a right turn on red can be permitted after a complete stop, unless a sign prohibits it, and only after yielding to pedestrians and traffic. Practice: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #RoadRules",
+      "displayed_local_time": "2026-10-14T14:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 117,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1014-ab-school-zone",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695557062603902226",
+      "caption": "Alberta Class 7 quick check: the school-zone limit is 30 km/h unless otherwise posted. Check the local sign and its times, which can vary by municipality. Practice: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #RoadSafety",
+      "displayed_local_time": "2026-10-14T10:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 117,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1013-ab-stop-line",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695556626673159442",
+      "caption": "Alberta Class 7 quick check: at a solid red with a painted stop line, stop before the line. If there is no line, the next reference is the crosswalk. Practice with official-guide links: https://typologyquiz.com/driving/alberta/ #AlbertaDriving #Class7 #DrivingTest",
+      "displayed_local_time": "2026-10-13T18:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 114,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "1008-vienna-duplicate",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7695556195888794888",
+      "caption": "Vienna → Austria. Keep going with the European countries quiz: https://typologyquiz.com/trivia/countries-of-europe/ #GeographyQuiz #TypologyQuiz",
+      "displayed_local_time": "2026-10-12T18:30:00-06:00",
+      "status": "published_confirmed",
+      "scheduled_clock": false,
+      "visibility": "Everyone",
+      "metrics": {
+        "views": 124,
+        "likes": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "account_analytics": {
+    "reviewed_at": "2026-10-17T03:08:17.589Z",
+    "phase": "evening",
+    "account_verified": "@typologyquiz",
+    "window": "Studio Last 7 days; chart October 9–15, 2026",
+    "account_metrics": {
+      "video_views": null,
+      "video_views_display": "1.5K",
+      "profile_views": 20,
+      "likes": 8,
+      "comments": null,
+      "shares": 1,
+      "average_watch_time_seconds": null,
+      "completion_rate_percent": null,
+      "saves": null,
+      "website_quiz_starts": null
+    },
+    "traffic_sources": {
+      "for_you_percent": 94.9,
+      "search_percent": 2.6,
+      "personal_profile_percent": 2.5,
+      "following_percent": 0,
+      "sound_percent": 0
+    },
+    "search_queries": [
+      {
+        "query": "k sa periodic table",
+        "percent": 2.4
+      },
+      {
+        "query": "Kเท่ากับตัวอะไร",
+        "percent": 2.4
+      },
+      {
+        "query": "class 7",
+        "percent": 2.4
+      },
+      {
+        "query": "FULLSTOP(.)",
+        "percent": 2.4
+      },
+      {
+        "query": "typology questions",
+        "percent": 2.4
+      }
+    ],
+    "queue_dates": {
+      "2026-10-17": 3,
+      "2026-10-18": 3,
+      "2026-10-19": 3,
+      "2026-10-20": 3,
+      "2026-10-21": 3,
+      "2026-10-22": 3
+    },
+    "queue_reconciliation": "October16 three new clips published;18 future October17–22 rows match,three unique slots/day,Everyone,clock badges. October12 five-post historical conflict remains visible.",
+    "published_metrics": {
+      "1015-image-element-fe": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1015-drive-following-gap": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1015-image-alien-crew": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "0923-04": {
+        "views": 3,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "0923-03": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "0923-02": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1009-budapest": {
+        "views": 96,
+        "likes": 1,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1012-ab-yield": {
+        "views": 98,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1008-vienna": {
+        "views": 133,
+        "likes": 1,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1002-news": {
+        "views": 159,
+        "likes": 1,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "0923-01": {
+        "views": 102,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1011-ab-stop": {
+        "views": 95,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1007-be": {
+        "views": 240,
+        "likes": 5,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1016-ab-clear-intersection": {
+        "views": 110,
+        "likes": 1,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1015-ab-right-red": {
+        "views": 117,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1014-ab-school-zone": {
+        "views": 117,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1013-ab-stop-line": {
+        "views": 114,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "1008-vienna-duplicate": {
+        "views": 124,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      }
+    },
+    "comment_review": "Refreshed own-post list unchanged: old creator links and month-old short answers/feedback; no new actionable question or reply. No commenter details retained.",
+    "quality_backlog": "12 older future CTA-clipped originals remain scheduled; local repairs are not uploaded replacements. Seven native24 full-motion Stories remain prepared_local_only.",
+    "edit_control_observation": "Published alien web edit control displayed: Videos with commercial content can only be edited on the TikTok app. Supported iPhone Mirroring connection then stopped at iPhone in Use / Lock your iPhone to connect. No edits or removals.",
+    "actions": {
+      "uploads": 0,
+      "new_schedules": 0,
+      "edits": 0,
+      "deletions": 0,
+      "replies": 0
+    },
+    "interpretation": "Oct9–15 excludes today’s new clips. Rounded account totals and differing post ages do not establish a format winner or best time. Today’s displayed zeros are observed counters, not proof of delivery failure. Fewer than seven complete local cadence dates.",
+    "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+    "native_replacement_access": {
+      "checked_at": "2026-10-17T03:10:29.321Z",
+      "surface": "iPhone Mirroring",
+      "visible_blocker": "iPhone in Use — Lock your iPhone to connect. iPhone Mirroring will connect when iPhone is no longer in use.",
+      "action": "Supported Connect attempted once; no device setting, security change, or TikTok action.",
+      "next_step": "Owner asked to lock the phone; wait for native access and verify exact @typologyquiz identity before any account action. Twelve scheduled-post deletions still require action-time confirmation."
+    },
+    "remaining_repair_plan": "docs/growth/tiktok/2026-10-16-remaining-repair-plan.json"
+  },
+  "actions": {
+    "uploads": 0,
+    "new_schedules": 0,
+    "edits": 0,
+    "deletions": 0,
+    "replies": 0
+  }
+}

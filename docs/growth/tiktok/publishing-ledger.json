@@ -420,6 +420,192 @@
       },
       "interpretation": "Cadence test began October12; fewer than seven complete local dates. No cadence change or qualified website conversion established.",
       "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+    },
+    {
+      "reviewed_at": "2026-10-17T03:08:17.589Z",
+      "phase": "evening",
+      "account_verified": "@typologyquiz",
+      "window": "Studio Last 7 days; chart October 9\u201315, 2026",
+      "account_metrics": {
+        "video_views": null,
+        "video_views_display": "1.5K",
+        "profile_views": 20,
+        "likes": 8,
+        "comments": null,
+        "shares": 1,
+        "average_watch_time_seconds": null,
+        "completion_rate_percent": null,
+        "saves": null,
+        "website_quiz_starts": null
+      },
+      "traffic_sources": {
+        "for_you_percent": 94.9,
+        "search_percent": 2.6,
+        "personal_profile_percent": 2.5,
+        "following_percent": 0,
+        "sound_percent": 0
+      },
+      "search_queries": [
+        {
+          "query": "k sa periodic table",
+          "percent": 2.4
+        },
+        {
+          "query": "K\u0e40\u0e17\u0e48\u0e32\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e27\u0e2d\u0e30\u0e44\u0e23",
+          "percent": 2.4
+        },
+        {
+          "query": "class 7",
+          "percent": 2.4
+        },
+        {
+          "query": "FULLSTOP(.)",
+          "percent": 2.4
+        },
+        {
+          "query": "typology questions",
+          "percent": 2.4
+        }
+      ],
+      "queue_dates": {
+        "2026-10-17": 3,
+        "2026-10-18": 3,
+        "2026-10-19": 3,
+        "2026-10-20": 3,
+        "2026-10-21": 3,
+        "2026-10-22": 3
+      },
+      "queue_reconciliation": "October16 three new clips published;18 future October17\u201322 rows match,three unique slots/day,Everyone,clock badges. October12 five-post historical conflict remains visible.",
+      "published_metrics": {
+        "1015-image-element-fe": {
+          "views": 0,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1015-drive-following-gap": {
+          "views": 0,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1015-image-alien-crew": {
+          "views": 0,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "0923-04": {
+          "views": 3,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "0923-03": {
+          "views": 2,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "0923-02": {
+          "views": 1,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1009-budapest": {
+          "views": 96,
+          "likes": 1,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1012-ab-yield": {
+          "views": 98,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1008-vienna": {
+          "views": 133,
+          "likes": 1,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1002-news": {
+          "views": 159,
+          "likes": 1,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "0923-01": {
+          "views": 102,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1011-ab-stop": {
+          "views": 95,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1007-be": {
+          "views": 240,
+          "likes": 5,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1016-ab-clear-intersection": {
+          "views": 110,
+          "likes": 1,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1015-ab-right-red": {
+          "views": 117,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1014-ab-school-zone": {
+          "views": 117,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1013-ab-stop-line": {
+          "views": 114,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        },
+        "1008-vienna-duplicate": {
+          "views": 124,
+          "likes": 0,
+          "comments": 0,
+          "observed_at": "2026-10-17T03:08:17.589Z"
+        }
+      },
+      "comment_review": "Refreshed own-post list unchanged: old creator links and month-old short answers/feedback; no new actionable question or reply. No commenter details retained.",
+      "quality_backlog": "12 older future CTA-clipped originals remain scheduled; local repairs are not uploaded replacements. Seven native24 full-motion Stories remain prepared_local_only.",
+      "edit_control_observation": "Published alien web edit control displayed: Videos with commercial content can only be edited on the TikTok app. Supported iPhone Mirroring connection then stopped at iPhone in Use / Lock your iPhone to connect. No edits or removals.",
+      "actions": {
+        "uploads": 0,
+        "new_schedules": 0,
+        "edits": 0,
+        "deletions": 0,
+        "replies": 0
+      },
+      "interpretation": "Oct9\u201315 excludes today\u2019s new clips. Rounded account totals and differing post ages do not establish a format winner or best time. Today\u2019s displayed zeros are observed counters, not proof of delivery failure. Fewer than seven complete local cadence dates.",
+      "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+      "native_replacement_access": {
+        "checked_at": "2026-10-17T03:10:29.321Z",
+        "surface": "iPhone Mirroring",
+        "visible_blocker": "iPhone in Use \u2014 Lock your iPhone to connect. iPhone Mirroring will connect when iPhone is no longer in use.",
+        "action": "Supported Connect attempted once; no device setting, security change, or TikTok action.",
+        "next_step": "Owner asked to lock the phone; wait for native access and verify exact @typologyquiz identity before any account action. Twelve scheduled-post deletions still require action-time confirmation."
+      },
+      "remaining_repair_plan": "docs/growth/tiktok/2026-10-16-remaining-repair-plan.json"
     }
   ],
   "posts": [
@@ -775,9 +961,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-15T12:07:02.344Z",
-        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
-        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-07T12:45:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 240,
+          "likes": 5,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "latest_metrics": {
+        "views": 240,
+        "likes": 5,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -800,9 +1000,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-15T12:07:02.344Z",
-        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
-        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-12T10:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 95,
+          "likes": 0,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "latest_metrics": {
+        "views": 95,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -825,9 +1039,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-15T12:07:02.344Z",
-        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
-        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-12T14:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 159,
+          "likes": 1,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "latest_metrics": {
+        "views": 159,
+        "likes": 1,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -861,12 +1089,12 @@
           "verification": "TikTok Studio showed the duplicate as a published October 12 6:30 PM Everyone row after reload. Its commercial-content limitation still blocks web deletion."
         },
         "latest_observation": {
-          "observed_at": "2026-10-15T12:07:02.344Z",
+          "observed_at": "2026-10-17T03:08:17.589Z",
           "status": "published_confirmed",
-          "views": 123,
+          "views": 124,
           "likes": 0,
           "comments": 0,
-          "note": "Both Vienna rows remain visible. No deletion attempted or confirmed."
+          "note": "Both Vienna rows freshly visible; no deletion attempted."
         }
       },
       "metrics": {
@@ -876,9 +1104,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-15T12:07:02.344Z",
-        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
-        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-12T18:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 133,
+          "likes": 1,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "latest_metrics": {
+        "views": 133,
+        "likes": 1,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -903,9 +1145,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-15T12:07:02.344Z",
-        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
-        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-13T10:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 98,
+          "likes": 0,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "latest_metrics": {
+        "views": 98,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -930,9 +1186,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-15T12:07:02.344Z",
-        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
-        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-13T14:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 96,
+          "likes": 1,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "latest_metrics": {
+        "views": 96,
+        "likes": 1,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -957,9 +1227,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-15T12:07:02.344Z",
-        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
-        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-13T18:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 114,
+          "likes": 0,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "latest_metrics": {
+        "views": 114,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -983,21 +1267,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-16T03:00:14.022Z",
-        "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md",
-        "published_local_time": "2026-10-14T10:30:00-06:00",
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-14T10:30:00-06:00",
         "visibility": "Everyone",
+        "scheduled_clock": false,
         "metrics": {
-          "views": 116,
+          "views": 117,
           "likes": 0,
           "comments": 0
-        }
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
       },
       "latest_metrics": {
         "views": 117,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-16T12:03:49.780Z"
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -1021,21 +1307,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-16T03:00:14.022Z",
-        "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md",
-        "published_local_time": "2026-10-14T14:30:00-06:00",
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-14T14:30:00-06:00",
         "visibility": "Everyone",
+        "scheduled_clock": false,
         "metrics": {
           "views": 117,
           "likes": 0,
           "comments": 0
-        }
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
       },
       "latest_metrics": {
         "views": 117,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-16T12:03:49.780Z"
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -1059,21 +1347,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-16T03:00:14.022Z",
-        "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md",
-        "published_local_time": "2026-10-14T18:30:00-06:00",
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-14T18:30:00-06:00",
         "visibility": "Everyone",
+        "scheduled_clock": false,
         "metrics": {
           "views": 110,
           "likes": 1,
           "comments": 0
-        }
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
       },
       "latest_metrics": {
         "views": 110,
         "likes": 1,
         "comments": 0,
-        "observed_at": "2026-10-16T12:03:49.780Z"
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -1120,21 +1410,23 @@
         "observed_at": "2026-10-16T03:00:14.022Z"
       },
       "latest_publication_verification": {
-        "observed_at": "2026-10-16T03:00:14.022Z",
-        "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md",
-        "published_local_time": "2026-10-15T10:30:00-06:00",
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-15T10:30:00-06:00",
         "visibility": "Everyone",
+        "scheduled_clock": false,
         "metrics": {
           "views": 1,
           "likes": 0,
           "comments": 0
-        }
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
       },
       "latest_metrics": {
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-16T12:03:49.780Z"
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -1181,21 +1473,23 @@
         "observed_at": "2026-10-16T03:00:14.022Z"
       },
       "latest_publication_verification": {
-        "observed_at": "2026-10-16T03:00:14.022Z",
-        "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md",
-        "published_local_time": "2026-10-15T14:30:00-06:00",
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-15T14:30:00-06:00",
         "visibility": "Everyone",
+        "scheduled_clock": false,
         "metrics": {
-          "views": 1,
+          "views": 2,
           "likes": 0,
           "comments": 0
-        }
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
       },
       "latest_metrics": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-16T12:03:49.780Z"
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -1242,21 +1536,23 @@
         "observed_at": "2026-10-16T03:00:14.022Z"
       },
       "latest_publication_verification": {
-        "observed_at": "2026-10-16T03:00:14.022Z",
-        "record": "docs/growth/tiktok/2026-10-15-evening-reconciliation.md",
-        "published_local_time": "2026-10-15T18:30:00-06:00",
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-15T18:30:00-06:00",
         "visibility": "Everyone",
+        "scheduled_clock": false,
         "metrics": {
-          "views": 0,
+          "views": 3,
           "likes": 0,
           "comments": 0
-        }
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
       },
       "latest_metrics": {
-        "views": 2,
+        "views": 3,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-16T12:03:49.780Z"
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -1559,12 +1855,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-18T14:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1593,12 +1889,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-18T18:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1627,12 +1923,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-19T10:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       }
     },
     {
@@ -1649,12 +1945,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-19T14:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       }
     },
     {
@@ -1671,12 +1967,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-19T18:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1705,12 +2001,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-20T10:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1739,12 +2035,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-20T14:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1773,12 +2069,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-20T18:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1807,12 +2103,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-21T10:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1841,12 +2137,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-21T14:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1875,12 +2171,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-21T18:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1909,12 +2205,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-22T10:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -1955,12 +2251,12 @@
         "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
       },
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-22T14:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       }
     },
     {
@@ -1977,12 +2273,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-22T18:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       },
       "quality_review": {
         "review_date": "2026-10-15",
@@ -2017,9 +2313,23 @@
       },
       "metrics_observed_at": "2026-10-15T12:07:02.344Z",
       "latest_publication_verification": {
-        "observed_at": "2026-10-15T12:07:02.344Z",
-        "method": "Reloaded Studio, matching permalink/caption, past timestamp without schedule badge, Everyone and displayed metrics.",
-        "record": "docs/growth/tiktok/2026-10-15-morning-reconciliation.md"
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-12T10:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 102,
+          "likes": 0,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "latest_metrics": {
+        "views": 102,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -2027,12 +2337,12 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-alien-crew.mp4",
       "caption": "Every sci-fi crew needs a different kind of mind. Investigator, diplomat, practical planner, systems thinker, or quiet observer? Adapted from the expedition-role question in our illustrated alien quiz. Fictional, just for fun\u2014not a personality diagnosis or a claim about real aliens. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
       "sha256": "e10be917dc6d1d384d1d39245c3a263e6ad98971fb2ce217238779c86f8b075a",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "publish_at": "2026-10-16T10:30:00-06:00",
       "url": "https://www.tiktok.com/@typologyquiz/video/7697097958235360528",
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-image-led-manifest.json",
-      "verification": "After native removal of the approved original, reloaded Studio visibly confirms exact caption, future Edmonton timestamp, Everyone and permalink. Your brand and applicable AI label selected before scheduling.",
+      "verification": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established.",
       "required_disclosures": [
         "Your brand / Promotional content",
         "AI-generated content"
@@ -2041,7 +2351,7 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "ai_label": true,
-      "verified_at": "2026-10-16T03:12:25.981Z",
+      "verified_at": "2026-10-17T03:08:17.589Z",
       "replaces": "0923-06",
       "latest_queue_verification": {
         "observed_at": "2026-10-16T12:03:49.780Z",
@@ -2050,6 +2360,31 @@
         "scheduled_local_time": "2026-10-16T10:30:00-06:00",
         "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
         "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+      },
+      "latest_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "latest_publication_verification": {
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-16T10:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 0,
+          "likes": 0,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -2073,12 +2408,12 @@
       "verified_at": "2026-10-16T03:32:17.566Z",
       "replaces": "0923-10",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-17T14:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       }
     },
     {
@@ -2086,12 +2421,12 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-image-led/1015-image-element-fe.mp4",
       "caption": "Two letters: Fe. Which element is it? Choose before the reveal, then try our visual periodic-table quiz: https://typologyquiz.com/trivia/periodic-table/ The cube is an original AI illustration, not a photograph. Source: Royal Society of Chemistry. #ChemistryQuiz #PeriodicTable #TypologyQuiz",
       "sha256": "564a63475e86b6159483acad068b64baf89361432d4ed6adec4fc9c91d173f46",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "publish_at": "2026-10-16T18:30:00-06:00",
       "url": "https://www.tiktok.com/@typologyquiz/video/7697099657301839112",
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-image-led-manifest.json",
-      "verification": "After native removal of the approved original, reloaded Studio visibly confirms exact caption, future Edmonton timestamp, Everyone and permalink. Your brand and applicable AI label selected before scheduling.",
+      "verification": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established.",
       "required_disclosures": [
         "Your brand / Promotional content",
         "AI-generated content"
@@ -2100,7 +2435,7 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "ai_label": true,
-      "verified_at": "2026-10-16T03:18:44.183Z",
+      "verified_at": "2026-10-17T03:08:17.589Z",
       "replaces": "0923-08",
       "latest_queue_verification": {
         "observed_at": "2026-10-16T12:03:49.780Z",
@@ -2109,6 +2444,31 @@
         "scheduled_local_time": "2026-10-16T18:30:00-06:00",
         "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
         "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+      },
+      "latest_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "latest_publication_verification": {
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-16T18:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 0,
+          "likes": 0,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -2116,12 +2476,12 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-driving-cinematic/1015-drive-following-gap.mp4",
       "caption": "Normal, dry conditions: what minimum following gap should a car leave? Choose before the reveal. Alberta Class 7 practice for normal, dry conditions; the video explains the answer and when to leave more space. Original AI illustration, not a measured-gap demonstration. Unofficial practice: https://typologyquiz.com/driving/alberta/ Source: Government of Alberta Driver\u2019s Guide. #AlbertaClass7 #DrivingQuiz #TypologyQuiz",
       "sha256": "dc4673d121bf14d147ab63771a3443b0a81c546ca7b67668df25c6514766c355",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "publish_at": "2026-10-16T14:30:00-06:00",
       "url": "https://www.tiktok.com/@typologyquiz/video/7697098753542573330",
       "prepared_local_date": "2026-10-15",
       "manifest": "docs/growth/tiktok/2026-10-15-driving-cinematic-manifest.json",
-      "verification": "After native removal of the approved original, reloaded Studio visibly confirms exact caption, future Edmonton timestamp, Everyone and permalink. Your brand and applicable AI label selected before scheduling.",
+      "verification": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established.",
       "required_disclosures": [
         "Your brand / Promotional content",
         "AI-generated content"
@@ -2130,7 +2490,7 @@
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "ai_label": true,
-      "verified_at": "2026-10-16T03:15:08.947Z",
+      "verified_at": "2026-10-17T03:08:17.589Z",
       "replaces": "0923-07",
       "latest_queue_verification": {
         "observed_at": "2026-10-16T12:03:49.780Z",
@@ -2139,6 +2499,31 @@
         "scheduled_local_time": "2026-10-16T14:30:00-06:00",
         "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
         "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+      },
+      "latest_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
+      },
+      "latest_publication_verification": {
+        "observed_at": "2026-10-17T03:08:17.589Z",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+        "displayed_local_time": "2026-10-16T14:30:00-06:00",
+        "visibility": "Everyone",
+        "scheduled_clock": false,
+        "metrics": {
+          "views": 0,
+          "likes": 0,
+          "comments": 0
+        },
+        "method": "Reloaded Studio: exact caption/permalink, past local time, Everyone, no actual scheduled-clock SVG and published controls. Exact release moment and logged-out playback not established."
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-17T03:08:17.589Z"
       }
     },
     {
@@ -2163,12 +2548,12 @@
       "verified_at": "2026-10-16T03:31:11.735Z",
       "replaces": "0923-09",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-17T10:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       }
     },
     {
@@ -2193,12 +2578,12 @@
       "verified_at": "2026-10-16T03:33:26.590Z",
       "replaces": "1005-madrid",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-17T18:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       }
     },
     {
@@ -2223,12 +2608,12 @@
       "verified_at": "2026-10-16T04:02:54.415Z",
       "replaces": "1006-li",
       "latest_queue_verification": {
-        "observed_at": "2026-10-16T12:03:49.780Z",
+        "observed_at": "2026-10-17T03:08:17.589Z",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-18T10:30:00-06:00",
-        "method": "Reloaded Studio Posts; overlapping visible scroll passes. Exact permalink, caption (case/whitespace normalized), future local timestamp and Everyone match.",
-        "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
+        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
       }
     },
     {
@@ -2407,7 +2792,22 @@
     ],
     "timezone": "America/Edmonton",
     "status": "scheduled_confirmed_with_two_existing_studio_conflicts",
-    "note": "The Studio queue was reloaded and each listed future row was observed after scheduling. Existing Vienna duplicate and the earlier Slovenia/stop same-slot conflict are recorded; web Studio blocked cleanup of commercial-content scheduled videos."
+    "note": "The Studio queue was reloaded and each listed future row was observed after scheduling. Existing Vienna duplicate and the earlier Slovenia/stop same-slot conflict are recorded; web Studio blocked cleanup of commercial-content scheduled videos.",
+    "latest_check": {
+      "reconciled_at": "2026-10-17T03:08:17.589Z",
+      "studio_account": "@typologyquiz",
+      "future_rows_confirmed": 18,
+      "receipt_window": "2026-10-17 through 2026-10-22 America/Edmonton",
+      "future_slot_conflicts": 0,
+      "october_16_published_confirmed": 3,
+      "preceding_scheduled_item": {
+        "url": "https://www.tiktok.com/@typologyquiz/video/7697099657301839112",
+        "status": "published_confirmed"
+      },
+      "historical_exception": "October12 two Vienna duplicate published rows and stop/Slovenia same-slot conflict freshly visible; five published rows that day. No removal or reposting.",
+      "quality_backlog_remaining_scheduled": 12,
+      "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
+    }
   },
   "queue_reconciliation": {
     "reconciled_at": "2026-10-11T21:30:00-06:00",
@@ -2417,19 +2817,19 @@
     "receipt_window": "2026-10-12 through 2026-10-22 America/Edmonton",
     "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots.",
     "latest_check": {
-      "reconciled_at": "2026-10-16T12:03:49.780Z",
+      "reconciled_at": "2026-10-17T03:08:17.589Z",
       "studio_account": "@typologyquiz",
-      "future_rows_confirmed": 21,
-      "receipt_window": "2026-10-16 through 2026-10-22 America/Edmonton",
+      "future_rows_confirmed": 18,
+      "receipt_window": "2026-10-17 through 2026-10-22 America/Edmonton",
       "future_slot_conflicts": 0,
-      "october_15_published_confirmed": 3,
+      "october_16_published_confirmed": 3,
       "preceding_scheduled_item": {
-        "url": "https://www.tiktok.com/@typologyquiz/video/7695608708134456584",
+        "url": "https://www.tiktok.com/@typologyquiz/video/7697099657301839112",
         "status": "published_confirmed"
       },
-      "historical_exception": "October12 known published conflicts not freshly rechecked or deleted in this run.",
+      "historical_exception": "October12 two Vienna duplicate published rows and stop/Slovenia same-slot conflict freshly visible; five published rows that day. No removal or reposting.",
       "quality_backlog_remaining_scheduled": 12,
-      "record": "docs/growth/tiktok/2026-10-16-morning-reconciliation.md"
+      "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
     }
   }
 }
