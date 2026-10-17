@@ -54,3 +54,45 @@ Local evidence: `/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/publish
 Publisher/community next step: wait for SciTech review or an actual reply; check the approved TypologyQuiz mailbox when it becomes accessible. No automated follow-up, alternate-sender message or duplicate resource submission. Continue matching specific educator needs rather than filling the three-contact cap. Website code, deployment, TikTok queue and credentials were unchanged.
 
 Dashboard: `publisher-relations Reviewed` — one invited STEM resource submission confirmed pending admin review; approved-mailbox reply audit unavailable; no placement, reply or qualified lead claimed.
+
+## Afternoon cycle — approximately 14:58–15:01 America/Edmonton
+
+**No additional external communication.** Today's recorded total remains one confirmed SciTech form submission pending admin review and zero emails. No newly verified reply, unsubscribe, opt-in inquiry, acceptance or public placement. Exact submitted copy in this cycle: none.
+
+### Mail access and duplicate protection
+
+Freshly opened https://mail.zohocloud.ca/zm/#search and checked the visible Mail Accounts selector. It offered only another business mailbox, with no approved TypologyQuiz mailbox. No message was opened or searched, no compose was started, and no account/settings/sign-out/authentication action was taken. Closed the temporary tab. Replies, Sent and unsubscribes remain **unavailable, not zero**. This is the same already recorded access blocker; no new authentication request was triggered.
+
+Reviewed the outreach ledger and today's morning receipt before screening another channel. SciTech must not be resubmitted or automatically followed up. The owner-sent GA inquiry, SPN submission and Personality Pedagogy correspondence remain protected against duplicate contact.
+
+### LiDA scope resolved through the browser
+
+Research-tool reads of https://www.rochester.edu/warner/lida/resources/ and https://www.rochester.edu/warner/lida/resources/submit-a-resource/ timed out. Normal Chrome navigation successfully displayed both pages. The submission introduction expressly describes sharing by **LiDA Community members**. The form was reached via its visible Submit Your Resource link; no fields were filled and no submission, registration or CAPTCHA action occurred. Our LiDA membership is not established. Exclude this as a current outreach destination rather than repeatedly treating a reachable form as eligibility. Temporary research tab closed.
+
+### astroEDU — clearer proposal process; draft only
+
+The current first-party page https://astroedu.iau.org/en/submission/ redirects to https://astroedu.iau.org/submission/ . It invites initial activity proposals by email to `astroedu@astro4edu.org`; suitable proposals are then asked to complete its activity template. It also states accepted activities use CC BY 4.0. This refines the older assumption that a full template must precede any editorial inquiry. It does **not** establish editorial interest or permission to license the entire TypologyQuiz site or third-party assets.
+
+https://typologyquiz.com/trivia/planets/ freshly returned HTTP 200; the registry confirms eight names in 30 seconds. https://science.nasa.gov/solar-system/planets/ supports the eight-planet answer set and Pluto's dwarf-planet distinction. NCGE's current search result still describes classroom-used resources; no classroom-use evidence exists for our proposed companion. No NCGE submission was attempted. Broad search results for competing quizzes, old forum requests and historic programme announcements did not establish another suitable new invitation.
+
+**Prepared editorial proposal, not composed or sent; recheck approved sender, live Sent/replies/unsubscribes and duplicate records before any send:**
+
+To: astroedu@astro4edu.org
+
+Subject: Activity proposal: recall planet names, then explain the categories
+
+Hello astroEDU Editorial Board,
+
+I'm Sudipta Sarkar, contacting you on behalf of TypologyQuiz. Your submission page invites an initial activity proposal before the full template, so I wanted to ask whether this proposed short facilitator-led activity could fit your collection.
+
+Learners would first recall planet names on paper, optionally try our 30-second browser round, then compare their lists with NASA's eight-planet list and explain why the Sun and Pluto belong in different categories. The browser warm-up is here: https://typologyquiz.com/trivia/planets/ . Paper answers and untimed discussion would remain available throughout; speed would not be used to assess understanding.
+
+This is a proposed extension of our recall quiz, not a completed or classroom-tested lesson. We would prepare the activity template, source-linked explanations, facilitator prompts and evaluation questions if it appears suitable for editorial review. No learning gains, standards alignment or endorsement are claimed.
+
+Would this scope be appropriate for an initial proposal?
+
+Sudipta Sarkar
+
+TypologyQuiz
+
+**Next step:** restore normal approved-mailbox access, audit replies and duplicates, then consider this single invited editorial proposal. Do not use another business sender, submit a bare quiz as a peer-reviewed lesson, claim membership, or interpret the three-contact cap as a quota. No website code, deployment, TikTok queue or credentials changed. Dashboard report distinguishes today's one pending-review submission from this unsent draft.
