@@ -2,11 +2,11 @@
   "prepared_at": "2026-10-17T03:09:44.454918+00:00",
   "account": "@typologyquiz",
   "timezone": "America/Edmonton",
-  "status": "prepared_not_applied_requires_native_access_and_action_time_deletion_confirmation",
+  "status": "native_ready_awaiting_action_time_confirmation",
   "changes": "Replace these12 future originals with their already-reviewed corrected exports in exactly the same slots; preserve local originals. No new daily slots or extra posts.",
   "current_studio_queue_receipt": "docs/growth/tiktok/2026-10-16-evening-receipts.json",
   "before_each_action": "Reload Studio, verify exact account/old post/time, confirm any irreversible deletion at action time, verify native removal before a single replacement upload, set required disclosures and Everyone, reload to confirm exact new caption/time/permalink. Never retry uncertain submission.",
-  "approval": "No new action-time deletion confirmation obtained for this batch. Prior seven-post approval is complete.",
+  "approval": "Exact twelve-item batch confirmation requested after native @typologyquiz identity and current 18-slot Studio reconciliation. No answer received yet; no deletion/upload performed.",
   "items": [
     {
       "old_id": "1016-mini-ipip",
@@ -178,10 +178,18 @@
     }
   ],
   "native_access": {
-    "checked_at": "2026-10-17T03:10:29.321Z",
-    "surface": "iPhone Mirroring",
-    "visible_blocker": "iPhone in Use — Lock your iPhone to connect. iPhone Mirroring will connect when iPhone is no longer in use.",
-    "action": "Supported Connect attempted once; no device setting, security change, or TikTok action.",
-    "next_step": "Owner asked to lock the phone; wait for native access and verify exact @typologyquiz identity before any account action. Twelve scheduled-post deletions still require action-time confirmation."
+    "checked_at": "2026-10-17T04:06:38.613727+00:00",
+    "status": "connected",
+    "account": "@typologyquiz",
+    "verified_target": "Lisbon original scheduled for October22 at18:30, Promotional content; native Share/More exposes Delete. Delete not pressed.",
+    "evidence": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-16-evening/native-lisbon-scheduled-approval.png"
+  },
+  "latest_queue_check": {
+    "observed_at": "2026-10-17T04:06:38.613727+00:00",
+    "future_rows": 18,
+    "daily_slots": 3,
+    "account": "@typologyquiz",
+    "status": "reloaded_and_reconciled",
+    "target_rows_unchanged": 12
   }
 }
