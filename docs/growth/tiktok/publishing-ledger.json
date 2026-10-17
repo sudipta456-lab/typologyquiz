@@ -606,6 +606,114 @@
         "next_step": "Owner asked to lock the phone; wait for native access and verify exact @typologyquiz identity before any account action. Twelve scheduled-post deletions still require action-time confirmation."
       },
       "remaining_repair_plan": "docs/growth/tiktok/2026-10-16-remaining-repair-plan.json"
+    },
+    {
+      "checked_at": "2026-10-17T12:06:37.717Z",
+      "phase": "morning",
+      "account": "@typologyquiz",
+      "publication": {
+        "future_rows": 18,
+        "published_rows_observed": 40,
+        "newly_confirmed_legacy_published_ids": [
+          "0916-10",
+          "0916-09",
+          "0916-08",
+          "0916-07",
+          "0916-06",
+          "0916-05",
+          "0916-04",
+          "0916-03",
+          "0916-02",
+          "0916-01",
+          "10-canberra-vowels",
+          "09-notebook-math",
+          "08-flag-japan",
+          "07-element-eight",
+          "06-canada-territories",
+          "05-new-york-capital",
+          "04-missing-planet",
+          "03-name-na",
+          "02-hottest-planet"
+        ],
+        "preceding_item_url": "https://www.tiktok.com/@typologyquiz/video/7697099657301839112",
+        "preceding_item_status": "published_confirmed",
+        "october_16_views_in_slot_order": [
+          0,
+          0,
+          0
+        ],
+        "historical_exception": "October12 five published rows including two Vienna copies and stop/Slovenia same slot; retained."
+      },
+      "analytics": {
+        "observed_at": "2026-10-17T12:07:09.164Z",
+        "period": "2026-10-09 through 2026-10-15",
+        "views_display": "1.5K",
+        "profile_views": 20,
+        "likes": 8,
+        "comments": null,
+        "shares": 1,
+        "traffic_percent": {
+          "for_you": 94.9,
+          "search": 2.6,
+          "personal_profile": 2.5,
+          "following": 0,
+          "sound": 0
+        },
+        "search_queries": [
+          {
+            "query": "yield line meaning",
+            "displayed_percent": 2.4
+          },
+          {
+            "query": "What does k stand for",
+            "displayed_percent": 2.4
+          },
+          {
+            "query": "periodic table typology",
+            "displayed_percent": 2.4
+          },
+          {
+            "query": "trivia game website",
+            "displayed_percent": 2.4
+          },
+          {
+            "query": "what is gu on the periodic table",
+            "displayed_percent": 2.4
+          }
+        ],
+        "average_watch_time": null,
+        "completion_rate": null,
+        "saves": null,
+        "website_quiz_starts": null
+      },
+      "research": {
+        "url": "https://www.tiktok.com/tiktokstudio/inspiration",
+        "filter": "Trending / Posts / All regions / Culture, Education & Technology",
+        "observed_at": "2026-10-17T12:08:07.915Z",
+        "result": "Education demonstration and math-hook cards visible, but no publication dates or dated quiz trend verified. No factual/scientific/health claims or creative copied."
+      },
+      "comments": {
+        "checked_at": "2026-10-17T12:08:07.915Z",
+        "displayed": "Two older creator-authored geography links; no new actionable audience question visible. Not an exhaustive historical audit.",
+        "replies_sent": 0
+      },
+      "today_queue": {
+        "date": "2026-10-17",
+        "10:30": "Alberta hydroplaning",
+        "14:30": "US state outline",
+        "18:30": "Alberta uphill parking"
+      },
+      "quality_backlog_remaining_scheduled": 0,
+      "held_assets": "Seven native24 full-motion Stories remain prepared_local_only; audio still needs full audition before new publishing.",
+      "actions": {
+        "uploads": 0,
+        "new_schedules": 0,
+        "edits": 0,
+        "deletions": 0,
+        "replies": 0
+      },
+      "interpretation": "Queue is full; no new item required. Displayed October16 zeros are observed counters, not a scheduler-failure diagnosis. Analytics window still excludes new clips; fewer than seven complete local cadence dates. Legacy status advances reconcile existing posts and do not create new publications.",
+      "record": "docs/growth/tiktok/2026-10-17-morning-reconciliation.md"
     }
   ],
   "posts": [
@@ -632,12 +740,14 @@
       "tiktok_id": "7685253400761470226",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685253400761470226",
       "publish_at": "2026-09-14T09:00:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "03-name-na",
@@ -647,12 +757,14 @@
       "tiktok_id": "7685253702369807624",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685253702369807624",
       "publish_at": "2026-09-14T10:15:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "04-missing-planet",
@@ -662,12 +774,14 @@
       "tiktok_id": "7685254098081352967",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685254098081352967",
       "publish_at": "2026-09-14T11:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "05-new-york-capital",
@@ -677,12 +791,14 @@
       "tiktok_id": "7685254280596540679",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685254280596540679",
       "publish_at": "2026-09-14T12:45:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "06-canada-territories",
@@ -692,12 +808,14 @@
       "tiktok_id": "7685254457315167506",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685254457315167506",
       "publish_at": "2026-09-14T14:00:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "07-element-eight",
@@ -707,12 +825,14 @@
       "tiktok_id": "7685254700748279048",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685254700748279048",
       "publish_at": "2026-09-14T15:15:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "08-flag-japan",
@@ -722,12 +842,14 @@
       "tiktok_id": "7685254915387673874",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685254915387673874",
       "publish_at": "2026-09-14T16:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "09-notebook-math",
@@ -737,12 +859,14 @@
       "tiktok_id": "7685255142291197192",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685255142291197192",
       "publish_at": "2026-09-14T17:45:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "10-canberra-vowels",
@@ -752,12 +876,14 @@
       "tiktok_id": "7685255403776544007",
       "url": "https://www.tiktok.com/@typologyquiz/video/7685255403776544007",
       "publish_at": "2026-09-14T19:00:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-13T23:17:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, scheduled date/time and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-01",
@@ -767,12 +893,14 @@
       "tiktok_id": "7686155401221508360",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686155401221508360",
       "publish_at": "2026-09-16T10:15:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:30:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 10:15 AM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-02",
@@ -782,12 +910,14 @@
       "tiktok_id": "7686156061522316562",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686156061522316562",
       "publish_at": "2026-09-16T11:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:31:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 11:30 AM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-03",
@@ -797,12 +927,14 @@
       "tiktok_id": "7686156301134531858",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686156301134531858",
       "publish_at": "2026-09-16T12:45:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:32:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 12:45 PM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-04",
@@ -812,12 +944,14 @@
       "tiktok_id": "7686156549328407815",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686156549328407815",
       "publish_at": "2026-09-16T14:00:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:34:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 2:00 PM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-05",
@@ -827,12 +961,14 @@
       "tiktok_id": "7686156847706901767",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686156847706901767",
       "publish_at": "2026-09-16T15:15:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:35:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 3:15 PM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-06",
@@ -842,12 +978,14 @@
       "tiktok_id": "7686157331175935240",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686157331175935240",
       "publish_at": "2026-09-16T16:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:37:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 4:30 PM and Everyone visibility. Duplicate permalink 7686157013084343570 was deleted in TikTok Studio after confirmation; 7686157331175935240 is the retained post.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-07",
@@ -857,12 +995,14 @@
       "tiktok_id": "7686157746932174087",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686157746932174087",
       "publish_at": "2026-09-16T17:45:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:38:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 5:45 PM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-08",
@@ -872,12 +1012,14 @@
       "tiktok_id": "7686158005800340743",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686158005800340743",
       "publish_at": "2026-09-16T19:00:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:39:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 7:00 PM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-09",
@@ -887,12 +1029,14 @@
       "tiktok_id": "7686158334289808647",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686158334289808647",
       "publish_at": "2026-09-16T20:15:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:40:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 8:15 PM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "0916-10",
@@ -902,12 +1046,14 @@
       "tiktok_id": "7686158835286953223",
       "url": "https://www.tiktok.com/@typologyquiz/video/7686158835286953223",
       "publish_at": "2026-09-16T21:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-09-16T09:41:00-06:00",
       "verification": "TikTok Studio Posts row after reload: exact caption, permalink, Sep 16 9:30 PM and Everyone visibility.",
-      "metrics": null
+      "metrics": null,
+      "published_confirmed_at": "2026-10-17T12:06:37.717Z",
+      "publication_verification": "Fresh reloaded Studio Posts row: matching permalink/caption and past local time, Everyone, no scheduled clock, visible published metrics. Exact release instant and independent public playback not established."
     },
     {
       "id": "1003-alien-crew",
@@ -3100,21 +3246,29 @@
     "receipt_window": "2026-10-12 through 2026-10-22 America/Edmonton",
     "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots.",
     "latest_check": {
-      "reconciled_at": "2026-10-17T04:30:40.070Z",
+      "reconciled_at": "2026-10-17T12:06:37.717Z",
       "studio_account": "@typologyquiz",
       "future_rows_confirmed": 18,
       "receipt_window": "2026-10-17 through 2026-10-22 America/Edmonton",
       "future_slot_conflicts": 0,
-      "october_16_published_confirmed": 3,
+      "daily_counts": {
+        "2026-10-22": 3,
+        "2026-10-21": 3,
+        "2026-10-20": 3,
+        "2026-10-19": 3,
+        "2026-10-18": 3,
+        "2026-10-17": 3
+      },
       "preceding_scheduled_item": {
         "url": "https://www.tiktok.com/@typologyquiz/video/7697099657301839112",
         "status": "published_confirmed"
       },
-      "historical_exception": "October12 two Vienna duplicate published rows and stop/Slovenia same-slot conflict freshly visible; five published rows that day. No removal or reposting.",
       "quality_backlog_remaining_scheduled": 0,
-      "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
       "approved_cta_replacements_completed": 12,
-      "final_queue_receipt": "docs/growth/tiktok/2026-10-16-repaired-final-queue.json"
+      "historical_exception": "October12 five published rows including two Vienna copies and stop/Slovenia same slot; retained.",
+      "legacy_status_advances": 19,
+      "record": "docs/growth/tiktok/2026-10-17-morning-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-17-morning-receipts.json"
     }
   }
 }
