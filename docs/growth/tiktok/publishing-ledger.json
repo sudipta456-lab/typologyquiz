@@ -1849,7 +1849,7 @@
       "tiktok_id": "7695609455555185938",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609455555185938",
       "publish_at": "2026-10-18T14:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -1869,11 +1869,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip.mp4",
         "replacement_sha256": "4767220df938b31825cebb88deefefb98e68ef94b1d5646a7405273a3262a181",
         "replacement_caption": "A free evening. Which feels more like you? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697489359674756368"
+      },
+      "removed_at": "2026-10-17T04:29:56.363Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "1016-mini-ipip-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697489359674756368"
     },
     {
       "id": "1017-mini-ipip",
@@ -1883,7 +1888,7 @@
       "tiktok_id": "7695609541290986770",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695609541290986770",
       "publish_at": "2026-10-18T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -1903,11 +1908,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip.mp4",
         "replacement_sha256": "0f5074d6b02772e3f552ba4ad19128ab134c8999a2647d2f5d49abcef8a2314b",
         "replacement_caption": "A free afternoon. Which would you choose? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697489228615142663"
+      },
+      "removed_at": "2026-10-17T04:29:27.071Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "1017-mini-ipip-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697489228615142663"
     },
     {
       "id": "0922-01",
@@ -1961,7 +1971,7 @@
       "tiktok_id": "7695610081685032210",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610081685032210",
       "publish_at": "2026-10-19T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -1981,11 +1991,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03.mp4",
         "replacement_sha256": "3862fc039cfa446e50f349694e47f5660ef0cfcd09d122398af885cc860ae54c",
         "replacement_caption": "Which state has the capital Montpelier? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697489025459834119"
+      },
+      "removed_at": "2026-10-17T04:28:43.038Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0922-03-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697489025459834119"
     },
     {
       "id": "0922-04",
@@ -1995,7 +2010,7 @@
       "tiktok_id": "7695610194528718087",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610194528718087",
       "publish_at": "2026-10-20T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2015,11 +2030,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04.mp4",
         "replacement_sha256": "b43d922f97e41a07a27f8f5d46b9658e743bd2fb530ca377f41f92232573e6fb",
         "replacement_caption": "Which state has the capital Cheyenne? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697488905553136914"
+      },
+      "removed_at": "2026-10-17T04:27:54.014Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0922-04-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697488905553136914"
     },
     {
       "id": "0922-05",
@@ -2029,7 +2049,7 @@
       "tiktok_id": "7695610288137047304",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610288137047304",
       "publish_at": "2026-10-20T14:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2049,11 +2069,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05.mp4",
         "replacement_sha256": "6c41cf08b5f3d8279112c5f4bdddbd05197cbf2e2ab80fc33f65d929f2131e3e",
         "replacement_caption": "Dover is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697488711860129032"
+      },
+      "removed_at": "2026-10-17T04:27:24.497Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0922-05-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697488711860129032"
     },
     {
       "id": "0922-06",
@@ -2063,7 +2088,7 @@
       "tiktok_id": "7695610345355857170",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610345355857170",
       "publish_at": "2026-10-20T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2083,11 +2108,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06.mp4",
         "replacement_sha256": "57ea1188ce9317734b8f6c6fc39edb3c50d0d4bc1fb9dbe24972f9590c0c7682",
         "replacement_caption": "Madison is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697488567538355472"
+      },
+      "removed_at": "2026-10-17T04:26:58.216Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0922-06-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697488567538355472"
     },
     {
       "id": "0922-07",
@@ -2097,7 +2127,7 @@
       "tiktok_id": "7695610484921257223",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610484921257223",
       "publish_at": "2026-10-21T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2117,11 +2147,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07.mp4",
         "replacement_sha256": "43a493c2ccc2db86331d0903424da4371949c9e0b72ce771f06b5f662332a74e",
         "replacement_caption": "Olympia is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697488146484727056"
+      },
+      "removed_at": "2026-10-17T04:25:16.852Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0922-07-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697488146484727056"
     },
     {
       "id": "0922-08",
@@ -2131,7 +2166,7 @@
       "tiktok_id": "7695610547177393426",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610547177393426",
       "publish_at": "2026-10-21T14:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2151,11 +2186,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08.mp4",
         "replacement_sha256": "5056a7d3d65dab0666b0913a17903c63706485243cc5708c4ed6665000abac08",
         "replacement_caption": "How many planets orbit the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697487985692003592"
+      },
+      "removed_at": "2026-10-17T04:24:41.474Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0922-08-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697487985692003592"
     },
     {
       "id": "0922-09",
@@ -2165,7 +2205,7 @@
       "tiktok_id": "7695610647685369096",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610647685369096",
       "publish_at": "2026-10-21T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2185,11 +2225,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09.mp4",
         "replacement_sha256": "b4b2b0b3f5c1aa128fd7eeeb00ee29ea594c00799ba4d7c6f74f9d63e452c0fb",
         "replacement_caption": "Which planet has liquid water at its surface? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697487830892809490"
+      },
+      "removed_at": "2026-10-17T04:23:44.569Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0922-09-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697487830892809490"
     },
     {
       "id": "0922-10",
@@ -2199,7 +2244,7 @@
       "tiktok_id": "7695610816069979399",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695610816069979399",
       "publish_at": "2026-10-22T10:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2219,11 +2264,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.mp4",
         "replacement_sha256": "792cc1f49dac6a619768c273feef24089515d6edd18cb8f15fc2f9b350d40b0b",
         "replacement_caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697487566303497488"
+      },
+      "removed_at": "2026-10-17T04:22:28.865Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0922-10-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697487566303497488"
     },
     {
       "id": "0923-05",
@@ -2233,7 +2283,7 @@
       "tiktok_id": "7695611686681693447",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695611686681693447",
       "publish_at": "2026-10-22T14:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2245,10 +2295,11 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.mp4",
         "replacement_sha256": "c3a548e45a0bcc3b8ff4c4e26278ff894ce5ea5ad8bd5eb91acd0b9fc125307d",
         "replacement_caption": "Hungary\u2019s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697486855918374152"
       },
       "latest_queue_verification": {
         "observed_at": "2026-10-17T03:08:17.589Z",
@@ -2257,7 +2308,11 @@
         "scheduled_local_time": "2026-10-22T14:30:00-06:00",
         "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
         "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
-      }
+      },
+      "removed_at": "2026-10-17T04:20:02.995Z",
+      "removal_verification": "Exact12 owner approval; native final Delete on exact scheduled original; reloaded full future queue showed17 rows without old permalink before single replacement upload.",
+      "replaced_by": "0923-05-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697486855918374152"
     },
     {
       "id": "1004-lisbon",
@@ -2267,7 +2322,7 @@
       "tiktok_id": "7695611783695912199",
       "url": "https://www.tiktok.com/@typologyquiz/video/7695611783695912199",
       "publish_at": "2026-10-22T18:30:00-06:00",
-      "status": "scheduled_confirmed",
+      "status": "removed_confirmed",
       "visibility": "Everyone",
       "disclosure": "Your brand / Promotional content",
       "verified_at": "2026-10-15T12:07:02.344Z",
@@ -2287,11 +2342,16 @@
         "replacement_local_video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.mp4",
         "replacement_sha256": "a2ddce73d047f500f3b03e0cf4b8109984a6166724c136789f361cd714e16f4e",
         "replacement_caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
-        "replacement_studio_status": "not_uploaded",
+        "replacement_studio_status": "scheduled_confirmed",
         "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
         "visual_qa": "passed_actual_encoded_samples",
-        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions."
-      }
+        "instruction": "Corrected local file only; preserve original receipt until native replacement and reloaded Studio confirmation. Seven-post new-video confirmation does not authorize these thirteen deletions.",
+        "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234"
+      },
+      "removed_at": "2026-10-17T04:16:19.668455+00:00",
+      "removal_verification": "Owner approved exact12batch; native final Delete selected on exact scheduled original, native advanced to next post and reloaded Studio old permalink absent before one replacement upload.",
+      "replaced_by": "1004-lisbon-cta-v2",
+      "replacement_url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234"
     },
     {
       "id": "0923-01",
@@ -2769,6 +2829,229 @@
         "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-full-motion-stories/final/1015-story-movie.mp4",
         "sha256": "5f61b7deeb98bbd4640357400eb89e8b8cf44b9f34f54b472a2bdc92697c5d55"
       }
+    },
+    {
+      "id": "1004-lisbon-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.mp4",
+      "caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
+      "sha256": "a2ddce73d047f500f3b03e0cf4b8109984a6166724c136789f361cd714e16f4e",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-22T18:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
+      "tiktok_id": "7697486050091945234",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatically rendered typographic/shape animation with original silent artwork; no realistic AI image, voice or video. Script/code assistance alone is not AI-generated media.",
+      "verified_at": "2026-10-17T04:18:01.493Z",
+      "replaces": "1004-lisbon",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "After approved native removal, single upload with Your brand selected; Studio reloaded and exact caption, future Edmonton time, Everyone, actual scheduled clock and new permalink visibly confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-17T04:18:01.493Z",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-22T18:30:00-06:00",
+        "record": "docs/growth/tiktok/2026-10-16-remaining-repair-plan.json"
+      }
+    },
+    {
+      "id": "0923-05-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.mp4",
+      "caption": "Hungary\u2019s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
+      "sha256": "c3a548e45a0bcc3b8ff4c4e26278ff894ce5ea5ad8bd5eb91acd0b9fc125307d",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-22T14:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697486855918374152",
+      "tiktok_id": "7697486855918374152",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:21:14.075Z",
+      "replaces": "0923-05",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "0922-10-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.mp4",
+      "caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "sha256": "792cc1f49dac6a619768c273feef24089515d6edd18cb8f15fc2f9b350d40b0b",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-22T10:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487566303497488",
+      "tiktok_id": "7697487566303497488",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:23:12.597Z",
+      "replaces": "0922-10",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "0922-09-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-09.mp4",
+      "caption": "Which planet has liquid water at its surface? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "sha256": "b4b2b0b3f5c1aa128fd7eeeb00ee29ea594c00799ba4d7c6f74f9d63e452c0fb",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-21T18:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487830892809490",
+      "tiktok_id": "7697487830892809490",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:24:14.017Z",
+      "replaces": "0922-09",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "0922-08-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-08.mp4",
+      "caption": "How many planets orbit the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "sha256": "5056a7d3d65dab0666b0913a17903c63706485243cc5708c4ed6665000abac08",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-21T14:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487985692003592",
+      "tiktok_id": "7697487985692003592",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:24:55.850Z",
+      "replaces": "0922-08",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "0922-07-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-07.mp4",
+      "caption": "Olympia is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "sha256": "43a493c2ccc2db86331d0903424da4371949c9e0b72ce771f06b5f662332a74e",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-21T10:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697488146484727056",
+      "tiktok_id": "7697488146484727056",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:25:33.068Z",
+      "replaces": "0922-07",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "0922-06-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-06.mp4",
+      "caption": "Madison is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "sha256": "57ea1188ce9317734b8f6c6fc39edb3c50d0d4bc1fb9dbe24972f9590c0c7682",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-20T18:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697488567538355472",
+      "tiktok_id": "7697488567538355472",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:27:11.789Z",
+      "replaces": "0922-06",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "0922-05-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-05.mp4",
+      "caption": "Dover is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "sha256": "6c41cf08b5f3d8279112c5f4bdddbd05197cbf2e2ab80fc33f65d929f2131e3e",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-20T14:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697488711860129032",
+      "tiktok_id": "7697488711860129032",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:27:40.952Z",
+      "replaces": "0922-05",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "0922-04-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-04.mp4",
+      "caption": "Which state has the capital Cheyenne? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "sha256": "b43d922f97e41a07a27f8f5d46b9658e743bd2fb530ca377f41f92232573e6fb",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-20T10:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697488905553136914",
+      "tiktok_id": "7697488905553136914",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:28:28.466Z",
+      "replaces": "0922-04",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "0922-03-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-03.mp4",
+      "caption": "Which state has the capital Montpelier? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "sha256": "3862fc039cfa446e50f349694e47f5660ef0cfcd09d122398af885cc860ae54c",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-19T18:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697489025459834119",
+      "tiktok_id": "7697489025459834119",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:29:01.102Z",
+      "replaces": "0922-03",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "1017-mini-ipip-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1017-mini-ipip.mp4",
+      "caption": "A free afternoon. Which would you choose? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
+      "sha256": "0f5074d6b02772e3f552ba4ad19128ab134c8999a2647d2f5d49abcef8a2314b",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-18T18:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697489228615142663",
+      "tiktok_id": "7697489228615142663",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:29:43.098Z",
+      "replaces": "1017-mini-ipip",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+    },
+    {
+      "id": "1016-mini-ipip-cta-v2",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1016-mini-ipip.mp4",
+      "caption": "A free evening. Which feels more like you? No right answer; a reflection prompt, not a scored test item or diagnosis. https://typologyquiz.com/test/mini-ipip/ #SelfReflection #TypologyQuiz",
+      "sha256": "4767220df938b31825cebb88deefefb98e68ef94b1d5646a7405273a3262a181",
+      "status": "scheduled_confirmed",
+      "publish_at": "2026-10-18T14:30:00-06:00",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697489359674756368",
+      "tiktok_id": "7697489359674756368",
+      "visibility": "Everyone",
+      "disclosure": "Your brand / Promotional content",
+      "ai_label": false,
+      "ai_label_assessment": "Programmatic text/shape animation, original silent artwork; no realistic AI image, voice or video.",
+      "verified_at": "2026-10-17T04:30:14.090Z",
+      "replaces": "1016-mini-ipip",
+      "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
     }
   ],
   "active_cadence_test": {
@@ -2817,7 +3100,7 @@
     "receipt_window": "2026-10-12 through 2026-10-22 America/Edmonton",
     "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots.",
     "latest_check": {
-      "reconciled_at": "2026-10-17T03:08:17.589Z",
+      "reconciled_at": "2026-10-17T04:30:40.070Z",
       "studio_account": "@typologyquiz",
       "future_rows_confirmed": 18,
       "receipt_window": "2026-10-17 through 2026-10-22 America/Edmonton",
@@ -2828,8 +3111,10 @@
         "status": "published_confirmed"
       },
       "historical_exception": "October12 two Vienna duplicate published rows and stop/Slovenia same-slot conflict freshly visible; five published rows that day. No removal or reposting.",
-      "quality_backlog_remaining_scheduled": 12,
-      "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
+      "quality_backlog_remaining_scheduled": 0,
+      "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md",
+      "approved_cta_replacements_completed": 12,
+      "final_queue_receipt": "docs/growth/tiktok/2026-10-16-repaired-final-queue.json"
     }
   }
 }
