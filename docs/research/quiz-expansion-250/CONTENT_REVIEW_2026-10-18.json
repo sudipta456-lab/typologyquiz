@@ -31,5 +31,18 @@
     "Review is not a psychometric validation or an engagement measurement.",
     "Original fictional cases are evaluated against supplied rules. Real factual claims use the bounded source packs and linked references.",
     "Browser controller sampling is not manual completion of all 250 quizzes."
-  ]
+  ],
+  "canonicalBankSha256": {
+    "FE.json": "2da6fee055983f83104cd9ac84be2af727f6792311876b09f03f14ffac983b78",
+    "FS.json": "048bc257a0a30c91f1d7e4ffa37b37d2172b29a73ad65019a7b4d39e286430ba",
+    "GT.json": "7b82a214cc09068850d18218afa8dfc0ddb934528a500c2f79f550b64aebd0f4",
+    "HC.json": "3ee17e1ae80a70f54aa1493447914de4f0e777e5b4b0602b746ac66a8a62a5f3",
+    "LW.json": "c20ee932c65f82ac5dca698798b96c1def519c2a83e8640499615958f8673219",
+    "MT.json": "a31ba676a70ccc9243c753ad8f480fbb3e3e2dcb25eb7a17bd94fd0ad3ca6e47",
+    "MU.json": "b5f09f14775d6c2d4ec11c317bafd428d9cf033f6c3c6cb77dff97a6037d1239",
+    "PC.json": "b60dfc3fac515e48274f9630a219c8f5647bc0454e7ef8b8deb64aece92c10ec",
+    "SG.json": "c1a84d990d346ef11a70cdb0184cd5a45a7b5a81fb9f94887beee8467ff41f31",
+    "SN.json": "fa4ebe197fc7a9c1eb2a7d8e19195713ad176c70e302ce75d8783f26698ea55c"
+  },
+  "implementationCommit": "9bdc2fc8"
 }
