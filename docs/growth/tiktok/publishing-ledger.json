@@ -824,6 +824,92 @@
       },
       "interpretation": "Two Oct14 16-second driving clips average1.83/1.39sec,full-watch0.8/0percent,dropoff0:01. Supports a motion-first concise-opening test; does not prove cause or new-format performance. No cadence change.",
       "record": "docs/growth/tiktok/2026-10-17-evening-reconciliation.md"
+    },
+    {
+      "checked_at": "2026-10-18T12:03:58+00:00",
+      "phase": "morning",
+      "account": "@typologyquiz",
+      "publication": {
+        "future_rows": 15,
+        "slots_per_future_date": 3,
+        "preceding_confirmed": {
+          "url": "https://www.tiktok.com/@typologyquiz/video/7697103539490917639",
+          "status": "published_confirmed",
+          "views": 1
+        }
+      },
+      "analytics": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "period": "2026-10-10 through 2026-10-16",
+        "views_display": "1.5K",
+        "video_views_exact": null,
+        "profile_views": 25,
+        "likes": 9,
+        "comments": null,
+        "shares": 1,
+        "traffic_percent": {
+          "for_you": 93.4,
+          "personal_profile": 3.5,
+          "search": 3.1,
+          "following": 0,
+          "sound": 0
+        },
+        "search_queries": [
+          {
+            "query": "k periodic table",
+            "displayed_percent": 2.3
+          },
+          {
+            "query": "symbol for potassium on periodic table",
+            "displayed_percent": 2.3
+          },
+          {
+            "query": "quiz no multiple choice",
+            "displayed_percent": 2.3
+          },
+          {
+            "query": "typology test",
+            "displayed_percent": 2.3
+          },
+          {
+            "query": "elemets if the sun",
+            "displayed_percent": 2.3
+          }
+        ],
+        "average_watch_time": null,
+        "completion_rate": null,
+        "saves": null,
+        "website_quiz_starts": null
+      },
+      "comments": {
+        "displayed": "Two older creator-authored geography links; one scroll found no new actionable audience question.",
+        "replies_sent": 0,
+        "limit": "Displayed list only; not a full historical audit."
+      },
+      "research": {
+        "url": "https://www.tiktok.com/tiktokstudio/inspiration",
+        "filters": [
+          "Trending",
+          "Posts",
+          "All regions",
+          "Culture, Education & Technology"
+        ],
+        "observation": "Question-led math and visual-science items are displayed among broad technology material. No recency window or quiz-specific trend established; no third-party factual claims or creative copied.",
+        "next_angle": "For the next unoccupied eligible slot, test one concise first-frame question with immediate motion and an earlier useful reveal, informed by Oct17 retention review."
+      },
+      "today_queue": "10:30 driving introduction;14:30 evening reflection;18:30 afternoon reflection. All occupied; no upload needed.",
+      "quality_backlog_remaining_scheduled": 0,
+      "held_assets": "Seven native24 Stories remain local only; complete full audio audition/rights and final QA before publishing.",
+      "actions": {
+        "uploads": 0,
+        "schedules": 0,
+        "deletions": 0,
+        "post_edits": 0,
+        "replies": 0,
+        "ledger_status_advances": 0
+      },
+      "interpretation": "Account totals unchanged on the same Oct10–16 window; different search labels are not search volume or proof of conversion. Cadence unchanged pending seven completed local dates.",
+      "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
     }
   ],
   "posts": [
@@ -2219,12 +2305,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-17T03:08:17.589Z",
+        "observed_at": "2026-10-18T12:03:58+00:00",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-19T10:30:00-06:00",
-        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
-        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
       }
     },
     {
@@ -2241,12 +2327,12 @@
       "verified_at": "2026-10-15T12:07:02.344Z",
       "verification": "TikTok Studio Posts row after reload: exact caption, future local timestamp, and Everyone visibility. Your brand disclosure was selected before scheduling. October 14 evening: future Studio schedule row reconfirmed after reload; caption, permalink, local timestamp, and Everyone match.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-17T03:08:17.589Z",
+        "observed_at": "2026-10-18T12:03:58+00:00",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-19T14:30:00-06:00",
-        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
-        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
       }
     },
     {
@@ -2730,7 +2816,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-18T03:05:30.351Z"
+        "observed_at": "2026-10-18T12:03:58+00:00"
       }
     },
     {
@@ -2767,7 +2853,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-18T03:05:30.351Z"
+        "observed_at": "2026-10-18T12:03:58+00:00"
       }
     },
     {
@@ -2822,7 +2908,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-18T03:05:30.351Z"
+        "observed_at": "2026-10-18T12:03:58+00:00"
       }
     },
     {
@@ -2877,7 +2963,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-18T03:05:30.351Z"
+        "observed_at": "2026-10-18T12:03:58+00:00"
       }
     },
     {
@@ -2915,7 +3001,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-18T03:05:30.351Z"
+        "observed_at": "2026-10-18T12:03:58+00:00"
       }
     },
     {
@@ -2950,10 +3036,10 @@
       "published_confirmed_at": "2026-10-18T03:05:30.351Z",
       "publication_verification": "Reloaded Studio: exact caption/permalink, past Edmonton time, Everyone and no scheduled Alarm. Immediately preceding uphill row additionally offers Pin to top. Not independent public-playback proof.",
       "metrics": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "observed_at": "2026-10-18T03:05:30.351Z"
+        "observed_at": "2026-10-18T12:03:58+00:00"
       }
     },
     {
@@ -2978,12 +3064,12 @@
       "verified_at": "2026-10-16T04:02:54.415Z",
       "replaces": "1006-li",
       "latest_queue_verification": {
-        "observed_at": "2026-10-17T03:08:17.589Z",
+        "observed_at": "2026-10-18T12:03:58+00:00",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-18T10:30:00-06:00",
-        "method": "Reloaded Studio; overlapping scroll passes. Caption case/whitespace normalized, exact permalink, future local time, Everyone and actual clock SVG checked.",
-        "record": "docs/growth/tiktok/2026-10-16-evening-reconciliation.md"
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
       }
     },
     {
@@ -3158,11 +3244,12 @@
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
       "verification": "After approved native removal, single upload with Your brand selected; Studio reloaded and exact caption, future Edmonton time, Everyone, actual scheduled clock and new permalink visibly confirmed.",
       "latest_queue_verification": {
-        "observed_at": "2026-10-17T04:18:01.493Z",
+        "observed_at": "2026-10-18T12:03:58+00:00",
         "account": "@typologyquiz",
         "visibility": "Everyone",
         "scheduled_local_time": "2026-10-22T18:30:00-06:00",
-        "record": "docs/growth/tiktok/2026-10-16-remaining-repair-plan.json"
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
       }
     },
     {
@@ -3181,7 +3268,15 @@
       "verified_at": "2026-10-17T04:21:14.075Z",
       "replaces": "0923-05",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-22T14:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-10-cta-v2",
@@ -3199,7 +3294,15 @@
       "verified_at": "2026-10-17T04:23:12.597Z",
       "replaces": "0922-10",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-22T10:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-09-cta-v2",
@@ -3217,7 +3320,15 @@
       "verified_at": "2026-10-17T04:24:14.017Z",
       "replaces": "0922-09",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-21T18:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-08-cta-v2",
@@ -3235,7 +3346,15 @@
       "verified_at": "2026-10-17T04:24:55.850Z",
       "replaces": "0922-08",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-21T14:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-07-cta-v2",
@@ -3253,7 +3372,15 @@
       "verified_at": "2026-10-17T04:25:33.068Z",
       "replaces": "0922-07",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-21T10:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-06-cta-v2",
@@ -3271,7 +3398,15 @@
       "verified_at": "2026-10-17T04:27:11.789Z",
       "replaces": "0922-06",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-20T18:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-05-cta-v2",
@@ -3289,7 +3424,15 @@
       "verified_at": "2026-10-17T04:27:40.952Z",
       "replaces": "0922-05",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-20T14:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-04-cta-v2",
@@ -3307,7 +3450,15 @@
       "verified_at": "2026-10-17T04:28:28.466Z",
       "replaces": "0922-04",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-20T10:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "0922-03-cta-v2",
@@ -3325,7 +3476,15 @@
       "verified_at": "2026-10-17T04:29:01.102Z",
       "replaces": "0922-03",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-19T18:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "1017-mini-ipip-cta-v2",
@@ -3343,7 +3502,15 @@
       "verified_at": "2026-10-17T04:29:43.098Z",
       "replaces": "1017-mini-ipip",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-18T18:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     },
     {
       "id": "1016-mini-ipip-cta-v2",
@@ -3361,7 +3528,15 @@
       "verified_at": "2026-10-17T04:30:14.090Z",
       "replaces": "1016-mini-ipip",
       "manifest": "docs/growth/tiktok/2026-10-15-queue-repair-manifest.json",
-      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed."
+      "verification": "Single upload with Your brand; Studio reloaded and exact caption, future Edmonton time, Everyone, actual clock and new permalink confirmed.",
+      "latest_queue_verification": {
+        "observed_at": "2026-10-18T12:03:58+00:00",
+        "account": "@typologyquiz",
+        "visibility": "Everyone",
+        "scheduled_local_time": "2026-10-18T14:30:00-06:00",
+        "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
+        "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md"
+      }
     }
   ],
   "active_cadence_test": {
@@ -3387,7 +3562,7 @@
     "status": "scheduled_confirmed_with_two_existing_studio_conflicts",
     "note": "The Studio queue was reloaded and each listed future row was observed after scheduling. Existing Vienna duplicate and the earlier Slovenia/stop same-slot conflict are recorded; web Studio blocked cleanup of commercial-content scheduled videos.",
     "latest_check": {
-      "reconciled_at": "2026-10-18T03:05:30.351Z",
+      "reconciled_at": "2026-10-18T12:03:58+00:00",
       "studio_account": "@typologyquiz",
       "future_rows_confirmed": 15,
       "receipt_window": "2026-10-18 through 2026-10-22 America/Edmonton",
@@ -3402,13 +3577,14 @@
       "october_17_published_confirmed": 3,
       "preceding_scheduled_item": {
         "url": "https://www.tiktok.com/@typologyquiz/video/7697103539490917639",
-        "status": "published_confirmed"
+        "status": "published_confirmed",
+        "views": 1
       },
       "quality_backlog_remaining_scheduled": 0,
       "approved_cta_replacements_completed": 12,
-      "historical_exception": "October12 five published rows including two Vienna copies and stop/Slovenia conflict retained; not rescanned in this bounded evening review.",
-      "record": "docs/growth/tiktok/2026-10-17-evening-reconciliation.md",
-      "receipt": "docs/growth/tiktok/2026-10-17-evening-receipts.json"
+      "historical_exception": "October12 five published rows including duplicate Vienna and stop/Slovenia conflict retained; not rescanned in this bounded morning review.",
+      "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-18-morning-receipts.json"
     }
   },
   "queue_reconciliation": {
@@ -3419,7 +3595,7 @@
     "receipt_window": "2026-10-12 through 2026-10-22 America/Edmonton",
     "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots.",
     "latest_check": {
-      "reconciled_at": "2026-10-18T03:05:30.351Z",
+      "reconciled_at": "2026-10-18T12:03:58+00:00",
       "studio_account": "@typologyquiz",
       "future_rows_confirmed": 15,
       "receipt_window": "2026-10-18 through 2026-10-22 America/Edmonton",
@@ -3434,13 +3610,14 @@
       "october_17_published_confirmed": 3,
       "preceding_scheduled_item": {
         "url": "https://www.tiktok.com/@typologyquiz/video/7697103539490917639",
-        "status": "published_confirmed"
+        "status": "published_confirmed",
+        "views": 1
       },
       "quality_backlog_remaining_scheduled": 0,
       "approved_cta_replacements_completed": 12,
-      "historical_exception": "October12 five published rows including two Vienna copies and stop/Slovenia conflict retained; not rescanned in this bounded evening review.",
-      "record": "docs/growth/tiktok/2026-10-17-evening-reconciliation.md",
-      "receipt": "docs/growth/tiktok/2026-10-17-evening-receipts.json"
+      "historical_exception": "October12 five published rows including duplicate Vienna and stop/Slovenia conflict retained; not rescanned in this bounded morning review.",
+      "record": "docs/growth/tiktok/2026-10-18-morning-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-18-morning-receipts.json"
     }
   }
 }
