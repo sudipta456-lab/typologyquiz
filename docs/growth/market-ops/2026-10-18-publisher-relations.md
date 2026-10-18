@@ -47,3 +47,19 @@ Recheck the approved mailbox when normally available; audit live Sent/replies/un
 Today's recorded total: zero emails, zero forms; no new external receipt. Replies and opt-outs remain unknown. The website release, social queue, credentials and analytics controls were unchanged. No deployment is needed for these records. Local route and concise blocker evidence: `/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/publisher-relations/2026-10-18/`. No unrelated mailbox contents were copied into these records.
 
 Dashboard: `publisher-relations Reviewed` — approved sender unavailable; no outreach sent; two editorial proposals remain local drafts; existing pending submission protected from duplicate contact.
+
+## Afternoon cycle — approximately 15:04–15:07 America/Edmonton
+
+**No additional external communication.** Today's recorded total remains zero emails and zero forms. Exact submitted copy and send/submission receipt in this cycle: none. No newly verified reply, opt-in inquiry, editorial interest, public placement or qualified opportunity.
+
+Freshly opened https://mail.zohocloud.ca/zm/#search in connected Chrome and inspected the Mail Accounts selector. It again offered only another business mailbox, with no approved hello@typologyquiz.com sender. No unrelated message was opened or searched, no compose was started, and no send, authentication push, sign-out, setting, permission or account action occurred. The temporary tab was closed. Replies, live Sent history and unsubscribes remain unavailable rather than zero. This is the existing access blocker; no new access request was initiated and no alternate sender was used.
+
+Continued with a bounded source/route review:
+
+- https://astroedu.iau.org/submission/ still specifies an initial activity proposal by email before its template. https://typologyquiz.com/trivia/planets/ returned HTTP 200 with the expected title. The October 17 draft remains local and unchanged; no finished lesson, licence acceptance or account/community registration was submitted.
+- https://scienceinschool.org/submit-article/ still invites initial outlines and includes guided discussion activities for its secondary-school audience. https://typologyquiz.com/quizzes/mystery-material/ returned HTTP 200 with the expected title. This morning's proposal remains local and unchanged, with our actual quiz-provider role and the fictional-table/classroom-use limitations intact. No new draft, article or claimed educator credentials were created to fill a contact quota.
+- https://www.zoho.com/mail/help/usage-policy.html was freshly retrieved, showing an October 13, 2026 update. It excludes promotional/marketing/bulk mail. Do not turn these editorial-fit proposals into a campaign or treat individually researching a recipient as a general exception. No email was sent under an assumed policy exception.
+
+The newest scout/community notes establish no additional invited channel or current audience request. Preserve SciTech's one pending-review submission and the existing GA/SPN/Personality Pedagogy histories; no resubmission or automated follow-up. A live destination or invitation to propose an activity is not evidence of recipient interest. Recheck the approved mailbox and actual Sent/replies/unsubscribes before considering a later message; no queue slot or promise to send is implied by a local draft.
+
+Local evidence: `work/publisher-relations/2026-10-18/afternoon-live-routes.json` and `afternoon-review.json` under the shared Codex workspace. Evidence records the sender blocker without copying unrelated mailbox contents. Website code, deployment, TikTok queue and analytics controls were unchanged. Dashboard report: `publisher-relations Reviewed` — approved sender still unavailable; zero outreach today; both editorial drafts retained; two destination routes live.
