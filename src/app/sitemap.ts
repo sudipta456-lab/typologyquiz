@@ -6,6 +6,8 @@ import { MOVIE_QUIZZES, movieQuizPath } from "@/lib/trivia/movies";
 import { EDITIONS } from "@/lib/newsquiz/editions";
 import { editionPath } from "@/lib/editorial/identity";
 import { SITE } from "@/lib/site";
+import { CATEGORIES } from "@/lib/interactive/categories";
+import { SUMMARIES } from "@/lib/interactive/catalog.generated";
 
 // Generated from the registries rather than hand-maintained.
 //
@@ -91,5 +93,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages, ...moviePages, ...editionPages];
+  // Interactive collection: hub, one page per category, one canonical page per quiz.
+  // Result state is never a URL, so there is nothing else to list.
+  const interactivePages: MetadataRoute.Sitemap = [
+    { url: `${base}/quizzes/`, changeFrequency: "weekly", priority: 0.85 },
+    ...CATEGORIES.map((category) => ({ url: `${base}/quizzes/category/${category.id}/`, changeFrequency: "monthly" as const, priority: 0.75 })),
+    ...SUMMARIES.map((quiz) => ({ url: `${base}/quizzes/${quiz.slug}/`, changeFrequency: "monthly" as const, priority: 0.7 })),
+  ];
+
+  return [...staticPages, ...quizPages, ...drivingPages, ...triviaPages, ...moviePages, ...editionPages, ...interactivePages];
 }

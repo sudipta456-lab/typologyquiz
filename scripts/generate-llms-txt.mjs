@@ -50,6 +50,8 @@ import {
 import { QUICK_PICK_ROUNDS } from "../src/lib/minis/data/quick-pick.ts";
 import { THIS_OR_THAT_PAIRS } from "../src/lib/minis/data/this-or-that.ts";
 import { SITE } from "../src/lib/site.ts";
+import { CATEGORIES } from "../src/lib/interactive/categories.ts";
+import { SUMMARIES } from "../src/lib/interactive/catalog.generated.ts";
 
 const base = SITE.url.replace(/\/$/, "");
 const L = [];
@@ -77,6 +79,11 @@ const friendQuestionCount = FRIEND_PACKS.reduce((n, p) => n + p.questions.length
 const friendRoundSize = sampleMix().length;
 const anagramPool = ANAGRAM_EASY.length + ANAGRAM_MEDIUM.length + ANAGRAM_HARD.length;
 
+// House rule: no em-dashes in this file, including inside authored quiz descriptions.
+function noEmDash(text) {
+  return text.replace(/\s*—\s*/g, ", ");
+}
+
 function list(items) {
   return items.join(", ");
 }
@@ -86,7 +93,17 @@ function numberWord(n) {
   return NUMBER_WORDS[n] ?? String(n);
 }
 
-// The five sections of the site, in the order the home page shows them. Kept
+// How each interactive quiz kind is described. Result claims stay limited to what
+// the quiz actually does: right answers are scored, preferences only describe choices.
+const INTERACTIVE_KIND_TEXT = {
+  knowledge: "scored knowledge tasks",
+  logic: "scored logic tasks",
+  cooperative: "shared puzzle with scored tasks",
+  hybrid: "scored tasks plus separate own-choice summary",
+  preference: "own-choice summary, no right answers",
+};
+
+// The sections of the site, in the order the home page shows them. Kept
 // as data so the sentence above the list cannot claim a different number from
 // the list itself - which is exactly the drift this whole file exists to stop.
 const SECTIONS = [
@@ -95,6 +112,7 @@ const SECTIONS = [
   `${TRIVIA_QUIZZES.length} type-in and map trivia quizzes plus ${RAPID_ROUNDS.length} rapid rounds. Geography, science, general knowledge and timeline recall with clear answers.`,
   "Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.",
   "Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. Some carry state inside share links; recipients can read that information, and hosting services receive request URLs without fragments. Most Likely To exports an image card instead.",
+  `${SUMMARIES.length} interactive quizzes in ${CATEGORIES.length} categories. Short original tasks such as matching, ordering, link maps, grids, listening and diagram questions. Knowledge tasks have right answers; choice-based quizzes only describe the player's own choices. Answers are scored in the browser.`,
 ];
 
 // ---------------------------------------------------------------------------
@@ -128,7 +146,8 @@ L.push("");
 
 L.push("## Key pages");
 L.push("");
-L.push(`- [Home](${base}/): all five sections in one place`);
+L.push(`- [Home](${base}/): all ${numberWord(SECTIONS.length).toLowerCase()} sections in one place`);
+L.push(`- [Interactive quizzes](${base}/quizzes/): ${SUMMARIES.length} short original quizzes in ${CATEGORIES.length} categories`);
 L.push(`- [All quizzes](${base}/tests/): browse all ${TESTS.length} personality quizzes`);
 L.push(`- [Trivia](${base}/trivia/): ${TRIVIA_QUIZZES.length} timed type-in and map quizzes plus ${RAPID_ROUNDS.length} rapid rounds`);
 L.push(`- [Movie quizzes](${base}/trivia/movies/): ${MOVIE_QUIZZES.length} original movie and movie-character quizzes, ${MOVIE_QUIZ_QUESTION_COUNT} sourced questions each`);
@@ -294,6 +313,23 @@ L.push("");
 
 // ---------------------------------------------------------------------------
 
+L.push("## Interactive quizzes");
+L.push("");
+L.push(
+  `${SUMMARIES.length} short quizzes in ${CATEGORIES.length} categories at ${base}/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones and reading original diagrams. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data and sounds are original to this site, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.`
+);
+L.push("");
+for (const category of CATEGORIES) {
+  const members = SUMMARIES.filter((quiz) => quiz.categoryId === category.id);
+  L.push(`### ${category.name}`);
+  L.push("");
+  L.push(`- [${category.name} quizzes](${base}/quizzes/category/${category.id}/): ${members.length} quizzes. ${category.description}`);
+  for (const quiz of members) {
+    L.push(`- [${quiz.title}](${base}/quizzes/${quiz.slug}/): ${noEmDash(quiz.description)} (${quiz.questionCount} tasks, about ${quiz.minutes} min; ${INTERACTIVE_KIND_TEXT[quiz.kind]})`);
+  }
+  L.push("");
+}
+
 L.push("## Limits worth stating");
 L.push("");
 L.push(
@@ -320,5 +356,5 @@ if (process.argv.includes("--check")) {
   }
 } else fs.writeFileSync("public/llms.txt", output, "utf8");
 console.log(
-  `public/llms.txt: ${TESTS.length} quizzes, ${JURISDICTIONS.length} jurisdictions, ${totalDrivingQs} driving questions, ${TRIVIA_QUIZZES.length} trivia quizzes (${authoredQuizzes.length} authored + ${letterQuizzes.length} letter pages), ${FRIEND_PACKS.length} friend packs, ${FOOL_QUESTIONS.length} fool questions, ${MOST_LIKELY_PROMPTS.length} most-likely prompts`
+  `public/llms.txt: ${TESTS.length} quizzes, ${JURISDICTIONS.length} jurisdictions, ${totalDrivingQs} driving questions, ${TRIVIA_QUIZZES.length} trivia quizzes (${authoredQuizzes.length} authored + ${letterQuizzes.length} letter pages), ${FRIEND_PACKS.length} friend packs, ${FOOL_QUESTIONS.length} fool questions, ${MOST_LIKELY_PROMPTS.length} most-likely prompts, ${SUMMARIES.length} interactive quizzes`
 );

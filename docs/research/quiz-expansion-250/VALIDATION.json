@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-18",
+  "status": "passed",
+  "scope": "planning artifacts only; not production question validation",
+  "concepts": 250,
+  "categories": 10,
+  "per_category": 25,
+  "waves": {
+    "A": 10,
+    "B": 40,
+    "C": 100,
+    "D": 100
+  },
+  "evidence_classes": {
+    "evergreen": 122,
+    "experimental": 113,
+    "trend-adjacent": 15
+  },
+  "primary_dependencies": {
+    "preference": 46,
+    "layers": 35,
+    "branch": 12,
+    "visual": 24,
+    "audio": 11,
+    "survey": 2,
+    "ai": 2,
+    "grid": 10,
+    "social": 15,
+    "sequence": 9,
+    "base": 74,
+    "graph": 10
+  },
+  "exported_sitemap_urls_checked": 572,
+  "proposed_slug_collisions": 0,
+  "sample_logic_fixture_checks": 4,
+  "local_links_and_anchors": "passed",
+  "catalog_sha256": "06c49a09064dbe13f5b856aa4eab80f6a4c3f60d76cf8a900e83bc9a8331dd3f",
+  "repository_gate": {
+    "command": "./scripts/mac-run.sh npm run verify",
+    "exit_code": 0,
+    "tests_passed": 154,
+    "tests_failed": 0,
+    "typecheck": "passed",
+    "lint": "passed with three existing img warnings",
+    "other_warnings": "existing Node module-type warnings"
+  },
+  "independent_review": "bounded Claude Opus review completed; lead adjudication and revisions recorded in REVIEW_NOTES.md",
+  "limitations": [
+    "No full question banks authored",
+    "No empirical engagement validation",
+    "Answer-level fact checks, rights, cultural review and user testing remain before publication"
+  ]
+}

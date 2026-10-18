@@ -1,4 +1,4 @@
-import { analyticsAliases, analyticsEditions, analyticsMovieQuestionCount, analyticsMovieQuizzes, analyticsPaths, analyticsSeries } from "./analytics-manifest.generated.ts";
+import { analyticsAliases, analyticsEditions, analyticsInteractiveQuizzes, analyticsMovieQuestionCount, analyticsMovieQuizzes, analyticsPaths, analyticsSeries } from "./analytics-manifest.generated.ts";
 
 // Google tag installation ID and Analytics destination are distinct after tag merging.
 export const GA_TAG_ID = "G-TZ9B8MB7SP";
@@ -19,11 +19,13 @@ export const ANALYTICS_PAGE_GROUPS = new Set([
   "daily_mini",
   "social",
   "live_event",
+  "interactive_quiz",
 ]);
 export type AnalyticsCommand = (...args: unknown[]) => void;
 export type EditorialAnalyticsEvent = "quiz_start" | "quiz_complete" | "quiz_share" | "quiz_challenge_open";
 export type MovieAnalyticsEvent = "movie_quiz_start" | "movie_quiz_complete";
-export type AnalyticsEvent = EditorialAnalyticsEvent | MovieAnalyticsEvent | "quiz_series_follow";
+export type InteractiveQuizAnalyticsEvent = "interactive_quiz_start" | "interactive_quiz_complete";
+export type AnalyticsEvent = EditorialAnalyticsEvent | MovieAnalyticsEvent | InteractiveQuizAnalyticsEvent | "quiz_series_follow";
 const MOVIE_PLAY_MODES = new Set(["solo", "group"]);
 const editionEvents = new Set<string>(["quiz_start", "quiz_complete", "quiz_share", "quiz_challenge_open"]);
 
@@ -53,6 +55,7 @@ export function analyticsPageGroup(pathname: unknown): string {
   if (path.startsWith("/weekly/")) return "weekly_news";
   if (path.startsWith("/daily/")) return "daily_mini";
   if (path.startsWith("/live/")) return "live_event";
+  if (path.startsWith("/quizzes/")) return "interactive_quiz";
   if (["/friend-quiz/", "/friend-quiz/play/", "/fool/", "/fool/play/", "/friends/", "/most-likely-to/", "/compare/", "/room/", "/room/session/"].includes(path)) return "social";
   return "site";
 }
@@ -163,6 +166,11 @@ export function safeEventParameters(event: unknown, parameters: unknown): Record
     if (typeof correct !== "number" || !Number.isInteger(correct) || correct < 0 || correct > analyticsMovieQuestionCount) return null;
     return { movie_quiz_id: input.movie_quiz_id, play_mode: input.play_mode, correct_count: correct };
   }
+  if (event === "interactive_quiz_start" || event === "interactive_quiz_complete") {
+    // Registered quiz identity and version only: never answers, scores, result axes, text or counts.
+    const quiz = analyticsInteractiveQuizzes.find(q => q.id === input.quiz_id && q.version === input.quiz_version);
+    return quiz ? { quiz_id: quiz.id, quiz_version: quiz.version } : null;
+  }
   if (!editionEvents.has(event)) return null;
   const edition = analyticsEditions.find(e => e.id === input.edition_id && e.seriesId === input.series_id && e.version === input.edition_version);
   return edition ? { edition_id: edition.id, series_id: edition.seriesId, edition_version: edition.version } : null;
@@ -206,6 +214,11 @@ export function createAnalyticsController(command: AnalyticsCommand, referrer: u
     event(event: AnalyticsEvent, parameters: unknown) {
       const safe = safeEventParameters(event, parameters);
       if (!safe || !currentPath || !initialized) return;
+      // An interactive quiz event is only valid on that quiz's own canonical page.
+      if (event === "interactive_quiz_start" || event === "interactive_quiz_complete") {
+        const quiz = analyticsInteractiveQuizzes.find(q => q.id === safe.quiz_id);
+        if (!quiz || currentPath !== `/quizzes/${quiz.slug}/`) return;
+      }
       command("event", event, { ...context(currentPath), ...safe, send_to: GA_MEASUREMENT_ID });
     },
   };
@@ -236,6 +249,11 @@ export function visitAnalyticsPage(pathname: string): void {
       document.head.appendChild(script);
     } else browserController.page(pathname);
   } catch { /* Analytics is optional, including blocked scripts and browser APIs. */ }
+}
+
+/** Start/complete signal for a new interactive quiz. Identity only; the controller rejects it off the quiz's own page. */
+export function trackInteractiveQuizEvent(event: InteractiveQuizAnalyticsEvent, id: string, version: number): void {
+  trackAnalyticsEvent(event, { quiz_id: id, quiz_version: version });
 }
 
 export function trackAnalyticsEvent(event: AnalyticsEvent, parameters: unknown): void {

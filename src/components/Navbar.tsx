@@ -51,6 +51,7 @@ export function Navbar() {
           </Link>)}
         </div>
         <div className="menu-utility">
+          <Link href="/quizzes/" onClick={close} aria-current={pathname.startsWith("/quizzes") ? "page" : undefined}>Interactive quizzes <span>Match, order, map & decide</span></Link>
           <Link href="/weekly/" onClick={close}>Weekly news quizzes <span>Play a dated edition</span></Link>
           <Link href="/daily/" onClick={close}>Daily question <span>A quick check-in</span></Link>
           <Link href="/account/" onClick={close}>Name & appearance <span>Display name, theme & school mode</span></Link>

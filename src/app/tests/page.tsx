@@ -42,6 +42,7 @@ export default function TestsPage() {
         <h2>{test.title}</h2><p>{test.description}</p><span className="directory-quiz-action">{test.itemCount}{test.hasBranching ? "+" : ""} questions <span aria-hidden="true">↗</span></span>
       </Link>)}</div>
       {filtered.length === 0 && <div className="directory-empty"><h2>No quizzes found</h2><p>Try a shorter search or choose another topic.</p><button type="button" className="btn-outline" onClick={() => { setQuery(""); setFilter("all"); }}>Show all quizzes</button></div>}
+      <aside className="directory-note"><h2>Want something more hands-on?</h2><p>Try the <Link href="/quizzes/category/personality-choices/" className="text-link">Personality &amp; Choices</Link> interactive quizzes, where you choose, rank and decide. They describe your own picks, not a diagnosis. Or <Link href="/quizzes/category/logic-wordplay/" className="text-link">test your reasoning</Link> with Logic &amp; Wordplay, or browse <Link href="/quizzes/" className="text-link">all interactive quizzes</Link>.</p></aside>
     </div>
   </>;
 }
