@@ -69,3 +69,25 @@ Opening the user menu visibly exposes https://www.reddit.com/user/Beautiful-Ad-7
 The owner was told the exact mismatch. Switch to the approved u/typologyquiz account before any public action. Local rules still require verification; successful login alone does not resolve that separate gate. No new local-rule or factual-source review was performed in this identity-only continuation. No website, TikTok queue, email or deployment action.
 
 Local evidence: `/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/community-contributor/2026-10-18-login-recheck/review.json`. Dashboard: `community-contributor Needs account` — Reddit signed-in identity differs from approved handle; reply held, no public action.
+
+## Owner authorizes existing Reddit account — reply posted confirmed
+
+The owner explicitly said to use the existing login rather than creating u/typologyquiz. This overrides the earlier exact-brand-handle gate for the existing Reddit account **u/Beautiful-Ad-7782**. The visible user-menu profile matched that account before posting. This does not authorize using an unrelated account or changing the TikTok @typologyquiz identity requirement. No account was created, renamed, logged out, switched or reconfigured.
+
+Reopened the current thread in the signed-in in-app browser. Its request remained open and its three existing comments only recommended games. The full sidebar rules were now visible and both expanded successfully: (1) be kind, with no excessively rude/vulgar content; (2) memes only on Mondays, related to AP Human Geography and flaired. The reply is civil study advice, not a meme or promotion. This resolves the earlier local-rules retrieval limitation for this action; previous failed rule-page reads remain historical. No additional confirmation was needed for this routine reply under the owner's standing and explicit authorization.
+
+**Exact submitted copy:**
+
+Get a blank copy of the map your class uses. Pick one small region, cover the labels and try to place or name the countries from memory. Check against the answer key and note the ones you mixed up. After a break, try those again on a blank map; tomorrow, mix them back with the others. Also practise the test's direction: placing a country from its name is a different task from naming a highlighted country. A game is fine, but use one that matches what you'll actually have to do.
+
+**Thread:** https://www.reddit.com/r/APHumanGeography/comments/1x8tu8n/how_to_study_for_map_quizzes/
+
+**Confirmed comment:** https://www.reddit.com/r/APHumanGeography/comments/1x8tu8n/comment/phluo0n/
+
+**Outcome:** one Comment submission. Reddit displayed “Comment posted successfully.” Opened the observed comment permalink in a fresh page load; exact text and u/Beautiful-Ad-7782 attribution remained visible. No duplicate submission or edit. The site's default own-comment upvote appeared automatically; no manual vote or coordinated engagement was performed. No public reply to our comment was visible at the receipt check. This proves the signed-in UI publication, not independent logged-out visibility, referral traffic, a learning benefit or a conversion.
+
+**Source support:** the original APS abstract https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01693.x/ checked earlier supports the general retrieval-practice principle. It studied prose recall, not this map-study plan. The suggested checking, regional chunks and next-day retry are practical applications, not a measured optimal protocol or guaranteed exam outcome. No scientific effect size, personal teaching experience or diagnosis claimed. No TypologyQuiz mention/link was included; no site claim or endorsement implied.
+
+Today's confirmed community contribution count is now **one**. Exact receipt, rules snapshot, post-load text and screenshot are in `/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/community-contributor/2026-10-18-posted-reply/`. The comment tab is retained as a deliverable. Do not repost this answer or infer audience endorsement from the initial self-vote. Future account checks should recognize the owner's explicit approval of this existing Reddit identity; retain affiliation disclosure if TypologyQuiz is mentioned. No DM, additional post, purchase, credential change, site release or TikTok queue change.
+
+Dashboard: `community-contributor Posted` — one useful map-study reply confirmed on Reddit under the owner-approved existing account; no promotional link or conversion claimed.
