@@ -23,21 +23,46 @@ function runWrangler(args) {
   return result.stdout.trim();
 }
 
-function readCurrent() {
-  try {
-    const output = runWrangler(["kv", "key", "get", "current", "--binding", "OPS_DASHBOARD", "--remote", "--text"]);
-    if (!output) return defaultDashboard();
-    const stored = JSON.parse(output);
-    const defaults = defaultDashboard();
-    const storedRoles = new Map(Array.isArray(stored.roles) ? stored.roles.map((role) => [role.id, role]) : []);
-    return {
-      ...defaults,
-      ...stored,
-      roles: defaults.roles.map((role) => ({ ...role, ...storedRoles.get(role.id) })),
-    };
-  } catch {
-    return defaultDashboard();
+const isPlainObject = (value) => value !== null && typeof value === "object" && !Array.isArray(value);
+
+// Wrangler `get` exits non-zero for a missing key, so error text is never read as absence.
+// Absence is established only by a successful, well-formed `list` with no exact `current` key.
+function currentKeyExists() {
+  const output = runWrangler(["kv", "key", "list", "--prefix", "current", "--binding", "OPS_DASHBOARD", "--remote"]);
+  const keys = JSON.parse(output);
+  if (!Array.isArray(keys)) throw new Error("KV key list is not an array.");
+  for (const key of keys) {
+    if (!isPlainObject(key) || typeof key.name !== "string" || !key.name) throw new Error("KV key list has an invalid record.");
   }
+  return keys.some((key) => key.name === "current");
+}
+
+// Fails closed: any list/read error or invalid stored document throws. Only `init` may bootstrap,
+// and only when a successful list proves `current` is absent. `report` is one strict get.
+function readCurrent(command) {
+  if (command === "init" && !currentKeyExists()) return defaultDashboard();
+  const output = runWrangler(["kv", "key", "get", "current", "--binding", "OPS_DASHBOARD", "--remote", "--text"]);
+  if (!output) throw new Error("Dashboard is empty; refusing to overwrite.");
+  const stored = JSON.parse(output);
+  if (!isPlainObject(stored)) throw new Error("Stored dashboard is not an object.");
+  if (!Array.isArray(stored.roles)) throw new Error("Stored dashboard roles must be an array.");
+  if (!isPlainObject(stored.totals)) throw new Error("Stored dashboard totals must be an object.");
+  const storedRoles = new Map();
+  for (const role of stored.roles) {
+    if (!isPlainObject(role) || typeof role.id !== "string" || !role.id) throw new Error("Stored dashboard has an invalid role entry.");
+    if (storedRoles.has(role.id)) throw new Error(`Stored dashboard has duplicate role id: ${role.id}`);
+    storedRoles.set(role.id, role);
+  }
+  const defaults = defaultDashboard();
+  const defaultIds = new Set(defaults.roles.map((role) => role.id));
+  return {
+    ...defaults,
+    ...stored,
+    roles: [
+      ...defaults.roles.map((role) => ({ ...role, ...storedRoles.get(role.id) })),
+      ...stored.roles.filter((role) => !defaultIds.has(role.id)),
+    ],
+  };
 }
 
 function writeCurrent(value) {
@@ -50,7 +75,7 @@ if (command !== "init" && command !== "report") {
   throw new Error("Usage: node scripts/ops-dashboard.mjs init | report <role-id> <status> <summary>");
 }
 
-const dashboard = readCurrent();
+const dashboard = readCurrent(command);
 if (command === "report") {
   const role = dashboard.roles.find((candidate) => candidate.id === roleId);
   if (!role) throw new Error(`Unknown role: ${roleId}`);

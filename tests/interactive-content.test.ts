@@ -19,7 +19,14 @@ import { validateCollection } from "../src/lib/interactive/validate.ts";
 
 interface Brief { id: string; slug: string; title: string; category_code: string; dependency: string }
 const briefs = (JSON.parse(readFileSync("content/interactive/briefs.json", "utf8")) as { quizzes: Brief[] }).quizzes;
-const sha256 = (path: string): string => createHash("sha256").update(readFileSync(path)).digest("hex");
+/**
+ * SHA-256 of the text with CRLF collapsed to LF. Checkout newline style (core.autocrlf, Windows vs macOS)
+ * changes raw bytes but not content, so the protected baseline is compared on canonical text. Only the
+ * two-character CRLF sequence is normalized: a lone CR, and every other character, still changes the hash.
+ * This is newline portability, not an allowlist for content changes.
+ */
+const canonicalTextFingerprint = (text: string): string => createHash("sha256").update(text.replace(/\r\n/g, "\n"), "utf8").digest("hex");
+const sha256 = (path: string): string => canonicalTextFingerprint(readFileSync(path, "utf8"));
 
 function topologicalOrder(ids: string[], edges: readonly (readonly [string, string])[], pick: "first" | "last"): string[] {
   const remaining = new Set(ids);
@@ -414,6 +421,43 @@ test("the generated catalog describes exactly what the banks contain and leaks n
   for (const leaked of ['"prompt"', '"explanation"', '"correct"', '"options"', '"questions"', '"sources"']) assert.ok(!source.includes(leaked), `catalog contains ${leaked}`);
 });
 
+/** True when a "use client" directive follows only whitespace and complete comments. Linear scan, no backtracking. */
+function isClientSource(source: string): boolean {
+  let pos = 0;
+  for (;;) {
+    while (pos < source.length && /\s/.test(source[pos])) pos += 1;
+    if (source.startsWith("//", pos)) {
+      const end = source.indexOf("\n", pos + 2);
+      if (end === -1) return false;
+      pos = end + 1;
+    } else if (source.startsWith("/*", pos)) {
+      const end = source.indexOf("*/", pos + 2);
+      if (end === -1) return false;
+      pos = end + 2;
+    } else break;
+  }
+  return /^["']use client["']/.test(source.slice(pos, pos + 12));
+}
+
+test("client directive detection handles comments, CRLF and long headers without backtracking", () => {
+  const longCrlf = "// licence header line\r\n".repeat(200);
+  assert.equal(isClientSource('"use client";\nexport {};'), true);
+  assert.equal(isClientSource("'use client'"), true);
+  assert.equal(isClientSource('// note\n"use client";'), true);
+  assert.equal(isClientSource('// note\r\n  \r\n"use client";'), true);
+  assert.equal(isClientSource('/* a\n * b\r\n */\n  // c\n"use client";'), true);
+  assert.equal(isClientSource('/* one *//* two */ "use client"'), true);
+  assert.equal(isClientSource(`${longCrlf}"use client";\r\n`), true);
+  assert.equal(isClientSource(`${longCrlf}export const x = 1;\r\n`), false);
+  assert.equal(isClientSource(`${longCrlf}// no newline at end`), false);
+  assert.equal(isClientSource('export const x = 1;\n"use client";'), false);
+  assert.equal(isClientSource('import "use client";'), false);
+  assert.equal(isClientSource('"use server";'), false);
+  assert.equal(isClientSource('// unterminated line comment "use client"'), false);
+  assert.equal(isClientSource('/* unterminated block\n"use client";'), false);
+  assert.equal(isClientSource(""), false);
+});
+
 test("quiz banks are never reachable from browser code", () => {
   const files: string[] = [];
   const collect = (dir: string): void => {
@@ -442,7 +486,7 @@ test("quiz banks are never reachable from browser code", () => {
     return imports.get(file) as string[];
   };
   const isBank = (file: string): boolean => file === join("src", "lib", "interactive", "registry.ts") || /content[\\/]interactive[\\/][A-Z]{2}\.json$/.test(file);
-  const clientFiles = files.filter((file) => /^(?:\s*(?:\/\/[^\n]*|\/\*[\s\S]*?\*\/))*\s*["']use client["']/.test(readFileSync(file, "utf8")));
+  const clientFiles = files.filter((file) => isClientSource(readFileSync(file, "utf8")));
   assert.ok(clientFiles.some((file) => file.includes(join("components", "interactive"))), "expected interactive client components");
   for (const entry of clientFiles) {
     const seen = new Set<string>([entry]);
@@ -461,7 +505,18 @@ test("quiz banks are never reachable from browser code", () => {
   assert.ok(importsOf("src/app/quizzes/[slug]/page.tsx").includes(join("src", "lib", "interactive", "registry.ts")));
 });
 
-test("existing quiz banks, scoring and routes are byte-for-byte unchanged", () => {
+test("canonical text fingerprint ignores CRLF checkout newlines but not content edits or lone CR", () => {
+  const lf = "export const a = 1;\nexport const b = 2;\n";
+  assert.equal(canonicalTextFingerprint(lf.replace(/\n/g, "\r\n")), canonicalTextFingerprint(lf), "CRLF and LF must hash identically");
+  assert.equal(canonicalTextFingerprint("a\r\nb\nc\r\n"), canonicalTextFingerprint("a\nb\nc\n"), "mixed endings normalize to LF");
+  assert.notEqual(canonicalTextFingerprint(lf.replace("= 2", "= 3")), canonicalTextFingerprint(lf), "a source edit must change the hash");
+  assert.notEqual(canonicalTextFingerprint(lf.replace("= 2", "= 3").replace(/\n/g, "\r\n")), canonicalTextFingerprint(lf), "a source edit under CRLF must change the hash");
+  assert.notEqual(canonicalTextFingerprint("a\rb"), canonicalTextFingerprint("a\nb"), "a lone CR is not a newline to normalize");
+  assert.notEqual(canonicalTextFingerprint("a\rb"), canonicalTextFingerprint("ab"), "a lone CR is not stripped");
+  assert.equal(canonicalTextFingerprint("a\rb"), createHash("sha256").update("a\rb", "utf8").digest("hex"), "a lone CR is hashed as-is");
+});
+
+test("existing quiz banks, scoring and routes retain canonical text fingerprints", () => {
   const baseline = JSON.parse(readFileSync("tests/fixtures/interactive-legacy-baseline.json", "utf8")) as Record<string, string>;
   const paths = Object.keys(baseline);
   assert.ok(paths.length > 100, "baseline looks truncated");
