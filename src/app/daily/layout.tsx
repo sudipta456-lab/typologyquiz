@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { socialMetadata } from "@/lib/page-metadata";
 import { breadcrumbList, jsonLdGraph } from "@/lib/structured-data";
 
+const TITLE = "Daily Minis: Three Tiny Games, New Every Day";
+const DESCRIPTION =
+  "Can you keep the streak? An anagram, a quick pick, and a this-or-that, the same for everyone on Earth today. Free, no signup.";
+
 export const metadata: Metadata = {
-  title: "Daily Minis: Three Tiny Games, New Every Day",
-  description:
-    "Can you keep the streak? An anagram, a quick pick, and a this-or-that, the same for everyone on Earth today. Free, no signup.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "https://typologyquiz.com/daily/" },
-  openGraph: {
-    title: "Daily Minis: Three Tiny Games, New Every Day · TypologyQuiz.com",
-    images: ["https://typologyquiz.com/og/daily.png"],
-  },
-  twitter: {
-    card: "summary_large_image",
-    images: ["https://typologyquiz.com/og/daily.png"],
-  },
+  ...socialMetadata({ path: "/daily/", title: TITLE, description: DESCRIPTION, image: "https://typologyquiz.com/og/daily.png" }),
 };
 
 // Breadcrumb so the SERP entry shows a path. No Quiz node here: the puzzles

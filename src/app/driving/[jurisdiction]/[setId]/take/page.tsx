@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JURISDICTIONS, getSet, getJurisdiction } from "@/lib/driving/jurisdictions";
+import { socialMetadata } from "@/lib/page-metadata";
 import { excerptsFor, getSnippet } from "@/lib/driving/excerpts";
 import type { HandbookExcerpt } from "@/lib/driving/types";
 import type { HandbookSnippet } from "@/lib/driving/excerpts";
@@ -46,12 +47,14 @@ export async function generateMetadata({
     return { title: "Driving practice test" };
   }
 
+  const title = `${found.jurisdiction.name} practice test · ${found.set.title}`;
+  const description = `${found.set.questions.length} ${found.jurisdiction.name} knowledge test practice questions with an explanation after every answer. ${found.set.description}`;
+  const path = `/driving/${found.jurisdiction.slug}/${found.set.id}/take/`;
   return {
-    title: `${found.jurisdiction.name} practice test · ${found.set.title}`,
-    description: `${found.set.questions.length} ${found.jurisdiction.name} knowledge test practice questions with an explanation after every answer. ${found.set.description}`,
-    alternates: {
-      canonical: `/driving/${found.jurisdiction.slug}/${found.set.id}/take/`,
-    },
+    title,
+    description,
+    alternates: { canonical: path },
+    ...socialMetadata({ path, title, description }),
   };
 }
 

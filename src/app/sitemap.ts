@@ -41,7 +41,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/friend-quiz/`, changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/fool/`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/about/`, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${base}/methodology/`, lastModified: new Date("2026-09-11"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/methodology/`, lastModified: new Date("2026-10-18"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/methodology/interactive-quizzes/`, lastModified: new Date("2026-10-18"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/credits/`, changeFrequency: "monthly", priority: 0.5 },
   ];
 

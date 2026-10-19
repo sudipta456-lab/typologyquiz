@@ -3,25 +3,42 @@ import Link from "next/link";
 import { TESTS } from "@/lib/tests/registry";
 import { assessmentEvidence } from "@/lib/tests/assessment-evidence";
 import { currentVersion } from "@/lib/tests/assessment-versions";
+import { CATEGORIES } from "@/lib/interactive/categories";
+import { SUMMARIES } from "@/lib/interactive/catalog.generated";
+import { socialMetadata } from "@/lib/page-metadata";
+
+const TITLE = "How our tests work";
+const DESCRIPTION = "Sources, scoring, limitations, and the evidence behind each TypologyQuiz assessment.";
 
 export const metadata: Metadata = {
-  title: "How our tests work", description: "Sources, scoring, limitations, and the evidence behind each TypologyQuiz assessment.",
+  title: TITLE, description: DESCRIPTION,
   alternates: { canonical: "/methodology/" },
+  ...socialMetadata({ path: "/methodology/", title: TITLE, description: DESCRIPTION }),
 };
 
 export default function MethodologyPage() {
   const ordered = [...TESTS].sort((a, b) => a.slug === "mini-ipip" ? -1 : b.slug === "mini-ipip" ? 1 : a.title.localeCompare(b.title));
   return <div className="section methodology-page">
-    <p className="eyebrow">Methods & evidence · Updated September 11, 2026</p>
+    <p className="eyebrow">Methods & evidence · Updated October 18, 2026</p>
     <h1 className="section-title">Know what a result can tell you.</h1>
     <p className="section-lead">Some of our tests use published instruments. Most are original quizzes for reflection or fun. We label the difference so you can decide how much weight to give a result.</p>
+    <section className="test-block">
+      <h2 className="test-block-title">Different quizzes, different purposes</h2>
+      <p>TypologyQuiz brings several approaches together on one free site, with different purposes and scoring. <Link href="/tests/" className="text-link">Personality tests</Link> carry purpose and evidence labels that separate published instruments from original reflection quizzes. The <Link href="/quizzes/" className="text-link">interactive collection</Link> has its own supplied cases and mixed task formats. <Link href="/trivia/" className="text-link">Scored trivia</Link> checks recall against stated answers. <Link href="/driving/" className="text-link">Driving practice</Link> questions come with explanations drawn from the official handbook for each jurisdiction.</p>
+      <p>The site also includes <Link href="/daily/" className="text-link">daily games</Link>, <Link href="/friends/" className="text-link">social play</Link> and <Link href="/weekly/" className="text-link">dated news quizzes</Link>, with their own on-page instructions and notes.</p>
+      <p>A result from one family should not be read as if it came from another. Each family is documented separately, and this combination of features is a description of what is here, not a claim that other sites lack any of them.</p>
+    </section>
+    <section className="test-block">
+      <h2 className="test-block-title">Interactive quizzes have their own methodology</h2>
+      <p>The {SUMMARIES.length} interactive quizzes in {CATEGORIES.length} categories use different formats and scoring from the assessments listed below. <Link href="/methodology/interactive-quizzes/" className="text-link">Read how the interactive quizzes are built, scored, sourced and reviewed →</Link> The entries below cover the personality and reasoning assessments only.</p>
+    </section>
     <div className="methodology-principles">
       <section className="content-card"><h2 className="content-card-title">A score is a summary.</h2><p>Our 0–100 scales summarize your answers. They do not show the percentage of people you outrank, the probability of a type, or how accurate the test is. We have no approved population norms for these assessments.</p></section>
       <section className="content-card"><h2 className="content-card-title">Published research has limits.</h2><p>Evidence for a source instrument applies to the versions, languages, participants, and purposes studied. It does not automatically validate our presentation, new wording, or a different use.</p></section>
       <section className="content-card"><h2 className="content-card-title">Types are descriptions.</h2><p>Original quizzes group answers using authored scoring rules. A mixed profile may produce a balanced result. These labels are conversation starters; they are not established psychological categories.</p></section>
     </div>
     <section className="test-block">
-      <h2 className="test-block-title">What changed in this release</h2>
+      <h2 className="test-block-title">What changed in the September 11, 2026 release</h2>
       <p>We removed percentile estimates based on undocumented defaults. New results record the form, scoring, report, and wording variant used. Old links preserve their scores and are marked as unversioned. We do not calculate changes between different or unknown versions.</p>
       <p>The Big Five form uses the 20 public-domain Mini-IPIP stems and scoring directions, interleaved across five traits, with accuracy response anchors. Our introductory instructions and one-question-at-a-time layout are adaptations. Higher “Emotional reactivity” scores reflect more reported emotional shifts; the underlying neuroticism score has not been inverted.</p>
       <p>Check the <a className="text-link" href="https://ipip.ori.org/MiniIPIPKey.htm">official Mini-IPIP key</a> and <a className="text-link" href="https://ipip.ori.org/new_ipip-50-item-scale.htm">IPIP administration guidance</a>. The <a className="text-link" href="https://pubmed.ncbi.nlm.nih.gov/16768595/">original Mini-IPIP study</a> concerns the source instrument, not this website release.</p>

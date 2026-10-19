@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { SITE } from "@/lib/site";
 
 // Installable web app ("add to home screen").
 //
@@ -13,8 +14,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "TypologyQuiz - free quizzes & driving practice tests",
     short_name: "TypologyQuiz",
-    description:
-      "Free personality quizzes and driving licence practice tests. No account, no ads, scored on your device.",
+    description: SITE.description,
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

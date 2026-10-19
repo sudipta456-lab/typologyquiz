@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { socialMetadata } from "@/lib/page-metadata";
 import { EDITIONS, latestEditions } from "@/lib/newsquiz/editions";
 import { editionPath } from "@/lib/editorial/identity";
 import SeriesFollow from "@/components/editorial-social/SeriesFollow";
 import { reminderCadence } from "@/lib/editorial-social/follow";
 import policy from "../../../content/publication-policy.json";
 
+const TITLE = "Weekly news quizzes and edition archive";
+const DESCRIPTION = "Play a dated news quiz, learn from the sources, and challenge a friend to the same edition.";
+
 export const metadata: Metadata = {
-  title: "Weekly news quizzes and edition archive",
-  description: "Play a dated news quiz, learn from the sources, and challenge a friend to the same edition.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "/weekly/" },
+  ...socialMetadata({ path: "/weekly/", title: TITLE, description: DESCRIPTION }),
 };
 
 export default function WeeklyPage() {

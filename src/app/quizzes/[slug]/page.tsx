@@ -95,6 +95,7 @@ export default async function InteractiveQuizPage({ params }: { params: Params }
         <aside aria-label="About this quiz" style={{ marginTop: 32 }}>
           <h2 className="font-display" style={{ fontSize: "1.1rem", fontWeight: 600, margin: "0 0 8px" }}>About this quiz</h2>
           <p>{resultNote(quiz.kind)}</p>
+          <p>Read <Link href="/methodology/interactive-quizzes/" className="text-link">how these quizzes are scored, sourced and reviewed</Link>.</p>
           {hasOriginal && <p>People, places, data and rules in the original cases are written for this quiz. Where a task relies on a real fact, the source is listed with the task and below.</p>}
           {references.length > 0 && (
             <>

@@ -35,8 +35,20 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 - [About](https://typologyquiz.com/about/): what the site is and how it handles privacy
 - [Credits](https://typologyquiz.com/credits/): instruments and sources
 - [Methodology and evidence](https://typologyquiz.com/methodology/): purpose, source evidence, version history and limits for every assessment
+- [Interactive quiz methodology](https://typologyquiz.com/methodology/interactive-quizzes/): how the 250 interactive quizzes are scored, sourced, reviewed and kept private
 - [Weekly news quizzes](https://typologyquiz.com/weekly/): dated published editions and permanent version links; new rounds require editorial review
 - [World Space Week 2026 group quiz](https://typologyquiz.com/world-space-week-2026/): a dated October 4–10 host guide for the Night Sky live session. A general-knowledge conversation starter, not an official World Space Week event or science assessment.
+
+## Interactive quiz methodology
+
+The main methodology page at https://typologyquiz.com/methodology/ explains how several quiz families combine: personality tests with purpose and evidence labels, the interactive collection with supplied cases and mixed formats, scored trivia, and driving practice with official handbook explanations. They have different purposes and scoring and are documented separately. This describes what the site offers and makes no claim about other sites.
+
+The page at https://typologyquiz.com/methodology/interactive-quizzes/ documents the 250 interactive quizzes: 2000 authored tasks across 10 categories in 10 task formats. What is distinctive is the combination, not any single feature: original cases that state their own rules and data, reference sources shown beside tasks that rest on real facts, objective scoring kept separate from preference description, and private play with no account.
+
+- Scoring: every scored task has equal weight, and route choices and explicitly ungraded predictions are not scored, so the scored count can be below the authored count. Ordering, matching, link-map and grid tasks can earn partial credit, false links in a link map are penalized, and any order that satisfies the stated rules is accepted. Preference choices are described relative to the options in the same task, with no norms, diagnosis or scientific validation.
+- Sources: the task review shows each explanation and its sources. Invented contexts in original cases are labeled, cases may still cite real facts with a visible reference, and survey-style quizzes use explicitly fictional datasets, not real polls. No learning outcome has been validated.
+- Authoring and review: written with AI assistance, then checked by a separate AI-assisted content and code review, with corrections applied after that review, plus automated structural tests. This is not an independent human fact-check of every item or psychometric validation.
+- Privacy: the quiz player calls no external AI service, and no AI analyzes free text. Optional reflection text is never saved or sent. Solo progress stays in the browser, pass-and-play is anonymous on one device, and analytics events carry only the quiz ID, version and page path. Sharing uses the plain quiz URL plus an editable message that can include accuracy if the player adds it.
 
 ## Personality quizzes
 

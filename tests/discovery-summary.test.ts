@@ -43,6 +43,17 @@ test("summary links public evidence/privacy hubs and known routes without promot
   }
 });
 
+test("interactive methodology is linked once from key pages and states its limits plainly", () => {
+  const url = "https://typologyquiz.com/methodology/interactive-quizzes/";
+  const keyPages = summary.split("## Key pages\n")[1].split("\n## ")[0];
+  assert.equal(keyPages.split("\n").filter(line => line.includes(`](${url})`)).length, 1);
+  assert.ok(analyticsPaths.includes("/methodology/interactive-quizzes/"));
+  const section = summary.split("## Interactive quiz methodology\n")[1].split("\n## ")[0];
+  assert.ok(section.includes("written with AI assistance") && section.includes("not an independent human fact-check of every item or psychometric validation"));
+  assert.ok(section.includes("No learning outcome has been validated") && section.includes("no norms, diagnosis or scientific validation"));
+  assert.ok(!section.includes("—") && !/guarantee|will be (indexed|ranked)/i.test(section));
+});
+
 test("new interest quizzes are discoverable and keep their limits visible", () => {
   const expected = [
     ["/trivia/physics/", "physics knowledge or ability"],

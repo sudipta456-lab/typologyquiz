@@ -1,6 +1,9 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-export const metadata: Metadata = { title: "Quizzes to play with friends", description: "Host a live quiz night, make a quiz about yourself, fool your friends with a trivia bluff, compare personality results, or collect your group's results in a room.", alternates: { canonical: "/friends/" } };
+import { socialMetadata } from "@/lib/page-metadata";
+const TITLE = "Quizzes to play with friends";
+const DESCRIPTION = "Host a live quiz night, make a quiz about yourself, fool your friends with a trivia bluff, compare personality results, or collect your group's results in a room.";
+export const metadata: Metadata = { title: TITLE, description: DESCRIPTION, alternates: { canonical: "/friends/" }, ...socialMetadata({ path: "/friends/", title: TITLE, description: DESCRIPTION }) };
 const activities = [
   { href: "/live/", label: "Host a live quiz night", prompt: "Phones up. Game on.", description: "Put the questions and live standings on a shared screen while players join with a code or QR code.", action: "Host a live quiz", tone: "blue" },
   { href: "/friend-quiz/", label: "Make a quiz about you", prompt: "Who knows you best?", description: "Choose your answers, send the link, and see how well your friends know you.", action: "Make a friend quiz", tone: "pink" },

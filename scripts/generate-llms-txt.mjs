@@ -75,6 +75,9 @@ const totalDrivingExcerpts = JURISDICTIONS.reduce(
 const letterQuizzes = TRIVIA_QUIZZES.filter((q) => q.filterLetter !== undefined);
 const authoredQuizzes = TRIVIA_QUIZZES.filter((q) => q.filterLetter === undefined);
 
+const interactiveTaskTotal = SUMMARIES.reduce((n, quiz) => n + quiz.questionCount, 0);
+const interactiveFormats = [...new Set(SUMMARIES.flatMap((quiz) => quiz.formats))];
+
 const friendQuestionCount = FRIEND_PACKS.reduce((n, p) => n + p.questions.length, 0);
 const friendRoundSize = sampleMix().length;
 const anagramPool = ANAGRAM_EASY.length + ANAGRAM_MEDIUM.length + ANAGRAM_HARD.length;
@@ -158,8 +161,34 @@ L.push(`- [Fool Your Friends](${base}/fool/): write convincing lies into a trivi
 L.push(`- [About](${base}/about/): what the site is and how it handles privacy`);
 L.push(`- [Credits](${base}/credits/): instruments and sources`);
 L.push(`- [Methodology and evidence](${base}/methodology/): purpose, source evidence, version history and limits for every assessment`);
+L.push(`- [Interactive quiz methodology](${base}/methodology/interactive-quizzes/): how the ${SUMMARIES.length} interactive quizzes are scored, sourced, reviewed and kept private`);
 L.push(`- [Weekly news quizzes](${base}/weekly/): dated published editions and permanent version links; new rounds require editorial review`);
 L.push(`- [World Space Week 2026 group quiz](${base}/world-space-week-2026/): a dated October 4–10 host guide for the Night Sky live session. A general-knowledge conversation starter, not an official World Space Week event or science assessment.`);
+L.push("");
+
+// Kept near the front on purpose: the full catalog below is large and readers may truncate before the end.
+L.push("## Interactive quiz methodology");
+L.push("");
+L.push(
+  `The main methodology page at ${base}/methodology/ explains how several quiz families combine: personality tests with purpose and evidence labels, the interactive collection with supplied cases and mixed formats, scored trivia, and driving practice with official handbook explanations. They have different purposes and scoring and are documented separately. This describes what the site offers and makes no claim about other sites.`
+);
+L.push("");
+L.push(
+  `The page at ${base}/methodology/interactive-quizzes/ documents the ${SUMMARIES.length} interactive quizzes: ${interactiveTaskTotal} authored tasks across ${CATEGORIES.length} categories in ${interactiveFormats.length} task formats. What is distinctive is the combination, not any single feature: original cases that state their own rules and data, reference sources shown beside tasks that rest on real facts, objective scoring kept separate from preference description, and private play with no account.`
+);
+L.push("");
+L.push(
+  "- Scoring: every scored task has equal weight, and route choices and explicitly ungraded predictions are not scored, so the scored count can be below the authored count. Ordering, matching, link-map and grid tasks can earn partial credit, false links in a link map are penalized, and any order that satisfies the stated rules is accepted. Preference choices are described relative to the options in the same task, with no norms, diagnosis or scientific validation."
+);
+L.push(
+  "- Sources: the task review shows each explanation and its sources. Invented contexts in original cases are labeled, cases may still cite real facts with a visible reference, and survey-style quizzes use explicitly fictional datasets, not real polls. No learning outcome has been validated."
+);
+L.push(
+  "- Authoring and review: written with AI assistance, then checked by a separate AI-assisted content and code review, with corrections applied after that review, plus automated structural tests. This is not an independent human fact-check of every item or psychometric validation."
+);
+L.push(
+  "- Privacy: the quiz player calls no external AI service, and no AI analyzes free text. Optional reflection text is never saved or sent. Solo progress stays in the browser, pass-and-play is anonymous on one device, and analytics events carry only the quiz ID, version and page path. Sharing uses the plain quiz URL plus an editable message that can include accuracy if the player adds it."
+);
 L.push("");
 
 // ---------------------------------------------------------------------------

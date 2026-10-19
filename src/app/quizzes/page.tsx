@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SITE } from "@/lib/site";
 import { breadcrumbList, collectionPageNodes, jsonLdGraph } from "@/lib/structured-data";
 import { CATEGORIES } from "@/lib/interactive/categories";
@@ -46,7 +47,7 @@ export default function InteractiveQuizzesPage() {
         <p className="eyebrow">Interactive quizzes</p>
         <h1 className="section-title">{SUMMARIES.length} quizzes to play, match, order and map</h1>
         <p className="section-lead">
-          Short, original quizzes across {CATEGORIES.length} categories. Knowledge quizzes show how many tasks you got right; choice-based ones describe your own picks and are not tests or diagnoses. Progress and answers stay in your browser.
+          Short, original quizzes across {CATEGORIES.length} categories. Knowledge quizzes show how many tasks you got right; choice-based ones describe your own picks and are not tests or diagnoses. Progress and answers stay in your browser. See <Link href="/methodology/interactive-quizzes/" className="text-link">how these quizzes are built, scored and reviewed</Link>.
         </p>
         <QuizDirectory quizzes={SUMMARIES} categories={CATEGORIES} />
       </div>

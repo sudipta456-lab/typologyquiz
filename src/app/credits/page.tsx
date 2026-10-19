@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { socialMetadata } from "@/lib/page-metadata";
+
+const TITLE = "Credits & attributions";
+const DESCRIPTION = "Sources, adaptations, and rights status of TypologyQuiz assessments.";
 
 export const metadata: Metadata = {
-  title: "Credits & attributions", description: "Sources, adaptations, and rights status of TypologyQuiz assessments.",
+  title: TITLE, description: DESCRIPTION,
   alternates: { canonical: "/credits/" },
+  ...socialMetadata({ path: "/credits/", title: TITLE, description: DESCRIPTION }),
 };
 export default function CreditsPage() {
   return <div className="section methodology-page">
