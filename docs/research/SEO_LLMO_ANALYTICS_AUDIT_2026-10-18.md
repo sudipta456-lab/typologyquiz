@@ -38,4 +38,8 @@ The new static coverage gate follows each HTML document's actual script tags and
 
 ## Publication receipt
 
-Pending publication. Previous production version: `2383ab76-567d-4db3-911d-0cb5ad9c39ea`.
+Published source commit `71ac4daa` to Worker `typologyquiz`, version `3cb37a7b-5993-40dd-a3ff-1625622feca8`, on October 18 local / October 19 UTC. Deployment listing confirms 100% traffic. Previous version `2383ab76-567d-4db3-911d-0cb5ad9c39ea` remains the rollback candidate. Worker-first routing, code and bindings are unchanged.
+
+Seventeen targeted live HTTP responses passed: new/main methodology, directory, a quiz, seven corrected metadata page families, sitemap, robots, llms.txt, analytics chunk and two `www` pages. Responses match the verified export, allowing only Cloudflare's appended browser-check script on HTML; the entire authored HTML remains identical. The live sitemap contains 834 URLs; sampled canonical/Open Graph URLs and JSON-LD are correct. Live robots and llms.txt match the expected files. Analytics chunk SHA-256: `af387ebe3161933221dbca24e4ea31f6783bf1c8aa2efd63335ea239291c4a6f`.
+
+Live browser QA confirmed the methodology heading, self-canonical, Google tag script `G-TZ9B8MB7SP`, no horizontal overflow and no console warnings/errors. Temporary preview server/tab closed; mobile viewport reset. Local audit receipts are under `work/seo-methodology-2026-10-18/`; private GA aggregates are deliberately not published. Unrelated primary ops files were hash-checked unchanged after fast-forward.
