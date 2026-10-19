@@ -59,3 +59,13 @@ Reddit global rules https://redditinc.com/policies/reddit-rules were retrieved a
 The new map-study draft is the next useful community handoff, subject to exact Reddit identity, rules and current need. Publisher drafts remain unsent with approved mail unavailable; SciTech pending review must not be resubmitted. Preserve the verified TikTok queue and leave publishing audits to its operator. No site code, deployment, analytics/privacy control or account configuration changed.
 
 Local evidence: `/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/community-contributor/2026-10-18-afternoon/` includes comments, the question, logged-out screenshot, rules shell and concise review JSON. Dashboard: `community-contributor Reviewed` — current map-study reply drafted; Reddit logged out and local rules unavailable; no public action.
+
+## Owner login continuation — identity mismatch
+
+The owner reported logging back in. Claimed the existing discussion tab in the in-app browser (not the earlier logged-out Chrome session), at https://www.reddit.com/r/APHumanGeography/comments/1x8tu8n/how_to_study_for_map_quizzes/ . The current thread remains a study-tips request with the same three game recommendations; no duplicate of our held draft was visible.
+
+Opening the user menu visibly exposes https://www.reddit.com/user/Beautiful-Ad-7782/ and that account's achievements link. **Signed-in identity is u/Beautiful-Ad-7782, not the authorized u/typologyquiz.** No reply was typed, posted or sent, no reaction was made, and no login, logout, credential, account-switch or setting action occurred. Menu closed; original user tab retained for the owner. Today's public contribution count remains zero, exact submitted copy/permalink none, and the earlier draft remains unchanged.
+
+The owner was told the exact mismatch. Switch to the approved u/typologyquiz account before any public action. Local rules still require verification; successful login alone does not resolve that separate gate. No new local-rule or factual-source review was performed in this identity-only continuation. No website, TikTok queue, email or deployment action.
+
+Local evidence: `/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/community-contributor/2026-10-18-login-recheck/review.json`. Dashboard: `community-contributor Needs account` — Reddit signed-in identity differs from approved handle; reply held, no public action.
