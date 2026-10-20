@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "PC-01",
+    "slug": "unplanned-saturday",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-02",
+    "slug": "tiny-decision-constitution",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-03",
+    "slug": "lost-in-cozy-bookshop",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-04",
+    "slug": "curiosity-detour",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-05",
+    "slug": "deadline-triage-festival",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-06",
+    "slug": "values-auction",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-07",
+    "slug": "place-that-feels-yours",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-08",
+    "slug": "pocket-sized-world",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-09",
+    "slug": "midnight-train-crossroads",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-10",
+    "slug": "exception-court",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-11",
+    "slug": "one-bag-unknown-door",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-12",
+    "slug": "now-or-later-bazaar",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-13",
+    "slug": "advice-swap",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-14",
+    "slug": "keep-lend-let-go",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-15",
+    "slug": "small-courage-ladder",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-16",
+    "slug": "open-door-floor-plan",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-17",
+    "slug": "sound-bed-decisions",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-18",
+    "slug": "week-in-opposites",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-19",
+    "slug": "borrowed-superpower-tradeoffs",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-20",
+    "slug": "split-decision-poll-walk",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-21",
+    "slug": "one-sentence-adventure",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-22",
+    "slug": "name-that-decision-trap",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-23",
+    "slug": "four-neighbors-tiebreakers",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-24",
+    "slug": "ten-minute-gap-planner",
+    "category_code": "PC"
+  },
+  {
+    "id": "PC-25",
+    "slug": "town-council-of-your-wants",
+    "category_code": "PC"
+  },
+  {
+    "id": "FS-01",
+    "slug": "group-plan-rescue",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-02",
+    "slug": "silent-consensus",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-03",
+    "slug": "pack-group-picnic",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-04",
+    "slug": "rebuild-weekend-together",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-05",
+    "slug": "two-truths-plot-twist",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-06",
+    "slug": "who-chose-that",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-07",
+    "slug": "friendship-time-capsule",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-08",
+    "slug": "everyone-wins-tournament",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-09",
+    "slug": "carpool-seat-puzzle",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-10",
+    "slug": "gift-swap-roundtable",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-11",
+    "slug": "crew-roles-backstage",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-12",
+    "slug": "surprise-party-timeline",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-13",
+    "slug": "roommate-treaty-table",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-14",
+    "slug": "spot-unspoken-assumption",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-15",
+    "slug": "pass-the-plot-pen",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-16",
+    "slug": "five-minute-group-quest",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-17",
+    "slug": "spot-it-together",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-18",
+    "slug": "group-photo-staging",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-19",
+    "slug": "pass-prompt-postcard",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-20",
+    "slug": "guess-the-opt-in-crowd",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-21",
+    "slug": "invitation-relay",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-22",
+    "slug": "split-it-squad",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-23",
+    "slug": "party-role-draft",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-24",
+    "slug": "icebreaker-ladder",
+    "category_code": "FS"
+  },
+  {
+    "id": "FS-25",
+    "slug": "everyone-gets-something-swap",
+    "category_code": "FS"
+  },
+  {
+    "id": "MT-01",
+    "slug": "continuity-detective-film-sets",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-02",
+    "slug": "rewatch-ritual-style",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-03",
+    "slug": "film-craft-decoder",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-04",
+    "slug": "adaptation-switchboard",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-05",
+    "slug": "cozy-or-creepy-scene-lab",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-06",
+    "slug": "unreliable-narrator-files",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-07",
+    "slug": "cinema-across-three-borders",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-08",
+    "slug": "movie-in-three-timelines",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-09",
+    "slug": "animation-technique-lab",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-10",
+    "slug": "writers-room-relay",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-11",
+    "slug": "trailer-grammar",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-12",
+    "slug": "read-the-rating-label",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-13",
+    "slug": "one-actor-three-worlds",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-14",
+    "slug": "tv-episode-anatomy",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-15",
+    "slug": "season-shape-preference",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-16",
+    "slug": "sound-design-ear-test",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-17",
+    "slug": "fan-theory-evidence-board",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-18",
+    "slug": "wardrobe-story-reader",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-19",
+    "slug": "movie-tech-problem-solvers",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-20",
+    "slug": "showrunners-season-planner",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-21",
+    "slug": "three-ways-to-follow-dialogue",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-22",
+    "slug": "how-scares-work",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-23",
+    "slug": "documentary-forms-sorter",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-24",
+    "slug": "story-shapes-tv-formats",
+    "category_code": "MT"
+  },
+  {
+    "id": "MT-25",
+    "slug": "poster-grammar-lab",
+    "category_code": "MT"
+  },
+  {
+    "id": "MU-01",
+    "slug": "build-opening-three-songs",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-02",
+    "slug": "festival-route-planner",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-03",
+    "slug": "behind-the-album-credits",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-04",
+    "slug": "sample-or-cover-concepts",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-05",
+    "slug": "mixtape-without-songs",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-06",
+    "slug": "instrument-sound-role-links",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-07",
+    "slug": "music-scene-passport",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-08",
+    "slug": "genre-family-tree-builder",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-09",
+    "slug": "build-the-touring-crew",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-10",
+    "slug": "music-terms-without-panic",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-11",
+    "slug": "studio-trick-translator",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-12",
+    "slug": "rehearsal-cue-chain",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-13",
+    "slug": "format-shift-listening-tech",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-14",
+    "slug": "music-myth-checkpoint",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-15",
+    "slug": "small-venue-survival-guide",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-16",
+    "slug": "read-the-room-dj",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-17",
+    "slug": "garage-band-crossroads",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-18",
+    "slug": "road-trip-playlist-treaty",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-19",
+    "slug": "predict-my-mood-duet",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-20",
+    "slug": "music-discovery-trail",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-21",
+    "slug": "describe-that-sound-out-loud",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-22",
+    "slug": "the-rhythm-switch",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-23",
+    "slug": "loop-layer-lab",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-24",
+    "slug": "mood-loops-pick-pulse",
+    "category_code": "MU"
+  },
+  {
+    "id": "MU-25",
+    "slug": "stage-plot-hotspot-hunt",
+    "category_code": "MU"
+  },
+  {
+    "id": "GT-01",
+    "slug": "rain-shadow-road-trip",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-02",
+    "slug": "city-region-country-relay",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-03",
+    "slug": "time-zone-rendezvous",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-04",
+    "slug": "postcard-perspective-puzzle",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-05",
+    "slug": "mexico-beyond-the-beach",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-06",
+    "slug": "borderless-watersheds",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-07",
+    "slug": "one-river-three-clues",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-08",
+    "slug": "missing-transit-stop",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-09",
+    "slug": "seven-hour-layover-lab",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-10",
+    "slug": "twin-cities-across-the-line",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-11",
+    "slug": "mexico-altitude-ladder",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-12",
+    "slug": "midnight-sun-or-mild-evening",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-13",
+    "slug": "named-winds-lake-snow",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-14",
+    "slug": "same-distance-different-numbers",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-15",
+    "slug": "wayfinding-landmarks-or-lines",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-16",
+    "slug": "landscape-knowledge-landscape-taste",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-17",
+    "slug": "fair-midpoint-meetup",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-18",
+    "slug": "detour-diary-prairie-pacific",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-19",
+    "slug": "names-layered-on-the-map",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-20",
+    "slug": "seen-from-orbit",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-21",
+    "slug": "read-the-climate-chart",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-22",
+    "slug": "hear-the-landscape",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-23",
+    "slug": "passenger-seat-rules",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-24",
+    "slug": "itinerary-sanity-check",
+    "category_code": "GT"
+  },
+  {
+    "id": "GT-25",
+    "slug": "flat-map-round-world",
+    "category_code": "GT"
+  },
+  {
+    "id": "SN-01",
+    "slug": "backyard-evidence-lab",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-02",
+    "slug": "moon-mission-control",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-03",
+    "slug": "scale-shock",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-04",
+    "slug": "weather-without-forecast",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-05",
+    "slug": "mystery-material",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-06",
+    "slug": "build-a-food-web",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-07",
+    "slug": "where-was-the-light",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-08",
+    "slug": "sound-you-cannot-see",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-09",
+    "slug": "the-pollinator-shift",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-10",
+    "slug": "cause-chain-courtroom",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-11",
+    "slug": "field-notebook-style",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-12",
+    "slug": "tiny-terrarium-logic",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-13",
+    "slug": "where-did-the-energy-go",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-14",
+    "slug": "fair-test-designer",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-15",
+    "slug": "rock-cycle-road-trip",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-16",
+    "slug": "night-sky-clue-hunt",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-17",
+    "slug": "who-passed-through-here",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-18",
+    "slug": "season-reasoning-gauntlet",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-19",
+    "slug": "follow-the-drop",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-20",
+    "slug": "species-under-pressure",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-21",
+    "slug": "pickles-to-pond-osmosis",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-22",
+    "slug": "freeze-thaw-pothole-predictor",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-23",
+    "slug": "predict-reveal-revise",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-24",
+    "slug": "spot-the-weak-science-claim",
+    "category_code": "SN"
+  },
+  {
+    "id": "SN-25",
+    "slug": "citizen-science-team-builder",
+    "category_code": "SN"
+  },
+  {
+    "id": "HC-01",
+    "slug": "museum-of-everyday-objects",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-02",
+    "slug": "before-the-first-iphone",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-03",
+    "slug": "archive-missing-page",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-04",
+    "slug": "fact-claim-interpretation",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-05",
+    "slug": "city-in-three-eras",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-06",
+    "slug": "how-a-word-crossed-borders",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-07",
+    "slug": "book-place-era",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-08",
+    "slug": "trade-routes-behind-breakfast",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-09",
+    "slug": "two-sources-one-event",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-10",
+    "slug": "graphic-novel-workshop",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-11",
+    "slug": "whose-voice-is-missing",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-12",
+    "slug": "time-capsule-packing",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-13",
+    "slug": "design-local-history-museum",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-14",
+    "slug": "festival-calendar-gap",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-15",
+    "slug": "pack-the-pack-train",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-16",
+    "slug": "what-the-railroad-changed",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-17",
+    "slug": "street-names-clue-or-overreach",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-18",
+    "slug": "made-by-hand-order-steps",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-19",
+    "slug": "living-cultures-museum-wall",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-20",
+    "slug": "many-hands-made-this",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-21",
+    "slug": "letters-across-the-border",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-22",
+    "slug": "the-map-was-updated",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-23",
+    "slug": "soundscapes-everyday-life",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-24",
+    "slug": "the-cropped-photograph",
+    "category_code": "HC"
+  },
+  {
+    "id": "HC-25",
+    "slug": "footnote-treasure-hunt",
+    "category_code": "HC"
+  },
+  {
+    "id": "FE-01",
+    "slug": "build-a-home-cafe",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-02",
+    "slug": "kitchen-tool-detective",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-03",
+    "slug": "flavor-triangle",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-04",
+    "slug": "fridge-to-meal-puzzle",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-05",
+    "slug": "grocery-aisle-time-machine",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-06",
+    "slug": "pantry-swap-laboratory",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-07",
+    "slug": "lunchbox-across-three-borders",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-08",
+    "slug": "texture-tournament",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-09",
+    "slug": "menu-word-decoder",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-10",
+    "slug": "mise-en-place-race",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-11",
+    "slug": "receipt-riddles",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-12",
+    "slug": "dinner-on-a-deadline",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-13",
+    "slug": "sauce-family-tree",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-14",
+    "slug": "spice-passport",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-15",
+    "slug": "cookware-casting-call",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-16",
+    "slug": "weeknight-dinner-dilemma",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-17",
+    "slug": "potluck-without-doubles",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-18",
+    "slug": "kitchen-sound-guess",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-19",
+    "slug": "counter-hotspot-hunt",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-20",
+    "slug": "plating-style-match",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-21",
+    "slug": "dish-rack-logic",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-22",
+    "slug": "seven-guests-four-servings",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-23",
+    "slug": "watch-party-snack-table",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-24",
+    "slug": "reading-night-snacks",
+    "category_code": "FE"
+  },
+  {
+    "id": "FE-25",
+    "slug": "gadget-drawer-verdict",
+    "category_code": "FE"
+  },
+  {
+    "id": "SG-01",
+    "slug": "co-op-role-picker",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-02",
+    "slug": "watch-party-rulebook",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-03",
+    "slug": "soccer-words-across-borders",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-04",
+    "slug": "board-game-mechanic-mixer",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-05",
+    "slug": "sports-equipment-evolution",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-06",
+    "slug": "stadium-city-country-links",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-07",
+    "slug": "replay-the-turning-point",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-08",
+    "slug": "court-is-a-diagram",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-09",
+    "slug": "name-game-by-rules",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-10",
+    "slug": "scorekeepers-dictionary",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-11",
+    "slug": "boss-fight-logic-grid",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-12",
+    "slug": "what-survives-reload",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-13",
+    "slug": "table-rules-lawyer",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-14",
+    "slug": "adaptive-sports-rules-primer",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-15",
+    "slug": "womens-sports-milestone-relay",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-16",
+    "slug": "pickup-game-temperament",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-17",
+    "slug": "rule-designers-dilemma",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-18",
+    "slug": "game-accessibility-toolkit",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-19",
+    "slug": "console-controllers-decades",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-20",
+    "slug": "session-zero-wish-list",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-21",
+    "slug": "referee-signal-decoder",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-22",
+    "slug": "the-missing-point",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-23",
+    "slug": "games-from-the-americas",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-24",
+    "slug": "game-sound-sleuth",
+    "category_code": "SG"
+  },
+  {
+    "id": "SG-25",
+    "slug": "last-move-mystery",
+    "category_code": "SG"
+  },
+  {
+    "id": "LW-01",
+    "slug": "elevator-schedule-logic",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-02",
+    "slug": "one-rule-is-wrong",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-03",
+    "slug": "missing-punctuation-message",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-04",
+    "slug": "two-way-clue",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-05",
+    "slug": "helpful-red-herring",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-06",
+    "slug": "three-layer-alibi",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-07",
+    "slug": "museum-label-mixup",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-08",
+    "slug": "repair-transit-diagram",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-09",
+    "slug": "awkward-seating-chart",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-10",
+    "slug": "ask-one-better-question",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-11",
+    "slug": "unreliable-lighthouse-log",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-12",
+    "slug": "fold-punch-unfold",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-13",
+    "slug": "homophone-radio-relay",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-14",
+    "slug": "mirror-sign-reader",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-15",
+    "slug": "words-hiding-between-words",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-16",
+    "slug": "one-letter-sentence-fix",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-17",
+    "slug": "half-clue-handoff",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-18",
+    "slug": "hunch-or-proof",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-19",
+    "slug": "rule-sorting-machine",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-20",
+    "slug": "build-order-prerequisites",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-21",
+    "slug": "double-duty-words",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-22",
+    "slug": "which-weighing-settles-it",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-23",
+    "slug": "gatekeepers-rule",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-24",
+    "slug": "fine-print-conditionals",
+    "category_code": "LW"
+  },
+  {
+    "id": "LW-25",
+    "slug": "shift-note-decoder",
+    "category_code": "LW"
+  }
+]

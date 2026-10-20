@@ -400,24 +400,23 @@ function collection(count: number): Quiz[] {
   return Array.from({ length: count }, (_, index) => ({ ...makeQuiz(), id: `quiz-${index}`, slug: `quiz-${index}` }));
 }
 
-test("collection rules: 25 per category, unique ids and slugs", () => {
-  assert.deepEqual(validateCollection(collection(25)), []);
-  expectError(validateCollection(collection(24)), "needs exactly 25");
-  expectError(validateCollection(collection(26)), "needs exactly 25");
-  const dupSlug = collection(25);
+test("collection rules: any size is valid, ids and slugs stay unique", () => {
+  for (const size of [0, 1, 24, 25, 26, 51]) assert.deepEqual(validateCollection(collection(size)), [], `${size} quizzes`);
+  const unequal = [...collection(26), ...collection(27).map((quiz, index) => ({ ...quiz, id: `other-${index}`, slug: `other-${index}`, categoryId: "cat-b" }))];
+  assert.deepEqual(validateCollection(unequal), [], "categories may grow unequally");
+  const dupSlug = collection(26);
   dupSlug[3].slug = dupSlug[2].slug;
   expectError(validateCollection(dupSlug), "duplicate slug");
-  const dupId = collection(25);
+  const dupId = collection(26);
   dupId[3].id = dupId[2].id;
   expectError(validateCollection(dupId), "duplicate quiz id");
-  const broken = collection(25);
+  const broken = collection(26);
   broken[7].questions = [];
   expectError(validateCollection(broken), "quiz-7");
-  const split = collection(25);
-  split[0].categoryId = "cat-b";
-  const errors = validateCollection(split);
-  expectError(errors, "category cat-a");
-  expectError(errors, "category cat-b");
+  const grown = collection(25);
+  grown.push({ ...makeQuiz(), id: "PC-26", slug: "temporary-growth-probe" });
+  assert.deepEqual(validateCollection(grown), [], "appending a 26th quiz to a category is valid");
+  expectError(validateCollection("nope" as unknown as Quiz[]), "must be an array");
 });
 
 test("progress keys bind namespace, identity, version and content fingerprint", () => {

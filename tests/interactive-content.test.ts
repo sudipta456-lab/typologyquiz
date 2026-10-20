@@ -7,10 +7,11 @@ import sitemap from "../src/app/sitemap.ts";
 import { analyticsInteractiveQuizzes, analyticsPaths } from "../src/lib/analytics-manifest.generated.ts";
 import { analyticsPageGroup, analyticsPath, createAnalyticsController, safeEventParameters, trackInteractiveQuizEvent } from "../src/lib/analytics.ts";
 import { CATEGORIES } from "../src/lib/interactive/categories.ts";
-import { PUBLIC_SLUGS, SUMMARIES } from "../src/lib/interactive/catalog.generated.ts";
+import { PUBLIC_SLUGS, QUIZ_IDENTITIES, SUMMARIES } from "../src/lib/interactive/catalog.generated.ts";
 import { scoreQuestion, scoreQuiz, validateAnswer, visibleQuestions } from "../src/lib/interactive/engine.ts";
 import { getCategory, getQuiz, QUIZZES, quizPath } from "../src/lib/interactive/registry.ts";
 import type { Answer, Answers, Question, Quiz } from "../src/lib/interactive/types.ts";
+import { parseManifest } from "../src/lib/interactive/manifest.ts";
 import { validateCollection } from "../src/lib/interactive/validate.ts";
 
 // These tests exercise the shipped banks: identity, scoring contracts, provenance and integration.
@@ -18,7 +19,10 @@ import { validateCollection } from "../src/lib/interactive/validate.ts";
 // that needs the separate human/independent content review.
 
 interface Brief { id: string; slug: string; title: string; category_code: string; dependency: string }
-const briefs = (JSON.parse(readFileSync("content/interactive/briefs.json", "utf8")) as { quizzes: Brief[] }).quizzes;
+const manifest = parseManifest<Brief>(JSON.parse(readFileSync("content/interactive/briefs.json", "utf8")), CATEGORIES);
+const briefs = manifest.quizzes;
+/** The original 250 were a one-time batch, kept as a fixture so their IDs, slugs and categories can never be lost. The total is not constrained. */
+const initialIdentities = JSON.parse(readFileSync("tests/fixtures/interactive-initial-identities.json", "utf8")) as { id: string; slug: string; category_code: string }[];
 /**
  * SHA-256 of the text with CRLF collapsed to LF. Checkout newline style (core.autocrlf, Windows vs macOS)
  * changes raw bytes but not content, so the protected baseline is compared on canonical text. Only the
@@ -137,8 +141,17 @@ function positiveClaim(text: string, pattern: RegExp): boolean {
   return false;
 }
 
-test("the corpus is exactly the approved 250: IDs, slugs, categories and 8 tasks each", () => {
-  assert.equal(QUIZZES.length, 250);
+test("the corpus matches the manifest: IDs, slugs, categories and 8 tasks each, and the original 250 identities remain", () => {
+  assert.equal(QUIZZES.length, briefs.length);
+  assert.equal(initialIdentities.length, 250, "the initial-identity fixture is a frozen historical record");
+  for (const initial of initialIdentities) {
+    const brief = briefs.find((item) => item.id === initial.id);
+    assert.deepEqual(brief && { id: brief.id, slug: brief.slug, category_code: brief.category_code }, initial, `${initial.id} must remain in the manifest unchanged`);
+    const quiz = QUIZZES.find((item) => item.id === initial.id);
+    assert.ok(quiz, `${initial.id} must remain in the registry`);
+    assert.equal(quiz.slug, initial.slug, initial.id);
+    assert.equal(getCategory(quiz.categoryId)?.code, initial.category_code, initial.id);
+  }
   assert.deepEqual(QUIZZES.map((quiz) => quiz.id).sort(), briefs.map((brief) => brief.id).sort());
   for (const brief of briefs) {
     const quiz = QUIZZES.find((item) => item.id === brief.id);
@@ -146,12 +159,12 @@ test("the corpus is exactly the approved 250: IDs, slugs, categories and 8 tasks
     assert.equal(quiz.slug, brief.slug, brief.id);
     assert.equal(getCategory(quiz.categoryId)?.code, brief.category_code, brief.id);
     assert.equal(quiz.questions.length, 8, brief.id);
-    assert.equal(quiz.version, 1, brief.id);
+    assert.ok(Number.isSafeInteger(quiz.version) && quiz.version >= 1, brief.id);
   }
-  for (const category of CATEGORIES) assert.equal(QUIZZES.filter((quiz) => quiz.categoryId === category.id).length, 25, category.id);
-  assert.equal(QUIZZES.reduce((total, quiz) => total + quiz.questions.length, 0), 2000);
+  for (const category of CATEGORIES) assert.equal(QUIZZES.filter((quiz) => quiz.categoryId === category.id).length, manifest.categories.find((item) => item.code === category.code)?.count, category.id);
+  assert.equal(QUIZZES.reduce((total, quiz) => total + quiz.questions.length, 0), QUIZZES.length * 8);
   assert.deepEqual(validateCollection(QUIZZES), []);
-  assert.equal(new Set(QUIZZES.map((quiz) => quiz.slug)).size, 250);
+  assert.equal(new Set(QUIZZES.map((quiz) => quiz.slug)).size, QUIZZES.length);
   assert.ok(!QUIZZES.some((quiz) => quiz.slug === "category"), "slug would collide with /quizzes/category/");
   assert.equal(getQuiz(QUIZZES[0].slug), QUIZZES[0]);
   assert.equal(getQuiz("__proto__"), undefined);
@@ -159,8 +172,8 @@ test("the corpus is exactly the approved 250: IDs, slugs, categories and 8 tasks
 });
 
 test("every quiz is a real activity: distinct titles, descriptions and prompts, two or more formats, no placeholder text", () => {
-  assert.equal(new Set(QUIZZES.map((quiz) => quiz.title.toLowerCase())).size, 250, "titles must be unique");
-  assert.equal(new Set(QUIZZES.map((quiz) => quiz.description.toLowerCase())).size, 250, "descriptions must be unique");
+  assert.equal(new Set(QUIZZES.map((quiz) => quiz.title.toLowerCase())).size, QUIZZES.length, "titles must be unique");
+  assert.equal(new Set(QUIZZES.map((quiz) => quiz.description.toLowerCase())).size, QUIZZES.length, "descriptions must be unique");
   const prompts = new Map<string, string>();
   for (const quiz of QUIZZES) {
     assert.ok(quiz.sections.length >= 2 && quiz.sections.length <= 3, `${quiz.id} sections`);
@@ -406,7 +419,7 @@ test("social quizzes honour their play mode, and Friends & Social Play includes 
 });
 
 test("the generated catalog describes exactly what the banks contain and leaks no question content", () => {
-  assert.equal(SUMMARIES.length, 250);
+  assert.equal(SUMMARIES.length, QUIZZES.length);
   assert.deepEqual(PUBLIC_SLUGS, QUIZZES.map((quiz) => quiz.slug));
   for (const quiz of QUIZZES) {
     const summary = SUMMARIES.find((item) => item.id === quiz.id);
@@ -529,9 +542,10 @@ test("existing quiz banks, scoring and routes retain canonical text fingerprints
 });
 
 test("analytics: new routes are measured as a bounded group, with identity-only start and complete events", () => {
-  assert.equal(analyticsInteractiveQuizzes.length, 250);
+  assert.equal(analyticsInteractiveQuizzes.length, QUIZZES.length);
   assert.deepEqual(analyticsInteractiveQuizzes.map((quiz) => quiz.slug), QUIZZES.map((quiz) => quiz.slug));
-  assert.ok(analyticsInteractiveQuizzes.every((quiz) => quiz.version === 1));
+  assert.deepEqual(analyticsInteractiveQuizzes, QUIZ_IDENTITIES.map(({ id, slug, version }) => ({ id, slug, version })), "analytics identities follow the generated catalog");
+  assert.deepEqual(analyticsInteractiveQuizzes, QUIZZES.map(({ id, slug, version }) => ({ id, slug, version })), "analytics versions follow the banks");
   for (const path of ["/quizzes/", ...CATEGORIES.map((category) => `/quizzes/category/${category.id}/`), ...QUIZZES.map((quiz) => `/quizzes/${quiz.slug}/`)]) {
     assert.ok(analyticsPaths.includes(path), `manifest omits ${path}`);
     assert.equal(analyticsPageGroup(path), "interactive_quiz", path);
@@ -570,10 +584,10 @@ test("analytics: new routes are measured as a bounded group, with identity-only 
   assert.doesNotThrow(() => trackInteractiveQuizEvent("interactive_quiz_start", quiz.id, 1), "no-ops outside a browser");
 });
 
-test("sitemap lists the hub, 10 categories and 250 quizzes once each, with no result or query URLs", () => {
+test("sitemap lists the hub, every category and every registry quiz once each, with no result or query URLs", () => {
   const urls = sitemap().map((entry) => entry.url);
   const mine = urls.filter((url) => url.startsWith("https://typologyquiz.com/quizzes/"));
-  assert.equal(mine.length, 261);
+  assert.equal(mine.length, 1 + CATEGORIES.length + QUIZZES.length);
   assert.equal(new Set(urls).size, urls.length, "sitemap has duplicates");
   assert.ok(mine.includes("https://typologyquiz.com/quizzes/"));
   for (const category of CATEGORIES) assert.ok(mine.includes(`https://typologyquiz.com/quizzes/category/${category.id}/`));

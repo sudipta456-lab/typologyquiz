@@ -14,7 +14,7 @@ const URL_PATTERN = /^https:\/\/[^\s/$.?#][^\s]*$/i;
 /** Structural limits. Audio durations and delays are seconds; hotspot geometry is percent of the diagram. */
 export const LIMITS = {
   sections: [2, 3], questions: [6, 10], options: [2, 8], orderItems: [2, 10], gridCells: [1, 12], zones: [2, 12], tones: [1, 16],
-  minutes: [1, 120], perCategory: 25, weightAbs: 100, frequency: [40, 4000], toneDuration: [0.05, 5], toneDelay: [0, 20], totalAudioSeconds: 30, gain: [0, 1],
+  minutes: [1, 120], weightAbs: 100, frequency: [40, 4000], toneDuration: [0.05, 5], toneDelay: [0, 20], totalAudioSeconds: 30, gain: [0, 1],
 } as const;
 
 type Rec = Record<string, unknown>;
@@ -383,7 +383,6 @@ export function validateCollection(quizzes: Quiz[]): string[] {
     if (!Array.isArray(quizzes)) return ["collection: must be an array"];
     const ids = new Set<string>();
     const slugs = new Set<string>();
-    const categories = new Map<string, number>();
     quizzes.forEach((quiz, index) => {
       const problems = validateQuiz(quiz);
       const label = isRec(quiz) && typeof quiz.id === "string" ? quiz.id : `#${index}`;
@@ -397,11 +396,7 @@ export function validateCollection(quizzes: Quiz[]): string[] {
         if (slugs.has(quiz.slug)) errors.push(`${label}: duplicate slug "${quiz.slug}"`);
         slugs.add(quiz.slug);
       }
-      if (typeof quiz.categoryId === "string") categories.set(quiz.categoryId, (categories.get(quiz.categoryId) ?? 0) + 1);
     });
-    for (const [category, total] of categories) {
-      if (total !== LIMITS.perCategory) errors.push(`category ${category}: has ${total} quizzes, needs exactly ${LIMITS.perCategory}`);
-    }
   } catch (error) {
     errors.push(`collection: validator failed defensively (${error instanceof Error ? error.message : "unknown error"})`);
   }

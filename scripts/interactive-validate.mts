@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { CATEGORIES } from "../src/lib/interactive/categories.ts";
 import { SUMMARIES } from "../src/lib/interactive/catalog.generated.ts";
+import { parseManifest, type ManifestBrief } from "../src/lib/interactive/manifest.ts";
 import { QUIZZES } from "../src/lib/interactive/registry.ts";
 import { validateCollection } from "../src/lib/interactive/validate.ts";
 import type { Question, Quiz, QuizSummary } from "../src/lib/interactive/types.ts";
@@ -8,15 +9,17 @@ import type { Question, Quiz, QuizSummary } from "../src/lib/interactive/types.t
 // Structural and contract validation of the whole interactive collection. This proves shape,
 // counts and per-format contracts. It does NOT verify facts: factual review is a separate gate.
 
-const EXPECTED_PER_CATEGORY = 25;
 const EXPECTED_TASKS = 8;
 const FORMAT_ORDER = ["choice", "rank", "order", "match", "graph", "grid", "slider", "reflection", "audio", "hotspot"];
 
 /** Quizzes allowed to use one task format, with the reason. Reported on every run, never silent. */
 const SINGLE_FORMAT_EXCEPTIONS: Record<string, string> = {};
 
-interface Brief { id: string; slug: string; title: string; category_code: string; dependency: string }
-const briefs = (JSON.parse(readFileSync("content/interactive/briefs.json", "utf8")) as { quizzes: Brief[] }).quizzes;
+interface Brief extends ManifestBrief { title: string; dependency: string }
+// The manifest declares the collection size; it is validated before any field is trusted.
+const manifest = parseManifest<Brief>(JSON.parse(readFileSync("content/interactive/briefs.json", "utf8")), CATEGORIES);
+const briefs = manifest.quizzes;
+const expectedCount = (code: string): number => manifest.categories.find(item => item.code === code)?.count ?? 0;
 
 const errors: string[] = [];
 const fail = (id: string, message: string): void => void errors.push(`${id}: ${message}`);
@@ -100,7 +103,7 @@ if (schemaProblems.length) {
 }
 
 // 2. Exact identity against the approved briefs.
-if (QUIZZES.length !== CATEGORIES.length * EXPECTED_PER_CATEGORY) errors.push(`collection: ${QUIZZES.length} quizzes, expected ${CATEGORIES.length * EXPECTED_PER_CATEGORY}`);
+if (QUIZZES.length !== briefs.length) errors.push(`collection: ${QUIZZES.length} quizzes, manifest declares ${briefs.length}`);
 const bySlug = new Map(QUIZZES.map(quiz => [quiz.id, quiz.slug] as const));
 for (const brief of briefs) {
   if (!bySlug.has(brief.id)) fail(brief.id, "missing from collection");
@@ -115,7 +118,7 @@ const perCategory = new Map<string, number>();
 for (const category of CATEGORIES) {
   const members = QUIZZES.filter(quiz => quiz.categoryId === category.id);
   perCategory.set(category.id, members.length);
-  if (members.length !== EXPECTED_PER_CATEGORY) errors.push(`category ${category.id}: ${members.length} quizzes, expected ${EXPECTED_PER_CATEGORY}`);
+  if (members.length !== expectedCount(category.code)) errors.push(`category ${category.id}: ${members.length} quizzes, manifest declares ${expectedCount(category.code)}`);
 }
 for (const quiz of QUIZZES) if (!CATEGORIES.some(category => category.id === quiz.categoryId)) fail(quiz.id, `unknown categoryId "${quiz.categoryId}"`);
 
