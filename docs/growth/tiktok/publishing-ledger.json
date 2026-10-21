@@ -3914,7 +3914,7 @@
     "status": "scheduled_confirmed_with_two_existing_studio_conflicts",
     "note": "The Studio queue was reloaded and each listed future row was observed after scheduling. Existing Vienna duplicate and the earlier Slovenia/stop same-slot conflict are recorded; web Studio blocked cleanup of commercial-content scheduled videos.",
     "latest_check": {
-      "reconciled_at": "2026-10-21T03:11:45.777162+00:00",
+      "reconciled_at": "2026-10-21T12:14:12.189416+00:00",
       "studio_account": "@typologyquiz",
       "future_rows_confirmed": 6,
       "receipt_window": "2026-10-21 through 2026-10-22 America/Edmonton",
@@ -3931,9 +3931,9 @@
       },
       "quality_backlog_remaining_scheduled": 0,
       "approved_cta_replacements_completed": 12,
-      "historical_exception": "October12 conflicts retained as history, not rescanned in this bounded audit.",
-      "record": "docs/growth/tiktok/2026-10-20-evening-reconciliation.md",
-      "receipt": "docs/growth/tiktok/2026-10-20-evening-receipts.json"
+      "historical_exception": "October12 conflicts retained as history; this bounded audit does not rescan them.",
+      "record": "docs/growth/tiktok/2026-10-21-morning-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-21-morning-receipts.json"
     }
   },
   "queue_reconciliation": {
@@ -3944,7 +3944,7 @@
     "receipt_window": "2026-10-12 through 2026-10-22 America/Edmonton",
     "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots.",
     "latest_check": {
-      "reconciled_at": "2026-10-21T03:11:45.777162+00:00",
+      "reconciled_at": "2026-10-21T12:14:12.189416+00:00",
       "studio_account": "@typologyquiz",
       "future_rows_confirmed": 6,
       "receipt_window": "2026-10-21 through 2026-10-22 America/Edmonton",
@@ -3961,9 +3961,9 @@
       },
       "quality_backlog_remaining_scheduled": 0,
       "approved_cta_replacements_completed": 12,
-      "historical_exception": "October12 conflicts retained as history, not rescanned in this bounded audit.",
-      "record": "docs/growth/tiktok/2026-10-20-evening-reconciliation.md",
-      "receipt": "docs/growth/tiktok/2026-10-20-evening-receipts.json"
+      "historical_exception": "October12 conflicts retained as history; this bounded audit does not rescan them.",
+      "record": "docs/growth/tiktok/2026-10-21-morning-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-21-morning-receipts.json"
     }
   }
 }
