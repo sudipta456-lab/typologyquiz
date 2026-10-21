@@ -30,6 +30,8 @@ Desktop Studio disables deletion of some scheduled commercial-content items. The
 
 A site address rendered into video pixels is not an interactive link. Both desktop and mobile profile editors currently have no Website field for this account. TikTok’s official guidance requires 1,000 followers or a Registered Business Account for website links, with feature availability varying. Never draw a fake functional button or say “tap the website/link in bio” until a real link exists and opens the intended live page. Use a plainly readable “Visit in your browser” address meanwhile. Do not invent registration details or change account type/permissions as a workaround.
 
+**October20 evening:** three due posts published confirmed; six futureOctober21–22 rows verified,3/day,6matching hashes/4CTA200. Current connectedChrome access works. Read-only power check:ACsleep0/display0,battery sleep1/display2; no settingschanged. Temporary guard became stale, so do not rely on its initial start receipt. See `2026-10-20-evening-reconciliation.md` and October21 brief.
+
 ## Scheduled workflow
 
 Active Codex thread automation: typologyquiz-daily-tiktok-research-and-production. Runs daily at 06:00 and 21:00 America/Edmonton. At 06:00 reconcile first, then research, produce and QA enough distinct assets to meet the active cadence test. The active owner-requested cadence is **three** unique posts per local day at 10:30 AM, 2:30 PM and 6:30 PM America/Edmonton when the native Studio queue is verified. Measure seven local days of confirmed outcomes before proposing any cadence change. Reconcile anything already queued before adding another item. At 21:00 inspect outcomes/analytics, review relevant own-post comments, and prepare the next brief. One automation handles both phases because this thread supports one active heartbeat.
@@ -42,7 +44,7 @@ Local production and browser automation need the computer on, the app running an
 
 October 14 evening verification: a locked native Mac surface does **not** by itself establish that Studio is unavailable. The connected Chrome browser extension successfully opened/reloaded Studio and exposed the signed-in `@typologyquiz` profile, scheduled rows, published metrics, analytics, and comments while native-app control reported a locked Mac. Try the supported browser extension first, verify the visible profile, and reconcile through browser UI. Report a publishing blocker only if that browser path also fails or identity cannot be verified. Do not change security settings or attempt to bypass the lock.
 
-Current sleep policy in this Mac session is `sleep=1` and `displaysleep=10`, so prolonged inactivity can pause a run during screen lock if no explicit wake guard is active. We cannot change global sleep policy without admin password for this session, so use the local guard below whenever a production or analytics run starts.
+October20 current read-only power check supersedes the older migration setting: AC `sleep=0`, `displaysleep=0`; battery `sleep=1`, `displaysleep=2`. This run changed no settings. Keep the Mac plugged in for local scheduled work. The temporary guard below can become stale after starting; confirm its later status and never treat an initial running receipt as permanent wake protection.
 
 Before 06:00/21:00 work windows:
 
