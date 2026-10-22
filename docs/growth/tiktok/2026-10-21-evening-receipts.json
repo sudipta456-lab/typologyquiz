@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-10-22T03:04:23.618Z",
+  "account": "@typologyquiz",
+  "timezone": "America/Edmonton",
+  "method": "Fresh account-menu Profile link exactly @typologyquiz; explicit Posts reload; future and due rows plus overlapping scroll passes. Exact caption, permalink, local time, Everyone and native Alarm inspected. No independent public playback claim.",
+  "future": [
+    {
+      "id": "1004-lisbon-cta-v2",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
+      "caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
+      "publish_at": "2026-10-22T18:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": true,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-05-cta-v2",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697486855918374152",
+      "caption": "Hungary\u2019s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
+      "publish_at": "2026-10-22T14:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": true,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0922-10-cta-v2",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487566303497488",
+      "caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "publish_at": "2026-10-22T10:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": true,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "published_today": [
+    {
+      "id": "0922-09-cta-v2",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487830892809490",
+      "caption": "Which planet has liquid water at its surface? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "publish_at": "2026-10-21T18:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": false,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0922-08-cta-v2",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487985692003592",
+      "caption": "How many planets orbit the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "publish_at": "2026-10-21T14:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": false,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0922-07-cta-v2",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697488146484727056",
+      "caption": "Olympia is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "publish_at": "2026-10-21T10:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": false,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "bounded_rows_inspected": 34,
+  "history_limit": "October12 historical conflicts retained; not a complete account-history reconciliation.",
+  "local_queue_qa": {
+    "files": [
+      {
+        "id": "1004-lisbon-cta-v2",
+        "sha256": "a2ddce73d047f500f3b03e0cf4b8109984a6166724c136789f361cd714e16f4e",
+        "match": true
+      },
+      {
+        "id": "0923-05-cta-v2",
+        "sha256": "c3a548e45a0bcc3b8ff4c4e26278ff894ce5ea5ad8bd5eb91acd0b9fc125307d",
+        "match": true
+      },
+      {
+        "id": "0922-10-cta-v2",
+        "sha256": "792cc1f49dac6a619768c273feef24089515d6edd18cb8f15fc2f9b350d40b0b",
+        "match": true
+      }
+    ],
+    "routes": [
+      {
+        "url": "https://typologyquiz.com/trivia/countries-of-europe/",
+        "result": "200 https://typologyquiz.com/trivia/countries-of-europe/",
+        "exit_code": 0
+      },
+      {
+        "url": "https://typologyquiz.com/trivia/find-the-countries-of-europe/",
+        "result": "200 https://typologyquiz.com/trivia/find-the-countries-of-europe/",
+        "exit_code": 0
+      },
+      {
+        "url": "https://typologyquiz.com/trivia/planets/",
+        "result": "200 https://typologyquiz.com/trivia/planets/",
+        "exit_code": 0
+      }
+    ],
+    "initial_probe_limit": "Python urllib request returned403; curl probe below verifies availability independently.",
+    "checked_at": "2026-10-21T21:03:28.024818-06:00"
+  }
+}
