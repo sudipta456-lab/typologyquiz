@@ -48,3 +48,21 @@ Reread the platform-rule context retrieved this morning from https://redditinc.c
 Publisher afternoon records no additional outreach: today's NAMLE inquiry remains submitted, not eligibility, partnership, opt-in or lead. Its reply-address limitation and unavailable approved-mailbox checks remain unresolved; do not resubmit. Preserve AAG/SciTech and older sent/pending contacts. Preserve occupied TikTok slots and daily-five activation handoff; no Studio/media/site/protected data/analytics/privacy/deployment change. Records-only verification requires no application tests.
 
 Minimal public evidence: shared Codex workspace `work/community-contributor/2026-10-21-afternoon/review.json`. Exact public copy and links were compared with the morning record; unrelated account/sidebar content omitted. Afternoon dashboard Reviewed exact summary verified by fresh remote readback. Initial report failed on remote-read401 before writing; one bounded identical retry succeeded. No authentication change, initialization, counter reconstruction or field-preservation/atomic-write guarantee claimed.
+
+## Night cycle — one new public acknowledgment verified
+
+At approximately22:55–22:58 America/Edmonton (October22 UTC), loaded both exact public permalinks in one temporary in-app tab. Original advice remains unchanged. The map-study thread still displays four comment permalinks and no audience response beneath our advice.
+
+The APStudents thread now contains a **direct public reply to our graph/map study advice**, visibly marked3h ago:
+
+> Alright, I'll see and try out this method. Thanks !
+
+Exact reply URL: https://www.reddit.com/r/APStudents/comments/1x99ekz/comment/19rgn51amam80/ . This verifies an acknowledgment and stated intention to try the method. It is not a request for a quiz, consented contact, partnership, measured learning improvement or website conversion. No TypologyQuiz mention or link was in the original advice, and no interest in the site is inferred. Seven comment permalinks are rendered in the whole thread, including three nested responses; the header says8. That remaining discrepancy is unexplained. Only the response nested under our comment is counted as a reply to our advice; no stats link clicked or reach inferred.
+
+Fresh user-menu View Profile still identifies **u/Beautiful-Ad-7782**, failing this heartbeat's exact **@typologyquiz** action guard. Earlier owner authorization for the existing login remains historical context. **No reply sent**, including an acknowledgment, and no post/edit/vote/link/follow-up/DM/account or credential action. Local-day and rolling24-hour contribution counts remain0. No new posting candidate/draft pursued after the guard failed and no repeated account request. No private inbox, notifications, chat or modmail opened. Navigation closed the account menu; temporary tab closed and original user tabs untouched.
+
+Freshly retrieved [Reddit Rules](https://redditinc.com/policies/reddit-rules), including local-rule/authentic-participation, anti-spam/manipulation and non-deceptive identity requirements. No new moderator permission or resource-sharing approval established. Existing advice/source limits above remain unchanged; the acknowledgment does not validate a teaching protocol or exam-score claim. Scout's resource-board opportunities remain preparatory, with no permission to post to the unverified Padlet.
+
+Preserve NAMLE's single inquiry/reply-address limitation, AAG/SciTech and prior contacts. Growth's new Google-organic interactive start is not attributed to either public comment. The separate evening TikTok audit confirmed today's three publications and tomorrow's three scheduled slots; no Studio/media work here. No site, protected data, analytics/privacy, tests or deployment change.
+
+Minimal public copy, exact reply/permalink and identity evidence: `/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/community-contributor/2026-10-21-night/review.json`. Dashboard `community-contributor Reviewed`: initial remote-read401 aborted before writing, one identical bounded retry succeeded, and fresh remote readback matched the exact summary. No authentication change, initialization, counter reconstruction or field-preservation/atomic-write claim.
