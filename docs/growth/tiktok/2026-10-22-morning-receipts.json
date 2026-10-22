@@ -1,0 +1,183 @@
+{
+  "checked_at": "2026-10-22T06:01:52.288438-06:00",
+  "account": "@typologyquiz",
+  "timezone": "America/Edmonton",
+  "method": "Fresh Profile href exactly @typologyquiz, explicit Posts reload; exact caption, permalink, future/past local time, Everyone and Alarm inspected. Bounded latest queue and four recent publications; no complete account-history claim.",
+  "future": [
+    {
+      "id": "1004-lisbon-cta-v2",
+      "caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
+      "publish_at": "2026-10-22T18:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": true,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0923-05-cta-v2",
+      "caption": "Hungary’s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697486855918374152",
+      "publish_at": "2026-10-22T14:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": true,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0922-10-cta-v2",
+      "caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487566303497488",
+      "publish_at": "2026-10-22T10:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": true,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "recent_published": [
+    {
+      "id": "0922-09-cta-v2",
+      "caption": "Which planet has liquid water at its surface? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487830892809490",
+      "publish_at": "2026-10-21T18:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": false,
+      "metrics": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0922-08-cta-v2",
+      "caption": "How many planets orbit the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487985692003592",
+      "publish_at": "2026-10-21T14:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": false,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0922-07-cta-v2",
+      "caption": "Olympia is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697488146484727056",
+      "publish_at": "2026-10-21T10:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": false,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "0922-06-cta-v2",
+      "caption": "Madison is the capital of which state? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/us-state-capitals/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697488567538355472",
+      "publish_at": "2026-10-20T18:30:00-06:00",
+      "visibility": "Everyone",
+      "scheduled_alarm": false,
+      "metrics": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "local_queue_qa": {
+    "files": [
+      {
+        "id": "1004-lisbon-cta-v2",
+        "sha256": "a2ddce73d047f500f3b03e0cf4b8109984a6166724c136789f361cd714e16f4e",
+        "match": true
+      },
+      {
+        "id": "0923-05-cta-v2",
+        "sha256": "c3a548e45a0bcc3b8ff4c4e26278ff894ce5ea5ad8bd5eb91acd0b9fc125307d",
+        "match": true
+      },
+      {
+        "id": "0922-10-cta-v2",
+        "sha256": "792cc1f49dac6a619768c273feef24089515d6edd18cb8f15fc2f9b350d40b0b",
+        "match": true
+      }
+    ],
+    "routes": [
+      {
+        "url": "https://typologyquiz.com/trivia/countries-of-europe/",
+        "result": "200 https://typologyquiz.com/trivia/countries-of-europe/",
+        "exit_code": 0
+      },
+      {
+        "url": "https://typologyquiz.com/trivia/find-the-countries-of-europe/",
+        "result": "200 https://typologyquiz.com/trivia/find-the-countries-of-europe/",
+        "exit_code": 0
+      },
+      {
+        "url": "https://typologyquiz.com/trivia/planets/",
+        "result": "200 https://typologyquiz.com/trivia/planets/",
+        "exit_code": 0
+      }
+    ],
+    "checked_at": "2026-10-22T05:59:46.456716-06:00"
+  },
+  "analytics": {
+    "period": "2026-10-14 through 2026-10-20",
+    "date_evidence": "Overview chart x-axis visible Oct14–20, Last7days selected.",
+    "views": 833,
+    "profile_views": 25,
+    "likes": 2,
+    "comments": null,
+    "shares": 0,
+    "traffic_percent": {
+      "for_you": 80.2,
+      "search": 11.4,
+      "personal_profile": 8.1,
+      "following": 0.3,
+      "sound": 0
+    },
+    "search_labels": [
+      "periodic table typology",
+      "sgi drivers test",
+      "chemistry quiz protons}",
+      "alberta class 7 drivers test",
+      "2 letter symbol periodic table"
+    ],
+    "search_label_share_display": "2.2% each; not search volume or verified trend"
+  },
+  "inspiration": {
+    "region": "All regions",
+    "category": "Culture, Education & Technology",
+    "tab": "Trending",
+    "finding": "Broad demonstrations, maths and explanation examples; no verified quiz-specific trend or copied claims."
+  },
+  "comments": {
+    "displayed": 2,
+    "creator_authored": true,
+    "actionable_audience_question_observed": false,
+    "replies_sent": 0,
+    "limit": "Displayed list only; no exhaustive history claimed."
+  },
+  "actions": {
+    "uploads": 0,
+    "schedules": 0,
+    "deletions": 0,
+    "post_edits": 0,
+    "replies": 0,
+    "ledger_status_advances": 0
+  }
+}
