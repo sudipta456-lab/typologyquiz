@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function MethodologyPage() {
   const ordered = [...TESTS].sort((a, b) => a.slug === "mini-ipip" ? -1 : b.slug === "mini-ipip" ? 1 : a.title.localeCompare(b.title));
   return <div className="section methodology-page">
-    <p className="eyebrow">Methods & evidence · Updated October 18, 2026</p>
+    <p className="eyebrow">Methods & evidence · Updated October 22, 2026</p>
     <h1 className="section-title">Know what a result can tell you.</h1>
     <p className="section-lead">Some of our tests use published instruments. Most are original quizzes for reflection or fun. We label the difference so you can decide how much weight to give a result.</p>
     <section className="test-block">

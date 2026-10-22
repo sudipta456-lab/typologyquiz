@@ -10231,5 +10231,204 @@
       }
     ],
     "note": "All towns, schools, mills, ferries and archive cards here are invented for practice. Answers follow only the evidence stated in each case, not real local history."
+  },
+  {
+    "id": "HC-26",
+    "slug": "one-claim-five-echoes",
+    "categoryId": "history-culture",
+    "title": "One Claim, Five Echoes",
+    "description": "Five invented posts repeat one harmless claim about a museum cafe. Trace who cited whom, follow each chain to its root, order the times and judge what the log really establishes.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      { "id": "s1", "title": "Trace the Posts" },
+      { "id": "s2", "title": "What the Log Shows" }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each post to the role it plays in the log. Several posts can share one role.",
+        "context": "Invented log. Obs 1 is Ines's call to the museum's recorded phone message at 08:50, which says the cafe opens at 9:00 on Saturdays. Obs 2 is Pia's photo of the door sign, taken on site at 10:20, showing 9:00 on Saturdays. Posts: Post 1, Ines, 09:10: \"I called the museum and the recorded message says the cafe opens at 9:00 on Saturdays.\" Post 2, Kofi, 09:25: \"Ines posted this, so the cafe opens at 9:00 on Saturdays.\" Post 3, Lena, 10:05: \"Kofi's post says the cafe opens at 9:00 on Saturdays.\" Post 4, Mo, 10:40: \"Pia's door-sign photo shows 9:00 on Saturdays, and Kofi's post agrees.\" Post 5, Nell, 11:15: \"Lena's post says 9:00 on Saturdays. I have not read Ines's or Mo's posts.\" One role on the right fits none of the posts.",
+        "left": [
+          { "id": "l1", "label": "Post 1 (Ines)" },
+          { "id": "l2", "label": "Post 2 (Kofi)" },
+          { "id": "l3", "label": "Post 3 (Lena)" },
+          { "id": "l4", "label": "Post 4 (Mo)" },
+          { "id": "l5", "label": "Post 5 (Nell)" }
+        ],
+        "right": [
+          { "id": "r1", "label": "Relays the poster's own observation" },
+          { "id": "r2", "label": "Only repeats one earlier post, with nothing else" },
+          { "id": "r3", "label": "Combines an observation with a repeated post" },
+          { "id": "r4", "label": "Corrects an earlier post" }
+        ],
+        "pairs": { "l1": "r1", "l2": "r2", "l3": "r2", "l4": "r3", "l5": "r2" },
+        "explanation": "Post 1 relays Ines's own call. Posts 2, 3 and 5 each name one earlier post and nothing else. Post 4 names the door-sign photo and also repeats Post 2. No post corrects another.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "graph",
+        "prompt": "Connect each post to every source it directly names, without following the chain further back.",
+        "context": "Invented log. Obs 1 is Ines's call to the museum's recorded phone message at 08:50, which says the cafe opens at 9:00 on Saturdays. Obs 2 is Pia's photo of the door sign, taken on site at 10:20, showing 9:00 on Saturdays. Post 1, Ines, 09:10: \"I called the museum and the recorded message says the cafe opens at 9:00 on Saturdays.\" Post 2, Kofi, 09:25: \"Ines posted this, so the cafe opens at 9:00 on Saturdays.\" Post 3, Lena, 10:05: \"Kofi's post says the cafe opens at 9:00 on Saturdays.\" Post 4, Mo, 10:40: \"Pia's door-sign photo shows 9:00 on Saturdays, and Kofi's post agrees.\" Post 5, Nell, 11:15: \"Lena's post says 9:00 on Saturdays. I have not read Ines's or Mo's posts.\" A link means the post itself names that source. Do not add links for sources further back in a chain.",
+        "left": [
+          { "id": "p1", "label": "Post 1 (Ines)" },
+          { "id": "p2", "label": "Post 2 (Kofi)" },
+          { "id": "p3", "label": "Post 3 (Lena)" },
+          { "id": "p4", "label": "Post 4 (Mo)" },
+          { "id": "p5", "label": "Post 5 (Nell)" }
+        ],
+        "right": [
+          { "id": "t1", "label": "Post 1" },
+          { "id": "t2", "label": "Post 2" },
+          { "id": "t3", "label": "Post 3" },
+          { "id": "t4", "label": "Post 4" },
+          { "id": "t5", "label": "Post 5" },
+          { "id": "o1", "label": "Phone message call (Obs 1)" },
+          { "id": "o2", "label": "Door-sign photo (Obs 2)" }
+        ],
+        "edges": [["p1", "o1"], ["p2", "t1"], ["p3", "t2"], ["p4", "o2"], ["p4", "t2"], ["p5", "t3"]],
+        "explanation": "Post 1 names the phone message, Post 2 names Post 1, Post 3 names Post 2 and Post 5 names Post 3. Post 4 names two sources, the door-sign photo and Post 2. Nell's remark about not reading other posts adds no link.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "graph",
+        "prompt": "Connect each post to every independent observation at the end of its chain of citations.",
+        "context": "Invented log. Obs 1 is Ines's call to the museum's recorded phone message at 08:50. Obs 2 is Pia's photo of the door sign, taken on site at 10:20. Direct citations: Post 1 names Obs 1. Post 2 names Post 1. Post 3 names Post 2. Post 4 names Obs 2 and Post 2. Post 5 names Post 3. A root is an observation you reach by following citations back until a post names an observation instead of another post. Link a post to every root it reaches, however many posts lie in between.",
+        "left": [
+          { "id": "p1", "label": "Post 1" },
+          { "id": "p2", "label": "Post 2" },
+          { "id": "p3", "label": "Post 3" },
+          { "id": "p4", "label": "Post 4" },
+          { "id": "p5", "label": "Post 5" }
+        ],
+        "right": [
+          { "id": "o1", "label": "Phone message call (Obs 1)" },
+          { "id": "o2", "label": "Door-sign photo (Obs 2)" }
+        ],
+        "edges": [["p1", "o1"], ["p2", "o1"], ["p3", "o1"], ["p4", "o1"], ["p4", "o2"], ["p5", "o1"]],
+        "explanation": "Posts 1, 2, 3 and 5 all lead back to the phone message alone. Post 4 reaches the door-sign photo directly and the phone message by way of Post 2, so it has two roots.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Put these seven log entries in the order they happened, earliest first.",
+        "context": "Times in the invented log: Post 3 at 10:05; door-sign photo taken at 10:20; Post 1 at 09:10; phone message call at 08:50; Post 5 at 11:15; Post 2 at 09:25; Post 4 at 10:40. Posts show the time they were published.",
+        "items": [
+          { "id": "p1", "label": "Post 1 (Ines)" },
+          { "id": "p2", "label": "Post 2 (Kofi)" },
+          { "id": "p3", "label": "Post 3 (Lena)" },
+          { "id": "p4", "label": "Post 4 (Mo)" },
+          { "id": "p5", "label": "Post 5 (Nell)" },
+          { "id": "o1", "label": "Phone message call (Obs 1)" },
+          { "id": "o2", "label": "Door-sign photo taken (Obs 2)" }
+        ],
+        "correctOrder": ["o1", "p1", "p2", "p3", "o2", "p4", "p5"],
+        "explanation": "The call at 08:50 comes first, then Posts 1, 2 and 3 at 09:10, 09:25 and 10:05. The photo is taken at 10:20, after Post 3 and before Post 4, which names it. Post 5 closes at 11:15.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "How many independent observations does this log contain?",
+        "context": "Invented log. Observations made first-hand: Ines's call to the recorded phone message (Obs 1) and Pia's photo of the door sign (Obs 2). Direct citations: Post 1 names Obs 1. Post 2 names Post 1. Post 3 names Post 2. Post 4 names Obs 2 and Post 2. Post 5 names Post 3. Count independent roots, not posts.",
+        "options": [
+          { "id": "a", "label": "Five, one for each post" },
+          { "id": "b", "label": "Two" },
+          { "id": "c", "label": "One" },
+          { "id": "d", "label": "Seven, counting posts and observations together" }
+        ],
+        "correct": "b",
+        "explanation": "Only the phone message and the door-sign photo were directly heard or seen. The five posts spread those two observations, so more posts do not mean more independent evidence.",
+        "sourceIds": ["case", "namle"]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Post 3 was published at 10:05. What does it add beyond what Post 2 already offered?",
+        "context": "Invented log. Post 2 (Kofi, 09:25) names Post 1, which names the phone message call (Obs 1). Post 3 (Lena, 10:05) names only Post 2. Pia's door-sign photo (Obs 2) was taken at 10:20.",
+        "options": [
+          { "id": "a", "label": "A third independent observation" },
+          { "id": "b", "label": "Nothing new as evidence: it repeats Post 2, which traces back to Obs 1" },
+          { "id": "c", "label": "Support from the door-sign photo, since the photo was taken that morning" },
+          { "id": "d", "label": "A correction of Post 1" }
+        ],
+        "correct": "b",
+        "explanation": "Post 3 names only Post 2, so it carries the same single root. The photo did not yet exist at 10:05 and Post 3 does not name it in any case.",
+        "sourceIds": ["case", "namle"]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Suppose Obs 1 turns out to be an out-of-date recording. Which posts are left with no root at all?",
+        "context": "Invented log. Roots: Posts 1, 2, 3 and 5 each trace back only to Obs 1, the phone message call. Post 4 traces back to Obs 1 through Post 2 and also directly to Obs 2, the door-sign photo. Rule: a post loses its root support only when every root it reaches has been set aside.",
+        "options": [
+          { "id": "a", "label": "All five posts" },
+          { "id": "b", "label": "Posts 1, 2, 3 and 5; Post 4 still rests on Obs 2" },
+          { "id": "c", "label": "Only Post 1" },
+          { "id": "d", "label": "Posts 1 and 2 only" }
+        ],
+        "correct": "b",
+        "explanation": "Setting aside Obs 1 removes the only root of Posts 1, 2, 3 and 5. Post 4 keeps the door-sign photo, so one root remains.",
+        "sourceIds": ["case", "namle"]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Judge each statement against the log.",
+        "context": "Invented log. Obs 1 (phone message call, 08:50) and Obs 2 (door-sign photo, 10:20) are the only observations. Citations: Post 1 names Obs 1; Post 2 names Post 1; Post 3 names Post 2; Post 4 names Obs 2 and Post 2; Post 5 names Post 3. Times: Post 1 09:10, Post 2 09:25, Post 3 10:05, Post 4 10:40, Post 5 11:15. The log shows who reported what and when. No one in the log saw the cafe actually open on a Saturday.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "Five separate people each checked the opening time themselves.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Not supported by the log" }],
+            "correct": "b"
+          },
+          {
+            "id": "c2",
+            "label": "Post 4 reaches two different roots.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Not supported by the log" }],
+            "correct": "a"
+          },
+          {
+            "id": "c3",
+            "label": "Post 5 and Post 1 trace back to the same root.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Not supported by the log" }],
+            "correct": "a"
+          },
+          {
+            "id": "c4",
+            "label": "Post 3 was published before the door-sign photo was taken.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Not supported by the log" }],
+            "correct": "a"
+          },
+          {
+            "id": "c5",
+            "label": "The log establishes that the cafe actually opens at 9:00 on Saturdays, not merely that 9:00 was reported or posted.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Not supported by the log" }],
+            "correct": "b"
+          }
+        ],
+        "explanation": "Only Ines and Pia made observations, so five separate checks are not shown. Post 4 reaches Obs 2 and Obs 1, and Posts 1 and 5 share Obs 1. Post 3 at 10:05 precedes the 10:20 photo. The log records a phone message and a photo of posted hours, and no one saw the cafe actually open, so it does not establish the real opening time.",
+        "sourceIds": ["case", "namle"]
+      }
+    ],
+    "sources": [
+      { "id": "case", "label": "Original TypologyQuiz invented posts, observations and toy rules", "kind": "original" },
+      { "id": "namle", "label": "NAMLE: Key Questions for Analyzing Media (supports asking about sources and evidence; not a single right reading)", "kind": "reference", "url": "https://namle.org/resources/key-questions-for-analyzing-media/" }
+    ],
+    "note": "The museum cafe, posts, people and observations are invented, and no real news is involved. Each answer follows the toy rules stated in its task. The reference supports the habit of asking where a claim comes from and what evidence stands behind it; it does not give one correct reading of any real post and does not show that this quiz improves media skills."
   }
 ]

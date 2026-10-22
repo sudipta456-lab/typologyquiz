@@ -10897,5 +10897,204 @@
       }
     ],
     "note": "All gadgets are generic, unbranded and invented for this game. Verdicts are playful preferences, not correct answers, and no tool is judged better than another."
+  },
+  {
+    "id": "FE-26",
+    "slug": "refill-station-mix-up",
+    "categoryId": "food-everyday-life",
+    "title": "The Refill Station Mix-Up",
+    "description": "The labels fell off at an invented refill shop. Use empty and filled weights, per-100 g prices and refundable deposits to find each container's net contents, its station and its receipt.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      { "id": "s1", "title": "Weigh and Subtract" },
+      { "id": "s2", "title": "Stations and Totals" },
+      { "id": "s3", "title": "Match the Receipts" }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Using Jar 2's weights, how many grams of lentils does the shop charge for?",
+        "context": "Invented refill shop. The shop charges per 100 g of net contents, where net contents = filled weight minus empty weight. A refundable deposit is a separate charge and is never weighed. Jar 2 weighs 250 g empty and 650 g filled. A shopper says, \"My jar reads 650 g, so I am paying for 650 g of lentils.\"",
+        "options": [
+          { "id": "a", "label": "400 g, because the jar's own 250 g is subtracted and the deposit is separate" },
+          { "id": "b", "label": "650 g, as the scale shows" },
+          { "id": "c", "label": "250 g, the weight of the jar" },
+          { "id": "d", "label": "900 g, adding both weights" }
+        ],
+        "correct": "a",
+        "explanation": "Net contents are 650 g minus 250 g, which is 400 g. The jar's own weight is not food, and the deposit is a separate money charge, not grams.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each container to its net contents.",
+        "context": "Net contents = filled weight minus empty weight. Jar 1: empty 310 g, filled 810 g. Jar 2: empty 250 g, filled 650 g. Tin 3: empty 420 g, filled 720 g. Bottle 4: empty 380 g, filled 780 g. Jar 5: empty 200 g, filled 450 g. Two containers hold the same net amount, and one value on the right is not a net amount for any container.",
+        "left": [
+          { "id": "c1", "label": "Jar 1" },
+          { "id": "c2", "label": "Jar 2" },
+          { "id": "c3", "label": "Tin 3" },
+          { "id": "c4", "label": "Bottle 4" },
+          { "id": "c5", "label": "Jar 5" }
+        ],
+        "right": [
+          { "id": "n250", "label": "250 g" },
+          { "id": "n300", "label": "300 g" },
+          { "id": "n400", "label": "400 g" },
+          { "id": "n450", "label": "450 g" },
+          { "id": "n500", "label": "500 g" }
+        ],
+        "pairs": { "c1": "n500", "c2": "n400", "c3": "n300", "c4": "n400", "c5": "n250" },
+        "explanation": "Jar 1 holds 810 - 310 = 500 g. Jar 2 and Bottle 4 each hold 400 g (650 - 250 and 780 - 380). Tin 3 holds 300 g and Jar 5 holds 250 g. The 450 g is Jar 5's filled weight, not its net contents.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Put the steps of one refill sale in an order that respects the shop's rules.",
+        "context": "Shop rules: the container is weighed empty before it is filled. The filled weight can only be taken after filling. Net grams need both weights. The goods price needs net grams. The deposit lookup only needs the container's type, so it can happen at any point before the total. The total needs the goods price and the deposit.",
+        "items": [
+          { "id": "t", "label": "Weigh the empty container" },
+          { "id": "f", "label": "Fill the container from the dispenser" },
+          { "id": "w", "label": "Weigh the filled container" },
+          { "id": "n", "label": "Subtract the empty weight from the filled weight" },
+          { "id": "g", "label": "Multiply net grams divided by 100 by the price per 100 g" },
+          { "id": "l", "label": "Look up the deposit for the container's type" },
+          { "id": "d", "label": "Add the deposit to the goods price for the total paid" }
+        ],
+        "precedence": [["t", "f"], ["f", "w"], ["w", "n"], ["n", "g"], ["g", "d"], ["l", "d"]],
+        "explanation": "Weigh empty, fill, weigh filled, subtract, then price. The deposit lookup can slot in anywhere before the final addition, so several orders are valid.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "graph",
+        "prompt": "Connect each fill station to every container it can take.",
+        "context": "A station can take a container when it accepts the container's type and the container's net contents (filled minus empty) meet its limit. Dry Bin: accepts jars and tins, net up to 400 g. Liquid Tap: accepts bottles and jars, net up to 400 g. Bulk Chute: accepts jars and tins, net at least 300 g. Containers: Jar 1 (jar, empty 310 g, filled 810 g); Jar 2 (jar, empty 250 g, filled 650 g); Tin 3 (tin, empty 420 g, filled 720 g); Bottle 4 (bottle, empty 380 g, filled 780 g); Jar 5 (jar, empty 200 g, filled 450 g).",
+        "left": [
+          { "id": "dry", "label": "Dry Bin" },
+          { "id": "liq", "label": "Liquid Tap" },
+          { "id": "bulk", "label": "Bulk Chute" }
+        ],
+        "right": [
+          { "id": "c1", "label": "Jar 1" },
+          { "id": "c2", "label": "Jar 2" },
+          { "id": "c3", "label": "Tin 3" },
+          { "id": "c4", "label": "Bottle 4" },
+          { "id": "c5", "label": "Jar 5" }
+        ],
+        "edges": [["dry", "c2"], ["dry", "c3"], ["dry", "c5"], ["liq", "c2"], ["liq", "c4"], ["liq", "c5"], ["bulk", "c1"], ["bulk", "c2"], ["bulk", "c3"]],
+        "explanation": "Net contents are Jar 1 500 g, Jar 2 400 g, Tin 3 300 g, Bottle 4 400 g and Jar 5 250 g. The Dry Bin takes Jars 2 and 5 and Tin 3. The Liquid Tap takes Bottle 4 and Jars 2 and 5. The Bulk Chute takes Jars 1 and 2 and Tin 3. Jar 1 is over 400 g, Jar 5 is under 300 g, and Bottle 4 is a bottle, which neither the Dry Bin nor the Bulk Chute accepts.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Work out the total paid for each new sale.",
+        "context": "Net contents = filled weight minus empty weight. Goods price = net grams divided by 100, times the price per 100 g. Total paid = goods price plus the container's refundable deposit. Deposits: jar $1.50, tin $2.00, bottle $1.00. Containers: Jar 1 (empty 310 g, filled 810 g); Jar 2 (empty 250 g, filled 650 g); Tin 3 (empty 420 g, filled 720 g); Bottle 4 (empty 380 g, filled 780 g); Jar 5 (empty 200 g, filled 450 g).",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "Tin 3 with oats at $0.80 per 100 g",
+            "options": [{ "id": "a", "label": "$2.40" }, { "id": "b", "label": "$4.40" }, { "id": "c", "label": "$5.76" }, { "id": "d", "label": "$7.76" }],
+            "correct": "b"
+          },
+          {
+            "id": "c2",
+            "label": "Bottle 4 with soap at $0.55 per 100 g",
+            "options": [{ "id": "a", "label": "$2.20" }, { "id": "b", "label": "$3.20" }, { "id": "c", "label": "$4.29" }, { "id": "d", "label": "$5.29" }],
+            "correct": "b"
+          },
+          {
+            "id": "c3",
+            "label": "Jar 5 with rice at $0.60 per 100 g",
+            "options": [{ "id": "a", "label": "$1.50" }, { "id": "b", "label": "$2.70" }, { "id": "c", "label": "$3.00" }, { "id": "d", "label": "$4.20" }],
+            "correct": "c"
+          },
+          {
+            "id": "c4",
+            "label": "Jar 2 with flour at $0.50 per 100 g",
+            "options": [{ "id": "a", "label": "$2.00" }, { "id": "b", "label": "$3.25" }, { "id": "c", "label": "$3.50" }, { "id": "d", "label": "$4.75" }],
+            "correct": "c"
+          },
+          {
+            "id": "c5",
+            "label": "Jar 1 with lentils at $0.90 per 100 g",
+            "options": [{ "id": "a", "label": "$4.50" }, { "id": "b", "label": "$6.00" }, { "id": "c", "label": "$7.29" }, { "id": "d", "label": "$8.79" }],
+            "correct": "b"
+          }
+        ],
+        "explanation": "Tin 3: 300 g costs $2.40, plus $2.00 is $4.40. Bottle 4: 400 g costs $2.20, plus $1.00 is $3.20. Jar 5: 250 g costs $1.50, plus $1.50 is $3.00. Jar 2: 400 g costs $2.00, plus $1.50 is $3.50. Jar 1: 500 g costs $4.50, plus $1.50 is $6.00. The other options use a filled weight or leave out the deposit.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A shopper returns the oats jar and gets the whole deposit back. What did the oats themselves cost?",
+        "context": "Receipt E shows oats at $0.80 per 100 g and a total paid of $3.50, for a jar. Total paid = goods price plus deposit. The jar deposit is $1.50 and the shop refunds a returned container's deposit in full.",
+        "options": [
+          { "id": "a", "label": "$3.50" },
+          { "id": "b", "label": "$2.00" },
+          { "id": "c", "label": "$1.50" },
+          { "id": "d", "label": "$5.00" }
+        ],
+        "correct": "b",
+        "explanation": "The deposit comes back, so the oats cost the total minus the deposit: $3.50 - $1.50 = $2.00. That is 250 g at $0.80 per 100 g.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "match",
+        "prompt": "Match each receipt to the container that produced it.",
+        "context": "Net contents = filled weight minus empty weight. Goods price = net grams divided by 100, times the price per 100 g. Total paid = goods price plus deposit. Deposits: jar $1.50, tin $2.00, bottle $1.00. Containers: Jar 1 (empty 310 g, filled 810 g); Jar 2 (empty 250 g, filled 650 g); Tin 3 (empty 420 g, filled 720 g); Bottle 4 (empty 380 g, filled 780 g); Jar 5 (empty 200 g, filled 450 g). Each container made exactly one receipt.",
+        "left": [
+          { "id": "ra", "label": "Receipt A: rice at $0.60 per 100 g, total paid $4.50" },
+          { "id": "rb", "label": "Receipt B: lentils at $0.90 per 100 g, total paid $5.10" },
+          { "id": "rc", "label": "Receipt C: flour at $0.50 per 100 g, total paid $3.50" },
+          { "id": "rd", "label": "Receipt D: soap at $0.75 per 100 g, total paid $4.00" },
+          { "id": "re", "label": "Receipt E: oats at $0.80 per 100 g, total paid $3.50" }
+        ],
+        "right": [
+          { "id": "c1", "label": "Jar 1" },
+          { "id": "c2", "label": "Jar 2" },
+          { "id": "c3", "label": "Tin 3" },
+          { "id": "c4", "label": "Bottle 4" },
+          { "id": "c5", "label": "Jar 5" }
+        ],
+        "pairs": { "ra": "c1", "rb": "c2", "rc": "c3", "rd": "c4", "re": "c5" },
+        "explanation": "Receipt A: Jar 1, 500 g at $0.60 is $3.00, plus $1.50. Receipt B: Jar 2, 400 g at $0.90 is $3.60, plus $1.50. Receipt C: Tin 3, 300 g at $0.50 is $1.50, plus $2.00. Receipt D: Bottle 4, 400 g at $0.75 is $3.00, plus $1.00. Receipt E: Jar 5, 250 g at $0.80 is $2.00, plus $1.50. Receipts C and E share a total. Receipt C fits both Jar 2 and Tin 3 on its own, but Receipt B can only be Jar 2 (no other container gives $5.10 at $0.90), so with one receipt per container Receipt C must be Tin 3.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Tin 3 was filled at one of three rates. Which total paid could it NOT have produced?",
+        "context": "Tin 3: empty 420 g, filled 720 g. Net contents = filled weight minus empty weight. Goods price = net grams divided by 100, times the price per 100 g. Total paid = goods price plus the tin deposit of $2.00. The possible rates are $0.50, $0.60 and $0.90 per 100 g.",
+        "options": [
+          { "id": "a", "label": "$3.50" },
+          { "id": "b", "label": "$3.80" },
+          { "id": "c", "label": "$4.20" },
+          { "id": "d", "label": "$4.70" }
+        ],
+        "correct": "c",
+        "explanation": "Tin 3 holds 300 g. At $0.50 the total is $1.50 + $2.00 = $3.50, at $0.60 it is $1.80 + $2.00 = $3.80, and at $0.90 it is $2.70 + $2.00 = $4.70. A total of $4.20 matches none of them.",
+        "sourceIds": ["case"]
+      }
+    ],
+    "sources": [
+      { "id": "case", "label": "Original TypologyQuiz scenarios and supplied puzzle data", "kind": "original" }
+    ],
+    "note": "The refill shop, containers, prices and deposits are invented for this puzzle. Every weight, rate and rule a task needs is shown in that task. This is supplied toy arithmetic, not guidance on law, food safety or the environment."
   }
 ]

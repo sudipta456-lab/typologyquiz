@@ -9907,5 +9907,200 @@
       }
     ],
     "note": "All friends, items and wishes in this quiz are invented for the puzzles. Every rule you need is given in each question."
+  },
+  {
+    "id": "FS-26",
+    "slug": "lost-and-found-relay",
+    "categoryId": "friends-social-play",
+    "title": "The Lost-and-Found Relay",
+    "description": "Work through an invented library's lost-and-found log, alone or with others: match objects to owners, check which desks and pickup slots fit, and plan the release order.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      { "id": "s1", "title": "Who Lost What" },
+      { "id": "s2", "title": "Desks and Slots" },
+      { "id": "s3", "title": "The Pickup Plan" }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each lost object to the owner the clues point to.",
+        "context": "At the invented Harbor Row Library, Amara, Bo, Cleo, Dev and Esi each lost exactly one of the umbrella, scarf, notebook, keys and water bottle. Clues: Dev's item opens a door. Esi's item holds a drink. Bo's item is worn. The umbrella is not Amara's. The notebook is not Cleo's.",
+        "left": [
+          { "id": "u", "label": "Umbrella" },
+          { "id": "s", "label": "Scarf" },
+          { "id": "n", "label": "Notebook" },
+          { "id": "k", "label": "Keys" },
+          { "id": "b", "label": "Water bottle" }
+        ],
+        "right": [
+          { "id": "a", "label": "Amara" },
+          { "id": "bo", "label": "Bo" },
+          { "id": "c", "label": "Cleo" },
+          { "id": "d", "label": "Dev" },
+          { "id": "e", "label": "Esi" }
+        ],
+        "pairs": { "u": "c", "s": "bo", "n": "a", "k": "d", "b": "e" },
+        "explanation": "Dev has the keys, Esi the water bottle and Bo the scarf. The umbrella then belongs to Amara or Cleo, and it is not Amara's, so it is Cleo's. That leaves the notebook for Amara, which agrees with the clue that it is not Cleo's.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which desk is allowed to release Cleo's lost object?",
+        "context": "Cleo, Dev, Amara, Bo and Esi each lost exactly one of the umbrella, scarf, notebook, keys and water bottle. Clues: Dev's item opens a door. Esi's item holds a drink. Bo's item is worn. The umbrella is not Amara's. The notebook is not Cleo's. Item marks: umbrella = large; scarf = soft and small; notebook = paper and small; keys = valuable and small; water bottle = small. Front Desk releases items marked valuable or paper. Rack Desk releases items marked large or soft. Quiet Desk releases items marked small and not valuable.",
+        "options": [
+          { "id": "a", "label": "Front Desk" },
+          { "id": "b", "label": "Rack Desk" },
+          { "id": "c", "label": "Quiet Desk" },
+          { "id": "d", "label": "No desk can release it" }
+        ],
+        "correct": "b",
+        "explanation": "The clues give Cleo the umbrella. It is marked large only, so it meets the Rack Desk rule but neither the Front Desk rule (valuable or paper) nor the Quiet Desk rule (small and not valuable).",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s2",
+        "kind": "graph",
+        "prompt": "Connect each object to every desk that is allowed to release it.",
+        "context": "Item marks: umbrella = large; scarf = soft and small; notebook = paper and small; keys = valuable and small; water bottle = small. Front Desk releases items marked valuable or paper. Rack Desk releases items marked large or soft. Quiet Desk releases items marked small and not valuable. Draw a link whenever an item meets a desk's rule, even if another desk also fits.",
+        "left": [
+          { "id": "u", "label": "Umbrella" },
+          { "id": "s", "label": "Scarf" },
+          { "id": "n", "label": "Notebook" },
+          { "id": "k", "label": "Keys" },
+          { "id": "b", "label": "Water bottle" }
+        ],
+        "right": [
+          { "id": "f", "label": "Front Desk" },
+          { "id": "r", "label": "Rack Desk" },
+          { "id": "q", "label": "Quiet Desk" }
+        ],
+        "edges": [["u", "r"], ["s", "r"], ["s", "q"], ["n", "f"], ["n", "q"], ["k", "f"], ["b", "q"]],
+        "explanation": "The umbrella fits only the Rack Desk. The scarf is soft and small, so it fits Rack and Quiet. The notebook is paper and small, so it fits Front and Quiet. The keys are valuable, so only the Front Desk. The water bottle is merely small, so only the Quiet Desk.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Pick the latest pickup slot each owner can use.",
+        "context": "Slots start at 10:00, 11:00 and 12:00. An owner can use a slot when its start time falls inside their free window, endpoints included. Free windows: Amara 9:30 to 11:00; Bo 11:00 to 12:00; Cleo 10:00 to 10:30; Dev 10:30 to 12:30; Esi 9:00 to 12:30. Ignore how many people share a slot.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "Amara",
+            "options": [{ "id": "a", "label": "10:00" }, { "id": "b", "label": "11:00" }, { "id": "c", "label": "12:00" }],
+            "correct": "b"
+          },
+          {
+            "id": "c2",
+            "label": "Bo",
+            "options": [{ "id": "a", "label": "10:00" }, { "id": "b", "label": "11:00" }, { "id": "c", "label": "12:00" }],
+            "correct": "c"
+          },
+          {
+            "id": "c3",
+            "label": "Cleo",
+            "options": [{ "id": "a", "label": "10:00" }, { "id": "b", "label": "11:00" }, { "id": "c", "label": "12:00" }],
+            "correct": "a"
+          },
+          {
+            "id": "c4",
+            "label": "Dev",
+            "options": [{ "id": "a", "label": "10:00" }, { "id": "b", "label": "11:00" }, { "id": "c", "label": "12:00" }],
+            "correct": "c"
+          },
+          {
+            "id": "c5",
+            "label": "Esi",
+            "options": [{ "id": "a", "label": "10:00" }, { "id": "b", "label": "11:00" }, { "id": "c", "label": "12:00" }],
+            "correct": "c"
+          }
+        ],
+        "explanation": "Amara's window ends at 11:00, which counts, so 11:00 is her latest. Bo can reach 12:00. Cleo's window closes at 10:30, so only 10:00 works. Dev and Esi both reach 12:00, since 12:00 is inside 10:30 to 12:30 and 9:00 to 12:30.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "graph",
+        "prompt": "Connect each owner to every pickup slot they can use.",
+        "context": "Slots start at 10:00, 11:00 and 12:00. An owner can use a slot when its start time falls inside their free window, endpoints included. Free windows: Amara 9:30 to 11:00; Bo 11:00 to 12:00; Cleo 10:00 to 10:30; Dev 10:30 to 12:30; Esi 9:00 to 12:30.",
+        "left": [
+          { "id": "a", "label": "Amara" },
+          { "id": "bo", "label": "Bo" },
+          { "id": "c", "label": "Cleo" },
+          { "id": "d", "label": "Dev" },
+          { "id": "e", "label": "Esi" }
+        ],
+        "right": [
+          { "id": "t10", "label": "10:00" },
+          { "id": "t11", "label": "11:00" },
+          { "id": "t12", "label": "12:00" }
+        ],
+        "edges": [["a", "t10"], ["a", "t11"], ["bo", "t11"], ["bo", "t12"], ["c", "t10"], ["d", "t11"], ["d", "t12"], ["e", "t10"], ["e", "t11"], ["e", "t12"]],
+        "explanation": "Amara reaches 10:00 and 11:00. Bo reaches 11:00 and 12:00. Cleo reaches only 10:00. Dev reaches 11:00 and 12:00 but not 10:00, which is before 10:30. Esi's long window covers all three slots.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s3",
+        "kind": "order",
+        "prompt": "Put the five booked pickups in the order the library releases them.",
+        "context": "Booked pickups: umbrella at 10:00 from the Rack Desk; scarf at 12:00 from the Rack Desk; notebook at 10:00 from the Front Desk; keys at 11:00 from the Front Desk; water bottle at 12:00 from the Quiet Desk. Release rule: earlier slot first. Within the same slot, Front Desk before Rack Desk before Quiet Desk.",
+        "items": [
+          { "id": "u", "label": "Umbrella" },
+          { "id": "s", "label": "Scarf" },
+          { "id": "n", "label": "Notebook" },
+          { "id": "k", "label": "Keys" },
+          { "id": "b", "label": "Water bottle" }
+        ],
+        "correctOrder": ["n", "u", "k", "s", "b"],
+        "explanation": "10:00 first, with the notebook (Front Desk) before the umbrella (Rack Desk). The keys follow at 11:00. At 12:00 the scarf (Rack Desk) precedes the water bottle (Quiet Desk).",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Dev wants the earliest usable slot. Which slot and desk should the library book?",
+        "context": "Dev's item is the one that opens a door; the items are an umbrella, a scarf, a notebook, keys and a water bottle. Item marks: umbrella = large; scarf = soft and small; notebook = paper and small; keys = valuable and small; water bottle = small. Front Desk releases items marked valuable or paper. Rack Desk releases items marked large or soft. Quiet Desk releases items marked small and not valuable. Slots start at 10:00, 11:00 and 12:00. Dev is free from 10:30 to 12:30, and a slot is usable when its start time falls inside the window, endpoints included.",
+        "options": [
+          { "id": "a", "label": "10:00 at the Front Desk" },
+          { "id": "b", "label": "11:00 at the Front Desk" },
+          { "id": "c", "label": "11:00 at the Quiet Desk" },
+          { "id": "d", "label": "12:00 at the Front Desk" }
+        ],
+        "correct": "b",
+        "explanation": "Dev's item is the keys, which are valuable and so go through the Front Desk only. His window starts at 10:30, so 10:00 is out and 11:00 is his earliest usable slot.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Each slot can serve at most two owners and everyone first picks their earliest usable slot. Which owner at the crowded slot has no other slot to move to?",
+        "context": "Slots start at 10:00, 11:00 and 12:00. An owner can use a slot when its start time falls inside their free window, endpoints included. Free windows: Amara 9:30 to 11:00; Bo 11:00 to 12:00; Cleo 10:00 to 10:30; Dev 10:30 to 12:30; Esi 9:00 to 12:30. Earliest usable slots put Amara, Cleo and Esi at 10:00, and Bo and Dev at 11:00.",
+        "options": [
+          { "id": "a", "label": "Amara" },
+          { "id": "b", "label": "Cleo" },
+          { "id": "c", "label": "Esi" },
+          { "id": "d", "label": "All three can move" }
+        ],
+        "correct": "b",
+        "explanation": "Three owners at 10:00 is one too many. Amara can also use 11:00, and Esi can use 11:00 or 12:00, but Cleo's window closes at 10:30, so 10:00 is her only slot.",
+        "sourceIds": ["case"]
+      }
+    ],
+    "sources": [
+      { "id": "case", "label": "Original TypologyQuiz scenarios and supplied puzzle data", "kind": "original" }
+    ],
+    "note": "The library, owners, objects, desks and slots are all invented for this puzzle. Every rule and every piece of data a task needs is shown in that task, and answers are checked only against those rules. You can work through it alone or talk it over with others."
   }
 ]

@@ -10360,5 +10360,194 @@
       }
     ],
     "note": "The team, names and records are invented for this puzzle. Roles follow stated equipment and rules, not anyone's identity or ability. Share only general public spot names."
+  },
+  {
+    "id": "SN-26",
+    "slug": "mineral-scratch-lab",
+    "categoryId": "science-nature",
+    "title": "Mineral Scratch Lab",
+    "description": "Learn what hardness means for minerals and how the Mohs scale orders them, then read invented scratch logs to rank samples by the lab's own toy rules.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      { "id": "s1", "title": "The Scale" },
+      { "id": "s2", "title": "Reading Scratch Logs" }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "In the Mohs scale, what does a mineral's hardness describe?",
+        "options": [
+          { "id": "a", "label": "Its resistance to being scratched" },
+          { "id": "b", "label": "How heavy it is for its size" },
+          { "id": "c", "label": "How brightly it shines" },
+          { "id": "d", "label": "How easily it splits into flat pieces" }
+        ],
+        "correct": "a",
+        "explanation": "USGS describes hardness as a mineral's resistance to scratching. Weight, shine and splitting are different properties.",
+        "sourceIds": ["usgs"]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Order these minerals from least to most resistant to scratching on the Mohs scale.",
+        "items": [
+          { "id": "ca", "label": "Calcite" },
+          { "id": "qu", "label": "Quartz" },
+          { "id": "ta", "label": "Talc" },
+          { "id": "di", "label": "Diamond" },
+          { "id": "fl", "label": "Fluorite" }
+        ],
+        "correctOrder": ["ta", "ca", "fl", "qu", "di"],
+        "explanation": "The scale runs talc 1, gypsum 2, calcite 3, fluorite 4, apatite 5, feldspar 6, quartz 7, topaz 8, sapphire 9, diamond 10. So these five go talc, calcite, fluorite, quartz, diamond.",
+        "sourceIds": ["usgs"]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each mineral to its place on the Mohs scale.",
+        "context": "Two of the numbers on the right belong to minerals that are not on the left and will stay unused.",
+        "left": [
+          { "id": "ta", "label": "Talc" },
+          { "id": "fl", "label": "Fluorite" },
+          { "id": "fe", "label": "Feldspar" },
+          { "id": "sa", "label": "Sapphire" }
+        ],
+        "right": [
+          { "id": "n1", "label": "1" },
+          { "id": "n4", "label": "4" },
+          { "id": "n5", "label": "5" },
+          { "id": "n6", "label": "6" },
+          { "id": "n9", "label": "9" },
+          { "id": "n10", "label": "10" }
+        ],
+        "pairs": { "ta": "n1", "fl": "n4", "fe": "n6", "sa": "n9" },
+        "explanation": "Talc is 1, fluorite 4, feldspar 6 and sapphire 9. The unused 5 is apatite and the unused 10 is diamond.",
+        "sourceIds": ["usgs"]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "What do the numbers 1 to 10 on the Mohs scale tell you?",
+        "context": "The Mohs scale is a qualitative ranking: a mineral with a higher number scratches one with a lower number. Its numbers are not equal units.",
+        "options": [
+          { "id": "a", "label": "A mineral rated 6 is exactly twice as scratch resistant as one rated 3" },
+          { "id": "b", "label": "They give a relative order of scratch resistance; the steps are not equal amounts" },
+          { "id": "c", "label": "Each step up the scale adds the same amount of scratch resistance" },
+          { "id": "d", "label": "A higher number means the mineral can never break" }
+        ],
+        "correct": "b",
+        "explanation": "The scale ranks minerals by which can scratch which. It is an order, not a measurement, so a 6 is not twice a 3. Hardness does not measure toughness or how easily a sample breaks.",
+        "sourceIds": ["usgs", "usgs-hardness"]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Judge each statement against the invented scratch log.",
+        "context": "Lab rules (toy): if Sample X leaves a scratch on Sample Y, X is harder than Y. If X is tried on Y and leaves no scratch, X is not harder than Y, so X is softer or equal. If X and Y are each tried on the other and neither scratches, treat them as equally hard. Harder-than carries through a chain: if X is harder than Y and Y is harder than Z, X is harder than Z. Samples treated as equally hard compare the same way to every other sample. Log: 1. A scratches B. 2. B scratches C. 3. C and D are each tried on the other and neither scratches. 4. C scratches E. 5. F scratches E.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "A is harder than C.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Contradicted by the log" }, { "id": "c", "label": "Cannot be told from the log" }],
+            "correct": "a"
+          },
+          {
+            "id": "c2",
+            "label": "D is harder than E.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Contradicted by the log" }, { "id": "c", "label": "Cannot be told from the log" }],
+            "correct": "a"
+          },
+          {
+            "id": "c3",
+            "label": "E is harder than B.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Contradicted by the log" }, { "id": "c", "label": "Cannot be told from the log" }],
+            "correct": "b"
+          },
+          {
+            "id": "c4",
+            "label": "C and D are equally hard.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Contradicted by the log" }, { "id": "c", "label": "Cannot be told from the log" }],
+            "correct": "a"
+          },
+          {
+            "id": "c5",
+            "label": "F is harder than C.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Contradicted by the log" }, { "id": "c", "label": "Cannot be told from the log" }],
+            "correct": "c"
+          },
+          {
+            "id": "c6",
+            "label": "C is harder than A.",
+            "options": [{ "id": "a", "label": "Supported by the log" }, { "id": "b", "label": "Contradicted by the log" }, { "id": "c", "label": "Cannot be told from the log" }],
+            "correct": "b"
+          }
+        ],
+        "explanation": "The scratches give A harder than B, B harder than C and C harder than E. C and D scratched neither way, so they are equal and D is also harder than E. F beats only E, so its rank against C is unknown. E is softer than B, and C is softer than A.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which conclusion follows from the one trial in this log?",
+        "context": "Lab rules (toy): if Sample X leaves a scratch on Sample Y, X is harder than Y. If X is tried on Y and leaves no scratch, X is not harder than Y, so X is softer or equal. Log: Sample G was tried on Sample H and left no scratch. Nobody tried H on G.",
+        "options": [
+          { "id": "a", "label": "G is softer than H, or equally hard" },
+          { "id": "b", "label": "G is softer than H" },
+          { "id": "c", "label": "G and H are equally hard" },
+          { "id": "d", "label": "H is softer than G" }
+        ],
+        "correct": "a",
+        "explanation": "A failed scratch only shows that G is not harder. It cannot separate softer from equal. Trying H on G would settle which.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Two unlabeled stones each scratch calcite, and quartz scratches each of them. What is supported?",
+        "context": "Calcite is 3 and quartz is 7 on the Mohs scale. Stone 1 and Stone 2 are invented samples. A scratch means the scratcher is harder.",
+        "options": [
+          { "id": "a", "label": "Both are harder than calcite and softer than quartz, but hardness alone does not show they are the same mineral" },
+          { "id": "b", "label": "They must be the same mineral" },
+          { "id": "c", "label": "Both are exactly 5 on the Mohs scale" },
+          { "id": "d", "label": "Both are harder than quartz" }
+        ],
+        "correct": "a",
+        "explanation": "Scratching calcite puts each above 3 and being scratched by quartz puts each below 7. Fluorite (4), apatite (5) and feldspar (6) all fall in that range, so hardness alone cannot show the two stones are the same mineral.",
+        "sourceIds": ["usgs", "case"]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Rank the five invented samples from hardest to softest using the trials.",
+        "context": "Lab rules (toy): if Sample X leaves a scratch on Sample Y, X is harder than Y. If X is tried on Y and leaves no scratch, X is not harder than Y. Trials: S scratches R. R scratches P. P scratches Q. Q scratches T. T was tried on S and left no scratch.",
+        "items": [
+          { "id": "p", "label": "Sample P" },
+          { "id": "q", "label": "Sample Q" },
+          { "id": "r", "label": "Sample R" },
+          { "id": "s", "label": "Sample S" },
+          { "id": "t", "label": "Sample T" }
+        ],
+        "correctOrder": ["s", "r", "p", "q", "t"],
+        "explanation": "The four scratches form a chain: S, then R, then P, then Q, then T. The failed trial of T on S agrees, since it only says T is not harder than S.",
+        "sourceIds": ["case"]
+      }
+    ],
+    "sources": [
+      { "id": "usgs", "label": "USGS: Natural Gemstones, mineral hardness and the Mohs scale", "kind": "reference", "url": "https://pubs.usgs.gov/gip/gemstones/mineral.html" },
+      { "id": "usgs-hardness", "label": "USGS: Jaggar (1950), Abrasion hardness", "kind": "reference", "url": "https://pubs.usgs.gov/publication/70232756" },
+      { "id": "case", "label": "Original TypologyQuiz scratch logs and toy lab rules", "kind": "original" }
+    ],
+    "note": "The scratch logs, samples and lab rules are invented for practice, and the scale facts come from the USGS reference. This is not a field identification tool or a physical experiment, so do not try to scratch real specimens based on it."
   }
 ]

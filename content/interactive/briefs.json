@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 25,
+      "count": 26,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 25,
+      "count": 26,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 25,
+      "count": 26,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 25,
+      "count": 26,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 25,
+      "count": 26,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -611,6 +611,28 @@
       "evidence_class": "experimental"
     },
     {
+      "id": "PC-26",
+      "title": "The Repair Café Dilemmas",
+      "slug": "repair-cafe-dilemmas",
+      "kind": "preference",
+      "hook": "At an invented volunteer repair café, choose how to fix, repurpose and share the work on a table of broken things.",
+      "rounds": [
+        "3 repair dilemmas: choose, rank and match approaches to invented items",
+        "2 sliders: place your leaning on each of the two scales",
+        "3 café scenes: choose or rank how you would spend the session"
+      ],
+      "seed": "A visitor brings a stool with one cracked leg. Glue the original quietly, fit a new leg design alone, compare joinery with the table, or brainstorm a new use together?",
+      "payoff": "Café card: Restore Original vs Reimagine and Quiet Tinkering vs Shared Work, described from your choices only.",
+      "audience": "Fixers, makers, thrifters and the repair-curious; North America; globally playable",
+      "evidence": "X00",
+      "dependency": "preference",
+      "production_note": "All four poles are equally appealing; every option pairs one pole from each axis and no choice is correct. No repair-safety, sustainability-outcome or skill claims. Separate from Keep Lend LetGo ownership and sentiment questions. Requires new preference scoring; never use correct/incorrect credit for taste choices.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "D",
+      "evidence_class": "evergreen"
+    },
+    {
       "id": "FS-01",
       "title": "The Group Plan Rescue",
       "slug": "group-plan-rescue",
@@ -1141,6 +1163,28 @@
       "evidence": "X00",
       "dependency": "base",
       "production_note": "Uses one-to-one match and order controls. Author grids with unique solutions and playtest before release. Use simultaneous exchanges, not an impossible pairwise trade order. Every item needs a stated owner and recipient.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "D",
+      "evidence_class": "experimental"
+    },
+    {
+      "id": "FS-26",
+      "title": "The Lost-and-Found Relay",
+      "slug": "lost-and-found-relay",
+      "kind": "cooperative",
+      "hook": "Work through an invented library's lost-and-found log: match objects to owners, trace desks and time slots, and plan the pickups.",
+      "rounds": [
+        "1 match and 1 choice: pair objects with owners and desks from clues",
+        "2 link maps and 1 grid: draw every desk and slot rule that applies, decoys included",
+        "1 ordering and 2 choices: plan the release order and the pickup slots"
+      ],
+      "seed": "Dev's item opens a door; the Front Desk releases anything valuable or paper. Which item does Dev collect, and where?",
+      "payoff": "Eight checked answers, each with the rule that decides it.",
+      "audience": "Friends, families and clubs who like a shared clue puzzle; North America; globally playable",
+      "evidence": "X00",
+      "dependency": "graph",
+      "production_note": "Self-contained original data; every task restates all rules and node labels it needs. Each answer is uniquely determined by the stated rules. No pass-and-play or network features claimed. Distinct from the gift, carpool and invitation puzzles. Library context only, no endorsement implied.",
       "category": "Friends & Social Play",
       "category_code": "FS",
       "wave": "D",
@@ -3276,6 +3320,27 @@
       "evidence_class": "experimental"
     },
     {
+      "id": "SN-26",
+      "title": "Mineral Scratch Lab",
+      "slug": "mineral-scratch-lab",
+      "kind": "knowledge",
+      "hook": "Learn what scratch-resistance hardness means, then read invented scratch logs to rank mystery samples by the lab's toy rules.",
+      "rounds": [
+        "4 scale checks: definition, order, matching and what the numbers mean",
+        "4 log readings: grid, choices and ordering from invented scratch trials"
+      ],
+      "seed": "Sample A scratches Sample B, and B scratches C. Is A harder than C, and what would a failed scratch alone tell you?",
+      "payoff": "Scored answers with the scale facts and the log rule behind each one.",
+      "audience": "Curious students and rock-and-mineral fans; North America; globally playable",
+      "evidence": "X00",
+      "dependency": "base",
+      "production_note": "Scale facts limited to the Mohs order talc 1 to diamond 10 and that it is a relative ordering from USGS Natural Gemstones. Observation tables are original and fictional. No fingernail, coin or glass values, no instructions for real scratch tests, not an identification tool. Toy rules state that a scratch means harder and that no scratch alone does not prove softer.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "D",
+      "evidence_class": "evergreen"
+    },
+    {
       "id": "HC-01",
       "title": "Museum of Everyday Objects",
       "slug": "museum-of-everyday-objects",
@@ -3799,6 +3864,27 @@
       "evidence": "X00",
       "dependency": "base",
       "production_note": "Use authored fictional source cards or cleared short excerpts. Closed-world evidence rules; no AI fact-checking or unsupported firstness claims.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "D",
+      "evidence_class": "experimental"
+    },
+    {
+      "id": "HC-26",
+      "title": "One Claim, Five Echoes",
+      "slug": "one-claim-five-echoes",
+      "kind": "logic",
+      "hook": "Five posts repeat one claim about an invented museum cafe. Trace who cited whom and count the observations that are really independent.",
+      "rounds": [
+        "1 match, 2 link maps and 1 ordering: immediate citations, ultimate roots and posting times",
+        "1 grid and 3 choices: what the log does and does not establish"
+      ],
+      "seed": "Post 3 repeats Post 2, which repeats Post 1. How many of the five posts rest on a different observation?",
+      "payoff": "Eight checked answers, each with the citation or time that settles it.",
+      "audience": "Students, teachers and anyone who reads posts online; North America; globally playable",
+      "evidence": "X00",
+      "dependency": "graph",
+      "production_note": "Invented, harmless museum-cafe opening hours; not real news. Every post time, citation and independent observation is supplied, and the two graph tasks keep immediate citations and ultimate roots separate. Toy rules decide each answer. The NAMLE key questions page supports asking source and evidence questions; it does not give one right reading or show this quiz works. Do not copy NAMLE wording. Distinct from Fact Source Claim Interpretation and Cropped Photograph.",
       "category": "History & Culture",
       "category_code": "HC",
       "wave": "D",
@@ -4332,6 +4418,28 @@
       "category_code": "FE",
       "wave": "D",
       "evidence_class": "experimental"
+    },
+    {
+      "id": "FE-26",
+      "title": "The Refill Station Mix-Up",
+      "slug": "refill-station-mix-up",
+      "kind": "logic",
+      "hook": "The labels fell off at an invented refill shop. Use empty and filled weights, per-100 g prices and deposits to match containers to receipts.",
+      "rounds": [
+        "1 choice, 1 match and 1 ordering: net contents and the steps that lead to a price",
+        "1 link map, 1 grid and 1 choice: fill stations, totals and refunds",
+        "1 match and 1 choice: pair receipts with containers"
+      ],
+      "seed": "Jar 2 weighs 250 g empty and 650 g filled, at a price per 100 g. How many grams are you paying for?",
+      "payoff": "Eight checked answers, each with the arithmetic shown.",
+      "audience": "Home cooks, shoppers and puzzle fans; North America; globally playable",
+      "evidence": "X00",
+      "dependency": "layers",
+      "production_note": "Supplied toy arithmetic only, with units and fully determined answers. Net contents are filled weight minus empty weight; deposits are separate and refundable under the invented shop rule. No legal, food-safety or sustainability claims. Distinct from Receipt Riddles, which assigns shoppers to baskets without tare or price arithmetic.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "D",
+      "evidence_class": "evergreen"
     },
     {
       "id": "SG-01",

@@ -9002,5 +9002,164 @@
     ],
     "note": "The council members are invented characters for a fun preference exercise. Results describe your choices in this quiz only, not a clinical or psychological assessment.",
     "playMode": "solo"
+  },
+  {
+    "id": "PC-26",
+    "slug": "repair-cafe-dilemmas",
+    "categoryId": "personality-choices",
+    "title": "The Repair Café Dilemmas",
+    "description": "Volunteer at an invented repair café. Choose how to fix, repurpose and share the work on a table of broken things. Your scales run from Restore Original to Reimagine and from Quiet Tinkering to Shared Work.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      { "id": "s1", "title": "At the Bench" },
+      { "id": "s2", "title": "Around the Café" }
+    ],
+    "dimensions": [
+      {
+        "id": "d0",
+        "low": "Restore Original",
+        "high": "Reimagine",
+        "description": "Whether you lean toward bringing a broken thing back to how it was made or toward changing its look or giving it a new use."
+      },
+      {
+        "id": "d1",
+        "low": "Quiet Tinkering",
+        "high": "Shared Work",
+        "description": "Whether you lean toward working things out quietly on your own bench or toward working them out together with other people around."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A visitor brings a wooden stool with one cracked leg. Which plan appeals to you most?",
+        "context": "The café is invented. The owner is happy with either a faithful repair or a remake, every plan is a fine way to spend the hour, and the shelf has glue, clamps, offcuts and spare pipe.",
+        "options": [
+          { "id": "a", "label": "Glue and clamp the original leg on a back bench, so the stool looks as it did", "weights": [-1, -1] },
+          { "id": "b", "label": "On your own, swap the cracked leg for a metal pipe leg and let the stool look different", "weights": [1, -1] },
+          { "id": "c", "label": "Work out with the table how best to mend the original leg, matching its shape together", "weights": [-1, 1] },
+          { "id": "d", "label": "Lay out the broken leg and the offcuts and let the table brainstorm what the stool could become", "weights": [1, 1] }
+        ],
+        "explanation": "All four plans are equally valid. The choice records whether you lean toward restoring or reimagining, and toward working quietly or with others.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A canvas jacket arrives with a broken zip and a faded collar. What would you reach for?",
+        "context": "Same invented café. The owner is happy with either a faithful repair or a remake. There is no deadline and no wrong answer.",
+        "options": [
+          { "id": "a", "label": "Fit a matching zip yourself in a quiet corner so the jacket looks untouched", "weights": [-1, -1] },
+          { "id": "b", "label": "Cut off the sleeves and make a vest, sewing it alone at your own pace", "weights": [1, -1] },
+          { "id": "c", "label": "Work out the matching zip fit together with a few people at the big table", "weights": [-1, 1] },
+          { "id": "d", "label": "Spread out buttons, patches and scraps and let a few people try odd redesigns on the same jacket", "weights": [1, 1] }
+        ],
+        "explanation": "Each plan is a legitimate way to treat the jacket. Your pick shows how you balance keeping it original with giving it a new life, and doing so alone or together.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "rank",
+        "prompt": "Rank these table jobs from the one you would take first to the one you would take last.",
+        "context": "Each job involves a broken desk radio, and each is equally worthwhile.",
+        "items": [
+          { "id": "a", "label": "Re-solder the loose wire so the radio plays exactly as before, working quietly in a corner", "weights": [-1, -1] },
+          { "id": "b", "label": "Turn the radio case into a plant-pot light, tinkering on your own", "weights": [1, -1] },
+          { "id": "c", "label": "Work out the same original-style repair together with a few people, side by side", "weights": [-1, 1] },
+          { "id": "d", "label": "Host an open table of spare parts where people try out what a radio shell could become", "weights": [1, 1] }
+        ],
+        "explanation": "There is no best order. Where you place each job shows which mix of restoring or reimagining, and quiet or shared work, you reach for first.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "slider",
+        "prompt": "When something worn but working lands on your bench, how far from its original form would you like to take it?",
+        "explanation": "Staying close to the original and giving a thing a new purpose are both satisfying. The slider records your usual leaning on the first scale only.",
+        "sourceIds": ["case"],
+        "lowLabel": "Keep it as it was made",
+        "highLabel": "Make it something new",
+        "dimension": 0
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each item on the intake table to the approach you would take with it.",
+        "context": "Pick one approach per item. Several items can share an approach, and some approaches can go unused.",
+        "left": [
+          { "id": "x", "label": "A bicycle bell that no longer rings" },
+          { "id": "y", "label": "A teapot lid with a chipped rim" },
+          { "id": "z", "label": "A wool scarf with moth holes" },
+          { "id": "w", "label": "A bookshelf with a sagging middle shelf" }
+        ],
+        "right": [
+          { "id": "a", "label": "Repair it to match the original, at a quiet bench" },
+          { "id": "b", "label": "Rebuild it into something new, tinkering alone" },
+          { "id": "c", "label": "Work out a faithful repair together with other volunteers" },
+          { "id": "d", "label": "Work out a new use together with other volunteers" }
+        ],
+        "weights": {
+          "a": [-1, -1],
+          "b": [1, -1],
+          "c": [-1, 1],
+          "d": [1, 1]
+        },
+        "explanation": "Every pairing is a preference, not a test. Each approach you choose moves the two scales toward the way you like to handle that kind of item.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A dented tin lunchbox with a stiff hinge is next in the queue. How do you handle it?",
+        "context": "Invented café again. The owner is happy with either a faithful repair or a remake, and all four ideas are welcome.",
+        "options": [
+          { "id": "a", "label": "Straighten the dent and touch up the original paint at a quiet bench", "weights": [-1, -1] },
+          { "id": "b", "label": "Turn it into a pencil box for its owner, tinkering alone", "weights": [1, -1] },
+          { "id": "c", "label": "Work out with a small group how to ease out the dent and keep the original finish", "weights": [-1, 1] },
+          { "id": "d", "label": "Pass it around and collect everyone's wild ideas for a seed tray, a sewing kit or a lantern", "weights": [1, 1] }
+        ],
+        "explanation": "No plan is more correct than another. Your choice reflects both how much you want to preserve and how much company you want while you work.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "rank",
+        "prompt": "Rank these ways to spend the last hour of the café session from most to least appealing.",
+        "context": "Each one is an equally good use of the hour.",
+        "items": [
+          { "id": "a", "label": "Quietly finish your own restoration and label it as restored to original", "weights": [-1, -1] },
+          { "id": "b", "label": "Quietly finish a redesign its owner asked for", "weights": [1, -1] },
+          { "id": "c", "label": "Gather volunteers to compare restorations side by side", "weights": [-1, 1] },
+          { "id": "d", "label": "Gather volunteers to swap redesign ideas on a whiteboard", "weights": [1, 1] }
+        ],
+        "explanation": "Any order is fine. Your ranking shows which combination of restoring or reimagining and quiet or shared effort you would put first.",
+        "sourceIds": ["case"]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "slider",
+        "prompt": "When a repair puzzles you, where do you like to work it out?",
+        "explanation": "Working alone and thinking aloud with others are both useful ways to get unstuck. The slider records your usual leaning on the second scale only.",
+        "sourceIds": ["case"],
+        "lowLabel": "Quietly at my own bench",
+        "highLabel": "Out loud with others around",
+        "dimension": 1
+      }
+    ],
+    "sources": [
+      { "id": "case", "label": "Original TypologyQuiz scenarios and supplied puzzle data", "kind": "original" }
+    ],
+    "note": "The café, items and plans are invented for a taste exercise. Results describe your choices in this quiz only; they are not a measure of repair skill, and the quiz makes no safety or environmental claims.",
+    "playMode": "solo"
   }
 ]

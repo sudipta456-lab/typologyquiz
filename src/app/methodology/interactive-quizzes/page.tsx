@@ -7,8 +7,8 @@ import { SUMMARIES } from "@/lib/interactive/catalog.generated";
 import type { QuizKind } from "@/lib/interactive/types";
 
 const PATH = "/methodology/interactive-quizzes/";
-const UPDATED_ISO = "2026-10-18";
-const UPDATED_LABEL = "October 18, 2026";
+const UPDATED_ISO = "2026-10-22";
+const UPDATED_LABEL = "October 22, 2026";
 
 // Everything numeric below is derived from the generated catalog, never typed in.
 const TOTAL_TASKS = SUMMARIES.reduce((sum, quiz) => sum + quiz.questionCount, 0);
@@ -86,7 +86,7 @@ export default function InteractiveMethodologyPage() {
         <p className="eyebrow">Methods & evidence · Updated {UPDATED_LABEL}</p>
         <h1 className="section-title">How our interactive quizzes work</h1>
         <p className="section-lead">
-          This page describes the {SUMMARIES.length} interactive quizzes added on {UPDATED_LABEL}: what is in them, how they are scored, where their facts come from, who checked them, and what stays on your device. It covers only these quizzes. The older personality tests are described on the <Link href="/methodology/" className="text-link">main methodology page</Link>.
+          This page describes the {SUMMARIES.length} interactive quizzes in the collection, which launched on October 18, 2026 and has grown since: what is in them, how they are scored, where their facts come from, who checked them, and what stays on your device. It covers only these quizzes. The older personality tests are described on the <Link href="/methodology/" className="text-link">main methodology page</Link>.
         </p>
 
         <section className="test-block">
