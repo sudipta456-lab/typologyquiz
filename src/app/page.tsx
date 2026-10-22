@@ -5,6 +5,7 @@ import { RegionPicker } from "@/components/RegionPicker";
 import { latestEditions } from "@/lib/newsquiz/editions";
 import { editionPath } from "@/lib/editorial/identity";
 import { SUMMARIES } from "@/lib/interactive/catalog.generated";
+import HauntedWindow from "@/components/seasonal/HauntedWindow";
 
 // Accepted pilot plan: one preference quiz (PC-01), one film-craft knowledge quiz (MT-03) and one geography knowledge quiz (GT-02).
 const INTERACTIVE_PILOTS = ["PC-01", "MT-03", "GT-02"];
@@ -21,7 +22,8 @@ export default function Home() {
   const editions = latestEditions().slice(0, 2);
   const pilots = INTERACTIVE_PILOTS.map(id => SUMMARIES.find(quiz => quiz.id === id)).filter((quiz): quiz is NonNullable<typeof quiz> => quiz !== undefined);
   return <div className="discovery section">
-    <div className="discovery-intro"><h1>Find your next quiz.</h1><p>A few minutes for yourself, a challenge for friends, or practice for your learner’s test.</p></div>
+    <div className="discovery-intro"><h1 id="home-heading" tabIndex={-1}>Find your next quiz.</h1><p>A few minutes for yourself, a challenge for friends, or practice for your learner’s test.</p></div>
+    <HauntedWindow />
     <nav className="discovery-paths" aria-label="Explore quiz categories">
       <Link className="tone-blue" href="/tests/"><span>Personality <span aria-hidden="true">↗</span></span><small>Traits & habits</small></Link>
       <Link className="tone-coral" href="/trivia/"><span>Trivia <span aria-hidden="true">↗</span></span><small>Maps & knowledge</small></Link>

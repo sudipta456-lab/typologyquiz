@@ -22,7 +22,7 @@
     "test:worker": "node --test tests/predictions-worker.test.mjs",
     "test:driving": "tsx --test tests/driving-score.test.ts",
     "lint:predictions": "eslint worker src/lib/predictions src/components/predictions src/app/predictions tests/predictions-worker.test.mjs tests/predictions-client.test.ts",
-    "verify": "npm run verify:editorial && npm run test:worker && npm run test:driving && npm run lint:predictions && npm run test:predictions-client && npm run test:assessments && npm run lint:assessments && npm run test:analytics && npm run lint:analytics && npm run test:discovery-summary && npm run lint:discovery-summary && npm run test:live && npm run lint:live && npm run test:group && npm run lint:group && npm run test:movies && npm run lint:movies && npm run verify:interactive && npm run test:ops-dashboard",
+    "verify": "npm run verify:editorial && npm run test:worker && npm run test:driving && npm run lint:predictions && npm run test:predictions-client && npm run test:assessments && npm run lint:assessments && npm run test:analytics && npm run lint:analytics && npm run test:discovery-summary && npm run lint:discovery-summary && npm run test:live && npm run lint:live && npm run test:group && npm run lint:group && npm run test:movies && npm run lint:movies && npm run verify:interactive && npm run test:ops-dashboard && npm run test:seasonal",
     "assemble:interactive": "tsx scripts/interactive-assemble.mts",
     "import:interactive": "tsx scripts/interactive-assemble.mts --from-parts",
     "validate:interactive": "tsx scripts/interactive-validate.mts",
@@ -47,7 +47,8 @@
     "lint:group": "eslint worker/group.js src/lib/group src/app/group src/components/trivia/ResultReveal.tsx src/components/trivia/TriviaPlayClient.tsx tests/group-room.test.mjs",
     "generate:group-catalog": "tsx scripts/generate-group-catalog.mts",
     "test:movies": "tsx --test tests/movies.test.ts",
-    "lint:movies": "eslint src/lib/trivia/movies.ts src/lib/trivia/movie-engine.ts src/lib/trivia/movie-group.ts src/lib/trivia/movie-analytics.ts src/lib/group/paths.ts src/components/trivia/MovieQuiz.tsx src/components/trivia/MovieHero.tsx src/components/trivia/MovieCover.tsx src/app/trivia/movies scripts/verify-movie-sources.mts tests/movies.test.ts"
+    "lint:movies": "eslint src/lib/trivia/movies.ts src/lib/trivia/movie-engine.ts src/lib/trivia/movie-group.ts src/lib/trivia/movie-analytics.ts src/lib/group/paths.ts src/components/trivia/MovieQuiz.tsx src/components/trivia/MovieHero.tsx src/components/trivia/MovieCover.tsx src/app/trivia/movies scripts/verify-movie-sources.mts tests/movies.test.ts",
+    "test:seasonal": "tsx --test tests/halloween-season.test.ts && eslint src/components/seasonal src/app/page.tsx tests/halloween-season.test.ts"
   },
   "dependencies": {
     "next": "16.2.10",
