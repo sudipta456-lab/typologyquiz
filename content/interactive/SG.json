@@ -9886,24 +9886,24 @@
         "id": "q3",
         "sectionId": "s2",
         "kind": "match",
-        "prompt": "Match each action to legal or penalty under the rulebook.",
-        "context": "Legal: stay in fairway zones. Illegal: touch pumpkin or out-of-bounds marker → +2. Turn order: lowest current total score plays first.",
+        "prompt": "Match each action to its most specific outcome under the original toy rulebook (completed hole versus still in progress).",
+        "context": "Original fictional Pumpkin Patch Mini-Golf rulebook only: illegal contact (pumpkin touch or out-of-bounds marker) adds +2 penalty. Legal movement that stays in the marked path but has not yet completed the hole is still in progress (no final score yet). A hole completed in exactly 2 legal strokes with no contact receives final score 2. One-to-many mapping is unique by most-specific category. Turn order remains lowest current total score first.",
         "left": [
           {
             "id": "l1",
-            "label": "Ball touches pumpkin"
+            "label": "Ball touches pumpkin (illegal contact)"
           },
           {
             "id": "l2",
-            "label": "Stays in marked path"
+            "label": "Stays in marked path (still in progress, hole not completed)"
           },
           {
             "id": "l3",
-            "label": "Crosses out-of-bounds line"
+            "label": "Crosses out-of-bounds line (illegal contact)"
           },
           {
             "id": "l4",
-            "label": "Hits within hole in 2 strokes no contact"
+            "label": "Hole completed in 2 legal strokes, no contact"
           }
         ],
         "right": [
@@ -9913,11 +9913,11 @@
           },
           {
             "id": "r2",
-            "label": "Legal, no penalty"
+            "label": "Legal movement still in progress (no final score yet)"
           },
           {
             "id": "r3",
-            "label": "Legal score 2"
+            "label": "Completed hole, final score 2"
           }
         ],
         "pairs": {
@@ -9926,7 +9926,7 @@
           "l3": "r1",
           "l4": "r3"
         },
-        "explanation": "Illegal contact or OOB → +2 (reused target); clean path legal. All valid mappings.",
+        "explanation": "Illegal contact (pumpkin or out-of-bounds) maps to the +2 penalty target (reused). Marked-path movement that has not finished the hole maps to the still-in-progress target (no final score). Completing the hole in 2 clean strokes maps to the completed-hole final-score-2 target. Most-specific exclusive categories.",
         "sourceIds": [
           "orig"
         ]
@@ -10000,42 +10000,42 @@
         "id": "q8",
         "sectionId": "s2",
         "kind": "match",
-        "prompt": "Match constraint to consequence.",
-        "context": "Must complete hole before next turn. Illegal reset costs extra stroke equivalent to penalty.",
+        "prompt": "Match each case to its most specific applicable rule-card outcome under the original toy rulebook.",
+        "context": "Original fictional rule cards (fiction only, not real mini-golf): (1) illegal contact adds +2 to the score; (2) a clean completed hole has final score equal to the strokes taken; (3) an out-of-turn attempt must wait and, once corrected, incurs no additional penalty; (4) within-bounds movement that is still in progress incurs no boundary penalty but does not yet produce a final hole score. Choose the most specific named card.",
         "left": [
           {
             "id": "l1",
-            "label": "Illegal contact"
+            "label": "Illegal contact case"
           },
           {
             "id": "l2",
-            "label": "Legal completion in strokes"
+            "label": "Clean completed hole case"
           },
           {
             "id": "l3",
-            "label": "Out of turn"
+            "label": "Out-of-turn attempt case"
           },
           {
             "id": "l4",
-            "label": "Within bounds"
+            "label": "Within-bounds movement still in progress case"
           }
         ],
         "right": [
           {
             "id": "r1",
-            "label": "+2 to score"
+            "label": "Illegal contact: add +2"
           },
           {
             "id": "r2",
-            "label": "Score = strokes"
+            "label": "Clean completed hole: final score = strokes"
           },
           {
             "id": "r3",
-            "label": "Must wait, no extra if corrected"
+            "label": "Out-of-turn: wait, no additional penalty once corrected"
           },
           {
             "id": "r4",
-            "label": "No penalty"
+            "label": "Within-bounds still in progress: no boundary penalty, no final hole score yet"
           }
         ],
         "pairs": {
@@ -10044,7 +10044,7 @@
           "l3": "r3",
           "l4": "r4"
         },
-        "explanation": "Direct rule mapping for constraints.",
+        "explanation": "Each left case maps to its uniquely named rule card: illegal contact adds +2; a clean completed hole scores exactly the strokes taken; an out-of-turn attempt waits with no extra penalty after correction; within-bounds movement that has not finished the hole has no boundary penalty and no final score yet. Most-specific exclusive outcomes.",
         "sourceIds": [
           "orig"
         ]

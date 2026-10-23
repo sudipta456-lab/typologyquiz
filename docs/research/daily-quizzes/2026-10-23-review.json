@@ -252,7 +252,7 @@
       "verdict": "matches key; math correct (shown 200 min → actual ≈171.4 min; deadline 190 min); reverse B-C edge duration assumed equal; waiting adds zero; all valid edges listed"
     }
   ],
-  "summary": "Independent re-derivation of all 40 tasks confirms correctness of arithmetic (frame ms, ratios, interpolations, FAST/SLOW clock formulas, journey budgets), graph edge completeness, match mappings (with proper target reuse), ordering sequences, audio tone/transcript consistency, and rule applications. All 13 initial issues are resolved: uppercase quiz IDs, reference URLs present, graphs/matches deduplicated with all valid edges explicit, audio transcripts no longer leak answer categories, choice correct positions varied across 1–4, sections contiguous, labels unique. SG score explicitly includes penalties; GT slope is pure fiction on fixed linear profile with same vertical interval. LW q8 rewritten combined clock+grid is mathematically correct: shown 3:20 PM (200 min) → actual ≈171.4 min (≈2:51 PM); deadline 3:10 PM (190 min) gives ≈18.6 min budget; listed paths 15/13/12 min feasible, 24 min not; reverse edge and waiting semantics acceptable. No blocking medium or high findings remain. One low/optional wording note on LW q8 waiting/undirected edges. Status pass. AI-assisted review only.",
+  "summary": "Independent re-derivation of all 40 tasks confirms correctness of arithmetic (frame ms, ratios, interpolations, FAST/SLOW clock formulas, journey budgets), graph edge completeness, match mappings (with proper target reuse), ordering sequences, audio tone/transcript consistency, and rule applications. All 13 initial issues are resolved: uppercase quiz IDs, reference URLs present, graphs/matches deduplicated with all valid edges explicit, audio transcripts no longer leak answer categories, choice correct positions varied across 1–4, sections contiguous, labels unique. SG score explicitly includes penalties; GT slope is pure fiction on fixed linear profile with same vertical interval. LW q8 rewritten combined clock+grid is mathematically correct: shown 3:20 PM (200 min) → actual ≈171.4 min (≈2:51 PM); deadline 3:10 PM (190 min) gives ≈18.6 min budget; listed paths 15/13/12 min feasible, 24 min not; reverse edge and waiting semantics acceptable. No blocking medium or high findings remain. One low/optional wording note on LW q8 waiting/undirected edges. Status pass. AI-assisted review only. Subsequent browser QA found MU q6 ratio-orientation and SG q3/q8 category-overlap/incomplete-rule issues missed by this initial review. They were corrected in V4/V5 and independently delta-reviewed as recorded below; original pass is historical, not evidence the earlier text was unambiguous.",
   "provider": "Grok Expert, fresh independent browser session",
   "authorSession": "https://grok.com/c/7b249219-9f53-411f-90be-8b538d3e5eab",
   "reviewSession": "https://grok.com/c/2f54a887-00ad-4f60-aca9-ceef7ff2026e",
@@ -262,7 +262,7 @@
     "MT-26": "dcb34f213f07df5714ff2e24933efab41a2b272789fac8236bfdd7413667d503",
     "MU-26": "c175882820f6bf842919710aa409f046cc3ba87ee2ae02c93f7d1e21ce79e209",
     "GT-26": "36d23a3f17a6b1b8711530481cbc622a85abaabed645597bc252289ef4e54c51",
-    "SG-26": "eec3200be74c18f6650629777e241f89d4f656ec68e97c0520949404ef5bfce3",
+    "SG-26": "467a6abfe1e3cdbe89474383d8870271a833c97a29cfd0d1876592370e7c926f",
     "LW-26": "3b297d4b64f9887386e459a560e5e4f6aa3dc2a9c3a2faa40ca77f7b5a65da8e"
   },
   "approvedClarificationApplied": "LW-26 q8: appended the reviewer's exact optional clarification, making undirected edges and zero-minute toy waiting explicit. Keys unchanged.",
@@ -303,5 +303,24 @@
       "verdict": "pass"
     }
   ],
-  "finalPromptApproval": "Independent Grok reviewer approved GT-26 q4 triggers wording as clarity-only; pass preserved."
+  "finalPromptApproval": "Independent Grok reviewer approved GT-26 q4 triggers wording as clarity-only; pass preserved.",
+  "liveDiscoveredCorrection": {
+    "issue": "Production play-through found SG-26 q3 overlapping legal/completed labels and q8 incomplete local rule cards, missed in the original independent review.",
+    "resolution": "Grok V5 distinguishes still-in-progress from completed holes and supplies four complete, named fictional rule cards; no keys changed.",
+    "independentVerdict": "PASS: no reasonable alternate mapping; every local rule supplied. Fresh reviewer session separate from author.",
+    "coverage": [
+      {
+        "quizId": "SG-26",
+        "questionId": "q3",
+        "derivedAnswer": "l1:r1,l2:r2,l3:r1,l4:r3",
+        "verdict": "pass; +2 reused; progress/completion exclusive"
+      },
+      {
+        "quizId": "SG-26",
+        "questionId": "q8",
+        "derivedAnswer": "l1:r1,l2:r2,l3:r3,l4:r4",
+        "verdict": "pass; four distinct most-specific cards"
+      }
+    ]
+  }
 }
