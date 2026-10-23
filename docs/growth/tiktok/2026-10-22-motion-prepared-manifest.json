@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-23T03:07:07.560680+00:00",
+  "items": [
+    {
+      "id": "1015-story-alien-mute-v1",
+      "caption": "An unknown signal, one fictional crew: do you investigate the clue or bring everyone together? Original playful adaptation of our alien archetype quiz—not a diagnosis or claim about real aliens. Original AI video. https://typologyquiz.com/trivia/alien-type/ #AlienQuiz #SciFi #TypologyQuiz",
+      "route": "/trivia/alien-type/",
+      "source": "src/components/trivia/InterestQuiz.tsx",
+      "source_video_page": "https://app.heygen.com/videos/67fff8126a204f2d8bd4093a8f02d3df",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "source_asset_id": "1015-story-alien",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-22-evening/muted-native24/1015-story-alien.mp4",
+      "sha256": "81ae69ed22fc2a44257571f7a625411c5f39535ede94912a852c750f51a432ef",
+      "source_sha256": "654076429658f8cc5affc2603aea0491b54bbcfd440f7972b40a085eab56c6d2",
+      "video_packet_md5": "MD5=1a88fba3644b4d332c29850ec7e17dce",
+      "source_unchanged": true,
+      "full_decode_errors": 0,
+      "audio_tracks": 0,
+      "visual_review": "15 decoded one-second timeline frames plus actual0/4/9/12s phase frames reviewed; no overlap or unreadable CTA observed. Not continuous real-time playback.",
+      "state": "prepared_local",
+      "publication": {
+        "uploaded_confirmed": false,
+        "scheduled_confirmed": false,
+        "published_confirmed": false
+      },
+      "pending": "Native preview playback and uploader file-access recovery; no schedule claimed.",
+      "intended_publish_at": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "1015-story-physics-mute-v1",
+      "caption": "Pendulums, space-time or quantum puzzles—which would you explore first? Our physics preference quiz is about curiosity, not intelligence or ability. Original AI conceptual visualization, not an experiment. https://typologyquiz.com/trivia/physics/ #Physics #ScienceQuiz #TypologyQuiz",
+      "route": "/trivia/physics/",
+      "source": "src/components/trivia/PhysicsPreferenceQuiz.tsx",
+      "source_video_page": "https://app.heygen.com/videos/a1ec604d2ba94155a7b9579c84e7c026",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "source_asset_id": "1015-story-physics",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-22-evening/muted-native24/1015-story-physics.mp4",
+      "sha256": "a090aa2d1e9710f06a20f655deee9e189d5fb91cba7d02a90a28df48c88a1dd2",
+      "source_sha256": "f9e42038eb8efde8d6bb029697c0b44c50317fa2a63e158570144f1e1941a631",
+      "video_packet_md5": "MD5=21505f5e4ff41f291019b22f2c34a3a2",
+      "source_unchanged": true,
+      "full_decode_errors": 0,
+      "audio_tracks": 0,
+      "visual_review": "15 decoded one-second timeline frames plus actual0/4/9/12s phase frames reviewed; no overlap or unreadable CTA observed. Not continuous real-time playback.",
+      "state": "prepared_local",
+      "publication": {
+        "uploaded_confirmed": false,
+        "scheduled_confirmed": false,
+        "published_confirmed": false
+      },
+      "pending": "Native preview playback and uploader file-access recovery; no schedule claimed.",
+      "intended_publish_at": "2026-10-23T14:30:00-06:00"
+    },
+    {
+      "id": "1015-story-gold-mute-v1",
+      "caption": "Au: gold or silver? Choose before the reveal. Source: Royal Society of Chemistry. Original AI metallic-object visualization, not a real experiment. https://typologyquiz.com/trivia/periodic-table/ #ChemistryQuiz #PeriodicTable #TypologyQuiz",
+      "route": "/trivia/periodic-table/",
+      "source": "https://periodic-table.rsc.org/element/79/gold",
+      "source_video_page": "https://app.heygen.com/videos/8450254d214a48f7a962e5ee07e8b028",
+      "ai_label": true,
+      "brand_disclosure": true,
+      "source_asset_id": "1015-story-gold",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-22-evening/muted-native24/1015-story-gold.mp4",
+      "sha256": "635d06a593178c97fd188a0c64400ef62ae7f33d54d1c988a640bc2c5ff1a888",
+      "source_sha256": "28a968a4d0a522f800b9d98486d91cdca287ee05faed5bedc15606c8349bc0b1",
+      "video_packet_md5": "MD5=2a8572c23231f40f26973d8c23488652",
+      "source_unchanged": true,
+      "full_decode_errors": 0,
+      "audio_tracks": 0,
+      "visual_review": "15 decoded one-second timeline frames plus actual0/4/9/12s phase frames reviewed; no overlap or unreadable CTA observed. Not continuous real-time playback.",
+      "state": "prepared_local",
+      "publication": {
+        "uploaded_confirmed": false,
+        "scheduled_confirmed": false,
+        "published_confirmed": false
+      },
+      "pending": "Native preview playback and uploader file-access recovery; no schedule claimed.",
+      "intended_publish_at": "2026-10-23T18:30:00-06:00"
+    }
+  ],
+  "rights": {
+    "original_AI_visuals": "Existing HeyGen Creator output provenance per production manifest/current handoff. Official terms https://www.heygen.com/terms section3 allows commercial output for Creator/Pro/Business; existing Creator connection recorded October14. No agreement accepted or plan changed. No third-party film, character, voice or music copied for these3.",
+    "audio": "All soundtracks removed; outputs have zero audio tracks. No soundtrack license or audio audition inferred.",
+    "AI_disclosure": "All3 require native AI label and Your brand / Promotional content at submission."
+  },
+  "publication_blocker": "Native Select video chooser setFiles completed but uploader remained empty; DOM FileList empty; no upload, draft or schedule confirmed. Official browser-tool recovery asks owner to enable Allow access to file URLs for ChatGPT Chrome extension. Toggle itself not inspected.",
+  "native_preview_playback": "Pending; full decode and sampled timeline/phase QA do not equal continuous playback."
+}

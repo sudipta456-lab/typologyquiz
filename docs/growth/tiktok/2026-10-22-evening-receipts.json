@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-10-23T03:11:15.019274+00:00",
+  "phase": "evening",
+  "account": "@typologyquiz",
+  "publication": {
+    "today_published": [
+      "1004-lisbon-cta-v2",
+      "0923-05-cta-v2",
+      "0922-10-cta-v2"
+    ],
+    "known_ledger_future_rows": 0,
+    "native_scope": "First7 recent rows, all past times; today3 reconciled. Not complete52-post history. No Oct23 row seen."
+  },
+  "analytics": {
+    "period": "2026-10-15 through 2026-10-21",
+    "date_evidence": "Overview chart x-axisOct15 throughOct21; Last7days selected.",
+    "video_views": 571,
+    "profile_views": 23,
+    "likes": 2,
+    "comments": null,
+    "shares": 0,
+    "traffic_percent": {
+      "for_you": 66.1,
+      "search": 17.9,
+      "personal_profile": 15.5,
+      "following": 0.4,
+      "sound": 0
+    },
+    "average_watch_time": null,
+    "completion_rate": null,
+    "saves": null,
+    "website_quiz_starts": null,
+    "platform_displayed_deltas": {
+      "video_views": "-814 (-58.8%)",
+      "profile_views": "+7 (43.8%)",
+      "likes": "-12 (-85.7%)",
+      "shares": "-1 (-100.0%)"
+    },
+    "comparison_limit": "Comparison dates not independently verified; overlapping rolling reports, small recent counters and historical QA do not identify a winning format or causal cadence effect."
+  },
+  "comments": {
+    "displayed": 2,
+    "creator_authored": true,
+    "age_label": "1mo",
+    "actionable_audience_question_observed": false,
+    "replies_sent": 0,
+    "limit": "Displayed list only, not exhaustive history."
+  },
+  "tomorrow_queue": "Three mute motion candidates local only;0 new schedules confirmed. File chooser returned without attaching media; pending user file-access recovery and final native preview. Reconcile again before any retry.",
+  "actions": {
+    "file_chooser_attempts": 1,
+    "uploaded_confirmed": 0,
+    "schedules": 0,
+    "deletions": 0,
+    "post_edits": 0,
+    "replies": 0,
+    "ledger_status_advances": 3
+  },
+  "seven_day_review": {
+    "recommendation": "Keep3 slots provisionally; improve immediate meaningful motion/useful question and finish QA. Matched-age watch/completion/saves/site attribution unavailable; no volume increase or winner claim."
+  },
+  "record": "docs/growth/tiktok/2026-10-22-evening-reconciliation.md",
+  "prepared_manifest": "docs/growth/tiktok/2026-10-22-motion-prepared-manifest.json",
+  "blocker": "Native Select video chooser setFiles completed but uploader remained empty; DOM FileList empty; no upload, draft or schedule confirmed. Official browser-tool recovery asks owner to enable Allow access to file URLs for ChatGPT Chrome extension. Toggle itself not inspected."
+}

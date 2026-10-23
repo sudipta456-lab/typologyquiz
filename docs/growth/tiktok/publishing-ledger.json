@@ -1261,6 +1261,71 @@
         "limit": "Earlier growth audit, not a fresh GA query here; cannot attribute Google-organic start to TikTok."
       },
       "record": "docs/growth/tiktok/2026-10-21-evening-reconciliation.md"
+    },
+    {
+      "checked_at": "2026-10-23T03:11:15.019274+00:00",
+      "phase": "evening",
+      "account": "@typologyquiz",
+      "publication": {
+        "today_published": [
+          "1004-lisbon-cta-v2",
+          "0923-05-cta-v2",
+          "0922-10-cta-v2"
+        ],
+        "known_ledger_future_rows": 0,
+        "native_scope": "First7 recent rows, all past times; today3 reconciled. Not complete52-post history. No Oct23 row seen."
+      },
+      "analytics": {
+        "period": "2026-10-15 through 2026-10-21",
+        "date_evidence": "Overview chart x-axisOct15 throughOct21; Last7days selected.",
+        "video_views": 571,
+        "profile_views": 23,
+        "likes": 2,
+        "comments": null,
+        "shares": 0,
+        "traffic_percent": {
+          "for_you": 66.1,
+          "search": 17.9,
+          "personal_profile": 15.5,
+          "following": 0.4,
+          "sound": 0
+        },
+        "average_watch_time": null,
+        "completion_rate": null,
+        "saves": null,
+        "website_quiz_starts": null,
+        "platform_displayed_deltas": {
+          "video_views": "-814 (-58.8%)",
+          "profile_views": "+7 (43.8%)",
+          "likes": "-12 (-85.7%)",
+          "shares": "-1 (-100.0%)"
+        },
+        "comparison_limit": "Comparison dates not independently verified; overlapping rolling reports, small recent counters and historical QA do not identify a winning format or causal cadence effect."
+      },
+      "comments": {
+        "displayed": 2,
+        "creator_authored": true,
+        "age_label": "1mo",
+        "actionable_audience_question_observed": false,
+        "replies_sent": 0,
+        "limit": "Displayed list only, not exhaustive history."
+      },
+      "tomorrow_queue": "Three mute motion candidates local only;0 new schedules confirmed. File chooser returned without attaching media; pending user file-access recovery and final native preview. Reconcile again before any retry.",
+      "actions": {
+        "file_chooser_attempts": 1,
+        "uploaded_confirmed": 0,
+        "schedules": 0,
+        "deletions": 0,
+        "post_edits": 0,
+        "replies": 0,
+        "ledger_status_advances": 3
+      },
+      "seven_day_review": {
+        "recommendation": "Keep3 slots provisionally; improve immediate meaningful motion/useful question and finish QA. Matched-age watch/completion/saves/site attribution unavailable; no volume increase or winner claim."
+      },
+      "record": "docs/growth/tiktok/2026-10-22-evening-reconciliation.md",
+      "prepared_manifest": "docs/growth/tiktok/2026-10-22-motion-prepared-manifest.json",
+      "blocker": "Native Select video chooser setFiles completed but uploader remained empty; DOM FileList empty; no upload, draft or schedule confirmed. Official browser-tool recovery asks owner to enable Allow access to file URLs for ChatGPT Chrome extension. Toggle itself not inspected."
     }
   ],
   "posts": [
@@ -3606,7 +3671,7 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/1004-lisbon.mp4",
       "caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
       "sha256": "a2ddce73d047f500f3b03e0cf4b8109984a6166724c136789f361cd714e16f4e",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "publish_at": "2026-10-22T18:30:00-06:00",
       "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
       "tiktok_id": "7697486050091945234",
@@ -3625,6 +3690,14 @@
         "scheduled_local_time": "2026-10-22T18:30:00-06:00",
         "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
         "record": "docs/growth/tiktok/2026-10-19-evening-reconciliation.md"
+      },
+      "published_confirmed_at": "2026-10-23T03:11:15.019274+00:00",
+      "publication_verification": "Fresh Studio Profile exactly @typologyquiz, explicit Posts reload; exact caption/permalink, past Edmonton time, Everyone, and no scheduled Alarm. Studio UI evidence only, not independent public playback.",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-23T03:11:15.019274+00:00"
       }
     },
     {
@@ -3632,7 +3705,7 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0923-05.mp4",
       "caption": "Hungary’s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
       "sha256": "c3a548e45a0bcc3b8ff4c4e26278ff894ce5ea5ad8bd5eb91acd0b9fc125307d",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "publish_at": "2026-10-22T14:30:00-06:00",
       "url": "https://www.tiktok.com/@typologyquiz/video/7697486855918374152",
       "tiktok_id": "7697486855918374152",
@@ -3651,6 +3724,14 @@
         "scheduled_local_time": "2026-10-22T14:30:00-06:00",
         "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
         "record": "docs/growth/tiktok/2026-10-19-evening-reconciliation.md"
+      },
+      "published_confirmed_at": "2026-10-23T03:11:15.019274+00:00",
+      "publication_verification": "Fresh Studio Profile exactly @typologyquiz, explicit Posts reload; exact caption/permalink, past Edmonton time, Everyone, and no scheduled Alarm. Studio UI evidence only, not independent public playback.",
+      "metrics": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-23T03:11:15.019274+00:00"
       }
     },
     {
@@ -3658,7 +3739,7 @@
       "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-15-queue-repairs-v2/0922-10.mp4",
       "caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
       "sha256": "792cc1f49dac6a619768c273feef24089515d6edd18cb8f15fc2f9b350d40b0b",
-      "status": "scheduled_confirmed",
+      "status": "published_confirmed",
       "publish_at": "2026-10-22T10:30:00-06:00",
       "url": "https://www.tiktok.com/@typologyquiz/video/7697487566303497488",
       "tiktok_id": "7697487566303497488",
@@ -3677,6 +3758,14 @@
         "scheduled_local_time": "2026-10-22T10:30:00-06:00",
         "method": "Reloaded Studio; exact caption/permalink, future local time and native Alarm matched in overlapping scroll passes.",
         "record": "docs/growth/tiktok/2026-10-19-evening-reconciliation.md"
+      },
+      "published_confirmed_at": "2026-10-23T03:11:15.019274+00:00",
+      "publication_verification": "Fresh Studio Profile exactly @typologyquiz, explicit Posts reload; exact caption/permalink, past Edmonton time, Everyone, and no scheduled Alarm. Studio UI evidence only, not independent public playback.",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "observed_at": "2026-10-23T03:11:15.019274+00:00"
       }
     },
     {
@@ -4009,25 +4098,24 @@
     "status": "scheduled_confirmed_with_two_existing_studio_conflicts",
     "note": "The Studio queue was reloaded and each listed future row was observed after scheduling. Existing Vienna duplicate and the earlier Slovenia/stop same-slot conflict are recorded; web Studio blocked cleanup of commercial-content scheduled videos.",
     "latest_check": {
-      "reconciled_at": "2026-10-22T06:01:52.288438-06:00",
+      "reconciled_at": "2026-10-23T03:11:15.019274+00:00",
       "studio_account": "@typologyquiz",
-      "future_rows_confirmed": 3,
-      "receipt_window": "2026-10-22 America/Edmonton",
-      "future_slot_conflicts": 0,
+      "known_ledger_future_rows": 0,
+      "october_22_published_confirmed": 3,
       "daily_counts": {
         "2026-10-22": 3
       },
-      "october_21_published_confirmed": 3,
       "preceding_scheduled_item": {
-        "url": "https://www.tiktok.com/@typologyquiz/video/7697487830892809490",
+        "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
         "status": "published_confirmed",
-        "views": 1
+        "views": 0
       },
+      "future_slot_conflicts_observed": 0,
+      "limit": "Bounded7 recent native rows, no completehistory assertion.0 new schedules; nextslots require freshreconciliation afterfileaccessrestored.",
       "quality_backlog_remaining_scheduled": 0,
       "approved_cta_replacements_completed": 12,
-      "historical_exception": "October12 conflicts retained as history; not rescanned or altered.",
-      "record": "docs/growth/tiktok/2026-10-22-morning-reconciliation.md",
-      "receipt": "docs/growth/tiktok/2026-10-22-morning-receipts.json"
+      "record": "docs/growth/tiktok/2026-10-22-evening-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-22-evening-receipts.json"
     }
   },
   "queue_reconciliation": {
@@ -4038,25 +4126,24 @@
     "receipt_window": "2026-10-12 through 2026-10-22 America/Edmonton",
     "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots.",
     "latest_check": {
-      "reconciled_at": "2026-10-22T06:01:52.288438-06:00",
+      "reconciled_at": "2026-10-23T03:11:15.019274+00:00",
       "studio_account": "@typologyquiz",
-      "future_rows_confirmed": 3,
-      "receipt_window": "2026-10-22 America/Edmonton",
-      "future_slot_conflicts": 0,
+      "known_ledger_future_rows": 0,
+      "october_22_published_confirmed": 3,
       "daily_counts": {
         "2026-10-22": 3
       },
-      "october_21_published_confirmed": 3,
       "preceding_scheduled_item": {
-        "url": "https://www.tiktok.com/@typologyquiz/video/7697487830892809490",
+        "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
         "status": "published_confirmed",
-        "views": 1
+        "views": 0
       },
+      "future_slot_conflicts_observed": 0,
+      "limit": "Bounded7 recent native rows, no completehistory assertion.0 new schedules; nextslots require freshreconciliation afterfileaccessrestored.",
       "quality_backlog_remaining_scheduled": 0,
       "approved_cta_replacements_completed": 12,
-      "historical_exception": "October12 conflicts retained as history; not rescanned or altered.",
-      "record": "docs/growth/tiktok/2026-10-22-morning-reconciliation.md",
-      "receipt": "docs/growth/tiktok/2026-10-22-morning-receipts.json"
+      "record": "docs/growth/tiktok/2026-10-22-evening-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-22-evening-receipts.json"
     }
   }
 }
