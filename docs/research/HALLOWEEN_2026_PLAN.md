@@ -2,6 +2,10 @@
 
 Editorial plan prepared October 22 with the owner's signed-in **Grok Expert** subscription, then refined for category fit, distinctness and supported controllers. These are **45 planned quizzes, not 45 published quizzes**. October 22's five additions are already live; there is no second batch today. Five new quizzes per Edmonton calendar day, nine days, across the existing ten categories. Missed dates are not bulk-backfilled. Normal evergreen rotation resumes November 1. Existing quizzes remain available after Halloween; only the homepage decoration expires.
 
+## Publication progress
+
+October23: five verified live, bringing the collection to260. See [dated release and quiz links](daily-quizzes/2026-10-23.md). The calendar below retains the original concepts; October24–31 contain40 future planned quizzes, not published content. No extra batch or missed-day backfill.
+
 ## Evidence and positioning
 
 This is a seasonal editorial experiment, not a claim of proven North American engagement. The October 21 growth scorecard recorded one Google-organic interactive start with audience/QA limits; it does not identify demand for Halloween. The October 22 scout's library-friendly, supplied-evidence format informs the self-contained story and logic rounds. NASA's current October material supplies a timely science angle. The other primary sources establish factual research leads, not search-volume or ranking evidence.

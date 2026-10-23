@@ -1,0 +1,167 @@
+{
+  "dateAmericaEdmonton": "2026-10-23",
+  "status": "complete",
+  "published": 5,
+  "shortfall": 0,
+  "originalSourceCommit": "b2701043",
+  "finalSourceCommit": "ddb3959e",
+  "initialDeploymentVersion": "26801dd8-4088-4184-af72-c59f95042a9b",
+  "finalDeploymentVersion": "244f609b-375a-4026-a904-295c2b8c791d",
+  "deploymentCreatedUTC": "2026-10-23T13:41:44.162Z",
+  "trafficPercent": 100,
+  "priorStableVersion": "1613434c-d43b-47d9-9865-f309ee77d06d",
+  "build": {
+    "verifiedTests": 296,
+    "analyticsPages": 1580,
+    "analyticsChunk": "_next/static/chunks/26qrdf8op112r.js",
+    "analyticsSha256": "8c4bc9d75fba5aa4d31b92887dd24931e95dff06e92a51eb68fe127a4175c642",
+    "sitemapURLs": 844,
+    "exportFiles": 16495,
+    "exportDirectories": 2058,
+    "lastBrowserFixesInExport": true,
+    "finalCorrectionInExport": true,
+    "fullVerificationLog": "verify-v5.log"
+  },
+  "preservation": {
+    "oldQuizzesUnchanged": 255,
+    "oldBriefsUnchanged": 255,
+    "newQuizzes": 5,
+    "allCategoryCounts": {
+      "PC": 26,
+      "FS": 26,
+      "MT": 26,
+      "MU": 26,
+      "GT": 26,
+      "SN": 26,
+      "HC": 26,
+      "FE": 26,
+      "SG": 26,
+      "LW": 26
+    }
+  },
+  "production": {
+    "at": "2026-10-23T13:42:01.761336+00:00",
+    "sourceCommit": "ddb3959e",
+    "verifiedNewQuizzes": 5,
+    "liveCollection": 260,
+    "sitemapURLs": 844,
+    "checks": [
+      {
+        "url": "https://typologyquiz.com/quizzes/foley-booth-phantom-mix/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "f190399b24ab05167d236cdd75bddb38188c3eaa361765164b5fd87dbeb50218"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/shadow-duet/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "ae5d372de60ed328ce2ae90b2d11cbd0a9d16a113434b34fe12b3e387815f197"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/fog-island-contour-navigation/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "7b9553202ee39c1cd3218718e286456dfb5b5644f0fcc9f81828c2867108c2b5"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/pumpkin-patch-mini-golf/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "612c77cd586b2c57a56147429dada14aa26b370f4f6bd5402c30abb388fb13c2"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/ghost-alibi-clock-grid/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "598e1640f85302ee118abcfa1ee50516f4b775479e662ad6e6b527e16c074061"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "3577dfbbdd1f446db6986360380060939265cbb9b48cbdefdee59d75eec232b8"
+      },
+      {
+        "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "6b58e328d3f8657525686e27c675605b3fba28a14014f2968ee51a9646eadec4"
+      },
+      {
+        "url": "https://typologyquiz.com/sitemap.xml",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "6b8e7758e11dbbf17ce9d24601373f5b11e6f2350b06e0582cf701d97eed6406"
+      },
+      {
+        "url": "https://typologyquiz.com/llms.txt",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "a023ad31543a30212f5ccb4be23341b00eead905b54f39af18eb5849e752a605"
+      },
+      {
+        "url": "https://typologyquiz.com/robots.txt",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+      },
+      {
+        "url": "https://typologyquiz.com/_next/static/chunks/26qrdf8op112r.js",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "8c4bc9d75fba5aa4d31b92887dd24931e95dff06e92a51eb68fe127a4175c642"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "3927e1e937dcd53f29d8e27520e5d10b479fc1f8ead89f2e967099e0ae1ab5c2"
+      },
+      {
+        "url": "https://typologyquiz.com/tests/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "79c0479fb3efaf75b6f01e3c43c9dd77c4b0dbfc3cea219de9fff0054a2242d9"
+      },
+      {
+        "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "5c27aca191e3520d4b2c1e653a5e96865b5d04f7e5f79524364f33c88c8b2b7e"
+      },
+      {
+        "url": "https://www.typologyquiz.com/quizzes/foley-booth-phantom-mix/",
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "e95191dae0cf3436581992b41b52c3c09f11c97659b5bf3fd06e836628b06330"
+      }
+    ]
+  },
+  "analytics": {
+    "at": "2026-10-23T13:43:58.986433+00:00",
+    "property": "545477353",
+    "activeUsers30m": 1,
+    "activeUsers5m": 1,
+    "pageViews": 2,
+    "interactive_quiz_start": 2,
+    "interactive_quiz_complete": 1,
+    "quiz": "SG-26",
+    "browserResult": "100%,8/8",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "pageWidth": 390
+    },
+    "consoleWarningsErrors": 0,
+    "interpretation": "Two controlled operator QA starts including superseded partial attempt; one completed corrected run. Not independent audience growth.",
+    "completionParameterReadback": {
+      "parameter": "quiz_id",
+      "value": "SG-26",
+      "eventCount": 1
+    }
+  },
+  "review": "2026-10-23-review.json",
+  "provider": "Signed-in Grok Expert subscription: author and separate fresh reviewer; coordinator mechanical integration, gates and browser QA. No paid provider CLI fallback.",
+  "limits": "AI-assisted review; operator QA analytics are not independent audience growth. Not an all-device/screen-reader/psychometric validation."
+}
