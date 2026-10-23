@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-10-23T12:09:48.782574+00:00",
+  "phase": "morning",
+  "account": "@typologyquiz",
+  "identity_evidence": "Expanded Studio Profile link https://www.tiktok.com/@typologyquiz after explicit Posts reload.",
+  "studio_posts_count": 52,
+  "studio_drafts_count": 0,
+  "recent_rows_inspected": 7,
+  "preceding_due_posts": [
+    {
+      "id": "1004-lisbon-cta-v2",
+      "caption": "Which country has Lisbon as its capital? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/countries-of-europe/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
+      "publish_at": "2026-10-22T18:30:00-06:00",
+      "visibility": "Everyone",
+      "studio_status": "published_confirmed",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "alarm_observed": false
+    },
+    {
+      "id": "0923-05-cta-v2",
+      "caption": "Hungary’s capital: Budapest or Bucharest? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/find-the-countries-of-europe/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697486855918374152",
+      "publish_at": "2026-10-22T14:30:00-06:00",
+      "visibility": "Everyone",
+      "studio_status": "published_confirmed",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "alarm_observed": false
+    },
+    {
+      "id": "0922-10-cta-v2",
+      "caption": "What kind of object is the Sun? Choose before the reveal, then try the full quiz. https://typologyquiz.com/trivia/planets/ #Quiz #TypologyQuiz",
+      "url": "https://www.tiktok.com/@typologyquiz/video/7697487566303497488",
+      "publish_at": "2026-10-22T10:30:00-06:00",
+      "visibility": "Everyone",
+      "studio_status": "published_confirmed",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "alarm_observed": false
+    }
+  ],
+  "known_future_ledger_rows": 0,
+  "october_23_scheduled_confirmed": 0,
+  "scope_limit": "Bounded first seven native rows, not exhaustive 52-post history; all known future ledger rows are zero. Historical October12 exceptions unchanged.",
+  "account_metrics": {
+    "window": "October15–21, Last7days; dates visible in chart",
+    "video_views": 571,
+    "profile_views": 23,
+    "likes": 2,
+    "shares": 0,
+    "comments": null,
+    "watch_time_seconds": null,
+    "completion_rate": null,
+    "saves": null
+  },
+  "research": {
+    "surface": "Studio Inspiration > Trending > Posts > Culture, Education & Technology",
+    "region": "All regions",
+    "date_filter": "Not shown",
+    "lesson": "Broad educational and curiosity examples only; no verified quiz-specific trend, no creator script or footage copied. Per-post URLs not exposed in retrieved anchor list; no popularity inference used for candidate choice.",
+    "primary_gold_source": "https://periodic-table.rsc.org/element/79/gold",
+    "primary_support": "Gold Au, atomic number79 rechecked.",
+    "disclosure_support": "Own-brand help yielded no text; AI-help web fetch failed redirect. Existing requirement retained: actual native Your brand and AI labels required before submission; neither selected this run."
+  },
+  "comments": "Settled All comments / Posted by all surface displayed No comments yet. Earlier two creator links were not rendered; no deletion or exhaustive history inference. No reply sent.",
+  "prepared_items": [
+    {
+      "id": "1015-story-alien-mute-v1",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-22-evening/muted-native24/1015-story-alien.mp4",
+      "sha256": "81ae69ed22fc2a44257571f7a625411c5f39535ede94912a852c750f51a432ef",
+      "state": "prepared_local",
+      "native_preview_playback": "pending",
+      "scheduled_confirmed": false
+    },
+    {
+      "id": "1015-story-physics-mute-v1",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-22-evening/muted-native24/1015-story-physics.mp4",
+      "sha256": "a090aa2d1e9710f06a20f655deee9e189d5fb91cba7d02a90a28df48c88a1dd2",
+      "state": "prepared_local",
+      "native_preview_playback": "pending",
+      "scheduled_confirmed": false
+    },
+    {
+      "id": "1015-story-gold-mute-v1",
+      "video": "/Users/sudiptasarkar/Documents/Codex/2026-09-10/co/work/tiktok-launch/2026-10-22-evening/muted-native24/1015-story-gold.mp4",
+      "sha256": "635d06a593178c97fd188a0c64400ef62ae7f33d54d1c988a640bc2c5ff1a888",
+      "state": "prepared_local",
+      "native_preview_playback": "pending",
+      "scheduled_confirmed": false
+    }
+  ],
+  "routes": [
+    {
+      "url": "https://typologyquiz.com/trivia/alien-type/",
+      "status": "200",
+      "title": "Which Alien Archetype Are You? · TypologyQuiz",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://typologyquiz.com/trivia/physics/",
+      "status": "200",
+      "title": "Which Kind of Physics Makes You Curious? · TypologyQuiz",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://typologyquiz.com/trivia/periodic-table/",
+      "status": "200",
+      "title": "Name All 118 Elements · TypologyQuiz",
+      "curl_exit": 0
+    }
+  ],
+  "blocker": {
+    "status": "unresolved",
+    "last_file_attempt": "October22evening: chooser setFiles returned but uploader stayed empty, no filename/preview/progress; no Post/Schedule or retry.",
+    "morning_observation": "Retained uploader initially empty. Posts reloaded:52posts/0drafts. Clean uploader reopened, no media/preview/filename. Read-only fileCount was null/unavailable this morning, not a verified zero FileList.",
+    "owner_recovery": "Pending previously requested Allow access to file URLs for ChatGPT Chrome extension. Toggle not inspected or changed; no owner confirmation received.",
+    "new_file_attempts": 0,
+    "new_uploaded_drafts_confirmed": 0,
+    "new_schedules_confirmed": 0,
+    "native_preview_playback": "pending"
+  },
+  "no_external_comments_or_dms": true
+}

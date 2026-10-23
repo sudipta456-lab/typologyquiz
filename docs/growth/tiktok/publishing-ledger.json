@@ -4098,12 +4098,14 @@
     "status": "scheduled_confirmed_with_two_existing_studio_conflicts",
     "note": "The Studio queue was reloaded and each listed future row was observed after scheduling. Existing Vienna duplicate and the earlier Slovenia/stop same-slot conflict are recorded; web Studio blocked cleanup of commercial-content scheduled videos.",
     "latest_check": {
-      "reconciled_at": "2026-10-23T03:11:15.019274+00:00",
+      "reconciled_at": "2026-10-23T12:09:48.782574+00:00",
       "studio_account": "@typologyquiz",
       "known_ledger_future_rows": 0,
+      "october_23_scheduled_confirmed": 0,
       "october_22_published_confirmed": 3,
       "daily_counts": {
-        "2026-10-22": 3
+        "2026-10-22": 3,
+        "2026-10-23": 0
       },
       "preceding_scheduled_item": {
         "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
@@ -4111,11 +4113,11 @@
         "views": 0
       },
       "future_slot_conflicts_observed": 0,
-      "limit": "Bounded7 recent native rows, no completehistory assertion.0 new schedules; nextslots require freshreconciliation afterfileaccessrestored.",
+      "limit": "Bounded7 recent native rows; not complete history. No new upload attempt while owner file-access recovery remains unconfirmed. Reconcile again before continuation.",
       "quality_backlog_remaining_scheduled": 0,
       "approved_cta_replacements_completed": 12,
-      "record": "docs/growth/tiktok/2026-10-22-evening-reconciliation.md",
-      "receipt": "docs/growth/tiktok/2026-10-22-evening-receipts.json"
+      "record": "docs/growth/tiktok/2026-10-23-morning-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-23-morning-receipts.json"
     }
   },
   "queue_reconciliation": {
@@ -4126,12 +4128,14 @@
     "receipt_window": "2026-10-12 through 2026-10-22 America/Edmonton",
     "open_exception": "Two Vienna entries share Oct 12 6:30 PM, and Slovenia plus an Alberta stop clip share Oct 12 10:30 AM. Web Studio rejected deletion/edit of commercial-content scheduled videos; avoid any retry or additional post in these slots.",
     "latest_check": {
-      "reconciled_at": "2026-10-23T03:11:15.019274+00:00",
+      "reconciled_at": "2026-10-23T12:09:48.782574+00:00",
       "studio_account": "@typologyquiz",
       "known_ledger_future_rows": 0,
+      "october_23_scheduled_confirmed": 0,
       "october_22_published_confirmed": 3,
       "daily_counts": {
-        "2026-10-22": 3
+        "2026-10-22": 3,
+        "2026-10-23": 0
       },
       "preceding_scheduled_item": {
         "url": "https://www.tiktok.com/@typologyquiz/video/7697486050091945234",
@@ -4139,11 +4143,11 @@
         "views": 0
       },
       "future_slot_conflicts_observed": 0,
-      "limit": "Bounded7 recent native rows, no completehistory assertion.0 new schedules; nextslots require freshreconciliation afterfileaccessrestored.",
+      "limit": "Bounded7 recent native rows; not complete history. No new upload attempt while owner file-access recovery remains unconfirmed. Reconcile again before continuation.",
       "quality_backlog_remaining_scheduled": 0,
       "approved_cta_replacements_completed": 12,
-      "record": "docs/growth/tiktok/2026-10-22-evening-reconciliation.md",
-      "receipt": "docs/growth/tiktok/2026-10-22-evening-receipts.json"
+      "record": "docs/growth/tiktok/2026-10-23-morning-reconciliation.md",
+      "receipt": "docs/growth/tiktok/2026-10-23-morning-receipts.json"
     }
   }
 }
