@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 25,
+      "count": 26,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 25,
+      "count": 26,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 25,
+      "count": 26,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 25,
+      "count": 26,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 25,
+      "count": 26,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -5497,6 +5497,112 @@
       "category_code": "LW",
       "wave": "D",
       "evidence_class": "evergreen"
+    },
+    {
+      "id": "MT-26",
+      "title": "Foley Booth Phantom Mix",
+      "slug": "foley-booth-phantom-mix",
+      "kind": "logic",
+      "hook": "Calibrate recorded Foley cues for a phantom film sequence using an invented 24 fps studio frame clock. Distinguish too-early or too-late offsets, compute latency adjustments, and identify simultaneously aligned cues. All rules and the frame clock are explicit original fiction for this toy model.",
+      "rounds": [
+        "4 tasks: Frame Clock Offset Calibration",
+        "4 tasks: Latency Adjustment and Alignment"
+      ],
+      "seed": "A Foley cue is marked +3 frames (late) relative to the visual hit on the invented 24 fps clock. What time delay in milliseconds must be subtracted to align it?",
+      "payoff": "Accuracy on eight original tasks, with explanations and task-level provenance.",
+      "audience": "Teens and adults who enjoy self-contained Halloween puzzles",
+      "evidence": "Halloween 2026 seasonal plan and daily research record 2026-10-23",
+      "dependency": "layers",
+      "production_note": "Grok-assisted authoring; independent forty-task review and full production gates required before release. Fictional supplied-rule cases and synthetic audio have text alternatives.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-10-23",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "MU-26",
+      "title": "Shadow Duet",
+      "slug": "shadow-duet",
+      "kind": "logic",
+      "hook": "Pair two shadow voices by supplied frequency ratio or interval key and assess harmonic compatibility under an explicit toy ranking (simpler integer ratios preferred). Not a universal music-theory claim. Audio provides symbolic tones with exact text alternatives.",
+      "rounds": [
+        "4 tasks: Interval Ratio Pairing",
+        "4 tasks: Harmonic Compatibility Graph"
+      ],
+      "seed": "Match each supplied frequency pair to its interval ratio.",
+      "payoff": "Accuracy on eight original tasks, with explanations and task-level provenance.",
+      "audience": "Teens and adults who enjoy self-contained Halloween puzzles",
+      "evidence": "Halloween 2026 seasonal plan and daily research record 2026-10-23",
+      "dependency": "base",
+      "production_note": "Grok-assisted authoring; independent forty-task review and full production gates required before release. Fictional supplied-rule cases and synthetic audio have text alternatives.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "daily-2026-10-23",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "GT-26",
+      "title": "Fog Island Contour Navigation",
+      "slug": "fog-island-contour-navigation",
+      "kind": "logic",
+      "hook": "Navigate original Fog Island using contour interval interpolation, relative horizontal spacing for slope (fixed linear profile, same units), and an explicit toy-game fog threshold. Schematic 2D rectangular zone diagrams only; all data in text. Contour concept paraphrased from public USGS resources.",
+      "rounds": [
+        "4 tasks: Contour Interval and Interpolation",
+        "3 tasks: Spacing Slope and Fog Threshold",
+        "1 tasks: Zone Schematics"
+      ],
+      "seed": "On Fog Island the contour interval is 10 m. Between the 40 m and 50 m contours a point is halfway. What is the interpolated elevation?",
+      "payoff": "Accuracy on eight original tasks, with explanations and task-level provenance.",
+      "audience": "Teens and adults who enjoy self-contained Halloween puzzles",
+      "evidence": "Halloween 2026 seasonal plan and daily research record 2026-10-23",
+      "dependency": "base",
+      "production_note": "Grok-assisted authoring; independent forty-task review and full production gates required before release. Fictional supplied-rule cases and synthetic audio have text alternatives.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-10-23",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "SG-26",
+      "title": "Pumpkin Patch Mini-Golf",
+      "slug": "pumpkin-patch-mini-golf",
+      "kind": "logic",
+      "hook": "Apply the original Pumpkin Patch Mini-Golf rulebook: stroke counts, penalties for illegal obstacle contact, legal constraints, scoring, and turn ordering by lowest score. Pure rule application on the invented rules; no physical instructions.",
+      "rounds": [
+        "4 tasks: Stroke and Penalty Scoring",
+        "4 tasks: Turn Ordering and Constraints"
+      ],
+      "seed": "A player takes 3 strokes but contacts a pumpkin obstacle illegally. Penalty is +2. What is the hole score?",
+      "payoff": "Accuracy on eight original tasks, with explanations and task-level provenance.",
+      "audience": "Teens and adults who enjoy self-contained Halloween puzzles",
+      "evidence": "Halloween 2026 seasonal plan and daily research record 2026-10-23",
+      "dependency": "layers",
+      "production_note": "Grok-assisted authoring; independent forty-task review and full production gates required before release. Fictional supplied-rule cases and synthetic audio have text alternatives.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-10-23",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "LW-26",
+      "title": "Ghost Alibi Clock Grid",
+      "slug": "ghost-alibi-clock-grid",
+      "kind": "logic",
+      "hook": "Calibrate FAST or SLOW broken clock readings (correct at noon) to actual times using continuous rate formulas, then check walking-edge duration against explicit toy allowed closed intervals on a fictional street grid. Eight independent cases; all boundaries inclusive and stated.",
+      "rounds": [
+        "4 tasks: Broken Clock Calibration",
+        "4 tasks: Grid Walking Feasibility"
+      ],
+      "seed": "A FAST clock gains 10 minutes per hour. Correct at noon, it shows 3:00 the same afternoon. What is the actual time?",
+      "payoff": "Accuracy on eight original tasks, with explanations and task-level provenance.",
+      "audience": "Teens and adults who enjoy self-contained Halloween puzzles",
+      "evidence": "Halloween 2026 seasonal plan and daily research record 2026-10-23",
+      "dependency": "layers",
+      "production_note": "Grok-assisted authoring; independent forty-task review and full production gates required before release. Fictional supplied-rule cases and synthetic audio have text alternatives.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-10-23",
+      "evidence_class": "seasonal"
     }
   ]
 }

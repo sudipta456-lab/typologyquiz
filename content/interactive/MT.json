@@ -9652,5 +9652,406 @@
       }
     ],
     "note": "All posters are original schematic mock-ups described in text and diagrams, not real posters, logos or stills. Genre signals are design conventions, and real posters often break them."
+  },
+  {
+    "id": "MT-26",
+    "slug": "foley-booth-phantom-mix",
+    "categoryId": "movies-tv",
+    "title": "Foley Booth Phantom Mix",
+    "description": "Calibrate recorded Foley cues for a phantom film sequence using an invented 24 fps studio frame clock. Distinguish too-early or too-late offsets, compute latency adjustments, and identify simultaneously aligned cues. All rules and the frame clock are explicit original fiction for this toy model.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Frame Clock Offset Calibration"
+      },
+      {
+        "id": "s2",
+        "title": "Latency Adjustment and Alignment"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A Foley cue is marked +3 frames (late) relative to the visual hit on the invented 24 fps clock. What time delay in milliseconds must be subtracted to align it?",
+        "context": "Invented studio rule: frame rate is exactly 24 fps. Time per frame = 1000/24 ms. Positive frames mean the audio starts after the visual (late). Subtract the equivalent time to correct late cues. Negative means early (add time).",
+        "options": [
+          {
+            "id": "a",
+            "label": "125 ms"
+          },
+          {
+            "id": "b",
+            "label": "83.3 ms"
+          },
+          {
+            "id": "c",
+            "label": "41.7 ms"
+          },
+          {
+            "id": "d",
+            "label": "250 ms"
+          }
+        ],
+        "correct": "a",
+        "explanation": "3 / 24 * 1000 = 125 ms exactly. Subtract 125 ms to correct the late cue.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Order the correction steps for a +2 frame late Foley footstep cue.",
+        "context": "Invented procedure: Measure frame offset, convert frames to ms (frames * 1000/24), subtract the ms from audio start, verify simultaneous alignment with visual.",
+        "items": [
+          {
+            "id": "i1",
+            "label": "Convert +2 frames to milliseconds"
+          },
+          {
+            "id": "i2",
+            "label": "Measure the +2 frame offset"
+          },
+          {
+            "id": "i3",
+            "label": "Verify visual-audio simultaneous hit"
+          },
+          {
+            "id": "i4",
+            "label": "Subtract the ms from audio start"
+          }
+        ],
+        "correctOrder": [
+          "i2",
+          "i1",
+          "i4",
+          "i3"
+        ],
+        "explanation": "Measure first, convert, subtract to correct late, then verify.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each frame offset to its meaning on the invented clock.",
+        "context": "Positive offset = audio late. Negative = audio early. Zero = aligned.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "+4 frames"
+          },
+          {
+            "id": "l2",
+            "label": "-1 frame"
+          },
+          {
+            "id": "l3",
+            "label": "0 frames"
+          },
+          {
+            "id": "l4",
+            "label": "+1 frame"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Audio late by 1 frame"
+          },
+          {
+            "id": "r2",
+            "label": "Audio early by 1 frame"
+          },
+          {
+            "id": "r3",
+            "label": "Already aligned"
+          },
+          {
+            "id": "r4",
+            "label": "Audio late by 4 frames"
+          }
+        ],
+        "pairs": {
+          "l1": "r4",
+          "l2": "r2",
+          "l3": "r3",
+          "l4": "r1"
+        },
+        "explanation": "Sign indicates direction of offset relative to visual.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s1",
+        "kind": "grid",
+        "prompt": "Select the correct latency direction for each cue.",
+        "context": "Late positive → subtract; early negative → add; zero → none. Use 1000/24 ≈41.67 ms/frame.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "+5 frames",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Subtract ~208 ms"
+              },
+              {
+                "id": "o2",
+                "label": "Add ~208 ms"
+              },
+              {
+                "id": "o3",
+                "label": "No change"
+              }
+            ],
+            "correct": "o1"
+          },
+          {
+            "id": "c2",
+            "label": "-3 frames",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Subtract ~125 ms"
+              },
+              {
+                "id": "o2",
+                "label": "Add ~125 ms"
+              },
+              {
+                "id": "o3",
+                "label": "No change"
+              }
+            ],
+            "correct": "o2"
+          },
+          {
+            "id": "c3",
+            "label": "0 frames",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Subtract 0"
+              },
+              {
+                "id": "o2",
+                "label": "Add 10 ms"
+              },
+              {
+                "id": "o3",
+                "label": "No change"
+              }
+            ],
+            "correct": "o3"
+          }
+        ],
+        "explanation": "+5 subtract ~208 ms; -3 add ~125 ms; zero no change.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "graph",
+        "prompt": "Connect every cue to its status after the listed latency adjustment. Connect ALL valid links by the rule; false positives penalized.",
+        "context": "Visual at t=0. Adjustments: CueA +166.7ms adjust -166.7ms (aligns); CueB +83.3ms adjust -50ms (remains late); CueC -41.7ms adjust +41.7ms (aligns); CueD +125ms adjust -100ms (remains late).",
+        "left": [
+          {
+            "id": "la",
+            "label": "CueA"
+          },
+          {
+            "id": "lb",
+            "label": "CueB"
+          },
+          {
+            "id": "lc",
+            "label": "CueC"
+          },
+          {
+            "id": "ld",
+            "label": "CueD"
+          }
+        ],
+        "right": [
+          {
+            "id": "ra",
+            "label": "Aligns with visual"
+          },
+          {
+            "id": "rb",
+            "label": "Remains late"
+          }
+        ],
+        "edges": [
+          [
+            "la",
+            "ra"
+          ],
+          [
+            "lc",
+            "ra"
+          ],
+          [
+            "lb",
+            "rb"
+          ],
+          [
+            "ld",
+            "rb"
+          ]
+        ],
+        "explanation": "CueA and CueC exact cancel so align. CueB and CueD partial cancel so remain late. All valid links shown; no arbitrary pairs.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "audio",
+        "prompt": "Symbolic tones: visual flash (high) and Foley hit (low). Using text alternative, is the Foley early, late, or aligned?",
+        "context": "Flash delay 0.500 s, Foley 0.542 s. 1 frame ≈ 41.7 ms. Aligned if |diff| ≤ 20.8 ms.",
+        "tones": [
+          {
+            "frequency": 880,
+            "duration": 0.1,
+            "delay": 0.5,
+            "waveform": "sine",
+            "gain": 0.12
+          },
+          {
+            "frequency": 440,
+            "duration": 0.1,
+            "delay": 0.542,
+            "waveform": "sine",
+            "gain": 0.12
+          }
+        ],
+        "transcript": "Symbolic tones: high-frequency tone (visual flash role) starts at delay 0.500 seconds, duration 0.1 s; low-frequency tone (Foley hit role) starts at delay 0.542 seconds, duration 0.1 s.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Late by about 1 frame"
+          },
+          {
+            "id": "b",
+            "label": "Early by about 1 frame"
+          },
+          {
+            "id": "c",
+            "label": "Exactly aligned"
+          },
+          {
+            "id": "d",
+            "label": "Late by >2 frames"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Difference of 42 ms is approximately one frame (41.7 ms) late relative to the visual flash. Outside zero-tolerance alignment.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A phantom whisper is -2 frames early. What latency adjustment is required?",
+        "context": "Early (negative) requires adding the positive equivalent time. 2 frames = 2*(1000/24) ms.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Subtract 83.3 ms"
+          },
+          {
+            "id": "a",
+            "label": "Add 83.3 ms"
+          },
+          {
+            "id": "c",
+            "label": "Add 41.7 ms"
+          },
+          {
+            "id": "d",
+            "label": "Subtract 125 ms"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Add 83.3 ms to delay the early cue into alignment.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each adjusted start to simultaneous status with visual at t=0.",
+        "context": "Simultaneous only if residual start time is exactly 0 after adjustment.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "+100 ms adjust -100 ms"
+          },
+          {
+            "id": "l2",
+            "label": "+50 ms adjust -40 ms"
+          },
+          {
+            "id": "l3",
+            "label": "-25 ms adjust +25 ms"
+          },
+          {
+            "id": "l4",
+            "label": "0 ms adjust 0"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Simultaneous with visual"
+          },
+          {
+            "id": "r2",
+            "label": "Still late"
+          },
+          {
+            "id": "r3",
+            "label": "Still early"
+          }
+        ],
+        "pairs": {
+          "l1": "r1",
+          "l2": "r2",
+          "l3": "r1",
+          "l4": "r1"
+        },
+        "explanation": "Exact cancel (l1, l3, l4) simultaneous; residual positive (l2) still late. Reused target for simultaneous is allowed.",
+        "sourceIds": [
+          "orig"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "orig",
+        "kind": "original",
+        "label": "Original fictional Foley booth phantom mix with invented 24 fps frame clock"
+      }
+    ],
+    "note": "All scenarios original fiction/synthetic. Invented frame clock. Audio symbolic with exact text alternative. No real production advice. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
   }
 ]

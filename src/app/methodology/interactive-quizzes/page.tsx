@@ -7,8 +7,8 @@ import { SUMMARIES } from "@/lib/interactive/catalog.generated";
 import type { QuizKind } from "@/lib/interactive/types";
 
 const PATH = "/methodology/interactive-quizzes/";
-const UPDATED_ISO = "2026-10-22";
-const UPDATED_LABEL = "October 22, 2026";
+const UPDATED_ISO = "2026-10-23";
+const UPDATED_LABEL = "October 23, 2026";
 
 // Everything numeric below is derived from the generated catalog, never typed in.
 const TOTAL_TASKS = SUMMARIES.reduce((sum, quiz) => sum + quiz.questionCount, 0);

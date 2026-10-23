@@ -9869,5 +9869,407 @@
       }
     ],
     "note": "All venues, plots and rules here are invented teaching scenarios with the rules supplied in each task. They are simplified top-view schematics, not real venue layouts or professional engineering guidance. Each diagram's zones are also listed as text options."
+  },
+  {
+    "id": "MU-26",
+    "slug": "shadow-duet",
+    "categoryId": "music",
+    "title": "Shadow Duet",
+    "description": "Pair two shadow voices by supplied frequency ratio or interval key and assess harmonic compatibility under an explicit toy ranking (simpler integer ratios preferred). Not a universal music-theory claim. Audio provides symbolic tones with exact text alternatives.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Interval Ratio Pairing"
+      },
+      {
+        "id": "s2",
+        "title": "Harmonic Compatibility Graph"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each supplied frequency pair to its interval ratio.",
+        "context": "Original toy: ratios are exact. Perfect fifth 3:2, octave 2:1, perfect fourth 4:3, major third 5:4. Higher compatibility for simpler ratios.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "300 Hz and 450 Hz"
+          },
+          {
+            "id": "l2",
+            "label": "220 Hz and 440 Hz"
+          },
+          {
+            "id": "l3",
+            "label": "400 Hz and 300 Hz"
+          },
+          {
+            "id": "l4",
+            "label": "200 Hz and 250 Hz"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "3:2 perfect fifth"
+          },
+          {
+            "id": "r2",
+            "label": "2:1 octave"
+          },
+          {
+            "id": "r3",
+            "label": "4:3 perfect fourth"
+          },
+          {
+            "id": "r4",
+            "label": "5:4 major third"
+          }
+        ],
+        "pairs": {
+          "l1": "r1",
+          "l2": "r2",
+          "l3": "r3",
+          "l4": "r4"
+        },
+        "explanation": "450/300=1.5=3/2; 440/220=2=2/1; 400/300≈1.333=4/3; 250/200=1.25=5/4.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which pair has the highest harmonic compatibility under the toy rule (simplest integer ratio preferred)?",
+        "context": "Toy-model ranking only (not a universal music-theory consonance claim): simpler small-integer ratios ranked higher for this shadow duet. Interval names are the fiction key supplied: 2:1 octave, 3:2 perfect fifth, 4:3 perfect fourth, 5:4 major third. All formulas given.",
+        "options": [
+          {
+            "id": "b",
+            "label": "3:2 fifth"
+          },
+          {
+            "id": "c",
+            "label": "5:4 third"
+          },
+          {
+            "id": "a",
+            "label": "2:1 octave"
+          },
+          {
+            "id": "d",
+            "label": "7:5 ratio"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Under the explicit toy ranking (smaller integers preferred), 2:1 ranks highest among the options.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "audio",
+        "prompt": "Two symbolic tones play an interval. Using text alternative frequencies, identify the ratio.",
+        "context": "Two original synthetic tones use exactly 260 Hz and 390 Hz. Compare higher/lower using the supplied interval-ratio key.",
+        "tones": [
+          {
+            "frequency": 260,
+            "duration": 0.8,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.1
+          },
+          {
+            "frequency": 390,
+            "duration": 0.8,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.1
+          }
+        ],
+        "transcript": "Lower tone at 260 Hz, higher tone at 390 Hz. Both start together (delay 0), each duration 0.8 s.",
+        "options": [
+          {
+            "id": "a",
+            "label": "3:2 perfect fifth"
+          },
+          {
+            "id": "b",
+            "label": "2:1 octave"
+          },
+          {
+            "id": "c",
+            "label": "4:3 fourth"
+          },
+          {
+            "id": "d",
+            "label": "5:4 third"
+          }
+        ],
+        "correct": "a",
+        "explanation": "390 / 260 = 1.5 exactly, which is the 3:2 ratio (perfect fifth in the fiction key).",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A lower shadow voice at 180 Hz pairs with which higher frequency to make a 4:3 ratio?",
+        "context": "The supplied 180 Hz voice is the lower frequency. In this task higher/lower = 4/3, so higher = lower × 4/3.",
+        "options": [
+          {
+            "id": "b",
+            "label": "270 Hz"
+          },
+          {
+            "id": "c",
+            "label": "360 Hz"
+          },
+          {
+            "id": "d",
+            "label": "135 Hz"
+          },
+          {
+            "id": "a",
+            "label": "240 Hz"
+          }
+        ],
+        "correct": "a",
+        "explanation": "180 * 4/3 = 240 Hz.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s2",
+        "kind": "graph",
+        "prompt": "Connect every voice pair that is harmonically compatible (ratio is 2:1, 3:2 or 4:3). Connect ALL valid pairs.",
+        "context": "Voices: V1 200Hz, V2 300Hz, V3 400Hz, V4 250Hz. Compatible if exact simple ratio from the list.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "V1 200"
+          },
+          {
+            "id": "l2",
+            "label": "V2 300"
+          },
+          {
+            "id": "l3",
+            "label": "V3 400"
+          },
+          {
+            "id": "l4",
+            "label": "V4 250"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "V1 200"
+          },
+          {
+            "id": "r2",
+            "label": "V2 300"
+          },
+          {
+            "id": "r3",
+            "label": "V3 400"
+          },
+          {
+            "id": "r4",
+            "label": "V4 250"
+          }
+        ],
+        "edges": [
+          [
+            "l1",
+            "r2"
+          ],
+          [
+            "l2",
+            "r1"
+          ],
+          [
+            "l1",
+            "r3"
+          ],
+          [
+            "l3",
+            "r1"
+          ],
+          [
+            "l2",
+            "r3"
+          ],
+          [
+            "l3",
+            "r2"
+          ]
+        ],
+        "explanation": "200:300=2:3 (fourth/fifth family), 200:400=1:2 octave, 300:400=3:4. All listed are compatible; no self.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Order the intervals from highest to lowest harmonic compatibility.",
+        "context": "Toy ranking by simplicity of reduced ratio (smaller integers first). Fiction key names only; not claimed as universal consonance.",
+        "items": [
+          {
+            "id": "i1",
+            "label": "5:4 major third"
+          },
+          {
+            "id": "i2",
+            "label": "2:1 octave"
+          },
+          {
+            "id": "i3",
+            "label": "3:2 perfect fifth"
+          },
+          {
+            "id": "i4",
+            "label": "4:3 perfect fourth"
+          }
+        ],
+        "correctOrder": [
+          "i2",
+          "i3",
+          "i4",
+          "i1"
+        ],
+        "explanation": "2:1 simplest, then 3:2, then 4:3, then 5:4.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "For each pair, select if it is compatible under the simple-ratio rule.",
+        "context": "Compatible only for 2:1, 3:2, 4:3 exactly.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "150 Hz and 225 Hz",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Compatible 3:2"
+              },
+              {
+                "id": "o2",
+                "label": "Not compatible"
+              },
+              {
+                "id": "o3",
+                "label": "Compatible 2:1"
+              }
+            ],
+            "correct": "o1"
+          },
+          {
+            "id": "c2",
+            "label": "100 Hz and 160 Hz",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Compatible"
+              },
+              {
+                "id": "o2",
+                "label": "Not (8:5)"
+              },
+              {
+                "id": "o3",
+                "label": "Compatible 4:3"
+              }
+            ],
+            "correct": "o2"
+          }
+        ],
+        "explanation": "225/150=1.5=3/2 yes; 160/100=1.6=8/5 not in list.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match the reduced ratio to the interval name in the toy model.",
+        "context": "Standard names attached to ratios for this quiz only.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "2:1"
+          },
+          {
+            "id": "l2",
+            "label": "3:2"
+          },
+          {
+            "id": "l3",
+            "label": "4:3"
+          },
+          {
+            "id": "l4",
+            "label": "5:4"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Octave"
+          },
+          {
+            "id": "r2",
+            "label": "Perfect fifth"
+          },
+          {
+            "id": "r3",
+            "label": "Perfect fourth"
+          },
+          {
+            "id": "r4",
+            "label": "Major third"
+          }
+        ],
+        "pairs": {
+          "l1": "r1",
+          "l2": "r2",
+          "l3": "r3",
+          "l4": "r4"
+        },
+        "explanation": "Direct mapping from supplied interval key.",
+        "sourceIds": [
+          "orig"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "orig",
+        "kind": "original",
+        "label": "Original fictional shadow duet voice pairing by ratio and harmonic compatibility"
+      }
+    ],
+    "note": "Original toy model of interval ratios and compatibility. Audio symbolic tones with exact text alternative. Not real music theory instruction. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
   }
 ]

@@ -1176,6 +1176,24 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "MT-26",
+    "slug": "foley-booth-phantom-mix",
+    "categoryId": "movies-tv",
+    "title": "Foley Booth Phantom Mix",
+    "description": "Calibrate recorded Foley cues for a phantom film sequence using an invented 24 fps studio frame clock. Distinguish too-early or too-late offsets, compute latency adjustments, and identify simultaneously aligned cues. All rules and the frame clock are explicit original fiction for this toy model.",
+    "kind": "logic",
+    "minutes": 4,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "graph",
+      "grid",
+      "audio"
+    ]
+  },
+  {
     "id": "MU-01",
     "slug": "build-opening-three-songs",
     "categoryId": "music",
@@ -1571,6 +1589,24 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "MU-26",
+    "slug": "shadow-duet",
+    "categoryId": "music",
+    "title": "Shadow Duet",
+    "description": "Pair two shadow voices by supplied frequency ratio or interval key and assess harmonic compatibility under an explicit toy ranking (simpler integer ratios preferred). Not a universal music-theory claim. Audio provides symbolic tones with exact text alternatives.",
+    "kind": "logic",
+    "minutes": 4,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "graph",
+      "grid",
+      "audio"
+    ]
+  },
+  {
     "id": "GT-01",
     "slug": "rain-shadow-road-trip",
     "categoryId": "geography-travel",
@@ -1963,6 +1999,24 @@ export const SUMMARIES: QuizSummary[] = [
       "choice",
       "order",
       "match",
+      "grid",
+      "hotspot"
+    ]
+  },
+  {
+    "id": "GT-26",
+    "slug": "fog-island-contour-navigation",
+    "categoryId": "geography-travel",
+    "title": "Fog Island Contour Navigation",
+    "description": "Navigate original Fog Island using contour interval interpolation, relative horizontal spacing for slope (fixed linear profile, same units), and an explicit toy-game fog threshold. Schematic 2D rectangular zone diagrams only; all data in text. Contour concept paraphrased from public USGS resources.",
+    "kind": "logic",
+    "minutes": 4,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "graph",
       "grid",
       "hotspot"
     ]
@@ -3567,6 +3621,22 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "SG-26",
+    "slug": "pumpkin-patch-mini-golf",
+    "categoryId": "sports-games",
+    "title": "Pumpkin Patch Mini-Golf",
+    "description": "Apply the original Pumpkin Patch Mini-Golf rulebook: stroke counts, penalties for illegal obstacle contact, legal constraints, scoring, and turn ordering by lowest score. Pure rule application on the invented rules; no physical instructions.",
+    "kind": "logic",
+    "minutes": 4,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
     "id": "LW-01",
     "slug": "elevator-schedule-logic",
     "categoryId": "logic-wordplay",
@@ -3943,10 +4013,27 @@ export const SUMMARIES: QuizSummary[] = [
       "match",
       "grid"
     ]
+  },
+  {
+    "id": "LW-26",
+    "slug": "ghost-alibi-clock-grid",
+    "categoryId": "logic-wordplay",
+    "title": "Ghost Alibi Clock Grid",
+    "description": "Calibrate FAST or SLOW broken clock readings (correct at noon) to actual times using continuous rate formulas, then check walking-edge duration against explicit toy allowed closed intervals on a fictional street grid. Eight independent cases; all boundaries inclusive and stated.",
+    "kind": "logic",
+    "minutes": 4,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "graph",
+      "grid"
+    ]
   }
 ];
 
-export const PUBLIC_SLUGS: readonly string[] = ["unplanned-saturday","tiny-decision-constitution","lost-in-cozy-bookshop","curiosity-detour","deadline-triage-festival","values-auction","place-that-feels-yours","pocket-sized-world","midnight-train-crossroads","exception-court","one-bag-unknown-door","now-or-later-bazaar","advice-swap","keep-lend-let-go","small-courage-ladder","open-door-floor-plan","sound-bed-decisions","week-in-opposites","borrowed-superpower-tradeoffs","split-decision-poll-walk","one-sentence-adventure","name-that-decision-trap","four-neighbors-tiebreakers","ten-minute-gap-planner","town-council-of-your-wants","repair-cafe-dilemmas","group-plan-rescue","silent-consensus","pack-group-picnic","rebuild-weekend-together","two-truths-plot-twist","who-chose-that","friendship-time-capsule","everyone-wins-tournament","carpool-seat-puzzle","gift-swap-roundtable","crew-roles-backstage","surprise-party-timeline","roommate-treaty-table","spot-unspoken-assumption","pass-the-plot-pen","five-minute-group-quest","spot-it-together","group-photo-staging","pass-prompt-postcard","guess-the-opt-in-crowd","invitation-relay","split-it-squad","party-role-draft","icebreaker-ladder","everyone-gets-something-swap","lost-and-found-relay","continuity-detective-film-sets","rewatch-ritual-style","film-craft-decoder","adaptation-switchboard","cozy-or-creepy-scene-lab","unreliable-narrator-files","cinema-across-three-borders","movie-in-three-timelines","animation-technique-lab","writers-room-relay","trailer-grammar","read-the-rating-label","one-actor-three-worlds","tv-episode-anatomy","season-shape-preference","sound-design-ear-test","fan-theory-evidence-board","wardrobe-story-reader","movie-tech-problem-solvers","showrunners-season-planner","three-ways-to-follow-dialogue","how-scares-work","documentary-forms-sorter","story-shapes-tv-formats","poster-grammar-lab","build-opening-three-songs","festival-route-planner","behind-the-album-credits","sample-or-cover-concepts","mixtape-without-songs","instrument-sound-role-links","music-scene-passport","genre-family-tree-builder","build-the-touring-crew","music-terms-without-panic","studio-trick-translator","rehearsal-cue-chain","format-shift-listening-tech","music-myth-checkpoint","small-venue-survival-guide","read-the-room-dj","garage-band-crossroads","road-trip-playlist-treaty","predict-my-mood-duet","music-discovery-trail","describe-that-sound-out-loud","the-rhythm-switch","loop-layer-lab","mood-loops-pick-pulse","stage-plot-hotspot-hunt","rain-shadow-road-trip","city-region-country-relay","time-zone-rendezvous","postcard-perspective-puzzle","mexico-beyond-the-beach","borderless-watersheds","one-river-three-clues","missing-transit-stop","seven-hour-layover-lab","twin-cities-across-the-line","mexico-altitude-ladder","midnight-sun-or-mild-evening","named-winds-lake-snow","same-distance-different-numbers","wayfinding-landmarks-or-lines","landscape-knowledge-landscape-taste","fair-midpoint-meetup","detour-diary-prairie-pacific","names-layered-on-the-map","seen-from-orbit","read-the-climate-chart","hear-the-landscape","passenger-seat-rules","itinerary-sanity-check","flat-map-round-world","backyard-evidence-lab","moon-mission-control","scale-shock","weather-without-forecast","mystery-material","build-a-food-web","where-was-the-light","sound-you-cannot-see","the-pollinator-shift","cause-chain-courtroom","field-notebook-style","tiny-terrarium-logic","where-did-the-energy-go","fair-test-designer","rock-cycle-road-trip","night-sky-clue-hunt","who-passed-through-here","season-reasoning-gauntlet","follow-the-drop","species-under-pressure","pickles-to-pond-osmosis","freeze-thaw-pothole-predictor","predict-reveal-revise","spot-the-weak-science-claim","citizen-science-team-builder","mineral-scratch-lab","museum-of-everyday-objects","before-the-first-iphone","archive-missing-page","fact-claim-interpretation","city-in-three-eras","how-a-word-crossed-borders","book-place-era","trade-routes-behind-breakfast","two-sources-one-event","graphic-novel-workshop","whose-voice-is-missing","time-capsule-packing","design-local-history-museum","festival-calendar-gap","pack-the-pack-train","what-the-railroad-changed","street-names-clue-or-overreach","made-by-hand-order-steps","living-cultures-museum-wall","many-hands-made-this","letters-across-the-border","the-map-was-updated","soundscapes-everyday-life","the-cropped-photograph","footnote-treasure-hunt","one-claim-five-echoes","build-a-home-cafe","kitchen-tool-detective","flavor-triangle","fridge-to-meal-puzzle","grocery-aisle-time-machine","pantry-swap-laboratory","lunchbox-across-three-borders","texture-tournament","menu-word-decoder","mise-en-place-race","receipt-riddles","dinner-on-a-deadline","sauce-family-tree","spice-passport","cookware-casting-call","weeknight-dinner-dilemma","potluck-without-doubles","kitchen-sound-guess","counter-hotspot-hunt","plating-style-match","dish-rack-logic","seven-guests-four-servings","watch-party-snack-table","reading-night-snacks","gadget-drawer-verdict","refill-station-mix-up","co-op-role-picker","watch-party-rulebook","soccer-words-across-borders","board-game-mechanic-mixer","sports-equipment-evolution","stadium-city-country-links","replay-the-turning-point","court-is-a-diagram","name-game-by-rules","scorekeepers-dictionary","boss-fight-logic-grid","what-survives-reload","table-rules-lawyer","adaptive-sports-rules-primer","womens-sports-milestone-relay","pickup-game-temperament","rule-designers-dilemma","game-accessibility-toolkit","console-controllers-decades","session-zero-wish-list","referee-signal-decoder","the-missing-point","games-from-the-americas","game-sound-sleuth","last-move-mystery","elevator-schedule-logic","one-rule-is-wrong","missing-punctuation-message","two-way-clue","helpful-red-herring","three-layer-alibi","museum-label-mixup","repair-transit-diagram","awkward-seating-chart","ask-one-better-question","unreliable-lighthouse-log","fold-punch-unfold","homophone-radio-relay","mirror-sign-reader","words-hiding-between-words","one-letter-sentence-fix","half-clue-handoff","hunch-or-proof","rule-sorting-machine","build-order-prerequisites","double-duty-words","which-weighing-settles-it","gatekeepers-rule","fine-print-conditionals","shift-note-decoder"];
+export const PUBLIC_SLUGS: readonly string[] = ["unplanned-saturday","tiny-decision-constitution","lost-in-cozy-bookshop","curiosity-detour","deadline-triage-festival","values-auction","place-that-feels-yours","pocket-sized-world","midnight-train-crossroads","exception-court","one-bag-unknown-door","now-or-later-bazaar","advice-swap","keep-lend-let-go","small-courage-ladder","open-door-floor-plan","sound-bed-decisions","week-in-opposites","borrowed-superpower-tradeoffs","split-decision-poll-walk","one-sentence-adventure","name-that-decision-trap","four-neighbors-tiebreakers","ten-minute-gap-planner","town-council-of-your-wants","repair-cafe-dilemmas","group-plan-rescue","silent-consensus","pack-group-picnic","rebuild-weekend-together","two-truths-plot-twist","who-chose-that","friendship-time-capsule","everyone-wins-tournament","carpool-seat-puzzle","gift-swap-roundtable","crew-roles-backstage","surprise-party-timeline","roommate-treaty-table","spot-unspoken-assumption","pass-the-plot-pen","five-minute-group-quest","spot-it-together","group-photo-staging","pass-prompt-postcard","guess-the-opt-in-crowd","invitation-relay","split-it-squad","party-role-draft","icebreaker-ladder","everyone-gets-something-swap","lost-and-found-relay","continuity-detective-film-sets","rewatch-ritual-style","film-craft-decoder","adaptation-switchboard","cozy-or-creepy-scene-lab","unreliable-narrator-files","cinema-across-three-borders","movie-in-three-timelines","animation-technique-lab","writers-room-relay","trailer-grammar","read-the-rating-label","one-actor-three-worlds","tv-episode-anatomy","season-shape-preference","sound-design-ear-test","fan-theory-evidence-board","wardrobe-story-reader","movie-tech-problem-solvers","showrunners-season-planner","three-ways-to-follow-dialogue","how-scares-work","documentary-forms-sorter","story-shapes-tv-formats","poster-grammar-lab","foley-booth-phantom-mix","build-opening-three-songs","festival-route-planner","behind-the-album-credits","sample-or-cover-concepts","mixtape-without-songs","instrument-sound-role-links","music-scene-passport","genre-family-tree-builder","build-the-touring-crew","music-terms-without-panic","studio-trick-translator","rehearsal-cue-chain","format-shift-listening-tech","music-myth-checkpoint","small-venue-survival-guide","read-the-room-dj","garage-band-crossroads","road-trip-playlist-treaty","predict-my-mood-duet","music-discovery-trail","describe-that-sound-out-loud","the-rhythm-switch","loop-layer-lab","mood-loops-pick-pulse","stage-plot-hotspot-hunt","shadow-duet","rain-shadow-road-trip","city-region-country-relay","time-zone-rendezvous","postcard-perspective-puzzle","mexico-beyond-the-beach","borderless-watersheds","one-river-three-clues","missing-transit-stop","seven-hour-layover-lab","twin-cities-across-the-line","mexico-altitude-ladder","midnight-sun-or-mild-evening","named-winds-lake-snow","same-distance-different-numbers","wayfinding-landmarks-or-lines","landscape-knowledge-landscape-taste","fair-midpoint-meetup","detour-diary-prairie-pacific","names-layered-on-the-map","seen-from-orbit","read-the-climate-chart","hear-the-landscape","passenger-seat-rules","itinerary-sanity-check","flat-map-round-world","fog-island-contour-navigation","backyard-evidence-lab","moon-mission-control","scale-shock","weather-without-forecast","mystery-material","build-a-food-web","where-was-the-light","sound-you-cannot-see","the-pollinator-shift","cause-chain-courtroom","field-notebook-style","tiny-terrarium-logic","where-did-the-energy-go","fair-test-designer","rock-cycle-road-trip","night-sky-clue-hunt","who-passed-through-here","season-reasoning-gauntlet","follow-the-drop","species-under-pressure","pickles-to-pond-osmosis","freeze-thaw-pothole-predictor","predict-reveal-revise","spot-the-weak-science-claim","citizen-science-team-builder","mineral-scratch-lab","museum-of-everyday-objects","before-the-first-iphone","archive-missing-page","fact-claim-interpretation","city-in-three-eras","how-a-word-crossed-borders","book-place-era","trade-routes-behind-breakfast","two-sources-one-event","graphic-novel-workshop","whose-voice-is-missing","time-capsule-packing","design-local-history-museum","festival-calendar-gap","pack-the-pack-train","what-the-railroad-changed","street-names-clue-or-overreach","made-by-hand-order-steps","living-cultures-museum-wall","many-hands-made-this","letters-across-the-border","the-map-was-updated","soundscapes-everyday-life","the-cropped-photograph","footnote-treasure-hunt","one-claim-five-echoes","build-a-home-cafe","kitchen-tool-detective","flavor-triangle","fridge-to-meal-puzzle","grocery-aisle-time-machine","pantry-swap-laboratory","lunchbox-across-three-borders","texture-tournament","menu-word-decoder","mise-en-place-race","receipt-riddles","dinner-on-a-deadline","sauce-family-tree","spice-passport","cookware-casting-call","weeknight-dinner-dilemma","potluck-without-doubles","kitchen-sound-guess","counter-hotspot-hunt","plating-style-match","dish-rack-logic","seven-guests-four-servings","watch-party-snack-table","reading-night-snacks","gadget-drawer-verdict","refill-station-mix-up","co-op-role-picker","watch-party-rulebook","soccer-words-across-borders","board-game-mechanic-mixer","sports-equipment-evolution","stadium-city-country-links","replay-the-turning-point","court-is-a-diagram","name-game-by-rules","scorekeepers-dictionary","boss-fight-logic-grid","what-survives-reload","table-rules-lawyer","adaptive-sports-rules-primer","womens-sports-milestone-relay","pickup-game-temperament","rule-designers-dilemma","game-accessibility-toolkit","console-controllers-decades","session-zero-wish-list","referee-signal-decoder","the-missing-point","games-from-the-americas","game-sound-sleuth","last-move-mystery","pumpkin-patch-mini-golf","elevator-schedule-logic","one-rule-is-wrong","missing-punctuation-message","two-way-clue","helpful-red-herring","three-layer-alibi","museum-label-mixup","repair-transit-diagram","awkward-seating-chart","ask-one-better-question","unreliable-lighthouse-log","fold-punch-unfold","homophone-radio-relay","mirror-sign-reader","words-hiding-between-words","one-letter-sentence-fix","half-clue-handoff","hunch-or-proof","rule-sorting-machine","build-order-prerequisites","double-duty-words","which-weighing-settles-it","gatekeepers-rule","fine-print-conditionals","shift-note-decoder","ghost-alibi-clock-grid"];
 
 export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: number }[] = [
   {
@@ -4335,6 +4422,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "MT-26",
+    "slug": "foley-booth-phantom-mix",
+    "version": 1
+  },
+  {
     "id": "MU-01",
     "slug": "build-opening-three-songs",
     "version": 1
@@ -4460,6 +4552,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "MU-26",
+    "slug": "shadow-duet",
+    "version": 1
+  },
+  {
     "id": "GT-01",
     "slug": "rain-shadow-road-trip",
     "version": 1
@@ -4582,6 +4679,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
   {
     "id": "GT-25",
     "slug": "flat-map-round-world",
+    "version": 1
+  },
+  {
+    "id": "GT-26",
+    "slug": "fog-island-contour-navigation",
     "version": 1
   },
   {
@@ -5100,6 +5202,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "SG-26",
+    "slug": "pumpkin-patch-mini-golf",
+    "version": 1
+  },
+  {
     "id": "LW-01",
     "slug": "elevator-schedule-logic",
     "version": 1
@@ -5222,6 +5329,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
   {
     "id": "LW-25",
     "slug": "shift-note-decoder",
+    "version": 1
+  },
+  {
+    "id": "LW-26",
+    "slug": "ghost-alibi-clock-grid",
     "version": 1
   }
 ];

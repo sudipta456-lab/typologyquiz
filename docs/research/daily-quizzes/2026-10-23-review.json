@@ -1,0 +1,307 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "quizId": "LW-26",
+      "questionId": "q8",
+      "severity": "low",
+      "issue": "Wording 'Waiting at intermediate nodes is allowed and costs no extra time beyond the edge durations' is clear enough for the key, but a player could theoretically wonder whether waiting time is measured or constrained. Reverse edge for B-C-B is not explicitly labeled but correctly assumed equal under standard undirected edge notation.",
+      "minimalFix": "Optional minimal clarification (not blocking): append to context 'Total journey time equals the sum of the listed edge durations only; any waiting at nodes adds zero minutes. Edges are undirected (B–C = C–B = 6 min).'",
+      "resolution": "Applied reviewer-proposed exact wording before release; no key change."
+    }
+  ],
+  "coverage": [
+    {
+      "quizId": "MT-26",
+      "questionId": "q1",
+      "derivedAnswer": "a: 125 ms exactly (3 * 1000 / 24)",
+      "verdict": "matches key; arithmetic correct"
+    },
+    {
+      "quizId": "MT-26",
+      "questionId": "q2",
+      "derivedAnswer": "i2 → i1 → i4 → i3",
+      "verdict": "matches key; logical order correct"
+    },
+    {
+      "quizId": "MT-26",
+      "questionId": "q3",
+      "derivedAnswer": "l1→r4, l2→r2, l3→r3, l4→r1",
+      "verdict": "matches key; unique rights, signs correct"
+    },
+    {
+      "quizId": "MT-26",
+      "questionId": "q4",
+      "derivedAnswer": "CueA & CueC → Aligns with visual; CueB & CueD → Remains late",
+      "verdict": "matches key; all valid edges listed, rights deduplicated"
+    },
+    {
+      "quizId": "MT-26",
+      "questionId": "q5",
+      "derivedAnswer": "a: Late by about 1 frame (0.542 - 0.500 = 0.042 s = 42 ms ≈ 41.7 ms/frame)",
+      "verdict": "matches key; tones match transcript; transcript does not leak classification"
+    },
+    {
+      "quizId": "MT-26",
+      "questionId": "q6",
+      "derivedAnswer": "a: Add 83.3 ms (2 * 1000/24)",
+      "verdict": "matches key; arithmetic correct; option position varied"
+    },
+    {
+      "quizId": "MT-26",
+      "questionId": "q7",
+      "derivedAnswer": "c1 o1 ~208 ms subtract; c2 o2 ~125 ms add; c3 o3 no change",
+      "verdict": "matches key; ~41.67 ms/frame correct"
+    },
+    {
+      "quizId": "MT-26",
+      "questionId": "q8",
+      "derivedAnswer": "l1,l3,l4 → Simultaneous with visual; l2 → Still late",
+      "verdict": "matches key; rights unique, reuse of simultaneous target allowed and correct"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q1",
+      "derivedAnswer": "l1→r1 3:2, l2→r2 2:1, l3→r3 4:3, l4→r4 5:4",
+      "verdict": "matches key; ratios exact"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q2",
+      "derivedAnswer": "a: 2:1 octave (simplest integers under toy ranking)",
+      "verdict": "matches key; ranking applied correctly; option position varied"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q3",
+      "derivedAnswer": "200-300, 200-400, 300-400 bidirectional; no V4",
+      "verdict": "matches key; all valid simple-ratio pairs listed"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q4",
+      "derivedAnswer": "a: 3:2 perfect fifth (390/260 = 1.5 exactly)",
+      "verdict": "matches key; tones match; transcript gives frequencies only, no ratio leak"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q5",
+      "derivedAnswer": "i2 → i3 → i4 → i1 (2:1, 3:2, 4:3, 5:4)",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q6",
+      "derivedAnswer": "a: 240 Hz (180 * 4/3)",
+      "verdict": "matches key; arithmetic correct; option position varied"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q7",
+      "derivedAnswer": "c1 o1 3:2; c2 o2 8:5 not compatible",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q8",
+      "derivedAnswer": "direct 2:1→Octave etc.",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q1",
+      "derivedAnswer": "a: 45 m",
+      "verdict": "matches key; linear interpolation correct"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q2",
+      "derivedAnswer": "3→steep high, 12→gentle low, 6→moderate, 2→very steep high",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q3",
+      "derivedAnswer": "zb Zone B (spacing 4)",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q4",
+      "derivedAnswer": "a: Spacing 4 units (<5 exclusive)",
+      "verdict": "matches key; threshold correct; option position varied"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q5",
+      "derivedAnswer": "i2 → i3 → i1 → i4",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q6",
+      "derivedAnswer": "spacing 3 & 4 → High; 8 → Medium; 12 → Low",
+      "verdict": "matches key; all valid edges, rights deduplicated"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q7",
+      "derivedAnswer": "105 m and 70 m",
+      "verdict": "matches key; interval 20 m linear correct"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q8",
+      "derivedAnswer": "a: Halves (slope ∝ 1/spacing on fixed linear profile)",
+      "verdict": "matches key; fiction constraint stated; option position varied"
+    },
+    {
+      "quizId": "SG-26",
+      "questionId": "q1",
+      "derivedAnswer": "a: 5 (3 + 2 penalty)",
+      "verdict": "matches key; score = strokes + penalties explicit"
+    },
+    {
+      "quizId": "SG-26",
+      "questionId": "q2",
+      "derivedAnswer": "i2 → i4 → i1 → i3",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "SG-26",
+      "questionId": "q3",
+      "derivedAnswer": "touches pumpkin & OOB → +2 penalty; stays → Legal no; 2 strokes no contact → Legal score 2",
+      "verdict": "matches key; +2 target reused correctly, unique rights"
+    },
+    {
+      "quizId": "SG-26",
+      "questionId": "q4",
+      "derivedAnswer": "a: Player with 10 (lowest)",
+      "verdict": "matches key; option position varied"
+    },
+    {
+      "quizId": "SG-26",
+      "questionId": "q5",
+      "derivedAnswer": "6 and 2",
+      "verdict": "matches key; penalties included"
+    },
+    {
+      "quizId": "SG-26",
+      "questionId": "q6",
+      "derivedAnswer": "7, 8, 9, 11",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "SG-26",
+      "questionId": "q7",
+      "derivedAnswer": "a: +2 (5 - 3)",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "SG-26",
+      "questionId": "q8",
+      "derivedAnswer": "illegal → +2; legal → score=strokes; out of turn → must wait; within → no penalty",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "LW-26",
+      "questionId": "q1",
+      "derivedAnswer": "a: About 2:34 PM (180 * 60/70 ≈ 154.3 min from noon)",
+      "verdict": "matches key; FAST formula correct; noon/PM clarified"
+    },
+    {
+      "quizId": "LW-26",
+      "questionId": "q2",
+      "derivedAnswer": "FAST → Actual earlier; SLOW → Actual later",
+      "verdict": "matches key; rights deduplicated to one each, all mappings listed"
+    },
+    {
+      "quizId": "LW-26",
+      "questionId": "q3",
+      "derivedAnswer": "a: Yes, 8 inside closed [7,9]",
+      "verdict": "matches key; duration interval explicit"
+    },
+    {
+      "quizId": "LW-26",
+      "questionId": "q4",
+      "derivedAnswer": "FAST before; SLOW after; normal exact",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "LW-26",
+      "questionId": "q5",
+      "derivedAnswer": "i4 → i2 → i3 → i1",
+      "verdict": "matches key"
+    },
+    {
+      "quizId": "LW-26",
+      "questionId": "q6",
+      "derivedAnswer": "a: About 5:33 PM (300 * 60/54 ≈ 333.3 min from noon)",
+      "verdict": "matches key; SLOW formula correct; noon/PM clarified"
+    },
+    {
+      "quizId": "LW-26",
+      "questionId": "q7",
+      "derivedAnswer": "10 & 15 → Feasible; 9 & 16 → Not feasible",
+      "verdict": "matches key; closed interval, rights deduplicated"
+    },
+    {
+      "quizId": "LW-26",
+      "questionId": "q8",
+      "derivedAnswer": "A-B-C-D (15), A-C-D (13), A-B-D (12) → Feasible; A-B-C-B-D (24) → Not feasible (budget ≈18.6 min)",
+      "verdict": "matches key; math correct (shown 200 min → actual ≈171.4 min; deadline 190 min); reverse B-C edge duration assumed equal; waiting adds zero; all valid edges listed"
+    }
+  ],
+  "summary": "Independent re-derivation of all 40 tasks confirms correctness of arithmetic (frame ms, ratios, interpolations, FAST/SLOW clock formulas, journey budgets), graph edge completeness, match mappings (with proper target reuse), ordering sequences, audio tone/transcript consistency, and rule applications. All 13 initial issues are resolved: uppercase quiz IDs, reference URLs present, graphs/matches deduplicated with all valid edges explicit, audio transcripts no longer leak answer categories, choice correct positions varied across 1–4, sections contiguous, labels unique. SG score explicitly includes penalties; GT slope is pure fiction on fixed linear profile with same vertical interval. LW q8 rewritten combined clock+grid is mathematically correct: shown 3:20 PM (200 min) → actual ≈171.4 min (≈2:51 PM); deadline 3:10 PM (190 min) gives ≈18.6 min budget; listed paths 15/13/12 min feasible, 24 min not; reverse edge and waiting semantics acceptable. No blocking medium or high findings remain. One low/optional wording note on LW q8 waiting/undirected edges. Status pass. AI-assisted review only.",
+  "provider": "Grok Expert, fresh independent browser session",
+  "authorSession": "https://grok.com/c/7b249219-9f53-411f-90be-8b538d3e5eab",
+  "reviewSession": "https://grok.com/c/2f54a887-00ad-4f60-aca9-ceef7ff2026e",
+  "limits": "AI-assisted content review, not independent human review or participant validation. Integration review is source-based on supplied changes; no independent repository execution claimed.",
+  "finalMetadataAmendment": "Removed unused Academy background source from MT-26. LWq8 exact reviewer-proposed clarification and four browser-QA task amendments are separately recorded and independently rechecked; all keys, tones, graphs and other tasks unchanged.",
+  "entryDigests": {
+    "MT-26": "dcb34f213f07df5714ff2e24933efab41a2b272789fac8236bfdd7413667d503",
+    "MU-26": "c175882820f6bf842919710aa409f046cc3ba87ee2ae02c93f7d1e21ce79e209",
+    "GT-26": "36d23a3f17a6b1b8711530481cbc622a85abaabed645597bc252289ef4e54c51",
+    "SG-26": "eec3200be74c18f6650629777e241f89d4f656ec68e97c0520949404ef5bfce3",
+    "LW-26": "3b297d4b64f9887386e459a560e5e4f6aa3dc2a9c3a2faa40ca77f7b5a65da8e"
+  },
+  "approvedClarificationApplied": "LW-26 q8: appended the reviewer's exact optional clarification, making undirected edges and zero-minute toy waiting explicit. Keys unchanged.",
+  "integrationReview": "Pass preserved; no blockers in described append-only integration. Source-based review of supplied changes, not independent repository execution.",
+  "finalClarificationConfirmation": "Grok fresh reviewer: pass stands; low note resolved by exact approved wording. No key/edge/pair changes. Unused MT source removal remains metadata-only.",
+  "browserDiscoveredCorrection": {
+    "issue": "MU-26 q6 originally allowed two interpretations of 180Hz as lower or higher; independent V3 review missed it.",
+    "resolution": "Grok V4 explicitly asks for a higher voice above the supplied lower180Hz; only240Hz fits. Fresh independent delta review passed.",
+    "otherClarifications": [
+      "MU q4 exact tone-frequency context",
+      "GT q2 explicit toy slope bands",
+      "GT q4 cleaned boundary decoy and triggers wording"
+    ]
+  },
+  "deltaReviewCoverage": [
+    {
+      "quizId": "MU-26",
+      "questionId": "q4",
+      "derivedAnswer": "390/260=3/2; tones260/390 match transcript",
+      "verdict": "pass"
+    },
+    {
+      "quizId": "MU-26",
+      "questionId": "q6",
+      "derivedAnswer": "180*4/3=240;135 excluded by higher-frequency requirement",
+      "verdict": "pass"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q2",
+      "derivedAnswer": "3 steep;12 gentle;6 moderate;2 very steep under supplied bands",
+      "verdict": "pass"
+    },
+    {
+      "quizId": "GT-26",
+      "questionId": "q4",
+      "derivedAnswer": "4<5;5 does not trigger high fog",
+      "verdict": "pass"
+    }
+  ],
+  "finalPromptApproval": "Independent Grok reviewer approved GT-26 q4 triggers wording as clarity-only; pass preserved."
+}

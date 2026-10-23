@@ -10122,5 +10122,410 @@
       }
     ],
     "note": "All maps are original schematic diagrams, and the cities, Miniworld and measurements are invented. Distances show geometry only and are not real flight routes or travel advice."
+  },
+  {
+    "id": "GT-26",
+    "slug": "fog-island-contour-navigation",
+    "categoryId": "geography-travel",
+    "title": "Fog Island Contour Navigation",
+    "description": "Navigate original Fog Island using contour interval interpolation, relative horizontal spacing for slope (fixed linear profile, same units), and an explicit toy-game fog threshold. Schematic 2D rectangular zone diagrams only; all data in text. Contour concept paraphrased from public USGS resources.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Contour Interval and Interpolation"
+      },
+      {
+        "id": "s2",
+        "title": "Spacing Slope and Fog Threshold"
+      },
+      {
+        "id": "s3",
+        "title": "Zone Schematics"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "On Fog Island the contour interval is 10 m. Between the 40 m and 50 m contours a point is halfway. What is the interpolated elevation?",
+        "context": "Original: linear interpolation assumed between adjacent contours. Contours connect equal elevation points (paraphrased public definition).",
+        "options": [
+          {
+            "id": "a",
+            "label": "45 m"
+          },
+          {
+            "id": "b",
+            "label": "40 m"
+          },
+          {
+            "id": "c",
+            "label": "50 m"
+          },
+          {
+            "id": "d",
+            "label": "35 m"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Halfway between 40 and 50 is 45 m under linear interpolation.",
+        "sourceIds": [
+          "orig",
+          "usgs"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match horizontal spacing to relative slope on the schematic.",
+        "context": "Original toy: closer contours (smaller horizontal spacing) mean steeper slope. Wider spacing gentler. Fog threshold: spacing < 5 units → high fog risk (steep). For this toy schematic only: spacing up to 2 units is Very steep; greater than 2 and less than 5 is Steep; 5 through 10 inclusive is Moderate; greater than 10 is Gentle. High fog risk applies below 5 only.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "Spacing 3 units"
+          },
+          {
+            "id": "l2",
+            "label": "Spacing 12 units"
+          },
+          {
+            "id": "l3",
+            "label": "Spacing 6 units"
+          },
+          {
+            "id": "l4",
+            "label": "Spacing 2 units"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Steep, high fog risk"
+          },
+          {
+            "id": "r2",
+            "label": "Gentle, low fog risk"
+          },
+          {
+            "id": "r3",
+            "label": "Moderate"
+          },
+          {
+            "id": "r4",
+            "label": "Very steep, high fog risk"
+          }
+        ],
+        "pairs": {
+          "l1": "r1",
+          "l2": "r2",
+          "l3": "r3",
+          "l4": "r4"
+        },
+        "explanation": "Smaller spacing = steeper slope and higher fog risk per threshold <5.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Order the steps to interpolate elevation between two contours.",
+        "context": "Original: identify bounding contours, measure fractional distance, apply linear fraction times interval.",
+        "items": [
+          {
+            "id": "i1",
+            "label": "Apply fraction × contour interval"
+          },
+          {
+            "id": "i2",
+            "label": "Identify lower and upper contour elevations"
+          },
+          {
+            "id": "i3",
+            "label": "Measure fractional horizontal position"
+          },
+          {
+            "id": "i4",
+            "label": "Add to lower elevation"
+          }
+        ],
+        "correctOrder": [
+          "i2",
+          "i3",
+          "i1",
+          "i4"
+        ],
+        "explanation": "Identify bounds, measure fraction, scale by interval, add to lower.",
+        "sourceIds": [
+          "orig",
+          "usgs"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s1",
+        "kind": "grid",
+        "prompt": "Interpolate the elevation for each described position.",
+        "context": "Interval 20 m. Linear.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "1/4 way from 100 m to 120 m",
+            "options": [
+              {
+                "id": "o1",
+                "label": "105 m"
+              },
+              {
+                "id": "o2",
+                "label": "110 m"
+              },
+              {
+                "id": "o3",
+                "label": "115 m"
+              }
+            ],
+            "correct": "o1"
+          },
+          {
+            "id": "c2",
+            "label": "Halfway 60 m to 80 m",
+            "options": [
+              {
+                "id": "o1",
+                "label": "70 m"
+              },
+              {
+                "id": "o2",
+                "label": "65 m"
+              },
+              {
+                "id": "o3",
+                "label": "75 m"
+              }
+            ],
+            "correct": "o1"
+          }
+        ],
+        "explanation": "1/4 of 20 m =5, 100+5=105; halfway 70.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s2",
+        "kind": "hotspot",
+        "prompt": "On the schematic zone diagram, select the zone with the steepest slope (smallest contour spacing).",
+        "context": "Schematic rectangles: Zone A spacing 8, Zone B spacing 4, Zone C spacing 15, Zone D spacing 6. All elevations labeled in text.",
+        "diagram": {
+          "title": "Fog Island Schematic Zones",
+          "description": "Four non-overlapping rectangles representing contour spacing zones. Not actual isolines.",
+          "zones": [
+            {
+              "id": "za",
+              "label": "Zone A (spacing 8)",
+              "x": 10,
+              "y": 10,
+              "width": 35,
+              "height": 30,
+              "color": "#a0c4ff"
+            },
+            {
+              "id": "zb",
+              "label": "Zone B (spacing 4)",
+              "x": 50,
+              "y": 10,
+              "width": 35,
+              "height": 30,
+              "color": "#ffadad"
+            },
+            {
+              "id": "zc",
+              "label": "Zone C (spacing 15)",
+              "x": 10,
+              "y": 50,
+              "width": 35,
+              "height": 30,
+              "color": "#caffbf"
+            },
+            {
+              "id": "zd",
+              "label": "Zone D (spacing 6)",
+              "x": 50,
+              "y": 50,
+              "width": 35,
+              "height": 30,
+              "color": "#ffd6a5"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "za",
+            "label": "Zone A"
+          },
+          {
+            "id": "zb",
+            "label": "Zone B"
+          },
+          {
+            "id": "zc",
+            "label": "Zone C"
+          },
+          {
+            "id": "zd",
+            "label": "Zone D"
+          }
+        ],
+        "correct": "zb",
+        "explanation": "Smallest spacing 4 in Zone B means steepest slope.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Fog threshold rule: high fog if spacing < 5 units. Which zone triggers high fog under this toy rule?",
+        "context": "Original invented toy-game threshold for this Fog Island only (not real outdoor advice): high fog if spacing < 5 units. Slope calculations assume same vertical interval and same horizontal units on a fixed linear profile.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Spacing 7 units"
+          },
+          {
+            "id": "a",
+            "label": "Spacing 4 units"
+          },
+          {
+            "id": "c",
+            "label": "Spacing 10 units"
+          },
+          {
+            "id": "d",
+            "label": "Spacing 5 units"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Rule is <5, so 4 triggers high fog. 5 does not (exclusive).",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Relative slope is inversely related to horizontal contour spacing. If spacing doubles, slope roughly...",
+        "context": "Original approximate on fixed linear profile: slope ~ vertical interval / horizontal spacing (same units). Doubling spacing halves slope. Toy model only.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Doubles"
+          },
+          {
+            "id": "c",
+            "label": "Unchanged"
+          },
+          {
+            "id": "a",
+            "label": "Halves"
+          },
+          {
+            "id": "d",
+            "label": "Triples"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Slope proportional to 1/spacing under the fixed linear profile assumption, so doubling spacing halves slope.",
+        "sourceIds": [
+          "orig",
+          "usgs"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s3",
+        "kind": "graph",
+        "prompt": "Connect zones to their fog risk level. Connect ALL that match the rule.",
+        "context": "High risk if spacing <5; medium 5-10 inclusive; low >10.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "Zone spacing 3"
+          },
+          {
+            "id": "l2",
+            "label": "Zone spacing 8"
+          },
+          {
+            "id": "l3",
+            "label": "Zone spacing 12"
+          },
+          {
+            "id": "l4",
+            "label": "Zone spacing 4"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "High fog risk"
+          },
+          {
+            "id": "r2",
+            "label": "Medium fog risk"
+          },
+          {
+            "id": "r3",
+            "label": "Low fog risk"
+          }
+        ],
+        "edges": [
+          [
+            "l1",
+            "r1"
+          ],
+          [
+            "l4",
+            "r1"
+          ],
+          [
+            "l2",
+            "r2"
+          ],
+          [
+            "l3",
+            "r3"
+          ]
+        ],
+        "explanation": "Spacing 3 and 4 <5 → high; 8 medium; 12 low. All valid links included.",
+        "sourceIds": [
+          "orig"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "orig",
+        "kind": "original",
+        "label": "Original fictional Fog Island contour navigation toy model"
+      },
+      {
+        "id": "usgs",
+        "kind": "reference",
+        "label": "USGS topographic mapping: contours connect equal elevation points; interval is elevation difference between adjacent contours",
+        "url": "https://www.usgs.gov/educational-resources/topographic-mapping"
+      }
+    ],
+    "note": "Original toy model. Schematic rect zones not real maps. Contour basics paraphrased from public USGS resources. No real outdoor or navigation advice. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
   }
 ]

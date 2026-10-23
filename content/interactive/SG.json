@@ -9715,5 +9715,348 @@
     ],
     "note": "The board, cards and rules are an invented mini-game, with every rule stated in each puzzle. Gather around one device and solve together, and talk through each rewind before locking in an answer.",
     "playMode": "solo"
+  },
+  {
+    "id": "SG-26",
+    "slug": "pumpkin-patch-mini-golf",
+    "categoryId": "sports-games",
+    "title": "Pumpkin Patch Mini-Golf",
+    "description": "Apply the original Pumpkin Patch Mini-Golf rulebook: stroke counts, penalties for illegal obstacle contact, legal constraints, scoring, and turn ordering by lowest score. Pure rule application on the invented rules; no physical instructions.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Stroke and Penalty Scoring"
+      },
+      {
+        "id": "s2",
+        "title": "Turn Ordering and Constraints"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A player takes 3 strokes but contacts a pumpkin obstacle illegally. Penalty is +2. What is the hole score?",
+        "context": "Original rules: hole score = strokes + penalties. Illegal pumpkin contact = +2 penalty. Legal path only around marked zones.",
+        "options": [
+          {
+            "id": "b",
+            "label": "3"
+          },
+          {
+            "id": "c",
+            "label": "2"
+          },
+          {
+            "id": "d",
+            "label": "6"
+          },
+          {
+            "id": "a",
+            "label": "5"
+          }
+        ],
+        "correct": "a",
+        "explanation": "3 strokes + 2 penalty = 5.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Order the scoring calculation steps.",
+        "context": "Count strokes, add any penalties for illegal contacts, compare to par if needed, record total.",
+        "items": [
+          {
+            "id": "i1",
+            "label": "Add penalties"
+          },
+          {
+            "id": "i2",
+            "label": "Count strokes taken"
+          },
+          {
+            "id": "i3",
+            "label": "Record final hole score"
+          },
+          {
+            "id": "i4",
+            "label": "Check for illegal obstacle contact"
+          }
+        ],
+        "correctOrder": [
+          "i2",
+          "i4",
+          "i1",
+          "i3"
+        ],
+        "explanation": "Strokes, check illegal, add penalty, record.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s1",
+        "kind": "grid",
+        "prompt": "Compute final scores for each player situation.",
+        "context": "Strokes + penalties.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "4 strokes, 1 illegal contact",
+            "options": [
+              {
+                "id": "o1",
+                "label": "6"
+              },
+              {
+                "id": "o2",
+                "label": "4"
+              },
+              {
+                "id": "o3",
+                "label": "5"
+              }
+            ],
+            "correct": "o1"
+          },
+          {
+            "id": "c2",
+            "label": "2 strokes, no contact",
+            "options": [
+              {
+                "id": "o1",
+                "label": "2"
+              },
+              {
+                "id": "o2",
+                "label": "4"
+              },
+              {
+                "id": "o3",
+                "label": "0"
+              }
+            ],
+            "correct": "o1"
+          }
+        ],
+        "explanation": "4+2=6; 2+0=2.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Par is 3. Player scores 5 with one penalty. Relative to par?",
+        "context": "Over par by score - par.",
+        "options": [
+          {
+            "id": "a",
+            "label": "+2"
+          },
+          {
+            "id": "b",
+            "label": "+1"
+          },
+          {
+            "id": "c",
+            "label": "Even"
+          },
+          {
+            "id": "d",
+            "label": "-1"
+          }
+        ],
+        "correct": "a",
+        "explanation": "5 - 3 = +2.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each action to legal or penalty under the rulebook.",
+        "context": "Legal: stay in fairway zones. Illegal: touch pumpkin or out-of-bounds marker → +2. Turn order: lowest current total score plays first.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "Ball touches pumpkin"
+          },
+          {
+            "id": "l2",
+            "label": "Stays in marked path"
+          },
+          {
+            "id": "l3",
+            "label": "Crosses out-of-bounds line"
+          },
+          {
+            "id": "l4",
+            "label": "Hits within hole in 2 strokes no contact"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "+2 penalty"
+          },
+          {
+            "id": "r2",
+            "label": "Legal, no penalty"
+          },
+          {
+            "id": "r3",
+            "label": "Legal score 2"
+          }
+        ],
+        "pairs": {
+          "l1": "r1",
+          "l2": "r2",
+          "l3": "r1",
+          "l4": "r3"
+        },
+        "explanation": "Illegal contact or OOB → +2 (reused target); clean path legal. All valid mappings.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Three players have totals 12, 15, 10. Who plays first next hole?",
+        "context": "Original: lowest total score plays first (ascending order).",
+        "options": [
+          {
+            "id": "b",
+            "label": "Player with 12"
+          },
+          {
+            "id": "a",
+            "label": "Player with 10"
+          },
+          {
+            "id": "c",
+            "label": "Player with 15"
+          },
+          {
+            "id": "d",
+            "label": "Highest score"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Lowest score 10 plays first.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Order players by turn sequence for next hole given scores 8, 11, 9, 7.",
+        "context": "Ascending score order: lowest first.",
+        "items": [
+          {
+            "id": "i1",
+            "label": "Score 11"
+          },
+          {
+            "id": "i2",
+            "label": "Score 7"
+          },
+          {
+            "id": "i3",
+            "label": "Score 8"
+          },
+          {
+            "id": "i4",
+            "label": "Score 9"
+          }
+        ],
+        "correctOrder": [
+          "i2",
+          "i3",
+          "i4",
+          "i1"
+        ],
+        "explanation": "7 then 8 then 9 then 11.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match constraint to consequence.",
+        "context": "Must complete hole before next turn. Illegal reset costs extra stroke equivalent to penalty.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "Illegal contact"
+          },
+          {
+            "id": "l2",
+            "label": "Legal completion in strokes"
+          },
+          {
+            "id": "l3",
+            "label": "Out of turn"
+          },
+          {
+            "id": "l4",
+            "label": "Within bounds"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "+2 to score"
+          },
+          {
+            "id": "r2",
+            "label": "Score = strokes"
+          },
+          {
+            "id": "r3",
+            "label": "Must wait, no extra if corrected"
+          },
+          {
+            "id": "r4",
+            "label": "No penalty"
+          }
+        ],
+        "pairs": {
+          "l1": "r1",
+          "l2": "r2",
+          "l3": "r3",
+          "l4": "r4"
+        },
+        "explanation": "Direct rule mapping for constraints.",
+        "sourceIds": [
+          "orig"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "orig",
+        "kind": "original",
+        "label": "Original fictional Pumpkin Patch Mini-Golf rulebook for strokes, penalties, constraints and ordering"
+      }
+    ],
+    "note": "Original toy rulebook only. No physical instructions or real game advice. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
   }
 ]

@@ -9701,5 +9701,377 @@
       }
     ],
     "note": "All notes, shifts, locker charts and clues are invented for this quiz, and each can be solved from the information given."
+  },
+  {
+    "id": "LW-26",
+    "slug": "ghost-alibi-clock-grid",
+    "categoryId": "logic-wordplay",
+    "title": "Ghost Alibi Clock Grid",
+    "description": "Calibrate FAST or SLOW broken clock readings (correct at noon) to actual times using continuous rate formulas, then check walking-edge duration against explicit toy allowed closed intervals on a fictional street grid. Eight independent cases; all boundaries inclusive and stated.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Broken Clock Calibration"
+      },
+      {
+        "id": "s2",
+        "title": "Grid Walking Feasibility"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A FAST clock gains 10 minutes per hour. Correct at noon, it shows 3:00 the same afternoon. What is the actual time?",
+        "context": "Original: FAST gains 10 minutes per hour continuously. It was correct at noon (12:00). It now shows 3:00 the same afternoon. Actual elapsed minutes = shown_elapsed_minutes * 60 / (60 + gain_rate). Boundaries inclusive for continuous rate.",
+        "options": [
+          {
+            "id": "b",
+            "label": "3:00 PM"
+          },
+          {
+            "id": "c",
+            "label": "3:10 PM"
+          },
+          {
+            "id": "a",
+            "label": "About 2:34 PM"
+          },
+          {
+            "id": "d",
+            "label": "2:50 PM"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Shown elapsed from noon: 180 minutes. Actual elapsed = 180 * 60 / 70 = 154.2857 minutes = 2 hours 34.2857 minutes ≈ 2:34 PM.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match clock type and reading to actual time category.",
+        "context": "SLOW loses 5 min/hour. FAST gains 12 min/hour. Both were correct at noon. FAST readings mean actual is earlier; SLOW readings mean actual is later. Continuous rates.",
+        "left": [
+          {
+            "id": "l1",
+            "label": "FAST shows 2:00"
+          },
+          {
+            "id": "l2",
+            "label": "SLOW shows 2:00"
+          },
+          {
+            "id": "l3",
+            "label": "FAST shows 1:00"
+          },
+          {
+            "id": "l4",
+            "label": "SLOW shows 1:00"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Actual earlier than shown"
+          },
+          {
+            "id": "r2",
+            "label": "Actual later than shown"
+          }
+        ],
+        "pairs": {
+          "l1": "r1",
+          "l2": "r2",
+          "l3": "r1",
+          "l4": "r2"
+        },
+        "explanation": "FAST clocks run ahead, so actual time is earlier than the reading. SLOW clocks run behind, so actual time is later than the reading. One target per direction; all valid mappings included.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "grid",
+        "prompt": "For each broken clock case, select the actual time direction.",
+        "context": "Independent cases. FAST actual < shown; SLOW actual > shown. Rates constant.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "FAST +15 min/h shows 4:00",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Actual before 4:00"
+              },
+              {
+                "id": "o2",
+                "label": "Actual after 4:00"
+              },
+              {
+                "id": "o3",
+                "label": "Exactly 4:00"
+              }
+            ],
+            "correct": "o1"
+          },
+          {
+            "id": "c2",
+            "label": "SLOW -8 min/h shows 4:00",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Actual before 4:00"
+              },
+              {
+                "id": "o2",
+                "label": "Actual after 4:00"
+              },
+              {
+                "id": "o3",
+                "label": "Exactly 4:00"
+              }
+            ],
+            "correct": "o2"
+          },
+          {
+            "id": "c3",
+            "label": "Normal clock shows 4:00",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Before"
+              },
+              {
+                "id": "o2",
+                "label": "After"
+              },
+              {
+                "id": "o3",
+                "label": "Exactly 4:00"
+              }
+            ],
+            "correct": "o3"
+          }
+        ],
+        "explanation": "FAST ahead → actual earlier; SLOW behind → actual later; normal exact.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "SLOW clock loses 6 min per hour. Shows 5:00, correct at 12:00. Actual time is later. Approximate actual?",
+        "context": "Original: SLOW loses 6 minutes per hour continuously. Correct at noon, shows 5:00 the same afternoon. Actual elapsed = shown_elapsed * 60 / (60 - loss_rate).",
+        "options": [
+          {
+            "id": "b",
+            "label": "5:00"
+          },
+          {
+            "id": "c",
+            "label": "4:30"
+          },
+          {
+            "id": "d",
+            "label": "5:06"
+          },
+          {
+            "id": "a",
+            "label": "About 5:33"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Shown 300 minutes from noon. Actual = 300 * 60 / 54 ≈ 333.333 minutes = 5 hours 33.333 minutes ≈ 5:33 PM.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Grid edge takes 8 min to walk. Available actual time window is 7 to 9 min inclusive. Is the walk feasible?",
+        "context": "Toy allowed walking duration closed interval is 7 to 9 minutes inclusive. Edge takes 8 min. Feasible if duration is inside the closed interval (game rule).",
+        "options": [
+          {
+            "id": "a",
+            "label": "Yes, 8 is within 7-9"
+          },
+          {
+            "id": "b",
+            "label": "No"
+          },
+          {
+            "id": "c",
+            "label": "Only if faster"
+          },
+          {
+            "id": "d",
+            "label": "Boundary exclusive"
+          }
+        ],
+        "correct": "a",
+        "explanation": "8 is inside the closed [7, 9] so feasible under the toy duration constraint.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Order the feasibility checks for a 12 min edge walk.",
+        "context": "Calibrate clock to actual window, check if 12 min is inside inclusive bounds, conclude.",
+        "items": [
+          {
+            "id": "i1",
+            "label": "Conclude feasible or not"
+          },
+          {
+            "id": "i2",
+            "label": "Calibrate shown to actual time window"
+          },
+          {
+            "id": "i3",
+            "label": "Compare 12 min to inclusive [low, high]"
+          },
+          {
+            "id": "i4",
+            "label": "Note the edge duration"
+          }
+        ],
+        "correctOrder": [
+          "i4",
+          "i2",
+          "i3",
+          "i1"
+        ],
+        "explanation": "Note duration, calibrate window, compare inclusive, conclude.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match edge duration to feasibility given actual window [10, 15] inclusive minutes.",
+        "context": "Toy allowed walking duration closed interval [10, 15] minutes inclusive. Feasible only if the edge duration falls inside this closed interval (game constraint, not a physical departure window).",
+        "left": [
+          {
+            "id": "l1",
+            "label": "10 min"
+          },
+          {
+            "id": "l2",
+            "label": "15 min"
+          },
+          {
+            "id": "l3",
+            "label": "9 min"
+          },
+          {
+            "id": "l4",
+            "label": "16 min"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Feasible (inside closed interval)"
+          },
+          {
+            "id": "r2",
+            "label": "Not feasible (outside closed interval)"
+          }
+        ],
+        "pairs": {
+          "l1": "r1",
+          "l2": "r1",
+          "l3": "r2",
+          "l4": "r2"
+        },
+        "explanation": "10 and 15 are inclusive boundaries so feasible; 9 and 16 outside so not. Reused targets allowed.",
+        "sourceIds": [
+          "orig"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "graph",
+        "prompt": "Connect each candidate witness journey to feasible or not feasible. Connect ALL valid links by the rule; false positives penalized.",
+        "context": "Fictional street grid (toy model only; no actual navigation claim). Clock was correct at noon. It is a FAST clock that gains 10 minutes per hour continuously. The clock now shows 3:20 PM. Actual elapsed minutes = shown elapsed minutes × 60 / 70. Named edges and walking durations (minutes): A–B 5, B–C 6, A–C 9, C–D 4, B–D 7. Arrival deadline is actual 3:10 PM. Waiting at intermediate nodes is allowed and costs no extra time beyond the edge durations. Candidate journeys are paths from A to D. Total journey time equals the sum of the listed edge durations only; any waiting at nodes adds zero minutes. Edges are undirected (B–C = C–B = 6 min).",
+        "left": [
+          {
+            "id": "j1",
+            "label": "Journey A-B-C-D"
+          },
+          {
+            "id": "j2",
+            "label": "Journey A-C-D"
+          },
+          {
+            "id": "j3",
+            "label": "Journey A-B-D"
+          },
+          {
+            "id": "j4",
+            "label": "Journey A-B-C-B-D"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Feasible"
+          },
+          {
+            "id": "r2",
+            "label": "Not feasible"
+          }
+        ],
+        "edges": [
+          [
+            "j1",
+            "r1"
+          ],
+          [
+            "j2",
+            "r1"
+          ],
+          [
+            "j3",
+            "r1"
+          ],
+          [
+            "j4",
+            "r2"
+          ]
+        ],
+        "explanation": "Shown elapsed 200 min (3:20 PM). Actual elapsed = 200 × 60 / 70 ≈ 171.4 min (≈2:51 PM). Deadline actual 3:10 PM = 190 min from noon, so time budget ≈ 18.6 min. A-B-C-D = 15 min, A-C-D = 13 min, A-B-D = 12 min all ≤ budget → feasible. A-B-C-B-D = 24 min > budget → not feasible. All valid links listed.",
+        "sourceIds": [
+          "orig"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "orig",
+        "kind": "original",
+        "label": "Original fictional ghost alibi broken clock calibration and street grid walking feasibility"
+      }
+    ],
+    "note": "All original fiction. Exact inclusive boundaries stated in each task. Independent cases. No real timekeeping or safety claims. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
   }
 ]
