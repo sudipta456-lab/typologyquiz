@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-24",
+  "status": "blocked-provider-and-content-quality",
+  "published": 0,
+  "unpublishedShortfall": 5,
+  "candidateQuizzes": 2,
+  "candidateTasks": 16,
+  "canonicalEntriesAdded": 0,
+  "authorChat": "https://grok.com/c/2ce36911-e02d-4783-88c5-1a0731fc1b2e",
+  "factsChat": "https://grok.com/c/9397cd92-0137-4563-b08a-a6a673e6f450",
+  "reviewChat": "https://grok.com/c/c963036b-fbc4-498d-9192-f505d217be9f",
+  "providerNotice": "You've hit your weekly limit",
+  "displayedReset": "October 24; exact time/timezone not provided",
+  "independentReviewCompleted": false,
+  "limits": "Expert authoring completed two candidates. Three-quiz authoring and fresh independent review were quota-rejected. No retry, purchase, credential change or paid-provider substitution after current quota failures.",
+  "observedAt": "2026-10-24T13:38:28.136317+00:00",
+  "contentSourceCommit": null,
+  "deploymentVersion": null,
+  "productionBaselineVersion": "244f609b-375a-4026-a904-295c2b8c791d",
+  "previousProductionContentSource": "ddb3959e",
+  "canonicalCount": 260,
+  "original260QuizAndBriefDigestsUnchanged": true,
+  "candidatePacketSHA256": "7b9b8e97e72847550170fc849d274b4a2c82da314a9e123566870548b8891075",
+  "draftReleaseStatus": {
+    "PC-27": "unreviewed candidate; no manifest entry",
+    "FS-27": "held for audience-fit rebuild and independent review; no manifest entry",
+    "SN-27": "not authored; quota rejected request",
+    "HC-27": "not authored; quota rejected request",
+    "FE-27": "not authored; quota rejected request"
+  },
+  "coordinatorQualityFinding": {
+    "quizId": "FS-27",
+    "status": "hold",
+    "reason": "Literal quoted-text paraphrase and explicitly supplied sequence dominate the tasks; title promises a ghost mystery but the clue set does not develop an earned mystery. Subjective choices are correctly unscored, yet controller variety is not meaningful discovery. This is coordinator editorial assessment, not a completed independent review or measured audience outcome."
+  },
+  "gatesNotRun": "Full npm verify, production build/GA/discovery coverage, gameplay, push of quiz content and deployment were not run: there is no reviewed new canonical content to release. No gate bypass or stale pass claimed.",
+  "verification": {
+    "assembleInteractiveCheck": "pass;260/260",
+    "validateInteractive": "pass;260quizzes/2080tasks",
+    "candidateSchemaOnly": {
+      "PC-27": "pass",
+      "FS-27": "pass"
+    },
+    "candidateSchemaLimit": "Does not establish content quality, independent review or release approval.",
+    "unchangedSourceContentGeneratedFixturesWorkerDiff": "pass; no diff",
+    "fullApplicationVerification": "not run; no new canonical content",
+    "productionBuildAndDeploy": "not run"
+  }
+}
