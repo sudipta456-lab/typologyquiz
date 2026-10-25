@@ -10102,5 +10102,299 @@
       { "id": "case", "label": "Original TypologyQuiz scenarios and supplied puzzle data", "kind": "original" }
     ],
     "note": "The library, owners, objects, desks and slots are all invented for this puzzle. Every rule and every piece of data a task needs is shown in that task, and answers are checked only against those rules. You can work through it alone or talk it over with others."
+  },
+  {
+    "id": "FS-27",
+    "slug": "last-bow-lantern-theatre",
+    "categoryId": "friends-social-play",
+    "title": "The Last Bow at Lantern Theatre",
+    "description": "Share the archive of a fictional theatre, separate a costume’s maker from its wearer, and uncover the visitor’s name, permissions and unfinished recognition. Includes unscored creative turns.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Open the Archive"
+      },
+      {
+        "id": "s2",
+        "title": "The Missing Name"
+      },
+      {
+        "id": "s3",
+        "title": "The Final Bow"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Before the group opens the theatre archive, choose who will read the first clue aloud.",
+        "explanation": "This is a group preference. No reading style is more correct.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original ghost story: Lantern Theatre has been closed for decades. Each Halloween, one seat unfolds and an unseen visitor takes a bow. Tonight volunteers reopen the theatre for a public archive reading. Your group arrives early, before the public, to examine the records. Share one device and take turns reading; with fewer readers, cycle through the turns.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Someone who enjoys performing"
+          },
+          {
+            "id": "b",
+            "label": "Someone who prefers spotting details"
+          },
+          {
+            "id": "c",
+            "label": "Take turns reading a sentence each"
+          }
+        ],
+        "unscored": true
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Reader 1: reconstruct tonight’s three rehearsal events before the public audience entered.",
+        "explanation": "The cue test preceded the replica-costume delivery, which preceded the publicity photograph. Together the scraps establish a sequence without relying on clock calculations.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Tonight’s three notes: the cue-test log says the empty-seat bow happened during the test. The replica-costume receipt says the delivery came after that test but before the publicity photograph. The photograph’s caption says the public audience was still waiting outside.",
+        "items": [
+          {
+            "id": "photo",
+            "label": "Publicity photograph"
+          },
+          {
+            "id": "test",
+            "label": "Cue test and empty-seat bow"
+          },
+          {
+            "id": "delivery",
+            "label": "Replica-costume delivery"
+          }
+        ],
+        "correctOrder": [
+          "test",
+          "delivery",
+          "photo"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Reader 2: connect each person's contribution to the object the archive can actually credit to them.",
+        "explanation": "The archive distinguishes making, carrying and painting. Being photographed holding a prop does not establish who made it.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Workshop note: Mara Roe sewed the blue velvet coat; Elin Vale made the paper lantern. A backstage photograph shows Miles Reed carrying that lantern while wearing Mara's coat. The scenery receipt credits Miles with painting the sea backdrop.",
+        "left": [
+          {
+            "id": "mara",
+            "label": "Mara Roe"
+          },
+          {
+            "id": "elin",
+            "label": "Elin Vale"
+          },
+          {
+            "id": "miles",
+            "label": "Miles Reed"
+          }
+        ],
+        "right": [
+          {
+            "id": "sea",
+            "label": "Painted sea backdrop"
+          },
+          {
+            "id": "coat",
+            "label": "Blue velvet coat"
+          },
+          {
+            "id": "lantern",
+            "label": "Paper lantern"
+          }
+        ],
+        "pairs": {
+          "mara": "coat",
+          "elin": "lantern",
+          "miles": "sea"
+        }
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Reader 3: whose missing credit best fits the visitor's two clues?",
+        "explanation": "The cloth clue points to the coat maker; the second clue rules out the performer photographed wearing it. Both are needed to distinguish maker from wearer.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The visitor's words appear on a dusty mirror: ‘Find me in the cloth, not in the face that wore it.’ The workshop note credits Mara with sewing the coat; the photograph shows Miles wearing it. Elin made the lantern.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Elin Vale, who made the lantern"
+          },
+          {
+            "id": "b",
+            "label": "Mara Roe, who sewed the coat"
+          },
+          {
+            "id": "c",
+            "label": "Miles Reed, who painted the sea"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Creative turn: choose how your group would invite the visitor to stay for the final scene.",
+        "explanation": "This contribution is unscored. Choose a welcome to say aloud; it does not generate or alter the later story.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Leave a seat open and read softly"
+          },
+          {
+            "id": "b",
+            "label": "Stand together and offer a formal introduction"
+          },
+          {
+            "id": "c",
+            "label": "Have each person speak one word of the welcome"
+          }
+        ],
+        "unscored": true
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Reader 4: what does the newly opened correspondence establish about the coat?",
+        "explanation": "The loan and letter establish permission, and the reference to working in the wings places Mara backstage on opening night. They do not settle what she intended for every future performance.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "A signed workshop slip lends the blue coat to Miles for opening night. In a separate letter to him, Mara writes: ‘Wear it. I will be in the wings, looking after the seams.’ Neither document discusses later performances.",
+        "cells": [
+          {
+            "id": "credit",
+            "label": "Miles took the coat without Mara’s permission",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Contradicted"
+              },
+              {
+                "id": "unknown",
+                "label": "Not established"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "gift",
+            "label": "Mara expected to work backstage on opening night",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Contradicted"
+              },
+              {
+                "id": "unknown",
+                "label": "Not established"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "wearer",
+            "label": "Mara intended never to attend a later performance",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Contradicted"
+              },
+              {
+                "id": "unknown",
+                "label": "Not established"
+              }
+            ],
+            "correct": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Imagine finding one more record. Which discovery would most weaken the group’s identification of the visitor?",
+        "explanation": "The maker is the crucial link. A reliable correction to that attribution would weaken the identification; more evidence of who wore the coat would not settle who made it.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Your current identification depends on Mara being the maker of the coat, rather than the performer who wore it. The mirror’s clue refers to the hands behind the cloth. These are hypothetical discoveries, not new facts in the story.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Another photograph of Miles wearing the same coat"
+          },
+          {
+            "id": "b",
+            "label": "A second programme that repeats Miles’s performer credit"
+          },
+          {
+            "id": "c",
+            "label": "A verified workshop correction crediting the coat’s sewing to Elin instead of Mara"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "reflection",
+        "prompt": "The group reads ‘Costumes: Mara Roe.’ The empty seat folds, the visitor takes one last bow, and the theatre falls quiet. What would your group put in the programme's final line?",
+        "explanation": "The story ends with the maker's name restored. Your optional ending line is a creative contribution, not a correct-answer test; it is not saved or sent for analysis.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original fictional ending. All clues and the resolution were authored for this experience; this is not a claim about a real theatre or haunting.",
+        "hint": "Say a line together, or leave this blank. You can thank the unseen work behind a performance."
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original TypologyQuiz fictional scenes, clues and descriptive mappings",
+        "kind": "original"
+      }
+    ],
+    "note": "An original, non-graphic ghost mystery. One group, one shared attempt: take turns reading clues and agree on answers, or play solo. The optional ending line is not saved. This is an authored story, not a generated narrative.",
+    "playMode": "solo"
   }
 ]

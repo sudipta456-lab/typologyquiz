@@ -1,0 +1,439 @@
+{
+  "approvedLocalDate": "2026-10-23",
+  "approval": "Owner: good ... go with ur new recomendation",
+  "status": "approved-editorial-treatment-queue-not-authored-quizzes",
+  "authority": "These reviewed treatments govern October24–31 authoring. The original calendar remains historical; do not implement a weak original hook unchanged.",
+  "provenance": "Mechanical adoption of the completed Grok Expert audit and coordinator checks; no new Grok inference, creative draft or independent release review occurred during adoption.",
+  "auditRecord": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT.md",
+  "immutableAuditRows": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT_ROWS.json",
+  "futureBriefCount": 40,
+  "requiresSubstantialRevision": 28,
+  "strongerStartingBriefsNotCleared": 12,
+  "dailyLimit": 5,
+  "timezone": "America/Edmonton",
+  "noBackfill": true,
+  "publishedQuizChanges": false,
+  "providerGate": "Use the authorized Grok subscription for final concepts, authored tasks and fresh separate independent review. Weekly quota currently blocks this work; a model menu or elapsed time is not successful inference. No paid-provider substitution or credit purchase.",
+  "releaseGate": "Exactly eight authored tasks, 2–3 sections, at least two supported formats; current catalog duplicate check; primary question-level sources or explicitly original cases; audience-fit verdict plus all existing factual/scoring/accessibility/build/deployment/analytics gates. No quota-based quality reduction.",
+  "rows": [
+    {
+      "localDate": "2026-10-24",
+      "categoryCode": "PC",
+      "originalTitleForTraceability": "Haunted House Comfort Map",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Preserve descriptive comfort choices, but use compelling room visuals and distinct real choices; remove cutesy type labels and repetitive mood prompts.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-24",
+      "categoryCode": "FS",
+      "originalTitleForTraceability": "Collaborative Ghost Story Roles",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Build a coherent original story with meaningful contributions. Role-card compliance alone is insufficient payoff.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-24",
+      "categoryCode": "SN",
+      "originalTitleForTraceability": "Bat Myth Grid",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Select surprising species-specific evidence and actual myth contrasts; avoid eight generic true/false claims or a study-protocol exam.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-24",
+      "categoryCode": "HC",
+      "originalTitleForTraceability": "Folklore Object Evidence",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Promising history/evidence hook; choose fascinating documented objects and reveal what each source can establish. Abstract evidence classification alone still needs substance.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-24",
+      "categoryCode": "FE",
+      "originalTitleForTraceability": "Candy Label Decoder",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace fictional serving arithmetic with researched Halloween food history or packaging surprises; use distinct facts rather than repeating one tradition.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-25",
+      "categoryCode": "MT",
+      "originalTitleForTraceability": "Haunted Trailer Misdirection",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Keep the substantive editing/misdirection premise. Each task must expose a different inference or reveal.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-25",
+      "categoryCode": "MU",
+      "originalTitleForTraceability": "Radio Haunting Cue Sheet",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Use real sound-story craft and an engaging original broadcast arc; avoid another arbitrary numeric cue key.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-25",
+      "categoryCode": "GT",
+      "originalTitleForTraceability": "Haunted Timezone Hotel",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace fixed-offset conversion with documented place/tradition/filming-location relationships. Keep genuine geographic substance.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-25",
+      "categoryCode": "SG",
+      "originalTitleForTraceability": "Four-Card Ghost Rules",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Rebuild for meaningful game choices and a satisfying outcome. Original rules are allowed; repeated legal-play lookup is the weak part.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-25",
+      "categoryCode": "LW",
+      "originalTitleForTraceability": "Wordplay Shadow Match",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Use precise, enjoyable verbal clues with a clear reveal; avoid abstract relation-key copying.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-26",
+      "categoryCode": "PC",
+      "originalTitleForTraceability": "Masquerade Secret Preferences",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Stronger preference premise. Retain meaningful tradeoffs and descriptive results, with no diagnosis or fake moral ranking.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-26",
+      "categoryCode": "FS",
+      "originalTitleForTraceability": "Ghost Story Connection Web",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace count/exclusion drills with a coherent character-and-event mystery or collaborative story payoff.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-26",
+      "categoryCode": "SN",
+      "originalTitleForTraceability": "Who Makes the Eerie Glow?",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Use specific eerie natural phenomena with supported explanations and observable distinctions. Avoid Latin-name memorization or presenting old events as current.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-26",
+      "categoryCode": "HC",
+      "originalTitleForTraceability": "A Ghost Tale, Retold",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Strong potential: a documented telling that unfolds across fragments. Avoid eight paraphrases of the same source-literacy rule.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-26",
+      "categoryCode": "FE",
+      "originalTitleForTraceability": "The Vanishing Candy Inventory",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace candy stock arithmetic with distinct researched food/celebration facts or genuine taste choices.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-27",
+      "categoryCode": "MT",
+      "originalTitleForTraceability": "Haunted Set Light-and-Shadow Lab",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Keep meaningful visual light/shadow craft; use actual authored diagrams that support the questions, rather than numeric substitutes.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-27",
+      "categoryCode": "MU",
+      "originalTitleForTraceability": "The Phantom Tone Illusion",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Make the auditory contrast itself worth hearing and answerable in text. Do not invent universal perception or hearing claims.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-27",
+      "categoryCode": "GT",
+      "originalTitleForTraceability": "Fog Pocket Street Grid",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace coordinate/closed-edge drills with geographic discovery, a real place-based source trail, or a coherent non-numeric map mystery.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-27",
+      "categoryCode": "SG",
+      "originalTitleForTraceability": "Werewolf Relay Tournament",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Rebuild around an engaging game or social decision. A seasonal noun on bracket advancement is insufficient.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-27",
+      "categoryCode": "LW",
+      "originalTitleForTraceability": "Pumpkin Patch Scale Riddle",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace symbolic weights and bins with a verbal, visual or evidence-based puzzle that earns its Halloween premise.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-28",
+      "categoryCode": "PC",
+      "originalTitleForTraceability": "Costume Improv Dilemmas",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Stronger human-agency premise. Use credible costume dilemmas and descriptive responses rather than caricatured types.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-28",
+      "categoryCode": "FS",
+      "originalTitleForTraceability": "Masquerade Seating Secrets",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Rebuild for social meaning or a coherent mystery; more exclusion matching alone repeats the current weakness.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-28",
+      "categoryCode": "SN",
+      "originalTitleForTraceability": "NASA's Spooky October Sky",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Use specific NASA objects/images or dated observations. Verify current timing/location and avoid calling expired events tonight.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-28",
+      "categoryCode": "HC",
+      "originalTitleForTraceability": "Halloween Postcard Detective",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Strong archival-discovery premise if original descriptions and verified metadata yield surprising stories; inspect item rights before any image reuse.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-28",
+      "categoryCode": "FE",
+      "originalTitleForTraceability": "Pumpkin Potluck Portion Puzzle",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace serving arithmetic with researched Halloween food customs, sensory choices or interesting preparation history; no health claims.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-29",
+      "categoryCode": "MT",
+      "originalTitleForTraceability": "Stop-Motion Pumpkin Workshop",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Keep stop-motion craft but show meaningful frame/story changes. Avoid returning to frame-rate calculations.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-29",
+      "categoryCode": "MU",
+      "originalTitleForTraceability": "Haunted Waltz Meter Lab",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Keep audible meter recognition and original audio/text equivalents; avoid frequency-ratio mathematics disguised as music.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-29",
+      "categoryCode": "GT",
+      "originalTitleForTraceability": "Pumpkin Patch Scale Map",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace fence/perimeter geometry with a genuinely geographic seasonal premise.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-29",
+      "categoryCode": "SG",
+      "originalTitleForTraceability": "Ghost Referee Score Review",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Rebuild the sports/game premise around judgment, visual play or a coherent puzzle. Repeated fictional score audits are insufficient.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-29",
+      "categoryCode": "LW",
+      "originalTitleForTraceability": "Fog Island Word Clues",
+      "auditVerdict": "PIVOT",
+      "approvedTreatment": "Keep verbal inference if clues are distinct and yield a real solution; avoid interchangeable supplied-rule exercises.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-30",
+      "categoryCode": "PC",
+      "originalTitleForTraceability": "Trick-or-Treat Tradeoffs",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Stronger value/preferences premise. Make choices consequential and nuanced; no moral ranking or psychometric claim.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-30",
+      "categoryCode": "FS",
+      "originalTitleForTraceability": "Costume Swap Constraint Network",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Rebuild the social experience beyond compatibility edges. Human motivations and a satisfying outcome must matter.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-30",
+      "categoryCode": "SN",
+      "originalTitleForTraceability": "Pumpkin Botany Beneath the Mask",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Strong natural-history potential with precise botanical facts and original diagrams. Avoid unsupported species keys.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-30",
+      "categoryCode": "HC",
+      "originalTitleForTraceability": "Folklore Claim vs Evidence",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Strong potential for revealing how a folklore claim changed across records. Do not reduce every item to the same quote-versus-inference label.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-30",
+      "categoryCode": "FE",
+      "originalTitleForTraceability": "The Midnight Candy Restock",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace budget/stock optimization with a distinct seasonal food premise or meaningful social choice.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-31",
+      "categoryCode": "MT",
+      "originalTitleForTraceability": "Ghost Broadcast Shot-Size Mystery",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Keep the film vocabulary/storyboard premise if the visual clue and resulting storytelling choice are interesting.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-31",
+      "categoryCode": "MU",
+      "originalTitleForTraceability": "Design Your Radio Ghost",
+      "auditVerdict": "KEEP",
+      "approvedTreatment": "Keep sound-palette preferences and accessible original audio; require distinct sonic choices and descriptive results.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-31",
+      "categoryCode": "GT",
+      "originalTitleForTraceability": "Midnight Longitude Hotel",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Replace fictional date-line conversions with documented geographic discovery or a non-numeric place-based mystery.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-31",
+      "categoryCode": "SG",
+      "originalTitleForTraceability": "Midnight Board-Game Escape",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "Rebuild the escape concept so discovery and choices carry the game. Action-point arithmetic is not enough.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    },
+    {
+      "localDate": "2026-10-31",
+      "categoryCode": "LW",
+      "originalTitleForTraceability": "The Last Ghost's Alibi",
+      "auditVerdict": "REBUILD",
+      "approvedTreatment": "A coherent ghost mystery or rich verbal puzzle is promising; a bare truth-table key with a seasonal title is not.",
+      "status": "awaiting-Grok-authored-brief-and-independent-review",
+      "idAllocated": false,
+      "playable": false
+    }
+  ],
+  "requiredBeforeAuthoringForEveryRow": [
+    "Reconcile this local date; resume rather than duplicate an unfinished batch.",
+    "Replace or refine the original hook according to the approved treatment.",
+    "Check concept and mental-task distinctness against the whole current catalog and this batch.",
+    "State why a visitor would want to finish and share; avoid decorative seasonal arithmetic."
+  ],
+  "adoptionVerification": {
+    "verifiedAt": "2026-10-24T00:27:43.174267+00:00",
+    "fullNpmRunVerify": "pass",
+    "testsPassed": 296,
+    "typecheck": "pass",
+    "lint": "pass with three existing img-element warnings",
+    "approvedTreatmentsMatchAuditExactly": true,
+    "protectedSourceContentLedgerAndMediaFilesUnchanged": 644,
+    "newQuizReleases": 0,
+    "newReplacementVideos": 0,
+    "newTikTokSubmissions": 0,
+    "independentCreativeReview": "not performed; Grok quota blocks scripts and fresh review"
+  }
+}

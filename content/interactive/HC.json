@@ -10430,5 +10430,335 @@
       { "id": "namle", "label": "NAMLE: Key Questions for Analyzing Media (supports asking about sources and evidence; not a single right reading)", "kind": "reference", "url": "https://namle.org/resources/key-questions-for-analyzing-media/" }
     ],
     "note": "The museum cafe, posts, people and observations are invented, and no real news is involved. Each answer follows the toy rules stated in its task. The reference supports the habit of asking where a claim comes from and what evidence stands behind it; it does not give one correct reading of any real post and does not show that this quiz improves media skills."
+  },
+  {
+    "id": "HC-27",
+    "slug": "objects-after-dark-irish-halloween",
+    "categoryId": "history-culture",
+    "title": "Objects After Dark: Irish Halloween",
+    "description": "A carved turnip, a mask, a needle and a bowl of clay each carried a different story. Explore specific Irish customs recorded by the National Museum of Ireland.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "At the Door"
+      },
+      {
+        "id": "s2",
+        "title": "Beyond the Lantern"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Before the familiar pumpkin lantern, which vegetable does the National Museum of Ireland describe people carving into scary lanterns?",
+        "explanation": "The museum describes carved turnips carried or set on windowsills, and presents the pumpkin version as an American development. This is a recorded regional practice, not one universal origin story.",
+        "sourceIds": [
+          "museum"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A turnip"
+          },
+          {
+            "id": "b",
+            "label": "A beetroot"
+          },
+          {
+            "id": "c",
+            "label": "A potato"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "In the museum's account of guising, what did visitors offer a household in exchange for a treat?",
+        "explanation": "Guisers performed for households. The exchange helps explain why a treat visit could involve an actual ‘trick’ or performance, rather than simply collecting food.",
+        "sourceIds": [
+          "museum"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Prayers for the household's dead"
+          },
+          {
+            "id": "b",
+            "label": "Entertainment while in disguise"
+          },
+          {
+            "id": "c",
+            "label": "A completed household chore"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each object to the practice recorded in the museum's account.",
+        "explanation": "The materials had different places in the customs: crosses hung for protection and luck, masks worn to frighten, and metal objects carried by some travellers as protection. These are recorded beliefs and practices, not proof of protective powers.",
+        "sourceIds": [
+          "museum"
+        ],
+        "left": [
+          {
+            "id": "cross",
+            "label": "Small wooden or straw cross"
+          },
+          {
+            "id": "mask",
+            "label": "Scary mask"
+          },
+          {
+            "id": "needle",
+            "label": "Steel needle carried on a journey"
+          }
+        ],
+        "right": [
+          {
+            "id": "wear",
+            "label": "Worn to frighten people"
+          },
+          {
+            "id": "travel",
+            "label": "Carried because of fears of spirit abduction"
+          },
+          {
+            "id": "hang",
+            "label": "Hung for protection and luck over the coming winter"
+          }
+        ],
+        "pairs": {
+          "cross": "hang",
+          "mask": "wear",
+          "needle": "travel"
+        }
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "grid",
+        "prompt": "In the recorded four-bowl fortune game, what did each bowl symbolise?",
+        "explanation": "These associations describe a historical fortune-telling game. Selecting an object does not predict anyone's future.",
+        "sourceIds": [
+          "museum"
+        ],
+        "context": "The museum describes a blindfolded selection among bowls containing water, a ring, clay and food.",
+        "cells": [
+          {
+            "id": "water",
+            "label": "Water",
+            "options": [
+              {
+                "id": "emigrate",
+                "label": "Emigration"
+              },
+              {
+                "id": "marry",
+                "label": "Marriage"
+              },
+              {
+                "id": "wealth",
+                "label": "Prosperity"
+              },
+              {
+                "id": "death",
+                "label": "Death"
+              }
+            ],
+            "correct": "emigrate"
+          },
+          {
+            "id": "ring",
+            "label": "Ring",
+            "options": [
+              {
+                "id": "emigrate",
+                "label": "Emigration"
+              },
+              {
+                "id": "marry",
+                "label": "Marriage"
+              },
+              {
+                "id": "wealth",
+                "label": "Prosperity"
+              },
+              {
+                "id": "death",
+                "label": "Death"
+              }
+            ],
+            "correct": "marry"
+          },
+          {
+            "id": "clay",
+            "label": "Clay",
+            "options": [
+              {
+                "id": "emigrate",
+                "label": "Emigration"
+              },
+              {
+                "id": "marry",
+                "label": "Marriage"
+              },
+              {
+                "id": "wealth",
+                "label": "Prosperity"
+              },
+              {
+                "id": "death",
+                "label": "Death"
+              }
+            ],
+            "correct": "death"
+          },
+          {
+            "id": "food",
+            "label": "Food",
+            "options": [
+              {
+                "id": "emigrate",
+                "label": "Emigration"
+              },
+              {
+                "id": "marry",
+                "label": "Marriage"
+              },
+              {
+                "id": "wealth",
+                "label": "Prosperity"
+              },
+              {
+                "id": "death",
+                "label": "Death"
+              }
+            ],
+            "correct": "wealth"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Why might a spade head or a spinning-wheel part appear under a pillow in the museum's Halloween account?",
+        "explanation": "The museum records a marriage-divination belief involving several household objects. The surprising object makes sense inside that belief, without making the belief a factual prediction.",
+        "sourceIds": [
+          "museum"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "To bring the household prosperity through a harvest ritual"
+          },
+          {
+            "id": "b",
+            "label": "To invite a dream visit from a departed relative"
+          },
+          {
+            "id": "c",
+            "label": "In the belief that it could prompt a dream of a future spouse"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What practical message did the museum associate with stories of the púca spoiling wild fruit after Halloween?",
+        "explanation": "The museum interprets the púca story as a way to discourage eating damaged fruit after the date. It is a recorded story and its social purpose, not modern food-safety guidance.",
+        "sourceIds": [
+          "museum"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Discouraging children from eating the damaged berries and apples after that date"
+          },
+          {
+            "id": "b",
+            "label": "Explaining how birds carry seeds between orchards"
+          },
+          {
+            "id": "c",
+            "label": "Predicting which trees would blossom first in spring"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "The museum compares older summer bonfires in western Ireland with growing Halloween bonfire traditions. What does that comparison help us notice?",
+        "explanation": "The account distinguishes regions and describes change. Treating a living tradition as one timeless, identical national script would erase that detail.",
+        "sourceIds": [
+          "museum"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Every Irish region always celebrated in an identical way"
+          },
+          {
+            "id": "b",
+            "label": "Traditions can differ by region and change over time"
+          },
+          {
+            "id": "c",
+            "label": "The account proves Halloween bonfires replaced all other fires"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which dish on the museum’s Halloween food list is mashed potato with cabbage and onions?",
+        "explanation": "The museum describes colcannon as mashed potato with cabbage and onions, alongside boxty (potato cakes) and báirín breac (cake). A seasonal celebration included a meal, not only sweets.",
+        "sourceIds": [
+          "museum"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Báirín breac"
+          },
+          {
+            "id": "b",
+            "label": "Boxty"
+          },
+          {
+            "id": "c",
+            "label": "Colcannon"
+          }
+        ],
+        "correct": "c"
+      }
+    ],
+    "sources": [
+      {
+        "id": "museum",
+        "label": "National Museum of Ireland: Halloween traditions, objects and recorded beliefs",
+        "kind": "reference",
+        "url": "https://source.museum.ie/en-IE/News/2023/Ghost-turnips,-pucas,-fortune-telling-and-evil-abd"
+      }
+    ],
+    "note": "A source-based look at recorded Irish customs, with regional and historical limits. Supernatural and fortune-telling beliefs are described as beliefs. No copied museum images or instructions to recreate risky practices.",
+    "playMode": "solo"
   }
 ]

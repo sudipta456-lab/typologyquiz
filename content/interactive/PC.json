@@ -9161,5 +9161,297 @@
     ],
     "note": "The café, items and plans are invented for a taste exercise. Results describe your choices in this quiz only; they are not a measure of repair skill, and the quiz makes no safety or environmental claims.",
     "playMode": "solo"
+  },
+  {
+    "id": "PC-27",
+    "slug": "your-kind-of-haunted-house",
+    "categoryId": "personality-choices",
+    "title": "Your Kind of Haunted House",
+    "description": "Build a fictional haunted-house evening through atmosphere choices, rankings and tradeoffs. See where your choices fall between welcoming and uncanny, and watching and participating.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "The Invitation"
+      },
+      {
+        "id": "s2",
+        "title": "Inside the House"
+      },
+      {
+        "id": "s3",
+        "title": "The Last Scene"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "You can set the mood of the first room. Which invitation would you rather walk into?",
+        "explanation": "These choices describe the atmosphere you prefer here, not how brave or anxious you are.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A warm lamp, an old armchair and a ghost who seems pleased to see you",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A familiar hallway with one impossible detail: every reflection arrives a moment late",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "rank",
+        "prompt": "Rank these ways to spend the first ten minutes, most appealing first.",
+        "explanation": "The order combines your taste for gentle or uncanny scenes with whether you watch or participate.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Listen beside the fire while a host tells a gentle ghost story",
+            "weights": [
+              -1,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Help a friendly ghost choose a final line for its story",
+            "weights": [
+              -1,
+              1
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Watch an unsettling scene unfold through a one-way stage window",
+            "weights": [
+              1,
+              -1
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Enter an uncanny scene and answer when the unseen host calls your name",
+            "weights": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A performer offers you a part in the next scene. Both versions tell the same story. Which do you choose?",
+        "explanation": "Watching a performance and taking a role are equally valid ways to enjoy it.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A seat with a clear view; let the performers carry the scene",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A small speaking role; let me help the scene happen",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "slider",
+        "prompt": "Where would you set the atmosphere for the next room?",
+        "explanation": "This is your chosen setting for this fictional visit, not a measure of fear tolerance.",
+        "sourceIds": [
+          "original"
+        ],
+        "lowLabel": "Warm, strange but welcoming",
+        "highLabel": "Familiar, but deeply uncanny",
+        "dimension": 0
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "For each moment, choose whether you would rather watch it or take part.",
+        "explanation": "You can reuse either approach. The choices contribute only to the participation scale.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "All scenes are fictional, staged and optional. Each has both a seated spectator version and a willing-participant version.",
+        "left": [
+          {
+            "id": "letter",
+            "label": "A ghost reads an unfinished letter"
+          },
+          {
+            "id": "portrait",
+            "label": "A portrait asks a visitor a question"
+          },
+          {
+            "id": "ending",
+            "label": "The cast invites someone to deliver the closing line"
+          }
+        ],
+        "right": [
+          {
+            "id": "watch",
+            "label": "Watch the scene"
+          },
+          {
+            "id": "join",
+            "label": "Take a part in it"
+          }
+        ],
+        "weights": {
+          "watch": [
+            0,
+            -1
+          ],
+          "join": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "You can keep only one of these two rooms in your evening. Which tradeoff would you take?",
+        "explanation": "This deliberately trades atmosphere against participation; it does not label one option more adventurous.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A welcoming room where you help a ghost finish a ritual of farewell",
+            "weights": [
+              -1,
+              1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "An uncanny room where you quietly watch a story you cannot quite explain",
+            "weights": [
+              1,
+              -1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "rank",
+        "prompt": "Rank these final scenes from the ending you would choose first to the one you would choose last.",
+        "explanation": "The ending preferences add another view of atmosphere and participation, without assigning a personality type.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Watch a ghost reunite with an old friend beside a bright window",
+            "weights": [
+              -1,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Join the farewell and help read the friend's name aloud",
+            "weights": [
+              -1,
+              1
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Watch a darkened stage empty itself while one shadow remains",
+            "weights": [
+              1,
+              -1
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Step into the last scene and answer the remaining shadow",
+            "weights": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "slider",
+        "prompt": "For a future visit like this, how much would you want to participate?",
+        "explanation": "Your two scales summarize choices made here. They are original entertainment descriptions, not a validated assessment.",
+        "sourceIds": [
+          "original"
+        ],
+        "lowLabel": "Mostly watch and listen",
+        "highLabel": "Often take a willing part",
+        "dimension": 1
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original TypologyQuiz fictional scenes, clues and descriptive mappings",
+        "kind": "original"
+      }
+    ],
+    "note": "Original fictional scenes and descriptive preference mappings. No diagnosis, fear-tolerance measurement or psychometric validation is claimed.",
+    "playMode": "solo",
+    "dimensions": [
+      {
+        "id": "atmosphere",
+        "low": "Welcoming",
+        "high": "Uncanny",
+        "description": "The atmosphere you selected for these fictional scenes."
+      },
+      {
+        "id": "participation",
+        "low": "Watch and listen",
+        "high": "Take part",
+        "description": "How much you chose to participate in these fictional scenes."
+      }
+    ]
   }
 ]

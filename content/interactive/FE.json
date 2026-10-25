@@ -11096,5 +11096,271 @@
       { "id": "case", "label": "Original TypologyQuiz scenarios and supplied puzzle data", "kind": "original" }
     ],
     "note": "The refill shop, containers, prices and deposits are invented for this puzzle. Every weight, rate and rule a task needs is shown in that task. This is supplied toy arithmetic, not guidance on law, food safety or the environment."
+  },
+  {
+    "id": "FE-27",
+    "slug": "candy-names-wrapper-secrets",
+    "categoryId": "food-everyday-life",
+    "title": "Candy Names and Wrapper Secrets",
+    "description": "Why ‘Chicken Feed’? What made a caramel a ‘dud’? Follow eight naming, border and packaging surprises behind familiar trick-or-treat sweets.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "What's in a Name?"
+      },
+      {
+        "id": "s2",
+        "title": "Under the Wrapper"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which familiar Halloween candy did Goelitz popularise under the name ‘Chicken Feed’?",
+        "explanation": "The Museum of the Cape Fear's card records the Chicken Feed name. The kernel-shaped sweet had an agricultural identity before the name most people recognise today.",
+        "sourceIds": [
+          "cape"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Malted milk balls"
+          },
+          {
+            "id": "b",
+            "label": "Candy corn"
+          },
+          {
+            "id": "c",
+            "label": "Caramel popcorn"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "According to the maker's account, what was the ‘dud’ in Milk Duds?",
+        "explanation": "Hershey's brand account says the maker could not make perfectly round balls. A manufacturing imperfection became the name rather than a reason to abandon the sweet.",
+        "sourceIds": [
+          "duds"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "An early batch that was too soft to wrap"
+          },
+          {
+            "id": "b",
+            "label": "A wrapper design that would not fold neatly"
+          },
+          {
+            "id": "c",
+            "label": "The attempt to make the caramels perfectly round"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "In Tootsie's company history, who inspired the Tootsie Roll name?",
+        "explanation": "The company says the name honoured the founder's daughter. This is an attributed company naming account; the quiz does not turn it into a claim about a disputed invention date.",
+        "sourceIds": [
+          "tootsie"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The founder's daughter"
+          },
+          {
+            "id": "b",
+            "label": "The founder's own childhood nickname"
+          },
+          {
+            "id": "c",
+            "label": "The neighbourhood of the first shop"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "A wafer-candy roll crosses the border. Match its product name in each market.",
+        "explanation": "The maker calls its wafer rolls Smarties in the United States and Rockets in Canada. This does not mean every Canadian product called Smarties is the same candy.",
+        "sourceIds": [
+          "smarties"
+        ],
+        "left": [
+          {
+            "id": "us",
+            "label": "The company's wafer roll in the United States"
+          },
+          {
+            "id": "ca",
+            "label": "The company's wafer roll in Canada"
+          }
+        ],
+        "right": [
+          {
+            "id": "rockets",
+            "label": "Rockets"
+          },
+          {
+            "id": "smarties",
+            "label": "Smarties"
+          }
+        ],
+        "pairs": {
+          "us": "smarties",
+          "ca": "rockets"
+        }
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Why did the little paper plume become useful on a Hershey's Kiss wrapper?",
+        "explanation": "The archive describes an earlier identification square hidden inside the foil. The visible plume let the brand identify its chocolate before opening, helping distinguish it from competitors.",
+        "sourceIds": [
+          "archive"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "It replaced the foil as the main seal"
+          },
+          {
+            "id": "b",
+            "label": "It made the brand visible before the candy was unwrapped"
+          },
+          {
+            "id": "c",
+            "label": "It displayed a production date for the buyer"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which shortage does the Hershey archive identify as the reason Kisses production paused during World War II?",
+        "explanation": "Packaging could determine whether the candy was produced at all. The archive says foil rationing halted production, which resumed in 1949.",
+        "sourceIds": [
+          "archive"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A shortage of sugar for the filling"
+          },
+          {
+            "id": "b",
+            "label": "A shortage of cocoa for the shell"
+          },
+          {
+            "id": "c",
+            "label": "Rationing of foil for the war effort"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A display pairs a 1950s Halloween carton with the red, green and silver Christmas foils introduced in 1962. Which caption is honest?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Two packaging layers from different periods, assembled for this display"
+          },
+          {
+            "id": "b",
+            "label": "An intact original 1950s Halloween retail pack"
+          },
+          {
+            "id": "c",
+            "label": "Proof that these coloured foils first appeared in Halloween packs"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Outer holiday packaging and each candy’s foil have separate histories. The archive puts Halloween packaging in the 1950s and these Christmas foil colours in 1962, so this pairing should not be labelled an intact 1950s pack.",
+        "sourceIds": [
+          "archive"
+        ],
+        "context": "This is an invented museum-display scenario using the archive’s documented packaging milestones. No actual surviving carton or sealed pack is claimed."
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What is the most accurate way to tell the origin of the Kisses name, according to the archive?",
+        "explanation": "The archive presents multiple explanations and explicitly preserves uncertainty. A memorable brand story can remain a hypothesis rather than a settled fact.",
+        "sourceIds": [
+          "archive"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Several explanations exist, but no one knows for sure"
+          },
+          {
+            "id": "b",
+            "label": "The machine-sound explanation is the documented, settled origin"
+          },
+          {
+            "id": "c",
+            "label": "The founder's sweetheart is the documented, settled inspiration"
+          }
+        ],
+        "correct": "a"
+      }
+    ],
+    "sources": [
+      {
+        "id": "cape",
+        "label": "Museum of the Cape Fear: Halloween trading cards, candy corn card",
+        "kind": "reference",
+        "url": "https://museumofthecapefear.ncdcr.gov/media/563/download?attachment="
+      },
+      {
+        "id": "duds",
+        "label": "Hersheyland: Milk Duds brand naming account",
+        "kind": "reference",
+        "url": "https://www.hersheyland.com/brands/milk-duds.html"
+      },
+      {
+        "id": "tootsie",
+        "label": "Tootsie: company history and naming account",
+        "kind": "reference",
+        "url": "https://tootsie.com/history/"
+      },
+      {
+        "id": "smarties",
+        "label": "Smarties Candy Company: Our Story and Canadian Rockets name",
+        "kind": "reference",
+        "url": "https://www.smarties.com/our-story/"
+      },
+      {
+        "id": "archive",
+        "label": "Hershey Community Archives: Kisses wrappers, names and packaging",
+        "kind": "reference",
+        "url": "https://hersheyarchives.org/encyclopedia/hersheys-kisses-chocolates/"
+      }
+    ],
+    "note": "Original questions using museum, archive and manufacturer accounts. Brand histories are attributed; uncertain naming stories remain uncertain. No product endorsement, copied packaging art or dietary advice.",
+    "playMode": "solo"
   }
 ]

@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 26,
+      "count": 27,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 26,
+      "count": 27,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 26,
+      "count": 27,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 26,
+      "count": 27,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 26,
+      "count": 27,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -5602,6 +5602,113 @@
       "category": "Logic & Wordplay",
       "category_code": "LW",
       "wave": "daily-2026-10-23",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "PC-27",
+      "title": "Your Kind of Haunted House",
+      "slug": "your-kind-of-haunted-house",
+      "kind": "preference",
+      "hook": "Build a fictional haunted-house evening through atmosphere choices, rankings and tradeoffs. See where your choices fall between welcoming and uncanny, and watching and participating.",
+      "rounds": [
+        "3 tasks: The Invitation",
+        "3 tasks: Inside the House",
+        "2 tasks: The Last Scene"
+      ],
+      "seed": "You can set the mood of the first room. Which invitation would you rather walk into?",
+      "payoff": "Descriptive atmosphere and participation scales",
+      "audience": "Teens and adults looking for substantive seasonal quizzes",
+      "evidence": "October 24 primary-source research and approved Halloween audience-fit treatments",
+      "dependency": "preference",
+      "production_note": "GPT authoring authorized by owner after Grok quota; independent review and all release gates required. Existing content is preserved.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-10-24",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "FS-27",
+      "title": "The Last Bow at Lantern Theatre",
+      "slug": "last-bow-lantern-theatre",
+      "kind": "cooperative",
+      "hook": "Share the archive of a fictional theatre, separate a costume’s maker from its wearer, and uncover the visitor’s name, permissions and unfinished recognition. Includes unscored creative turns.",
+      "rounds": [
+        "3 tasks: Open the Archive",
+        "3 tasks: The Missing Name",
+        "2 tasks: The Final Bow"
+      ],
+      "seed": "Before the group opens the theatre archive, choose who will read the first clue aloud.",
+      "payoff": "A shared fictional mystery and optional creative turns",
+      "audience": "Teens and adults looking for substantive seasonal quizzes",
+      "evidence": "October 24 primary-source research and approved Halloween audience-fit treatments",
+      "dependency": "social",
+      "production_note": "One shared cooperative attempt, using the existing solo player; take turns reading and discuss. No private multi-player comparison or generated story is promised. Independent GPT review required.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-10-24",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "SN-27",
+      "title": "Bats Beyond the Vampire Myth",
+      "slug": "bats-beyond-the-vampire-myth",
+      "kind": "knowledge",
+      "hook": "Meet a ground-listening hunter, a cactus pollinator and food-sharing vampire bats. Eight discoveries replace a single spooky stereotype with different animals and ways of life.",
+      "rounds": [
+        "4 tasks: After Dark",
+        "4 tasks: Unexpected Neighbours"
+      ],
+      "seed": "A bat uses echoes while flying at night. Which claim about its eyes should you reject?",
+      "payoff": "Eight discoveries with source-linked explanations",
+      "audience": "Teens and adults looking for substantive seasonal quizzes",
+      "evidence": "October 24 primary-source research and approved Halloween audience-fit treatments",
+      "dependency": "base",
+      "production_note": "GPT authoring authorized by owner after Grok quota; independent review and all release gates required. Existing content is preserved.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-10-24",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "HC-27",
+      "title": "Objects After Dark: Irish Halloween",
+      "slug": "objects-after-dark-irish-halloween",
+      "kind": "knowledge",
+      "hook": "A carved turnip, a mask, a needle and a bowl of clay each carried a different story. Explore specific Irish customs recorded by the National Museum of Ireland.",
+      "rounds": [
+        "4 tasks: At the Door",
+        "4 tasks: Beyond the Lantern"
+      ],
+      "seed": "Before the familiar pumpkin lantern, which vegetable does the National Museum of Ireland describe people carving into scary lanterns?",
+      "payoff": "Eight discoveries with source-linked explanations",
+      "audience": "Teens and adults looking for substantive seasonal quizzes",
+      "evidence": "October 24 primary-source research and approved Halloween audience-fit treatments",
+      "dependency": "base",
+      "production_note": "GPT authoring authorized by owner after Grok quota; independent review and all release gates required. Existing content is preserved.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-10-24",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "FE-27",
+      "title": "Candy Names and Wrapper Secrets",
+      "slug": "candy-names-wrapper-secrets",
+      "kind": "knowledge",
+      "hook": "Why ‘Chicken Feed’? What made a caramel a ‘dud’? Follow eight naming, border and packaging surprises behind familiar trick-or-treat sweets.",
+      "rounds": [
+        "4 tasks: What's in a Name?",
+        "4 tasks: Under the Wrapper"
+      ],
+      "seed": "Which familiar Halloween candy did Goelitz popularise under the name ‘Chicken Feed’?",
+      "payoff": "Eight discoveries with source-linked explanations",
+      "audience": "Teens and adults looking for substantive seasonal quizzes",
+      "evidence": "October 24 primary-source research and approved Halloween audience-fit treatments",
+      "dependency": "base",
+      "production_note": "GPT authoring authorized by owner after Grok quota; independent review and all release gates required. Existing content is preserved.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-10-24",
       "evidence_class": "seasonal"
     }
   ]

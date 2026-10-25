@@ -1,0 +1,418 @@
+{
+  "date": "2026-10-23",
+  "scope": "45plannedcalendarrows including5already-publishedhistoricalconcepts",
+  "counts": {
+    "HISTORICAL": 5,
+    "PIVOT": 10,
+    "REBUILD": 18,
+    "KEEP": 12
+  },
+  "limits": "KEEP is a stronger brief, not release clearance. Do not adopt repeated/off-category AI replacement suggestions. Published quizzes stay unchanged. No boredom/brand-impact metric is claimed.",
+  "rows": [
+    {
+      "date": "Oct 23",
+      "categoryCode": "MT",
+      "originalTitle": "Foley Booth Phantom Mix",
+      "verdict": "HISTORICAL",
+      "editorialReason": "Live timing arithmetic; preserve published bank and progress. Weak seasonal entertainment lead.",
+      "originalBrief": "**Foley Booth Phantom Mix** — synchronize supplied sound cues with original shadow-action descriptions.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 23",
+      "categoryCode": "MU",
+      "originalTitle": "Shadow Duet",
+      "verdict": "HISTORICAL",
+      "editorialReason": "Live frequency-ratio exercise; preserve bank. Music naming does not create musical discovery.",
+      "originalBrief": "**Shadow Duet** — connect melody lines using an explicitly supplied interval key; “ghost note” is fictional terminology.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 23",
+      "categoryCode": "GT",
+      "originalTitle": "Fog Island Contour Navigation",
+      "verdict": "HISTORICAL",
+      "editorialReason": "Live interpolation and invented fog thresholds; preserve bank. Navigation promise exceeds schematic experience.",
+      "originalBrief": "**Fog Island Contour Navigation** — interpret elevation bands on a fictional island diagram.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 23",
+      "categoryCode": "SG",
+      "originalTitle": "Pumpkin Patch Mini-Golf",
+      "verdict": "HISTORICAL",
+      "editorialReason": "Live repeated score/penalty rules; preserve bank. Limited play or agency.",
+      "originalBrief": "**Pumpkin Patch Mini-Golf** — apply printed course rules to shots, obstacles and scoring.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 23",
+      "categoryCode": "LW",
+      "originalTitle": "Ghost Alibi Street Grid",
+      "verdict": "HISTORICAL",
+      "editorialReason": "Actual live title is Ghost Alibi Clock Grid; independent rate problems replaced the planned witness mystery. Preserve published history.",
+      "originalBrief": "**Ghost Alibi Street Grid** — cross-link witnesses, locations and supplied times to isolate a contradiction.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 24",
+      "categoryCode": "PC",
+      "originalTitle": "Haunted House Comfort Map",
+      "verdict": "PIVOT",
+      "editorialReason": "Preserve descriptive comfort choices, but use compelling room visuals and distinct real choices; remove cutesy type labels and repetitive mood prompts.",
+      "originalBrief": "**Haunted House Comfort Map** — choose which fictional room atmospheres feel inviting.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 24",
+      "categoryCode": "FS",
+      "originalTitle": "Collaborative Ghost Story Roles",
+      "verdict": "PIVOT",
+      "editorialReason": "Build a coherent original story with meaningful contributions. Role-card compliance alone is insufficient payoff.",
+      "originalBrief": "**Collaborative Ghost Story Roles** — pass-and-play story beats must satisfy each supplied role card.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 24",
+      "categoryCode": "SN",
+      "originalTitle": "Bat Myth Grid",
+      "verdict": "REBUILD",
+      "editorialReason": "Select surprising species-specific evidence and actual myth contrasts; avoid eight generic true/false claims or a study-protocol exam.",
+      "originalBrief": "**Bat Myth Grid** — connect claims to species-specific evidence instead of spooky stereotypes.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 24",
+      "categoryCode": "HC",
+      "originalTitle": "Folklore Object Evidence",
+      "verdict": "KEEP",
+      "editorialReason": "Promising history/evidence hook; choose fascinating documented objects and reveal what each source can establish. Abstract evidence classification alone still needs substance.",
+      "originalBrief": "**Folklore Object Evidence** — distinguish a recorded object, a telling and a later interpretation.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 24",
+      "categoryCode": "FE",
+      "originalTitle": "Candy Label Decoder",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace fictional serving arithmetic with researched Halloween food history or packaging surprises; use distinct facts rather than repeating one tradition.",
+      "originalBrief": "**Candy Label Decoder** — read a fictional US-style panel and distinguish serving quantities from package quantities.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 25",
+      "categoryCode": "MT",
+      "originalTitle": "Haunted Trailer Misdirection",
+      "verdict": "KEEP",
+      "editorialReason": "Keep the substantive editing/misdirection premise. Each task must expose a different inference or reveal.",
+      "originalBrief": "**Haunted Trailer Misdirection** — reorder static storyboard descriptions and spot what the cut implies.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 25",
+      "categoryCode": "MU",
+      "originalTitle": "Radio Haunting Cue Sheet",
+      "verdict": "PIVOT",
+      "editorialReason": "Use real sound-story craft and an engaging original broadcast arc; avoid another arbitrary numeric cue key.",
+      "originalBrief": "**Radio Haunting Cue Sheet** — reconstruct a musical cue sequence from a fictional broadcast script.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 25",
+      "categoryCode": "GT",
+      "originalTitle": "Haunted Timezone Hotel",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace fixed-offset conversion with documented place/tradition/filming-location relationships. Keep genuine geographic substance.",
+      "originalBrief": "**Haunted Timezone Hotel** — convert simultaneous arrivals across supplied fixed offsets.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 25",
+      "categoryCode": "SG",
+      "originalTitle": "Four-Card Ghost Rules",
+      "verdict": "REBUILD",
+      "editorialReason": "Rebuild for meaningful game choices and a satisfying outcome. Original rules are allowed; repeated legal-play lookup is the weak part.",
+      "originalBrief": "**Four-Card Ghost Rules** — choose legal plays from an original miniature card game.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 25",
+      "categoryCode": "LW",
+      "originalTitle": "Wordplay Shadow Match",
+      "verdict": "PIVOT",
+      "editorialReason": "Use precise, enjoyable verbal clues with a clear reveal; avoid abstract relation-key copying.",
+      "originalBrief": "**Wordplay Shadow Match** — connect Halloween word pairs through a precise supplied relation key.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 26",
+      "categoryCode": "PC",
+      "originalTitle": "Masquerade Secret Preferences",
+      "verdict": "KEEP",
+      "editorialReason": "Stronger preference premise. Retain meaningful tradeoffs and descriptive results, with no diagnosis or fake moral ranking.",
+      "originalBrief": "**Masquerade Secret Preferences** — trade off spotlight, mystery, teamwork and improvisation in fictional roles.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 26",
+      "categoryCode": "FS",
+      "originalTitle": "Ghost Story Connection Web",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace count/exclusion drills with a coherent character-and-event mystery or collaborative story payoff.",
+      "originalBrief": "**Ghost Story Connection Web** — link characters to events with explicit counts and exclusions.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 26",
+      "categoryCode": "SN",
+      "originalTitle": "Who Makes the Eerie Glow?",
+      "verdict": "PIVOT",
+      "editorialReason": "Use specific eerie natural phenomena with supported explanations and observable distinctions. Avoid Latin-name memorization or presenting old events as current.",
+      "originalBrief": "**Who Makes the Eerie Glow?** — classify organisms and distinguish bioluminescence from other light effects.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 26",
+      "categoryCode": "HC",
+      "originalTitle": "A Ghost Tale, Retold",
+      "verdict": "KEEP",
+      "editorialReason": "Strong potential: a documented telling that unfolds across fragments. Avoid eight paraphrases of the same source-literacy rule.",
+      "originalBrief": "**A Ghost Tale, Retold** — order original paraphrased story evidence and distinguish what the telling actually says.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 26",
+      "categoryCode": "FE",
+      "originalTitle": "The Vanishing Candy Inventory",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace candy stock arithmetic with distinct researched food/celebration facts or genuine taste choices.",
+      "originalBrief": "**The Vanishing Candy Inventory** — reconcile deliveries, party bowls and remaining bags.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 27",
+      "categoryCode": "MT",
+      "originalTitle": "Haunted Set Light-and-Shadow Lab",
+      "verdict": "KEEP",
+      "editorialReason": "Keep meaningful visual light/shadow craft; use actual authored diagrams that support the questions, rather than numeric substitutes.",
+      "originalBrief": "**Haunted Set Light-and-Shadow Lab** — match labelled light directions to supplied shadow cues.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 27",
+      "categoryCode": "MU",
+      "originalTitle": "The Phantom Tone Illusion",
+      "verdict": "PIVOT",
+      "editorialReason": "Make the auditory contrast itself worth hearing and answerable in text. Do not invent universal perception or hearing claims.",
+      "originalBrief": "**The Phantom Tone Illusion** — identify sequences under a supplied auditory-pattern definition with an equivalent text key.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 27",
+      "categoryCode": "GT",
+      "originalTitle": "Fog Pocket Street Grid",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace coordinate/closed-edge drills with geographic discovery, a real place-based source trail, or a coherent non-numeric map mystery.",
+      "originalBrief": "**Fog Pocket Street Grid** — compare routes on a supplied coordinate grid with closed edges.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 27",
+      "categoryCode": "SG",
+      "originalTitle": "Werewolf Relay Tournament",
+      "verdict": "REBUILD",
+      "editorialReason": "Rebuild around an engaging game or social decision. A seasonal noun on bracket advancement is insufficient.",
+      "originalBrief": "**Werewolf Relay Tournament** — follow bracket advancement and relay constraints in a fictional competition.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 27",
+      "categoryCode": "LW",
+      "originalTitle": "Pumpkin Patch Scale Riddle",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace symbolic weights and bins with a verbal, visual or evidence-based puzzle that earns its Halloween premise.",
+      "originalBrief": "**Pumpkin Patch Scale Riddle** — apply symbolic weights and bin constraints rather than real pumpkin measurements.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 28",
+      "categoryCode": "PC",
+      "originalTitle": "Costume Improv Dilemmas",
+      "verdict": "KEEP",
+      "editorialReason": "Stronger human-agency premise. Use credible costume dilemmas and descriptive responses rather than caricatured types.",
+      "originalBrief": "**Costume Improv Dilemmas** — choose responses when a fictional costume plan changes unexpectedly.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 28",
+      "categoryCode": "FS",
+      "originalTitle": "Masquerade Seating Secrets",
+      "verdict": "REBUILD",
+      "editorialReason": "Rebuild for social meaning or a coherent mystery; more exclusion matching alone repeats the current weakness.",
+      "originalBrief": "**Masquerade Seating Secrets** — assign guests and roles under supplied pairing exclusions.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 28",
+      "categoryCode": "SN",
+      "originalTitle": "NASA's Spooky October Sky",
+      "verdict": "PIVOT",
+      "editorialReason": "Use specific NASA objects/images or dated observations. Verify current timing/location and avoid calling expired events tonight.",
+      "originalBrief": "**NASA's Spooky October Sky** — match current October objects and events to NASA's descriptions.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 28",
+      "categoryCode": "HC",
+      "originalTitle": "Halloween Postcard Detective",
+      "verdict": "KEEP",
+      "editorialReason": "Strong archival-discovery premise if original descriptions and verified metadata yield surprising stories; inspect item rights before any image reuse.",
+      "originalBrief": "**Halloween Postcard Detective** — match original descriptions to verified catalog date/place/creator fields.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 28",
+      "categoryCode": "FE",
+      "originalTitle": "Pumpkin Potluck Portion Puzzle",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace serving arithmetic with researched Halloween food customs, sensory choices or interesting preparation history; no health claims.",
+      "originalBrief": "**Pumpkin Potluck Portion Puzzle** — use supplied dish diagrams and guest counts to solve serving arithmetic.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 29",
+      "categoryCode": "MT",
+      "originalTitle": "Stop-Motion Pumpkin Workshop",
+      "verdict": "PIVOT",
+      "editorialReason": "Keep stop-motion craft but show meaningful frame/story changes. Avoid returning to frame-rate calculations.",
+      "originalBrief": "**Stop-Motion Pumpkin Workshop** — reconstruct a consistent loop from original frame descriptions.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 29",
+      "categoryCode": "MU",
+      "originalTitle": "Haunted Waltz Meter Lab",
+      "verdict": "PIVOT",
+      "editorialReason": "Keep audible meter recognition and original audio/text equivalents; avoid frequency-ratio mathematics disguised as music.",
+      "originalBrief": "**Haunted Waltz Meter Lab** — distinguish three-beat and four-beat patterns through original tone groups and text.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 29",
+      "categoryCode": "GT",
+      "originalTitle": "Pumpkin Patch Scale Map",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace fence/perimeter geometry with a genuinely geographic seasonal premise.",
+      "originalBrief": "**Pumpkin Patch Scale Map** — compare drawn distances, perimeters and supplied fence lengths.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 29",
+      "categoryCode": "SG",
+      "originalTitle": "Ghost Referee Score Review",
+      "verdict": "REBUILD",
+      "editorialReason": "Rebuild the sports/game premise around judgment, visual play or a coherent puzzle. Repeated fictional score audits are insufficient.",
+      "originalBrief": "**Ghost Referee Score Review** — audit play cards against an original scoring and tie-break rulebook.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 29",
+      "categoryCode": "LW",
+      "originalTitle": "Fog Island Word Clues",
+      "verdict": "PIVOT",
+      "editorialReason": "Keep verbal inference if clues are distinct and yield a real solution; avoid interchangeable supplied-rule exercises.",
+      "originalBrief": "**Fog Island Word Clues** — distinguish literal directions from word relations using supplied clue rules.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 30",
+      "categoryCode": "PC",
+      "originalTitle": "Trick-or-Treat Tradeoffs",
+      "verdict": "KEEP",
+      "editorialReason": "Stronger value/preferences premise. Make choices consequential and nuanced; no moral ranking or psychometric claim.",
+      "originalBrief": "**Trick-or-Treat Tradeoffs** — prioritize fairness, surprise, variety and saving a little for later.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 30",
+      "categoryCode": "FS",
+      "originalTitle": "Costume Swap Constraint Network",
+      "verdict": "REBUILD",
+      "editorialReason": "Rebuild the social experience beyond compatibility edges. Human motivations and a satisfying outcome must matter.",
+      "originalBrief": "**Costume Swap Constraint Network** — connect costume cards to multiple compatible requests.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 30",
+      "categoryCode": "SN",
+      "originalTitle": "Pumpkin Botany Beneath the Mask",
+      "verdict": "KEEP",
+      "editorialReason": "Strong natural-history potential with precise botanical facts and original diagrams. Avoid unsupported species keys.",
+      "originalBrief": "**Pumpkin Botany Beneath the Mask** — connect fruit, flower, seed and vine evidence with verified botanical distinctions.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 30",
+      "categoryCode": "HC",
+      "originalTitle": "Folklore Claim vs Evidence",
+      "verdict": "KEEP",
+      "editorialReason": "Strong potential for revealing how a folklore claim changed across records. Do not reduce every item to the same quote-versus-inference label.",
+      "originalBrief": "**Folklore Claim vs Evidence** — separate archival quotation, interpretation and unsupported inference in original cases.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 30",
+      "categoryCode": "FE",
+      "originalTitle": "The Midnight Candy Restock",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace budget/stock optimization with a distinct seasonal food premise or meaningful social choice.",
+      "originalBrief": "**The Midnight Candy Restock** — find a restock set satisfying a fictional budget and inventory limits.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 31",
+      "categoryCode": "MT",
+      "originalTitle": "Ghost Broadcast Shot-Size Mystery",
+      "verdict": "KEEP",
+      "editorialReason": "Keep the film vocabulary/storyboard premise if the visual clue and resulting storytelling choice are interesting.",
+      "originalBrief": "**Ghost Broadcast Shot-Size Mystery** — match original storyboard shot descriptions to camera instructions.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 31",
+      "categoryCode": "MU",
+      "originalTitle": "Design Your Radio Ghost",
+      "verdict": "KEEP",
+      "editorialReason": "Keep sound-palette preferences and accessible original audio; require distinct sonic choices and descriptive results.",
+      "originalBrief": "**Design Your Radio Ghost** — hear or read original tone recipes and choose a preferred spooky sound palette.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 31",
+      "categoryCode": "GT",
+      "originalTitle": "Midnight Longitude Hotel",
+      "verdict": "REBUILD",
+      "editorialReason": "Replace fictional date-line conversions with documented geographic discovery or a non-numeric place-based mystery.",
+      "originalBrief": "**Midnight Longitude Hotel** — cross an explicitly fictional dateline and track calendar-day changes.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 31",
+      "categoryCode": "SG",
+      "originalTitle": "Midnight Board-Game Escape",
+      "verdict": "REBUILD",
+      "editorialReason": "Rebuild the escape concept so discovery and choices carry the game. Action-point arithmetic is not enough.",
+      "originalBrief": "**Midnight Board-Game Escape** — spend a fixed action-point budget to satisfy a unique exit condition.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    },
+    {
+      "date": "Oct 31",
+      "categoryCode": "LW",
+      "originalTitle": "The Last Ghost's Alibi",
+      "verdict": "REBUILD",
+      "editorialReason": "A coherent ghost mystery or rich verbal puzzle is promising; a bare truth-table key with a seasonal title is not.",
+      "originalBrief": "**The Last Ghost's Alibi** — resolve a symbolic statement grid using an explicit truth-rule key.",
+      "source": "Grok independent calendar audit plus coordinator checks; editorial judgment, not audience evidence"
+    }
+  ]
+}

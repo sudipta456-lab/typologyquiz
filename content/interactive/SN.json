@@ -10549,5 +10549,278 @@
       { "id": "case", "label": "Original TypologyQuiz scratch logs and toy lab rules", "kind": "original" }
     ],
     "note": "The scratch logs, samples and lab rules are invented for practice, and the scale facts come from the USGS reference. This is not a field identification tool or a physical experiment, so do not try to scratch real specimens based on it."
+  },
+  {
+    "id": "SN-27",
+    "slug": "bats-beyond-the-vampire-myth",
+    "categoryId": "science-nature",
+    "title": "Bats Beyond the Vampire Myth",
+    "description": "Meet a ground-listening hunter, a cactus pollinator and food-sharing vampire bats. Eight discoveries replace a single spooky stereotype with different animals and ways of life.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "After Dark"
+      },
+      {
+        "id": "s2",
+        "title": "Unexpected Neighbours"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A bat uses echoes while flying at night. Which claim about its eyes should you reject?",
+        "explanation": "Bats are not blind. Echolocation does not replace eyes with an absence of vision; sensory use varies among species.",
+        "sourceIds": [
+          "saguaro"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Using echolocation means the animal is blind"
+          },
+          {
+            "id": "b",
+            "label": "Vision and echolocation can both help a bat"
+          },
+          {
+            "id": "c",
+            "label": "Bats have eyes as well as other senses"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A pallid bat is hunting something moving on the ground. What helps it locate that prey?",
+        "explanation": "Pallid bats listen for prey-generated sounds. The White Sands account distinguishes that passive listening from echolocation used for orientation and avoiding obstacles.",
+        "sourceIds": [
+          "pallid"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Echoes from calls aimed at the prey"
+          },
+          {
+            "id": "b",
+            "label": "Sounds made by the prey itself"
+          },
+          {
+            "id": "c",
+            "label": "Vibrations detected through its feet while perched"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Put this lesser long-nosed bat's flower visit in a causal sequence.",
+        "explanation": "The bat feeds, picks up pollen, and carries it to another flower. A nectar meal can also move pollen between plants.",
+        "sourceIds": [
+          "lesser"
+        ],
+        "items": [
+          {
+            "id": "next",
+            "label": "Pollen on the bat reaches another flower during a later visit"
+          },
+          {
+            "id": "feed",
+            "label": "The bat reaches into a flower to drink nectar"
+          },
+          {
+            "id": "dust",
+            "label": "Its head picks up pollen while feeding"
+          }
+        ],
+        "correctOrder": [
+          "feed",
+          "dust",
+          "next"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "In Carter and colleagues' study, what tended to precede new food-sharing between unfamiliar female common vampire bats?",
+        "explanation": "The study followed introduced female common vampire bats in captivity. Increasing reciprocal grooming preceded first food donations; it does not establish a rule for every bat or for human friendships.",
+        "sourceIds": [
+          "study"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Increasingly synchronised flight departures"
+          },
+          {
+            "id": "b",
+            "label": "A growing similarity in contact calls"
+          },
+          {
+            "id": "c",
+            "label": "Increasing grooming between the pair"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "After a lesser long-nosed bat eats cactus fruit, what can happen to the seeds?",
+        "explanation": "The NPS account describes seeds passing through intact. Fruit eating and pollination are different ways bats can help plants.",
+        "sourceIds": [
+          "lesser"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "They are all digested along with the pulp"
+          },
+          {
+            "id": "b",
+            "label": "Some pass through intact, helping disperse the plant"
+          },
+          {
+            "id": "c",
+            "label": "They are carried to the next flower in the bat's cheeks"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which additional use of lesser long-nosed bats’ day roosts does the cited NPS account specifically describe?",
+        "explanation": "Day roosts can also be maternity sites. The NPS account describes repeated use of suitable refuges, making the roost part of the bats' life cycle.",
+        "sourceIds": [
+          "lesser"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Maternity sites where bats give birth and raise pups"
+          },
+          {
+            "id": "b",
+            "label": "Winter hibernation sites for the whole colony"
+          },
+          {
+            "id": "c",
+            "label": "Mating territories held by individual males"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "In its Saguaro account, which other animal’s former home does the NPS say can shelter big brown bats?",
+        "explanation": "The Saguaro account records big brown bats roosting in woodpecker holes as well as human-made structures. One animal's former cavity can become another animal's shelter.",
+        "sourceIds": [
+          "saguaro"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A kangaroo-rat burrow beneath the soil"
+          },
+          {
+            "id": "b",
+            "label": "An abandoned woodrat midden"
+          },
+          {
+            "id": "c",
+            "label": "A woodpecker hole in a saguaro"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "These bats do not all have the same dinner. Match each to the food described in the park accounts.",
+        "explanation": "Big brown bats eat many beetles; Mexican long-tongued bats feed on nectar and pollen; pallid bats take ground-dwelling arthropods including scorpions. Common names are clues to different lives, not Latin-name test questions.",
+        "sourceIds": [
+          "saguaro",
+          "pallid"
+        ],
+        "left": [
+          {
+            "id": "brown",
+            "label": "Big brown bat"
+          },
+          {
+            "id": "tongue",
+            "label": "Mexican long-tongued bat"
+          },
+          {
+            "id": "pallid",
+            "label": "Pallid bat"
+          }
+        ],
+        "right": [
+          {
+            "id": "nectar",
+            "label": "Nectar and pollen from flowers"
+          },
+          {
+            "id": "scorpion",
+            "label": "Ground-dwelling prey, including scorpions"
+          },
+          {
+            "id": "beetles",
+            "label": "A diet described as mostly beetles"
+          }
+        ],
+        "pairs": {
+          "brown": "beetles",
+          "tongue": "nectar",
+          "pallid": "scorpion"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "saguaro",
+        "label": "National Park Service: bats of Saguaro",
+        "kind": "reference",
+        "url": "https://www.nps.gov/sagu/learn/nature/bats.htm"
+      },
+      {
+        "id": "lesser",
+        "label": "National Park Service: lesser long-nosed bat",
+        "kind": "reference",
+        "url": "https://www.nps.gov/articles/lesser-long-nose-bat.htm"
+      },
+      {
+        "id": "pallid",
+        "label": "National Park Service: pallid bat at White Sands",
+        "kind": "reference",
+        "url": "https://home.nps.gov/whsa/learn/nature/pallid-bat.htm"
+      },
+      {
+        "id": "study",
+        "label": "Carter et al. (2020): development of new food-sharing relationships",
+        "kind": "reference",
+        "url": "https://striresearch.si.edu/sensory-and-cognitive-ecology-lab/wp-content/uploads/sites/115/2022/06/2020_carter_et_al_curr_biol_-_development_of_new_food_sharing_relationships.pdf"
+      }
+    ],
+    "note": "Species and study limits matter. The grooming finding concerns unfamiliar female common vampire bats in a captive study. This quiz gives no animal-handling or health advice.",
+    "playMode": "solo"
   }
 ]

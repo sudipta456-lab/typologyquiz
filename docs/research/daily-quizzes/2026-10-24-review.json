@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-24",
+  "provider": "GPT; owner explicitly authorized use gpt after Grok quota",
+  "independentReviewer": "Fresh ephemeral GPT-6-astra CLI sessions with read-only repository access; different from authoring context",
+  "status": "pass",
+  "scope": "Forty authored tasks, all29 scored tasks independently solved, preference mappings, source support, audience-fit and append-only integration; focused re-reviews after corrections",
+  "limitations": "AI-assisted independent review; no human participant study, psychometric validation, measured engagement or all-catalog quality audit. Browser verification is a separate gate.",
+  "initialFindings": [
+    "FS private pass-and-play engine did not match a shared-attempt promise",
+    "FS late tasks repeated the missing-credit fact",
+    "SN q6/q7 distractors too implausible",
+    "FE q7 was mechanical date sorting"
+  ],
+  "closure": [
+    "FS uses cooperative kind and existing solo player: one shared attempt or solo; no engine change",
+    "FS now advances chronology, maker/wearer attribution, permission and unknown intentions, counter-evidence and authored recognition",
+    "SN roost options use plausible competing functions and source-bound wording; independent final delta PASS",
+    "FE tests an honestly labelled mixed-period box/foil display; HC final task adds colcannon discovery"
+  ],
+  "preservedOldQuizAndBriefCount": 260,
+  "quizzes": [
+    {
+      "id": "PC-27",
+      "slug": "your-kind-of-haunted-house",
+      "authoredTasks": 8,
+      "formats": [
+        "choice",
+        "match",
+        "rank",
+        "slider"
+      ],
+      "sha256": "d85c5457d9d2137170644069496d559f041a0bf7c894caab929def4da9d677eb"
+    },
+    {
+      "id": "FS-27",
+      "slug": "last-bow-lantern-theatre",
+      "authoredTasks": 8,
+      "formats": [
+        "choice",
+        "grid",
+        "match",
+        "order",
+        "reflection"
+      ],
+      "sha256": "1d15320208b35a357e8ba9e5139e5b4dc85c3709ca8eb85bb838a615c9427bb9"
+    },
+    {
+      "id": "SN-27",
+      "slug": "bats-beyond-the-vampire-myth",
+      "authoredTasks": 8,
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ],
+      "sha256": "af16b50b36ff1a8ffa52d864ceb83faf500e282c3d0f3178eda982ec39265edb"
+    },
+    {
+      "id": "HC-27",
+      "slug": "objects-after-dark-irish-halloween",
+      "authoredTasks": 8,
+      "formats": [
+        "choice",
+        "grid",
+        "match"
+      ],
+      "sha256": "28a66dd1440c77d97629cc5891ace0e9ebbcf1f2e757f368b88b8afc2ca77c4b"
+    },
+    {
+      "id": "FE-27",
+      "slug": "candy-names-wrapper-secrets",
+      "authoredTasks": 8,
+      "formats": [
+        "choice",
+        "match"
+      ],
+      "sha256": "b6879cde662465c1f3a7339f16554598f7e1d96ac5241cc3926d8c2cd13f346a"
+    }
+  ],
+  "reviewTextFiles": [
+    "2026-10-24-review-initial.md",
+    "2026-10-24-review-rereview.md",
+    "2026-10-24-review-final.md"
+  ]
+}
