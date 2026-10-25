@@ -10271,5 +10271,396 @@
       }
     ],
     "note": "Original toy model of interval ratios and compatibility. Audio symbolic tones with exact text alternative. Not real music theory instruction. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
+  },
+  {
+    "id": "MU-27",
+    "categoryId": "music",
+    "slug": "unfinished-sign-off-music-mystery",
+    "title": "The Unfinished Sign-Off",
+    "description": "Follow an original three-note tune from a broadcast fragment to a music box—and an unexpected reply. Listen to two short sketches, uncover the source and shape the final arrangement.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 8,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "A Tune Without an Ending"
+      },
+      {
+        "id": "s2",
+        "title": "Find Its Source"
+      },
+      {
+        "id": "s3",
+        "title": "The Reply"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "prompt": "What musical fingerprint can you recognize when this tune returns?",
+        "context": "Original fictional scene. In “The Unfinished Sign-Off,” the opening broadcast uses only the first two notes of a tune. The complete three-note theme below is a listener reference, not a claim that Ren has already found its ending. Play this soft synthetic sketch or read its full text equivalent. Which observable fingerprint will let you recognize the theme when it returns?",
+        "explanation": "Each phrase begins on 330 Hz, rises to 440 Hz, then falls to 392 Hz, still above the starting pitch. The last note lasts longer than either of the first two. The same phrase repeats, giving the story a recognizable musical fingerprint.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "audio",
+        "options": [
+          {
+            "id": "a",
+            "label": "Three notes descending, with the first held longest."
+          },
+          {
+            "id": "b",
+            "label": "Three equal notes, with the middle held longest."
+          },
+          {
+            "id": "c",
+            "label": "A rise, then a smaller fall, with the last note held longer."
+          },
+          {
+            "id": "d",
+            "label": "A rise that continues upward on the held last note."
+          }
+        ],
+        "correct": "c",
+        "tones": [
+          {
+            "frequency": 330,
+            "duration": 0.3,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.07
+          },
+          {
+            "frequency": 440,
+            "duration": 0.3,
+            "delay": 0.5,
+            "waveform": "sine",
+            "gain": 0.07
+          },
+          {
+            "frequency": 392,
+            "duration": 0.65,
+            "delay": 1,
+            "waveform": "sine",
+            "gain": 0.07
+          },
+          {
+            "frequency": 330,
+            "duration": 0.3,
+            "delay": 2.2,
+            "waveform": "sine",
+            "gain": 0.07
+          },
+          {
+            "frequency": 440,
+            "duration": 0.3,
+            "delay": 2.7,
+            "waveform": "sine",
+            "gain": 0.07
+          },
+          {
+            "frequency": 392,
+            "duration": 0.65,
+            "delay": 3.2,
+            "waveform": "sine",
+            "gain": 0.07
+          }
+        ],
+        "transcript": "Two identical, soft three-note phrases, with no accompaniment or voice. Each phrase starts on a middle note, rises to a higher note, then falls partway back: the last note is below the second but above the first. The last note is held longer than either of the first two. Short quiet gaps separate the notes; a longer silent gap separates the two phrases. Both phrases use the same rounded synthetic sine tone."
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "prompt": "Which arrangement lets the listener notice the fragment hiding behind Ren’s announcement?",
+        "context": "Original fictional scene. Story score: Ren is reading a station sign-off. The music under the words uses the tune’s first two notes, then leaves its final note missing. The production brief requires the announcement to remain clear and that missing ending to be audible in a gap after the words. This is a written cue plan; the preview does not synthesize speech.",
+        "explanation": "The quiet fragment preserves the speech, and the exposed gap makes its missing final note noticeable. A complete repeat removes the very absence the scene needs; replacing or sustaining the music loses the recognizable fragment.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Repeat the complete tune loudly throughout the announcement."
+          },
+          {
+            "id": "b",
+            "label": "Keep the fragment quiet under the words, then leave space where its final note would be."
+          },
+          {
+            "id": "c",
+            "label": "Remove the fragment and fill every speech gap with a different tune."
+          },
+          {
+            "id": "d",
+            "label": "Hold one continuous note across the announcement and its ending."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "prompt": "When the second version arrives, what has changed and what has stayed?",
+        "context": "Original fictional scene. Ren follows the tune into the station’s storage room. This preview compares two arrangements of that same original phrase. Listen to both or read the complete equivalent. The lower sustained layer belongs only to the first version.",
+        "explanation": "The pitches, note lengths and spacing of the three-note phrase stay the same. First it sits above a low sine tone; later it plays alone in triangle tones. That preserves recognition while stripping away the surrounding layer.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "audio",
+        "options": [
+          {
+            "id": "a",
+            "label": "The second phrase reverses its note order and keeps the lower layer."
+          },
+          {
+            "id": "b",
+            "label": "The note order stays, but the second phrase is alone and has a different tone colour."
+          },
+          {
+            "id": "c",
+            "label": "The second phrase keeps only the first two notes and omits the long ending."
+          },
+          {
+            "id": "d",
+            "label": "The second phrase is the same sound with an added low layer."
+          }
+        ],
+        "correct": "b",
+        "tones": [
+          {
+            "frequency": 165,
+            "duration": 2.0,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.025
+          },
+          {
+            "frequency": 330,
+            "duration": 0.3,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.07
+          },
+          {
+            "frequency": 440,
+            "duration": 0.3,
+            "delay": 0.5,
+            "waveform": "sine",
+            "gain": 0.07
+          },
+          {
+            "frequency": 392,
+            "duration": 0.65,
+            "delay": 1,
+            "waveform": "sine",
+            "gain": 0.07
+          },
+          {
+            "frequency": 330,
+            "duration": 0.3,
+            "delay": 2.6,
+            "waveform": "triangle",
+            "gain": 0.07
+          },
+          {
+            "frequency": 440,
+            "duration": 0.3,
+            "delay": 3.1,
+            "waveform": "triangle",
+            "gain": 0.07
+          },
+          {
+            "frequency": 392,
+            "duration": 0.65,
+            "delay": 3.6,
+            "waveform": "triangle",
+            "gain": 0.07
+          }
+        ],
+        "transcript": "First version: a quiet, steady low tone accompanies a higher three-note phrase. The phrase rises, then falls partway back; its last note is held longest. The low tone continues briefly after that phrase ends, and then all sound stops. After a silent gap, the identical phrase returns alone: same note order, note lengths and spacing, but a different synthetic tone colour (triangle instead of sine). No low accompaniment plays under the second phrase. No speech or physical object sounds are simulated."
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "prompt": "What does Ren’s stop-and-restart test support about the tune’s source?",
+        "context": "Original fictional scene. The station’s playback deck is muted. A separate live microphone in the storage room is still audible. With the small box lid open, that microphone carries the complete phrase. Ren closes the lid mid-phrase: the tune stops. Reopening the lid brings the phrase back from its beginning. No other device or control changes during this test.",
+        "explanation": "The repeated connection between the lid action and the live tune, while station playback is muted, supports the box as a source in this test. It does not identify every other sound in the story, predict all later arrangements, or make a claim about a supernatural cause.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Every musical sound heard anywhere in the story must come from the box."
+          },
+          {
+            "id": "b",
+            "label": "The station playback deck is the only source heard during this test."
+          },
+          {
+            "id": "c",
+            "label": "The box is contributing the tune to the live room microphone during the test."
+          },
+          {
+            "id": "d",
+            "label": "The tune’s last note will always be absent in every later arrangement."
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "prompt": "Classify these rehearsal sketches by what they preserve or change in the theme.",
+        "context": "Original fictional score. Ren’s signature has three notes: up, then partway down, with its last note held longest. In this arrangement brief, moving the entire melody higher or lower and changing its backing are allowed; removing the ending or changing that relative contour changes what the listener has to recognize. The sketches below are written descriptions, not extra audio clips.",
+        "explanation": "Moving all notes together preserves the relative shape and rhythm: a whole-theme variation, not an exact replay of the same pitches. The second sketch omits the ending. The third changes the final pitch’s relation to the start. Backing and register changes are therefore different from losing or rewriting part of this particular theme.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "match",
+        "left": [
+          {
+            "id": "a",
+            "label": "Every melody note moves lower by the same amount; the contour and rhythm stay, with a low backing layer added."
+          },
+          {
+            "id": "b",
+            "label": "The first two notes return, followed by silence where the held ending would be."
+          },
+          {
+            "id": "c",
+            "label": "Three notes remain, but the last drops below the starting note instead of landing between the first two."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Changed melodic contour"
+          },
+          {
+            "id": "b",
+            "label": "Unfinished fragment"
+          },
+          {
+            "id": "c",
+            "label": "Complete theme in a new register"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "b",
+          "c": "a"
+        }
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "prompt": "Reconstruct the recording session from the envelope, box and reel states.",
+        "context": "Original fictional scene. Four fragments come from the same session. The only box key starts in one sealed envelope, which is opened once and never resealed. One blank reel becomes the NEW SIGN-OFF recording; it is never erased, replaced or relabelled. The recorder does not play an unrecorded reel. Use the state changes in the cards, not their scrambled list order.",
+        "explanation": "The sealed key envelope must precede its opened state beside the open box. The blank reel precedes the completed recording, and only that recorded reel can supply the final playback. These changing objects force d → b → c → a, so the arrangement’s completion becomes something the story actually records before it uses it.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "order",
+        "items": [
+          {
+            "id": "a",
+            "label": "Box lid closed; the deck plays the reel marked NEW SIGN-OFF."
+          },
+          {
+            "id": "b",
+            "label": "Envelope open, key in the box lock, lid raised; the reel in the recorder is blank."
+          },
+          {
+            "id": "c",
+            "label": "The recorder has just finished; its reel now bears NEW SIGN-OFF, and the box remains open."
+          },
+          {
+            "id": "d",
+            "label": "Ren finds the sealed key envelope while the old unfinished sign-off is playing."
+          }
+        ],
+        "correctOrder": [
+          "d",
+          "b",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "prompt": "The ending must let us hear a reply, not just a thickened version of the tune. Which score does that?",
+        "context": "Original fictional scene. Final scene: with the box now closed, Ren plays the recorded phrase. In the original story, a second phrase then sounds from the empty storage room. Keep the first phrase recognizable and make the second entrance separately noticeable. Neither cue may cover the other.",
+        "explanation": "A completed phrase, silence and a separate answer make two events available to the listener. Simultaneous or overlapping versions can instead read as one layered arrangement. The score supports this particular reply structure without claiming everyone will find it frightening.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Start both versions together at the same pitch and pace."
+          },
+          {
+            "id": "b",
+            "label": "Play the recording, leave a clear quiet gap, then let the room’s phrase answer alone."
+          },
+          {
+            "id": "c",
+            "label": "Keep a continuous low note and omit both three-note phrases."
+          },
+          {
+            "id": "d",
+            "label": "Play the second phrase only beneath the longest note of the first."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "prompt": "Which explanation of the late reply can Ren rule out from this two-track record?",
+        "context": "Original fictional scene. The final recording keeps two working inputs separate: the station deck’s direct output and the live storage-room microphone. Neither track is muted, edited or overdubbed. The station track records its complete sign-off, then stays silent. After that, a matching phrase appears on the room-microphone track while the station track remains silent. No late camera view identifies the room’s sound source.",
+        "explanation": "If the same deck had replayed through its direct output, that working, unmuted track would also contain the reply. It does not. The room track establishes that sound reached its microphone, but does not distinguish a spare player, the box or another live source. The ending leaves an actual source question open instead of merely repeating a mysterious caption.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "A second player somewhere in the room supplied the reply."
+          },
+          {
+            "id": "b",
+            "label": "The music box began playing again through an unseen action."
+          },
+          {
+            "id": "c",
+            "label": "The same station deck played the reply through its recorded direct output."
+          },
+          {
+            "id": "d",
+            "label": "Another live source in the room produced a matching phrase."
+          }
+        ],
+        "correct": "c"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original TypologyQuiz story, supplied evidence and puzzle constraints"
+      }
+    ],
+    "note": "Original music and fictional broadcast story. Two optional, user-triggered synthetic previews use soft sine/triangle tones, not instruments, Foley or voices; complete text equivalents supply the same evidence. No musical training, calculation or hearing is required. Correct answers follow observable sound or explicit story constraints, not universal feelings."
   }
 ]

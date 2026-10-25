@@ -10053,5 +10053,299 @@
       }
     ],
     "note": "All scenarios original fiction/synthetic. Invented frame clock. Audio symbolic with exact text alternative. No real production advice. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
+  },
+  {
+    "id": "MT-27",
+    "categoryId": "movies-tv",
+    "slug": "glasshouse-trailer-misdirection",
+    "title": "The Glasshouse Cut: Who Looks Guilty?",
+    "description": "Restore missing shots and displaced sound in an original haunted trailer. A caretaker looks guilty, a rescue emerges, and one final image refuses to be explained.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 8,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "The Accusation"
+      },
+      {
+        "id": "s2",
+        "title": "Restore the Scene"
+      },
+      {
+        "id": "s3",
+        "title": "An Honest Mystery"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "prompt": "What accusation does this cut invite that the two shots do not establish?",
+        "context": "Original fictional scene. The Glasshouse After Closing: a volunteer, Imani, and caretaker Ellis are packing a closed conservatory. Trailer shot A: Ellis looks toward a glass door. Shot B: Imani recoils as a tall shadow crosses frosted glass. There is no shared view showing what Ellis sees or where he stands relative to Imani.",
+        "explanation": "A followed by B invites a connection between Ellis and the shadow, but the cut supplies no view connecting them in space. Imani’s reaction and Ellis’s look are visible; the accusation is an inference the trailer encourages.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ellis is the figure frightening Imani."
+          },
+          {
+            "id": "b",
+            "label": "Imani notices a shadow on the glass."
+          },
+          {
+            "id": "c",
+            "label": "Ellis looks toward a door."
+          },
+          {
+            "id": "d",
+            "label": "The trailer shows two people in separate shots."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "prompt": "Which detail in the restored wide shot most directly changes the meaning of Ellis’s hand?",
+        "context": "Original fictional scene. A close crop shows Ellis’s hand pressed against the door edge, with the handle and lower doorway out of view. Cut against Imani pulling, it makes him look like an obstacle. In the restored wide shot a fallen metal plant stand lies across the door’s bottom edge. Imani pulls from inside while Ellis pushes from outside.",
+        "explanation": "The stand explains the obstruction, and the wide shot shows both people trying to open the door. The crop suggested that Ellis held it shut; the restored action instead makes him a helper.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "The door is made of glass."
+          },
+          {
+            "id": "b",
+            "label": "The plant stand prevents the door from swinging."
+          },
+          {
+            "id": "c",
+            "label": "Ellis wears a dark coat."
+          },
+          {
+            "id": "d",
+            "label": "Imani stands inside the building."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "prompt": "Which recovered shot would establish a physical source for the silhouette, rather than just another coincidence?",
+        "context": "Original fictional scene. A roof vent rattles and a moving silhouette crosses the frosted door as Imani recoils. The intervening shot is missing. The continuity report places the following candidate inserts at that same moment; it does not identify the silhouette’s source. Which insert actually connects an object, the light and the image on the glass?",
+        "explanation": "Only the continuous view supplies the whole projection path and ties its movement together. A coat moving somewhere nearby is a possible lead, but coincidence in time does not locate it between this lamp and this glass. The other inserts show reactions or a different doorway.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "A coat sways in a close-up, but neither the lamp nor the glass is visible."
+          },
+          {
+            "id": "b",
+            "label": "Ellis reaches toward a different door in the corridor."
+          },
+          {
+            "id": "c",
+            "label": "One continuous view shows the coat between lamp and glass, its swinging edge tracing the silhouette’s movement."
+          },
+          {
+            "id": "d",
+            "label": "Imani turns her head in the opposite direction."
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "prompt": "Restore these three sounds to the footage where they were recorded.",
+        "context": "Original fictional scene. Sound report: GREENHOUSE TAKE has a loose latch rattling at the jammed door. PACKING TAKE has Imani say “Don’t leave it here” while pointing to an unlabelled parcel. STREET TAKE has a bicycle brake squeal as a cyclist stops outside. The trailer moved all three under Ellis approaching the glass.",
+        "explanation": "The rattle belongs to the door, the line concerns a parcel, and the squeal comes from the street. Moving them under Ellis assembles a threatening encounter that none of the original recordings contains.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "match",
+        "left": [
+          {
+            "id": "a",
+            "label": "The rattle under Ellis’s close-up"
+          },
+          {
+            "id": "b",
+            "label": "“Don’t leave it here” under his approach"
+          },
+          {
+            "id": "c",
+            "label": "The squeal under his raised hand"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "A cyclist stopping outside"
+          },
+          {
+            "id": "b",
+            "label": "A parcel being packed"
+          },
+          {
+            "id": "c",
+            "label": "The latch at the jammed door"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "b",
+          "c": "a"
+        }
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "prompt": "Reconstruct the four fragments from the changing object states.",
+        "context": "Original fictional scene. These fragments belong to one continuous event, which starts with the parcel inside and the door shut. Once opened, the door is not shut again. The stand is not put back into an earlier position between fragments, and the parcel is placed outside only once. Use what is upright, fallen, cleared or open in the cards; their list order is scrambled.",
+        "explanation": "An upright stand being caught by the coat precedes a fallen stand blocking the shut door. Clearing that fallen stand comes next; the open doorway and parcel outside come after the obstruction is removed. The object states force c → b → d → a without a timestamp or a narrated sequence.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "order",
+        "items": [
+          {
+            "id": "a",
+            "label": "Door open; stand set upright by the wall; Imani puts the parcel outside."
+          },
+          {
+            "id": "b",
+            "label": "Door shut; the fallen stand crosses its bottom edge; Imani pulls."
+          },
+          {
+            "id": "c",
+            "label": "Door shut; the stand is upright as the swinging coat catches it."
+          },
+          {
+            "id": "d",
+            "label": "Door still shut; Ellis lifts the fallen stand clear of its swing."
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "b",
+          "d",
+          "a"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "prompt": "Which recorded detail prevents the earlier lamp-and-coat mechanism from explaining the new image?",
+        "context": "Original fictional scene. A later locked-camera shot shows a hand-shaped patch forming on the glass. The earlier silhouette had been cast by a coat intercepting the work lamp. All four observations below are recorded in this later shot. Which removes an ingredient that the earlier mechanism needed?",
+        "explanation": "The earlier projection needed light from the work lamp, which is now unpowered. The people’s positions, the glass and the parcel do not by themselves remove that light source. This rules out reusing that specific explanation; it does not establish what made the new mark or prove a ghost.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ellis and Imani are both outside."
+          },
+          {
+            "id": "b",
+            "label": "The mark is on the same glass door."
+          },
+          {
+            "id": "c",
+            "label": "The work lamp is unplugged and its light is off."
+          },
+          {
+            "id": "d",
+            "label": "The parcel is resting on the outside bench."
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "prompt": "Which single edit repairs this misleading cut while retaining every shot and every spoken word?",
+        "context": "Original fictional scene. The revised trailer already shows the jam and rescue honestly. It then shows Imani pointing at the parcel as she says “Don’t leave it here.” The picture cuts to the forming hand mark before she reaches “here,” so her sentence now seems to refer to the mark. All shots and the original line must remain. Choose a repair to the picture–sound relationship, not a new explanation of the mark.",
+        "explanation": "Holding the pointing shot through the full line keeps its referent visible; the condensation can still follow as the last image. Cutting earlier strengthens the false connection, rewriting the line changes the supplied words, and volume alone does not restore its subject. Suspense remains in the unexplained image rather than a misassigned warning.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cut away from the parcel even earlier, leaving more of the line over the mark."
+          },
+          {
+            "id": "b",
+            "label": "Hold the pointing-at-parcel shot until the line ends, then cut to the mark."
+          },
+          {
+            "id": "c",
+            "label": "Keep the cut, but replace “here” with “on the glass.”"
+          },
+          {
+            "id": "d",
+            "label": "Keep the cut and lower the line’s volume while it continues over the mark."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "prompt": "Choose the last line for your version of the trailer.",
+        "context": "Original fictional scene. Your restored edit shows that the coat made the shadow, the fallen stand jammed the door, and Ellis helped free it. The final condensation remains unexplained. All four captions fit that footage; choose the voice you prefer. This creative choice is ungraded and does not change the story or the earlier answers.",
+        "explanation": "All four captions preserve the rescue and the unexplained mark. They offer different styles: an image, a question, a contrast or a spare observation. This is your creative finish, so it is shown in review but does not count toward accuracy.",
+        "sourceIds": [
+          "original"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "“The door opens. The glass keeps a secret.”"
+          },
+          {
+            "id": "b",
+            "label": "“Someone helped her out. What stayed behind?”"
+          },
+          {
+            "id": "c",
+            "label": "“The rescue is over. The mystery isn’t.”"
+          },
+          {
+            "id": "d",
+            "label": "“Two people outside. One unanswered mark.”"
+          }
+        ],
+        "unscored": true
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original TypologyQuiz story, supplied evidence and puzzle constraints"
+      }
+    ],
+    "note": "Original non-graphic fiction presented as text storyboards, not actual film footage. All eight tasks use supplied evidence; no film clips, images or external craft definitions. Cuts can suggest a cause without establishing it. Seven evidence tasks are scored; the final caption choice is ungraded, with no better taste or personality claim."
   }
 ]

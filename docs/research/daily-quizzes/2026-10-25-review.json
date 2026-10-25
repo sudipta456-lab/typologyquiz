@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-25",
+  "status": "pass",
+  "provider": "Owner-authorized GPT subscription",
+  "independentReview": "Fresh ephemeral GPT-6-astra read-only CLI sessions, separate from authoring and coordinator corrections",
+  "initialReview": "2026-10-25-review-initial.md",
+  "finalReview": "2026-10-25-review-final.md",
+  "initialVerdict": "revise",
+  "finalVerdict": "pass",
+  "blockingFindingsClosed": [
+    "MT3 causal evidence instead of narrated cause",
+    "MT5 object-state reconstruction with unique initial boundaries",
+    "MT6 counterevidence against prior mechanism",
+    "MT7 evidence-preserving picture/sound repair",
+    "MU4 source inference from stop/restart observations",
+    "MU5 register/fragment/contour distinctions",
+    "MU6 media-state chronology",
+    "MU8 two-track source exclusion"
+  ],
+  "otherCorrections": [
+    "MT2 plausible crop description",
+    "MU1 listener-reference continuity",
+    "LW1 explicit sentence boundaries after mobile whitespace finding",
+    "GT6 event-date precision",
+    "MT final caption ungraded",
+    "Plain-language full audio equivalents"
+  ],
+  "reviewedPacketSHA256": "3f9276f137aafac37b5229751be760d26a350c8b6289d970a39a16d1319e814e",
+  "finalPacketSHA256": "1418fc2dc9e9d9809b4cf4b3e6d5351aa1f01cfc1823d4d4dc4908b232d488b6",
+  "postReviewMetadataCorrection": {
+    "quiz": "MT-27",
+    "field": "brief.production_note",
+    "before": "Text storyboards only. All eight keys concern evidence or an explicit editing brief, not a universal best creative choice. No inherited FS27 plot or footage. Independent editorial review required before integration.",
+    "after": "Text storyboards only. All seven scored keys concern evidence or an explicit editing brief, not a universal best creative choice. No inherited FS27 plot or footage. Independent editorial review required before integration.",
+    "onlyPacketDelta": true,
+    "allQuizContentUnchanged": true,
+    "reason": "Independent re-review nonblocking correction"
+  },
+  "preservedPriorQuizObjects": 265,
+  "preservedPriorBriefs": 265,
+  "allPriorRawObjectBytesAlsoIndependentlyChecked": true,
+  "totalTasks": 40,
+  "scoredTasks": 39,
+  "ungradedCreativeTasks": 1,
+  "quizzes": [
+    {
+      "id": "MT-27",
+      "slug": "glasshouse-trailer-misdirection",
+      "category": "movies-tv",
+      "title": "The Glasshouse Cut: Who Looks Guilty?",
+      "kind": "logic",
+      "sections": 3,
+      "tasks": 8,
+      "scored": 7,
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ],
+      "sha256": "f27e3e3a24ea9187798684ae22f4aea6002edb8ea8f38e4e57eabb26c1ee2f35",
+      "briefSha256": "bcbb1a98906b18ff7f595064d9585296d52936a112602304218822c5b4402320"
+    },
+    {
+      "id": "MU-27",
+      "slug": "unfinished-sign-off-music-mystery",
+      "category": "music",
+      "title": "The Unfinished Sign-Off",
+      "kind": "logic",
+      "sections": 3,
+      "tasks": 8,
+      "scored": 8,
+      "formats": [
+        "audio",
+        "choice",
+        "match",
+        "order"
+      ],
+      "sha256": "e64da75fb4643bb163fa21d05329e129b7dac7bdc1ab9ebe33449d235ed9a9f6",
+      "briefSha256": "306a7f1dec53e7a4e764ee797f70694050135dfd74ccde2d230a397947f27de0"
+    },
+    {
+      "id": "GT-27",
+      "slug": "spooky-movies-real-places",
+      "category": "geography-travel",
+      "title": "Spooky Movies, Real Places",
+      "kind": "knowledge",
+      "sections": 3,
+      "tasks": 8,
+      "scored": 8,
+      "formats": [
+        "choice",
+        "match"
+      ],
+      "sha256": "4135e77fb89fed2d5b2e26f0259ea3c4eb9e9d076e7957785edffec659b4f6d9",
+      "briefSha256": "38bc123019d7030d40b24ab62654f361cc065b34212d208f97d4b59d008fb910"
+    },
+    {
+      "id": "SG-27",
+      "slug": "night-archive-last-atlas",
+      "category": "sports-games",
+      "title": "The Night Archive: Save the Last Atlas",
+      "kind": "cooperative",
+      "sections": 3,
+      "tasks": 8,
+      "scored": 8,
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ],
+      "sha256": "57c6d2d30982bc885f67c473ab472ff9c76a57a7dbeff0c75a08c6ac22a1ce7a",
+      "briefSha256": "17350d4745224639cc1165a66002f04d6b9a93e81a38678d9879801d4a6512ae"
+    },
+    {
+      "id": "LW-27",
+      "slug": "cabinet-of-the-borrowed-voice",
+      "category": "logic-wordplay",
+      "title": "The Cabinet of the Borrowed Voice",
+      "kind": "logic",
+      "sections": 3,
+      "tasks": 8,
+      "scored": 8,
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ],
+      "sha256": "57881a3069bfd90adcf67c56397b6ef32bebbd1331e363e683d524f93edd2612",
+      "briefSha256": "adca257f9eec48520a4fa200cb3c3f9d26b442357b7a3a5f9166ad73877b34cc"
+    }
+  ],
+  "limits": "AI-assisted independent review, not a human audience study, measured engagement, psychometric validation or exhaustive accessibility/device audit. Browser and production verification are separate receipts."
+}

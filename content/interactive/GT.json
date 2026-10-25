@@ -10527,5 +10527,327 @@
       }
     ],
     "note": "Original toy model. Schematic rect zones not real maps. Contour basics paraphrased from public USGS resources. No real outdoor or navigation advice. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
+  },
+  {
+    "id": "GT-27",
+    "slug": "spooky-movies-real-places",
+    "categoryId": "geography-travel",
+    "title": "Spooky Movies, Real Places",
+    "description": "Find the Massachusetts cemetery outside Salem, the Canadian town playing Maine, and Oregon and Pennsylvania places behind familiar spooky films. Eight discoveries connect screen memories to real geography.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Salem and Its Neighbour"
+      },
+      {
+        "id": "s2",
+        "title": "Towns Playing Other Towns"
+      },
+      {
+        "id": "s3",
+        "title": "Mountains and Main Streets"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Allison’s grand house in Hocus Pocus has a real exterior. Which place belongs on the map?",
+        "context": "Think of the building shown from outside, not every room seen in the film.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ropes Mansion — Salem, Massachusetts"
+          },
+          {
+            "id": "b",
+            "label": "Ropes Mansion — Marblehead, Massachusetts"
+          },
+          {
+            "id": "c",
+            "label": "Pioneer Village — Salem, Massachusetts"
+          },
+          {
+            "id": "d",
+            "label": "Old Burial Hill — Marblehead, Massachusetts"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Destination Salem identifies Ropes Mansion in Salem as the exterior of Allison’s house. That pins a specific screen image to a real building without treating its interiors as the film’s interiors.",
+        "sourceIds": [
+          "salem"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "The daytime cemetery scene takes the production beyond Salem. Where does that pin move?",
+        "context": "In Hocus Pocus, Max meets unfriendly classmates in a cemetery by daylight. Destination Salem distinguishes this filming site from its Salem locations.",
+        "options": [
+          {
+            "id": "a",
+            "label": "To Pioneer Village within Salem"
+          },
+          {
+            "id": "b",
+            "label": "To Old Burial Hill in nearby Marblehead, Massachusetts"
+          },
+          {
+            "id": "c",
+            "label": "To Ropes Mansion’s grounds in Salem"
+          },
+          {
+            "id": "d",
+            "label": "To Old Burial Hill in Port Hope, Ontario"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The daylight cemetery footage was made at Old Burial Hill in Marblehead. It is a nearby Massachusetts location, but a different town from Salem.",
+        "sourceIds": [
+          "salem"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which Salem location supplied the opening village scenes rather than Allison’s house or the cemetery?",
+        "context": "Follow the film back to its opening, before the modern-day story.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Old Burial Hill"
+          },
+          {
+            "id": "b",
+            "label": "Ropes Mansion"
+          },
+          {
+            "id": "c",
+            "label": "Pioneer Village"
+          },
+          {
+            "id": "d",
+            "label": "Old Town Hall"
+          }
+        ],
+        "correct": "c",
+        "explanation": "Pioneer Village supplied the opening scenes. Together with the mansion and Marblehead cemetery, it shows how separate real locations contribute different pieces of the screen setting.",
+        "sourceIds": [
+          "salem"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Derry, Maine is the screen address in IT. Where did Port Hope’s part of that screen town actually stand?",
+        "context": "The municipality’s film guide covers the IT films and identifies Port Hope as the real filming town behind these Derry locations.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Maine, United States"
+          },
+          {
+            "id": "b",
+            "label": "Massachusetts, United States"
+          },
+          {
+            "id": "c",
+            "label": "British Columbia, Canada"
+          },
+          {
+            "id": "d",
+            "label": "Ontario, Canada"
+          }
+        ],
+        "correct": "d",
+        "explanation": "Port Hope is in Ontario, Canada. Its streets doubled for fictional Derry, Maine; the fictional address does not move the filming town across the international border.",
+        "sourceIds": [
+          "porthope"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "One Port Hope building can play more than one part. Match these real spaces to their screen roles.",
+        "context": "Use the municipality’s IT location guide: the building, its lobby and a separate civic building have distinct roles. These are filming relationships, not claims that the fictional businesses exist.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Capitol Theatre"
+          },
+          {
+            "id": "b",
+            "label": "Capitol Theatre lobby"
+          },
+          {
+            "id": "c",
+            "label": "Port Hope Visitors Centre"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Derry Chamber of Commerce"
+          },
+          {
+            "id": "b",
+            "label": "Derry movie theatre"
+          },
+          {
+            "id": "c",
+            "label": "Arcade used by the Losers’ Club"
+          }
+        ],
+        "pairs": {
+          "a": "b",
+          "b": "c",
+          "c": "a"
+        },
+        "explanation": "The Capitol supplied the movie theatre, while its lobby supplied the arcade. The Visitors Centre doubled as the Chamber of Commerce. A screen neighbourhood can therefore split one real building into two destinations and give another building a new identity.",
+        "sourceIds": [
+          "porthope"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "The Halloweentown Recreational Center leads to an actual auditorium. Which location is it?",
+        "context": "A Columbia County Museum notice for the October 17–18, 2026 event identifies the auditorium used in the movie. Here it is evidence of past filming, not an invitation to that now-past event.",
+        "options": [
+          {
+            "id": "a",
+            "label": "John Gumm Building — St. Helens, Oregon"
+          },
+          {
+            "id": "b",
+            "label": "Capitol Theatre — Port Hope, Ontario"
+          },
+          {
+            "id": "c",
+            "label": "Colonial Theatre — Phoenixville, Pennsylvania"
+          },
+          {
+            "id": "d",
+            "label": "Old Town Hall — Salem, Massachusetts"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The county notice identifies the John Gumm Building auditorium in St. Helens, Oregon, as the Halloweentown Recreational Center. The pin is in the Oregon city, not at a mountain suggested by its name.",
+        "sourceIds": [
+          "columbia"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Stay in Oregon, but leave St. Helens for a mountain setting. Which real-place/screen-role pair fits Timberline?",
+        "context": "Combine the lodge’s own history with its account of The Shining. The question concerns documented exterior footage.",
+        "options": [
+          {
+            "id": "a",
+            "label": "South slope of Mount Hood — exterior views establishing the fictional Overlook Hotel"
+          },
+          {
+            "id": "b",
+            "label": "Mount Hood — every interior room and corridor of the Overlook"
+          },
+          {
+            "id": "c",
+            "label": "St. Helens — the Halloweentown Recreational Center auditorium"
+          },
+          {
+            "id": "d",
+            "label": "Mount Hood — the daytime cemetery in Hocus Pocus"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Timberline stands on Mount Hood’s south slope in Oregon. Its official film account identifies exterior shots used for the fictional Overlook. That joins a real mountain location to a screen hotel without assigning the interior sets to it.",
+        "sourceIds": [
+          "timberline-history",
+          "timberline-film",
+          "columbia"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "The theatre escape in the 1958 Blob was filmed inside and outside a real cinema. Which map pin finds it?",
+        "context": "The venue’s own 2022 press release describes the filming. Its festival dates and offers are historical, not current travel arrangements.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Capitol Theatre — Port Hope, Ontario"
+          },
+          {
+            "id": "b",
+            "label": "Colonial Theatre — Phoenixville, Pennsylvania"
+          },
+          {
+            "id": "c",
+            "label": "John Gumm auditorium — St. Helens, Oregon"
+          },
+          {
+            "id": "d",
+            "label": "Colonial Theatre — Salem, Massachusetts"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The Colonial Theatre in Phoenixville, Pennsylvania, supplied both inside and outside footage for the scene. Unlike a location used only for an exterior establishing view, this cinema’s connection crosses its own front doors.",
+        "sourceIds": [
+          "colonial"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "salem",
+        "label": "Destination Salem — Hocus Pocus filming locations",
+        "kind": "reference",
+        "url": "https://www.salem.org/hocus-pocus-filming-locations-salem-ma/"
+      },
+      {
+        "id": "porthope",
+        "label": "Municipality of Port Hope — IT walking tour",
+        "kind": "reference",
+        "url": "https://www.visitporthope.ca/en/plan-your-stay/it-walking-tour.aspx"
+      },
+      {
+        "id": "columbia",
+        "label": "Columbia County — October 17–18, 2026 John Gumm museum event notice (historical filming evidence)",
+        "kind": "reference",
+        "url": "https://www.columbiacountyor.gov/events/101840/"
+      },
+      {
+        "id": "timberline-history",
+        "label": "Timberline Lodge — Our History",
+        "kind": "reference",
+        "url": "https://timberlinelodge.com/discover/our-history/"
+      },
+      {
+        "id": "timberline-film",
+        "label": "Timberline Lodge — The Shining (exterior filming statement)",
+        "kind": "reference",
+        "url": "https://timberlinelodge.com/events/the-shining/"
+      },
+      {
+        "id": "colonial",
+        "label": "Colonial Theatre — June 28, 2022 Blobfest media release, page 1",
+        "kind": "reference",
+        "url": "https://thecolonialtheatre.com/wp-content/uploads/Media-Release-2022-Blobfest.pdf"
+      }
+    ],
+    "note": "Text-only filming-place discoveries, with no franchise images, audio or clips. Locations and historical filming roles are sourced; no current access, tour, booking, opening-hours or real-haunting claim is made."
   }
 ]

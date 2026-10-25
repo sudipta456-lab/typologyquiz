@@ -10073,5 +10073,303 @@
       }
     ],
     "note": "All original fiction. Exact inclusive boundaries stated in each task. Independent cases. No real timekeeping or safety claims. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
+  },
+  {
+    "id": "LW-27",
+    "slug": "cabinet-of-the-borrowed-voice",
+    "categoryId": "logic-wordplay",
+    "title": "The Cabinet of the Borrowed Voice",
+    "description": "An inscription opens a drawer; a whispered sentence hides a borrowing record. Follow eight precise word clues to discover who borrowed the cabinet’s voice—and return it.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 8,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Make the Cabinet Answer"
+      },
+      {
+        "id": "s2",
+        "title": "Read the Borrowing Record"
+      },
+      {
+        "id": "s3",
+        "title": "Return What Is Missing"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "prompt": "Which drawer does the cabinet’s six-sentence inscription name?",
+        "context": "Original word-cabinet puzzle. The cabinet’s voice has vanished, but its door keeps answering knocks. A brass note says: “Take the first letter of each numbered sentence below, ignoring the numbers; keep their order.” (1) Someone borrowed what I cannot spare. (2) I have their promise written here. (3) Locked drawers remember every debt. (4) Even the mirror owes me something. (5) No answer leaves these wooden lips. (6) Tonight, bring back what once was mine.",
+        "explanation": "The six sentence beginnings are S, I, L, E, N, T: SILENT. The drawer’s name is also the cabinet’s predicament. LISTEN uses the same letters, but this instruction keeps them in order. Numbered boundaries make the clue usable even when text wraps differently on a small screen.",
+        "sourceIds": [
+          "cabinet"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "LISTEN"
+          },
+          {
+            "id": "b",
+            "label": "SILENT"
+          },
+          {
+            "id": "c",
+            "label": "STOLEN"
+          },
+          {
+            "id": "d",
+            "label": "INSIDE"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "prompt": "The SILENT drawer has a sliding-letter latch. Which new label releases it?",
+        "context": "Original word-cabinet puzzle. Its six tiles are S I L E N T. Use every tile exactly once. The latch’s final two spaces are engraved E N, in that order; the first four are blank. Choose the label that fits both conditions. The instruction on the opened latch will tell you what to do at the speaking tube.",
+        "explanation": "All four candidates reuse the six letters, so the letter supply alone does not decide. Only LISTEN ends E N. Sliding to that label opens the tube: the silent cabinet is asking to be heard.",
+        "sourceIds": [
+          "cabinet"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "ENLIST"
+          },
+          {
+            "id": "b",
+            "label": "TINSEL"
+          },
+          {
+            "id": "c",
+            "label": "LISTEN"
+          },
+          {
+            "id": "d",
+            "label": "INLETS"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "prompt": "What drawer-name is concealed in the tube’s sentence?",
+        "context": "Original word-cabinet puzzle. The tube whispers: “Thin voices travel farther here.” A label says: “Find the seven-letter drawer-name across the first space. Keep consecutive letters in order; ignore spaces and capitals.” Candidate drawer-names are printed below.",
+        "explanation": "thIN VOICEs contains INVOICE across the space: I N V O I C E. VOICING, INSIDER and INVOLVE are not consecutive strings across that space. The hidden drawer holds the borrowing record.",
+        "sourceIds": [
+          "cabinet"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "INVOICE"
+          },
+          {
+            "id": "b",
+            "label": "VOICING"
+          },
+          {
+            "id": "c",
+            "label": "INSIDER"
+          },
+          {
+            "id": "d",
+            "label": "INVOLVE"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "prompt": "The record is stamped UNRETURNED. What command appears when you peel away its two detachable seals?",
+        "context": "Original word-cabinet puzzle. The stamp reads UNRETURNED. Only the prefix seal UN and the suffix seal ED peel off. Remove both seals, preserve every other letter and do not rearrange. The exposed middle becomes the command for the final return.",
+        "explanation": "Removing only the two marked seals leaves RETURN. RETURNED leaves a seal attached; RETURNS introduces an S; TURN throws away two unmarked letters. The debt has become an instruction.",
+        "sourceIds": [
+          "cabinet"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "RETURNED"
+          },
+          {
+            "id": "b",
+            "label": "RETURNS"
+          },
+          {
+            "id": "c",
+            "label": "RETURN"
+          },
+          {
+            "id": "d",
+            "label": "TURN"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "prompt": "Repair the record’s three torn headings. Join each pair at its one shared edge letter.",
+        "context": "Original word-cabinet puzzle. The right fragment begins with the same letter that ends the left fragment. Overlap that letter once, keeping all other letters in order. For example, CAR + RAT would join as CARAT. These are the labels for the item, the lender and the borrower on this invented record.",
+        "explanation": "VOI + ICE share I and form VOICE; OWN + NER share N and form OWNER; MIR + RROR share R and form MIRROR. The last join still has two consecutive Rs: one is the shared edge, and the next belongs to RROR. Those headings identify a voice loan, its owner and the mirror that borrowed it.",
+        "sourceIds": [
+          "cabinet"
+        ],
+        "kind": "match",
+        "left": [
+          {
+            "id": "a",
+            "label": "VOI + ICE"
+          },
+          {
+            "id": "b",
+            "label": "OWN + NER"
+          },
+          {
+            "id": "c",
+            "label": "MIR + RROR"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "MIRROR"
+          },
+          {
+            "id": "b",
+            "label": "VOICE"
+          },
+          {
+            "id": "c",
+            "label": "OWNER"
+          },
+          {
+            "id": "d",
+            "label": "MIRRER"
+          }
+        ],
+        "pairs": {
+          "a": "b",
+          "b": "c",
+          "c": "a"
+        }
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "prompt": "Who owns the borrowed voice?",
+        "context": "Original word-cabinet puzzle. The repaired record reads “Borrower: MIRROR.” Beside “OWNER” the mirror has copied the name in reverse letter order: TENIBAC. Read the letters from last to first; do not flip the shapes of individual letters. The available owner labels are below.",
+        "explanation": "TENIBAC reversed is C A B I N E T. The mirror is the borrower, not the owner. The haunting is a debt: the cabinet’s own voice has been held in its reflection.",
+        "sourceIds": [
+          "cabinet"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "CABINET"
+          },
+          {
+            "id": "b",
+            "label": "CABIN"
+          },
+          {
+            "id": "c",
+            "label": "CANTEEN"
+          },
+          {
+            "id": "d",
+            "label": "CABINETRY"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "prompt": "Reconnect the four instruction strips, then read the return sentence.",
+        "context": "Original word-cabinet puzzle. Each strip’s last whole word must equal the next strip’s first whole word. Overlap the shared word once when reading. Use all four strips exactly once. The strip beginning RETURN is the start; the strip ending CABINET is the finish. The supplied strips—not a preferred writing style—determine the order.",
+        "explanation": "RETURN THE joins THE VOICE, which joins VOICE TO, which joins TO THE CABINET. Reading each overlapping word once gives “RETURN THE VOICE TO THE CABINET.” Every internal join is forced, so the complete sentence has one order.",
+        "sourceIds": [
+          "cabinet"
+        ],
+        "kind": "order",
+        "items": [
+          {
+            "id": "a",
+            "label": "VOICE TO"
+          },
+          {
+            "id": "b",
+            "label": "RETURN THE"
+          },
+          {
+            "id": "c",
+            "label": "TO THE CABINET"
+          },
+          {
+            "id": "d",
+            "label": "THE VOICE"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "d",
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "prompt": "The return slot takes one word. Which label should you place in it to finish the instruction?",
+        "context": "Original word-cabinet puzzle. The complete instruction is “RETURN THE VOICE TO THE CABINET.” On the mirror hangs the seven-letter tag INVOICE. Its removable tab is IN; the cabinet’s slot accepts exactly the letters left after that tab is removed, in their existing order. Candidate tags are below. This is the final action in the puzzle.",
+        "explanation": "INVOICE without its initial IN leaves VOICE, exactly the object named in the assembled instruction. Place that tag in the cabinet’s slot: the mirror falls quiet, the cabinet says “That was mine,” and the door opens. The borrowing record had held the missing voice in its own letters all along.",
+        "sourceIds": [
+          "cabinet"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "NOISE"
+          },
+          {
+            "id": "b",
+            "label": "VOICE"
+          },
+          {
+            "id": "c",
+            "label": "VICES"
+          },
+          {
+            "id": "d",
+            "label": "INVOICE"
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "sources": [
+      {
+        "id": "cabinet",
+        "kind": "original",
+        "label": "Original borrowed-voice story, inscription, word strings and explicit puzzle operations"
+      }
+    ],
+    "note": "Original fictional mini-escape. All strings and operations are supplied; no homophone, pronunciation, cultural haunting or dictionary-trivia knowledge is required. Each clue’s result is supplied again where needed, so an earlier mistake cannot hide a later task. No timer is required."
   }
 ]

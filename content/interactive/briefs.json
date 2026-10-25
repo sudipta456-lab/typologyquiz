@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 26,
+      "count": 27,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 26,
+      "count": 27,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 26,
+      "count": 27,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 26,
+      "count": 27,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 26,
+      "count": 27,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -5709,6 +5709,116 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-10-24",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "MT-27",
+      "title": "The Glasshouse Cut: Who Looks Guilty?",
+      "slug": "glasshouse-trailer-misdirection",
+      "kind": "logic",
+      "hook": "Restore missing shots and displaced sound in an original haunted trailer. A caretaker looks guilty, a rescue emerges, and one final image refuses to be explained.",
+      "rounds": [
+        "3 tasks: The Accusation",
+        "3 tasks: Restore the Scene",
+        "2 tasks: An Honest Mystery"
+      ],
+      "seed": "What accusation does this cut invite that the two shots do not establish?",
+      "payoff": "Seven scored evidence tasks restore a rescue hidden by the trailer; choose an ungraded final caption that preserves its remaining mystery.",
+      "audience": "Adults and teens; North American seasonal nostalgia and original non-graphic mysteries; playable without specialist knowledge",
+      "evidence": "Approved October 25 Halloween production queue and audience-fit audit; coordinator-supplied October 2026 Google search-interest context is seasonal inspiration, not quiz engagement or validation. Original supplied story, rules and observable evidence.",
+      "dependency": "base",
+      "production_note": "Text storyboards only. All seven scored keys concern evidence or an explicit editing brief, not a universal best creative choice. No inherited FS27 plot or footage. Independent editorial review required before integration.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-10-25",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "MU-27",
+      "title": "The Unfinished Sign-Off",
+      "slug": "unfinished-sign-off-music-mystery",
+      "kind": "logic",
+      "hook": "Follow an original three-note tune from a broadcast fragment to a music box—and an unexpected reply. Listen to two short sketches, uncover the source and shape the final arrangement.",
+      "rounds": [
+        "3 tasks: A Tune Without an Ending",
+        "3 tasks: Find Its Source",
+        "2 tasks: The Reply"
+      ],
+      "seed": "What musical fingerprint can you recognize when this tune returns?",
+      "payoff": "Recognize one original tune through an arrangement change, discover its source, and hear how its return can complete a story.",
+      "audience": "Adults and teens; North American seasonal nostalgia and original non-graphic mysteries; playable without specialist knowledge",
+      "evidence": "Approved October 25 Halloween production queue and audience-fit audit; coordinator-supplied October 2026 Google search-interest context is seasonal inspiration, not quiz engagement or validation. Original supplied story, rules and observable evidence.",
+      "dependency": "audio",
+      "production_note": "Two existing audio controllers with actual Tone arrays and complete transcripts; sine/triangle only, gain at most 0.07, each preview under five seconds, user-triggered playback. No recordings, spoken synthesis, musical-emotion norms, ratios or beat arithmetic. Independent sound/text review required.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "daily-2026-10-25",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "GT-27",
+      "title": "Spooky Movies, Real Places",
+      "slug": "spooky-movies-real-places",
+      "kind": "knowledge",
+      "hook": "Find the Massachusetts cemetery outside Salem, the Canadian town playing Maine, and Oregon and Pennsylvania places behind familiar spooky films. Eight discoveries connect screen memories to real geography.",
+      "rounds": [
+        "3 tasks: Salem and Its Neighbour",
+        "3 tasks: Towns Playing Other Towns",
+        "2 tasks: Mountains and Main Streets"
+      ],
+      "seed": "Allison’s grand house in Hocus Pocus has a real exterior. Which place belongs on the map?",
+      "payoff": "Eight concrete filming-place discoveries across Massachusetts, Ontario, Oregon and Pennsylvania.",
+      "audience": "Adults and teens; North American seasonal nostalgia and original non-graphic mysteries; playable without specialist knowledge",
+      "evidence": "Approved October 25 Halloween production queue and audience-fit audit; coordinator-supplied October 2026 Google search-interest context is seasonal inspiration, not quiz engagement or validation. Exact official filming references at question level.",
+      "dependency": "base",
+      "production_note": "Question-level official tourism, municipal, county and venue sources. Historical event pages support filming facts only. Curl downloads failed DNS in this sandbox; current Timberline film statement and Colonial PDF were verified with web extraction and saved in sources/gpt-primary-extracts.json. No stale Elstree/Room237 claim. Independent factual review required.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-10-25",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "SG-27",
+      "title": "The Night Archive: Save the Last Atlas",
+      "slug": "night-archive-last-atlas",
+      "kind": "cooperative",
+      "hook": "Read a ghostly patrol, preserve an escape route and choose when a diversion must become a defence. Eight supplied tabletop checkpoints lead to a protected atlas and the opening of the dawn shutters.",
+      "rounds": [
+        "3 tasks: Find a Way In",
+        "3 tasks: The Warden Responds",
+        "2 tasks: Bring Back the Dawn"
+      ],
+      "seed": "How do you guarantee the courier takes the unguarded entrance to the archive?",
+      "payoff": "Save an atlas through information, a shared escape route, diversion, defence and a final change in the wedge’s purpose.",
+      "audience": "Adults and teens; North American seasonal nostalgia and original non-graphic mysteries; playable without specialist knowledge",
+      "evidence": "Approved October 25 Halloween production queue and audience-fit audit; coordinator-supplied October 2026 Google search-interest context is seasonal inspiration, not quiz engagement or validation. Original supplied story, rules and observable evidence.",
+      "dependency": "social",
+      "production_note": "One shared cooperative attempt in the solo player. Explicit checkpoint/hand/forecast in every task; no choice persistence or adaptive/live opponent promise. Four named cards support tactical reasoning; no wagering. Independent rule and audience-fit review required.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-10-25",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "LW-27",
+      "title": "The Cabinet of the Borrowed Voice",
+      "slug": "cabinet-of-the-borrowed-voice",
+      "kind": "logic",
+      "hook": "An inscription opens a drawer; a whispered sentence hides a borrowing record. Follow eight precise word clues to discover who borrowed the cabinet’s voice—and return it.",
+      "rounds": [
+        "3 tasks: Make the Cabinet Answer",
+        "3 tasks: Read the Borrowing Record",
+        "2 tasks: Return What Is Missing"
+      ],
+      "seed": "Which drawer does the cabinet’s six-sentence inscription name?",
+      "payoff": "An exact return instruction and a final letter reveal restore the cabinet’s borrowed voice.",
+      "audience": "Adults and teens; North American seasonal nostalgia and original non-graphic mysteries; playable without specialist knowledge",
+      "evidence": "Approved October 25 Halloween production queue and audience-fit audit; coordinator-supplied October 2026 Google search-interest context is seasonal inspiration, not quiz engagement or validation. Original supplied story, rules and observable evidence.",
+      "dependency": "base",
+      "production_note": "Eight tasks with six operation families: acrostic, constrained anagram, hidden string, deletion, overlap assembly and reversal. Deletion and overlap each appear twice; all others once. All letters, spacing rules and keys explicitly checkable. No pronunciation dependency. Independent puzzle review required.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-10-25",
       "evidence_class": "seasonal"
     }
   ]

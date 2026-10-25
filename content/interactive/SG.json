@@ -10058,5 +10058,275 @@
       }
     ],
     "note": "Original toy rulebook only. No physical instructions or real game advice. Graphs list every valid link; matches reuse targets only when semantically identical by rule."
+  },
+  {
+    "id": "SG-27",
+    "slug": "night-archive-last-atlas",
+    "categoryId": "sports-games",
+    "title": "The Night Archive: Save the Last Atlas",
+    "description": "Read a ghostly patrol, preserve an escape route and choose when a diversion must become a defence. Eight supplied tabletop checkpoints lead to a protected atlas and the opening of the dawn shutters.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 10,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Find a Way In"
+      },
+      {
+        "id": "s2",
+        "title": "The Warden Responds"
+      },
+      {
+        "id": "s3",
+        "title": "Bring Back the Dawn"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "prompt": "How do you guarantee the courier takes the unguarded entrance to the archive?",
+        "context": "Original tabletop encounter. Supplied checkpoint: Goal: carry the atlas to the exit before the Warden erases it. Start safely outside. The Warden has committed to either the Gallery or the Reading Room, but its card is face down. Each room has its own entrance from outside and its own onward door to the Vault. You may make one preparation and then choose an entrance. READ reveals the committed room. LURE sends the Warden to a named room, but only if that room was not already its destination; otherwise it switches to the other room. WEDGE holds a door open but does not affect the Warden. You cannot enter the occupied room.",
+        "explanation": "READ gives the information needed to choose the unguarded room in either case. The LURE gamble can backfire: if Gallery was already the destination, the Warden switches to Reading Room. A held door does not make an occupied room safe.",
+        "sourceIds": [
+          "rules"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Use LURE on Gallery, then enter Reading Room."
+          },
+          {
+            "id": "b",
+            "label": "Use WEDGE on the Gallery door, then enter Gallery."
+          },
+          {
+            "id": "c",
+            "label": "Use READ, then enter whichever room the Warden did not choose."
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "prompt": "Where should the single WEDGE go so both couriers can still reach the exit after the shutters fall?",
+        "context": "Original tabletop encounter. Supplied checkpoint: READ revealed Gallery; the atlas courier entered Reading Room safely. A second courier now stands in Gallery after the Warden has moved on. Board links: Reading Room—Vault, Gallery—Vault, Vault—Exit. All three doorways will close; each courier can cross their doorway into the Vault before that happens, but neither can cross a second doorway in time. A WEDGE preserves exactly one doorway through the closure. The Warden is away for this checkpoint.",
+        "explanation": "Both couriers can enter the Vault before closure. Their remaining shared route is Vault—Exit, so that is the bottleneck to preserve. Wedging either entrance leaves both couriers on the wrong side of the closed exit door.",
+        "sourceIds": [
+          "rules"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reading Room—Vault"
+          },
+          {
+            "id": "b",
+            "label": "Gallery—Vault"
+          },
+          {
+            "id": "c",
+            "label": "Vault—Exit"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "prompt": "Place a LURE where it protects the atlas without drawing the Warden onto the handoff.",
+        "context": "Original tabletop encounter. Supplied checkpoint: Both couriers are now in the Vault; the atlas waits there. Vault—Exit is wedged open. For this turn the public Warden card says SEARCH VAULT. LURE replaces that destination with one named empty room, provided it differs from the printed destination. The courier will carry the atlas from Vault into Exit after placing the lure. Gallery and Reading Room are empty; Reading Room is sealed and cannot receive a lure. Exit is empty now but will hold the courier when the Warden arrives.",
+        "explanation": "Gallery is empty, reachable by the lure and off the handoff route. Exit is a trap despite being empty at placement: the courier will be there when the Warden responds. Vault is neither empty nor different from the printed destination.",
+        "sourceIds": [
+          "rules"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lure to Exit."
+          },
+          {
+            "id": "b",
+            "label": "Lure to Gallery."
+          },
+          {
+            "id": "c",
+            "label": "Lure to Vault."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "prompt": "Order this recovery so the Warden follows the diversion before the atlas moves.",
+        "context": "Original tabletop encounter. Supplied checkpoint: The atlas is still in Vault for this supplied replay. A LURE token is in Gallery. The Warden stands in the Vault doorway. Ringing the gallery bell activates the lure and immediately moves the Warden to Gallery. Taking the atlas while the Warden is at the doorway loses the atlas. Carrying the atlas out requires first taking it. Close the atlas cover only after it is in Exit; closing it anywhere else seals the map before it can be carried.",
+        "explanation": "Activate the bell to clear the doorway, take the atlas, carry it through the preserved exit route, then close its cover. Taking it before the diversion loses it; closing early makes it immovable. The order solves the encounter through consequences rather than a generic list of card priorities.",
+        "sourceIds": [
+          "rules"
+        ],
+        "kind": "order",
+        "items": [
+          {
+            "id": "a",
+            "label": "Close the atlas cover in Exit."
+          },
+          {
+            "id": "b",
+            "label": "Take the atlas from Vault."
+          },
+          {
+            "id": "c",
+            "label": "Ring the Gallery bell."
+          },
+          {
+            "id": "d",
+            "label": "Carry the atlas into Exit."
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "b",
+          "d",
+          "a"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "prompt": "Assign the three remaining cards so neither courier nor their route is lost.",
+        "context": "Original tabletop encounter. Supplied checkpoint: The first atlas crossing is complete, but its protective case is still inside. Courier Ana is in Gallery; courier Bo is in Reading Room. Both must next reach Vault and then Exit with the case. Forecasts: the Warden will visit Gallery before Ana can leave; Reading Room’s exit will close before Bo can leave; the Warden will then choose a route from a face-down card while both wait safely in Vault. VEIL protects one courier against one visit. WEDGE preserves one doorway. READ reveals a face-down route so they can choose the safe final crossing. One card of each kind remains; assign each once.",
+        "explanation": "Ana needs VEIL against the announced visit. Bo needs WEDGE for the closing doorway. The hidden final route needs READ; neither protection nor a door wedge reveals it. This distributes scarce, different resources across three threats instead of spending everything on the most visible one.",
+        "sourceIds": [
+          "rules"
+        ],
+        "kind": "match",
+        "left": [
+          {
+            "id": "a",
+            "label": "Protect Ana in Gallery"
+          },
+          {
+            "id": "b",
+            "label": "Preserve Bo’s way into Vault"
+          },
+          {
+            "id": "c",
+            "label": "Prepare the final crossing from Vault"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "READ"
+          },
+          {
+            "id": "b",
+            "label": "VEIL"
+          },
+          {
+            "id": "c",
+            "label": "WEDGE"
+          }
+        ],
+        "pairs": {
+          "a": "b",
+          "b": "c",
+          "c": "a"
+        }
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "prompt": "The Warden has learned the diversion. Which revised plan protects the carrier?",
+        "context": "Original tabletop encounter. Supplied checkpoint: The case carrier is in Vault. This checkpoint supplies a fresh VEIL and a LURE. The revealed Warden card is INSPECT: ignore all lures and visit the carrier’s current room before anyone may move. A VEIL protects its holder for that visit and is then discarded. The door to Exit is already open. You may play one card before the inspection, then move after it.",
+        "explanation": "INSPECT counters the lure and happens before movement. VEIL absorbs that visit, leaving the carrier able to use the open exit afterwards. The key is responding to the revealed counterplay rather than repeating the previous winning diversion.",
+        "sourceIds": [
+          "rules"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lure the Warden back to Gallery, then move."
+          },
+          {
+            "id": "b",
+            "label": "Veil the carrier, let the inspection pass, then move."
+          },
+          {
+            "id": "c",
+            "label": "Hold both cards and move before the inspection."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "prompt": "Do you take the tempting detour or secure the atlas? Choose the only guaranteed win.",
+        "context": "Original tabletop encounter. Supplied checkpoint: The case and atlas are together in Exit. You have one last move before the final erasure. A side alcove contains an optional illustration; entering it uses that move, even with VEIL. Placing the atlas in its case on the exit lectern also uses that move and protects it permanently. The win condition is the protected atlas. The illustration is a bonus only if the atlas is protected first. There is no further scoring move before the erasure.",
+        "explanation": "The case on the lectern is the only permanent protection available before erasure. VEIL protects a courier against a visit, not an unprotected atlas against the final erasure. A bonus cannot compensate for losing the stated objective.",
+        "sourceIds": [
+          "rules"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Take the illustration with VEIL, leaving the atlas on the floor."
+          },
+          {
+            "id": "b",
+            "label": "Place the atlas in its case on the exit lectern."
+          },
+          {
+            "id": "c",
+            "label": "Leave the illustration, keep the atlas in hand and wait."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "prompt": "The atlas survives. Which final arrangement opens the shutters and ends the Warden’s patrol?",
+        "context": "Original tabletop encounter. Supplied checkpoint: After the scoring round, resetting the exit door is a free cleanup action, not another scoring move. Final board: the protected atlas is on the exit lectern; both couriers stand in Exit; the Warden remains inside. The dawn mechanism opens when the exit door is closed and the atlas remains on the lectern. A WEDGE still holds the exit door open. Removing it lets the door close automatically. Taking the atlas off the lectern stops the dawn mechanism; moving a courier inside traps them when the door closes. Your goal is dawn with both couriers outside the archive.",
+        "explanation": "The last useful resource has become the last obstruction: the wedge saved the crossing, but now keeps the dawn mechanism from working. Removing it from the safe side closes the door while both couriers stay in Exit. The shutters open, the Warden’s patrol ends, and the atlas’s map of the archive is preserved.",
+        "sourceIds": [
+          "rules"
+        ],
+        "kind": "choice",
+        "options": [
+          {
+            "id": "a",
+            "label": "Carry the atlas off the lectern and remove the wedge."
+          },
+          {
+            "id": "b",
+            "label": "Send a courier inside to remove the wedge, then close the door."
+          },
+          {
+            "id": "c",
+            "label": "Remove the wedge from the Exit side and leave the atlas on the lectern."
+          }
+        ],
+        "correct": "c"
+      }
+    ],
+    "sources": [
+      {
+        "id": "rules",
+        "kind": "original",
+        "label": "Original Night Archive tabletop rules, public states and encounter"
+      }
+    ],
+    "note": "An original, non-graphic tabletop encounter for solo play or discussion in one shared attempt. Each question supplies its own checkpoint, hand and forecast; earlier answers do not change later states. No live opponent, hidden actual player information, money or turn-by-turn multiplayer system is involved."
   }
 ]
