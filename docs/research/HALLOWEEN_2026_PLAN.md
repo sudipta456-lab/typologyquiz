@@ -18,7 +18,7 @@ After the Grok quota blocked this date’s authoring/review, the owner explicitl
 
 ## Publication progress
 
-October23: five verified live, bringing the collection to260. See [dated release and quiz links](daily-quizzes/2026-10-23.md). The calendar below retains the original concepts; October24–31 contain40 future planned quizzes, not published content. No extra batch or missed-day backfill.
+October23: five verified live, bringing the collection to260. October24: five further researched/reviewed quizzes verified live, bringing the collection to265; see [October24 release](daily-quizzes/2026-10-24.md). October25–31 retain35 future treatments, not completed quizzes. The calendar below preserves the original concepts; the approved production queue governs revisions. No extra batch or missed-day backfill.
 
 ## Evidence and positioning
 

@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-24",
+  "timezone": "America/Edmonton",
+  "status": "published-verified",
+  "published": 5,
+  "shortfall": 0,
+  "totalInteractiveQuizzes": 265,
+  "sourceCommit": "91a4d1b2a32dd580284347fbb749d311fc1ae991",
+  "deployment": {
+    "id": "84fdce1f-68cb-44df-8659-653a0897c0c0",
+    "createdAt": "2026-10-25T05:45:37.508457Z",
+    "version": "ba297aae-f9ac-4de1-bf96-712eee7a65fc",
+    "percentage": 100
+  },
+  "quizzes": [
+    {
+      "id": "PC-27",
+      "slug": "your-kind-of-haunted-house",
+      "title": "Your Kind of Haunted House",
+      "url": "https://typologyquiz.com/quizzes/your-kind-of-haunted-house/"
+    },
+    {
+      "id": "FS-27",
+      "slug": "last-bow-lantern-theatre",
+      "title": "The Last Bow at Lantern Theatre",
+      "url": "https://typologyquiz.com/quizzes/last-bow-lantern-theatre/"
+    },
+    {
+      "id": "SN-27",
+      "slug": "bats-beyond-the-vampire-myth",
+      "title": "Bats Beyond the Vampire Myth",
+      "url": "https://typologyquiz.com/quizzes/bats-beyond-the-vampire-myth/"
+    },
+    {
+      "id": "HC-27",
+      "slug": "objects-after-dark-irish-halloween",
+      "title": "Objects After Dark: Irish Halloween",
+      "url": "https://typologyquiz.com/quizzes/objects-after-dark-irish-halloween/"
+    },
+    {
+      "id": "FE-27",
+      "slug": "candy-names-wrapper-secrets",
+      "title": "Candy Names and Wrapper Secrets",
+      "url": "https://typologyquiz.com/quizzes/candy-names-wrapper-secrets/"
+    }
+  ],
+  "gates": {
+    "independentGPTReview": "pass",
+    "fullVerifyTests": 296,
+    "productionBuild": "pass",
+    "activeGACoverageHTML": 1585,
+    "sitemapUniqueURLs": 849,
+    "liveHTTPReceipts": 15,
+    "allPrior260QuizObjectsAndBriefsUnchanged": true,
+    "handbookR2ImageHTTP": 200
+  },
+  "browser": {
+    "preview": [
+      "FS-27:8 mobile tasks, order/match/grid/reflection,100% on5, resume task4, no overflow390",
+      "PC-27:8 desktop tasks,rank,keyboard slider49,preference matching,two descriptive scales,no knowledge score",
+      "HC-27:8 mobile tasks,match/grid,100%,no overflow390"
+    ],
+    "production": [
+      "FE-27:all8 tasks,matching,100%,no console errors"
+    ]
+  },
+  "analytics": {
+    "property": "545477353",
+    "baselineActiveUsers30m": 0,
+    "afterOperatorQAActiveUsers30m": 1,
+    "observedEvents": {
+      "page_view": 1,
+      "session_start": 1,
+      "interactive_quiz_start": 1,
+      "interactive_quiz_complete": 1
+    },
+    "completionParameter": {
+      "quiz_id": "FE-27",
+      "count": 1
+    },
+    "classification": "Operator release QA; not organic growth or engagement evidence"
+  },
+  "liveHTTPChecks": [
+    {
+      "url": "https://typologyquiz.com/quizzes/your-kind-of-haunted-house/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "a33e01af16468dd1f427f3713e26399c03b2b63d6cfeda92e0497ee51309d755"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/last-bow-lantern-theatre/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "fd4a5c335785e021750bfd27bde180edf57fda25bd928e95f431623da17b2bfa"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/bats-beyond-the-vampire-myth/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "c90a843e88e35bb90ccf76aa1342c3bba2981266a016de5e88a2974676f7f775"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/objects-after-dark-irish-halloween/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "78aead7437c2ac278687618de2c0378d424de6c35347f4dfc564ff76e8d53c22"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/candy-names-wrapper-secrets/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "6e0f7ac40d5111c529edeb336f8893e3a71a3714be72c39e4f9a7c20944b46dd"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "32c5611ef1ebfa98dd335b19860a8d236fc1d41fc479d51456bcc2bb9a9aff43"
+    },
+    {
+      "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "4c5c5812b3b0b1d3c1cb3cf057fa473a76ccd0b3e7e1b852ad651befd8b63bbf"
+    },
+    {
+      "url": "https://typologyquiz.com/sitemap.xml",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "4f3a74a95116767cb11808e9fd478416ba944be2e9783b2c1c7c95c4685cbe2d"
+    },
+    {
+      "url": "https://typologyquiz.com/llms.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "cd43786ef552b16adc65cf010064973b24ca8becc53fe470214e8772ab92b1f0"
+    },
+    {
+      "url": "https://typologyquiz.com/robots.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/24cgshzshwc9v.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "633df66a9bbd1180f928f64d73b0407f9621ca01bf75fea0654a890dce8fb241"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "7a2a8952ec055af4413a90c6b81e762a7607e581972b4870be33391a1470dd67"
+    },
+    {
+      "url": "https://typologyquiz.com/tests/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "b164b93e5ec0ca3fa6714633247fdaabcb7d50e9426e98c93fb6b3eaae33ee49"
+    },
+    {
+      "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "948c6e67ab9f7d011e403c91e50a512ba61b4d28b756f1ccb8ca74fc719bd71b"
+    },
+    {
+      "url": "https://www.typologyquiz.com/quizzes/your-kind-of-haunted-house/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "b577684a7eed361ba7f1cfbe1f19dc4201966359a01764969228bfd07facf021"
+    }
+  ],
+  "evidenceLocalFolder": "work/daily-quizzes/2026-10-24/"
+}
