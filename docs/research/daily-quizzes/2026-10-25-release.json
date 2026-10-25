@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-25",
+  "timezone": "America/Edmonton",
+  "status": "published-verified",
+  "published": 5,
+  "shortfall": 0,
+  "totalInteractiveQuizzes": 270,
+  "sourceCommit": "5c658aa0258fc68ee74a078d5e0816e11230d4a2",
+  "deployment": {
+    "id": "63a09bbe-ec3d-4d4b-a8d5-f1aa4472b7f2",
+    "created_on": "2026-10-25T13:55:21.876333Z",
+    "versions": [
+      {
+        "version_id": "f72153f2-523e-4ed1-b6f0-86a250f21ac8",
+        "percentage": 100
+      }
+    ],
+    "source": "wrangler"
+  },
+  "quizzes": [
+    {
+      "id": "MT-27",
+      "category": "movies-tv",
+      "title": "The Glasshouse Cut: Who Looks Guilty?",
+      "slug": "glasshouse-trailer-misdirection",
+      "url": "https://typologyquiz.com/quizzes/glasshouse-trailer-misdirection/"
+    },
+    {
+      "id": "MU-27",
+      "category": "music",
+      "title": "The Unfinished Sign-Off",
+      "slug": "unfinished-sign-off-music-mystery",
+      "url": "https://typologyquiz.com/quizzes/unfinished-sign-off-music-mystery/"
+    },
+    {
+      "id": "GT-27",
+      "category": "geography-travel",
+      "title": "Spooky Movies, Real Places",
+      "slug": "spooky-movies-real-places",
+      "url": "https://typologyquiz.com/quizzes/spooky-movies-real-places/"
+    },
+    {
+      "id": "SG-27",
+      "category": "sports-games",
+      "title": "The Night Archive: Save the Last Atlas",
+      "slug": "night-archive-last-atlas",
+      "url": "https://typologyquiz.com/quizzes/night-archive-last-atlas/"
+    },
+    {
+      "id": "LW-27",
+      "category": "logic-wordplay",
+      "title": "The Cabinet of the Borrowed Voice",
+      "slug": "cabinet-of-the-borrowed-voice",
+      "url": "https://typologyquiz.com/quizzes/cabinet-of-the-borrowed-voice/"
+    }
+  ],
+  "gates": {
+    "independentGPTReview": "pass after substantive corrections",
+    "fullVerifyTests": 296,
+    "productionBuild": "pass",
+    "activeGAHTMLCoverage": 1590,
+    "sitemapUniqueURLs": 854,
+    "all265OldQuizObjectsAndBriefsUnchanged": true,
+    "all530OldRawObjectSlicesIndependentlyPreserved": true,
+    "handbookR2ImageHTTP": 200
+  },
+  "browser": {
+    "date": "2026-10-25",
+    "previews": [
+      {
+        "quiz": "MT-27",
+        "tasks": 8,
+        "accuracy": "100% on7",
+        "creativeCaptionExcluded": true,
+        "formats": [
+          "choice",
+          "match",
+          "order"
+        ],
+        "consoleErrors": []
+      },
+      {
+        "quiz": "MU-27",
+        "tasks": 8,
+        "accuracy": "100% on8",
+        "twoPlayButtonsChangedToStop": true,
+        "manualStopWorked": true,
+        "textAlternative": "plain-language equivalent checked",
+        "formats": [
+          "audio",
+          "choice",
+          "match",
+          "order"
+        ],
+        "consoleErrors": [],
+        "finalRevisionVerified": true
+      },
+      {
+        "quiz": "SG-27",
+        "tasks": 8,
+        "accuracy": "100% on8",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "resumeAt": 4,
+        "formats": [
+          "choice",
+          "match",
+          "order"
+        ],
+        "layout": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "consoleErrors": []
+      },
+      {
+        "quiz": "LW-27",
+        "tasks": 8,
+        "accuracy": "100% on8",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "explicitSentenceBoundariesVisible": true,
+        "formats": [
+          "choice",
+          "match",
+          "order"
+        ],
+        "layout": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "consoleErrors": []
+      }
+    ],
+    "production": {
+      "quiz": "GT-27",
+      "tasks": 8,
+      "accuracy": "100% on8",
+      "url": "https://typologyquiz.com/quizzes/spooky-movies-real-places/",
+      "formats": [
+        "choice",
+        "match"
+      ],
+      "production": true,
+      "consoleErrors": []
+    },
+    "analytics": {
+      "property": "545477353",
+      "baselineActiveUsers30m": 0,
+      "observedEvents": {
+        "page_view": 1,
+        "session_start": 1,
+        "interactive_quiz_start": 1,
+        "interactive_quiz_complete": 1
+      },
+      "completionParameter": {
+        "quiz_id": "GT-27",
+        "count": 1
+      },
+      "classification": "Operator release QA; not organic audience growth or engagement evidence",
+      "completionEvidence": "\":\n    - button \"Event count\"\n  - text: by\n  - generic \"Event name\":\n    - button \"Event name\"\n  - button \"Go back\":\n    - img: keyboard_backspace\n  - generic: quiz_id\n  - generic: \"1\"\n  - table:\n    - row \"Event parameter value Event count\":\n      - columnheader \"Event parameter value\":\n        - generic: Event parameter value\n      - columnheader \"Event count\":\n        - button \"Event count\"\n    - row \"GT-27 1\":\n      - cell \"GT-27\"\n      - cell \"1\"\n  - status: 1 – 1 of 1\n  - button \"Previous page\" [disabled]:\n  - button \"Next page\" [disabled]:\n  - table:\n    - row:\n      - columnheader\n    - row:\n      - cell\n  - generic \"Key events\":\n    - button \"Key events\"\n  - text: by\n  - generic \"Event name\":\n    - button \"Event name\"\n  - generic: \"#1\"\n  - generic: \"-\"\n  - generic: \"-\"\n  - table:\n    - row \"Event name Key events\":\n      - columnheader \"Event name\":\n        - button \"Event name\"\n      - columnheader \"Key events\":\n        - button \"Key events\"\n  - generic: No data available\n  - table:\n    - row\n  - generic \"Active users\":\n    - button \"Active users\"\n  - text: by\n  - generic \"User property\":\n    - button \"User property\"\n  - generic: \"#1\"\n  - generic: \"-\"\n  - generic: \"-\"\n  - table:\n    - row \"User property Active users\":\n      - columnheader \"User property\":\n        - button \"User property\"\n      - columnheader \"Active users\":\n        - button \"Active users\"\n  - generic: No data available\n  - table:\n    - row\n  - text: © 2026 Google |\n  - link \"Analytics home\":\n    - /url: https://www.google.com/analytics/?hl=en-US\n  - text: \"|\"\n  - link \"Terms of Service\":\n    - /url: https://www.google.com/analytics/tos.html?hl=en-US\n  - text: \"|\"\n  - link \"Privacy Policy\":\n    - /url: https://www.google.com/policies/privacy/?hl=en-US\n  - text: \"|\"\n  - button \"Send feedback\":\n    - img: feedback\n    - generic: Send feedback\n- complementary\n- button \"Open context menu\""
+    }
+  },
+  "liveHTTPChecks": [
+    {
+      "url": "https://typologyquiz.com/quizzes/glasshouse-trailer-misdirection/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "3bcfe044324dd8c21e6c048944cb84a327ae44a294c49affe343fb5d9cb763ca"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/unfinished-sign-off-music-mystery/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "092b15954cb3cbbc18fd0c27e2478ac12a286808edb26e21d97be7d88212609d"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/spooky-movies-real-places/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "7999df9eb6b9f88a4d58a2c555a0723e41f8089c3837b8a5b7e934e07f244463"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/night-archive-last-atlas/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "a7ac1c63cd24bada6f1f785e28297c5744e16266b831a2578a41a468abefbab4"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/cabinet-of-the-borrowed-voice/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "ac1fb4d76cf833f4c82f3848363e3c2c436398ab5730b9c06d73fd390ad2a0fb"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "0fd8d516e84d2919c6aa73ce00945b47c125991df6b8cd4ae288be7737985a02"
+    },
+    {
+      "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "f41ea9bd20750cfee7e1b7bcdc2ae76cf1a43f8d790dea78ff8309d8eb895b48"
+    },
+    {
+      "url": "https://typologyquiz.com/sitemap.xml",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "6bba17a2bd2d2dd3c5635fdd103c5692c570680709c4365650d7db2882d3aa13"
+    },
+    {
+      "url": "https://typologyquiz.com/llms.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "706089a39db1124dc26714e7f92554a95967290d25d7067d82a8f93241a2eee2"
+    },
+    {
+      "url": "https://typologyquiz.com/robots.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/0y-x0surv1se5.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "e0b8dbc683796897c5f3f33668e5f8a82e5666256f76a3ca10e92ba1290a7835"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "f4e23356f32a225caf0c5e870b7eba3c2c6700aa50ce3e63ebfbf88e78736ca6"
+    },
+    {
+      "url": "https://typologyquiz.com/tests/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "da3e3456cb2e0b11571406dc1ef3cf068d90a8e8745bd8df9a1d972c65441bfb"
+    },
+    {
+      "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "945aba482b6a060c7c8f52d78e0f7a88da8e771d1b20cfa95da55930f90bfc3a"
+    },
+    {
+      "url": "https://www.typologyquiz.com/quizzes/glasshouse-trailer-misdirection/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "9af0bc834210ed5956e00778b762c2938c0916c18c0a9ed3db636456ac23f417"
+    }
+  ],
+  "analytics": {
+    "property": "545477353",
+    "baselineActiveUsers30m": 0,
+    "observedEvents": {
+      "page_view": 1,
+      "session_start": 1,
+      "interactive_quiz_start": 1,
+      "interactive_quiz_complete": 1
+    },
+    "completionParameter": {
+      "quiz_id": "GT-27",
+      "count": 1
+    },
+    "classification": "Operator release QA; not organic audience growth or engagement evidence"
+  }
+}

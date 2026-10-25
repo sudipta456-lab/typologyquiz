@@ -1,14 +1,14 @@
 {
   "approvedLocalDate": "2026-10-23",
   "approval": "Owner: good ... go with ur new recomendation",
-  "status": "approved-editorial-treatment-queue-five-published-35-not-authored",
+  "status": "approved-editorial-treatment-queue-ten-published-30-not-authored",
   "authority": "These reviewed treatments govern October24–31 authoring. The original calendar remains historical; do not implement a weak original hook unchanged.",
   "provenance": "Mechanical adoption of the completed Grok Expert audit and coordinator checks; no new Grok inference, creative draft or independent release review occurred during adoption.",
   "auditRecord": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT.md",
   "immutableAuditRows": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT_ROWS.json",
-  "futureBriefCount": 35,
-  "requiresSubstantialRevision": 24,
-  "strongerStartingBriefsNotCleared": 11,
+  "futureBriefCount": 30,
+  "requiresSubstantialRevision": 20,
+  "strongerStartingBriefsNotCleared": 10,
   "dailyLimit": 5,
   "timezone": "America/Edmonton",
   "noBackfill": true,
@@ -97,9 +97,14 @@
       "originalTitleForTraceability": "Haunted Trailer Misdirection",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Keep the substantive editing/misdirection premise. Each task must expose a different inference or reveal.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "MT-27",
+      "slug": "glasshouse-trailer-misdirection",
+      "publishedTitle": "The Glasshouse Cut: Who Looks Guilty?",
+      "sourceCommit": "5c658aa0258fc68ee74a078d5e0816e11230d4a2",
+      "deploymentVersion": "f72153f2-523e-4ed1-b6f0-86a250f21ac8"
     },
     {
       "localDate": "2026-10-25",
@@ -107,9 +112,14 @@
       "originalTitleForTraceability": "Radio Haunting Cue Sheet",
       "auditVerdict": "PIVOT",
       "approvedTreatment": "Use real sound-story craft and an engaging original broadcast arc; avoid another arbitrary numeric cue key.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "MU-27",
+      "slug": "unfinished-sign-off-music-mystery",
+      "publishedTitle": "The Unfinished Sign-Off",
+      "sourceCommit": "5c658aa0258fc68ee74a078d5e0816e11230d4a2",
+      "deploymentVersion": "f72153f2-523e-4ed1-b6f0-86a250f21ac8"
     },
     {
       "localDate": "2026-10-25",
@@ -117,9 +127,14 @@
       "originalTitleForTraceability": "Haunted Timezone Hotel",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace fixed-offset conversion with documented place/tradition/filming-location relationships. Keep genuine geographic substance.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "GT-27",
+      "slug": "spooky-movies-real-places",
+      "publishedTitle": "Spooky Movies, Real Places",
+      "sourceCommit": "5c658aa0258fc68ee74a078d5e0816e11230d4a2",
+      "deploymentVersion": "f72153f2-523e-4ed1-b6f0-86a250f21ac8"
     },
     {
       "localDate": "2026-10-25",
@@ -127,9 +142,14 @@
       "originalTitleForTraceability": "Four-Card Ghost Rules",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Rebuild for meaningful game choices and a satisfying outcome. Original rules are allowed; repeated legal-play lookup is the weak part.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "SG-27",
+      "slug": "night-archive-last-atlas",
+      "publishedTitle": "The Night Archive: Save the Last Atlas",
+      "sourceCommit": "5c658aa0258fc68ee74a078d5e0816e11230d4a2",
+      "deploymentVersion": "f72153f2-523e-4ed1-b6f0-86a250f21ac8"
     },
     {
       "localDate": "2026-10-25",
@@ -137,9 +157,14 @@
       "originalTitleForTraceability": "Wordplay Shadow Match",
       "auditVerdict": "PIVOT",
       "approvedTreatment": "Use precise, enjoyable verbal clues with a clear reveal; avoid abstract relation-key copying.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "LW-27",
+      "slug": "cabinet-of-the-borrowed-voice",
+      "publishedTitle": "The Cabinet of the Borrowed Voice",
+      "sourceCommit": "5c658aa0258fc68ee74a078d5e0816e11230d4a2",
+      "deploymentVersion": "f72153f2-523e-4ed1-b6f0-86a250f21ac8"
     },
     {
       "localDate": "2026-10-26",
@@ -462,6 +487,7 @@
     "independentCreativeReview": "not performed; Grok quota blocks scripts and fresh review"
   },
   "initialApprovedFutureBriefCount": 40,
-  "publishedFromQueue": 5,
-  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-24-release.json"
+  "publishedFromQueue": 10,
+  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-25-release.json",
+  "existingPublishedQuizzesUnchanged": true
 }
