@@ -10822,5 +10822,317 @@
     ],
     "note": "Species and study limits matter. The grooming finding concerns unfamiliar female common vampire bats in a captive study. This quiz gives no animal-handling or health advice.",
     "playMode": "solo"
+  },
+  {
+    "id": "SN-28",
+    "slug": "eight-lights-in-the-dark",
+    "categoryId": "science-nature",
+    "title": "Eight Lights in the Dark",
+    "description": "Blue surf, rainbow combs, luminous wood and a predator’s private searchlight: discover eight reasons the natural world can look otherworldly. Some creatures make light; others transform light arriving from outside.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "At the Water’s Edge"
+      },
+      {
+        "id": "s2",
+        "title": "Lights on Land"
+      },
+      {
+        "id": "s3",
+        "title": "Hide and Hunt"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "In the May 2018 San Diego display reported by Scripps, what made breaking waves flash blue at night?",
+        "explanation": "Movement stimulated light from the bloom’s bioluminescent dinoflagellates. The report concerns May 2018; it explicitly says some red tides do not glow.",
+        "sourceIds": [
+          "waves"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Moonlight reflected by red pigments in the water"
+          },
+          {
+            "id": "b",
+            "label": "Chemical light from dinoflagellates disturbed by water movement"
+          },
+          {
+            "id": "c",
+            "label": "A blue pigment released when seaweed broke apart"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A comb jelly’s comb rows shimmer in rainbow colours under white external light. What produces that particular rainbow?",
+        "explanation": "The moving combs diffract incoming light. Many comb jellies also produce their own light, but that is distinct from the rainbow seen under external illumination.",
+        "sourceIds": [
+          "combs"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The comb rows split incoming light by diffraction"
+          },
+          {
+            "id": "b",
+            "label": "The animal mixes several colours of chemical light along each row"
+          },
+          {
+            "id": "c",
+            "label": "Pigments in the combs store white light and release it later"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "grid",
+        "prompt": "A firefly courtship exchange is a conversation in light. Choose the best interpretation of each change.",
+        "explanation": "In flashing species, patterns help potential mates recognise each other. Bright artificial light can interfere with that exchange. These are communication functions, not evidence that every flash results in mating.",
+        "sourceIds": [
+          "fireflies"
+        ],
+        "cells": [
+          {
+            "id": "pattern",
+            "label": "An adult male produces his species’ courtship flash pattern",
+            "options": [
+              {
+                "id": "a",
+                "label": "A signal that can help a female recognise a potential mate"
+              },
+              {
+                "id": "b",
+                "label": "A beam used mainly to illuminate the path ahead"
+              },
+              {
+                "id": "c",
+                "label": "Evidence that a female has already accepted him"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "light",
+            "label": "A bright flashlight is directed into the ongoing exchange",
+            "options": [
+              {
+                "id": "a",
+                "label": "It necessarily makes the signal easier to recognise"
+              },
+              {
+                "id": "b",
+                "label": "It can disrupt the light-based communication"
+              },
+              {
+                "id": "c",
+                "label": "It supplies the energy the beetles need to make their flashes"
+              }
+            ],
+            "correct": "b"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A piece of decaying wood shows the faint light called foxfire, even without a lamp shining on it. What is doing the light-making?",
+        "explanation": "Foxfire is living fungal light. The Missouri account describes luminous wood-decaying fungi, including light from honey-mushroom mycelium; the wood itself is not a little fire.",
+        "sourceIds": [
+          "fungi"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Mineral crystals reflecting starlight through the wood"
+          },
+          {
+            "id": "b",
+            "label": "Heat left over from the wood’s decay"
+          },
+          {
+            "id": "c",
+            "label": "Bioluminescent fungi living in the wood"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A scorpion appears blue-green under ultraviolet light. What happens to the energy in this fluorescence?",
+        "explanation": "Fluorescence transforms incoming light; bioluminescence generates light chemically. The museum locates the scorpion effect in the outer covering. The glow’s biological purpose remains debated.",
+        "sourceIds": [
+          "scorpions"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The shell absorbs incoming ultraviolet light and emits visible light"
+          },
+          {
+            "id": "b",
+            "label": "The scorpion burns stored food to power a firefly-like lantern"
+          },
+          {
+            "id": "c",
+            "label": "Its shell simply reflects the ultraviolet light without changing it"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q6",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Who actually produces the light inside the lure of the deep-sea anglerfish described by Smithsonian Ocean?",
+        "explanation": "Bacteria supply the lure’s glow. The fish positions that light near its mouth to attract prey: the animal using the signal is not necessarily the organism making it.",
+        "sourceIds": [
+          "angler"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Microscopic algae living inside the lure"
+          },
+          {
+            "id": "b",
+            "label": "Luminous bacteria living in the lure"
+          },
+          {
+            "id": "c",
+            "label": "The fish’s own cells, without a microbial partner"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "order",
+        "prompt": "How can a squid make itself harder to see by switching on lights? Order the counterillumination chain.",
+        "explanation": "An upward-looking hunter can detect a dark outline against brighter water. Matching that background with light from the underside reduces the contrast. This is camouflage, not a general guarantee of invisibility.",
+        "sourceIds": [
+          "squid"
+        ],
+        "items": [
+          {
+            "id": "contrast",
+            "label": "The contrast between squid and background becomes smaller"
+          },
+          {
+            "id": "outline",
+            "label": "An unlit squid forms a dark outline against light arriving from above"
+          },
+          {
+            "id": "harder",
+            "label": "A hunter below has a less distinct outline to detect"
+          },
+          {
+            "id": "emit",
+            "label": "The squid emits belly light that matches the overhead background"
+          }
+        ],
+        "correctOrder": [
+          "outline",
+          "emit",
+          "contrast",
+          "harder"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Some dragonfish can both emit and detect far-red light. Why can that combination help them hunt?",
+        "explanation": "The advantage depends on the difference between the fish’s vision and that of nearby animals. Its red light has limited range, but can illuminate prey without alerting animals unable to detect it.",
+        "sourceIds": [
+          "dragon"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Red light travels farther through seawater than blue light"
+          },
+          {
+            "id": "b",
+            "label": "Far-red light makes every nearby animal glow visibly"
+          },
+          {
+            "id": "c",
+            "label": "Many nearby animals cannot see the light illuminating them"
+          }
+        ],
+        "correct": "c"
+      }
+    ],
+    "sources": [
+      {
+        "id": "waves",
+        "label": "Scripps: San Diego bioluminescent bloom, May 9, 2018",
+        "kind": "reference",
+        "url": "https://scripps.ucsd.edu/news/red-tide-brings-bioluminescence-san-diego-beaches"
+      },
+      {
+        "id": "combs",
+        "label": "Woods Hole Oceanographic Institution: comb-jelly diffraction and bioluminescence",
+        "kind": "reference",
+        "url": "https://www.whoi.edu/ocean-learning-hub/multimedia/comb-jelly/"
+      },
+      {
+        "id": "fireflies",
+        "label": "National Park Service: firefly light and courtship communication",
+        "kind": "reference",
+        "url": "https://www.nps.gov/grsm/learn/nature/fireflies.htm"
+      },
+      {
+        "id": "fungi",
+        "label": "Missouri Department of Conservation: Nature’s Night Shift, foxfire on PDF pages 2–3",
+        "kind": "reference",
+        "url": "https://mdc.mo.gov/sites/default/files/2021-10/E00063%20NaturesNightShift_WEB.pdf"
+      },
+      {
+        "id": "scorpions",
+        "label": "Queensland Museum: scorpion fluorescence, July 9, 2018",
+        "kind": "reference",
+        "url": "https://blog.qm.qld.gov.au/2018/07/09/ask-an-expert/"
+      },
+      {
+        "id": "angler",
+        "label": "Smithsonian Ocean: bioluminescence, Feeding section",
+        "kind": "reference",
+        "url": "https://ocean.si.edu/ocean-life/fish/bioluminescence"
+      },
+      {
+        "id": "squid",
+        "label": "UCSB Bioluminescence Web: squid counterillumination",
+        "kind": "reference",
+        "url": "https://biolum.eemb.ucsb.edu/organism/squid.html"
+      },
+      {
+        "id": "dragon",
+        "label": "UCSB Bioluminescence Web: dragonfish red light and vision",
+        "kind": "reference",
+        "url": "https://biolum.eemb.ucsb.edu/organism/dragon.html"
+      }
+    ],
+    "playMode": "solo",
+    "note": "Eight distinct natural phenomena, not a species-name exam. The San Diego example is a May 2018 report, not a current bloom. Firefly displays are not promised for October. Text only; no animal handling, field experiment or universal claim that all red tides glow."
   }
 ]

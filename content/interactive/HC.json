@@ -10760,5 +10760,292 @@
     ],
     "note": "A source-based look at recorded Irish customs, with regional and historical limits. Supernatural and fortune-telling beliefs are described as beliefs. No copied museum images or instructions to recreate risky practices.",
     "playMode": "solo"
+  },
+  {
+    "id": "HC-28",
+    "slug": "sleepy-hollow-the-chase-and-the-wink",
+    "categoryId": "history-culture",
+    "title": "Sleepy Hollow: The Chase and the Wink",
+    "description": "Enter Irving’s ghost tale through eight short retold fragments. Follow a hungry schoolmaster, a jealous rival and a midnight chase—then discover why the ending keeps two explanations alive.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 8,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Before the Ride"
+      },
+      {
+        "id": "s2",
+        "title": "The Road Changes"
+      },
+      {
+        "id": "s3",
+        "title": "After the Chase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "What tension in Ichabod’s character makes this opening more interesting than a simple portrait of a wise teacher?",
+        "explanation": "The opening lets reputation and judgment pull apart: learning gives Ichabod social standing without protecting him from credulity. This is a character reading of Irving’s fiction.",
+        "sourceIds": [
+          "irving"
+        ],
+        "context": "Original paraphrase of Irving’s fiction. Ichabod Crane teaches the children of Sleepy Hollow and earns extra money giving singing lessons. His neighbours treat him as learned. He eagerly reads accounts of witchcraft, exchanges ghost tales beside warm fires, and walks home alarmed by the sounds outside.",
+        "options": [
+          {
+            "id": "a",
+            "label": "His neighbours admire his learning, but he readily accepts frightening stories"
+          },
+          {
+            "id": "b",
+            "label": "His neighbours distrust his reading, but he refuses to believe any local story"
+          },
+          {
+            "id": "c",
+            "label": "He secretly dislikes teaching and never speaks outside the school"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which reading of Ichabod’s courtship best accounts for the future he imagines?",
+        "explanation": "He imagines both marriage and converting the estate into a different future. The passage supports mixed desire, not either pure romance or complete indifference to Katrina.",
+        "sourceIds": [
+          "irving"
+        ],
+        "context": "Original paraphrase. Katrina Van Tassel is the farmer’s only child. Ichabod admires her, then surveys the abundant animals, fields and household comforts. In his imagination the animals become meals, the property becomes money, and he and Katrina travel west with their future family.",
+        "options": [
+          {
+            "id": "a",
+            "label": "He mainly wants to preserve the Van Tassel farm exactly as it is"
+          },
+          {
+            "id": "b",
+            "label": "He wants Katrina to give up the inheritance before marrying him"
+          },
+          {
+            "id": "c",
+            "label": "His attraction to Katrina is entangled with appetite and material ambition"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Why does the dance make the coming rivalry more than an abstract competition between two suitors?",
+        "explanation": "The scene puts Ichabod’s hopeful performance beside Brom’s jealousy. It raises the stakes of the rivalry without turning a dance into a promise of marriage.",
+        "sourceIds": [
+          "irving"
+        ],
+        "context": "Original paraphrase. At the Van Tassel gathering, Ichabod dances energetically with Katrina, who smiles at him. Brom Bones, the confident horseman who also courts her, sits apart in jealous silence. Later, the guests trade tales of war and the Headless Horseman.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Katrina’s smile settles which suitor she will eventually marry"
+          },
+          {
+            "id": "b",
+            "label": "Ichabod receives visible encouragement while Brom has to watch"
+          },
+          {
+            "id": "c",
+            "label": "Brom’s silence shows he has withdrawn from the rivalry"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "The narration leaves a door closed. How far can you carry each conclusion about the private conversation?",
+        "explanation": "Ichabod’s changed manner supports disappointment. The narrator supplies no exact dialogue or promise, so the specific cause remains an inference rather than a transcript.",
+        "sourceIds": [
+          "irving"
+        ],
+        "context": "Original paraphrase. Ichabod stays after the party to speak privately with Katrina. The narrator admits he does not know what they said. Ichabod soon emerges dejected and rides away, paying no attention to the wealth that delighted him earlier.",
+        "cells": [
+          {
+            "id": "mood",
+            "label": "The meeting appears to have disappointed Ichabod",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported by his changed manner"
+              },
+              {
+                "id": "b",
+                "label": "Contradicted by his changed manner"
+              },
+              {
+                "id": "c",
+                "label": "An exact statement spoken by Katrina"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "words",
+            "label": "Katrina explicitly promised to marry Brom during that conversation",
+            "options": [
+              {
+                "id": "a",
+                "label": "Established by the supplied dialogue"
+              },
+              {
+                "id": "b",
+                "label": "Possible, but not established by this telling"
+              },
+              {
+                "id": "c",
+                "label": "Impossible because Ichabod danced with her"
+              }
+            ],
+            "correct": "b"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What does this sequence do to the next frightening thing Ichabod sees?",
+        "explanation": "Earlier mistakes make the reader cautious about Ichabod’s perceptions. They explain his fear and create doubt, but do not logically identify the rider who appears next.",
+        "sourceIds": [
+          "irving"
+        ],
+        "context": "Original paraphrase. On the dark road, a whistle seems to answer Ichabod, until he recognises wind in the branches. A pale shape on a tree resolves into exposed wood, and a groan into rubbing boughs. Farther on, a large silent figure beside the brook begins to move.",
+        "options": [
+          {
+            "id": "a",
+            "label": "It establishes that the next figure must also be a tree"
+          },
+          {
+            "id": "b",
+            "label": "It makes his fear impossible to understand"
+          },
+          {
+            "id": "c",
+            "label": "It gives readers reason to question his first interpretation without settling the next encounter"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each detail of the chase to its particular effect on Ichabod’s predicament.",
+        "explanation": "The saddle adds a mundane loss to supernatural terror; the bridge offers reassurance borrowed from a tale; the hurled object defeats that reassurance. These functions differ even though all occur in one chase.",
+        "sourceIds": [
+          "irving"
+        ],
+        "context": "Original paraphrase. The silent rider keeps pace when Ichabod speeds up and slows down. Against the sky, the rider seems headless, with a head on the saddle. Ichabod flees; his own saddle falls and is trampled. He remembers Brom’s tale of a ghost vanishing at the church bridge and rushes across. Looking back for that disappearance, he instead sees the rider hurl the supposed head. It knocks him down.",
+        "left": [
+          {
+            "id": "saddle",
+            "label": "The borrowed saddle falls under the pursuer’s hooves"
+          },
+          {
+            "id": "bridge",
+            "label": "The church bridge comes into view"
+          },
+          {
+            "id": "missile",
+            "label": "The rider throws the apparent head"
+          }
+        ],
+        "right": [
+          {
+            "id": "reversal",
+            "label": "Turns an expected escape into a final blow"
+          },
+          {
+            "id": "ordinary",
+            "label": "Adds a practical worry about damaged borrowed equipment"
+          },
+          {
+            "id": "hope",
+            "label": "Offers a hoped-for boundary to the pursuit"
+          }
+        ],
+        "pairs": {
+          "saddle": "ordinary",
+          "bridge": "hope",
+          "missile": "reversal"
+        }
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Which ending preserves what these details allow the reader to suspect without pretending the mystery is solved?",
+        "explanation": "The pumpkin, rivalry and knowing laughter invite a human-prank reading. A later report offers an ordinary future for Ichabod. Neither is a witnessed confession or proof of a supernatural event.",
+        "sourceIds": [
+          "irving"
+        ],
+        "context": "Original paraphrase. The next day, searchers find Ichabod’s hat and a broken pumpkin, but no body. Years later a farmer reports that Ichabod lived elsewhere and entered the law. Brom marries Katrina and laughs knowingly whenever the pumpkin is mentioned. Some local tellers continue to insist that a ghost took the schoolmaster.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Brom is a plausible prankster behind the chase, but the telling does not conclusively identify the rider"
+          },
+          {
+            "id": "b",
+            "label": "The recovered hat proves that a ghost carried Ichabod away"
+          },
+          {
+            "id": "c",
+            "label": "The farmer’s later report establishes that Brom confessed"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "What does the postscript change about how we receive the tale?",
+        "explanation": "The final frame exposes an entertainer behind the account. Readers can enjoy the scare while recognising that the teller is shaping an audience’s response; the postscript offers a wink, not a definitive culprit.",
+        "sourceIds": [
+          "irving"
+        ],
+        "context": "Original paraphrase. A postscript says the account was heard from an entertaining older man at a meeting. When a listener asks what the story proves, the teller offers an absurd chain of reasoning about rejection leading to career success. Pressed about the tale’s extravagance, he admits that he doubts much of his own story.",
+        "options": [
+          {
+            "id": "a",
+            "label": "It delivers a serious lesson that romantic rejection guarantees success"
+          },
+          {
+            "id": "b",
+            "label": "It makes the performance of storytelling part of the mystery"
+          },
+          {
+            "id": "c",
+            "label": "It turns the entertaining speaker into a reliable eyewitness to the chase"
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "sources": [
+      {
+        "id": "irving",
+        "label": "Washington Irving: The Legend of Sleepy Hollow, complete public-domain text at Project Gutenberg",
+        "kind": "reference",
+        "url": "https://www.gutenberg.org/files/41/41-h/41-h.htm"
+      }
+    ],
+    "playMode": "solo",
+    "note": "All fragments are original paraphrases of Irving’s public-domain fiction, supplied here so no prior reading is needed. This is the schoolmaster’s story, not a film detective adaptation. Events belong to the telling; neither a real ghost nor Brom’s identity as the rider is proved."
   }
 ]

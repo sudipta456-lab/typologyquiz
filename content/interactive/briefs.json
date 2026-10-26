@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 27,
+      "count": 28,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 27,
+      "count": 28,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 27,
+      "count": 28,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 27,
+      "count": 28,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 27,
+      "count": 28,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -5819,6 +5819,116 @@
       "category": "Logic & Wordplay",
       "category_code": "LW",
       "wave": "daily-2026-10-25",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "PC-28",
+      "title": "The Role Behind Your Mask",
+      "slug": "the-role-behind-your-mask",
+      "kind": "preference",
+      "hook": "At a fictional Halloween masquerade, choose what to reveal, what to prepare and what to invent in the moment. Discover the kind of role you would actually want to play.",
+      "rounds": [
+        "3 tasks: Accept a Role",
+        "3 tasks: Change the Scene",
+        "2 tasks: Choose Your Last Moment"
+      ],
+      "seed": "You are entrusted with the missing heir’s invitation. How would you most enjoy putting it into the story?",
+      "payoff": "Two descriptive scales: Private Thread/Shared Spotlight and Prepared Scene/Live Improvisation.",
+      "audience": "Teens and adults seeking substantive North American Halloween-season play; no specialist knowledge required for the original stories.",
+      "evidence": "Approved October 26 Halloween treatment queue and calendar relevance; primary-source content checked on 2026-10-26 America/Edmonton. Current research availability is not a search-trend, retention or engagement signal; demonstrated engagement is unknown.",
+      "dependency": "preference",
+      "production_note": "Owner-authorized GPT subscription authoring override. Author draft only. Existing choice/rank/slider controls. Two single-axis choices, one single-axis rank and one slider per dimension; equal four-task exposure. No keyed correctness. Fresh independent review required.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-10-26",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "FS-28",
+      "title": "The Ferry Between Two Promises",
+      "slug": "the-ferry-between-two-promises",
+      "kind": "cooperative",
+      "hook": "Two ghosts wait on opposite shores. Read a cancelled crossing, a kept house key and two unfinished welcomes to discover why neither stopped waiting. Solve together, then choose an ungraded final line.",
+      "rounds": [
+        "3 tasks: The Empty Crossing",
+        "3 tasks: Two Versions of Goodbye",
+        "2 tasks: Carry the Answer"
+      ],
+      "seed": "What should your group investigate first to explain the repeated crossing?",
+      "payoff": "Resolve two mistaken goodbyes through undelivered invitations, then see a fixed reunion and choose an ungraded inscription.",
+      "audience": "Teens and adults seeking substantive North American Halloween-season play; no specialist knowledge required for the original stories.",
+      "evidence": "Approved October 26 Halloween treatment queue and calendar relevance; primary-source content checked on 2026-10-26 America/Edmonton. Current research availability is not a search-trend, retention or engagement signal; demonstrated engagement is unknown.",
+      "dependency": "social",
+      "production_note": "Owner-authorized GPT subscription authoring override. Author draft only. One shared cooperative attempt in the solo player; pass the device or reader role voluntarily. Seven scored tasks plus one unscored creative choice; fixed ending, no branching. Fresh independent review required.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-10-26",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "SN-28",
+      "title": "Eight Lights in the Dark",
+      "slug": "eight-lights-in-the-dark",
+      "kind": "knowledge",
+      "hook": "Blue surf, rainbow combs, luminous wood and a predator’s private searchlight: discover eight reasons the natural world can look otherworldly. Some creatures make light; others transform light arriving from outside.",
+      "rounds": [
+        "3 tasks: At the Water’s Edge",
+        "2 tasks: Lights on Land",
+        "3 tasks: Hide and Hunt"
+      ],
+      "seed": "In the May 2018 San Diego display reported by Scripps, what made breaking waves flash blue at night?",
+      "payoff": "Distinguish light-making from external-light effects and discover light used for courtship, camouflage and hunting.",
+      "audience": "Teens and adults seeking substantive North American Halloween-season play; no specialist knowledge required for the original stories.",
+      "evidence": "Approved October 26 Halloween treatment queue and calendar relevance; primary-source content checked on 2026-10-26 America/Edmonton. Current research availability is not a search-trend, retention or engagement signal; demonstrated engagement is unknown.",
+      "dependency": "base",
+      "production_note": "Owner-authorized GPT subscription authoring override. Author draft only. Eight distinct phenomena; question-level primary institutional/scientific sources. Historical bloom is dated; external-light rainbow distinguished from bioluminescence. Fresh independent factual review required.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-10-26",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "HC-28",
+      "title": "Sleepy Hollow: The Chase and the Wink",
+      "slug": "sleepy-hollow-the-chase-and-the-wink",
+      "kind": "knowledge",
+      "hook": "Enter Irving’s ghost tale through eight short retold fragments. Follow a hungry schoolmaster, a jealous rival and a midnight chase—then discover why the ending keeps two explanations alive.",
+      "rounds": [
+        "3 tasks: Before the Ride",
+        "3 tasks: The Road Changes",
+        "2 tasks: After the Chase"
+      ],
+      "seed": "What tension in Ichabod’s character makes this opening more interesting than a simple portrait of a wise teacher?",
+      "payoff": "Follow desire, rivalry and chase, then understand why its human-prank possibility and supernatural telling remain unresolved.",
+      "audience": "Teens and adults seeking substantive North American Halloween-season play; no specialist knowledge required for the original stories.",
+      "evidence": "Approved October 26 Halloween treatment queue and calendar relevance; primary-source content checked on 2026-10-26 America/Edmonton. Current research availability is not a search-trend, retention or engagement signal; demonstrated engagement is unknown.",
+      "dependency": "base",
+      "production_note": "Owner-authorized GPT subscription authoring override. Author draft only. Original paraphrases of the complete public-domain Irving text. Story comprehension across varied tasks; ambiguous ending retained. LOC access limitation recorded. Fresh independent literary/content review required.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-10-26",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "FE-28",
+      "title": "The Secret Life of Halloween Treats",
+      "slug": "the-secret-life-of-halloween-treats",
+      "kind": "knowledge",
+      "hook": "Why does popcorn burst, a marshmallow feel airy and a mint seem cold? Uncover eight food-science surprises hiding in a Halloween treat bowl—right down to the crystals you cannot feel.",
+      "rounds": [
+        "3 tasks: Air, Steam and a Pop",
+        "3 tasks: Flavour Can Fool You",
+        "2 tasks: What the Surface Hides"
+      ],
+      "seed": "Put the main events of a popcorn kernel’s transformation in causal order.",
+      "payoff": "Eight discoveries spanning pressure, foam, trapped gas, browning, sourness, sensory signalling, bloom and crystal size.",
+      "audience": "Teens and adults seeking substantive North American Halloween-season play; no specialist knowledge required for the original stories.",
+      "evidence": "Approved October 26 Halloween treatment queue and calendar relevance; primary-source content checked on 2026-10-26 America/Edmonton. Current research availability is not a search-trend, retention or engagement signal; demonstrated engagement is unknown.",
+      "dependency": "base",
+      "production_note": "Owner-authorized GPT subscription authoring override. Author draft only. Eight distinct food-science phenomena, replacing inventory arithmetic. No health/safety advice, recipes or media. Exact factual scopes verified in accessible page text/PDF. Fresh independent factual review required.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-10-26",
       "evidence_class": "seasonal"
     }
   ]

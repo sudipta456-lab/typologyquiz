@@ -10396,5 +10396,299 @@
     ],
     "note": "An original, non-graphic ghost mystery. One group, one shared attempt: take turns reading clues and agree on answers, or play solo. The optional ending line is not saved. This is an authored story, not a generated narrative.",
     "playMode": "solo"
+  },
+  {
+    "id": "FS-28",
+    "slug": "the-ferry-between-two-promises",
+    "categoryId": "friends-social-play",
+    "title": "The Ferry Between Two Promises",
+    "description": "Two ghosts wait on opposite shores. Read a cancelled crossing, a kept house key and two unfinished welcomes to discover why neither stopped waiting. Solve together, then choose an ungraded final line.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 8,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "The Empty Crossing"
+      },
+      {
+        "id": "s2",
+        "title": "Two Versions of Goodbye"
+      },
+      {
+        "id": "s3",
+        "title": "Carry the Answer"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "What should your group investigate first to explain the repeated crossing?",
+        "explanation": "Both figures attend to the arriving boat rather than its route or name. Their empty-handed waiting makes an undelivered exchange the strongest lead, without yet revealing what it was.",
+        "sourceIds": [
+          "story"
+        ],
+        "context": "Original fiction. Every Halloween an empty ferry crosses Bellwater Reach. On the west steps, Jonah rises when it docks. On the east steps, his sister Ada does the same. Each holds out a hand, then lowers it when nobody steps ashore. Neither tries to board. Your group has the old ferry office for one night.",
+        "options": [
+          {
+            "id": "a",
+            "label": "What each waiting figure expected to receive from the other shore"
+          },
+          {
+            "id": "b",
+            "label": "Whether each figure is trying to keep the ferry from sailing"
+          },
+          {
+            "id": "c",
+            "label": "Whether the crossing reenacts a passenger’s final voyage"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Why is the unopened envelope stronger evidence of an interrupted delivery than of Jonah refusing Ada’s message?",
+        "explanation": "The office is on the east shore with Ada. The letter never acquired the west-shore delivery mark, and the crossing was cancelled. Those details establish interruption; they do not establish a refusal by its intended reader.",
+        "sourceIds": [
+          "story"
+        ],
+        "context": "Original story fragment. Inside the east-shore office is an envelope addressed to Jonah at the west orchard. Ada signed it. The receipt says it was accepted for the final westbound sailing; the delivery space is blank. Beside it, ferryman Lio’s dated log records a broken cable and cancellation of that sailing. The envelope remains sealed.",
+        "options": [
+          {
+            "id": "a",
+            "label": "It contains a request that Jonah had already answered"
+          },
+          {
+            "id": "b",
+            "label": "Its journey stopped on Ada’s side before it could reach Jonah"
+          },
+          {
+            "id": "c",
+            "label": "Its paper is older than the cancellation notice"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each person to the immediate aim best supported by their actions that night.",
+        "explanation": "Ada invests in a future across the water; Jonah prepares a welcome at home; Lio tries to carry a message without using the damaged ferry. Their aims can coexist even though their plans fail to meet.",
+        "sourceIds": [
+          "story"
+        ],
+        "context": "Original story fragment. Ada had already sent her drawing tools to an east-side mapmaking apprenticeship. Jonah set two places at the west orchard’s kitchen table and left the outside light burning. Lio tied the ferry out of service, then gave the envelope to a road traveller; the traveller returned it after finding the road flooded.",
+        "left": [
+          {
+            "id": "ada",
+            "label": "Ada"
+          },
+          {
+            "id": "jonah",
+            "label": "Jonah"
+          },
+          {
+            "id": "lio",
+            "label": "Lio"
+          }
+        ],
+        "right": [
+          {
+            "id": "message",
+            "label": "Find another way to carry the letter"
+          },
+          {
+            "id": "future",
+            "label": "Begin a different working life"
+          },
+          {
+            "id": "welcome",
+            "label": "Make room for a return home"
+          }
+        ],
+        "pairs": {
+          "ada": "future",
+          "jonah": "welcome",
+          "lio": "message"
+        }
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Reconstruct the journey of Ada and then her message, from these records.",
+        "explanation": "Ada must reach the east counter before signing its receipt. That receipt then accompanies Lio’s road request. Her own crossing succeeded; the message’s return journey did not.",
+        "sourceIds": [
+          "story"
+        ],
+        "context": "Original records. Ada began the afternoon at the west orchard. Her later receipt carries her signature, written at the east office counter. Lio’s request to the road traveller encloses that receipt and explains that the only ferry is now tied up with a broken cable.",
+        "items": [
+          {
+            "id": "road",
+            "label": "Lio entrusts the envelope to a traveller trying the road"
+          },
+          {
+            "id": "letter",
+            "label": "Ada hands in the envelope at the east office"
+          },
+          {
+            "id": "crossing",
+            "label": "Ada travels from the orchard side to the east shore"
+          }
+        ],
+        "correctOrder": [
+          "crossing",
+          "letter",
+          "road"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What does the key add to the meaning of Ada’s departure?",
+        "explanation": "A future elsewhere and a way back can exist together. Keeping the household key complicates Jonah’s interpretation of a permanent rejection; it does not cancel Ada’s new work.",
+        "sourceIds": [
+          "story"
+        ],
+        "context": "Original story fragment. Earlier that day the siblings argued. Jonah’s unsent note remembers Ada taking her trunk and assumes she wanted no further tie to the orchard. But inside Ada’s coat the group finds her old house key, wrapped in a fresh label in her hand: Keep for visits. Her apprenticeship travel papers are still beside it.",
+        "options": [
+          {
+            "id": "a",
+            "label": "She meant Jonah to sell the orchard immediately"
+          },
+          {
+            "id": "b",
+            "label": "She had abandoned the apprenticeship before it began"
+          },
+          {
+            "id": "c",
+            "label": "She wanted leaving to remain compatible with belonging at home"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Step into each sibling’s position: which crucial fact was missing from what they could know that night?",
+        "explanation": "The two papers were never exchanged. Jonah could see a departure but not the invitation across the water; Ada could invite him but could not see his prepared place at home. The player knows more than either sibling did.",
+        "sourceIds": [
+          "story"
+        ],
+        "context": "Original story fragment. The group finally opens Ada’s undelivered letter: she asks Jonah to come east before her morning coach, so they can part without the argument as their last conversation. Jonah’s unsent west-side note invites her to supper and says he will keep a place ready. Neither paper reached its reader that night.",
+        "cells": [
+          {
+            "id": "jonah",
+            "label": "Jonah, waiting at the west orchard",
+            "options": [
+              {
+                "id": "a",
+                "label": "Ada wanted him to visit the east landing before the coach"
+              },
+              {
+                "id": "b",
+                "label": "Ada had taken her trunk away from the orchard"
+              },
+              {
+                "id": "c",
+                "label": "The orchard kitchen had a place set for her"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "ada",
+            "label": "Ada, waiting on the east shore",
+            "options": [
+              {
+                "id": "a",
+                "label": "Her new work was on the east side"
+              },
+              {
+                "id": "b",
+                "label": "Jonah had left a place for her at supper"
+              },
+              {
+                "id": "c",
+                "label": "She had asked Jonah to meet before the coach"
+              }
+            ],
+            "correct": "b"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Which discovery resolves both siblings’ mistaken versions of the goodbye?",
+        "explanation": "The letter and supper place answer different fears: Jonah was invited into Ada’s departure, and Ada still had a place at home. Neither invitation required them to choose the same life. The cancelled delivery let both mistake silence for rejection.",
+        "sourceIds": [
+          "story"
+        ],
+        "context": "Original story fragment. When the two papers are laid side by side, the ghosts finally speak. Jonah remembers only the departing trunk; Ada remembers the empty bench beside her at the east landing. Lio has kept the envelope all these years. Your group can now explain the empty hand each sibling offered the ferry.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ada’s invitation proves Jonah had agreed to join the apprenticeship"
+          },
+          {
+            "id": "b",
+            "label": "Jonah’s supper place proves Ada had promised to abandon her journey"
+          },
+          {
+            "id": "c",
+            "label": "Each had made a welcome that the other never learned about"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Choose a final line your group would place beside the ferry bell—or select “Keep the silence” and leave it unwritten.",
+        "explanation": "There is no correct inscription. These lines place different emphasis on the same resolved story; your choice does not change its ending or your accuracy score.",
+        "sourceIds": [
+          "story"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A door can stay open after someone leaves"
+          },
+          {
+            "id": "b",
+            "label": "The water carried two different versions of goodbye"
+          },
+          {
+            "id": "c",
+            "label": "There was room at both tables"
+          },
+          {
+            "id": "d",
+            "label": "Keep the silence; add no line"
+          }
+        ],
+        "unscored": true,
+        "context": "Original ending, the same for every attempt. Lio reads Ada’s letter toward the west and Jonah’s note toward the east. Ada lifts her house key. Jonah takes down the untouched second cup and carries it onto the ferry. For the first time, someone is aboard when it crosses. At the east steps, the siblings sit together until the morning coach bell sounds. When your group looks again, only the cup remains."
+      }
+    ],
+    "sources": [
+      {
+        "id": "story",
+        "label": "Original fiction: The Ferry Between Two Promises, including all letters, observations and records",
+        "kind": "original"
+      }
+    ],
+    "playMode": "solo",
+    "note": "An original, non-graphic ghost story. Suggested cooperative pass-and-play: share one device, take turns reading the next fragment aloud, discuss and submit one shared answer. There are no private player turns, hidden roles or branching outcomes. Solo play also works. The final creative choice is ungraded."
   }
 ]

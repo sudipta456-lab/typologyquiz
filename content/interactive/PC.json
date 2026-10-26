@@ -9453,5 +9453,304 @@
         "description": "How much you chose to participate in these fictional scenes."
       }
     ]
+  },
+  {
+    "id": "PC-28",
+    "slug": "the-role-behind-your-mask",
+    "categoryId": "personality-choices",
+    "title": "The Role Behind Your Mask",
+    "description": "At a fictional Halloween masquerade, choose what to reveal, what to prepare and what to invent in the moment. Discover the kind of role you would actually want to play.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Accept a Role"
+      },
+      {
+        "id": "s2",
+        "title": "Change the Scene"
+      },
+      {
+        "id": "s3",
+        "title": "Choose Your Last Moment"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "You are entrusted with the missing heir’s invitation. How would you most enjoy putting it into the story?",
+        "explanation": "This choice places your preferred version of this scene along Private Thread–Shared Spotlight. Intimate exchanges and a room-wide moment offer different kinds of involvement.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original fictional masquerade: you play a courier at a house whose absent heir may return tonight. Each version moves the story forward; the tradeoff is who shares the discovery.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Arrange a charged meeting with one guest; the rest of the room may never know",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Let a small circle uncover it, then decide together whether to announce it",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Interrupt the masked reception with a reveal everyone can react to",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "You can shape your courier’s entrance. Which freedom would you choose?",
+        "explanation": "This choice places your preferred version of this scene along Prepared Scene–Live Improvisation. Preparation offers a crafted shape; improvisation offers room to respond.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original scene: all three versions give you the same important role and the same speaking time. You decide how much of it exists before the doors open.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Write a precise entrance and practise it; keep the wording when the room gets noisy",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Prepare an opening line and a few facts, leaving the exchange open",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Know only what the courier wants and invent the entrance from what guests do",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "rank",
+        "prompt": "Rank the roles you would most want for the next scene, most appealing first.",
+        "explanation": "This ranking contributes only to Private Thread–Shared Spotlight. Every role has agency; the difference is the size of the moment you share.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original scene: a borrowed family name has opened the wrong door. All three roles can uncover what happened, but you can take only one.",
+        "items": [
+          {
+            "id": "a",
+            "label": "The confidant who pursues one guest’s hidden reason for borrowing the name",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "The table host who draws three guests’ conflicting accounts into one conversation",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "The herald who brings the disputed identity before the whole gathering",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Only one version of your discovery can be staged. Which would feel most rewarding?",
+        "explanation": "This choice places your preferred version of this scene along Private Thread–Shared Spotlight. Intimate exchanges and a room-wide moment offer different kinds of involvement.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original scene: you have found an old invitation that changes why the heir stayed away. All versions disclose the same fictional information; none exposes a real person’s secret. A wider audience costs you the intimate exchange.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Give the heir a private chance to respond, keeping that conversation between you",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Let your table hear the response, then carry a short account to the room",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ask the heir in front of everyone, letting the whole gathering witness the response",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Your scene partner offers a surprising explanation for the old invitation. What working arrangement would you prefer?",
+        "explanation": "This choice places your preferred version of this scene along Prepared Scene–Live Improvisation. Preparation offers a crafted shape; improvisation offers room to respond.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original scene: you and your partner have equal say. The audience and stakes stay the same; you choose the balance between a shaped payoff and discovery while performing.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Agree on the explanation before performing, so the clues lead to a deliberate ending",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Keep an agreed ending but invent how your characters reach it",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Let the explanation arrive during the scene and build the ending together",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "rank",
+        "prompt": "Rank these ways of creating a final exchange, most appealing first.",
+        "explanation": "This ranking contributes only to Prepared Scene–Live Improvisation. It compares different ways of making the same small scene, with no skill judgment.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original scene: you will perform a two-person farewell. Each option has the same audience and importance.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Rehearse the exchange until a small repeated gesture carries the ending",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Agree on the final gesture, but leave the words open",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Discover both words and gesture by responding to your partner in the moment",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "slider",
+        "prompt": "How would you divide your final scene between a private thread and a shared spotlight?",
+        "explanation": "The slider describes where you would place the evening’s final attention. A middle position can preserve both kinds of connection.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original scene: your courier must return the invitation. Imagine a continuum from an exchange noticed by one other character to a farewell witnessed by the room.",
+        "lowLabel": "An exchange for two",
+        "highLabel": "A moment for the room",
+        "dimension": 0
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "slider",
+        "prompt": "How much of your next masquerade role would you want to discover while playing it?",
+        "explanation": "This final choice contributes to Prepared Scene–Live Improvisation. Your result combines four contributions per scale; it describes your choices tonight, not a fixed identity.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Original reflection: keep the role and audience you want. Only change how much you settle beforehand.",
+        "lowLabel": "Shape it beforehand",
+        "highLabel": "Discover it as I play",
+        "dimension": 1
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original masquerade scenes and descriptive preference mappings, authored for TypologyQuiz",
+        "kind": "original"
+      }
+    ],
+    "playMode": "solo",
+    "note": "Original fiction. All roles involve active participation; these choices concern how you shape a scene, not bravery or sociability. Results describe this attempt only: no diagnosis, validated personality type or better pole. Each dimension receives four equally weighted task contributions.",
+    "dimensions": [
+      {
+        "id": "attention",
+        "low": "Private Thread",
+        "high": "Shared Spotlight",
+        "description": "Private Thread favours discoveries exchanged with a few people; Shared Spotlight favours moments the room can experience together. Either can involve leadership, invention and connection."
+      },
+      {
+        "id": "process",
+        "low": "Prepared Scene",
+        "high": "Live Improvisation",
+        "description": "Prepared Scene favours shaping details in advance; Live Improvisation favours shaping them in response to others. Neither indicates greater creativity or competence."
+      }
+    ]
   }
 ]

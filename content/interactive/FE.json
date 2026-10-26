@@ -11362,5 +11362,323 @@
     ],
     "note": "Original questions using museum, archive and manufacturer accounts. Brand histories are attributed; uncertain naming stories remain uncertain. No product endorsement, copied packaging art or dietary advice.",
     "playMode": "solo"
+  },
+  {
+    "id": "FE-28",
+    "slug": "the-secret-life-of-halloween-treats",
+    "categoryId": "food-everyday-life",
+    "title": "The Secret Life of Halloween Treats",
+    "description": "Why does popcorn burst, a marshmallow feel airy and a mint seem cold? Uncover eight food-science surprises hiding in a Halloween treat bowl—right down to the crystals you cannot feel.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Air, Steam and a Pop"
+      },
+      {
+        "id": "s2",
+        "title": "Flavour Can Fool You"
+      },
+      {
+        "id": "s3",
+        "title": "What the Surface Hides"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Put the main events of a popcorn kernel’s transformation in causal order.",
+        "explanation": "Internal water vapour creates pressure against the hull. When the hull fails, the expanding interior forms the familiar puffed starch structure. The sequence describes a mechanism, not a cooking method.",
+        "sourceIds": [
+          "popcorn"
+        ],
+        "items": [
+          {
+            "id": "break",
+            "label": "The hull gives way under internal pressure"
+          },
+          {
+            "id": "water",
+            "label": "Heating raises water-vapour pressure inside the closed kernel"
+          },
+          {
+            "id": "expand",
+            "label": "The released interior expands into a puffed starch flake"
+          }
+        ],
+        "correctOrder": [
+          "water",
+          "break",
+          "expand"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "What invisible ingredient helps a conventional marshmallow occupy so much space without feeling like a solid sugar cube?",
+        "explanation": "The usual marshmallow is an aerated sugar mixture supported by gelatin. Many small gas spaces, rather than one hollow centre, account for its foam structure.",
+        "sourceIds": [
+          "foam"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Tiny salt crystals that repel one another"
+          },
+          {
+            "id": "b",
+            "label": "Air held in a foam stabilised by gelatin"
+          },
+          {
+            "id": "c",
+            "label": "A single hollow space inside a hard sugar shell"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Popping candy crackles as it dissolves. Where does the gas responsible for the pops come from?",
+        "explanation": "Dissolving sugar frees pressurised carbon dioxide already inside the candy. The popping is a physical release, not evidence that the mouth has made a new gas.",
+        "sourceIds": [
+          "pop"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Carbon dioxide trapped under pressure during manufacture"
+          },
+          {
+            "id": "b",
+            "label": "A new gas made when sugar reacts with saliva"
+          },
+          {
+            "id": "c",
+            "label": "Oxygen released as the candy warms up"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "q4",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Brown colour can have more than one chemical route. Assess these two explanations.",
+        "explanation": "Caramelisation changes heated sugars. Maillard browning involves reducing sugars and proteins. The colour alone does not identify which reactions made a particular sweet.",
+        "sourceIds": [
+          "caramel"
+        ],
+        "cells": [
+          {
+            "id": "plain",
+            "label": "Plain sugar can develop brown colour without added protein",
+            "options": [
+              {
+                "id": "a",
+                "label": "Possible through caramelisation"
+              },
+              {
+                "id": "b",
+                "label": "Impossible; protein is always required"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "dairy",
+            "label": "A brown dairy caramel must owe all its colour to caramelisation alone",
+            "options": [
+              {
+                "id": "a",
+                "label": "Established by its brown colour"
+              },
+              {
+                "id": "b",
+                "label": "Not established; Maillard reactions can also contribute"
+              }
+            ],
+            "correct": "b"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which ingredient can make a sweet taste sour even while sugar keeps it sweet?",
+        "explanation": "Sour candies can contain acids, including citric acid. Sourness is not a property created merely by a powdery texture or a suggestive colour.",
+        "sourceIds": [
+          "sour"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A finely powdered starch coating"
+          },
+          {
+            "id": "b",
+            "label": "A bright green food colour"
+          },
+          {
+            "id": "c",
+            "label": "An acid such as citric acid"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A mint sweet is at room temperature but produces a cooling sensation. Which explanation fits menthol’s action?",
+        "explanation": "Menthol can activate TRPM8, a receptor involved in cold sensing. The sensation need not mean the sweet was refrigerated. This is a sensory mechanism, not a health claim.",
+        "sourceIds": [
+          "mint"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Dissolving menthol removes enough heat to account for the effect"
+          },
+          {
+            "id": "b",
+            "label": "Menthol activates a cold-sensitive receptor"
+          },
+          {
+            "id": "c",
+            "label": "Menthol shuts down warmth detection without activating a cold sensor"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "q7",
+        "sectionId": "s3",
+        "kind": "match",
+        "prompt": "Two chocolate samples have confirmed bloom. Match the material history to the type.",
+        "explanation": "Fat bloom involves cocoa butter reaching the surface. Moisture can leave sugar crystals behind as it evaporates, producing sugar bloom. This matching describes known material histories, not a diagnosis of an unknown food.",
+        "sourceIds": [
+          "bloom"
+        ],
+        "context": "Original hypothetical samples, both already confirmed to have bloom. Use their supplied histories to distinguish the two types; this is not a safety judgment about an unknown food.",
+        "left": [
+          {
+            "id": "fat",
+            "label": "A warm spell leaves smooth pale streaks"
+          },
+          {
+            "id": "sugar",
+            "label": "Surface condensation dries into rough pale patches"
+          }
+        ],
+        "right": [
+          {
+            "id": "sugarbloom",
+            "label": "Sugar bloom"
+          },
+          {
+            "id": "fatbloom",
+            "label": "Fat bloom"
+          }
+        ],
+        "pairs": {
+          "fat": "fatbloom",
+          "sugar": "sugarbloom"
+        }
+      },
+      {
+        "id": "q8",
+        "sectionId": "s3",
+        "kind": "match",
+        "prompt": "Match each texture to the sugar structure that explains it. One sweet hides its crystals from your tongue.",
+        "explanation": "Smooth fudge contains very small sugar crystals; rock candy deliberately grows large ones. A smooth sensation does not necessarily mean a complete absence of crystals.",
+        "sourceIds": [
+          "crystals"
+        ],
+        "left": [
+          {
+            "id": "fudge",
+            "label": "Smooth, firm fudge"
+          },
+          {
+            "id": "rock",
+            "label": "Rock candy with visible angular pieces"
+          }
+        ],
+        "right": [
+          {
+            "id": "large",
+            "label": "Large sugar crystals"
+          },
+          {
+            "id": "micro",
+            "label": "Tiny sugar crystals"
+          }
+        ],
+        "pairs": {
+          "fudge": "micro",
+          "rock": "large"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "popcorn",
+        "label": "Virot and Ponomarenko (2015): Popcorn: critical temperature, jump and sound, author-hosted paper",
+        "kind": "reference",
+        "url": "https://yakari.polytechnique.fr/Django-pub/documents/virot2015rp-1pp.pdf"
+      },
+      {
+        "id": "foam",
+        "label": "ACS C&EN: marshmallow structure, accessible introductory interview with food scientist Richard Hartel",
+        "kind": "reference",
+        "url": "https://cen.acs.org/food/food-science/s-marshmallows-ingredients-work-together/99/web/2021/04"
+      },
+      {
+        "id": "pop",
+        "label": "ACS: Chemistry Goes Pop!, physical release of trapped carbon dioxide",
+        "kind": "reference",
+        "url": "https://www.acs.org/education/celebrating-chemistry-editions/2021-ncw/pop-rocks.html"
+      },
+      {
+        "id": "caramel",
+        "label": "Richard Hartel / ACS: Candy Chemistry, browning slide on PDF page 19",
+        "kind": "reference",
+        "url": "https://www.acs.org/content/dam/acsorg/events/slides/2014-10-16-candy-chemistry-final.pdf"
+      },
+      {
+        "id": "sour",
+        "label": "ACS: The Sweet Side of Chemistry: Candy!, acid discussion on PDF pages 2 and 5",
+        "kind": "reference",
+        "url": "https://www.acs.org/content/dam/acsorg/education/outreach/celebrating-chemistry/2014-ncw-celebrating-chemistry-english.pdf"
+      },
+      {
+        "id": "mint",
+        "label": "UCSF: cold and menthol sensing, March 2026 research report",
+        "kind": "reference",
+        "url": "https://www.ucsf.edu/news/2026/03/431666/how-body-senses-cold-has-been-mystery-until-now"
+      },
+      {
+        "id": "bloom",
+        "label": "Iowa State University Extension: Chocolate—Shelf Life, Storage, and Bloom; Bloom section only",
+        "kind": "reference",
+        "url": "https://blogs.extension.iastate.edu/answerline/2023/11/07/chocolate-shelf-life-storage-and-bloom/comment-page-1/"
+      },
+      {
+        "id": "crystals",
+        "label": "Exploratorium: What’s special about fudge?",
+        "kind": "reference",
+        "url": "https://annex.exploratorium.edu/cooking/candy/fudge-story.html"
+      }
+    ],
+    "playMode": "solo",
+    "note": "Food science for a seasonal treat bowl. Any party situations are invented illustrations, not experiments or measured products. No cooking directions, temperatures, nutrition advice or food-safety verdicts. Chocolate bloom questions concern material changes only; marshmallow facts concern the conventional gelatin-stabilised kind."
   }
 ]
