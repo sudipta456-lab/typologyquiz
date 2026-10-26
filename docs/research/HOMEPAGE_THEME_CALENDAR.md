@@ -48,3 +48,5 @@ The [HMH monthly school calendar](https://www.hmhco.com/blog/monthly-calendar-th
 ## Verification / release
 
 See `work/homepage-themes/` for the scoped source review, browser captures, production build/discovery/analytics receipts and deployment record. Schedule tests cover every date in several years including leap year, UTC/local boundaries, daylight saving and listener cleanup. Release evidence is appended below only after verified deployment.
+
+Verified release: [October 25, 2026 release and receipts](homepage-themes/2026-10-25/RELEASE.md). Source12242737; Worker cb117c71,100%;300tests pass. Next automatic change November1.

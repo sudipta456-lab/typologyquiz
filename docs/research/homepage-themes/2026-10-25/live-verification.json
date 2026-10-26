@@ -1,0 +1,321 @@
+{
+  "at": "2026-10-26T01:35:52.430747+00:00",
+  "sourceCommit": "122427374a82840d97fede68c918a7464b996ac1",
+  "existingQuizDestinationsVerified": 32,
+  "liveCollection": 270,
+  "sitemapURLs": 854,
+  "analyticsChunk": "_next/static/chunks/0y-x0surv1se5.js",
+  "r2": {
+    "status": 200,
+    "contentType": "image/png",
+    "cacheControl": "public, max-age=31536000, immutable"
+  },
+  "checks": [
+    {
+      "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "5d549af12edd89243312163f5f0d554645c6276084af64420a7855e1b17d0f25"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/tiny-decision-constitution/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "e049301b56400eb337ea8f2071a4c385816f27f7682e673994c9aa64fa5fdb84"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/lost-in-cozy-bookshop/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "66e4b8eab65b3acde1e0aac12c5f039c5cd06d9e0df9a879caf2470097780fe5"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/curiosity-detour/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "92dfb27a819a59f91838488e2565009202b14821f73a203225191894782c5fe2"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/values-auction/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "ed2b0d6cd0248cbebcbe4a9260aa770e6ccbc696f458b6b11e444b9fa7d1fc13"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/place-that-feels-yours/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "976daef1a296f09ead5bf76e685d9124b0f4a80e0ca0d4bbb56ddc9eeab8a7ed"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/pocket-sized-world/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "8caabf6f12cc788e2436280dcfaf016f5bdff77a4045bea34edd003bc61fadce"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/repair-cafe-dilemmas/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "c1bc3d75e9245f90dfa3f63884c4ff3c355de45d4e25c3d3692e879aaeb097d4"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/lost-and-found-relay/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "0b658ceb63e3e6d014695f8dbc347ea95704bc94f743b0bf73b3fbef8517af6f"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/last-bow-lantern-theatre/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "a7b08deb3f36472a42bda9a4fb3b9d9f44d6a919853e4c03d4e6e90d00b33839"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/glasshouse-trailer-misdirection/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "a1a5a623133d5e6ba602d9101f0ab77ac23229afd6ca35713d3048c59715242d"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/unfinished-sign-off-music-mystery/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "749a41c856eb1aed60d8937ed810820c542ec00cd4d2d9e62345df6d25f9e401"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/fog-island-contour-navigation/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "242006efb0ed27eed28098f83a0fae3b4df0ed6e902d4f1f84304e7e6870dbe4"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/spooky-movies-real-places/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "48d47c2d37ca790aa4d02b509b6a1f6329165775acdb53759463beae489593f4"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/backyard-evidence-lab/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "234a70072e1fc164406ad5a1682c1e57cd4194873bdbdd371ee393ab8cb30b3f"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/moon-mission-control/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "61dcfd5febc720c3d2e51d3a379b00b784ec05b389434057877b92c68eb3ac1f"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/scale-shock/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "ccb08af3191f82024a572de4f480d3ac86372f1547721f1491b1b9a32f04dc3d"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/weather-without-forecast/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "006e0fe687ea7280d3cde3708068e0b5f6ce63f36c1e1de393141ea3ca41d07a"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/mystery-material/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "1b58b6ad20936522a74430fd20a3e7fd684feb55616fb28b606ffbcaee0119e4"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/build-a-food-web/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "8e3a86bbb73eeae564c9dc442d3993977f42245644d05c02a1cdefb2432f4efe"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/where-was-the-light/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "4cfbf20cd20eca699df24c42c7a1a87aeb6f82cfa8fab6556b100007c3db4dd1"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/sound-you-cannot-see/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "1ded6ead8175109ceef20f0fcd91094701fd43994089ab85925734e8ca8b5356"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/mineral-scratch-lab/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "12660261f46c80c1e9ae61d11b9dc33adb5d25c61f191dd187dc17de8558a72d"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/bats-beyond-the-vampire-myth/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "50515817735db6b75bb0ab63b361af7e449d4d43a5b3fbe07ba58d53622edcc7"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/museum-of-everyday-objects/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "802d6e0140100f91ffc6212a3fd48225d6bd63625a875efc3b3e0eeff77f1455"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/archive-missing-page/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "c8f3c5d367e29b9ca3f4bdec61f8e42a22b2adbba8b097ada80b9aac8f404041"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/fact-claim-interpretation/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "adbac0db45ac912184f7122607b4331a988e565e83f555e963c850d80d021120"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/how-a-word-crossed-borders/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "9a16bbc6cdcb19d41a313b2dc78f8ba8029c78fc8f69a826a38ae3fe30ba38d4"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/book-place-era/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "5bf104e6e34d13b07b07e6ce6501b064594a4be698df12cbb7fae4b0b7c19da6"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/one-claim-five-echoes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "4ddea7cd467bbd277f86db1da0979656ec055e5cd4946d49a5cce847470698ab"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/night-archive-last-atlas/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "fd8cf2735b07b50d3c47021bb0f77f64ae80c7694d77f03e9df6ef52c1bb81ff"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/cabinet-of-the-borrowed-voice/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "5384b47483f9582c3039e673eb8b6db2a34dac7d630985aad9c48ca86566ca5d"
+    },
+    {
+      "url": "https://typologyquiz.com/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "eaed2446004b2cf4c4564012d3e867b8602cc5d0f5d70d55d644b77344fabcc7"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "386aec26f30b8a1649297363ef442555ebf2d26326497af19867c4e08cedc6f2"
+    },
+    {
+      "url": "https://typologyquiz.com/methodology/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "1a744ad04a227361fadefa81215cdfb140814587b85b2ba7323ad8a9af4f8175"
+    },
+    {
+      "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "45c702f8cf171144b79c81f249d8a667a743be47ae07e260715c8efb8b2dfd2a"
+    },
+    {
+      "url": "https://typologyquiz.com/sitemap.xml",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "6bba17a2bd2d2dd3c5635fdd103c5692c570680709c4365650d7db2882d3aa13"
+    },
+    {
+      "url": "https://typologyquiz.com/llms.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "706089a39db1124dc26714e7f92554a95967290d25d7067d82a8f93241a2eee2"
+    },
+    {
+      "url": "https://typologyquiz.com/robots.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/01599w_myoj4b.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "ddf01cbe0bffab06bf5cd0664f46a4521b8fa9ace145ac4c049148ec9fd2881b"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/0ox6tgioa9ave.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "249154556f5540ce2ad2167f33b346a5b62d89b320dc93f7a5be0e5f8a2ba7f8"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/0rtj0mnej0r3_.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "31a2eac495f1d30d56dc81ca7c2b4abd19aea9cf3295c6d312ff77b94511da8f"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/0vgk4ncrfui_u.css",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "bcbe84943e841844720476eb94cabc101d3d1cb9b0ac1f766bc84b3468426bb2"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/0y-x0surv1se5.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "e0b8dbc683796897c5f3f33668e5f8a82e5666256f76a3ca10e92ba1290a7835"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/13oeb3q5hkpc1.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "6ad1c9042aed458db6e79c6ce6f87042220abb1ee7e6f3660a3f53760ae69679"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/14mrh2-p_w84d.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "a3ac200f3ab8bfa57cf78882057741ddb5c0fbc9e2490c5d951c099b37484206"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/1xmpzs6m21ao6.css",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "9b91107db79bd33e2424d45f42787ec252ee68278671a7b4f5e985ed33339297"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/27jktro2p5rq9.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "5261101892e2476e4346e19e86fd5f19cbcf7c765ff76e92eb9cefcc86b6db6a"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/3pb-kepl6ojnj.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "13952181f4bb89aced685bb5328e7eef1306120514dd7e8ac59e2cb843974fec"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/turbopack-3tomk7057ip8m.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "e9e1fdd254cf72c93380537abef95d80bc399fbe88e2afa9e028e6c7e370ceb7"
+    }
+  ]
+}

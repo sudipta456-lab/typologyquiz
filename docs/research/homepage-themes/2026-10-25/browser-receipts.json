@@ -1,0 +1,452 @@
+{
+  "desktopChecks": [
+    {
+      "heading": "A new year. An open tab.",
+      "motif": "orbit",
+      "name": "Fresh page",
+      "panelHeight": 621.5859375,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Send a little curiosity.",
+      "motif": "signal",
+      "name": "Better together",
+      "panelHeight": 621.5859375,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Notice the small things.",
+      "motif": "garden",
+      "name": "New growth",
+      "panelHeight": 621.5859375,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Keep your curiosity human.",
+      "motif": "signal",
+      "name": "Human in the loop",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "For the plot. And the footnotes.",
+      "motif": "paper",
+      "name": "Margin notes",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "One planet. Endless rabbit holes.",
+      "motif": "garden",
+      "name": "Tiny planet",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Your next chapter has side quests.",
+      "motif": "paper",
+      "name": "Next chapter",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Take the scenic route.",
+      "motif": "atlas",
+      "name": "Open world",
+      "panelHeight": 621.5859375,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Choose your own direction.",
+      "motif": "atlas",
+      "name": "Your own way",
+      "panelHeight": 621.5859375,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "New season. Same curious you.",
+      "motif": "signal",
+      "name": "New season",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Fall into a good rabbit hole.",
+      "motif": "paper",
+      "name": "Page turner",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "A softer kind of scroll.",
+      "motif": "garden",
+      "name": "Slow fall",
+      "panelHeight": 621.5859375,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Ordinary things. Strange discoveries.",
+      "motif": "paper",
+      "name": "Curiosity cabinet",
+      "panelHeight": 722.7578125,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Curiosity, after dark.",
+      "motif": "portal",
+      "name": "After Hours",
+      "panelHeight": 621.5859375,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "A small signal. A real connection.",
+      "motif": "signal",
+      "name": "Kindred signals",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Enter your story era.",
+      "motif": "paper",
+      "name": "Story mode",
+      "panelHeight": 672.5859375,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "Collect moments of wonder.",
+      "motif": "orbit",
+      "name": "Small wonders",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    },
+    {
+      "heading": "A quiet night. A curious mind.",
+      "motif": "orbit",
+      "name": "Long night",
+      "panelHeight": 672.171875,
+      "scroll": 1280,
+      "smallestTarget": 44,
+      "width": 1280
+    }
+  ],
+  "mobileChecks": [
+    {
+      "name": "Fresh page",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Better together",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "New growth",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Human in the loop",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Margin notes",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Tiny planet",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Next chapter",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Open world",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Your own way",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "New season",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Page turner",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Slow fall",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Curiosity cabinet",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "After Hours",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Kindred signals",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Story mode",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Small wonders",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    },
+    {
+      "name": "Long night",
+      "overflowingButtons": [],
+      "scroll": 320,
+      "smallestTarget": 44,
+      "width": 320
+    }
+  ],
+  "notes": [
+    "Local-only theme gallery; reduced-motion prop fixture validates still UI, OS CSS rule independently reviewed.",
+    "Light-surface fixture surrounds the component; visitor appearance preference was not changed."
+  ],
+  "fallbackComparison": {
+    "desktop": {
+      "activeHeight": 645.609375,
+      "neutralHeight": 645.609375,
+      "activeNavTop": 954.484375,
+      "neutralNavTop": 954.484375
+    },
+    "mobile": {
+      "active": {
+        "height": 800,
+        "navTop": 1042.921875,
+        "overflow": false,
+        "width": 390
+      },
+      "neutral": {
+        "height": 800,
+        "navTop": 1042.921875,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    "narrow": {
+      "active": {
+        "buttonOverflow": [],
+        "height": 835.1171875,
+        "navTop": 1140.78125,
+        "overflow": false,
+        "width": 320
+      },
+      "neutral": {
+        "height": 835.109375,
+        "navTop": 1140.7734375,
+        "overflow": false,
+        "width": 320
+      }
+    }
+  },
+  "liveMobile": {
+    "choices": [
+      {
+        "hook": "A cabinet. A borrowed voice. Can you untangle the fictional mystery?",
+        "href": "/quizzes/cabinet-of-the-borrowed-voice/",
+        "selected": "01The story\u2197",
+        "stamp": "CLUES."
+      },
+      {
+        "hook": "Meet the real bats behind the vampire myth.",
+        "href": "/quizzes/bats-beyond-the-vampire-myth/",
+        "selected": "02The night\u2197",
+        "stamp": "NIGHT."
+      },
+      {
+        "hook": "An invented trailer makes someone look guilty. What did the edit do?",
+        "href": "/quizzes/glasshouse-trailer-misdirection/",
+        "selected": "03The screen\u2197",
+        "stamp": "CUT."
+      }
+    ],
+    "paused": {
+      "animationStates": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ],
+      "scroll": 320,
+      "state": "true",
+      "trackingScripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-TZ9B8MB7SP"
+      ],
+      "width": 320
+    },
+    "focus": {
+      "hidden": "home-heading",
+      "restored": "season-heading"
+    }
+  },
+  "liveDesktop": {
+    "height": 1041,
+    "theme": "after-hours",
+    "width": 1280,
+    "errors": []
+  },
+  "analytics": {
+    "property": "545477353",
+    "observed": [
+      [
+        "ACTIVE USERS IN LAST 30 MINUTES",
+        "1",
+        "ACTIVE USERS IN LAST 5 MINUTES",
+        "1"
+      ],
+      [
+        "ACTIVE USERS IN LAST 5 MINUTES",
+        "1",
+        "ACTIVE USERS PER MINUTE",
+        "0.5"
+      ],
+      [
+        "TypologyQuiz \u00b7 /",
+        "TypologyQuiz \u00b7 /",
+        "2",
+        "100%"
+      ],
+      [
+        "TypologyQuiz \u00b7 /",
+        "2",
+        "100%",
+        "PAGE TITLE AND SCREEN NAME\tVIEWS"
+      ],
+      [
+        "TypologyQuiz \u00b7 /\t2",
+        "1 \u2013 1 of 1",
+        "Event count",
+        "by Event name"
+      ],
+      [
+        "page_view",
+        "page_view",
+        "2",
+        "50%"
+      ],
+      [
+        "page_view",
+        "2",
+        "50%",
+        "EVENT NAME\tEVENT COUNT"
+      ]
+    ],
+    "scope": "Operator homepage release QA; not evidence of organic growth. No visitor-level report opened.",
+    "pageViewConfirmed": true
+  }
+}

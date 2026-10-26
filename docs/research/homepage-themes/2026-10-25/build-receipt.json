@@ -1,0 +1,14 @@
+{
+  "verify": {
+    "tests": 300,
+    "pass": 300,
+    "fail": 0,
+    "skipped": 0
+  },
+  "htmlPagesWithActiveGA": 1590,
+  "uniqueCanonicalIndexableUrls": 854,
+  "handbookBundled": false,
+  "temporaryQaRoutesBundled": false,
+  "independentReview": "PASS; reviewed-source-hashes.json",
+  "canonicalQuizFiles": "11 byte-identical; 270 existing quizzes unchanged"
+}
