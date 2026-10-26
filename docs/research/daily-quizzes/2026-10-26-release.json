@@ -1,0 +1,304 @@
+{
+  "date": "2026-10-26",
+  "timezone": "America/Edmonton",
+  "status": "published-verified",
+  "published": 5,
+  "shortfall": 0,
+  "totalInteractiveQuizzes": 275,
+  "totalAuthoredTasks": 2200,
+  "sourceCommit": "f0000a1945f3e6b31bb557d195a6d0ec5dfbfbe1",
+  "deployment": {
+    "id": "18437258-36d7-46ee-94c6-5a1481aa5509",
+    "created_on": "2026-10-26T21:01:38.614019Z",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "8582eea8-2c83-4193-9af9-61b00ed21da5",
+        "percentage": 100
+      }
+    ]
+  },
+  "quizzes": [
+    {
+      "id": "PC-28",
+      "category": "personality-choices",
+      "title": "The Role Behind Your Mask",
+      "slug": "the-role-behind-your-mask",
+      "url": "https://typologyquiz.com/quizzes/the-role-behind-your-mask/"
+    },
+    {
+      "id": "FS-28",
+      "category": "friends-social-play",
+      "title": "The Ferry Between Two Promises",
+      "slug": "the-ferry-between-two-promises",
+      "url": "https://typologyquiz.com/quizzes/the-ferry-between-two-promises/"
+    },
+    {
+      "id": "SN-28",
+      "category": "science-nature",
+      "title": "Eight Lights in the Dark",
+      "slug": "eight-lights-in-the-dark",
+      "url": "https://typologyquiz.com/quizzes/eight-lights-in-the-dark/"
+    },
+    {
+      "id": "HC-28",
+      "category": "history-culture",
+      "title": "Sleepy Hollow: The Chase and the Wink",
+      "slug": "sleepy-hollow-the-chase-and-the-wink",
+      "url": "https://typologyquiz.com/quizzes/sleepy-hollow-the-chase-and-the-wink/"
+    },
+    {
+      "id": "FE-28",
+      "category": "food-everyday-life",
+      "title": "The Secret Life of Halloween Treats",
+      "slug": "the-secret-life-of-halloween-treats",
+      "url": "https://typologyquiz.com/quizzes/the-secret-life-of-halloween-treats/"
+    }
+  ],
+  "gates": {
+    "independentGPTReview": "PASS full review plus final copy delta closure",
+    "fullVerifyTests": 300,
+    "productionBuild": "pass GA-enabled documented wrapper dry run followed by its Wrangler deploy step",
+    "activeGAHTMLCoverage": 1595,
+    "sitemapUniqueURLs": 859,
+    "all270OldQuizObjectsAndBriefsUnchanged": true,
+    "all540OldRawObjectSlicesIndependentlyPreserved": true,
+    "handbookR2ImageHTTP": 200,
+    "workerFirstAndBindingsUnchanged": true
+  },
+  "browser": {
+    "date": "2026-10-26",
+    "analyticsBaseline": {
+      "property": "545477353",
+      "activeUsers30m": 0,
+      "events": "No data available",
+      "classification": "Operator release QA baseline; not audience growth"
+    },
+    "previews": [
+      {
+        "quiz": "PC-28",
+        "tasks": 8,
+        "formats": [
+          "choice",
+          "rank",
+          "slider"
+        ],
+        "rankMovedAndConfirmed": true,
+        "keyboardSlider49": true,
+        "result": "INTERACTIVE QUIZZES / PERSONALITY & CHOICES\n\nThe Role Behind Your Mask\n\nAt a fictional Halloween masquerade, choose what to reveal, what to prepare and what to invent in the moment. Discover the kind of role you would actually want to play.\n\nResults ready\nYour results\nYour choices\n\nA description of the options you picked in this quiz. It is not a test score, a norm or a diagnosis.\n\nPrivate Thread\nShared Spotlight\n\nLeaned toward Private Thread. Private Thread favours discoveries exchanged with a few people; Shared Spotlight favours moments the room can experience together. Either can involve leadership, invention and connection.\n\nPrepared Scene\nLive Improvisation\n\nLeaned toward Prepared Scene. Prepared Scene favours shaping details in advance; Live Improvisation favours shaping them in response to others. Neither indicates greater creativity or competence.\n\nTask review\nAccept a Role\n\nTask 1\n\nYou are entrusted with the missing heir’s invitation. How would you most enjoy putting it into the story?\n\nYour choice, no right answer\n\nYour answer: Let a small circle uncover it, then decide together whether to announce it\n\nThis choice places your preferred version of this scene along Private Thread–Shared Spotlight. Intimate exchanges and a room-wide moment offer different kinds of involvement.\n\nOriginal masquerade scenes and descriptive preference mappings, authored for TypologyQuiz (original case written for this quiz)\n\nTask 2\n\nYou can shape your courier’s entrance. Which freedom would you choose?\n\nYour choice, no right answer\n\nYour answer: Prepare an opening line and a few facts, leaving the exchange open\n\nThis choice places your preferred version of this scene along Prepared Scene–Live Improvisation. Preparation offers a crafted shape; improvisation offers room to respond.\n\nOriginal masquerade scenes and descriptive preference mappings, authored for TypologyQuiz (original case written for this quiz)\n\nTask 3\n\nRank the roles you would most want for the next scene, most appealing first.\n\nYour choice, no right answer\n\nYour answer: 1. The table host who draws three guests’ conflicting accounts into one conversation; 2. The confidant who pursues one guest’s hidden reason for borrowing the name; 3. The herald who brings the disputed identity before the whole gathering\n\nThis ranking contributes only to Private Thread–Shared Spotlight. Every role has agency; the difference is the size of the moment you share.\n\nOriginal masquerade scenes and descriptive preference mappings, authored for TypologyQuiz (original case written for this quiz)\nChange the Scene\n\nTask 4\n\nOnly one version of your discovery can be staged. Which would feel most rewarding?\n\nYour choice, no right answer\n\nYour answer: Let your table hear the response, then carry a short account to the room\n\nThis choice places your preferred version of this scene along Private Thread–Shared Spotlight. Intimate exchanges and a room-wide moment offer different kinds of involvement.\n\nOriginal masquerade scenes and descriptive preference mappings, authored for TypologyQuiz (original case written for this quiz)\n\nTask 5\n\nYour scene partner offers a surprising explanation for the old invitation. What working arrangement would you prefer?\n\nYour choice, no right answer\n\nYour answer: Keep an agreed ending but invent how your characters reach it\n\nThis choice places your preferred version of this scene along Prepared Scene–Live Improvisation. Preparation offers a crafted shape; improvisation offers room to respond.\n\nOriginal masquerade scenes and descriptive preference mappings, authored for TypologyQuiz (original case written for this quiz)\n\nTask 6\n\nRank these ways of creating a final exchange, most appealing first.\n\nYour choice, no right answer\n\nYour answer: 1. Rehearse the exchange until a small repeated gesture carries the ending; 2. Agree on the final gesture, but leave the words open; 3. Discover both words and gesture by responding to your partner in the moment\n\nThis ranking contributes only to Prepared Scene–Live Improvisation. It compares different ways of making the same small scene, with no skill judgment.\n\nOriginal masquerade scenes and descriptive preference mappings, authored for TypologyQuiz (original case written for this quiz)\nChoose Your Last Moment\n\nTask 7\n\nHow would you divide your final scene between a private thread and a shared spotlight?\n\nYour choice, no right answer\n\nYour answer: 49 of 100 (0 = An exchange for two, 100 = A moment for the room)\n\nThe slider describes where you would place the evening’s final attention. A middle position can preserve both kinds of connection.\n\nOriginal masquerade scenes and descriptive preference mappings, authored for TypologyQuiz (original case written for this quiz)\n\nTask 8\n\nHow much of your next masquerade role would you want to discover while playing it?\n\nYour choice, no right answer\n\nYour answer: 50 of 100 (0 = Shape it beforehand, 100 = Discover it as I play)\n\nThis final choice contributes to Prepared Scene–Live Improvisation. Your result combines four contributions per scale; it describes your choices tonight, not a fixed identity.\n\nOriginal masquerade scenes and descriptive preference mappings, authored for TypologyQuiz (original case written for this quiz)\nShare the quiz\n\nOnly the text below and the quiz link are shared. Your answers and results never go in the link.\n\nYour message\nShare or copy link\n\nPlay again\nMore quizzes in this category\nAll quizzes\nAbout this quiz\n\nThis quiz has no right answers. The summary describes only the choices you make here; it is not a test, diagnosis or comparison with other people.\n\nRead how these quizzes are scored, sourced and reviewed.\n\nPeople, places, data and rules in the original cases are written for this quiz. Where a task relies on a real fact, the source is listed with the task and below.",
+        "consoleErrors": []
+      },
+      {
+        "quiz": "FS-28",
+        "tasks": 8,
+        "formats": [
+          "choice",
+          "match",
+          "order",
+          "grid"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "resumeAt": 4,
+        "creativeFinishExcluded": true,
+        "result": "INTERACTIVE QUIZZES / FRIENDS & SOCIAL PLAY\n\nThe Ferry Between Two Promises\n\nTwo ghosts wait on opposite shores. Read a cancelled crossing, a borrowed key and two unfinished welcomes to discover why neither stopped waiting. Solve together, then choose an ungraded final line.\n\nResults ready\nYour results\n\n100%\n\nAccuracy on the 7 checkable tasks: 7 of 7 credit. Partly right answers earn partial credit. Preference and reflection tasks do not count toward accuracy.\n\nTask review\nThe Empty Crossing\n\nTask 1\n\nWhat should your group investigate first to explain the repeated crossing?\n\nCorrect\n\nYour answer: What each waiting figure expected to receive f",
+        "layout": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "consoleErrors": []
+      },
+      {
+        "quiz": "SN-28",
+        "tasks": 8,
+        "accuracy": "100% on8",
+        "formats": [
+          "choice",
+          "grid",
+          "order"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "layout": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "consoleErrors": []
+      },
+      {
+        "quiz": "HC-28",
+        "tasks": 8,
+        "accuracy": "100% on8",
+        "formats": [
+          "choice",
+          "grid",
+          "match"
+        ],
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "layout": {
+          "scrollWidth": 320,
+          "width": 320
+        },
+        "consoleErrors": []
+      }
+    ],
+    "finalCopy": {
+      "quiz": "FS-28",
+      "keptKey": true
+    },
+    "production": {
+      "quiz": "FE-28",
+      "tasks": 8,
+      "accuracy": "100% on8",
+      "formats": [
+        "order",
+        "choice",
+        "grid",
+        "match"
+      ],
+      "consoleErrors": [],
+      "classification": "Operator release QA; not organic engagement"
+    },
+    "analytics": {
+      "property": "545477353",
+      "baselineActiveUsers30m": 0,
+      "observedEvents": {
+        "page_view": 1,
+        "session_start": 1,
+        "interactive_quiz_start": 1,
+        "interactive_quiz_complete": 1
+      },
+      "completionParameter": {
+        "quiz_id": "FE-28",
+        "count": 1
+      },
+      "completionEvidence": "- generic \"Event count\":\n    - button \"Event count\"\n  - text: by\n  - generic \"Event name\":\n    - button \"Event name\"\n  - button \"Go back\":\n    - img: keyboard_backspace\n  - generic: quiz_id\n  - generic: \"1\"\n  - table:\n    - row \"Event parameter value Event count\":\n      - columnheader \"Event parameter value\":\n        - generic: Event parameter value\n      - columnheader \"Event count\":\n        - button \"Event count\"\n    - row \"FE-28 1\":\n      - cell \"FE-28\"\n      - cell \"1\"\n  - status: 1 – 1 of 1\n  - button \"Previous page\" [disabled]:\n  - button \"Next page\" [disabled]:\n  - table:\n    - row:\n      - columnheader\n    - row:\n      - cell\n  - generic \"Key events\":\n    - button \"Key events\"\n  - text: by\n  - generic \"Event name\":\n    - button \"Event name\"\n  - generic: \"#1\"\n  - generic: \"-\"\n  - generic: \"-\"\n  - table:\n    - row \"Event name Key events\":\n      - columnheader \"Event name\":\n        - button \"Event name\"\n      - columnheader \"Key events\":\n        - button \"Key events\"\n  - generic: No data available\n  - table:\n    - row\n  - generic \"Active users\":\n    - button \"Active users\"\n  - text: by\n  - generic \"User property\":\n    - button \"User property\"\n  - generic: \"#1\"\n  - generic: \"-\"\n  - generic: \"-\"\n  - table:\n    - row \"User property Active users\":\n      - columnheader \"User property\":\n        - button \"User property\"\n      - columnheader \"Active users\":\n        - button \"Active users\"\n  - generic: No data available\n  - table:\n    - row\n  - text: © 2026 Google |\n  - link \"Analytics home\":\n    - /url: https://www.google.com/analytics/?hl=en-US\n  - text: \"|\"\n  - link \"Terms of Service\":\n    - /url: https://www.google.com/analytics/tos.html?hl=en-US\n  - text: \"|\"\n  - link \"Privacy Policy\":\n    - /url: https://www.google.com/policies/privacy/?hl=en-US\n  - text: \"|\"\n  - button \"Send feedback\":\n    - img: feedback\n    - generic: Send feedback\n- complementary\n- button \"Open context menu\"",
+      "classification": "Operator release QA; not organic audience growth or engagement evidence"
+    },
+    "liveStoryCopy": {
+      "keptKey": true,
+      "url": "https://typologyquiz.com/quizzes/the-ferry-between-two-promises/"
+    }
+  },
+  "liveHTTPChecks": [
+    {
+      "url": "https://typologyquiz.com/quizzes/the-role-behind-your-mask/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "692a022ffa6ed5041864cf5b06d584419686d74324eaa9782565fa95ec682ed9"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/the-ferry-between-two-promises/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "c301934c7288b4bf09573ab6366b3960d975fbdc8b75d87db53cf779f0bb6c94"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/eight-lights-in-the-dark/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "1600c9c4bf97a3d73ddd813973756608334aceb13f247a18d5959a47a69ff48a"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/sleepy-hollow-the-chase-and-the-wink/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "f0133cb9e9ac4eabc5cc6f48d9bae9675e73cd2de58b81fdc6760fc3cce21eff"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/the-secret-life-of-halloween-treats/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "9b6f343fe17bdd54def0fb7d16e23ac4e6f9b4d6062b2cdfe97ea4193e1f7fe2"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "eb7ffafa93d6c9e15d94765ea75fda3fb1faac003cf84cc16bd76db159367d5e"
+    },
+    {
+      "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "3d42ad52e29ad8bac8bb07dd79736fbd61eee27c2ff1103a33abe6280ab80516"
+    },
+    {
+      "url": "https://typologyquiz.com/sitemap.xml",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "61512862d121df24d5a2d3ab6510cd99309251179dc8252e9fe5dcd4c1a18a33"
+    },
+    {
+      "url": "https://typologyquiz.com/llms.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "d30ff790fc55a447065f53db72314560fc7cca0070e247cc17ed68b4104502d9"
+    },
+    {
+      "url": "https://typologyquiz.com/robots.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/2n_gshwxcnnju.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "ed560b953f80531b44052ea2e2d1fee4d34af573159036d4f8a962b7ea68ee23"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "6598d7095d3f0dfe255a9b7ece2aa5d98a9b577c5ef8997e83d1ef852064ec79"
+    },
+    {
+      "url": "https://typologyquiz.com/tests/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "1a36ab3ac8df34715c3f83f980acda646ed33be1662ee7b1346fd99ec461df41"
+    },
+    {
+      "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "74ea4519a14ddb3d697d03944bb0074003c805f23f7376401dd47e0f808de567"
+    },
+    {
+      "url": "https://www.typologyquiz.com/quizzes/the-role-behind-your-mask/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "e0733e6f552e9a75703b219a641bcd0b8551f9693237094d7051e4088e07f5f6"
+    }
+  ],
+  "analytics": {
+    "property": "545477353",
+    "baselineActiveUsers30m": 0,
+    "observedEvents": {
+      "page_view": 1,
+      "session_start": 1,
+      "interactive_quiz_start": 1,
+      "interactive_quiz_complete": 1
+    },
+    "completionParameter": {
+      "quiz_id": "FE-28",
+      "count": 1
+    },
+    "completionEvidence": "- generic \"Event count\":\n    - button \"Event count\"\n  - text: by\n  - generic \"Event name\":\n    - button \"Event name\"\n  - button \"Go back\":\n    - img: keyboard_backspace\n  - generic: quiz_id\n  - generic: \"1\"\n  - table:\n    - row \"Event parameter value Event count\":\n      - columnheader \"Event parameter value\":\n        - generic: Event parameter value\n      - columnheader \"Event count\":\n        - button \"Event count\"\n    - row \"FE-28 1\":\n      - cell \"FE-28\"\n      - cell \"1\"\n  - status: 1 – 1 of 1\n  - button \"Previous page\" [disabled]:\n  - button \"Next page\" [disabled]:\n  - table:\n    - row:\n      - columnheader\n    - row:\n      - cell\n  - generic \"Key events\":\n    - button \"Key events\"\n  - text: by\n  - generic \"Event name\":\n    - button \"Event name\"\n  - generic: \"#1\"\n  - generic: \"-\"\n  - generic: \"-\"\n  - table:\n    - row \"Event name Key events\":\n      - columnheader \"Event name\":\n        - button \"Event name\"\n      - columnheader \"Key events\":\n        - button \"Key events\"\n  - generic: No data available\n  - table:\n    - row\n  - generic \"Active users\":\n    - button \"Active users\"\n  - text: by\n  - generic \"User property\":\n    - button \"User property\"\n  - generic: \"#1\"\n  - generic: \"-\"\n  - generic: \"-\"\n  - table:\n    - row \"User property Active users\":\n      - columnheader \"User property\":\n        - button \"User property\"\n      - columnheader \"Active users\":\n        - button \"Active users\"\n  - generic: No data available\n  - table:\n    - row\n  - text: © 2026 Google |\n  - link \"Analytics home\":\n    - /url: https://www.google.com/analytics/?hl=en-US\n  - text: \"|\"\n  - link \"Terms of Service\":\n    - /url: https://www.google.com/analytics/tos.html?hl=en-US\n  - text: \"|\"\n  - link \"Privacy Policy\":\n    - /url: https://www.google.com/policies/privacy/?hl=en-US\n  - text: \"|\"\n  - button \"Send feedback\":\n    - img: feedback\n    - generic: Send feedback\n- complementary\n- button \"Open context menu\"",
+    "classification": "Operator release QA; not organic audience growth or engagement evidence"
+  },
+  "scopeLimits": [
+    "No news, media, outreach, advertising pixels, accounts, credentials or tracking-privacy changes.",
+    "Operator release QA is not organic growth or proof of engagement.",
+    "Subsequent live FS28 landing visit is also operator QA; not included in the four-event checkpoint."
+  ]
+}

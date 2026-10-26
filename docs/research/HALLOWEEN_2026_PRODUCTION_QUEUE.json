@@ -1,14 +1,14 @@
 {
   "approvedLocalDate": "2026-10-23",
   "approval": "Owner: good ... go with ur new recomendation",
-  "status": "approved-editorial-treatment-queue-ten-published-30-not-authored",
+  "status": "approved-editorial-treatment-queue-fifteen-published-25-not-authored",
   "authority": "These reviewed treatments govern October24–31 authoring. The original calendar remains historical; do not implement a weak original hook unchanged.",
   "provenance": "Mechanical adoption of the completed Grok Expert audit and coordinator checks; no new Grok inference, creative draft or independent release review occurred during adoption.",
   "auditRecord": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT.md",
   "immutableAuditRows": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT_ROWS.json",
-  "futureBriefCount": 30,
-  "requiresSubstantialRevision": 20,
-  "strongerStartingBriefsNotCleared": 10,
+  "futureBriefCount": 25,
+  "requiresSubstantialRevision": 17,
+  "strongerStartingBriefsNotCleared": 8,
   "dailyLimit": 5,
   "timezone": "America/Edmonton",
   "noBackfill": true,
@@ -172,9 +172,14 @@
       "originalTitleForTraceability": "Masquerade Secret Preferences",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Stronger preference premise. Retain meaningful tradeoffs and descriptive results, with no diagnosis or fake moral ranking.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "PC-28",
+      "slug": "the-role-behind-your-mask",
+      "publishedTitle": "The Role Behind Your Mask",
+      "sourceCommit": "f0000a1945f3e6b31bb557d195a6d0ec5dfbfbe1",
+      "deploymentVersion": "8582eea8-2c83-4193-9af9-61b00ed21da5"
     },
     {
       "localDate": "2026-10-26",
@@ -182,9 +187,14 @@
       "originalTitleForTraceability": "Ghost Story Connection Web",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace count/exclusion drills with a coherent character-and-event mystery or collaborative story payoff.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "FS-28",
+      "slug": "the-ferry-between-two-promises",
+      "publishedTitle": "The Ferry Between Two Promises",
+      "sourceCommit": "f0000a1945f3e6b31bb557d195a6d0ec5dfbfbe1",
+      "deploymentVersion": "8582eea8-2c83-4193-9af9-61b00ed21da5"
     },
     {
       "localDate": "2026-10-26",
@@ -192,9 +202,14 @@
       "originalTitleForTraceability": "Who Makes the Eerie Glow?",
       "auditVerdict": "PIVOT",
       "approvedTreatment": "Use specific eerie natural phenomena with supported explanations and observable distinctions. Avoid Latin-name memorization or presenting old events as current.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "SN-28",
+      "slug": "eight-lights-in-the-dark",
+      "publishedTitle": "Eight Lights in the Dark",
+      "sourceCommit": "f0000a1945f3e6b31bb557d195a6d0ec5dfbfbe1",
+      "deploymentVersion": "8582eea8-2c83-4193-9af9-61b00ed21da5"
     },
     {
       "localDate": "2026-10-26",
@@ -202,9 +217,14 @@
       "originalTitleForTraceability": "A Ghost Tale, Retold",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Strong potential: a documented telling that unfolds across fragments. Avoid eight paraphrases of the same source-literacy rule.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "HC-28",
+      "slug": "sleepy-hollow-the-chase-and-the-wink",
+      "publishedTitle": "Sleepy Hollow: The Chase and the Wink",
+      "sourceCommit": "f0000a1945f3e6b31bb557d195a6d0ec5dfbfbe1",
+      "deploymentVersion": "8582eea8-2c83-4193-9af9-61b00ed21da5"
     },
     {
       "localDate": "2026-10-26",
@@ -212,9 +232,14 @@
       "originalTitleForTraceability": "The Vanishing Candy Inventory",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace candy stock arithmetic with distinct researched food/celebration facts or genuine taste choices.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "FE-28",
+      "slug": "the-secret-life-of-halloween-treats",
+      "publishedTitle": "The Secret Life of Halloween Treats",
+      "sourceCommit": "f0000a1945f3e6b31bb557d195a6d0ec5dfbfbe1",
+      "deploymentVersion": "8582eea8-2c83-4193-9af9-61b00ed21da5"
     },
     {
       "localDate": "2026-10-27",
@@ -487,7 +512,7 @@
     "independentCreativeReview": "not performed; Grok quota blocks scripts and fresh review"
   },
   "initialApprovedFutureBriefCount": 40,
-  "publishedFromQueue": 10,
-  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-25-release.json",
+  "publishedFromQueue": 15,
+  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-26-release.json",
   "existingPublishedQuizzesUnchanged": true
 }
