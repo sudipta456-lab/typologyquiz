@@ -48,7 +48,7 @@
     "generate:group-catalog": "tsx scripts/generate-group-catalog.mts",
     "test:movies": "tsx --test tests/movies.test.ts",
     "lint:movies": "eslint src/lib/trivia/movies.ts src/lib/trivia/movie-engine.ts src/lib/trivia/movie-group.ts src/lib/trivia/movie-analytics.ts src/lib/group/paths.ts src/components/trivia/MovieQuiz.tsx src/components/trivia/MovieHero.tsx src/components/trivia/MovieCover.tsx src/app/trivia/movies scripts/verify-movie-sources.mts tests/movies.test.ts",
-    "test:seasonal": "tsx --test tests/halloween-season.test.ts && eslint src/components/seasonal src/app/page.tsx tests/halloween-season.test.ts"
+    "test:seasonal": "tsx --test tests/halloween-season.test.ts tests/homepage-themes.test.ts && eslint src/components/seasonal src/app/page.tsx tests/halloween-season.test.ts tests/homepage-themes.test.ts"
   },
   "dependencies": {
     "next": "16.2.10",
