@@ -529,6 +529,44 @@ test("canonical text fingerprint ignores CRLF checkout newlines but not content 
   assert.equal(canonicalTextFingerprint("a\rb"), createHash("sha256").update("a\rb", "utf8").digest("hex"), "a lone CR is hashed as-is");
 });
 
+// Owner-requested sharing UI amendment (2026-10-28). Keep the original fixture intact.
+// Removing only these exact, independently reviewed additions must recover the
+// original text byte-for-byte (apart from CRLF). Nothing in the old code is exempt.
+const reviewedSharingAdditions: Record<string, readonly string[]> = {
+  "src/components/trivia/MovieQuiz.tsx": [
+    "import { SITE } from \"@/lib/site\";\n",
+    "import { QuizSharePanel } from \"@/components/QuizSharePanel\";\n",
+    "          <QuizSharePanel title={quiz.title} url={`${SITE.url}${movieQuizPath(quiz.slug)}`} defaultMessage={`I tried “${quiz.title}” on TypologyQuiz.`} optionalText={`I scored ${score}/${total}.`} optionalTextLabel=\"Add my score\" />\n"
+  ],
+  "src/components/trivia/TriviaPlayClient.tsx": [
+    "import { ShareNetworkActions } from \"@/components/QuizSharePanel\";\n",
+    "      <ShareNetworkActions url={challengeUrl} message={shareText} />\n"
+  ],
+  "src/components/trivia/InterestQuiz.tsx": [
+    "import { SITE } from \"@/lib/site\";\n",
+    "import { QuizSharePanel } from \"@/components/QuizSharePanel\";\n",
+    "          <QuizSharePanel title={alien ? \"Which alien archetype are you?\" : \"How do you like to work with AI?\"} url={`${SITE.url}/trivia/${alien ? \"alien-type\" : \"ai-style\"}/`} defaultMessage={alien ? \"I tried the fictional alien archetype quiz on TypologyQuiz.\" : \"I tried the AI work-style preference quiz on TypologyQuiz.\"} optionalText={`${alien ? \"My playful profile\" : \"My preference here\"}: ${leaders.map(({ name }) => name).join(\" + \")}. A descriptive snapshot, not a test of ability.`} optionalTextLabel=\"Add my summary\" />\n"
+  ],
+  "src/components/trivia/PhysicsPreferenceQuiz.tsx": [
+    "import { SITE } from \"@/lib/site\";\n",
+    "import { QuizSharePanel } from \"@/components/QuizSharePanel\";\n",
+    "          <QuizSharePanel title=\"Which kind of physics makes you curious?\" url={`${SITE.url}/trivia/physics/`} defaultMessage=\"I tried the physics curiosity quiz on TypologyQuiz.\" optionalText={`My curiosity leaned toward ${leaders.map((field) => RESULTS[field].name).join(\" + \")}. A playful interest snapshot, not a measure of ability.`} optionalTextLabel=\"Add my summary\" />\n"
+  ],
+  "src/components/trivia/RapidRound.tsx": [
+    "import { SITE } from \"@/lib/site\";\n",
+    "import { QuizSharePanel } from \"@/components/QuizSharePanel\";\n",
+    "          <QuizSharePanel title={round.title} url={`${SITE.url}/trivia/${round.slug}/`} defaultMessage={`I tried “${round.title}” on TypologyQuiz.`} optionalText={`I scored ${score}/${round.questions.length} in ${formatDuration(elapsedMs)}.`} optionalTextLabel=\"Add my score\" />\n"
+  ]
+};
+function withoutReviewedSharingAdditions(path: string, text: string): string {
+  let restored = text.replace(/\r\n/g, "\n");
+  for (const addition of reviewedSharingAdditions[path] ?? []) {
+    assert.equal(restored.split(addition).length - 1, 1, `Expected exactly one reviewed sharing addition in ${path}`);
+    restored = restored.replace(addition, "");
+  }
+  return restored;
+}
+
 test("existing quiz banks, scoring and routes retain canonical text fingerprints", () => {
   const baseline = JSON.parse(readFileSync("tests/fixtures/interactive-legacy-baseline.json", "utf8")) as Record<string, string>;
   const paths = Object.keys(baseline);
@@ -536,9 +574,25 @@ test("existing quiz banks, scoring and routes retain canonical text fingerprints
   const changed: string[] = [];
   for (const path of paths) {
     if (!existsSync(path)) changed.push(`${path} (missing)`);
-    else if (sha256(path) !== baseline[path]) changed.push(path);
+    else {
+      const fingerprint = reviewedSharingAdditions[path]
+        ? canonicalTextFingerprint(withoutReviewedSharingAdditions(path, readFileSync(path, "utf8")))
+        : sha256(path);
+      if (fingerprint !== baseline[path]) changed.push(path);
+    }
   }
   assert.deepEqual(changed, [], "legacy files differ from the baseline");
+});
+
+test("reviewed sharing additions never exempt legacy scoring edits or missing UI", () => {
+  const path = "src/components/trivia/MovieQuiz.tsx";
+  const source = readFileSync(path, "utf8");
+  const baseline = JSON.parse(readFileSync("tests/fixtures/interactive-legacy-baseline.json", "utf8")) as Record<string, string>;
+  const tampered = source.replace("scoreMovieRun(game.run, game.questions)", "Number.POSITIVE_INFINITY");
+  assert.notEqual(tampered, source, "score mutation must actually change the fixture text");
+  assert.notEqual(canonicalTextFingerprint(withoutReviewedSharingAdditions(path, tampered)), baseline[path]);
+  assert.throws(() => withoutReviewedSharingAdditions(path, source.replace(reviewedSharingAdditions[path][0], "")), /Expected exactly one/);
+  assert.throws(() => withoutReviewedSharingAdditions(path, source + reviewedSharingAdditions[path][0]), /Expected exactly one/);
 });
 
 test("analytics: new routes are measured as a bounded group, with identity-only start and complete events", () => {

@@ -2,6 +2,8 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import type { RapidRound as RapidRoundDefinition } from "@/lib/trivia/rapid-rounds";
+import { SITE } from "@/lib/site";
+import { QuizSharePanel } from "@/components/QuizSharePanel";
 
 type Phase = "ready" | "playing" | "complete";
 type PersonalBest = { score: number; elapsedMs: number };
@@ -193,6 +195,7 @@ export function RapidRound({ round }: { round: RapidRoundDefinition }) {
           <p className="section-lead" style={{ marginBottom: 6 }}>{resultLine}</p>
           <p style={{ color: "var(--ink-mute)", marginTop: 0 }}>{elapsedMs >= round.seconds * 1000 ? "Time expired." : `Finished in ${formatDuration(elapsedMs)}.`}</p>
           {best && <p style={{ color: "var(--ink-mute)" }}>Personal best on this device: {best.score}/{round.questions.length} in {formatDuration(best.elapsedMs)}.</p>}
+          <QuizSharePanel title={round.title} url={`${SITE.url}/trivia/${round.slug}/`} defaultMessage={`I tried “${round.title}” on TypologyQuiz.`} optionalText={`I scored ${score}/${round.questions.length} in ${formatDuration(elapsedMs)}.`} optionalTextLabel="Add my score" />
           <button type="button" className="btn-primary" onClick={start}>Play again</button>
         </section>
       )}

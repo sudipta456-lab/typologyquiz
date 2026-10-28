@@ -1,4 +1,5 @@
 import { SITE } from "./site";
+import { messageWithUrl, previewMessage } from "./quiz-sharing";
 
 export type ShareNetwork = {
   name: string;
@@ -8,6 +9,26 @@ export type ShareNetwork = {
   copyText?: string;
   hint?: string;
 };
+
+/** Generic quiz targets. Copy-only apps are labelled in the UI, never claimed to auto-post. */
+export function shareNetworks(url: string, message: string): ShareNetwork[] {
+  const preview = previewMessage(message, url);
+  const full = messageWithUrl(preview, url);
+  const encFull = encodeURIComponent(full);
+  const encPreview = encodeURIComponent(preview);
+  const encUrl = encodeURIComponent(url);
+  return [
+    { name: "WhatsApp", href: `https://wa.me/?text=${encFull}` },
+    { name: "Discord", copyText: full, hint: "Copied. Paste in Discord." },
+    { name: "TikTok", copyText: full, hint: "Copied. Paste in TikTok." },
+    { name: "Instagram", copyText: full, hint: "Copied. Paste in Instagram." },
+    { name: "Snapchat", copyText: full, hint: "Copied. Paste in Snapchat." },
+    { name: "X", href: `https://twitter.com/intent/tweet?text=${encPreview}&url=${encUrl}` },
+    { name: "Facebook", href: `https://www.facebook.com/sharer/sharer.php?u=${encUrl}&quote=${encPreview}` },
+    { name: "Reddit", href: `https://www.reddit.com/submit?url=${encUrl}&title=${encPreview}` },
+    { name: "Messages", href: `sms:?&body=${encFull}` },
+  ];
+}
 
 export function inviteText(url: string = SITE.url): string {
   return `Free typology quizzes and driving licence practice tests on TypologyQuiz. No account, no ads. ${url}`;

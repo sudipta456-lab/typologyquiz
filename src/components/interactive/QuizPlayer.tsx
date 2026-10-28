@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useId, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { SITE } from "@/lib/site";
+import { QuizSharePanel } from "@/components/QuizSharePanel";
 import { trackInteractiveQuizEvent } from "@/lib/analytics";
 import { isCompleteAnswer } from "@/lib/interactive/completion";
 import { MAX_REFLECTION_LENGTH, scoreQuiz, visibleQuestions } from "@/lib/interactive/engine";
@@ -147,31 +148,6 @@ function defaultOrder(q: Question & { items: Option[] }): string[] {
   }
   if (q.kind === "order" && q.correctOrder && out.join() === q.correctOrder.join() && out.length > 1) out.push(out.shift() as string);
   return out;
-}
-
-async function copyText(text: string): Promise<boolean> {
-  try {
-    if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(text);
-      return true;
-    }
-  } catch {
-    /* fall through */
-  }
-  try {
-    const ta = document.createElement("textarea");
-    ta.value = text;
-    ta.setAttribute("readonly", "");
-    ta.style.position = "fixed";
-    ta.style.opacity = "0";
-    document.body.appendChild(ta);
-    ta.select();
-    const ok = document.execCommand("copy");
-    document.body.removeChild(ta);
-    return ok;
-  } catch {
-    return false;
-  }
 }
 
 function errorFor(q: Question): string {
@@ -505,46 +481,8 @@ function creditBadge(credit: number) {
 }
 
 function ShareBox({ quiz, accuracy }: { quiz: Quiz; accuracy?: string }) {
-  const uid = useId();
   const url = `${SITE.url}/quizzes/${quiz.slug}/`;
-  const [summary, setSummary] = useState(`I tried “${quiz.title}” on TypologyQuiz.`);
-  const [status, setStatus] = useState("");
-  const share = async () => {
-    const text = summary.trim() || `I tried “${quiz.title}” on TypologyQuiz.`;
-    try {
-      if (typeof navigator !== "undefined" && navigator.share) {
-        await navigator.share({ title: quiz.title, text, url });
-        setStatus("Shared.");
-        return;
-      }
-    } catch (err) {
-      if (err instanceof DOMException && err.name === "AbortError") return;
-    }
-    setStatus((await copyText(`${text} ${url}`)) ? "Copied to your clipboard." : "Could not copy. Select the text and copy it yourself.");
-  };
-  return (
-    <section className={styles.panel} aria-labelledby={`${uid}-h`}>
-      <h3 id={`${uid}-h`}>Share the quiz</h3>
-      <p className={styles.hint}>Only the text below and the quiz link are shared. Your answers and results never go in the link.</p>
-      <label htmlFor={`${uid}-t`} className={styles.srOnly}>
-        Your message
-      </label>
-      <textarea id={`${uid}-t`} rows={3} maxLength={240} value={summary} onChange={(e) => setSummary(e.target.value)} />
-      <div className={styles.inlineRow}>
-        {accuracy && (
-          <button type="button" className={styles.secondaryBtn} onClick={() => setSummary((s) => `${s} ${accuracy}`.trim())}>
-            Add my accuracy
-          </button>
-        )}
-        <button type="button" className={styles.primaryBtn} onClick={share}>
-          Share or copy link
-        </button>
-      </div>
-      <p className={styles.status} role="status" aria-live="polite">
-        {status}
-      </p>
-    </section>
-  );
+  return <QuizSharePanel title={quiz.title} url={url} defaultMessage={`I tried “${quiz.title}” on TypologyQuiz.`} optionalText={accuracy} optionalTextLabel="Add my accuracy" />;
 }
 
 function ReviewHeader({ q, number }: { q: Question; number: number }) {

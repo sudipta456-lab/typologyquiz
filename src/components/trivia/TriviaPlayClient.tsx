@@ -60,6 +60,7 @@ import { CanadaMap } from "./CanadaMap";
 import { WorldMap } from "./WorldMap";
 import { PeriodicTable } from "./PeriodicTable";
 import { TriviaShareBlock } from "./TriviaShareBlock";
+import { ShareNetworkActions } from "@/components/QuizSharePanel";
 import { buildTriviaPercentileLine } from "@/lib/trivia-card";
 import { ELEMENTS } from "@/lib/trivia/data/elements";
 import { US_MAP_PATHS, US_MAP_VIEWBOX } from "@/lib/trivia/data/us-map-paths";
@@ -2055,6 +2056,7 @@ function ResultsPanel({
           activeIds={activeIds}
         />
       </div>
+      <ShareNetworkActions url={challengeUrl} message={shareText} />
 
       {missing.length > 0 && (
         <div style={{ marginBottom: 16 }}>

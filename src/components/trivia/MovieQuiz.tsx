@@ -9,6 +9,8 @@ import { buildMovieRun, elapsedMs, MOVIE_SEED_PATTERN, missedAnswers, movieRunRe
 import { createCompletionReporter, movieGroupPayload, type CompletionFailure, type CompletionStatus } from "@/lib/trivia/movie-group";
 import { trackMovieComplete, trackMovieStart } from "@/lib/trivia/movie-analytics";
 import { movieGroupSlug, movieQuizPath, type MovieQuiz } from "@/lib/trivia/movies";
+import { SITE } from "@/lib/site";
+import { QuizSharePanel } from "@/components/QuizSharePanel";
 import { MovieHero } from "./MovieHero";
 import { MovieCover } from "./MovieCover";
 import { ResultReveal } from "./ResultReveal";
@@ -224,6 +226,7 @@ function MovieSession({ quiz, related, rawGroup, seedParam }: { quiz: MovieQuiz;
             {mode === "solo" && <button type="button" className="btn-outline" onClick={playTogether} disabled={creating}>{creating ? "Creating group room…" : "Play together"}</button>}
             <Link className="btn-outline" href="/trivia/movies/">All movie quizzes</Link>
           </div>
+          <QuizSharePanel title={quiz.title} url={`${SITE.url}${movieQuizPath(quiz.slug)}`} defaultMessage={`I tried “${quiz.title}” on TypologyQuiz.`} optionalText={`I scored ${score}/${total}.`} optionalTextLabel="Add my score" />
           {createError && <p className="compare-err" role="alert">{createError}</p>}
           <h2 className="font-display" style={{ marginBottom: 0 }}>{missed.length === 0 ? "No misses to review" : `Review ${missed.length} missed ${missed.length === 1 ? "answer" : "answers"}`}</h2>
           {missed.length === 0 ? <p>Every answer was right. Ask someone else to try the same set.</p> : (

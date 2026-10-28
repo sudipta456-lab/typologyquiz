@@ -2,6 +2,8 @@
 
 import { useMemo, useState } from "react";
 import { ResultReveal } from "@/components/trivia/ResultReveal";
+import { SITE } from "@/lib/site";
+import { QuizSharePanel } from "@/components/QuizSharePanel";
 
 type Field = "classical" | "relativity" | "quantum";
 type Answer = { label: string; weights: Record<Field, number> };
@@ -142,6 +144,7 @@ export function PhysicsPreferenceQuiz() {
               <li><a className="text-link" href="https://physics.aps.org/articles/v17/120">American Physical Society: quantum measurement probabilities</a></li>
             </ul>
           </details>
+          <QuizSharePanel title="Which kind of physics makes you curious?" url={`${SITE.url}/trivia/physics/`} defaultMessage="I tried the physics curiosity quiz on TypologyQuiz." optionalText={`My curiosity leaned toward ${leaders.map((field) => RESULTS[field].name).join(" + ")}. A playful interest snapshot, not a measure of ability.`} optionalTextLabel="Add my summary" />
           <button type="button" className="btn-primary" onClick={() => setAnswers([])}>Try again</button>
         </section></ResultReveal>
       ) : (

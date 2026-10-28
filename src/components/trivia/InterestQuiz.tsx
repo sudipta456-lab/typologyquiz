@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import { ResultReveal } from "@/components/trivia/ResultReveal";
 import Image from "next/image";
+import { SITE } from "@/lib/site";
+import { QuizSharePanel } from "@/components/QuizSharePanel";
 
 type Archetype = { id: string; name: string; lead: string; detail: string };
 type Scenario = { prompt: string; answers: readonly { label: string; result: string | null }[] };
@@ -116,6 +118,7 @@ export function InterestQuiz({ kind }: { kind: "alien" | "ai" }) {
           <div style={{ display: "grid", gap: 14, marginTop: 14 }}>{leaders.map((result) => <div key={result.id}><p className="section-lead">{result.lead}</p><p style={{ lineHeight: 1.7 }}>{result.detail}</p></div>)}</div>
           <div aria-label="Choice counts" style={{ display: "grid", gap: 8, margin: "18px 0" }}>{results.map(({ id, name }) => <div key={id} style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) auto", gap: 10 }}><span>{name}</span><span>{scores[id] ?? 0} {alien ? "of 6 choices" : `of ${scoredAnswers} scored choices`}</span></div>)}</div>
           {alien ? <p style={{ color: "var(--ink-mute)", fontSize: ".9rem" }}>A playful snapshot inspired by fictional UFO and science-fiction lore. It says nothing about real beings or people.</p> : <p style={{ color: "var(--ink-mute)", fontSize: ".9rem" }}>Preferences can change with the task, tool, and context. Check important information and keep human judgment in the loop.</p>}
+          <QuizSharePanel title={alien ? "Which alien archetype are you?" : "How do you like to work with AI?"} url={`${SITE.url}/trivia/${alien ? "alien-type" : "ai-style"}/`} defaultMessage={alien ? "I tried the fictional alien archetype quiz on TypologyQuiz." : "I tried the AI work-style preference quiz on TypologyQuiz."} optionalText={`${alien ? "My playful profile" : "My preference here"}: ${leaders.map(({ name }) => name).join(" + ")}. A descriptive snapshot, not a test of ability.`} optionalTextLabel="Add my summary" />
           <button type="button" className="btn-primary" onClick={() => { setAnswers([]); setSelection(undefined); }} style={{ minHeight: 48 }}>Try again</button>
         </section></ResultReveal>
       ) : (
