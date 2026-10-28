@@ -23,14 +23,17 @@ export function downloadQuizShareCard(title: string, message: string, url: strin
     ctx.font = font;
     const result: string[] = [];
     let line = "";
-    // Iterating code points keeps surrogate pairs together. Canvas measures the
-    // actual rendered glyphs, so long words and emoji cannot run past the edge.
-    for (const char of value.replace(/\s+/g, " ").trim()) {
-      const next = line + char;
-      if (line && ctx.measureText(next).width > maxWidth) {
-        result.push(line.trimEnd());
-        line = char.trimStart();
-      } else line = next;
+    // Keep normal words together; split only tokens that cannot fit a line.
+    const segmenter = typeof Intl.Segmenter === "function" ? new Intl.Segmenter(undefined, { granularity: "grapheme" }) : null;
+    for (const word of value.trim().split(/\s+/).filter(Boolean)) {
+      const next = line ? `${line} ${word}` : word;
+      if (ctx.measureText(next).width <= maxWidth) { line = next; continue; }
+      if (line) { result.push(line); line = ""; }
+      const glyphs = segmenter ? Array.from(segmenter.segment(word), part => part.segment) : Array.from(word);
+      for (const glyph of glyphs) {
+        if (line && ctx.measureText(line + glyph).width > maxWidth) { result.push(line); line = glyph; }
+        else line += glyph;
+      }
     }
     if (line) result.push(line.trimEnd());
     return result.length ? result : [""];
@@ -49,7 +52,9 @@ export function downloadQuizShareCard(title: string, message: string, url: strin
       wrapped = wrapped.slice(0, fittedLines);
       let last = wrapped[fittedLines - 1];
       ctx.font = `${weight} ${fontSize}px system-ui, sans-serif`;
-      while (last && ctx.measureText(`${last}…`).width > textWidth) last = last.slice(0, -1);
+      const glyphs = Array.from(last);
+      while (glyphs.length && ctx.measureText(`${glyphs.join("")}…`).width > textWidth) glyphs.pop();
+      last = glyphs.join("");
       wrapped[fittedLines - 1] = `${last}…`;
     }
     ctx.font = `${weight} ${fontSize}px system-ui, sans-serif`;

@@ -110,6 +110,11 @@ test("local card export bounds long title and emoji text and reports canvas fail
     downloadQuizShareCard("Simple quiz", "Try this one 🧩", quizUrl, true);
     assert.equal(canvas.height, 1920);
     assert.equal(downloads, 2);
+    const normalTitle = "Postcard Gallery Halloween ".repeat(7).trim();
+    const before = painted.length;
+    downloadQuizShareCard(normalTitle, "Try this quiz", quizUrl, false);
+    const titleLines = painted.slice(before).filter(item => /Postcard|Gallery|Halloween/.test(item.text));
+    assert.equal(titleLines.map(item => item.text).join(" "), normalTitle, "normal words must not acquire breaks inside them");
     canvas.getContext = () => null as never;
     assert.throws(() => downloadQuizShareCard("Quiz", "Message", quizUrl, true), /Canvas is unavailable/);
   } finally {
