@@ -11680,5 +11680,269 @@
     ],
     "playMode": "solo",
     "note": "Food science for a seasonal treat bowl. Any party situations are invented illustrations, not experiments or measured products. No cooking directions, temperatures, nutrition advice or food-safety verdicts. Chocolate bloom questions concern material changes only; marshmallow facts concern the conventional gelatin-stabilised kind."
+  },
+  {
+    "id": "FE-29",
+    "slug": "the-after-dark-potluck-table",
+    "categoryId": "food-everyday-life",
+    "title": "The After-Dark Potluck Table",
+    "description": "Move through one fictional potluck, from the first plate to the final bite. Choose actual pairings, a dish’s place on the table, and how a guest’s story travels with it; the result describes this particular meal.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "dimensions": [
+      {
+        "id": "flavor_route",
+        "low": "Familiar flavor anchor",
+        "high": "Unexpected pairing",
+        "description": "Whether you would lead with recognizable autumn flavors or let a less expected pairing set the mood. Both can be satisfying."
+      },
+      {
+        "id": "table_route",
+        "low": "Host-composed route",
+        "high": "Guest-shaped route",
+        "description": "Whether the host arranges a sequence through the dishes or guests create their own connections among them. Neither is a measure of hosting skill."
+      }
+    ],
+    "sections": [
+      {
+        "id": "arrival",
+        "title": "Open the table"
+      },
+      {
+        "id": "middle",
+        "title": "Let the dishes meet"
+      },
+      {
+        "id": "finish",
+        "title": "Leave a final taste"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional after-dark potluck scenarios",
+        "kind": "original"
+      }
+    ],
+    "note": "All dishes and guests are fictional. Your results describe the pairings and shared moments you chose for this one imagined meal.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "The first guests bring squash soup, dark bread, apple slices, and cranberry relish. Which opening bite would you set out?",
+        "context": "This is one fictional potluck. Both options leave the other dishes available for later, and neither is presented as a recipe or a serving rule.",
+        "options": [
+          {
+            "id": "soup_bread",
+            "label": "Begin with soup and dark bread as the familiar anchor",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "apple_relish",
+            "label": "Begin with apple and sharp cranberry relish as a bright contrast before soup",
+            "weights": [
+              100,
+              50
+            ]
+          }
+        ],
+        "explanation": "The first bite genuinely changes the meal’s opening note: warm and familiar, or fruit with a tart contrast. The rest of the table remains available.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "Roasted pears arrive after the opening plates. How would you bring this new dish into the meal?",
+        "context": "The guest who brought the pears is happy for them to be shared. They can be introduced by the host beside bread or set down with a blank pairing card for guests to fill in.",
+        "options": [
+          {
+            "id": "host_pear",
+            "label": "Put the pears by the dark bread and have the host suggest that pairing",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "guest_pear",
+            "label": "Put the pears within reach of the whole table and invite guests to name their own pairing on the card",
+            "weights": [
+              50,
+              100
+            ]
+          }
+        ],
+        "explanation": "One route gives the arriving pears a specific host-led connection; the other lets guests choose and record what they tried. The food and social moment both change.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "middle",
+        "kind": "choice",
+        "prompt": "A bowl of toasted seeds needs a short, honest table card. Which bite would your card invite people to try?",
+        "context": "The bowl is already on the table. The card names a possible pairing, not a claimed custom or required way to eat.",
+        "options": [
+          {
+            "id": "seeds_soup",
+            "label": "“Try the seeds beside the soup for an earthy echo.”",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "seeds_pear",
+            "label": "“Try the seeds with the roasted pears for a different sweet-and-crunchy bite.”",
+            "weights": [
+              100,
+              50
+            ]
+          }
+        ],
+        "explanation": "The two cards point to different actual bites. Soup and seeds deepen a familiar note; pear and seeds lead with a less expected pairing.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "middle",
+        "kind": "choice",
+        "prompt": "A late guest arrives with a small plate of savory hand pies. Where do they enter the table story?",
+        "context": "There is room for the pies beside the existing dishes. The guest has no preferred placement and both plans keep the plate available to everyone.",
+        "options": [
+          {
+            "id": "host_pies",
+            "label": "Let the host place them next to soup and announce them as the next stop",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "guest_pies",
+            "label": "Leave them between the bread and fruit so guests can choose what to combine",
+            "weights": [
+              50,
+              100
+            ]
+          }
+        ],
+        "explanation": "The surprise dish changes the path through the table. One plan gives the hand pies a host-set moment; the other opens several guest-chosen connections.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "finish",
+        "kind": "rank",
+        "prompt": "Rank three final bites by how you would most like this fictional potluck to end.",
+        "context": "All three use foods already at the table. Put the ending you would reach for first at the top.",
+        "explanation": "The endings make different food memories: a familiar warm return, a middle bridge, or a bright contrasting finish. None is the correct last bite.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "bread_end",
+            "label": "Dark bread with the last of the squash soup",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "pear_end",
+            "label": "Roasted pear beside a piece of savory hand pie",
+            "weights": [
+              50,
+              50
+            ]
+          },
+          {
+            "id": "relish_end",
+            "label": "Apple with cranberry relish and a few toasted seeds",
+            "weights": [
+              100,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "finish",
+        "kind": "rank",
+        "prompt": "The pear guest says this dish reminds them of evenings at home. Rank how you would most like that story to travel with the food.",
+        "context": "The guest is willing to share that personal memory and approves all three versions. No cultural tradition or origin is claimed for the dish.",
+        "items": [
+          {
+            "id": "host_intro",
+            "label": "Ask the guest for a sentence, then let the host introduce the pears and the guest’s words",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "shared_card",
+            "label": "Place the guest’s own sentence on a card and let people talk about it as they pass the pears",
+            "weights": [
+              50,
+              50
+            ]
+          },
+          {
+            "id": "guest_invite",
+            "label": "Let the guest introduce the pears and invite others to add their own food memories",
+            "weights": [
+              50,
+              100
+            ]
+          }
+        ],
+        "explanation": "The guest’s approved memory stays attached to the pears in every option. The ranking changes who shapes the conversation around it.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "finish",
+        "kind": "slider",
+        "dimension": 0,
+        "lowLabel": "Familiar flavors lead",
+        "highLabel": "Unexpected pairings lead",
+        "prompt": "Across this potluck, how much would you let unexpected pairings lead the food story?",
+        "explanation": "Either endpoint can make a memorable table. This records a preference within the fictional meal.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "finish",
+        "kind": "slider",
+        "dimension": 1,
+        "lowLabel": "Host suggests the route",
+        "highLabel": "Guests shape the route",
+        "prompt": "How much would you leave the path through the dishes to the guests?",
+        "explanation": "A suggested route and free exploration both have room for conversation. The result is descriptive, not a hosting grade.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

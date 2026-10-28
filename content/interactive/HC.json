@@ -11047,5 +11047,344 @@
     ],
     "playMode": "solo",
     "note": "All fragments are original paraphrases of Irving’s public-domain fiction, supplied here so no prior reading is needed. This is the schoolmaster’s story, not a film detective adaptation. Events belong to the telling; neither a real ghost nor Brom’s identity as the rider is proved."
+  },
+  {
+    "id": "HC-29",
+    "slug": "the-strange-little-halloween-postcard-gallery",
+    "categoryId": "history-culture",
+    "title": "The Strange Little Halloween Postcard Gallery",
+    "description": "Follow a curator’s trail through early Halloween postcards: a fruit automobile, mirror fortune, harvest-field scenes, a personal greeting, and the cards’ later life. Use the museum’s descriptions to infer what each little story does.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "arrival",
+        "title": "Odd arrivals"
+      },
+      {
+        "id": "inside",
+        "title": "Games, whispers, and light"
+      },
+      {
+        "id": "afterlife",
+        "title": "The card travels on"
+      }
+    ],
+    "sources": [
+      {
+        "id": "mirror",
+        "label": "The Henry Ford object record: Hallowe’en Precautions, circa 1910 (2020.36.1)",
+        "kind": "reference",
+        "url": "https://www.thehenryford.org/collections/explore/artifact/501031"
+      },
+      {
+        "id": "watermelon",
+        "label": "The Henry Ford object record: Hallowe’en Postcard, 1907–1908 (2006.36.1)",
+        "kind": "reference",
+        "url": "https://www.thehenryford.org/collections/explore/artifact/352929"
+      },
+      {
+        "id": "hayride",
+        "label": "The Henry Ford object record: Halloween Postcard, circa 1912 (2008.84.1)",
+        "kind": "reference",
+        "url": "https://www.thehenryford.org/collections/explore/artifact/359101"
+      },
+      {
+        "id": "bobbing",
+        "label": "The Henry Ford object record: Pumpkin-head Children Bobbing for Apples, 1910–1915 (2018.32.1)",
+        "kind": "reference",
+        "url": "https://www.thehenryford.org/collections/explore/artifact/458601"
+      },
+      {
+        "id": "lantern",
+        "label": "The Henry Ford object record: The Halloween Lantern, 1914 (2007.69.1)",
+        "kind": "reference",
+        "url": "https://www.thehenryford.org/collections/explore/artifact/357702"
+      },
+      {
+        "id": "spooky_greeting",
+        "label": "The Henry Ford object record: ‘Hallo e’en. Sh! Ghosts!’ 1909 (94.81.1)",
+        "kind": "reference",
+        "url": "https://www.thehenryford.org/collections/explore/artifact/122536"
+      },
+      {
+        "id": "clapsaddle",
+        "label": "The Henry Ford object record: ‘Curioser and Curioser Allhallowe’en Hallowe’en Greetings,’ 1907–1912 (2013.79.1)",
+        "kind": "reference",
+        "url": "https://www.thehenryford.org/collections/explore/artifact/379817"
+      },
+      {
+        "id": "context",
+        "label": "The Henry Ford curator’s overview of Halloween postcards and their context",
+        "kind": "reference",
+        "url": "https://www.thehenryford.org/collections/explore/articles/halloween-postcards"
+      }
+    ],
+    "note": "Card descriptions are paraphrased from The Henry Ford’s object records and curator article. No postcard images or addresses are reproduced. Interpretations are labeled as readings, not documented artist intent or universal custom.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "A 1907–1908 card gives a watermelon wheels and uses its stem as a hand crank. What is the visual joke?",
+        "context": "The museum describes this as a mix of seasonal symbols and something contemporary to the card’s era. It is a comic picture, not a report of an actual machine.",
+        "options": [
+          {
+            "id": "parade",
+            "label": "The fruit is a parade float pulled by the pictured people"
+          },
+          {
+            "id": "game",
+            "label": "The stem is a handle for a harvest-field game"
+          },
+          {
+            "id": "advert",
+            "label": "The card sells an actual watermelon-powered vehicle"
+          },
+          {
+            "id": "collision",
+            "label": "A harvest fruit takes the place of a then-modern car"
+          }
+        ],
+        "correct": "collision",
+        "explanation": "The fruit and crank collide as a comic automobile. The museum describes this blend of seasonal symbols and contemporary technology; it does not document transport or advertising.",
+        "sourceIds": [
+          "watermelon"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "The card called “Hallowe’en Precautions” puts a young woman before a mirror in a courtship fortune game. What can we responsibly read from that scene?",
+        "context": "The museum describes a mirror superstition, not the outcome of a prediction. The card itself dates to about 1910, which does not make the scene a record of a particular person’s future.",
+        "options": [
+          {
+            "id": "proof",
+            "label": "It documents a correct prediction for the woman pictured"
+          },
+          {
+            "id": "future",
+            "label": "It makes uncertainty about a future partner into playful suspense"
+          },
+          {
+            "id": "rule",
+            "label": "It gives a practical rule for caring for mirrors"
+          },
+          {
+            "id": "universal",
+            "label": "It proves every young woman used this game"
+          }
+        ],
+        "correct": "future",
+        "explanation": "The scene plays with romantic fortune-telling. It supports a reading of the postcard’s joke, not a claim that the mirror worked or that everyone shared the practice.",
+        "sourceIds": [
+          "mirror"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "inside",
+        "kind": "match",
+        "prompt": "Match each museum-described card to the way it transforms an ordinary moment for Halloween.",
+        "context": "One shows young riders crossing a harvest field; another puts pumpkin heads on children at an apple game; a third shows a bonneted pumpkin-headed girl holding a cat beside the printed words “Sh! Ghosts!”",
+        "left": [
+          {
+            "id": "hay",
+            "label": "The riders in the harvest field"
+          },
+          {
+            "id": "apples",
+            "label": "The children at the apple game"
+          },
+          {
+            "id": "hush",
+            "label": "The girl with the cat"
+          }
+        ],
+        "right": [
+          {
+            "id": "disguise",
+            "label": "An ordinary party game gets Halloween faces"
+          },
+          {
+            "id": "theater",
+            "label": "A brief whisper turns a pet into part of a staged scare"
+          },
+          {
+            "id": "journey",
+            "label": "A familiar group outing becomes a night journey"
+          }
+        ],
+        "pairs": {
+          "hay": "journey",
+          "apples": "disguise",
+          "hush": "theater"
+        },
+        "explanation": "The hayride makes the field a route, the apple game gains pumpkin disguises, and the girl’s hush stages a small imagined fright. These are readings of described scenes, not evidence of universal customs.",
+        "sourceIds": [
+          "hayride",
+          "bobbing",
+          "spooky_greeting",
+          "context"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "inside",
+        "kind": "choice",
+        "prompt": "The watermelon card and the 1914 “Halloween Lantern” both put harvest produce in impossible travel stories. What extra job does produce do in the later card?",
+        "context": "In the later scene, a witch and vegetable characters ride through a harvest field under a full moon. The front of their car is a huge, glowing jack-o’-lantern face.",
+        "options": [
+          {
+            "id": "light",
+            "label": "A jack-o’-lantern lights the travelers’ way"
+          },
+          {
+            "id": "fuel",
+            "label": "A pumpkin powers the car in place of its engine"
+          },
+          {
+            "id": "passenger",
+            "label": "A pumpkin is the only passenger in the car"
+          },
+          {
+            "id": "sign",
+            "label": "A pumpkin shows the name of the road"
+          }
+        ],
+        "correct": "light",
+        "explanation": "The curator says the carved jack-o’-lantern illuminates the transformed field. The earlier card turns fruit into a vehicle; this card gives produce another role in a travel story.",
+        "sourceIds": [
+          "lantern",
+          "context"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "inside",
+        "kind": "choice",
+        "prompt": "A Clapsaddle card places a row of jolly carved pumpkins in a harvest field beneath “Curioser and Curioser.” What does the wording add?",
+        "context": "The museum describes carved faces and the printed greeting; it does not say the pumpkins really spoke or that an artist intended a single private meaning.",
+        "options": [
+          {
+            "id": "map",
+            "label": "It identifies a route through the field for the reader to follow"
+          },
+          {
+            "id": "count",
+            "label": "It tells the reader how many pumpkins the grower harvested"
+          },
+          {
+            "id": "voice",
+            "label": "It invites the reader to imagine the pumpkins reacting to the strange scene"
+          },
+          {
+            "id": "warning",
+            "label": "It turns the image into an instruction to avoid the field"
+          }
+        ],
+        "correct": "voice",
+        "explanation": "The phrase gives the row of carved faces an imagined response. That is a reading of the pictured joke, separate from any documented artist intention.",
+        "sourceIds": [
+          "clapsaddle",
+          "context"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "afterlife",
+        "kind": "choice",
+        "prompt": "The 1914 lantern card bears one person’s handwritten greeting. Much later, The Henry Ford gave out reproductions and offered some copies for mailing. What link between those moments is sound?",
+        "context": "The museum has often given reproduction cards at its evening program since 1981 and says its Phoenixville Post Office offers reproductions for sale and mailing. A reproduction is a new copy, not the old inscribed object.",
+        "options": [
+          {
+            "id": "reuse",
+            "label": "The same printed art can help different people send new personal greetings"
+          },
+          {
+            "id": "same",
+            "label": "The original writer’s exact note is sent again to its first recipient"
+          },
+          {
+            "id": "all",
+            "label": "Every surviving early card must have been mailed"
+          },
+          {
+            "id": "cause",
+            "label": "Modern visitors caused the 1914 design to be printed"
+          }
+        ],
+        "correct": "reuse",
+        "explanation": "The printed image can travel into new acts of correspondence on new copies. The museum documents the later reproductions and the old handwritten greeting without equating their individual messages.",
+        "sourceIds": [
+          "lantern",
+          "context"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "afterlife",
+        "kind": "choice",
+        "prompt": "The mirror card and the “Sh! Ghosts!” cat card invite different kinds of suspense. Which comparison fits both scenes?",
+        "context": "In the mirror card, a woman and a man are both pictured; the museum links the scene to courtship fortune-telling. The other card shows a pumpkin-headed girl holding a cat beside “Sh! Ghosts!” Neither record verifies a prediction or a real ghost.",
+        "options": [
+          {
+            "id": "same",
+            "label": "Both document the same future partner appearing to the girl"
+          },
+          {
+            "id": "proof",
+            "label": "One proves mirror forecasts and the other proves ghosts exist"
+          },
+          {
+            "id": "travel",
+            "label": "Both mainly turn a harvest fruit into a vehicle"
+          },
+          {
+            "id": "contrast",
+            "label": "One looks ahead to a possible relationship; the other stages a scare in the present scene"
+          }
+        ],
+        "correct": "contrast",
+        "explanation": "The mirror story plays with uncertainty about a future relationship, even though a man is pictured. The other card’s printed words introduce a possible scare in its present scene. These are readings of the cards, not confirmation of a prophecy or ghost.",
+        "sourceIds": [
+          "mirror",
+          "spooky_greeting",
+          "context"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "afterlife",
+        "kind": "choice",
+        "prompt": "A visitor calls the Clapsaddle pumpkin card “a German Halloween field” because its copy was printed in Germany. Which correction fits the record?",
+        "context": "The museum attributes the artwork to Ellen Clapsaddle and identifies International Art Publishing Company in the card’s production. It records Germany as the printing location, but no real location for the imagined field.",
+        "options": [
+          {
+            "id": "artist",
+            "label": "Printing in Germany proves Clapsaddle drew the card there"
+          },
+          {
+            "id": "roles",
+            "label": "Printing location says where this copy was made, not where its pumpkins were pictured growing"
+          },
+          {
+            "id": "postmark",
+            "label": "The printing location is the place from which every copy was mailed"
+          },
+          {
+            "id": "field",
+            "label": "The field’s country can be read directly from the publisher’s name"
+          }
+        ],
+        "correct": "roles",
+        "explanation": "Artwork, publication, printing, and depicted setting are different facts. The catalog’s German printing field does not locate the fictional harvest field.",
+        "sourceIds": [
+          "clapsaddle"
+        ]
+      }
+    ]
   }
 ]

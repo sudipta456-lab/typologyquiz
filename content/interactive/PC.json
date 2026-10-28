@@ -9752,5 +9752,270 @@
         "description": "Prepared Scene favours shaping details in advance; Live Improvisation favours shaping them in response to others. Neither indicates greater creativity or competence."
       }
     ]
+  },
+  {
+    "id": "PC-29",
+    "slug": "costume-tradeoff-workshop",
+    "categoryId": "personality-choices",
+    "title": "Costume Tradeoff Workshop",
+    "description": "Make eight concrete costume decisions from supplied fictional character sketches. Compare a reusable foundation with a one-night transformation, and a faithful cue with a personal reading; neither approach earns a better result.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 5,
+    "dimensions": [
+      {
+        "id": "costume_lifecycle",
+        "low": "Reusable foundation",
+        "high": "One-night transformation",
+        "description": "How much of a costume plan you would build around using its base again versus changing it substantially for one role."
+      },
+      {
+        "id": "character_reading",
+        "low": "Source-faithful detail",
+        "high": "Personal reinterpretation",
+        "description": "Whether you would keep a recognizable cue from a character or reshape what that cue means."
+      }
+    ],
+    "sections": [
+      {
+        "id": "workshop",
+        "title": "Start with what is on the rack",
+        "description": "Choose a base and a character cue without altering anyone else’s property."
+      },
+      {
+        "id": "fit",
+        "title": "Make it work in the room"
+      },
+      {
+        "id": "finish",
+        "title": "Choose the finishing move"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional costume workshop scenarios",
+        "kind": "original"
+      }
+    ],
+    "note": "Fictional sketches are described in text. All costume bases and props are owned or used with stated permission. Results describe these decisions only; they do not measure creativity, skill, or personality.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "workshop",
+        "kind": "choice",
+        "prompt": "The sketch of a fictional night watch shows a charcoal coat and tall silver collar. Which coat plan would you pick?",
+        "context": "A friend offers a plain coat on the condition that it stays unchanged. You also own an older charcoal coat and may alter it. Either plan can carry the same removable silver collar from the sketch.",
+        "explanation": "Both builds honor ownership and keep the character cue. The first preserves a wearable borrowed base; the second changes a coat you own for one night.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "borrow_intact",
+            "label": "Borrow the friend’s coat unchanged and add the removable collar",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "alter_owned",
+            "label": "Tailor your own older coat for this one role and add the same collar",
+            "weights": [
+              100,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "workshop",
+        "kind": "choice",
+        "prompt": "The storm cartographer sketch has a compass rose on the shoulder. What should your removable travel panel say about the character?",
+        "context": "Your own plain jacket stays intact and the panel comes off before a crowded bus ride. Both designs stay flat and removable.",
+        "explanation": "The same practical panel solves the bus constraint. The choice changes the story of its symbol, from the supplied compass to your weather-map reading.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "compass",
+            "label": "Keep the sketch’s compass rose as the clear character cue",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "cloud_routes",
+            "label": "Draw cloud paths across the panel to recast the cartographer as someone who maps weather",
+            "weights": [
+              50,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "workshop",
+        "kind": "rank",
+        "prompt": "Rank three ways to build the fictional bell keeper’s costume from the one you would most enjoy to the one you would least enjoy.",
+        "context": "The sketch shows a dark jacket and a small bell emblem. The jacket is yours. Every plan keeps that emblem visible, and each gives a complete costume for the evening.",
+        "explanation": "This ranking records how much change you want to make to a garment you own. The familiar bell remains in every plan; it is not a creativity contest.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "intact",
+            "label": "Wear your jacket unchanged with a removable bell emblem",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "overlay",
+            "label": "Add a removable shaped outer layer over your jacket and the bell emblem",
+            "weights": [
+              50,
+              50
+            ]
+          },
+          {
+            "id": "tailored",
+            "label": "Reshape your own jacket for this role and keep the bell emblem",
+            "weights": [
+              100,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "fit",
+        "kind": "choice",
+        "prompt": "A long cape in the moth librarian sketch catches on dinner chairs. You remove the cape. Which shorter replacement would you choose?",
+        "context": "Both options use a short, detachable shoulder piece that clears the chair backs. The remaining sketch shows moth antennae; page-like seams would be your own reading of the librarian.",
+        "explanation": "The cape is gone in both complete fixes. One keeps the sketch’s moth cue; the other lets the librarian’s books carry the cue.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "antennae",
+            "label": "Keep the antennae as the shoulder piece’s visible character cue",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "pages",
+            "label": "Use page-like seams on the shoulder piece to read the character through books",
+            "weights": [
+              50,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "fit",
+        "kind": "choice",
+        "prompt": "The keeper of lost keys sketch includes a lantern, but a borrowed prop is too glaring for this room. Which complete prop plan appeals?",
+        "context": "The owner permits a removable glare-reducing cover but no changes to the borrowed prop. Your own already-dim prop can be changed for this event. Both versions display the same brass-key cue from the sketch.",
+        "explanation": "Both choices solve the glare as stated and respect the borrowed prop. The distinction is whether the base remains reusable or an owned prop becomes a one-night build.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "borrow_cover",
+            "label": "Keep the borrowed prop unchanged under its permitted removable cover, with a key emblem",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "own_dim",
+            "label": "Use your own already-dim prop, reshaped for this role with the same key emblem",
+            "weights": [
+              100,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "fit",
+        "kind": "rank",
+        "prompt": "Rank the details you would most want on a detachable badge for the fictional lighthouse keeper.",
+        "context": "The supplied sketch has a small reflective lighthouse badge. Your version may explain the keeper through a boat route or a rescue note instead. The same owned coat and detachable badge work with all three details.",
+        "explanation": "This ranking compares a supplied visual cue with two readings of what the keeper does. The shared coat and badge leave the garment decision out of this task.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "lighthouse",
+            "label": "The lighthouse silhouette from the sketch",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "boats",
+            "label": "A line of boats approaching the light",
+            "weights": [
+              50,
+              50
+            ]
+          },
+          {
+            "id": "note",
+            "label": "A tiny “come home” note in place of the tower image",
+            "weights": [
+              50,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "finish",
+        "kind": "slider",
+        "dimension": 0,
+        "lowLabel": "Build around a base I can wear again",
+        "highLabel": "Build a substantially changed look for this role",
+        "prompt": "For a future costume, where would you place the balance between a reusable base and a one-night transformation?",
+        "explanation": "The endpoints name two reasonable approaches. The position is descriptive and does not imply a better costume or a more capable maker.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "finish",
+        "kind": "slider",
+        "dimension": 1,
+        "lowLabel": "Keep a recognizable character cue",
+        "highLabel": "Reinterpret what the cue means",
+        "prompt": "When a costume refers to a character or familiar idea, how much would you want to reshape that reference?",
+        "explanation": "This records a preference for this scenario only; it does not measure creativity or character knowledge.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

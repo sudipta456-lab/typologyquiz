@@ -11134,5 +11134,348 @@
     ],
     "playMode": "solo",
     "note": "Eight distinct natural phenomena, not a species-name exam. The San Diego example is a May 2018 report, not a current bloom. Firefly displays are not promised for October. Text only; no animal handling, field experiment or universal claim that all red tides glow."
+  },
+  {
+    "id": "SN-29",
+    "slug": "nasa-spooky-sky-explained",
+    "categoryId": "science-nature",
+    "title": "NASA’s Spooky October Sky, Explained",
+    "description": "Read eight original text descriptions of NASA and Chandra images, then discover what the eerie shapes actually record: active regions, reflected starlight, gas emissions, a young star’s shadow, and more. Every observation is historical or archival; nothing here promises what is visible tonight.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "light",
+        "title": "When light makes the shape"
+      },
+      {
+        "id": "shadow",
+        "title": "When a shadow becomes evidence"
+      },
+      {
+        "id": "signals",
+        "title": "What the instruments recorded"
+      }
+    ],
+    "sources": [
+      {
+        "id": "sun",
+        "label": "NASA Solar Dynamics Observatory: Pumpkin Sun (October 8, 2014 image)",
+        "kind": "reference",
+        "url": "https://science.nasa.gov/resource/pumpkin-sun/"
+      },
+      {
+        "id": "spooky_notes",
+        "label": "NASA Night Sky Network: October’s Night Sky Notes: Spooky Stargazing (September 28, 2026)",
+        "kind": "reference",
+        "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/spooky-stargazing/"
+      },
+      {
+        "id": "ghost_head",
+        "label": "NASA Hubble: The Ghost Head Nebula (NGC 2080)",
+        "kind": "reference",
+        "url": "https://science.nasa.gov/asset/hubble/the-ghost-head-nebula-ngc-2080/"
+      },
+      {
+        "id": "bat_shadow",
+        "label": "NASA Hubble: Serpens Nebula, HBC 672",
+        "kind": "reference",
+        "url": "https://science.nasa.gov/image-detail/cosmic-shadow-of-hbc-672/"
+      },
+      {
+        "id": "cassiopeia",
+        "label": "NASA Hubble image record: Ghost of Cassiopeia / IC 63",
+        "kind": "reference",
+        "url": "https://science.nasa.gov/asset/hubble/ic-63-ghost-nebula/"
+      },
+      {
+        "id": "cosmic_hand",
+        "label": "Chandra 2023 MSH 15-52 release: Chandra/IXPE X-rays and DECaPS2 infrared survey data",
+        "kind": "reference",
+        "url": "https://chandra.harvard.edu/photo/2023/msh1552/"
+      },
+      {
+        "id": "cw_leonis",
+        "label": "NASA Hubble image record: CW Leonis, observations in 2011 and 2016; released October 28, 2021",
+        "kind": "reference",
+        "url": "https://science.nasa.gov/asset/hubble/cw-leonis/"
+      }
+    ],
+    "note": "The quiz uses text descriptions and links to dated NASA/Chandra records; it does not display or reproduce the images. Colorized astronomical images are not necessarily views in ordinary visible light. No current sky visibility or event timing is claimed.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "light",
+        "kind": "choice",
+        "prompt": "NASA’s Solar Dynamics Observatory recorded an October 8, 2014 Sun image that resembles a jack-o’-lantern. What are the bright patches actually marking?",
+        "context": "NASA’s record says the image combines ultraviolet wavelengths, which are colorized for display.",
+        "explanation": "The brighter regions trace active areas associated with intense, complex magnetic fields in the Sun’s corona. The pumpkin face is a visual resemblance in an ultraviolet image, not a visible-light photograph of a surface carving.",
+        "sourceIds": [
+          "sun"
+        ],
+        "options": [
+          {
+            "id": "flames",
+            "label": "Flames burning on the Sun’s visible surface"
+          },
+          {
+            "id": "active",
+            "label": "Solar active regions linked to magnetic fields in the corona"
+          },
+          {
+            "id": "holes",
+            "label": "Dark holes cut into the Sun to make a face"
+          },
+          {
+            "id": "planets",
+            "label": "The silhouettes of planets crossing the Sun together"
+          }
+        ],
+        "correct": "active"
+      },
+      {
+        "id": "q2",
+        "sectionId": "light",
+        "kind": "choice",
+        "prompt": "Why can the faint Witch Head outline be seen in NASA’s account of IC 2118?",
+        "context": "The cloud contains dust near the bright star Rigel. It is too faint to be an easy naked-eye target, and the described dust is not a solid glowing surface.",
+        "explanation": "IC 2118 is a reflection nebula: dust scatters light from nearby Rigel. The cue is the cloud’s dust beside a bright star, not its spooky name.",
+        "sourceIds": [
+          "spooky_notes"
+        ],
+        "options": [
+          {
+            "id": "self",
+            "label": "The dust burns steadily like a tiny star"
+          },
+          {
+            "id": "sun",
+            "label": "Sunlight bounces off a solid face-shaped object"
+          },
+          {
+            "id": "flash",
+            "label": "Brief electrical flashes keep drawing its outline"
+          },
+          {
+            "id": "rigel",
+            "label": "Its dust scatters light from nearby Rigel"
+          }
+        ],
+        "correct": "rigel"
+      },
+      {
+        "id": "q3",
+        "sectionId": "light",
+        "kind": "grid",
+        "prompt": "The Ghost Head’s two eye-like patches are different. Which physical reading fits each one?",
+        "context": "In the enhanced-color Hubble record, A1 has a rounded bubble in glowing gas. A2 looks more complex and dustier. Massive young stars can drive radiation and particle winds; dust can partly conceal stars.",
+        "cells": [
+          {
+            "id": "a1",
+            "label": "The rounded A1 bubble suggests…",
+            "options": [
+              {
+                "id": "shadow",
+                "label": "a solid planet making a dark silhouette"
+              },
+              {
+                "id": "wind",
+                "label": "a massive star clearing surrounding gas with radiation and wind"
+              }
+            ],
+            "correct": "wind"
+          },
+          {
+            "id": "a2",
+            "label": "The dustier A2 patch could contain…",
+            "options": [
+              {
+                "id": "embedded",
+                "label": "several massive stars partly hidden by dust"
+              },
+              {
+                "id": "empty",
+                "label": "only an empty cavity with no stars"
+              }
+            ],
+            "correct": "embedded"
+          }
+        ],
+        "explanation": "NASA attributes A1’s bubble to one massive star’s radiation and wind. Dust makes A2 more complex and conceals several massive stars. The red, blue, and green of the wider nebula encode hydrogen and oxygen emission, not surface paint.",
+        "sourceIds": [
+          "ghost_head"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "shadow",
+        "kind": "choice",
+        "prompt": "HBC 672’s Bat Shadow spans a huge region of cloud, although the structure casting it is too small for Hubble to resolve directly. Which conclusion about size follows?",
+        "context": "NASA identifies the dark wings as a shadow projected onto the young star’s surrounding cloud. The pattern and the material casting it are in different places.",
+        "explanation": "The disk near HBC 672 is unresolved, but its shadow spreads across the birth cloud. A large projected pattern can reveal a small hidden structure; the shadow’s span is not the disk’s physical diameter.",
+        "sourceIds": [
+          "bat_shadow"
+        ],
+        "options": [
+          {
+            "id": "shadow_scale",
+            "label": "The dark span measures a projected pattern on the cloud, not the physical width of the material near the star"
+          },
+          {
+            "id": "direct_width",
+            "label": "The dark span directly measures the full physical width of the material around the star"
+          },
+          {
+            "id": "same_size",
+            "label": "The casting material must be at least as wide as every part of its shadow"
+          },
+          {
+            "id": "resolved",
+            "label": "Seeing the shadow means Hubble has also resolved the material itself"
+          }
+        ],
+        "correct": "shadow_scale"
+      },
+      {
+        "id": "q5",
+        "sectionId": "shadow",
+        "kind": "choice",
+        "prompt": "What physical relationship best explains IC 63’s bright edge and ghostly veil?",
+        "context": "In Hubble’s archived record, the cloud of gas and dust lies close to the blue giant Gamma Cassiopeiae. The edge facing that star is bright; a veil extends away. The star itself is outside this Hubble frame.",
+        "options": [
+          {
+            "id": "gravity",
+            "label": "Earth’s gravity draws the distant cloud into a tail"
+          },
+          {
+            "id": "collision",
+            "label": "A solid body has punched the veil out of the cloud"
+          },
+          {
+            "id": "gamma",
+            "label": "Energy from Gamma Cassiopeiae excites and shapes nearby gas and dust"
+          },
+          {
+            "id": "camera",
+            "label": "The shape is a trail left by Hubble’s camera motion"
+          }
+        ],
+        "correct": "gamma",
+        "explanation": "NASA attributes the red hydrogen glow to ultraviolet radiation from Gamma Cassiopeiae and the blue to its light reflected by dust. The star’s influence explains the bright edge and flowing shape.",
+        "sourceIds": [
+          "cassiopeia"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "signals",
+        "kind": "match",
+        "prompt": "Use the physical clues to connect the ghostly hand’s features with their astronomical roles.",
+        "context": "A pulsar is a compact spinning star whose continuing particle outflow can form a wind nebula. In this image, the small source near the palm’s base feeds the extended hand. A separate cloud beyond the fingertips is older debris from the explosion that left the compact source.",
+        "explanation": "The palm-base spot is the pulsar; its energetic particle wind shapes the hand-like nebula; and the low-energy X-ray clouds beyond the fingertips belong to the surrounding supernova remains. Chandra’s main release attributes the infrared layer to DECaPS2.",
+        "sourceIds": [
+          "cosmic_hand"
+        ],
+        "left": [
+          {
+            "id": "palm",
+            "label": "Blobby spot near the palm’s base"
+          },
+          {
+            "id": "hand",
+            "label": "Hand-shaped cloud"
+          },
+          {
+            "id": "fingertips",
+            "label": "Mottled cloud just beyond the fingertips"
+          }
+        ],
+        "right": [
+          {
+            "id": "wind",
+            "label": "Pulsar wind nebula"
+          },
+          {
+            "id": "remnant",
+            "label": "Cloud from the supernova that created the pulsar"
+          },
+          {
+            "id": "pulsar",
+            "label": "The pulsar itself"
+          }
+        ],
+        "pairs": {
+          "palm": "pulsar",
+          "hand": "wind",
+          "fingertips": "remnant"
+        }
+      },
+      {
+        "id": "q7",
+        "sectionId": "signals",
+        "kind": "order",
+        "prompt": "How can Algol’s regular dimming and brightening happen from our viewpoint?",
+        "context": "NASA describes an orbiting pair in Algol’s triple-star system. Their alignment sometimes places one star in front of the other as viewed from Earth.",
+        "items": [
+          {
+            "id": "orbit",
+            "label": "The two stars continue around their shared orbit"
+          },
+          {
+            "id": "cross",
+            "label": "One moves in front of the other from Earth’s viewpoint"
+          },
+          {
+            "id": "dim",
+            "label": "The pair’s combined light appears dimmer"
+          },
+          {
+            "id": "clear",
+            "label": "As the alignment passes, the combined light brightens again"
+          }
+        ],
+        "correctOrder": [
+          "orbit",
+          "cross",
+          "dim",
+          "clear"
+        ],
+        "explanation": "An eclipse is a temporary alignment during an orbit: overlap reduces the light we receive, and the light rises after the stars separate in our view. TESS records the cycle; the telescope does not cause it.",
+        "sourceIds": [
+          "spooky_notes"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "signals",
+        "kind": "choice",
+        "prompt": "Which reading of CW Leonis keeps the observed arcs separate from the still-unsettled beams?",
+        "context": "Hubble’s records show expanding orange-red arcs around an aging carbon star and beams whose brightness changed across years. Its outer layers spread into an uneven envelope; astronomers have not pinned down why the beams changed.",
+        "options": [
+          {
+            "id": "same",
+            "label": "Both arcs and beam changes have a single proven cause: a fixed opening in the dust"
+          },
+          {
+            "id": "dust",
+            "label": "The arcs are expelled carbon-rich dust; openings in that dust may let some starlight through"
+          },
+          {
+            "id": "orbit",
+            "label": "The arcs are planetary orbits; the beams are planets crossing the star"
+          },
+          {
+            "id": "filter",
+            "label": "Both features are only the boundaries of Hubble’s color filters"
+          }
+        ],
+        "correct": "dust",
+        "explanation": "Ejected carbon-rich dust makes the arcs. NASA treats gaps as a possible way for starlight beams to emerge, while the cause of their brightness changes remains unresolved.",
+        "sourceIds": [
+          "cw_leonis"
+        ]
+      }
+    ]
   }
 ]

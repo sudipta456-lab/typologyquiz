@@ -10690,5 +10690,295 @@
     ],
     "playMode": "solo",
     "note": "An original, non-graphic ghost story. Suggested cooperative pass-and-play: share one device, take turns reading the next fragment aloud, discuss and submit one shared answer. There are no private player turns, hidden roles or branching outcomes. Solo play also works. The final creative choice is ungraded."
+  },
+  {
+    "id": "FS-29",
+    "slug": "the-second-seat-at-lantern-hall",
+    "categoryId": "friends-social-play",
+    "title": "The Second Seat at Lantern Hall",
+    "description": "At a candlelit masquerade, a second place card appears for someone already at the table. Follow the pencil marks, a displaced screen, and two conflicting accounts to learn what the extra chair was meant to show.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 7,
+    "sections": [
+      {
+        "id": "arrival",
+        "title": "The extra place card"
+      },
+      {
+        "id": "screen",
+        "title": "What the curtain hides"
+      },
+      {
+        "id": "reveal",
+        "title": "After the bell"
+      }
+    ],
+    "sources": [
+      {
+        "id": "story",
+        "label": "Original fictional Lantern Hall masquerade story and clues",
+        "kind": "original"
+      }
+    ],
+    "playMode": "solo",
+    "note": "One person can play alone or a group can read clues aloud and agree on one shared answer. The mystery has one fixed ending; the final line is an unscored creative response, with no private turns or branches.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "Mara is sitting at the table, yet a second card bearing her name stands beside an empty chair behind a gauze curtain. Which first reading deserves investigation?",
+        "context": "Wind rattles the north shutter and stirs the gauze. The host says the extra chair was added that afternoon. A guest assumes Mara is being moved; Mara says no one told her that.",
+        "options": [
+          {
+            "id": "ghost",
+            "label": "A second Mara must have entered the hall"
+          },
+          {
+            "id": "rank",
+            "label": "The chair proves Mara has higher rank than everyone else"
+          },
+          {
+            "id": "snub",
+            "label": "Someone may have planned to move Mara without telling her"
+          },
+          {
+            "id": "error",
+            "label": "The duplicate card can only be a printer error"
+          }
+        ],
+        "correct": "snub",
+        "explanation": "The unexplained duplicate could reasonably look like a social slight. The evidence is not yet enough to call it a ghost, a rank, or a printing error.",
+        "sourceIds": [
+          "story"
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "A new clue changes what the second card might mean. Which question would best test the snub theory?",
+        "context": "On the back of the duplicate card Mara finds a pencil note: “At the bell, look toward the curtain.” A thin rectangle of clean floor sits where a small lamp normally stands.",
+        "options": [
+          {
+            "id": "lamp",
+            "label": "Who moved the lamp, and what would its light reach?"
+          },
+          {
+            "id": "guest",
+            "label": "Which guest arrived earliest?"
+          },
+          {
+            "id": "ink",
+            "label": "What brand of ink was used?"
+          },
+          {
+            "id": "rank",
+            "label": "Does the empty chair have a higher number?"
+          }
+        ],
+        "correct": "lamp",
+        "explanation": "The note directs attention to a timed visual event. A moved lamp offers a physical way to test it, while arrival order and ink do not explain the curtain.",
+        "sourceIds": [
+          "story"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "arrival",
+        "kind": "match",
+        "prompt": "Match each clue to the interpretation it changes most. These clues are discovered before anyone lifts the curtain.",
+        "context": "The duplicate card points toward the curtain at the bell; the lamp has moved; Mara still has a place at the main table.",
+        "left": [
+          {
+            "id": "main",
+            "label": "Mara’s occupied table place"
+          },
+          {
+            "id": "note",
+            "label": "The pencilled instruction"
+          },
+          {
+            "id": "floor",
+            "label": "Clean rectangle on the floor"
+          }
+        ],
+        "right": [
+          {
+            "id": "timing",
+            "label": "Something is meant to be seen at a particular moment"
+          },
+          {
+            "id": "apparatus",
+            "label": "A movable object may be part of the effect"
+          },
+          {
+            "id": "stay",
+            "label": "She was not simply removed from dinner"
+          }
+        ],
+        "pairs": {
+          "main": "stay",
+          "note": "timing",
+          "floor": "apparatus"
+        },
+        "explanation": "The main-table place weakens a simple exclusion story. The note supplies timing, and the floor mark points to moved equipment.",
+        "sourceIds": [
+          "story"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "screen",
+        "kind": "choice",
+        "prompt": "What does the discovery behind the curtain most strongly suggest?",
+        "context": "Behind the gauze is a cut-paper silhouette of a seated figure. It is clipped to a stand facing the lamp. From the table, the silhouette can line up with the empty chair.",
+        "options": [
+          {
+            "id": "double",
+            "label": "Mara has a hidden twin"
+          },
+          {
+            "id": "ban",
+            "label": "The host barred Mara from the table"
+          },
+          {
+            "id": "accident",
+            "label": "The paper figure fell there by accident"
+          },
+          {
+            "id": "effect",
+            "label": "The extra chair is part of a planned shadow effect"
+          }
+        ],
+        "correct": "effect",
+        "explanation": "The lamp, cutout, gauze, and chair together explain how a second seated figure could appear. The hardware does not establish why it was prepared.",
+        "sourceIds": [
+          "story"
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "screen",
+        "kind": "order",
+        "prompt": "Put the physical steps in the order needed for the silhouette to seem to sit in the empty chair.",
+        "context": "The stand holds the cutout behind gauze. The moved lamp shines toward it; diners look through the gauze from their seats.",
+        "items": [
+          {
+            "id": "lamp",
+            "label": "Light leaves the lamp"
+          },
+          {
+            "id": "cutout",
+            "label": "The cutout blocks part of that light"
+          },
+          {
+            "id": "gauze",
+            "label": "Its shadow falls on the gauze"
+          },
+          {
+            "id": "view",
+            "label": "From the table, the shadow aligns with the spare chair"
+          }
+        ],
+        "correctOrder": [
+          "lamp",
+          "cutout",
+          "gauze",
+          "view"
+        ],
+        "explanation": "The apparent second diner is a sightline effect: lamp, cutout, screen, then viewpoint. This reconstructs the trick without making it supernatural.",
+        "sourceIds": [
+          "story"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "reveal",
+        "kind": "choice",
+        "prompt": "How should the group now read the host’s account and Mara’s note together?",
+        "context": "The host says the shadow was planned as a surprise. Mara says she added this line to the duplicate card later: “Ask me about the north window before you light it.” The cutout faces that window.",
+        "options": [
+          {
+            "id": "malice",
+            "label": "The note proves the host meant to frighten Mara"
+          },
+          {
+            "id": "added",
+            "label": "A planned illusion acquired a later caution about the window"
+          },
+          {
+            "id": "cancel",
+            "label": "Mara’s note says the shadow was never planned"
+          },
+          {
+            "id": "ghost",
+            "label": "The window note proves the second diner was real"
+          }
+        ],
+        "correct": "added",
+        "explanation": "The shadow apparatus can be a planned effect while the later note is a separate warning. Neither account alone explains the whole card.",
+        "sourceIds": [
+          "story"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "reveal",
+        "kind": "choice",
+        "prompt": "At the bell, what does the group finally learn about the extra chair?",
+        "context": "Before the lamp is lit, Mara checks the north shutter and catches its loose latch; the shutter could have swung through the lamp’s new position beside the curtain. Mara had cut the silhouette for the planned effect, then added the warning. The host knew about the shadow but had missed the back of the card.",
+        "options": [
+          {
+            "id": "snub",
+            "label": "It was a plan to remove Mara from dinner"
+          },
+          {
+            "id": "ghost",
+            "label": "The silhouette proves a second person appeared"
+          },
+          {
+            "id": "both",
+            "label": "The eerie second diner was planned; Mara’s later note prevented the lamp from being lit beside the loose shutter"
+          },
+          {
+            "id": "host",
+            "label": "The host invented the window problem to excuse a prank"
+          }
+        ],
+        "correct": "both",
+        "explanation": "The staged shadow explains the duplicate place. The later note and loose latch explain why Mara wanted the window checked before the lamp was used.",
+        "sourceIds": [
+          "story"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "reveal",
+        "kind": "choice",
+        "unscored": true,
+        "prompt": "The lamp stays unlit, but the party keeps the paper figure on its stand behind the gauze. Choose a final line for the hall’s guestbook. There is no keyed answer.",
+        "context": "Mara returns to her original seat. The extra chair stays empty; everyone now knows how the planned second diner would have appeared.",
+        "options": [
+          {
+            "id": "shadow",
+            "label": "We checked the shutter before the lamp could cast its second guest."
+          },
+          {
+            "id": "latch",
+            "label": "The smallest warning arrived dressed as a guest."
+          },
+          {
+            "id": "curtain",
+            "label": "Behind the curtain, someone had thought ahead."
+          }
+        ],
+        "explanation": "Each line reflects the same fixed ending. This creative choice contributes no points and changes no scene.",
+        "sourceIds": [
+          "story"
+        ]
+      }
+    ]
   }
 ]

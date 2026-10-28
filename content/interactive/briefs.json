@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 28,
+      "count": 29,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 28,
+      "count": 29,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 28,
+      "count": 29,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 28,
+      "count": 29,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 28,
+      "count": 29,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -5929,6 +5929,116 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-10-26",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "PC-29",
+      "title": "Costume Tradeoff Workshop",
+      "slug": "costume-tradeoff-workshop",
+      "kind": "preference",
+      "hook": "Make practical costume decisions from fictional sketches, with ownership and movement constraints resolved in every option.",
+      "rounds": [
+        "3 tasks: Choose a Foundation and Cue",
+        "3 tasks: Solve Room and Prop Details",
+        "2 tasks: Set Your Balance"
+      ],
+      "seed": "Text descriptions of original fictional character sketches supply visible cues. Borrowed garments and props have explicit permission limits.",
+      "payoff": "Two descriptive scales: Reusable Foundation/One-night Transformation and Source-faithful Detail/Personal Reinterpretation.",
+      "audience": "North American Halloween-season readers who enjoy concrete costume design decisions; no craft expertise required.",
+      "evidence": "Approved October 28 treatment; Google’s October 14, 2026 Frightgeist reports document current seasonal search interest in costumes in the U.S. and Canada. Search interest is not engagement or a population preference measure.",
+      "dependency": "preference",
+      "production_note": "Eight unkeyed tasks across choice, rank, and slider. Each dimension receives four active contributions; one-axis questions give each decision a clear purpose. No skill or creativity grade.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-10-28",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "FS-29",
+      "title": "The Second Seat at Lantern Hall",
+      "slug": "the-second-seat-at-lantern-hall",
+      "kind": "cooperative",
+      "hook": "At a candlelit masquerade, a duplicate place card and an empty chair suggest a snub until physical clues change the reading.",
+      "rounds": [
+        "3 tasks: The Extra Place Card",
+        "2 tasks: What the Curtain Hides",
+        "3 tasks: After the Bell"
+      ],
+      "seed": "Mara is at the table while her name also appears beside an empty chair behind gauze; a note directs attention to the curtain at the bell.",
+      "payoff": "The apparent second diner is a staged shadow; a later warning prevents the lamp being lit beside a loose shutter. The ending is fixed.",
+      "audience": "Friends or solo players who enjoy a short social mystery with a clear earned resolution; no private turn-taking or prior knowledge needed.",
+      "evidence": "Approved October 28 rebuilt treatment; entirely original fictional records, not a claim about actual communities or measured audience preferences.",
+      "dependency": "social",
+      "production_note": "Original fiction; seven keyed evidence and inference tasks plus one unscored creative line. One shared answer set, no private turns or branches.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-10-28",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "SN-29",
+      "title": "NASA’s Spooky October Sky, Explained",
+      "slug": "nasa-spooky-sky-explained",
+      "kind": "knowledge",
+      "hook": "Decode eight dated NASA space images by discovering what the spooky-looking shapes actually record.",
+      "rounds": [
+        "3 tasks: When Light Makes the Shape",
+        "2 tasks: When a Shadow Becomes Evidence",
+        "3 tasks: What the Instruments Recorded"
+      ],
+      "seed": "NASA’s October 8, 2014 ultraviolet Sun image resembles a jack-o’-lantern; its bright regions record solar activity.",
+      "payoff": "Eight distinct object discoveries spanning solar active regions, reflected starlight, nebular emissions, a disk shadow, radiation sculpting, pulsar data, eclipse timing, and an Hubble red giant.",
+      "audience": "Curious general readers who like visual astronomy and clear explanations without requiring image interpretation or Latin-name recall.",
+      "evidence": "Approved October 28 pivot; primary NASA and Chandra page text checked on 2026-10-28. The examples are dated historical images/observations; no live sky visibility is claimed.",
+      "dependency": "base",
+      "production_note": "Eight scored tasks across choice, grid, match, and order. Text-only clues support physical deductions without showing images or giving the key before the question; archived dates and image-color limits are explicit.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-10-28",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "HC-29",
+      "title": "The Strange Little Halloween Postcard Gallery",
+      "slug": "the-strange-little-halloween-postcard-gallery",
+      "kind": "knowledge",
+      "hook": "Follow a curator’s trail through surprising early Halloween postcard stories and their later reuse.",
+      "rounds": [
+        "2 tasks: Odd Arrivals",
+        "3 tasks: Games, Whispers, and Light",
+        "3 tasks: The Card Travels On"
+      ],
+      "seed": "A 1907–1908 postcard turns a watermelon into a hand-cranked automobile amid familiar Halloween symbols.",
+      "payoff": "Read pictorial jokes, compare card scenes, distinguish a personal greeting from printed fantasy, and make one careful production inference.",
+      "audience": "Readers curious about archival objects and everyday cultural history; the museum descriptions and catalog records supply the necessary context.",
+      "evidence": "Approved October 28 treatment; individual accessible The Henry Ford object records and curator descriptions checked on 2026-10-28. No single card is generalized into a universal custom.",
+      "dependency": "base",
+      "production_note": "Eight scored tasks across choice and one meaningful scene-to-function match. Interpretations stay separate from curator facts; no restricted images or addresses are reproduced. Only one production-location question.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-10-28",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "FE-29",
+      "title": "The After-Dark Potluck Table",
+      "slug": "the-after-dark-potluck-table",
+      "kind": "preference",
+      "hook": "Build one fictional potluck through different food and guest decisions, from first plate to a story told over pears.",
+      "rounds": [
+        "2 tasks: Open the Table",
+        "2 tasks: Make New Dishes Belong",
+        "4 tasks: Close and Remember"
+      ],
+      "seed": "One fictional table holds squash soup, dark bread, fruit, relish, seeds, pears, and later savory hand pies.",
+      "payoff": "Concrete bites and guest moments to compare, plus two descriptive routes for this imagined table.",
+      "audience": "Readers who enjoy food as part of a gathering’s atmosphere and history; no recipes, arithmetic, or culinary knowledge needed.",
+      "evidence": "Original fictional food-table design. Seasonal research is background only; the quiz makes no historical or search-trend claims.",
+      "dependency": "preference",
+      "production_note": "Eight unkeyed tasks across choice, rank, and slider. Each dimension receives four active contributions; no recipe, health, safety, cultural-custom, or hosting-skill claim.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-10-28",
       "evidence_class": "seasonal"
     }
   ]
