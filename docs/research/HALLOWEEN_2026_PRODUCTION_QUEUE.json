@@ -1,14 +1,14 @@
 {
   "approvedLocalDate": "2026-10-23",
   "approval": "Owner: good ... go with ur new recomendation",
-  "status": "approved-editorial-treatment-queue-fifteen-published-25-not-authored",
+  "status": "approved-editorial-treatment-queue-twenty-published-15-future-5-expired-unpublished",
   "authority": "These reviewed treatments govern October24–31 authoring. The original calendar remains historical; do not implement a weak original hook unchanged.",
   "provenance": "Mechanical adoption of the completed Grok Expert audit and coordinator checks; no new Grok inference, creative draft or independent release review occurred during adoption.",
   "auditRecord": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT.md",
   "immutableAuditRows": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT_ROWS.json",
-  "futureBriefCount": 25,
-  "requiresSubstantialRevision": 17,
-  "strongerStartingBriefsNotCleared": 8,
+  "futureBriefCount": 15,
+  "requiresSubstantialRevision": 10,
+  "strongerStartingBriefsNotCleared": 5,
   "dailyLimit": 5,
   "timezone": "America/Edmonton",
   "noBackfill": true,
@@ -247,9 +247,11 @@
       "originalTitleForTraceability": "Haunted Set Light-and-Shadow Lab",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Keep meaningful visual light/shadow craft; use actual authored diagrams that support the questions, rather than numeric substitutes.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
+      "status": "missed-unpublished-no-backfill",
       "idAllocated": false,
-      "playable": false
+      "playable": false,
+      "failureRecord": "docs/research/daily-quizzes/2026-10-27.md",
+      "skipReason": "Subscription quota rejected authoring before a playable packet existed; the expired date is not backfilled."
     },
     {
       "localDate": "2026-10-27",
@@ -257,9 +259,11 @@
       "originalTitleForTraceability": "The Phantom Tone Illusion",
       "auditVerdict": "PIVOT",
       "approvedTreatment": "Make the auditory contrast itself worth hearing and answerable in text. Do not invent universal perception or hearing claims.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
+      "status": "missed-unpublished-no-backfill",
       "idAllocated": false,
-      "playable": false
+      "playable": false,
+      "failureRecord": "docs/research/daily-quizzes/2026-10-27.md",
+      "skipReason": "Subscription quota rejected authoring before a playable packet existed; the expired date is not backfilled."
     },
     {
       "localDate": "2026-10-27",
@@ -267,9 +271,11 @@
       "originalTitleForTraceability": "Fog Pocket Street Grid",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace coordinate/closed-edge drills with geographic discovery, a real place-based source trail, or a coherent non-numeric map mystery.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
+      "status": "missed-unpublished-no-backfill",
       "idAllocated": false,
-      "playable": false
+      "playable": false,
+      "failureRecord": "docs/research/daily-quizzes/2026-10-27.md",
+      "skipReason": "Subscription quota rejected authoring before a playable packet existed; the expired date is not backfilled."
     },
     {
       "localDate": "2026-10-27",
@@ -277,9 +283,11 @@
       "originalTitleForTraceability": "Werewolf Relay Tournament",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Rebuild around an engaging game or social decision. A seasonal noun on bracket advancement is insufficient.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
+      "status": "missed-unpublished-no-backfill",
       "idAllocated": false,
-      "playable": false
+      "playable": false,
+      "failureRecord": "docs/research/daily-quizzes/2026-10-27.md",
+      "skipReason": "Subscription quota rejected authoring before a playable packet existed; the expired date is not backfilled."
     },
     {
       "localDate": "2026-10-27",
@@ -287,9 +295,11 @@
       "originalTitleForTraceability": "Pumpkin Patch Scale Riddle",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace symbolic weights and bins with a verbal, visual or evidence-based puzzle that earns its Halloween premise.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
+      "status": "missed-unpublished-no-backfill",
       "idAllocated": false,
-      "playable": false
+      "playable": false,
+      "failureRecord": "docs/research/daily-quizzes/2026-10-27.md",
+      "skipReason": "Subscription quota rejected authoring before a playable packet existed; the expired date is not backfilled."
     },
     {
       "localDate": "2026-10-28",
@@ -297,9 +307,14 @@
       "originalTitleForTraceability": "Costume Improv Dilemmas",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Stronger human-agency premise. Use credible costume dilemmas and descriptive responses rather than caricatured types.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "PC-29",
+      "slug": "costume-tradeoff-workshop",
+      "publishedTitle": "Costume Tradeoff Workshop",
+      "sourceCommit": "515a196ea77e683b1e1d967e57a676bcad2742f9",
+      "deploymentVersion": "164bee81-3f35-45a8-8f71-ad368fb1f9d5"
     },
     {
       "localDate": "2026-10-28",
@@ -307,9 +322,14 @@
       "originalTitleForTraceability": "Masquerade Seating Secrets",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Rebuild for social meaning or a coherent mystery; more exclusion matching alone repeats the current weakness.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "FS-29",
+      "slug": "the-second-seat-at-lantern-hall",
+      "publishedTitle": "The Second Seat at Lantern Hall",
+      "sourceCommit": "515a196ea77e683b1e1d967e57a676bcad2742f9",
+      "deploymentVersion": "164bee81-3f35-45a8-8f71-ad368fb1f9d5"
     },
     {
       "localDate": "2026-10-28",
@@ -317,9 +337,14 @@
       "originalTitleForTraceability": "NASA's Spooky October Sky",
       "auditVerdict": "PIVOT",
       "approvedTreatment": "Use specific NASA objects/images or dated observations. Verify current timing/location and avoid calling expired events tonight.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "SN-29",
+      "slug": "nasa-spooky-sky-explained",
+      "publishedTitle": "NASA’s Spooky October Sky, Explained",
+      "sourceCommit": "515a196ea77e683b1e1d967e57a676bcad2742f9",
+      "deploymentVersion": "164bee81-3f35-45a8-8f71-ad368fb1f9d5"
     },
     {
       "localDate": "2026-10-28",
@@ -327,9 +352,14 @@
       "originalTitleForTraceability": "Halloween Postcard Detective",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Strong archival-discovery premise if original descriptions and verified metadata yield surprising stories; inspect item rights before any image reuse.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "HC-29",
+      "slug": "the-strange-little-halloween-postcard-gallery",
+      "publishedTitle": "The Strange Little Halloween Postcard Gallery",
+      "sourceCommit": "515a196ea77e683b1e1d967e57a676bcad2742f9",
+      "deploymentVersion": "164bee81-3f35-45a8-8f71-ad368fb1f9d5"
     },
     {
       "localDate": "2026-10-28",
@@ -337,9 +367,14 @@
       "originalTitleForTraceability": "Pumpkin Potluck Portion Puzzle",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace serving arithmetic with researched Halloween food customs, sensory choices or interesting preparation history; no health claims.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "FE-29",
+      "slug": "the-after-dark-potluck-table",
+      "publishedTitle": "The After-Dark Potluck Table",
+      "sourceCommit": "515a196ea77e683b1e1d967e57a676bcad2742f9",
+      "deploymentVersion": "164bee81-3f35-45a8-8f71-ad368fb1f9d5"
     },
     {
       "localDate": "2026-10-29",
@@ -512,7 +547,11 @@
     "independentCreativeReview": "not performed; Grok quota blocks scripts and fresh review"
   },
   "initialApprovedFutureBriefCount": 40,
-  "publishedFromQueue": 15,
-  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-26-release.json",
-  "existingPublishedQuizzesUnchanged": true
+  "publishedFromQueue": 20,
+  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-28-release.json",
+  "existingPublishedQuizzesUnchanged": true,
+  "unpublishedBriefCount": 20,
+  "expiredUnpublishedBriefCount": 5,
+  "expiredRequiresSubstantialRevision": 4,
+  "expiredStrongerStartingBriefs": 1
 }

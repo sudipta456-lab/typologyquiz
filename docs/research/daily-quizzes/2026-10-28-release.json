@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-28",
+  "timezone": "America/Edmonton",
+  "status": "published-verified",
+  "published": 5,
+  "shortfall": 0,
+  "totalInteractiveQuizzes": 280,
+  "totalAuthoredTasks": 2240,
+  "sourceCommit": "515a196ea77e683b1e1d967e57a676bcad2742f9",
+  "packetSha256": "5b91a2c14cf236a1946722b842357292ccb8ff20748c1413430fad090dbcab14",
+  "deployment": {
+    "id": "093d7227-c752-46c6-8388-0a8ce077b5ee",
+    "created_on": "2026-10-28T15:30:37.838235Z",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "164bee81-3f35-45a8-8f71-ad368fb1f9d5",
+        "percentage": 100
+      }
+    ]
+  },
+  "quizzes": [
+    {
+      "id": "PC-29",
+      "category": "personality-choices",
+      "title": "Costume Tradeoff Workshop",
+      "slug": "costume-tradeoff-workshop",
+      "url": "https://typologyquiz.com/quizzes/costume-tradeoff-workshop/"
+    },
+    {
+      "id": "FS-29",
+      "category": "friends-social-play",
+      "title": "The Second Seat at Lantern Hall",
+      "slug": "the-second-seat-at-lantern-hall",
+      "url": "https://typologyquiz.com/quizzes/the-second-seat-at-lantern-hall/"
+    },
+    {
+      "id": "SN-29",
+      "category": "science-nature",
+      "title": "NASA’s Spooky October Sky, Explained",
+      "slug": "nasa-spooky-sky-explained",
+      "url": "https://typologyquiz.com/quizzes/nasa-spooky-sky-explained/"
+    },
+    {
+      "id": "HC-29",
+      "category": "history-culture",
+      "title": "The Strange Little Halloween Postcard Gallery",
+      "slug": "the-strange-little-halloween-postcard-gallery",
+      "url": "https://typologyquiz.com/quizzes/the-strange-little-halloween-postcard-gallery/"
+    },
+    {
+      "id": "FE-29",
+      "category": "food-everyday-life",
+      "title": "The After-Dark Potluck Table",
+      "slug": "the-after-dark-potluck-table",
+      "url": "https://typologyquiz.com/quizzes/the-after-dark-potluck-table/"
+    }
+  ],
+  "gates": {
+    "independentGPTReview": "PASS: comprehensive content/code derivations plus changed-task, permutation, copy and direct-attachment visual closures",
+    "reviewReceipts": [
+      {
+        "file": "independent-review-v3.md",
+        "sha256": "1c5a3f69f896e9fbb4c5631726a584051559b485f023bb9109c6dc00405a9782",
+        "verdict": "REVISE (closed by later review)"
+      },
+      {
+        "file": "independent-final-review.md",
+        "sha256": "254181c377fc58d7397e7e9f1524135a11f093a27a640a3f5ad2b7b345316bfc",
+        "verdict": "REVISE (closed by later review)"
+      },
+      {
+        "file": "independent-release-review.md",
+        "sha256": "563ac275b400bcffb319b7147730cdd3a42bc6163e1ea09745c5ccd74f37af80",
+        "verdict": "PASS"
+      },
+      {
+        "file": "independent-ordering-review.md",
+        "sha256": "40531659ecd59bc9cd5b9e7ecd9c6fd7f384c9eb21af40c2a7bc6a7a3bcb6813",
+        "verdict": "PASS"
+      },
+      {
+        "file": "independent-copy-review.md",
+        "sha256": "8375aaf5bcab8dcee1eed72a81d88c5628815d1e6cfec4b870ef5e913440aa6a",
+        "verdict": "PASS"
+      },
+      {
+        "file": "independent-visual-review.md",
+        "sha256": "f9aa363ce1d1a48a8ac44ede2b817178a5319d843152d5741eeb0ef393a0b6cd",
+        "verdict": "REVISE (closed by later review)"
+      },
+      {
+        "file": "independent-visual-closure.md",
+        "sha256": "e2eacc421d2fc00d64194961425029418e05e91157c1d59db6be7586d9a4b3f7",
+        "verdict": "PASS"
+      }
+    ],
+    "fullVerifyTests": 300,
+    "productionBuild": "GA-enabled documented wrapper dry run; same verified export deployed through its final Wrangler step",
+    "activeGAHTMLCoverage": 1600,
+    "sitemapUniqueURLs": 864,
+    "all275OldQuizObjectsAndBriefsUnchanged": true,
+    "all550OldRawObjectSlicesIndependentlyPreserved": true,
+    "handbookR2ImageHTTP": 200,
+    "workerFirstAndBindingsUnchanged": true,
+    "keyedChoicePositionCounts": {
+      "A": 4,
+      "B": 5,
+      "C": 4,
+      "D": 4
+    }
+  },
+  "browser": {
+    "previews": [
+      {
+        "quiz": "PC-29",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "tasks": 8,
+        "formats": [
+          "choice",
+          "rank",
+          "slider"
+        ],
+        "layout": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "consoleErrors": [],
+        "completed": true,
+        "checkableTasks": 0,
+        "observedAccuracy": null,
+        "descriptiveOnly": true
+      },
+      {
+        "quiz": "FS-29",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "tasks": 8,
+        "formats": [
+          "choice",
+          "match",
+          "order"
+        ],
+        "resumeAt": 4,
+        "layout": {
+          "scrollWidth": 320,
+          "width": 320
+        },
+        "consoleErrors": [],
+        "completed": true,
+        "checkableTasks": 7,
+        "observedAccuracy": 100,
+        "descriptiveOnly": false
+      },
+      {
+        "quiz": "SN-29",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "tasks": 8,
+        "formats": [
+          "choice",
+          "grid",
+          "match",
+          "order"
+        ],
+        "layout": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "consoleErrors": [],
+        "completed": true,
+        "checkableTasks": 8,
+        "observedAccuracy": 100,
+        "descriptiveOnly": false
+      },
+      {
+        "quiz": "HC-29",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "tasks": 8,
+        "formats": [
+          "choice",
+          "match"
+        ],
+        "layout": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "consoleErrors": [],
+        "completed": true,
+        "checkableTasks": 8,
+        "observedAccuracy": 100,
+        "descriptiveOnly": false
+      },
+      {
+        "quiz": "FE-29",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "tasks": 8,
+        "formats": [
+          "choice",
+          "rank",
+          "slider"
+        ],
+        "resumeAt": 2,
+        "layout": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "consoleErrors": [],
+        "completed": true,
+        "checkableTasks": 0,
+        "observedAccuracy": null,
+        "descriptiveOnly": true
+      }
+    ],
+    "production": {
+      "quiz": "FE-29",
+      "tasks": 8,
+      "result": "Descriptive summaries, no accuracy score; Familiar flavor anchor / Guest-shaped route",
+      "layout": {
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "consoleErrors": []
+    },
+    "proof": {
+      "url": "https://typologyquiz.com/quizzes/the-after-dark-potluck-table/",
+      "at": "2026-10-28T15:37:31.718Z",
+      "file": "live-quiz-proof.jpg",
+      "mimeType": "image/jpeg",
+      "sha256": "2105de03fea00c7fae06b89e03c96b2f12d789391d12d0bfb43c78c4a9ddb57e"
+    },
+    "rawReceiptsSha256": "511fb5d433f5ca228492146ba4219c85e7032f7bd7e1812fb13638cccff3fe1c"
+  },
+  "liveHTTPChecks": [
+    {
+      "url": "https://typologyquiz.com/quizzes/costume-tradeoff-workshop/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "e13dec66298a748e8f944fd2eda87588bb68fa31977d042d4ec72ffa1a634fe1"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/the-second-seat-at-lantern-hall/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "4bbede78b5939cef381f7af1cc84d1423fbcc03bc6522174c06a7360931dc784"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/nasa-spooky-sky-explained/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "f7d4f7236abb86b1d018d4f89743791b9a733995ab892b4e1b2d4d8581c6c20f"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/the-strange-little-halloween-postcard-gallery/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "f7ea046d13ca59a96ca1032f871471a6bc875bfd072b6b4cce7e79aab22a62bf"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/the-after-dark-potluck-table/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "de9326380829ee74abdb356e99534d3b1e8d76b8bdb0583466884b5182b61e0b"
+    },
+    {
+      "url": "https://typologyquiz.com/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "bcbe9e6c020489d857e3ecce7a3bb69727dbc09d2874f337f123255d5bf8ff9f"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "17396e77f4151cd388d1dc52f09a8e9d0177a886224058ab300ebe73350fb594"
+    },
+    {
+      "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "8ba7e0967d443a3fa1e5feda0843bec8e84075e8c2d299490aca4018e96bab8f"
+    },
+    {
+      "url": "https://typologyquiz.com/sitemap.xml",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "652ea4a18b7eeabab261080743fb8c5677705f04d355042593a3bd4f61b46415"
+    },
+    {
+      "url": "https://typologyquiz.com/llms.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "7bfe0b5d7d15ec5e3b6942d77d59ef49fdc1b288db491d5695c9150e19f45050"
+    },
+    {
+      "url": "https://typologyquiz.com/robots.txt",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/28dt5iumk4z4t.js",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "31cd68fb86618eeb08b162ceeb7a535d7af8b447a9ef8239ec69f8895d272e98"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "7f3e0cc779a443f383bbcb85f72bf7ac0adc448d73ab2e3dbbc2af1c358bff99"
+    },
+    {
+      "url": "https://typologyquiz.com/tests/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "c62244b06c15aaadd54d878517dc40e5c89a3b7ab6e2ef1a41d6309f08863e8a"
+    },
+    {
+      "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "2b1397f5c92db410afd3ed20449fe573c93b2c4cccf34318d55f9898488798c4"
+    },
+    {
+      "url": "https://www.typologyquiz.com/quizzes/costume-tradeoff-workshop/",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "d0e4886b66f3bcc31289abe8751a1a7d4cd235ca336ac89b054b9b81a8784d73"
+    }
+  ],
+  "analytics": {
+    "baseline": {
+      "at": "2026-10-28T15:29:01.775Z",
+      "property": "545477353",
+      "activeUsers30m": 0,
+      "activeUsers5m": 0,
+      "events": "No data available",
+      "classification": "Operator release QA baseline; no local-preview events expected",
+      "provisional": true,
+      "limit": "Zero/no-data was displayed immediately after reload; treat as provisional because GA data loads asynchronously. No baseline-to-after growth inference."
+    },
+    "delivery": {
+      "at": "2026-10-28T15:36:35.781Z",
+      "property": "545477353",
+      "page": "https://typologyquiz.com/quizzes/the-after-dark-potluck-table/",
+      "pageViewsObserved": 1,
+      "interactiveQuizStartObserved": 1,
+      "interactiveQuizCompleteObserved": 1,
+      "completionParameter": {
+        "quiz_id": "FE-29",
+        "count": 1
+      },
+      "operatorQa": true,
+      "growthInference": false,
+      "otherActivityNotAttributed": true,
+      "additionalLandingVisitIsOperatorQa": true
+    },
+    "classification": "Controlled operator release QA; no organic growth, retention or conversion inference. Other activity not attributed."
+  },
+  "researchLinks": {
+    "PC-29": [],
+    "FS-29": [],
+    "SN-29": [
+      "https://science.nasa.gov/resource/pumpkin-sun/",
+      "https://science.nasa.gov/solar-system/skywatching/night-sky-network/spooky-stargazing/",
+      "https://science.nasa.gov/asset/hubble/the-ghost-head-nebula-ngc-2080/",
+      "https://science.nasa.gov/image-detail/cosmic-shadow-of-hbc-672/",
+      "https://science.nasa.gov/asset/hubble/ic-63-ghost-nebula/",
+      "https://chandra.harvard.edu/photo/2023/msh1552/",
+      "https://science.nasa.gov/asset/hubble/cw-leonis/"
+    ],
+    "HC-29": [
+      "https://www.thehenryford.org/collections/explore/artifact/501031",
+      "https://www.thehenryford.org/collections/explore/artifact/352929",
+      "https://www.thehenryford.org/collections/explore/artifact/359101",
+      "https://www.thehenryford.org/collections/explore/artifact/458601",
+      "https://www.thehenryford.org/collections/explore/artifact/357702",
+      "https://www.thehenryford.org/collections/explore/artifact/122536",
+      "https://www.thehenryford.org/collections/explore/artifact/379817",
+      "https://www.thehenryford.org/collections/explore/articles/halloween-postcards"
+    ],
+    "FE-29": []
+  },
+  "scopeLimits": [
+    "All previously published IDs, URLs, questions, scoring and progress behavior preserved.",
+    "Existing themes, Worker routing/bindings, tracking privacy controls, accounts/credentials, news, media and outreach unchanged.",
+    "No source images reproduced or media license inferred.",
+    "Browser viewport emulation only; no real-device or screen-reader certification and no observed engagement lift.",
+    "October27 published zero; no backfill. Initial read timeout and transient HTTP2/TLS errors recovered with bounded retries; all strict final response checks passed."
+  ]
+}
