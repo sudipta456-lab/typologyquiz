@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-28",
+  "status": "published-and-verified",
+  "sourceCommit": "464456287e2cfa3b9c025decfa40c609c3f0a3ec",
+  "workerVersion": "b62c4f7f-a8be-4f83-9be8-08ce05c453c2",
+  "deployment": {
+    "id": "3536f41a-dfef-4110-adc6-89c7a982873a",
+    "created_on": "2026-10-28T17:33:03.538817Z",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "b62c4f7f-a8be-4f83-9be8-08ce05c453c2",
+        "percentage": 100
+      }
+    ]
+  },
+  "verification": {
+    "sourceCommit": "464456287e2cfa3b9c025decfa40c609c3f0a3ec",
+    "fullVerifyTests": 311,
+    "failures": 0,
+    "contentFilesUnchanged": 390,
+    "originalLegacyFixturesUnchanged": true,
+    "targetedSharingTests": 10,
+    "independentReviewReports": [
+      "review-result.md",
+      "review-delta-result.md",
+      "review-final-result.md",
+      "review-wrap-result.md"
+    ]
+  },
+  "build": {
+    "sourceCommit": "464456287e2cfa3b9c025decfa40c609c3f0a3ec",
+    "sitemapURLs": 864,
+    "htmlFiles": 1600,
+    "handbookRemovedFromExport": true,
+    "fullPanelQuizzes": 300
+  },
+  "fullPanelCoverage": {
+    "interactive": 280,
+    "movies": 15,
+    "specialty": 5,
+    "total": 300,
+    "allExportedPagesLoadSharedControls": true
+  },
+  "liveHTTPChecks": 33,
+  "liveSharingCopy": "https://typologyquiz.com/quizzes/the-after-dark-potluck-table/",
+  "mobileWidthsChecked": [
+    320,
+    390
+  ],
+  "representativeBrowserFamilies": [
+    "interactive",
+    "movie",
+    "AI interest",
+    "physics",
+    "rapid round",
+    "friend quiz",
+    "geography trivia",
+    "archived editorial edition"
+  ],
+  "realBrowserPNGs": [
+    {
+      "file": "story-render.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "1c01ab6c1d2ab7e3ab56be35f28e1d2f0de78d3d293af8913db9d35678a78f8a",
+      "actualBrowserPNG": true
+    },
+    {
+      "file": "post-render.png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "c31d5e6a46224233485edb3456e1bf304f856fd7fb8113e357e3a1da56e96d2b",
+      "actualBrowserPNG": true
+    }
+  ],
+  "r2Sample": {
+    "status": 200,
+    "contentType": "image/png",
+    "cacheControl": "public, max-age=31536000, immutable"
+  },
+  "proofFile": "sharing-live-proof.jpg",
+  "proofSha256": "35dbefb2285184b13ed4385f44fa898cbb9c306a285500e533a5050512ae318a",
+  "limits": [
+    "Native filesystem download completion was not confirmed by automation; PNG dimensions and actual browser-rendered pixels were verified separately with the unchanged shipped renderer.",
+    "Composer behavior and native sharing depend on the browser/service; copy-only platforms require manual pasting.",
+    "Existing daily minis, driving-specific shares, local award collages and room invitations retain their intended formats."
+  ],
+  "qaAttribution": "All completion/copy tests in this release are operator QA, not organic growth."
+}
