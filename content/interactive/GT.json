@@ -10849,5 +10849,326 @@
       }
     ],
     "note": "Text-only filming-place discoveries, with no franchise images, audio or clips. Locations and historical filming roles are sourced; no current access, tour, booking, opening-hours or real-haunting claim is made."
+  },
+  {
+    "id": "GT-28",
+    "slug": "strange-landscapes-real-explanations",
+    "categoryId": "geography-travel",
+    "title": "Strange Landscapes, Real Explanations",
+    "description": "Follow text-only Halloween field cards through Kentucky limestone, Idaho lava, Utah rock spires, Florida mangroves and New Brunswick coastal weather. Discover why similar eerie moods can come from different places and processes.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "underground",
+        "title": "What made the dark passage?"
+      },
+      {
+        "id": "stone",
+        "title": "Stone that changes shape"
+      },
+      {
+        "id": "coast",
+        "title": "Compare the Field Cards",
+        "description": "Coastal contrasts and a final return to the shapes left in rock."
+      }
+    ],
+    "sources": [
+      {
+        "id": "mammoth",
+        "label": "NPS: How Mammoth Cave Formed",
+        "kind": "reference",
+        "url": "https://www.nps.gov/maca/learn/nature/how-mammoth-cave-formed.htm"
+      },
+      {
+        "id": "bryce",
+        "label": "NPS: Hoodoos at Bryce Canyon",
+        "kind": "reference",
+        "url": "https://home.nps.gov/brca/learn/nature/hoodoos.htm"
+      },
+      {
+        "id": "lava",
+        "label": "NPS: Craters of the Moon geology for students",
+        "kind": "reference",
+        "url": "https://home.nps.gov/crmo/learn/education/geology-for-students.htm"
+      },
+      {
+        "id": "ever",
+        "label": "NPS: Everglades mangrove ecosystem",
+        "kind": "reference",
+        "url": "https://www.nps.gov/ever/learn/nature/mangroves.htm"
+      },
+      {
+        "id": "fundy",
+        "label": "Parks Canada: Fundy National Park weather zones",
+        "kind": "reference",
+        "url": "https://parks.canada.ca/pn-np/nb/fundy/visit/accessibilite-accessibility"
+      },
+      {
+        "id": "original",
+        "label": "Original fictional Halloween postcard sorting premise",
+        "kind": "original"
+      }
+    ],
+    "note": "Original text descriptions of real North American landscapes, framed as fictional Halloween field cards. No photographs, live map, current weather, access advice or evidence of haunting is supplied. Park references support the physical-geography explanations.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "underground",
+        "kind": "choice",
+        "prompt": "A Kentucky hallway runs through limestone underground. What process can connect rainwater in the soil with a growing passage below?",
+        "context": "Text-only field card: Mammoth Cave. Rainwater enters small cracks in the limestone below the soil; the passage is far older than the fictional visitor who calls it a vanishing hallway.",
+        "explanation": "Mammoth Cave is a solution cave: water enlarged passages by dissolving limestone.",
+        "sourceIds": [
+          "mammoth"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Water gradually dissolving limestone"
+          },
+          {
+            "id": "o2",
+            "label": "A single earthquake opening a permanent hallway"
+          },
+          {
+            "id": "o3",
+            "label": "Molten rock draining from a cooled crust"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q2",
+        "sectionId": "underground",
+        "kind": "choice",
+        "prompt": "A hollow passage also appears in Idaho lava. Which formation story belongs to this tube rather than Mammoth Cave?",
+        "context": "Text-only field card: Craters of the Moon. The tunnel sits within an old lava flow, while Mammoth Cave is a passage in limestone. The two underground spaces need not share an origin.",
+        "explanation": "A lava tube inherits a roof from a cooling flow; Mammoth's cited passage mechanism is dissolution in limestone.",
+        "sourceIds": [
+          "lava",
+          "mammoth"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "A hardened lava roof over a drained flow"
+          },
+          {
+            "id": "o2",
+            "label": "Weak acid dissolving limestone cracks"
+          },
+          {
+            "id": "o3",
+            "label": "A coastal current flooding a cave"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q3",
+        "sectionId": "stone",
+        "kind": "order",
+        "prompt": "Arrange four text sketches as a rock wall becomes a freestanding hoodoo.",
+        "context": "At Bryce Canyon, weathering and erosion remove material over time. For this simplified sequence, the sketches show successive losses of rock, with no rebuilding. These are text sketches, not a forecast for any individual rock.",
+        "explanation": "The NPS process diagram moves from plateau to walls to windows to separate hoodoos.",
+        "sourceIds": [
+          "bryce",
+          "original"
+        ],
+        "items": [
+          {
+            "id": "o1",
+            "label": "An isolated hoodoo stands"
+          },
+          {
+            "id": "o2",
+            "label": "Cracks divide the plateau into walls"
+          },
+          {
+            "id": "o3",
+            "label": "A window opens through a wall"
+          },
+          {
+            "id": "o4",
+            "label": "A relatively continuous plateau remains"
+          }
+        ],
+        "correctOrder": [
+          "o4",
+          "o2",
+          "o3",
+          "o1"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "stone",
+        "kind": "choice",
+        "prompt": "A crack fills with water, then the high plateau freezes overnight. Which change can help split the rock?",
+        "context": "Text-only field card: Bryce Canyon. The crack is narrow, and the trapped water cools below its freezing point. Select the mechanism rather than treating the rock shape as a supernatural footprint.",
+        "explanation": "Ice wedging matters at Bryce: water expands when it freezes and can force cracks apart. Rain also contributes to weathering there, but this card asks about the freeze event.",
+        "sourceIds": [
+          "bryce"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Water expands as it freezes and presses against the crack"
+          },
+          {
+            "id": "o2",
+            "label": "Freezing water shrinks, sealing the sides together"
+          },
+          {
+            "id": "o3",
+            "label": "A cooled lava roof drains from the crack"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q5",
+        "sectionId": "coast",
+        "kind": "choice",
+        "prompt": "Red mangroves stand on stilt-like roots near the tip of Florida. Which water setting belongs to this coastal landscape?",
+        "context": "Text-only field card: Everglades National Park. The trees occupy coastal channels and winding rivers. Choose the water relationship that explains why this is an estuarine setting.",
+        "explanation": "The mangrove setting is an estuary influenced by both freshwater and tides.",
+        "sourceIds": [
+          "ever"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Freshwater and saltwater meet near the coast"
+          },
+          {
+            "id": "o2",
+            "label": "Only glacial meltwater reaches the roots"
+          },
+          {
+            "id": "o3",
+            "label": "The trees grow inside dry lava tubes"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q6",
+        "sectionId": "coast",
+        "kind": "choice",
+        "prompt": "Two fictional Fundy field cards describe different patterns. Which pairing fits the park’s general coast–interior contrast?",
+        "context": "Card A: cooler summer conditions, frequent fog and milder winters. Card B: warmer summer conditions and typically more winter snow. These summarize climate patterns, not today’s weather or conditions on a particular trail.",
+        "explanation": "Parks Canada describes a cooler, often foggy coastal zone with milder winters and an inland zone that is warmer in summer and generally snowier in winter. One park can contain both patterns.",
+        "sourceIds": [
+          "fundy"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "A is coastal; B is inland"
+          },
+          {
+            "id": "o2",
+            "label": "A is inland; B is coastal"
+          },
+          {
+            "id": "o3",
+            "label": "The differences prove the two cards cannot describe the same park"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q7",
+        "sectionId": "coast",
+        "kind": "grid",
+        "prompt": "Which comparative field notes survive a check across all five places?",
+        "context": "An editor is joining the five text-only field cards into a North American landscape display. For each pair, choose the comparison supported by the specific places you have explored. A shared eerie appearance does not establish the same formation story.",
+        "explanation": "The five-place comparison separates appearance, process and setting: Mammoth and Craters have different cave origins, water changes rock in more than one way at Mammoth and Bryce, and the Everglades and Fundy illustrate different coastal relationships. Coast and cave are useful labels, but they do not make every place alike.",
+        "sourceIds": [
+          "mammoth",
+          "lava",
+          "bryce",
+          "ever",
+          "fundy",
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "c1",
+            "label": "Mammoth Cave and Craters of the Moon both contain hollow passages.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Their similar hollow form can result from different rock histories: dissolution and a drained lava flow."
+              },
+              {
+                "id": "b",
+                "label": "Once both are called caves, the same formation process explains them."
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "c2",
+            "label": "Compare Bryce’s rock spires with Mammoth’s limestone passages.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Water must act in exactly the same way wherever it changes rock."
+              },
+              {
+                "id": "b",
+                "label": "Water can change rock through different processes, including freezing in cracks and dissolving limestone."
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c3",
+            "label": "Compare the Florida mangrove card with the New Brunswick Fundy cards.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Both are coastal settings, but one describes a mixed-water habitat and the other a coast–interior climate contrast."
+              },
+              {
+                "id": "b",
+                "label": "Their coastal setting is enough to give them the same vegetation and climate."
+              }
+            ],
+            "correct": "a"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "coast",
+        "kind": "choice",
+        "prompt": "At Craters of the Moon, why can rock retain a hollow shaped like a tree trunk after the tree is gone?",
+        "context": "Final text-only field card: a trunk-shaped mold appears in hardened volcanic rock. Pick the formation story that can preserve an outline while removing the original wood.",
+        "explanation": "NPS describes trees surrounded by hot lava: rock hardened around the trunks, then the wood burned away, leaving molds. The eerie absence has a physical history, rather than being evidence of a vanished ghost forest.",
+        "sourceIds": [
+          "lava"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Lava hardens around a trunk, and the heat burns the wood away"
+          },
+          {
+            "id": "o2",
+            "label": "A living tree grows by pushing a trunk-shaped hole through cold solid lava"
+          },
+          {
+            "id": "o3",
+            "label": "Rain dissolves wood into limestone and turns that limestone into lava"
+          }
+        ],
+        "correct": "o1"
+      }
+    ]
   }
 ]

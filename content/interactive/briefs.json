@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 27,
+      "count": 28,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 27,
+      "count": 28,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 27,
+      "count": 28,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 27,
+      "count": 28,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 27,
+      "count": 28,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -6039,6 +6039,116 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-10-28",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "MT-28",
+      "title": "The Pumpkin Puppet and the Lost Star",
+      "slug": "pumpkin-puppet-lost-star",
+      "kind": "logic",
+      "hook": "Read an original pumpkin stop-motion storyboard, choose what each frame makes visible, and turn an apparent threat into an act of help. End by choosing the image you would leave with the audience.",
+      "rounds": [
+        "3 tasks: A star falls",
+        "3 tasks: A pumpkin acts",
+        "2 tasks: The last frame"
+      ],
+      "seed": "What first tells you the scarecrow has lost something, rather than deliberately put it down?",
+      "payoff": "The star returns to the scarecrow; small prop motions change both characters' expressions.",
+      "audience": "North American Halloween-season adults and teens; no specialist knowledge needed; text alternatives provided where sound is used.",
+      "evidence": "Approved October 29 Halloween treatment; October 14, 2026 Google U.S. and Canada seasonal search reports provide bounded search-interest context, not quiz engagement or a population preference claim. Specific facts use question-level sources.",
+      "dependency": "base",
+      "production_note": "Text storyboards for an original fictional short, not displayed animation or photographs. Seven craft tasks have keyed answers under stated goals; one artistic finish is ungraded. No film-history, validated creativity or personality claim.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-10-29",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "MU-28",
+      "title": "Haunted Waltz: Find the Hidden Step",
+      "slug": "haunted-waltz-beat-lab",
+      "kind": "knowledge",
+      "hook": "Compare original browser-tone accents, notice a quiet offbeat, and arrange movement cues by their returning pulse. Choose an ungraded ending for the fictional haunted dance.",
+      "rounds": [
+        "2 tasks: Find the turning pulse",
+        "3 tasks: The ghost interrupts",
+        "3 tasks: Hear the new step"
+      ],
+      "seed": "A dancer turns once each time the accented step returns. Which grouping fits the opening?",
+      "payoff": "Identify what stays grouped through the trick and what really changes at the door.",
+      "audience": "North American Halloween-season adults and teens; no specialist knowledge needed; text alternatives provided where sound is used.",
+      "evidence": "Approved October 29 Halloween treatment; October 14, 2026 Google U.S. and Canada seasonal search reports provide bounded search-interest context, not quiz engagement or a population preference claim. Specific facts use question-level sources.",
+      "dependency": "audio",
+      "production_note": "User-triggered synthesized tones with complete text alternatives. Seven tasks have checkable answers; the final artistic choice is ungraded. Accent labels describe these composed examples, not universal perception. No written time-signature denominator is inferred from sound, and the quiz does not generate a performance.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "daily-2026-10-29",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "GT-28",
+      "title": "Strange Landscapes, Real Explanations",
+      "slug": "strange-landscapes-real-explanations",
+      "kind": "knowledge",
+      "hook": "Follow text-only Halloween field cards through Kentucky limestone, Idaho lava, Utah rock spires, Florida mangroves and New Brunswick coastal weather. Discover why similar eerie moods can come from different places and processes.",
+      "rounds": [
+        "2 tasks: What made the dark passage?",
+        "2 tasks: Stone that changes shape",
+        "4 tasks: Compare the Field Cards"
+      ],
+      "seed": "A Kentucky hallway runs through limestone underground. What process can connect rainwater in the soil with a growing passage below?",
+      "payoff": "Compare five places without flattening their differences; discover how a missing tree can leave an outline in lava.",
+      "audience": "Adults and teens curious about North American physical geography; explanations follow each result and the cards are text-only.",
+      "evidence": "Approved October 29 Halloween treatment; October 14, 2026 Google U.S. and Canada seasonal search reports provide bounded search-interest context, not quiz engagement or a population preference claim. Specific facts use question-level sources.",
+      "dependency": "base",
+      "production_note": "Original text descriptions of real North American landscapes, framed as fictional Halloween field cards. No photographs, live map, current weather, access advice or evidence of haunting is supplied. Park references support the physical-geography explanations.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-10-29",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "SG-28",
+      "title": "The Empty Chair: Choose Your Mystery Game",
+      "slug": "the-empty-chair-party-game",
+      "kind": "preference",
+      "hook": "Shape the rules of an original Halloween party mystery about an invitation whose handwriting keeps changing. Eight choices reveal the game format you would want to play and give your table something concrete to debate.",
+      "rounds": [
+        "3 tasks: Set the table",
+        "3 tasks: Follow the invitation",
+        "2 tasks: Unfold the last scrap"
+      ],
+      "seed": "How should the empty chair first enter play?",
+      "payoff": "An invitation assembled by many hands makes each table’s theories and preferred reveal rules worth discussing.",
+      "audience": "North American Halloween-season adults and teens; no specialist game rules, coastal knowledge or outside trivia needed.",
+      "evidence": "Approved October 29 Halloween treatment. Dated Google seasonal search context is recorded in research only; task evidence is original fiction. Search interest does not establish quiz demand, engagement or a population preference.",
+      "dependency": "base",
+      "production_note": "This is a solo preference exercise about an imagined party game, not a playable multiplayer session or a simulated round. The two scales describe game-format choices, not ability, character or a psychometric type. There are no correct answers.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-10-29",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "LW-28",
+      "title": "Fog Island and the Bell Note",
+      "slug": "fog-island-the-bell-note",
+      "kind": "logic",
+      "hook": "A keeper seems to have vanished from a fogbound island. Read eight linked word clues in her log, test the apparent last message, and work out who it was really for.",
+      "rounds": [
+        "3 tasks: The abandoned log",
+        "3 tasks: Scraps at the bell",
+        "2 tasks: Who left the note?"
+      ],
+      "seed": "Which object does the torn verse send you to inspect?",
+      "payoff": "The bell letter points Jo to Mara Vale’s repair note at the tool shed; the supposed disappearance was a misread duty handover.",
+      "audience": "North American Halloween-season adults and teens; no specialist game rules, coastal knowledge or outside trivia needed.",
+      "evidence": "Approved October 29 Halloween treatment. Dated Google seasonal search context is recorded in research only; task evidence is original fiction. Search interest does not establish quiz demand, engagement or a population preference.",
+      "dependency": "base",
+      "production_note": "A fictional text mystery with no real-waterway instructions. Word rules and all evidence needed for the keyed answers appear in the eight cards; no outside trivia or free-text entry is required.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-10-29",
       "evidence_class": "seasonal"
     }
   ]

@@ -10328,5 +10328,255 @@
       }
     ],
     "note": "An original, non-graphic tabletop encounter for solo play or discussion in one shared attempt. Each question supplies its own checkpoint, hand and forecast; earlier answers do not change later states. No live opponent, hidden actual player information, money or turn-by-turn multiplayer system is involved."
+  },
+  {
+    "id": "SG-28",
+    "slug": "the-empty-chair-party-game",
+    "categoryId": "sports-games",
+    "title": "The Empty Chair: Choose Your Mystery Game",
+    "description": "Shape the rules of an original Halloween party mystery about an invitation whose handwriting keeps changing. Eight choices reveal the game format you would want to play and give your table something concrete to debate.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "setup",
+        "title": "Set the table"
+      },
+      {
+        "id": "play",
+        "title": "Follow the invitation"
+      },
+      {
+        "id": "reveal",
+        "title": "Unfold the last scrap"
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "open-hidden",
+        "low": "Shared evidence",
+        "high": "Private fragments",
+        "description": "Whether you would rather reason from a common clue board or let each guest hold a piece that others must ask about."
+      },
+      {
+        "id": "revisable-binding",
+        "low": "Revisable claims",
+        "high": "Binding claims",
+        "description": "Whether you would rather let players revise theories or make their earlier declarations matter at the reveal."
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional Empty Chair party-game scenario and format choices",
+        "kind": "original"
+      }
+    ],
+    "note": "This is a solo preference exercise about an imagined party game, not a playable multiplayer session or a simulated round. The two scales describe game-format choices, not ability, character or a psychometric type. There are no correct answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "setup",
+        "kind": "choice",
+        "prompt": "How should the empty chair first enter play?",
+        "context": "Original fictional game: a spare chair has an invitation whose handwriting seems to change across its scraps. The host will later reveal how it was assembled. Choose the version you would most want to play.",
+        "explanation": "A common invitation makes the first theory a table conversation; separate scraps make the first conversation an exchange of partial evidence. Both can make the handwriting intriguing.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Put the invitation where everyone can inspect its handwriting together.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "o2",
+            "label": "Deal each guest one scrap; the full invitation exists only if they compare what they hold.",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "sectionId": "setup",
+        "kind": "choice",
+        "prompt": "What should happen after each guest names their first suspect?",
+        "context": "A suspect is simply the person a player thinks assembled the invitation. No real guest is accused.",
+        "explanation": "One version keeps each theory revisable as evidence arrives; the other makes an early claim a constraint on the rest of that round. Either can create a worthwhile game, depending on what the table enjoys.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Keep the suspect card erasable, so a later clue can change a player’s named suspect.",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "o2",
+            "label": "Make the first suspect a commitment for this round: players can add evidence but cannot change the name before the reveal.",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "setup",
+        "kind": "choice",
+        "prompt": "How much should guests know about the fictional characters at the start?",
+        "context": "Each character has a reason to recognize one part of the invitation. This is about role cards inside the imagined game, never private information about real guests.",
+        "explanation": "A public cast list supports reasoning from common ground; separate role connections make discovering who knows whom part of play. This choice changes how the mystery unfolds, not who is more trustworthy.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Give everyone the full cast list and relationships, so the mystery comes from interpreting a shared picture.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "o2",
+            "label": "Give each player only their character’s connection, so the cast takes shape through questions and selective disclosures.",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "play",
+        "kind": "choice",
+        "prompt": "A player bluffs about which scrap they hold. Which rule sounds more fun?",
+        "context": "A bluff is allowed in this fictional version of the game; players know the rule before the round.",
+        "explanation": "The first rule lets a theory evolve in public; the second gives a harmless bluff a lasting narrative cost.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Let the player withdraw the bluff when the next scrap appears, keeping the conversation fluid.",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "o2",
+            "label": "Let the bluff stand until the reveal, so the player has to explain it against the final invitation.",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "sectionId": "play",
+        "kind": "choice",
+        "prompt": "The table is stuck between two explanations. Which investigation round would you want next?",
+        "context": "Both explanations could fit the invitation so far. The fictional host can offer one of two equally long rounds before the last envelope is opened.",
+        "explanation": "The visible trail makes the reasoning itself shared; private interviews create separate perspectives before the table reconvenes. They offer different ways to restart a stalled mystery, rather than a right and wrong social behavior.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Build one visible evidence trail together, letting anyone rearrange connections and challenge a gap.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "o2",
+            "label": "Split into pairs for private interviews, then let each pair decide which discovery to bring back.",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "play",
+        "kind": "choice",
+        "prompt": "The group must put one theory on the table before the host opens the last envelope. What rule would you choose?",
+        "context": "The host’s envelope is fixed; this choice changes only how players commit to a theory.",
+        "explanation": "A final revision rewards collective synthesis; a sealed theory preserves the social history of how it was reached.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Allow a final revision after everyone hears the theory, so the reveal tests the group’s best version.",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "o2",
+            "label": "Seal the theory as spoken, so the reveal also recalls who persuaded whom.",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "reveal",
+        "kind": "slider",
+        "prompt": "How visible should the final set of scraps be at the reveal?",
+        "context": "The last envelope shows that the invitation was assembled by several guests, not written by a single suspect. Choose the reveal format you would enjoy.",
+        "lowLabel": "Everyone unfolds it together on the table",
+        "highLabel": "Each guest reads their own fragment before the pieces meet",
+        "dimension": 0,
+        "explanation": "A shared reveal centers one common discovery; fragment-by-fragment reading lets each player contribute to the discovery.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "reveal",
+        "kind": "slider",
+        "prompt": "What should the game do with the theories players made along the way?",
+        "context": "The invitation’s many hands explain why earlier single-suspect theories were tempting. Choose the ending you would discuss afterward.",
+        "lowLabel": "Let players rewrite a group explanation after seeing the full invitation",
+        "highLabel": "Read the original sealed theories aloud, then discuss how each clue changed their minds",
+        "dimension": 1,
+        "explanation": "Rewriting honors what the table knows now; preserving the sealed theories makes the path to the reveal part of the story.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

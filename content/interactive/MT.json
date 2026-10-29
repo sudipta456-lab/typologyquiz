@@ -10347,5 +10347,287 @@
       }
     ],
     "note": "Original non-graphic fiction presented as text storyboards, not actual film footage. All eight tasks use supplied evidence; no film clips, images or external craft definitions. Cuts can suggest a cause without establishing it. Seven evidence tasks are scored; the final caption choice is ungraded, with no better taste or personality claim."
+  },
+  {
+    "id": "MT-28",
+    "slug": "pumpkin-puppet-lost-star",
+    "categoryId": "movies-tv",
+    "title": "The Pumpkin Puppet and the Lost Star",
+    "description": "Read an original pumpkin stop-motion storyboard, choose what each frame makes visible, and turn an apparent threat into an act of help. End by choosing the image you would leave with the audience.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "fall",
+        "title": "A star falls"
+      },
+      {
+        "id": "journey",
+        "title": "A pumpkin acts"
+      },
+      {
+        "id": "reveal",
+        "title": "The last frame"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional stop-motion storyboard and prop continuity notes",
+        "kind": "original"
+      }
+    ],
+    "note": "Text storyboards for an original fictional short, not displayed animation or photographs. Seven craft tasks have keyed answers under stated goals; one artistic finish is ungraded. No film-history, validated creativity or personality claim.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "fall",
+        "kind": "choice",
+        "prompt": "What first tells you the scarecrow has lost something, rather than deliberately put it down?",
+        "context": "Original storyboard: a paper star is sewn to the scarecrow's chest in frame A. A gust bends the stalk in B; the thread snaps and the star lands in a puddle in C. Its empty stitch remains visible.",
+        "explanation": "The stitched star has a visible before, break, and after state. Its move is caused by the snapped thread, not an unseen choice.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "The star changes from attached to loose after the thread snaps"
+          },
+          {
+            "id": "o2",
+            "label": "The pumpkin appears at the edge of frame C"
+          },
+          {
+            "id": "o3",
+            "label": "The puddle reflects the scarecrow"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q2",
+        "sectionId": "fall",
+        "kind": "choice",
+        "prompt": "Which next frame would show the pumpkin has noticed the star?",
+        "context": "In C the pumpkin faces away from the puddle. The craft brief asks for one small pose change that makes its attention legible before it rolls anywhere.",
+        "explanation": "A changed gaze with the body still in place supplies a readable reaction without skipping the discovery.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Keep its face fixed and move the camera farther back"
+          },
+          {
+            "id": "o2",
+            "label": "Turn its carved eyes toward the star while its body stays put"
+          },
+          {
+            "id": "o3",
+            "label": "Remove the star from the puddle between frames"
+          }
+        ],
+        "correct": "o2"
+      },
+      {
+        "id": "q3",
+        "sectionId": "fall",
+        "kind": "match",
+        "prompt": "Match each framing decision to the piece of story information it can reveal.",
+        "context": "Three proposed text storyboard stills crop the same original set differently. Match what remains visible in each crop; do not assume anything outside it is shown.",
+        "explanation": "Each crop makes different evidence available: the damaged stitch, the geography of the set, or a reaction. Framing chooses what the viewer can notice without adding a new event.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "o1",
+            "label": "Only the snapped thread and the empty stitch fill the frame"
+          },
+          {
+            "id": "o2",
+            "label": "The full set shows the pumpkin, the puddle and the scarecrow together"
+          },
+          {
+            "id": "o3",
+            "label": "The pumpkin’s face fills the frame, with its leaf eyebrow lifting"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "The distance and relationship between the characters and fallen prop"
+          },
+          {
+            "id": "r2",
+            "label": "The physical trace that connects the missing star to the chest"
+          },
+          {
+            "id": "r3",
+            "label": "A change in the pumpkin’s expression"
+          }
+        ],
+        "pairs": {
+          "o1": "r2",
+          "o2": "r1",
+          "o3": "r3"
+        }
+      },
+      {
+        "id": "q4",
+        "sectionId": "journey",
+        "kind": "choice",
+        "prompt": "How can the puppet visibly pick up a wet paper star without a mysterious jump?",
+        "context": "The pumpkin's vine is beside, but not yet touching, the star. The next still should bridge contact and lifting; no extra hand or unseen helper belongs in this film.",
+        "explanation": "Contact before lifting makes the transformation from loose prop to carried prop traceable.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Show the vine curling under one point while the star is still on the puddle"
+          },
+          {
+            "id": "o2",
+            "label": "Show the star already on the scarecrow"
+          },
+          {
+            "id": "o3",
+            "label": "Cut to a blank screen and narrate the lift"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q5",
+        "sectionId": "journey",
+        "kind": "order",
+        "prompt": "Arrange three stills so a threatening gesture becomes an act of help.",
+        "context": "Original craft goal: let the viewer share the pumpkin’s initial worry, then discover why the scarecrow raised its arm, then show the pumpkin accepting the help. The wider view must reveal something the tight reaction view could not show.",
+        "explanation": "A worried reaction creates the apparent threat; widening reveals the shelter; moving toward it shows the pumpkin has understood. The sequence changes the meaning of an earlier image rather than simply listing prop movements.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "o1",
+            "label": "The pumpkin moves back toward the fallen star beneath the new shelter"
+          },
+          {
+            "id": "o2",
+            "label": "A tight view shows the pumpkin shrinking from the scarecrow’s raised arm"
+          },
+          {
+            "id": "o3",
+            "label": "A wider view reveals the raised arm holding a leaf above the puddle as a shelter"
+          }
+        ],
+        "correctOrder": [
+          "o2",
+          "o3",
+          "o1"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "journey",
+        "kind": "choice",
+        "prompt": "Why does the pumpkin stop beside a dry leaf before crossing the puddle?",
+        "context": "Storyboard stills: it puts the wet star on the dry leaf; the leaf's edge absorbs the visible drop. It then lifts the less-drooping star and continues. No dialogue explains the pause.",
+        "explanation": "The leaf changes the star's visible condition, giving the pause a practical story purpose.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "It is hiding the star from the scarecrow"
+          },
+          {
+            "id": "o2",
+            "label": "It is letting the fragile star dry before returning it"
+          },
+          {
+            "id": "o3",
+            "label": "It has forgotten where the scarecrow stands"
+          }
+        ],
+        "correct": "o2"
+      },
+      {
+        "id": "q7",
+        "sectionId": "reveal",
+        "kind": "match",
+        "prompt": "Which tiny motion communicates each beat without a caption?",
+        "context": "Original storyboard notes: the scarecrow's stitched arm can tilt; the pumpkin's eyebrow is a separate leaf; the chest star can be reattached. Choose one distinct visible change for each beat.",
+        "explanation": "The arm answers the helper, the eyebrow changes the pumpkin's expression, and the chest state closes the star's journey.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "o1",
+            "label": "The scarecrow acknowledges help"
+          },
+          {
+            "id": "o2",
+            "label": "The pumpkin's worried look softens"
+          },
+          {
+            "id": "o3",
+            "label": "The lost emblem is restored"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Star returns to its chest stitches"
+          },
+          {
+            "id": "r2",
+            "label": "Leaf eyebrow relaxes above the pumpkin's eyes"
+          },
+          {
+            "id": "r3",
+            "label": "Scarecrow arm tips toward the pumpkin"
+          }
+        ],
+        "pairs": {
+          "o1": "r3",
+          "o2": "r2",
+          "o3": "r1"
+        }
+      },
+      {
+        "id": "q8",
+        "sectionId": "reveal",
+        "kind": "choice",
+        "prompt": "Which final still would you choose for this wordless short?",
+        "context": "The star has been restored and the pumpkin is leaving. Choose what the audience gets to carry away from the same completed action. These are artistic alternatives, not a test of filmmaking taste.",
+        "explanation": "The stitch emphasizes repair, the distant gesture emphasizes connection, and the empty set emphasizes what remains after a meeting. Each can end the same story; your choice is ungraded.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Hold on the repaired stitch: a tiny piece of work has made the scarecrow whole again"
+          },
+          {
+            "id": "o2",
+            "label": "Hold a wide gap between them while one arm slowly lifts in farewell"
+          },
+          {
+            "id": "o3",
+            "label": "Show the empty puddle and leaf shelter after both characters have left the frame"
+          }
+        ],
+        "unscored": true
+      }
+    ]
   }
 ]

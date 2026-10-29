@@ -10371,5 +10371,274 @@
       }
     ],
     "note": "Original fictional mini-escape. All strings and operations are supplied; no homophone, pronunciation, cultural haunting or dictionary-trivia knowledge is required. Each clue’s result is supplied again where needed, so an earlier mistake cannot hide a later task. No timer is required."
+  },
+  {
+    "id": "LW-28",
+    "slug": "fog-island-the-bell-note",
+    "categoryId": "logic-wordplay",
+    "title": "Fog Island and the Bell Note",
+    "description": "A keeper seems to have vanished from a fogbound island. Read eight linked word clues in her log, test the apparent last message, and work out who it was really for.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 7,
+    "sections": [
+      {
+        "id": "log",
+        "title": "The abandoned log"
+      },
+      {
+        "id": "bell",
+        "title": "Scraps at the bell"
+      },
+      {
+        "id": "message",
+        "title": "Who left the note?"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional Fog Island keeper log, bell note and object-state clues",
+        "kind": "original"
+      }
+    ],
+    "note": "A fictional text mystery with no real-waterway instructions. Word rules and all evidence needed for the keyed answers appear in the eight cards; no outside trivia or free-text entry is required.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "log",
+        "kind": "choice",
+        "prompt": "Which object does the torn verse send you to inspect?",
+        "context": "Original fiction. Keeper Mara is absent from the tower, though its lamp still burns. A scrap says to take the first letter of each of four verse lines, ignoring the line numbers. Line 1: Beneath the window a coat hangs still. Line 2: Every pane reflects the flame. Line 3: Listen for what never sounded. Line 4: Look where the rope ends.",
+        "explanation": "The four initial letters spell BELL. The verse directs attention to the silent object rather than explaining Mara’s absence.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "The bell"
+          },
+          {
+            "id": "o2",
+            "label": "The boat"
+          },
+          {
+            "id": "o3",
+            "label": "The lamp"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q2",
+        "sectionId": "log",
+        "kind": "choice",
+        "prompt": "What does “Mara’s watch ended” mean in the log?",
+        "context": "The entry reads: “Mara’s watch ended at dusk. Jo signed the next watch.” Mara’s small brass timepiece is still on its peg beside the log.",
+        "explanation": "The signatures mark successive duty periods. The timepiece remains on its peg, so “watch” refers to the shift.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Mara finished her duty period"
+          },
+          {
+            "id": "o2",
+            "label": "Mara’s timepiece stopped"
+          },
+          {
+            "id": "o3",
+            "label": "Mara stopped watching a performance"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q3",
+        "sectionId": "log",
+        "kind": "choice",
+        "prompt": "Which rearrangement of LISTEN fits the words beneath the bell?",
+        "context": "Original word clue: use every letter of LISTEN exactly once. Beneath it someone has written, “The bell offered no answer.” Pick the rearrangement that also fits that description; a valid letter set alone is not enough.",
+        "explanation": "All three choices rearrange the same six letters, but SILENT also describes the bell that offered no answer. The clue makes the quiet bell worth inspecting rather than announcing a vanished keeper.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "TINSEL"
+          },
+          {
+            "id": "o2",
+            "label": "SILENT"
+          },
+          {
+            "id": "o3",
+            "label": "ENLIST"
+          }
+        ],
+        "correct": "o2"
+      },
+      {
+        "id": "q4",
+        "sectionId": "bell",
+        "kind": "choice",
+        "prompt": "At the bell, what two kinds of “letter” does the note mean?",
+        "context": "The note reads: “One letter is gone from _ELL; the other letter is under the rope.” The first clue named the bell. A sealed envelope lies under the rope.",
+        "explanation": "B completes _ELL as BELL; that missing letter is an alphabet character. The sealed envelope is the written letter under the rope.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Two messages in envelopes"
+          },
+          {
+            "id": "o2",
+            "label": "An alphabet character, then a written message"
+          },
+          {
+            "id": "o3",
+            "label": "A musical note, then a message"
+          }
+        ],
+        "correct": "o2"
+      },
+      {
+        "id": "q5",
+        "sectionId": "bell",
+        "kind": "choice",
+        "prompt": "Which folded-sheet reading keeps its exact words and explains the comma?",
+        "context": "The envelope says “WAIT FOR ME, JO. NOT AT THE TOWER.” Commas and full stops are clear. The front has no signature. A folded inner sheet remains unread.",
+        "explanation": "The comma makes Jo the person addressed. “Me” refers to the unnamed writer, and the separate sentence excludes the tower as their meeting place; the front alone does not identify the writer.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Jo is being asked to wait for the unnamed writer somewhere other than the tower"
+          },
+          {
+            "id": "o2",
+            "label": "An unnamed writer is being asked to wait for Jo at the tower"
+          },
+          {
+            "id": "o3",
+            "label": "Jo is being told never to wait for anyone again"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q6",
+        "sectionId": "bell",
+        "kind": "order",
+        "prompt": "Put the four rope cards in the only order consistent with their changing marks.",
+        "context": "Original fictional prop evidence: seawater splashes the pale bell rope; when it dries, a pale salt ring remains. A knot is tied while the rope is wet and is never untied. Each card shows that same rope in one uninterrupted wetting-and-drying episode. No second wetting or cleaning occurs.",
+        "explanation": "The unmarked dry rope comes before the seawater splash. A knot is added after wetting; the final card keeps that knot and adds the salt ring left by drying. The single wetting episode and persistent marks fix one sequence.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "o1",
+            "label": "Dry rope, no knot or salt ring"
+          },
+          {
+            "id": "o2",
+            "label": "Wet rope, no knot"
+          },
+          {
+            "id": "o3",
+            "label": "Dry rope, salt ring and knot"
+          },
+          {
+            "id": "o4",
+            "label": "Wet rope with a knot"
+          }
+        ],
+        "correctOrder": [
+          "o1",
+          "o2",
+          "o4",
+          "o3"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "message",
+        "kind": "match",
+        "prompt": "Pair each object with the inference it actually supports.",
+        "context": "Original fiction. The log has Mara signing off and Jo signing on. The folded sheet under the rope addresses Jo; its front has no signature. The final rope card shows a dried knot and salt ring. No card shows anyone leaving the island.",
+        "explanation": "The signed entries establish a shift handover, the address establishes who should receive the note, and the dry rope preserves evidence of the single wetting episode. None establishes that a keeper left the island or vanished.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "o1",
+            "label": "The two signed log entries"
+          },
+          {
+            "id": "o2",
+            "label": "“WAIT FOR ME, JO. NOT AT THE TOWER.” on an unsigned envelope front"
+          },
+          {
+            "id": "o3",
+            "label": "The rope’s dry salt-ring knot"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "The rope was handled after it became wet"
+          },
+          {
+            "id": "r2",
+            "label": "Jo took over Mara’s duty period"
+          },
+          {
+            "id": "r3",
+            "label": "Jo was addressed by someone whose identity is still open"
+          }
+        ],
+        "pairs": {
+          "o1": "r2",
+          "o2": "r3",
+          "o3": "r1"
+        }
+      },
+      {
+        "id": "q8",
+        "sectionId": "message",
+        "kind": "choice",
+        "prompt": "What is the best reading of the island’s “last message”?",
+        "context": "The inner sheet reads: “The spare wick is mended. Meet me where the tools are kept. —M.V.” The roster lists only Mara Vale and Jo Reeve; the island has one tool shed. In this original case the initials identify the rostered writer, with no forged signatures. The tower lamp still burns, and the log records Mara handing her shift to Jo.",
+        "explanation": "M.V. identifies Mara Vale from the two-person roster; the tool reference points to the shed. The signed handover and still-burning lamp make this a repair note to Jo, not evidence of a sea disappearance.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Mara left a final message before vanishing at sea"
+          },
+          {
+            "id": "o2",
+            "label": "Mara left Jo a repair note pointing to the tool shed; the log never established a disappearance"
+          },
+          {
+            "id": "o3",
+            "label": "Jo wrote a warning to Mara and left the island"
+          }
+        ],
+        "correct": "o2"
+      }
+    ]
   }
 ]

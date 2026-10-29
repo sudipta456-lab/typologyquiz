@@ -10662,5 +10662,424 @@
       }
     ],
     "note": "Original music and fictional broadcast story. Two optional, user-triggered synthetic previews use soft sine/triangle tones, not instruments, Foley or voices; complete text equivalents supply the same evidence. No musical training, calculation or hearing is required. Correct answers follow observable sound or explicit story constraints, not universal feelings."
+  },
+  {
+    "id": "MU-28",
+    "slug": "haunted-waltz-beat-lab",
+    "categoryId": "music",
+    "title": "Haunted Waltz: Find the Hidden Step",
+    "description": "Compare original browser-tone accents, notice a quiet offbeat, and arrange movement cues by their returning pulse. Choose an ungraded ending for the fictional haunted dance.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "pulse",
+        "title": "Find the turning pulse"
+      },
+      {
+        "id": "trick",
+        "title": "The ghost interrupts"
+      },
+      {
+        "id": "exit",
+        "title": "Hear the new step"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original synthetic tone patterns and fictional haunted dance scene",
+        "kind": "original"
+      },
+      {
+        "id": "meter",
+        "label": "Carnegie Hall Link Up: Explore Meter in Music and Movement",
+        "kind": "reference",
+        "url": "https://www.carnegiehall.org/Education/Programs/Link-Up/National-Program/The-Orchestra-Moves/Explore-Meter-in-Music-and-Movement"
+      }
+    ],
+    "note": "User-triggered synthesized tones with complete text alternatives. Seven tasks have checkable answers; the final artistic choice is ungraded. Accent labels describe these composed examples, not universal perception. No written time-signature denominator is inferred from sound, and the quiz does not generate a performance.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "pulse",
+        "kind": "audio",
+        "prompt": "A dancer turns once each time the accented step returns. Which grouping fits the opening?",
+        "context": "Original rehearsal: the lantern dancer turns on a returning accented pulse. Listen to the accents, or use their complete text equivalent below.",
+        "explanation": "The repeating strong-soft-soft pattern supplies two three-pulse groups for the dancer's turn.",
+        "sourceIds": [
+          "original",
+          "meter"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Two groups of three pulses"
+          },
+          {
+            "id": "o2",
+            "label": "Three groups of two pulses"
+          },
+          {
+            "id": "o3",
+            "label": "One ungrouped run of six"
+          }
+        ],
+        "correct": "o1",
+        "tones": [
+          {
+            "frequency": 392,
+            "duration": 0.2,
+            "delay": 0.0,
+            "waveform": "triangle",
+            "gain": 0.45
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 0.42,
+            "waveform": "sine",
+            "gain": 0.225
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 0.84,
+            "waveform": "sine",
+            "gain": 0.225
+          },
+          {
+            "frequency": 392,
+            "duration": 0.2,
+            "delay": 1.26,
+            "waveform": "triangle",
+            "gain": 0.45
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 1.68,
+            "waveform": "sine",
+            "gain": 0.225
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 2.1,
+            "waveform": "sine",
+            "gain": 0.225
+          }
+        ],
+        "transcript": "Six evenly spaced pulses at one steady pace: STRONG, soft, soft, STRONG, soft, soft. The first and fourth pulses share the stronger accent."
+      },
+      {
+        "id": "q2",
+        "sectionId": "pulse",
+        "kind": "choice",
+        "prompt": "Which movement would make the opening grouping visible from the back of the hall?",
+        "context": "The dancer wants a repeated gesture that highlights each return of the opening accent, while making the quieter pulse positions visible too.",
+        "explanation": "A broad gesture at the first and fourth pulse, with smaller gestures between, makes the opening accent pattern visible. This is one designed movement interpretation of the supplied cue.",
+        "sourceIds": [
+          "original",
+          "meter"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "A broad turn followed by two small steps, repeated"
+          },
+          {
+            "id": "o2",
+            "label": "A broad turn and one small step, repeated three times"
+          },
+          {
+            "id": "o3",
+            "label": "Six equally broad turns with no smaller gesture"
+          }
+        ],
+        "correct": "o1"
+      },
+      {
+        "id": "q3",
+        "sectionId": "trick",
+        "kind": "audio",
+        "prompt": "A faint ghost tap falls between two regular steps. Did the main grouping change?",
+        "context": "The main footsteps keep their opening pace. A quieter tap is added between two of those footsteps; compare what changes with what stays in place.",
+        "explanation": "An added quiet offbeat does not replace the two marked strong beats or the underlying three-pulse groups.",
+        "sourceIds": [
+          "original",
+          "meter"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Yes, the main accents now repeat in pairs"
+          },
+          {
+            "id": "o2",
+            "label": "No; the strong-soft-soft main pulses remain, with an added quiet offbeat"
+          },
+          {
+            "id": "o3",
+            "label": "The offbeat is the only strong beat"
+          }
+        ],
+        "correct": "o2",
+        "tones": [
+          {
+            "frequency": 392,
+            "duration": 0.2,
+            "delay": 0.0,
+            "waveform": "triangle",
+            "gain": 0.45
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 0.42,
+            "waveform": "sine",
+            "gain": 0.225
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 0.84,
+            "waveform": "sine",
+            "gain": 0.225
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 1.05,
+            "waveform": "sine",
+            "gain": 0.15
+          },
+          {
+            "frequency": 392,
+            "duration": 0.2,
+            "delay": 1.26,
+            "waveform": "triangle",
+            "gain": 0.45
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 1.68,
+            "waveform": "sine",
+            "gain": 0.225
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 2.1,
+            "waveform": "sine",
+            "gain": 0.225
+          }
+        ],
+        "transcript": "Main pulses at the same even pace as before: STRONG, soft, soft, STRONG, soft, soft. An extra very quiet tap occurs halfway between the third main pulse and the fourth. The regular footsteps continue without speeding up."
+      },
+      {
+        "id": "q4",
+        "sectionId": "trick",
+        "kind": "choice",
+        "prompt": "The ghost leaves one weak step silent. What evidence still lets the dancer find the next turn?",
+        "context": "Original score note: STRONG, soft, rest; STRONG, soft, soft. The rest occupies one pulse slot. The two STRONG marks stay in their usual places.",
+        "explanation": "A rest can occupy a pulse position; the returning strong beat still starts the next three-pulse group.",
+        "sourceIds": [
+          "original",
+          "meter"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "The rest erases all grouping"
+          },
+          {
+            "id": "o2",
+            "label": "The next strong mark arrives after the same three pulse slots"
+          },
+          {
+            "id": "o3",
+            "label": "The soft step becomes the only strong one"
+          }
+        ],
+        "correct": "o2"
+      },
+      {
+        "id": "q5",
+        "sectionId": "trick",
+        "kind": "match",
+        "prompt": "Match each rehearsal difficulty to the adjustment that preserves the intended cue.",
+        "context": "These are three separate problems in the original rehearsal. Keep the composed accent pattern unless the card specifically asks to follow the changed exit cue.",
+        "explanation": "The fixes separate three issues: added decoration does not accelerate the main pulse, a rest keeps its allotted time, and a genuinely changed accent cycle asks for a new movement grouping.",
+        "sourceIds": [
+          "original",
+          "meter"
+        ],
+        "left": [
+          {
+            "id": "o1",
+            "label": "The extra quiet tap makes the dancer speed up, although the main footsteps have not changed"
+          },
+          {
+            "id": "o2",
+            "label": "The dancer skips a silent weak slot and reaches the next big turn early"
+          },
+          {
+            "id": "o3",
+            "label": "At the paired exit cue, the dancer keeps taking two small steps between big turns"
+          }
+        ],
+        "right": [
+          {
+            "id": "r1",
+            "label": "Hold the silent pulse position instead of deleting its time"
+          },
+          {
+            "id": "r2",
+            "label": "Use one small step between big turns for the new cue"
+          },
+          {
+            "id": "r3",
+            "label": "Keep the original even footsteps and let the quieter tap fall between them"
+          }
+        ],
+        "pairs": {
+          "o1": "r3",
+          "o2": "r1",
+          "o3": "r2"
+        }
+      },
+      {
+        "id": "q6",
+        "sectionId": "exit",
+        "kind": "audio",
+        "prompt": "The exit cue sounds unlike the opening. What changed in the main accent cycle?",
+        "context": "The exit uses the same pulse spacing and number of main pulses as the opening. Compare where its accents return.",
+        "explanation": "The exit has three strong-soft pairs; its strong beats recur more often than in the opening.",
+        "sourceIds": [
+          "original",
+          "meter"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "The strong pulse now returns after one soft pulse"
+          },
+          {
+            "id": "o2",
+            "label": "The strong pulse still returns after two soft pulses"
+          },
+          {
+            "id": "o3",
+            "label": "The pulse has disappeared"
+          }
+        ],
+        "correct": "o1",
+        "tones": [
+          {
+            "frequency": 392,
+            "duration": 0.2,
+            "delay": 0.0,
+            "waveform": "triangle",
+            "gain": 0.45
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 0.42,
+            "waveform": "sine",
+            "gain": 0.225
+          },
+          {
+            "frequency": 392,
+            "duration": 0.2,
+            "delay": 0.84,
+            "waveform": "triangle",
+            "gain": 0.45
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 1.26,
+            "waveform": "sine",
+            "gain": 0.225
+          },
+          {
+            "frequency": 392,
+            "duration": 0.2,
+            "delay": 1.68,
+            "waveform": "triangle",
+            "gain": 0.45
+          },
+          {
+            "frequency": 490.0,
+            "duration": 0.12,
+            "delay": 2.1,
+            "waveform": "sine",
+            "gain": 0.225
+          }
+        ],
+        "transcript": "Six evenly spaced pulses: STRONG, soft, STRONG, soft, STRONG, soft. No extra in-between tap."
+      },
+      {
+        "id": "q7",
+        "sectionId": "exit",
+        "kind": "order",
+        "prompt": "Arrange three rehearsal cards from the longest gap between big turns to the shortest.",
+        "context": "All three original cues keep exactly the same pulse speed. A big turn begins on each STRONG; each soft pulse is a small step. Compare the recurring accent cycle, rather than the length of a recording.",
+        "explanation": "At one shared pulse speed, three soft steps separate the broad turns on the first card in this order, then two, then one. This compares the written accent cycles; it does not infer a written time-signature denominator.",
+        "sourceIds": [
+          "original",
+          "meter"
+        ],
+        "items": [
+          {
+            "id": "o1",
+            "label": "STRONG-soft; repeat"
+          },
+          {
+            "id": "o2",
+            "label": "STRONG-soft-soft-soft; repeat"
+          },
+          {
+            "id": "o3",
+            "label": "STRONG-soft-soft; repeat"
+          }
+        ],
+        "correctOrder": [
+          "o2",
+          "o3",
+          "o1"
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "exit",
+        "kind": "choice",
+        "prompt": "How would you end this tiny haunted dance?",
+        "context": "The composed cue has reached the door in strong-soft pairs. Choose an artistic finish for an imaginary performance. The quiz records a choice; it does not create or change the soundtrack.",
+        "explanation": "Each finish changes the dramatic emphasis: interruption, a deliberate farewell, or a lingering presence. This is an ungraded artistic choice, with no best ending or personality claim.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "o1",
+            "label": "Let the final pair stop abruptly, leaving the dancer facing the closed door"
+          },
+          {
+            "id": "o2",
+            "label": "Finish with one last broad turn, then hold the empty doorway in silence"
+          },
+          {
+            "id": "o3",
+            "label": "Bring back the quiet in-between tap once after the dancer has left"
+          }
+        ],
+        "unscored": true
+      }
+    ]
   }
 ]
