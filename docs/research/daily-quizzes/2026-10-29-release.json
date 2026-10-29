@@ -1,0 +1,388 @@
+{
+  "localDate": "2026-10-29",
+  "timezone": "America/Edmonton",
+  "status": "published-verified-live",
+  "published": 5,
+  "shortfall": 0,
+  "existingQuizCount": 280,
+  "resultingQuizCount": 285,
+  "resultingTaskCount": 2280,
+  "sourceCommit": "3a9dd9246f747e44842ca56503d6ee0c9649a5da",
+  "packetSHA256": "d5a3c45a75f5bb20e0f65f781fc1b4f24c9f207f1bf2bd6d487980417c316789",
+  "deployment": {
+    "id": "7717df77-cefb-41ac-ae5c-71c33bbb2649",
+    "created_on": "2026-10-29T13:47:21.061602Z",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "5e775c1c-9220-4a2d-b2e0-066bd2a4268c",
+        "percentage": 100
+      }
+    ]
+  },
+  "quizzes": [
+    {
+      "id": "MT-28",
+      "slug": "pumpkin-puppet-lost-star",
+      "title": "The Pumpkin Puppet and the Lost Star",
+      "categoryId": "movies-tv",
+      "kind": "logic",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ],
+      "url": "https://typologyquiz.com/quizzes/pumpkin-puppet-lost-star/"
+    },
+    {
+      "id": "MU-28",
+      "slug": "haunted-waltz-beat-lab",
+      "title": "Haunted Waltz: Find the Hidden Step",
+      "categoryId": "music",
+      "kind": "knowledge",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "audio",
+        "choice",
+        "match",
+        "order"
+      ],
+      "url": "https://typologyquiz.com/quizzes/haunted-waltz-beat-lab/"
+    },
+    {
+      "id": "GT-28",
+      "slug": "strange-landscapes-real-explanations",
+      "title": "Strange Landscapes, Real Explanations",
+      "categoryId": "geography-travel",
+      "kind": "knowledge",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "order",
+        "grid"
+      ],
+      "url": "https://typologyquiz.com/quizzes/strange-landscapes-real-explanations/"
+    },
+    {
+      "id": "SG-28",
+      "slug": "the-empty-chair-party-game",
+      "title": "The Empty Chair: Choose Your Mystery Game",
+      "categoryId": "sports-games",
+      "kind": "preference",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "slider"
+      ],
+      "url": "https://typologyquiz.com/quizzes/the-empty-chair-party-game/"
+    },
+    {
+      "id": "LW-28",
+      "slug": "fog-island-the-bell-note",
+      "title": "Fog Island and the Bell Note",
+      "categoryId": "logic-wordplay",
+      "kind": "logic",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "order",
+        "match"
+      ],
+      "url": "https://typologyquiz.com/quizzes/fog-island-the-bell-note/"
+    }
+  ],
+  "research": [
+    {
+      "quizId": "MT-28",
+      "sources": [
+        {
+          "url": "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026/",
+          "claim": "Google's October 14 U.S. Frightgeist post reports Halloween search trends, including seasonal costumes/seasonal effects; it supplies timing context only.",
+          "verification": "Opened original Google post; checked date and topic. Search interest is not quiz demand or engagement.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        }
+      ],
+      "rationale": "Original paper-star prop states and pose changes carry every key; Halloween shifts the puppet's rescue into a scarecrow-and-pumpkin miniature, not a generic continuity exercise.",
+      "duplicationCheck": "MT-27 used deceptive trailer editing and guilt. This is constructive stop-motion story causality and prop transformation; existing IDs/slugs/prompts checked by validator.",
+      "coordinatorRefinement": "Removed solved answers from setup while preserving complete evidence and audio access. Music now has seven keyed tasks and one ungraded ending; geography explicitly uses text-only field cards and adds the documented tree-mold discovery."
+    },
+    {
+      "quizId": "MU-28",
+      "sources": [
+        {
+          "url": "https://www.carnegiehall.org/Education/Programs/Link-Up/National-Program/The-Orchestra-Moves/Explore-Meter-in-Music-and-Movement",
+          "claim": "Carnegie Hall's Link Up education page defines meter through groups of strong and weak pulses, with duple and triple examples.",
+          "verification": "Opened the official Carnegie Hall lesson page. The supplied PDF URL was inaccessible to the web tool; the HTML lesson is the verified source.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        },
+        {
+          "url": "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026/",
+          "claim": "Google's October 14 U.S. Frightgeist post reports Halloween search trends, including seasonal costumes/seasonal effects; it supplies timing context only.",
+          "verification": "Opened original Google post; checked date and topic. Search interest is not quiz demand or engagement.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        }
+      ],
+      "rationale": "Original short accent patterns distinguish three-pulse turns, a quiet offbeat/rest, and a two-pulse exit. Carnegie Hall supports meter as grouped strong/weak beats; the exact cues are our composition.",
+      "duplicationCheck": "MU22 includes grouping switches, written-pattern matching and timing arithmetic. This revision focuses on a fictional dance interpretation: an added offbeat versus the maintained pulse, a rest retaining time, movement corrections, equal-speed accent spacing and an ungraded dramatic finish. It includes no Hz legend or duration arithmetic.",
+      "coordinatorRefinement": "Removed solved answers from setup while preserving complete evidence and audio access. Music now has seven keyed tasks and one ungraded ending; geography explicitly uses text-only field cards and adds the documented tree-mold discovery."
+    },
+    {
+      "quizId": "GT-28",
+      "sources": [
+        {
+          "url": "https://www.nps.gov/maca/learn/nature/how-mammoth-cave-formed.htm",
+          "claim": "NPS says weakly acidic water dissolves limestone to form Mammoth Cave passages.",
+          "verification": "Opened NPS primary page and checked the solution-cave explanation.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        },
+        {
+          "url": "https://home.nps.gov/brca/learn/nature/hoodoos.htm",
+          "claim": "NPS describes Bryce hoodoos developing through freeze-thaw and rain weathering from plateau to walls, windows and isolated forms.",
+          "verification": "Opened NPS primary hoodoo page and checked its process sequence.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        },
+        {
+          "url": "https://home.nps.gov/crmo/learn/education/geology-for-students.htm",
+          "claim": "NPS explains both lava tubes and tree molds: hot lava hardened around trunks and the wood burned away, leaving molds.",
+          "verification": "Opened NPS education geology page and checked the lava-tube account.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        },
+        {
+          "url": "https://www.nps.gov/ever/learn/nature/mangroves.htm",
+          "claim": "NPS describes Everglades red mangroves with stilt-like roots in tidal waters where freshwater meets saltwater.",
+          "verification": "Opened NPS primary mangrove page and checked the coastal ecosystem description.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        },
+        {
+          "url": "https://parks.canada.ca/pn-np/nb/fundy/visit/accessibilite-accessibility",
+          "claim": "Parks Canada describes Fundy National Park's coastal and inland climate zones, including often foggy coastal areas.",
+          "verification": "Opened Parks Canada primary accessibility page; used landscape and climate-zone descriptions only, not live weather or access status.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        },
+        {
+          "url": "https://blog.google/intl/en-ca/products/explore-get-answers/halloween26/",
+          "claim": "Google Canada's October 14 post reports Canadian Halloween search interests and seasonal framing.",
+          "verification": "Opened original Google Canada post; checked publication date and limited search scope.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        }
+      ],
+      "rationale": "Five specific places build from underground formation and rock weathering to coastal habitat and climate. A three-cell comparison connects all five, then the documented tree-mold discovery gives an eerie absence a physical explanation.",
+      "duplicationCheck": "GT-27 mapped horror filming sites. These are geology, estuary and coastal-climate processes; no screen locations or map arithmetic.",
+      "coordinatorRefinement": "Removed solved answers from setup while preserving complete evidence and audio access. Music now has seven keyed tasks and one ungraded ending; geography explicitly uses text-only field cards and adds the documented tree-mold discovery."
+    },
+    {
+      "quizId": "SG-28",
+      "sources": [
+        {
+          "url": "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026/",
+          "claim": "Google's October 14 U.S. Frightgeist post reports Halloween search trends, including seasonal costumes/seasonal effects; it supplies timing context only.",
+          "verification": "Opened original Google post; checked date and topic. Search interest is not quiz demand or engagement.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        }
+      ],
+      "rationale": "Eight consequential format choices follow the Empty Chair from clue distribution through commitment and reveal. Halloween’s shared invitation and apparent missing guest create the specific social stakes.",
+      "duplicationCheck": "SG-01/16/17/20 preference axes cover roles, pickup temperament, pace/precision, and session tone/structure. Here the axes are clue visibility and permanence of claims in one Halloween mystery game; SG-27 is a keyed archive puzzle."
+    },
+    {
+      "quizId": "LW-28",
+      "sources": [
+        {
+          "url": "https://blog.google/intl/en-ca/products/explore-get-answers/halloween26/",
+          "claim": "Google Canada's October 14 post reports Canadian Halloween search interests and seasonal framing.",
+          "verification": "Opened original Google Canada post; checked publication date and limited search scope.",
+          "dateContext": "Consulted October 29, 2026 America/Edmonton; historical/educational page, not a live travel or engagement measure."
+        }
+      ],
+      "rationale": "The bell acrostic, watch ambiguity, punctuation, double meaning, object-state chronology and evidence pairing dismantle a false disappearance before the final note reframes it.",
+      "duplicationCheck": "LW-27 is a word-transformation cabinet; this mystery uses one short opening acrostic, then contextual reading, punctuation, changing object states and evidence synthesis. No repeated latch transformation.",
+      "coordinatorRefinement": "Removed solved answers from setup while preserving complete evidence and audio access. Music now has seven keyed tasks and one ungraded ending; geography explicitly uses text-only field cards and adds the documented tree-mold discovery."
+    }
+  ],
+  "independentReview": {
+    "provider": "authenticated GPT subscription, separate fresh sessions",
+    "v1": "NEEDS_CHANGES",
+    "v3": "NEEDS_CHANGES",
+    "v5Closure": "PASS",
+    "record": "docs/research/daily-quizzes/2026-10-29-review.md",
+    "reportHashes": {
+      "independent-review-v1.md": "d0a80447dff02b6d899978b2e70d89d6cd989fdc8bc56cf7a0407c57b7057bd1",
+      "independent-review-v3.md": "8cfb4697f187fb810573aed21f16d125830d60a08631e0941354c0b718f17ae7",
+      "independent-closure-v5.md": "b7d0c835be5f976e732f06bd273d3fea9cb5535118b28af18cb4b85053e6cdaa"
+    }
+  },
+  "verification": {
+    "fullVerify": "PASS",
+    "testsPassed": 311,
+    "failed": 0,
+    "skipped": 0,
+    "preExistingLintWarnings": 3,
+    "build": {
+      "htmlPages": 1605,
+      "sitemapURLs": 869,
+      "analyticsChunk": "_next/static/chunks/3ybk5snon9v9n.js",
+      "testsPassed": 311,
+      "fullVerifyExit": 0,
+      "productionWrapperDryRunExit": 0,
+      "sourcePacketSHA256": "d5a3c45a75f5bb20e0f65f781fc1b4f24c9f207f1bf2bd6d487980417c316789",
+      "sourceCommit": "3a9dd9246f747e44842ca56503d6ee0c9649a5da"
+    },
+    "rawPreservedObjects": {
+      "quizzes": 280,
+      "briefs": 280
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "allFiveCompleted": true,
+      "authoredTasksCompleted": 40,
+      "helperTaskWidthChecks": 24,
+      "manualSelectedWidthChecks": true,
+      "horizontalOverflowObserved": false,
+      "resume": "LW-28 task2; first answer retained",
+      "audio": "all three playback start/stop and transcript controls checked; no subjective hearing-quality claim"
+    },
+    "productionBrowser": {
+      "quizId": "SG-28",
+      "viewport": [
+        1280,
+        720
+      ],
+      "completed": true,
+      "accuracyDisplayed": false,
+      "browserErrorsObserved": false
+    },
+    "analytics": {
+      "property": "545477353",
+      "quizId": "SG-28",
+      "event": "interactive_quiz_complete",
+      "observedCount": 1,
+      "operatorQA": true,
+      "settled": true,
+      "row": "SG-28\t1",
+      "newPageViewObserved": true,
+      "otherConcurrentActivityNotAttributed": true
+    },
+    "handbookR2": {
+      "status": 200,
+      "contentType": "image/png",
+      "immutableCache": true,
+      "bundled": false
+    },
+    "live": {
+      "at": "2026-10-29T13:47:55.434617+00:00",
+      "sourceCommit": "3a9dd9246f747e44842ca56503d6ee0c9649a5da",
+      "verifiedNewQuizzes": 5,
+      "liveCollection": 285,
+      "sitemapURLs": 869,
+      "checks": [
+        {
+          "url": "https://typologyquiz.com/quizzes/pumpkin-puppet-lost-star/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "41aadebae9c6b397c3ea299ab7f5facf8ad78b14f64736e3ef18e0e4697a8c4b"
+        },
+        {
+          "url": "https://typologyquiz.com/quizzes/haunted-waltz-beat-lab/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "c7f8bca3e7a2b094a3ccea42a4e6d7fdd57bf7ff769dd49cc0da3db98b5ae3ae"
+        },
+        {
+          "url": "https://typologyquiz.com/quizzes/strange-landscapes-real-explanations/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "1e1a09bbaf763dcfed078ea7f372b9a3eea7f008259a8764ae83bbe6ddd47310"
+        },
+        {
+          "url": "https://typologyquiz.com/quizzes/the-empty-chair-party-game/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "6e65fd8d121d4a359cb0ab091eec8c6357a0ff456f1e9ed565f3abb0ca24e431"
+        },
+        {
+          "url": "https://typologyquiz.com/quizzes/fog-island-the-bell-note/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "b361a5fe45589085edcee135dd92eab00060ae1b2441102dc48673e8c64a6bfd"
+        },
+        {
+          "url": "https://typologyquiz.com/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "96684e8eb7616ba4ee2129f42220fd1cd7554cf5f3a85345b9803c172c7ad458"
+        },
+        {
+          "url": "https://typologyquiz.com/quizzes/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "086b09724d94cb01b2901520f2b96387b00d37c74479aa6bf01e8abee3d9b971"
+        },
+        {
+          "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "eb93eb3a27615fd9712bc853d274b808da0c3048e7b957512892930c25042994"
+        },
+        {
+          "url": "https://typologyquiz.com/sitemap.xml",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": false,
+          "sha256": "beb724bd761c38e2dde41d32f2838b1b1e6aa0da2579484fb6415b2d645b1dfd"
+        },
+        {
+          "url": "https://typologyquiz.com/llms.txt",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": false,
+          "sha256": "9b72187e1ec2a92a683ff106d7c883b13e8a698da6a6908b1673be54b84a3ca3"
+        },
+        {
+          "url": "https://typologyquiz.com/robots.txt",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": false,
+          "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+        },
+        {
+          "url": "https://typologyquiz.com/_next/static/chunks/3ybk5snon9v9n.js",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": false,
+          "sha256": "85fee797cfbb2c7e51fb8b8c33ef647852868dbb7e4e2700fc3e9198b52c6f33"
+        },
+        {
+          "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "6780752effa0987e3c14901618ea373c32912433459a5f1cf8b8353eec952a0a"
+        },
+        {
+          "url": "https://typologyquiz.com/tests/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "2850138ff118425704b126b6e27ecbed21d835e6c63b203299ef00e0d12b07d8"
+        },
+        {
+          "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "d0ee6567ef06d6c8a2c3811f9eb1d09b06e74990c56961aaa7b60cefba9e1baf"
+        },
+        {
+          "url": "https://www.typologyquiz.com/quizzes/pumpkin-puppet-lost-star/",
+          "matchesVerifiedExport": true,
+          "cloudflareAppendedBrowserCheck": true,
+          "sha256": "f91a760790a498f82a1f8af00053888e3ec1b8d370d799966ab6ee6830bab86f"
+        }
+      ]
+    }
+  },
+  "preservation": "All existing quiz IDs, URLs, questions, scoring, saved progress and sharing behavior preserved. No historical release/identity/legacy fixture, engine/controller, Worker binding, privacy/account, social/media or news-edition changes.",
+  "at": "2026-10-29T13:52:18.978411+00:00"
+}

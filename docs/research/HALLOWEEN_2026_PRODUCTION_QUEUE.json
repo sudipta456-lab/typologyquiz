@@ -1,13 +1,13 @@
 {
   "approvedLocalDate": "2026-10-23",
   "approval": "Owner: good ... go with ur new recomendation",
-  "status": "approved-editorial-treatment-queue-twenty-published-15-future-5-expired-unpublished",
+  "status": "approved-editorial-treatment-queue-twenty-five-published-10-future-5-expired-unpublished",
   "authority": "These reviewed treatments govern October24–31 authoring. The original calendar remains historical; do not implement a weak original hook unchanged.",
   "provenance": "Mechanical adoption of the completed Grok Expert audit and coordinator checks; no new Grok inference, creative draft or independent release review occurred during adoption.",
   "auditRecord": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT.md",
   "immutableAuditRows": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT_ROWS.json",
-  "futureBriefCount": 15,
-  "requiresSubstantialRevision": 10,
+  "futureBriefCount": 10,
+  "requiresSubstantialRevision": 5,
   "strongerStartingBriefsNotCleared": 5,
   "dailyLimit": 5,
   "timezone": "America/Edmonton",
@@ -382,9 +382,14 @@
       "originalTitleForTraceability": "Stop-Motion Pumpkin Workshop",
       "auditVerdict": "PIVOT",
       "approvedTreatment": "Keep stop-motion craft but show meaningful frame/story changes. Avoid returning to frame-rate calculations.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "MT-28",
+      "slug": "pumpkin-puppet-lost-star",
+      "publishedTitle": "The Pumpkin Puppet and the Lost Star",
+      "sourceCommit": "3a9dd9246f747e44842ca56503d6ee0c9649a5da",
+      "deploymentVersion": "5e775c1c-9220-4a2d-b2e0-066bd2a4268c"
     },
     {
       "localDate": "2026-10-29",
@@ -392,9 +397,14 @@
       "originalTitleForTraceability": "Haunted Waltz Meter Lab",
       "auditVerdict": "PIVOT",
       "approvedTreatment": "Keep audible meter recognition and original audio/text equivalents; avoid frequency-ratio mathematics disguised as music.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "MU-28",
+      "slug": "haunted-waltz-beat-lab",
+      "publishedTitle": "Haunted Waltz: Find the Hidden Step",
+      "sourceCommit": "3a9dd9246f747e44842ca56503d6ee0c9649a5da",
+      "deploymentVersion": "5e775c1c-9220-4a2d-b2e0-066bd2a4268c"
     },
     {
       "localDate": "2026-10-29",
@@ -402,9 +412,14 @@
       "originalTitleForTraceability": "Pumpkin Patch Scale Map",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace fence/perimeter geometry with a genuinely geographic seasonal premise.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "GT-28",
+      "slug": "strange-landscapes-real-explanations",
+      "publishedTitle": "Strange Landscapes, Real Explanations",
+      "sourceCommit": "3a9dd9246f747e44842ca56503d6ee0c9649a5da",
+      "deploymentVersion": "5e775c1c-9220-4a2d-b2e0-066bd2a4268c"
     },
     {
       "localDate": "2026-10-29",
@@ -412,9 +427,14 @@
       "originalTitleForTraceability": "Ghost Referee Score Review",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Rebuild the sports/game premise around judgment, visual play or a coherent puzzle. Repeated fictional score audits are insufficient.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "SG-28",
+      "slug": "the-empty-chair-party-game",
+      "publishedTitle": "The Empty Chair: Choose Your Mystery Game",
+      "sourceCommit": "3a9dd9246f747e44842ca56503d6ee0c9649a5da",
+      "deploymentVersion": "5e775c1c-9220-4a2d-b2e0-066bd2a4268c"
     },
     {
       "localDate": "2026-10-29",
@@ -422,9 +442,14 @@
       "originalTitleForTraceability": "Fog Island Word Clues",
       "auditVerdict": "PIVOT",
       "approvedTreatment": "Keep verbal inference if clues are distinct and yield a real solution; avoid interchangeable supplied-rule exercises.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "LW-28",
+      "slug": "fog-island-the-bell-note",
+      "publishedTitle": "Fog Island and the Bell Note",
+      "sourceCommit": "3a9dd9246f747e44842ca56503d6ee0c9649a5da",
+      "deploymentVersion": "5e775c1c-9220-4a2d-b2e0-066bd2a4268c"
     },
     {
       "localDate": "2026-10-30",
@@ -547,10 +572,10 @@
     "independentCreativeReview": "not performed; Grok quota blocks scripts and fresh review"
   },
   "initialApprovedFutureBriefCount": 40,
-  "publishedFromQueue": 20,
-  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-28-release.json",
+  "publishedFromQueue": 25,
+  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-29-release.json",
   "existingPublishedQuizzesUnchanged": true,
-  "unpublishedBriefCount": 20,
+  "unpublishedBriefCount": 15,
   "expiredUnpublishedBriefCount": 5,
   "expiredRequiresSubstantialRevision": 4,
   "expiredStrongerStartingBriefs": 1
