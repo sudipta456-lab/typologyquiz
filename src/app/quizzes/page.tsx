@@ -5,6 +5,7 @@ import { breadcrumbList, collectionPageNodes, jsonLdGraph } from "@/lib/structur
 import { CATEGORIES } from "@/lib/interactive/categories";
 import { SUMMARIES } from "@/lib/interactive/catalog.generated";
 import { QuizDirectory } from "@/components/interactive/QuizDirectory";
+import styles from "@/components/interactive/InteractiveQuiz.module.css";
 
 const TITLE = "Interactive Quizzes";
 const DESCRIPTION = `${SUMMARIES.length} short interactive quizzes in ${CATEGORIES.length} categories: matching, ordering, link maps, grids, listening and diagram tasks, plus personality-style choices and pass-and-play games. Free, no signup, scored in your browser.`;
@@ -50,6 +51,18 @@ export default function InteractiveQuizzesPage() {
           Short, original quizzes across {CATEGORIES.length} categories. Knowledge quizzes show how many tasks you got right; choice-based ones describe your own picks and are not tests or diagnoses. Progress and answers stay in your browser. See <Link href="/methodology/interactive-quizzes/" className="text-link">how these quizzes are built, scored and reviewed</Link>.
         </p>
         <QuizDirectory quizzes={SUMMARIES} categories={CATEGORIES} />
+        <nav aria-label="Browse quizzes by category" style={{ marginTop: "2rem" }}>
+          <h2 className="font-display" style={{ fontSize: "1.1rem", fontWeight: 600, margin: "0 0 8px" }}>
+            Browse by category
+          </h2>
+          <div className={styles.related}>
+            {CATEGORIES.map((category) => (
+              <Link key={category.id} href={`/quizzes/category/${category.id}/`}>
+                {category.name}
+              </Link>
+            ))}
+          </div>
+        </nav>
       </div>
     </>
   );
