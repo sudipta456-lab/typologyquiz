@@ -11477,5 +11477,311 @@
         ]
       }
     ]
+  },
+  {
+    "id": "SN-30",
+    "slug": "pumpkin-from-flower-to-next-seed",
+    "categoryId": "science-nature",
+    "title": "A Pumpkin, from Flower to Next Seed",
+    "description": "Follow a pumpkin from two different flowers to the carved fruit and seeds for a later generation. Apply qualified Extension and USDA clues without relying on an unseen plant image.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "flowers",
+        "title": "Before the fruit"
+      },
+      {
+        "id": "inside",
+        "title": "The carved fruit"
+      },
+      {
+        "id": "labels",
+        "title": "What a label can tell you"
+      }
+    ],
+    "sources": [
+      {
+        "id": "illinois",
+        "label": "Illinois Extension, Answers to Your Questions About Pumpkins",
+        "kind": "reference",
+        "url": "https://extension.illinois.edu/pumpkins/answers-your-questions-about-pumpkins"
+      },
+      {
+        "id": "varieties",
+        "label": "Illinois Extension, Pumpkin Varieties",
+        "kind": "reference",
+        "url": "https://extension.illinois.edu/pumpkins/pumpkin-varieties"
+      },
+      {
+        "id": "usda",
+        "label": "USDA ARS, Squash Production",
+        "kind": "reference",
+        "url": "https://www.ars.usda.gov/northeast-area/geneva-ny/plant-genetic-resources-unit-pgru/docs/squash-production/"
+      },
+      {
+        "id": "umn",
+        "label": "University of Minnesota Extension, Fruits and Vegetables That Require Pollination",
+        "kind": "reference",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/pollination/requirements"
+      },
+      {
+        "id": "illinois2026",
+        "label": "Illinois Extension, Why Are My Pumpkin Fruit Dying After Bloom?",
+        "kind": "reference",
+        "url": "https://extension.illinois.edu/blogs/commercial-fruit-and-vegetable-growers/2026-08-31-why-are-my-pumpkin-fruit-dying-after-bloom"
+      },
+      {
+        "id": "original",
+        "label": "Original text-only pumpkin cases and comparisons; no botanical image or schematic is displayed.",
+        "kind": "original"
+      },
+      {
+        "id": "clemson",
+        "label": "Clemson Cooperative Extension, Pumpkins: Fruit or Veggie? (botanical definition, 2024)",
+        "kind": "reference",
+        "url": "https://hgic.clemson.edu/pumpkins-fruit-or-veggie/"
+      }
+    ],
+    "note": "All botany is text based and qualified. No plant diagram, universal colour rule, or garden diagnosis is implied.",
+    "questions": [
+      {
+        "id": "sn1",
+        "sectionId": "flowers",
+        "kind": "choice",
+        "prompt": "A pumpkin vine bears flowers. Why can the carved pumpkin be called a fruit in botany?",
+        "context": "Ignore where a food appears on a menu; classify the plant structure.",
+        "options": [
+          {
+            "id": "ovary",
+            "label": "It develops from a flower’s ovary and holds seeds"
+          },
+          {
+            "id": "root",
+            "label": "It grows from a swollen root below the vine"
+          },
+          {
+            "id": "leaf",
+            "label": "It is a modified leaf that protects the flowers"
+          }
+        ],
+        "correct": "ovary",
+        "explanation": "The fruit develops from the flower’s ovary and contains seeds; culinary use is a separate convention.",
+        "sourceIds": [
+          "clemson"
+        ]
+      },
+      {
+        "id": "sn2",
+        "sectionId": "flowers",
+        "kind": "choice",
+        "prompt": "A grower wants to mark a blossom that could develop into a pumpkin. Which observation should guide the tag?",
+        "context": "USDA describes female Cucurbita flowers as having a small squash-like structure below the petals; male flowers have a straight stem. Cards describe unseen flowers, not drawn images.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Card A: petals above a straight, narrow stem"
+          },
+          {
+            "id": "b",
+            "label": "Card B: petals above a rounded base that joins the vine"
+          },
+          {
+            "id": "c",
+            "label": "Card C: petals with a dark stripe but no base recorded"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The rounded base on B fits the described ovary beneath a female flower. Petal colour alone would not establish that structure.",
+        "sourceIds": [
+          "usda",
+          "original"
+        ]
+      },
+      {
+        "id": "sn3",
+        "sectionId": "flowers",
+        "kind": "match",
+        "prompt": "If one part of a successful pollination path were missing, which step would be affected first?",
+        "context": "In this simplified case, a male flower has pollen, a bee visits both kinds of flower, and a female flower has a swollen base. A visit alone does not promise fruit.",
+        "left": [
+          {
+            "id": "dust",
+            "label": "No pollen on the male flower"
+          },
+          {
+            "id": "bee",
+            "label": "No insect moves between the two flowers"
+          },
+          {
+            "id": "base",
+            "label": "No ovary beneath the receiving petals"
+          }
+        ],
+        "right": [
+          {
+            "id": "supply",
+            "label": "There is no donor material to transfer"
+          },
+          {
+            "id": "carry",
+            "label": "The pollen lacks this route to the receiving flower"
+          },
+          {
+            "id": "grow",
+            "label": "There is no fruit-forming structure at that flower"
+          }
+        ],
+        "pairs": {
+          "dust": "supply",
+          "bee": "carry",
+          "base": "grow"
+        },
+        "explanation": "Each missing element interrupts a different part of the path: supply, transfer, or a structure that could become fruit.",
+        "sourceIds": [
+          "usda",
+          "umn"
+        ]
+      },
+      {
+        "id": "sn4",
+        "sectionId": "flowers",
+        "kind": "choice",
+        "prompt": "A vine’s first blossoms have straight stems and fall away. Which note belongs in a garden journal?",
+        "context": "Illinois Extension says early flowers are commonly male; no swollen base was seen on these blossoms.",
+        "options": [
+          {
+            "id": "expected",
+            "label": "The observation fits early male flowers; keep watching later blossoms"
+          },
+          {
+            "id": "soil",
+            "label": "The observation suggests a soil problem even though no female flowers were seen"
+          },
+          {
+            "id": "guarantee",
+            "label": "The first later blossom with a swollen base will certainly make a fruit"
+          }
+        ],
+        "correct": "expected",
+        "explanation": "Male flowers do not have a developing fruit at their bases. This observation neither diagnoses the whole patch nor guarantees later fruit.",
+        "sourceIds": [
+          "illinois",
+          "illinois2026"
+        ]
+      },
+      {
+        "id": "sn5",
+        "sectionId": "inside",
+        "kind": "choice",
+        "prompt": "A carver sets aside three parts of one cut pumpkin: outer rind, firm flesh, and the stringy central mass containing seeds. Which part matters for a later planting?",
+        "context": "This is a text description of the cut fruit; no diagram or ovals are displayed.",
+        "options": [
+          {
+            "id": "rind",
+            "label": "The outer rind because it protected this fruit"
+          },
+          {
+            "id": "flesh",
+            "label": "The firm flesh because it grew this season"
+          },
+          {
+            "id": "seed",
+            "label": "The seeds in the central mass because they can grow into new plants"
+          }
+        ],
+        "correct": "seed",
+        "explanation": "The seed-bearing centre is the part that can start the next generation; rind and flesh belong to the present fruit.",
+        "sourceIds": [
+          "illinois",
+          "usda"
+        ]
+      },
+      {
+        "id": "sn6",
+        "sectionId": "inside",
+        "kind": "choice",
+        "prompt": "Two compatible varieties of the same Cucurbita species grew near each other. A gardener saved seeds from one fruit. Where might a cross become visible?",
+        "context": "Assume the pollen transfer occurred. Compare the already formed fruit with plants grown from its seeds.",
+        "options": [
+          {
+            "id": "later",
+            "label": "In some plants grown from the saved seeds"
+          },
+          {
+            "id": "skin",
+            "label": "As an immediate redesign of the fruit already on the vine"
+          },
+          {
+            "id": "certain",
+            "label": "In every seedling with exactly the same new appearance"
+          }
+        ],
+        "correct": "later",
+        "explanation": "Cross-pollination affects the genetic combination of seeds, so variation may appear in later plants; it does not redesign the current fruit.",
+        "sourceIds": [
+          "illinois",
+          "usda"
+        ]
+      },
+      {
+        "id": "sn7",
+        "sectionId": "labels",
+        "kind": "choice",
+        "prompt": "A fourth miniature at the shop has no variety tag. Which species label can you give it from size alone?",
+        "context": "Illinois Extension lists Jack-Be-Little as a C. pepo miniature, Big Max among C. maxima jumbos, and Dickinson Field among C. moschata processing pumpkins. These are named examples, not size rules.",
+        "options": [
+          {
+            "id": "unknown",
+            "label": "None yet; the fourth miniature needs its own variety record"
+          },
+          {
+            "id": "pepo",
+            "label": "C. pepo, because Jack-Be-Little is miniature"
+          },
+          {
+            "id": "maxima",
+            "label": "C. maxima, because all shop pumpkins share the giant group"
+          }
+        ],
+        "correct": "unknown",
+        "explanation": "The three named examples show that “pumpkin” spans species, but one miniature example cannot classify every other miniature.",
+        "sourceIds": [
+          "varieties",
+          "usda"
+        ]
+      },
+      {
+        "id": "sn8",
+        "sectionId": "labels",
+        "kind": "choice",
+        "prompt": "A visitor blames the neighbouring vine for this pumpkin’s yellow skin. Which reply combines the variety record with what you learned about crossing?",
+        "context": "Illinois Extension lists Big Autumn as yellow when mature. In this original case, a tagged Big Autumn fruit grew beside a different compatible variety.",
+        "options": [
+          {
+            "id": "variety",
+            "label": "The variety can mature yellow; crossing can show up in plants grown from its seeds."
+          },
+          {
+            "id": "repaint",
+            "label": "The fruit has borrowed its neighbour’s colour; its saved seeds must remain unchanged."
+          },
+          {
+            "id": "immature",
+            "label": "Yellow proves this fruit is immature; compatible varieties cannot cross."
+          }
+        ],
+        "correct": "variety",
+        "explanation": "Big Autumn supplies a named mature-yellow example. Compatible crossing changes the genetic combination in seeds, rather than repainting the current fruit. A colour change alone would not identify its pollen donor.",
+        "sourceIds": [
+          "varieties",
+          "illinois",
+          "usda",
+          "original"
+        ]
+      }
+    ]
   }
 ]

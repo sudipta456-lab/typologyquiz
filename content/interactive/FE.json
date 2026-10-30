@@ -11944,5 +11944,272 @@
         ]
       }
     ]
+  },
+  {
+    "id": "FE-30",
+    "slug": "edible-illusion-bakery-window",
+    "categoryId": "food-everyday-life",
+    "title": "The Edible Illusion Window",
+    "description": "Art-direct a fictional Halloween bakery window with an edible house key and an edible map. Choose which object leads each scene and how guests piece together its little story through text-only decisions.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 5,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "street",
+        "title": "The objects in the window"
+      },
+      {
+        "id": "counter",
+        "title": "When one is cut"
+      },
+      {
+        "id": "takehome",
+        "title": "The last clue"
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "form",
+        "low": "Everyday disguise",
+        "high": "Storybook invention",
+        "description": "How these picks balance a pastry that resembles a familiar object with one that openly belongs to an imagined story."
+      },
+      {
+        "id": "clue",
+        "low": "Words carry the tale",
+        "high": "Forms carry the tale",
+        "description": "How these picks balance a story conveyed by short written passages with one conveyed by edible shapes, cut surfaces, and marks."
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional edible key and map pastries, paper clues and bakery-window choices.",
+        "kind": "original"
+      }
+    ],
+    "note": "Original imagined food art, with no displayed pastry, package or generated story. Results describe these choices only.",
+    "questions": [
+      {
+        "id": "fe1",
+        "sectionId": "street",
+        "kind": "choice",
+        "prompt": "Two pastries sit in the window: an edible house key and an edible map. Which one gets the central stand?",
+        "context": "Imagine a one-night Halloween bakery window; either pastry could lead the scene.",
+        "options": [
+          {
+            "id": "key",
+            "label": "The worn house key that could belong to someone on this street",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "map",
+            "label": "The tiny map to a place called the Midnight Orchard",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "The central stand tells visitors whether the window starts with a familiar object or an invented destination.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fe2",
+        "sectionId": "street",
+        "kind": "choice",
+        "prompt": "How would you invite a passerby to connect the edible key with the map?",
+        "context": "The same imaginary key and map pastries remain in the window; either invitation is prepared by the bakery.",
+        "options": [
+          {
+            "id": "words",
+            "label": "Put a short riddle beside the pastries about a key looking for its door",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "forms",
+            "label": "Arrange the key’s notches beside matching cutouts in the edible map, without a written riddle",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "One invitation builds a connection through words; the other makes the connection through the objects’ shapes.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fe3",
+        "sectionId": "street",
+        "kind": "rank",
+        "prompt": "Three edible details could complete the front window. Rank the one you would build first.",
+        "context": "All three pieces could be made for this fictional window; choose which one anchors its story.",
+        "items": [
+          {
+            "id": "stamp",
+            "label": "A pastry parcel stamped like ordinary mail",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "ticket",
+            "label": "A ticket to an imaginary midnight train",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "tag",
+            "label": "A tag that could belong to either a real parcel or a story object",
+            "weights": [
+              0,
+              0
+            ]
+          }
+        ],
+        "explanation": "The priority shifts the window’s visual vocabulary from a familiar prop toward a made-up place.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fe4",
+        "sectionId": "counter",
+        "kind": "choice",
+        "prompt": "The baker cuts one pastry in half at the counter. Which interior detail would make the outer object more satisfying?",
+        "context": "Choose the imagined interior that carries the outer object’s idea into the cut surface.",
+        "options": [
+          {
+            "id": "hinge",
+            "label": "Inside the edible key, a small dark line continues the worn-metal illusion",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "trail",
+            "label": "Inside the edible map, a winding coloured layer continues the imaginary route",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "The cut rewards attention to the chosen object: a believable everyday detail or an invented path.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fe5",
+        "sectionId": "counter",
+        "kind": "choice",
+        "prompt": "What would make that line meaningful at the counter?",
+        "context": "For this separate counter sample, the baker brings out another map pastry, already cut into two halves. Its inner coloured line can be followed across the cut surfaces.",
+        "options": [
+          {
+            "id": "words",
+            "label": "Place a tiny written scene beside one half, saying where the route leads",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "forms",
+            "label": "Set the two cut faces side by side so the coloured line visibly joins a path, with no written destination",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "The cut can support a written destination or become a physical connection the visitor reads across two pieces. Both choices are prepared by the bakery.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fe6",
+        "sectionId": "counter",
+        "kind": "slider",
+        "prompt": "A take-home sleeve needs one final edible mark. Where would you place the design on this scale?",
+        "context": "The take-home sleeve should carry the window’s idea beyond the shop.",
+        "dimension": 0,
+        "lowLabel": "A recognizable house-number biscuit seal",
+        "highLabel": "A seal shaped like the orchard’s invented compass",
+        "explanation": "The take-home object can point back to a familiar address or onward into an imagined world.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fe7",
+        "sectionId": "takehome",
+        "kind": "rank",
+        "prompt": "How should the takeaway carry its final clue home?",
+        "context": "The takeaway pastry and sleeve can carry the same ending in different ways. Rank the treatment you would make first.",
+        "items": [
+          {
+            "id": "words",
+            "label": "A tiny written vignette on the sleeve, with the pastry’s surface left plain",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "mixed",
+            "label": "One short phrase beside a stamped symbol on the pastry",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "forms",
+            "label": "A trail of three stamped marks across the pastry, with no written destination",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "This choice changes the takeaway itself: the ending can travel as a written passage, as edible marks, or as a mixture of both.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fe8",
+        "sectionId": "takehome",
+        "kind": "slider",
+        "prompt": "How should the empty window leave its last hint?",
+        "context": "At closing, only a few pastry crumbs, a key-shaped paper outline, and the empty map tray remain. The bakery prepares either final display.",
+        "dimension": 1,
+        "lowLabel": "A one-line ending beside the empty tray",
+        "highLabel": "Crumbs form a path from the key outline across the tray",
+        "explanation": "One ending names the destination in words; the other leaves a physical trace for the visitor to read. This describes your imagined window, not a generated scene.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

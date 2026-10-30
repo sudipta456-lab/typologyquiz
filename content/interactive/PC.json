@@ -10017,5 +10017,264 @@
         ]
       }
     ]
+  },
+  {
+    "id": "PC-30",
+    "slug": "last-porch-trick-or-treat-walk",
+    "categoryId": "personality-choices",
+    "title": "The Last Porch Walk",
+    "description": "Take a fictional Halloween trick-or-treat circuit from first sweet to final porch. Your choices describe how you spend time on the route and whether moments stay with one person or become group memories.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 5,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "out",
+        "title": "The first sweets"
+      },
+      {
+        "id": "middle",
+        "title": "A changing route"
+      },
+      {
+        "id": "home",
+        "title": "The way home"
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "route",
+        "low": "Focused stops",
+        "high": "Wider circuit",
+        "description": "How these picks balance spending time at a chosen stop with seeing more of the available circuit."
+      },
+      {
+        "id": "company",
+        "low": "Personal moments",
+        "high": "Group-made moments",
+        "description": "How these picks balance a moment centered on one person’s experience with an experience composed by the walking group."
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional neighborhood walk and descriptive choice scales, written for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "An original fictional walk. Both axes describe choices made here; they do not measure personality, generosity, or social skill.",
+    "questions": [
+      {
+        "id": "pc1",
+        "sectionId": "out",
+        "kind": "choice",
+        "prompt": "The first porch offers wrapped sweets and a tiny hand-drawn maze on each wrapper. Your group can visit either street before curfew. Where do you start?",
+        "context": "Both streets have welcoming porches and the same walking distance.",
+        "options": [
+          {
+            "id": "maze",
+            "label": "Choose this porch and solve a wrapper maze together before the next stop",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "loop",
+            "label": "Take a sweet and begin the full loop while the other porches are lit",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "One choice gives the first treat its own scene; the other begins the larger circuit. Neither changes the number of sweets anyone may take.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc2",
+        "sectionId": "out",
+        "kind": "choice",
+        "prompt": "The person handing out sweets admires your friend’s hand-painted paper crown. Who would you draw into this one encounter?",
+        "context": "Your friend is happy either to speak for themselves or to let the group join in.",
+        "options": [
+          {
+            "id": "friend",
+            "label": "Make room for your friend to tell the crown’s short origin to the host",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "group",
+            "label": "Invite the walkers to name the costume details they each contributed",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "This choice records whether the encounter centers one person’s story or becomes a group account.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc3",
+        "sectionId": "middle",
+        "kind": "rank",
+        "prompt": "Rank which extra you would reach for first—and let it shape the rest of your walk.",
+        "context": "One porch offers three free paper extras beside the sweets. There is room in your bag for any of them.",
+        "items": [
+          {
+            "id": "foldout",
+            "label": "A foldout of this porch’s shadow scene, with a space to invent its last panel",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "flag",
+            "label": "A blank paper flag to add to your costume",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "stamps",
+            "label": "A route card that gathers a different small stamp at several porches",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "The foldout invites a small project centered on one place; the stamp card gives a reason to visit several places. The flag leaves the route open.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc4",
+        "sectionId": "middle",
+        "kind": "choice",
+        "prompt": "Two walkers planned a group costume photo, but one now wants to reach a porch where their cousin is handing out treats. How would you change the invitation?",
+        "context": "Everyone can still meet at the corner afterward; no one is being left behind.",
+        "options": [
+          {
+            "id": "pair",
+            "label": "Offer to accompany that walker to the cousin’s porch, then rejoin the photo",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "group",
+            "label": "Ask the whole group whether to move the photo to that porch",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "Both make space for the changed wish. One starts with a companion; the other remakes a group plan.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc5",
+        "sectionId": "middle",
+        "kind": "slider",
+        "prompt": "A neighbour gives you a tip: a block ahead has handmade paper treat bags, while the current porch has a story behind its carved sign. How would you spend the next ten minutes?",
+        "context": "The tip is reliable and both stops remain open. This describes your route, not a better strategy.",
+        "dimension": 0,
+        "lowLabel": "Hear the sign’s story before leaving",
+        "highLabel": "Use the tip to visit the extra block",
+        "explanation": "A single span of time can be given to the present porch or to another part of the circuit.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc6",
+        "sectionId": "middle",
+        "kind": "choice",
+        "prompt": "At the paper-bag porch, a friend finds a folded thank-you note slipped in with their sweet. The host asks if you would add a line to the porch memory book. What do you write?",
+        "context": "The host welcomes either kind of note; this is not a test of gratitude.",
+        "options": [
+          {
+            "id": "one",
+            "label": "Recall the small joke you shared with the host as the bag was handed over",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "many",
+            "label": "Record the group’s favourite moment from this block in one joint line",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "The same porch can be remembered through a single exchange or a shared account.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc7",
+        "sectionId": "home",
+        "kind": "choice",
+        "prompt": "The final ten minutes leave time for one last choice. Which ending would you take?",
+        "context": "You already have treats; neither route promises more or better ones.",
+        "options": [
+          {
+            "id": "return",
+            "label": "Return to the wrapper-maze porch and ask how the host designed it",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "new",
+            "label": "Circle the still-lit side street and see one new doorway before heading home",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "The last stop can turn a sweet into a maker’s story, or add one more doorway to the circuit. Either ending is available whichever route you began with.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc8",
+        "sectionId": "home",
+        "kind": "slider",
+        "prompt": "Back at the corner, you can keep one trace of tonight. What would make the best ending?",
+        "context": "Imagine a simple paper keepsake; the quiz records only your selection, not a photo or saved story.",
+        "dimension": 1,
+        "lowLabel": "Keep the maze wrapper as your own reminder",
+        "highLabel": "Write a group caption on the back of the route card",
+        "explanation": "The close moves from a personal memento to a memory the walking group composes together.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

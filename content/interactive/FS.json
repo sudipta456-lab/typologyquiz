@@ -10980,5 +10980,283 @@
         ]
       }
     ]
+  },
+  {
+    "id": "FS-30",
+    "slug": "fox-hood-costume-exchange",
+    "categoryId": "friends-social-play",
+    "title": "The Fox Hood at the Costume Exchange",
+    "description": "Read a fictional costume-exchange desk together. A familiar fox hood goes missing from its return hook; trace its ticket, repair, and the detail its wearer wants to keep.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "desk",
+        "title": "The return hook"
+      },
+      {
+        "id": "repair",
+        "title": "A familiar ear"
+      },
+      {
+        "id": "reunion",
+        "title": "The handoff"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional costume-exchange desk, borrowed fox hood, repair evidence and handoff.",
+        "kind": "original"
+      }
+    ],
+    "note": "Original fiction for one shared screen or read-aloud play. Seven deductions have fixed keys; the final wording choice is ungraded.",
+    "questions": [
+      {
+        "id": "fs1",
+        "sectionId": "desk",
+        "kind": "choice",
+        "prompt": "Which desk rule decides whether this fox hood belongs on the free-to-take rail?",
+        "context": "Exchange rule: blue tickets mean a garment may be borrowed for the evening and must return; orange tickets mean it is donated. The fox hood has blue ticket 42. A handwritten card says “for Mina after the walk.”",
+        "options": [
+          {
+            "id": "ticket",
+            "label": "Ticket colour controls whether it can leave the return system"
+          },
+          {
+            "id": "card",
+            "label": "Any handwritten card makes the garment a donation"
+          },
+          {
+            "id": "rack",
+            "label": "A garment becomes a donation whenever its hook is empty"
+          }
+        ],
+        "correct": "ticket",
+        "explanation": "Ticket 42 is blue, so the hood remains a borrowed item even if it moves off the hook for repair.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs2",
+        "sectionId": "desk",
+        "kind": "choice",
+        "prompt": "The hook is empty. Which station is the strongest next stop?",
+        "context": "The return sheet says ticket 42 came back with a loose left ear. A repair slip, written after check-in but with its ticket number smudged, describes a fox hood with crooked green stitching on that ear. The free rail log records only ticket 18.",
+        "options": [
+          {
+            "id": "repair",
+            "label": "The repair table, where the seam and loose ear match two details"
+          },
+          {
+            "id": "rail",
+            "label": "The free rail, because another fox hood is recorded there"
+          },
+          {
+            "id": "door",
+            "label": "The exit, because an empty hook means somebody left with it"
+          }
+        ],
+        "correct": "repair",
+        "explanation": "The repair slip joins two distinctive details from the returned hood. An empty hook alone cannot establish where it went.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs3",
+        "sectionId": "repair",
+        "kind": "match",
+        "prompt": "Three details are recorded at the repair table. Match each to the question it helps answer.",
+        "context": "Mina remembers the old crooked green stitching on the left ear. The volunteer has spare orange thread but has not yet sewn it. The blue ticket remains pinned inside.",
+        "left": [
+          {
+            "id": "stitch",
+            "label": "Old crooked green stitching"
+          },
+          {
+            "id": "thread",
+            "label": "Unused orange thread beside the needle"
+          },
+          {
+            "id": "blue",
+            "label": "Blue ticket still inside"
+          }
+        ],
+        "right": [
+          {
+            "id": "recognize",
+            "label": "Will Mina recognize this as the familiar hood?"
+          },
+          {
+            "id": "change",
+            "label": "What new material might alter its look?"
+          },
+          {
+            "id": "status",
+            "label": "Must the garment be returned after borrowing?"
+          }
+        ],
+        "pairs": {
+          "stitch": "recognize",
+          "thread": "change",
+          "blue": "status"
+        },
+        "explanation": "The familiar seam identifies the hood, the spare thread is a proposed change, and the ticket keeps its borrowing status clear.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs4",
+        "sectionId": "repair",
+        "kind": "choice",
+        "prompt": "The volunteer offers to replace the crooked green seam with tidy orange stitches. What question should be settled first?",
+        "context": "Mina’s note asks to wear “the fox with the funny green ear” again. The seam holds, but it looks uneven.",
+        "options": [
+          {
+            "id": "wish",
+            "label": "Does Mina want the recognisable green seam kept while the loose ear is secured?"
+          },
+          {
+            "id": "speed",
+            "label": "Can the volunteer make the orange stitches faster?"
+          },
+          {
+            "id": "display",
+            "label": "Would an orange ear look brighter in a photograph?"
+          }
+        ],
+        "correct": "wish",
+        "explanation": "The repair should answer Mina’s stated wish for the recognizable detail; neatness and speed do not resolve that wish.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs5",
+        "sectionId": "repair",
+        "kind": "order",
+        "prompt": "Arrange the desk actions into a handoff that respects both the ticket rule and Mina’s note.",
+        "context": "The hood is at the repair table. Desk policy requires checking its identity before altering the cloth. Mina’s note must guide the seam finish; the pickup shelf is for completed repairs.",
+        "items": [
+          {
+            "id": "confirm",
+            "label": "Check the blue ticket against the return sheet"
+          },
+          {
+            "id": "ask",
+            "label": "Read Mina’s note before deciding the seam finish"
+          },
+          {
+            "id": "mend",
+            "label": "Secure the loose ear while keeping the green stitching visible"
+          },
+          {
+            "id": "return",
+            "label": "Put ticket 42 at the borrowed-item pickup point"
+          }
+        ],
+        "explanation": "The identity check and reading Mina’s note may happen in either order. Both come before mending; the completed repair then goes to pickup.",
+        "sourceIds": [
+          "original"
+        ],
+        "precedence": [
+          [
+            "confirm",
+            "mend"
+          ],
+          [
+            "ask",
+            "mend"
+          ],
+          [
+            "mend",
+            "return"
+          ]
+        ]
+      },
+      {
+        "id": "fs6",
+        "sectionId": "reunion",
+        "kind": "choice",
+        "prompt": "A visitor saw a fox hood on the free rail. Which two records distinguish that sighting from Mina’s hood?",
+        "context": "The desk handled two fox hoods tonight. One was donated on orange ticket 18; Mina’s was borrowed on blue ticket 42. A repair slip later records the green-stitched left ear.",
+        "options": [
+          {
+            "id": "pair",
+            "label": "The free-rail log records 18, while the return sheet records Mina’s 42"
+          },
+          {
+            "id": "time",
+            "label": "The free-rail log is later than the return sheet, so it must concern the same hood"
+          },
+          {
+            "id": "look",
+            "label": "Both hoods have fox ears, so their tickets can be ignored"
+          }
+        ],
+        "correct": "pair",
+        "explanation": "The two ticket records separate the donated hood from Mina’s borrowed one. A shared fox shape is not an identity match.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs7",
+        "sectionId": "reunion",
+        "kind": "choice",
+        "prompt": "At pickup, Mina says the green seam is exactly what she hoped to see. Which desk message closes the mix-up accurately?",
+        "context": "Ticket 42 is repaired and ready on the borrowed-item pickup shelf. The volunteer has kept the crooked green seam.",
+        "options": [
+          {
+            "id": "message",
+            "label": "We found ticket 42 at repair, kept the ear you remembered, and have it ready for your walk"
+          },
+          {
+            "id": "apology",
+            "label": "A visitor took your hood, but we found a similar fox for you"
+          },
+          {
+            "id": "donation",
+            "label": "Your hood is now on the free rail if anyone wants it"
+          }
+        ],
+        "correct": "message",
+        "explanation": "The message names the documented move, preserves Mina’s desired detail, and returns the borrowed hood without inventing blame.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs8",
+        "sectionId": "reunion",
+        "kind": "choice",
+        "prompt": "Choose the final line to read aloud as Mina lifts the fox hood from the pickup shelf.",
+        "context": "The hood is back with its wearer. The little crooked seam survived the repair.",
+        "options": [
+          {
+            "id": "ear",
+            "label": "The crooked ear made it feel like my fox again"
+          },
+          {
+            "id": "ticket",
+            "label": "Ticket 42 got home in time for the walk"
+          },
+          {
+            "id": "hands",
+            "label": "A few careful hands kept an old favourite in the story"
+          }
+        ],
+        "explanation": "Any line can finish this original scene; the answer is an artistic choice and earns no accuracy point.",
+        "sourceIds": [
+          "original"
+        ],
+        "unscored": true
+      }
+    ]
   }
 ]

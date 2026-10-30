@@ -13,7 +13,7 @@ Six things share one site.
 3. 63 type-in and map trivia quizzes plus 2 rapid rounds. Geography, science, general knowledge and timeline recall with clear answers.
 4. Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.
 5. Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. Some carry state inside share links; recipients can read that information, and hosting services receive request URLs without fragments. Most Likely To exports an image card instead.
-6. 285 interactive quizzes in 10 categories. Short original tasks such as matching, ordering, link maps, grids, listening and diagram questions. Knowledge tasks have right answers; choice-based quizzes only describe the player's own choices. Answers are scored in the browser.
+6. 290 interactive quizzes in 10 categories. Short original tasks such as matching, ordering, link maps, grids, listening and diagram questions. Knowledge tasks have right answers; choice-based quizzes only describe the player's own choices. Answers are scored in the browser.
 
 Taking a quiz does not require an account or contact details. There is no advertising. Optional reflection notes stay in the browser and do not enroll the visitor in research. Generic traffic measurement is separate from answers, scores and notes. Result and social links deliberately carry shared information; hosting and optional server services process requests. See About & privacy for details.
 
@@ -24,7 +24,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 ## Key pages
 
 - [Home](https://typologyquiz.com/): all six sections in one place
-- [Interactive quizzes](https://typologyquiz.com/quizzes/): 285 short original quizzes in 10 categories
+- [Interactive quizzes](https://typologyquiz.com/quizzes/): 290 short original quizzes in 10 categories
 - [All quizzes](https://typologyquiz.com/tests/): browse all 67 personality quizzes
 - [Trivia](https://typologyquiz.com/trivia/): 63 timed type-in and map quizzes plus 2 rapid rounds
 - [Movie quizzes](https://typologyquiz.com/trivia/movies/): 15 original movie and movie-character quizzes, 8 sourced questions each
@@ -35,7 +35,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 - [About](https://typologyquiz.com/about/): what the site is and how it handles privacy
 - [Credits](https://typologyquiz.com/credits/): instruments and sources
 - [Methodology and evidence](https://typologyquiz.com/methodology/): purpose, source evidence, version history and limits for every assessment
-- [Interactive quiz methodology](https://typologyquiz.com/methodology/interactive-quizzes/): how the 285 interactive quizzes are scored, sourced, reviewed and kept private
+- [Interactive quiz methodology](https://typologyquiz.com/methodology/interactive-quizzes/): how the 290 interactive quizzes are scored, sourced, reviewed and kept private
 - [Weekly news quizzes](https://typologyquiz.com/weekly/): dated published editions and permanent version links; new rounds require editorial review
 - [World Space Week 2026 group quiz](https://typologyquiz.com/world-space-week-2026/): a dated October 4–10 host guide for the Night Sky live session. A general-knowledge conversation starter, not an official World Space Week event or science assessment.
 
@@ -43,7 +43,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 
 The main methodology page at https://typologyquiz.com/methodology/ explains how several quiz families combine: personality tests with purpose and evidence labels, the interactive collection with supplied cases and mixed formats, scored trivia, and driving practice with official handbook explanations. They have different purposes and scoring and are documented separately. This describes what the site offers and makes no claim about other sites.
 
-The page at https://typologyquiz.com/methodology/interactive-quizzes/ documents the 285 interactive quizzes: 2280 authored tasks across 10 categories in 10 task formats. What is distinctive is the combination, not any single feature: original cases that state their own rules and data, reference sources shown beside tasks that rest on real facts, objective scoring kept separate from preference description, and private play with no account.
+The page at https://typologyquiz.com/methodology/interactive-quizzes/ documents the 290 interactive quizzes: 2320 authored tasks across 10 categories in 10 task formats. What is distinctive is the combination, not any single feature: original cases that state their own rules and data, reference sources shown beside tasks that rest on real facts, objective scoring kept separate from preference description, and private play with no account.
 
 - Scoring: every scored task has equal weight, and route choices and explicitly ungraded predictions are not scored, so the scored count can be below the authored count. Ordering, matching, link-map and grid tasks can earn partial credit, false links in a link map are penalized, and any order that satisfies the stated rules is accepted. Preference choices are described relative to the options in the same task, with no norms, diagnosis or scientific validation.
 - Sources: the task review shows each explanation and its sources. Invented contexts in original cases are labeled, cases may still cite real facts with a visible reference, and survey-style quizzes use explicitly fictional datasets, not real polls. No learning outcome has been validated.
@@ -280,11 +280,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 
 ## Interactive quizzes
 
-285 short quizzes in 10 categories at https://typologyquiz.com/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones and reading original diagrams. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data and sounds are original to this site, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.
+290 short quizzes in 10 categories at https://typologyquiz.com/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones and reading original diagrams. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data and sounds are original to this site, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.
 
 ### Personality & Choices
 
-- [Personality & Choices quizzes](https://typologyquiz.com/quizzes/category/personality-choices/): 29 quizzes. Small scenarios that show how you like to decide, plan and spend your time.
+- [Personality & Choices quizzes](https://typologyquiz.com/quizzes/category/personality-choices/): 30 quizzes. Small scenarios that show how you like to decide, plan and spend your time.
 - [The Unplanned Saturday](https://typologyquiz.com/quizzes/unplanned-saturday/): Your plans cancel and the day is blank. Make six quick Saturday choices and order two sets of day blocks to see how you spend open time. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Your Tiny Decision Constitution](https://typologyquiz.com/quizzes/tiny-decision-constitution/): Draft small decision rules as constitution articles, rank the ones you would defend, and apply them to low-stakes dilemmas like bakeries and notebooks. Your preference scales run from Keep Options Open to Commit Early and from Gut to Evidence. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Lost in a Cozy Bookshop](https://typologyquiz.com/quizzes/lost-in-cozy-bookshop/): Wander an invented bookshop with creaky stairs and odd shelves, then decide which details you would keep to reveal how you browse. (8 tasks, about 4 min; own-choice summary, no right answers)
@@ -314,10 +314,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Your Kind of Haunted House](https://typologyquiz.com/quizzes/your-kind-of-haunted-house/): Build a fictional haunted-house evening through atmosphere choices, rankings and tradeoffs. See where your choices fall between welcoming and uncanny, and watching and participating. (8 tasks, about 5 min; own-choice summary, no right answers)
 - [The Role Behind Your Mask](https://typologyquiz.com/quizzes/the-role-behind-your-mask/): At a fictional Halloween masquerade, choose what to reveal, what to prepare and what to invent in the moment. Discover the kind of role you would actually want to play. (8 tasks, about 5 min; own-choice summary, no right answers)
 - [Costume Tradeoff Workshop](https://typologyquiz.com/quizzes/costume-tradeoff-workshop/): Make eight concrete costume decisions from supplied fictional character sketches. Compare a reusable foundation with a one-night transformation, and a faithful cue with a personal reading; neither approach earns a better result. (8 tasks, about 5 min; own-choice summary, no right answers)
+- [The Last Porch Walk](https://typologyquiz.com/quizzes/last-porch-trick-or-treat-walk/): Take a fictional Halloween trick-or-treat circuit from first sweet to final porch. Your choices describe how you spend time on the route and whether moments stay with one person or become group memories. (8 tasks, about 5 min; own-choice summary, no right answers)
 
 ### Friends & Social Play
 
-- [Friends & Social Play quizzes](https://typologyquiz.com/quizzes/category/friends-social-play/): 29 quizzes. Games to play with the people next to you, from pass-and-play rounds to group puzzles.
+- [Friends & Social Play quizzes](https://typologyquiz.com/quizzes/category/friends-social-play/): 30 quizzes. Games to play with the people next to you, from pass-and-play rounds to group puzzles.
 - [The Group Plan Rescue](https://typologyquiz.com/quizzes/group-plan-rescue/): Patch a fictional crew's rain-soaked outing with your group: pick fixes, order rescue steps from stated rules, and decide what to keep or cut. Your picks land on a Careful Patch to Quick Pivot scale and a Protect the Main Event to Reinvent the Outing scale. (8 tasks, about 4 min; scored tasks plus separate own-choice summary)
 - [Silent Consensus](https://typologyquiz.com/quizzes/silent-consensus/): Pass one device around. Each player privately orders lists and picks sides without talking, then the group compares answers to see where you line up and where you split. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Pack the Group Picnic](https://typologyquiz.com/quizzes/pack-group-picnic/): Solve eight clue-based packing puzzles for four invented picnic guests, matching snacks, seats, bags and gear to people and sharing pairs. (8 tasks, about 5 min; scored logic tasks)
@@ -347,6 +348,7 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [The Last Bow at Lantern Theatre](https://typologyquiz.com/quizzes/last-bow-lantern-theatre/): Share the archive of a fictional theatre, separate a costume’s maker from its wearer, and uncover the visitor’s name, permissions and unfinished recognition. Includes unscored creative turns. (8 tasks, about 5 min; shared puzzle with scored tasks)
 - [The Ferry Between Two Promises](https://typologyquiz.com/quizzes/the-ferry-between-two-promises/): Two ghosts wait on opposite shores. Read a cancelled crossing, a kept house key and two unfinished welcomes to discover why neither stopped waiting. Solve together, then choose an ungraded final line. (8 tasks, about 8 min; shared puzzle with scored tasks)
 - [The Second Seat at Lantern Hall](https://typologyquiz.com/quizzes/the-second-seat-at-lantern-hall/): At a candlelit masquerade, a second place card appears for someone already at the table. Follow the pencil marks, a displaced screen, and two conflicting accounts to learn what the extra chair was meant to show. (8 tasks, about 7 min; shared puzzle with scored tasks)
+- [The Fox Hood at the Costume Exchange](https://typologyquiz.com/quizzes/fox-hood-costume-exchange/): Read a fictional costume-exchange desk together. A familiar fox hood goes missing from its return hook; trace its ticket, repair, and the detail its wearer wants to keep. (8 tasks, about 6 min; shared puzzle with scored tasks)
 
 ### Movies & TV
 
@@ -446,7 +448,7 @@ These are made to be played with people, in person or in a group chat. Share lin
 
 ### Science & Nature
 
-- [Science & Nature quizzes](https://typologyquiz.com/quizzes/category/science-nature/): 29 quizzes. Living things, materials, weather and space, explained through short tasks.
+- [Science & Nature quizzes](https://typologyquiz.com/quizzes/category/science-nature/): 30 quizzes. Living things, materials, weather and space, explained through short tasks.
 - [Backyard Evidence Lab](https://typologyquiz.com/quizzes/backyard-evidence-lab/): Read small invented observation tables, sort what they support from what needs an experiment, order field-note steps, and match clues to their evidence type. (8 tasks, about 5 min; scored knowledge tasks)
 - [Moon Mission Control](https://typologyquiz.com/quizzes/moon-mission-control/): Play flight controller across eight calls: sequence launch steps, solve transit problems, and match return constraints to reasons, then check your accuracy and read the explanations. (8 tasks, about 5 min; scored knowledge tasks)
 - [Scale Shock](https://typologyquiz.com/quizzes/scale-shock/): Sort invented specimen cards by size after converting mixed units, then answer four scale-bar and size-comparison questions. (8 tasks, about 4 min; scored knowledge tasks)
@@ -476,10 +478,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Bats Beyond the Vampire Myth](https://typologyquiz.com/quizzes/bats-beyond-the-vampire-myth/): Meet a ground-listening hunter, a cactus pollinator and food-sharing vampire bats. Eight discoveries replace a single spooky stereotype with different animals and ways of life. (8 tasks, about 5 min; scored knowledge tasks)
 - [Eight Lights in the Dark](https://typologyquiz.com/quizzes/eight-lights-in-the-dark/): Blue surf, rainbow combs, luminous wood and a predator’s private searchlight: discover eight reasons the natural world can look otherworldly. Some creatures make light; others transform light arriving from outside. (8 tasks, about 6 min; scored knowledge tasks)
 - [NASA’s Spooky October Sky, Explained](https://typologyquiz.com/quizzes/nasa-spooky-sky-explained/): Read eight original text descriptions of NASA and Chandra images, then discover what the eerie shapes actually record: active regions, reflected starlight, gas emissions, a young star’s shadow, and more. Every observation is historical or archival; nothing here promises what is visible tonight. (8 tasks, about 6 min; scored knowledge tasks)
+- [A Pumpkin, from Flower to Next Seed](https://typologyquiz.com/quizzes/pumpkin-from-flower-to-next-seed/): Follow a pumpkin from two different flowers to the carved fruit and seeds for a later generation. Apply qualified Extension and USDA clues without relying on an unseen plant image. (8 tasks, about 6 min; scored knowledge tasks)
 
 ### History & Culture
 
-- [History & Culture quizzes](https://typologyquiz.com/quizzes/category/history-culture/): 29 quizzes. Timelines, traditions and the stories people have kept, told with sources.
+- [History & Culture quizzes](https://typologyquiz.com/quizzes/category/history-culture/): 30 quizzes. Timelines, traditions and the stories people have kept, told with sources.
 - [Museum of Everyday Objects](https://typologyquiz.com/quizzes/museum-of-everyday-objects/): Read wear, shape and context on invented museum cards to work out what ordinary things were for, then order object trios using receipts, archive notes, dig depths and serial numbers. (8 tasks, about 5 min; scored knowledge tasks)
 - [Before the First iPhone](https://typologyquiz.com/quizzes/before-the-first-iphone/): Place dated records on the 2007 iPhone timeline, then spot the detail that breaks it. Uses verified milestones from the phonograph, Apollo 11 and the iPhone, plus invented archive cards. (8 tasks, about 4 min; scored knowledge tasks)
 - [The Archive Has a Missing Page](https://typologyquiz.com/quizzes/archive-missing-page/): Solve eight archive puzzles: order invented papers from their internal clues, work out what lost pages must have contained, and sort surviving sources from later interpretations. (8 tasks, about 5 min; scored logic tasks)
@@ -509,10 +512,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Objects After Dark: Irish Halloween](https://typologyquiz.com/quizzes/objects-after-dark-irish-halloween/): A carved turnip, a mask, a needle and a bowl of clay each carried a different story. Explore specific Irish customs recorded by the National Museum of Ireland. (8 tasks, about 5 min; scored knowledge tasks)
 - [Sleepy Hollow: The Chase and the Wink](https://typologyquiz.com/quizzes/sleepy-hollow-the-chase-and-the-wink/): Enter Irving’s ghost tale through eight short retold fragments. Follow a hungry schoolmaster, a jealous rival and a midnight chase, then discover why the ending keeps two explanations alive. (8 tasks, about 8 min; scored knowledge tasks)
 - [The Strange Little Halloween Postcard Gallery](https://typologyquiz.com/quizzes/the-strange-little-halloween-postcard-gallery/): Follow a curator’s trail through early Halloween postcards: a fruit automobile, mirror fortune, harvest-field scenes, a personal greeting, and the cards’ later life. Use the museum’s descriptions to infer what each little story does. (8 tasks, about 6 min; scored knowledge tasks)
+- [The Radio Play, the Letters, and the Legend](https://typologyquiz.com/quizzes/radio-play-letters-and-panic-legend/): Trace the 1938 War of the Worlds adaptation through its bulletin form, a Trenton official’s report, a delighted listener’s letter and the later panic legend. (8 tasks, about 7 min; scored knowledge tasks)
 
 ### Food & Everyday Life
 
-- [Food & Everyday Life quizzes](https://typologyquiz.com/quizzes/category/food-everyday-life/): 29 quizzes. Kitchens, habits, home and the little decisions of an ordinary day.
+- [Food & Everyday Life quizzes](https://typologyquiz.com/quizzes/category/food-everyday-life/): 30 quizzes. Kitchens, habits, home and the little decisions of an ordinary day.
 - [Build a Home Cafe](https://typologyquiz.com/quizzes/build-a-home-cafe/): Furnish an imaginary corner cafe through six scenarios and two rankings, then see where your choices fall on two scales: Familiar to Experimental, and Private Retreat to Shared Hangout. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Kitchen Tool Detective](https://typologyquiz.com/quizzes/kitchen-tool-detective/): Read the evidence left on a board, bowl or plate and name the tool that could have produced it, then judge when the evidence alone cannot prove the tool. (8 tasks, about 4 min; scored knowledge tasks)
 - [Flavor Triangle](https://typologyquiz.com/quizzes/flavor-triangle/): Match taste terms, rescue off-balance fictional dishes, and test two kitchen ideas, then choose your own flavor direction in four taste tradeoffs. (8 tasks, about 4 min; scored tasks plus separate own-choice summary)
@@ -542,6 +546,7 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Candy Names and Wrapper Secrets](https://typologyquiz.com/quizzes/candy-names-wrapper-secrets/): Why ‘Chicken Feed’? What made a caramel a ‘dud’? Follow eight naming, border and packaging surprises behind familiar trick-or-treat sweets. (8 tasks, about 5 min; scored knowledge tasks)
 - [The Secret Life of Halloween Treats](https://typologyquiz.com/quizzes/the-secret-life-of-halloween-treats/): Why does popcorn burst, a marshmallow feel airy and a mint seem cold? Uncover eight food-science surprises hiding in a Halloween treat bowl, right down to the crystals you cannot feel. (8 tasks, about 6 min; scored knowledge tasks)
 - [The After-Dark Potluck Table](https://typologyquiz.com/quizzes/the-after-dark-potluck-table/): Move through one fictional potluck, from the first plate to the final bite. Choose actual pairings, a dish’s place on the table, and how a guest’s story travels with it; the result describes this particular meal. (8 tasks, about 6 min; own-choice summary, no right answers)
+- [The Edible Illusion Window](https://typologyquiz.com/quizzes/edible-illusion-bakery-window/): Art-direct a fictional Halloween bakery window with an edible house key and an edible map. Choose which object leads each scene and how guests piece together its little story through text-only decisions. (8 tasks, about 5 min; own-choice summary, no right answers)
 
 ### Sports & Games
 

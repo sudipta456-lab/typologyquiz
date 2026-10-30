@@ -11386,5 +11386,291 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HC-30",
+    "slug": "radio-play-letters-and-panic-legend",
+    "categoryId": "history-culture",
+    "title": "The Radio Play, the Letters, and the Legend",
+    "description": "Trace the 1938 War of the Worlds adaptation through its bulletin form, a Trenton official’s report, a delighted listener’s letter and the later panic legend.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "air",
+        "title": "On the air"
+      },
+      {
+        "id": "mail",
+        "title": "In the FCC mail"
+      },
+      {
+        "id": "after",
+        "title": "The retelling"
+      }
+    ],
+    "sources": [
+      {
+        "id": "nara",
+        "label": "National Archives, FCC letters and retrospective account (2003)",
+        "kind": "reference",
+        "url": "https://www.archives.gov/publications/prologue/2003/fall/war-of-worlds.html"
+      },
+      {
+        "id": "letter",
+        "label": "National Archives, Paul Morton and J. V. Yaukey letters (2022 archival presentation)",
+        "kind": "reference",
+        "url": "https://text-message.blogs.archives.gov/2022/10/27/radio-broadcast-of-a-catastrophe-results-in-very-grave-and-serious-situation-in-trenton-new-jersey/"
+      },
+      {
+        "id": "newsreel",
+        "label": "National Archives, Universal Newsreel release sheet and collection note (2014)",
+        "kind": "reference",
+        "url": "https://unwritten-record.blogs.archives.gov/2014/10/27/this-week-in-universal-news-the-war-of-the-worlds-broadcast-1938/"
+      },
+      {
+        "id": "loc",
+        "label": "Library of Congress Magazine, Page from the Past (2016)",
+        "kind": "reference",
+        "url": "https://blogs.loc.gov/loc/2016/10/lcm-page-from-the-past-war-of-the-worlds/"
+      }
+    ],
+    "note": "Archival records and later interpretations are identified separately. No broadcast script, audio, or invented witness quotation is reproduced.",
+    "questions": [
+      {
+        "id": "hc1",
+        "sectionId": "air",
+        "kind": "choice",
+        "prompt": "A reader knows H. G. Wells’s novel begins in England. Which change helped the 1938 radio version feel local to its American audience?",
+        "context": "The broadcast was an adaptation of fiction, presented in a bulletin-like form.",
+        "options": [
+          {
+            "id": "jersey",
+            "label": "Its fictional landing was placed in New Jersey"
+          },
+          {
+            "id": "date",
+            "label": "It moved the story to a future century"
+          },
+          {
+            "id": "author",
+            "label": "It replaced the invasion with a real weather report"
+          }
+        ],
+        "correct": "jersey",
+        "explanation": "The adaptation placed the fictional action in New Jersey. That was a location change, not evidence that an invasion happened.",
+        "sourceIds": [
+          "loc",
+          "newsreel"
+        ]
+      },
+      {
+        "id": "hc2",
+        "sectionId": "air",
+        "kind": "choice",
+        "prompt": "A listener joins after the programme’s opening. What feature could make the play harder to identify from one short excerpt?",
+        "context": "National Archives describes music interrupted by staged bulletins. CBS also identified the programme as drama during the broadcast.",
+        "options": [
+          {
+            "id": "form",
+            "label": "An interruption that uses the shape of a news bulletin"
+          },
+          {
+            "id": "music",
+            "label": "A complete uninterrupted music concert"
+          },
+          {
+            "id": "silence",
+            "label": "A long period with no speech or identification"
+          }
+        ],
+        "correct": "form",
+        "explanation": "A late arrival could hear a staged bulletin without the entire frame. The source also records dramatic identifications, so the risk was situational.",
+        "sourceIds": [
+          "nara"
+        ]
+      },
+      {
+        "id": "hc3",
+        "sectionId": "air",
+        "kind": "choice",
+        "prompt": "One listener worries the bulletin might be real. Which check would test the story with information independent of that performance?",
+        "context": "The National Archives describes some listeners checking other stations or listings after hearing the play.",
+        "options": [
+          {
+            "id": "listing",
+            "label": "Look for the scheduled programme in a radio listing"
+          },
+          {
+            "id": "repeat",
+            "label": "Listen for the same bulletin to be repeated by the same station"
+          },
+          {
+            "id": "friend",
+            "label": "Ask a friend who tuned in at the same point what they heard"
+          }
+        ],
+        "correct": "listing",
+        "explanation": "A listing gives a separate account of what programme was scheduled; replaying or sharing the same excerpt only confirms what was heard.",
+        "sourceIds": [
+          "nara"
+        ]
+      },
+      {
+        "id": "hc4",
+        "sectionId": "mail",
+        "kind": "choice",
+        "prompt": "What concrete local effect did Trenton city manager Paul Morton report to the FCC?",
+        "context": "His next-day letter says Trenton police received about 2,000 calls within two hours. Consider the immediate effect on a city service, not a national audience count.",
+        "options": [
+          {
+            "id": "phones",
+            "label": "Heavy calls strained the police department’s telephone capacity"
+          },
+          {
+            "id": "patrol",
+            "label": "Patrol cars were unable to travel through the city centre"
+          },
+          {
+            "id": "hospital",
+            "label": "Hospital waiting rooms filled with broadcast listeners"
+          }
+        ],
+        "correct": "phones",
+        "explanation": "Morton described pressure on Trenton police communications. The other consequences are not reported in this letter.",
+        "sourceIds": [
+          "letter"
+        ]
+      },
+      {
+        "id": "hc5",
+        "sectionId": "mail",
+        "kind": "match",
+        "prompt": "Match each surviving item to the narrow question it can answer directly.",
+        "context": "Morton and Yaukey wrote individual letters to the FCC; Universal supplied a publicity sheet for a newsreel. These are different record types.",
+        "left": [
+          {
+            "id": "morton",
+            "label": "Morton’s city-manager letter"
+          },
+          {
+            "id": "yaukey",
+            "label": "Yaukey’s listener letter"
+          },
+          {
+            "id": "universal",
+            "label": "Universal’s release sheet"
+          }
+        ],
+        "right": [
+          {
+            "id": "capacity",
+            "label": "What happened to Trenton police phone lines?"
+          },
+          {
+            "id": "enjoyment",
+            "label": "Could at least one listener enjoy the play?"
+          },
+          {
+            "id": "promotion",
+            "label": "How was a broad panic story advertised?"
+          }
+        ],
+        "pairs": {
+          "morton": "capacity",
+          "yaukey": "enjoyment",
+          "universal": "promotion"
+        },
+        "explanation": "Each record supports a different specific claim. None is a representative count of the national audience.",
+        "sourceIds": [
+          "letter",
+          "newsreel"
+        ]
+      },
+      {
+        "id": "hc6",
+        "sectionId": "mail",
+        "kind": "choice",
+        "prompt": "Morton’s complaint and Yaukey’s appreciative letter both survive. What should an exhibit label do with them?",
+        "context": "The two writers contacted the FCC themselves; the archive does not treat this pair as a representative sample.",
+        "options": [
+          {
+            "id": "both",
+            "label": "Describe both reactions and leave their national frequencies uncounted"
+          },
+          {
+            "id": "morton",
+            "label": "Use Morton’s letter to estimate how many listeners panicked nationally"
+          },
+          {
+            "id": "yaukey",
+            "label": "Use Yaukey’s letter to estimate how many listeners were calm nationally"
+          }
+        ],
+        "correct": "both",
+        "explanation": "Both letters are real individual evidence. Self-selected correspondence cannot yield national response rates in either direction.",
+        "sourceIds": [
+          "letter",
+          "nara"
+        ]
+      },
+      {
+        "id": "hc7",
+        "sectionId": "after",
+        "kind": "choice",
+        "prompt": "The Universal release sheet uses sweeping panic language. What does the sheet establish even if the surviving newsreel is incomplete?",
+        "context": "The National Archives reproduces the sheet but notes limits of the surviving film record.",
+        "options": [
+          {
+            "id": "publicity",
+            "label": "The publicist framed the event as a national sensation"
+          },
+          {
+            "id": "sound",
+            "label": "The exact words of the missing soundtrack"
+          },
+          {
+            "id": "count",
+            "label": "A measured number of people frightened by the programme"
+          }
+        ],
+        "correct": "publicity",
+        "explanation": "A release sheet documents promotion of a narrative. It cannot recover lost audio or measure listeners’ reactions.",
+        "sourceIds": [
+          "newsreel"
+        ]
+      },
+      {
+        "id": "hc8",
+        "sectionId": "after",
+        "kind": "choice",
+        "prompt": "You have room for one final museum caption. Which one keeps the layers of evidence in their proper order?",
+        "context": "The 1938 play, individual FCC letters, the release sheet and later Library of Congress account each serve a different purpose.",
+        "options": [
+          {
+            "id": "layers",
+            "label": "A fictional broadcast prompted varied recorded responses; publicity and later retellings enlarged a panic story"
+          },
+          {
+            "id": "survey",
+            "label": "The two FCC letters show an even national split between fear and enjoyment, later confirmed by the newsreel"
+          },
+          {
+            "id": "sheet",
+            "label": "The newsreel sheet is a first-hand count of public fear; the letters are only later retellings"
+          }
+        ],
+        "correct": "layers",
+        "explanation": "The caption separates the programme, individual reactions and the wider story told about them. Two letters cannot measure a national split.",
+        "sourceIds": [
+          "nara",
+          "letter",
+          "newsreel",
+          "loc"
+        ]
+      }
+    ]
   }
 ]

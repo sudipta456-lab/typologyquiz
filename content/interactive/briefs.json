@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 29,
+      "count": 30,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 29,
+      "count": 30,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 29,
+      "count": 30,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 29,
+      "count": 30,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 29,
+      "count": 30,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -6149,6 +6149,116 @@
       "category": "Logic & Wordplay",
       "category_code": "LW",
       "wave": "daily-2026-10-29",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "PC-30",
+      "title": "The Last Porch Walk",
+      "slug": "last-porch-trick-or-treat-walk",
+      "kind": "preference",
+      "hook": "Walk an original trick-or-treat circuit where treats, a changed invitation, a route tip and the last porch shape the night.",
+      "rounds": [
+        "2 tasks: The first sweets",
+        "4 tasks: A changing route",
+        "2 tasks: The way home"
+      ],
+      "seed": "At the first porch, does a wrapper maze become a stop or start a wider loop?",
+      "payoff": "A two-axis account of the circuit and the personal or group-made moments you chose.",
+      "audience": "North American Halloween-season teens and adults who enjoy small, low-stakes choices.",
+      "evidence": "Revised October 30 Halloween queue; primary sources support only the cited quiz facts. Seasonal Google search posts support timing context only, never quiz engagement.",
+      "dependency": "preference",
+      "production_note": "Text-only original fiction; eight descriptive tasks, four per neutral axis. No saved memento, moral grade, or trait claim.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-10-30",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "FS-30",
+      "title": "The Fox Hood at the Costume Exchange",
+      "slug": "fox-hood-costume-exchange",
+      "kind": "cooperative",
+      "hook": "At a costume exchange, trace a borrowed fox hood through a repair and return it with the familiar ear Mina wanted.",
+      "rounds": [
+        "2 tasks: The return hook",
+        "3 tasks: A familiar ear",
+        "3 tasks: The handoff"
+      ],
+      "seed": "Blue ticket 42 is gone from the return hook; does the record point to a donation or a repair?",
+      "payoff": "The hood returns in time for Mina’s walk, with its crooked green seam preserved.",
+      "audience": "Friends or solo players who enjoy a short, read-aloud Halloween mystery.",
+      "evidence": "Revised October 30 Halloween queue; primary sources support only the cited quiz facts. Seasonal Google search posts support timing context only, never quiz engagement.",
+      "dependency": "social",
+      "production_note": "One shared screen or read-aloud attempt; seven fixed deductions and one ungraded ending. No live group session or branch.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-10-30",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "SN-30",
+      "title": "A Pumpkin, from Flower to Next Seed",
+      "slug": "pumpkin-from-flower-to-next-seed",
+      "kind": "knowledge",
+      "hook": "Follow a pumpkin from flower structure through pollination, a carved fruit and saved seeds to careful variety labels.",
+      "rounds": [
+        "4 tasks: Before the fruit",
+        "2 tasks: The carved fruit",
+        "2 tasks: What a label can tell you"
+      ],
+      "seed": "Which flower structure can become the carved fruit?",
+      "payoff": "A grounded way to separate the present fruit from later seed-grown plants and to read colour and species claims carefully.",
+      "audience": "Curious teens and adults; botanical terms are introduced in plain language.",
+      "evidence": "Revised October 30 Halloween queue; primary sources support only the cited quiz facts. Seasonal Google search posts support timing context only, never quiz engagement.",
+      "dependency": "base",
+      "production_note": "Text-only botanical cases; no hotspot diagram, photograph, or garden diagnosis. Eight keyed tasks.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-10-30",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "HC-30",
+      "title": "The Radio Play, the Letters, and the Legend",
+      "slug": "radio-play-letters-and-panic-legend",
+      "kind": "knowledge",
+      "hook": "Follow the 1938 radio adaptation through a listener check, FCC letters and the promotional story that outgrew those records.",
+      "rounds": [
+        "3 tasks: On the air",
+        "3 tasks: In the FCC mail",
+        "2 tasks: The retelling"
+      ],
+      "seed": "How did the fictional invasion move from the English novel to New Jersey radio?",
+      "payoff": "An exhibit-ready account that separates local reported effects, varied letters and later panic legend.",
+      "audience": "History and culture readers who want a short story with archival evidence, not a current-news quiz.",
+      "evidence": "Revised October 30 Halloween queue; primary sources support only the cited quiz facts. Seasonal Google search posts support timing context only, never quiz engagement.",
+      "dependency": "base",
+      "production_note": "Eight keyed tasks; contemporaneous letters, publicity and later retrospectives remain distinct. No script or audio copied.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-10-30",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "FE-30",
+      "title": "The Edible Illusion Window",
+      "slug": "edible-illusion-bakery-window",
+      "kind": "preference",
+      "hook": "Art-direct an imaginary edible key and map: choose the window’s objects and whether written passages or food shapes carry their story.",
+      "rounds": [
+        "3 tasks: The objects in the window",
+        "3 tasks: When one is cut",
+        "2 tasks: The last clue"
+      ],
+      "seed": "Should the first pastry resemble a household key or an imaginary map?",
+      "payoff": "A descriptive account of an everyday-disguise or storybook window, with words or edible forms carrying its clues.",
+      "audience": "Adults and teens who enjoy imaginative food presentation without a recipe or shopping problem.",
+      "evidence": "Revised October 30 Halloween queue; primary sources support only the cited quiz facts. Seasonal Google search posts support timing context only, never quiz engagement.",
+      "dependency": "preference",
+      "production_note": "Text-only original food-art choices. Four contributions per neutral axis; no flavor rating, guest-versus-host control scale, image, or generated ending.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-10-30",
       "evidence_class": "seasonal"
     }
   ]
