@@ -18,7 +18,7 @@ After the Grok quota blocked this date’s authoring/review, the owner explicitl
 
 ## Publication progress
 
-October23:five verified live (260 total). October24:five (265). October25:five (270). October26:five (275). October27:zero; expired plans are not backfilled. October28:five (280). October29:five researched and independently reviewed additions verified live (285 interactive quizzes/2,280tasks); see [October29 release](daily-quizzes/2026-10-29.md). October30–31 retain10 future treatments, not completed quizzes. The queue has25 published revised treatments plus the five historical October23 quizzes,10 future plans and5 expired unpublished plans. The original calendar remains historical; the approved queue governs revisions. No extra batch or missed-day backfill.
+October23:five verified live (260 total). October24:five (265). October25:five (270). October26:five (275). October27:zero; expired plans are not backfilled. October28:five (280). October29:five (285). October30:five researched, independently reviewed additions verified live (290 interactive quizzes/2,320 tasks); see [October30 release](daily-quizzes/2026-10-30.md). October31 retains five future treatments, not completed quizzes. The queue has30 published revised treatments plus the five historical October23 quizzes, five future plans and five expired unpublished plans. The original calendar remains historical; the approved queue governs revisions. No extra batch or missed-day backfill.
 
 ## Evidence and positioning
 

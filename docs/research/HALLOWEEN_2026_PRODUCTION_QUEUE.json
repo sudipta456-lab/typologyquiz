@@ -1,14 +1,14 @@
 {
   "approvedLocalDate": "2026-10-23",
   "approval": "Owner: good ... go with ur new recomendation",
-  "status": "approved-editorial-treatment-queue-twenty-five-published-10-future-5-expired-unpublished",
+  "status": "approved-editorial-treatment-queue-thirty-published-5-future-5-expired-unpublished",
   "authority": "These reviewed treatments govern October24–31 authoring. The original calendar remains historical; do not implement a weak original hook unchanged.",
   "provenance": "Mechanical adoption of the completed Grok Expert audit and coordinator checks; no new Grok inference, creative draft or independent release review occurred during adoption.",
   "auditRecord": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT.md",
   "immutableAuditRows": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT_ROWS.json",
-  "futureBriefCount": 10,
-  "requiresSubstantialRevision": 5,
-  "strongerStartingBriefsNotCleared": 5,
+  "futureBriefCount": 5,
+  "requiresSubstantialRevision": 3,
+  "strongerStartingBriefsNotCleared": 2,
   "dailyLimit": 5,
   "timezone": "America/Edmonton",
   "noBackfill": true,
@@ -457,9 +457,14 @@
       "originalTitleForTraceability": "Trick-or-Treat Tradeoffs",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Stronger value/preferences premise. Make choices consequential and nuanced; no moral ranking or psychometric claim.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "PC-30",
+      "slug": "last-porch-trick-or-treat-walk",
+      "publishedTitle": "The Last Porch Walk",
+      "sourceCommit": "a66bafa948e72be3d57932f843e91758fbc99186",
+      "deploymentVersion": "07a40bc4-e832-44cc-aca0-291e6118e71e"
     },
     {
       "localDate": "2026-10-30",
@@ -467,9 +472,14 @@
       "originalTitleForTraceability": "Costume Swap Constraint Network",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Rebuild the social experience beyond compatibility edges. Human motivations and a satisfying outcome must matter.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "FS-30",
+      "slug": "fox-hood-costume-exchange",
+      "publishedTitle": "The Fox Hood at the Costume Exchange",
+      "sourceCommit": "a66bafa948e72be3d57932f843e91758fbc99186",
+      "deploymentVersion": "07a40bc4-e832-44cc-aca0-291e6118e71e"
     },
     {
       "localDate": "2026-10-30",
@@ -477,9 +487,14 @@
       "originalTitleForTraceability": "Pumpkin Botany Beneath the Mask",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Strong natural-history potential with precise botanical facts and original diagrams. Avoid unsupported species keys.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "SN-30",
+      "slug": "pumpkin-from-flower-to-next-seed",
+      "publishedTitle": "A Pumpkin, from Flower to Next Seed",
+      "sourceCommit": "a66bafa948e72be3d57932f843e91758fbc99186",
+      "deploymentVersion": "07a40bc4-e832-44cc-aca0-291e6118e71e"
     },
     {
       "localDate": "2026-10-30",
@@ -487,9 +502,14 @@
       "originalTitleForTraceability": "Folklore Claim vs Evidence",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Strong potential for revealing how a folklore claim changed across records. Do not reduce every item to the same quote-versus-inference label.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "HC-30",
+      "slug": "radio-play-letters-and-panic-legend",
+      "publishedTitle": "The Radio Play, the Letters, and the Legend",
+      "sourceCommit": "a66bafa948e72be3d57932f843e91758fbc99186",
+      "deploymentVersion": "07a40bc4-e832-44cc-aca0-291e6118e71e"
     },
     {
       "localDate": "2026-10-30",
@@ -497,9 +517,14 @@
       "originalTitleForTraceability": "The Midnight Candy Restock",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace budget/stock optimization with a distinct seasonal food premise or meaningful social choice.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "FE-30",
+      "slug": "edible-illusion-bakery-window",
+      "publishedTitle": "The Edible Illusion Window",
+      "sourceCommit": "a66bafa948e72be3d57932f843e91758fbc99186",
+      "deploymentVersion": "07a40bc4-e832-44cc-aca0-291e6118e71e"
     },
     {
       "localDate": "2026-10-31",
@@ -572,10 +597,10 @@
     "independentCreativeReview": "not performed; Grok quota blocks scripts and fresh review"
   },
   "initialApprovedFutureBriefCount": 40,
-  "publishedFromQueue": 25,
-  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-29-release.json",
+  "publishedFromQueue": 30,
+  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-30-release.json",
   "existingPublishedQuizzesUnchanged": true,
-  "unpublishedBriefCount": 15,
+  "unpublishedBriefCount": 10,
   "expiredUnpublishedBriefCount": 5,
   "expiredRequiresSubstantialRevision": 4,
   "expiredStrongerStartingBriefs": 1

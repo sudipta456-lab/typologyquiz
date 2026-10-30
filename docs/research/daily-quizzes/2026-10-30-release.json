@@ -1,0 +1,173 @@
+{
+  "localDate": "2026-10-30",
+  "timezone": "America/Edmonton",
+  "published": 5,
+  "shortfall": 0,
+  "interactiveCollection": 290,
+  "authoredTasks": 2320,
+  "sourceCommit": "a66bafa948e72be3d57932f843e91758fbc99186",
+  "packetSHA256": "14fd7994365fde0449f0ec93c53d1c2036e39d50bc995479d7a7959c547790ec",
+  "deployment": {
+    "id": "ae9cde1b-c496-4d9e-81f0-3cb29ace52a1",
+    "created_on": "2026-10-30T14:13:06.061026Z",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "07a40bc4-e832-44cc-aca0-291e6118e71e",
+        "percentage": 100
+      }
+    ]
+  },
+  "deployedAtLocal": "2026-10-30T08:13:06.061026-06:00",
+  "quizzes": [
+    {
+      "id": "PC-30",
+      "slug": "last-porch-trick-or-treat-walk",
+      "title": "The Last Porch Walk",
+      "categoryId": "personality-choices",
+      "url": "https://typologyquiz.com/quizzes/last-porch-trick-or-treat-walk/",
+      "authoredTasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "rank",
+        "slider"
+      ]
+    },
+    {
+      "id": "FS-30",
+      "slug": "fox-hood-costume-exchange",
+      "title": "The Fox Hood at the Costume Exchange",
+      "categoryId": "friends-social-play",
+      "url": "https://typologyquiz.com/quizzes/fox-hood-costume-exchange/",
+      "authoredTasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ]
+    },
+    {
+      "id": "SN-30",
+      "slug": "pumpkin-from-flower-to-next-seed",
+      "title": "A Pumpkin, from Flower to Next Seed",
+      "categoryId": "science-nature",
+      "url": "https://typologyquiz.com/quizzes/pumpkin-from-flower-to-next-seed/",
+      "authoredTasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match"
+      ]
+    },
+    {
+      "id": "HC-30",
+      "slug": "radio-play-letters-and-panic-legend",
+      "title": "The Radio Play, the Letters, and the Legend",
+      "categoryId": "history-culture",
+      "url": "https://typologyquiz.com/quizzes/radio-play-letters-and-panic-legend/",
+      "authoredTasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match"
+      ]
+    },
+    {
+      "id": "FE-30",
+      "slug": "edible-illusion-bakery-window",
+      "title": "The Edible Illusion Window",
+      "categoryId": "food-everyday-life",
+      "url": "https://typologyquiz.com/quizzes/edible-illusion-bakery-window/",
+      "authoredTasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "rank",
+        "slider"
+      ]
+    }
+  ],
+  "content": {
+    "objectiveTasks": 23,
+    "preferenceTasks": 16,
+    "ungradedCreativeTasks": 1,
+    "noBackfill": true,
+    "oldQuizObjectsByteIdentical": 285,
+    "oldBriefObjectsByteIdentical": 285,
+    "historicalIdentityAndReleaseFixturesUnchanged": true,
+    "existingUIAndProgressBehaviorPreserved": true
+  },
+  "review": {
+    "record": "docs/research/daily-quizzes/2026-10-30-review.md",
+    "provider": "Authenticated GPT subscription; fresh independent sessions",
+    "result": "PASS via full reviews and exact-change closures",
+    "humanParticipantStudy": false
+  },
+  "verification": {
+    "fullTestsPassed": 311,
+    "failed": 0,
+    "skipped": 0,
+    "existingImageLintWarnings": 3,
+    "productionWrapperDryRun": "PASS",
+    "activeGAHTMLPages": 1610,
+    "canonicalSitemapURLs": 874,
+    "strictLiveResponses": 16,
+    "newQuizJSONLDAndMethodologyLinks": 5,
+    "newURLsInSitemapAndLLMS": 5,
+    "mobilePreviewTasks": 40,
+    "mobileViewport": "390x844",
+    "mobileHorizontalOverflows": 0,
+    "browserConsoleErrors": 0,
+    "savedProgressResume": "PC-30 task2 after reload",
+    "mobileScores": {
+      "FS-30": "7/7",
+      "SN-30": "8/8",
+      "HC-30": "8/8",
+      "PC-30": "descriptive; no accuracy",
+      "FE-30": "descriptive; no accuracy"
+    },
+    "precedencePermutationsChecked": 24,
+    "precedenceFullCreditOrders": 2,
+    "productionQuiz": "FS-30 7/7; eight tasks including ungraded finish",
+    "productionViewport": "390x844 play; 1280x720 result after reset",
+    "R2HandbookSample": {
+      "url": "https://typologyquiz.com/handbook/britishcolumbia/railway-stop-then-proceed.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    "workerFirstRoutingAndBindings": "unchanged",
+    "analytics": {
+      "overview": {
+        "property": "545477353",
+        "operatorQA": true,
+        "pageView": {
+          "route": "/quizzes/fox-hood-costume-exchange/",
+          "count": 1
+        },
+        "completeEventCount": 1,
+        "startEventCount": 1,
+        "otherActivityNotAttributed": true
+      },
+      "completion": {
+        "property": "545477353",
+        "event": "interactive_quiz_complete",
+        "parameter": "quiz_id",
+        "value": "FS-30",
+        "count": 1,
+        "operatorQA": true,
+        "interpretation": "Controlled release verification, not organic engagement. Other concurrent traffic not attributed.",
+        "observedAt": "2026-10-30T14:16:50.132Z"
+      },
+      "evidenceText": "FS-30\t1"
+    }
+  },
+  "researchLimits": "Seasonal North American search context and specific primary-source facts, not measured quiz engagement or ranking. Existing scorecard includes operator QA overlap. Fiction is labeled; preference results are descriptive.",
+  "memory": "Graphiti tools unavailable; typologyquiz/editorial-content fallback queued in ignored memory inbox.",
+  "future": "October31 five plans only; October27 shortfall not backfilled; evergreen rotation November1.",
+  "evidenceFolder": "work/daily-quizzes/2026-10-30",
+  "proofImage": "work/daily-quizzes/2026-10-30/production-fox-hood-results.jpg"
+}
