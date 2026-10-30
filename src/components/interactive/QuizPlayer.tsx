@@ -199,11 +199,25 @@ function MoveList({
   onConfirm: () => void;
 }) {
   const [note, setNote] = useState("");
+  const selects = useRef(new Map<string, HTMLSelectElement>());
+  const refocus = useRef<string | null>(null);
+  // Keyed rows are re-inserted when reordered, which can drop focus; put it back on the moved item.
+  useEffect(() => {
+    if (refocus.current === null) return;
+    const moved = selects.current.get(refocus.current);
+    if (moved) {
+      moved.focus({ preventScroll: true });
+      // The moved row can land off-screen on small viewports; keep the focused control visible.
+      moved.scrollIntoView({ behavior: "instant", block: "nearest", inline: "nearest" });
+    }
+    refocus.current = null;
+  });
   const move = (from: number, to: number) => {
-    if (to < 0 || to >= order.length) return;
+    if (to < 0 || to >= order.length || to === from) return;
     const next = [...order];
     const [item] = next.splice(from, 1);
     next.splice(to, 0, item);
+    refocus.current = item;
     onChange(next);
     setNote(`${labelOf(items, item)} moved to position ${to + 1} of ${order.length}.`);
   };
@@ -219,26 +233,27 @@ function MoveList({
                 {i + 1}
               </span>
               <span className={styles.moveLabel}>{label}</span>
-              <span className={styles.moveBtns}>
-                <button
-                  type="button"
-                  className={styles.iconBtn}
-                  disabled={i === 0}
-                  aria-label={`Move ${label} up, now position ${i + 1} of ${order.length}`}
-                  onClick={() => move(i, i - 1)}
+              <label className={styles.movePicker}>
+                <span className={styles.movePickerText} aria-hidden="true">
+                  Position
+                </span>
+                <select
+                  className={styles.moveSelect}
+                  aria-label={`Position for ${label}`}
+                  value={i + 1}
+                  ref={(el) => {
+                    if (el) selects.current.set(id, el);
+                    else selects.current.delete(id);
+                  }}
+                  onChange={(e) => move(i, Number(e.target.value) - 1)}
                 >
-                  <span aria-hidden="true">↑</span>
-                </button>
-                <button
-                  type="button"
-                  className={styles.iconBtn}
-                  disabled={i === order.length - 1}
-                  aria-label={`Move ${label} down, now position ${i + 1} of ${order.length}`}
-                  onClick={() => move(i, i + 1)}
-                >
-                  <span aria-hidden="true">↓</span>
-                </button>
-              </span>
+                  {order.map((_, n) => (
+                    <option key={n} value={n + 1}>
+                      {n + 1} of {order.length}
+                    </option>
+                  ))}
+                </select>
+              </label>
             </li>
           );
         })}
@@ -313,8 +328,8 @@ function TaskInput({
           confirmed={valid}
           hint={
             q.kind === "rank"
-              ? "Put the item you rate highest first. Use the arrow buttons."
-              : "Arrange the items in sequence using the arrow buttons."
+              ? "Put the item you rate highest first. Choose a position for each item, or choose “Keep this order” if it is already right."
+              : "Arrange the items in sequence. Choose a position for each item, or choose “Keep this order” if it is already right."
           }
           onChange={setDraft}
           onConfirm={() => setDraft(order)}
