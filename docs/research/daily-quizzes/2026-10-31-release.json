@@ -1,0 +1,189 @@
+{
+  "localDate": "2026-10-31",
+  "timezone": "America/Edmonton",
+  "status": "published-verified-live",
+  "published": 5,
+  "shortfall": 0,
+  "quizzes": [
+    {
+      "id": "MT-29",
+      "title": "The Ghost Broadcast: Who Hears the Sign-Off?",
+      "slug": "ghost-broadcast-shot-size-mystery",
+      "category": "movies-tv",
+      "url": "https://typologyquiz.com/quizzes/ghost-broadcast-shot-size-mystery/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ]
+    },
+    {
+      "id": "MU-29",
+      "title": "Design Your Radio Ghost",
+      "slug": "design-your-radio-ghost-sound-palette",
+      "category": "music",
+      "url": "https://typologyquiz.com/quizzes/design-your-radio-ghost-sound-palette/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "audio",
+        "choice",
+        "rank",
+        "slider"
+      ]
+    },
+    {
+      "id": "GT-29",
+      "title": "Ghost-Town Atlas: Four Afterlives",
+      "slug": "ghost-town-atlas-four-afterlives",
+      "category": "geography-travel",
+      "url": "https://typologyquiz.com/quizzes/ghost-town-atlas-four-afterlives/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "order"
+      ]
+    },
+    {
+      "id": "SG-29",
+      "title": "Midnight Board-Game Escape: The Folded House",
+      "slug": "midnight-board-game-escape-folded-house",
+      "category": "sports-games",
+      "url": "https://typologyquiz.com/quizzes/midnight-board-game-escape-folded-house/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "order",
+        "grid"
+      ]
+    },
+    {
+      "id": "LW-29",
+      "title": "The Last Ghost's Alibi: A Bell at the Gate",
+      "slug": "last-ghost-alibi-bell-at-the-gate",
+      "category": "logic-wordplay",
+      "url": "https://typologyquiz.com/quizzes/last-ghost-alibi-bell-at-the-gate/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match"
+      ]
+    }
+  ],
+  "collection": {
+    "before": 290,
+    "after": 295,
+    "tasksBefore": 2320,
+    "tasksAfter": 2360,
+    "priorQuizObjectsAndBriefsByteIdentical": 290
+  },
+  "packetSha256": "bdde632f91643adee9ab3e0eff4bd8e441dd897728fa0ba50cadc1083a34c75f",
+  "sourceCommit": "a99feac0fb71fb4acd6d80fc955c04e19ea74087",
+  "deployment": {
+    "id": "ebd812d1-9930-44d5-8a95-451dd7a86f2e",
+    "created_on": "2026-10-31T13:58:02.531735Z",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "ca0714df-a7c8-4bf9-acf8-b6885a1df30f",
+        "percentage": 100
+      }
+    ],
+    "sourceCommit": "a99feac0fb71fb4acd6d80fc955c04e19ea74087",
+    "workerVersion": "ca0714df-a7c8-4bf9-acf8-b6885a1df30f",
+    "command": "./scripts/mac-run.sh npm exec -- wrangler deploy",
+    "exitCode": 0
+  },
+  "verification": {
+    "at": "2026-10-31T13:52:47.534592+00:00",
+    "command": "./scripts/mac-run.sh npm run verify",
+    "exitCode": 0,
+    "testsPassed": 311,
+    "failed": 0,
+    "skipped": 0,
+    "packetSha256": "bdde632f91643adee9ab3e0eff4bd8e441dd897728fa0ba50cadc1083a34c75f",
+    "warnings": "Three existing no-img-element lint warnings",
+    "repeatedBecause": "Final GT5 factual/metadata correction after independent review; tests unchanged."
+  },
+  "build": {
+    "at": "2026-10-31T13:54:35.668003+00:00",
+    "command": "./scripts/mac-run.sh npm run deploy -- --dry-run",
+    "exitCode": 0,
+    "packetSha256": "bdde632f91643adee9ab3e0eff4bd8e441dd897728fa0ba50cadc1083a34c75f",
+    "htmlPages": 1615,
+    "sitemapURLs": 879,
+    "analyticsChunk": "_next/static/chunks/1zujm5nxgj33a.js",
+    "GAEnabled": true,
+    "tagId": "G-TZ9B8MB7SP",
+    "destinationId": "G-RVHFFPF0W1",
+    "handbookBundled": false,
+    "routingAndBindings": "Existing Worker-first routing/bindings unchanged",
+    "deployed": false,
+    "sourceCommit": "a99feac0fb71fb4acd6d80fc955c04e19ea74087"
+  },
+  "independentReview": {
+    "provider": "Authenticated GPT subscription, fresh independent sessions",
+    "fullFinalReport": "work/daily-quizzes/2026-10-31/review-final.md",
+    "exactGT5Closure": "work/daily-quizzes/2026-10-31/review-closure.md",
+    "combinedFinalVerdict": "PASS all five; closure proves exactly nine GT5/metadata paths changed, other reviewed objects unchanged",
+    "record": "docs/research/daily-quizzes/2026-10-31-review.md"
+  },
+  "browser": {
+    "initialMobileTasks": 40,
+    "initialPacketSha256": "1b93ba411f240afb18498073713473bbb68fc54f34b79249f8b5c5c86225b75f",
+    "finalGTMobileReplayTasks": 8,
+    "unchangedProof": "work/daily-quizzes/2026-10-31/gt5-correction.json",
+    "productionGTMobileTasks": 8,
+    "viewport": "390x844 responsive emulation",
+    "desktop": "MT complete at1280x720, firsttwo manual/six structured task receipts",
+    "horizontalOverflow": false,
+    "consoleErrors": 0,
+    "resume": "SG unfinished task4 resumed after reload",
+    "nativePositionControlHeight": 44,
+    "alternateValidSGOrderReceivedFullCredit": true,
+    "allFiveResultsHaveComprehensiveSharing": true,
+    "proof": "work/daily-quizzes/2026-10-31/production-ghost-town-atlas-results.jpg"
+  },
+  "live": {
+    "responsesMatchingVerifiedExport": 16,
+    "sitemapURLs": 879,
+    "allNewURLsInSitemapAndLlms": true,
+    "newQuizStructuredDataAndMethodologyLinks": true,
+    "receipt": "work/daily-quizzes/2026-10-31/live-verification.json"
+  },
+  "R2": {
+    "url": "https://typologyquiz.com/handbook/britishcolumbia/railway-stop-then-proceed.png",
+    "status": 200,
+    "contentType": "image/png",
+    "cacheControl": "public, max-age=31536000, immutable",
+    "servedAfterHandbookStrippedFromExport": true
+  },
+  "analytics": {
+    "property": "545477353",
+    "tagId": "G-TZ9B8MB7SP",
+    "destinationId": "G-RVHFFPF0W1",
+    "activeCoverageGate": true,
+    "productionObservedEvents": {
+      "page_view": 1,
+      "interactive_quiz_start": 1,
+      "interactive_quiz_complete": 1
+    },
+    "quizId": "GT-29",
+    "quizIdParameterCount": 1,
+    "classification": "Known operator QA, not organic engagement, unique humans, or conversion proof",
+    "observedAt": "2026-10-31T14:02:07.841Z",
+    "receipt": "work/daily-quizzes/2026-10-31/ga-delivery.json"
+  },
+  "limits": [
+    "October27 missed batch not backfilled.",
+    "The seasonal search reports do not measure quiz engagement or retention.",
+    "No news edition, outreach, social/media submission, privacy, tracking-control, account or credential change.",
+    "Mobile QA used responsive browser emulation, not physical-device or assistive-technology certification."
+  ],
+  "recordedAt": "2026-10-31T14:03:26.923119+00:00"
+}

@@ -1,14 +1,14 @@
 {
   "approvedLocalDate": "2026-10-23",
   "approval": "Owner: good ... go with ur new recomendation",
-  "status": "approved-editorial-treatment-queue-thirty-published-5-future-5-expired-unpublished",
+  "status": "approved-editorial-treatment-queue-thirty-five-published-0-future-5-expired-unpublished",
   "authority": "These reviewed treatments govern October24–31 authoring. The original calendar remains historical; do not implement a weak original hook unchanged.",
   "provenance": "Mechanical adoption of the completed Grok Expert audit and coordinator checks; no new Grok inference, creative draft or independent release review occurred during adoption.",
   "auditRecord": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT.md",
   "immutableAuditRows": "docs/research/HALLOWEEN_2026_CONTENT_AUDIT_ROWS.json",
-  "futureBriefCount": 5,
-  "requiresSubstantialRevision": 3,
-  "strongerStartingBriefsNotCleared": 2,
+  "futureBriefCount": 0,
+  "requiresSubstantialRevision": 0,
+  "strongerStartingBriefsNotCleared": 0,
   "dailyLimit": 5,
   "timezone": "America/Edmonton",
   "noBackfill": true,
@@ -532,9 +532,14 @@
       "originalTitleForTraceability": "Ghost Broadcast Shot-Size Mystery",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Keep the film vocabulary/storyboard premise if the visual clue and resulting storytelling choice are interesting.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "MT-29",
+      "slug": "ghost-broadcast-shot-size-mystery",
+      "publishedTitle": "The Ghost Broadcast: Who Hears the Sign-Off?",
+      "sourceCommit": "a99feac0fb71fb4acd6d80fc955c04e19ea74087",
+      "deploymentVersion": "ca0714df-a7c8-4bf9-acf8-b6885a1df30f"
     },
     {
       "localDate": "2026-10-31",
@@ -542,9 +547,14 @@
       "originalTitleForTraceability": "Design Your Radio Ghost",
       "auditVerdict": "KEEP",
       "approvedTreatment": "Keep sound-palette preferences and accessible original audio; require distinct sonic choices and descriptive results.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "MU-29",
+      "slug": "design-your-radio-ghost-sound-palette",
+      "publishedTitle": "Design Your Radio Ghost",
+      "sourceCommit": "a99feac0fb71fb4acd6d80fc955c04e19ea74087",
+      "deploymentVersion": "ca0714df-a7c8-4bf9-acf8-b6885a1df30f"
     },
     {
       "localDate": "2026-10-31",
@@ -552,9 +562,14 @@
       "originalTitleForTraceability": "Midnight Longitude Hotel",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Replace fictional date-line conversions with documented geographic discovery or a non-numeric place-based mystery.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "GT-29",
+      "slug": "ghost-town-atlas-four-afterlives",
+      "publishedTitle": "Ghost-Town Atlas: Four Afterlives",
+      "sourceCommit": "a99feac0fb71fb4acd6d80fc955c04e19ea74087",
+      "deploymentVersion": "ca0714df-a7c8-4bf9-acf8-b6885a1df30f"
     },
     {
       "localDate": "2026-10-31",
@@ -562,9 +577,14 @@
       "originalTitleForTraceability": "Midnight Board-Game Escape",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "Rebuild the escape concept so discovery and choices carry the game. Action-point arithmetic is not enough.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "SG-29",
+      "slug": "midnight-board-game-escape-folded-house",
+      "publishedTitle": "Midnight Board-Game Escape: The Folded House",
+      "sourceCommit": "a99feac0fb71fb4acd6d80fc955c04e19ea74087",
+      "deploymentVersion": "ca0714df-a7c8-4bf9-acf8-b6885a1df30f"
     },
     {
       "localDate": "2026-10-31",
@@ -572,9 +592,14 @@
       "originalTitleForTraceability": "The Last Ghost's Alibi",
       "auditVerdict": "REBUILD",
       "approvedTreatment": "A coherent ghost mystery or rich verbal puzzle is promising; a bare truth-table key with a seasonal title is not.",
-      "status": "awaiting-GPT-authored-brief-and-independent-review",
-      "idAllocated": false,
-      "playable": false
+      "status": "published-verified-live",
+      "idAllocated": true,
+      "playable": true,
+      "id": "LW-29",
+      "slug": "last-ghost-alibi-bell-at-the-gate",
+      "publishedTitle": "The Last Ghost's Alibi: A Bell at the Gate",
+      "sourceCommit": "a99feac0fb71fb4acd6d80fc955c04e19ea74087",
+      "deploymentVersion": "ca0714df-a7c8-4bf9-acf8-b6885a1df30f"
     }
   ],
   "requiredBeforeAuthoringForEveryRow": [
@@ -597,10 +622,10 @@
     "independentCreativeReview": "not performed; Grok quota blocks scripts and fresh review"
   },
   "initialApprovedFutureBriefCount": 40,
-  "publishedFromQueue": 30,
-  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-30-release.json",
+  "publishedFromQueue": 35,
+  "latestReleaseRecord": "docs/research/daily-quizzes/2026-10-31-release.json",
   "existingPublishedQuizzesUnchanged": true,
-  "unpublishedBriefCount": 10,
+  "unpublishedBriefCount": 5,
   "expiredUnpublishedBriefCount": 5,
   "expiredRequiresSubstantialRevision": 4,
   "expiredStrongerStartingBriefs": 1
