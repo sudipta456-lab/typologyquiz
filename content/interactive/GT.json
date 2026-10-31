@@ -11170,5 +11170,331 @@
         "correct": "o1"
       }
     ]
+  },
+  {
+    "id": "GT-29",
+    "slug": "ghost-town-atlas-four-afterlives",
+    "categoryId": "geography-travel",
+    "title": "Ghost-Town Atlas: Four Afterlives",
+    "description": "Read four real North American settlements through ore, landforms, railway work and continuing stewardship. Use site clues to test what a ghost-town label leaves out.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "boom",
+        "title": "What brought people in"
+      },
+      {
+        "id": "shape",
+        "title": "How the land shaped town"
+      },
+      {
+        "id": "after",
+        "title": "What remains and who interprets it"
+      }
+    ],
+    "sources": [
+      {
+        "id": "bodie",
+        "kind": "reference",
+        "label": "California State Parks, Bodie State Historic Park.",
+        "url": "https://parks.ca.gov/?page_id=509"
+      },
+      {
+        "id": "bodiefaq",
+        "kind": "reference",
+        "label": "California State Parks, Bodie history FAQ.",
+        "url": "https://parks.ca.gov/?page_id=31549"
+      },
+      {
+        "id": "kennecott",
+        "kind": "reference",
+        "label": "National Park Service, Kennecott Mines National Historic Landmark.",
+        "url": "https://www.nps.gov/places/kennecott-mines.htm"
+      },
+      {
+        "id": "thurmond",
+        "kind": "reference",
+        "label": "National Park Service, Thurmond: A Town Born from Coal Mines and Railroads.",
+        "url": "https://www.nps.gov/articles/thurmond-a-town-born-from-coal-mines-and-railroads-teaching-with-historic-places.htm"
+      },
+      {
+        "id": "thurmondnow",
+        "kind": "reference",
+        "label": "National Park Service, Thurmond overview.",
+        "url": "https://home.nps.gov/neri/learn/historyculture/thurmond.htm"
+      },
+      {
+        "id": "garnet",
+        "kind": "reference",
+        "label": "Bureau of Land Management, Garnet Ghost Town.",
+        "url": "https://www.blm.gov/visit/garnet-ghost-town"
+      },
+      {
+        "id": "garnethistory",
+        "kind": "reference",
+        "label": "Bureau of Land Management, Garnet mining-heritage account.",
+        "url": "https://www.blm.gov/press-release/garnet-day-celebrates-mining-heritage-montanas-most-intact-ghost-town"
+      },
+      {
+        "id": "kootzadukaa",
+        "kind": "reference",
+        "label": "California State Parks, September 2026 agreement with the Mono Lake Kootzaduka’a Tribe on collaboration and co-stewardship at Bodie and Mono Lake.",
+        "url": "https://parks.ca.gov/NewsRelease/1568"
+      }
+    ],
+    "note": "Real settlement and stewardship histories from California State Parks, NPS and BLM. The atlas questions are original text, with no map image, copied photograph, haunting claim, visitor hours or travel advice. The 2026 agreement concerns Bodie and Mono Lake, not all four settlements.",
+    "questions": [
+      {
+        "id": "gt1",
+        "sectionId": "boom",
+        "kind": "choice",
+        "prompt": "Which specific development helped turn Bodie’s small camp into a boomtown?",
+        "context": "Small gold finds gave Bodie its start, but the camp stayed small for years before its rapid growth in the later 1870s. California State Parks’ history identifies a specific new discovery that changed the scale of the mining operation. Choose that development.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The initial small placer finds remained the only significant ore while larger crews arrived."
+          },
+          {
+            "id": "b",
+            "label": "Railway construction created a large town first, with the local gold discoveries following afterward."
+          },
+          {
+            "id": "c",
+            "label": "A mine cave-in exposed a rich vein, encouraging a much larger operation and investment."
+          },
+          {
+            "id": "d",
+            "label": "The mills grew mainly by importing ore from other towns rather than working the local rich vein."
+          }
+        ],
+        "correct": "c",
+        "explanation": "State Parks dates the rich vein exposed by a cave-in to 1875 and the Standard Company purchase to 1877. The new ore and investment explain the jump from a small camp to a boomtown.",
+        "sourceIds": [
+          "bodie"
+        ]
+      },
+      {
+        "id": "gt2",
+        "sectionId": "boom",
+        "kind": "choice",
+        "prompt": "What is the defensible map caption for Bodie’s present street pattern?",
+        "context": "The park reports that two fires removed most of Bodie’s roughly 2,000 former structures; fewer than one tenth remain. It maintains surviving interiors and buildings in arrested decay. A visitor can walk surviving streets but cannot see the full boomtown plan.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The surviving streets are a preserved fragment, so gaps may reflect lost buildings rather than originally vacant blocks."
+          },
+          {
+            "id": "b",
+            "label": "The remaining streets trace every former block even though individual buildings were lost."
+          },
+          {
+            "id": "c",
+            "label": "Open areas between the surviving buildings show where boom-era planners reserved empty lots."
+          },
+          {
+            "id": "d",
+            "label": "Preserved interiors establish that the buildings around them are complete reconstructions."
+          }
+        ],
+        "correct": "a",
+        "explanation": "The fires and small surviving fraction make the present streets a partial record. Preserved interiors tell us about survivors, not the exact shape of every lost block.",
+        "sourceIds": [
+          "bodie"
+        ]
+      },
+      {
+        "id": "gt3",
+        "sectionId": "shape",
+        "kind": "choice",
+        "prompt": "Which plan would fit Kennecott’s site constraints?",
+        "context": "NPS describes a remote Alaskan mill town between glaciated mountain terrain and the railway serving it. A proposed atlas sketch must place buildings where a route through the site is possible, with no invented flat seaport or open prairie.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A compact square around the mill, independent of the narrow rail approach."
+          },
+          {
+            "id": "b",
+            "label": "Two separate building rows on either side of the glacier, each served by the same railway."
+          },
+          {
+            "id": "c",
+            "label": "Scattered mine camps with the mill away from the railway spine."
+          },
+          {
+            "id": "d",
+            "label": "A long settlement aligned with the railway and terrain corridor."
+          }
+        ],
+        "correct": "d",
+        "explanation": "NPS describes Kennecott’s linear plan as shaped by the mountains, glacier terrain and railway. The other plans ignore those constraints or separate the mill from its transport link.",
+        "sourceIds": [
+          "kennecott"
+        ]
+      },
+      {
+        "id": "gt4",
+        "sectionId": "shape",
+        "kind": "order",
+        "prompt": "Reconstruct the ore’s route from the physical roles of four Kennecott remains.",
+        "context": "NPS identifies underground ridge tunnels, aerial tramways, a tall mill building and a railway out to Cordova. The cards name what each remnant did; decide where material had to go before it could leave the valley.",
+        "items": [
+          {
+            "id": "a",
+            "label": "A train carries the mill’s output away from the valley."
+          },
+          {
+            "id": "b",
+            "label": "Tramways carry mined ore between ridge and mill."
+          },
+          {
+            "id": "c",
+            "label": "Workers extract ore from ridge tunnels."
+          },
+          {
+            "id": "d",
+            "label": "The mill handles ore delivered from above."
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "b",
+          "d",
+          "a"
+        ],
+        "explanation": "Ore must be extracted before the tram can carry it down; the mill receives it before rail takes the output toward Cordova. The route reveals why a mountain mine required linked transport structures.",
+        "sourceIds": [
+          "kennecott"
+        ]
+      },
+      {
+        "id": "gt5",
+        "sectionId": "shape",
+        "kind": "choice",
+        "prompt": "Which cross-section fits Thurmond’s rail yard and town buildings?",
+        "context": "NPS describes a narrow flat floodplain beside the New River, with steep ground rising behind it. The rail assembly yard occupied the flat. Commercial buildings faced the tracks with no street between them, while the town extended up the slope behind. Choose the text cross-section that preserves all these relationships.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Commercial buildings on the flat, with the rail assembly yard terraced into the steep ground above."
+          },
+          {
+            "id": "b",
+            "label": "Rail assembly on the flat, commercial fronts facing the tracks, and town buildings continuing upslope behind."
+          },
+          {
+            "id": "c",
+            "label": "Rail assembly on the flat, then a street between the tracks and commercial fronts, with town buildings farther uphill."
+          },
+          {
+            "id": "d",
+            "label": "Rail assembly and all town buildings crowded onto the flat, leaving the steep ground behind undeveloped."
+          }
+        ],
+        "correct": "b",
+        "explanation": "The flat floodplain held the rail yard; the commercial fronts faced the tracks without an intervening street, and the town continued uphill. The alternatives put the yard on steep ground, insert a street the account excludes, or omit the uphill development.",
+        "sourceIds": [
+          "thurmond"
+        ]
+      },
+      {
+        "id": "gt6",
+        "sectionId": "after",
+        "kind": "choice",
+        "prompt": "Which atlas annotation restores the people missing from a map labeled only \"coal transfer yard\"?",
+        "context": "At Thurmond, NPS describes a depot with a ticket booth, waiting rooms, lunch and news counters, and upstairs railroad offices. Its town overview records overflowing hotels and boarding houses as passengers passed through, along with busy stores and saloons.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The depot served passengers, but the hotels and stores were unrelated to the traffic that reached town."
+          },
+          {
+            "id": "b",
+            "label": "The town’s businesses served mine owners alone; ordinary travelers and rail employees left no trace in these rooms."
+          },
+          {
+            "id": "c",
+            "label": "Passengers used the depot while rail staff, shopkeepers and lodging workers served the traffic that came through town."
+          },
+          {
+            "id": "d",
+            "label": "The depot offices explain rail operations, but the public counters and nearby lodging belong only to a later park period."
+          }
+        ],
+        "correct": "c",
+        "explanation": "The documented public rooms, railroad offices and businesses show a service community as well as an industrial junction. A freight-only map loses the workers and travelers who used it.",
+        "sourceIds": [
+          "thurmond",
+          "thurmondnow"
+        ]
+      },
+      {
+        "id": "gt7",
+        "sectionId": "after",
+        "kind": "choice",
+        "prompt": "How should the atlas connect Garnet’s damaged buildings with its later resident record?",
+        "context": "BLM’s historical account links building losses to fire and declining mining to gold that became harder to reach. It also records a last full-time resident who lived until 1947. These records describe different parts of the town’s change; decide what they support together.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Use the damage as the exact date every remaining household left town."
+          },
+          {
+            "id": "b",
+            "label": "Treat the surviving resident record as evidence that the earlier boom population had returned."
+          },
+          {
+            "id": "c",
+            "label": "Use the last resident’s death to date the fire, without separate evidence of when it occurred."
+          },
+          {
+            "id": "d",
+            "label": "Show declining work and damaged buildings alongside a longer, thinning history of residence."
+          }
+        ],
+        "correct": "d",
+        "explanation": "Damage, work and residence are related but different records. BLM describes a gradual decline ending with the last full-time resident’s death in 1947; neither fire damage alone nor one later resident establishes an instant emptying or a restored boom population.",
+        "sourceIds": [
+          "garnet",
+          "garnethistory"
+        ]
+      },
+      {
+        "id": "gt8",
+        "sectionId": "after",
+        "kind": "choice",
+        "prompt": "Which layer belongs on the final Bodie atlas beyond the mine-closure dates?",
+        "context": "California State Parks says caretakers stayed after mining stopped and that park staff and families live and work at Bodie today. In September 2026 it reported an agreement with the Mono Lake Kootzaduka’a Tribe of California and Nevada: Bodie and Mono Lake Tufa are within the Tribe’s traditional homelands, and the partners will cooperate on cultural-resource protection and interpretation at Bodie.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Add continuing caretaking and the named Kootzaduka’a partnership on Bodie’s cultural resources and interpretation."
+          },
+          {
+            "id": "b",
+            "label": "Limit the Tribe’s current role to Mono Lake Tufa, leaving Bodie’s interpretation entirely outside the agreement."
+          },
+          {
+            "id": "c",
+            "label": "Show the agreement as replacing the preservation of existing buildings with a new commercial mining operation."
+          },
+          {
+            "id": "d",
+            "label": "Add the Tribe only to a closed mining-era layer, because the current agreement establishes no ongoing relationship."
+          }
+        ],
+        "correct": "a",
+        "explanation": "The park FAQ documents continued residence and work; the 2026 release names a specific Bodie collaboration on cultural resources and interpretation. It does not transfer ownership or cover all four towns.",
+        "sourceIds": [
+          "bodiefaq",
+          "kootzadukaa"
+        ]
+      }
+    ]
   }
 ]

@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 28,
+      "count": 29,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 28,
+      "count": 29,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 28,
+      "count": 29,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 28,
+      "count": 29,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 28,
+      "count": 29,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -6259,6 +6259,116 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-10-30",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "MT-29",
+      "title": "The Ghost Broadcast: Who Hears the Sign-Off?",
+      "slug": "ghost-broadcast-shot-size-mystery",
+      "kind": "knowledge",
+      "hook": "Edit a ghost’s radio sign-off across a tower and listening homes, deciding what the film audience sees and what callers hear.",
+      "rounds": [
+        "3 tasks: Two kinds of audience",
+        "3 tasks: The answer travels back",
+        "2 tasks: Change the sign-off"
+      ],
+      "seed": "Which opening pairs image and voice so viewers can place the broadcast before meeting Mara?",
+      "payoff": "The caller’s reply changes Mara’s final line; choose which human connection the closing beat honors.",
+      "audience": "Viewers who enjoy eerie short-film storytelling and camera-language choices.",
+      "evidence": "Current October 31 audit queue; primary sources support cited facts. Google October 14 seasonal reports support timing only, not quiz demand or engagement.",
+      "dependency": "base",
+      "production_note": "Original text-only film scene. Seven keyed tasks and one ungraded sign-off emphasis; no filmed footage or rendered storyboard.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-10-31",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "MU-29",
+      "title": "Design Your Radio Ghost",
+      "slug": "design-your-radio-ghost-sound-palette",
+      "kind": "preference",
+      "hook": "Use two playable tone sketches and six verbal arrangement decisions to describe a radio ghost's entrance, reply and fade.",
+      "rounds": [
+        "3 tasks: The first signal",
+        "3 tasks: How it answers",
+        "2 tasks: What lingers"
+      ],
+      "seed": "Hear or read the ghost's first knock. How should its next entrance move?",
+      "payoff": "A two-axis description of the ghost's pacing and texture that another listener can compare.",
+      "audience": "Curious listeners and sound-design fans who enjoy small creative choices with a text alternative.",
+      "evidence": "Current October 31 audit queue; primary sources support cited facts. Google October 14 seasonal reports support timing only, not quiz demand or engagement.",
+      "dependency": "preference",
+      "production_note": "Two original user-triggered browser tone sketches; complete transcripts; four active contributions per neutral axis; all eight tasks unkeyed.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "daily-2026-10-31",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "GT-29",
+      "title": "Ghost-Town Atlas: Four Afterlives",
+      "slug": "ghost-town-atlas-four-afterlives",
+      "kind": "knowledge",
+      "hook": "Test what a ghost-town map leaves out across four real settlements: transport routes, businesses, later residents and present stewardship.",
+      "rounds": [
+        "2 tasks: What brought people in",
+        "3 tasks: How the land shaped town",
+        "3 tasks: What remains and who interprets it"
+      ],
+      "seed": "Which specific development helped turn Bodie’s small camp into a boomtown?",
+      "payoff": "Bodie’s final map gains a specific contemporary Kootzaduka’a–State Parks layer alongside its mining history.",
+      "audience": "Geography and history readers who like place-based discovery without travel trivia.",
+      "evidence": "Current October 31 audit queue; primary sources support cited facts. Google October 14 seasonal reports support timing only, not quiz demand or engagement.",
+      "dependency": "base",
+      "production_note": "Four real place histories from managing institutions; eight keyed text tasks, no maps or copied images, access advice or haunting claims.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-10-31",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "SG-29",
+      "title": "Midnight Board-Game Escape: The Folded House",
+      "slug": "midnight-board-game-escape-folded-house",
+      "kind": "logic",
+      "hook": "Read a ghost’s paper house as a changing game board to escape through its real edge.",
+      "rounds": [
+        "3 tasks: Read the painted floor",
+        "3 tasks: Change the board",
+        "2 tasks: Leave the house"
+      ],
+      "seed": "Which first route reaches the Gallery clue without using a painted doorway?",
+      "payoff": "A starless lower layer and bridged route lead off the cardboard while the painted EXIT remains a dead end.",
+      "audience": "Players who enjoy short tabletop escape puzzles with visible mechanisms rather than arithmetic.",
+      "evidence": "Current October 31 audit queue; primary sources support cited facts. Google October 14 seasonal reports support timing only, not quiz demand or engagement.",
+      "dependency": "base",
+      "production_note": "Original text checkpoints, no physical manipulation or branching. The flap order uses precedence and accepts either read/peg order; the final route joins explicit graph edges through a bridge.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-10-31",
+      "evidence_class": "seasonal"
+    },
+    {
+      "id": "LW-29",
+      "title": "The Last Ghost's Alibi: A Bell at the Gate",
+      "slug": "last-ghost-alibi-bell-at-the-gate",
+      "kind": "logic",
+      "hook": "Test whether a departing ghost’s bell note is a confession or a request answered by someone who stayed.",
+      "rounds": [
+        "3 tasks: The note and the gate",
+        "3 tasks: Bound the bell window",
+        "2 tasks: Who stayed to ring?"
+      ],
+      "seed": "What does Aster’s note establish before anyone investigates the bell?",
+      "payoff": "A bounded rope trace and two gate alibis identify the ringer; a folded note supports, but cannot prove, why Brin helped Aster cross.",
+      "audience": "Readers who enjoy a compact supernatural case with claims, witnesses and a meaningful reveal.",
+      "evidence": "Current October 31 audit queue; primary sources support cited facts. Google October 14 seasonal reports support timing only, not quiz demand or engagement.",
+      "dependency": "base",
+      "production_note": "Original fixed supernatural case with explicit fictional contact rules. Lantern timing and controlled-card clues require deductions; the final letters support a reading of help without proving all private motives.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-10-31",
       "evidence_class": "seasonal"
     }
   ]

@@ -10629,5 +10629,304 @@
         "unscored": true
       }
     ]
+  },
+  {
+    "id": "MT-29",
+    "slug": "ghost-broadcast-shot-size-mystery",
+    "categoryId": "movies-tv",
+    "title": "The Ghost Broadcast: Who Hears the Sign-Off?",
+    "description": "Edit an original ghost broadcast across a tower and listening homes. Use image, offscreen sound and a shared two-shot to show who hears Mara, who sees her, and why her last line changes.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "signal",
+        "title": "Two kinds of audience"
+      },
+      {
+        "id": "audience",
+        "title": "The answer travels back"
+      },
+      {
+        "id": "signoff",
+        "title": "Change the sign-off"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scene, rules, dialogue, and answer reasoning authored for this quiz."
+      },
+      {
+        "id": "acmi",
+        "kind": "reference",
+        "label": "ACMI, Exploring shot types: wide, mid and close framing.",
+        "url": "https://www.acmi.net.au/education/school-program-and-resources/exploring-shot-types/"
+      }
+    ],
+    "note": "Original supernatural film scene described in text cards; no footage, rendered frames or interactive camera. ACMI supports the named shot types, while all story rules and editing goals are original. The final sign-off emphasis is ungraded.",
+    "questions": [
+      {
+        "id": "mt1",
+        "sectionId": "signal",
+        "kind": "choice",
+        "prompt": "Which opening pairs image and voice so viewers can place the broadcast before meeting Mara?",
+        "context": "Original film: at night the hilltop station transmits a voice over ordinary radios. A technician, Eli, is in the booth. Mara, an announcer who died years ago, has returned for one final transmission. The opening must establish the tower and show that a home can receive the voice.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Start on the kitchen radio in close-up; cut to the tower only after Mara stops speaking."
+          },
+          {
+            "id": "b",
+            "label": "Start with a wide view of the lit hilltop tower while Mara speaks; carry the same voice across a cut to a family radio in a kitchen."
+          },
+          {
+            "id": "c",
+            "label": "Start on Eli at the microphone, then cut to Mara reading in the same booth."
+          },
+          {
+            "id": "d",
+            "label": "Start with a wide view of the tower in silence; cut to a kitchen after the family turns its radio off."
+          }
+        ],
+        "correct": "b",
+        "explanation": "The wide opening places the station; the continuous voice across the cut connects it to a listening home. Neither location alone establishes the entire route.",
+        "sourceIds": [
+          "original",
+          "acmi"
+        ]
+      },
+      {
+        "id": "mt2",
+        "sectionId": "signal",
+        "kind": "choice",
+        "prompt": "What can viewers know after this cut that a caller still cannot confirm?",
+        "context": "In this fiction Eli can see Mara. A kitchen radio carries Mara’s voice but no picture. The film cuts from Eli turning toward visible Mara in the booth to a caller leaning closer to the radio at home; the caller has not visited the station.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Viewers can see Mara beside Eli; the caller has only her voice and cannot confirm her visible presence."
+          },
+          {
+            "id": "b",
+            "label": "The caller can see Mara because the film has shown her in the previous shot."
+          },
+          {
+            "id": "c",
+            "label": "Viewers know the caller has seen the booth, while Eli has heard only a recording."
+          },
+          {
+            "id": "d",
+            "label": "Both viewers and caller can confirm that every other home also heard the transmission."
+          }
+        ],
+        "correct": "a",
+        "explanation": "The cut shares the booth image with film viewers, but the radio supplies sound only to the caller. It establishes neither a video feed nor the number of other listeners.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mt3",
+        "sectionId": "signal",
+        "kind": "match",
+        "prompt": "Match each edit to the difference it lets viewers notice.",
+        "context": "The caller’s first sentence is \"We kept the old radios on.\" The crew can choose where to place that voice against the pictured action. Each edit is a different piece of storytelling, not a new technical rule of radio.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Caller’s voice begins over a view of Mara alone at the microphone."
+          },
+          {
+            "id": "b",
+            "label": "The same voice continues after a cut to a hand holding a phone beside a kitchen radio."
+          },
+          {
+            "id": "c",
+            "label": "The voice stops; hold on Mara and Eli exchanging a look in the booth."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Locate a speaker in a listening home."
+          },
+          {
+            "id": "b",
+            "label": "Give the booth a wordless response to what it heard."
+          },
+          {
+            "id": "c",
+            "label": "Let the first reply reach Mara before viewers meet its speaker."
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "a",
+          "c": "b"
+        },
+        "explanation": "The offscreen start reaches Mara before its source is shown; the continuing voice connects the home to the call; the silent two-person reaction shows the words changing the booth. The three edits carry different information.",
+        "sourceIds": [
+          "original",
+          "acmi"
+        ]
+      },
+      {
+        "id": "mt4",
+        "sectionId": "audience",
+        "kind": "choice",
+        "prompt": "Which edit preserves a brief doubt about whether the call is meant for Mara, then resolves it through dialogue?",
+        "context": "A phone rings after Mara asks, \"Is anyone still there?\" Eli answers in the booth. The caller may be responding to Mara or placing an unrelated call. The goal is to let the words, rather than a graphic label, settle that uncertainty.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cut to the kitchen before Eli answers and show the caller dialing a number marked MARA."
+          },
+          {
+            "id": "b",
+            "label": "Stay with Eli listening, keep the caller unseen for the first beat, then let the caller say, \"Mara, we heard you.\""
+          },
+          {
+            "id": "c",
+            "label": "Insert a title card saying THE CALL IS FOR MARA before the phone rings."
+          },
+          {
+            "id": "d",
+            "label": "Keep the caller unheard and have Eli announce, \"That was definitely for Mara,\" after hanging up."
+          }
+        ],
+        "correct": "b",
+        "explanation": "The unseen voice first leaves its purpose open; addressing Mara supplies the evidence inside the scene. A label or Eli’s unsupported claim spends the answer before the caller does.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mt5",
+        "sectionId": "audience",
+        "kind": "order",
+        "prompt": "Put the four moments in causal order so Mara’s changed line is a response, not a coincidence.",
+        "context": "These cards are from the same invented transmission. A home can hear Mara on a radio; the home calls the station by phone; Eli can put that call through his booth speaker. The sequence should preserve which message prompts the next action.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Mara crosses out “no one left to hear” on her script."
+          },
+          {
+            "id": "b",
+            "label": "Eli puts the incoming call on the booth speaker."
+          },
+          {
+            "id": "c",
+            "label": "At home, a listener hears Mara ask whether anyone remembers the station."
+          },
+          {
+            "id": "d",
+            "label": "The listener phones the station and thanks Mara for the night broadcasts."
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "d",
+          "b",
+          "a"
+        ],
+        "explanation": "A listener must hear the question before making the call; Eli must let Mara hear the caller before her revision is shown. The order makes the change an earned reaction.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mt6",
+        "sectionId": "audience",
+        "kind": "choice",
+        "prompt": "Which description is a two-shot that makes Eli and Mara’s shared choice visible?",
+        "context": "After the caller speaks, Eli pushes the printed sign-off toward Mara. She writes a new last line while he holds the page still. Both characters are visible to the film audience; the town still receives sound only.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mid-framed two-shot: Eli and Mara are both visible at the desk, one holding the page while the other writes."
+          },
+          {
+            "id": "b",
+            "label": "Mid-shot: Eli and an empty chair share the frame as the page lies untouched."
+          },
+          {
+            "id": "c",
+            "label": "Close-up: only Mara’s writing hand fills the frame."
+          },
+          {
+            "id": "d",
+            "label": "Single view of Mara and the page: Eli is entirely outside the frame."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Both visible characters and their coordinated actions belong in a two-shot. An empty chair is not a second character, and the single-person views withhold their shared action.",
+        "sourceIds": [
+          "original",
+          "acmi"
+        ]
+      },
+      {
+        "id": "mt7",
+        "sectionId": "signoff",
+        "kind": "choice",
+        "prompt": "Which sound-and-image pairing proves why Mara changes the old line?",
+        "context": "The old printed line is \"The station closes with no one left to hear.\" The caller has thanked Mara for keeping the night shift company. The film must connect that specific reply to Mara’s new words without pretending the callers can see her.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Show the station logo while a narrator says the town once liked radio."
+          },
+          {
+            "id": "b",
+            "label": "Hold on Mara crossing out \"no one left\" as the caller’s \"we kept listening\" finishes over the booth; then hear Mara say, \"Then this voice was never alone.\""
+          },
+          {
+            "id": "c",
+            "label": "Show the kitchen radio with Mara’s new line already playing before the call reaches Eli."
+          },
+          {
+            "id": "d",
+            "label": "Cut to a crowd outside the tower while the original \"no one left\" line plays unchanged."
+          }
+        ],
+        "correct": "b",
+        "explanation": "The audible reply and visible revision occupy one continuous decision. The new sign-off answers a particular listener, while the other edits either skip the cause or leave the old contradiction intact.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mt8",
+        "sectionId": "signoff",
+        "kind": "choice",
+        "prompt": "Choose the emotional emphasis for your version of Mara’s sign-off.",
+        "context": "The reply has reached the booth; Mara has changed her old line. The film’s facts are settled. Choose where you want the final spoken beat to land; there is no factual or film-craft key.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mara thanks the night-shift caller by name."
+          },
+          {
+            "id": "b",
+            "label": "Mara invites everyone listening to answer one another tomorrow."
+          },
+          {
+            "id": "c",
+            "label": "Eli speaks the final station identification after Mara falls silent."
+          }
+        ],
+        "unscored": true,
+        "explanation": "Each line can close the established call with a different emphasis: one person, the listening community, or Eli carrying the station forward. This artistic choice is ungraded.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

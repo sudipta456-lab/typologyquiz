@@ -10578,5 +10578,318 @@
         ]
       }
     ]
+  },
+  {
+    "id": "SG-29",
+    "slug": "midnight-board-game-escape-folded-house",
+    "categoryId": "sports-games",
+    "title": "Midnight Board-Game Escape: The Folded House",
+    "description": "Read a ghost's paper house as a game board: find a working fold, expose a second route, and carry a piece beyond its painted EXIT.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "map",
+        "title": "Read the painted floor"
+      },
+      {
+        "id": "fold",
+        "title": "Change the board"
+      },
+      {
+        "id": "edge",
+        "title": "Leave the house"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scene, rules, dialogue, and answer reasoning authored for this quiz."
+      }
+    ],
+    "note": "Original text-only tabletop fiction. The printed observations stand in for a physical paper board; no folding, dragging, live board state or branching occurs. Each fixed checkpoint supplies its needed state even after an earlier wrong answer.",
+    "questions": [
+      {
+        "id": "sg1",
+        "sectionId": "map",
+        "kind": "choice",
+        "prompt": "Which first route reaches the Gallery clue without using a painted doorway?",
+        "context": "The ghost host sets your piece at START. Printed walk lines join START–Foyer, Foyer–Kitchen and Foyer–Gallery. A red door drawn between Kitchen and Gallery has no walk line. A tiny crease is visible in Gallery. The piece follows walk lines until a later rule changes them.",
+        "options": [
+          {
+            "id": "a",
+            "label": "START → Foyer → Kitchen → Gallery"
+          },
+          {
+            "id": "b",
+            "label": "START → Gallery"
+          },
+          {
+            "id": "c",
+            "label": "START → Foyer → Gallery"
+          },
+          {
+            "id": "d",
+            "label": "START → Foyer → Kitchen → Foyer → red door"
+          }
+        ],
+        "correct": "c",
+        "explanation": "START reaches only Foyer; its Gallery line is the first legal path to the crease. The red drawing adds no connection.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sg2",
+        "sectionId": "map",
+        "kind": "choice",
+        "prompt": "Which wall is worth trying as a flap?",
+        "context": "Checkpoint: the piece is in Gallery. The house card says a wall opens only if its paper has a crease and at least one edge free of glue. North has a drawn hinge and a free edge but no crease. East has a crease and its bottom edge lifts away from the board. South has a crease but is glued along every edge. West shows a painted corridor with neither paper feature.",
+        "options": [
+          {
+            "id": "a",
+            "label": "East: its crease can turn at the free edge"
+          },
+          {
+            "id": "b",
+            "label": "North: its drawing stands for a hinge"
+          },
+          {
+            "id": "c",
+            "label": "South: a crease alone is enough"
+          },
+          {
+            "id": "d",
+            "label": "West: a pictured corridor can be entered"
+          }
+        ],
+        "correct": "a",
+        "explanation": "East alone combines the crease with a free edge; the other apparent openings fail one or both physical conditions.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sg3",
+        "sectionId": "map",
+        "kind": "choice",
+        "prompt": "What has the lifted flap made possible, and what still blocks your piece?",
+        "context": "Checkpoint: on the underside of the East flap, a walk line starts at Gallery’s edge and ends at a small triangle. On the top map Hall is marked with a triangle; Kitchen has a circle. The loose flap springs flat when released, interrupting the line. A clear slit and a round eyelet are also cut into the flap; a peg stands near Hall.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Gallery can now reach Kitchen, but only if the slit is covered"
+          },
+          {
+            "id": "b",
+            "label": "Gallery may reach Hall immediately while the flap springs flat"
+          },
+          {
+            "id": "c",
+            "label": "The triangle turns the painted EXIT into a route"
+          },
+          {
+            "id": "d",
+            "label": "Gallery may reach Hall, but the flap must first be kept in its turned position"
+          }
+        ],
+        "correct": "d",
+        "explanation": "The matching triangle gives the line a Hall endpoint. The springing flap interrupts that line unless it is held open; the eyelet and peg offer a possible way to do that.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sg4",
+        "sectionId": "fold",
+        "kind": "order",
+        "prompt": "How do you reveal the instruction and still get through?",
+        "context": "Checkpoint: the East flap is loose. Turning it toward Hall exposes the ink strip through its slit. The peg holds the flap at its current angle; once pegged it cannot turn. You may read the exposed strip before or after pegging. The piece may move only after the instruction is read and the flap is pegged open.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Set the eyelet onto the peg."
+          },
+          {
+            "id": "b",
+            "label": "Lift and turn the flap toward Hall."
+          },
+          {
+            "id": "c",
+            "label": "Read the complete strip through the slit."
+          },
+          {
+            "id": "d",
+            "label": "Move the piece along the underside line to Hall."
+          }
+        ],
+        "explanation": "Turning must come first and moving last. Reading and pegging can happen in either order once the strip is exposed; both turn → read → peg → move and turn → peg → read → move satisfy the stated dependencies.",
+        "sourceIds": [
+          "original"
+        ],
+        "precedence": [
+          [
+            "b",
+            "c"
+          ],
+          [
+            "b",
+            "a"
+          ],
+          [
+            "c",
+            "d"
+          ],
+          [
+            "a",
+            "d"
+          ]
+        ]
+      },
+      {
+        "id": "sg5",
+        "sectionId": "fold",
+        "kind": "choice",
+        "prompt": "The strip says “Seek the sky with no stars.” What should you inspect?",
+        "context": "Checkpoint: the piece reached Hall and the strip has been read. On the top layer, every room has a black star in its ceiling except the red EXIT drawing, which is only ink. Through a narrow gap at Hall’s edge you can see a second blue paper layer with no stars. No passage to that layer is printed on the top map.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The red EXIT label, because it is the brightest ink"
+          },
+          {
+            "id": "b",
+            "label": "The blue paper beneath Hall, because it is the only starless sky"
+          },
+          {
+            "id": "c",
+            "label": "The Gallery ceiling, because it has a star"
+          },
+          {
+            "id": "d",
+            "label": "The Kitchen line, because it leads back to Foyer"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The clue is about the starless layer visible beneath Hall. It changes the search from the printed room map to the paper under it.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sg6",
+        "sectionId": "fold",
+        "kind": "choice",
+        "prompt": "Which Hall panel reaches that lower layer?",
+        "context": "Checkpoint: Hall has three covers. A is directly north of B; C is directly east of B. Through a viewing gap too narrow for the piece, you see a blue recess directly south of A. Surface tests: A lifts but has solid backing; B slides completely beneath neighboring paper; C is a transparent window glued in place. The piece needs an opening into the recess, not merely a view.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lift A: its movement alone guarantees a passage."
+          },
+          {
+            "id": "b",
+            "label": "Look through C: a transparent surface supplies an entrance."
+          },
+          {
+            "id": "c",
+            "label": "Slide B: its position covers the recess and it can move out of the way."
+          },
+          {
+            "id": "d",
+            "label": "Keep all covers closed and use the narrow viewing gap."
+          }
+        ],
+        "correct": "c",
+        "explanation": "The recess south of A lies under B. Sliding B aside exposes that recess. A still has solid backing, C is closed glass, and the viewing gap is too small for the piece.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sg7",
+        "sectionId": "edge",
+        "kind": "grid",
+        "prompt": "Place two found pieces so the lower route remains usable.",
+        "context": "Checkpoint: the piece is at B’s opening. The Gallery flap has a wide eyelet that can slip over the peg head; the peg has a groove below that head. The blue layer has a gap with a slot on each bank. Found pieces: a slotted washer clip whose inner edge snaps into the groove and whose outer edge is wider than the eyelet, and a bridge card with a tab fitting each bank slot. The red EXIT has no fittings.",
+        "cells": [
+          {
+            "id": "a",
+            "label": "Slotted washer clip",
+            "options": [
+              {
+                "id": "a",
+                "label": "Across the blue-layer gap"
+              },
+              {
+                "id": "b",
+                "label": "Over the eyelet on its peg"
+              },
+              {
+                "id": "c",
+                "label": "On the red EXIT ink"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "b",
+            "label": "Two-tab bridge",
+            "options": [
+              {
+                "id": "a",
+                "label": "Over the eyelet on its peg"
+              },
+              {
+                "id": "b",
+                "label": "On the red EXIT ink"
+              },
+              {
+                "id": "c",
+                "label": "Into the paired slots at the blue-layer gap"
+              }
+            ],
+            "correct": "c"
+          }
+        ],
+        "explanation": "The clip snaps into the peg groove and its wider rim retains the eyelet. The bridge tabs join the two bank slots. One keeps the upper route open; the other completes the lower crossing.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sg8",
+        "sectionId": "edge",
+        "kind": "choice",
+        "prompt": "Which route gets the piece off the cardboard?",
+        "context": "Final checkpoint: the flap is clipped open, B is uncovered, and the bridge is in place. You start at B. The lower map gives these connections: B–Fork; the left branch Fork–Loop, which returns only to Fork; the right branch Fork–Near Bank. The bridge joins Near Bank to Far Bank, and Far Bank connects to Outer Edge. The painted EXIT is inside Loop with no opening beyond it. Escape means leaving the cardboard along connected paths.",
+        "options": [
+          {
+            "id": "a",
+            "label": "B → Fork → right branch → Near Bank → bridge → Far Bank → Outer Edge"
+          },
+          {
+            "id": "b",
+            "label": "B → Fork → left branch → Loop → painted EXIT → outside"
+          },
+          {
+            "id": "c",
+            "label": "B → Far Bank → Outer Edge"
+          },
+          {
+            "id": "d",
+            "label": "B → Fork → Loop → Outer Edge"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The right branch reaches the near bank, the bridge reaches the far bank, and its final path reaches the outer edge. The left branch loops back; neither B–Far Bank nor Loop–Outer Edge is a connection.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

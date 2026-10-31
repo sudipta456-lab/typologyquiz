@@ -11081,5 +11081,312 @@
         "unscored": true
       }
     ]
+  },
+  {
+    "id": "MU-29",
+    "slug": "design-your-radio-ghost-sound-palette",
+    "categoryId": "music",
+    "title": "Design Your Radio Ghost",
+    "description": "Give an imaginary voice in an old receiver its own entrance, answer and fade. Hear or read short original tone sketches, then choose a descriptive sound palette.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "arrival",
+        "title": "The first signal"
+      },
+      {
+        "id": "reply",
+        "title": "How it answers"
+      },
+      {
+        "id": "fade",
+        "title": "What lingers"
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "pace",
+        "low": "Spacious pacing",
+        "high": "Insistent pacing",
+        "description": "How these choices place pauses and repeated notes in the imagined radio ghost's motif."
+      },
+      {
+        "id": "texture",
+        "low": "Clear texture",
+        "high": "Layered texture",
+        "description": "How these choices balance one exposed tone with overlapping tones in the imagined sound."
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scene, rules, dialogue, and answer reasoning authored for this quiz."
+      }
+    ],
+    "note": "Original browser-generated tone sketches are user-triggered, short and volume-bounded, with complete text alternatives. Choices describe a palette; the result does not synthesize a custom mix or measure hearing, emotion, skill or personality.",
+    "questions": [
+      {
+        "id": "mu1",
+        "sectionId": "arrival",
+        "kind": "audio",
+        "prompt": "Hear or read the ghost's first knock. How should its next entrance move?",
+        "context": "This original sample is a reference motif, not a preview of the two options. Imagine an old receiver on a quiet kitchen table.",
+        "tones": [
+          {
+            "frequency": 294,
+            "duration": 0.22,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.12
+          },
+          {
+            "frequency": 294,
+            "duration": 0.22,
+            "delay": 0.7,
+            "waveform": "sine",
+            "gain": 0.12
+          },
+          {
+            "frequency": 392,
+            "duration": 0.28,
+            "delay": 1.4,
+            "waveform": "sine",
+            "gain": 0.1
+          }
+        ],
+        "transcript": "Three soft tones: two equal low notes separated by about half a second of quiet, then one higher note after a similar gap. No speech or hidden sound is present.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Leave a longer breath before the higher note",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Let the three notes arrive closer together",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "This choice describes the spacing of a future entrance. The button plays only the printed reference sample.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu2",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "Which station signature belongs under this first appearance?",
+        "context": "The ghost is a fictional character in a receiver. These are production ideas in words, not additional playable clips.",
+        "options": [
+          {
+            "id": "a",
+            "label": "One exposed rounded tone, with space around it",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Two quiet tones crossing under the main note",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "The selection describes a clear or layered entrance; no sound is generated from the chosen option.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu3",
+        "sectionId": "arrival",
+        "kind": "rank",
+        "prompt": "Rank the timing gestures for the ghost's first attempt to answer.",
+        "context": "The listener has just whispered 'Are you there?' Each card is a different timing treatment for a three-note reply, not a different pitch.",
+        "items": [
+          {
+            "id": "a",
+            "label": "One note, a long wait, then two close notes",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Three evenly spaced notes",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Three notes that hurry toward the last",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "The order records which pacing gesture you favor. No order is musically correct.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu4",
+        "sectionId": "reply",
+        "kind": "audio",
+        "prompt": "This second sketch has three overlapping tones. For the ghost’s answer, which texture would you take from it?",
+        "context": "The sample demonstrates overlap only. Both answer choices are imagined variations and are not played when selected.",
+        "tones": [
+          {
+            "frequency": 220,
+            "duration": 0.85,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.1
+          },
+          {
+            "frequency": 330,
+            "duration": 0.55,
+            "delay": 0.18,
+            "waveform": "triangle",
+            "gain": 0.08
+          },
+          {
+            "frequency": 440,
+            "duration": 0.35,
+            "delay": 0.37,
+            "waveform": "sine",
+            "gain": 0.06
+          }
+        ],
+        "transcript": "A low tone begins; a softer middle tone enters while it continues; a still softer high tone joins briefly. All fade by about 0.85 seconds.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep only the low tone exposed when the answer comes",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Let the two softer tones meet the low tone for a moment",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "The demonstrated overlap makes the texture difference concrete. Your selection remains a description, not a rendered remix.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu5",
+        "sectionId": "reply",
+        "kind": "slider",
+        "prompt": "How quickly should the ghost answer a second whispered question?",
+        "context": "In this fictional scene the person waits calmly; neither end suggests danger. Pick a position between the two timing ideas.",
+        "dimension": 0,
+        "lowLabel": "A long hush before a single reply",
+        "highLabel": "An immediate cluster of short replies",
+        "explanation": "This slider records the preferred dramatic pacing of the answer.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu6",
+        "sectionId": "reply",
+        "kind": "choice",
+        "prompt": "A faint carrier tone remains after the answer. What should be audible in the imagined arrangement?",
+        "context": "Carrier tone here means a sustained invented background pitch, not actual radio transmission. The options are verbal arrangements.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Leave the carrier alone, clearly separated from the motif",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Set a second gentle pitch under it so the two briefly overlap",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "This choice changes the imagined layer count, not the playback sample.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu7",
+        "sectionId": "fade",
+        "kind": "choice",
+        "prompt": "The ghost is about to leave the receiver. Which rhythm gives the farewell its shape?",
+        "context": "Only a few seconds remain in this original scene. Both endings have the same three notes and no words.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A note, a pause, and two notes with room afterward",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Three quick notes that press into the silence",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "The two patterns differ in spacing and momentum; neither signals a universal emotion.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu8",
+        "sectionId": "fade",
+        "kind": "slider",
+        "prompt": "What texture should remain as the receiver goes quiet?",
+        "context": "Imagine the last note decaying. The scale describes a sonic arrangement; the app does not play or save a custom ending.",
+        "dimension": 1,
+        "lowLabel": "One bare fading pitch",
+        "highLabel": "Several soft pitches fading together",
+        "explanation": "This final choice completes the clear-to-layered side of your sound palette.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

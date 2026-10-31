@@ -10640,5 +10640,294 @@
         "correct": "o2"
       }
     ]
+  },
+  {
+    "id": "LW-29",
+    "slug": "last-ghost-alibi-bell-at-the-gate",
+    "categoryId": "logic-wordplay",
+    "title": "The Last Ghost's Alibi: A Bell at the Gate",
+    "description": "A farewell note makes Aster look guilty of ringing the ghost-house bell. Test a witness’s timing, a controlled rope trace and a final message to learn what the bell did.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "charge",
+        "title": "The note and the gate"
+      },
+      {
+        "id": "evidence",
+        "title": "Bound the bell window"
+      },
+      {
+        "id": "verdict",
+        "title": "Who stayed to ring?"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scene, rules, dialogue, and answer reasoning authored for this quiz."
+      }
+    ],
+    "note": "Original supernatural mystery. The rite, no-splitting rule and contact marks are explicit fictional premises, not real forensic claims. The fixed checkpoints supply needed evidence regardless of earlier answers; the final reading of intent remains an inference.",
+    "questions": [
+      {
+        "id": "lw1",
+        "sectionId": "charge",
+        "kind": "choice",
+        "prompt": "What does Aster’s note establish before anyone investigates the bell?",
+        "context": "Original ghost-house case. Aster is last on tonight’s departure list. At midnight the ballroom bell rings. Her note on the hall desk reads, “Ring once when I am at the garden gate.” Cora points to Aster’s handwriting and calls it a confession.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aster promised that she herself would pull the rope at the gate."
+          },
+          {
+            "id": "b",
+            "label": "Aster asked for a signal at the gate; the note does not name whoever supplied it."
+          },
+          {
+            "id": "c",
+            "label": "Aster reported that the bell had already sounded during her wait."
+          },
+          {
+            "id": "d",
+            "label": "Aster recorded that Brin had accepted her request."
+          }
+        ],
+        "correct": "b",
+        "explanation": "The imperative asks someone to ring after Aster reaches the gate. It neither places her at the rope nor names the person who complied.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw2",
+        "sectionId": "charge",
+        "kind": "choice",
+        "prompt": "Which interpretation fits the house’s departure rite and the note together?",
+        "context": "The departure list carries a rule: the departing ghost must wait at the garden gate while a different ghost rings the ballroom bell from inside. Only then may the waiting ghost cross. Aster is the departing ghost; Brin and Cora are staying tonight. The bell rope cannot be reached from the gate.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The writer of a departure request must also give its signal."
+          },
+          {
+            "id": "b",
+            "label": "The rite by itself proves Brin accepted Aster’s request."
+          },
+          {
+            "id": "c",
+            "label": "Being last on the list proves Aster had already crossed before the bell."
+          },
+          {
+            "id": "d",
+            "label": "The note is consistent with another ghost helping Aster cross, without identifying that helper."
+          }
+        ],
+        "correct": "d",
+        "explanation": "The rite calls for two ghosts in different places. The request is consistent with Aster waiting and another ghost ringing inside.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw3",
+        "sectionId": "charge",
+        "kind": "choice",
+        "prompt": "What does the unlit gate lantern add to the hall sighting?",
+        "context": "A text-only description of a verified hall snapshot identifies Aster passing the desk. The gate lantern is visible outside and unlit. The snapshot was made after tonight’s departure list opened but before the bell. The gatekeeper lights that working lantern exactly when Aster arrives at the gate and keeps it lit through the bell, without covering or extinguishing it. Cora says the hall sighting must conflict with Aster’s later gate alibi.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The unlit lantern dates the hall snapshot after the bell."
+          },
+          {
+            "id": "b",
+            "label": "The snapshot establishes a return to the hall after Aster arrived at the gate."
+          },
+          {
+            "id": "c",
+            "label": "The hall snapshot belongs before Aster’s gate arrival, so it can fit the later alibi."
+          },
+          {
+            "id": "d",
+            "label": "The snapshot proves the gatekeeper observed Aster and Brin together."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Within the snapshot’s pre-bell window, the lantern would be lit after Aster’s gate arrival. Its unlit state places the hall sighting before that arrival, rather than during the later alibi.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw4",
+        "sectionId": "evidence",
+        "kind": "choice",
+        "prompt": "What can the gatekeeper’s account rule out at the instant of the ring?",
+        "context": "The gatekeeper has known Aster for years and watched her continuously at the garden gate through the single bell sound. In this invented house a ghost cannot split in two or pull the ballroom rope remotely; a hand inside the ballroom must pull it for a ring. The gatekeeper did not see who was inside.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The account excludes Aster as puller during the ring, but alone does not identify the inside ghost."
+          },
+          {
+            "id": "b",
+            "label": "The account names Brin as ringer because Brin was staying at the house."
+          },
+          {
+            "id": "c",
+            "label": "The account excludes every rope contact Aster might have made earlier that night."
+          },
+          {
+            "id": "d",
+            "label": "The account establishes that nobody inside could reach the rope during the ring."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Continuous gate sighting plus the no-splitting and inside-hand rules excludes Aster at the moment of the ring. It leaves the identity of the inside ghost open.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw5",
+        "sectionId": "evidence",
+        "kind": "choice",
+        "prompt": "Which additional record would help date the rope mark to this bell window?",
+        "context": "In this invented house every rope touch leaves the ghost’s unique mark, which lasts until the rope is wiped. Touching it need not ring the bell. A violet mark is found after the sound, but it could have survived from yesterday. Choose the record that addresses the mark’s timing rather than merely identifying its owner or a request.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A list of which ghost owns each color of mark."
+          },
+          {
+            "id": "b",
+            "label": "A transcription confirming that the bell sounded once rather than twice."
+          },
+          {
+            "id": "c",
+            "label": "A clean-rope check just before this window, plus a log of any contacts after the bell."
+          },
+          {
+            "id": "d",
+            "label": "The name on the envelope containing Aster’s request."
+          }
+        ],
+        "correct": "c",
+        "explanation": "A checked clean baseline excludes old marks, and the later contact log helps exclude marks added after the ring. Identities, ring count and the request can matter elsewhere in the case, but do not date this mark.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw6",
+        "sectionId": "evidence",
+        "kind": "match",
+        "prompt": "Reconstruct the three signs from the controlled test notes.",
+        "context": "Earlier that night the three ghosts each pressed a separate clean test card, in the order Aster, Brin, Cora. Each ghost has exactly one different sign: blue sparks, violet petals or silver mist. The observer’s partial notes say: violet appeared after Aster’s turn; Cora’s card was not violet; blue appeared before Cora’s turn. Use all three observations. These are original supernatural premises, not real evidence methods.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Blue sparks"
+          },
+          {
+            "id": "b",
+            "label": "Violet petals"
+          },
+          {
+            "id": "c",
+            "label": "Silver mist"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Cora"
+          },
+          {
+            "id": "b",
+            "label": "Aster"
+          },
+          {
+            "id": "c",
+            "label": "Brin"
+          }
+        ],
+        "pairs": {
+          "a": "b",
+          "b": "c",
+          "c": "a"
+        },
+        "explanation": "Violet came after Aster but was not Cora, so it belongs to Brin. Blue came before Cora and Brin is already violet, so Aster is blue. Cora therefore has silver mist.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw7",
+        "sectionId": "verdict",
+        "kind": "choice",
+        "prompt": "Who can be identified as the ringer under the complete case record?",
+        "context": "The gatekeeper wiped the rope clean just before Aster left the hall and saw the ballroom empty. During the single bell sound Aster remained beside the gatekeeper at the gate, and Cora remained beside them too. In this story ghosts cannot split or pull the rope remotely; a ring requires a hand on it. The pull itself latched the ballroom door until the gatekeeper inspected it. The rope then bore only violet petals. Contact marks appear on every touch, persist until wiped and cannot be transferred. Brin is violet; no fourth ghost entered the house.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aster, because she wrote the note"
+          },
+          {
+            "id": "b",
+            "label": "Cora, because she might have left no mark"
+          },
+          {
+            "id": "c",
+            "label": "No one: the bell could ring without its rope"
+          },
+          {
+            "id": "d",
+            "label": "Brin, because the bounded violet contact and both other ghosts’ alibis converge"
+          }
+        ],
+        "correct": "d",
+        "explanation": "The clean baseline and sealed inspection bound Brin’s rope contact to this window. Aster and Cora were continuously at the gate during the ring; with only these three ghosts and a hand-required pull, Brin rang. The mark alone would establish contact, not the precise instant of pulling.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw8",
+        "sectionId": "verdict",
+        "kind": "choice",
+        "prompt": "Which ending fits both the tested bell evidence and the newly opened notes?",
+        "context": "At the gate, Aster crossed after the bell. A folded note addressed to Brin is then opened: “I hoped you would hear me reach the gate. Thank you for staying until the bell.” Brin’s reply, written before Aster left the hall, says, “I will be here.” Keep the rope investigation and gate alibis in view; nobody can read Brin’s private thoughts.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Brin rang and Aster crossed; the letters prove that helping was Brin’s only private motive."
+          },
+          {
+            "id": "b",
+            "label": "Brin rang and Aster crossed; the notes support a kept promise while leaving exact private motive uncertain."
+          },
+          {
+            "id": "c",
+            "label": "Brin touched the rope, but the complete earlier record still cannot distinguish any possible ringer."
+          },
+          {
+            "id": "d",
+            "label": "Aster’s handwritten request establishes that she rang; Brin’s reply establishes only that he received it."
+          }
+        ],
+        "correct": "b",
+        "explanation": "The bounded rope evidence and simultaneous alibis identify Brin as ringer. The exchange fits a kept promise that let Aster cross, while a letter and an act cannot establish every private motive. Her apparent confession was a request answered by the ghost who stayed.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]
