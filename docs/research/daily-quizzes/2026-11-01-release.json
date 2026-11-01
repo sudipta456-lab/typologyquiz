@@ -1,0 +1,174 @@
+{
+  "localDate": "2026-11-01",
+  "timezone": "America/Edmonton",
+  "status": "published-verified-live",
+  "publishedNewQuizzes": 5,
+  "newTasks": 40,
+  "collectionQuizzes": 300,
+  "collectionTasks": 2400,
+  "categoryCounts": {
+    "PC": 31,
+    "FS": 31,
+    "MT": 29,
+    "MU": 29,
+    "GT": 29,
+    "SN": 31,
+    "HC": 31,
+    "FE": 31,
+    "SG": 29,
+    "LW": 29
+  },
+  "packetSha256": "af9e4e42e9470eb15049d558b761a6ff97867ef6c432f510115da790722639da",
+  "sourceCommit": "3a2668f8b1144c1d2321a3e22df97dbc1c34315b",
+  "deploymentVersion": "eba2526a-caef-4bac-a216-6b9f2e80a2e3",
+  "deploymentId": "293ac057-bdad-40ae-a2a1-0c6180ded2d6",
+  "deployedAtUTC": "2026-11-01T14:03:29.030813Z",
+  "trafficPercent": 100,
+  "quizzes": [
+    {
+      "id": "PC-31",
+      "slug": "zine-with-a-missing-page",
+      "title": "The Zine With a Missing Page",
+      "categoryCode": "PC",
+      "url": "https://typologyquiz.com/quizzes/zine-with-a-missing-page/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "rank"
+      ]
+    },
+    {
+      "id": "FS-31",
+      "slug": "mural-four-voices",
+      "title": "The Mural in Four Voices",
+      "categoryCode": "FS",
+      "url": "https://typologyquiz.com/quizzes/mural-four-voices/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ]
+    },
+    {
+      "id": "SN-31",
+      "slug": "seed-journeys-beyond-the-flower",
+      "title": "After the Flower: How Seeds Travel",
+      "categoryCode": "SN",
+      "url": "https://typologyquiz.com/quizzes/seed-journeys-beyond-the-flower/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "order",
+        "grid"
+      ]
+    },
+    {
+      "id": "HC-31",
+      "slug": "six-dots-many-hands",
+      "title": "Six Dots, Many Hands",
+      "categoryCode": "HC",
+      "url": "https://typologyquiz.com/quizzes/six-dots-many-hands/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match"
+      ]
+    },
+    {
+      "id": "FE-31",
+      "slug": "what-fermentation-changes",
+      "title": "What Fermentation Changes",
+      "categoryCode": "FE",
+      "url": "https://typologyquiz.com/quizzes/what-fermentation-changes/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "order",
+        "grid"
+      ]
+    }
+  ],
+  "independentReview": {
+    "provider": "Authenticated GPT subscription, fresh read-only sessions",
+    "fullReviewPacketSha256": "3fd467153c0fc6f4e7f2a5ccff7c4800fa967be7d4d756f41faf7ddf068ea6f1",
+    "fullReview": "review-3.md",
+    "exactSevenFieldClosure": "review-closure.md",
+    "status": "PASS combined full review plus exact-field closure; no fresh full factual-review claim",
+    "record": "2026-11-01-review.md",
+    "earlierHoldsRetained": true
+  },
+  "verification": {
+    "fullVerify": {
+      "at": "2026-11-01T14:00:05.746628+00:00",
+      "command": "./scripts/mac-run.sh npm run verify",
+      "exitCode": 0,
+      "testsPassed": 311,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": "Three existing no-img-element warnings",
+      "packetSha256": "af9e4e42e9470eb15049d558b761a6ff97867ef6c432f510115da790722639da"
+    },
+    "productionBuild": {
+      "at": "2026-11-01T14:00:05.753252+00:00",
+      "command": "./scripts/mac-run.sh npm run deploy -- --dry-run",
+      "exitCode": 0,
+      "packetSha256": "af9e4e42e9470eb15049d558b761a6ff97867ef6c432f510115da790722639da",
+      "htmlPages": 1620,
+      "sitemapURLs": 884,
+      "analyticsChunk": "_next/static/chunks/0v312_nv7iz6m.js",
+      "GAEnabled": true,
+      "tagId": "G-TZ9B8MB7SP",
+      "destinationId": "G-RVHFFPF0W1",
+      "handbookBundled": false,
+      "routingAndBindings": "Existing Worker-first routing/bindings unchanged",
+      "deployed": false,
+      "sourceCommit": "3a2668f8b1144c1d2321a3e22df97dbc1c34315b"
+    },
+    "allPriorQuizAndBriefObjectsByteIdentical": 295,
+    "mobileTaskBodiesChecked": 40,
+    "desktopTasksChecked": 8,
+    "finalAffectedMobileClosureTasks": 16,
+    "productionTasksChecked": 8,
+    "resumeAtTask4": true,
+    "consistentSharingControls": true,
+    "liveResponses": 16,
+    "everyNewURL200AndMatchesExport": true,
+    "sitemapURLs": 884,
+    "allFiveInSitemapAndLlms": true,
+    "selfCanonicalsQuizSchemaAndMethodologyLinks": true,
+    "R2": "200 image/png immutable",
+    "analyticsDelivery": {
+      "at": "2026-11-01T14:06:00.299Z",
+      "propertyId": "545477353",
+      "event": "interactive_quiz_complete",
+      "quizId": "FE-31",
+      "count": 1,
+      "visibleRow": "FE-31\t1",
+      "classification": "Operator production QA; not organic engagement or independent audience conversion",
+      "productionCompletedAt": "2026-11-01T14:04:45.336Z"
+    }
+  },
+  "research": {
+    "allFourRequestedRegionsRefreshed": true,
+    "EuropeSample": "French-language JetPunk, not national or all-Europe demand",
+    "JapanPeriod": "11/1update,10/25–10/31 aggregation; earlier snapshot separate",
+    "SouthKoreaPeriod": "Weekly top12 label without exact dates; displayed totals not weekly counts",
+    "ChinaGap": "No verified current China-wide ranking, engagement growth, date or visitor-geography evidence; generic mechanism only, no commercial reuse",
+    "NorthAmerica": "Latest growth/scout handoffs read; sparse aggregate events overlap operator QA; no causal publishing/engagement claim"
+  },
+  "preservation": {
+    "existingQuizzes": 295,
+    "existingBriefs": 295,
+    "initialIdentityAndLegacyFixturesUnchanged": true,
+    "historicalReleaseRecordsUnchanged": true,
+    "october27NotBackfilled": true,
+    "trackingPrivacyCredentialsAccountsWorkerRoutingBindingsUnchanged": true,
+    "newsMediaOutreachNotChanged": true
+  }
+}
