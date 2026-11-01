@@ -11783,5 +11783,311 @@
         ]
       }
     ]
+  },
+  {
+    "id": "SN-31",
+    "slug": "seed-journeys-beyond-the-flower",
+    "categoryId": "science-nature",
+    "title": "After the Flower: How Seeds Travel",
+    "description": "Follow seeds through wings, digestion, forceful release and humidity-controlled cones. Separate release, travel, dormancy and population-level survival across eight discoveries.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "departure",
+        "title": "Leaving the plant"
+      },
+      {
+        "id": "route",
+        "title": "Reading the carrier"
+      },
+      {
+        "id": "arrival",
+        "title": "What the clue can prove"
+      }
+    ],
+    "sources": [
+      {
+        "id": "usfs",
+        "kind": "reference",
+        "label": "US Forest Service, Woody Plant Seed Manual, chapter 1",
+        "url": "https://www.fs.usda.gov/nsl/Wpsm/Chapter1.pdf"
+      },
+      {
+        "id": "kew",
+        "kind": "reference",
+        "label": "Royal Botanic Gardens, Kew, How plants hitchhike on animal poo",
+        "url": "https://www.kew.org/read-and-watch/plant-seed-dispersal-animal-poo"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, choices and reasoning authored for this quiz."
+      }
+    ],
+    "note": "Source-based mechanism questions and explicitly invented observation cards. A shape suggests a route but does not prove one seed’s path; a landed seed is not proof of germination. No flower-to-fruit reproduction or seed arithmetic.",
+    "questions": [
+      {
+        "id": "sn31-1",
+        "sectionId": "departure",
+        "kind": "choice",
+        "prompt": "A small dry seed has a broad papery wing. Which journey does that shape make most plausible?",
+        "context": "Original observation card: the seed is dry, exposed and winged; no animal, fruit rupture or trip was observed.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A trip inside an animal after fleshy fruit is eaten"
+          },
+          {
+            "id": "b",
+            "label": "A trip aided by moving air"
+          },
+          {
+            "id": "c",
+            "label": "A trip propelled by a suddenly splitting fruit"
+          }
+        ],
+        "correct": "b",
+        "explanation": "A wing increases the area available to moving air relative to the seed. The Forest Service describes wings on wind-dispersed woody seeds. A wing alone does not document this seed’s actual route.",
+        "sourceIds": [
+          "usfs",
+          "original"
+        ]
+      },
+      {
+        "id": "sn31-2",
+        "sectionId": "departure",
+        "kind": "choice",
+        "prompt": "Which new observation would best distinguish stream transport from a wind-only story for one marked seed?",
+        "context": "Original field question: a winged marked seed was found on a bank after a windy day. Its trip was not witnessed; choose an observation to seek, not a claim that its wing determines the whole route.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A second similar seed appears on the bank"
+          },
+          {
+            "id": "b",
+            "label": "The marked seed has a pale coat"
+          },
+          {
+            "id": "c",
+            "label": "The marked seed is seen floating with the current"
+          }
+        ],
+        "correct": "c",
+        "explanation": "Seeing the same marked seed afloat and moving with current directly documents a water leg. A similar seed or coat color cannot establish its route.",
+        "sourceIds": [
+          "usfs",
+          "original"
+        ]
+      },
+      {
+        "id": "sn31-3",
+        "sectionId": "departure",
+        "kind": "choice",
+        "prompt": "A bird eats a fleshy fruit. Later, intact seeds appear in its droppings. Which feature best explains how this route can carry a seed?",
+        "context": "Original observation model: the bird swallowed seeds without chewing them, and intact seeds were found later. The route is observed in this model, but germination was not.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A protective seed coat can resist digestion"
+          },
+          {
+            "id": "b",
+            "label": "Brief transit makes every swallowed seed survive"
+          },
+          {
+            "id": "c",
+            "label": "The fleshy pulp stays intact and shields the seed throughout digestion"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Kew describes some swallowed seeds surviving passage because a protective coat resists digestion. Transit does not guarantee survival for every seed, and the pulp is digested.",
+        "sourceIds": [
+          "kew",
+          "original"
+        ]
+      },
+      {
+        "id": "sn31-4",
+        "sectionId": "route",
+        "kind": "order",
+        "prompt": "Put these shuffled cards into a possible forceful-release sequence.",
+        "context": "Original four-card model of one dry fruit. It gives the parts and events but no chronology. The sequence is conceptual and makes no claim about distance.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Seed comes to rest away from the fruit"
+          },
+          {
+            "id": "b",
+            "label": "Dry fruit wall tightens"
+          },
+          {
+            "id": "c",
+            "label": "Seed leaves the opened fruit"
+          },
+          {
+            "id": "d",
+            "label": "Fruit wall splits"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "d",
+          "c",
+          "a"
+        ],
+        "explanation": "Drying can build tension; a sudden split ejects the seed, which later lands. The Forest Service names ceanothus and witch-hazel as examples, while Kew calls this ballistic dispersal.",
+        "sourceIds": [
+          "usfs",
+          "kew",
+          "original"
+        ]
+      },
+      {
+        "id": "sn31-5",
+        "sectionId": "route",
+        "kind": "choice",
+        "prompt": "A loblolly pine cone opens in warm, dry air and closes as humidity rises. What does this change most directly regulate?",
+        "context": "Original observation based on the Forest Service account: loose seeds remain inside before the cone opens. No seedlings are being observed.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Whether a bird can digest every seed"
+          },
+          {
+            "id": "b",
+            "label": "Whether the seeds have already germinated"
+          },
+          {
+            "id": "c",
+            "label": "When seeds can leave the cone"
+          }
+        ],
+        "correct": "c",
+        "explanation": "The Forest Service describes warm, dry opening and humid closing in loblolly pine cones. The moving scales regulate release; they are not a record of germination or digestive survival.",
+        "sourceIds": [
+          "usfs",
+          "original"
+        ]
+      },
+      {
+        "id": "sn31-6",
+        "sectionId": "arrival",
+        "kind": "grid",
+        "prompt": "Three seed lots have different delays. Which event is each note actually about?",
+        "context": "Original research summaries distinguish an unopened cone from a released, living seed. Classify the bottleneck, rather than assuming every delay is the same.",
+        "cells": [
+          {
+            "id": "a",
+            "label": "Mature living seeds are still trapped behind closed cone scales",
+            "options": [
+              {
+                "id": "a",
+                "label": "Release from the parent structure"
+              },
+              {
+                "id": "b",
+                "label": "Germination after release"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "Seeds are already on the ground; an internal dormancy requirement has not yet been overcome",
+            "options": [
+              {
+                "id": "a",
+                "label": "Release from the parent structure"
+              },
+              {
+                "id": "b",
+                "label": "Germination after release"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "The fruit remains attached to its branch, retaining the seeds inside",
+            "options": [
+              {
+                "id": "a",
+                "label": "Release from the parent structure"
+              },
+              {
+                "id": "b",
+                "label": "Germination after release"
+              }
+            ],
+            "correct": "a"
+          }
+        ],
+        "explanation": "Retention and dormancy can both delay the next visible change, but at different stages. A living seed may be released yet remain dormant. These cases do not prescribe a species-specific treatment.",
+        "sourceIds": [
+          "usfs",
+          "original"
+        ]
+      },
+      {
+        "id": "sn31-7",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "A winged seed is recovered from bird droppings on a riverside path. Which account is best supported?",
+        "context": "Original card: the intact seed and the droppings were observed together; nobody saw the bird eat it or the seed germinate.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The wing proves it flew all the way to the path"
+          },
+          {
+            "id": "b",
+            "label": "Its present location proves it grew there"
+          },
+          {
+            "id": "c",
+            "label": "It survived an animal-carried leg, but its earlier and later route remains open"
+          }
+        ],
+        "correct": "c",
+        "explanation": "The droppings support an ingestion route for this seed; its wing might support another possible leg, and a riverside location does not prove water travel or growth. Kew explains the animal mechanism.",
+        "sourceIds": [
+          "kew",
+          "usfs",
+          "original"
+        ]
+      },
+      {
+        "id": "sn31-8",
+        "sectionId": "arrival",
+        "kind": "choice",
+        "prompt": "Why can a dispersal strategy be useful even when only a small fraction of its seeds become surviving seedlings?",
+        "context": "The question concerns populations and future habitat, not the fate of the individually marked seed in the earlier cards.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Its success depends on every transported seed landing in identical conditions"
+          },
+          {
+            "id": "b",
+            "label": "Transport can reach suitable sites even though many individual seeds never establish"
+          },
+          {
+            "id": "c",
+            "label": "Producing many seeds makes the later conditions for growth irrelevant"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The Forest Service describes large seed production with only a small fraction germinating and surviving; Kew explains transport to potentially more favourable environments. The opportunity to reach suitable sites matters without a guarantee for each seed.",
+        "sourceIds": [
+          "usfs",
+          "kew"
+        ]
+      }
+    ]
   }
 ]

@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 30,
+      "count": 31,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 30,
+      "count": 31,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 30,
+      "count": 31,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 30,
+      "count": 31,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 30,
+      "count": 31,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -6370,6 +6370,116 @@
       "category_code": "LW",
       "wave": "daily-2026-10-31",
       "evidence_class": "seasonal"
+    },
+    {
+      "id": "PC-31",
+      "title": "The Zine With a Missing Page",
+      "slug": "zine-with-a-missing-page",
+      "kind": "preference",
+      "hook": "An unfinished bridge story has one missing page. Make eight editorial decisions about cuts, contradictions and reader routes; compare two descriptive design preferences at the end.",
+      "rounds": [
+        "2 tasks: An edit with a cost",
+        "3 tasks: The missing page",
+        "3 tasks: Give the reader a route"
+      ],
+      "seed": "Two scenes want the same opening panel. What would you print?",
+      "payoff": "Two session-only design scales: Distill versus Layer, and Guided route versus Reader-made route.",
+      "audience": "People who enjoy a concrete, low-stakes reflection on an unfinished creative idea.",
+      "evidence": "Evergreen editorial fit; small, QA-overlapped site events and regional portal samples do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "An original text-only editorial workshop with a fixed sequence. Choices describe this zine design, not your personality, ability or wellbeing. The result shows two preference scales; it does not generate a zine or change later questions.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-11-01",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FS-31",
+      "title": "The Mural in Four Voices",
+      "slug": "mural-four-voices",
+      "kind": "cooperative",
+      "hook": "Restore a fictional mural by combining makers’ evidence, a mirrored photograph, two partial views and an unveiling agreement. Its final invitation needs all four panels.",
+      "rounds": [
+        "3 tasks: Four separate cards",
+        "3 tasks: Make the panels meet",
+        "2 tasks: Credit the whole work"
+      ],
+      "seed": "Which neighbor made the Lantern panel?",
+      "payoff": "Reconstruct MEET HERE from four panels and a solved order, after combining different people’s evidence.",
+      "audience": "Friends who enjoy pooling short clues into one fair group answer.",
+      "evidence": "Evergreen editorial fit; small, QA-overlapped site events and regional portal samples do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "Original solo-playable group puzzle. Each task supplies a finite fictional clue set; players may discuss but no live cooperation is implied. Ada installed the panels and did not paint them. Keyed answers follow the stated evidence.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-11-01",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-31",
+      "title": "After the Flower: How Seeds Travel",
+      "slug": "seed-journeys-beyond-the-flower",
+      "kind": "knowledge",
+      "hook": "Follow seeds through wings, digestion, forceful release and humidity-controlled cones. Separate release, travel, dormancy and population-level survival across eight discoveries.",
+      "rounds": [
+        "3 tasks: Leaving the plant",
+        "2 tasks: Reading the carrier",
+        "3 tasks: What the clue can prove"
+      ],
+      "seed": "A small dry seed has a broad papery wing. Which journey does that shape make most plausible?",
+      "payoff": "Distinguish physical dispersal, humidity-controlled release, dormancy and the survival of only part of a seed population.",
+      "audience": "Curious readers who like natural mechanisms they can picture without photos.",
+      "evidence": "Evergreen editorial fit; small, QA-overlapped site events and regional portal samples do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "Source-based mechanism questions and explicitly invented observation cards. A shape suggests a route but does not prove one seed’s path; a landed seed is not proof of germination. No flower-to-fruit reproduction or seed arithmetic.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-11-01",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "HC-31",
+      "title": "Six Dots, Many Hands",
+      "slug": "six-dots-many-hands",
+      "kind": "knowledge",
+      "hook": "Discover writable raised points, Braille’s early music method and the people and tools behind wider access. Finish with the surprising gap between a shared standard and identical practice.",
+      "rounds": [
+        "2 tasks: An idea readers could write",
+        "2 tasks: A system with range",
+        "4 tasks: From a room to readers"
+      ],
+      "seed": "A school has raised-print books that students can read, but wants them to make and reread their own notes. Which addition addresses that obstacle most directly?",
+      "payoff": "Connect code, production, distribution and tactile devices, then explain how braille standards could converge and later diverge.",
+      "audience": "Readers who enjoy how an invention became usable and reachable.",
+      "evidence": "Evergreen editorial fit; small, QA-overlapped site events and regional portal samples do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "Historical questions use the Library of Congress exhibit, an NLS institutional summary of primary-document research, and the NLS milestone timeline. The older military-night-writing and early-meeting story is not taught as fact. No simulated blindness or diagnostic claim.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-11-01",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FE-31",
+      "title": "What Fermentation Changes",
+      "slug": "what-fermentation-changes",
+      "kind": "knowledge",
+      "hook": "Read kitchen-science cases about sugar, acids, gas and protein. Trace a vinegar stage, test what lab measurements can establish, and finish with cacao’s journey toward chocolate flavour.",
+      "rounds": [
+        "3 tasks: The vegetable jar",
+        "3 tasks: Different products",
+        "2 tasks: Dough and cacao"
+      ],
+      "seed": "In a confirmed lactic fermentation of cabbage, which conversion accounts for falling available sugar and increasing acidity?",
+      "payoff": "Explain different microbial products without overreading a pH or gas measurement, and connect fermentation with later cacao roasting.",
+      "audience": "Everyday cooks curious about the process behind familiar foods.",
+      "evidence": "Evergreen editorial fit; small, QA-overlapped site events and regional portal samples do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "Conceptual food-science questions only. Fictional comparison logs are explicitly limited and not recipes, safety checks, medical guidance or claims about a real batch. Bubbles are never evidence of safety.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-11-01",
+      "evidence_class": "evergreen"
     }
   ]
 }

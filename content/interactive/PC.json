@@ -10276,5 +10276,366 @@
         ]
       }
     ]
+  },
+  {
+    "id": "PC-31",
+    "slug": "zine-with-a-missing-page",
+    "categoryId": "personality-choices",
+    "title": "The Zine With a Missing Page",
+    "description": "An unfinished bridge story has one missing page. Make eight editorial decisions about cuts, contradictions and reader routes; compare two descriptive design preferences at the end.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 5,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "spark",
+        "title": "An edit with a cost"
+      },
+      {
+        "id": "pause",
+        "title": "The missing page"
+      },
+      {
+        "id": "return",
+        "title": "Give the reader a route"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, choices and reasoning authored for this quiz."
+      }
+    ],
+    "note": "An original text-only editorial workshop with a fixed sequence. Choices describe this zine design, not your personality, ability or wellbeing. The result shows two preference scales; it does not generate a zine or change later questions.",
+    "questions": [
+      {
+        "id": "pc31-1",
+        "sectionId": "spark",
+        "kind": "choice",
+        "prompt": "Two scenes want the same opening panel. What would you print?",
+        "context": "Original story: the bridge appears at dusk. One scene shows a commuter crossing; another shows the river remembering that commuter. There is room for one full-size panel or two small ones.",
+        "options": [
+          {
+            "id": "a",
+            "label": "One large scene; save the other for a different zine",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "One large scene with a narrow echo of the other in its border",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Two small scenes whose meanings rub against each other",
+            "weights": [
+              100,
+              0
+            ]
+          }
+        ],
+        "explanation": "The tradeoff is legibility and focus versus simultaneous material. None is the correct opening.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc31-2",
+        "sectionId": "spark",
+        "kind": "rank",
+        "prompt": "Rank the four edits you would try on an overcrowded spread.",
+        "context": "All four can fit the paper. Rank the editorial move you want to try first, not its technical difficulty.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Cut the least necessary panel",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Replace two captions with one short line",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Overlay a translucent alternate panel",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Keep an alternate caption in the margin",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "Cutting and condensing distill; overlays and marginal alternatives layer. This ranking concerns edits to this spread.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc31-3",
+        "sectionId": "pause",
+        "kind": "choice",
+        "prompt": "The picture shows a crowded bridge; the narrator calls it empty. Which edit earns its place?",
+        "context": "The conflict is deliberate material, not an error with a right answer. You can print any version.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep the picture and remove the conflicting sentence",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Keep the sentence, with one small visual exception",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Keep both accounts and let their contradiction remain unresolved",
+            "weights": [
+              100,
+              0
+            ]
+          }
+        ],
+        "explanation": "The options give the contradiction progressively more room. They make different reading experiences without grading a reader or maker.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc31-4",
+        "sectionId": "pause",
+        "kind": "choice",
+        "prompt": "One page has gone missing from the draft. What do you put in its place?",
+        "context": "You know its plot event, but the original drawing is gone. Reprinting the rest is possible in every option.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A brief bridge sentence that restores the event",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A small reconstruction plus a note about the gap",
+            "weights": [
+              50,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fragments from abandoned drafts around a visible empty rectangle",
+            "weights": [
+              100,
+              0
+            ]
+          }
+        ],
+        "explanation": "A repaired transition distills the gap; a fragment page makes its layers part of the work. No download or generated page is produced here.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc31-5",
+        "sectionId": "pause",
+        "kind": "choice",
+        "prompt": "A reader reaches a fork on the bridge. How will the page turn work?",
+        "context": "Both destinations already exist in your fictional draft. Choose the instruction the printed page would give.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Number the panels so the crossing has one clear route",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Recommend a route, with a marked optional detour",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Let two arrows lead to different starting panels on the next spread",
+            "weights": [
+              0,
+              100
+            ]
+          }
+        ],
+        "explanation": "This moves from an author-set route to a reader-constructed route; it does not measure social confidence or openness.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc31-6",
+        "sectionId": "return",
+        "kind": "rank",
+        "prompt": "Rank the devices you would use to connect a repeated river image.",
+        "context": "The same river appears on four pages. These are imagined print devices; the quiz itself remains a fixed sequence.",
+        "items": [
+          {
+            "id": "a",
+            "label": "A page-number reference beside each appearance",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A short caption that states what the recurrence means",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "c",
+            "label": "An unlabelled symbol the reader can trace between pages",
+            "weights": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "d",
+            "label": "An empty caption box where a reader may write their own connection",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "Explicit references guide the connection; an unlabelled trail and an open caption give the reader more authorship of it.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc31-7",
+        "sectionId": "return",
+        "kind": "choice",
+        "prompt": "A reader can miss the tiny figure underneath the bridge. How would you handle that possibility?",
+        "context": "No interpretation is a test score. Every version is equally printable.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Add a close-up panel so the figure becomes part of the main route",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Add a quiet return arrow for readers who want another look",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Leave the figure as an optional discovery with no instruction",
+            "weights": [
+              0,
+              100
+            ]
+          }
+        ],
+        "explanation": "The choice changes how strongly the layout directs attention. It makes no claim that one reader sees better than another.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc31-8",
+        "sectionId": "return",
+        "kind": "choice",
+        "prompt": "The last page ends at the gap. Which final printed invitation would you choose?",
+        "context": "The bridge story remains unfinished. Choose an ending device; the result will summarize only the two design scales.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A return arrow to the exact opening panel",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A choice of two earlier pages to revisit",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A blank return-arrow label that the reader can fill with a page of their own choosing",
+            "weights": [
+              0,
+              100
+            ]
+          }
+        ],
+        "explanation": "The ending gives a concrete way back: a set return, a small choice or a reader-made route. Your final summary describes editorial choices, not an inferred personal type.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "edit-budget",
+        "low": "Distill",
+        "high": "Layer",
+        "description": "In this zine workshop, whether your edits remove competing material or keep several versions in play."
+      },
+      {
+        "id": "reader-route",
+        "low": "Guided route",
+        "high": "Reader-made route",
+        "description": "In this zine workshop, how much of the route you set versus leave for the reader to construct."
+      }
+    ]
   }
 ]

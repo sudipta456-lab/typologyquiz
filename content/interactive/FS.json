@@ -11258,5 +11258,308 @@
         "unscored": true
       }
     ]
+  },
+  {
+    "id": "FS-31",
+    "slug": "mural-four-voices",
+    "categoryId": "friends-social-play",
+    "title": "The Mural in Four Voices",
+    "description": "Restore a fictional mural by combining makers’ evidence, a mirrored photograph, two partial views and an unveiling agreement. Its final invitation needs all four panels.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "cards",
+        "title": "Four separate cards"
+      },
+      {
+        "id": "join",
+        "title": "Make the panels meet"
+      },
+      {
+        "id": "label",
+        "title": "Credit the whole work"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, choices and reasoning authored for this quiz."
+      }
+    ],
+    "note": "Original solo-playable group puzzle. Each task supplies a finite fictional clue set; players may discuss but no live cooperation is implied. Ada installed the panels and did not paint them. Keyed answers follow the stated evidence.",
+    "questions": [
+      {
+        "id": "fs31-1",
+        "sectionId": "cards",
+        "kind": "choice",
+        "prompt": "Which neighbor made the Lantern panel?",
+        "context": "Maker slips: Tali used a stencil; Mei used a palette knife; Noor and Ivo used brushes. Image cards: Lantern has tiny amber lights; Doorway has a rectangular opening. Both were brush-painted by different makers. Noor’s slip mentions corners; Ivo’s mentions tiny amber strokes. One maker made each of River, Doorway, Lantern and Hill.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tali"
+          },
+          {
+            "id": "b",
+            "label": "Ivo"
+          },
+          {
+            "id": "c",
+            "label": "Noor"
+          },
+          {
+            "id": "d",
+            "label": "Mei"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Ivo is the only maker linked to a brush and amber marks. The amber marks are on Lantern; Noor’s brush made a rectangle. Tali and Mei used different tools.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs31-2",
+        "sectionId": "cards",
+        "kind": "match",
+        "prompt": "Match each unsigned work note to the panel it identifies.",
+        "context": "Closed set: exactly these four panels exist, one for each note. The strips show a blue water stripe, a rectangular opening, amber lights and a scraped skyline, one motif per strip.",
+        "left": [
+          {
+            "id": "a",
+            "label": "“I cut a blue stripe from a stencil.”"
+          },
+          {
+            "id": "b",
+            "label": "“My brush made the rectangular opening.”"
+          },
+          {
+            "id": "c",
+            "label": "“I dabbed little amber lights.”"
+          },
+          {
+            "id": "d",
+            "label": "“I scraped a skyline with a knife.”"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Hill"
+          },
+          {
+            "id": "b",
+            "label": "Lantern"
+          },
+          {
+            "id": "c",
+            "label": "River"
+          },
+          {
+            "id": "d",
+            "label": "Doorway"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "d",
+          "c": "b",
+          "d": "a"
+        },
+        "explanation": "The tool and motif pairs identify River, Doorway, Lantern and Hill respectively. The notes give identity evidence without giving their positions.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs31-3",
+        "sectionId": "cards",
+        "kind": "choice",
+        "prompt": "Which note can settle left and right without relying on the reflected photograph?",
+        "context": "Original installation evidence: one photo was taken in a mirror, so its apparent left and right are reversed. A visitor remembers standing opposite the mural but did not record where. Ada marked the wall itself WEST at one end and EAST at the other; her survey note says the River socket is nearer WEST than the Doorway socket. The question concerns wall positions, not the viewer’s viewpoint.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ada’s wall-labelled socket survey"
+          },
+          {
+            "id": "b",
+            "label": "The mirrored photo’s apparent right-to-left order"
+          },
+          {
+            "id": "c",
+            "label": "The visitor’s memory of which panel was on their left"
+          },
+          {
+            "id": "d",
+            "label": "The number of lights painted on Lantern"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The survey anchors the relation to named ends of the actual wall. The mirror reverses apparent direction; the visitor’s unrecorded viewpoint is insufficient. This does not yet order all four panels.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs31-4",
+        "sectionId": "join",
+        "kind": "order",
+        "prompt": "Place the panels left to right using only these partial constraints.",
+        "context": "Exactly four panels fill four slots once each. Hill is the far-right panel. River is somewhere left of Doorway, and Doorway is somewhere left of Lantern. “Left of” does not mean “next to.”",
+        "items": [
+          {
+            "id": "a",
+            "label": "Hill"
+          },
+          {
+            "id": "b",
+            "label": "Doorway"
+          },
+          {
+            "id": "c",
+            "label": "River"
+          },
+          {
+            "id": "d",
+            "label": "Lantern"
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "b",
+          "d",
+          "a"
+        ],
+        "explanation": "Hill occupies the right end. Of the remaining panels, River precedes Doorway, and Doorway precedes Lantern. That leaves River, Doorway, Lantern, Hill; no adjacency chain was supplied.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs31-5",
+        "sectionId": "join",
+        "kind": "choice",
+        "prompt": "What can the two viewers establish about the shape hidden behind the doorway flap?",
+        "context": "Original text-only scene: Noor can see the left part of a painted shape, with a curved tail and two legs. Ivo sees the right part, with a pointed ear and a whiskered muzzle. Neither can lift the flap. Their drawings share one continuous body outline at the same height. These are observations of a painting, not an actual animal.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The flap hides exactly one further leg"
+          },
+          {
+            "id": "b",
+            "label": "The figure was painted by Noor alone"
+          },
+          {
+            "id": "c",
+            "label": "The two visible pieces plausibly belong to the same cat-like figure"
+          },
+          {
+            "id": "d",
+            "label": "The flap covers a written name rather than a drawing"
+          }
+        ],
+        "correct": "c",
+        "explanation": "The continuous outline and complementary features support one cat-like painted figure. The evidence does not establish hidden leg count, authorship or a written name. Combining views adds information unavailable to either viewer alone.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs31-6",
+        "sectionId": "join",
+        "kind": "choice",
+        "prompt": "Which unveiling plan meets all three neighbors’ stated needs?",
+        "context": "Original agreement: Noor needs the doorway flap opened at least once; Ivo needs the painted letters to be readable while the main lights are on; Mei wants a quiet interval with no speaking. The main lights and flap can be operated independently. There is no time limit or rule requiring a blackout.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep the main lights on, open the flap, and include a silent interval"
+          },
+          {
+            "id": "b",
+            "label": "Switch the main lights off for the entire unveiling; open the flap in silence"
+          },
+          {
+            "id": "c",
+            "label": "Keep the main lights on and discuss every panel without a pause"
+          },
+          {
+            "id": "d",
+            "label": "Leave the flap shut; illuminate the lettering and hold a silent interval"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The plan with lit letters, an opened flap and a silent interval meets all three stated needs. Each other proposal omits one need. This is a shared-plan inference, not another panel-order check.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs31-7",
+        "sectionId": "label",
+        "kind": "choice",
+        "prompt": "Which revision to the draft credit is supported by both surviving records?",
+        "context": "Original draft credit: “Panels by Tali, Noor and Ivo; installation and final panel by Ada.” A dated delivery slip signed by Mei lists “Hill, painted and delivered by me.” Ada’s invoice lists “mounting all four completed panels” and no painting. There is no record naming a single designer of the whole mural.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep Ada as Hill’s painter because she mounted it last"
+          },
+          {
+            "id": "b",
+            "label": "Add Mei as the sole designer of the complete route"
+          },
+          {
+            "id": "c",
+            "label": "Add Mei as Hill’s painter and retain Ada as installer"
+          },
+          {
+            "id": "d",
+            "label": "Remove Ada entirely because installation is not authorship"
+          }
+        ],
+        "correct": "c",
+        "explanation": "Mei’s delivery slip and Ada’s invoice distinguish a missing maker credit from installation. Neither record establishes sole design of the route, and correcting authorship need not erase installation work.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs31-8",
+        "sectionId": "label",
+        "kind": "choice",
+        "prompt": "Reassemble the four makers’ invitation. What kind of place does it turn the mural into?",
+        "context": "New original letter cards: Hill carries RE; River carries ME; Lantern carries HE; Doorway carries ET. Read each two-letter card normally, then join the cards in the installed left-to-right panel order you reconstructed earlier. The earlier four-slot constraints still apply: Hill ends the row; River precedes Doorway, which precedes Lantern. Spaces may be inserted after decoding.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A notice asking the makers to erase their panels"
+          },
+          {
+            "id": "b",
+            "label": "A marker inviting people to gather at this spot"
+          },
+          {
+            "id": "c",
+            "label": "An instruction to donate the work somewhere else"
+          },
+          {
+            "id": "d",
+            "label": "A message announcing that the corridor is closed"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The installed order is River, Doorway, Lantern, Hill. ME + ET + HE + RE becomes MEET HERE. The invitation only emerges after combining the order and all four separate letter cards. The printed work is an original fictional social puzzle.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

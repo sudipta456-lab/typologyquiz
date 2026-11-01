@@ -11672,5 +11672,286 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HC-31",
+    "slug": "six-dots-many-hands",
+    "categoryId": "history-culture",
+    "title": "Six Dots, Many Hands",
+    "description": "Discover writable raised points, Braille’s early music method and the people and tools behind wider access. Finish with the surprising gap between a shared standard and identical practice.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "points",
+        "title": "An idea readers could write"
+      },
+      {
+        "id": "code",
+        "title": "A system with range"
+      },
+      {
+        "id": "reach",
+        "title": "From a room to readers"
+      }
+    ],
+    "sources": [
+      {
+        "id": "loc-overview",
+        "kind": "reference",
+        "label": "Library of Congress, Louis Braille: His Legacy and Influence",
+        "url": "https://www.loc.gov/exhibits/louis-braille/overview.html"
+      },
+      {
+        "id": "nls-history",
+        "kind": "reference",
+        "label": "National Library Service, New Lessons in Braille History",
+        "url": "https://blogs.loc.gov/nls-music-notes/2022/04/new-lessons-in-braille-history/"
+      },
+      {
+        "id": "nls-timeline",
+        "kind": "reference",
+        "label": "National Library Service, Braille 200 timeline",
+        "url": "https://www.loc.gov/nls/braille-200/"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional exhibit problems; historical claims are cited separately."
+      }
+    ],
+    "note": "Historical questions use the Library of Congress exhibit, an NLS institutional summary of primary-document research, and the NLS milestone timeline. The older military-night-writing and early-meeting story is not taught as fact. No simulated blindness or diagnostic claim.",
+    "questions": [
+      {
+        "id": "hc31-1",
+        "sectionId": "points",
+        "kind": "choice",
+        "prompt": "A school has raised-print books that students can read, but wants them to make and reread their own notes. Which addition addresses that obstacle most directly?",
+        "context": "Original exhibit problem based on the NLS history account. The question asks about note-making, not about whether all books were accessible.",
+        "options": [
+          {
+            "id": "a",
+            "label": "More copies of the same raised-print pages"
+          },
+          {
+            "id": "b",
+            "label": "Raised-point writing tools students can use themselves"
+          },
+          {
+            "id": "c",
+            "label": "Larger printed headings on the existing pages"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The NLS account reports that a trial of Barbier’s point-writing equipment let students write and reread notes; the earlier raised-type cursive at the school had been read, not written, by students.",
+        "sourceIds": [
+          "nls-history"
+        ]
+      },
+      {
+        "id": "hc31-2",
+        "sectionId": "points",
+        "kind": "choice",
+        "prompt": "Which proposed exhibit caption best separates Barbier’s and Braille’s documented contributions?",
+        "context": "The archive team wants a caption about contributions. Its evidence pack contains an NLS research summary and a Library of Congress exhibition overview; the proposed captions are the claims to test.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Barbier supplied a finished six-dot code; Braille only renamed it."
+          },
+          {
+            "id": "b",
+            "label": "Braille invented raised points without any earlier proposal or tools."
+          },
+          {
+            "id": "c",
+            "label": "Barbier advanced raised-point writing and tools; Braille developed a distinct six-dot reading and writing system."
+          }
+        ],
+        "correct": "c",
+        "explanation": "The NLS research summary credits Barbier’s proposal and tools and Braille’s later innovations. It does not support treating either person as the sole source of every part.",
+        "sourceIds": [
+          "nls-history",
+          "loc-overview"
+        ]
+      },
+      {
+        "id": "hc31-3",
+        "sectionId": "code",
+        "kind": "choice",
+        "prompt": "A curator needs one accurate sentence about Braille’s six-dot cell. Which should they use?",
+        "context": "The label is for a tactile writing exhibit. No real braille symbol or invented dot pattern is shown.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Its six positions allow different raised-point patterns to represent symbols."
+          },
+          {
+            "id": "b",
+            "label": "Each symbol is a raised outline of the printed letter."
+          },
+          {
+            "id": "c",
+            "label": "The same six raised points represent every symbol; context supplies the difference."
+          }
+        ],
+        "correct": "a",
+        "explanation": "The Library of Congress describes a six-position cell with many possible patterns for letters, punctuation and key symbols. The varying pattern, not a print outline or an identical full cell, carries information.",
+        "sourceIds": [
+          "loc-overview"
+        ]
+      },
+      {
+        "id": "hc31-4",
+        "sectionId": "code",
+        "kind": "choice",
+        "prompt": "A catalog describes Braille’s 1829 method as “words only.” Which correction fits the documented publication?",
+        "context": "The cataloger has the year and author but is checking the scope of the publication.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Music appeared only after library transcription services began."
+          },
+          {
+            "id": "b",
+            "label": "It also treated music in raised points."
+          },
+          {
+            "id": "c",
+            "label": "It treated mathematics but excluded music."
+          }
+        ],
+        "correct": "b",
+        "explanation": "The NLS history summary says Braille’s 1829 publication explained raised-point writing for words and music. Music was present earlier than the later library services, and a math-only correction would still miss it.",
+        "sourceIds": [
+          "nls-history"
+        ]
+      },
+      {
+        "id": "hc31-5",
+        "sectionId": "reach",
+        "kind": "match",
+        "prompt": "A fictional exhibit has three access gaps. Match each to the historical development that addresses that particular gap.",
+        "context": "These are distinct obstacles, not dates to sort. Use the documented role of each development; the fictional readers and missing materials are not historical people.",
+        "left": [
+          {
+            "id": "a",
+            "label": "A reader can receive letters through the free postal category, but needs full raised-character books"
+          },
+          {
+            "id": "b",
+            "label": "A library has a way to circulate books, but needs more works converted into braille"
+          },
+          {
+            "id": "c",
+            "label": "A reader has an embosser or refreshable device and wants a digital braille book without waiting for the post"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Volunteer transcription service begun in 1918"
+          },
+          {
+            "id": "b",
+            "label": "Web-Braille released in 1999"
+          },
+          {
+            "id": "c",
+            "label": "Postal-category expansion in 1904"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "a",
+          "c": "b"
+        },
+        "explanation": "The 1904 expansion admitted books and magazines; transcription creates braille material; Web-Braille distributed electronic files for compatible devices. The three advances solve different obstacles rather than making the others unnecessary.",
+        "sourceIds": [
+          "nls-timeline",
+          "original"
+        ]
+      },
+      {
+        "id": "hc31-6",
+        "sectionId": "reach",
+        "kind": "choice",
+        "prompt": "The 1932 agreement was called Standard English Braille. Which qualification belongs beside that name?",
+        "context": "Choose a historical qualification from the NLS timeline. This asks about that agreement, not present-day braille rules.",
+        "options": [
+          {
+            "id": "a",
+            "label": "British and American representatives agreed on a common standard, but implementation still differed, including Britain’s omission of capitals"
+          },
+          {
+            "id": "b",
+            "label": "The agreement covered musical notation alone"
+          },
+          {
+            "id": "c",
+            "label": "Britain and the United States adopted unrelated codes and did not agree on a standard"
+          }
+        ],
+        "correct": "a",
+        "explanation": "NLS records the shared agreement alongside remaining differences, including British non-adoption of capitals. A standard’s name does not imply perfectly identical implementation.",
+        "sourceIds": [
+          "nls-timeline"
+        ]
+      },
+      {
+        "id": "hc31-7",
+        "sectionId": "reach",
+        "kind": "choice",
+        "prompt": "An exhibit shows an electronic braille book received through Web-Braille. What additional equipment must its account include for tactile reading?",
+        "context": "The exhibit concerns the 1999 service described by NLS. Do not assume that displaying ordinary text on a glass screen produces raised dots.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A loudspeaker playing the words, with no tactile output"
+          },
+          {
+            "id": "b",
+            "label": "A printer producing ordinary ink letters"
+          },
+          {
+            "id": "c",
+            "label": "A refreshable braille device or a braille embosser"
+          }
+        ],
+        "correct": "c",
+        "explanation": "The NLS account names a refreshable braille device or embosser. Electronic distribution changes how the file arrives; tactile output still requires suitable equipment. Audio is another access mode, not raised-dot output.",
+        "sourceIds": [
+          "nls-timeline"
+        ]
+      },
+      {
+        "id": "hc31-8",
+        "sectionId": "reach",
+        "kind": "choice",
+        "prompt": "The final gallery pairs the 1932 agreement with a 1959 American revision that increased divergence from British braille. What does that pair of records establish?",
+        "context": "Both milestones come from NLS’s timeline. Judge the relation between standards over time, not which historical version was better.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The 1959 revision shows that no 1932 agreement had occurred"
+          },
+          {
+            "id": "b",
+            "label": "The common standard did not freeze future development; later revisions could separate practice again"
+          },
+          {
+            "id": "c",
+            "label": "The American revision demonstrates that British braille stopped being used in 1959"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The two records document an agreement followed by further divergence. They do not erase the earlier agreement or establish the disappearance of another country’s practice. A useful standard can still have a later history.",
+        "sourceIds": [
+          "nls-timeline"
+        ]
+      }
+    ]
   }
 ]

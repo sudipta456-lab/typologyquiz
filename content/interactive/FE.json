@@ -12211,5 +12211,307 @@
         ]
       }
     ]
+  },
+  {
+    "id": "FE-31",
+    "slug": "what-fermentation-changes",
+    "categoryId": "food-everyday-life",
+    "title": "What Fermentation Changes",
+    "description": "Read kitchen-science cases about sugar, acids, gas and protein. Trace a vinegar stage, test what lab measurements can establish, and finish with cacao’s journey toward chocolate flavour.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "veg",
+        "title": "The vegetable jar"
+      },
+      {
+        "id": "paths",
+        "title": "Different products"
+      },
+      {
+        "id": "bread",
+        "title": "Dough and cacao"
+      }
+    ],
+    "sources": [
+      {
+        "id": "umn-ferment",
+        "kind": "reference",
+        "label": "University of Minnesota Extension, Preserving food at home: Fermentation",
+        "url": "https://extension.umn.edu/es/node/172346"
+      },
+      {
+        "id": "umn-sourdough",
+        "kind": "reference",
+        "label": "University of Minnesota Extension, Building community with sourdough",
+        "url": "https://extension.umn.edu/about/our-stories/news/cottage-food-connection/building-community-one-sourdough-at-a-time"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, choices and reasoning authored for this quiz."
+      },
+      {
+        "id": "kew-cacao",
+        "kind": "reference",
+        "label": "Royal Botanic Gardens, Kew, From bean to bar: How to make chocolate",
+        "url": "https://www.kew.org/read-and-watch/kew-gardens-cacao-how-to-make-chocolate"
+      }
+    ],
+    "note": "Conceptual food-science questions only. Fictional comparison logs are explicitly limited and not recipes, safety checks, medical guidance or claims about a real batch. Bubbles are never evidence of safety.",
+    "questions": [
+      {
+        "id": "fe31-1",
+        "sectionId": "veg",
+        "kind": "choice",
+        "prompt": "In a confirmed lactic fermentation of cabbage, which conversion accounts for falling available sugar and increasing acidity?",
+        "context": "The process has already been identified as lactic fermentation. You are choosing its mechanism, not identifying an unknown food from taste or judging its safety.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Yeast turn sugars into ethanol, which is itself lactic acid"
+          },
+          {
+            "id": "b",
+            "label": "Bacteria use sugars and produce lactic acid"
+          },
+          {
+            "id": "c",
+            "label": "Salt supplies the acid while the sugar remains chemically unchanged"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Lactic-acid bacteria convert sugars into lactic acid. Ethanol is a different product, and salt is not lactic acid. This wording does not claim that sugar loss and tang alone uniquely identify a real process.",
+        "sourceIds": [
+          "umn-ferment"
+        ]
+      },
+      {
+        "id": "fe31-2",
+        "sectionId": "veg",
+        "kind": "choice",
+        "prompt": "A liquid around fermented produce shows bubbles. Which interpretation best separates what is seen from what is inferred?",
+        "context": "Invented observation card: only bubbles are visible. No acid measurement, organism identification or safety assessment is supplied.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The bubbles show that lactic acid itself is escaping as gas."
+          },
+          {
+            "id": "b",
+            "label": "The bubbles show that only yeast, never bacteria, is active."
+          },
+          {
+            "id": "c",
+            "label": "The bubbles are compatible with carbon dioxide from microbial conversion, but do not identify every product."
+          }
+        ],
+        "correct": "c",
+        "explanation": "UMN says lactic fermentation can release carbon dioxide while bacteria produce acid. The gas is not lactic acid escaping, and bacteria can also produce it. Visible bubbles do not identify every product.",
+        "sourceIds": [
+          "umn-ferment",
+          "original"
+        ]
+      },
+      {
+        "id": "fe31-3",
+        "sectionId": "veg",
+        "kind": "choice",
+        "prompt": "Two invented vegetable samples taste sour. In A, vinegar was added directly; in B, no acid was added and sugar later fell. What distinguishes the evidence for B?",
+        "context": "Invented side-by-side teaching model, not actual food testing. The samples are otherwise unspecified, and the log cannot establish safety.",
+        "options": [
+          {
+            "id": "a",
+            "label": "B has evidence consistent with microbial acid production, while A’s sourness can come from added acid."
+          },
+          {
+            "id": "b",
+            "label": "Both samples must have the same microbial history because they taste sour."
+          },
+          {
+            "id": "c",
+            "label": "The flavor proves B used acetic fermentation after an alcohol stage."
+          }
+        ],
+        "correct": "a",
+        "explanation": "A sour taste alone does not establish fermentation. In the limited B log, falling sugar without added acid fits the lactic bacterial conversion UMN describes; A already had vinegar added.",
+        "sourceIds": [
+          "umn-ferment",
+          "original"
+        ]
+      },
+      {
+        "id": "fe31-4",
+        "sectionId": "paths",
+        "kind": "order",
+        "prompt": "Arrange these conceptual cards for a possible vinegar-making pathway.",
+        "context": "Three shuffled model stages, without a recipe, timing or batch conditions. The task asks for the source-described dependency, not a practical procedure.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Acetic-acid bacteria transform an alcohol-containing mixture"
+          },
+          {
+            "id": "b",
+            "label": "Yeast makes an alcohol-containing mixture from sugars"
+          },
+          {
+            "id": "c",
+            "label": "An acetic-acid product results"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "a",
+          "c"
+        ],
+        "explanation": "Alcohol fermentation by yeast can come first; in acetic fermentation, bacteria act on ethanol and sugars to yield acetic acid. UMN describes these as distinct paths, with the acetic path following alcohol.",
+        "sourceIds": [
+          "umn-ferment",
+          "original"
+        ]
+      },
+      {
+        "id": "fe31-5",
+        "sectionId": "paths",
+        "kind": "choice",
+        "prompt": "Which transformation fits the alkali fermentation used for natto in the Extension account?",
+        "context": "Natto is the named soybean example. The question asks about a chemical pathway, not whether any real serving is ready to eat.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ethanol is converted into the acetic acid that characterizes vinegar"
+          },
+          {
+            "id": "b",
+            "label": "Milk sugar is converted into lactic acid as the main change"
+          },
+          {
+            "id": "c",
+            "label": "A protein-rich food is broken down with ammonia among the products"
+          }
+        ],
+        "correct": "c",
+        "explanation": "UMN describes alkali fermentation of protein-rich foods, including natto, with protein breakdown and ammonia production. The alternatives describe different substrates or products, not this pathway.",
+        "sourceIds": [
+          "umn-ferment"
+        ]
+      },
+      {
+        "id": "fe31-6",
+        "sectionId": "paths",
+        "kind": "grid",
+        "prompt": "Which interpretations go beyond these fictional lab logs?",
+        "context": "The logs report only the listed measurements. No taste test, identification of microbes or safety assessment was performed.",
+        "cells": [
+          {
+            "id": "a",
+            "label": "Log: pH fell. Claim: therefore the acid was specifically lactic acid.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported by this log"
+              },
+              {
+                "id": "b",
+                "label": "Needs additional evidence"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "b",
+            "label": "Log: carbon dioxide was detected. Claim: this identifies wild yeast rather than bacteria as its source.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported by this log"
+              },
+              {
+                "id": "b",
+                "label": "Needs additional evidence"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "Log: ethanol was present, then declined while chemically identified acetic acid increased. Claim: this fits an acetic conversion after an alcohol stage.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported by this log"
+              },
+              {
+                "id": "b",
+                "label": "Needs additional evidence"
+              }
+            ],
+            "correct": "a"
+          }
+        ],
+        "explanation": "A pH change does not name the acid. Both the produce and sourdough accounts include carbon dioxide, so gas alone does not name an organism. The third log follows the specific substrate/product relationship in the acetic pathway; it supports consistency, not proof that no other reactions occurred.",
+        "sourceIds": [
+          "umn-ferment",
+          "umn-sourdough",
+          "original"
+        ]
+      },
+      {
+        "id": "fe31-7",
+        "sectionId": "bread",
+        "kind": "choice",
+        "prompt": "A sourdough culture is examined before baking. Which finding agrees with the community described by Extension?",
+        "context": "Choose the organism-and-food account; no inference about a real starter’s safety or performance is requested.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Acetic-acid bacteria replace every yeast before a sourdough can rise"
+          },
+          {
+            "id": "b",
+            "label": "The culture consists of yeast alone; bacteria occur only after baking"
+          },
+          {
+            "id": "c",
+            "label": "Wild yeast and lactic-acid bacteria work on flour carbohydrates"
+          }
+        ],
+        "correct": "c",
+        "explanation": "UMN describes wild yeast and lactic-acid bacteria acting together on flour sugars and starches. The two alternatives remove a documented member or impose an unsupported required succession. The source does not assign every molecule of acid or gas to one organism.",
+        "sourceIds": [
+          "umn-sourdough"
+        ]
+      },
+      {
+        "id": "fe31-8",
+        "sectionId": "bread",
+        "kind": "choice",
+        "prompt": "Why does a bean-to-bar account include both fermentation and later roasting, rather than treating them as interchangeable ways to warm cacao?",
+        "context": "This is a process-history question based on Kew’s horticulturalist’s account. No temperatures, timings or home-production instructions are requested.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Roasting creates the microbial community; fermentation afterward removes the roasted shell"
+          },
+          {
+            "id": "b",
+            "label": "Fermentation prepares flavour through microbial transformations; roasting later develops complex flavours and drives off some acidic compounds"
+          },
+          {
+            "id": "c",
+            "label": "Fermentation and roasting both dry the bean; the flavour changes begin only when sugar is added later"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Kew separates microbial changes during fermentation from later roasting and flavour development. Warming is not an adequate description of both stages. The final example extends fermentation beyond foods eaten as sour produce or risen dough.",
+        "sourceIds": [
+          "kew-cacao"
+        ]
+      }
+    ]
   }
 ]
