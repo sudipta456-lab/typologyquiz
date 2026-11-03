@@ -11496,5 +11496,323 @@
         ]
       }
     ]
+  },
+  {
+    "id": "GT-30",
+    "slug": "canals-across-the-landscape",
+    "categoryId": "geography-travel",
+    "title": "Canals That Cross a Landscape",
+    "description": "Trace how Canadian waterways join basins, bypass falls and move vessels across changes in elevation.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "A waterway is more than a ditch"
+      },
+      {
+        "id": "s2",
+        "title": "Where routes meet terrain"
+      },
+      {
+        "id": "s3",
+        "title": "Three ways across a barrier"
+      }
+    ],
+    "questions": [
+      {
+        "id": "gt30-1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "The Rideau route joins Ottawa and Kingston. Why did its builders need a system of locks rather than just follow one uninterrupted river?",
+        "context": "Consider the whole Ottawa–Kingston inland route, rather than assuming that a canal is one continuous excavated ditch.",
+        "options": [
+          {
+            "id": "b",
+            "label": "The route needs a single sea-level channel from end to end"
+          },
+          {
+            "id": "c",
+            "label": "Each lock marks a change from fresh water to salt water"
+          },
+          {
+            "id": "d",
+            "label": "Each lock is a bridge crossing rather than a water-level structure"
+          },
+          {
+            "id": "a",
+            "label": "The route connects waters at different elevations"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The route combined natural waters and constructed links; locks and dams made their different levels navigable.",
+        "sourceIds": [
+          "gtA"
+        ]
+      },
+      {
+        "id": "gt30-2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "At Newboro, a boat passes near a divide. Which geographic reading is sound?",
+        "context": "The canal cut at Newboro connects Upper Rideau Lake and Newboro Lake across an isthmus described by Parks Canada as a watershed divide.",
+        "options": [
+          {
+            "id": "c",
+            "label": "The isthmus is the lowest part of one continuous riverbed"
+          },
+          {
+            "id": "d",
+            "label": "The canal follows a tidal boundary between fresh and salt water"
+          },
+          {
+            "id": "a",
+            "label": "The route connects drainage systems with different natural outlets"
+          },
+          {
+            "id": "b",
+            "label": "The two lakes must drain naturally to the same outlet"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The engineered route connects across a natural watershed divide; it does not make all surrounding drainage identical.",
+        "sourceIds": [
+          "gtB"
+        ]
+      },
+      {
+        "id": "gt30-3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Why does the Rideau route use an artificial channel to its Ottawa entrance?",
+        "context": "Consider the northern gateway to the historic route. This is a geography question, not a present-day navigation instruction.",
+        "options": [
+          {
+            "id": "d",
+            "label": "To carry ships across the Big Chute land crossing"
+          },
+          {
+            "id": "a",
+            "label": "To bypass falls and rapids on the lower Rideau River"
+          },
+          {
+            "id": "b",
+            "label": "To avoid the watershed divide at Newboro"
+          },
+          {
+            "id": "c",
+            "label": "To connect Lake Ontario directly to Georgian Bay"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The Ottawa canal entrance and locks bypassed falls and rapids in that reach of the Rideau River.",
+        "sourceIds": [
+          "gtD"
+        ]
+      },
+      {
+        "id": "gt30-4",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each end of a historic waterway to the larger water it meets.",
+        "context": "Use these three named endpoints. Each answer is used once; this is a regional geography comparison, not a route-planning instruction.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Rideau Canal: northern entrance at Ottawa"
+          },
+          {
+            "id": "b",
+            "label": "Rideau Canal: southern end at Kingston"
+          },
+          {
+            "id": "c",
+            "label": "Trent–Severn: end at Port Severn"
+          }
+        ],
+        "right": [
+          {
+            "id": "c",
+            "label": "Georgian Bay, part of Lake Huron"
+          },
+          {
+            "id": "a",
+            "label": "Ottawa River"
+          },
+          {
+            "id": "b",
+            "label": "Lake Ontario"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        },
+        "explanation": "The Rideau joins the Ottawa River at Ottawa and reaches Lake Ontario at Kingston. The Trent–Severn connects Lake Ontario with Georgian Bay, ending at Port Severn on that bay.",
+        "sourceIds": [
+          "gtA",
+          "gtC",
+          "gtD"
+        ]
+      },
+      {
+        "id": "gt30-5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What makes the Big Chute crossing unlike an ordinary lock chamber?",
+        "context": "Compare the Big Chute structure on the Trent–Severn with a fixed chamber whose water level rises and falls.",
+        "options": [
+          {
+            "id": "b",
+            "label": "The vessel stays in a fixed chamber while water is admitted"
+          },
+          {
+            "id": "c",
+            "label": "A water-filled caisson rises while a second one descends"
+          },
+          {
+            "id": "d",
+            "label": "A gate releases the vessel into a naturally tidal reach"
+          },
+          {
+            "id": "a",
+            "label": "A carriage transports the vessel over a land barrier"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Parks Canada identifies Big Chute as a marine railway: a different solution from flooding a fixed lock chamber.",
+        "sourceIds": [
+          "gtC",
+          "gtE"
+        ]
+      },
+      {
+        "id": "gt30-6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "How does the Peterborough Lift Lock raise a boat while keeping it afloat?",
+        "context": "This Trent–Severn structure is a hydraulic lift lock. Choose the moving part, rather than a place name.",
+        "options": [
+          {
+            "id": "c",
+            "label": "Water is added to a fixed chamber until it reaches the upper level"
+          },
+          {
+            "id": "d",
+            "label": "The entire upstream lake is raised for each vessel"
+          },
+          {
+            "id": "a",
+            "label": "A water-filled caisson containing the boat moves vertically"
+          },
+          {
+            "id": "b",
+            "label": "The boat is lifted dry on an overland rail carriage"
+          }
+        ],
+        "correct": "a",
+        "explanation": "At Peterborough, the water-filled caisson moves with the floating vessel. A conventional lock changes water level in a stationary chamber; Big Chute carries boats over land.",
+        "sourceIds": [
+          "gtC",
+          "gtE"
+        ]
+      },
+      {
+        "id": "gt30-7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "A local-history caption calls Newboro only “a gap between lakes.” What important landscape consequence does it miss?",
+        "context": "Compare the settlement before canal construction with Newboro in the mid-1800s. The question concerns the canal’s economic landscape.",
+        "options": [
+          {
+            "id": "d",
+            "label": "The construction camp disappeared without a lasting settlement"
+          },
+          {
+            "id": "a",
+            "label": "Canal access connected a new community and its industries to outside markets"
+          },
+          {
+            "id": "b",
+            "label": "The canal was built to serve an already-established factory city at Newboro"
+          },
+          {
+            "id": "c",
+            "label": "The cut left local industries dependent on overland transport alone"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The lockstation was also a lived and worked landscape; Parks Canada connects Newboro’s later industries with canal access.",
+        "sourceIds": [
+          "gtB"
+        ]
+      },
+      {
+        "id": "gt30-8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Which caption best connects the Rideau and Trent–Severn examples without treating every canal as the same structure?",
+        "context": "Compare the examples in this quiz: connected natural waters, a watershed divide, lift locks and a marine railway.",
+        "options": [
+          {
+            "id": "a",
+            "label": "An inland waterway can combine natural waters with several kinds of barrier crossing"
+          },
+          {
+            "id": "b",
+            "label": "A route called a canal must be excavated continuously from end to end"
+          },
+          {
+            "id": "c",
+            "label": "The two routes both join Lake Ontario directly to the Ottawa River"
+          },
+          {
+            "id": "d",
+            "label": "The water stays at one elevation because the routes avoid watershed divides"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The documented systems mix lakes and rivers with locks, lift locks and an overland railway according to the barrier.",
+        "sourceIds": [
+          "gtA",
+          "gtC"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "gtA",
+        "label": "Parks Canada, Rideau Canal culture and history",
+        "kind": "reference",
+        "url": "https://www.parks.canada.ca/lhn-nhs/on/rideau/histoire-history"
+      },
+      {
+        "id": "gtB",
+        "label": "Parks Canada, Newboro lockstation history",
+        "kind": "reference",
+        "url": "https://www.parks.canada.ca/lhn-nhs/on/rideau/histoire-history/histoire-decluse-lock-history/newboro"
+      },
+      {
+        "id": "gtC",
+        "label": "Parks Canada, Trent–Severn management plan",
+        "kind": "reference",
+        "url": "https://parks.canada.ca/lhn-nhs/on/trentsevern/info/plan/plan-2022"
+      },
+      {
+        "id": "gtD",
+        "label": "Parks Canada, Ottawa lockstation history",
+        "kind": "reference",
+        "url": "https://www.parks.canada.ca/lhn-nhs/on/rideau/histoire-history/histoire-decluse-lock-history/ottawa"
+      },
+      {
+        "id": "gtE",
+        "label": "Parks Canada, lock and lift-lock mechanisms",
+        "kind": "reference",
+        "url": "https://parks.canada.ca/lhn-nhs/on/trentsevern/visit/navigation/ecluser-lock-through"
+      }
+    ],
+    "note": "Geographic and heritage explanation, not a navigation plan. No current opening, safety, boating or travel advice; no map image is supplied."
   }
 ]

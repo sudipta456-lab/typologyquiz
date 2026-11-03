@@ -10928,5 +10928,313 @@
         ]
       }
     ]
+  },
+  {
+    "id": "MT-30",
+    "slug": "behind-a-stop-motion-face",
+    "categoryId": "movies-tv",
+    "title": "Behind a Stop-Motion Face",
+    "description": "Eight production choices reveal how a tangible puppet, camera and digital finishing can share one stop-motion shot.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Build the physical performance"
+      },
+      {
+        "id": "s2",
+        "title": "Look through the camera"
+      },
+      {
+        "id": "s3",
+        "title": "Finish the image"
+      }
+    ],
+    "questions": [
+      {
+        "id": "mt30-1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A puppet smiles while its body holds a pose. Which construction lets an animator adjust the face without rebuilding the whole body?",
+        "context": "Production case: the crew works with a miniature dog puppet. The expression must change while the body remains posed.",
+        "options": [
+          {
+            "id": "b",
+            "label": "A fixed face cast that is repainted after filming"
+          },
+          {
+            "id": "c",
+            "label": "A jointed body with a rigid, unchanging head"
+          },
+          {
+            "id": "d",
+            "label": "A set of background plates filmed without the puppet"
+          },
+          {
+            "id": "a",
+            "label": "A separate mechanism inside the face"
+          }
+        ],
+        "correct": "a",
+        "explanation": "ACMI describes a separate face armature for speech and expression, while the body armature controls movement.",
+        "sourceIds": [
+          "mtC"
+        ]
+      },
+      {
+        "id": "mt30-2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "The dialogue changes one mouth shape between frames. Which physical preparation makes that possible?",
+        "context": "The crew wants tactile mouths photographed on the puppet rather than a digitally added face.",
+        "options": [
+          {
+            "id": "c",
+            "label": "Identical face pieces painted to match different lighting"
+          },
+          {
+            "id": "d",
+            "label": "A larger body armature with the original rigid mouth"
+          },
+          {
+            "id": "a",
+            "label": "Interchangeable face pieces with different mouth shapes"
+          },
+          {
+            "id": "b",
+            "label": "One fixed expression photographed with different shutter speeds"
+          }
+        ],
+        "correct": "a",
+        "explanation": "ACMI documents detachable faces with different expressions and mouth shapes for the human puppets in Isle of Dogs.",
+        "sourceIds": [
+          "mtC"
+        ]
+      },
+      {
+        "id": "mt30-3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each construction element to its role in making a puppet.",
+        "context": "These elements come from documented puppet-making processes. Match the material or component to its job.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Sculpted plasticine model"
+          },
+          {
+            "id": "b",
+            "label": "Metal armature"
+          },
+          {
+            "id": "c",
+            "label": "Cast silicone exterior"
+          }
+        ],
+        "right": [
+          {
+            "id": "c",
+            "label": "Flexible outer material that can transmit and scatter backlight"
+          },
+          {
+            "id": "a",
+            "label": "Original shape used to create a mould"
+          },
+          {
+            "id": "b",
+            "label": "Internal structure that holds adjustable poses"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        },
+        "explanation": "ACMI describes a sculpted original and mould around an armature. Aardman describes silicone exteriors and their translucent response to light.",
+        "sourceIds": [
+          "mtA",
+          "mtC"
+        ]
+      },
+      {
+        "id": "mt30-4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "The next frame looks as if the puppet jumped farther than intended. Which on-set comparison helps diagnose that gap before another photo?",
+        "context": "A camera view shows the current live puppet position; the previous captured frame is available.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Overlay the last captured frame with the live camera view"
+          },
+          {
+            "id": "b",
+            "label": "Check only the final frame of the previous scene"
+          },
+          {
+            "id": "c",
+            "label": "Change the playback speed without comparing positions"
+          },
+          {
+            "id": "d",
+            "label": "Compare the puppet with its original construction drawing"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Onion skinning overlays the last captured frame with the live camera view, exposing changes in position.",
+        "sourceIds": [
+          "mtD"
+        ]
+      },
+      {
+        "id": "mt30-5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which plan can animate an ordinary mug using stop motion?",
+        "context": "An original classroom case: the mug must appear to move, but it has no limbs, joints or internal armature.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Record one uninterrupted take while sliding the mug by hand"
+          },
+          {
+            "id": "c",
+            "label": "Keep the mug still and pan continuously past it"
+          },
+          {
+            "id": "d",
+            "label": "Film the mug once and change only the playback speed"
+          },
+          {
+            "id": "a",
+            "label": "Reposition the real mug a little between photographs"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Found-object animation repositions a real object between photographs. A puppet skeleton is useful for some characters, but not required for stop motion.",
+        "sourceIds": [
+          "mtB"
+        ]
+      },
+      {
+        "id": "mt30-6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Why might one stop-motion character need several differently sized physical puppets?",
+        "context": "ACMI documents this production choice for Isle of Dogs. Consider a very wide shot and an extreme close-up.",
+        "options": [
+          {
+            "id": "c",
+            "label": "The camera can photograph only one puppet size per film"
+          },
+          {
+            "id": "d",
+            "label": "Puppet size replaces the need to adjust its pose"
+          },
+          {
+            "id": "a",
+            "label": "Different shot scales can call for different-sized builds"
+          },
+          {
+            "id": "b",
+            "label": "Every change in facial expression requires a larger body"
+          }
+        ],
+        "correct": "a",
+        "explanation": "ACMI records duplicate puppets in several sizes, with very large versions for extreme close-ups and tiny ones for distant views. Shot scale can shape the physical build.",
+        "sourceIds": [
+          "mtC"
+        ]
+      },
+      {
+        "id": "mt30-7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "A short advertisement shows real silicone puppet bodies with expressive faces added later. Which description respects both parts of the image?",
+        "context": "Aardman documents this specific mixed technique for its Thatchers commercial.",
+        "options": [
+          {
+            "id": "d",
+            "label": "Replacement-face puppets photographed with no digital face work"
+          },
+          {
+            "id": "a",
+            "label": "Physical stop-motion bodies combined with tracked digital faces"
+          },
+          {
+            "id": "b",
+            "label": "Live-action performers with practical face makeup"
+          },
+          {
+            "id": "c",
+            "label": "Entirely computer-generated characters placed over a photographed empty set"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Aardman reports armature-equipped silicone puppets with faces tracked and added in CG. The physical and digital work coexist.",
+        "sourceIds": [
+          "mtA"
+        ]
+      },
+      {
+        "id": "mt30-8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "A puppet dog’s fur ripples slightly between frames. What is one documented cause of this texture?",
+        "context": "This asks about a physical continuity detail, not a special effect added to a digital model.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The animator’s touch shifts the real fur during repositioning"
+          },
+          {
+            "id": "b",
+            "label": "The camera records a continuous wind-blown video take"
+          },
+          {
+            "id": "c",
+            "label": "The facial armature changes the colour of the fur"
+          },
+          {
+            "id": "d",
+            "label": "A soundtrack layer moves the photographed hairs"
+          }
+        ],
+        "correct": "a",
+        "explanation": "ACMI describes fur displaced by the puppeteer’s hands between frames, sometimes called boiling; in this production the makers retained it as part of the handmade look.",
+        "sourceIds": [
+          "mtC"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "mtA",
+        "label": "Aardman, Behind the Craft: Thatchers Cider",
+        "kind": "reference",
+        "url": "https://www.aardman.com/latest-news/2023/may/behind-the-craft-thatchers-cider-pint-sized-perfection/"
+      },
+      {
+        "id": "mtB",
+        "label": "ACMI, Getting started with stop-motion",
+        "kind": "reference",
+        "url": "https://www.acmi.net.au/education/school-program-and-resources/getting-started-with-stop-motion-resource/"
+      },
+      {
+        "id": "mtC",
+        "label": "ACMI collection, Isle of Dogs puppets",
+        "kind": "reference",
+        "url": "https://www.acmi.net.au/works/100846--isle-of-dogs-puppets/"
+      },
+      {
+        "id": "mtD",
+        "label": "ACMI, Make a stop motion animation",
+        "kind": "reference",
+        "url": "https://www.acmi.net.au/education/school-program-and-resources/make-stop-motion-animation/"
+      }
+    ],
+    "note": "Text-only production cases; no film footage, studio art or generated behind-the-scenes imagery. Cases describe documented methods and clearly marked inferences."
   }
 ]

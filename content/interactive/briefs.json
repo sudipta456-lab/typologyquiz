@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 29,
+      "count": 30,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 29,
+      "count": 30,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 29,
+      "count": 30,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 29,
+      "count": 30,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 29,
+      "count": 30,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -6479,6 +6479,116 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-11-01",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MT-30",
+      "title": "Behind a Stop-Motion Face",
+      "slug": "behind-a-stop-motion-face",
+      "kind": "knowledge",
+      "hook": "See how a physical puppet and digital finishing can share one stop-motion shot.",
+      "rounds": [
+        "3 tasks: Build the physical performance",
+        "3 tasks: Look through the camera",
+        "2 tasks: Finish the image"
+      ],
+      "seed": "A puppet smiles while its body holds a pose. Which construction lets an animator adjust the face without rebuilding the whole body?",
+      "payoff": "A more precise eye for puppet construction, frame continuity and mixed physical/digital shots.",
+      "audience": "Visitors who enjoy short, evidence-backed discoveries about behind a stop-motion face.",
+      "evidence": "Evergreen editorial fit; supplied portal samples and QA-overlapped site events do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "Text-only production cases; no film footage, studio art or generated behind-the-scenes imagery. Cases describe documented methods and clearly marked inferences.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-11-03",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MU-30",
+      "title": "A Duet With a Moving Lead",
+      "slug": "duet-with-a-moving-lead",
+      "kind": "preference",
+      "hook": "Choose what a partner line means and who carries an invented duet’s returning motif.",
+      "rounds": [
+        "3 tasks: Give the words a partner",
+        "3 tasks: Let the motif travel",
+        "2 tasks: Choose the final exchange"
+      ],
+      "seed": "The lead says “I left the porch light on.” What should the backing line mean?",
+      "payoff": "Two session-only scales for this duet: Reinforce–Reframe and Whole phrases–Shared phrases.",
+      "audience": "Visitors who enjoy original creative arrangement choices about a duet with a moving lead.",
+      "evidence": "Evergreen editorial fit; supplied portal samples and QA-overlapped site events do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "All words and tones are original. The optional clips are simple synthesized tones with equivalent transcripts, not sung lyrics, a duet recording or a mix generated from choices. The two results describe only this arrangement.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "daily-2026-11-03",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "GT-30",
+      "title": "Canals That Cross a Landscape",
+      "slug": "canals-across-the-landscape",
+      "kind": "knowledge",
+      "hook": "Find the landscape barriers Canadian waterways cross and compare the engineering responses.",
+      "rounds": [
+        "3 tasks: A waterway is more than a ditch",
+        "3 tasks: Where routes meet terrain",
+        "2 tasks: Three ways across a barrier"
+      ],
+      "seed": "The Rideau route joins Ottawa and Kingston. Why did its builders need a system of locks rather than just follow one uninterrupted river?",
+      "payoff": "An eight-part geographic explanation of divides, drops, lift locks and a marine railway.",
+      "audience": "Visitors who enjoy short, evidence-backed discoveries about canals that cross a landscape.",
+      "evidence": "Evergreen editorial fit; supplied portal samples and QA-overlapped site events do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "Geographic and heritage explanation, not a navigation plan. No current opening, safety, boating or travel advice; no map image is supplied.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-11-03",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SG-30",
+      "title": "Curling: Think Beyond the Stone",
+      "slug": "curling-beyond-the-stone",
+      "kind": "knowledge",
+      "hook": "Call a shot for its purpose, then see what guards, hammer and sweeping change.",
+      "rounds": [
+        "3 tasks: Give a stone a job",
+        "3 tasks: Read the next shot",
+        "2 tasks: What the end changes"
+      ],
+      "seed": "You want to protect a teammate’s stone already in the house. Which shot has that purpose?",
+      "payoff": "A compact strategic reading of eight bounded curling positions and purposes.",
+      "audience": "Visitors who enjoy short, evidence-backed discoveries about curling: think beyond the stone.",
+      "evidence": "Evergreen editorial fit; supplied portal samples and QA-overlapped site events do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "Text-only bounded cases for standard four-player curling, not a playable match or shot simulator. Shot names state purposes, not guaranteed physical outcomes.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-11-03",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "LW-30",
+      "title": "Crossword Without Clue Numbers",
+      "slug": "crossword-without-clue-numbers",
+      "kind": "logic",
+      "hook": "Work through eight word-crossing challenges with independent boards and a final four-word square.",
+      "rounds": [
+        "3 tasks: Check the crossing",
+        "3 tasks: Repair and eliminate",
+        "2 tasks: Make a joint fit"
+      ],
+      "seed": "Which top row completes the tiny crisscross?",
+      "payoff": "A final four-word square whose rows and columns agree.",
+      "audience": "Visitors who enjoy closed word puzzles about crossword without clue numbers.",
+      "evidence": "Evergreen editorial fit; supplied portal samples and QA-overlapped site events do not establish demand or conversion.",
+      "dependency": "base",
+      "production_note": "Original closed-bank challenges and crossing instructions. Choices, a two-cell grid, matching and ordering are available; there is no typed crossword canvas. Word squares may use familiar English combinations; originality refers to the authored tasks and explanations.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-11-03",
       "evidence_class": "evergreen"
     }
   ]

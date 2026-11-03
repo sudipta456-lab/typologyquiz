@@ -10929,5 +10929,303 @@
         ]
       }
     ]
+  },
+  {
+    "id": "LW-30",
+    "slug": "crossword-without-clue-numbers",
+    "categoryId": "logic-wordplay",
+    "title": "Crossword Without Clue Numbers",
+    "description": "Test eight compact word crossings: catch a false column, repair a square and build a final joint fit.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Check the crossing"
+      },
+      {
+        "id": "s2",
+        "title": "Repair and eliminate"
+      },
+      {
+        "id": "s3",
+        "title": "Make a joint fit"
+      }
+    ],
+    "questions": [
+      {
+        "id": "lw30-1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which top row completes the tiny crisscross?",
+        "context": "Original closed board. Three rows, three letters each. Rows read left to right and columns top to bottom; every row and column must be a word from {CAT, ARE, TEN}. Row 2 = ARE; row 3 = TEN.",
+        "options": [
+          {
+            "id": "b",
+            "label": "CAN"
+          },
+          {
+            "id": "c",
+            "label": "CAR"
+          },
+          {
+            "id": "a",
+            "label": "CAT"
+          }
+        ],
+        "correct": "a",
+        "explanation": "CAT makes the columns CAT, ARE and TEN. CAN or CAR breaks at least one column.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw30-2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Every printed row is in the bank. Which column still fails?",
+        "context": "Original 3-by-3 board, rows SUN / USE / NOT. Read columns top to bottom. Closed bank: SUN, USE, NET, NOT. A column must also belong to this bank.",
+        "options": [
+          {
+            "id": "c",
+            "label": "Column 3"
+          },
+          {
+            "id": "d",
+            "label": "All three columns belong to the bank"
+          },
+          {
+            "id": "a",
+            "label": "Column 1"
+          },
+          {
+            "id": "b",
+            "label": "Column 2"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The columns read SUN, USO and NET. USO is not in the bank, so valid across words alone do not guarantee a valid square.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw30-3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which letter repairs both the middle row and middle column?",
+        "context": "A different original board: ICE / C?R / ERA. All rows and columns must be from the closed bank {ICE, CAR, ERA, OAR}.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A"
+          },
+          {
+            "id": "b",
+            "label": "O"
+          },
+          {
+            "id": "c",
+            "label": "E"
+          }
+        ],
+        "correct": "a",
+        "explanation": "A makes CAR across and down the middle. O or E would leave the middle row and column outside the closed bank; the other columns read ICE and ERA.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw30-4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Two rows were exchanged. Which repair restores the square?",
+        "context": "Original four-by-four printout: BALL / AREA / LADY / LEAD. Every row and column must belong to {LADY, BALL, LEAD, AREA}.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Swap rows 3 and 4"
+          },
+          {
+            "id": "b",
+            "label": "Swap rows 1 and 2"
+          },
+          {
+            "id": "c",
+            "label": "Swap rows 2 and 3"
+          },
+          {
+            "id": "d",
+            "label": "Reverse row 3"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Swapping the last two rows produces BALL / AREA / LEAD / LADY. Its columns read the same four bank words; the other listed repairs do not.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw30-5",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Fill the two gaps so the whole square crosses correctly.",
+        "context": "New original four-by-four board: S?ND / AR?A / NEAR / DART. Every row and column must come from {SAND, SEND, AREA, ARIA, NEAR, DART}. Treat each ? as one missing letter.",
+        "cells": [
+          {
+            "id": "top",
+            "label": "Row 1, column 2: S?ND",
+            "options": [
+              {
+                "id": "a",
+                "label": "A"
+              },
+              {
+                "id": "b",
+                "label": "E"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "middle",
+            "label": "Row 2, column 3: AR?A",
+            "options": [
+              {
+                "id": "a",
+                "label": "I"
+              },
+              {
+                "id": "b",
+                "label": "E"
+              }
+            ],
+            "correct": "b"
+          }
+        ],
+        "explanation": "SAND / AREA / NEAR / DART yields those same four words down. SEND would break column 2; ARIA would break column 3, so being an allowed row word is not enough.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw30-6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which spare word cannot appear in any completed square?",
+        "context": "Original closed challenge: choose four different rows from {TEAR, MATE, HARD, MATH, AREA}. Every column must also be one of these five words. Words read left to right or top to bottom, never backward.",
+        "options": [
+          {
+            "id": "c",
+            "label": "TEAR"
+          },
+          {
+            "id": "d",
+            "label": "HARD"
+          },
+          {
+            "id": "a",
+            "label": "MATE"
+          },
+          {
+            "id": "b",
+            "label": "MATH"
+          }
+        ],
+        "correct": "a",
+        "explanation": "MATH / AREA / TEAR / HARD is the only arrangement of four distinct bank rows whose columns also stay in the bank. MATE is the spare. A candidate must satisfy all four columns at once, not just look like a possible across word.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw30-7",
+        "sectionId": "s3",
+        "kind": "match",
+        "prompt": "Match each crossing instruction to the pair whose letters agree.",
+        "context": "Three separate original crossings. In each pair, the first word goes across and the second goes down. Count positions from 1 at the left or top. Each pair is used once; only the specified intersection needs to agree.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Across position 4 crosses down position 4"
+          },
+          {
+            "id": "b",
+            "label": "Across position 4 crosses down position 1"
+          },
+          {
+            "id": "c",
+            "label": "Across position 3 crosses down position 4"
+          }
+        ],
+        "right": [
+          {
+            "id": "c",
+            "label": "FLUTE across / CLOUD down"
+          },
+          {
+            "id": "a",
+            "label": "CRANE across / PLANT down"
+          },
+          {
+            "id": "b",
+            "label": "GHOST across / SHORE down"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        },
+        "explanation": "CRANE and PLANT share N at positions 4/4. GHOST and SHORE share S at 4/1. FLUTE and CLOUD share U at 3/4. The other pairings fail the specified intersections.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw30-8",
+        "sectionId": "s3",
+        "kind": "order",
+        "prompt": "Place the final rows so the columns are words too.",
+        "context": "New original four-by-four board. Use REAR, EARS, CARE and AREA once each. Every row and column must be one of those words. The top-left cell is C. Read all rows left to right and columns top to bottom.",
+        "items": [
+          {
+            "id": "a",
+            "label": "EARS"
+          },
+          {
+            "id": "b",
+            "label": "REAR"
+          },
+          {
+            "id": "c",
+            "label": "CARE"
+          },
+          {
+            "id": "d",
+            "label": "AREA"
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "d",
+          "b",
+          "a"
+        ],
+        "explanation": "CARE / AREA / REAR / EARS reads the same four words down the columns. The top-left C fixes CARE at the top; the crossings force the remainder.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original TypologyQuiz scenarios, lines and puzzle cases",
+        "kind": "original"
+      }
+    ],
+    "note": "Original closed-bank challenges and crossing instructions. Choices, a two-cell grid, matching and ordering are available; there is no typed crossword canvas. Word squares may use familiar English combinations; originality refers to the authored tasks and explanations."
   }
 ]

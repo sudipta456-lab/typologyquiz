@@ -11388,5 +11388,407 @@
         ]
       }
     ]
+  },
+  {
+    "id": "MU-30",
+    "slug": "duet-with-a-moving-lead",
+    "categoryId": "music",
+    "title": "A Duet With a Moving Lead",
+    "description": "Arrange an invented duet by choosing how a second line changes the first and which performer carries a returning idea.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Give the words a partner"
+      },
+      {
+        "id": "s2",
+        "title": "Let the motif travel"
+      },
+      {
+        "id": "s3",
+        "title": "Choose the final exchange"
+      }
+    ],
+    "questions": [
+      {
+        "id": "mu30-1",
+        "sectionId": "s1",
+        "kind": "audio",
+        "prompt": "The lead says “I left the porch light on.” What should the backing line mean?",
+        "context": "Original tone sketch: two short notes followed by two higher notes. This clip marks a possible response entrance; it contains no sung words. Imagine the written lines, then choose the relationship you want.",
+        "options": [
+          {
+            "id": "a",
+            "label": "“So you could find the door” — confirms the invitation",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "“But I had already gone” — changes who the light was for",
+            "weights": [
+              100,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "“The window still remembers” — leaves both readings open",
+            "weights": [
+              50,
+              0
+            ]
+          }
+        ],
+        "explanation": "The first reinforces the invitation; the second reframes it as absence; the third keeps both readings in play.",
+        "sourceIds": [
+          "original"
+        ],
+        "tones": [
+          {
+            "frequency": 330,
+            "duration": 0.32,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.25
+          },
+          {
+            "frequency": 392,
+            "duration": 0.32,
+            "delay": 0.42,
+            "waveform": "sine",
+            "gain": 0.25
+          },
+          {
+            "frequency": 494,
+            "duration": 0.32,
+            "delay": 1,
+            "waveform": "triangle",
+            "gain": 0.2
+          },
+          {
+            "frequency": 440,
+            "duration": 0.32,
+            "delay": 1.42,
+            "waveform": "triangle",
+            "gain": 0.2
+          }
+        ],
+        "transcript": "Original tones only: low, slightly higher; a pause; higher, then lower. No voice or lyrics are sounded."
+      },
+      {
+        "id": "mu30-2",
+        "sectionId": "s1",
+        "kind": "audio",
+        "prompt": "A short figure returns in a higher register. Who carries it next in your imagined duet?",
+        "context": "Original tone sketch: low–high, a pause, then the same two-note contour in a higher register. It is a tone cue, not a recording of two singers.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The first performer keeps the motif; the second holds a sustained note",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "The second performer takes the motif while the first holds a sustained note",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Both alternate one note of the motif",
+            "weights": [
+              0,
+              100
+            ]
+          }
+        ],
+        "explanation": "Either performer can carry a whole motif. Passing its notes between them instead divides the phrase; the result describes that arrangement choice, not either singer.",
+        "sourceIds": [
+          "original"
+        ],
+        "tones": [
+          {
+            "frequency": 262,
+            "duration": 0.3,
+            "delay": 0,
+            "gain": 0.2
+          },
+          {
+            "frequency": 330,
+            "duration": 0.3,
+            "delay": 0.4,
+            "gain": 0.2
+          },
+          {
+            "frequency": 392,
+            "duration": 0.3,
+            "delay": 1.05,
+            "gain": 0.2
+          },
+          {
+            "frequency": 494,
+            "duration": 0.3,
+            "delay": 1.45,
+            "gain": 0.2
+          }
+        ],
+        "transcript": "Original tones only: lower note then higher note; pause; a similar lower-to-higher pair in a higher register. No singers are present."
+      },
+      {
+        "id": "mu30-3",
+        "sectionId": "s1",
+        "kind": "rank",
+        "prompt": "Rank these second-line treatments for “The road kept our names.”",
+        "context": "Rank first to last for this imagined verse. Each option changes how the backing line interprets the lead, not the tempo.",
+        "items": [
+          {
+            "id": "a",
+            "label": "“And carried them home” — reinforces its memory",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "“Though we never took it” — disputes the shared memory",
+            "weights": [
+              100,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "“A sign points both ways” — leaves the memory unsettled",
+            "weights": [
+              50,
+              0
+            ]
+          }
+        ],
+        "explanation": "The ranking records whether you prefer confirmation, contradiction or an unresolved counterline here.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu30-4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "The second verse starts with “I know the way.” How would you divide the foreground?",
+        "context": "Both written lines are original and fictional. Decide whose perspective gets the foreground, regardless of vocal timbre.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep the same speaker in front; the partner adds context behind",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Let the partner sing the line as their own claim while the first listens",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Trade the words halfway through the sentence",
+            "weights": [
+              0,
+              100
+            ]
+          }
+        ],
+        "explanation": "The first two options give one performer a whole sentence. The third shares its delivery within the sentence.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu30-5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "The backing singer quotes “I know the way” later. What should the quotation do to its meaning?",
+        "context": "In this invented scene, the path is now blocked. Choose how the repeated words relate to their first use.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Repeat it as a reassuring promise despite the blockage",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Speak it as a question that exposes earlier overconfidence",
+            "weights": [
+              100,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Set it beside “We can ask” to soften both readings",
+            "weights": [
+              50,
+              0
+            ]
+          }
+        ],
+        "explanation": "The same words can affirm, challenge, or complicate their earlier claim.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu30-6",
+        "sectionId": "s2",
+        "kind": "rank",
+        "prompt": "Rank these rehearsal markings for a long bridge phrase.",
+        "context": "The original bridge lasts one held vowel followed by four words. Rank the phrase-sharing plans you would most like to rehearse; no generated performance follows.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Assign the entire vowel and all four words to one singer",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "One singer holds the vowel; the other takes all four words",
+            "weights": [
+              0,
+              50
+            ]
+          },
+          {
+            "id": "c",
+            "label": "One starts the vowel, the other continues it, then they alternate words",
+            "weights": [
+              0,
+              100
+            ]
+          }
+        ],
+        "explanation": "The markings move from one owner for the entire phrase, through one handoff, to several handoffs within it. They describe this rehearsal plan only.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu30-7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "The lead sings “We can still read the road.” Which partner line would you choose?",
+        "context": "Original fictional lines. Choose whether the reply supports that claim, changes its approach, or combines both.",
+        "options": [
+          {
+            "id": "a",
+            "label": "“The marks are still there” — supports the lead",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "“Then let us ask for directions” — changes the solution",
+            "weights": [
+              100,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "“I kept one corner open” — partly supports and partly changes it",
+            "weights": [
+              50,
+              0
+            ]
+          }
+        ],
+        "explanation": "The partner can reinforce the claim, replace its strategy, or keep an intermediate possibility.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu30-8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "How would you imagine the final exchange?",
+        "context": "The last written line is “Leave a light for whoever comes.” These are imagined performer roles; the quiz does not render a vocal performance.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The original lead sings it while the partner hums underneath",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "The former backing singer speaks it, then the original lead repeats it",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Both singers exchange halves of the line",
+            "weights": [
+              0,
+              100
+            ]
+          }
+        ],
+        "explanation": "A whole line can belong to either performer. Exchanging halves instead makes the last phrase itself a shared delivery.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original TypologyQuiz scenarios, lines and puzzle cases",
+        "kind": "original"
+      }
+    ],
+    "note": "All words and tones are original. The optional clips are simple synthesized tones with equivalent transcripts, not sung lyrics, a duet recording or a mix generated from choices. The two results describe only this arrangement.",
+    "dimensions": [
+      {
+        "id": "meaning",
+        "low": "Reinforce",
+        "high": "Reframe",
+        "description": "How the partner line changes the first line in this invented duet."
+      },
+      {
+        "id": "roles",
+        "low": "Whole phrases",
+        "high": "Shared phrases",
+        "description": "Whether each performer carries a complete phrase or they divide a phrase between them in this invented duet."
+      }
+    ]
   }
 ]

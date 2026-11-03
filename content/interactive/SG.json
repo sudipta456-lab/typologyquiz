@@ -10891,5 +10891,329 @@
         ]
       }
     ]
+  },
+  {
+    "id": "SG-30",
+    "slug": "curling-beyond-the-stone",
+    "categoryId": "sports-games",
+    "title": "Curling: Think Beyond the Stone",
+    "description": "Read curling shot purposes, team roles and scoring positions, then work out what a blank end changes.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Give a stone a job"
+      },
+      {
+        "id": "s2",
+        "title": "Read the next shot"
+      },
+      {
+        "id": "s3",
+        "title": "What the end changes"
+      }
+    ],
+    "questions": [
+      {
+        "id": "sg30-1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "You want to protect a teammate’s stone already in the house. Which shot has that purpose?",
+        "context": "Fictional standard four-player end. The house is the scoring target; there is open space in front of it.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Draw a second stone behind the scoring stone"
+          },
+          {
+            "id": "c",
+            "label": "Take out the exposed opposing stone on the other side"
+          },
+          {
+            "id": "d",
+            "label": "Attempt a raise by hitting the scoring stone forward"
+          },
+          {
+            "id": "a",
+            "label": "Place a guard in front of the house"
+          }
+        ],
+        "correct": "a",
+        "explanation": "A guard sits in front of the house to obstruct a direct path to a stone behind it.",
+        "sourceIds": [
+          "sgA",
+          "sgC"
+        ]
+      },
+      {
+        "id": "sg30-2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Your team has no stone in the house and wants one close to the centre. Which shot family fits?",
+        "context": "Fictional ordinary end; no opponent stone blocks the open approach.",
+        "options": [
+          {
+            "id": "c",
+            "label": "A guard in front of the house"
+          },
+          {
+            "id": "d",
+            "label": "A peel that clears a guard from the path"
+          },
+          {
+            "id": "a",
+            "label": "A draw into the house"
+          },
+          {
+            "id": "b",
+            "label": "A takeout of an opposing stone"
+          }
+        ],
+        "correct": "a",
+        "explanation": "A draw aims to place a stone in the house, establishing a scoring position.",
+        "sourceIds": [
+          "sgA"
+        ]
+      },
+      {
+        "id": "sg30-3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "An opponent’s stone is already closest to the centre. Your explicit goal is to remove it. Which shot family fits?",
+        "context": "Fictional ordinary end. The stone is exposed, and this asks about purpose rather than guaranteed execution.",
+        "options": [
+          {
+            "id": "d",
+            "label": "A freeze that comes to rest against it"
+          },
+          {
+            "id": "a",
+            "label": "A takeout"
+          },
+          {
+            "id": "b",
+            "label": "A guard placed in front of it"
+          },
+          {
+            "id": "c",
+            "label": "A draw stopping beside it"
+          }
+        ],
+        "correct": "a",
+        "explanation": "A takeout is aimed at removing a stone from play; that is different from placing a new scoring stone.",
+        "sourceIds": [
+          "sgA"
+        ]
+      },
+      {
+        "id": "sg30-4",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "The skip is delivering a stone. Who normally takes over directing play at the target end?",
+        "context": "Standard four-player curling. The skip usually directs the team’s play, but is also one of its players.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The team’s vice-skip"
+          },
+          {
+            "id": "b",
+            "label": "The opposing skip"
+          },
+          {
+            "id": "c",
+            "label": "The player who delivered immediately before, regardless of role"
+          },
+          {
+            "id": "d",
+            "label": "The game umpire"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The vice-skip performs the directing role when the skip delivers. The skip is often the fourth player, but that delivery position is not essential to the role.",
+        "sourceIds": [
+          "sgA"
+        ]
+      },
+      {
+        "id": "sg30-5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Your delivered stone is travelling slightly short of its called draw distance. What can legal sweeping try to change?",
+        "context": "This asks about the intended effect of ordinary sweeping, not a guarantee on a particular sheet.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Make it stop shorter than it otherwise would"
+          },
+          {
+            "id": "c",
+            "label": "Change which team delivered it"
+          },
+          {
+            "id": "d",
+            "label": "Guarantee it stops exactly on the called point"
+          },
+          {
+            "id": "a",
+            "label": "Help it travel farther"
+          }
+        ],
+        "correct": "a",
+        "explanation": "World Curling lists making a stone travel farther or hold straighter as acceptable sweeping effects; intentionally slowing it is not.",
+        "sourceIds": [
+          "sgA",
+          "sgD"
+        ]
+      },
+      {
+        "id": "sg30-6",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "Compare the result if a takeout succeeds or misses.",
+        "context": "Fictional standard end. The only stones in or touching the house are two of yours and one opposing stone; that opponent stone is closer to the centre than either of yours. The planned takeout would remove only the opponent stone; both of yours would stay put. Compare the position immediately after each possible shot, before later deliveries.",
+        "cells": [
+          {
+            "id": "success",
+            "label": "If the opponent stone is removed, which team has stones closer to the centre?",
+            "options": [
+              {
+                "id": "a",
+                "label": "Your team, with two stones in the house"
+              },
+              {
+                "id": "b",
+                "label": "The opponent, because the end began with its stone closest"
+              },
+              {
+                "id": "c",
+                "label": "Neither team, because removing a stone cancels the position"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "miss",
+            "label": "If the opponent stone stays closest, which team is currently lying shot?",
+            "options": [
+              {
+                "id": "a",
+                "label": "Your team, because it has two stones"
+              },
+              {
+                "id": "b",
+                "label": "The opponent, whose stone is closest"
+              },
+              {
+                "id": "c",
+                "label": "Neither team until the hammer is delivered"
+              }
+            ],
+            "correct": "b"
+          }
+        ],
+        "explanation": "Removing the closest opposing stone can expose both of your stones as counting; a miss leaves that opponent stone closest. Later deliveries can change the end.",
+        "sourceIds": [
+          "sgA",
+          "original"
+        ]
+      },
+      {
+        "id": "sg30-7",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "In an ordinary four-player end, your team has the hammer. What advantage does that name?",
+        "context": "This case is standard team curling, not mixed doubles.",
+        "options": [
+          {
+            "id": "d",
+            "label": "Your team wins a tie in a distance measurement"
+          },
+          {
+            "id": "a",
+            "label": "Your team delivers the last stone of the end"
+          },
+          {
+            "id": "b",
+            "label": "Your team delivers the first stone of the end"
+          },
+          {
+            "id": "c",
+            "label": "Your team has an extra delivery beyond its usual stones"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Hammer means last-stone advantage in an end; it creates an opportunity, not an automatic point.",
+        "sourceIds": [
+          "sgA",
+          "sgB"
+        ]
+      },
+      {
+        "id": "sg30-8",
+        "sectionId": "s3",
+        "kind": "choice",
+        "prompt": "Neither team has a stone in or touching the house after the final delivery. Your team had the hammer. Who has it next?",
+        "context": "Fictional standard four-player game: this is a blank end. Mixed doubles has a different rule and is excluded.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Your team keeps the hammer"
+          },
+          {
+            "id": "b",
+            "label": "The opposing team takes the hammer"
+          },
+          {
+            "id": "c",
+            "label": "A new pre-game draw decides the hammer"
+          },
+          {
+            "id": "d",
+            "label": "The team that delivered first keeps the hammer"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Under standard team rules, a blank end leaves the hammer with the same team for the next end. Mixed doubles differs, which is excluded here.",
+        "sourceIds": [
+          "sgA",
+          "sgB"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "sgA",
+        "label": "World Curling, What is curling?",
+        "kind": "reference",
+        "url": "https://worldcurling.org/about/curling/"
+      },
+      {
+        "id": "sgB",
+        "label": "World Curling, Rules of Curling 2026",
+        "kind": "reference",
+        "url": "https://worldcurling.org/wp-content/uploads/2026/10/Rules-of-Curling-2026.pdf"
+      },
+      {
+        "id": "sgC",
+        "label": "Curling Canada, About curling",
+        "kind": "reference",
+        "url": "https://www.curling.ca/about-us/about-curling/"
+      },
+      {
+        "id": "sgD",
+        "label": "World Curling, Sweeping Technique Policy announcement (6 January 2026)",
+        "kind": "reference",
+        "url": "https://worldcurling.org/2026/01/sweeping-technique-policy/"
+      },
+      {
+        "id": "original",
+        "label": "Original TypologyQuiz scenarios, lines and puzzle cases",
+        "kind": "original"
+      }
+    ],
+    "note": "Text-only bounded cases for standard four-player curling, not a playable match or shot simulator. Shot names state purposes, not guaranteed physical outcomes."
   }
 ]
