@@ -1,0 +1,405 @@
+{
+  "localDate": "2026-11-03",
+  "timezone": "America/Edmonton",
+  "status": "published-verified-live",
+  "publishedNewQuizzes": 5,
+  "unpublishedShortfall": 0,
+  "newTasks": 40,
+  "collectionQuizzes": 305,
+  "collectionTasks": 2440,
+  "categoryCounts": {
+    "PC": 31,
+    "FS": 31,
+    "MT": 30,
+    "MU": 30,
+    "GT": 30,
+    "SN": 31,
+    "HC": 31,
+    "FE": 31,
+    "SG": 30,
+    "LW": 30
+  },
+  "packetSha256": "d075b1e669646997a48ed69810e55bea16e7e7c2ead1a21e5be4806bf77aaf31",
+  "sourceCommit": "6f29dd3f60ade9c38cf0f01ea290ef0acf5ec714",
+  "deploymentVersion": "d3d38c20-48e4-4c67-b331-36da30860054",
+  "deploymentId": "5ba716ae-8ca2-4cf6-9930-8edcfd153933",
+  "deployedAtUTC": "2026-11-03T13:58:14.902647Z",
+  "trafficPercent": 100,
+  "quizzes": [
+    {
+      "id": "MT-30",
+      "slug": "behind-a-stop-motion-face",
+      "title": "Behind a Stop-Motion Face",
+      "categoryCode": "MT",
+      "url": "https://typologyquiz.com/quizzes/behind-a-stop-motion-face/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match"
+      ]
+    },
+    {
+      "id": "MU-30",
+      "slug": "duet-with-a-moving-lead",
+      "title": "A Duet With a Moving Lead",
+      "categoryCode": "MU",
+      "url": "https://typologyquiz.com/quizzes/duet-with-a-moving-lead/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "audio",
+        "rank",
+        "choice"
+      ]
+    },
+    {
+      "id": "GT-30",
+      "slug": "canals-across-the-landscape",
+      "title": "Canals That Cross a Landscape",
+      "categoryCode": "GT",
+      "url": "https://typologyquiz.com/quizzes/canals-across-the-landscape/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "match"
+      ]
+    },
+    {
+      "id": "SG-30",
+      "slug": "curling-beyond-the-stone",
+      "title": "Curling: Think Beyond the Stone",
+      "categoryCode": "SG",
+      "url": "https://typologyquiz.com/quizzes/curling-beyond-the-stone/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "grid"
+      ]
+    },
+    {
+      "id": "LW-30",
+      "slug": "crossword-without-clue-numbers",
+      "title": "Crossword Without Clue Numbers",
+      "categoryCode": "LW",
+      "url": "https://typologyquiz.com/quizzes/crossword-without-clue-numbers/",
+      "tasks": 8,
+      "sections": 3,
+      "formats": [
+        "choice",
+        "grid",
+        "match",
+        "order"
+      ]
+    }
+  ],
+  "independentReview": {
+    "status": "PASS",
+    "provider": "authenticated GPT subscription",
+    "model": "gpt-6-sol",
+    "record": "2026-11-03-review.md",
+    "scope": "Initial full40task/code review plus exact36field closure and a sole method-sentence provenance closure; no claim that every session re-reviewed40facts."
+  },
+  "verification": {
+    "fullVerifyTests": 311,
+    "typecheckLintAndGeneratorChecks": "PASS",
+    "productionBuild": "PASS",
+    "productionDryRun": "PASS",
+    "activeGAHTMLPages": 1625,
+    "sitemapURLs": 889,
+    "analyticsManifestRoutes": 1623,
+    "liveResponses": 16,
+    "newQuizNodesWith8Questions": 5,
+    "allNewSitemapLLMSAndMethodologyLinks": true,
+    "previewInitialTasks": 40,
+    "finalChangedQuizBrowserTasks": 24,
+    "productionTasks": 8,
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "resumeAtTask": 4,
+    "optionalAudioControlsAndTranscripts": 2,
+    "sharingPanelPresentOnAll5": true,
+    "clipboardReadLimitation": "IAB clipboard read returned empty; copy delivery not asserted.",
+    "gaDelivery": {
+      "property": "545477353",
+      "event": "interactive_quiz_complete",
+      "quizId": "GT-30",
+      "count": 1,
+      "operatorQA": true,
+      "observedAt": "2026-11-03T14:02:24.402Z"
+    },
+    "handbookExportRemoved": true,
+    "R2SampleStatus": 200,
+    "workerFirstRoutingAndBindings": "preserved"
+  },
+  "research": {
+    "regions": [
+      {
+        "region": "Europe",
+        "sample": "French-language JetPunk; not verified visitor countries",
+        "url": "https://www.jetpunk.com/fr/top-quizzes-by-day/",
+        "observedDate": "2026-11-03",
+        "period": "Today, refresh15minutes; live browser previous-day link2026-11-02 confirms date context",
+        "access": "Fresh IAB browser body; web tool returned2-day-old cache and directPythonGET403, neither used as current ranking proof",
+        "observation": "Live list includes Southern-Hemisphere countries, world-country recall, US-city maps, borderless Europe maps and a15-second month-name challenge. Daily attempts are distinct from cumulative counts.",
+        "format": "Recognition, spatial clues and a clear bounded challenge",
+        "categoryFit": [
+          "GT",
+          "LW",
+          "MT"
+        ],
+        "adaptation": "Original layered landscape/infrastructure clues and crisscross word constraints; cinematic technique discoveries. This is a mechanism/editorial-fit hypothesis, not demand for these topics.",
+        "limits": "French-language platform sample only; no Europe-wide, national, demographic, growth or copied-map/art/question claim.",
+        "selectedConceptNearestCheck": {
+          "nearest": [
+            "MT-09",
+            "GT-06",
+            "LW-16"
+          ],
+          "actualTaskDifferences": "MT-09 labels animation methods and calculates frame time; GT-06 follows an invented drainage network; LW-16 repairs one letter in sentences. Today’s MT-30 follows physical and digital puppet production, GT-30 explains documented canal crossings, and LW-30 tests full row-column word squares. The French-language portal sample suggests only bounded recognition/spatial format fit, not topic demand."
+        }
+      },
+      {
+        "region": "Japan",
+        "sample": "Japanese-language Makko",
+        "url": "https://ma-kko.com/free_plan/trend/",
+        "observedDate": "2026-11-03",
+        "period": "11/3update,10/27–11/2aggregation, with featured/rising/NEW labels; counters not established as weekly totals",
+        "access": "Fresh200GET at13:01:17UTC plus webread",
+        "observation": "Current body features situational everyday choices, labels a history-recall listing rising and traditional-colour metaphor NEW. The earlier silhouette/matchstick listings were ABSENT from this fresh body; do not carry forward old visual-puzzle trend claims.",
+        "format": "Short situations, concrete result framing and knowledge reveals",
+        "categoryFit": [
+          "MU",
+          "MT",
+          "LW"
+        ],
+        "adaptation": "Original creative musical role choices and factual behind-scenes reveals; no alleged social-reading skill, supernatural, appearance or diagnostic scoring.",
+        "limits": "Portal window/labels only, not a national or demographic sample. No copied character art, result algorithm, cultural stereotypes or psychometric claims.",
+        "selectedConceptNearestCheck": {
+          "nearest": [
+            "MT-19",
+            "MU-29",
+            "LW-15"
+          ],
+          "actualTaskDifferences": "MT-19 uses generic film-tool vocabulary; MU-29 chooses a ghost sound palette, entrance and timing; LW-15 finds words across sentence boundaries. Today’s MT-30 uses documented craft cases, MU-30 chooses semantic duet relationships and performer handoffs, and LW-30 uses crisscross constraints. The fresh 10/27–11/2 portal labels are calendar/sample evidence, not a trend or localization claim."
+        }
+      },
+      {
+        "region": "South Korea",
+        "sample": "Korean-language Poomang",
+        "url": "https://poomang.com/",
+        "observedDate": "2026-11-03",
+        "period": "Weekly top12 label without exactdates; latest-testlist without verified creation dates; counters not weekly totals",
+        "access": "Fresh200GET at13:01:18UTC plus webread",
+        "observation": "Weekly list includes song-taste treatment; latest list includes a lunchbox-menu recommendation. Branded/character and everyday packaging remain visible. Counts and ranks shift between snapshots, not independent growth evidence.",
+        "format": "Brief familiar decisions and readable descriptive results",
+        "categoryFit": [
+          "MU",
+          "SG"
+        ],
+        "adaptation": "Original duet-arrangement choices and accessible game situations with specific consequences, rather than generic music/animal personality reskins.",
+        "limits": "No audience-size/demographic/growth inference; exclude hormone, attachment/diagnostic and appearance claims; no songs, art, banks or scoring copied.",
+        "selectedConceptNearestCheck": {
+          "nearest": [
+            "MU-24",
+            "MU-29",
+            "SG-26"
+          ],
+          "actualTaskDifferences": "MU-24 scores pulse/mood loops; MU-29 scores sound texture/timing; SG-26 applies an invented mini-golf arithmetic rulebook. Today’s MU-30 scores an original duet’s meaning and role transfer, and SG-30 reasons about real curling shot purposes. The weekly label has no verified date window or weekly counter totals."
+        }
+      },
+      {
+        "region": "China",
+        "sample": "Chinese-language sbti.one; operator and audience geography not independently verified",
+        "url": "https://sbti.one/",
+        "observedDate": "2026-11-03",
+        "period": "2026-labelled internet-life and new-bank labels; no verified dated ranking or new-release timestamp",
+        "access": "Fresh200GET at13:01:19UTC plus webread",
+        "observation": "Internet/commuting/game situations and screenshot-style results remain; entertainment disclaimer and author request against commercial use remain.",
+        "format": "Recognizable situations and compact results, generic inspiration only",
+        "categoryFit": [
+          "MU",
+          "SG",
+          "LW"
+        ],
+        "adaptation": "Kind original wording for limited creative/game choices and concise explanations. No translation of a bank, title, scoring or result art.",
+        "limits": "EXACT GAP: no verified current China-wide popularity/ranking, engagement growth, publication date, visitor geography or official/original-creator status. Do not convert this into science or a trend claim.",
+        "selectedConceptNearestCheck": {
+          "nearest": [
+            "MU-05",
+            "SG-09",
+            "LW-02"
+          ],
+          "actualTaskDifferences": "MU-05 builds a mixtape; SG-09 classifies game genres; LW-02 removes false abstract rules. Today’s MU-30 stages original duet lines, SG-30 reasons about bounded curling positions, and LW-30 completes original word squares. The portal offers generic compact-situation format context only; it has no verified current China-wide popularity, growth, publishing date or visitor geography, and its commercial-reuse restriction precludes bank reuse."
+        }
+      }
+    ],
+    "factualSources": [
+      {
+        "quizId": "MT-30",
+        "sources": [
+          {
+            "url": "https://www.aardman.com/latest-news/2023/may/behind-the-craft-thatchers-cider-pint-sized-perfection/",
+            "claim": "Aardman body read: full armatures, silicone puppets and tracked CG faces in Thatchers commercial.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "Evergreen source; checked 2026-11-03"
+          },
+          {
+            "url": "https://www.acmi.net.au/education/school-program-and-resources/getting-started-with-stop-motion-resource/",
+            "claim": "ACMI body read: physical frame capture, found objects and clay armatures.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "Evergreen source; checked 2026-11-03"
+          },
+          {
+            "url": "https://www.acmi.net.au/works/100846--isle-of-dogs-puppets/",
+            "claim": "ACMI collection body read: dog puppet body and separate face armatures.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "Evergreen source; checked 2026-11-03"
+          },
+          {
+            "url": "https://www.acmi.net.au/education/school-program-and-resources/make-stop-motion-animation/",
+            "claim": "ACMI body read: onion-skin overlay of last frame and live camera view.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "Evergreen source; checked 2026-11-03"
+          }
+        ],
+        "rationale": "See how a physical puppet and digital finishing can share one stop-motion shot. No measured popularity or conversion claim.",
+        "duplicationCheck": {
+          "nearest": [
+            "MT-09",
+            "MT-19",
+            "MT-28"
+          ],
+          "actualTaskDifferences": "MT-09 uses technique labels, a frame-time calculation and workflow ordering; MT-19 uses invented tools and generic vocabulary; MT-28 is a wordless pumpkin rescue storyboard. MT-30 instead asks about separate facial armatures, mouth sets, onion-skin continuity, found-object animation and a documented hybrid CG-face production."
+        }
+      },
+      {
+        "quizId": "MU-30",
+        "sources": [],
+        "rationale": "Choose what a partner line means and who carries an invented duet’s returning motif. No measured popularity or conversion claim.",
+        "duplicationCheck": {
+          "nearest": [
+            "MU-05",
+            "MU-24",
+            "MU-27",
+            "MU-29"
+          ],
+          "actualTaskDifferences": "MU-05 assembles a mixtape; MU-24 scores pulse and mood; MU-27 solves a ghost melody mystery; MU-29 chooses entrance, timing and texture. MU-30 scores the semantic relationship of invented duet lines and who owns the lead motif, with no detective plot or timing-density axis. Revised performer axis compares whole and internally shared phrases, rather than rewarding a complete role swap more than repeated handoffs."
+        }
+      },
+      {
+        "quizId": "GT-30",
+        "sources": [
+          {
+            "url": "https://www.parks.canada.ca/lhn-nhs/on/rideau/histoire-history",
+            "claim": "Parks Canada body read: Ottawa–Kingston route, natural waters, dams and locks.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "Evergreen source; checked 2026-11-03"
+          },
+          {
+            "url": "https://www.parks.canada.ca/lhn-nhs/on/rideau/histoire-history/histoire-decluse-lock-history/newboro",
+            "claim": "Parks Canada body read: Newboro watershed divide and later connected local industries.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "Evergreen source; checked 2026-11-03"
+          },
+          {
+            "url": "https://parks.canada.ca/lhn-nhs/on/trentsevern/info/plan/plan-2022",
+            "claim": "Parks Canada management-plan body read: Peterborough hydraulic lift lock and Big Chute marine railway.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "Evergreen source; checked 2026-11-03"
+          },
+          {
+            "url": "https://www.parks.canada.ca/lhn-nhs/on/rideau/histoire-history/histoire-decluse-lock-history/ottawa",
+            "claim": "Parks Canada body read: Ottawa locks and bypass of Rideau falls and rapids.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "Evergreen source; checked 2026-11-03"
+          },
+          {
+            "url": "https://parks.canada.ca/lhn-nhs/on/trentsevern/visit/navigation/ecluser-lock-through",
+            "claim": "Parks Canada page body: hydraulic lift locks move water-filled chambers on pistons; Big Chute carries vessels on a carriage over land.",
+            "verification": "Coordinator opened the official body on 2026-11-03; only mechanical description is adapted, no boating instructions.",
+            "dateContext": "Evergreen mechanism; checked 2026-11-03"
+          }
+        ],
+        "rationale": "Find the landscape barriers Canadian waterways cross and compare the engineering responses. No measured popularity or conversion claim.",
+        "duplicationCheck": {
+          "nearest": [
+            "GT-06",
+            "GT-08",
+            "GT-18",
+            "GT-29"
+          ],
+          "actualTaskDifferences": "GT-06 follows an invented watershed; GT-08 reconstructs transit-stop order; GT-18 uses a fictional drive and time calculations; GT-29 maps ghost-town heritage. GT-30 compares documented Canadian canal crossings, divides, locks and marine railway geography. The endpoint-matching task introduces Ottawa River/Lake Ontario/Georgian Bay connections instead of disclosing the next marine-railway answer."
+        }
+      },
+      {
+        "quizId": "SG-30",
+        "sources": [
+          {
+            "url": "https://worldcurling.org/about/curling/",
+            "claim": "World Curling body read: guard, draw, takeout, hammer, blank end and sweeping primer.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "2026 rules and sweeping policy; checked 2026-11-03"
+          },
+          {
+            "url": "https://worldcurling.org/wp-content/uploads/2026/10/Rules-of-Curling-2026.pdf",
+            "claim": "World Curling 2026 rules PDF body read; standard team rules checked against primer.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "2026 rules and sweeping policy; checked 2026-11-03"
+          },
+          {
+            "url": "https://www.curling.ca/about-us/about-curling/",
+            "claim": "Curling Canada body read: guard, hammer and hit glossary.",
+            "verification": "Official institution page body read through web browser on 2026-11-03; paraphrased for task explanations.",
+            "dateContext": "2026 rules and sweeping policy; checked 2026-11-03"
+          },
+          {
+            "url": "https://worldcurling.org/2026/01/sweeping-technique-policy/",
+            "claim": "World Curling official policy announcement: acceptable farther/straighter effects; prohibited intentional deceleration techniques.",
+            "verification": "Independent reviewer opened article body; coordinator reopened it. Previously linked PDF returned404 on direct fresh fetch and was removed.",
+            "dateContext": "6 January2026 policy announcement; checked2026-11-03"
+          }
+        ],
+        "rationale": "Call a shot for its purpose, then see what guards, hammer and sweeping change. No measured popularity or conversion claim.",
+        "duplicationCheck": {
+          "nearest": [
+            "SG-09",
+            "SG-25",
+            "SG-26"
+          ],
+          "actualTaskDifferences": "SG-09 classifies game genres; SG-25 rewinds a toy token game; SG-26 computes invented mini-golf strokes. SG-30 asks what real curling shots are for and how a guard, hammer or sweeping changes a bounded strategic objective."
+        }
+      },
+      {
+        "quizId": "LW-30",
+        "sources": [],
+        "rationale": "Work through eight word-crossing challenges with independent boards and a final four-word square. No measured popularity or conversion claim.",
+        "duplicationCheck": {
+          "nearest": [
+            "LW-02",
+            "LW-12",
+            "LW-15",
+            "LW-16"
+          ],
+          "actualTaskDifferences": "LW-02 removes false abstract rules; LW-12 folds paper; LW-15 finds words spanning sentence spaces; LW-16 repairs single letters in sentences. LW-30 tests genuine row-column word squares in closed banks and ends with a joint placement. Eight tasks now use independent crossings or banks; one prior explanation does not print the next answer. The closed spare-word task is exhaustively enumerated."
+        }
+      }
+    ],
+    "NorthAmerica": "Evergreen editorial fit, not a current event or rising-demand claim.",
+    "growthLimit": "Oct26–Nov1 75sessions/21starts/12completes overlap operatorQA and unmatched funnels; no causal growth/retention claim."
+  },
+  "preservation": {
+    "priorQuizObjectsByteIdentical": 300,
+    "priorBriefObjectsByteIdentical": 300,
+    "newQuizObjects": 5,
+    "newBriefObjects": 5,
+    "oldIDsSlugsQuestionsScoringAndProgress": "preserved",
+    "initialFixturesLegacyAndHistoricalReleases": "unchanged",
+    "November2": "No committed/deployed batch verified; exact reason unknown; not backfilled.",
+    "newsMediaOutreachAccountsPrivacyPixels": "unchanged"
+  }
+}
