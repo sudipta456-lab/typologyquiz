@@ -12513,5 +12513,293 @@
         ]
       }
     ]
+  },
+  {
+    "id": "FE-32",
+    "slug": "price-tag-and-pack",
+    "categoryId": "food-everyday-life",
+    "title": "The Price Tag and the Pack",
+    "description": "Compare fictional same-product packs using unit rate, checkout total, needed quantity and a shrinking pack.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "shelf",
+        "title": "Read the shelf"
+      },
+      {
+        "id": "decision",
+        "title": "Answer the actual shopping question"
+      }
+    ],
+    "sources": [
+      {
+        "id": "oca",
+        "kind": "reference",
+        "label": "Office of Consumer Affairs, Comparing food prices: Per unit pricing",
+        "url": "https://ised-isde.canada.ca/site/office-consumer-affairs/en/modern-marketplace/comparing-food-prices-unit-pricing"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional situations and reasoning authored for this quiz."
+      }
+    ],
+    "note": "All prices and shopping situations are fictional.",
+    "questions": [
+      {
+        "id": "fe32-1",
+        "sectionId": "shelf",
+        "kind": "choice",
+        "prompt": "Which label tells you cost for the same amount?",
+        "context": "Fictional shelf: the same plain oats come as 500 g for $3.00 and 750 g for $4.20. You want to compare quantity value.",
+        "options": [
+          {
+            "id": "b",
+            "label": "The largest printed checkout price"
+          },
+          {
+            "id": "a",
+            "label": "The price per 100 g"
+          },
+          {
+            "id": "c",
+            "label": "The package height"
+          }
+        ],
+        "correct": "a",
+        "explanation": "A common weight denominator lets unequal packs be compared.",
+        "sourceIds": [
+          "oca",
+          "original"
+        ]
+      },
+      {
+        "id": "fe32-2",
+        "sectionId": "shelf",
+        "kind": "choice",
+        "prompt": "Which pack has the lower rate per 100 g?",
+        "context": "Fictional shelf: identical rice, 500 g for $2.50 or 750 g for $3.30. Compare the same 100 g amount.",
+        "options": [
+          {
+            "id": "b",
+            "label": "The 500 g pack"
+          },
+          {
+            "id": "a",
+            "label": "The 750 g pack"
+          },
+          {
+            "id": "c",
+            "label": "They have the same rate"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The rates are $0.50 and $0.44 per 100 g respectively.",
+        "sourceIds": [
+          "oca",
+          "original"
+        ]
+      },
+      {
+        "id": "fe32-3",
+        "sectionId": "shelf",
+        "kind": "choice",
+        "prompt": "Which pack fits the stated checkout limit?",
+        "context": "Fictional shopper has $3.00 available now and needs at least 300 g of identical pasta. Packs: 400 g for $2.80, or 800 g for $4.80.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Only the 800 g pack"
+          },
+          {
+            "id": "c",
+            "label": "Either pack"
+          },
+          {
+            "id": "a",
+            "label": "Only the 400 g pack"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The larger pack has a lower rate per gram, but its $4.80 checkout total exceeds this fictional limit.",
+        "sourceIds": [
+          "oca",
+          "original"
+        ]
+      },
+      {
+        "id": "fe32-4",
+        "sectionId": "decision",
+        "kind": "match",
+        "prompt": "Match each question to the denominator or total that answers it.",
+        "context": "Fictional grocery comparison of the same cereal. No taxes, discounts or other costs are involved.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Which has the lower price for 100 g?"
+          },
+          {
+            "id": "b",
+            "label": "Which can I pay for with $4 today?"
+          },
+          {
+            "id": "c",
+            "label": "How much cereal do I take home?"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Pack weight"
+          },
+          {
+            "id": "b",
+            "label": "Checkout price"
+          },
+          {
+            "id": "c",
+            "label": "Price per 100 g"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "b",
+          "c": "a"
+        },
+        "explanation": "Rate, cash outlay and amount are different measurements. A useful comparison starts with the question being asked.",
+        "sourceIds": [
+          "oca",
+          "original"
+        ]
+      },
+      {
+        "id": "fe32-5",
+        "sectionId": "decision",
+        "kind": "choice",
+        "prompt": "What changed when the pack shrank?",
+        "context": "Fictional cereal: last month 600 g cost $3.60; this month 500 g costs $3.60. Same product and checkout price.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Its price per 100 g stayed $0.60"
+          },
+          {
+            "id": "c",
+            "label": "Its checkout price rose by $0.72"
+          },
+          {
+            "id": "a",
+            "label": "Its price per 100 g rose from $0.60 to $0.72"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The same $3.60 is divided by fewer grams, so the common-unit rate increases.",
+        "sourceIds": [
+          "oca",
+          "original"
+        ]
+      },
+      {
+        "id": "fe32-6",
+        "sectionId": "decision",
+        "kind": "choice",
+        "prompt": "Which comparison answers whether the sale pack costs less for the same quantity?",
+        "context": "Fictional shelf. One same-product pack has a sale sticker, but its size differs from the regular pack. Both checkout prices and both weights are available.",
+        "options": [
+          {
+            "id": "c",
+            "label": "Compare each pack’s cost for the same weight"
+          },
+          {
+            "id": "a",
+            "label": "Compare the checkout totals without using weights"
+          },
+          {
+            "id": "b",
+            "label": "Compare the sale pack with its own previous checkout price"
+          }
+        ],
+        "correct": "c",
+        "explanation": "An earlier price can show whether that pack got cheaper. Comparing packs of different sizes requires the same weight basis.",
+        "sourceIds": [
+          "oca",
+          "original"
+        ]
+      },
+      {
+        "id": "fe32-7",
+        "sectionId": "decision",
+        "kind": "grid",
+        "prompt": "Read two different shopping goals.",
+        "context": "Fictional shelf: identical beans, small 400 g for $2.40 ($0.60 per 100 g), large 800 g for $4.00 ($0.50 per 100 g). Shopper can spend $3 now and needs 350 g.",
+        "cells": [
+          {
+            "id": "a",
+            "label": "Lower unit rate",
+            "options": [
+              {
+                "id": "a",
+                "label": "Small pack"
+              },
+              {
+                "id": "b",
+                "label": "Large pack"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "b",
+            "label": "Within $3 and enough for today",
+            "options": [
+              {
+                "id": "a",
+                "label": "Small pack"
+              },
+              {
+                "id": "b",
+                "label": "Large pack"
+              }
+            ],
+            "correct": "a"
+          }
+        ],
+        "explanation": "The large pack wins on rate; the small pack meets the stated cash and quantity constraints.",
+        "sourceIds": [
+          "oca",
+          "original"
+        ]
+      },
+      {
+        "id": "fe32-8",
+        "sectionId": "decision",
+        "kind": "choice",
+        "prompt": "Which pack costs this household less for the amount it will actually use?",
+        "context": "Fictional shopper will use exactly 350 g of the same oats and give any extra away. A 400 g pack costs $3.20 and a 750 g pack costs $5.25. No further purchases are planned.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The 750 g pack because each gram purchased costs less"
+          },
+          {
+            "id": "c",
+            "label": "They cost the same because the oats are identical"
+          },
+          {
+            "id": "b",
+            "label": "The 400 g pack because both supply the same 350 g the household will use"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The 750 g pack is cheaper per gram purchased. For this household’s fixed 350 g of use, it still costs $5.25 rather than $3.20.",
+        "sourceIds": [
+          "oca",
+          "original"
+        ]
+      }
+    ]
   }
 ]

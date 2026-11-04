@@ -11561,5 +11561,307 @@
         ]
       }
     ]
+  },
+  {
+    "id": "FS-32",
+    "slug": "paper-stars-two-views",
+    "categoryId": "friends-social-play",
+    "title": "Paper Stars, Two Views",
+    "description": "Compare witnesses and records from a fictional community-room mishap, trace a missing paper star and decide what the evidence supports.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "accounts",
+        "title": "Two views"
+      },
+      {
+        "id": "reconstruct",
+        "title": "Follow the stars"
+      },
+      {
+        "id": "payoff",
+        "title": "Close the count"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional situations and reasoning authored for this quiz."
+      }
+    ],
+    "note": "An original evidence puzzle you can play solo or discuss together in the same room.",
+    "questions": [
+      {
+        "id": "fs32-1",
+        "sectionId": "accounts",
+        "kind": "choice",
+        "prompt": "Whose account can establish whether the window-ledge stack was tied before the gust?",
+        "context": "Original community-room scene. Amira was close enough to see a cord lying over the stack and knotted beneath it. Bo could see the far side of the table, while Chen arrived after the gust.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Bo’s view across the table"
+          },
+          {
+            "id": "b",
+            "label": "Amira’s close view of the ledge"
+          },
+          {
+            "id": "c",
+            "label": "Chen’s later entry"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Amira saw the cord and its knot directly. The other two accounts have useful views of different places or times.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs32-2",
+        "sectionId": "accounts",
+        "kind": "match",
+        "prompt": "Match each question to the record that could answer it directly.",
+        "context": "Original scene. The volunteer group has three records. Read the date or location of each before deciding what it can establish.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Did the cloth move during the gust?"
+          },
+          {
+            "id": "b",
+            "label": "Where was one loose star seen after the gust?"
+          },
+          {
+            "id": "c",
+            "label": "How many stars were prepared at setup?"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Chen’s note about what was under the bench"
+          },
+          {
+            "id": "b",
+            "label": "Amira’s count written before the room opened"
+          },
+          {
+            "id": "c",
+            "label": "Bo’s description of the table as the gust arrived"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "a",
+          "c": "b"
+        },
+        "explanation": "A record made before setup cannot show the gust. The table account covers movement at that moment, and the later bench note covers a later position.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs32-3",
+        "sectionId": "accounts",
+        "kind": "choice",
+        "prompt": "Which detail can both accounts share without contradiction?",
+        "context": "Original scene. Before the gust, Amira wrote “open” at 3:00. After it, Bo wrote “closed” at 3:10. Neither watched the window throughout the interval.",
+        "options": [
+          {
+            "id": "a",
+            "label": "It remained open the whole ten minutes"
+          },
+          {
+            "id": "c",
+            "label": "Bo closed it at exactly 3:05"
+          },
+          {
+            "id": "b",
+            "label": "Its state changed at least once in the interval"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Open at 3:00 and closed at 3:10 requires a change; the accounts do not identify who changed it or when.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs32-4",
+        "sectionId": "reconstruct",
+        "kind": "choice",
+        "prompt": "Which star could the table sighting alone leave unaccounted for?",
+        "context": "Original scene. The three loose stars on the ledge each had a unique mark: a blue stripe, a red dot, or a silver ring. From the table, Bo recognized the red dot and silver ring on the two that landed. The curtain cut off Bo’s view of the rest of the room.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The star with the silver ring"
+          },
+          {
+            "id": "b",
+            "label": "The star with the blue stripe"
+          },
+          {
+            "id": "c",
+            "label": "Both the red-dot and silver-ring stars"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The two marks Bo recognizes account for those two stars. The third mark identifies which star needs a separate check. This does not locate it.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs32-5",
+        "sectionId": "reconstruct",
+        "kind": "order",
+        "prompt": "Put the observed events in the only supported order.",
+        "context": "Original scene. Bo closed the window in response to Chen calling out about the star under the bench. Chen noticed the star after the rustle. Amira had opened the window before that sound.",
+        "items": [
+          {
+            "id": "c",
+            "label": "Star spotted under bench"
+          },
+          {
+            "id": "a",
+            "label": "Window opened"
+          },
+          {
+            "id": "d",
+            "label": "Window closed"
+          },
+          {
+            "id": "b",
+            "label": "Rustle heard"
+          }
+        ],
+        "correctOrder": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "explanation": "The explicit before and after statements constrain all four cards.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs32-6",
+        "sectionId": "reconstruct",
+        "kind": "choice",
+        "prompt": "What check addresses both the missing count and the clue about the stripe?",
+        "context": "Original scene. The room began with twelve stars. Eleven are located and none of those has the blue stripe. Amira saw a striped corner disappear at the curtain edge. No one has looked at the curtain hem.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lift the curtain and check the mark on any star there"
+          },
+          {
+            "id": "b",
+            "label": "Check the time the window was opened"
+          },
+          {
+            "id": "c",
+            "label": "Read the setup inventory again"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The hem is a plausible location from Amira’s sighting. Checking for the stripe tests whether the object found is the missing star.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs32-7",
+        "sectionId": "reconstruct",
+        "kind": "grid",
+        "prompt": "Sort the statements by evidential status.",
+        "context": "Original scene. A dated photo shows twelve stars at setup. Eleven are now located. In the photo, three are loose while the rest are stacked. Nobody watched every star move.",
+        "cells": [
+          {
+            "id": "a",
+            "label": "“Twelve were present at setup.”",
+            "options": [
+              {
+                "id": "a",
+                "label": "Directly supported"
+              },
+              {
+                "id": "b",
+                "label": "Still unverified"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "“The gust moved the whole stack across the room.”",
+            "options": [
+              {
+                "id": "a",
+                "label": "Directly supported"
+              },
+              {
+                "id": "b",
+                "label": "Still unverified"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "“The setup photo distinguishes loose stars from the stack.”",
+            "options": [
+              {
+                "id": "a",
+                "label": "Directly supported"
+              },
+              {
+                "id": "b",
+                "label": "Still unverified"
+              }
+            ],
+            "correct": "a"
+          }
+        ],
+        "explanation": "The photo supports the starting count and how the stars were arranged then. It does not show which ones the gust moved.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "fs32-8",
+        "sectionId": "payoff",
+        "kind": "choice",
+        "prompt": "The curtain is lifted and a blue-striped star rests on its hem. What account can the group now give?",
+        "context": "Original scene. The earlier inventory was twelve; current locations are eight on table, one under bench, two in folder, one blue-striped star on the curtain hem. A gust was seen lifting three loose stars, but nobody watched every star throughout the afternoon.",
+        "options": [
+          {
+            "id": "b",
+            "label": "The gust carried all twelve stars across the room"
+          },
+          {
+            "id": "c",
+            "label": "Bo hid the last star on the curtain"
+          },
+          {
+            "id": "a",
+            "label": "All twelve are located; the exact route of each remains unknown"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The location count closes at twelve. The partial sightings do not establish a complete path or a culprit.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

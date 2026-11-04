@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 31,
+      "count": 32,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 31,
+      "count": 32,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 31,
+      "count": 32,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 31,
+      "count": 32,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 31,
+      "count": 32,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -6589,6 +6589,115 @@
       "category": "Logic & Wordplay",
       "category_code": "LW",
       "wave": "daily-2026-11-03",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "PC-32",
+      "title": "The Bellwick Canal Photo Walk",
+      "slug": "bellwick-canal-photo-walk",
+      "kind": "preference",
+      "hook": "Imagine a photo walk on a fictional canal loop. Choose which subjects to frame and how closely to follow the walk card.",
+      "rounds": [
+        "3 tasks: Start the loop",
+        "3 tasks: Choose the frame",
+        "2 tasks: Close the sequence"
+      ],
+      "seed": "The first frame has room for one view. Which would you make?",
+      "payoff": "See where you would aim the camera and how you would use the walk card.",
+      "audience": "Readers who enjoy a short, evidence-led interactive quiz.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "A text-only imagined walk. The result describes your choices for this particular route and framing assignment.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-11-04",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FS-32",
+      "title": "Paper Stars, Two Views",
+      "slug": "paper-stars-two-views",
+      "kind": "cooperative",
+      "hook": "Compare witnesses and records from a fictional community-room mishap, trace a missing paper star and decide what the evidence supports.",
+      "rounds": [
+        "3 tasks: Two views",
+        "4 tasks: Follow the stars",
+        "1 tasks: Close the count"
+      ],
+      "seed": "Whose account can establish whether the window-ledge stack was tied before the gust?",
+      "payoff": "Find the missing star and summarize what the accounts establish.",
+      "audience": "Readers who enjoy a short, evidence-led interactive quiz.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "An original evidence puzzle you can play solo or discuss together in the same room.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-11-04",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-32",
+      "title": "Cold Surface Detective",
+      "slug": "cold-surface-detective",
+      "kind": "knowledge",
+      "hook": "Use formation records and surface measurements to distinguish hoar frost, frozen dew and rime across eight evidence puzzles.",
+      "rounds": [
+        "3 tasks: Three paths to ice",
+        "4 tasks: Local surfaces",
+        "1 tasks: What the coating proves"
+      ],
+      "seed": "Which process best fits the window record?",
+      "payoff": "Identify which observations distinguish three paths to ice.",
+      "audience": "Readers who enjoy a short, evidence-led interactive quiz.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "Mechanism and evidence questions, not forecasts or weather advice. Fictional observations are explicitly identified.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-11-04",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "HC-32",
+      "title": "Inside Hereford’s Chained Library",
+      "slug": "hereford-chained-library",
+      "kind": "knowledge",
+      "hook": "Follow a reader’s movement through Hereford Cathedral’s surviving chained library, then examine the collection and its preservation.",
+      "rounds": [
+        "4 tasks: A book within reach",
+        "3 tasks: Layers of the collection",
+        "1 tasks: A surviving arrangement"
+      ],
+      "seed": "What could a reader do with a Hereford chained book?",
+      "payoff": "Explain how the shelf arrangement supported reading and what survives.",
+      "audience": "Readers who enjoy a short, evidence-led interactive quiz.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "Bounded to the cathedral’s published account of its own library; no general claim about every medieval library.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-11-04",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FE-32",
+      "title": "The Price Tag and the Pack",
+      "slug": "price-tag-and-pack",
+      "kind": "knowledge",
+      "hook": "Compare fictional same-product packs using unit rate, checkout total, needed quantity and a shrinking pack.",
+      "rounds": [
+        "3 tasks: Read the shelf",
+        "5 tasks: Answer the actual shopping question"
+      ],
+      "seed": "Which label tells you cost for the same amount?",
+      "payoff": "Choose a comparison that matches the household’s actual question.",
+      "audience": "Readers who enjoy a short, evidence-led interactive quiz.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "All prices and shopping situations are fictional.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-11-04",
       "evidence_class": "evergreen"
     }
   ]

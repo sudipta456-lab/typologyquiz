@@ -10637,5 +10637,366 @@
         "description": "In this zine workshop, how much of the route you set versus leave for the reader to construct."
       }
     ]
+  },
+  {
+    "id": "PC-32",
+    "slug": "bellwick-canal-photo-walk",
+    "categoryId": "personality-choices",
+    "title": "The Bellwick Canal Photo Walk",
+    "description": "Imagine a photo walk on a fictional canal loop. Choose which subjects to frame and how closely to follow the walk card.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "route",
+        "title": "Start the loop"
+      },
+      {
+        "id": "frame",
+        "title": "Choose the frame"
+      },
+      {
+        "id": "finish",
+        "title": "Close the sequence"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional situations and reasoning authored for this quiz."
+      }
+    ],
+    "note": "A text-only imagined walk. The result describes your choices for this particular route and framing assignment.",
+    "questions": [
+      {
+        "id": "pc32-1",
+        "sectionId": "route",
+        "kind": "choice",
+        "prompt": "The first frame has room for one view. Which would you make?",
+        "context": "Original walk: on an invented public canal towpath at Bellwick, a rusted mooring ring sits beside a long curve of water. All three views are possible.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Fill the frame with the ring and its worn edge",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Include the ring, path, and far bend",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Show the whole canal curve with the ring small in front",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "These are three feasible scales for the same opening; the choice describes this walk only.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc32-2",
+        "sectionId": "route",
+        "kind": "rank",
+        "prompt": "Rank the four stops you would photograph first.",
+        "context": "Original walk: all four are on the signed public loop, with time for each. Put your first choice at the top.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Paint flakes on a bollard",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A repaired brick joint",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "The towpath turning under the bridge",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "d",
+            "label": "The bridge and canal in one broad view",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "The first two favor near details; the last two place the walk in wider context. Ranking is descriptive.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc32-3",
+        "sectionId": "route",
+        "kind": "choice",
+        "prompt": "A printed walk card names the bridge arch as the next subject. What do you do?",
+        "context": "Original walk: the arch and a nearby iron latch are both safely reachable from the public path. The card is a suggestion, not a rule.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Frame the arch as the card suggests",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Photograph the arch, then try the latch",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Set aside the card and follow the latch texture",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ],
+        "explanation": "Each choice uses an available subject; it varies how closely this walk follows the brief.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc32-4",
+        "sectionId": "frame",
+        "kind": "choice",
+        "prompt": "You want the towpath repair to read as a story rather than a random mark. Which frame appeals?",
+        "context": "Original walk: a pale replacement stone interrupts dark older stones; the bend and bridge remain visible from the same spot.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A close crop showing the two stone surfaces meeting",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A mid shot placing the repair in the walkway",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A wide view putting the repair within the bridge approach",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "The repair stays in every option, while context expands. No frame is presented as objectively better.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc32-5",
+        "sectionId": "frame",
+        "kind": "rank",
+        "prompt": "Rank these ways to spend the next ten minutes.",
+        "context": "Original walk: the signed card asks for water reflections; a side path remains public and returns to the loop. All four plans fit the time.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Make three reflection frames from the marked spots",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Make one marked reflection, then try the side path",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ignore the card and search for an unmarked reflection",
+            "weights": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Follow the side path to find a different subject",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ],
+        "explanation": "The ranking describes how much of the route you set for yourself while staying within the fictional walk.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc32-6",
+        "sectionId": "frame",
+        "kind": "choice",
+        "prompt": "A puddle catches the bridge upside down. Which shot would you try?",
+        "context": "Original walk. Each view can be framed from the dry public path.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The puddle edge and inverted arch close together",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "The bridge and puddle both in a broad view",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A wide canal view with the puddle small",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "A small reflective detail can carry the frame, or it can sit within a broader map of the place.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc32-7",
+        "sectionId": "finish",
+        "kind": "choice",
+        "prompt": "The card says to end at the bridge. How would you close the sequence?",
+        "context": "Original walk: the bridge is one minute away; a painted drain cover is beside you. Both are on the public loop.",
+        "options": [
+          {
+            "id": "a",
+            "label": "End with the prescribed bridge view",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Pair the bridge view with a drain-cover detail",
+            "weights": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "End with the drain cover as your own visual echo",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ],
+        "explanation": "The sequence can honor, bend, or depart from the fictional brief without a wrong answer.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc32-8",
+        "sectionId": "finish",
+        "kind": "choice",
+        "prompt": "What final three-frame sequence would you share as a description?",
+        "context": "Original walk: your frames are imagined; this quiz neither captures photographs nor creates a gallery. Choose the sequence you would plan.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ring edge, stone join, puddle arch",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Ring, bridge approach, full canal bend",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Bridge, side path, an unplanned close detail",
+            "weights": [
+              0,
+              0
+            ]
+          }
+        ],
+        "explanation": "The options make different connections between detail, context, and route. The result describes the planned walk only.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "frame-scale",
+        "low": "Near details",
+        "high": "Wide context",
+        "description": "Where the planned walk places its photographic attention."
+      },
+      {
+        "id": "route-style",
+        "low": "Follow the brief",
+        "high": "Explore independently",
+        "description": "How closely the planned walk follows the optional photo card."
+      }
+    ]
   }
 ]

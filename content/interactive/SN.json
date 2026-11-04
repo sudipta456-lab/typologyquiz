@@ -12089,5 +12089,329 @@
         ]
       }
     ]
+  },
+  {
+    "id": "SN-32",
+    "slug": "cold-surface-detective",
+    "categoryId": "science-nature",
+    "title": "Cold Surface Detective",
+    "description": "Use formation records and surface measurements to distinguish hoar frost, frozen dew and rime across eight evidence puzzles.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "formation",
+        "title": "Three paths to ice"
+      },
+      {
+        "id": "surfaces",
+        "title": "Local surfaces"
+      },
+      {
+        "id": "synthesis",
+        "title": "What the coating proves"
+      }
+    ],
+    "sources": [
+      {
+        "id": "nws-dew",
+        "kind": "reference",
+        "label": "NWS, Dew and Frost Development",
+        "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/fog_stuff/Dew_Frost/Dew_Frost.htm"
+      },
+      {
+        "id": "nws-hoar",
+        "kind": "reference",
+        "label": "NWS Glossary, Hoar Frost",
+        "url": "https://forecast.weather.gov/glossary.php?word=hoar"
+      },
+      {
+        "id": "nws-rime",
+        "kind": "reference",
+        "label": "NWS Glossary, Rime Ice",
+        "url": "https://forecast.weather.gov/glossary.php?word=rime"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional situations and reasoning authored for this quiz."
+      }
+    ],
+    "note": "Mechanism and evidence questions, not forecasts or weather advice. Fictional observations are explicitly identified.",
+    "questions": [
+      {
+        "id": "sn32-1",
+        "sectionId": "formation",
+        "kind": "choice",
+        "prompt": "Which process best fits the window record?",
+        "context": "Original observation card: liquid beads appeared on the outside pane at dusk while the pane was above freezing. Overnight the same beads froze as the pane fell below freezing.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Water vapour deposited directly as ice"
+          },
+          {
+            "id": "b",
+            "label": "Existing liquid dew froze on the pane"
+          },
+          {
+            "id": "c",
+            "label": "Supercooled fog droplets struck the pane"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The recorded liquid stage makes this frozen dew, distinct from direct vapour deposition.",
+        "sourceIds": [
+          "nws-dew",
+          "original"
+        ]
+      },
+      {
+        "id": "sn32-2",
+        "sectionId": "formation",
+        "kind": "choice",
+        "prompt": "What does the twig record support?",
+        "context": "Original observation card: no liquid beads were seen; branching ice crystals grew on a freely exposed twig while its surface was below freezing. There was no fog or spray.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Hoar frost from direct vapour deposition"
+          },
+          {
+            "id": "b",
+            "label": "Frozen dew after visible liquid beads"
+          },
+          {
+            "id": "c",
+            "label": "Rime from striking fog droplets"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The crystal pattern and absence of an observed liquid stage fit hoar frost; the NWS glossary describes exposed small objects.",
+        "sourceIds": [
+          "nws-hoar",
+          "nws-dew",
+          "original"
+        ]
+      },
+      {
+        "id": "sn32-3",
+        "sectionId": "formation",
+        "kind": "choice",
+        "prompt": "Which mechanism best fits the fence?",
+        "context": "Original observation card: supercooled fog droplets visibly hit a cold fence and rapidly made an opaque, grainy white coating.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Liquid dew cooled in place"
+          },
+          {
+            "id": "b",
+            "label": "Direct vapour deposition without droplets"
+          },
+          {
+            "id": "c",
+            "label": "Rime from droplets freezing on impact"
+          }
+        ],
+        "correct": "c",
+        "explanation": "The observed impinging droplets match the NWS rime definition.",
+        "sourceIds": [
+          "nws-rime",
+          "original"
+        ]
+      },
+      {
+        "id": "sn32-4",
+        "sectionId": "surfaces",
+        "kind": "match",
+        "prompt": "Match each new surface diary to the process it records.",
+        "context": "Three original independent diaries describe formation, not just a final white appearance.",
+        "left": [
+          {
+            "id": "a",
+            "label": "A: clear night, branching crystals grow with no liquid stage"
+          },
+          {
+            "id": "b",
+            "label": "B: visible wet beads form, then freeze"
+          },
+          {
+            "id": "c",
+            "label": "C: fog droplets strike and freeze"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Frozen dew"
+          },
+          {
+            "id": "b",
+            "label": "Rime"
+          },
+          {
+            "id": "c",
+            "label": "Hoar frost"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "a",
+          "c": "b"
+        },
+        "explanation": "The path of water to ice is the distinguishing evidence: vapour, prior liquid dew, or incoming droplets.",
+        "sourceIds": [
+          "nws-dew",
+          "nws-hoar",
+          "nws-rime",
+          "original"
+        ]
+      },
+      {
+        "id": "sn32-5",
+        "sectionId": "surfaces",
+        "kind": "choice",
+        "prompt": "Why can the rail be icy when the nearby air reading is above freezing?",
+        "context": "Original observation card: a thermometer 1.5 metres above an open rail reads 2 °C; the rail surface is measured at −1 °C after a clear, calm night.",
+        "options": [
+          {
+            "id": "b",
+            "label": "A clear night forces the elevated air and rail to the same temperature"
+          },
+          {
+            "id": "c",
+            "label": "The elevated air reading sets the minimum temperature for nearby surfaces"
+          },
+          {
+            "id": "a",
+            "label": "The exposed rail can cool below the air measured above it"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The below-freezing surface is what matters for the ice. NWS explains that exposed surfaces can cool below an air reading taken above ground.",
+        "sourceIds": [
+          "nws-dew",
+          "original"
+        ]
+      },
+      {
+        "id": "sn32-6",
+        "sectionId": "surfaces",
+        "kind": "choice",
+        "prompt": "Which extra observation would best distinguish rime from hoar frost on the same wire?",
+        "context": "Original investigation: the final white coating alone does not reveal how it formed. The wire is below freezing in both candidate accounts.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Watch whether supercooled fog droplets strike and freeze"
+          },
+          {
+            "id": "b",
+            "label": "Record the air temperature once, after the coating is complete"
+          },
+          {
+            "id": "c",
+            "label": "Compare the coating’s shade with ice on a different surface"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Witnessing droplet impact directly tests the rime mechanism; material and diameter alone do not identify the water path.",
+        "sourceIds": [
+          "nws-rime",
+          "nws-hoar",
+          "original"
+        ]
+      },
+      {
+        "id": "sn32-7",
+        "sectionId": "surfaces",
+        "kind": "grid",
+        "prompt": "Which claims follow from these observations?",
+        "context": "Original paired surfaces: an open rail is measured at −1 °C and has new ice; a covered rail beside it is +1 °C and dry. The air thermometer reads +2 °C. No growth process was watched.",
+        "cells": [
+          {
+            "id": "a",
+            "label": "The rails had different measured surface temperatures.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported"
+              },
+              {
+                "id": "b",
+                "label": "Not established"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "The ice must be rime.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported"
+              },
+              {
+                "id": "b",
+                "label": "Not established"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "The air reading alone describes both rails.",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported"
+              },
+              {
+                "id": "b",
+                "label": "Not established"
+              }
+            ],
+            "correct": "b"
+          }
+        ],
+        "explanation": "The measurements establish a local surface difference, but the ice type needs formation evidence.",
+        "sourceIds": [
+          "nws-dew",
+          "original"
+        ]
+      },
+      {
+        "id": "sn32-8",
+        "sectionId": "synthesis",
+        "kind": "choice",
+        "prompt": "Which field note keeps observation and explanation apart?",
+        "context": "Original final card: a fence has opaque white ice after fog, but no one saw it form; its surface temperature was not measured.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rime is proved by whiteness alone"
+          },
+          {
+            "id": "c",
+            "label": "Frozen dew is proved because fog was present"
+          },
+          {
+            "id": "b",
+            "label": "White ice observed; droplet impact and surface temperature remain to be checked"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Appearance and fog make rime plausible but do not prove impact or the surface temperature.",
+        "sourceIds": [
+          "nws-rime",
+          "nws-dew",
+          "original"
+        ]
+      }
+    ]
   }
 ]

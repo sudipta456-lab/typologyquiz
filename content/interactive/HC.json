@@ -11953,5 +11953,273 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HC-32",
+    "slug": "hereford-chained-library",
+    "categoryId": "history-culture",
+    "title": "Inside Hereford’s Chained Library",
+    "description": "Follow a reader’s movement through Hereford Cathedral’s surviving chained library, then examine the collection and its preservation.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "reading",
+        "title": "A book within reach"
+      },
+      {
+        "id": "collection",
+        "title": "Layers of the collection"
+      },
+      {
+        "id": "preservation",
+        "title": "A surviving arrangement"
+      }
+    ],
+    "sources": [
+      {
+        "id": "hereford",
+        "kind": "reference",
+        "label": "Hereford Cathedral, Chained Library",
+        "url": "https://www.herefordcathedral.org/chained-library"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional situations and reasoning authored for this quiz."
+      }
+    ],
+    "note": "Bounded to the cathedral’s published account of its own library; no general claim about every medieval library.",
+    "questions": [
+      {
+        "id": "hc32-1",
+        "sectionId": "reading",
+        "kind": "choice",
+        "prompt": "What could a reader do with a Hereford chained book?",
+        "context": "A reader approaches a book still connected to a shelf rod in Hereford Cathedral’s historic arrangement.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Carry it out of the bookcase"
+          },
+          {
+            "id": "a",
+            "label": "Lift it to the desk and read it there"
+          },
+          {
+            "id": "c",
+            "label": "Detach its chain to turn pages"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The chain lets a book be taken down and read at the desk while preventing removal from the case.",
+        "sourceIds": [
+          "hereford"
+        ]
+      },
+      {
+        "id": "hc32-2",
+        "sectionId": "reading",
+        "kind": "choice",
+        "prompt": "Which edge faces a reader approaching the shelf?",
+        "context": "The cathedral describes the surviving arrangement in its chained library.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Fore-edge"
+          },
+          {
+            "id": "a",
+            "label": "Spine"
+          },
+          {
+            "id": "c",
+            "label": "Top of the pages only"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Hereford says the fore-edges face outward so books can be opened without turning and tangling chains.",
+        "sourceIds": [
+          "hereford"
+        ]
+      },
+      {
+        "id": "hc32-3",
+        "sectionId": "reading",
+        "kind": "choice",
+        "prompt": "Where does the chain attach to the book?",
+        "context": "Use Hereford’s description of its own library, not a general rule for all old libraries.",
+        "options": [
+          {
+            "id": "a",
+            "label": "At the spine"
+          },
+          {
+            "id": "c",
+            "label": "Through the pages"
+          },
+          {
+            "id": "b",
+            "label": "At the front cover"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Hereford specifies the front cover; the other end goes on a shelf rod.",
+        "sourceIds": [
+          "hereford"
+        ]
+      },
+      {
+        "id": "hc32-4",
+        "sectionId": "reading",
+        "kind": "match",
+        "prompt": "Match the part of the arrangement to its role during reading.",
+        "context": "Original reconstruction based on Hereford’s account. Think through how the parts let a reader handle a book while it remains attached.",
+        "explanation": "The rod anchors the shelf end. The desk supports local reading, and the orientation avoids turning the book round and tangling its chain.",
+        "sourceIds": [
+          "hereford",
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "The rod below the shelf"
+          },
+          {
+            "id": "b",
+            "label": "The desk at the bookcase"
+          },
+          {
+            "id": "c",
+            "label": "The outward-facing page edge"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Lets the reader open the book without reversing it"
+          },
+          {
+            "id": "b",
+            "label": "Takes the shelf end of the chain"
+          },
+          {
+            "id": "c",
+            "label": "Supports the book during use"
+          }
+        ],
+        "pairs": {
+          "a": "b",
+          "b": "c",
+          "c": "a"
+        }
+      },
+      {
+        "id": "hc32-5",
+        "sectionId": "collection",
+        "kind": "choice",
+        "prompt": "Which pair of roles does the cathedral say the whole library still serves?",
+        "context": "The cathedral describes the present-day library after its historic collection and shelving account.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A publishing house and bookshop"
+          },
+          {
+            "id": "c",
+            "label": "An offsite store and a private lending library"
+          },
+          {
+            "id": "b",
+            "label": "A research centre and a place for visitors"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The cathedral says the library continues as both a research centre and a tourist attraction.",
+        "sourceIds": [
+          "hereford"
+        ]
+      },
+      {
+        "id": "hc32-6",
+        "sectionId": "collection",
+        "kind": "choice",
+        "prompt": "Which caption keeps the age of the books separate from the age of their shelving?",
+        "context": "Hereford identifies its Gospels as an eighth-century book and describes the surviving chained library as seventeenth-century.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The Gospels are an older manuscript housed in a later library arrangement"
+          },
+          {
+            "id": "b",
+            "label": "The date of the shelves also dates every manuscript on them"
+          },
+          {
+            "id": "c",
+            "label": "The library fittings must be as old as the Gospels"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The building arrangement and the manuscripts have different histories. A book can be centuries older than the shelf that holds it.",
+        "sourceIds": [
+          "hereford"
+        ]
+      },
+      {
+        "id": "hc32-7",
+        "sectionId": "collection",
+        "kind": "choice",
+        "prompt": "Which surviving evidence would best show how the security system worked as a whole?",
+        "context": "Hereford describes the physical arrangement that survives in its chained library. A visitor wants to understand how the book and bookcase were connected.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The date of a manuscript on its own"
+          },
+          {
+            "id": "b",
+            "label": "The connected chains, rods and locks"
+          },
+          {
+            "id": "c",
+            "label": "The name of the room on a visitor map"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The surviving hardware shows how the separate parts held the books within reach. A date or room label does not show that connection.",
+        "sourceIds": [
+          "hereford"
+        ]
+      },
+      {
+        "id": "hc32-8",
+        "sectionId": "preservation",
+        "kind": "choice",
+        "prompt": "What does the specially designed chamber do in addition to displaying the arrangement?",
+        "context": "The cathedral says the chamber shows the arrangement used from 1611 to 1841.",
+        "options": [
+          {
+            "id": "b",
+            "label": "Displays only books from the years the arrangement was in use"
+          },
+          {
+            "id": "c",
+            "label": "Uses the room date to catalogue the manuscripts"
+          },
+          {
+            "id": "a",
+            "label": "Keeps the books under controlled environmental conditions"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The chamber supports modern controlled conditions while presenting the historic arrangement.",
+        "sourceIds": [
+          "hereford"
+        ]
+      }
+    ]
   }
 ]
