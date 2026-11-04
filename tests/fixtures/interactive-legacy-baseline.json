@@ -316,7 +316,7 @@
   "src/lib/minis/store.ts": "ebb36c68b73a16aad8db21604089854445d51ebc896d5b49f9e3ea19b6d7c3a4",
   "src/lib/newsquiz/editions.ts": "a1909d1dfa7a1c0de373458893222880e84b07ecbb968e42cc70d230cd147c60",
   "src/lib/newsquiz/northamerica.ts": "28bbe6eef8e59fc4720050dc5a61b19dec124946929f58181fbcc415a8c8d679",
-  "src/lib/newsquiz/publication.ts": "334c32dd5f66418424cb7836c53234961a943b50f13c227dd9dfbc6155ce1dc5",
+  "src/lib/newsquiz/publication.ts": "6096adf2c8cb7cc6d671fa12b5bac58ca05048bc496a9bd86549bc24864f58e2",
   "src/lib/newsquiz/registry.ts": "8f8f6560f9372ca02888486fce6126f3c0452eb8208294838d41ee94757990a6",
   "src/lib/newsquiz/review-format.ts": "4ef29d70918b755f4121bae53d994f0f552129bf656b49c9f6d942614975988f",
   "src/lib/newsquiz/types.ts": "796652b044db21e01cdc66ef0b5745dba33dfade88c0b3dd30858740b56ab170",

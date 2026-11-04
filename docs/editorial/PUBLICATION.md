@@ -14,6 +14,7 @@ type EvidenceFile = {
     dateContext?: "evergreen"; retrievedAt: string; supportingFact: string;
     verdict: "pass" | "fail"; notes?: string;
   }>;
+  modelReview?: { producerModel: string; reviewerModel: string; contentHash: string };
   media?: Array<{
     questionId: string; optionId: string; sourceUrl: string; licenseUrl: string;
     permittedUse: string; modificationNote: string; verdict: "pass" | "fail";
@@ -31,7 +32,7 @@ npm run editorial:review -- content/drafts/<edition>.json content/drafts/<editio
 
 The command writes `.agents/reviews/newsquiz/<id>-v<version>.review.json` and `.md`. The readable file shows every prompt, option/item/column ID and label, complete answer key, explanation, source fact, and image provenance/rights review. It binds the complete edition and evidence, plus each question and its source/media evidence, to SHA-256 hashes. Hashes identify reviewed bytes; they do not prove that a fact is true.
 
-Human approval is an external operator attestation, not an authentication mechanism. The tooling never creates it. Copy the review JSON to a separate approval file and add these fields without changing the review fields:
+For manual publication, the operator provides an external attestation. Copy the review JSON to a separate approval file and add the following fields without changing the review fields.
 
 ```json
 {
@@ -46,6 +47,16 @@ Promote only after that review:
 ```powershell
 npm run editorial:promote -- .agents/reviews/newsquiz/<review>.review.json <external-approval>.json
 ```
+
+## Automatic Thursday news publication
+
+The operator authorized automatic publication after independent model review for World, US, and Canada weekly news. The runner records the actual Claude Sonnet producer and Claude Opus reviewer IDs in the evidence and uses the hash of the exact edition Opus reviewed. A distinct automatic attestation records the reviewer model. The runner checks the reviewer response and records the outcome. The publisher validates the recorded IDs, date rules and content binding. The hashes bind the approved files and provide no independent authentication of the model provider.
+
+```sh
+./scripts/mac-run.sh npm run editorial:promote -- <review.json> --automatic
+```
+
+The automatic command requires the active policy, a current Thursday edition, at least eight verified questions, dates within the current news window, and a same-day passing review of the exact version. Other series use the manual process. See the [weekly news playbook](../newsquiz/PLAYBOOK.md) for source review and release steps.
 
 Promotion re-reads all inputs, rejects changed or incomplete material, and creates a new immutable directory under `content/published/<series>/<edition>/v<version>/`. It refuses to replace an existing identity/version. `content/published/index.json` records the edition, evidence, review, and approval hashes. The application registry validates all of them while loading, so adding or editing a manifest entry cannot bypass the gate.
 
