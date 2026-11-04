@@ -1,0 +1,309 @@
+{
+  "localDate": "2026-11-04",
+  "timezone": "America/Edmonton",
+  "status": "published-verified-live",
+  "publishedNewQuizzes": 5,
+  "unpublishedShortfall": 0,
+  "newTasks": 40,
+  "collectionQuizzes": 310,
+  "collectionTasks": 2480,
+  "baseCommit": "6b16cf9f351b6bc635b5b8c5921a127768c93746",
+  "sourceCommit": "edccd6fe7a29b616beccf6ef2bc693c34a071b04",
+  "deploymentVersion": "47bf8053-d5de-4ca4-8871-ef17f0425325",
+  "deploymentId": "d18dfb78-2229-484b-b225-c2ec3e10b514",
+  "deployedAt": "2026-11-04T13:16:27.731958Z",
+  "packetSha256": "b81e865523c4c4b5946f1e12670c2075ec1b9ab45c67b77559aac1171ee905c2",
+  "quizzes": [
+    {
+      "id": "PC-32",
+      "slug": "bellwick-canal-photo-walk",
+      "title": "The Bellwick Canal Photo Walk",
+      "category": "Personality & Choices",
+      "url": "https://typologyquiz.com/quizzes/bellwick-canal-photo-walk/",
+      "formats": [
+        "choice",
+        "rank"
+      ],
+      "nearest": [
+        "PC-04",
+        "PC-07",
+        "PC-31"
+      ],
+      "difference": "PC04 explores curiosity on errands and PC07 asks what feels like home; PC31 edits a zine. PC32 frames specific canal subjects and ranks photo stops and route choices.",
+      "rationale": "Imagine a photo walk on a fictional canal loop. Choose which subjects to frame and how closely to follow the walk card. Selected for evergreen editorial fit."
+    },
+    {
+      "id": "FS-32",
+      "slug": "paper-stars-two-views",
+      "title": "Paper Stars, Two Views",
+      "category": "Friends & Social Play",
+      "url": "https://typologyquiz.com/quizzes/paper-stars-two-views/",
+      "formats": [
+        "choice",
+        "match",
+        "order",
+        "grid"
+      ],
+      "nearest": [
+        "FS-02",
+        "FS-26",
+        "FS-31",
+        "HC-09"
+      ],
+      "difference": "FS02 compares group preferences, FS26 routes lost objects, FS31 reconstructs a mural, HC09 examines separate historical records. FS32 resolves one small star-count incident through partial sightings, chronology and verification.",
+      "rationale": "Compare witnesses and records from a fictional community-room mishap, trace a missing paper star and decide what the evidence supports. Selected for evergreen editorial fit."
+    },
+    {
+      "id": "SN-32",
+      "slug": "cold-surface-detective",
+      "title": "Cold Surface Detective",
+      "category": "Science & Nature",
+      "url": "https://typologyquiz.com/quizzes/cold-surface-detective/",
+      "formats": [
+        "choice",
+        "match",
+        "grid"
+      ],
+      "nearest": [
+        "SN-04",
+        "SN-22",
+        "GT-13"
+      ],
+      "difference": "SN04 reads general weather sequences, SN22 models pavement freeze-thaw, GT13 uses invented map winds. SN32 distinguishes three ice-formation paths using observed phase, droplet impact, and measured surface microclimate.",
+      "rationale": "Use formation records and surface measurements to distinguish hoar frost, frozen dew and rime across eight evidence puzzles. Selected for evergreen editorial fit."
+    },
+    {
+      "id": "HC-32",
+      "slug": "hereford-chained-library",
+      "title": "Inside Hereford’s Chained Library",
+      "category": "History & Culture",
+      "url": "https://typologyquiz.com/quizzes/hereford-chained-library/",
+      "formats": [
+        "choice",
+        "match"
+      ],
+      "nearest": [
+        "HC-01",
+        "HC-07",
+        "HC-13",
+        "PC-03"
+      ],
+      "difference": "HC01 infers uses of museum objects, HC07 links invented titles to place and era, HC13 designs a local museum, and PC03 explores a fictional bookshop. HC32 examines the chain, rod, book orientation and preservation of one documented collection.",
+      "rationale": "Follow a reader’s movement through Hereford Cathedral’s surviving chained library, then examine the collection and its preservation. Selected for evergreen editorial fit."
+    },
+    {
+      "id": "FE-32",
+      "slug": "price-tag-and-pack",
+      "title": "The Price Tag and the Pack",
+      "category": "Food & Everyday Life",
+      "url": "https://typologyquiz.com/quizzes/price-tag-and-pack/",
+      "formats": [
+        "choice",
+        "match",
+        "grid"
+      ],
+      "nearest": [
+        "FE-11",
+        "FE-26",
+        "FE-22"
+      ],
+      "difference": "FE11 solves basket riddles, FE26 calculates refill net quantities, FE22 scales recipe servings. FE32 chooses useful price denominators and distinguishes unit rate from checkout limits and amount needed.",
+      "rationale": "Compare fictional same-product packs using unit rate, checkout total, needed quantity and a shrinking pack. Selected for evergreen editorial fit."
+    }
+  ],
+  "build": {
+    "packetSha256": "b81e865523c4c4b5946f1e12670c2075ec1b9ab45c67b77559aac1171ee905c2",
+    "fullVerifyTests": 318,
+    "activeAnalyticsHtml": 1630,
+    "analyticsChunk": "_next/static/chunks/2123pi1se894z.js",
+    "sitemapURLs": 894,
+    "r2BundledAssetsStripped": true,
+    "dryRun": true
+  },
+  "live": {
+    "at": "2026-11-04T13:16:50.049917+00:00",
+    "sourceCommit": "edccd6fe7a29b616beccf6ef2bc693c34a071b04",
+    "verifiedNewQuizzes": 5,
+    "liveCollection": 310,
+    "sitemapURLs": 894,
+    "checks": [
+      {
+        "url": "https://typologyquiz.com/quizzes/bellwick-canal-photo-walk/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "21b7f77d76c5505ca135b3d125eabfcfbbec821f693031629a32d76db4491bba"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/paper-stars-two-views/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "95e03a9ed20b386372efe11dc1252bc356af714d2387d26bc2e627f8c1e7d697"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/cold-surface-detective/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "c86d965484c68b79528ec54b9679227081e18209a9824a99a22a0a95fea1384c"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/hereford-chained-library/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "db4146b9f86477bb77e0265e86fa64d62ab7f3edc385979e3988d6b68bf57415"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/price-tag-and-pack/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "fe198ac394b4cd9d2bf9e3c18d8c0f1190a7edca5d3906d6025c6a71023d0d5c"
+      },
+      {
+        "url": "https://typologyquiz.com/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "5c3ded476846fdf6944e652f7bb536afe28d2749f7d46f81047fb5f0b339e341"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "56d7936ee3dce70f198a40e72bcda6b94ff897af8f326d1f6d6d9f95b8bd3f8c"
+      },
+      {
+        "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "f6d65fcc9cbfa4d6612dff0a286f9908f0639a53b8770fafe33f7710fe5eabd1"
+      },
+      {
+        "url": "https://typologyquiz.com/sitemap.xml",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "3b3bb191060937b589745893bcd94f322bb9fd837981904b48438920f730d57b"
+      },
+      {
+        "url": "https://typologyquiz.com/llms.txt",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "9b256e5dd6e363a237cd2195550b190c0988ffea44809a29b65d14c8caf17460"
+      },
+      {
+        "url": "https://typologyquiz.com/robots.txt",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+      },
+      {
+        "url": "https://typologyquiz.com/_next/static/chunks/2123pi1se894z.js",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "505dcb3836d42df31b8a8281e98a8c886c9522a79b4feb959379ab3b58dd2258"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "51d7d4bf196c2f94e5e1098e02ce3c89ca7a42e6d7b1765f003989fc7d0142a8"
+      },
+      {
+        "url": "https://typologyquiz.com/tests/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "8db00d1f5d95e40a3e3d8e53d9d8b52fe602ae32cd0cfe74cfa72d6e759eeed5"
+      },
+      {
+        "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "2656c853d9a050d1ab0a90ae4004d2f20559a2685cf0f4872a9897982639d3c5"
+      },
+      {
+        "url": "https://www.typologyquiz.com/quizzes/bellwick-canal-photo-walk/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "6c1f4ffee2b19fab32743b6e10f7e72c7a819077b476afe33f269ce397c1f99b"
+      }
+    ]
+  },
+  "gaQA": {
+    "property": "545477353",
+    "event": "interactive_quiz_complete",
+    "quizId": "FE-32",
+    "count": 1,
+    "receipt": [
+      "  - generic: quiz_id",
+      "    - row \"FE-32 1\":",
+      "      - cell \"FE-32\""
+    ],
+    "observedAt": "2026-11-04T13:17:40.020Z",
+    "operatorQA": true
+  },
+  "r2Receipt": {
+    "url": "https://typologyquiz.com/handbook/britishcolumbia/railway-stop-then-proceed.png",
+    "http": 200,
+    "type": "image/png",
+    "immutable": true
+  },
+  "factualSources": [
+    {
+      "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/fog_stuff/Dew_Frost/Dew_Frost.htm",
+      "http": 200,
+      "sha256": "db00a219612b75b7b700a8515e9621c176e5ec6cce07f5907c451f3eba92cd9a",
+      "html": "source-dew.html",
+      "bodyText": "source-dew.txt"
+    },
+    {
+      "url": "https://forecast.weather.gov/glossary.php?word=hoar",
+      "http": 200,
+      "sha256": "88dedd2995f3d9cdb78ab1afe889c92026800e0928484467c9c4456a56c60469",
+      "html": "source-hoar.html",
+      "bodyText": "source-hoar.txt"
+    },
+    {
+      "url": "https://forecast.weather.gov/glossary.php?word=rime",
+      "http": 200,
+      "sha256": "3b7743c72e0b4e7636ac7fbfb5debe33bc7c9152224e0c1ede1ecfeee0a9ce44",
+      "html": "source-rime.html",
+      "bodyText": "source-rime.txt"
+    },
+    {
+      "url": "https://www.herefordcathedral.org/chained-library",
+      "http": 200,
+      "sha256": "9a0bc7fd6c2fdc48194f7e532be8c840821e81ac2a25ec76a18f46f2c820f871",
+      "html": "source-hereford.html",
+      "bodyText": "source-hereford.txt"
+    },
+    {
+      "url": "https://www.ised-isde.canada.ca/site/office-consumer-affairs/en/modern-marketplace/comparing-food-prices-unit-pricing",
+      "http": 200,
+      "sha256": "7bafff2a41a63b4ec95eaf5dca5fa579091800c3207825d68ecdba460bd4d7d3",
+      "html": "source-price.html",
+      "bodyText": "source-price.txt"
+    }
+  ],
+  "independentReview": {
+    "provider": "Authenticated ChatGPT subscription",
+    "model": "gpt-6-sol",
+    "firstPacket": "4c6687d54e47d97b81e405bfa5771666ba9e01b5ce6648a821b4bb5566c8a57c",
+    "finalPacket": "b81e865523c4c4b5946f1e12670c2075ec1b9ab45c67b77559aac1171ee905c2",
+    "closureLeaves": 10,
+    "status": "pass",
+    "scope": "Initial full 40-task and code review, then a fresh independent review of the exact corrections"
+  }
+}
