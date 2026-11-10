@@ -1,0 +1,688 @@
+{
+  "localDate": "2026-11-10",
+  "timezone": "America/Edmonton",
+  "status": "published-verified-live",
+  "publishedNewQuizzes": 5,
+  "unpublishedShortfall": 0,
+  "newTasks": 40,
+  "collectionQuizzes": 315,
+  "collectionTasks": 2520,
+  "baseCommit": "442c3f86a87d94341fba692fd40103957104b792",
+  "sourceCommit": "b715c565de19070c6f6fc6aa9098a29c29e5b7a5",
+  "packetSha256": "d4e21a0d7dd72f4e8e63f753d3bcf6800779065ed0fa0bf47ea85a49e9bae04e",
+  "deploymentVersion": "355f2da5-6b50-4c0f-822b-abebbcdcccda",
+  "deploymentId": "53830137-5e6e-4050-96cb-c1224bed9ea2",
+  "deployedAt": "2026-11-10T14:05:04.759225Z",
+  "quizzes": [
+    {
+      "id": "MT-31",
+      "slug": "lantern-at-low-tide-restoration",
+      "title": "The Lantern at Low Tide: Restore the Missing Reel",
+      "category": "Movies & TV",
+      "kind": "knowledge",
+      "url": "https://typologyquiz.com/quizzes/lantern-at-low-tide-restoration/",
+      "formats": [
+        "choice",
+        "grid",
+        "match",
+        "order"
+      ],
+      "nearest": [
+        "MT-08",
+        "MT-17",
+        "MT-19",
+        "MT-21",
+        "HC-09"
+      ],
+      "rationale": "Reassemble a fictional silent short from complementary prints, titles, and a visible gap. Selected for evergreen editorial fit.",
+      "difference": "Reconstructs one fictional silent short toward a declared local-release goal from complementary versions, titles and an unresolved gap; no film chronology trivia or generic evidence sorting.",
+      "sources": [
+        {
+          "id": "film",
+          "kind": "reference",
+          "label": "Library of Congress, The Blue Eagle restoration",
+          "url": "https://www.loc.gov/loc/lcib/0007/restoration.html"
+        },
+        {
+          "id": "titles",
+          "kind": "reference",
+          "label": "Library of Congress, Take 2: Restoring Old Films",
+          "url": "https://www.loc.gov/loc/lcib/94/9410/film2.html"
+        },
+        {
+          "id": "original",
+          "kind": "original",
+          "label": "Original fictional case, clues, and reasoning for this quiz."
+        }
+      ]
+    },
+    {
+      "id": "MU-31",
+      "slug": "glass-armonica-discovery",
+      "title": "The Glass Armonica, Up Close",
+      "category": "Music",
+      "kind": "hybrid",
+      "url": "https://typologyquiz.com/quizzes/glass-armonica-discovery/",
+      "formats": [
+        "choice",
+        "match",
+        "rank"
+      ],
+      "nearest": [
+        "MU-06",
+        "MU-13",
+        "MU-21",
+        "MU-29"
+      ],
+      "rationale": "Discover Franklin’s rotating glass instrument, then choose how you would introduce it to an audience. Selected for evergreen editorial fit.",
+      "difference": "A documented glass instrument and concert letter lead into original program planning. It differs from generic instrument classifications, listening-format history, sound descriptions and fictional palette design.",
+      "sources": [
+        {
+          "id": "glass",
+          "kind": "reference",
+          "label": "Library of Congress, Franklin's Armonica",
+          "url": "https://www.loc.gov/exhibits/franklin/franklin-scientist.html"
+        },
+        {
+          "id": "music",
+          "kind": "reference",
+          "label": "Library of Congress, The Musical Franklin",
+          "url": "https://www.loc.gov/loc/lcib/0601/franklin3.html"
+        },
+        {
+          "id": "letter",
+          "kind": "reference",
+          "label": "Library of Congress Music Division blog, Franklin and Hopkinson's Musical Conversation",
+          "url": "https://blogs.loc.gov/music/2026/07/you-may-rely-on-every-act-of-friendship-benjamin-franklin-and-francis-hopkinsons-musical-conversation/"
+        },
+        {
+          "id": "original",
+          "kind": "original",
+          "label": "Original fictional case, clues, and reasoning for this quiz."
+        }
+      ]
+    },
+    {
+      "id": "GT-31",
+      "slug": "bellmere-layered-map",
+      "title": "Bellmere Landing: One Place, Many Map Layers",
+      "category": "Geography & Travel",
+      "kind": "knowledge",
+      "url": "https://typologyquiz.com/quizzes/bellmere-layered-map/",
+      "formats": [
+        "choice",
+        "grid",
+        "match",
+        "order"
+      ],
+      "nearest": [
+        "GT-06",
+        "GT-14",
+        "GT-15",
+        "GT-20",
+        "GT-25",
+        "GT-26"
+      ],
+      "rationale": "Build an honest walking-exhibit caption from a fictional place's dated imagery and map layers. Selected for evergreen editorial fit.",
+      "difference": "Reads several dated themes over one fictional place for different geographic questions and a cautious exhibit caption; no watershed, arithmetic, contour interpolation or pixel-only answer.",
+      "sources": [
+        {
+          "id": "topo",
+          "kind": "reference",
+          "label": "USGS, US Topo Standards and Specifications",
+          "url": "https://www.usgs.gov/us-topo"
+        },
+        {
+          "id": "symbols",
+          "kind": "reference",
+          "label": "USGS, US Topo Map Symbol Guide",
+          "url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide"
+        },
+        {
+          "id": "legend",
+          "kind": "reference",
+          "label": "USGS, Topographic map symbol sheet FAQ",
+          "url": "https://www.usgs.gov/faqs/where-can-i-find-a-topographic-map-symbol-sheet"
+        },
+        {
+          "id": "original",
+          "kind": "original",
+          "label": "Original fictional case, clues, and reasoning for this quiz."
+        }
+      ]
+    },
+    {
+      "id": "SG-31",
+      "slug": "alder-park-first-disc-golf-hole",
+      "title": "Alder Park's First Disc Golf Hole",
+      "category": "Sports & Games",
+      "kind": "knowledge",
+      "url": "https://typologyquiz.com/quizzes/alder-park-first-disc-golf-hole/",
+      "formats": [
+        "choice",
+        "grid",
+        "match"
+      ],
+      "nearest": [
+        "SG-09",
+        "SG-13",
+        "SG-26",
+        "SG-30"
+      ],
+      "rationale": "Follow one fictional player's opening hole through the tee, lie, boundary, and basket under PDGA rules. Selected for evergreen editorial fit.",
+      "difference": "Applies current PDGA lie, OB and basket-completion mechanics to separate decisions in one fictional sanctioned hole, without arithmetic scoring or shot-technique prescriptions.",
+      "sources": [
+        {
+          "id": "pdga",
+          "kind": "reference",
+          "label": "PDGA, Official Rules and Regulations of Disc Golf, 2026",
+          "url": "https://www.pdga.com/book/export/html/8371/web/"
+        },
+        {
+          "id": "original",
+          "kind": "original",
+          "label": "Original fictional case, clues, and reasoning for this quiz."
+        }
+      ]
+    },
+    {
+      "id": "LW-31",
+      "slug": "letterpress-acrostic-proof",
+      "title": "The Letterpress Proof's Hidden Object",
+      "category": "Logic & Wordplay",
+      "kind": "logic",
+      "url": "https://typologyquiz.com/quizzes/letterpress-acrostic-proof/",
+      "formats": [
+        "choice",
+        "match",
+        "order"
+      ],
+      "nearest": [
+        "LW-15",
+        "LW-25",
+        "LW-30"
+      ],
+      "rationale": "Test a printer's acrostic instruction, repair a smudged clue, and reveal a hidden exhibit object. Selected for evergreen editorial fit.",
+      "difference": "Uses explicit line labels, a compositor instruction, intentionality evidence and a smudged initial before an acrostic reveal; no cross-word substring, alphabet shift or crossword grid.",
+      "sources": [
+        {
+          "id": "original",
+          "kind": "original",
+          "label": "Original fictional case, clues, and reasoning for this quiz."
+        }
+      ]
+    }
+  ],
+  "independentReview": "Authenticated GPT subscription gpt-6-sol. Full review of first integrated packet and three fresh correction reviews.",
+  "build": {
+    "packetSha256": "d4e21a0d7dd72f4e8e63f753d3bcf6800779065ed0fa0bf47ea85a49e9bae04e",
+    "fullVerifyTests": 318,
+    "activeAnalyticsHtml": 1635,
+    "analyticsChunk": "_next/static/chunks/2yvjh0x1x37xs.js",
+    "sitemapURLs": 899,
+    "r2BundledAssetsStripped": true,
+    "dryRun": true
+  },
+  "browser": {
+    "packetSha256": "d4e21a0d7dd72f4e8e63f753d3bcf6800779065ed0fa0bf47ea85a49e9bae04e",
+    "runs": [
+      {
+        "id": "MT-31",
+        "accuracy": "Accuracy on the 8 checkable tasks: 8 of 8 credit.",
+        "rows": [
+          {
+            "id": "mt31-1",
+            "kind": "choice",
+            "scroll": 1280,
+            "width": 1280
+          },
+          {
+            "id": "mt31-2",
+            "kind": "match",
+            "scroll": 1280,
+            "width": 1280
+          },
+          {
+            "id": "mt31-3",
+            "kind": "choice",
+            "scroll": 1280,
+            "width": 1280
+          },
+          {
+            "id": "mt31-4",
+            "kind": "order",
+            "scroll": 1280,
+            "width": 1280
+          },
+          {
+            "id": "mt31-5",
+            "kind": "grid",
+            "scroll": 1280,
+            "width": 1280
+          },
+          {
+            "id": "mt31-6",
+            "kind": "choice",
+            "scroll": 1280,
+            "width": 1280
+          },
+          {
+            "id": "mt31-7",
+            "kind": "choice",
+            "scroll": 1280,
+            "width": 1280
+          },
+          {
+            "id": "mt31-8",
+            "kind": "choice",
+            "scroll": 1280,
+            "width": 1280
+          }
+        ],
+        "resume": false,
+        "axes": [],
+        "sharing": [
+          "- button \"Copy link\""
+        ],
+        "errors": [],
+        "unchangedQuizFromPacket": "f23f83ad5239aca6fea57bb42f2d7912b9ea22b47912b6ce0249a5f11a04976b"
+      },
+      {
+        "id": "MU-31",
+        "accuracy": "Accuracy on the 5 checkable tasks: 5 of 5 credit.",
+        "rows": [
+          {
+            "id": "mu31-1",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "mu31-2",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "mu31-3",
+            "kind": "match",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "mu31-4",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "mu31-5",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "mu31-6",
+            "kind": "rank",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "mu31-7",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "mu31-8",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          }
+        ],
+        "resume": true,
+        "axes": [
+          "  - region \"Your choices\":",
+          "    - heading \"Your choices\" [level=3]",
+          "    - generic: Mechanism first",
+          "    - generic: Performance first",
+          "    - 'img \"Leaned toward Mechanism first: 38 on a 0 to 100 scale\"'",
+          "      - strong: Leaned toward Mechanism first.",
+          "    - generic: Follow one sequence",
+          "    - generic: Explore in any order",
+          "    - 'img \"Leaned toward Explore in any order: 75 on a 0 to 100 scale\"'",
+          "      - strong: Leaned toward Explore in any order."
+        ],
+        "sharing": [
+          "- button \"Copy link\""
+        ],
+        "errors": [],
+        "finalPacketSha256": "d4e21a0d7dd72f4e8e63f753d3bcf6800779065ed0fa0bf47ea85a49e9bae04e"
+      },
+      {
+        "id": "GT-31",
+        "accuracy": "Accuracy on the 8 checkable tasks: 8 of 8 credit.",
+        "rows": [
+          {
+            "id": "gt31-1",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "gt31-2",
+            "kind": "match",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "gt31-3",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "gt31-4",
+            "kind": "grid",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "gt31-5",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "gt31-6",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "gt31-7",
+            "kind": "order",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "gt31-8",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          }
+        ],
+        "resume": false,
+        "axes": [],
+        "sharing": [
+          "- button \"Copy link\""
+        ],
+        "errors": [],
+        "unchangedQuizFromPacket": "f23f83ad5239aca6fea57bb42f2d7912b9ea22b47912b6ce0249a5f11a04976b"
+      },
+      {
+        "id": "SG-31",
+        "accuracy": "Accuracy on the 8 checkable tasks: 8 of 8 credit.",
+        "rows": [
+          {
+            "id": "sg31-1",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "sg31-2",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "sg31-3",
+            "kind": "match",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "sg31-4",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "sg31-5",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "sg31-6",
+            "kind": "grid",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "sg31-7",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "sg31-8",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          }
+        ],
+        "resume": false,
+        "axes": [],
+        "sharing": [
+          "- button \"Copy link\""
+        ],
+        "errors": [],
+        "unchangedQuizFromPacket": "f23f83ad5239aca6fea57bb42f2d7912b9ea22b47912b6ce0249a5f11a04976b"
+      },
+      {
+        "id": "LW-31",
+        "accuracy": "Accuracy on the 8 checkable tasks: 8 of 8 credit.",
+        "rows": [
+          {
+            "id": "lw31-1",
+            "kind": "choice",
+            "width": 390,
+            "noHorizontalOverflow": true
+          },
+          {
+            "id": "lw31-2",
+            "kind": "choice",
+            "width": 390,
+            "noHorizontalOverflow": true
+          },
+          {
+            "id": "lw31-3",
+            "kind": "match",
+            "width": 390,
+            "noHorizontalOverflow": true
+          },
+          {
+            "id": "lw31-4",
+            "kind": "order",
+            "width": 390,
+            "noHorizontalOverflow": true
+          },
+          {
+            "id": "lw31-5",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "lw31-6",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "lw31-7",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          },
+          {
+            "id": "lw31-8",
+            "kind": "choice",
+            "scroll": 390,
+            "width": 390
+          }
+        ],
+        "resume": false,
+        "axes": [],
+        "sharing": [
+          "- button \"Copy link\""
+        ],
+        "errors": [],
+        "retry": "Selected the visible choice label on task 5 after the first input-target action did not toggle the radio.",
+        "unchangedQuizFromPacket": "f23f83ad5239aca6fea57bb42f2d7912b9ea22b47912b6ce0249a5f11a04976b"
+      }
+    ],
+    "changedQuizReplay": "MU-31"
+  },
+  "live": {
+    "at": "2026-11-10T14:05:24.456601+00:00",
+    "sourceCommit": "b715c565de19070c6f6fc6aa9098a29c29e5b7a5",
+    "verifiedNewQuizzes": 5,
+    "liveCollection": 315,
+    "sitemapURLs": 899,
+    "checks": [
+      {
+        "url": "https://typologyquiz.com/quizzes/lantern-at-low-tide-restoration/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "8fb6a973809eee4a505a5115042cc2b4210fd1fb23ac50cbb96235a2bc5ce6e3"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/glass-armonica-discovery/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "f93cd2e6daa89a5a9731634352e12c443500e04e1d27de1a17e2dd26f48e3e94"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/bellmere-layered-map/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "a2bc2568001d37a654412f5bfe451366f90d2b1f05b944b30e6cc950fb6ab47c"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/alder-park-first-disc-golf-hole/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "1bc4376800b947afb5181fb8b7f85ed8280369032326cace8c2e336bd92aa2aa"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/letterpress-acrostic-proof/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "65ecb16859d857cec83401940c466b9d8afeaede26d6f80a8342a9e4fa5779ca"
+      },
+      {
+        "url": "https://typologyquiz.com/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "105be26cd7b6bd337f506116d39d09b7eeec660d6b668819ee12664ff48885ca"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "afa3c43244fad57c8f5f73b9df7d9ebe6f52a1061a8a4b839d15943d48314d2d"
+      },
+      {
+        "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "e5439d148c06725aee2c6b52fd870e30f88911f47d0472fb98285a199593cce4"
+      },
+      {
+        "url": "https://typologyquiz.com/sitemap.xml",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "ba71b3a213b8c5e532a6664ce9f1cbef4e324dc52480028b591d85e2a62c18cc"
+      },
+      {
+        "url": "https://typologyquiz.com/llms.txt",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "afbe2d88df22b231c3c4fa54ba77968d612d62d1061cb704b49e3f488c0c90da"
+      },
+      {
+        "url": "https://typologyquiz.com/robots.txt",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+      },
+      {
+        "url": "https://typologyquiz.com/_next/static/chunks/2yvjh0x1x37xs.js",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "ca039c9b352672d759f841ba9e641bde712035c55343bff980cf487ef5ab7fd4"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "c1b78f1d6be94e135ab60e47d8a5d286325cb3c60cd40a402d20fac39bff7159"
+      },
+      {
+        "url": "https://typologyquiz.com/tests/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "b9ff197baa7056e7a5a529febc074b88a5f01da764ae29d82e834eed948542c2"
+      },
+      {
+        "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "8bcf5284241c7517be4b6361d666279998fc7817fefedfc9a2b8d9959faa80cd"
+      },
+      {
+        "url": "https://www.typologyquiz.com/quizzes/lantern-at-low-tide-restoration/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "cfcdde106fd61e5be9c4e3697750a3061a73133d458978a49cdfcc0894cf09ef"
+      }
+    ]
+  },
+  "gaQA": {
+    "property": "545477353",
+    "event": "interactive_quiz_complete",
+    "quizId": "GT-31",
+    "count": 1,
+    "operatorQA": true,
+    "checkedAt": "2026-11-10T14:06:44.645Z",
+    "surface": "GA4 Realtime in existing Chrome profile",
+    "quizUrl": "https://typologyquiz.com/quizzes/bellmere-layered-map/"
+  },
+  "r2Receipt": {
+    "url": "https://typologyquiz.com/handbook/britishcolumbia/railway-stop-then-proceed.png",
+    "status": 200,
+    "contentType": "image/png",
+    "cacheControl": "public, max-age=31536000, immutable",
+    "bundledHandbookAbsent": true,
+    "checkedAt": "2026-11-10T14:05:23.566974+00:00"
+  }
+}
