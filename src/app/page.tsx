@@ -8,8 +8,8 @@ import { SUMMARIES } from "@/lib/interactive/catalog.generated";
 import SeasonalHomepage, { type SeasonalPicks } from "@/components/seasonal/SeasonalHomepage";
 import { HOMEPAGE_THEMES } from "@/components/seasonal/theme-calendar";
 
-// Accepted pilot plan: one preference quiz (PC-01), one film-craft knowledge quiz (MT-03) and one geography knowledge quiz (GT-02).
 const INTERACTIVE_PILOTS = ["PC-01", "MT-03", "GT-02"];
+const DISCOVERY_PICKS = ["values-auction", "one-letter-sentence-fix", "documentary-forms-sorter"];
 
 const selections = [
   { slug: "friend-role", tone: "blue" },
@@ -22,6 +22,7 @@ export default function Home() {
   const picks = selections.map(pick => { const test = TESTS.find(test => test.slug === pick.slug)!; return { ...pick, title: test.title, description: pick.description ?? test.description, timeMinutes: test.timeMinutes, itemCount: test.itemCount }; });
   const editions = latestEditions().slice(0, 2);
   const pilots = INTERACTIVE_PILOTS.map(id => SUMMARIES.find(quiz => quiz.id === id)).filter((quiz): quiz is NonNullable<typeof quiz> => quiz !== undefined);
+  const discoveryPicks = DISCOVERY_PICKS.map(slug => SUMMARIES.find(quiz => quiz.slug === slug)).filter((quiz): quiz is NonNullable<typeof quiz> => quiz !== undefined);
   const seasonalIds = new Set(HOMEPAGE_THEMES.flatMap(theme => theme.detours.map(detour => detour.quizId)));
   const seasonalPicks: SeasonalPicks = Object.fromEntries(SUMMARIES.filter(quiz => seasonalIds.has(quiz.id)).map(quiz => [quiz.id, { title: quiz.title, slug: quiz.slug, minutes: quiz.minutes, questionCount: quiz.questionCount }]));
   return <SeasonalHomepage picks={seasonalPicks} intro={<div className="discovery-intro"><h1 id="home-heading" tabIndex={-1}>Find your next quiz.</h1><p>A few minutes for yourself, a challenge for friends, or practice for your learner’s test.</p></div>}>
@@ -39,7 +40,17 @@ export default function Home() {
       </section>
       <section className="news-feature"><p className="eyebrow">The news quiz archive</p><h2>Remember the headlines?</h2><p>Choose a dated round and see what stuck. Each answer includes sources to read further.</p><div className="news-editions">{editions.map(edition => <Link key={edition.id} href={editionPath(edition)}><time dateTime={edition.publishedAt}>{new Intl.DateTimeFormat("en", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(edition.publishedAt))}</time><strong>{edition.title} <span aria-hidden="true">↗</span></strong></Link>)}</div><Link href="/weekly/" className="text-link">Browse editions & follow a series →</Link></section>
     </div>
-    {pilots.length > 0 && <section className="friends-discovery" aria-labelledby="interactive-shelf"><p className="eyebrow">New interactive quizzes</p><div className="discovery-section-head"><h2 id="interactive-shelf">Match it, order it, map it.</h2><Link href="/quizzes/" className="text-link">Browse all {SUMMARIES.length} quizzes →</Link></div><div className="friend-options">{pilots.map(quiz => <Link key={quiz.id} href={`/quizzes/${quiz.slug}/`}><strong>{quiz.title} <span aria-hidden="true">↗</span></strong><p>{quiz.description}</p></Link>)}</div></section>}
+    {pilots.length > 0 && <section className="friends-discovery" aria-labelledby="interactive-shelf">
+      <p className="eyebrow">Interactive quizzes</p>
+      <div className="discovery-section-head"><h2 id="interactive-shelf">Match it, order it, map it.</h2><Link href="/quizzes/" className="text-link">Browse all {SUMMARIES.length} quizzes →</Link></div>
+      <div className="friend-options">{pilots.map(quiz => <Link key={quiz.id} href={`/quizzes/${quiz.slug}/`}><strong>{quiz.title} <span aria-hidden="true">↗</span></strong><p>{quiz.description}</p></Link>)}</div>
+      <p>Try another format with {discoveryPicks.map((quiz, index) => (
+        <span key={quiz.id}>
+          {index > 0 && (index === discoveryPicks.length - 1 ? ", or " : ", ")}
+          <Link href={`/quizzes/${quiz.slug}/`} className="text-link">{quiz.title}</Link>
+        </span>
+      ))}.</p>
+    </section>}
     <section className="driving-discovery"><div><p className="eyebrow">Before you take the wheel</p><h2>Practice for your learner’s test.</h2><p>Road signs, rules, and explanations linked to the official handbook. Start with where you’ll take the test.</p><Link href="/driving/" className="text-link">Browse all locations →</Link></div><RegionPicker /></section>
     <section className="friends-discovery"><p className="eyebrow">Better with a second opinion</p><div className="discovery-section-head"><h2>Send the group chat something to do.</h2><Link href="/friends/" className="text-link">Ways to play together →</Link></div><div className="friend-options"><Link href="/friend-quiz/"><strong>How well do they know you? <span aria-hidden="true">↗</span></strong><p>Make a quiz about yourself. Send the link and let your friends try.</p></Link><Link href="/compare/"><strong>Same quiz. Different people. <span aria-hidden="true">↗</span></strong><p>Put two personality results side by side and compare your traits.</p></Link></div></section>
   </SeasonalHomepage>;

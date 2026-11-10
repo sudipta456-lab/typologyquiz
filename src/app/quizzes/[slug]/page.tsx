@@ -6,6 +6,7 @@ import { breadcrumbList, jsonLdGraph, quizNode } from "@/lib/structured-data";
 import { getCategory, getQuiz, quizPath, QUIZZES } from "@/lib/interactive/registry";
 import type { Quiz } from "@/lib/interactive/types";
 import { QuizPlayer } from "@/components/interactive/QuizPlayer";
+import { DISCOVERY_PILOT } from "../discovery-pilot";
 
 type Params = Promise<{ slug: string }>;
 
@@ -18,17 +19,19 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   if (!quiz) return { title: "Interactive quiz" };
   const path = quizPath(quiz.slug);
   const image = `${SITE.url}${SITE.ogImage}`;
+  const title = DISCOVERY_PILOT[quiz.slug]?.title ?? quiz.title;
+  const description = DISCOVERY_PILOT[quiz.slug]?.description ?? quiz.description;
   return {
-    title: quiz.title,
-    description: quiz.description,
+    title,
+    description,
     alternates: { canonical: path },
     openGraph: {
-      title: `${quiz.title} · ${SITE.legalName}`,
-      description: quiz.description,
+      title: `${title} · ${SITE.legalName}`,
+      description,
       url: `${SITE.url}${path}`,
       images: [{ url: image, width: 1200, height: 630, alt: SITE.name }],
     },
-    twitter: { card: "summary_large_image", title: `${quiz.title} · ${SITE.legalName}`, description: quiz.description, images: [image] },
+    twitter: { card: "summary_large_image", title: `${title} · ${SITE.legalName}`, description, images: [image] },
   };
 }
 
@@ -59,6 +62,7 @@ export default async function InteractiveQuizPage({ params }: { params: Params }
   if (!quiz) notFound();
   const category = getCategory(quiz.categoryId);
   const path = quizPath(quiz.slug);
+  const description = DISCOVERY_PILOT[quiz.slug]?.description ?? quiz.description;
   const references = quiz.sources.filter((source) => source.kind === "reference" && source.url);
   const hasOriginal = quiz.sources.some((source) => source.kind === "original");
   // Quiz + BreadcrumbList only: no question text or answer key, and no rating markup.
@@ -66,7 +70,7 @@ export default async function InteractiveQuizPage({ params }: { params: Params }
     quizNode({
       path,
       name: quiz.title,
-      description: quiz.description,
+      description,
       numberOfQuestions: quiz.questions.length,
       timeRequiredMinutes: quiz.minutes,
       educationalUse: EDUCATIONAL_USE[quiz.kind],
@@ -90,11 +94,14 @@ export default async function InteractiveQuizPage({ params }: { params: Params }
         </p>
         {/* The player never renders the quiz title outside its share action, so the route owns the only h1. */}
         <h1 className="section-title">{quiz.title}</h1>
-        <p className="section-lead">{quiz.description}</p>
+        <p className="section-lead">{description}</p>
         <QuizPlayer quiz={quiz} />
         <aside aria-label="About this quiz" style={{ marginTop: 32 }}>
           <h2 className="font-display" style={{ fontSize: "1.1rem", fontWeight: 600, margin: "0 0 8px" }}>About this quiz</h2>
           <p>{resultNote(quiz.kind)}</p>
+          {quiz.slug === "documentary-forms-sorter" && (
+            <p><strong>A film example.</strong> Imagine a crew invents a story about a town’s missing bell and shoots it with interviews and handheld footage. The camera style can feel like a documentary even when the story and interviews are made up.</p>
+          )}
           <p>Read <Link href="/methodology/interactive-quizzes/" className="text-link">how these quizzes are scored, sourced and reviewed</Link>.</p>
           {hasOriginal && <p>People, places, data and rules in the original cases are written for this quiz. Where a task relies on a real fact, the source is listed with the task and below.</p>}
           {references.length > 0 && (
