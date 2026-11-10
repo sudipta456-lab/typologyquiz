@@ -11236,5 +11236,340 @@
       }
     ],
     "note": "Text-only production cases; no film footage, studio art or generated behind-the-scenes imagery. Cases describe documented methods and clearly marked inferences."
+  },
+  {
+    "id": "MT-31",
+    "slug": "lantern-at-low-tide-restoration",
+    "categoryId": "movies-tv",
+    "title": "The Lantern at Low Tide: Restore the Missing Reel",
+    "description": "Reassemble a fictional silent short from complementary prints, titles, and a visible gap.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "elements",
+        "title": "Find the surviving elements"
+      },
+      {
+        "id": "assembly",
+        "title": "Build a defensible sequence"
+      },
+      {
+        "id": "release",
+        "title": "Label the restoration"
+      }
+    ],
+    "questions": [
+      {
+        "id": "mt31-1",
+        "sectionId": "elements",
+        "kind": "choice",
+        "prompt": "Which source supplies the missing departure image?",
+        "context": "Fictional archive: a local print keeps the pier, the box and the rescue lamp. A foreign re-edit alone shows Mira leaving the lighthouse. The local title list survives without footage. The archive is reconstructing the local release.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Source A's intact pier reel"
+          },
+          {
+            "id": "b",
+            "label": "Source B's unique departure shot"
+          },
+          {
+            "id": "c",
+            "label": "The title list's words"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Only B contains moving images of Mira leaving; the title list supplies text, not footage.",
+        "sourceIds": [
+          "film",
+          "original"
+        ]
+      },
+      {
+        "id": "mt31-2",
+        "sectionId": "elements",
+        "kind": "match",
+        "prompt": "Match each surviving element to its strongest use.",
+        "context": "In this fictional case, each right-hand use is distinct.",
+        "left": [
+          {
+            "id": "a",
+            "label": "A's pier-to-box footage"
+          },
+          {
+            "id": "b",
+            "label": "B's departure shot"
+          },
+          {
+            "id": "c",
+            "label": "Local title list"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Recover the missing action"
+          },
+          {
+            "id": "b",
+            "label": "Anchor later scene order"
+          },
+          {
+            "id": "c",
+            "label": "Check local-release wording"
+          }
+        ],
+        "pairs": {
+          "a": "b",
+          "b": "a",
+          "c": "c"
+        },
+        "explanation": "A preserves the later sequence; B fills the visual gap; the list checks local wording.",
+        "sourceIds": [
+          "film",
+          "titles",
+          "original"
+        ]
+      },
+      {
+        "id": "mt31-3",
+        "sectionId": "elements",
+        "kind": "choice",
+        "prompt": "The re-edit puts the departure after Mira reaches the pier. What should guide the declared local-release sequence?",
+        "context": "Fictional archive: the local print shows Mira carrying the lighthouse key on the pier, but its departure shot is lost. The foreign version shows her picking up that key at the lighthouse, after its pier scene. The archive is reconstructing the local release.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep B's order because its image is sharper"
+          },
+          {
+            "id": "b",
+            "label": "Use A's later continuity plus the story's key dependency; document the inferred join"
+          },
+          {
+            "id": "c",
+            "label": "Discard B's unique shot because its order differs"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The key is already with Mira at the pier, so her departure belongs before it; the join remains an inference.",
+        "sourceIds": [
+          "film",
+          "original"
+        ]
+      },
+      {
+        "id": "mt31-4",
+        "sectionId": "assembly",
+        "kind": "order",
+        "prompt": "Place the four surviving actions in the story's supported order, earliest first.",
+        "context": "Fictional archive: an inventory shows the key in Mira's hand when she reaches the pier. The lighthouse shot is where she picks it up. The box is unlocked on the pier, and opening the box exposes the lamp switch.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Lamp lit"
+          },
+          {
+            "id": "b",
+            "label": "Mira leaves with key"
+          },
+          {
+            "id": "c",
+            "label": "Box opened"
+          },
+          {
+            "id": "d",
+            "label": "Mira reaches pier"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "d",
+          "c",
+          "a"
+        ],
+        "explanation": "The visible key and action dependencies support departure, pier, box, lamp.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mt31-5",
+        "sectionId": "assembly",
+        "kind": "grid",
+        "prompt": "Decide how to handle each title card for the local-release reconstruction.",
+        "context": "Fictional case: local-release title list has exact wording for the opening and box cards; no local wording survives for a card over a missing close-up.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "Opening card",
+            "options": [
+              {
+                "id": "a",
+                "label": "Exact local title list"
+              },
+              {
+                "id": "b",
+                "label": "Foreign re-edit title"
+              },
+              {
+                "id": "c",
+                "label": "Invented as original"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "c2",
+            "label": "Box card",
+            "options": [
+              {
+                "id": "a",
+                "label": "Exact local title list"
+              },
+              {
+                "id": "b",
+                "label": "Foreign re-edit title"
+              },
+              {
+                "id": "c",
+                "label": "Invented as original"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "c3",
+            "label": "Missing close-up card",
+            "options": [
+              {
+                "id": "a",
+                "label": "Exact local title list"
+              },
+              {
+                "id": "b",
+                "label": "Clearly marked editorial summary"
+              },
+              {
+                "id": "c",
+                "label": "Unmarked original wording"
+              }
+            ],
+            "correct": "b"
+          }
+        ],
+        "explanation": "Use the surviving list where it exists. Any bridge over an absent shot must be marked as editorial.",
+        "sourceIds": [
+          "titles",
+          "original"
+        ]
+      },
+      {
+        "id": "mt31-6",
+        "sectionId": "assembly",
+        "kind": "choice",
+        "prompt": "A reel edge ends before Mira turns the key in the box. The next surviving frame shows the box open. Which caption is honest?",
+        "context": "Fictional case: no surviving source shows the turn itself.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mira definitely turned the key in one continuous shot"
+          },
+          {
+            "id": "b",
+            "label": "An unfilmed turn is reconstructed exactly here"
+          },
+          {
+            "id": "c",
+            "label": "A short action gap remains; the next surviving image shows the box open"
+          }
+        ],
+        "correct": "c",
+        "explanation": "The outcome is visible, but the precise missing movement cannot be recovered from these elements.",
+        "sourceIds": [
+          "film",
+          "original"
+        ]
+      },
+      {
+        "id": "mt31-7",
+        "sectionId": "release",
+        "kind": "choice",
+        "prompt": "Why make a stable preservation copy before repeated public projection?",
+        "context": "The fictional worn source A is fragile. The exhibition edit is a separate viewing version.",
+        "options": [
+          {
+            "id": "a",
+            "label": "To erase all uncertainty about the original"
+          },
+          {
+            "id": "b",
+            "label": "To reduce handling of a vulnerable source while keeping the exhibition version separate"
+          },
+          {
+            "id": "c",
+            "label": "To prove the foreign re-edit was the local release"
+          }
+        ],
+        "correct": "b",
+        "explanation": "A preservation copy protects vulnerable material; it does not resolve editorial uncertainties.",
+        "sourceIds": [
+          "titles",
+          "original"
+        ]
+      },
+      {
+        "id": "mt31-8",
+        "sectionId": "release",
+        "kind": "choice",
+        "prompt": "Which final program note best earns audience trust?",
+        "context": "The reconstruction combines A's later continuity, B's departure image, the local title list, and a marked gap before the box opens.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Complete original local release, exactly as first screened"
+          },
+          {
+            "id": "b",
+            "label": "Reconstruction from two versions and a title list; departure placement is inferred and one action gap remains"
+          },
+          {
+            "id": "c",
+            "label": "Foreign version shown without changes"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The note names the elements, the inference, and the unresolved gap without claiming a complete original.",
+        "sourceIds": [
+          "film",
+          "titles",
+          "original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "film",
+        "kind": "reference",
+        "label": "Library of Congress, The Blue Eagle restoration",
+        "url": "https://www.loc.gov/loc/lcib/0007/restoration.html"
+      },
+      {
+        "id": "titles",
+        "kind": "reference",
+        "label": "Library of Congress, Take 2: Restoring Old Films",
+        "url": "https://www.loc.gov/loc/lcib/94/9410/film2.html"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, clues, and reasoning for this quiz."
+      }
+    ],
+    "note": "All film, characters and archival elements in the case are fictional. Historical references explain preservation practices, not this invented film."
   }
 ]

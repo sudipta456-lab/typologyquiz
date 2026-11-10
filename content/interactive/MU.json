@@ -11790,5 +11790,328 @@
         "description": "Whether each performer carries a complete phrase or they divide a phrase between them in this invented duet."
       }
     ]
+  },
+  {
+    "id": "MU-31",
+    "slug": "glass-armonica-discovery",
+    "categoryId": "music",
+    "title": "The Glass Armonica, Up Close",
+    "description": "Discover Franklin’s rotating glass instrument, then choose how you would introduce it to an audience.",
+    "kind": "hybrid",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "instrument",
+        "title": "Inside the rotating glass"
+      },
+      {
+        "id": "letter",
+        "title": "In the concert room"
+      },
+      {
+        "id": "program",
+        "title": "Plan a short introduction"
+      }
+    ],
+    "questions": [
+      {
+        "id": "mu31-1",
+        "sectionId": "instrument",
+        "kind": "choice",
+        "prompt": "Which physical detail distinguishes Franklin’s design from a row of individual musical glasses?",
+        "context": "An exhibit pairs Franklin’s instrument with the musical-glass design that preceded it.",
+        "explanation": "The Library of Congress describes graduated glass discs carried on one rotating horizontal spindle. That shared assembly is the identifying difference here.",
+        "sourceIds": [
+          "glass"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Each glass is suspended from a different string"
+          },
+          {
+            "id": "b",
+            "label": "Glass pieces rotate together on a horizontal spindle"
+          },
+          {
+            "id": "c",
+            "label": "The performer strikes a single glass with a pedal"
+          },
+          {
+            "id": "d",
+            "label": "Separate cups sit on fixed stands with no axle"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "mu31-2",
+        "sectionId": "instrument",
+        "kind": "choice",
+        "prompt": "Which action actually sets this exhibit instrument sounding?",
+        "context": "The spindle rotates by a foot treadle.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Blowing across a glass opening"
+          },
+          {
+            "id": "b",
+            "label": "Touching the revolving glass with wet fingers"
+          },
+          {
+            "id": "c",
+            "label": "Striking each glass with a wooden hammer"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The LOC description identifies wet-finger contact with the revolving glasses.",
+        "sourceIds": [
+          "glass"
+        ]
+      },
+      {
+        "id": "mu31-3",
+        "sectionId": "instrument",
+        "kind": "match",
+        "prompt": "Match the part to its described role.",
+        "context": "Use only the Library's physical description.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Foot treadle"
+          },
+          {
+            "id": "b",
+            "label": "Horizontal spindle"
+          },
+          {
+            "id": "c",
+            "label": "Graduated glass discs"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Carry the rotating glass series"
+          },
+          {
+            "id": "b",
+            "label": "Turn the assembly"
+          },
+          {
+            "id": "c",
+            "label": "Provide the differently sized sounding surfaces"
+          }
+        ],
+        "pairs": {
+          "a": "b",
+          "b": "a",
+          "c": "c"
+        },
+        "explanation": "The treadle turns the spindle; graduated discs mounted on it provide the glass surfaces.",
+        "sourceIds": [
+          "glass"
+        ]
+      },
+      {
+        "id": "mu31-4",
+        "sectionId": "letter",
+        "kind": "choice",
+        "prompt": "Which program note stays inside the documented musical history?",
+        "options": [
+          {
+            "id": "a",
+            "label": "The armonica replaced all European keyboard instruments"
+          },
+          {
+            "id": "b",
+            "label": "The armonica attracted European interest; Mozart wrote for it"
+          },
+          {
+            "id": "c",
+            "label": "Every eighteenth-century concert featured the armonica"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The second note matches the narrower, documented claim.",
+        "sourceIds": [
+          "music",
+          "glass"
+        ]
+      },
+      {
+        "id": "mu31-5",
+        "sectionId": "letter",
+        "kind": "choice",
+        "prompt": "In Franklin's 1765 letter to Francis Hopkinson, what question does he ask about a concert?",
+        "context": "The documented letter concerns Hopkinson's recent armonica performance.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Whether the instrument pleased or was drowned by other instruments"
+          },
+          {
+            "id": "b",
+            "label": "Whether the audience could name every pitch"
+          },
+          {
+            "id": "c",
+            "label": "Whether the concert used only glass instruments"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Franklin asks about reception and balance with other instruments, without asserting a universal acoustic rule.",
+        "sourceIds": [
+          "music",
+          "letter"
+        ]
+      },
+      {
+        "id": "mu31-6",
+        "sectionId": "program",
+        "kind": "rank",
+        "prompt": "Rank the exit cards from the one you would hand out first to the one you would hand out last.",
+        "context": "Fictional program: each card helps visitors keep exploring after the short demonstration. All four will be available.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Follow three guided prompts to compare two short musical phrases",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Pick any two glass pieces to compare on the replica diagram",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Choose a musical phrase to replay and describe it in your own way",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Follow the steps of a sketch showing how the treadle drives the spindle",
+            "weights": [
+              -2,
+              -2
+            ]
+          }
+        ],
+        "explanation": "Your ranking reflects what visitors would explore and how much guidance your exit card would give them.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu31-7",
+        "sectionId": "program",
+        "kind": "choice",
+        "prompt": "You have room for one opening moment. Which would you choose?",
+        "context": "Fictional program: a musician and a museum interpreter are ready. You can begin with either of them.",
+        "options": [
+          {
+            "id": "a",
+            "label": "See the interpreter turn a silent replica so its moving parts are easy to follow",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Hear the musician play a short phrase, then find out what made it sound",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "Your choice sets the opening emphasis of this program, from seeing the mechanism to hearing a performance.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "mu31-8",
+        "sectionId": "program",
+        "kind": "choice",
+        "prompt": "How would you arrange the three follow-up stops?",
+        "context": "Fictional program: visitors can see a replica, hear a short performance, and read about the 1765 letter. Each stop can be understood on its own.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Let visitors choose where to begin and circle back if they wish",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Offer one guided sequence with a short transition between stops",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ],
+        "explanation": "Your choice sets how much sequence this exhibit supplies. Both routes include the same three stops.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "glass",
+        "kind": "reference",
+        "label": "Library of Congress, Franklin's Armonica",
+        "url": "https://www.loc.gov/exhibits/franklin/franklin-scientist.html"
+      },
+      {
+        "id": "music",
+        "kind": "reference",
+        "label": "Library of Congress, The Musical Franklin",
+        "url": "https://www.loc.gov/loc/lcib/0601/franklin3.html"
+      },
+      {
+        "id": "letter",
+        "kind": "reference",
+        "label": "Library of Congress Music Division blog, Franklin and Hopkinson's Musical Conversation",
+        "url": "https://blogs.loc.gov/music/2026/07/you-may-rely-on-every-act-of-friendship-benjamin-franklin-and-francis-hopkinsons-musical-conversation/"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, clues, and reasoning for this quiz."
+      }
+    ],
+    "note": "Text-only music history and a fictional program-planning exercise. The final three choices describe your plan for this exhibit.",
+    "dimensions": [
+      {
+        "id": "emphasis",
+        "low": "Mechanism first",
+        "high": "Performance first",
+        "description": "What you would put first in this fictional glass armonica program."
+      },
+      {
+        "id": "pace",
+        "low": "Follow one sequence",
+        "high": "Explore in any order",
+        "description": "How you would arrange this exhibit’s short visitor experience."
+      }
+    ]
   }
 ]

@@ -11227,5 +11227,275 @@
       }
     ],
     "note": "Original closed-bank challenges and crossing instructions. Choices, a two-cell grid, matching and ordering are available; there is no typed crossword canvas. Word squares may use familiar English combinations; originality refers to the authored tasks and explanations."
+  },
+  {
+    "id": "LW-31",
+    "slug": "letterpress-acrostic-proof",
+    "categoryId": "logic-wordplay",
+    "title": "The Letterpress Proof's Hidden Object",
+    "description": "Test a printer's acrostic instruction, repair a smudged clue, and reveal a hidden exhibit object.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "proof",
+        "title": "Read the proof"
+      },
+      {
+        "id": "judgment",
+        "title": "Test the evidence"
+      },
+      {
+        "id": "reveal",
+        "title": "Reveal and label"
+      }
+    ],
+    "questions": [
+      {
+        "id": "lw31-1",
+        "sectionId": "proof",
+        "kind": "choice",
+        "prompt": "The printer's note says 'read the first letter of each printed line.' What is the unit to inspect?",
+        "context": "Fictional letterpress exhibit; line labels are part of the printed proof, and screen wrapping does not create new lines.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The first letter after each visible line label"
+          },
+          {
+            "id": "b",
+            "label": "The first letter of every sentence"
+          },
+          {
+            "id": "c",
+            "label": "The first letter of each word"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The instruction names printed lines, so a phone's visual wrap does not change the extraction unit.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw31-2",
+        "sectionId": "proof",
+        "kind": "choice",
+        "prompt": "A proof strip is labelled L1: Ember / L2: Ash / L3: Type. What extraction does the note give?",
+        "context": "Fictional practice strip; read the first letter of the word after each line label in L1, L2, L3 order.",
+        "options": [
+          {
+            "id": "a",
+            "label": "EAT"
+          },
+          {
+            "id": "b",
+            "label": "LAT"
+          },
+          {
+            "id": "c",
+            "label": "EATY"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Ember, Ash, Type yield E-A-T in the labelled order.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw31-3",
+        "sectionId": "proof",
+        "kind": "match",
+        "prompt": "Match each physical clue to what it can establish.",
+        "context": "Fictional exhibit: the proof has numbered line labels; a separate compositor note says to use initials; a smear obscures one word.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Numbered line labels"
+          },
+          {
+            "id": "b",
+            "label": "Compositor's extraction note"
+          },
+          {
+            "id": "c",
+            "label": "Ink smear"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "May block an initial's reading"
+          },
+          {
+            "id": "b",
+            "label": "Sets extraction method"
+          },
+          {
+            "id": "c",
+            "label": "Sets row order"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "b",
+          "c": "a"
+        },
+        "explanation": "Labels set order, the note sets method, and the smear creates uncertainty rather than a new rule.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw31-4",
+        "sectionId": "proof",
+        "kind": "order",
+        "prompt": "Use the surviving marks to put these four practice lines in print order.",
+        "context": "Fictional proof: Reed starts the strip and Elm ends it. A narrow ink transfer shows the Amber line immediately followed the Ink line. The two middle line numbers are lost.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Amber"
+          },
+          {
+            "id": "b",
+            "label": "Reed"
+          },
+          {
+            "id": "c",
+            "label": "Elm"
+          },
+          {
+            "id": "d",
+            "label": "Ink"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "d",
+          "a",
+          "c"
+        ],
+        "explanation": "Reed and Elm fix the ends. Ink precedes Amber, so Reed, Ink, Amber, Elm is the only order that uses all the marks.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw31-5",
+        "sectionId": "judgment",
+        "kind": "choice",
+        "prompt": "A visitor finds the same three-letter sequence in random words on a poster with no note or line labels. What is the honest claim?",
+        "context": "Fictional exhibit: only the proof has both explicit line labels and the compositor's initial-letter instruction.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The poster proves an intended acrostic"
+          },
+          {
+            "id": "b",
+            "label": "The poster may contain a coincidence; intention is better supported by the proof's instruction and labels"
+          },
+          {
+            "id": "c",
+            "label": "Any three-letter sequence is automatically a printer's signature"
+          }
+        ],
+        "correct": "b",
+        "explanation": "A chance sequence is weaker evidence than a documented method tied to a specific artifact.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw31-6",
+        "sectionId": "judgment",
+        "kind": "choice",
+        "prompt": "The exhibit's L4 word is smeared: it could read 'Well' or 'Wall'. What repair removes ambiguity without inventing a letter?",
+        "context": "The compositor's note calls for line initials; both candidate words begin W. The smudged word is not otherwise needed.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep the W initial and disclose that the rest of the word is uncertain"
+          },
+          {
+            "id": "b",
+            "label": "Claim the whole word is definitely Well"
+          },
+          {
+            "id": "c",
+            "label": "Change the initial to A because Wall contains A"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Both readings preserve W, so the initial is supported while the full word remains uncertain.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw31-7",
+        "sectionId": "reveal",
+        "kind": "choice",
+        "prompt": "Read the seven labelled exhibit lines in order. Which object is named?",
+        "context": "Fictional letterpress proof. Take the first letter of the word after each label: L1: Ink dries. | L2: Night presses. | L3: Keep type. | L4: Well or Wall (smudged). | L5: Each sheet. | L6: Lift gently. | L7: Leave space. The note explicitly calls for line initials.",
+        "options": [
+          {
+            "id": "a",
+            "label": "INKWELL"
+          },
+          {
+            "id": "b",
+            "label": "INKWALL"
+          },
+          {
+            "id": "c",
+            "label": "NIGHTLY"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The ordered initials are I-N-K-W-E-L-L. The W survives either reading of the smeared word.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "lw31-8",
+        "sectionId": "reveal",
+        "kind": "choice",
+        "prompt": "Which label should accompany the revealed object in the exhibit?",
+        "context": "Fictional proof: L1-L7 spell the object by initials. L4's full word is uncertain, but its initial is W under both readings.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proven original message with every word fully legible"
+          },
+          {
+            "id": "b",
+            "label": "Supported acrostic reading; one full line word remains uncertain"
+          },
+          {
+            "id": "c",
+            "label": "Random poster coincidence with no extraction instruction"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The explicit note and numbered proof support the acrostic; the label keeps the local uncertainty visible.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, clues, and reasoning for this quiz."
+      }
+    ],
+    "note": "Entire proof and exhibit are original fiction. Line labels, not screen wraps, determine the acrostic."
   }
 ]

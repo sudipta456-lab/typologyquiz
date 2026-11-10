@@ -11215,5 +11215,301 @@
       }
     ],
     "note": "Text-only bounded cases for standard four-player curling, not a playable match or shot simulator. Shot names state purposes, not guaranteed physical outcomes."
+  },
+  {
+    "id": "SG-31",
+    "slug": "alder-park-first-disc-golf-hole",
+    "categoryId": "sports-games",
+    "title": "Alder Park's First Disc Golf Hole",
+    "description": "Follow one fictional player's opening hole through the tee, lie, boundary, and basket under PDGA rules.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "tee",
+        "title": "Start from the tee"
+      },
+      {
+        "id": "boundary",
+        "title": "Read the boundary"
+      },
+      {
+        "id": "finish",
+        "title": "Complete the hole"
+      }
+    ],
+    "questions": [
+      {
+        "id": "sg31-1",
+        "sectionId": "tee",
+        "kind": "choice",
+        "prompt": "At fictional Alder Park's first sanctioned hole, where does Nia begin?",
+        "context": "The event card identifies a tee pad and a basket; no special course rules are announced.",
+        "options": [
+          {
+            "id": "a",
+            "label": "From anywhere behind the basket"
+          },
+          {
+            "id": "b",
+            "label": "From within the designated teeing area"
+          },
+          {
+            "id": "c",
+            "label": "From the nearest previous player's disc"
+          }
+        ],
+        "correct": "b",
+        "explanation": "PDGA 802.04 starts each hole at the designated teeing area.",
+        "sourceIds": [
+          "pdga",
+          "original"
+        ]
+      },
+      {
+        "id": "sg31-2",
+        "sectionId": "tee",
+        "kind": "choice",
+        "prompt": "Nia's disc rests in bounds on grass. What establishes her next lie?",
+        "context": "No relief condition applies; the disc is on the playing surface.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The place defined behind the marked disc"
+          },
+          {
+            "id": "b",
+            "label": "Any place on the fairway she prefers"
+          },
+          {
+            "id": "c",
+            "label": "The tee again automatically"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Under 802.05-802.06, the resting disc or marker establishes the lie for an ordinary in-bounds throw.",
+        "sourceIds": [
+          "pdga",
+          "original"
+        ]
+      },
+      {
+        "id": "sg31-3",
+        "sectionId": "tee",
+        "kind": "match",
+        "prompt": "Match each sign or marking to the decision it controls.",
+        "context": "Fictional Alder Park uses a tee line, a mandatory-route sign and a marked drop zone. In PDGA play, a mandatory route restricts the disc’s path. A drop zone is a marked place to take a subsequent throw when a rule directs you there.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Mandatory-route sign"
+          },
+          {
+            "id": "b",
+            "label": "Drop-zone marking"
+          },
+          {
+            "id": "c",
+            "label": "Tee line"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Front edge of the opening throwing area"
+          },
+          {
+            "id": "b",
+            "label": "Designated place for a later throw"
+          },
+          {
+            "id": "c",
+            "label": "Restriction on the path of the disc"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "b",
+          "c": "a"
+        },
+        "explanation": "The tee line defines the front of the teeing area. A drop zone designates a place to throw, and a mandatory route restricts the disc’s path.",
+        "sourceIds": [
+          "pdga",
+          "original"
+        ]
+      },
+      {
+        "id": "sg31-4",
+        "sectionId": "boundary",
+        "kind": "choice",
+        "prompt": "Nia's disc is clearly and completely surrounded by the park's marked out-of-bounds path. Which consequence applies?",
+        "context": "The path is the only OB area; no drop zone or alternate ruling is announced.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Play from the path without penalty"
+          },
+          {
+            "id": "b",
+            "label": "One penalty throw, then use an allowed OB lie such as the previous lie"
+          },
+          {
+            "id": "c",
+            "label": "The hole is automatically finished"
+          }
+        ],
+        "correct": "b",
+        "explanation": "PDGA 806.02 gives one penalty throw and lists permitted next-lie options, including the previous lie.",
+        "sourceIds": [
+          "pdga",
+          "original"
+        ]
+      },
+      {
+        "id": "sg31-5",
+        "sectionId": "boundary",
+        "kind": "choice",
+        "prompt": "The disc touches the marked OB line and also clearly extends into the in-bounds grass. What is its status?",
+        "context": "Fictional Alder Park: the painted line is part of the OB area. The player’s group can see the whole resting disc.",
+        "explanation": "Under PDGA 806.02, the line is out of bounds, but a disc is OB only when it is clearly and completely surrounded by the out-of-bounds area.",
+        "sourceIds": [
+          "pdga",
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "OB because any contact with paint counts"
+          },
+          {
+            "id": "b",
+            "label": "OB because its centre crosses the line"
+          },
+          {
+            "id": "c",
+            "label": "In bounds because part of the disc remains in bounds"
+          },
+          {
+            "id": "d",
+            "label": "A lost disc until the course director measures it"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "sg31-6",
+        "sectionId": "boundary",
+        "kind": "grid",
+        "prompt": "Compare the next throws from two explicitly marked areas.",
+        "context": "Two fictional examples use separate holes. On hole A the entire disc rests in a marked hazard. On hole B it rests in a marked casual area and the player chooses to throw without taking relief.",
+        "cells": [
+          {
+            "id": "a",
+            "label": "Hole A: marked hazard",
+            "options": [
+              {
+                "id": "a",
+                "label": "Throw from the disc’s resting position with one penalty throw"
+              },
+              {
+                "id": "b",
+                "label": "Move to the last in-bounds position with no penalty"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "Hole B: casual area, no relief chosen",
+            "options": [
+              {
+                "id": "a",
+                "label": "Return to the previous lie with one penalty throw"
+              },
+              {
+                "id": "b",
+                "label": "Use the disc’s resting position with no penalty"
+              }
+            ],
+            "correct": "b"
+          }
+        ],
+        "explanation": "PDGA 806.05 keeps a hazard lie at the resting disc and adds a penalty throw. Under 806.03 a casual area carries no penalty and the player may choose to play from the resting disc.",
+        "sourceIds": [
+          "pdga",
+          "original"
+        ]
+      },
+      {
+        "id": "sg31-7",
+        "sectionId": "finish",
+        "kind": "choice",
+        "prompt": "Nia’s released putt comes to rest on top of the chain support. Is the hole complete?",
+        "context": "Fictional Alder Park has a standard basket target. The disc is resting entirely on top of its upper support.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Yes, touching any basket part completes the hole"
+          },
+          {
+            "id": "b",
+            "label": "No. The top support is outside the parts that can count."
+          },
+          {
+            "id": "c",
+            "label": "Yes, any spot where the disc stops moving is enough"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Under PDGA 807, a released disc must come to rest supported by the tray or by the chains below the chain support. Resting on top does not qualify.",
+        "sourceIds": [
+          "pdga",
+          "original"
+        ]
+      },
+      {
+        "id": "sg31-8",
+        "sectionId": "finish",
+        "kind": "choice",
+        "prompt": "On the next putt, Nia releases the disc and it comes to rest in the tray. What should her first-hole story say?",
+        "context": "Only this final putt is being judged here; earlier throws are not being counted.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The hole is complete because the released disc rests in the tray"
+          },
+          {
+            "id": "b",
+            "label": "The hole remains open until she touches the chains"
+          },
+          {
+            "id": "c",
+            "label": "The hole completed when the disc first crossed the basket's height"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Rest in the tray after release satisfies PDGA 807; the narrative closes on an observable condition.",
+        "sourceIds": [
+          "pdga",
+          "original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "pdga",
+        "kind": "reference",
+        "label": "PDGA, Official Rules and Regulations of Disc Golf, 2026",
+        "url": "https://www.pdga.com/book/export/html/8371/web/"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, clues, and reasoning for this quiz."
+      }
+    ],
+    "note": "Fictional park and player. Rule questions use the official PDGA online rules read on November 10, 2026; no score arithmetic or local rule is assumed."
   }
 ]

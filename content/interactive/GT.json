@@ -11814,5 +11814,347 @@
       }
     ],
     "note": "Geographic and heritage explanation, not a navigation plan. No current opening, safety, boating or travel advice; no map image is supplied."
+  },
+  {
+    "id": "GT-31",
+    "slug": "bellmere-layered-map",
+    "categoryId": "geography-travel",
+    "title": "Bellmere Landing: One Place, Many Map Layers",
+    "description": "Build an honest walking-exhibit caption from a fictional place's dated imagery and map layers.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "read",
+        "title": "Read one place"
+      },
+      {
+        "id": "compare",
+        "title": "Compare layers and dates"
+      },
+      {
+        "id": "exhibit",
+        "title": "Write the exhibit panel"
+      }
+    ],
+    "questions": [
+      {
+        "id": "gt31-1",
+        "sectionId": "read",
+        "kind": "choice",
+        "prompt": "Which view best answers 'what does the 2022 roof look like from above?'",
+        "context": "Fictional Bellmere Landing has a 2022 orthoimage, a 2024 structures layer and a 2025 transportation layer.",
+        "options": [
+          {
+            "id": "a",
+            "label": "2022 orthoimage"
+          },
+          {
+            "id": "b",
+            "label": "2025 transportation labels"
+          },
+          {
+            "id": "c",
+            "label": "2020 land-cover categories"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The image shows visible appearance at its capture date; the named layers answer other questions.",
+        "sourceIds": [
+          "topo",
+          "symbols",
+          "original"
+        ]
+      },
+      {
+        "id": "gt31-2",
+        "sectionId": "read",
+        "kind": "match",
+        "prompt": "Match each visitor question to the most relevant named layer.",
+        "context": "Fictional Bellmere exhibit: each visitor wants a label from a separate themed layer. Transportation includes paths, hydrography includes water features, and structures includes buildings.",
+        "left": [
+          {
+            "id": "a",
+            "label": "What is the east spur called?"
+          },
+          {
+            "id": "b",
+            "label": "Where is Reed Pond marked?"
+          },
+          {
+            "id": "c",
+            "label": "What is the roof's mapped name?"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Structures 2024"
+          },
+          {
+            "id": "b",
+            "label": "Hydrography 2021"
+          },
+          {
+            "id": "c",
+            "label": "Transportation 2025"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "b",
+          "c": "a"
+        },
+        "explanation": "Names of paths, water, and buildings come from different named themes.",
+        "sourceIds": [
+          "topo",
+          "original"
+        ]
+      },
+      {
+        "id": "gt31-3",
+        "sectionId": "read",
+        "kind": "choice",
+        "prompt": "The image shows a roof while the structures layer calls it Boathouse. Which interpretation is strongest?",
+        "context": "Fictional Bellmere Landing: a 2022 orthoimage shows a roof. The 2024 structures layer labels that location Boathouse.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The roof image alone proves its official current use"
+          },
+          {
+            "id": "b",
+            "label": "The 2024 structure label supplies the mapped name; the 2022 image shows appearance"
+          },
+          {
+            "id": "c",
+            "label": "The 2020 woodland tint names the building"
+          }
+        ],
+        "correct": "b",
+        "explanation": "An image and a named layer contribute different evidence, with different dates.",
+        "sourceIds": [
+          "symbols",
+          "original"
+        ]
+      },
+      {
+        "id": "gt31-4",
+        "sectionId": "compare",
+        "kind": "grid",
+        "prompt": "Which date belongs on each exhibit caption?",
+        "context": "Fictional Bellmere: the 2022 aerial image shows tree crowns, a 2020 land-cover layer maps woodland, and a 2025 boundary layer marks the municipal exhibit area. Use the date of the source behind each statement.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "'Tree crowns are visible'",
+            "options": [
+              {
+                "id": "a",
+                "label": "2022 image"
+              },
+              {
+                "id": "b",
+                "label": "2020 land cover"
+              },
+              {
+                "id": "c",
+                "label": "2025 boundary"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "c2",
+            "label": "'Woodland is mapped north of loop'",
+            "options": [
+              {
+                "id": "a",
+                "label": "2022 image"
+              },
+              {
+                "id": "b",
+                "label": "2020 land cover"
+              },
+              {
+                "id": "c",
+                "label": "2025 boundary"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c3",
+            "label": "'North edge of exhibit area'",
+            "options": [
+              {
+                "id": "a",
+                "label": "2022 image"
+              },
+              {
+                "id": "b",
+                "label": "2020 land cover"
+              },
+              {
+                "id": "c",
+                "label": "2025 boundary"
+              }
+            ],
+            "correct": "c"
+          }
+        ],
+        "explanation": "A visual observation, a land-cover category, and a boundary each carry their own source date.",
+        "sourceIds": [
+          "topo",
+          "original"
+        ]
+      },
+      {
+        "id": "gt31-5",
+        "sectionId": "compare",
+        "kind": "choice",
+        "prompt": "Two map symbols look similar on an older printed sheet and the 2025 layer. What should the team consult?",
+        "context": "USGS says symbols have evolved; the old sheet is from a different map era.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Assume the symbols have identical meanings"
+          },
+          {
+            "id": "b",
+            "label": "Use the legend or symbol sheet associated with the map being read"
+          },
+          {
+            "id": "c",
+            "label": "Identify them by color alone"
+          }
+        ],
+        "correct": "b",
+        "explanation": "The relevant map's own legend avoids importing a symbol meaning from another era.",
+        "sourceIds": [
+          "legend"
+        ]
+      },
+      {
+        "id": "gt31-6",
+        "sectionId": "compare",
+        "kind": "choice",
+        "prompt": "A caption says Gate Path is open and barrier-free today. What does the card actually establish?",
+        "context": "Fictional Bellmere: the 2025 transportation layer labels the east spur Gate Path. The team has a 2022 aerial image, but has yet to visit the path.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The 2025 transportation layer names a mapped spur, but current access needs field confirmation"
+          },
+          {
+            "id": "b",
+            "label": "The 2022 image proves today's barrier-free route"
+          },
+          {
+            "id": "c",
+            "label": "The 2021 pond layer certifies path condition"
+          }
+        ],
+        "correct": "a",
+        "explanation": "A mapped path and its label do not certify its present condition or accessibility.",
+        "sourceIds": [
+          "topo",
+          "original"
+        ]
+      },
+      {
+        "id": "gt31-7",
+        "sectionId": "exhibit",
+        "kind": "order",
+        "prompt": "Order a sensible evidence workflow for a caption about the north edge, from question to public wording.",
+        "context": "Fictional exhibit. The team wants to explain where its mapped boundary lies, without guaranteeing a walking route.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Write a date-labelled caption"
+          },
+          {
+            "id": "b",
+            "label": "Select the boundary layer"
+          },
+          {
+            "id": "c",
+            "label": "Ask which geographic question the caption answers"
+          },
+          {
+            "id": "d",
+            "label": "Check the layer date and legend"
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "b",
+          "d",
+          "a"
+        ],
+        "explanation": "Start with the question, choose the relevant theme, inspect its metadata, then label the caption.",
+        "sourceIds": [
+          "topo",
+          "legend",
+          "original"
+        ]
+      },
+      {
+        "id": "gt31-8",
+        "sectionId": "exhibit",
+        "kind": "choice",
+        "prompt": "Which panel sentence best combines the map without overstating it?",
+        "context": "Fictional Bellmere: the 2022 image shows a loop and a roof. The 2024 structures layer labels the roof Boathouse. The 2025 transportation layer names Quay Walk and Gate Path. The team has no field observations.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The 2022 image shows a loop and roof; 2024 and 2025 layers name the Boathouse and paths; verify current walking conditions locally"
+          },
+          {
+            "id": "b",
+            "label": "All mapped paths are accessible now because the layers are recent"
+          },
+          {
+            "id": "c",
+            "label": "The image proves the woodland category and municipal boundary are permanent"
+          }
+        ],
+        "correct": "a",
+        "explanation": "This sentence separates visible imagery from later named layers and leaves current access to on-site verification.",
+        "sourceIds": [
+          "topo",
+          "symbols",
+          "original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "topo",
+        "kind": "reference",
+        "label": "USGS, US Topo Standards and Specifications",
+        "url": "https://www.usgs.gov/us-topo"
+      },
+      {
+        "id": "symbols",
+        "kind": "reference",
+        "label": "USGS, US Topo Map Symbol Guide",
+        "url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide"
+      },
+      {
+        "id": "legend",
+        "kind": "reference",
+        "label": "USGS, Topographic map symbol sheet FAQ",
+        "url": "https://www.usgs.gov/faqs/where-can-i-find-a-topographic-map-symbol-sheet"
+      },
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional case, clues, and reasoning for this quiz."
+      }
+    ],
+    "note": "All place names and dated layer details are fictional. Text cards provide the complete map evidence; no image recognition or current access assurance is required."
   }
 ]

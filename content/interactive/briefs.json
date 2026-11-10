@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 30,
+      "count": 31,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 30,
+      "count": 31,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 30,
+      "count": 31,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 30,
+      "count": 31,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 30,
+      "count": 31,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -6698,6 +6698,116 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-11-04",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MT-31",
+      "title": "The Lantern at Low Tide: Restore the Missing Reel",
+      "slug": "lantern-at-low-tide-restoration",
+      "kind": "knowledge",
+      "hook": "Reassemble a fictional silent short from complementary prints, titles, and a visible gap.",
+      "rounds": [
+        "3 tasks: Find the surviving elements",
+        "3 tasks: Build a defensible sequence",
+        "2 tasks: Label the restoration"
+      ],
+      "seed": "Which source supplies the missing departure image?",
+      "payoff": "The note names the elements, the inference, and the unresolved gap without claiming a complete original.",
+      "audience": "Curious general readers; playable without specialist equipment.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "All film, characters and archival elements in the case are fictional. Historical references explain preservation practices, not this invented film.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-11-10",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MU-31",
+      "title": "The Glass Armonica, Up Close",
+      "slug": "glass-armonica-discovery",
+      "kind": "hybrid",
+      "hook": "Discover Franklin’s rotating glass instrument, then choose how you would introduce it to an audience.",
+      "rounds": [
+        "3 tasks: Inside the rotating glass",
+        "2 tasks: In the concert room",
+        "3 tasks: Plan a short introduction"
+      ],
+      "seed": "Which physical detail distinguishes Franklin’s design from a row of individual musical glasses?",
+      "payoff": "Your choice sets how much sequence this exhibit supplies. Both routes include the same three stops.",
+      "audience": "Curious general readers; playable without specialist equipment.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "Text-only music history and a fictional program-planning exercise. The final three choices describe your plan for this exhibit.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "daily-2026-11-10",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "GT-31",
+      "title": "Bellmere Landing: One Place, Many Map Layers",
+      "slug": "bellmere-layered-map",
+      "kind": "knowledge",
+      "hook": "Build an honest walking-exhibit caption from a fictional place's dated imagery and map layers.",
+      "rounds": [
+        "3 tasks: Read one place",
+        "3 tasks: Compare layers and dates",
+        "2 tasks: Write the exhibit panel"
+      ],
+      "seed": "Which view best answers 'what does the 2022 roof look like from above?'",
+      "payoff": "This sentence separates visible imagery from later named layers and leaves current access to on-site verification.",
+      "audience": "Curious general readers; playable without specialist equipment.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "All place names and dated layer details are fictional. Text cards provide the complete map evidence; no image recognition or current access assurance is required.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-11-10",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SG-31",
+      "title": "Alder Park's First Disc Golf Hole",
+      "slug": "alder-park-first-disc-golf-hole",
+      "kind": "knowledge",
+      "hook": "Follow one fictional player's opening hole through the tee, lie, boundary, and basket under PDGA rules.",
+      "rounds": [
+        "3 tasks: Start from the tee",
+        "3 tasks: Read the boundary",
+        "2 tasks: Complete the hole"
+      ],
+      "seed": "At fictional Alder Park's first sanctioned hole, where does Nia begin?",
+      "payoff": "Rest in the tray after release satisfies PDGA 807; the narrative closes on an observable condition.",
+      "audience": "Curious general readers; playable without specialist equipment.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "Fictional park and player. Rule questions use the official PDGA online rules read on November 10, 2026; no score arithmetic or local rule is assumed.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-11-10",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "LW-31",
+      "title": "The Letterpress Proof's Hidden Object",
+      "slug": "letterpress-acrostic-proof",
+      "kind": "logic",
+      "hook": "Test a printer's acrostic instruction, repair a smudged clue, and reveal a hidden exhibit object.",
+      "rounds": [
+        "4 tasks: Read the proof",
+        "2 tasks: Test the evidence",
+        "2 tasks: Reveal and label"
+      ],
+      "seed": "The printer's note says 'read the first letter of each printed line.' What is the unit to inspect?",
+      "payoff": "The explicit note and numbered proof support the acrostic; the label keeps the local uncertainty visible.",
+      "audience": "Curious general readers; playable without specialist equipment.",
+      "evidence": "Evergreen editorial fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "Entire proof and exhibit are original fiction. Line labels, not screen wraps, determine the acrostic.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-11-10",
       "evidence_class": "evergreen"
     }
   ]
