@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-12",
+  "publishedNewQuizzes": 5,
+  "sourceCommit": "c64c96f6d2f83910e4320136372e22b8a5e94b5a",
+  "deploymentVersion": "e284f55b-482b-452d-a57d-7c8d1e975a58",
+  "deploymentId": "7a4291a2-45cf-4ce3-a69c-444dbc2b09ba",
+  "deployedAt": "2026-11-13T05:46:09.603917Z",
+  "quizzes": [
+    {
+      "id": "PC-33",
+      "slug": "borrowed-workshop",
+      "title": "The Borrowed Workshop",
+      "categoryId": "personality-choices"
+    },
+    {
+      "id": "FS-33",
+      "slug": "seed-swap-envelope-puzzle",
+      "title": "The Seed-Swap Envelope Puzzle",
+      "categoryId": "friends-social-play"
+    },
+    {
+      "id": "SN-33",
+      "slug": "winter-precipitation-detective",
+      "title": "Winter Precipitation Detective",
+      "categoryId": "science-nature"
+    },
+    {
+      "id": "HC-33",
+      "slug": "two-dates-one-postcard",
+      "title": "Two Dates on One Postcard",
+      "categoryId": "history-culture"
+    },
+    {
+      "id": "FE-33",
+      "slug": "after-market-tasting-counter",
+      "title": "Plan an After-Market Tasting Counter",
+      "categoryId": "food-everyday-life"
+    }
+  ],
+  "build": {
+    "packetSha256": "60252a9a13e2d3b7fc50c1f86dd4d2ab24ce14d40db5f675a427b095ab78e1ac",
+    "fullVerifyTests": 318,
+    "activeAnalyticsHtml": 1640,
+    "analyticsChunk": "_next/static/chunks/1fs15_p4xvvcb.js",
+    "sitemapURLs": 904,
+    "r2BundledAssetsStripped": true,
+    "dryRun": true
+  },
+  "mobile": {
+    "at": "2026-11-13T05:44:34.048Z",
+    "packetSha256": "60252a9a13e2d3b7fc50c1f86dd4d2ab24ce14d40db5f675a427b095ab78e1ac",
+    "results": [
+      {
+        "id": "FS-33",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "  - region \"Agreement\":",
+          "    - paragraph: 100%",
+          "    - paragraph: The 2 players gave identical answers on 8 of 8 comparable tasks. Private reflections are not compared. Players are anonymous. Your answers stay in this tab.",
+          "      - strong: Player 1",
+          "      - generic: · accuracy 100%",
+          "      - strong: Player 2",
+          "      - generic: · accuracy 100%",
+          "        - strong: \"Player 1:\"",
+          "        - strong: \"Player 2:\"",
+          "        - strong: \"Player 1:\"",
+          "        - strong: \"Player 2:\"",
+          "        - strong: \"Player 1:\"",
+          "        - strong: \"Player 2:\"",
+          "        - strong: \"Player 1:\"",
+          "        - strong: \"Player 2:\""
+        ]
+      },
+      {
+        "id": "PC-33",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "  - heading \"Your results\" [level=2]",
+          "  - region \"Your choices\":",
+          "    - heading \"Your choices\" [level=3]",
+          "    - 'img \"Leaned toward Watch a demonstration first: 43 on a 0 to 100 scale\"'",
+          "    - 'img \"Leaned toward Seek feedback while iterating: 61 on a 0 to 100 scale\"'"
+        ]
+      },
+      {
+        "id": "FE-33",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "  - region \"Your choices\":",
+          "    - heading \"Your choices\" [level=3]",
+          "    - 'img \"Leaned toward Visitor-chosen path: 61 on a 0 to 100 scale\"'",
+          "    - 'img \"Leaned toward Familiar pairings: 32 on a 0 to 100 scale\"'"
+        ]
+      },
+      {
+        "id": "SN-33",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "    - img \"TypologyQuiz\"",
+          "  - heading \"Your results\" [level=2]",
+          "    - paragraph: \"Accuracy on the 8 checkable tasks: 8 of 8 credit. Partly right answers earn partial credit. Preference and reflection tasks do not count toward accuracy.\"",
+          "    - img \"TypologyQuiz.com\""
+        ]
+      },
+      {
+        "id": "HC-33",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "    - img \"TypologyQuiz\"",
+          "  - heading \"Your results\" [level=2]",
+          "    - paragraph: \"Accuracy on the 8 checkable tasks: 8 of 8 credit. Partly right answers earn partial credit. Preference and reflection tasks do not count toward accuracy.\"",
+          "    - img \"TypologyQuiz.com\""
+        ]
+      }
+    ]
+  },
+  "live": {
+    "at": "2026-11-13T05:46:19.221107+00:00",
+    "sourceCommit": "c64c96f6d2f83910e4320136372e22b8a5e94b5a",
+    "verifiedNewQuizzes": 5,
+    "liveCollection": 320,
+    "sitemapURLs": 904,
+    "checks": [
+      {
+        "url": "https://typologyquiz.com/quizzes/borrowed-workshop/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "3383603e677603b6d88f54244f0c1d831ccd63a725de51a29214fab0a850e078"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/seed-swap-envelope-puzzle/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "36c6f6381754bf7fd7fadd23c82f911128914b5c6339cb63f76fb7acdda60baf"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/winter-precipitation-detective/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "aae05edcf93248f3fe69b96d243098cb8445ea35dba1e054119cb8fb72d313ae"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/two-dates-one-postcard/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "260ac49d9ede81e9edd64886c580a53fc332c47e24d5c87e9790f2611dd652bb"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/after-market-tasting-counter/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "672838f2c0abe72a41957d620b0fa9fedf41fa7c703d69150cac07913d88753c"
+      },
+      {
+        "url": "https://typologyquiz.com/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "fc763ca42d4309ccdc9830354b74cfde479db1b0a837dc31b86b1f8438b88b4d"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "1595e5b8d1c78b8dd1320654ba78e593fbacb5248a18095e828af1073fa14672"
+      },
+      {
+        "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "30551f32844bd7ec60b2ea0b08f435f8b24ee16acf56747f9f7943cae3ae3402"
+      },
+      {
+        "url": "https://typologyquiz.com/sitemap.xml",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "a415deb3a0c7d460ca3b6d15de579d70e377e672c1166184274cf6526eb84844"
+      },
+      {
+        "url": "https://typologyquiz.com/llms.txt",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "a44e46399333beb0871f34a700c409a5e6e4f422e99210c5df226ebfb623cb28"
+      },
+      {
+        "url": "https://typologyquiz.com/robots.txt",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+      },
+      {
+        "url": "https://typologyquiz.com/_next/static/chunks/1fs15_p4xvvcb.js",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "dc65716cb34da46603b690c78ae6b0ff1d5b200a36289930b06c829c3ec9fb22"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "b2d78af3e52d30a40776e73f95bedea7e17462a32af018013c6461f5f44e08b8"
+      },
+      {
+        "url": "https://typologyquiz.com/tests/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "6b9170ba3f750fc51c746c370ddf97b33fab8a8bc4321cff2da03bd9dedbb14e"
+      },
+      {
+        "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "72feab67c827f6398991064bd36041b7313b424a6818b273b2088dadd882a21a"
+      },
+      {
+        "url": "https://www.typologyquiz.com/quizzes/borrowed-workshop/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "2948562e58101cf0e49f259c452f14964c97034e5b678621428dd45d71737357"
+      }
+    ]
+  },
+  "r2": {
+    "url": "https://typologyquiz.com/handbook/britishcolumbia/railway-stop-then-proceed.png",
+    "status": 200,
+    "contentType": "image/png",
+    "cacheControl": "public, max-age=31536000, immutable",
+    "bundledHandbookAbsent": true,
+    "checkedAt": "2026-11-13T05:46:19.881833+00:00"
+  },
+  "analytics": {
+    "property": "545477353",
+    "event": "interactive_quiz_complete",
+    "quizId": "SN-33",
+    "count": 1,
+    "operatorQA": true,
+    "checkedAt": "2026-11-13T05:47:44.171607+00:00",
+    "surface": "GA4 Realtime, signed-in Chrome",
+    "quizUrl": "https://typologyquiz.com/quizzes/winter-precipitation-detective/",
+    "summary": "GA4 Realtime showed one interactive_quiz_complete event with quiz_id SN-33 after the production playthrough. This was operator QA."
+  }
+}
