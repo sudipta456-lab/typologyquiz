@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 32,
+      "count": 33,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 32,
+      "count": 33,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 32,
+      "count": 33,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 32,
+      "count": 33,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 32,
+      "count": 33,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -6808,6 +6808,113 @@
       "category": "Logic & Wordplay",
       "category_code": "LW",
       "wave": "daily-2026-11-10",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "PC-33",
+      "title": "The Borrowed Workshop",
+      "slug": "borrowed-workshop",
+      "kind": "preference",
+      "hook": "At a fictional drop-in craft workshop, decide how you would begin a new project and revise it.",
+      "rounds": [
+        "3 tasks: Get oriented",
+        "2 tasks: Make a first pass",
+        "3 tasks: Revise the piece"
+      ],
+      "seed": "The host begins a five-minute lantern demonstration. What do you do first?",
+      "payoff": "See your preferred way to begin and revise this one lantern.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "A fictional craft activity and descriptive preferences only; no claim about learning styles or aptitude.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-11-12",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FS-33",
+      "title": "The Seed-Swap Envelope Puzzle",
+      "slug": "seed-swap-envelope-puzzle",
+      "kind": "cooperative",
+      "hook": "Rebuild three mismatched fictional swap envelopes from printed records, then handle a missing clue fairly.",
+      "rounds": [
+        "4 tasks: Rebuild the envelopes",
+        "4 tasks: Decide what the desk can say"
+      ],
+      "seed": "Match each sealed packet code to its correct sleeve.",
+      "payoff": "Rebuild the sleeves and identify what the desk still cannot settle.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "All seeds and desk rules are fictional labels; this puzzle makes no horticultural claim.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-11-12",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-33",
+      "title": "Winter Precipitation Detective",
+      "slug": "winter-precipitation-detective",
+      "kind": "knowledge",
+      "hook": "Use simplified temperature layers and multiple ground clues to compare snow, sleet and freezing rain.",
+      "rounds": [
+        "4 tasks: Read the falling path",
+        "4 tasks: Weigh ground evidence"
+      ],
+      "seed": "A modeled particle remains frozen all the way to the ground. Which process best fits?",
+      "payoff": "Compare layer models with ground evidence without overclaiming.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "Fictional simplified cases for process reasoning, not a forecast or safety guide.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-11-12",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "HC-33",
+      "title": "Two Dates on One Postcard",
+      "slug": "two-dates-one-postcard",
+      "kind": "knowledge",
+      "hook": "Use three records to tell when a fictional postcard image was captured, when its edition was printed and when the copy was postmarked.",
+      "rounds": [
+        "4 tasks: Read the collection records",
+        "4 tasks: Test the claims"
+      ],
+      "seed": "Match each record to the event it dates directly.",
+      "payoff": "Separate capture, printing, postmark and mailing claims in collection labels.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "All collection items, dates and records are invented. Evidence supports only the claims stated in each case.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-11-12",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FE-33",
+      "title": "Plan an After-Market Tasting Counter",
+      "slug": "after-market-tasting-counter",
+      "kind": "preference",
+      "hook": "Plan how visitors at a fictional sample counter choose and compare small tastes.",
+      "rounds": [
+        "3 tasks: Welcome visitors",
+        "3 tasks: Build the comparison",
+        "2 tasks: Close the tasting"
+      ],
+      "seed": "How would visitors begin at the counter?",
+      "payoff": "See the visitor route and comparison style you planned.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "All samples, pairings and visitors are fictional. Results describe your counter plan, not nutritional value or taste quality.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-11-12",
       "evidence_class": "evergreen"
     }
   ]

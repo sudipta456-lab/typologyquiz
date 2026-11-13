@@ -10998,5 +10998,318 @@
         "description": "How closely the planned walk follows the optional photo card."
       }
     ]
+  },
+  {
+    "id": "PC-33",
+    "slug": "borrowed-workshop",
+    "categoryId": "personality-choices",
+    "title": "The Borrowed Workshop",
+    "description": "At a fictional drop-in craft workshop, decide how you would begin a new project and revise it.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "start",
+        "title": "Get oriented"
+      },
+      {
+        "id": "make",
+        "title": "Make a first pass"
+      },
+      {
+        "id": "revise",
+        "title": "Revise the piece"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scenario, rules, records and choices authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc33-1",
+        "sectionId": "start",
+        "kind": "choice",
+        "prompt": "The host begins a five-minute lantern demonstration. What do you do first?",
+        "context": "Original scenario: the borrowed workshop offers a simple paper-and-wire lantern. A host can demonstrate each step, materials are abundant, and every approach fits the session.",
+        "explanation": "Both are available starts. This choice weighs seeing the sequence against discovering it with your hands.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Watch the full demonstration, then start",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Take a scrap and try the first fold while watching",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc33-2",
+        "sectionId": "start",
+        "kind": "choice",
+        "prompt": "A new hinge fold is shown on a diagram. Which first move appeals more?",
+        "context": "Original scenario: the borrowed workshop offers a simple paper-and-wire lantern. A host can demonstrate each step, materials are abundant, and every approach fits the session.",
+        "explanation": "The diagram can guide a trial, or a trial can make the diagram easier to read; neither predicts skill.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Fold one scrap to see what happens",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Study the host’s hinge example before folding",
+            "weights": [
+              -2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc33-3",
+        "sectionId": "start",
+        "kind": "rank",
+        "prompt": "Rank these ways to meet the wire loop from most to least appealing.",
+        "context": "Original scenario: the borrowed workshop offers a simple paper-and-wire lantern. A host can demonstrate each step, materials are abundant, and every approach fits the session.",
+        "explanation": "Putting a method first expresses your preferred entry point for this step.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Try a loose loop and inspect it",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Watch the host make one complete loop",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Try after a quick glance at the example",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Watch a replay of the loop close-up",
+            "weights": [
+              -1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc33-4",
+        "sectionId": "make",
+        "kind": "choice",
+        "prompt": "Your first paper panel could be tested on a spare frame. What would you choose?",
+        "context": "Original scenario: the borrowed workshop offers a simple paper-and-wire lantern. A host can demonstrate each step, materials are abundant, and every approach fits the session.",
+        "explanation": "A small trial and an observed model offer different kinds of information in the same limited time.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Ask to see the model panel attached once",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Attach the spare panel and learn from how it hangs",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc33-5",
+        "sectionId": "make",
+        "kind": "choice",
+        "prompt": "The lantern tilts slightly. How would you make the next adjustment?",
+        "context": "Original scenario: the borrowed workshop offers a simple paper-and-wire lantern. A host can demonstrate each step, materials are abundant, and every approach fits the session.",
+        "explanation": "One path lets you compare your own attempts; the other brings another set of eyes to this specific tilt.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Ask a neighbor what they notice, then adjust",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Change one bend yourself and compare the result",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc33-6",
+        "sectionId": "revise",
+        "kind": "choice",
+        "prompt": "The host offers a short comment before the final fold. What suits you?",
+        "context": "Original scenario: the borrowed workshop offers a simple paper-and-wire lantern. A host can demonstrate each step, materials are abundant, and every approach fits the session.",
+        "explanation": "Either route can finish the lantern; the distinction is when another person enters your revision loop.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Make one more pass alone before inviting a comment",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Hear the comment now and use it in the next pass",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc33-7",
+        "sectionId": "revise",
+        "kind": "rank",
+        "prompt": "Rank these ways to use the remaining ten minutes.",
+        "context": "Original scenario: the borrowed workshop offers a simple paper-and-wire lantern. A host can demonstrate each step, materials are abundant, and every approach fits the session.",
+        "explanation": "Your ranking shows how much of this revision you would do alone versus with feedback.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Compare two of my own versions",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Ask the host to point out one useful change",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Trade observations with another maker",
+            "weights": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Quietly refine the current version",
+            "weights": [
+              0,
+              -1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc33-8",
+        "sectionId": "revise",
+        "kind": "choice",
+        "prompt": "The display table is ready, but you can make one final edit. What sounds best?",
+        "context": "Original scenario: the borrowed workshop offers a simple paper-and-wire lantern. A host can demonstrate each step, materials are abundant, and every approach fits the session.",
+        "explanation": "Both choices keep authorship with you; they differ in whether a peer’s observation enters the final edit.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Invite one precise observation, then decide",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Review the panel against my own sketch, then decide",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ]
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "entry",
+        "low": "Watch a demonstration first",
+        "high": "Try a small step first",
+        "description": "How you prefer to begin this one unfamiliar craft."
+      },
+      {
+        "id": "revision",
+        "low": "Iterate independently",
+        "high": "Seek feedback while iterating",
+        "description": "How you prefer to revise this one workshop piece."
+      }
+    ],
+    "note": "A fictional craft activity and descriptive preferences only; no claim about learning styles or aptitude."
   }
 ]

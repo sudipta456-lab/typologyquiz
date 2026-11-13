@@ -11863,5 +11863,328 @@
         ]
       }
     ]
+  },
+  {
+    "id": "FS-33",
+    "slug": "seed-swap-envelope-puzzle",
+    "categoryId": "friends-social-play",
+    "title": "The Seed-Swap Envelope Puzzle",
+    "description": "Rebuild three mismatched fictional swap envelopes from printed records, then handle a missing clue fairly.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "pass-and-play",
+    "sections": [
+      {
+        "id": "rebuild",
+        "title": "Rebuild the envelopes"
+      },
+      {
+        "id": "desk",
+        "title": "Decide what the desk can say"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scenario, rules, records and choices authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "fs33-1",
+        "sectionId": "rebuild",
+        "kind": "match",
+        "prompt": "Match each sealed packet code to its correct sleeve.",
+        "context": "Original fictional swap desk. Three sealed inner packets have codes P, Q, R and printed shapes: P=star, Q=ring, R=wave. The public ledger pairs star with the amber sleeve, ring with the blue sleeve, and wave with the green sleeve. A matching code and shape on the sealed inner packet are treated as reliable; loose outer sleeves may be mixed up. No packet is opened.",
+        "explanation": "The ledger maps each printed shape to one sleeve: P star to amber, Q ring to blue, R wave to green.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "P: star"
+          },
+          {
+            "id": "b",
+            "label": "Q: ring"
+          },
+          {
+            "id": "c",
+            "label": "R: wave"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Amber sleeve"
+          },
+          {
+            "id": "b",
+            "label": "Blue sleeve"
+          },
+          {
+            "id": "c",
+            "label": "Green sleeve"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "fs33-2",
+        "sectionId": "rebuild",
+        "kind": "choice",
+        "prompt": "A loose green sleeve currently surrounds packet P. Which record controls the repair?",
+        "context": "Original fictional swap desk. Three sealed inner packets have codes P, Q, R and printed shapes: P=star, Q=ring, R=wave. The public ledger pairs star with the amber sleeve, ring with the blue sleeve, and wave with the green sleeve. A matching code and shape on the sealed inner packet are treated as reliable; loose outer sleeves may be mixed up. No packet is opened.",
+        "explanation": "P carries a reliable star mark; the ledger pairs star with amber. A loose sleeve is the part known to be mixed.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep green because it is already around P"
+          },
+          {
+            "id": "b",
+            "label": "Use amber because P is star in the ledger"
+          },
+          {
+            "id": "c",
+            "label": "Open P to decide which sleeve looks right"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "fs33-3",
+        "sectionId": "rebuild",
+        "kind": "grid",
+        "prompt": "For each new desk note, choose the action supported by the records.",
+        "context": "Original fictional swap desk: star belongs in amber, ring in blue, and wave in green. A sealed shape is reliable; a loose sleeve may be mixed up. If the sealed shape is unreadable, leave the sleeve assignment unresolved. Notes: M has a sealed star inside amber; N has a sealed wave inside blue; U has an unreadable sealed mark inside green.",
+        "explanation": "M already matches its reliable mark. N must move to green. U cannot be assigned from an unreliable loose sleeve.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "m",
+            "label": "M: star in amber",
+            "options": [
+              {
+                "id": "a",
+                "label": "Keep amber"
+              },
+              {
+                "id": "b",
+                "label": "Move to green"
+              },
+              {
+                "id": "c",
+                "label": "Unresolved"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "n",
+            "label": "N: wave in blue",
+            "options": [
+              {
+                "id": "a",
+                "label": "Keep blue"
+              },
+              {
+                "id": "b",
+                "label": "Move to green"
+              },
+              {
+                "id": "c",
+                "label": "Unresolved"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "u",
+            "label": "U: unreadable mark in green",
+            "options": [
+              {
+                "id": "a",
+                "label": "Keep green as proven"
+              },
+              {
+                "id": "b",
+                "label": "Move to amber"
+              },
+              {
+                "id": "c",
+                "label": "Unresolved"
+              }
+            ],
+            "correct": "c"
+          }
+        ]
+      },
+      {
+        "id": "fs33-4",
+        "sectionId": "rebuild",
+        "kind": "order",
+        "prompt": "The display rule says sleeves sit left to right amber, blue, green. Order the sealed packets.",
+        "context": "Original fictional swap desk. Three sealed inner packets have codes P, Q, R and printed shapes: P=star, Q=ring, R=wave. The public ledger pairs star with the amber sleeve, ring with the blue sleeve, and wave with the green sleeve. A matching code and shape on the sealed inner packet are treated as reliable; loose outer sleeves may be mixed up. No packet is opened. The display order is based on corrected sleeves, not the sleeves found around packets.",
+        "explanation": "Amber belongs to P, blue to Q and green to R, so the display order is P, Q, R.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "R"
+          },
+          {
+            "id": "b",
+            "label": "P"
+          },
+          {
+            "id": "c",
+            "label": "Q"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "id": "fs33-5",
+        "sectionId": "desk",
+        "kind": "choice",
+        "prompt": "A fourth sealed packet S has a legible ring mark but sits in an amber sleeve. What should the team record?",
+        "context": "Original fictional swap desk. Three sealed inner packets have codes P, Q, R and printed shapes: P=star, Q=ring, R=wave. The public ledger pairs star with the amber sleeve, ring with the blue sleeve, and wave with the green sleeve. A matching code and shape on the sealed inner packet are treated as reliable; loose outer sleeves may be mixed up. No packet is opened. A new packet uses the same ledger; S has a reliable ring mark.",
+        "explanation": "The sealed ring mark points to blue. The amber sleeve is the unreliable part.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Move S to blue; note that the sleeve was mismatched"
+          },
+          {
+            "id": "b",
+            "label": "Keep amber; the sleeve overrules the sealed mark"
+          },
+          {
+            "id": "c",
+            "label": "Mark S as wave because green is unused"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "fs33-6",
+        "sectionId": "desk",
+        "kind": "match",
+        "prompt": "Match each record to what it can establish.",
+        "context": "Original fictional swap desk. Three sealed inner packets have codes P, Q, R and printed shapes: P=star, Q=ring, R=wave. The public ledger pairs star with the amber sleeve, ring with the blue sleeve, and wave with the green sleeve. A matching code and shape on the sealed inner packet are treated as reliable; loose outer sleeves may be mixed up. No packet is opened. Desk rule: a sealed shape plus the ledger establishes the matching sleeve; a loose sleeve alone establishes only its current position.",
+        "explanation": "The packet mark identifies the intended match, while a loose sleeve only describes where a packet was found.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "Sealed star on P plus ledger"
+          },
+          {
+            "id": "b",
+            "label": "Loose green sleeve around P"
+          },
+          {
+            "id": "c",
+            "label": "No legible sealed mark on a new packet"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "P belongs in amber"
+          },
+          {
+            "id": "b",
+            "label": "P was found inside green"
+          },
+          {
+            "id": "c",
+            "label": "Correct sleeve remains unresolved"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "fs33-7",
+        "sectionId": "desk",
+        "kind": "choice",
+        "prompt": "A fifth packet T has a smudged shape and a blue loose sleeve. What is the most defensible next step?",
+        "context": "Original fictional swap desk. Three sealed inner packets have codes P, Q, R and printed shapes: P=star, Q=ring, R=wave. The public ledger pairs star with the amber sleeve, ring with the blue sleeve, and wave with the green sleeve. A matching code and shape on the sealed inner packet are treated as reliable; loose outer sleeves may be mixed up. No packet is opened. Desk rule: do not infer a sealed mark from a loose sleeve; unresolved packets wait for a readable record.",
+        "explanation": "The blue sleeve is unreliable, and the sealed mark cannot be read. The team should hold the assignment.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Assign T to blue from the loose sleeve"
+          },
+          {
+            "id": "b",
+            "label": "Assign T to whichever color remains"
+          },
+          {
+            "id": "c",
+            "label": "Record T as unresolved until another reliable mark is found"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "fs33-8",
+        "sectionId": "desk",
+        "kind": "choice",
+        "prompt": "Two visitors both claim packet Q. The desk has no claimant record. What can the team settle now?",
+        "context": "Original fictional swap desk. Three sealed inner packets have codes P, Q, R and printed shapes: P=star, Q=ring, R=wave. The public ledger pairs star with the amber sleeve, ring with the blue sleeve, and wave with the green sleeve. A matching code and shape on the sealed inner packet are treated as reliable; loose outer sleeves may be mixed up. No packet is opened. Desk rule: packet-to-sleeve matching does not establish ownership. Ownership requires a separate claim record, which is absent.",
+        "explanation": "The mark and ledger settle Q’s blue sleeve, while neither visitor’s ownership follows from them.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The first visitor owns Q"
+          },
+          {
+            "id": "b",
+            "label": "Q belongs in blue; ownership remains unresolved"
+          },
+          {
+            "id": "c",
+            "label": "The visitor who carried a blue sleeve owns Q"
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "note": "All seeds and desk rules are fictional labels; this puzzle makes no horticultural claim."
   }
 ]

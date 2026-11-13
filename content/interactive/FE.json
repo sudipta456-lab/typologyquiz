@@ -12801,5 +12801,318 @@
         ]
       }
     ]
+  },
+  {
+    "id": "FE-33",
+    "slug": "after-market-tasting-counter",
+    "categoryId": "food-everyday-life",
+    "title": "Plan an After-Market Tasting Counter",
+    "description": "Plan how visitors at a fictional sample counter choose and compare small tastes.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "welcome",
+        "title": "Welcome visitors"
+      },
+      {
+        "id": "compare",
+        "title": "Build the comparison"
+      },
+      {
+        "id": "finish",
+        "title": "Close the tasting"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scenario, rules, records and choices authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "fe33-1",
+        "sectionId": "welcome",
+        "kind": "choice",
+        "prompt": "How would visitors begin at the counter?",
+        "context": "Original fictional after-market counter: four labeled sample cards are available: plain oat bite, citrus oat bite, mild herb cracker, and tart herb cracker. Visitors may try any offered sample; the task is to design how they encounter and compare them, with no claim about nutrition, safety or ideal flavor.",
+        "explanation": "Both layouts offer the same cards; one provides a route and the other lets visitors choose the starting point.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Offer a short two-sample guided flight",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Let each visitor choose a first card freely",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fe33-2",
+        "sectionId": "welcome",
+        "kind": "choice",
+        "prompt": "A visitor asks what to try after the plain oat bite. What counter sign would you write?",
+        "context": "Original fictional after-market counter: four labeled sample cards are available: plain oat bite, citrus oat bite, mild herb cracker, and tart herb cracker. Visitors may try any offered sample; the task is to design how they encounter and compare them, with no claim about nutrition, safety or ideal flavor.",
+        "explanation": "A suggested next stop structures the route; an open menu leaves the route to the visitor.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Choose any of the three remaining cards",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Next: citrus oat bite, then choose another",
+            "weights": [
+              -2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fe33-3",
+        "sectionId": "welcome",
+        "kind": "rank",
+        "prompt": "Rank these counter layouts from most to least appealing to run.",
+        "context": "Original fictional after-market counter: four labeled sample cards are available: plain oat bite, citrus oat bite, mild herb cracker, and tart herb cracker. Visitors may try any offered sample; the task is to design how they encounter and compare them, with no claim about nutrition, safety or ideal flavor.",
+        "explanation": "The ranking describes how tightly you would guide the sample route.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "A numbered three-card flight",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "An open tray with clear labels",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A suggested first pair, then open choice",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "d",
+            "label": "A host-led start and finish",
+            "weights": [
+              -1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fe33-4",
+        "sectionId": "compare",
+        "kind": "choice",
+        "prompt": "The counter can display one route card. Which version suits your plan?",
+        "context": "Original fictional after-market counter: four labeled sample cards are available: plain oat bite, citrus oat bite, mild herb cracker, and tart herb cracker. Visitors may try any offered sample; the task is to design how they encounter and compare them, with no claim about nutrition, safety or ideal flavor.",
+        "explanation": "Both show the same four samples; the difference is whether the visitor or the card sets the sequence.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "“Pick two cards in any order”",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "“Start with oat, then compare a cracker”",
+            "weights": [
+              -2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fe33-5",
+        "sectionId": "compare",
+        "kind": "choice",
+        "prompt": "Which two-card comparison would you place first?",
+        "context": "Original fictional after-market counter: four labeled sample cards are available: plain oat bite, citrus oat bite, mild herb cracker, and tart herb cracker. Visitors may try any offered sample; the task is to design how they encounter and compare them, with no claim about nutrition, safety or ideal flavor.",
+        "explanation": "A plain oat to citrus oat comparison keeps a shared base; oat to tart herb cracker changes more at once. Both can invite discussion.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Plain oat bite beside citrus oat bite",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Plain oat bite beside tart herb cracker",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fe33-6",
+        "sectionId": "compare",
+        "kind": "choice",
+        "prompt": "A visitor has just tried the mild herb cracker. Which comparison would you make most visible next?",
+        "context": "Original fictional after-market counter: four labeled sample cards are available: plain oat bite, citrus oat bite, mild herb cracker, and tart herb cracker. Visitors may try any offered sample; the task is to design how they encounter and compare them, with no claim about nutrition, safety or ideal flavor.",
+        "explanation": "The tart herb cracker shares a base with the mild cracker; citrus oat offers a larger contrast in this fictional menu.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Citrus oat bite across the counter",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Tart herb cracker beside it",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fe33-7",
+        "sectionId": "finish",
+        "kind": "rank",
+        "prompt": "Rank these final comparison cards from most to least useful for your counter.",
+        "context": "Original fictional after-market counter: four labeled sample cards are available: plain oat bite, citrus oat bite, mild herb cracker, and tart herb cracker. Visitors may try any offered sample; the task is to design how they encounter and compare them, with no claim about nutrition, safety or ideal flavor.",
+        "explanation": "The ranking reflects whether you prefer to close on a familiar relation or a sharper contrast.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Mild herb cracker beside tart herb cracker",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Plain oat bite beside tart herb cracker",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Plain oat bite beside citrus oat bite",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Citrus oat bite beside mild herb cracker",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fe33-8",
+        "sectionId": "finish",
+        "kind": "choice",
+        "prompt": "One closing card can invite a last comparison. What would you feature?",
+        "context": "Original fictional after-market counter: four labeled sample cards are available: plain oat bite, citrus oat bite, mild herb cracker, and tart herb cracker. Visitors may try any offered sample; the task is to design how they encounter and compare them, with no claim about nutrition, safety or ideal flavor.",
+        "explanation": "A shared oat base highlights a small change; the oat and herb pair highlights contrast.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Plain oat and citrus oat: notice the one change",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Citrus oat and tart herb cracker: notice the contrast",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "route",
+        "low": "Guided sample flight",
+        "high": "Visitor-chosen path",
+        "description": "How much of the fictional tasting route you would set in advance."
+      },
+      {
+        "id": "pairing",
+        "low": "Familiar pairings",
+        "high": "Contrasting pairings",
+        "description": "How much contrast you would place in the sample comparisons."
+      }
+    ],
+    "note": "All samples, pairings and visitors are fictional. Results describe your counter plan, not nutritional value or taste quality."
   }
 ]

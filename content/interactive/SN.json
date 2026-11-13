@@ -12413,5 +12413,323 @@
         ]
       }
     ]
+  },
+  {
+    "id": "SN-33",
+    "slug": "winter-precipitation-detective",
+    "categoryId": "science-nature",
+    "title": "Winter Precipitation Detective",
+    "description": "Use simplified temperature layers and multiple ground clues to compare snow, sleet and freezing rain.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "layers",
+        "title": "Read the falling path"
+      },
+      {
+        "id": "evidence",
+        "title": "Weigh ground evidence"
+      }
+    ],
+    "sources": [
+      {
+        "id": "nws-iwx",
+        "kind": "reference",
+        "label": "NWS Northern Indiana: sleet, freezing rain and snow",
+        "url": "https://www.weather.gov/iwx/sleetvsfreezingrain"
+      },
+      {
+        "id": "nws-ama",
+        "kind": "reference",
+        "label": "NWS Amarillo: winter precipitation types and vertical profiles",
+        "url": "https://www.weather.gov/ama/winterpreciptypes"
+      },
+      {
+        "id": "model",
+        "kind": "original",
+        "label": "Original simplified fictional layer models and observation logs."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sn33-1",
+        "sectionId": "layers",
+        "kind": "choice",
+        "prompt": "A modeled particle remains frozen all the way to the ground. Which process best fits?",
+        "context": "Fictional simplified model: ice crystals form in a cold cloud. A below-freezing path favors snow reaching the ground. A warm layer can melt crystals; a cold layer below can freeze the liquid in partly melted crystals, forming bouncing ice pellets (sleet). If liquid survives a shallow cold layer and freezes on contact with a cold surface, freezing rain is favored. These are case models, not universal thresholds.",
+        "explanation": "With no melting layer in this simplified path, snow remains the supported result.",
+        "sourceIds": [
+          "nws-iwx",
+          "nws-ama",
+          "model"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Sleet from refrozen drops"
+          },
+          {
+            "id": "b",
+            "label": "Snow surviving the descent"
+          },
+          {
+            "id": "c",
+            "label": "Freezing rain glazing contact surfaces"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "sn33-2",
+        "sectionId": "layers",
+        "kind": "match",
+        "prompt": "Match each modeled path to its likely ground form.",
+        "context": "Fictional simplified model: ice crystals form in a cold cloud. A below-freezing path favors snow reaching the ground. A warm layer can melt crystals; a cold layer below can freeze the liquid in partly melted crystals, forming bouncing ice pellets (sleet). If liquid survives a shallow cold layer and freezes on contact with a cold surface, freezing rain is favored. These are case models, not universal thresholds.",
+        "explanation": "The paths distinguish unmelted crystals, refrozen pellets and liquid that freezes on contact.",
+        "sourceIds": [
+          "nws-iwx",
+          "nws-ama",
+          "model"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "Cold path throughout"
+          },
+          {
+            "id": "b",
+            "label": "Partial melt, then enough cold air to refreeze"
+          },
+          {
+            "id": "c",
+            "label": "Complete melt, then only a brief cold layer"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Snow"
+          },
+          {
+            "id": "b",
+            "label": "Sleet"
+          },
+          {
+            "id": "c",
+            "label": "Freezing rain"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "sn33-3",
+        "sectionId": "layers",
+        "kind": "choice",
+        "prompt": "The modeled warm layer partly melts falling ice crystals. What would favor sleet before they reach the ground?",
+        "context": "Fictional simplified model: ice crystals form in a cold cloud. A below-freezing path favors snow reaching the ground. A warm layer can melt crystals; a cold layer below can freeze the liquid in partly melted crystals, forming bouncing ice pellets (sleet). If liquid survives a shallow cold layer and freezes on contact with a cold surface, freezing rain is favored. These are case models, not universal thresholds.",
+        "explanation": "In this model, the cold layer freezes the liquid part of the crystals before they land, forming ice pellets. Freezing rain reaches the surface as liquid drops and freezes on contact.",
+        "sourceIds": [
+          "nws-iwx",
+          "nws-ama",
+          "model"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A lower cold layer that freezes the liquid in the partly melted crystals"
+          },
+          {
+            "id": "b",
+            "label": "Whether the sky appears gray"
+          },
+          {
+            "id": "c",
+            "label": "Whether the surface is painted"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "sn33-4",
+        "sectionId": "layers",
+        "kind": "order",
+        "prompt": "Order the process in the fictional sleet path from cloud to ground.",
+        "context": "Fictional simplified model: ice crystals form in a cold cloud. A below-freezing path favors snow reaching the ground. A warm layer can melt crystals; a cold layer below can freeze the liquid in partly melted crystals, forming bouncing ice pellets (sleet). If liquid survives a shallow cold layer and freezes on contact with a cold surface, freezing rain is favored. These are case models, not universal thresholds.",
+        "explanation": "In this modeled path, ice crystals form, partially melt, refreeze and arrive as pellets.",
+        "sourceIds": [
+          "nws-iwx",
+          "model"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Pellets reach the ground"
+          },
+          {
+            "id": "b",
+            "label": "Crystals form in the cold cloud"
+          },
+          {
+            "id": "c",
+            "label": "Slush refreezes in lower cold air"
+          },
+          {
+            "id": "d",
+            "label": "Crystals partly melt in warmer air"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "d",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "id": "sn33-5",
+        "sectionId": "evidence",
+        "kind": "choice",
+        "prompt": "At Station A, small hard pellets bounce on a tray; the model has warming aloft and a cold layer below. Which reading is strongest?",
+        "context": "Fictional simplified model: ice crystals form in a cold cloud. A below-freezing path favors snow reaching the ground. A warm layer can melt crystals; a cold layer below can freeze the liquid in partly melted crystals, forming bouncing ice pellets (sleet). If liquid survives a shallow cold layer and freezes on contact with a cold surface, freezing rain is favored. These are case models, not universal thresholds. Station A observations were made during the same short shower.",
+        "explanation": "Bouncing pellets plus the modeled refreezing path jointly support sleet; either clue alone is less decisive.",
+        "sourceIds": [
+          "nws-iwx",
+          "nws-ama",
+          "model"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Freezing rain, because any warm layer proves it"
+          },
+          {
+            "id": "b",
+            "label": "Snow, because the surface is cold"
+          },
+          {
+            "id": "c",
+            "label": "Sleet, supported by both pellets and the layer path"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "sn33-6",
+        "sectionId": "evidence",
+        "kind": "choice",
+        "prompt": "At Station B, drops arrive liquid and form a clear glaze on a below-freezing rail. The model shows a warm layer and only brief cold air near ground. What fits best?",
+        "context": "Fictional simplified model: ice crystals form in a cold cloud. A below-freezing path favors snow reaching the ground. A warm layer can melt crystals; a cold layer below can freeze the liquid in partly melted crystals, forming bouncing ice pellets (sleet). If liquid survives a shallow cold layer and freezes on contact with a cold surface, freezing rain is favored. These are case models, not universal thresholds. Station B records both impact and surface condition during the same shower.",
+        "explanation": "Liquid arrival and contact glaze agree with the modeled freezing-rain path.",
+        "sourceIds": [
+          "nws-iwx",
+          "nws-ama",
+          "model"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Freezing rain"
+          },
+          {
+            "id": "b",
+            "label": "Snow"
+          },
+          {
+            "id": "c",
+            "label": "Sleet"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "sn33-7",
+        "sectionId": "evidence",
+        "kind": "grid",
+        "prompt": "Read both fictional observation cards. Which type is best supported by each full card?",
+        "context": "Fictional simplified model: ice crystals form in a cold cloud. A below-freezing path favors snow reaching the ground. A warm layer can melt crystals; a cold layer below can freeze the liquid in partly melted crystals, forming bouncing ice pellets (sleet). If liquid survives a shallow cold layer and freezes on contact with a cold surface, freezing rain is favored. These are case models, not universal thresholds. Card C: intact flakes land on a dark board; modeled air stays below freezing. Card D: hard pellets bounce from a metal tray; modeled melt then refreeze path.",
+        "explanation": "The two cards combine observed form with a compatible modeled path.",
+        "sourceIds": [
+          "nws-iwx",
+          "nws-ama",
+          "model"
+        ],
+        "cells": [
+          {
+            "id": "c",
+            "label": "Card C",
+            "options": [
+              {
+                "id": "a",
+                "label": "Sleet"
+              },
+              {
+                "id": "b",
+                "label": "Snow"
+              },
+              {
+                "id": "c",
+                "label": "Freezing rain"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "d",
+            "label": "Card D",
+            "options": [
+              {
+                "id": "a",
+                "label": "Freezing rain"
+              },
+              {
+                "id": "b",
+                "label": "Snow"
+              },
+              {
+                "id": "c",
+                "label": "Sleet"
+              }
+            ],
+            "correct": "c"
+          }
+        ]
+      },
+      {
+        "id": "sn33-8",
+        "sectionId": "evidence",
+        "kind": "choice",
+        "prompt": "Station E has a glazed railing, but the precipitation stopped before anyone saw what fell. The modeled lower layer is uncertain. Which conclusion respects the evidence?",
+        "context": "Fictional simplified model: ice crystals form in a cold cloud. A below-freezing path favors snow reaching the ground. A warm layer can melt crystals; a cold layer below can freeze the liquid in partly melted crystals, forming bouncing ice pellets (sleet). If liquid survives a shallow cold layer and freezes on contact with a cold surface, freezing rain is favored. These are case models, not universal thresholds. Station E notes only the later glaze, with no observed falling form or reliable lower-layer profile.",
+        "explanation": "Glaze is a clue, but this record lacks enough simultaneous evidence to label the falling precipitation confidently.",
+        "sourceIds": [
+          "nws-iwx",
+          "nws-ama",
+          "model"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Sleet is certain because the rail is icy"
+          },
+          {
+            "id": "b",
+            "label": "The type is unresolved; seek an impact observation and a better layer profile"
+          },
+          {
+            "id": "c",
+            "label": "Snow is certain because the air is wintry"
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "note": "Fictional simplified cases for process reasoning, not a forecast or safety guide."
   }
 ]

@@ -12221,5 +12221,283 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HC-33",
+    "slug": "two-dates-one-postcard",
+    "categoryId": "history-culture",
+    "title": "Two Dates on One Postcard",
+    "description": "Use three records to tell when a fictional postcard image was captured, when its edition was printed and when the copy was postmarked.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "records",
+        "title": "Read the collection records"
+      },
+      {
+        "id": "claims",
+        "title": "Test the claims"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scenario, rules, records and choices authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "hc33-1",
+        "sectionId": "records",
+        "kind": "match",
+        "prompt": "Match each record to the event it dates directly.",
+        "context": "Original fictional Harrow Quay collection. Card A shows the ferry. Studio ledger: glass negative exposed in 1908. Printer ledger: 300 ferry cards printed in 1912. Card A bears a legible postmark dated 1915 and an undated handwritten greeting. Collection rule: a studio record dates capture, a printer record dates this edition, and the postmark dates postal processing of this copy; none alone dates the other events.",
+        "explanation": "Each record names a different event: capture, edition printing, or postal processing of this copy.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "1908 studio ledger"
+          },
+          {
+            "id": "b",
+            "label": "1912 printer ledger"
+          },
+          {
+            "id": "c",
+            "label": "1915 postmark"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Image capture"
+          },
+          {
+            "id": "b",
+            "label": "Card edition printed"
+          },
+          {
+            "id": "c",
+            "label": "This copy postmarked"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "hc33-2",
+        "sectionId": "records",
+        "kind": "choice",
+        "prompt": "A label says “Ferry postcard, 1908.” Which edit is most precise?",
+        "context": "Original fictional Harrow Quay collection. Card A shows the ferry. Studio ledger: glass negative exposed in 1908. Printer ledger: 300 ferry cards printed in 1912. Card A bears a legible postmark dated 1915 and an undated handwritten greeting. Collection rule: a studio record dates capture, a printer record dates this edition, and the postmark dates postal processing of this copy; none alone dates the other events.",
+        "explanation": "1908 applies to the image negative; the documented card edition was printed in 1912.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Ferry image captured 1908; this edition printed 1912"
+          },
+          {
+            "id": "b",
+            "label": "Card A mailed 1908"
+          },
+          {
+            "id": "c",
+            "label": "Ferry image and this edition both made 1908"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc33-3",
+        "sectionId": "records",
+        "kind": "order",
+        "prompt": "Order the documented events for Card A.",
+        "context": "Original fictional Harrow Quay collection. Card A shows the ferry. Studio ledger: glass negative exposed in 1908. Printer ledger: 300 ferry cards printed in 1912. Card A bears a legible postmark dated 1915 and an undated handwritten greeting. Collection rule: a studio record dates capture, a printer record dates this edition, and the postmark dates postal processing of this copy; none alone dates the other events.",
+        "explanation": "The ledgers and postmark establish 1908 capture, 1912 print and 1915 postmark.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "This copy postmarked"
+          },
+          {
+            "id": "b",
+            "label": "Image captured"
+          },
+          {
+            "id": "c",
+            "label": "Edition printed"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "id": "hc33-4",
+        "sectionId": "records",
+        "kind": "choice",
+        "prompt": "What does the undated greeting alone establish?",
+        "context": "Original fictional Harrow Quay collection. Card A shows the ferry. Studio ledger: glass negative exposed in 1908. Printer ledger: 300 ferry cards printed in 1912. Card A bears a legible postmark dated 1915 and an undated handwritten greeting. Collection rule: a studio record dates capture, a printer record dates this edition, and the postmark dates postal processing of this copy; none alone dates the other events.",
+        "explanation": "The greeting shows someone wrote on this copy, but it does not independently date capture, printing or mailing.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The ferry image was captured when the greeting was written"
+          },
+          {
+            "id": "b",
+            "label": "The greeting was written exactly in 1915"
+          },
+          {
+            "id": "c",
+            "label": "Someone wrote on this copy; its writing date is not fixed by the greeting"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "hc33-5",
+        "sectionId": "claims",
+        "kind": "choice",
+        "prompt": "Which claim about Card B is fully supported?",
+        "context": "Original fictional Harrow Quay collection. Card B shows a market arch. A studio register dates its negative to 1911; a printer invoice dates the first card edition to 1914. This copy has no postmark. A penciled “summer 1916” appears on its back, but the collection has no record identifying who wrote it or when. Collection rule: an unverified inscription is evidence of text on the object, not proof that mailing occurred.",
+        "explanation": "The studio register and invoice date capture and printing; the absent postmark leaves mailing unverified.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "It was mailed in summer 1916"
+          },
+          {
+            "id": "b",
+            "label": "Its image was captured in 1911 and first card edition printed in 1914"
+          },
+          {
+            "id": "c",
+            "label": "It was printed in 1911 because that is the image date"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "hc33-6",
+        "sectionId": "claims",
+        "kind": "grid",
+        "prompt": "Classify these two proposed labels by the stated records.",
+        "context": "Original fictional Harrow Quay collection. Card B shows a market arch. A studio register dates its negative to 1911; a printer invoice dates the first card edition to 1914. This copy has no postmark. A penciled “summer 1916” appears on its back, but the collection has no record identifying who wrote it or when. Collection rule: an unverified inscription is evidence of text on the object, not proof that mailing occurred.",
+        "explanation": "The register supports the capture date. The unverified pencil note does not establish a mailing date.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "capture",
+            "label": "“Image captured in 1911”",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported"
+              },
+              {
+                "id": "b",
+                "label": "Not established"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "mail",
+            "label": "“This copy was mailed in summer 1916”",
+            "options": [
+              {
+                "id": "a",
+                "label": "Supported"
+              },
+              {
+                "id": "b",
+                "label": "Not established"
+              }
+            ],
+            "correct": "b"
+          }
+        ]
+      },
+      {
+        "id": "hc33-7",
+        "sectionId": "claims",
+        "kind": "choice",
+        "prompt": "A visitor asks whether Card B existed as a card in 1912. What can the records show?",
+        "context": "Original fictional Harrow Quay collection. Card B shows a market arch. A studio register dates its negative to 1911; a printer invoice dates the first card edition to 1914. This copy has no postmark. A penciled “summer 1916” appears on its back, but the collection has no record identifying who wrote it or when. Collection rule: an unverified inscription is evidence of text on the object, not proof that mailing occurred.",
+        "explanation": "The documented first card printing is 1914. The older negative date does not make a 1912 card.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Yes; the 1911 negative proves a 1912 card"
+          },
+          {
+            "id": "b",
+            "label": "The evidence documents a 1914 first edition, not a 1912 card"
+          },
+          {
+            "id": "c",
+            "label": "Yes; the pencil note confirms it"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "hc33-8",
+        "sectionId": "claims",
+        "kind": "choice",
+        "prompt": "The collection needs one combined caption for Cards A and B. Which stays within the evidence?",
+        "context": "Original fictional Harrow Quay collection. Card A shows the ferry. Studio ledger: glass negative exposed in 1908. Printer ledger: 300 ferry cards printed in 1912. Card A bears a legible postmark dated 1915 and an undated handwritten greeting. Collection rule: a studio record dates capture, a printer record dates this edition, and the postmark dates postal processing of this copy; none alone dates the other events. Original fictional Harrow Quay collection. Card B shows a market arch. A studio register dates its negative to 1911; a printer invoice dates the first card edition to 1914. This copy has no postmark. A penciled “summer 1916” appears on its back, but the collection has no record identifying who wrote it or when. Collection rule: an unverified inscription is evidence of text on the object, not proof that mailing occurred.",
+        "explanation": "The caption separates capture, printing and postal processing, and avoids turning Card B’s inscription into a postmark.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A: captured 1908, printed 1912, postmarked 1915; B: captured 1911, printed 1914, mailing unverified"
+          },
+          {
+            "id": "b",
+            "label": "Both cards mailed in 1915 because A has a postmark"
+          },
+          {
+            "id": "c",
+            "label": "Both cards were printed when their negatives were exposed"
+          }
+        ],
+        "correct": "a"
+      }
+    ],
+    "note": "All collection items, dates and records are invented. Evidence supports only the claims stated in each case."
   }
 ]
