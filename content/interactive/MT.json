@@ -11571,5 +11571,333 @@
       }
     ],
     "note": "All film, characters and archival elements in the case are fictional. Historical references explain preservation practices, not this invented film."
+  },
+  {
+    "id": "MT-32",
+    "slug": "one-night-microcinema",
+    "categoryId": "movies-tv",
+    "title": "Program a One-Night Microcinema",
+    "description": "Curate one fictional short-film evening: choose when the story becomes clear and how closely the films connect.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "opening",
+        "title": "Open the room"
+      },
+      {
+        "id": "middle",
+        "title": "Shape the interval"
+      },
+      {
+        "id": "ending",
+        "title": "Leave a last impression"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional cases, cards, rules and diagrams authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "mt32-1",
+        "sectionId": "opening",
+        "kind": "choice",
+        "prompt": "Which film would you open with for this walk-in crowd?",
+        "context": "Fictional cards: Doorbell (4 min) opens with a caretaker stating that a lost key must reach its owner; Night Window (5 min) reveals only at the end why a watcher counts lit rooms; Paper Tide (6 min) follows a mapmaker openly trying to return a borrowed chart; Orchard Signal (5 min) ends by revealing the source of a strange radio call. Doorbell and Paper Tide share a return-home theme. Night Window and Orchard Signal form a mystery pair. All four have prepared captions and fit the room; choose for storytelling, not access.",
+        "explanation": "The first hides its reason until late; the second states its errand at once. Both work for an arriving audience.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Night Window: invite curiosity before the reason is known",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Doorbell: name the key errand immediately",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mt32-2",
+        "sectionId": "opening",
+        "kind": "choice",
+        "prompt": "The host has one sentence before the first film. What would you put in it?",
+        "context": "Fictional cards: Doorbell (4 min) opens with a caretaker stating that a lost key must reach its owner; Night Window (5 min) reveals only at the end why a watcher counts lit rooms; Paper Tide (6 min) follows a mapmaker openly trying to return a borrowed chart; Orchard Signal (5 min) ends by revealing the source of a strange radio call. Doorbell and Paper Tide share a return-home theme. Night Window and Orchard Signal form a mystery pair. All four have prepared captions and fit the room; choose for storytelling, not access.",
+        "explanation": "The first gives a direct entry; the second deliberately leaves the opening question alive.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Name Doorbell’s lost-key errand up front",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Offer only “Watch what gets returned” before Night Window",
+            "weights": [
+              -2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mt32-3",
+        "sectionId": "opening",
+        "kind": "rank",
+        "prompt": "Rank these two-film openings by how much you would like to screen them.",
+        "context": "Fictional cards: Doorbell (4 min) opens with a caretaker stating that a lost key must reach its owner; Night Window (5 min) reveals only at the end why a watcher counts lit rooms; Paper Tide (6 min) follows a mapmaker openly trying to return a borrowed chart; Orchard Signal (5 min) ends by revealing the source of a strange radio call. Doorbell and Paper Tide share a return-home theme. Night Window and Orchard Signal form a mystery pair. All four have prepared captions and fit the room; choose for storytelling, not access.",
+        "explanation": "The ranking weighs both timing of information and whether the neighboring cards share a theme.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Doorbell then Paper Tide: two explicit return journeys",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Night Window then Orchard Signal: linked mysteries that explain themselves late",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Doorbell then Night Window: an announced errand followed by a hidden motive",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Orchard Signal then Paper Tide: late reveal followed by an explicit quest",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mt32-4",
+        "sectionId": "middle",
+        "kind": "choice",
+        "prompt": "Which film would you pair with Doorbell?",
+        "context": "Fictional cards: Doorbell (4 min) opens with a caretaker stating that a lost key must reach its owner; Night Window (5 min) reveals only at the end why a watcher counts lit rooms; Paper Tide (6 min) follows a mapmaker openly trying to return a borrowed chart; Orchard Signal (5 min) ends by revealing the source of a strange radio call. Doorbell and Paper Tide share a return-home theme. Night Window and Orchard Signal form a mystery pair. All four have prepared captions and fit the room; choose for storytelling, not access.",
+        "explanation": "Night Window changes both premise timing and subject; Paper Tide sustains the return-home thread. Either pairing is a separate program option.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Night Window: move from a stated errand to an uncertain watcher",
+            "weights": [
+              -1,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Paper Tide: follow one return journey with another",
+            "weights": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mt32-5",
+        "sectionId": "middle",
+        "kind": "choice",
+        "prompt": "For a possible interval discussion, which question would you print?",
+        "context": "Fictional cards: Doorbell (4 min) opens with a caretaker stating that a lost key must reach its owner; Night Window (5 min) reveals only at the end why a watcher counts lit rooms; Paper Tide (6 min) follows a mapmaker openly trying to return a borrowed chart; Orchard Signal (5 min) ends by revealing the source of a strange radio call. Doorbell and Paper Tide share a return-home theme. Night Window and Orchard Signal form a mystery pair. All four have prepared captions and fit the room; choose for storytelling, not access.",
+        "explanation": "One prompt connects Doorbell and Paper Tide through their return journeys; the other compares an announced errand with a late radio answer. These are alternative program plans.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "“How did each return journey change its traveler?”",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "“What changed when a clear errand gave way to an unexplained signal?”",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mt32-6",
+        "sectionId": "middle",
+        "kind": "rank",
+        "prompt": "Rank these possible second-half plans for this room.",
+        "context": "Fictional cards: Doorbell (4 min) opens with a caretaker stating that a lost key must reach its owner; Night Window (5 min) reveals only at the end why a watcher counts lit rooms; Paper Tide (6 min) follows a mapmaker openly trying to return a borrowed chart; Orchard Signal (5 min) ends by revealing the source of a strange radio call. Doorbell and Paper Tide share a return-home theme. Night Window and Orchard Signal form a mystery pair. All four have prepared captions and fit the room; choose for storytelling, not access.",
+        "explanation": "Each possible plan combines clear or delayed premises with thematic continuity or contrast; no earlier screening choice is assumed.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Continue the return-home idea with Paper Tide, then introduce Doorbell directly",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Move from Night Window’s delayed answer to Orchard Signal’s delayed answer",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Put Doorbell’s explicit errand beside Orchard Signal’s late radio answer",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Put Paper Tide’s explicit quest beside Night Window’s late watcher answer",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mt32-7",
+        "sectionId": "ending",
+        "kind": "choice",
+        "prompt": "For a possible quiet ending, which closing card would you select?",
+        "context": "Fictional cards: Doorbell (4 min) opens with a caretaker stating that a lost key must reach its owner; Night Window (5 min) reveals only at the end why a watcher counts lit rooms; Paper Tide (6 min) follows a mapmaker openly trying to return a borrowed chart; Orchard Signal (5 min) ends by revealing the source of a strange radio call. Doorbell and Paper Tide share a return-home theme. Night Window and Orchard Signal form a mystery pair. All four have prepared captions and fit the room; choose for storytelling, not access. Both proposed closing films, Paper Tide and Night Window, are quiet in pace and sound; either can close this alternative program.",
+        "explanation": "Both cards are explicitly quiet endings in this fictional program. Paper Tide centers on an announced return quest; Night Window saves its motive until the close.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Paper Tide: an explicit chart-return quest closes the return thread",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Night Window: the watcher’s motive arrives only at the close",
+            "weights": [
+              -2,
+              -1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mt32-8",
+        "sectionId": "ending",
+        "kind": "rank",
+        "prompt": "Rank the four possible closing notes you might print on a program.",
+        "context": "Fictional cards: Doorbell (4 min) opens with a caretaker stating that a lost key must reach its owner; Night Window (5 min) reveals only at the end why a watcher counts lit rooms; Paper Tide (6 min) follows a mapmaker openly trying to return a borrowed chart; Orchard Signal (5 min) ends by revealing the source of a strange radio call. Doorbell and Paper Tide share a return-home theme. Night Window and Orchard Signal form a mystery pair. All four have prepared captions and fit the room; choose for storytelling, not access.",
+        "explanation": "The notes describe different entry timing and links between cards, with no correct program.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "“A return begins with a key and ends with a chart.”",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "“Two mysteries leave their answers until the last scene.”",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "“A stated quest gives way to a surprise signal.”",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "“A hidden watcher leads into a clear mapmaker’s task.”",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ]
+      }
+    ],
+    "note": "A fictional program and descriptive preferences only. Both axes are choices for this evening, not a test or a claim about film quality.",
+    "dimensions": [
+      {
+        "id": "entry",
+        "low": "Slow reveal",
+        "high": "Direct entry",
+        "description": "How soon you want a film or program premise to become clear."
+      },
+      {
+        "id": "relation",
+        "low": "Deliberate contrast",
+        "high": "Shared theme",
+        "description": "How closely you want neighboring films to speak to the same idea."
+      }
+    ]
   }
 ]

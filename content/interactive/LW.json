@@ -11497,5 +11497,302 @@
       }
     ],
     "note": "Entire proof and exhibit are original fiction. Line labels, not screen wraps, determine the acrostic."
+  },
+  {
+    "id": "LW-32",
+    "slug": "rebuild-torn-poster",
+    "categoryId": "logic-wordplay",
+    "title": "Rebuild a Torn Poster",
+    "description": "Rebuild a fictional torn poster whose repeated seam marks leave two orders until an independent text receipt resolves them.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "seams",
+        "title": "Read the surviving seams"
+      },
+      {
+        "id": "proof",
+        "title": "Test the reconstruction"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional cases, cards, rules and diagrams authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "lw32-1",
+        "sectionId": "seams",
+        "kind": "choice",
+        "prompt": "Which tagged strip belongs at the top?",
+        "context": "Original fictional poster, torn into four upright horizontal strips. Only the topmost edge and bottommost edge are plain; interior joins need matching star marks. Strip labels are inventory tags, not positions. The inventory lists, out of order: C has stars on both edges; A has a plain top and a star bottom; D has a star top and a plain bottom; B has stars on both edges. Only a plain edge may face outside.",
+        "explanation": "A is the only strip with a plain top. This anchors the first position but leaves B and C interchangeable by marks alone.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "C, because it has two stars"
+          },
+          {
+            "id": "b",
+            "label": "A, because its top edge is plain"
+          },
+          {
+            "id": "c",
+            "label": "D, because its bottom edge is plain"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "lw32-2",
+        "sectionId": "seams",
+        "kind": "match",
+        "prompt": "Match each partial edge note to what it establishes.",
+        "context": "Original fictional poster, torn into four upright horizontal strips. Only the topmost edge and bottommost edge are plain; interior joins need matching star marks. Strip labels are inventory tags, not positions. Edge notes: A has a plain top and star bottom; D has a star top and plain bottom; B and C each have a star top and star bottom. The marks alone allow either middle order. These are roles, not a completed strip order.",
+        "explanation": "A supplies the outer top, D supplies the outer bottom, and B has star marks at both interior edges. C has the same flexible interior pattern as B.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "A: plain top edge"
+          },
+          {
+            "id": "b",
+            "label": "D: plain bottom edge"
+          },
+          {
+            "id": "c",
+            "label": "B: star at top and bottom"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Outer bottom is anchored"
+          },
+          {
+            "id": "b",
+            "label": "Outer top is anchored"
+          },
+          {
+            "id": "c",
+            "label": "Can occupy either middle slot by marks alone"
+          }
+        ],
+        "pairs": {
+          "a": "b",
+          "b": "a",
+          "c": "c"
+        }
+      },
+      {
+        "id": "lw32-3",
+        "sectionId": "seams",
+        "kind": "choice",
+        "prompt": "Before reading any words, which orders survive the seam test?",
+        "context": "Original fictional poster, torn into four upright horizontal strips. Only the topmost edge and bottommost edge are plain; interior joins need matching star marks. Strip labels are inventory tags, not positions. Edge notes: A has a plain top and star bottom; D has a star top and plain bottom; B and C each have a star top and star bottom. The marks alone allow either middle order.",
+        "explanation": "A and D are fixed at the outside. B and C each have stars on both edges, so both A–B–C–D and A–C–B–D match every seam.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Both A–B–C–D and A–C–B–D"
+          },
+          {
+            "id": "b",
+            "label": "Only A–B–C–D"
+          },
+          {
+            "id": "c",
+            "label": "Any order, including D at the top"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "lw32-4",
+        "sectionId": "seams",
+        "kind": "order",
+        "prompt": "Try the same repeated-mark problem on a small printer’s test draft. Put its fragments in grammatical order.",
+        "context": "Separate fictional test draft: one plain-topped piece reads “Tonight we invite”; one plain-bottomed piece reads “to the hall.” Two middle pieces read “a chorus” and “to sing.” All their interior edges have the same star mark, so either middle order fits physically. Arrange the words into one grammatical invitation.",
+        "explanation": "The test sentence reads “Tonight we invite a chorus to sing to the hall.” Its repeated star marks do not decide the middle order; the words do.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "to the hall."
+          },
+          {
+            "id": "b",
+            "label": "Tonight we invite"
+          },
+          {
+            "id": "c",
+            "label": "a chorus"
+          },
+          {
+            "id": "d",
+            "label": "to sing"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "c",
+          "d",
+          "a"
+        ]
+      },
+      {
+        "id": "lw32-5",
+        "sectionId": "proof",
+        "kind": "choice",
+        "prompt": "Back at the torn poster, which clue decides whether B or C follows A?",
+        "context": "Original fictional poster, torn into four upright horizontal strips. Only the topmost edge and bottommost edge are plain; interior joins need matching star marks. Strip labels are inventory tags, not positions. Edge notes: A has a plain top and star bottom; D has a star top and plain bottom; B and C each have a star top and star bottom. The marks alone allow either middle order. Text receipt, copied independently from the poster: A “Tonight the doors open”; B “for a room of small stories”; C “that travel from shore”; D “to shore. Come listen.” Read top to bottom as one grammatical invitation.",
+        "explanation": "“Tonight the doors open for a room of small stories” continues the invitation. “Tonight the doors open that travel from shore” does not. The independent text receipt places B directly after A.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "“open for a room” makes B follow A; “open that travel” does not"
+          },
+          {
+            "id": "b",
+            "label": "B has a unique seam mark that C lacks"
+          },
+          {
+            "id": "c",
+            "label": "D has a plain bottom, so C must follow A"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "lw32-6",
+        "sectionId": "proof",
+        "kind": "grid",
+        "prompt": "Test three separate claims about the poster evidence.",
+        "context": "Original fictional poster, torn into four upright horizontal strips. Only the topmost edge and bottommost edge are plain; interior joins need matching star marks. Strip labels are inventory tags, not positions. Edge notes: A has a plain top and star bottom; D has a star top and plain bottom; B and C each have a star top and star bottom. The marks alone allow either middle order. Text receipt, copied independently from the poster: A “Tonight the doors open”; B “for a room of small stories”; C “that travel from shore”; D “to shore. Come listen.” Read top to bottom as one grammatical invitation.",
+        "explanation": "The repeated marks permit either middle order, while the copied wording rejects C directly after A and supports C before D.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "By seams alone, could A–C–B–D fit?",
+            "options": [
+              {
+                "id": "a",
+                "label": "Yes"
+              },
+              {
+                "id": "b",
+                "label": "No"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "Does “open that travel” make C a grammatical continuation after A?",
+            "options": [
+              {
+                "id": "a",
+                "label": "Yes"
+              },
+              {
+                "id": "b",
+                "label": "No"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "Does C followed by D read “from shore to shore”?",
+            "options": [
+              {
+                "id": "a",
+                "label": "No"
+              },
+              {
+                "id": "b",
+                "label": "Yes"
+              }
+            ],
+            "correct": "b"
+          }
+        ]
+      },
+      {
+        "id": "lw32-7",
+        "sectionId": "proof",
+        "kind": "choice",
+        "prompt": "Why does the main poster now have one supported order?",
+        "context": "Original fictional poster, torn into four upright horizontal strips. Only the topmost edge and bottommost edge are plain; interior joins need matching star marks. Strip labels are inventory tags, not positions. Edge notes: A has a plain top and star bottom; D has a star top and plain bottom; B and C each have a star top and star bottom. The marks alone allow either middle order. Text receipt, copied independently from the poster: A “Tonight the doors open”; B “for a room of small stories”; C “that travel from shore”; D “to shore. Come listen.” Read top to bottom as one grammatical invitation.",
+        "explanation": "Plain edges anchor A and D. Repeated stars leave B/C ambiguous, but the independent wording makes B follow A and C lead into D.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The strips can be rotated until every wording works"
+          },
+          {
+            "id": "b",
+            "label": "Outer edges anchor A and D; the text receipt resolves the B/C swap left open by repeated stars"
+          },
+          {
+            "id": "c",
+            "label": "The star marks alone force the middle order"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "lw32-8",
+        "sectionId": "proof",
+        "kind": "choice",
+        "prompt": "Which restored line preserves the poster’s supported wording?",
+        "context": "Original fictional poster, torn into four upright horizontal strips. Only the topmost edge and bottommost edge are plain; interior joins need matching star marks. Strip labels are inventory tags, not positions. Edge notes: A has a plain top and star bottom; D has a star top and plain bottom; B and C each have a star top and star bottom. The marks alone allow either middle order. Text receipt, copied independently from the poster: A “Tonight the doors open”; B “for a room of small stories”; C “that travel from shore”; D “to shore. Come listen.” Read top to bottom as one grammatical invitation.",
+        "explanation": "A–B–C–D yields the grammatical invitation. A–C–B–D fits the repeated seams but breaks the copied sentence.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "“Tonight the doors open for a room of small stories that travel from shore to shore. Come listen.”"
+          },
+          {
+            "id": "b",
+            "label": "“Tonight the doors open that travel from shore for a room of small stories to shore. Come listen.”"
+          },
+          {
+            "id": "c",
+            "label": "“that travel from shore for a room of small stories Tonight the doors open to shore. Come listen.”"
+          }
+        ],
+        "correct": "a"
+      }
+    ],
+    "note": "All poster text and marks are original. Strips stay upright; every visual clue has a text equivalent. The printer’s test draft in task 4 is a separate short case."
   }
 ]

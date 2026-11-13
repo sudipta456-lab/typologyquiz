@@ -11511,5 +11511,325 @@
       }
     ],
     "note": "Fictional park and player. Rule questions use the official PDGA online rules read on November 10, 2026; no score arithmetic or local rule is assumed."
+  },
+  {
+    "id": "SG-32",
+    "slug": "pickleball-first-three-shots",
+    "categoryId": "sports-games",
+    "title": "Pickleball: The First Three Shots",
+    "description": "Follow named standard-play rallies through the return, first volley and kitchen line calls.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "bounces",
+        "title": "The first two bounces"
+      },
+      {
+        "id": "kitchen",
+        "title": "At the kitchen line"
+      },
+      {
+        "id": "call",
+        "title": "Complete the call"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional cases, cards, rules and diagrams authored for this quiz."
+      },
+      {
+        "id": "usap-summary",
+        "kind": "reference",
+        "label": "USA Pickleball, Pickleball Rules Summary (current 2026)",
+        "url": "https://usapickleball.org/rules/summary/"
+      },
+      {
+        "id": "usap-2026",
+        "kind": "reference",
+        "label": "USA Pickleball, 2026 Official Rulebook",
+        "url": "https://usapickleball.org/docs/rules/USAP-Official-Rulebook.pdf"
+      }
+    ],
+    "questions": [
+      {
+        "id": "sg32-1",
+        "sectionId": "bounces",
+        "kind": "choice",
+        "prompt": "Bea strikes Ari’s serve before it bounces. What is the call?",
+        "context": "Standard standing pickleball play. Ari serves diagonally to Bea; the serve lands in the correct service court. No other fault occurs unless stated.",
+        "explanation": "The receiving team must let the served ball bounce before its first return.",
+        "sourceIds": [
+          "original",
+          "usap-summary",
+          "usap-2026"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Legal first return"
+          },
+          {
+            "id": "b",
+            "label": "Fault: receiving side must allow the serve to bounce"
+          },
+          {
+            "id": "c",
+            "label": "Replay because the ball is still live"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "sg32-2",
+        "sectionId": "bounces",
+        "kind": "choice",
+        "prompt": "Bea lets the serve bounce and returns it. Ari volleys that return before it bounces on Ari’s side. What happens?",
+        "context": "Standard standing pickleball play. Ari serves diagonally to Bea; the serve lands in the correct service court. No other fault occurs unless stated.",
+        "explanation": "The serving side must also allow the return to bounce; Bea’s bounce alone does not finish the two-bounce rule.",
+        "sourceIds": [
+          "original",
+          "usap-summary",
+          "usap-2026"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Fault on Ari’s side"
+          },
+          {
+            "id": "b",
+            "label": "Legal because Bea already let one bounce occur"
+          },
+          {
+            "id": "c",
+            "label": "Only a kitchen fault if Ari is near the net"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "sg32-3",
+        "sectionId": "bounces",
+        "kind": "choice",
+        "prompt": "Bea lets the serve bounce; Ari lets Bea’s return bounce and hits it back. Bea is outside the non-volley zone. What may Bea do next?",
+        "context": "Standard standing pickleball play. Ari serves diagonally to Bea; the serve lands in the correct service court. No other fault occurs unless stated.",
+        "explanation": "Each side has now allowed one bounce, so ordinary volley or groundstroke options are available, subject to the other rules.",
+        "sourceIds": [
+          "original",
+          "usap-summary",
+          "usap-2026"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Must wait for a third bounce"
+          },
+          {
+            "id": "b",
+            "label": "May volley the incoming ball or play it after a bounce"
+          },
+          {
+            "id": "c",
+            "label": "Must enter the kitchen"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "sg32-4",
+        "sectionId": "kitchen",
+        "kind": "match",
+        "prompt": "Match each ball contact to its ruling.",
+        "context": "Standard standing pickleball play. Ari serves diagonally to Bea; the serve lands in the correct service court. No other fault occurs unless stated. In every card the ball lands as stated and no other fault occurs.",
+        "explanation": "The zone line makes a serve short, counts as in on an ordinary shot, and is part of the prohibited zone for a volleyer.",
+        "sourceIds": [
+          "original",
+          "usap-summary",
+          "usap-2026"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "Ari’s serve lands on the non-volley-zone line"
+          },
+          {
+            "id": "b",
+            "label": "After the two bounces, Bea’s groundstroke lands on the non-volley-zone line"
+          },
+          {
+            "id": "c",
+            "label": "After the two bounces, Bea volleys while one foot touches the non-volley-zone line"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Legal landing on a line"
+          },
+          {
+            "id": "b",
+            "label": "Fault: volleyer touches the zone line"
+          },
+          {
+            "id": "c",
+            "label": "Fault: serve is short"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "a",
+          "c": "b"
+        }
+      },
+      {
+        "id": "sg32-5",
+        "sectionId": "kitchen",
+        "kind": "choice",
+        "prompt": "After the two required bounces, Bea stands in the kitchen, lets the next ball bounce, then hits it after that bounce. What is the ruling?",
+        "context": "Standard standing pickleball play. Ari serves diagonally to Bea; the serve lands in the correct service court. No other fault occurs unless stated.",
+        "explanation": "The kitchen restriction concerns volleying. A player may stand there and hit a ball after it bounces.",
+        "sourceIds": [
+          "original",
+          "usap-summary",
+          "usap-2026"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Fault simply for standing in the kitchen"
+          },
+          {
+            "id": "b",
+            "label": "Legal groundstroke, assuming no other fault"
+          },
+          {
+            "id": "c",
+            "label": "Fault because the ball has bounced three times in the rally"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "sg32-6",
+        "sectionId": "kitchen",
+        "kind": "choice",
+        "prompt": "Bea volleys from outside the kitchen, but momentum carries Bea onto its line. The ball had already become dead before Bea touched the line. What is the call?",
+        "context": "Standard standing pickleball play. Ari serves diagonally to Bea; the serve lands in the correct service court. No other fault occurs unless stated.",
+        "explanation": "The momentum-related non-volley-zone fault can apply even after the volleyed ball becomes dead.",
+        "sourceIds": [
+          "original",
+          "usap-summary",
+          "usap-2026"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Fault on Bea’s volley"
+          },
+          {
+            "id": "b",
+            "label": "Legal because the ball was dead first"
+          },
+          {
+            "id": "c",
+            "label": "Replay because the foot landed after contact"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "sg32-7",
+        "sectionId": "call",
+        "kind": "grid",
+        "prompt": "Call each separate rally card.",
+        "context": "Standard standing pickleball play. Ari serves diagonally to Bea; the serve lands in the correct service court. No other fault occurs unless stated. Each card is independent; any unmentioned condition is legal.",
+        "explanation": "The return cannot be volleyed, the server may play the bounced return, and a kitchen groundstroke is permitted.",
+        "sourceIds": [
+          "original",
+          "usap-summary",
+          "usap-2026"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "Bea volleys the serve",
+            "options": [
+              {
+                "id": "a",
+                "label": "Fault"
+              },
+              {
+                "id": "b",
+                "label": "Legal"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "Ari waits for Bea’s return to bounce, then hits",
+            "options": [
+              {
+                "id": "a",
+                "label": "Fault"
+              },
+              {
+                "id": "b",
+                "label": "Legal"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "Bea hits after a bounce while standing in the kitchen",
+            "options": [
+              {
+                "id": "a",
+                "label": "Legal"
+              },
+              {
+                "id": "b",
+                "label": "Fault"
+              }
+            ],
+            "correct": "a"
+          }
+        ]
+      },
+      {
+        "id": "sg32-8",
+        "sectionId": "call",
+        "kind": "choice",
+        "prompt": "Which summary of Ari and Bea’s legal opening is accurate?",
+        "context": "Standard standing pickleball play. Ari serves diagonally to Bea; the serve lands in the correct service court. No other fault occurs unless stated. Bea lets the serve bounce and returns; Ari lets the return bounce and hits it. Both players then remain outside the kitchen.",
+        "explanation": "Once both required bounces have occurred, a player outside the zone may volley the next incoming shot.",
+        "sourceIds": [
+          "original",
+          "usap-summary",
+          "usap-2026"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Ari may volley Bea’s first return"
+          },
+          {
+            "id": "b",
+            "label": "Bea may volley the served ball if outside the kitchen"
+          },
+          {
+            "id": "c",
+            "label": "The next incoming shot may be volleyed by a player outside the kitchen"
+          }
+        ],
+        "correct": "c"
+      }
+    ],
+    "note": "Standard standing play under the 2026 USA Pickleball rules. Fictional players and rallies; no scorekeeping scenarios."
   }
 ]

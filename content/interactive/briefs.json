@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 31,
+      "count": 32,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 31,
+      "count": 32,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 31,
+      "count": 32,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 31,
+      "count": 32,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 31,
+      "count": 32,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -6915,6 +6915,115 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-11-12",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MT-32",
+      "title": "Program a One-Night Microcinema",
+      "slug": "one-night-microcinema",
+      "kind": "preference",
+      "hook": "Curate one fictional short-film evening: choose when the story becomes clear and how closely the films connect.",
+      "rounds": [
+        "3 tasks: Open the room",
+        "3 tasks: Shape the interval",
+        "2 tasks: Leave a last impression"
+      ],
+      "seed": "Which film would you open with for this walk-in crowd?",
+      "payoff": "See the direct-entry/slow-reveal and shared-theme/deliberate-contrast program you prefer.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "A fictional program and descriptive preferences only. Both axes are choices for this evening, not a test or a claim about film quality.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MU-32",
+      "title": "The Music Box With a Missing Note",
+      "slug": "music-box-missing-note",
+      "kind": "knowledge",
+      "hook": "Read a tiny fictional pin strip, find its missing column and explain what the paper record can establish.",
+      "rounds": [
+        "3 tasks: Read the toy strip",
+        "3 tasks: Test the missing column",
+        "2 tasks: State the diagnosis"
+      ],
+      "seed": "In this model, what sounds at column 2?",
+      "payoff": "Deduce the missing event from independent totals and state exactly what the paper clues establish.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "The A/B/C pin strip is invented. The Smithsonian record supports only the cataloged box details cited in task 7.",
+      "category": "Music & Audio",
+      "category_code": "MU",
+      "wave": "daily-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "GT-32",
+      "title": "The Station Across the Tracks",
+      "slug": "station-across-the-tracks",
+      "kind": "logic",
+      "hook": "Navigate a fictional plaza network where the closest platform by sight is not always the reachable entrance.",
+      "rounds": [
+        "3 tasks: Find the public links",
+        "3 tasks: Compare usable routes",
+        "2 tasks: Find the useful missing link"
+      ],
+      "seed": "From West Gate, which next node begins a public route to Station?",
+      "payoff": "Find the public route, explain why the visible station is a detour, and test a new crossing.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "All paths, distances, permissions and step-free labels belong to a fictional graph; this is spatial reasoning, not live travel or accessibility advice.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SG-32",
+      "title": "Pickleball: The First Three Shots",
+      "slug": "pickleball-first-three-shots",
+      "kind": "knowledge",
+      "hook": "Follow named standard-play rallies through the return, first volley and kitchen line calls.",
+      "rounds": [
+        "3 tasks: The first two bounces",
+        "3 tasks: At the kitchen line",
+        "2 tasks: Complete the call"
+      ],
+      "seed": "Bea strikes Ari’s serve before it bounces. What is the call?",
+      "payoff": "Call the first three shots and the kitchen cases with the 2026 rules.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "Standard standing play under the 2026 USA Pickleball rules. Fictional players and rallies; no scorekeeping scenarios.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "LW-32",
+      "title": "Rebuild a Torn Poster",
+      "slug": "rebuild-torn-poster",
+      "kind": "logic",
+      "hook": "Rebuild a fictional torn poster whose repeated seam marks leave two orders until an independent text receipt resolves them.",
+      "rounds": [
+        "4 tasks: Read the surviving seams",
+        "4 tasks: Test the reconstruction"
+      ],
+      "seed": "Which tagged strip belongs at the top?",
+      "payoff": "Distinguish seam-compatible orders, then use the text receipt to settle the middle-strip swap.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "All poster text and marks are original. Strips stay upright; every visual clue has a text equivalent. The printer’s test draft in task 4 is a separate short case.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-11-13",
       "evidence_class": "evergreen"
     }
   ]

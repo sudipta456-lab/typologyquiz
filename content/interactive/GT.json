@@ -12156,5 +12156,309 @@
       }
     ],
     "note": "All place names and dated layer details are fictional. Text cards provide the complete map evidence; no image recognition or current access assurance is required."
+  },
+  {
+    "id": "GT-32",
+    "slug": "station-across-the-tracks",
+    "categoryId": "geography-travel",
+    "title": "The Station Across the Tracks",
+    "description": "Navigate a fictional plaza network where the closest platform by sight is not always the reachable entrance.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "links",
+        "title": "Find the public links"
+      },
+      {
+        "id": "routes",
+        "title": "Compare usable routes"
+      },
+      {
+        "id": "improve",
+        "title": "Find the useful missing link"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional cases, cards, rules and diagrams authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "gt32-1",
+        "sectionId": "links",
+        "kind": "choice",
+        "prompt": "From West Gate, which next node begins a public route to Station?",
+        "context": "Fictional Alder Plaza: nodes are Library L, West Gate W, Bridge B, East Gate E, Station S, and Market M. Public two-way walking links (minutes) are L–W 2, W–B 3, B–E 3, E–S 2, L–M 4, M–E 5. Tracks separate W and S; there is no W–S crossing. Only the listed links exist.",
+        "explanation": "W connects to B, which leads to E and then S. Visual closeness across tracks creates no edge.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Station directly across the tracks"
+          },
+          {
+            "id": "b",
+            "label": "Bridge"
+          },
+          {
+            "id": "c",
+            "label": "An unlisted tunnel"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "gt32-2",
+        "sectionId": "links",
+        "kind": "match",
+        "prompt": "Match each stated route to the claim it supports.",
+        "context": "Fictional Alder Plaza: nodes are Library L, West Gate W, Bridge B, East Gate E, Station S, and Market M. Public two-way walking links (minutes) are L–W 2, W–B 3, B–E 3, E–S 2, L–M 4, M–E 5. Tracks separate W and S; there is no W–S crossing. Only the listed links exist.",
+        "explanation": "The first reaches S through B; the second through M; W–S is absent.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "L–W–B–E–S"
+          },
+          {
+            "id": "b",
+            "label": "L–M–E–S"
+          },
+          {
+            "id": "c",
+            "label": "L–W–S"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Uses the market link"
+          },
+          {
+            "id": "b",
+            "label": "Not a listed route"
+          },
+          {
+            "id": "c",
+            "label": "Uses the bridge link"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "a",
+          "c": "b"
+        }
+      },
+      {
+        "id": "gt32-3",
+        "sectionId": "links",
+        "kind": "choice",
+        "prompt": "Which is the shortest listed public route from Library to Station?",
+        "context": "Fictional Alder Plaza: nodes are Library L, West Gate W, Bridge B, East Gate E, Station S, and Market M. Public two-way walking links (minutes) are L–W 2, W–B 3, B–E 3, E–S 2, L–M 4, M–E 5. Tracks separate W and S; there is no W–S crossing. Only the listed links exist.",
+        "explanation": "The bridge route totals 2+3+3+2=10; the market route totals 4+5+2=11. W–S is not an edge.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "L–M–E–S (11 min)"
+          },
+          {
+            "id": "b",
+            "label": "L–W–B–E–S (10 min)"
+          },
+          {
+            "id": "c",
+            "label": "L–W–S (4 min)"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "gt32-4",
+        "sectionId": "routes",
+        "kind": "choice",
+        "prompt": "At 22:00, how can a walker reach Station from Library using listed links?",
+        "context": "Fictional Alder Plaza: nodes are Library L, West Gate W, Bridge B, East Gate E, Station S, and Market M. Public two-way walking links (minutes) are L–W 2, W–B 3, B–E 3, E–S 2, L–M 4, M–E 5. Tracks separate W and S; there is no W–S crossing. Only the listed links exist. The bridge B–E is open 07:00–21:00. At 22:00 it is closed; every other link remains open.",
+        "explanation": "At 22:00 the bridge link is unavailable; L–M–E–S remains connected.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Through Market and East Gate"
+          },
+          {
+            "id": "b",
+            "label": "Across W–S because the station is visible"
+          },
+          {
+            "id": "c",
+            "label": "Through the closed bridge"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "gt32-5",
+        "sectionId": "routes",
+        "kind": "grid",
+        "prompt": "Judge these route cards using the map labels.",
+        "context": "Fictional Alder Plaza: nodes are Library L, West Gate W, Bridge B, East Gate E, Station S, and Market M. Public two-way walking links (minutes) are L–W 2, W–B 3, B–E 3, E–S 2, L–M 4, M–E 5. Tracks separate W and S; there is no W–S crossing. Only the listed links exist. For this exercise, L–W, L–M, M–E and E–S are marked step-free. W–B has steps; B–E is step-free. These labels are complete only for this fictional map.",
+        "explanation": "The market route uses only step-free links, the bridge route includes W–B steps, and W–S does not exist.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "L–M–E–S",
+            "options": [
+              {
+                "id": "a",
+                "label": "Listed and step-free"
+              },
+              {
+                "id": "b",
+                "label": "Listed but has steps"
+              },
+              {
+                "id": "c",
+                "label": "Unlisted"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "L–W–B–E–S",
+            "options": [
+              {
+                "id": "a",
+                "label": "Unlisted"
+              },
+              {
+                "id": "b",
+                "label": "Listed but has steps"
+              },
+              {
+                "id": "c",
+                "label": "Listed and step-free"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "L–W–S",
+            "options": [
+              {
+                "id": "a",
+                "label": "Listed and step-free"
+              },
+              {
+                "id": "b",
+                "label": "Listed but has steps"
+              },
+              {
+                "id": "c",
+                "label": "Unlisted"
+              }
+            ],
+            "correct": "c"
+          }
+        ]
+      },
+      {
+        "id": "gt32-6",
+        "sectionId": "routes",
+        "kind": "choice",
+        "prompt": "A sign points straight toward S from W. Why can it mislead a walker?",
+        "context": "Fictional Alder Plaza: nodes are Library L, West Gate W, Bridge B, East Gate E, Station S, and Market M. Public two-way walking links (minutes) are L–W 2, W–B 3, B–E 3, E–S 2, L–M 4, M–E 5. Tracks separate W and S; there is no W–S crossing. Only the listed links exist.",
+        "explanation": "The graph has no crossing at W–S. An arrow toward the visible platform hides the actual entrance route.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The straight line crosses tracks without a public W–S link"
+          },
+          {
+            "id": "b",
+            "label": "Station S is farther from E than from W"
+          },
+          {
+            "id": "c",
+            "label": "The market is closed"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "gt32-7",
+        "sectionId": "improve",
+        "kind": "choice",
+        "prompt": "Which proposed link directly removes the across-the-tracks detour from W to S?",
+        "context": "Fictional Alder Plaza: nodes are Library L, West Gate W, Bridge B, East Gate E, Station S, and Market M. Public two-way walking links (minutes) are L–W 2, W–B 3, B–E 3, E–S 2, L–M 4, M–E 5. Tracks separate W and S; there is no W–S crossing. Only the listed links exist. Planners may add exactly one new public, step-free, two-way link. Candidate links and walking times: W–S 2, L–B 3, M–B 4. A W–S link would cross the tracks at a new public crossing; the other candidates do not.",
+        "explanation": "Only W–S creates a direct public crossing from West Gate to Station; the other additions still route W through other nodes.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "M–B"
+          },
+          {
+            "id": "b",
+            "label": "W–S"
+          },
+          {
+            "id": "c",
+            "label": "L–B"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "gt32-8",
+        "sectionId": "improve",
+        "kind": "choice",
+        "prompt": "Before the new link opens, what should a truthful sign at W tell visitors?",
+        "context": "Fictional Alder Plaza: nodes are Library L, West Gate W, Bridge B, East Gate E, Station S, and Market M. Public two-way walking links (minutes) are L–W 2, W–B 3, B–E 3, E–S 2, L–M 4, M–E 5. Tracks separate W and S; there is no W–S crossing. Only the listed links exist.",
+        "explanation": "A public route from W follows Bridge B and East Gate E; the route via L, M and E is public too. A straight line across the tracks is not a walkable link.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "“Station: cross here at W”"
+          },
+          {
+            "id": "b",
+            "label": "“Station is two minutes away on a straight line”"
+          },
+          {
+            "id": "c",
+            "label": "“Station entrance: follow B, then E”"
+          }
+        ],
+        "correct": "c"
+      }
+    ],
+    "note": "All paths, distances, permissions and step-free labels belong to a fictional graph; this is spatial reasoning, not live travel or accessibility advice."
   }
 ]

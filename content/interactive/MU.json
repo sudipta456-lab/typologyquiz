@@ -12113,5 +12113,326 @@
         "description": "How you would arrange this exhibit’s short visitor experience."
       }
     ]
+  },
+  {
+    "id": "MU-32",
+    "slug": "music-box-missing-note",
+    "categoryId": "music",
+    "title": "The Music Box With a Missing Note",
+    "description": "Use pin totals and row constraints to reconstruct a fictional strip, then separate a paper gap from a physical fault.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "read",
+        "title": "Read the toy strip"
+      },
+      {
+        "id": "repair",
+        "title": "Test the missing column"
+      },
+      {
+        "id": "conclude",
+        "title": "State the diagnosis"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional cases, cards, rules and diagrams authored for this quiz."
+      },
+      {
+        "id": "smithsonian",
+        "kind": "reference",
+        "label": "Smithsonian Institution, Cylinder Music Box, NMAH 606279",
+        "url": "https://www.si.edu/object/cylinder-music-box%3Anmah_606279"
+      }
+    ],
+    "questions": [
+      {
+        "id": "mu32-1",
+        "sectionId": "read",
+        "kind": "choice",
+        "prompt": "In this model, what sounds at column 2?",
+        "context": "Toy paper model, not a real artifact transcription: columns 1–4 play left to right; a pin in row A, B or C sounds that letter once in its column. Two pins in one column sound together. A blank column is silence. The surviving record says 1=A, 2=B+C, 3=?, 4=A+C.",
+        "explanation": "Column 2 has pins in both B and C rows, so both sound in the same column.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "B and C together"
+          },
+          {
+            "id": "b",
+            "label": "B, then C in separate columns"
+          },
+          {
+            "id": "c",
+            "label": "Silence"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "mu32-2",
+        "sectionId": "read",
+        "kind": "match",
+        "prompt": "Match each visible column to its sounding event.",
+        "context": "Toy paper model, not a real artifact transcription: columns 1–4 play left to right; a pin in row A, B or C sounds that letter once in its column. Two pins in one column sound together. A blank column is silence. The surviving record says 1=A, 2=B+C, 3=?, 4=A+C.",
+        "explanation": "The notation names simultaneous rows in one column; it does not set pitches or timing beyond the column order.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "Column 4: A+C"
+          },
+          {
+            "id": "b",
+            "label": "Column 1: A"
+          },
+          {
+            "id": "c",
+            "label": "Column 2: B+C"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "A alone"
+          },
+          {
+            "id": "b",
+            "label": "B and C together"
+          },
+          {
+            "id": "c",
+            "label": "A and C together"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "a",
+          "c": "b"
+        }
+      },
+      {
+        "id": "mu32-3",
+        "sectionId": "read",
+        "kind": "choice",
+        "prompt": "A listener writes “A; B+C; ?; A+C.” What does the question mark mean?",
+        "context": "Toy paper model, not a real artifact transcription: columns 1–4 play left to right; a pin in row A, B or C sounds that letter once in its column. Two pins in one column sound together. A blank column is silence. The surviving record says 1=A, 2=B+C, 3=?, 4=A+C.",
+        "explanation": "A missing mark in the paper record leaves column 3 unknown; it is not proof of silence.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The whole box has stopped"
+          },
+          {
+            "id": "b",
+            "label": "The paper record does not show column 3"
+          },
+          {
+            "id": "c",
+            "label": "Column 3 must be silent"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "mu32-4",
+        "sectionId": "repair",
+        "kind": "choice",
+        "prompt": "An inspector counted six pins across all four columns. How many pins must the missing column contain?",
+        "context": "Toy paper model, not a real artifact transcription: four columns play left to right; each pin in row A, B or C sounds that letter once in its column. Two pins sound together; a blank column is silence. The surviving strip reads 1=A, 2=B+C, 3=?, 4=A+C. The inspector counted six pins in the complete toy. The three legible columns show every one of their pins.",
+        "explanation": "The known columns contain 1+2+2=5 pins. Six in all leaves exactly one pin in column 3.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "None; it is silent"
+          },
+          {
+            "id": "b",
+            "label": "Two pins sounding together"
+          },
+          {
+            "id": "c",
+            "label": "One pin sounding alone"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "mu32-5",
+        "sectionId": "repair",
+        "kind": "grid",
+        "prompt": "For each separate damaged-pin case, choose the sound that remains.",
+        "context": "Toy paper model, not a real artifact transcription: four columns play left to right; each pin in row A, B or C sounds that letter once in its column. Two pins sound together; a blank column is silence. The surviving strip reads 1=A, 2=B+C, 3=?, 4=A+C. Treat each card independently: only the named pin is damaged, so it does not sound. Other pins remain. The missing paper mark at column 3 is a different issue.",
+        "explanation": "Removing C from column 2 leaves B; removing B there leaves C; removing C from column 4 leaves A. A changed sounding event is different from an unreadable paper column.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "Column 2: its C pin is damaged. What sounds?",
+            "options": [
+              {
+                "id": "a",
+                "label": "B alone"
+              },
+              {
+                "id": "b",
+                "label": "C alone"
+              },
+              {
+                "id": "c",
+                "label": "Silence"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "Column 2: its B pin is damaged. What sounds?",
+            "options": [
+              {
+                "id": "a",
+                "label": "B alone"
+              },
+              {
+                "id": "b",
+                "label": "C alone"
+              },
+              {
+                "id": "c",
+                "label": "Silence"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "Column 4: its C pin is damaged. What sounds?",
+            "options": [
+              {
+                "id": "a",
+                "label": "B alone"
+              },
+              {
+                "id": "b",
+                "label": "Silence"
+              },
+              {
+                "id": "c",
+                "label": "A alone"
+              }
+            ],
+            "correct": "c"
+          }
+        ]
+      },
+      {
+        "id": "mu32-6",
+        "sectionId": "repair",
+        "kind": "order",
+        "prompt": "Reconstruct the complete four-column sounding sequence.",
+        "context": "Toy paper model, not a real artifact transcription: four columns play left to right; each pin in row A, B or C sounds that letter once in its column. Two pins sound together; a blank column is silence. The surviving strip reads 1=A, 2=B+C, 3=?, 4=A+C. Independent inspection notes: six pins total; no A pin lies in the unreadable column; the C row has two pins total, already visible at columns 2 and 4. The legible columns and these totals are complete for this toy.",
+        "explanation": "Five pins appear in columns 1, 2 and 4, so column 3 has one. It cannot be A, and both C pins are already accounted for. Its single pin is B: A; B+C; B; A+C.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "A+C"
+          },
+          {
+            "id": "b",
+            "label": "B"
+          },
+          {
+            "id": "c",
+            "label": "A"
+          },
+          {
+            "id": "d",
+            "label": "B+C"
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "d",
+          "b",
+          "a"
+        ]
+      },
+      {
+        "id": "mu32-7",
+        "sectionId": "conclude",
+        "kind": "choice",
+        "prompt": "A display label calls the Smithsonian cylinder music box “the source of this four-column A/B/C tune.” Which edit is supported?",
+        "context": "The A/B/C strip is an invented teaching model. The Smithsonian catalog record nmah_606279 describes a historical cylinder music box with eight tunes and a 43-tooth comb; it does not identify this fictional four-column strip as one of its tunes.",
+        "explanation": "The Smithsonian record supports the object’s eight tunes and 43-tooth comb. It does not connect the invented A/B/C strip to that object.",
+        "sourceIds": [
+          "original",
+          "smithsonian"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Keep the claim because both involve a comb"
+          },
+          {
+            "id": "b",
+            "label": "Call the A/B/C strip an invented teaching model, separate from the cataloged box"
+          },
+          {
+            "id": "c",
+            "label": "Say the historical box has exactly four columns"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "mu32-8",
+        "sectionId": "conclude",
+        "kind": "choice",
+        "prompt": "What is the most precise final diagnosis of the paper gap?",
+        "context": "Toy paper model, not a real artifact transcription: four columns play left to right; each pin in row A, B or C sounds that letter once in its column. Two pins sound together; a blank column is silence. The surviving strip reads 1=A, 2=B+C, 3=?, 4=A+C. Independent inspection counted six pins total, found no A in column 3, and counted exactly two C pins, both already visible at columns 2 and 4. No physical playing mechanism was inspected. These are paper-model clues, not a recording of the Smithsonian object.",
+        "explanation": "The clues reconstruct one B pin in column 3 of this paper model. They do not show that a physical pin, tooth, or other mechanism is damaged.",
+        "sourceIds": [
+          "original",
+          "smithsonian"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Column 3 is B in this model; no physical fault has been established"
+          },
+          {
+            "id": "b",
+            "label": "A comb tooth is broken at B"
+          },
+          {
+            "id": "c",
+            "label": "Every cylinder box uses this A/B/C sequence"
+          }
+        ],
+        "correct": "a"
+      }
+    ],
+    "note": "The A/B/C pin strip is an invented paper model, not a transcription or repair guide for the Smithsonian object."
   }
 ]
