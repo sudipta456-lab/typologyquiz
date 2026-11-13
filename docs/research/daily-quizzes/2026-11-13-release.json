@@ -1,0 +1,305 @@
+{
+  "date": "2026-11-13",
+  "publishedNewQuizzes": 5,
+  "sourceCommit": "ca990a11e8c8ae734197aee341dc7879e0d0880e",
+  "deploymentVersion": "b7441a96-c2ab-40c8-9808-1cf3f1999df9",
+  "deploymentId": "f2aac60a-ec04-4d99-9697-97299de47fad",
+  "deployedAt": "2026-11-13T13:12:08.994071Z",
+  "quizzes": [
+    {
+      "id": "MT-32",
+      "slug": "one-night-microcinema",
+      "title": "Program a One-Night Microcinema",
+      "categoryId": "movies-tv"
+    },
+    {
+      "id": "MU-32",
+      "slug": "music-box-missing-note",
+      "title": "The Music Box With a Missing Note",
+      "categoryId": "music"
+    },
+    {
+      "id": "GT-32",
+      "slug": "station-across-the-tracks",
+      "title": "The Station Across the Tracks",
+      "categoryId": "geography-travel"
+    },
+    {
+      "id": "SG-32",
+      "slug": "pickleball-first-three-shots",
+      "title": "Pickleball: The First Three Shots",
+      "categoryId": "sports-games"
+    },
+    {
+      "id": "LW-32",
+      "slug": "rebuild-torn-poster",
+      "title": "Rebuild a Torn Poster",
+      "categoryId": "logic-wordplay"
+    }
+  ],
+  "build": {
+    "packetSha256": "26ca3e6c55d1030efc9b6c0b459c6847c5649c6dcd5f06c06a32a06c0cffb7db",
+    "fullVerifyTests": 318,
+    "activeAnalyticsHtml": 1645,
+    "analyticsChunk": "_next/static/chunks/3d_re7gci8usb.js",
+    "sitemapURLs": 909,
+    "r2BundledAssetsStripped": true,
+    "dryRun": true
+  },
+  "independentReview": "The first review held premature answer reveals in the music-box and poster puzzles, unclear film choices, and two map qualifications. Revisions introduced pin-count and row constraints, repeated poster seams plus independent wording, separate film program choices, and precise map labels. A second review confirmed these changes and the unchanged pickleball quiz, then flagged one film explanation that assumed an undisclosed ending. A fresh final review passed the sole wording correction and its matching answer-key reason, with the rest unchanged. USA Pickleball's current rules were independently checked. The reviewer verified Smithsonian object details from the official indexed record; the coordinator also read the official record via the web tool when direct shell retrieval returned 403.",
+  "mobile": {
+    "at": "2026-11-13T13:10:28.059Z",
+    "packetSha256": "26ca3e6c55d1030efc9b6c0b459c6847c5649c6dcd5f06c06a32a06c0cffb7db",
+    "resumeAfterTwoTasks": true,
+    "finalFilmReplay": true,
+    "otherFourIdenticalAcrossFinalCorrection": true,
+    "results": [
+      {
+        "id": "MT-32",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "    - generic: Slow reveal",
+          "    - generic: Direct entry",
+          "    - 'img \"Leaned toward Direct entry: 57 on a 0 to 100 scale\"'",
+          "      - strong: Leaned toward Direct entry.",
+          "    - generic: Deliberate contrast",
+          "    - generic: Shared theme",
+          "    - 'img \"Leaned toward Shared theme: 83 on a 0 to 100 scale\"'",
+          "      - strong: Leaned toward Shared theme.",
+          "  - region \"Share the quiz\":",
+          "    - heading \"Share the quiz\" [level=3]",
+          "    - button \"Copy link\"",
+          "    - button \"Share…\"",
+          "    - region \"Share on a network\":",
+          "      - heading \"Share on a network\" [level=3]",
+          "    - heading \"Download a share card\" [level=4]",
+          "    - button \"Download story · 1080 × 1920\"",
+          "    - button \"Download post · 1080 × 1080\""
+        ]
+      },
+      {
+        "id": "MU-32",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "    - paragraph: 100%",
+          "    - paragraph: \"Accuracy on the 8 checkable tasks: 8 of 8 credit. Partly right answers earn partial credit. Preference and reflection tasks do not count toward accuracy.\"",
+          "  - region \"Share the quiz\":",
+          "    - heading \"Share the quiz\" [level=3]",
+          "    - button \"Copy link\"",
+          "    - button \"Share…\"",
+          "    - region \"Share on a network\":",
+          "      - heading \"Share on a network\" [level=3]",
+          "    - heading \"Download a share card\" [level=4]",
+          "    - button \"Download story · 1080 × 1920\"",
+          "    - button \"Download post · 1080 × 1080\""
+        ]
+      },
+      {
+        "id": "GT-32",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "    - paragraph: 100%",
+          "    - paragraph: \"Accuracy on the 8 checkable tasks: 8 of 8 credit. Partly right answers earn partial credit. Preference and reflection tasks do not count toward accuracy.\"",
+          "  - region \"Share the quiz\":",
+          "    - heading \"Share the quiz\" [level=3]",
+          "    - button \"Copy link\"",
+          "    - button \"Share…\"",
+          "    - region \"Share on a network\":",
+          "      - heading \"Share on a network\" [level=3]",
+          "    - heading \"Download a share card\" [level=4]",
+          "    - button \"Download story · 1080 × 1920\"",
+          "    - button \"Download post · 1080 × 1080\""
+        ]
+      },
+      {
+        "id": "SG-32",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "    - paragraph: 100%",
+          "    - paragraph: \"Accuracy on the 8 checkable tasks: 8 of 8 credit. Partly right answers earn partial credit. Preference and reflection tasks do not count toward accuracy.\"",
+          "  - region \"Share the quiz\":",
+          "    - heading \"Share the quiz\" [level=3]",
+          "    - button \"Copy link\"",
+          "    - button \"Share…\"",
+          "    - region \"Share on a network\":",
+          "      - heading \"Share on a network\" [level=3]",
+          "    - heading \"Download a share card\" [level=4]",
+          "    - button \"Download story · 1080 × 1920\"",
+          "    - button \"Download post · 1080 × 1080\""
+        ]
+      },
+      {
+        "id": "LW-32",
+        "viewport": {
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "outcome": [
+          "    - paragraph: 100%",
+          "    - paragraph: \"Accuracy on the 8 checkable tasks: 8 of 8 credit. Partly right answers earn partial credit. Preference and reflection tasks do not count toward accuracy.\"",
+          "  - region \"Share the quiz\":",
+          "    - heading \"Share the quiz\" [level=3]",
+          "    - button \"Copy link\"",
+          "    - button \"Share…\"",
+          "    - region \"Share on a network\":",
+          "      - heading \"Share on a network\" [level=3]",
+          "    - heading \"Download a share card\" [level=4]",
+          "    - button \"Download story · 1080 × 1920\"",
+          "    - button \"Download post · 1080 × 1080\""
+        ]
+      }
+    ]
+  },
+  "live": {
+    "at": "2026-11-13T13:12:25.585071+00:00",
+    "sourceCommit": "ca990a11e8c8ae734197aee341dc7879e0d0880e",
+    "verifiedNewQuizzes": 5,
+    "liveCollection": 325,
+    "sitemapURLs": 909,
+    "checks": [
+      {
+        "url": "https://typologyquiz.com/quizzes/one-night-microcinema/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "aabfc60bc93a97bf44e9d50520e114467992581364b63e2d4d8de29f89d925ee"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/music-box-missing-note/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "e2591c64c6baa1ec8de1e5e73f5f77f80477e699adcc8a5cbdb36c06d597da3e"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/station-across-the-tracks/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "06af7c4350d877ae6a81cc527d82482d33c3a70a06bc8968270a42598e3fdeef"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/pickleball-first-three-shots/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "7c86829209bdad7a5761908c464e9e299ea60bb33a12f9e81ed0272798044510"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/rebuild-torn-poster/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "bfa74ab5d58c48b8936fa551caac821b80884b161d519eeaebc1e4e779a167f4"
+      },
+      {
+        "url": "https://typologyquiz.com/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "05da89a4d4c24c05bb61704959735ea6b3c1d85a25fc95e7e9a07b8dc0c6ec82"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "d9de83142ba71d4dc9f3ebed589727f88b042eca0854fd01ca349928d53ca6f8"
+      },
+      {
+        "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "e5e1bff8164eb898510678753a19bad34e3a6360b106b2370753a9da6e828da1"
+      },
+      {
+        "url": "https://typologyquiz.com/sitemap.xml",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "6065239494fc2f4cf972de220e46660620963ed4df0d84059c6156eea001e96d"
+      },
+      {
+        "url": "https://typologyquiz.com/llms.txt",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "f13fa21eb77a0ce25ee98a2f124bc842a88001ae7f66f9c43a8f5ca4188ca43a"
+      },
+      {
+        "url": "https://typologyquiz.com/robots.txt",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+      },
+      {
+        "url": "https://typologyquiz.com/_next/static/chunks/3d_re7gci8usb.js",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": false,
+        "sha256": "39d36424d7d86313fc8b63d6516366fad64c9c954a9d1476b3e14f9604b24b00"
+      },
+      {
+        "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "3f6e22c0272a589158b081b757da410a6e4f18bf269a7093cd75a9df55a33aa0"
+      },
+      {
+        "url": "https://typologyquiz.com/tests/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "f3e5e22f8b5134be0bb6c7ece9156b490cd3b3cb7389b532f7987fd0afd030cb"
+      },
+      {
+        "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "3c11549f85f80aa6518f07f0b4889fa45998e34a07e2baf5a3d90557de8f19f7"
+      },
+      {
+        "url": "https://www.typologyquiz.com/quizzes/one-night-microcinema/",
+        "status": 200,
+        "matchesVerifiedExport": true,
+        "cloudflareAppendedBrowserCheck": true,
+        "sha256": "6713c648397362502d55abe471235c8eeb2496f473c1ffe7ba2259f5f789806a"
+      }
+    ]
+  },
+  "r2": {
+    "url": "https://typologyquiz.com/handbook/britishcolumbia/railway-stop-then-proceed.png",
+    "status": 200,
+    "contentType": "image/png",
+    "cacheControl": "public, max-age=31536000, immutable",
+    "bundledHandbookAbsent": true,
+    "checkedAt": "2026-11-13T13:12:21.615506+00:00"
+  },
+  "analytics": {
+    "property": "545477353",
+    "event": "interactive_quiz_complete",
+    "quizId": "SG-32",
+    "count": 1,
+    "operatorQA": true,
+    "checkedAt": "2026-11-13T13:13:28.862Z",
+    "surface": "GA4 Realtime, signed-in Chrome",
+    "quizUrl": "https://typologyquiz.com/quizzes/pickleball-first-three-shots/",
+    "summary": "GA4 Realtime showed one interactive_quiz_complete event with quiz_id SG-32 after the production playthrough. This was operator QA."
+  }
+}
