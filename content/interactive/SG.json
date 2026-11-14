@@ -11831,5 +11831,317 @@
       }
     ],
     "note": "Standard standing play under the 2026 USA Pickleball rules. Fictional players and rallies; no scorekeeping scenarios."
+  },
+  {
+    "id": "SG-33",
+    "slug": "build-a-safer-landing-course",
+    "categoryId": "sports-games",
+    "title": "Choose the High-Scoring Course",
+    "description": "Work together to choose a toy-car course from invented trial records and a clear game score.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 7,
+    "note": "One shared answer set: two players can divide the clearly labeled A and B observation sets, read them aloud, and hand observations to one another before answering. All clues are visible on every task, so the puzzle is solo-solvable too; there are no hidden roles or per-task role assignments. The invented toy-course score is a game rule, not a real-world safety measure.",
+    "sections": [
+      {
+        "id": "rules",
+        "title": "Learn the game card"
+      },
+      {
+        "id": "trials",
+        "title": "Combine the trial notes"
+      },
+      {
+        "id": "choice",
+        "title": "Choose a course"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Invented toy-car trial records, game criteria, roles and rules authored for this quiz; not safety or sports-injury evidence."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sg33-1",
+        "sectionId": "rules",
+        "kind": "choice",
+        "prompt": "Which run earns the two game markers on the invented course card?",
+        "context": "Invented game card, not a real safety test: a toy car earns two markers only if it stops with its front axle inside the landing box and never touches either side rail. A box miss or any rail touch earns zero. Observation set A states the landing-box rule; set B states the rail rule. Share both visible observations before choosing.",
+        "explanation": "The score requires both conditions at once: stop in the marked box and avoid touching a rail. It is only the score for this fictional toy-car game.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "both",
+            "label": "Stops in the box and has no rail touch"
+          },
+          {
+            "id": "box",
+            "label": "Stops in the box even if it touches a rail"
+          },
+          {
+            "id": "rail",
+            "label": "Avoids the rails even if it misses the box"
+          }
+        ],
+        "correct": "both"
+      },
+      {
+        "id": "sg33-2",
+        "sectionId": "rules",
+        "kind": "match",
+        "prompt": "Join Player A's setup notes to Player B's fictional pass counts.",
+        "context": "Invented first-round records. Observation set A lists: Cedar = smooth-card lane, no foam; Dune = ridged-card lane, no foam; Elm = smooth-card lane, foam pad; Frost = ridged-card lane, foam pad. Set B counts game passes: Cedar 1 of 5; Dune 3 of 5; Elm 2 of 5; Frost 4 of 5. Same toy car and launch mark are printed on all four cards. Read and hand off both sets of notes; every record is visible.",
+        "explanation": "The setup names connect the two printed lists: find a setup in the lane-and-pad notes, then read the pass count with the same name. These invented counts describe only this game card, not real ramps or protection.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "cedar",
+            "label": "Cedar: smooth card, no foam"
+          },
+          {
+            "id": "dune",
+            "label": "Dune: ridged card, no foam"
+          },
+          {
+            "id": "elm",
+            "label": "Elm: smooth card, foam pad"
+          },
+          {
+            "id": "frost",
+            "label": "Frost: ridged card, foam pad"
+          }
+        ],
+        "right": [
+          {
+            "id": "one",
+            "label": "1 pass out of 5"
+          },
+          {
+            "id": "three",
+            "label": "3 passes out of 5"
+          },
+          {
+            "id": "two",
+            "label": "2 passes out of 5"
+          },
+          {
+            "id": "four",
+            "label": "4 passes out of 5"
+          }
+        ],
+        "pairs": {
+          "cedar": "one",
+          "dune": "three",
+          "elm": "two",
+          "frost": "four"
+        }
+      },
+      {
+        "id": "sg33-3",
+        "sectionId": "rules",
+        "kind": "choice",
+        "prompt": "What is the careful comparison supported by Player A and B's first-round notes?",
+        "context": "Use these invented paired counts: smooth card without foam 1/5, smooth card with foam 2/5; ridged card without foam 3/5, ridged card with foam 4/5. Observation set A gives the surface pairings; set B gives the pass counts. Both sets are printed; exchange observations before agreeing.",
+        "explanation": "In each listed surface pair, the foam version has one more pass in these fictional trials. This small game record does not prove a general result or a real-world safety effect.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "pattern",
+            "label": "Foam versions scored one more pass in both listed pairs"
+          },
+          {
+            "id": "universal",
+            "label": "Foam always makes every real landing safer"
+          },
+          {
+            "id": "surface",
+            "label": "Foam scored one fewer pass in both matched pairs"
+          }
+        ],
+        "correct": "pattern"
+      },
+      {
+        "id": "sg33-4",
+        "sectionId": "trials",
+        "kind": "grid",
+        "prompt": "Combine the stop notes and rail notes. How many game passes did each setup earn?",
+        "context": "New invented four-run records. Observation set A (stop notes): Kestrel K1 in box, K2 in box, K3 outside, K4 in box; Maple M1 in box, M2 in box, M3 in box, M4 in box. Set B (rail notes): K1 clear, K2 touched, K3 clear, K4 clear; M1 clear, M2 clear, M3 touched, M4 clear. Count a pass only when a run is both in the box and rail-clear. Share the two labeled logs; all run notes are visible.",
+        "explanation": "Kestrel passes K1 and K4, for two. Maple passes M1, M2, and M4; only M3 touched a rail, so Maple has three passing runs. Join the stop and rail notes by run label before counting.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "kestrel",
+            "label": "Kestrel",
+            "options": [
+              {
+                "id": "one",
+                "label": "1 pass"
+              },
+              {
+                "id": "two",
+                "label": "2 passes"
+              },
+              {
+                "id": "three",
+                "label": "3 passes"
+              }
+            ],
+            "correct": "two"
+          },
+          {
+            "id": "maple",
+            "label": "Maple",
+            "options": [
+              {
+                "id": "one",
+                "label": "1 pass"
+              },
+              {
+                "id": "two",
+                "label": "2 passes"
+              },
+              {
+                "id": "three",
+                "label": "3 passes"
+              }
+            ],
+            "correct": "three"
+          }
+        ]
+      },
+      {
+        "id": "sg33-5",
+        "sectionId": "trials",
+        "kind": "choice",
+        "prompt": "Can this second comparison isolate the foam pad's effect?",
+        "context": "Invented test card: Observation set A notes that Setup P used foam and started at launch mark 2; Setup Q had no foam and started at mark 1. Set B notes P scored 4/5 passes and Q scored 3/5. The card does not say which difference mattered. Hand off both notes before deciding.",
+        "explanation": "No. Both the pad and launch mark differ, so the fictional counts do not isolate which changed feature explains the one-pass difference.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "no",
+            "label": "No; the pad and launch mark both changed"
+          },
+          {
+            "id": "yes",
+            "label": "Yes; a larger pass count proves the pad alone caused it"
+          },
+          {
+            "id": "none",
+            "label": "No comparison is possible because pass counts cannot be compared"
+          }
+        ],
+        "correct": "no"
+      },
+      {
+        "id": "sg33-6",
+        "sectionId": "trials",
+        "kind": "order",
+        "prompt": "Put the shared-paper decision steps in a useful order for the next trial pair.",
+        "context": "Invented planning card: the team wants to compare pad versus no pad in the game. The toy car, launch mark, ramp surface and box rule can stay fixed, then box stops and rail touches can be recorded. Observation set A lists the fixed setup; set B lists result columns. All details are printed for anyone to check.",
+        "explanation": "Agree on the one feature to vary and the setup to hold steady, collect the separate observations, then join and compare the outcomes using the written pass rule.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "question",
+            "label": "Name the game question: pad or no pad"
+          },
+          {
+            "id": "hold",
+            "label": "Keep car, launch mark, surface and score rule fixed"
+          },
+          {
+            "id": "record",
+            "label": "Record box stops and rail touches"
+          },
+          {
+            "id": "compare",
+            "label": "Join notes and compare pass counts"
+          }
+        ],
+        "correctOrder": [
+          "question",
+          "hold",
+          "record",
+          "compare"
+        ]
+      },
+      {
+        "id": "sg33-7",
+        "sectionId": "choice",
+        "kind": "match",
+        "prompt": "Join the final-course stop list from Player A with the rail list from Player B. Which runs pass?",
+        "context": "New invented records: Observation set A says setup P stopped in the box on runs 1, 2, 3, 4 and missed on 5; setup Q stopped in the box on runs 1, 2, 3, 4 and missed on 5. Set B says P touched a rail on runs 2 and 4; Q touched a rail only on run 5. A pass needs both a box stop and no rail touch. Read both lists aloud and hand them over; all five run labels are shown.",
+        "explanation": "For P, only runs 1 and 3 meet both conditions. For Q, runs 1 through 4 meet both conditions. The lists must be joined by setup and run number.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "p",
+            "label": "Setup P"
+          },
+          {
+            "id": "q",
+            "label": "Setup Q"
+          }
+        ],
+        "right": [
+          {
+            "id": "two",
+            "label": "2 passing runs"
+          },
+          {
+            "id": "four",
+            "label": "4 passing runs"
+          }
+        ],
+        "pairs": {
+          "p": "two",
+          "q": "four"
+        }
+      },
+      {
+        "id": "sg33-8",
+        "sectionId": "choice",
+        "kind": "choice",
+        "prompt": "Which course reaches the team's stated three-pass game target?",
+        "context": "New final invented records. The team wants at least 3 of 5 passes. Observation set A (box log): Birch stopped in the box on runs 1–4 and missed on 5; Willow stopped in the box on runs 1, 2, 3, and 5, and missed on 4. Set B (rail log): Birch touched a rail only on run 2; Willow touched rails on runs 2, 3, and 5. A pass requires both a box stop and no rail touch. This is an invented game target, not a real-world safety standard. Share both logs before choosing.",
+        "explanation": "Birch passes runs 1, 3, and 4, for 3/5, so it meets the target. Willow passes only run 1, for 1/5. The choice follows the printed game rule and records only.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "birch",
+            "label": "Birch"
+          },
+          {
+            "id": "willow",
+            "label": "Willow"
+          },
+          {
+            "id": "neither",
+            "label": "Neither meets the target"
+          }
+        ],
+        "correct": "birch"
+      }
+    ]
   }
 ]

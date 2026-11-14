@@ -12499,5 +12499,336 @@
       }
     ],
     "note": "All collection items, dates and records are invented. Evidence supports only the claims stated in each case."
+  },
+  {
+    "id": "HC-34",
+    "slug": "the-museums-first-space-signal",
+    "categoryId": "history-culture",
+    "title": "The Museum’s Space-Signal Archive",
+    "description": "Audit an invented museum archive to separate direct receiver records from a relayed copy and to write an exhibit label no stronger than its sources.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "pass-and-play",
+    "note": "Anonymous pass-and-play gives each player the same complete eight-task list on separate turns and compares answers at the end. For a fair handoff, Lead One examines the launch and North Receiver records; Lead Two checks the East Receiver, relay and exhibit records. Both players see the full context for every task, answer all eight tasks, then compare; no clue is private or player-gated.",
+    "sections": [
+      {
+        "id": "records",
+        "title": "Read the archive"
+      },
+      {
+        "id": "claims",
+        "title": "Test exhibit claims"
+      },
+      {
+        "id": "label",
+        "title": "Write the careful caption"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Entirely invented mission archive, records, dates and museum rules authored for this quiz; no real historical claims."
+      }
+    ],
+    "questions": [
+      {
+        "id": "hc34-1",
+        "sectionId": "records",
+        "kind": "match",
+        "prompt": "Match each fictional record to what it directly documents.",
+        "context": "Original invented Lumen-4 archive. Launch manifest: vehicle departed on 2047-03-02. North Receiver raw sheet: its own antenna logged packet L4-01 on 2047-03-19 at 08:14. East Receiver raw sheet: a separate antenna logged the same packet at 08:16. Relay transcript: North's recorded audio was copied to a museum file at 08:21. Exhibit register: gallery opened in 2050; label revised in 2052. Archive rule: a raw receiver sheet records reception at that site; a relay transcript records a copied/retransmitted record; launch and exhibit records date their named events only.",
+        "explanation": "Each document has a limited job: launch, direct reception at a named receiver, a relay copy, or an exhibit event. The dates do not collapse into one event.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "launch",
+            "label": "Launch manifest"
+          },
+          {
+            "id": "north",
+            "label": "North Receiver raw sheet"
+          },
+          {
+            "id": "relay",
+            "label": "Relay transcript"
+          },
+          {
+            "id": "exhibit",
+            "label": "Exhibit register"
+          }
+        ],
+        "right": [
+          {
+            "id": "depart",
+            "label": "Vehicle departure"
+          },
+          {
+            "id": "receive",
+            "label": "Direct reception at North site"
+          },
+          {
+            "id": "copy",
+            "label": "Copied North audio in museum file"
+          },
+          {
+            "id": "gallery",
+            "label": "Gallery opening or label revision"
+          }
+        ],
+        "pairs": {
+          "launch": "depart",
+          "north": "receive",
+          "relay": "copy",
+          "exhibit": "gallery"
+        }
+      },
+      {
+        "id": "hc34-2",
+        "sectionId": "records",
+        "kind": "choice",
+        "prompt": "Which evidence best supports the label 'Two independent sites recorded packet L4-01' within this invented archive?",
+        "context": "Original invented Lumen-4 records: North Receiver raw sheet says its antenna logged packet L4-01 at 08:14 on 2047-03-19. East Receiver raw sheet says a separate antenna logged the same packet at 08:16. The 08:21 museum relay transcript is explicitly a copy of North's recording. Archive rule: raw sheets record reception at their named site; a relay copy is not a second independent receiver.",
+        "explanation": "The North and East raw sheets are separate site records. The later relay is derivative of North's recording and cannot stand in for the East record.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "North and East Receiver raw sheets"
+          },
+          {
+            "id": "b",
+            "label": "North raw sheet and its copied relay transcript"
+          },
+          {
+            "id": "c",
+            "label": "Launch manifest and gallery register"
+          },
+          {
+            "id": "d",
+            "label": "The revised exhibit label alone"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc34-3",
+        "sectionId": "records",
+        "kind": "grid",
+        "prompt": "Classify what each fictional source can support directly.",
+        "context": "Original invented Lumen-4 archive rule: the launch manifest dates vehicle departure; a North raw receiver sheet dates packet reception at North; a relay transcript records a copy of North audio; an exhibit register dates gallery events. A source does not automatically prove events outside its stated role.",
+        "explanation": "The archive assigns each record a direct scope. A relay proves the museum held a copy, not a second independent reception.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "north",
+            "label": "North raw sheet supports 'North recorded packet L4-01'",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported by this record"
+              },
+              {
+                "id": "no",
+                "label": "Not supported by this record"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "relay",
+            "label": "Relay transcript supports 'a second site independently received it'",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported by this record"
+              },
+              {
+                "id": "no",
+                "label": "Not supported by this record"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "exhibit",
+            "label": "Exhibit register supports 'gallery opened in 2050'",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported by this record"
+              },
+              {
+                "id": "no",
+                "label": "Not supported by this record"
+              }
+            ],
+            "correct": "yes"
+          }
+        ]
+      },
+      {
+        "id": "hc34-4",
+        "sectionId": "claims",
+        "kind": "choice",
+        "prompt": "A visitor asks whether the 2047 launch manifest proves the museum received the signal that day. What should the lead say?",
+        "context": "Original invented Lumen-4 archive: launch manifest dates departure to 2047-03-02. North Receiver's raw sheet logs packet L4-01 on 2047-03-19. Archive rule: a launch manifest dates departure; only a receiver's raw sheet documents reception at its site.",
+        "explanation": "The manifest establishes the departure date, not a later receiver event. The North raw sheet is the archive's direct record of reception at North.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Yes; a launch date is also the reception date"
+          },
+          {
+            "id": "b",
+            "label": "No; the manifest dates departure, while the North raw sheet records reception on its own date"
+          },
+          {
+            "id": "c",
+            "label": "Yes; every signal is received when a vehicle launches"
+          },
+          {
+            "id": "d",
+            "label": "The exhibit opening date proves the launch date was wrong"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "hc34-5",
+        "sectionId": "claims",
+        "kind": "order",
+        "prompt": "Order these dated events from earliest to latest.",
+        "context": "Original invented Lumen-4 archive: North Receiver logs the packet at 08:14 on 2047-03-19; East Receiver independently logs it at 08:16; the museum relay copies North's recording at 08:21. The exhibit register says the label was revised in 2052. The relay is a copy, not a third receiver log.",
+        "explanation": "The North and East sheets record separate receptions two minutes apart, then the relay makes a later copy of North's recording. The 2052 label revision comes after all three 2047 events.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "North reception at 08:14 on 2047-03-19"
+          },
+          {
+            "id": "b",
+            "label": "East reception at 08:16 on 2047-03-19"
+          },
+          {
+            "id": "c",
+            "label": "Museum relay copies North audio at 08:21"
+          },
+          {
+            "id": "d",
+            "label": "Exhibit label revised in 2052"
+          }
+        ],
+        "correctOrder": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": "hc34-6",
+        "sectionId": "claims",
+        "kind": "choice",
+        "prompt": "The museum has a North raw sheet and a relay copy, but the East sheet is temporarily missing from the folder. What is the careful claim?",
+        "context": "Original invented archive rule: a raw sheet documents reception at the named site; a relay transcript is a copy of North's audio. The folder currently contains North's raw sheet and the relay transcript, but not East's sheet. Missing from this folder does not mean a record never existed.",
+        "explanation": "The available North record supports North reception and the transcript supports a copy. The folder does not currently provide independent East evidence, but its absence here is not proof that East never recorded anything.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "North reception is documented; independent East reception is not established by the records currently in this folder"
+          },
+          {
+            "id": "b",
+            "label": "East definitely never received the packet"
+          },
+          {
+            "id": "c",
+            "label": "The relay copy proves two independent sites received it"
+          },
+          {
+            "id": "d",
+            "label": "The North raw sheet is a museum opening record"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc34-7",
+        "sectionId": "label",
+        "kind": "order",
+        "prompt": "Order the review steps for this proposed caption: 'The 08:21 relay transcript is a second independent receiving station for L4-01.'",
+        "context": "Original invented archive method: identify the event a caption claims, check whether a direct record documents that event, then correct wording when a source records only a copy. Here the relay transcript is explicitly a copy of North's audio, not a raw receiver sheet from another site.",
+        "explanation": "The caption claims an independent reception, but the relay transcript documents only a copy of North's recording. After checking the record type, correct the caption to describe that copy rather than a second receiving station.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "c",
+            "label": "Correct the caption to describe a copy, not an independent reception"
+          },
+          {
+            "id": "a",
+            "label": "Identify the exact event the caption claims"
+          },
+          {
+            "id": "b",
+            "label": "Check whether a direct receiver record documents that event"
+          }
+        ],
+        "correctOrder": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": "hc34-8",
+        "sectionId": "label",
+        "kind": "choice",
+        "prompt": "Which short exhibit caption is best supported by the complete fictional archive?",
+        "context": "Original invented Lumen-4 file: launch manifest dates departure 2047-03-02. North and East raw receiver sheets each log packet L4-01 at their own separate antenna sites on 2047-03-19 (08:14 North, 08:16 East). A relay transcript is a copy of North's audio at 08:21. The exhibit register says the gallery opened in 2050 and the label was revised in 2052. Archive rule: raw sheets document reception at named sites; relay copies document copying, not an independent reception.",
+        "explanation": "The caption separates the two direct site records from the later copy and avoids presenting the launch or exhibit date as a reception date.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Two site records log L4-01 at North and East on 2047-03-19; the museum file also preserves a later copy of North's audio"
+          },
+          {
+            "id": "b",
+            "label": "The museum first received the signal at launch in 2047"
+          },
+          {
+            "id": "c",
+            "label": "The 2052 label revision is the date both receiver sites heard the packet"
+          },
+          {
+            "id": "d",
+            "label": "The relay transcript is a third independent receiving station"
+          }
+        ],
+        "correct": "a"
+      }
+    ]
   }
 ]

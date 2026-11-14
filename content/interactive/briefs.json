@@ -6,61 +6,61 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 33,
+      "count": 34,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 33,
+      "count": 35,
       "file": "02-friends-social-play.md"
     },
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 32,
+      "count": 33,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 32,
+      "count": 33,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 32,
+      "count": 33,
       "file": "05-geography-travel.md"
     },
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 33,
+      "count": 63,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 33,
+      "count": 34,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 33,
+      "count": 34,
       "file": "08-food-everyday-life.md"
     },
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 32,
+      "count": 33,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 32,
+      "count": 33,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -7024,6 +7024,801 @@
       "category": "Logic & Wordplay",
       "category_code": "LW",
       "wave": "daily-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-34",
+      "title": "Which Handle Stays Cooler?",
+      "slug": "which-handle-stays-cooler",
+      "kind": "knowledge",
+      "hook": "Read invented grip-temperature records and trace how heat moves from a warm cup through different handles.",
+      "rounds": [
+        "3 tasks: Read the grip readings",
+        "3 tasks: Follow the heat path",
+        "2 tasks: Make a careful conclusion"
+      ],
+      "seed": "Which handle had the coolest outside grip after two minutes?",
+      "payoff": "Interpret grip readings without turning one set of trials into a universal material claim.",
+      "audience": "Readers who enjoy concise, accessible science puzzles.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "Fictional temperature records illustrate heat transfer; they are not presented as observed measurements. Every physics claim is linked to the supplied OpenStax heat-transfer reference.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-35",
+      "title": "Push, Pull, or Hold Still?",
+      "slug": "push-pull-or-hold-still",
+      "kind": "knowledge",
+      "hook": "Use fictional stage-cart force arrows to tell balanced motion from a change in velocity.",
+      "rounds": [
+        "3 tasks: Read the force arrows",
+        "3 tasks: Connect force and motion",
+        "2 tasks: Try a new cart case"
+      ],
+      "seed": "Two stage-cart pushes point in opposite directions. Which way is the net force?",
+      "payoff": "Use net force to reason about acceleration without confusing force direction with current motion.",
+      "audience": "Readers who enjoy concise, accessible science puzzles.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "All cart scenes and arrows are invented examples; no measured data or force calculation is claimed. Newton's laws are supported by the two question-level OpenStax references.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-36",
+      "title": "Why the Ramp Feels Easier",
+      "slug": "why-the-ramp-feels-easier",
+      "kind": "knowledge",
+      "hook": "Compare invented ramp cards where lower effort is paired with a longer travel distance.",
+      "rounds": [
+        "3 tasks: Compare the pushes",
+        "3 tasks: Follow the tradeoff",
+        "2 tasks: Notice the model's limits"
+      ],
+      "seed": "Which ramp card asks for less effort in the fictional model?",
+      "payoff": "Explain the force-distance tradeoff while keeping ideal assumptions separate from a rough-ramp model.",
+      "audience": "Readers who enjoy concise, accessible science puzzles.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "Effort tokens, distances and friction penalties are invented teaching-model values, not measurements or claims that all actual ramps are equivalent. The simple-machine principle is cited at question level.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-37",
+      "title": "The Circuit With a Missing Link",
+      "slug": "the-circuit-with-a-missing-link",
+      "kind": "knowledge",
+      "hook": "Trace paper-only low-voltage circuit diagrams and locate open links in a named path.",
+      "rounds": [
+        "3 tasks: Trace the loop",
+        "3 tasks: Find the open link",
+        "2 tasks: Check another diagram"
+      ],
+      "seed": "The diagram also names every region in text. Tap the switch gap that leaves this loop open.",
+      "payoff": "Tell a complete paper-circuit path from one interrupted by an open switch or wire gap.",
+      "audience": "Readers who enjoy concise, accessible science puzzles.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "This is paper-diagram reasoning only, with no circuit-building directions. The simplified series- and parallel-circuit principles is supported by the supplied OpenStax Physics series- and parallel-circuit references; every diagram's specific facts are labeled invented.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SG-33",
+      "title": "Choose the High-Scoring Course",
+      "slug": "build-a-safer-landing-course",
+      "kind": "cooperative",
+      "hook": "Combine two clearly labeled sets of invented toy-course observations to choose a design under a stated game score.",
+      "rounds": [
+        "3 tasks: Learn the game card",
+        "3 tasks: Combine the trial notes",
+        "2 tasks: Choose a course"
+      ],
+      "seed": "Which run earns the two game markers on the invented course card?",
+      "payoff": "Join stop and rail logs, compare fictional pass counts and choose a course under the team's printed target.",
+      "audience": "Readers who enjoy short cooperative deduction games and shared observation puzzles.",
+      "evidence": "Evergreen editorial fit; no trend or demand claim.",
+      "dependency": "base",
+      "production_note": "All trial outcomes and criteria are invented for a toy-car game. All criteria and outcomes are fictional game rules, not real-world safety or sports-injury evidence. Shared observations are all visible and every task has one answer field; no hidden roles or per-task assignment are used.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-38",
+      "slug": "where-did-the-sugar-go",
+      "category_code": "SN",
+      "title": "Where Did the Sugar Go?",
+      "dependency": "base"
+    },
+    {
+      "id": "SN-39",
+      "slug": "can-you-prove-a-reaction-happened",
+      "category_code": "SN",
+      "title": "Can You Prove a Reaction Happened?",
+      "dependency": "base"
+    },
+    {
+      "id": "SN-40",
+      "slug": "the-floating-sample-drawer",
+      "category_code": "SN",
+      "title": "The Floating Sample Drawer",
+      "dependency": "base"
+    },
+    {
+      "id": "SN-41",
+      "slug": "follow-the-atoms",
+      "category_code": "SN",
+      "title": "Follow the Atoms",
+      "dependency": "base"
+    },
+    {
+      "id": "FE-34",
+      "slug": "pantry-label-mix-up-separate-the-mixture",
+      "category_code": "FE",
+      "title": "Pantry Label Mix-Up: Separate the Mixture",
+      "dependency": "base"
+    },
+    {
+      "id": "SN-42",
+      "title": "The Cliff With a Missing Chapter",
+      "slug": "erosion-gap-cliff-layers",
+      "kind": "knowledge",
+      "hook": "Use rock-layer relationships and an erosion surface to reconstruct a local relative history.",
+      "rounds": [
+        "Rock Layers",
+        "Erosion and Missing Time"
+      ],
+      "seed": "choice",
+      "payoff": "A cut surface and layer order reveal local relative history; without dates on both sides, the missing interval has no known duration.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "USGS Grand Canyon geology plus original fictional cross-sections",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "fact-sourced"
+    },
+    {
+      "id": "SN-43",
+      "title": "Which Quake Wave Arrived First?",
+      "slug": "p-and-s-arrival-gap-detective",
+      "kind": "knowledge",
+      "hook": "Read P- and S-wave logs, use an explicitly fictional model-distance calibration, and see why several stations are needed to locate a quake.",
+      "rounds": [
+        "Seismic Wave Logs",
+        "Arrival Gaps"
+      ],
+      "seed": "choice",
+      "payoff": "P arrives before S; one station can help estimate distance, while several station positions and distances are needed to narrow the location.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "USGS earthquake travel times and location explanation plus original fictional calibrations",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "fact-sourced"
+    },
+    {
+      "id": "SN-44",
+      "title": "Match the Pieces of an Ancient Coast",
+      "slug": "fragment-patterns-past-connection",
+      "kind": "knowledge",
+      "hook": "Compare independent fossil and rock-pattern clues across fictional plate fragments without treating a matching outline as proof.",
+      "rounds": [
+        "Plate Fragments",
+        "Independent Evidence"
+      ],
+      "seed": "choice",
+      "payoff": "Fossils, dated layers, rocks, and landform patterns can support or complicate a proposed connection; no single match proves every detail.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "NGSS MS-ESS2-3 plus original fictional fragment records",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "fact-sourced"
+    },
+    {
+      "id": "SN-45",
+      "title": "A Pebble’s Trip Downstream",
+      "slug": "pebble-source-transport-and-deposit",
+      "kind": "knowledge",
+      "hook": "Compare two pebble histories using source patterns, abrasion clues, transport, and settling under stated model conditions.",
+      "rounds": [
+        "Source and Movement",
+        "Where Sediment Settles"
+      ],
+      "seed": "choice",
+      "payoff": "A matching feature can suggest a source, while transport and settling clues reveal possible stages without fixing one route or distance.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "USGS Sediment and Suspended Sediment plus original pebble models",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "fact-sourced"
+    },
+    {
+      "id": "GT-33",
+      "title": "Read a River Before It Moves",
+      "slug": "two-survey-river-channel-change",
+      "kind": "knowledge",
+      "hook": "Compare fictional dated survey records by registering a shared benchmark, calculating measured differences, and separating observations from causes or forecasts.",
+      "rounds": [
+        "Same-Scale Survey Maps",
+        "Channel Change and Landmarks"
+      ],
+      "seed": "choice",
+      "payoff": "Dated records can show where channel measures differ; they cannot establish depth, cause, or a future path when those data are absent.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "USGS White River channel-migration map plus original fictional survey records",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "fact-sourced"
+    },
+    {
+      "id": "SN-46",
+      "title": "Which Beak Could Reach It?",
+      "slug": "which-beak-could-reach-it",
+      "kind": "knowledge",
+      "hook": "Use original paper-tool trials to compare access across settings and repeats, then distinguish a model result from a real animal's whole diet.",
+      "rounds": [
+        "3 tasks: Match tool shape to access",
+        "3 tasks: Compare model trials and conditions",
+        "2 tasks: Read repeatability and limit claims"
+      ],
+      "seed": "In the paper-tool model, which tool reached the narrow slot most often?",
+      "payoff": "Compare a fresh setting and repeated runs, then explain what model counts can and cannot establish.",
+      "audience": "Readers who enjoy a short, accessible science puzzle; readable for grades 5–8.",
+      "evidence": "Smithsonian adaptation teaching resource supports the structure/function framing; all paper tools and counts are invented, with no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "Cite the supplied Smithsonian source for the adaptation concept; mark every tool/count as an original paper model, not a real species diet. Keep each inference limited to the setting tested.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-47",
+      "title": "Camouflage Depends on the Background",
+      "slug": "camouflage-depends-on-the-background",
+      "kind": "knowledge",
+      "hook": "Compare text-described paper patterns against named backgrounds with controls, then test a conclusion that does not rely on color or animal intent.",
+      "rounds": [
+        "3 tasks: Read patterns and trial counts",
+        "3 tasks: Check comparison conditions",
+        "2 tasks: Repeat the same test and interpret its counts"
+      ],
+      "seed": "In the made-up trials, on which background was the leaf-speckle card found less often?",
+      "payoff": "Compare distinct pattern trials and plan a larger repeat of the same outline before testing new patterns.",
+      "audience": "Readers who enjoy a short, accessible science puzzle; readable for grades 5–8.",
+      "evidence": "Smithsonian adaptation teaching resource supports the camouflage context; all search cards and counts are invented, not wildlife observations or demand evidence.",
+      "dependency": "base",
+      "production_note": "Use named texture descriptions and equivalent text for every visual clue. Never depend on color alone or suggest animals consciously change their backgrounds.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-48",
+      "title": "The Leaf Litter Relay",
+      "slug": "the-leaf-litter-relay",
+      "kind": "knowledge",
+      "hook": "Follow fictional leaf tokens from fragmentation through chemical-breakdown labels and into a model plant role.",
+      "rounds": [
+        "3 tasks: Read the model roles",
+        "3 tasks: Follow the token relay",
+        "2 tasks: Transfer the distinction carefully"
+      ],
+      "seed": "In this relay, what does the animal-fragmenter role do to the paper leaves?",
+      "payoff": "Track how the model represents fragments, nutrient labels and a transfer to the growth box without mistaking counts for field measurements.",
+      "audience": "Readers who enjoy a short, accessible science puzzle; readable for grades 5–8.",
+      "evidence": "NGSS MS-LS2-3 anchors ecosystem matter cycling; the relay roles and quantities are explicitly original model data, not field measurements or demand claims.",
+      "dependency": "base",
+      "production_note": "Differentiate detrital breakdown from the existing food-web and terrarium processes. Cite the supplied NGSS page for ecosystem matter cycling and label every quantity and simplified role as model-only.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-49",
+      "title": "The Plant That Bent Toward the Window",
+      "slug": "the-plant-that-bent-toward-the-window",
+      "kind": "knowledge",
+      "hook": "Match fictional growth logs to directional light, check the controls and keep claims about stems separate from claims about other plant parts.",
+      "rounds": [
+        "3 tasks: Read growth logs",
+        "3 tasks: Check matched conditions",
+        "2 tasks: Limit and extend the test"
+      ],
+      "seed": "In a fictional time log, during which interval did the average stem bend increase more?",
+      "payoff": "Read a changing angle, separate stem length from direction, then choose a clearer follow-up comparison.",
+      "audience": "Readers who enjoy a short, accessible science puzzle; readable for grades 5–8.",
+      "evidence": "OpenStax Biology 2e, section 30.6, supports plant responses to light; all growth logs are fictional and make no demand claim.",
+      "dependency": "base",
+      "production_note": "Use the supplied OpenStax section for plant-response facts. Keep fictional logs labeled, avoid claims about all plant parts, seeds or pollinators, and require no household activity.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FS-34",
+      "title": "The Pond Survey Handoff",
+      "slug": "the-pond-survey-handoff",
+      "kind": "cooperative",
+      "hook": "Take four Observer turns and four Map/Timekeeper turns; hand off coded counts and use the other player's separate route key to report a fictional sample.",
+      "rounds": [
+        "4 tasks: Read each role's record and hand off codes",
+        "3 tasks: Join separate counts to map/time evidence",
+        "1 task: State a careful team report"
+      ],
+      "seed": "Observer turn: at coded station P, how many total marks are on the slip?",
+      "payoff": "Complete two evidence handoffs and report which mapped site matches a partner's winning count, without generalizing beyond one fictional pass.",
+      "audience": "Two players sharing one device; families and groups; readable for grades 5–8.",
+      "evidence": "Entire map, coded sightings, counts and schedule are original fiction; no real place, species, participant or trend is asserted.",
+      "dependency": "base",
+      "production_note": "Use QuizPlayer pass-and-play task turns and explicit handoff text. Keep Observer counts off Map/Timekeeper turns and route-key answers off Observer turns; require the next player to use the code spoken during handoff. Include distinct wave and pond-ring records. Keep the eight tasks completable by both players; do not collect names, addresses or real-location data. Distinct from FS-33's sealed-envelope matching puzzle and SN-25's bird-team role/record-quality workflow.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-50",
+      "title": "Voyager’s Long Wait for a Reply",
+      "slug": "voyagers-long-wait-for-a-reply",
+      "kind": "knowledge",
+      "hook": "Trace a distant message, then distinguish signal travel from delivery records, receipt acknowledgments and what logs can establish.",
+      "rounds": [
+        "2 tasks: Follow the signal",
+        "2 tasks: Read the listening windows",
+        "4 tasks: Test what the records show"
+      ],
+      "seed": "Why can a message sent to a very distant spacecraft not receive an immediate reply?",
+      "payoff": "Explain what timing and acknowledgment logs can—and cannot—show about receipt, decoding and completed actions.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen educational fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "NASA-backed light-travel context plus an explicitly fictional signal-speed model and logs; no precise Voyager milestone date or real telemetry claim.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-51",
+      "title": "Find a Planet in the Starlight",
+      "slug": "find-a-planet-in-the-starlight",
+      "kind": "knowledge",
+      "hook": "Read invented brightness records for repeating dips, compare relative dip sizes and plan follow-up without turning missing data into a measurement.",
+      "rounds": [
+        "2 tasks: Notice a dip",
+        "3 tasks: Test for a repeat",
+        "3 tasks: Keep the claim in bounds"
+      ],
+      "seed": "Which record is the strongest transit candidate to investigate first?",
+      "payoff": "Separate a recurring transit candidate from a single dip, a missing visit and a confirmed discovery.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen educational fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "NASA transit-method explanation; every brightness table and diagram is clearly labeled original fictional data, not evidence about a real star.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-52",
+      "title": "Aim a Satellite Into Orbit",
+      "slug": "aim-a-satellite-into-orbit",
+      "kind": "knowledge",
+      "hook": "Compare cartoon gravity-curves and equal-time position marks to see how path shape and motion evidence work in a simplified orbit model.",
+      "rounds": [
+        "2 tasks: Read the model",
+        "3 tasks: Compare paths and motion",
+        "3 tasks: Keep the model in bounds"
+      ],
+      "seed": "In the orbit model, why does a satellite keep curving instead of flying straight away?",
+      "payoff": "Use curvature and equal-time markers to interpret qualitative orbit diagrams while keeping real trajectory claims tied to physical measurements.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen educational fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "NASA's general orbit explanation plus original qualitative cartoons; no real launch calculations, instructions or trajectory claims.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-53",
+      "title": "Meteor Shower: Find the Radiant",
+      "slug": "meteor-shower-find-the-radiant",
+      "kind": "knowledge",
+      "hook": "Trace fictional sky paths backward to distinguish apparent radiant directions, perspective and sporadic tracks.",
+      "rounds": [
+        "3 tasks: Trace the paths",
+        "2 tasks: Compare the tracks",
+        "3 tasks: Explain the radiant"
+      ],
+      "seed": "Why can shower tracks appear to radiate from a point in the sky?",
+      "payoff": "Explain how backward convergence marks an apparent sky direction, compare separate radiant groups and avoid claiming a physical source point.",
+      "audience": "Readers who enjoy a short, accessible interactive quiz.",
+      "evidence": "Evergreen educational fit; no demand or trend claim.",
+      "dependency": "base",
+      "production_note": "NASA meteor-shower explanation with original schematic and invented track log; distinct from SN-29's solar-image interpretations and not a current sky guide.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "HC-34",
+      "title": "The Museum’s Space-Signal Archive",
+      "slug": "the-museums-first-space-signal",
+      "kind": "cooperative",
+      "hook": "Audit an invented mission archive to distinguish direct receiver records from a relay copy and reconstruct the order of events.",
+      "rounds": [
+        "3 tasks: Read the archive",
+        "3 tasks: Test exhibit claims",
+        "2 tasks: Write the careful caption"
+      ],
+      "seed": "Match each fictional record to what it directly documents.",
+      "payoff": "Write a precise exhibit claim that separates independent reception from retransmission and museum records, using dates without treating copies as new receptions.",
+      "audience": "Readers who enjoy a short, accessible pass-and-play archive puzzle.",
+      "evidence": "Evergreen fictional archive puzzle; no real historical claims or demand claim.",
+      "dependency": "base",
+      "production_note": "Every mission, receiver, record, date and museum rule is invented. Both pass-and-play turns receive the same complete eight-task context; no private clues or player-gated evidence.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-54",
+      "title": "Two Thermometers Disagree",
+      "slug": "two-thermometers-disagree",
+      "kind": "logic",
+      "hook": "Use repeated reference readings to spot a constant offset, separate accuracy from precision, and decide when correction is justified.",
+      "rounds": [
+        "Check the reference",
+        "Choose a response"
+      ],
+      "seed": "choice",
+      "payoff": "A steady offset is supported only for checked conditions; display precision alone does not show accuracy.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "Original fictional case material.",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "original"
+    },
+    {
+      "id": "SN-55",
+      "title": "How a Blind Taste Test Works",
+      "slug": "how-a-blind-taste-test-works",
+      "kind": "logic",
+      "hook": "Explore how coded labels and counterbalanced order reduce expectation and order effects in a pretend study.",
+      "rounds": [
+        "Plan the pretend study",
+        "Spot the design effect"
+      ],
+      "seed": "choice",
+      "payoff": "Neutral codes can reduce identity-based expectations, while balanced presentation order reduces sequence effects.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "Original fictional case material.",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "original"
+    },
+    {
+      "id": "SN-56",
+      "title": "When the Average Hides a Pattern",
+      "slug": "when-the-average-hides-a-pattern",
+      "kind": "logic",
+      "hook": "Compare fictional biodiversity samples with the same average but different spread, effort, and repeatability.",
+      "rounds": [
+        "Read the samples",
+        "Compare fairly"
+      ],
+      "seed": "choice",
+      "payoff": "Averages, species richness, total counts, spread, and sampling effort describe different parts of a small dataset.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "Original fictional case material.",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "original"
+    },
+    {
+      "id": "SN-57",
+      "title": "What Would Change Your Mind?",
+      "slug": "what-would-change-your-mind",
+      "kind": "logic",
+      "hook": "Plan a discriminating next test by making rival explanations predict different outcomes.",
+      "rounds": [
+        "Compare explanations",
+        "Choose a next test"
+      ],
+      "seed": "choice",
+      "payoff": "A useful test gives rival explanations different predictions; one matching result supports but does not prove a model.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "Original fictional case material.",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "original"
+    },
+    {
+      "id": "LW-33",
+      "title": "There’s a Missing Row in the Lab Log",
+      "slug": "theres-a-missing-row-in-the-lab-log",
+      "kind": "logic",
+      "hook": "Use fictional record rules and evidence cards to recover a missing sample ID and condition without altering results.",
+      "rounds": [
+        "Read the log rules",
+        "Recover the entry"
+      ],
+      "seed": "choice",
+      "payoff": "Use record clues to restore missing fields, copy the measured result unchanged, and report when the evidence is not unique.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "Original fictional case material.",
+      "dependency": "base",
+      "production_note": "Separate science catch-up release. Eight authored tasks and sections.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "original"
+    },
+    {
+      "id": "SN-58",
+      "title": "Make a Shadow Shrink",
+      "slug": "make-a-shadow-shrink",
+      "kind": "knowledge",
+      "hook": "Use a fictional point-light model to calculate how puppet position and screen distance change projected shadow size, then reason about overlap.",
+      "rounds": [
+        "Set the Stage",
+        "Measure the Shadows",
+        "Use the Model"
+      ],
+      "seed": "choice",
+      "payoff": "Apply the similar-triangle ratio 6 × screen position ÷ puppet position, distinguish changing object and screen distances, and keep the invented measurements separate from NASA’s general light-blocking principle.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "NASA Science supports the general blocking-light/alignment principle; numerical puppet model is original and fictional.",
+      "dependency": "base",
+      "production_note": "Independent text-first science quiz. Numerical screen/light/puppet model and records are invented; no Sun-viewing advice or asset files.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "fact-sourced"
+    },
+    {
+      "id": "SN-59",
+      "title": "Air Has Mass: The Hidden Counterweight",
+      "slug": "air-has-mass-hidden-counterweight",
+      "kind": "knowledge",
+      "hook": "Compare invented same-vessel mass records with one-, two-, and zero-portion changes, then identify what a changed weighing setup prevents you from concluding.",
+      "rounds": [
+        "Read the Records",
+        "Compare Fairly",
+        "Choose What Follows"
+      ],
+      "seed": "choice",
+      "payoff": "Calculate differences from the visible records, distinguish portion changes from measurement changes, and connect the fictional pattern to the sourced principle that gas has mass without treating it as real data.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "American Chemical Society supports that gases have mass and take up space; all vessel readings are invented practice data.",
+      "dependency": "base",
+      "production_note": "Text-first record interpretation only; no real experiment instructions and no pressure task. Invented values are not ACS measurements.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "fact-sourced"
+    },
+    {
+      "id": "SN-60",
+      "title": "A Fossil Is Evidence, Not a Snapshot",
+      "slug": "fossil-evidence-not-snapshot",
+      "kind": "knowledge",
+      "hook": "Classify body and trace fossils, order an invented trackway from measured positions, and separate visible marks from claims the preserved evidence cannot support.",
+      "rounds": [
+        "What Kind of Fossil?",
+        "Read the Trackway",
+        "Mind the Missing Pages"
+      ],
+      "seed": "choice",
+      "payoff": "Use fossil type, position and preservation clues to make narrow conclusions while leaving anatomy and traits absent from the record unknown.",
+      "audience": "Curious players and families, with plain-language prompts and optional discussion.",
+      "evidence": "National Park Service fossil definitions and formation guidance; fictional organism and trackway are original.",
+      "dependency": "base",
+      "production_note": "Independent text-first science quiz. Morrowtail, footprints and alternative-gait rules are fictional; preservation is described cautiously.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "fact-sourced"
+    },
+    {
+      "id": "PC-34",
+      "title": "Choose Your Science Museum Midnight Exhibit",
+      "slug": "choose-science-museum-midnight-exhibit",
+      "kind": "preference",
+      "hook": "Choose distinct ways to compare routes, explore a model, notice a map pattern and contribute an exhibit idea across visit-pace and watch-versus-simulation preferences.",
+      "rounds": [
+        "Choose a Way In",
+        "Explore a Wonder",
+        "Pick a Last Look"
+      ],
+      "seed": "choice",
+      "payoff": "See a descriptive two-axis summary of preferred exhibit formats, with no right answer and no claim about ability or identity.",
+      "audience": "Curious players and families choosing a fictional exhibit experience for fun.",
+      "evidence": "Original fictional exhibit formats and unscored preference choices; no trend or audience claim.",
+      "dependency": "base",
+      "production_note": "Eight independent unscored choice/rank cases use different visitor decisions rather than swapping exhibit nouns; weights vary both described dimensions and no answer depends on earlier picks.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "original"
+    },
+    {
+      "id": "MT-33",
+      "title": "Design a Creature for a Silent Film",
+      "slug": "design-creature-for-silent-film-cut",
+      "kind": "preference",
+      "hook": "Choose how distinct silent-film devices—scale diagrams, ripple imagery, nest-building sequences and before/after edits—reveal fictional creature traits across two preference dimensions.",
+      "rounds": [
+        "Reveal the First Clue",
+        "Choose More Evidence",
+        "Shape the Final Cut"
+      ],
+      "seed": "choice",
+      "payoff": "Receive a descriptive preference summary for implied-versus-explicit creature facts and playful-versus-observational evidence.",
+      "audience": "Curious players and families who enjoy imagining how a fictional film communicates through edits.",
+      "evidence": "Original fictional creature facts and silent-film edit cards; no audience trend or ability claim.",
+      "dependency": "base",
+      "production_note": "Eight independent unscored choice/rank cases use varied visual storytelling devices rather than repeating intertitle-versus-close-up swaps; weights separately represent explicitness and playful-versus-observational treatment.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "original"
+    },
+    {
+      "id": "SN-61",
+      "title": "Which Model Keeps the Ice Cold?",
+      "slug": "which-model-keeps-the-ice-cold",
+      "kind": "knowledge",
+      "hook": "Three shelter features change the model's chill score. Find what each controlled comparison does, then test a combined design.",
+      "rounds": [
+        "Read a fictional score rule and matched baseline",
+        "Compare envelope, opening, and moving-air trials",
+        "Use combined designs and limit the final claim"
+      ],
+      "seed": "A small team compares made-up chill scores for shelters with different envelopes, openings, and air conditions.",
+      "payoff": "A best-fitting design under the supplied fictional score target, plus a clear boundary between model points and real measurements.",
+      "audience": "Curious readers around grades 5–8; no science equipment or prior shelter knowledge needed.",
+      "evidence": "Original self-contained fictional score table; no demand, curriculum, or real-world performance claim.",
+      "dependency": "base",
+      "production_note": "Keep all score values labeled as invented points. Do not turn the envelope comparison into a same-material conduction exercise or claim the model predicts real ice temperatures.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-62",
+      "title": "The Invisible Ocean Elevator",
+      "slug": "invisible-ocean-elevator",
+      "kind": "knowledge",
+      "hook": "Use NOAA's density clues, then open a tiny fictional drawer that changes one water condition at a time.",
+      "rounds": [
+        "Read NOAA's temperature-and-salinity explanation",
+        "Compare isolated fictional density-index cases",
+        "Combine model cases without treating them as the whole ocean"
+      ],
+      "seed": "A small set of labeled cells offers practice with density clues while an NOAA source explains a process in the ocean.",
+      "payoff": "A careful comparison of the supplied index cases and a final statement that separates the toy drawer from ocean circulation.",
+      "audience": "Curious readers around grades 5–8; every model value and comparison rule is given in the quiz.",
+      "evidence": "NOAA National Ocean Service thermohaline page for cited facts; original fictional index values are not ocean measurements.",
+      "dependency": "base",
+      "production_note": "Preserve the NOAA citation at the relevant tasks. Keep each variable isolated in the stated cases and do not imply the two-cell drawer reproduces global conveyor routes or dynamics.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-63",
+      "title": "Check the Claim About the Vanishing Ice",
+      "slug": "check-the-claim-about-the-vanishing-ice",
+      "kind": "knowledge",
+      "hook": "A headline says ice vanished. Audit what a sealed-jar row and an open-tray row actually recorded.",
+      "rounds": [
+        "Read paired fictional jar and tray entries",
+        "Separate labels from readings and check what was measured",
+        "Audit a fresh claim using only its record boundary"
+      ],
+      "seed": "A fictional ledger pairs changing descriptions with whole-container and open-tray readings, while leaving nearby locations blank.",
+      "payoff": "A defensible headline that reports the changed record without claiming an unmeasured destination or disappearance.",
+      "audience": "Curious readers around grades 5–8; the ledger states every unit, label, and boundary.",
+      "evidence": "Original self-contained fictional ledger; no real mass experiment or universal physical claim.",
+      "dependency": "base",
+      "production_note": "Keep all readings as fictional model units. Do not overlap the sugar-solution or atom-conservation treatments; distinguish a record's appearance label from its measurement scope.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MU-33",
+      "title": "The Echo Crew’s Missing Sound",
+      "slug": "the-echo-crews-missing-sound",
+      "kind": "knowledge",
+      "hook": "The crew's text route has a gap. Trace which path touches a wall panel, turns, and returns as the delayed clue in a fictional map.",
+      "rounds": [
+        "Read NOAA's active-sonar echo fact and a direct/reflected legend",
+        "Match route descriptions to named obstacle paths",
+        "Transfer the path clue and state what an incomplete log cannot prove"
+      ],
+      "seed": "An echo crew follows a pulse on paper through corridors with named panels and receiver points.",
+      "payoff": "A route-based solution explained in text, with fictional beat labels kept separate from acoustic measurements.",
+      "audience": "Curious readers around grades 5–8; all maps are also described in words and no audio is required.",
+      "evidence": "NOAA National Ocean Service sonar page supports the stated active-sonar pulse/echo fact; corridor maps and beat labels are original fiction.",
+      "dependency": "base",
+      "production_note": "Use named route geometry and full text equivalents, never color alone. Distinguish the fictional direct/reflected labels from measured acoustics; no tone sequence or audio control is required. Keep different from SN-08 path/frequency tasks, MU-24 loop preferences, MU-32 missing-note reconstruction, and MT-26 latency arithmetic.",
+      "category": "Music & Audio",
+      "category_code": "MU",
+      "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FS-35",
+      "title": "Two Scientists, One Landing Site",
+      "slug": "two-scientists-one-landing-site",
+      "kind": "cooperative",
+      "hook": "Read both scientists' visible cards, calculate a toy footprint and clearance, then choose the one model site that meets every supplied rule.",
+      "rounds": [
+        "Read both role cards and the shared toy-only constraints",
+        "Screen platform dimensions and a separate model rating",
+        "Apply both rules to a new shared candidate set"
+      ],
+      "seed": "Two fictional scientists bring a footprint card and a platform card to a toy landing-site puzzle; both records are visible to each player.",
+      "payoff": "One candidate that passes the complete fictional constraint set, with no real engineering or safety recommendation.",
+      "audience": "Friends and families around grades 5–8; each selected player can solve all eight tasks independently from the same visible cards.",
+      "evidence": "Original self-contained toy-only constraints and candidate data; no real landing-site evidence or engineering claim.",
+      "dependency": "base",
+      "production_note": "Use pass-and-play accurately: every player answers the same full eight tasks, then the explicit handoff screen hides earlier answers; both players can finish. Show both role cards to every player, balance the card roles across tasks, and never imply secret complementary clues or one joint attempt. Candidate choices are safe-for-toy only under fictional rules, not real advice. Distinct from FS-34 pond-survey evidence handoff and SG-33 toy-trial performance comparison.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "catchup-2026-11-13",
       "evidence_class": "evergreen"
     }
   ]

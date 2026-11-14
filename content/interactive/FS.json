@@ -12186,5 +12186,616 @@
       }
     ],
     "note": "All seeds and desk rules are fictional labels; this puzzle makes no horticultural claim."
+  },
+  {
+    "id": "FS-34",
+    "slug": "the-pond-survey-handoff",
+    "categoryId": "friends-social-play",
+    "title": "The Pond Survey Handoff",
+    "description": "Read coded pond counts, combine them with a fictional route log and compare your reports in same-device pass-and-play.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "pass-and-play",
+    "sections": [
+      {
+        "id": "records",
+        "title": "Read the two records"
+      },
+      {
+        "id": "join",
+        "title": "Join counts to places and times"
+      },
+      {
+        "id": "report",
+        "title": "Make a careful team report"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional pond map, coded observation slips, time log and survey rules authored for this quiz; no real pond, species or people are represented."
+      }
+    ],
+    "questions": [
+      {
+        "id": "fs34-1",
+        "sectionId": "records",
+        "kind": "choice",
+        "prompt": "Observer card: at coded station P, how many total marks are on the slip?",
+        "context": "Observer card—fictional model only. Station P has 2 reed marks, 1 dot mark and 0 wave marks. These are made-up observation labels, not identified real species.",
+        "explanation": "The station P slip has 2 + 1 + 0 = 3 marks. This is a count from the invented card, not a claim about any actual pond.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "3 marks"
+          },
+          {
+            "id": "b",
+            "label": "2 marks"
+          },
+          {
+            "id": "c",
+            "label": "5 marks"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "fs34-2",
+        "sectionId": "records",
+        "kind": "match",
+        "prompt": "Map/Timekeeper card: match each station code to its habitat and scheduled time.",
+        "context": "Map/Timekeeper card—fictional model only. Station P is the reed edge at 09:00; Q is the open bank at 09:20; R is the shaded inlet at 09:40. Each stop lasts five minutes.",
+        "explanation": "The map/time log pairs P with reed edge at 09:00, Q with open bank at 09:20, and R with shaded inlet at 09:40. Codes must be joined through this key, not guessed from their letters.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "Station P"
+          },
+          {
+            "id": "b",
+            "label": "Station Q"
+          },
+          {
+            "id": "c",
+            "label": "Station R"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Reed edge, 09:00"
+          },
+          {
+            "id": "b",
+            "label": "Open bank, 09:20"
+          },
+          {
+            "id": "c",
+            "label": "Shaded inlet, 09:40"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "fs34-3",
+        "sectionId": "records",
+        "kind": "grid",
+        "prompt": "Observer card: read each coded slip and choose its dot-mark count.",
+        "context": "Observer card—fictional model. P has 2 reed, 1 dot and 0 wave marks. Q has 1 reed, 0 dot and 2 wave marks. R has 0 reed, 2 dot and 1 wave mark.",
+        "explanation": "The dot counts are P=1, Q=0 and R=2. The station letters are just codes until the partner joins them with the map/time key.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "Station P: dot marks",
+            "options": [
+              {
+                "id": "a",
+                "label": "1"
+              },
+              {
+                "id": "b",
+                "label": "0"
+              },
+              {
+                "id": "c",
+                "label": "2"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "Station Q: dot marks",
+            "options": [
+              {
+                "id": "a",
+                "label": "1"
+              },
+              {
+                "id": "b",
+                "label": "0"
+              },
+              {
+                "id": "c",
+                "label": "2"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "Station R: dot marks",
+            "options": [
+              {
+                "id": "a",
+                "label": "1"
+              },
+              {
+                "id": "b",
+                "label": "0"
+              },
+              {
+                "id": "c",
+                "label": "2"
+              }
+            ],
+            "correct": "c"
+          }
+        ]
+      },
+      {
+        "id": "fs34-4",
+        "sectionId": "records",
+        "kind": "order",
+        "prompt": "Map/Timekeeper card: put the station visits in scheduled order.",
+        "context": "Map/Timekeeper card—fictional model. P is scheduled at 09:00, Q at 09:20 and R at 09:40. Stops last five minutes and the survey route follows the schedule.",
+        "explanation": "The recorded times increase from 09:00 to 09:20 to 09:40, so the route order is P, Q, R. This is only the fictional survey schedule.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Station R at 09:40"
+          },
+          {
+            "id": "b",
+            "label": "Station P at 09:00"
+          },
+          {
+            "id": "c",
+            "label": "Station Q at 09:20"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "id": "fs34-5",
+        "sectionId": "join",
+        "kind": "choice",
+        "prompt": "Observer card: which coded station had the most wave marks?",
+        "context": "Observer card—fictional model. Wave counts on the three slips are P=0, Q=2, R=1.",
+        "explanation": "Q has 2 wave marks, more than R's 1 and P's 0. The map/time partner can identify the habitat and time only after joining code Q to the separate map record.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Station P"
+          },
+          {
+            "id": "b",
+            "label": "Station Q"
+          },
+          {
+            "id": "c",
+            "label": "Station R"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "fs34-6",
+        "sectionId": "join",
+        "kind": "choice",
+        "prompt": "Map/Timekeeper card: which habitat and time match the highest-wave code from the preceding Observer card?",
+        "context": "Map/Timekeeper card—use only this turn's map key: P is reed edge at 09:00, Q is open bank at 09:20, and R is shaded inlet at 09:40. Use the code with the most wave marks from the preceding Observer card to choose its mapped record.",
+        "explanation": "The Observer's handoff supplies code Q as the highest-wave station. Looking up Q in this turn's map key gives open bank at 09:20; the map alone cannot identify which station had the most marks.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Open bank at 09:20"
+          },
+          {
+            "id": "b",
+            "label": "Reed edge at 09:00"
+          },
+          {
+            "id": "c",
+            "label": "Shaded inlet at 09:40"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "fs34-7",
+        "sectionId": "join",
+        "kind": "choice",
+        "prompt": "Observer card: which station has the most pond-ring marks on the new slip?",
+        "context": "New Observer card—fictional sample only. Pond-ring marks are P=1, Q=2 and R=4. These marks are separate from the earlier wave counts and do not identify a real species.",
+        "explanation": "R has four pond-ring marks, more than Q's two or P's one. The code by itself does not name a habitat or time, so the Map/Timekeeper must use the separate key next.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Station P"
+          },
+          {
+            "id": "b",
+            "label": "Station Q"
+          },
+          {
+            "id": "c",
+            "label": "Station R"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "fs34-8",
+        "sectionId": "report",
+        "kind": "choice",
+        "prompt": "Map/Timekeeper card: use the preceding Observer card to complete the site-and-time part of the team report.",
+        "context": "Map/Timekeeper card—fictional route key: P is reed edge at 09:00, Q is open bank at 09:20, and R is shaded inlet at 09:40. Use the code with the most pond-ring marks from the preceding Observer card.",
+        "explanation": "The Observer handed off R as the code with the most pond-ring marks. The route key maps R to the shaded inlet at 09:40, so that is the supported site-and-time report for this fictional pass; it does not establish a lasting habitat pattern.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "P / reed edge / 09:00 had the most pond-ring marks"
+          },
+          {
+            "id": "b",
+            "label": "Q / open bank / 09:20 had the most pond-ring marks"
+          },
+          {
+            "id": "c",
+            "label": "R / shaded inlet / 09:40 had the most pond-ring marks"
+          }
+        ],
+        "correct": "c"
+      }
+    ],
+    "note": "The survey and its marks are fictional. Each player answers all eight tasks on the same device before handing it over. Compare reports after everyone finishes. The Observer and Map/Timekeeper cards appear in sequence for every player."
+  },
+  {
+    "id": "FS-35",
+    "slug": "two-scientists-one-landing-site",
+    "categoryId": "friends-social-play",
+    "title": "Two Scientists, One Landing Site",
+    "description": "Work through a fictional toy-landing case using a footprint card, a platform card, and a shared set of model constraints.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 7,
+    "playMode": "pass-and-play",
+    "sections": [
+      {
+        "id": "shared-cards",
+        "title": "Read both role cards"
+      },
+      {
+        "id": "screen-the-sites",
+        "title": "Check each toy-model rule"
+      },
+      {
+        "id": "choose-together",
+        "title": "Choose from the full record"
+      }
+    ],
+    "sources": [
+      {
+        "id": "landing-model",
+        "label": "Original fictional toy-only landing-site cards, constraints, and choices; not engineering advice.",
+        "kind": "original"
+      }
+    ],
+    "note": "This is an original toy-only constraint puzzle, not real engineering or safety advice. Every selected player sees the same eight tasks and both role cards. On one device, the next player gets the player's handoff screen, which hides earlier answers; each player completes the full quiz and both can reach the results.",
+    "questions": [
+      {
+        "id": "fs35-1",
+        "sectionId": "shared-cards",
+        "kind": "choice",
+        "prompt": "What does Scientist Ada's fictional footprint card record?",
+        "context": "Original toy-only model. Ada's card says the toy craft takes a rectangle 4 model units wide by 3 units deep. Both players can read Ada's and Bo's complete cards during their own attempt; no clue is hidden by role.",
+        "options": [
+          {
+            "id": "footprint",
+            "label": "The toy craft's 4-by-3-unit footprint."
+          },
+          {
+            "id": "platform-score",
+            "label": "The platform's model rating."
+          },
+          {
+            "id": "real-size",
+            "label": "A real spacecraft's landing dimensions."
+          }
+        ],
+        "correct": "footprint",
+        "explanation": "Ada's supplied card describes the toy craft's size in the fictional model. It gives no measurement of a real spacecraft.",
+        "sourceIds": [
+          "landing-model"
+        ]
+      },
+      {
+        "id": "fs35-2",
+        "sectionId": "shared-cards",
+        "kind": "choice",
+        "prompt": "Under Bo's clearance rule, what is the smallest platform rectangle that fits the toy footprint?",
+        "context": "Original toy-only rules: use Ada's 4-wide by 3-deep craft footprint, and leave at least 1 model unit on every side. Add the margin at both ends of each dimension.",
+        "options": [
+          {
+            "id": "six-five",
+            "label": "6 units wide by 5 units deep."
+          },
+          {
+            "id": "five-four",
+            "label": "5 units wide by 4 units deep."
+          },
+          {
+            "id": "four-three",
+            "label": "4 units wide by 3 units deep."
+          }
+        ],
+        "correct": "six-five",
+        "explanation": "One unit on both sides adds two to each dimension: 4 + 2 = 6 wide and 3 + 2 = 5 deep. Those are only the stated toy-model rules.",
+        "sourceIds": [
+          "landing-model"
+        ]
+      },
+      {
+        "id": "fs35-3",
+        "sectionId": "shared-cards",
+        "kind": "match",
+        "prompt": "Match each fictional card to the rule or measurement it supplies.",
+        "context": "Both role cards and the shared test card are visible to every player. Ada records 4 by 3 model units; Bo records a 1-unit margin on each side; the shared card sets a minimum toy rating of 4.",
+        "left": [
+          {
+            "id": "ada-card",
+            "label": "Ada's 4-by-3 card"
+          },
+          {
+            "id": "bo-card",
+            "label": "Bo's 1-unit margin card"
+          },
+          {
+            "id": "shared-card",
+            "label": "Shared minimum-rating card"
+          }
+        ],
+        "right": [
+          {
+            "id": "craft-size",
+            "label": "Toy craft footprint"
+          },
+          {
+            "id": "clearance",
+            "label": "Space added around each side"
+          },
+          {
+            "id": "rating-floor",
+            "label": "Toy-model rating must be 4 or more"
+          }
+        ],
+        "pairs": {
+          "ada-card": "craft-size",
+          "bo-card": "clearance",
+          "shared-card": "rating-floor"
+        },
+        "explanation": "The cards describe different parts of one shared rule set: the craft footprint, the margin, and the minimum model rating. None is private information for only one player.",
+        "sourceIds": [
+          "landing-model"
+        ]
+      },
+      {
+        "id": "fs35-4",
+        "sectionId": "screen-the-sites",
+        "kind": "grid",
+        "prompt": "Check each candidate against the toy-model size rule only.",
+        "context": "The fictional size minimum is 6 units wide by 5 units deep. Ignore rating for this task. Candidate Cedar is 7 by 6; Spire is 5 by 8; Ridge is 8 by 4. These are invented platform cards, not real landing sites. Compare width with width and depth with depth. The fixed docking rails prevent rotation in this model.",
+        "cells": [
+          {
+            "id": "cedar",
+            "label": "Cedar: 7 by 6",
+            "options": [
+              {
+                "id": "fits",
+                "label": "Meets the size rule"
+              },
+              {
+                "id": "fails",
+                "label": "Fails the size rule"
+              }
+            ],
+            "correct": "fits"
+          },
+          {
+            "id": "spire",
+            "label": "Spire: 5 by 8",
+            "options": [
+              {
+                "id": "fits",
+                "label": "Meets the size rule"
+              },
+              {
+                "id": "fails",
+                "label": "Fails the size rule"
+              }
+            ],
+            "correct": "fails"
+          },
+          {
+            "id": "ridge",
+            "label": "Ridge: 8 by 4",
+            "options": [
+              {
+                "id": "fits",
+                "label": "Meets the size rule"
+              },
+              {
+                "id": "fails",
+                "label": "Fails the size rule"
+              }
+            ],
+            "correct": "fails"
+          }
+        ],
+        "explanation": "Cedar meets both minimum dimensions. Spire is too narrow, and Ridge is too shallow under the stated toy-only size rule.",
+        "sourceIds": [
+          "landing-model"
+        ]
+      },
+      {
+        "id": "fs35-5",
+        "sectionId": "screen-the-sites",
+        "kind": "order",
+        "prompt": "Order a careful way to screen a candidate using both scientists' cards.",
+        "context": "The shared fictional rules require a platform at least 6 by 5 model units and a toy rating of at least 4. A candidate must pass both checks to remain on the toy-model list. The checklist requires the size screen before the rating check. Only pads that pass the size screen go forward.",
+        "items": [
+          {
+            "id": "read-footprint",
+            "label": "Read the craft footprint and margin cards."
+          },
+          {
+            "id": "set-size",
+            "label": "Set the minimum platform dimensions."
+          },
+          {
+            "id": "check-size",
+            "label": "Check the candidate's width and depth."
+          },
+          {
+            "id": "check-rating",
+            "label": "Check that its toy rating is at least 4."
+          }
+        ],
+        "correctOrder": [
+          "read-footprint",
+          "set-size",
+          "check-size",
+          "check-rating"
+        ],
+        "explanation": "The footprint and margin establish the size screen before a candidate is checked. The rating is a separate constraint, so passing one test alone is not enough.",
+        "sourceIds": [
+          "landing-model"
+        ]
+      },
+      {
+        "id": "fs35-6",
+        "sectionId": "screen-the-sites",
+        "kind": "choice",
+        "prompt": "Which rule does the Pine platform fail in the fictional case?",
+        "context": "Both role cards are shown. Pine is 6 by 5 model units, so it meets the toy-model size minimum. Its fictional toy rating is 3; the shared minimum is 4.",
+        "options": [
+          {
+            "id": "rating-fail",
+            "label": "It fails the rating rule; its size meets the model minimum."
+          },
+          {
+            "id": "size-fail",
+            "label": "It fails the size rule because 6 by 5 is too small."
+          },
+          {
+            "id": "both-pass",
+            "label": "It passes both rules because its rating is 3."
+          }
+        ],
+        "correct": "rating-fail",
+        "explanation": "The dimensions meet the supplied 6-by-5 minimum, but a rating of 3 is below the stated threshold of 4. These ratings exist only in the puzzle model.",
+        "sourceIds": [
+          "landing-model"
+        ]
+      },
+      {
+        "id": "fs35-7",
+        "sectionId": "choose-together",
+        "kind": "choice",
+        "prompt": "Does the new Fern pad meet both fictional rules?",
+        "context": "Transfer card visible to both players: Fern is 6 by 5 model units and has a toy rating of 4. The shared rules require at least 6 by 5 and a rating of at least 4.",
+        "options": [
+          {
+            "id": "fern-passes",
+            "label": "Yes; it meets the size minimum and the rating threshold."
+          },
+          {
+            "id": "fern-size-only",
+            "label": "No; it meets size but its rating is below 4."
+          },
+          {
+            "id": "fern-rating-only",
+            "label": "No; its rating meets the rule but its size is too small."
+          }
+        ],
+        "correct": "fern-passes",
+        "explanation": "Fern exactly meets both minimums, so it remains on the fictional toy-model list. Passing this puzzle rule says nothing about real engineering or safety.",
+        "sourceIds": [
+          "landing-model"
+        ]
+      },
+      {
+        "id": "fs35-8",
+        "sectionId": "choose-together",
+        "kind": "choice",
+        "prompt": "Which candidate is the only one that passes every supplied toy-model rule?",
+        "context": "Final shared cards: Lighthouse pad is 7 by 6 with toy rating 4; Cliff ledge is 8 by 4 with rating 5; Shoal mat is 6 by 5 with rating 3. The fictional rules require at least 6 by 5 and rating 4 or higher. The cards are fully visible to both players. Compare widths and depths in the stated orientation. The fixed docking rails prevent rotation.",
+        "options": [
+          {
+            "id": "lighthouse",
+            "label": "Lighthouse pad (7 by 6; rating 4)"
+          },
+          {
+            "id": "cliff",
+            "label": "Cliff ledge (8 by 4; rating 5)"
+          },
+          {
+            "id": "shoal",
+            "label": "Shoal mat (6 by 5; rating 3)"
+          }
+        ],
+        "correct": "lighthouse",
+        "explanation": "Lighthouse meets both dimension minimums and the rating threshold. Cliff is too shallow, while Shoal's rating is below 4. These are fictional toy constraints, not recommendations about real landing platforms.",
+        "sourceIds": [
+          "landing-model"
+        ]
+      }
+    ]
   }
 ]

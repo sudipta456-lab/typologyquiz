@@ -12460,5 +12460,314 @@
       }
     ],
     "note": "All paths, distances, permissions and step-free labels belong to a fictional graph; this is spatial reasoning, not live travel or accessibility advice."
+  },
+  {
+    "id": "GT-33",
+    "slug": "two-survey-river-channel-change",
+    "title": "Read a River Before It Moves",
+    "description": "Compare two fictional dated survey records to measure channel change against a fixed benchmark, and separate observations from unsupported claims.",
+    "categoryId": "geography-travel",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "start",
+        "title": "Same-Scale Survey Maps"
+      },
+      {
+        "id": "apply",
+        "title": "Channel Change and Landmarks"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scenarios, model records and rules authored for this quiz."
+      },
+      {
+        "id": "reference",
+        "kind": "reference",
+        "label": "USGS Channel Migration of the White River",
+        "url": "https://www.usgs.gov/maps/channel-migration-white-river-eastern-uinta-basin-utah-and-colorado"
+      }
+    ],
+    "questions": [
+      {
+        "id": "gt33-1",
+        "sectionId": "start",
+        "kind": "choice",
+        "prompt": "Which item is the best fixed reference for comparing the two dated survey records?",
+        "context": "Both fictional records list the same stone bridge benchmark at 0 meters. Registration means aligning records by a shared fixed reference; the channel itself may shift.",
+        "explanation": "The bridge is the only feature stated to stay fixed in both records; a changing channel cannot serve as the reference for its own comparison.",
+        "sourceIds": [
+          "original",
+          "reference"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The stone bridge."
+          },
+          {
+            "id": "b",
+            "label": "The north bank of the channel."
+          },
+          {
+            "id": "c",
+            "label": "The largest change polygon."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "gt33-2",
+        "sectionId": "start",
+        "kind": "match",
+        "prompt": "Match each survey-record entry to what it establishes.",
+        "context": "Fictional records: the bridge benchmark is 0 m in both years; at one transect the channel centerline is 80 m west in 2000 and 35 m east in 2020; neither record measures depth.",
+        "explanation": "The repeated benchmark anchors the comparison, the centerline measurements differ across the same transect, and an unmeasured quantity cannot be inferred from these records.",
+        "sourceIds": [
+          "original",
+          "reference"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "Bridge benchmark is 0 m in both records"
+          },
+          {
+            "id": "b",
+            "label": "Centerline moves from 80 m west to 35 m east"
+          },
+          {
+            "id": "c",
+            "label": "No depth value is recorded"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "A shared fixed reference"
+          },
+          {
+            "id": "b",
+            "label": "A lateral position change across the transect"
+          },
+          {
+            "id": "c",
+            "label": "Depth cannot be compared from these records"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "gt33-3",
+        "sectionId": "start",
+        "kind": "choice",
+        "prompt": "A row in the survey summary is tagged changed footprint. What does that tag report?",
+        "context": "The fictional summary defines changed footprint as an area where the channel occupied different ground in the two dated records; it contains no depth or crossing information.",
+        "explanation": "The changed-footprint tag compares the recorded area occupied by the channel on two dates; it says nothing about depth or crossing safety.",
+        "sourceIds": [
+          "original",
+          "reference"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A recommended safe place to cross"
+          },
+          {
+            "id": "b",
+            "label": "An area where recorded channel coverage differs between dates"
+          },
+          {
+            "id": "c",
+            "label": "The river's exact depth"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "gt33-4",
+        "sectionId": "start",
+        "kind": "order",
+        "prompt": "Order the survey workflow: define a shared benchmark, compare matching measurements, describe the difference.",
+        "context": "The records have date labels, a shared bridge benchmark, and channel measurements from the same transect. Registration means lining up records at the shared reference.",
+        "explanation": "A comparison is meaningful only after the same reference and transect are established; then the measurements can be compared and the observed difference described.",
+        "sourceIds": [
+          "original",
+          "reference"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Describe the change"
+          },
+          {
+            "id": "b",
+            "label": "Check registration using the bridge"
+          },
+          {
+            "id": "c",
+            "label": "Compare channel positions"
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "id": "gt33-5",
+        "sectionId": "apply",
+        "kind": "grid",
+        "prompt": "Choose the best conclusion for each observation.",
+        "context": "Fictional survey summary: channel footprint area was 1.4 hectares in 2000 and 1.1 hectares in 2020; the bridge benchmark is listed at 0 m in both records.",
+        "explanation": "Subtracting the later area from the earlier gives a 0.3-hectare decrease; the repeated zero confirms the benchmark is unchanged in the records.",
+        "sourceIds": [
+          "original",
+          "reference"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "Footprint area: 1.4 ha then 1.1 ha",
+            "options": [
+              {
+                "id": "a",
+                "label": "Recorded area decreased by 0.3 ha"
+              },
+              {
+                "id": "b",
+                "label": "Recorded area increased by 0.3 ha"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "Bridge benchmark: 0 m in both records",
+            "options": [
+              {
+                "id": "a",
+                "label": "The reference stayed fixed in the records"
+              },
+              {
+                "id": "b",
+                "label": "The benchmark shifted downstream in the records"
+              }
+            ],
+            "correct": "a"
+          }
+        ]
+      },
+      {
+        "id": "gt33-6",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "Two surveys measure channel width at different transects and under different water levels. What should the team do before comparing the numbers?",
+        "context": "The fictional notes list width measurements but the locations and water levels differ between dates.",
+        "explanation": "Widths from different transects or water levels are not like-for-like; matching the location and conditions makes a comparison more meaningful.",
+        "sourceIds": [
+          "original",
+          "reference"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Treat the difference as a proven long-term channel change"
+          },
+          {
+            "id": "b",
+            "label": "Compare matching transects and similar conditions, or report the limitation"
+          },
+          {
+            "id": "c",
+            "label": "Use the page margins to adjust the measurements"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "gt33-7",
+        "sectionId": "apply",
+        "kind": "match",
+        "prompt": "Match each statement to whether the fictional maps support it.",
+        "context": "The dated records show centerline positions, contain no depth measurements, and make no forecast about a later survey.",
+        "explanation": "Only centerline positions appear in the records; no depth values or later survey support the other two claims.",
+        "sourceIds": [
+          "original",
+          "reference"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "Centerline position differs between the two dates"
+          },
+          {
+            "id": "b",
+            "label": "River depth changed"
+          },
+          {
+            "id": "c",
+            "label": "The channel will move east next year"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Observed in the dated records"
+          },
+          {
+            "id": "b",
+            "label": "No depth measurement is recorded"
+          },
+          {
+            "id": "c",
+            "label": "No later survey or forecast supports this"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "gt33-8",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "The records show a channel-position difference, but include no flood, rainfall, or engineering notes. What can the team conclude about the cause?",
+        "context": "The fictional dated records establish a measured difference in channel position; they contain no information about the forces or events that produced it.",
+        "explanation": "Position measurements document a difference, but without records about flow, floods, or other forces they do not identify the cause.",
+        "sourceIds": [
+          "original",
+          "reference"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A flood definitely caused the change"
+          },
+          {
+            "id": "b",
+            "label": "The bridge caused the river to move"
+          },
+          {
+            "id": "c",
+            "label": "The records show where the channel differed, not why"
+          }
+        ],
+        "correct": "c"
+      }
+    ],
+    "note": "The river, map measurements and survey records used in the questions are fictional. The linked USGS map is real and illustrates how scientists document channel change."
   }
 ]

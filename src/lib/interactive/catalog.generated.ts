@@ -487,6 +487,20 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "PC-34",
+    "slug": "choose-science-museum-midnight-exhibit",
+    "categoryId": "personality-choices",
+    "title": "Choose Your Science Museum Midnight Exhibit",
+    "description": "Choose among invented exhibit experiences and see a descriptive summary of format preferences, not an ability or identity score.",
+    "kind": "preference",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "rank"
+    ]
+  },
+  {
     "id": "FS-01",
     "slug": "group-plan-rescue",
     "categoryId": "friends-social-play",
@@ -998,6 +1012,38 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "FS-34",
+    "slug": "the-pond-survey-handoff",
+    "categoryId": "friends-social-play",
+    "title": "The Pond Survey Handoff",
+    "description": "Read coded pond counts, combine them with a fictional route log and compare your reports in same-device pass-and-play.",
+    "kind": "cooperative",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "FS-35",
+    "slug": "two-scientists-one-landing-site",
+    "categoryId": "friends-social-play",
+    "title": "Two Scientists, One Landing Site",
+    "description": "Work through a fictional toy-landing case using a footprint card, a platform card, and a shared set of model constraints.",
+    "kind": "cooperative",
+    "minutes": 7,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
     "id": "MT-01",
     "slug": "continuity-detective-film-sets",
     "categoryId": "movies-tv",
@@ -1487,6 +1533,20 @@ export const SUMMARIES: QuizSummary[] = [
     "categoryId": "movies-tv",
     "title": "Program a One-Night Microcinema",
     "description": "Curate one fictional short-film evening: choose when the story becomes clear and how closely the films connect.",
+    "kind": "preference",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "rank"
+    ]
+  },
+  {
+    "id": "MT-33",
+    "slug": "design-creature-for-silent-film-cut",
+    "categoryId": "movies-tv",
+    "title": "Design a Creature for a Silent Film",
+    "description": "Choose how edits reveal an invented creature's biology, with a separate preference for playful or observational clues.",
     "kind": "preference",
     "minutes": 6,
     "questionCount": 8,
@@ -2003,6 +2063,22 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "MU-33",
+    "slug": "the-echo-crews-missing-sound",
+    "categoryId": "music",
+    "title": "The Echo Crew’s Missing Sound",
+    "description": "Follow labeled sound routes through a fictional corridor and use an echo clue without relying on audio or color.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
     "id": "GT-01",
     "slug": "rain-shadow-road-trip",
     "categoryId": "geography-travel",
@@ -2506,6 +2582,22 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "GT-33",
+    "slug": "two-survey-river-channel-change",
+    "categoryId": "geography-travel",
+    "title": "Read a River Before It Moves",
+    "description": "Compare two fictional dated survey records to measure channel change against a fixed benchmark, and separate observations from unsupported claims.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
     "id": "SN-01",
     "slug": "backyard-evidence-lab",
     "categoryId": "science-nature",
@@ -3004,6 +3096,488 @@ export const SUMMARIES: QuizSummary[] = [
     "categoryId": "science-nature",
     "title": "Winter Precipitation Detective",
     "description": "Use simplified temperature layers and multiple ground clues to compare snow, sleet and freezing rain.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-34",
+    "slug": "which-handle-stays-cooler",
+    "categoryId": "science-nature",
+    "title": "Which Handle Stays Cooler?",
+    "description": "Read small fictional temperature records to see how heat moves through different handles.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-35",
+    "slug": "push-pull-or-hold-still",
+    "categoryId": "science-nature",
+    "title": "Push, Pull, or Hold Still?",
+    "description": "Use direction arrows and motion notes to predict a fictional stage cart's changing motion.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid",
+      "hotspot"
+    ]
+  },
+  {
+    "id": "SN-36",
+    "slug": "why-the-ramp-feels-easier",
+    "categoryId": "science-nature",
+    "title": "Why the Ramp Feels Easier",
+    "description": "Explore a fictional cart-ramp model where lower effort trades for a longer push distance.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid",
+      "hotspot"
+    ]
+  },
+  {
+    "id": "SN-37",
+    "slug": "the-circuit-with-a-missing-link",
+    "categoryId": "science-nature",
+    "title": "The Circuit With a Missing Link",
+    "description": "Trace paper circuit diagrams and find where a simple low-voltage loop opens.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid",
+      "hotspot"
+    ]
+  },
+  {
+    "id": "SN-38",
+    "slug": "where-did-the-sugar-go",
+    "categoryId": "science-nature",
+    "title": "Where Did the Sugar Go?",
+    "description": "Standalone solo assignment using original fictional records under fixed stated model conditions, not scientific evidence or lab guidance. It distinguishes dissolving from melting and tracks matter that remains in solution.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-39",
+    "slug": "can-you-prove-a-reaction-happened",
+    "categoryId": "science-nature",
+    "title": "Can You Prove a Reaction Happened?",
+    "description": "Standalone solo assignment: evaluate before-and-after evidence while checking whether ordinary alternatives explain an observation. All scenarios and records are original fictional models.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-40",
+    "slug": "the-floating-sample-drawer",
+    "categoryId": "science-nature",
+    "title": "The Floating Sample Drawer",
+    "description": "Standalone solo assignment using an original fictional table, not scientific evidence or lab directions. Comparisons use the same fictional liquid at 20°C and exactly one fill-level control: the common 20 mL starting line.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-41",
+    "slug": "follow-the-atoms",
+    "categoryId": "science-nature",
+    "title": "Follow the Atoms",
+    "description": "Standalone solo assignment using an original fictional closed-boundary model of symbolic letter/bead particles; each task supplies the relevant model rule.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-42",
+    "slug": "erosion-gap-cliff-layers",
+    "categoryId": "science-nature",
+    "title": "The Cliff With a Missing Chapter",
+    "description": "Use rock-layer relationships and an erosion surface to reconstruct a local relative history.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-43",
+    "slug": "p-and-s-arrival-gap-detective",
+    "categoryId": "science-nature",
+    "title": "Which Quake Wave Arrived First?",
+    "description": "Read simplified seismic logs to identify wave order and use only a supplied calibration to compare distance candidates.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-44",
+    "slug": "fragment-patterns-past-connection",
+    "categoryId": "science-nature",
+    "title": "Match the Pieces of an Ancient Coast",
+    "description": "Compare independent fossil and rock-pattern clues across fictional plate fragments without treating a matching outline as proof.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-45",
+    "slug": "pebble-source-transport-and-deposit",
+    "categoryId": "science-nature",
+    "title": "A Pebble’s Trip Downstream",
+    "description": "Trace a fictional pebble's source, movement, and deposition using explicit same-density assumptions and abrasion evidence.",
+    "kind": "knowledge",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-46",
+    "slug": "which-beak-could-reach-it",
+    "categoryId": "science-nature",
+    "title": "Which Beak Could Reach It?",
+    "description": "Use a labeled paper-tool model to test how shape affects access, then keep model results separate from claims about real animals.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-47",
+    "slug": "camouflage-depends-on-the-background",
+    "categoryId": "science-nature",
+    "title": "Camouflage Depends on the Background",
+    "description": "Compare text-described pattern searches under controlled conditions and limit each conclusion to the tested model.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-48",
+    "slug": "the-leaf-litter-relay",
+    "categoryId": "science-nature",
+    "title": "The Leaf Litter Relay",
+    "description": "Follow a simple leaf-breakdown model and tell physical fragmentation from chemical breakdown without treating model counts as field evidence.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-49",
+    "slug": "the-plant-that-bent-toward-the-window",
+    "categoryId": "science-nature",
+    "title": "The Plant That Bent Toward the Window",
+    "description": "Read fictional plant-growth logs, compare controls and keep conclusions about directional light limited to the stems observed.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-50",
+    "slug": "voyagers-long-wait-for-a-reply",
+    "categoryId": "science-nature",
+    "title": "Voyager’s Long Wait for a Reply",
+    "description": "Trace a message to and from a distant spacecraft, then use a clearly fictional antenna schedule to diagnose silence without mistaking delay for failure.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-51",
+    "slug": "find-a-planet-in-the-starlight",
+    "categoryId": "science-nature",
+    "title": "Find a Planet in the Starlight",
+    "description": "Read invented brightness records for repeating dips, missing observations and follow-up checks while keeping a promising transit pattern separate from proof.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid",
+      "hotspot"
+    ]
+  },
+  {
+    "id": "SN-52",
+    "slug": "aim-a-satellite-into-orbit",
+    "categoryId": "science-nature",
+    "title": "Aim a Satellite Into Orbit",
+    "description": "Compare cartoon paths in a supplied gravity-and-sideways-motion model to distinguish a continuing orbit from a path that returns or escapes.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid",
+      "hotspot"
+    ]
+  },
+  {
+    "id": "SN-53",
+    "slug": "meteor-shower-find-the-radiant",
+    "categoryId": "science-nature",
+    "title": "Meteor Shower: Find the Radiant",
+    "description": "Trace a fictional sky map backward to find an apparent radiant, then compare shower members with sporadic meteors without mistaking perspective for a physical source point.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid",
+      "hotspot"
+    ]
+  },
+  {
+    "id": "SN-54",
+    "slug": "two-thermometers-disagree",
+    "categoryId": "science-nature",
+    "title": "Two Thermometers Disagree",
+    "description": "Use repeated reference readings to spot a constant offset, separate accuracy from precision, and decide when correction is justified.",
+    "kind": "logic",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match"
+    ]
+  },
+  {
+    "id": "SN-55",
+    "slug": "how-a-blind-taste-test-works",
+    "categoryId": "science-nature",
+    "title": "How a Blind Taste Test Works",
+    "description": "Explore how coded labels and counterbalanced order reduce expectation and order effects in a pretend study.",
+    "kind": "logic",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-56",
+    "slug": "when-the-average-hides-a-pattern",
+    "categoryId": "science-nature",
+    "title": "When the Average Hides a Pattern",
+    "description": "Compare fictional biodiversity samples with the same average but different spread, effort, and repeatability.",
+    "kind": "logic",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-57",
+    "slug": "what-would-change-your-mind",
+    "categoryId": "science-nature",
+    "title": "What Would Change Your Mind?",
+    "description": "Plan a discriminating next test by making rival explanations predict different outcomes.",
+    "kind": "logic",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-58",
+    "slug": "make-a-shadow-shrink",
+    "categoryId": "science-nature",
+    "title": "Make a Shadow Shrink",
+    "description": "Use a fictional fixed-light puppet model to predict shadow size from measured positions, then test what overlapping silhouettes do.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match"
+    ]
+  },
+  {
+    "id": "SN-59",
+    "slug": "air-has-mass-hidden-counterweight",
+    "categoryId": "science-nature",
+    "title": "Air Has Mass: The Hidden Counterweight",
+    "description": "Compare invented before-and-after records for the same fixed-volume vessel and find what the added air changes.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match"
+    ]
+  },
+  {
+    "id": "SN-60",
+    "slug": "fossil-evidence-not-snapshot",
+    "categoryId": "science-nature",
+    "title": "A Fossil Is Evidence, Not a Snapshot",
+    "description": "Read a fictional extinct animal's trackway, separate trace from body fossils, and reason carefully about an incomplete record.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match"
+    ]
+  },
+  {
+    "id": "SN-61",
+    "slug": "which-model-keeps-the-ice-cold",
+    "categoryId": "science-nature",
+    "title": "Which Model Keeps the Ice Cold?",
+    "description": "Compare fictional shelter scores, then test how an envelope, opening, moving air, and combined designs change the model result.",
+    "kind": "knowledge",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-62",
+    "slug": "invisible-ocean-elevator",
+    "categoryId": "science-nature",
+    "title": "The Invisible Ocean Elevator",
+    "description": "Use NOAA's explanation of density and sinking, then test isolated and combined changes in a clearly fictional ocean-water model.",
+    "kind": "knowledge",
+    "minutes": 7,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SN-63",
+    "slug": "check-the-claim-about-the-vanishing-ice",
+    "categoryId": "science-nature",
+    "title": "Check the Claim About the Vanishing Ice",
+    "description": "Audit fictional closed-jar and open-tray records, separating a changed label or reading from a claim the record cannot prove.",
     "kind": "knowledge",
     "minutes": 6,
     "questionCount": 8,
@@ -3526,6 +4100,22 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "HC-34",
+    "slug": "the-museums-first-space-signal",
+    "categoryId": "history-culture",
+    "title": "The Museum’s Space-Signal Archive",
+    "description": "Audit an invented museum archive to separate direct receiver records from a relayed copy and to write an exhibit label no stronger than its sources.",
+    "kind": "cooperative",
+    "minutes": 6,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
     "id": "FE-01",
     "slug": "build-a-home-cafe",
     "categoryId": "food-everyday-life",
@@ -4033,6 +4623,22 @@ export const SUMMARIES: QuizSummary[] = [
     ]
   },
   {
+    "id": "FE-34",
+    "slug": "pantry-label-mix-up-separate-the-mixture",
+    "categoryId": "food-everyday-life",
+    "title": "Pantry Label Mix-Up: Separate the Mixture",
+    "description": "Standalone solo assignment: fictional dry paper/toy sorting only. Original fictional rules make no claims about actual foods or material behavior; no real food handling, pantry/health/allergy advice, or lab directions are included.",
+    "kind": "logic",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
+  },
+  {
     "id": "SG-01",
     "slug": "co-op-role-picker",
     "categoryId": "sports-games",
@@ -4516,6 +5122,22 @@ export const SUMMARIES: QuizSummary[] = [
     "questionCount": 8,
     "formats": [
       "choice",
+      "match",
+      "grid"
+    ]
+  },
+  {
+    "id": "SG-33",
+    "slug": "build-a-safer-landing-course",
+    "categoryId": "sports-games",
+    "title": "Choose the High-Scoring Course",
+    "description": "Work together to choose a toy-car course from invented trial records and a clear game score.",
+    "kind": "cooperative",
+    "minutes": 7,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
       "match",
       "grid"
     ]
@@ -5005,10 +5627,26 @@ export const SUMMARIES: QuizSummary[] = [
       "match",
       "grid"
     ]
+  },
+  {
+    "id": "LW-33",
+    "slug": "theres-a-missing-row-in-the-lab-log",
+    "categoryId": "logic-wordplay",
+    "title": "There’s a Missing Row in the Lab Log",
+    "description": "Use fictional record rules and evidence cards to recover a missing sample ID and condition without altering results.",
+    "kind": "logic",
+    "minutes": 5,
+    "questionCount": 8,
+    "formats": [
+      "choice",
+      "order",
+      "match",
+      "grid"
+    ]
   }
 ];
 
-export const PUBLIC_SLUGS: readonly string[] = ["unplanned-saturday","tiny-decision-constitution","lost-in-cozy-bookshop","curiosity-detour","deadline-triage-festival","values-auction","place-that-feels-yours","pocket-sized-world","midnight-train-crossroads","exception-court","one-bag-unknown-door","now-or-later-bazaar","advice-swap","keep-lend-let-go","small-courage-ladder","open-door-floor-plan","sound-bed-decisions","week-in-opposites","borrowed-superpower-tradeoffs","split-decision-poll-walk","one-sentence-adventure","name-that-decision-trap","four-neighbors-tiebreakers","ten-minute-gap-planner","town-council-of-your-wants","repair-cafe-dilemmas","your-kind-of-haunted-house","the-role-behind-your-mask","costume-tradeoff-workshop","last-porch-trick-or-treat-walk","zine-with-a-missing-page","bellwick-canal-photo-walk","borrowed-workshop","group-plan-rescue","silent-consensus","pack-group-picnic","rebuild-weekend-together","two-truths-plot-twist","who-chose-that","friendship-time-capsule","everyone-wins-tournament","carpool-seat-puzzle","gift-swap-roundtable","crew-roles-backstage","surprise-party-timeline","roommate-treaty-table","spot-unspoken-assumption","pass-the-plot-pen","five-minute-group-quest","spot-it-together","group-photo-staging","pass-prompt-postcard","guess-the-opt-in-crowd","invitation-relay","split-it-squad","party-role-draft","icebreaker-ladder","everyone-gets-something-swap","lost-and-found-relay","last-bow-lantern-theatre","the-ferry-between-two-promises","the-second-seat-at-lantern-hall","fox-hood-costume-exchange","mural-four-voices","paper-stars-two-views","seed-swap-envelope-puzzle","continuity-detective-film-sets","rewatch-ritual-style","film-craft-decoder","adaptation-switchboard","cozy-or-creepy-scene-lab","unreliable-narrator-files","cinema-across-three-borders","movie-in-three-timelines","animation-technique-lab","writers-room-relay","trailer-grammar","read-the-rating-label","one-actor-three-worlds","tv-episode-anatomy","season-shape-preference","sound-design-ear-test","fan-theory-evidence-board","wardrobe-story-reader","movie-tech-problem-solvers","showrunners-season-planner","three-ways-to-follow-dialogue","how-scares-work","documentary-forms-sorter","story-shapes-tv-formats","poster-grammar-lab","foley-booth-phantom-mix","glasshouse-trailer-misdirection","pumpkin-puppet-lost-star","ghost-broadcast-shot-size-mystery","behind-a-stop-motion-face","lantern-at-low-tide-restoration","one-night-microcinema","build-opening-three-songs","festival-route-planner","behind-the-album-credits","sample-or-cover-concepts","mixtape-without-songs","instrument-sound-role-links","music-scene-passport","genre-family-tree-builder","build-the-touring-crew","music-terms-without-panic","studio-trick-translator","rehearsal-cue-chain","format-shift-listening-tech","music-myth-checkpoint","small-venue-survival-guide","read-the-room-dj","garage-band-crossroads","road-trip-playlist-treaty","predict-my-mood-duet","music-discovery-trail","describe-that-sound-out-loud","the-rhythm-switch","loop-layer-lab","mood-loops-pick-pulse","stage-plot-hotspot-hunt","shadow-duet","unfinished-sign-off-music-mystery","haunted-waltz-beat-lab","design-your-radio-ghost-sound-palette","duet-with-a-moving-lead","glass-armonica-discovery","music-box-missing-note","rain-shadow-road-trip","city-region-country-relay","time-zone-rendezvous","postcard-perspective-puzzle","mexico-beyond-the-beach","borderless-watersheds","one-river-three-clues","missing-transit-stop","seven-hour-layover-lab","twin-cities-across-the-line","mexico-altitude-ladder","midnight-sun-or-mild-evening","named-winds-lake-snow","same-distance-different-numbers","wayfinding-landmarks-or-lines","landscape-knowledge-landscape-taste","fair-midpoint-meetup","detour-diary-prairie-pacific","names-layered-on-the-map","seen-from-orbit","read-the-climate-chart","hear-the-landscape","passenger-seat-rules","itinerary-sanity-check","flat-map-round-world","fog-island-contour-navigation","spooky-movies-real-places","strange-landscapes-real-explanations","ghost-town-atlas-four-afterlives","canals-across-the-landscape","bellmere-layered-map","station-across-the-tracks","backyard-evidence-lab","moon-mission-control","scale-shock","weather-without-forecast","mystery-material","build-a-food-web","where-was-the-light","sound-you-cannot-see","the-pollinator-shift","cause-chain-courtroom","field-notebook-style","tiny-terrarium-logic","where-did-the-energy-go","fair-test-designer","rock-cycle-road-trip","night-sky-clue-hunt","who-passed-through-here","season-reasoning-gauntlet","follow-the-drop","species-under-pressure","pickles-to-pond-osmosis","freeze-thaw-pothole-predictor","predict-reveal-revise","spot-the-weak-science-claim","citizen-science-team-builder","mineral-scratch-lab","bats-beyond-the-vampire-myth","eight-lights-in-the-dark","nasa-spooky-sky-explained","pumpkin-from-flower-to-next-seed","seed-journeys-beyond-the-flower","cold-surface-detective","winter-precipitation-detective","museum-of-everyday-objects","before-the-first-iphone","archive-missing-page","fact-claim-interpretation","city-in-three-eras","how-a-word-crossed-borders","book-place-era","trade-routes-behind-breakfast","two-sources-one-event","graphic-novel-workshop","whose-voice-is-missing","time-capsule-packing","design-local-history-museum","festival-calendar-gap","pack-the-pack-train","what-the-railroad-changed","street-names-clue-or-overreach","made-by-hand-order-steps","living-cultures-museum-wall","many-hands-made-this","letters-across-the-border","the-map-was-updated","soundscapes-everyday-life","the-cropped-photograph","footnote-treasure-hunt","one-claim-five-echoes","objects-after-dark-irish-halloween","sleepy-hollow-the-chase-and-the-wink","the-strange-little-halloween-postcard-gallery","radio-play-letters-and-panic-legend","six-dots-many-hands","hereford-chained-library","two-dates-one-postcard","build-a-home-cafe","kitchen-tool-detective","flavor-triangle","fridge-to-meal-puzzle","grocery-aisle-time-machine","pantry-swap-laboratory","lunchbox-across-three-borders","texture-tournament","menu-word-decoder","mise-en-place-race","receipt-riddles","dinner-on-a-deadline","sauce-family-tree","spice-passport","cookware-casting-call","weeknight-dinner-dilemma","potluck-without-doubles","kitchen-sound-guess","counter-hotspot-hunt","plating-style-match","dish-rack-logic","seven-guests-four-servings","watch-party-snack-table","reading-night-snacks","gadget-drawer-verdict","refill-station-mix-up","candy-names-wrapper-secrets","the-secret-life-of-halloween-treats","the-after-dark-potluck-table","edible-illusion-bakery-window","what-fermentation-changes","price-tag-and-pack","after-market-tasting-counter","co-op-role-picker","watch-party-rulebook","soccer-words-across-borders","board-game-mechanic-mixer","sports-equipment-evolution","stadium-city-country-links","replay-the-turning-point","court-is-a-diagram","name-game-by-rules","scorekeepers-dictionary","boss-fight-logic-grid","what-survives-reload","table-rules-lawyer","adaptive-sports-rules-primer","womens-sports-milestone-relay","pickup-game-temperament","rule-designers-dilemma","game-accessibility-toolkit","console-controllers-decades","session-zero-wish-list","referee-signal-decoder","the-missing-point","games-from-the-americas","game-sound-sleuth","last-move-mystery","pumpkin-patch-mini-golf","night-archive-last-atlas","the-empty-chair-party-game","midnight-board-game-escape-folded-house","curling-beyond-the-stone","alder-park-first-disc-golf-hole","pickleball-first-three-shots","elevator-schedule-logic","one-rule-is-wrong","missing-punctuation-message","two-way-clue","helpful-red-herring","three-layer-alibi","museum-label-mixup","repair-transit-diagram","awkward-seating-chart","ask-one-better-question","unreliable-lighthouse-log","fold-punch-unfold","homophone-radio-relay","mirror-sign-reader","words-hiding-between-words","one-letter-sentence-fix","half-clue-handoff","hunch-or-proof","rule-sorting-machine","build-order-prerequisites","double-duty-words","which-weighing-settles-it","gatekeepers-rule","fine-print-conditionals","shift-note-decoder","ghost-alibi-clock-grid","cabinet-of-the-borrowed-voice","fog-island-the-bell-note","last-ghost-alibi-bell-at-the-gate","crossword-without-clue-numbers","letterpress-acrostic-proof","rebuild-torn-poster"];
+export const PUBLIC_SLUGS: readonly string[] = ["unplanned-saturday","tiny-decision-constitution","lost-in-cozy-bookshop","curiosity-detour","deadline-triage-festival","values-auction","place-that-feels-yours","pocket-sized-world","midnight-train-crossroads","exception-court","one-bag-unknown-door","now-or-later-bazaar","advice-swap","keep-lend-let-go","small-courage-ladder","open-door-floor-plan","sound-bed-decisions","week-in-opposites","borrowed-superpower-tradeoffs","split-decision-poll-walk","one-sentence-adventure","name-that-decision-trap","four-neighbors-tiebreakers","ten-minute-gap-planner","town-council-of-your-wants","repair-cafe-dilemmas","your-kind-of-haunted-house","the-role-behind-your-mask","costume-tradeoff-workshop","last-porch-trick-or-treat-walk","zine-with-a-missing-page","bellwick-canal-photo-walk","borrowed-workshop","choose-science-museum-midnight-exhibit","group-plan-rescue","silent-consensus","pack-group-picnic","rebuild-weekend-together","two-truths-plot-twist","who-chose-that","friendship-time-capsule","everyone-wins-tournament","carpool-seat-puzzle","gift-swap-roundtable","crew-roles-backstage","surprise-party-timeline","roommate-treaty-table","spot-unspoken-assumption","pass-the-plot-pen","five-minute-group-quest","spot-it-together","group-photo-staging","pass-prompt-postcard","guess-the-opt-in-crowd","invitation-relay","split-it-squad","party-role-draft","icebreaker-ladder","everyone-gets-something-swap","lost-and-found-relay","last-bow-lantern-theatre","the-ferry-between-two-promises","the-second-seat-at-lantern-hall","fox-hood-costume-exchange","mural-four-voices","paper-stars-two-views","seed-swap-envelope-puzzle","the-pond-survey-handoff","two-scientists-one-landing-site","continuity-detective-film-sets","rewatch-ritual-style","film-craft-decoder","adaptation-switchboard","cozy-or-creepy-scene-lab","unreliable-narrator-files","cinema-across-three-borders","movie-in-three-timelines","animation-technique-lab","writers-room-relay","trailer-grammar","read-the-rating-label","one-actor-three-worlds","tv-episode-anatomy","season-shape-preference","sound-design-ear-test","fan-theory-evidence-board","wardrobe-story-reader","movie-tech-problem-solvers","showrunners-season-planner","three-ways-to-follow-dialogue","how-scares-work","documentary-forms-sorter","story-shapes-tv-formats","poster-grammar-lab","foley-booth-phantom-mix","glasshouse-trailer-misdirection","pumpkin-puppet-lost-star","ghost-broadcast-shot-size-mystery","behind-a-stop-motion-face","lantern-at-low-tide-restoration","one-night-microcinema","design-creature-for-silent-film-cut","build-opening-three-songs","festival-route-planner","behind-the-album-credits","sample-or-cover-concepts","mixtape-without-songs","instrument-sound-role-links","music-scene-passport","genre-family-tree-builder","build-the-touring-crew","music-terms-without-panic","studio-trick-translator","rehearsal-cue-chain","format-shift-listening-tech","music-myth-checkpoint","small-venue-survival-guide","read-the-room-dj","garage-band-crossroads","road-trip-playlist-treaty","predict-my-mood-duet","music-discovery-trail","describe-that-sound-out-loud","the-rhythm-switch","loop-layer-lab","mood-loops-pick-pulse","stage-plot-hotspot-hunt","shadow-duet","unfinished-sign-off-music-mystery","haunted-waltz-beat-lab","design-your-radio-ghost-sound-palette","duet-with-a-moving-lead","glass-armonica-discovery","music-box-missing-note","the-echo-crews-missing-sound","rain-shadow-road-trip","city-region-country-relay","time-zone-rendezvous","postcard-perspective-puzzle","mexico-beyond-the-beach","borderless-watersheds","one-river-three-clues","missing-transit-stop","seven-hour-layover-lab","twin-cities-across-the-line","mexico-altitude-ladder","midnight-sun-or-mild-evening","named-winds-lake-snow","same-distance-different-numbers","wayfinding-landmarks-or-lines","landscape-knowledge-landscape-taste","fair-midpoint-meetup","detour-diary-prairie-pacific","names-layered-on-the-map","seen-from-orbit","read-the-climate-chart","hear-the-landscape","passenger-seat-rules","itinerary-sanity-check","flat-map-round-world","fog-island-contour-navigation","spooky-movies-real-places","strange-landscapes-real-explanations","ghost-town-atlas-four-afterlives","canals-across-the-landscape","bellmere-layered-map","station-across-the-tracks","two-survey-river-channel-change","backyard-evidence-lab","moon-mission-control","scale-shock","weather-without-forecast","mystery-material","build-a-food-web","where-was-the-light","sound-you-cannot-see","the-pollinator-shift","cause-chain-courtroom","field-notebook-style","tiny-terrarium-logic","where-did-the-energy-go","fair-test-designer","rock-cycle-road-trip","night-sky-clue-hunt","who-passed-through-here","season-reasoning-gauntlet","follow-the-drop","species-under-pressure","pickles-to-pond-osmosis","freeze-thaw-pothole-predictor","predict-reveal-revise","spot-the-weak-science-claim","citizen-science-team-builder","mineral-scratch-lab","bats-beyond-the-vampire-myth","eight-lights-in-the-dark","nasa-spooky-sky-explained","pumpkin-from-flower-to-next-seed","seed-journeys-beyond-the-flower","cold-surface-detective","winter-precipitation-detective","which-handle-stays-cooler","push-pull-or-hold-still","why-the-ramp-feels-easier","the-circuit-with-a-missing-link","where-did-the-sugar-go","can-you-prove-a-reaction-happened","the-floating-sample-drawer","follow-the-atoms","erosion-gap-cliff-layers","p-and-s-arrival-gap-detective","fragment-patterns-past-connection","pebble-source-transport-and-deposit","which-beak-could-reach-it","camouflage-depends-on-the-background","the-leaf-litter-relay","the-plant-that-bent-toward-the-window","voyagers-long-wait-for-a-reply","find-a-planet-in-the-starlight","aim-a-satellite-into-orbit","meteor-shower-find-the-radiant","two-thermometers-disagree","how-a-blind-taste-test-works","when-the-average-hides-a-pattern","what-would-change-your-mind","make-a-shadow-shrink","air-has-mass-hidden-counterweight","fossil-evidence-not-snapshot","which-model-keeps-the-ice-cold","invisible-ocean-elevator","check-the-claim-about-the-vanishing-ice","museum-of-everyday-objects","before-the-first-iphone","archive-missing-page","fact-claim-interpretation","city-in-three-eras","how-a-word-crossed-borders","book-place-era","trade-routes-behind-breakfast","two-sources-one-event","graphic-novel-workshop","whose-voice-is-missing","time-capsule-packing","design-local-history-museum","festival-calendar-gap","pack-the-pack-train","what-the-railroad-changed","street-names-clue-or-overreach","made-by-hand-order-steps","living-cultures-museum-wall","many-hands-made-this","letters-across-the-border","the-map-was-updated","soundscapes-everyday-life","the-cropped-photograph","footnote-treasure-hunt","one-claim-five-echoes","objects-after-dark-irish-halloween","sleepy-hollow-the-chase-and-the-wink","the-strange-little-halloween-postcard-gallery","radio-play-letters-and-panic-legend","six-dots-many-hands","hereford-chained-library","two-dates-one-postcard","the-museums-first-space-signal","build-a-home-cafe","kitchen-tool-detective","flavor-triangle","fridge-to-meal-puzzle","grocery-aisle-time-machine","pantry-swap-laboratory","lunchbox-across-three-borders","texture-tournament","menu-word-decoder","mise-en-place-race","receipt-riddles","dinner-on-a-deadline","sauce-family-tree","spice-passport","cookware-casting-call","weeknight-dinner-dilemma","potluck-without-doubles","kitchen-sound-guess","counter-hotspot-hunt","plating-style-match","dish-rack-logic","seven-guests-four-servings","watch-party-snack-table","reading-night-snacks","gadget-drawer-verdict","refill-station-mix-up","candy-names-wrapper-secrets","the-secret-life-of-halloween-treats","the-after-dark-potluck-table","edible-illusion-bakery-window","what-fermentation-changes","price-tag-and-pack","after-market-tasting-counter","pantry-label-mix-up-separate-the-mixture","co-op-role-picker","watch-party-rulebook","soccer-words-across-borders","board-game-mechanic-mixer","sports-equipment-evolution","stadium-city-country-links","replay-the-turning-point","court-is-a-diagram","name-game-by-rules","scorekeepers-dictionary","boss-fight-logic-grid","what-survives-reload","table-rules-lawyer","adaptive-sports-rules-primer","womens-sports-milestone-relay","pickup-game-temperament","rule-designers-dilemma","game-accessibility-toolkit","console-controllers-decades","session-zero-wish-list","referee-signal-decoder","the-missing-point","games-from-the-americas","game-sound-sleuth","last-move-mystery","pumpkin-patch-mini-golf","night-archive-last-atlas","the-empty-chair-party-game","midnight-board-game-escape-folded-house","curling-beyond-the-stone","alder-park-first-disc-golf-hole","pickleball-first-three-shots","build-a-safer-landing-course","elevator-schedule-logic","one-rule-is-wrong","missing-punctuation-message","two-way-clue","helpful-red-herring","three-layer-alibi","museum-label-mixup","repair-transit-diagram","awkward-seating-chart","ask-one-better-question","unreliable-lighthouse-log","fold-punch-unfold","homophone-radio-relay","mirror-sign-reader","words-hiding-between-words","one-letter-sentence-fix","half-clue-handoff","hunch-or-proof","rule-sorting-machine","build-order-prerequisites","double-duty-words","which-weighing-settles-it","gatekeepers-rule","fine-print-conditionals","shift-note-decoder","ghost-alibi-clock-grid","cabinet-of-the-borrowed-voice","fog-island-the-bell-note","last-ghost-alibi-bell-at-the-gate","crossword-without-clue-numbers","letterpress-acrostic-proof","rebuild-torn-poster","theres-a-missing-row-in-the-lab-log"];
 
 export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: number }[] = [
   {
@@ -5177,6 +5815,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "PC-34",
+    "slug": "choose-science-museum-midnight-exhibit",
+    "version": 1
+  },
+  {
     "id": "FS-01",
     "slug": "group-plan-rescue",
     "version": 1
@@ -5342,6 +5985,16 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "FS-34",
+    "slug": "the-pond-survey-handoff",
+    "version": 1
+  },
+  {
+    "id": "FS-35",
+    "slug": "two-scientists-one-landing-site",
+    "version": 1
+  },
+  {
     "id": "MT-01",
     "slug": "continuity-detective-film-sets",
     "version": 1
@@ -5499,6 +6152,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
   {
     "id": "MT-32",
     "slug": "one-night-microcinema",
+    "version": 1
+  },
+  {
+    "id": "MT-33",
+    "slug": "design-creature-for-silent-film-cut",
     "version": 1
   },
   {
@@ -5662,6 +6320,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "MU-33",
+    "slug": "the-echo-crews-missing-sound",
+    "version": 1
+  },
+  {
     "id": "GT-01",
     "slug": "rain-shadow-road-trip",
     "version": 1
@@ -5819,6 +6482,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
   {
     "id": "GT-32",
     "slug": "station-across-the-tracks",
+    "version": 1
+  },
+  {
+    "id": "GT-33",
+    "slug": "two-survey-river-channel-change",
     "version": 1
   },
   {
@@ -5987,6 +6655,156 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "SN-34",
+    "slug": "which-handle-stays-cooler",
+    "version": 1
+  },
+  {
+    "id": "SN-35",
+    "slug": "push-pull-or-hold-still",
+    "version": 1
+  },
+  {
+    "id": "SN-36",
+    "slug": "why-the-ramp-feels-easier",
+    "version": 1
+  },
+  {
+    "id": "SN-37",
+    "slug": "the-circuit-with-a-missing-link",
+    "version": 1
+  },
+  {
+    "id": "SN-38",
+    "slug": "where-did-the-sugar-go",
+    "version": 1
+  },
+  {
+    "id": "SN-39",
+    "slug": "can-you-prove-a-reaction-happened",
+    "version": 1
+  },
+  {
+    "id": "SN-40",
+    "slug": "the-floating-sample-drawer",
+    "version": 1
+  },
+  {
+    "id": "SN-41",
+    "slug": "follow-the-atoms",
+    "version": 1
+  },
+  {
+    "id": "SN-42",
+    "slug": "erosion-gap-cliff-layers",
+    "version": 1
+  },
+  {
+    "id": "SN-43",
+    "slug": "p-and-s-arrival-gap-detective",
+    "version": 1
+  },
+  {
+    "id": "SN-44",
+    "slug": "fragment-patterns-past-connection",
+    "version": 1
+  },
+  {
+    "id": "SN-45",
+    "slug": "pebble-source-transport-and-deposit",
+    "version": 1
+  },
+  {
+    "id": "SN-46",
+    "slug": "which-beak-could-reach-it",
+    "version": 1
+  },
+  {
+    "id": "SN-47",
+    "slug": "camouflage-depends-on-the-background",
+    "version": 1
+  },
+  {
+    "id": "SN-48",
+    "slug": "the-leaf-litter-relay",
+    "version": 1
+  },
+  {
+    "id": "SN-49",
+    "slug": "the-plant-that-bent-toward-the-window",
+    "version": 1
+  },
+  {
+    "id": "SN-50",
+    "slug": "voyagers-long-wait-for-a-reply",
+    "version": 1
+  },
+  {
+    "id": "SN-51",
+    "slug": "find-a-planet-in-the-starlight",
+    "version": 1
+  },
+  {
+    "id": "SN-52",
+    "slug": "aim-a-satellite-into-orbit",
+    "version": 1
+  },
+  {
+    "id": "SN-53",
+    "slug": "meteor-shower-find-the-radiant",
+    "version": 1
+  },
+  {
+    "id": "SN-54",
+    "slug": "two-thermometers-disagree",
+    "version": 1
+  },
+  {
+    "id": "SN-55",
+    "slug": "how-a-blind-taste-test-works",
+    "version": 1
+  },
+  {
+    "id": "SN-56",
+    "slug": "when-the-average-hides-a-pattern",
+    "version": 1
+  },
+  {
+    "id": "SN-57",
+    "slug": "what-would-change-your-mind",
+    "version": 1
+  },
+  {
+    "id": "SN-58",
+    "slug": "make-a-shadow-shrink",
+    "version": 1
+  },
+  {
+    "id": "SN-59",
+    "slug": "air-has-mass-hidden-counterweight",
+    "version": 1
+  },
+  {
+    "id": "SN-60",
+    "slug": "fossil-evidence-not-snapshot",
+    "version": 1
+  },
+  {
+    "id": "SN-61",
+    "slug": "which-model-keeps-the-ice-cold",
+    "version": 1
+  },
+  {
+    "id": "SN-62",
+    "slug": "invisible-ocean-elevator",
+    "version": 1
+  },
+  {
+    "id": "SN-63",
+    "slug": "check-the-claim-about-the-vanishing-ice",
+    "version": 1
+  },
+  {
     "id": "HC-01",
     "slug": "museum-of-everyday-objects",
     "version": 1
@@ -6149,6 +6967,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
   {
     "id": "HC-33",
     "slug": "two-dates-one-postcard",
+    "version": 1
+  },
+  {
+    "id": "HC-34",
+    "slug": "the-museums-first-space-signal",
     "version": 1
   },
   {
@@ -6317,6 +7140,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "FE-34",
+    "slug": "pantry-label-mix-up-separate-the-mixture",
+    "version": 1
+  },
+  {
     "id": "SG-01",
     "slug": "co-op-role-picker",
     "version": 1
@@ -6477,6 +7305,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
     "version": 1
   },
   {
+    "id": "SG-33",
+    "slug": "build-a-safer-landing-course",
+    "version": 1
+  },
+  {
     "id": "LW-01",
     "slug": "elevator-schedule-logic",
     "version": 1
@@ -6634,6 +7467,11 @@ export const QUIZ_IDENTITIES: readonly { id: string; slug: string; version: numb
   {
     "id": "LW-32",
     "slug": "rebuild-torn-poster",
+    "version": 1
+  },
+  {
+    "id": "LW-33",
+    "slug": "theres-a-missing-row-in-the-lab-log",
     "version": 1
   }
 ];

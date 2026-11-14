@@ -13114,5 +13114,321 @@
       }
     ],
     "note": "All samples, pairings and visitors are fictional. Results describe your counter plan, not nutritional value or taste quality."
+  },
+  {
+    "id": "FE-34",
+    "slug": "pantry-label-mix-up-separate-the-mixture",
+    "title": "Pantry Label Mix-Up: Separate the Mixture",
+    "description": "Standalone solo assignment: fictional dry paper/toy sorting only. Original fictional rules make no claims about actual foods or material behavior; no real food handling, pantry/health/allergy advice, or lab directions are included.",
+    "categoryId": "food-everyday-life",
+    "kind": "logic",
+    "version": 1,
+    "wave": "catchup-2026-11-13",
+    "playMode": "solo",
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "start",
+        "title": "Paper-Model Sorting"
+      },
+      {
+        "id": "apply",
+        "title": "Choose a Property"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scenarios, model records and rules authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "fe34-1",
+        "sectionId": "start",
+        "kind": "choice",
+        "prompt": "In the original fictional paper-token mockup, the mesh opening is 2 mm: 4 mm squares are retained and 1 mm circles pass. Which feature does the screen-caught label describe?",
+        "context": "Exact fictional rule: a paper piece passes if its width is less than 2 mm and is retained if its width is 2 mm or greater. These sizes and rules are invented for this model only.",
+        "explanation": "The rule compares width with the opening: 4 mm is at least 2 mm and is retained, while 1 mm is below 2 mm and passes; color is irrelevant to this sorting step.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Color only"
+          },
+          {
+            "id": "b",
+            "label": "Particle size"
+          },
+          {
+            "id": "c",
+            "label": "Token stripe pattern"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "fe34-2",
+        "sectionId": "start",
+        "kind": "match",
+        "prompt": "Match each modeled tool to the property it separates.",
+        "context": "Original fictional dry-paper/toy props only: the mesh has a 2 mm opening; 1 mm circles pass, 4 mm squares are retained; a labeled toy magnet pulls striped tokens from the pieces that pass through; a divider sorts by outline.",
+        "explanation": "The mesh applies the stated size cutoff, the explicitly labeled toy magnet follows its separate striped-token rule, and the tray divider sorts outlines. One property does not imply another.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "A mesh that catches large squares"
+          },
+          {
+            "id": "b",
+            "label": "A toy magnet that pulls striped tokens"
+          },
+          {
+            "id": "c",
+            "label": "A tray divider that separates circles from triangles"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "Shape"
+          },
+          {
+            "id": "b",
+            "label": "Magnet response"
+          },
+          {
+            "id": "c",
+            "label": "Size"
+          }
+        ],
+        "pairs": {
+          "a": "c",
+          "b": "b",
+          "c": "a"
+        }
+      },
+      {
+        "id": "fe34-3",
+        "sectionId": "start",
+        "kind": "grid",
+        "prompt": "Predict where each paper token finishes in the original fictional paper-token model.",
+        "context": "Original fictional paper rules: 2 mm mesh; 4 mm squares are retained; 1 mm circles pass. The labeled toy magnet pulls only striped tokens that pass through; this is a toy rule, not a material claim.",
+        "explanation": "The 4 mm square is too wide for the opening; both 1 mm circles pass, but only the striped one matches the separate toy-magnet rule.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "A small striped circle",
+            "options": [
+              {
+                "id": "a",
+                "label": "Passes the mesh, then is pulled by the magnet"
+              },
+              {
+                "id": "b",
+                "label": "Is caught by the mesh before reaching the magnet"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "A large plain square",
+            "options": [
+              {
+                "id": "a",
+                "label": "Passes the mesh and is pulled by the magnet"
+              },
+              {
+                "id": "b",
+                "label": "Is caught by the mesh before reaching the magnet"
+              }
+            ],
+            "correct": "b"
+          },
+          {
+            "id": "c",
+            "label": "A small plain circle",
+            "options": [
+              {
+                "id": "a",
+                "label": "Is caught by the mesh"
+              },
+              {
+                "id": "b",
+                "label": "Passes the mesh and stays in the pass-through group"
+              }
+            ],
+            "correct": "b"
+          }
+        ]
+      },
+      {
+        "id": "fe34-4",
+        "sectionId": "start",
+        "kind": "order",
+        "prompt": "Order the fictional record-review steps for sorting paper tokens in the mockup; no real food or lab activity is involved.",
+        "context": "The fictional display hides its first result until someone identifies the rule on the matching label. The magnet applies only to pieces that pass the mesh.",
+        "explanation": "Reading the label unlocks the first record. The mesh result identifies which tokens remain eligible for the magnet, and only then can every final bin be recorded.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Read the first jar label to unlock its sorting record."
+          },
+          {
+            "id": "b",
+            "label": "Read the mesh record and identify the pieces that passed."
+          },
+          {
+            "id": "c",
+            "label": "Apply the toy-magnet rule to those pass-through pieces."
+          },
+          {
+            "id": "d",
+            "label": "Record each token in its final group."
+          }
+        ],
+        "correctOrder": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": "fe34-5",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "A large striped square is the only token and each tool acts only on the pieces still unsorted. What changes if the toy magnet goes first?",
+        "context": "The mesh would catch the square. The toy magnet can pull any striped token that reaches it. Each tool sets aside the tokens it catches.",
+        "explanation": "With the magnet first, the striped square is set aside before it reaches the mesh. The sequence changes which bin gets a token that meets both sorting rules.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The square still finishes in the mesh bin."
+          },
+          {
+            "id": "b",
+            "label": "The square finishes in the unsorted bin."
+          },
+          {
+            "id": "c",
+            "label": "The square finishes in the magnet bin."
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "fe34-6",
+        "sectionId": "apply",
+        "kind": "match",
+        "prompt": "Match each test result to the model rule it suggests checking.",
+        "context": "Original fictional paper/toy record, not a real-material calibration: small tokens pass the mesh, striped pass-through tokens are pulled by the toy magnet, and the divider separates circles from triangles. Each observation isolates one stated rule.",
+        "explanation": "Each observation directly tests a different tool: mesh for size, magnet for the marked response and divider for outline.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "A small token stays on the mesh."
+          },
+          {
+            "id": "b",
+            "label": "A striped token that passed through the mesh stays beside the toy magnet."
+          },
+          {
+            "id": "c",
+            "label": "A circle and a triangle go to the same divider bin."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "The mesh opening rule"
+          },
+          {
+            "id": "b",
+            "label": "The magnet response rule"
+          },
+          {
+            "id": "c",
+            "label": "The shape divider rule"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "fe34-7",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "Two unmarked paper tokens are the same size, so both pass through the mesh; neither responds to the toy magnet. One is a circle and one is a triangle. Which method can separate them in this model?",
+        "context": "The mockup's tray divider can route circles and triangles to different bins by outline.",
+        "explanation": "Size and magnet response do not distinguish these tokens, but their outlines differ, so the shape divider can separate them.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Use the tray divider to sort by shape."
+          },
+          {
+            "id": "b",
+            "label": "Repeat the magnet step; both tokens respond equally."
+          },
+          {
+            "id": "c",
+            "label": "Use a finer mesh even though the tokens are the same size."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "fe34-8",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "The labels on two fictional paper-token bins were swapped. Bin A holds large plain squares and says “MAGNET.” Bin B holds small striped circles and says “MESH.” Which correction fits the records?",
+        "context": "Only original fictional props are involved: the 2 mm mesh retains 4 mm squares and passes 1 mm circles; the labeled toy magnet pulls striped pass-through tokens.",
+        "explanation": "Bin A contains tokens sorted by the mesh rule, while Bin B contains tokens that pass the mesh and match the separate toy-magnet rule. Switching the labels matches the mockup records, not any real-world material claim.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Leave A labeled MAGNET and B labeled MESH."
+          },
+          {
+            "id": "b",
+            "label": "Label A MESH and B MAGNET."
+          },
+          {
+            "id": "c",
+            "label": "Label both bins MESH."
+          }
+        ],
+        "correct": "b"
+      }
+    ]
   }
 ]

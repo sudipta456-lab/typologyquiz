@@ -13,7 +13,7 @@ Six things share one site.
 3. 63 type-in and map trivia quizzes plus 2 rapid rounds. Geography, science, general knowledge and timeline recall with clear answers.
 4. Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.
 5. Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. Some carry state inside share links; recipients can read that information, and hosting services receive request URLs without fragments. Most Likely To exports an image card instead.
-6. 325 interactive quizzes in 10 categories. Short original tasks such as matching, ordering, link maps, grids, listening and diagram questions. Knowledge tasks have right answers; choice-based quizzes only describe the player's own choices. Answers are scored in the browser.
+6. 365 interactive quizzes in 10 categories. Short original tasks such as matching, ordering, link maps, grids, listening and diagram questions. Knowledge tasks have right answers; choice-based quizzes only describe the player's own choices. Answers are scored in the browser.
 
 Taking a quiz does not require an account or contact details. There is no advertising. Optional reflection notes stay in the browser and do not enroll the visitor in research. Generic traffic measurement is separate from answers, scores and notes. Result and social links deliberately carry shared information; hosting and optional server services process requests. See About & privacy for details.
 
@@ -24,7 +24,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 ## Key pages
 
 - [Home](https://typologyquiz.com/): all six sections in one place
-- [Interactive quizzes](https://typologyquiz.com/quizzes/): 325 short original quizzes in 10 categories
+- [Interactive quizzes](https://typologyquiz.com/quizzes/): 365 short original quizzes in 10 categories
 - [All quizzes](https://typologyquiz.com/tests/): browse all 67 personality quizzes
 - [Trivia](https://typologyquiz.com/trivia/): 63 timed type-in and map quizzes plus 2 rapid rounds
 - [Movie quizzes](https://typologyquiz.com/trivia/movies/): 15 original movie and movie-character quizzes, 8 sourced questions each
@@ -35,7 +35,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 - [About](https://typologyquiz.com/about/): what the site is and how it handles privacy
 - [Credits](https://typologyquiz.com/credits/): instruments and sources
 - [Methodology and evidence](https://typologyquiz.com/methodology/): purpose, source evidence, version history and limits for every assessment
-- [Interactive quiz methodology](https://typologyquiz.com/methodology/interactive-quizzes/): how the 325 interactive quizzes are scored, sourced, reviewed and kept private
+- [Interactive quiz methodology](https://typologyquiz.com/methodology/interactive-quizzes/): how the 365 interactive quizzes are scored, sourced, reviewed and kept private
 - [Weekly news quizzes](https://typologyquiz.com/weekly/): dated published editions and permanent version links; new rounds require editorial review
 - [World Space Week 2026 group quiz](https://typologyquiz.com/world-space-week-2026/): a dated October 4–10 host guide for the Night Sky live session. A general-knowledge conversation starter, not an official World Space Week event or science assessment.
 
@@ -43,7 +43,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 
 The main methodology page at https://typologyquiz.com/methodology/ explains how several quiz families combine: personality tests with purpose and evidence labels, the interactive collection with supplied cases and mixed formats, scored trivia, and driving practice with official handbook explanations. They have different purposes and scoring and are documented separately. This describes what the site offers and makes no claim about other sites.
 
-The page at https://typologyquiz.com/methodology/interactive-quizzes/ documents the 325 interactive quizzes: 2600 authored tasks across 10 categories in 10 task formats. What is distinctive is the combination, not any single feature: original cases that state their own rules and data, reference sources shown beside tasks that rest on real facts, objective scoring kept separate from preference description, and private play with no account.
+The page at https://typologyquiz.com/methodology/interactive-quizzes/ documents the 365 interactive quizzes: 2920 authored tasks across 10 categories in 10 task formats. What is distinctive is the combination, not any single feature: original cases that state their own rules and data, reference sources shown beside tasks that rest on real facts, objective scoring kept separate from preference description, and private play with no account.
 
 - Scoring: every scored task has equal weight, and route choices and explicitly ungraded predictions are not scored, so the scored count can be below the authored count. Ordering, matching, link-map and grid tasks can earn partial credit, false links in a link map are penalized, and any order that satisfies the stated rules is accepted. Preference choices are described relative to the options in the same task, with no norms, diagnosis or scientific validation.
 - Sources: the task review shows each explanation and its sources. Invented contexts in original cases are labeled, cases may still cite real facts with a visible reference, and survey-style quizzes use explicitly fictional datasets, not real polls. No learning outcome has been validated.
@@ -280,11 +280,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 
 ## Interactive quizzes
 
-325 short quizzes in 10 categories at https://typologyquiz.com/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones and reading original diagrams. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data and sounds are original to this site, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.
+365 short quizzes in 10 categories at https://typologyquiz.com/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones and reading original diagrams. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data and sounds are original to this site, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.
 
 ### Personality & Choices
 
-- [Personality & Choices quizzes](https://typologyquiz.com/quizzes/category/personality-choices/): 33 quizzes. Small scenarios that show how you like to decide, plan and spend your time.
+- [Personality & Choices quizzes](https://typologyquiz.com/quizzes/category/personality-choices/): 34 quizzes. Small scenarios that show how you like to decide, plan and spend your time.
 - [The Unplanned Saturday](https://typologyquiz.com/quizzes/unplanned-saturday/): Your plans cancel and the day is blank. Make six quick Saturday choices and order two sets of day blocks to see how you spend open time. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Your Tiny Decision Constitution](https://typologyquiz.com/quizzes/tiny-decision-constitution/): Draft small decision rules as constitution articles, rank the ones you would defend, and apply them to low-stakes dilemmas like bakeries and notebooks. Your preference scales run from Keep Options Open to Commit Early and from Gut to Evidence. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Lost in a Cozy Bookshop](https://typologyquiz.com/quizzes/lost-in-cozy-bookshop/): Wander an invented bookshop with creaky stairs and odd shelves, then decide which details you would keep to reveal how you browse. (8 tasks, about 4 min; own-choice summary, no right answers)
@@ -318,10 +318,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [The Zine With a Missing Page](https://typologyquiz.com/quizzes/zine-with-a-missing-page/): An unfinished bridge story has one missing page. Make eight editorial decisions about cuts, contradictions and reader routes; compare two descriptive design preferences at the end. (8 tasks, about 5 min; own-choice summary, no right answers)
 - [The Bellwick Canal Photo Walk](https://typologyquiz.com/quizzes/bellwick-canal-photo-walk/): Imagine a photo walk on a fictional canal loop. Choose which subjects to frame and how closely to follow the walk card. (8 tasks, about 6 min; own-choice summary, no right answers)
 - [The Borrowed Workshop](https://typologyquiz.com/quizzes/borrowed-workshop/): At a fictional drop-in craft workshop, decide how you would begin a new project and revise it. (8 tasks, about 6 min; own-choice summary, no right answers)
+- [Choose Your Science Museum Midnight Exhibit](https://typologyquiz.com/quizzes/choose-science-museum-midnight-exhibit/): Choose among invented exhibit experiences and see a descriptive summary of format preferences, not an ability or identity score. (8 tasks, about 6 min; own-choice summary, no right answers)
 
 ### Friends & Social Play
 
-- [Friends & Social Play quizzes](https://typologyquiz.com/quizzes/category/friends-social-play/): 33 quizzes. Games to play with the people next to you, from pass-and-play rounds to group puzzles.
+- [Friends & Social Play quizzes](https://typologyquiz.com/quizzes/category/friends-social-play/): 35 quizzes. Games to play with the people next to you, from pass-and-play rounds to group puzzles.
 - [The Group Plan Rescue](https://typologyquiz.com/quizzes/group-plan-rescue/): Patch a fictional crew's rain-soaked outing with your group: pick fixes, order rescue steps from stated rules, and decide what to keep or cut. Your picks land on a Careful Patch to Quick Pivot scale and a Protect the Main Event to Reinvent the Outing scale. (8 tasks, about 4 min; scored tasks plus separate own-choice summary)
 - [Silent Consensus](https://typologyquiz.com/quizzes/silent-consensus/): Pass one device around. Each player privately orders lists and picks sides without talking, then the group compares answers to see where you line up and where you split. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Pack the Group Picnic](https://typologyquiz.com/quizzes/pack-group-picnic/): Solve eight clue-based packing puzzles for four invented picnic guests, matching snacks, seats, bags and gear to people and sharing pairs. (8 tasks, about 5 min; scored logic tasks)
@@ -355,10 +356,12 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [The Mural in Four Voices](https://typologyquiz.com/quizzes/mural-four-voices/): Restore a fictional mural by combining makers’ evidence, a mirrored photograph, two partial views and an unveiling agreement. Its final invitation needs all four panels. (8 tasks, about 7 min; shared puzzle with scored tasks)
 - [Paper Stars, Two Views](https://typologyquiz.com/quizzes/paper-stars-two-views/): Compare witnesses and records from a fictional community-room mishap, trace a missing paper star and decide what the evidence supports. (8 tasks, about 6 min; shared puzzle with scored tasks)
 - [The Seed-Swap Envelope Puzzle](https://typologyquiz.com/quizzes/seed-swap-envelope-puzzle/): Rebuild three mismatched fictional swap envelopes from printed records, then handle a missing clue fairly. (8 tasks, about 6 min; shared puzzle with scored tasks)
+- [The Pond Survey Handoff](https://typologyquiz.com/quizzes/the-pond-survey-handoff/): Read coded pond counts, combine them with a fictional route log and compare your reports in same-device pass-and-play. (8 tasks, about 6 min; shared puzzle with scored tasks)
+- [Two Scientists, One Landing Site](https://typologyquiz.com/quizzes/two-scientists-one-landing-site/): Work through a fictional toy-landing case using a footprint card, a platform card, and a shared set of model constraints. (8 tasks, about 7 min; shared puzzle with scored tasks)
 
 ### Movies & TV
 
-- [Movies & TV quizzes](https://typologyquiz.com/quizzes/category/movies-tv/): 32 quizzes. Screen stories, genres and the craft behind them, with no clips or posters needed.
+- [Movies & TV quizzes](https://typologyquiz.com/quizzes/category/movies-tv/): 33 quizzes. Screen stories, genres and the craft behind them, with no clips or posters needed.
 - [Continuity Detective](https://typologyquiz.com/quizzes/continuity-detective-film-sets/): Read original, invented scene notes to spot the mismatched detail, match each slip to the crew role that would catch it, then put takes in an order that keeps the scene consistent. (8 tasks, about 4 min; scored knowledge tasks)
 - [Your Rewatch Ritual Style](https://typologyquiz.com/quizzes/rewatch-ritual-style/): Three quick choices, two sliders, two matches and a ranking place your rewatch habits on two descriptive scales: Background Comfort vs Detail-Hunting, and Scene-Hopping vs Full-Story Replay. (8 tasks, about 3 min; own-choice summary, no right answers)
 - [Film Craft Decoder](https://typologyquiz.com/quizzes/film-craft-decoder/): Match film terms to plain definitions, then decode original text-only scene descriptions and contrast similar camera and editing techniques. (8 tasks, about 4 min; scored knowledge tasks)
@@ -391,10 +394,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Behind a Stop-Motion Face](https://typologyquiz.com/quizzes/behind-a-stop-motion-face/): Eight production choices reveal how a tangible puppet, camera and digital finishing can share one stop-motion shot. (8 tasks, about 6 min; scored knowledge tasks)
 - [The Lantern at Low Tide: Restore the Missing Reel](https://typologyquiz.com/quizzes/lantern-at-low-tide-restoration/): Reassemble a fictional silent short from complementary prints, titles, and a visible gap. (8 tasks, about 7 min; scored knowledge tasks)
 - [Program a One-Night Microcinema](https://typologyquiz.com/quizzes/one-night-microcinema/): Curate one fictional short-film evening: choose when the story becomes clear and how closely the films connect. (8 tasks, about 6 min; own-choice summary, no right answers)
+- [Design a Creature for a Silent Film](https://typologyquiz.com/quizzes/design-creature-for-silent-film-cut/): Choose how edits reveal an invented creature's biology, with a separate preference for playful or observational clues. (8 tasks, about 6 min; own-choice summary, no right answers)
 
 ### Music
 
-- [Music quizzes](https://typologyquiz.com/quizzes/category/music/): 32 quizzes. Rhythm, pitch, instruments and the ideas behind songs, with listening tasks that use original tones.
+- [Music quizzes](https://typologyquiz.com/quizzes/category/music/): 33 quizzes. Rhythm, pitch, instruments and the ideas behind songs, with listening tasks that use original tones.
 - [Build the Opening Three Songs](https://typologyquiz.com/quizzes/build-opening-three-songs/): Design the first three moments of a set using mood cards instead of song titles, then see where your opening style lands on two axes. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Festival Route Planner](https://typologyquiz.com/quizzes/festival-route-planner/): Solve two fictional festival schedules with ordering clues, check set clashes against walking times, then choose the route repairs that fix stated problems. (8 tasks, about 5 min; scored logic tasks)
 - [Behind the Album Credits](https://typologyquiz.com/quizzes/behind-the-album-credits/): Read invented liner notes, match credit lines to typical jobs, order a recording workflow, and decide who to ask when a fictional album hits a problem. (8 tasks, about 4 min; scored knowledge tasks)
@@ -427,10 +431,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [A Duet With a Moving Lead](https://typologyquiz.com/quizzes/duet-with-a-moving-lead/): Arrange an invented duet by choosing how a second line changes the first and which performer carries a returning idea. (8 tasks, about 6 min; own-choice summary, no right answers)
 - [The Glass Armonica, Up Close](https://typologyquiz.com/quizzes/glass-armonica-discovery/): Discover Franklin’s rotating glass instrument, then choose how you would introduce it to an audience. (8 tasks, about 6 min; scored tasks plus separate own-choice summary)
 - [The Music Box With a Missing Note](https://typologyquiz.com/quizzes/music-box-missing-note/): Use pin totals and row constraints to reconstruct a fictional strip, then separate a paper gap from a physical fault. (8 tasks, about 6 min; scored knowledge tasks)
+- [The Echo Crew’s Missing Sound](https://typologyquiz.com/quizzes/the-echo-crews-missing-sound/): Follow labeled sound routes through a fictional corridor and use an echo clue without relying on audio or color. (8 tasks, about 6 min; scored knowledge tasks)
 
 ### Geography & Travel
 
-- [Geography & Travel quizzes](https://typologyquiz.com/quizzes/category/geography-travel/): 32 quizzes. Maps, routes, places and the practical puzzles of getting somewhere.
+- [Geography & Travel quizzes](https://typologyquiz.com/quizzes/category/geography-travel/): 33 quizzes. Maps, routes, places and the practical puzzles of getting somewhere.
 - [Rain Shadow Road Trip](https://typologyquiz.com/quizzes/rain-shadow-road-trip/): Plan a drive across an invented mountain range: pick the drier stops, order route legs by expected rainfall using supplied rules, and match landforms to their weather effects. (8 tasks, about 4 min; scored knowledge tasks)
 - [City-Region-Country Relay](https://typologyquiz.com/quizzes/city-region-country-relay/): Pass real cities to their provinces, estados or states, sort those regions into Canada, Mexico or the United States, then complete city-region-country chains across all three countries. (8 tasks, about 4 min; scored knowledge tasks)
 - [The Time-Zone Rendezvous](https://typologyquiz.com/quizzes/time-zone-rendezvous/): Solve eight clock puzzles using fixed October 18, 2026 UTC offsets: convert meeting times, check availability windows, and sort cities by local clock time. (8 tasks, about 5 min; scored logic tasks)
@@ -463,10 +468,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Canals That Cross a Landscape](https://typologyquiz.com/quizzes/canals-across-the-landscape/): Trace how Canadian waterways join basins, bypass falls and move vessels across changes in elevation. (8 tasks, about 6 min; scored knowledge tasks)
 - [Bellmere Landing: One Place, Many Map Layers](https://typologyquiz.com/quizzes/bellmere-layered-map/): Build an honest walking-exhibit caption from a fictional place's dated imagery and map layers. (8 tasks, about 7 min; scored knowledge tasks)
 - [The Station Across the Tracks](https://typologyquiz.com/quizzes/station-across-the-tracks/): Navigate a fictional plaza network where the closest platform by sight is not always the reachable entrance. (8 tasks, about 6 min; scored logic tasks)
+- [Read a River Before It Moves](https://typologyquiz.com/quizzes/two-survey-river-channel-change/): Compare two fictional dated survey records to measure channel change against a fixed benchmark, and separate observations from unsupported claims. (8 tasks, about 5 min; scored knowledge tasks)
 
 ### Science & Nature
 
-- [Science & Nature quizzes](https://typologyquiz.com/quizzes/category/science-nature/): 33 quizzes. Living things, materials, weather and space, explained through short tasks.
+- [Science & Nature quizzes](https://typologyquiz.com/quizzes/category/science-nature/): 63 quizzes. Living things, materials, weather and space, explained through short tasks.
 - [Backyard Evidence Lab](https://typologyquiz.com/quizzes/backyard-evidence-lab/): Read small invented observation tables, sort what they support from what needs an experiment, order field-note steps, and match clues to their evidence type. (8 tasks, about 5 min; scored knowledge tasks)
 - [Moon Mission Control](https://typologyquiz.com/quizzes/moon-mission-control/): Play flight controller across eight calls: sequence launch steps, solve transit problems, and match return constraints to reasons, then check your accuracy and read the explanations. (8 tasks, about 5 min; scored knowledge tasks)
 - [Scale Shock](https://typologyquiz.com/quizzes/scale-shock/): Sort invented specimen cards by size after converting mixed units, then answer four scale-bar and size-comparison questions. (8 tasks, about 4 min; scored knowledge tasks)
@@ -500,10 +506,40 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [After the Flower: How Seeds Travel](https://typologyquiz.com/quizzes/seed-journeys-beyond-the-flower/): Follow seeds through wings, digestion, forceful release and humidity-controlled cones. Separate release, travel, dormancy and population-level survival across eight discoveries. (8 tasks, about 6 min; scored knowledge tasks)
 - [Cold Surface Detective](https://typologyquiz.com/quizzes/cold-surface-detective/): Use formation records and surface measurements to distinguish hoar frost, frozen dew and rime across eight evidence puzzles. (8 tasks, about 6 min; scored knowledge tasks)
 - [Winter Precipitation Detective](https://typologyquiz.com/quizzes/winter-precipitation-detective/): Use simplified temperature layers and multiple ground clues to compare snow, sleet and freezing rain. (8 tasks, about 6 min; scored knowledge tasks)
+- [Which Handle Stays Cooler?](https://typologyquiz.com/quizzes/which-handle-stays-cooler/): Read small fictional temperature records to see how heat moves through different handles. (8 tasks, about 6 min; scored knowledge tasks)
+- [Push, Pull, or Hold Still?](https://typologyquiz.com/quizzes/push-pull-or-hold-still/): Use direction arrows and motion notes to predict a fictional stage cart's changing motion. (8 tasks, about 6 min; scored knowledge tasks)
+- [Why the Ramp Feels Easier](https://typologyquiz.com/quizzes/why-the-ramp-feels-easier/): Explore a fictional cart-ramp model where lower effort trades for a longer push distance. (8 tasks, about 6 min; scored knowledge tasks)
+- [The Circuit With a Missing Link](https://typologyquiz.com/quizzes/the-circuit-with-a-missing-link/): Trace paper circuit diagrams and find where a simple low-voltage loop opens. (8 tasks, about 6 min; scored knowledge tasks)
+- [Where Did the Sugar Go?](https://typologyquiz.com/quizzes/where-did-the-sugar-go/): Standalone solo assignment using original fictional records under fixed stated model conditions, not scientific evidence or lab guidance. It distinguishes dissolving from melting and tracks matter that remains in solution. (8 tasks, about 5 min; scored knowledge tasks)
+- [Can You Prove a Reaction Happened?](https://typologyquiz.com/quizzes/can-you-prove-a-reaction-happened/): Standalone solo assignment: evaluate before-and-after evidence while checking whether ordinary alternatives explain an observation. All scenarios and records are original fictional models. (8 tasks, about 5 min; scored knowledge tasks)
+- [The Floating Sample Drawer](https://typologyquiz.com/quizzes/the-floating-sample-drawer/): Standalone solo assignment using an original fictional table, not scientific evidence or lab directions. Comparisons use the same fictional liquid at 20°C and exactly one fill-level control: the common 20 mL starting line. (8 tasks, about 5 min; scored knowledge tasks)
+- [Follow the Atoms](https://typologyquiz.com/quizzes/follow-the-atoms/): Standalone solo assignment using an original fictional closed-boundary model of symbolic letter/bead particles; each task supplies the relevant model rule. (8 tasks, about 5 min; scored knowledge tasks)
+- [The Cliff With a Missing Chapter](https://typologyquiz.com/quizzes/erosion-gap-cliff-layers/): Use rock-layer relationships and an erosion surface to reconstruct a local relative history. (8 tasks, about 5 min; scored knowledge tasks)
+- [Which Quake Wave Arrived First?](https://typologyquiz.com/quizzes/p-and-s-arrival-gap-detective/): Read simplified seismic logs to identify wave order and use only a supplied calibration to compare distance candidates. (8 tasks, about 5 min; scored knowledge tasks)
+- [Match the Pieces of an Ancient Coast](https://typologyquiz.com/quizzes/fragment-patterns-past-connection/): Compare independent fossil and rock-pattern clues across fictional plate fragments without treating a matching outline as proof. (8 tasks, about 5 min; scored knowledge tasks)
+- [A Pebble’s Trip Downstream](https://typologyquiz.com/quizzes/pebble-source-transport-and-deposit/): Trace a fictional pebble's source, movement, and deposition using explicit same-density assumptions and abrasion evidence. (8 tasks, about 5 min; scored knowledge tasks)
+- [Which Beak Could Reach It?](https://typologyquiz.com/quizzes/which-beak-could-reach-it/): Use a labeled paper-tool model to test how shape affects access, then keep model results separate from claims about real animals. (8 tasks, about 6 min; scored knowledge tasks)
+- [Camouflage Depends on the Background](https://typologyquiz.com/quizzes/camouflage-depends-on-the-background/): Compare text-described pattern searches under controlled conditions and limit each conclusion to the tested model. (8 tasks, about 6 min; scored knowledge tasks)
+- [The Leaf Litter Relay](https://typologyquiz.com/quizzes/the-leaf-litter-relay/): Follow a simple leaf-breakdown model and tell physical fragmentation from chemical breakdown without treating model counts as field evidence. (8 tasks, about 6 min; scored knowledge tasks)
+- [The Plant That Bent Toward the Window](https://typologyquiz.com/quizzes/the-plant-that-bent-toward-the-window/): Read fictional plant-growth logs, compare controls and keep conclusions about directional light limited to the stems observed. (8 tasks, about 6 min; scored knowledge tasks)
+- [Voyager’s Long Wait for a Reply](https://typologyquiz.com/quizzes/voyagers-long-wait-for-a-reply/): Trace a message to and from a distant spacecraft, then use a clearly fictional antenna schedule to diagnose silence without mistaking delay for failure. (8 tasks, about 6 min; scored knowledge tasks)
+- [Find a Planet in the Starlight](https://typologyquiz.com/quizzes/find-a-planet-in-the-starlight/): Read invented brightness records for repeating dips, missing observations and follow-up checks while keeping a promising transit pattern separate from proof. (8 tasks, about 6 min; scored knowledge tasks)
+- [Aim a Satellite Into Orbit](https://typologyquiz.com/quizzes/aim-a-satellite-into-orbit/): Compare cartoon paths in a supplied gravity-and-sideways-motion model to distinguish a continuing orbit from a path that returns or escapes. (8 tasks, about 6 min; scored knowledge tasks)
+- [Meteor Shower: Find the Radiant](https://typologyquiz.com/quizzes/meteor-shower-find-the-radiant/): Trace a fictional sky map backward to find an apparent radiant, then compare shower members with sporadic meteors without mistaking perspective for a physical source point. (8 tasks, about 6 min; scored knowledge tasks)
+- [Two Thermometers Disagree](https://typologyquiz.com/quizzes/two-thermometers-disagree/): Use repeated reference readings to spot a constant offset, separate accuracy from precision, and decide when correction is justified. (8 tasks, about 5 min; scored logic tasks)
+- [How a Blind Taste Test Works](https://typologyquiz.com/quizzes/how-a-blind-taste-test-works/): Explore how coded labels and counterbalanced order reduce expectation and order effects in a pretend study. (8 tasks, about 5 min; scored logic tasks)
+- [When the Average Hides a Pattern](https://typologyquiz.com/quizzes/when-the-average-hides-a-pattern/): Compare fictional biodiversity samples with the same average but different spread, effort, and repeatability. (8 tasks, about 5 min; scored logic tasks)
+- [What Would Change Your Mind?](https://typologyquiz.com/quizzes/what-would-change-your-mind/): Plan a discriminating next test by making rival explanations predict different outcomes. (8 tasks, about 5 min; scored logic tasks)
+- [Make a Shadow Shrink](https://typologyquiz.com/quizzes/make-a-shadow-shrink/): Use a fictional fixed-light puppet model to predict shadow size from measured positions, then test what overlapping silhouettes do. (8 tasks, about 6 min; scored knowledge tasks)
+- [Air Has Mass: The Hidden Counterweight](https://typologyquiz.com/quizzes/air-has-mass-hidden-counterweight/): Compare invented before-and-after records for the same fixed-volume vessel and find what the added air changes. (8 tasks, about 6 min; scored knowledge tasks)
+- [A Fossil Is Evidence, Not a Snapshot](https://typologyquiz.com/quizzes/fossil-evidence-not-snapshot/): Read a fictional extinct animal's trackway, separate trace from body fossils, and reason carefully about an incomplete record. (8 tasks, about 6 min; scored knowledge tasks)
+- [Which Model Keeps the Ice Cold?](https://typologyquiz.com/quizzes/which-model-keeps-the-ice-cold/): Compare fictional shelter scores, then test how an envelope, opening, moving air, and combined designs change the model result. (8 tasks, about 6 min; scored knowledge tasks)
+- [The Invisible Ocean Elevator](https://typologyquiz.com/quizzes/invisible-ocean-elevator/): Use NOAA's explanation of density and sinking, then test isolated and combined changes in a clearly fictional ocean-water model. (8 tasks, about 7 min; scored knowledge tasks)
+- [Check the Claim About the Vanishing Ice](https://typologyquiz.com/quizzes/check-the-claim-about-the-vanishing-ice/): Audit fictional closed-jar and open-tray records, separating a changed label or reading from a claim the record cannot prove. (8 tasks, about 6 min; scored knowledge tasks)
 
 ### History & Culture
 
-- [History & Culture quizzes](https://typologyquiz.com/quizzes/category/history-culture/): 33 quizzes. Timelines, traditions and the stories people have kept, told with sources.
+- [History & Culture quizzes](https://typologyquiz.com/quizzes/category/history-culture/): 34 quizzes. Timelines, traditions and the stories people have kept, told with sources.
 - [Museum of Everyday Objects](https://typologyquiz.com/quizzes/museum-of-everyday-objects/): Read wear, shape and context on invented museum cards to work out what ordinary things were for, then order object trios using receipts, archive notes, dig depths and serial numbers. (8 tasks, about 5 min; scored knowledge tasks)
 - [Before the First iPhone](https://typologyquiz.com/quizzes/before-the-first-iphone/): Place dated records on the 2007 iPhone timeline, then spot the detail that breaks it. Uses verified milestones from the phonograph, Apollo 11 and the iPhone, plus invented archive cards. (8 tasks, about 4 min; scored knowledge tasks)
 - [The Archive Has a Missing Page](https://typologyquiz.com/quizzes/archive-missing-page/): Solve eight archive puzzles: order invented papers from their internal clues, work out what lost pages must have contained, and sort surviving sources from later interpretations. (8 tasks, about 5 min; scored logic tasks)
@@ -537,10 +573,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Six Dots, Many Hands](https://typologyquiz.com/quizzes/six-dots-many-hands/): Discover writable raised points, Braille’s early music method and the people and tools behind wider access. Finish with the surprising gap between a shared standard and identical practice. (8 tasks, about 7 min; scored knowledge tasks)
 - [Inside Hereford’s Chained Library](https://typologyquiz.com/quizzes/hereford-chained-library/): Follow a reader’s movement through Hereford Cathedral’s surviving chained library, then examine the collection and its preservation. (8 tasks, about 6 min; scored knowledge tasks)
 - [Two Dates on One Postcard](https://typologyquiz.com/quizzes/two-dates-one-postcard/): Use three records to tell when a fictional postcard image was captured, when its edition was printed and when the copy was postmarked. (8 tasks, about 6 min; scored knowledge tasks)
+- [The Museum’s Space-Signal Archive](https://typologyquiz.com/quizzes/the-museums-first-space-signal/): Audit an invented museum archive to separate direct receiver records from a relayed copy and to write an exhibit label no stronger than its sources. (8 tasks, about 6 min; shared puzzle with scored tasks)
 
 ### Food & Everyday Life
 
-- [Food & Everyday Life quizzes](https://typologyquiz.com/quizzes/category/food-everyday-life/): 33 quizzes. Kitchens, habits, home and the little decisions of an ordinary day.
+- [Food & Everyday Life quizzes](https://typologyquiz.com/quizzes/category/food-everyday-life/): 34 quizzes. Kitchens, habits, home and the little decisions of an ordinary day.
 - [Build a Home Cafe](https://typologyquiz.com/quizzes/build-a-home-cafe/): Furnish an imaginary corner cafe through six scenarios and two rankings, then see where your choices fall on two scales: Familiar to Experimental, and Private Retreat to Shared Hangout. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Kitchen Tool Detective](https://typologyquiz.com/quizzes/kitchen-tool-detective/): Read the evidence left on a board, bowl or plate and name the tool that could have produced it, then judge when the evidence alone cannot prove the tool. (8 tasks, about 4 min; scored knowledge tasks)
 - [Flavor Triangle](https://typologyquiz.com/quizzes/flavor-triangle/): Match taste terms, rescue off-balance fictional dishes, and test two kitchen ideas, then choose your own flavor direction in four taste tradeoffs. (8 tasks, about 4 min; scored tasks plus separate own-choice summary)
@@ -574,10 +611,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [What Fermentation Changes](https://typologyquiz.com/quizzes/what-fermentation-changes/): Read kitchen-science cases about sugar, acids, gas and protein. Trace a vinegar stage, test what lab measurements can establish, and finish with cacao’s journey toward chocolate flavour. (8 tasks, about 6 min; scored knowledge tasks)
 - [The Price Tag and the Pack](https://typologyquiz.com/quizzes/price-tag-and-pack/): Compare fictional same-product packs using unit rate, checkout total, needed quantity and a shrinking pack. (8 tasks, about 6 min; scored knowledge tasks)
 - [Plan an After-Market Tasting Counter](https://typologyquiz.com/quizzes/after-market-tasting-counter/): Plan how visitors at a fictional sample counter choose and compare small tastes. (8 tasks, about 6 min; own-choice summary, no right answers)
+- [Pantry Label Mix-Up: Separate the Mixture](https://typologyquiz.com/quizzes/pantry-label-mix-up-separate-the-mixture/): Standalone solo assignment: fictional dry paper/toy sorting only. Original fictional rules make no claims about actual foods or material behavior; no real food handling, pantry/health/allergy advice, or lab directions are included. (8 tasks, about 5 min; scored logic tasks)
 
 ### Sports & Games
 
-- [Sports & Games quizzes](https://typologyquiz.com/quizzes/category/sports-games/): 32 quizzes. Rules, strategy and play, from pitches and boards to puzzles on paper.
+- [Sports & Games quizzes](https://typologyquiz.com/quizzes/category/sports-games/): 33 quizzes. Rules, strategy and play, from pitches and boards to puzzles on paper.
 - [Pick Your Co-op Role](https://typologyquiz.com/quizzes/co-op-role-picker/): Choose your moves in six chaotic team scenarios, then rank two sets of team habits to see where you lean on the Information–Coordination and Prevention–Recovery scales. No lean is better than another. (8 tasks, about 4 min; own-choice summary, no right answers)
 - [Watch-Party Rulebook](https://typologyquiz.com/quizzes/watch-party-rulebook/): Answer four rule-call tasks with explanations, then make four couch-moment choices to reveal your watch-party style on Explainer-Observer and Calm-Loud scales. (8 tasks, about 5 min; scored tasks plus separate own-choice summary)
 - [Soccer Words Across Borders](https://typologyquiz.com/quizzes/soccer-words-across-borders/): Match everyday football vocabulary across English, Spanish and French, then pick the right term for short invented matchday sentences. (8 tasks, about 4 min; scored knowledge tasks)
@@ -610,10 +648,11 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Curling: Think Beyond the Stone](https://typologyquiz.com/quizzes/curling-beyond-the-stone/): Read curling shot purposes, team roles and scoring positions, then work out what a blank end changes. (8 tasks, about 6 min; scored knowledge tasks)
 - [Alder Park's First Disc Golf Hole](https://typologyquiz.com/quizzes/alder-park-first-disc-golf-hole/): Follow one fictional player's opening hole through the tee, lie, boundary, and basket under PDGA rules. (8 tasks, about 6 min; scored knowledge tasks)
 - [Pickleball: The First Three Shots](https://typologyquiz.com/quizzes/pickleball-first-three-shots/): Follow named standard-play rallies through the return, first volley and kitchen line calls. (8 tasks, about 6 min; scored knowledge tasks)
+- [Choose the High-Scoring Course](https://typologyquiz.com/quizzes/build-a-safer-landing-course/): Work together to choose a toy-car course from invented trial records and a clear game score. (8 tasks, about 7 min; shared puzzle with scored tasks)
 
 ### Logic & Wordplay
 
-- [Logic & Wordplay quizzes](https://typologyquiz.com/quizzes/category/logic-wordplay/): 32 quizzes. Deduction, patterns and language puzzles with answers you can check.
+- [Logic & Wordplay quizzes](https://typologyquiz.com/quizzes/category/logic-wordplay/): 33 quizzes. Deduction, patterns and language puzzles with answers you can check.
 - [The Elevator Schedule](https://typologyquiz.com/quizzes/elevator-schedule-logic/): Order elevator stops from visible rules in four puzzles, repair two broken schedules slot by slot, then name the rule a draft broke and find the single swap that fixes another. (8 tasks, about 5 min; scored logic tasks)
 - [One Rule Is Wrong](https://typologyquiz.com/quizzes/one-rule-is-wrong/): Eight small rule puzzles: spot the one false rule in five rule sets, pick the rule whose removal leaves exactly one solution in two more, then rebuild a finishing order while ignoring a known false rule. (8 tasks, about 5 min; scored logic tasks)
 - [A Message With Missing Punctuation](https://typologyquiz.com/quizzes/missing-punctuation-message/): Eight texts arrive with their punctuation stripped. Use the stated facts to choose the punctuation that makes exactly one reading possible, then solve two messages that must satisfy two facts at once. (8 tasks, about 4 min; scored logic tasks)
@@ -646,6 +685,7 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Crossword Without Clue Numbers](https://typologyquiz.com/quizzes/crossword-without-clue-numbers/): Test eight compact word crossings: catch a false column, repair a square and build a final joint fit. (8 tasks, about 6 min; scored logic tasks)
 - [The Letterpress Proof's Hidden Object](https://typologyquiz.com/quizzes/letterpress-acrostic-proof/): Test a printer's acrostic instruction, repair a smudged clue, and reveal a hidden exhibit object. (8 tasks, about 6 min; scored logic tasks)
 - [Rebuild a Torn Poster](https://typologyquiz.com/quizzes/rebuild-torn-poster/): Rebuild a fictional torn poster whose repeated seam marks leave two orders until an independent text receipt resolves them. (8 tasks, about 6 min; scored logic tasks)
+- [There’s a Missing Row in the Lab Log](https://typologyquiz.com/quizzes/theres-a-missing-row-in-the-lab-log/): Use fictional record rules and evidence cards to recover a missing sample ID and condition without altering results. (8 tasks, about 5 min; scored logic tasks)
 
 ## Limits worth stating
 

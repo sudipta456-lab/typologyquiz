@@ -12434,5 +12434,304 @@
       }
     ],
     "note": "The A/B/C pin strip is an invented paper model, not a transcription or repair guide for the Smithsonian object."
+  },
+  {
+    "id": "MU-33",
+    "slug": "the-echo-crews-missing-sound",
+    "categoryId": "music",
+    "title": "The Echo Crew’s Missing Sound",
+    "description": "Follow labeled sound routes through a fictional corridor and use an echo clue without relying on audio or color.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "echo-clue",
+        "title": "Hear the clue in words"
+      },
+      {
+        "id": "route-map",
+        "title": "Trace the obstacle route"
+      },
+      {
+        "id": "new-corridor",
+        "title": "Test a new layout"
+      }
+    ],
+    "sources": [
+      {
+        "id": "noaa-sonar",
+        "label": "NOAA National Ocean Service, What is sonar?",
+        "kind": "reference",
+        "url": "https://oceanservice.noaa.gov/facts/sonar.html"
+      },
+      {
+        "id": "echo-model",
+        "label": "Original fictional corridor map, beat labels, and rules; not an acoustic measurement.",
+        "kind": "original"
+      }
+    ],
+    "note": "The corridor, beat numbers, and obstacle routes are fictional text models, not acoustic measurements. Every route clue is written out; no sound playback, color reading, or hearing test is needed.",
+    "questions": [
+      {
+        "id": "mu33-1",
+        "sectionId": "echo-clue",
+        "kind": "choice",
+        "prompt": "In NOAA's description of active sonar, what can happen when a sound pulse meets an object in its path?",
+        "context": "NOAA describes an active sonar device sending out a sound pulse and receiving signals. Choose the outcome described for an object in the pulse's path.",
+        "options": [
+          {
+            "id": "bounce-return",
+            "label": "The pulse bounces off the object and returns as an echo."
+          },
+          {
+            "id": "object-speaks",
+            "label": "The object must create a new spoken message."
+          },
+          {
+            "id": "pulse-stops",
+            "label": "The pulse always stops and cannot return."
+          }
+        ],
+        "correct": "bounce-return",
+        "explanation": "NOAA says an active sonar pulse can bounce off an object and return to the transducer as an echo. The returning signal is the clue described in the source.",
+        "sourceIds": [
+          "noaa-sonar"
+        ]
+      },
+      {
+        "id": "mu33-2",
+        "sectionId": "echo-clue",
+        "kind": "choice",
+        "prompt": "In the fictional corridor legend, which route is direct?",
+        "context": "Original text-only route legend: a direct sound route goes from emitter to receiver in a straight line without touching a wall. A reflected route touches a named wall panel and then turns toward the receiver. The labels describe this puzzle model.",
+        "options": [
+          {
+            "id": "straight",
+            "label": "Emitter → receiver on a clear straight route."
+          },
+          {
+            "id": "wall-turn",
+            "label": "Emitter → wall panel → receiver, with a turn at the panel."
+          },
+          {
+            "id": "no-receiver",
+            "label": "A route that never reaches the receiver."
+          }
+        ],
+        "correct": "straight",
+        "explanation": "The model defines direct as the straight route that does not touch a wall. A route that turns at a panel is labeled reflected instead.",
+        "sourceIds": [
+          "echo-model"
+        ]
+      },
+      {
+        "id": "mu33-3",
+        "sectionId": "echo-clue",
+        "kind": "match",
+        "prompt": "Match each written route to its label in the fictional map.",
+        "context": "All route cards are text alternatives to a map: Route A is Emitter → Receiver with no wall touched. Route B is Emitter → North panel → Receiver, turning at the panel.",
+        "left": [
+          {
+            "id": "route-a",
+            "label": "Route A: Emitter → Receiver; no wall touched"
+          },
+          {
+            "id": "route-b",
+            "label": "Route B: Emitter → North panel → Receiver"
+          }
+        ],
+        "right": [
+          {
+            "id": "direct",
+            "label": "Direct; clear straight route"
+          },
+          {
+            "id": "reflected",
+            "label": "Reflected; touches a wall and turns"
+          }
+        ],
+        "pairs": {
+          "route-a": "direct",
+          "route-b": "reflected"
+        },
+        "explanation": "The route description, not a color or sound clip, gives the distinction: the second route touches the named panel and changes direction.",
+        "sourceIds": [
+          "echo-model"
+        ]
+      },
+      {
+        "id": "mu33-4",
+        "sectionId": "route-map",
+        "kind": "order",
+        "prompt": "Order the echo events shown in this fictional route card.",
+        "context": "The text-only card says a pulse leaves the emitter, reaches the North panel, turns back toward the receiver, and is recorded there. Beat labels in this model do not measure real sound speed.",
+        "items": [
+          {
+            "id": "emit",
+            "label": "The emitter sends a pulse."
+          },
+          {
+            "id": "panel",
+            "label": "The pulse reaches the North panel."
+          },
+          {
+            "id": "turn",
+            "label": "The route turns back toward the receiver."
+          },
+          {
+            "id": "record",
+            "label": "The receiver records the returning pulse."
+          }
+        ],
+        "correctOrder": [
+          "emit",
+          "panel",
+          "turn",
+          "record"
+        ],
+        "explanation": "The card places the panel between sending and receiving. The returning echo is recorded after the modeled route reaches and turns at the panel.",
+        "sourceIds": [
+          "noaa-sonar",
+          "echo-model"
+        ]
+      },
+      {
+        "id": "mu33-5",
+        "sectionId": "route-map",
+        "kind": "choice",
+        "prompt": "Which route arrives later in the fictional beat record?",
+        "context": "In the invented corridor log, the clear direct route is marked at beat 2. The route that touches the North panel and returns is marked at beat 5. These numbers are story labels, not a measured delay.",
+        "options": [
+          {
+            "id": "reflected-later",
+            "label": "The North-panel reflected route at beat 5."
+          },
+          {
+            "id": "direct-later",
+            "label": "The direct route at beat 2."
+          },
+          {
+            "id": "same-beat",
+            "label": "Both routes arrive at the same beat."
+          }
+        ],
+        "correct": "reflected-later",
+        "explanation": "Beat 5 comes after beat 2 in the supplied story log. This compares only the fictional labels and makes no claim about a real corridor's sound timing.",
+        "sourceIds": [
+          "echo-model"
+        ]
+      },
+      {
+        "id": "mu33-6",
+        "sectionId": "route-map",
+        "kind": "grid",
+        "prompt": "Choose what each text-described route shows in the fictional map.",
+        "context": "Route A is a straight Emitter → Receiver line with no obstacle on it. Route B is Emitter → North panel → Receiver, with a turn at the panel. Route C is a straight Emitter → Receiver line; the North panel is nearby but the route does not touch it.",
+        "cells": [
+          {
+            "id": "a",
+            "label": "Route A",
+            "options": [
+              {
+                "id": "direct",
+                "label": "Direct route"
+              },
+              {
+                "id": "reflected",
+                "label": "Reflected route"
+              }
+            ],
+            "correct": "direct"
+          },
+          {
+            "id": "b",
+            "label": "Route B",
+            "options": [
+              {
+                "id": "direct",
+                "label": "Direct route"
+              },
+              {
+                "id": "reflected",
+                "label": "Reflected route"
+              }
+            ],
+            "correct": "reflected"
+          },
+          {
+            "id": "c",
+            "label": "Route C",
+            "options": [
+              {
+                "id": "direct",
+                "label": "Direct route"
+              },
+              {
+                "id": "reflected",
+                "label": "Reflected route"
+              }
+            ],
+            "correct": "direct"
+          }
+        ],
+        "explanation": "Only Route B is described as touching the panel and turning. A nearby obstacle that the route never touches is not evidence of a reflection in this model.",
+        "sourceIds": [
+          "echo-model"
+        ]
+      },
+      {
+        "id": "mu33-7",
+        "sectionId": "new-corridor",
+        "kind": "choice",
+        "prompt": "A new text map shows a route from the emitter to the East panel and then to the receiver. Which clue identifies it as reflected in this model?",
+        "context": "Transfer map: the drawn route touches the named East panel and turns before reaching the receiver. The route description is provided in words so the same deduction does not depend on seeing a diagram.",
+        "options": [
+          {
+            "id": "touch-turn",
+            "label": "It touches a named panel, then turns toward the receiver."
+          },
+          {
+            "id": "straight-clear",
+            "label": "It stays on a straight route with no obstacle touched."
+          },
+          {
+            "id": "panel-nearby",
+            "label": "A panel is nearby, even though the route never meets it."
+          }
+        ],
+        "correct": "touch-turn",
+        "explanation": "The model's defining evidence is a route that reaches the panel and changes direction toward the receiver. Merely being near a panel does not show that route.",
+        "sourceIds": [
+          "echo-model"
+        ]
+      },
+      {
+        "id": "mu33-8",
+        "sectionId": "new-corridor",
+        "kind": "choice",
+        "prompt": "The fictional receiver log has no return entry. What can the crew conclude from that line alone?",
+        "context": "Original model rule: the log records only whether a return was entered. It does not include a complete obstacle map, a receiver check, or a record of every pulse sent.",
+        "options": [
+          {
+            "id": "no-entry",
+            "label": "No return was entered in this log; the supplied record cannot tell why."
+          },
+          {
+            "id": "no-object",
+            "label": "There was definitely no object anywhere in the corridor."
+          },
+          {
+            "id": "blocked",
+            "label": "A wall definitely blocked the pulse."
+          }
+        ],
+        "correct": "no-entry",
+        "explanation": "The record lacks the extra route and equipment details needed to choose a cause. Reporting only the missing entry avoids turning an incomplete fictional log into a definite explanation.",
+        "sourceIds": [
+          "echo-model"
+        ]
+      }
+    ]
   }
 ]

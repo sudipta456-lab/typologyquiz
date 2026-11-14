@@ -11311,5 +11311,381 @@
       }
     ],
     "note": "A fictional craft activity and descriptive preferences only; no claim about learning styles or aptitude."
+  },
+  {
+    "id": "PC-34",
+    "slug": "choose-science-museum-midnight-exhibit",
+    "categoryId": "personality-choices",
+    "title": "Choose Your Science Museum Midnight Exhibit",
+    "description": "Choose among invented exhibit experiences and see a descriptive summary of format preferences, not an ability or identity score.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "dimensions": [
+      {
+        "id": "social-pace",
+        "low": "Quiet and self-paced",
+        "high": "Shared and lively",
+        "description": "How appealing a quiet, self-directed visit feels compared with a lively experience shared with others."
+      },
+      {
+        "id": "experience-mode",
+        "low": "Watch a phenomenon unfold",
+        "high": "Try a hands-on simulation",
+        "description": "Whether a watch-and-notice exhibit or an interactive simulation sounds more appealing. This is a format preference, not a measure of ability."
+      }
+    ],
+    "sections": [
+      {
+        "id": "doors",
+        "title": "Choose a Way In"
+      },
+      {
+        "id": "wonders",
+        "title": "Explore a Wonder"
+      },
+      {
+        "id": "last-look",
+        "title": "Pick a Last Look"
+      }
+    ],
+    "sources": [
+      {
+        "id": "cases",
+        "kind": "original",
+        "label": "Original fictional science-museum exhibit formats and preference choices authored for this quiz."
+      }
+    ],
+    "note": "All exhibits are invented. Each case is independent; no choice depends on an earlier answer. Choices are unscored and do not describe ability, identity, intelligence or future behavior.",
+    "questions": [
+      {
+        "id": "museum-1",
+        "sectionId": "doors",
+        "kind": "choice",
+        "prompt": "At the first midnight gallery, which way of meeting a light-and-color display appeals more?",
+        "context": "Both fictional formats show the same safe, prebuilt color patterns. Choose the experience you would rather visit; nothing is a test.",
+        "explanation": "There is no correct pick. The descriptive weights capture quiet versus shared pace and watching versus trying a simulation; they do not measure knowledge or skill.",
+        "sourceIds": [
+          "cases"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Watch a slow color pattern alone with a short caption",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Try a color-mixing simulation with a small group",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Watch a bright demonstration with a guide and visitors",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Try a quiet, self-paced color control panel",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "museum-2",
+        "sectionId": "doors",
+        "kind": "rank",
+        "prompt": "Rank these invented ways to explore a moon-and-crater exhibit from most to least appealing.",
+        "context": "Each independent case offers all three fictional display formats; there is no best order and no required prior choice.",
+        "explanation": "This rank is unscored. A quiet observation, a social demonstration and a solo simulation deliberately combine the two descriptive dimensions in different ways.",
+        "sourceIds": [
+          "cases"
+        ],
+        "items": [
+          {
+            "id": "solo-watch",
+            "label": "Quietly watch a crater-shadow loop",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "group-watch",
+            "label": "Join a lively guide-led crater-shadow demonstration",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "solo-try",
+            "label": "Use a self-paced crater-light simulation",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "museum-3",
+        "sectionId": "wonders",
+        "kind": "choice",
+        "prompt": "A fictional exhibit shows how a paper bridge changes shape under model weights. Which format would you choose?",
+        "context": "The exhibit uses a screen-based model with no physical building activity. You can either observe the ready-made demonstration or explore a simulated control. Both options explain the same idea.",
+        "explanation": "This is a format choice only. The options vary both pace and whether you watch or manipulate a simulation; neither is more capable or educational for every visitor.",
+        "sourceIds": [
+          "cases"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Watch a short bridge demonstration with a lively host",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Explore the model quietly with your own controls",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Watch a silent bridge sequence at your own pace",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Try the bridge model together with a group",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "museum-4",
+        "sectionId": "wonders",
+        "kind": "rank",
+        "prompt": "Rank three invented ways to encounter a sound-wave picture from most to least appealing.",
+        "context": "The museum presents the same silent, captioned wave picture in three formats. One is watched alone, one is a shared demonstration, and one invites visitors to adjust a visual simulation. No audio is needed.",
+        "explanation": "Your ordering is descriptive, not scored. The choices vary social pace and watch-versus-simulation format, while the exhibit content stays the same.",
+        "sourceIds": [
+          "cases"
+        ],
+        "items": [
+          {
+            "id": "still",
+            "label": "A quiet, self-paced animated wave picture",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "host",
+            "label": "A lively group demonstration of the same picture",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "controls",
+            "label": "A quiet simulation with controls for changing the wave",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "museum-5",
+        "sectionId": "wonders",
+        "kind": "choice",
+        "prompt": "A fictional moon-map gallery offers several routes past crater models. How would you rather compare them?",
+        "context": "The route patterns are invented. You can follow a prepared visual sequence, talk through alternatives with other visitors, or change route settings in a screen model. Choose the kind of visit that appeals to you.",
+        "explanation": "Watching a prepared sequence differs from changing a model, and a self-paced visit differs from comparing ideas with a group. The weights describe those preferences only; no route is scientifically better.",
+        "sourceIds": [
+          "cases"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Quietly watch a captioned route sequence",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Adjust route settings in a simulation on my own",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Discuss route alternatives in a lively group",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Change route settings together in a group simulation",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "museum-6",
+        "sectionId": "wonders",
+        "kind": "rank",
+        "prompt": "Rank these ways to explore a fictional screen model of a paper bridge under different loads.",
+        "context": "The model is already built on screen; no real construction is involved. One card observes a fixed comparison, one shares a host-led explanation, and one lets a visitor change the displayed load.",
+        "explanation": "The cards differ in whether the visit is quiet or shared and whether you watch a fixed result or manipulate a simulation. This describes preferred exploration, not engineering skill or the bridge’s strength.",
+        "sourceIds": [
+          "cases"
+        ],
+        "items": [
+          {
+            "id": "observe",
+            "label": "Quietly compare a prepared sequence of bridge shapes",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "host",
+            "label": "Hear a lively host explain the same comparisons to a group",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "adjust",
+            "label": "Change the load control in a self-paced screen model",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "museum-7",
+        "sectionId": "last-look",
+        "kind": "choice",
+        "prompt": "An invented star map hides a repeating pattern. Which way would you rather look for it?",
+        "context": "All options show the same fictional map. You could watch its layers appear, discuss clues with a group, or switch the layers in a visual model; there is no puzzle score.",
+        "explanation": "The options vary social pace and control: watching the animation is different from changing the layers, while doing either alone or with others changes the visit style. No choice measures pattern-finding ability.",
+        "sourceIds": [
+          "cases"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Watch the layers appear quietly at my own pace",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Compare the pattern with a lively group and guide",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Use a quiet control to switch map layers myself",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Explore layer changes together on a shared screen",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "museum-8",
+        "sectionId": "last-look",
+        "kind": "rank",
+        "prompt": "At the exit, rank ways to contribute an idea for a fictional exhibit’s next version.",
+        "context": "The gallery shows a changing shadow model. Visitors can leave a private observation after watching, compare ideas with a group, or explore a visual control before recording a question. There is no best contribution.",
+        "explanation": "A private observation and a group discussion differ in social pace; watching the exhibit and changing its visual model differ in format. The rank records what kind of visit you prefer, not the quality of your ideas.",
+        "sourceIds": [
+          "cases"
+        ],
+        "items": [
+          {
+            "id": "note",
+            "label": "Quietly watch, then leave a written observation",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "group",
+            "label": "Share questions in a lively group discussion",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "model",
+            "label": "Explore the controls alone before writing a question",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

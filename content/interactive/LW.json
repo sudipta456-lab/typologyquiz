@@ -11794,5 +11794,294 @@
       }
     ],
     "note": "All poster text and marks are original. Strips stay upright; every visual clue has a text equivalent. The printer’s test draft in task 4 is a separate short case."
+  },
+  {
+    "id": "LW-33",
+    "slug": "theres-a-missing-row-in-the-lab-log",
+    "title": "There’s a Missing Row in the Lab Log",
+    "description": "Use fictional record rules and evidence cards to recover a missing sample ID and condition without altering results.",
+    "categoryId": "logic-wordplay",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "start",
+        "title": "Read the log rules"
+      },
+      {
+        "id": "apply",
+        "title": "Recover the entry"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "kind": "original",
+        "label": "Original fictional scenarios, model records and rules authored for this quiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "lw33-1",
+        "sectionId": "start",
+        "kind": "choice",
+        "prompt": "A fictional partial log shows K as red; L and M are blank. Each of red, blue, and green is used once. What can be concluded before another clue arrives?",
+        "context": "All entries are invented; each sample ID and each condition appears exactly once.",
+        "explanation": "K uses red, leaving blue and green for L and M, but the log does not yet say which one belongs to each.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "L and M must be blue and green, but their order is not yet known."
+          },
+          {
+            "id": "b",
+            "label": "M must be red."
+          },
+          {
+            "id": "c",
+            "label": "The missing measurement value is known."
+          },
+          {
+            "id": "d",
+            "label": "No condition can be inferred for either row."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "lw33-2",
+        "sectionId": "start",
+        "kind": "match",
+        "prompt": "Match each fictional record clue to the conclusion it directly supports.",
+        "context": "Evidence cards state: K has a red tag; L’s card says “not blue”; red, green and blue are each used once.",
+        "explanation": "K's recorded color rules out blue and green for K. Once K uses red, the remaining colors go to L and M; the added 'not blue' clue then makes L green.",
+        "sourceIds": [
+          "original"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "The partial log says K has red"
+          },
+          {
+            "id": "b",
+            "label": "L’s separate card says “not blue”"
+          },
+          {
+            "id": "c",
+            "label": "K red leaves blue and green for L and M"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "label": "K cannot be blue or green"
+          },
+          {
+            "id": "b",
+            "label": "L must be green because red is already used and L is not blue"
+          },
+          {
+            "id": "c",
+            "label": "L and M take blue and green in some order"
+          }
+        ],
+        "pairs": {
+          "a": "a",
+          "b": "b",
+          "c": "c"
+        }
+      },
+      {
+        "id": "lw33-3",
+        "sectionId": "start",
+        "kind": "choice",
+        "prompt": "A missing row’s measured result is already written on a separate instrument slip. What should the investigator do with that result?",
+        "context": "The task is to recover the ID and condition, not change the measurement.",
+        "explanation": "The slip is the recorded measurement, so copy it unchanged. Use the clues to recover the missing ID or condition rather than altering the result to make it fit.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Preserve the recorded result and use the clues to identify the row."
+          },
+          {
+            "id": "b",
+            "label": "Average it with another sample."
+          },
+          {
+            "id": "c",
+            "label": "Delete it until the puzzle is solved."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "lw33-4",
+        "sectionId": "start",
+        "kind": "order",
+        "prompt": "Arrange a sound way to solve the fictional log puzzle.",
+        "context": "The log rules say each sample ID and condition is used exactly once.",
+        "explanation": "List possible pairs, apply the evidence, fill the missing fields while copying the result unchanged, then check that every ID and condition is used once.",
+        "sourceIds": [
+          "original"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "Check that each ID and condition is used once."
+          },
+          {
+            "id": "b",
+            "label": "List the possible ID-condition pairs from the record rules."
+          },
+          {
+            "id": "c",
+            "label": "Apply each evidence card to eliminate impossible pairs."
+          },
+          {
+            "id": "d",
+            "label": "Fill the missing ID and condition without editing the result."
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "c",
+          "d",
+          "a"
+        ]
+      },
+      {
+        "id": "lw33-5",
+        "sectionId": "apply",
+        "kind": "grid",
+        "prompt": "Which fictional log row respects the rule that each condition is used once?",
+        "context": "Conditions are red, blue, and green; each may appear on only one row.",
+        "explanation": "K red with L green uses two different conditions. K red with L red repeats red and breaks the one-use rule.",
+        "sourceIds": [
+          "original"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "Rows K: red; L: green",
+            "options": [
+              {
+                "id": "a",
+                "label": "Possible: no condition is repeated"
+              },
+              {
+                "id": "b",
+                "label": "Impossible: the two rows repeat a condition"
+              }
+            ],
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "label": "Rows K: red; L: red",
+            "options": [
+              {
+                "id": "a",
+                "label": "Possible: each condition is used once"
+              },
+              {
+                "id": "b",
+                "label": "Impossible: red is assigned twice"
+              }
+            ],
+            "correct": "b"
+          }
+        ]
+      },
+      {
+        "id": "lw33-6",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "Use this fictional partial log and loose result slip to restore the missing row: K | red | 12; L | green | 9; M | ? | blank. The slip says “M: result 6.” Which row belongs in the gap?",
+        "context": "Each of K, L, and M and each of red, blue, and green appears once. The measured value on the loose slip must be copied unchanged.",
+        "explanation": "K and L already use red and green, so M must be blue. The separate slip gives M's recorded result as 6, which should be copied as written.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "M | green | 6"
+          },
+          {
+            "id": "b",
+            "label": "M | blue | 6"
+          },
+          {
+            "id": "c",
+            "label": "M | blue | 9"
+          },
+          {
+            "id": "d",
+            "label": "M | red | 6"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "lw33-7",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "A second evidence card says the missing row belongs to sample M. What does this add?",
+        "context": "The card identifies an ID; the one-use condition rule can then determine the remaining condition.",
+        "explanation": "The card fills the sample-ID field. It does not change the measurement written on the slip; use the other clues to determine the condition.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "It proves the instrument was inaccurate."
+          },
+          {
+            "id": "b",
+            "label": "It removes the requirement to use each condition once."
+          },
+          {
+            "id": "c",
+            "label": "It identifies the sample ID but does not itself change the recorded result."
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "lw33-8",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "Two condition assignments still fit the clues. What is the responsible next step?",
+        "context": "Do not guess when the stated evidence does not uniquely determine the row.",
+        "explanation": "If two assignments still fit every clue, the record does not uniquely determine the condition. Preserve the measured value, report the ambiguity, and seek another clue.",
+        "sourceIds": [
+          "original"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Change a result until only one assignment remains."
+          },
+          {
+            "id": "b",
+            "label": "Report that the clues do not yet determine a unique condition and seek another record clue."
+          },
+          {
+            "id": "c",
+            "label": "Assume the first assignment is correct."
+          }
+        ],
+        "correct": "b"
+      }
+    ]
   }
 ]

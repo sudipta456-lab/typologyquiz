@@ -11899,5 +11899,381 @@
         "description": "How closely you want neighboring films to speak to the same idea."
       }
     ]
+  },
+  {
+    "id": "MT-33",
+    "slug": "design-creature-for-silent-film-cut",
+    "categoryId": "movies-tv",
+    "title": "Design a Creature for a Silent Film",
+    "description": "Choose how edits reveal an invented creature's biology, with a separate preference for playful or observational clues.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "dimensions": [
+      {
+        "id": "biology-reveal",
+        "low": "Implied creature biology",
+        "high": "Explicitly explained biology",
+        "description": "Whether you prefer a fictional creature's traits to be inferred from clues or stated plainly in an intertitle."
+      },
+      {
+        "id": "evidence-tone",
+        "low": "Playful evidence",
+        "high": "Observational evidence",
+        "description": "Whether you prefer clues presented with playful visual comparisons or calm, observational close-ups. This describes edit taste, not intelligence or film skill."
+      }
+    ],
+    "sections": [
+      {
+        "id": "first-clues",
+        "title": "Reveal the First Clue"
+      },
+      {
+        "id": "more-evidence",
+        "title": "Choose More Evidence"
+      },
+      {
+        "id": "final-cut",
+        "title": "Shape the Final Cut"
+      }
+    ],
+    "sources": [
+      {
+        "id": "film-cards",
+        "kind": "original",
+        "label": "Original fictional silent-film creature facts, edit cards and preference choices authored for this quiz."
+      }
+    ],
+    "note": "The creature, film frames, intertitles and editing options are fictional. Each unscored case is independent; no result recommends a real movie or judges film knowledge. The two axes describe how a viewer might prefer fictional creature facts to be revealed.",
+    "questions": [
+      {
+        "id": "creature-1",
+        "sectionId": "first-clues",
+        "kind": "choice",
+        "prompt": "The creature leaves a silver ring on a leaf. Which edit would you prefer for revealing that it is nocturnal?",
+        "context": "Fictional silent-film fact: the creature is active at night. One edit names this in an intertitle; another lets the audience infer it from a moonlit arrival. Choose the edit you would rather watch.",
+        "explanation": "There is no correct edit. The cards vary whether biology is explained or implied and whether the clue feels playful or observational.",
+        "sourceIds": [
+          "film-cards"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Intertitle: “It wakes when the garden is dark,” followed by a calm close-up",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A moonlit arrival and a gently playful shadow clue, with no explanation",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A playful intertitle naming its night activity",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "A quiet sequence of evening clues, leaving the trait implied",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creature-2",
+        "sectionId": "first-clues",
+        "kind": "rank",
+        "prompt": "Rank these edits for revealing that the creature has a striped tail.",
+        "context": "Original fictional edit cards: each communicates the same tail trait, but with different levels of explanation and evidence tone. No previous answer affects this case.",
+        "explanation": "The rank has no right order. A label can state the trait directly, while repeated close-ups can imply it; the visual treatment also ranges from playful to observational.",
+        "sourceIds": [
+          "film-cards"
+        ],
+        "items": [
+          {
+            "id": "label-joke",
+            "label": "A playful intertitle names the striped tail",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "closeup",
+            "label": "A calm close-up shows the stripes without naming them",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "pattern-game",
+            "label": "A playful sequence lets the stripes complete a visual pattern",
+            "weights": [
+              -2,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creature-3",
+        "sectionId": "first-clues",
+        "kind": "choice",
+        "prompt": "A silent-film edit must hint that the creature can fold its wings. Which version appeals more?",
+        "context": "Fictional biology card: the creature can fold its wings. Every option uses the same invented fact, shown through a different edit choice.",
+        "explanation": "This is an unscored taste choice. An explicit intertitle and an implied visual clue differ in biology reveal, while their playful or observational framing varies separately.",
+        "sourceIds": [
+          "film-cards"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A calm intertitle states that the wings fold",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A playful shadow gag hints at folding wings without naming them",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A playful intertitle states the wing trait",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "A quiet close-up lets the folding movement speak for itself",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creature-4",
+        "sectionId": "more-evidence",
+        "kind": "rank",
+        "prompt": "Rank these fictional edits for showing how the creature finds food.",
+        "context": "The creature follows a trail of luminous dots. One edit can explain the behavior; another can let viewers read the silent clues. These invented cards do not describe a real animal.",
+        "explanation": "No rank is correct. The cards deliberately separate explicit explanation from inference and playful visual treatment from observational detail.",
+        "sourceIds": [
+          "film-cards"
+        ],
+        "items": [
+          {
+            "id": "caption",
+            "label": "An intertitle explains that the dots guide the creature to food",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "dots",
+            "label": "A quiet close-up follows the dots, leaving the reason implied",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "comedy",
+            "label": "A playful chase makes the food-seeking behavior clear without words",
+            "weights": [
+              -2,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creature-5",
+        "sectionId": "more-evidence",
+        "kind": "choice",
+        "prompt": "The creature is tiny beside an ordinary leaf. Which silent-film edit would you prefer for showing its scale?",
+        "context": "This fictional fact can be stated with a marked scale diagram or inferred from the creature’s size beside a familiar object. The edit can feel playful or observational.",
+        "explanation": "A labeled scale diagram states the size directly, while a leaf comparison lets the viewer infer it. The playful chart and quiet comparison also differ in tone; neither is more correct.",
+        "sourceIds": [
+          "film-cards"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A measured scale diagram calmly marks the creature’s height",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A comic comparison with a berry hints at its size without a label",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A humorous scale chart clearly labels the creature’s height",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "A quiet sequence beside a fixed leaf lets viewers infer its size",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creature-6",
+        "sectionId": "more-evidence",
+        "kind": "rank",
+        "prompt": "Rank these silent edits for suggesting that the creature senses vibrations in the ground.",
+        "context": "The fictional trait is the same in every card. The edit can name the trait with a diagram, show a reaction to visible ripples, or hint through a playful comparison.",
+        "explanation": "The labeled ripple diagram explains the trait, while the ripple reaction and pebble gag leave it to inference. Their calm or playful treatment adds the second preference dimension; this is not a test of observation skill.",
+        "sourceIds": [
+          "film-cards"
+        ],
+        "items": [
+          {
+            "id": "diagram",
+            "label": "A calm labeled diagram shows ripples reaching the creature",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "ripples",
+            "label": "A quiet scene shows it react as ground ripples arrive, without naming why",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "pebble",
+            "label": "A playful bouncing-pebble gag hints at ground tremors",
+            "weights": [
+              -2,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creature-7",
+        "sectionId": "final-cut",
+        "kind": "choice",
+        "prompt": "Which edit would you choose to reveal that the creature weaves reeds into a nest?",
+        "context": "The invented biology card says the creature builds a nest from reeds. The film could explain the steps in a diagram or let the audience infer them from the images, using either playful or observational treatment.",
+        "explanation": "A labeled diagram states how the nest is made; the wordless weaving sequence leaves that fact to inference. The comic clue and calm observation vary tone separately from how directly the biology is explained.",
+        "sourceIds": [
+          "film-cards"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "A calm labeled diagram traces reed-to-nest steps",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A comic chase with loose reeds hints at nest-building without explaining it",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A playful sequence of labeled cards names each nest-building step",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "A quiet wordless sequence shows reeds woven into a shelter",
+            "weights": [
+              -2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creature-8",
+        "sectionId": "final-cut",
+        "kind": "rank",
+        "prompt": "Rank edits for revealing that the creature leaves its outer shell behind as it grows.",
+        "context": "This fictional trait can be explained with labels or inferred from before-and-after images. The editing can be playful or observational; each card is a different way to show the same change.",
+        "explanation": "The side-by-side labels state what changed, the continuous scene lets viewers infer it, and the empty-shell gag hints playfully. The rank reflects edit preference only, not film knowledge.",
+        "sourceIds": [
+          "film-cards"
+        ],
+        "items": [
+          {
+            "id": "labels",
+            "label": "A calm before-and-after frame labels the old and new shell",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "emerge",
+            "label": "A quiet continuous scene shows the creature beside its discarded shell, without labels",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "costume",
+            "label": "A playful empty-shell “costume” gag hints at the change",
+            "weights": [
+              -2,
+              -2
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
