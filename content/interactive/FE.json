@@ -13430,5 +13430,371 @@
         "correct": "b"
       }
     ]
+  },
+  {
+    "id": "FE-35",
+    "slug": "why-the-apple-slice-turns-brown",
+    "categoryId": "food-everyday-life",
+    "title": "Why the Apple Slice Turns Brown",
+    "description": "Use invented observation cards to explore how damaged apple tissue, oxygen, and PPO relate to browning, then separate color evidence from texture and other questions.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Follow the exposed surface",
+        "description": "Connect tissue, oxygen, and the recorded color change."
+      },
+      {
+        "id": "s2",
+        "title": "Compare the conditions",
+        "description": "Plan a fair next comparison and respect what color alone cannot show."
+      }
+    ],
+    "questions": [
+      {
+        "id": "fe35-1",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Put the simplified events in a reasonable order for a cut surface that browns.",
+        "explanation": "Cutting exposes cell contents to oxygen; PPO is involved in the browning process, after which brown color can be observed. This is a simplified explanation, not a detailed chemical pathway.",
+        "sourceIds": [
+          "usda-apple",
+          "original"
+        ],
+        "context": "USDA describes browning as a reaction involving cut or bruised tissue, oxygen and an enzyme called polyphenol oxidase (PPO). Use the simplified sequence of the visible change.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Cutting damages some apple tissue"
+          },
+          {
+            "id": "b",
+            "label": "Oxygen reaches exposed cell contents"
+          },
+          {
+            "id": "c",
+            "label": "PPO helps a browning reaction occur"
+          },
+          {
+            "id": "d",
+            "label": "Brown color appears in the record"
+          }
+        ],
+        "correctOrder": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": "fe35-2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Why did the intact peel stay unbrowned in this fictional comparison?",
+        "explanation": "The comparison contrasts intact tissue with a cut surface. An intact peel does not expose damaged cell contents in the same way; the record does not show that oxygen vanished or enzymes were absent.",
+        "sourceIds": [
+          "usda-apple",
+          "original"
+        ],
+        "context": "Fictional note: a fresh cut shows brown patches after twenty minutes. The unbroken peel on the same apple shows no new brown patches. Both faces were in the same room.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The uncut surface did not expose the same damaged tissue to oxygen."
+          },
+          {
+            "id": "b",
+            "label": "The intact apple used up all the oxygen in the room."
+          },
+          {
+            "id": "c",
+            "label": "The color record proves the apple had no enzymes."
+          },
+          {
+            "id": "d",
+            "label": "The peel changed the apple’s texture into a different food."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "fe35-3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each fictional observation to the most careful reading.",
+        "explanation": "The observations fit the role of exposed tissue and oxygen in browning. The cover result is limited to this fictional comparison and does not prove every package works the same way.",
+        "sourceIds": [
+          "usda-apple",
+          "original"
+        ],
+        "context": "Fictional plate record. A cut face in air browned more, a face under a cover browned less, and uncut peel had no new patches. USDA describes how oxygen exposure and tissue damage contribute to enzyme browning.",
+        "left": [
+          {
+            "id": "air",
+            "label": "Cut slice exposed to air browned more"
+          },
+          {
+            "id": "cover",
+            "label": "Cut slice under oxygen-limiting cover browned less"
+          },
+          {
+            "id": "peel",
+            "label": "Intact peel stayed unbrowned"
+          }
+        ],
+        "right": [
+          {
+            "id": "exposure",
+            "label": "Consistent with exposed cut tissue meeting oxygen"
+          },
+          {
+            "id": "less",
+            "label": "Less browning was recorded under this cover condition"
+          },
+          {
+            "id": "intact",
+            "label": "No comparable cut surface was exposed"
+          }
+        ],
+        "pairs": {
+          "air": "exposure",
+          "cover": "less",
+          "peel": "intact"
+        }
+      },
+      {
+        "id": "fe35-4",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which next comparison would best test the role of tissue exposure?",
+        "explanation": "Keeping the apple and room conditions alike while changing whether tissue is cut makes the exposure difference easier to examine. Changing several things at once would blur the comparison.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The class has a fictional paper log of cut and intact pieces. They want a new comparison that changes whether cells are exposed while keeping the surroundings similar.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Compare cut and intact pieces from the same apple under the same room conditions."
+          },
+          {
+            "id": "b",
+            "label": "Compare a cut apple today with an unrelated whole apple next month."
+          },
+          {
+            "id": "c",
+            "label": "Change the cut, cover, room, and observation method together."
+          },
+          {
+            "id": "d",
+            "label": "Ask which slice looks more appealing without recording conditions."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "fe35-5",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "For each conclusion, choose whether the color-only log supports it.",
+        "explanation": "The log reports color under two named conditions. It does not test every package or measure texture.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Fictional color log at one time point. The exposed cut face darkened more than the covered cut face. No firmness or taste measurements were listed.",
+        "cells": [
+          {
+            "id": "g1",
+            "label": "The exposed cut slice browned more in this fictional record.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "g2",
+            "label": "The cover condition had less browning in this comparison.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "g3",
+            "label": "The covered slice would stay unchanged in every package.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "g4",
+            "label": "The record establishes the texture of each slice.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          }
+        ]
+      },
+      {
+        "id": "fe35-6",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each possible follow-up record to the question it could help answer.",
+        "explanation": "A separate measurement should match the question: oxygen records check exposure, a firmness measure checks texture, and a repeated color rating checks the color observation.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "A fictional class is checking what it measured. The first log contains color ratings only. It has no oxygen reading or firmness test.",
+        "left": [
+          {
+            "id": "oxygen",
+            "label": "A record that measures oxygen exposure while keeping the cut alike"
+          },
+          {
+            "id": "texture",
+            "label": "A separate firmness measurement"
+          },
+          {
+            "id": "color",
+            "label": "A second color rating using the same scale"
+          }
+        ],
+        "right": [
+          {
+            "id": "condition",
+            "label": "Whether oxygen exposure differed between conditions"
+          },
+          {
+            "id": "feel",
+            "label": "A texture question rather than a color question"
+          },
+          {
+            "id": "repeat",
+            "label": "Whether the color observation is repeatable"
+          }
+        ],
+        "pairs": {
+          "oxygen": "condition",
+          "texture": "feel",
+          "color": "repeat"
+        }
+      },
+      {
+        "id": "fe35-7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which new comparison best isolates oxygen exposure?",
+        "explanation": "Changing oxygen while holding moisture and temperature similar would separate oxygen exposure from drying. Changing the cover alone can change more than one condition.",
+        "sourceIds": [
+          "usda-apple",
+          "original"
+        ],
+        "context": "Fictional results: covered slices browned less and lost less moisture. The paper log gives no oxygen measurements for either group.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Use the same cover and compare two different varieties."
+          },
+          {
+            "id": "b",
+            "label": "Compare an uncovered slice today with a covered slice tomorrow."
+          },
+          {
+            "id": "c",
+            "label": "Compare matched cuts at similar moisture and temperature, with different oxygen levels."
+          },
+          {
+            "id": "d",
+            "label": "Record color again but leave oxygen and moisture unknown."
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "fe35-8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What can the color record not tell the class by itself?",
+        "explanation": "Color and texture are different observations. The fictional record contains no texture measure or tasting, and it makes no food-safety judgment.",
+        "sourceIds": [
+          "usda-apple",
+          "uw-extension",
+          "original"
+        ],
+        "context": "The fictional color log records a change from light to brown. UW Extension describes observing color after different treatments. The paper log lacks data about taste or firmness.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Which slice browned more in the listed comparison."
+          },
+          {
+            "id": "b",
+            "label": "Whether texture changed or what a real apple would taste like."
+          },
+          {
+            "id": "c",
+            "label": "That the cover condition had less browning in this record."
+          },
+          {
+            "id": "d",
+            "label": "That the exposed cut slice showed brown color."
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "sources": [
+      {
+        "id": "usda-apple",
+        "label": "USDA APHIS, “Apple Browning” discussion of tissue damage, oxygen, PPO, and control methods",
+        "kind": "reference",
+        "url": "https://www.aphis.usda.gov/sites/default/files/10_16101p_dea.pdf"
+      },
+      {
+        "id": "uw-extension",
+        "label": "University of Wisconsin Extension, Apple Browning Experiment",
+        "kind": "reference",
+        "url": "https://health.extension.wisc.edu/files/2024/11/Apple-Browning-Experiment.pdf"
+      },
+      {
+        "id": "original",
+        "label": "Original fictional apple-slice observations and comparison records.",
+        "kind": "original"
+      }
+    ],
+    "note": "The kitchen observations are fictional. The activity uses paper records, with no tasting or food-safety decisions."
   }
 ]

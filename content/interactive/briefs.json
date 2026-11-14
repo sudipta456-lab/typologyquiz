@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 34,
+      "count": 35,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 35,
+      "count": 36,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 63,
+      "count": 64,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 34,
+      "count": 35,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 34,
+      "count": 35,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -7819,6 +7819,111 @@
       "category": "Friends & Social Play",
       "category_code": "FS",
       "wave": "catchup-2026-11-13",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "PC-35",
+      "title": "Which Part of the Podcast Would You Make?",
+      "slug": "podcast-makers-choice",
+      "kind": "preference",
+      "hook": "Choose fictional school-radio openings, interview paths, transitions, and endings across listener orientation and planned-versus-responsive conversation.",
+      "rounds": [
+        "Set the scene",
+        "Shape the conversation"
+      ],
+      "seed": "choice",
+      "payoff": "A descriptive two-axis format summary; preferences concern imagined show styles, not aptitude.",
+      "audience": "Curious players and families who enjoy choosing creative formats.",
+      "evidence": "Original fictional podcast scenarios and weighted format choices; no audience-demand claim.",
+      "dependency": "base",
+      "production_note": "Eight distinct preference tasks: six weighted choices and two weighted ranks. All option weights use explicit integers from -2 to 2 on both dimensions; no answer key or unscored flag.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-11-14",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FS-36",
+      "title": "The Library’s Missing Puppet Scene",
+      "slug": "library-missing-puppet-scene",
+      "kind": "cooperative",
+      "hook": "Use the same complete fictional manuscript, running order, cast sheet, stage map, rehearsal note, and cue list to resolve one misplaced puppet scene.",
+      "rounds": [
+        "Rebuild the running order",
+        "Check the stage cues"
+      ],
+      "seed": "A library puppet show has a misplaced scene.",
+      "payoff": "Find the scene that belongs between the pond and home-song scenes.",
+      "audience": "Friends and families playing one at a time on the same device.",
+      "evidence": "Original fictional library-puppet-show records; no real people, private data, remote roles, or audience claim.",
+      "dependency": "base",
+      "production_note": "Each player sees the same evidence for each task. The device handoff happens after each player finishes the whole round.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-11-14",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-64",
+      "title": "What Changed Behind the Beaver Dam?",
+      "slug": "what-changed-behind-the-beaver-dam",
+      "kind": "knowledge",
+      "hook": "Read a fictional paired site record about depth, ponding, and a wet floodplain hollow, then transfer the reasoning to a separate site and identify missing downstream evidence.",
+      "rounds": [
+        "Read the Willow Bend record",
+        "Compare without overreaching"
+      ],
+      "seed": "choice",
+      "payoff": "Distinguish site observations from unsupported cross-site or downstream flood claims.",
+      "audience": "Curious readers and families interested in water, maps, and careful evidence.",
+      "evidence": "USGS “Hydraulic Effects of Beaver Dams” supports the narrow fact base about flow, depth, ponding, and floodplain inundation; all site records are explicitly original and fictional.",
+      "dependency": "base",
+      "production_note": "Tasks sn64-1–sn64-4 establish the Willow Bend observations; sn64-5–sn64-8 transfer to Cedar Bend, check an alternative, and state what is unknown.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-11-14",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "HC-35",
+      "title": "The Fire Insurance Map Detective",
+      "slug": "fire-insurance-map-detective",
+      "kind": "knowledge",
+      "hook": "Decode a fictional Sanborn-style block with an explicit legend, then use date and boundary clues to separate mapped evidence from questions for other records.",
+      "rounds": [
+        "Decode the printed map",
+        "Set the map’s limits"
+      ],
+      "seed": "choice",
+      "payoff": "Read material and function independently, while keeping claims within the map’s date and coverage.",
+      "audience": "Curious readers who enjoy historical maps and archive puzzles.",
+      "evidence": "Library of Congress Sanborn Maps collection overview and sample legend; Marlow Square and its building details are original fiction.",
+      "dependency": "base",
+      "production_note": "The supplied legend explicitly keys pink brick/tile, yellow wood frame, blue concrete/cinder block, S store, and D dwelling; map limits and follow-up records are tested in hc35-5–hc35-8.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-11-14",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FE-35",
+      "title": "Why the Apple Slice Turns Brown",
+      "slug": "why-the-apple-slice-turns-brown",
+      "kind": "knowledge",
+      "hook": "Trace a fictional cut-apple color record from tissue exposure to browning, then plan comparisons that separate oxygen, package conditions, texture, and color.",
+      "rounds": [
+        "Follow the exposed surface",
+        "Compare the conditions"
+      ],
+      "seed": "order",
+      "payoff": "Explain the narrow role of damaged tissue, oxygen, and PPO without treating color as a texture, taste, or safety test.",
+      "audience": "Curious players and families exploring everyday food science.",
+      "evidence": "USDA APHIS discussion of apple tissue damage, oxygen, PPO, and controls; UW Extension is cited for the comparison-task context. All observations are clearly fictional.",
+      "dependency": "base",
+      "production_note": "No tasting or safety judgment. Tasks fe35-5–fe35-8 distinguish color-only records from package boundaries, moisture, and separate texture measurements.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-11-14",
       "evidence_class": "evergreen"
     }
   ]

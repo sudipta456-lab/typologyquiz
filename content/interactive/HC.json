@@ -12830,5 +12830,350 @@
         "correct": "a"
       }
     ]
+  },
+  {
+    "id": "HC-35",
+    "slug": "fire-insurance-map-detective",
+    "categoryId": "history-culture",
+    "title": "The Fire Insurance Map Detective",
+    "description": "Read a fictional Sanborn-style block using a supplied legend, then separate what its historical map records from questions that need other records.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Decode the printed map",
+        "description": "Use the explicit color, letter, and purpose clues."
+      },
+      {
+        "id": "s2",
+        "title": "Set the map’s limits",
+        "description": "Check coverage, date, and what other records might add."
+      }
+    ],
+    "questions": [
+      {
+        "id": "hc35-1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "What was a Sanborn fire insurance map mainly made to help with?",
+        "explanation": "The Library of Congress describes Sanborn maps as detailed maps made for fire-insurance purposes. They record features such as building size, shape, construction, and use; they are not population lists or travel guides.",
+        "sourceIds": [
+          "loc-sanborn",
+          "original"
+        ],
+        "context": "The Library of Congress collection contains detailed plans with building materials, structure shapes and uses recorded lot by lot.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Planning fire-insurance risk by recording building and block details."
+          },
+          {
+            "id": "b",
+            "label": "Listing every person who lived in a city each year."
+          },
+          {
+            "id": "c",
+            "label": "Showing the fastest route between train stations."
+          },
+          {
+            "id": "d",
+            "label": "Recording private letters sent from each building."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc35-2",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each color in this fictional printed key to its stated building material.",
+        "explanation": "The fictional key explicitly states pink for brick or tile, yellow for wood frame, and blue for concrete or cinder block. The color must be read with this map’s printed legend.",
+        "sourceIds": [
+          "loc-sanborn",
+          "original"
+        ],
+        "context": "Fictional key, based on a Library of Congress example: pink marks brick or tile, yellow marks wood frame, and blue marks concrete or cinder block.",
+        "left": [
+          {
+            "id": "pink",
+            "label": "Pink"
+          },
+          {
+            "id": "yellow",
+            "label": "Yellow"
+          },
+          {
+            "id": "blue",
+            "label": "Blue"
+          }
+        ],
+        "right": [
+          {
+            "id": "brick",
+            "label": "Brick or tile"
+          },
+          {
+            "id": "wood",
+            "label": "Wood frame"
+          },
+          {
+            "id": "concrete",
+            "label": "Concrete or cinder block"
+          }
+        ],
+        "pairs": {
+          "pink": "brick",
+          "yellow": "wood",
+          "blue": "concrete"
+        }
+      },
+      {
+        "id": "hc35-3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Use the printed key to match each letter to the mapped use.",
+        "explanation": "The map legend defines S as store and D as dwelling. Those abbreviations are not assumed without the supplied key.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "In the fictional Marlow Square key, the letter S identifies a store and D identifies a dwelling. The same sheet uses construction colors separately.",
+        "left": [
+          {
+            "id": "s",
+            "label": "S"
+          },
+          {
+            "id": "d",
+            "label": "D"
+          }
+        ],
+        "right": [
+          {
+            "id": "store",
+            "label": "Store"
+          },
+          {
+            "id": "dwelling",
+            "label": "Dwelling"
+          }
+        ],
+        "pairs": {
+          "s": "store",
+          "d": "dwelling"
+        }
+      },
+      {
+        "id": "hc35-4",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which description combines Building B’s material and use correctly?",
+        "explanation": "Building B is marked yellow S. The printed legend maps yellow to wood frame and S to store, showing that material and function are separate clues.",
+        "sourceIds": [
+          "loc-sanborn",
+          "original"
+        ],
+        "context": "The 1908 Marlow Square sheet marks Building B as yellow S. Its printed key uses yellow for wood frame, pink for brick or tile, S for store, and D for dwelling.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Wood-frame store"
+          },
+          {
+            "id": "b",
+            "label": "Brick or tile dwelling"
+          },
+          {
+            "id": "c",
+            "label": "Concrete or cinder-block store"
+          },
+          {
+            "id": "d",
+            "label": "Wood-frame dwelling"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc35-5",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "For each claim, choose whether the map directly supports it.",
+        "explanation": "Building C is marked D, and A and D are both pink. The stated map contains no occupant names and records a 1908 survey, not present-day conditions.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The fictional 1908 sheet shows A in pink, C as D for dwelling and D in pink. It has no occupant names, and its marks are recorded as of the survey date.",
+        "cells": [
+          {
+            "id": "m1",
+            "label": "Building C is marked as a dwelling.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "m2",
+            "label": "Building A and Building D share a mapped material color.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "m3",
+            "label": "The map names the people living in Building C.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "m4",
+            "label": "The map proves what is on the block today.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          }
+        ]
+      },
+      {
+        "id": "hc35-6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "If two buildings share the letter S but have different construction marks, what can the map show?",
+        "explanation": "The use mark describes the type of business space. The construction marks describe different categories of materials. One does not determine the other.",
+        "sourceIds": [
+          "loc-sanborn",
+          "original"
+        ],
+        "context": "On the fictional sheet, S means store. A wood-frame mark and a brick-or-tile mark follow the example construction legend. Two stores carry different construction marks.",
+        "correct": "c",
+        "options": [
+          {
+            "id": "a",
+            "label": "One building cannot be a store."
+          },
+          {
+            "id": "b",
+            "label": "Both buildings necessarily had the same owner."
+          },
+          {
+            "id": "c",
+            "label": "Both are shown as stores with different construction markings."
+          },
+          {
+            "id": "d",
+            "label": "The different marks prove one building was newer."
+          }
+        ]
+      },
+      {
+        "id": "hc35-7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A researcher wants to know which named shop operated in Building D in 1908. What would be a useful next record to compare?",
+        "explanation": "A dated city directory linked to the address could help identify a listed business. The map marks the building’s use as a store but does not name its operator.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The fictional Marlow Square sheet puts Building D at 14 Market Street and marks it “S” in 1908. The key reads S as store; the address has no business name printed beside it.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A city directory from around 1908, checked against the address."
+          },
+          {
+            "id": "b",
+            "label": "A modern photograph with no address or date."
+          },
+          {
+            "id": "c",
+            "label": "A color swatch without a building label."
+          },
+          {
+            "id": "d",
+            "label": "A map of an unrelated town."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc35-8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What is the safest claim about an unmarked building just beyond the map boundary?",
+        "explanation": "The boundary limits what the sheet records. An unmarked structure outside the covered blocks cannot be classified or dated from this map alone.",
+        "sourceIds": [
+          "loc-sanborn",
+          "original"
+        ],
+        "context": "The fictional printed map boundary ends at the east side of Marlow Square. A research note mentions a structure farther east, beyond that coverage. It has no symbol on this sheet.",
+        "options": [
+          {
+            "id": "a",
+            "label": "It was empty in 1908 because the map does not color it."
+          },
+          {
+            "id": "b",
+            "label": "It was outside this map’s stated coverage, so this sheet cannot classify it."
+          },
+          {
+            "id": "c",
+            "label": "It had the same material as Building D."
+          },
+          {
+            "id": "d",
+            "label": "It was built after 1908."
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "sources": [
+      {
+        "id": "loc-sanborn",
+        "label": "Library of Congress, Sanborn Maps collection overview and sample legend",
+        "kind": "reference",
+        "url": "https://www.loc.gov/collections/sanborn-maps/about-this-collection/"
+      },
+      {
+        "id": "original",
+        "label": "Original fictional Marlow Square block, printed legend, and archive questions.",
+        "kind": "original"
+      }
+    ],
+    "note": "Marlow Square is fictional. Its printed symbols are based on example Sanborn keys documented by the Library of Congress."
   }
 ]

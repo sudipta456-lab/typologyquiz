@@ -11687,5 +11687,411 @@
         ]
       }
     ]
+  },
+  {
+    "id": "PC-35",
+    "slug": "podcast-makers-choice",
+    "categoryId": "personality-choices",
+    "title": "Which Part of the Podcast Would You Make?",
+    "description": "Choose fictional school-radio formats, from listener guides to immersive scenes and planned or responsive interviews. This is about creative preference, not aptitude.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Set the scene",
+        "description": "Choose openings and transitions for invented school-radio stories."
+      },
+      {
+        "id": "s2",
+        "title": "Shape the conversation",
+        "description": "Choose how fictional interviews move and end."
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc35-1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "The school radio crew is planning a short story about a lost kite. Which opening would you build?",
+        "explanation": "The summaries and scenes compare how the story begins. Only options that describe reacting in the moment contribute to the conversation preference.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "All choices are fictional school-radio plans. No recording, real voice, or personal detail is requested.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A host names the question and gives a clear scene summary.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A narrated scene begins beside the kite as it catches the wind.",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A host follows a guest’s changing account of the kite search.",
+            "weights": [
+              -1,
+              2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "A scene moves through the search while voices react in the moment.",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc35-2",
+        "sectionId": "s1",
+        "kind": "rank",
+        "prompt": "Rank these ways to introduce a fictional guest’s school-garden project.",
+        "explanation": "Ranking compares how the four formats balance a clear guide, scene immersion, and prepared or responsive conversation. It does not measure ability.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The guest and garden are invented. Rank format ideas only; do not supply personal information.",
+        "items": [
+          {
+            "id": "a",
+            "label": "A short host summary before the first answer.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A vivid garden scene before the project is named.",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Read the three interview prompts in their prepared order.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "A flexible question that follows an unexpected detail.",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc35-3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "A fictional guest describes a school play’s moving set. What would you want the first minute to do?",
+        "explanation": "A topic outline favors listener-first clarity and a planned path; a close scene favors immersion. Both interview choices can be planned or responsive.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The crew uses a made-up play and guest. No audio is recorded.",
+        "options": [
+          {
+            "id": "a",
+            "label": "State the topic and the three planned questions.",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Place the listener beside the set as it rolls into view.",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Start with one prepared question, then follow the guest’s reply.",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Begin in the middle of a lively exchange about the set.",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc35-4",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "The crew has one short transition between two parts of a fictional show. Which edit appeals to you?",
+        "explanation": "This choice compares signposting with an immersive handoff and a fixed versus flexible conversational route.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The options describe editing styles only. No sound effect or recording is needed.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A plain signpost telling listeners what comes next.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A sound-free narrated moment that carries the scene forward.",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A host asks the next question based on the last answer.",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "The next scene begins, then a guest responds to it.",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc35-5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A fictional interview is about a class-built paper bridge. How would you shape the questions?",
+        "explanation": "The prepared sequence and flexible follow-up differ in pacing. Scene-led options add immersion without implying a better interview.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The bridge and interview are fictional; the quiz does not ask for private details.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Write a short sequence and keep each question on topic.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Open with a close-up description of the bridge, then ask a set question.",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Prepare a few prompts but let an answer choose the next one.",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Let a surprising detail guide the next question and scene.",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc35-6",
+        "sectionId": "s2",
+        "kind": "rank",
+        "prompt": "Rank these ways to close the fictional bridge episode.",
+        "explanation": "The recap and the closing scene emphasize different ways to end. The two interview options distinguish a prepared final question from following the guest’s last thought.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "All guests, scenes, and show details are invented.",
+        "items": [
+          {
+            "id": "a",
+            "label": "A host recaps the main point and gives a clear sign-off.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Return to a scene at the bridge with a calm final image.",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ask the guest one planned final question, then sum up.",
+            "weights": [
+              -1,
+              -2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Follow the guest’s last thought to an unscripted-sounding ending.",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc35-7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A guest gives an unexpected answer in the fictional interview. Which next move fits your preferred cut?",
+        "explanation": "The options distinguish a planned route from responding to the guest and a direct summary from a scene-led cut.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The answer and guest are fictional. No one is asked to record or share a real response.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Use the prepared follow-up so the listener has a steady route.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Keep the answer and add a brief scene-setting line.",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ask a follow-up that grows directly from the answer.",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Stay with the unfolding exchange and leave the next question open.",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc35-8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "The crew is choosing a format for its next made-up episode. What would you rather help shape?",
+        "explanation": "This final choice revisits the two format dimensions in a new production decision. It describes taste in a fictional role, not aptitude.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "The school podcast is fictional. Do not make or submit an actual recording.",
+        "options": [
+          {
+            "id": "a",
+            "label": "A listener guide that previews each segment.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "b",
+            "label": "A chain of short scenes linked by a narrator.",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "c",
+            "label": "A few prepared prompts with room for follow-up.",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "d",
+            "label": "A prepared interview outline that stays in order.",
+            "weights": [
+              0,
+              -2
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional school-radio scenarios and format choices.",
+        "kind": "original"
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "listener-scene",
+        "low": "Listener-first clarity",
+        "high": "Immersive scene",
+        "description": "For this fictional school podcast, whether you lean toward a clear listener guide or a scene that feels close-up."
+      },
+      {
+        "id": "interview-structure",
+        "low": "Tightly planned",
+        "high": "Responsive live conversation",
+        "description": "For this fictional interview, whether a prepared route or a flexible response sounds more appealing."
+      }
+    ],
+    "note": "Every task is about an imagined show. The result describes the formats you picked in this session."
   }
 ]

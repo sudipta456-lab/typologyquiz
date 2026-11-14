@@ -22305,5 +22305,402 @@
         ]
       }
     ]
+  },
+  {
+    "id": "SN-64",
+    "slug": "what-changed-behind-the-beaver-dam",
+    "categoryId": "science-nature",
+    "title": "What Changed Behind the Beaver Dam?",
+    "description": "Read a fictional site record about changes in water depth, ponding, and a wet floodplain hollow, then compare a separate site without drawing broad flood claims.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Read the Willow Bend record",
+        "description": "Separate mapped observations from claims the record cannot support."
+      },
+      {
+        "id": "s2",
+        "title": "Compare without overreaching",
+        "description": "Transfer the reasoning to a separate site and note what remains unknown."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sn64-1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which statement is a direct report from the later Willow Bend record?",
+        "explanation": "The fictional paired record reports a higher depth mark at point A and a larger mapped ponded area. It contains no downstream flood or removal evidence.",
+        "sourceIds": [
+          "usgs-beaver",
+          "original"
+        ],
+        "context": "Fictional Willow Bend notes. At the upstream marker A, water reads 12 cm on the first visit and 20 cm on the second. The same map squares show a ponded area growing from three squares to five.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The downstream town had less flooding."
+          },
+          {
+            "id": "b",
+            "label": "The marked upstream depth is higher and the mapped pond is larger."
+          },
+          {
+            "id": "c",
+            "label": "The dam stopped every floodplain from getting wet."
+          },
+          {
+            "id": "d",
+            "label": "Removing the dam would restore the first map."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "sn64-2",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each Willow Bend record detail to the change it describes.",
+        "explanation": "The depth mark describes local water depth; the wet side hollow shows water over a low floodplain area; the larger area behind the structure describes ponding.",
+        "sourceIds": [
+          "usgs-beaver",
+          "original"
+        ],
+        "context": "At fictional Willow Bend, observers recorded a higher upstream mark, water filling a side hollow on the floodplain, and a larger mapped pond behind the dam. USGS has examined how beaver dams can alter water depth and spread water into low areas.",
+        "left": [
+          {
+            "id": "depth",
+            "label": "Higher mark at point A"
+          },
+          {
+            "id": "hollow",
+            "label": "Water in the shallow side hollow"
+          },
+          {
+            "id": "pond",
+            "label": "Larger area behind the dam"
+          }
+        ],
+        "right": [
+          {
+            "id": "deeper",
+            "label": "Greater depth at the marked point"
+          },
+          {
+            "id": "inundated",
+            "label": "Floodplain area has water on the later visit"
+          },
+          {
+            "id": "ponded",
+            "label": "Expanded ponding behind the dam"
+          }
+        ],
+        "pairs": {
+          "depth": "deeper",
+          "hollow": "inundated",
+          "pond": "ponded"
+        }
+      },
+      {
+        "id": "sn64-3",
+        "sectionId": "s1",
+        "kind": "grid",
+        "prompt": "Choose the best reading of each map note.",
+        "explanation": "The photo shows water around the low marker and a dry bench upslope. It does not show what happened downstream or at other dams.",
+        "sourceIds": [
+          "usgs-beaver",
+          "original"
+        ],
+        "context": "Fictional paired photos. On the second visit, a trail marker in a low side hollow is surrounded by water. A bench farther upslope is dry. The photos cover the hollow and the bench only.",
+        "cells": [
+          {
+            "id": "m1",
+            "label": "Water surrounds the low marker on the second visit.",
+            "options": [
+              {
+                "id": "direct",
+                "label": "Direct observation"
+              },
+              {
+                "id": "claim",
+                "label": "Unsupported claim"
+              }
+            ],
+            "correct": "direct"
+          },
+          {
+            "id": "m2",
+            "label": "The bench upslope is dry in the second-visit photo.",
+            "options": [
+              {
+                "id": "direct",
+                "label": "Direct observation"
+              },
+              {
+                "id": "claim",
+                "label": "Unsupported claim"
+              }
+            ],
+            "correct": "direct"
+          },
+          {
+            "id": "m3",
+            "label": "The dam prevented a downstream flood.",
+            "options": [
+              {
+                "id": "direct",
+                "label": "Direct observation"
+              },
+              {
+                "id": "claim",
+                "label": "Unsupported claim"
+              }
+            ],
+            "correct": "claim"
+          },
+          {
+            "id": "m4",
+            "label": "Every beaver dam creates the same map change.",
+            "options": [
+              {
+                "id": "direct",
+                "label": "Direct observation"
+              },
+              {
+                "id": "claim",
+                "label": "Unsupported claim"
+              }
+            ],
+            "correct": "claim"
+          }
+        ]
+      },
+      {
+        "id": "sn64-4",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "How could the pool and the trickle be present at the same time?",
+        "explanation": "A dam can hold back some water and allow some to pass. The pool and the trickle do not require the dam to be watertight.",
+        "sourceIds": [
+          "usgs-beaver",
+          "original"
+        ],
+        "context": "USGS describes how a semi-porous beaver dam can hold water behind it. At a fictional second dam, an upstream pool and a narrow trickle flowing out through part of the dam are visible at the same time.",
+        "options": [
+          {
+            "id": "a",
+            "label": "The pool proves the dam blocks all flow."
+          },
+          {
+            "id": "b",
+            "label": "The dam holds back some water while letting some pass."
+          },
+          {
+            "id": "c",
+            "label": "The trickle proves the pool cannot contain water."
+          },
+          {
+            "id": "d",
+            "label": "The dam guarantees the same flow at every point."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "sn64-5",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each Cedar Bend observation to what it can support.",
+        "explanation": "Cedar Bend has ponding on both maps and the same point-A depth reading. Willow Bend’s depth change belongs to its own fictional record, not Cedar Bend.",
+        "sourceIds": [
+          "usgs-beaver",
+          "original"
+        ],
+        "context": "At fictional Cedar Bend, maps depict a pool upstream on both visits. A marked stake reads 14 cm each time. At a different site, Willow Bend’s later depth mark was higher.",
+        "left": [
+          {
+            "id": "area",
+            "label": "A ponded area appears on both maps"
+          },
+          {
+            "id": "same",
+            "label": "Point A reads 14 cm on both visits"
+          },
+          {
+            "id": "other",
+            "label": "Willow Bend had a higher later depth mark"
+          }
+        ],
+        "right": [
+          {
+            "id": "repeat",
+            "label": "Ponding is shown on both Cedar Bend visits"
+          },
+          {
+            "id": "equal",
+            "label": "No change in the recorded depth at this point"
+          },
+          {
+            "id": "separate",
+            "label": "A result from a different fictional site"
+          }
+        ],
+        "pairs": {
+          "area": "repeat",
+          "same": "equal",
+          "other": "separate"
+        }
+      },
+      {
+        "id": "sn64-6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which added record would best help check whether different weather could explain a map change?",
+        "explanation": "Rainfall and upstream flow records would test whether water arriving at the site differed. They would not, by themselves, isolate the dam’s effect.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "A larger pool appears on the second fictional Willow Bend visit, after the same dam has been there for both visits. The water level could also have responded to weather. The two readings were taken weeks apart.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rainfall and upstream flow records around each visit."
+          },
+          {
+            "id": "b",
+            "label": "A drawing of an unrelated dam at another river."
+          },
+          {
+            "id": "c",
+            "label": "A list of beaver names from a wildlife poster."
+          },
+          {
+            "id": "d",
+            "label": "A downstream flood claim without a date or measurement."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "sn64-7",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "For each proposed conclusion, mark whether the supplied records support it.",
+        "explanation": "The marked Willow Bend point rose, while Cedar Bend’s point stayed the same and both Cedar Bend maps show ponding. Neither site record establishes that a downstream neighborhood was protected.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "Fictional comparison. Willow Bend’s marked point rose from 12 to 20 cm. Cedar Bend’s marked point stayed at 14 cm, and a ponded area appears on both Cedar Bend maps.",
+        "cells": [
+          {
+            "id": "c1",
+            "label": "Cedar Bend’s point-A readings are equal on the two visits.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "c2",
+            "label": "The two sites show an identical depth change.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "c3",
+            "label": "Cedar Bend’s maps show a ponded area on both visits.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "c4",
+            "label": "A downstream neighborhood was protected from a flood.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          }
+        ]
+      },
+      {
+        "id": "sn64-8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What remains unknown from these fictional maps?",
+        "explanation": "The records state Willow Bend’s higher later mark and Cedar Bend’s equal readings and ponded areas. They include no downstream gauge or flood record, so no downstream flood conclusion follows.",
+        "sourceIds": [
+          "original"
+        ],
+        "context": "A fictional town sits downstream from Willow Bend. The upstream maps show how far the pool extends near the dam. No town readings or observations during storms appear on those maps.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Whether the two named sites have any ponded area at all."
+          },
+          {
+            "id": "b",
+            "label": "Whether a downstream flood happened or whether a dam prevented one."
+          },
+          {
+            "id": "c",
+            "label": "Whether Willow Bend’s later point-A mark is higher."
+          },
+          {
+            "id": "d",
+            "label": "Whether Cedar Bend’s point-A readings match."
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "sources": [
+      {
+        "id": "usgs-beaver",
+        "label": "USGS, “Hydraulic Effects of Beaver Dams” (flow, depth, ponding, and floodplain inundation)",
+        "kind": "reference",
+        "url": "https://www.usgs.gov/media/files/3-hydraulic-effects-beaver-dams"
+      },
+      {
+        "id": "original",
+        "label": "Original fictional beaver-dam site maps and observation records.",
+        "kind": "original"
+      }
+    ],
+    "note": "Willow Bend and Cedar Bend are fictional. Readings here illustrate how to interpret water records at specific sites."
   }
 ]

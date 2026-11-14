@@ -12797,5 +12797,377 @@
         ]
       }
     ]
+  },
+  {
+    "id": "FS-36",
+    "slug": "library-missing-puppet-scene",
+    "categoryId": "friends-social-play",
+    "title": "The Library’s Missing Puppet Scene",
+    "description": "Work together on a fictional library puppet-show file. Every same-device player sees the complete evidence and answers all eight tasks in sequence before comparing completed answers.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 7,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Rebuild the running order",
+        "description": "Use the manuscript, clipboard, cast sheet, and rehearsal book."
+      },
+      {
+        "id": "s2",
+        "title": "Check the stage cues",
+        "description": "Separate stage, timing, and unknown clues."
+      }
+    ],
+    "questions": [
+      {
+        "id": "fs36-1",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which page should the crew investigate to repair the missing transition?",
+        "explanation": "The lantern page is loose, and its premise fits Bo’s unanswered request for light. The other scenes already have bound script tabs.",
+        "sourceIds": [
+          "case"
+        ],
+        "context": "Fictional stage file. The bound script has Gate Welcome, Moon Pond and Home Song. A loose page headed Lantern Keeper is tucked behind the back cover. Moon Pond ends with Bo asking who will light the way home.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Gate Welcome"
+          },
+          {
+            "id": "b",
+            "label": "Moon Pond"
+          },
+          {
+            "id": "c",
+            "label": "Lantern Keeper"
+          },
+          {
+            "id": "d",
+            "label": "Home Song"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "fs36-2",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Arrange the four scenes in the supported running order.",
+        "explanation": "The clipboard gives the sequence directly: Gate Welcome, Moon Pond, Lantern Keeper, then Home Song. The tucked card is not evidence that the scene belongs at the end.",
+        "sourceIds": [
+          "case"
+        ],
+        "context": "Fictional rehearsal notes. At the entrance, the Gatekeeper sends everyone to the pond. Bo calls for a light from the pond. The light then reveals the path. The singers arrive only when they can see that path.",
+        "items": [
+          {
+            "id": "g",
+            "label": "Gate Welcome"
+          },
+          {
+            "id": "p",
+            "label": "Moon Pond"
+          },
+          {
+            "id": "l",
+            "label": "Lantern Keeper"
+          },
+          {
+            "id": "h",
+            "label": "Home Song"
+          }
+        ],
+        "correctOrder": [
+          "g",
+          "p",
+          "l",
+          "h"
+        ]
+      },
+      {
+        "id": "fs36-3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each performer on the cast sheet to the role listed for them.",
+        "explanation": "The cast sheet pairs each performer with one named role: Nia/Gatekeeper, Bo/Pond Keeper, Cal/Lantern Keeper, and Eli/Home Song singer.",
+        "sourceIds": [
+          "case"
+        ],
+        "context": "Fictional cast notes. Nia greets the audience at the arch. Bo works the puppet that asks for a light at the pond. Cal brings the lantern. Eli leads the closing song.",
+        "left": [
+          {
+            "id": "nia",
+            "label": "Nia"
+          },
+          {
+            "id": "bo",
+            "label": "Bo"
+          },
+          {
+            "id": "cal",
+            "label": "Cal"
+          },
+          {
+            "id": "eli",
+            "label": "Eli"
+          }
+        ],
+        "right": [
+          {
+            "id": "gate",
+            "label": "Gatekeeper"
+          },
+          {
+            "id": "pond",
+            "label": "Pond Keeper"
+          },
+          {
+            "id": "lantern",
+            "label": "Lantern Keeper"
+          },
+          {
+            "id": "song",
+            "label": "Home Song singer"
+          }
+        ],
+        "pairs": {
+          "nia": "gate",
+          "bo": "pond",
+          "cal": "lantern",
+          "eli": "song"
+        }
+      },
+      {
+        "id": "fs36-4",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which performer should read the line marked with a star?",
+        "explanation": "The star identifies the lantern puppet. The cast note names Cal as the performer moving it.",
+        "sourceIds": [
+          "case"
+        ],
+        "context": "The rehearsal notebook marks lines with symbols. The pond puppet is marked with a wave. The lantern puppet has a star. A star precedes “I’ll keep it lit until the last frog has crossed.” Cast note: Bo moves the pond puppet and Cal moves the lantern puppet. Nia works the gate and Eli sings.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nia"
+          },
+          {
+            "id": "b",
+            "label": "Bo"
+          },
+          {
+            "id": "c",
+            "label": "Cal"
+          },
+          {
+            "id": "d",
+            "label": "Eli"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "fs36-5",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each scene location to its place on the stage map.",
+        "explanation": "The stage map labels each location: Gate Arch at center, Moon Pond at stage left, Lantern Bridge at stage right, and Home Window at center rear.",
+        "sourceIds": [
+          "case"
+        ],
+        "context": "Fictional stage layout, seen by the performers. Gate Arch stands at center. Moon Pond is left of it and Lantern Bridge is right of it. Home Window is directly upstage, behind the arch.",
+        "left": [
+          {
+            "id": "gate",
+            "label": "Gate Arch"
+          },
+          {
+            "id": "pond",
+            "label": "Moon Pond"
+          },
+          {
+            "id": "bridge",
+            "label": "Lantern Bridge"
+          },
+          {
+            "id": "window",
+            "label": "Home Window"
+          }
+        ],
+        "right": [
+          {
+            "id": "center",
+            "label": "Center"
+          },
+          {
+            "id": "left",
+            "label": "Stage left"
+          },
+          {
+            "id": "right",
+            "label": "Stage right"
+          },
+          {
+            "id": "rear",
+            "label": "Center rear"
+          }
+        ],
+        "pairs": {
+          "gate": "center",
+          "pond": "left",
+          "bridge": "right",
+          "window": "rear"
+        }
+      },
+      {
+        "id": "fs36-6",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Put the cues in the order required by the rehearsal rules.",
+        "explanation": "The cue list gives this sequence: the chime follows Gate Welcome, the blue curtain follows Moon Pond, the lantern reveal follows that curtain, and Home Song follows the Lantern Keeper scene.",
+        "sourceIds": [
+          "case"
+        ],
+        "context": "Fictional stage rule. The chime releases the curtain cue. Only after the curtain starts moving may the lantern appear. The singers start once the lantern puppet exits.",
+        "items": [
+          {
+            "id": "a",
+            "label": "Chime after Gate Welcome"
+          },
+          {
+            "id": "b",
+            "label": "Blue curtain after Moon Pond"
+          },
+          {
+            "id": "c",
+            "label": "Lantern reveal after the curtain"
+          },
+          {
+            "id": "d",
+            "label": "Home Song after the Lantern Keeper scene"
+          }
+        ],
+        "correctOrder": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": "fs36-7",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "For each statement, choose whether the shared dossier supports it.",
+        "explanation": "The first attempt put Cal’s entrance ahead of the curtain. On the reset, Cal waited for the curtain. Neither line says why the card came loose.",
+        "sourceIds": [
+          "case"
+        ],
+        "context": "Fictional rehearsal addendum. Cal entered with the lantern puppet from Lantern Bridge before the curtain moved. The crew reset and moved the curtain first. Cal waited in the wings until then. The note names no cause of the loose card.",
+        "cells": [
+          {
+            "id": "s1",
+            "label": "The lantern appeared before the curtain moved on the first attempt.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "s2",
+            "label": "Cal waited for the curtain on the reset.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "s3",
+            "label": "The chime failed during the reset.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "s4",
+            "label": "Cal was responsible for the loose page.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          }
+        ]
+      },
+      {
+        "id": "fs36-8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What missing story beat does returning the loose page restore?",
+        "explanation": "The lantern scene answers Bo’s call and makes the singers’ arrival understandable. The records place the scene without explaining how the page came loose.",
+        "sourceIds": [
+          "case"
+        ],
+        "context": "The running order puts Lantern Keeper between Moon Pond and Home Song. The original bound script jumps from Moon Pond to Home Song. The loose page answers Bo’s call for a light so the singers can find their way. The records say nothing about how the page became loose.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Bo’s call for light leads to the singers finding the path."
+          },
+          {
+            "id": "b",
+            "label": "The singers teach Bo how to light the lantern afterward."
+          },
+          {
+            "id": "c",
+            "label": "The Lantern Keeper introduces the gate before Bo arrives."
+          },
+          {
+            "id": "d",
+            "label": "The gate closes the show when the lantern stops working."
+          }
+        ],
+        "correct": "a"
+      }
+    ],
+    "sources": [
+      {
+        "id": "case",
+        "label": "Original fictional library puppet-show manuscript, running order, cast sheet, rehearsal book, map, and cue list.",
+        "kind": "original"
+      }
+    ],
+    "note": "This is a fictional puppet show. Each player on the same device sees the same eight tasks and hands it over only when finished. Compare your answers at the end.",
+    "playMode": "pass-and-play"
   }
 ]
