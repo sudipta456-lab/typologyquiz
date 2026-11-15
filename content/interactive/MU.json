@@ -12733,5 +12733,394 @@
         ]
       }
     ]
+  },
+  {
+    "id": "MU-34",
+    "slug": "find-the-beat-without-the-drum",
+    "categoryId": "music",
+    "title": "Find the Beat Without the Drum",
+    "description": "Read original paper transcriptions to separate a steady pulse from note onsets, rests, and shifted accents.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "read",
+        "title": "Read the Clues",
+        "description": "Use count-ins and invented notation to separate pulse, onset, rest, and accent."
+      },
+      {
+        "id": "apply",
+        "title": "Carry the Pulse Forward",
+        "description": "Apply the same rules to fresh patterns and explain why a phrase can remain steady."
+      }
+    ],
+    "questions": [
+      {
+        "id": "mu34-1",
+        "sectionId": "read",
+        "kind": "choice",
+        "prompt": "Which statement identifies the pulse when one beat has no note?",
+        "context": "Invented four-beat paper bar. Count-in: 1, 2, 3, 4 at equal spacing. Note strip: beat 1 = `na`, beat 2 = `na`, beat 3 = blank, beat 4 = `na`. In this quiz, a blank slot means no note sounds; the count-in still marks every beat.",
+        "options": [
+          {
+            "id": "pulse-continues",
+            "label": "Four evenly spaced beats remain; beat 3 has no note onset."
+          },
+          {
+            "id": "only-notes",
+            "label": "There are only three beats because only three note onsets appear."
+          },
+          {
+            "id": "pulse-pauses",
+            "label": "The pulse stops at beat 3 and restarts at beat 4."
+          },
+          {
+            "id": "accent-only",
+            "label": "Beat 3 contains a quiet note because every beat must sound."
+          }
+        ],
+        "explanation": "The count-in supplies the steady beat grid. A blank note slot is a rest, not a missing beat, so the pulse continues through beat 3.",
+        "sourceIds": [
+          "mu34-pattern-1"
+        ],
+        "correct": "pulse-continues"
+      },
+      {
+        "id": "mu34-2",
+        "sectionId": "read",
+        "kind": "grid",
+        "prompt": "For each numbered beat, mark whether a note onset is heard or the slot is a rest.",
+        "context": "Invented paper pattern with a count-in of 1, 2, 3, 4 at equal spacing. The note strip is: beat 1 = `lo`, beat 2 = blank, beat 3 = `mi`, beat 4 = blank. A blank means no note onset; it does not remove that beat from the count.",
+        "cells": [
+          {
+            "id": "beat-1",
+            "label": "Beat 1",
+            "options": [
+              {
+                "id": "onset",
+                "label": "Note onset"
+              },
+              {
+                "id": "rest",
+                "label": "Rest"
+              },
+              {
+                "id": "offbeat",
+                "label": "Onset between beats"
+              }
+            ],
+            "correct": "onset"
+          },
+          {
+            "id": "beat-2",
+            "label": "Beat 2",
+            "options": [
+              {
+                "id": "onset",
+                "label": "Note onset"
+              },
+              {
+                "id": "rest",
+                "label": "Rest"
+              },
+              {
+                "id": "offbeat",
+                "label": "Onset between beats"
+              }
+            ],
+            "correct": "rest"
+          },
+          {
+            "id": "beat-3",
+            "label": "Beat 3",
+            "options": [
+              {
+                "id": "onset",
+                "label": "Note onset"
+              },
+              {
+                "id": "rest",
+                "label": "Rest"
+              },
+              {
+                "id": "offbeat",
+                "label": "Onset between beats"
+              }
+            ],
+            "correct": "onset"
+          },
+          {
+            "id": "beat-4",
+            "label": "Beat 4",
+            "options": [
+              {
+                "id": "onset",
+                "label": "Note onset"
+              },
+              {
+                "id": "rest",
+                "label": "Rest"
+              },
+              {
+                "id": "offbeat",
+                "label": "Onset between beats"
+              }
+            ],
+            "correct": "rest"
+          }
+        ],
+        "explanation": "The printed notes are on beats 1 and 3; beats 2 and 4 are unplayed slots. The count-in keeps all four beat positions present.",
+        "sourceIds": [
+          "mu34-pattern-2"
+        ]
+      },
+      {
+        "id": "mu34-3",
+        "sectionId": "read",
+        "kind": "choice",
+        "prompt": "On which beat is the accent shifted in this bar?",
+        "context": "Invented four-beat paper bar. Count-in: 1, 2, 3, 4 at equal spacing. Note strip: `na`, `na`, `>mi`, `na`. The mark `>` means that note is accented; all four slots have a note onset.",
+        "options": [
+          {
+            "id": "accent-1",
+            "label": "Beat 1"
+          },
+          {
+            "id": "accent-2",
+            "label": "Beat 2"
+          },
+          {
+            "id": "accent-3",
+            "label": "Beat 3"
+          },
+          {
+            "id": "accent-4",
+            "label": "Beat 4"
+          }
+        ],
+        "explanation": "The `>` is attached to the third slot, so beat 3 is accented. The note onsets still occupy all four evenly counted beats.",
+        "sourceIds": [
+          "mu34-pattern-3"
+        ],
+        "correct": "accent-3"
+      },
+      {
+        "id": "mu34-4",
+        "sectionId": "read",
+        "kind": "choice",
+        "prompt": "What should be restored at beat 3 in the damaged copy?",
+        "context": "Invented four-beat pattern. The count-in marks beats 1–4. The main strip reads `>lo`, `mi`, blank, `mi`; a parallel note ledger logs an unaccented `mi` at beat 3. The copy note says one onset mark fell off the main strip, while the parallel ledger is intact.",
+        "options": [
+          {
+            "id": "restore-mi",
+            "label": "An unaccented `mi` onset on beat 3."
+          },
+          {
+            "id": "restore-rest",
+            "label": "A rest on beat 3, because the main strip is blank."
+          },
+          {
+            "id": "restore-accent",
+            "label": "An accented `mi` on beat 3, because every restored note takes the accent."
+          },
+          {
+            "id": "remove-beat",
+            "label": "No beat 3; the bar has only three beats."
+          }
+        ],
+        "explanation": "The count-in keeps beat 3 in the bar, and the independent note ledger records an unaccented `mi` there. The damaged mark is the onset notation, not the beat itself.",
+        "sourceIds": [
+          "mu34-pattern-4"
+        ],
+        "correct": "restore-mi"
+      },
+      {
+        "id": "mu34-5",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "In the exact text transcription, which note falls between numbered beats?",
+        "context": "Invented transcription: beat 1: na, then silence halfway to beat 2. Beat 2: mi, then a note labeled NA halfway to beat 3. Beat 3: silence through the whole count. Beat 4: a note labeled MI, then silence. Uppercase and lowercase are just labels in this question.",
+        "options": [
+          {
+            "id": "between-1-2",
+            "label": "The na immediately after beat 1."
+          },
+          {
+            "id": "between-2-3",
+            "label": "The note NA halfway after beat 2."
+          },
+          {
+            "id": "between-3-4",
+            "label": "The na immediately after beat 3."
+          },
+          {
+            "id": "on-beat-4",
+            "label": "The note MI on beat 4."
+          }
+        ],
+        "explanation": "NA is the only note placed halfway between numbered beats. The other sounding notes land on numbered beats.",
+        "sourceIds": [
+          "mu34-pattern-5"
+        ],
+        "correct": "between-2-3"
+      },
+      {
+        "id": "mu34-6",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "Which pulse placement is supported by the added count-in cue?",
+        "context": "Invented paper pattern with note onsets at 0, 1, 2 and 3 seconds. Before the extra cue, two readings are plausible: a pulse every 1 second with each pulse sounded, or a pulse every 0.5 seconds with alternate pulses silent. A separate count-in marks beats at 0, 0.5, 1, 1.5, 2, 2.5 and 3 seconds; each count-in mark is one beat.",
+        "options": [
+          {
+            "id": "one-second",
+            "label": "A beat every 1 second; the note onsets mark every beat."
+          },
+          {
+            "id": "half-second",
+            "label": "A beat every 0.5 seconds; some beats have no note onset."
+          },
+          {
+            "id": "two-second",
+            "label": "A beat every 2 seconds; the other notes are accents."
+          },
+          {
+            "id": "unresolved",
+            "label": "The cue does not distinguish the two placements."
+          }
+        ],
+        "explanation": "The added count-in explicitly marks each 0.5-second beat. The note row is sparser than the pulse, which is why its onsets alone allowed two readings.",
+        "sourceIds": [
+          "mu34-pattern-6"
+        ],
+        "correct": "half-second"
+      },
+      {
+        "id": "mu34-7",
+        "sectionId": "apply",
+        "kind": "choice",
+        "prompt": "Why can this phrase still feel steady when one event lands between beats?",
+        "context": "Invented four-beat phrase with an equal count-in on beats 1–4. Notes sound on beats 1, 2 and 4; an extra light `ti` sounds halfway between beats 2 and 3; beat 3 itself is a rest. The count-in continues evenly through the whole bar.",
+        "options": [
+          {
+            "id": "steady-grid",
+            "label": "The count-in keeps the beat grid steady through both the rest and the between-beat note."
+          },
+          {
+            "id": "extra-beat",
+            "label": "The between-beat note replaces beat 3, so the bar has a new pulse."
+          },
+          {
+            "id": "onsets-define",
+            "label": "The pulse exists only when a note sounds, so the rest ends it."
+          },
+          {
+            "id": "accent-reset",
+            "label": "The light note resets the count to beat 1."
+          }
+        ],
+        "explanation": "The regular count-in is the reference pulse. A rest leaves a beat unplayed, and an extra onset between beats adds an event without moving that grid.",
+        "sourceIds": [
+          "mu34-pattern-7"
+        ],
+        "correct": "steady-grid"
+      },
+      {
+        "id": "mu34-8",
+        "sectionId": "apply",
+        "kind": "match",
+        "prompt": "Match each invented transcription to the change it shows against the four-beat count-in.",
+        "context": "All three paper bars use a count-in of 1, 2, 3, 4 at equal spacing. `>` marks an accent, `·` marks a silent beat, and `&` marks the halfway slot between numbered beats. A note label without `>` is an unaccented onset.",
+        "left": [
+          {
+            "id": "bar-a",
+            "label": "Bar A: `>na  na  na  na`"
+          },
+          {
+            "id": "bar-b",
+            "label": "Bar B: `na  na  >na  na`"
+          },
+          {
+            "id": "bar-c",
+            "label": "Bar C: `na  ·  na  na`"
+          },
+          {
+            "id": "bar-d",
+            "label": "Bar D: `na  ·  mi  NA  na  ·  na  ·` on `1 & 2 & 3 & 4 &`"
+          }
+        ],
+        "right": [
+          {
+            "id": "first-accent",
+            "label": "All beats have notes; beat 1 is accented."
+          },
+          {
+            "id": "third-accent",
+            "label": "All beats have notes; the accent is on beat 3."
+          },
+          {
+            "id": "beat-two-rest",
+            "label": "Beat 2 is a rest while the count continues."
+          },
+          {
+            "id": "between-onset",
+            "label": "An onset lands halfway between numbered beats."
+          }
+        ],
+        "pairs": {
+          "bar-a": "first-accent",
+          "bar-b": "third-accent",
+          "bar-c": "beat-two-rest",
+          "bar-d": "between-onset"
+        },
+        "explanation": "The labels and blank slots are read against the fixed count-in: A changes the accent, B moves it to beat 3, C leaves beat 2 silent, and D places `NA` on an `&` slot.",
+        "sourceIds": [
+          "mu34-pattern-8"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "mu34-pattern-1",
+        "label": "Original invented paper pattern and counting cues for task 1.",
+        "kind": "original"
+      },
+      {
+        "id": "mu34-pattern-2",
+        "label": "Original invented paper pattern and counting cues for task 2.",
+        "kind": "original"
+      },
+      {
+        "id": "mu34-pattern-3",
+        "label": "Original invented paper pattern and counting cues for task 3.",
+        "kind": "original"
+      },
+      {
+        "id": "mu34-pattern-4",
+        "label": "Original invented paper pattern and counting cues for task 4.",
+        "kind": "original"
+      },
+      {
+        "id": "mu34-pattern-5",
+        "label": "Original invented paper pattern and counting cues for task 5.",
+        "kind": "original"
+      },
+      {
+        "id": "mu34-pattern-6",
+        "label": "Original invented paper pattern and counting cues for task 6.",
+        "kind": "original"
+      },
+      {
+        "id": "mu34-pattern-7",
+        "label": "Original invented paper pattern and counting cues for task 7.",
+        "kind": "original"
+      },
+      {
+        "id": "mu34-pattern-8",
+        "label": "Original invented paper pattern and counting cues for task 8.",
+        "kind": "original"
+      }
+    ],
+    "note": "All sound patterns are invented and have complete text transcriptions; no audio is required."
   }
 ]

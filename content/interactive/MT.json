@@ -12275,5 +12275,445 @@
         ]
       }
     ]
+  },
+  {
+    "id": "MT-34",
+    "slug": "split-screen-story-editor",
+    "categoryId": "movies-tv",
+    "title": "Split-Screen Story Editor",
+    "description": "Direct a fictional two-room scene by choosing how much the audience sees at once and how closely actions across frames are timed.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "grammar",
+        "title": "Read the Two-Room Language",
+        "description": "Choose how this scene shares information and relates actions across its frames."
+      },
+      {
+        "id": "application",
+        "title": "Apply It to New Scenes",
+        "description": "Use the same independent direction choices in fresh fictional moments."
+      }
+    ],
+    "questions": [
+      {
+        "id": "mt34-1",
+        "sectionId": "grammar",
+        "kind": "choice",
+        "prompt": "For this two-room beat, which split-screen direction would you choose?",
+        "context": "Fictional scene: in the west room, Neri slips a brass key beneath a paper moon. In the east room, Sol turns an empty bowl upside down. The audience should understand both actions, but neither character sees the other room.",
+        "options": [
+          {
+            "id": "full-simultaneous",
+            "label": "Hold both rooms in a full split frame while the key is hidden and the bowl is turned.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "overlap",
+            "label": "Show the west room, then bring in the east room before the key-hide action has fully ended.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "alternate",
+            "label": "Finish the west-room shot, then cut to the east-room action without showing both at once.",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "delayed-key",
+            "label": "Stay with Sol first and reveal the hidden key only after the bowl is turned.",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "The options vary how much of the two actions is visible at once, from shared access to a deliberately delayed reveal. Each is a direction for this scene, not a judgment about the viewer.",
+        "sourceIds": [
+          "mt34-scene-1"
+        ]
+      },
+      {
+        "id": "mt34-2",
+        "sectionId": "grammar",
+        "kind": "choice",
+        "prompt": "How should the director time these actions across the two frames?",
+        "context": "Fictional scene: in one room, Ivo winds a small music box; in the other, Ren lays four blank cards in a row. The actions can be staged to land together or allowed to keep separate timing.",
+        "options": [
+          {
+            "id": "same-cue",
+            "label": "Start both actions on one visible cue and have the last card land as the box closes.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "shared-start",
+            "label": "Give both actions the same start cue, but let each finish at its own pace.",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "separate-starts",
+            "label": "Start each action on a different cut and let their rhythms unfold independently.",
+            "weights": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "separate-tempos",
+            "label": "Keep each room on its own tempo, with no shared start or matched finish.",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ],
+        "explanation": "A shared cue and matched landing create tight coordination; separate starts and tempos preserve independent rhythms. The framing and information stay otherwise the same.",
+        "sourceIds": [
+          "mt34-scene-2"
+        ]
+      },
+      {
+        "id": "mt34-3",
+        "sectionId": "grammar",
+        "kind": "choice",
+        "prompt": "Which reveal would you use for this split-screen moment?",
+        "context": "Fictional scene: a blue envelope slides behind a bookcase in Room A. In Room B, a character opens a drawer and finds it empty. The audience may see the hiding and discovery together, or learn about the envelope later.",
+        "options": [
+          {
+            "id": "see-both",
+            "label": "Keep both rooms visible as the envelope disappears and the empty drawer opens.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "brief-overlap",
+            "label": "Show the hiding, then briefly share the frame as the drawer opens.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "one-after-other",
+            "label": "Cut from the hiding action to the drawer opening, one room at a time.",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "withhold-envelope",
+            "label": "Stay with the empty drawer and show the envelope only in a later insert.",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "This choice controls the audience's access to the two clues: simultaneous, partly shared, sequential, or withheld. It does not change what either character knows in the fictional scene.",
+        "sourceIds": [
+          "mt34-scene-3"
+        ]
+      },
+      {
+        "id": "mt34-4",
+        "sectionId": "grammar",
+        "kind": "choice",
+        "prompt": "Which timing plan best fits the two actions in this beat?",
+        "context": "Fictional scene: in Room A, a character draws a chalk circle. In Room B, another character folds a map. Neither action causes or signals the other; the director is choosing only how their rhythms relate.",
+        "options": [
+          {
+            "id": "matched-finish",
+            "label": "Begin on the same cue and finish both gestures on the same beat.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "matched-start",
+            "label": "Begin together, then let the gestures finish a little apart.",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "separate-beats",
+            "label": "Give each room its own start and finish, with the cuts allowing each pace to breathe.",
+            "weights": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "free-rhythm",
+            "label": "Let the two actions keep clearly different tempos without a shared cue.",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ],
+        "explanation": "The first two versions synchronize the actions to different degrees; the latter two let their timing diverge. The scene supplies no plot reason that one rhythm is required.",
+        "sourceIds": [
+          "mt34-scene-4"
+        ]
+      },
+      {
+        "id": "mt34-5",
+        "sectionId": "application",
+        "kind": "choice",
+        "prompt": "Which repair would you make when the two frames compete for attention?",
+        "context": "Fictional screening: a lantern lights below a window as the curtain lifts. The audience keeps missing the lantern. You can preserve the surprise or move the two visual beats apart.",
+        "options": [
+          {
+            "id": "both-now",
+            "label": "Keep both rooms visible and synchronize a bright cue with the lantern.",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "short-overlap",
+            "label": "Keep both rooms visible, but let the lantern light during a pause in the curtain movement.",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "sequential",
+            "label": "Reveal the lantern’s room at the instant both actions land.",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "late-lantern",
+            "label": "Let the curtain scene finish, then reveal the lantern on its own rhythm.",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ],
+        "explanation": "The versions trade information access against the timing of the two actions. A shared frame can still contain staggered actions. Withholding a view can work with either synchronized or independent timing.",
+        "sourceIds": [
+          "mt34-scene-5"
+        ]
+      },
+      {
+        "id": "mt34-6",
+        "sectionId": "application",
+        "kind": "choice",
+        "prompt": "Which final image would you choose when the audience knows something the characters do not?",
+        "context": "Fictional finale: a character draws a curtain in one room. Another lowers a stack of tiles onto a wobbly table in the next room. You can reveal the wobble early or withhold it, and the gestures do not need to coincide.",
+        "options": [
+          {
+            "id": "one-count",
+            "label": "Show both rooms throughout and land the gestures together.",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "same-start",
+            "label": "Show both rooms, then let the wobble play out at its own pace.",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "independent-cuts",
+            "label": "Bring in the second frame as both actions hit their final beat.",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "separate-clocks",
+            "label": "Finish the curtain scene alone, then let the second scene unfold.",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ],
+        "explanation": "The wobble can become suspense if the viewer sees it early, or a surprise when its room comes into view. The added choice concerns how the two gestures are paced.",
+        "sourceIds": [
+          "mt34-scene-6"
+        ]
+      },
+      {
+        "id": "mt34-7",
+        "sectionId": "application",
+        "kind": "rank",
+        "prompt": "Rank the edits from the version you would most want to watch to the one you would least want to watch.",
+        "context": "Fictional scene: Room A contains a sealed letter; Room B contains the character waiting beside a closed mailbox. Every edit preserves the same events and dialogue.",
+        "items": [
+          {
+            "id": "rank-both",
+            "label": "Keep both rooms visible while the letter is sealed and the character waits.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "rank-overlap",
+            "label": "Show Room A, then share both rooms briefly as the wait begins.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "rank-sequence",
+            "label": "Finish the letter shot before showing the waiting character.",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "rank-hold",
+            "label": "Stay with the waiting character and reveal the sealed letter near the end.",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "Your ranking describes how much of both rooms you would like the audience to see at once in this scene.",
+        "sourceIds": [
+          "mt34-scene-7"
+        ]
+      },
+      {
+        "id": "mt34-8",
+        "sectionId": "application",
+        "kind": "rank",
+        "prompt": "Rank these cuts in the order you would pitch them, starting with the one you like most.",
+        "context": "Fictional scene: one room has a character winding a paper windmill; the other has a character placing a small flag on a shelf. The actions have no causal link, and any of the four timing plans can work.",
+        "items": [
+          {
+            "id": "rank-lockstep",
+            "label": "Both begin on one cue and the flag is placed as the windmill stops.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "rank-common-start",
+            "label": "Both begin on one cue, but the windmill finishes before the flag is placed.",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "rank-separate",
+            "label": "The windmill and flag have separate starts, with cuts between their independent paces.",
+            "weights": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "rank-free",
+            "label": "Let each room keep its own tempo, with no shared start or matched finish.",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ],
+        "explanation": "Your ranking reflects how closely you would synchronize the two actions. Any of the timing plans can work in this fictional scene.",
+        "sourceIds": [
+          "mt34-scene-8"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "mt34-scene-1",
+        "label": "Original fictional split-screen scene 1 and its direction choices.",
+        "kind": "original"
+      },
+      {
+        "id": "mt34-scene-2",
+        "label": "Original fictional split-screen scene 2 and its direction choices.",
+        "kind": "original"
+      },
+      {
+        "id": "mt34-scene-3",
+        "label": "Original fictional split-screen scene 3 and its direction choices.",
+        "kind": "original"
+      },
+      {
+        "id": "mt34-scene-4",
+        "label": "Original fictional split-screen scene 4 and its direction choices.",
+        "kind": "original"
+      },
+      {
+        "id": "mt34-scene-5",
+        "label": "Original fictional split-screen scene 5 and its direction choices.",
+        "kind": "original"
+      },
+      {
+        "id": "mt34-scene-6",
+        "label": "Original fictional split-screen scene 6 and its direction choices.",
+        "kind": "original"
+      },
+      {
+        "id": "mt34-scene-7",
+        "label": "Original fictional split-screen scene 7 and its direction choices.",
+        "kind": "original"
+      },
+      {
+        "id": "mt34-scene-8",
+        "label": "Original fictional split-screen scene 8 and its direction choices.",
+        "kind": "original"
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "information-access",
+        "low": "Simultaneous visibility",
+        "high": "Controlled reveal",
+        "description": "How much of both rooms is visible to the audience at once in the described scene."
+      },
+      {
+        "id": "action-timing",
+        "low": "Coordinated actions",
+        "high": "Independent rhythms",
+        "description": "How tightly the two rooms' actions are timed together in the described scene."
+      }
+    ]
   }
 ]

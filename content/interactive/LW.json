@@ -12083,5 +12083,365 @@
         "correct": "b"
       }
     ]
+  },
+  {
+    "id": "LW-34",
+    "slug": "who-can-open-the-envelope",
+    "categoryId": "logic-wordplay",
+    "title": "Who Can Open the Envelope?",
+    "description": "Join the Envelope Relay, a fictional stationery game where your mission is to get each reveal to the right reader. Read the access labels, follow commands through nested envelopes, and test when an inner rule changes who can open what.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "learn-the-labels",
+        "title": "Learn the Labels",
+        "description": "Read group permissions, conditions, and inner-envelope exceptions."
+      },
+      {
+        "id": "route-the-reveal",
+        "title": "Route the Reveal",
+        "description": "Use the rules on new envelopes to find the intended reader."
+      }
+    ],
+    "questions": [
+      {
+        "id": "lw34-1",
+        "sectionId": "learn-the-labels",
+        "kind": "choice",
+        "prompt": "Who may open the outer envelope?",
+        "context": "Envelope Relay is an invented stationery game. The Sun Desk group contains Ada, Bo, and Cy. The outer envelope says, “All Sun Desk readers may open this envelope.” In this game, “all” grants permission to every named group member. No nested envelope is involved yet.",
+        "explanation": "The label says all Sun Desk readers, and the group contains Ada, Bo, and Cy. It grants permission to each of the three, not merely one of them.",
+        "sourceIds": [
+          "lw34-original-1"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Ada, Bo, and Cy"
+          },
+          {
+            "id": "b",
+            "label": "Exactly one of Ada, Bo, or Cy"
+          },
+          {
+            "id": "c",
+            "label": "Only the first person named, Ada"
+          },
+          {
+            "id": "d",
+            "label": "No one; “all” means they must open it together"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "lw34-2",
+        "sectionId": "learn-the-labels",
+        "kind": "grid",
+        "prompt": "Decide whether the access record meets each envelope label.",
+        "context": "Three separate Envelope Relay examples, each with a group of three readers. “All” requires every member to be authorized; “at least one” requires one or more; “exactly one” requires one and no more. The counts below are the complete access records for each envelope.",
+        "explanation": "Three authorized readers satisfy “all.” Two satisfy “at least one.” Two do not satisfy “exactly one,” which permits one reader and no more.",
+        "sourceIds": [
+          "lw34-original-2"
+        ],
+        "cells": [
+          {
+            "id": "all-three",
+            "label": "Label: all three may open. Record: all three are authorized.",
+            "options": [
+              {
+                "id": "met",
+                "label": "Label is met"
+              },
+              {
+                "id": "not-met",
+                "label": "Label is not met"
+              },
+              {
+                "id": "unknown",
+                "label": "Cannot tell"
+              }
+            ],
+            "correct": "met"
+          },
+          {
+            "id": "at-least-one",
+            "label": "Label: at least one may open. Record: two are authorized.",
+            "options": [
+              {
+                "id": "met",
+                "label": "Label is met"
+              },
+              {
+                "id": "not-met",
+                "label": "Label is not met"
+              },
+              {
+                "id": "unknown",
+                "label": "Cannot tell"
+              }
+            ],
+            "correct": "met"
+          },
+          {
+            "id": "exactly-one",
+            "label": "Label: exactly one may open. Record: two are authorized.",
+            "options": [
+              {
+                "id": "met",
+                "label": "Label is met"
+              },
+              {
+                "id": "not-met",
+                "label": "Label is not met"
+              },
+              {
+                "id": "unknown",
+                "label": "Cannot tell"
+              }
+            ],
+            "correct": "not-met"
+          }
+        ]
+      },
+      {
+        "id": "lw34-3",
+        "sectionId": "learn-the-labels",
+        "kind": "choice",
+        "prompt": "The envelope says, “Mira may open this only if she carries a silver tab.” Mira has a silver tab. What follows?",
+        "context": "Fictional envelope game. The silver tab is the only detail known about Mira. The label provides no list of all eligible readers.",
+        "explanation": "The label makes the tab necessary: if Mira opens the envelope, she must have one. It does not make the tab sufficient, so having it does not prove she may open this envelope.",
+        "sourceIds": [
+          "lw34-original-3"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Mira must be allowed, because she has the tab."
+          },
+          {
+            "id": "b",
+            "label": "Mira is not allowed, because a tab always blocks entry."
+          },
+          {
+            "id": "c",
+            "label": "The label alone does not establish that Mira is allowed; it makes the tab necessary, not sufficient."
+          },
+          {
+            "id": "d",
+            "label": "Every reader without a tab is allowed."
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": "lw34-4",
+        "sectionId": "learn-the-labels",
+        "kind": "choice",
+        "prompt": "Who can open the nested reveal envelope?",
+        "context": "The outer Envelope Relay packet says all members of the Poppy Club may open it and any contents that have no narrower label. Poppy Club members are Ren, Sol, and Tavi. The nested reveal envelope has an explicit inner label: “Only Sol may open this envelope and its contents.” For this game, a nested restriction narrows inherited permission and controls inside that envelope.",
+        "explanation": "The outer permission reaches the nested envelope, but the explicit inner restriction narrows the access to Sol. Ren and Tavi do not retain the broader outer permission inside this reveal envelope.",
+        "sourceIds": [
+          "lw34-original-4"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Ren only"
+          },
+          {
+            "id": "b",
+            "label": "Sol only"
+          },
+          {
+            "id": "c",
+            "label": "Ren, Sol, and Tavi"
+          },
+          {
+            "id": "d",
+            "label": "No one; inner labels cancel all permission"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "lw34-5",
+        "sectionId": "route-the-reveal",
+        "kind": "choice",
+        "prompt": "Who can open the nested note?",
+        "context": "New Envelope Relay case. The outer jacket label says, “All Copy Circle members may open this jacket and its contents unless an inner label narrows access.” Copy Circle is Ira, Jules, and Kian. The nested note is labeled, “Only Proofreaders may open this note.” Proofreaders are Jules, Kian, and Luz. A nested label narrows inherited access to readers who meet both group rules.",
+        "explanation": "The outer label grants access to Ira, Jules, and Kian. The inner restriction intersects that set with Proofreaders (Jules, Kian, and Luz), leaving Jules and Kian. Luz is not authorized by the outer label; Ira fails the inner restriction.",
+        "sourceIds": [
+          "lw34-original-5"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Ira only"
+          },
+          {
+            "id": "b",
+            "label": "Jules and Kian"
+          },
+          {
+            "id": "c",
+            "label": "Jules, Kian, and Luz"
+          },
+          {
+            "id": "d",
+            "label": "Ira, Jules, Kian, and Luz"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "lw34-6",
+        "sectionId": "route-the-reveal",
+        "kind": "match",
+        "prompt": "Match each inner packet to the readers who can open it.",
+        "context": "New Envelope Relay case. An outer folder says all Indexers may open it and its contents. Indexers are Eli, Fay, and Gus. Each nested packet inherits that permission unless its own label narrows access. Proofreaders are Fay, Gus, and Hal. Packet Blue says “Only Proofreaders may open.” Packet Red has no inner restriction. Packet Gold says “Only Eli may open.” A restriction intersects with the inherited Indexers permission.",
+        "explanation": "Blue is limited to Indexers who are also Proofreaders: Fay and Gus. Red inherits the full Indexers group: Eli, Fay, and Gus. Gold narrows the inherited group to Eli.",
+        "sourceIds": [
+          "lw34-original-6"
+        ],
+        "left": [
+          {
+            "id": "blue",
+            "label": "Packet Blue"
+          },
+          {
+            "id": "red",
+            "label": "Packet Red"
+          },
+          {
+            "id": "gold",
+            "label": "Packet Gold"
+          }
+        ],
+        "right": [
+          {
+            "id": "fay-gus",
+            "label": "Fay and Gus"
+          },
+          {
+            "id": "eli-fay-gus",
+            "label": "Eli, Fay, and Gus"
+          },
+          {
+            "id": "eli-only",
+            "label": "Eli only"
+          }
+        ],
+        "pairs": {
+          "blue": "fay-gus",
+          "red": "eli-fay-gus",
+          "gold": "eli-only"
+        }
+      },
+      {
+        "id": "lw34-7",
+        "sectionId": "route-the-reveal",
+        "kind": "choice",
+        "prompt": "A clerk rewrites “At least one Gallery reader may open” as “Exactly one Gallery reader may open.” Which record is a counterexample to the clerk’s rewrite while still meeting the original label?",
+        "context": "New fictional envelope. Gallery readers are Mara, Niko, and Orla. The original label is “At least one Gallery reader may open.” Consider the complete access record in each choice; no other restrictions apply.",
+        "explanation": "If Mara and Niko can both open, at least one Gallery reader can open, so the original label is satisfied. But two authorized readers contradict the clerk’s “exactly one” rewrite.",
+        "sourceIds": [
+          "lw34-original-7"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Only Mara can open."
+          },
+          {
+            "id": "b",
+            "label": "Mara and Niko can both open; Orla cannot."
+          },
+          {
+            "id": "c",
+            "label": "None of the three can open."
+          },
+          {
+            "id": "d",
+            "label": "The record does not say whether anyone can open."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "lw34-8",
+        "sectionId": "route-the-reveal",
+        "kind": "choice",
+        "prompt": "Who can open the final reveal?",
+        "context": "Final Envelope Relay case. Outer folio label: “All Press Club members may open this folio and its contents.” Press Club is Ari, Bea, and Cato. The nested reveal says: “Only Ribbon Club members with a silver seal may open; every such member is allowed.” Ribbon Club is Bea, Cato, and Dena. A nested label narrows access to people who also inherited outer permission. A silver seal is necessary and, under this label, sufficient for a reader who meets the group restrictions. Seal holders are Cato and Dena. No other access route applies.",
+        "explanation": "Outer access is Ari, Bea, and Cato. Intersecting that with Ribbon Club leaves Bea and Cato. The inner label requires a silver seal and allows every qualifying seal-holder; only Cato has one. Dena has a seal but no inherited outer permission.",
+        "sourceIds": [
+          "lw34-original-8"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Bea"
+          },
+          {
+            "id": "b",
+            "label": "Cato"
+          },
+          {
+            "id": "c",
+            "label": "Dena"
+          },
+          {
+            "id": "d",
+            "label": "Bea and Cato"
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "sources": [
+      {
+        "id": "lw34-original-1",
+        "kind": "original",
+        "label": "Original fictional Envelope Relay group-label case for task 1."
+      },
+      {
+        "id": "lw34-original-2",
+        "kind": "original",
+        "label": "Original fictional Envelope Relay quantifier cases for task 2."
+      },
+      {
+        "id": "lw34-original-3",
+        "kind": "original",
+        "label": "Original fictional Envelope Relay condition-label case for task 3."
+      },
+      {
+        "id": "lw34-original-4",
+        "kind": "original",
+        "label": "Original fictional Envelope Relay nested-exception case for task 4."
+      },
+      {
+        "id": "lw34-original-5",
+        "kind": "original",
+        "label": "Original fictional Envelope Relay group-scope case for task 5."
+      },
+      {
+        "id": "lw34-original-6",
+        "kind": "original",
+        "label": "Original fictional Envelope Relay sibling-packet case for task 6."
+      },
+      {
+        "id": "lw34-original-7",
+        "kind": "original",
+        "label": "Original fictional Envelope Relay counterexample case for task 7."
+      },
+      {
+        "id": "lw34-original-8",
+        "kind": "original",
+        "label": "Original fictional Envelope Relay final nested-reveal case for task 8."
+      }
+    ]
   }
 ]

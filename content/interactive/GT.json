@@ -12769,5 +12769,372 @@
       }
     ],
     "note": "The river, map measurements and survey records used in the questions are fictional. The linked USGS map is real and illustrates how scientists document channel change."
+  },
+  {
+    "id": "GT-34",
+    "slug": "which-stream-reaches-the-sample",
+    "categoryId": "geography-travel",
+    "title": "Which Stream Reaches the Sample?",
+    "description": "Use fictional tributary maps to plan paired water-quality samples and keep map connectivity separate from measured concentration or source claims.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "plan",
+        "title": "Plan the Sampling Network",
+        "description": "Follow labeled tributaries and choose informative sites before and after mixing."
+      },
+      {
+        "id": "interpret",
+        "title": "Read the Paired Evidence",
+        "description": "Use dates, methods, and sample values to state only what each fictional comparison supports."
+      }
+    ],
+    "questions": [
+      {
+        "id": "gt34-1",
+        "sectionId": "plan",
+        "kind": "choice",
+        "prompt": "Which labeled point would sample Lark Brook before it mixes with Ash Run?",
+        "context": "Fictional arrow map: `Lark Brook -> J <- Ash Run; J -> Main Creek -> Outlet O`. Sites: L1 is on Lark just before J; A1 is on Ash just before J; M1 is on Main Creek just below J. The arrows show the supplied flow connections.",
+        "options": [
+          {
+            "id": "site-l1",
+            "label": "L1, on Lark Brook before junction J."
+          },
+          {
+            "id": "site-a1",
+            "label": "A1, on Ash Run before junction J."
+          },
+          {
+            "id": "site-m1",
+            "label": "M1, on Main Creek after both branches meet."
+          },
+          {
+            "id": "site-outlet",
+            "label": "Outlet O, after the combined path."
+          }
+        ],
+        "explanation": "L1 catches water in the Lark branch before it joins Ash Run at J. A connection map can show potential upstream contributors to an outlet; it cannot provide a water-quality measurement.",
+        "sourceIds": [
+          "gt34-case-1",
+          "usgs-watersheds"
+        ],
+        "correct": "site-l1"
+      },
+      {
+        "id": "gt34-2",
+        "sectionId": "plan",
+        "kind": "choice",
+        "prompt": "Which pair best compares the same stream reach above and below the side-branch entry?",
+        "context": "Fictional map: Dove Branch joins Cedar Creek at node C, then Cedar continues to Outlet Q. All three marked sites are on Cedar Creek. D0 is immediately above C, D1 immediately below C, and D2 farther downstream near Q. The proposed samples can all be collected with the same method on the same date.",
+        "options": [
+          {
+            "id": "d0-d1",
+            "label": "D0 and D1, bracketing the junction at C."
+          },
+          {
+            "id": "d0-d2",
+            "label": "D0 and D2, chosen on different dates."
+          },
+          {
+            "id": "d1-d2",
+            "label": "D1 and D2, both below the junction."
+          },
+          {
+            "id": "two-d1",
+            "label": "Two readings at D1, with no upstream comparison."
+          }
+        ],
+        "explanation": "D0 and D1 are on the same creek and bracket the junction, with the same date and method. The comparison describes those sampled locations and conditions, and a cause would need more evidence.",
+        "sourceIds": [
+          "gt34-case-2"
+        ],
+        "correct": "d0-d1"
+      },
+      {
+        "id": "gt34-3",
+        "sectionId": "plan",
+        "kind": "grid",
+        "prompt": "Classify what each map-and-sample note allows the team to say about a paired comparison.",
+        "context": "Three independent fictional field cards: Card A has upstream and downstream sites on the same named reach, sampled on 15 May with the same method. Card B has the matching sites but the upstream sample is dated 15 May and the downstream sample 22 June. Card C shows a small tributary line hidden under an unreadable map label, so its connection to the outlet cannot be followed from the supplied sheet.",
+        "cells": [
+          {
+            "id": "card-a",
+            "label": "Card A",
+            "options": [
+              {
+                "id": "matched",
+                "label": "A matched pair for this stated date and method"
+              },
+              {
+                "id": "dates",
+                "label": "Dates differ, limiting the pair"
+              },
+              {
+                "id": "unread",
+                "label": "The mapped connection is unreadable"
+              }
+            ],
+            "correct": "matched"
+          },
+          {
+            "id": "card-b",
+            "label": "Card B",
+            "options": [
+              {
+                "id": "matched",
+                "label": "A matched pair for this stated date and method"
+              },
+              {
+                "id": "dates",
+                "label": "Dates differ, limiting the pair"
+              },
+              {
+                "id": "unread",
+                "label": "The mapped connection is unreadable"
+              }
+            ],
+            "correct": "dates"
+          },
+          {
+            "id": "card-c",
+            "label": "Card C",
+            "options": [
+              {
+                "id": "matched",
+                "label": "A matched pair for this stated date and method"
+              },
+              {
+                "id": "dates",
+                "label": "Dates differ, limiting the pair"
+              },
+              {
+                "id": "unread",
+                "label": "The mapped connection is unreadable"
+              }
+            ],
+            "correct": "unread"
+          }
+        ],
+        "explanation": "A pairs location, date, and method as stated. B changes the date, so it is not a same-date comparison. C leaves a map connection unresolved; the missing label should not be guessed.",
+        "sourceIds": [
+          "gt34-case-3"
+        ]
+      },
+      {
+        "id": "gt34-4",
+        "sectionId": "plan",
+        "kind": "choice",
+        "prompt": "Which same-day plan compares both possible branches and retains a post-mixing reading?",
+        "context": "Fictional arrow map: Mica Branch and Slate Branch each flow to junction J; below J, both connect to Common Brook and Outlet R. Accessible sites are M0 on Mica before J, S0 on Slate before J, and C1 on Common Brook below J. Either branch is a possible contributor in this invented sampling question.",
+        "options": [
+          {
+            "id": "all-three",
+            "label": "Sample M0, S0, and C1 in the same collection window with the same method."
+          },
+          {
+            "id": "combined-only",
+            "label": "Sample C1 alone and infer which branch supplied any measured value."
+          },
+          {
+            "id": "one-branch",
+            "label": "Sample M0 and skip Slate and Common Brook."
+          },
+          {
+            "id": "late-branch",
+            "label": "Sample M0 and S0 on different dates, then compare them as one pair."
+          }
+        ],
+        "explanation": "The three-site plan records both upstream branch readings and the combined downstream reading under matched conditions. It can inform the sampling comparison but cannot, by itself, attribute a downstream value to a source.",
+        "sourceIds": [
+          "gt34-case-4"
+        ],
+        "correct": "all-three"
+      },
+      {
+        "id": "gt34-5",
+        "sectionId": "interpret",
+        "kind": "match",
+        "prompt": "Match each sample label to the path its map position represents.",
+        "context": "Fictional arrow recipe: Alder Fork and Cinder Run join Birch Creek at J. Birch Creek then flows to East Outlet. Dune Creek flows separately to West Outlet. U is on Alder before J; V is on Birch just below J; W is on Dune before its outlet.",
+        "left": [
+          {
+            "id": "site-u",
+            "label": "Site U"
+          },
+          {
+            "id": "site-v",
+            "label": "Site V"
+          },
+          {
+            "id": "site-w",
+            "label": "Site W"
+          }
+        ],
+        "right": [
+          {
+            "id": "alder",
+            "label": "Alder Fork before the join"
+          },
+          {
+            "id": "east-combined",
+            "label": "Combined path toward East Outlet"
+          },
+          {
+            "id": "west-separate",
+            "label": "Separate path toward West Outlet"
+          }
+        ],
+        "pairs": {
+          "site-u": "alder",
+          "site-v": "east-combined",
+          "site-w": "west-separate"
+        },
+        "explanation": "The arrow recipe places U on Alder before the join, V below the joined paths on Birch Creek, and W on the separate Dune-to-West path. These are connectivity labels, not sample results.",
+        "sourceIds": [
+          "gt34-case-5"
+        ]
+      },
+      {
+        "id": "gt34-6",
+        "sectionId": "interpret",
+        "kind": "choice",
+        "prompt": "What is the narrowest supported reading of these same-window sample values?",
+        "context": "Fictional measurements from one collection window using the same method: Mica-before-J = 2 units, Slate-before-J = 8 units, Common-Brook-below-J = 5 units. The arrow map shows Mica and Slate meet at J; no other measurements or source records are supplied.",
+        "options": [
+          {
+            "id": "reported-only",
+            "label": "The recorded downstream value is 5 units, between the two recorded upstream values; these readings do not identify a source."
+          },
+          {
+            "id": "slate-source",
+            "label": "Slate must be the source because its upstream value is highest."
+          },
+          {
+            "id": "mica-cleared",
+            "label": "Mica is ruled out because its upstream value is lower than the downstream value."
+          },
+          {
+            "id": "map-causes",
+            "label": "The arrows prove the junction caused the measured difference."
+          }
+        ],
+        "explanation": "The stated readings support only the numeric comparison at those sites and that collection window. Neither the map nor these three values establish which branch, if any, explains the downstream measurement.",
+        "sourceIds": [
+          "gt34-case-6"
+        ],
+        "correct": "reported-only"
+      },
+      {
+        "id": "gt34-7",
+        "sectionId": "interpret",
+        "kind": "choice",
+        "prompt": "What cannot be learned from this connection map alone?",
+        "context": "Fictional arrow recipe: Reed Stream and Vale Run join at K; from K, the flow path continues to Lake Tern, the labeled outlet. The sheet contains arrows and site names only—no sample readings, laboratory results, or dated field observations.",
+        "options": [
+          {
+            "id": "connections",
+            "label": "That the two named branches connect at K in the supplied map."
+          },
+          {
+            "id": "outlet-path",
+            "label": "That the drawn downstream path leads from K to Lake Tern."
+          },
+          {
+            "id": "concentration",
+            "label": "The concentration at any site or which branch has the higher concentration."
+          },
+          {
+            "id": "site-label",
+            "label": "Which label the map assigns to the two branches."
+          }
+        ],
+        "explanation": "The arrows and labels describe the fictional mapped connections. Concentration requires sample evidence; no water-quality values are present on this map.",
+        "sourceIds": [
+          "gt34-case-7"
+        ],
+        "correct": "concentration"
+      },
+      {
+        "id": "gt34-8",
+        "sectionId": "interpret",
+        "kind": "choice",
+        "prompt": "Which statement best describes this paired reach result without overclaiming?",
+        "context": "Fictional arrow map: Quarry Ditch enters Mill Creek at J. Samples collected on the same date with the same method read 3 units at Mill Creek immediately above J and 4 units immediately below J. No repeat dates, other tributary samples, or source records are supplied.",
+        "options": [
+          {
+            "id": "paired-change",
+            "label": "The sampled reach measured 1 unit higher below J on that date; the pair does not establish why."
+          },
+          {
+            "id": "ditch-cause",
+            "label": "Quarry Ditch definitely caused the increase."
+          },
+          {
+            "id": "permanent",
+            "label": "Mill Creek is always 1 unit higher below J."
+          },
+          {
+            "id": "no-difference",
+            "label": "The values are equivalent because the difference is only 1 unit."
+          }
+        ],
+        "explanation": "The same-date pair supports a one-unit difference between these two sampled points in that collection. It does not establish the cause, persistence, or any health implication.",
+        "sourceIds": [
+          "gt34-case-8"
+        ],
+        "correct": "paired-change"
+      }
+    ],
+    "sources": [
+      {
+        "id": "gt34-case-1",
+        "label": "Original fictional stream map, sample notes, and reasoning for task 1.",
+        "kind": "original"
+      },
+      {
+        "id": "gt34-case-2",
+        "label": "Original fictional stream map, sample notes, and reasoning for task 2.",
+        "kind": "original"
+      },
+      {
+        "id": "gt34-case-3",
+        "label": "Original fictional stream map, sample notes, and reasoning for task 3.",
+        "kind": "original"
+      },
+      {
+        "id": "gt34-case-4",
+        "label": "Original fictional stream map, sample notes, and reasoning for task 4.",
+        "kind": "original"
+      },
+      {
+        "id": "gt34-case-5",
+        "label": "Original fictional stream map, sample notes, and reasoning for task 5.",
+        "kind": "original"
+      },
+      {
+        "id": "gt34-case-6",
+        "label": "Original fictional stream map, sample notes, and reasoning for task 6.",
+        "kind": "original"
+      },
+      {
+        "id": "gt34-case-7",
+        "label": "Original fictional stream map, sample notes, and reasoning for task 7.",
+        "kind": "original"
+      },
+      {
+        "id": "gt34-case-8",
+        "label": "Original fictional stream map, sample notes, and reasoning for task 8.",
+        "kind": "original"
+      },
+      {
+        "id": "usgs-watersheds",
+        "label": "USGS Water Science School: Watersheds and Drainage Basins",
+        "kind": "reference",
+        "url": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins"
+      }
+    ]
   }
 ]

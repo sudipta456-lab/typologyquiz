@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 33,
+      "count": 34,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 33,
+      "count": 34,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 33,
+      "count": 34,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 33,
+      "count": 34,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 33,
+      "count": 34,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -7924,6 +7924,111 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-11-14",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MT-34",
+      "title": "Split-Screen Story Editor",
+      "slug": "split-screen-story-editor",
+      "kind": "preference",
+      "hook": "Direct a fictional two-room scene using two separate choices: how much the audience sees at once, and how tightly actions across frames are timed.",
+      "rounds": [
+        "Choose split-screen visibility and reveal timing in four scene beats",
+        "Apply the choices to new scenes, including two rankings"
+      ],
+      "seed": "In a fictional two-room scene, choose whether a hidden key and a turned bowl are visible together or revealed in sequence; separately decide whether actions share a cue or keep their own rhythms.",
+      "payoff": "A descriptive direction card for simultaneous visibility versus controlled reveal and coordinated actions versus independent rhythms, based only on these scene choices.",
+      "audience": "Movie and television fans who enjoy thinking about editing; no film trivia or real-film references required.",
+      "evidence": "Original fictional split-screen scenes and direction options authored for this quiz; no film claims, names, or assets.",
+      "dependency": "base",
+      "production_note": "Keep the two preference axes independent. All eight tasks are unscored and refer to direction choices in a particular fictional scene, never player traits. Stage four clue choices before applying both axes to new cases; use six choices and two rankings with no correct fields.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-11-15",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MU-34",
+      "title": "Find the Beat Without the Drum",
+      "slug": "find-the-beat-without-the-drum",
+      "kind": "knowledge",
+      "hook": "Read original paper patterns to find the steady pulse even when notes rest, accents shift, or extra events land between beats.",
+      "rounds": [
+        "Separate count-in pulse from note onsets and mark unplayed beats",
+        "Locate a shifted accent, repair a dropped cue, then resolve and compare new patterns"
+      ],
+      "seed": "A four-beat invented strip contains a blank slot. The count-in continues through all four beats, so the blank is a rest, not a missing pulse.",
+      "payoff": "A clearly explained paper-pattern reading: why the phrase can remain steady even when some beats are silent or an onset falls between them.",
+      "audience": "Curious music listeners and readers; no instrument, genre, meter, or tempo knowledge is needed beyond each supplied invented count-in.",
+      "evidence": "Eight original fictional paper transcriptions and explicitly stated counting rules; no external music facts.",
+      "dependency": "base",
+      "production_note": "Use fresh patterns in every task and keep count-ins explicit whenever more than one pulse placement is plausible. Include grid, choice, and matching formats. No audio is required; every example has its full text equivalent. Avoid reducing the payoff to arithmetic.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "daily-2026-11-15",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "GT-34",
+      "title": "Which Stream Reaches the Sample?",
+      "slug": "which-stream-reaches-the-sample",
+      "kind": "knowledge",
+      "hook": "Plan paired sample points on an original labeled tributary map, then separate what map connections show from what sample data can establish.",
+      "rounds": [
+        "Choose branch and paired upstream/downstream sample sites",
+        "Check date and connection limits; compare fictional readings without assigning a cause"
+      ],
+      "seed": "On a fictional map, Lark Brook and Ash Run join Main Creek. Choose a point on Lark before mixing, then plan matched measurements around a second tributary entry.",
+      "payoff": "A sampling-design takeaway: connected arrows show potential upstream contributors; concentration comparisons require dated sample evidence and do not by themselves establish a source.",
+      "audience": "Curious readers and students who enjoy map-based reasoning; all networks, samples, and locations are explicitly fictional.",
+      "evidence": "USGS Water Science School, Watersheds and Drainage Basins (https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins), for drainage to an outlet; original fictional maps, sample notes, and readings for all case reasoning.",
+      "dependency": "base",
+      "production_note": "Use plain-text arrow recipes and labeled sites. Match dates/methods where a pair is compared, flag unread connections, and never turn invented observations into health, safety, spill-tracing, or causal claims. Distinguish from GT-06 watershed boundaries, GT-07 river clue puzzles, GT-31 map dates, and GT-33 channel migration.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-11-15",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SG-34",
+      "title": "Volleyball: When the Block Doesn’t Count",
+      "slug": "volleyball-when-the-block-doesnt-count",
+      "kind": "knowledge",
+      "hook": "Learn what a completed block does to the hit count, then call fresh indoor-volleyball situations using international FIVB rules.",
+      "rounds": [
+        "4 rule-reading tasks on blocks, contact counts, line calls, rotation and attack conditions",
+        "4 applications to new rally and lineup cases"
+      ],
+      "seed": "A blocker completes a block and plays the rebound next. Does the block count as the team's first hit, and may the blocker take the rebound?",
+      "payoff": "Eight explained rule calls with the specific FIVB rule reference attached to each factual task.",
+      "audience": "Volleyball-curious players and fans; no prior league or referee experience required",
+      "evidence": "FIVB Volleyball Rules 2025–2028",
+      "dependency": "base",
+      "production_note": "Use international FIVB six-player indoor rules only, not beach or school-league variations. Keep every rally otherwise legal and give each question its own original case and exact supporting rule citation. Avoid incidental edge rules.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-11-15",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "LW-34",
+      "title": "Who Can Open the Envelope?",
+      "slug": "who-can-open-the-envelope",
+      "kind": "logic",
+      "hook": "Route the reveal to the right reader in the Envelope Relay, an original fictional stationery game about group labels and nested permissions.",
+      "rounds": [
+        "4 clue tasks on all, at least one, exactly one, necessary versus sufficient, and inner-label precedence",
+        "4 new envelope cases tracing group scope, counterexamples, and nested access"
+      ],
+      "seed": "An envelope says all three members of a named desk group may open it. Who gets permission, and what happens when a nested envelope narrows that group?",
+      "payoff": "An explained route to the final reveal showing which group instruction reaches each envelope and which inner rule takes precedence.",
+      "audience": "Puzzle and wordplay fans; all names, groups, rules, and cases are fictional and self-contained",
+      "evidence": "X00",
+      "dependency": "base",
+      "production_note": "Use original, explicit access rules in every task. Distinguish group scope, quantifiers, necessary/sufficient conditions, and the intersection created by a nested restriction. Include a concrete counterexample to mistaking at least one for exactly one.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-11-15",
       "evidence_class": "evergreen"
     }
   ]
