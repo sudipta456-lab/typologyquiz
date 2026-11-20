@@ -6,13 +6,13 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 35,
+      "count": 36,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 36,
+      "count": 37,
       "file": "02-friends-social-play.md"
     },
     {
@@ -36,19 +36,19 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 64,
+      "count": 65,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 35,
+      "count": 36,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 35,
+      "count": 36,
       "file": "08-food-everyday-life.md"
     },
     {
@@ -8029,6 +8029,111 @@
       "category": "Logic & Wordplay",
       "category_code": "LW",
       "wave": "daily-2026-11-15",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "PC-36",
+      "title": "Choose What Your Robot Remembers",
+      "slug": "choose-what-your-robot-remembers",
+      "kind": "preference",
+      "hook": "Design an imaginary pocket robot's greeting, route, drawing shelf, suggestion rules, archive, surprises, daily account and final memory capsule.",
+      "rounds": [
+        "Set the memory rules",
+        "Shape the closing record"
+      ],
+      "seed": "choice",
+      "payoff": "A descriptive summary of choices about familiar routines versus new discoveries and asking first versus acting within chosen boundaries; no score or claim about real AI.",
+      "audience": "Curious players and families who enjoy small creative design choices.",
+      "evidence": "Original fictional pocket-robot settings and preference choices; no real AI memory, privacy, performance, diagnostic or audience-demand claim.",
+      "dependency": "base",
+      "production_note": "Original fictional day, with five choices, two rankings and one slider. Every option describes a memory or permission setting, with weights only for the expressed dimensions.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "daily-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FS-37",
+      "title": "The Secret Sculpture Relay",
+      "slug": "secret-sculpture-relay",
+      "kind": "cooperative",
+      "hook": "In a fictional shared workshop, compare an artist's short spatial clues with a builder's labeled paper plan, then reconstruct a final sculpture.",
+      "rounds": [
+        "Read the plan",
+        "Repair and transfer"
+      ],
+      "seed": "choice",
+      "payoff": "A completed Lantern Nest plan with the wing on the correct side, the seed pod inside the arch, and a pebble outside with a visible gap.",
+      "audience": "Friends and families taking turns on one shared device.",
+      "evidence": "Original fictional workshop rules, artist descriptions, builder plans and sculpture cases; no real people, remote multiplayer or private information.",
+      "dependency": "base",
+      "production_note": "Each pass-and-play player completes all eight tasks, then hands over the device. The final diagram presents written candidate cards.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "daily-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "HC-36",
+      "title": "The Blue Photograph Without a Camera",
+      "slug": "blue-photograph-without-a-camera",
+      "kind": "knowledge",
+      "hook": "Apply the cyanotype photogram process and Anna Atkins chronology, then use invented exhibit records to separate a specimen's outline from its color and link a plate to a title safely.",
+      "rounds": [
+        "Make sense of the blue image",
+        "Read the exhibit records"
+      ],
+      "seed": "choice",
+      "payoff": "A careful final label for an invented British Algae plate that distinguishes Anna Atkins's publication from John Herschel's earlier cyanotype technique.",
+      "audience": "Curious readers and families who enjoy photographs, archives and visual clues.",
+      "evidence": "The V&A explains cyanotype photograms, iron-salt paper, sunlight and water, and Atkins's botanical records. MoMA supports Herschel's 1842 technique and Atkins's British Algae in 1843. All exhibit diagrams and catalog cases are original fiction.",
+      "dependency": "base",
+      "production_note": "Five tasks apply the supplied historical process and chronology; three use original fictional catalog evidence. The original labeled hotspot schematic repeats its essential evidence in text. Do not conflate process inventor, publication maker or first woman photographer; do not claim all prints used an identical process or provide a hands-on chemical recipe.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "daily-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-65",
+      "title": "Why Does the Straw Look Bent?",
+      "slug": "why-does-the-straw-look-bent",
+      "kind": "knowledge",
+      "hook": "Separate a straight object from the light path that reaches the eye, then trace refraction across new water and glass sketches.",
+      "rounds": [
+        "Read a straw view, mark a material boundary, and distinguish crossing rays from a reflected ray",
+        "Use a normal-line rule, trace a ray in order, and apply the model to a new fish view"
+      ],
+      "seed": "A straight straw looks offset at the water surface. Which part changed: the straw or the path of light reaching the eye?",
+      "payoff": "A visible explanation of apparent bending: the object can remain straight while light changes speed or direction at a boundary, with each simplified claim tied to its stated sketch or source.",
+      "audience": "Curious readers in roughly grades 5–8; short text and labeled diagrams, with no angle calculations.",
+      "evidence": "AMNH OLogy supports speed and direction changes across water, glass, and air and the apparent bent-straw view; ray diagrams and cases are original simplified models.",
+      "dependency": "base",
+      "production_note": "Keep the straw straight in every case. Use only the supplied qualitative ray rules and labeled sketches; do not imply that all rays turn at every boundary. Hotspot text must repeat the diagram’s essential evidence. No numeric angle math.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "daily-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FE-36",
+      "title": "The Dressing That Won’t Stay Mixed",
+      "slug": "dressing-that-wont-stay-mixed",
+      "kind": "knowledge",
+      "hook": "Look inside a classroom model of an emulsion to find its droplets and continuous liquid, then read what mixing and an emulsifier change over time.",
+      "rounds": [
+        "Identify separate layers, read droplet diagrams, and distinguish emulsions from a dissolved-sugar model",
+        "Interpret mixing and emulsifier records, choose an emulsifier coating layout, and compare two illustrative cases that differ only by emulsifier presence"
+      ],
+      "seed": "A paper sketch shows separate oil drops inside connected water. Which part is the droplets, and which part is the continuous phase?",
+      "payoff": "A clear microstructure model that explains how shaking disperses droplets and how an emulsifier can help them stay apart, without treating a short record as proof of permanent mixing.",
+      "audience": "Curious players and families exploring everyday food science; all classroom records are fictional and text-described.",
+      "evidence": "IFST supports oil-in-water and water-in-oil emulsions, dispersed droplets, vigorous mixing, and emulsifiers such as egg yolk and mustard; RockEDU provides food-emulsion context; all diagrams and records are original.",
+      "dependency": "base",
+      "production_note": "Treat every jar and time log as illustrative original material, not an experiment or recipe. Define continuous/dispersed phases in text and diagrams. Distinguish droplets from dissolved sugar; emulsifiers help droplets stay apart but do not promise permanent stability. No health, safety, or diet claims.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "daily-2026-11-20",
       "evidence_class": "evergreen"
     }
   ]

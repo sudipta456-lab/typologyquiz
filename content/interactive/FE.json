@@ -13796,5 +13796,385 @@
       }
     ],
     "note": "The kitchen observations are fictional. The activity uses paper records, with no tasting or food-safety decisions."
+  },
+  {
+    "id": "FE-36",
+    "slug": "dressing-that-wont-stay-mixed",
+    "categoryId": "food-everyday-life",
+    "title": "The Dressing That Won’t Stay Mixed",
+    "description": "Explore an original classroom model of oil droplets, water, and emulsifiers, then read brief records without mistaking a temporary mix for a permanent one.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "see-the-structure",
+        "title": "See the Droplets",
+        "description": "Read what makes up the spread-out and surrounding parts of a mixture."
+      },
+      {
+        "id": "read-the-records",
+        "title": "Read the Records",
+        "description": "Use mixing and time records to make a careful claim about a new example."
+      }
+    ],
+    "questions": [
+      {
+        "id": "fe36-1",
+        "sectionId": "see-the-structure",
+        "kind": "choice",
+        "prompt": "After a small jar rests, it shows one oil layer and one water layer. What does this view tell you about the mixture right now?",
+        "context": "Original classroom model, not a recipe or experiment. A jar was shaken, then left still. The record shows two clear layers labeled oil and water, with no small drops drawn through either layer. The quiz uses “emulsion” for one liquid spread as droplets through another liquid.",
+        "options": [
+          {
+            "id": "layers",
+            "label": "The liquids are separate in this view; the record does not show oil spread as droplets through water now."
+          },
+          {
+            "id": "dissolved",
+            "label": "The oil has dissolved into water even though it is drawn as its own layer."
+          },
+          {
+            "id": "gone",
+            "label": "The oil has vanished because the jar has been left still."
+          },
+          {
+            "id": "permanent",
+            "label": "The record proves that shaking can never spread the liquids into droplets."
+          }
+        ],
+        "correct": "layers",
+        "explanation": "The current picture shows two layers, not oil droplets spread through a water-based liquid. It says what is visible after resting; it does not say what every earlier or later view must show.",
+        "sourceIds": [
+          "ifst-emulsification",
+          "fe36-original"
+        ]
+      },
+      {
+        "id": "fe36-2",
+        "sectionId": "see-the-structure",
+        "kind": "hotspot",
+        "prompt": "Which labeled region represents the continuous phase around the oil drops?",
+        "context": "In an emulsion, the continuous phase is the connected liquid around the separate drops. This original model uses a blue field for water and two separate gold rectangular symbols for oil drops.",
+        "diagram": {
+          "title": "A symbolic oil-in-water model",
+          "description": "A blue field W surrounds two separate gold symbols A and B. W represents water. A and B represent small oil drops. The rectangles are labeled symbols, not microscope images.",
+          "zones": [
+            {
+              "id": "water",
+              "label": "W: connected water field",
+              "x": 5,
+              "y": 5,
+              "width": 90,
+              "height": 90,
+              "color": "#63bdd0"
+            },
+            {
+              "id": "oil-a",
+              "label": "A: oil-drop symbol",
+              "x": 22,
+              "y": 25,
+              "width": 17,
+              "height": 17,
+              "color": "#f0a83b"
+            },
+            {
+              "id": "oil-b",
+              "label": "B: oil-drop symbol",
+              "x": 60,
+              "y": 57,
+              "width": 17,
+              "height": 17,
+              "color": "#f0a83b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "water",
+            "label": "W: the connected water field"
+          },
+          {
+            "id": "oil-a",
+            "label": "A: the first separate oil-drop symbol"
+          },
+          {
+            "id": "oil-b",
+            "label": "B: the second separate oil-drop symbol"
+          }
+        ],
+        "correct": "water",
+        "explanation": "W connects around both separate oil-drop symbols. Water is therefore the continuous phase in this model, while the separate oil drops are the dispersed phase.",
+        "sourceIds": [
+          "ifst-emulsification",
+          "fe36-original"
+        ]
+      },
+      {
+        "id": "fe36-3",
+        "sectionId": "see-the-structure",
+        "kind": "match",
+        "prompt": "Match each original model to the structure it shows.",
+        "context": "These are simplified paper models, not microscope photos. A food emulsion can have one liquid spread as drops through another. For this quiz’s model, sugar marked as dissolved is shown as tiny mixed-in units, not as oil-like drops. Food emulsions appear in more than one everyday food context; the models here are not named recipes.",
+        "left": [
+          {
+            "id": "oil-water",
+            "label": "Separate oil drops surrounded by one connected water-based liquid"
+          },
+          {
+            "id": "water-oil",
+            "label": "Separate water drops surrounded by one connected oil liquid"
+          },
+          {
+            "id": "sugar-water",
+            "label": "Sugar units spread through water with no separate oil drops"
+          }
+        ],
+        "right": [
+          {
+            "id": "water-continuous",
+            "label": "Oil-in-water emulsion model"
+          },
+          {
+            "id": "oil-continuous",
+            "label": "Water-in-oil emulsion model"
+          },
+          {
+            "id": "solution",
+            "label": "Dissolved-sugar model, not a droplet emulsion"
+          }
+        ],
+        "pairs": {
+          "oil-water": "water-continuous",
+          "water-oil": "oil-continuous",
+          "sugar-water": "solution"
+        },
+        "explanation": "The names oil-in-water and water-in-oil tell which liquid is spread as droplets and which one connects around them. The sugar drawing uses dissolved units and no separate oil droplets, so it is a different model.",
+        "sourceIds": [
+          "ifst-emulsification",
+          "rockefeller-emulsions",
+          "fe36-original"
+        ]
+      },
+      {
+        "id": "fe36-4",
+        "sectionId": "see-the-structure",
+        "kind": "choice",
+        "prompt": "A just-shaken jar looks cloudy, then a visible oil layer returns while it rests. Which explanation fits both moments?",
+        "context": "Original classroom picture sequence: before shaking, oil and water are in separate layers. Right after vigorous mixing, the drawing shows many small oil drops spread through the water. Later, it shows fewer large drops and a visible oil layer. The pictures are illustrative, not experimental measurements.",
+        "options": [
+          {
+            "id": "drops-rejoin",
+            "label": "Mixing spread oil into drops for a while; later, drops joined and the liquids separated again in this model."
+          },
+          {
+            "id": "oil-water",
+            "label": "The oil changed into water as soon as the jar was shaken."
+          },
+          {
+            "id": "permanent",
+            "label": "A cloudy look proves the mixture will stay mixed forever."
+          },
+          {
+            "id": "sugar",
+            "label": "The jar made a sugar solution even though no sugar is in the model."
+          }
+        ],
+        "correct": "drops-rejoin",
+        "explanation": "Shaking can spread one liquid into smaller drops in another. The later picture shows that the drops do not stay spread out in this plain mixture; they join and the layers return. A short-lived cloudy look is not proof of permanent mixing.",
+        "sourceIds": [
+          "ifst-emulsification",
+          "fe36-original"
+        ]
+      },
+      {
+        "id": "fe36-5",
+        "sectionId": "read-the-records",
+        "kind": "grid",
+        "prompt": "Which conclusions fit these same-time model records?",
+        "context": "Illustrative original classroom log, not an experimental study. Two equal paper jars contain modeled oil and water. Both are shown just after vigorous mixing, then at 10 and 30 minutes. Plain jar: small oil drops just after mixing; larger drops and a thin oil layer at 10 minutes; two clear layers at 30 minutes. Emulsifier jar: small drops just after mixing; small drops still shown throughout the water-based phase at 10 and 30 minutes. The log ends at 30 minutes.",
+        "cells": [
+          {
+            "id": "both-start",
+            "label": "Both drawings show dispersed oil drops just after mixing.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "plain-change",
+            "label": "The plain jar shows larger drops and a layer by 10 minutes.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "oil-gone",
+            "label": "The emulsifier drawing shows that its oil disappeared.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "forever",
+            "label": "The emulsifier jar can never separate after the 30-minute record ends.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          }
+        ],
+        "explanation": "The drawings record visible differences through 30 minutes: the plain jar develops larger drops and a layer, while the emulsifier model still shows drops. The oil remains represented as drops, and nothing in a 30-minute log proves what happens forever.",
+        "sourceIds": [
+          "ifst-emulsification",
+          "fe36-original"
+        ]
+      },
+      {
+        "id": "fe36-6",
+        "sectionId": "read-the-records",
+        "kind": "choice",
+        "prompt": "In a fictional oil-and-water dressing model, what job can mustard or egg yolk do as an emulsifier?",
+        "context": "The Institute of Food Science & Technology describes egg yolk and mustard as emulsifiers. In the model for this question, mixing has already made small oil drops in a water-based liquid; choose the role that best fits the named ingredient.",
+        "options": [
+          {
+            "id": "help-separate",
+            "label": "Help the droplets stay apart longer, so they are less likely to join quickly."
+          },
+          {
+            "id": "dissolve",
+            "label": "Turn every oil droplet into water so the oil is no longer present."
+          },
+          {
+            "id": "make-oil",
+            "label": "Create more oil after the jar is shaken."
+          },
+          {
+            "id": "guarantee",
+            "label": "Guarantee that the liquids can never separate at any later time."
+          }
+        ],
+        "correct": "help-separate",
+        "explanation": "An emulsifier helps an emulsion hold its dispersed droplets rather than quickly separating. That does not mean the oil disappears or that the mixture is permanent under every condition.",
+        "sourceIds": [
+          "ifst-emulsification",
+          "fe36-original"
+        ]
+      },
+      {
+        "id": "fe36-7",
+        "sectionId": "read-the-records",
+        "kind": "choice",
+        "prompt": "Choose the coating layout that fits this simplified emulsifier model around one oil drop.",
+        "context": "Original simplified model, not to scale: one oil drop is surrounded by water. Emulsifier markers sit around the drop’s edge. Tiny model legend: W = water-loving end; O = oil-loving end. Choose how the two ends face at the drop boundary.",
+        "options": [
+          {
+            "id": "oil-in-water-out",
+            "label": "Oil-loving ends face inward toward the oil drop; water-loving ends face outward toward the surrounding water."
+          },
+          {
+            "id": "water-in-oil-out",
+            "label": "Water-loving ends face inward toward the oil drop; oil-loving ends face outward toward the surrounding water."
+          },
+          {
+            "id": "both-in",
+            "label": "Both ends face inward toward the oil drop."
+          },
+          {
+            "id": "both-out",
+            "label": "Both ends face outward toward the surrounding water."
+          }
+        ],
+        "correct": "oil-in-water-out",
+        "explanation": "In the IFST emulsifier model, the oil-loving end faces inward toward the oil, while the water-loving end faces outward toward the surrounding water. The layout describes which liquid each end faces; it does not assign an extra charge or polarity.",
+        "sourceIds": [
+          "ifst-emulsification",
+          "fe36-original"
+        ]
+      },
+      {
+        "id": "fe36-8",
+        "sectionId": "read-the-records",
+        "kind": "choice",
+        "prompt": "In these two virtual dressing cases, what can best be compared?",
+        "context": "Two fictional dressing cases for an illustrative model comparison only, not a physical recipe or study: Case A and Case B use the same modeled oil-to-water liquid ratio and the same mixing. Both are viewed after the same elapsed time and at the same temperature. Case A has no emulsifier; Case B includes an emulsifier. No other modeled feature changes.",
+        "options": [
+          {
+            "id": "emulsifier-only",
+            "label": "The modeled difference associated with including an emulsifier, with the other listed conditions held the same."
+          },
+          {
+            "id": "mixing",
+            "label": "The effect of different mixing, even though both cases use the same mixing."
+          },
+          {
+            "id": "temperature",
+            "label": "The effect of temperature, even though both cases use the same temperature."
+          },
+          {
+            "id": "all-food",
+            "label": "A result that applies to every real dressing, regardless of its ingredients or conditions."
+          }
+        ],
+        "correct": "emulsifier-only",
+        "explanation": "The cases hold liquid ratio, mixing, elapsed time, and temperature constant, changing only whether an emulsifier is included. That setup isolates the modeled comparison associated with emulsifier presence; as an illustration, it is not evidence from a physical experiment or a claim about every dressing.",
+        "sourceIds": [
+          "ifst-emulsification",
+          "rockefeller-emulsions",
+          "fe36-original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "ifst-emulsification",
+        "label": "Institute of Food Science & Technology, Love Food Love Science: Fats and oils — emulsification",
+        "kind": "reference",
+        "url": "https://www.ifst.org/lovefoodlovescience/resources/fats-and-oils-emulsification"
+      },
+      {
+        "id": "rockefeller-emulsions",
+        "label": "Rockefeller University, RockEDU: Relate to Emulsions",
+        "kind": "reference",
+        "url": "https://rockedu.rockefeller.edu/level/relate-to-emulsions/"
+      },
+      {
+        "id": "fe36-original",
+        "label": "Original simplified droplet drawings, illustrative classroom records, and fictional dressing cases authored for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "Original illustrative food models and records."
   }
 ]

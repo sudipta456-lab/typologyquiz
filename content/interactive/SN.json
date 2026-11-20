@@ -22702,5 +22702,400 @@
       }
     ],
     "note": "Willow Bend and Cedar Bend are fictional. Readings here illustrate how to interpret water records at specific sites."
+  },
+  {
+    "id": "SN-65",
+    "slug": "why-does-the-straw-look-bent",
+    "categoryId": "science-nature",
+    "title": "Why Does the Straw Look Bent?",
+    "description": "Follow simple light-ray sketches to see why a straight straw can look shifted at water, and use the same idea in a new underwater view.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "notice",
+        "title": "Notice the Change",
+        "description": "Separate what an eye sees from what the object and light are doing."
+      },
+      {
+        "id": "trace",
+        "title": "Trace the Ray",
+        "description": "Use boundaries and a simple ray model in fresh views."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sn65-1",
+        "sectionId": "notice",
+        "kind": "choice",
+        "prompt": "A ruler check says a straw is straight, but the part under the water looks shifted sideways. Which explanation fits both observations?",
+        "context": "A clear cup holds still water. A straight straw crosses the water surface at a slant. From one fixed seat, its underwater part seems to meet the part in air at a small offset. The straw is not moved between views.",
+        "options": [
+          {
+            "id": "ray-shift",
+            "label": "Light from the underwater part changes direction as it leaves the water, so it reaches the eye along a changed path."
+          },
+          {
+            "id": "straw-kink",
+            "label": "The straw must bend at the surface, even though the ruler check found it straight."
+          },
+          {
+            "id": "water-moves",
+            "label": "The water pushes the lower part sideways while the upper part stays still."
+          },
+          {
+            "id": "mirror-copy",
+            "label": "The surface makes a second straw image that replaces the real one."
+          }
+        ],
+        "correct": "ray-shift",
+        "explanation": "The straw can stay straight while the light path changes at the water-to-air boundary. The eye receives light from the underwater part from a changed direction, so that part appears displaced. The object itself has not kinked.",
+        "sourceIds": [
+          "amnh-refraction",
+          "sn65-original"
+        ]
+      },
+      {
+        "id": "sn65-2",
+        "sectionId": "notice",
+        "kind": "hotspot",
+        "prompt": "Tap the place where this ray moves from one material into the other.",
+        "context": "Original labeled station cards represent a tile underwater, a point on the flat water surface, a perpendicular normal reference and an eye in air. The modeled light path runs from tile to surface point to eye. Its direction changes at the surface. The cards represent locations and a reference line.",
+        "diagram": {
+          "title": "Stations along an original light path",
+          "description": "Labeled station cards, positioned schematically. Tile is below the water surface; the marked crossing is at the surface; the normal is perpendicular to the surface; the eye is above it. The modeled path goes from tile to crossing to eye. Cards represent locations and reference lines.",
+          "zones": [
+            {
+              "id": "tile",
+              "label": "Tile under the water",
+              "x": 5,
+              "y": 68,
+              "width": 24,
+              "height": 24,
+              "color": "#65b8d7"
+            },
+            {
+              "id": "boundary",
+              "label": "Marked surface point",
+              "x": 42,
+              "y": 43,
+              "width": 18,
+              "height": 16,
+              "color": "#ffd166"
+            },
+            {
+              "id": "normal",
+              "label": "Normal reference",
+              "x": 51,
+              "y": 18,
+              "width": 12,
+              "height": 24,
+              "color": "#a7a7b8"
+            },
+            {
+              "id": "eye",
+              "label": "Eye in the air",
+              "x": 76,
+              "y": 5,
+              "width": 20,
+              "height": 24,
+              "color": "#84c98f"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "tile",
+            "label": "The tile under water"
+          },
+          {
+            "id": "boundary",
+            "label": "The water-air crossing"
+          },
+          {
+            "id": "normal",
+            "label": "The normal reference"
+          },
+          {
+            "id": "eye",
+            "label": "The eye"
+          }
+        ],
+        "correct": "boundary",
+        "explanation": "The material changes at the water surface. That is where this ray leaves water and enters air; the normal is only a comparison line drawn at the crossing.",
+        "sourceIds": [
+          "amnh-refraction",
+          "sn65-original"
+        ]
+      },
+      {
+        "id": "sn65-3",
+        "sectionId": "notice",
+        "kind": "match",
+        "prompt": "Match each simple ray sketch to the path it shows.",
+        "context": "For these original sketches: refraction means a ray crosses into a different material and changes direction; reflection means it turns back into the material it came from. A ray that meets a boundary along the normal can cross without changing direction. These are simplified ray drawings, not measurements.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Sketch A: a ray crosses from water into air and leaves along a new direction."
+          },
+          {
+            "id": "b",
+            "label": "Sketch B: a ray hits a shiny card and returns through the same air."
+          },
+          {
+            "id": "c",
+            "label": "Sketch C: a ray crosses a clear boundary on the dashed normal and stays on one straight line."
+          }
+        ],
+        "right": [
+          {
+            "id": "refract",
+            "label": "Crosses a boundary and changes direction"
+          },
+          {
+            "id": "reflect",
+            "label": "Turns back in the material it came from"
+          },
+          {
+            "id": "straight",
+            "label": "Crosses on the normal without a sideways turn"
+          }
+        ],
+        "pairs": {
+          "a": "refract",
+          "b": "reflect",
+          "c": "straight"
+        },
+        "explanation": "A changes direction while passing into another material, so it is refraction. B returns through its starting material, so it is reflection. C crosses the boundary but stays on the normal line, so its direction does not turn in this sketch.",
+        "sourceIds": [
+          "openstax-refraction",
+          "sn65-original"
+        ]
+      },
+      {
+        "id": "sn65-4",
+        "sectionId": "notice",
+        "kind": "grid",
+        "prompt": "Which statements are supported by these two viewing records?",
+        "context": "Original classroom viewing record, illustrative only. A straight straw is held at the same angle and viewed from the same seat. With the cup dry, its two marked sections line up. With water in the cup, the underwater section appears offset at the surface. A ruler check before and after both views records the straw as straight. No other change is recorded.",
+        "cells": [
+          {
+            "id": "dry-line",
+            "label": "In the dry-cup view, the marked sections lined up.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "wet-offset",
+            "label": "In the water view, the underwater section looked offset.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "broken-straw",
+            "label": "The ruler record shows that the straw broke at the surface.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "all-water",
+            "label": "This one record proves that every object in water looks bent.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          }
+        ],
+        "explanation": "The log supports the stated difference between these two views and says the straw stayed straight. It does not test every object, angle, or material, so it cannot support a universal rule.",
+        "sourceIds": [
+          "sn65-original"
+        ]
+      },
+      {
+        "id": "sn65-5",
+        "sectionId": "trace",
+        "kind": "choice",
+        "prompt": "In this sketch, which way does the ray travel after crossing the clear pane?",
+        "context": "Original simplified rule: the normal is a line at right angles to a boundary. If a ray reaches a clear boundary exactly along its normal, draw it continuing on the same straight line. Its speed may still change when the material changes. New sketch: a ray in air points straight down the normal into a glass pane.",
+        "options": [
+          {
+            "id": "same-line",
+            "label": "It continues down the same straight line through the pane."
+          },
+          {
+            "id": "turn-side",
+            "label": "It turns sideways as soon as it reaches the pane."
+          },
+          {
+            "id": "bounce-back",
+            "label": "It turns back into the air."
+          },
+          {
+            "id": "stop",
+            "label": "It stops at the boundary because glass blocks every ray."
+          }
+        ],
+        "correct": "same-line",
+        "explanation": "The ray arrives along the normal, so the supplied simplified rule keeps its direction on the same line. A change in speed between materials does not require a sideways turn in this case.",
+        "sourceIds": [
+          "openstax-refraction",
+          "sn65-original"
+        ]
+      },
+      {
+        "id": "sn65-6",
+        "sectionId": "trace",
+        "kind": "order",
+        "prompt": "Put the ray’s journey in the order it happens, from the coin to the eye.",
+        "context": "Original cross-section. A coin is underwater, and an eye is above the flat water surface. Trace the light that travels from this coin to this eye, crossing the surface once.",
+        "items": [
+          {
+            "id": "coin",
+            "label": "Light leaves the coin under water."
+          },
+          {
+            "id": "water",
+            "label": "The ray travels through water toward the surface."
+          },
+          {
+            "id": "cross",
+            "label": "The ray crosses the water-air boundary."
+          },
+          {
+            "id": "air-eye",
+            "label": "The ray travels through air to the eye."
+          }
+        ],
+        "correctOrder": [
+          "coin",
+          "water",
+          "cross",
+          "air-eye"
+        ],
+        "explanation": "The ray starts at the coin, travels in water, crosses the boundary, and then travels through air to the eye. The order follows one path, not a preferred way to draw a page.",
+        "sourceIds": [
+          "amnh-refraction",
+          "sn65-original"
+        ]
+      },
+      {
+        "id": "sn65-7",
+        "sectionId": "trace",
+        "kind": "choice",
+        "prompt": "Equal-time dots are closer together inside the glass, while the drawn ray keeps the same straight direction. What does this model show changed?",
+        "context": "Original teaching sketch, not a measured material test: equal-time marks are placed along one ray before and after it crosses normally from air into glass. The marks are farther apart in air and closer in glass. The two ray sections lie on the same straight line. In this sketch, equal time between marks lets spacing represent how far the light travels in that time.",
+        "options": [
+          {
+            "id": "speed-only",
+            "label": "The model shows a speed change, but no direction change."
+          },
+          {
+            "id": "direction-only",
+            "label": "The ray changes direction, but its speed stays the same."
+          },
+          {
+            "id": "object",
+            "label": "The glass bends the light source itself."
+          },
+          {
+            "id": "reflect",
+            "label": "The ray reflects because the dots are closer together."
+          }
+        ],
+        "correct": "speed-only",
+        "explanation": "The sketch uses equal time steps, so less distance between marks means the ray travels less far in that time in the glass. The line stays straight, so the drawing shows a speed change without a direction change. The spacing is part of this original model.",
+        "sourceIds": [
+          "openstax-refraction",
+          "sn65-original"
+        ]
+      },
+      {
+        "id": "sn65-8",
+        "sectionId": "trace",
+        "kind": "choice",
+        "prompt": "A child looks down through the open top of a container and sees a fish underwater. What is the most careful conclusion from this ray sketch?",
+        "context": "Original open-top view. A fish stays at a marked point underwater. A child above the surface receives light from the fish. The modeled ray crosses directly from water to air at a slant and changes direction. The child mentally extends the final straight segment backward. No distances or additional rays are supplied.",
+        "options": [
+          {
+            "id": "appears-nearer",
+            "label": "The changed light path can make the fish appear displaced; this sketch alone gives no exact real depth."
+          },
+          {
+            "id": "fish-moved",
+            "label": "The ray proves the fish swam upward to the imagined point."
+          },
+          {
+            "id": "exact-depth",
+            "label": "The fish’s exact real depth can be read from one ray with no measurements."
+          },
+          {
+            "id": "always-bent",
+            "label": "Every underwater view must make a fish appear nearer in the same way."
+          }
+        ],
+        "correct": "appears-nearer",
+        "explanation": "The eye receives a ray after it has changed direction at the surface. Extending that last segment backward can give an apparent position different from the fish’s real position. The sketch provides no distance measurements or evidence that the fish moved.",
+        "sourceIds": [
+          "openstax-refraction",
+          "sn65-original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "amnh-refraction",
+        "label": "American Museum of Natural History, OLogy: See the Light — Refraction",
+        "kind": "reference",
+        "url": "https://www.amnh.org/explore/ology/physics/see-the-light2/refraction"
+      },
+      {
+        "id": "sn65-original",
+        "label": "Original simplified ray sketches, viewing records, model rules, and fictional fish-view case authored for this quiz.",
+        "kind": "original"
+      },
+      {
+        "id": "openstax-refraction",
+        "label": "OpenStax Physics, 16.2 Refraction",
+        "kind": "reference",
+        "url": "https://openstax.org/books/physics/pages/16-2-refraction"
+      }
+    ],
+    "note": "All sketches and records are simplified teaching models, not ray measurements. The straight straw and fish cases are fictional; apparent position is not a claim that an object moved."
   }
 ]

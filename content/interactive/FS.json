@@ -13169,5 +13169,338 @@
     ],
     "note": "This is a fictional puppet show. Each player on the same device sees the same eight tasks and hands it over only when finished. Compare your answers at the end.",
     "playMode": "pass-and-play"
+  },
+  {
+    "id": "FS-37",
+    "slug": "secret-sculpture-relay",
+    "categoryId": "friends-social-play",
+    "title": "The Secret Sculpture Relay",
+    "description": "Each player solves eight artist-and-builder clues on one device. Hand over after your round, then compare your Lantern Nest reconstruction.",
+    "kind": "cooperative",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "pass-and-play",
+    "sections": [
+      {
+        "id": "read-the-plan",
+        "title": "Read the plan",
+        "description": "Compare an artist's words with the builder's labeled paper layout."
+      },
+      {
+        "id": "repair-and-transfer",
+        "title": "Repair and transfer",
+        "description": "Check a missing clue, then solve a new sculpture plan."
+      }
+    ],
+    "questions": [
+      {
+        "id": "fs37-1",
+        "sectionId": "read-the-plan",
+        "kind": "choice",
+        "prompt": "Which change makes the builder's plan match the artist's words?",
+        "context": "Fictional workshop card. The plan's top edge is north. The artist and builder both stand at the south edge and look north, so the viewer's left is west. The artist says, “The blue bead is to my left of the arch.” The builder's plan puts the arch in the west square and the blue bead in the east square.",
+        "explanation": "From the south side looking north, the artist's left is west. The plan has the arch west and bead east, so swapping their places makes the plan match.",
+        "sourceIds": [
+          "original-workshop"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Swap the bead and the arch."
+          },
+          {
+            "id": "b",
+            "label": "Move both shapes to the north row."
+          },
+          {
+            "id": "c",
+            "label": "Keep the plan as it is."
+          },
+          {
+            "id": "d",
+            "label": "Turn the plan upside down."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "fs37-2",
+        "sectionId": "read-the-plan",
+        "kind": "grid",
+        "prompt": "For each line, decide whether the builder's plan agrees with the artist.",
+        "context": "Fictional top-down plan. The arch is in the middle. The moon disk sits just below it, and the disk's edge touches the arch base. A silver button is at the upper right with its edge touching the arch. The artist says, “The moon touches the arch; the button is separate from the arch.”",
+        "explanation": "The moon’s edge meets the arch base as requested. The button also touches the arch, so the builder must move the button away to create the requested gap.",
+        "sourceIds": [
+          "original-workshop"
+        ],
+        "cells": [
+          {
+            "id": "moon",
+            "label": "The moon touches the arch.",
+            "options": [
+              {
+                "id": "agree",
+                "label": "Agrees"
+              },
+              {
+                "id": "fix",
+                "label": "Needs a change"
+              }
+            ],
+            "correct": "agree"
+          },
+          {
+            "id": "button",
+            "label": "The button is separate from the arch.",
+            "options": [
+              {
+                "id": "agree",
+                "label": "Agrees"
+              },
+              {
+                "id": "fix",
+                "label": "Needs a change"
+              }
+            ],
+            "correct": "fix"
+          }
+        ]
+      },
+      {
+        "id": "fs37-3",
+        "sectionId": "read-the-plan",
+        "kind": "match",
+        "prompt": "Match each bead to the artist's inside-or-outside clue.",
+        "context": "Fictional plan. The ring has an open center. Amber bead A sits in the opening. Green bead B is outside the ring and touches its outer edge. In the artist's words, “inside” means in the opening; “outside” means not in the opening.",
+        "explanation": "Bead A is in the ring's open center. Bead B is outside that center, even though it touches the ring's outer edge.",
+        "sourceIds": [
+          "original-workshop"
+        ],
+        "left": [
+          {
+            "id": "amber",
+            "label": "Amber bead A"
+          },
+          {
+            "id": "green",
+            "label": "Green bead B"
+          }
+        ],
+        "right": [
+          {
+            "id": "inside",
+            "label": "Inside the open ring"
+          },
+          {
+            "id": "outside",
+            "label": "Outside the open ring"
+          }
+        ],
+        "pairs": {
+          "amber": "inside",
+          "green": "outside"
+        }
+      },
+      {
+        "id": "fs37-4",
+        "sectionId": "read-the-plan",
+        "kind": "choice",
+        "prompt": "On which compass side should the shell sit?",
+        "context": "Fictional sculpture. The fish's front points east. The shell belongs on the fish's object-left: stand at its tail and look toward its front. The plan marks north at the top, east at the right, south at the bottom and west at the left.",
+        "explanation": "With the fish's front pointing east, you stand west of it and look east. Your left points north, so the shell belongs on the north side of the fish.",
+        "sourceIds": [
+          "original-workshop"
+        ],
+        "options": [
+          {
+            "id": "north",
+            "label": "North"
+          },
+          {
+            "id": "east",
+            "label": "East"
+          },
+          {
+            "id": "south",
+            "label": "South"
+          },
+          {
+            "id": "west",
+            "label": "West"
+          }
+        ],
+        "correct": "north"
+      },
+      {
+        "id": "fs37-5",
+        "sectionId": "repair-and-transfer",
+        "kind": "choice",
+        "prompt": "What repair keeps both parts of the artist's clue true?",
+        "context": "Fictional plan. A viewer stands south and looks north, so viewer-right is east. The artist says, “The green pebble is to the right of the base, but it does not touch the base.” The builder puts the pebble east of the base, with its edge touching the base.",
+        "explanation": "The pebble is already on the correct side. Moving it a little farther east creates the required gap while keeping it to the viewer's right.",
+        "sourceIds": [
+          "original-workshop"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Move it west, farther from the base."
+          },
+          {
+            "id": "b",
+            "label": "Move it a little farther east so a gap remains."
+          },
+          {
+            "id": "c",
+            "label": "Leave it touching; only the color needs to change."
+          },
+          {
+            "id": "d",
+            "label": "Move it north of the base."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "fs37-6",
+        "sectionId": "repair-and-transfer",
+        "kind": "choice",
+        "prompt": "Which message would tell the builder exactly where the small bead belongs?",
+        "context": "Original workshop case. A red ring and a blue ring sit far apart. There is one large bead and one small bead. The artist wants the small bead in the blue ring’s opening. The first message, “Put a bead in the ring,” leaves both choices open.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Put a bead in the other ring."
+          },
+          {
+            "id": "b",
+            "label": "Put the small bead inside the blue ring."
+          },
+          {
+            "id": "c",
+            "label": "Put the blue ring somewhere near a bead."
+          },
+          {
+            "id": "d",
+            "label": "Move one of the beads."
+          }
+        ],
+        "correct": "b",
+        "explanation": "The revised message names both the bead’s size and the ring’s color, then states their relationship. It resolves the two choices left open by the first message.",
+        "sourceIds": [
+          "original-workshop"
+        ]
+      },
+      {
+        "id": "fs37-7",
+        "sectionId": "repair-and-transfer",
+        "kind": "choice",
+        "prompt": "The artist describes a new Rainbird sculpture. Which builder change is needed?",
+        "context": "Transfer case, all fictional. The artist stands east and looks west, so viewer-left is south. The artist says, “The raindrop is left of the bird. The folded leaf is outside the ring.” The builder's plan already puts the raindrop south of the bird, but puts the leaf inside the ring.",
+        "explanation": "The raindrop is already south, which is the artist's left from the east side. Only the leaf needs to move from inside to outside the ring.",
+        "sourceIds": [
+          "original-workshop"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Move the raindrop north and leave the leaf."
+          },
+          {
+            "id": "b",
+            "label": "Move the leaf outside the ring and leave the raindrop."
+          },
+          {
+            "id": "c",
+            "label": "Move both the raindrop and the leaf."
+          },
+          {
+            "id": "d",
+            "label": "Leave both where they are."
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "fs37-8",
+        "sectionId": "repair-and-transfer",
+        "kind": "hotspot",
+        "prompt": "Choose the description card that completes the Lantern Nest sculpture.",
+        "context": "Final transfer case, all fictional. The table's north side is at the top. The artist stands west and looks east, so viewer-left is north. The artist says: “The silver wing is on my left of the arch. The seed pod is inside the arch. The pebble is outside the arch and does not touch its base.” Choose the candidate plan that follows all three clues.",
+        "explanation": "Plan B is the completed Lantern Nest: its wing is north of the arch, the seed pod sits inside, and the outside pebble leaves a gap from the base.",
+        "sourceIds": [
+          "original-workshop"
+        ],
+        "diagram": {
+          "title": "Four candidate description cards",
+          "description": "Each rectangle is a written candidate description. North is the top of the imagined table. The cards list the positions of the wing, seed pod and pebble relative to the arch.",
+          "zones": [
+            {
+              "id": "a",
+              "label": "Plan A: wing north; seed inside; pebble outside but touching the base.",
+              "x": 4,
+              "y": 8,
+              "width": 44,
+              "height": 38,
+              "color": "#f5ead6"
+            },
+            {
+              "id": "b",
+              "label": "Plan B: wing north; seed inside; pebble outside with a gap from the base.",
+              "x": 52,
+              "y": 8,
+              "width": 44,
+              "height": 38,
+              "color": "#d8eee8"
+            },
+            {
+              "id": "c",
+              "label": "Plan C: wing south; seed inside; pebble outside with a gap.",
+              "x": 4,
+              "y": 54,
+              "width": 44,
+              "height": 38,
+              "color": "#e6e4f5"
+            },
+            {
+              "id": "d",
+              "label": "Plan D: wing north; seed outside; pebble inside the arch.",
+              "x": 52,
+              "y": 54,
+              "width": 44,
+              "height": 38,
+              "color": "#f4dfe4"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "a",
+            "label": "Plan A"
+          },
+          {
+            "id": "b",
+            "label": "Plan B"
+          },
+          {
+            "id": "c",
+            "label": "Plan C"
+          },
+          {
+            "id": "d",
+            "label": "Plan D"
+          }
+        ],
+        "correct": "b"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original-workshop",
+        "label": "Original fictional paper-workshop rules, artist descriptions, builder plans and sculpture cases written for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "Original workshop fiction. Each player completes all eight tasks before handing the device to the next player."
   }
 ]

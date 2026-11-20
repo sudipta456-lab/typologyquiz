@@ -12093,5 +12093,308 @@
       }
     ],
     "note": "Every task is about an imagined show. The result describes the formats you picked in this session."
+  },
+  {
+    "id": "PC-36",
+    "slug": "choose-what-your-robot-remembers",
+    "categoryId": "personality-choices",
+    "title": "Choose What Your Robot Remembers",
+    "description": "Design a pocket robot’s memory for one imaginary day, from its first keepsake to its closing memory capsule.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 5,
+    "sections": [
+      {
+        "id": "memory-rules",
+        "title": "Set the memory rules",
+        "description": "Choose what the pocket robot keeps and when it checks with you."
+      },
+      {
+        "id": "closing-record",
+        "title": "Shape the closing record",
+        "description": "Pick the kind of end-of-day account and memory capsule you would want."
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "memory-focus",
+        "low": "Remember familiar routines",
+        "high": "Make room for new discoveries",
+        "description": "In this imaginary design, whether the memory list leans toward familiar routines or new things noticed along the way."
+      },
+      {
+        "id": "change-permission",
+        "low": "Ask me before changing",
+        "high": "Act within my chosen boundaries",
+        "description": "Whether the fictional robot checks before each change or follows limits that its designer has already chosen."
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc36-1",
+        "sectionId": "memory-rules",
+        "kind": "choice",
+        "prompt": "Which keepsake should become the robot’s first anchor memory?",
+        "context": "In this fictional day, you and a pocket robot leave home for a walk. Its anchor appears whenever you reopen the memory screen.",
+        "options": [
+          {
+            "id": "1",
+            "label": "The worn gate you pass every morning, with its familiar squeak.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "2",
+            "label": "An unfamiliar blue door you noticed for the first time today.",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ],
+        "explanation": "The gate anchors the screen in a repeated experience. The door anchors it in a discovery. Your choice sets the opening emphasis.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc36-2",
+        "sectionId": "memory-rules",
+        "kind": "choice",
+        "prompt": "Choose a rule for which unfinished notes the robot may save.",
+        "context": "You can write the permission rule before the walk. All drafts fit your chosen topics. Saving a draft keeps it in a review tray and does not publish it.",
+        "options": [
+          {
+            "id": "1",
+            "label": "Ask me about every draft before saving it.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "2",
+            "label": "Save drafts only about the two topics I approve now, then show me the tray later.",
+            "weights": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "3",
+            "label": "Ask about new topics, and automatically save drafts in the topic I already approved.",
+            "weights": [
+              0,
+              1
+            ]
+          }
+        ],
+        "explanation": "These settings place the approval point at different moments. Each specifies which drafts are allowed and when you want to be consulted.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc36-3",
+        "sectionId": "memory-rules",
+        "kind": "rank",
+        "prompt": "The small memory screen can feature one memento at a time. Rank what you would show first.",
+        "context": "The robot collected four imaginary mementos during the same walk. This is a display choice. Every item can still be kept in the archive.",
+        "items": [
+          {
+            "id": "gate",
+            "label": "The familiar gate’s squeak, heard on your usual route.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "word",
+            "label": "A new word from a sign you had never noticed.",
+            "weights": [
+              2,
+              0
+            ]
+          },
+          {
+            "id": "bench",
+            "label": "The bench where you pause on most walks.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "pattern",
+            "label": "A new leaf pattern found on a detour.",
+            "weights": [
+              1,
+              0
+            ]
+          }
+        ],
+        "explanation": "The gate and bench recall repeated stops. The word and leaf pattern introduce discoveries. The rank describes the order you would give these particular mementos.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc36-4",
+        "sectionId": "memory-rules",
+        "kind": "choice",
+        "prompt": "A note has an unfinished sentence. How should the robot prepare it for your evening review?",
+        "context": "The note says “The blue door reminded me of …” You have allowed the robot to suggest endings in a separate draft, with the original words kept alongside it.",
+        "options": [
+          {
+            "id": "1",
+            "label": "Leave the gap and ask me to finish the sentence first.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "2",
+            "label": "Draft two possible endings within that permission, then let me choose later.",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ],
+        "explanation": "One design asks you to supply the next words. The other uses your existing permission to prepare alternatives for later review.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc36-5",
+        "sectionId": "closing-record",
+        "kind": "slider",
+        "prompt": "How would you divide tomorrow’s memory display?",
+        "context": "Imagine a display that alternates between revisiting saved moments and showing new finds. Place the slider at the mix you would choose for tomorrow’s fictional walk.",
+        "lowLabel": "Mostly revisit saved moments",
+        "highLabel": "Mostly show new finds",
+        "dimension": 0,
+        "explanation": "The slider sets the emphasis of a display you are designing. A middle position gives both kinds of moment a similar place.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc36-6",
+        "sectionId": "closing-record",
+        "kind": "choice",
+        "prompt": "One new stop lies outside the route you approved. Which plan would you choose now?",
+        "context": "At the end of the walk, a new courtyard opens beyond your chosen route. There is also time to revisit the familiar gate. Your robot can ask for a changed route or follow the existing route.",
+        "options": [
+          {
+            "id": "1",
+            "label": "Ask me about adding the courtyard, then take it only if I approve.",
+            "weights": [
+              2,
+              -1
+            ]
+          },
+          {
+            "id": "2",
+            "label": "Finish within the agreed route and revisit the familiar gate.",
+            "weights": [
+              -2,
+              1
+            ]
+          }
+        ],
+        "explanation": "The courtyard plan combines a new experience with a fresh approval request. The gate plan combines a familiar stop with carrying out the existing route. Both follow the permissions described.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc36-7",
+        "sectionId": "closing-record",
+        "kind": "choice",
+        "prompt": "How should the robot prepare the evening memory capsule?",
+        "context": "You have already chosen the same three mementos for the capsule and approved their display order. A new title is optional.",
+        "options": [
+          {
+            "id": "1",
+            "label": "Show me a blank title line and wait for my words before finishing.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "2",
+            "label": "Prepare a title using only the three selected mementos, as my saved title rule allows.",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ],
+        "explanation": "The capsule content is already chosen. This decision concerns whether you want to provide the final title or let the robot complete that bounded step.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "pc36-8",
+        "sectionId": "closing-record",
+        "kind": "rank",
+        "prompt": "Rank these finished capsules by which you would choose to open first.",
+        "context": "Each is a different possible closing screen for this imaginary day. Choose their appeal to you, using both the memories featured and how the capsule was finished.",
+        "items": [
+          {
+            "id": "routine-ask",
+            "label": "The gate and bench, with every final edit waiting for your approval.",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "discovery-ask",
+            "label": "The blue door and leaf pattern, with every final edit waiting for your approval.",
+            "weights": [
+              2,
+              -2
+            ]
+          },
+          {
+            "id": "routine-rule",
+            "label": "The gate and bench, finished inside the title and layout rules you chose.",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "discovery-rule",
+            "label": "The blue door and leaf pattern, finished inside the title and layout rules you chose.",
+            "weights": [
+              2,
+              2
+            ]
+          }
+        ],
+        "explanation": "These four finished capsules combine familiar or new memories with approval at each edit or completion within saved rules. The rank closes the design with your preferred combinations.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional pocket-robot settings and memory-design choices written for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "Original fiction. The summary describes the settings and memories you choose in this activity."
   }
 ]

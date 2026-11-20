@@ -13175,5 +13175,370 @@
       }
     ],
     "note": "Marlow Square is fictional. Its printed symbols are based on example Sanborn keys documented by the Library of Congress."
+  },
+  {
+    "id": "HC-36",
+    "slug": "blue-photograph-without-a-camera",
+    "categoryId": "history-culture",
+    "title": "The Blue Photograph Without a Camera",
+    "description": "Explore how Anna Atkins used cyanotype photograms for botanical records, then read invented exhibit cards without confusing a specimen's outline, its color, or the people behind the process.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "light-and-blue",
+        "title": "Make sense of the blue image",
+        "description": "Follow the contact shape, the blocked light, and the people and dates."
+      },
+      {
+        "id": "read-the-records",
+        "title": "Read the exhibit records",
+        "description": "Use fictional catalog evidence to write a careful museum label."
+      }
+    ],
+    "questions": [
+      {
+        "id": "hc36-1",
+        "sectionId": "light-and-blue",
+        "kind": "choice",
+        "prompt": "What makes an image a photogram rather than a picture made through a camera lens?",
+        "context": "A photogram forms when an object touches light-sensitive paper, without a lens. Anna Atkins made botanical photograms using cyanotype.",
+        "explanation": "The object leaves a contact image on the surface; a camera lens does not form it.",
+        "sourceIds": [
+          "vam-cameraless"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The object is placed directly on the light-sensitive surface."
+          },
+          {
+            "id": "b",
+            "label": "A camera lens paints the object's natural color onto paper."
+          },
+          {
+            "id": "c",
+            "label": "The object is drawn from memory after it is removed."
+          },
+          {
+            "id": "d",
+            "label": "The paper records only the name written beside the object."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc36-2",
+        "sectionId": "light-and-blue",
+        "kind": "choice",
+        "prompt": "In a simple cyanotype photogram, what does the pale plant-shaped area show?",
+        "context": "An opaque plant rests on cyanotype paper made with iron salts. It blocks sunlight at the contact; after water processing, exposed paper is blue and the covered shape stays pale.",
+        "explanation": "The pale area records the plant's contact outline, not its living color.",
+        "sourceIds": [
+          "vam-cameraless"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "The outline of the plant where it covered the paper."
+          },
+          {
+            "id": "b",
+            "label": "The exact color the plant had while growing."
+          },
+          {
+            "id": "c",
+            "label": "The part of the paper that received the most sunlight."
+          },
+          {
+            "id": "d",
+            "label": "A painted copy made after the plant was removed."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc36-3",
+        "sectionId": "light-and-blue",
+        "kind": "hotspot",
+        "prompt": "Which marked paper region will receive sunlight and become blue after processing?",
+        "context": "Original schematic before exposure. An opaque rectangular mask covers paper region A. Region C is a smaller marked part within that footprint. Region B lies outside it. Sunlight shines from above. Exposed cyanotype paper becomes blue after processing.",
+        "explanation": "The opaque mask blocks sunlight at A and C. B lies outside the mask and receives light, so it becomes blue in this model.",
+        "sourceIds": [
+          "vam-cameraless",
+          "original-exhibit"
+        ],
+        "diagram": {
+          "title": "Paper and mask before exposure",
+          "description": "Large gray region A represents paper beneath the opaque mask. Smaller marked region C lies within A. Region B is separately to the right, outside the mask footprint. The frame represents the paper before exposure.",
+          "zones": [
+            {
+              "id": "a",
+              "label": "A: paper under mask",
+              "x": 8,
+              "y": 12,
+              "width": 44,
+              "height": 75,
+              "color": "#a8a5a0"
+            },
+            {
+              "id": "b",
+              "label": "Region B",
+              "x": 62,
+              "y": 34,
+              "width": 27,
+              "height": 25,
+              "color": "#ddd8cf"
+            },
+            {
+              "id": "c",
+              "label": "Region C",
+              "x": 15,
+              "y": 56,
+              "width": 27,
+              "height": 20,
+              "color": "#ddd8cf"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "a",
+            "label": "A: paper under the mask"
+          },
+          {
+            "id": "b",
+            "label": "B: paper outside the mask footprint"
+          },
+          {
+            "id": "c",
+            "label": "C: paper within the mask footprint"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": "hc36-4",
+        "sectionId": "light-and-blue",
+        "kind": "choice",
+        "prompt": "An exhibit label credits every British Algae image to Herschel because he invented cyanotype. Which correction fits the record?",
+        "context": "The historical panel identifies John Herschel with devising cyanotype in 1842. The publication record identifies Anna Atkins with the botanical photograms in British Algae, first issued in 1843.",
+        "options": [
+          {
+            "id": "atkins",
+            "label": "Credit Atkins with the botanical images and Herschel with the process."
+          },
+          {
+            "id": "reverse",
+            "label": "Credit Herschel with the botanical images and Atkins with the process."
+          },
+          {
+            "id": "same",
+            "label": "Treat devising a process as proof of making every image that uses it."
+          },
+          {
+            "id": "none",
+            "label": "Remove Atkins’s name because a process existed before the book."
+          }
+        ],
+        "correct": "atkins",
+        "explanation": "Inventing a technique and making images with it are different contributions. The records support Atkins for these botanical photograms and Herschel for the process.",
+        "sourceIds": [
+          "vam-processes"
+        ]
+      },
+      {
+        "id": "hc36-5",
+        "sectionId": "light-and-blue",
+        "kind": "order",
+        "prompt": "Arrange the stages so the plant can leave a contact silhouette.",
+        "context": "Original process-card exercise. The paper must be prepared and dry before exposure. The plant must remain flat on the paper throughout exposure. The plant is removed after exposure, and the paper is washed with the plant removed.",
+        "explanation": "Preparation supplies the dry sensitive surface. Keeping the plant in place during exposure makes the contact silhouette. Removal then allows the exposed paper to be washed.",
+        "sourceIds": [
+          "vam-cameraless",
+          "original-exhibit"
+        ],
+        "items": [
+          {
+            "id": "wash",
+            "label": "Wash the exposed paper in water."
+          },
+          {
+            "id": "expose",
+            "label": "Expose the prepared paper with the plant resting on it."
+          },
+          {
+            "id": "prepare",
+            "label": "Prepare and dry the light-sensitive paper."
+          },
+          {
+            "id": "remove",
+            "label": "Lift the plant from the exposed paper."
+          }
+        ],
+        "correctOrder": [
+          "prepare",
+          "expose",
+          "remove",
+          "wash"
+        ]
+      },
+      {
+        "id": "hc36-6",
+        "sectionId": "read-the-records",
+        "kind": "grid",
+        "prompt": "Which claims are directly supported by this invented exhibit card?",
+        "context": "Fictional exhibit card Q7: “Blue botanical photogram; pale branching outline; accession Q7.” The card gives no artist, book title, plant name, date, or natural color for the plant.",
+        "explanation": "The card supports what it records: a blue botanical photogram with a pale branching outline. It does not name an artist, title, plant, date, or the living plant's color.",
+        "sourceIds": [
+          "original-exhibit"
+        ],
+        "cells": [
+          {
+            "id": "blue",
+            "label": "The image has a blue field.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "outline",
+            "label": "A pale branching outline appears in the image.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "yes"
+          },
+          {
+            "id": "artist",
+            "label": "The card names Anna Atkins as the artist.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          },
+          {
+            "id": "color",
+            "label": "The living plant itself was pale.",
+            "options": [
+              {
+                "id": "yes",
+                "label": "Supported"
+              },
+              {
+                "id": "no",
+                "label": "Not supported"
+              }
+            ],
+            "correct": "no"
+          }
+        ]
+      },
+      {
+        "id": "hc36-7",
+        "sectionId": "read-the-records",
+        "kind": "choice",
+        "prompt": "What is the safest label for plate H-9 so far?",
+        "context": "Fictional archive. The H-9 card says “blue botanical photogram” and gives no title or maker. A separate book record names British Algae, Anna Atkins, and 1843, but no catalog note links H-9 to that book.",
+        "explanation": "The H-9 card supports calling it a blue botanical photogram. Without a record linking the plate to British Algae, its title and maker are not established by these cards.",
+        "sourceIds": [
+          "original-exhibit"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "H-9 is a blue botanical photogram; its title and maker are not linked in these records."
+          },
+          {
+            "id": "b",
+            "label": "H-9 is definitely a plate from British Algae by Anna Atkins."
+          },
+          {
+            "id": "c",
+            "label": "H-9 shows a plant that was naturally blue."
+          },
+          {
+            "id": "d",
+            "label": "H-9 was made by John Herschel because he devised cyanotype."
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "hc36-8",
+        "sectionId": "read-the-records",
+        "kind": "choice",
+        "prompt": "Which final museum label uses the linked records and the process evidence carefully?",
+        "context": "New fictional case. Catalog: H-22 links to plate 3 in British Algae's first installment; the volume record names Anna Atkins, 1843. Process card: pale contact silhouette on blue. History panel: Herschel devised cyanotype in 1842.",
+        "explanation": "The link supports the title and Atkins attribution. The pale shape records contact, not natural color; Herschel devised the process.",
+        "sourceIds": [
+          "vam-cameraless",
+          "vam-processes",
+          "original-exhibit"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Anna Atkins, British Algae, 1843: a cyanotype contact silhouette; John Herschel devised the process in 1842."
+          },
+          {
+            "id": "b",
+            "label": "John Herschel's 1842 camera photograph of a naturally blue fern."
+          },
+          {
+            "id": "c",
+            "label": "Anna Atkins invented cyanotype in 1843 and painted a white plant."
+          },
+          {
+            "id": "d",
+            "label": "A photograph proving the living plant had the same pale color as its silhouette."
+          }
+        ],
+        "correct": "a"
+      }
+    ],
+    "sources": [
+      {
+        "id": "vam-cameraless",
+        "label": "Victoria and Albert Museum, Cameraless Photography",
+        "kind": "reference",
+        "url": "https://www.vam.ac.uk/articles/cameraless-photography"
+      },
+      {
+        "id": "original-exhibit",
+        "label": "Original fictional exhibit diagrams, catalog cards, cross-reference notes and label scenarios written for this quiz.",
+        "kind": "original"
+      },
+      {
+        "id": "vam-processes",
+        "label": "V&A Collection Selection Boxes, Photography Processes and Techniques, Cyanotype section",
+        "kind": "reference",
+        "url": "https://www.vam.ac.uk/info/collection-selection-boxes-photography-processes-and-techniques"
+      }
+    ],
+    "note": "Original exhibit schematics and fictional catalog cases accompany the documented cyanotype history."
   }
 ]
