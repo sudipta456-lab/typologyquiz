@@ -13122,5 +13122,397 @@
       }
     ],
     "note": "All sound patterns are invented and have complete text transcriptions; no audio is required."
+  },
+  {
+    "id": "MU-35",
+    "slug": "two-notes-that-make-a-pulse",
+    "categoryId": "music",
+    "title": "The Two Notes That Make a Pulse",
+    "description": "Hear or read original two-tone examples, then use changing loudness—not a changing pitch or echo—to reason about beats.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "note": "Audio examples are synthesized sine tones with equivalent plain-language transcripts. The quiz is not a hearing test, music-preference assessment, or claim about health or cognition.",
+    "sections": [
+      {
+        "id": "hear-the-change",
+        "title": "Hear the change"
+      },
+      {
+        "id": "test-the-model",
+        "title": "Test the model"
+      }
+    ],
+    "sources": [
+      {
+        "id": "openstax-sound",
+        "kind": "reference",
+        "label": "OpenStax Physics: Sound Interference and Resonance",
+        "url": "https://openstax.org/books/physics/pages/14-4-sound-interference-and-resonance"
+      },
+      {
+        "id": "unsw-beats",
+        "kind": "reference",
+        "label": "UNSW Physics: Beats",
+        "url": "https://animations.physics.unsw.edu.au/jw/beats.htm"
+      },
+      {
+        "id": "tone-model",
+        "kind": "original",
+        "label": "Original synthesized tone pairs, transcripts, and paper models."
+      }
+    ],
+    "questions": [
+      {
+        "id": "mu35-1",
+        "sectionId": "hear-the-change",
+        "kind": "audio",
+        "prompt": "The source frequencies differ by 2 Hz, and the transcript counts six loudness peaks in three seconds. What beat rate does the record support?",
+        "context": "Model record: sine tones at 220 Hz and 222 Hz play together at equal low gain. The transcript is equivalent to the sound.",
+        "explanation": "Six peaks across three seconds is about two beats per second, matching the 2 Hz frequency difference. The rate comes from the spacing between the tones, not their average pitch.",
+        "sourceIds": [
+          "openstax-sound",
+          "unsw-beats",
+          "tone-model"
+        ],
+        "tones": [
+          {
+            "frequency": 220,
+            "duration": 3,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.04
+          },
+          {
+            "frequency": 222,
+            "duration": 3,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.04
+          }
+        ],
+        "transcript": "Two steady notes play together. Over three seconds, the combined sound reaches about six loudness peaks; neither note slides up or down.",
+        "options": [
+          {
+            "id": "two",
+            "label": "About 2 beats per second"
+          },
+          {
+            "id": "one",
+            "label": "About 1 beat per second"
+          },
+          {
+            "id": "four",
+            "label": "About 4 beats per second"
+          },
+          {
+            "id": "carrier",
+            "label": "About 220 beats per second"
+          }
+        ],
+        "correct": "two"
+      },
+      {
+        "id": "mu35-2",
+        "sectionId": "hear-the-change",
+        "kind": "choice",
+        "prompt": "A listener says one note must be bending in pitch because the sound grows louder and softer. Which observation best checks that claim?",
+        "context": "The recording has two steady sources at 220 Hz and 222 Hz. A level meter rises and falls, while separate frequency readings remain unchanged throughout the clip.",
+        "explanation": "The steady frequency readings contradict a pitch bend. The changing combined level fits interference between the two nearby sources; an echo would require a delayed returning sound.",
+        "sourceIds": [
+          "openstax-sound",
+          "unsw-beats",
+          "tone-model"
+        ],
+        "options": [
+          {
+            "id": "interference",
+            "label": "The sources stay steady while their combined level changes"
+          },
+          {
+            "id": "echo",
+            "label": "One sound bouncing back after a delay"
+          },
+          {
+            "id": "glide",
+            "label": "A source’s measured frequency changes over time"
+          },
+          {
+            "id": "drummer",
+            "label": "A performer inserts a repeated rhythm"
+          }
+        ],
+        "correct": "interference"
+      },
+      {
+        "id": "mu35-3",
+        "sectionId": "hear-the-change",
+        "kind": "match",
+        "prompt": "Match each frequency record to the predicted loudness pattern.",
+        "context": "Model record: A is 440 Hz plus 442 Hz; B is 300 Hz plus 304 Hz; C is two aligned 500 Hz sources. Each pair plays at constant frequency.",
+        "explanation": "The 2 Hz gap in A predicts about two beats per second; the 4 Hz gap in B predicts about four. Identical aligned frequencies in C keep a steady combined level rather than producing repeating beats.",
+        "sourceIds": [
+          "openstax-sound",
+          "unsw-beats",
+          "tone-model"
+        ],
+        "left": [
+          {
+            "id": "a",
+            "label": "Record A: 440 Hz + 442 Hz"
+          },
+          {
+            "id": "b",
+            "label": "Record B: 300 Hz + 304 Hz"
+          },
+          {
+            "id": "c",
+            "label": "Record C: aligned 500 Hz + 500 Hz"
+          }
+        ],
+        "right": [
+          {
+            "id": "two",
+            "label": "About two beats per second"
+          },
+          {
+            "id": "four",
+            "label": "About four beats per second"
+          },
+          {
+            "id": "steady",
+            "label": "Steady combined loudness"
+          }
+        ],
+        "pairs": {
+          "a": "two",
+          "b": "four",
+          "c": "steady"
+        }
+      },
+      {
+        "id": "mu35-4",
+        "sectionId": "hear-the-change",
+        "kind": "grid",
+        "prompt": "Use the pitch and timing evidence to classify what most likely produced each sound report.",
+        "context": "Technician notes: (1) two fixed-frequency sources; level-meter peaks repeat regularly; (2) one source measures 400 Hz, then 430 Hz; (3) one click has a single quieter copy 0.3 seconds later, with no repeated pulse.",
+        "explanation": "Regular loudness peaks from two steady sources fit beats. A measured frequency rise is a pitch glide. A single delayed copy after a click fits an echo; its one-time delay differs from recurring beat intervals.",
+        "sourceIds": [
+          "openstax-sound",
+          "unsw-beats",
+          "tone-model"
+        ],
+        "cells": [
+          {
+            "id": "steady-pair",
+            "label": "Two fixed frequencies; regularly spaced level peaks",
+            "options": [
+              {
+                "id": "beats",
+                "label": "Interference beats"
+              },
+              {
+                "id": "glide",
+                "label": "Pitch glide"
+              },
+              {
+                "id": "echo",
+                "label": "Delayed echo"
+              }
+            ],
+            "correct": "beats"
+          },
+          {
+            "id": "frequency-rise",
+            "label": "One source measures 400 Hz, then 430 Hz",
+            "options": [
+              {
+                "id": "beats",
+                "label": "Interference beats"
+              },
+              {
+                "id": "glide",
+                "label": "Pitch glide"
+              },
+              {
+                "id": "echo",
+                "label": "Delayed echo"
+              }
+            ],
+            "correct": "glide"
+          },
+          {
+            "id": "single-return",
+            "label": "One quieter copy follows a click by 0.3 s",
+            "options": [
+              {
+                "id": "beats",
+                "label": "Interference beats"
+              },
+              {
+                "id": "glide",
+                "label": "Pitch glide"
+              },
+              {
+                "id": "echo",
+                "label": "Delayed echo"
+              }
+            ],
+            "correct": "echo"
+          }
+        ]
+      },
+      {
+        "id": "mu35-5",
+        "sectionId": "test-the-model",
+        "kind": "audio",
+        "prompt": "The transcript reports more frequent swells in this pair. Which setup detail best explains that change from the earlier example?",
+        "context": "The earlier pair was 220 Hz and 222 Hz. This model pair is 330 Hz and 334 Hz; both begin together at equal low gain. Compare frequency differences, not just pitch range.",
+        "explanation": "The newer pair has a 4 Hz gap rather than 2 Hz, so the loudness pattern beats about twice as quickly. Its higher average pitch alone would not explain the rate change.",
+        "sourceIds": [
+          "openstax-sound",
+          "unsw-beats",
+          "tone-model"
+        ],
+        "tones": [
+          {
+            "frequency": 330,
+            "duration": 3,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.04
+          },
+          {
+            "frequency": 334,
+            "duration": 3,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.04
+          }
+        ],
+        "transcript": "Two steady tones play together. Their combined loudness swells about twice as often as in the earlier example; neither tone slides. The written pair is 330 Hz and 334 Hz, compared with the earlier 220 Hz and 222 Hz pair.",
+        "options": [
+          {
+            "id": "larger-gap",
+            "label": "The new pair’s frequency gap is larger: 4 Hz instead of 2 Hz"
+          },
+          {
+            "id": "higher-only",
+            "label": "The new pair has a higher average pitch, which alone sets the rate"
+          },
+          {
+            "id": "same-gap",
+            "label": "The two pairs have the same frequency gap"
+          },
+          {
+            "id": "no-beats",
+            "label": "A higher-pitched pair cannot make beats"
+          }
+        ],
+        "correct": "larger-gap"
+      },
+      {
+        "id": "mu35-6",
+        "sectionId": "test-the-model",
+        "kind": "choice",
+        "prompt": "A pair begins at a different relative phase, but the frequency gap stays at 3 Hz. What changes in the model?",
+        "context": "The two sources remain steady and simultaneous. Only their starting alignment changes; neither frequency nor the 3 Hz separation changes.",
+        "explanation": "Changing starting phase can shift where the first loud or soft moment occurs, but the 3 Hz frequency gap still sets the repeating beat rate.",
+        "sourceIds": [
+          "openstax-sound",
+          "unsw-beats",
+          "tone-model"
+        ],
+        "options": [
+          {
+            "id": "first-shifts",
+            "label": "The first swell’s timing can shift, but beats still recur at 3 per second"
+          },
+          {
+            "id": "rate-changes",
+            "label": "The beat rate changes because the starting phase changed"
+          },
+          {
+            "id": "stops",
+            "label": "No beats can occur unless both tones start in phase"
+          },
+          {
+            "id": "glide",
+            "label": "Both frequencies must glide until they align"
+          }
+        ],
+        "correct": "first-shifts"
+      },
+      {
+        "id": "mu35-7",
+        "sectionId": "test-the-model",
+        "kind": "match",
+        "prompt": "Match the two-wave model description to the combined result.",
+        "context": "Model record: two equal-strength channels are measured twice. Snapshot A has both at positive peaks; Snapshot B has one at a positive peak while the other is at a negative peak. These are symbolic measurements, not a waveform drawing.",
+        "explanation": "When contributions peak together, they add to a stronger combined signal. Opposing peaks partly cancel and produce a weaker signal. As nearby frequencies drift between these alignments, loudness varies.",
+        "sourceIds": [
+          "openstax-sound",
+          "unsw-beats",
+          "tone-model"
+        ],
+        "left": [
+          {
+            "id": "aligned",
+            "label": "Snapshot A: both channels peak together"
+          },
+          {
+            "id": "opposed",
+            "label": "Snapshot B: one channel peaks as the other troughs"
+          }
+        ],
+        "right": [
+          {
+            "id": "strong",
+            "label": "Stronger combined sound"
+          },
+          {
+            "id": "weak",
+            "label": "Weaker combined sound"
+          }
+        ],
+        "pairs": {
+          "aligned": "strong",
+          "opposed": "weak"
+        }
+      },
+      {
+        "id": "mu35-8",
+        "sectionId": "test-the-model",
+        "kind": "choice",
+        "prompt": "A new recording has a repeating loud-soft pattern, but the team is unsure whether two tones or a volume control caused it. Which test best separates those explanations?",
+        "context": "In a new recording, a repeating loud-soft envelope could come from two-source interference or from automatic level control. The team can isolate each source and keep playback settings fixed during a short test.",
+        "explanation": "Test the sources separately while holding playback settings steady. If each tone alone is steady but the pair swells and softens, the two-source explanation gains support; if one source alone keeps swelling, a volume-control explanation remains plausible.",
+        "sourceIds": [
+          "openstax-sound",
+          "unsw-beats",
+          "tone-model"
+        ],
+        "options": [
+          {
+            "id": "solo-pairs",
+            "label": "Listen to each source alone, then together at unchanged settings"
+          },
+          {
+            "id": "rename",
+            "label": "Rename the recording without changing playback"
+          },
+          {
+            "id": "wall",
+            "label": "Move farther from a wall while keeping both sources hidden"
+          },
+          {
+            "id": "guess",
+            "label": "Choose whichever explanation sounds more musical"
+          }
+        ],
+        "correct": "solo-pairs"
+      }
+    ],
+    "playMode": "solo"
   }
 ]

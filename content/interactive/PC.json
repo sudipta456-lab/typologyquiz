@@ -12396,5 +12396,348 @@
       }
     ],
     "note": "Original fiction. The summary describes the settings and memories you choose in this activity."
+  },
+  {
+    "id": "PC-37",
+    "slug": "message-in-a-bottle-for-space",
+    "categoryId": "personality-choices",
+    "title": "Your Message in a Bottle for Space",
+    "description": "Design an imaginary message capsule for an unknown reader, balancing concrete moments with broad patterns and wandering with guided explanation.",
+    "kind": "preference",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "capsule-contents",
+        "title": "Choose what goes inside"
+      },
+      {
+        "id": "reader-path",
+        "title": "Shape the reader’s path"
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "message-focus",
+        "low": "Concrete everyday experiences",
+        "high": "Abstract patterns",
+        "description": "Whether the fictional capsule leans toward particular sights, sounds, and moments or toward ideas that connect many examples."
+      },
+      {
+        "id": "reader-guidance",
+        "low": "Let the reader wander",
+        "high": "Guide the reader with explanations",
+        "description": "Whether this imagined message leaves room for open interpretation or supplies more orientation and explanation."
+      }
+    ],
+    "sources": [
+      {
+        "id": "capsule-fiction",
+        "kind": "original",
+        "label": "Original fictional capsule text and reader-design options."
+      }
+    ],
+    "note": "Imaginary message-design choices; the result is descriptive, not a personality diagnosis or claim about real space communication.",
+    "questions": [
+      {
+        "id": "pc37-1",
+        "sectionId": "capsule-contents",
+        "kind": "choice",
+        "prompt": "Choose the opening card for an unknown reader who finds your imaginary capsule.",
+        "context": "The capsule can hold one short opening card. All four fictional options fit the same small display; decide which introduction you would place first.",
+        "explanation": "The options emphasize either a particular everyday moment or a pattern across many moments, and either leave interpretation open or explain the intended link. There is no correct choice.",
+        "sourceIds": [
+          "capsule-fiction"
+        ],
+        "options": [
+          {
+            "id": "rain-open",
+            "label": "Describe one rain tap on a window and leave its meaning unstated.",
+            "weights": [
+              -2,
+              -2
+            ]
+          },
+          {
+            "id": "cycles-guide",
+            "label": "Explain how repeating cycles can connect many worlds and days.",
+            "weights": [
+              2,
+              2
+            ]
+          },
+          {
+            "id": "rain-guide",
+            "label": "Explain the sound and setting of one rainy afternoon.",
+            "weights": [
+              -2,
+              2
+            ]
+          },
+          {
+            "id": "cycles-open",
+            "label": "Name a recurring pattern and invite the reader to find its meaning.",
+            "weights": [
+              2,
+              -2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc37-2",
+        "sectionId": "capsule-contents",
+        "kind": "choice",
+        "prompt": "A tiny display can preserve one sound in words. Which description would you keep?",
+        "context": "The capsule carries text only; every choice below is a written sound description, not an audio recording. These captions leave their meaning open, so this choice is about the kind of detail.",
+        "explanation": "A sound from one particular moment leans toward a concrete experience; a pattern connecting many moments leans toward an abstract connection. The options do not add an explanation for the reader.",
+        "sourceIds": [
+          "capsule-fiction"
+        ],
+        "options": [
+          {
+            "id": "kettle",
+            "label": "“One sharp kettle click cuts through the quiet kitchen.”",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "rain",
+            "label": "“Rain makes a steady patter on the bus roof.”",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "rhythm",
+            "label": "“A low hum rises, fades, and returns.”",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "pattern",
+            "label": "“Across rooms, short echoes answer a repeated three-note call.”",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc37-3",
+        "sectionId": "capsule-contents",
+        "kind": "rank",
+        "prompt": "Rank these open-ended fragments by which you would preserve first.",
+        "context": "Each fragment is a brief, unexplained observation. Compare a particular scene with a pattern that connects examples; none supplies a guide or answer.",
+        "explanation": "The rank expresses which kind of content you would keep in this message: an individual moment or a pattern across moments. Reader guidance is held neutral here.",
+        "sourceIds": [
+          "capsule-fiction"
+        ],
+        "items": [
+          {
+            "id": "bus",
+            "label": "A bus-window reflection crossing one rider’s face at dusk.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "rain",
+            "label": "Rain rings spreading from one dropped leaf in a puddle.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "shadows",
+            "label": "The way moving light makes shadows lengthen and shorten.",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "cycles",
+            "label": "A recurring pattern: brightening, fading, and beginning again.",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc37-4",
+        "sectionId": "capsule-contents",
+        "kind": "rank",
+        "prompt": "Rank these caption styles by how much orientation you would give an unfamiliar reader.",
+        "context": "Every option describes the same kind of item: one chipped blue cup on a windowsill. The item stays concrete; only the amount of reader guidance changes.",
+        "explanation": "This rank isolates how much explanation to attach to one particular object. The concrete-versus-pattern axis is neutral for this decision.",
+        "sourceIds": [
+          "capsule-fiction"
+        ],
+        "items": [
+          {
+            "id": "bare",
+            "label": "No caption; let the cup stand on its own.",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "question",
+            "label": "“What might have worn its blue rim?”",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "clue",
+            "label": "Add one clue: “It was used every morning.”",
+            "weights": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "story",
+            "label": "Explain who kept it, where it sat, and why it mattered.",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc37-5",
+        "sectionId": "reader-path",
+        "kind": "slider",
+        "prompt": "Set the balance between one particular scene and a pattern that connects many scenes.",
+        "context": "Imagine choosing the emphasis for a short capsule section. A middle position would give a concrete moment and a broader pattern similar space.",
+        "lowLabel": "One concrete everyday scene",
+        "highLabel": "A pattern across many scenes",
+        "dimension": 0,
+        "explanation": "This slider records how you would shape this one fictional section. It has no correct setting and says nothing about ability or personality.",
+        "sourceIds": [
+          "capsule-fiction"
+        ]
+      },
+      {
+        "id": "pc37-6",
+        "sectionId": "reader-path",
+        "kind": "slider",
+        "prompt": "Choose how much explanation to include beside an unfamiliar capsule fragment.",
+        "context": "Use any fragment, whether it describes a daily scene or a pattern; this slider only sets how much to explain to the unknown reader. A middle position gives a brief clue without spelling out every meaning.",
+        "lowLabel": "Let the reader wander",
+        "highLabel": "Guide with more explanation",
+        "dimension": 1,
+        "explanation": "The slider describes the amount of guidance you prefer for this imagined message. A low or high setting is not better than another.",
+        "sourceIds": [
+          "capsule-fiction"
+        ]
+      },
+      {
+        "id": "pc37-7",
+        "sectionId": "reader-path",
+        "kind": "choice",
+        "prompt": "Choose how much guidance to add around the same scene.",
+        "context": "All four text cards start from the same imagined scene: a chipped mug cooling on a sill. You are choosing how much backstory to add around that scene.",
+        "explanation": "The cards add progressively more backstory around the same concrete scene. This describes how explicitly you would guide a reader through this fictional message; no amount of guidance is better.",
+        "sourceIds": [
+          "capsule-fiction"
+        ],
+        "options": [
+          {
+            "id": "open",
+            "label": "“A chipped mug sits on the sill. The drink is cooling.”",
+            "weights": [
+              0,
+              -2
+            ]
+          },
+          {
+            "id": "question",
+            "label": "“The chipped mug cools on the sill. What might have happened just before?”",
+            "weights": [
+              0,
+              -1
+            ]
+          },
+          {
+            "id": "hint",
+            "label": "“The chipped mug cools on the sill, linking it to an earlier warm drink.”",
+            "weights": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "explain",
+            "label": "“The owner set down a hot drink to answer a knock. The mug stayed on the sill while the drink cooled.”",
+            "weights": [
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pc37-8",
+        "sectionId": "reader-path",
+        "kind": "choice",
+        "prompt": "Choose one final detail for the capsule as a plain observation.",
+        "context": "Each card is a text-only observation with no instruction or explanation; interpretation stays open. This choice does not depend on earlier picks.",
+        "explanation": "The choices vary from one particular object or event to a pattern connecting many examples. Guidance stays neutral here, and there is no correct ending.",
+        "sourceIds": [
+          "capsule-fiction"
+        ],
+        "options": [
+          {
+            "id": "stone",
+            "label": "A smooth stone warmed in one pocket on one long walk.",
+            "weights": [
+              -2,
+              0
+            ]
+          },
+          {
+            "id": "footsteps",
+            "label": "The same footsteps heard at the start and end of one day.",
+            "weights": [
+              -1,
+              0
+            ]
+          },
+          {
+            "id": "returns",
+            "label": "“Across different rooms, a three-note pattern returns with small changes.”",
+            "weights": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "cycles",
+            "label": "A repeating cycle linking ordinary days, seasons, and distant places.",
+            "weights": [
+              2,
+              0
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

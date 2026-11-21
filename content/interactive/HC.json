@@ -13540,5 +13540,352 @@
       }
     ],
     "note": "Original exhibit schematics and fictional catalog cases accompany the documented cyanotype history."
+  },
+  {
+    "id": "HC-37",
+    "slug": "clock-that-carried-a-home-time",
+    "categoryId": "history-culture",
+    "title": "The Clock That Carried a Home Time",
+    "description": "Follow a marine timekeeper’s reference through an invented voyage, then distinguish what an instrument, an artifact record and a reward institution each show.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "carry-reference",
+        "title": "Keep a reference at sea"
+      },
+      {
+        "id": "test-the-record",
+        "title": "Test performance and attribution"
+      }
+    ],
+    "sources": [
+      {
+        "id": "rmg-story",
+        "label": "Royal Museums Greenwich, Harrison’s Clocks and the Longitude Problem",
+        "kind": "reference",
+        "url": "https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem"
+      },
+      {
+        "id": "rmg-h4",
+        "label": "Royal Museums Greenwich collection record, Harrison’s H4 timekeeper (object RMGc-object-79142)",
+        "kind": "reference",
+        "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-79142"
+      },
+      {
+        "id": "original",
+        "label": "Original fictional voyage and exhibit records authored for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "Voyage logs are fictional; the historical framing is not navigation advice.",
+    "questions": [
+      {
+        "id": "hc37-1",
+        "sectionId": "carry-reference",
+        "kind": "choice",
+        "prompt": "Why would a navigator carry a clock still showing the time at a known home port?",
+        "context": "The reference clock keeps its home-port time while the ship travels. Comparing that reading with local astronomical time can help determine how far east or west the ship has traveled. No hour-to-degree calculation is needed here.",
+        "options": [
+          {
+            "id": "compare",
+            "label": "The carried reference can be compared with local astronomical time"
+          },
+          {
+            "id": "direction",
+            "label": "The clock points the ship toward the nearest coast"
+          },
+          {
+            "id": "weather",
+            "label": "The clock measures wind strength during a storm"
+          },
+          {
+            "id": "calendar",
+            "label": "The clock replaces a calendar for naming the date"
+          }
+        ],
+        "correct": "compare",
+        "explanation": "A marine timekeeper preserves reference time during travel. Comparing it with local astronomical time supports longitude finding; it does not point a direction or measure weather.",
+        "sourceIds": [
+          "rmg-story"
+        ]
+      },
+      {
+        "id": "hc37-2",
+        "sectionId": "carry-reference",
+        "kind": "match",
+        "prompt": "Match each shipboard observation to the question it can help investigate.",
+        "context": "Model log: the timekeeper is compared with a trusted clock; the compass bearing is checked against a chart; a lookout uses a telescope to identify a distant light. The entries are fictional.",
+        "left": [
+          {
+            "id": "clock",
+            "label": "The timekeeper differs from the trusted clock"
+          },
+          {
+            "id": "compass",
+            "label": "The recorded bearing differs from the chart"
+          },
+          {
+            "id": "telescope",
+            "label": "The distant light is hard to identify unaided"
+          }
+        ],
+        "right": [
+          {
+            "id": "heading",
+            "label": "Investigate the heading record"
+          },
+          {
+            "id": "identify",
+            "label": "Improve viewing of the object"
+          },
+          {
+            "id": "rate",
+            "label": "Check the timekeeper’s rate"
+          }
+        ],
+        "pairs": {
+          "clock": "rate",
+          "compass": "heading",
+          "telescope": "identify"
+        },
+        "explanation": "Each observation points to a different check: timekeeping, direction, or distant viewing. The compass and telescope do not measure clock rate.",
+        "sourceIds": [
+          "rmg-story",
+          "original"
+        ]
+      },
+      {
+        "id": "hc37-3",
+        "sectionId": "carry-reference",
+        "kind": "choice",
+        "prompt": "At sea, a timekeeper reads 12:04, a trusted clock also reads 12:04, and local astronomical noon occurs later. Which conclusion best fits the model record?",
+        "context": "Model record: the ship carried a clock set to a known port’s time. At one sea observation, it matches an independent clock; the local astronomical observation is recorded separately. All readings are invented.",
+        "options": [
+          {
+            "id": "reference",
+            "label": "The carried clock agrees with the independent reference at that check; local time is a separate comparison"
+          },
+          {
+            "id": "drift",
+            "label": "The timekeeper is inaccurate because local noon differs from its reading"
+          },
+          {
+            "id": "reset",
+            "label": "The clock should be reset to local time before any comparison"
+          },
+          {
+            "id": "bearing",
+            "label": "The reading identifies the ship’s compass direction"
+          }
+        ],
+        "correct": "reference",
+        "explanation": "The simultaneous check supports agreement with the trusted time reference at that moment. Local astronomical time serves a different comparison; the fictional numbers make no historical accuracy claim.",
+        "sourceIds": [
+          "rmg-story",
+          "original"
+        ]
+      },
+      {
+        "id": "hc37-4",
+        "sectionId": "carry-reference",
+        "kind": "choice",
+        "prompt": "What can two endpoint checks show about a timekeeper over a voyage?",
+        "context": "Model test: the same instrument and independent reference are read together before departure and again after the crossing; the ship also records local astronomical observations.",
+        "options": [
+          {
+            "id": "paired",
+            "label": "Whether its offset from the independent reference gained or lost time overall"
+          },
+          {
+            "id": "local",
+            "label": "Treat any difference from local astronomical time as clock drift"
+          },
+          {
+            "id": "weather",
+            "label": "Compare the log with the weather forecast"
+          },
+          {
+            "id": "heading",
+            "label": "Use its face to infer the ship’s heading"
+          }
+        ],
+        "correct": "paired",
+        "explanation": "The two readings show whether the offset changed between endpoints. They cannot reveal whether the rate varied at some point during the voyage or stayed constant between checks.",
+        "sourceIds": [
+          "rmg-story",
+          "original"
+        ]
+      },
+      {
+        "id": "hc37-5",
+        "sectionId": "test-the-record",
+        "kind": "grid",
+        "prompt": "Read the invented log and decide which claims it supports.",
+        "context": "Model log for the fictional Wren: at departure, the timekeeper and trusted reference both read 08:00. Ten days later they read 08:04 and 08:00. A separate line records the compass bearing; no longitude calculation is included.",
+        "cells": [
+          {
+            "id": "before-after",
+            "label": "The two clock readings differ by four minutes at the later check",
+            "options": [
+              {
+                "id": "supported",
+                "label": "Supported by these readings"
+              },
+              {
+                "id": "unsupported",
+                "label": "Not supported by these readings"
+              }
+            ],
+            "correct": "supported"
+          },
+          {
+            "id": "compass",
+            "label": "The four-minute difference alone proves the exact longitude",
+            "options": [
+              {
+                "id": "supported",
+                "label": "Supported by these readings"
+              },
+              {
+                "id": "unsupported",
+                "label": "Not supported by these readings"
+              }
+            ],
+            "correct": "unsupported"
+          },
+          {
+            "id": "longitude",
+            "label": "The compass line supplies a clock-rate measurement",
+            "options": [
+              {
+                "id": "supported",
+                "label": "Supported by these readings"
+              },
+              {
+                "id": "unsupported",
+                "label": "Not supported by these readings"
+              }
+            ],
+            "correct": "unsupported"
+          }
+        ],
+        "explanation": "The model records a four-minute difference at the later check, but gives no local-time calculation for longitude. A compass bearing does not measure the clock’s rate.",
+        "sourceIds": [
+          "rmg-story",
+          "original"
+        ]
+      },
+      {
+        "id": "hc37-6",
+        "sectionId": "test-the-record",
+        "kind": "choice",
+        "prompt": "The keeper accidentally resets the carried clock to local time but records neither the time nor the amount of the reset. What can the archivist still recover from the model log?",
+        "context": "Model record: before the reset, the clock held a known-port reference. Afterward it shows local time, and the log omits when or by how much it was changed.",
+        "options": [
+          {
+            "id": "missing",
+            "label": "The original reference cannot be reconstructed from this log alone"
+          },
+          {
+            "id": "exact",
+            "label": "The exact reset amount is known because the clock now shows local time"
+          },
+          {
+            "id": "longitude",
+            "label": "The reset proves the ship’s longitude"
+          },
+          {
+            "id": "compass",
+            "label": "The reset changed the recorded compass bearing"
+          }
+        ],
+        "correct": "missing",
+        "explanation": "Without the reset time and amount, this fictional record does not preserve enough information to reconstruct the known-port reading. That is a limit of this log, not a universal clock-maintenance rule.",
+        "sourceIds": [
+          "rmg-story",
+          "original"
+        ]
+      },
+      {
+        "id": "hc37-7",
+        "sectionId": "test-the-record",
+        "kind": "match",
+        "prompt": "Match each invented clock log to the offset change it records between checks.",
+        "context": "Fictional comparison logs show each timekeeper’s offset from an independent reference at two endpoints: Log A is 2 minutes ahead before and 4 minutes ahead later; Log B is 3 minutes ahead before and 1 minute ahead later; Log C is at zero offset before and after.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Log A: +2 minutes before, +4 minutes later"
+          },
+          {
+            "id": "b",
+            "label": "Log B: +3 minutes before, +1 minute later"
+          },
+          {
+            "id": "c",
+            "label": "Log C: zero offset before and after"
+          }
+        ],
+        "right": [
+          {
+            "id": "gain",
+            "label": "Gained 2 minutes relative to the reference"
+          },
+          {
+            "id": "loss",
+            "label": "Lost 2 minutes relative to the reference"
+          },
+          {
+            "id": "steady",
+            "label": "No net offset change at the two checks"
+          }
+        ],
+        "pairs": {
+          "a": "gain",
+          "b": "loss",
+          "c": "steady"
+        },
+        "explanation": "A’s positive offset grows by two minutes, B’s shrinks by two, and C’s endpoints match. These endpoint differences do not show whether each rate stayed constant or varied between checks.",
+        "sourceIds": [
+          "rmg-story",
+          "original"
+        ]
+      },
+      {
+        "id": "hc37-8",
+        "sectionId": "test-the-record",
+        "kind": "choice",
+        "prompt": "An exhibit draft makes a precise claim about H4’s accuracy in a named sea trial. Which additional record would best support it?",
+        "context": "The draft’s source folder contains a photograph of H4, a reward announcement, and a log from an original fictional voyage exercise.",
+        "options": [
+          {
+            "id": "trial",
+            "label": "Dated trial observations identifying H4 and readings against an independent reference"
+          },
+          {
+            "id": "photo",
+            "label": "Another photograph showing the H4 artifact"
+          },
+          {
+            "id": "announcement",
+            "label": "A reward announcement naming the challenge"
+          },
+          {
+            "id": "fiction",
+            "label": "More readings from the original fictional voyage log"
+          }
+        ],
+        "correct": "trial",
+        "explanation": "A specific accuracy claim needs dated performance readings tied to H4 and compared with an independent reference. An artifact image, reward notice, or invented voyage exercise does not document that trial measurement.",
+        "sourceIds": [
+          "rmg-story",
+          "rmg-h4",
+          "original"
+        ]
+      }
+    ]
   }
 ]

@@ -14176,5 +14176,403 @@
       }
     ],
     "note": "Original illustrative food models and records."
+  },
+  {
+    "id": "FE-37",
+    "slug": "air-hidden-in-whipped-cream",
+    "categoryId": "food-everyday-life",
+    "title": "The Air Hidden in Whipped Cream",
+    "description": "Read fictional cream-foam models to see how air bubbles, liquid, and fat structure can shape a foam—without confusing it with oil droplets in water.",
+    "kind": "knowledge",
+    "version": 1,
+    "wave": "catchup-2026-11-20",
+    "playMode": "solo",
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "foam-parts",
+        "title": "Find the Foam Parts"
+      },
+      {
+        "id": "read-models",
+        "title": "Use the Model Carefully"
+      }
+    ],
+    "sources": [
+      {
+        "id": "cream-foam-study",
+        "kind": "reference",
+        "label": "Ihara et al. (2019), Food Science and Technology Research: whipped-cream structure and controlled conditions",
+        "url": "https://www.jstage.jst.go.jp/article/fstr/25/3/25_391/_html/-char/en"
+      },
+      {
+        "id": "cream-microstructure",
+        "kind": "reference",
+        "label": "Food Microstructure study: fat and protein structure around air in whipped cream",
+        "url": "https://digitalcommons.usu.edu/foodmicrostructure/vol5/iss2/12/"
+      },
+      {
+        "id": "original-foam-cards",
+        "kind": "original",
+        "label": "Original fictional foam cards and screen-only records authored for this quiz; not experimental measurements or a recipe."
+      }
+    ],
+    "note": "This quiz uses text-described original models only. It gives no recipe or food-handling directions and makes no health or diet claims.",
+    "questions": [
+      {
+        "id": "fe37-1",
+        "sectionId": "foam-parts",
+        "kind": "choice",
+        "prompt": "A fictional cream portion takes up more space after air is worked into it. Which description best fits the change?",
+        "context": "Model record: after aeration, small gas spaces appear throughout a liquid-based cream structure, which occupies more space. No mass or volume measurements are provided.",
+        "explanation": "A foam contains gas bubbles held within a liquid-based structure, so added air can increase the space it occupies. That does not mean cream matter appeared from nowhere.",
+        "sourceIds": [
+          "original-foam-cards",
+          "cream-foam-study"
+        ],
+        "options": [
+          {
+            "id": "bubbles",
+            "label": "Air bubbles are held within the cream's liquid-based structure."
+          },
+          {
+            "id": "new-liquid",
+            "label": "The process creates extra cream liquid from nothing."
+          },
+          {
+            "id": "oil-drops",
+            "label": "Oil droplets dispersed through water define every foam."
+          },
+          {
+            "id": "empty",
+            "label": "The cream disappears and leaves a hollow shell."
+          }
+        ],
+        "correct": "bubbles"
+      },
+      {
+        "id": "fe37-2",
+        "sectionId": "foam-parts",
+        "kind": "match",
+        "prompt": "Match each model observation to the inference it can support about the cream structure.",
+        "context": "Model observations: air spaces are surrounded by the water-based phase; fat globules show more contacts near bubbles at a later whipping stage; a protein signal is recorded at an air–water boundary. The records are simplified cards, not paper data.",
+        "explanation": "The observations distinguish gas from the surrounding liquid, describe a stage-dependent change in fat structure, and place proteins at air–water interfaces as reported in the microstructure study. They do not make fat and protein interchangeable or establish one universal stabilizing role.",
+        "sourceIds": [
+          "original-foam-cards",
+          "cream-foam-study",
+          "cream-microstructure"
+        ],
+        "left": [
+          {
+            "id": "air",
+            "label": "Air spaces surrounded by the water-based phase"
+          },
+          {
+            "id": "fat",
+            "label": "Fat-globule contacts differ between whipping stages"
+          },
+          {
+            "id": "protein",
+            "label": "Protein signal at an air–water boundary"
+          }
+        ],
+        "right": [
+          {
+            "id": "gas",
+            "label": "Air is the dispersed gas phase"
+          },
+          {
+            "id": "liquid",
+            "label": "The water-based phase surrounds the gas spaces"
+          },
+          {
+            "id": "support",
+            "label": "Fat’s structural role can change during whipping"
+          },
+          {
+            "id": "interface",
+            "label": "Proteins are reported adsorbed at air–water interfaces"
+          }
+        ],
+        "pairs": {
+          "air": "gas",
+          "fat": "support",
+          "protein": "interface"
+        }
+      },
+      {
+        "id": "fe37-3",
+        "sectionId": "foam-parts",
+        "kind": "grid",
+        "prompt": "A reviewer checks three explanations of an aerated food model. Mark the reading each record supports.",
+        "context": "Model records: A shows round inclusions but does not identify their contents. B identifies air spaces surrounded by a liquid phase. C identifies liquid oil droplets dispersed in water. A student claims all three records show the same structure because each has rounded regions.",
+        "explanation": "Shape alone does not identify a dispersed phase. The phase identities distinguish gas in liquid-based structure from liquid droplets in another liquid; record A needs more information before classification.",
+        "sourceIds": [
+          "original-foam-cards",
+          "cream-foam-study",
+          "cream-microstructure"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "Record A: rounded inclusions; contents not identified",
+            "options": [
+              {
+                "id": "foam",
+                "label": "Enough evidence to call it a foam"
+              },
+              {
+                "id": "emulsion",
+                "label": "Enough evidence to call it an emulsion"
+              },
+              {
+                "id": "need-phase",
+                "label": "Need to identify the phases first"
+              }
+            ],
+            "correct": "need-phase"
+          },
+          {
+            "id": "b",
+            "label": "Record B: air spaces in a liquid-based phase",
+            "options": [
+              {
+                "id": "foam",
+                "label": "Gas dispersed in a liquid-based structure"
+              },
+              {
+                "id": "emulsion",
+                "label": "One liquid dispersed in another"
+              },
+              {
+                "id": "need-phase",
+                "label": "The phases are still unknown"
+              }
+            ],
+            "correct": "foam"
+          },
+          {
+            "id": "c",
+            "label": "Record C: oil droplets dispersed in water",
+            "options": [
+              {
+                "id": "foam",
+                "label": "Gas dispersed in a liquid-based structure"
+              },
+              {
+                "id": "emulsion",
+                "label": "One liquid dispersed in another"
+              },
+              {
+                "id": "need-phase",
+                "label": "The phases are still unknown"
+              }
+            ],
+            "correct": "emulsion"
+          }
+        ]
+      },
+      {
+        "id": "fe37-4",
+        "sectionId": "foam-parts",
+        "kind": "choice",
+        "prompt": "A draft says, ‘Protein and fat are one interchangeable support material at every stage of whipping.’ Which revision best fits the cited descriptions?",
+        "context": "The studies describe proteins adsorbed at air–water interfaces and a changing role for fat during whipping. A fictional model card must keep those observations distinct.",
+        "explanation": "The protein observation concerns adsorption at air–water interfaces; the fat description changes with whipping stage. The evidence does not support combining them into one fixed, interchangeable mechanism.",
+        "sourceIds": [
+          "original-foam-cards",
+          "cream-foam-study",
+          "cream-microstructure"
+        ],
+        "options": [
+          {
+            "id": "separate",
+            "label": "Show proteins at air–water interfaces and describe fat’s changing role by whipping stage."
+          },
+          {
+            "id": "same",
+            "label": "Treat fat and protein as the same material with one fixed role throughout."
+          },
+          {
+            "id": "protein-only",
+            "label": "Claim proteins alone guarantee stable bubbles at every stage."
+          },
+          {
+            "id": "oil-only",
+            "label": "Replace the air spaces with oil droplets in water."
+          }
+        ],
+        "correct": "separate"
+      },
+      {
+        "id": "fe37-5",
+        "sectionId": "read-models",
+        "kind": "choice",
+        "prompt": "Two equal-mass fictional portions occupy different volumes after one is aerated. What is the most careful interpretation?",
+        "context": "Model A is described as less aerated; Model B has more small gas spaces. The portions begin with equal cream mass, but no density or exact bubble count is given.",
+        "explanation": "The added air spaces can change the volume occupied without creating cream mass. The record does not supply enough measurements to calculate density or an exact air fraction.",
+        "sourceIds": [
+          "original-foam-cards",
+          "cream-foam-study"
+        ],
+        "options": [
+          {
+            "id": "air-volume",
+            "label": "More air spaces can make the portion occupy more volume."
+          },
+          {
+            "id": "mass-created",
+            "label": "The larger volume proves that extra cream mass appeared."
+          },
+          {
+            "id": "exact-density",
+            "label": "The exact density is known from volume alone."
+          },
+          {
+            "id": "all-liquid",
+            "label": "The gas spaces must be liquid droplets."
+          }
+        ],
+        "correct": "air-volume"
+      },
+      {
+        "id": "fe37-6",
+        "sectionId": "read-models",
+        "kind": "choice",
+        "prompt": "A fictional foam model shows fewer, larger bubbles over time. Which inference best fits the paired airspace estimate?",
+        "context": "Model time series: the later record counts fewer bubbles, each described as larger, while the estimated total airspace remains unchanged. These are simplified fictional observations, not measurements from a food sample.",
+        "explanation": "The pattern is consistent with bubbles merging or redistributing while the estimated total airspace stays similar; it does not fit a simple account in which all gas spaces disappear. The estimate cannot establish exact gas transfer or prove that no gas escaped.",
+        "sourceIds": [
+          "original-foam-cards",
+          "cream-foam-study",
+          "cream-microstructure"
+        ],
+        "options": [
+          {
+            "id": "merging",
+            "label": "The pattern is consistent with bubbles merging or redistributing, not all gas spaces disappearing."
+          },
+          {
+            "id": "all-gas-left",
+            "label": "All gas escaped even though the estimated total airspace stayed unchanged."
+          },
+          {
+            "id": "exact-gas",
+            "label": "The records give the exact mass of gas that moved."
+          },
+          {
+            "id": "liquid-drops",
+            "label": "The larger bubbles prove the model is a liquid-droplet emulsion."
+          }
+        ],
+        "correct": "merging"
+      },
+      {
+        "id": "fe37-7",
+        "sectionId": "read-models",
+        "kind": "hotspot",
+        "prompt": "Which station record contradicts the claim that this model’s volume increases at every longer whipping time?",
+        "context": "Neutral fictional station cards list raw time-series values: Station A, 1 min—100 mL, 2 min—125 mL, 3 min—150 mL; Station B, 1 min—100 mL, 2 min—145 mL, 3 min—130 mL; Station C, 1 min—100 mL, 2 min—110 mL, 3 min—120 mL; Station D has only one reading, 2 min—140 mL. These invented values are not a recipe or food experiment.",
+        "explanation": "Station B rises and then falls across the recorded times, contradicting a claim that volume increases at every longer measured time in this model. It does not establish a universal optimum, recipe, or outcome for real whipped cream.",
+        "sourceIds": [
+          "original-foam-cards",
+          "cream-foam-study",
+          "cream-microstructure"
+        ],
+        "diagram": {
+          "title": "Fictional foam-structure cards",
+          "description": "Four large neutral station cards summarize model observations; they are not microscope images or illustrations.",
+          "zones": [
+            {
+              "id": "station-a",
+              "label": "Station A",
+              "x": 2,
+              "y": 18,
+              "width": 22,
+              "height": 64,
+              "color": "#d1e8d5"
+            },
+            {
+              "id": "station-b",
+              "label": "Station B",
+              "x": 27,
+              "y": 18,
+              "width": 22,
+              "height": 64,
+              "color": "#d6e2ef"
+            },
+            {
+              "id": "station-c",
+              "label": "Station C",
+              "x": 52,
+              "y": 18,
+              "width": 22,
+              "height": 64,
+              "color": "#f1dec6"
+            },
+            {
+              "id": "station-d",
+              "label": "Station D",
+              "x": 77,
+              "y": 18,
+              "width": 21,
+              "height": 64,
+              "color": "#ead5df"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "station-a",
+            "label": "Station A"
+          },
+          {
+            "id": "station-b",
+            "label": "Station B"
+          },
+          {
+            "id": "station-c",
+            "label": "Station C"
+          },
+          {
+            "id": "station-d",
+            "label": "Station D"
+          }
+        ],
+        "correct": "station-b"
+      },
+      {
+        "id": "fe37-8",
+        "sectionId": "read-models",
+        "kind": "choice",
+        "prompt": "A new fictional foam comparison asks whether mixer pattern changes how long a structure holds. Which evidence would make that comparison most useful?",
+        "context": "The two model cards currently differ in starting cream portion, air introduced, and time before the structure is described. No result is supplied. The question asks what evidence would separate a mixer-pattern comparison from those other differences.",
+        "explanation": "Matching the starting portion and amount of air, recording the same wait time and hold outcome, and changing only the mixer pattern makes the comparison clearer. One imagined result would not prove that faster mixing is always better.",
+        "sourceIds": [
+          "original-foam-cards",
+          "cream-foam-study",
+          "cream-microstructure"
+        ],
+        "options": [
+          {
+            "id": "controlled",
+            "label": "Match starting portion, air introduced, and wait time; vary only the mixer pattern and record the same hold measure."
+          },
+          {
+            "id": "faster",
+            "label": "Assume the faster mixer always creates the most stable foam."
+          },
+          {
+            "id": "different",
+            "label": "Use different portions and different wait times so the records look varied."
+          },
+          {
+            "id": "one-view",
+            "label": "Choose whichever card looks fluffiest without noting its conditions."
+          }
+        ],
+        "correct": "controlled"
+      }
+    ]
   }
 ]

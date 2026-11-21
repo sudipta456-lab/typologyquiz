@@ -13136,5 +13136,386 @@
         "url": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins"
       }
     ]
+  },
+  {
+    "id": "GT-35",
+    "slug": "subway-map-that-stretches-the-city",
+    "categoryId": "geography-travel",
+    "title": "The Subway Map That Stretches the City",
+    "description": "Use a fictional metro schematic to read stops and transfers, then consult a separate street record for questions about distance on foot.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "read-the-schematic",
+        "title": "What the line map keeps"
+      },
+      {
+        "id": "map-the-real-walk",
+        "title": "What needs a street record"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original",
+        "label": "Original fictional Elm Quay map and travel records authored for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "Model records are fictional. The schematic preserves listed stops, line order and marked transfers, not scale or walking distance.",
+    "questions": [
+      {
+        "id": "gt35-1",
+        "sectionId": "read-the-schematic",
+        "kind": "choice",
+        "prompt": "A rider needs the next stop on a line and the place to change trains. Which map details should they use?",
+        "context": "Model legend: stop order is listed, and a white T inside a square marks a transfer. The drawing is not to scale; bends and spacing are adjusted for readability.",
+        "options": [
+          {
+            "id": "connections",
+            "label": "The listed stop sequence and a transfer mark from the legend"
+          },
+          {
+            "id": "distance",
+            "label": "The exact walking distance between any two drawn station dots"
+          },
+          {
+            "id": "angles",
+            "label": "The exact compass direction of every track segment"
+          },
+          {
+            "id": "time",
+            "label": "The current travel time between stations"
+          }
+        ],
+        "correct": "connections",
+        "explanation": "Stop order and the marked T answer the rider’s transit questions. The schematic’s layout does not give scale, walking distance, or current travel time.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "gt35-2",
+        "sectionId": "read-the-schematic",
+        "kind": "match",
+        "prompt": "Match each route-planning uncertainty to the most useful check before publishing a guide.",
+        "context": "Model records: two drawn lines cross without a T; a pedestrian path’s length is disputed; a bridge notice is dated last year and says it opened then.",
+        "left": [
+          {
+            "id": "crossing",
+            "label": "A line crossing might be a train interchange"
+          },
+          {
+            "id": "length",
+            "label": "The guide needs a defensible walking distance"
+          },
+          {
+            "id": "bridge",
+            "label": "The guide must say whether the bridge is usable now"
+          }
+        ],
+        "right": [
+          {
+            "id": "measure",
+            "label": "Consult the measured street-route record"
+          },
+          {
+            "id": "current",
+            "label": "Find a current access record"
+          },
+          {
+            "id": "legend",
+            "label": "Check for the legend’s marked transfer"
+          }
+        ],
+        "pairs": {
+          "crossing": "legend",
+          "length": "measure",
+          "bridge": "current"
+        },
+        "explanation": "The transfer symbol, measured street record, and current access record answer distinct uncertainties. A crossing, a drawn gap, or an old opening notice cannot substitute for those checks.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "gt35-3",
+        "sectionId": "read-the-schematic",
+        "kind": "grid",
+        "prompt": "Predict what each proposed redraw changes, using the legend and the route record.",
+        "context": "Model legend: stop sequence is preserved; only a T in a square marks transfer. The layout is unscaled. A redraw moves dots closer, erases a T at Dock, or changes Pine–Dock order.",
+        "cells": [
+          {
+            "id": "spacing",
+            "label": "The dots are drawn closer, but listed line sequence and T marks stay the same",
+            "options": [
+              {
+                "id": "layout",
+                "label": "Page layout changes; recorded connections do not"
+              },
+              {
+                "id": "transfer",
+                "label": "A transfer is removed from the record"
+              },
+              {
+                "id": "order",
+                "label": "Stop order changes"
+              }
+            ],
+            "correct": "layout"
+          },
+          {
+            "id": "symbol",
+            "label": "The T at Dock is erased, while both line sequences remain",
+            "options": [
+              {
+                "id": "layout",
+                "label": "Page layout changes; recorded connections do not"
+              },
+              {
+                "id": "transfer",
+                "label": "The map no longer marks that transfer"
+              },
+              {
+                "id": "order",
+                "label": "Stop order changes"
+              }
+            ],
+            "correct": "transfer"
+          },
+          {
+            "id": "sequence",
+            "label": "Pine is moved after Dock in the listed Green Line sequence",
+            "options": [
+              {
+                "id": "layout",
+                "label": "Page layout changes; recorded connections do not"
+              },
+              {
+                "id": "transfer",
+                "label": "The map no longer marks that transfer"
+              },
+              {
+                "id": "order",
+                "label": "Stop order changes"
+              }
+            ],
+            "correct": "order"
+          }
+        ],
+        "explanation": "Only the first redraw changes appearance alone. Erasing the T changes transfer information, while changing the list changes stop order.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "gt35-4",
+        "sectionId": "read-the-schematic",
+        "kind": "choice",
+        "prompt": "Which pedestrian route is shorter according to the city-walk record?",
+        "context": "Model street record: Quay–Market–Glasshouse totals 640 m; Quay–Pier–Glasshouse totals 510 m. The schematic draws Quay closer to Market than to Pier, but it is not to scale.",
+        "options": [
+          {
+            "id": "pier",
+            "label": "Via Pier, at 510 m"
+          },
+          {
+            "id": "market",
+            "label": "Via Market, because its dot is drawn closer"
+          },
+          {
+            "id": "same",
+            "label": "The routes are equal because both use two street segments"
+          },
+          {
+            "id": "unknown",
+            "label": "The schematic’s line angle decides the walking distance"
+          }
+        ],
+        "correct": "pier",
+        "explanation": "The measured records show 510 m via Pier and 640 m via Market. Page spacing and segment count do not replace the recorded totals.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "gt35-5",
+        "sectionId": "map-the-real-walk",
+        "kind": "hotspot",
+        "prompt": "Select the redraw that preserves the recorded line sequences and transfer while changing only page spacing.",
+        "context": "Model route record: Amber is Oak–Quay–Harbor; Blue is Pine–Quay–Museum; Quay has a T. Candidate A lists Amber Oak–Quay–Harbor and Blue Pine–Museum, with T at Quay. Candidate B lists both original sequences, shows T at Quay, and spaces the dots farther apart. Candidate C adds Oak–Museum to Amber. Candidate D lists both original sequences but has no T at Quay.",
+        "diagram": {
+          "title": "Candidate schematic redraw cards",
+          "description": "Four selectable labeled rectangles represent candidate-description cards. They do not depict actual tracks or a drawn metro map; all connection facts are in the context.",
+          "zones": [
+            {
+              "id": "a",
+              "label": "Candidate A",
+              "x": 2,
+              "y": 5,
+              "width": 46,
+              "height": 42,
+              "color": "#e8e2d6"
+            },
+            {
+              "id": "b",
+              "label": "Candidate B",
+              "x": 52,
+              "y": 5,
+              "width": 46,
+              "height": 42,
+              "color": "#dce8e1"
+            },
+            {
+              "id": "c",
+              "label": "Candidate C",
+              "x": 2,
+              "y": 53,
+              "width": 46,
+              "height": 42,
+              "color": "#e6e0eb"
+            },
+            {
+              "id": "d",
+              "label": "Candidate D",
+              "x": 52,
+              "y": 53,
+              "width": 46,
+              "height": 42,
+              "color": "#e9e0d9"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "a",
+            "label": "Candidate A"
+          },
+          {
+            "id": "b",
+            "label": "Candidate B"
+          },
+          {
+            "id": "c",
+            "label": "Candidate C"
+          },
+          {
+            "id": "d",
+            "label": "Candidate D"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Candidate B preserves both written sequences and the T while changing only dot spacing. The other records alter a stop sequence, add a connection, or remove the transfer mark.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "gt35-6",
+        "sectionId": "map-the-real-walk",
+        "kind": "match",
+        "prompt": "Use the line order and transfer mark to match each trip with its instruction.",
+        "context": "Model route record: Amber Line order is Aster → Quay → Harbor; Blue Line order is Pine → Quay → Museum. Quay alone has a T transfer mark.",
+        "left": [
+          {
+            "id": "pine-harbor",
+            "label": "Travel from Pine to Harbor"
+          },
+          {
+            "id": "aster-harbor",
+            "label": "Travel from Aster to Harbor"
+          },
+          {
+            "id": "harbor-aster",
+            "label": "Travel from Harbor to Aster"
+          }
+        ],
+        "right": [
+          {
+            "id": "change",
+            "label": "Change at Quay from Blue to Amber toward Harbor"
+          },
+          {
+            "id": "stay",
+            "label": "Stay on Amber through Quay toward Harbor"
+          },
+          {
+            "id": "direction",
+            "label": "Follow Amber toward Aster"
+          }
+        ],
+        "pairs": {
+          "pine-harbor": "change",
+          "aster-harbor": "stay",
+          "harbor-aster": "direction"
+        },
+        "explanation": "The line order puts Pine on Blue and Harbor on Amber, so that trip uses the marked Quay transfer. The other trips stay on Amber; their direction determines which way to travel through Quay.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "gt35-7",
+        "sectionId": "map-the-real-walk",
+        "kind": "choice",
+        "prompt": "Two dated records disagree about a footbridge in a guide being prepared now. What is the best next check?",
+        "context": "Model records: a 2024 notice says the footbridge opened; a 2025 notice reports a temporary closure but gives no reopening date. The guide is being prepared in 2026.",
+        "options": [
+          {
+            "id": "current-record",
+            "label": "Check a current access record or contact that resolves the closure status"
+          },
+          {
+            "id": "opening",
+            "label": "Treat the older opening notice as proof it remains open"
+          },
+          {
+            "id": "map",
+            "label": "Infer access from the schematic’s line angle"
+          },
+          {
+            "id": "distance",
+            "label": "Measure the drawn gap between station dots"
+          }
+        ],
+        "correct": "current-record",
+        "explanation": "The later notice leaves reopening unresolved, so a current access check is needed. The older opening and schematic geometry cannot settle current status.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "gt35-8",
+        "sectionId": "map-the-real-walk",
+        "kind": "choice",
+        "prompt": "Which rail route meets a rider’s requirement for step-free boarding, transfer and arrival?",
+        "context": "New Elm Quay network: Amber is Harbor–Quay–Oak; Blue is Pine–Quay–Museum–Park; Green is Harbor–Civic–Park. Transfers are marked at Quay and Park. A current access board says Harbor has step-free access from its entrance to boarding, Museum has step-free access from alighting to its exit, Park has a step-free transfer, and Quay’s transfer currently requires stairs. All listed services are running in both directions. Staying aboard through Civic needs no transfer. The schematic has no distance scale.",
+        "options": [
+          {
+            "id": "park",
+            "label": "Green from Harbor through Civic to Park, then Blue to Museum"
+          },
+          {
+            "id": "quay",
+            "label": "Amber to Quay, then Blue to Museum because it uses fewer stops"
+          },
+          {
+            "id": "walk",
+            "label": "Walk directly between the two station dots using their schematic spacing"
+          },
+          {
+            "id": "none",
+            "label": "No listed rail route can meet the requirement because Quay has stairs"
+          }
+        ],
+        "correct": "park",
+        "explanation": "The Green route reaches Park without changing trains; Park’s step-free transfer connects to Blue for Museum. The shorter route via Quay requires the stairs the rider must avoid. A connection schematic and current access notes answer different parts of this planning problem.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
   }
 ]

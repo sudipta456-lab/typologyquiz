@@ -13502,5 +13502,389 @@
       }
     ],
     "note": "Original workshop fiction. Each player completes all eight tasks before handing the device to the next player."
+  },
+  {
+    "id": "FS-38",
+    "slug": "two-maps-one-fossil-find",
+    "categoryId": "friends-social-play",
+    "title": "Two Maps, One Fossil Find",
+    "description": "Align two fictional site maps with different orientations, match their landmarks, and build a careful shared description of a coded fossil find.",
+    "kind": "cooperative",
+    "version": 1,
+    "wave": "catchup-2026-11-20",
+    "playMode": "pass-and-play",
+    "minutes": 7,
+    "sections": [
+      {
+        "id": "align-maps",
+        "title": "Align the Two Maps"
+      },
+      {
+        "id": "combine-clues",
+        "title": "Combine the Site Clues"
+      }
+    ],
+    "sources": [
+      {
+        "id": "original-dig-model",
+        "kind": "original",
+        "label": "Original fictional dig-site maps, landmarks, grid rules, boundaries, and fossil tokens authored for this quiz; no real site or geological chronology is represented."
+      }
+    ],
+    "note": "Same-device pass-and-play: each player completes all eight tasks, then hands over the device. Both players see all clues; there are no hidden roles or per-task turns. Fossil tokens and maps are invented puzzle symbols, not real fossil records or claims about age.",
+    "questions": [
+      {
+        "id": "fs38-1",
+        "sectionId": "align-maps",
+        "kind": "choice",
+        "prompt": "On Map A, where is the spiral token relative to Lantern Boulder?",
+        "context": "Model record: Map A’s north arrow points up; rows increase north to south and columns A–D west to east. Lantern Boulder is at B2, the spiral token at B3, and North Gate at B1.",
+        "explanation": "The marks share column B, while the row number increases from 2 to 3 toward the south on Map A. That gives a direction but not a real-world distance or fossil identity.",
+        "sourceIds": [
+          "original-dig-model"
+        ],
+        "options": [
+          {
+            "id": "south",
+            "label": "One grid cell south"
+          },
+          {
+            "id": "north",
+            "label": "One grid cell north"
+          },
+          {
+            "id": "east",
+            "label": "One grid cell east"
+          },
+          {
+            "id": "same",
+            "label": "In the same grid cell"
+          }
+        ],
+        "correct": "south"
+      },
+      {
+        "id": "fs38-2",
+        "sectionId": "align-maps",
+        "kind": "match",
+        "prompt": "Read Map B using its own north arrow, then match each landmark pair to the shared-site relationship.",
+        "context": "Model record: Map B’s north arrow points right; rows increase west to east and columns increase south to north. Boulder is row 2, column 3; North Gate row 2, column 4; spiral row 2, column 2. Map A places Gate at B1, Boulder at B2, spiral at B3, with north up.",
+        "explanation": "Translate each grid using its own compass key: the shared Gate and Boulder positions let the two records be compared even though page directions differ. The spiral’s smaller Map B column must be interpreted using B’s column rule, not page-left/right alone.",
+        "sourceIds": [
+          "original-dig-model"
+        ],
+        "left": [
+          {
+            "id": "gate-boulder",
+            "label": "North Gate compared with Lantern Boulder"
+          },
+          {
+            "id": "spiral-boulder",
+            "label": "Spiral token compared with Lantern Boulder"
+          },
+          {
+            "id": "map-orientation",
+            "label": "Map B’s page-right direction"
+          }
+        ],
+        "right": [
+          {
+            "id": "north-of",
+            "label": "North of the landmark"
+          },
+          {
+            "id": "south-of",
+            "label": "South of the landmark"
+          },
+          {
+            "id": "north",
+            "label": "North on the ground"
+          }
+        ],
+        "pairs": {
+          "gate-boulder": "north-of",
+          "spiral-boulder": "south-of",
+          "map-orientation": "north"
+        }
+      },
+      {
+        "id": "fs38-3",
+        "sectionId": "align-maps",
+        "kind": "grid",
+        "prompt": "Check each team statement against both maps and their direction keys.",
+        "context": "Model record: Map A points north up; Boulder is B2, Gate B1, and spiral B3. Map B points north right; rows increase west to east, columns south to north; Boulder is row 2/column 3, Gate row 2/column 4, spiral row 2/column 2.",
+        "explanation": "The shared landmarks allow the maps to be aligned. Reading each map’s own row and column directions makes the spiral’s position comparable; page-right cannot be treated as north on both maps.",
+        "sourceIds": [
+          "original-dig-model"
+        ],
+        "cells": [
+          {
+            "id": "a",
+            "label": "Map A spiral is south of the shared Boulder",
+            "options": [
+              {
+                "id": "aligned",
+                "label": "Agrees with Map A’s key"
+              },
+              {
+                "id": "wrong",
+                "label": "Conflicts with Map A’s key"
+              }
+            ],
+            "correct": "aligned"
+          },
+          {
+            "id": "b",
+            "label": "Map B spiral has the same relative position as Map A’s",
+            "options": [
+              {
+                "id": "aligned",
+                "label": "Agrees after translating Map B’s columns"
+              },
+              {
+                "id": "wrong",
+                "label": "Conflicts after translating Map B’s columns"
+              }
+            ],
+            "correct": "aligned"
+          },
+          {
+            "id": "gate",
+            "label": "The Gate is north of Boulder on both maps",
+            "options": [
+              {
+                "id": "both",
+                "label": "The translated records agree"
+              },
+              {
+                "id": "different",
+                "label": "The translated records disagree"
+              }
+            ],
+            "correct": "both"
+          }
+        ]
+      },
+      {
+        "id": "fs38-4",
+        "sectionId": "align-maps",
+        "kind": "choice",
+        "prompt": "A note says the spiral token is ‘near’ Lantern Boulder, but its map has no scale bar. What is the most useful clarification before comparing distances?",
+        "context": "Map A records the spiral at B3 and the Boulder at B2, one grid row apart. Map B uses a different orientation and does not state whether one cell represents the same ground distance as Map A. Both maps point north clearly.",
+        "explanation": "The orientation and relative cell positions allow a directional comparison, but physical distance needs scale information. Asking whether the two grids use the same cell scale resolves the ambiguity without guessing from page size.",
+        "sourceIds": [
+          "original-dig-model"
+        ],
+        "options": [
+          {
+            "id": "scale",
+            "label": "Do both maps use the same real-distance scale per grid cell?"
+          },
+          {
+            "id": "token-age",
+            "label": "Which token is older than the other?"
+          },
+          {
+            "id": "page-size",
+            "label": "Is the paper for both maps the same size?"
+          },
+          {
+            "id": "color",
+            "label": "What color should the spiral token be?"
+          }
+        ],
+        "correct": "scale"
+      },
+      {
+        "id": "fs38-5",
+        "sectionId": "combine-clues",
+        "kind": "grid",
+        "prompt": "Use both maps to locate each token on Map A, then check it against the model boundary.",
+        "context": "Map A has north up, columns A–D west to east, rows 1–4 north to south; the access card covers A1–C3. Map B’s north arrow points right; rows increase west to east and columns south to north. Its spiral is row 2/column 2, triangle row 3/column 2, and dot row 4/column 3. Map A’s Gate is B1 and Boulder B2; Map B records Gate row 2/column 4 and Boulder row 2/column 3.",
+        "explanation": "The shared Gate and Boulder anchor the Map B directions to Map A. Translate each token’s Map B coordinates before checking the A1–C3 boundary; location and access are separate decisions.",
+        "sourceIds": [
+          "original-dig-model"
+        ],
+        "cells": [
+          {
+            "id": "spiral",
+            "label": "Spiral: Map B row 2/column 2",
+            "options": [
+              {
+                "id": "inside",
+                "label": "Inside the Map A boundary"
+              },
+              {
+                "id": "outside",
+                "label": "Outside the Map A boundary"
+              }
+            ],
+            "correct": "inside"
+          },
+          {
+            "id": "triangle",
+            "label": "Triangle: Map B row 3/column 2",
+            "options": [
+              {
+                "id": "inside",
+                "label": "Inside the Map A boundary"
+              },
+              {
+                "id": "outside",
+                "label": "Outside the Map A boundary"
+              }
+            ],
+            "correct": "inside"
+          },
+          {
+            "id": "dot",
+            "label": "Dot: Map B row 4/column 3",
+            "options": [
+              {
+                "id": "inside",
+                "label": "Inside the Map A boundary"
+              },
+              {
+                "id": "outside",
+                "label": "Outside the Map A boundary"
+              }
+            ],
+            "correct": "outside"
+          }
+        ]
+      },
+      {
+        "id": "fs38-6",
+        "sectionId": "combine-clues",
+        "kind": "choice",
+        "prompt": "Map A labels one object ‘Lantern Boulder’; Map B marks the same anchored location ‘L-2.’ Which additional clue best supports matching those different labels?",
+        "context": "Model record: Map A points north up and labels Boulder B2, Gate B1. Map B points north right, with rows west-to-east and columns south-to-north; label L-2 is row 2/column 3 and Gate row 2/column 4. Both grids use one stated scale.",
+        "explanation": "The shared Gate and the different compass keys let the relative positions be compared. Matching the anchor relationship supports treating the labels as the same modeled site feature; similar names alone would not.",
+        "sourceIds": [
+          "original-dig-model"
+        ],
+        "options": [
+          {
+            "id": "landmark",
+            "label": "Use the shared North Gate and map orientation to check the relative location."
+          },
+          {
+            "id": "same-word",
+            "label": "Assume the labels match because both mention a lantern."
+          },
+          {
+            "id": "token-shape",
+            "label": "Treat the fossil token shape as proof of the boulder's identity."
+          },
+          {
+            "id": "paper",
+            "label": "Compare which map is printed on the larger sheet."
+          }
+        ],
+        "correct": "landmark"
+      },
+      {
+        "id": "fs38-7",
+        "sectionId": "combine-clues",
+        "kind": "hotspot",
+        "prompt": "Which plan agrees with both maps after alignment and also falls within the model access boundary?",
+        "context": "New round at South Site: this is a separate map exercise; the earlier site’s token coordinates do not apply. Model record: Map A points north up; columns A–D run west to east and rows 1–4 north to south. Lantern Boulder is B2. Map B’s north arrow points right; rows increase west to east and columns increase south to north. Boulder is row 2/column 3 and spiral is row 3/column 2. The access boundary covers Map A columns A–C and rows 1–3. Candidate locations on Map A: Plan A proposes C3; Plan B proposes A3; Plan C proposes C1; Plan D proposes D4. Rectangles are candidate cards, not maps.",
+        "explanation": "Align the Map B directions with the shared Boulder at B2: row 3 maps to Map A column C, and column 2 maps to row 3, so the spiral maps to C3, southeast of Boulder and inside the stated boundary. Only that candidate fits both the translated coordinate and access rule.",
+        "sourceIds": [
+          "original-dig-model"
+        ],
+        "diagram": {
+          "title": "Fictional aligned-site candidates",
+          "description": "Four large neutral plan cards correspond to candidate locations in the model record; no map image is rendered.",
+          "zones": [
+            {
+              "id": "a",
+              "label": "Plan A",
+              "x": 3,
+              "y": 18,
+              "width": 22,
+              "height": 64,
+              "color": "#cfe8d5"
+            },
+            {
+              "id": "b",
+              "label": "Plan B",
+              "x": 27,
+              "y": 18,
+              "width": 22,
+              "height": 64,
+              "color": "#d6e2f0"
+            },
+            {
+              "id": "c",
+              "label": "Plan C",
+              "x": 51,
+              "y": 18,
+              "width": 22,
+              "height": 64,
+              "color": "#f0d9c8"
+            },
+            {
+              "id": "d",
+              "label": "Plan D",
+              "x": 75,
+              "y": 18,
+              "width": 22,
+              "height": 64,
+              "color": "#ead5df"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "a",
+            "label": "Plan A"
+          },
+          {
+            "id": "b",
+            "label": "Plan B"
+          },
+          {
+            "id": "c",
+            "label": "Plan C"
+          },
+          {
+            "id": "d",
+            "label": "Plan D"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "fs38-8",
+        "sectionId": "combine-clues",
+        "kind": "choice",
+        "prompt": "Which final team report combines the spiral and new triangle locations with the access boundary, without claiming fossil ages?",
+        "context": "Continue the South Site round introduced in task 7; these token coordinates belong to that separate site. Model record: Map A points north up, with columns A–D west to east and rows 1–4 north to south; the Boulder is B2. Map B’s north arrow points right; rows increase west to east and columns increase south to north. The Boulder is row 2/column 3, the spiral row 3/column 2, and a newly recorded triangle row 1/column 1. The boundary covers Map A columns A–C and rows 1–3. No ground-distance scale or age data are supplied.",
+        "explanation": "Aligning both Map B coordinates to the shared Boulder places the spiral at C3, inside the boundary, and the triangle at A4, outside it. The report stays within modeled position and access; the invented symbols provide no fossil-age evidence.",
+        "sourceIds": [
+          "original-dig-model"
+        ],
+        "options": [
+          {
+            "id": "careful",
+            "label": "The spiral maps to C3 inside the boundary; the triangle maps to A4 outside it. The symbols do not show either fossil’s age."
+          },
+          {
+            "id": "triangle-inside",
+            "label": "The spiral maps to C3 and the triangle to A4, but both are inside the boundary."
+          },
+          {
+            "id": "swap",
+            "label": "The spiral maps to A4 outside and the triangle to C3 inside the boundary."
+          },
+          {
+            "id": "age-claim",
+            "label": "The spiral is older than the triangle because it appears farther south."
+          }
+        ],
+        "correct": "careful"
+      }
+    ]
   }
 ]

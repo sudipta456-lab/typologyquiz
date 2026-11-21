@@ -12592,5 +12592,395 @@
         "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
       }
     ]
+  },
+  {
+    "id": "SG-35",
+    "slug": "jump-shots-hidden-arc",
+    "categoryId": "sports-games",
+    "title": "The Jump Shot’s Hidden Arc",
+    "description": "Use an original virtual-court model to separate a ball’s forward motion from its up-and-down motion after release.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "split-the-motion",
+        "title": "Split the motion"
+      },
+      {
+        "id": "compare-shots",
+        "title": "Compare the shots"
+      }
+    ],
+    "sources": [
+      {
+        "id": "openstax-projectile",
+        "kind": "reference",
+        "label": "OpenStax Physics: Projectile Motion",
+        "url": "https://openstax.org/books/physics/pages/5-3-projectile-motion"
+      },
+      {
+        "id": "court-model",
+        "kind": "original",
+        "label": "Original virtual-court release cards and station notes."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sg35-1",
+        "sectionId": "split-the-motion",
+        "kind": "choice",
+        "prompt": "At the highest point of the virtual ball’s path, what is true about its vertical motion in the model?",
+        "context": "The ball has already left the player’s hand. The model ignores air resistance and spin and includes only constant downward gravity after release.",
+        "explanation": "At the apex, the vertical velocity is momentarily zero, but downward acceleration from gravity continues. Zero vertical speed at one instant does not mean gravity switched off.",
+        "sourceIds": [
+          "openstax-projectile",
+          "court-model"
+        ],
+        "options": [
+          {
+            "id": "zero-v-down-a",
+            "label": "Vertical speed is momentarily zero; acceleration is still downward"
+          },
+          {
+            "id": "zero-both",
+            "label": "Both vertical speed and acceleration are zero"
+          },
+          {
+            "id": "upward-a",
+            "label": "Vertical speed and acceleration both point upward"
+          },
+          {
+            "id": "horizontal-stop",
+            "label": "The ball must stop moving forward too"
+          }
+        ],
+        "correct": "zero-v-down-a"
+      },
+      {
+        "id": "sg35-2",
+        "sectionId": "split-the-motion",
+        "kind": "match",
+        "prompt": "Match each motion clue to the component it describes.",
+        "context": "Model record: over equal 0.1-second intervals, the forward coordinate changes 0.5 m each time; height readings are 1.2 m, 1.7 m, then 2.1 m. The model has constant downward gravity and no air resistance or spin.",
+        "explanation": "The repeated forward-coordinate changes show a steady horizontal component. The height readings alone show vertical position changing; in this model gravity acts on that vertical component while the horizontal motion continues separately.",
+        "sourceIds": [
+          "openstax-projectile",
+          "court-model"
+        ],
+        "left": [
+          {
+            "id": "forward-steps",
+            "label": "Forward coordinate changes 0.5 m each 0.1 s"
+          },
+          {
+            "id": "height",
+            "label": "Height readings: 1.2 m, 1.7 m, 2.1 m"
+          }
+        ],
+        "right": [
+          {
+            "id": "vertical",
+            "label": "Vertical component"
+          },
+          {
+            "id": "horizontal",
+            "label": "Horizontal component"
+          }
+        ],
+        "pairs": {
+          "height": "vertical",
+          "forward-steps": "horizontal"
+        }
+      },
+      {
+        "id": "sg35-3",
+        "sectionId": "split-the-motion",
+        "kind": "grid",
+        "prompt": "For each statement, choose whether it describes velocity or acceleration in the virtual-court model.",
+        "context": "These original logger readings are from a ball after release in the no-air, no-spin model. Classify the reported measurement evidence, not the ball’s entire motion from a single clue.",
+        "explanation": "A position change over a time interval gives velocity evidence. A change in velocity over time gives acceleration evidence. At the highest point, vertical velocity can be zero while downward acceleration continues.",
+        "sourceIds": [
+          "openstax-projectile",
+          "court-model"
+        ],
+        "cells": [
+          {
+            "id": "forward",
+            "label": "x changes 2.0 m to 2.5 m in 0.1 s",
+            "options": [
+              {
+                "id": "velocity",
+                "label": "Velocity evidence"
+              },
+              {
+                "id": "acceleration",
+                "label": "Acceleration evidence"
+              },
+              {
+                "id": "both",
+                "label": "Both are established"
+              }
+            ],
+            "correct": "velocity"
+          },
+          {
+            "id": "apex",
+            "label": "Vertical velocity changes from +1.0 to +0.8 m/s in 0.1 s",
+            "options": [
+              {
+                "id": "velocity",
+                "label": "Velocity evidence"
+              },
+              {
+                "id": "acceleration",
+                "label": "Acceleration evidence"
+              },
+              {
+                "id": "both",
+                "label": "Both are established"
+              }
+            ],
+            "correct": "acceleration"
+          },
+          {
+            "id": "gravity",
+            "label": "At the top: vertical velocity is 0; gravity points down",
+            "options": [
+              {
+                "id": "velocity",
+                "label": "Velocity evidence"
+              },
+              {
+                "id": "acceleration",
+                "label": "Acceleration evidence"
+              },
+              {
+                "id": "both",
+                "label": "Both are established"
+              }
+            ],
+            "correct": "both"
+          }
+        ]
+      },
+      {
+        "id": "sg35-4",
+        "sectionId": "split-the-motion",
+        "kind": "choice",
+        "prompt": "Which new measurement would most directly reveal a forward force missing from the stated model?",
+        "context": "The ball is released with forward velocity. The model excludes air resistance and spin and assumes no further push; only downward gravity is included.",
+        "explanation": "A repeated change in forward velocity after release would show that the no-horizontal-force model is incomplete. Merely observing forward movement does not establish a continuing forward force.",
+        "sourceIds": [
+          "openstax-projectile",
+          "court-model"
+        ],
+        "options": [
+          {
+            "id": "forward-change",
+            "label": "Measure forward velocity repeatedly and find it changing after release"
+          },
+          {
+            "id": "forward-motion",
+            "label": "Record that the ball continues moving forward"
+          },
+          {
+            "id": "vertical-change",
+            "label": "Measure that the ball’s height changes during flight"
+          },
+          {
+            "id": "one-frame",
+            "label": "Take one forward-position reading after release"
+          }
+        ],
+        "correct": "forward-change"
+      },
+      {
+        "id": "sg35-5",
+        "sectionId": "compare-shots",
+        "kind": "choice",
+        "prompt": "Two shots have the same release height and forward speed, but Shot B leaves with greater upward speed. Which prediction fits the model?",
+        "context": "Both balls return to their release height under the same constant downward gravity. Air resistance and spin are excluded; only the initial vertical speed differs.",
+        "explanation": "The greater upward starting speed gives Shot B a longer rise and fall time and a higher apex. Its forward speed is unchanged, so that difference comes from the vertical component.",
+        "sourceIds": [
+          "openstax-projectile",
+          "court-model"
+        ],
+        "options": [
+          {
+            "id": "b-longer",
+            "label": "Shot B stays up longer and reaches a higher apex"
+          },
+          {
+            "id": "same-time",
+            "label": "Both shots have the same flight time and apex height"
+          },
+          {
+            "id": "b-shorter",
+            "label": "Shot B lands sooner because it rises faster"
+          },
+          {
+            "id": "horizontal-only",
+            "label": "The change affects forward speed but not vertical motion"
+          }
+        ],
+        "correct": "b-longer"
+      },
+      {
+        "id": "sg35-6",
+        "sectionId": "compare-shots",
+        "kind": "grid",
+        "prompt": "Infer the vertical stage from each logger reading.",
+        "context": "Model record: the logger lists vertical velocity at three separate moments. Positive is upward, zero is momentary, and negative is downward.",
+        "explanation": "A positive vertical velocity means the ball is rising, while a negative value means it is descending. Constant downward gravity continues throughout the flight, and horizontal motion remains independent in the model.",
+        "sourceIds": [
+          "openstax-projectile",
+          "court-model"
+        ],
+        "cells": [
+          {
+            "id": "positive",
+            "label": "Logger A: vertical velocity +1.5 m/s",
+            "options": [
+              {
+                "id": "rising",
+                "label": "Rising"
+              },
+              {
+                "id": "apex",
+                "label": "At the apex"
+              },
+              {
+                "id": "falling",
+                "label": "Falling"
+              }
+            ],
+            "correct": "rising"
+          },
+          {
+            "id": "zero",
+            "label": "Logger B: vertical velocity 0 m/s",
+            "options": [
+              {
+                "id": "rising",
+                "label": "Rising"
+              },
+              {
+                "id": "apex",
+                "label": "At the apex"
+              },
+              {
+                "id": "falling",
+                "label": "Falling"
+              }
+            ],
+            "correct": "apex"
+          },
+          {
+            "id": "negative",
+            "label": "Logger C: vertical velocity −1.5 m/s",
+            "options": [
+              {
+                "id": "rising",
+                "label": "Rising"
+              },
+              {
+                "id": "apex",
+                "label": "At the apex"
+              },
+              {
+                "id": "falling",
+                "label": "Falling"
+              }
+            ],
+            "correct": "falling"
+          }
+        ]
+      },
+      {
+        "id": "sg35-7",
+        "sectionId": "compare-shots",
+        "kind": "grid",
+        "prompt": "Equal-time station cards compare two shots that differ only in forward speed. What does the model predict at the marked instant?",
+        "context": "Both shots begin at the same height with the same vertical speed and gravity. Shot B has greater forward speed. The station clocks show the same elapsed time after release.",
+        "explanation": "Their vertical positions match because the starting vertical conditions match. Shot B has traveled farther horizontally by that instant because its forward speed is greater.",
+        "sourceIds": [
+          "openstax-projectile",
+          "court-model"
+        ],
+        "cells": [
+          {
+            "id": "vertical-position",
+            "label": "At an equal-time station, compare height",
+            "options": [
+              {
+                "id": "same",
+                "label": "Same height"
+              },
+              {
+                "id": "b-higher",
+                "label": "Shot B higher"
+              },
+              {
+                "id": "a-higher",
+                "label": "Shot A higher"
+              }
+            ],
+            "correct": "same"
+          },
+          {
+            "id": "horizontal-gap",
+            "label": "At that time, compare forward distance",
+            "options": [
+              {
+                "id": "same",
+                "label": "Same distance"
+              },
+              {
+                "id": "b-farther",
+                "label": "Shot B farther forward"
+              },
+              {
+                "id": "a-farther",
+                "label": "Shot A farther forward"
+              }
+            ],
+            "correct": "b-farther"
+          }
+        ]
+      },
+      {
+        "id": "sg35-8",
+        "sectionId": "compare-shots",
+        "kind": "choice",
+        "prompt": "A ball rolls horizontally off a raised virtual platform with no upward launch component. What should the next frames show?",
+        "context": "Model record: the ball leaves the platform with forward speed and zero initial vertical speed. Constant downward gravity is included; air resistance and spin are excluded.",
+        "explanation": "The ball keeps moving forward while gravity begins changing its vertical motion downward. Zero initial vertical speed does not prevent it from starting to fall after release.",
+        "sourceIds": [
+          "openstax-projectile",
+          "court-model"
+        ],
+        "options": [
+          {
+            "id": "forward-and-fall",
+            "label": "It advances horizontally while beginning to move downward"
+          },
+          {
+            "id": "waits",
+            "label": "It stays level until a downward speed is added"
+          },
+          {
+            "id": "only-fall",
+            "label": "It drops vertically and loses all forward motion"
+          },
+          {
+            "id": "upward",
+            "label": "It rises because the platform is above the floor"
+          }
+        ],
+        "correct": "forward-and-fall"
+      }
+    ],
+    "playMode": "solo"
   }
 ]

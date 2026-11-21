@@ -12715,5 +12715,356 @@
         "description": "How tightly the two rooms' actions are timed together in the described scene."
       }
     ]
+  },
+  {
+    "id": "MT-35",
+    "slug": "why-the-miniature-looks-giant",
+    "categoryId": "movies-tv",
+    "title": "Why the Miniature Looks Giant",
+    "description": "Solve an original camera-layout challenge by reading near and far set cards, alignment clues, focus, and light continuity.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "build-the-shot",
+        "title": "Build the illusion"
+      },
+      {
+        "id": "repair-the-shot",
+        "title": "Repair a fresh shot"
+      }
+    ],
+    "sources": [
+      {
+        "id": "d23-forced-perspective",
+        "kind": "reference",
+        "label": "D23, 8 Magical Facts About Walt Disney’s Darby O’Gill and the Little People",
+        "url": "https://d23.com/8-magical-facts-about-walt-disneys-darby-ogill-and-the-little-people/"
+      },
+      {
+        "id": "miniature-set",
+        "kind": "original",
+        "label": "Original fictional miniature-set and camera notes; no film stills or real production records."
+      }
+    ],
+    "note": "Set records and coordinate map are text-only. Perspective is a simplified model, not a universal camera formula.",
+    "questions": [
+      {
+        "id": "mt35-1",
+        "sectionId": "build-the-shot",
+        "kind": "choice",
+        "prompt": "In a forced-perspective setup, why can a small model near the camera look as large as a performer farther away?",
+        "context": "The fictional setup places a miniature cottage close to the camera and a performer farther back. The camera is held in the planned position so their outlines can align in the frame.",
+        "explanation": "The nearer miniature can occupy a large part of the view while the distant performer occupies a smaller one. Carefully aligned positions make them appear to share a scale in that chosen camera view.",
+        "sourceIds": [
+          "d23-forced-perspective",
+          "miniature-set"
+        ],
+        "options": [
+          {
+            "id": "distance",
+            "label": "The near model takes up more of the view while the distant performer takes up less"
+          },
+          {
+            "id": "shrink-real",
+            "label": "The performer physically shrinks during filming"
+          },
+          {
+            "id": "lens-only",
+            "label": "Any lens automatically makes every miniature look life-size"
+          },
+          {
+            "id": "paint",
+            "label": "Painting the model removes the camera’s perspective"
+          }
+        ],
+        "correct": "distance"
+      },
+      {
+        "id": "mt35-2",
+        "sectionId": "build-the-shot",
+        "kind": "match",
+        "prompt": "Match each fresh shot observation to the setup feature it can help diagnose.",
+        "context": "Model record: the miniature occupies more of the frame than a performer farther back; roof and hand overlap at mark M but separate at N; both elements are sharp in the M frame.",
+        "explanation": "Relative distance can affect apparent size in the view, the mark comparison tests viewpoint alignment, and sharp edges show focus is not the source of the size difference in this record.",
+        "sourceIds": [
+          "d23-forced-perspective",
+          "miniature-set"
+        ],
+        "left": [
+          {
+            "id": "scale",
+            "label": "Near miniature fills more of the frame than the far performer"
+          },
+          {
+            "id": "marks",
+            "label": "The roof/hand overlap changes between marks M and N"
+          },
+          {
+            "id": "sharp",
+            "label": "Both elements are sharp in the M frame"
+          }
+        ],
+        "right": [
+          {
+            "id": "distance",
+            "label": "Relative placement can affect apparent size in the view"
+          },
+          {
+            "id": "viewpoint",
+            "label": "The chosen viewpoint controls this overlap"
+          },
+          {
+            "id": "not-focus",
+            "label": "Focus is not the cause of the size difference in this record"
+          }
+        ],
+        "pairs": {
+          "scale": "distance",
+          "marks": "viewpoint",
+          "sharp": "not-focus"
+        }
+      },
+      {
+        "id": "mt35-3",
+        "sectionId": "build-the-shot",
+        "kind": "choice",
+        "prompt": "Using the set map, which camera mark puts the model roof and performer's hand on the same sightline?",
+        "context": "Model record: on a top-down grid, camera mark M is at (0,0), mark N at (0,2), the roof target at (2,2), and the hand target at (6,6). The fictional map rule is to align targets that lie on one straight sightline from the camera.",
+        "explanation": "From M, both targets lie on the same ray through the grid. From N they do not. This is a map-based alignment deduction in the invented setup, not a claim about a real film production.",
+        "sourceIds": [
+          "miniature-set"
+        ],
+        "options": [
+          {
+            "id": "mark-m",
+            "label": "Camera mark M at (0,0)"
+          },
+          {
+            "id": "mark-n",
+            "label": "Camera mark N at (0,2)"
+          },
+          {
+            "id": "roof",
+            "label": "The roof target at (2,2)"
+          },
+          {
+            "id": "hand",
+            "label": "The hand target at (6,6)"
+          }
+        ],
+        "correct": "mark-m"
+      },
+      {
+        "id": "mt35-4",
+        "sectionId": "build-the-shot",
+        "kind": "choice",
+        "prompt": "The map predicts overlap from mark M. Which test best checks whether that alignment is sensitive to camera position?",
+        "context": "Model record: the set pieces can be taped in place, and marks M and N are both available. The crew has not yet compared their frames.",
+        "explanation": "Capturing both views without moving the set isolates viewpoint as the changed condition. If the overlap shifts, the fixed mark matters for this invented layout.",
+        "sourceIds": [
+          "d23-forced-perspective",
+          "miniature-set"
+        ],
+        "options": [
+          {
+            "id": "compare",
+            "label": "Keep the set still and capture one frame from each mark for comparison"
+          },
+          {
+            "id": "move-all",
+            "label": "Move the camera and both set pieces together before each frame"
+          },
+          {
+            "id": "guess",
+            "label": "Assume the overlap stays fixed at every viewpoint"
+          },
+          {
+            "id": "sound",
+            "label": "Change the soundtrack and infer the visual alignment from it"
+          }
+        ],
+        "correct": "compare"
+      },
+      {
+        "id": "mt35-5",
+        "sectionId": "repair-the-shot",
+        "kind": "choice",
+        "prompt": "From the approved camera mark, the roof still misses the hand. Which adjustment best tests a layout explanation?",
+        "context": "Model record: mark M is restored and confirmed; the roof model and performer can be repositioned separately. The fictional brief asks for their outlines to overlap from M.",
+        "explanation": "Adjusting relative placement from the fixed approved mark tests the map alignment without introducing another viewpoint change. The set positions, not focus, determine whether those outlines meet in this model.",
+        "sourceIds": [
+          "d23-forced-perspective",
+          "miniature-set"
+        ],
+        "options": [
+          {
+            "id": "positions",
+            "label": "Adjust the relative roof/hand positions, then check the fixed view from M"
+          },
+          {
+            "id": "focus",
+            "label": "Refocus without checking where either outline appears"
+          },
+          {
+            "id": "light",
+            "label": "Match light color and assume the outlines will move together"
+          },
+          {
+            "id": "scale",
+            "label": "Enlarge the miniature but leave its position and viewpoint untested"
+          }
+        ],
+        "correct": "positions"
+      },
+      {
+        "id": "mt35-6",
+        "sectionId": "repair-the-shot",
+        "kind": "match",
+        "prompt": "Match each new production note to the adjustment the fictional brief calls for.",
+        "context": "Model record and invented production rules: the roof and hand miss from the approved mark; the far performer is soft while the near model is sharp; the near element's light is amber from the left and the far element's is blue from the right. The fictional brief asks for matching warmth and direction.",
+        "explanation": "The map-defined overlap calls for alignment adjustment; the soft far subject calls for a focus check. The lighting choice follows the fictional brief's continuity rule, not a claim attributed to D23.",
+        "sourceIds": [
+          "d23-forced-perspective",
+          "miniature-set"
+        ],
+        "left": [
+          {
+            "id": "miss",
+            "label": "The roof and hand do not overlap from the approved mark"
+          },
+          {
+            "id": "soft",
+            "label": "The far performer is soft; the near model is sharp"
+          },
+          {
+            "id": "light",
+            "label": "Near light is amber/left; far light is blue/right"
+          }
+        ],
+        "right": [
+          {
+            "id": "alignment",
+            "label": "Check relative placement for the approved viewpoint"
+          },
+          {
+            "id": "focus",
+            "label": "Check focus for the two depths in this setup"
+          },
+          {
+            "id": "continuity",
+            "label": "Match the two lighting conditions under this fictional brief"
+          }
+        ],
+        "pairs": {
+          "miss": "alignment",
+          "soft": "focus",
+          "light": "continuity"
+        }
+      },
+      {
+        "id": "mt35-7",
+        "sectionId": "repair-the-shot",
+        "kind": "choice",
+        "prompt": "A reviewer says adjusting the lens will preserve the roof/hand overlap even if the camera shifts to mark N. Which response fits the model?",
+        "context": "Model record: the pieces stay taped; the overlap is mapped at M, while N is a second camera mark. Focus can be adjusted separately from camera position.",
+        "explanation": "Refocusing may change clarity, but it does not move the camera back to the sightline that produced the mapped overlap. Test the two marks with the set fixed.",
+        "sourceIds": [
+          "d23-forced-perspective",
+          "miniature-set"
+        ],
+        "options": [
+          {
+            "id": "view",
+            "label": "Focus cannot guarantee the overlap; compare the view from M and N"
+          },
+          {
+            "id": "focus-only",
+            "label": "Refocusing alone restores any lost sightline"
+          },
+          {
+            "id": "same",
+            "label": "Moving the camera cannot change a viewpoint alignment"
+          },
+          {
+            "id": "scale",
+            "label": "Make the miniature life-size to preserve the map line"
+          }
+        ],
+        "correct": "view"
+      },
+      {
+        "id": "mt35-8",
+        "sectionId": "repair-the-shot",
+        "kind": "grid",
+        "prompt": "An editor makes one claim about the final fictional shot. Choose the best correction for each note.",
+        "context": "Model record and invented brief rules: the roof and hand overlap only at mark M; both depths are clear there; the brief says matching light warmth and direction is required for this scene. No image is shown.",
+        "explanation": "The overlap is viewpoint-dependent in this map; clarity and the lighting match meet separate fictional brief conditions. Neither makes the two objects physically equal in size. The lighting deduction comes only from the invented rule.",
+        "sourceIds": [
+          "miniature-set"
+        ],
+        "cells": [
+          {
+            "id": "overlap",
+            "label": "Claim: overlap at M means the objects have equal real size",
+            "options": [
+              {
+                "id": "equal",
+                "label": "They must be physically the same size"
+              },
+              {
+                "id": "view",
+                "label": "The overlap is a viewpoint effect in this model"
+              },
+              {
+                "id": "light",
+                "label": "Lighting makes their real sizes equal"
+              }
+            ],
+            "correct": "view"
+          },
+          {
+            "id": "clear",
+            "label": "Claim: both clear and lighting matched means every mark works",
+            "options": [
+              {
+                "id": "everywhere",
+                "label": "The shot must align from all camera marks"
+              },
+              {
+                "id": "scope",
+                "label": "Those conditions apply to the stated shot, not every viewpoint"
+              },
+              {
+                "id": "scale",
+                "label": "Clarity changes the miniature's physical scale"
+              }
+            ],
+            "correct": "scope"
+          },
+          {
+            "id": "rule",
+            "label": "Claim: matching light is a universal forced-perspective law",
+            "options": [
+              {
+                "id": "universal",
+                "label": "The fictional brief's lighting rule applies to every production"
+              },
+              {
+                "id": "fiction",
+                "label": "Here it follows only from this invented brief"
+              },
+              {
+                "id": "camera",
+                "label": "The lighting note proves the camera mark is wrong"
+              }
+            ],
+            "correct": "fiction"
+          }
+        ]
+      }
+    ]
   }
 ]

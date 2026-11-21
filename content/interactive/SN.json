@@ -23097,5 +23097,4480 @@
       }
     ],
     "note": "All sketches and records are simplified teaching models, not ray measurements. The straight straw and fish cases are fictional; apparent position is not a claim that an object moved."
+  },
+  {
+    "id": "SN-66",
+    "slug": "compass-that-changed-its-mind",
+    "categoryId": "science-nature",
+    "title": "The Compass That Changed Its Mind",
+    "description": "Read original station cards to separate a compass’s local magnetic surroundings from its usual northward reference.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "field-clues",
+        "title": "Read the field clues"
+      },
+      {
+        "id": "test-a-station",
+        "title": "Test a surprising station"
+      }
+    ],
+    "sources": [
+      {
+        "id": "nasa-model",
+        "kind": "reference",
+        "label": "NASA My NASA Data, Modeling Magnetic Fields",
+        "url": "https://mynasadata.larc.nasa.gov/lesson-plans/modeling-magnetic-fields"
+      },
+      {
+        "id": "usgs-compass",
+        "kind": "reference",
+        "label": "USGS, How does a compass work?",
+        "url": "https://www.usgs.gov/media/audio/how-does-compass-work"
+      },
+      {
+        "id": "station-cards",
+        "kind": "original",
+        "label": "Original fictional compass-station model records; not measured evidence."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sn66-1",
+        "sectionId": "field-clues",
+        "kind": "choice",
+        "prompt": "A compass needle settles after it is turned on a table. What is it responding to?",
+        "context": "Opening model: a freely turning compass needle responds to the magnetic field around it, which can include influences from nearby objects.",
+        "explanation": "A compass aligns with the local magnetic field. It is useful as a north-finding tool, but a nearby magnetic influence can change its direction.",
+        "sourceIds": [
+          "nasa-model",
+          "usgs-compass"
+        ],
+        "options": [
+          {
+            "id": "local-field",
+            "label": "The magnetic field where the compass is sitting"
+          },
+          {
+            "id": "painted-north",
+            "label": "A painted north mark on the table"
+          },
+          {
+            "id": "gravity-only",
+            "label": "Gravity pulling one end of the needle downward"
+          },
+          {
+            "id": "room-map",
+            "label": "A map stored inside the compass case"
+          }
+        ],
+        "correct": "local-field"
+      },
+      {
+        "id": "sn66-2",
+        "sectionId": "field-clues",
+        "kind": "match",
+        "prompt": "Match each new station record to the inference it best supports.",
+        "context": "Model record: at one marked table, a clear-space reading is saved; a bar magnet is then placed nearby, and the needle turns; after the magnet is moved away, the needle returns close to its first direction.",
+        "explanation": "The pattern links the change to the magnet's presence in this model. It does not give an exact geographic bearing or show how every other object would affect a compass.",
+        "sourceIds": [
+          "usgs-compass",
+          "station-cards"
+        ],
+        "left": [
+          {
+            "id": "baseline",
+            "label": "The saved clear-space reading"
+          },
+          {
+            "id": "near",
+            "label": "The reading with the magnet nearby"
+          },
+          {
+            "id": "away",
+            "label": "The reading after the magnet moves away"
+          }
+        ],
+        "right": [
+          {
+            "id": "reference",
+            "label": "Reference for comparing the later readings"
+          },
+          {
+            "id": "change",
+            "label": "A direction change associated with the magnet's presence"
+          },
+          {
+            "id": "return",
+            "label": "A return that strengthens the link to the magnet's presence"
+          }
+        ],
+        "pairs": {
+          "baseline": "reference",
+          "near": "change",
+          "away": "return"
+        }
+      },
+      {
+        "id": "sn66-3",
+        "sectionId": "field-clues",
+        "kind": "grid",
+        "prompt": "The analyst wrote a claim beside each new record. Choose the best correction for each one.",
+        "context": "Model record: with the compass fixed at one table, the needle reads 14° in clear space, 36° beside a bar magnet, and 15° after the magnet is removed. The angle values are invented readings, not geographic bearings.",
+        "explanation": "The first claim overreaches because a direction is not a map bearing. The second ignores the comparison pattern, and the third mistakes a return close to baseline for proof of an exact north direction.",
+        "sourceIds": [
+          "usgs-compass",
+          "station-cards"
+        ],
+        "cells": [
+          {
+            "id": "turn",
+            "label": "Claim: 36° names the compass's geographic bearing",
+            "options": [
+              {
+                "id": "bearing",
+                "label": "The record gives no geographic reference for that angle"
+              },
+              {
+                "id": "north",
+                "label": "A changed reading must be geographic north"
+              },
+              {
+                "id": "nothing",
+                "label": "The angle cannot be compared with another reading"
+              }
+            ],
+            "correct": "bearing"
+          },
+          {
+            "id": "near",
+            "label": "Claim: the magnet had no relation to the change",
+            "options": [
+              {
+                "id": "unrelated",
+                "label": "The near-and-away pattern is consistent with a local magnet influence"
+              },
+              {
+                "id": "proof",
+                "label": "The record proves every nearby object turns a needle"
+              },
+              {
+                "id": "broken",
+                "label": "The compass must have broken at the table"
+              }
+            ],
+            "correct": "unrelated"
+          },
+          {
+            "id": "return",
+            "label": "Claim: 15° proves the first reading was exact north",
+            "options": [
+              {
+                "id": "exact",
+                "label": "A return near baseline does not identify geographic north"
+              },
+              {
+                "id": "north",
+                "label": "Returning near baseline proves exact north"
+              },
+              {
+                "id": "no-return",
+                "label": "The magnet must still be changing the reading"
+              }
+            ],
+            "correct": "exact"
+          }
+        ]
+      },
+      {
+        "id": "sn66-4",
+        "sectionId": "field-clues",
+        "kind": "choice",
+        "prompt": "A bar magnet attached to a speaker is suspected of affecting a compass at a marked desk. Which observation would best test that idea?",
+        "context": "Model record: the compass, desk, and room can stay fixed while the attached magnet is moved between its usual place and a farther place. No bearing is labeled on the room map.",
+        "explanation": "Comparing readings while changing only the magnet's position tests whether its proximity is associated with a local direction change. The result would not provide a geographic bearing.",
+        "sourceIds": [
+          "usgs-compass",
+          "station-cards"
+        ],
+        "options": [
+          {
+            "id": "move-speaker",
+            "label": "Keep the compass fixed and compare readings with the speaker near and farther away"
+          },
+          {
+            "id": "swap-room",
+            "label": "Move the compass and speaker to another room at the same time"
+          },
+          {
+            "id": "case-color",
+            "label": "Compare the compass case color with the speaker unplugged"
+          },
+          {
+            "id": "map-word",
+            "label": "Use the map's printed north label without observing the needle"
+          }
+        ],
+        "correct": "move-speaker"
+      },
+      {
+        "id": "sn66-5",
+        "sectionId": "test-a-station",
+        "kind": "choice",
+        "prompt": "A new card asks whether the compass turn changes as a bar magnet is moved farther away. Which record would be most informative?",
+        "context": "Model record: the needle turns beside the magnet and returns near baseline after it is removed. No distance readings are included yet.",
+        "explanation": "Readings at several stated magnet positions, with the compass and station fixed, would test the new distance question. The current cards do not establish how large the turn will be at any distance.",
+        "sourceIds": [
+          "usgs-compass",
+          "station-cards"
+        ],
+        "options": [
+          {
+            "id": "several",
+            "label": "Keep the compass fixed and record directions at several marked magnet distances"
+          },
+          {
+            "id": "guess",
+            "label": "Assume the turn halves every time the distance doubles"
+          },
+          {
+            "id": "different",
+            "label": "Change the compass, table, and magnet distance together"
+          },
+          {
+            "id": "bearing",
+            "label": "Read the room map's north label without recording the needle"
+          }
+        ],
+        "correct": "several"
+      },
+      {
+        "id": "sn66-6",
+        "sectionId": "test-a-station",
+        "kind": "choice",
+        "prompt": "The compass case is turned a quarter-turn while its needle stays free and a nearby magnet stays fixed. What should the team predict from the model?",
+        "context": "Model record: the printed direction mark rotates with the case; the freely turning needle and bar magnet remain at the same table position. The model says the needle aligns with the local magnetic field.",
+        "explanation": "The needle can settle according to the field around it rather than automatically following the case's printed mark. The model predicts a relationship, not an exact new angle.",
+        "sourceIds": [
+          "usgs-compass",
+          "nasa-model",
+          "station-cards"
+        ],
+        "options": [
+          {
+            "id": "field",
+            "label": "The free needle can still align with the local field, not the rotated case mark"
+          },
+          {
+            "id": "case",
+            "label": "The needle must turn with the printed mark even if the field is unchanged"
+          },
+          {
+            "id": "bearing",
+            "label": "The case rotation reveals geographic north exactly"
+          },
+          {
+            "id": "fixed",
+            "label": "The needle cannot respond because the magnet did not move"
+          }
+        ],
+        "correct": "field"
+      },
+      {
+        "id": "sn66-7",
+        "sectionId": "test-a-station",
+        "kind": "choice",
+        "prompt": "A compass gives a different steady reading at a second desk, with no test magnet present. Which follow-up best separates a location effect from an instrument problem?",
+        "context": "Model record: the same compass gives a repeatable reading at Desk A and another repeatable reading at Desk B. Neither desk has yet been compared with a second compass.",
+        "explanation": "Repeating both locations with a second compass checks whether the pattern follows the desk or the instrument. The current record alone does not identify a cause.",
+        "sourceIds": [
+          "usgs-compass",
+          "station-cards"
+        ],
+        "options": [
+          {
+            "id": "two-compasses",
+            "label": "Compare both desks with a second compass while keeping the desk conditions fixed"
+          },
+          {
+            "id": "pole",
+            "label": "Name an exact magnetic pole from the two readings alone"
+          },
+          {
+            "id": "broken",
+            "label": "Declare the first compass broken without another check"
+          },
+          {
+            "id": "north",
+            "label": "Assume either reading proves geographic north"
+          }
+        ],
+        "correct": "two-compasses"
+      },
+      {
+        "id": "sn66-8",
+        "sectionId": "test-a-station",
+        "kind": "hotspot",
+        "prompt": "Which card completes a comparison with the stated baseline?",
+        "context": "Model record labels: Station A is the clear-space reading at the marked desk; Plan B is the reading beside one bar magnet at that same desk; Station C is a different reading at another desk with several conditions changed.",
+        "explanation": "Plan B can be compared with Station A because the desk stays the same and the magnet is the changed condition. The neutral card labels do not state the inference. The rectangles are text-only records.",
+        "sourceIds": [
+          "usgs-compass",
+          "station-cards"
+        ],
+        "diagram": {
+          "title": "Original station record cards",
+          "description": "Three selectable text-only record cards with neutral labels. The context gives the observations; no compass drawing, arrows, curves, or map is shown.",
+          "zones": [
+            {
+              "id": "clear-card",
+              "label": "Station A",
+              "x": 3,
+              "y": 12,
+              "width": 28,
+              "height": 72
+            },
+            {
+              "id": "magnet-card",
+              "label": "Plan B",
+              "x": 36,
+              "y": 12,
+              "width": 29,
+              "height": 72
+            },
+            {
+              "id": "mixed-card",
+              "label": "Station C",
+              "x": 70,
+              "y": 12,
+              "width": 28,
+              "height": 72
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "clear-card",
+            "label": "Station A"
+          },
+          {
+            "id": "magnet-card",
+            "label": "Plan B"
+          },
+          {
+            "id": "mixed-card",
+            "label": "Station C"
+          }
+        ],
+        "correct": "magnet-card"
+      }
+    ]
+  },
+  {
+    "id": "SN-67",
+    "slug": "clay-boat-carries-its-own-weight",
+    "categoryId": "science-nature",
+    "title": "The Clay Boat That Carries Its Own Weight",
+    "description": "Use a simple floating model to see how reshaping the same clay can make room for displaced water and a useful load.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "shape-and-water",
+        "title": "Shape and displaced water"
+      },
+      {
+        "id": "cargo-cases",
+        "title": "Apply the boat model"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iet-boats",
+        "kind": "reference",
+        "label": "IET, Investigate why boats float",
+        "url": "https://education.theiet.org/primary/teaching-resources/investigate-why-boats-float"
+      },
+      {
+        "id": "serc-buoyancy",
+        "kind": "reference",
+        "label": "SERC Carleton College, Floating and sinking: displacement and buoyancy",
+        "url": "https://serc.carleton.edu/sp/mnstep/activities/34743.html"
+      },
+      {
+        "id": "clay-model",
+        "kind": "original",
+        "label": "Original fictional clay-boat model records; illustrative, not experimental data."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sn67-1",
+        "sectionId": "shape-and-water",
+        "kind": "choice",
+        "prompt": "A solid clay lump sinks, while the same clay reshaped into a hollow hull floats. What changed most directly?",
+        "context": "The fictional model keeps the clay material and amount the same. The hollow shape encloses air and takes up more room in the water; the clay itself has not become lighter.",
+        "explanation": "Reshaping changes how much water the object can displace before water reaches the rim. A floating hull can displace enough water to support the combined boat and load; its clay mass has not vanished.",
+        "sourceIds": [
+          "iet-boats",
+          "serc-buoyancy",
+          "clay-model"
+        ],
+        "options": [
+          {
+            "id": "shape",
+            "label": "The clay’s shape lets the hull displace more water before it fills"
+          },
+          {
+            "id": "mass-gone",
+            "label": "Some clay mass disappears during reshaping"
+          },
+          {
+            "id": "material",
+            "label": "The clay changes into a different material"
+          },
+          {
+            "id": "air-only",
+            "label": "Air alone cancels every force on the boat"
+          }
+        ],
+        "correct": "shape"
+      },
+      {
+        "id": "sn67-2",
+        "sectionId": "shape-and-water",
+        "kind": "match",
+        "prompt": "Match each boat-design question to the next most informative model record.",
+        "context": "Model records: one hull sinks after a parcel is added; two hull shapes carry equal parcels but have different rim clearance; another record shows a hull settling lower after an added parcel. The cards give no real-world load limits.",
+        "explanation": "A before-and-after record for the same hull isolates the added load. Equal clay and cargo make rim-clearance comparisons about shape more informative. Tracking the waterline before and after a load change shows how the model responds.",
+        "sourceIds": [
+          "iet-boats",
+          "serc-buoyancy",
+          "clay-model"
+        ],
+        "left": [
+          {
+            "id": "sinks",
+            "label": "A hull sinks just after a parcel is added"
+          },
+          {
+            "id": "shapes",
+            "label": "Two hull shapes carry equal parcels but differ in rim clearance"
+          },
+          {
+            "id": "settles",
+            "label": "A hull sits lower after another parcel is added"
+          }
+        ],
+        "right": [
+          {
+            "id": "before-after",
+            "label": "Record the same hull before and after adding that parcel"
+          },
+          {
+            "id": "equal-load",
+            "label": "Compare rim clearance with clay and cargo amounts held equal"
+          },
+          {
+            "id": "waterline",
+            "label": "Record the waterline for both load states"
+          }
+        ],
+        "pairs": {
+          "sinks": "before-after",
+          "shapes": "equal-load",
+          "settles": "waterline"
+        }
+      },
+      {
+        "id": "sn67-3",
+        "sectionId": "shape-and-water",
+        "kind": "grid",
+        "prompt": "Choose the best interpretation of each new model comparison.",
+        "context": "Model record: two hulls use equal clay and the same two parcels in the same water. The wider hull's rim is 3 cm above the water; the narrow hull's is 1 cm above. In a second card, the same hull is measured before and after one parcel is added.",
+        "explanation": "The first pair compares rim clearance at equal clay and load, so this model record supports a shape-related difference in reserve. The second comparison shows what changed with the added load, but it does not give a real vessel's safe capacity.",
+        "sourceIds": [
+          "iet-boats",
+          "serc-buoyancy",
+          "clay-model"
+        ],
+        "cells": [
+          {
+            "id": "clearance",
+            "label": "At equal clay and load, the wider hull has more rim clearance",
+            "options": [
+              {
+                "id": "shape",
+                "label": "The model shows a shape-related reserve difference under these conditions"
+              },
+              {
+                "id": "mass",
+                "label": "The wider hull must contain less clay"
+              },
+              {
+                "id": "capacity",
+                "label": "The exact real-boat cargo limit is known"
+              }
+            ],
+            "correct": "shape"
+          },
+          {
+            "id": "load",
+            "label": "The same hull sits lower after one parcel is added",
+            "options": [
+              {
+                "id": "no-change",
+                "label": "The added parcel has no relation to the waterline"
+              },
+              {
+                "id": "settles",
+                "label": "The added load is accompanied by greater settling in this record"
+              },
+              {
+                "id": "material",
+                "label": "The clay changed into another material"
+              }
+            ],
+            "correct": "settles"
+          },
+          {
+            "id": "limit",
+            "label": "No record shows what happens at a real vessel's maximum load",
+            "options": [
+              {
+                "id": "exact",
+                "label": "The model supplies an exact real-world safe limit"
+              },
+              {
+                "id": "reserve",
+                "label": "A real safe limit cannot be read from these model cards"
+              },
+              {
+                "id": "shape",
+                "label": "Shape never affects a floating model"
+              }
+            ],
+            "correct": "reserve"
+          }
+        ]
+      },
+      {
+        "id": "sn67-4",
+        "sectionId": "shape-and-water",
+        "kind": "choice",
+        "prompt": "The same intact floating hull carries one parcel. A second identical parcel is added without changing the hull or water. What does the model predict next?",
+        "context": "Model record: the hull remains afloat with one parcel and has room below its rim. In the next trial, only one identical parcel is added; the hull stays intact. The second trial record confirms that the loaded hull remains afloat.",
+        "explanation": "With the added load, the hull must displace more water to support the boat and parcels, so it settles lower while it remains afloat.",
+        "sourceIds": [
+          "iet-boats",
+          "serc-buoyancy"
+        ],
+        "options": [
+          {
+            "id": "water-support",
+            "label": "The hull settles lower as it displaces more water to support the added parcel"
+          },
+          {
+            "id": "clay-loss",
+            "label": "The clay loses weight as soon as cargo is placed aboard"
+          },
+          {
+            "id": "air-only",
+            "label": "Enclosed air means the hull needs no water support"
+          },
+          {
+            "id": "no-displacement",
+            "label": "A floating hull displaces no water"
+          }
+        ],
+        "correct": "water-support"
+      },
+      {
+        "id": "sn67-5",
+        "sectionId": "cargo-cases",
+        "kind": "choice",
+        "prompt": "A redesign seems to leave more room before water reaches the rim. Which next record best tests whether the change came from the hull shape?",
+        "context": "Model record: the new hull has a wider base, but its first trial also used a different number of parcels. No real-world capacity is being estimated.",
+        "explanation": "A comparison with the same clay amount, same cargo, and same water conditions would make shape the main changed feature. The current two records mix shape and load.",
+        "sourceIds": [
+          "iet-boats",
+          "serc-buoyancy",
+          "clay-model"
+        ],
+        "options": [
+          {
+            "id": "matched",
+            "label": "Compare old and new shapes with equal clay, cargo, and water conditions"
+          },
+          {
+            "id": "more-cargo",
+            "label": "Add different cargo to each shape and compare only whether they float"
+          },
+          {
+            "id": "paint",
+            "label": "Change the hull color and infer the cause from appearance"
+          },
+          {
+            "id": "real-limit",
+            "label": "Treat this single model trial as a real boat's safe-load limit"
+          }
+        ],
+        "correct": "matched"
+      },
+      {
+        "id": "sn67-6",
+        "sectionId": "cargo-cases",
+        "kind": "choice",
+        "prompt": "The team wants to know how each hull's clearance changes at a lighter load. Which next record would make the comparison informative?",
+        "context": "Model record: Red and Blue use equal clay and the same two identical parcels in the same water. Blue has a wider hollow shape; its rim sits 2 cm farther above the water than Red's. No other trial or real cargo limit is given.",
+        "explanation": "Removing the same parcel from both matched hulls lets the team compare how their clearance changes at a lighter load. Unloading only one hull or changing cargo unequally would mix the shape and load effects; no real-boat capacity follows from the model.",
+        "sourceIds": [
+          "iet-boats",
+          "serc-buoyancy",
+          "clay-model"
+        ],
+        "options": [
+          {
+            "id": "both-unload",
+            "label": "Remove one identical parcel from each hull, then record both rim clearances again"
+          },
+          {
+            "id": "blue-only",
+            "label": "Remove one parcel only from Blue and compare it with Red's original clearance"
+          },
+          {
+            "id": "unequal",
+            "label": "Remove different numbers of parcels from the two hulls, then compare clearance"
+          },
+          {
+            "id": "appearance",
+            "label": "Compare which hull looks wider without recording either waterline"
+          }
+        ],
+        "correct": "both-unload"
+      },
+      {
+        "id": "sn67-7",
+        "sectionId": "cargo-cases",
+        "kind": "choice",
+        "prompt": "A designer claims, “A wider hull is always the safer choice.” Which test would best check that claim for this model?",
+        "context": "Model record: two proposed hulls use the same clay and cargo; one is wider but has a lower rim. The model supplies no rule that width alone guarantees more reserve.",
+        "explanation": "Comparing the waterline-to-rim clearance under equal clay and load tests the tradeoff the claim overlooks. A width label alone cannot establish reserve or real-world safety.",
+        "sourceIds": [
+          "iet-boats",
+          "serc-buoyancy",
+          "clay-model"
+        ],
+        "options": [
+          {
+            "id": "clearance",
+            "label": "Compare waterline-to-rim clearance for both shapes under the same load"
+          },
+          {
+            "id": "width-only",
+            "label": "Choose the wider hull without recording its waterline or rim"
+          },
+          {
+            "id": "cargo-change",
+            "label": "Use different cargo amounts so both designs can be tested at once"
+          },
+          {
+            "id": "real-safety",
+            "label": "Declare a real boat safe from this fictional model alone"
+          }
+        ],
+        "correct": "clearance"
+      },
+      {
+        "id": "sn67-8",
+        "sectionId": "cargo-cases",
+        "kind": "grid",
+        "prompt": "For each new design note, choose the missing comparison or limit that matters most.",
+        "context": "Model record: a paper raft made from equal-size sheets is compared with different coin loads; a second note gives the waterline but not the rim height; a third says one model floated once and calls it safe for every real boat. These are fictional classroom records.",
+        "explanation": "Changing sheet shape and load together cannot isolate either effect. Waterline alone needs the rim reference to show reserve, and one successful model card does not establish a universal real-boat safety claim.",
+        "sourceIds": [
+          "iet-boats",
+          "serc-buoyancy",
+          "clay-model"
+        ],
+        "cells": [
+          {
+            "id": "raft",
+            "label": "Different sheet shapes also got different coin loads",
+            "options": [
+              {
+                "id": "match-load",
+                "label": "Repeat with equal loads before comparing shape"
+              },
+              {
+                "id": "same-result",
+                "label": "The shape effect is already isolated"
+              },
+              {
+                "id": "real-limit",
+                "label": "A real capacity limit is known"
+              }
+            ],
+            "correct": "match-load"
+          },
+          {
+            "id": "rim",
+            "label": "Waterline is recorded, but the rim height is missing",
+            "options": [
+              {
+                "id": "ignore-rim",
+                "label": "Rim height cannot affect reserve"
+              },
+              {
+                "id": "measure-rim",
+                "label": "Record rim height to judge remaining clearance"
+              },
+              {
+                "id": "max-load",
+                "label": "The maximum safe load is already known"
+              }
+            ],
+            "correct": "measure-rim"
+          },
+          {
+            "id": "claim",
+            "label": "One model floated once; the note says every real boat is safe",
+            "options": [
+              {
+                "id": "universal",
+                "label": "One model result proves a universal safety rule"
+              },
+              {
+                "id": "model-limit",
+                "label": "The model result does not establish real-boat safety"
+              },
+              {
+                "id": "no-displacement",
+                "label": "A raft can float without displacing water"
+              }
+            ],
+            "correct": "model-limit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-68",
+    "slug": "powder-that-cooled-the-cup",
+    "categoryId": "science-nature",
+    "title": "The Powder That Cooled the Cup",
+    "description": "Read illustrative digital dissolving records to trace energy transfer without mistaking cooling for proof of a chemical reaction.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "energy-clues",
+        "title": "Follow the energy"
+      },
+      {
+        "id": "new-records",
+        "title": "Read fresh records"
+      }
+    ],
+    "sources": [
+      {
+        "id": "acs-lesson",
+        "kind": "reference",
+        "label": "American Chemical Society, Middle School Chemistry, Lesson 9: What happens when a substance dissolves?",
+        "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson9.html"
+      },
+      {
+        "id": "acs-reading",
+        "kind": "reference",
+        "label": "American Chemical Society, Middle School Chemistry, Chapter 5 Student Reading",
+        "url": "https://www.acs.org/content/dam/acsorg/msc/downloads/chapter-5/ch5-student-reading.pdf"
+      },
+      {
+        "id": "digital-cards",
+        "kind": "original",
+        "label": "Original illustrative digital temperature records; not experiments."
+      }
+    ],
+    "note": "Illustrative digital records only; no physical mixing is described. Temperature alone is not shown as proof of a new substance.",
+    "questions": [
+      {
+        "id": "sn68-1",
+        "sectionId": "energy-clues",
+        "kind": "choice",
+        "prompt": "In this opening model, what energy description fits a cooling record during dissolving?",
+        "context": "Model record: sample, surroundings, and matched no-powder control all start at 20°C. During the same interval, the sample cools to 16°C while the control and surroundings stay at 20°C; values are illustrative.",
+        "explanation": "The matched control and steady surroundings address ordinary drift in this record. Cooling is consistent with energy absorbed during the modeled process; temperature alone does not establish that a new substance formed.",
+        "sourceIds": [
+          "acs-lesson",
+          "acs-reading",
+          "digital-cards"
+        ],
+        "options": [
+          {
+            "id": "absorbs",
+            "label": "The dissolving process absorbs energy from its surroundings"
+          },
+          {
+            "id": "creates-cold",
+            "label": "The powder adds a substance called cold"
+          },
+          {
+            "id": "reaction-proof",
+            "label": "Cooling alone proves a new substance formed"
+          },
+          {
+            "id": "no-transfer",
+            "label": "No energy moves when the temperature changes"
+          }
+        ],
+        "correct": "absorbs"
+      },
+      {
+        "id": "sn68-2",
+        "sectionId": "energy-clues",
+        "kind": "match",
+        "prompt": "Match each new paired record to the conclusion it supports.",
+        "context": "Model record: sample and no-powder control start together. In one pair the sample cools while the control stays steady; in another both cool by the same displayed amount; in a third the sample warms while the control stays steady.",
+        "explanation": "The first and third pairs show changes associated with the modeled process under matched conditions. When both sample and control cool alike, ordinary drift remains a possible explanation for the shared drop.",
+        "sourceIds": [
+          "acs-lesson",
+          "acs-reading",
+          "digital-cards"
+        ],
+        "left": [
+          {
+            "id": "separate-cool",
+            "label": "Sample cools; matched control stays steady"
+          },
+          {
+            "id": "both-cool",
+            "label": "Sample and matched control cool by the same amount"
+          },
+          {
+            "id": "separate-warm",
+            "label": "Sample warms; matched control stays steady"
+          }
+        ],
+        "right": [
+          {
+            "id": "associated-absorption",
+            "label": "Cooling associated with the modeled process; consistent with absorption"
+          },
+          {
+            "id": "shared-drift",
+            "label": "The shared change does not isolate an effect of dissolving"
+          },
+          {
+            "id": "associated-release",
+            "label": "Warming associated with the modeled process; consistent with release"
+          }
+        ],
+        "pairs": {
+          "separate-cool": "associated-absorption",
+          "both-cool": "shared-drift",
+          "separate-warm": "associated-release"
+        }
+      },
+      {
+        "id": "sn68-3",
+        "sectionId": "energy-clues",
+        "kind": "grid",
+        "prompt": "Each analyst made a claim from a new model record. Choose the best correction for each claim.",
+        "context": "Model record: A sample cools while its matched no-powder control stays steady; B sample and control cool alike; C sample starts cooler than its control. All readings are illustrative.",
+        "explanation": "A temperature change can support an energy-transfer interpretation, but it does not by itself prove a new substance formed. A shared control change or unequal starting condition also limits what the comparison can isolate.",
+        "sourceIds": [
+          "acs-lesson",
+          "acs-reading",
+          "digital-cards"
+        ],
+        "cells": [
+          {
+            "id": "reaction",
+            "label": "Claim: A's cooling proves a new substance formed",
+            "options": [
+              {
+                "id": "reaction-proof",
+                "label": "Temperature alone does not establish a new substance"
+              },
+              {
+                "id": "energy",
+                "label": "The record proves no energy moved"
+              },
+              {
+                "id": "all",
+                "label": "Every dissolving process must cool"
+              }
+            ],
+            "correct": "reaction-proof"
+          },
+          {
+            "id": "shared",
+            "label": "Claim: the sample caused the full drop when both readings fell alike",
+            "options": [
+              {
+                "id": "isolated",
+                "label": "The shared control change means the sample effect is not isolated"
+              },
+              {
+                "id": "powder",
+                "label": "The powder caused all of the shared drop"
+              },
+              {
+                "id": "reaction",
+                "label": "The pair proves a chemical reaction"
+              }
+            ],
+            "correct": "isolated"
+          },
+          {
+            "id": "start",
+            "label": "Claim: the third pair is a fair comparison despite different starts",
+            "options": [
+              {
+                "id": "matched",
+                "label": "The unequal start makes the comparison less controlled"
+              },
+              {
+                "id": "same",
+                "label": "The two systems began at the same temperature"
+              },
+              {
+                "id": "proof",
+                "label": "The starting difference proves a reaction"
+              }
+            ],
+            "correct": "matched"
+          }
+        ]
+      },
+      {
+        "id": "sn68-4",
+        "sectionId": "energy-clues",
+        "kind": "choice",
+        "prompt": "Two matched digital records for different fictional powders show opposite temperature changes. What is the safest comparison?",
+        "context": "Model record: both powders and their no-powder controls begin at the same displayed temperature and use the same cup conditions. One sample cools while its control stays steady; the other warms while its control stays steady. Neither powder is a real-world substance name.",
+        "explanation": "The two modeled processes have different temperature patterns under the stated matched conditions. The cards do not establish a rule for every powder or a chemical-reaction verdict.",
+        "sourceIds": [
+          "acs-lesson",
+          "acs-reading",
+          "digital-cards"
+        ],
+        "options": [
+          {
+            "id": "different",
+            "label": "The two modeled dissolving processes have different energy-transfer patterns"
+          },
+          {
+            "id": "all-cool",
+            "label": "All powders must cool whenever they dissolve"
+          },
+          {
+            "id": "same",
+            "label": "The two records show the same temperature pattern"
+          },
+          {
+            "id": "reaction",
+            "label": "The opposite readings prove one powder reacted chemically"
+          }
+        ],
+        "correct": "different"
+      },
+      {
+        "id": "sn68-5",
+        "sectionId": "new-records",
+        "kind": "choice",
+        "prompt": "A sample and its no-powder control both cool by 2° in one digital run. Which next record would best test whether dissolving adds a separate temperature change?",
+        "context": "Model record: both cups started together and used the same setup. The displayed readings are illustrative; the current pair shows no difference between sample and control.",
+        "explanation": "A repeated matched pair can test whether the sample and control separate in another run. Changing starting temperatures or cups at the same time would make the cause harder to isolate.",
+        "sourceIds": [
+          "acs-lesson",
+          "digital-cards"
+        ],
+        "options": [
+          {
+            "id": "repeat",
+            "label": "Repeat with a matched sample and no-powder control, recording both over the same interval"
+          },
+          {
+            "id": "unmatched",
+            "label": "Use a warmer sample cup and a different control cup"
+          },
+          {
+            "id": "endpoint",
+            "label": "Record only the sample's final temperature next week"
+          },
+          {
+            "id": "reaction",
+            "label": "Declare a chemical reaction from the shared temperature drop"
+          }
+        ],
+        "correct": "repeat"
+      },
+      {
+        "id": "sn68-6",
+        "sectionId": "new-records",
+        "kind": "choice",
+        "prompt": "An editor claims, “Because the sample returns to room temperature, dissolving caused no energy transfer.” Which response best addresses the claim?",
+        "context": "Model record: a sample starts at the control's temperature, cools during the displayed dissolving interval, then moves back toward the room-temperature reading. The no-powder control stays steady, and no composition data are shown.",
+        "explanation": "The full trace shows cooling during the dissolving interval before the later return, so the endpoint alone misses a temperature change consistent with energy absorption. Temperature alone still does not establish a new substance.",
+        "sourceIds": [
+          "acs-lesson",
+          "acs-reading",
+          "digital-cards"
+        ],
+        "options": [
+          {
+            "id": "endpoint",
+            "label": "The final return means no temperature change occurred during the process"
+          },
+          {
+            "id": "trace",
+            "label": "The trace records cooling during the process, followed by a later return"
+          },
+          {
+            "id": "reaction",
+            "label": "The return to room temperature proves a chemical reaction"
+          },
+          {
+            "id": "all",
+            "label": "Every dissolving process must follow this same trace"
+          }
+        ],
+        "correct": "trace"
+      },
+      {
+        "id": "sn68-7",
+        "sectionId": "new-records",
+        "kind": "choice",
+        "prompt": "Given two matched runs with the same cooling pattern, what is the fairest prediction for a third run using the same model setup?",
+        "context": "Model record: the sample and no-powder control start at the same displayed temperature in both runs. The sample cools each time; the control remains steady. No composition evidence is recorded.",
+        "explanation": "A similar pattern is a reasonable prediction to check in a third matched run, not a guarantee. Repetition still does not prove that a new substance formed or establish what every dissolving process does.",
+        "sourceIds": [
+          "acs-lesson",
+          "acs-reading",
+          "digital-cards"
+        ],
+        "options": [
+          {
+            "id": "similar",
+            "label": "A similar pattern is a reasonable prediction to check in another matched run"
+          },
+          {
+            "id": "certain",
+            "label": "The third run is guaranteed to match exactly"
+          },
+          {
+            "id": "reaction",
+            "label": "A new substance definitely formed"
+          },
+          {
+            "id": "generalize",
+            "label": "Every powder must cool when it dissolves"
+          }
+        ],
+        "correct": "similar"
+      },
+      {
+        "id": "sn68-8",
+        "sectionId": "new-records",
+        "kind": "grid",
+        "prompt": "Choose what each new record would help an investigator decide.",
+        "context": "Model record: one display saves only start and end readings; a second saves readings during and after the process; a third saves a sample trace but no matched control. These are invented digital logs.",
+        "explanation": "Intermediate readings reveal a change that endpoints could miss. A matched control helps separate the process pattern from shared drift. Neither temperature log alone establishes a chemical reaction.",
+        "sourceIds": [
+          "acs-lesson",
+          "acs-reading",
+          "digital-cards"
+        ],
+        "cells": [
+          {
+            "id": "ends",
+            "label": "Only a start and an end reading were saved",
+            "options": [
+              {
+                "id": "missed",
+                "label": "An intermediate change could be missed"
+              },
+              {
+                "id": "proof",
+                "label": "The endpoints prove a new substance"
+              },
+              {
+                "id": "same",
+                "label": "The process had no intermediate temperature"
+              }
+            ],
+            "correct": "missed"
+          },
+          {
+            "id": "trace",
+            "label": "Readings were saved during and after the process",
+            "options": [
+              {
+                "id": "no-change",
+                "label": "No change can be seen during the process"
+              },
+              {
+                "id": "trace",
+                "label": "The time course can reveal a change and later return"
+              },
+              {
+                "id": "reaction",
+                "label": "The trace alone proves a reaction"
+              }
+            ],
+            "correct": "trace"
+          },
+          {
+            "id": "control",
+            "label": "A sample trace has no matched control",
+            "options": [
+              {
+                "id": "isolated",
+                "label": "The sample effect is fully isolated"
+              },
+              {
+                "id": "control",
+                "label": "A matched control would help assess shared drift"
+              },
+              {
+                "id": "universal",
+                "label": "Every system has the same temperature pattern"
+              }
+            ],
+            "correct": "control"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-69",
+    "slug": "bag-that-kept-all-its-mass",
+    "categoryId": "science-nature",
+    "title": "The Bag That Kept All Its Mass",
+    "description": "Follow a reaction through sealed and leaking boundaries to decide what a mass reading can—and cannot—show.",
+    "kind": "knowledge",
+    "version": 1,
+    "wave": "catchup-2026-11-20",
+    "playMode": "solo",
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "boundary",
+        "title": "Choose the Boundary"
+      },
+      {
+        "id": "follow-matter",
+        "title": "Follow What Moves"
+      }
+    ],
+    "sources": [
+      {
+        "id": "acs-closed-system",
+        "kind": "reference",
+        "label": "American Chemical Society: Mass is conserved in a closed system",
+        "url": "https://www.acs.org/content/dam/acsorg/education/k-8/inquiry-in-action/fifth-grade/g5-l4.1-bkgd.pdf"
+      },
+      {
+        "id": "acs-atoms",
+        "kind": "reference",
+        "label": "American Chemical Society: Atoms are rearranged, not created or destroyed",
+        "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson1.html"
+      },
+      {
+        "id": "original-records",
+        "kind": "original",
+        "label": "Original fictional sealed-container cases and balance records authored for this quiz; not real experiments."
+      }
+    ],
+    "note": "All containers, reactions, and balance records are fictional screen-only models, not experiments or measured results.",
+    "questions": [
+      {
+        "id": "sn69-1",
+        "sectionId": "boundary",
+        "kind": "choice",
+        "prompt": "A sealed flexible pouch changes shape during a fictional reaction. Which comparison best checks whether matter stayed inside the system?",
+        "context": "Model record: one note lists 24.0 g before and after; afterward, the pouch looks more rounded and its contents look different. The note does not say exactly what was on the balance.",
+        "explanation": "The unchanged whole-pouch reading is consistent with the total staying the same while the contents change. Shape is not a mass measurement.",
+        "sourceIds": [
+          "original-records",
+          "acs-closed-system"
+        ],
+        "options": [
+          {
+            "id": "whole-pouch",
+            "label": "Compare the mass of the sealed pouch plus all contents both times."
+          },
+          {
+            "id": "contents-only",
+            "label": "Compare only the visible liquid before with the solid afterward."
+          },
+          {
+            "id": "new-shape",
+            "label": "Use the pouch’s larger outline as the mass measurement."
+          },
+          {
+            "id": "gas-only",
+            "label": "Weigh only the gas space after the reaction."
+          }
+        ],
+        "correct": "whole-pouch"
+      },
+      {
+        "id": "sn69-2",
+        "sectionId": "boundary",
+        "kind": "match",
+        "prompt": "Match each new balance record to the most careful interpretation.",
+        "context": "Model records: A sealed jar reads 18 g before and after. An open cup reads 12 g, then 10 g while gas is not collected. A sealed vessel and receiver together read 26 g before and after gas moves into the receiver.",
+        "explanation": "The stable sealed totals fit conservation in the measured system. The open-cup change is consistent with matter leaving the weighed boundary, while the paired vessels keep transferred gas included.",
+        "sourceIds": [
+          "original-records",
+          "acs-closed-system",
+          "acs-atoms"
+        ],
+        "left": [
+          {
+            "id": "sealed-one",
+            "label": "Sealed jar: 18 g before and after"
+          },
+          {
+            "id": "open-cup",
+            "label": "Open cup: 12 g, then 10 g; gas not collected"
+          },
+          {
+            "id": "joined-pair",
+            "label": "Vessel plus receiver: 26 g before and after transfer"
+          }
+        ],
+        "right": [
+          {
+            "id": "closed-account",
+            "label": "Compare a closed system’s total mass"
+          },
+          {
+            "id": "outside-transfer",
+            "label": "A lower reading may mean matter crossed the boundary"
+          },
+          {
+            "id": "captured-transfer",
+            "label": "Transferred gas remains inside the measured boundary"
+          }
+        ],
+        "pairs": {
+          "sealed-one": "closed-account",
+          "open-cup": "outside-transfer",
+          "joined-pair": "captured-transfer"
+        }
+      },
+      {
+        "id": "sn69-3",
+        "sectionId": "boundary",
+        "kind": "grid",
+        "prompt": "A team writes three claims from these model records. Mark the claim that each record supports best.",
+        "context": "Record A: a sealed container reads 31 g before and after; its contents look different. Record B: an open cup reads lower after a visible gas release. Record C: sealed contents take more space, but the whole-container reading is unchanged.",
+        "explanation": "A unchanged total does not require unchanged form or volume. B leaves open the possibility that matter crossed the measured boundary. C shows that more occupied space does not by itself mean a greater total mass.",
+        "sourceIds": [
+          "original-records",
+          "acs-closed-system",
+          "acs-atoms"
+        ],
+        "cells": [
+          {
+            "id": "sealed",
+            "label": "Record A: sealed total stays 31 g as contents look different",
+            "options": [
+              {
+                "id": "rearranged",
+                "label": "A change in appearance can occur with the same total mass"
+              },
+              {
+                "id": "destroyed",
+                "label": "The reading proves no reaction or change occurred"
+              },
+              {
+                "id": "volume",
+                "label": "The contents must have kept the same volume"
+              }
+            ],
+            "correct": "rearranged"
+          },
+          {
+            "id": "open",
+            "label": "Record B: open-cup reading falls after gas release",
+            "options": [
+              {
+                "id": "vanished",
+                "label": "The gas ceased to exist"
+              },
+              {
+                "id": "crossed",
+                "label": "The record cannot track matter beyond the weighed boundary"
+              },
+              {
+                "id": "sealed",
+                "label": "The complete closed system was measured"
+              }
+            ],
+            "correct": "crossed"
+          },
+          {
+            "id": "volume",
+            "label": "Record C: more space, same sealed total",
+            "options": [
+              {
+                "id": "volume-mass",
+                "label": "More volume requires more total mass"
+              },
+              {
+                "id": "same-total",
+                "label": "Occupied space changed without a recorded total-mass change"
+              },
+              {
+                "id": "no-change",
+                "label": "Nothing in the container changed"
+              }
+            ],
+            "correct": "same-total"
+          }
+        ]
+      },
+      {
+        "id": "sn69-4",
+        "sectionId": "boundary",
+        "kind": "choice",
+        "prompt": "A student says, ‘The sealed jar had the same mass, so nothing happened inside.’ Which observation best corrects the claim?",
+        "context": "Model record: a sealed jar reads 30.0 g both times. Afterward, the liquid looks different and small bubbles are visible. The jar and all contents were included in both readings.",
+        "explanation": "A steady total mass does not mean the materials stayed unchanged. The observations can show a change while the total mass of the closed system remains the same.",
+        "sourceIds": [
+          "original-records",
+          "acs-closed-system",
+          "acs-atoms"
+        ],
+        "options": [
+          {
+            "id": "rearrangement",
+            "label": "A reaction or other change can rearrange matter while the closed system’s total mass stays the same."
+          },
+          {
+            "id": "no-change",
+            "label": "The same reading proves the liquid, bubbles, and jar contents are unchanged."
+          },
+          {
+            "id": "created",
+            "label": "The bubbles must have been created without matter from the jar."
+          },
+          {
+            "id": "balance",
+            "label": "A constant reading means the balance did not measure the jar."
+          }
+        ],
+        "correct": "rearrangement"
+      },
+      {
+        "id": "sn69-5",
+        "sectionId": "follow-matter",
+        "kind": "choice",
+        "prompt": "A pouch reads 2 g lighter after its seal splits. Which next observation would best distinguish gas leaving the pouch from a change in the balance setup?",
+        "context": "Model record: the before reading included the sealed pouch. Afterward, the seal has a gap and the reading is lower; no other container was weighed.",
+        "explanation": "Collecting any escaping gas in a sealed receiver and weighing the pouch-plus-receiver on the same balance tests whether matter moved outside the pouch but stayed inside the combined boundary.",
+        "sourceIds": [
+          "original-records",
+          "acs-closed-system"
+        ],
+        "options": [
+          {
+            "id": "capture",
+            "label": "Add a sealed receiver, weigh pouch and receiver together both times on the same balance."
+          },
+          {
+            "id": "outline",
+            "label": "Compare the pouch’s outline with a drawing of its earlier shape."
+          },
+          {
+            "id": "new-balance",
+            "label": "Use a different balance only for the after reading."
+          },
+          {
+            "id": "guess",
+            "label": "Assign the full reading difference to escaping gas without collecting it."
+          }
+        ],
+        "correct": "capture"
+      },
+      {
+        "id": "sn69-6",
+        "sectionId": "follow-matter",
+        "kind": "hotspot",
+        "prompt": "Which station’s measurements would let a class check whether a gas transfer changed the total mass of the measured setup?",
+        "context": "Model record cards: Station A has a vessel-only reading of 14.2 g before and 13.6 g after gas forms. Station B records the sealed vessel plus sealed receiver as 20.0 g before and 20.0 g after gas moves. Station C records only the vessel’s outside width before and after. The cards are text summaries.",
+        "explanation": "Only the paired whole-system mass readings include both containers before and after the transfer. The other records do not measure the same complete boundary.",
+        "sourceIds": [
+          "original-records",
+          "acs-closed-system"
+        ],
+        "diagram": {
+          "title": "Fictional balance evidence cards",
+          "description": "Three large rectangles are neutral station cards summarizing the model records; they are not equipment drawings.",
+          "zones": [
+            {
+              "id": "vessel-only",
+              "label": "Station A",
+              "x": 4,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#d9e8f5"
+            },
+            {
+              "id": "combined",
+              "label": "Station B",
+              "x": 36,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#cdebdc"
+            },
+            {
+              "id": "outline",
+              "label": "Station C",
+              "x": 68,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#f4dfc7"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "vessel-only",
+            "label": "Station A"
+          },
+          {
+            "id": "combined",
+            "label": "Station B"
+          },
+          {
+            "id": "outline",
+            "label": "Station C"
+          }
+        ],
+        "correct": "combined"
+      },
+      {
+        "id": "sn69-7",
+        "sectionId": "follow-matter",
+        "kind": "match",
+        "prompt": "Match each unresolved mass record to the follow-up check that best addresses its particular weakness.",
+        "context": "Model records: a sealed bag looks larger but has no new mass reading; an open vessel loses reading while gas is uncollected; a sealed setup has different readings after being moved to another balance.",
+        "explanation": "A mass claim needs a mass reading over the same complete boundary. Capturing escaping gas tests boundary transfer; repeating the changed balance setup on one balance checks whether the measurement arrangement explains the difference.",
+        "sourceIds": [
+          "original-records",
+          "acs-closed-system"
+        ],
+        "left": [
+          {
+            "id": "stretched",
+            "label": "Only the sealed bag’s outline was compared"
+          },
+          {
+            "id": "vented",
+            "label": "Open-vessel reading fell; gas was not collected"
+          },
+          {
+            "id": "tray",
+            "label": "The setup was weighed on different balances"
+          }
+        ],
+        "right": [
+          {
+            "id": "measure",
+            "label": "Record a whole-setup mass before and after"
+          },
+          {
+            "id": "capture",
+            "label": "Collect gas in a sealed receiver and include it both times"
+          },
+          {
+            "id": "same-balance",
+            "label": "Repeat both readings using one balance and the same setup"
+          }
+        ],
+        "pairs": {
+          "stretched": "measure",
+          "vented": "capture",
+          "tray": "same-balance"
+        }
+      },
+      {
+        "id": "sn69-8",
+        "sectionId": "follow-matter",
+        "kind": "choice",
+        "prompt": "A student claims that gas disappeared between two readings. What do the paired measurements allow the team to conclude?",
+        "context": "Model record: before, vessel = 18 g and receiver = 2 g. After transfer, vessel = 16 g and receiver = 4 g. The vessel and receiver were both sealed and weighed on the same balance.",
+        "explanation": "The vessel lost 2 g while the receiver gained 2 g, so their combined total is 20 g in both readings. This record shows transfer between the included containers, not a measured loss from the combined system.",
+        "sourceIds": [
+          "original-records",
+          "acs-closed-system"
+        ],
+        "options": [
+          {
+            "id": "combined-total",
+            "label": "The paired measurements show a 20 g combined total before and after transfer."
+          },
+          {
+            "id": "vessel-only",
+            "label": "Use only the reaction vessel’s lower ending reading."
+          },
+          {
+            "id": "receiver-only",
+            "label": "Treat the receiver’s higher reading as newly created matter."
+          },
+          {
+            "id": "shape-only",
+            "label": "Decide from how full the receiver looks."
+          }
+        ],
+        "correct": "combined-total"
+      }
+    ]
+  },
+  {
+    "id": "SN-70",
+    "slug": "color-that-gives-a-ph-clue",
+    "categoryId": "science-nature",
+    "title": "The Color That Gives a pH Clue",
+    "description": "Use supplied indicator legends and fair comparisons to sort acidic, neutral, and basic clues without pretending color gives an exact reading.",
+    "kind": "knowledge",
+    "version": 1,
+    "wave": "catchup-2026-11-20",
+    "playMode": "solo",
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "read-indicators",
+        "title": "Read the Indicator"
+      },
+      {
+        "id": "compare-cases",
+        "title": "Compare Before Concluding"
+      }
+    ],
+    "sources": [
+      {
+        "id": "acs-indicators",
+        "kind": "reference",
+        "label": "American Chemical Society: Acids and bases change indicator color",
+        "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson8.html"
+      },
+      {
+        "id": "acs-neutralization",
+        "kind": "reference",
+        "label": "American Chemical Society: Acid-base neutralization",
+        "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson9.html"
+      },
+      {
+        "id": "original-indicator-model",
+        "kind": "original",
+        "label": "Original fictional indicator legends, sample cards, and comparison records authored for this quiz; no real samples are tested."
+      }
+    ],
+    "note": "All sample labels and color legends are fictional. A color is interpreted only with the legend supplied for that indicator; no sample is tasted or handled.",
+    "questions": [
+      {
+        "id": "sn70-1",
+        "sectionId": "read-indicators",
+        "kind": "choice",
+        "prompt": "A class sorts samples along a pH line. What kind of comparison does the line help make?",
+        "context": "Model record: sample P is marked at 3, sample Q at 7, and sample R at 11. The class uses these as positions on the acidic-to-basic scale; indicator colors are not shown.",
+        "explanation": "pH describes a sample's broad position from acidic through neutral to basic. Color is an indicator response that must be read with its own legend, not a universal color code.",
+        "sourceIds": [
+          "acs-indicators",
+          "original-indicator-model"
+        ],
+        "options": [
+          {
+            "id": "character",
+            "label": "Whether the sample is acidic, near neutral, or basic."
+          },
+          {
+            "id": "exact-identity",
+            "label": "The exact substance in the sample, by color alone."
+          },
+          {
+            "id": "safety",
+            "label": "Whether the sample is safe to drink."
+          },
+          {
+            "id": "same-color",
+            "label": "A universal color scale that every indicator shares."
+          }
+        ],
+        "correct": "character"
+      },
+      {
+        "id": "sn70-2",
+        "sectionId": "read-indicators",
+        "kind": "match",
+        "prompt": "Three model samples are checked with two indicator brands. Match each reading to the broad range in that brand’s key.",
+        "context": "Model keys: Q uses amber for acidic, sea-green for near neutral, and violet for basic. R uses orange for acidic, charcoal for near neutral, and blue for basic. Three different samples: X reads violet on Q; Y reads charcoal on R; Z reads orange on R.",
+        "explanation": "Use each indicator’s own key: violet on Q is basic, charcoal on R is near neutral, and orange on R is acidic. These are three different samples, and colors do not have a universal meaning.",
+        "sourceIds": [
+          "original-indicator-model",
+          "acs-indicators"
+        ],
+        "left": [
+          {
+            "id": "sample-a",
+            "label": "Sample X: Q reads violet"
+          },
+          {
+            "id": "sample-b",
+            "label": "Sample Y: R reads charcoal"
+          },
+          {
+            "id": "sample-c",
+            "label": "Sample Z: R reads orange"
+          }
+        ],
+        "right": [
+          {
+            "id": "acid-range",
+            "label": "Acidic range in the supplied key"
+          },
+          {
+            "id": "near-neutral",
+            "label": "Near-neutral range in the supplied key"
+          },
+          {
+            "id": "basic-range",
+            "label": "Basic range in the supplied key"
+          }
+        ],
+        "pairs": {
+          "sample-a": "basic-range",
+          "sample-b": "near-neutral",
+          "sample-c": "acid-range"
+        }
+      },
+      {
+        "id": "sn70-3",
+        "sectionId": "read-indicators",
+        "kind": "grid",
+        "prompt": "A reviewer flags three statements about the indicator records. Mark the conclusion each statement can support.",
+        "context": "Model keys: Q maps amber to acidic and sea-green to near neutral; R maps charcoal to near neutral. A classmate says Q’s amber reading is neutral because R uses charcoal for neutral; another says R’s charcoal gives an exact pH; a third has an unmarked strip with no key.",
+        "explanation": "Each keyed color must be interpreted under its own legend. Neither legend supplies an exact numerical value, and an unmarked strip cannot be assigned a broad category from color alone.",
+        "sourceIds": [
+          "original-indicator-model",
+          "acs-indicators"
+        ],
+        "cells": [
+          {
+            "id": "q-claim",
+            "label": "Claim: Q amber is neutral because R charcoal is neutral",
+            "options": [
+              {
+                "id": "own-key",
+                "label": "Use Q’s own key; amber is acidic there"
+              },
+              {
+                "id": "same-color",
+                "label": "Same broad range must use the same color"
+              },
+              {
+                "id": "exact",
+                "label": "Color gives an exact pH"
+              }
+            ],
+            "correct": "own-key"
+          },
+          {
+            "id": "r-claim",
+            "label": "Claim: R charcoal identifies an exact pH",
+            "options": [
+              {
+                "id": "basic",
+                "label": "It indicates R’s basic band"
+              },
+              {
+                "id": "neutral",
+                "label": "It indicates R’s near-neutral band, not an exact value"
+              },
+              {
+                "id": "identity",
+                "label": "It identifies the sample’s exact substance"
+              }
+            ],
+            "correct": "neutral"
+          },
+          {
+            "id": "unmarked",
+            "label": "No legend is available for the unmarked strip",
+            "options": [
+              {
+                "id": "acid",
+                "label": "Definitely acidic"
+              },
+              {
+                "id": "basic",
+                "label": "Definitely basic"
+              },
+              {
+                "id": "no-category",
+                "label": "A color category is not supported yet"
+              }
+            ],
+            "correct": "no-category"
+          }
+        ]
+      },
+      {
+        "id": "sn70-4",
+        "sectionId": "read-indicators",
+        "kind": "choice",
+        "prompt": "A report calls an unknown ‘basic’ because its strip is blue, but does not name the indicator brand. What is the most useful correction before keeping that label?",
+        "context": "Model record: the lab has Q and R strips. Q’s key lists violet as basic; R’s key lists blue as basic. The report gives only ‘blue’ and no strip label.",
+        "explanation": "The record is incomplete until the strip brand is known. The same color can have different meanings across keys, so identify which indicator produced the observation before assigning a range.",
+        "sourceIds": [
+          "original-indicator-model",
+          "acs-indicators"
+        ],
+        "options": [
+          {
+            "id": "brand",
+            "label": "Record which brand was used, then interpret blue with that brand’s key."
+          },
+          {
+            "id": "universal",
+            "label": "Treat blue as basic for every indicator."
+          },
+          {
+            "id": "exact",
+            "label": "Convert blue directly to an exact pH without a calibrated scale."
+          },
+          {
+            "id": "identity",
+            "label": "Use the color to name the exact substance."
+          }
+        ],
+        "correct": "brand"
+      },
+      {
+        "id": "sn70-5",
+        "sectionId": "compare-cases",
+        "kind": "choice",
+        "prompt": "A model sample moves from Q’s amber band toward sea-green after a small amount of a base is added. What does the record support?",
+        "context": "The same Q indicator, lighting, and number of drops are used. Q’s supplied key maps amber to acidic and sea-green to near neutral. No calibrated numerical reading is recorded.",
+        "explanation": "The color change supports a shift toward Q’s near-neutral band in this model. It does not give an exact pH or show that every portion became neutral; the indicator record, not the addition alone, supports the broad conclusion.",
+        "sourceIds": [
+          "original-indicator-model",
+          "acs-indicators",
+          "acs-neutralization"
+        ],
+        "options": [
+          {
+            "id": "toward",
+            "label": "The indicator response moved toward Q's near-neutral band."
+          },
+          {
+            "id": "exact",
+            "label": "The sample now has one exact pH value known from the color."
+          },
+          {
+            "id": "all-neutral",
+            "label": "Every portion must be fully neutral."
+          },
+          {
+            "id": "identity",
+            "label": "The color identifies which substance was added."
+          }
+        ],
+        "correct": "toward"
+      },
+      {
+        "id": "sn70-6",
+        "sectionId": "compare-cases",
+        "kind": "match",
+        "prompt": "Match each lab question to the next observation that would answer it most directly.",
+        "context": "Model questions: (A) Did dilution move this sample’s color toward Q’s neutral band? (B) Did two mixtures with different starting amounts end in the same broad band? (C) Is a color change repeatable rather than a one-time reading?",
+        "explanation": "A before-and-after comparison on the same sample tests its change; recording the starting amounts and final Q band compares the mixtures; repeating under the same conditions checks whether the observation recurs.",
+        "sourceIds": [
+          "original-indicator-model",
+          "acs-indicators"
+        ],
+        "left": [
+          {
+            "id": "dilution",
+            "label": "Check whether dilution moved one sample toward Q’s neutral band"
+          },
+          {
+            "id": "amounts",
+            "label": "Compare two mixtures that began with different amounts"
+          },
+          {
+            "id": "repeat",
+            "label": "Check whether one color change happens again"
+          }
+        ],
+        "right": [
+          {
+            "id": "not-guaranteed",
+            "label": "Record the same sample’s Q band before and after dilution"
+          },
+          {
+            "id": "still-acidic",
+            "label": "Record starting amounts and the final Q band for each mixture"
+          },
+          {
+            "id": "observed-neutral",
+            "label": "Repeat with the same indicator and lighting"
+          }
+        ],
+        "pairs": {
+          "dilution": "not-guaranteed",
+          "amounts": "still-acidic",
+          "repeat": "observed-neutral"
+        }
+      },
+      {
+        "id": "sn70-7",
+        "sectionId": "compare-cases",
+        "kind": "hotspot",
+        "prompt": "Which station has the comparison most useful for interpreting the unknown’s R-strip reading?",
+        "context": "Model record: Q maps amber to acidic and sea-green to near neutral. R maps orange to acidic and charcoal to near neutral. The unknown reads charcoal on R. Station A records a known acidic sample with Q; Station B records a known near-neutral sample with R; Station C has an unmarked strip and no key. The rectangles are text cards, not color swatches.",
+        "explanation": "A reference tested with R gives a same-indicator comparison for the unknown’s R reading. Q’s key and a strip without a legend cannot provide that matched reference.",
+        "sourceIds": [
+          "original-indicator-model",
+          "acs-indicators"
+        ],
+        "diagram": {
+          "title": "Fictional comparison cards",
+          "description": "Three large neutral station cards summarize model comparison records; they are not rendered samples.",
+          "zones": [
+            {
+              "id": "q-acid",
+              "label": "Station A",
+              "x": 4,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#f4d4a5"
+            },
+            {
+              "id": "r-neutral",
+              "label": "Station B",
+              "x": 36,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#d7d6cf"
+            },
+            {
+              "id": "no-key",
+              "label": "Station C",
+              "x": 68,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#e5e5e5"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "q-acid",
+            "label": "Station A"
+          },
+          {
+            "id": "r-neutral",
+            "label": "Station B"
+          },
+          {
+            "id": "no-key",
+            "label": "Station C"
+          }
+        ],
+        "correct": "r-neutral"
+      },
+      {
+        "id": "sn70-8",
+        "sectionId": "compare-cases",
+        "kind": "choice",
+        "prompt": "A new sample falls between two color bands on a fictional indicator. What is the best next comparison to narrow its broad range fairly?",
+        "context": "The instrument has no numerical scale. The supplied key shows a gap between acidic-range and near-neutral reference cards. The first reading used one Q strip, but there is no replicate and the lighting was not recorded.",
+        "explanation": "Repeating under the same lighting with the same indicator and nearby labeled reference cards checks whether the boundary reading is consistent. It still supports only a broad indicator range, not an exact pH or a safety judgment.",
+        "sourceIds": [
+          "original-indicator-model",
+          "acs-indicators"
+        ],
+        "options": [
+          {
+            "id": "repeat-controls",
+            "label": "Repeat with Q and the same lighting beside labeled reference cards."
+          },
+          {
+            "id": "switch-colors",
+            "label": "Choose a color key from a different indicator brand."
+          },
+          {
+            "id": "guess-exact",
+            "label": "Assign the midpoint as an exact pH value."
+          },
+          {
+            "id": "taste",
+            "label": "Taste the sample to decide its category."
+          }
+        ],
+        "correct": "repeat-controls"
+      }
+    ]
+  },
+  {
+    "id": "SN-71",
+    "slug": "leafs-tiny-adjustable-doors",
+    "categoryId": "science-nature",
+    "title": "The Leaf’s Tiny Adjustable Doors",
+    "description": "Trace water through a plant and use guard-cell models to reason about water loss and gas exchange without turning one leaf record into a universal rule.",
+    "kind": "knowledge",
+    "version": 1,
+    "wave": "catchup-2026-11-20",
+    "playMode": "solo",
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "plant-route",
+        "title": "Follow the Water Route"
+      },
+      {
+        "id": "leaf-cases",
+        "title": "Read the Leaf Cases"
+      }
+    ],
+    "sources": [
+      {
+        "id": "openstax-transport",
+        "kind": "reference",
+        "label": "OpenStax Biology 2e: Transport of Water and Solutes in Plants",
+        "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants"
+      },
+      {
+        "id": "original-leaf-model",
+        "kind": "original",
+        "label": "Original fictional leaf diagrams, guard-cell models, and observation records authored for this quiz; not measurements from real plants."
+      }
+    ],
+    "note": "Leaf and weather records are fictional qualitative models, not measured rates or universal claims about every plant species.",
+    "questions": [
+      {
+        "id": "sn71-1",
+        "sectionId": "plant-route",
+        "kind": "choice",
+        "prompt": "Which route best describes how water can travel from soil and leave a leaf as water vapor?",
+        "context": "Model record: a water marker appears near the roots, later in the stem and leaf; a vapor indicator then changes outside a leaf pore. No amount or rate is supplied.",
+        "explanation": "The route follows root uptake, transport through the plant, and water-vapor loss at the leaf. Stomata are pores, not tubes that carry all water straight from soil to air.",
+        "sourceIds": [
+          "openstax-transport",
+          "original-leaf-model"
+        ],
+        "options": [
+          {
+            "id": "route",
+            "label": "Roots → stems → leaves → air through stomata."
+          },
+          {
+            "id": "reverse",
+            "label": "Air → leaves → roots → soil, with no movement through stems."
+          },
+          {
+            "id": "leaf-only",
+            "label": "Water is made only inside stomata, so roots are not involved."
+          },
+          {
+            "id": "all-water",
+            "label": "Every drop taken up by roots leaves immediately as vapor."
+          }
+        ],
+        "correct": "route"
+      },
+      {
+        "id": "sn71-2",
+        "sectionId": "plant-route",
+        "kind": "match",
+        "prompt": "Match each model question to the observation that would answer it most directly.",
+        "context": "Model questions: (A) Did water move from the root region toward the leaf? (B) Did guard-cell movement change the pore opening? (C) Did the leaf’s water-vapor loss change between two conditions?",
+        "explanation": "A visible pathway marker can track movement toward the leaf; a before-and-after pore record shows opening change; and repeated vapor observations under recorded conditions address the loss question. A pore view alone is not a rate measurement.",
+        "sourceIds": [
+          "openstax-transport",
+          "original-leaf-model"
+        ],
+        "left": [
+          {
+            "id": "root-to-leaf",
+            "label": "Check whether a marker moved toward the leaf"
+          },
+          {
+            "id": "opening",
+            "label": "Check whether the pore width changed"
+          },
+          {
+            "id": "loss",
+            "label": "Check whether water-vapor loss changed"
+          }
+        ],
+        "right": [
+          {
+            "id": "uptake",
+            "label": "Record the marker’s location at root and leaf"
+          },
+          {
+            "id": "transport",
+            "label": "Compare pore width before and after"
+          },
+          {
+            "id": "exchange",
+            "label": "Repeat the same vapor observation and note conditions"
+          }
+        ],
+        "pairs": {
+          "root-to-leaf": "uptake",
+          "opening": "transport",
+          "loss": "exchange"
+        }
+      },
+      {
+        "id": "sn71-3",
+        "sectionId": "plant-route",
+        "kind": "grid",
+        "prompt": "Apply the simplified model to each new model record.",
+        "context": "Model records: (1) guard cells narrow a pore and the water-vapor indicator changes less; (2) the same pore narrows and the air-exchange indicator also changes; (3) a narrow pore is recorded, but no vapor or gas observation is taken.",
+        "explanation": "The records support a possible reduction in vapor loss and a possible effect on exchange when the pore narrows. A pore-width note alone cannot establish either an exact loss rate or a gas-exchange outcome.",
+        "sourceIds": [
+          "openstax-transport",
+          "original-leaf-model"
+        ],
+        "cells": [
+          {
+            "id": "narrow",
+            "label": "Record 1: narrower pore; vapor indicator changes less",
+            "options": [
+              {
+                "id": "less-loss",
+                "label": "Fits a possible reduction in water-vapor loss"
+              },
+              {
+                "id": "zero",
+                "label": "Proves every form of water loss stopped"
+              },
+              {
+                "id": "more-gas",
+                "label": "Proves gas exchange increased"
+              }
+            ],
+            "correct": "less-loss"
+          },
+          {
+            "id": "exchange",
+            "label": "Record 2: narrower pore; exchange indicator changes",
+            "options": [
+              {
+                "id": "unchanged",
+                "label": "Gas exchange is guaranteed unchanged"
+              },
+              {
+                "id": "may-change",
+                "label": "Gas exchange may also be affected"
+              },
+              {
+                "id": "no-roots",
+                "label": "Roots must stop taking up water"
+              }
+            ],
+            "correct": "may-change"
+          },
+          {
+            "id": "missing",
+            "label": "Record 3: narrow pore; no output measured",
+            "options": [
+              {
+                "id": "exact",
+                "label": "Exact water loss is known"
+              },
+              {
+                "id": "all-stop",
+                "label": "All exchange has stopped"
+              },
+              {
+                "id": "need-output",
+                "label": "Measure the outcome before claiming a change"
+              }
+            ],
+            "correct": "need-output"
+          }
+        ]
+      },
+      {
+        "id": "sn71-4",
+        "sectionId": "plant-route",
+        "kind": "choice",
+        "prompt": "For this fictional leaf model, which equal-area coating is predicted to restrict water loss more while still allowing some other water loss?",
+        "context": "Model record: stomata are mostly on the lower face of this fictional leaf. Two otherwise matched leaf models receive an equal-area seal on either the upper or lower face; light, temperature, time, and all other conditions match. The model allows nonzero water loss by other routes. This is a prediction from the model, not a claim about all leaves or a real activity.",
+        "explanation": "In this model, sealing the lower face covers more of the stomata, so it is predicted to restrict water loss more than sealing the same area on the upper face. Other routes may still allow nonzero loss. The prediction is specific to this fictional leaf, not a universal rule.",
+        "sourceIds": [
+          "openstax-transport",
+          "original-leaf-model"
+        ],
+        "options": [
+          {
+            "id": "lower-seal",
+            "label": "Seal the lower face, where this model places most stomata."
+          },
+          {
+            "id": "upper-seal",
+            "label": "Seal the upper face, where this model places fewer stomata."
+          },
+          {
+            "id": "both-seal",
+            "label": "Seal both faces, even though the comparison requires equal area."
+          },
+          {
+            "id": "no-seal",
+            "label": "Leave both faces unsealed and predict that all water loss stops."
+          }
+        ],
+        "correct": "lower-seal"
+      },
+      {
+        "id": "sn71-5",
+        "sectionId": "leaf-cases",
+        "kind": "choice",
+        "prompt": "A fictional plant setup loses mass while an outside sleeve collects droplets. What can the record support?",
+        "context": "Model record: the weighed boundary includes the pot, covered soil, and plant, but excludes a dry collection sleeve mounted outside the balance. The setup’s reading falls by 1 g while droplets appear in the sleeve. No complete water inventory or real measurement is supplied.",
+        "explanation": "Droplets in the sleeve are consistent with water moving from the weighed plant setup into a collector outside its boundary. Because the sleeve is excluded from the weighing, the record is not a full mass inventory and does not establish a real 1 g transfer or that all root uptake left the plant.",
+        "sourceIds": [
+          "openstax-transport",
+          "original-leaf-model"
+        ],
+        "options": [
+          {
+            "id": "outside-boundary",
+            "label": "The sleeve collects outside the weighed boundary, so the record is consistent with water leaving that setup but is not a complete inventory."
+          },
+          {
+            "id": "all-used",
+            "label": "The leaf must have used all water taken in by the roots."
+          },
+          {
+            "id": "no-loss",
+            "label": "A watered plant cannot lose water vapor."
+          },
+          {
+            "id": "roots-stop",
+            "label": "The mass change proves the roots stopped taking up water."
+          }
+        ],
+        "correct": "outside-boundary"
+      },
+      {
+        "id": "sn71-6",
+        "sectionId": "leaf-cases",
+        "kind": "match",
+        "prompt": "Match each raw paired record to the factor it can isolate in this fictional model.",
+        "context": "Raw model records: Pair A compares low and high humidity at the same pore width. Pair B compares narrow and wide pore settings at the same humidity. Pair C compares low humidity with a narrow pore against high humidity with a wide pore. The outcome recorded is the same qualitative vapor indicator.",
+        "explanation": "A isolates humidity because pore width stays the same; B isolates pore width because humidity stays the same. C changes both factors, so its difference cannot separate their individual effects. These are model comparisons, not plant measurements.",
+        "sourceIds": [
+          "original-leaf-model",
+          "openstax-transport"
+        ],
+        "left": [
+          {
+            "id": "pair-a",
+            "label": "Pair A: humidity differs; pore width matches"
+          },
+          {
+            "id": "pair-b",
+            "label": "Pair B: pore width differs; humidity matches"
+          },
+          {
+            "id": "pair-c",
+            "label": "Pair C: humidity and pore width both differ"
+          }
+        ],
+        "right": [
+          {
+            "id": "humidity",
+            "label": "Can isolate a humidity contrast"
+          },
+          {
+            "id": "pore-width",
+            "label": "Can isolate a pore-width contrast"
+          },
+          {
+            "id": "confounded",
+            "label": "Cannot separate these two factors in this pair alone"
+          }
+        ],
+        "pairs": {
+          "pair-a": "humidity",
+          "pair-b": "pore-width",
+          "pair-c": "confounded"
+        }
+      },
+      {
+        "id": "sn71-7",
+        "sectionId": "leaf-cases",
+        "kind": "hotspot",
+        "prompt": "Which station has the most informative records for testing whether pore width is associated with water-vapor loss in this model?",
+        "context": "Model records: Station A uses one leaf model at one temperature and humidity; it records vapor loss with a wider pore, then repeats with a narrower pore. Station B compares two leaves on different days and records only their pore widths. Station C records one leaf’s pore width once, without a vapor observation.",
+        "explanation": "Station A records both the pore and the outcome while holding key conditions and the model leaf constant. The other records either change several conditions or omit the water-vapor outcome. This tests the model, not every plant species.",
+        "sourceIds": [
+          "original-leaf-model",
+          "openstax-transport"
+        ],
+        "diagram": {
+          "title": "Fictional guard-cell model cards",
+          "description": "Three large neutral station cards summarize qualitative model records; no leaf or microscopic image is shown.",
+          "zones": [
+            {
+              "id": "narrow",
+              "label": "Station A",
+              "x": 4,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#b8d9c2"
+            },
+            {
+              "id": "wide",
+              "label": "Station B",
+              "x": 36,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#c5d8e8"
+            },
+            {
+              "id": "gone",
+              "label": "Station C",
+              "x": 68,
+              "y": 18,
+              "width": 28,
+              "height": 64,
+              "color": "#ead2c9"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "narrow",
+            "label": "Station A"
+          },
+          {
+            "id": "wide",
+            "label": "Station B"
+          },
+          {
+            "id": "gone",
+            "label": "Station C"
+          }
+        ],
+        "correct": "narrow"
+      },
+      {
+        "id": "sn71-8",
+        "sectionId": "leaf-cases",
+        "kind": "choice",
+        "prompt": "Which fictional observation would contradict the claim ‘all leaf pores in this model are always open at noon’?",
+        "context": "Toy observation cards describe one pore at a stated time. They are invented examples for testing a universal model claim, not biological findings or a rule about real leaves.",
+        "explanation": "A single recorded closed pore at noon is a counterexample to the claim that all pores are always open at noon. An open pore, no observation, or a closed pore at night does not contradict that exact claim. This toy record says nothing universal about real leaves.",
+        "sourceIds": [
+          "original-leaf-model",
+          "openstax-transport"
+        ],
+        "options": [
+          {
+            "id": "closed-noon",
+            "label": "One pore is recorded closed at noon."
+          },
+          {
+            "id": "open-noon",
+            "label": "One pore is recorded open at noon."
+          },
+          {
+            "id": "closed-night",
+            "label": "One pore is recorded closed at night."
+          },
+          {
+            "id": "no-record",
+            "label": "No pore observation is recorded."
+          }
+        ],
+        "correct": "closed-noon"
+      }
+    ]
+  },
+  {
+    "id": "SN-72",
+    "slug": "seed-that-waited-for-water",
+    "categoryId": "science-nature",
+    "title": "The Seed That Waited for Water",
+    "description": "Separate germination from later seedling growth, then use original seed-tray cases to plan fair tests without treating every quiet seed as dead.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "first-signs",
+        "title": "What a seed needs"
+      },
+      {
+        "id": "next-test",
+        "title": "Choose what to test next"
+      }
+    ],
+    "sources": [
+      {
+        "id": "umn",
+        "label": "University of Minnesota Extension, Starting Seeds Indoors",
+        "kind": "reference",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/starting-seeds-indoors"
+      },
+      {
+        "id": "openstax",
+        "label": "OpenStax Biology 2e, 32.2 Pollination and Fertilization",
+        "kind": "reference",
+        "url": "https://openstax.org/books/biology-2e/pages/32-2-pollination-and-fertilization"
+      },
+      {
+        "id": "original",
+        "label": "Original fictional seed models and records authored for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "Model records are fictional. Follow each seed lot’s label; light needs and dormancy rules vary.",
+    "questions": [
+      {
+        "id": "sn72-1",
+        "sectionId": "first-signs",
+        "kind": "choice",
+        "prompt": "A packet gives a temperature range and says to keep its seeds moist. Which tray card records all three conditions named for germination?",
+        "context": "Original label for fictional Silver Bell seeds: keep moist, not submerged; allow air to reach the mix; hold at 18–22°C. The label does not state that light is needed. Four trays are at the same temperature unless noted.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Damp mix, air spaces open, 20°C"
+          },
+          {
+            "id": "b",
+            "label": "Dry mix, air spaces open, 20°C"
+          },
+          {
+            "id": "c",
+            "label": "Damp mix, sealed underwater, 20°C"
+          },
+          {
+            "id": "d",
+            "label": "Damp mix, air spaces open, 8°C"
+          }
+        ],
+        "correct": "a",
+        "explanation": "A matches the label’s moisture and temperature directions while leaving air available. B is dry, C is submerged, and D falls outside this invented label’s range. The example does not make one light rule universal.",
+        "sourceIds": [
+          "umn",
+          "original"
+        ]
+      },
+      {
+        "id": "sn72-2",
+        "sectionId": "first-signs",
+        "kind": "match",
+        "prompt": "Match each seed-tray problem to the next record that would make a comparison useful.",
+        "context": "Model record: one tray has no dated checks, another pair used different seed lots, and a third packet has a cool-rest instruction with no treatment log.",
+        "left": [
+          {
+            "id": "dates",
+            "label": "A tray was checked on irregular, unrecorded days"
+          },
+          {
+            "id": "lots",
+            "label": "Two trays contain different seed lots"
+          },
+          {
+            "id": "rest",
+            "label": "A packet specifies cool rest, but the log is blank"
+          }
+        ],
+        "right": [
+          {
+            "id": "treatment",
+            "label": "Record whether that lot received its stated rest"
+          },
+          {
+            "id": "schedule",
+            "label": "Use a shared observation schedule"
+          },
+          {
+            "id": "lot",
+            "label": "Repeat with one seed lot split between trays"
+          }
+        ],
+        "pairs": {
+          "dates": "schedule",
+          "lots": "lot",
+          "rest": "treatment"
+        },
+        "explanation": "A shared schedule makes timing comparable, a split lot avoids mixing seed-lot differences with tray conditions, and a treatment log shows whether the packet instruction was followed.",
+        "sourceIds": [
+          "umn",
+          "original"
+        ]
+      },
+      {
+        "id": "sn72-3",
+        "sectionId": "first-signs",
+        "kind": "choice",
+        "prompt": "A lab partner claims a shoot must appear before any root. Which record would directly test that claim?",
+        "context": "Model record from one seed lot: on day 3, four seeds had visible root tips below the mix and no shoot had emerged; on day 5, one shoot was first recorded. Checks used the same sample and dates.",
+        "options": [
+          {
+            "id": "contradict",
+            "label": "The day-3 roots with no shoot contradict the claim for this lot"
+          },
+          {
+            "id": "confirm",
+            "label": "The day-5 shoot proves shoots always emerge first"
+          },
+          {
+            "id": "light",
+            "label": "The record proves the seeds require light to germinate"
+          },
+          {
+            "id": "dead",
+            "label": "Seeds without day-3 shoots must have been dead"
+          }
+        ],
+        "correct": "contradict",
+        "explanation": "The day-3 observations show root emergence before a visible shoot in this fictional lot. OpenStax describes the emerging root as an early germination event; this record does not establish a timetable for every species.",
+        "sourceIds": [
+          "openstax",
+          "original"
+        ]
+      },
+      {
+        "id": "sn72-4",
+        "sectionId": "first-signs",
+        "kind": "hotspot",
+        "prompt": "Which plan should be paired with Plan A to test moisture while keeping temperature and air access alike?",
+        "context": "Model record for one seed lot: Plan A uses dry mix at 20°C with air available; Plan B uses damp mix at 20°C with air available; Plan C uses damp mix at 20°C under water; Plan D uses damp mix with air available at 8°C.",
+        "diagram": {
+          "title": "Four seed-tray plan cards",
+          "description": "Four labeled rectangular cards are selectable zones. Their plan details are written in the context; no tray or seed illustration is shown.",
+          "zones": [
+            {
+              "id": "a",
+              "label": "Plan A",
+              "x": 2,
+              "y": 5,
+              "width": 46,
+              "height": 42,
+              "color": "#e9e3d7"
+            },
+            {
+              "id": "b",
+              "label": "Plan B",
+              "x": 52,
+              "y": 5,
+              "width": 46,
+              "height": 42,
+              "color": "#dce9dd"
+            },
+            {
+              "id": "c",
+              "label": "Plan C",
+              "x": 2,
+              "y": 53,
+              "width": 46,
+              "height": 42,
+              "color": "#dbe7ed"
+            },
+            {
+              "id": "d",
+              "label": "Plan D",
+              "x": 52,
+              "y": 53,
+              "width": 46,
+              "height": 42,
+              "color": "#e6e0ef"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "a",
+            "label": "Plan A"
+          },
+          {
+            "id": "b",
+            "label": "Plan B"
+          },
+          {
+            "id": "c",
+            "label": "Plan C"
+          },
+          {
+            "id": "d",
+            "label": "Plan D"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Comparing the two records tests moisture while holding the listed temperature and air access alike. The other plans also differ in submersion or temperature.",
+        "sourceIds": [
+          "umn",
+          "original"
+        ]
+      },
+      {
+        "id": "sn72-5",
+        "sectionId": "next-test",
+        "kind": "choice",
+        "prompt": "A library wants to know whether a dry-stored lot can germinate. Which first check would give the most useful evidence?",
+        "context": "Model record: no sprout was observed during dry storage. The lot has a packet with sowing conditions, but no sample has yet been tested under them.",
+        "options": [
+          {
+            "id": "test",
+            "label": "Test a small sample using this lot’s packet directions and record the follow-up interval"
+          },
+          {
+            "id": "declare",
+            "label": "Mark the whole lot dead because no sprout appeared in storage"
+          },
+          {
+            "id": "light",
+            "label": "Place it in strong light without checking the packet"
+          },
+          {
+            "id": "guarantee",
+            "label": "Assume adding water guarantees every seed will sprout"
+          }
+        ],
+        "correct": "test",
+        "explanation": "Dry storage is not a germination test. A small sample under the lot’s stated directions can provide relevant evidence without claiming that every seed will sprout.",
+        "sourceIds": [
+          "umn",
+          "original"
+        ]
+      },
+      {
+        "id": "sn72-6",
+        "sectionId": "next-test",
+        "kind": "choice",
+        "prompt": "What does this tray contrast leave unresolved?",
+        "context": "Model record: equal-sized samples from one seed lot were kept at 20°C for seven days. Tray M was damp with air access; Tray N was waterlogged with less air access and had fewer root tips.",
+        "options": [
+          {
+            "id": "both",
+            "label": "Moisture and air access changed together, so this record cannot separate their effects"
+          },
+          {
+            "id": "moisture",
+            "label": "The lower count proves moisture alone caused the difference"
+          },
+          {
+            "id": "air",
+            "label": "The lower count proves reduced air access alone caused the difference"
+          },
+          {
+            "id": "same",
+            "label": "The record does not show which tray had fewer root tips"
+          }
+        ],
+        "correct": "both",
+        "explanation": "The count difference is recorded, but moisture and air access vary together. It cannot assign the difference to either one alone; a later test would first choose which factor to isolate under matched conditions.",
+        "sourceIds": [
+          "umn",
+          "original"
+        ]
+      },
+      {
+        "id": "sn72-7",
+        "sectionId": "next-test",
+        "kind": "grid",
+        "prompt": "A split-lot trial produced these counts. Which conclusions follow from the model record?",
+        "context": "Model record: two equal groups from one seed lot were observed on day 10 under the same stated sowing conditions. The cool-rest group had 11 root tips among 20 seeds; the no-rest group had 9 among 20. The fictional trial was not repeated.",
+        "cells": [
+          {
+            "id": "counts",
+            "label": "The two recorded counts differ by two seeds",
+            "options": [
+              {
+                "id": "shown",
+                "label": "Shown by this record"
+              },
+              {
+                "id": "not-shown",
+                "label": "Not established by this record"
+              }
+            ],
+            "correct": "shown"
+          },
+          {
+            "id": "guarantee",
+            "label": "Cool rest guarantees every seed in this lot will sprout",
+            "options": [
+              {
+                "id": "shown",
+                "label": "Shown by this record"
+              },
+              {
+                "id": "not-shown",
+                "label": "Not established by this record"
+              }
+            ],
+            "correct": "not-shown"
+          },
+          {
+            "id": "repeat",
+            "label": "The two-seed difference will recur in another split-lot trial",
+            "options": [
+              {
+                "id": "shown",
+                "label": "Shown by this record"
+              },
+              {
+                "id": "not-shown",
+                "label": "Not established; repeat the trial"
+              }
+            ],
+            "correct": "not-shown"
+          }
+        ],
+        "explanation": "The counts differ in this single fictional run, but it does not show a guarantee or whether the difference would recur. Repeating matched groups is the informative next check.",
+        "sourceIds": [
+          "umn",
+          "original"
+        ]
+      },
+      {
+        "id": "sn72-8",
+        "sectionId": "next-test",
+        "kind": "choice",
+        "prompt": "A grower wants to test whether one packet’s cool-rest instruction changes this lot’s outcome. Which comparison is most informative?",
+        "context": "Model record: the fictional Moonbell packet specifies 14 days of cool, moist rest before sowing. The grower can divide one lot into two equal samples and observe both for the same period after sowing.",
+        "options": [
+          {
+            "id": "compare",
+            "label": "Give one sample the stated rest, sow the other without it, then keep sowing conditions and observation time alike"
+          },
+          {
+            "id": "all-rest",
+            "label": "Give both samples the rest and compare them with an older, unrelated lot"
+          },
+          {
+            "id": "change",
+            "label": "Give one sample the rest and also change its temperature and light after sowing"
+          },
+          {
+            "id": "universal",
+            "label": "Apply the same 14-day rest to every seed species"
+          }
+        ],
+        "correct": "compare",
+        "explanation": "A split-lot comparison changes the rest treatment while holding later conditions and observation time alike. Its result would apply to this invented lot, not to every species.",
+        "sourceIds": [
+          "umn",
+          "original"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-73",
+    "slug": "water-between-the-grains",
+    "categoryId": "science-nature",
+    "title": "The Water Between the Grains",
+    "description": "Explore how underground pore space stores water while connected openings control how it moves, using original model cards and invented sample records.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "pore-models",
+        "title": "Space and connection"
+      },
+      {
+        "id": "follow-water",
+        "title": "Read the underground clues"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utah",
+        "label": "Utah Geological Survey, Groundwater and Aquifers",
+        "kind": "reference",
+        "url": "https://geology.utah.gov/water/groundwater/groundwater-aquifers/"
+      },
+      {
+        "id": "usgs-glossary",
+        "label": "USGS, Groundwater Glossary",
+        "kind": "reference",
+        "url": "https://pubs.usgs.gov/gip/gw/glossary.html"
+      },
+      {
+        "id": "original",
+        "label": "Original fictional pore models and sample records authored for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "Model records are fictional; symbolic cards do not depict real pores, wells, or water quality.",
+    "questions": [
+      {
+        "id": "sn73-1",
+        "sectionId": "pore-models",
+        "kind": "choice",
+        "prompt": "In a rock sample, what does porosity describe?",
+        "context": "Use the supplied terms: pores are openings between or within material; porosity describes how much open space the material contains. Permeability describes how readily connected openings let water pass.",
+        "options": [
+          {
+            "id": "space",
+            "label": "The amount of open pore space"
+          },
+          {
+            "id": "links",
+            "label": "How well pore spaces connect for water movement"
+          },
+          {
+            "id": "slope",
+            "label": "The steepness of the land above the sample"
+          },
+          {
+            "id": "purity",
+            "label": "Whether water in the sample is safe to drink"
+          }
+        ],
+        "correct": "space",
+        "explanation": "Porosity is about the amount of space. Connectivity and ease of flow are described by permeability; neither term alone establishes water quality.",
+        "sourceIds": [
+          "utah",
+          "usgs-glossary"
+        ]
+      },
+      {
+        "id": "sn73-2",
+        "sectionId": "pore-models",
+        "kind": "match",
+        "prompt": "Match each pore-cell model to the result it would most likely produce in the same timed flow test.",
+        "context": "Model record: A has many isolated spaces; B has fewer, wide connected openings; C has many spaces joined by narrow passages. Each card receives the same amount of water under the same pressure.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Model A: many isolated spaces"
+          },
+          {
+            "id": "b",
+            "label": "Model B: fewer spaces, wide connecting openings"
+          },
+          {
+            "id": "c",
+            "label": "Model C: many spaces, narrow connecting passages"
+          }
+        ],
+        "right": [
+          {
+            "id": "quick",
+            "label": "Water reaches the outlet most readily"
+          },
+          {
+            "id": "slow",
+            "label": "Water reaches the outlet, but passage may be slower"
+          },
+          {
+            "id": "little",
+            "label": "Little water reaches the outlet during the test"
+          }
+        ],
+        "pairs": {
+          "a": "little",
+          "b": "quick",
+          "c": "slow"
+        },
+        "explanation": "The predictions use connectivity and passage width, not simply the count of spaces. These symbolic cards model relative flow only.",
+        "sourceIds": [
+          "utah",
+          "usgs-glossary",
+          "original"
+        ]
+      },
+      {
+        "id": "sn73-3",
+        "sectionId": "pore-models",
+        "kind": "choice",
+        "prompt": "A core holds water after soaking but releases very little during a short test. Which added measurement would best separate storage from flow?",
+        "context": "Model record: two equal cores retain similar water volume after soaking. Core R releases little in ten minutes; no measurement of connected openings or water quality has been made.",
+        "options": [
+          {
+            "id": "flow",
+            "label": "Measure how much water passes through each core in the same time under the same conditions"
+          },
+          {
+            "id": "colour",
+            "label": "Compare the color of the water after the test"
+          },
+          {
+            "id": "weight",
+            "label": "Weigh only the wet cores and assume the heavier one transmits faster"
+          },
+          {
+            "id": "slope",
+            "label": "Measure the land slope above each core"
+          }
+        ],
+        "correct": "flow",
+        "explanation": "A matched passage test directly measures movement; retained volume describes storage. Neither observation establishes water quality.",
+        "sourceIds": [
+          "utah",
+          "usgs-glossary",
+          "original"
+        ]
+      },
+      {
+        "id": "sn73-4",
+        "sectionId": "pore-models",
+        "kind": "choice",
+        "prompt": "A student says water cannot move through pore spaces until every space is saturated. Which model record tests that claim?",
+        "context": "Model record: partly wet, unsaturated sand sits above a marked saturated layer. A harmless tracer applied at the surface appears at a lower outlet before the sand is fully water-filled.",
+        "options": [
+          {
+            "id": "move",
+            "label": "The observation shows movement through this model before full saturation"
+          },
+          {
+            "id": "aquifer",
+            "label": "The upper sand must therefore meet the supplied definition of an aquifer"
+          },
+          {
+            "id": "still",
+            "label": "The tracer cannot have moved because the pores were not all full"
+          },
+          {
+            "id": "quality",
+            "label": "The tracer result shows the outlet water is safe to drink"
+          }
+        ],
+        "correct": "move",
+        "explanation": "The fictional observation directly records movement before full saturation. Saturation is part of the supplied aquifer description, not a universal prerequisite for water movement.",
+        "sourceIds": [
+          "utah",
+          "original"
+        ]
+      },
+      {
+        "id": "sn73-5",
+        "sectionId": "follow-water",
+        "kind": "choice",
+        "prompt": "A report says two samples have equal pore volume, so their flow must be equal. Which repeat would best check that prediction?",
+        "context": "Model record: under the same water head, a tracer reached the far end of Sample L but not Sample J during the observation window. Their measured total pore volumes were similar; the samples are fictional.",
+        "options": [
+          {
+            "id": "repeat",
+            "label": "Repeat equal-sized samples at the same head and compare passage through connected openings"
+          },
+          {
+            "id": "color",
+            "label": "Use water color as a substitute for measuring passage"
+          },
+          {
+            "id": "space",
+            "label": "Count pore volume again and assume it determines flow by itself"
+          },
+          {
+            "id": "river",
+            "label": "Add a large underground river to explain the result"
+          }
+        ],
+        "correct": "repeat",
+        "explanation": "A controlled passage test checks flow directly while the similar pore-volume observation describes storage. The record does not support claims about purity or underground rivers.",
+        "sourceIds": [
+          "utah",
+          "usgs-glossary",
+          "original"
+        ]
+      },
+      {
+        "id": "sn73-6",
+        "sectionId": "follow-water",
+        "kind": "hotspot",
+        "prompt": "A dye test starts at the upper edge. Which card’s observations predict dye at the lower outlet?",
+        "context": "Model record: Card A has separated spaces; Card B has openings that continue from the upper edge to the outlet; Card C has openings that end halfway down; Card D has a solid band across the middle.",
+        "diagram": {
+          "title": "Four symbolic pore-model cards",
+          "description": "Selectable zones are labeled rectangular cards with text names. The model details are supplied in context; no circles, pore photographs, arrows, or underground illustration are rendered.",
+          "zones": [
+            {
+              "id": "a",
+              "label": "Card A",
+              "x": 2,
+              "y": 5,
+              "width": 46,
+              "height": 42,
+              "color": "#e4e0d7"
+            },
+            {
+              "id": "b",
+              "label": "Card B",
+              "x": 52,
+              "y": 5,
+              "width": 46,
+              "height": 42,
+              "color": "#dce9dd"
+            },
+            {
+              "id": "c",
+              "label": "Card C",
+              "x": 2,
+              "y": 53,
+              "width": 46,
+              "height": 42,
+              "color": "#e8e2d3"
+            },
+            {
+              "id": "d",
+              "label": "Card D",
+              "x": 52,
+              "y": 53,
+              "width": 46,
+              "height": 42,
+              "color": "#e5dfe8"
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "a",
+            "label": "Card A"
+          },
+          {
+            "id": "b",
+            "label": "Card B"
+          },
+          {
+            "id": "c",
+            "label": "Card C"
+          },
+          {
+            "id": "d",
+            "label": "Card D"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Only Card B has an observed opening path that reaches the outlet. The cards are symbolic model records, not photographs of aquifer pores.",
+        "sourceIds": [
+          "utah",
+          "usgs-glossary",
+          "original"
+        ]
+      },
+      {
+        "id": "sn73-7",
+        "sectionId": "follow-water",
+        "kind": "choice",
+        "prompt": "A team wants to know whether two monitoring points share a connected route in its model. Which observation is most informative?",
+        "context": "Model record: both sample screens end in the marked saturated interval. After a small measured withdrawal at Point A, Point B’s water level changes later; a third point outside the interval shows no change. No quality test was run.",
+        "options": [
+          {
+            "id": "repeat",
+            "label": "Repeat the withdrawal and log timed level changes at all three points under the same conditions"
+          },
+          {
+            "id": "purity",
+            "label": "Taste the samples to decide whether the points are connected"
+          },
+          {
+            "id": "dots",
+            "label": "Use their distance on the page as proof of a route"
+          },
+          {
+            "id": "assume",
+            "label": "Treat one delayed level change as proof of a permanent high-yield well"
+          }
+        ],
+        "correct": "repeat",
+        "explanation": "Repeated, timed responses provide better evidence about the model’s hydraulic connection. They do not establish water quality or guarantee a real well’s yield.",
+        "sourceIds": [
+          "utah",
+          "usgs-glossary",
+          "original"
+        ]
+      },
+      {
+        "id": "sn73-8",
+        "sectionId": "follow-water",
+        "kind": "choice",
+        "prompt": "A saturated core stores much water but yields little in a short test. Which follow-up would help tell disconnected pores from narrow connected passages?",
+        "context": "Model record: the core retains a large volume after soaking and releases little through its outlet in ten minutes. The test did not show the internal connections.",
+        "options": [
+          {
+            "id": "trace",
+            "label": "Introduce a harmless tracer and record whether it reaches the outlet and how long it takes"
+          },
+          {
+            "id": "taste",
+            "label": "Taste the water to infer pore connections"
+          },
+          {
+            "id": "volume",
+            "label": "Measure retained volume again and assume it gives the flow rate"
+          },
+          {
+            "id": "river",
+            "label": "Assume a hidden underground river must carry the water"
+          }
+        ],
+        "correct": "trace",
+        "explanation": "A tracer’s arrival and timing can reveal whether an outlet path exists and how readily the model transmits water. Stored volume alone cannot distinguish those patterns.",
+        "sourceIds": [
+          "utah",
+          "usgs-glossary",
+          "original"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-74",
+    "slug": "rock-layers-that-learned-to-fold",
+    "categoryId": "science-nature",
+    "title": "The Rock Layers That Learned to Fold",
+    "description": "Read text profiles of continuous folded layers and broken, offset layers to reconstruct how deformation changed an original stack.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "deformation-clues",
+        "title": "Bend or break?"
+      },
+      {
+        "id": "rebuild-history",
+        "title": "Reconstruct a changed stack"
+      }
+    ],
+    "sources": [
+      {
+        "id": "death-valley",
+        "label": "National Park Service, Faults",
+        "kind": "reference",
+        "url": "https://home.nps.gov/deva/learn/nature/faults.htm"
+      },
+      {
+        "id": "waterpocket",
+        "label": "National Park Service, Waterpocket District",
+        "kind": "reference",
+        "url": "https://www.nps.gov/care/planyourvisit/waterpocketdistrict.htm"
+      },
+      {
+        "id": "original",
+        "label": "Original fictional layer profiles and field records authored for this quiz.",
+        "kind": "original"
+      }
+    ],
+    "note": "The title’s ‘learned to fold’ is a metaphor. All profiles are fictional text records.",
+    "questions": [
+      {
+        "id": "sn74-1",
+        "sectionId": "deformation-clues",
+        "kind": "choice",
+        "prompt": "A layer bends but can still be traced continuously through the profile. Which description fits that clue?",
+        "context": "Original text profile: the same labeled bed curves gently down and up; its top and bottom boundaries remain continuous, with no gap or offset. The words describe a profile, not a drawn curve.",
+        "options": [
+          {
+            "id": "fold",
+            "label": "A fold bends the layer without breaking its continuity"
+          },
+          {
+            "id": "fault",
+            "label": "A fault must have split and displaced the layer"
+          },
+          {
+            "id": "new",
+            "label": "A new layer formed where the bend appears"
+          },
+          {
+            "id": "erosion",
+            "label": "Erosion alone bent the intact layer"
+          }
+        ],
+        "correct": "fold",
+        "explanation": "The profile keeps the layer continuous while changing its shape, which is the key fold clue. A broken, offset bed would instead indicate fault displacement.",
+        "sourceIds": [
+          "death-valley",
+          "waterpocket",
+          "original"
+        ]
+      },
+      {
+        "id": "sn74-2",
+        "sectionId": "deformation-clues",
+        "kind": "match",
+        "prompt": "Match each measured block movement to the fault type it supports.",
+        "context": "The NPS account distinguishes fault types by displacement: one low-angle upper block moved up over the lower block; one upper block moved down; a third pair of blocks shifted sideways past each other.",
+        "left": [
+          {
+            "id": "up",
+            "label": "Record A: upper block rode up a low-angle break"
+          },
+          {
+            "id": "down",
+            "label": "Record B: upper block moved down a break"
+          },
+          {
+            "id": "side",
+            "label": "Record C: matching markers shifted sideways"
+          }
+        ],
+        "right": [
+          {
+            "id": "normal",
+            "label": "Normal fault"
+          },
+          {
+            "id": "strike",
+            "label": "Strike-slip fault"
+          },
+          {
+            "id": "thrust",
+            "label": "Thrust fault"
+          }
+        ],
+        "pairs": {
+          "up": "thrust",
+          "down": "normal",
+          "side": "strike"
+        },
+        "explanation": "The records give relative movement rather than stress names: low-angle upward displacement is thrust, downward movement of the upper block is normal, and lateral displacement is strike-slip.",
+        "sourceIds": [
+          "death-valley",
+          "original"
+        ]
+      },
+      {
+        "id": "sn74-3",
+        "sectionId": "deformation-clues",
+        "kind": "choice",
+        "prompt": "A marker bed disappears beneath a talus slope. Which field observation would best decide whether it bends continuously or is offset by a break?",
+        "context": "Model record: the bed is visible on both sides of the covered interval, but its apparent height differs. The exposures are fictional and provide no age or motion data.",
+        "options": [
+          {
+            "id": "trace",
+            "label": "Map the same bed boundary at closer exposures across the covered interval"
+          },
+          {
+            "id": "colour",
+            "label": "Compare only the rock color on the two exposed ends"
+          },
+          {
+            "id": "cliff",
+            "label": "Measure the cliff height at each end"
+          },
+          {
+            "id": "guess",
+            "label": "Assume the height difference proves a fault"
+          }
+        ],
+        "correct": "trace",
+        "explanation": "Tracing the same boundary through more exposures can show continuity or a break with displacement. Color and cliff height alone do not settle the profile.",
+        "sourceIds": [
+          "death-valley",
+          "original"
+        ]
+      },
+      {
+        "id": "sn74-4",
+        "sectionId": "deformation-clues",
+        "kind": "choice",
+        "prompt": "A caption says a younger flat bed was folded together with the layers below it. Which profile clue would contradict that caption?",
+        "context": "Model record: a curved marker bed is cut off at an uneven surface; a flat bed rests on that surface and remains unbent. No absolute ages or regional history are supplied.",
+        "options": [
+          {
+            "id": "contact",
+            "label": "The flat bed rests across the cut surface while the older marker bed ends below it"
+          },
+          {
+            "id": "same",
+            "label": "Both beds have the same color"
+          },
+          {
+            "id": "height",
+            "label": "The ridge is higher on its western side"
+          },
+          {
+            "id": "age",
+            "label": "The notebook gives no absolute dates"
+          }
+        ],
+        "correct": "contact",
+        "explanation": "In this fictional profile, the cut surface truncates the curved bed and the flat bed lies above it, so the flat bed is not shown as part of the earlier folding. This is a deduction from the supplied model only.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sn74-5",
+        "sectionId": "rebuild-history",
+        "kind": "grid",
+        "prompt": "For each uncertain profile, choose the next observation that would best test the field team’s interpretation.",
+        "context": "Model record: the team sees a broad bend, a possible offset, and an uneven contact in three separate exposures. Each detail is incomplete; the profiles are fictional.",
+        "cells": [
+          {
+            "id": "bend",
+            "label": "The team suspects the bed stays continuous through a broad bend",
+            "options": [
+              {
+                "id": "trace",
+                "label": "Trace the same bed boundary through the bend"
+              },
+              {
+                "id": "offset",
+                "label": "Measure a matching marker across a break"
+              },
+              {
+                "id": "contact",
+                "label": "Check whether a later bed rests across a cut surface"
+              }
+            ],
+            "correct": "trace"
+          },
+          {
+            "id": "break",
+            "label": "The team suspects two parts of a marker bed were displaced",
+            "options": [
+              {
+                "id": "trace",
+                "label": "Trace the same bed boundary through the bend"
+              },
+              {
+                "id": "offset",
+                "label": "Measure matching marker positions on both sides of the break"
+              },
+              {
+                "id": "contact",
+                "label": "Check whether a later bed rests across a cut surface"
+              }
+            ],
+            "correct": "offset"
+          },
+          {
+            "id": "surface",
+            "label": "The team suspects an uneven surface was covered later",
+            "options": [
+              {
+                "id": "trace",
+                "label": "Trace the same bed boundary through the bend"
+              },
+              {
+                "id": "offset",
+                "label": "Measure matching marker positions on both sides of the break"
+              },
+              {
+                "id": "contact",
+                "label": "Check whether the upper bed crosses and covers the uneven contact"
+              }
+            ],
+            "correct": "contact"
+          }
+        ],
+        "explanation": "Each proposed interpretation needs a different decisive observation: continuity through the bend, offset of a matching marker, or a later bed crossing the uneven contact. These invented profiles do not establish regional history.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sn74-6",
+        "sectionId": "rebuild-history",
+        "kind": "match",
+        "prompt": "Match each unresolved exhibit claim to the evidence that could test it.",
+        "context": "Model record: a fictional ridge profile shows a bent lower bed, an upper bed and a break. The file has no repeat surveys, evidence about the forces involved, or observations that establish the sequence of the break and upper bed.",
+        "left": [
+          {
+            "id": "motion",
+            "label": "The ridge is still moving today"
+          },
+          {
+            "id": "cause",
+            "label": "Compression alone caused the bend"
+          },
+          {
+            "id": "timing",
+            "label": "The break formed before the upper bed"
+          }
+        ],
+        "right": [
+          {
+            "id": "repeat",
+            "label": "Compare stable survey points on dated visits"
+          },
+          {
+            "id": "process",
+            "label": "Find independent evidence tied to the forces that formed the profile"
+          },
+          {
+            "id": "crosscut",
+            "label": "Check whether the break cuts the upper bed or stops below it"
+          }
+        ],
+        "pairs": {
+          "motion": "repeat",
+          "cause": "process",
+          "timing": "crosscut"
+        },
+        "explanation": "A static profile cannot establish present movement or identify its forming force. Dated surveys address movement, independent process evidence bears on the cause, and the cross-cutting relation tests the proposed sequence.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sn74-7",
+        "sectionId": "rebuild-history",
+        "kind": "choice",
+        "prompt": "A field team records a curved bed crossed by a sharp break. Which event sequence best fits the mapped profile?",
+        "context": "Model record: the bed bends continuously around a broad curve; a straight break cuts across the bend, and the same marker is displaced on its two sides. All observations are fictional and undated.",
+        "options": [
+          {
+            "id": "fold-fault",
+            "label": "The bed folded, then the cross-cutting break displaced it"
+          },
+          {
+            "id": "fault-fold",
+            "label": "The bed was displaced first, then folded without affecting the break"
+          },
+          {
+            "id": "new-bed",
+            "label": "The break created a new sedimentary bed"
+          },
+          {
+            "id": "active",
+            "label": "The record proves the break is moving today"
+          }
+        ],
+        "correct": "fold-fault",
+        "explanation": "In this model, the break cuts across and offsets the already curved bed, so the profile records folding before displacement. It gives no absolute dates or evidence of current motion.",
+        "sourceIds": [
+          "original"
+        ]
+      },
+      {
+        "id": "sn74-8",
+        "sectionId": "rebuild-history",
+        "kind": "choice",
+        "prompt": "A display writer says the profile proves that compression formed this bend. What is the most accurate revision using only the field record?",
+        "context": "Model record: three labeled beds remain continuous through a broad bend. The notebook records shape and position only; it gives no force measurements, absolute ages, or observations from other ranges.",
+        "options": [
+          {
+            "id": "shape",
+            "label": "The recorded beds bend continuously; this profile alone does not identify the force"
+          },
+          {
+            "id": "force",
+            "label": "The curve proves a specific force and its direction"
+          },
+          {
+            "id": "age",
+            "label": "The bend proves these are the youngest regional rocks"
+          },
+          {
+            "id": "universal",
+            "label": "Every mountain range must form in this way"
+          }
+        ],
+        "correct": "shape",
+        "explanation": "The fictional profile establishes the geometry, not a measured force, age, or universal process. The revised caption stays within its evidence.",
+        "sourceIds": [
+          "original"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-75",
+    "slug": "which-way-comets-tail-points",
+    "categoryId": "science-nature",
+    "title": "Which Way Does the Comet’s Tail Point?",
+    "description": "Read original Sun-and-comet station cards to separate the comet’s motion from the directions of its dust and ion tails.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "meet-the-comet",
+        "title": "Meet the comet"
+      },
+      {
+        "id": "follow-the-tail",
+        "title": "Follow the tail"
+      }
+    ],
+    "sources": [
+      {
+        "id": "spaceplace",
+        "kind": "reference",
+        "label": "NASA Space Place: Comets",
+        "url": "https://spaceplace.nasa.gov/comets/en/"
+      },
+      {
+        "id": "helio",
+        "kind": "reference",
+        "label": "NASA Science Activation: Helio and You—Comets, the Sun, and You",
+        "url": "https://science.nasa.gov/learning-resources/science-activation/helio-and-you-comets-the-sun-and-you/"
+      },
+      {
+        "id": "comet-facts",
+        "kind": "reference",
+        "label": "NASA Science: Comets Facts",
+        "url": "https://science.nasa.gov/solar-system/comets/facts/"
+      },
+      {
+        "id": "stations",
+        "kind": "original",
+        "label": "Original Sun/comet station model and cards."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sn75-1",
+        "sectionId": "meet-the-comet",
+        "kind": "choice",
+        "prompt": "A later image shows a bright compact object surrounded by a much wider haze. Which part is the nucleus?",
+        "context": "Opening model: the nucleus is the small solid body; gas and dust around it form the coma, which can spread much farther in an image. Model record.",
+        "explanation": "The bright compact object is the nucleus; the broad surrounding haze is the coma. The apparent size of the haze does not make it the solid center.",
+        "sourceIds": [
+          "spaceplace",
+          "comet-facts",
+          "stations"
+        ],
+        "options": [
+          {
+            "id": "nucleus",
+            "label": "The compact central body"
+          },
+          {
+            "id": "coma",
+            "label": "The surrounding gas-and-dust cloud"
+          },
+          {
+            "id": "ion-tail",
+            "label": "The long tail made from charged gas"
+          },
+          {
+            "id": "dust-tail",
+            "label": "The broad trail of dust grains"
+          }
+        ],
+        "correct": "nucleus"
+      },
+      {
+        "id": "sn75-2",
+        "sectionId": "meet-the-comet",
+        "kind": "match",
+        "prompt": "A spectrometer separates two tail samples. Match each sample to the pattern the model predicts.",
+        "context": "Model record: Sample A contains charged gas beside a monitor reading an outward solar stream. Sample B contains dust grains along a curved track. Use the separate observations to predict each sample’s tail behavior.",
+        "explanation": "Charged gas forms the ion tail, shaped by the solar wind and directed away from the Sun. Dust grains form the dust tail, which can curve along the comet’s path; the two samples need not share one shape.",
+        "sourceIds": [
+          "helio",
+          "comet-facts",
+          "stations"
+        ],
+        "left": [
+          {
+            "id": "charged-gas",
+            "label": "Sample A: charged gas"
+          },
+          {
+            "id": "dust-grains",
+            "label": "Sample B: dust grains"
+          }
+        ],
+        "right": [
+          {
+            "id": "solar-wind",
+            "label": "Aligns away from the Sun with the outward stream"
+          },
+          {
+            "id": "curved-path",
+            "label": "Can curve along the comet’s path"
+          }
+        ],
+        "pairs": {
+          "charged-gas": "solar-wind",
+          "dust-grains": "curved-path"
+        }
+      },
+      {
+        "id": "sn75-3",
+        "sectionId": "meet-the-comet",
+        "kind": "choice",
+        "prompt": "A camera records a widening cloud while the compact center stays visible. Which cause best explains the new observation?",
+        "context": "Model record: as the comet nears the Sun, a faint haze widens and dust appears beyond the compact center. The images show no breakup or atmospheric entry.",
+        "explanation": "Solar warming can release gas from cometary ice; that gas carries dust outward and enlarges the coma while the nucleus remains the compact center. The observation does not support burning in Earth’s air or star formation.",
+        "sourceIds": [
+          "spaceplace",
+          "comet-facts",
+          "stations"
+        ],
+        "options": [
+          {
+            "id": "warming",
+            "label": "Sunlight warms ice, releasing gas and dust"
+          },
+          {
+            "id": "air-fire",
+            "label": "Earth’s air sets the comet on fire"
+          },
+          {
+            "id": "star-making",
+            "label": "The nucleus becomes a tiny star"
+          },
+          {
+            "id": "moon-pull",
+            "label": "A nearby moon pulls a cloud off the comet"
+          }
+        ],
+        "correct": "warming"
+      },
+      {
+        "id": "sn75-4",
+        "sectionId": "meet-the-comet",
+        "kind": "choice",
+        "prompt": "A two-position log shows the comet getting closer to the Sun while also shifting sideways. What does this establish about its motion?",
+        "context": "Model record: with the Sun at (0,0), the comet moves from (6,3) to (4,4). A separate camera note records the ion-tail direction away from the Sun.",
+        "explanation": "The comet has a Sunward component and a sideways component of motion. The ion tail points away from the Sun, but that fact alone does not set the comet’s full direction of travel.",
+        "sourceIds": [
+          "helio",
+          "comet-facts",
+          "stations"
+        ],
+        "options": [
+          {
+            "id": "components",
+            "label": "It has a Sunward component and a sideways component"
+          },
+          {
+            "id": "tail-sets-motion",
+            "label": "The tail direction gives the full direction of travel"
+          },
+          {
+            "id": "only-sideways",
+            "label": "It moves sideways but not closer to the Sun"
+          },
+          {
+            "id": "stopped",
+            "label": "The tail direction proves the comet has stopped"
+          }
+        ],
+        "correct": "components"
+      },
+      {
+        "id": "sn75-5",
+        "sectionId": "follow-the-tail",
+        "kind": "hotspot",
+        "prompt": "At Stop B the Sun is left of the comet. Which station record fits the ion-tail direction?",
+        "context": "Model record: Station A reports Sun left/tail left; Station B reports Sun left/tail right; Station C reports Sun left/tail above. Rectangles are selectable labels, not a drawing.",
+        "explanation": "Away from a Sun on the left is to the right, so Station B is the consistent reading. The comet’s direction of travel does not reverse this Sun-relative rule.",
+        "sourceIds": [
+          "helio",
+          "comet-facts",
+          "stations"
+        ],
+        "diagram": {
+          "title": "Original comet station cards",
+          "description": "Three neutral selectable station labels refer to raw position readings in the context; rectangles represent labels only.",
+          "zones": [
+            {
+              "id": "sun-left",
+              "label": "Station A",
+              "x": 6,
+              "y": 7,
+              "width": 88,
+              "height": 24
+            },
+            {
+              "id": "sun-right",
+              "label": "Station B",
+              "x": 6,
+              "y": 38,
+              "width": 88,
+              "height": 24
+            },
+            {
+              "id": "sun-below",
+              "label": "Station C",
+              "x": 6,
+              "y": 69,
+              "width": 88,
+              "height": 24
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "sun-left",
+            "label": "Station A"
+          },
+          {
+            "id": "sun-right",
+            "label": "Station B"
+          },
+          {
+            "id": "sun-below",
+            "label": "Station C"
+          }
+        ],
+        "correct": "sun-right"
+      },
+      {
+        "id": "sn75-6",
+        "sectionId": "follow-the-tail",
+        "kind": "choice",
+        "prompt": "A classmate claims that the expanding haze proves the solid nucleus is getting larger. Which observation would best check that claim?",
+        "context": "Model record: the surrounding haze is broader in the later of two images. A compact center remains visible in both; its size was not measured.",
+        "explanation": "A calibrated comparison of the compact center across the two frames would test the claim. The haze can expand as released gas and dust spread without showing that the solid nucleus grew.",
+        "sourceIds": [
+          "spaceplace",
+          "comet-facts",
+          "stations"
+        ],
+        "options": [
+          {
+            "id": "center-size",
+            "label": "Compare calibrated measurements of the compact center in both frames"
+          },
+          {
+            "id": "haze-only",
+            "label": "Measure only how wide the surrounding haze appears"
+          },
+          {
+            "id": "background",
+            "label": "Compare the background stars without measuring the comet"
+          },
+          {
+            "id": "later-caption",
+            "label": "Add a stronger caption to the later image"
+          }
+        ],
+        "correct": "center-size"
+      },
+      {
+        "id": "sn75-7",
+        "sectionId": "follow-the-tail",
+        "kind": "grid",
+        "prompt": "For each date, decide which explanation best fits the paired direction measurements.",
+        "context": "Model record: the comet shifts against background stars. On Date 1 the Sun is east and the ion tail west; on Date 2 the Sun is south and the tail north. No cause is recorded.",
+        "explanation": "The measured tail direction changes with the Sun’s position and remains opposite it in both records. A fixed background star would not explain that paired shift.",
+        "sourceIds": [
+          "helio",
+          "stations"
+        ],
+        "cells": [
+          {
+            "id": "date-1",
+            "label": "Date 1: Sun east; tail west",
+            "options": [
+              {
+                "id": "sun-rule",
+                "label": "Tail tracks the Sun-relative direction"
+              },
+              {
+                "id": "star-rule",
+                "label": "Tail stays fixed against background stars"
+              },
+              {
+                "id": "motion-rule",
+                "label": "Tail always points along comet motion"
+              }
+            ],
+            "correct": "sun-rule"
+          },
+          {
+            "id": "date-2",
+            "label": "Date 2: Sun south; tail north",
+            "options": [
+              {
+                "id": "sun-rule",
+                "label": "Tail tracks the Sun-relative direction"
+              },
+              {
+                "id": "star-rule",
+                "label": "Tail stays fixed against background stars"
+              },
+              {
+                "id": "motion-rule",
+                "label": "Tail always points along comet motion"
+              }
+            ],
+            "correct": "sun-rule"
+          }
+        ]
+      },
+      {
+        "id": "sn75-8",
+        "sectionId": "follow-the-tail",
+        "kind": "choice",
+        "prompt": "A new observation finds two tail components at different angles. Which follow-up would best test whether they are simply one plume dragged behind the comet?",
+        "context": "At two positions, a narrow component and a broader component have different directions relative to the comet’s measured motion. The record does not identify their material or compare either with the Sun’s position.",
+        "explanation": "Separately measuring the component materials and their directions relative to the Sun and comet would test the single-plume claim. The ion tail is shaped by the solar wind and points away from the Sun; the dust tail can curve along the path.",
+        "sourceIds": [
+          "spaceplace",
+          "helio",
+          "comet-facts",
+          "stations"
+        ],
+        "options": [
+          {
+            "id": "separate-tracks",
+            "label": "Identify each component’s material and compare its direction with both the Sun and comet motion"
+          },
+          {
+            "id": "one-frame",
+            "label": "Take one more image without recording Sun position or comet motion"
+          },
+          {
+            "id": "brightness",
+            "label": "Measure only the combined tail’s brightness"
+          },
+          {
+            "id": "caption",
+            "label": "Ask another observer to label the feature as one plume"
+          }
+        ],
+        "correct": "separate-tracks"
+      }
+    ],
+    "playMode": "solo"
+  },
+  {
+    "id": "SN-76",
+    "slug": "saturns-rings-seen-sideways",
+    "categoryId": "science-nature",
+    "title": "Saturn’s Rings Seen Sideways",
+    "description": "Use an original flat-annulus model and observer cards to tell a narrow edge-on view from evidence that ring material is missing.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "read-the-view",
+        "title": "Read the view"
+      },
+      {
+        "id": "test-the-claim",
+        "title": "Test the claim"
+      }
+    ],
+    "sources": [
+      {
+        "id": "hubble-1995",
+        "kind": "reference",
+        "label": "NASA Hubble: Edge-on View of Saturn’s Rings (1995 observation)",
+        "url": "https://science.nasa.gov/asset/hubble/edge-on-view-of-saturns-rings/"
+      },
+      {
+        "id": "hubble-edge",
+        "kind": "reference",
+        "label": "NASA Hubble: Saturn’s Rings Edge-on (1995 observation)",
+        "url": "https://science.nasa.gov/asset/hubble/saturns-rings-edge-on/"
+      },
+      {
+        "id": "saturn-facts",
+        "kind": "reference",
+        "label": "NASA Science: Saturn Facts",
+        "url": "https://science.nasa.gov/saturn/facts/"
+      },
+      {
+        "id": "annulus",
+        "kind": "original",
+        "label": "Original flat-annulus model and observer cards."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sn76-1",
+        "sectionId": "read-the-view",
+        "kind": "choice",
+        "prompt": "In the model, how can a very wide ring system look like a narrow line from one viewing direction?",
+        "context": "NASA describes Saturn’s rings as wide but very thin. In this original model, the rings are a flat annulus. Compare looking at the broad face with looking nearly along its plane; no ring picture is shown.",
+        "explanation": "A sightline nearly along a thin annulus shows its narrow edge, even when the system remains wide. Apparent width in one view is not the same as physical width of the ring system.",
+        "sourceIds": [
+          "saturn-facts",
+          "annulus"
+        ],
+        "options": [
+          {
+            "id": "edge",
+            "label": "The observer looks nearly along the ring plane"
+          },
+          {
+            "id": "shrink",
+            "label": "The rings must have physically shrunk"
+          },
+          {
+            "id": "vanish",
+            "label": "The particles have all disappeared"
+          },
+          {
+            "id": "closer",
+            "label": "The observer moved closer to Saturn"
+          }
+        ],
+        "correct": "edge"
+      },
+      {
+        "id": "sn76-2",
+        "sectionId": "read-the-view",
+        "kind": "match",
+        "prompt": "Match each camera record to the projected ring shape it predicts.",
+        "context": "Model record: the annulus stays fixed. Camera A is measured 2° above the ring plane; Camera B is 78° above it. These are not Saturn measurements.",
+        "explanation": "A line of sight close to the ring plane shows its thin edge, while a steep angle toward the broad face shows a wide elliptical band. Only the viewing direction changes.",
+        "sourceIds": [
+          "hubble-1995",
+          "hubble-edge",
+          "annulus"
+        ],
+        "left": [
+          {
+            "id": "edge",
+            "label": "Camera A: 2° above ring plane"
+          },
+          {
+            "id": "face",
+            "label": "Camera B: 78° above ring plane"
+          }
+        ],
+        "right": [
+          {
+            "id": "broad",
+            "label": "Broad ring view"
+          },
+          {
+            "id": "narrow",
+            "label": "Narrow edge-on view"
+          }
+        ],
+        "pairs": {
+          "edge": "narrow",
+          "face": "broad"
+        }
+      },
+      {
+        "id": "sn76-3",
+        "sectionId": "read-the-view",
+        "kind": "grid",
+        "prompt": "For each new record, choose which explanation it can help evaluate.",
+        "context": "Model record: (1) camera tilt and measured band width change; (2) a dark band crosses Saturn’s cloud tops as the light source moves; (3) particle positions are counted twice in one ring sector at the same angle.",
+        "explanation": "Changing camera tilt tests a projection explanation; a moving dark band on Saturn’s clouds is an illumination/shadow observation; repeated particle counts at a matched angle bear on whether material changed.",
+        "sourceIds": [
+          "hubble-1995",
+          "hubble-edge",
+          "annulus"
+        ],
+        "cells": [
+          {
+            "id": "tilt-width",
+            "label": "Camera tilt and measured band width change together",
+            "options": [
+              {
+                "id": "view",
+                "label": "Projection/viewpoint"
+              },
+              {
+                "id": "light",
+                "label": "Illumination"
+              },
+              {
+                "id": "material",
+                "label": "Material inventory"
+              }
+            ],
+            "correct": "view"
+          },
+          {
+            "id": "dark-band",
+            "label": "A dark band crosses Saturn’s cloud tops as lighting shifts",
+            "options": [
+              {
+                "id": "view",
+                "label": "Projection/viewpoint"
+              },
+              {
+                "id": "light",
+                "label": "Illumination"
+              },
+              {
+                "id": "material",
+                "label": "Material inventory"
+              }
+            ],
+            "correct": "light"
+          },
+          {
+            "id": "particle-count",
+            "label": "Particle positions are counted twice at the same viewing angle",
+            "options": [
+              {
+                "id": "view",
+                "label": "Projection/viewpoint"
+              },
+              {
+                "id": "light",
+                "label": "Illumination"
+              },
+              {
+                "id": "material",
+                "label": "Material inventory"
+              }
+            ],
+            "correct": "material"
+          }
+        ]
+      },
+      {
+        "id": "sn76-4",
+        "sectionId": "read-the-view",
+        "kind": "choice",
+        "prompt": "A student sees a moon’s shadow on the ring plane and claims the ring particles are missing there. What is the flaw in that conclusion?",
+        "context": "Model record: a moon’s shadow falls across the ring plane while the band is viewed at a shallow angle. No particle count is recorded beneath the dark patch. NASA’s linked edge-on records are historical, not today’s view.",
+        "explanation": "A moon’s shadow marks where sunlight is blocked; it does not show that ring particles are absent. The shallow viewing angle can also make the band look narrow, so neither clue alone establishes material loss.",
+        "sourceIds": [
+          "hubble-1995",
+          "hubble-edge",
+          "annulus"
+        ],
+        "options": [
+          {
+            "id": "shadow-not-gap",
+            "label": "A shadow is an illumination clue, not a particle count"
+          },
+          {
+            "id": "shadow-gap",
+            "label": "The dark patch proves ring material is missing"
+          },
+          {
+            "id": "today",
+            "label": "The historical record means the rings are edge-on today"
+          },
+          {
+            "id": "shrink",
+            "label": "The narrow band proves the rings physically shrank"
+          }
+        ],
+        "correct": "shadow-not-gap"
+      },
+      {
+        "id": "sn76-5",
+        "sectionId": "test-the-claim",
+        "kind": "hotspot",
+        "prompt": "Which observer card is predicted to show the narrowest band?",
+        "context": "Model record: angles above the ring plane are Observer A, 81°; Plan B, 3°; Observer C, 42°. Rectangles are neutral labels, not ring drawings.",
+        "explanation": "Plan B is closest to the ring plane, so the line of sight runs nearly along the annulus and shows its narrow edge. The larger angles look more toward the broad face.",
+        "sourceIds": [
+          "saturn-facts",
+          "annulus"
+        ],
+        "diagram": {
+          "title": "Original observer-position cards",
+          "description": "Selectable rectangles carry neutral labels; raw observer angles are stated in the context.",
+          "zones": [
+            {
+              "id": "along-plane",
+              "label": "Observer A",
+              "x": 6,
+              "y": 7,
+              "width": 88,
+              "height": 24
+            },
+            {
+              "id": "toward-face",
+              "label": "Plan B",
+              "x": 6,
+              "y": 38,
+              "width": 88,
+              "height": 24
+            },
+            {
+              "id": "far-face",
+              "label": "Observer C",
+              "x": 6,
+              "y": 69,
+              "width": 88,
+              "height": 24
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "along-plane",
+            "label": "Observer A"
+          },
+          {
+            "id": "toward-face",
+            "label": "Plan B"
+          },
+          {
+            "id": "far-face",
+            "label": "Observer C"
+          }
+        ],
+        "correct": "toward-face"
+      },
+      {
+        "id": "sn76-6",
+        "sectionId": "test-the-claim",
+        "kind": "choice",
+        "prompt": "A team compares two photos taken from different angles and reports a width change. Which follow-up best isolates a real change in the ring material?",
+        "context": "Model record: the two photos have different viewing angles and apparent widths. No particle count was made; illumination also changed between visits.",
+        "explanation": "A repeated particle-distribution measurement at a matched viewing angle can test a material change while reducing projection as a competing explanation. Another unmatched image or a shadow alone cannot establish missing particles.",
+        "sourceIds": [
+          "saturn-facts",
+          "annulus"
+        ],
+        "options": [
+          {
+            "id": "particle-check",
+            "label": "Repeat a particle-distribution measurement at the same viewing angle"
+          },
+          {
+            "id": "same-view",
+            "label": "Take another photo at a different, unrecorded angle"
+          },
+          {
+            "id": "shadow-only",
+            "label": "Record a shadow without checking ring particles"
+          },
+          {
+            "id": "closer-photo",
+            "label": "Zoom in on one image without matching the view"
+          }
+        ],
+        "correct": "particle-check"
+      },
+      {
+        "id": "sn76-7",
+        "sectionId": "test-the-claim",
+        "kind": "match",
+        "prompt": "Match each shadow record to the object blocking the sunlight and the surface receiving it.",
+        "context": "Model record: Record A shows a wide dark band across Saturn’s cloud tops; Record B shows a small moving patch on the ring plane. NASA’s Hubble records document ring and moon shadows in separate observations.",
+        "explanation": "The rings can cast a broad shadow onto Saturn’s cloud tops; a moon can cast a smaller shadow onto the ring plane. A shadow identifies blocked light on a surface, not a gap in that surface’s material.",
+        "sourceIds": [
+          "hubble-1995",
+          "hubble-edge",
+          "saturn-facts",
+          "annulus"
+        ],
+        "left": [
+          {
+            "id": "record-a",
+            "label": "Record A: band across Saturn’s cloud tops"
+          },
+          {
+            "id": "record-b",
+            "label": "Record B: patch on the ring plane"
+          }
+        ],
+        "right": [
+          {
+            "id": "rings-cast",
+            "label": "Rings block sunlight reaching Saturn"
+          },
+          {
+            "id": "moon-casts",
+            "label": "A moon blocks sunlight reaching the rings"
+          }
+        ],
+        "pairs": {
+          "record-a": "rings-cast",
+          "record-b": "moon-casts"
+        }
+      },
+      {
+        "id": "sn76-8",
+        "sectionId": "test-the-claim",
+        "kind": "choice",
+        "prompt": "At a fixed viewing angle, the band looks dimmer on a later visit even though its measured width is unchanged. What measurement would help distinguish changed lighting from material loss?",
+        "context": "Original flat-annulus model: both stations view the same ring sector at the same fixed angle. The later station has weaker incident illumination; apparent band brightness decreases and measured width stays the same. No particle count is recorded.",
+        "explanation": "Brightness responds to illumination, so dimming alone does not show particles were lost. Keep the angle and sector fixed, record incident illumination, and compare calibrated particle counts; a lower count under matched illumination would support material loss.",
+        "sourceIds": [
+          "hubble-1995",
+          "hubble-edge",
+          "saturn-facts",
+          "annulus"
+        ],
+        "options": [
+          {
+            "id": "light-and-count",
+            "label": "Record incident light and compare calibrated particle counts for the same sector"
+          },
+          {
+            "id": "brightness-only",
+            "label": "Use the dimmer appearance alone as a count of missing particles"
+          },
+          {
+            "id": "new-angle",
+            "label": "Change the viewing angle and compare apparent band widths"
+          },
+          {
+            "id": "unmatched-photo",
+            "label": "Take another image without measuring illumination or particles"
+          }
+        ],
+        "correct": "light-and-count"
+      }
+    ],
+    "playMode": "solo"
+  },
+  {
+    "id": "SN-77",
+    "slug": "survey-that-missed-the-shady-corner",
+    "categoryId": "science-nature",
+    "title": "The Survey That Missed the Shady Corner",
+    "description": "Plan a fair garden survey by spotting who was left out of the sample frame, not by treating a larger convenience sample as a cure.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "spot-the-gap",
+        "title": "Spot the coverage gap"
+      },
+      {
+        "id": "redesign-the-survey",
+        "title": "Redesign the survey"
+      }
+    ],
+    "sources": [
+      {
+        "id": "openstax",
+        "kind": "reference",
+        "label": "OpenStax: Introductory Statistics 2e, Data, Sampling, and Variation in Data and Sampling",
+        "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling"
+      },
+      {
+        "id": "garden",
+        "kind": "original",
+        "label": "Original garden-survey model, habitat cards, and sample plans."
+      }
+    ],
+    "questions": [
+      {
+        "id": "sn77-1",
+        "sectionId": "spot-the-gap",
+        "kind": "choice",
+        "prompt": "A garden survey visits only sunny beds. What is its biggest design gap if the question is about the whole garden?",
+        "context": "Model record: the garden has sunny beds, a shady corner, and a damp strip. Every visit was along the sunny path; no count was entered for places not visited.",
+        "explanation": "The sunny-path sample leaves other habitats out of the frame, so it may not represent the whole garden. More visits on the same path would add effort without covering the omitted places.",
+        "sourceIds": [
+          "openstax",
+          "garden"
+        ],
+        "options": [
+          {
+            "id": "coverage",
+            "label": "The shady and damp habitats were not represented"
+          },
+          {
+            "id": "too-many",
+            "label": "Any survey with more than one visit is biased"
+          },
+          {
+            "id": "zero-count",
+            "label": "Unvisited beds must contain zero kinds of plants"
+          },
+          {
+            "id": "perfect-random",
+            "label": "A random choice on the path represents every habitat"
+          }
+        ],
+        "correct": "coverage"
+      },
+      {
+        "id": "sn77-2",
+        "sectionId": "spot-the-gap",
+        "kind": "match",
+        "prompt": "Match each sampling plan to what it can guarantee before anyone sees the counts.",
+        "context": "Model record for a 24-square garden: Plan A draws six at random from one full list. Plan B draws two at random from each of three habitat lists.",
+        "explanation": "A simple random draw from the full list gives every square a chance but can miss a small habitat. Drawing within each habitat guarantees the planned two from each group, making habitat comparisons possible.",
+        "sourceIds": [
+          "openstax",
+          "garden"
+        ],
+        "left": [
+          {
+            "id": "simple",
+            "label": "Six random squares from one full list"
+          },
+          {
+            "id": "stratified",
+            "label": "Two random squares from each habitat list"
+          }
+        ],
+        "right": [
+          {
+            "id": "chance",
+            "label": "Each square can be selected, but a habitat may be missed"
+          },
+          {
+            "id": "each-habitat",
+            "label": "At least two squares from every habitat"
+          }
+        ],
+        "pairs": {
+          "simple": "chance",
+          "stratified": "each-habitat"
+        }
+      },
+      {
+        "id": "sn77-3",
+        "sectionId": "spot-the-gap",
+        "kind": "grid",
+        "prompt": "A clerk fills every blank visit cell with zero and claims that all habitats were measured. Which correction is needed?",
+        "context": "Notebook: Shade-1 has no date, observer, or count. Damp-2 has a visit date and an entry of 0 seedlings. The clerk copied both into the summary as zero.",
+        "explanation": "Damp-2 is a measured zero; Shade-1 is missing data because no visit is recorded. The summary must preserve that distinction rather than turn an unknown count into a measurement.",
+        "sourceIds": [
+          "openstax",
+          "garden"
+        ],
+        "cells": [
+          {
+            "id": "shade-1",
+            "label": "Shade-1: no date, observer, or count",
+            "options": [
+              {
+                "id": "missing",
+                "label": "No measurement"
+              },
+              {
+                "id": "zero",
+                "label": "Measured zero"
+              },
+              {
+                "id": "positive",
+                "label": "Measured positive count"
+              }
+            ],
+            "correct": "missing"
+          },
+          {
+            "id": "damp-2",
+            "label": "Damp-2: dated visit; entry is 0",
+            "options": [
+              {
+                "id": "missing",
+                "label": "No measurement"
+              },
+              {
+                "id": "zero",
+                "label": "Measured zero"
+              },
+              {
+                "id": "positive",
+                "label": "Measured positive count"
+              }
+            ],
+            "correct": "zero"
+          }
+        ]
+      },
+      {
+        "id": "sn77-4",
+        "sectionId": "spot-the-gap",
+        "kind": "match",
+        "prompt": "Use the map boundaries to determine which habitat region contains each sample coordinate, then match it to the region’s label.",
+        "context": "Original model map with north at the top: a vertical divider at x=5 and a horizontal divider at y=5 split a 0–10 coordinate grid. The northwest region is a shaded planter, northeast is a paved path, southwest is a sunny lawn, and southeast is a damp rain bed. Coordinates are (x,y); no sample lies on a divider.",
+        "explanation": "Locate each point relative to both dividers to identify its quadrant, then match that region to its habitat label. Keep the paved path distinct from planted ground beds when comparing counts.",
+        "sourceIds": [
+          "openstax",
+          "garden"
+        ],
+        "left": [
+          {
+            "id": "sample-a",
+            "label": "Sample A: (2, 8)"
+          },
+          {
+            "id": "sample-b",
+            "label": "Sample B: (8, 8)"
+          },
+          {
+            "id": "sample-c",
+            "label": "Sample C: (2, 2)"
+          },
+          {
+            "id": "sample-d",
+            "label": "Sample D: (8, 2)"
+          }
+        ],
+        "right": [
+          {
+            "id": "shade",
+            "label": "Shaded planter"
+          },
+          {
+            "id": "path",
+            "label": "Paved path"
+          },
+          {
+            "id": "sun",
+            "label": "Sunny lawn"
+          },
+          {
+            "id": "damp",
+            "label": "Damp rain bed"
+          }
+        ],
+        "pairs": {
+          "sample-a": "shade",
+          "sample-b": "path",
+          "sample-c": "sun",
+          "sample-d": "damp"
+        }
+      },
+      {
+        "id": "sn77-5",
+        "sectionId": "redesign-the-survey",
+        "kind": "choice",
+        "prompt": "The club must compare all three habitats using six visits. Which plan guarantees at least one randomly selected square from each?",
+        "context": "Model map: 12 sunny, 8 shady, and 4 damp squares. The goal is to compare habitats, using one consistent count method at each selected square.",
+        "explanation": "Use a stratified draw: make a list within each habitat, randomly select two sunny, two shady, and two damp squares, then apply the same count method. Drawing six from the combined list would not guarantee a damp or shady square.",
+        "sourceIds": [
+          "openstax",
+          "garden"
+        ],
+        "options": [
+          {
+            "id": "stratified-six",
+            "label": "Randomly draw two within each habitat and use one count method"
+          },
+          {
+            "id": "all-random",
+            "label": "Draw six from the combined list and assume every habitat appears"
+          },
+          {
+            "id": "sunny-only",
+            "label": "Choose six sunny squares because they are easiest to reach"
+          },
+          {
+            "id": "repeat-old",
+            "label": "Revisit the same sunny squares more often"
+          }
+        ],
+        "correct": "stratified-six"
+      },
+      {
+        "id": "sn77-6",
+        "sectionId": "redesign-the-survey",
+        "kind": "choice",
+        "prompt": "After the first stratified visit, damp plots vary much more than sunny plots. What follow-up would best improve the damp-habitat estimate?",
+        "context": "The team randomly chose two squares per habitat and used the same counting method. The first two damp-square counts are far apart; no additional damp squares have been visited.",
+        "explanation": "Randomly selecting more squares from the damp habitat and using the same method adds information about its variation. Repeating one convenient damp plot would not represent the range of that habitat as well.",
+        "sourceIds": [
+          "openstax",
+          "garden"
+        ],
+        "options": [
+          {
+            "id": "more-random",
+            "label": "Randomly select additional damp squares and count them the same way"
+          },
+          {
+            "id": "repeat-one",
+            "label": "Recount the same damp square several times"
+          },
+          {
+            "id": "switch-method",
+            "label": "Use a different counting method only for damp squares"
+          },
+          {
+            "id": "sunny",
+            "label": "Add more sunny squares and keep the damp sample unchanged"
+          }
+        ],
+        "correct": "more-random"
+      },
+      {
+        "id": "sn77-7",
+        "sectionId": "redesign-the-survey",
+        "kind": "match",
+        "prompt": "Match each schoolyard design constraint to the sampling plan that meets it.",
+        "context": "A school has a shaded courtyard and a sunny field. The team can list every square in both areas and use the same seedling-count method. One goal specifically requires a single random draw from the combined full frame with no area quotas; the other requires at least one sampled square from each area for separate comparison.",
+        "explanation": "The single combined-frame draw meets the first goal’s stated design constraint. Random draws within both area lists guarantee representation for the separate comparison. A properly weighted stratified sample can also estimate an overall total; the first goal is uniquely matched here because it explicitly requires one draw from the full frame.",
+        "sourceIds": [
+          "openstax",
+          "garden"
+        ],
+        "left": [
+          {
+            "id": "overall",
+            "label": "Make one random draw from the combined full frame, with no area quotas"
+          },
+          {
+            "id": "compare",
+            "label": "Guarantee at least one square from each area for a separate comparison"
+          }
+        ],
+        "right": [
+          {
+            "id": "combined",
+            "label": "Simple random draw from the combined frame"
+          },
+          {
+            "id": "strata",
+            "label": "Random draws within both area lists"
+          }
+        ],
+        "pairs": {
+          "overall": "combined",
+          "compare": "strata"
+        }
+      },
+      {
+        "id": "sn77-8",
+        "sectionId": "redesign-the-survey",
+        "kind": "choice",
+        "prompt": "The stratified sample finds fewer seedlings in shaded plots than sunny plots. A student writes, “Shade caused the difference.” How should the report be corrected?",
+        "context": "Notebook: randomly selected squares in both habitats were counted with one method; sample averages differ. Soil, watering, and other conditions were not controlled.",
+        "explanation": "Report the observed difference between the sampled habitats, but do not call shade its cause. A sampling survey can describe a pattern; other differences between plots could also contribute.",
+        "sourceIds": [
+          "openstax",
+          "garden"
+        ],
+        "options": [
+          {
+            "id": "association",
+            "label": "Report the sample difference and say the survey does not establish its cause"
+          },
+          {
+            "id": "all-squares",
+            "label": "Claim every shady square has the same count"
+          },
+          {
+            "id": "cause-known",
+            "label": "Keep the causal claim because the draw was random"
+          },
+          {
+            "id": "perfect",
+            "label": "Say random sampling guarantees a perfectly accurate total"
+          }
+        ],
+        "correct": "association"
+      }
+    ],
+    "playMode": "solo"
   }
 ]

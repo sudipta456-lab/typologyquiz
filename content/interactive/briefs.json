@@ -6,55 +6,55 @@
     {
       "code": "PC",
       "name": "Personality & Choices",
-      "count": 36,
+      "count": 37,
       "file": "01-personality-choices.md"
     },
     {
       "code": "FS",
       "name": "Friends & Social Play",
-      "count": 37,
+      "count": 38,
       "file": "02-friends-social-play.md"
     },
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 34,
+      "count": 35,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 34,
+      "count": 35,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 34,
+      "count": 35,
       "file": "05-geography-travel.md"
     },
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 65,
+      "count": 77,
       "file": "06-science-nature.md"
     },
     {
       "code": "HC",
       "name": "History & Culture",
-      "count": 36,
+      "count": 37,
       "file": "07-history-culture.md"
     },
     {
       "code": "FE",
       "name": "Food & Everyday Life",
-      "count": 36,
+      "count": 37,
       "file": "08-food-everyday-life.md"
     },
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 34,
+      "count": 35,
       "file": "09-sports-games.md"
     },
     {
@@ -8134,6 +8134,426 @@
       "category": "Food & Everyday Life",
       "category_code": "FE",
       "wave": "daily-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-66",
+      "title": "The Compass That Changed Its Mind",
+      "slug": "compass-that-changed-its-mind",
+      "kind": "knowledge",
+      "hook": "Use fictional compass-station records to test how a nearby bar magnet can change a local reading, without treating it as a geographic bearing.",
+      "rounds": [
+        "Introduce the local-field model and compare a bar-magnet reading with a same-desk clear-space baseline",
+        "Debug overclaims, choose informative repeat observations, and distinguish local direction changes from map bearings"
+      ],
+      "seed": "A same-desk compass reading turns beside a bar magnet and returns near baseline after it moves away. What does the record support, and what remains unknown?",
+      "payoff": "A model-based interpretation that a nearby magnet can influence a compass's local reading; the invented station cards do not identify an exact geographic bearing or a universal distance rule.",
+      "audience": "Curious readers in roughly grades 5–8; qualitative compass reasoning with no angle or force calculations.",
+      "evidence": "NASA My NASA Data, Modeling Magnetic Fields (https://mynasadata.larc.nasa.gov/lesson-plans/modeling-magnetic-fields), and USGS, How does a compass work? (https://www.usgs.gov/media/audio/how-does-compass-work); station cards and readings are original fiction.",
+      "dependency": "base",
+      "production_note": "Use the cited compass/magnet facts and concise fictional model records; the degree values are invented and are not map bearings. Do not infer untested material effects, exact poles, or a distance law. Novelty check: unlike SN-35 force/motion arrows, SN-29’s solar magnetic-field mention, or SN-05 material properties, this focuses on controlled local compass readings.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-67",
+      "title": "The Clay Boat That Carries Its Own Weight",
+      "slug": "clay-boat-carries-its-own-weight",
+      "kind": "knowledge",
+      "hook": "Use a simple buoyancy model to reason about hull shape, rim clearance, and fair comparisons of cargo records.",
+      "rounds": [
+        "Introduce how hull shape and displaced water support a floating model",
+        "Choose useful matched records, debug capacity claims, and transfer the model to a paper-raft comparison"
+      ],
+      "seed": "The same amount of clay sinks as a compact lump but floats as a hollow hull. Which changed: the material or the way its shape displaces water?",
+      "payoff": "A qualitative explanation that displaced water supports a floating boat and its load; matched model comparisons can show differences in rim reserve without establishing a real-world safe capacity.",
+      "audience": "Curious readers in roughly grades 5–8; shape and buoyancy reasoning without density arithmetic.",
+      "evidence": "IET, Investigate why boats float (https://education.theiet.org/primary/teaching-resources/investigate-why-boats-float), and SERC Carleton College, Floating and sinking: displacement and buoyancy (https://serc.carleton.edu/sp/mnstep/activities/34743.html); all cargo cards and records are illustrative original fiction.",
+      "dependency": "base",
+      "production_note": "Keep clay amount and cargo fixed when comparing shapes; distinguish rim clearance in the model from real-boat safety. Label the boat and paper-raft records as illustrative, not measured. Novelty check: unlike SN-40’s equal-volume density arithmetic and water-level measurements, this quiz centers on choosing fair shape/load comparisons.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-68",
+      "title": "The Powder That Cooled the Cup",
+      "slug": "powder-that-cooled-the-cup",
+      "kind": "knowledge",
+      "hook": "Read illustrative digital dissolving records to trace energy moving into or out of a process without mistaking temperature change for proof of reaction.",
+      "rounds": [
+        "Introduce cooling and warming as energy-transfer clues using a matched no-powder control",
+        "Debug false claims, choose informative repeat records, and separate a temperature trace from evidence of a new substance"
+      ],
+      "seed": "A matched digital sample cools while its no-powder control stays steady. What energy direction fits, and what does temperature alone leave unknown?",
+      "payoff": "A concise energy-transfer explanation: cooling during dissolving is consistent with energy absorption and warming with release; temperature alone does not establish that a new substance formed.",
+      "audience": "Curious readers in roughly grades 5–8; qualitative energy reasoning without chemical-mixing instructions.",
+      "evidence": "American Chemical Society, Middle School Chemistry, Lesson 9 (https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson9.html) and Chapter 5 Student Reading (https://www.acs.org/content/dam/acsorg/msc/downloads/chapter-5/ch5-student-reading.pdf); all digital records are original illustrations, not experiments.",
+      "dependency": "base",
+      "production_note": "Call the digital logs illustrative model records; do not imply experiments or recipes. Use matched starts and controls for comparisons, interpret cooling/warming qualitatively, and do not treat temperature alone as proof of a new substance. Novelty check: energy transfer during dissolving is distinct from SN-38 matter/dissolution fate, SN-39 reaction evidence, SN-54 thermometer bias, and SN-61 insulation.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MT-35",
+      "title": "Why the Miniature Looks Giant",
+      "slug": "why-the-miniature-looks-giant",
+      "kind": "knowledge",
+      "hook": "Solve fictional forced-perspective camera cases using near/far placement, text-map alignment, focus, and one explicitly invented lighting-continuity rule.",
+      "rounds": [
+        "Introduce the near/far scale idea, then align set targets from a text-only coordinate map",
+        "Choose informative camera comparisons and diagnose focus or lighting only within the stated fictional brief"
+      ],
+      "seed": "A miniature sits near the camera while a performer stands farther away. Their outlines line up from one camera mark; why can the miniature look giant in that view?",
+      "payoff": "An explained camera-layout solution: perspective and alignment depend on placement and viewpoint; focus follows the cited production account, while the matching-light rule belongs only to the invented brief.",
+      "audience": "Movie and television fans, roughly grades 5–8; no film trivia or camera equations required.",
+      "evidence": "D23, 8 Magical Facts About Walt Disney’s Darby O’Gill and the Little People (https://d23.com/8-magical-facts-about-walt-disneys-darby-ogill-and-the-little-people/); all setup cards and production cases are original fiction.",
+      "dependency": "base",
+      "production_note": "Use text records and an explicitly described top-down coordinate map, not rendered images or film stills. Treat forced perspective as a simplified model; only the fictional production brief supplies the matching-light requirement. Avoid universal camera claims. Novelty check: distinct from MT-03 craft work, MT-19 technology, MT-30 stop-motion mechanics, and MT-33 creature design; broader camera-craft overlap remains possible.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "PC-37",
+      "title": "Your Message in a Bottle for Space",
+      "slug": "message-in-a-bottle-for-space",
+      "kind": "preference",
+      "hook": "Design one wholly imaginary message capsule for an unknown reader, choosing between concrete moments and broad patterns, and between open exploration and guided explanation.",
+      "rounds": [
+        "Choose a two-axis opening, then compare sound and scene fragments while holding one design choice neutral",
+        "Rank concrete open content, rank guidance for one object, set separate sliders, and choose a reader-path caption"
+      ],
+      "seed": "Would your opening describe one rain tap on a window and leave its meaning open, or explain how repeating cycles connect many worlds and days?",
+      "payoff": "A descriptive capsule-design summary across concrete everyday experiences versus abstract patterns and letting the reader wander versus guiding with explanations; no right answer or claim about real space communication.",
+      "audience": "Curious players who enjoy imaginative writing choices; accessible for roughly grades 5–8 and up.",
+      "evidence": "Original fictional capsule components and communication choices authored for this quiz; no factual claim about real space communication.",
+      "dependency": "base",
+      "production_note": "Use four weighted choices, two weighted rankings, and two single-dimension sliders. Only the opening offers both axes; sound/fragment choices focus on message content, while the cup captions and mug connection focus on guidance. Unexpressed axes stay neutral; no correct/unscored fields. This describes one fictional message, not personality, aptitude, or real space communication. Novelty risk: broad creative-preference overlap with PC-08, PC-21, PC-34, and PC-36 remains; the distinct mechanism is content and reader guidance for an unknown recipient.",
+      "category": "Personality & Choices",
+      "category_code": "PC",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-69",
+      "title": "The Bag That Kept All Its Mass",
+      "slug": "bag-that-kept-all-its-mass",
+      "kind": "knowledge",
+      "hook": "Track a fictional reaction through sealed and open boundaries to separate a change in matter's form from matter leaving the weighed system.",
+      "rounds": [
+        "Define a consistent system boundary and read whole-container mass records",
+        "Apply the boundary rule to leaks, transferred gas, changing volume, and a corrected whole-system comparison"
+      ],
+      "seed": "A sealed flexible pouch changes shape during a fictional reaction. Which comparison still measures the same complete system?",
+      "payoff": "A clear account of why a closed system can keep the same total mass while matter changes form, and why a lower open-container reading may show transfer across the boundary rather than disappearance.",
+      "audience": "Curious middle-grade learners and families exploring matter and measurement.",
+      "evidence": "ACS supports mass conservation in a closed system and atoms rearranging rather than being created or destroyed; all pouch, vessel, receiver, and balance records are original fictional models, not experiments.",
+      "dependency": "base",
+      "production_note": "Keep the whole-system boundary explicit in every case. Do not use atom-count arithmetic, imply a real experiment, or treat volume/shape as a mass reading. Distinguish an open-boundary transfer from disappearance; explain each distractor in the key.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-70",
+      "title": "The Color That Gives a pH Clue",
+      "slug": "color-that-gives-a-ph-clue",
+      "kind": "knowledge",
+      "hook": "Use a supplied fictional indicator legend to compare acidic, near-neutral, and basic clues without mistaking color for an exact identity or pH value.",
+      "rounds": [
+        "Define pH qualitatively and interpret colors only with each fictional indicator's supplied key",
+        "Compare controlled samples, dilution and unequal mixtures, then choose a fair next comparison for an uncertain band"
+      ],
+      "seed": "Two indicator brands show different colors for their near-neutral references. Which key should be used to interpret an unknown on each brand?",
+      "payoff": "A careful broad-range interpretation that uses same-indicator references and recognizes when a color record cannot identify an exact pH or substance.",
+      "audience": "Curious middle-grade learners and families exploring acids, bases, and indicators.",
+      "evidence": "ACS supports indicator color changes with acids and bases and acid-base neutralization. All indicator palettes, sample labels, and records are original fictional models; colors are not universal and no sample is tasted or handled.",
+      "dependency": "base",
+      "production_note": "Repeat the relevant fictional legend in each task. Never imply a universal color scale, exact pH from an uncalibrated color, potency, drinkability, or household-chemical handling. Label all samples as invented and explain why same-brand controls matter.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-71",
+      "title": "The Leaf’s Tiny Adjustable Doors",
+      "slug": "leafs-tiny-adjustable-doors",
+      "kind": "knowledge",
+      "hook": "Trace water through roots, stems, and leaves, then use guard-cell models to reason about stomatal water loss and gas exchange.",
+      "rounds": [
+        "Identify the plant water route and distinguish stomata from the guard cells that adjust the pore",
+        "Apply the trade-off to original dry-air and airflow cases while respecting what the qualitative records cannot show"
+      ],
+      "seed": "A watered leaf still has water vapor leaving through a pore. What does that show—and what does it not show—about the plant's water?",
+      "payoff": "A compact mechanism map linking root uptake, transport, stomata, guard cells, gas exchange, and water loss without treating one leaf observation as a universal rate or species rule.",
+      "audience": "Curious middle-grade learners and families exploring plant transport.",
+      "evidence": "OpenStax Biology 2e supports plant water transport, guard cells, stomata, water loss, and gas exchange. All leaf, weather, and pore records are original qualitative models, not measured rates or claims about every species.",
+      "dependency": "base",
+      "production_note": "Keep water uptake, xylem transport, stomatal exchange, and guard-cell adjustment distinct. State that narrower pores can reduce but do not eliminate water loss or exchange. Avoid universal day/night, drought, species, and exact-rate claims; label records fictional.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FE-37",
+      "title": "The Air Hidden in Whipped Cream",
+      "slug": "air-hidden-in-whipped-cream",
+      "kind": "knowledge",
+      "hook": "Read original foam cards to distinguish air bubbles in cream from liquid droplets in an emulsion and identify structures described around the air.",
+      "rounds": [
+        "Identify gas, liquid, fat, and protein roles in a simplified foam model and distinguish foam from liquid-droplet emulsion",
+        "Apply the structure to volume and fictional mixer comparisons without treating model records as paper data or universal outcomes"
+      ],
+      "seed": "A cream model occupies more space after air is introduced. Which parts of a foam model explain the extra space and the bubble support?",
+      "payoff": "A clear structure-based account of aeration and foam support that distinguishes it from the oil-in-water droplet mechanism in FE-36.",
+      "audience": "Curious learners and families exploring everyday food structure.",
+      "evidence": "Ihara et al. (2019) describe whipped-cream structure and a changing role for fat during whipping under specified conditions; the Food Microstructure paper describes proteins adsorbed at air–water interfaces. All quiz cards and comparisons are original model records, not paper data.",
+      "dependency": "base",
+      "production_note": "Keep foam (gas in a liquid-based structure) distinct from FE-36's liquid droplets in another liquid. Keep the protein observation at air–water interfaces separate from fat’s changing role during whipping; do not make them interchangeable or universal. No recipes, food handling, health/diet claims, or copied paper values. The source identifies original model records.",
+      "category": "Food & Everyday Life",
+      "category_code": "FE",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "FS-38",
+      "title": "Two Maps, One Fossil Find",
+      "slug": "two-maps-one-fossil-find",
+      "kind": "cooperative",
+      "hook": "Align two differently oriented fictional site maps through shared landmarks, then combine token locations with an access boundary and stated uncertainty.",
+      "rounds": [
+        "Read row-column orientation, translate directions with north arrows, and identify a useful map clarification",
+        "Join shared landmark identity, token locations, and access limits into a cautious team description"
+      ],
+      "seed": "Two fictional maps put the same spiral token in different-looking grid positions. How can a shared landmark and each north arrow show whether the maps agree?",
+      "payoff": "A shared, carefully bounded description of an invented token location that accounts for map orientation, landmark identity, access coverage, and missing scale information.",
+      "audience": "Friends and families taking turns on one shared device.",
+      "evidence": "Original fictional site maps, landmarks, row-column keys, access boundary, and coded fossil-shaped tokens; no real site, excavation permission, fossil identification, or geological chronology is represented.",
+      "dependency": "base",
+      "production_note": "Same-device pass-and-play only: each player completes all eight tasks, then hands over. Show all clues to every player; no hidden roles or per-task alternation. Keep map orientations and grid directions explicit in every task. Hotspots are neutral labeled rectangles, never map drawings. Do not infer real distances, ages, or chronology from invented tokens.",
+      "category": "Friends & Social Play",
+      "category_code": "FS",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-72",
+      "title": "The Seed That Waited for Water",
+      "slug": "seed-that-waited-for-water",
+      "kind": "knowledge",
+      "hook": "Follow the first signs of germination, then use invented seed labels and tray records to choose fair next tests without confusing a quiet dry seed with a dead one.",
+      "rounds": [
+        "4 entry tasks: read one packet label, improve incomplete tray records, debug a root-before-shoot claim, and compare test plans",
+        "4 applications: design a small viability check, interpret a moisture-and-air contrast, evaluate a one-run rest trial, and test one lot’s cool-rest instruction"
+      ],
+      "seed": "A seed has not sprouted in its dry packet. What does that observation actually establish, and what would be a fair next test?",
+      "payoff": "A careful germination investigation that keeps moisture, oxygen and suitable temperature distinct from later seedling growth, follows each variety label, and treats invented tray counts as models rather than experiments.",
+      "audience": "Curious readers and students, mainly grades 5–8; unfamiliar plant terms are explained in context.",
+      "evidence": "University of Minnesota Extension, Starting Seeds Indoors; OpenStax Biology 2e, 32.2 Pollination and Fertilization for the seed-to-plant context; all seed names, labels, tray observations and test plans are explicitly invented.",
+      "dependency": "base",
+      "production_note": "Eight keyed tasks across two sections and multiple formats; solo mode, with all eight tasks in each run. Do not imply every species needs light or cold treatment; mention dormancy only for a label that states it. The damp/airy versus waterlogged/low-air contrast cannot isolate either factor or diagnose an individual seed. All tray counts and tests are fictional model records. Distinct from SN-30 flower-to-seed development, SN-31 dispersal, and SN-49 directional stem growth; residual risk is broad seed vocabulary, while the tasks center test design and evidence limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-73",
+      "title": "The Water Between the Grains",
+      "slug": "water-between-the-grains",
+      "kind": "knowledge",
+      "hook": "Use symbolic pore-cell models to separate underground storage space from connected paths that let water move, then interpret invented material and well-location cards.",
+      "rounds": [
+        "4 entry tasks: distinguish a space measure from a flow test, predict model results, choose a useful measurement, and debug a saturation claim",
+        "4 applications: design a matched comparison, select a tracer route, interpret repeated monitoring records, and plan a follow-up for a low-flow core"
+      ],
+      "seed": "A core contains many water-filled spaces but releases little water in a short model test. How can both observations be true?",
+      "payoff": "A clear distinction between aquifer storage and movement through connected pores, without inventing underground rivers or making water-quality or real-well claims.",
+      "audience": "Curious readers and students, mainly grades 5–8; the model cards introduce the geology vocabulary.",
+      "evidence": "Utah Geological Survey, Groundwater and Aquifers; USGS Groundwater Glossary for porosity, permeability and saturation; every pore-cell model, sample, flow comparison and well location is original fiction.",
+      "dependency": "base",
+      "production_note": "Eight keyed tasks, two sections, choice/match/hotspot. Solo mode, with all eight tasks in each run. Hotspot zones are neutral labeled rectangles; context supplies model observations. Saturation is not presented as a prerequisite for all water movement. Distinct from SN-10 infiltration causality, SN-19 surface water-cycle routes and GT-34 tributary sampling; this quiz centers pore-scale storage and flow.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-74",
+      "title": "The Rock Layers That Learned to Fold",
+      "slug": "rock-layers-that-learned-to-fold",
+      "kind": "knowledge",
+      "hook": "Read text profiles to tell a continuous bent bed from a broken, offset one, then reconstruct a fictional layer history from explicit dependencies.",
+      "rounds": [
+        "4 entry tasks: read a continuous bed, match observed displacement to fault type, choose a useful field check, and debug a fictional contact claim",
+        "4 applications: plan profile observations, match claims to tests, follow one marker across a bend, and limit a caption to recorded geometry"
+      ],
+      "seed": "A rock bed can be traced through a bend. What does that tell a reader that an offset break would not?",
+      "payoff": "A grounded account of structural deformation that keeps folds, faults and erosion distinct and avoids unsupported claims about ages, present motion or all mountain-building.",
+      "audience": "Curious readers and students, mainly grades 5–8; all geological profiles are described in words.",
+      "evidence": "National Park Service, Death Valley National Park, Faults; National Park Service, Capitol Reef Waterpocket District; all profiles and force cards are original fictional text models.",
+      "dependency": "base",
+      "production_note": "Eight keyed tasks in two sections with choice/match/grid. Solo mode, with all eight tasks in each run. Erosion/contact conclusions are deductions from fictional profiles and cite original only. No rendered curves, arrows, or geological illustrations are claimed. Distinct from SN-42’s relative-age reconstruction, SN-44’s coast pattern and SN-26’s mineral focus; tasks center structural evidence and choosing informative field observations.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "GT-35",
+      "title": "The Subway Map That Stretches the City",
+      "slug": "subway-map-that-stretches-the-city",
+      "kind": "knowledge",
+      "hook": "Read an invented Elm Quay schematic for stops and marked transfers, then switch to a separate street record for walking distance and access questions.",
+      "rounds": [
+        "4 entry tasks: read a legend, choose checks for route claims, predict redraw effects, and compare measured walking routes",
+        "4 applications: align a redraw with written connections, infer directed trips from line order, resolve conflicting access dates, and plan transfers from the schematic"
+      ],
+      "seed": "A station dot sits close to another on a subway schematic, but the map is not to scale. What can the drawing prove—and what record answers the walking question?",
+      "payoff": "A practical distinction between transit topology and metric geography: line connections and marked interchanges remain useful even when distance and angle are distorted.",
+      "audience": "Curious readers and students, mainly grades 5–8; every place and record is fictional and self-contained.",
+      "evidence": "Original fictional Elm Quay schematic, legend, station sequence, street-distance sheet, dated service/access records and candidate redraw descriptions; no real transit authority, map, branding, station or service claim.",
+      "dependency": "base",
+      "production_note": "Eight keyed tasks in two sections using choice/match/grid/hotspot. Solo mode, with all eight tasks in each run. The hotspot uses neutral labeled candidate rectangles with raw route facts in context. Preserve the contrast between schematic topology and street distance; a crossing without the legend’s mark is not established as a transfer. Distinct from GT-08 missing-stop order, GT-14 unit conversion, GT-25 projection distortion and GT-32 walking barriers. The final route puzzle combines schematic connections with an explicitly current fictional step-free access board.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "HC-37",
+      "title": "The Clock That Carried a Home Time",
+      "slug": "clock-that-carried-a-home-time",
+      "kind": "knowledge",
+      "hook": "Carry a fictional ship’s known-port time reference through a voyage, then test what the log can show and separate Harrison’s H4 from the Board of Longitude’s reward role.",
+      "rounds": [
+        "4 entry tasks: explain the carried reference, interpret instrument observations, compare simultaneous readings, and compare endpoint offsets",
+        "4 applications: interpret three invented offset logs, recover a missing-reset limitation, match historical claims to records, and identify evidence needed for a specific trial claim"
+      ],
+      "seed": "Why carry a known-port clock unchanged when local astronomical time can be observed at sea?",
+      "payoff": "A concise explanation of the marine timekeeper’s reference-time role and a careful historical attribution that does not claim H4 alone invented longitude or instantly settled the reward.",
+      "audience": "Curious readers and students, mainly grades 5–8; no hour-to-degree arithmetic or navigation experience is required.",
+      "evidence": "Royal Museums Greenwich, Harrison’s Clocks and the Longitude Problem; Royal Museums Greenwich collection record for H4, object RMGc-object-79142; all captain’s logs, comparison notes and exhibit cases are explicitly invented.",
+      "dependency": "base",
+      "production_note": "Eight keyed tasks in two sections using choice/match/grid. Solo mode, with all eight tasks in each run. No navigation advice, degree conversions, unsupported exact trial accuracy, claim that H4 alone invented longitude, or claim of instant full reward. Fictional voyage measurements remain separate from Royal Museums Greenwich history. Distinct from HC-02 chronology, HC-16 railroad history, HC-34 signal archive and HC-36 cyanotype attribution; the center is testing and preserving a reference-time record.",
+      "category": "History & Culture",
+      "category_code": "HC",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-75",
+      "title": "Which Way Does the Comet’s Tail Point?",
+      "slug": "which-way-comets-tail-points",
+      "kind": "knowledge",
+      "hook": "Use original Sun-and-comet station cards to separate the direction of the ion tail from the comet’s changing direction of travel.",
+      "rounds": [
+        "4 tasks: Interpret a changing coma, infer tail behavior from material records, explain a widening haze, and separate Sunward from sideways motion",
+        "4 tasks: Align raw Sun/tail directions, choose an informative nucleus measurement, test a changing-Sun model, and investigate the one-plume claim"
+      ],
+      "seed": "A comet approaches the Sun while its ion tail points away from the Sun. Does that make the tail point behind its motion?",
+      "payoff": "An explained spatial model: ion-tail direction follows the solar wind and points away from the Sun, while the dust tail can curve and the comet’s own motion changes around the Sun.",
+      "audience": "Curious readers around grades 5–8; no astronomy background or current skywatching knowledge is needed.",
+      "evidence": "NASA Space Place, NASA Science Activation, and NASA Science comet references support the facts. Station positions and observations are original model records, not ephemerides.",
+      "dependency": "base",
+      "production_note": "Keep ion-tail and dust-tail mechanisms distinct. Use only named text stations; any hotspot zones are labeled rectangles representing candidate cards, never drawn comet tails or an orbit. Do not claim all tails are straight or directly opposite motion. Distinct from SN-53 meteor radiant tracing, SN-16 sky cues, and SN-29 image interpretation; residual novelty risk: broad comet-tail direction is a familiar astronomy concept, so keep the defining transfer focused on Sun reference versus motion.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-76",
+      "title": "Saturn’s Rings Seen Sideways",
+      "slug": "saturns-rings-seen-sideways",
+      "kind": "knowledge",
+      "hook": "Use camera-angle and shadow records around a fixed thin, wide ring model to separate projection, illumination, and material evidence.",
+      "rounds": [
+        "4 tasks: Explain a narrow projection, predict shape from measured angles, interpret instrument records, and debug a claim about a moon’s shadow",
+        "4 tasks: Align observer angles, choose a matched-angle material check, map two shadow records to their sources, and predict a view change with fixed material"
+      ],
+      "seed": "A wide ring band looks very narrow from one station while a shadow remains. What can that view establish?",
+      "payoff": "A projection-based explanation that separates sightline and illumination from claims about physical ring loss, using text-only observer cards and an original flat-annulus model.",
+      "audience": "Curious readers around grades 5–8 who enjoy space explanations; no orbital-period calculation is needed.",
+      "evidence": "NASA Hubble’s linked edge-on records describe 1995 observations; NASA Saturn facts supports the wide, thin ring structure. Cards are original model records.",
+      "dependency": "base",
+      "production_note": "Do not imply an edge-on event is happening now or that a narrow view is physical shrinkage. The hotspot renderer can show only named observer-description rectangles; do not claim it displays ring curves or illustrations. Distinct from SN-23 Moon-phase views, SN-51 transit dips, and GT-20 orbital views: the mechanism here is projection of a thin, wide ring plus inference from changed viewpoints. Residual novelty risk: users may associate any ring view with general orbital-view quizzes, so keep every application anchored to fixed ring material and sightline.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-77",
+      "title": "The Survey That Missed the Shady Corner",
+      "slug": "survey-that-missed-the-shady-corner",
+      "kind": "logic",
+      "hook": "Diagnose a garden sample, align field codes to a map, and choose a design suited to the question and its habitats.",
+      "rounds": [
+        "4 tasks: Diagnose a sunny-path sample, compare simple and stratified draws, correct a missing-versus-zero error, and align coordinates to a habitat map",
+        "4 tasks: Guarantee representation across habitats, choose an informative follow-up sample, match study goals to sampling designs, and debug a causal claim"
+      ],
+      "seed": "A garden team has many observations, but every sample came from the sunny path. What part of the garden was never given a chance to appear?",
+      "payoff": "A sampling-design takeaway: random selection within a convenient list does not repair omitted coverage, and an unvisited place is not a measured zero.",
+      "audience": "Curious readers around grades 5–8; the garden and records are original models.",
+      "evidence": "OpenStax Introductory Statistics 2e supports the sampling concepts; garden maps, counts, and survey plans are original model records.",
+      "dependency": "base",
+      "production_note": "Keep the central mechanism aligned to the sample frame, habitat representation, and map coordinates. For habitat comparison, the six-square plan randomly selects two from each of the three strata; a simple random draw from all 24 would not guarantee every habitat. Distinct from SN-56 average/spread comparisons, SN-64 beaver-dam site-change records, and SN-14 fair controlled tests. Residual novelty risk: SN-64 also uses site records, so emphasize selection design and coordinate alignment rather than before/after change.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MU-35",
+      "title": "The Two Notes That Make a Pulse",
+      "slug": "two-notes-that-make-a-pulse",
+      "kind": "knowledge",
+      "hook": "Hear or read synthesized pairs of nearby steady tones, then separate an interference beat from pitch glide, echo, and played rhythm.",
+      "rounds": [
+        "4 tasks: Infer beat rate from a transcript, debug a pitch-bend claim, predict rates from frequency gaps, and distinguish beats, glide, and echo from records",
+        "4 tasks: Explain faster swells from frequency spacing, predict a phase change, match wave snapshots to combined level, and design a source-isolation check"
+      ],
+      "seed": "Two nearby steady notes play together; the combined sound swells and softens even though neither note slides. What is changing?",
+      "payoff": "An accessible sound-interference explanation with original synthesized tones and equivalent transcripts; loudness variation is kept separate from changing pitch or a delayed echo.",
+      "audience": "Curious music listeners and readers around grades 5–8; no instrument, genre, or sound-health knowledge is required.",
+      "evidence": "OpenStax Physics on sound interference and the UNSW Physics beats explanation support the factual core. Tone pairs, text models, and transcripts are original; no real experiment or borrowed music is represented.",
+      "dependency": "base",
+      "production_note": "Use simultaneous sine tones with delay 0, equal gains around 0.04, and short durations; keep each transcript equivalent to its audio task. Do not make binaural, health, cognitive, or genre-preference claims. Distinct from MU-22 pulse grouping, MU-26 compatibility ratios, MU-33 echo routes, and MU-34 note-onset/pulse reading: this quiz is acoustic interference between two nearby frequencies. Residual novelty risk: MU-34 also asks listeners to distinguish sound patterns, so emphasize amplitude beats rather than count-ins, rests, or rhythm.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SG-35",
+      "title": "The Jump Shot’s Hidden Arc",
+      "slug": "jump-shots-hidden-arc",
+      "kind": "knowledge",
+      "hook": "Read an original virtual-court model to separate horizontal travel from vertical motion after a ball is released.",
+      "rounds": [
+        "4 tasks: Interpret the apex, match motion clues to components, sort velocity from acceleration, and separate forward movement from forward force",
+        "4 tasks: Predict a changed upward launch speed, infer vertical stages from logger readings, compare equal-time shot positions, and apply the model to a horizontal launch"
+      ],
+      "seed": "At the highest point of a virtual shot, vertical speed is momentarily zero. Has downward gravity stopped too?",
+      "payoff": "A qualitative projectile-motion model: gravity changes the vertical component while horizontal motion proceeds independently under the explicitly stated no-air/no-spin assumptions.",
+      "audience": "Curious players and sports fans around grades 5–8; no equations, coaching, or real-player performance data are required.",
+      "evidence": "OpenStax Physics projectile motion supports the component-separation facts. All virtual-court shots and equal-time notes are original teaching-model cards, not measured sports data or coaching advice.",
+      "dependency": "base",
+      "production_note": "State the post-release model where assumptions matter: constant downward gravity, no air resistance or spin, and independent horizontal/vertical motion. Equal landing times require matching release/landing heights and vertical starting conditions. Distinct from SN-35 force-versus-motion, SN-36 ramp effort/distance, SG-31 disc-golf rule calls, and SG-33 toy-course scoring. Residual novelty risk: force/motion vocabulary overlaps SN-35, so keep the ball’s independent motion components central.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "catchup-2026-11-20",
       "evidence_class": "evergreen"
     }
   ]
