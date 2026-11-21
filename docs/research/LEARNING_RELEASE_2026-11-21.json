@@ -1,5 +1,5 @@
 {
-  "status": "published-http-verified-postdeploy-browser-ga-event-pending",
+  "status": "published-http-browser-analytics-verified",
   "date": "2026-11-21",
   "sourceCommit": "4ac2369cfbe348f4fbd46b72e5259fcc31ee2a38",
   "pushedRefs": [
@@ -77,12 +77,27 @@
     "immutableR2PngSampleHttp200": true,
     "compiledGaLoaderHttp200": true,
     "staticGaCoverage": "passed",
-    "productionBrowserGaEvent": "not verified; Chrome CGWindowNotFound after pre-deploy QA"
+    "productionBrowserGaEvent": {
+      "status": "PASS",
+      "receipt": "docs/research/LEARNING_RELEASE_2026-11-21.analytics.json",
+      "observedAtUtc": "2026-11-21T18:52:08Z",
+      "event": "interactive_quiz_complete",
+      "transportStatus": 204,
+      "productionSourceCommit": "4ac2369cfbe348f4fbd46b72e5259fcc31ee2a38",
+      "productionVersion": "98628c31-92ee-472e-876f-44d472c6918e",
+      "quizId": "SG-36",
+      "quizVersion": 1,
+      "nativeTasksCredited": "8/8",
+      "propertyId": "545477353",
+      "realtimeCompletionCount": 1,
+      "internalQa": true,
+      "notOrganicEngagementEvidence": true
+    }
   },
   "qaLimits": {
     "predeployNativeQa": "Selected desktop/mobile checks passed, including top-level iPhone SE 375x667 WebGL heart interaction; all 13 gold paths passed.",
     "fullNativePlaythroughs": "One heart quiz was played through; not all 13 quizzes received full native playthroughs.",
-    "postdeployUi": "Not claimed as passed.",
+    "postdeployUi": "Representative SG-36 full native 8/8 playthrough, GA transport, and Realtime completion confirmed; not all 13 new quizzes received full native playthroughs.",
     "iframeWebglHarness": "Blank; top-level mobile WebGL passed independently.",
     "externalPosts": 0
   },
@@ -95,7 +110,8 @@
     "build": "work/combined-release/2026-11-21/build-receipt.json",
     "live": "work/combined-release/2026-11-21/live-verification.json",
     "preservation": "work/combined-release/2026-11-21/preservation.json",
-    "deployments": "work/combined-release/2026-11-21/deployments.json"
+    "deployments": "work/combined-release/2026-11-21/deployments.json",
+    "productionAnalytics": "docs/research/LEARNING_RELEASE_2026-11-21.analytics.json"
   },
   "liveVerifiedAt": "2026-11-21T17:29:44.280230+00:00",
   "verifiedExportSha256": "0a3570bf9e2c92d9ef5370ca13971146b357d69d8e2db0b84f8e57ca487ee48a",

@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "observedAtUtc": "2026-11-21T18:52:08Z",
+  "scope": "Representative production quiz completion, native browser transport, and Google Analytics Realtime receipt",
+  "productionSourceCommit": "4ac2369cfbe348f4fbd46b72e5259fcc31ee2a38",
+  "productionVersion": "98628c31-92ee-472e-876f-44d472c6918e",
+  "quizUrl": "https://typologyquiz.com/quizzes/the-balance-game/",
+  "quizId": "SG-36",
+  "quizVersion": 1,
+  "nativePlaythrough": {
+    "checkableTasks": 8,
+    "credit": 8
+  },
+  "transport": {
+    "endpoint": "https://www.google-analytics.com/g/collect",
+    "method": "POST",
+    "status": 204,
+    "event": "interactive_quiz_complete",
+    "measurementId": "G-RVHFFPF0W1",
+    "appParameters": {
+      "quiz_id": "SG-36",
+      "quiz_version": 1
+    }
+  },
+  "realtime": {
+    "propertyId": "545477353",
+    "url": "https://analytics.google.com/analytics/web/#/a401053877p545477353/realtime/overview",
+    "eventCountsObserved": {
+      "interactive_quiz_start": 1,
+      "interactive_quiz_complete": 1
+    },
+    "completionParameterDrilldown": {
+      "quiz_id": "SG-36",
+      "count": 1
+    },
+    "pageObserved": "/quizzes/the-balance-game/"
+  },
+  "internalQa": true,
+  "notOrganicEngagementEvidence": true,
+  "privacyOrAccountSettingsChanged": false,
+  "limitations": [
+    "One representative production quiz was played through; this is not a native playthrough of every quiz.",
+    "Previously disclosed iframe WebGL and anatomy coverage limitations are unchanged."
+  ],
+  "evidence": [
+    {
+      "path": "work/combined-release/2026-11-21/browser-ga-completion.txt",
+      "sha256": "0605c42caa95329674653e8ded47b60a5baa0c67cae7c245ce19e098c436e567"
+    },
+    {
+      "path": "work/combined-release/2026-11-21/ga-realtime-SG36.txt",
+      "sha256": "896ddc7dfa4c752741b858448dfc9ecb37657ca05c5174094c646d771c69862e"
+    },
+    {
+      "path": "work/combined-release/2026-11-21/ga-realtime-after.png",
+      "sha256": "0c30c7451343daa059d8c5e12028b1b5aeedb0c00e989b7a8f62cc22e485673c"
+    },
+    {
+      "path": "work/combined-release/2026-11-21/ga-realtime-SG36.png",
+      "sha256": "c271907ab818dda5150db1f02623a568f403c201477059fb9362d8392bfd5aac"
+    },
+    {
+      "path": "work/combined-release/2026-11-21/live-SG36-complete.png",
+      "sha256": "7e01811f42965e8c4d26da2cdab119d1cb305ab7a6e4980fdc069213d58efb84"
+    }
+  ]
+}
