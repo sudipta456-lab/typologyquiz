@@ -13514,5 +13514,356 @@
       }
     ],
     "playMode": "solo"
+  },
+  {
+    "id": "MU-36",
+    "slug": "same-note-different-sound",
+    "categoryId": "music",
+    "title": "Same Note, Different Sound",
+    "description": "Follow a note from a controlled synthetic comparison to harmonic evidence and a producer’s sound-design choice, while keeping instrument claims in check.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "hear-the-dimensions",
+        "title": "Keep the note; inspect the sound",
+        "description": "Use controlled records to separate pitch, sound level and tone quality."
+      },
+      {
+        "id": "read-the-evidence",
+        "title": "From evidence to a music choice",
+        "description": "Compare a sound’s beginning and sustained mixture, then limit what a synthetic signal can identify."
+      }
+    ],
+    "sources": [
+      {
+        "id": "openstax-timbre",
+        "kind": "reference",
+        "label": "OpenStax Physics: Sound Intensity and Sound Level",
+        "url": "https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level"
+      },
+      {
+        "id": "physics-classroom-harmonics",
+        "kind": "reference",
+        "label": "The Physics Classroom: Fundamental Frequency and Harmonics",
+        "url": "https://www.physicsclassroom.com/class/sound/lesson-4/fundamental-frequency-and-harmonics"
+      },
+      {
+        "id": "original-tone-cases",
+        "kind": "original",
+        "label": "Original synthesized waveform comparisons and written sound records; no copied audio."
+      },
+      {
+        "id": "acousticslab-attack",
+        "label": "Pantelis Vassilakis: Fundamentals of Sound, Module6—Timbre and sound envelopes",
+        "kind": "reference",
+        "url": "https://acousticslab.org/RECA220/PMFiles/Module06.htm"
+      }
+    ],
+    "note": "The optional example is an original synthesized comparison, not a recording of instruments. Its transcript records the settings so listening is optional. Equal oscillator gain is not a claim of equal perceived loudness. The written onset comparison is a fictional signal record, not an attack-envelope simulation; available tone controls are frequency, duration, delay, waveform and gain. Timbre descriptions can be subjective.",
+    "questions": [
+      {
+        "id": "mu36-1",
+        "sectionId": "hear-the-dimensions",
+        "kind": "match",
+        "prompt": "Match each music question to the sound clue that helps answer it.",
+        "context": "These are three different questions a listener or producer might ask: how high or low is the note, how strong does the sound seem, and what sound quality distinguishes notes even when pitch is shared? Use the measured records later in the quiz rather than treating one clue as a substitute for another.",
+        "left": [
+          {
+            "id": "pitch",
+            "label": "Pitch"
+          },
+          {
+            "id": "loudness",
+            "label": "Loudness"
+          },
+          {
+            "id": "timbre",
+            "label": "Timbre"
+          }
+        ],
+        "right": [
+          {
+            "id": "frequency",
+            "label": "Perceived highness or lowness associated with frequency"
+          },
+          {
+            "id": "level",
+            "label": "Perceived strength, related to sound intensity"
+          },
+          {
+            "id": "quality",
+            "label": "Timbre: sound quality that can differ for the same note"
+          }
+        ],
+        "pairs": {
+          "pitch": "frequency",
+          "loudness": "level",
+          "timbre": "quality"
+        },
+        "explanation": "Pitch, loudness and timbre name different aspects of sound. OpenStax describes pitch as frequency-related, loudness as intensity-related, and timbre as the perceived combination of distinctive frequencies and intensities; timbre descriptions are subjective.",
+        "sourceIds": [
+          "openstax-timbre",
+          "physics-classroom-harmonics",
+          "original-tone-cases"
+        ]
+      },
+      {
+        "id": "mu36-2",
+        "sectionId": "hear-the-dimensions",
+        "kind": "audio",
+        "prompt": "Two brief tones are offered for optional listening. Which statement is supported by their record?",
+        "context": "Both are synthetic tones set to the same stated 440 Hz frequency, short duration and gentle oscillator gain. Tone A uses a sine waveform; Tone B uses a square waveform. Gain settings are not a measurement of equal perceived loudness.",
+        "tones": [
+          {
+            "frequency": 440,
+            "duration": 0.35,
+            "delay": 0,
+            "waveform": "sine",
+            "gain": 0.035
+          },
+          {
+            "frequency": 440,
+            "duration": 0.35,
+            "delay": 0.5,
+            "waveform": "square",
+            "gain": 0.035
+          }
+        ],
+        "transcript": "Tone A: synthetic, 440 Hz, 0.35 seconds, sine waveform, oscillator gain 0.035. Tone B: synthetic, 440 Hz, 0.35 seconds, square waveform, oscillator gain 0.035. These settings do not measure perceived loudness.",
+        "options": [
+          {
+            "id": "waveform",
+            "label": "The pitch setting is shared; the waveform settings differ"
+          },
+          {
+            "id": "pitch",
+            "label": "The pitch setting changes while the waveform stays the same"
+          },
+          {
+            "id": "instrument",
+            "label": "The two records identify different real instruments"
+          },
+          {
+            "id": "volume",
+            "label": "Equal gain proves equal perceived loudness for every listener"
+          }
+        ],
+        "correct": "waveform",
+        "explanation": "The record holds the stated frequency, duration and oscillator gain while listing different waveform settings. That supports a controlled synthetic comparison, not an instrument identity or a claim about equal perceived loudness.",
+        "sourceIds": [
+          "openstax-timbre",
+          "physics-classroom-harmonics",
+          "original-tone-cases"
+        ]
+      },
+      {
+        "id": "mu36-3",
+        "sectionId": "hear-the-dimensions",
+        "kind": "choice",
+        "prompt": "Two synthesized notes share a fundamental and measured level, but their recorded harmonic mixtures differ. What is the strongest sound-quality inference?",
+        "context": "This original written comparison reports the same fundamental frequency and the same measured sound level for both notes. Their sustained spectra contain different mixtures of harmonics. No real instrument is recorded or identified.",
+        "options": [
+          {
+            "id": "timbre",
+            "label": "Their timbre can differ while the fundamental and measured level match"
+          },
+          {
+            "id": "pitch",
+            "label": "Their pitch must differ because any added harmonic changes the fundamental"
+          },
+          {
+            "id": "loudness",
+            "label": "The note with more harmonics must be perceived as louder"
+          },
+          {
+            "id": "instrument",
+            "label": "The mixture proves which real instrument played each note"
+          }
+        ],
+        "correct": "timbre",
+        "explanation": "The comparison holds fundamental and measured level constant while the harmonic mixture differs. OpenStax and The Physics Classroom connect distinctive frequency mixtures with timbre; the record does not prove a particular listener reaction or instrument identity.",
+        "sourceIds": [
+          "openstax-timbre",
+          "physics-classroom-harmonics",
+          "original-tone-cases"
+        ]
+      },
+      {
+        "id": "mu36-4",
+        "sectionId": "hear-the-dimensions",
+        "kind": "choice",
+        "prompt": "A sound designer wants to test whether a sustained harmonic mixture contributes to a tone-quality difference. Which pair is the fairest comparison?",
+        "context": "Choose between original synthetic records. For each pair, compare the stated fundamental, measured level, duration, beginning and sustained harmonic mixture. The design question is whether the mixture can be examined while the other listed conditions are held steady.",
+        "options": [
+          {
+            "id": "controlled",
+            "label": "Same fundamental, measured level, duration and beginning; different sustained harmonic mixtures"
+          },
+          {
+            "id": "pitch",
+            "label": "Different fundamentals and mixtures, with no level record"
+          },
+          {
+            "id": "level",
+            "label": "Same spectrum, but different measured levels and durations"
+          },
+          {
+            "id": "everything",
+            "label": "Different fundamentals, levels, durations and harmonic mixtures"
+          }
+        ],
+        "correct": "controlled",
+        "explanation": "The controlled pair changes the sustained mixture while keeping the stated pitch-related and level evidence, duration and beginning comparable. It can test whether the descriptions differ in this synthetic case; it does not establish how every listener will describe a sound.",
+        "sourceIds": [
+          "openstax-timbre",
+          "physics-classroom-harmonics",
+          "original-tone-cases"
+        ]
+      },
+      {
+        "id": "mu36-5",
+        "sectionId": "read-the-evidence",
+        "kind": "match",
+        "prompt": "Match each controlled record to the claim it can support.",
+        "context": "These written records compare imagined sounds. Record A has the same stated fundamental and sustained spectral mixture as its comparison, but a different waveform during the brief onset. Record B has the same stated fundamental and onset waveform as its comparison, but a different sustained spectral mixture. Neither record measures an amplitude envelope or identifies a real instrument.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Record A: same sustained mixture; different onset waveform"
+          },
+          {
+            "id": "b",
+            "label": "Record B: same onset waveform; different sustained mixture"
+          }
+        ],
+        "right": [
+          {
+            "id": "beginning",
+            "label": "The brief onset waveform"
+          },
+          {
+            "id": "sustain",
+            "label": "The sustained spectral mixture"
+          }
+        ],
+        "pairs": {
+          "a": "beginning",
+          "b": "sustain"
+        },
+        "explanation": "Record A changes the waveform only during the brief onset while its sustained mixture stays the same; Record B changes the sustained spectral mixture while its onset waveform stays the same. The sound module describes a real attack as the initial build-up and discusses temporal envelope alongside spectrum, but these fictional records do not measure an attack amplitude envelope.",
+        "sourceIds": [
+          "original-tone-cases",
+          "acousticslab-attack"
+        ]
+      },
+      {
+        "id": "mu36-6",
+        "sectionId": "read-the-evidence",
+        "kind": "choice",
+        "prompt": "A producer asks: “Keep this note, but change its sustained sound character.” Which first edit fits the evidence in this quiz?",
+        "context": "The brief is to keep the same fundamental-frequency setting and compare synthetic versions. A producer can change the waveform setting, which changes the signal’s frequency mixture; oscillator gain is not a reliable label for perceived loudness. The result should be auditioned or described, not assigned a guaranteed adjective.",
+        "options": [
+          {
+            "id": "mixture",
+            "label": "Keep the fundamental setting and try a different waveform / harmonic mixture"
+          },
+          {
+            "id": "pitch",
+            "label": "Change the fundamental setting and keep every other setting"
+          },
+          {
+            "id": "gain",
+            "label": "Raise oscillator gain and call the result a new timbre"
+          },
+          {
+            "id": "identity",
+            "label": "Choose a synthetic waveform and label it as a specific real instrument"
+          }
+        ],
+        "correct": "mixture",
+        "explanation": "Changing the waveform while holding the fundamental setting gives a way to explore a different frequency mixture without changing the intended note. Whether the sound character seems different is something to compare, not a guaranteed subjective label; gain alone is not a perceived-loudness measure.",
+        "sourceIds": [
+          "openstax-timbre",
+          "physics-classroom-harmonics",
+          "original-tone-cases"
+        ]
+      },
+      {
+        "id": "mu36-7",
+        "sectionId": "read-the-evidence",
+        "kind": "audio",
+        "prompt": "A single synthetic test tone is offered for optional listening. What can this source establish about a real instrument’s identity?",
+        "context": "One browser-generated oscillator makes one short 440 Hz triangle test tone. No instrument was played or recorded. The stated settings describe this synthetic test signal only; one test tone is not a complete record of an instrument’s sound.",
+        "tones": [
+          {
+            "frequency": 440,
+            "duration": 0.45,
+            "delay": 0,
+            "waveform": "triangle",
+            "gain": 0.025
+          }
+        ],
+        "transcript": "One browser-generated 440 Hz triangle-wave test tone, 0.45 seconds, oscillator gain 0.025. This is a single synthesized test tone, not a recording of an actual instrument. The settings do not measure perceived loudness.",
+        "options": [
+          {
+            "id": "limit",
+            "label": "It cannot establish which real instrument, if any, it represents"
+          },
+          {
+            "id": "prove",
+            "label": "It identifies one specific instrument because each instrument has a unique 440 Hz tone"
+          },
+          {
+            "id": "pitch",
+            "label": "It proves that an instrument always plays at 440 Hz"
+          },
+          {
+            "id": "loudness",
+            "label": "Its oscillator gain states an instrument’s perceived loudness"
+          }
+        ],
+        "correct": "limit",
+        "explanation": "This source is one synthesized test tone, not a recording of an instrument. Its settings cannot establish an instrument identity or how that instrument sounds across notes and performances; gain is not a perceived-loudness measurement.",
+        "sourceIds": [
+          "openstax-timbre",
+          "physics-classroom-harmonics",
+          "original-tone-cases"
+        ]
+      },
+      {
+        "id": "mu36-8",
+        "sectionId": "read-the-evidence",
+        "kind": "choice",
+        "prompt": "Two real instruments play the same written note. Which explanation best connects the shared note to a possible difference in sound character?",
+        "context": "OpenStax uses violin and piano playing the same note as an example: their distinctive frequency and intensity sets can differ, and listeners perceive those combinations as timbre. The descriptive judgment is not an objective instrument-identification test.",
+        "options": [
+          {
+            "id": "spectrum",
+            "label": "Their frequency-and-intensity patterns can differ, contributing to timbre"
+          },
+          {
+            "id": "same",
+            "label": "The written note forces every sound characteristic to be identical"
+          },
+          {
+            "id": "volume",
+            "label": "Different tone quality simply means one instrument is louder"
+          },
+          {
+            "id": "identity",
+            "label": "One synthetic waveform is a complete model of both instruments"
+          }
+        ],
+        "correct": "spectrum",
+        "explanation": "A shared note does not require identical sound character. OpenStax connects the distinctive frequency-and-intensity combinations of instruments to perceived timbre and notes its subjective nature; the synthetic comparison in this quiz is only a limited illustration.",
+        "sourceIds": [
+          "openstax-timbre",
+          "physics-classroom-harmonics",
+          "original-tone-cases"
+        ]
+      }
+    ]
   }
 ]

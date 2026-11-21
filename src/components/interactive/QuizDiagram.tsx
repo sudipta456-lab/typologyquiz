@@ -16,10 +16,9 @@ const HEX_COLOR = /^#[0-9a-f]{3,8}$/i;
 const clamp = (n: number, lo: number, hi: number) => (Number.isFinite(n) ? Math.min(hi, Math.max(lo, n)) : lo);
 
 /**
- * Original rectangle diagram. Zone coordinates are percentages of the frame.
- * A zone is selectable when an option shares its id; every zone is also named
- * in the labelled radio list below, which is the full keyboard/screen-reader
- * equivalent of the picture.
+ * Original rectangle diagram. Coordinates are percentages of the frame.
+ * An answer zone is selectable when an option shares its id; optional
+ * annotations are static references and never appear in the answer list.
  */
 export function QuizDiagram({ diagram, options, value, onChange }: Props) {
   const uid = useId();
@@ -33,6 +32,22 @@ export function QuizDiagram({ diagram, options, value, onChange }: Props) {
         <span>{diagram.description}</span>
       </figcaption>
       <div className={styles.diagramFrame}>
+        {diagram.annotations?.map((annotation) => {
+          const color = annotation.color && HEX_COLOR.test(annotation.color) ? annotation.color : undefined;
+          const style = {
+            left: `${clamp(annotation.x, 0, 100)}%`,
+            top: `${clamp(annotation.y, 0, 100)}%`,
+            width: `${clamp(annotation.width, 1, 100)}%`,
+            height: `${clamp(annotation.height, 1, 100)}%`,
+            pointerEvents: "none" as const,
+            ...(color ? { "--zone": color } : null),
+          } as React.CSSProperties;
+          return (
+            <div key={annotation.id} className={styles.zoneStatic} style={style} aria-hidden="true">
+              <span>{annotation.label}</span>
+            </div>
+          );
+        })}
         {diagram.zones.map((zone) => {
           const selectable = optionIds.has(zone.id);
           const selected = selectable && value === zone.id;

@@ -13066,5 +13066,324 @@
         ]
       }
     ]
+  },
+  {
+    "id": "MT-36",
+    "slug": "the-scarf-that-vanished-on-screen",
+    "categoryId": "movies-tv",
+    "title": "The Scarf That Vanished on Screen",
+    "description": "Help a tiny film crew key a backdrop, keep a green scarf, and build a clean moonlit composite from text-only production cards.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 4,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "find-the-vanishing-color",
+        "title": "Find the vanishing color",
+        "description": "Read the key, layer, and scarf clues in the first production cards."
+      },
+      {
+        "id": "repair-the-composite",
+        "title": "Repair the composite",
+        "description": "Diagnose fresh failures, then build a new layered shot."
+      }
+    ],
+    "sources": [
+      {
+        "id": "acmi-visual-effects",
+        "kind": "reference",
+        "label": "ACMI, Visual effects: Film it — Visual Effects",
+        "url": "https://www.acmi.net.au/education/school-program-and-resources/film-it-visual-effects/"
+      },
+      {
+        "id": "scarf-production-cards",
+        "kind": "original",
+        "label": "Original fictional production cards and simplified compositing model; no real footage, film stills, or production records."
+      }
+    ],
+    "note": "Every scene is a text-only fictional model. In the simplified keyer used here, the selected exact color becomes transparent and every other pixel stays opaque; this is not image processing by the quiz.",
+    "questions": [
+      {
+        "id": "mt36-1",
+        "sectionId": "find-the-vanishing-color",
+        "kind": "choice",
+        "prompt": "What does the crew's color key do in this model?",
+        "context": "Fictional slate: the editor selects the exact green color used by the backdrop. The simplified keyer makes pixels of that selected color transparent and leaves every other pixel opaque. The lower timeline layer is a painted moon garden.",
+        "explanation": "Keying turns the selected color transparent; the moon garden on the lower layer can then show through those pixels. It is not simply repainting green pixels as moonlight.",
+        "sourceIds": [
+          "acmi-visual-effects",
+          "scarf-production-cards"
+        ],
+        "options": [
+          {
+            "id": "transparent",
+            "label": "It makes pixels matching the selected color transparent so a lower layer can show through"
+          },
+          {
+            "id": "recolor",
+            "label": "It recolors every green pixel as the background image"
+          },
+          {
+            "id": "blur",
+            "label": "It blurs the whole frame until the backdrop disappears"
+          },
+          {
+            "id": "crop",
+            "label": "It crops away every object touching the edge of the frame"
+          }
+        ],
+        "correct": "transparent"
+      },
+      {
+        "id": "mt36-2",
+        "sectionId": "find-the-vanishing-color",
+        "kind": "match",
+        "prompt": "Match each timeline clue to what it tells the editor.",
+        "context": "Fictional timeline card: the keyed actor clip sits above the moon garden. The editor can put an additional clip above either layer and can draw a mask that shows or hides a chosen region. Under the simplified model, selected-color pixels in the keyed clip are transparent.",
+        "explanation": "A transparent hole reveals what is underneath; placing the actor above the garden gives those holes somewhere useful to reveal. A mask can limit which region of an added clip is visible, rather than changing the keyed color.",
+        "sourceIds": [
+          "acmi-visual-effects",
+          "scarf-production-cards"
+        ],
+        "left": [
+          {
+            "id": "hole",
+            "label": "A green pixel in the actor clip has become transparent"
+          },
+          {
+            "id": "stack",
+            "label": "The actor clip is above the moon garden"
+          },
+          {
+            "id": "mask",
+            "label": "A mask is drawn around one chosen region of an added clip"
+          }
+        ],
+        "right": [
+          {
+            "id": "reveals-below",
+            "label": "The lower layer can show through that pixel"
+          },
+          {
+            "id": "foreground",
+            "label": "Opaque actor pixels can sit in front of the garden"
+          },
+          {
+            "id": "limits-region",
+            "label": "Visibility of that added clip is restricted to the selected region"
+          }
+        ],
+        "pairs": {
+          "hole": "reveals-below",
+          "stack": "foreground",
+          "mask": "limits-region"
+        }
+      },
+      {
+        "id": "mt36-3",
+        "sectionId": "find-the-vanishing-color",
+        "kind": "order",
+        "prompt": "Put the three edit steps in a sensible order for this shot.",
+        "context": "Original shot plan: first the crew has a moon-garden background and an actor clip filmed against the chosen green backdrop. The key must be applied to the actor clip, and then the crew checks whether transparent areas reveal the garden. This task asks for the workflow order, not a universal software menu sequence.",
+        "explanation": "Both preparations must be complete before inspection, but stacking and applying the key are independent here and may happen in either order. The only required precedence is that both are done before the crew inspects the composite; this is not a universal software menu sequence.",
+        "sourceIds": [
+          "acmi-visual-effects",
+          "scarf-production-cards"
+        ],
+        "items": [
+          {
+            "id": "stack",
+            "label": "Place the moon garden below the actor clip"
+          },
+          {
+            "id": "key",
+            "label": "Apply the selected-color key to the actor clip"
+          },
+          {
+            "id": "inspect",
+            "label": "Inspect the composite for holes and unwanted backdrop"
+          }
+        ],
+        "precedence": [
+          [
+            "stack",
+            "inspect"
+          ],
+          [
+            "key",
+            "inspect"
+          ]
+        ]
+      },
+      {
+        "id": "mt36-4",
+        "sectionId": "find-the-vanishing-color",
+        "kind": "choice",
+        "prompt": "The green scarf vanishes along with the backdrop. The crew cannot reshoot, but it can add one unkeyed scarf layer and mask it to the scarf's outlined region. Which repair preserves the scarf in this model?",
+        "context": "Original shot card: the scarf pixels have the exact color selected by the key, so they become transparent under the stated simplified model. The editor can duplicate the scarf as an unkeyed top clip and mask that duplicate to the scarf outline. No other repair tools are available for this shot.",
+        "explanation": "The selected color makes the scarf transparent in the keyed actor clip. A separate unkeyed scarf layer above it restores those pixels, and the mask confines that duplicate to the scarf outline. An unmasked full-frame actor duplicate on top would cover the keyed actor and moon garden instead of isolating the scarf. The mask follows this fictional editor's stated tool, not an automatic feature of keying.",
+        "sourceIds": [
+          "scarf-production-cards"
+        ],
+        "options": [
+          {
+            "id": "scarf-layer",
+            "label": "Place the unkeyed scarf duplicate above the actor and mask it to the scarf outline"
+          },
+          {
+            "id": "more-key",
+            "label": "Select the same green color more precisely so the matching scarf pixels become opaque"
+          },
+          {
+            "id": "unmasked-full-frame",
+            "label": "Put an unkeyed full-frame duplicate of the actor on top without a mask"
+          },
+          {
+            "id": "repaint-key",
+            "label": "Paint the moon garden's green background pixels orange"
+          }
+        ],
+        "correct": "scarf-layer"
+      },
+      {
+        "id": "mt36-5",
+        "sectionId": "repair-the-composite",
+        "kind": "choice",
+        "prompt": "For a new take, which listed setup keeps the costume opaque under the crew's exact-color model?",
+        "context": "Original costume card: the actor wears an amber coat and a violet hat; no blue or green item is in the frame. The available seamless backdrops are blue, green, amber, and violet. The crew will select the exact backdrop color as the key, and the brief is to keep both costume pieces opaque.",
+        "explanation": "Among the listed setups, only blue differs from both the amber coat and violet hat, so the exact blue key leaves both costume pieces opaque. Other contrasting colors, including green if it were listed, could also work; blue is not uniquely best in general.",
+        "sourceIds": [
+          "acmi-visual-effects",
+          "scarf-production-cards"
+        ],
+        "options": [
+          {
+            "id": "blue",
+            "label": "Blue, then select that exact blue color for the key"
+          },
+          {
+            "id": "amber",
+            "label": "Amber, then select that exact amber color for the key"
+          },
+          {
+            "id": "violet",
+            "label": "Violet, then select that exact violet color for the key"
+          },
+          {
+            "id": "all-colors",
+            "label": "Select every color in the frame so all costume pieces are transparent"
+          }
+        ],
+        "correct": "blue"
+      },
+      {
+        "id": "mt36-6",
+        "sectionId": "repair-the-composite",
+        "kind": "match",
+        "prompt": "Match each fresh frame problem to the most direct next check.",
+        "context": "Original monitor notes: (A) a pale strip of studio wall remains at frame left beyond the green cloth; (B) green areas of the cloth look pale at the top and dark at the bottom; (C) the green scarf disappears wherever it crosses the backdrop. The notes describe separate fictional takes. ACMI advises keeping lighting consistent and filling the frame with the chroma-key backdrop; the simplified keyer removes only its selected exact color.",
+        "explanation": "The uncovered wall is outside the backdrop and will not match its key. Uneven illumination can make the backdrop's sampled color inconsistent, so even lighting is a useful repair. The scarf shares the selected color in this model; use a contrasting key/backdrop or a specified masking/layer repair rather than expecting the color key to distinguish identical colors by object.",
+        "sourceIds": [
+          "acmi-visual-effects",
+          "scarf-production-cards"
+        ],
+        "left": [
+          {
+            "id": "wall-strip",
+            "label": "A strip of studio wall lies outside the backdrop"
+          },
+          {
+            "id": "patchy-light",
+            "label": "The backdrop is pale above and dark below"
+          },
+          {
+            "id": "scarf-match",
+            "label": "The scarf shares the selected key color"
+          }
+        ],
+        "right": [
+          {
+            "id": "cover-frame",
+            "label": "Extend the backdrop to cover the frame"
+          },
+          {
+            "id": "even-light",
+            "label": "Make backdrop illumination more consistent"
+          },
+          {
+            "id": "contrast-or-mask",
+            "label": "Choose a contrasting key setup or isolate the scarf with the stated mask-and-layer tools"
+          }
+        ],
+        "pairs": {
+          "wall-strip": "cover-frame",
+          "patchy-light": "even-light",
+          "scarf-match": "contrast-or-mask"
+        }
+      },
+      {
+        "id": "mt36-7",
+        "sectionId": "repair-the-composite",
+        "kind": "choice",
+        "prompt": "The crew wants a starry picture only inside a rectangular spaceship window. Which edit uses a mask for the job it is meant to do here?",
+        "context": "Original composite card: the opaque actor layer is over a space background. A separate starry-window clip should appear in a rectangle above the actor's left shoulder, with no overlap over the actor. The editor's rectangular mask shows the added clip only inside its selected rectangle; transparent areas of the keyed actor reveal lower layers.",
+        "explanation": "The rectangular mask limits the window clip to the window region. It controls where that added clip is visible; the color key separately removes selected-color pixels from the actor footage.",
+        "sourceIds": [
+          "acmi-visual-effects",
+          "scarf-production-cards"
+        ],
+        "options": [
+          {
+            "id": "window-mask",
+            "label": "Put the window clip above the actor and mask it to the rectangle"
+          },
+          {
+            "id": "key-window",
+            "label": "Key the actor's ordinary coat color so the window clip can find the rectangle"
+          },
+          {
+            "id": "below-mask",
+            "label": "Put the window clip below the opaque actor and mask the actor's whole frame"
+          },
+          {
+            "id": "replace-key",
+            "label": "Use the mask to turn every pixel of the actor into the selected key color"
+          }
+        ],
+        "correct": "window-mask"
+      },
+      {
+        "id": "mt36-8",
+        "sectionId": "repair-the-composite",
+        "kind": "order",
+        "prompt": "Build the last text-only composite from bottom layer to top layer.",
+        "context": "Original final slate: a performer wears a red cape and gold badge against a blue backdrop; no costume item is blue. The selected exact blue color becomes transparent in the actor clip. The night-sky plate must sit below the actor, and the masked starry-window insert must be above the sky. Important overlap: the window frame crosses the actor's sleeve and must appear in front of it; if the insert sits behind the actor, the opaque sleeve covers that part of the frame. A rectangular mask limits the insert to the window. Arrange the three clips from bottom to top.",
+        "explanation": "The sky must be below both other clips; the actor must be above the sky so keyed blue reveals it; and the window must be above the actor so its frame visibly crosses in front of the sleeve. Those three genuine layer constraints force sky → actor → window.",
+        "sourceIds": [
+          "acmi-visual-effects",
+          "scarf-production-cards"
+        ],
+        "items": [
+          {
+            "id": "sky",
+            "label": "Night-sky plate"
+          },
+          {
+            "id": "actor",
+            "label": "Actor clip with the blue key applied"
+          },
+          {
+            "id": "window",
+            "label": "Starry-window insert masked to its rectangle"
+          }
+        ],
+        "correctOrder": [
+          "sky",
+          "actor",
+          "window"
+        ]
+      }
+    ]
   }
 ]

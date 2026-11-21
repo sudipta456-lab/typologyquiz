@@ -381,7 +381,7 @@ test("no external media, embeds or media-bearing fields anywhere in the banks", 
     }
     for (const { path, key } of keysOf(quiz, "")) if (mediaKey.test(key)) assert.ok(key === "url" && path.startsWith("sources["), `${quiz.id} ${path}.${key}: media field`);
     for (const q of quiz.questions) {
-      if (q.kind === "hotspot") assert.deepEqual(Object.keys(q.diagram).sort(), ["description", "title", "zones"], `${quiz.id}/${q.id}`);
+      if (q.kind === "hotspot") assert.deepEqual(Object.keys(q.diagram).sort(), ["description", "title", "zones", ...(q.diagram.annotations === undefined ? [] : ["annotations"])].sort(), `${quiz.id}/${q.id}`);
       if (q.kind === "audio") for (const tone of q.tones) assert.ok(Object.keys(tone).every((key) => ["frequency", "duration", "delay", "waveform", "gain"].includes(key)), `${quiz.id}/${q.id}`);
     }
   }

@@ -396,6 +396,50 @@ test("validation: bounded audio and hotspot diagrams", () => {
   expectError(errorsOf((q) => { view(q, "q-hot").correct = "z9"; }, makeMixed), "not an option");
 });
 
+test("hotspot annotations are bounded non-answer rectangles with disjoint safe ids", () => {
+  const valid = makeMixed();
+  const diagram = view(valid, "q-hot").diagram as Rec;
+  diagram.annotations = [{ id: "north-label", label: "North reference", x: 5, y: 4, width: 30, height: 12 }];
+  assert.deepEqual(validateQuiz(valid), []);
+  const hotspot = find(valid, "q-hot");
+  assert.equal(validateAnswer(hotspot, "north-label"), false);
+  assert.equal(scoreQuestion(hotspot, "north-label"), 0);
+
+  expectError(errorsOf((q) => { (view(q, "q-hot").diagram as Rec).annotations = {}; }, makeMixed), "annotations: must be an array");
+  expectError(errorsOf((q) => { ((view(q, "q-hot").diagram as Rec).annotations as Rec[]) = [{ id: "north", label: "North", x: 90, y: 4, width: 20, height: 12 }]; }, makeMixed), "extends past the diagram");
+  expectError(errorsOf((q) => { ((view(q, "q-hot").diagram as Rec).annotations as Rec[]) = [{ id: "north", label: "North", x: 5, y: 4, width: 30, height: 12, color: "url(javascript:1)" }]; }, makeMixed), "color must be a hex value");
+  expectError(errorsOf((q) => { ((view(q, "q-hot").diagram as Rec).annotations as Rec[]) = [{ id: "__proto__", label: "North", x: 5, y: 4, width: 30, height: 12 }]; }, makeMixed), "invalid id");
+  expectError(errorsOf((q) => { ((view(q, "q-hot").diagram as Rec).annotations as Rec[]) = [{ id: "north", label: "  ", x: 5, y: 4, width: 30, height: 12 }]; }, makeMixed), "label required");
+  expectError(errorsOf((q) => { ((view(q, "q-hot").diagram as Rec).annotations as Rec[]) = [{ id: "z1", label: "North", x: 5, y: 4, width: 30, height: 12 }]; }, makeMixed), "annotation id cannot match an answer option");
+  expectError(errorsOf((q) => { ((view(q, "q-hot").diagram as Rec).annotations as Rec[]) = [{ id: "north", label: "North", x: 5, y: 4, width: 30, height: 12 }, { id: "north", label: "Also north", x: 40, y: 4, width: 30, height: 12 }]; }, makeMixed), "duplicate id");
+  expectError(errorsOf((q) => {
+    const hot = view(q, "q-hot");
+    const diagram = hot.diagram as Rec;
+    (diagram.zones as Rec[]).push({ id: "static-mark", label: "Existing static mark", x: 1, y: 1, width: 10, height: 10 });
+    diagram.annotations = [{ id: "static-mark", label: "Reference", x: 20, y: 20, width: 10, height: 10 }];
+  }, makeMixed), "duplicate id");
+  expectError(errorsOf((q) => { ((view(q, "q-hot").diagram as Rec).annotations as Rec[]) = [{ id: "north", label: "North", x: 5, y: 4, width: 30, height: 12, correct: "north" }]; }, makeMixed), "unsupported annotation field");
+  expectError(errorsOf((q) => { ((view(q, "q-hot").diagram as Rec).annotations as Rec[]) = Array.from({ length: 13 }, (_, index) => ({ id: `ref-${index}`, label: "Reference", x: 1, y: 1, width: 10, height: 10 })); }, makeMixed), "at most 12 annotations");
+  expectError(errorsOf((q) => {
+    const hot = view(q, "q-hot");
+    const zones = (hot.diagram as Rec).zones as Rec[];
+    (hot.diagram as Rec).zones = Array.from({ length: 12 }, (_, index) => ({ ...zones[0], id: `zone-${index}` }));
+    (hot.diagram as Rec).annotations = [{ id: "north", label: "North", x: 5, y: 4, width: 30, height: 12 }];
+  }, makeMixed), "combined zones and annotations");
+
+  const keyedAnnotation = makeMixed();
+  const keyedHotspot = view(keyedAnnotation, "q-hot");
+  keyedHotspot.correct = "north-label";
+  (keyedHotspot.diagram as Rec).annotations = [{ id: "north-label", label: "North", x: 5, y: 4, width: 30, height: 12 }];
+  expectError(validateQuiz(keyedAnnotation), "not an option");
+
+  const optionCollision = makeMixed();
+  const collidingHotspot = view(optionCollision, "q-hot");
+  collidingHotspot.options = [...(collidingHotspot.options as Rec[]), { id: "north-label", label: "North reference" }];
+  (collidingHotspot.diagram as Rec).annotations = [{ id: "north-label", label: "North", x: 5, y: 4, width: 30, height: 12 }];
+  expectError(validateQuiz(optionCollision), "annotation id cannot match an answer option");
+});
+
 function collection(count: number): Quiz[] {
   return Array.from({ length: count }, (_, index) => ({ ...makeQuiz(), id: `quiz-${index}`, slug: `quiz-${index}` }));
 }

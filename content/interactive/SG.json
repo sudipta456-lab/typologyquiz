@@ -12982,5 +12982,426 @@
       }
     ],
     "playMode": "solo"
+  },
+  {
+    "id": "SG-36",
+    "slug": "the-balance-game",
+    "categoryId": "sports-games",
+    "title": "The Balance Game",
+    "description": "Read a virtual tabletop schematic, then make design choices by separating support relocation from changes in a game piece’s mass distribution.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "read-the-footprint",
+        "title": "Read the tabletop model",
+        "description": "Compare a game piece’s support footprint with its center-of-mass projection."
+      },
+      {
+        "id": "change-the-design",
+        "title": "Make a game-piece design choice",
+        "description": "Move the support or redistribute a token, then check the model’s limits."
+      }
+    ],
+    "sources": [
+      {
+        "id": "exploratorium-center-gravity",
+        "kind": "reference",
+        "label": "Exploratorium: Center of Gravity",
+        "url": "https://annex.exploratorium.edu/xref/phenomena/balance_-_center__of_gravi.html"
+      },
+      {
+        "id": "exploratorium-exhibit",
+        "kind": "reference",
+        "label": "Exploratorium: Center of Gravity Exhibit",
+        "url": "https://annex.exploratorium.edu/xref/exhibits/center_of_gravity.html"
+      },
+      {
+        "id": "original-balance-tabletop",
+        "kind": "original",
+        "label": "Original fictional rigid game pieces, support-footprint records, and tabletop design cases."
+      }
+    ],
+    "note": "This is a virtual tabletop game-design model, not a physical balancing activity or exercise advice. Static cases assume a rigid piece at rest on a level surface with adequate friction. The schematic and all game-piece records are original fictional data.",
+    "questions": [
+      {
+        "id": "sg36-1",
+        "sectionId": "read-the-footprint",
+        "kind": "hotspot",
+        "prompt": "In this fictional tabletop schematic, select the arrangement whose center-of-mass projection is supported by its base.",
+        "context": "Each is a proposed rigid arrangement on a level table with enough friction to prevent sliding. Arrangement A’s center-of-mass projection is left of its base, arrangement B’s projection falls over its base, and arrangement C’s projection is right of its base. Use those side-view relationships to choose which can remain at rest. The schematic shows only these fictional relative positions.",
+        "diagram": {
+          "title": "Three fictional game-piece support records",
+          "description": "Static reference rectangles labeled A COM, B COM and C COM mark projection positions in an upper row; separate A base, B base and C base references show support footprints below. Compare horizontal alignment; vertical spacing is schematic only. A and C projections sit entirely beyond their respective footprints; B’s projection lies over its footprint. Selectable A, B and C answer zones sit in a separate lower row. The question text gives the same spatial evidence.",
+          "zones": [
+            {
+              "id": "a",
+              "label": "A",
+              "x": 3,
+              "y": 77,
+              "width": 27,
+              "height": 20
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "x": 36,
+              "y": 77,
+              "width": 27,
+              "height": 20
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "x": 69,
+              "y": 77,
+              "width": 27,
+              "height": 20
+            }
+          ],
+          "annotations": [
+            {
+              "id": "a-com",
+              "label": "A COM",
+              "x": 0,
+              "y": 13,
+              "width": 14,
+              "height": 22
+            },
+            {
+              "id": "b-com",
+              "label": "B COM",
+              "x": 42,
+              "y": 13,
+              "width": 16,
+              "height": 22
+            },
+            {
+              "id": "c-com",
+              "label": "C COM",
+              "x": 86,
+              "y": 13,
+              "width": 14,
+              "height": 22
+            },
+            {
+              "id": "a-base",
+              "label": "A base",
+              "x": 16,
+              "y": 48,
+              "width": 16,
+              "height": 22
+            },
+            {
+              "id": "b-base",
+              "label": "B base",
+              "x": 39,
+              "y": 48,
+              "width": 22,
+              "height": 22
+            },
+            {
+              "id": "c-base",
+              "label": "C base",
+              "x": 66,
+              "y": 48,
+              "width": 16,
+              "height": 22
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "a",
+            "label": "Arrangement A"
+          },
+          {
+            "id": "b",
+            "label": "Arrangement B"
+          },
+          {
+            "id": "c",
+            "label": "Arrangement C"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Only the B projection marker lies within its support footprint, so B is the proposed arrangement that can remain at rest under the stated level-surface and friction assumptions. The schematic is original teaching data, not a measurement of a real object.",
+        "sourceIds": [
+          "exploratorium-center-gravity",
+          "exploratorium-exhibit",
+          "original-balance-tabletop"
+        ]
+      },
+      {
+        "id": "sg36-2",
+        "sectionId": "read-the-footprint",
+        "kind": "choice",
+        "prompt": "The designer adds one identical token to the right side of a fictional game piece. Before checking the base, which change should the model predict?",
+        "context": "The piece is rigid on a level tabletop. Add the token to the right of the original center of mass while the original piece and support stay in place. The token’s added mass shifts the combined center-of-mass projection toward that right-side addition; this is a proposed arrangement to check against the support footprint.",
+        "options": [
+          {
+            "id": "right",
+            "label": "The combined center-of-mass projection shifts toward the right-side addition"
+          },
+          {
+            "id": "left",
+            "label": "The projection shifts away from the added token"
+          },
+          {
+            "id": "same",
+            "label": "The projection cannot change unless the support base also moves"
+          },
+          {
+            "id": "color",
+            "label": "The projection shifts according to the token’s color"
+          }
+        ],
+        "correct": "right",
+        "explanation": "The center of mass reflects how the object’s mass is distributed. Adding material on one side shifts the combined center of mass toward that addition; the next step is to check the resulting projection against the support footprint.",
+        "sourceIds": [
+          "exploratorium-center-gravity",
+          "original-balance-tabletop"
+        ]
+      },
+      {
+        "id": "sg36-3",
+        "sectionId": "read-the-footprint",
+        "kind": "choice",
+        "prompt": "A game-piece projection mark sits just beyond the left edge of its base. The token layout must stay fixed. Which design change uses the spatial evidence?",
+        "context": "Original static design record: the rigid piece is at rest on a level tabletop with adequate friction. The projection is left of the support footprint. The designer may relocate the base or leave it where it is; the piece’s mass layout is fixed for this decision.",
+        "options": [
+          {
+            "id": "left",
+            "label": "Relocate the base left so the footprint sits under the projection"
+          },
+          {
+            "id": "right",
+            "label": "Relocate the base farther right, away from the projection"
+          },
+          {
+            "id": "token",
+            "label": "Move a token even though the mass layout must stay fixed"
+          },
+          {
+            "id": "color",
+            "label": "Change the base’s color and keep its position"
+          }
+        ],
+        "correct": "left",
+        "explanation": "The projection stays fixed in this design case, so relocating the support footprint left is the change that brings the base under it. This is a support-location decision, separate from moving mass within the piece.",
+        "sourceIds": [
+          "exploratorium-center-gravity",
+          "original-balance-tabletop"
+        ]
+      },
+      {
+        "id": "sg36-4",
+        "sectionId": "read-the-footprint",
+        "kind": "choice",
+        "prompt": "Which fictional design record is a counterexample to “the widest base is always the best-supported design”?",
+        "context": "Both game pieces are proposed as rigid arrangements on the same level tabletop, with adequate friction. In Record Wide, the base is wider but the projection marker lies just beyond its right edge, so that arrangement cannot remain at rest under the model. In Record Narrow, the base is narrower but the projection marker lies within it. These are original model positions, not real measurements.",
+        "options": [
+          {
+            "id": "wide",
+            "label": "Record Wide: wider footprint, projection outside; Record Narrow: narrower footprint, projection inside"
+          },
+          {
+            "id": "both",
+            "label": "Both records put the projection inside their footprints"
+          },
+          {
+            "id": "none",
+            "label": "Neither record gives a projection position"
+          },
+          {
+            "id": "color",
+            "label": "The color of either piece is the only difference shown"
+          }
+        ],
+        "correct": "wide",
+        "explanation": "The paired fictional records show why width by itself is not the support test: the wider base’s projection falls outside, while the narrower base’s projection is supported. The conclusion is limited to the stated static model, not a universal stability ranking.",
+        "sourceIds": [
+          "exploratorium-center-gravity",
+          "exploratorium-exhibit",
+          "original-balance-tabletop"
+        ]
+      },
+      {
+        "id": "sg36-5",
+        "sectionId": "change-the-design",
+        "kind": "hotspot",
+        "prompt": "A uniform rectangular game token gets a denser insert entirely left of its old midpoint; its outer outline stays unchanged. Where must the combined center of mass lie relative to that old midpoint?",
+        "context": "Original fictional static tabletop case: the token begins as a uniform rectangle, so its geometric midpoint is also its original center of mass. A denser insert is added entirely to the left of that old midpoint; the token’s outer outline remains unchanged. Choose the region where the combined center of mass must lie. No exact position or numerical calculation is supplied or required.",
+        "diagram": {
+          "title": "Position schematic: added mass and old midpoint",
+          "description": "This position schematic shows separate static references for a denser insert and the old midpoint; it does not draw a token silhouette. The fictional case states that the token’s outer geometry stays constant. Three separate lower-row answer zones show regions relative to the midpoint. The prompt gives the positional relationship, and the schematic shows a direction of shift rather than an exact point.",
+          "zones": [
+            {
+              "id": "left",
+              "label": "Left of midpoint",
+              "x": 3,
+              "y": 69,
+              "width": 29,
+              "height": 24
+            },
+            {
+              "id": "middle",
+              "label": "At midpoint",
+              "x": 35.5,
+              "y": 69,
+              "width": 29,
+              "height": 24
+            },
+            {
+              "id": "right",
+              "label": "Right of midpoint",
+              "x": 68,
+              "y": 69,
+              "width": 29,
+              "height": 24
+            }
+          ],
+          "annotations": [
+            {
+              "id": "dense-insert",
+              "label": "Denser left insert",
+              "x": 19,
+              "y": 19,
+              "width": 20,
+              "height": 24
+            },
+            {
+              "id": "old-midpoint",
+              "label": "Old midpoint",
+              "x": 44,
+              "y": 10,
+              "width": 14,
+              "height": 32
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "left",
+            "label": "Left of the old geometric midpoint"
+          },
+          {
+            "id": "middle",
+            "label": "Exactly at the old geometric midpoint"
+          },
+          {
+            "id": "right",
+            "label": "Right of the old geometric midpoint"
+          }
+        ],
+        "correct": "left",
+        "explanation": "The added mass is entirely left of the original mass center, so it shifts the combined center of mass left of the old midpoint. The unchanged outer outline keeps the geometric midpoint where it was; mass distribution and geometric center are different ideas. The schematic gives only the side of the shift, not an exact measured point.",
+        "sourceIds": [
+          "exploratorium-center-gravity",
+          "original-balance-tabletop"
+        ]
+      },
+      {
+        "id": "sg36-6",
+        "sectionId": "change-the-design",
+        "kind": "match",
+        "prompt": "Match each fictional pair of model records to the design change it isolates.",
+        "context": "Each record holds the tabletop and rigid piece fixed. In Pair A, the base is relocated while the center-of-mass projection stays at the same tabletop position. In Pair B, the base stays fixed while a token is moved within the piece and the supplied projection mark shifts. The records are original model data.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Pair A: base position changes; projection mark stays put"
+          },
+          {
+            "id": "b",
+            "label": "Pair B: base stays put; moving a token changes the projection mark"
+          }
+        ],
+        "right": [
+          {
+            "id": "support",
+            "label": "Relocating the support footprint"
+          },
+          {
+            "id": "mass",
+            "label": "Redistributing mass within the game piece"
+          }
+        ],
+        "pairs": {
+          "a": "support",
+          "b": "mass"
+        },
+        "explanation": "Pair A changes where the support sits relative to a fixed projection. Pair B changes the mass layout and thus the supplied projection while support stays fixed. They are different design moves even when either may bring the projection over the base.",
+        "sourceIds": [
+          "exploratorium-center-gravity",
+          "exploratorium-exhibit",
+          "original-balance-tabletop"
+        ]
+      },
+      {
+        "id": "sg36-7",
+        "sectionId": "change-the-design",
+        "kind": "choice",
+        "prompt": "What does the virtual tabletop model leave out when a game piece is struck or begins sliding?",
+        "context": "This model checks static support for a rigid piece at rest on a level tabletop with adequate friction. It does not simulate impact, motion during a collision or sliding on a low-friction surface.",
+        "options": [
+          {
+            "id": "limits",
+            "label": "It cannot predict the moving piece’s full motion or whether it slides after impact"
+          },
+          {
+            "id": "predict",
+            "label": "It proves the piece will stay in place during every collision"
+          },
+          {
+            "id": "slope",
+            "label": "It establishes behavior on any slope and surface"
+          },
+          {
+            "id": "person",
+            "label": "It predicts how a person should balance in a sport"
+          }
+        ],
+        "correct": "limits",
+        "explanation": "The stated rule is for a static rigid piece under specific surface assumptions. Impact and sliding involve conditions this virtual model does not represent, so it cannot provide those predictions or coaching advice.",
+        "sourceIds": [
+          "exploratorium-center-gravity",
+          "original-balance-tabletop"
+        ]
+      },
+      {
+        "id": "sg36-8",
+        "sectionId": "change-the-design",
+        "kind": "choice",
+        "prompt": "Final game-design pick: the token must remain on the right, and the model permits moving the base far enough right. Which proposed design puts the support beneath the projection?",
+        "context": "Original design brief: keep the right-side token in its marked position. The supplied projection mark is just outside the right edge of the current base. The model permits shifting the base far enough right to put the projection strictly inside the footprint while the token stays fixed. Choose the proposed design that meets this support condition.",
+        "options": [
+          {
+            "id": "move-base",
+            "label": "Move the base right under the projection, keeping the token fixed"
+          },
+          {
+            "id": "move-token",
+            "label": "Move the token left, against the design brief"
+          },
+          {
+            "id": "leave",
+            "label": "Leave the base where it is and ignore the unsupported projection"
+          },
+          {
+            "id": "color",
+            "label": "Change the token’s color without changing any position"
+          }
+        ],
+        "correct": "move-base",
+        "explanation": "The mass layout is fixed by the brief, so the designer can meet the stated support condition by relocating the base until the supplied projection is strictly inside its footprint. The decision uses the model’s constraints rather than assuming a wider base alone solves every design problem.",
+        "sourceIds": [
+          "exploratorium-center-gravity",
+          "exploratorium-exhibit",
+          "original-balance-tabletop"
+        ]
+      }
+    ]
   }
 ]

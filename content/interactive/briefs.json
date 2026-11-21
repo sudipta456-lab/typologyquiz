@@ -18,19 +18,19 @@
     {
       "code": "MT",
       "name": "Movies & TV",
-      "count": 35,
+      "count": 36,
       "file": "03-movies-tv.md"
     },
     {
       "code": "MU",
       "name": "Music",
-      "count": 35,
+      "count": 36,
       "file": "04-music.md"
     },
     {
       "code": "GT",
       "name": "Geography & Travel",
-      "count": 35,
+      "count": 36,
       "file": "05-geography-travel.md"
     },
     {
@@ -54,13 +54,13 @@
     {
       "code": "SG",
       "name": "Sports & Games",
-      "count": 35,
+      "count": 36,
       "file": "09-sports-games.md"
     },
     {
       "code": "LW",
       "name": "Logic & Wordplay",
-      "count": 34,
+      "count": 35,
       "file": "10-logic-wordplay.md"
     }
   ],
@@ -8554,6 +8554,111 @@
       "category": "Sports & Games",
       "category_code": "SG",
       "wave": "catchup-2026-11-20",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MT-36",
+      "title": "The Scarf That Vanished on Screen",
+      "slug": "the-scarf-that-vanished-on-screen",
+      "kind": "knowledge",
+      "hook": "A green scarf disappears when a tiny crew keys its backdrop. Help them diagnose the color, layer, mask, lighting, and frame-coverage clues, then assemble a new text-only composite.",
+      "rounds": [
+        "Identify what a selected-color key does, match transparency/layer/mask clues, order independent setup steps before inspection, and restore the scarf with the specified masked duplicate",
+        "Choose the only opaque-costume setup among listed options, diagnose distinct backdrop failures, mask a window insert, and order a composite where the frame crosses in front of the actor's sleeve"
+      ],
+      "seed": "The exact green scarf color was selected as the key, so the scarf vanishes with the backdrop. How can the crew keep the scarf and still reveal its moon garden?",
+      "payoff": "A clear model of why keyed pixels become transparent, how the lower layer shows through, when a matching foreground color is affected, and how placement or masks control a composite region.",
+      "audience": "Movie and television fans; all cast, costume, timeline, and failure cards are fictional and text-described.",
+      "evidence": "ACMI's Visual effects teaching resource explains color-based keying, backdrop coverage, consistent lighting, placing the background beneath keyed footage, and using layers and masks to show or hide regions. All production cases are original fiction.",
+      "dependency": "base",
+      "production_note": "Use only text-described fictional cases; no copied films, artwork, stills, or claims that the site processes images. State the simplified exact-color rule where needed: selected color becomes transparent; all other pixels stay opaque. Green and blue are case-dependent choices, not universal winners. Do not say keying recolors pixels or that clothing disappears irrespective of key settings. In the scarf repair, the unkeyed scarf duplicate must be masked so it does not cover the full scene. In the final composite, require the window frame to cross in front of the actor's sleeve; otherwise actor/window ordering is not unique. Novelty risk: broad filmcraft overlap with MT-03, MT-19, and MT-35 remains, but this is a chroma-key/compositing problem sequence rather than animation or forced perspective.",
+      "category": "Movies & TV",
+      "category_code": "MT",
+      "wave": "daily-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "LW-35",
+      "title": "A Tiny Language With No Dictionary",
+      "slug": "a-tiny-language-with-no-dictionary",
+      "kind": "logic",
+      "hook": "Follow night birds through a lantern-lit story: infer a few word meanings and word-building clues, then read and compose messages in their original miniature language.",
+      "rounds": [
+        "Infer the bird root from controlled bilingual pairs, match moon and lantern roots, discover the little prefix and plural ending",
+        "Arrange a subject–object–action clause, decode a negative marker, diagnose a swapped-role mistranslation without being given its solution, and choose the complete Tiny sentence that combines little, plural, object order and negation"
+      ],
+      "seed": "Two lantern lines differ in just one noun: senu luma pavi means a bird spots a lantern, while daru luma pavi means a tree spots a lantern. What can that careful swap teach us about the night birds’ word?",
+      "payoff": "A short, story-linked discovery trail: contrastive roots, a little-prefix, a plural ending, unusual subject–object–action order, and action negation combine into a final message.",
+      "audience": "Older children and puzzle fans; the short, repeated lexicon belongs to an original fictional bird-and-lantern world, not a real language or culture and not a test of language ability.",
+      "evidence": "All word lists, grammar constraints, sample translations, and cases are original and self-contained; no real-world language, culture, or copyrighted constructed language is used.",
+      "dependency": "base",
+      "production_note": "Repeat complete evidence and applicable constraints in every context. Keep the lexicon limited to senu (bird), daru (tree), luma (lantern), mira (moon), and pavi (spot); use li- (little), -n (plural), and ha- (action negation). Clause order is subject–object–action, unlike English. Tiny action tokens never inflect for number; English verb agreement follows the subject. English articles may be supplied for natural phrasing but are not encoded. Include choice, match, and order, with a final choice among complete Tiny sentences that requires combining the size prefix, two plural endings, subject–object–action order and negation; do not preassemble forms or label noun roles in that task’s context. The single-error mistranslation task must give rules and roots but not its queried line’s solved translation. Original fictional material only; no real-language/culture or aptitude claims. Novelty risk: general inference puzzles are adjacent to LW-25 cipher, LW-31 letterpress, LW-33 lab-log, and LW-34 conditional-envelope work, but this is a friendly contrastive language-discovery story rather than shifting symbols, hiding an object, reading a log, or routing conditional access.",
+      "category": "Logic & Wordplay",
+      "category_code": "LW",
+      "wave": "daily-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "MU-36",
+      "title": "Same Note, Different Sound",
+      "slug": "same-note-different-sound",
+      "kind": "knowledge",
+      "hook": "Start with a same-note synthetic comparison, then use harmonic and sound-record evidence plus a second optional test tone to make careful sound-design and instrument-identity claims.",
+      "rounds": [
+        "4 entry tasks: distinguish pitch, loudness and timbre; read the optional same-frequency sine/square experiment; infer a possible timbre difference from harmonic-mixture evidence; and select a controlled same-pitch, matched-level comparison",
+        "4 application tasks: distinguish a changed brief-onset waveform from a changed sustained mixture in fictional records; answer a producer who wants a new sound character but the same note; use a second optional single synthetic tone to limit claims about real-instrument identity; and explain how real instruments can differ on one written note"
+      ],
+      "seed": "How can a producer keep a note while exploring a different sound character—and what does a synthetic patch leave unknown?",
+      "payoff": "Progress from a controlled sound observation to harmonic interpretation, a music-making choice and a bounded claim about instrument identity.",
+      "audience": "Curious music listeners and students around grades 5–8; no music theory, instrument identification or hearing assessment is required.",
+      "evidence": "OpenStax Physics, Sound Intensity and Sound Level; The Physics Classroom, Fundamental Frequency and Harmonics; Pantelis Vassilakis, Fundamentals of Sound, Module 6—Timbre and sound envelopes; two original optional synthesized tones and original written comparison records, with no copied audio.",
+      "dependency": "audio",
+      "production_note": "Exactly 8 keyed tasks in two sections (4 evidence foundations, 4 music-making applications); formats: two optional audio tasks, match and choice. The first transcript lists both 440 Hz sine/square tones; the second lists one original 440 Hz triangle test tone and states that it is synthesized, not an instrument recording. Tone controls are frequency/duration/delay/waveform/gain only. The onset record describes a changed brief-onset waveform, not a measured attack amplitude envelope; the sound module’s true attack discussion uses initial build-up wording. Do not equate oscillator gain with perceived loudness, label synthetic tones as real instruments, or key subjective adjectives as facts. Distinct from MU-06 instrument roles, MU-21 sound-description hybrid, MU-11 studio mixing, MU-26 interval ratios and MU-35 interference beats; this sequence develops controlled harmonic-mixture reasoning into a bounded sound-design decision.",
+      "category": "Music",
+      "category_code": "MU",
+      "wave": "daily-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "GT-36",
+      "title": "Follow the Heat Beneath the Ocean",
+      "slug": "follow-the-heat-beneath-the-ocean",
+      "kind": "knowledge",
+      "hook": "Read an explicitly fictional ridge survey schematic, then trace how seawater circulation, heating and mineral precipitation create clues used to investigate hydrothermal systems.",
+      "rounds": [
+        "3 spatial-evidence tasks: choose a useful broad survey region; use the ridge-band, current direction and plume observation to select an up-current follow-up site; and use a three-region coverage hotspot to distinguish an unvisited blank record from sampled regions",
+        "5 process and ecosystem discoveries: trace one hydrothermal circulation path; identify mineral particles in a black-smoker plume; distinguish focused from diffuse flow; connect chemical energy to a vent food web; and compare vent and seep fluid pathways"
+      ],
+      "seed": "A survey finds mineral particles above a fictional ridge site. What can the location and plume evidence support, and what remains unknown?",
+      "payoff": "A spatially grounded introduction to hydrothermal circulation that links ridge geography to fluid and ecosystem processes while keeping survey limits explicit.",
+      "audience": "Curious readers around grades 5–8; no oceanography background or real-site measurements are required.",
+      "evidence": "NOAA PMEL hydrothermal-vent overview; NOAA Ocean Exploration seeps-and-vents overview; NOAA Escanaba hydrothermal-systems feature. Every survey site, coordinate, sample and observation is an original fictional model, not real bathymetry or current discovery data.",
+      "dependency": "visual",
+      "production_note": "Exactly 8 keyed tasks in two sections (3 spatial evidence tasks, then 5 process/ecosystem tasks); formats: two hotspots, choice, order and match. The first hotspot uses a static ridge-band schematic, stated current direction and separate site buttons; the second shows three large rectangular regions, with an unvisited/sample-blank North above sampled South and East. Position and survey state are repeated in the text and labeled answer list; each selectable target must remain ≥44 px within the frame. Neither schematic is bathymetry, and all survey sites, observations and currents are fictional. Do not imply all vents lie at ridges/divergent boundaries, uniform fluid temperatures, organisms living in hottest fluid, soot in black smokers, or that non-detection proves absence. Distinct from GT-20 orbital-pattern inference, GT-28 unusual landforms and GT-34 watershed tracing; this sequence moves from regional choice to two distinct survey inferences, then fluid and ecosystem processes.",
+      "category": "Geography & Travel",
+      "category_code": "GT",
+      "wave": "daily-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SG-36",
+      "title": "The Balance Game",
+      "slug": "the-balance-game",
+      "kind": "knowledge",
+      "hook": "Read labeled tabletop schematics, infer how support location and an off-center mass insert affect a game piece, then choose a design that meets its model constraints.",
+      "rounds": [
+        "4 entry tasks: infer support from three spatial arrangements; predict how adding a token on one side moves the projection; choose a base relocation from the projection’s position; and interpret a wider-base counterexample",
+        "4 application tasks: infer which side a mass insert shifts a uniform token’s center of mass while its outline stays fixed; distinguish support relocation from mass redistribution; identify the single static-model limit; and select a final design that keeps a token fixed while supporting the projection"
+      ],
+      "seed": "A game piece's projected center of mass sits just beyond its base. What model change could bring the support back underneath it?",
+      "payoff": "A small virtual game-design arc from reading spatial evidence to distinguishing two design moves and choosing a constrained final layout.",
+      "audience": "Curious readers and tabletop-game fans around grades 5–8; no physical balancing activity, sports coaching or body-related example is involved.",
+      "evidence": "Exploratorium Center of Gravity explanation and Center of Gravity exhibit; all game-piece arrangements, projection records and design cases are original fictional tabletop models.",
+      "dependency": "visual",
+      "production_note": "Exactly 8 keyed tasks in two sections (4 spatial/design foundations, then 4 model application tasks); formats: two meaningful hotspots, choice and match. The first hotspot uses nonselectable COM/base reference rectangles and three selectable A/B/C answer zones on a lower row. The second is a position schematic with separate nonselectable references for a denser insert and old midpoint; it does not draw the token silhouette because the case states that outer geometry stays constant. Three lower-row regions are selectable answers for the qualitative shift. Both questions repeat equivalent positional evidence in text, use no color-only cues, and keep selectable targets ≥44 px. Other records are explicitly fictional. State the rigid-at-rest, level-surface and adequate-friction assumptions concisely. There is one model-limits task; no generic protocol-order question, real exercise/stunt/coaching content or unsupported claim that width alone guarantees stability. Distinct from SG-35 jump trajectory: this is static support and center-of-mass projection, not projectile motion.",
+      "category": "Sports & Games",
+      "category_code": "SG",
+      "wave": "daily-2026-11-21",
       "evidence_class": "evergreen"
     }
   ]
