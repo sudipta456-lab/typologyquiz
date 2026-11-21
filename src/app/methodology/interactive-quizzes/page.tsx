@@ -5,6 +5,7 @@ import { ORGANIZATION_REF, WEBSITE_REF, breadcrumbList, jsonLdGraph } from "@/li
 import { CATEGORIES } from "@/lib/interactive/categories";
 import { SUMMARIES } from "@/lib/interactive/catalog.generated";
 import type { QuizKind } from "@/lib/interactive/types";
+import { ANATOMY_FUNCTION_LESSONS } from "@/lib/anatomy-functions";
 import { ANATOMY_ASSETS } from "@/components/anatomy/assets";
 
 const PATH = "/methodology/interactive-quizzes/";
@@ -13,6 +14,14 @@ const UPDATED_LABEL = "November 21, 2026";
 const INITIAL_ANATOMY_QUIZ_IDS = new Set(["SN-78", "SN-79", "SN-80", "SN-81", "SN-82", "SN-83", "SN-84", "SN-85"]);
 const ANATOMY_QUIZZES = SUMMARIES.filter((quiz) => INITIAL_ANATOMY_QUIZ_IDS.has(quiz.id));
 const ANATOMY_TASK_COUNT = ANATOMY_QUIZZES.reduce((sum, quiz) => sum + quiz.questionCount, 0);
+const CANONICAL_QUIZ_KEYS = new Set(SUMMARIES.map((quiz) => `${quiz.id}:${quiz.slug}`));
+const FUNCTIONAL_ANATOMY_LESSONS = ANATOMY_FUNCTION_LESSONS.filter((lesson) =>
+  CANONICAL_QUIZ_KEYS.has(`${lesson.quiz.id}:${lesson.quiz.slug}`)
+);
+const FUNCTIONAL_ANATOMY_QUIZ_IDS = new Set(FUNCTIONAL_ANATOMY_LESSONS.map((lesson) => lesson.quiz.id));
+const FUNCTIONAL_ANATOMY_QUIZZES = SUMMARIES.filter((quiz) => FUNCTIONAL_ANATOMY_QUIZ_IDS.has(quiz.id));
+const FUNCTIONAL_ANATOMY_TASK_COUNT = FUNCTIONAL_ANATOMY_QUIZZES.reduce((sum, quiz) => sum + quiz.questionCount, 0);
+const FUNCTIONAL_ANATOMY_STAGE_COUNT = FUNCTIONAL_ANATOMY_LESSONS.reduce((sum, lesson) => sum + lesson.steps.length, 0);
 const LOCAL_ANATOMY_MODEL_COUNT = ANATOMY_ASSETS.reduce((sum, asset) => sum + asset.modelUrls.length, 0);
 
 // Everything numeric below is derived from the generated catalog, never typed in.
@@ -171,7 +180,7 @@ export default function InteractiveMethodologyPage() {
         <section className="test-block" id="anatomy">
           <h2 className="test-block-title">Visual anatomy references</h2>
           <p>
-            The <Link href="/learn/anatomy/" className="text-link">Anatomy Atlas</Link> combines selected local reference models with original TypologyQuiz questions and schematic annotations. The current catalog contains {ANATOMY_QUIZZES.length} canonical quizzes in this initial anatomy set and {ANATOMY_TASK_COUNT} tasks; this count comes from the published quiz catalog, not drafts. The atlas currently lists {LOCAL_ANATOMY_MODEL_COUNT} local 3D model files. Each reference shows source, credit, license terms and image alternative text. See <Link href="/credits/#anatomy" className="text-link">anatomy credits and rights</Link> for asset-specific attribution.
+            The <Link href="/learn/anatomy/" className="text-link">Anatomy Atlas</Link> combines selected local reference models with original TypologyQuiz questions and schematic annotations. Its initial structural anatomy set contains {ANATOMY_QUIZZES.length} canonical quizzes and {ANATOMY_TASK_COUNT} tasks, counted from the published quiz catalog, not drafts. Separately, {FUNCTIONAL_ANATOMY_QUIZZES.length} canonical functional-anatomy quizzes ({FUNCTIONAL_ANATOMY_TASK_COUNT} tasks) accompany {FUNCTIONAL_ANATOMY_LESSONS.length} lesson anchors and {FUNCTIONAL_ANATOMY_STAGE_COUNT} qualitative model stages. Original, simplified 3D teaching scenes and companion SVG schematics support observation and learning about cardiac pressure gates, breathing and gas exchange, nephron transport, and neuron signaling. The enlarged nephron is schematic and not to scale. The Atlas separately reveals selected source HRA geometry for visual study; these views are not quantitative or clinical simulations. It lists {LOCAL_ANATOMY_MODEL_COUNT} local 3D model files with per-asset sources, credit, license terms and image alternative text. The page links each functional quiz from its lesson. See <Link href="/credits/#functional-anatomy" className="text-link">functional-anatomy sources and original-art credits</Link> and <Link href="/credits/#anatomy" className="text-link">anatomy asset credits</Link>.
           </p>
           <p>
             These are general learning references, not clinically validated materials, symptom checkers, diagnostic tools or procedure guidance. Model selection and illustrative coloring do not establish medical accuracy or represent every body. We have not tested whether these materials improve learning.

@@ -2,10 +2,12 @@
 
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import { useId, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { ANATOMY_ASSETS } from "./assets";
 import { AnatomyReferenceFigures } from "./AnatomyReferenceFigures";
+import { AnatomyFunctionExplorer } from "./functions/AnatomyFunctionExplorer";
 import { QuizSharePanel } from "@/components/QuizSharePanel";
+import { parseAnatomyFunctionHash, type AnatomyFunctionId } from "@/lib/anatomy-functions";
 import styles from "./Anatomy.module.css";
 
 type AnatomyPart = { id: string; label: string; description: string; x: number; y: number; width: number; height: number };
@@ -53,11 +55,11 @@ type AnatomyExplorerProps = {
 
 const topics: readonly AnatomyTopic[] = [
   { id: "body", label: "Whole body", summary: "A broad reference view" },
-  { id: "heart", label: "Heart", summary: "A focused organ view" },
-  { id: "brain", label: "Brain", summary: "A focused organ view" },
-  { id: "respiratory", label: "Respiratory", summary: "The breathing system" },
+  { id: "heart", label: "Heart", summary: "Function lesson available · source reference" },
+  { id: "brain", label: "Brain", summary: "Function lesson available · source reference" },
+  { id: "respiratory", label: "Respiratory", summary: "Function lesson available · source reference" },
   { id: "digestive", label: "Digestive", summary: "The digestive system" },
-  { id: "urinary", label: "Urinary", summary: "The urinary system" },
+  { id: "urinary", label: "Urinary", summary: "Function lesson available · source reference" },
   { id: "reproductive-female", label: "Reproductive · female", summary: "A reproductive-system reference" },
   { id: "reproductive-male", label: "Reproductive · male", summary: "A reproductive-system reference" },
 ];
@@ -103,6 +105,8 @@ export function AnatomyExplorer({ quizLinks = [] }: AnatomyExplorerProps) {
   const availableAssets = new Map<string, AnatomyAsset>(anatomyAssets.map((asset) => [asset.id, asset]));
   const [selectedTopic, setSelectedTopic] = useState<AnatomyTopicId>("body");
   const [selectedPart, setSelectedPart] = useState<string | null>(null);
+  const [initialFunctionStepId, setInitialFunctionStepId] = useState<string | undefined>();
+  const [functionScrollRequest, setFunctionScrollRequest] = useState(0);
   const [showScene, setShowScene] = useState(false);
   const [zoomOpen, setZoomOpen] = useState(false);
   const zoomDialog = useRef<HTMLDialogElement>(null);
@@ -114,10 +118,45 @@ export function AnatomyExplorer({ quizLinks = [] }: AnatomyExplorerProps) {
   const imageUrl = asset ? getLocalImageUrl(asset.image) : null;
   const activePart = asset?.parts.find((part) => part.id === selectedPart) ?? null;
 
+  useEffect(() => {
+    function applyFunctionHash() {
+      const parsed = parseAnatomyFunctionHash(window.location.hash);
+      if (!parsed) return;
+      setSelectedTopic(parsed.systemId);
+      setSelectedPart(null);
+      setShowScene(false);
+      setInitialFunctionStepId(parsed.stepId);
+      setFunctionScrollRequest((request) => request + 1);
+    }
+
+    applyFunctionHash();
+    window.addEventListener("hashchange", applyFunctionHash);
+    return () => window.removeEventListener("hashchange", applyFunctionHash);
+  }, []);
+
+  useEffect(() => {
+    if (!initialFunctionStepId && functionScrollRequest === 0) return;
+    if (selectedTopic !== "heart" && selectedTopic !== "respiratory" && selectedTopic !== "urinary" && selectedTopic !== "brain") return;
+    const targetId = initialFunctionStepId
+      ? `function-${selectedTopic}-${initialFunctionStepId}`
+      : `function-${selectedTopic}`;
+    const frame = window.requestAnimationFrame(() => {
+      document.getElementById(targetId)?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth", block: "start" });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [selectedTopic, initialFunctionStepId, functionScrollRequest]);
+
   function selectTopic(id: AnatomyTopicId) {
     setSelectedTopic(id);
     setSelectedPart(null);
     setShowScene(false);
+    setInitialFunctionStepId(undefined);
+    setFunctionScrollRequest(0);
+  }
+
+  function seeHeartInAction() {
+    selectTopic("heart");
+    setFunctionScrollRequest((request) => request + 1);
   }
 
   function openZoom() {
@@ -137,7 +176,8 @@ export function AnatomyExplorer({ quizLinks = [] }: AnatomyExplorerProps) {
       <section className={styles.hero} aria-labelledby={`${instanceId}-heading`}>
         <p className={styles.kicker}>FIELD GUIDE · HUMAN ANATOMY</p>
         <h2 id={`${instanceId}-heading`}>A closer look at the body</h2>
-        <p className={styles.intro}>Choose a reference to study its image, orientation, and source. Explore the marked areas as visual cues, not as a quiz.</p>
+        <p className={styles.intro}>Choose a reference to study its image, orientation, and source. Four topics also include a source-cited function lesson with an original teaching schematic.</p>
+        <button className={styles.functionCta} type="button" onClick={seeHeartInAction}>See anatomy in action</button>
       </section>
 
       <nav className={styles.topicNav} aria-label="Anatomy topics">
@@ -178,6 +218,17 @@ export function AnatomyExplorer({ quizLinks = [] }: AnatomyExplorerProps) {
           </div>
           <span className={styles.studyIndex}>{String(topics.findIndex((item) => item.id === selectedTopic) + 1).padStart(2, "0")} / 08</span>
         </div>
+
+        {(selectedTopic === "heart" || selectedTopic === "respiratory" || selectedTopic === "urinary" || selectedTopic === "brain") && (
+          <section className={styles.functionLesson} aria-label="Functional anatomy lesson">
+            <p className={styles.functionIntro}>Explore four stages, then test what you notice.</p>
+            <AnatomyFunctionExplorer
+              key={`${selectedTopic}-${initialFunctionStepId ?? "default"}`}
+              systemId={selectedTopic as AnatomyFunctionId}
+              initialStepId={initialFunctionStepId}
+            />
+          </section>
+        )}
 
         {asset && imageUrl ? (
           <>
@@ -254,11 +305,11 @@ export function AnatomyExplorer({ quizLinks = [] }: AnatomyExplorerProps) {
               </div>
             )}
 
-            <section className={styles.modelSection} aria-labelledby={`${instanceId}-model-heading`}>
+            <section className={styles.modelSection} id={`source-model-${selectedTopic}`} aria-labelledby={`${instanceId}-model-heading`}>
               <div className={styles.modelHeading}>
                 <div>
-                  <p className={styles.kicker}>OPTIONAL · INTERACTIVE</p>
-                  <h4 id={`${instanceId}-model-heading`}>Explore the 3D model</h4>
+                  <p className={styles.kicker}>HRA SOURCE MODEL · OPTIONAL · INTERACTIVE</p>
+                  <h4 id={`${instanceId}-model-heading`}>Explore the source 3D model</h4>
                 </div>
                 {sceneUrls.length > 0 && !showScene && (
                   <button className={styles.loadButton} type="button" onClick={() => setShowScene(true)}>
@@ -271,7 +322,7 @@ export function AnatomyExplorer({ quizLinks = [] }: AnatomyExplorerProps) {
                   A reviewed local 3D model is not available for this topic yet. The illustrated reference and its source remain available above.
                 </p>
               ) : showScene ? (
-                <AnatomySceneOnDemand key={`${selectedTopic}-${sceneUrls.join("|")}`} modelUrls={sceneUrls} />
+                <AnatomySceneOnDemand key={`${selectedTopic}-${sceneUrls.join("|")}`} assetId={selectedTopic} modelUrls={sceneUrls} />
               ) : (
                 <p className={styles.modelHint}>The 3D model loads only when you choose Load 3D. Rotate by dragging inside the view; on touch screens, rotate with one finger inside the view and scroll outside it.</p>
               )}

@@ -6,8 +6,15 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import styles from "./Anatomy.module.css";
 import { fitOrthographicCamera, setZoom } from "./camera";
+import {
+  classifySourceMesh,
+  isObjectAndAncestorsVisible,
+  sourceMeshVisible,
+  type SourceVisibilityPreset,
+} from "./source-visibility";
 
-type AnatomySceneProps = { modelUrls: readonly string[] };
+type AnatomySceneProps = { modelUrls: readonly string[]; assetId?: string };
+type SourceMesh = { mesh: THREE.Mesh; modelUrl: string; defaultVisible: boolean };
 
 type HighlightState = {
   mesh: THREE.Mesh;
@@ -133,7 +140,7 @@ function restoreHighlight(highlight: HighlightState | null): void {
   highlight.temporaryMaterials.forEach((material) => material.dispose());
 }
 
-export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
+export function AnatomyScene({ modelUrls, assetId }: AnatomySceneProps) {
   const host = useRef<HTMLDivElement>(null);
   const controlsRef = useRef<OrbitControls | null>(null);
   const cameraRef = useRef<THREE.OrthographicCamera | null>(null);
@@ -141,6 +148,12 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
   const [status, setStatus] = useState("Loading 3D model…");
   const [selectedLabel, setSelectedLabel] = useState("");
   const [error, setError] = useState("");
+  const [visibilityAvailable, setVisibilityAvailable] = useState(false);
+  const [visibilityPreset, setVisibilityPreset] = useState<SourceVisibilityPreset>("full");
+  const [visibilitySummary, setVisibilitySummary] = useState("");
+  const [visibleSourceParts, setVisibleSourceParts] = useState<string[]>([]);
+  const [unchangedMeshCount, setUnchangedMeshCount] = useState(0);
+  const applyVisibilityRef = useRef<(preset: SourceVisibilityPreset) => void>(() => undefined);
   const urlKey = modelUrls.join("\n");
 
   useEffect(() => {
@@ -155,6 +168,7 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
     let resizeObserver: ResizeObserver | null = null;
     let root: THREE.Group | null = null;
     let loadedScenes: THREE.Object3D[] = [];
+    let sourceMeshes: SourceMesh[] = [];
     let camera: THREE.OrthographicCamera | null = null;
     let scene: THREE.Scene | null = null;
     let currentHighlight: HighlightState | null = null;
@@ -178,6 +192,7 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
       if (loadedScenes.length > 0) disposeObjectResources(...loadedScenes);
       else if (root) disposeObjectResources(root);
       loadedScenes = [];
+      sourceMeshes = [];
       root = null;
       renderer?.setAnimationLoop(null);
       renderer?.dispose();
@@ -188,6 +203,7 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
       controls = null;
       camera = null;
       scene = null;
+      applyVisibilityRef.current = () => undefined;
     }
     const requestedUrls = urlKey ? urlKey.split("\n") : [];
     const safeUrls: string[] = [];
@@ -218,7 +234,9 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
       );
       const raycaster = new THREE.Raycaster();
       raycaster.setFromCamera(pointer, camera);
-      const hit = raycaster.intersectObject(root, true).find((intersection) => intersection.object instanceof THREE.Mesh);
+      const hit = raycaster.intersectObject(root, true).find((intersection) =>
+        intersection.object instanceof THREE.Mesh && isObjectAndAncestorsVisible(intersection.object),
+      );
       if (!hit || !(hit.object instanceof THREE.Mesh)) return;
 
       restoreHighlight(currentHighlight);
@@ -287,9 +305,9 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
           return resolved.href;
         });
         const loader = new GLTFLoader(manager);
-        const results = await Promise.allSettled(safeUrls.map((url) => loader.loadAsync(url)));
+        const results = await Promise.allSettled(safeUrls.map(async (url) => ({ url, gltf: await loader.loadAsync(url) })));
         const loaded = results.flatMap((result) => result.status === "fulfilled" ? [result.value] : []);
-        loadedScenes = loaded.flatMap((gltf) => gltf.scenes);
+        loadedScenes = loaded.flatMap(({ gltf }) => gltf.scenes);
         if (cancelled || disposed) {
           disposeObjectResources(...loadedScenes);
           loadedScenes = [];
@@ -303,9 +321,38 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
         }
 
         root = new THREE.Group();
-        loaded.forEach((gltf) => root?.add(gltf.scene));
+        loaded.forEach(({ url, gltf }) => {
+          gltf.scene.traverse((object) => {
+            if (object instanceof THREE.Mesh) sourceMeshes.push({ mesh: object, modelUrl: url, defaultVisible: object.visible });
+          });
+          root?.add(gltf.scene);
+        });
         if (root.children.length === 0) throw new Error("The local model contained no viewable scenes.");
         scene.add(root);
+        const classifiedMeshes = sourceMeshes.filter(({ mesh, modelUrl }) => classifySourceMesh(assetId, modelUrl, mesh.name) !== null);
+        setVisibilityAvailable(classifiedMeshes.length > 0);
+        const applyVisibility = (preset: SourceVisibilityPreset) => {
+          restoreHighlight(currentHighlight);
+          currentHighlight = null;
+          setSelectedLabel("");
+          sourceMeshes.forEach(({ mesh, modelUrl, defaultVisible }) => {
+            mesh.visible = defaultVisible && sourceMeshVisible(classifySourceMesh(assetId, modelUrl, mesh.name), preset);
+          });
+          const visibleCuratedMeshes = sourceMeshes.filter(({ mesh, modelUrl }) =>
+            mesh.visible && classifySourceMesh(assetId, modelUrl, mesh.name) === "internal",
+          );
+          const untouchedMeshes = sourceMeshes.filter(({ mesh, modelUrl }) =>
+            mesh.visible && classifySourceMesh(assetId, modelUrl, mesh.name) === null,
+          );
+          setVisibilitySummary(preset === "full"
+            ? `Full model: ${sourceMeshes.filter(({ mesh }) => mesh.visible).length} source meshes visible.`
+            : `Internal structures preset: ${sourceMeshes.filter(({ mesh }) => mesh.visible).length} source meshes visible; ${visibleCuratedMeshes.length} have curated internal labels and ${untouchedMeshes.length} unclassified source meshes remain unchanged.`);
+          setVisibleSourceParts(visibleCuratedMeshes.map(({ mesh }) => mesh.name));
+          setUnchangedMeshCount(untouchedMeshes.length);
+          render();
+        };
+        applyVisibilityRef.current = applyVisibility;
+        applyVisibility("full");
         resizeObserver = new ResizeObserver(() => {
           if (disposed || !renderer || !camera) return;
           const size = container.getBoundingClientRect();
@@ -341,7 +388,12 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
       cancelled = true;
       cleanup();
     };
-  }, [urlKey]);
+  }, [urlKey, assetId]);
+
+  function chooseVisibilityPreset(preset: SourceVisibilityPreset) {
+    setVisibilityPreset(preset);
+    applyVisibilityRef.current(preset);
+  }
 
   function rotate(horizontal: number, vertical: number) {
     const controls = controlsRef.current;
@@ -381,6 +433,23 @@ export function AnatomyScene({ modelUrls }: AnatomySceneProps) {
             <button type="button" className={styles.sceneControl} aria-label="Zoom out" onClick={() => zoom(1 / 1.2)}>−</button>
             <button type="button" className={styles.sceneControlReset} onClick={resetView}>Reset view</button>
           </div>
+          {visibilityAvailable && (
+            <section className={styles.visibilityControls} aria-label="Source model visibility presets">
+              <p className={styles.modelHint}>Curated visibility presets change only verified source meshes. This remains a surface model, not a CT, MRI, or certified slice.</p>
+              <div className={styles.sceneControls} role="group" aria-label="Source model visibility">
+                <button type="button" className={styles.sceneControlReset} aria-pressed={visibilityPreset === "full"} onClick={() => chooseVisibilityPreset("full")}>Full model</button>
+                <button type="button" className={styles.sceneControlReset} aria-pressed={visibilityPreset === "internal"} onClick={() => chooseVisibilityPreset("internal")}>Internal structures</button>
+              </div>
+              <p className={styles.partInspector} role="status" aria-live="polite" aria-atomic="true">{visibilitySummary}</p>
+              {visibilityPreset === "internal" && visibleSourceParts.length > 0 && (
+                <details className={styles.visibleParts}>
+                  <summary>Curated visible source parts ({visibleSourceParts.length})</summary>
+                  <ul>{visibleSourceParts.map((name) => <li key={name}><code>{name}</code></li>)}</ul>
+                  {unchangedMeshCount > 0 && <p>{unchangedMeshCount} unclassified source meshes remain visible and unchanged.</p>}
+                </details>
+              )}
+            </section>
+          )}
           <p className={styles.partInspector} aria-live="polite" aria-atomic="true">{selectedLabel ? `Selected surface: ${selectedLabel}` : "Select a model surface to inspect its supplied label."}</p>
           <p className={styles.modelHint}>3D model view — rotate to explore. Drag or use the buttons above. Touch scrolling works outside the model view.</p>
         </>

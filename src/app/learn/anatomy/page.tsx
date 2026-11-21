@@ -10,7 +10,7 @@ const PATH = "/learn/anatomy/";
 const CHECKED_ON = "2026-11-21";
 const TITLE = "Anatomy Atlas: Explore the Human Body";
 const DESCRIPTION =
-  "Explore source-attributed anatomy references for body orientation, the heart, brain, lungs, digestion, urinary anatomy, and reproductive systems.";
+  "Explore source-attributed anatomy references and source-cited function lessons for the heart, brain, lungs, and urinary system.";
 
 const ANATOMY_QUIZ_TOPICS = [
   { quizId: "SN-78", assetId: "body" },
@@ -21,6 +21,10 @@ const ANATOMY_QUIZ_TOPICS = [
   { quizId: "SN-83", assetId: "urinary" },
   { quizId: "SN-84", assetId: "reproductive-female" },
   { quizId: "SN-85", assetId: "reproductive-male" },
+  { quizId: "SN-86", assetId: "heart" },
+  { quizId: "SN-87", assetId: "respiratory" },
+  { quizId: "SN-88", assetId: "urinary" },
+  { quizId: "SN-89", assetId: "brain" },
 ] as const;
 
 const quizLinks = ANATOMY_QUIZ_TOPICS.flatMap(({ quizId, assetId }) => {
@@ -148,9 +152,10 @@ export default function AnatomyLearningPage() {
           <p className="eyebrow">Learning guide · primary sources checked {CHECKED_ON}</p>
           <h1 className="section-title">Anatomy Atlas</h1>
           <p className="section-lead">
-            Explore illustrated references and selected local 3D models for body orientation, the heart, brain,
-            lungs, digestion, urinary anatomy, and reproductive systems. Each image identifies its view, source,
-            credit, and license.
+            Explore illustrated references and selected local source 3D models for body orientation, the heart, brain,
+            lungs, digestion, urinary anatomy, and reproductive systems. Heart, breathing, kidney, and neuron topics
+            also include source-cited function lessons with separate original teaching schematics. Each reference
+            identifies its view, source, credit, and license.
           </p>
         </header>
 

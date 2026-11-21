@@ -52,6 +52,7 @@ import { THIS_OR_THAT_PAIRS } from "../src/lib/minis/data/this-or-that.ts";
 import { SITE } from "../src/lib/site.ts";
 import { CATEGORIES } from "../src/lib/interactive/categories.ts";
 import { SUMMARIES } from "../src/lib/interactive/catalog.generated.ts";
+import { ANATOMY_FUNCTION_LESSONS } from "../src/lib/anatomy-functions.ts";
 import { ELEMENTS } from "../src/components/periodic-table/data.ts";
 import { LEARNING_TRACKS } from "../src/components/periodic-table/learning.ts";
 
@@ -89,6 +90,14 @@ const periodicTablePracticeSteps = LEARNING_TRACKS.reduce((n, track) => n + trac
 const INITIAL_ANATOMY_QUIZ_IDS = new Set(["SN-78", "SN-79", "SN-80", "SN-81", "SN-82", "SN-83", "SN-84", "SN-85"]);
 const anatomyQuizzes = SUMMARIES.filter((quiz) => INITIAL_ANATOMY_QUIZ_IDS.has(quiz.id));
 const anatomyTaskCount = anatomyQuizzes.reduce((sum, quiz) => sum + quiz.questionCount, 0);
+const canonicalQuizKeys = new Set(SUMMARIES.map((quiz) => `${quiz.id}:${quiz.slug}`));
+const anatomyFunctionLessons = ANATOMY_FUNCTION_LESSONS.filter((lesson) =>
+  canonicalQuizKeys.has(`${lesson.quiz.id}:${lesson.quiz.slug}`)
+);
+const anatomyFunctionQuizIds = new Set(anatomyFunctionLessons.map((lesson) => lesson.quiz.id));
+const anatomyFunctionQuizzes = SUMMARIES.filter((quiz) => anatomyFunctionQuizIds.has(quiz.id));
+const anatomyFunctionTaskCount = anatomyFunctionQuizzes.reduce((sum, quiz) => sum + quiz.questionCount, 0);
+const anatomyFunctionStageCount = anatomyFunctionLessons.reduce((sum, lesson) => sum + lesson.steps.length, 0);
 const anatomyModelFileCount = ANATOMY_ASSETS.reduce((sum, asset) => sum + asset.modelUrls.length, 0);
 
 const friendQuestionCount = FRIEND_PACKS.reduce((n, p) => n + p.questions.length, 0);
@@ -168,7 +177,7 @@ L.push(`- [Interactive quizzes](${base}/quizzes/): ${SUMMARIES.length} short ori
 L.push(`- [All quizzes](${base}/tests/): browse all ${TESTS.length} personality quizzes`);
 L.push(`- [Trivia](${base}/trivia/): ${TRIVIA_QUIZZES.length} timed type-in and map quizzes plus ${RAPID_ROUNDS.length} rapid rounds`);
 L.push(`- [Periodic table learning](${base}/learn/periodic-table/): a searchable reference to ${ELEMENTS.length} recognized elements and ${periodicTablePracticeSteps} open-book practice steps across ${LEARNING_TRACKS.length} tracks; practice stays within the guide rather than adding extra quizzes`);
-L.push(`- [Anatomy Atlas](${base}/learn/anatomy/): source-attributed anatomy references and selected local models, with ${anatomyQuizzes.length} canonical image-based anatomy quizzes and ${anatomyTaskCount} tasks currently linked from the guide`);
+L.push(`- [Anatomy Atlas](${base}/learn/anatomy/): source-attributed references and selected local models, with ${anatomyQuizzes.length} canonical quizzes in the initial structural set (${anatomyTaskCount} tasks) and ${anatomyFunctionQuizzes.length} canonical functional-anatomy quizzes (${anatomyFunctionTaskCount} tasks across ${anatomyFunctionStageCount} model stages)`);
 L.push(`- [Movie quizzes](${base}/trivia/movies/): ${MOVIE_QUIZZES.length} original movie and movie-character quizzes, ${MOVIE_QUIZ_QUESTION_COUNT} sourced questions each`);
 L.push(`- [Driving practice tests](${base}/driving/): pick a province or state`);
 L.push(`- [Daily minis](${base}/daily/): three tiny games, new every UTC day, with a streak`);
@@ -370,7 +379,7 @@ L.push("");
 L.push("## Anatomy Atlas");
 L.push("");
 L.push(
-  `The guide at ${base}/learn/anatomy/ presents source-attributed references for body orientation, the heart, brain, lungs, digestion, urinary anatomy, and reproductive systems. It currently links ${anatomyQuizzes.length} canonical image-based anatomy quizzes with ${anatomyTaskCount} tasks, counted from the published catalog only. It lists ${ANATOMY_ASSETS.length} selected reference assets and ${anatomyModelFileCount} local 3D model files; individual credits, source links, license terms, and image alternatives are attached to each asset. Original questions and schematic annotations are TypologyQuiz work. This educational guide is not medical validation, diagnosis, a symptom checker, or procedure guidance.`
+  `The guide at ${base}/learn/anatomy/ presents source-attributed references for body orientation, the heart, brain, lungs, digestion, urinary anatomy, and reproductive systems. Its initial structural set contains ${anatomyQuizzes.length} canonical image-based anatomy quizzes and ${anatomyTaskCount} tasks, counted from the published catalog only. Separately, ${anatomyFunctionQuizzes.length} canonical functional-anatomy quizzes contain ${anatomyFunctionTaskCount} tasks, linked to ${anatomyFunctionLessons.length} lesson anchors and ${anatomyFunctionStageCount} qualitative model stages. The lesson anchors are function-heart, function-respiratory, function-urinary, and function-brain. These lessons use original simplified 3D teaching scenes and SVG schematics to support observation of pressure, airflow and exchange, nephron transport, and neuron signaling. The enlarged nephron is schematic and not to scale. HRA source geometry is shown separately for visual study; neither view is a quantitative or clinical simulation. The guide lists ${ANATOMY_ASSETS.length} selected reference assets and ${anatomyModelFileCount} local 3D model files; individual credits, source links, license terms, and image alternatives are attached to each asset. Original questions and schematics are TypologyQuiz work. This educational guide is not medical validation, diagnosis, a symptom checker, or procedure guidance.`
 );
 L.push("The complete anatomy quiz entries appear once below, under Science & Nature in the interactive collection.");
 L.push("");

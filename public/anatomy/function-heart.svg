@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pressure-gated heart-cycle teaching schematic</title>
+  <desc id="desc">Four original schematic panels show filling, pressure rise with both gates closed, ejection, and relaxation. Lettered callouts point to the panels.</desc>
+  <rect width="1200" height="900" rx="34" fill="#f5f8fb"/>
+  <text x="600" y="60" text-anchor="middle" font-family="system-ui,sans-serif" font-size="34" font-weight="750" fill="#18324b">A cycle of pressure and gates</text>
+  <text x="600" y="99" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" fill="#52687b">Functional teaching model · not to scale · not an ECG or measured pressure trace</text>
+  <g stroke="#b9c8d5" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M190 170 L260 205"/><path d="M1010 170 L940 205"/><path d="M190 730 L260 690"/><path d="M1010 730 L940 690"/>
+  </g>
+  <g font-family="system-ui,sans-serif">
+    <g>
+      <rect x="260" y="165" width="310" height="255" rx="24" fill="#fff" stroke="#d8e2ea" stroke-width="2"/>
+      <rect x="280" y="185" width="120" height="32" rx="16" fill="#d9f1ed"/><text x="340" y="208" text-anchor="middle" font-size="15" font-weight="700" fill="#12675f">FILLING</text>
+      <text x="282" y="250" font-size="22" font-weight="700" fill="#18324b">Inlet open</text>
+      <text x="282" y="280" font-size="16" fill="#52687b">Atrial pressure &gt; ventricular</text>
+      <path d="M365 316 C345 292 315 320 336 347 L374 382 L412 347 C433 320 403 292 383 316 L374 329 Z" fill="#d9f1ed" stroke="#168b82" stroke-width="4"/>
+      <path d="M350 334 L367 348 M398 334 L381 348" stroke="#168b82" stroke-width="5" stroke-linecap="round"/>
+      <path d="M430 343 H482" stroke="#168b82" stroke-width="5" stroke-linecap="round"/><path d="M475 334 L489 343 L475 352" fill="none" stroke="#168b82" stroke-width="5"/>
+      <text x="415" y="401" text-anchor="middle" font-size="14" fill="#52687b">AV open · semilunar closed</text>
+    </g>
+    <g>
+      <rect x="630" y="165" width="310" height="255" rx="24" fill="#fff" stroke="#d8e2ea" stroke-width="2"/>
+      <rect x="650" y="185" width="150" height="32" rx="16" fill="#f8e9ce"/><text x="725" y="208" text-anchor="middle" font-size="15" font-weight="700" fill="#87520b">PRESSURE RISE</text>
+      <text x="652" y="250" font-size="22" font-weight="700" fill="#18324b">Both gates closed</text>
+      <text x="652" y="280" font-size="16" fill="#52687b">Ventricle contracts; pressure rises</text>
+      <path d="M735 316 C715 292 685 320 706 347 L744 382 L782 347 C803 320 773 292 753 316 L744 329 Z" fill="#f8e9ce" stroke="#d98b20" stroke-width="4"/>
+      <path d="M718 337 L733 349 M770 337 L755 349 M744 321 V362" stroke="#b97812" stroke-width="5" stroke-linecap="round"/>
+      <path d="M812 364 V323" stroke="#6256a5" stroke-width="5"/><path d="M804 332 L812 318 L820 332" fill="none" stroke="#6256a5" stroke-width="4"/>
+      <text x="785" y="401" text-anchor="middle" font-size="14" fill="#52687b">Volume steady in this interval</text>
+    </g>
+    <g>
+      <rect x="260" y="480" width="310" height="255" rx="24" fill="#fff" stroke="#d8e2ea" stroke-width="2"/>
+      <rect x="280" y="500" width="112" height="32" rx="16" fill="#f5dddd"/><text x="336" y="523" text-anchor="middle" font-size="15" font-weight="700" fill="#843a36">EJECTION</text>
+      <text x="282" y="565" font-size="22" font-weight="700" fill="#18324b">Outlet opens</text>
+      <text x="282" y="595" font-size="16" fill="#52687b">Ventricular pressure &gt; artery</text>
+      <path d="M365 631 C345 607 315 635 336 662 L374 697 L412 662 C433 635 403 607 383 631 L374 644 Z" fill="#f5dddd" stroke="#b64b43" stroke-width="4"/>
+      <path d="M350 648 L366 660 M398 648 L382 660" stroke="#b64b43" stroke-width="5" stroke-linecap="round"/>
+      <path d="M430 658 H482" stroke="#b64b43" stroke-width="5" stroke-linecap="round"/><path d="M475 649 L489 658 L475 667" fill="none" stroke="#b64b43" stroke-width="5"/>
+      <text x="415" y="716" text-anchor="middle" font-size="14" fill="#52687b">Semilunar open · AV closed</text>
+    </g>
+    <g>
+      <rect x="630" y="480" width="310" height="255" rx="24" fill="#fff" stroke="#d8e2ea" stroke-width="2"/>
+      <rect x="650" y="500" width="130" height="32" rx="16" fill="#e5e2f4"/><text x="715" y="523" text-anchor="middle" font-size="15" font-weight="700" fill="#4e448a">RELAXATION</text>
+      <text x="652" y="565" font-size="22" font-weight="700" fill="#18324b">Pressure falls</text>
+      <text x="652" y="595" font-size="16" fill="#52687b">Outlets close; inlets await gradient</text>
+      <path d="M735 631 C715 607 685 635 706 662 L744 697 L782 662 C803 635 773 607 753 631 L744 644 Z" fill="#e5e2f4" stroke="#6256a5" stroke-width="4"/>
+      <path d="M726 648 L739 660 M762 648 L749 660 M744 679 V638" stroke="#6256a5" stroke-width="5" stroke-linecap="round"/>
+      <path d="M812 625 V666" stroke="#168b82" stroke-width="4"/><path d="M804 658 L812 672 L820 658" fill="none" stroke="#168b82" stroke-width="4"/>
+      <text x="785" y="716" text-anchor="middle" font-size="14" fill="#52687b">Both closed early; AV reopens later</text>
+    </g>
+  </g>
+  <g font-family="system-ui,sans-serif" font-size="58" font-weight="750" text-anchor="middle" fill="#18324b" stroke="#fff" stroke-width="5" paint-order="stroke">
+    <circle cx="110" cy="120" r="90" fill="#fff" stroke="#9bb0bf" stroke-width="5"/><text x="110" y="140" stroke="none">A</text>
+    <circle cx="1090" cy="120" r="90" fill="#fff" stroke="#9bb0bf" stroke-width="5"/><text x="1090" y="140" stroke="none">B</text>
+    <circle cx="110" cy="780" r="90" fill="#fff" stroke="#9bb0bf" stroke-width="5"/><text x="110" y="800" stroke="none">C</text>
+    <circle cx="1090" cy="780" r="90" fill="#fff" stroke="#9bb0bf" stroke-width="5"/><text x="1090" y="800" stroke="none">D</text>
+  </g>
+  <text x="600" y="830" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#52687b">Colors indicate phase cues only; they do not encode oxygen level or blood color.</text>
+</svg>

@@ -52,7 +52,7 @@
     "lint:movies": "eslint src/lib/trivia/movies.ts src/lib/trivia/movie-engine.ts src/lib/trivia/movie-group.ts src/lib/trivia/movie-analytics.ts src/lib/group/paths.ts src/components/trivia/MovieQuiz.tsx src/components/trivia/MovieHero.tsx src/components/trivia/MovieCover.tsx src/app/trivia/movies scripts/verify-movie-sources.mts tests/movies.test.ts",
     "test:seasonal": "tsx --test tests/halloween-season.test.ts tests/homepage-themes.test.ts && eslint src/components/seasonal src/app/page.tsx tests/halloween-season.test.ts tests/homepage-themes.test.ts",
     "lint:quiz-sharing": "eslint src/components/QuizSharePanel.tsx src/components/friendquiz/FriendShareBlock.tsx src/lib/share.ts src/lib/quiz-sharing.ts src/lib/quiz-share-card.ts tests/quiz-sharing.test.ts src/components/trivia/InterestQuiz.tsx src/components/trivia/PhysicsPreferenceQuiz.tsx src/components/trivia/RapidRound.tsx",
-    "verify:anatomy-learning": "tsx --test tests/anatomy-learning.test.ts tests/anatomy-asset-provenance.test.ts && eslint src/components/anatomy src/app/learn/anatomy scripts/anatomy-assets/*.mjs tests/anatomy-learning.test.ts tests/anatomy-asset-provenance.test.ts"
+    "verify:anatomy-learning": "tsx --test tests/anatomy-learning.test.ts tests/anatomy-asset-provenance.test.ts tests/anatomy-functions.test.ts tests/anatomy-source-visibility.test.ts && eslint src/components/anatomy src/app/learn/anatomy src/lib/anatomy-functions.ts src/lib/anatomy-function-model.ts scripts/anatomy-assets/*.mjs tests/anatomy-learning.test.ts tests/anatomy-asset-provenance.test.ts tests/anatomy-functions.test.ts tests/anatomy-source-visibility.test.ts"
   },
   "dependencies": {
     "next": "16.2.10",

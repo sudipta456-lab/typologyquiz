@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function MethodologyPage() {
   const ordered = [...TESTS].sort((a, b) => a.slug === "mini-ipip" ? -1 : b.slug === "mini-ipip" ? 1 : a.title.localeCompare(b.title));
   return <div className="section methodology-page">
-    <p className="eyebrow">Methods & evidence · Updated October 22, 2026</p>
+    <p className="eyebrow">Methods & evidence · Updated November 21, 2026</p>
     <h1 className="section-title">Know what a result can tell you.</h1>
     <p className="section-lead">Some of our tests use published instruments. Most are original quizzes for reflection or fun. We label the difference so you can decide how much weight to give a result.</p>
     <section className="test-block">
@@ -31,6 +31,12 @@ export default function MethodologyPage() {
     <section className="test-block">
       <h2 className="test-block-title">Interactive quizzes have their own methodology</h2>
       <p>The {SUMMARIES.length} interactive quizzes in {CATEGORIES.length} categories use different formats and scoring from the assessments listed below. <Link href="/methodology/interactive-quizzes/" className="text-link">Read how the interactive quizzes are built, scored, sourced and reviewed →</Link> The entries below cover the personality and reasoning assessments only.</p>
+    </section>
+    <section className="test-block">
+      <h2 className="test-block-title">Functional anatomy lessons</h2>
+      <p>The Anatomy Atlas includes source-cited observation lessons about the heart cycle, breathing and gas exchange, kidney processes, and neuron signaling. Learners follow an original simplified teaching schematic alongside the cited source explanations.</p>
+      <p>These illustrations simplify selected processes and structures. They are not validated clinical simulations, diagnostic tools, or evidence that a learner has demonstrated medical competence. The HRA source models remain a separate anatomy reference.</p>
+      <p><Link href="/learn/anatomy/" className="text-link">Explore the Anatomy Atlas →</Link></p>
     </section>
     <div className="methodology-principles">
       <section className="content-card"><h2 className="content-card-title">A score is a summary.</h2><p>Our 0–100 scales summarize your answers. They do not show the percentage of people you outrank, the probability of a type, or how accurate the test is. We have no approved population norms for these assessments.</p></section>

@@ -35,6 +35,18 @@ export default function CreditsPage() {
       <section className="content-card" id="anatomy">
         <h2 className="content-card-title">Anatomy Atlas visual credits and terms</h2>
         <p>Atlas visuals use a mix of source-referenced models and original TypologyQuiz annotations or schematics. Source and license details apply to the individual asset shown; they do not relicense the entire site. Original TypologyQuiz annotations and schematics remain © TypologyQuiz.com, with no additional license granted here.</p>
+        <div id="functional-anatomy">
+          <h3>Functional anatomy lessons</h3>
+          <p>The original procedural teaching models and functional SVG schematics were created for TypologyQuiz. They are © TypologyQuiz.com, all rights reserved under the repository LICENSE; no reuse license is granted. They are separate from the HRA source geometry and the Blausen illustrations listed below.</p>
+          <p>Lesson explanations cite these primary educational sources for the factual descriptions:</p>
+          <ul>
+            <li>Heart cycle and blood flow: <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-3-cardiac-cycle" target="_blank" rel="noreferrer">OpenStax, Cardiac Cycle</a> and <a className="text-link" href="https://www.nhlbi.nih.gov/health/heart/blood-flow" target="_blank" rel="noreferrer">NHLBI, How Blood Flows through the Heart</a>.</li>
+            <li>Breathing and gas exchange: <a className="text-link" href="https://www.nhlbi.nih.gov/health/lungs/breathing-benefits" target="_blank" rel="noreferrer">NHLBI, What Breathing Does for the Body</a>, <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing" target="_blank" rel="noreferrer">OpenStax, The Process of Breathing</a>, and <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange" target="_blank" rel="noreferrer">Gas Exchange</a>.</li>
+            <li>Kidney filtration and tubular processes: <a className="text-link" href="https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work" target="_blank" rel="noreferrer">NIDDK, Your Kidneys &amp; How They Work</a>, <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney" target="_blank" rel="noreferrer">OpenStax, Microscopic Anatomy of the Kidney</a>, <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation" target="_blank" rel="noreferrer">Physiology of Urine Formation</a>, and <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption" target="_blank" rel="noreferrer">Tubular Reabsorption</a>.</li>
+            <li>Neuron signaling: <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue" target="_blank" rel="noreferrer">OpenStax, Nervous Tissue</a>, <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential" target="_blank" rel="noreferrer">The Action Potential</a>, and <a className="text-link" href="https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons" target="_blank" rel="noreferrer">Communication Between Neurons</a>.</li>
+          </ul>
+          <p>These are simplified educational observations, not medical certification, clinical simulation, or validation of the original teaching models.</p>
+        </div>
         {ANATOMY_ASSETS.length > 0 ? (
           <ul>
             {ANATOMY_ASSETS.map((asset) => {

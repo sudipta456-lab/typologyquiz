@@ -31152,5 +31152,336 @@
         "correct": "urine"
       }
     ]
+  },
+  {
+    "id": "SN-86",
+    "slug": "heart-cycle-pressure-gates",
+    "categoryId": "science-nature",
+    "title": "Heart Cycle: Pressure Opens the Gates",
+    "description": "Use a virtual pressure-and-valve model to predict when filling, pressure rise, ejection, and relaxation occur in the coordinated cardiac cycle.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "sections": [
+      { "id": "s1", "title": "Read the gates", "description": "Connect pressure relationships to valve states in a four-stage virtual cycle." },
+      { "id": "s2", "title": "Predict the next move", "description": "Use the stated pressure model to infer flow and distinguish coordinated ejection from pressure level." }
+    ],
+    "sources": [
+      { "id": "cycle", "label": "OpenStax Anatomy & Physiology 2e, 19.3 Cardiac Cycle", "kind": "reference", "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-3-cardiac-cycle" },
+      { "id": "flow", "label": "NHLBI, How Blood Flows through the Heart", "kind": "reference", "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow" },
+      { "id": "diagram", "label": "Original TypologyQuiz functional teaching schematic", "kind": "original", "url": "https://typologyquiz.com/learn/anatomy/#function-heart" }
+    ],
+    "note": "Original virtual teaching model only: no diagnosis, measured pressure, ECG, or clinical simulation. The two ventricles eject in the same coordinated cycle; pressure differs between circuits. Diagram colors encode phase cues, not blood oxygen; blood itself is red and its oxygen content changes at lung exchange.",
+    "questions": [
+      {
+        "id": "q1", "sectionId": "s1", "kind": "hotspot",
+        "prompt": "In the diagram, which callout marks the interval after ventricular pressure exceeds atrial pressure but before it exceeds downstream arterial pressure?",
+        "context": "For this virtual cycle, the atrioventricular gate closes when ventricular pressure rises above atrial pressure. A semilunar gate opens only after ventricular pressure exceeds pressure in its downstream artery. The four callouts mark the named phase cards.",
+        "explanation": "Callout B marks pressure rise. In this interval the ventricle contracts, the atrioventricular gate has closed, and the semilunar gate has not yet opened, so both gate sets are closed.",
+        "sourceIds": ["cycle", "diagram"], "correct": "B",
+        "options": [{"id":"A","label":"Callout A"},{"id":"B","label":"Callout B"},{"id":"C","label":"Callout C"},{"id":"D","label":"Callout D"}],
+        "diagram": {
+          "title": "Four pressure-gated phases", "description": "Original schematic teaching model. Follow the leader lines from neutral A–D callouts to the phase cards; pressure cues are qualitative, not measured.",
+          "image": {"src":"/anatomy/function-heart.svg","alt":"Original four-panel schematic of a heart-cycle teaching model: filling, pressure rise, ejection, and relaxation. Neutral letter callouts point to each panel; colors mark phase cues, not oxygen content.","width":1200,"height":900,"credit":"Original TypologyQuiz functional teaching diagram; all rights reserved under repository policy.","sourceUrl":"https://typologyquiz.com/learn/anatomy/#function-heart","license":"https://typologyquiz.com/credits/#functional-anatomy"},
+          "zones": [{"id":"A","label":"Callout A","x":1.67,"y":3.33,"width":15,"height":20},{"id":"B","label":"Callout B","x":83.33,"y":3.33,"width":15,"height":20},{"id":"C","label":"Callout C","x":1.67,"y":76.67,"width":15,"height":20},{"id":"D","label":"Callout D","x":83.33,"y":76.67,"width":15,"height":20}]
+        }
+      },
+      {
+        "id":"q2","sectionId":"s1","kind":"choice","prompt":"During the pressure-rise interval, both valve sets are closed while the ventricle contracts. What does the model predict about ventricular volume during this interval?",
+        "context":"No blood enters or leaves while both valve sets are closed. In this isovolumetric interval, pressure rises while the chamber's volume stays approximately constant.",
+        "explanation":"With both the inlet and outlet closed, there is no modeled inflow or outflow. Ventricular pressure can rise during contraction while chamber volume remains approximately constant.","sourceIds":["cycle"],"correct":"constant-volume",
+        "options":[{"id":"constant-volume","label":"It stays approximately constant while pressure rises"},{"id":"increases","label":"It increases as blood enters through the inlet"},{"id":"decreases","label":"It decreases as blood leaves through the outlet"},{"id":"alternates","label":"It alternates as the two valve sets open in turn"}]
+      },
+      {
+        "id":"q3","sectionId":"s1","kind":"match","prompt":"Match each cycle phase to the valve state described by this virtual model.",
+        "context":"Use these phase definitions: filling occurs while atrial pressure exceeds ventricular pressure; pressure rises after ventricular pressure exceeds atrial pressure but before it exceeds arterial pressure; ejection begins after ventricular pressure exceeds downstream arterial pressure; early relaxation follows the start of falling ventricular pressure after ejection.",
+        "explanation":"Filling opens the atrioventricular valves; during pressure rise both sets are closed while ventricular pressure is rising; ejection opens the semilunar set; during early relaxation both sets are closed while ventricular pressure is falling, until the atrioventricular pressure gradient reverses.","sourceIds":["cycle"],
+        "left":[{"id":"fill","label":"Filling"},{"id":"rise","label":"Pressure rise"},{"id":"eject","label":"Ejection"},{"id":"relax","label":"Early relaxation"}],
+        "right":[{"id":"av-open","label":"AV open; semilunar closed"},{"id":"both-shut","label":"Both closed; ventricular pressure rising"},{"id":"semi-open","label":"AV closed; semilunar open"},{"id":"await-fill","label":"Both closed; ventricular pressure falling before filling"}],
+        "pairs":{"fill":"av-open","rise":"both-shut","eject":"semi-open","relax":"await-fill"}
+      },
+      {
+        "id":"q4","sectionId":"s1","kind":"grid","prompt":"For each stated phase, select the gate state predicted by the model.",
+        "context":"Each row states the relevant pressure relationship. ‘AV’ means atrioventricular; ‘SL’ means semilunar. These are functional valve states, not labels for visible exterior anatomy.",
+        "explanation":"During filling the AV gates open; when ventricular pressure lies between atrial and arterial pressure, both sets are closed; when it exceeds arterial pressure, the SL gates open; early relaxation closes both sets again.","sourceIds":["cycle"],
+        "cells":[
+          {"id":"filling","label":"Atrial pressure is greater than ventricular pressure","options":[{"id":"av","label":"AV open; SL closed"},{"id":"shut","label":"Both closed"}],"correct":"av"},
+          {"id":"rise","label":"Ventricular pressure is above atrial but below arterial pressure","options":[{"id":"av","label":"AV open; SL closed"},{"id":"shut","label":"Both closed"}],"correct":"shut"},
+          {"id":"ejection","label":"Ventricular pressure exceeds downstream arterial pressure","options":[{"id":"sl","label":"AV closed; SL open"},{"id":"av","label":"AV open; SL closed"}],"correct":"sl"},
+          {"id":"relax","label":"Ventricular pressure has fallen below artery pressure but remains above atrial pressure","options":[{"id":"shut","label":"Both closed"},{"id":"av","label":"AV open; SL closed"}],"correct":"shut"}
+        ]
+      },
+      {
+        "id":"q5","sectionId":"s2","kind":"order","prompt":"Place the four virtual phase cards in cycle order, starting with ventricular filling.",
+        "context":"The cards describe one repeating model cycle: filling, then ventricular pressure rise, then ejection, then relaxation before filling resumes.",
+        "explanation":"As the ventricle fills, it contracts and raises pressure; once its pressure exceeds downstream arterial pressure, ejection occurs; relaxation lowers pressure and permits the next filling phase.","sourceIds":["cycle"],
+        "items":[{"id":"fill","label":"Filling"},{"id":"rise","label":"Ventricular pressure rise"},{"id":"eject","label":"Ejection"},{"id":"relax","label":"Relaxation"}],"correctOrder":["fill","rise","eject","relax"]
+      },
+      {
+        "id":"q6","sectionId":"s2","kind":"choice","prompt":"A virtual ventricle is contracting. Its pressure has just become greater than pressure in the artery ahead, while the atrioventricular valve is already closed. What is the next predicted event?",
+        "context":"Assume the outlet valve is a pressure-gated semilunar valve and opens when ventricular pressure exceeds downstream arterial pressure. No pressure values or clinical measurements are involved.",
+        "explanation":"The downstream pressure comparison is now satisfied, so the semilunar valve opens and ejection begins. The model predicts direction from the pressure gradient, not from a memorized color.","sourceIds":["cycle","flow"],"correct":"eject",
+        "options":[{"id":"eject","label":"The semilunar outlet opens and blood is ejected"},{"id":"refill","label":"The atrioventricular inlet opens immediately"},{"id":"reverse","label":"The semilunar valve opens toward the ventricle"},{"id":"pause","label":"Both valve sets remain closed despite the stated gradient"}]
+      },
+      {
+        "id":"q7","sectionId":"s2","kind":"match","prompt":"Match each pressure comparison to the gate event it predicts.",
+        "context":"In this teaching model, valve opening and closing follow local pressure relationships. Match each comparison to the event without assuming a measured pressure value.",
+        "explanation":"The AV valve closes when ventricular pressure rises above atrial pressure and opens when atrial pressure later becomes greater. Semilunar valves open when ventricular pressure exceeds arterial pressure and close as ventricular pressure falls below it.","sourceIds":["cycle"],
+        "left":[{"id":"v-above-a","label":"Ventricular pressure rises above atrial pressure"},{"id":"a-above-v","label":"Atrial pressure becomes greater than ventricular pressure"},{"id":"v-above-art","label":"Ventricular pressure exceeds arterial pressure"},{"id":"art-above-v","label":"Arterial pressure exceeds falling ventricular pressure"}],
+        "right":[{"id":"av-close","label":"Atrioventricular valve closes"},{"id":"av-open","label":"Atrioventricular valve opens"},{"id":"sl-open","label":"Semilunar valve opens"},{"id":"sl-close","label":"Semilunar valve closes"}],
+        "pairs":{"v-above-a":"av-close","a-above-v":"av-open","v-above-art":"sl-open","art-above-v":"sl-close"}
+      },
+      {
+        "id":"q8","sectionId":"s2","kind":"choice","prompt":"A model compares the left and right ventricles during one coordinated ejection phase. Which interpretation is supported?",
+        "context":"Both ventricles eject in the same coordinated cardiac cycle. The left ventricle generates higher pressure for the systemic circuit than the right ventricle does for the pulmonary circuit. Blood oxygen content changes at lung exchange, not while passing through a heart chamber.",
+        "explanation":"The ventricles eject together in the cycle while generating different pressures for different downstream circuits. The difference in pressure does not mean one side ejects on a later beat or that blood changes oxygen content inside the heart.","sourceIds":["cycle","flow"],"correct":"coordinated",
+        "options":[{"id":"coordinated","label":"They eject in the same cycle; left-sided pressure is higher, and oxygen loading occurs at the lungs"},{"id":"delayed","label":"The right ventricle ejects first and the left waits for a later heartbeat"},{"id":"equal","label":"They must generate identical pressure because ejection is coordinated"},{"id":"heart-oxygen","label":"Blood gains oxygen while moving from one heart chamber to another"}]
+      }
+    ]
+  },
+  {
+    "id": "SN-87",
+    "slug": "breathing-pressure-gas-exchange",
+    "categoryId": "science-nature",
+    "title": "Breathing: Pressure Changes, Exchange Continues",
+    "description": "Use a virtual quiet-breathing cycle to distinguish bulk airflow driven by pressure from ongoing oxygen and carbon-dioxide exchange at the alveolar boundary.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "sections": [
+      { "id": "s1", "title": "Pressure moves air", "description": "Read the direction of bulk airflow from volume and pressure changes across inhale, pause-in, exhale, and pause-out." },
+      { "id": "s2", "title": "Exchange keeps going", "description": "Track oxygen and carbon dioxide across the alveolar-capillary boundary even when net bulk airflow pauses." }
+    ],
+    "sources": [
+      { "id": "breathing", "label": "NHLBI, What Breathing Does for the Body", "kind": "reference", "url": "https://www.nhlbi.nih.gov/health/lungs/breathing-benefits" },
+      { "id": "pressure", "label": "OpenStax Anatomy & Physiology 2e, 22.3 The Process of Breathing", "kind": "reference", "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing" },
+      { "id": "exchange", "label": "OpenStax Anatomy & Physiology 2e, 22.4 Gas Exchange", "kind": "reference", "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange" },
+      { "id": "diagram", "label": "Original TypologyQuiz functional teaching schematic", "kind": "original", "url": "https://typologyquiz.com/learn/anatomy/#function-respiratory" }
+    ],
+    "note": "Original virtual quiet-breathing model only. No diagnosis, personal health assessment, physical breath-holding, or exertion task. The cycle is qualitative; gas exchange continues across all four stages, including pauses in net bulk airflow.",
+    "questions": [
+      {
+        "id":"q1","sectionId":"s1","kind":"hotspot","prompt":"Which callout marks the end-inhalation pause, when alveolar pressure is approximately equal to ambient pressure and net bulk airflow pauses?",
+        "context":"The diagram labels four phases. The virtual model defines pause-in as the moment after inward airflow when alveolar and ambient pressures approach equality. Gas exchange is represented separately and continues.",
+        "explanation":"Callout B marks pause-in. Net bulk airflow pauses as the pressures approach equality, but oxygen and carbon dioxide continue exchanging across the alveolar-capillary boundary.","sourceIds":["pressure","breathing","exchange","diagram"],"correct":"B",
+        "options":[{"id":"A","label":"Callout A"},{"id":"B","label":"Callout B"},{"id":"C","label":"Callout C"},{"id":"D","label":"Callout D"}],
+        "diagram":{"title":"A breathing cycle with a continuing exchange inset","description":"Original quiet-breathing schematic. Letter callouts are neutral targets; pressure changes are qualitative and the exchange arrows are shown at every phase.","image":{"src":"/anatomy/function-respiratory.svg","alt":"Original four-panel quiet-breathing schematic showing inhale, pause-in, exhale, and pause-out. Each panel includes oxygen moving toward blood and carbon dioxide toward alveolar air.","width":1200,"height":900,"credit":"Original TypologyQuiz functional teaching diagram; all rights reserved under repository policy.","sourceUrl":"https://typologyquiz.com/learn/anatomy/#function-respiratory","license":"https://typologyquiz.com/credits/#functional-anatomy"},"zones":[{"id":"A","label":"Callout A","x":1.67,"y":3.33,"width":15,"height":20},{"id":"B","label":"Callout B","x":83.33,"y":3.33,"width":15,"height":20},{"id":"C","label":"Callout C","x":1.67,"y":76.67,"width":15,"height":20},{"id":"D","label":"Callout D","x":83.33,"y":76.67,"width":15,"height":20}]}
+      },
+      {
+        "id":"q2","sectionId":"s1","kind":"choice","prompt":"In the virtual inhale phase, chest volume increases. What pressure relationship explains inward bulk airflow?",
+        "context":"The model states that increasing lung volume briefly lowers alveolar pressure below ambient pressure. Air moves down a pressure gradient from the higher-pressure side to the lower-pressure side.",
+        "explanation":"Alveolar pressure briefly falls below ambient pressure, so bulk air moves inward. This pressure-driven movement is distinct from gas diffusion across the alveolar-capillary boundary.","sourceIds":["pressure","breathing"],"correct":"inward",
+        "options":[{"id":"inward","label":"Ambient pressure is briefly higher, so air moves into the lungs"},{"id":"outward","label":"Alveolar pressure is briefly higher, so air moves out"},{"id":"none","label":"Pressure equality creates sustained inward flow"},{"id":"exchange-only","label":"Oxygen diffusion pulls the entire bulk air stream inward"}]
+      },
+      {
+        "id":"q3","sectionId":"s1","kind":"match","prompt":"Match each phase with its bulk-airflow and pressure description.",
+        "context":"For the virtual quiet-breathing cycle: inhale has alveolar pressure briefly below ambient; pause-in approaches equality; exhale has alveolar pressure briefly above ambient; pause-out approaches equality again.",
+        "explanation":"Air enters during the lower-pressure inhale, pauses at pressure equality, exits during the higher-pressure exhale, and pauses again as pressures equalize. The matches describe bulk airflow only.","sourceIds":["pressure","breathing"],
+        "left":[{"id":"inhale","label":"Inhale"},{"id":"pause-in","label":"Pause-in"},{"id":"exhale","label":"Exhale"},{"id":"pause-out","label":"Pause-out"}],
+        "right":[{"id":"in","label":"Alveolar pressure briefly below ambient; air moves in"},{"id":"equal-in","label":"After inhalation: pressures approach equality; net bulk flow pauses"},{"id":"out","label":"Alveolar pressure briefly above ambient; air moves out"},{"id":"equal-out","label":"After exhalation: pressures approach equality; net bulk flow pauses"}],
+        "pairs":{"inhale":"in","pause-in":"equal-in","exhale":"out","pause-out":"equal-out"}
+      },
+      {
+        "id":"q4","sectionId":"s1","kind":"grid","prompt":"Select the bulk-airflow state for each phase in the stated quiet-breathing model.",
+        "context":"‘Pause’ means no net bulk airflow at that moment because alveolar and ambient pressures are approximately equal. It does not describe gas exchange.",
+        "explanation":"The model predicts inward flow during inhale, outward flow during exhale, and a pause in net bulk airflow at both endpoints.","sourceIds":["pressure","breathing"],
+        "cells":[
+          {"id":"i","label":"Inhale: alveolar pressure briefly lower than ambient","options":[{"id":"in","label":"Bulk air moves inward"},{"id":"pause","label":"Net bulk airflow pauses"}],"correct":"in"},
+          {"id":"pi","label":"Pause-in: alveolar and ambient pressures approach equality","options":[{"id":"pause","label":"Net bulk airflow pauses"},{"id":"out","label":"Bulk air moves outward"}],"correct":"pause"},
+          {"id":"e","label":"Quiet exhale: alveolar pressure briefly higher than ambient","options":[{"id":"out","label":"Bulk air moves outward"},{"id":"in","label":"Bulk air moves inward"}],"correct":"out"},
+          {"id":"po","label":"Pause-out: alveolar and ambient pressures approach equality","options":[{"id":"pause","label":"Net bulk airflow pauses"},{"id":"out","label":"Bulk air moves outward"}],"correct":"pause"}
+        ]
+      },
+      {
+        "id":"q5","sectionId":"s2","kind":"choice","prompt":"At pause-out, the virtual model shows no net bulk airflow. Which exchange pattern still occurs across the alveolar-capillary boundary?",
+        "context":"The case stipulates that the alveolar membrane remains available for diffusion at pause-out. Oxygen moves from alveolar air toward blood, while carbon dioxide moves from blood toward alveolar air.",
+        "explanation":"The pause describes bulk airflow only. Oxygen and carbon dioxide continue moving in opposite directions across the alveolar-capillary boundary during pause-out.","sourceIds":["exchange","breathing"],"correct":"both",
+        "options":[{"id":"both","label":"Oxygen moves toward blood and carbon dioxide toward alveolar air"},{"id":"off","label":"Both gases stop moving until the next inhale"},{"id":"reverse","label":"Oxygen moves from blood into alveoli and carbon dioxide into blood"},{"id":"airflow","label":"There is no gas exchange because there is no bulk airflow"}]
+      },
+      {
+        "id":"q6","sectionId":"s2","kind":"order","prompt":"Place the virtual phases in their repeating order, starting at the beginning of inhalation.",
+        "context":"This qualitative cycle proceeds through inward airflow, an end-inhalation pause, outward airflow, and an end-exhalation pause before the next inhale. The order is a cycle description, not a request to perform it.",
+        "explanation":"The model places inhale before pause-in, then exhale, then pause-out; the next cycle begins with inhalation.","sourceIds":["pressure","breathing"],
+        "items":[{"id":"inhale","label":"Inhale"},{"id":"pause-in","label":"Pause-in"},{"id":"exhale","label":"Exhale"},{"id":"pause-out","label":"Pause-out"}],"correctOrder":["inhale","pause-in","exhale","pause-out"]
+      },
+      {
+        "id":"q7","sectionId":"s2","kind":"choice","prompt":"During quiet exhalation, lung recoil reduces volume and alveolar pressure briefly rises above ambient. Which combined prediction follows?",
+        "context":"The virtual model separates two simultaneous processes: pressure-gradient-driven bulk airflow and exchange across the alveolar-capillary boundary. The gas-exchange arrows remain oxygen toward blood and carbon dioxide toward alveolar air.",
+        "explanation":"The higher alveolar pressure drives bulk air outward. Gas exchange continues with oxygen moving toward blood and carbon dioxide toward alveolar air; exhalation does not reverse those membrane directions in this overview.","sourceIds":["pressure","breathing","exchange"],"correct":"out-and-exchange",
+        "options":[{"id":"out-and-exchange","label":"Bulk air moves out while both exchange directions continue as stated"},{"id":"in-and-stop","label":"Bulk air moves in and exchange stops"},{"id":"out-and-reverse","label":"Bulk air moves out and both gases reverse direction"},{"id":"pause","label":"Pressure above ambient means no bulk airflow"}]
+      },
+      {
+        "id":"q8","sectionId":"s2","kind":"match","prompt":"Match each event to the process that explains it in this model.",
+        "context":"Bulk ventilation is movement of air into or out of lungs along pressure gradients. Gas exchange is diffusion of oxygen and carbon dioxide across the alveolar-capillary boundary. These processes can occur at the same time but are not identical.",
+        "explanation":"Pressure differences drive bulk air movement. Oxygen and carbon dioxide cross the thin boundary in opposite directions as specified in the model, including when net bulk airflow pauses.","sourceIds":["pressure","exchange"],
+        "left":[{"id":"air-in","label":"Bulk air enters during inhale"},{"id":"o2","label":"O₂ moves from alveolus to blood"},{"id":"co2","label":"CO₂ moves from blood to alveolus"},{"id":"pause","label":"Net bulk flow pauses at approximate pressure equality"}],
+        "right":[{"id":"gradient","label":"Pressure gradient: air moves from ambient toward alveoli"},{"id":"o2-diffusion","label":"O₂ diffusion: alveolus → capillary blood"},{"id":"co2-diffusion","label":"CO₂ diffusion: capillary blood → alveolus"},{"id":"equality","label":"No net bulk flow; membrane exchange can continue"}],
+        "pairs":{"air-in":"gradient","o2":"o2-diffusion","co2":"co2-diffusion","pause":"equality"}
+      }
+    ]
+  },
+  {
+    "id": "SN-88",
+    "slug": "nephron-tracer-filter-recover-secrete",
+    "categoryId": "science-nature",
+    "title": "Nephron Tracer: Where Does It Go?",
+    "description": "Track hypothetical water and solute markers through filtration, reabsorption, secretion, and collection using direction-of-movement reasoning rather than a memorized organ route.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "sections": [
+      { "id": "s1", "title": "Track movement", "description": "Distinguish blood-to-tubule filtration, tubule-to-blood recovery, and blood-to-tubule secretion." },
+      { "id": "s2", "title": "Reason from the tracer", "description": "Use a fully stated virtual case to predict what remains in tubular fluid and proceeds to collection." }
+    ],
+    "sources": [
+      { "id": "kidneys", "label": "NIDDK, Your Kidneys & How They Work", "kind": "reference", "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work" },
+      { "id": "formation", "label": "OpenStax Anatomy & Physiology 2e, 25.5 Physiology of Urine Formation", "kind": "reference", "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation" },
+      { "id": "reabsorption", "label": "OpenStax Anatomy & Physiology 2e, 25.6 Tubular Reabsorption", "kind": "reference", "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption" },
+      { "id": "diagram", "label": "Original TypologyQuiz functional teaching schematic", "kind": "original", "url": "https://typologyquiz.com/learn/anatomy/#function-urinary" }
+    ],
+    "note": "The nephron is shown in an original enlarged, not-to-scale teaching schematic, separate from the exterior HRA kidney geometry. Tracers are hypothetical classroom markers, not clinical tests; no personal health interpretation or quantitative urine-production claim is made. The process lenses can overlap in a real nephron.",
+    "questions": [
+      {
+        "id":"q1","sectionId":"s1","kind":"hotspot","prompt":"Which callout marks filtration, where water and many small solutes pass from blood into the capsule/tubule while cells and large proteins are retained?",
+        "context":"The four callouts point to the labeled process panels in an original enlarged nephron teaching model. This question asks about process direction, not the location of a structure in the separate HRA kidney surface model.",
+        "explanation":"Callout A marks the filter panel. In the stated model, water and many small solutes move from blood into the capsule and tubule, while blood cells and large proteins remain in blood.","sourceIds":["formation","kidneys","diagram"],"correct":"A",
+        "options":[{"id":"A","label":"Callout A"},{"id":"B","label":"Callout B"},{"id":"C","label":"Callout C"},{"id":"D","label":"Callout D"}],
+        "diagram":{"title":"Four nephron process lenses","description":"Original enlarged not-to-scale schematic, separate from HRA kidney geometry. Neutral callouts point to filtering, recovery, addition, and collection panels; process arrows indicate direction.","image":{"src":"/anatomy/function-urinary.svg","alt":"Original enlarged, not-to-scale four-panel nephron schematic showing filtration, recovery to blood, secretion into tubule, and collection of remaining fluid.","width":1200,"height":900,"credit":"Original TypologyQuiz functional teaching diagram; all rights reserved under repository policy.","sourceUrl":"https://typologyquiz.com/learn/anatomy/#function-urinary","license":"https://typologyquiz.com/credits/#functional-anatomy"},"zones":[{"id":"A","label":"Callout A","x":1.67,"y":3.33,"width":15,"height":20},{"id":"B","label":"Callout B","x":83.33,"y":3.33,"width":15,"height":20},{"id":"C","label":"Callout C","x":1.67,"y":76.67,"width":15,"height":20},{"id":"D","label":"Callout D","x":83.33,"y":76.67,"width":15,"height":20}]}
+      },
+      {
+        "id":"q2","sectionId":"s1","kind":"choice","prompt":"A small, filterable tracer has entered tubular fluid. In a later segment, it moves from the tubule back to a nearby blood vessel. Which process describes that second movement?",
+        "context":"The first event is already stated: the tracer crossed from blood into the capsule/tubule during filtration. Now the marker moves in the reverse direction, from tubular fluid to blood.",
+        "explanation":"Tubule-to-blood movement of selected water or solutes is reabsorption. It is distinct from initial blood-to-tubule filtration and from secretion, which adds selected substances from blood into tubule.","sourceIds":["formation","reabsorption"],"correct":"reabsorption",
+        "options":[{"id":"reabsorption","label":"Reabsorption"},{"id":"filtration","label":"Filtration"},{"id":"secretion","label":"Secretion"},{"id":"collection","label":"Collection of remaining tubular fluid"}]
+      },
+      {
+        "id":"q3","sectionId":"s1","kind":"match","prompt":"Match each process label to its direction or outcome in the stated nephron model.",
+        "context":"Filtration occurs at the glomerular filter into the capsule/tubule; reabsorption returns selected substances from tubular fluid to blood; secretion adds selected substances from blood to tubular fluid; remaining tubular fluid proceeds to the collecting duct.",
+        "explanation":"The key distinction is direction: filtration and secretion enter tubular fluid from blood at different points in the model, reabsorption returns selected material to blood, and collection carries remaining tubular fluid onward.","sourceIds":["formation","reabsorption","kidneys"],
+        "left":[{"id":"filter","label":"Filtration"},{"id":"recover","label":"Reabsorption"},{"id":"add","label":"Secretion"},{"id":"collect","label":"Collection"}],
+        "right":[{"id":"blood-to-tubule-filter","label":"Blood → capsule/tubule; many small solutes and water pass"},{"id":"tubule-to-blood","label":"Tubular fluid → nearby blood"},{"id":"blood-to-tubule-add","label":"Selected substances: blood → tubular fluid"},{"id":"duct","label":"Remaining tubular fluid → collecting duct"}],
+        "pairs":{"filter":"blood-to-tubule-filter","recover":"tubule-to-blood","add":"blood-to-tubule-add","collect":"duct"}
+      },
+      {
+        "id":"q4","sectionId":"s1","kind":"grid","prompt":"For each virtual marker, choose what the initial filtration barrier permits in the stated model.",
+        "context":"Marker P is water-sized; marker Q is a small dissolved solute; marker R is a large protein; marker S is an intact blood cell. The simplified barrier permits water and many small solutes into filtrate while retaining cells and large proteins in blood.",
+        "explanation":"Water and many small solutes can enter filtrate. A large protein and an intact blood cell are retained on the blood side in this simplified model.","sourceIds":["formation","kidneys"],
+        "cells":[
+          {"id":"p","label":"Marker P: water-sized","options":[{"id":"filtrate","label":"Can enter filtrate"},{"id":"retained","label":"Retained in blood"}],"correct":"filtrate"},
+          {"id":"q","label":"Marker Q: small dissolved solute","options":[{"id":"filtrate","label":"Can enter filtrate"},{"id":"retained","label":"Retained in blood"}],"correct":"filtrate"},
+          {"id":"r","label":"Marker R: large protein","options":[{"id":"filtrate","label":"Can enter filtrate"},{"id":"retained","label":"Retained in blood"}],"correct":"retained"},
+          {"id":"s","label":"Marker S: an intact blood cell","options":[{"id":"filtrate","label":"Can enter filtrate"},{"id":"retained","label":"Retained in blood"}],"correct":"retained"}
+        ]
+      },
+      {
+        "id":"q5","sectionId":"s2","kind":"order","prompt":"In this explicitly defined tracer-accounting model, order the four review cards from the first barrier event to the final tubular-fluid destination.",
+        "context":"Marker T is a small solute that passes the initial filter. For this paper model only, the case then shows a recovery panel returning selected T to blood, a separate secretion panel adding marker U from blood into tubular fluid, and collection of the remaining fluid. These are ordered review cards, not a claim that real nephron processes never overlap or always occur in one universal sequence.",
+        "explanation":"The stipulated card sequence is initial filtration, the case's recovery panel, the separate addition panel, and collection of remaining fluid. The ordering follows the virtual case definition and is not a universal timing claim about all nephrons.","sourceIds":["formation","reabsorption"],
+        "items":[{"id":"filter","label":"Initial filtration into capsule/tubule"},{"id":"recover","label":"Case recovery panel returns selected T to blood"},{"id":"secrete","label":"Case secretion panel adds U to tubular fluid"},{"id":"collect","label":"Collect the remaining tubular fluid"}],"correctOrder":["filter","recover","secrete","collect"]
+      },
+      {
+        "id":"q6","sectionId":"s2","kind":"choice","prompt":"Tracer M is small enough to be filtered. The case states that M is neither reabsorbed nor secreted. What does the model predict for M?",
+        "context":"M moves from blood into the initial filtrate. The case explicitly rules out both return from tubule to blood and addition from blood into tubule for M. The remaining tubular fluid continues to a collecting duct.",
+        "explanation":"With no stated reabsorption or secretion, filtered M remains in the tubular fluid and proceeds with the fluid toward collection. The question concerns only this hypothetical model, not a person's kidney function.","sourceIds":["formation","kidneys"],"correct":"remains",
+        "options":[{"id":"remains","label":"M stays in tubular fluid and proceeds toward collection"},{"id":"blood","label":"M returns to blood by reabsorption despite the case rule"},{"id":"never","label":"M cannot enter filtrate because small solutes are retained"},{"id":"outside","label":"M moves directly from the tubule into the bladder without collection"}]
+      },
+      {
+        "id":"q7","sectionId":"s2","kind":"match","prompt":"Match each stated tracer event to the process that explains it.",
+        "context":"Case A: a small marker passes from blood into the capsule. Case B: selected marker moves from tubule to nearby blood. Case C: selected marker is added from blood to tubule. Case D: fluid remaining in the tubule continues into a collecting duct.",
+        "explanation":"A is filtration, B is reabsorption, C is secretion, and D is collection of remaining tubular fluid. Direction of movement distinguishes the three transport processes.","sourceIds":["formation","reabsorption","kidneys"],
+        "left":[{"id":"case-a","label":"Case A: blood → capsule"},{"id":"case-b","label":"Case B: tubule → blood"},{"id":"case-c","label":"Case C: blood → tubule"},{"id":"case-d","label":"Case D: remaining fluid → collecting duct"}],
+        "right":[{"id":"filtration","label":"Filtration"},{"id":"reabsorption","label":"Reabsorption"},{"id":"secretion","label":"Secretion"},{"id":"collection","label":"Collection"}],
+        "pairs":{"case-a":"filtration","case-b":"reabsorption","case-c":"secretion","case-d":"collection"}
+      },
+      {
+        "id":"q8","sectionId":"s2","kind":"grid","prompt":"Use the case rules to predict where each marker is after the stated event.",
+        "context":"Marker A is filtered and then reabsorbed; marker B is filtered and explicitly not reabsorbed or secreted. Marker C enters the blood after the initial filtration event has occurred and is later added to tubular fluid by secretion; the case specifies no size or molecular structure for C. Select the location/outcome after the described path.",
+        "explanation":"A returns to blood by reabsorption. B remains in tubular fluid and proceeds toward collection. C is introduced into blood after the initial filtration event and later enters tubular fluid by secretion; no initial-filter exclusion or large-particle transport is implied.","sourceIds":["formation","reabsorption"],
+        "cells":[
+          {"id":"a","label":"A: filtered, then reabsorbed","options":[{"id":"blood","label":"Back in nearby blood"},{"id":"tubule","label":"Still in tubular fluid"}],"correct":"blood"},
+          {"id":"b","label":"B: filtered; no recovery or secretion in the case","options":[{"id":"tubule","label":"Tubular fluid toward collection"},{"id":"blood","label":"Back in nearby blood"}],"correct":"tubule"},
+          {"id":"c","label":"C: enters blood after initial filtration, then is secreted","options":[{"id":"tubule","label":"Now in tubular fluid"},{"id":"retained","label":"Must remain in blood forever"}],"correct":"tubule"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-89",
+    "slug": "neuron-signal-threshold-chemical-handoff",
+    "categoryId": "science-nature",
+    "title": "Neuron Signals: From Threshold to Handoff",
+    "description": "Trace a virtual neuron signal from summing local inputs through electrical propagation and chemical neurotransmitter release to a receptor-dependent response.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 7,
+    "sections": [
+      { "id": "s1", "title": "Before and along the axon", "description": "Reason about graded inputs, the threshold decision, and a traveling electrical membrane event." },
+      { "id": "s2", "title": "Across the synapse", "description": "Follow calcium-linked release, chemical binding, and the receiving cell's possible response." }
+    ],
+    "sources": [
+      { "id": "action-potential", "label": "OpenStax Anatomy & Physiology 2e, 12.4 The Action Potential", "kind": "reference", "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential" },
+      { "id": "communication", "label": "OpenStax Anatomy & Physiology 2e, 12.5 Communication Between Neurons", "kind": "reference", "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons" },
+      { "id": "diagram", "label": "Original TypologyQuiz functional teaching schematic", "kind": "original", "url": "https://typologyquiz.com/learn/anatomy/#function-brain" }
+    ],
+    "note": "An original simplified multipolar-neuron teaching model with a chemical synapse. It is not a brain-region map, thought-reading tool, neural recording, or clinical simulation. Electrical synapses also exist; a postsynaptic response does not guarantee a new action potential.",
+    "questions": [
+      {
+        "id":"q1","sectionId":"s1","kind":"hotspot","prompt":"Which callout marks the terminal stage where an arriving action potential can trigger chemical messenger release into a synaptic cleft?",
+        "context":"The four diagram callouts point to phases in one simplified multipolar neuron model. At the terminal, voltage-gated calcium channels open; calcium entry helps vesicles release neurotransmitter into the cleft.",
+        "explanation":"Callout C marks release. The action potential reaches the presynaptic terminal, calcium enters through voltage-gated channels, and vesicles release neurotransmitter across the chemical synapse.","sourceIds":["communication","diagram"],"correct":"C",
+        "options":[{"id":"A","label":"Callout A"},{"id":"B","label":"Callout B"},{"id":"C","label":"Callout C"},{"id":"D","label":"Callout D"}],
+        "diagram":{"title":"A chemical handoff across two cells","description":"Original simplified schematic. Letter callouts mark receive, propagate, release, and respond stages; the example is a chemical synapse, not a complete neuron atlas.","image":{"src":"/anatomy/function-brain.svg","alt":"Original four-panel multipolar-neuron teaching schematic showing local input, electrical propagation, calcium-linked chemical release, and receptor-dependent response.","width":1200,"height":900,"credit":"Original TypologyQuiz functional teaching diagram; all rights reserved under repository policy.","sourceUrl":"https://typologyquiz.com/learn/anatomy/#function-brain","license":"https://typologyquiz.com/credits/#functional-anatomy"},"zones":[{"id":"A","label":"Callout A","x":1.67,"y":3.33,"width":15,"height":20},{"id":"B","label":"Callout B","x":83.33,"y":3.33,"width":15,"height":20},{"id":"C","label":"Callout C","x":1.67,"y":76.67,"width":15,"height":20},{"id":"D","label":"Callout D","x":83.33,"y":76.67,"width":15,"height":20}]}
+      },
+      {
+        "id":"q2","sectionId":"s1","kind":"choice","prompt":"A virtual neuron receives several local inputs. Their net effect at the axon initial segment reaches threshold. What follows in this model?",
+        "context":"Graded inputs can add or oppose one another. An action potential is initiated at the initial segment only if their net effect reaches threshold; a subthreshold net effect does not initiate one.",
+        "explanation":"The stipulated net input reaches threshold, so an action potential begins at the initial segment. Reaching threshold, rather than receiving any single input, is the key condition.","sourceIds":["action-potential","communication"],"correct":"starts",
+        "options":[{"id":"starts","label":"An action potential is initiated at the initial segment"},{"id":"every-input","label":"Every individual graded input becomes a separate action potential"},{"id":"chemical-first","label":"Neurotransmitter crosses a synaptic cleft before an action potential starts"},{"id":"stops","label":"No action potential can begin after inputs sum"}]
+      },
+      {
+        "id":"q3","sectionId":"s1","kind":"match","prompt":"Match each stage in the virtual neuron model with the signal type or event it represents.",
+        "context":"The model labels graded input at receiving branches, a threshold decision near the initial segment, action-potential propagation along the axon, and chemical release at a terminal. The receiving cell then has a local receptor-dependent voltage change.",
+        "explanation":"Dendritic inputs are graded electrical changes; threshold initiates the action potential; propagation is a traveling sequence of local electrical membrane changes; release is a chemical transmitter crossing the cleft.","sourceIds":["action-potential","communication"],
+        "left":[{"id":"graded","label":"Local input at receiving branches"},{"id":"threshold","label":"Net input reaches threshold"},{"id":"axon","label":"Event travels along axon membrane"},{"id":"terminal","label":"Messenger crosses synaptic cleft"}],
+        "right":[{"id":"graded-potential","label":"Graded potential"},{"id":"initiation","label":"Action potential begins at initial segment"},{"id":"electrical-wave","label":"Electrical action-potential propagation"},{"id":"chemical","label":"Chemical neurotransmitter signal"}],
+        "pairs":{"graded":"graded-potential","threshold":"initiation","axon":"electrical-wave","terminal":"chemical"}
+      },
+      {
+        "id":"q4","sectionId":"s1","kind":"grid","prompt":"Use the stated threshold rule to classify each virtual input case.",
+        "context":"The model says a net effect that reaches threshold initiates an action potential; a net effect below threshold does not. Case P has combined depolarizing input that reaches threshold. Case Q has mixed inputs whose net effect remains below threshold. Case R has a later combination that reaches threshold.",
+        "explanation":"P and R reach threshold and initiate an action potential. Q remains below threshold, so it does not initiate one yet. The cases provide all needed state; no external voltage value is required.","sourceIds":["action-potential","communication"],
+        "cells":[
+          {"id":"p","label":"P: net input reaches threshold","options":[{"id":"ap","label":"Action potential begins"},{"id":"no-ap","label":"No action potential yet"}],"correct":"ap"},
+          {"id":"q","label":"Q: mixed input remains below threshold","options":[{"id":"no-ap","label":"No action potential yet"},{"id":"ap","label":"Action potential begins"}],"correct":"no-ap"},
+          {"id":"r","label":"R: later net input reaches threshold","options":[{"id":"ap","label":"Action potential begins"},{"id":"no-ap","label":"No action potential yet"}],"correct":"ap"}
+        ]
+      },
+      {
+        "id":"q5","sectionId":"s2","kind":"order","prompt":"Order the events in the stated chemical-synapse handoff, from the presynaptic input to the receiving-cell response.",
+        "context":"In this model: net input reaches threshold; an action potential propagates along the sending neuron's axon; it reaches the terminal and calcium entry supports vesicle release; transmitter crosses the cleft and binds a receptor; the receiving cell changes its local membrane voltage.",
+        "explanation":"Threshold initiates the electrical event, propagation carries it to the terminal, release changes the signal to chemical across the cleft, and receptor activation produces a postsynaptic response.","sourceIds":["action-potential","communication"],
+        "items":[{"id":"threshold","label":"Net input reaches threshold"},{"id":"propagate","label":"Action potential propagates along axon"},{"id":"release","label":"Terminal releases neurotransmitter"},{"id":"respond","label":"Transmitter binds and receiving cell responds"}],"correctOrder":["threshold","propagate","release","respond"]
+      },
+      {
+        "id":"q6","sectionId":"s2","kind":"choice","prompt":"In the virtual case, an action potential reaches a presynaptic terminal, but its voltage-gated calcium channels do not open. Which event is no longer supported by the stated release mechanism?",
+        "context":"The model states that terminal calcium entry helps vesicles merge with the presynaptic membrane and release neurotransmitter into the cleft. Do not infer an effect on the entire brain or on a person's health.",
+        "explanation":"Calcium entry at the terminal supports vesicle fusion and transmitter release. If the channels do not open in this case, the described calcium-triggered release mechanism is not supported.","sourceIds":["communication"],"correct":"release",
+        "options":[{"id":"release","label":"Calcium-linked vesicle release into the cleft"},{"id":"arrival","label":"The already stated arrival of the action potential at the terminal"},{"id":"graded","label":"All local graded inputs that occurred earlier"},{"id":"receptors","label":"The existence of receptors on the receiving membrane"}]
+      },
+      {
+        "id":"q7","sectionId":"s2","kind":"match","prompt":"Match each handoff event to whether it is primarily electrical or chemical in the stated model.",
+        "context":"The presynaptic action potential is an electrical membrane event. Neurotransmitter crosses the chemical cleft. Binding at a receptor changes the receiving membrane locally; that response is electrical, while the messenger itself is chemical.",
+        "explanation":"Action potentials and postsynaptic voltage changes are electrical membrane events. Neurotransmitter diffusion and receptor binding across the cleft are chemical signaling steps.","sourceIds":["action-potential","communication"],
+        "left":[{"id":"ap","label":"Presynaptic axon action-potential propagation"},{"id":"nt","label":"Neurotransmitter diffuses across chemical cleft"},{"id":"binding","label":"Neurotransmitter binds postsynaptic receptor"},{"id":"psp","label":"Local postsynaptic voltage response"}],
+        "right":[{"id":"electrical","label":"Electrical: presynaptic axon action potential"},{"id":"chemical","label":"Chemical: messenger diffusion across cleft"},{"id":"chemical-binding","label":"Chemical: receptor binding at receiving membrane"},{"id":"electrical-response","label":"Electrical: local postsynaptic voltage response"}],
+        "pairs":{"ap":"electrical","nt":"chemical","binding":"chemical-binding","psp":"electrical-response"}
+      },
+      {
+        "id":"q8","sectionId":"s2","kind":"choice","prompt":"A transmitter binds a receptor and creates a small depolarizing response in the receiving cell, but the combined input remains below that cell's threshold. What can the model conclude?",
+        "context":"The case specifies receptor binding and a local depolarizing postsynaptic change, then states that the total input remains below threshold. The receiving cell initiates a new action potential only if its net effect reaches threshold.",
+        "explanation":"The receiving cell has a local receptor-dependent response, but below-threshold net input does not initiate a new action potential. Chemical handoff and a new electrical spike are distinct events.","sourceIds":["action-potential","communication"],"correct":"local-only",
+        "options":[{"id":"local-only","label":"A local response occurs, but a new action potential is not initiated in this case"},{"id":"automatic","label":"Any receptor binding guarantees a new action potential"},{"id":"none","label":"No postsynaptic change can occur below threshold"},{"id":"reverse","label":"The receiving cell must release transmitter back across the same cleft"}]
+      }
+    ]
   }
 ]

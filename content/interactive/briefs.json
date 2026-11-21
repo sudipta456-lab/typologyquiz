@@ -36,7 +36,7 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 85,
+      "count": 89,
       "file": "06-science-nature.md"
     },
     {
@@ -8827,6 +8827,90 @@
       "category": "Sports & Games",
       "category_code": "SG",
       "wave": "daily-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-86",
+      "title": "Heart Cycle: Pressure Opens the Gates",
+      "slug": "heart-cycle-pressure-gates",
+      "kind": "knowledge",
+      "hook": "Use a virtual pressure-and-valve model to predict when filling, pressure rise, ejection, and relaxation occur in the coordinated cardiac cycle.",
+      "rounds": [
+        "4 tasks: Read the gates — Connect pressure relationships to valve states in a four-stage virtual cycle.",
+        "4 tasks: Predict the next move — Use the stated pressure model to infer flow and distinguish coordinated ejection from pressure level."
+      ],
+      "seed": "Which callout marks the interval after ventricular pressure exceeds atrial pressure but before it exceeds downstream arterial pressure?",
+      "payoff": "Reason from the current pressure gradient to valve gating, then separate coordinated ventricular timing from the distinct pressure demands of the pulmonary and systemic circuits.",
+      "audience": "Curious learners and families studying introductory functional anatomy. Original qualitative teaching model; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level citations to NHLBI and OpenStax educational sources; the functional diagram is original TypologyQuiz artwork.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two coherent sections, using hotspot, choice, match, grid, and order formats. Heart-cycle gates are reasoned from stated pressure comparisons, including constant chamber volume while both gates are closed. The original quiz SVG uses phase-only colors; the separate functional renderer uses blue/red to indicate lower/higher oxygen content. Blood itself is red, and oxygen content changes at lung exchange. No measured trace, ECG, diagnosis, or clinical simulation is claimed. Original artwork is repository-policy all-rights-reserved.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "functional-anatomy-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-87",
+      "title": "Breathing: Pressure Changes, Exchange Continues",
+      "slug": "breathing-pressure-gas-exchange",
+      "kind": "knowledge",
+      "hook": "Use a virtual quiet-breathing cycle to distinguish bulk airflow driven by pressure from ongoing oxygen and carbon-dioxide exchange at the alveolar boundary.",
+      "rounds": [
+        "4 tasks: Pressure moves air — Read bulk-airflow direction from volume and pressure across inhale, pause-in, exhale, and pause-out.",
+        "4 tasks: Exchange keeps going — Track oxygen and carbon dioxide across the boundary even when net bulk airflow pauses."
+      ],
+      "seed": "Which callout marks the end-inhalation pause, when alveolar pressure is approximately equal to ambient pressure and net bulk airflow pauses?",
+      "payoff": "Keep two concurrent mechanisms distinct: pressure gradients move bulk air, while oxygen and carbon dioxide continue to diffuse across the alveolar-capillary boundary.",
+      "audience": "Curious learners and families studying introductory functional anatomy. Original qualitative teaching model; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level citations to NHLBI and OpenStax educational sources; the functional diagram is original TypologyQuiz artwork.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two coherent sections, using hotspot, choice, match, grid, and order formats. Every case states its pressure/exchange rules. No personal breathing task, breath-holding, exertion, diagnosis, or health assessment. Original artwork is repository-policy all-rights-reserved.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "functional-anatomy-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-88",
+      "title": "Nephron Tracer: Where Does It Go?",
+      "slug": "nephron-tracer-filter-recover-secrete",
+      "kind": "knowledge",
+      "hook": "Track hypothetical water and solute markers through filtration, reabsorption, secretion, and collection using movement-direction reasoning rather than a memorized organ route.",
+      "rounds": [
+        "4 tasks: Track movement — Distinguish blood-to-tubule filtration, tubule-to-blood recovery, and blood-to-tubule secretion.",
+        "4 tasks: Reason from the tracer — Use a fully stated virtual case to predict what remains in tubular fluid and proceeds to collection."
+      ],
+      "seed": "Which callout marks filtration, where water and many small solutes pass from blood into the capsule/tubule while cells and large proteins are retained?",
+      "payoff": "Follow a hypothetical tracer through the filter and tubule while distinguishing initial filtrate from what remains after recovery and secretion.",
+      "audience": "Curious learners and families studying introductory functional anatomy. Hypothetical classroom tracers only; no personal health interpretation.",
+      "evidence": "Question-level citations to NIDDK and OpenStax educational sources; the enlarged nephron process view is original TypologyQuiz artwork, separate from HRA kidney geometry.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two coherent sections, using hotspot, choice, match, grid, and order formats. All tracer rules are supplied in the case. Processes may overlap in a real nephron; ordered cards are explicitly scoped to one virtual accounting model. No diagnosis, lab interpretation, quantitative throughput, or clinical claim. Original artwork is repository-policy all-rights-reserved.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "functional-anatomy-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-89",
+      "title": "Neuron Signals: From Threshold to Handoff",
+      "slug": "neuron-signal-threshold-chemical-handoff",
+      "kind": "knowledge",
+      "hook": "Trace a virtual neuron signal from summing local inputs through electrical propagation and chemical neurotransmitter release to a receptor-dependent response.",
+      "rounds": [
+        "4 tasks: Before and along the axon — Reason about graded inputs, the threshold decision, and a traveling electrical membrane event.",
+        "4 tasks: Across the synapse — Follow calcium-linked release, chemical binding, and the receiving cell's possible response."
+      ],
+      "seed": "Which callout marks the terminal stage where an arriving action potential can trigger chemical messenger release into a synaptic cleft?",
+      "payoff": "Distinguish electrical events within each cell from chemical transmitter crossing a synapse, and predict what threshold and receptor rules do—and do not—guarantee.",
+      "audience": "Curious learners and families studying introductory functional anatomy. Original simplified neuron model; no clinical or neural-measurement interpretation.",
+      "evidence": "Question-level citations to OpenStax educational sources; the neuron and chemical-synapse functional diagram is original TypologyQuiz artwork.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two coherent sections, using hotspot, choice, match, grid, and order formats. Every model rule is stated in its stimulus. The chemical synapse is one teaching example; electrical synapses also exist. No brain-region mapping, thought-reading, recording, diagnosis, or clinical claim. Original artwork is repository-policy all-rights-reserved.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "functional-anatomy-2026-11-21",
       "evidence_class": "evergreen"
     }
 ]
