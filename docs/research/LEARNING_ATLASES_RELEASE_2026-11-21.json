@@ -42,5 +42,7 @@
   "productionAnalyticsDelivery": "not tested for this change; no production deployment",
   "liveNewQuizUrlsVerified": 0,
   "actualPublishedBaselineQuizzes": 400,
-  "noNewDailyBatchCreated": true
+  "noNewDailyBatchCreated": true,
+  "sourceCommit": "3e15df63844a3d23af7beeee5d63bfb6ec690a39",
+  "productionDryRunLog": "work/anatomy/2026-11-21/production-dry-run-commit.log"
 }

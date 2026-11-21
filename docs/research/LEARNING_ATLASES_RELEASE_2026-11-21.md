@@ -62,7 +62,7 @@ The reviews are AI-assisted source and code reviews, not independent clinician c
 - Final browser checks are **blocked**. Chrome state/new-window attempts and Safari state returned `cgWindowNotFound`. The in-app preview request was queued because this chat was not visible. Earlier preliminary periodic-table smoke checks predate the final layout and do not count as final mobile/desktop verification.
 - Review preview: `http://localhost:3055/__qa-harness.html`; its passive iframe harness offers explicit 320, 390 and 1280 CSS-pixel widths. The owned server uses `work/anatomy/2026-11-21/serve-preview.py`, with `out/` as its static root; the helper route is not a deployed asset.
 - No production deployment/version was created. All new production URL checks and production analytics delivery remain unverified. The published canonical baseline remains 400. Do not count the prepared 408 as live or treat these eight owner-requested feature quizzes as a daily-five batch.
-- Source/verification metadata is in the accompanying JSON record. The final source commit will be recorded in the handoff after commit.
+- Source/verification metadata is in the accompanying JSON record. Source commit: `3e15df63844a3d23af7beeee5d63bfb6ec690a39`. It remains a feature-branch checkpoint; it has not been activated in production.
 
 Build note: the initial preview failed with malformed generated Tailwind CSS under default project-wide source detection. Restricting detection to application `src` resolved the failure (5.5-second compilation) without changing style declarations. The exact offending non-application token was not isolated.
 
