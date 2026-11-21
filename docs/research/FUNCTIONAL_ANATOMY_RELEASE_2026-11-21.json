@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-21",
+  "status": "reviewed_prepared_not_deployed",
+  "source": {
+    "commit": "4a113d2e80caa80f82ffc9625531d142d7c26e38",
+    "branch": "origin/codex/functional-anatomy-2026-11-21",
+    "committed_and_pushed": true
+  },
+  "production_baseline": {
+    "master": "79f69644f489447345f2fc8f71c4db79cf41c853",
+    "quizzes": 413,
+    "tasks": 3304,
+    "confirmed_by": "live llms.txt"
+  },
+  "feature_catalog": {
+    "quizzes": 417,
+    "tasks": 3336,
+    "new_quizzes": [
+      {
+        "id": "SN-86",
+        "slug": "heart-cycle-pressure-gates",
+        "tasks": 8,
+        "sections": 2,
+        "formats": 5,
+        "gold_score": "8/8"
+      },
+      {
+        "id": "SN-87",
+        "slug": "breathing-pressure-gas-exchange",
+        "tasks": 8,
+        "sections": 2,
+        "formats": 5,
+        "gold_score": "8/8"
+      },
+      {
+        "id": "SN-88",
+        "slug": "nephron-tracer-filter-recover-secrete",
+        "tasks": 8,
+        "sections": 2,
+        "formats": 5,
+        "gold_score": "8/8"
+      },
+      {
+        "id": "SN-89",
+        "slug": "neuron-signal-threshold-chemical-handoff",
+        "tasks": 8,
+        "sections": 2,
+        "formats": 5,
+        "gold_score": "8/8"
+      }
+    ],
+    "prior_quiz_objects_preserved": 413,
+    "prior_briefs_preserved": 413,
+    "prior_raw_bytes_and_order_preserved": true,
+    "separate_from_daily_five": true
+  },
+  "reviews": {
+    "initial_content_and_code_reviews": "held",
+    "corrective_findings": [
+      "factual",
+      "ambiguity",
+      "geometry",
+      "accessibility",
+      "flow-contrast"
+    ],
+    "targeted_independent_gpt_closures": "pass",
+    "targeted_closures_are_not_second_full_reviews": true
+  },
+  "verification": {
+    "npm_run_verify_exit_code": 0,
+    "tests_passed": 353,
+    "tests_failed": 0,
+    "tests_skipped": 0,
+    "tests_cancelled": 0,
+    "preexisting_image_lint_warnings": 4,
+    "final_typecheck": "pass",
+    "production_dry_run_exit_code": 0,
+    "canonical_sitemap_urls": 1003,
+    "active_ga_html_pages": 1739,
+    "regular_exported_files_after_handbook_strip": 17972,
+    "local_url_asset_http_200_and_export_byte_checks": 13,
+    "worker_first_and_r2_bindings_unchanged": true,
+    "remote_group_catalog_quizzes": 78,
+    "baseline_r2_png_http_status": 200,
+    "post_deploy_r2_check": "pending"
+  },
+  "visual_provenance": {
+    "functional_schematics": "original, clearly labeled teaching models, separate from source HRA anatomy",
+    "original_copyright_and_external_credits_unchanged": true
+  },
+  "release_gates": {
+    "native_desktop_mobile_qa": "blocked: Chrome and Safari cgWindowNotFound after JS reset",
+    "new_live_url_checks": "pending",
+    "live_ga_checks": "pending",
+    "owner_question": "async request for Chrome visible on an unlocked desktop",
+    "additional_scope_or_deploy_approval_needed": false,
+    "preview": "http://127.0.0.1:3055/learn/anatomy/#function-heart",
+    "dev3056": "intentionally stopped",
+    "user3034": "untouched",
+    "early_browser_hash_checks": "preliminary, not final approval",
+    "push_master_or_claim_live": false
+  },
+  "catalog_type": "canonical_interactive",
+  "published_new_quizzes": 0,
+  "unpublished_new_quizzes": 4,
+  "deployment_version": null
+}
