@@ -12443,5 +12443,301 @@
         "label": "Original fictional Envelope Relay final nested-reveal case for task 8."
       }
     ]
+  },
+  {
+    "id": "LW-35",
+    "slug": "a-tiny-language-with-no-dictionary",
+    "categoryId": "logic-wordplay",
+    "title": "A Tiny Language With No Dictionary",
+    "description": "Join a tiny bird-and-lantern story, discover its few word clues from paired lines, then build and repair new messages.",
+    "kind": "logic",
+    "version": 1,
+    "minutes": 5,
+    "playMode": "solo",
+    "sections": [
+      {
+        "id": "discover-the-parts",
+        "title": "Follow the lantern clues",
+        "description": "Use paired story lines to discover a few roots, a size prefix, and a plural ending."
+      },
+      {
+        "id": "help-the-night-birds",
+        "title": "Help the night birds",
+        "description": "Read the story's unusual word order, spot a translation slip, and compose a final message."
+      }
+    ],
+    "sources": [
+      {
+        "id": "tiny-language-cases",
+        "kind": "original",
+        "label": "Original fictional Tiny-language word list, grammar constraints, examples, and translation clues; not based on a real language or culture."
+      }
+    ],
+    "note": "This is an original, self-contained fictional word puzzle, not a real language or a measure of language aptitude. Tiny clauses put subject–object–action in that order. Tiny action tokens never change for singular or plural; English translations use ordinary verb agreement. Tiny has no article tokens: English a/the may be supplied for natural story wording and are never encoded. Every task repeats the evidence and rules it needs.",
+    "questions": [
+      {
+        "id": "lw35-1",
+        "sectionId": "discover-the-parts",
+        "kind": "choice",
+        "prompt": "In the paired lantern lines, what does senu name?",
+        "context": "At dusk, the fictional night birds guide a lantern home. Tiny is an invented puzzle language: every token has one fixed meaning, and each example is a complete two-noun-and-action line. Compare senu luma pavi = a bird spots a lantern with daru luma pavi = a tree spots a lantern. The shared second noun and action stay the same; only the first noun changes. For now, daru = tree, luma = lantern, and pavi = spot(s).",
+        "explanation": "Both complete translations keep lantern and spot in the same places. Only the first root changes from daru (tree) to senu, while the English subject changes from tree to bird. So senu names bird; it cannot name the shared lantern or action.",
+        "sourceIds": [
+          "tiny-language-cases"
+        ],
+        "options": [
+          {
+            "id": "bird",
+            "label": "bird"
+          },
+          {
+            "id": "lantern",
+            "label": "lantern"
+          },
+          {
+            "id": "spot",
+            "label": "spot"
+          },
+          {
+            "id": "tree",
+            "label": "tree"
+          }
+        ],
+        "correct": "bird"
+      },
+      {
+        "id": "lw35-2",
+        "sectionId": "discover-the-parts",
+        "kind": "match",
+        "prompt": "Match each lantern-story root to the thing it names.",
+        "context": "The fictional Tiny language gives every root one fixed gloss. From another controlled pair: senu mira pavi = a bird spots the moon; senu luma pavi = a bird spots a lantern. The subject senu and action pavi stay fixed, while the object root changes with the English object. The first task's paired lines established senu = bird and pavi = spot(s). English a/the is supplied for natural story wording; articles are not Tiny tokens.",
+        "explanation": "The two full lines keep the bird subject and spotting action fixed. In the first, mira occupies the object slot translated as moon; in the second, luma fills that slot as lantern. The controlled substitution rules out swapping their glosses.",
+        "sourceIds": [
+          "tiny-language-cases"
+        ],
+        "left": [
+          {
+            "id": "mira",
+            "label": "mira"
+          },
+          {
+            "id": "luma",
+            "label": "luma"
+          }
+        ],
+        "right": [
+          {
+            "id": "moon",
+            "label": "moon"
+          },
+          {
+            "id": "lantern",
+            "label": "lantern"
+          }
+        ],
+        "pairs": {
+          "mira": "moon",
+          "luma": "lantern"
+        }
+      },
+      {
+        "id": "lw35-3",
+        "sectionId": "discover-the-parts",
+        "kind": "choice",
+        "prompt": "What can the little-lantern examples tell us about li-?",
+        "context": "The night birds use a size clue in their noun cards: luma = lantern; li-luma = little lantern; senu = bird; li-senu = little bird. The puzzle permits exactly one size marker, a prefix placed before an unchanged noun root; there are no other size markers. English a/the may be supplied in a translation but has no Tiny token.",
+        "explanation": "Both roots gain the same meaning when li- is placed before them: lantern becomes little lantern, and bird becomes little bird. Since the root remains intact and the marker is explicitly a prefix, li- means little and belongs before the noun root.",
+        "sourceIds": [
+          "tiny-language-cases"
+        ],
+        "options": [
+          {
+            "id": "little-prefix",
+            "label": "li- means little and goes before a noun root"
+          },
+          {
+            "id": "plural-suffix",
+            "label": "li- means many and goes after a noun root"
+          },
+          {
+            "id": "action-prefix",
+            "label": "li- means spot and goes before an action"
+          },
+          {
+            "id": "little-suffix",
+            "label": "li- means little but goes after a noun root"
+          }
+        ],
+        "correct": "little-prefix"
+      },
+      {
+        "id": "lw35-4",
+        "sectionId": "discover-the-parts",
+        "kind": "choice",
+        "prompt": "What changes when the night-bird guide adds -n?",
+        "context": "Compare the complete noun cards: senu = bird and senu-n = birds; luma = lantern and luma-n = lanterns. In Tiny, a noun has one unchanged root, optionally preceded by li- (little) and optionally followed by -n. There are no other number endings. English a/the is added only when a natural sentence needs it; it is not encoded in Tiny.",
+        "explanation": "In both controlled pairs, adding only final -n changes one thing to more than one: bird/birds and lantern/lanterns. The unchanged root keeps its meaning, so -n is the plural ending, placed after the root (and after li- if present).",
+        "sourceIds": [
+          "tiny-language-cases"
+        ],
+        "options": [
+          {
+            "id": "plural-ending",
+            "label": "-n marks plural and follows the noun root"
+          },
+          {
+            "id": "little-ending",
+            "label": "-n means little and follows the noun root"
+          },
+          {
+            "id": "plural-prefix",
+            "label": "-n marks plural but comes before the noun root"
+          },
+          {
+            "id": "action-ending",
+            "label": "-n changes the noun into the action spot"
+          }
+        ],
+        "correct": "plural-ending"
+      },
+      {
+        "id": "lw35-5",
+        "sectionId": "help-the-night-birds",
+        "kind": "order",
+        "prompt": "Put the Tiny tokens in order to say “A bird spots the moon.”",
+        "context": "A complete Tiny clause puts subject first, object second, and action last: daru mira pavi = a tree spots the moon; mira daru pavi = the moon spots a tree. Roots: daru = tree, senu = bird, mira = moon, luma = lantern, pavi = spot(s). This subject–object–action order is different from English. English articles a/the have no Tiny tokens.",
+        "explanation": "The bird is the subject, the moon is the object, and spotting is the action. Tiny places them subject–object–action, so senu comes first, mira second, and pavi last: senu mira pavi. Reversing the nouns would make the moon the spotter.",
+        "sourceIds": [
+          "tiny-language-cases"
+        ],
+        "items": [
+          {
+            "id": "bird",
+            "label": "senu (bird; subject)"
+          },
+          {
+            "id": "moon",
+            "label": "mira (moon; object)"
+          },
+          {
+            "id": "spot",
+            "label": "pavi (spot)"
+          }
+        ],
+        "correctOrder": [
+          "bird",
+          "moon",
+          "spot"
+        ]
+      },
+      {
+        "id": "lw35-6",
+        "sectionId": "help-the-night-birds",
+        "kind": "match",
+        "prompt": "Match each message to what the night birds would understand.",
+        "context": "Tiny clauses put subject–object–action. Roots: senu = bird, luma = lantern, pavi = spot(s). Compare senu luma pavi = a bird spots a lantern with senu luma ha-pavi = a bird does not spot a lantern. This controlled pair shows ha- negates the action and attaches directly before it; the action root itself does not change. In English only, verb wording follows the subject (bird spots; birds spot). Articles are supplied for natural English and are not Tiny tokens.",
+        "explanation": "The first line has the positive action pavi, so the bird spots the lantern. In the second, ha- before pavi negates that same action. In the third, the noun order is reversed, so the lantern is the subject and the bird the object; ha- still makes spotting negative.",
+        "sourceIds": [
+          "tiny-language-cases"
+        ],
+        "left": [
+          {
+            "id": "positive-bird",
+            "label": "senu luma pavi"
+          },
+          {
+            "id": "negative-bird",
+            "label": "senu luma ha-pavi"
+          },
+          {
+            "id": "negative-lantern",
+            "label": "luma senu ha-pavi"
+          }
+        ],
+        "right": [
+          {
+            "id": "bird-spots",
+            "label": "A bird spots a lantern"
+          },
+          {
+            "id": "bird-not-spots",
+            "label": "A bird does not spot a lantern"
+          },
+          {
+            "id": "lantern-not-spots",
+            "label": "A lantern does not spot a bird"
+          }
+        ],
+        "pairs": {
+          "positive-bird": "bird-spots",
+          "negative-bird": "bird-not-spots",
+          "negative-lantern": "lantern-not-spots"
+        }
+      },
+      {
+        "id": "lw35-7",
+        "sectionId": "help-the-night-birds",
+        "kind": "choice",
+        "prompt": "A friend mistranslates luma senu pavi as “A bird spots a lantern.” What single correction fixes the message?",
+        "context": "Tiny uses the roots senu = bird, luma = lantern, and pavi = spot. A complete clause puts the subject first, object second, and action last. A noun may take final -n for plural; ha- directly before an action negates it. English articles are not Tiny tokens. The message above contains neither -n nor ha-.",
+        "explanation": "The friend's translation swaps the two noun roles. In Tiny, the first noun is the subject and the second is the object, so luma senu pavi means the lantern spots the bird. The action is positive because ha- is absent; nothing in the line marks plural.",
+        "sourceIds": [
+          "tiny-language-cases"
+        ],
+        "options": [
+          {
+            "id": "swap-roles",
+            "label": "Swap the noun roles: the lantern is subject and the bird is object"
+          },
+          {
+            "id": "add-negation",
+            "label": "Add “does not”; every pavi line is negative"
+          },
+          {
+            "id": "make-birds-plural",
+            "label": "Change both nouns to plural because pavi ends in -i"
+          },
+          {
+            "id": "move-action-first",
+            "label": "Move the action to the first position; Tiny follows English order"
+          }
+        ],
+        "correct": "swap-roles"
+      },
+      {
+        "id": "lw35-8",
+        "sectionId": "help-the-night-birds",
+        "kind": "choice",
+        "prompt": "Compose the night birds’ new message: “Little birds do not spot lanterns.”",
+        "context": "Tiny uses the roots senu = bird, luma = lantern, and pavi = spot. The prefix li- before a noun root means little; final -n on a noun marks plural; and ha- directly before an action marks negation. Tiny puts the subject first, object second, and action last. Its action root does not change for number. English articles a/the are not Tiny tokens.",
+        "explanation": "Start with the noun phrase for little birds: li- goes before senu and -n marks the plural noun. The lantern noun also takes -n for plural. Put the subject noun before the object noun, then place ha- directly before pavi to negate the action. That selects li-senu-n luma-n ha-pavi. Articles are not encoded, and the action does not inflect for number.",
+        "sourceIds": [
+          "tiny-language-cases"
+        ],
+        "options": [
+          {
+            "id": "correct",
+            "label": "li-senu-n luma-n ha-pavi"
+          },
+          {
+            "id": "size-on-lantern",
+            "label": "senu-n li-luma-n ha-pavi"
+          },
+          {
+            "id": "missing-subject-plural",
+            "label": "li-senu luma-n ha-pavi"
+          },
+          {
+            "id": "wrong-order",
+            "label": "li-senu-n ha-pavi luma-n"
+          },
+          {
+            "id": "missing-negation",
+            "label": "li-senu-n luma-n pavi"
+          }
+        ],
+        "correct": "correct"
+      }
+    ]
   }
 ]

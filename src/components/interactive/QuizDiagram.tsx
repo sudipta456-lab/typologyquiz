@@ -17,10 +17,10 @@ const HEX_COLOR = /^#[0-9a-f]{3,8}$/i;
 const clamp = (n: number, lo: number, hi: number) => (Number.isFinite(n) ? Math.min(hi, Math.max(lo, n)) : lo);
 
 /**
- * Original rectangle diagram. Zone coordinates are percentages of the frame.
- * A zone is selectable when an option shares its id; every zone is also named
- * in the labelled radio list below, which is the full keyboard/screen-reader
- * equivalent of the picture.
+ * Original rectangle diagram. Coordinates are percentages of the frame.
+ * Zones with matching options are selectable; annotations are static references
+ * and never appear in the answer list. The labelled radio list is the keyboard
+ * and screen-reader equivalent of the picture.
  */
 export function QuizDiagram({ diagram, options, value, onChange }: Props) {
   const uid = useId();
@@ -49,11 +49,29 @@ export function QuizDiagram({ diagram, options, value, onChange }: Props) {
             sizes="(max-width: 44rem) 100vw, 44rem"
             unoptimized
           />
+          {diagram.annotations?.map((annotation) => {
+            const color = annotation.color && HEX_COLOR.test(annotation.color) ? annotation.color : undefined;
+            const style = {
+              left: `${clamp(annotation.x, 0, 100)}%`,
+              top: `${clamp(annotation.y, 0, 100)}%`,
+              width: `${clamp(annotation.width, 1, 100)}%`,
+              height: `${clamp(annotation.height, 1, 100)}%`,
+              pointerEvents: "none" as const,
+              ...(color ? { "--zone": color } : null),
+            } as React.CSSProperties;
+            return (
+              <div key={annotation.id} className={styles.zoneStatic} style={style} aria-hidden="true">
+                <span>{annotation.label}</span>
+              </div>
+            );
+          })}
           {diagram.zones.map((zone) => {
             const option = optionById.get(zone.id);
+            const color = zone.color && HEX_COLOR.test(zone.color) ? zone.color : undefined;
             const style = {
               left: `${clamp(zone.x + zone.width / 2, 0, 100)}%`,
               top: `${clamp(zone.y + zone.height / 2, 0, 100)}%`,
+              ...(color ? { "--zone": color } : null),
             } as React.CSSProperties;
             if (!option) {
               return <span key={zone.id} className={styles.imageZoneStatic} style={style}>{zone.label}</span>;
@@ -68,13 +86,29 @@ export function QuizDiagram({ diagram, options, value, onChange }: Props) {
                 aria-pressed={value === zone.id}
                 onClick={() => onChange(zone.id)}
               >
-                {zone.label}
+                {zone.label.replace(/^Callout ([A-Z])$/, "$1")}
               </button>
             );
           })}
         </div>
       ) : (
         <div className={styles.diagramFrame}>
+          {diagram.annotations?.map((annotation) => {
+            const color = annotation.color && HEX_COLOR.test(annotation.color) ? annotation.color : undefined;
+            const style = {
+              left: `${clamp(annotation.x, 0, 100)}%`,
+              top: `${clamp(annotation.y, 0, 100)}%`,
+              width: `${clamp(annotation.width, 1, 100)}%`,
+              height: `${clamp(annotation.height, 1, 100)}%`,
+              pointerEvents: "none" as const,
+              ...(color ? { "--zone": color } : null),
+            } as React.CSSProperties;
+            return (
+              <div key={annotation.id} className={styles.zoneStatic} style={style} aria-hidden="true">
+                <span>{annotation.label}</span>
+              </div>
+            );
+          })}
           {diagram.zones.map((zone) => {
             const selectable = optionIds.has(zone.id);
             const selected = selectable && value === zone.id;

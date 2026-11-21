@@ -4,9 +4,12 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { test } from "node:test";
 import sharp from "sharp";
+import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { scoreQuiz, validateAnswer } from "../src/lib/interactive/engine";
 import { QUIZZES, quizPath } from "../src/lib/interactive/registry";
 import { validateQuiz } from "../src/lib/interactive/validate";
+import { fitOrthographicCamera, setZoom } from "../src/components/anatomy/camera";
 import type { Answers, OrderQuestion, Question, Quiz } from "../src/lib/interactive/types";
 
 type AnatomyAsset = {
@@ -50,6 +53,81 @@ const MIN_CALLOUT_DIAMETER = 44;
 const PRIVATE_VISUAL_FIELDS = /visualRequirement|unresolvedVisualMapping|provisional|placeholder/i;
 const RUNTIME_MEDIA_FIELDS = /^(?:audio|video|iframe|embed|media|externalMedia)$/i;
 const MEDICAL_CLAIMS = /\bmedical[- ]grade\b|\bclinically (?:proven|validated|certified|accurate)\b|\bdiagnostic (?:test|tool|result)\b|\bcan diagnose\b|\bdiagnoses? (?:patients|users|you)\b/i;
+
+test("translated anatomy bounds stay centered, fitted, zoomable, and resettable with OrbitControls", () => {
+  const viewportSizes = [
+    { name: "phone", width: 390, height: 844 },
+    { name: "desktop", width: 1280, height: 800 },
+  ];
+
+  for (const viewport of viewportSizes) {
+    const root = new THREE.Group();
+    const geometry = new THREE.BoxGeometry(1, 4, 1);
+    const mesh = new THREE.Mesh(geometry);
+    mesh.position.y = 4;
+    root.add(mesh);
+    root.updateMatrixWorld(true);
+
+    const bounds = new THREE.Box3().setFromObject(root);
+    const center = bounds.getCenter(new THREE.Vector3());
+    const size = bounds.getSize(new THREE.Vector3());
+    const radius = Math.max(size.x, size.y, size.z, 0.001) / 2;
+    const aspect = viewport.width / viewport.height;
+    const halfHeight = Math.max(size.y, size.x / aspect, size.z, radius * 1.5) * 0.72;
+    const direction = new THREE.Vector3(1, 0.72, 1).normalize();
+
+    // Reproduce the former origin-centered clamp with the real Three.js controls.
+    const legacyCamera = new THREE.OrthographicCamera(-halfHeight * aspect, halfHeight * aspect, halfHeight, -halfHeight, 0.0001, 1000);
+    const legacyControls = new OrbitControls(legacyCamera);
+    legacyControls.maxTargetRadius = radius * 0.15;
+    legacyControls.target.copy(center);
+    legacyCamera.position.copy(center).addScaledVector(direction, radius * 4);
+    legacyCamera.lookAt(center);
+    legacyCamera.updateProjectionMatrix();
+    legacyCamera.updateMatrixWorld(true);
+    const legacyCenterBeforeUpdate = center.clone().project(legacyCamera);
+    legacyControls.update();
+    legacyCamera.updateMatrixWorld(true);
+    const legacyCenterAfterUpdate = center.clone().project(legacyCamera);
+    assert.ok(Math.abs(legacyCenterBeforeUpdate.y) < 1e-6, `${viewport.name}: center should begin at the optical center`);
+    assert.ok(Math.abs(legacyCenterAfterUpdate.y) > 1, `${viewport.name}: origin-centered target clamp should reproduce the offscreen model`);
+    assert.ok(legacyControls.target.distanceTo(new THREE.Vector3()) <= radius * 0.15 + 1e-9);
+
+    const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.0001, 1000);
+    // A null-DOM OrbitControls instance installs no listeners; do not call dispose(),
+    // which expects a DOM element when disconnecting.
+    const controls = new OrbitControls(camera);
+    fitOrthographicCamera(camera, controls, root, viewport.width, viewport.height);
+    camera.updateMatrixWorld(true);
+
+    assert.ok(controls.cursor.distanceTo(center) < 1e-9, `${viewport.name}: clamp cursor must follow the translated model center`);
+    assert.ok(controls.target.distanceTo(center) < 1e-9, `${viewport.name}: controls update must retain the fitted target`);
+    assert.equal(mesh.position.y, 4, "camera fitting must preserve source geometry coordinates");
+
+    const projectedCenter = center.clone().project(camera);
+    assert.ok(Math.abs(projectedCenter.x) < 1e-6 && Math.abs(projectedCenter.y) < 1e-6, `${viewport.name}: model center should remain at the optical center after update`);
+    assert.ok(projectedCenter.z >= -1 && projectedCenter.z <= 1, `${viewport.name}: model center should remain inside the clipping range`);
+
+    for (const x of [bounds.min.x, bounds.max.x]) {
+      for (const y of [bounds.min.y, bounds.max.y]) {
+        for (const z of [bounds.min.z, bounds.max.z]) {
+          const corner = new THREE.Vector3(x, y, z).project(camera);
+          assert.ok(Math.abs(corner.x) < 1 && Math.abs(corner.y) < 1, `${viewport.name}: model bounds should fit in the orthographic frustum`);
+        }
+      }
+    }
+
+    setZoom(camera, controls, 2);
+    assert.equal(camera.zoom, 2, `${viewport.name}: zoom control should remain functional`);
+    controls.rotateLeft(0.3);
+    controls.reset();
+    camera.updateMatrixWorld(true);
+    const resetCenter = center.clone().project(camera);
+    assert.equal(camera.zoom, 1, `${viewport.name}: reset should restore the saved zoom`);
+    assert.ok(controls.target.distanceTo(center) < 1e-9, `${viewport.name}: reset should restore the saved model-centered target`);
+    assert.ok(Math.abs(resetCenter.x) < 1e-6 && Math.abs(resetCenter.y) < 1e-6, `${viewport.name}: reset should return the model center to the optical center`);
+  }
+});
 
 function localPublicFile(pathname: string): string {
   assert.match(pathname, /^\/anatomy\//, `Expected a local anatomy URL: ${pathname}`);

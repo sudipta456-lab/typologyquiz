@@ -13517,5 +13517,406 @@
         ]
       }
     ]
+  },
+  {
+    "id": "GT-36",
+    "slug": "follow-the-heat-beneath-the-ocean",
+    "categoryId": "geography-travel",
+    "title": "Follow the Heat Beneath the Ocean",
+    "description": "Read an original seafloor survey schematic, trace how vent fluids form, and use spatial evidence carefully to reason about hydrothermal systems and life around them.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 4,
+    "sections": [
+      {
+        "id": "read-the-seafloor",
+        "title": "Where the survey finds clues",
+        "description": "Locate fictional sites in relation to a ridge and its flanks."
+      },
+      {
+        "id": "follow-fluid-and-life",
+        "title": "How vents work",
+        "description": "Trace water, mineral particles and chemical energy without overreading the map."
+      }
+    ],
+    "sources": [
+      {
+        "id": "noaa-nemo",
+        "kind": "reference",
+        "label": "NOAA PMEL: Hydrothermal Vents",
+        "url": "https://www.pmel.noaa.gov/eoi/nemo/explorer/concepts/hydrothermal.html"
+      },
+      {
+        "id": "noaa-seeps-vents",
+        "kind": "reference",
+        "label": "NOAA Ocean Exploration: Seeps and Vents",
+        "url": "https://oceanexplorer.noaa.gov/ocean-fact/seeps-vents/"
+      },
+      {
+        "id": "noaa-escanaba",
+        "kind": "reference",
+        "label": "NOAA Ocean Exploration: Hydrothermal Systems at Escanaba Trough",
+        "url": "https://oceanexplorer.noaa.gov/expedition-feature/22escanaba-features-hydrothermal-systems/"
+      },
+      {
+        "id": "original-vent-survey",
+        "kind": "original",
+        "label": "Fictional ridge schematic, survey sites, and sample records created for this quiz."
+      }
+    ],
+    "note": "All sites, positions, samples and survey observations are fictional teaching data, not real bathymetry or a report of a recent discovery. The schematic uses labeled rectangular site cards only. A survey non-detection does not prove that vents are absent, and vent fluids and organisms are not all at one temperature or in the hottest fluid.",
+    "questions": [
+      {
+        "id": "gt36-1",
+        "sectionId": "read-the-seafloor",
+        "kind": "choice",
+        "prompt": "A team is choosing a broad region for a first hydrothermal-vent survey. Which seafloor feature is a useful place to include?",
+        "context": "This is a regional survey choice, not a claim that every vent occurs in one setting. NOAA describes many hydrothermal vents along mid-ocean ridges, where seawater can circulate through ocean crust and be heated by magma.",
+        "options": [
+          {
+            "id": "ridge",
+            "label": "A mid-ocean ridge, while leaving room to investigate other settings too"
+          },
+          {
+            "id": "all-ridge",
+            "label": "Only a ridge, because all hydrothermal vents must be there"
+          },
+          {
+            "id": "shore",
+            "label": "Only a beach, because vents require sunlight"
+          },
+          {
+            "id": "plain",
+            "label": "A featureless map area, because vents never relate to seafloor geology"
+          }
+        ],
+        "correct": "ridge",
+        "explanation": "Many vents occur along mid-ocean ridges, making ridge regions useful survey targets. That does not mean every vent must be on a divergent boundary or that no other vent setting exists.",
+        "sourceIds": [
+          "noaa-nemo",
+          "noaa-escanaba",
+          "original-vent-survey"
+        ]
+      },
+      {
+        "id": "gt36-2",
+        "sectionId": "read-the-seafloor",
+        "kind": "hotspot",
+        "prompt": "A fictional plume is detected at the eastern survey site. Which follow-up site best tests a plausible up-current source area?",
+        "context": "Original fictional survey: the ridge band runs roughly north–south. A stated current carries suspended plume material from west toward east. Site E, east of the ridge, records a plume; Site W is west of the ridge on the same east-observation row, Site S is south of the ridge band, and Site NE is northeast. The current direction and observations are supplied model data, not a real ocean measurement.",
+        "diagram": {
+          "title": "Fictional ridge survey and plume sites",
+          "description": "Top-down schematic, not bathymetry: separate static reference rectangles mark the north–south ridge band and the stated west-to-east current direction. Selectable site buttons are west of the band on the same row as the eastern plume observation, south of the band, northeast of the band, and at the eastern plume observation. Their positions and the supplied current are also stated in the question context.",
+          "zones": [
+            {
+              "id": "west",
+              "label": "Site W",
+              "x": 8,
+              "y": 47,
+              "width": 22,
+              "height": 22
+            },
+            {
+              "id": "south",
+              "label": "Site S",
+              "x": 40,
+              "y": 76,
+              "width": 24,
+              "height": 20
+            },
+            {
+              "id": "northeast",
+              "label": "Site NE",
+              "x": 70,
+              "y": 15,
+              "width": 22,
+              "height": 22
+            },
+            {
+              "id": "east",
+              "label": "Site E • plume",
+              "x": 70,
+              "y": 47,
+              "width": 24,
+              "height": 22
+            }
+          ],
+          "annotations": [
+            {
+              "id": "ridge-band",
+              "label": "RIDGE BAND",
+              "x": 40,
+              "y": 18,
+              "width": 20,
+              "height": 52
+            },
+            {
+              "id": "current-label",
+              "label": "CURRENT W → E",
+              "x": 17,
+              "y": 3,
+              "width": 66,
+              "height": 12
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "west",
+            "label": "Site W, west of the ridge band"
+          },
+          {
+            "id": "south",
+            "label": "Site S, south of the ridge band"
+          },
+          {
+            "id": "northeast",
+            "label": "Site NE, northeast of the ridge band"
+          },
+          {
+            "id": "east",
+            "label": "Site E, at the plume observation"
+          }
+        ],
+        "correct": "west",
+        "explanation": "A west-side follow-up is up-current of the eastern plume observation in this stated model, so it can test whether a plausible source lies along that path. Transported plume evidence does not prove an exact source; additional samples and locations would still be needed. All sites and observations are fictional.",
+        "sourceIds": [
+          "noaa-nemo",
+          "original-vent-survey"
+        ]
+      },
+      {
+        "id": "gt36-3",
+        "sectionId": "read-the-seafloor",
+        "kind": "hotspot",
+        "prompt": "Which survey region has a blank record that cannot establish whether vents are absent there?",
+        "context": "Original fictional survey coverage: North is the upper, full-width region and has no visit or sample record. South is the lower-left region and East is the separated lower-right region; both have sample records. A missing North record is not a non-detection. The regions and records are invented teaching data, not real bathymetry.",
+        "diagram": {
+          "title": "Fictional survey coverage by region",
+          "description": "A schematic of three rectangular regions, not bathymetry: North spans the upper width and has no visit or sample record; South is separated at lower left and East at lower right, and each has a sample record. The same positions and record states are stated in the question text and answer list.",
+          "zones": [
+            {
+              "id": "north",
+              "label": "North · no record",
+              "x": 6,
+              "y": 8,
+              "width": 88,
+              "height": 27
+            },
+            {
+              "id": "south",
+              "label": "South · sampled",
+              "x": 7,
+              "y": 58,
+              "width": 38,
+              "height": 27
+            },
+            {
+              "id": "east",
+              "label": "East · sampled",
+              "x": 55,
+              "y": 58,
+              "width": 38,
+              "height": 27
+            }
+          ]
+        },
+        "options": [
+          {
+            "id": "north",
+            "label": "North: upper full-width region; no visit or sample record"
+          },
+          {
+            "id": "south",
+            "label": "South: lower-left region; sample record exists"
+          },
+          {
+            "id": "east",
+            "label": "East: separated lower-right region; sample record exists"
+          }
+        ],
+        "correct": "north",
+        "explanation": "North has no survey observation, so its blank record cannot show either presence or absence of vents. South and East have sample records, but those records cannot turn the unvisited North region into a non-detection. A new survey would be needed to test it.",
+        "sourceIds": [
+          "noaa-nemo",
+          "original-vent-survey"
+        ]
+      },
+      {
+        "id": "gt36-4",
+        "sectionId": "follow-fluid-and-life",
+        "kind": "order",
+        "prompt": "Order the simplified steps in one hydrothermal circulation path, from water entering the crust to material leaving the vent.",
+        "context": "The model summarizes a common process: seawater enters cracks in ocean crust, is heated below the seafloor by nearby magma, rises, and can carry dissolved minerals. When vent fluid mixes with cold seawater, mineral particles may precipitate. This is not a claim that all vents have identical fluids or temperatures.",
+        "items": [
+          {
+            "id": "enter",
+            "label": "Seawater seeps into cracks in ocean crust"
+          },
+          {
+            "id": "heat",
+            "label": "Water is heated by nearby magma below the seafloor"
+          },
+          {
+            "id": "rise",
+            "label": "Heated fluid rises back toward the seafloor"
+          },
+          {
+            "id": "mix",
+            "label": "Fluid mixes with colder seawater and minerals can precipitate"
+          }
+        ],
+        "correctOrder": [
+          "enter",
+          "heat",
+          "rise",
+          "mix"
+        ],
+        "explanation": "Seawater circulates down through crust, gains heat underground, and rises. As vent fluid mixes with colder seawater, dissolved minerals can precipitate as particles. Actual systems vary.",
+        "sourceIds": [
+          "noaa-nemo",
+          "noaa-escanaba",
+          "original-vent-survey"
+        ]
+      },
+      {
+        "id": "gt36-5",
+        "sectionId": "follow-fluid-and-life",
+        "kind": "choice",
+        "prompt": "Observers describe a dark plume above a hydrothermal vent. What are the dark particles commonly made of?",
+        "context": "This asks about the plume appearance described by NOAA, not the chemistry of every vent or a claim that the plume is smoke from burning fuel.",
+        "options": [
+          {
+            "id": "minerals",
+            "label": "Mineral particles precipitating as vent fluid mixes with seawater"
+          },
+          {
+            "id": "soot",
+            "label": "Soot produced by an underwater fire"
+          },
+          {
+            "id": "ash",
+            "label": "Ash from a surface volcano falling through the ocean"
+          },
+          {
+            "id": "animals",
+            "label": "A cloud made entirely of tiny animals"
+          }
+        ],
+        "correct": "minerals",
+        "explanation": "The familiar black-smoker plume is dark because mineral particles precipitate as hot vent fluid mixes with colder seawater. It is not soot or smoke from combustion.",
+        "sourceIds": [
+          "noaa-nemo",
+          "noaa-escanaba",
+          "original-vent-survey"
+        ]
+      },
+      {
+        "id": "gt36-6",
+        "sectionId": "follow-fluid-and-life",
+        "kind": "match",
+        "prompt": "Match each fictional observation to the flow description it most closely supports.",
+        "context": "Original observation cards: one site has a concentrated, visibly focused jet; a second has water emerging through several small openings after mixing with surrounding seawater. NOAA describes both focused venting and diffuse flow. These cards do not provide exact temperatures.",
+        "left": [
+          {
+            "id": "a",
+            "label": "Site A: one concentrated, focused jet"
+          },
+          {
+            "id": "b",
+            "label": "Site B: water emerging through several small openings after mixing"
+          }
+        ],
+        "right": [
+          {
+            "id": "focused",
+            "label": "Focused flow"
+          },
+          {
+            "id": "diffuse",
+            "label": "Diffuse flow"
+          }
+        ],
+        "pairs": {
+          "a": "focused",
+          "b": "diffuse"
+        },
+        "explanation": "The concentrated jet is described as focused flow. Several small outlets with mixed surrounding seawater fit the description of diffuse flow. The records do not justify assigning one temperature to all vent fluids.",
+        "sourceIds": [
+          "noaa-nemo",
+          "noaa-seeps-vents",
+          "original-vent-survey"
+        ]
+      },
+      {
+        "id": "gt36-7",
+        "sectionId": "follow-fluid-and-life",
+        "kind": "choice",
+        "prompt": "A deep-sea vent community receives little or no sunlight. What energy source can support its food web?",
+        "context": "The question is about a general energy pathway, not a claim that organisms live inside the hottest vent fluid. Habitats occur around vent systems and conditions vary between sites.",
+        "options": [
+          {
+            "id": "chemical",
+            "label": "Chemical energy used by microbes, which can support a food web"
+          },
+          {
+            "id": "sun",
+            "label": "Direct sunlight reaching every vent animal"
+          },
+          {
+            "id": "heat-only",
+            "label": "Heat alone, with no chemical energy involved"
+          },
+          {
+            "id": "rock",
+            "label": "The rock's weight being converted directly into food"
+          }
+        ],
+        "correct": "chemical",
+        "explanation": "Chemosynthetic microbes use chemical energy and can support food webs around vents and seeps where sunlight is limited or absent. This does not mean animals live in the hottest vent fluid.",
+        "sourceIds": [
+          "noaa-seeps-vents",
+          "noaa-nemo",
+          "original-vent-survey"
+        ]
+      },
+      {
+        "id": "gt36-8",
+        "sectionId": "follow-fluid-and-life",
+        "kind": "match",
+        "prompt": "Match each deep-seafloor feature to the broad description that best distinguishes it.",
+        "context": "Use the NOAA overview: hydrothermal vents involve seawater circulating through crust and being heated underground, while cold seeps release chemical-rich fluids from the seafloor without that same magma-heated circulation pathway. Both kinds of setting can support chemosynthetic communities. 'Cold' is a comparison with hot vent fluid, not a claim that every seep has one measured temperature.",
+        "left": [
+          {
+            "id": "vent",
+            "label": "Hydrothermal vent"
+          },
+          {
+            "id": "seep",
+            "label": "Cold seep"
+          }
+        ],
+        "right": [
+          {
+            "id": "heated-circulation",
+            "label": "Seawater circulates through crust and is heated underground"
+          },
+          {
+            "id": "chemical-release",
+            "label": "Chemical-rich fluid is released from the seafloor without the same magma-heated pathway"
+          }
+        ],
+        "pairs": {
+          "vent": "heated-circulation",
+          "seep": "chemical-release"
+        },
+        "explanation": "The key distinction is the fluid pathway: vents are associated with water circulating through crust and being heated, while seeps release chemical-rich fluids by a different process. Both can support life based on chemical energy, and neither label implies uniform conditions at every site.",
+        "sourceIds": [
+          "noaa-seeps-vents",
+          "noaa-nemo",
+          "original-vent-survey"
+        ]
+      }
+    ]
   }
 ]

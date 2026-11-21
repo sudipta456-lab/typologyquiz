@@ -21,6 +21,7 @@ export const LIMITS = {
 type Rec = Record<string, unknown>;
 const isRec = (value: unknown): value is Rec => typeof value === "object" && value !== null && !Array.isArray(value);
 const own = (rec: Rec, key: string): unknown => (Object.prototype.hasOwnProperty.call(rec, key) ? rec[key] : undefined);
+const hasOwn = (rec: Rec, key: string): boolean => Object.prototype.hasOwnProperty.call(rec, key);
 const isText = (value: unknown): value is string => typeof value === "string" && value.trim().length > 0 && value.length <= 4000;
 const isNum = (value: unknown): value is number => typeof value === "number" && Number.isFinite(value);
 const within = (value: unknown, range: readonly [number, number]): value is number => isNum(value) && value >= range[0] && value <= range[1];
@@ -139,6 +140,49 @@ function checkHotspotImage(value: unknown, path: string, errors: string[]): void
     const dimension = own(value, key);
     if (!within(dimension, [100, 4096]) || !Number.isInteger(dimension)) errors.push(`${path}.${key}: must be an integer from 100 to 4096`);
   }
+  const width = own(value, "width");
+  const height = own(value, "height");
+  if (within(width, [100, 4096]) && within(height, [100, 4096])) {
+    const aspectRatio = (width as number) / (height as number);
+    if (aspectRatio < 0.5 || aspectRatio > 2) errors.push(`${path}: aspect ratio must be between 1:2 and 2:1`);
+  }
+}
+
+function checkAnnotations(value: unknown, path: string, errors: string[], zoneCount: number, zoneIds: Set<string>, optionIds: Set<string>): void {
+  if (!Array.isArray(value)) {
+    errors.push(`${path}: must be an array`);
+    return;
+  }
+  if (value.length > LIMITS.zones[1]) errors.push(`${path}: must contain at most ${LIMITS.zones[1]} annotations`);
+  if (zoneCount + value.length > LIMITS.zones[1]) errors.push(`${path}: combined zones and annotations exceed ${LIMITS.zones[1]} rectangles`);
+
+  const seen = new Set(zoneIds);
+  const allowedKeys = new Set(["id", "label", "x", "y", "width", "height", "color"]);
+  for (let index = 0; index < Math.min(value.length, LIMITS.zones[1]); index += 1) {
+    const annotation = value[index];
+    const where = `${path}[${index}]`;
+    if (!isRec(annotation)) {
+      errors.push(`${where}: must be an object`);
+      continue;
+    }
+    if (Object.keys(annotation).some((key) => !allowedKeys.has(key))) errors.push(`${where}: contains an unsupported annotation field`);
+    const id = own(annotation, "id");
+    if (!safeId(id)) errors.push(`${where}: invalid id`);
+    else {
+      if (seen.has(id)) errors.push(`${where}: duplicate id "${id}"`);
+      else seen.add(id);
+      if (optionIds.has(id)) errors.push(`${where}: annotation id cannot match an answer option`);
+    }
+    if (!isText(own(annotation, "label"))) errors.push(`${where}: label required`);
+    const [x, y, width, height] = ["x", "y", "width", "height"].map((key) => own(annotation, key));
+    if (!within(x, [0, 100]) || !within(y, [0, 100]) || !within(width, [1, 100]) || !within(height, [1, 100])) {
+      errors.push(`${where}: geometry must be percentages (x,y 0-100; width,height 1-100)`);
+    } else if ((x as number) + (width as number) > 100.0001 || (y as number) + (height as number) > 100.0001) {
+      errors.push(`${where}: annotation extends past the diagram`);
+    }
+    const color = own(annotation, "color");
+    if (color !== undefined && !(typeof color === "string" && COLOR_PATTERN.test(color))) errors.push(`${where}: color must be a hex value`);
+  }
 }
 
 function checkQuestion(q: Rec, path: string, errors: string[], sectionIds: Set<string>, sourceIds: Set<string>): { usesWeights: boolean; dimension?: unknown } {
@@ -212,6 +256,14 @@ function checkQuestion(q: Rec, path: string, errors: string[], sectionIds: Set<s
         const color = own(zone, "color");
         if (color !== undefined && !(typeof color === "string" && COLOR_PATTERN.test(color))) errors.push(`${where}: color must be a hex value`);
       });
+      if (hasOwn(diagram, "annotations")) {
+        const optionIds = new Set<string>();
+        const options = own(q, "options");
+        if (Array.isArray(options)) for (const option of options) {
+          if (isRec(option) && safeId(own(option, "id"))) optionIds.add(own(option, "id") as string);
+        }
+        checkAnnotations(own(diagram, "annotations"), `${path}.diagram.annotations`, errors, (zones as unknown[]).length, seen, optionIds);
+      }
       break;
     }
     case "rank": {

@@ -32,8 +32,9 @@ export interface HotspotImage {
   sourceUrl: string;
   license: string;
 }
+export interface DiagramRectangle { id:string; label:string; x:number; y:number; width:number; height:number; color?:string }
 export interface HotspotQuestion extends BaseQuestion {
-  kind:"hotspot"; diagram:{title:string;description:string;image?:HotspotImage;zones:{id:string;label:string;x:number;y:number;width:number;height:number;color?:string}[]};
+  kind:"hotspot"; diagram:{title:string;description:string;image?:HotspotImage;zones:DiagramRectangle[];annotations?:DiagramRectangle[]};
   options:Option[]; correct?:string;
 }
 export type Question = ChoiceQuestion | RankQuestion | OrderQuestion | MatchQuestion | GraphQuestion | GridQuestion | SliderQuestion | ReflectionQuestion | AudioQuestion | HotspotQuestion;

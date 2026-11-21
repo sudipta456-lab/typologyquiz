@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-21",
+  "timezone": "America/Edmonton",
+  "recordedAtUtc": "2026-11-21T14:01:46.880396+00:00",
+  "status": "reviewed-tested-held-browser-qa",
+  "baselineCommit": "c78c486f0378731c24194989151490619014a8fe",
+  "sourceCommit": "786f4a591fbaad0b296ad148893ce39617f0eaf7",
+  "publishedCount": 0,
+  "unpublishedShortfall": 5,
+  "preparedInteractiveCount": 405,
+  "publishedInteractiveCountAtReconciliation": 400,
+  "preparedTaskCount": 3240,
+  "candidateSha256": "6835471140e17f11d4c405e3a7a998db98f181ed44298da347f7fc783a4cf24b",
+  "legacyQuizRawSpansPreserved": 400,
+  "legacyBriefRawSpansPreserved": 400,
+  "independentContentReview": "PASS — review3.log",
+  "independentCodeReview": "PASS — review4.log; annotations implementation accepted and exact new-field whitelist reconciled",
+  "fullVerify": {
+    "exitCode": 0,
+    "tests": 319,
+    "failures": 0,
+    "log": "work/daily-quizzes/2026-11-21/verify-isolated.log"
+  },
+  "productionDryRun": {
+    "exitCode": 0,
+    "sitemapUrls": 989,
+    "activeGaHtmlPages": 1725,
+    "regularStaticFiles": 17800,
+    "handbookBundled": false,
+    "workerFirstRoutingAndBindingsUnchanged": true,
+    "log": "work/daily-quizzes/2026-11-21/production-isolated-dry-run.log"
+  },
+  "browserQa": {
+    "desktop": "blocked",
+    "mobile": "unverified",
+    "error": "Computer Use server error -10005: cgWindowNotFound",
+    "ownerAvailabilityRequest": "already pending from held atlas work; no repeat request"
+  },
+  "deploymentVersion": null,
+  "liveNewUrlReceipts": [],
+  "productionAnalyticsDelivery": "not verified for these unpublished quizzes",
+  "quizzes": [
+    {
+      "id": "MT-36",
+      "title": "The Scarf That Vanished on Screen",
+      "slug": "the-scarf-that-vanished-on-screen",
+      "category": "movies-tv",
+      "kind": "knowledge",
+      "canonical": "https://typologyquiz.com/quizzes/the-scarf-that-vanished-on-screen/",
+      "builtHtml": "out/quizzes/the-scarf-that-vanished-on-screen/index.html",
+      "methodologyLink": true,
+      "sitemapIncluded": true,
+      "discoveryIncluded": true,
+      "published": false
+    },
+    {
+      "id": "LW-35",
+      "title": "A Tiny Language With No Dictionary",
+      "slug": "a-tiny-language-with-no-dictionary",
+      "category": "logic-wordplay",
+      "kind": "logic",
+      "canonical": "https://typologyquiz.com/quizzes/a-tiny-language-with-no-dictionary/",
+      "builtHtml": "out/quizzes/a-tiny-language-with-no-dictionary/index.html",
+      "methodologyLink": true,
+      "sitemapIncluded": true,
+      "discoveryIncluded": true,
+      "published": false
+    },
+    {
+      "id": "MU-36",
+      "title": "Same Note, Different Sound",
+      "slug": "same-note-different-sound",
+      "category": "music",
+      "kind": "knowledge",
+      "canonical": "https://typologyquiz.com/quizzes/same-note-different-sound/",
+      "builtHtml": "out/quizzes/same-note-different-sound/index.html",
+      "methodologyLink": true,
+      "sitemapIncluded": true,
+      "discoveryIncluded": true,
+      "published": false
+    },
+    {
+      "id": "GT-36",
+      "title": "Follow the Heat Beneath the Ocean",
+      "slug": "follow-the-heat-beneath-the-ocean",
+      "category": "geography-travel",
+      "kind": "knowledge",
+      "canonical": "https://typologyquiz.com/quizzes/follow-the-heat-beneath-the-ocean/",
+      "builtHtml": "out/quizzes/follow-the-heat-beneath-the-ocean/index.html",
+      "methodologyLink": true,
+      "sitemapIncluded": true,
+      "discoveryIncluded": true,
+      "published": false
+    },
+    {
+      "id": "SG-36",
+      "title": "The Balance Game",
+      "slug": "the-balance-game",
+      "category": "sports-games",
+      "kind": "knowledge",
+      "canonical": "https://typologyquiz.com/quizzes/the-balance-game/",
+      "builtHtml": "out/quizzes/the-balance-game/index.html",
+      "methodologyLink": true,
+      "sitemapIncluded": true,
+      "discoveryIncluded": true,
+      "published": false
+    }
+  ],
+  "preparedBranch": "codex/daily-quizzes-2026-11-21"
+}

@@ -391,7 +391,7 @@ test("no external media, embeds or media-bearing fields anywhere in the banks", 
     }
     for (const q of quiz.questions) {
       if (q.kind === "hotspot") {
-        assert.deepEqual(Object.keys(q.diagram).sort(), q.diagram.image ? ["description", "image", "title", "zones"] : ["description", "title", "zones"], `${quiz.id}/${q.id}`);
+        assert.deepEqual(Object.keys(q.diagram).sort(), ["description", "title", "zones", ...(q.diagram.image ? ["image"] : []), ...(q.diagram.annotations ? ["annotations"] : [])].sort(), `${quiz.id}/${q.id}`);
         if (q.diagram.image) assert.deepEqual(Object.keys(q.diagram.image).sort(), ["alt", "credit", "height", "license", "sourceUrl", "src", "width"], `${quiz.id}/${q.id} image`);
       }
       if (q.kind === "audio") for (const tone of q.tones) assert.ok(Object.keys(tone).every((key) => ["frequency", "duration", "delay", "waveform", "gain"].includes(key)), `${quiz.id}/${q.id}`);

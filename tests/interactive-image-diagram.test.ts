@@ -115,6 +115,16 @@ test("image metadata requires meaningful alt, credit, license, safe references, 
   }
 });
 
+test("image metadata rejects extreme aspect ratios while accepting bounded natural proportions", () => {
+  expectInvalidImage((image) => { image.width = 4096; image.height = 100; }, "aspect ratio");
+  expectInvalidImage((image) => { image.width = 100; image.height = 4096; }, "aspect ratio");
+  const quiz = makeQuiz(true);
+  const image = imageRecord(quiz);
+  image.width = 200;
+  image.height = 400;
+  assert.deepEqual(validateQuiz(quiz), []);
+});
+
 test("a present malformed image object is rejected, including unknown properties", () => {
   expectInvalidImage((image) => { image.remote = "https://example.org/image.jpg"; }, "unknown property");
   const quiz = makeQuiz();
