@@ -4,7 +4,7 @@
   "recordedAtUtc": "2026-11-21T14:01:46.880396+00:00",
   "status": "reviewed-tested-held-browser-qa",
   "baselineCommit": "c78c486f0378731c24194989151490619014a8fe",
-  "sourceCommit": null,
+  "sourceCommit": "786f4a591fbaad0b296ad148893ce39617f0eaf7",
   "publishedCount": 0,
   "unpublishedShortfall": 5,
   "preparedInteractiveCount": 405,
@@ -105,5 +105,6 @@
       "discoveryIncluded": true,
       "published": false
     }
-  ]
+  ],
+  "preparedBranch": "codex/daily-quizzes-2026-11-21"
 }
