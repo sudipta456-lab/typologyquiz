@@ -1,0 +1,349 @@
+{
+  "status": "published-http-verified-postdeploy-browser-ga-event-pending",
+  "date": "2026-11-21",
+  "sourceCommit": "4ac2369cfbe348f4fbd46b72e5259fcc31ee2a38",
+  "pushedRefs": [
+    "origin/master",
+    "origin/codex/learning-release-2026-11-21"
+  ],
+  "deployment": {
+    "command": "npm run deploy",
+    "gaEnabled": true,
+    "workerFirstUnchanged": true,
+    "handbookStrippedToR2": true,
+    "version": "98628c31-92ee-472e-876f-44d472c6918e",
+    "deploymentId": "b0bea87f-f799-40b0-8928-491ee58fea4d",
+    "percentage": 100,
+    "createdAt": "2026-11-21T17:28:59.221308Z"
+  },
+  "collection": {
+    "quizzes": 413,
+    "tasks": 3304,
+    "preservedOldQuizObjects": 400,
+    "preservedOldBriefs": 400,
+    "newFeatureQuizIds": [
+      "SN-78",
+      "SN-79",
+      "SN-80",
+      "SN-81",
+      "SN-82",
+      "SN-83",
+      "SN-84",
+      "SN-85"
+    ],
+    "dailyQuizIds": [
+      "MT-36",
+      "MU-36",
+      "GT-36",
+      "SG-36",
+      "LW-35"
+    ],
+    "dailyPublished": 5,
+    "dailyShortfall": 0,
+    "nextBatchDate": "2026-11-22",
+    "groupCatalogEntries": 78,
+    "groupCatalogUnchanged": true,
+    "workerBindingsAndRoutingUnchanged": true
+  },
+  "learningHubs": {
+    "periodicTable": {
+      "url": "/learn/periodic-table/",
+      "elements": 118,
+      "practiceTracks": 3,
+      "practiceSteps": 24,
+      "canonicalQuizzes": 0
+    },
+    "anatomy": {
+      "url": "/learn/anatomy/",
+      "plates": 8,
+      "glbModels": 17,
+      "licensedBlausenPngReferences": 4,
+      "canonicalQuizzes": 0
+    }
+  },
+  "verification": {
+    "fullVerifyTests": 340,
+    "fullVerifyFailures": 0,
+    "sitemapUrls": 999,
+    "gaCoveredHtmlPages": 1735,
+    "regularStaticFiles": 17929,
+    "newRoutesHttp200": 15,
+    "newRoutesMatchExport": true,
+    "quizRoutesWithEightJsonLdTasksAndMethodology": 13,
+    "newRoutesInSitemap": 15,
+    "newRoutesInDiscovery": 15,
+    "liveHttpChecks": 25,
+    "representativeAssetReceipts": 4,
+    "immutableR2PngSampleHttp200": true,
+    "compiledGaLoaderHttp200": true,
+    "staticGaCoverage": "passed",
+    "productionBrowserGaEvent": "not verified; Chrome CGWindowNotFound after pre-deploy QA"
+  },
+  "qaLimits": {
+    "predeployNativeQa": "Selected desktop/mobile checks passed, including top-level iPhone SE 375x667 WebGL heart interaction; all 13 gold paths passed.",
+    "fullNativePlaythroughs": "One heart quiz was played through; not all 13 quizzes received full native playthroughs.",
+    "postdeployUi": "Not claimed as passed.",
+    "iframeWebglHarness": "Blank; top-level mobile WebGL passed independently.",
+    "externalPosts": 0
+  },
+  "contentLimits": [
+    "Educational anatomy content is source-based, not medical certification.",
+    "Image-identification and nonvisual-assessment limitations are disclosed.",
+    "Male anatomy coverage is partial."
+  ],
+  "receipts": {
+    "build": "work/combined-release/2026-11-21/build-receipt.json",
+    "live": "work/combined-release/2026-11-21/live-verification.json",
+    "preservation": "work/combined-release/2026-11-21/preservation.json",
+    "deployments": "work/combined-release/2026-11-21/deployments.json"
+  },
+  "liveVerifiedAt": "2026-11-21T17:29:44.280230+00:00",
+  "verifiedExportSha256": "0a3570bf9e2c92d9ef5370ca13971146b357d69d8e2db0b84f8e57ca487ee48a",
+  "liveHttpReceipts": [
+    {
+      "url": "https://typologyquiz.com/learn/periodic-table/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "0dcece9d13596c70c1003c7b8325123c0769d629684a50c2f242436b76cea303"
+    },
+    {
+      "url": "https://typologyquiz.com/learn/anatomy/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "5096d86cc29dbf8b6aaabb40fa328c2a2e52dc43b450acd4abd71365ca387a6a"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/body-regions-and-directions/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "b917efbdefa5b9df4a6128a62c4be0a7ad6e27e70a6a1606c707fb940619a96b"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/heart-chambers-and-blood-route/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "cb7b58e75939414b0c4c2942b5b7228b6b74033fd61067f7d624cf56aeb14f95"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/brain-regions-and-what-they-contribute/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "a2788802dc6e71ea2ba4ee71f6d5673365fced7e3e3581325256d5842764d93e"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/airways-to-alveoli-gas-exchange/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "65caab73ac5ddf6aa98898879fabe5e861a5f2b91c185671cb5c78c2ad6a5a55"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/a-meals-route-inside-the-digestive-system/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "d0db216f760e20c6366abb0f39786c3603e8439034a6f2fef0edab4906b9318b"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/kidneys-at-work-blood-in-urine-out/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "cf306e76cd2f3fe528ed2462d2cad8eca17196eb561a310d28ce04af2fbcf9be"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/female-reproductive-anatomy-structures-and-pathways/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "b001596241493b950b2d8f710ecda6e3874aff8e3fe7dc41077d8ba22eab3a92"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/male-reproductive-anatomy-ducts-and-glands/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "637f8e09555f0291c31c8b169dcf4113f9efe90a94ac248bc2396234b3f3a3bb"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/the-scarf-that-vanished-on-screen/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "8e2f5ae372660c2412269faba30dea38131fa56a734124ac73949aa7f337e327"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/same-note-different-sound/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "0cabe5f912cd1d16cb31f9c66533e7f5ebb4ce04bda27d5eb141ff523b661486"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/follow-the-heat-beneath-the-ocean/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "14823db806b3050a23936f3aae021bd7d27c49a19c705c5db4d041b7115a0925"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/the-balance-game/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "a210afbf03765872f32701a82436aa67b8a9a4caa4173191a7fba18a450f8f74"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/a-tiny-language-with-no-dictionary/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "975e866932f63aeb9723c588d4487766bb1a3d3891e57dbc98614d357d6916b5"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "78d426b48e55c8a258607d0e71273f741a8317fb101dbe72d97aa968a685ffd0"
+    },
+    {
+      "url": "https://typologyquiz.com/methodology/interactive-quizzes/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "7b78b61a22e4554c7ea5319175b0a719976ba81631348088c170676032a1de99"
+    },
+    {
+      "url": "https://typologyquiz.com/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "d648cba7b1396667943e96b0b44217017123fa83a0a39c31dcdf8aaec5bb62fd"
+    },
+    {
+      "url": "https://typologyquiz.com/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "64b5343689149cba2ae8c71d3d028b6bfe4c96c1fa0eba7729bb51d55b262c01"
+    },
+    {
+      "url": "https://typologyquiz.com/llms.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "d42ff6d0fc3e31407723424d8ee8ddb3cebe0307d54cf68d37b6691c76149ac8"
+    },
+    {
+      "url": "https://typologyquiz.com/robots.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "c0862603357d4a5d7369d039061bc839b7387ba8af64430260be215e1fc43760"
+    },
+    {
+      "url": "https://typologyquiz.com/quizzes/unplanned-saturday/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "6c4732a625f632807af3e1e76193b03369053c39cfe695630e35fefdcc4e6231"
+    },
+    {
+      "url": "https://typologyquiz.com/tests/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "87b558fa340d52ba10075c283dee855f07ac4fff84e2ed9c483bc595030b4d18"
+    },
+    {
+      "url": "https://typologyquiz.com/driving/alberta/set-1/take/",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": true,
+      "sha256": "e2555d0d1b213fbfbb77978e55cdeced8c3e381032f184912ea22c4ee23a5ebc"
+    },
+    {
+      "url": "https://typologyquiz.com/_next/static/chunks/2sh6h5xb_dv45.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "matchesVerifiedExport": true,
+      "cloudflareAppendedBrowserCheck": false,
+      "sha256": "5ecf33238aa7a58678bcf9b84ac954927e0db879c94b5906b1998228e53f494d"
+    }
+  ],
+  "liveAssetReceipts": [
+    {
+      "url": "https://typologyquiz.com/anatomy/models/body4Mesh_1338.glb",
+      "kind": "hra-glb",
+      "status": 200,
+      "bytes": 209464,
+      "sha256": "795c2b438795390941e30ca7d73cc13583aaecea4450b030c2994bbc55441e33",
+      "matchesVerifiedExport": true
+    },
+    {
+      "url": "https://typologyquiz.com/anatomy/body.webp",
+      "kind": "atlas-image",
+      "status": 200,
+      "bytes": 30908,
+      "sha256": "32f87c62fb7ab494f74cf505411762fde185baa5277d31f5fca217685a0d2973",
+      "matchesVerifiedExport": true
+    },
+    {
+      "url": "https://typologyquiz.com/anatomy/blausen-heart-section.png",
+      "kind": "licensed-section-png",
+      "status": 200,
+      "bytes": 2331881,
+      "sha256": "cde569b04a093df1c9b16ed609bec517addf0c3d3e4e9ac27d31c5089ad40f28",
+      "matchesVerifiedExport": true
+    },
+    {
+      "url": "https://typologyquiz.com/anatomy/provenance.json",
+      "kind": "provenance-json",
+      "status": 200,
+      "bytes": 58605,
+      "sha256": "372a4aa3446b9b590b919800a2acf7eff5c3800edb0d2c1f15114c9e95b44329",
+      "matchesVerifiedExport": true
+    }
+  ],
+  "r2HandbookReceipt": {
+    "url": "https://typologyquiz.com/handbook/britishcolumbia/railway-stop-then-proceed.png",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/png",
+    "cacheControl": "public, max-age=31536000, immutable",
+    "pngMagic": true,
+    "immutable": true,
+    "bytes": 14379,
+    "sha256": "6d99012561c66d598944b3cc31731c79a9ac4e5d8e0d5cd4cf105b100257c98e"
+  }
+}
