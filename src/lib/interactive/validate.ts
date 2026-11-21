@@ -10,6 +10,7 @@ const ID_PATTERN = /^[a-z0-9][a-z0-9_-]{0,63}$/i;
 const SLUG_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const COLOR_PATTERN = /^#[0-9a-f]{3,8}$/i;
 const URL_PATTERN = /^https:\/\/[^\s/$.?#][^\s]*$/i;
+const ANATOMY_FILENAME_PATTERN = /^[a-z0-9][a-z0-9._-]{0,155}\.(webp|png|jpe?g|svg)$/i;
 
 /** Structural limits. Audio durations and delays are seconds; hotspot geometry is percent of the diagram. */
 export const LIMITS = {
@@ -95,6 +96,51 @@ function checkKeyedChoice(q: Rec, path: string, errors: string[], optionsKey: st
   }
 }
 
+function isSafeHttpsReference(value: unknown): value is string {
+  if (typeof value !== "string" || value.length > 2000 || !URL_PATTERN.test(value)) return false;
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" && url.username === "" && url.password === "" &&
+      url.hostname.includes(".") && url.hostname !== "localhost" && !/^([0-9]+\.){3}[0-9]+$/.test(url.hostname);
+  } catch {
+    return false;
+  }
+}
+
+function isSafeAnatomyImagePath(value: unknown): value is string {
+  if (typeof value !== "string" || value.length > 180 || !value.startsWith("/anatomy/") || /[\\?#]/.test(value) || value.includes("//")) return false;
+  const encodedFilename = value.slice("/anatomy/".length);
+  if (!encodedFilename || encodedFilename.includes("/")) return false;
+  try {
+    const filename = decodeURIComponent(encodedFilename);
+    return !filename.includes("..") && ANATOMY_FILENAME_PATTERN.test(filename);
+  } catch {
+    return false;
+  }
+}
+
+function checkHotspotImage(value: unknown, path: string, errors: string[]): void {
+  if (!isRec(value)) {
+    errors.push(`${path}: must be an image metadata object`);
+    return;
+  }
+  const allowed = new Set(["src", "alt", "width", "height", "credit", "sourceUrl", "license"]);
+  for (const key of Object.keys(value)) if (!allowed.has(key)) errors.push(`${path}: unknown property "${key}"`);
+  for (const key of allowed) if (!Object.prototype.hasOwnProperty.call(value, key)) errors.push(`${path}.${key}: required`);
+  if (!isSafeAnatomyImagePath(own(value, "src"))) errors.push(`${path}.src: must be a safe local /anatomy/ image path`);
+  const alt = own(value, "alt");
+  if (typeof alt !== "string" || alt.trim().length < 5 || alt.length > 500) errors.push(`${path}.alt: needs 5-500 characters`);
+  const credit = own(value, "credit");
+  if (typeof credit !== "string" || credit.trim().length < 2 || credit.length > 300) errors.push(`${path}.credit: needs 2-300 characters`);
+  const license = own(value, "license");
+  if (!isSafeHttpsReference(license)) errors.push(`${path}.license: must be a safe https license URL`);
+  if (!isSafeHttpsReference(own(value, "sourceUrl"))) errors.push(`${path}.sourceUrl: must be a safe https URL`);
+  for (const key of ["width", "height"]) {
+    const dimension = own(value, key);
+    if (!within(dimension, [100, 4096]) || !Number.isInteger(dimension)) errors.push(`${path}.${key}: must be an integer from 100 to 4096`);
+  }
+}
+
 function checkQuestion(q: Rec, path: string, errors: string[], sectionIds: Set<string>, sourceIds: Set<string>): { usesWeights: boolean; dimension?: unknown } {
   const result: { usesWeights: boolean; dimension?: unknown } = { usesWeights: false };
   if (!isText(own(q, "prompt"))) errors.push(`${path}: prompt required`);
@@ -148,6 +194,7 @@ function checkQuestion(q: Rec, path: string, errors: string[], sectionIds: Set<s
       const diagram = own(q, "diagram");
       if (!isRec(diagram)) { errors.push(`${path}.diagram: required`); break; }
       if (!isText(own(diagram, "title")) || !isText(own(diagram, "description"))) errors.push(`${path}.diagram: title and description required`);
+      if (Object.prototype.hasOwnProperty.call(diagram, "image")) checkHotspotImage(own(diagram, "image"), `${path}.diagram.image`, errors);
       const zones = own(diagram, "zones");
       if (!count(zones, LIMITS.zones)) { errors.push(`${path}.diagram.zones: needs ${LIMITS.zones[0]}-${LIMITS.zones[1]} zones`); break; }
       const seen = new Set<string>();

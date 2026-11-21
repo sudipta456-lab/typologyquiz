@@ -23,8 +23,17 @@ export interface SliderQuestion extends BaseQuestion { kind: "slider"; lowLabel:
 export interface ReflectionQuestion extends BaseQuestion { kind: "reflection"; hint: string }
 export interface Tone { frequency: number; duration: number; delay: number; waveform?: "sine" | "triangle" | "square"; gain?: number }
 export interface AudioQuestion extends BaseQuestion { kind:"audio"; tones:Tone[]; transcript:string; options:Option[]; correct?:string }
+export interface HotspotImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  credit: string;
+  sourceUrl: string;
+  license: string;
+}
 export interface HotspotQuestion extends BaseQuestion {
-  kind:"hotspot"; diagram:{title:string;description:string;zones:{id:string;label:string;x:number;y:number;width:number;height:number;color?:string}[]};
+  kind:"hotspot"; diagram:{title:string;description:string;image?:HotspotImage;zones:{id:string;label:string;x:number;y:number;width:number;height:number;color?:string}[]};
   options:Option[]; correct?:string;
 }
 export type Question = ChoiceQuestion | RankQuestion | OrderQuestion | MatchQuestion | GraphQuestion | GridQuestion | SliderQuestion | ReflectionQuestion | AudioQuestion | HotspotQuestion;

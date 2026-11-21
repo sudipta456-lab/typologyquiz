@@ -166,6 +166,22 @@ export default function TriviaHubPage() {
               >
                 {group.label}
               </h2>
+              {group.label === "Science" && (
+                <aside className="quiz-card" aria-label="Periodic table learning reference" style={{ display: "block", marginBottom: 16, borderLeft: "4px solid var(--accent)" }}>
+                  <p className="eyebrow" style={{ marginBottom: 6 }}>Learn with the table</p>
+                  <h3 className="quiz-card-title" style={{ marginBottom: 6 }}>Explore all 118 elements</h3>
+                  <p className="quiz-card-desc">Search and compare all 118 elements, then use the table during 24 open-book practice steps across three tracks. The guide is a self-paced companion to the timed name-recall rounds below.</p>
+                  <Link href="/learn/periodic-table/" className="btn-primary" style={{ marginTop: 14 }}>Open periodic table learning</Link>
+                </aside>
+              )}
+              {group.label === "Science" && (
+                <aside className="quiz-card" aria-label="Anatomy Atlas learning reference" style={{ display: "block", marginBottom: 16, borderLeft: "4px solid var(--accent)" }}>
+                  <p className="eyebrow" style={{ marginBottom: 6 }}>Visual learning guide</p>
+                  <h3 className="quiz-card-title" style={{ marginBottom: 6 }}>Explore the Anatomy Atlas</h3>
+                  <p className="quiz-card-desc">Study source-attributed anatomy references, select marked regions, and load local 3D models when available.</p>
+                  <Link href="/learn/anatomy/" className="btn-primary" style={{ marginTop: 14 }}>Open Anatomy Atlas</Link>
+                </aside>
+              )}
               <div
                 className="card-grid"
                 style={{

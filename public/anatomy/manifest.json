@@ -1,0 +1,1471 @@
+{
+  "schemaVersion": 1,
+  "created": "2026-11-21",
+  "repository": {
+    "name": "Human Reference Atlas CCF 3D Reference Object Library",
+    "owner": "HuBMAP Consortium",
+    "url": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library",
+    "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+    "revisionUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+    "readmeUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/README.md",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseText": "/anatomy/LICENSE-HRA-CC-BY-4.0.txt",
+    "attribution": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, [source model filename], CC BY 4.0.",
+    "noEndorsement": true
+  },
+  "renderPipeline": {
+    "software": "Blender 5.3.0 macOS arm64, downloaded from official download.blender.org release directory",
+    "softwareSha256": "2d802b54766741e612cead50b03ebbc8eb64dadc71eda932573d256b8a784720",
+    "renderer": "Cycles CPU",
+    "samples": 40,
+    "dimensions": {
+      "width": 1200,
+      "height": 900
+    },
+    "projection": "orthographic",
+    "imageFormat": "WebP",
+    "geometryEdits": "None. Original mesh positions, transforms, labels, and geometry are retained in rendered scenes; no invented geometry, decimation, clipping, or section caps.",
+    "displayEdits": "Source display materials were replaced with an atlas palette; smooth shading, studio lights, camera framing, typography, and callout leaders were added for the rendered images.",
+    "orientationPolicy": "The pinned GLBs provide anatomical node names and source spatial-entity metadata but do not specify a verified camera-side convention. Views are described as oblique; no anterior/posterior or anatomical left/right markers are shown.",
+    "badgeCenters": "left x=144, right x=1056; y=318 or 640 sorted by source anchor y within each side"
+  },
+  "models": [
+    {
+      "file": "body4Mesh_1338.glb",
+      "modelVersion": "repository Assets model; no v1.2 folder version",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/Assets/body4Mesh_1338.glb",
+      "localUrl": "/anatomy/models/body4Mesh_1338.glb",
+      "bytes": 209464,
+      "sha256": "795c2b438795390941e30ca7d73cc13583aaecea4450b030c2994bbc55441e33",
+      "copy": "byte-identical",
+      "coordinateFrame": null,
+      "nodes": [
+        "body4Mesh_1338:Group65"
+      ]
+    },
+    {
+      "file": "VH_M_Heart.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Heart.glb",
+      "localUrl": "/anatomy/models/VH_M_Heart.glb",
+      "bytes": 4071500,
+      "sha256": "b1237e7e765178e9357fd2ea7ccf19d55d0bf9ca55e187886635febe28244c70",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 18,
+      "meshes": 14
+    },
+    {
+      "file": "Allen_M_Brain.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/Allen_M_Brain.glb",
+      "localUrl": "/anatomy/models/Allen_M_Brain.glb",
+      "bytes": 11977312,
+      "sha256": "2b9ad5b53e40e9f0936da74f7be38d2eed15604e26358c3870a0ea13499b9a35",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 286,
+      "meshes": 283,
+      "loading": "Lazy-load only when the brain asset is opened; single source file exceeds the 8 MB per-model target but is below 20 MB."
+    },
+    {
+      "file": "VH_M_Lung.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Lung.glb",
+      "localUrl": "/anatomy/models/VH_M_Lung.glb",
+      "bytes": 6355840,
+      "sha256": "e64351b72b0bc5289a4dc32ba2b402b9c974f9ec0b1972bf06b436864f917913",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 87,
+      "meshes": 67
+    },
+    {
+      "file": "VH_M_Kidney_L.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Kidney_L.glb",
+      "localUrl": "/anatomy/models/VH_M_Kidney_L.glb",
+      "bytes": 1536532,
+      "sha256": "733eef9ec169796196470e538dc248c4397bce0ff7ed679f7b7eb0bb9f185612",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 27,
+      "meshes": 22
+    },
+    {
+      "file": "VH_M_Kidney_R.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Kidney_R.glb",
+      "localUrl": "/anatomy/models/VH_M_Kidney_R.glb",
+      "bytes": 1546868,
+      "sha256": "ff9821e0b8fb7fa6174a07b9cafb9f98bb25feca34ddc0e802beeefb24cd3779",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 29,
+      "meshes": 24
+    },
+    {
+      "file": "VH_M_Liver.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Liver.glb",
+      "localUrl": "/anatomy/models/VH_M_Liver.glb",
+      "bytes": 1135892,
+      "sha256": "e94f18646d1b8f72cc45b92bdd67bbb4eb71d5bf954888bc8b8f8b52b3940b6a",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 33,
+      "meshes": 26
+    },
+    {
+      "file": "VH_M_Small_Intestine.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Small_Intestine.glb",
+      "localUrl": "/anatomy/models/VH_M_Small_Intestine.glb",
+      "bytes": 618560,
+      "sha256": "e9d05a22c0132d375f8c242ad491ea68365681904cb391e648187de5247b4570",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 12,
+      "meshes": 10
+    },
+    {
+      "file": "SBU_M_Intestine_Large.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/SBU_M_Intestine_Large.glb",
+      "localUrl": "/anatomy/models/SBU_M_Intestine_Large.glb",
+      "bytes": 686888,
+      "sha256": "84a66fb4e2dd07dffc284435da896284c3bddc5b6eb6f8e2f8c1b9130387b66b",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 11,
+      "meshes": 10
+    },
+    {
+      "file": "VH_F_Uterus.glb",
+      "modelVersion": "female v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Uterus.glb",
+      "localUrl": "/anatomy/models/VH_F_Uterus.glb",
+      "bytes": 909772,
+      "sha256": "a484956788ecc2ab05ca7720d9b33d265677e238f144cc28481aad2f7a0c9a95",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHFemaleOrgans",
+      "nodes": 11,
+      "meshes": 10
+    },
+    {
+      "file": "VH_F_Ovary_L.glb",
+      "modelVersion": "female v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Ovary_L.glb",
+      "localUrl": "/anatomy/models/VH_F_Ovary_L.glb",
+      "bytes": 8984,
+      "sha256": "ed91414a667dec5e4e14aeaa2f8641731f06725dbc914bc0da3dd8b5d77f5062",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHFemaleOrgans",
+      "nodes": 1,
+      "meshes": 1
+    },
+    {
+      "file": "VH_F_Ovary_R.glb",
+      "modelVersion": "female v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Ovary_R.glb",
+      "localUrl": "/anatomy/models/VH_F_Ovary_R.glb",
+      "bytes": 8744,
+      "sha256": "99cc2b91602feacaee08ec1771b993fc0f8b0e32a08bdd7fd6b990a6736aa53b",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHFemaleOrgans",
+      "nodes": 1,
+      "meshes": 1
+    },
+    {
+      "file": "VH_F_Fallopian_Tube_L.glb",
+      "modelVersion": "female v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Fallopian_Tube_L.glb",
+      "localUrl": "/anatomy/models/VH_F_Fallopian_Tube_L.glb",
+      "bytes": 336676,
+      "sha256": "5025453048a83c26393b866bc69859a255b4c38816f34ed3a196bfe7d4f33dd1",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHFemaleOrgans",
+      "nodes": 5,
+      "meshes": 4
+    },
+    {
+      "file": "VH_F_Fallopian_Tube_R.glb",
+      "modelVersion": "female v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Fallopian_Tube_R.glb",
+      "localUrl": "/anatomy/models/VH_F_Fallopian_Tube_R.glb",
+      "bytes": 327448,
+      "sha256": "17aef41a430e068705dc21ac8ccf746a74f14f47ffc1a31908198b0b026849df",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHFemaleOrgans",
+      "nodes": 5,
+      "meshes": 4
+    },
+    {
+      "file": "VH_F_Vagina.glb",
+      "modelVersion": "female v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Vagina.glb",
+      "localUrl": "/anatomy/models/VH_F_Vagina.glb",
+      "bytes": 231392,
+      "sha256": "ef334a9315ce0dd7e112bd757d22dce4bf57722c7fd0cac81a05d86209bfce34",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHFemaleOrgans",
+      "nodes": 2,
+      "meshes": 2
+    },
+    {
+      "file": "VH_M_Prostate.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Prostate.glb",
+      "localUrl": "/anatomy/models/VH_M_Prostate.glb",
+      "bytes": 4086328,
+      "sha256": "ec1023e0a1b81f71865872bb720404abc7bb6378a54ac71fa9f24579b097f48a",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 27,
+      "meshes": 18
+    },
+    {
+      "file": "VH_M_Urethra.glb",
+      "modelVersion": "male v1.2",
+      "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Urethra.glb",
+      "localUrl": "/anatomy/models/VH_M_Urethra.glb",
+      "bytes": 176688,
+      "sha256": "5cd26495cb6c674e04393ea3ed467c0ab29af870a591623f822b7e0adde4d62d",
+      "copy": "byte-identical",
+      "coordinateFrame": "#VHMaleOrgans",
+      "nodes": 3,
+      "meshes": 2
+    }
+  ],
+  "images": [
+    {
+      "assetId": "body",
+      "file": "body.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 30908,
+      "sha256": "32f87c62fb7ab494f74cf505411762fde185baa5277d31f5fca217685a0d2973",
+      "renderSource": [
+        "body4Mesh_1338.glb"
+      ],
+      "imageModifications": [
+        "new orthographic oblique camera",
+        "studio lighting",
+        "display palette",
+        "four letter callouts and leaders",
+        "atlas typography"
+      ],
+      "viewVerifiedAs": "oblique body-outline surface view; no anterior/posterior or laterality marker"
+    },
+    {
+      "assetId": "heart",
+      "file": "heart.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 38830,
+      "sha256": "57366c5cb5dceb0b49fc3499aa876c58fc0263683578bc88732079b1849225f6",
+      "renderSource": [
+        "VH_M_Heart.glb"
+      ],
+      "imageModifications": [
+        "new orthographic oblique camera",
+        "studio lighting",
+        "display palette",
+        "four letter callouts and leaders",
+        "atlas typography"
+      ],
+      "viewVerifiedAs": "oblique segmented exterior surface; no section plane"
+    },
+    {
+      "assetId": "brain",
+      "file": "brain.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 58548,
+      "sha256": "3fdcdec4822f9aceb216435de2bf4ab589e5575edc6d4064c0c5d1253639b279",
+      "renderSource": [
+        "Allen_M_Brain.glb"
+      ],
+      "imageModifications": [
+        "new orthographic oblique camera",
+        "display colors grouped by source mesh names",
+        "four letter callouts and leaders",
+        "atlas typography"
+      ],
+      "viewVerifiedAs": "exterior surface view; no internal section"
+    },
+    {
+      "assetId": "respiratory",
+      "file": "respiratory.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 33878,
+      "sha256": "398dc021884e30a3d80d725a2009055be6eb7a3afd4a1ddcb82836e0057bb6a1",
+      "renderSource": [
+        "VH_M_Lung.glb"
+      ],
+      "imageModifications": [
+        "new orthographic oblique camera",
+        "display palette",
+        "four letter callouts and leaders",
+        "atlas typography"
+      ],
+      "viewVerifiedAs": "oblique segmented surface view; no section plane or laterality key"
+    },
+    {
+      "assetId": "digestive",
+      "file": "digestive.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 35594,
+      "sha256": "06aa8d0775232a10bcafeb18157e1550cef84dc29778da2c5a69d066c38227bc",
+      "renderSource": [
+        "VH_M_Liver.glb",
+        "VH_M_Small_Intestine.glb",
+        "SBU_M_Intestine_Large.glb"
+      ],
+      "imageModifications": [
+        "new orthographic oblique camera",
+        "display palette",
+        "four letter callouts and leaders",
+        "atlas typography"
+      ],
+      "viewVerifiedAs": "selected source surfaces in shared #VHMaleOrgans coordinates"
+    },
+    {
+      "assetId": "urinary",
+      "file": "urinary.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 34724,
+      "sha256": "03c23940f1600f1a03b05a7640a116cca0f659ee5a65da25fa69bad86c137488",
+      "renderSource": [
+        "VH_M_Kidney_L.glb",
+        "VH_M_Kidney_R.glb"
+      ],
+      "imageModifications": [
+        "new orthographic oblique camera",
+        "display palette",
+        "four letter callouts and leaders",
+        "atlas typography"
+      ],
+      "viewVerifiedAs": "paired kidney surfaces in shared #VHMaleOrgans coordinates; no side key"
+    },
+    {
+      "assetId": "reproductive-female",
+      "file": "reproductive-female.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 34418,
+      "sha256": "a2eacc9995ef5062f9aecdbb1ce5d3709319edf33bd6410b4ff8dae6e41f9516",
+      "renderSource": [
+        "VH_F_Uterus.glb",
+        "VH_F_Ovary_L.glb",
+        "VH_F_Ovary_R.glb",
+        "VH_F_Fallopian_Tube_L.glb",
+        "VH_F_Fallopian_Tube_R.glb",
+        "VH_F_Vagina.glb"
+      ],
+      "imageModifications": [
+        "new orthographic oblique camera",
+        "display palette",
+        "four letter callouts and leaders",
+        "atlas typography"
+      ],
+      "viewVerifiedAs": "selected source surfaces in shared #VHFemaleOrgans coordinates; no side key"
+    },
+    {
+      "assetId": "reproductive-male",
+      "file": "reproductive-male.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 42482,
+      "sha256": "6b9b92f0361b6e6b965b53739c76f7837ecab9d4893940c809ac9b0e7c6c4814",
+      "renderSource": [
+        "VH_M_Prostate.glb",
+        "VH_M_Urethra.glb"
+      ],
+      "imageModifications": [
+        "new orthographic oblique camera",
+        "display palette",
+        "four letter callouts and leaders",
+        "atlas typography",
+        "source-coverage panel"
+      ],
+      "viewVerifiedAs": "partial male-organ surface selection; testes and penis are explicitly identified as absent from selected HRA meshes"
+    }
+  ],
+  "targetCoordinateConvention": {
+    "imageOrigin": "top-left",
+    "assetFields": "parts.x/y and centerPercent are rendered badge centers; sourceAnchorPercent and worldPoint preserve the distinct source surface target.",
+    "hotspotSizePercent": {
+      "width": 6,
+      "height": 6
+    },
+    "overlapCheck": "At 240 × 180, all four 44 px minimum clickable targets stay within bounds and badges occupy separate slots."
+  },
+  "spatialReview": {
+    "bodyOutline": {
+      "sourceEntityExtra": null,
+      "bounds": {
+        "min": [
+          -0.016453,
+          -0.01049,
+          -0.02562
+        ],
+        "max": [
+          0.016453,
+          0.003006,
+          0.026343
+        ]
+      },
+      "decision": "Rendered independently; not aligned or composited with any organ GLB."
+    },
+    "maleOrganModels": {
+      "sourceSpatialEntity": "#VHMaleOrgans",
+      "rootTransforms": "Identity for selected individual files; shared coordinates retained."
+    },
+    "femaleOrganModels": {
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "rootTransforms": "Identity for selected individual files; shared coordinates retained."
+    },
+    "cameraOrientation": "No reliable anterior/posterior or camera-side metadata was found in the selected GLBs. No source was mirrored and no anatomical side key is included."
+  },
+  "partMappings": {
+    "body": [
+      {
+        "id": "a",
+        "surfaceNode": "body4Mesh_1338:Group65",
+        "reviewedSurfaceRegion": "head and neck outline; no ontology label is embedded",
+        "centerPercent": [
+          12,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          49.727,
+          23.863
+        ],
+        "worldPoint": [
+          2.7e-06,
+          -0.0048978,
+          0.021177
+        ],
+        "candidateNodes": [
+          "body4Mesh_1338:Group65"
+        ],
+        "badgeCenterPercent": [
+          12,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "b",
+        "surfaceNode": "body4Mesh_1338:Group65",
+        "reviewedSurfaceRegion": "upper torso outline; no ontology label is embedded",
+        "centerPercent": [
+          88,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          52.695,
+          35.297
+        ],
+        "worldPoint": [
+          0.0030699,
+          -0.0047051,
+          0.0123251
+        ],
+        "candidateNodes": [
+          "body4Mesh_1338:Group65"
+        ],
+        "badgeCenterPercent": [
+          88,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "c",
+        "surfaceNode": "body4Mesh_1338:Group65",
+        "reviewedSurfaceRegion": "central torso outline; no ontology label is embedded",
+        "centerPercent": [
+          12,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          51.71,
+          42.201
+        ],
+        "worldPoint": [
+          0.0018535,
+          -0.0039736,
+          0.006655
+        ],
+        "candidateNodes": [
+          "body4Mesh_1338:Group65"
+        ],
+        "badgeCenterPercent": [
+          12,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "d",
+        "surfaceNode": "body4Mesh_1338:Group65",
+        "reviewedSurfaceRegion": "lower torso/pelvic outline; no ontology label is embedded",
+        "centerPercent": [
+          88,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          51.812,
+          49.02
+        ],
+        "worldPoint": [
+          0.0018594,
+          -0.0035718,
+          0.0012016
+        ],
+        "candidateNodes": [
+          "body4Mesh_1338:Group65"
+        ],
+        "badgeCenterPercent": [
+          88,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      }
+    ],
+    "heart": [
+      {
+        "id": "a",
+        "surfaceNode": "VH_M_left_cardiac_atrium",
+        "sourceLabel": "left cardiac atrium",
+        "ontologyId": "UBERON:0002079",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          56.084,
+          22.021
+        ],
+        "worldPoint": [
+          0.0298261,
+          -0.0316462,
+          0.5246821
+        ],
+        "candidateNodes": [
+          "VH_M_left_cardiac_atrium"
+        ],
+        "badgeCenterPercent": [
+          12,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "b",
+        "surfaceNode": "VH_M_right_cardiac_atrium",
+        "sourceLabel": "right cardiac atrium",
+        "ontologyId": "UBERON:0002078",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          37.528,
+          28.392
+        ],
+        "worldPoint": [
+          -0.0035099,
+          -0.050614,
+          0.513312
+        ],
+        "candidateNodes": [
+          "VH_M_right_cardiac_atrium"
+        ],
+        "badgeCenterPercent": [
+          88,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "c",
+        "surfaceNode": "VH_M_heart_left_ventricle",
+        "sourceLabel": "heart left ventricle",
+        "ontologyId": "UBERON:0002084",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          58.832,
+          76.441
+        ],
+        "worldPoint": [
+          0.0664417,
+          -0.082056,
+          0.4611832
+        ],
+        "candidateNodes": [
+          "VH_M_heart_left_ventricle"
+        ],
+        "badgeCenterPercent": [
+          12,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "d",
+        "surfaceNode": "VH_M_heart_right_ventricle",
+        "sourceLabel": "heart right ventricle",
+        "ontologyId": "UBERON:0002080",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          49.352,
+          70.604
+        ],
+        "worldPoint": [
+          0.0424465,
+          -0.080047,
+          0.4643878
+        ],
+        "candidateNodes": [
+          "VH_M_heart_right_ventricle"
+        ],
+        "badgeCenterPercent": [
+          88,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      }
+    ],
+    "brain": [
+      {
+        "id": "a",
+        "candidateNodes": [
+          "Allen_superior_frontal_gyrus_L",
+          "Allen_superior_frontal_gyrus_R"
+        ],
+        "visibleSurfaceNode": "Allen_superior_frontal_gyrus_R",
+        "sourceLabel": "superior frontal gyrus",
+        "ontologyId": "UBERON:0002661",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          33.743,
+          44.96
+        ],
+        "worldPoint": [
+          0.0349061,
+          -0.0670684,
+          0.8633564
+        ],
+        "surfaceNode": "Allen_superior_frontal_gyrus_R",
+        "badgeCenterPercent": [
+          12,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "b",
+        "candidateNodes": [
+          "Allen_superior_temporal_gyrus_L",
+          "Allen_superior_temporal_gyrus_R"
+        ],
+        "visibleSurfaceNode": "Allen_superior_temporal_gyrus_R",
+        "sourceLabel": "superior temporal gyrus",
+        "ontologyId": "UBERON:0002769",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          55.943,
+          59.596
+        ],
+        "worldPoint": [
+          0.0633135,
+          -0.0101895,
+          0.8303272
+        ],
+        "surfaceNode": "Allen_superior_temporal_gyrus_R",
+        "badgeCenterPercent": [
+          88,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "c",
+        "candidateNodes": [
+          "Allen_occipital_pole_L",
+          "Allen_occipital_pole_R"
+        ],
+        "visibleSurfaceNode": "Allen_occipital_pole_R",
+        "sourceLabel": "occipital pole",
+        "ontologyId": "UBERON:0002902",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          78.4,
+          56.193
+        ],
+        "worldPoint": [
+          0.0229794,
+          0.0802422,
+          0.8105919
+        ],
+        "surfaceNode": "Allen_occipital_pole_R",
+        "badgeCenterPercent": [
+          12,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "d",
+        "candidateNodes": [
+          "Allen_lateral_hemisphere_of_cerebellum_L",
+          "Allen_lateral_hemisphere_of_cerebellum_R"
+        ],
+        "visibleSurfaceNode": "Allen_lateral_hemisphere_of_cerebellum_R",
+        "sourceLabel": null,
+        "ontologyId": null,
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          71.111
+        ],
+        "mappingNote": "Source extras use '-' for label and ontology ID; mapping is by exact named mesh node.",
+        "sourceAnchorPercent": [
+          65.721,
+          75.19
+        ],
+        "worldPoint": [
+          0.0510979,
+          0.026639,
+          0.7848549
+        ],
+        "surfaceNode": "Allen_lateral_hemisphere_of_cerebellum_R",
+        "badgeCenterPercent": [
+          88,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      }
+    ],
+    "respiratory": [
+      {
+        "id": "a",
+        "surfaceNode": "VH_M_trachea",
+        "sourceLabel": null,
+        "ontologyId": null,
+        "sourceSpatialEntity": null,
+        "centerPercent": [
+          12,
+          35.333
+        ],
+        "mappingNote": "Source extras use '-'; exact mesh node name is retained.",
+        "sourceAnchorPercent": [
+          47.698,
+          37.752
+        ],
+        "worldPoint": [
+          0.0071756,
+          -0.0367334,
+          0.6173474
+        ],
+        "candidateNodes": [
+          "VH_M_trachea"
+        ],
+        "badgeCenterPercent": [
+          12,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "b",
+        "surfaceNode": "VH_M_carina",
+        "sourceLabel": "Carina of trachea",
+        "ontologyId": "FMA:7465",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          50.299,
+          49.535
+        ],
+        "worldPoint": [
+          0.0055266,
+          -0.0002263,
+          0.5445101
+        ],
+        "candidateNodes": [
+          "VH_M_carina"
+        ],
+        "badgeCenterPercent": [
+          88,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "c",
+        "surfaceNode": "VH_M_left_apical_bronchopulmonary_segment",
+        "sourceLabel": "Left apical bronchopulmonary segment",
+        "ontologyId": "FMA:7385",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          57.877,
+          47.589
+        ],
+        "worldPoint": [
+          0.0724901,
+          -0.0254148,
+          0.5769681
+        ],
+        "candidateNodes": [
+          "VH_M_left_apical_bronchopulmonary_segment"
+        ],
+        "badgeCenterPercent": [
+          12,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "d",
+        "surfaceNode": "VH_M_left_lateral_basal_bronchopulmonary_segment",
+        "sourceLabel": "left Lateral Basal Bronchopulmonary Segment",
+        "ontologyId": "FMA:7379",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          68.823,
+          75.091
+        ],
+        "worldPoint": [
+          0.1310842,
+          0.0081062,
+          0.4385061
+        ],
+        "candidateNodes": [
+          "VH_M_left_lateral_basal_bronchopulmonary_segment"
+        ],
+        "badgeCenterPercent": [
+          88,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      }
+    ],
+    "digestive": [
+      {
+        "id": "a",
+        "surfaceNode": "VH_M_liver_capsule",
+        "sourceLabel": "capsule of the liver",
+        "ontologyId": "UBERON:0016479",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          49.158,
+          29.172
+        ],
+        "worldPoint": [
+          0.0363941,
+          -0.0948661,
+          0.3982198
+        ],
+        "candidateNodes": [
+          "VH_M_liver_capsule"
+        ],
+        "badgeCenterPercent": [
+          12,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "b",
+        "surfaceNode": "VH_M_jejunum",
+        "sourceLabel": "jejunum",
+        "ontologyId": "UBERON:0002115",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          54.512,
+          45.225
+        ],
+        "worldPoint": [
+          0.0927647,
+          -0.0887472,
+          0.2824814
+        ],
+        "candidateNodes": [
+          "VH_M_jejunum"
+        ],
+        "badgeCenterPercent": [
+          88,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "c",
+        "surfaceNode": "VH_M_transverse_colon",
+        "sourceLabel": "transverse colon",
+        "ontologyId": "UBERON:0001157",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          55.147,
+          37.397
+        ],
+        "worldPoint": [
+          0.1056707,
+          -0.0986834,
+          0.3488796
+        ],
+        "candidateNodes": [
+          "VH_M_transverse_colon"
+        ],
+        "badgeCenterPercent": [
+          12,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "d",
+        "surfaceNode": "VH_M_rectum",
+        "sourceLabel": "rectum",
+        "ontologyId": "UBERON:0001052",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          53.405,
+          73.146
+        ],
+        "worldPoint": [
+          0.0020614,
+          0.0455054,
+          0.0048889
+        ],
+        "candidateNodes": [
+          "VH_M_rectum"
+        ],
+        "badgeCenterPercent": [
+          88,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ],
+        "mappingNote": "Independent review requested a clearly terminal endpoint. Anchor restricted to screen Y72–80%; scene raycast must hit the exact VH_M_rectum mesh. Badge position unchanged."
+      }
+    ],
+    "urinary": [
+      {
+        "id": "a",
+        "surfaceNode": "VH_M_kidney_capsule_L",
+        "sourceLabel": "kidney capsule",
+        "ontologyId": "UBERON:0002015",
+        "anatomicalStructureOf": "#VHMLeftKidney",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          69.24,
+          57.571
+        ],
+        "worldPoint": [
+          0.0683186,
+          -0.0122474,
+          0.283108
+        ],
+        "candidateNodes": [
+          "VH_M_kidney_capsule_L"
+        ],
+        "badgeCenterPercent": [
+          12,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "b",
+        "surfaceNode": "VH_M_kidney_capsule_R",
+        "sourceLabel": "kidney capsule",
+        "ontologyId": "UBERON:0002015",
+        "anatomicalStructureOf": "#VHMRightKidney",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          32.935,
+          35.843
+        ],
+        "worldPoint": [
+          -0.044426,
+          0.0083371,
+          0.3272052
+        ],
+        "candidateNodes": [
+          "VH_M_kidney_capsule_R"
+        ],
+        "badgeCenterPercent": [
+          88,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "c",
+        "surfaceNode": "VH_M_hilum_of_kidney_L",
+        "sourceLabel": "hilum of kidney",
+        "ontologyId": "UBERON:0008716",
+        "anatomicalStructureOf": "#VHMLeftKidney",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          68.655,
+          38.641
+        ],
+        "worldPoint": [
+          0.0637406,
+          0.0156994,
+          0.3213981
+        ],
+        "candidateNodes": [
+          "VH_M_hilum_of_kidney_L"
+        ],
+        "badgeCenterPercent": [
+          12,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "d",
+        "surfaceNode": "VH_M_hilum_of_kidney_R",
+        "sourceLabel": "hilum of kidney",
+        "ontologyId": "UBERON:0008716",
+        "anatomicalStructureOf": "#VHMRightKidney",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          27.846,
+          65.947
+        ],
+        "worldPoint": [
+          -0.0572531,
+          -0.0185157,
+          0.262432
+        ],
+        "candidateNodes": [
+          "VH_M_hilum_of_kidney_R"
+        ],
+        "badgeCenterPercent": [
+          88,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      }
+    ],
+    "reproductive-female": [
+      {
+        "id": "a",
+        "surfaceNode": "VH_F_fundus_of_uterus",
+        "sourceLabel": "Fundus of uterus",
+        "ontologyId": "FMA:17561",
+        "anatomicalStructureOf": "#VHFUterus",
+        "sourceSpatialEntity": "#VHFemaleOrgans",
+        "centerPercent": [
+          12,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          47.152,
+          42.321
+        ],
+        "worldPoint": [
+          -0.005777,
+          0.0301178,
+          0.0444369
+        ],
+        "candidateNodes": [
+          "VH_F_fundus_of_uterus"
+        ],
+        "badgeCenterPercent": [
+          12,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "b",
+        "surfaceNode": "VH_F_cervix",
+        "sourceLabel": "uterine cervix",
+        "ontologyId": "UBERON:0000002",
+        "anatomicalStructureOf": "#VHFUterus",
+        "sourceSpatialEntity": "#VHFemaleOrgans",
+        "centerPercent": [
+          88,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          54.217,
+          46.391
+        ],
+        "worldPoint": [
+          -0.0035422,
+          0.0652835,
+          0.0240924
+        ],
+        "candidateNodes": [
+          "VH_F_cervix"
+        ],
+        "badgeCenterPercent": [
+          88,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "c",
+        "candidateNodes": [
+          "VH_F_ampulla_of_uterine_tube_L",
+          "VH_F_ampulla_of_uterine_tube_R"
+        ],
+        "visibleSurfaceNode": "VH_F_ampulla_of_uterine_tube_L",
+        "sourceLabel": "Ampulla of left uterine tube",
+        "ontologyId": "FMA:18492",
+        "sourceSpatialEntity": "#VHFemaleOrgans",
+        "centerPercent": [
+          12,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          66.087,
+          36.366
+        ],
+        "worldPoint": [
+          0.0492762,
+          0.036057,
+          0.0657131
+        ],
+        "surfaceNode": "VH_F_ampulla_of_uterine_tube_L",
+        "badgeCenterPercent": [
+          12,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "d",
+        "surfaceNode": "VH_F_vagina",
+        "sourceLabel": "vagina",
+        "ontologyId": "UBERON:0000996",
+        "anatomicalStructureOf": "#VHFVagina",
+        "sourceSpatialEntity": "#VHFemaleOrgans",
+        "centerPercent": [
+          88,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          54.781,
+          58.603
+        ],
+        "worldPoint": [
+          -0.0009845,
+          0.0638098,
+          -0.0013945
+        ],
+        "candidateNodes": [
+          "VH_F_vagina"
+        ],
+        "badgeCenterPercent": [
+          88,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      }
+    ],
+    "reproductive-male": [
+      {
+        "id": "a",
+        "surfaceNode": "VH_M_vas_deferens_L",
+        "sourceLabel": "Left deferent duct",
+        "ontologyId": "FMA:19236",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          35.333
+        ],
+        "sourceAnchorPercent": [
+          36.245,
+          18.85
+        ],
+        "worldPoint": [
+          -0.0368858,
+          0.0038177,
+          0.0620649
+        ],
+        "candidateNodes": [
+          "VH_M_vas_deferens_L"
+        ],
+        "badgeCenterPercent": [
+          12,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "b",
+        "surfaceNode": "VH_M_base_of_prostate",
+        "sourceLabel": "base of prostate",
+        "ontologyId": "UBERON:0035331",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          35.333
+        ],
+        "mappingNote": "Exact source mesh and extras agree: base of prostate. Conflicting VH_M_seminal_vesicle node excluded from named callouts.",
+        "sourceAnchorPercent": [
+          48.048,
+          40.536
+        ],
+        "worldPoint": [
+          0.0090475,
+          0.0043291,
+          0.0124351
+        ],
+        "candidateNodes": [
+          "VH_M_base_of_prostate"
+        ],
+        "badgeCenterPercent": [
+          88,
+          35.333
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "c",
+        "candidateNodes": [
+          "VH_M_peripheral_zone_of_prostate_R",
+          "VH_M_peripheral_zone_of_prostate_L"
+        ],
+        "visibleSurfaceNode": "VH_M_peripheral_zone_of_prostate_L",
+        "sourceLabel": "peripheral zone of prostate",
+        "ontologyId": "UBERON:8410026",
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          12,
+          71.111
+        ],
+        "sourceAnchorPercent": [
+          48.34,
+          42.443
+        ],
+        "worldPoint": [
+          0.0109696,
+          0.0030329,
+          0.0080922
+        ],
+        "surfaceNode": "VH_M_peripheral_zone_of_prostate_L",
+        "badgeCenterPercent": [
+          12,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      },
+      {
+        "id": "d",
+        "surfaceNode": "VH_M_other_urethra",
+        "sourceLabel": null,
+        "ontologyId": null,
+        "sourceSpatialEntity": "#VHMaleOrgans",
+        "centerPercent": [
+          88,
+          71.111
+        ],
+        "mappingNote": "Exact node name used; source extras label and ontology ID are '-'. HRA also has a separately labeled prostatic-urethra mesh in the same source frame.",
+        "sourceAnchorPercent": [
+          31.425,
+          81.235
+        ],
+        "worldPoint": [
+          0.0072766,
+          -0.1012543,
+          -0.0631415
+        ],
+        "candidateNodes": [
+          "VH_M_other_urethra"
+        ],
+        "badgeCenterPercent": [
+          88,
+          71.111
+        ],
+        "hotspotSizePercent": [
+          6,
+          6
+        ]
+      }
+    ]
+  },
+  "coverageGaps": [
+    "The body outline asset is not registered to the organ GLBs and is rendered alone.",
+    "No whole-body mesh or organ set is claimed to be a complete human anatomy model.",
+    "The selected urinary coverage is kidneys only; ureter and urinary bladder models are not included.",
+    "The selected male reproductive HRA coverage does not include testes or penis; the image states this explicitly.",
+    "No camera-side convention is verified; the images omit anatomical laterality markers and do not support side-specific questions.",
+    "These learning images and models are not clinically certified, diagnostic, or suitable for treatment decisions.",
+    "The VH_M_seminal_vesicle mesh has conflicting deferent-duct extras and is excluded from named seminal-vesicle callouts."
+  ],
+  "publishedBinaryBytes": 34534472
+}

@@ -27572,5 +27572,3585 @@
       }
     ],
     "playMode": "solo"
+  },
+  {
+    "id": "SN-78",
+    "slug": "body-regions-and-directions",
+    "categoryId": "science-nature",
+    "title": "Body Regions & Directions",
+    "description": "Identify visible regions on an exterior body outline, then use anatomical direction, planes, and cavities to describe the body.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Orient the model",
+        "description": "Identify visible exterior body regions and learn limb-direction vocabulary."
+      },
+      {
+        "id": "s2",
+        "title": "Map the spaces",
+        "description": "Connect body planes and cavities to the structures they organize."
+      }
+    ],
+    "sources": [
+      {
+        "id": "body-terms",
+        "label": "NCI SEER Training: Anatomical Terminology",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/body/terminology.html"
+      },
+      {
+        "id": "hra-body",
+        "label": "HuBMAP HRA CCF 3D Reference Object Library, v1.2 source model; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/Assets/body4Mesh_1338.glb"
+      },
+      {
+        "id": "anatomy-visual",
+        "label": "HuBMAP HRA source model for this attributed illustration; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/Assets/body4Mesh_1338.glb"
+      },
+      {
+        "id": "anatomy-model-1",
+        "label": "HuBMAP HRA illustration source: body4Mesh_1338.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/Assets/body4Mesh_1338.glb"
+      }
+    ],
+    "note": "The body outline shows exterior regions. Internal organs and cavities are discussed in the questions but are not visible in this model. No anatomical left/right side is inferred from the camera.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which marked body region contains the cranial cavity that protects the brain?",
+        "explanation": "A marks the head and neck region. The cranial cavity is within the skull in the head; the exterior model does not show the cavity itself.",
+        "sourceIds": [
+          "body-terms",
+          "hra-body",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "A",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Body regions",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique body-outline surface view. The source mesh has no verified anatomical camera-axis metadata; no anterior/posterior or left/right key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/body.webp",
+            "alt": "Oblique studio render of a neutral, low-detail whole-body outline mesh with four lettered location callouts on the head and neck, chest, abdomen, and pelvis.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/Assets/body4Mesh_1338.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique body-outline surface view. The source mesh has no verified anatomical camera-axis metadata; no anterior/posterior or left/right key is shown."
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Along an arm, how is the wrist positioned relative to the elbow?",
+        "options": [
+          {
+            "id": "distal",
+            "label": "Distal: farther from the trunk or limb's attachment"
+          },
+          {
+            "id": "proximal",
+            "label": "Proximal: nearer the trunk or limb's attachment"
+          },
+          {
+            "id": "medial",
+            "label": "Medial: closer to the body's midline"
+          },
+          {
+            "id": "superior",
+            "label": "Superior: closer to the head"
+          }
+        ],
+        "correct": "distal",
+        "explanation": "Distal describes a point farther along a limb from its attachment to the trunk. Proximal describes the nearer direction; the other terms refer to the midline or head-to-foot axis.",
+        "sourceIds": [
+          "body-terms"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each body plane with the pair of portions it separates.",
+        "left": [
+          {
+            "id": "sagittal",
+            "label": "Sagittal plane"
+          },
+          {
+            "id": "coronal",
+            "label": "Coronal (frontal) plane"
+          },
+          {
+            "id": "transverse",
+            "label": "Transverse plane"
+          }
+        ],
+        "right": [
+          {
+            "id": "lr",
+            "label": "Right and left portions"
+          },
+          {
+            "id": "af",
+            "label": "Anterior and posterior portions"
+          },
+          {
+            "id": "si",
+            "label": "Superior and inferior portions"
+          }
+        ],
+        "pairs": {
+          "sagittal": "lr",
+          "coronal": "af",
+          "transverse": "si"
+        },
+        "explanation": "A sagittal plane separates right and left portions; a coronal plane separates front and back; a transverse plane separates upper and lower portions. A median sagittal plane passes through the midline.",
+        "sourceIds": [
+          "body-terms"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the chest region directly below the neck?",
+        "explanation": "B marks the upper torso surface beneath the neck. No lung or heart interior is visible in this outline.",
+        "sourceIds": [
+          "body-terms",
+          "hra-body",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "B",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Body regions",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique body-outline surface view. The source mesh has no verified anatomical camera-axis metadata; no anterior/posterior or left/right key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/body.webp",
+            "alt": "Oblique studio render of a neutral, low-detail whole-body outline mesh with four lettered location callouts on the head and neck, chest, abdomen, and pelvis.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/Assets/body4Mesh_1338.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique body-outline surface view. The source mesh has no verified anatomical camera-axis metadata; no anterior/posterior or left/right key is shown."
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which cavity contains the heart and lungs in the standard body-cavity map?",
+        "options": [
+          {
+            "id": "thoracic",
+            "label": "Thoracic cavity"
+          },
+          {
+            "id": "abdominal",
+            "label": "Abdominal cavity"
+          },
+          {
+            "id": "pelvic",
+            "label": "Pelvic cavity"
+          },
+          {
+            "id": "cranial",
+            "label": "Cranial cavity"
+          }
+        ],
+        "correct": "thoracic",
+        "explanation": "The heart and lungs are in the thoracic cavity. The abdominal cavity contains most of the gastrointestinal tract, while the pelvic cavity contains most urogenital organs and the rectum.",
+        "sourceIds": [
+          "body-terms"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each cavity with the structure or group located there in the standard regional map.",
+        "left": [
+          {
+            "id": "cranial",
+            "label": "Cranial cavity"
+          },
+          {
+            "id": "thoracic",
+            "label": "Thoracic cavity"
+          },
+          {
+            "id": "abdominal",
+            "label": "Abdominal cavity"
+          },
+          {
+            "id": "pelvic",
+            "label": "Pelvic cavity"
+          }
+        ],
+        "right": [
+          {
+            "id": "brain",
+            "label": "Brain"
+          },
+          {
+            "id": "lungs",
+            "label": "Lungs and heart"
+          },
+          {
+            "id": "gi",
+            "label": "Most gastrointestinal organs"
+          },
+          {
+            "id": "urogenital",
+            "label": "Most urogenital organs"
+          }
+        ],
+        "pairs": {
+          "cranial": "brain",
+          "thoracic": "lungs",
+          "abdominal": "gi",
+          "pelvic": "urogenital"
+        },
+        "explanation": "This is a broad cavity map, not a claim that every organ sits wholly inside one space. The source describes these representative locations and notes the diaphragm between thoracic and abdominopelvic cavities.",
+        "sourceIds": [
+          "body-terms"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "hotspot",
+        "prompt": "Which marked region lies inferior to the chest and superior to the pelvis?",
+        "explanation": "C marks the abdominal region, below (inferior to) the chest and above (superior to) the pelvis. These directions describe the body, independently of which way a camera faces.",
+        "sourceIds": [
+          "body-terms",
+          "hra-body",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "C",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Body regions",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique body-outline surface view. The source mesh has no verified anatomical camera-axis metadata; no anterior/posterior or left/right key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/body.webp",
+            "alt": "Oblique studio render of a neutral, low-detail whole-body outline mesh with four lettered location callouts on the head and neck, chest, abdomen, and pelvis.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/Assets/body4Mesh_1338.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique body-outline surface view. The source mesh has no verified anatomical camera-axis metadata; no anterior/posterior or left/right key is shown."
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A sagittal plane is moved from the body's midline to one side. Which description remains accurate?",
+        "options": [
+          {
+            "id": "sides",
+            "label": "It still separates right and left portions, but not necessarily equal halves"
+          },
+          {
+            "id": "frontback",
+            "label": "It separates anterior and posterior portions"
+          },
+          {
+            "id": "upperlower",
+            "label": "It separates superior and inferior portions"
+          },
+          {
+            "id": "outside",
+            "label": "It separates the body from the surrounding space"
+          }
+        ],
+        "correct": "sides",
+        "explanation": "A sagittal plane divides right and left portions. A median plane is the special sagittal plane through the midline; a sagittal cut away from the midline need not make equal halves.",
+        "sourceIds": [
+          "body-terms"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-79",
+    "slug": "heart-chambers-and-blood-route",
+    "categoryId": "science-nature",
+    "title": "Heart Chambers: Follow the Blood",
+    "description": "Locate the four chambers, match valves to their boundaries, and trace a simplified blood route through the heart and lungs.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Read the heart map",
+        "description": "Identify chambers and the one-way boundaries between them."
+      },
+      {
+        "id": "s2",
+        "title": "Trace the circuit",
+        "description": "Follow blood through the lungs and back to the body without relying on color alone."
+      }
+    ],
+    "sources": [
+      {
+        "id": "heart-anatomy",
+        "label": "NHLBI: How the Heart Works — What the Heart Looks Like",
+        "kind": "reference",
+        "url": "https://www.nhlbi.nih.gov/health/heart/anatomy"
+      },
+      {
+        "id": "heart-flow",
+        "label": "NHLBI: How the Heart Works — How Blood Flows through the Heart",
+        "kind": "reference",
+        "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+      },
+      {
+        "id": "hra-heart",
+        "label": "HuBMAP HRA CCF 3D Reference Object Library, v1.2 source model; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Heart.glb"
+      },
+      {
+        "id": "anatomy-visual",
+        "label": "HuBMAP HRA source model for this attributed illustration; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Heart.glb"
+      },
+      {
+        "id": "anatomy-model-1",
+        "label": "HuBMAP HRA illustration source: VH_M_Heart.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Heart.glb"
+      }
+    ],
+    "note": "Educational anatomy using a representative source model. The illustration shows selected exterior structures; internal functions and pathways are explained in text. Body structures vary between people.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the right atrium, an upper chamber that receives blood returning from the body?",
+        "explanation": "B corresponds to the right atrial exterior surface in the reviewed HRA model. The surface view does not reveal the chamber interior.",
+        "sourceIds": [
+          "heart-anatomy",
+          "hra-heart",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "B",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Heart structures",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique segmented surface view of the original HRA model. No section plane or laterality key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/heart.webp",
+            "alt": "Oblique studio render of the segmented HRA heart surface model with four lettered callouts on the two atrial and two ventricular chamber surfaces.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Heart.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique segmented surface view of the original HRA model. No section plane or laterality key is shown."
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which chambers are the heart's two upper receiving chambers?",
+        "options": [
+          {
+            "id": "atria",
+            "label": "The right and left atria"
+          },
+          {
+            "id": "ventricles",
+            "label": "The right and left ventricles"
+          },
+          {
+            "id": "septum",
+            "label": "The septum and aorta"
+          },
+          {
+            "id": "valves",
+            "label": "The tricuspid and mitral valves"
+          }
+        ],
+        "correct": "atria",
+        "explanation": "The atria are above the ventricles and receive blood entering the heart. The ventricles pump blood out toward the lungs or the rest of the body.",
+        "sourceIds": [
+          "heart-anatomy"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each heart valve to the chamber boundary or outlet it separates.",
+        "left": [
+          {
+            "id": "tricuspid",
+            "label": "Tricuspid valve"
+          },
+          {
+            "id": "pulmonary",
+            "label": "Pulmonary valve"
+          },
+          {
+            "id": "mitral",
+            "label": "Mitral valve"
+          },
+          {
+            "id": "aortic",
+            "label": "Aortic valve"
+          }
+        ],
+        "right": [
+          {
+            "id": "ra-rv",
+            "label": "Right atrium and right ventricle"
+          },
+          {
+            "id": "rv-pa",
+            "label": "Right ventricle and pulmonary artery"
+          },
+          {
+            "id": "la-lv",
+            "label": "Left atrium and left ventricle"
+          },
+          {
+            "id": "lv-aorta",
+            "label": "Left ventricle and aorta"
+          }
+        ],
+        "pairs": {
+          "tricuspid": "ra-rv",
+          "pulmonary": "rv-pa",
+          "mitral": "la-lv",
+          "aortic": "lv-aorta"
+        },
+        "explanation": "Each valve lies between the listed chamber and its next chamber or large outgoing vessel. The valves help keep flow moving forward through the heart.",
+        "sourceIds": [
+          "heart-flow"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the right ventricle, the lower chamber that pumps blood toward the lungs?",
+        "explanation": "D corresponds to the right ventricular exterior surface in the reviewed HRA model; this is not a section through the chamber.",
+        "sourceIds": [
+          "heart-flow",
+          "hra-heart",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "D",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Heart structures",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique segmented surface view of the original HRA model. No section plane or laterality key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/heart.webp",
+            "alt": "Oblique studio render of the segmented HRA heart surface model with four lettered callouts on the two atrial and two ventricular chamber surfaces.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Heart.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique segmented surface view of the original HRA model. No section plane or laterality key is shown."
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Put these landmarks in order for one simplified circuit, starting as blood returns from the body and ending as it leaves toward the body.",
+        "items": [
+          {
+            "id": "cavae",
+            "label": "Venae cavae"
+          },
+          {
+            "id": "ra",
+            "label": "Right atrium"
+          },
+          {
+            "id": "rv",
+            "label": "Right ventricle"
+          },
+          {
+            "id": "pa",
+            "label": "Pulmonary artery"
+          },
+          {
+            "id": "lungs",
+            "label": "Lung circulation"
+          },
+          {
+            "id": "pv",
+            "label": "Pulmonary veins"
+          },
+          {
+            "id": "la",
+            "label": "Left atrium"
+          },
+          {
+            "id": "lv",
+            "label": "Left ventricle"
+          },
+          {
+            "id": "aorta",
+            "label": "Aorta"
+          }
+        ],
+        "correctOrder": [
+          "cavae",
+          "ra",
+          "rv",
+          "pa",
+          "lungs",
+          "pv",
+          "la",
+          "lv",
+          "aorta"
+        ],
+        "explanation": "The right side sends blood to the lungs; pulmonary veins return it to the left side, whose left ventricle sends it through the aorta toward the body. The route is simplified to major landmarks.",
+        "sourceIds": [
+          "heart-flow"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A diagram labels the pulmonary artery. Which statement about its route is accurate?",
+        "options": [
+          {
+            "id": "to-lungs",
+            "label": "It carries blood from the right ventricle toward the lungs; this blood is oxygen-poor."
+          },
+          {
+            "id": "to-body",
+            "label": "It carries oxygen-rich blood from the left ventricle to the body."
+          },
+          {
+            "id": "returns-lungs",
+            "label": "It returns blood from the lungs to the left atrium."
+          },
+          {
+            "id": "inside-heart",
+            "label": "It is a valve between the two atria."
+          }
+        ],
+        "correct": "to-lungs",
+        "explanation": "The pulmonary artery is an artery because it carries blood away from the heart, and its route is from the right ventricle toward the lungs. Artery does not mean oxygen-rich in every circuit.",
+        "sourceIds": [
+          "heart-flow"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What does the heart’s septum separate?",
+        "explanation": "The septum is the internal wall dividing the right and left sides of the heart. It cannot be identified on this exterior HRA render.",
+        "sourceIds": [
+          "heart-anatomy"
+        ],
+        "correct": "sides",
+        "options": [
+          {
+            "id": "sides",
+            "label": "The right and left sides of the heart"
+          },
+          {
+            "id": "atria-ventricles",
+            "label": "The upper chambers from the lower chambers"
+          },
+          {
+            "id": "heart-lungs",
+            "label": "The heart from the lungs"
+          },
+          {
+            "id": "vessels",
+            "label": "The aorta from every pulmonary vessel"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "For each landmark, choose the next chamber or vessel in the stated forward direction.",
+        "cells": [
+          {
+            "id": "after-ra",
+            "label": "After the right atrium",
+            "options": [
+              {
+                "id": "rv",
+                "label": "Right ventricle"
+              },
+              {
+                "id": "pa",
+                "label": "Pulmonary artery"
+              },
+              {
+                "id": "la",
+                "label": "Left atrium"
+              }
+            ],
+            "correct": "rv"
+          },
+          {
+            "id": "after-lungs",
+            "label": "Blood returning from the lungs enters",
+            "options": [
+              {
+                "id": "ra",
+                "label": "Right atrium"
+              },
+              {
+                "id": "la",
+                "label": "Left atrium"
+              },
+              {
+                "id": "lv",
+                "label": "Left ventricle"
+              }
+            ],
+            "correct": "la"
+          },
+          {
+            "id": "after-lv",
+            "label": "Blood leaving the left ventricle enters",
+            "options": [
+              {
+                "id": "aorta",
+                "label": "Aorta"
+              },
+              {
+                "id": "vena",
+                "label": "Venae cavae"
+              },
+              {
+                "id": "pulmonary",
+                "label": "Pulmonary artery"
+              }
+            ],
+            "correct": "aorta"
+          }
+        ],
+        "explanation": "The main forward sequence is right atrium to right ventricle, lungs to left atrium, and left ventricle to aorta. These are connected by valves and vessels described in the source.",
+        "sourceIds": [
+          "heart-anatomy",
+          "heart-flow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-80",
+    "slug": "brain-regions-and-what-they-contribute",
+    "categoryId": "science-nature",
+    "title": "Brain Regions: A Map of Many Jobs",
+    "description": "Orient a gross brain view, connect major regions with broad contributions, and separate useful associations from one-region-does-everything myths.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Read the outer map",
+        "description": "Locate lobes and relate them to broad, overlapping contributions."
+      },
+      {
+        "id": "s2",
+        "title": "Connect regions",
+        "description": "Use broad functions carefully and keep the whole-brain picture in view."
+      }
+    ],
+    "sources": [
+      {
+        "id": "ninds-brain",
+        "label": "NINDS: Brain Basics — Know Your Brain",
+        "kind": "reference",
+        "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+      },
+      {
+        "id": "hra-brain",
+        "label": "HuBMAP HRA CCF 3D Reference Object Library, v1.2 source model; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/Allen_M_Brain.glb"
+      },
+      {
+        "id": "anatomy-visual",
+        "label": "HuBMAP HRA source model for this attributed illustration; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/Allen_M_Brain.glb"
+      },
+      {
+        "id": "anatomy-model-1",
+        "label": "HuBMAP HRA illustration source: Allen_M_Brain.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/Allen_M_Brain.glb"
+      },
+      {
+        "id": "seer-nerve",
+        "label": "NCI SEER Training: Nerve Tissue — neuron processes",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/nervous/tissue.html"
+      }
+    ],
+    "note": "Educational anatomy using a representative source model. The illustration shows selected exterior structures; internal functions and pathways are explained in text. Body structures vary between people.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the compact, tightly folded cerebellum below the larger cerebrum?",
+        "explanation": "D marks the cerebellum on the exterior model. Its contributions to coordination are broad and shared with other regions.",
+        "sourceIds": [
+          "ninds-brain",
+          "hra-brain",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "D",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Brain surface landmarks",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique exterior surface view of the segmented HRA model. No internal section or anatomical left/right key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/brain.webp",
+            "alt": "Oblique exterior studio render of the segmented HRA brain model with four lettered surface callouts across folded cerebral and cerebellar regions.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/Allen_M_Brain.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique exterior surface view of the segmented HRA model. No internal section or anatomical left/right key is shown."
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which broad contribution is associated with the cerebellum in the NINDS overview?",
+        "options": [
+          {
+            "id": "coordination",
+            "label": "Coordinating movement and participating in learned movements"
+          },
+          {
+            "id": "only-vision",
+            "label": "Handling every visual signal by itself"
+          },
+          {
+            "id": "only-hearing",
+            "label": "Receiving all sound information without other regions"
+          },
+          {
+            "id": "body-map",
+            "label": "Serving as the body's sole map of touch"
+          }
+        ],
+        "correct": "coordination",
+        "explanation": "NINDS describes the cerebellum as contributing to movement coordination and learned movements. The word contributes matters: coordinated actions involve broader brain systems.",
+        "sourceIds": [
+          "ninds-brain"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each cerebral lobe to its broad location on a lateral brain map.",
+        "left": [
+          {
+            "id": "frontal",
+            "label": "Frontal lobe"
+          },
+          {
+            "id": "parietal",
+            "label": "Parietal lobe"
+          },
+          {
+            "id": "temporal",
+            "label": "Temporal lobe"
+          },
+          {
+            "id": "occipital",
+            "label": "Occipital lobe"
+          }
+        ],
+        "right": [
+          {
+            "id": "forehead",
+            "label": "Behind the forehead"
+          },
+          {
+            "id": "behind-frontal",
+            "label": "Behind the frontal lobe"
+          },
+          {
+            "id": "side",
+            "label": "Along the side, below neighboring lobes"
+          },
+          {
+            "id": "back",
+            "label": "At the back of the cerebrum"
+          }
+        ],
+        "pairs": {
+          "frontal": "forehead",
+          "parietal": "behind-frontal",
+          "temporal": "side",
+          "occipital": "back"
+        },
+        "explanation": "These are broad surface locations, not boundaries that assign a task to one lobe alone. The source describes lobes as areas with different specializations that work together.",
+        "sourceIds": [
+          "ninds-brain"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the occipital region at the far rounded end of the cerebrum in this view?",
+        "explanation": "C marks the occipital surface at the back of the cerebrum in this displayed oblique model. No anatomical left or right side is inferred.",
+        "sourceIds": [
+          "ninds-brain",
+          "hra-brain",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "C",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Brain surface landmarks",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique exterior surface view of the segmented HRA model. No internal section or anatomical left/right key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/brain.webp",
+            "alt": "Oblique exterior studio render of the segmented HRA brain model with four lettered surface callouts across folded cerebral and cerebellar regions.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/Allen_M_Brain.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique exterior surface view of the segmented HRA model. No internal section or anatomical left/right key is shown."
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "A learner says, “One lobe does all the thinking.” Which revision best fits the NINDS overview?",
+        "options": [
+          {
+            "id": "network",
+            "label": "Different regions make broad contributions and work together; no lobe has only one job."
+          },
+          {
+            "id": "frontal-only",
+            "label": "All thinking happens only in the frontal lobes."
+          },
+          {
+            "id": "back-only",
+            "label": "All conscious thought happens only at the back of the brain."
+          },
+          {
+            "id": "separate",
+            "label": "Each lobe works independently from every other region."
+          }
+        ],
+        "correct": "network",
+        "explanation": "NINDS emphasizes that brain parts work together while describing some broad specializations. A location-function association is not an exclusive one-region explanation.",
+        "sourceIds": [
+          "ninds-brain"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "grid",
+        "prompt": "For each broad description, choose the region NINDS links with that contribution; the links are not exclusive job assignments.",
+        "cells": [
+          {
+            "id": "planning",
+            "label": "Planning and keeping an idea in mind",
+            "options": [
+              {
+                "id": "frontal",
+                "label": "Frontal lobes"
+              },
+              {
+                "id": "occipital",
+                "label": "Occipital lobes"
+              },
+              {
+                "id": "cerebellum",
+                "label": "Cerebellum"
+              }
+            ],
+            "correct": "frontal"
+          },
+          {
+            "id": "image",
+            "label": "Processing visual information",
+            "options": [
+              {
+                "id": "temporal",
+                "label": "Temporal lobes"
+              },
+              {
+                "id": "occipital",
+                "label": "Occipital lobes"
+              },
+              {
+                "id": "brainstem",
+                "label": "Brainstem"
+              }
+            ],
+            "correct": "occipital"
+          },
+          {
+            "id": "sound-memory",
+            "label": "Receiving information from the ears and contributing to some memory processes",
+            "options": [
+              {
+                "id": "parietal",
+                "label": "Parietal lobes"
+              },
+              {
+                "id": "temporal",
+                "label": "Temporal lobes"
+              },
+              {
+                "id": "frontal",
+                "label": "Frontal lobes"
+              }
+            ],
+            "correct": "temporal"
+          },
+          {
+            "id": "coordination",
+            "label": "Coordinating movement and learned movements",
+            "options": [
+              {
+                "id": "cerebellum",
+                "label": "Cerebellum"
+              },
+              {
+                "id": "occipital",
+                "label": "Occipital lobes"
+              },
+              {
+                "id": "thalamus",
+                "label": "Thalamus"
+              }
+            ],
+            "correct": "cerebellum"
+          }
+        ],
+        "explanation": "These are useful broad associations from the source, not a claim that any region handles a complex ability alone. Brain areas communicate and contribute together.",
+        "sourceIds": [
+          "ninds-brain"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which structure connects the brain with the spinal cord?",
+        "explanation": "The brainstem forms the connection between the brain and spinal cord. It is not clearly distinguishable in the exterior reference image.",
+        "sourceIds": [
+          "ninds-brain"
+        ],
+        "correct": "brainstem",
+        "options": [
+          {
+            "id": "brainstem",
+            "label": "Brainstem"
+          },
+          {
+            "id": "cerebellum",
+            "label": "Cerebellum"
+          },
+          {
+            "id": "occipital",
+            "label": "Occipital lobe"
+          },
+          {
+            "id": "frontal",
+            "label": "Frontal lobe"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Brain regions communicate through nerve cells. Which part of a typical neuron carries impulses away from its cell body?",
+        "options": [
+          {
+            "id": "axon",
+            "label": "Axon"
+          },
+          {
+            "id": "dendrite",
+            "label": "Dendrite"
+          },
+          {
+            "id": "nucleus",
+            "label": "Nucleus"
+          },
+          {
+            "id": "ventricle",
+            "label": "Ventricle"
+          }
+        ],
+        "correct": "axon",
+        "explanation": "An axon carries impulses away from a neuron’s cell body. Dendrites generally receive signals toward the cell body. These are microscopic cell parts, not structures visible in the whole-brain image.",
+        "sourceIds": [
+          "seer-nerve"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-81",
+    "slug": "airways-to-alveoli-gas-exchange",
+    "categoryId": "science-nature",
+    "title": "Airways to Alveoli: The Gas-Exchange Route",
+    "description": "Follow inhaled air through branching airways, identify the alveoli, and track oxygen and carbon dioxide across the air-blood boundary.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Follow the airway branches",
+        "description": "Locate the main passages and put their named structures in route order."
+      },
+      {
+        "id": "s2",
+        "title": "Trade gases",
+        "description": "Connect alveoli, capillaries and blood flow without using color as a rule."
+      }
+    ],
+    "sources": [
+      {
+        "id": "resp-system",
+        "label": "NHLBI: How the Lungs Work — The Respiratory System",
+        "kind": "reference",
+        "url": "https://www.nhlbi.nih.gov/health/lungs/respiratory-system"
+      },
+      {
+        "id": "gas-exchange",
+        "label": "NHLBI: How the Lungs Work — What Breathing Does for the Body",
+        "kind": "reference",
+        "url": "https://www.nhlbi.nih.gov/health/lungs/breathing-benefits"
+      },
+      {
+        "id": "hra-respiratory",
+        "label": "HuBMAP HRA CCF 3D Reference Object Library, v1.2 source model; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Lung.glb"
+      },
+      {
+        "id": "anatomy-visual",
+        "label": "HuBMAP HRA source model for this attributed illustration; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Lung.glb"
+      },
+      {
+        "id": "anatomy-model-1",
+        "label": "HuBMAP HRA illustration source: VH_M_Lung.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Lung.glb"
+      }
+    ],
+    "note": "Educational anatomy using a representative source model. The illustration shows selected exterior structures; internal functions and pathways are explained in text. Body structures vary between people.",
+    "questions": [
+      {
+        "id": "q1",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the ringed trachea (windpipe) before it divides toward the lungs?",
+        "explanation": "A marks the ringed tracheal surface above the airway fork.",
+        "sourceIds": [
+          "resp-system",
+          "hra-respiratory",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "A",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Airways and lungs",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique segmented surface view. The source does not establish a camera-side key; no anatomical left/right labels are shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/respiratory.webp",
+            "alt": "Oblique studio render of the HRA respiratory model showing the laryngeal region, trachea, branching airways, and segmented lung surfaces with four lettered callouts.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Lung.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique segmented surface view. The source does not establish a camera-side key; no anatomical left/right labels are shown."
+      },
+      {
+        "id": "q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Where do the smallest branches of the bronchial tree end?",
+        "options": [
+          {
+            "id": "alveoli",
+            "label": "At clusters of alveoli, the air sacs"
+          },
+          {
+            "id": "trachea",
+            "label": "At the upper end of the trachea"
+          },
+          {
+            "id": "pleura",
+            "label": "At the outer pleural membrane"
+          },
+          {
+            "id": "diaphragm",
+            "label": "At the diaphragm below the lungs"
+          }
+        ],
+        "correct": "alveoli",
+        "explanation": "Bronchi branch into smaller tubes, including bronchioles, that end in alveoli. The alveoli are air sacs rather than the outer lung membrane or a breathing muscle.",
+        "sourceIds": [
+          "resp-system"
+        ]
+      },
+      {
+        "id": "q3",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each respiratory structure to its broad role in the route.",
+        "left": [
+          {
+            "id": "trachea",
+            "label": "Trachea"
+          },
+          {
+            "id": "bronchi",
+            "label": "Bronchi"
+          },
+          {
+            "id": "bronchioles",
+            "label": "Bronchioles"
+          },
+          {
+            "id": "alveoli",
+            "label": "Alveoli"
+          }
+        ],
+        "right": [
+          {
+            "id": "windpipe",
+            "label": "Main windpipe before it branches"
+          },
+          {
+            "id": "paired",
+            "label": "Paired branches leading into each lung"
+          },
+          {
+            "id": "smaller",
+            "label": "Smaller branches within the lungs"
+          },
+          {
+            "id": "air-sacs",
+            "label": "Air sacs where gases exchange with nearby capillaries"
+          }
+        ],
+        "pairs": {
+          "trachea": "windpipe",
+          "bronchi": "paired",
+          "bronchioles": "smaller",
+          "alveoli": "air-sacs"
+        },
+        "explanation": "The airways branch from trachea to bronchi to bronchioles; the alveoli are at the ends of the smaller branches and sit next to capillaries.",
+        "sourceIds": [
+          "resp-system",
+          "gas-exchange"
+        ]
+      },
+      {
+        "id": "q4",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the airway fork, where the windpipe divides toward the lungs?",
+        "explanation": "B marks the visible airway fork, or carina, where the trachea divides into the main bronchi.",
+        "sourceIds": [
+          "resp-system",
+          "hra-respiratory",
+          "anatomy-visual",
+          "anatomy-model-1"
+        ],
+        "correct": "B",
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "diagram": {
+          "title": "Airways and lungs",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique segmented surface view. The source does not establish a camera-side key; no anatomical left/right labels are shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/respiratory.webp",
+            "alt": "Oblique studio render of the HRA respiratory model showing the laryngeal region, trachea, branching airways, and segmented lung surfaces with four lettered callouts.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Lung.glb",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "context": "Oblique segmented surface view. The source does not establish a camera-side key; no anatomical left/right labels are shown."
+      },
+      {
+        "id": "q5",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Order the named airway landmarks from an inhaled-air entry point toward the gas-exchange surface. This simplified path starts at the nose or mouth and omits smaller branch generations.",
+        "items": [
+          {
+            "id": "entry",
+            "label": "Nose or mouth"
+          },
+          {
+            "id": "larynx",
+            "label": "Larynx"
+          },
+          {
+            "id": "trachea",
+            "label": "Trachea"
+          },
+          {
+            "id": "bronchi",
+            "label": "Bronchi"
+          },
+          {
+            "id": "bronchioles",
+            "label": "Bronchioles"
+          },
+          {
+            "id": "alveoli",
+            "label": "Alveoli"
+          }
+        ],
+        "correctOrder": [
+          "entry",
+          "larynx",
+          "trachea",
+          "bronchi",
+          "bronchioles",
+          "alveoli"
+        ],
+        "explanation": "Air enters through the nose or mouth, passes the larynx and trachea, then follows branching bronchi and bronchioles to alveoli. The prompt states that smaller branches are omitted from this simplified route.",
+        "sourceIds": [
+          "resp-system"
+        ]
+      },
+      {
+        "id": "q6",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Across which boundary does oxygen move from alveolar air into nearby blood?",
+        "options": [
+          {
+            "id": "alveolar",
+            "label": "Across the thin alveolar wall into surrounding capillaries"
+          },
+          {
+            "id": "tracheal",
+            "label": "Across the cartilage rings of the trachea"
+          },
+          {
+            "id": "pleural",
+            "label": "Across the outer pleural layers into the chest wall"
+          },
+          {
+            "id": "diaphragm",
+            "label": "Across the diaphragm into the abdominal cavity"
+          }
+        ],
+        "correct": "alveolar",
+        "explanation": "Gas exchange occurs across the alveolar walls and nearby capillaries. Oxygen enters blood while carbon dioxide moves from blood into alveolar air.",
+        "sourceIds": [
+          "resp-system",
+          "gas-exchange"
+        ]
+      },
+      {
+        "id": "q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "During inhalation, what does the diaphragm beneath the lungs do?",
+        "explanation": "NHLBI describes the diaphragm contracting and moving downward during inhalation, increasing chest-cavity space. The diaphragm is not shown in the HRA airway render.",
+        "sourceIds": [
+          "gas-exchange"
+        ],
+        "correct": "down",
+        "options": [
+          {
+            "id": "down",
+            "label": "Contracts and moves downward, increasing space in the chest cavity"
+          },
+          {
+            "id": "up",
+            "label": "Contracts and moves upward, reducing space in the chest cavity"
+          },
+          {
+            "id": "exchange",
+            "label": "Moves oxygen directly into capillary blood"
+          },
+          {
+            "id": "branch",
+            "label": "Divides the trachea into the main bronchi"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which statement about pulmonary vessels is accurate?",
+        "options": [
+          {
+            "id": "route",
+            "label": "Pulmonary arteries carry blood toward the lungs; pulmonary veins return blood toward the heart."
+          },
+          {
+            "id": "arteries-oxygen",
+            "label": "Every artery carries oxygen-rich blood, including the pulmonary artery."
+          },
+          {
+            "id": "veins-away",
+            "label": "Veins always carry blood away from the heart."
+          },
+          {
+            "id": "exchange-heart",
+            "label": "Gas exchange occurs inside the heart's chambers."
+          }
+        ],
+        "correct": "route",
+        "explanation": "Arteries carry blood away from the heart and veins carry it back. In pulmonary circulation, the pulmonary artery brings oxygen-poor blood to the lungs and pulmonary veins return oxygen-rich blood.",
+        "sourceIds": [
+          "gas-exchange"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-82",
+    "slug": "a-meals-route-inside-the-digestive-system",
+    "categoryId": "science-nature",
+    "title": "A Meal’s Route: Inside the Digestive System",
+    "description": "Trace the digestive tract, connect organs with their roles, and identify where its major parts fit. The learning set distinguishes the food pathway from the work of nearby digestive organs.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "route-and-organs",
+        "title": "Route and supporting organs",
+        "description": "Follow the tract and identify the roles of digestive organs."
+      },
+      {
+        "id": "segments-and-absorption",
+        "title": "Segments and absorption",
+        "description": "Review intestine parts and the functions stated for them."
+      }
+    ],
+    "sources": [
+      {
+        "id": "niddk-digestive",
+        "label": "NIDDK: Your Digestive System & How it Works",
+        "kind": "reference",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+      },
+      {
+        "id": "seer-body-terms",
+        "label": "NCI SEER Training: Anatomical Terminology",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/body/terminology.html"
+      },
+      {
+        "id": "anatomy-visual",
+        "label": "HuBMAP HRA source model for this attributed illustration; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2"
+      },
+      {
+        "id": "anatomy-model-1",
+        "label": "HuBMAP HRA illustration source: VH_M_Liver.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Liver.glb"
+      },
+      {
+        "id": "anatomy-model-2",
+        "label": "HuBMAP HRA illustration source: VH_M_Small_Intestine.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Small_Intestine.glb"
+      },
+      {
+        "id": "anatomy-model-3",
+        "label": "HuBMAP HRA illustration source: SBU_M_Intestine_Large.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/SBU_M_Intestine_Large.glb"
+      }
+    ],
+    "note": "Educational anatomy using a representative source model. The illustration shows selected exterior structures; internal functions and pathways are explained in text. Body structures vary between people.",
+    "questions": [
+      {
+        "id": "sn82-q1",
+        "sectionId": "route-and-organs",
+        "kind": "order",
+        "prompt": "Place these named gastrointestinal structures in the order food travels through them, from entry to exit.",
+        "context": "Follow only the connected gastrointestinal tract from the mouth to the exit. Supporting organs that add digestive substances are outside this route.",
+        "items": [
+          {
+            "id": "mouth",
+            "label": "Mouth"
+          },
+          {
+            "id": "esophagus",
+            "label": "Esophagus"
+          },
+          {
+            "id": "stomach",
+            "label": "Stomach"
+          },
+          {
+            "id": "small-intestine",
+            "label": "Small intestine"
+          },
+          {
+            "id": "large-intestine",
+            "label": "Large intestine"
+          },
+          {
+            "id": "rectum",
+            "label": "Rectum"
+          },
+          {
+            "id": "anus",
+            "label": "Anus"
+          }
+        ],
+        "correctOrder": [
+          "mouth",
+          "esophagus",
+          "stomach",
+          "small-intestine",
+          "large-intestine",
+          "rectum",
+          "anus"
+        ],
+        "explanation": "For this stated route, food passes from the mouth through the esophagus, stomach, small intestine, and large intestine, then through the rectum to the anus. The liver and pancreas support digestion but food does not pass through them.",
+        "sourceIds": [
+          "niddk-digestive"
+        ]
+      },
+      {
+        "id": "sn82-q2",
+        "sectionId": "route-and-organs",
+        "kind": "match",
+        "prompt": "Match each digestive organ with the role described for it.",
+        "left": [
+          {
+            "id": "liver",
+            "label": "Liver"
+          },
+          {
+            "id": "gallbladder",
+            "label": "Gallbladder"
+          },
+          {
+            "id": "pancreas",
+            "label": "Pancreas"
+          }
+        ],
+        "right": [
+          {
+            "id": "makes-bile",
+            "label": "Makes bile"
+          },
+          {
+            "id": "stores-bile",
+            "label": "Stores bile"
+          },
+          {
+            "id": "supplies-digestive-juice",
+            "label": "Supplies digestive juice"
+          }
+        ],
+        "pairs": {
+          "liver": "makes-bile",
+          "gallbladder": "stores-bile",
+          "pancreas": "supplies-digestive-juice"
+        },
+        "explanation": "The liver makes bile, the gallbladder stores bile, and the pancreas supplies digestive juice. These roles do not put those organs in the food pathway.",
+        "sourceIds": [
+          "niddk-digestive"
+        ]
+      },
+      {
+        "id": "sn82-q3",
+        "sectionId": "route-and-organs",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the liver, the organ that makes bile to help digest fats?",
+        "explanation": "A points to the liver surface. The liver makes bile; the gallbladder stores it. Food travels through the gastrointestinal tract rather than through the liver.",
+        "sourceIds": [
+          "niddk-digestive",
+          "anatomy-visual",
+          "anatomy-model-1",
+          "anatomy-model-2",
+          "anatomy-model-3"
+        ],
+        "diagram": {
+          "title": "Digestive structures",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique surface view of selected meshes sharing the HRA male-organ coordinate frame; no laterality key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/digestive.webp",
+            "alt": "Oblique studio render combining the HRA liver, small-intestine, and large-intestine meshes in their shared source coordinates, with four lettered callouts.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "correct": "A",
+        "context": "Oblique surface view of selected meshes sharing the HRA male-organ coordinate frame; no laterality key is shown."
+      },
+      {
+        "id": "sn82-q4",
+        "sectionId": "route-and-organs",
+        "kind": "choice",
+        "prompt": "Which three named segments make up the small intestine?",
+        "options": [
+          {
+            "id": "duodenum-jejunum-ileum",
+            "label": "Duodenum, jejunum, and ileum"
+          },
+          {
+            "id": "cecum-colon-rectum",
+            "label": "Cecum, colon, and rectum"
+          },
+          {
+            "id": "esophagus-stomach-colon",
+            "label": "Esophagus, stomach, and colon"
+          },
+          {
+            "id": "rectum-ileum-anus",
+            "label": "Rectum, ileum, and anus"
+          }
+        ],
+        "correct": "duodenum-jejunum-ileum",
+        "explanation": "The small intestine has three segments: duodenum, jejunum, and ileum. The cecum, colon, and rectum are parts of the large intestine.",
+        "sourceIds": [
+          "niddk-digestive"
+        ]
+      },
+      {
+        "id": "sn82-q5",
+        "sectionId": "segments-and-absorption",
+        "kind": "choice",
+        "prompt": "Which statement describes the small intestine’s nutrient-absorption role?",
+        "options": [
+          {
+            "id": "most-nutrients",
+            "label": "It absorbs most nutrients."
+          },
+          {
+            "id": "stores-bile",
+            "label": "It stores bile."
+          },
+          {
+            "id": "makes-bile",
+            "label": "It makes bile."
+          },
+          {
+            "id": "carries-urine",
+            "label": "It carries urine to the bladder."
+          }
+        ],
+        "correct": "most-nutrients",
+        "explanation": "The small intestine absorbs most nutrients. Bile is made by the liver and stored by the gallbladder; the urine statement describes no digestive role.",
+        "sourceIds": [
+          "niddk-digestive"
+        ]
+      },
+      {
+        "id": "sn82-q6",
+        "sectionId": "segments-and-absorption",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the rectum, near the end of the large intestine?",
+        "explanation": "D points to the rectum in this selected-structure view. The rectum stores stool before it leaves through the anus, which is not separately represented here.",
+        "sourceIds": [
+          "niddk-digestive",
+          "anatomy-visual",
+          "anatomy-model-1",
+          "anatomy-model-2",
+          "anatomy-model-3"
+        ],
+        "diagram": {
+          "title": "Digestive structures",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique surface view of selected meshes sharing the HRA male-organ coordinate frame; no laterality key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/digestive.webp",
+            "alt": "Oblique studio render combining the HRA liver, small-intestine, and large-intestine meshes in their shared source coordinates, with four lettered callouts.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "correct": "D",
+        "context": "Oblique surface view of selected meshes sharing the HRA male-organ coordinate frame; no laterality key is shown."
+      },
+      {
+        "id": "sn82-q7",
+        "sectionId": "segments-and-absorption",
+        "kind": "choice",
+        "prompt": "Which broad body cavity contains most gastrointestinal organs?",
+        "options": [
+          {
+            "id": "abdominal-cavity",
+            "label": "Abdominal cavity"
+          },
+          {
+            "id": "cranial-cavity",
+            "label": "Cranial cavity"
+          },
+          {
+            "id": "vertebral-cavity",
+            "label": "Vertebral cavity"
+          },
+          {
+            "id": "thoracic-cavity",
+            "label": "Thoracic cavity"
+          }
+        ],
+        "correct": "abdominal-cavity",
+        "explanation": "In the broad body-cavity map, most gastrointestinal organs are in the abdominal cavity.",
+        "sourceIds": [
+          "seer-body-terms"
+        ]
+      },
+      {
+        "id": "sn82-q8",
+        "sectionId": "segments-and-absorption",
+        "kind": "choice",
+        "prompt": "After most nutrients and much water have been absorbed in the small intestine, what does the large intestine absorb?",
+        "options": [
+          {
+            "id": "remaining-water",
+            "label": "Remaining water"
+          },
+          {
+            "id": "bile",
+            "label": "Bile made by the liver"
+          },
+          {
+            "id": "most-nutrients",
+            "label": "Most nutrients from food"
+          },
+          {
+            "id": "urine",
+            "label": "Urine from the kidneys"
+          }
+        ],
+        "correct": "remaining-water",
+        "explanation": "The small intestine absorbs most nutrients and much water. The large intestine absorbs remaining water; this does not imply it absorbs most water overall.",
+        "sourceIds": [
+          "niddk-digestive"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-83",
+    "slug": "kidneys-at-work-blood-in-urine-out",
+    "categoryId": "science-nature",
+    "title": "Kidneys at Work: Blood In, Urine Out",
+    "description": "Explore the paired kidneys, distinguish blood-vessel movement from urine flow, and connect urinary-tract parts with their roles.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "paired-kidneys-and-blood",
+        "title": "Paired kidneys and blood",
+        "description": "Identify kidney location and distinguish the incoming and outgoing blood vessels."
+      },
+      {
+        "id": "urine-route-and-roles",
+        "title": "Urine route and urinary-tract roles",
+        "description": "Trace urine from kidney to exit and review storage and transport roles."
+      }
+    ],
+    "sources": [
+      {
+        "id": "niddk-kidneys",
+        "label": "NIDDK: Your Kidneys & How They Work",
+        "kind": "reference",
+        "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
+      },
+      {
+        "id": "niddk-urinary",
+        "label": "NIDDK: The Urinary Tract & How It Works",
+        "kind": "reference",
+        "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-tract-how-it-works"
+      },
+      {
+        "id": "seer-body-terms",
+        "label": "NCI SEER Training: Anatomical Terminology",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/body/terminology.html"
+      },
+      {
+        "id": "anatomy-visual",
+        "label": "HuBMAP HRA source model for this attributed illustration; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2"
+      },
+      {
+        "id": "anatomy-model-1",
+        "label": "HuBMAP HRA illustration source: VH_M_Kidney_L.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Kidney_L.glb"
+      },
+      {
+        "id": "anatomy-model-2",
+        "label": "HuBMAP HRA illustration source: VH_M_Kidney_R.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Kidney_R.glb"
+      }
+    ],
+    "note": "Educational anatomy using a representative source model. The illustration shows selected exterior structures; internal functions and pathways are explained in text. Body structures vary between people.",
+    "questions": [
+      {
+        "id": "sn83-q1",
+        "sectionId": "paired-kidneys-and-blood",
+        "kind": "hotspot",
+        "prompt": "Which callout points to the inward notch (hilum) of the kidney on the viewer’s left?",
+        "context": "Oblique paired-kidney surface view. Anatomical side labels are omitted because source camera orientation is not established.",
+        "explanation": "D points to the inward notch of the kidney displayed on the left side of this image. The hilum is the passage region for renal vessels and the outflow route. Viewer-side position does not establish anatomical left or right.",
+        "sourceIds": [
+          "niddk-kidneys",
+          "anatomy-visual",
+          "anatomy-model-1",
+          "anatomy-model-2"
+        ],
+        "diagram": {
+          "title": "Kidney landmarks",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique paired-kidney surface view. Anatomical side labels are omitted because source camera orientation is not established.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/urinary.webp",
+            "alt": "Oblique studio render of two HRA kidney surface models in their shared source coordinates, with callouts to the outer contours and hilar indentations.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "id": "sn83-q2",
+        "sectionId": "paired-kidneys-and-blood",
+        "kind": "match",
+        "prompt": "Match each kidney blood vessel with its direction relative to the kidney.",
+        "left": [
+          {
+            "id": "renal-artery",
+            "label": "Renal artery"
+          },
+          {
+            "id": "renal-vein",
+            "label": "Renal vein"
+          }
+        ],
+        "right": [
+          {
+            "id": "brings-blood-in",
+            "label": "Brings blood into the kidney"
+          },
+          {
+            "id": "carries-blood-out",
+            "label": "Carries blood out of the kidney"
+          }
+        ],
+        "pairs": {
+          "renal-artery": "brings-blood-in",
+          "renal-vein": "carries-blood-out"
+        },
+        "explanation": "The renal artery brings blood into a kidney; the renal vein carries blood out. This blood-vessel path is distinct from the route urine takes.",
+        "sourceIds": [
+          "niddk-kidneys"
+        ]
+      },
+      {
+        "id": "sn83-q3",
+        "sectionId": "paired-kidneys-and-blood",
+        "kind": "choice",
+        "prompt": "In the broad body-cavity map, which cavity contains the kidneys?",
+        "options": [
+          {
+            "id": "abdominal-cavity",
+            "label": "Abdominal cavity"
+          },
+          {
+            "id": "cranial-cavity",
+            "label": "Cranial cavity"
+          },
+          {
+            "id": "vertebral-cavity",
+            "label": "Vertebral cavity"
+          },
+          {
+            "id": "thoracic-cavity",
+            "label": "Thoracic cavity"
+          }
+        ],
+        "correct": "abdominal-cavity",
+        "explanation": "In the broad body-cavity map, the kidneys are in the abdominal cavity.",
+        "sourceIds": [
+          "seer-body-terms"
+        ]
+      },
+      {
+        "id": "sn83-q4",
+        "sectionId": "paired-kidneys-and-blood",
+        "kind": "choice",
+        "prompt": "What do the kidneys do to form urine, according to the cited description?",
+        "options": [
+          {
+            "id": "filter-and-remove",
+            "label": "Filter blood and remove wastes and extra water."
+          },
+          {
+            "id": "store-urine",
+            "label": "Store urine until it leaves the body."
+          },
+          {
+            "id": "carry-to-bladder",
+            "label": "Carry urine from each kidney to the bladder."
+          },
+          {
+            "id": "carry-out",
+            "label": "Carry urine from the bladder out of the body."
+          }
+        ],
+        "correct": "filter-and-remove",
+        "explanation": "The kidneys filter blood and remove wastes and extra water to form urine. The bladder stores urine, ureters carry it kidney-to-bladder, and the urethra carries it out.",
+        "sourceIds": [
+          "niddk-kidneys",
+          "niddk-urinary"
+        ]
+      },
+      {
+        "id": "sn83-q5",
+        "sectionId": "urine-route-and-roles",
+        "kind": "hotspot",
+        "prompt": "Which callout points to the outer capsule surface of the kidney on the viewer’s right?",
+        "context": "Oblique paired-kidney surface view. Anatomical side labels are omitted because source camera orientation is not established.",
+        "explanation": "A points to the curved capsule surface of the kidney displayed on the right side of this image. The capsule is an outer covering; the filtering units are inside the kidney and are not shown by this exterior target.",
+        "sourceIds": [
+          "niddk-kidneys",
+          "anatomy-visual",
+          "anatomy-model-1",
+          "anatomy-model-2"
+        ],
+        "diagram": {
+          "title": "Kidney landmarks",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique paired-kidney surface view. Anatomical side labels are omitted because source camera orientation is not established.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/urinary.webp",
+            "alt": "Oblique studio render of two HRA kidney surface models in their shared source coordinates, with callouts to the outer contours and hilar indentations.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "id": "sn83-q6",
+        "sectionId": "urine-route-and-roles",
+        "kind": "order",
+        "prompt": "Order the urine route from where urine is formed to where it leaves the body.",
+        "context": "Scope: the urinary route only, beginning at a kidney and ending outside the body. Keep this separate from the renal artery-to-kidney-to-renal-vein blood path.",
+        "items": [
+          {
+            "id": "kidney",
+            "label": "Kidney"
+          },
+          {
+            "id": "ureter",
+            "label": "Ureter"
+          },
+          {
+            "id": "bladder",
+            "label": "Bladder"
+          },
+          {
+            "id": "urethra",
+            "label": "Urethra"
+          },
+          {
+            "id": "outside-body",
+            "label": "Outside the body"
+          }
+        ],
+        "correctOrder": [
+          "kidney",
+          "ureter",
+          "bladder",
+          "urethra",
+          "outside-body"
+        ],
+        "explanation": "Urine exits a kidney through a ureter, reaches the bladder, and then travels through the urethra out of the body. This sequence does not describe blood flow.",
+        "sourceIds": [
+          "niddk-kidneys",
+          "niddk-urinary"
+        ]
+      },
+      {
+        "id": "sn83-q7",
+        "sectionId": "urine-route-and-roles",
+        "kind": "choice",
+        "prompt": "Inside a nephron, what happens after the glomerulus filters blood?",
+        "options": [
+          {
+            "id": "return",
+            "label": "The tubule returns needed substances to the blood while remaining wastes and extra water become urine"
+          },
+          {
+            "id": "all-out",
+            "label": "All filtered water and nutrients leave the body without anything returning to the blood"
+          },
+          {
+            "id": "bile",
+            "label": "The tubule changes the filtered fluid into bile"
+          },
+          {
+            "id": "blood-store",
+            "label": "The bladder stores the filtered blood until it can return to the heart"
+          }
+        ],
+        "correct": "return",
+        "explanation": "Filtering is only the first step. Along the tubule, needed water, minerals and nutrients return to the blood; remaining fluid and wastes contribute to urine. Nephrons are microscopic and are not shown by the exterior callouts.",
+        "sourceIds": [
+          "niddk-kidneys"
+        ]
+      },
+      {
+        "id": "sn83-q8",
+        "sectionId": "urine-route-and-roles",
+        "kind": "choice",
+        "prompt": "Which statement describes the paired kidneys’ location?",
+        "options": [
+          {
+            "id": "below-ribs-either-side-spine",
+            "label": "Below the rib cage, one on either side of the spine."
+          },
+          {
+            "id": "above-ribs",
+            "label": "Above the rib cage, one on either side of the spine."
+          },
+          {
+            "id": "both-one-side",
+            "label": "Below the rib cage, both on the same side of the spine."
+          },
+          {
+            "id": "inside-bladder",
+            "label": "Inside the bladder, one on either side of the urethra."
+          }
+        ],
+        "correct": "below-ribs-either-side-spine",
+        "explanation": "The kidneys are a pair below the rib cage, with one on either side of the spine. The diagram remains a paired-kidneys-only view and is not a whole urinary tract image.",
+        "sourceIds": [
+          "niddk-kidneys"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SN-84",
+    "slug": "female-reproductive-anatomy-structures-and-pathways",
+    "categoryId": "science-nature",
+    "title": "Female Reproductive Anatomy: Structures and Pathways",
+    "description": "Identify structures in a representative female reproductive tract and trace an oocyte’s route using classroom anatomy.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Locate the structures",
+        "description": "Orient to visible tract landmarks and the paired ovaries."
+      },
+      {
+        "id": "s2",
+        "title": "Follow the pathway",
+        "description": "Connect the tube, uterus, cervix, and vagina in a representative model."
+      }
+    ],
+    "sources": [
+      {
+        "id": "seer-female-ovaries",
+        "label": "NCI SEER Training: Ovaries",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html"
+      },
+      {
+        "id": "seer-female-tract",
+        "label": "NCI SEER Training: Genital Tract",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html"
+      },
+      {
+        "id": "anatomy-visual",
+        "label": "HuBMAP HRA source model for this attributed illustration; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2"
+      },
+      {
+        "id": "anatomy-model-1",
+        "label": "HuBMAP HRA illustration source: VH_F_Uterus.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Uterus.glb"
+      },
+      {
+        "id": "anatomy-model-2",
+        "label": "HuBMAP HRA illustration source: VH_F_Ovary_L.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Ovary_L.glb"
+      },
+      {
+        "id": "anatomy-model-3",
+        "label": "HuBMAP HRA illustration source: VH_F_Ovary_R.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Ovary_R.glb"
+      },
+      {
+        "id": "anatomy-model-4",
+        "label": "HuBMAP HRA illustration source: VH_F_Fallopian_Tube_L.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Fallopian_Tube_L.glb"
+      },
+      {
+        "id": "anatomy-model-5",
+        "label": "HuBMAP HRA illustration source: VH_F_Fallopian_Tube_R.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Fallopian_Tube_R.glb"
+      },
+      {
+        "id": "anatomy-model-6",
+        "label": "HuBMAP HRA illustration source: VH_F_Vagina.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Vagina.glb"
+      }
+    ],
+    "note": "Educational anatomy using a representative source model. The illustration shows selected exterior structures; internal functions and pathways are explained in text. Body structures vary between people.",
+    "questions": [
+      {
+        "id": "sn84-q1",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the cervix, the narrower lower part of the uterus?",
+        "explanation": "B marks the cervix, the lower portion of the uterus. It connects the uterine region with the vagina below it.",
+        "sourceIds": [
+          "seer-female-tract",
+          "anatomy-visual",
+          "anatomy-model-1",
+          "anatomy-model-2",
+          "anatomy-model-3",
+          "anatomy-model-4",
+          "anatomy-model-5",
+          "anatomy-model-6"
+        ],
+        "diagram": {
+          "title": "Female reproductive structures",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique surface view of selected meshes in the HRA female-organ coordinate frame; no anatomical side key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/reproductive-female.webp",
+            "alt": "Oblique studio render of the HRA uterus, uterine-tube, ovary, and vagina meshes positioned in their shared female-organ coordinate frame, with four lettered callouts.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "correct": "B",
+        "context": "Oblique surface view of selected meshes in the HRA female-organ coordinate frame; no anatomical side key is shown."
+      },
+      {
+        "id": "sn84-q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "In this representative model, which paired organs release an oocyte at ovulation?",
+        "explanation": "The ovaries contain follicles and release an oocyte at ovulation.",
+        "sourceIds": [
+          "seer-female-ovaries"
+        ],
+        "options": [
+          {
+            "id": "ovaries",
+            "label": "Ovaries"
+          },
+          {
+            "id": "uterus",
+            "label": "Uterus"
+          },
+          {
+            "id": "cervix",
+            "label": "Cervix"
+          },
+          {
+            "id": "vagina",
+            "label": "Vagina"
+          }
+        ],
+        "correct": "ovaries"
+      },
+      {
+        "id": "sn84-q3",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Which statement correctly describes the connection between an ovary and a uterine tube?",
+        "explanation": "The tube is near the ovary but is not directly attached to it; fimbriae at the infundibulum are near the ovary.",
+        "sourceIds": [
+          "seer-female-tract"
+        ],
+        "options": [
+          {
+            "id": "near-not-joined",
+            "label": "The tube lies near the ovary but is not directly joined to it."
+          },
+          {
+            "id": "continuous",
+            "label": "The tube is a continuous extension of the ovary."
+          },
+          {
+            "id": "through-cervix",
+            "label": "The ovary connects to the tube through the cervix."
+          },
+          {
+            "id": "inside-vagina",
+            "label": "The tube lies inside the vaginal canal."
+          }
+        ],
+        "correct": "near-not-joined"
+      },
+      {
+        "id": "sn84-q4",
+        "sectionId": "s1",
+        "kind": "match",
+        "prompt": "Match each structure with its description in the representative tract.",
+        "explanation": "An ovary releases an oocyte, the endometrium lines the uterus, and the vagina extends from the cervix toward the exterior.",
+        "sourceIds": [
+          "seer-female-ovaries",
+          "seer-female-tract"
+        ],
+        "left": [
+          {
+            "id": "ovary",
+            "label": "Ovary"
+          },
+          {
+            "id": "endometrium",
+            "label": "Endometrium"
+          },
+          {
+            "id": "vagina",
+            "label": "Vagina"
+          }
+        ],
+        "right": [
+          {
+            "id": "releases-oocyte",
+            "label": "Releases an oocyte"
+          },
+          {
+            "id": "uterine-lining",
+            "label": "Uterine lining"
+          },
+          {
+            "id": "cervix-to-exterior",
+            "label": "Canal from cervix toward exterior"
+          }
+        ],
+        "pairs": {
+          "ovary": "releases-oocyte",
+          "endometrium": "uterine-lining",
+          "vagina": "cervix-to-exterior"
+        }
+      },
+      {
+        "id": "sn84-q5",
+        "sectionId": "s2",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the vagina below the cervix?",
+        "explanation": "D marks the vagina, which extends from the cervix toward the exterior. The uterus, cervix and vagina are distinct anatomical structures.",
+        "sourceIds": [
+          "seer-female-tract",
+          "anatomy-visual",
+          "anatomy-model-1",
+          "anatomy-model-2",
+          "anatomy-model-3",
+          "anatomy-model-4",
+          "anatomy-model-5",
+          "anatomy-model-6"
+        ],
+        "diagram": {
+          "title": "Female reproductive structures",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique surface view of selected meshes in the HRA female-organ coordinate frame; no anatomical side key is shown.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/reproductive-female.webp",
+            "alt": "Oblique studio render of the HRA uterus, uterine-tube, ovary, and vagina meshes positioned in their shared female-organ coordinate frame, with four lettered callouts.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "correct": "D",
+        "context": "Oblique surface view of selected meshes in the HRA female-organ coordinate frame; no anatomical side key is shown."
+      },
+      {
+        "id": "sn84-q6",
+        "sectionId": "s2",
+        "kind": "order",
+        "prompt": "Order these landmarks along an oocyte’s route after release, using the representative pathway.",
+        "explanation": "After release from an ovary, an oocyte is near the fimbriae, enters a uterine tube, and can reach the uterus. The ovary is not directly joined to the tube.",
+        "sourceIds": [
+          "seer-female-ovaries",
+          "seer-female-tract"
+        ],
+        "context": "This is a simplified anatomical sequence, not a claim that an oocyte must reach or implant in the uterus.",
+        "items": [
+          {
+            "id": "ovary",
+            "label": "Release from ovary"
+          },
+          {
+            "id": "fimbriae",
+            "label": "Fimbriae near ovary"
+          },
+          {
+            "id": "tube",
+            "label": "Uterine tube"
+          },
+          {
+            "id": "uterus",
+            "label": "Uterus"
+          }
+        ],
+        "correctOrder": [
+          "ovary",
+          "fimbriae",
+          "tube",
+          "uterus"
+        ]
+      },
+      {
+        "id": "sn84-q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "What is the name of the inner lining of the uterus?",
+        "explanation": "The endometrium is the uterine lining.",
+        "sourceIds": [
+          "seer-female-tract"
+        ],
+        "options": [
+          {
+            "id": "endometrium",
+            "label": "Endometrium"
+          },
+          {
+            "id": "cervix",
+            "label": "Cervix"
+          },
+          {
+            "id": "fimbriae",
+            "label": "Fimbriae"
+          },
+          {
+            "id": "epididymis",
+            "label": "Epididymis"
+          }
+        ],
+        "correct": "endometrium"
+      },
+      {
+        "id": "sn84-q8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Between which two structures does the cited anatomy module place the vagina?",
+        "explanation": "The module places the vagina between the bladder and rectum.",
+        "sourceIds": [
+          "seer-female-tract"
+        ],
+        "options": [
+          {
+            "id": "bladder-rectum",
+            "label": "Bladder and rectum"
+          },
+          {
+            "id": "kidneys",
+            "label": "The two kidneys"
+          },
+          {
+            "id": "ovaries",
+            "label": "The two ovaries"
+          },
+          {
+            "id": "lungs",
+            "label": "The two lungs"
+          }
+        ],
+        "correct": "bladder-rectum"
+      }
+    ]
+  },
+  {
+    "id": "SN-85",
+    "slug": "male-reproductive-anatomy-ducts-and-glands",
+    "categoryId": "science-nature",
+    "title": "Male Reproductive Anatomy: Ducts and Glands",
+    "description": "Follow sperm through a representative male reproductive tract and distinguish ducts, glands, and the shared urethral outlet.",
+    "kind": "knowledge",
+    "version": 1,
+    "minutes": 6,
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Production and transport",
+        "description": "Identify where sperm form and how they move through the ducts."
+      },
+      {
+        "id": "s2",
+        "title": "Glands and outlet",
+        "description": "Locate the prostate and distinguish its role from the urethral route."
+      }
+    ],
+    "sources": [
+      {
+        "id": "seer-male-testes",
+        "label": "NCI SEER Training: Testes",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/testes.html"
+      },
+      {
+        "id": "seer-male-ducts",
+        "label": "NCI SEER Training: Duct System",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html"
+      },
+      {
+        "id": "seer-male-glands",
+        "label": "NCI SEER Training: Accessory Glands",
+        "kind": "reference",
+        "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html"
+      },
+      {
+        "id": "anatomy-visual",
+        "label": "HuBMAP HRA source model for this attributed illustration; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2"
+      },
+      {
+        "id": "anatomy-model-1",
+        "label": "HuBMAP HRA illustration source: VH_M_Prostate.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Prostate.glb"
+      },
+      {
+        "id": "anatomy-model-2",
+        "label": "HuBMAP HRA illustration source: VH_M_Urethra.glb; CC BY 4.0",
+        "kind": "reference",
+        "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2/VH_M_Urethra.glb"
+      }
+    ],
+    "note": "Educational anatomy using a representative source model. The illustration shows selected exterior structures; internal functions and pathways are explained in text. Body structures vary between people. This partial model includes ducts, prostate surfaces and urethra; the testes and penis are not represented.",
+    "questions": [
+      {
+        "id": "sn85-q1",
+        "sectionId": "s1",
+        "kind": "hotspot",
+        "prompt": "Which callout marks a deferent duct, a tube that carries sperm toward the ejaculatory duct?",
+        "explanation": "A points to a deferent duct in this partial source model. Sperm travel from the epididymis into a deferent duct before reaching the ejaculatory duct. The testes and epididymis are not shown in this image.",
+        "sourceIds": [
+          "seer-male-ducts",
+          "anatomy-visual",
+          "anatomy-model-1",
+          "anatomy-model-2"
+        ],
+        "diagram": {
+          "title": "Male reproductive structures",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique view of the selected HRA male-organ surfaces; partial model coverage is identified on the image.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/reproductive-male.webp",
+            "alt": "Oblique studio render of HRA male deferent duct, prostate-base and peripheral-zone, and urethra surfaces, with four lettered callouts and a note that testes and penis are absent from this selection.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "correct": "A",
+        "context": "Oblique view of the selected HRA male-organ surfaces; partial model coverage is identified on the image."
+      },
+      {
+        "id": "sn85-q2",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Where are sperm produced in the cited representative anatomy?",
+        "explanation": "Sperm are produced in seminiferous tubules within the testes.",
+        "sourceIds": [
+          "seer-male-testes"
+        ],
+        "options": [
+          {
+            "id": "testes",
+            "label": "Testes"
+          },
+          {
+            "id": "prostate",
+            "label": "Prostate"
+          },
+          {
+            "id": "bladder",
+            "label": "Bladder"
+          },
+          {
+            "id": "seminal-vesicles",
+            "label": "Seminal vesicles"
+          }
+        ],
+        "correct": "testes"
+      },
+      {
+        "id": "sn85-q3",
+        "sectionId": "s1",
+        "kind": "order",
+        "prompt": "Put these structures in the order sperm passes through them, beginning at the production site.",
+        "explanation": "The cited duct-system sequence runs from testes through epididymis, ductus deferens, ejaculatory duct, and urethra.",
+        "sourceIds": [
+          "seer-male-testes",
+          "seer-male-ducts"
+        ],
+        "items": [
+          {
+            "id": "testes",
+            "label": "Testes"
+          },
+          {
+            "id": "epididymis",
+            "label": "Epididymis"
+          },
+          {
+            "id": "ductus-deferens",
+            "label": "Ductus deferens"
+          },
+          {
+            "id": "ejaculatory-duct",
+            "label": "Ejaculatory duct"
+          },
+          {
+            "id": "urethra",
+            "label": "Urethra"
+          }
+        ],
+        "correctOrder": [
+          "testes",
+          "epididymis",
+          "ductus-deferens",
+          "ejaculatory-duct",
+          "urethra"
+        ]
+      },
+      {
+        "id": "sn85-q4",
+        "sectionId": "s1",
+        "kind": "choice",
+        "prompt": "Where does the epididymis lie in relation to a testis in this representative model?",
+        "explanation": "The epididymis lies along the superior and posterior part of a testis.",
+        "sourceIds": [
+          "seer-male-ducts"
+        ],
+        "options": [
+          {
+            "id": "upper-back",
+            "label": "Along its upper and back region"
+          },
+          {
+            "id": "inside-prostate",
+            "label": "Inside the prostate"
+          },
+          {
+            "id": "inside-bladder",
+            "label": "Inside the bladder"
+          },
+          {
+            "id": "beyond-urethra",
+            "label": "Beyond the urethral exit"
+          }
+        ],
+        "correct": "upper-back"
+      },
+      {
+        "id": "sn85-q5",
+        "sectionId": "s2",
+        "kind": "hotspot",
+        "prompt": "Which callout marks the urethra, the long channel continuing downward from the prostate region?",
+        "explanation": "D points to the urethral channel below the prostate region in this model. In this anatomy the urethra carries urine and, at a different time, semen toward the exterior. The target is not a view inside the prostate.",
+        "sourceIds": [
+          "seer-male-ducts",
+          "seer-male-glands",
+          "anatomy-visual",
+          "anatomy-model-1",
+          "anatomy-model-2"
+        ],
+        "diagram": {
+          "title": "Male reproductive structures",
+          "description": "Follow each letter’s leader line to its marked surface. Oblique view of the selected HRA male-organ surfaces; partial model coverage is identified on the image.",
+          "zones": [
+            {
+              "id": "A",
+              "label": "Callout A",
+              "x": 9.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "B",
+              "label": "Callout B",
+              "x": 85.0,
+              "y": 32.333,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "C",
+              "label": "Callout C",
+              "x": 9.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "D",
+              "label": "Callout D",
+              "x": 85.0,
+              "y": 68.111,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "image": {
+            "src": "/anatomy/reproductive-male.webp",
+            "alt": "Oblique studio render of HRA male deferent duct, prostate-base and peripheral-zone, and urethra surfaces, with four lettered callouts and a note that testes and penis are absent from this selection.",
+            "width": 1200,
+            "height": 900,
+            "credit": "HuBMAP Consortium, HRA CCF 3D Reference Object Library, selected v1.2 models; CC BY 4.0. Render materials and camera adaptation by TypologyQuiz; no endorsement implied.",
+            "sourceUrl": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library/tree/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Male/v1.2",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "options": [
+          {
+            "id": "A",
+            "label": "Callout A"
+          },
+          {
+            "id": "B",
+            "label": "Callout B"
+          },
+          {
+            "id": "C",
+            "label": "Callout C"
+          },
+          {
+            "id": "D",
+            "label": "Callout D"
+          }
+        ],
+        "correct": "D",
+        "context": "Oblique view of the selected HRA male-organ surfaces; partial model coverage is identified on the image."
+      },
+      {
+        "id": "sn85-q6",
+        "sectionId": "s2",
+        "kind": "match",
+        "prompt": "Match each structure with its role in the representative model.",
+        "explanation": "The ductus deferens transports sperm, the prostate adds fluid, and the urethra provides an exit passage.",
+        "sourceIds": [
+          "seer-male-ducts",
+          "seer-male-glands"
+        ],
+        "left": [
+          {
+            "id": "ductus-deferens",
+            "label": "Ductus deferens"
+          },
+          {
+            "id": "prostate",
+            "label": "Prostate"
+          },
+          {
+            "id": "urethra",
+            "label": "Urethra"
+          }
+        ],
+        "right": [
+          {
+            "id": "transports-sperm",
+            "label": "Transports sperm toward the ejaculatory duct"
+          },
+          {
+            "id": "adds-fluid",
+            "label": "Adds fluid to semen"
+          },
+          {
+            "id": "exit-passage",
+            "label": "Provides a passage to the exterior"
+          }
+        ],
+        "pairs": {
+          "ductus-deferens": "transports-sperm",
+          "prostate": "adds-fluid",
+          "urethra": "exit-passage"
+        }
+      },
+      {
+        "id": "sn85-q7",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Where is the prostate located relative to the bladder and urethra?",
+        "explanation": "The prostate is inferior to the bladder and surrounds part of the urethra.",
+        "sourceIds": [
+          "seer-male-glands"
+        ],
+        "options": [
+          {
+            "id": "below-around",
+            "label": "Below the bladder, around part of the urethra"
+          },
+          {
+            "id": "inside-testis",
+            "label": "Inside a testis"
+          },
+          {
+            "id": "above-kidney",
+            "label": "Above a kidney"
+          },
+          {
+            "id": "inside-epididymis",
+            "label": "Inside the epididymis"
+          }
+        ],
+        "correct": "below-around"
+      },
+      {
+        "id": "sn85-q8",
+        "sectionId": "s2",
+        "kind": "choice",
+        "prompt": "Which other material passes through the urethra in this representative model?",
+        "explanation": "The urethra is also the urine exit route; sperm production takes place in testes, not in this outlet.",
+        "sourceIds": [
+          "seer-male-ducts"
+        ],
+        "options": [
+          {
+            "id": "urine",
+            "label": "Urine"
+          },
+          {
+            "id": "bile",
+            "label": "Bile"
+          },
+          {
+            "id": "oocyte",
+            "label": "Oocyte"
+          },
+          {
+            "id": "blood",
+            "label": "Blood"
+          }
+        ],
+        "correct": "urine"
+      }
+    ]
   }
 ]

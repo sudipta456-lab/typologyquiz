@@ -36,7 +36,7 @@
     {
       "code": "SN",
       "name": "Science & Nature",
-      "count": 77,
+      "count": 85,
       "file": "06-science-nature.md"
     },
     {
@@ -8555,6 +8555,174 @@
       "category_code": "SG",
       "wave": "catchup-2026-11-20",
       "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-78",
+      "title": "Body Regions & Directions",
+      "slug": "body-regions-and-directions",
+      "kind": "knowledge",
+      "hook": "Identify visible regions on an exterior body outline, then use anatomical direction, planes, and cavities to describe the body.",
+      "rounds": [
+        "4 tasks: Orient the model — Identify visible exterior body regions and learn limb-direction vocabulary.",
+        "4 tasks: Map the spaces — Connect body planes and cavities to the structures they organize."
+      ],
+      "seed": "Which marked body region contains the cranial cavity that protects the brain?",
+      "payoff": "Connect visible anatomical landmarks with their functions and pathways, using source-attributed images and explanatory feedback.",
+      "audience": "Curious learners and families studying introductory factual anatomy. Representative educational models; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level NIH/NCI/NHLBI/NIDDK/NINDS educational references, as appropriate to the topic, plus pinned HuBMAP HRA source models. Actual sources are listed with each question.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two sections, with multiple supported formats. Image keys were checked against the final lettered plates and source-model provenance. Exterior renders are not presented as anatomical sections; separate licensed reference figures support further study. See the November 21 anatomy release record for review scope and limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "anatomy-atlas-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-79",
+      "title": "Heart Chambers: Follow the Blood",
+      "slug": "heart-chambers-and-blood-route",
+      "kind": "knowledge",
+      "hook": "Locate the four chambers, match valves to their boundaries, and trace a simplified blood route through the heart and lungs.",
+      "rounds": [
+        "4 tasks: Read the heart map — Identify chambers and the one-way boundaries between them.",
+        "4 tasks: Trace the circuit — Follow blood through the lungs and back to the body without relying on color alone."
+      ],
+      "seed": "Which callout marks the right atrium, an upper chamber that receives blood returning from the body?",
+      "payoff": "Connect visible anatomical landmarks with their functions and pathways, using source-attributed images and explanatory feedback.",
+      "audience": "Curious learners and families studying introductory factual anatomy. Representative educational models; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level NIH/NCI/NHLBI/NIDDK/NINDS educational references, as appropriate to the topic, plus pinned HuBMAP HRA source models. Actual sources are listed with each question.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two sections, with multiple supported formats. Image keys were checked against the final lettered plates and source-model provenance. Exterior renders are not presented as anatomical sections; separate licensed reference figures support further study. See the November 21 anatomy release record for review scope and limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "anatomy-atlas-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-80",
+      "title": "Brain Regions: A Map of Many Jobs",
+      "slug": "brain-regions-and-what-they-contribute",
+      "kind": "knowledge",
+      "hook": "Orient a gross brain view, connect major regions with broad contributions, and separate useful associations from one-region-does-everything myths.",
+      "rounds": [
+        "4 tasks: Read the outer map — Locate lobes and relate them to broad, overlapping contributions.",
+        "4 tasks: Connect regions — Use broad functions carefully and keep the whole-brain picture in view."
+      ],
+      "seed": "Which callout marks the compact, tightly folded cerebellum below the larger cerebrum?",
+      "payoff": "Connect visible anatomical landmarks with their functions and pathways, using source-attributed images and explanatory feedback.",
+      "audience": "Curious learners and families studying introductory factual anatomy. Representative educational models; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level NIH/NCI/NHLBI/NIDDK/NINDS educational references, as appropriate to the topic, plus pinned HuBMAP HRA source models. Actual sources are listed with each question.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two sections, with multiple supported formats. Image keys were checked against the final lettered plates and source-model provenance. Exterior renders are not presented as anatomical sections; separate licensed reference figures support further study. See the November 21 anatomy release record for review scope and limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "anatomy-atlas-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-81",
+      "title": "Airways to Alveoli: The Gas-Exchange Route",
+      "slug": "airways-to-alveoli-gas-exchange",
+      "kind": "knowledge",
+      "hook": "Follow inhaled air through branching airways, identify the alveoli, and track oxygen and carbon dioxide across the air-blood boundary.",
+      "rounds": [
+        "4 tasks: Follow the airway branches — Locate the main passages and put their named structures in route order.",
+        "4 tasks: Trade gases — Connect alveoli, capillaries and blood flow without using color as a rule."
+      ],
+      "seed": "Which callout marks the ringed trachea (windpipe) before it divides toward the lungs?",
+      "payoff": "Connect visible anatomical landmarks with their functions and pathways, using source-attributed images and explanatory feedback.",
+      "audience": "Curious learners and families studying introductory factual anatomy. Representative educational models; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level NIH/NCI/NHLBI/NIDDK/NINDS educational references, as appropriate to the topic, plus pinned HuBMAP HRA source models. Actual sources are listed with each question.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two sections, with multiple supported formats. Image keys were checked against the final lettered plates and source-model provenance. Exterior renders are not presented as anatomical sections; separate licensed reference figures support further study. See the November 21 anatomy release record for review scope and limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "anatomy-atlas-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-82",
+      "title": "A Meal’s Route: Inside the Digestive System",
+      "slug": "a-meals-route-inside-the-digestive-system",
+      "kind": "knowledge",
+      "hook": "Trace the digestive tract, connect organs with their roles, and identify where its major parts fit. The learning set distinguishes the food pathway from the work of nearby digestive organs.",
+      "rounds": [
+        "4 tasks: Route and supporting organs — Follow the tract and identify the roles of digestive organs.",
+        "4 tasks: Segments and absorption — Review intestine parts and the functions stated for them."
+      ],
+      "seed": "Place these named gastrointestinal structures in the order food travels through them, from entry to exit.",
+      "payoff": "Connect visible anatomical landmarks with their functions and pathways, using source-attributed images and explanatory feedback.",
+      "audience": "Curious learners and families studying introductory factual anatomy. Representative educational models; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level NIH/NCI/NHLBI/NIDDK/NINDS educational references, as appropriate to the topic, plus pinned HuBMAP HRA source models. Actual sources are listed with each question.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two sections, with multiple supported formats. Image keys were checked against the final lettered plates and source-model provenance. Exterior renders are not presented as anatomical sections; separate licensed reference figures support further study. See the November 21 anatomy release record for review scope and limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "anatomy-atlas-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-83",
+      "title": "Kidneys at Work: Blood In, Urine Out",
+      "slug": "kidneys-at-work-blood-in-urine-out",
+      "kind": "knowledge",
+      "hook": "Explore the paired kidneys, distinguish blood-vessel movement from urine flow, and connect urinary-tract parts with their roles.",
+      "rounds": [
+        "4 tasks: Paired kidneys and blood — Identify kidney location and distinguish the incoming and outgoing blood vessels.",
+        "4 tasks: Urine route and urinary-tract roles — Trace urine from kidney to exit and review storage and transport roles."
+      ],
+      "seed": "Which callout points to the inward notch (hilum) of the kidney on the viewer’s left?",
+      "payoff": "Connect visible anatomical landmarks with their functions and pathways, using source-attributed images and explanatory feedback.",
+      "audience": "Curious learners and families studying introductory factual anatomy. Representative educational models; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level NIH/NCI/NHLBI/NIDDK/NINDS educational references, as appropriate to the topic, plus pinned HuBMAP HRA source models. Actual sources are listed with each question.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two sections, with multiple supported formats. Image keys were checked against the final lettered plates and source-model provenance. Exterior renders are not presented as anatomical sections; separate licensed reference figures support further study. See the November 21 anatomy release record for review scope and limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "anatomy-atlas-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-84",
+      "title": "Female Reproductive Anatomy: Structures and Pathways",
+      "slug": "female-reproductive-anatomy-structures-and-pathways",
+      "kind": "knowledge",
+      "hook": "Identify structures in a representative female reproductive tract and trace an oocyte’s route using classroom anatomy.",
+      "rounds": [
+        "4 tasks: Locate the structures — Orient to visible tract landmarks and the paired ovaries.",
+        "4 tasks: Follow the pathway — Connect the tube, uterus, cervix, and vagina in a representative model."
+      ],
+      "seed": "Which callout marks the cervix, the narrower lower part of the uterus?",
+      "payoff": "Connect visible anatomical landmarks with their functions and pathways, using source-attributed images and explanatory feedback.",
+      "audience": "Curious learners and families studying introductory factual anatomy. Representative educational models; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level NIH/NCI/NHLBI/NIDDK/NINDS educational references, as appropriate to the topic, plus pinned HuBMAP HRA source models. Actual sources are listed with each question.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two sections, with multiple supported formats. Image keys were checked against the final lettered plates and source-model provenance. Exterior renders are not presented as anatomical sections; separate licensed reference figures support further study. See the November 21 anatomy release record for review scope and limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "anatomy-atlas-2026-11-21",
+      "evidence_class": "evergreen"
+    },
+    {
+      "id": "SN-85",
+      "title": "Male Reproductive Anatomy: Ducts and Glands",
+      "slug": "male-reproductive-anatomy-ducts-and-glands",
+      "kind": "knowledge",
+      "hook": "Follow sperm through a representative male reproductive tract and distinguish ducts, glands, and the shared urethral outlet.",
+      "rounds": [
+        "4 tasks: Production and transport — Identify where sperm form and how they move through the ducts.",
+        "4 tasks: Glands and outlet — Locate the prostate and distinguish its role from the urethral route."
+      ],
+      "seed": "Which callout marks a deferent duct, a tube that carries sperm toward the ejaculatory duct?",
+      "payoff": "Connect visible anatomical landmarks with their functions and pathways, using source-attributed images and explanatory feedback.",
+      "audience": "Curious learners and families studying introductory factual anatomy. Representative educational models; no clinical or diagnostic interpretation.",
+      "evidence": "Question-level NIH/NCI/NHLBI/NIDDK/NINDS educational references, as appropriate to the topic, plus pinned HuBMAP HRA source models. Actual sources are listed with each question.",
+      "dependency": "base",
+      "production_note": "Exactly eight tasks in two sections, with multiple supported formats. Image keys were checked against the final lettered plates and source-model provenance. Exterior renders are not presented as anatomical sections; separate licensed reference figures support further study. See the November 21 anatomy release record for review scope and limits.",
+      "category": "Science & Nature",
+      "category_code": "SN",
+      "wave": "anatomy-atlas-2026-11-21",
+      "evidence_class": "evergreen"
     }
-  ]
+]
 }

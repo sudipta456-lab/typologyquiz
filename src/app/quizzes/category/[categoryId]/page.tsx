@@ -61,6 +61,22 @@ export default async function InteractiveCategoryPage({ params }: { params: Para
         <p className="eyebrow"><Link href="/quizzes/">Interactive quizzes</Link> / {category.name}</p>
         <h1 className="section-title">{category.name}</h1>
         <p className="section-lead">{category.description}</p>
+        {category.id === "science-nature" && (
+          <aside className="quiz-card" aria-label="Periodic table learning reference" style={{ display: "block", margin: "0 0 24px", borderLeft: "4px solid var(--accent)" }}>
+            <p className="eyebrow" style={{ marginBottom: 6 }}>Learning reference</p>
+            <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>Explore the periodic table</h2>
+            <p className="quiz-card-desc">Explore all 118 recognized elements and try 24 untimed, open-book practice steps across three guided tracks.</p>
+            <Link href="/learn/periodic-table/" className="btn-primary" style={{ marginTop: 14 }}>Open periodic table learning</Link>
+          </aside>
+        )}
+        {category.id === "science-nature" && (
+          <aside className="quiz-card" aria-label="Anatomy Atlas learning reference" style={{ display: "block", margin: "0 0 24px", borderLeft: "4px solid var(--accent)" }}>
+            <p className="eyebrow" style={{ marginBottom: 6 }}>Visual learning guide</p>
+            <h2 className="quiz-card-title" style={{ marginBottom: 6 }}>Explore the Anatomy Atlas</h2>
+            <p className="quiz-card-desc">Study source-attributed anatomy references and selected local 3D models, with concise notes and original linked quizzes.</p>
+            <Link href="/learn/anatomy/" className="btn-primary" style={{ marginTop: 14 }}>Open Anatomy Atlas</Link>
+          </aside>
+        )}
         <QuizDirectory quizzes={SUMMARIES} categories={CATEGORIES} initialCategory={category.id} />
       </div>
     </>

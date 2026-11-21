@@ -52,6 +52,14 @@ import { THIS_OR_THAT_PAIRS } from "../src/lib/minis/data/this-or-that.ts";
 import { SITE } from "../src/lib/site.ts";
 import { CATEGORIES } from "../src/lib/interactive/categories.ts";
 import { SUMMARIES } from "../src/lib/interactive/catalog.generated.ts";
+import { ELEMENTS } from "../src/components/periodic-table/data.ts";
+import { LEARNING_TRACKS } from "../src/components/periodic-table/learning.ts";
+
+const anatomyAssetsModule = new URL("../src/components/anatomy/assets.ts", import.meta.url);
+if (!fs.existsSync(anatomyAssetsModule)) {
+  throw new Error("Pending anatomy integration: src/components/anatomy/assets.ts has not arrived");
+}
+const { ANATOMY_ASSETS } = await import(anatomyAssetsModule.href);
 
 const base = SITE.url.replace(/\/$/, "");
 const L = [];
@@ -77,6 +85,11 @@ const authoredQuizzes = TRIVIA_QUIZZES.filter((q) => q.filterLetter === undefine
 
 const interactiveTaskTotal = SUMMARIES.reduce((n, quiz) => n + quiz.questionCount, 0);
 const interactiveFormats = [...new Set(SUMMARIES.flatMap((quiz) => quiz.formats))];
+const periodicTablePracticeSteps = LEARNING_TRACKS.reduce((n, track) => n + track.steps.length, 0);
+const INITIAL_ANATOMY_QUIZ_IDS = new Set(["SN-78", "SN-79", "SN-80", "SN-81", "SN-82", "SN-83", "SN-84", "SN-85"]);
+const anatomyQuizzes = SUMMARIES.filter((quiz) => INITIAL_ANATOMY_QUIZ_IDS.has(quiz.id));
+const anatomyTaskCount = anatomyQuizzes.reduce((sum, quiz) => sum + quiz.questionCount, 0);
+const anatomyModelFileCount = ANATOMY_ASSETS.reduce((sum, asset) => sum + asset.modelUrls.length, 0);
 
 const friendQuestionCount = FRIEND_PACKS.reduce((n, p) => n + p.questions.length, 0);
 const friendRoundSize = sampleMix().length;
@@ -116,6 +129,7 @@ const SECTIONS = [
   "Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.",
   "Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. Some carry state inside share links; recipients can read that information, and hosting services receive request URLs without fragments. Most Likely To exports an image card instead.",
   `${SUMMARIES.length} interactive quizzes in ${CATEGORIES.length} categories. Short original tasks such as matching, ordering, link maps, grids, listening and diagram questions. Knowledge tasks have right answers; choice-based quizzes only describe the player's own choices. Answers are scored in the browser.`,
+  "A source-attributed anatomy learning guide with selected local reference models, original image-based questions, per-asset credits and text alternatives. It is general education, not medical validation.",
 ];
 
 // ---------------------------------------------------------------------------
@@ -153,6 +167,8 @@ L.push(`- [Home](${base}/): all ${numberWord(SECTIONS.length).toLowerCase()} sec
 L.push(`- [Interactive quizzes](${base}/quizzes/): ${SUMMARIES.length} short original quizzes in ${CATEGORIES.length} categories`);
 L.push(`- [All quizzes](${base}/tests/): browse all ${TESTS.length} personality quizzes`);
 L.push(`- [Trivia](${base}/trivia/): ${TRIVIA_QUIZZES.length} timed type-in and map quizzes plus ${RAPID_ROUNDS.length} rapid rounds`);
+L.push(`- [Periodic table learning](${base}/learn/periodic-table/): a searchable reference to ${ELEMENTS.length} recognized elements and ${periodicTablePracticeSteps} open-book practice steps across ${LEARNING_TRACKS.length} tracks; practice stays within the guide rather than adding extra quizzes`);
+L.push(`- [Anatomy Atlas](${base}/learn/anatomy/): source-attributed anatomy references and selected local models, with ${anatomyQuizzes.length} canonical image-based anatomy quizzes and ${anatomyTaskCount} tasks currently linked from the guide`);
 L.push(`- [Movie quizzes](${base}/trivia/movies/): ${MOVIE_QUIZZES.length} original movie and movie-character quizzes, ${MOVIE_QUIZ_QUESTION_COUNT} sourced questions each`);
 L.push(`- [Driving practice tests](${base}/driving/): pick a province or state`);
 L.push(`- [Daily minis](${base}/daily/): three tiny games, new every UTC day, with a streak`);
@@ -342,10 +358,29 @@ L.push("");
 
 // ---------------------------------------------------------------------------
 
+L.push("## Periodic table learning");
+L.push("");
+L.push(
+  `The learning guide at ${base}/learn/periodic-table/ keeps lookup available while visitors try ${periodicTablePracticeSteps} open-book practice steps across ${LEARNING_TRACKS.length} tracks. It covers ${ELEMENTS.length} recognized elements; the current table ends at 118, while searches beyond it remain research targets unless confirmed. Standard atomic weights follow CIAAW's 2024 full values for zirconium, gadolinium, and lutetium; a weight is not an isotope mass number or neutron count. Missing values stay unassigned, and estimated or unknown states are labeled rather than inferred as facts. The page links IUPAC, CIAAW, PubChem, and OpenStax sources directly.`
+);
+L.push("");
+
+// ---------------------------------------------------------------------------
+
+L.push("## Anatomy Atlas");
+L.push("");
+L.push(
+  `The guide at ${base}/learn/anatomy/ presents source-attributed references for body orientation, the heart, brain, lungs, digestion, urinary anatomy, and reproductive systems. It currently links ${anatomyQuizzes.length} canonical image-based anatomy quizzes with ${anatomyTaskCount} tasks, counted from the published catalog only. It lists ${ANATOMY_ASSETS.length} selected reference assets and ${anatomyModelFileCount} local 3D model files; individual credits, source links, license terms, and image alternatives are attached to each asset. Original questions and schematic annotations are TypologyQuiz work. This educational guide is not medical validation, diagnosis, a symptom checker, or procedure guidance.`
+);
+L.push("The complete anatomy quiz entries appear once below, under Science & Nature in the interactive collection.");
+L.push("");
+
+// ---------------------------------------------------------------------------
+
 L.push("## Interactive quizzes");
 L.push("");
 L.push(
-  `${SUMMARIES.length} short quizzes in ${CATEGORIES.length} categories at ${base}/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones and reading original diagrams. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data and sounds are original to this site, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.`
+  `${SUMMARIES.length} short quizzes in ${CATEGORIES.length} categories at ${base}/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones, original diagrams, and source-attributed anatomy reference images. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data, sounds, and schematic annotations are original to this site; anatomy reference assets list their individual sources and license terms, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.`
 );
 L.push("");
 for (const category of CATEGORIES) {

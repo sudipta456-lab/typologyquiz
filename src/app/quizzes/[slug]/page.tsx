@@ -103,6 +103,14 @@ export default async function InteractiveQuizPage({ params }: { params: Params }
             <p><strong>A film example.</strong> Imagine a crew invents a story about a town’s missing bell and shoots it with interviews and handheld footage. The camera style can feel like a documentary even when the story and interviews are made up.</p>
           )}
           <p>Read <Link href="/methodology/interactive-quizzes/" className="text-link">how these quizzes are scored, sourced and reviewed</Link>.</p>
+          {quiz.questions.some((question) => question.kind === "hotspot" && question.diagram.image) && (
+            <p><Link href="/learn/anatomy/" className="text-link">Study the Anatomy Atlas</Link> for larger images, written structure notes and optional 3D models.</p>
+          )}
+          {quiz.slug === "follow-the-atoms" && (
+            <p>
+              <Link href="/learn/periodic-table/" className="text-link">Open the periodic table reference</Link>. This quiz uses fictional A/B particle labels to model atom counts, not real element symbols or periodic-table lookup.
+            </p>
+          )}
           {hasOriginal && <p>People, places, data and rules in the original cases are written for this quiz. Where a task relies on a real fact, the source is listed with the task and below.</p>}
           {references.length > 0 && (
             <>

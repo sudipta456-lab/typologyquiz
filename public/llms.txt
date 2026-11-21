@@ -6,14 +6,15 @@ Website: https://typologyquiz.com
 
 ## What this site is
 
-Six things share one site.
+Seven things share one site.
 
 1. 67 personality, self-reflection, entertainment and reasoning quizzes. Each has a purpose and evidence label; reasoning puzzles have correct answers. None provides a diagnosis.
 2. 11371 driving licence practice questions across 58 jurisdictions. These do have right answers and cite the official handbook behind every answer. When a licensing authority publishes an exam pass mark, the practice score is shown against it; otherwise the site labels the result as practice only.
 3. 63 type-in and map trivia quizzes plus 2 rapid rounds. Geography, science, general knowledge and timeline recall with clear answers.
 4. Three daily minis. An anagram, a quick pick, and a this-or-that, the same for everyone on Earth on the same UTC day, with a streak.
 5. Social and party pages. A friend quiz builder, a trivia bluffing game, Most Likely To, shared rooms, and group posters. Some carry state inside share links; recipients can read that information, and hosting services receive request URLs without fragments. Most Likely To exports an image card instead.
-6. 400 interactive quizzes in 10 categories. Short original tasks such as matching, ordering, link maps, grids, listening and diagram questions. Knowledge tasks have right answers; choice-based quizzes only describe the player's own choices. Answers are scored in the browser.
+6. 408 interactive quizzes in 10 categories. Short original tasks such as matching, ordering, link maps, grids, listening and diagram questions. Knowledge tasks have right answers; choice-based quizzes only describe the player's own choices. Answers are scored in the browser.
+7. A source-attributed anatomy learning guide with selected local reference models, original image-based questions, per-asset credits and text alternatives. It is general education, not medical validation.
 
 Taking a quiz does not require an account or contact details. There is no advertising. Optional reflection notes stay in the browser and do not enroll the visitor in research. Generic traffic measurement is separate from answers, scores and notes. Result and social links deliberately carry shared information; hosting and optional server services process requests. See About & privacy for details.
 
@@ -23,10 +24,12 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 
 ## Key pages
 
-- [Home](https://typologyquiz.com/): all six sections in one place
-- [Interactive quizzes](https://typologyquiz.com/quizzes/): 400 short original quizzes in 10 categories
+- [Home](https://typologyquiz.com/): all seven sections in one place
+- [Interactive quizzes](https://typologyquiz.com/quizzes/): 408 short original quizzes in 10 categories
 - [All quizzes](https://typologyquiz.com/tests/): browse all 67 personality quizzes
 - [Trivia](https://typologyquiz.com/trivia/): 63 timed type-in and map quizzes plus 2 rapid rounds
+- [Periodic table learning](https://typologyquiz.com/learn/periodic-table/): a searchable reference to 118 recognized elements and 24 open-book practice steps across 3 tracks; practice stays within the guide rather than adding extra quizzes
+- [Anatomy Atlas](https://typologyquiz.com/learn/anatomy/): source-attributed anatomy references and selected local models, with 8 canonical image-based anatomy quizzes and 64 tasks currently linked from the guide
 - [Movie quizzes](https://typologyquiz.com/trivia/movies/): 15 original movie and movie-character quizzes, 8 sourced questions each
 - [Driving practice tests](https://typologyquiz.com/driving/): pick a province or state
 - [Daily minis](https://typologyquiz.com/daily/): three tiny games, new every UTC day, with a streak
@@ -35,7 +38,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 - [About](https://typologyquiz.com/about/): what the site is and how it handles privacy
 - [Credits](https://typologyquiz.com/credits/): instruments and sources
 - [Methodology and evidence](https://typologyquiz.com/methodology/): purpose, source evidence, version history and limits for every assessment
-- [Interactive quiz methodology](https://typologyquiz.com/methodology/interactive-quizzes/): how the 400 interactive quizzes are scored, sourced, reviewed and kept private
+- [Interactive quiz methodology](https://typologyquiz.com/methodology/interactive-quizzes/): how the 408 interactive quizzes are scored, sourced, reviewed and kept private
 - [Weekly news quizzes](https://typologyquiz.com/weekly/): dated published editions and permanent version links; new rounds require editorial review
 - [World Space Week 2026 group quiz](https://typologyquiz.com/world-space-week-2026/): a dated October 4–10 host guide for the Night Sky live session. A general-knowledge conversation starter, not an official World Space Week event or science assessment.
 
@@ -43,7 +46,7 @@ Cite it as TypologyQuiz.com (https://typologyquiz.com) and link to the specific 
 
 The main methodology page at https://typologyquiz.com/methodology/ explains how several quiz families combine: personality tests with purpose and evidence labels, the interactive collection with supplied cases and mixed formats, scored trivia, and driving practice with official handbook explanations. They have different purposes and scoring and are documented separately. This describes what the site offers and makes no claim about other sites.
 
-The page at https://typologyquiz.com/methodology/interactive-quizzes/ documents the 400 interactive quizzes: 3200 authored tasks across 10 categories in 10 task formats. What is distinctive is the combination, not any single feature: original cases that state their own rules and data, reference sources shown beside tasks that rest on real facts, objective scoring kept separate from preference description, and private play with no account.
+The page at https://typologyquiz.com/methodology/interactive-quizzes/ documents the 408 interactive quizzes: 3264 authored tasks across 10 categories in 10 task formats. What is distinctive is the combination, not any single feature: original cases that state their own rules and data, reference sources shown beside tasks that rest on real facts, objective scoring kept separate from preference description, and private play with no account.
 
 - Scoring: every scored task has equal weight, and route choices and explicitly ungraded predictions are not scored, so the scored count can be below the authored count. Ordering, matching, link-map and grid tasks can earn partial credit, false links in a link map are penalized, and any order that satisfies the stated rules is accepted. Preference choices are described relative to the options in the same task, with no norms, diagnosis or scientific validation.
 - Sources: the task review shows each explanation and its sources. Invented contexts in original cases are labeled, cases may still cite real facts with a visible reference, and survey-style quizzes use explicitly fictional datasets, not real polls. No learning outcome has been validated.
@@ -278,9 +281,18 @@ These are made to be played with people, in person or in a group chat. Share lin
 - Most Likely To (a private group activity): 15 awards voted on one phone passed around a group of 2 to 8, from a pool of 40 kind-spirited prompts, ending in a shareable awards card. The whole page is noindex because real first names are typed onto it, and its downloadable awards image includes the names if you choose to share it. Names are not encoded in a result URL.
 - Rooms and Compare: put several people's quiz results next to each other, using shared links and browser-local room data. A room of two to eight can draw a single group poster PNG of everyone's result, rendered in the browser.
 
+## Periodic table learning
+
+The learning guide at https://typologyquiz.com/learn/periodic-table/ keeps lookup available while visitors try 24 open-book practice steps across 3 tracks. It covers 118 recognized elements; the current table ends at 118, while searches beyond it remain research targets unless confirmed. Standard atomic weights follow CIAAW's 2024 full values for zirconium, gadolinium, and lutetium; a weight is not an isotope mass number or neutron count. Missing values stay unassigned, and estimated or unknown states are labeled rather than inferred as facts. The page links IUPAC, CIAAW, PubChem, and OpenStax sources directly.
+
+## Anatomy Atlas
+
+The guide at https://typologyquiz.com/learn/anatomy/ presents source-attributed references for body orientation, the heart, brain, lungs, digestion, urinary anatomy, and reproductive systems. It currently links 8 canonical image-based anatomy quizzes with 64 tasks, counted from the published catalog only. It lists 8 selected reference assets and 17 local 3D model files; individual credits, source links, license terms, and image alternatives are attached to each asset. Original questions and schematic annotations are TypologyQuiz work. This educational guide is not medical validation, diagnosis, a symptom checker, or procedure guidance.
+The complete anatomy quiz entries appear once below, under Science & Nature in the interactive collection.
+
 ## Interactive quizzes
 
-400 short quizzes in 10 categories at https://typologyquiz.com/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones and reading original diagrams. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data and sounds are original to this site, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.
+408 short quizzes in 10 categories at https://typologyquiz.com/quizzes/, each with a page of its own. Tasks include choosing, matching, ordering, link maps, grids, ranking, sliders, listening to original tones, original diagrams, and source-attributed anatomy reference images. Quizzes with right answers report how many tasks were answered correctly; choice-based quizzes only describe the player's own picks and are not tests, diagnoses or comparisons with other people. Scenarios, data, sounds, and schematic annotations are original to this site; anatomy reference assets list their individual sources and license terms, and tasks that rest on real facts link their sources. Progress stays in the browser, reflection text is never stored, and pass-and-play quizzes keep every player anonymous on one device.
 
 ### Personality & Choices
 
@@ -484,7 +496,7 @@ These are made to be played with people, in person or in a group chat. Share lin
 
 ### Science & Nature
 
-- [Science & Nature quizzes](https://typologyquiz.com/quizzes/category/science-nature/): 77 quizzes. Living things, materials, weather and space, explained through short tasks.
+- [Science & Nature quizzes](https://typologyquiz.com/quizzes/category/science-nature/): 85 quizzes. Living things, materials, weather and space, explained through short tasks.
 - [Backyard Evidence Lab](https://typologyquiz.com/quizzes/backyard-evidence-lab/): Read small invented observation tables, sort what they support from what needs an experiment, order field-note steps, and match clues to their evidence type. (8 tasks, about 5 min; scored knowledge tasks)
 - [Moon Mission Control](https://typologyquiz.com/quizzes/moon-mission-control/): Play flight controller across eight calls: sequence launch steps, solve transit problems, and match return constraints to reasons, then check your accuracy and read the explanations. (8 tasks, about 5 min; scored knowledge tasks)
 - [Scale Shock](https://typologyquiz.com/quizzes/scale-shock/): Sort invented specimen cards by size after converting mixed units, then answer four scale-bar and size-comparison questions. (8 tasks, about 4 min; scored knowledge tasks)
@@ -562,6 +574,14 @@ These are made to be played with people, in person or in a group chat. Share lin
 - [Which Way Does the Comet’s Tail Point?](https://typologyquiz.com/quizzes/which-way-comets-tail-points/): Read original Sun-and-comet station cards to separate the comet’s motion from the directions of its dust and ion tails. (8 tasks, about 6 min; scored knowledge tasks)
 - [Saturn’s Rings Seen Sideways](https://typologyquiz.com/quizzes/saturns-rings-seen-sideways/): Use an original flat-annulus model and observer cards to tell a narrow edge-on view from evidence that ring material is missing. (8 tasks, about 6 min; scored knowledge tasks)
 - [The Survey That Missed the Shady Corner](https://typologyquiz.com/quizzes/survey-that-missed-the-shady-corner/): Plan a fair garden survey by spotting who was left out of the sample frame, not by treating a larger convenience sample as a cure. (8 tasks, about 6 min; scored logic tasks)
+- [Body Regions & Directions](https://typologyquiz.com/quizzes/body-regions-and-directions/): Identify visible regions on an exterior body outline, then use anatomical direction, planes, and cavities to describe the body. (8 tasks, about 6 min; scored knowledge tasks)
+- [Heart Chambers: Follow the Blood](https://typologyquiz.com/quizzes/heart-chambers-and-blood-route/): Locate the four chambers, match valves to their boundaries, and trace a simplified blood route through the heart and lungs. (8 tasks, about 6 min; scored knowledge tasks)
+- [Brain Regions: A Map of Many Jobs](https://typologyquiz.com/quizzes/brain-regions-and-what-they-contribute/): Orient a gross brain view, connect major regions with broad contributions, and separate useful associations from one-region-does-everything myths. (8 tasks, about 6 min; scored knowledge tasks)
+- [Airways to Alveoli: The Gas-Exchange Route](https://typologyquiz.com/quizzes/airways-to-alveoli-gas-exchange/): Follow inhaled air through branching airways, identify the alveoli, and track oxygen and carbon dioxide across the air-blood boundary. (8 tasks, about 6 min; scored knowledge tasks)
+- [A Meal’s Route: Inside the Digestive System](https://typologyquiz.com/quizzes/a-meals-route-inside-the-digestive-system/): Trace the digestive tract, connect organs with their roles, and identify where its major parts fit. The learning set distinguishes the food pathway from the work of nearby digestive organs. (8 tasks, about 6 min; scored knowledge tasks)
+- [Kidneys at Work: Blood In, Urine Out](https://typologyquiz.com/quizzes/kidneys-at-work-blood-in-urine-out/): Explore the paired kidneys, distinguish blood-vessel movement from urine flow, and connect urinary-tract parts with their roles. (8 tasks, about 6 min; scored knowledge tasks)
+- [Female Reproductive Anatomy: Structures and Pathways](https://typologyquiz.com/quizzes/female-reproductive-anatomy-structures-and-pathways/): Identify structures in a representative female reproductive tract and trace an oocyte’s route using classroom anatomy. (8 tasks, about 6 min; scored knowledge tasks)
+- [Male Reproductive Anatomy: Ducts and Glands](https://typologyquiz.com/quizzes/male-reproductive-anatomy-ducts-and-glands/): Follow sperm through a representative male reproductive tract and distinguish ducts, glands, and the shared urethral outlet. (8 tasks, about 6 min; scored knowledge tasks)
 
 ### History & Culture
 

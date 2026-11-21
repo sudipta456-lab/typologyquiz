@@ -2,7 +2,7 @@ import Link from "next/link";
 import { SITE } from "@/lib/site";
 
 const groups = [
-  { title: "Explore", links: [["Personality quizzes", "/tests/"], ["Trivia & maps", "/trivia/"], ["Driving practice", "/driving/"], ["Weekly news", "/weekly/"], ["Daily question", "/daily/"]] },
+  { title: "Explore", links: [["Personality quizzes", "/tests/"], ["Trivia & maps", "/trivia/"], ["Periodic table", "/learn/periodic-table/"], ["Anatomy Atlas", "/learn/anatomy/"], ["Driving practice", "/driving/"], ["Weekly news", "/weekly/"], ["Daily question", "/daily/"]] },
   { title: "With friends", links: [["Host a live quiz", "/live/"], ["Make a friend quiz", "/friend-quiz/"], ["Fool your friends", "/fool/"], ["Compare results", "/compare/"], ["Create or join a room", "/room/"]] },
   { title: "Good to know", links: [["Name & appearance", "/account/"], ["About & privacy", "/about/"], ["Sources & credits", "/credits/"], ["How tests work", "/methodology/"], ["Your reflections", "/reflections/"]] },
 ];

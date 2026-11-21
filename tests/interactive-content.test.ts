@@ -108,6 +108,7 @@ const keyedQuestions = QUIZZES.flatMap((quiz) => quiz.questions.filter((q) => go
 function textsOf(quiz: Quiz): { path: string; text: string }[] {
   const found: { path: string; text: string }[] = [];
   const visit = (value: unknown, path: string): void => {
+    if (/^questions\[\d+\]\.diagram\.image$/.test(path)) return;
     if (typeof value === "string") found.push({ path, text: value });
     else if (Array.isArray(value)) value.forEach((entry, index) => visit(entry, `${path}[${index}]`));
     else if (value && typeof value === "object") {
@@ -379,9 +380,20 @@ test("no external media, embeds or media-bearing fields anywhere in the banks", 
       assert.ok(!/\bdata:[a-z]+\/[a-z0-9.+-]+/i.test(text), `${quiz.id} ${path}: data URI`);
       assert.ok(!/\.(mp3|wav|ogg|m4a|aac|flac|mp4|webm|mov|jpe?g|png|gif|webp|avif|svg)\b/i.test(text), `${quiz.id} ${path}: media filename`);
     }
-    for (const { path, key } of keysOf(quiz, "")) if (mediaKey.test(key)) assert.ok(key === "url" && path.startsWith("sources["), `${quiz.id} ${path}.${key}: media field`);
+    const imageMetadataPaths = new Set<string>();
+    for (const [index, q] of quiz.questions.entries()) if (q.kind === "hotspot" && q.diagram.image) {
+      imageMetadataPaths.add(`questions[${index}].diagram`);
+      imageMetadataPaths.add(`questions[${index}].diagram.image`);
+    }
+    for (const { path, key } of keysOf(quiz, "")) if (mediaKey.test(key)) {
+      const imageField = (path.endsWith(".diagram") && key === "image" || path.endsWith(".diagram.image") && key === "src") && imageMetadataPaths.has(path);
+      assert.ok(key === "url" && path.startsWith("sources[") || imageField, `${quiz.id} ${path}.${key}: media field`);
+    }
     for (const q of quiz.questions) {
-      if (q.kind === "hotspot") assert.deepEqual(Object.keys(q.diagram).sort(), ["description", "title", "zones"], `${quiz.id}/${q.id}`);
+      if (q.kind === "hotspot") {
+        assert.deepEqual(Object.keys(q.diagram).sort(), q.diagram.image ? ["description", "image", "title", "zones"] : ["description", "title", "zones"], `${quiz.id}/${q.id}`);
+        if (q.diagram.image) assert.deepEqual(Object.keys(q.diagram.image).sort(), ["alt", "credit", "height", "license", "sourceUrl", "src", "width"], `${quiz.id}/${q.id} image`);
+      }
       if (q.kind === "audio") for (const tone of q.tones) assert.ok(Object.keys(tone).every((key) => ["frequency", "duration", "delay", "waveform", "gain"].includes(key)), `${quiz.id}/${q.id}`);
     }
   }

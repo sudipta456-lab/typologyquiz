@@ -5,10 +5,15 @@ import { ORGANIZATION_REF, WEBSITE_REF, breadcrumbList, jsonLdGraph } from "@/li
 import { CATEGORIES } from "@/lib/interactive/categories";
 import { SUMMARIES } from "@/lib/interactive/catalog.generated";
 import type { QuizKind } from "@/lib/interactive/types";
+import { ANATOMY_ASSETS } from "@/components/anatomy/assets";
 
 const PATH = "/methodology/interactive-quizzes/";
-const UPDATED_ISO = "2026-10-23";
-const UPDATED_LABEL = "October 23, 2026";
+const UPDATED_ISO = "2026-11-21";
+const UPDATED_LABEL = "November 21, 2026";
+const INITIAL_ANATOMY_QUIZ_IDS = new Set(["SN-78", "SN-79", "SN-80", "SN-81", "SN-82", "SN-83", "SN-84", "SN-85"]);
+const ANATOMY_QUIZZES = SUMMARIES.filter((quiz) => INITIAL_ANATOMY_QUIZ_IDS.has(quiz.id));
+const ANATOMY_TASK_COUNT = ANATOMY_QUIZZES.reduce((sum, quiz) => sum + quiz.questionCount, 0);
+const LOCAL_ANATOMY_MODEL_COUNT = ANATOMY_ASSETS.reduce((sum, asset) => sum + asset.modelUrls.length, 0);
 
 // Everything numeric below is derived from the generated catalog, never typed in.
 const TOTAL_TASKS = SUMMARIES.reduce((sum, quiz) => sum + quiz.questionCount, 0);
@@ -139,7 +144,7 @@ export default function InteractiveMethodologyPage() {
         <section className="test-block">
           <h2 className="test-block-title">How the task formats work</h2>
           <p>
-            Choices can be forced pairs, short scenarios or ranked lists. Matching tasks use layers of items and may reuse the same target for several items. Link maps are many-to-many: one item can connect to several others, or to none. Grids ask for one choice per row. Sliders put you between two labelled poles. Diagram tasks present an original labelled diagram and ask you to pick among labelled alternatives. Listening tasks use original tones generated in your browser, and each one has a written transcript. A reflection task is an optional free-text prompt. Branching tasks appear only after the earlier choice that opens them.
+            Choices can be forced pairs, short scenarios or ranked lists. Matching tasks use layers of items and may reuse the same target for several items. Link maps are many-to-many: one item can connect to several others, or to none. Grids ask for one choice per row. Sliders put you between two labelled poles. Diagram tasks use original labelled schematics or source-attributed anatomy reference images, with text alternatives and labelled choices. Anatomy image credits, sources and license terms are shown per asset. Listening tasks use original tones generated in your browser, and each one has a written transcript. A reflection task is an optional free-text prompt. Branching tasks appear only after the earlier choice that opens them.
           </p>
           <p>
             Interaction uses buttons, selects, checkboxes and sliders. There is no drag and drop, no live multiplayer network, no countdown timer, no video, no AI analysis of your free text and no external AI service in the player. Scoring is a fixed, automatic calculation that runs in your browser. Pass-and-play quizzes are one device handed between two to four anonymous players. That is different from cooperative puzzles, which can be answered jointly by one group; not every cooperative puzzle uses a hand-off.
@@ -161,6 +166,17 @@ export default function InteractiveMethodologyPage() {
           <p>
             Invented contexts in original cases are labeled as such. Cases we wrote may still refer to real cities or facts, and when they do the reference is shown with the task. Survey-style quizzes use explicitly fictional datasets and own-choice questions; none reports a real poll. Quizzes on artificial intelligence topics are written tasks and do not use an AI service. We have not tested whether any quiz improves learning or any other outcome, and we make no claims about engagement or results from using them.
           </p>
+        </section>
+
+        <section className="test-block" id="anatomy">
+          <h2 className="test-block-title">Visual anatomy references</h2>
+          <p>
+            The <Link href="/learn/anatomy/" className="text-link">Anatomy Atlas</Link> combines selected local reference models with original TypologyQuiz questions and schematic annotations. The current catalog contains {ANATOMY_QUIZZES.length} canonical quizzes in this initial anatomy set and {ANATOMY_TASK_COUNT} tasks; this count comes from the published quiz catalog, not drafts. The atlas currently lists {LOCAL_ANATOMY_MODEL_COUNT} local 3D model files. Each reference shows source, credit, license terms and image alternative text. See <Link href="/credits/#anatomy" className="text-link">anatomy credits and rights</Link> for asset-specific attribution.
+          </p>
+          <p>
+            These are general learning references, not clinically validated materials, symptom checkers, diagnostic tools or procedure guidance. Model selection and illustrative coloring do not establish medical accuracy or represent every body. We have not tested whether these materials improve learning.
+          </p>
+          <p>Image-identification questions depend on the picture. Their letter choices support keyboard selection; the Atlas’s written structure notes offer another way to study, rather than an equivalent scored assessment for a nonvisual learner.</p>
         </section>
 
         <section className="test-block">
@@ -189,6 +205,7 @@ export default function InteractiveMethodologyPage() {
         <p className="methodology-footer">
           <Link href="/methodology/" className="text-link">Main methodology</Link>{" · "}
           <Link href="/quizzes/" className="text-link">Interactive quizzes</Link>{" · "}
+          <Link href="/credits/#anatomy" className="text-link">Anatomy credits & rights</Link>{" · "}
           <Link href="/credits/" className="text-link">Credits & rights</Link>{" · "}
           <Link href="/about/" className="text-link">Privacy & contact</Link>
         </p>

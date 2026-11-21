@@ -1,0 +1,25 @@
+.details {
+  max-width: 54rem;
+  margin: 1.4rem auto;
+  padding: 1rem;
+  border: 1px solid #d7e0e3;
+  border-radius: 12px;
+  background: #fff;
+  color: #263b42;
+}
+
+.details summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.details summary:focus-visible,
+.details a:focus-visible {
+  outline: 3px solid #0a777b;
+  outline-offset: 3px;
+}
+
+.caption { margin: .8rem 0; }
+.image { display: block; width: 100%; max-width: 100%; height: auto; margin: .8rem auto; border-radius: 8px; background: #fff; }
+.links { margin: .8rem 0 .35rem; }
+.credit { margin: .35rem 0 0; font-size: .85rem; line-height: 1.5; }

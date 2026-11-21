@@ -30,6 +30,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/tests/`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/driving/`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/trivia/`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/learn/periodic-table/`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/learn/anatomy/`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/trivia/physics/`, changeFrequency: "monthly", priority: 0.75 },
     { url: `${base}/trivia/alien-type/`, changeFrequency: "monthly", priority: 0.75 },
     { url: `${base}/trivia/ai-style/`, changeFrequency: "monthly", priority: 0.75 },
